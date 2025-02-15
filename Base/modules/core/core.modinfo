@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="core" version="1"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>Core</Name>
+		<Description>This is a core module of the game.</Description>
+		<Authors>LOC_AUTHORS_FIRAXIS</Authors>
+		<ShowInBrowser>0</ShowInBrowser>
+		<Package>BaseGame</Package>
+		<PackageSortIndex>0</PackageSortIndex>
+	</Properties>
+	<References></References>
+	<ActionCriteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<ActionGroup id="core-shell" scope="shell" criteria="always">
+			<Actions>
+				<UpdateDatabase>
+					<Item>config/Input.xml</Item>
+					<Item>config/SetupParameters.xml</Item>
+					<Item>config/TwoKTelemetryEvents.xml</Item>
+				</UpdateDatabase>
+
+				<UpdateIcons>
+					<Item>icons/icons.xml</Item>
+				</UpdateIcons>
+
+				<UpdateText>
+					<Item>text/en_us/CoreText.xml</Item>
+					<Item>text/en_us/ControllerText.xml</Item>
+					<Item>text/en_us/GrammarText.xml</Item>
+					<Item>text/en_us/InputText.xml</Item>
+					<Item>text/en_us/LanguageText.xml</Item>
+					<Item>text/en_us/OptionsText.xml</Item>
+					<Item>text/en_us/ProfileText.xml</Item>
+					<Item>text/en_us/SaveLoadText.xml</Item>
+					<Item>text/en_us/UIText.xml</Item>
+					<Item>text/en_us/UIShellText.xml</Item>
+					<Item>text/en_us/MPSharedText.xml</Item>
+
+					<!-- Items below were generated via our loc tool. -->
+					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
+					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
+					<Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>
+					<Item locale="it_IT">l10n/it_IT_Text.xml</Item>
+					<Item locale="ja_JP">l10n/ja_JP_Text.xml</Item>
+					<Item locale="ko_KR">l10n/ko_KR_Text.xml</Item>
+					<Item locale="pl_PL">l10n/pl_PL_Text.xml</Item>
+					<Item locale="pt_BR">l10n/pt_BR_Text.xml</Item>
+					<Item locale="ru_RU">l10n/ru_RU_Text.xml</Item>
+					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
+					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
+					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
+
+					<!-- These text-override entries must happen *after* translations. -->
+					<Item platform="NX">text/en_us/OptionsText_RumbleFeature.xml</Item>
+					<Item platform="NX">text/en_us/OptionsText_Console.xml</Item>
+					<Item platform="PS4">text/en_us/OptionsText_ControllerVibration.xml</Item>
+					<Item platform="PS5">text/en_us/OptionsText_ControllerVibration.xml</Item>
+					<Item platform="XboxOne">text/en_us/OptionsText_ControllerVibration.xml</Item>
+					<Item platform="XboxOne">text/en_us/OptionsText_Console.xml</Item>
+					<Item platform="XboxScarlett">text/en_us/OptionsText_ControllerVibration.xml</Item>
+					<Item platform="XboxScarlett">text/en_us/OptionsText_Console.xml</Item>
+
+					<Item platform="PS4">text/en_us/ControllerText_InvertSticks_PS4.xml</Item>
+					<Item platform="PS4">text/en_us/InputText_ThumbSticks_PS4.xml</Item>
+					<Item platform="PS5">text/en_us/ControllerText_InvertSticks_PS5.xml</Item>
+					<Item platform="PS5">text/en_us/InputText_ThumbSticks_PS5.xml</Item>
+					<Item platform="XboxOne">text/en_us/ControllerText_InvertSticks_Microsoft.xml</Item>
+					<Item platform="XboxOne">text/en_us/InputText_ThumbSticks_Microsoft.xml</Item>
+					<Item platform="XboxScarlett">text/en_us/ControllerText_InvertSticks_Microsoft.xml</Item>
+					<Item platform="XboxScarlett">text/en_us/InputText_ThumbSticks_Microsoft.xml</Item>
+				</UpdateText>
+
+				<UIScripts>
+					<Item>ui/accessibility/tts-manager.js</Item>
+					<Item>ui/age-transition-timeline/age-transition-timeline.js</Item>
+					<Item>ui/components/index.js</Item>
+					<Item>ui/dialog-box/screen-dialog-box.js</Item>
+					<Item>ui/mouse-guard/mouse-guard.js</Item>
+					<Item>ui/mp-chat/screen-mp-chat.js</Item>
+					<Item>ui/mp-chat/emoticon-panel.js</Item>
+					<Item>ui/mp-chat/send-to-panel.js</Item>
+					<Item>ui/navigation-tray/navigation-tray.js</Item>
+					<Item>ui/options/screen-options.js</Item>
+					<Item>ui/parts/hex-border/hex-border.js</Item>
+					<Item>ui/profile-header/profile-header.js</Item>
+					<Item>ui/profile-page/screen-profile-page.js</Item>
+					<Item>ui/progression-badge/progression-badge.js</Item>
+					<Item>ui/progression-header/progression-header.js</Item>
+					<Item>ui/progression-portrait/progression-portrait.js</Item>
+					<Item>ui/save-load/screen-save-load.js</Item>
+					<Item>ui/save-load/leader-icon.js</Item>
+					<Item>ui/save-load/civ-icon.js</Item>
+					<Item>ui/save-load/save-load-card.js</Item>
+					<Item>ui/save-load/save-load-chooser-item.js</Item>
+					<Item>ui/system-message/screen-system-message.js</Item>
+					<Item>ui/shell/additional-content/screen-additional-content.js</Item>
+					<Item>ui/shell/age-transition/civilization-info-tooltip.js</Item>
+					<Item>ui/shell/age-transition/age-transition-civ-card.js</Item>
+					<Item>ui/shell/age-transition/age-transition-civ-select.js</Item>
+					<Item>ui/shell/civ-select/civ-button/civ-button.js</Item>
+					<Item>ui/shell/collection/collection-content.js</Item>
+					<Item>ui/shell/create-panels/create-game-model.js</Item>
+					<Item>ui/shell/create-game/create-game-sp.js</Item>
+					<Item>ui/shell/create-panels/advanced-options-panel.js</Item>
+					<Item>ui/shell/create-panels/age-select-panel.js</Item>
+					<Item>ui/shell/create-panels/civ-select-bonus.js</Item>
+					<Item>ui/shell/create-panels/civ-select-panel.js</Item>
+					<Item>ui/shell/create-panels/game-setup-panel.js</Item>
+					<Item>ui/shell/create-panels/leader-select-panel.js</Item>
+					<Item>ui/shell/create-panels/memento-editor.js</Item>
+					<Item>ui/shell/create-panels/memento-slot.js</Item>
+					<Item>ui/shell/events/screen-events.js</Item>
+					<Item>ui/shell/gift-notifications/giftbox-popup.js</Item>
+					<Item>ui/shell/mods-content/mods-content.js</Item>
+					<Item>ui/shell/extras/screen-extras.js</Item>
+					<Item>ui/shell/filter-sort-popup/filter-sort-popup.js</Item>
+					<Item>ui/shell/leader-select/leader-button/leader-button.js</Item>
+					<Item>ui/shell/main-menu/main-menu.js</Item>
+					<Item>ui/shell/mp-legal/mp-legal.js</Item>
+					<Item>ui/shell/mp-link-account/mp-link-account.js</Item>
+					<Item>ui/shell/mp-primary-account-select/mp-primary-account-select.js</Item>
+					<Item>ui/shell/credits/screen-credits.js</Item>
+					<Item>ui/shell/mp-browser/mp-browser-new.js</Item>
+					<Item>ui/shell/mp-browser/mp-browser-chooser-item.js</Item>
+					<Item>ui/shell/mp-landing/mp-landing-new.js</Item>
+					<Item>ui/shell/mp-staging/mp-staging-new.js</Item>
+					<Item>ui/shell/mp-staging/mp-staging-player-info-card.js</Item>
+					<Item>ui/shell/mp-staging/mp-staging-playerinfocard-dropdown.js</Item>
+					<Item>ui/shell/mp-staging/mp-staging-dropdown.js</Item>
+					<Item>ui/shell/mp-staging/mp-staging-leader-dropdown.js</Item>
+					<Item>ui/shell/mp-staging/mp-player-options.js</Item>
+					<Item>ui/shell/mp-staging/mp-game-rules.js</Item>
+					<Item>ui/shell/mp-staging/mp-friends.js</Item>
+					<Item>ui/shell/mp-staging/mp-friends-options.js</Item>
+					<Item>ui/shell/mp-staging/mp-search.js</Item>
+					<Item>ui/shell/mp-staging/mp-report.js</Item>
+					<Item>ui/shell/mp-create-game/mp-create-game.js</Item>
+					<Item>ui/shell/mp-game-mode/mp-game-mode.js</Item>
+					<Item>ui/shell/oob-experience/oob-experience-mgr.js</Item>
+					<Item>ui/shell/popup/popup.js</Item>
+					<Item>ui/shell/store-launcher/screen-store-launcher.js</Item>
+					<Item>ui/shell/store-launcher/2k-code-redemption.js</Item>
+					<Item>ui/shell/shell-components/icon-dropdown.js</Item>
+					<Item>ui/shell/store-launcher/screen-dlc-viewer.js</Item>
+				</UIScripts>
+
+				<UIShortcuts>
+					<Item>ui/debug/html-preview.html</Item>
+					<Item>ui/debug/stylized-markup-text.html</Item>
+					<Item>ui/reference/color-reference.html</Item>
+					<Item>ui/reference/reference.html</Item>
+					<Item>ui/reference/icon-browser.html</Item>
+					<Item>ui/reference/movie-browser.html</Item>
+					<Item>ui/reference/page-panel.html</Item>
+					<Item>ui/sandbox/sandbox.html</Item>
+					<Item>ui/sandbox/comp-sandbox/comp-sandbox.html</Item>
+					<Item>ui/shell/root-shell.html</Item>
+					<Item>ui/shell/content-manager/page-content-manager.html</Item>
+					<Item>ui/shell/options/page-gameoptions.html</Item>
+					<Item>ui/shell/mp-browser/page-mp-browser.html</Item>
+					<Item>ui/shell/mp-host-setup/page-mp-hostsetup.html</Item>
+				</UIShortcuts>
+
+				<ImportFiles>
+					<Item>ui/cohtml.js</Item>
+					<Item>ui/component-support.js</Item>
+					<Item>ui/action-handler.js</Item>
+					<Item>ui/accessibility/cohtml-speech-api.js</Item>
+					<Item>ui/shell/root-shell.html</Item>
+					<Item>ui/utilities/utilities-network.js</Item>
+					<Item>ui/utilities/utilities-online.js</Item>
+				</ImportFiles>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="core-game" scope="game" criteria="always">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/TurnPhases.xml</Item>
+					<Item>data/reporting-events.xml</Item>
+					<Item>data/gamecore-events.xml</Item>
+				</UpdateDatabase>
+
+				<UpdateIcons>
+					<Item>icons/icons.xml</Item>
+				</UpdateIcons>
+
+				<UpdateText>
+					<Item>text/en_us/CoreText.xml</Item>
+					<Item>text/en_us/ControllerText.xml</Item>
+					<Item>text/en_us/GrammarText.xml</Item>
+					<Item>text/en_us/InputText.xml</Item>
+					<Item>text/en_us/LanguageText.xml</Item>
+					<Item>text/en_us/OptionsText.xml</Item>
+
+					<Item>text/en_us/ProfileText.xml</Item>
+					<Item>text/en_us/SaveLoadText.xml</Item>
+					<Item>text/en_us/UIText.xml</Item>
+					<Item>text/en_us/MPSharedText.xml</Item>
+
+					<!-- Items below were generated via our loc tool. -->
+					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
+					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
+					<Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>
+					<Item locale="it_IT">l10n/it_IT_Text.xml</Item>
+					<Item locale="ja_JP">l10n/ja_JP_Text.xml</Item>
+					<Item locale="ko_KR">l10n/ko_KR_Text.xml</Item>
+					<Item locale="pl_PL">l10n/pl_PL_Text.xml</Item>
+					<Item locale="pt_BR">l10n/pt_BR_Text.xml</Item>
+					<Item locale="ru_RU">l10n/ru_RU_Text.xml</Item>
+					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
+					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
+
+					<!-- These text-override entries must happen *after* translations. -->
+					<Item platform="NX">text/en_us/OptionsText_RumbleFeature.xml</Item>
+					<Item platform="NX">text/en_us/OptionsText_Console.xml</Item>
+					<Item platform="PS4">text/en_us/OptionsText_ControllerVibration.xml</Item>
+					<Item platform="PS5">text/en_us/OptionsText_ControllerVibration.xml</Item>
+					<Item platform="XboxOne">text/en_us/OptionsText_ControllerVibration.xml</Item>
+					<Item platform="XboxOne">text/en_us/OptionsText_Console.xml</Item>
+					<Item platform="XboxScarlett">text/en_us/OptionsText_ControllerVibration.xml</Item>
+					<Item platform="XboxScarlett">text/en_us/OptionsText_Console.xml</Item>
+
+					<Item platform="PS4">text/en_us/ControllerText_InvertSticks_PS4.xml</Item>
+					<Item platform="PS4">text/en_us/InputText_ThumbSticks_PS4.xml</Item>
+					<Item platform="PS5">text/en_us/ControllerText_InvertSticks_PS5.xml</Item>
+					<Item platform="PS5">text/en_us/InputText_ThumbSticks_PS5.xml</Item>
+					<Item platform="XboxOne">text/en_us/ControllerText_InvertSticks_Microsoft.xml</Item>
+					<Item platform="XboxOne">text/en_us/InputText_ThumbSticks_Microsoft.xml</Item>
+					<Item platform="XboxScarlett">text/en_us/ControllerText_InvertSticks_Microsoft.xml</Item>
+					<Item platform="XboxScarlett">text/en_us/InputText_ThumbSticks_Microsoft.xml</Item>
+				</UpdateText>
+
+				<UIShortcuts>
+					<Item>ui/debug/html-preview.html</Item>
+					<Item>ui/debug/stylized-markup-text.html</Item>
+					<Item>ui/reference/color-reference.html</Item>
+					<Item>ui/reference/icon-browser.html</Item>
+					<Item>ui/reference/icon-reference.html</Item>
+					<Item>ui/reference/movie-browser.html</Item>
+					<Item>ui/reference/reference.html</Item>
+					<Item>ui/reference/page-panel.html</Item>
+					<Item>ui/sandbox/sandbox.html</Item>
+					<Item>ui/sandbox/comp-sandbox/comp-sandbox.html</Item>
+					<Item>ui/shell/root-shell.html</Item>
+					<Item>ui/shell/content-manager/page-content-manager.html</Item>
+					<Item>ui/shell/options/page-gameoptions.html</Item>
+					<Item>ui/shell/mp-browser/page-mp-browser.html</Item>
+					<Item>ui/shell/mp-host-setup/page-mp-hostsetup.html</Item>
+				</UIShortcuts>
+
+				<ImportFiles>
+					<Item>scripts-shared/utility-component-id.js</Item>
+					<Item>ui/cohtml.js</Item>
+					<Item>ui/component-support.js</Item>
+					<Item>ui/action-handler.js</Item>
+					<Item>ui/accessibility/cohtml-speech-api.js</Item>
+					<Item>ui/utilities/utilities-network.js</Item>
+					<Item>ui/utilities/utilities-online.js</Item>
+				</ImportFiles>
+
+				<UIScripts>
+					<Item>ui/accessibility/tts-manager.js</Item>
+					<Item>ui/age-transition-timeline/age-transition-timeline.js</Item>
+					<Item>ui/camera/camera-controller.js</Item>
+					<Item>ui/components/index.js</Item>
+					<Item>ui/context-manager/context-manager.js</Item>
+					<Item>ui/context-manager/display-queue-manager.js</Item>
+					<Item>ui/dialog-box/screen-dialog-box.js</Item>
+					<Item>ui/input/action-handler.js</Item>
+					<Item>ui/input/cursor.js</Item>
+					<Item>ui/input/focus-manager.js</Item>
+					<Item>ui/input/plot-cursor.js</Item>
+					<Item>ui/interface-modes/interface-modes.js</Item>
+					<Item>ui/mouse-guard/mouse-guard.js</Item>
+					<Item>ui/mp-chat/screen-mp-chat.js</Item>
+					<Item>ui/mp-chat/emoticon-panel.js</Item>
+					<Item>ui/mp-chat/send-to-panel.js</Item>
+					<Item>ui/navigation-tray/navigation-tray.js</Item>
+					<Item>ui/options/screen-options.js</Item>
+					<Item>ui/plot-icons/plot-icons-manager.js</Item>
+					<Item>ui/plot-icons/plot-icons-root.js</Item>
+					<Item>ui/plot-icons/plot-icons.js</Item>
+					<Item>ui/parts/hex-border/hex-border.js</Item>
+					<Item>ui/profile-header/profile-header.js</Item>
+					<Item>ui/profile-page/screen-profile-page.js</Item>
+					<Item>ui/progression-badge/progression-badge.js</Item>
+					<Item>ui/progression-header/progression-header.js</Item>
+					<Item>ui/progression-portrait/progression-portrait.js</Item>
+					<Item>ui/radial-dock/panel-radial-dock.js</Item>
+					<Item>ui/radial-menu/model-radial-menu.js</Item>
+					<Item>ui/radial-menu/panel-radial-menu.js</Item>
+					<Item>ui/save-load/screen-save-load.js</Item>
+					<Item>ui/save-load/leader-icon.js</Item>
+					<Item>ui/save-load/civ-icon.js</Item>
+					<Item>ui/save-load/save-load-card.js</Item>
+					<Item>ui/social-notifications/social-notifications-manager.js</Item>
+					<Item>ui/save-load/save-load-chooser-item.js</Item>
+					<Item>ui/shell/civ-select/civ-button/civ-button.js</Item>
+					<Item>ui/spatial/spatial-manager.js</Item>
+					<Item>ui/system-message/screen-system-message.js</Item>
+					<Item>ui/tooltips/default-tooltip.js</Item>
+					<Item>ui/tooltips/tooltip-manager.js</Item>
+					<Item>ui/shell/filter-sort-popup/filter-sort-popup.js</Item>
+					<Item>ui/shell/mp-staging/mp-friends.js</Item>
+					<Item>ui/shell/mp-staging/mp-friends-options.js</Item>
+					<Item>ui/shell/mp-staging/mp-search.js</Item>
+					<Item>ui/shell/mp-staging/mp-report.js</Item>
+					<Item>ui/shell/mp-link-account/mp-link-account.js</Item>
+					<Item>ui/shell/mp-primary-account-select/mp-primary-account-select.js</Item>
+				</UIScripts>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+	<LocalizedText></LocalizedText>
+</Mod>

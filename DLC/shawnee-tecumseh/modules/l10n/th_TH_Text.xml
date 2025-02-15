@@ -1,0 +1,1704 @@
+<?xml version="1.0" ?>
+<Database>
+	<LocalizedText>
+		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_TECUMSEH_1_NAME" Language="th_TH">
+			<Text>เทคัมเซห์ ตำนานยุคสำรวจ การทหาร</Text>		<!-- Tecumseh Exploration Legend Militaristic -->
+		</Replace>
+		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_TECUMSEH_1_DESCRIPTION" Language="th_TH">
+			<Text>ในยุคนี้, +3 ความแข็งแกร่งในการต่อสู้สำหรับหน่วยทหารเรือของคุณในราคาลด -10% อิทธิพล[icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Naval Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
+		</Replace>
+		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_TECUMSEH_2_NAME" Language="th_TH">
+			<Text>เทคัมเซห์ ตำนานยุคสำรวจ การทูต</Text>		<!-- Tecumseh Exploration Legend Diplomatic -->
+		</Replace>
+		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_TECUMSEH_2_DESCRIPTION" Language="th_TH">
+			<Text>สำหรับยุคนี้, ได้รับ +15% อิทธิพล[icon:YIELD_DIPLOMACY] โดยต้องลดกำลังรบ -2 สำหรับหน่วยรบทางเรือของคุณ</Text>		<!-- For this Age, gain +15% Influence[icon:YIELD_DIPLOMACY] at the cost of -2 Combat Strength for your Naval Units -->
+		</Replace>
+		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_TECUMSEH_1_NAME" Language="th_TH">
+			<Text>เทคัมเซห์ ตำนานยุคใหม่ การทหาร</Text>		<!-- Tecumseh Modern Legend Militaristic -->
+		</Replace>
+		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_TECUMSEH_1_DESCRIPTION" Language="th_TH">
+			<Text>ในยุคนี้, +3 พลังการต่อสู้สำหรับหน่วยอากาศของคุณ โดยมีค่าใช้จ่าย -10% อิทธิพล[icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Air Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
+		</Replace>
+		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_TECUMSEH_2_NAME" Language="th_TH">
+			<Text>เทคัมเซห์ ตำนานยุคใหม่ การทูต</Text>		<!-- Tecumseh Modern Legend Diplomatic -->
+		</Replace>
+		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_TECUMSEH_2_DESCRIPTION" Language="th_TH">
+			<Text>สำหรับยุคนี้ ได้รับอิทธิพลเพิ่มขึ้น +15% [icon:YIELD_DIPLOMACY] โดยแลกกับการลดความแข็งแกร่งในการต่อสู้ลง -2 สำหรับหน่วยการบินของคุณ</Text>		<!-- For this Age, gain +15% Influence[icon:YIELD_DIPLOMACY] at the cost of -2 Combat Strength for your Air Units -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_TECUMSEH_L2_DESCRIPTION" Language="th_TH">
+			<Text>ตำนานที่ปลดล็อก +25% ความสัมพันธ์จากการเริ่มหรือสนับสนุน [Endeavors] -25% ความสัมพันธ์จากการเริ่ม [Sanctions] หรือปฏิเสธ [Endeavors]</Text>		<!-- Legend Unlock. +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_TECUMSEH_L1_DESCRIPTION" Language="th_TH">
+			<Text>ตำนานปลดล็อก +5 พลังการต่อสู้สำหรับทุกหน่วยเมื่อทำการต่อสู้กับ[Districts]</Text>		<!-- Legend Unlock. +5 Combat Strength for all Units against Districts. -->
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_SHAWNEE_MALE_1" Language="th_TH">
+			<Text>กินวิซิโม</Text>		<!-- Kinwisiimo -->
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_SHAWNEE_MALE_2" Language="th_TH">
+			<Text>พีซีเฟปโต</Text>		<!-- Peecfepto -->
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_SHAWNEE_MALE_3" Language="th_TH">
+			<Text>นาปียาฮัสกา</Text>		<!-- Napiyehaska -->
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_SHAWNEE_MALE_4" Language="th_TH">
+			<Text>นาโทเปสกะตา</Text>		<!-- Natopeskata -->
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_SHAWNEE_MALE_5" Language="th_TH">
+			<Text>ปิยเจคิโปวี</Text>		<!-- Piyecikapowi -->
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_SHAWNEE_MALE_6" Language="th_TH">
+			<Text>ฮาตาเคอีพี่</Text>		<!-- Hatakeepi -->
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_SHAWNEE_MALE_7" Language="th_TH">
+			<Text>โคคเวเทควิซีโม</Text>		<!-- Kokwetekwisiimo -->
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_SHAWNEE_MALE_8" Language="th_TH">
+			<Text>ชีพีคเวสกากา</Text>		<!-- Ciipikweskaka -->
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_SHAWNEE_MALE_9" Language="th_TH">
+			<Text>ฮาลาโกทากา</Text>		<!-- Haalakotaaka -->
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_SHAWNEE_MALE_10" Language="th_TH">
+			<Text>ปักษินวา</Text>		<!-- Paksinwa -->
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_SHAWNEE_FEMALE_1" Language="th_TH">
+			<Text>เพโลวิกาโพซี</Text>		<!-- Pelowikaposi -->
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_SHAWNEE_FEMALE_2" Language="th_TH">
+			<Text>นาปิเวซี</Text>		<!-- Napiwesi -->
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_SHAWNEE_FEMALE_3" Language="th_TH">
+			<Text>วิเคกาคัมซี</Text>		<!-- Wikekakamsi -->
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_SHAWNEE_FEMALE_4" Language="th_TH">
+			<Text>นาโตเปซี</Text>		<!-- Natopesi -->
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_SHAWNEE_FEMALE_5" Language="th_TH">
+			<Text>วีซีปิเอสยี</Text>		<!-- Wiicipiyesi -->
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_SHAWNEE_FEMALE_6" Language="th_TH">
+			<Text>คิตาคิมิยาซี</Text>		<!-- Kitakimiyesi -->
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_SHAWNEE_FEMALE_7" Language="th_TH">
+			<Text>เปโลวาพามา</Text>		<!-- Pelowapama -->
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_SHAWNEE_FEMALE_8" Language="th_TH">
+			<Text>ฮาโกเวซี</Text>		<!-- Hakowesi -->
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_SHAWNEE_FEMALE_9" Language="th_TH">
+			<Text>นิกานิปียีซี</Text>		<!-- Nikaanipiyeesi -->
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_SHAWNEE_FEMALE_10" Language="th_TH">
+			<Text>ฮาชิพิวาซิ</Text>		<!-- Hacipiwasi  -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE1" Language="th_TH">
+			<Text>ซิลาโคฟา</Text>		<!-- Cilakofa -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE2" Language="th_TH">
+			<Text>ปิกาวีคิ</Text>		<!-- Pikawiiki -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE3" Language="th_TH">
+			<Text>ธูธีส์ โฮเทว</Text>		<!-- Thuthy's Hotewe -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE4" Language="th_TH">
+			<Text>เพนเฟกิม'เทโก</Text>		<!-- Penfekim'teko  -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE5" Language="th_TH">
+			<Text>ไวท์โอ๊ค</Text>		<!-- White Oak -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE6" Language="th_TH">
+			<Text>ลิตเติ้ล แอ็กซ์</Text>		<!-- Little Axe -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE7" Language="th_TH">
+			<Text>เมืองของศาสดา</Text>		<!-- Prophet's Town -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE8" Language="th_TH">
+			<Text>เซกาควิส</Text>		<!-- Sekakwis -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE9" Language="th_TH">
+			<Text>วากาคาลี</Text>		<!-- Wakacaalli -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE10" Language="th_TH">
+			<Text>เยทาคาเพวากิ</Text>		<!-- Yetakapewaki -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE11" Language="th_TH">
+			<Text>อิ-กัน-ฮัต-กิ</Text>		<!-- Ikan'hatki -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE12" Language="th_TH">
+			<Text>วาพา'โคเน็ตตา</Text>		<!-- Wapa'konetta -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE13" Language="th_TH">
+			<Text>คอร์นสตอล์ก</Text>		<!-- Cornstalk's Town -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE14" Language="th_TH">
+			<Text>นอนเฮเลมา</Text>		<!-- Nonhelema's Town -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE15" Language="th_TH">
+			<Text>เนพิเพมี โฮตาอาปาตะ</Text>		<!-- Nepipemi Hotaapata -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE16" Language="th_TH">
+			<Text>สาวนวา โฮเทะเว</Text>		<!-- Saawanwa Hotewe -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE17" Language="th_TH">
+			<Text>วาพาโทมิกา</Text>		<!-- Wapatomica -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE18" Language="th_TH">
+			<Text>มากาเชกิ</Text>		<!-- Makacheki -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE19" Language="th_TH">
+			<Text>มาวะสกาเววีวิกาวา</Text>		<!-- Mawaskawewiikiwa -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE20" Language="th_TH">
+			<Text>เปโกะวิกิใหม่</Text>		<!-- New Pekowiki -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE21" Language="th_TH">
+			<Text>ชิลลิโคเธอเมืองเก่า</Text>		<!-- Chillicothe Old Town -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE22" Language="th_TH">
+			<Text>บลูแจ็คเก็ต</Text>		<!-- Bluejacket's Town -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE23" Language="th_TH">
+			<Text>วิตชิตา</Text>		<!-- Wicita -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE24" Language="th_TH">
+			<Text>เอสคาลาเปีย</Text>		<!-- Eskalapia -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE25" Language="th_TH">
+			<Text>มานิตู</Text>		<!--  Manitou -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE26" Language="th_TH">
+			<Text>ชิโนดาฮิเชธา</Text>		<!-- Chinodahichetha -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE27" Language="th_TH">
+			<Text>สกาาลาอัปปิเย</Text>		<!-- Skaalaappiye -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE28" Language="th_TH">
+			<Text>โฮกิมา</Text>		<!-- Hokima -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE29" Language="th_TH">
+			<Text>นิปิวาสิควานา</Text>		<!-- Nipiwasikwana -->
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHAWNEE30" Language="th_TH">
+			<Text>โกลาวาปานี โฮเทควี่</Text>		<!-- Kolawapani Hotekwi -->
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_SHAWNEE_NAME" Language="th_TH">
+			<Text>ชอว์นี</Text>		<!-- Shawnee -->
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_SHAWNEE_FULLNAME" Language="th_TH">
+			<Text>ชอว์นี</Text>		<!-- Shawnee -->
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_SHAWNEE_ADJECTIVE" Language="th_TH">
+			<Text>ชอว์นี</Text>		<!-- Shawnee -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_SHAWNEE_ABILITY_NAME" Language="th_TH">
+			<Text>เนเปคิฟากิ</Text>		<!-- Nepekifaki -->
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_SHAWNEE_DESCRIPTION" Language="th_TH">
+			<Text>ภูมิลำเนาที่สร้างติดกับแม่น้ำที่สามารถเดินเรือได้จะได้รับอาหาร +2[icon:YIELD_FOOD] บนพื้นที่แม่น้ำ แต่เมืองที่ไม่ได้สร้างติดกับแม่น้ำที่สามารถเดินเรือได้จะได้รับอาหาร -10%[icon:YIELD_FOOD]</Text>		<!-- Settlements built adjacent to Navigable Rivers gain +2[icon:YIELD_FOOD] Food on River Terrain, but Cities not built adjacent to a Navigable River receive -10%[icon:YIELD_FOOD] Food. -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_SHAWNEE_ABILITY_DESCRIPTION" Language="th_TH">
+			<Text>[LIST][LI]การตั้งถิ่นฐานที่สร้างติดกับ [B]แม่น้ำที่เดินเรือได้ [/B]ได้รับ [B]+2[icon:YIELD_FOOD] อาหาร [/B]บน [B]ภูมิประเทศแม่น้ำ[/B] แต่เมืองที่[B]ไม่ [/B]สร้างติดกับ [B]แม่น้ำที่เดินเรือได้ [/B]จะได้รับ [B]-10%[icon:YIELD_FOOD] อาหาร[/B].[LI][B]+30%[icon:YIELD_PRODUCTION] การผลิต [/B]ในการก่อสร้าง [B]โขดหินงู[/B].[/LIST]</Text>		<!-- [LIST][LI]Settlements built adjacent to [B]Navigable Rivers [/B]gain [B]+2[icon:YIELD_FOOD] Food [/B]on [B]River Terrain[/B], but Cities [B]not [/B]built adjacent to a [B]Navigable River [/B]receive [B]-10%[icon:YIELD_FOOD] Food[/B].[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Serpent Mound[/B].[/LIST] -->
+		</Replace>
+		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_SHAWNEE_DESCRIPTION" Language="th_TH">
+			<Text>+30%[icon:YIELD_PRODUCTION] การผลิตจากเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องกับ Shawnee</Text>		<!-- +30%[icon:YIELD_PRODUCTION] Production from being the Shawnee's associated Wonder. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TECUMSEH_TITLE" Language="th_TH">
+			<Text>{LOC_LEADER_TECUMSEH_NAME}</Text>		<!-- {LOC_LEADER_TECUMSEH_NAME} -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TECUMSEH_CHAPTER_HISTORY_PARA_1" Language="th_TH">
+			<Text>การขยายตัวทางตะวันตกของอาณานิคมอเมริกันนำมาซึ่งความขัดแย้งอย่างต่อเนื่องกับชนเผ่าพื้นเมือง ชุมชนพื้นเมืองต่างดิ้นรนในการขับไล่การรุกคืบของชาวอาณานิคมอย่างเป็นอิสระ และดิ้นรนที่จะรวมกลุ่มเพื่อต่อสู้กับภัยคุกคามนี้ด้วยกัน ความแบ่งแยกทางสังคม การเมือง และวัฒนธรรมระหว่างพวกเขาถูกสร้างขึ้นอย่างลึกซึ้งและยากที่จะเอาชนะได้ แต่ในปี ค.ศ. 1783 สมาพันธ์ชนเผ่าในภูมิภาครอบแม่น้ำเกรตเลกส์ได้รวมตัวกันและชนะชัยชนะสำคัญหลายครั้งต่อสหรัฐอเมริกา แม้ว่าแนวร่วมนี้จะมีอายุสั้น แต่แนวคิดของการรวมกลุ่มเป็นแนวหน้าที่แน่นแฟ้นก็หยั่งรากในนักรบหนุ่มชอว์นีผู้ที่ได้เห็นการเกิดขึ้นและการล่มสลายของมันและมุ่งมั่นที่จะสร้างขึ้นมาใหม่</Text>		<!-- The American colonies' westward expansion bred consistent conflict with Native American tribes. Native communities struggled to rebuff the colonial advance independently, and they struggled to unify and face this threat together. The social, political, and cultural divisions between them were deeply established and difficult to overcome. But in 1783, a confederacy of tribes rallied around the Great Lakes region and won several major victories against the United States. Although the alliance was short-lived, the idea of a united front took hold in a young Shawnee warrior who witnessed its rise and fall and who was determined to recreate it. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TECUMSEH_CHAPTER_HISTORY_PARA_2" Language="th_TH">
+			<Text>Tecumseh, ชื่อของเขามีความหมายว่า &quot;เสือดำท่ามกลางท้องฟ้า,&quot; เข้ามาในโลกในปี 1768 ขณะที่ดาวตกพุ่งผ่านท้องฟ้ายามค่ำคืน แม้ว่าเขาจะมีวัยเด็กที่ท้าทาย แต่เขาก็โดดเด่นท่ามกลางเพื่อนฝูงในฐานะผู้นำและนักรบที่มีอนาคต Tecumseh เป็นนักล่าและนักสู้ที่มีทักษะ; แม้ว่าเขาจะวิ่งหนีจากการรบครั้งแรกเมื่ออายุ 14 ปี เขารู้สึกอับอายกับพฤติกรรมของตัวเองและมุ่งมั่นว่าจะไม่ให้เกิดเหตุการณ์นั้นอีก (และมันก็ไม่เคยเกิดขึ้นอีก) เขายังมีเสน่ห์ ฉลาด และเป็นนักพูดที่มีพรสวรรค์ ด้วยความชอบในอารมณ์ขันและการมองเห็นเรื่องการทูต เติบโตขึ้นท่ามกลางความขัดแย้งระหว่างผู้ตั้งถิ่นฐานและชุมชน Shawnee ของเขา เขาเลือกที่จะเรียนภาษาอังกฤษตั้งแต่อายุยังน้อย แต่บ่อยครั้งเขาซ่อนความชำนาญของเขาไว้และพูดเฉพาะภาษา Shawnee ในการประชุมทางการทูต</Text>		<!-- Tecumseh, whose name means “Panther across the Sky,” came into the world in 1768 while a meteor soared through the night. Despite a challenging youth, he quickly stood out among his peers as a promising leader and warrior. Tecumseh was a skilled hunter and fighter; while he ran from his first battle at age 14, he was embarrassed by his behavior and was determined it would never happen again (and it never did). He was also charismatic, clever, and a talented orator, with a penchant for humor and an eye for diplomacy. Growing up amid the conflict between colonists and his Shawnee community, he chose to learn English at a young age, though he often hid his proficiency and spoke only Shawnee in diplomatic meetings.  -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TECUMSEH_CHAPTER_HISTORY_PARA_3" Language="th_TH">
+			<Text>ในช่วงทศวรรษที่ 1780, อาณานิคมอเมริกันกำลังเคลื่อนเข้าสู่เขตนอร์ทเวสต์เทร์ริทอรี ซึ่งเป็นพื้นที่ระหว่างแม่น้ำโอไฮโอและทะเลสาบใหญ่ การรวมกลุ่มหลวมๆ ของชนเผ่าต่างๆ รวมถึงชอว์นีภายใต้การนำของหัวหน้า Blue Jacket คัดค้านการรุกคืบของพวกเขาด้วยความช่วยเหลือจากชาวอังกฤษ แต่หลังจากการพ่ายแพ้ของการรวมกลุ่มนี้ในยุทธการที่ Fallen Timbers ซึ่ง Tecumseh มีส่วนร่วม หลายหัวหน้าได้ลงนามขายที่ดินให้กับสหรัฐอเมริกาในสนธิสัญญา Greeneville ปี 1795 Tecumseh คัดค้านการกระทำนี้อย่างหนักหน่วง ในช่วงหลายปีต่อมา อิทธิพลของเขาต่อชอว์นีในท้องถิ่นเพิ่มขึ้น - แต่การขึ้นอย่างไม่คาดคิดของน้องชายของเขาได้เปลี่ยนเส้นทางชีวิตของเขา</Text>		<!-- By the 1780s, American colonists were pushing into the Northwest Territory, a region between the Ohio River and the Great Lakes. A loose confederation of tribes, including Shawnees under Chief Blue Jacket, opposed their advance with help from the British. But after this confederation's defeat at the Battle of Fallen Timbers, in which Tecumseh took part, many chiefs signed away their land to the United States in the 1795 Treaty of Greeneville. Tecumseh firmly opposed this act. Over the following years, his influence over local Shawnee grew – but the unexpected rise of his younger brother changed the course of his life.  -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TECUMSEH_CHAPTER_HISTORY_PARA_4" Language="th_TH">
+			<Text>ตรงกันข้ามกับ Tecumseh, Lalawethika ไม่เคยแสดงถึงความสามารถที่ยอดเยี่ยมมาก่อน เขาขี้ขลาด ไร้ความสามารถ และติดเหล้า ซึ่งตอนเป็นเด็กเคยยิงตาของตัวเองโดยบังเอิญ อย่างไรก็ตาม ในปี 1805 เขาเริ่มมีนิมิตที่ Master of Life ซึ่งเป็นเทพเจ้าหลักของ Shawnee แสดงให้เขาเห็นถึงชะตากรรมของผู้ที่ปฏิบัติ (และผู้ที่เบี่ยงเบนจาก) ชีวิตที่มีคุณธรรม Lalawethika เปลี่ยนชื่อเป็น Tenskwatawa, “ประตูเปิด” และเริ่มเผยแพร่รูปแบบใหม่ของจิตวิญญาณ ซึ่งปฏิเสธสินค้าพร้อมทั้งวิถีปฏิบัติของชาวยุโรป และยอมรับเฉพาะค่านิยมและวิถีชีวิตแบบดั้งเดิมเท่านั้น</Text>		<!-- Contrary to Tecumseh, Lalawethika had never shown great promise. He was cowardly, inept, and an alcoholic who had accidentally shot out his own eye as a child. Still, in 1805, he began to experience visions in which the Master of Life, the primary Shawnee deity, showed him the fate of those who followed (and those who turned away from) a virtuous life. Lalawethika changed his name to Tenskwatawa, “the Open Door,” and began to proselytize a new form of spirituality, one that rejected European goods and practices, embracing only traditional values and ways of life.  -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TECUMSEH_CHAPTER_HISTORY_PARA_5" Language="th_TH">
+			<Text>เทนสควาตาวา ผู้เผยพระวจนะ สถาปนาตัวเองเป็นผู้นำทางจิตวิญญาณคนใหม่ของหมู่บ้าน เทคัมเซ ในฐานะหัวหน้าทางการเมืองและการรบ ตัดสินใจสนับสนุนความเชื่อของน้องชายของเขา ทั้งสองได้รับผู้ติดตามที่มีชื่อเสียงจำนวนมากจากชนเผ่าใกล้เคียง แต่ต้องเผชิญกับการต่อต้านจากชอว์นีอื่นๆ – ในขณะที่อดีตผู้นำสมาพันธ์ บลู แจ็คเก็ต เข้าร่วมกลุ่มของพวกเขา แบล็ก ฮูฟ ผู้ทรงอำนาจแห่งวาพาโคเนตะปฏิเสธที่จะยอมรับพวกเขา สองพี่น้องยังดึงดูดความสนใจของเจ้าหน้าที่อาณานิคมท้องถิ่น ซึ่งรู้สึกไม่สบายใจเกี่ยวกับการเคลื่อนไหวทางจิตวิญญาณครั้งใหม่และศักยภาพในการรวมชนเผ่าต่างๆ เข้าด้วยกัน</Text>		<!-- Tenskwatawa the Prophet established himself as the village’s new spiritual leader. Tecumseh, as political and war chief, decided to align with his brother’s beliefs. The two gained several prominent followers from nearby tribes but faced pushback among other Shawnees – while former confederacy leader Blue Jacket joined their ranks, the powerful Black Hoof of Wapakoneta refused to recognize them. The brothers also attracted the attention of local colonial officials, who were uneasy about the new spiritual movement and its potential to unite the tribes.  -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TECUMSEH_CHAPTER_HISTORY_PARA_6" Language="th_TH">
+			<Text>ในปี 1808 Tecumseh และ Tenskwatawa ย้ายไปทางตะวันตกและก่อตั้งหมู่บ้าน Prophetstown ที่ซึ่งพวกเขารวบรวมผู้ติดตามจำนวนมากจากหลายเผ่า การดำรงชีวิตอย่างสงบสุขของพวกเขาถูกทำลายลงเพียงหนึ่งปีต่อมาด้วยสนธิสัญญา Fort Wayne ซึ่งผู้ว่าการนิคมอินเดียนา William Henry Harrison ทำการเจรจาซื้อที่ดินกับหลายเผ่าโดยไม่รวม Shawnees Tecumseh รู้สึกโกรธจากข้อตกลงของสนธิสัญญาและเผชิญหน้ากับ Harrison ด้วยตนเองเพื่อยกเลิกสนธิสัญญา โดยประกาศว่าดินแดนเป็นของทุกเผ่าและดังนั้นจึงไม่สามารถขายโดยใครได้ เมื่อเขากลับบ้านมือเปล่า เขาเริ่มสร้างสหพันธ์ระหว่างเผ่าอย่างจริงจัง ส่งเสริมเป้าหมายสองประการคือความสามัคคีในหมู่ชาวอเมริกันพื้นเมืองและการรักษาวิถีทางดั้งเดิมของแต่ละเผ่า</Text>		<!-- In 1808, Tecumseh and Tenskwatawa moved farther west and established the village of Prophetstown, where they amassed followers in large numbers from many different tribes. Their peaceful existence was shattered only a year later with the Treaty of Fort Wayne, in which Indiana Territory governor William Henry Harrison negotiated a land purchase with several tribes while excluding the Shawnees. Tecumseh was outraged by the treaty’s deal and confronted Harrison in person to nullify the treaty, declaring that the land belonged to all tribes and therefore could not be sold by anyone. When he returned home empty-handed, he began to earnestly build an intertribal confederation, promoting a dual goal of unity among Native Americans and the preservation of individual tribes’ traditional ways.  -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TECUMSEH_CHAPTER_HISTORY_PARA_7" Language="th_TH">
+			<Text>เมื่อมีนักรบจำนวนมากเข้ามาที่ Prophetstown มากขึ้น Tecumseh ก็ปล่อยให้ Tenskwatawa จัดการเรื่องที่บ้านและเริ่มเดินทางไปอย่างกว้างขวาง เขาเดินทางไปไกลทางใต้ ครอบคลุมหลายพันไมล์และพูดคุยกับหลายชุมชน กระตุ้นให้นักรบหนุ่มของพวกเขาเข้าร่วมกับเขา การเดินทางนี้ไม่ประสบผลสำเร็จมากนักในฐานะการสรรหารายบุคคล แต่วาทศิลป์ของ Tecumseh ได้วางเมล็ดพันธุ์ที่เกิดผลในความขัดแย้งในภายหลัง</Text>		<!-- As more and more warriors flowed into Prophetstown, Tecumseh left Tenskwatawa to manage the home front and began to travel widely. He voyaged far to the south, covering several thousand miles and speaking with many communities, encouraging their young warriors to join his cause. The journey was largely unsuccessful as a recruitment drive, but Tecumseh’s rhetoric planted seeds that bore fruit in later conflicts.  -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TECUMSEH_CHAPTER_HISTORY_PARA_8" Language="th_TH">
+			<Text>ระหว่างที่ Tecumseh ไม่อยู่ Harrison นำกองทัพไปยัง Prophetstown เพื่อถอดถอน Tenskwatawa ออก Tecumseh ได้เตือนพี่ชายของเขาว่าอย่าทำให้ความตึงเครียดกับชาวอเมริกันรุนแรงขึ้น แต่ผู้ประกาศคิดเห็นสั่งโจมตีก่อนที่การเจรจากับ [Harrison] จะเริ่มได้ แม้ว่า Harrison จะสูญเสียทหารมากกว่า แต่การรบที่ Tippecanoe ก็สิ้นสุดลงด้วยชัยชนะของชาวอเมริกา และ Prophetstown ก็ถูกเผาทำลายในช่วงเหตุการณ์ที่ตามมา</Text>		<!-- During Tecumseh’s absence, Harrison led an army to Prophetstown to depose Tenskwatawa. Tecumseh had warned his brother not to exacerbate tensions with the Americans, but the Prophet ordered an attack before negotiations with Harrison could commence. Though Harrison lost more soldiers, the Battle of Tippecanoe ended in an American victory, and Prophetstown burned down in the aftermath.  -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TECUMSEH_CHAPTER_HISTORY_PARA_9" Language="th_TH">
+			<Text>สมาพันธ์ของ Tecumseh ดูเหมือนจะกระจัดกระจาย แต่เขาเริ่มสร้างขึ้นใหม่ทันทีที่เขากลับมาจากการเดินทางของเขา ไม่กี่เดือนต่อมา เขาได้นำผู้ติดตามของเขาเข้าร่วมเป็นพันธมิตรกับอังกฤษเมื่อสงครามปี 1812 ปะทุขึ้น บุคลิกและความเฉลียวฉลาดทางการทหารของเขาได้รับความไว้วางใจและการชื่นชมจากผู้บังคับบัญชาชาวอังกฤษอย่างรวดเร็ว และเขาได้รับมอบหมายให้ดูแลการควบคุมกองกำลังของชนพื้นเมืองอเมริกัน จนกระทั่งเขาถูกสังหารในยุทธการแห่งเทมส์ในปี 1813 แม้ว่าการตายของเขาจะทำให้สมาพันธ์ของเขาสิ้นสุดลง แต่วิสัยทัศน์และมรดกของ Tecumseh ทำให้เขากลายเป็นวีรบุรุษพื้นบ้านที่ยังมีชีวิตรอดมาจนถึงปัจจุบัน</Text>		<!-- Tecumseh's confederation appeared in tatters, but he began rebuilding as soon as he returned from his odyssey. Mere months later, he led his followers into an alliance with the British as the War of 1812 ignited. His personality and military ingenuity quickly gained the trust and admiration of British commanders, and he was put in charge of orchestrating Native American forces until he was killed at the Battle of the Thames in 1813. Although his death brought an end to his confederacy, Tecumseh’s vision and legacy transformed him into a folk hero that has survived into the modern day.  -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_CIVILIZATION_SHAWNEE_CHAPTER_HISTORY_PARA_1" Language="th_TH">
+			<Text>ต้นกำเนิดของเผ่า Shawnee นั้นมืดมัว แต่เชื่อกันอย่างกว้างขวางว่าพวกเขาเกิดขึ้นจากวัฒนธรรม Fort Ancient ในหุบเขาแม่น้ำโอไฮโอ (ประมาณ 1000-1650 CE) ชาว Fort Ancient เกิดขึ้นจากยุค Woodland ช่วงปลายโดยมีความเข้าใจใหม่เกี่ยวกับการเกษตรข้าวโพดและเทคนิคการทำฟาร์ม ซึ่งนำไปสู่รูปแบบชีวิตที่อยู่เป็นที่และการตั้งถิ่นฐานที่ใหญ่ขึ้น พวกเขาไม่ได้ก่อตั้งเป็นรัฐเดียว แต่พวกเขาแชร์วัฒนธรรมร่วมกันในด้านการจัดองค์กรสังคม ความเชื่อทางศาสนา รูปแบบศิลปะ และการสร้างเนินดินที่ครอบคลุมกลุ่มทางการเมืองและภาษาที่หลากหลาย</Text>		<!-- The origins of the Shawnee tribe are murky, but they are widely believed to have emerged from the Fort Ancient culture of the Ohio River Valley (c. 1000-1650 CE). The Fort Ancient people emerged from the Late Woodland period with a new understanding of corn agriculture and farming techniques, leading to a more sedentary lifestyle and larger settlements. They did not form a single polity; rather, they shared a common culture of social organization, religious beliefs, artistic styles, and mound-building that spanned across diverse political and linguistic groups.  -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_CIVILIZATION_SHAWNEE_CHAPTER_HISTORY_PARA_2" Language="th_TH">
+			<Text>หมู่บ้านฟอร์ตแอนเชียนที่ดำเนินการโดยหัวหน้าและสภามีอำนาจเพียงภายในกำแพงเท่านั้น – อิทธิพลทางการเมืองของพวกเขาไม่ได้ขยายไปถึงหมู่บ้านอื่น ๆ และไม่มีศูนย์กลางอำนาจหลักใด ๆ ที่มีอยู่ หมู่บ้านฤดูร้อนที่สร้างขึ้นให้ถาวรเป็นเกษตรกรรมและสามารถรองรับคนได้ถึง 500 คน เหล่านี้ถูกทิ้งร้างในฤดูหนาวเนื่องจากผู้คนกระจายตัวไปยังค่ายล่าสัตว์ฤดูหนาวที่เคลื่อนที่ได้ที่มีคนสูงสุด 30 คน เมื่อถึงฤดูใบไม้ผลิ ผู้คนฟอร์ตแอนเชียนจะกลับมารวมตัวกันที่หมู่บ้านฤดูร้อน เป็นวงจรการอพยพที่สร้างรากฐานให้กับพิธีกรรมที่เฉลิมฉลองการเปลี่ยนแปลงของฤดูกาล</Text>		<!-- Fort Ancient villages, run by chiefs and councils, only exercised power within their walls – their political influence did not extend to other villages, and no major centers of power existed. Summer villages, built to be permanent, were agricultural and could house up to 500 people. These were abandoned in the winter as the people scattered to mobile winter hunting camps of up to 30 people. As the spring rolled around, the Fort Ancient people reunited back at the summer villages, a cycle of migration that gave root to rituals celebrating the changing seasons.  -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_CIVILIZATION_SHAWNEE_CHAPTER_HISTORY_PARA_3" Language="th_TH">
+			<Text>ผ่านการค้าขายกับ Haudenosaunee สินค้าจากยุโรปจำนวนมากได้เข้าสู่หุบเขาแม่น้ำโอไฮโอในช่วงศตวรรษที่ 16 และต้นศตวรรษที่ 17 แต่เมื่อชาวยุโรปกลุ่มแรกมาถึงในช่วงปี 1650 ชาว Fort Ancient ได้หายไปแล้ว สาเหตุที่แน่ชัดว่าทำไมพวกเขาจึงอพยพยังไม่แน่ชัด บันทึกทางโบราณคดีระบุว่าโรคระบาด เช่น ไข้ทรพิษ (ซึ่งมีแนวโน้มว่ามาจากพ่อค้า) ได้ส่งผลกระทบต่อหุบเขาแม่น้ำโอไฮโอหลายระลอก นอกจากนี้ สังคมใกล้เคียงก็เริ่มมีความก้าวร้าวมากขึ้น เมื่อสงครามบีเวอร์ได้ก่อให้เกิดความรุนแรงและการขยายตัวจากทางทิศตะวันออก เมื่อหุบเขาแม่น้ำโอไฮโอเริ่มมีอันตรายมากขึ้นเนื่องจากแรงกดดันจากภายนอกเหล่านี้ ชาว Fort Ancient ดูเหมือนจะเลือกที่จะย้ายที่อยู่แทนที่จะเสี่ยงที่จะอยู่ในบ้านเกิดของตน เนื่องจากผู้คนเหล่านี้เดินทาง ความแตกต่างทางเผ่าพันธุ์ของพวกเขาก็รวมเข้าด้วยกัน สร้างสรรค์ยุคใหม่ของเอกลักษณ์ใหม่</Text>		<!-- Through trade with the Haudenosaunee, many European goods reached the Ohio River Valley during the 16th and early 17th centuries. But when the first Europeans arrived in the 1650s, the Fort Ancient people were gone. Exactly why they migrated remains unclear. Archaeological records indicate that diseases like smallpox (likely borne by traders) impacted the Ohio River Valley in several waves. Neighboring societies were also becoming increasingly aggressive, as the Beaver Wars ignited violence and expansion from the East. As the Ohio River Valley became more dangerous due to these outside pressures, the Fort Ancient people seemingly chose to relocate rather than risk remaining in their homeland. As these people traveled, their tribal differences coalesced, forming a new era of new identities.  -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_CIVILIZATION_SHAWNEE_CHAPTER_HISTORY_PARA_4" Language="th_TH">
+			<Text>ชอว์นีเป็นหนึ่งในเผ่าที่กำลังเปลี่ยนแปลงเหล่านี้ เช่นเดียวกับบรรพบุรุษของพวกเขาที่ [Fort Ancient] หมู่บ้านยังคงเป็นจุดศูนย์กลางของอำนาจและความจงรักภักดี และผู้นำก็ถูกแบ่งระหว่างหัวหน้าพลเรือนและหัวหน้านักรบ การเปลี่ยนแปลงตามฤดูกาลถูกเฉลิมฉลองด้วยพิธีสำคัญ โดยเฉพาะการเต้นรำขนมปังในฤดูใบไม้ผลิและฤดูใบไม้ร่วง เผ่าแบ่งย่อยออกเป็นห้ากลุ่ม – [Chalagawtha], [Kispokotha], [Mekoche], [Pekowitha], และ [Thawekila] – ซึ่งแต่ละกลุ่มมีบทบาททางสังคมที่กำหนดไว้ให้กับเผ่าที่ใหญ่กว่า</Text>		<!-- The Shawnee were among these transitioning tribes. As with their Fort Ancient predecessors, the village remained the focal point of power and loyalty, and leadership was divided between a civic chief and a war chief. Seasonal changes were celebrated with important rituals, particularly the spring and fall Bread Dances. The tribe was subdivided into five bodies – Chalagawtha, Kispokotha, Mekoche, Pekowitha, and Thawekila – each of whom contributed a designated social role to the larger tribe. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_CIVILIZATION_SHAWNEE_CHAPTER_HISTORY_PARA_5" Language="th_TH">
+			<Text>เมื่อพวกเขาปรากฏตัวครั้งแรกในบันทึกประวัติศาสตร์ยุคล่าอาณานิคมในปี ค.ศ. 1674 ชอว์นีได้เป็นนักเดินทางอยู่แล้ว ตลอดหลายทศวรรษต่อมา สามารถพบพวกเขาได้อย่างสม่ำเสมอที่จุดตัดระหว่างการติดต่อของชาวยุโรปและชาวพื้นเมืองอเมริกัน โดยทำหน้าที่เป็นสื่อกลางระหว่างสองโลก พวกเขาตั้งถิ่นฐานขึ้นและลงตามชายฝั่งตะวันออก ในหลายครั้งทำหน้าที่เป็นพ่อค้า นักแปล และนักการทูต ภาษาชอว์นียังกลายเป็นภาษากลางสำหรับการค้า</Text>		<!-- By their first appearance in the colonial historical record in 1674, the Shawnees were already travelers. Throughout the following decades, they could be consistently found at the intersections of European and Native American contact, acting as intermediaries between two worlds. They settled up and down the eastern seaboard, often serving as traders, translators, and diplomats. The Shawnee language even became the lingua franca for trade.  -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_CIVILIZATION_SHAWNEE_CHAPTER_HISTORY_PARA_6" Language="th_TH">
+			<Text>เมื่อศตวรรษที่ 18 ก้าวหน้าไป ความขัดแย้งระหว่างอาณานิคมกับชนพื้นเมืองเข้มข้นมากขึ้น ชาวชอว์นีหลายคนพร้อมกับชนเผ่าอลกอนเคียนอื่น ๆ กลับไปยังหุบเขาแม่น้ำโอไฮโอซึ่งบรรพบุรุษฟอร์ทแอนเชียนเคยอาศัยอยู่ อย่างไรก็ตาม อาณานิคมสหรัฐยังคงดันไปทางตะวันตก ยึดดินแดนและขับไล่ชนเผ่าออกจากที่ดินของพวกเขา หัวหน้าสงครามชอว์นีหลายคนได้ลุกขึ้นต่อต้านการขยายตัวนี้ โดยเฉพาะอย่างยิ่ง Tecumseh ที่ได้จัดตั้งสมาพันธ์ระหว่างชนเผ่าขนาดใหญ่เพื่อรวมชนพื้นเมืองอเมริกันที่หลากหลายและต่อต้านการรุกคืบของสหรัฐ หลังจากการเสียชีวิตของเขาในสงครามปี 1813 สมาพันธ์ก็สลายตัว และชาวชอว์นีย้ายถิ่นฐานไปทางตะวันตกเรื่อย ๆ ปัจจุบันมีชาวชอว์นีสามเผ่าที่ได้รับการยอมรับจากรัฐบาลกลางตั้งถิ่นฐานในโอคลาโฮมา: [the Shawnee Tribe, the Absentee Shawnee Tribe, and the Eastern Shawnee Tribe]</Text>		<!-- As the 18th century progressed, antagonism between the colonies and Native peoples grew increasingly potent. Many Shawnees, along with other Algonquian tribes, returned to the Ohio River Valley where their Fort Ancient ancestors had once lived. However, the U.S. colonies continued to push west, seizing territory and pushing tribes from their lands. Several Shawnee war chiefs took a stand against this expansion, most prominently Tecumseh, who formed a major intertribal confederation to unite diverse Native American peoples and repel the U.S. advancement. After his death in battle in 1813, the confederation dispersed, and Shawnees steadily migrated farther west. Today, three federally recognized Shawnee tribes are based in Oklahoma: the Shawnee Tribe, the Absentee Shawnee Tribe, and the Eastern Shawnee Tribe.  -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_WONDER_SERPENT_MOUND_CHAPTER_HISTORY_PARA_1" Language="th_TH">
+			<Text>บนที่ราบสูงในโอไฮโอในปัจจุบัน ที่บริเวณของปล่องภูเขาไฟโบราณ ผู้คนท้องถิ่นได้สร้างเนินดินที่คดเคี้ยวซึ่งมีรูปร่างเป็นงูใหญ่ สถานที่นี้อาจได้รับการคัดเลือกเพราะภูมิประเทศที่ผิดปกติ และถูกสร้างขึ้นโดยผู้คนหลากหลายกลุ่มในช่วงระยะเวลามากกว่าหนึ่งพันปี ระหว่าง 320 ปีก่อนคริสต์ศักราชถึง 1400 ปีคริสต์ศักราช เนินดินนี้คดเคี้ยวไปทั่วผืนดินและกลมกลืนกับภูมิทัศน์ และปากของงูนั้นดูเหมือนจะกลืนวัตถุรูปวงรี ซึ่งอาจเป็นไข่ (ครั้งหนึ่งอาจเคยเป็นที่ตั้งของวิหาร)</Text>		<!-- On a plateau in modern-day Ohio, at the site of an ancient crater, indigenous people erected a winding mound in the shape of a great serpent. The site was likely selected because of its unusual terrain and was built up by a variety of different peoples over the course of more than a thousand years, between 320 BCE and 1400 CE. The mound coils across the land, settling into the landscape, and the mouth of the serpent appears to consume an oval object, perhaps an egg (possibly once the site of a temple). -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_WONDER_SERPENT_MOUND_CHAPTER_HISTORY_PARA_2" Language="th_TH">
+			<Text>วัตถุประสงค์ที่แน่ชัดของเนินดินนี้ยังคงเป็นปริศนา เนื่องจากขาดบันทึกเป็นลายลักษณ์อักษรจากช่วงเวลานั้น แต่ผู้คนในภูมิภาคนี้ได้สร้างเนินดินและมีแนวคิดเกี่ยวกับงูในตำนานที่ยิ่งใหญ่มาเป็นเวลานาน ตัวอย่างเช่น วัฒนธรรมของมิสซิสซิปเปียน (เกี่ยวข้องแต่ไม่เกี่ยวข้องโดยตรงกับ [serpent mound]) มีชื่อเสียงในการก่อสร้างเนินดินที่ยิ่งใหญ่ที่ [Cahokia] และรูปของงูมีเขายังปรากฏในตำนานของ [Shawnee] และตำนานอื่นๆ</Text>		<!-- The exact purpose of the mound remains a mystery, given the lack of written records from the time, but the people of this region have long built mounds and held ideas of a great mythological serpent. For example, the Mississippian culture (related but not directly associated with the serpent mound) is famous for its great mound constructions at Cahokia, and the figure of a horned serpent also appears in Shawnee and other mythologies. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_IMPROVEMENT_MAWASKAWE_SKOTE_CHAPTER_HISTORY_PARA_1" Language="th_TH">
+			<Text>mawaskawe skote, “council fire,” เป็นจุดศูนย์กลางของการสนทนาระหว่างชนเผ่าและระหว่างเผ่า ในอดีต ไฟจะถูกจุดขึ้นเมื่อมีการตัดสินใจที่ส่งผลกระทบต่อชุมชนชอว์นีทั้งหมด และผู้แทนที่ได้รับเลือกจะมารวมตัวกันเพื่อหารือเกี่ยวกับแต่ละเรื่องจนกว่าจะหาข้อสรุปได้ mawaskawe skote เป็นสถานที่ที่มีความเคารพซึ่งกันและกันที่ผู้ที่ได้รับผลกระทบมีโอกาสพูดและได้รับฟัง การดูแลรักษาไฟนั้นถือเป็นการปฏิบัติที่ศักดิ์สิทธิ์ มันยังคงเป็นส่วนสำคัญของประเพณีชอว์นีในปัจจุบัน</Text>		<!-- The mawaskawe skote, “council fire,” is the focal point of tribal and intertribal discussion. Historically, the fire was lit when decisions had to be made that impacted the whole Shawnee community, and chosen representatives would congregate to discuss each matter until a resolution was reached. The mawaskawe skote was a space of mutual respect where those affected were given the opportunity to speak and be heard. The maintenance of the fire itself was a sacred practice.  It remains a vital part of Shawnee tradition today.  -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_SHAWNEE_WYEHI_SIMEKOFI_CHAPTER_HISTORY_PARA_1" Language="th_TH">
+			<Text>ชุมชนชอว์นีได้รับการจัดระเบียบภายใต้ปรัชญาของ wiyehi simekofi, รูปแบบหนึ่งของความเสมอภาค ส่วนตำแหน่งทางสังคมส่วนใหญ่ไม่ได้เป็นการสืบทอด แต่ตำแหน่งของแต่ละคนจะถูกกำหนดจากความสามารถและความสำเร็จในชีวิต และผู้นำได้รับการแชร์ความรับผิดชอบจากบุคคลทางการเมืองหลายท่าน การบริหารงานถูกแบ่งระหว่างผู้นำพลเรือนและผู้นำทางทหาร ผู้นำพลเรือนถูกเลือกจากตระกูล Chalagawtha, และนี่เป็นบทบาทตลอดชีวิต ในขณะที่ผู้นำสงครามถูกยกระดับสู่ตำแหน่งผู้นำจากทักษะส่วนบุคคลและความสำเร็จของตน หมู่บ้านชอว์นียังมีสภาปกครองของชายและหญิงผู้สูงอายุที่ทำหน้าที่ไกล่เกลี่ยและแนะนำชุมชน</Text>		<!-- Shawnee communities were organized under a philosophy of wiyehi simekofi, a form of egalitarianism. Most social positions were not hereditary; instead, one’s position was determined by their merits and accomplishments in life, and leadership was shared by several political figures. The administration was divided between a civic leader and a military leader. Civic chiefs were selected from the Chalagawtha clan, and this was a life-long role. Meanwhile, war chiefs were elevated into leadership based on their personal skills and accomplishments . Shawnee villages also had a ruling council of elder men and women who moderated and guided the community. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_SHAWNEE_MIYASKA_LATOWEKI_CHAPTER_HISTORY_PARA_1" Language="th_TH">
+			<Text>ชอว์นีเป็นนักเดินทาง อาศัยอยู่ในชุมชนและส่งเสริมการค้าจากอ่าวเชซาพีกไปจนถึงหุบเขาแม่น้ำซาวันนาห์ สัญลักษณ์สำคัญของการมีอยู่ของพวกเขาคือการนำภาษา {Shawnee} มาใช้เป็นภาษาการค้าที่โดดเด่น - miyaska latoweki, “lingua franca” - ทั่วชายฝั่งตะวันออก {Shawnee} ซึ่งเป็นภาษากลุ่มอัลกอนเคียนกลาง ถูกพิจารณาว่าเรียนรู้ได้ง่ายโดยชนเผ่าอื่นและอาณานิคม ทำให้มันสามารถเชื่อมโยงผู้คนหลากหลายผ่านพ้นสายสัมพันธ์ทางวัฒนธรรมในยุคสมัยที่การสื่อสารเช่นนี้สำคัญยิ่ง</Text>		<!-- The Shawnees were travelers, inhabiting settlements and facilitating trade from the Chesapeake Bay to the Savannah River Valley. A significant symbol of their presence was the adoption of the Shawnee language as the dominant trade language – miyaska latoweki, “lingua franca” – across the eastern seaboard. Shawnee, a Central Algonquian language, was considered straightforward to learn by other tribes and colonists alike, allowing it to connect a wide variety of people across cultural lines in an era when such communication was paramount.  -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_SHAWNEE_TELWATIKI_CHAPTER_HISTORY_PARA_1" Language="th_TH">
+			<Text>แม้ว่าจะมีประชากรจำนวนน้อยตามประวัติศาสตร์ ชอว์นีมีอิทธิพลอย่างมากต่อประวัติศาสตร์สหรัฐอเมริกาในยุคแรก ทั้งนี้เป็นผลมาจากทักษะด้านการทูตอันยอดเยี่ยมของพวกเขา พวกเขารุ่งเรืองในพื้นที่ระหว่างโลกของชาวยุโรปและชาวพื้นเมืองอเมริกา ใช้ชีวิตร่วมกับชนเผ่าอื่น ๆ และสร้างพันธมิตรในทุกด้านผ่านการทำงานเป็นพ่อค้า ไกด์ และล่าม ด้วยความเข้าใจในภูมิทัศน์สังคมการเมืองที่ซับซ้อน ชอว์นีจึงใช้ความรู้ด้านการทูตผ่าน [telwatiki] ซึ่งเป็นการปฏิบัติในการเล่นฝ่ายต่าง ๆ ต่อกัน ด้วยการเคลื่อนย้ายโลกที่พวกเขาอยู่รอบข้าง ทำให้มั่นใจว่าประชาชนของพวกเขาจะยืนยาวและรุ่งเรือง</Text>		<!-- Despite a historically small population, the Shawnee had a significant influence on early U.S. history, largely due to their great skill in diplomacy. They thrived in the liminal space between European and Native American worlds, coexisted in the villages of other tribes, and fostered alliances on all sides through their work as traders, guides, and translators. Thanks to their understanding of complex socio-political landscapes, Shawnees leveraged their diplomatic knowledge through telwatiki, the practice of playing parties against one another. By moving the world around them, they ensured the longevity and prosperity of their people.  -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_SHAWNEE_MALEKI_KINTAKE_CHAPTER_HISTORY_PARA_1" Language="th_TH">
+			<Text>ชอว์นีตั้งถิ่นฐานมักสร้างในพื้นที่ที่มีข้อได้เปรียบทางธรรมชาติ ซึ่งโดยปกติจะเป็นเขตเชื่อมต่อทางนิเวศวิทยาที่มีทรัพยากรหลากหลาย ในขณะเดียวกัน ชอว์นียังปรับเปลี่ยนแผ่นดินอย่างยั่งยืนเพื่อตอบสนองความต้องการของพวกเขา [maleki kintake] (“ที่อยู่อาศัยที่วางแผนไว้”) เพิ่มปริมาณอาหารที่สามารถเก็บเกี่ยวได้สูงสุดในขณะเดียวกันก็ส่งเสริมการเจริญเติบโตและการเกิดใหม่ของทรัพยากรธรรมชาติ การจัดการป่าไม้เป็นองค์ประกอบสำคัญของกระบวนการนี้ การตัดไม้และการเผาป่าอย่างมีแผนทำให้พื้นที่เกินออกไปเพื่อสร้างพื้นที่สำหรับการเกษตร พื้นที่นี้ยังช่วยให้พุ่มไม้เบอร์รี่และแหล่งอาหารธรรมชาติอื่น ๆ ขยายพันธุ์ได้ ซึ่งดึงดูดสัตว์ขนาดใหญ่เช่นหมีและกวางที่สามารถล่าได้</Text>		<!-- Shawnee settlements were often built in areas that offered natural advantages, usually in ecotones that provided access to a variety of resources. At the same time, the Shawnees sustainably reshaped the land to meet their needs. These maleki kintake (“planned habitats”) maximized the amount of food that could be harvested while promoting regrowth and repopulation of natural bounty. Forest management was a key element of this process. Tree cutting and planned forest fires cleared excess vegetation to create space for agriculture. This space also allowed for the proliferation of berry bushes and other wild food sources that attracted larger animals, like bears and deer, which could be hunted.  -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_UNIT_KISPOKO_NENA_TO_CHAPTER_HISTORY_PARA_1" Language="th_TH">
+			<Text>สงครามของชอว์นีอาศัยความรู้เกี่ยวกับแผ่นดินเช่นเดียวกับความสามารถทางการทหาร [kispoko nena’to], “นักรบ” ได้รับการฝึกฝนตั้งแต่อายุยังน้อยให้เชี่ยวชาญการใช้อาวุธและสร้างความสัมพันธ์กับป่าไม้ โดยมักจะผ่านการล่าสัตว์ ยุทธวิธีของชอว์นีส่วนใหญ่จะอาศัยการซุ่มโจมตีและการใช้ภูมิประเทศเพื่อให้ได้เปรียบในเชิงยุทธศาสตร์ นักรบสามารถรอหลายวันในตำแหน่งเดิมโดยไม่เคลื่อนไหวอยู่ในพุ่มไม้ ก่อนที่จะโจมตีศัตรูที่ไม่ทันระวังตัว เคลื่อนที่อย่างรวดเร็วและเงียบเชียบ ปราศจากภาระของเกาะ พวกเขาผสมกลมกลืนกับป่าไม้ ออกมาทำการโจมตีที่ร้ายแรงก่อนที่จะหายตัวไปอย่างรวดเร็วเช่นเดียวกับที่พวกเขาปรากฏตัว กลยุทธ์เหล่านี้ขยายประสิทธิภาพของกลุ่มนักรบขนาดเล็ก ทำให้สามารถเอาชนะกองกำลังที่ใหญ่กว่ามาก</Text>		<!-- Shawnee warfare relied as much on knowledge of the land as it did martial prowess. Each kispoko nena’to, “warrior,” trained from a young age to master weaponry and develop a relationship with the woodlands, often through hunting. Shawnee tactics relied largely on ambushes and the use of terrain to gain tactical advantage. Warriors could wait for several days in the same position, motionless in the underbrush, before striking unsuspecting foes. Moving quickly and quietly, unhindered by armor, they blended with the woodlands, emerging to unleash deadly attacks before disappearing as quickly as they had arrived. These strategies amplified the effectiveness of small warbands, enabling them to overcome much larger forces.  -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_UNIT_HOCEEPKILENI_CHAPTER_HISTORY_PARA_1" Language="th_TH">
+			<Text>hoceepkileni, “หมอยา” เป็นผู้นำทางจิตวิญญาณในหมู่ชาวชอว์นี พวกเขาทำหน้าที่เป็นสื่อกลางระหว่างโลกทางกายภาพและโลกทางเมตาฟิสิค และนำทางชุมชนในความสัมพันธ์กับสิ่งศักดิ์สิทธิ์ การรักษาเป็นส่วนสำคัญของทักษะของ hoceepkileni และอาการเจ็บป่วยทางกายได้รับการรักษาในทางยาและจิตวิญญาณ อย่างไรก็ตาม hoceepkileni ยังแก้ไขความตึงเครียดทางสังคมและข้อพิพาทในชุมชน แก้ไขความขัดแย้งภายในประชากร</Text>		<!-- The hoceepkileni, “medicine man,” was a spiritual leader among the Shawnee people. They were intermediaries between the physical and metaphysical worlds and guided the community in their relationship with the divine. Healing was an important part of the hoceepkileni’s skills, and physical ailments were treated medicinally and spiritually. However, the hoceepkileni also addressed social tensions and communal disputes, mending divisions within the population.  -->
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MAWASKAWE_SKOTE_NAME" Language="th_TH">
+			<Text>มาวาสคะเว สโคเต</Text>		<!-- Mawaskawe Skote -->
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MAWASKAWE_SKOTE_DESCRIPTION" Language="th_TH">
+			<Text>+4 [icon:YIELD_FOOD] อาหาร +1 [icon:YIELD_GOLD] ทอง สำหรับทรัพยากรแต่ละหน่วยที่อยู่ติดกัน ต้องวางบนพื้นที่ที่มีพืชพรรณ และไม่ติดกับ Mawaskawe Skote อื่นๆ การปรับปรุงเฉพาะที่ของ Shawnee ไม่จำกัดอายุ</Text>		<!-- +4 [icon:YIELD_FOOD] Food. +1 [icon:YIELD_GOLD] Gold for each adjacent Resource. Must be placed on Vegetated Terrain not adjacent to another Mawaskawe Skote. Shawnee Unique Improvement. Ageless&quot; -->
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MAWASKAWE_SKOTE_TOOLTIP" Language="th_TH">
+			<Text>+1 [icon:YIELD_GOLD] ทองคำ สำหรับแต่ละทรัพยากรที่อยู่ติดกัน ต้องวางบนพื้นที่ที่มีพืชพรรณที่ไม่ติดกับ Mawaskawe Skote อื่น ๆ การปรับปรุงพิเศษของ Shawnee ไม่มีวันเก่า&quot;</Text>		<!-- +1 [icon:YIELD_GOLD] Gold for each adjacent Resource. Must be placed on Vegetated Terrain not adjacent to another Mawaskawe Skote. Shawnee Unique Improvement. Ageless&quot; -->
+		</Replace>
+		<Replace Tag="LOC_WONDER_SERPENT_MOUND_NAME" Language="th_TH">
+			<Text>เนินงู</Text>		<!-- Serpent Mound -->
+		</Replace>
+		<Replace Tag="LOC_WONDER_SERPENT_MOUND_DESCRIPTION" Language="th_TH">
+			<Text>+4 [icon:YIELD_DIPLOMACY] อิทธิพล. +3 [icon:YIELD_SCIENCE] วิทยาศาสตร์ และ +2 [icon:YIELD_PRODUCTION] การผลิตแก่สิ่งก่อสร้างพิเศษทั้งหมดในนิคมนี้ ต้องวางในพื้นที่ทุ่งหญ้า</Text>		<!-- +4 [icon:YIELD_DIPLOMACY] Influence. +3 [icon:YIELD_SCIENCE] Science and +2 [icon:YIELD_PRODUCTION] Production to all Unique Improvements in this Settlement. Must be placed in Grassland. -->
+		</Replace>
+		<Replace Tag="LOC_WONDER_SERPENT_MOUND_TOOLTIP" Language="th_TH">
+			<Text>+3 [icon:YIELD_SCIENCE] วิทยาศาสตร์ และ +2 [icon:YIELD_PRODUCTION] การผลิตให้กับสิ่งปรับปรุงที่เป็นเอกลักษณ์ทั้งหมดในนิคมนี้ จะต้องตั้งอยู่ในทุ่งหญ้า</Text>		<!-- +3 [icon:YIELD_SCIENCE] Science and +2 [icon:YIELD_PRODUCTION] Production to all Unique Improvements in this Settlement. Must be placed in Grassland. -->
+		</Replace>
+		<Replace Tag="LOC_QUOTE_WONDER_SERPENT_MOUND" Language="th_TH">
+			<Text>&quot;ผู้สร้างของเราร้องเพลงให้เราฟังในสายลมและน้ำที่ไหล, ในเสียงเพลงของนก, ในเสียงหัวเราะของเด็ก ๆ, และสอนดนตรีให้แก่เรา&quot;</Text>		<!-- &quot;Our Creator sang to us in the wind and the running water, in the bird songs, in children's laughter, and taught us music.&quot; -->
+		</Replace>
+		<Replace Tag="LOC_QUOTE_AUTHOR_WONDER_SERPENT_MOUND" Language="th_TH">
+			<Text>เทนสควาทาวา</Text>		<!-- Tenskwatawa -->
+		</Replace>
+		<Replace Tag="LOC_TREE_CIVICS_EX_SHAWNEE_NAME" Language="th_TH">
+			<Text>ชอว์นีชิวิกส์</Text>		<!-- Shawnee Civics -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_WYEHI_SIMEKOFI_NAME" Language="th_TH">
+			<Text>วีย์ฮิ ซิเมโคฟิ</Text>		<!-- Wiyehi Simekofi -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_WYEHI_SIMEKOFI_QUOTE" Language="th_TH">
+			<Text>กิ่งไม้เล็ก ๆ อันหนึ่ง เมื่อรวมกับอันอื่น ๆ จะกลายเป็น [bundle].</Text>		<!-- &quot;One small twig, combined with others, makes a bundle.&quot; -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_WYEHI_SIMEKOFI_QUOTE_AUTHOR" Language="th_TH">
+			<Text>สุภาษิตของอูกันดา</Text>		<!-- Ugandan proverb -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_MIYASKA_LATOWEKI_NAME" Language="th_TH">
+			<Text>มิยัสกะ ลาโทเวกิ</Text>		<!-- Miyaska Latoweki -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_MIYASKA_LATOWEKI_QUOTE" Language="th_TH">
+			<Text>จงจำไว้และจำไว้ [merchant child] - ความปรารถนาของคุณคือศัตรูของ {war}</Text>		<!-- &quot;Remember and remember merchant child - your desires are the enemies of war&quot; -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_MIYASKA_LATOWEKI_QUOTE_AUTHOR" Language="th_TH">
+			<Text>ฮามาซะห์ ฟันซูรี</Text>		<!-- Hamazah Fansuri -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_TELWATIKI_NAME" Language="th_TH">
+			<Text>เทลวาติกิ</Text>		<!-- Telwatiki -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_TELWATIKI_QUOTE" Language="th_TH">
+			<Text>จักรวาลคือการแสดงเงา – รอบดวงอาทิตย์เราคือภาพลวงตาที่มาและจากไป</Text>		<!-- The universe is a shadow show – 'round the sun we phantom figures come and go. -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_TELWATIKI_QUOTE_AUTHOR" Language="th_TH">
+			<Text>โอมาร์ คายัม</Text>		<!-- Omar Khayyam -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_MALEKI_KINTAKE_NAME" Language="th_TH">
+			<Text>มาลิกิ คินเทค</Text>		<!-- Maleki Kintake -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_MALEKI_KINTAKE_QUOTE" Language="th_TH">
+			<Text>เราไม่สามารถมีชีวิตอยู่ได้หากไม่มีโลก แต่โลกสามารถมีชีวิตอยู่ได้หากไม่มีเรา</Text>		<!-- &quot;We cannot live without the Earth, but the Earth can live without us.&quot; -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_MALEKI_KINTAKE_QUOTE_AUTHOR" Language="th_TH">
+			<Text>อีโว โมราเลส</Text>		<!-- Evo Morales -->
+		</Replace>
+		<Replace Tag="LOC_MOD_WYEHI_SIMEKOFI_MAWASKAWE_SKOTE_DESCRIPTION" Language="th_TH">
+			<Text>เมาวาสกาเว สโกเต ได้รับ +1 [icon:YIELD_CULTURE] วัฒนธรรมต่อรัฐนครพันธมิตร</Text>		<!-- Mawaskawe Skote receives +1 [icon:YIELD_CULTURE] Culture per allied City State. -->
+		</Replace>
+		<Replace Tag="LOC_MOD_MALEKI_KINTAKE_WAREHOUSES_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_FOOD] อาหารในฟาร์มและค่าย</Text>		<!-- +2 [icon:YIELD_FOOD] Food on Farms and Camps. -->
+		</Replace>
+		<Replace Tag="LOC_MOD_MIYASKA_LATOWEKI_ENDEAVOR_TRADE_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_GOLD] ทองสำหรับแต่ละเส้นทางการค้าขณะที่คุณมี {3 Endeavors} กำลังทำงานอยู่</Text>		<!-- +2 [icon:YIELD_GOLD] Gold for each trade route while you have at least 3 Endeavors active -->
+		</Replace>
+		<Replace Tag="LOC_MOD_MIYASKA_LATOWEKI_CITY_STATE_RESOURCES_DESCRIPTION" Language="th_TH">
+			<Text>+1 ขีดสูงสุดของทรัพยากรในเมืองหลวงของคุณต่อ [Allied City-State] แต่ละแห่ง</Text>		<!-- +1 Resource Cap in your Capital per Allied City-State. -->
+		</Replace>
+		<Replace Tag="LOC_MOD_MOD_TELWATIKI_THIRD_PARTY_DESCRIPTION" Language="th_TH">
+			<Text>คุณสามารถสนับสนุนสงครามของผู้เล่นอื่นได้ 3 ครั้งแทนที่จะเป็น 1 ครั้ง</Text>		<!-- You can support other player's wars 3 times instead of 1. -->
+		</Replace>
+		<Replace Tag="LOC_MOD_TELWATIKI_INFLUENCE_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_DIPLOMACY] อิทธิพลต่อเทิร์น</Text>		<!-- +2 [icon:YIELD_DIPLOMACY] Influence Per turn. -->
+		</Replace>
+		<Replace Tag="LOC_MOD_KISPOKO_NENA_TO_SUPPORT_DESCRIPTION" Language="th_TH">
+			<Text>Kispoko Nena'to จะได้รับความแข็งแกร่งในการต่อสู้ +1 ต่อการสนับสนุนสงครามเชิงบวก</Text>		<!-- The Kispoko Nena'to receives +1 Combat Strength per Positive War Support. -->
+		</Replace>
+		<Replace Tag="LOC_KISPOKO_NENA_TO_SUPPORT_COMBAT_DESCRIPTION" Language="th_TH">
+			<Text>+{1_Value} พลังโจมตีจากการสนับสนุนสงครามในทางบวก (Telwatiki Civic)</Text>		<!-- +{1_Value} Combat Strength from Positive War Support. (Telwatiki Civic) -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_BREAD_DANCE_NAME" Language="th_TH">
+			<Text>การเต้นรำขนมปัง</Text>		<!-- Bread Dance -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_BREAD_DANCE_DESCRIPTION" Language="th_TH">
+			<Text>+4 [icon:YIELD_CULTURE] วัฒนธรรมให้กับทุกเมืองการเกษตรและ +4 [icon:YIELD_FOOD] อาหารให้กับเมืองการประมง</Text>		<!-- +4 [icon:YIELD_CULTURE] Culture to all Farming Towns and +4 [icon:YIELD_FOOD] Food to Fishing Towns. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_HELIKHILENAWEWIPE_NAME" Language="th_TH">
+			<Text>เฮลิเคฮิเลนายวีไวป์</Text>		<!-- Helikhilenawewipe -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_HELIKHILENAWEWIPE_DESCRIPTION" Language="th_TH">
+			<Text>อิทธิพล +50%[icon:YIELD_DIPLOMACY] ต่อการเริ่มต้นและการพัฒนาโครงการ Befriend Independent.</Text>		<!-- +50%[icon:YIELD_DIPLOMACY] Influence towards the initiating and progressing the Befriend Independent Project. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_KAKAWFE_PAFKOTAWETA_NAME" Language="th_TH">
+			<Text>คาคอฟี ปาฟโคตาเวตา</Text>		<!-- Kakawfe Pafkotaweta -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_KAKAWFE_PAFKOTAWETA_DESCRIPTION" Language="th_TH">
+			<Text>ทุกครั้งที่เกิดพายุ น้ำท่วม หรือการระเบิดของภูเขาไฟจะให้ความอุดมสมบูรณ์ยุคนี้ ได้รับ +1 [icon:YIELD_CULTURE] วัฒนธรรมและ +2 [icon:YIELD_GOLD] ทอง การปรับปรุง สิ่งก่อสร้าง และเขตเมืองจะไม่ได้รับความเสียหายจากพายุ</Text>		<!-- Every time a Storm, Flood, or Volcanic Eruption has provided Fertility this Age receive +1 [icon:YIELD_CULTURE] Culture and +2 [icon:YIELD_GOLD] Gold. Improvements, Buildings, and Urban Districts do not get pillaged by Storms. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_TAKESIYAKE_YEPEPOKI_NAME" Language="th_TH">
+			<Text>ทาเคะซิยากะ เยเพะโปะกิ</Text>		<!-- Takesiyake Yepepoki -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_TAKESIYAKE_YEPEPOKI_DESCRIPTION" Language="th_TH">
+			<Text>เมืองจะได้รับ +2 [icon:YIELD_PRODUCTION] การผลิตในแผ่นดินแบบทุนดรา, ทะเลทราย, และที่ราบ</Text>		<!-- Cities receive +2 [icon:YIELD_PRODUCTION] Production on Tundra, Desert, and Plains tiles. -->
+		</Replace>
+		<Replace Tag="LOC_MAIN_CHAR_SELECT_LEADER_TECUMSEH_ANY" Language="th_TH">
+			<Text>บรรพบุรุษของข้าพเจ้าเป็นนักรบ ลูกชายของพวกเขาก็เป็นนักรบ จากพวกเขาข้าพเจ้าได้รับเพียงการดำรงอยู่ของข้าพเจ้าเท่านั้น ข้าพเจ้าได้สร้างตัวตนของข้าพเจ้าเอง</Text>		<!-- My forefathers were warriors. Their son is a warrior. From them I take only my existence. I have made myself what I am.  -->
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_LEADER_TECUMSEH_ANY" Language="th_TH">
+			<Text>คุณเห็นดาวที่พาดผ่านท้องฟ้ายามค่ำคืนเหมือนสายฟ้าฟาดหรือไม่? นั่นคือข้า, Tecumseh, ผู้ที่กระโดดข้ามระยะทางไกล.</Text>		<!-- You see a star that crosses the night sky like a bolt of lightning? That is me, Tecumseh, the one who leaps great distances. -->
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_RECIPIENT_LEADER_TECUMSEH_ANY" Language="th_TH">
+			<Text>คุณเห็นดาวที่ข้ามท้องฟ้ายามค่ำคืนเหมือนสายฟ้าไหม? นั่นคือฉัน, [Tecumseh], ผู้ที่ก้าวกระโดดได้ไกลเกินกว่าใคร.</Text>		<!-- You see a star that crosses the night sky like a bolt of lightning? That is me, Tecumseh, the one who leaps great distances. -->
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_LEADER_TECUMSEH_ANY" Language="th_TH">
+			<Text>คุณเห็นดวงดาวที่เคลื่อนผ่านท้องฟ้ายามค่ำคืนเหมือนสายฟ้าแลบหรือไม่? นั่นคือข้า, Tecumseh, ผู้ที่สามารถกระโดดข้ามระยะทางที่ยิ่งใหญ่</Text>		<!-- You see a star that crosses the night sky like a bolt of lightning? That is me, Tecumseh, the one who leaps great distances. -->
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_INITIATOR_LEADER_TECUMSEH_ANY" Language="th_TH">
+			<Text>เราจะขับไล่คุณกลับไปยังทะเล ไปยังถ้ำ หรือไปยังสถานที่อะไรก็ตามที่คุณมาจากที่นั่น</Text>		<!-- We will drive you back to the sea, to the caves, to whatever place you have come from. -->
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_RECIPIENT_LEADER_TECUMSEH_ANY" Language="th_TH">
+			<Text>ให้มันถูกพรากไป, บ้านและแผ่นดินของเราที่ Great Spirit ได้มอบให้เรา? สถานที่ที่เราฝังผู้ที่ได้กลับบ้านไปแล้ว? ไม่มีวัน!</Text>		<!-- Let it be taken, our homes and our land given to us by the Great Spirit? The places we bury the ones who have gone home? Never! -->
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_AI_LEADER_TECUMSEH_ANY" Language="th_TH">
+			<Text>บทเพลงแห่งความตายได้มาถึงฉัน และฉันกำลังจะร้องมัน เมื่อฉันร้องจบแล้ว ฉันจะไปยังที่ซึ่งหิมะแห่งฤดูหนาวไปถึง ที่ซึ่งคุณไม่อาจไปถึงได้</Text>		<!-- A death song has come to me and I am going to sing it. When I am done, I will go to where the snows of winter go, where you cannot reach. -->
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_ACCEPTED_LEADER_TECUMSEH" Language="th_TH">
+			<Text>ตกลง แต่อย่าทำให้พวกเราต้องเสียใจในภายหลัง</Text>		<!-- Deal. Don’t make us regret it. -->
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_REJECTED_LEADER_TECUMSEH" Language="th_TH">
+			<Text>ไม่</Text>		<!-- No.  -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_TECUMSEH_NAME" Language="th_TH">
+			<Text>เทคัมเซห์</Text>		<!-- Tecumseh -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_TECUMSEH_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_FOOD] อาหาร และ [icon:YIELD_PRODUCTION] การผลิตต่อยุคในนิคม สำหรับทุกนครรัฐที่คุณเป็น Suzerain ของ +1 ความแข็งแกร่งในการต่อสู้สำหรับทุกหน่วย สำหรับทุกนครรัฐที่คุณเป็น Suzerain ของ</Text>		<!-- +1 [icon:YIELD_FOOD] Food and [icon:YIELD_PRODUCTION] Production per Age in Settlements for every City-State you are Suzerain of. +1 Combat Strength for all Units for every City-State you are Suzerain of. -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TECUMSEH_ABILITY_NAME" Language="th_TH">
+			<Text>ไนจากิกายาโคลาคเว</Text>		<!-- Nicaakiyakoolaakwe -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TECUMSEH_ABILITY_DESCRIPTION" Language="th_TH">
+			<Text>[LIST][LI][B]+1 [icon:YIELD_FOOD] อาหาร [/B]และ [icon:YIELD_PRODUCTION] [B]การผลิต [/B]ต่อยุคใน [B]การตั้งถิ่นฐาน [/B]สำหรับทุก [B]รัฐนคร [/B]ที่คุณเป็น [B]เจ้านครรัฐ [/B]ของ[LI][B]+1 พลังการต่อสู้ [/B]สำหรับหน่วยทั้งหมดสำหรับทุก [B]นครรัฐ [/B]ที่คุณเป็น [B]เจ้านคร[/B][/LIST]</Text>		<!-- [LIST][LI][B]+1 [icon:YIELD_FOOD] Food [/B]and [icon:YIELD_PRODUCTION] [B]Production [/B]per Age in [B]Settlements [/B]for every [B]City-State [/B]you are [B]Suzerain [/B]of.[LI][B]+1 Combat Strength [/B]for all Units for every [B]City-State [/B]you are [B]Suzerain [/B]of.[/LIST] -->
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECUMSEH_SUZERAIN_DESCRIPTION" Language="th_TH">
+			<Text>+1 พลังการต่อสู้สำหรับทุก นครรัฐที่คุณเป็น เจ้านคร</Text>		<!-- +1 Combat Strength for every City-State you are Suzerain of. -->
+		</Replace>
+		<Replace Tag="LOC_TECUMSEH_MOD_SUZERAIN_COMBAT_DESCRIPTION" Language="th_TH">
+			<Text>+{1_Amount} นิคาจียากูลาาคเว</Text>		<!-- +{1_Amount} Nicaakiyakoolaakwe -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_SHAWNEE" Language="th_TH">
+			<Text>ในหุบเขาโอไฮโอ ชอว์นีย์ได้แสดงตนบนเวทีโลก ลูกหลานของสิ่งที่นักโบราณคดีเรียกว่า [Fort Ancient] วัฒนธรรม พวกเขาได้สร้างงานดินที่ซับซ้อน ปลูกข้าวโพด และสร้างเมืองเล็ก ๆ ล้อมรอบด้วยที่ประชุมใหญ่ซึ่งเป็นที่ที่มีการอภิปรายในที่สาธารณะ เมื่อสหรัฐอเมริกาใหม่เริ่มขยายตัว พวกเขาต่อสู้อย่างต่อเนื่องเพื่อรักษาที่ดินของพวกเขา และแม้ว่าพวกเขาจะเสีย [Prophetstown] พวกเขายังคงอยู่</Text>		<!-- In the Ohio Valley, the Shawnee made their stand on the world stage. The descendants of what archaeologists term the Fort Ancient culture, they built elaborate earthworks, cultivated maize, and built small cities surrounding a central council house, where public debate took place. When the newly-born United States began to expand, they fought battle after battle to keep their lands, and though they lost their Prophetstown, they remain. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_TECUMSEH" Language="th_TH">
+			<Text>“ผู้ที่กระโดดข้ามพื้นกว้างใหญ่” Tecumseh เป็นหัวหน้าชาว Shawnee ที่ท้าทายการขยายตัวไปทางตะวันตกของสหรัฐอเมริกาในยุคแรก ๆ ร่วมกับ Tenskwatawa น้องชายของเขา เขาเผยแพร่ข้อความของความสามัคคีและการต้านทานในหมู่ชนพื้นเมือง แม้ว่า Tecumseh จะถูกสังหารในระหว่างสงครามปี 1812 แต่วิสัยทัศน์ของเขาเกี่ยวกับความยืนหยัดทางวัฒนธรรมและการเมืองยังคงมีอยู่</Text>		<!-- “The one who leaps across the great expanse,” Tecumseh, was a Shawnee chief who challenged the westward expansion of the early United States. Together with his brother Tenskwatawa, he spread a message of unity and resistance among indigenous people. Although Tecumseh was killed during the War of 1812, his vision of cultural and political persistence lives on. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_VO_SHAWNEE" Language="th_TH">
+			<Text>ฤดูใบไม้ผลิมาถึงป่าดงดิบ ชอว์นีจะสร้างมรดกแห่งความสามัคคี — และอำนาจสูงสุด</Text>		<!-- Spring comes to the woodlands. The Shawnee will craft their legacy of unity — and dominance. -->
+		</Replace>
+		<Replace Tag="LOC_MEMENTO_TECUMSEH_POTESKWATE_NAME" Language="th_TH">
+			<Text>โพเตสควาเต</Text>		<!-- Poteskwate -->
+		</Replace>
+		<Replace Tag="LOC_MEMENTO_TECUMSEH_POTESKWATE_DESCRIPTION" Language="th_TH">
+			<Text>ครกและสากไม้สำหรับการบดและตำที่ใช้ทำอาหาร {tag} {ignore translate}</Text>		<!-- Arboreal mortar and pestle. -->
+		</Replace>
+		<Replace Tag="LOC_MEMENTO_TECUMSEH_POTESKWATE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
+			<Text>อาหาร +1 [icon:YIELD_FOOD] ต่อยุคในนิคมสำหรับแต่ละนครรัฐที่คุณเป็นผู้ปกครองสูงสุด</Text>		<!-- +1 [icon:YIELD_FOOD]Food per Age in Settlements for each City-State you are Suzerain of. -->
+		</Replace>
+		<Replace Tag="LOC_MEMENTO_TECUMSEH_WAMPUM_BELT_NAME" Language="th_TH">
+			<Text>เข็มขัด แวมพัม</Text>		<!-- Wampum Belt -->
+		</Replace>
+		<Replace Tag="LOC_MEMENTO_TECUMSEH_WAMPUM_BELT_DESCRIPTION" Language="th_TH">
+			<Text>สัญลักษณ์ของความสามัคคี</Text>		<!-- Symbol of union. -->
+		</Replace>
+		<Replace Tag="LOC_MEMENTO_TECUMSEH_WAMPUM_BELT_FUNCTIONAL_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_PRODUCTION]การผลิตต่อยุคในนิคมสำหรับแต่ละเมืองรัฐที่คุณเป็น Suzera ของเท่านั้น</Text>		<!-- +1 [icon:YIELD_PRODUCTION]Production per Age in Settlements for each City-State you are Suzerain of. -->
+		</Replace>
+		<Replace Tag="LOC_MEMENTO_TECUMSEH_WARCLUB_NAME" Language="th_TH">
+			<Text>วอร์คลับ</Text>		<!-- Warclub -->
+		</Replace>
+		<Replace Tag="LOC_MEMENTO_TECUMSEH_WARCLUB_DESCRIPTION" Language="th_TH">
+			<Text>อย่านอนนานเกินไป</Text>		<!-- Sleep not longer. -->
+		</Replace>
+		<Replace Tag="LOC_MEMENTO_TECUMSEH_WARCLUB_FUNCTIONAL_DESCRIPTION" Language="th_TH">
+			<Text>+1 ความแข็งแกร่งในการต่อสู้ให้กับยูนิตทั้งหมดสำหรับทุก [City-State] ที่คุณเป็น {Suzerain} ของ</Text>		<!-- +1 Combat Strength for all Units for every City-State you are Suzerain of. -->
+		</Replace>
+		<Replace Tag="LOC_MEMENTO_TECUMSEH_WARCLUB_COMBAT_PREVIEW" Language="th_TH">
+			<Text>+{1_Amount} กระบองสงครามที่ระลึก</Text>		<!-- +{1_Amount} Warclub Memento -->
+		</Replace>
+		<Replace Tag="LOC_MEMENTO_TECUMSEH_POTESKWATE_UNLOCK_TITLE" Language="th_TH">
+			<Text>ปลดล็อกที่ระดับ เทคัมเซห์ เลเวล 2</Text>		<!-- Unlock at Tecumseh level 2 -->
+		</Replace>
+		<Replace Tag="LOC_MEMENTO_TECUMSEH_WARCLUB_UNLOCK_TITLE" Language="th_TH">
+			<Text>ปลดล็อกที่ระดับ เทคัมเซห์ เลเวล 5</Text>		<!-- Unlock at Tecumseh level 5 -->
+		</Replace>
+		<Replace Tag="LOC_MEMENTO_TECUMSEH_WAMPUM_BELT_UNLOCK_TITLE" Language="th_TH">
+			<Text>ปลดล็อกที่ระดับ เทคัมเซห์ เลเวล 9</Text>		<!-- Unlock at Tecumseh level 9 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_ANTIQUITY_NAME" Language="th_TH">
+			<Text>แพกซ์ อิมเพราโทเรีย</Text>		<!-- Pax Imperatoria -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_ANTIQUITY_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ให้ทำเส้นทางสืบทอด [Pax Imperatoria] ให้สำเร็จ</Text>		<!-- As Tecumseh, complete the Pax Imperatoria Legacy Path. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
+			<Text>Pax Imperatoria 2</Text>		<!-- Pax Imperatoria 2 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ จงทำเสร็จเส้นทางมรดก{Pax Imperatoria}สองครั้ง</Text>		<!-- As Tecumseh, complete the Pax Imperatoria Legacy Path twice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
+			<Text>Pax Imperatoria 3</Text>		<!-- Pax Imperatoria 3 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ทำเส้นทาง Pax Imperatoria Legacy ให้สำเร็จสามครั้ง</Text>		<!-- As Tecumseh, complete the Pax Imperatoria Legacy Path thrice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_ANTIQUITY_NAME" Language="th_TH">
+			<Text>เส้นทางสายไหม</Text>		<!-- Silk Roads -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_ANTIQUITY_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์, ทำภารกิจ Silk Roads Legacy Path ให้สำเร็จ</Text>		<!-- As Tecumseh, complete the Silk Roads Legacy Path. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
+			<Text>เส้นทางสายไหม 2</Text>		<!-- Silk Roads 2 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ให้ทำเส้นทาง Silk Roads Legacy Path สองครั้ง</Text>		<!-- As Tecumseh, complete the Silk Roads Legacy Path twice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
+			<Text>เส้นทางสายไหม 3</Text>		<!-- Silk Roads 3 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ทำเส้นทางมรดกเส้นทางสายไหมให้สำเร็จสามครั้ง</Text>		<!-- As Tecumseh, complete the Silk Roads Legacy Path thrice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_EXPLORATION_NAME" Language="th_TH">
+			<Text>ไม่เพียงพอต่อโลกใบนี้</Text>		<!-- Non Sufficit Orbis -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_EXPLORATION_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ให้ทำเส้นทางมรดก Non Sufficit Orbis ให้สมบูรณ์</Text>		<!-- As Tecumseh, complete the Non Sufficit Orbis Legacy Path. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
+			<Text>ไม่เพียงพอต่อโลก 2</Text>		<!-- Non Sufficit Orbis 2 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ให้ทำเส้นทางมรดก Non Sufficit Orbis ให้สำเร็จสองครั้ง</Text>		<!-- As Tecumseh, complete the Non Sufficit Orbis Legacy Path twice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
+			<Text>ไม่เพียงพอสำหรับโลก 3</Text>		<!-- Non Sufficit Orbis 3 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ให้ทำตามเส้นทางแห่งมรดก Non Sufficit Orbis สามครั้ง</Text>		<!-- As Tecumseh, complete the Non Sufficit Orbis Legacy Path thrice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_EXPLORATION_NAME" Language="th_TH">
+			<Text>กองเรือสมบัติ</Text>		<!-- Treasure Fleet -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_EXPLORATION_DESC" Language="th_TH">
+			<Text>ในบทบาทเทคัมเซห์, ทำภารกิจ Treasure Fleet Legacy Path ให้สำเร็จ</Text>		<!-- As Tecumseh, complete the Treasure Fleet Legacy Path. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
+			<Text>ขุมทรัพย์แห่งกองเรือ 2</Text>		<!-- Treasure Fleet 2 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ทำเส้นทางมรดก Treasure Fleet ให้สำเร็จสองครั้ง</Text>		<!-- As Tecumseh, complete the Treasure Fleet Legacy Path twice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
+			<Text>Treasure Fleet 3</Text>		<!-- Treasure Fleet 3 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ให้ทำตามเส้นทางมรดกกองเรือสมบัติสามครั้ง</Text>		<!-- As Tecumseh, complete the Treasure Fleet Legacy Path thrice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_MODERN_NAME" Language="th_TH">
+			<Text>อุดมการณ์</Text>		<!-- Ideology -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_MODERN_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์, ทำเส้นทางมรดกทางอุดมการณ์ให้เสร็จสมบูรณ์</Text>		<!-- As Tecumseh, complete the Ideology Legacy Path. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_MODERN_2_NAME" Language="th_TH">
+			<Text>อุดมการณ์ 2</Text>		<!-- Ideology 2 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_MODERN_2_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ จงทำตาม{Ideology Legacy Path}ให้สำเร็จสองครั้ง</Text>		<!-- As Tecumseh, complete the Ideology Legacy Path twice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_MODERN_3_NAME" Language="th_TH">
+			<Text>อุดมการณ์ 3</Text>		<!-- Ideology 3 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_MODERN_3_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ให้ทำเส้นทางมรดกอุดมการณ์สามครั้ง</Text>		<!-- As Tecumseh, complete the Ideology Legacy Path thrice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_MODERN_NAME" Language="th_TH">
+			<Text>นักธุรกิจทางรถไฟ</Text>		<!-- Railroad Tycoon -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_MODERN_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ให้ทำเส้นทางมรดก Railroad Tycoon ให้สำเร็จ</Text>		<!-- As Tecumseh, complete the Railroad Tycoon Legacy Path. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_MODERN_2_NAME" Language="th_TH">
+			<Text>ไทคูนรถไฟ 2</Text>		<!-- Railroad Tycoon 2 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_MODERN_2_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ทำ Railroad Tycoon Legacy Path ให้สำเร็จสองครั้ง</Text>		<!-- As Tecumseh, complete the Railroad Tycoon Legacy Path twice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_MODERN_3_NAME" Language="th_TH">
+			<Text>Railroad Tycoon 3</Text>		<!-- Railroad Tycoon 3 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_MODERN_3_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์, ทำเส้นทาง Railroad Tycoon Legacy ให้สำเร็จสามครั้ง</Text>		<!-- As Tecumseh, complete the Railroad Tycoon Legacy Path thrice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_AGE_COMPLETED_ANTIQUITY_NAME" Language="th_TH">
+			<Text>จบยุคโบราณ</Text>		<!-- Antiquity Complete -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_AGE_COMPLETED_ANTIQUITY_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์, จบยุคโบราณ</Text>		<!-- As Tecumseh, finish the Antiquity Age. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_AGE_COMPLETED_ANTIQUITY_2_NAME" Language="th_TH">
+			<Text>จบยุคโบราณ 2</Text>		<!-- Antiquity Complete 2 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_AGE_COMPLETED_ANTIQUITY_2_DESC" Language="th_TH">
+			<Text>เมื่อเป็นเทคัมเซห์ ให้จบยุคโบราณสองครั้ง</Text>		<!-- As Tecumseh, finish the Antiquity Age twice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_AGE_COMPLETED_ANTIQUITY_3_NAME" Language="th_TH">
+			<Text>จบยุคโบราณ 3</Text>		<!-- Antiquity Complete 3 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_AGE_COMPLETED_ANTIQUITY_3_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์, ผ่านยุคโบราณสามครั้ง</Text>		<!-- As Tecumseh, finish the Antiquity Age thrice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_AGE_COMPLETED_EXPLORATION_NAME" Language="th_TH">
+			<Text>จบยุคสำรวจ</Text>		<!-- Exploration Complete -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_AGE_COMPLETED_EXPLORATION_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์, จบยุคการสำรวจ</Text>		<!-- As Tecumseh, finish the Exploration Age. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_AGE_COMPLETED_EXPLORATION_2_NAME" Language="th_TH">
+			<Text>จบยุคสำรวจ 2</Text>		<!-- Exploration Complete 2 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_AGE_COMPLETED_EXPLORATION_2_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ สำเร็จยุคแห่งการสำรวจสองครั้ง</Text>		<!-- As Tecumseh, finish the Exploration Age twice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_AGE_COMPLETED_EXPLORATION_3_NAME" Language="th_TH">
+			<Text>จบยุคสำรวจ 3</Text>		<!-- Exploration Complete 3 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_AGE_COMPLETED_EXPLORATION_3_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ จบยุคการสำรวจสามครั้ง</Text>		<!-- As Tecumseh, finish the Exploration Age thrice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_AGE_COMPLETED_MODERN_NAME" Language="th_TH">
+			<Text>จบยุคใหม่</Text>		<!-- Modern Complete -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_AGE_COMPLETED_MODERN_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ให้จบยุคสมัยใหม่</Text>		<!-- As Tecumseh, finish the Modern Age. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_AGE_COMPLETED_MODERN_2_NAME" Language="th_TH">
+			<Text>จบยุคใหม่ 2</Text>		<!-- Modern Complete 2 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_AGE_COMPLETED_MODERN_2_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ จบยุคโมเดิร์นสองครั้ง</Text>		<!-- As Tecumseh, finish the Modern Age twice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_AGE_COMPLETED_MODERN_3_NAME" Language="th_TH">
+			<Text>จบยุคใหม่ 3</Text>		<!-- Modern Complete 3 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_AGE_COMPLETED_MODERN_3_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ จบยุคสมัยใหม่สามครั้ง</Text>		<!-- As Tecumseh, finish the Modern Age thrice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_PLAY_GAMES_1_NAME" Language="th_TH">
+			<Text>เล่นเกม 1</Text>		<!-- Play Game 1 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_PLAY_GAMES_1_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ บรรลุอย่างน้อย 1 [Legacy Path Milestone]</Text>		<!-- As Tecumseh, reach at least 1 Legacy Path Milestone. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_PLAY_GAMES_2_NAME" Language="th_TH">
+			<Text>เล่นเกม 2</Text>		<!-- Play Game 2 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_PLAY_GAMES_2_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์, บรรลุถึงอย่างน้อย 2 {Legacy Path Milestones}.</Text>		<!-- As Tecumseh, reach at least 2 Legacy Path Milestones. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_PLAY_GAMES_3_NAME" Language="th_TH">
+			<Text>เล่นเกม 3</Text>		<!-- Play Game 3 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_PLAY_GAMES_3_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ไปถึงอย่างน้อย 3 [Legacy Path Milestones]</Text>		<!-- As Tecumseh, reach at least 3 Legacy Path Milestones. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_SCIENCE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
+			<Text>หอสมุดขนาดใหญ่</Text>		<!-- Great Library -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_SCIENCE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์, ทำภารกิจเส้นทางมรดกของห้องสมุดใหญ่ให้สำเร็จ</Text>		<!-- As Tecumseh, complete the Great Library Legacy Path. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_SCIENCE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
+			<Text>ห้องสมุดที่ยิ่งใหญ่ 2</Text>		<!-- Great Library 2 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_SCIENCE_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์, ทำ Great Library Legacy Path ให้เสร็จสมบูรณ์สองครั้ง</Text>		<!-- As Tecumseh, complete the Great Library Legacy Path twice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_SCIENCE_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
+			<Text>ห้องสมุดที่ยิ่งใหญ่ 3</Text>		<!-- Great Library 3 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_SCIENCE_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ทำ Great Library Legacy Path ให้สำเร็จสามครั้ง</Text>		<!-- As Tecumseh, complete the Great Library Legacy Path thrice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_SCIENCE_VICTORY_EXPLORATION_NAME" Language="th_TH">
+			<Text>การตรัสรู้</Text>		<!-- Enlightment -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_SCIENCE_VICTORY_EXPLORATION_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์, จบเส้นทางมรดกแห่งการรู้แจ้ง [Enlightenment Legacy Path].</Text>		<!-- As Tecumseh, complete the Enlightenment Legacy Path. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_SCIENCE_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
+			<Text>การตรัสรู้ 2</Text>		<!-- Enlightment 2 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_SCIENCE_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ทำเส้นทางมรดกแห่งการตรัสรู้ให้สำเร็จสองครั้ง</Text>		<!-- As Tecumseh, complete the Enlightenment Legacy Path twice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_SCIENCE_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
+			<Text>การตรัสรู้ 3</Text>		<!-- Enlightment 3 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_SCIENCE_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ทำตามเส้นทาง Enlightenment Legacy สามครั้ง</Text>		<!-- As Tecumseh, complete the Enlightenment Legacy Path thrice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
+			<Text>การแข่งขันอวกาศ</Text>		<!-- Space Race -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ให้ทำเส้นทางมรดก Space Race ให้สำเร็จ</Text>		<!-- As Tecumseh, complete the Space Race Legacy Path. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
+			<Text>การแข่งขันอวกาศ 2</Text>		<!-- Space Race 2 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ให้เสร็จสิ้นเส้นทางมรดกการแข่งอวกาศสองครั้ง</Text>		<!-- As Tecumseh, complete the Space Race Legacy Path twice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
+			<Text>การแข่งขันอวกาศ 3</Text>		<!-- Space Race 3 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ทำเส้นทาง Space Race Legacy Path ให้เสร็จสามครั้ง</Text>		<!-- As Tecumseh, complete the Space Race Legacy Path thrice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
+			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ทำภารกิจ Wonders of the Ancient World Legacy Path ให้สำเร็จ</Text>		<!-- As Tecumseh, complete the Wonders of the Ancient World Legacy Path. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
+			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_CULTURE_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ทำเส้นทาง Wonders of the Ancient World Legacy Path ให้สำเร็จสองครั้ง</Text>		<!-- As Tecumseh, complete the Wonders of the Ancient World Legacy Path twice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_CULTURE_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
+			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 3</Text>		<!-- Wonders of the Ancient World 3 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_CULTURE_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์, ทำ Wonders of the Ancient World Legacy Path ให้สำเร็จสามครั้ง</Text>		<!-- As Tecumseh, complete the Wonders of the Ancient World Legacy Path thrice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_CULTURE_VICTORY_EXPLORATION_NAME" Language="th_TH">
+			<Text>ตอชาคานา</Text>		<!-- Toshakhana -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_CULTURE_VICTORY_EXPLORATION_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ให้ทำ Toshakhana Legacy Path ให้สมบูรณ์</Text>		<!-- As Tecumseh, complete the Toshakhana Legacy Path. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_CULTURE_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
+			<Text>โทชาคานา 2</Text>		<!-- Toshakhana 2 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_CULTURE_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์, ทำภารกิจ Toshakhana Legacy Path ให้สำเร็จสองครั้ง</Text>		<!-- As Tecumseh, complete the Toshakhana Legacy Path twice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_CULTURE_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
+			<Text>โทชาเคหะ 3</Text>		<!-- Toshakhana 3 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_CULTURE_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ให้ทำเส้นทางมรดก Toshakhana สามครั้ง</Text>		<!-- As Tecumseh, complete the Toshakhana Legacy Path thrice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_CULTURE_VICTORY_MODERN_NAME" Language="th_TH">
+			<Text>สมาคมภูมิศาสตร์</Text>		<!-- Geographic Society -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_CULTURE_VICTORY_MODERN_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ให้ทำภารกิจมรดกของสมาคมภูมิศาสตร์ให้สำเร็จ</Text>		<!-- As Tecumseh, complete the Geographic Society Legacy Path. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_CULTURE_VICTORY_MODERN_2_NAME" Language="th_TH">
+			<Text>สมาคมภูมิศาสตร์ 2</Text>		<!-- Geographic Society 2 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_CULTURE_VICTORY_MODERN_2_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ให้ทำเส้นทางมรดกทางภูมิศาสตร์ให้สำเร็จสองครั้ง</Text>		<!-- As Tecumseh, complete the Geographic Society Legacy Path twice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_CULTURE_VICTORY_MODERN_3_NAME" Language="th_TH">
+			<Text>สมาคมภูมิศาสตร์ 3</Text>		<!-- Geographic Society 3 -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_CULTURE_VICTORY_MODERN_3_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์ ทำเส้นทางมรดกสมาคมภูมิศาสตร์ให้สำเร็จสามครั้ง</Text>		<!-- As Tecumseh, complete the Geographic Society Legacy Path thrice. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_FLAWLESS_VICTORY_ANTIQUITY_NAME" Language="th_TH">
+			<Text>มรดกสองด้าน, ยุคโบราณ</Text>		<!-- Dual Legacies, Antiquity -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_FLAWLESS_VICTORY_ANTIQUITY_DESC" Language="th_TH">
+			<Text>ในบทบาทของเทคัมเซห์ ให้ทำตาม [Legacy Paths] 2 เส้นทางในช่วง {Antiquity Age} เดียว</Text>		<!-- As Tecumseh, complete 2 Legacy Paths in a single Antiquity Age. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_FLAWLESS_VICTORY_EXPLORATION_NAME" Language="th_TH">
+			<Text>สองมรดก, ยุคสำรวจ</Text>		<!-- Dual Legacies, Exploration -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_FLAWLESS_VICTORY_EXPLORATION_DESC" Language="th_TH">
+			<Text>ในฐานะเทคัมเซห์, ทำ 2 เส้นทาง [Legacy Paths] ในยุคสำรวจ [Exploration Age] ให้สำเร็จ</Text>		<!-- As Tecumseh, complete 2 Legacy Paths in a single Exploration Age. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_FLAWLESS_VICTORY_MODERN_NAME" Language="th_TH">
+			<Text>สองมรดก, ยุคสำรวจ</Text>		<!-- Dual Legacies, Modern -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_FLAWLESS_VICTORY_MODERN_DESC" Language="th_TH">
+			<Text>ในฐานะที่เป็นเทคัมเซห์, ทำ [Legacy Paths] ให้ครบ 2 เส้นทางใน [Modern Age] เดียว</Text>		<!-- As Tecumseh, complete 2 Legacy Paths in a single Modern Age. -->
+		</Replace>
+		<Replace Tag="LOC_MODULE_SHAWNEE_TECUMSEH_NAME" Language="th_TH">
+			<Text>Shawnee/Tecumseh</Text>		<!-- Shawnee/Tecumseh -->
+		</Replace>
+		<Replace Tag="LOC_MODULE_SHAWNEE_TECUMSEH_DESCRIPTION" Language="th_TH">
+			<Text>ประกอบด้วยผู้นำคนใหม่ เทคัมเซห์ และอารยธรรมยุคการสำรวจใหม่, ชอว์นี</Text>		<!-- Contains a new leader, Tecumseh, and a new exploration age Civilization, the Shawnee. -->
+		</Replace>
+		<Replace Tag="LOC_RIVER_P_SIKFI_FIPI_NAME" Language="th_TH">
+			<Text>พีซิกฟิ ฟิพี</Text>		<!-- P'sikfi Fipi  -->
+		</Replace>
+		<Replace Tag="LOC_RIVER_M_SIFIPIWIKI_NAME" Language="th_TH">
+			<Text>มซิฟิพิวิกิ</Text>		<!-- M'sifipiwiki  -->
+		</Replace>
+		<Replace Tag="LOC_RIVER_PELEWA_FIPI_NAME" Language="th_TH">
+			<Text>เปเลวา ฟีปี</Text>		<!-- Pelewa Fipi -->
+		</Replace>
+		<Replace Tag="LOC_RIVER_K_TEKANI_FIPI_NAME" Language="th_TH">
+			<Text>คเตคานิ ฟิปี</Text>		<!-- K'tekani Fipi -->
+		</Replace>
+		<Replace Tag="LOC_RIVER_KILEKINIKA_FIPI_NAME" Language="th_TH">
+			<Text>คิเลกินิกะ ฟีปี</Text>		<!-- Kilekinika Fipi -->
+		</Replace>
+		<Replace Tag="LOC_1109C_NAME" Language="th_TH">
+			<Text>เมื่อชอว์นีรวมตัวกัน เมฆควันยาสูบสีน้ำเงินก็ลอยขึ้น ผสานกับเสียงหัวเราะและการสนทนา</Text>		<!-- As the Shawnees gather, blue clouds of tobacco smoke rise, mingling with laughter and conversation. -->
+		</Replace>
+		<Replace Tag="LOC_1109C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1203A_STORYTITLE" Language="th_TH">
+			<Text>ดวงอาทิตย์สีดำ</Text>		<!-- Black Sun -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1203A_COMPLETION" Language="th_TH">
+			<Text>ศาสดาเรียกผู้คนจากใกล้และไกลให้มาชมหลักฐานของพลังที่ได้รับมอบหมายในตัวเขาจากเจ้าแห่งชีวิต ยืนตระหง่านต่อหน้าฝูงชนที่รอคอย Tecumseh ย้ำข้อความที่ปรากฏในนิมิตของพี่ชายของเขา: การเปลี่ยนแปลงกำลังจะมา แต่ผ่านความสามัคคี ทุกความท้าทายจะถูกเอาชนะได้ ทันใดนั้น ขณะที่ศาสดาทำนายไว้ ฟ้าก็มืดลงและดวงอาทิตย์ก็หายไป</Text>		<!-- The Prophet summons people from near and far to witness proof of the power invested in him by the Master of Life. Standing tall before the waiting crowds, Tecumseh reiterates the message witnessed in his brother's visions: change is coming, but through unity, all challenges will be overcome. Suddenly, as the Prophet foretold, the sky darkens and the sun disappears. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1203B_STORYTITLE" Language="th_TH">
+			<Text>แบล็กซัน</Text>		<!-- Black Sun -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1203B_NAME" Language="th_TH">
+			<Text>ผู้ศรัทธาใหม่หมายถึงทหารใหม่</Text>		<!-- New believers mean new soldiers. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1203B_DESCRIPTION" Language="th_TH">
+			<Text>เรื่องราวดำเนินต่อไป</Text>		<!-- Story continues. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1203C_STORYTITLE" Language="th_TH">
+			<Text>พระอาทิตย์สีดำ</Text>		<!-- Black Sun -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1203C_NAME" Language="th_TH">
+			<Text>เรื่องราวของปาฏิหาริย์นี้ต้องแพร่หลายออกไป</Text>		<!-- Word of this miracle must spread. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1203C_DESCRIPTION" Language="th_TH">
+			<Text>เรื่องราวยังดำเนินต่อไป</Text>		<!-- Story continues. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1204A_STORYTITLE" Language="th_TH">
+			<Text>คืนก่อนศึก</Text>		<!-- The Eve of Battle -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1204A_COMPLETION" Language="th_TH">
+			<Text>เมื่อกองกำลังศัตรูเข้าใกล้ พลเมืองเตรียมตัวที่จะหลบหนี [The Prophet's] ผู้ส่งสารของศาสดาชักชวนให้ศัตรูมาตั้งรกรากใกล้เคียงเพื่อเตรียมการเจรจาสันติภาพ ในช่วงเวลาพักสั้น ๆ นี้ [Tecumseh] ตรองคำมั่นสัญญาของสงครามกับข้อดีของสันติภาพ</Text>		<!-- As enemy forces draw near, citizens prepare to flee. The Prophet's messengers convince the foes to settle nearby in preparation for peace talks. In this brief respite, Tecumseh weighs the promise of war with the advantages of peace. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1204B_STORYTITLE" Language="th_TH">
+			<Text>คืนก่อนการต่อสู้</Text>		<!-- The Eve of Battle -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1204B_NAME" Language="th_TH">
+			<Text>เตรียมพร้อมนักรบ</Text>		<!-- Ready the warriors. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1204B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1204B_COMPLETION" Language="th_TH">
+			<Text>ทหารล้มลงใต้ความเกรี้ยวกราดของนักรบของ [Tecumseh] ตอนนี้ความสงบสุขจะปกครอง โดยฝีมือของ [Tecumseh]</Text>		<!-- Soldiers fall beneath the fury of Tecumseh's warriors. Now peace will reign, by Tecumseh's hand. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1204B_IMPERATIVE" Language="th_TH">
+			<Text>เอาชนะผู้บังคับบัญชาของศัตรู</Text>		<!-- Defeat an enemy Commander. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1204C_STORYTITLE" Language="th_TH">
+			<Text>ก่อนวันแห่งศึก</Text>		<!-- The Eve of Battle -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1204C_NAME" Language="th_TH">
+			<Text>การนองเลือดไม่ใช่คำตอบเสมอไป</Text>		<!-- Bloodshed is not always the answer. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1204C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1205A_STORYTITLE" Language="th_TH">
+			<Text>การแบ่งแยกภายใน</Text>		<!-- Internal Divisions -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1205A_COMPLETION" Language="th_TH">
+			<Text>มีข่าวลือมากมายเกี่ยวกับแม่มดและหมอเวทที่ข่มขู่โครงสร้างของสังคมของ Tecumseh ผู้พยากรณ์เตือนถึงพลังที่เพิ่มขึ้นของพวกเขา แต่ยังมีวิธีอื่นๆ ในการจัดการกับเสียงที่คัดค้าน</Text>		<!-- Rumors abound of witches and sorcerers threatening the very fabric of Tecumseh's society. The Prophet warns of their growing power, but there are other ways of dealing with dissenting voices. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1205B_STORYTITLE" Language="th_TH">
+			<Text>การแบ่งแยกภายใน</Text>		<!-- Internal Divisions -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1205B_NAME" Language="th_TH">
+			<Text>ปิด</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1205B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} ในการตั้งถิ่นฐานทั้งหมด</Text>		<!-- {1_reward} in all Settlements. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1205B_COMPLETION" Language="th_TH">
+			<Text>ความกลัวต่อแม่มดลดลงเมื่อความเชื่อมั่นของผู้คนใน Tecumseh เพิ่มมากขึ้น ตอนนี้ที่ความกังวลของพวกเขาถูกระงับ ชีวิตก็กลับมามีความสุขอีกครั้ง</Text>		<!-- The fear of witches wanes as the peoples' trust in Tecumseh grows. Now that their concerns are quelled, life becomes joyous once more. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1205B_IMPERATIVE" Language="th_TH">
+			<Text>เริ่มมาตรการคว่ำบาตรทางการทูต 3 ประการ</Text>		<!-- Start 3 Diplomatic Sanctions. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1206A_STORYTITLE" Language="th_TH">
+			<Text>การท่องเที่ยวดินแดนใหม่</Text>		<!-- Touring New Lands -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1206A_COMPLETION" Language="th_TH">
+			<Text>Tecumseh พูดกับเพื่อนบ้านใหม่ด้วยทั้งความร้อนแรงและความเห็นอกเห็นใจ ที่ดินของพวกเขา เขากล่าวว่า เป็นของพวกเขาเอง เช่นเดียวกับขนบธรรมเนียมของพวกเขา แต่เพื่อที่จะรักษาทั้งสองสิ่งนี้ไว้ จะต้องมีความเป็นเอกภาพ - และในความเป็นเอกภาพนั้น มีความแข็งแกร่ง นักรบหนุ่มตั้งใจฟังข้อเสนอทั้งเกียรติยศของเขา ในขณะที่ผู้อาวุโสของพวกเขาสงสัยว่านี่คือเส้นทางสู่การอนุรักษ์จริงหรือไม่</Text>		<!-- Tecumseh addresses new neighbors with both fire and compassion. Their lands, he declares, are their own, and their customs as well. But to maintain both, there must be unity – and in unity, strength. The ears of young warriors perk up at his offer of glory, while their elders wonder whether this is truly the path to preservation. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1206B_STORYTITLE" Language="th_TH">
+			<Text>ท่องเที่ยวดินแดนใหม่</Text>		<!-- Touring New Lands -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1206B_NAME" Language="th_TH">
+			<Text>ความจงรักภักดีของคนรุ่นหนุ่มสาวสัญญาถึงอนาคตที่สดใส</Text>		<!-- The allegiance of the young promises a bright future. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1206B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1206B_COMPLETION" Language="th_TH">
+			<Text>นักรบจากละแวกใกล้เคียงรวมตัวกันในเขตที่ตั้งถิ่นฐานของ [Tecumseh] พร้อมที่จะเผชิญหน้ากับโลก เมื่อพวกเขาร่วมกันเปล่งเสียง เพลงของพวกเขาผสานเข้าด้วยกันกลายเป็นท่วงทำนองเดียวของความสามัคคี </Text>		<!-- Neighboring warriors gather in Tecumseh's settlements, ready to take on the world. As they raise their voices together, their songs combine into a single melody of unity. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1206B_IMPERATIVE" Language="th_TH">
+			<Text>กลายเป็น Suzerain ของอำนาจอิสระ</Text>		<!-- Become Suzerain of an Independent Power. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1206C_STORYTITLE" Language="th_TH">
+			<Text>การท่องเที่ยวดินแดนใหม่ ๆ</Text>		<!-- Touring New Lands -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1206C_NAME" Language="th_TH">
+			<Text>ควรเคารพความสงสัยของผู้สูงอายุ</Text>		<!-- The elders' doubts must be respected. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1206C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1207A_STORYTITLE" Language="th_TH">
+			<Text>เดอะ กราวด์ ควีเวอร์ส</Text>		<!-- The Ground Quivers -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1207A_COMPLETION" Language="th_TH">
+			<Text>ขณะที่โลกทำสงครามกับมนุษยชาติ หลายคนกลัวว่าภัยพิบัติเหล่านี้เป็นสัญญาณของความโกรธของเจ้าแห่งชีวิต ผู้ที่เคยสงสัยคำสอนของศาสดาตอนนี้กลับกลายเป็นผู้เชื่อ Tecumseh ยินดีต้อนรับผู้ศรัทธาใหม่เหล่านี้ จากนั้นส่งพวกเขาออกไปอีกครั้งเพื่อแบ่งปันการค้นพบของพวกเขากับโลก</Text>		<!-- As the earth wages war on humanity, many fear that these disasters are signs of the Master of Life's rage. Those who once doubted the Prophet's teachings now become believers. Tecumseh welcomes these new adherents, then sends them out once more to share their discovery with the world. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1207B_STORYTITLE" Language="th_TH">
+			<Text>เดอะ กราวนด์ ควิเวอร์ส</Text>		<!-- The Ground Quivers -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1207B_NAME" Language="th_TH">
+			<Text>ปิด</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1207B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} ในทุก ถิ่นฐาน.</Text>		<!-- {1_reward} in all Settlements. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1207B_COMPLETION" Language="th_TH">
+			<Text>คำอธิษฐานที่มากมายมีพลังมากกว่าหนึ่งเดียว ผู้พยากรณ์นำทางผู้ศรัทธาทั่วโลกเพื่อปลอบประโลมโลกที่โกรธเกรี้ยว และโลกก็รับฟัง</Text>		<!-- Many prayers are more powerful than one. The Prophet guides believers across the world to appease the angry earth, and the earth listens. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1207B_IMPERATIVE" Language="th_TH">
+			<Text>มี 4 ถิ่นฐานที่เข้าร่วมศาสนาของคุณ</Text>		<!-- Have 4 Settlements following your Founded Religion. -->
+		</Replace>
+		<Replace Tag="LOC_3713A_STORYTITLE" Language="th_TH">
+			<Text>การเปลี่ยนแปลงของฤดูกาล</Text>		<!-- Changing Seasons -->
+		</Replace>
+		<Replace Tag="LOC_3713A_COMPLETION" Language="th_TH">
+			<Text>เมื่อชาวนากลับจากไร่นา ชาวชอว์นีมารวมตัวกันเพื่อร่วมพิธีเต้นรำขนมปัง [tag] ผู้หญิงวางเค้กข้าวโพดข้างเนื้อจากนักล่า อาหารที่ปลูกและอาหารที่หามาได้ – ชีวิตที่เลี้ยงดูและชีวิตที่สิ้นไป ผู้คนเต้นรำ ร้องเพลง และขอบคุณสำหรับความอุดมสมบูรณ์ของโลกที่ช่วยเลี้ยงดูลูกหลานของพวกเขาและจัดหาสิ่งที่จำเป็นในอนาคต [tag]</Text>		<!-- As farmers return from their fields, the Shawnees gather for the Bread Dance. Women lay cakes of corn next to meat from the hunters. Food grown and food gathered – life nurtured and life taken. The people dance, sing, and give thanks for the earth's bounty that keeps them fed and provides for their futures. -->
+		</Replace>
+		<Replace Tag="LOC_3713B_NAME" Language="th_TH">
+			<Text>ทุ่งนาพลุกพล่านไปด้วยความอุดมสมบูรณ์</Text>		<!-- The fields overflow with fertility. -->
+		</Replace>
+		<Replace Tag="LOC_3713B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3713C_NAME" Language="th_TH">
+			<Text>ป่าอุดมไปด้วยเกม</Text>		<!-- The forests are rich with game. -->
+		</Replace>
+		<Replace Tag="LOC_3713C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3713D_NAME" Language="th_TH">
+			<Text>ผู้คนทั้งหมดเปรมปรีดิ์ใน{celebration}.</Text>		<!-- All people rejoice in celebration. -->
+		</Replace>
+		<Replace Tag="LOC_3713D_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3714A_STORYTITLE" Language="th_TH">
+			<Text>พี่น้องที่ขาดหายไป</Text>		<!-- Absent Siblings -->
+		</Replace>
+		<Replace Tag="LOC_3714A_COMPLETION" Language="th_TH">
+			<Text>สัตว์ป่าได้กลายเป็นสิ่งหายากในป่า นักล่า Shawnee สงสัยว่าสิ่งใดเกิดขึ้นกับสัตว์เหล่านั้น หญิงชราคนหนึ่งแอบฟังและชี้ไปที่ป่า ต้นไม้นั้นหนาแน่นเกินไป นางบอกพวกเขา หากพวกเขาต้องการให้สัตว์กลับมา พวกเขาต้องทำให้ป่าเป็นมิตร</Text>		<!-- Animals have become rare in the wilderness, and Shawnee hunters wonder what has become of them. An eavesdropping old woman points to the forest. The trees are too dense, she tells them. If they want the animals to return, they must make the woods friendly. -->
+		</Replace>
+		<Replace Tag="LOC_3714B_NAME" Language="th_TH">
+			<Text>ป่าจะถูกจุดไฟเผา</Text>		<!-- The forest will be set alight. -->
+		</Replace>
+		<Replace Tag="LOC_3714B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3714C_NAME" Language="th_TH">
+			<Text>การตัดต้นไม้บางต้นน่าจะช่วยได้</Text>		<!-- Cutting some trees should do the job. -->
+		</Replace>
+		<Replace Tag="LOC_3714C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3715A_STORYTITLE" Language="th_TH">
+			<Text>ที่ [Council Fire]</Text>		<!-- At the Council Fire -->
+		</Replace>
+		<Replace Tag="LOC_3715A_COMPLETION" Language="th_TH">
+			<Text>พลเมือง Shawnee รวมตัวกันที่ [mawaskawe skote] เพื่อหารือเกี่ยวกับจำนวนประชากรที่เพิ่มขึ้นในเมืองหลวง หัวหน้าหลายคนกังวลว่าความหลากหลายทางวัฒนธรรมกำลังลดลงเมื่อชีวิตของผู้คนมีการเชื่อมโยงกันมากขึ้นในย่านที่มีความหนาแน่น</Text>		<!-- Shawnee citizens gather at the mawaskawe skote to discuss the rising population in the capital. Several chiefs worry that cultural diversity is on the decline as people's lives become more intertwined in dense neighborhoods. -->
+		</Replace>
+		<Replace Tag="LOC_3715B_NAME" Language="th_TH">
+			<Text>ความแตกต่างควรจะคงไว้</Text>		<!-- Differences should be preserved. -->
+		</Replace>
+		<Replace Tag="LOC_3715B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3715C_NAME" Language="th_TH">
+			<Text>การวิวัฒนาการควรถูกปล่อยให้เป็นไปตามวิถีของมันเอง</Text>		<!-- Evolution should be left to its own devices. -->
+		</Replace>
+		<Replace Tag="LOC_3715C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3716A_STORYTITLE" Language="th_TH">
+			<Text>ภูมิปัญญาโบราณ</Text>		<!-- Ancient Wisdom -->
+		</Replace>
+		<Replace Tag="LOC_3716A_COMPLETION" Language="th_TH">
+			<Text>หมอผีเตรียมอุปกรณ์และถุงบรรจุยา หลายคนรอคอยคำพูดและคำแนะนำของเขา เช่นเดียวกับผู้ที่ยังไม่ลืมตาดูธรรมชาติที่แท้จริงของโลก</Text>		<!-- The hoceepkileni readies his gear and his medicine bag. Many await his words and counsel. So do those who have not yet opened their eyes to the world's true nature. -->
+		</Replace>
+		<Replace Tag="LOC_3716B_NAME" Language="th_TH">
+			<Text>ชาวชอว์นีจะได้รับประโยชน์จากปัญญาของเขา</Text>		<!-- The Shawnees will benefit from his wisdom. -->
+		</Replace>
+		<Replace Tag="LOC_3716B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3716C_NAME" Language="th_TH">
+			<Text>เขาจะต้องเดินทางไปต่างประเทศ</Text>		<!-- He must travel abroad. -->
+		</Replace>
+		<Replace Tag="LOC_3716C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3717A_STORYTITLE" Language="th_TH">
+			<Text>ชีวิตเพื่อชีวิต</Text>		<!-- Life for Life -->
+		</Replace>
+		<Replace Tag="LOC_3717A_COMPLETION" Language="th_TH">
+			<Text>ผู้ไว้อาลัยร้องเพลงให้กับร่างของ คิสโปโค เนนาโต้ เพื่อรำลึกถึงการยืนหยัดอย่างกล้าหาญของเขาและสงสัยว่าเมื่อไหร่การตายของเขาจะได้รับการล้างแค้น จู่ๆ ก็มีเสียงร้องขึ้น: ศัตรูได้ล้มลงแล้ว</Text>		<!-- Mourners sing to the body of the kispoko nena’to, remembering his brave stand and wondering when his death will be avenged. Suddenly a cry goes up: an enemy has fallen. -->
+		</Replace>
+		<Replace Tag="LOC_3717B_NAME" Language="th_TH">
+			<Text>เสียงโห่ร้องของเหล่านักรบดังก้องไปทั่วอากาศ</Text>		<!-- The warriors' whoops fill the air. -->
+		</Replace>
+		<Replace Tag="LOC_3717B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} บน คิสโปโค เนนาโต้</Text>		<!-- {1_reward} on Kispoko Nena’to. -->
+		</Replace>
+		<Replace Tag="LOC_3717C_NAME" Language="th_TH">
+			<Text>ความขาดแคลนนี้ต้องได้รับการเติมเต็ม</Text>		<!-- This absence must be filled. -->
+		</Replace>
+		<Replace Tag="LOC_3717C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3718A_STORYTITLE" Language="th_TH">
+			<Text>ความขัดแย้งที่กำลังจะเกิดขึ้น</Text>		<!-- Coming Conflict -->
+		</Replace>
+		<Replace Tag="LOC_3718A_COMPLETION" Language="th_TH">
+			<Text>เสียงกลองดังขณะที่นักรบชอว์นี เตรียมตัวสำหรับสงคราม รวบรวมอาหารและอาวุธ พวกเขาเริ่มการอดอาหารเพื่อชำระตนเองสำหรับการต่อสู้ที่กำลังจะเกิดขึ้น เสียงอึกทึกครึกโครมดังขึ้น นักรบส่งเสียงโห่และยิงปืนของพวกเขา เต้นรำและร้องเพลงสู่ความสำเร็จในอนาคตของพวกเขา แล้วก็เกิดความเงียบเมื่อพวกเขาหายไปในธรรมชาติเพื่อตามล่าศัตรู</Text>		<!-- The drum beats as Shawnee warriors prepare for war. Gathering food and weapons, they begin their fast to purify themselves for the struggle on the horizon. A great clamor rises. The warriors whoop and fire their guns, dancing and singing to their future success. Then – silence, as they melt into the landscape in pursuit of foes. -->
+		</Replace>
+		<Replace Tag="LOC_3718B_NAME" Language="th_TH">
+			<Text>ปิด</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_3718B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3719A_STORYTITLE" Language="th_TH">
+			<Text>ผู้ทอโลหะ</Text>		<!-- Weavers of Metal -->
+		</Replace>
+		<Replace Tag="LOC_3719A_COMPLETION" Language="th_TH">
+			<Text>ช่างเงิน Shawnnee ถูกท่วมท้นด้วยคำขอสำหรับชิ้นงานใหม่ๆ [tag] และ [tag] รวมถึง [tag] และ [tag]... ทุกคนต่างปรารถนาวัสดุโลหะที่สวยงามนี้ และไม่นานนัก แต่ละชุมชนก็ส่องแสงเจิดจ้ากว่ายามที่พระจันทร์เต็มดวง {tag}</Text>		<!-- Shawnee silversmiths are inundated with requests for new pieces. Rings and bracelets, earrings and plates… Everyone desires the beautiful metal, and soon each settlement shines brighter than the moon. -->
+		</Replace>
+		<Replace Tag="LOC_3719B_NAME" Language="th_TH">
+			<Text>ไม่มีวันมีเงิน [silver] มากเกินไป</Text>		<!-- One can never have too much silver. -->
+		</Replace>
+		<Replace Tag="LOC_3719B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3719C_NAME" Language="th_TH">
+			<Text>ถึงเวลาที่จะส่งออกผลงานชิ้นเอกเหล่านี้แล้ว</Text>		<!-- It is time to export these masterpieces. -->
+		</Replace>
+		<Replace Tag="LOC_3719C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3720A_STORYTITLE" Language="th_TH">
+			<Text>พ่อค้าช่างพูด</Text>		<!-- Talkative Merchants -->
+		</Replace>
+		<Replace Tag="LOC_3720A_COMPLETION" Language="th_TH">
+			<Text>เมืองต่างๆ ทั่วโลกต่างเรียกร้องสินค้าจาก ชอว์นี บรรดาพ่อค้าเร่งรีบจากตลาดหนึ่งไปยังอีกตลาดหนึ่ง เพื่อหาลูกค้าและแบ่งปันเรื่องราวของบ้านเกิดของพวกเขา</Text>		<!-- Cities around the world clamor for Shawnee goods. Traders race from one market to the next, courting buyers and sharing stories of their home. -->
+		</Replace>
+		<Replace Tag="LOC_3720B_NAME" Language="th_TH">
+			<Text>พวกเขาเปลี่ยนคำพูดให้กลายเป็นความร่ำรวย</Text>		<!-- They turn words into riches. -->
+		</Replace>
+		<Replace Tag="LOC_3720B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3720C_NAME" Language="th_TH">
+			<Text>มิตรภาพใหม่ ๆ เปิดประตูสู่โอกาสใหม่ ๆ.</Text>		<!-- New friendships open doors. -->
+		</Replace>
+		<Replace Tag="LOC_3720C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3721A_STORYTITLE" Language="th_TH">
+			<Text>ของขวัญจากผืนป่า</Text>		<!-- Bounty from the Woodlands -->
+		</Replace>
+		<Replace Tag="LOC_3721A_COMPLETION" Language="th_TH">
+			<Text>นักรบ ชอว์นี เฉลิมฉลองการล่าสัตว์ที่ประสบความสำเร็จ อย่างไรก็ตาม ชายสูงอายุสงสัยว่าชายหนุ่มรุ่นใหม่ได้แสดงความขอบคุณอย่างเหมาะสมแล้วหรือไม่สำหรับการเสียสละที่สัตว์ได้ทำเพื่อพวกเขา</Text>		<!-- Shawnee warriors celebrate a successful hunt. Yet older men wonder if their young peers have properly given thanks for the sacrifices made for them by the animals. -->
+		</Replace>
+		<Replace Tag="LOC_3721B_NAME" Language="th_TH">
+			<Text>ประเพณีต้องได้รับการอนุรักษ์ไว้เพื่อไม่ให้ถูกลืม</Text>		<!-- Tradition must be preserved lest it be forgotten. -->
+		</Replace>
+		<Replace Tag="LOC_3721B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3721C_NAME" Language="th_TH">
+			<Text>สัตว์ที่รู้คุณเพิ่มจำนวนขึ้นและคงรักษาป่าให้เต็มไปด้วยชีวิต</Text>		<!-- Grateful animals multiply and keep the forests full. -->
+		</Replace>
+		<Replace Tag="LOC_3721C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3722A_STORYTITLE" Language="th_TH">
+			<Text>เปเลวา</Text>		<!-- Pelewa -->
+		</Replace>
+		<Replace Tag="LOC_3722A_COMPLETION" Language="th_TH">
+			<Text>ผู้คนจากใกล้และไกลพากันมาที่ [menagerie] ของ ชอว์นี สัตว์ต่างๆ นั้นงดงามและทุกคนต่างประหลาดใจกับสัตว์ที่แปลกประหลาดเหล่านี้ แต่ท่ามกลางสิ่งที่ไม่ธรรมดาก็มีสิ่งหนึ่งที่เป็นเครื่องเตือนใจถึงสิ่งธรรมดา นั่นคือลูกไก่งวงซึ่งได้รับการนับถือมานานโดยผู้คนและจำเป็นต่อวิถีชีวิตของพวกเขา</Text>		<!-- Crowds from near and far flock to the menagerie of the Shawnee. The animals are exquisite, and all marvel at these strange beasts. Yet amid the extraordinary struts a single reminder of the ordinary – a turkey, long revered by the people and necessary to their way of life. -->
+		</Replace>
+		<Replace Tag="LOC_3722B_NAME" Language="th_TH">
+			<Text>สัตว์ทุกตัวมีคุณค่าเท่าเทียมกัน </Text>		<!-- All animals are equal in value. -->
+		</Replace>
+		<Replace Tag="LOC_3722B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3722C_NAME" Language="th_TH">
+			<Text>ไก่งวงมีเสน่ห์ของพวกมันเอง</Text>		<!-- Turkeys have their own charm. -->
+		</Replace>
+		<Replace Tag="LOC_3722C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3726A_STORYTITLE" Language="th_TH">
+			<Text>ศัตรูรุกล้ำ</Text>		<!-- The Enemy Encroaches -->
+		</Replace>
+		<Replace Tag="LOC_3726A_COMPLETION" Language="th_TH">
+			<Text>ศัตรูกำลังรุกคืบและแผ่นดินของประชาชนของ Tecumseh หดตัวลง โกรธแค้นต่อการสูญเสียถิ่นฐานของเขา เขารวบรวมดินแดนนอกพรมแดนของเขา เรียกร้องให้ผู้ที่นิ่งเฉยลุกขึ้นสู้ – และหากเขาล้มลง พวกเขาจะเป็นรายถัดไป{ }</Text>		<!-- The enemy advances and the land of Tecumseh's people shrinks. Furious at the loss of his settlement, he rallies the territories beyond his borders, appealing to those who settle for inaction – and who, should he fall, will be next in line. -->
+		</Replace>
+		<Replace Tag="LOC_3726B_NAME" Language="th_TH">
+			<Text>อนาคตมีแต่ชัยชนะสำหรับผู้ที่ต่อสู้ต่อไปเท่านั้น</Text>		<!-- The future holds only victory for those who continue to fight. -->
+		</Replace>
+		<Replace Tag="LOC_3726B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3726C_NAME" Language="th_TH">
+			<Text>ความแตกต่างต้องถูกวางไว้สำหรับประโยชน์ส่วนรวม</Text>		<!-- Differences must be set aside for the greater good. -->
+		</Replace>
+		<Replace Tag="LOC_3726C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3727A_STORYTITLE" Language="th_TH">
+			<Text>คำเชิญสู่สงคราม</Text>		<!-- An Invitation to War -->
+		</Replace>
+		<Replace Tag="LOC_3727A_COMPLETION" Language="th_TH">
+			<Text>นครรัฐต่าง ๆ จับตาดูอย่างระมัดระวังเมื่อมหาอำนาจเผชิญหน้ากันในสนามรบ โดยไม่แน่ใจว่าควรจะอยู่ข้างสนามหรือเสี่ยงทุกสิ่งด้วยการเข้าร่วม แต่ Tecumseh ผู้ที่คอยระมัดระวังเสมอจะเป็นผู้ตัดสินใจแทนพวกเขา</Text>		<!-- City states watch as great powers face off on the battlefield, unsure whether they should remain on the sidelines or risk everything by getting involved. But Tecumseh, ever vigilant, will make that choice for them. -->
+		</Replace>
+		<Replace Tag="LOC_3727B_NAME" Language="th_TH">
+			<Text>ส่งสายรัดทำจากลูกปัดสีดำ</Text>		<!-- Send a black wampum belt. -->
+		</Replace>
+		<Replace Tag="LOC_3727B_DESCRIPTION" Language="th_TH">
+			<Text>การดำเนินการทางทหาร Bolster [require] {less} อิทธิพล</Text>		<!-- Bolster Military actions require less Influence. -->
+		</Replace>
+		<Replace Tag="LOC_3727C_NAME" Language="th_TH">
+			<Text>ส่งสายคาดวัมปัมสีขาว</Text>		<!-- Send a white wampum belt. -->
+		</Replace>
+		<Replace Tag="LOC_3727C_DESCRIPTION" Language="th_TH">
+			<Text>การดำเนินการส่งเสริมการเติบโตต้องการอิทธิพลน้อยลง</Text>		<!-- Promote Growth actions require less Influence. -->
+		</Replace>
+		<Replace Tag="LOC_3728A_STORYTITLE" Language="th_TH">
+			<Text>ผู้ที่ไม่ใช่ทหาร</Text>		<!-- Noncombatants -->
+		</Replace>
+		<Replace Tag="LOC_3728A_COMPLETION" Language="th_TH">
+			<Text>พลเรือนหวาดกลัวในขณะที่เหล่านักรบปล้นบ้านเรือนของพวกเขา แต่เมื่อพวกเขากำลังจะจับผู้ไร้เดียงสาเป็นเชลย Tecumseh ยกมือขึ้น</Text>		<!-- Civilians cower as warriors loot their homes. But when they move to take the innocents captive, Tecumseh raises a hand. -->
+		</Replace>
+		<Replace Tag="LOC_3728B_NAME" Language="th_TH">
+			<Text>เลือดได้หลั่งมากพอแล้ว</Text>		<!-- Enough blood has been shed. -->
+		</Replace>
+		<Replace Tag="LOC_3728B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3728C_NAME" Language="th_TH">
+			<Text>เอาเฉพาะของมีค่าเท่านั้น</Text>		<!-- Take only valuables. -->
+		</Replace>
+		<Replace Tag="LOC_3728C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3729A_STORYTITLE" Language="th_TH">
+			<Text>The War Chief</Text>		<!-- The War Chief -->
+		</Replace>
+		<Replace Tag="LOC_3729A_COMPLETION" Language="th_TH">
+			<Text>The warriors cry victory as enemies fall before their fury. Once again, Tecumseh's strategy has succeeded. Emboldened by their leader, the Shawnees melt into the landscape and prepare for their next attack.</Text>		<!-- The warriors cry victory as enemies fall before their fury. Once again, Tecumseh's strategy has succeeded. Emboldened by their leader, the Shawnees melt into the landscape and prepare for their next attack. -->
+		</Replace>
+		<Replace Tag="LOC_3729B_NAME" Language="th_TH">
+			<Text>A quick strike will quash the foe.</Text>		<!-- A quick strike will quash the foe. -->
+		</Replace>
+		<Replace Tag="LOC_3729B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} on Kispoko Nena’to.</Text>		<!-- {1_reward} on Kispoko Nena’to. -->
+		</Replace>
+		<Replace Tag="LOC_3729C_NAME" Language="th_TH">
+			<Text>A hard blow is difficult to block.</Text>		<!-- A hard blow is difficult to block. -->
+		</Replace>
+		<Replace Tag="LOC_3729C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} บน Kispoko Nena’to.</Text>		<!-- {1_reward} on Kispoko Nena’to. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1200A_STORYTITLE" Language="th_TH">
+			<Text>ประตูเปิด</Text>		<!-- The Door Opens -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1200A_COMPLETION" Language="th_TH">
+			<Text>ศาสดาใหม่ลุกขึ้นจากการหลับใหลที่เหมือนตาย ปล่อยชีวิตเก่าออกไป เขาเล่าถึงวิสัยทัศน์ของถนนสองสาย หนึ่งเส้นนำไปสู่ความสุข อีกเส้นนำไปสู่ความทุกข์ เขาทบทวนคำเตือนที่ส่งผ่านเขาโดย {Master of Life}: ความชั่วบางอย่างไม่อาจถูกไถ่คืนได้ แต่อนาคตยังอาจถูกช่วยไว้ได้ เทคัมเซห์ตั้งใจฟังคำพูดของศาสดาอย่างใกล้ชิด จากนั้น เขายื่นมือออกไป ช่วยพี่ชายให้ลุกขึ้นยืน</Text>		<!-- A new Prophet rises from a death-like slumber. Shedding his old life, he relates a vision of a forked road, one path leading to joy, the other misery. He repeats the warning sent through him by the Master of Life: some evils cannot be redeemed, but the future may yet be saved. Tecumseh listens closely to the Prophet's words. Then, extending a hand, he helps his brother to his feet. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1200B_STORYTITLE" Language="th_TH">
+			<Text>ประตูเปิด</Text>		<!-- The Door Opens -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1200B_NAME" Language="th_TH">
+			<Text>ความชั่วร้ายมีชะตากรรมเดียว: ความพ่ายแพ้.</Text>		<!-- Evil shares one fate: defeat. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1200B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1200B_COMPLETION" Language="th_TH">
+			<Text>เมื่อศัตรูหนีเข้าไปในป่ารอบๆ ทหารของ Tecumseh ก็เฉลิมฉลองชัยชนะ เสียงร้องกลับมาและลดลงรอบกองไฟ แบ่งปันเรื่องราวในสนามรบและจินตนาการถึงวันพรุ่งนี้ใหม่</Text>		<!-- As enemies flee into the surrounding wilderness, Tecumseh's warriors celebrate their victory. Voices rise and fall around the campfires, sharing battlefield tales and imagining a new tomorrow. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1200B_IMPERATIVE" Language="th_TH">
+			<Text>เอาชนะ 3 หน่วย。</Text>		<!-- Defeat 3 Units. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1200C_STORYTITLE" Language="th_TH">
+			<Text>ประตูเปิด</Text>		<!-- The Door Opens -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1200C_NAME" Language="th_TH">
+			<Text>เพียงแค่มีความเป็นหนึ่งเดียวเท่านั้นที่ศัตรูจะสามารถถูกเอาชนะได้.</Text>		<!-- Only through unity can enemies be overcome. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1200C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1200C_COMPLETION" Language="th_TH">
+			<Text>คนแปลกหน้าท่องเที่ยวตามถนน มองดูทิวทัศน์ที่ไม่คุ้นเคยและสินค้าที่น่าทึ่ง แต่ไม่นาน – ชนเผ่าเทคัมเซห์รู้ว่าจะต้อนรับใบหน้าที่ใหม่อย่างไรและทำให้พวกเขาเป็นเพื่อนเก่า</Text>		<!-- Strangers wander the streets, peering at unfamiliar sights and marvelous goods. But not for long – Tecumseh's people know how to welcome new faces and make them old friends. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1200C_IMPERATIVE" Language="th_TH">
+			<Text>กลายเป็นผู้ปกครองของอำนาจอิสระ</Text>		<!-- Become Suzerain of an Independent Power. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1200D_STORYTITLE" Language="th_TH">
+			<Text>ประตูเปิด</Text>		<!-- The Door Opens -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1200D_NAME" Language="th_TH">
+			<Text>ผู้คนอาจตีความวิสัยทัศน์นี้ตามที่พวกเขาต้องการ</Text>		<!-- The people may interpret this vision as they will. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1200D_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} ในการตั้งถิ่นฐานทั้งหมด.</Text>		<!-- {1_reward} in all Settlements. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1201A_STORYTITLE" Language="th_TH">
+			<Text>เถ้าถ่านที่กระจัดกระจาย</Text>		<!-- Scattered Embers -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1201A_COMPLETION" Language="th_TH">
+			<Text>ทหารสองบรรทัดเผชิญหน้ากัน ท่ามกลางแสงไฟศักดิ์สิทธิ์ที่ส่องสว่างในยามค่ำคืน พวกเขาร่วมกันเชียร์เพื่อศึกที่จะมาถึง แต่สายตาของ Tecumseh กลับถูกดึงออกจากกองทัพของเขาไปที่ไฟ เงียบสงัดเกิดขึ้นขณะที่งูปรากฏออกมาจากเปลวไฟ ขณะที่มันรีบวิ่งหนีไปยังความมืด เสียงตะโกนกลับดังขึ้นอีกครั้ง ดังยิ่งกว่าที่เคย</Text>		<!-- Two lines of warriors face one another, lit by the sacred fire blazing in the night. Together they cheer for coming battle. But Tecumseh's gaze is suddenly drawn away from his army, towards the fire. Silence falls as a serpent emerges from the flames. As it rushes away into the darkness, the shouts pick up once more, louder than ever. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1201B_STORYTITLE" Language="th_TH">
+			<Text>เถ้าถ่านกระจาย</Text>		<!-- Scattered Embers -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1201B_NAME" Language="th_TH">
+			<Text>วิสัยทัศน์เผยเส้นทางสู่ชัยชนะ。</Text>		<!-- The Vision reveals the path to victory. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1201B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1201B_COMPLETION" Language="th_TH">
+			<Text>ช่างฝีมือแกะสลักภาพของงู และเด็ก ๆ วาดร่างยาวเหล่านั้นลงในดิน ทุกคนรู้ว่าการปรากฏตัวของงูจากไฟนั้นเป็นสัญญาณของความสำเร็จ</Text>		<!-- Craftspeople carve images of serpents, and children draw those long bodies in the soil. All know the snake's appearance from the fire was a sign of victory. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1201B_IMPERATIVE" Language="th_TH">
+			<Text>จับการตั้งถิ่นฐาน</Text>		<!-- Capture a Settlement. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1201C_STORYTITLE" Language="th_TH">
+			<Text>เถ้าถ่านที่กระจาย</Text>		<!-- Scattered Embers -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1201C_NAME" Language="th_TH">
+			<Text>สัตว์ประหลาดจะอยู่รอดได้อย่างไรในความร้อนเช่นนั้น?</Text>		<!-- How does a creature survive such heat? -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1201C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1202A_STORYTITLE" Language="th_TH">
+			<Text>ท่อพิธีกรรม</Text>		<!-- The Ceremonial Pipe -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1202A_COMPLETION" Language="th_TH">
+			<Text>ลมอ่อนๆ พัดขึ้นจากท่อโทมาฮอว์ค ขณะที่เทคัมเซห์สูดควันเข้าไปในปอด ไอระเหยที่คละคลุ้งสัญญาถึงการเริ่มต้นใหม่ผ่านมิตรภาพและความเป็นหนึ่งเดียว แต่ใครกันที่จะได้รับประโยชน์?</Text>		<!-- Gentle wisps rise from the tomahawk pipe as Tecumseh draws its smoke into his lungs. The smoldering kinnikinnick promises new beginnings through friendship and union. But who should benefit? -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1202B_STORYTITLE" Language="th_TH">
+			<Text>ท่อพิธีการ</Text>		<!-- The Ceremonial Pipe -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1202B_NAME" Language="th_TH">
+			<Text>ท่อนซิการ์เองเป็นของขวัญที่คู่ควรแก่ความเป็นพันธมิตร。</Text>		<!-- The pipe itself is a gift worthy of alliance. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1202B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1202B_COMPLETION" Language="th_TH">
+			<Text>ท่อนท่อของ Tecumseh ได้ส่งผ่านจากมือที่เป็นมิตรหนึ่งไปยังอีกมือหนึ่ง มิตรภาพใหม่ๆ ได้ถูกสร้างขึ้นที่นี่ เป็นพันธมิตรที่แข็งแกร่งเพื่อเผชิญกับพายุในอนาคต</Text>		<!-- Tecumseh's tomahawk pipe passes from one friendly hand to another. New friendships have been made here, strong alliances to weather future storms. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1202B_IMPERATIVE" Language="th_TH">
+			<Text>มีพันธมิตรกับอารยธรรมอื่น</Text>		<!-- Have an Alliance with another Civilization. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1202C_STORYTITLE" Language="th_TH">
+			<Text>ท่อพิธีการ</Text>		<!-- The Ceremonial Pipe -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1202C_NAME" Language="th_TH">
+			<Text>ต้องการกลยุทธ์การเจรจาเพิ่มเติม。</Text>		<!-- Additional negotiation tactics are needed. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1202C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3723A_STORYTITLE" Language="th_TH">
+			<Text>เส้นทางของเสือดำ</Text>		<!-- The Panther's Way -->
+		</Replace>
+		<Replace Tag="LOC_3723A_COMPLETION" Language="th_TH">
+			<Text>นักดูดาวชี้ไปที่ท้องฟ้าเมื่อดาวหางพุ่งผ่านท้องฟ้า เมื่อตะลึงไปที่ Tecumseh พวกเขาเห็นเสือดาวแห่งสวรรค์สะท้อนอยู่ในดวงตาของเขา กระโดดผ่านดวงดาว ด้วยความภาคภูมิใจ เขามองชื่อของเขาค่อยๆ หายไปพร้อมกับเส้นทางของไฟ.</Text>		<!-- Stargazers point to the heavens as a comet streaks across the sky. Turning to Tecumseh, they see the celestial panther reflected in his eyes, pouncing through the stars. With a swell of pride, he watches his namesake disappear with a trail of fire. -->
+		</Replace>
+		<Replace Tag="LOC_3723B_NAME" Language="th_TH">
+			<Text>โชคลาภรออยู่สำหรับผู้คน。</Text>		<!-- Fortune awaits the people. -->
+		</Replace>
+		<Replace Tag="LOC_3723B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3723C_NAME" Language="th_TH">
+			<Text>การล่าครั้งต่อไปจะประสบผลสำเร็จ.</Text>		<!-- The next hunt will be fruitful. -->
+		</Replace>
+		<Replace Tag="LOC_3723C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3724A_STORYTITLE" Language="th_TH">
+			<Text>กลยุทธ์การเจรจา</Text>		<!-- Negotiation Tactics -->
+		</Replace>
+		<Replace Tag="LOC_3724A_COMPLETION" Language="th_TH">
+			<Text>หลังจากการถกเถียงกันอย่างมาก หัวหน้าท้องถิ่นปฏิเสธที่จะเข้าร่วมสหภาพของ Tecumseh เมื่อรู้สึกเหนื่อยหน่ายจากการโต้แย้ง พวกเขายื่นท่อเพื่อส่งเสริมสันติภาพเพื่อลบรอยเกลียดชังใดๆ Tecumseh ซึ่งไม่พอใจกับความก้าวหน้าที่ขาดหายไป ถือท่อไว้ระหว่างนิ้วของเขาอย่างระมัดระวัง จากนั้นในท่าทางเดียว เขาก็หักมันเป็นสองท่อนแล้วโยนชิ้นส่วนลงในกองไฟ &quot;อีกครั้งเหรอ?&quot; หัวหน้าคนหนึ่งถอนใจในขณะที่นักรบของเขากระตุ้นให้เขาพิจารณาใหม่ &quot;ตกลงแล้ว...&quot;</Text>		<!-- After much debate, local chiefs refuse to join Tecumseh's confederacy. Weary of arguing, they proffer a peace pipe to smooth over any ill will. Tecumseh, displeased with the lack of progress, holds the pipe carefully between his fingers. Then, in a single motion, he snaps it in half and tosses the fragments into the fire. &quot;Again?&quot; one chief sighs as his warriors urge him to reconsider. &quot;Very well...&quot; -->
+		</Replace>
+		<Replace Tag="LOC_3724B_NAME" Language="th_TH">
+			<Text>ใกล้.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_3724B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3725A_STORYTITLE" Language="th_TH">
+			<Text>ความไม่เห็นด้วยภายใน</Text>		<!-- Internal Dissent -->
+		</Replace>
+		<Replace Tag="LOC_3725A_COMPLETION" Language="th_TH">
+			<Text>หัวหน้าเริ่มระวังความพยายามของ Tecumseh ในการรวมเป็นหนึ่ง สองรัฐเมืองก็เพียงพอแล้ว พวกเขาบอกให้ผู้คนอยู่กับโชคชะตาของตนเองและการตัดสินใจของตนเอง!</Text>		<!-- Chiefs have become wary of Tecumseh's attempts at unification. Two city states are enough, they say leave the people to their own fates, and their own decisions! -->
+		</Replace>
+		<Replace Tag="LOC_3725B_NAME" Language="th_TH">
+			<Text>อำนาจที่แท้จริงมาจากความเป็นน้ำหนึ่งใจเดียวกัน</Text>		<!-- True power comes through solidarity. -->
+		</Replace>
+		<Replace Tag="LOC_3725B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3725C_NAME" Language="th_TH">
+			<Text>มีการขยายตัวเพียงพอแล้ว</Text>		<!-- There has been enough expansion. -->
+		</Replace>
+		<Replace Tag="LOC_3725C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}, แต่ลดความสัมพันธ์ของ Independent Power ทั้งหมดลง 2.</Text>		<!-- {1_reward}, but lower all Independent Power relationships by 2. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1208A_STORYTITLE" Language="th_TH">
+			<Text>ร่วมกันเป็นหนึ่ง</Text>		<!-- Together as One -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1208A_COMPLETION" Language="th_TH">
+			<Text>กองทัพของ Tecumseh เดินทัพทั่วแผ่นดิน ขจัดศัตรูและทำให้ชีวิตของพลเมืองปลอดภัย แม้สงครามยังคงดำเนินอยู่ แต่การรวมตัวของประชาชนให้พลังแก่ Tecumseh เช่นเดียวกับที่การนำของเขาช่วยเสริมสร้างความสัมพันธ์ของพวกเขากับกันและกัน</Text>		<!-- Tecumseh's armies march the land, removing foes and making safe the lives of citizens. Though war continues, the union of his people lends Tecumseh strength, just as his leadership bolsters their bonds with each other. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1208B_STORYTITLE" Language="th_TH">
+			<Text>ร่วมกันเป็นหนึ่ง</Text>		<!-- Together as One -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1208B_NAME" Language="th_TH">
+			<Text>ใกล้.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1208B_DESCRIPTION" Language="th_TH">
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1208B_COMPLETION" Language="th_TH">
+			<Text>เมืองหลวงของศัตรูล่มสลายต่อกองทัพที่รวมตัวกัน ในทุกถนน พวกเขาร้องตะโกนถึงชัยชนะของพวกเขา คำเดียวที่ออกมาจากปากมากมาย: Tecumseh!</Text>		<!-- The enemy's capital falls before the united army. In every street, they shout their victory, a single word emerging from so many mouths: Tecumseh! -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1208B_IMPERATIVE" Language="th_TH">
+			<Text>ยึดเมืองหลวงของศัตรู</Text>		<!-- Capture an enemy Capital. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1208C_STORYTITLE" Language="th_TH">
+			<Text>ด้วยกันเป็นหนึ่ง</Text>		<!-- Together as One -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1208C_NAME" Language="th_TH">
+			<Text>ปิด.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1208C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1208D_STORYTITLE" Language="th_TH">
+			<Text>ร่วมกันเป็นหนึ่ง</Text>		<!-- Together as One -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1208D_NAME" Language="th_TH">
+			<Text>ใกล้.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1208D_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} และเข้าไปในงานเฉลิมฉลอง</Text>		<!-- {1_reward} and enter a Celebration. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1209A_STORYTITLE" Language="th_TH">
+			<Text>ประชาชนที่เชื่อมโยงกัน</Text>		<!-- A People United -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1209A_COMPLETION" Language="th_TH">
+			<Text>หลายคนเข้าร่วมสาเหตุของ Tecumseh ทุกวัน ไหลผ่านประตูของเขาและส่งสารจากที่ไกล แต่มีอีกมากที่แสวงหาความ guidance ของเขาเมื่อความวุ่นวายของโลกเพิ่มขึ้น</Text>		<!-- Many join Tecumseh's cause every day, flooding through his gates and sending missives from afar. But more seek his guidance as the world's turmoil grows. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1209B_STORYTITLE" Language="th_TH">
+			<Text>คนที่รวมเป็นหนึ่ง</Text>		<!-- A People United -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1209B_NAME" Language="th_TH">
+			<Text>ปิด.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1209B_DESCRIPTION" Language="th_TH">
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1209B_COMPLETION" Language="th_TH">
+			<Text>เทคัมเซห์มองเห็นประชาชนของเขาเจริญรุ่งเรือง – หลายเผ่าพันธุ์ในหนึ่งเดียว, แต่ละคนเป็นชิ้นส่วนของวิสัยทัศน์ของผู้เผยแพร่ศาสนาที่เป็นจริง ขอบฟ้าใหม่รออยู่ข้างหน้า, แต่มือที่ชี้นำของ {Master of Life} จะส่องสว่างเส้นทาง.</Text>		<!-- Tecumseh watches his people thrive – many nations in one, each a piece of the Prophet's vision realized. New horizons await, but the Master of Life's guiding hand will light the way. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1209B_IMPERATIVE" Language="th_TH">
+			<Text>มี 4 เส้นทางการค้า。</Text>		<!-- Have 4 Trade Routes. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1209C_STORYTITLE" Language="th_TH">
+			<Text>ประชาชนที่เป็นหนึ่งเดียว</Text>		<!-- A People United -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1209C_NAME" Language="th_TH">
+			<Text>ใกล้.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1209C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1209D_STORYTITLE" Language="th_TH">
+			<Text>ประชาชนที่รวมกัน</Text>		<!-- A People United -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1209D_NAME" Language="th_TH">
+			<Text>ใกล้.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_LEADER_CHAIN_1209D_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} และเข้าร่วมการเฉลิมฉลอง</Text>		<!-- {1_reward} and enter a Celebration. -->
+		</Replace>
+		<Replace Tag="LOC_3730A_STORYTITLE" Language="th_TH">
+			<Text>ของขวัญอันทรงเกียรติ</Text>		<!-- An Honorable Gift -->
+		</Replace>
+		<Replace Tag="LOC_3730A_COMPLETION" Language="th_TH">
+			<Text>เมื่อทั้งสองหัวหน้ามั่นใจในพันธมิตรของกันและกัน เทคัมเซห์ได้รับสัญลักษณ์แห่งเกียรติยศและมิตรภาพ – ปลอกคอจากเครื่องแบบของพันธมิตรใหม่ของเขา รายการนี้มีค่า แต่การแสดงออกนั้นไม่มีราคา</Text>		<!-- As the two chiefs confirm their mutual allegiance, Tecumseh receives a symbol of honor and friendship – a sash directly from the uniform of his new ally. The item is valuable, but the gesture beyond price. -->
+		</Replace>
+		<Replace Tag="LOC_3730B_NAME" Language="th_TH">
+			<Text>แสดงผ้าแพรให้ทุกคนได้เห็น。</Text>		<!-- Display the sash for all to see. -->
+		</Replace>
+		<Replace Tag="LOC_3730B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3730C_NAME" Language="th_TH">
+			<Text>นำสายสะพายไปมอบให้เพื่อนร่วมทีมคนอื่น.</Text>		<!-- Regift the sash to another ally. -->
+		</Replace>
+		<Replace Tag="LOC_3730C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3731A_STORYTITLE" Language="th_TH">
+			<Text>ช่องว่างระหว่าง</Text>		<!-- The Spaces Between -->
+		</Replace>
+		<Replace Tag="LOC_3731A_COMPLETION" Language="th_TH">
+			<Text>ดินแดนเริ่มหนาแน่นไปด้วยอาคาร และโลกธรรมชาติก็หดตัวลงเมื่อเผชิญกับเมืองใหญ่ มีการอ้างสิทธิ์มากมาย แต่สำหรับ Tecumseh ดินแดนยังคงอยู่สำหรับทุกคน</Text>		<!-- The land grows crowded with buildings, and the natural world shrinks in the face of the metropolis. So much has been claimed. But to Tecumseh, the land remains for all. -->
+		</Replace>
+		<Replace Tag="LOC_3731B_NAME" Language="th_TH">
+			<Text>ธรรมชาติยังมีของขวัญมากมายที่จะมอบให้</Text>		<!-- Nature still has many gifts to offer. -->
+		</Replace>
+		<Replace Tag="LOC_3731B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3731C_NAME" Language="th_TH">
+			<Text>โลกต้องได้รับประสบการณ์ในความสงบ.</Text>		<!-- The earth must be experienced in peace. -->
+		</Replace>
+		<Replace Tag="LOC_3731C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3732A_STORYTITLE" Language="th_TH">
+			<Text>เสียงสะท้อนของประวัติศาสตร์</Text>		<!-- Echoes of History -->
+		</Replace>
+		<Replace Tag="LOC_3732A_COMPLETION" Language="th_TH">
+			<Text>เทคัมเซห์มองเห็นวัตถุที่อยู่ตรงหน้าเขา พวกมันนิ่งเฉย แต่ในความเงียบเขาได้ยินเสียงจากอดีต ความทรงจำที่วัตถุเหล่านี้ได้เห็น เรื่องราวที่พวกมันสามารถเล่าได้ พวกมันคือเสียงของมนุษยชาติ</Text>		<!-- Tecumseh regards the artifacts before him. They sit inert, but in that silence he hears the voices of the past, the memories these objects have seen, the stories they could tell. They are the voices of humanity. -->
+		</Replace>
+		<Replace Tag="LOC_3732B_NAME" Language="th_TH">
+			<Text>วัตถุเหล่านี้เป็นของคู่กันอยู่.</Text>		<!-- These objects belong together. -->
+		</Replace>
+		<Replace Tag="LOC_3732B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_3732C_NAME" Language="th_TH">
+			<Text>ของมากขึ้นหมายถึงเสียงมากขึ้น。</Text>		<!-- More artifacts mean more voices. -->
+		</Replace>
+		<Replace Tag="LOC_3732C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_1497A_STORYTITLE" Language="th_TH">
+			<Text>นิวชอว์นี</Text>		<!-- The New Shawnee -->
+		</Replace>
+		<Replace Tag="LOC_1497A_COMPLETION" Language="th_TH">
+			<Text>ในยุคทองของการปกครองของชอว์นี ผู้อาวุโสของฝ่ายซิลาคอฟเฟคือผู้ที่ตัดสินใจทางการเมืองให้กับประชาชน แต่ภายใต้รัฐบาล {1_civilization_adj} บทบาทของพวกเขายังคงไม่ชัดเจน ชอว์นีบางคน {2_civilizations_adj} รู้สึกว่าพวกเขาไม่จำเป็นต้องปฏิบัติตามวิธีการเก่าอีกต่อไป ขณะที่คนอื่นเห็นคุณค่าของประเพณี</Text>		<!-- In the high era of Shawnee rule, it was the elders of the Cilakofe division who made the political decisions for the people. But under a {1_civilization_adj} government, their role is unclear. Some {2_civilizations_adj} Shawnee feel they no longer need to obey the old ways, others see the value in tradition. -->
+		</Replace>
+		<Replace Tag="LOC_1497B_NAME" Language="th_TH">
+			<Text>รักษาอำนาจของผู้สูงอายุไว้</Text>		<!-- Preserve the elders’ authority. -->
+		</Replace>
+		<Replace Tag="LOC_1497B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} ในเมืองสำหรับแต่ละ Shawnee Tradition ที่ถูกจัดสรร.</Text>		<!-- {1_reward} in Cities for each Slotted Shawnee Tradition. -->
+		</Replace>
+		<Replace Tag="LOC_1497C_NAME" Language="th_TH">
+			<Text>ชอว์นีใหม่รับรูปแบบการปกครองใหม่</Text>		<!-- The new Shawnee take up new forms of governance. -->
+		</Replace>
+		<Replace Tag="LOC_1497C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} บนอาคารทองคำ.</Text>		<!-- {1_reward} on Gold Buildings. -->
+		</Replace>
+		<Replace Tag="LOC_1498A_STORYTITLE" Language="th_TH">
+			<Text>สิทธิของป่า</Text>		<!-- Rights of the Forest -->
+		</Replace>
+		<Replace Tag="LOC_1498A_COMPLETION" Language="th_TH">
+			<Text>ผู้อาวุโส Cilakofe ซึ่งตอนนี้เป็นพรรคการเมืองที่ดำเนินงานอยู่ภายใต้รัฐบาล {1_civilization_adj} เกิดความกังวลเกี่ยวกับพื้นที่ล่าสัตว์ - ซึ่งมีความสำคัญต่อ Shawnee มาช้านาน การขยายตัวของเมืองใหม่คุกคามที่จะทำให้แหล่งที่อยู่อาศัยของสัตว์ป่าลดน้อยลง</Text>		<!-- The Cilakofe Elders, now a political party operating within the {1_civilization_adj} government, raise a concern over hunting grounds - long important to Shawnee. New urban encroachments threaten to deplete wildlife range. -->
+		</Replace>
+		<Replace Tag="LOC_1498B_NAME" Language="th_TH">
+			<Text>ผู้สูงอายุจะบริหารจัดการป่าไม้。</Text>		<!-- The elders shall manage forestry. -->
+		</Replace>
+		<Replace Tag="LOC_1498B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} ในเมือง แต่ {2_reward} ในเมือง。</Text>		<!-- {1_reward} in Cities but {2_reward} in Cities. -->
+		</Replace>
+		<Replace Tag="LOC_1498C_NAME" Language="th_TH">
+			<Text>กรุณามองข้ามคำขอนี้.</Text>		<!-- Disregard the request. -->
+		</Replace>
+		<Replace Tag="LOC_1498C_DESCRIPTION" Language="th_TH">
+			<Text>เรื่องราวจบลงแล้ว。</Text>		<!-- Story ends. -->
+		</Replace>
+		<Replace Tag="LOC_1499A_STORYTITLE" Language="th_TH">
+			<Text>การฟื้นฟูของชอวานี</Text>		<!-- The Shawnee Renaissance -->
+		</Replace>
+		<Replace Tag="LOC_1499A_COMPLETION" Language="th_TH">
+			<Text>เยาวชนชอว์นีได้ค้นพบคำสอนของเทนสควาตาวาอีกครั้ง หลังจากที่ห่างไกลจากอำนาจดั้งเดิมของผู้ใหญ่ในชุมชน เยาวชนชอว์นีพบว่าตนเองกำลังตีความคำสอนเหล่านั้นด้วยตนเอง ซึ่งได้รับการคิดใหม่และปรับปรุงให้เข้ากับยุคสมัยปัจจุบัน</Text>		<!-- {1_civilization_adj} Shawnee youth have rediscovered the teachings of Tenskwatawa. Long removed from the traditional authority of their elders, young Shawnee find themselves interpreting them on their own, rethought and revised for the modern age. -->
+		</Replace>
+		<Replace Tag="LOC_1499B_NAME" Language="th_TH">
+			<Text>เยาวชนกลับมายังที่ทำการเต้น.</Text>		<!-- The youth return to the stomp grounds. -->
+		</Replace>
+		<Replace Tag="LOC_1499B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_1499C_NAME" Language="th_TH">
+			<Text>เพลงชอว์นีได้ยินทางวิทยุ</Text>		<!-- Shawnee songs are heard on the radio. -->
+		</Replace>
+		<Replace Tag="LOC_1499C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_1500A_STORYTITLE" Language="th_TH">
+			<Text>การเดินขบวนของอุตสาหกรรม</Text>		<!-- The March of Industry -->
+		</Replace>
+		<Replace Tag="LOC_1500A_COMPLETION" Language="th_TH">
+			<Text>นักวางผังเมืองชอว์นีได้เปิดเผยแผนสำหรับเขตอุตสาหกรรมใหม่ แต่ผู้สูงอายุในชิลลิโคธีมีความกังวลว่าจะทำให้สถานที่ Mawaskawe Skote ที่มีอายุนับศตวรรษได้รับความเสียหาย</Text>		<!-- A Shawnee city planner unveils plans for new industrial zones, but Chillicothe elders are concerned that they will damage a centuries-old Mawaskawe Skote site. -->
+		</Replace>
+		<Replace Tag="LOC_1500B_NAME" Language="th_TH">
+			<Text>ขอคำปรึกษาจากผู้สูงอายุ</Text>		<!-- Take the counsel of the elders. -->
+		</Replace>
+		<Replace Tag="LOC_1500B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} but {2_reward}</Text>		<!-- {1_reward} but {2_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_1500C_NAME" Language="th_TH">
+			<Text>ปฏิเสธคำแนะนำของผู้สูงอายุ.</Text>		<!-- Deny the counsel of the elders. -->
+		</Replace>
+		<Replace Tag="LOC_1500C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} but {2_reward}</Text>		<!-- {1_reward} but {2_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_1501A_STORYTITLE" Language="th_TH">
+			<Text>ตำนานชาติ</Text>		<!-- National Myths -->
+		</Replace>
+		<Replace Tag="LOC_1501A_COMPLETION" Language="th_TH">
+			<Text>ยุคใหม่ต้องการเรื่องราวใหม่ และนักประวัติศาสตร์ได้เริ่มต้นด้วยเอกสารขนาดใหญ่เกี่ยวกับประชาชน {1_civilization_adj} ชอวี โฮซีพกิลีนีสงสัยว่าตำนานของพวกเขาจะมีบทบาทมากน้อยเพียงใดในเล่มนี้</Text>		<!-- A new era requires new stories, and historians have begun with a vast treatise of the {1_civilization_adj} people. Shawnee Hoceepkileni wonder to what extent their stories will feature in the volume. -->
+		</Replace>
+		<Replace Tag="LOC_1501B_NAME" Language="th_TH">
+			<Text>Hoceepkileni เก็บเรื่องราวของพวกเขาไว้ในชุมชนของพวกเขา。</Text>		<!-- Hoceepkileni keep their stories in their community. -->
+		</Replace>
+		<Replace Tag="LOC_1501B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_1501C_NAME" Language="th_TH">
+			<Text>Hoceepkileni เปิดคลังข้อมูลของพวกเขาและมีส่วนร่วม。</Text>		<!-- Hoceepkileni open their archives and contribute. -->
+		</Replace>
+		<Replace Tag="LOC_1501C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_PROFILE_TITLE_TECUMSEH" Language="th_TH">
+			<Text>หัวหน้า</Text>		<!-- Chief -->
+		</Replace>
+		<Replace Tag="LOC_UNIT_KISPOKO_NENA_TO_NAME" Language="th_TH">
+			<Text>คิปโปโก เนนาโต้</Text>		<!-- Kispoko Nena’to -->
+		</Replace>
+		<Replace Tag="LOC_UNIT_KISPOKO_NENA_TO_BASE_DESCRIPTION" Language="th_TH">
+			<Text>หน่วยทหารราบที่ไม่ซ้ำกันของชอว์นี +1 พลังการต่อสู้สำหรับทรัพยากรอาณาจักรที่ไม่ซ้ำกันทุกชนิด.</Text>		<!-- Shawnee Unique Infantry Unit. +1 Combat Strength for every unique Empire Resource. -->
+		</Replace>
+		<Replace Tag="LOC_UNIT_KISPOKO_NENA_TO_DESCRIPTION" Language="th_TH">
+			<Text>หน่วยทหารราบที่ไม่เหมือนใครของชอว์นีระดับ 1. +1 ความแข็งแกร่งในการต่อสู้สำหรับทรัพยากรอาณาจักรที่ไม่เหมือนใครทุกชนิด.</Text>		<!-- Tier 1 Shawnee Unique Infantry Unit. +1 Combat Strength for every unique Empire Resource. -->
+		</Replace>
+		<Replace Tag="LOC_UNIT_KISPOKO_NENA_TO_2_DESCRIPTION" Language="th_TH">
+			<Text>หน่วยทหารราบที่ไม่ซ้ำกันของ Shawnee ระดับ 2. +1 ความแข็งแกร่งในการต่อสู้สำหรับทรัพยากรอาณาจักรที่ไม่ซ้ำกันแต่ละประเภท.</Text>		<!-- Tier 2 Shawnee Unique Infantry Unit. +1 Combat Strength for every unique Empire Resource. -->
+		</Replace>
+		<Replace Tag="LOC_UNIT_KISPOKO_NENA_TO_3_DESCRIPTION" Language="th_TH">
+			<Text>ระดับ 3 หน่วยทหารราบเฉพาะของชอว์นี เพิ่ม +1 ความแข็งแกร่งในการต่อสู้สำหรับทรัพยากรของอาณาจักรที่เป็นเอกลักษณ์ทุกชนิด</Text>		<!-- Tier 3 Shawnee Unique Infantry Unit. +1 Combat Strength for every unique Empire Resource. -->
+		</Replace>
+		<Replace Tag="LOC_KISPOKO_NENA_TO_RESOURCE_COMBAT_DESCRIPTION" Language="th_TH">
+			<Text>+{1_Value} ความแข็งแกร่งในการต่อสู้สำหรับทรัพยากรอาณาจักรที่ไม่ซ้ำกันทุกประเภท</Text>		<!-- +{1_Value} Combat Strength for every unique Empire Resource. -->
+		</Replace>
+		<Replace Tag="LOC_UNIT_HOCEEPKILENI_NAME" Language="th_TH">
+			<Text>โฮซีปกิลีนิ</Text>		<!-- Hoceepkileni  -->
+		</Replace>
+		<Replace Tag="LOC_UNIT_HOCEEPKILENI_DESCRIPTION" Language="th_TH">
+			<Text>Shawnee Unique Missionary. +1 การเคลื่อนไหวและแม่น้ำไม่สิ้นสุดการเคลื่อนไหว.</Text>		<!-- Shawnee Unique Missionary. +1 Movement and Rivers do not end movement. -->
+		</Replace>
+		<Replace Tag="LOC_BADGE_TECUMSEH_NAME" Language="th_TH">
+			<Text>เหรียญ เทคัมเซห์ 1</Text>		<!-- Tecumseh Badge 1 -->
+		</Replace>
+		<Replace Tag="LOC_BADGE_TECUMSEH_P_NAME" Language="th_TH">
+			<Text>เหรียญ เทคัมเซห์ 2</Text>		<!-- Tecumseh Badge 2 -->
+		</Replace>
+		<Replace Tag="LOC_BANNER_TECUMSEH_NAME" Language="th_TH">
+			<Text>ธงเทคัมเซห์</Text>		<!-- Tecumseh Banner -->
+		</Replace>
+		<Replace Tag="LOC_TITLE_TECUMSEH_NAME" Language="th_TH">
+			<Text>หัวหน้า</Text>		<!-- Chief -->
+		</Replace>
+		<Replace Tag="LOC_STRATEGYCARD_TECUMSEH_EXPLORATION_1_NAME" Language="th_TH">
+			<Text>การสำรวจมรดกทหารการ์ด</Text>		<!-- Exploration Militaristic Legacy Card -->
+		</Replace>
+		<Replace Tag="LOC_STRATEGYCARD_TECUMSEH_EXPLORATION_1_DESCRIPTION" Language="th_TH">
+			<Text>ในฐานะที่เป็น Tecumseh เข้าถึงการ์ดมรดกการสำรวจใหม่:[n]  
+				+3 ความแข็งแกร่งในการต่อสู้ต่อหน่วยเรือ, -10% อิทธิพล</Text>		<!-- As Tecumseh, access a new Exploration Legacy Card:[n]
+				+3 Combat Strength towards Naval Units, -10% Influence -->
+		</Replace>
+		<Replace Tag="LOC_STRATEGYCARD_TECUMSEH_EXPLORATION_2_NAME" Language="th_TH">
+			<Text>การสำรวจมรดกทางการทูตการ์ด</Text>		<!-- Exploration Diplomatic Legacy Card -->
+		</Replace>
+		<Replace Tag="LOC_STRATEGYCARD_TECUMSEH_EXPLORATION_2_DESCRIPTION" Language="th_TH">
+			<Text>ในฐานะที่เป็น เทคัมเซห์ เข้าถึง Exploration Legacy Card ใหม่: [n] +15% อิทธิพล, -2 ความแข็งแกร่งในการต่อสู้สำหรับหน่วยเรือ</Text>		<!-- As Tecumseh, access a new Exploration Legacy Card:[n]
+				+15% Influence, -2 Combat Strength for Naval Units -->
+		</Replace>
+		<Replace Tag="LOC_STRATEGYCARD_TECUMSEH_MODERN_1_NAME" Language="th_TH">
+			<Text>มรดกการทหารสมัยใหม่ Card</Text>		<!-- Modern Militaristic Legacy Card -->
+		</Replace>
+		<Replace Tag="LOC_STRATEGYCARD_TECUMSEH_MODERN_1_DESCRIPTION" Language="th_TH">
+			<Text>ในฐานะที่เป็น เทคัมเซห์ เข้าถึงการ์ดมรดกสมัยใหม่ใหม่:[n]  
+				+3 ความแข็งแกร่งในการต่อสู้ต่อหน่วยอากาศ, -10% อิทธิพล</Text>		<!-- As Tecumseh, access a new Modern Legacy Card:[n]
+				+3 Combat Strength towards Air Units, -10% Influence -->
+		</Replace>
+		<Replace Tag="LOC_STRATEGYCARD_TECUMSEH_MODERN_2_NAME" Language="th_TH">
+			<Text>บัตรมรดกการทูตสมัยใหม่</Text>		<!-- Modern Diplomatic Legacy Card -->
+		</Replace>
+		<Replace Tag="LOC_STRATEGYCARD_TECUMSEH_MODERN_2_DESCRIPTION" Language="th_TH">
+			<Text>ในฐานะที่เป็น Tecumseh, เข้าถึงบัตรมรดกสมัยใหม่ใหม่:[n]  
+				+15% อิทธิพล, -2 ความแข็งแกร่งการต่อสู้สำหรับหน่วยอากาศ</Text>		<!-- As Tecumseh, access a new Modern Legacy Card:[n]
+				+15% Influence, -2 Combat Strength for Air Units -->
+		</Replace>
+		<Replace Tag="LOC_ATTRIBUTENODE_TECUMSEH_L1_NAME" Language="th_TH">
+			<Text>โหนดลักษณะทางทหาร</Text>		<!-- Militaristic Attribute Node -->
+		</Replace>
+		<Replace Tag="LOC_ATTRIBUTENODE_TECUMSEH_L1_DESCRIPTION" Language="th_TH">
+			<Text>+5 ความแข็งแกร่งในการต่อสู้สำหรับหน่วยทั้งหมดเมื่อเทียบกับเขตปกครอง.</Text>		<!-- +5 Combat Strength for all Units against Districts. -->
+		</Replace>
+		<Replace Tag="LOC_ATTRIBUTENODE_TECUMSEH_L2_NAME" Language="th_TH">
+			<Text>โหนดแอตทริบิวต์ทางการทูต</Text>		<!-- Diplomatic Attribute Node -->
+		</Replace>
+		<Replace Tag="LOC_ATTRIBUTENODE_TECUMSEH_L2_DESCRIPTION" Language="th_TH">
+			<Text>+25% ความสัมพันธ์จากการเริ่มต้นหรือสนับสนุน Endeavors. -25% ความสัมพันธ์จากการเริ่มต้น คว่ำบาตร หรือปฏิเสธ Endeavors.</Text>		<!-- +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_PLAY_AS_MISSISSIPPI_SHAWNEE_DESCRIPTION" Language="th_TH">
+			<Text>ชาว [B]มิสซิสซิปปี [/B] เป็นร่วมสมัยกับบรรพบุรุษของ [B]ชอว์นี [/B]</Text>		<!-- The [B]Mississippians [/B] were a contemporary of the [B]Shawnee's [/B] ancestors. -->
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_PLAY_AS_TECUMSEH_MISSISSIPPIAN_TOOLTIP" Language="th_TH">
+			<Text>บรรพบุรุษของ[B]เทคัมเซห์[/B] เป็นเพื่อนบ้านกับชาวมิสซิสซิปปี</Text>		<!-- [B]Tecumseh's[/B] ancestors were neighbors to the Mississippians. -->
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_PLAY_AS_TECUMSEH_DESCRIPTION" Language="th_TH">
+			<Text>เล่นเป็น [B]เทคัมเซห์[/B].</Text>		<!-- Play as [B]Tecumseh[/B]. -->
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_PLAY_AS_TECUMSEH_TOOLTIP" Language="th_TH">
+			<Text>[B]เทคัมเซห์[/B] เป็นผู้นำของ [B]ชอว์นี[/B].</Text>		<!-- [B]Tecumseh[/B] led the [B]Shawnee[/B]. -->
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_PLAY_AS_TECUMSEH_AMERICA_TOOLTIP" Language="th_TH">
+			<Text>[B]เทคัมเซห์[/B] อาศัยอยู่ในดินแดนที่ต่อมาถูกครอบครองโดย [B]America[/B].</Text>		<!-- [B]Tecumseh[/B] lived in lands later occupied by [B]America[/B]. -->
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_PLAY_AS_TECUMSEH_MEXICO_TOOLTIP" Language="th_TH">
+			<Text>[B]เทคัมเซห์[/B] อาศัยอยู่ในดินแดนที่ต่อมาได้ถูกยึดครองโดย [B]เม็กซิโก[/B].</Text>		<!-- [B]Tecumseh[/B] lived in lands later occupied by [B]Mexico[/B]. -->
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_PLAY_AS_SHAWNEE_DESCRIPTION" Language="th_TH">
+			<Text>เล่นเป็น [B]ชอว์นี[/B].</Text>		<!-- Play as the [B]Shawnee[/B]. -->
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_PLAY_AS_SHAWNEE_MEXICO_TOOLTIP" Language="th_TH">
+			<Text>เชื้อชาติ [B]ชอว์นี [/B] มาจากทวีปเดียวกับ [B]เม็กซิโก[/B].</Text>		<!-- The [B]Shawnee [/B] are from the same continent as [B]Mexico[/b]. -->
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_PLAY_AS_SHAWNEE_AMERICA_TOOLTIP" Language="th_TH">
+			<Text>ชอว์นี [B]ชอว์นี [/B] มาจากทวีปเดียวกับ [B]Mexico[/B].</Text>		<!-- The [B]Shawnee [/B] are from the same continent as [B]Mexico[/b]. -->
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_HIDES_DESCRIPTION" Language="th_TH">
+			<Text>ปรับปรุง 3 [B]หนังสัตว์[/B].</Text>		<!-- Improve 3 [B]Hides[/B]. -->
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_HIDES_TOOLTIP" Language="th_TH">
+			<Text>[B]หนังสัตว์[/B] เป็นสินค้าเชิงพาณิชย์ที่สำคัญสำหรับ [B]ชอว์นี[/B].</Text>		<!-- [B]Hides[/B] were an important commodity to the [B]Shawnee[/B]. -->
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_HIDES_NARRATIVE" Language="th_TH">
+			<Text>นักล่าสัตว์ในป่ามาถึงเมืองในยามรุ่งอรุณ, บรรทุกหนังสัตว์ที่ถูกฟอกและยืดเพื่อเตรียมขายในตลาด พวกเขาถูกพบ, บางครั้งแม้กระทั่งนอกประตู, โดยพ่อค้าที่กระตือรือร้นสำหรับการค้าขาย - หนังสัตว์ได้กลายเป็นสิ่งจำเป็นต่อเศรษฐกิจของ {1_Civilization_Adj}... เช่นเดียวกับผู้ที่หามันมา.</Text>		<!-- The forest trappers enter the city at dawn, burdened by the tanned and stretched hides they intend for the market. They are met, sometimes even outside the gates, by merchants eager for trade - hides have become vital to the {1_Civilization_Adj} economy... as have their procurers. -->
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_HIDES_UNLOCK" Language="th_TH">
+			<Text>คุณได้ปลดล็อกชอว์นีโดยการปรับปรุง 3 แหล่งทรัพยากรหนังสัตว์.</Text>		<!-- You have unlocked Shawnee by improving 3 Hides Resources. -->
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_CITY_STATES_DESCRIPTION" Language="th_TH">
+			<Text>เป็น [B]สุสเซอเรน[/B] ของ 2 [B]เมือง-รัฐ[/B].</Text>		<!-- Be [B]Suzerain[/B] of 2 [B]City-States[/B]. -->
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_CITY_STATES_TOOLTIP" Language="th_TH">
+			<Text>[B]ชอว์นี[/B] เป็นเพื่อนกับหลายประเทศเล็กๆ.</Text>		<!-- The [B]Shawnee[/B] were friends with many smaller nations. -->
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_CITY_STATES_NARRATIVE" Language="th_TH">
+			<Text>อำนาจในดินแดน {1_Civilization_Adj} ไม่ได้มาจากเพียงแค่พระราชวัง แต่ยังมาจากเครือข่ายพันธมิตรทางการทูตที่เชื่อมโยงกัน ที่ซึ่งคำสอนของศาสดา Tenskwatawa ได้เริ่มแพร่หลายไปในหมู่ผู้ที่เคลื่อนไหวระหว่างเมือง-รัฐและเมืองของ {1_Civilization_Adj}; บทเรียนแห่งความสามัคคีท่ามกลางการเปลี่ยนแปลง.</Text>		<!-- Power in {1_Civilization_Adj} lands emerges not only from the palace, but from the network of diplomatic alliances that converge there. The teachings of the prophet Tenskwatawa have begun to circulate among some that move between the city-states and {1_Civilization_Adj} cities; a lesson of unity in the face of change. -->
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_CITY_STATES_UNLOCK" Language="th_TH">
+			<Text>คุณได้ปลดล็อกชอว์นีโดยการเป็นเจ้านครของ 2 เมือง-รัฐ.</Text>		<!-- You have unlocked Shawnee by becoming the Suzerain of 2 City-States. -->
+		</Replace>
+	</LocalizedText>
+</Database>
