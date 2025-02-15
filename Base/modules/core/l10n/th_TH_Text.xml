@@ -110,7 +110,7 @@
 			<Text>รอผู้เล่น</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_READY_BUTTON_STARTING_GAME" Language="th_TH">
-			<Text>กำลังเริ่ม..</Text>
+			<Text>กำลังเริ่ม.</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_DROPDOWN_ACTION_DESC" Language="th_TH">
 			<Text>ตัวเลือกการกระทำสำหรับช่องผู้เล่นนี้</Text>
@@ -332,7 +332,7 @@
 			<Text>ยืนยัน</Text>		<!-- Confirm -->
 		</Replace>
 		<Replace Tag="LOC_CREATE_CIV_UNIQUE_BONUSES_SUBTITLE" Language="th_TH">
-			<Text>หน่วยและอาคารพิเศษ</Text>		<!-- Unique Units and Buildings -->
+			<Text>ยูนิตและอาคารพิเศษ</Text>		<!-- Unique Units and Buildings -->
 		</Replace>
 		<Replace Tag="LOC_CREATE_GAME_AGE_TITLE" Language="th_TH">
 			<Text>ยุค {1_Item}</Text>		<!-- {1_Item} Age -->
@@ -725,7 +725,7 @@
 			<Text>คุณแน่ใจหรือว่าต้องการเขียนทับ {1_type} ที่บันทึกไว้นี้? การกระทำนี้ไม่สามารถยกเลิกได้</Text>		<!-- Are you sure you want to overwrite this existing saved {1_type}? This action cannot be undone. -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_TITLE_OVERWRITING" Language="th_TH">
-			<Text>กำลังเขียนทับเกมที่บันทึกไว้..</Text>		<!-- Overwriting saved game... -->
+			<Text>กำลังเขียนทับเกมที่บันทึกไว้.</Text>		<!-- Overwriting saved game... -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_UNABLE_TO_SAVE_TITLE" Language="th_TH">
 			<Text>การบันทึกล้มเหลว</Text>		<!-- Save Failed -->
@@ -767,13 +767,13 @@
 			<Text>การกำหนดค่าเกม</Text>		<!-- Game Config -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_SAVING" Language="th_TH">
-			<Text>กำลังสร้างการบันทึก {1_SaveType}..</Text>		<!-- Creating {1_SaveType} save... -->
+			<Text>กำลังสร้างการบันทึก {1_SaveType}.</Text>		<!-- Creating {1_SaveType} save... -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_LOADING" Language="th_TH">
-			<Text>กำลังดึงการบันทึก {1_SaveType}..</Text>		<!-- Getting {1_SaveType} saves... -->
+			<Text>กำลังดึงการบันทึก {1_SaveType}.</Text>		<!-- Getting {1_SaveType} saves... -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_DELETING" Language="th_TH">
-			<Text>กำลังลบการบันทึก {1_SaveType}..</Text>		<!-- Deleting {1_SaveType} save... -->
+			<Text>กำลังลบการบันทึก {1_SaveType}.</Text>		<!-- Deleting {1_SaveType} save... -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_DELETE_DIALOG" Language="th_TH">
 			<Text>คุณแน่ใจหรือว่าต้องการลบการบันทึก {1_type} นี้? การกระทำนี้ไม่สามารถยกเลิกได้</Text>		<!-- Are you sure you want to delete this saved {1_type}? This action cannot be undone. -->
@@ -1145,10 +1145,10 @@
 			<Text>เปิดตัวเลือกไอคอน</Text>		<!-- Open icon options -->
 		</Replace>
 		<Replace Tag="LOC_UI_CHAT_PANEL_PLAYER_CONNECTED" Language="th_TH">
-			<Text>ผู้เล่น [STYLE:mp-chat__text-shrink]{1_Name} [/S]เชื่อมต่อแล้ว..</Text>		<!-- Player [STYLE:mp-chat__text-shrink]{1_Name} [/S]is connected... -->
+			<Text>ผู้เล่น [STYLE:mp-chat__text-shrink]{1_Name} [/S]เชื่อมต่อแล้ว.</Text>		<!-- Player [STYLE:mp-chat__text-shrink]{1_Name} [/S]is connected... -->
 		</Replace>
 		<Replace Tag="LOC_UI_CHAT_PANEL_PLAYER_DISCONNECTED" Language="th_TH">
-			<Text>ผู้เล่น [STYLE:mp-chat__text-shrink]{1_Name} [/S]ตัดการเชื่อมต่อแล้ว..</Text>		<!-- Player [STYLE:mp-chat__text-shrink]{1_Name} [/S]is disconnected... -->
+			<Text>ผู้เล่น [STYLE:mp-chat__text-shrink]{1_Name} [/S]ตัดการเชื่อมต่อแล้ว.</Text>		<!-- Player [STYLE:mp-chat__text-shrink]{1_Name} [/S]is disconnected... -->
 		</Replace>
 		<Replace Tag="LOC_UI_CHAT_PANEL_PLAYER_VOTE_KICK" Language="th_TH">
 			<Text>การโหวตกับ [STYLE:mp-chat__text-shrink]{1_Name} [/S]สำเร็จแล้ว</Text>		<!-- The vote against [STYLE:mp-chat__text-shrink]{1_Name} [/S]is successful. -->
@@ -1343,7 +1343,7 @@
 			<Text>ปิดใช้งาน</Text>		<!-- Disabled -->
 		</Replace>
 		<Replace Tag="LOC_UI_DEPENDENDENCIES" Language="th_TH">
-			<Text>การพึ่งพา</Text>		<!-- Dependencies -->
+			<Text>ต้องการ</Text>		<!-- Dependencies -->
 		</Replace>
 		<Replace Tag="LOC_UI_MOD_AUTHOR" Language="th_TH">
 			<Text>ผู้เขียน: {1_Name}</Text>		<!-- Author: {1_Name} -->
@@ -1499,7 +1499,7 @@
 			<Text>สลับพล็อต</Text>		<!-- Swap Plot -->
 		</Replace>
 		<Replace Tag="LOC_SWAP_PLOT_SELECTION_HELP" Language="th_TH">
-			<Text>สลับรายการที่เลือกบนแผ่นกระเบื้องเดียวกัน</Text>		<!-- Swap selected items on a same Plot Tile -->
+			<Text>สลับรายการที่เลือกบนช่องเดียวกัน</Text>		<!-- Swap selected items on a same Plot Tile -->
 		</Replace>
 		<Replace Tag="LOC_PREVIOUS_SELECT" Language="th_TH">
 			<Text>เลือกก่อนหน้า</Text>		<!-- Previous Select -->
@@ -1535,7 +1535,7 @@
 			<Text>โฟกัสที่พล็อตเคอร์เซอร์</Text>		<!-- Focus Plot Cursor -->
 		</Replace>
 		<Replace Tag="LOC_FOCUS_PLOT_CURSOR_HELP" Language="th_TH">
-			<Text>โฟกัสที่แผ่นกระเบื้องที่เลือกในปัจจุบัน</Text>		<!-- Focus on current selected plot tile -->
+			<Text>โฟกัสที่ช่องที่เลือกในปัจจุบัน</Text>		<!-- Focus on current selected plot tile -->
 		</Replace>
 		<Replace Tag="LOC_SYSTEM_BACK" Language="th_TH">
 			<Text>ย้อนกลับ</Text>		<!-- System Back -->
@@ -1838,16 +1838,16 @@
 			<Text>สลับไปยังเมืองก่อนหน้า</Text>		<!-- Switches to the previous city -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_NEXT_READY_UNIT" Language="th_TH">
-			<Text>หน่วยพร้อมถัดไป</Text>		<!-- Next Ready Unit -->
+			<Text>ยูนิตถัดไป</Text>		<!-- Next Ready Unit -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_NEXT_READY_UNIT_TT" Language="th_TH">
-			<Text>สลับไปยังหน่วยพร้อมถัดไป</Text>		<!-- Switches to the next ready unit -->
+			<Text>สลับไปยังยูนิตถัดไป</Text>		<!-- Switches to the next ready unit -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_PREVIOUS_READY_UNIT" Language="th_TH">
-			<Text>หน่วยพร้อมก่อนหน้า</Text>		<!-- Previous Ready Unit -->
+			<Text>ยูนิตก่อนหน้า</Text>		<!-- Previous Ready Unit -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_PREVIOUS_READY_UNIT_TT" Language="th_TH">
-			<Text>สลับไปยังหน่วยพร้อมก่อนหน้า</Text>		<!-- Switches to the previous ready unit -->
+			<Text>สลับไปยังยูนิตก่อนหน้า</Text>		<!-- Switches to the previous ready unit -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_ACCEPT" Language="th_TH">
 			<Text>ยอมรับ</Text>		<!-- Accept -->
@@ -1925,16 +1925,16 @@
 			<Text>หยุดเกมออนไลน์</Text>		<!-- Pauses an online Game -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_ACTIONS" Language="th_TH">
-			<Text>การกระทำของหน่วย</Text>		<!-- Unit Actions -->
+			<Text>การกระทำยูนิต</Text>		<!-- Unit Actions -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_AND_CITY_ACTIONS" Language="th_TH">
-			<Text>การกระทำของหน่วยและเมือง</Text>		<!-- Unit and City Actions -->
+			<Text>การกระทำของยูนิตและเมือง</Text>		<!-- Unit and City Actions -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_ALERT" Language="th_TH">
 			<Text>แจ้งเตือน</Text>		<!-- Alert -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_ALERT_TT" Language="th_TH">
-			<Text>ดำเนินการแจ้งเตือนด้วยหน่วยที่เลือก</Text>		<!-- Performs an alert action with the selected unit -->
+			<Text>ดำเนินการแจ้งเตือนด้วยยูนิตที่เลือก</Text>		<!-- Performs an alert action with the selected unit -->
 		</Replace>
 		<Replace Tag="LOC_UI_TEXT_TO_SPEECH_KEYBOARD" Language="th_TH">
 			<Text>ข้อความเป็นเสียง (เคอร์เซอร์เมาส์)</Text>		<!-- Text to Speech (Mouse Cursor) -->
@@ -1952,61 +1952,61 @@
 			<Text>โจมตี</Text>		<!-- Attack -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_ATTACK_TT" Language="th_TH">
-			<Text>ดำเนินการโจมตีด้วยหน่วยที่เลือก</Text>		<!-- Performs an attack action with the selected unit -->
+			<Text>ดำเนินการโจมตีด้วยยูนิตที่เลือก</Text>		<!-- Performs an attack action with the selected unit -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_AUTOMATE_EXPLORATION" Language="th_TH">
 			<Text>สำรวจอัตโนมัติ</Text>		<!-- Automate Exploration -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_AUTOMATE_EXPLORATION_TT" Language="th_TH">
-			<Text>เปิดใช้งานการสำรวจอัตโนมัติในหน่วยที่เลือก</Text>		<!-- Enables auto-explore on the selected unit -->
+			<Text>เปิดใช้งานการสำรวจอัตโนมัติในยูนิตที่เลือก</Text>		<!-- Enables auto-explore on the selected unit -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_DELETE" Language="th_TH">
-			<Text>ลบหน่วย</Text>		<!-- Delete Unit -->
+			<Text>ลบยูนิต</Text>		<!-- Delete Unit -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_DELETE_TT" Language="th_TH">
-			<Text>ลบหน่วยที่เลือก</Text>		<!-- Deletes the selected unit -->
+			<Text>ลบยูนิตที่เลือก</Text>		<!-- Deletes the selected unit -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_FORTIFIED_HEAL" Language="th_TH">
 			<Text>รักษาป้อมปราการ</Text>		<!-- Fortified Heal -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_FORTIFIED_HEAL_TT" Language="th_TH">
-			<Text>เสริมกำลังหน่วยที่เลือกจนกว่าจะหาย</Text>		<!-- Fortifies the selected unit until healed -->
+			<Text>ตั้งรับยูนิตที่เลือกจนกว่าจะหายดี</Text>		<!-- Fortifies the selected unit until healed -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_FORTIFY" Language="th_TH">
 			<Text>เสริมกำลัง</Text>		<!-- Fortify -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_FORTIFY_TT" Language="th_TH">
-			<Text>เสริมกำลังหน่วยที่เลือก</Text>		<!-- Fortifies the selected unit -->
+			<Text>เสริมกำลังยูนิตที่เลือก</Text>		<!-- Fortifies the selected unit -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_FOUND_CITY" Language="th_TH">
 			<Text>ก่อตั้งเมือง</Text>		<!-- Found City -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_FOUND_CITY_TT" Language="th_TH">
-			<Text>ดำเนินการก่อตั้งเมืองหากหน่วยที่เลือกเป็นผู้ตั้งถิ่นฐาน</Text>		<!-- Performs the Found City if the selected unit is a Settler -->
+			<Text>ดำเนินการก่อตั้งเมืองหากยูนิตที่เลือกเป็นผู้ตั้งถิ่นฐาน</Text>		<!-- Performs the Found City if the selected unit is a Settler -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_MOVE_TO" Language="th_TH">
 			<Text>ย้ายไปที่</Text>		<!-- Move To -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_MOVE_TO_TT" Language="th_TH">
-			<Text>ดำเนินการย้ายไปที่ด้วยหน่วยที่เลือก</Text>		<!-- Performs the Move To action with the selected unit -->
+			<Text>ดำเนินการย้ายไปที่ด้วยยูนิตที่เลือก</Text>		<!-- Performs the Move To action with the selected unit -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_RANGED_ATTACK" Language="th_TH">
 			<Text>โจมตีระยะไกล</Text>		<!-- Range Attack -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_RANGED_ATTACK_TT" Language="th_TH">
-			<Text>ดำเนินการโจมตีระยะไกลด้วยหน่วยที่เลือก</Text>		<!-- Performs the Ranged Attack with the selected unit -->
+			<Text>ดำเนินการโจมตีระยะไกลด้วยยูนิตที่เลือก</Text>		<!-- Performs the Ranged Attack with the selected unit -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_SKIP_TURN" Language="th_TH">
 			<Text>ข้ามตา</Text>		<!-- Skip Turn -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_SKIP_TURN_TT" Language="th_TH">
-			<Text>หน่วยที่เลือกข้ามตาปัจจุบัน</Text>		<!-- The selected unit skips the current turn -->
+			<Text>ยูนิตที่เลือกข้ามตาปัจจุบัน</Text>		<!-- The selected unit skips the current turn -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_SLEEP" Language="th_TH">
 			<Text>นอนหลับ</Text>		<!-- Sleep -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_SLEEP_TT" Language="th_TH">
-			<Text>ดำเนินการนอนหลับด้วยหน่วยที่เลือก</Text>		<!-- Performs the Sleep action with the selected unit -->
+			<Text>ดำเนินการนอนหลับด้วยยูนิตที่เลือก</Text>		<!-- Performs the Sleep action with the selected unit -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_USER_INTERFACE_ACTIONS" Language="th_TH">
 			<Text>การกระทำของอินเทอร์เฟซผู้ใช้</Text>		<!-- User Interface Actions -->
@@ -2132,7 +2132,7 @@
 			<Text>Page Down</Text>
 		</Replace>
 		<Replace Tag="LOC_OPTION_KEY_QUOTE" Language="th_TH">
-			<Text>&quot;</Text>
+			<Text>"</Text>
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_PRINTSCREEN" Language="th_TH">
 			<Text>Print Screen</Text>
@@ -2498,7 +2498,7 @@
 			<Text>คุณต้องอยู่ในโหมดผู้เล่นหลายคน</Text>		<!-- You need to be in multiplayer mode -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_FRIENDS_SEARCHING" Language="th_TH">
-			<Text>กำลังค้นหา..</Text>		<!-- Searching... -->
+			<Text>กำลังค้นหา.</Text>		<!-- Searching... -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_FRIENDS_TITLE_INVITE" Language="th_TH">
 			<Text>เชิญเพื่อน</Text>		<!-- Invite Friends -->
@@ -3092,7 +3092,7 @@
 			<Text>ระดับเสียงเอฟเฟกต์เสียง</Text>		<!-- Sound Effects Volume -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_AUDIO_VOLUME_SFX_DESCRIPTION" Language="th_TH">
-			<Text>ความดังของเอฟเฟกต์เสียงเช่นเสียงบรรยากาศและการเคลื่อนไหวของหน่วย</Text>		<!-- The loudness of sound effects such as ambient sounds and unit movements. -->
+			<Text>ความดังของเอฟเฟกต์เสียงเช่นเสียงบรรยากาศและการเคลื่อนไหวของยูนิต</Text>		<!-- The loudness of sound effects such as ambient sounds and unit movements. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_AUDIO_VOLUME_CINEMATICS" Language="th_TH">
 			<Text>ระดับเสียงภาพยนตร์</Text>		<!-- Cinematics Volume -->
@@ -3140,7 +3140,7 @@
 			<Text>การเคลื่อนไหวแบบรวดเร็ว</Text>		<!-- Quick Movement -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_QUICK_MOVEMENT_DESCRIPTION" Language="th_TH">
-			<Text>สลับการใช้การเคลื่อนไหวแบบรวดเร็วสำหรับหน่วยที่เคลื่อนที่ข้ามแผ่นกระเบื้อง</Text>		<!-- Toggle using quick movement for units moving across tiles. -->
+			<Text>สลับการใช้การเคลื่อนไหวแบบรวดเร็วสำหรับยูนิตที่เคลื่อนที่ข้ามช่อง</Text>		<!-- Toggle using quick movement for units moving across tiles. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_CITY_RANGED_ATTACK_TURN_BLOCKING" Language="th_TH">
 			<Text>การบล็อกตาการโจมตีระยะไกลของเมือง</Text>		<!-- City Ranged Attack Turn Blocking -->
@@ -3800,7 +3800,7 @@
 			<Text>ดีเลย์กล่องข้อความแสดงรายละเอียดของโลก</Text>		<!-- World Tooltip delay -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_PLOT_TOOLTIP_DELAY_DESCRIPTION" Language="th_TH">
-			<Text>จำนวนวินาทีที่ต้องรอก่อนแสดงกล่องข้อความแสดงรายละเอียดบนแผ่นกระเบื้องของโลก</Text>		<!-- How many seconds to wait before showing a tooltip on the world tiles. -->
+			<Text>จำนวนวินาทีที่ต้องรอก่อนแสดงกล่องข้อความแสดงรายละเอียดบนช่องของโลก</Text>		<!-- How many seconds to wait before showing a tooltip on the world tiles. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_PLOT_TOOLTIP_DELAY_VALUE" Language="th_TH">
 			<Text>{1: number 0.0}วินาที</Text>		<!-- {1: number 0.0}s -->
@@ -4121,7 +4121,7 @@
 			<Text>ข้ามไปที่ประเภทการเรียงลำดับ</Text>		<!-- Jump to Sort Type -->
 		</Replace>
 		<Replace Tag="LOC_PROFILE_CHALLENGE_CLASS_FOUNDATION" Language="th_TH">
-			<Text>มูลนิธิ</Text>		<!-- Foundation -->
+			<Text>รากฐาน</Text>		<!-- Foundation -->
 		</Replace>
 		<Replace Tag="LOC_PROFILE_CHALLENGE_CLASS_LEADER" Language="th_TH">
 			<Text>ผู้นำ</Text>		<!-- Leader -->
@@ -4265,7 +4265,7 @@
 			<Text>ความก้าวหน้าที่เชื่อมโยงกับ 2K {1_ProgressType}</Text>		<!-- 2K Linked Progress {1_ProgressType} -->
 		</Replace>
 		<Replace Tag="LOC_PROFILE_PROGRESS_COMING_SOON" Language="th_TH">
-			<Text>เร็ว ๆ นี้..</Text>		<!-- Coming Soon... -->
+			<Text>เร็ว ๆ นี้.</Text>		<!-- Coming Soon... -->
 		</Replace>
 	</LocalizedText>
 </Database>

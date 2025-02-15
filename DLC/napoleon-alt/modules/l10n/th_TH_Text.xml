@@ -29,7 +29,7 @@
 			<Text>ปลดล็อกตำนาน +15% [icon:YIELD_PRODUCTION]การผลิตในการสร้างสิ่งก่อสร้างและสิ่งมหัศจรรย์ที่มีช่องใส่ผลงานยิ่งใหญ่</Text>		<!-- Legend Unlock. +15% [icon:YIELD_PRODUCTION]Production towards constructing Buildings and Wonders with Great Works slots. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_NAPOLEON_ALT_L2_DESCRIPTION" Language="th_TH">
-			<Text>การปลดล็อกตำนาน: เพิ่มพลังการต่อสู้ +5 สำหรับทุกยูนิตเมื่อโจมตีเขตต่าง ๆ</Text>		<!-- Legend Unlock. +5 Combat Strength for all Units against Districts. -->
+			<Text>การปลดล็อกตำนาน: เพิ่มพลังต่อสู้ +5 สำหรับทุกยูนิตเมื่อโจมตีเขตต่าง ๆ</Text>		<!-- Legend Unlock. +5 Combat Strength for all Units against Districts. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAPOLEON_ALT_TITLE" Language="th_TH">
 			<Text>{LOC_LEADER_NAPOLEON_ALT_NAME}</Text>		<!-- {LOC_LEADER_NAPOLEON_ALT_NAME} -->
@@ -62,7 +62,7 @@
 			<Text>ไม่ถึงหนึ่งปีต่อมา นโปเลียน ได้หลบหนีและรวบรวมพันธมิตรเก่าของเขาเพื่อนำการรณรงค์เพื่อทวงคืนสิ่งที่เขาได้สูญเสียไป แต่ดวงอาทิตย์ของเขาได้ลับลงแล้ว หลังจากพ่ายแพ้อย่างรุนแรงที่ วอเทอร์ลู เขาก็สละราชสมบัติเพื่อให้แก่ลูกชายของเขา พยายามหลบหนี และในที่สุดก็ยอมจำนน ครั้งนี้, [Napoleon] ถูกส่งไปที่เกาะ [Saint Helena] ซึ่งเป็นเกาะที่ห่างไกลในมหาสมุทรแอตแลนติก ซึ่งเขาอยู่จนกระทั่งเสียชีวิต ในช่วงเวลาที่โดดเดี่ยวระหว่างการถูกเนรเทศ เขาได้เขียนหนังสือเกี่ยวกับ [Caesar] ชายที่เขาชื่นชมและชายที่เขาเคยเป็นช่วงหนึ่ง</Text>		<!-- Less than a year later, Napoleon escaped and marshaled his former allies into a campaign to take back what he had lost. But his sun had set. After a devastating defeat at Waterloo, he abdicated in favor of his son, tried to flee, and ultimately surrendered. This time, Napoleon was sent to Saint Helena, a remote island in the Atlantic Ocean, where he remained until his death. During his lonely years in exile, he wrote a book about Caesar, the man who he admired and who, for a time, he was. -->
 		</Replace>
 		<Replace Tag="LOC_MAIN_CHAR_SELECT_LEADER_NAPOLEON_ALT_ANY" Language="th_TH">
-			<Text>การทำทุกสิ่งที่คนเราสามารถทำได้ คือการเป็นมนุษย์ การทำทุกสิ่งที่คนเราอยากจะทำ คือการเป็น{a god}.</Text>		<!-- To do all that one is able to do, is to be human; to do all that one would like to do, is to be a god. -->
+			<Text>การทำทุกสิ่งที่คนเราสามารถทำได้ คือการเป็นมนุษย์ การทำทุกสิ่งที่คนเราอยากจะทำ คือการเป็น{a god}</Text>		<!-- To do all that one is able to do, is to be human; to do all that one would like to do, is to be a god. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_LEADER_NAPOLEON_ALT_ANY" Language="th_TH">
 			<Text>ฉันคือ นโปเลียน และฉันมาเพื่อตัดสินชะตากรรมของโลก</Text>		<!-- I am Napoleon, and I am here to decide the fate of the world. -->
@@ -92,13 +92,13 @@
 			<Text>นโปเลียน, นักปฏิวัติ</Text>		<!-- Napoleon, Revolutionary -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_NAPOLEON_ALT_DESCRIPTION" Language="th_TH">
-			<Text>การเคลื่อนไหว +1 สำหรับหน่วยบนบกทั้งหมด การเอาชนะหน่วยศัตรูจะให้ [icon:YIELD_CULTURE] วัฒนธรรมเท่ากับ 50% ของพลังการต่อสู้ของหน่วยนั้น</Text>		<!-- +1 Movement for all Land Units. Defeating an enemy Unit provides [icon:YIELD_CULTURE] Culture equal to 50% of its Combat Strength. -->
+			<Text>การเคลื่อนไหว +1 สำหรับหน่วยบนบกทั้งหมด การเอาชนะหน่วยศัตรูจะให้ [icon:YIELD_CULTURE] วัฒนธรรมเท่ากับ 50% ของพลังต่อสู้ของหน่วยนั้น</Text>		<!-- +1 Movement for all Land Units. Defeating an enemy Unit provides [icon:YIELD_CULTURE] Culture equal to 50% of its Combat Strength. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NAPOLEON_ALT_ABILITY_NAME" Language="th_TH">
 			<Text>ลา กร็องด์ อาร์เม่</Text>		<!-- La Grande Armée -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NAPOLEON_ALT_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+1 การเคลื่อนไหว [/B]สำหรับ [B]หน่วยบนบก[/B]ทั้งหมด[LI]การเอาชนะหน่วยศัตรูจะให้ [icon:YIELD_CULTURE] [B]วัฒนธรรม [/B]เท่ากับ [B]50% [/B]ของ [B]พลังการรบ[/B]ของมัน[/LIST]</Text>		<!-- [LIST][LI][B]+1 Movement [/B]for all [B]Land Units[/B].[LI]Defeating an enemy Unit provides [icon:YIELD_CULTURE] [B]Culture [/B]equal to [B]50% [/B]of its [B]Combat Strength[/B].[/LIST] -->
+			<Text>[LIST][LI][B]+1 แต้มเคลื่อนที่ [/B]สำหรับ [B]หน่วยบนบก[/B]ทั้งหมด[LI]การเอาชนะหน่วยศัตรูจะให้ [icon:YIELD_CULTURE] [B]วัฒนธรรม [/B]เท่ากับ [B]50% [/B]ของ [B]พลังการรบ[/B]ของมัน[/LIST]</Text>		<!-- [LIST][LI][B]+1 Movement [/B]for all [B]Land Units[/B].[LI]Defeating an enemy Unit provides [icon:YIELD_CULTURE] [B]Culture [/B]equal to [B]50% [/B]of its [B]Combat Strength[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_NAPOLEON_ALT" Language="th_TH">
 			<Text>นโปเลียน โบนาปาร์ต ยังเป็นหนึ่งในผู้นำที่มีชื่อเสียงที่สุดในประวัติศาสตร์ เกิดในเกาะคอร์ซิกา เขาได้ขึ้นสู่อำนาจในกองทัพฝรั่งเศสอย่างรวดเร็วและสำเร็จรัฐประหารที่ทำให้เขากลายเป็นกงสุลใหญ่ของฝรั่งเศสในปี 1799 สี่ปีต่อมา เขาสวมมงกุฎเป็นจักรพรรดิแห่งฝรั่งเศสและได้จัดตั้งระบบคอนติเนนทอล ซึ่งมีจุดประสงค์เพื่อฟื้นฟูฝรั่งเศสและทำให้อริศัตรูอ่อนแอลง การครองราชย์ของเขาได้ถูกนิยามด้วยการปฏิรูปพลเมืองที่สำคัญและสงครามที่เกิดขึ้นทั่วทวีปยุโรปตั้งแต่ประเทศสเปนถึงประเทศรัสเซีย</Text>		<!-- Napoleon Bonaparte remains one of history’s most infamous leaders. Born in Corsica, his rapid rise through the French army culminated in a coup that made him France’s First Consul in 1799. Four years later, he crowned himself Emperor of the French and established the Continental System, meant to revitalize France and weaken its enemies. His reign was defined by major civic reforms and wars that raged across Europe from Spain to Russia. -->
@@ -119,7 +119,7 @@
 			<Text>สึกจากด้านหนึ่งไปยังอีกด้านหนึ่ง</Text>		<!-- Worn side-to-side. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_NAPOLEON_REVOLUTIONARY_BICORNE_HAT_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1 การเคลื่อนที่สำหรับหน่วยทหารราบ</Text>		<!-- +1 Movement for Infantry Units. -->
+			<Text>+1 แต้มเคลื่อนที่สำหรับยูนิตทหารราบ</Text>		<!-- +1 Movement for Infantry Units. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_NAPOLEON_REVOLUTIONARY_LEGION_DHONNEUR_GRAND_EAGLE_CROSS_NAME" Language="th_TH">
 			<Text>พลเรือเอกแห่ง Legion d'honneur และ Cross</Text>		<!-- Legion d'honneur Grand Eagle and Cross -->
@@ -137,7 +137,7 @@
 			<Text>ปลดล็อกที่ นโปเลียน, นักปฏิวัติ เลเวล 5</Text>		<!-- Unlock at Napoleon Revolutionary level 5 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_NAPOLEON_REVOLUTIONARY_LEGION_DHONNEUR_GRAND_EAGLE_CROSS_UNLOCK_TITLE" Language="th_TH">
-			<Text> &quot;ปลดล็อกที่ นโปเลียน</Text>		<!--  นักปฏิวัติ เลเวล 9&quot; -->
+			<Text> "ปลดล็อกที่ นโปเลียน</Text>		<!--  นักปฏิวัติ เลเวล 9" -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ALT_MILITARY_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>แพ็กซ์ อิมพิราโทเรีย</Text>		<!-- Pax Imperatoria -->
@@ -176,19 +176,19 @@
 			<Text>ในฐานะที่เป็นผู้ปฏิวัตินโปเลียน จงทำตามเส้นทางมรดกเส้นทางสายไหมให้เสร็จสิ้นถึงสามครั้ง</Text>		<!-- As Napoleon Revolutionary, complete the Silk Roads Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ALT_MILITARY_VICTORY_EXPLORATION_NAME" Language="th_TH">
-			<Text>ไม่เพียงพอต่อโลก</Text>		<!-- Non Sufficit Orbis -->
+			<Text>โลกนี้คับแคบเกินไปแล้ว</Text>		<!-- Non Sufficit Orbis -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ALT_MILITARY_VICTORY_EXPLORATION_DESC" Language="th_TH">
 			<Text>ในฐานะนโปเลียน, นักปฏิวัติ ให้ทำเส้นทางมรดก [Non Sufficit Orbis] ให้สำเร็จ</Text>		<!-- As Napoleon Revolutionary, complete the Non Sufficit Orbis Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ALT_MILITARY_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
-			<Text>นอน ซัฟฟิซิต ออร์บิส 2</Text>		<!-- Non Sufficit Orbis 2 -->
+			<Text>โลกนี้คับแคบเกินไปแล้ว 2</Text>		<!-- Non Sufficit Orbis 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ALT_MILITARY_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
 			<Text>ในฐานะนโปเลียน, นักปฏิวัติ ทำภารกิจ {Non Sufficit Orbis Legacy Path} ให้สำเร็จสองครั้ง</Text>		<!-- As Napoleon Revolutionary, complete the Non Sufficit Orbis Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ALT_MILITARY_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
-			<Text>Non Sufficit Orbis 3</Text>		<!-- Non Sufficit Orbis 3 -->
+			<Text>โลกนี้คับแคบเกินไปแล้ว 3</Text>		<!-- Non Sufficit Orbis 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ALT_MILITARY_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
 			<Text>ในฐานะนโปเลียน, นักปฏิวัติ ให้ทำ [Non Sufficit Orbis Legacy Path] เสร็จสิ้นสามครั้ง</Text>		<!-- As Napoleon Revolutionary, complete the Non Sufficit Orbis Legacy Path thrice. -->
@@ -464,7 +464,7 @@
 			<Text>ใส่แนวคิดใหม่ๆ ลงไปด้วย</Text>		<!-- Infuse it with fresh ideas. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1190E_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1190E_COMPLETION" Language="th_TH">
 			<Text>ปรัชญาใหม่แพร่กระจายอย่างรวดเร็ว และนโปเลียนเร่งการปฏิรูปอาณาจักรของเขา</Text>		<!-- New philosophies travel fast, and Napoleon presses their charge to reform his realm. -->
@@ -479,7 +479,7 @@
 			<Text>สร้างความแข็งแกร่งให้กับมัน</Text>		<!-- Galvanize it with strength. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1190F_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1190F_COMPLETION" Language="th_TH">
 			<Text>นโปเลียนแจกจ่ายรายชื่อคำสั่งใหม่ของเขา บรรดานายพลของเขาได้รับการฝึกฝนอย่างระมัดระวัง แต่ในที่สุด พวกเขาก็เป็นเพียงแค่ส่วนขยายของตัวเขาเอง</Text>		<!-- Napoleon distributes his new list of commands. His generals are carefully trained, but at the end of the day, they are but an extension of himself. -->
@@ -494,13 +494,13 @@
 			<Text>ความฝันก็คือความฝัน</Text>		<!-- A dream is but a dream. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1190G_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} ในทุกการตั้งถิ่นฐาน</Text>		<!-- {1_reward} in all Settlements. -->
+			<Text>{1_reward} ในทุกถิ่นฐาน</Text>		<!-- {1_reward} in all Settlements. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1191F_STORYTITLE" Language="th_TH">
 			<Text>อิสรภาพ</Text>		<!-- Independence -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1191F_COMPLETION" Language="th_TH">
-			<Text>&quot;โลกนี้คือความโกลาหล&quot; ชายแดงแห่งพรหมลิขิตกระซิบกับโบนาปาร์ต และจริง ๆ แล้ว โลกเต็มไปด้วยความไร้เหตุผลและความเชื่อโชคลาง – ผู้คนในโลกนี้ติดตามสัญลักษณ์ มากกว่าแนวความคิด</Text>		<!-- “The world is chaos,” the red man of destiny whispers to Bonaparte. And, indeed, the world is full of illogic and superstition – its people follow symbols, rather than ideas. -->
+			<Text>"โลกนี้คือความโกลาหล" ชายแดงแห่งพรหมลิขิตกระซิบกับโบนาปาร์ต และจริง ๆ แล้ว โลกเต็มไปด้วยความไร้เหตุผลและความเชื่อโชคลาง – ผู้คนในโลกนี้ติดตามสัญลักษณ์ มากกว่าแนวความคิด</Text>		<!-- “The world is chaos,” the red man of destiny whispers to Bonaparte. And, indeed, the world is full of illogic and superstition – its people follow symbols, rather than ideas. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1191D_STORYTITLE" Language="th_TH">
 			<Text>เอกราช</Text>		<!-- Independence -->
@@ -509,13 +509,13 @@
 			<Text>การปฏิวัติเริ่มต้นที่บ้าน ในจิตใจ</Text>		<!-- Revolutions begin at home, in the mind. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1191D_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1191D_COMPLETION" Language="th_TH">
 			<Text>นโปเลียนไม่เคยขาดแคลนไอเดีย เช่นเดียวกับคนของเขา พวกเขารวมตัวกันในบ้านและตามท้องถนน ถกเถียงถึงการเปลี่ยนแปลงที่พวกเขาส่งผลต่อโลก</Text>		<!-- Napoleon never lacks for ideas, nor do his people. They congregate in homes and in the streets, debating the change they effect on the world. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1191D_IMPERATIVE" Language="th_TH">
-			<Text>บรรลุถึง 25 ประชากรในทุก [Settlements].</Text>		<!-- Reach 25 Population across all Settlements. -->
+			<Text>บรรลุถึง 25 ประชากรในทุก [Settlements]</Text>		<!-- Reach 25 Population across all Settlements. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1191E_STORYTITLE" Language="th_TH">
 			<Text>อิสรภาพ</Text>		<!-- Independence -->
@@ -530,7 +530,7 @@
 			<Text>อิสระ</Text>		<!-- Independents -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1192F_COMPLETION" Language="th_TH">
-			<Text>&quot;โลกนี้คือความโกลาหล&quot; ชายชะตาแดงกระซิบบอกโบนาปาร์ต และที่จริงแล้ว ภูมิทัศน์นั้นเป็นผ้าต่ออันซับซ้อนของผู้ที่คิดจะเป็นกษัตริย์และทรราชที่ยิ่งใหญ่ขึ้น สิ่งที่พลังเล็กๆ เหล่านี้ขาดคือวิสัยทัศน์.[n][n]นโปเลียน แม้อาจมีข้อบกพร่องของเขา แต่ไม่ขาดในด้านวิสัยทัศน์.</Text>		<!-- “The world is chaos,” the red man of destiny whispers to Bonaparte. And, indeed, the landscape is a patchwork of petty, would-be kings and tyrants. What these smaller powers lack is vision.[n][n]Napoleon, while he may have his shortcomings, does not lack in vision. -->
+			<Text>"โลกนี้คือความโกลาหล" ชายชะตาแดงกระซิบบอกโบนาปาร์ต และที่จริงแล้ว ภูมิทัศน์นั้นเป็นผ้าต่ออันซับซ้อนของผู้ที่คิดจะเป็นกษัตริย์และทรราชที่ยิ่งใหญ่ขึ้น สิ่งที่พลังเล็กๆ เหล่านี้ขาดคือวิสัยทัศน์.[n][n]นโปเลียน แม้อาจมีข้อบกพร่องของเขา แต่ไม่ขาดในด้านวิสัยทัศน์</Text>		<!-- “The world is chaos,” the red man of destiny whispers to Bonaparte. And, indeed, the landscape is a patchwork of petty, would-be kings and tyrants. What these smaller powers lack is vision.[n][n]Napoleon, while he may have his shortcomings, does not lack in vision. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1192D_STORYTITLE" Language="th_TH">
 			<Text>อิสระ</Text>		<!-- Independents -->
@@ -539,13 +539,13 @@
 			<Text>ไม่เต็มใจหรือไม่ พวกเขาจะถูกนำเข้าสู่[fold]ของเรา</Text>		<!-- Willing or not, they will be brought into our fold. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1192D_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1192D_COMPLETION" Language="th_TH">
-			<Text>กองกำลังของหมู่บ้านไม่สามารถต่อสู้กับกองทัพของนโปเลียนที่ฝึกฝนมาอย่างดีได้ {tag}. ผู้คนของพวกเขาและสินค้า {tag} ปัจจุบันยอมจำนนต่ออำนาจที่แท้จริง {tag}.</Text>		<!-- The village forces are no match for Napoleon's well-trained army. Their people, and their goods, now acquiesce to the true authority. -->
+			<Text>กองกำลังของหมู่บ้านไม่สามารถต่อสู้กับกองทัพของนโปเลียนที่ฝึกฝนมาอย่างดีได้ {tag}. ผู้คนของพวกเขาและสินค้า {tag} ปัจจุบันยอมจำนนต่ออำนาจที่แท้จริง {tag}</Text>		<!-- The village forces are no match for Napoleon's well-trained army. Their people, and their goods, now acquiesce to the true authority. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1192D_IMPERATIVE" Language="th_TH">
-			<Text>ยึดการตั้งถิ่นฐาน</Text>		<!-- Capture a Settlement. -->
+			<Text>ยึดถิ่นฐาน</Text>		<!-- Capture a Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1192E_STORYTITLE" Language="th_TH">
 			<Text>อิสระ</Text>		<!-- Independents -->
@@ -554,7 +554,7 @@
 			<Text>การค้าโน้มน้าวใจได้มากกว่าดาบ</Text>		<!-- Trade is more persuasive than the sword. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1192E_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3703_ALTA_STORYTITLE" Language="th_TH">
 			<Text>สี่สิบศตวรรษ</Text>		<!-- Forty Centuries -->
@@ -566,13 +566,13 @@
 			<Text>การพิชิตต้องเตรียมความพร้อม</Text>		<!-- Conquest requires preparation. -->
 		</Replace>
 		<Replace Tag="LOC_3703_ALTB_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3703_ALTC_NAME" Language="th_TH">
 			<Text>การนองเลือดไม่ใช่คำตอบเสมอไป</Text>		<!-- Bloodshed is not always the answer. -->
 		</Replace>
 		<Replace Tag="LOC_3703_ALTC_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3704_ALTA_STORYTITLE" Language="th_TH">
 			<Text>การเริ่มต้นสิ่งที่ยิ่งใหญ่</Text>		<!-- The Start of Something Great -->
@@ -584,13 +584,13 @@
 			<Text>กองทัพจักรวรรดินี้ต้องการการเสริมกำลัง</Text>		<!-- This imperial army needs reinforcement. -->
 		</Replace>
 		<Replace Tag="LOC_3704_ALTB_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3704_ALTC_NAME" Language="th_TH">
 			<Text>ทุกคนต้องรู้ถึงชัยชนะนี้</Text>		<!-- All must know of this victory. -->
 		</Replace>
 		<Replace Tag="LOC_3704_ALTC_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3705_ALTA_STORYTITLE" Language="th_TH">
 			<Text>การละเมิดความเป็นส่วนตัว</Text>		<!-- A Breach of Privacy -->
@@ -602,13 +602,13 @@
 			<Text>ความอับอายเช่นนั้นไม่อาจให้อภัยได้</Text>		<!-- Such humiliation is unforgivable. -->
 		</Replace>
 		<Replace Tag="LOC_3705_ALTB_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3705_ALTC_NAME" Language="th_TH">
 			<Text>ความลับส่วนตัวไม่ใช่สิ่งที่ต้องละอายใจ</Text>		<!-- Personal secrets are nothing to be ashamed of. -->
 		</Replace>
 		<Replace Tag="LOC_3705_ALTC_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1193F_STORYTITLE" Language="th_TH">
 			<Text>ยักษ์ใหญ่คนถัดไป</Text>		<!-- The Next Giant -->
@@ -647,7 +647,7 @@
 			<Text>ทุกคนได้รับประโยชน์จากจุดมุ่งหมาย จะเป็นสิ่งศักดิ์สิทธิ์หรือทางโลกก็ตาม</Text>		<!-- All benefit from purpose, divine or secular. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1194D_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1194D_COMPLETION" Language="th_TH">
 			<Text>วัดทั่วอาณาจักรเปิดประตูต้อนรับประชาชนจำนวนมาก จากเทศนาของพวกเขา ทุกคนพบความหมายในชีวิตของตนเองและได้รับกำลังใจให้อยู่ในรัชสมัยของนโปเลียนต่อไป</Text>		<!-- Temples across the realm open their doors to the masses. From their sermons, all find meaning in their lives, and encouragement to stay the course of Napoleon's reign. -->
@@ -662,13 +662,13 @@
 			<Text>นี่เป็นเพียงความอยากรู้ที่แปลกตาเท่านั้น</Text>		<!-- This is but a quaint curiosity. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1194E_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1195D_STORYTITLE" Language="th_TH">
 			<Text>สุดปลายขอบโลก</Text>		<!-- The Ends of the Earth -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1195D_COMPLETION" Language="th_TH">
-			<Text>คนเลี้ยงม้าของนโปเลียนดื่มมากเกินไปแล้ว เขาเริ่มพร่ำบ่นให้ทุกคนที่ได้ยิน: &quot;สิ่งที่ข้าพบในกีบของ [Marengo]? หนาม น้ำแข็ง ดินเหนียวสีแดง ดินเหนียวสีขาว ตะปู กระสุน ครั้งหนึ่ง - ทารันทูล่ามีชีวิต! [Quelle malchance]! อะไรจะมาอีก?&quot;</Text>		<!-- Napoleon's stablehand has had too much to drink. He begins a litany of complaints to all who can hear: &quot;The things I have picked out of Marengo’s hooves? Thorns. Ice. Red clay. White clay. Nails. Bullets. Once – a live tarantula! Quelle malchance! What will be next?” -->
+			<Text>คนเลี้ยงม้าของนโปเลียนดื่มมากเกินไปแล้ว เขาเริ่มพร่ำบ่นให้ทุกคนที่ได้ยิน: "สิ่งที่ข้าพบในกีบของ [Marengo]? หนาม น้ำแข็ง ดินเหนียวสีแดง ดินเหนียวสีขาว ตะปู กระสุน ครั้งหนึ่ง - ทารันทูล่ามีชีวิต! [Quelle malchance]! อะไรจะมาอีก?"</Text>		<!-- Napoleon's stablehand has had too much to drink. He begins a litany of complaints to all who can hear: "The things I have picked out of Marengo’s hooves? Thorns. Ice. Red clay. White clay. Nails. Bullets. Once – a live tarantula! Quelle malchance! What will be next?” -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1195C_STORYTITLE" Language="th_TH">
 			<Text>สุดปลายแผ่นดิน</Text>		<!-- The Ends of the Earth -->
@@ -677,7 +677,7 @@
 			<Text>ปิด</Text>		<!-- Close. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1195C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} ในการตั้งถิ่นฐานทั้งหมด</Text>		<!-- {1_reward} in all Settlements. -->
+			<Text>{1_reward} ในถิ่นฐานทั้งหมด</Text>		<!-- {1_reward} in all Settlements. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1195C_COMPLETION" Language="th_TH">
 			<Text>กองคาราวานและเรือทั้งหลายบรรทุกสินค้าไปยังอาณาจักรของนโปเลียน [tag] และ [tag] ความคิดต่าง ๆ ก็ติดตามไปด้วย [tag] ฝังรากลึกอยู่ทั่วจักรวรรดิ [tag]</Text>		<!-- Caravans and ships alike bear trade goods to Napoleon's realm. Ideas accompany them, taking root across the empire. -->
@@ -698,7 +698,7 @@
 			<Text>สงครามไม่ใช่อะไรเลยนอกจากเป็นโอกาสสำหรับความยิ่งใหญ่</Text>		<!-- War is but an opportunity for greatness. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1196D_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1196D_COMPLETION" Language="th_TH">
 			<Text>บนเนินเขาเหนือสนามรบ นโปเลียนสูดลมหายใจรับควันรบ เขาฟังเสียงกึกก้องแห่งสงคราม เขามองดูคำสั่งที่ชัดเจนของเขาปรากฏบนสนาม และเขายิ้มเมื่อคำสั่งที่ตะโกนออกไปกลายเป็นเสียงร้องแห่งชัยชนะ</Text>		<!-- On a hill above the battlefield, Napoleon inhales the smoke of battle. He listens to the din of war. He watches his precise commands manifest on the field. And he smiles as shouted orders become cries of victory. -->
@@ -713,13 +713,13 @@
 			<Text>สงครามเป็นเครื่องมือในการเผยแพร่แนวคิด</Text>		<!-- War serves to spread ideas. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1196E_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1197D_STORYTITLE" Language="th_TH">
 			<Text>ทหารปืนใหญ่</Text>		<!-- The Artilleryman -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1197D_COMPLETION" Language="th_TH">
-			<Text>เสียงปืนใหญ่สะท้อนไปมาจากหน้าผาห่างไกล โบนาปาร์ตมองดูด้วยเศษเสี้ยวการกระตุกเล็กๆ ที่มุมปากของเขาที่บ่งบอกถึงความพอใจของเขา “[Larger?]” วิศวกรของเขาถาม “[No],” ตอบสภาผู้คุมอำนาจสูงสุด “[More.]”</Text>		<!-- The cannon thunder echoes off of the distant cliffs. Bonaparte looks on, a faint twitch at the corner of his mouth betraying his pleasure. “Larger?” his engineer asks. “No,” responds the First Consul. “More.&quot; -->
+			<Text>เสียงปืนใหญ่สะท้อนไปมาจากหน้าผาห่างไกล โบนาปาร์ตมองดูด้วยเศษเสี้ยวการกระตุกเล็กๆ ที่มุมปากของเขาที่บ่งบอกถึงความพอใจของเขา “[Larger?]” วิศวกรของเขาถาม “[No],” ตอบสภาผู้คุมอำนาจสูงสุด “[More.]”</Text>		<!-- The cannon thunder echoes off of the distant cliffs. Bonaparte looks on, a faint twitch at the corner of his mouth betraying his pleasure. “Larger?” his engineer asks. “No,” responds the First Consul. “More." -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1197C_STORYTITLE" Language="th_TH">
 			<Text>พลปืนใหญ่</Text>		<!-- The Artilleryman -->
@@ -728,31 +728,31 @@
 			<Text>ปิด</Text>		<!-- Close. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1197C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} ในทุก [Settlements].</Text>		<!-- {1_reward} in all Settlements. -->
+			<Text>{1_reward} ในทุก [Settlements]</Text>		<!-- {1_reward} in all Settlements. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1197C_COMPLETION" Language="th_TH">
 			<Text>นโปเลียนตรวจสอบปืนใหญ่อันใหม่อย่างละเอียด [These] จะสร้างความมหัศจรรย์ในสนามรบ และเปลี่ยนโฉมหน้าของสงคราม</Text>		<!-- Napoleon examines the new bombards carefully. These will do wonders on the battlefield, and change the face of war. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1197C_IMPERATIVE" Language="th_TH">
-			<Text>อบรม {Train 3 Bombards}.</Text>		<!-- Train 3 Bombards. -->
+			<Text>อบรม {Train 3 Bombards}</Text>		<!-- Train 3 Bombards. -->
 		</Replace>
 		<Replace Tag="LOC_3706_ALTA_STORYTITLE" Language="th_TH">
 			<Text>เหยื่อผู้บริสุทธิ์</Text>		<!-- An Innocent Victim -->
 		</Replace>
 		<Replace Tag="LOC_3706_ALTA_COMPLETION" Language="th_TH">
-			<Text>สมาชิกสภาฯ หยุดการอภิปรายร้อนแรงเกี่ยวกับการก่อสร้างสะพานใหม่เพื่อดูมีดเล็ก ๆ ของนโปเลียนที่กำลังใช้งาน ขณะที่เขาฟัง สอบถาม และโต้แย้ง ใบมีดนั้นก็เปี่ยมไปด้วยพลังของเขา หายลับเข้าไปที่ท้าวแขนเก้าอี้ซ้ำแล้วซ้ำเล่า เพื่อนคนหนึ่งจ้องมองรอยลึกบนเก้าอี้ เสนอให้พวกเขาพักสักครู่เพื่อเห็นแก่จิตใจของทุกคน &quot;ไร้สาระ&quot; นโปเลียนโบกมือปฏิเสธเขา &quot;{tag}&quot; แล้วตอนนี้เรายืนอยู่ที่ไหนเกี่ยวกับศัลยแพทย์? {tag}&quot;</Text>		<!-- Councillors pause their hot debate over the construction of new bridge to watch Napoleon's small knife at work. As he listens, queries, and argues, the blade channels his energy, disappearing into the arm of his chair again and again. One fellow, staring at the deep gouges, suggests they take a break for the sake of everyone's nerves. &quot;Nonsense,&quot; Napoleon waves him off. &quot;Now where do we stand on surgeons?&quot; -->
+			<Text>สมาชิกสภาฯ หยุดการอภิปรายร้อนแรงเกี่ยวกับการก่อสร้างสะพานใหม่เพื่อดูมีดเล็ก ๆ ของนโปเลียนที่กำลังใช้งาน ขณะที่เขาฟัง สอบถาม และโต้แย้ง ใบมีดนั้นก็เปี่ยมไปด้วยพลังของเขา หายลับเข้าไปที่ท้าวแขนเก้าอี้ซ้ำแล้วซ้ำเล่า เพื่อนคนหนึ่งจ้องมองรอยลึกบนเก้าอี้ เสนอให้พวกเขาพักสักครู่เพื่อเห็นแก่จิตใจของทุกคน "ไร้สาระ" นโปเลียนโบกมือปฏิเสธเขา "{tag}" แล้วตอนนี้เรายืนอยู่ที่ไหนเกี่ยวกับศัลยแพทย์? {tag}"</Text>		<!-- Councillors pause their hot debate over the construction of new bridge to watch Napoleon's small knife at work. As he listens, queries, and argues, the blade channels his energy, disappearing into the arm of his chair again and again. One fellow, staring at the deep gouges, suggests they take a break for the sake of everyone's nerves. "Nonsense," Napoleon waves him off. "Now where do we stand on surgeons?" -->
 		</Replace>
 		<Replace Tag="LOC_3706_ALTB_NAME" Language="th_TH">
 			<Text>ควรแก้ไขปัญหาสะพานก่อน</Text>		<!-- The bridge issue should be resolved first. -->
 		</Replace>
 		<Replace Tag="LOC_3706_ALTB_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3706_ALTC_NAME" Language="th_TH">
 			<Text>เกี่ยวกับศัลยแพทย์เหล่านั้น…</Text>		<!-- About those surgeons… -->
 		</Replace>
 		<Replace Tag="LOC_3706_ALTC_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3707_ALTA_STORYTITLE" Language="th_TH">
 			<Text>ห้องสมุดเคลื่อนที่</Text>		<!-- The Traveling Library -->
@@ -764,13 +764,13 @@
 			<Text>หนังสือมากขึ้นหมายถึงกล่องมากขึ้น</Text>		<!-- More books mean more boxes. -->
 		</Replace>
 		<Replace Tag="LOC_3707_ALTB_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3707_ALTC_NAME" Language="th_TH">
-			<Text>ชุดใหม่ต้องได้รับการตีพิมพ์ โดยมีตัวพิมพ์เล็กลงและไม่มีขอบ.</Text>		<!-- A new set must be published, with smaller print and no margins. -->
+			<Text>ชุดใหม่ต้องได้รับการตีพิมพ์ โดยมีตัวพิมพ์เล็กลงและไม่มีขอบ</Text>		<!-- A new set must be published, with smaller print and no margins. -->
 		</Replace>
 		<Replace Tag="LOC_3707_ALTC_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3708_ALTA_STORYTITLE" Language="th_TH">
 			<Text>ศาสนาท้องถิ่น</Text>		<!-- Local Religions -->
@@ -782,13 +782,13 @@
 			<Text>ทำไมต้องเปลี่ยนสิ่งที่ทำให้ผู้คนมีความสุข?</Text>		<!-- Why change what makes the people happy? -->
 		</Replace>
 		<Replace Tag="LOC_3708_ALTB_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3708_ALTC_NAME" Language="th_TH">
 			<Text>ความเชื่อทั้งหมดต้องสอดคล้องกัน</Text>		<!-- All beliefs must be aligned. -->
 		</Replace>
 		<Replace Tag="LOC_3708_ALTC_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1198H_STORYTITLE" Language="th_TH">
 			<Text>สิบแปดบรูแมร์</Text>		<!-- The 18th Brumaire -->
@@ -818,7 +818,7 @@
 			<Text>ปิด</Text>		<!-- Close. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1198F_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1198G_STORYTITLE" Language="th_TH">
 			<Text>ลำดับที่ 18 บรูแมร์</Text>		<!-- The 18th Brumaire -->
@@ -848,16 +848,16 @@
 			<Text>กองทัพของนโปเลียนไม่ถูกผูกติดกับผืนดินอีกต่อไป บัดนี้การระเบิดตกลงมาจากท้องฟ้า โปรยไฟลงบนโลก – โลกของโบนาปาร์ต</Text>		<!-- Napoleon's army is no longer bound to the earth. Now explosions rain down from the skies, raining fire upon the world – Bonaparte's world. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1199E_IMPERATIVE" Language="th_TH">
-			<Text>ฝึกเครื่องบินสองชั้น, [Trench Fighter], และ {Bomber}.</Text>		<!-- Train a Biplane, Trench Fighter, and Bomber. -->
+			<Text>ฝึกเครื่องบินสองชั้น, [Trench Fighter], และ {Bomber}</Text>		<!-- Train a Biplane, Trench Fighter, and Bomber. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1199F_STORYTITLE" Language="th_TH">
 			<Text>วันที่ 11 Frimaire</Text>		<!-- The 11th Frimaire -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1199F_NAME" Language="th_TH">
-			<Text>ปิด.</Text>		<!-- Close. -->
+			<Text>ปิด</Text>		<!-- Close. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1199F_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1199G_STORYTITLE" Language="th_TH">
 			<Text>วันที่ 11 Frimaire</Text>		<!-- The 11th Frimaire -->
@@ -878,13 +878,13 @@
 			<Text>ประสบการณ์นี้จะมีคุณค่าสำหรับแคมเปญในอนาคต</Text>		<!-- This experience will be valuable in future campaigns. -->
 		</Replace>
 		<Replace Tag="LOC_3709_ALTB_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3709_ALTC_NAME" Language="th_TH">
-			<Text>การตั้งถิ่นฐานนี้มีผลงานศิลปะที่ยอดเยี่ยมมากมาย…</Text>		<!-- This settlement holds many great works of art… -->
+			<Text>ถิ่นฐานนี้มีผลงานศิลปะที่ยอดเยี่ยมมากมาย…</Text>		<!-- This settlement holds many great works of art… -->
 		</Replace>
 		<Replace Tag="LOC_3709_ALTC_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3710_ALTA_STORYTITLE" Language="th_TH">
 			<Text>โค้ดใหม่</Text>		<!-- A New Code -->
@@ -896,13 +896,13 @@
 			<Text>กระบวนการนี้ต้องใช้เวลาในการดำเนินการให้สมบูรณ์</Text>		<!-- This process takes time to complete properly. -->
 		</Replace>
 		<Replace Tag="LOC_3710_ALTB_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3710_ALTC_NAME" Language="th_TH">
 			<Text>ยิ่งการปฏิรูปเหล่านี้เกิดขึ้นเร็วเท่าไร ยิ่งดีเท่านั้น</Text>		<!-- The sooner these reforms take hold, the better. -->
 		</Replace>
 		<Replace Tag="LOC_3710_ALTC_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3711_ALTA_STORYTITLE" Language="th_TH">
 			<Text>เทพเจ้าแห่งยุคใหม่</Text>		<!-- A Modern Deity -->
@@ -914,13 +914,13 @@
 			<Text>ศิลปะเป็นการแสดงความจริงของจิตวิญญาณมนุษย์</Text>		<!-- The arts speak the truth of human spirit. -->
 		</Replace>
 		<Replace Tag="LOC_3711_ALTB_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3711_ALTC_NAME" Language="th_TH">
-			<Text>เราต้องระมัดระวังกับความปรารถนา.</Text>		<!-- One must be careful with wishes. -->
+			<Text>เราต้องระมัดระวังกับความปรารถนา</Text>		<!-- One must be careful with wishes. -->
 		</Replace>
 		<Replace Tag="LOC_3711_ALTC_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3712_ALTA_STORYTITLE" Language="th_TH">
 			<Text>ไม่ใช่แค่ทหารธรรมดา</Text>		<!-- No Mere Soldier -->
@@ -932,13 +932,13 @@
 			<Text>นักปราชญ์-ทหารเป็นผู้นำด้วยการเป็นตัวอย่าง</Text>		<!-- A scholar-soldier leads by example. -->
 		</Replace>
 		<Replace Tag="LOC_3712_ALTB_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3712_ALTC_NAME" Language="th_TH">
 			<Text>การแสวงหาความรู้ต้องสามารถเข้าถึงได้สำหรับทุกคน</Text>		<!-- Intellectual pursuits must be available to all. -->
 		</Replace>
 		<Replace Tag="LOC_3712_ALTC_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_PROFILE_TITLE_NAPOLEON_REVOLUTIONARY" Language="th_TH">
 			<Text>ชายผู้ถูกกำหนดให้ยิ่งใหญ่</Text>		<!-- Man of Destiny -->
@@ -997,25 +997,25 @@
 			<Text>+5 ความแข็งแกร่งในการต่อสู้สำหรับยูนิตทั้งหมดเมื่อโจมตี [Districts]</Text>		<!-- +5 Combat Strength for all Units against Districts. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_NAPOLEON_ALT_DESCRIPTION" Language="th_TH">
-			<Text>Play as [B]Napoleon, Revolutionary[/B].</Text>		<!-- Play as [B]Napoleon, Revolutionary[/B]. -->
+			<Text>Play as [B]Napoleon, Revolutionary[/B]</Text>		<!-- Play as [B]Napoleon, Revolutionary[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_NAPOLEON_ALT_EGYPT_TOOLTIP" Language="th_TH">
-			<Text>[B]Persia[/B] strategically compliments [B]Napoleon[/B].</Text>		<!-- [B]Persia[/B] strategically compliments [B]Napoleon[/B]. -->
+			<Text>[B]Persia[/B] strategically compliments [B]Napoleon[/B]</Text>		<!-- [B]Persia[/B] strategically compliments [B]Napoleon[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_NAPOLEON_ALT_ROME_TOOLTIP" Language="th_TH">
-			<Text>[B]Napoleon[/B] styled himself as a Roman successor.</Text>		<!-- [B]Napoleon[/B] styled himself as a Roman successor. -->
+			<Text>[B]Napoleon[/B] styled himself as a Roman successor</Text>		<!-- [B]Napoleon[/B] styled himself as a Roman successor. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_NAPOLEON_ALT_SPAIN_TOOLTIP" Language="th_TH">
-			<Text>[B]Napoleon[/B] campaigned in Spain.</Text>		<!-- [B]Napoleon[/B] campaigned in Spain. -->
+			<Text>[B]Napoleon[/B] campaigned in Spain</Text>		<!-- [B]Napoleon[/B] campaigned in Spain. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_NAPOLEON_ALT_NORMAN_TOOLTIP" Language="th_TH">
-			<Text>[B]Napoleon's[/B] France included Normandy.</Text>		<!-- [B]Napoleon's[/B] France included Normandy. -->
+			<Text>[B]Napoleon's[/B] France included Normandy</Text>		<!-- [B]Napoleon's[/B] France included Normandy. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_NAPOLEON_ALT_FRENCH_EMPIRE_TOOLTIP" Language="th_TH">
-			<Text>[B]Napoleon[/B] led the French Empire.</Text>		<!-- [B]Napoleon[/B] led the French Empire. -->
+			<Text>[B]Napoleon[/B] led the French Empire</Text>		<!-- [B]Napoleon[/B] led the French Empire. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_NAPOLEON_ALT_RUSSIA_TOOLTIP" Language="th_TH">
-			<Text>[B]Prussia[/B] strategically compliments [B]Napoleon[/B].</Text>		<!-- [B]Prussia[/B] strategically compliments [B]Napoleon[/B]. -->
+			<Text>[B]Prussia[/B] strategically compliments [B]Napoleon[/B]</Text>		<!-- [B]Prussia[/B] strategically compliments [B]Napoleon[/B]. -->
 		</Replace>
 	</LocalizedText>
 </Database>
