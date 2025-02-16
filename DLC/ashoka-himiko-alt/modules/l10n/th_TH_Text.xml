@@ -35,7 +35,7 @@
 			<Text>อะโศก ตำนานสมัยใหม่ ทหารนิยม</Text>		<!-- Ashoka Modern Legend Militaristic -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_ASHOKA_CONQUEROR_2_DESCRIPTION" Language="th_TH">
-			<Text>สำหรับยุคนี้ จะได้รับ +3 แรงต่อสู้สำหรับหน่วยทางอากาศของคุณ โดยมีต้นทุนเป็น -10% อิทธิพล[icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Air Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
+			<Text>สำหรับยุคนี้ จะได้รับ +3 พลังต่อสู้สำหรับยูนิตทางอากาศของคุณ โดยมีต้นทุนเป็น -10% อิทธิพล[icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Air Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_HIMIKO_SHAMAN_1_NAME" Language="th_TH">
 			<Text>ฮิมิโกะ มหากาพย์สมัยใหม่ วัฒนธรรม</Text>		<!-- Himiko Modern Legend Cultural -->
@@ -47,10 +47,10 @@
 			<Text>ฮิมิโกะ ตำนานสมัยใหม่ ทางการฑูต</Text>		<!-- Himiko Modern Legend Diplomatic -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_HIMIKO_SHAMAN_2_DESCRIPTION" Language="th_TH">
-			<Text>ในยุคนี้ เพิ่มอิทธิพล +15%[icon:YIELD_DIPLOMACY] โดยแลกกับค่าต่อสู้ -2 สำหรับหน่วยอากาศของคุณ</Text>		<!-- For this Age, gain +15% Influence[icon:YIELD_DIPLOMACY] at the cost of -2 Combat Strength for your Air Units -->
+			<Text>ในยุคนี้ เพิ่มอิทธิพล +15%[icon:YIELD_DIPLOMACY] โดยแลกกับค่าต่อสู้ -2 สำหรับยูนิตอากาศของคุณ</Text>		<!-- For this Age, gain +15% Influence[icon:YIELD_DIPLOMACY] at the cost of -2 Combat Strength for your Air Units -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_HIMIKO_ALT_L1_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน. +15% [icon:YIELD_PRODUCTION]การผลิตที่ใช้ในการสร้างสิ่งก่อสร้างและมหัศจรรย์ที่มีช่องงานยอดเยี่ยม</Text>		<!-- Legend Unlock. +15% [icon:YIELD_PRODUCTION]Production towards constructing Buildings and Wonders with Great Works slots. -->
+			<Text>ปลดล็อกตำนาน. +15% [icon:YIELD_PRODUCTION]การผลิตที่ใช้ในการสร้างสิ่งก่อสร้างและมหัศจรรย์ที่มีช่องงานชิ้นเอก</Text>		<!-- Legend Unlock. +15% [icon:YIELD_PRODUCTION]Production towards constructing Buildings and Wonders with Great Works slots. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_ASHOKA_ALT_L1_DESCRIPTION" Language="th_TH">
 			<Text>ปลดล็อกตำนาน +25% ความสัมพันธ์จากการเริ่มต้นหรือตอบสนอง Endeavors. -25% ความสัมพันธ์จากการเริ่มต้น Sanctions หรือการปฏิเสธ Endeavors</Text>		<!-- Legend Unlock. +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
@@ -59,7 +59,7 @@
 			<Text>ปลดล็อกตำนาน +25% ความสัมพันธ์จากการเริ่มต้นหรือสนับสนุน [Endeavors] -25% ความสัมพันธ์จากการเริ่มต้น [Sanctions] หรือปฏิเสธ [Endeavors]</Text>		<!-- Legend Unlock. +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_ASHOKA_ALT_L2_DESCRIPTION" Language="th_TH">
-			<Text>เปิดตำนาน +5 ความแข็งแกร่งในการต่อสู้สำหรับหน่วยทั้งหมดเมื่อเผชิญกับ Districts</Text>		<!-- Legend Unlock. +5 Combat Strength for all Units against Districts. -->
+			<Text>เปิดตำนาน +5 ความแข็งแกร่งในการต่อสู้สำหรับยูนิตทั้งหมดเมื่อเผชิญกับ Districts</Text>		<!-- Legend Unlock. +5 Combat Strength for all Units against Districts. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ASHOKA_ALT_TITLE" Language="th_TH">
 			<Text>{LOC_LEADER_ASHOKA_ALT_NAME}</Text>		<!-- {LOC_LEADER_ASHOKA_ALT_NAME} -->
@@ -179,16 +179,16 @@
 			<Text>อโศกมหาราช, ผู้พิชิตโลก</Text>		<!-- Ashoka, World Conqueror -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_ASHOKA_ALT_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_PRODUCTION] การผลิตสำหรับทุก 5 หน่วยเกิน [icon:YIELD_HAPPINESS] ความสุขในเมือง +10% [icon:YIELD_PRODUCTION] การผลิตในถิ่นฐานที่ไม่ก่อตั้งโดยคุณ การประกาศสงครามอย่างเป็นทางการจะให้งานเฉลิมฉลอง +10 ความแข็งแกร่งในการต่อสู้กับเขตสำหรับหน่วยทุกตัวในระหว่างงานเฉลิมฉลอง</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production for every 5 excess [icon:YIELD_HAPPINESS]Happiness in Cities. +10% [icon:YIELD_PRODUCTION] Production in Settlements not founded by you. Declaring a Formal War grants a Celebration. +10 Combat Strength against Districts for all Units during a Celebration. -->
+			<Text>+1[icon:YIELD_PRODUCTION] การผลิต สำหรับทุก 5[icon:YIELD_HAPPINESS] ความสุข ที่เกินมาในเมือง +10% [icon:YIELD_PRODUCTION] กำลังผลิต ในถิ่นฐานที่ไม่ได้ก่อตั้งโดยคุณ การประกาศสงครามอย่างเป็นทางการจะให้ งานเฉลิมฉลอง, +10 พลังต่อสู้กับเขตสำหรับ ยูนิตทุกตัว ในระหว่างงานเฉลิมฉลอง</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production for every 5 excess [icon:YIELD_HAPPINESS]Happiness in Cities. +10% [icon:YIELD_PRODUCTION] Production in Settlements not founded by you. Declaring a Formal War grants a Celebration. +10 Combat Strength against Districts for all Units during a Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ASHOKA_ALT_ABILITY_NAME" Language="th_TH">
 			<Text>เทวราชา</Text>		<!-- Devaraja -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ASHOKA_ALT_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+1[icon:YIELD_PRODUCTION] การผลิต [/B]สำหรับทุก [B]5 [/B]ความเกิน [icon:YIELD_HAPPINESS][B]ความสุข [/B]ในเมือง.[LI][B] +10% [icon:YIELD_PRODUCTION] การผลิต [/B]ในถิ่นฐานที่ไม่ได้ก่อตั้งโดยคุณ. [LI]การประกาศ [B]สงครามอย่างเป็นทางการ [/B]จะมอบ [B]การเฉลิมฉลอง[/B].[LI][B]+10 ความแข็งแกร่งในการต่อสู้[/B] ต่อ [B]เขต[/B] สำหรับทุกหน่วยในระหว่าง [B]การเฉลิมฉลอง[/B].[/LIST]</Text>		<!-- [LIST][LI][B]+1[icon:YIELD_PRODUCTION] Production [/B]for every [B]5 [/B]excess [icon:YIELD_HAPPINESS][B]Happiness [/B]in Cities.[LI][B] +10% [icon:YIELD_PRODUCTION] Production [/B]in Settlements not founded by you. [LI]Declaring a [B]Formal War [/B]grants a [B]Celebration[/B].[LI][B]+10 Combat Strength[/B] against [B]Districts [/B]for all Units during a [B]Celebration[/B].[/LIST] -->
+			<Text>[LIST][LI][B]+1[icon:YIELD_PRODUCTION] การผลิต [/B]สำหรับทุก [B]5 [/B]ความเกิน [icon:YIELD_HAPPINESS][B]ความสุข [/B]ในเมือง.[LI][B] +10% [icon:YIELD_PRODUCTION] การผลิต [/B]ในถิ่นฐานที่ไม่ได้ก่อตั้งโดยคุณ. [LI]การประกาศ [B]สงครามอย่างเป็นทางการ [/B]จะมอบ [B]การเฉลิมฉลอง[/B].[LI][B]+10 ความแข็งแกร่งในการต่อสู้[/B] ต่อ [B]เขต[/B] สำหรับทุกยูนิตในระหว่าง [B]การเฉลิมฉลอง[/B].[/LIST]</Text>		<!-- [LIST][LI][B]+1[icon:YIELD_PRODUCTION] Production [/B]for every [B]5 [/B]excess [icon:YIELD_HAPPINESS][B]Happiness [/B]in Cities.[LI][B] +10% [icon:YIELD_PRODUCTION] Production [/B]in Settlements not founded by you. [LI]Declaring a [B]Formal War [/B]grants a [B]Celebration[/B].[LI][B]+10 Combat Strength[/B] against [B]Districts [/B]for all Units during a [B]Celebration[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ASHOKA_CONQUEROR_DESCRIPTION" Language="th_TH">
-			<Text>+{1_Value} ความแข็งแกร่งในการต่อสู้ต่อเขตสำหรับหน่วยทั้งหมดในระหว่างการเฉลิมฉลอง।</Text>		<!-- +{1_Value} Combat Strength against Districts for all Units during a Celebration. -->
+			<Text>+{1_Value} ความแข็งแกร่งในการต่อสู้ต่อเขตสำหรับยูนิตทั้งหมดในระหว่างการเฉลิมฉลอง।</Text>		<!-- +{1_Value} Combat Strength against Districts for all Units during a Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ASHOKA_CONQUEROR_COMBAT_PREVIEW" Language="th_TH">
 			<Text>+{1_Amount} เทวราชา</Text>		<!-- +{1_Amount} Devaraja -->
@@ -545,13 +545,13 @@
 			<Text>ในฐานะอโศก ผู้พิชิตโลก ให้ทำเสร็จสิ้นเส้นทางมรดกทสาหนาของคุณ (Toshakhana Legacy Path)</Text>		<!-- As Ashoka World-Conqueror, complete the Toshakhana Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_CULTURE_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
-			<Text>ทรวงคลัง 2</Text>		<!-- Toshakhana 2 -->
+			<Text>โทชาคานา 2</Text>		<!-- Toshakhana 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_CULTURE_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
 			<Text>ในฐานะอโศก ผู้พิชิตโลก ให้สำเร็จเส้นทางมรดก Toshakhana สองครั้ง</Text>		<!-- As Ashoka World-Conqueror, complete the Toshakhana Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_CULTURE_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
-			<Text>โต๊ะฆานา 3</Text>		<!-- Toshakhana 3 -->
+			<Text>โทชาคานา 3</Text>		<!-- Toshakhana 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_CULTURE_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
 			<Text>ในฐานะอโศก World-Conqueror ทำเสร็จเส้นทาง Toshakhana Legacy สามครั้ง</Text>		<!-- As Ashoka World-Conqueror, complete the Toshakhana Legacy Path thrice. -->
@@ -1448,7 +1448,7 @@
 			<Text>ไพ่มรดกทางการทูตยุคสำรวจ</Text>		<!-- Exploration Diplomatic Legacy Card -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_ASHOKA_CONQUEROR_EXPLORATION_1_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะอโศก เข้าถึงไพ่มรดกทางการทูตยุคสำรวจ:[n] +15% อิทธิพล, -2 พลังต่อสู้สำหรับหน่วยทางทะเล</Text>		<!-- As Ashoka, access a new Exploration Legacy Card:[n]
+			<Text>ในฐานะอโศก เข้าถึงไพ่มรดกทางการทูตยุคสำรวจ:[n] +15% อิทธิพล, -2 พลังต่อสู้สำหรับยูนิตทางทะเล</Text>		<!-- As Ashoka, access a new Exploration Legacy Card:[n]
 				+15% Influence, -2 Combat Strength for Naval Units -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_ASHOKA_CONQUEROR_EXPLORATION_2_NAME" Language="th_TH">
@@ -1464,7 +1464,7 @@
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_ASHOKA_CONQUEROR_MODERN_1_DESCRIPTION" Language="th_TH">
 			<Text>ในฐานะอโศก เข้าถึงไพ่มรดกทางการทูตยุคสำรวจ:[n]  
-				+15% อิทธิพล, -2 ความแข็งแกร่งในการต่อสู้สำหรับหน่วยทางอากาศ</Text>		<!-- As Ashoka, access a new Modern Legacy Card:[n]
+				+15% อิทธิพล, -2 ความแข็งแกร่งในการต่อสู้สำหรับยูนิตทางอากาศ</Text>		<!-- As Ashoka, access a new Modern Legacy Card:[n]
 				+15% Influence, -2 Combat Strength for Air Units -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_ASHOKA_CONQUEROR_MODERN_2_NAME" Language="th_TH">
@@ -1472,7 +1472,7 @@
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_ASHOKA_CONQUEROR_MODERN_2_DESCRIPTION" Language="th_TH">
 			<Text>ในฐานะอโศก เข้าถึงไพ่มรดกทางการทหารยุคใหม่:[n]  
-				+3 ความแข็งแกร่งในการต่อสู้ต่อหน่วยอากาศ, -10% อิทธิพล</Text>		<!-- As Ashoka, access a new Modern Legacy Card:[n]
+				+3 ความแข็งแกร่งในการต่อสู้ต่อยูนิตอากาศ, -10% อิทธิพล</Text>		<!-- As Ashoka, access a new Modern Legacy Card:[n]
 				+3 Combat Strength towards Air Units, -10% Influence -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_ASHOKA_CONQUEROR_L1_NAME" Language="th_TH">
@@ -1485,7 +1485,7 @@
 			<Text>โหนดคุณสมบัติเชิงทหาร</Text>		<!-- Militaristic Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_ASHOKA_CONQUEROR_L2_DESCRIPTION" Language="th_TH">
-			<Text>+5 ความแข็งแกร่งในการต่อสู้สำหรับหน่วยทั้งหมดต่อเขตแดน</Text>		<!-- +5 Combat Strength for all Units against Districts. -->
+			<Text>+5 ความแข็งแกร่งในการต่อสู้สำหรับยูนิตทั้งหมดต่อเขตแดน</Text>		<!-- +5 Combat Strength for all Units against Districts. -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_ASHOKA_CONQUEROR_NAME" Language="th_TH">
 			<Text>เหรียญ ผู้พิชิตโลกอโศก 1</Text>		<!-- Ashoka World-Conqueror Badge 1 -->
@@ -1521,7 +1521,7 @@
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_HIMIKO_SHAMAN_EXPLORATION_2_DESCRIPTION" Language="th_TH">
 			<Text>ในฐานะฮิมิโกะ เข้าถึงไพ่มรดกการสำรวจใหม่: [n]  
-				+15% อิทธิพล, -2 ความแข็งแกร่งในการต่อสู้สำหรับหน่วยเรือ</Text>		<!-- As Himiko, access a new Exploration Legacy Card:[n]
+				+15% อิทธิพล, -2 ความแข็งแกร่งในการต่อสู้สำหรับยูนิตเรือ</Text>		<!-- As Himiko, access a new Exploration Legacy Card:[n]
 				+15% Influence, -2 Combat Strength for Naval Units -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_HIMIKO_SHAMAN_MODERN_1_NAME" Language="th_TH">

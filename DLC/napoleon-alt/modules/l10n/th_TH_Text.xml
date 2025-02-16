@@ -11,7 +11,7 @@
 			<Text>นโปเลียน ตำนาจยุคสำรวจ ทางทหาร</Text>		<!-- Napoleon Exploration Legend Militaristic -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_NAPOLEON_REVOLUTIONARY_2_DESCRIPTION" Language="th_TH">
-			<Text>สำหรับยุคนี้ เพิ่มความแข็งแกร่งในการต่อสู้ +3 สำหรับหน่วยเรือของคุณโดยเสียค่าใช้จ่าย -10% อิทธิพล[icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Naval Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
+			<Text>สำหรับยุคนี้ เพิ่มความแข็งแกร่งในการต่อสู้ +3 สำหรับยูนิตเรือของคุณโดยเสียค่าใช้จ่าย -10% อิทธิพล[icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Naval Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_NAPOLEON_REVOLUTIONARY_1_NAME" Language="th_TH">
 			<Text>นโปเลียน ตำนานยุคใหม่ วัฒนธรรม</Text>		<!-- Napoleon Modern Legend Cultural -->
@@ -23,10 +23,10 @@
 			<Text>นโปเลียน ตำนานยุคใหม่ การทหาร</Text>		<!-- Napoleon Modern Legend Militaristic -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_NAPOLEON_REVOLUTIONARY_2_DESCRIPTION" Language="th_TH">
-			<Text>สำหรับยุคนี้ หน่วยรบทางอากาศของคุณมีความแข็งแกร่งในด้านการรบเพิ่มขึ้น +3 โดยแลกกับอิทธิพลที่ลดลง -10% [icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Air Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
+			<Text>สำหรับยุคนี้ ยูนิตทางอากาศของคุณมีความแข็งแกร่งในด้านการรบเพิ่มขึ้น +3 โดยแลกกับอิทธิพลที่ลดลง -10% [icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Air Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_NAPOLEON_ALT_L1_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน +15% [icon:YIELD_PRODUCTION]การผลิตในการสร้างสิ่งก่อสร้างและสิ่งมหัศจรรย์ที่มีช่องใส่ผลงานยิ่งใหญ่</Text>		<!-- Legend Unlock. +15% [icon:YIELD_PRODUCTION]Production towards constructing Buildings and Wonders with Great Works slots. -->
+			<Text>ปลดล็อกตำนาน +15% [icon:YIELD_PRODUCTION]การผลิตในการสร้างสิ่งก่อสร้างและสิ่งมหัศจรรย์ที่มีช่องใส่ผลงานชิ้นเอก</Text>		<!-- Legend Unlock. +15% [icon:YIELD_PRODUCTION]Production towards constructing Buildings and Wonders with Great Works slots. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_NAPOLEON_ALT_L2_DESCRIPTION" Language="th_TH">
 			<Text>การปลดล็อกตำนาน: เพิ่มพลังต่อสู้ +5 สำหรับทุกยูนิตเมื่อโจมตีเขตต่าง ๆ</Text>		<!-- Legend Unlock. +5 Combat Strength for all Units against Districts. -->
@@ -92,13 +92,13 @@
 			<Text>นโปเลียน, นักปฏิวัติ</Text>		<!-- Napoleon, Revolutionary -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_NAPOLEON_ALT_DESCRIPTION" Language="th_TH">
-			<Text>การเคลื่อนไหว +1 สำหรับหน่วยบนบกทั้งหมด การเอาชนะหน่วยศัตรูจะให้ [icon:YIELD_CULTURE] วัฒนธรรมเท่ากับ 50% ของพลังต่อสู้ของหน่วยนั้น</Text>		<!-- +1 Movement for all Land Units. Defeating an enemy Unit provides [icon:YIELD_CULTURE] Culture equal to 50% of its Combat Strength. -->
+			<Text>การเคลื่อนไหว +1 สำหรับยูนิตบนบกทั้งหมด การเอาชนะยูนิตศัตรูจะให้ [icon:YIELD_CULTURE] วัฒนธรรมเท่ากับ 50% ของพลังต่อสู้ของยูนิตนั้น</Text>		<!-- +1 Movement for all Land Units. Defeating an enemy Unit provides [icon:YIELD_CULTURE] Culture equal to 50% of its Combat Strength. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NAPOLEON_ALT_ABILITY_NAME" Language="th_TH">
 			<Text>ลา กร็องด์ อาร์เม่</Text>		<!-- La Grande Armée -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NAPOLEON_ALT_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+1 แต้มเคลื่อนที่ [/B]สำหรับ [B]หน่วยบนบก[/B]ทั้งหมด[LI]การเอาชนะหน่วยศัตรูจะให้ [icon:YIELD_CULTURE] [B]วัฒนธรรม [/B]เท่ากับ [B]50% [/B]ของ [B]พลังการรบ[/B]ของมัน[/LIST]</Text>		<!-- [LIST][LI][B]+1 Movement [/B]for all [B]Land Units[/B].[LI]Defeating an enemy Unit provides [icon:YIELD_CULTURE] [B]Culture [/B]equal to [B]50% [/B]of its [B]Combat Strength[/B].[/LIST] -->
+			<Text>[LIST][LI][B]+1 แต้มเคลื่อนที่ [/B]สำหรับ [B]ยูนิตบนบก[/B]ทั้งหมด[LI]การเอาชนะยูนิตศัตรูจะให้ [icon:YIELD_CULTURE] [B]วัฒนธรรม [/B]เท่ากับ [B]50% [/B]ของ [B]พลังการรบ[/B]ของมัน[/LIST]</Text>		<!-- [LIST][LI][B]+1 Movement [/B]for all [B]Land Units[/B].[LI]Defeating an enemy Unit provides [icon:YIELD_CULTURE] [B]Culture [/B]equal to [B]50% [/B]of its [B]Combat Strength[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_NAPOLEON_ALT" Language="th_TH">
 			<Text>นโปเลียน โบนาปาร์ต ยังเป็นหนึ่งในผู้นำที่มีชื่อเสียงที่สุดในประวัติศาสตร์ เกิดในเกาะคอร์ซิกา เขาได้ขึ้นสู่อำนาจในกองทัพฝรั่งเศสอย่างรวดเร็วและสำเร็จรัฐประหารที่ทำให้เขากลายเป็นกงสุลใหญ่ของฝรั่งเศสในปี 1799 สี่ปีต่อมา เขาสวมมงกุฎเป็นจักรพรรดิแห่งฝรั่งเศสและได้จัดตั้งระบบคอนติเนนทอล ซึ่งมีจุดประสงค์เพื่อฟื้นฟูฝรั่งเศสและทำให้อริศัตรูอ่อนแอลง การครองราชย์ของเขาได้ถูกนิยามด้วยการปฏิรูปพลเมืองที่สำคัญและสงครามที่เกิดขึ้นทั่วทวีปยุโรปตั้งแต่ประเทศสเปนถึงประเทศรัสเซีย</Text>		<!-- Napoleon Bonaparte remains one of history’s most infamous leaders. Born in Corsica, his rapid rise through the French army culminated in a coup that made him France’s First Consul in 1799. Four years later, he crowned himself Emperor of the French and established the Continental System, meant to revitalize France and weaken its enemies. His reign was defined by major civic reforms and wars that raged across Europe from Spain to Russia. -->
@@ -966,7 +966,7 @@
 			<Text>การสำรวจ [Militaristic Legacy Card]</Text>		<!-- Exploration Militaristic Legacy Card -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_NAPOLEON_REVOLUTIONARY_EXPLORATION_2_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะนโปเลียน เข้าถึงการ์ดมรดกการสำรวจใหม่: [n] +3 ความแข็งแกร่งในการต่อสู้ต่อหน่วยเรือรบ, -10% อิทธิพล</Text>		<!-- As Napoleon, access a new Exploration Legacy Card:[n]
+			<Text>ในฐานะนโปเลียน เข้าถึงการ์ดมรดกการสำรวจใหม่: [n] +3 ความแข็งแกร่งในการต่อสู้ต่อยูนิตเรือรบ, -10% อิทธิพล</Text>		<!-- As Napoleon, access a new Exploration Legacy Card:[n]
 				+3 Combat Strength towards Naval Units, -10% Influence -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_NAPOLEON_REVOLUTIONARY_MODERN_1_NAME" Language="th_TH">
@@ -981,7 +981,7 @@
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_NAPOLEON_REVOLUTIONARY_MODERN_2_DESCRIPTION" Language="th_TH">
 			<Text>ในฐานะนโปเลียน เข้าถึงการ์ดมรดกสมัยใหม่ใบใหม่:[n]
-+3 ความแข็งแกร่งในการต่อสู้ต่อหน่วยอากาศ, -10% อิทธิพล</Text>		<!-- As Napoleon, access a new Modern Legacy Card:[n]
++3 ความแข็งแกร่งในการต่อสู้ต่อยูนิตอากาศ, -10% อิทธิพล</Text>		<!-- As Napoleon, access a new Modern Legacy Card:[n]
 				+3 Combat Strength towards Air Units, -10% Influence -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_NAPOLEON_REVOLUTIONARY_L1_NAME" Language="th_TH">
