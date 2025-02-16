@@ -1277,7 +1277,7 @@
 			<Text>เกษกาม ชำนาญ</Text>		<!-- Ksekam Chamnon -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_KHMER_DESCRIPTION" Language="th_TH">
-			<Text>เขตพื้นที่ที่อยู่ตามแม่น้ำไม่ทำให้ผลผลิตธรรมชาติของกระเบื้องลดลง</Text>		<!-- Districts on Rivers do not remove the natural yield of the tile. -->
+			<Text>เขตพื้นที่ที่อยู่ตามแม่น้ำ ไม่ทำให้ผลผลิตตามธรรมชาติ ของช่องลดลง</Text>		<!-- Districts on Rivers do not remove the natural yield of the tile. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_KHMER_ABILITY_DESCRIPTION" Language="th_TH">
 			<Text>[LIST][LI][B]เขต [/B]บน [B]แม่น้ำ [/B]ไม่ต้องทำลาย [B]ผลผลิตธรรมชาติ [/B]ของแผ่นดิน.[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต  [/B]เพื่อสร้าง [B]อังกอร์ วัต[/B][/LIST]</Text>		<!-- [LIST][LI][B]Districts [/B]on [B]Rivers [/B]do not remove the [B]natural yield [/B]of the tile.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Angkor Wat[/B].[/LIST] -->
@@ -1325,10 +1325,10 @@
 			<Text>สภาฮามารานา</Text>		<!-- Hamarana Council -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_PERSIA_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบได้รับพลังต่อสู้เพิ่มขึ้น +3 เมื่อทำการโจมตี</Text>		<!-- Infantry Units receive +3 Combat Strength when attacking. -->
+			<Text>ยูนิตทหารราบได้รับ +3 พลังต่อสู้ เมื่อทำการโจมตี</Text>		<!-- Infantry Units receive +3 Combat Strength when attacking. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_PERSIA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]ยูนิตทหารราบ [/B]ได้รับ [B]+3 พลังต่อสู้ [/B]เมื่อทำการโจมตี.[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]ประตูแห่งชาติทุกแห่ง[/B][/LIST]</Text>		<!-- [LIST][LI][B]Infantry Units [/B]receive [B]+3 Combat Strength [/B]when attacking.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Gate of All Nations[/B].[/LIST] -->
+			<Text>[LIST][LI][B]ยูนิตทหารราบ [/B]ได้รับ [B]+3 พลังต่อสู้ [/B]เมื่อทำการโจมตี.[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]ประตูแห่งสหชาติ[/B][/LIST]</Text>		<!-- [LIST][LI][B]Infantry Units [/B]receive [B]+3 Combat Strength [/B]when attacking.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Gate of All Nations[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_PERSIA_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องกับเปอร์เซีย</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Persia's associated Wonder. -->
@@ -1337,7 +1337,7 @@
 			<Text>สิบสองตาราง</Text>		<!-- Twelve Tables -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_ROME_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม ในเขตต่าง ๆ ในกรุงเทพฯ และใจกลางเมืองในชุมชน</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture on Districts in the Capital and City Centers in Towns. -->
+			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม ในเขตต่าง ๆ ในกรุงเทพฯ และใจกลางเมืองในถิ่นฐาน</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture on Districts in the Capital and City Centers in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_ROME_ABILITY_DESCRIPTION" Language="th_TH">
 			<Text>[LIST][LI][B]+1 [icon:YIELD_CULTURE] วัฒนธรรม [/B] ใน [B] เขต [/B] ใน [B] เมืองหลวง [/B] และ [B] ใจกลางเมือง [/B] ใน [B] เมือง [/B].[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B] เพื่อสร้าง [B] โคลอสเซียม [/B][/LIST]</Text>		<!-- [LIST][LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]on [B]Districts [/B]in the [B]Capital [/B]and [B]City Centers [/B]in [B]Towns[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Colosseum[/B].[/LIST] -->
@@ -1433,7 +1433,7 @@
 			<Text>ความขัดแย้งเกิดขึ้นในระหว่างการกบฏหลายครั้งในปี 184 CE ซึ่งจะสิ้นสุดลงด้วยการล่มสลายของราชวงศ์ฮั่น ซึ่งเป็นช่วงเวลาที่ถูกจำลองใน "โรมานซ์แห่งสามอาณาจักร" ในช่วงเวลานี้ กลุ่มศัตรูได้ควบคุมส่วนต่าง ๆ ของอาณาจักรเดิม โดยเฉพาะอย่างยิ่ง Cao Cao ที่โหดร้าย, Sun Quan, และ Liu Bei ลูกชายของ Cao Cao, Cao Pi ได้ควบคุมจักรพรรดิฮั่นเดิมและบังคับให้จักรพรรดิสละราชสมบัติ ซึ่งทำให้ราชวงศ์สิ้นสุดลง ราชวงศ์ฮั่นมีอายุเกิน 400 ปี ตั้งแต่ปี 202 BCE จนถึง 220 CE</Text>		<!-- Conflict broke out during a series of rebellions in 184 CE that would end with the Han Dynasty’s shattering fall, a period epitomized in the “Romance of the Three Kingdoms.” During this time, rival factions controlled different sections of the former kingdom, notably the ruthless Cao Cao, Sun Quan, and Liu Bei. Cao Cao's son, Cao Pi gained control of the former Han emperor and forced the emperor to abdicate the throne, ending the dynasty. Han lasted for over 400 years, from 202 BCE until 220 CE. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_CIVILIZATION_KHMER_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>อาณาจักรขแมร์ (กัมพูชา) เป็นอาณาจักรฮินดู-พุทธที่มีศูนย์กลางอยู่ภายในแม่น้ำโขง รอบๆ ทะเลสาบโตนเลสาบ จุดแข็งของมันคือการควบคุมที่ดิน โดยเฉพาะที่ดินที่ผลิตข้าว และมันได้ขยายอิทธิพลไปทั่วแผ่นดินเอเชียตะวันออกเฉียงใต้ ขแมร์ได้แลกเปลี่ยนเอกสารและคู่สมรสกับรัฐที่มีลักษณะเดียวกันในที่อื่นๆ บนทวีป แม้ว่าเทือกเขาหิมาลัยและปีกตะวันออกเฉียงใต้ของเอเชียจะจำกัดการเข้าถึงจีน อาณาจักรจาม ซึ่งตั้งอยู่ในเวียดนามตอนใต้ในปัจจุบัน ก็ยังเป็นเขตกันชนระหว่างขแมร์และเวียดนาม อิทธิพลทางประวัติศาสตร์ของมันขยายไปไกลกว่ากัมพูชาไปยังไทย เวียดนามใต้ และลาวในปัจจุบัน</Text>		<!-- The Khmer (Cambodian) Empire was a Hindu-Buddhist kingdom centered within the Mekong River, around the Tonle Sap lake. Its forte was control of land, especially rice-producing land, and it extended its influence across mainland Southeast Asia. Khmer exchanged texts and spouses with similar polities elsewhere on the continent, although the Himalayas and its Southeast Asian spur limited access to China. The Champa empire, in present-day southern Vietnam, also presented a buffer zone between the Khmer and Vietnam. Its historical influence extends today beyond Cambodia into Thailand, southern Vietnam, and Laos. -->
+			<Text>อาณาจักรเขมร (กัมพูชา) เป็นอาณาจักรฮินดู-พุทธที่มีศูนย์กลางอยู่ภายในแม่น้ำโขง รอบๆ ทะเลสาบโตนเลสาบ จุดแข็งของมันคือการควบคุมที่ดิน โดยเฉพาะที่ดินที่ผลิตข้าว และมันได้ขยายอิทธิพลไปทั่วแผ่นดินเอเชียตะวันออกเฉียงใต้ เขมรได้แลกเปลี่ยนเอกสารและคู่สมรสกับรัฐที่มีลักษณะเดียวกันในที่อื่นๆ บนทวีป แม้ว่าเทือกเขาหิมาลัยและปีกตะวันออกเฉียงใต้ของเอเชียจะจำกัดการเข้าถึงจีน อาณาจักรจาม ซึ่งตั้งอยู่ในเวียดนามตอนใต้ในปัจจุบัน ก็ยังเป็นเขตกันชนระหว่างเขมรและเวียดนาม อิทธิพลทางประวัติศาสตร์ของมันขยายไปไกลกว่ากัมพูชาไปยังไทย เวียดนามใต้ และลาวในปัจจุบัน</Text>		<!-- The Khmer (Cambodian) Empire was a Hindu-Buddhist kingdom centered within the Mekong River, around the Tonle Sap lake. Its forte was control of land, especially rice-producing land, and it extended its influence across mainland Southeast Asia. Khmer exchanged texts and spouses with similar polities elsewhere on the continent, although the Himalayas and its Southeast Asian spur limited access to China. The Champa empire, in present-day southern Vietnam, also presented a buffer zone between the Khmer and Vietnam. Its historical influence extends today beyond Cambodia into Thailand, southern Vietnam, and Laos. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_CIVILIZATION_KHMER_CHAPTER_HISTORY_PARA_2" Language="th_TH">
 			<Text>การตั้งถิ่นฐานหลักครั้งแรกในเอเชียตะวันออกเฉียงใต้ (ไม่รวมเวียดนาม) เป็นเมืองนครที่มีศูนย์กลางอยู่ที่กษัตริย์ที่มีอำนาจเหนือธรรมชาติ นักวิชาการได้ถกเถียงถึงขอบเขตของอิทธิพลจากอินเดียต่อภูมิภาคนี้ว่า เป็นการจำลองรัฐอินเดีย รัฐเอเชียตะวันออกเฉียงใต้ที่สังเกตและปฏิบัติตามขนบธรรมเนียมอินเดีย หรือเป็นการปกครองพื้นเมืองที่ได้รับแรงบันดาลใจจากอินเดียในขณะที่เป็นไปในแนวทางของตนเอง?</Text>		<!-- The first major settlements in Southeast Asia (excluding Vietnam) were city-states centered around a divine king. Academics have debated the extent of India’s influence on this region – were they copies of Indian states, Southeast Asian states observing Indian customs, or entirely indigenous polities taking inspiration from India while going their own way? -->
@@ -1613,7 +1613,7 @@
 			<Text>รัฐในภายหลังได้แสวงหาตำแหน่งโรมเป็นแหล่งของความชอบธรรม ราชอาณาจักรเยอรมันใช้ตำแหน่ง “จักรวรรดิอันศักดิ์สิทธิ์โรมัน” ตลอดช่วงสมัยใหม่ และกษัตริย์จากรัสเซียไปจนถึงตุรกีและเยอรมนีใช้ตำแหน่ง “ซีซาร์” โดยปรับเปลี่ยนเล็กน้อยเป็นซาร์ ไคเซอร์ หรือเคซาร์ เมืองหลวงสมัยใหม่ เช่น วอชิงตัน ดี.ซี. ในสหรัฐอเมริกา ใช้สัญลักษณ์และสถาปัตยกรรมของโรมเพื่อสร้างความเชื่อมโยงที่เป็นเท็จกับอดีต ในขณะที่เรียกองค์กรที่มีการพิจารณาของพวกเขาว่า “วุฒิสภา” โรมเคยล่มสลายลงจริงหรือไม่?</Text>		<!-- Later states sought the title of Rome as a source of validity. The German kingdoms used the title “Holy Roman Empire” through the modern period, and kings from Russia to Turkey to Germany used the title “Caesar,” while changing it slightly to Tsar, Kaiser, or Keyser. Modern capitals, such as Washington D.C. in the United States, used Roman iconography and architecture to create a fictive link with the past while calling their deliberative bodies a “Senate.” Has Rome ever truly fallen? -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_WONDER_ANGKOR_WAT_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>อ Angkor Wat - ชื่อนี้หมายถึง “เมืองแห่งวัด” - เป็นซับซ้อนขนาดใหญ่ในกัมพูชาปัจจุบัน สร้างขึ้นในตอนแรกเพื่อเป็นที่อยู่อาศัยของพระวิษณุ ซับซ้อนนี้ผ่านการตีความทางศาสนาหลายรูปแบบ ตั้งแต่ศาสนาฮินดูไปจนถึงพุทธศาสนามหายานและพุทธศาสนาธรรมยุต จนถึงทุกวันนี้ยังคงเป็นสถานที่นับถือศาสนาสำหรับกัมพูชาหรือขแมร์ (สองคำนี้มีความหมายเหมือนกัน) แม้ก่อนที่มันจะถูก "ค้นพบ" โดยนักสำรวจชาวฝรั่งเศสในศตวรรษที่ 19 วัดหลักเป็นอนุสาวรีย์ทางศาสนาที่ใหญ่ที่สุดในโลก สร้างจากก้อนหินทรายและจำลองตามสวรรค์ของฮินดูและพุทธ: เนินกลาง (เมรุ) อยู่ในศูนย์กลาง ซึ่งรายล้อมด้วยก้อนอีกสี่ก้อน น่าสนใจว่าขณะที่ซับซ้อนวัดส่วนใหญ่หันไปทางทิศตะวันออก Angkor กลับหันไปทางทิศตะวันตก</Text>		<!-- Angkor Wat – the name simply means “city of temples” – is a vast complex in present-day Cambodia. Originally constructed as a dwelling for Vishnu, the complex went through multiple religious interpretations, from Hindu to Mahayana Buddhist to Theravada Buddhist. It has remained a place of worship for Cambodians (or Khmer, the two words are synonymous) even before its “discovery” by French explorers in the 19th century. The central temple is the largest religious monument in the world, built of sandstone blocks and modeled upon the Hindu-Buddhist heavens: a central mound (Meru) in the center, surrounded by four other blocks. Interestingly, while most temple complexes face east, Angkor faces west. -->
+			<Text>อ Angkor Wat - ชื่อนี้หมายถึง “เมืองแห่งวัด” - เป็นซับซ้อนขนาดใหญ่ในกัมพูชาปัจจุบัน สร้างขึ้นในตอนแรกเพื่อเป็นที่อยู่อาศัยของพระวิษณุ ซับซ้อนนี้ผ่านการตีความทางศาสนาหลายรูปแบบ ตั้งแต่ศาสนาฮินดูไปจนถึงพุทธศาสนามหายานและพุทธศาสนาธรรมยุต จนถึงทุกวันนี้ยังคงเป็นสถานที่นับถือศาสนาสำหรับกัมพูชาหรือเขมร (สองคำนี้มีความหมายเหมือนกัน) แม้ก่อนที่มันจะถูก "ค้นพบ" โดยนักสำรวจชาวฝรั่งเศสในศตวรรษที่ 19 วัดหลักเป็นอนุสาวรีย์ทางศาสนาที่ใหญ่ที่สุดในโลก สร้างจากก้อนหินทรายและจำลองตามสวรรค์ของฮินดูและพุทธ: เนินกลาง (เมรุ) อยู่ในศูนย์กลาง ซึ่งรายล้อมด้วยก้อนอีกสี่ก้อน น่าสนใจว่าขณะที่ซับซ้อนวัดส่วนใหญ่หันไปทางทิศตะวันออก Angkor กลับหันไปทางทิศตะวันตก</Text>		<!-- Angkor Wat – the name simply means “city of temples” – is a vast complex in present-day Cambodia. Originally constructed as a dwelling for Vishnu, the complex went through multiple religious interpretations, from Hindu to Mahayana Buddhist to Theravada Buddhist. It has remained a place of worship for Cambodians (or Khmer, the two words are synonymous) even before its “discovery” by French explorers in the 19th century. The central temple is the largest religious monument in the world, built of sandstone blocks and modeled upon the Hindu-Buddhist heavens: a central mound (Meru) in the center, surrounded by four other blocks. Interestingly, while most temple complexes face east, Angkor faces west. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_WONDER_ANGKOR_WAT_CHAPTER_HISTORY_PARA_2" Language="th_TH">
 			<Text>สถานที่เหล่านี้สามารถคิดว่าเป็นเสาอากาศที่กระจายอำนาจและความยิ่งใหญ่ของพระมหากษัตริย์ไปยังชนบทที่อยู่รอบข้าง ดังนั้น พวกเขาจึงกลายเป็นสัญลักษณ์ที่มีพลังสำหรับผู้ที่ต้องการพิชิต: อ Angkor ถูกใช้เป็นสัญลักษณ์ของฝรั่งเศสในอินโดจีนระหว่างการยึดครองในยุคอาณานิคม และแบบจำลองของวัดถูกเพิ่มเข้าที่พระบรมมหาราชวังที่กรุงเทพฯ ในช่วงการยึดครองของสยามในกัมพูชา รูปแบบของสถานที่นี้ยังปรากฏบนธงชาติกัมพูชาตั้งแต่ยุคเขมรแดงจนถึงปัจจุบัน</Text>		<!-- Such sites can be thought of as antennae radiating the king's power and majesty to the surrounding countryside. As such, they became powerful symbols for would-be conquerors: Angkor was used as a symbol of French Indochina during the colonial occupation, and a model of the temple was added to the Grand Palace at Bangkok during the Siamese occupation of Cambodia. The site’s profile also appears on Cambodian flags from the Khmer Rouge to the present day. -->
@@ -1649,7 +1649,7 @@
 			<Text>ลองจินตนาการดูว่าอเล็กซานเดอร์มหาราชรู้สึกอย่างไรเมื่อเข้าสู่เพอร์เซโปลิส (ปาร์ซาในภาษาเปอร์เซีย) ซึ่งเป็นเมืองหลวงทางพิธีการของอาณาจักรที่ทำหน้าที่เป็นศัตรูหลักในช่วงเวลาที่สำคัญของประวัติศาสตร์กรีกโบราณ นี่คือสถานที่ศักดิ์สิทธิ์ที่สุดของคู่แข่ง คือต้นกำเนิดของอาณาจักร ที่ซึ่งทองและเงินของอาณาจักรนั้นมีความเข้มข้นที่สุด และที่ซึ่งการเรียนรู้และศิลปะของมันเห็นได้ชัดที่สุด กองทัพของเขาเข้ายึดและปล้นเมืองเผาทุกสิ่งทุกอย่างให้ไหม้เกรียม และฆ่าทุกคนที่พวกเขาพบ มีการกล่าวว่าอเล็กซานเดอร์รู้สึกเสียใจกับการทำลายปาร์ซา แต่เมืองนี้ยังคงถูกทำลายอยู่ดี</Text>		<!-- Imagine how Alexander the Great felt upon entering Persepolis (Parsa, in Persian), the ceremonial capital of an empire that had functioned as the main antagonist during that formative period of ancient Greek history. It was his rival’s holiest site, the heart of the empire, where its gold and silver were most concentrated, and where its learning and arts were most evident. His troops entered and sacked the city, burning everything to the ground and killing everyone they found. It has been said that Alexander regretted Parsa’s destruction, but the city remained ruined. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_WONDER_GATE_OF_ALL_NATIONS_CHAPTER_HISTORY_PARA_2" Language="th_TH">
-			<Text>ตามบัญชีบางฉบับ พาร์ซาไม่ใช่สถานที่สำหรับการตั้งถิ่นฐานถาวร แต่ทำหน้าที่มากกว่าเป็นความซับซ้อนของพระราชวังและพิธีกรรม โดยไม่คำนึงถึงเรื่องนี้ มันเป็นสถานที่กว้างใหญ่ของศิลปะและความอัศจรรย์ ประตูแห่งชาติทั้งหมด ซึ่งสร้างโดยเซอร์ซีนในศตวรรษที่ 5 ก่อนคริสต์ศักราช เป็นทางเข้าขนาดใหญ่ที่มีเสาทั้งหมดสี่ต้นและตกแต่งด้วยวัวและลามาสสู (สฟิงซ์ที่มีหัวของผู้ชายที่มีเครา) พื้นที่นี้ได้รับการออกแบบมาเพื่อสร้างความประทับใจ เพื่อทำให้ผู้ชมรู้สึกไม่มีความสำคัญเมื่อพวกเขาจ้องมองไปที่ใบหน้าของเซอร์ซีนผู้ยิ่งใหญ่ – ก่อนที่จะเผชิญหน้ากับผู้ปกครองที่มีอำนาจของมัน</Text>		<!-- By some accounts, Parsa was not a place for permanent habitation, functioning more as a palatial and ritual complex. Regardless, it was a vast place of art and wonder. The Gate of All Nations, built by Xerxes in the 5th century BCE, was an extensive entrance supported by four pillars and decorated with bulls and lamassu (sphinxes with the heads of bearded men). The space was designed to impress, to instill insignificance in its viewers as they stared up at the face of Xerxes the Great – before facing its active ruler. -->
+			<Text>ตามบัญชีบางฉบับ พาร์ซาไม่ใช่สถานที่สำหรับการตั้งถิ่นฐานถาวร แต่ทำหน้าที่มากกว่าเป็นความซับซ้อนของพระราชวังและพิธีกรรม โดยไม่คำนึงถึงเรื่องนี้ มันเป็นสถานที่กว้างใหญ่ของศิลปะและความอัศจรรย์ ประตูแห่งสหชาติ ซึ่งสร้างโดยเซอร์ซีนในศตวรรษที่ 5 ก่อนคริสต์ศักราช เป็นทางเข้าขนาดใหญ่ที่มีเสาทั้งหมดสี่ต้นและตกแต่งด้วยวัวและลามาสสู (สฟิงซ์ที่มีหัวของผู้ชายที่มีเครา) พื้นที่นี้ได้รับการออกแบบมาเพื่อสร้างความประทับใจ เพื่อทำให้ผู้ชมรู้สึกไม่มีความสำคัญเมื่อพวกเขาจ้องมองไปที่ใบหน้าของเซอร์ซีนผู้ยิ่งใหญ่ – ก่อนที่จะเผชิญหน้ากับผู้ปกครองที่มีอำนาจของมัน</Text>		<!-- By some accounts, Parsa was not a place for permanent habitation, functioning more as a palatial and ritual complex. Regardless, it was a vast place of art and wonder. The Gate of All Nations, built by Xerxes in the 5th century BCE, was an extensive entrance supported by four pillars and decorated with bulls and lamassu (sphinxes with the heads of bearded men). The space was designed to impress, to instill insignificance in its viewers as they stared up at the face of Xerxes the Great – before facing its active ruler. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_WONDER_GREAT_STELE_CHAPTER_HISTORY_PARA_1" Language="th_TH">
 			<Text>เสาโอเบลิสก์แห่งอักซุมเป็นเสาหินแกรนิตที่น่าทึ่งสูง 24 เมตรขึ้นไปในท้องฟ้าและประดับด้วยรูปปั้นและประตูเทียม สร้างขึ้นในศตวรรษที่ 4 ก่อนคริสต์ศักราช มันตั้งตระหง่านอยู่เป็นเวลาหลายศตวรรษก่อนที่จะถูกโยนล้มลงโดยแผ่นดินไหวในศตวรรษที่ 1500 ในช่วงสงครามโลกครั้งที่ 2 ทหารอิตาลีที่เข้ายึดครองได้ขนเอาหินไปยังกรุงโรม พวกเขาถูกส่งคืนไปยังเอธิโอเปียในปี 2005</Text>		<!-- The Obelisk of Aksum is an impressive pillar of granite, soaring 24 meters into the sky and decorated with statues and false doors. Raised in the fourth century CE, it stood for centuries before being toppled by an earthquake in the 1500s. During World War II, occupying Italian troops took the stones to Rome. They were repatriated to Ethiopia in 2005. -->
@@ -1688,7 +1688,7 @@
 			<Text>ความสำคัญทางศาสนาของดาราศาสตร์มายานั้นน่าจดจำเช่นกัน การเคลื่อนไหวของดวงดาวเป็นเบาะแสถึงความตั้งใจของเหล่าทวยเทพ ดังนั้นสถานที่ดาราศาสตร์จึงเป็นสถานที่สำหรับการบูชายัญและการสักการะซึ่งสามารถให้เห็นถึงเทพเจ้าได้โดยตรงและมีการถวายของบูชา สำหรับชาวมายา ตัวอย่างเช่น ดวงดาวที่สว่างในยามเช้า (ซึ่งเราเรียกว่า ดาวศุกร์) ไม่ใช่ก้อนของเมฆกำมะถันที่ล้อมรอบโลกที่ร้อนระอุ แต่มันคือดวงตาของคุคุลคาน ที่ซึ่งการสื่อสารโดยตรงจากโลกไปสู่สวรรค์เป็นไปได้ – ซึ่งต้องการเวทีในการแสดงออก</Text>		<!-- The religious significance of Maya astronomy is also noteworthy. The movements of the stars were clues to the dispositions of the gods, so astronomical sites were places of sacrifice and worship, where the gods could be seen directly and given offerings. To the Maya, for instance, the bright star in the morning sky (which we call Venus) was not a ball of sulfur dioxide clouds surrounding a scorching planet. Rather, it was the eye of Kukulkan, through which direct communication was possible from the earth to the heaven – one that required a stage. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_WONDER_NALANDA_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>มหาวิทยาลัยที่อยู่อาศัยแห่งแรก วัดพุทธที่นาลันทา ได้ตั้งอยู่ในภาคตะวันออกของอินเดียตั้งแต่ศตวรรษที่ห้าในคริสต์ศักราช แม้ว่าจะสามารถติดตามรากเหง้าของมันไปได้ก่อนหน้านั้น ในทางที่เหมาะสม ภูมิภาคบิฮาร์ของอินเดียถือเป็นจุดกำเนิดของทั้งพระพุทธเจ้าและจักรพรรดินักพุทธจักรอชoka – ตามตำนาน อชoka ยังได้วางรากฐานสำหรับวัดในภูมิภาคนี้อีกด้วย อย่างไรก็ตาม นาลันทาเกิดจากจักรวรรดิกุญแจ ซึ่งได้สร้างสถาบันการสอนขนาดใหญ่ที่ดึงดูดนักวิชาการชาวพุทธจากทั่วโลก ซึ่งรวมถึงพระภิกษุชาวจีน ซัวนซ์ซาง ที่เดินทางมายังอินเดียเพื่อเรียกคืนบันทึกพุทธศาสนา และทำหน้าที่เป็นแรงบันดาลใจให้กับมหากาพย์ "การเดินทางสู่ทิศตะวันตก" นักแสวงบุญคนอื่นยังมาจากเกาหลี, ชวา, ศรีวิชัย (สุงาตรา) และธิเบต โดยแต่ละคนมุ่งหวังที่จะเข้าร่วมในการถกเถียงทางวิชาการที่มีชีวิตชีวาของนาลันทา นาลันทายังเป็นสถานที่จัดการถกเถียงทางเทววิทยาหลายประเภทภายในศาสนาพุทธ ตั้งแต่ นาการ์จุน ซึ่งเป็นนักปรัชญา ไปจนถึงโรงเรียนลัทธิทานตระที่มุ่งอไปสู่ความลี้ลับ วัจระยานา</Text>		<!-- The first residential university, the Buddhist monastery at Nalanda has stood in eastern India since at least the fifth century CE, though it traces its roots back even earlier. Fittingly, the Bihar region of India is the origin point for both the Buddha and the Buddhist emperor Ashoka – according to legend, Ashoka even laid the foundations for a monastery in the region. However, Nalanda has its origins in the Gupta Empire, which built a massive teaching institution that attracted Buddhist scholars from across the world. This included the Chinese monk Xuanzang, who traveled to India in order to bring back Buddhist records and served as the inspiration for the epic “Journey to the West.” Other pilgrims came from Korea, Java, Srivijaya (Sumatra), and Tibet, each seeking to participate in Nalanda’s thriving scholarly debates. Nalanda was also the site of various theological debates within Buddhism, from the philosophical Nagarjuna to the esoteric tantric school of Vajrayana. -->
+			<Text>มหาวิทยาลัยที่อยู่อาศัยแห่งแรก วัดพุทธที่นาลันทา ได้ตั้งอยู่ในภาคตะวันออกของอินเดียตั้งแต่ศตวรรษที่ห้าในคริสต์ศักราช แม้ว่าจะสามารถติดตามรากเหง้าของมันไปได้ก่อนหน้านั้น ในทางที่เหมาะสม ภูมิภาคบิฮาร์ของอินเดียถือเป็นจุดกำเนิดของทั้งพระพุทธเจ้าและจักรพรรดินักพุทธจักรอโศก – ตามตำนาน อโศก ยังได้วางรากฐานสำหรับวัดในภูมิภาคนี้อีกด้วย อย่างไรก็ตาม นาลันทาเกิดจากจักรวรรดิกุญแจ ซึ่งได้สร้างสถาบันการสอนขนาดใหญ่ที่ดึงดูดนักวิชาการชาวพุทธจากทั่วโลก ซึ่งรวมถึงพระภิกษุชาวจีน ซัวนซ์ซาง ที่เดินทางมายังอินเดียเพื่อเรียกคืนบันทึกพุทธศาสนา และทำหน้าที่เป็นแรงบันดาลใจให้กับมหากาพย์ "การเดินทางสู่ทิศตะวันตก" นักแสวงบุญคนอื่นยังมาจากเกาหลี, ชวา, ศรีวิชัย (สุงาตรา) และธิเบต โดยแต่ละคนมุ่งหวังที่จะเข้าร่วมในการถกเถียงทางวิชาการที่มีชีวิตชีวาของนาลันทา นาลันทายังเป็นสถานที่จัดการถกเถียงทางเทววิทยาหลายประเภทภายในศาสนาพุทธ ตั้งแต่ นาการ์จุน ซึ่งเป็นนักปรัชญา ไปจนถึงโรงเรียนลัทธิทานตระที่มุ่งอไปสู่ความลี้ลับ วัจระยานา</Text>		<!-- The first residential university, the Buddhist monastery at Nalanda has stood in eastern India since at least the fifth century CE, though it traces its roots back even earlier. Fittingly, the Bihar region of India is the origin point for both the Buddha and the Buddhist emperor Ashoka – according to legend, Ashoka even laid the foundations for a monastery in the region. However, Nalanda has its origins in the Gupta Empire, which built a massive teaching institution that attracted Buddhist scholars from across the world. This included the Chinese monk Xuanzang, who traveled to India in order to bring back Buddhist records and served as the inspiration for the epic “Journey to the West.” Other pilgrims came from Korea, Java, Srivijaya (Sumatra), and Tibet, each seeking to participate in Nalanda’s thriving scholarly debates. Nalanda was also the site of various theological debates within Buddhism, from the philosophical Nagarjuna to the esoteric tantric school of Vajrayana. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_WONDER_NALANDA_CHAPTER_HISTORY_PARA_2" Language="th_TH">
 			<Text>เหมือนกับที่ชายฝั่งนอร์ธัมเบอร์แลนด์ พระสงฆ์และภูว่าของพวกเขาเปราะบางต่อดาบของผู้รุกราน ประมาณปี 1200 สมัยคริสต์ศักราช นายพลเปอร์เซีย มูฮัมหมัด บัคติยาร์ คาลจิ ได้โจมตีและทำลายนาลันทา ตามตำนาน เมื่อนายพลค้นพบสมบัติของนาลันทาในที่สุด เขาก็รู้สึกตกใจเมื่อพบว่าสมบัติเหล่านั้นคือหนังสือ เขาทำการค้นหาผู้ที่สามารถบอกความหมายของข้อความเหล่านั้นให้เขาฟัง แต่พวกเขาถูกฆ่าทั้งหมด ในศตวรรษหลังจากนั้น นาลันทาและศาสนาพุทธยังคงมีอยู่ในรูปแบบบางอย่างในรัฐบิหาร แต่สถาบันเหล่านั้นก็ไม่เคยมีความสำคัญเท่าที่เคยเป็นมา</Text>		<!-- As on the Northumberland shore, monks and their wisdom are vulnerable to the swords of raiders. Around 1200 CE, the Persian warlord Muhammad Bakhtiyar Khalji attacked and destroyed Nalanda. According to legend, when the general finally discovered the treasures of Nalanda, he was shocked to discover they were books. He sought those who could tell him the meaning of the texts, but they had all been slaughtered. In the centuries afterward, Nalanda and Buddhism survived in some form in Bihar, but those institutions were never as significant as they had once been. -->
@@ -2186,7 +2186,7 @@
 			<Text>ขอบเขตที่สังคมชั้นแตกต่างและไม่เท่าเทียมเกี่ยวข้องกับการเกษตรนั้นเป็นที่ถกเถียงกันอยู่ ตัวอย่างเช่น เจมส์ สก็อตต์ และเดวิด เกรเบอร์มีมุมมองที่ตรงข้ามกันเกี่ยวกับความเชื่อมโยง (หรือการขาดความเชื่อมโยง) ระหว่างการบังคับและการเกษตร อย่างไรก็ตาม ในช่วงเวลาของซูเมอร์ เอล ลิงค์นั้นได้ถูกตั้งมั่นอย่างแน่นหนา – การเกษตรหมายถึงการขยายตัว การเอารัดเอาเปรียบ… และการครอบงำ.</Text>		<!-- The extent to which a stratified, unequal society is linked to agriculture is debated. For instance, James Scott and David Graeber offer contrary views on the link (or lack thereof) between coercion and agriculture. Still, by the time of Sumeria, that link was firmly established – agriculture meant expansion, exploitation… and domination.. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_NODE_TECH_AQ_POTTERY_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>เครื่องปั้นดินเผาที่รู้จักกันแต่โบราณที่สุด อายุประมาณ 20,000 ปีในยุคเก่าหิน มาจากประเทศจีน วัตถุโบราณอื่น ๆ ที่มีการค้นพบกระจายจากเวลานั้นประกอบด้วยรูปปั้นบูชาจากยุโรปและเครื่องปั้นดินเผาในญี่ปุ่นในยุคโจมนและแอฟริกาตอนใต้ของซาฮารา กำลังผลิตหม้อดินจำนวนมากเป็นช่วงเวลาสำคัญในยุคใหม่หิน ซึ่งเป็นยุคระหว่าง 7000 ปีก่อนคริสต์ศักราชถึง 4500 ปีก่อนคริสต์ศักราช ก่อนที่จะมีการบันทึกประวัติศาสตร์และโลหะวิทยา ซึ่งเป็นช่วงเวลาที่รากฐานของสังคมโบราณเริ่มก่อตัว เครื่องปั้นดินเผาที่พัฒนาขึ้นในเมโสโปเตเมียได้แพร่กระจายเข้าสู่ยุโรปในช่วงต้นของยุคดังกล่าว แม้ว่ากำลังผลิตเครื่องปั้นดินเผาน่าจะเกิดขึ้นโดยอิสระในที่อื่นๆ ของโลกในเวลาใกล้เคียงกัน เช่น ในอารยธรรมฮารัปปา ชุมชนบ้านเชียง และอเมริกาใต้</Text>		<!-- The earliest known pottery, dating back 20,000 years to the Paleolithic period, is from China. Other scattered artifacts found from that time include votive figures from Europe and pottery in Jomon Japan and sub-Saharan Africa. The mass production of clay pots was a key moment in the Neolithic period, the era between 7000 BCE and 4500 BCE just before recorded history and metallurgy, where the fundamentals of ancient society were taking shape. Pottery developed in Mesopotamia spread into Europe in the early parts of the age, though pottery probably arose independently elsewhere in the world around the same time – such as in the Harappan civilization, the Ban Chiang settlements, and South America. -->
+			<Text>เครื่องปั้นดินเผาที่รู้จักกันแต่โบราณที่สุด อายุประมาณ 20,000 ปีในยุคเก่าหิน มาจากประเทศจีน โบราณวัตถุอื่น ๆ ที่มีการค้นพบกระจายจากเวลานั้นประกอบด้วยรูปปั้นบูชาจากยุโรปและเครื่องปั้นดินเผาในญี่ปุ่นในยุคโจมนและแอฟริกาตอนใต้ของซาฮารา กำลังผลิตหม้อดินจำนวนมากเป็นช่วงเวลาสำคัญในยุคใหม่หิน ซึ่งเป็นยุคระหว่าง 7000 ปีก่อนคริสต์ศักราชถึง 4500 ปีก่อนคริสต์ศักราช ก่อนที่จะมีการบันทึกประวัติศาสตร์และโลหะวิทยา ซึ่งเป็นช่วงเวลาที่รากฐานของสังคมโบราณเริ่มก่อตัว เครื่องปั้นดินเผาที่พัฒนาขึ้นในเมโสโปเตเมียได้แพร่กระจายเข้าสู่ยุโรปในช่วงต้นของยุคดังกล่าว แม้ว่ากำลังผลิตเครื่องปั้นดินเผาน่าจะเกิดขึ้นโดยอิสระในที่อื่นๆ ของโลกในเวลาใกล้เคียงกัน เช่น ในอารยธรรมฮารัปปา ชุมชนบ้านเชียง และอเมริกาใต้</Text>		<!-- The earliest known pottery, dating back 20,000 years to the Paleolithic period, is from China. Other scattered artifacts found from that time include votive figures from Europe and pottery in Jomon Japan and sub-Saharan Africa. The mass production of clay pots was a key moment in the Neolithic period, the era between 7000 BCE and 4500 BCE just before recorded history and metallurgy, where the fundamentals of ancient society were taking shape. Pottery developed in Mesopotamia spread into Europe in the early parts of the age, though pottery probably arose independently elsewhere in the world around the same time – such as in the Harappan civilization, the Ban Chiang settlements, and South America. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_NODE_TECH_AQ_POTTERY_CHAPTER_HISTORY_PARA_2" Language="th_TH">
 			<Text>ในเชิงเคมี เครื่องปั้นดินเผาถูกสร้างขึ้นเมื่อดินเหนียวซิลิเกตหลอมละลายกลายเป็นรูปทรงที่เหมือนแก้ว อุณหภูมิที่จำเป็นในการหลอมดินเหนียวสูงมาก ต้องการเตาอบเฉพาะที่มีความเข้มข้นของไฟ: เตาเผา หม้อดินเหนียวนั้นทนความร้อน (ไม่มีไฟจากการทำอาหารใดแข่งขันกับเตาเผาได้) ค่อนข้างทนทาน รักษารูปทรง และสามารถตกแต่งได้หลายวิธี</Text>		<!-- Chemically, pottery is created when silicate clay melts, hardening into a glass-like form. The temperatures needed to melt clay are extreme, requiring specialized ovens that concentrate fire: kilns. Clay pots are heat-resistant (no cooking fire can compete with a kiln), relatively durable, retain their shape, and can be decorated in a variety of ways. -->
@@ -2423,7 +2423,7 @@
 			<Text>วาอิชาเป็นผู้รับผิดชอบในการรักษาการค้าอย่างมีจริยธรรมสำหรับอาณาจักรกัมพูชา ทั้งภายในและภายนอก การค้าในภูมิภาคมุ่งเน้นไปที่ริมแม่น้ำโขง และการค้าระหว่างประเทศเกิดขึ้นขึ้นและลงตามชายฝั่งกับรัฐต่าง ๆ เช่น อินเดีย จาวา และจีน ขณะที่การค้าต่างประเทศส่วนใหญ่ดำเนินการโดยผู้ชาย แต่ร้านค้าในตลาดกัมพูชาส่วนใหญ่จะดำเนินการโดยผู้หญิง</Text>		<!-- The vaishyas were responsible for maintaining ethical trade for the Khmer Empire, both internally and externally. Regional trade was focused along the Mekong River, and international commerce occurred up and down the coast with polities like India, Java, and China. While foreign trade was largely conducted by men, local stalls in Khmer marketplaces were mostly run by women. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_UNIT_WATONATHI_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>การรวมอำนาจของชาวมิสซิสซิปปี้ในใจกลางเมืองเช่นคาโฮเกียสร้างแรงดึงดูดตามธรรมชาติสำหรับการค้า อย่างไรก็ตาม เครือข่ายเหล่านี้ไม่ได้มีขนาดใหญ่ตามที่หลายคนคิด ในขณะที่วัตถุโบราณบางชิ้นบ่งบอกถึงการติดต่อกับผู้คนที่ห่างไกล ชาวมิสซิสซิปปี้มักจะไม่เดินทางเกินขอบเขตของภูมิภาคที่ใกล้เคียง แม้ว่าจะมีความสำคัญเพียงใดในเมืองของพวกเขา แต่ขอบเขตแห่งอิทธิพลของพวกเขาก็จำกัดอยู่ที่พื้นที่เมืองและมุ่งเน้นไปที่ภายในมากกว่าการบริหารที่ดินโดยรอบ</Text>		<!-- The consolidation of Mississippian power in urban centers like Cahokia created a natural pull for trade. However, these networks were not as large as one might think. While some artifacts indicate pockets of contact with far-flung peoples, the Mississippians did not typically travel beyond their immediate region. As significant as their cities were, their spheres of influence were limited to urban spaces and focused inward rather than toward administering the surrounding lands. -->
+			<Text>การรวมอำนาจของชาวมิสซิสซิปปี้ในใจกลางเมืองเช่นคาโฮเกียสร้างแรงดึงดูดตามธรรมชาติสำหรับการค้า อย่างไรก็ตาม เครือข่ายเหล่านี้ไม่ได้มีขนาดใหญ่ตามที่หลายคนคิด ในขณะที่โบราณวัตถุบางชิ้นบ่งบอกถึงการติดต่อกับผู้คนที่ห่างไกล ชาวมิสซิสซิปปี้มักจะไม่เดินทางเกินขอบเขตของภูมิภาคที่ใกล้เคียง แม้ว่าจะมีความสำคัญเพียงใดในเมืองของพวกเขา แต่ขอบเขตแห่งอิทธิพลของพวกเขาก็จำกัดอยู่ที่พื้นที่เมืองและมุ่งเน้นไปที่ภายในมากกว่าการบริหารที่ดินโดยรอบ</Text>		<!-- The consolidation of Mississippian power in urban centers like Cahokia created a natural pull for trade. However, these networks were not as large as one might think. While some artifacts indicate pockets of contact with far-flung peoples, the Mississippians did not typically travel beyond their immediate region. As significant as their cities were, their spheres of influence were limited to urban spaces and focused inward rather than toward administering the surrounding lands. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_UNIT_WATONATHI_CHAPTER_HISTORY_PARA_2" Language="th_TH">
 			<Text>ผลลัพธ์ก็คือ การค้าในแคว้นมิสซิสซิปปีที่คาห์โฮเกียและศูนย์กลางที่คล้ายกันมุ่งเน้นไปที่การนำเข้าวัสดุดิบในท้องถิ่นและการส่งออกผลิตภัณฑ์ที่เสร็จสมบูรณ์ในระยะทางสั้น วัสดุที่สำคัญประกอบด้วยสีสัน โลหะดิบ และหินที่มีเนื้อหยาบที่ใช้ทำขวาน สิ่งเหล่านี้ถูกเปลี่ยนแปลงโดยช่างฝีมือให้กลายเป็นสินค้าใหม่ที่สามารถหมุนเวียนได้โดยพ่อค้า ผลลัพธ์ของเครือข่ายที่แน่นแฟ้นนี้คือการพัฒนาสไตล์มิสซิสซิปปีที่เข้มแข็งซึ่งพัฒนาในพื้นที่เมืองและเผยแพร่สู่เครือข่ายหมู่บ้านที่กว้างขวาง เชื่อมโยงผู้คนผ่านความสัมพันธ์ทางวัฒนธรรมแทนที่จะเป็นความสัมพันธ์ทางการเมือง</Text>		<!-- As a result, Mississippian trade in Cahokia and similar centers largely focused on the import of local raw materials and the export of finalized products within short distances. Important materials included pigments, raw metals, and fine-grained rocks used to make axes. These were transformed by craftsmen into items that could be circulated by merchants. The result of this tight-knit network was the development of a strong Mississippian style developed in the urban space and distributed to the wider network of villages, uniting the people through cultural rather than political ties.  -->
@@ -2435,10 +2435,10 @@
 			<Text>สถาบัน</Text>		<!-- Academy -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ACADEMY_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_SCIENCE] วิทยาศาสตร์, มีช่อง คัมภีร์ 3 ช่อง. อาคารด้านวิทยาศาสตร์โบราณ</Text>		<!-- +4[icon:YIELD_SCIENCE] Science. Has 3 Codex slots. Antiquity Science Building. -->
+			<Text>+4[icon:YIELD_SCIENCE] วิทยาศาสตร์, มีช่อง คัมภีร์ 3 ช่อง. อาคารด้านวิทยาศาสตร์ ยุคโบราณ</Text>		<!-- +4[icon:YIELD_SCIENCE] Science. Has 3 Codex slots. Antiquity Science Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ACADEMY_TOOLTIP" Language="th_TH">
-			<Text>มีช่อง คัมภีร์ 3 ช่อง อาคารด้านวิทยาศาสตร์โบราณ</Text>		<!-- Has 3 Codex slots. Antiquity Science Building. -->
+			<Text>มีช่อง คัมภีร์ 3 ช่อง อาคารด้านวิทยาศาสตร์ ยุคโบราณ</Text>		<!-- Has 3 Codex slots. Antiquity Science Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ALTAR_NAME" Language="th_TH">
 			<Text>แท่นบูชา</Text>		<!-- Altar -->
@@ -2453,7 +2453,7 @@
 			<Text>โรงละครกลางแจ้ง</Text>		<!-- Amphitheater -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_AMPHITHEATER_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_CULTURE] วัฒนธรรม, อาคารด้านวัฒนธรรมโบราณ. +10% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อสิ่งมหัศจรรย์</Text>		<!-- +4[icon:YIELD_CULTURE] Culture. Antiquity Culture Building. +10% [icon:YIELD_PRODUCTION] Production towards Wonders. -->
+			<Text>+4[icon:YIELD_CULTURE] วัฒนธรรม, อาคารด้านวัฒนธรรม ยุคโบราณ. +10% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อสิ่งมหัศจรรย์</Text>		<!-- +4[icon:YIELD_CULTURE] Culture. Antiquity Culture Building. +10% [icon:YIELD_PRODUCTION] Production towards Wonders. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_AMPHITHEATER_TOOLTIP" Language="th_TH">
 			<Text>วัฒนธรรมโบราณอาคาร +10% [icon:YIELD_PRODUCTION] กำลังผลิต สำหรับสิ่งมหัศจรรย์</Text>		<!-- Antiquity Culture Building. +10% [icon:YIELD_PRODUCTION] Production towards Wonders. -->
@@ -2462,10 +2462,10 @@
 			<Text>สะพานโบราณ</Text>		<!-- Ancient Bridge -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ANCIENT_BRIDGE_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_GOLD] ทอง ช่วยให้ยูนิตบกสามารถเคลื่อนที่ข้ามแม่น้ำใหญ่โดยไม่จำเป็นต้องขึ้นเรือ สร้างได้ถูกกว่าที่จุดที่มีถนนสร้างเป็นสะพานข้ามแม่น้ำแล้ว อาคารด้านทองโบราณ จะต้องวางบนแม่น้ำใหญ่ ถูกปล้นโดยน้ำท่วมทุกครั้ง</Text>		<!-- +4[icon:YIELD_GOLD] Gold. Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Antiquity Gold Building. Must be placed on a Navigable River. Pillaged by any Flood. -->
+			<Text>+4[icon:YIELD_GOLD] ทอง ช่วยให้ยูนิตบกสามารถเคลื่อนที่ข้ามแม่น้ำใหญ่โดยไม่จำเป็นต้องขึ้นเรือ สร้างได้ถูกกว่าที่จุดที่มีถนนสร้างเป็นสะพานข้ามแม่น้ำแล้ว อาคารด้านทอง ยุคโบราณ จะต้องวางบนแม่น้ำใหญ่ ถูกปล้นโดยน้ำท่วมทุกครั้ง</Text>		<!-- +4[icon:YIELD_GOLD] Gold. Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Antiquity Gold Building. Must be placed on a Navigable River. Pillaged by any Flood. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ANCIENT_BRIDGE_TOOLTIP" Language="th_TH">
-			<Text>อนุญาตให้ยูนิตบกเคลื่อนที่ข้ามแม่น้ำใหญ่โดยไม่ต้องขึ้นเรือ ค่าใช้จ่ายในการสร้างจะถูกกว่าเมื่อมีถนนที่สร้างขึ้นเป็นจุดข้ามเรือข้ามแม่น้ำแล้ว อาคารด้านทองโบราณ ต้องวางบนแม่น้ำใหญ่ ถูกปล้นโดยน้ำท่วมใด ๆ</Text>		<!-- Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Antiquity Gold Building. Must be placed on a Navigable River. Pillaged by any Flood. -->
+			<Text>อนุญาตให้ยูนิตบกเคลื่อนที่ข้ามแม่น้ำใหญ่โดยไม่ต้องขึ้นเรือ ค่าใช้จ่ายในการสร้างจะถูกกว่าเมื่อมีถนนที่สร้างขึ้นเป็นจุดข้ามเรือข้ามแม่น้ำแล้ว อาคารด้านทอง ยุคโบราณ ต้องวางบนแม่น้ำใหญ่ ถูกปล้นโดยน้ำท่วมใด ๆ</Text>		<!-- Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Antiquity Gold Building. Must be placed on a Navigable River. Pillaged by any Flood. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ANCIENT_WALLS_NAME" Language="th_TH">
 			<Text>กำแพงโบราณ</Text>		<!-- Ancient Walls -->
@@ -2489,19 +2489,19 @@
 			<Text>ค่ายทหาร</Text>		<!-- Barracks -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BARRACKS_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_PRODUCTION] กำลังผลิต, อาคารทหารโบราณ. ยูนิตบกที่ฝึกในถิ่นฐานนี้จะปรากฏที่ตำแหน่งของอาคารนี้. +10% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อยูนิตบก</Text>		<!-- +2[icon:YIELD_PRODUCTION] Production. Antiquity Military Building. Land Units trained in this Settlement will spawn at this Building's location. +10% [icon:YIELD_PRODUCTION] Production towards Land Units. -->
+			<Text>+2[icon:YIELD_PRODUCTION] กำลังผลิต, อาคารด้านทหาร ยุคโบราณ. ยูนิตบกที่ฝึกในถิ่นฐานนี้จะปรากฏที่ตำแหน่งของอาคารนี้. +10% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อยูนิตบก</Text>		<!-- +2[icon:YIELD_PRODUCTION] Production. Antiquity Military Building. Land Units trained in this Settlement will spawn at this Building's location. +10% [icon:YIELD_PRODUCTION] Production towards Land Units. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BARRACKS_TOOLTIP" Language="th_TH">
-			<Text>อาคารทหารโบราณ ยูนิตบกที่ฝึกในเขตนี้จะเกิดขึ้นที่ตำแหน่งของอาคารนี้ +10% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อยูนิตบก</Text>		<!-- Antiquity Military Building. Land Units trained in this Settlement will spawn at this Building's location. +10% [icon:YIELD_PRODUCTION] Production towards Land Units. -->
+			<Text>อาคารด้านทหาร ยุคโบราณ ยูนิตบกที่ฝึกในเขตนี้จะเกิดขึ้นที่ตำแหน่งของอาคารนี้ +10% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อยูนิตบก</Text>		<!-- Antiquity Military Building. Land Units trained in this Settlement will spawn at this Building's location. +10% [icon:YIELD_PRODUCTION] Production towards Land Units. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BATH_NAME" Language="th_TH">
 			<Text>อ่างอาบน้ำ</Text>		<!-- Bath -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BATH_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_FOOD] อาหาร อาคารด้านอาหารโบราณ. +10% อัตราการเติบโต. ต้องวางบนแม่น้ำ</Text>		<!-- +4[icon:YIELD_FOOD] Food. Antiquity Food Building. +10% Growth Rate. Must be placed on a River. -->
+			<Text>+4[icon:YIELD_FOOD] อาหาร อาคารด้านอาหหาร ยุคโบราณ. +10% อัตราการเติบโต. ต้องวางบนแม่น้ำ</Text>		<!-- +4[icon:YIELD_FOOD] Food. Antiquity Food Building. +10% Growth Rate. Must be placed on a River. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BATH_TOOLTIP" Language="th_TH">
-			<Text>อาคารด้านอาหารโบราณ +10% อัตราการเติบโต ต้องวางอยู่บนแม่น้ำ</Text>		<!-- Antiquity Food Building. +10% Growth Rate. Must be placed on a River. -->
+			<Text>อาคารด้านอาหหาร ยุคโบราณ +10% อัตราการเติบโต ต้องวางอยู่บนแม่น้ำ</Text>		<!-- Antiquity Food Building. +10% Growth Rate. Must be placed on a River. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BLACKSMITH_NAME" Language="th_TH">
 			<Text>ช่างตีเหล็ก</Text>		<!-- Blacksmith -->
@@ -2516,7 +2516,7 @@
 			<Text>โรงผลิตอิฐ</Text>		<!-- Brickyard -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BRICKYARD_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต, +1[icon:YIELD_PRODUCTION] กำลังผลิต จากหลุมดิน, เหมือง และเหมืองหิน. อาคารผลิตในคลังสินค้า. คงอยู่ตลอดกาล. สามารถสร้างได้ในทุกยุค. สามารถซื้อได้ในเมือง</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production. +1[icon:YIELD_PRODUCTION] Production on Clay Pits, Mines, and Quarries. Warehouse Production Building. Ageless. Buildable in all Ages. Can be purchased in Towns. -->
+			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต, +1[icon:YIELD_PRODUCTION] กำลังผลิต จากหลุมดิน, เหมือง และเหมืองหิน. อาคารผลิตในคลังสินค้า, คงอยู่ตลอดกาล, สร้างได้ในทุกยุค, สามารถซื้อได้ในเมือง</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production. +1[icon:YIELD_PRODUCTION] Production on Clay Pits, Mines, and Quarries. Warehouse Production Building. Ageless. Buildable in all Ages. Can be purchased in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BRICKYARD_TOOLTIP" Language="th_TH">
 			<Text>+1[icon:YIELD_PRODUCTION]กำลังผลิตในบ่อดิน, เหมือง, และเหมืองหิน อาคารผลิตในคลังสินค้า คงอยู่ตลอดกาล คงอยู่ตลอดกาล สามารถซื้อได้ในเมือง</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Clay Pits, Mines, and Quarries. Warehouse Production Building. Ageless. Buildable in all Ages. Can be purchased in Towns. -->
@@ -2525,7 +2525,7 @@
 			<Text>ท่าเรือประมง</Text>		<!-- Fishing Quay -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FISHING_QUAY_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_FOOD] อาหาร, +1[icon:YIELD_FOOD] อาหาร บนเรือประมง. อาคารเก็บอาหาร. คงอยู่ตลอดกาล. สามารถสร้างได้ในทุกยุค. สามารถซื้อได้ในเมือง. ต้องวางบนชายฝั่ง, ช่องทะเลสาบ, หรือแม่น้ำใหญ่</Text>		<!-- +1[icon:YIELD_FOOD] Food. +1[icon:YIELD_FOOD] Food on Fishing Boats. Warehouse Food Building. Ageless. Buildable in all Ages. Can be purchased in Towns. Must be placed on Coast, a Lake tile, or a Navigable River. -->
+			<Text>+1[icon:YIELD_FOOD] อาหาร, +1[icon:YIELD_FOOD] อาหาร บนเรือประมง. อาคารเก็บอาหาร, คงอยู่ตลอดกาล, สร้างได้ในทุกยุค, สามารถซื้อได้ในเมือง. ต้องวางบนชายฝั่ง, ช่องทะเลสาบ, หรือแม่น้ำใหญ่</Text>		<!-- +1[icon:YIELD_FOOD] Food. +1[icon:YIELD_FOOD] Food on Fishing Boats. Warehouse Food Building. Ageless. Buildable in all Ages. Can be purchased in Towns. Must be placed on Coast, a Lake tile, or a Navigable River. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FISHING_QUAY_TOOLTIP" Language="th_TH">
 			<Text>+1[icon:YIELD_FOOD] อาหาร, บนเรือประมง อาคารเก็บอาหาร คงอยู่ตลอดกาล คงอยู่ตลอดกาล สามารถซื้อได้ในเมือง ต้องตั้งอยู่บนชายฝั่ง แปลงน้ำ หรือแม่น้ำใหญ่</Text>		<!-- +1[icon:YIELD_FOOD] Food on Fishing Boats. Warehouse Food Building. Ageless. Buildable in all Ages. Can be purchased in Towns. Must be placed on Coast, a Lake tile, or a Navigable River. -->
@@ -2534,16 +2534,16 @@
 			<Text>สวน</Text>		<!-- Garden -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GARDEN_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร, อาคารด้านอาหารโบราณ</Text>		<!-- +3[icon:YIELD_FOOD] Food. Antiquity Food Building. -->
+			<Text>+3[icon:YIELD_FOOD] อาหาร, อาคารด้านอาหหาร ยุคโบราณ</Text>		<!-- +3[icon:YIELD_FOOD] Food. Antiquity Food Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GARDEN_TOOLTIP" Language="th_TH">
-			<Text>อาคารด้านอาหารโบราณ</Text>		<!-- Antiquity Food Building. -->
+			<Text>อาคารด้านอาหหาร ยุคโบราณ</Text>		<!-- Antiquity Food Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GRANARY_NAME" Language="th_TH">
 			<Text>โกดังข้าว</Text>		<!-- Granary -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GRANARY_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_FOOD] อาหาร, +1[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า และสวนพฤกษชาติ. อาคารเก็บอาหาร. ไม่มีกาลเวลา. สร้างได้ในทุกยุคสมัย. สามารถซื้อได้ในเมือง</Text>		<!-- +1[icon:YIELD_FOOD] Food. +1[icon:YIELD_FOOD] Food on Farms, Pastures, and Plantations. Warehouse Food Building. Ageless. Buildable in all Ages. Can be purchased in Towns. -->
+			<Text>+1[icon:YIELD_FOOD] อาหาร, +1[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า และพืชพรรณ, อาคารเก็บอาหาร, คงอยู่ตลอดกาล, สร้างได้ในทุกยุคสมัย, สามารถซื้อได้ในเมือง</Text>		<!-- +1[icon:YIELD_FOOD] Food. +1[icon:YIELD_FOOD] Food on Farms, Pastures, and Plantations. Warehouse Food Building. Ageless. Buildable in all Ages. Can be purchased in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GRANARY_TOOLTIP" Language="th_TH">
 			<Text>+1[icon:YIELD_FOOD] อาหาร จากฟาร์ม ทุ่งหญ้า และสวนสาธารณะ อาคารเก็บอาหาร คงอยู่ตลอดกาล สามารถซื้อได้ในเมือง</Text>		<!-- +1[icon:YIELD_FOOD] Food on Farms, Pastures, and Plantations. Warehouse Food Building. Ageless. Buildable in all Ages. Can be purchased in Towns. -->
@@ -2552,19 +2552,19 @@
 			<Text>ห้องสมุด</Text>		<!-- Library -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIBRARY_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์ มีช่อง คัมภีร์ 2 ช่อง อาคารด้านวิทยาศาสตร์โบราณ</Text>		<!-- +2[icon:YIELD_SCIENCE] Science. Has 2 Codex slots. Antiquity Science Building. -->
+			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์ มีช่อง คัมภีร์ 2 ช่อง อาคารด้านวิทยาศาสตร์ ยุคโบราณ</Text>		<!-- +2[icon:YIELD_SCIENCE] Science. Has 2 Codex slots. Antiquity Science Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIBRARY_TOOLTIP" Language="th_TH">
-			<Text>มีช่อง คัมภีร์ 2 ช่อง อาคารด้านวิทยาศาสตร์โบราณ</Text>		<!-- Has 2 Codex slots. Antiquity Science Building. -->
+			<Text>มีช่อง คัมภีร์ 2 ช่อง อาคารด้านวิทยาศาสตร์ ยุคโบราณ</Text>		<!-- Has 2 Codex slots. Antiquity Science Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIGHTHOUSE_NAME" Language="th_TH">
 			<Text>ประภาคาร</Text>		<!-- Lighthouse -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIGHTHOUSE_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_GOLD] ทอง, เพิ่มจำนวนทรัพยากรที่สามารถมอบหมายให้กับถิ่นฐานนี้ได้ 2. อาคารด้านทองโบราณ. ต้องวางบนชายฝั่ง</Text>		<!-- +3[icon:YIELD_GOLD] Gold. Increases the number of Resources that may be assigned to this Settlement by 2. Antiquity Gold Building. Must be placed on Coast. -->
+			<Text>+3[icon:YIELD_GOLD] ทอง, เพิ่มจำนวนทรัพยากรที่สามารถมอบหมายให้กับถิ่นฐานนี้ได้ 2. อาคารด้านทอง ยุคโบราณ. ต้องวางบนชายฝั่ง</Text>		<!-- +3[icon:YIELD_GOLD] Gold. Increases the number of Resources that may be assigned to this Settlement by 2. Antiquity Gold Building. Must be placed on Coast. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIGHTHOUSE_TOOLTIP" Language="th_TH">
-			<Text>เพิ่มจำนวน ทรัพยากร ที่อาจถูกกำหนดให้กับถิ่นฐานนี้อีก 2 หน่วย อาคารด้านทองโบราณ ต้องวางบนแผ่นดินชายฝั่ง</Text>		<!-- Increases the number of Resources that may be assigned to this Settlement by 2. Antiquity Gold Building. Must be placed on a Coast tile. -->
+			<Text>เพิ่มจำนวน ทรัพยากร ที่อาจถูกกำหนดให้กับถิ่นฐานนี้อีก 2 หน่วย อาคารด้านทอง ยุคโบราณ ต้องวางบนแผ่นดินชายฝั่ง</Text>		<!-- Increases the number of Resources that may be assigned to this Settlement by 2. Antiquity Gold Building. Must be placed on a Coast tile. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MARKET_NAME" Language="th_TH">
 			<Text>ตลาด</Text>		<!-- Market -->
@@ -2573,7 +2573,7 @@
 			<Text>+2[icon:YIELD_GOLD] ทอง เพิ่มจำนวนทรัพยากรที่สามารถมอบหมายให้กับถิ่นฐานนี้ได้ 1 แห่ง อาคารด้านทองยุคโบราณ</Text>		<!-- +2[icon:YIELD_GOLD] Gold. Increases number of Resources that may be assigned to this Settlement by 1. Antiquity Gold Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MARKET_TOOLTIP" Language="th_TH">
-			<Text>เพิ่มจำนวน ทรัพยากร ที่สามารถมอบหมายให้กับถิ่นฐานนี้ได้ 1 หน่วย โดยอาคารด้านทองโบราณ</Text>		<!-- Increases number of Resources that may be assigned to this Settlement by 1. Antiquity Gold Building. -->
+			<Text>เพิ่มจำนวน ทรัพยากร ที่สามารถมอบหมายให้กับถิ่นฐานนี้ได้ 1 หน่วย โดยอาคารด้านทอง ยุคโบราณ</Text>		<!-- Increases number of Resources that may be assigned to this Settlement by 1. Antiquity Gold Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MONUMENT_NAME" Language="th_TH">
 			<Text>อนุสาวรีย์</Text>		<!-- Monument -->
@@ -2588,7 +2588,7 @@
 			<Text>หลุมเลื่อยไม้</Text>		<!-- Saw Pit -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SAW_PIT_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_PRODUCTION] ผลิตภัณฑ์. +1[icon:YIELD_PRODUCTION] กำลังผลิต ที่ค่ายและจากคนตัดไม้. อาคารผลิตภัณฑ์คลังสินค้า. คงอยู่ตลอดกาล. สามารถซื้อได้ในเมือง</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production. +1[icon:YIELD_PRODUCTION] Production on Camps and Woodcutters. Warehouse Production Building. Ageless. Buildable in all Ages. Can be purchased in Towns. -->
+			<Text>+1[icon:YIELD_PRODUCTION] ผลิตภัณฑ์. +1[icon:YIELD_PRODUCTION] กำลังผลิต ที่ค่ายและจากคนตัดไม้. อาคารผลิตภัณฑ์คลังสินค้า, คงอยู่ตลอดกาล, สามารถซื้อได้ในเมือง</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production. +1[icon:YIELD_PRODUCTION] Production on Camps and Woodcutters. Warehouse Production Building. Ageless. Buildable in all Ages. Can be purchased in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SAW_PIT_TOOLTIP" Language="th_TH">
 			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต ที่แคมป์และการตัดไม้ อาคารผลิตในคลังสินค้า คงอยู่ตลอดกาล สามารถสร้างได้ในทุกยุค สามารถซื้อได้ในเมือง</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Camps and Woodcutters. Warehouse Production Building. Ageless. Buildable in all Ages. Can be purchased in Towns. -->
@@ -2606,7 +2606,7 @@
 			<Text>มาสตาบา</Text>		<!-- Mastaba -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MASTABA_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_CULTURE] วัฒนธรรม, +1[icon:YIELD_GOLD] ทอง โบนัสพื้นที่ใกล้เคียง สำหรับภูมิประเทศทะเลทรายและสิ่งมหัศจรรย์. อาคารพิเศษด้านวัฒนธรรม สำหรับอียิปต์. คงอยู่ตลอดกาล</Text>		<!-- +3[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_GOLD] Gold Adjacency for Desert Terrain and Wonders. Egyptian Unique Culture Building. Ageless.  -->
+			<Text>+3[icon:YIELD_CULTURE] วัฒนธรรม, +1[icon:YIELD_GOLD] ทอง โบนัสใกล้เคียง สำหรับภูมิประเทศทะเลทรายและสิ่งมหัศจรรย์. อาคารพิเศษด้านวัฒนธรรม สำหรับอียิปต์. คงอยู่ตลอดกาล</Text>		<!-- +3[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_GOLD] Gold Adjacency for Desert Terrain and Wonders. Egyptian Unique Culture Building. Ageless.  -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MASTABA_TOOLTIP" Language="th_TH">
 			<Text>อาคารพิเศษด้านวัฒนธรรม สำหรับอียิปต์, คงอยู่ตลอดกาล</Text>		<!-- Egyptian Unique Culture Building. Ageless. -->
@@ -2624,7 +2624,7 @@
 			<Text>โอเดียน</Text>		<!-- Odeon -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ODEON_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_CULTURE] วัฒนธรรม โบนัสความใกล้เคียงสำหรับพื้นที่และปาฏิหาริย์. อาคารพิเศษด้านความสุข สำหรับกรีก. ไม่เสื่อมคลาย</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture Adjacency for Quarters and Wonders. Greek Unique Happiness Building. Ageless. -->
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_CULTURE] วัฒนธรรม โบนัสใกล้เคียง สำหรับพื้นที่และปาฏิหาริย์. อาคารพิเศษด้านความสุข สำหรับกรีก. ไม่เสื่อมคลาย</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture Adjacency for Quarters and Wonders. Greek Unique Happiness Building. Ageless. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ODEON_TOOLTIP" Language="th_TH">
 			<Text>อาคารพิเศษด้านความสุข สำหรับกรีก คงอยู่ตลอดกาล</Text>		<!-- Greek Unique Happiness Building. Ageless. -->
@@ -2642,7 +2642,7 @@
 			<Text>ดาร์มชาลา</Text>		<!-- Dharamshala -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_DHARAMSHALA_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_SCIENCE] ความเชื่อมโยงของวิทยาศาสตร์สำหรับควอเตอร์และสิ่งมหัศจรรย์. อาคารพิเศษด้านความสุข สำหรับมอริยัน. คงอยู่ตลอดกาล</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_SCIENCE] Science Adjacency for Quarters and Wonders. Mauryan Unique Happiness Building. Ageless. -->
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_SCIENCE] วิทยาศาสตร์ โบนัสใกล้เคียง สำหรับย่านและสิ่งมหัศจรรย์. อาคารพิเศษด้านความสุข สำหรับมอริยัน. คงอยู่ตลอดกาล</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_SCIENCE] Science Adjacency for Quarters and Wonders. Mauryan Unique Happiness Building. Ageless. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_DHARAMSHALA_TOOLTIP" Language="th_TH">
 			<Text>อาคารพิเศษด้านความสุข สำหรับมอริยัน คงอยู่ตลอดกาล</Text>		<!-- Mauryan Unique Happiness Building. Ageless. -->
@@ -2660,7 +2660,7 @@
 			<Text>จาลาว</Text>		<!-- Jalaw -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_JALAW_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_CULTURE] วัฒนธรรม ใกล้เคียงสำหรับพื้นที่และสิ่งมหัศจรรย์, อาคารพิเศษด้านความสุข สำหรับมายา, คงอยู่ตลอดกาล</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture Adjacency for Quarters and Wonders. Mayan Unique Happiness Building. Ageless. -->
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_CULTURE] วัฒนธรรม โบนัสใกล้เคียง พื้นที่ย่านและสิ่งมหัศจรรย์, อาคารพิเศษด้านความสุข สำหรับมายา, คงอยู่ตลอดกาล</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture Adjacency for Quarters and Wonders. Mayan Unique Happiness Building. Ageless. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_JALAW_TOOLTIP" Language="th_TH">
 			<Text>อาคารพิเศษด้านความสุข สำหรับมายา, คงอยู่ตลอดกาล</Text>		<!-- Mayan Unique Happiness Building. Ageless. -->
@@ -2687,7 +2687,7 @@
 			<Text>วิหารจูปิเตอร์</Text>		<!-- Temple of Jupiter -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TEMPLE_OF_JUPITER_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_HAPPINESS] ความสุข +1[icon:YIELD_CULTURE] วัฒนธรรม ใกล้เคียงสำหรับอาคารและสิ่งมหัศจรรย์แห่งความสุข อาคารพิเศษด้านความสุข สำหรับโรม, คงอยู่ตลอดกาล</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture Adjacency for Happiness Buildings and Wonders. Roman Unique Happiness Building. Ageless. -->
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข +1[icon:YIELD_CULTURE] วัฒนธรรม โบนัสใกล้เคียง อาคารด้านความสุขและสิ่งมหัศจรรย์แห่งความสุข, อาคารพิเศษด้านความสุข สำหรับโรม, คงอยู่ตลอดกาล</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture Adjacency for Happiness Buildings and Wonders. Roman Unique Happiness Building. Ageless. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TEMPLE_OF_JUPITER_TOOLTIP" Language="th_TH">
 			<Text>อาคารพิเศษด้านความสุข สำหรับโรมัน, คงอยู่ตลอดกาล</Text>		<!-- Roman Unique Happiness Building. Ageless. -->
@@ -2696,61 +2696,61 @@
 			<Text>บารีย์</Text>		<!-- Baray -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_BARAY_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร, +1[icon:YIELD_FOOD] อาหาร บนทุกพื้นที่น้ำท่วมในชุมชนนี้. การพัฒนาเฉพาะของขแมร์. ไร้ซึ่่งยุคสมัย. ไม่ลบบวกจากโกดังในแผ่นดิน. ต้องมีการวางบนพื้นราบ. หนึ่งต่อชุมชน</Text>		<!-- +3[icon:YIELD_FOOD] Food. +1[icon:YIELD_FOOD] Food on all Floodplains in this Settlement. Khmer Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Flat Terrain. One per Settlement. -->
+			<Text>+3[icon:YIELD_FOOD] อาหาร, +1[icon:YIELD_FOOD] อาหาร บนทุกพื้นที่น้ำท่วมในถิ่นฐานนี้. เขตพัฒนาพิเศษเขมร, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้. ต้องมีการวางบนพื้นราบ. หนึ่งต่อชุมชน</Text>		<!-- +3[icon:YIELD_FOOD] Food. +1[icon:YIELD_FOOD] Food on all Floodplains in this Settlement. Khmer Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Flat Terrain. One per Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_BARAY_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_FOOD] อาหาร ในที่ราบน้ำท่วมทั้งหมดในชุมชนนี้ พัฒนาเฉพาะของเขมร ไร้ซึ่่งยุคสมัย ไม่มีผลต่อโบนัสคลังสินค้าบนแผ่นดิน ต้องวางบนพื้นที่ราบ หนึ่งต่อชุมชน</Text>		<!-- +1[icon:YIELD_FOOD] Food on all Floodplains in this Settlement. Khmer Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Flat Terrain. One per Settlement. -->
+			<Text>+1[icon:YIELD_FOOD] อาหาร ในที่ราบน้ำท่วมทั้งหมดในถิ่นฐานนี้ เขตพัฒนาพิเศษเขมร คงอยู่ตลอดกาล ไม่ลบโบนัสคลังสินค้าในช่องนี้ ต้องวางบนพื้นที่ราบ หนึ่งต่อชุมชน</Text>		<!-- +1[icon:YIELD_FOOD] Food on all Floodplains in this Settlement. Khmer Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Flat Terrain. One per Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HAN_GREAT_WALL_NAME" Language="th_TH">
 			<Text>กำแพงเมืองจีน</Text>		<!-- Great Wall -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HAN_GREAT_WALL_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม, +1[icon:YIELD_HAPPINESS] ความสุข สำหรับส่วนที่อยู่ใกล้เคียงของกำแพงเมืองจีน. การพัฒนาเฉพาะของจีนฮั่น. คงอยู่ตลอดกาล. นับเป็นการเสริมกำลัง, เพิ่ม +6 พลังต่อสู้เมื่อป้องกัน. ไม่ลบโบนัสคลังสินค้าที่อยู่ในแผ่นดิน. สามารถสร้างได้เฉพาะในแนวตรง. ไม่สามารถแตกออกหรือแยกไปได้</Text>		<!-- +2[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_HAPPINESS] Happiness for adjacent Great Wall segments. Han Unique Improvement. Ageless. Counts as Fortification, +6 Combat Strength when defending. Does not remove Warehouse bonuses on a tile. Can only be built in a line. Cannot branch or fork.  -->
+			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม, +1[icon:YIELD_HAPPINESS] ความสุข โบนัสใกล้เคียง กำแพงเมืองจีน, เขตพัฒนาพิเศษจีนฮั่น, คงอยู่ตลอดกาล, นับเป็นการเสริมกำลัง, +6 พลังต่อสู้เมื่อป้องกัน, ไม่ลบโบนัสคลังสินค้าในช่องนี้. สามารถสร้างได้เฉพาะในแนวตรง. ไม่สามารถแตกออกหรือแยกไปได้</Text>		<!-- +2[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_HAPPINESS] Happiness for adjacent Great Wall segments. Han Unique Improvement. Ageless. Counts as Fortification, +6 Combat Strength when defending. Does not remove Warehouse bonuses on a tile. Can only be built in a line. Cannot branch or fork.  -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HAN_GREAT_WALL_TOOLTIP" Language="th_TH">
-			<Text>+6 พลังต่อสู้ สำหรับ ยูนิตที่ป้องกันในช่องนี้ เขตพัฒนาพิเศษของฮั่น คงอยู่ตลอดกาล ไม่ลบโบนัสคลังสินค้าในแผ่นดินนี้ สามารถสร้างได้เฉพาะในแนวเท่านั้น ไม่สามารถแยกหรือแตกแขนงได้</Text>		<!-- +6 Combat Strength for Units defending in the tile. Han Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Can only be built in a line. Cannot branch or fork. -->
+			<Text>+6 พลังต่อสู้ สำหรับ ยูนิตที่ป้องกันในช่องนี้ เขตพัฒนาพิเศษของฮั่น คงอยู่ตลอดกาล ไม่ลบโบนัสคลังสินค้าในช่องนี้ สามารถสร้างได้เฉพาะในแนวเท่านั้น ไม่สามารถแยกหรือแตกแขนงได้</Text>		<!-- +6 Combat Strength for Units defending in the tile. Han Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Can only be built in a line. Cannot branch or fork. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HAWELT_NAME" Language="th_TH">
 			<Text>ฮอวิลท์</Text>		<!-- Hawilt -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HAWELT_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_CULTURE] วัฒนธรรม สำหรับสิ่งมหัศจรรย์ที่อยู่ติดกันและฮาวิลีกอื่นๆ การพัฒนาเฉพาะของอักซูม ไร้ซึ่่งยุคสมัย ไม่ลดโบนัสโกดังบนแผ่นดิน ต้องวางบนพื้นที่ราบ</Text>		<!-- +2[icon:YIELD_GOLD] Gold. +1[icon:YIELD_CULTURE] Culture for adjacent Wonders and other Hawilti. Aksumite Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Flat Terrain. -->
+			<Text>+2[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_CULTURE] วัฒนธรรม สำหรับ สิ่งมหัศจรรย์ที่อยู่ติดกันและ ฮาวิลีก อื่นๆ, เขตพัฒนาพิเศษอักซูม, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้ ต้องวางบนพื้นที่ราบ</Text>		<!-- +2[icon:YIELD_GOLD] Gold. +1[icon:YIELD_CULTURE] Culture for adjacent Wonders and other Hawilti. Aksumite Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Flat Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HAWELT_TOOLTIP" Language="th_TH">
-			<Text>อักซูไมต์พัฒนาที่ไม่เหมือนใคร ไร้ซึ่่งยุคสมัย ไม่ลบโบนัสคลังสินค้าบนกระเบื้อง ต้องวางบนภูมิประเทศที่เรียบ</Text>		<!-- Aksumite Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Flat Terrain. -->
+			<Text>อักซูไมต์พัฒนาที่ไม่เหมือนใคร คงอยู่ตลอดกาล ไม่ลบโบนัสคลังสินค้าในช่องนี้ ต้องวางบนภูมิประเทศที่เรียบ</Text>		<!-- Aksumite Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Flat Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_PAIRIDAEZA_NAME" Language="th_TH">
 			<Text>เพอริแดซ่า</Text>		<!-- Pairidaeza -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_PAIRIDAEZA_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ[icon:YIELD_GOLD] ทอง พัฒนาเฉพาะของเปอร์เซีย คงอยู่ตลอดกาล ไม่ลบโบนัสคลังเก็บบนแผ่นดิน ไม่สามารถตั้งอยู่ติดกับ Pairidaeza อื่นได้</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and[icon:YIELD_GOLD] Gold. Persian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Cannot be placed adjacent to another Pairidaeza. -->
+			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ[icon:YIELD_GOLD] ทอง เขตพัฒนาพิเศษเปอร์เซีย, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ไม่สามารถตั้งอยู่ติดกับ เพอริแดซ่า อื่นได้</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and[icon:YIELD_GOLD] Gold. Persian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Cannot be placed adjacent to another Pairidaeza. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_PAIRIDAEZA_TOOLTIP" Language="th_TH">
-			<Text>เปอร์เซีย เขตพัฒนาพิเศษเฉพาะตัว ไร้ซึ่่งยุคสมัย ไม่ลบโบนัสคลังสินค้าบนกระเบื้อง ไม่สามารถวางติดกับ Pairidaeza อื่นได้</Text>		<!-- Persian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Cannot be placed adjacent to another Pairidaeza. -->
+			<Text>เปอร์เซีย เขตพัฒนาพิเศษเฉพาะตัว คงอยู่ตลอดกาล ไม่ลบโบนัสคลังสินค้าในช่องนี้ ไม่สามารถวางติดกับ Pairidaeza อื่นได้</Text>		<!-- Persian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Cannot be placed adjacent to another Pairidaeza. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_POTKOP_NAME" Language="th_TH">
 			<Text>ปอตคอป</Text>		<!-- Potkop -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_POTKOP_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_FOOD] อาหาร สำหรับแต่ละทรัพยากรที่อยู่ใกล้เคียง. เขตพัฒนาพิเศษเฉพาะตัวของชาติมิสซิสซิปปี. คงอยู่ตลอดกาล. ไม่ลบโบนัสโกดังในแผ่นดิน. ต้องวางบนพื้นที่ราบ</Text>		<!-- +1[icon:YIELD_GOLD] Gold. +1[icon:YIELD_FOOD] Food for each adjacent Resource. Mississippian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Flat Terrain. -->
+			<Text>+1[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_FOOD] อาหาร สำหรับแต่ละ ทรัพยากรที่อยู่ใกล้เคียง, เขตพัฒนาพิเศษเฉพาะตัวของชาติมิสซิสซิปปี, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้. ต้องวางบนพื้นที่ราบ</Text>		<!-- +1[icon:YIELD_GOLD] Gold. +1[icon:YIELD_FOOD] Food for each adjacent Resource. Mississippian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Flat Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_POTKOP_TOOLTIP" Language="th_TH">
-			<Text>มิสซิสซิปปี้น ยูนีค อิมพรูฟเมนต์. คงอยู่ตลอดกาล. ไม่ลบโบนัสโกดังบนแผ่นดิน. ต้องวางบนภูมิประเทศเรียบ</Text>		<!-- Mississippian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Flat Terrain. -->
+			<Text>มิสซิสซิปปี้น ยูนีค อิมพรูฟเมนต์, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้. ต้องวางบนภูมิประเทศเรียบ</Text>		<!-- Mississippian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Flat Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HILLFORT_NAME" Language="th_TH">
 			<Text>ป้อมเนินเขา</Text>		<!-- Hillfort -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HILLFORT_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_PRODUCTION]กำลังผลิต. +1 การมองเห็น และ +5 การฟื้นฟูต่อเทิร์นให้กับยูนิตทหารในช่องนี้. เขตพัฒนาพิเศษเฉพาะตัวของเมืองรัฐ. ไม่ลบโบนัสคลังสินค้าบนช่อง. นับเป็นการป้องกัน, +6 พลังต่อสู้เมื่อป้องกัน. ต้องวางบนพื้นที่ขรุขระ</Text>		<!-- +2[icon:YIELD_PRODUCTION] Production. +1 sight, and +5 healing per turn to Military Units on this tile. City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Counts as Fortification, +6 Combat Strength when defending. Must be placed on Rough Terrain. -->
+			<Text>+2[icon:YIELD_PRODUCTION]กำลังผลิต. +1 การมองเห็น และ +5 การฟื้นฟูต่อเทิร์นให้กับยูนิตทหารในช่องนี้. เขตพัฒนาพิเศษเฉพาะตัวของเมืองรัฐ. ไม่ลบโบนัสคลังสินค้าในช่องนี้. นับเป็นการป้องกัน, +6 พลังต่อสู้เมื่อป้องกัน. ต้องวางบนพื้นที่ขรุขระ</Text>		<!-- +2[icon:YIELD_PRODUCTION] Production. +1 sight, and +5 healing per turn to Military Units on this tile. City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Counts as Fortification, +6 Combat Strength when defending. Must be placed on Rough Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HILLFORT_TOOLTIP" Language="th_TH">
-			<Text>+1 มุมมอง และ +5 การฟื้นฟูต่อเทิร์นให้กับยูนิตทหารในช่องนี้ เขตพัฒนาพิเศษเฉพาะของนครรัฐ  ไม่ลบโบนัสคลังสินค้าในช่องนั้น ถือเป็นการเสริมกำลัง มีพลังต่อสู้เพิ่ม +6 เมื่อป้องกัน ต้องวางบนภูมิประเทศที่ขรุขระ</Text>		<!-- +1 sight, and +5 healing per turn to Military Units on this tile. City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Counts as Fortification, +6 Combat Strength when defending. Must be placed on Rough Terrain. -->
+			<Text>+1 มุมมอง และ +5 การฟื้นฟูต่อเทิร์นให้กับยูนิตทหารในช่องนี้ เขตพัฒนาพิเศษเฉพาะของนครรัฐ  ไม่ลบโบนัสคลังสินค้าในช่องนี้ ถือเป็นการเสริมกำลัง ได้รับ +6 พลังต่อสู้ เมื่อป้องกัน ต้องวางบนภูมิประเทศที่ขรุขระ</Text>		<!-- +1 sight, and +5 healing per turn to Military Units on this tile. City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Counts as Fortification, +6 Combat Strength when defending. Must be placed on Rough Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MEGALITH_NAME" Language="th_TH">
 			<Text>เมกาลิธ</Text>		<!-- Megalith -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MEGALITH_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม, +1[icon:YIELD_FOOD] อาหาร สำหรับทุกแผ่นดินชนบทที่อยู่ใกล้. เขตพัฒนาพิเศษเฉพาะตัว. ไม่ลบโบนัสคลังสินค้าบนแผ่นดิน. ต้องวางบนพื้นที่ราบ</Text>		<!-- +2[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_FOOD] Food for every adjacent Rural tile. City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on Flat Terrain. -->
+			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม, +1[icon:YIELD_FOOD] อาหาร สำหรับทุกแผ่นดินชนบทที่อยู่ใกล้. เขตพัฒนาพิเศษเฉพาะตัว. ไม่ลบโบนัสคลังสินค้าในช่องนี้. ต้องวางบนพื้นที่ราบ</Text>		<!-- +2[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_FOOD] Food for every adjacent Rural tile. City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on Flat Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MEGALITH_TOOLTIP" Language="th_TH">
 			<Text>เขตพัฒนาพิเศษเฉพาะตัว ไม่ลบโบนัสโกดังบนแผ่นดิน จะต้องวางบนพื้นที่ราบ</Text>		<!-- City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on Flat Terrain. -->
@@ -2759,7 +2759,7 @@
 			<Text>เอ็มโพเรียม</Text>		<!-- Emporium -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SOUQ_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_GOLD] ทอง, +2[icon:YIELD_GOLD] ทอง ในเมืองถ้าพวกเขามีทรัพยากรอย่างน้อยหนึ่งอย่างที่กำหนดให้กับพวกเขา. เขตพัฒนาพิเศษเฉพาะตัว. ไม่ลบโบนัสคลังสินค้าบนแผ่นดิน. ไม่สามารถวางข้างเคียงกับอิมพอเรียมอื่นได้</Text>		<!-- +2[icon:YIELD_GOLD] Gold. +2[icon:YIELD_GOLD] Gold in Cities if they have at least one Resource assigned to them. City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Cannot be placed adjacent to another Emporium. -->
+			<Text>+2[icon:YIELD_GOLD] ทอง, +2[icon:YIELD_GOLD] ทอง ในเมืองถ้าพวกเขามีทรัพยากรอย่างน้อยหนึ่งอย่างที่กำหนดให้กับพวกเขา. เขตพัฒนาพิเศษเฉพาะตัว. ไม่ลบโบนัสคลังสินค้าในช่องนี้. ไม่สามารถวางข้างเคียงกับอิมพอเรียมอื่นได้</Text>		<!-- +2[icon:YIELD_GOLD] Gold. +2[icon:YIELD_GOLD] Gold in Cities if they have at least one Resource assigned to them. City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Cannot be placed adjacent to another Emporium. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SOUQ_TOOLTIP" Language="th_TH">
 			<Text>+2[icon:YIELD_GOLD] ทอง ในเมืองหากมีทรัพยากรอย่างน้อยหนึ่งประเภทที่ถูกกำหนดให้กับพวกเขา เขตพัฒนาพิเศษเฉพาะตัว ไม่ลบโบนัสโกดังบนแผ่นดิน ไม่สามารถวางอยู่ติดกับเอ็มโพเรียมอื่นได้</Text>		<!-- +2[icon:YIELD_GOLD] Gold in Cities if they have at least one Resource assigned to them. City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Cannot be placed adjacent to another Emporium. -->
@@ -2843,7 +2843,7 @@
 			<Text>+3[icon:YIELD_GOLD] ทอง, +3 ความจุ ทรัพยากร ในถิ่นฐานนี้, +1 คะแนนคุณสมบัติทางเศรษฐกิจ, คงอยู่ตลอดกาล, ต้องตั้งอยู่บนชายฝั่งติดกับพื้นดิน</Text>		<!-- +3[icon:YIELD_GOLD] Gold. +3 Resource Capacity in this Settlement. +1 Economic Attribute Point. Ageless. Must be placed on Coast adjacent to land. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_COLOSSUS_TOOLTIP" Language="th_TH">
-			<Text>+3 ความจุทรัพยากรในถิ่นฐานนี้. +1 คะแนนคุณลักษณะทางเศรษฐกิจ, คงอยู่ตลอดกาล, ต้องวางอยู่บนชายฝั่งติดกับพื้นดิน</Text>		<!-- +3 Resource Capacity in this Settlement. +1 Economic Attribute Point. Ageless. Must be placed on Coast adjacent to land. -->
+			<Text>+3 ความจุทรัพยากรในถิ่นฐานนี้. +1 คะแนน คุณลักษณะทางเศรษฐกิจ, คงอยู่ตลอดกาล, ต้องวางอยู่บนชายฝั่งติดกับพื้นดิน</Text>		<!-- +3 Resource Capacity in this Settlement. +1 Economic Attribute Point. Ageless. Must be placed on Coast adjacent to land. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_DUR_SHARRUKIN_NAME" Language="th_TH">
 			<Text>ดุชารุคิน</Text>		<!-- Dur-Sharrukin -->
@@ -2864,10 +2864,10 @@
 			<Text>ได้รับความพยายามทางการทูตที่ไม่ซ้ำใครชื่อว่า ข้อตกลงจินเซิง ซึ่งมอบอาหารให้กับเมืองหลวงของผู้นำทั้งสอง +1 จุดคุณสมบัติทางการทูต คงอยู่ตลอดกาล ต้องวางบนพื้นผิวที่ขรุขระ</Text>		<!-- Gain a unique Diplomatic Endeavor called Ginseng Agreement that grants Food to both Leaders' Capitals. +1 Diplomatic Attribute Point. Ageless. Must be placed on Rough Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_EMILE_BELL_TOOLTIP" Language="th_TH">
-			<Text>ได้รับความพยายามทางการทูตที่ไม่เหมือนใครชื่อว่า ข้อตกลงจินเซิง ที่ให้ผลประโยชน์ด้านอาหารแก่เมืองหลวงของผู้นำทั้งสอง ในระดับ +1 จุดคุณสมบัติทางการทูต ไร้ซึ่่งยุคสมัย ต้องวางบนพื้นที่ขรุขระ</Text>		<!-- Gain a unique Diplomatic Endeavor called Ginseng Agreement that grants Food to both Leaders' Capitals. +1 Diplomatic Attribute Point. Ageless. Must be placed on Rough Terrain. -->
+			<Text>ได้รับความพยายามทางการทูตที่ไม่เหมือนใครชื่อว่า ข้อตกลงจินเซิง ที่ให้ผลประโยชน์ด้านอาหารแก่เมืองหลวงของผู้นำทั้งสอง ในระดับ +1 จุดคุณสมบัติทางการทูต คงอยู่ตลอดกาล ต้องวางบนพื้นที่ขรุขระ</Text>		<!-- Gain a unique Diplomatic Endeavor called Ginseng Agreement that grants Food to both Leaders' Capitals. +1 Diplomatic Attribute Point. Ageless. Must be placed on Rough Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_GATE_OF_ALL_NATIONS_NAME" Language="th_TH">
-			<Text>ประตูแห่งชาติทั้งหลาย</Text>		<!-- Gate of All Nations -->
+			<Text>ประตูแห่งสหชาติ</Text>		<!-- Gate of All Nations -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_GATE_OF_ALL_NATIONS_DESCRIPTION" Language="th_TH">
 			<Text>+2 สนับสนุนในการทำสงครามทั้งหมด คงอยู่ตลอดกาล ต้องวางไว้ติดกับเขตพื้นที่</Text>		<!-- +2 Support on all wars. Ageless. Must be placed adjacent to a District. -->
@@ -2888,43 +2888,43 @@
 			<Text>ฮาอามงา 'อา มาอุย</Text>		<!-- Ha'amonga 'a Maui -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_HA_AMONGA_A_MAUI_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม, +1[icon:YIELD_CULTURE] วัฒนธรรม และ[icon:YIELD_FOOD] อาหาร บนเรือประมงในที่ตั้งนี้. +1 คะแนนคุณลักษณะทางวัฒนธรรม. คงอยู่ตลอดกาล. ต้องวางบนที่ราบหญ้าหรือเขตร้อนและติดกับชายฝั่ง</Text>		<!-- +2[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_CULTURE] Culture and[icon:YIELD_FOOD] Food on Fishing Boats in this Settlement. +1 Cultural Attribute Point. Ageless. Must be placed on Grassland or Tropical and adjacent to Coast. -->
+			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม, +1[icon:YIELD_CULTURE] วัฒนธรรม และ[icon:YIELD_FOOD] อาหาร บนเรือประมงในที่ตั้งนี้. +1 คะแนน คุณลักษณะทางวัฒนธรรม, คงอยู่ตลอดกาล, ต้องวางบนที่ราบหญ้าหรือเขตร้อนและติดกับชายฝั่ง</Text>		<!-- +2[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_CULTURE] Culture and[icon:YIELD_FOOD] Food on Fishing Boats in this Settlement. +1 Cultural Attribute Point. Ageless. Must be placed on Grassland or Tropical and adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_HA_AMONGA_A_MAUI_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_FOOD] อาหาร บนเรือตกปลาในหมู่บ้านนี้ +1 คะแนนคุณลักษณะทางวัฒนธรรม คงอยู่ตลอดกาล ต้องวางบนที่ดินหญ้าหรือเขตร้อนและติดกับชายฝั่ง</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and [icon:YIELD_FOOD] Food on Fishing Boats in this Settlement. +1 Cultural Attribute Point. Ageless. Must be placed on Grassland or Tropical and adjacent to Coast. -->
+			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_FOOD] อาหาร บนเรือตกปลาในหมู่บ้านนี้ +1 คะแนน คุณลักษณะทางวัฒนธรรม คงอยู่ตลอดกาล ต้องวางบนที่ดินหญ้าหรือเขตร้อนและติดกับชายฝั่ง</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and [icon:YIELD_FOOD] Food on Fishing Boats in this Settlement. +1 Cultural Attribute Point. Ageless. Must be placed on Grassland or Tropical and adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_HANGING_GARDENS_NAME" Language="th_TH">
 			<Text>สวนลอยฟ้า</Text>		<!-- Hanging Gardens -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_HANGING_GARDENS_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_FOOD] อาหาร บนฟาร์มในถิ่นฐานนี้ +10% อัตราการเติบโตในเมืองทั้งหมด +1 คะแนนคุณลักษณะการขยายตัว คงอยู่ตลอดกาล ต้องวางอยู่ติดกับแม่น้ำ</Text>		<!-- +1 [icon:YIELD_FOOD] Food on Farms in this Settlement. +10% Growth Rate in all Cities. +1 Expansionist Attribute Point. Ageless. Must be placed adjacent to a River. -->
+			<Text>+1 [icon:YIELD_FOOD] อาหาร บนฟาร์มในถิ่นฐานนี้ +10% อัตราการเติบโตในเมืองทั้งหมด +1 คะแนน คุณลักษณะการขยายตัว คงอยู่ตลอดกาล ต้องวางอยู่ติดกับแม่น้ำ</Text>		<!-- +1 [icon:YIELD_FOOD] Food on Farms in this Settlement. +10% Growth Rate in all Cities. +1 Expansionist Attribute Point. Ageless. Must be placed adjacent to a River. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_HANGING_GARDENS_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_FOOD] อาหาร ในฟาร์มในถิ่นฐานนี้ อัตราการเติบโต +10% ในทุกเมือง +1 คะแนนคุณลักษณะนักขยาย ไร้ซึ่่งยุคสมัย ต้องตั้งอยู่ติดกับแม่น้ำ</Text>		<!-- +1[icon:YIELD_FOOD] Food on Farms in this Settlement. +10% Growth Rate in all Cities. +1 Expansionist Attribute Point. Ageless. Must be placed adjacent to a River. -->
+			<Text>+1[icon:YIELD_FOOD] อาหาร ในฟาร์มในถิ่นฐานนี้ อัตราการเติบโต +10% ในทุกเมือง +1 คะแนน คุณลักษณะนักขยาย คงอยู่ตลอดกาล ต้องตั้งอยู่ติดกับแม่น้ำ</Text>		<!-- +1[icon:YIELD_FOOD] Food on Farms in this Settlement. +10% Growth Rate in all Cities. +1 Expansionist Attribute Point. Ageless. Must be placed adjacent to a River. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_MAUSOLEUM_OF_THEODORIC_NAME" Language="th_TH">
 			<Text>มัสยิดของเธโอดอริค</Text>		<!-- Mausoleum of Theodoric -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_MAUSOLEUM_OF_THEODORIC_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_PRODUCTION]กำลังผลิต. +100% ผลผลิตและ HP จากการปล้น. +1 คะแนนคุณลักษณะทหาร. คงอยู่ตลอดกาล. ต้องวางอยู่ติดกับชายฝั่ง</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production. +100% yields and HP from pillaging. +1 Militaristic Attribute Point. Ageless. Must be placed adjacent to Coast. -->
+			<Text>+3[icon:YIELD_PRODUCTION]กำลังผลิต. +100% ผลผลิตและ HP จากการปล้น. +1 คะแนน คุณลักษณะทหาร, คงอยู่ตลอดกาล, ต้องวางอยู่ติดกับชายฝั่ง</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production. +100% yields and HP from pillaging. +1 Militaristic Attribute Point. Ageless. Must be placed adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_MAUSOLEUM_OF_THEODORIC_TOOLTIP" Language="th_TH">
-			<Text>+100% ผลผลิตและ HP จากการปล้นสะดม เพิ่ม 1 คะแนนคุณลักษณะทางทหาร ไร้ซึ่่งยุคสมัย จะต้องตั้งอยู่ข้างเคียงชายฝั่ง</Text>		<!-- +100% yields and HP from pillaging. +1 Militaristic Attribute Point. Ageless. Must be placed adjacent to Coast. -->
+			<Text>+100% ผลผลิตและ HP จากการปล้นสะดม เพิ่ม 1 คะแนน คุณลักษณะทางทหาร คงอยู่ตลอดกาล จะต้องตั้งอยู่ข้างเคียงชายฝั่ง</Text>		<!-- +100% yields and HP from pillaging. +1 Militaristic Attribute Point. Ageless. Must be placed adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_MONKS_MOUND_NAME" Language="th_TH">
 			<Text>เขาตำหนักพระสงฆ์</Text>		<!-- Monks Mound -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_MONKS_MOUND_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร, +4 ความจresources ในถิ่นฐานนี้. คงอยู่ตลอดกาล. ต้องวางอยู่ติดกับแม่น้ำ</Text>		<!-- +3[icon:YIELD_FOOD] Food. +4 Resource Capacity in this Settlement. Ageless. Must be placed adjacent to a River. -->
+			<Text>+3[icon:YIELD_FOOD] อาหาร, +4 ความจresources ในถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องวางอยู่ติดกับแม่น้ำ</Text>		<!-- +3[icon:YIELD_FOOD] Food. +4 Resource Capacity in this Settlement. Ageless. Must be placed adjacent to a River. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_MONKS_MOUND_TOOLTIP" Language="th_TH">
-			<Text>+4 ความสามารถในการจัดการทรัพยากรในที่ตั้งนี้ ไร้ซึ่่งยุคสมัย ต้องวางอยู่ติดกับแม่น้ำ</Text>		<!-- +4 Resource Capacity in this Settlement. Ageless. Must be placed adjacent to a River. -->
+			<Text>+4 ความสามารถในการจัดการทรัพยากรในที่ตั้งนี้ คงอยู่ตลอดกาล ต้องวางอยู่ติดกับแม่น้ำ</Text>		<!-- +4 Resource Capacity in this Settlement. Ageless. Must be placed adjacent to a River. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_MUNDO_PERDIDO_NAME" Language="th_TH">
 			<Text>มุนโด เพอร์ดิโด</Text>		<!-- Mundo Perdido -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_MUNDO_PERDIDO_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_HAPPINESS] ความสุข และ[icon:YIELD_SCIENCE] วิทยาศาสตร์ ในภูมิประเทศเขตร้อนในชุมชนนี้ ไร้ซึ่่งยุคสมัย จำเป็นต้องวางไว้ในเขตร้อน</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness and[icon:YIELD_SCIENCE] Science on Tropical Terrain in this Settlement. Ageless. Must be placed on Tropical. -->
+			<Text>+1[icon:YIELD_HAPPINESS] ความสุข และ[icon:YIELD_SCIENCE] วิทยาศาสตร์ ในภูมิประเทศเขตร้อนในถิ่นฐานนี้ คงอยู่ตลอดกาล จำเป็นต้องวางไว้ในเขตร้อน</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness and[icon:YIELD_SCIENCE] Science on Tropical Terrain in this Settlement. Ageless. Must be placed on Tropical. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_MUNDO_PERDIDO_TOOLTIP" Language="th_TH">
 			<Text>+1[icon:YIELD_HAPPINESS] ความสุข และ[icon:YIELD_SCIENCE] วิทยาศาสตร์ บนพื้นที่เขตร้อนในตั้งถิ่นฐานนี้ ไม่ตกยุค ต้องตั้งอยู่บนพื้นที่เขตร้อน</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness and[icon:YIELD_SCIENCE] Science on Tropical Terrain in this Settlement. Ageless. Must be placed on Tropical. -->
@@ -2933,7 +2933,7 @@
 			<Text>นาลันทา</Text>		<!-- Nalanda -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_NALANDA_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_SCIENCE] วิทยาศาสตร์ รับ คัมภีร์ 1 เล่ม, มีที่ว่างสำหรับ คัมภีร์ 2 ช่อง, +1 คะแนนคุณลักษณะทางวิทยาศาสตร์ คงอยู่ตลอดกาล ต้องวางในที่ราบ</Text>		<!-- +3[icon:YIELD_SCIENCE] Science. Gain 1 Codex. Has 2 Codex slots. +1 Scientific Attribute Point. Ageless. Must be placed on Plains. -->
+			<Text>+3[icon:YIELD_SCIENCE] วิทยาศาสตร์ รับ คัมภีร์ 1 เล่ม, มีที่ว่างสำหรับ คัมภีร์ 2 ช่อง, +1 คะแนน คุณลักษณะทางวิทยาศาสตร์ คงอยู่ตลอดกาล ต้องวางในที่ราบ</Text>		<!-- +3[icon:YIELD_SCIENCE] Science. Gain 1 Codex. Has 2 Codex slots. +1 Scientific Attribute Point. Ageless. Must be placed on Plains. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_NALANDA_TOOLTIP" Language="th_TH">
 			<Text>รับคัมภีร์ 1 เล่ม, มีช่องคัมภีร์ 2 ช่อง, +1 คะแนนคุณสมบัติทางวิทยาศาสตร์ คงอยู่ตลอดกาล ต้องวางบนที่ราบ</Text>		<!-- Gain 1 Codex. Has 2 Codex slots. +1 Scientific Attribute Point. Ageless. Must be placed on Plains. -->
@@ -2951,7 +2951,7 @@
 			<Text>เปตรา</Text>		<!-- Petra -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_PETRA_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_GOLD] ทอง และ[icon:YIELD_PRODUCTION]กำลังผลิตบนภูมิประเทศทะเลทรายใน settlement นี้. คงอยู่ตลอดกาล. ต้องวางบนทะเลทราย</Text>		<!-- +2[icon:YIELD_GOLD] Gold. +1[icon:YIELD_GOLD] Gold and[icon:YIELD_PRODUCTION] Production on Desert Terrain in this Settlement. Ageless. Must be placed on Desert. -->
+			<Text>+2[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_GOLD] ทอง และ[icon:YIELD_PRODUCTION]กำลังผลิตบนภูมิประเทศทะเลทรายใน settlement นี้, คงอยู่ตลอดกาล, ต้องวางบนทะเลทราย</Text>		<!-- +2[icon:YIELD_GOLD] Gold. +1[icon:YIELD_GOLD] Gold and[icon:YIELD_PRODUCTION] Production on Desert Terrain in this Settlement. Ageless. Must be placed on Desert. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_PETRA_TOOLTIP" Language="th_TH">
 			<Text>+1[icon:YIELD_GOLD] ทอง และ[icon:YIELD_PRODUCTION] กำลังผลิต ในพื้นที่ทะเลทรายในถิ่นฐานนี้ ไม่มีวันสิ้นสุด ต้องวางบนทะเลทราย</Text>		<!-- +1[icon:YIELD_GOLD] Gold and[icon:YIELD_PRODUCTION] Production on Desert Terrain in this Settlement. Ageless. Must be placed on Desert. -->
@@ -2960,7 +2960,7 @@
 			<Text>พีระมิดแห่งพระอาทิตย์</Text>		<!-- Pyramid Of The Sun -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_PYRAMID_OF_THE_SUN_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_CULTURE] วัฒนธรรม, +2[icon:YIELD_CULTURE] วัฒนธรรม บนพื้นที่ในถิ่นฐานนี้. คงอยู่ตลอดกาล. ต้องวางบนพื้นราบที่ติดกับเขต</Text>		<!-- +3[icon:YIELD_CULTURE] Culture. +2[icon:YIELD_CULTURE] Culture on Quarters in this Settlement. Ageless. Must be placed on Flat Terrain adjacent to a District. -->
+			<Text>+3[icon:YIELD_CULTURE] วัฒนธรรม, +2[icon:YIELD_CULTURE] วัฒนธรรม บนพื้นที่ในถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องวางบนพื้นราบที่ติดกับเขต</Text>		<!-- +3[icon:YIELD_CULTURE] Culture. +2[icon:YIELD_CULTURE] Culture on Quarters in this Settlement. Ageless. Must be placed on Flat Terrain adjacent to a District. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_PYRAMID_OF_THE_SUN_TOOLTIP" Language="th_TH">
 			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม บนพื้นที่ในถิ่นฐานนี้ คงอยู่ตลอดกาล ต้องวางในพื้นที่ราบที่อยู่ติดกับเขต</Text>		<!-- +2[icon:YIELD_CULTURE] Culture on Quarters in this Settlement. Ageless. Must be placed on Flat Terrain adjacent to a District. -->
@@ -2978,7 +2978,7 @@
 			<Text>สัจจีสตูป</Text>		<!-- Sanchi Stupa -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_SANCHI_STUPA_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุก 5[icon:YIELD_HAPPINESS] ความสุข ที่เกินมาในถิ่นฐานนี้. ไร้ซึ่่งยุคสมัย. ต้องวางบนที่ราบ</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture for every 5 excess[icon:YIELD_HAPPINESS] Happiness in this Settlement. Ageless. Must be placed on Plains. -->
+			<Text>+2[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุก 5[icon:YIELD_HAPPINESS] ความสุข ที่เกินมาในถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องวางบนที่ราบ</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture for every 5 excess[icon:YIELD_HAPPINESS] Happiness in this Settlement. Ageless. Must be placed on Plains. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_SANCHI_STUPA_TOOLTIP" Language="th_TH">
 			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุก 5[icon:YIELD_HAPPINESS] ความสุข ที่เกินมาในถิ่นฐานนี้ คงอยู่ตลอดกาล ต้องวางบนทุ่งนา</Text>		<!-- +1[icon:YIELD_CULTURE] Culture for every 5 excess[icon:YIELD_HAPPINESS] Happiness in this Settlement. Ageless. Must be placed on Plains. -->
@@ -2996,7 +2996,7 @@
 			<Text>พระราชวังเว่ยหยาง</Text>		<!-- Weiyang Palace -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_WEIYANG_PALACE_DESCRIPTION" Language="th_TH">
-			<Text>+6[icon:YIELD_DIPLOMACY] อิทธิพล, คงอยู่ตลอดกาล. ต้องวางบนพื้นที่หญ้า</Text>		<!-- +6[icon:YIELD_DIPLOMACY] Influence. Ageless. Must be placed on Grassland. -->
+			<Text>+6[icon:YIELD_DIPLOMACY] อิทธิพล, คงอยู่ตลอดกาล, ต้องวางบนพื้นที่หญ้า</Text>		<!-- +6[icon:YIELD_DIPLOMACY] Influence. Ageless. Must be placed on Grassland. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_WEIYANG_PALACE_TOOLTIP" Language="th_TH">
 			<Text>คงอยู่ตลอดกาล ต้องวางบนทุ่งหญ้า</Text>		<!-- Ageless. Must be placed on Grassland. -->
@@ -3127,7 +3127,7 @@
 		<Replace Tag="LOC_CIVIC_FUTURE_CIVIC_AQ_AUTHOR" Language="th_TH">
 			<Text>ไม่มี</Text>		</Replace>
 		<Replace Tag="LOC_MOD_AQ_FUTURE_CIVIC_ATTRIBUTE_DESCRIPTION" Language="th_TH">
-			<Text>+1 คะแนนคุณลักษณะไวลด์การ์ด</Text>		<!-- +1 Wildcard Attribute Point. -->
+			<Text>+1 คะแนน คุณลักษณะไวลด์การ์ด</Text>		<!-- +1 Wildcard Attribute Point. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_FUTURE_CIVIC_BOOST_DESCRIPTION" Language="th_TH">
 			<Text>การเพิ่มพลังให้กับอารยธรรมเริ่มต้นที่ไม่เป็นเอกลักษณ์ในยุคถัดไป</Text>		<!-- A boost for a non-Civilization-unique starting Civic in the next age. -->
@@ -3463,7 +3463,7 @@
 			<Text>แนวคิดโรมัน</Text>		<!-- Roman Civics -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_EXERCITUS_ROMANUS_NAME" Language="th_TH">
-			<Text>ทัพโรมัน</Text>		<!-- Exercitus Romanus -->
+			<Text>เอ็กเซอร์คิตุส โรมานุส</Text>		<!-- Exercitus Romanus -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_EXERCITUS_ROMANUS_QUOTE" Language="th_TH">
 			<Text>"มันง่ายกว่าที่จะหาผู้ชายที่ยินดีที่จะตาย มากกว่าที่จะหาผู้ที่พร้อมที่จะทนทุกข์ด้วยความอดทน"</Text>		<!-- "It is easier to find men who will volunteer to die, than to find those who are willing to endure pain with patience." -->
@@ -3472,7 +3472,7 @@
 			<Text>จูเลียส ซีซาร์</Text>		<!-- Julius Caesar -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_CIVIS_ROMANUS_NAME" Language="th_TH">
-			<Text>พลเมืองโรมัน</Text>		<!-- Civis Romanus -->
+			<Text>ซีวิส โรมานุส</Text>		<!-- Civis Romanus -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_CIVIS_ROMANUS_QUOTE" Language="th_TH">
 			<Text>หลีกเลี่ยงการพูดคุยเฉพาะเจาะจงเกี่ยวกับนโยบายสาธารณะที่การประชุมสาธารณะ</Text>		<!-- "Avoid any specific discussion of public policy at public meetings." -->
@@ -3481,7 +3481,7 @@
 			<Text>ซิเซโร</Text>		<!-- Cicero -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_LEGATUS_PRO_PRAETORE_NAME" Language="th_TH">
-			<Text>ผู้แทนประจำเทศมณฑล</Text>		<!-- Legatus Pro Praetore -->
+			<Text>เลกะตุส โปร ไพรทอเร</Text>		<!-- Legatus Pro Praetore -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_LEGATUS_PRO_PRAETORE_QUOTE" Language="th_TH">
 			<Text>"ผู้ที่ขโมยจากคนหนึ่งใช้ชีวิตอยู่ในโซ่และกุญแจ - ผู้ที่ขโมยจากทุกคนอยู่ในสีม่วงและสีทอง."</Text>		<!-- "Those who steal from one person spend their lives in shackles and chains - those who steal from all people, in purple and gold." -->
@@ -3490,7 +3490,7 @@
 			<Text>คาโต</Text>		<!-- Cato -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_SENATUS_POPULUSQUE_ROMANUS_NAME" Language="th_TH">
-			<Text>วุฒิสภาและประชาชนชาวโรมัน</Text>		<!-- Senatus Populusque Romanus -->
+			<Text>เซนาตุส ปอปูลุสเค โรมานุส</Text>		<!-- Senatus Populusque Romanus -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_SENATUS_POPULUSQUE_ROMANUS_QUOTE" Language="th_TH">
 			<Text>"ให้แขนง่ายต่อทอการ์"</Text>		<!-- "Let arms yield to the toga." -->
@@ -3514,13 +3514,13 @@
 			<Text>+1 ความจุทรัพยากรในที่ตั้งบนชายฝั่งหรือแม่น้ำใหญ่</Text>		<!-- +1 Resource Capacity in Settlements on Coast or Navigable Rivers. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_PERIPLUS_OF_THE_ERYTHRAEAN_SEA_COASTAL_URBAN_GOLD_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_GOLD] ทอง อยู่ที่ควอเตอร์ใกล้ชายฝั่ง</Text>		<!-- +1[icon:YIELD_GOLD] Gold on Quarters adjacent to Coast. -->
+			<Text>+1[icon:YIELD_GOLD] ทอง บนย่านใกล้ชายฝั่ง</Text>		<!-- +1[icon:YIELD_GOLD] Gold on Quarters adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_MONUMENTUM_ADULITANUM_ALTAR_HAWELT_DESCRIPTION" Language="th_TH">
 			<Text>แท่นบูชาและอนุสาวรีย์ได้รับโบนัส +1[icon:YIELD_CULTURE] วัฒนธรรม จากโบนัสความใกล้เคียงกับฮาวิลตี้</Text>		<!-- The Altar and Monument gain a +1[icon:YIELD_CULTURE] Culture adjacency with Hawilti. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_HIMYARITES_DHOW_SWIFT_DESCRIPTION" Language="th_TH">
-			<Text>เรือโดว์ไม่สนใจเขตควบคุม</Text>		<!-- The Dhow ignores Zone of Control. -->
+			<Text>เรือโดว์ ไม่ถูกจำกัดโดยเขตควบคุม</Text>		<!-- The Dhow ignores Zone of Control. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_HAPI_UNITS_IGNORE_MINOR_RIVER_DESCRIPTION" Language="th_TH">
 			<Text>แม่น้ำน้อยไม่ทำให้การเคลื่อนที่ของยูนิตจบลง</Text>		<!-- Minor Rivers do not end Unit movement. -->
@@ -3541,7 +3541,7 @@
 			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม สำหรับแต่ละนครรัฐ ที่คุณเป็นผู้นำ</Text>		<!-- +2[icon:YIELD_CULTURE] Culture for each City-State you are Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ZHI_SCIENCE_BUILDING_URBAN_ADJACENCY_DESCRIPTION" Language="th_TH">
-			<Text>อาคารด้านวิทยาศาสตร์จะได้รับโบนัส +1[icon:YIELD_SCIENCE] โบนัสความใกล้เคียงด้านวิทยาศาสตร์สำหรับควอเตอร์</Text>		<!-- Science Buildings gain a +1[icon:YIELD_SCIENCE] Science Adjacency for Quarters. -->
+			<Text>อาคารด้านวิทยาศาสตร์จะได้รับโบนัส +1[icon:YIELD_SCIENCE] วิทยาศาสตร์ โบนัสใกล้เคียง สำหรับย่าน</Text>		<!-- Science Buildings gain a +1[icon:YIELD_SCIENCE] Science Adjacency for Quarters. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_LI_DIPLOMACY_YIELD_DESCRIPTION" Language="th_TH">
 			<Text>+2[icon:YIELD_DIPLOMACY] อิทธิพล ต่อพระราชวัง</Text>		<!-- +2[icon:YIELD_DIPLOMACY] Influence on the Palace. -->
@@ -3568,7 +3568,7 @@
 			<Text>ยูนิตทหารราบ และ ยูนิตทหารม้า ได้รับ +3 พลังต่อสู้เมื่ออยู่ใกล้กัน</Text>		<!-- Infantry and Cavalry Units gain +3 Combat Strength when adjacent to each other. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_KSHATRIYA_BARRACKS_HAPPINESS_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_HAPPINESS] ความสุข ในอาคารทหาร</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness on Military Buildings. -->
+			<Text>+2[icon:YIELD_HAPPINESS] ความสุข ในอาคารด้านทหาร</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness on Military Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AYURVEDA_PURABHETTARAH_HEAL_ABILITY_DESCRIPTION" Language="th_TH">
 			<Text>ยูนิตที่อยู่ติดกับ Purabhettarah ฟื้นฟู +5 HP ต่อเทิร์น</Text>		<!-- Units adjacent to the Purabhettarah heal +5 HP per turn. -->
@@ -3607,7 +3607,7 @@
 			<Text>+5[icon:YIELD_GOLD] ทอง สำหรับแต่ละอารยธรรมที่คุณได้จับตั้งถิ่นฐานจาก</Text>		<!-- +5[icon:YIELD_GOLD] Gold for every different Civilization you have captured a Settlement from. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_EXERCITUS_ROMANUS_LEGATUS_PROMOTION_DESCRIPTION" Language="th_TH">
-			<Text>เลกาอัสได้รับการโปรโมตเป็นซุ้มป้องกันฟรี</Text>		<!-- The Legatus gains the Bulwark Promotion for free. -->
+			<Text>เลกาอัส ได้รับการเลื่อนขั้น "ป้อมปราการ" ฟรี</Text>		<!-- The Legatus gains the Bulwark Promotion for free. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIVIS_ROMANUS_CAPITAL_GOLD_PER_TOWN_DESCRIPTION" Language="th_TH">
 			<Text>+2[icon:YIELD_GOLD] ทอง ในเมืองหลวง สำหรับทุกเมืองที่คุณเป็นเจ้าของ</Text>		<!-- +2[icon:YIELD_GOLD] Gold in the Capital for every Town you own. -->
@@ -3649,7 +3649,7 @@
 			<Text>เหรียญเงิน</Text>		<!-- Coinage -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_COINAGE_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_GOLD] ทอง สำหรับแต่ละทรัพยากรที่นำเข้า</Text>		<!-- +1[icon:YIELD_GOLD] Gold for each imported Resource. -->
+			<Text>+1[icon:YIELD_GOLD] ทอง สำหรับแต่ละ ทรัพยากรที่นำเข้า</Text>		<!-- +1[icon:YIELD_GOLD] Gold for each imported Resource. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_COMMODITIES_NAME" Language="th_TH">
 			<Text>สินค้าโภคภัณฑ์</Text>		<!-- Commodities -->
@@ -3799,7 +3799,7 @@
 			<Text>ดำเนินคดีผู้ที่ประท้วงศาสนา</Text>		<!-- Prosecute Apostates -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_PROSECUTE_APOSTATES_DESCRIPTION" Language="th_TH">
-			<Text>+5[icon:YIELD_HAPPINESS] ความสุข ในชุมชนที่ติดเชื้อซึ่งมีผู้บัญชาการประจำการ แต่ -5[icon:YIELD_HAPPINESS] ความสุข ในชุมชนที่ไม่มีที่บูชา</Text>		<!-- +5[icon:YIELD_HAPPINESS] Happiness in infected settlements with a Commander Stationed but -5[icon:YIELD_HAPPINESS] Happiness in settlements with no Altar. -->
+			<Text>+5[icon:YIELD_HAPPINESS] ความสุข ในถิ่นฐานที่ติดเชื้อซึ่งมีผู้บัญชาการประจำการ แต่ -5[icon:YIELD_HAPPINESS] ความสุข ในถิ่นฐานที่ไม่มีที่บูชา</Text>		<!-- +5[icon:YIELD_HAPPINESS] Happiness in infected settlements with a Commander Stationed but -5[icon:YIELD_HAPPINESS] Happiness in settlements with no Altar. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_RECRUITMENT_SHORTFALLS_NAME" Language="th_TH">
 			<Text>การขาดแคลนการสรรหา</Text>		<!-- Recruitment Shortfalls -->
@@ -3994,7 +3994,7 @@
 			<Text>บ่อน้ำพิษ</Text>		<!-- Poison Wells -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_ESPIONAGE_POISON_DESCRIPTION" Language="th_TH">
-			<Text>ทำให้เกิดการระบาดเล็กน้อยในชุมชน</Text>		<!-- Cause a Minor Outbreak in a Settlement -->
+			<Text>ทำให้เกิดการระบาดเล็กน้อยในถิ่นฐาน</Text>		<!-- Cause a Minor Outbreak in a Settlement -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_11001A_STORYTITLE" Language="th_TH">
 			<Text>เรื่องราวทอแน่น</Text>		<!-- Woven Stories -->
@@ -4987,7 +4987,7 @@
 			<Text>ปิด</Text>		<!-- Close. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21203D_DESCRIPTION" Language="th_TH">
-			<Text>กระเบื้องกลายเป็นทรัพยากรของม้า</Text>		<!-- Tile becomes a Horses Resource. -->
+			<Text>ช่องนี้ได้กลายเป็น ทรัพยากร ม้า</Text>		<!-- Tile becomes a Horses Resource. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21203D_COMPLETION" Language="th_TH">
 			<Text>ที่ซึ่งเคยมีเพียงเมล็ดพืชที่เหี่ยวเฉา ม้าปัจจุบันกลับเจริญเติบโต พวกมันจะเป็นม้าที่ดีเยี่ยม</Text>		<!-- Where grain once withered, horses now prosper. They will make excellent mounts. -->
@@ -5146,7 +5146,7 @@
 			<Text>ใกล้</Text>		<!-- Close. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21005D_DESCRIPTION" Language="th_TH">
-			<Text>กระเบื้องกลายเป็นทรัพยากรยิปซั่ม</Text>		<!-- Tile becomes a Gypsum Resource. -->
+			<Text>ช่องนี้ได้กลายเป็น ทรัพยากร ยิปซั่ม</Text>		<!-- Tile becomes a Gypsum Resource. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21005D_COMPLETION" Language="th_TH">
 			<Text>เจ้าของที่ดินซ่อนความโกรธของพวกเขาได้ดี แต่ไม่หมดจด เหมืองเจริญรุ่งเรือง</Text>		<!-- The landowners hide their anger well, but not completely. The mine prospers. -->
@@ -5242,7 +5242,7 @@
 			<Text>ปิด</Text>		<!-- Close. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_22003D_DESCRIPTION" Language="th_TH">
-			<Text>กระเบื้องกลายเป็นทรัพยากรเงิน</Text>		<!-- Tile becomes a Silver Resource. -->
+			<Text>ช่องได้กลายเป็น ทรัพยากร เงิน</Text>		<!-- Tile becomes a Silver Resource. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_22003D_COMPLETION" Language="th_TH">
 			<Text>ด้วยการเสริมแกร่งเหมืองอย่างเหมาะสม ชุมชนเริ่มมองเห็นจุดสิ้นสุดของความ struggles ของพวกเขา</Text>		<!-- With a properly reinforced mineworks, the community begins to see an end to its struggles. -->
@@ -5503,7 +5503,7 @@
 			<Text>ปิด</Text>		<!-- Close. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_27008D_DESCRIPTION" Language="th_TH">
-			<Text>กระเบื้องกลายเป็นทรัพยากรไข่มุก</Text>		<!-- Tile becomes a Pearls Resource. -->
+			<Text>ช่องนี้ได้กลายเป็น ทรัพยากร ไข่มุก</Text>		<!-- Tile becomes a Pearls Resource. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_27008D_COMPLETION" Language="th_TH">
 			<Text>ชาวบ้านในปัจจุบันอนุญาตให้ชาวต่างชาติเก็บเกี่ยวไข่มุก แต่พวกเขาทำเช่นนั้นด้วยการจ้องมองที่แข็งกร้าวและคำสาปแช่งที่พึมพำ</Text>		<!-- Locals now permit outsiders to harvest pearls, but they do so with stony stares and muttered curses. -->
@@ -6013,7 +6013,7 @@
 			<Text>หาสถานที่ให้กับคนเลี้ยงวัวตั้งถิ่นฐาน</Text>		<!-- Find a place for the cattle herders to settle. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23006B_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับประชากร 1 คนในชุมชนที่ใกล้ที่สุด</Text>		<!-- Gain 1 Population in the nearest Settlement. -->
+			<Text>ได้รับประชากร 1 คนในถิ่นฐานที่ใกล้ที่สุด</Text>		<!-- Gain 1 Population in the nearest Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23006B_IMPERATIVE" Language="th_TH">
 			<Text>ใช้ 1 เทิร์นในการ [icon:YIELD_HAPPINESS] ความสุข </Text>		<!-- Spend 1 Turn of [icon:YIELD_HAPPINESS] Happiness. -->
@@ -6886,7 +6886,7 @@
 			<Text>อนุญาตให้ฝึกยูนิตภาคพื้นของฟอเดอราติ</Text>		<!-- Allows the training of the Foederati Land Unit. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_5_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบจะมีพลังต่อสู้เพิ่มขึ้น +1 สำหรับทุกเมืองรัฐที่คุณเป็นผู้ปกครอง</Text>		<!-- +1 Combat Strength to Infantry Units for every City-State you are Suzerain of. -->
+			<Text>+1 พลังต่อสู้ สำหรับยูนิตทหารราบ สำหรับทุก นครรัฐ ที่คุณเป็น เจ้านคร</Text>		<!-- +1 Combat Strength to Infantry Units for every City-State you are Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_6_DESCRIPTION" Language="th_TH">
 			<Text>อนุญาตให้สร้าง เขตพัฒนาพิเศษเฉพาะตัว ซึ่งเรียกว่า Megalith เมกาไลท์จะให้ +2[icon:YIELD_CULTURE] วัฒนธรรม และให้ +1 [icon:YIELD_FOOD] อาหาร สำหรับทุกแปลงที่ตั้งอยู่ใกล้เคียงในชนบท ต้องวางบนพื้นที่ราบ</Text>		<!-- Allows the construction of the Megalith Unique Improvement. The Megalith provides +2[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_FOOD] Food for every adjacent Rural tile. Must be placed on Flat Terrain. -->
@@ -6949,7 +6949,7 @@
 			<Text>กัมพูชา อาณาจักรเขมร เป็นแบบอย่างของสวรรค์ฮินดู-พุทธในเอเชียตะวันออกเฉียงใต้ จากศูนย์กลางของมัน มันเผยแพร่ความมีอิทธิพลไปทั่วภูมิภาค อำนาจของเขมรแท้จริงอยู่ที่น้ำ เพราะการใช้ประโยชน์จากน้ำท่วมของแม่น้ำโขงทำให้เกิดเมืองใหญ่ที่สุดในโลก แต่เมื่ออุทกภัยเหล่านี้ลดน้อยลง อำนาจของเขมรก็ลดลงตามไปด้วย ทิ้งความฝันของมันไว้ในซากปรักหักพังทั่วทั้งกัมพูชา ไทย ลาว และเวียดนาม</Text>		<!-- Kamboja, the Khmer Empire, was a model of the Hindu-Buddhist heavens in Southeast Asia. From its center, it projected its influence across the region. True Khmer power lay in water, as harnessing the floods of the Mekong fueled some of the largest cities in the world. But as these floods waned, so did Khmer power, leaving its dream in ruins across Cambodia, Thailand, Laos and Vietnam. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_MAURYA" Language="th_TH">
-			<Text>เมารยะเกิดขึ้นจากดินแดนที่มีความหลากหลายทางวัฒนธรรมอย่างไม่น่าเชื่อ แต่กลับเต็มไปด้วยสงคราม จากการพิชิตของชาญราษฎร์ที่เอาชนะผู้สืบทอดอเล็กซานเดอร์มหาราช ราชวงศ์นี้ถึงจุดสูงสุดในสมัยอชoka ที่ส่งเสริมความไม่ใช้ความรุนแรงและความอดทน โดยการสร้างสมดุลระหว่างความเปิดกว้างกับความแข็งแกร่งทางทหาร เมารยะได้สร้างจักรวรรดิที่เต็มไปด้วยปัญญาและความรุ่งโรจน์ – จนกระทั่งมันล่มสลายจากมีดของฆาตกร</Text>		<!-- The Maurya arose from a land of incredible cultural diversity, but one reeling from war. From Chandragupta’s conquests of Alexander the Great’s successors, the dynasty reached its height under Ashoka, who embraced nonviolence and tolerance. Balancing open-mindedness with military might, the Maurya built an empire that was as wise as it was glorious – until its fall to an assassin’s blade.  -->
+			<Text>เมารยะเกิดขึ้นจากดินแดนที่มีความหลากหลายทางวัฒนธรรมอย่างไม่น่าเชื่อ แต่กลับเต็มไปด้วยสงคราม จากการพิชิตของชาญราษฎร์ที่เอาชนะผู้สืบทอดอเล็กซานเดอร์มหาราช ราชวงศ์นี้ถึงจุดสูงสุดในสมัยอโศก ที่ส่งเสริมความไม่ใช้ความรุนแรงและความอดทน โดยการสร้างสมดุลระหว่างความเปิดกว้างกับความแข็งแกร่งทางทหาร เมารยะได้สร้างจักรวรรดิที่เต็มไปด้วยปัญญาและความรุ่งโรจน์ – จนกระทั่งมันล่มสลายจากมีดของฆาตกร</Text>		<!-- The Maurya arose from a land of incredible cultural diversity, but one reeling from war. From Chandragupta’s conquests of Alexander the Great’s successors, the dynasty reached its height under Ashoka, who embraced nonviolence and tolerance. Balancing open-mindedness with military might, the Maurya built an empire that was as wise as it was glorious – until its fall to an assassin’s blade.  -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_MAYA" Language="th_TH">
 			<Text>ในป่าของอเมริกากลางมีการเติบโตของเมืองรัฐหลายแห่งที่เชื่อมโยงกันด้วยพันธมิตรและวัฒนธรรมร่วม – ชาวมายา พวกเขาได้เปลี่ยนภูมิทัศน์ที่ดูเหมือนไม่เป็นมิตรให้กลายเป็นสวรรค์ของจัตุรัส สนามบอล และปิรามิดที่ตั้งตระหง่านจากป่าเพื่อทักทายกับท้องฟ้า แต่เมื่อเผชิญกับวิกฤตทางภูมิอากาศและการเมือง ชาวมายาจึงเสื่อมถอย และผืนดินก็กลับถูกปกคลุมด้วยป่าอีกครั้ง</Text>		<!-- In the Central American jungles grew a series of city-states bound by alliances and a common culture – the Maya. They transformed a seemingly inhospitable landscape into a paradise of plazas, ball courts, and pyramids that rose out of the jungle to greet the open sky. But struck by climate and political crises, the Maya declined, and the land was once more covered by forest.  -->
@@ -7321,7 +7321,7 @@
 			<Text>อำนาจที่ศูนย์กลาง</Text>		<!-- Power at the Center -->
 		</Replace>
 		<Replace Tag="LOC_ALC001A_COMPLETION" Language="th_TH">
-			<Text>ที่ศูนย์กลางของอารยธรรม เมืองหลวงเปล่งประกายอำนาจ ธงที่มีสัญลักษณ์ของจักรวรรดิสะบัดอยู่เหนือต้นแบบของอำนาจของประชาชนที่รวมตัวกัน อย่างไรก็ตาม ชุมชนอื่น ๆ ก็แสดงถึงความแตกต่างของตน และเมื่อดาวของพวกเขาขึ้นสูงขึ้น พลเมืองเริ่มตั้งคำถามถึงสถานที่ของตนในชุมชนที่ใหญ่กว่านี้ จักรวรรดิเป็นตัวแทนของพวกเราทุกคนจริงหรือ?</Text>		<!-- At the heart of civilization, the capital city radiates authority. Banners bearing the sigil of empire flutter atop monuments to the power of a people united. Yet other settlements distinguish themselves, and as their stars rise, citizens question their place in this larger community. Does the empire truly represent us all? -->
+			<Text>ที่ศูนย์กลางของอารยธรรม เมืองหลวงเปล่งประกายอำนาจ ธงที่มีสัญลักษณ์ของจักรวรรดิสะบัดอยู่เหนือต้นแบบของอำนาจของประชาชนที่รวมตัวกัน อย่างไรก็ตาม ชุมชนอื่น ๆ ก็แสดงถึงความแตกต่างของตน และเมื่อดาวของพวกเขาขึ้นสูงขึ้น พลเมืองเริ่มตั้งคำถามถึงสถานที่ของตนในถิ่นฐานที่ใหญ่กว่านี้ จักรวรรดิเป็นตัวแทนของพวกเราทุกคนจริงหรือ?</Text>		<!-- At the heart of civilization, the capital city radiates authority. Banners bearing the sigil of empire flutter atop monuments to the power of a people united. Yet other settlements distinguish themselves, and as their stars rise, citizens question their place in this larger community. Does the empire truly represent us all? -->
 		</Replace>
 		<Replace Tag="LOC_ALC001B_NAME" Language="th_TH">
 			<Text>ต่อเนื่องวิกฤต</Text>		<!-- Continue the crisis -->
@@ -9226,7 +9226,7 @@
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3004C_NAME" Language="th_TH">
-			<Text>สอนพิธีกรรมการเก็บเกี่ยวเหล่านี้ในชุมชนอื่น ๆ</Text>		<!-- Teach these harvest rites in other communities. -->
+			<Text>สอนพิธีกรรมการเก็บเกี่ยวเหล่านี้ในถิ่นฐานอื่น ๆ</Text>		<!-- Teach these harvest rites in other communities. -->
 		</Replace>
 		<Replace Tag="LOC_3004C_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
@@ -11357,7 +11357,7 @@
 			<Text>ให้พวกเขาสอน</Text>		<!-- Have them teach. -->
 		</Replace>
 		<Replace Tag="LOC_1033C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} แต่ {2_reward} บนอาคารทหาร</Text>		<!-- {1_reward}, but {2_reward} on Military Buildings. -->
+			<Text>{1_reward} แต่ {2_reward} บนอาคารด้านทหาร</Text>		<!-- {1_reward}, but {2_reward} on Military Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_1034A_STORYTITLE" Language="th_TH">
 			<Text>โทเท็ม</Text>		<!-- Totems -->
@@ -13652,7 +13652,7 @@
 			<Text>ทหารเดินขบวนภายใต้คำสั่งของทับแมน แผ่อำนาจของเธอออกไป และเมื่อสมควร เธอก็แสดงความเมตตา</Text>		<!-- Soldiers march under Tubman's command, spreading her authority – and, when merited, her mercy. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1082B_IMPERATIVE" Language="th_TH">
-			<Text>ขโมยกระเบื้อง</Text>		<!-- Pillage a Tile. -->
+			<Text>ปล้นช่องนี้</Text>		<!-- Pillage a Tile. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1082C_STORYTITLE" Language="th_TH">
 			<Text>เดอะ สโตน เทมเพิล</Text>		<!-- The Stone Temple -->
@@ -13784,7 +13784,7 @@
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1100B_COMPLETION" Language="th_TH">
-			<Text>ถนนในชุมชนของฮิมิโกะมีผู้คนหนาแน่นมากขึ้นทุกวัน ผู้คนถูกดึงดูดด้วยวิสัยทัศน์ของฮิมิโกะสำหรับอนาคต และพวกเขายอมรับมันอย่างรวดเร็วราวกับเป็นของตนเอง</Text>		<!-- The streets of Himiko's settlements grow more crowded by the day. The people are drawn to Himiko's vision for the future, and they quickly adopt it as their own. -->
+			<Text>ถนนในถิ่นฐานของฮิมิโกะมีผู้คนหนาแน่นมากขึ้นทุกวัน ผู้คนถูกดึงดูดด้วยวิสัยทัศน์ของฮิมิโกะสำหรับอนาคต และพวกเขายอมรับมันอย่างรวดเร็วราวกับเป็นของตนเอง</Text>		<!-- The streets of Himiko's settlements grow more crowded by the day. The people are drawn to Himiko's vision for the future, and they quickly adopt it as their own. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1100B_IMPERATIVE" Language="th_TH">
 			<Text>มีถิ่นฐานใกล้กับภูเขา</Text>		<!-- Have a Settlement adjacent to a Mountain. -->
@@ -15194,7 +15194,7 @@
 			<Text>บทเรียนของพีธากอรัสได้รับความนิยม ปรัชญาใหม่ๆ เจริญรุ่งเรืองโดยได้รับแรงบันดาลใจจากคำสอนของเขา แต่ประชาชนบางคนกลัวว่าอิทธิพลที่กว้างขวางของเขาจะจำกัดแนวคิดใหม่ๆ</Text>		<!-- Pythagoras' lessons have caught on. New philosophies flourish, inspired by his teachings. But some citizens fear that his wide range of influence will limit new ideas. -->
 		</Replace>
 		<Replace Tag="LOC_158A_IMPERATIVE" Language="th_TH">
-			<Text>มีควอเตอร์ที่มีสถาบันและห้องสมุดอยู่</Text>		<!-- Have a Quarter with an Academy and a Library. -->
+			<Text>มีย่านที่มี สถาบัน และ ห้องสมุด อยู่</Text>		<!-- Have a Quarter with an Academy and a Library. -->
 		</Replace>
 		<Replace Tag="LOC_158B_NAME" Language="th_TH">
 			<Text>รวมตัวกันรอบผู้นำทางความคิดคนนี้</Text>		<!-- Consolidate around this thought leader. -->
@@ -15842,10 +15842,10 @@
 			<Text>+3[icon:YIELD_DIPLOMACY] อิทธิพล ต่อแท่นบูชา</Text>		<!-- +3[icon:YIELD_DIPLOMACY] Influence on the Altar. -->
 		</Replace>
 		<Replace Tag="LOC_PANTHEON_BONUS_2_DESCRIPTION" Language="th_TH">
-			<Text>แท่นบูชาจะได้รับ+1 [icon:YIELD_HAPPINESS] ความสุข จากการติดกันของภูเขาและสิ่งมหัศจรรย์ทางธรรมชาติ</Text>		<!-- The Altar receives a +1[icon:YIELD_HAPPINESS] Happiness Adjacency for Mountains and Natural Wonders. -->
+			<Text>แท่นบูชาจะได้รับ +1 [icon:YIELD_HAPPINESS] ความสุข โบนัสใกล้เคียง ภูเขาและสิ่งมหัศจรรย์ทางธรรมชาติ</Text>		<!-- The Altar receives a +1[icon:YIELD_HAPPINESS] Happiness Adjacency for Mountains and Natural Wonders. -->
 		</Replace>
 		<Replace Tag="LOC_PANTHEON_BONUS_2_DESCRIPTION" Language="th_TH">
-			<Text>แท่นบูชาจะได้รับ+1 [icon:YIELD_HAPPINESS] ความสุข จากการติดกันของภูเขาและสิ่งมหัศจรรย์ทางธรรมชาติ</Text>		<!-- The Altar receives a +1[icon:YIELD_HAPPINESS] Happiness Adjacency for Mountains and Natural Wonders. -->
+			<Text>แท่นบูชาจะได้รับ +1 [icon:YIELD_HAPPINESS] ความสุข โบนัสใกล้เคียง ภูเขาและสิ่งมหัศจรรย์ทางธรรมชาติ</Text>		<!-- The Altar receives a +1[icon:YIELD_HAPPINESS] Happiness Adjacency for Mountains and Natural Wonders. -->
 		</Replace>
 		<Replace Tag="LOC_PANTHEON_BONUS_3_DESCRIPTION" Language="th_TH">
 			<Text>อัตราการเติบโต +10% ในเมืองที่มีแท่นบูชา</Text>		<!-- +10% Growth Rate in Cities with an Altar. -->
@@ -15878,10 +15878,10 @@
 			<Text>+10% [icon:YIELD_PRODUCTION] กำลังผลิต ไปสู่การสร้างอาคารในเมืองที่มีแท่นบูชา</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards constructing Buildings in Cities with an Altar. -->
 		</Replace>
 		<Replace Tag="LOC_PANTHEON_BONUS_9_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต บนเรือประมงในชุมชนที่มีแท่นบูชา. โบนัสคลังสินค้า</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Fishing Boats in Settlements with an Altar. Warehouse bonus. -->
+			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต บนเรือประมงในถิ่นฐานที่มีแท่นบูชา. โบนัสคลังสินค้า</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Fishing Boats in Settlements with an Altar. Warehouse bonus. -->
 		</Replace>
 		<Replace Tag="LOC_PANTHEON_BONUS_9_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต บนเรือประมงในชุมชนที่มีแท่นบูชา. โบนัสคลังสินค้า</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Fishing Boats in Settlements with an Altar. Warehouse bonus. -->
+			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต บนเรือประมงในถิ่นฐานที่มีแท่นบูชา. โบนัสคลังสินค้า</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Fishing Boats in Settlements with an Altar. Warehouse bonus. -->
 		</Replace>
 		<Replace Tag="LOC_PANTHEON_BONUS_10_DESCRIPTION" Language="th_TH">
 			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม ,[icon:YIELD_FOOD] อาหาร ,[icon:YIELD_GOLD] ทอง ,[icon:YIELD_HAPPINESS] ความสุข ,[icon:YIELD_PRODUCTION] กำลังผลิต , และ[icon:YIELD_SCIENCE] วิทยาศาสตร์ บนแท่นบูชา</Text>		<!-- +1[icon:YIELD_CULTURE] Culture,[icon:YIELD_FOOD] Food,[icon:YIELD_GOLD] Gold,[icon:YIELD_HAPPINESS] Happiness,[icon:YIELD_PRODUCTION] Production, and[icon:YIELD_SCIENCE] Science on the Altar. -->
@@ -15905,7 +15905,7 @@
 			<Text>แท่นบูชาได้รับความสุข +1[icon:YIELD_HAPPINESS] โบนัสความใกล้เคียงสำหรับแผ่นดินชายฝั่ง ทะเลสาบ และแม่น้ำใหญ่</Text>		<!-- The Altar receives a +1[icon:YIELD_HAPPINESS] Happiness Adjacency for Coast, Lakes, and Navigable River tiles. -->
 		</Replace>
 		<Replace Tag="LOC_PANTHEON_BONUS_16_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_PRODUCTION]กำลังผลิตในหลุมดินเหนียว, เหมือง, และเหมืองหินในชุมชนที่มีแท่นบูชา โบนัสคลังสินค้า</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Clay Pits, Mines, and Quarries in Settlements with an Altar. Warehouse bonus. -->
+			<Text>+1[icon:YIELD_PRODUCTION]กำลังผลิตในหลุมดินเหนียว, เหมือง, และเหมืองหินในถิ่นฐานที่มีแท่นบูชา โบนัสคลังสินค้า</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Clay Pits, Mines, and Quarries in Settlements with an Altar. Warehouse bonus. -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_COTTON_TOOLTIP" Language="th_TH">
 			<Text>+2[icon:YIELD_FOOD] อาหาร , +2[icon:YIELD_PRODUCTION] กำลังผลิต </Text>		<!-- +2[icon:YIELD_FOOD] Food, +2[icon:YIELD_PRODUCTION] Production -->
@@ -15986,10 +15986,10 @@
 			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต </Text>		<!-- +3[icon:YIELD_PRODUCTION] Production -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_HORSES_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตทหารม้าจะได้รับพลังต่อสู้เพิ่มขึ้น +1 และเพิ่มอีก +1 เมื่อสู้กับยูนิตทหารราบ</Text>		<!-- Cavalry Units gain +1 Combat Strength, and an additional +1 against Infantry Units -->
+			<Text>ยูนิตทหารม้าจะได้รับ +1 พลังต่อสู้ และเพิ่มอีก +1 เมื่อสู้กับยูนิตทหารราบ</Text>		<!-- Cavalry Units gain +1 Combat Strength, and an additional +1 against Infantry Units -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_IRON_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตทหารราบได้รับพลังต่อสู้เพิ่มขึ้น +1</Text>		<!-- Infantry Units gain +1 Combat Strength -->
+			<Text>ยูนิตทหารราบได้รับ +1 พลังต่อสู้</Text>		<!-- Infantry Units gain +1 Combat Strength -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SALT_TOOLTIP" Language="th_TH">
 			<Text>+20% [icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการฝึกยูนิต</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards training Units -->
@@ -16109,7 +16109,7 @@
 			<Text>ออสการ์ ไวลด์</Text>		<!-- Oscar Wilde -->
 		</Replace>
 		<Replace Tag="LOC_TECH_BRONZE_WORKING_NAME" Language="th_TH">
-			<Text>การทำงานทองสัมฤทธิ์</Text>		<!-- Bronze Working -->
+			<Text>ทองสัมฤทธิ์</Text>		<!-- Bronze Working -->
 		</Replace>
 		<Replace Tag="LOC_TECH_BRONZE_WORKING_QUOTE" Language="th_TH">
 			<Text>"เขาได้ยินสิ่งน่ากลัวเหล่านี้และจิตวิญญาณของเขาก็ถูกกระตุ้น และด้วยแรงกระตุ้นให้ลงมือ เขาหุ้มผิวของเขาด้วยบรอนซ์ที่ขัดเงา"</Text>		<!-- "He heard these horrors and his spirit stirred, and spurred to action, he sheathed his skin in burnished bronze." -->
@@ -16182,7 +16182,7 @@
 			<Text>+1 ขีดจำกัดการตั้งถิ่นฐาน</Text>		<!-- +1 Settlement Limit. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AQ_SPECIALIST_CAP_INCREASE_DESCRIPTION" Language="th_TH">
-			<Text>จำกัดผู้เชี่ยวชาญเพิ่มอีก 1 คนในทุกเมือง</Text>		<!-- +1 Specialist Limit in all Cities. -->
+			<Text>+1 ขีดจำกัดผู้เชี่ยวชาญในทุกเมือง</Text>		<!-- +1 Specialist Limit in all Cities. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AQ_CODEX_DESCRIPTION" Language="th_TH">
 			<Text>รับคัมภีร์ 1 เล่ม</Text>		<!-- Gain 1 Codex. -->
@@ -16200,7 +16200,7 @@
 			<Text>+3 พลังต่อสู้สำหรับยูนิตทหารราบ</Text>		<!-- +3 Combat Strength for Infantry Units. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AQ_TECH_SIEGE_MOVEMENT_DESCRIPTION" Language="th_TH">
-			<Text>+1 แต้มเคลื่อนที่สำหรับยูนิตล้อมปราสาท</Text>		<!-- +1 Movement for Siege Units. -->
+			<Text>+1 แต้มเคลื่อนที่สำหรับยูนิตปิดล้อมปราสาท</Text>		<!-- +1 Movement for Siege Units. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_SAILING_EMBARKATION_NAME" Language="th_TH">
 			<Text>การขึ้นเรือ</Text>		<!-- Embarkation -->
@@ -16227,19 +16227,19 @@
 			<Text>+1[icon:YIELD_FOOD] อาหาร บนอาคารด้านอาหาร</Text>		<!-- +1[icon:YIELD_FOOD] Food on Food Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AQ_TECH_GOLD_BUILDING_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_GOLD]</Text>		<!-- +1[icon:YIELD_GOLD] Gold on Gold Buildings. -->
+			<Text>+1[icon:YIELD_GOLD] ทอง บน อาคารด้านทอง</Text>		<!-- +1[icon:YIELD_GOLD] Gold on Gold Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AQ_TECH_GOLD_BUILDING_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_GOLD]</Text>		<!-- +1[icon:YIELD_GOLD] Gold on Gold Buildings. -->
+			<Text>+1[icon:YIELD_GOLD] ทอง บน อาคารด้านทอง</Text>		<!-- +1[icon:YIELD_GOLD] Gold on Gold Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AQ_TECH_HAPPINESS_BUILDING_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_HAPPINESS] ความสุข บนอาคารแห่งความสุข</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness on Happiness Buildings. -->
+			<Text>+1[icon:YIELD_HAPPINESS] ความสุข บนอาคารด้านวามสุข</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness on Happiness Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AQ_TECH_HAPPINESS_BUILDING_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_HAPPINESS] ความสุข บนอาคารแห่งความสุข</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness on Happiness Buildings. -->
+			<Text>+1[icon:YIELD_HAPPINESS] ความสุข บนอาคารด้านวามสุข</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness on Happiness Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AQ_TECH_MILITARY_BUILDING_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_PRODUCTION]กำลังผลิตในอาคารทหาร</Text>		<!-- +2[icon:YIELD_PRODUCTION] Production on Military Buildings. -->
+			<Text>+2[icon:YIELD_PRODUCTION]กำลังผลิตในอาคารด้านทหาร</Text>		<!-- +2[icon:YIELD_PRODUCTION] Production on Military Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AQ_TECH_PRODUCTION_BUILDING_DESCRIPTION" Language="th_TH">
 			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต ในอาคารด้านกำลังผลิต</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Production Buildings. -->
@@ -16254,7 +16254,7 @@
 			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ บนอาคารด้านวิทยาศาสตร์</Text>		<!-- +1[icon:YIELD_SCIENCE] Science on Science Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_FUTURE_TECH_ATTRIBUTE_DESCRIPTION" Language="th_TH">
-			<Text>+1 คะแนนคุณลักษณะไวลด์การ์ด</Text>		<!-- +1 Wildcard Attribute Point. -->
+			<Text>+1 คะแนน คุณลักษณะไวลด์การ์ด</Text>		<!-- +1 Wildcard Attribute Point. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_FUTURE_TECH_BOOST_DESCRIPTION" Language="th_TH">
 			<Text>ส่งเสริมสำหรับการเริ่มต้นเทคโนโลยีในยุคถัดไป</Text>		<!-- A boost for a starting Tech in the next Age. -->
@@ -16322,7 +16322,7 @@
 			 -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ANTIQUITY_WELCOME_PAGE_THREE_TITLE" Language="th_TH">
-			<Text>เส้นทางแห่งมรดก &amp; ชัยชนะ</Text>		<!-- Legacy Paths &amp; Victories -->
+			<Text>เส้นทางมรดก &amp; ชัยชนะ</Text>		<!-- Legacy Paths &amp; Victories -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ANTIQUITY_WELCOME_PAGE_THREE_SUBTITLE" Language="th_TH">
 			<Text>สร้างประวัติศาสตร์</Text>		<!-- Create a history -->
@@ -16584,7 +16584,7 @@
 			<Text>แผนผังเทคโนโลยี</Text>		<!-- Technology Tree -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_TECH_TREE_BODY" Language="th_TH">
-			<Text>ต้นไม้เทคโนโลยีเป็นมุมมองที่ครอบคลุมของเทคโนโลยีทั้งหมดที่มีอยู่ตลอดยุค[n]เส้นทางที่เชื่อมต่อแต่ละเทคโนโลยีระบุข้อกำหนดเบื้องต้นที่จำเป็นในการวิจัยเทคโนโลยีในอนาคต ใช้ต้นไม้นี้เป็นแนวทางในการค้นหาเส้นทางที่เร็วที่สุดไปยังเทคโนโลยีหรือความเชี่ยวชาญเฉพาะทาง</Text>		<!-- The Technology Tree is a comprehensive view of all of the Technologies available through the entire Age.[n]The paths connecting each Technology indicate the prerequisites required in order to research future Techs. Use the tree as a guide to find the quickest path to a specific Tech or Tech Mastery. -->
+			<Text>ผังเทคโนโลยีเป็นมุมมองที่ครอบคลุมของเทคโนโลยีทั้งหมดที่มีอยู่ตลอดยุค[n]เส้นทางที่เชื่อมต่อแต่ละเทคโนโลยีระบุข้อกำหนดเบื้องต้นที่จำเป็นในการวิจัยเทคโนโลยีในอนาคต ใช้ผังนี้เป็นแนวทางในการค้นหาเส้นทางที่เร็วที่สุดไปยังเทคโนโลยีหรือความเชี่ยวชาญเฉพาะทาง</Text>		<!-- The Technology Tree is a comprehensive view of all of the Technologies available through the entire Age.[n]The paths connecting each Technology indicate the prerequisites required in order to research future Techs. Use the tree as a guide to find the quickest path to a specific Tech or Tech Mastery. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CONTINUED_PRODUCTION_TITLE" Language="th_TH">
 			<Text>ต่อเนื่อง [icon:YIELD_PRODUCTION]กำลังผลิต</Text>		<!-- Continued [icon:YIELD_PRODUCTION] Production -->
@@ -16695,7 +16695,7 @@
 			<Text>แนวคิด</Text>		<!-- Civics -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_FIRST_CIVIC_COMPLETED_BODY" Language="th_TH">
-			<Text>แนวคิดใหม่ของสังคมได้นำไปสู่การพัฒนา [b]{1_CivicName}[/b] พลเมืองแรกนี้ช่วยให้คุณสามารถสร้าง [b]รัฐบาล[/b] และบังคับใช้นโยบายสังคม ซึ่งเป็นโบนัสที่ทรงพลังที่ปลดล็อกเมื่อคุณก้าวหน้าไปตาม [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]ต้นไม้พลเมือง[/b]</Text>		<!-- New notions of society have led to the development of [b]{1_CivicName}[/b]. This first Civic allows you to form a [b]Government [/b]and enact [b]Social Policies[/b], powerful bonuses unlocked as you progress through the [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]Civic tree[/b]. -->
+			<Text>แนวคิดใหม่ของสังคมได้นำไปสู่การพัฒนา [b]{1_CivicName}[/b] พลเมืองแรกนี้ช่วยให้คุณสามารถสร้าง [b]รัฐบาล[/b] และบังคับใช้นโยบายสังคม ซึ่งเป็นโบนัสที่ทรงพลังที่ปลดล็อกเมื่อคุณก้าวหน้าไปตาม [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]ผังแนวคิด[/b]</Text>		<!-- New notions of society have led to the development of [b]{1_CivicName}[/b]. This first Civic allows you to form a [b]Government [/b]and enact [b]Social Policies[/b], powerful bonuses unlocked as you progress through the [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]Civic tree[/b]. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CHOOSE_FIRST_CIVIC_TITLE" Language="th_TH">
 			<Text>เลือกแนวคิด</Text>		<!-- Choose Civic -->
@@ -16877,7 +16877,7 @@
 			<Text>กด [action:{1_Icon}] เพื่อเลือก</Text>		<!--  press [action:{1_Icon}] to select  -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_COMMANDER_PROMOTION_TREES_TITLE" Language="th_TH">
-			<Text>ต้นไม้ส่งเสริมการขาย</Text>		<!-- Promotion Trees -->
+			<Text>ผังการเลื่อนขั้น</Text>		<!-- Promotion Trees -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_COMMANDER_PROMOTION_TREES_BODY" Language="th_TH">
 			<Text>ผู้บัญชาการของคุณสามารถเข้าถึงการเลื่อนขั้นต่างๆ มากมาย ซึ่งจัดเป็นหลายสายวินัย แต่ละการเลื่อนขั้นจะปลดล็อกความสามารถหรือทักษะใหม่ที่ผู้บัญชาการของคุณสามารถใช้ในสนามรบได้ คุณสามารถเลือกที่จะกระจายทักษะของยูนิตผู้บัญชาการของคุณ หรือคุณสามารถเลือกที่จะเชี่ยวชาญโดยมุ่งเน้นไปที่สายวินัยเฉพาะ</Text>		<!-- Your Commander has access to many different Promotions organized into several discipline trees. Each promotion unlocks a new ability or skill your [b]Commander [/b]can use on the battlefield.[n][n]You can choose to diversify the skills of your Commander Units, or you can specialize by focusing on a specific discipline tree. -->
@@ -16889,10 +16889,10 @@
 			<Text>ยูนิตสนับสนุนใหม่ของเรา [b]{1_UnitName}[/b] ควรถูกย้ายไปยังนิคมต่างประเทศเพื่อสร้าง [icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] [b]เส้นทางการค้า[/b] คุณจะต้องฝึก [b]{1_UnitName}[/b] ใหม่สำหรับแต่ละเส้นทางการค้าเพิ่มเติมที่คุณต้องการตั้งขึ้น เส้นทางการค้า[b]ให้คุณเข้าถึง [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]ทรัพยากร[/b] ของนิคมอื่น ๆ ซึ่งสามารถจัดสรรให้กับนิคมของคุณเองได้</Text>		<!-- Our new Support Unit, the [b]{1_UnitName}[/b], should be moved to a foreign Settlement to establish a [icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] [b]Trade Route[/b]. You will need to train a new [b]{1_UnitName} [/b]for each additional Trade Route you want to set up. A [b]Trade Route [/b]grants you access to the other Settlements's [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]Resources[/b], which can then be allocated to your own Settlements. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_WAR_WEARINESS_TITLE" Language="th_TH">
-			<Text>ความเหนื่อยล้าจากสงคราม</Text>		<!-- War Weariness -->
+			<Text>ผลกระทบจากสงคราม</Text>		<!-- War Weariness -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_WAR_WEARINESS_BODY" Language="th_TH">
-			<Text>ประชาชนใน {1_cityName} มีความทุกข์จากสงครามที่ดำเนินอยู่ คุณได้มอบการสนับสนุนทางการฑูตน้อยกว่าคู่ต่อสู้ของคุณ ซึ่งทำให้เกิด [b]ความเหนื่อยล้าจากสงคราม[/b].[n][n]ทุกๆ จุดของความเหนื่อยล้าจากสงครามจะลดความแข็งแกร่งในการรบของยูนิตทั้งหมดของคุณที่ต่อสู้กับคู่ต่อสู้นั้นลง 1 และลด[icon:YIELD_HAPPINESS] [b]ความสุข[/b]ในทุกๆ ถิ่นฐานของคุณ โทษความสุขจะสูงขึ้นในถิ่นฐานที่คุณยึดได้ในยุคปัจจุบัน และสูงขึ้นอีกหากถิ่นฐานนั้นถูกก่อตั้งโดยอารยธรรมที่คุณกำลังทำสงครามด้วย.[n][n]คุณสามารถใช้ [icon:YIELD_DIPLOMACY] [b]อิทธิพล[/b]เพื่อเพิ่มการสนับสนุนให้กับสงครามของคุณและเพิ่มขวัญกำลังใจให้กับประชาชนในอารยธรรม {2_civAdj} หรือหากคุณเพิ่มการสนับสนุนมากพอ ก็สามารถทำให้เกิดความเหนื่อยล้าจากสงครามกับศัตรูของคุณแทนได้</Text>		<!-- The people of {1_cityName} are distressed by ongoing war. You have committed less Diplomatic Support than your opponent, causing [b]War Weariness[/b].[n][n]Each point of War Weariness reduces the Combat Strength of all your Units against that opponent by 1 and reduces [icon:YIELD_HAPPINESS] [b]Happiness [/b]in all of your Settlements. The Happiness penalty is higher in Settlements you capture in the current Age and higher still if those Settlements were founded by a Civilization you are currently at war with.[n][n]You can spend [icon:YIELD_DIPLOMACY] [b]Influence [/b]to add Support to your wars and uplift the people of the {2_civAdj} Civilization, or, if you add enough Support, even impose War Weariness on your enemies instead. -->
+			<Text>ประชาชนใน {1_cityName} มีความทุกข์จากสงครามที่ดำเนินอยู่ คุณได้มอบการสนับสนุนทางการฑูตน้อยกว่าคู่ต่อสู้ของคุณ ซึ่งทำให้เกิด [b]ผลกระทบจากสงคราม[/b].[n][n]ทุกๆ จุดของผลกระทบจากสงครามจะลดความแข็งแกร่งในการรบของยูนิตทั้งหมดของคุณที่ต่อสู้กับคู่ต่อสู้นั้นลง 1 และลด[icon:YIELD_HAPPINESS] [b]ความสุข[/b]ในทุกๆ ถิ่นฐานของคุณ โทษความสุขจะสูงขึ้นในถิ่นฐานที่คุณยึดได้ในยุคปัจจุบัน และสูงขึ้นอีกหากถิ่นฐานนั้นถูกก่อตั้งโดยอารยธรรมที่คุณกำลังทำสงครามด้วย.[n][n]คุณสามารถใช้ [icon:YIELD_DIPLOMACY] [b]อิทธิพล[/b]เพื่อเพิ่มการสนับสนุนให้กับสงครามของคุณและเพิ่มขวัญกำลังใจให้กับประชาชนในอารยธรรม {2_civAdj} หรือหากคุณเพิ่มการสนับสนุนมากพอ ก็สามารถทำให้เกิดผลกระทบจากสงครามกับศัตรูของคุณแทนได้</Text>		<!-- The people of {1_cityName} are distressed by ongoing war. You have committed less Diplomatic Support than your opponent, causing [b]War Weariness[/b].[n][n]Each point of War Weariness reduces the Combat Strength of all your Units against that opponent by 1 and reduces [icon:YIELD_HAPPINESS] [b]Happiness [/b]in all of your Settlements. The Happiness penalty is higher in Settlements you capture in the current Age and higher still if those Settlements were founded by a Civilization you are currently at war with.[n][n]You can spend [icon:YIELD_DIPLOMACY] [b]Influence [/b]to add Support to your wars and uplift the people of the {2_civAdj} Civilization, or, if you add enough Support, even impose War Weariness on your enemies instead. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_COMBAT_CITY_CAPTURE_TITLE" Language="th_TH">
 			<Text>ปิดล้อม</Text>		<!-- Siege -->
@@ -16904,7 +16904,7 @@
 			<Text>ขีดจำกัดถิ่นฐาน</Text>		<!-- Settlement Limit -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SETTLEMENT_CAP_BODY" Language="th_TH">
-			<Text>คุณได้ถึงขีดจำกัดถิ่นฐานที่อารยธรรมของคุณสามารถดูแลได้อย่างง่ายดายแล้ว หากคุณรับถิ่นที่อยู่อาศัยเพิ่มเติม คุณจะได้รับโทษ -5 [icon:YIELD_HAPPINESS] [b]ความสุข[/b] จากถิ่นที่อยู่อาศัยทั้งหมดของคุณสำหรับแต่ละแห่งที่เกินขีดจำกัด [n][n]มองหาวิธีเพิ่มขีดจำกัดถิ่นที่อยู่อาศัยในต้นไม้ [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]Civic[/b], [icon:NOTIFICATION_TECH_DISCOVERED] [b]Tech[/b], และ [icon:NOTIFICATION_CAN_BUY_ATTRIBUTE_SKILL] [b]Attribute [/b]เพื่อพัฒนาอารยธรรมของคุณต่อไป</Text>		<!-- You have reached the limit on how many Settlements your Civilization can easily maintain. If you acquire additional Settlements, you will take a -5 [icon:YIELD_HAPPINESS] [b]Happiness [/b]penalty to all of your Settlements for each one over the limit.[n][n]Look for Settlement limit increases in the [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]Civic[/b], [icon:NOTIFICATION_TECH_DISCOVERED] [b]Tech[/b], and [icon:NOTIFICATION_CAN_BUY_ATTRIBUTE_SKILL] [b]Attribute [/b]trees to further grow your Civilization. -->
+			<Text>คุณได้ถึงขีดจำกัดถิ่นฐานที่อารยธรรมของคุณสามารถดูแลได้อย่างง่ายดายแล้ว หากคุณรับถิ่นที่อยู่อาศัยเพิ่มเติม คุณจะได้รับโทษ -5 [icon:YIELD_HAPPINESS] [b]ความสุข[/b] จากถิ่นที่อยู่อาศัยทั้งหมดของคุณสำหรับแต่ละแห่งที่เกินขีดจำกัด [n][n]มองหาวิธีเพิ่มขีดจำกัดถิ่นที่อยู่อาศัยใน [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]แนวคิด[/b], [icon:NOTIFICATION_TECH_DISCOVERED] [b]เทคโนโลยี[/b], และ [icon:NOTIFICATION_CAN_BUY_ATTRIBUTE_SKILL] [b]คุณลักษณะ [/b]เพื่อพัฒนาอารยธรรมของคุณต่อไป</Text>		<!-- You have reached the limit on how many Settlements your Civilization can easily maintain. If you acquire additional Settlements, you will take a -5 [icon:YIELD_HAPPINESS] [b]Happiness [/b]penalty to all of your Settlements for each one over the limit.[n][n]Look for Settlement limit increases in the [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]Civic[/b], [icon:NOTIFICATION_TECH_DISCOVERED] [b]Tech[/b], and [icon:NOTIFICATION_CAN_BUY_ATTRIBUTE_SKILL] [b]Attribute [/b]trees to further grow your Civilization. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILESTONE_COMPLETED_TITLE" Language="th_TH">
 			<Text>เหตุการณ์สำคัญ</Text>		<!-- Milestones -->
@@ -16979,7 +16979,7 @@
 			<Text>[icon: YIELD_HAPPINESS]ความสุข[icon: YIELD_HAPPINESS]</Text>		<!-- [icon:YIELD_HAPPINESS]Happiness[icon:YIELD_HAPPINESS] -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_HAPPINESS_INTRO_BODY" Language="th_TH">
-			<Text>[icon:YIELD_HAPPINESS] [b]ความสุข [/b]วัดระดับความพอใจของคนในอาณาจักรของคุณที่มีต่อคุณ[n]ชุมชนจะส่งความสุขที่เกินมาให้คุณ หลังจากที่สะสมความสุขที่เกินมาได้พอเพียงแล้ว คุณจะได้รับการเฉลิมฉลอง! ชุมชนที่มีความสุขติดลบจะได้รับบทลงโทษในกำลังผลิต[n]เพื่อได้รับความสุข ให้ตั้งถิ่นฐานใกล้น้ำจืด จัดวาง [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]ทรัพยากร [/b]ที่มอบความสุข และก่อสร้างอาคารและสิ่งมหัศจรรย์ที่เพิ่มความสุข การจัดการชุมชนที่ไม่ดีและสงครามที่ยืดเยื้อสามารถลดความสุขในชุมชนได้[n][n]ไม่ต้องกังวล ที่ปรึกษาของคุณอยู่ที่นี่เพื่อตรวจสอบ [icon:YIELD_HAPPINESS] [b]ความสุข [/b]และเตือนคุณเมื่อมีปัญหาใดๆ เกิดขึ้น</Text>		<!-- [icon:YIELD_HAPPINESS] [b]Happiness [/b]measures your people's satisfaction with you.[n]Settlements send you excess Happiness. After enough excess Happiness has been accrued, you will earn a Celebration! Settlements with negative Happiness will receive yield penalties.[n]To earn Happiness settle near fresh water, slot [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]Resources [/b]that grant Happiness, and construct Happiness Buildings and Wonders. Poor Settlement management and ongoing Wars can reduce Happiness in Settlements.[n][n]Don't fret, your Advisors are here to monitor your [icon:YIELD_HAPPINESS] [b]Happiness [/b]and alert you of any issues. -->
+			<Text>[icon:YIELD_HAPPINESS] [b]ความสุข [/b]วัดระดับความพอใจของคนในอาณาจักรของคุณที่มีต่อคุณ[n]ชุมชนจะส่งความสุขที่เกินมาให้คุณ หลังจากที่สะสมความสุขที่เกินมาได้พอเพียงแล้ว คุณจะได้รับการเฉลิมฉลอง! ชุมชนที่มีความสุขติดลบจะได้รับบทลงโทษในกำลังผลิต[n]เพื่อได้รับความสุข ให้ตั้งถิ่นฐานใกล้น้ำจืด จัดวาง [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]ทรัพยากร [/b]ที่มอบความสุข และก่อสร้างอาคารและสิ่งมหัศจรรย์ที่เพิ่มความสุข การจัดการชุมชนที่ไม่ดีและสงครามที่ยืดเยื้อสามารถลดความสุขในถิ่นฐานได้[n][n]ไม่ต้องกังวล ที่ปรึกษาของคุณอยู่ที่นี่เพื่อตรวจสอบ [icon:YIELD_HAPPINESS] [b]ความสุข [/b]และเตือนคุณเมื่อมีปัญหาใดๆ เกิดขึ้น</Text>		<!-- [icon:YIELD_HAPPINESS] [b]Happiness [/b]measures your people's satisfaction with you.[n]Settlements send you excess Happiness. After enough excess Happiness has been accrued, you will earn a Celebration! Settlements with negative Happiness will receive yield penalties.[n]To earn Happiness settle near fresh water, slot [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]Resources [/b]that grant Happiness, and construct Happiness Buildings and Wonders. Poor Settlement management and ongoing Wars can reduce Happiness in Settlements.[n][n]Don't fret, your Advisors are here to monitor your [icon:YIELD_HAPPINESS] [b]Happiness [/b]and alert you of any issues. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CELEBRATIONS_TITLE" Language="th_TH">
 			<Text>การเฉลิมฉลอง</Text>		<!-- Celebrations -->
@@ -17015,7 +17015,7 @@
 			<Text>อาคารพิเศษ</Text>		<!-- A Unique Building -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_UNLOCKED_FIRST_UNIQUE_BUILDING_BODY" Language="th_TH">
-			<Text>คุณสามารถสร้าง [b]{1_BuildingName}[/b], [b]อาคารสุดพิเศษ[/b] ได้แล้ว! อาคารนี้เป็นเอกลักษณ์เฉพาะของอารยธรรม {2_CivAdjective} และมีโบนัสพิเศษเฉพาะตัว [n][n]คุณสามารถปลดล็อก [b]อาคารพิเศษอื่นโดยการศึกษาต้นไม้พลเรือนของ {3_CivName} อย่างต่อเนื่อง[/b]; วางทั้งสองไว้ในเขตเดียวกันเพื่อสร้าง [b]ย่านพิเศษ[/b] และปลดล็อกโบนัสพิเศษเพิ่มเติม![n][n]ย่านพิเศษของ {2_CivAdjective}, {4_QuarterName}, มอบผลกระทบต่อไปนี้เมื่อเสร็จสิ้น: [b]{5_QuarterEffect}[/b]</Text>		<!-- You can now build the [b]{1_BuildingName}, [/b] a [b]Unique Building[/b]! This building is unique to the {2_CivAdjective} civilization, and has special bonuses.[n][n]You can unlock [b]another unique building by continuing to study the {3_CivName} Civic Tree[/b]; put both in the same district to create a [b]Unique Quarter [/b]and unlock even more special bonuses![n][n]The {2_CivAdjective} Unique Quarter, the {4_QuarterName}, grants the following effect on completion: [b]{5_QuarterEffect}[/b] -->
+			<Text>คุณสามารถสร้าง [b]{1_BuildingName}[/b], [b]อาคารสุดพิเศษ[/b] ได้แล้ว! อาคารนี้เป็นเอกลักษณ์เฉพาะของอารยธรรม {2_CivAdjective} และมีโบนัสพิเศษเฉพาะตัว [n][n]คุณสามารถปลดล็อก [b]อาคารพิเศษอื่นโดยการศึกษา ผังแนวคิด ของ {3_CivName} อย่างต่อเนื่อง[/b]; วางทั้งสองไว้ในเขตเดียวกันเพื่อสร้าง [b]ย่านพิเศษ[/b] และปลดล็อกโบนัสพิเศษเพิ่มเติม![n][n]ย่านพิเศษของ {2_CivAdjective}, {4_QuarterName}, มอบผลกระทบต่อไปนี้เมื่อเสร็จสิ้น: [b]{5_QuarterEffect}[/b]</Text>		<!-- You can now build the [b]{1_BuildingName}, [/b] a [b]Unique Building[/b]! This building is unique to the {2_CivAdjective} civilization, and has special bonuses.[n][n]You can unlock [b]another unique building by continuing to study the {3_CivName} Civic Tree[/b]; put both in the same district to create a [b]Unique Quarter [/b]and unlock even more special bonuses![n][n]The {2_CivAdjective} Unique Quarter, the {4_QuarterName}, grants the following effect on completion: [b]{5_QuarterEffect}[/b] -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_UNIQUE_QUARTER_AVAILABLE_TITLE" Language="th_TH">
 			<Text>ย่านพิเศษ</Text>		<!-- A Unique Quarter -->
@@ -17148,7 +17148,7 @@
 		<Replace Tag="LOC_TUTORIAL_LEGACY_PROGRESS_SCREEN_INFO_BODY" Language="th_TH">
 			<Text>ไม่มี</Text>		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_1_ACCEPTED_TITLE" Language="th_TH">
-			<Text>เส้นทางแห่งมรดก: {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} I</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} I -->
+			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} I</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} I -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_1_ACCEPTED_ADVISOR_BODY" Language="th_TH">
 			<Text>โลกเต็มไปด้วยปริศนานับไม่ถ้วนที่รอการค้นพบ และข้าพเจ้าซึ่งเป็นที่ปรึกษาด้านวิทยาศาสตร์ผู้ถ่อมตนของท่าน มีความตั้งใจจะแสดงหนทางให้ท่านเห็น
@@ -17157,7 +17157,7 @@
 				[n]Let us begin by devising a way to record our very thoughts. Such records would not only allow us to hold a mirror up to nature, but to harness its power and reshape the world. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_1_ACCEPTED_BODY" Language="th_TH">
-			<Text>วัตถุประสงค์: [b]วิจัย [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_WRITING_NAME}[/b], เป็นก้าวแรกสู่การสร้าง [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} [/b][icon:YIELD_SCIENCE] มรดกทางวิทยาศาสตร์แห่งยุคโบราณ [n][n]จำไว้ว่า: [icon:NOTIFICATION_TEAM_VICTORIOUS] [b]มรดก [/b]ช่วยพัฒนาประสิทธิภาพของคุณในยุคต่อไป, แต่ [b]คุณสามารถเลือกที่จะทำตามหนึ่ง, หลาย, หรือไม่ทำตามเลยก็ได้[/b]</Text>		<!-- Objective: [b]Research [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_WRITING_NAME}[/b], the first step towards establishing a [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} [/b][icon:YIELD_SCIENCE] Science Legacy of the Antiquity Age.
+			<Text>เป้าหมายถัดไป: [b]วิจัย [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_WRITING_NAME}[/b], เป็นก้าวแรกสู่การสร้าง [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} [/b][icon:YIELD_SCIENCE] มรดกทางวิทยาศาสตร์แห่งยุคโบราณ [n][n]จำไว้ว่า: [icon:NOTIFICATION_TEAM_VICTORIOUS] [b]มรดก [/b]ช่วยพัฒนาประสิทธิภาพของคุณในยุคต่อไป, แต่ [b]คุณสามารถเลือกที่จะทำตามหนึ่ง, หลาย, หรือไม่ทำตามเลยก็ได้[/b]</Text>		<!-- Objective: [b]Research [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_WRITING_NAME}[/b], the first step towards establishing a [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} [/b][icon:YIELD_SCIENCE] Science Legacy of the Antiquity Age.
 				[n][n]Remember: [icon:NOTIFICATION_TEAM_VICTORIOUS] [b]Legacies [/b]improve your performance in later Ages, but [b]you can choose to pursue one, multiple, or none at all[/b]. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_1_TRACKING_TITLE" Language="th_TH">
@@ -17175,7 +17175,7 @@
 					[n]Let us set our discoveries down in a Codex and store it in a {LOC_BUILDING_LIBRARY_NAME}. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_2_BODY" Language="th_TH">
-			<Text>บาง [icon:NOTIFICATION_TECH_DISCOVERED] [b]เทคโนโลยี[/b]และ [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]ลัทธิ[/b] มีระดับขั้นที่สองที่ก้าวหน้ามากขึ้นซึ่งสามารถวิจัยได้เมื่อเวอร์ชันพื้นฐานเสร็จสิ้นแล้ว [b]เทคโนโลยี[/b] และ [b]ลัทธิ[/b] ขั้นสูงเหล่านี้จะมอบ [b]คัมภีร์[/b] ของความรู้ที่สามารถวางไว้ภายใน [icon:BUILDING_LIBRARY] [b]{LOC_BUILDING_LIBRARY_NAME}[/b]
+			<Text>บาง [icon:NOTIFICATION_TECH_DISCOVERED] [b]เทคโนโลยี[/b] และ [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]แนวคิด[/b] มีระดับขั้นที่สองที่ก้าวหน้ามากขึ้น ซึ่งสามารถวิจัยได้เมื่อ พื้นฐานเสร็จสิ้นแล้ว [b]เทคโนโลยี[/b] และ [b]แนวคิด[/b] ขั้นสูงเหล่านี้จะมอบ [b]คัมภีร์[/b] ของความรู้ที่สามารถวางไว้ภายใน [icon:BUILDING_LIBRARY] [b]{LOC_BUILDING_LIBRARY_NAME}[/b]
 [n]เป้าหมายถัดไป: [icon:BUILDING_LIBRARY] [b]{LOC_BUILDING_LIBRARY_NAME}[/b] และรับ [b]คัมภีร์[/b] โดยทำการ [icon:YIELD_SCIENCE] [b]วิจัย[/b] [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_WRITING_NAME} II[/b] ให้เสร็จสิ้น</Text>		<!-- Some [icon:NOTIFICATION_TECH_DISCOVERED] [b]Technologies [/b]and [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]Civics [/b]have a second more advanced tier that can be researched once the base version is complete. These advanced [b]Techs [/b]and [b]Civics [/b]will award you with a [b]Codex [/b]of knowledge that can be placed inside of a [icon:BUILDING_LIBRARY] [b]{LOC_BUILDING_LIBRARY_NAME}[/b].
 				[n]Next Objective: [icon:BUILDING_LIBRARY] [b]{LOC_BUILDING_LIBRARY_NAME} [/b]and earn a [b]Codex [/b]by completing [icon:YIELD_SCIENCE] [b]Research [/b]on [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_WRITING_NAME} II[/b]. -->
 		</Replace>
@@ -17188,14 +17188,14 @@
 				[n]Research: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_WRITING_NAME} II{2_Icon} -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_3_TITLE" Language="th_TH">
-			<Text>เส้นทางแห่งมรดก: {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} III</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} III -->
+			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} III</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} III -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_3_ADVISOR_BODY" Language="th_TH">
 			<Text>คัมภีร์ เสร็จสมบูรณ์แล้ว – เป็นข้อพิสูจน์ถึงความเข้มงวดทางวิทยาศาสตร์ของประชาชนเรา แต่ฉันเชื่อว่าความลึกลับของโลกยังคงเพิ่มขึ้น และเราจำเป็นต้องพัฒนาสถาบันที่มีความสามารถในการไขปริศนาเหล่านั้น และสร้าง คัมภีร์ เพิ่มเติมเพื่อเก็บรักษาพวกมันไว้</Text>		<!-- The Codex is complete – a testament to our people's scientific rigor.
 				[n]But I believe that the mysteries of the world have only grown, and we shall need to develop institutions capable of unraveling them, and more Codices to contain them. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_3_BODY" Language="th_TH">
-			<Text>คุณได้บรรลุความสำเร็จครั้งสำคัญในด้านวิทยาศาสตร์ [icon:YIELD_SCIENCE]! คัมภีร์ เป็นสิ่งสำคัญในการก้าวไปสู่ชัยชนะทางวิทยาศาสตร์ในยุคนี้ แต่คุณจะต้องรวบรวมมากขึ้นและจัดพื้นที่ให้เพียงพอสำหรับเก็บพวกมัน
+			<Text>คุณได้บรรลุความสำเร็จครั้งสำคัญในด้าน {1_CivAdj} [icon:YIELD_SCIENCE]วิทยาศาสตร์! คัมภีร์ เป็นสิ่งสำคัญในการก้าวไปสู่ชัยชนะทางวิทยาศาสตร์ในยุคนี้ แต่คุณจะต้องรวบรวมมากขึ้น และจัดพื้นที่ให้เพียงพอสำหรับเก็บพวกมัน
 [n]เป้าหมายถัดไป: [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_MATHEMATICS_NAME}[/b] และสร้าง [icon:BUILDING_ACADEMY] [b]{LOC_BUILDING_ACADEMY_NAME}[/b] ในหนึ่งในถิ่นฐานของคุณ</Text>		<!-- You've achieved a great Milestone in {1_CivAdj} [icon:YIELD_SCIENCE] Science! Codices are essential for progressing toward a [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} [/b][icon:YIELD_SCIENCE] Science Victory in this Age, but you will need to gather more and provide ample [b]space for them to be housed[/b].
 				[n]Next Objective: [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_MATHEMATICS_NAME} [/b]and build an [icon:BUILDING_ACADEMY] [b]{LOC_BUILDING_ACADEMY_NAME} [/b]in one of your Settlements. -->
 		</Replace>
@@ -17208,13 +17208,13 @@
 				[n]Build: [icon:BUILDING_ACADEMY] {LOC_BUILDING_ACADEMY_NAME} -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_4_TITLE" Language="th_TH">
-			<Text>เส้นทางแห่งมรดก: {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} IV</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} IV -->
+			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} IV</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} IV -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_4_ADVISOR_BODY" Language="th_TH">
 			<Text>{LOC_BUILDING_ACADEMY_NAME} แห่งใหม่นี้จะยืนหยัดเป็นวัดแห่งความรู้ ฉันรู้แล้ว ขณะนี้ นักคิดที่ยิ่งใหญ่ที่สุดของ {1_civAdj} กำลังมารวมตัวกันในห้องโถงของมัน พร้อมที่จะสร้างมรดกแห่งการค้นพบ ทีละบท</Text>		<!-- This new {LOC_BUILDING_ACADEMY_NAME} shall stand as a temple to knowledge, I know it. Already, the greatest {1_civAdj} minds are gathering in its halls, ready to build a legacy of discovery – one Codex at a time. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_4_BODY" Language="th_TH">
-			<Text>คุณจะต้องชี้นำให้ชาว {1_CivAdj} รวบรวม [b]คัมภีร์[/b] เพิ่มเติมโดย [icon:NOTIFICATION_TECH_DISCOVERED] [b]ทำการวิจัย[/b] Masteries, [b]กลายเป็น Suzerian[/b] ของรัฐเมืองทางวิทยาศาสตร์ และการมีปฏิสัมพันธ์กับ [b]การค้นพบ[/b] [n]วัตถุประสงค์ถัดไป: [b]จัดแสดงคัมภีร์ 3 เล่ม[/b], เพื่อบรรลุ Milestone แรกในเส้นทางแห่งมรดก {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME}</Text>		<!-- You will need to direct the {1_CivAdj} people to collect more [b]Codices [/b]by [icon:NOTIFICATION_TECH_DISCOVERED] [b]Researching [/b]Masteries, [b]becoming Suzerian [/b]of Scientific City-States, and interacting with [b]Discoveries[/b].
+			<Text>คุณจะต้องชี้นำให้ชาว {1_CivAdj} รวบรวม [b]คัมภีร์[/b] เพิ่มเติมโดย [icon:NOTIFICATION_TECH_DISCOVERED] [b]ทำการวิจัย[/b] ความเชี่ยวชาญ, [b]กลายเป็น เจ้านคร[/b] ของนครรัฐใน เมืองทางด้านวิทยาศาสตร์ และการมีปฏิสัมพันธ์กับ [b]การค้นพบ[/b] [n]เป้าหมายถัดไป: [b]จัดแสดง คัมภีร์ 3 เล่ม[/b], เพื่อบรรลุหมุดแรก ในเส้นทางมรดก {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME}</Text>		<!-- You will need to direct the {1_CivAdj} people to collect more [b]Codices [/b]by [icon:NOTIFICATION_TECH_DISCOVERED] [b]Researching [/b]Masteries, [b]becoming Suzerian [/b]of Scientific City-States, and interacting with [b]Discoveries[/b].
 				[n]Next Objective: [b]display 3 Codices[/b], achieving the first Milestone in the {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_4_TRACKING_TITLE" Language="th_TH">
@@ -17227,7 +17227,7 @@
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} V</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} V -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_5_ADVISOR_BODY" Language="th_TH">
-			<Text>คัมภีร์ทั้งสามเล่มนี้ตั้งอยู่ในห้องโถงแห่งการเรียนรู้ของเรา บรรจุความรู้ที่สั่งสมมาของชาว {1_civAdj} ความลับใดยังคงหลบซ่อนอยู่?</Text>		<!-- Three Codices now grace our halls of learning, containing the collected knowledge of the {1_civAdj} people. What secrets yet elude us? -->
+			<Text>คัมภีร์ทั้งสามเล่มนี้ ตั้งอยู่ในห้องโถงแห่งการเรียนรู้ของเรา บรรจุความรู้ที่สั่งสมมาของชาว {1_civAdj} ความลับใดยังคงหลบซ่อนอยู่?</Text>		<!-- Three Codices now grace our halls of learning, containing the collected knowledge of the {1_civAdj} people. What secrets yet elude us? -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_5_BODY" Language="th_TH">
 			<Text>คุณได้บรรลุ [b]จุดหมายแรก[/b] ใน [b]{LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} เส้นทางมรดก[/b]! ดำเนินการรวบรวม [b]คัมภีร์[/b] ต่อไปเพื่อรับรางวัลเพิ่มเติม
@@ -17248,7 +17248,7 @@
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_6_BODY" Language="th_TH">
 			<Text>คุณได้บรรลุหมุดหมายที่ยิ่งใหญ่ลำดับที่สองในเส้นทางมรดก {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME}! ดำเนินการเก็บรวบรวม คัมภีร์ เพื่อรับกลุ่มของรางวัลสุดท้าย
-วัตถุประสงค์ถัดไป: แสดงคัมภีร์ 10 เล่ม เพื่อบรรลุหมุดหมายที่สามและหมุดหมายสุดท้ายในเส้นทางมรดก {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME}</Text>		<!-- You have achieved the second great [b]Milestone [/b]in the [b]{LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} Legacy Path[/b]! Continue to collect [b]Codices [/b]to earn the last group of rewards.
+เป้าหมายถัดไป: แสดงคัมภีร์ 10 เล่ม เพื่อบรรลุหมุดหมายที่สามและหมุดหมายสุดท้ายในเส้นทางมรดก {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME}</Text>		<!-- You have achieved the second great [b]Milestone [/b]in the [b]{LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} Legacy Path[/b]! Continue to collect [b]Codices [/b]to earn the last group of rewards.
 				[n]Next Objective: [b]display 10 Codices[/b], achieving the third and [b]final [/b]Milestone in the {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_6_TRACKING_TITLE" Language="th_TH">
@@ -17267,7 +17267,7 @@
 			<Text>ยินดีด้วย! คุณได้ [b]แสดง คัมภีร์ 10 เล่ม [/b]และสำเร็จในการทำ [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} [/b][icon:YIELD_SCIENCE] เส้นทางวิทยาศาสตร์แห่งมรดกของยุคโบราณแล้ว [n]คุณสามารถไปที่ [b]หน้าจอเส้นทางมรดก [/b]เพื่อดูเส้นทางมรดกเพิ่มเติมที่คุณสามารถติดตามได้ หรือคุณสามารถสร้างเส้นทางของคุณเอง</Text>		<!-- Congratulations! You've [b]displayed ten Codices [/b]and successfully completed the [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} [/b][icon:YIELD_SCIENCE] Science Legacy Path of the Antiquity Age. [n]You can visit the [b]Legacy Path Screen [/b]to see more Legacy Paths you can follow, or you can forge your own path. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_1_ACCEPTED_TITLE" Language="th_TH">
-			<Text>เส้นทางแห่งมรดก: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} I</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} I -->
+			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} I</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} I -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_1_ACCEPTED_ADVISOR_BODY" Language="th_TH">
 			<Text>ฉันคือที่ปรึกษาทางวัฒนธรรมของคุณ ผู้เชี่ยวชาญด้านศิลปะ ปรัชญา และสิ่งอื่น ๆ ที่ควรค่าแก่การคิด เรามีโอกาสที่จะสร้างผลงานวิศวกรรมและศิลปะที่ไม่เหมือนใคร — สิ่งมหัศจรรย์ ทำให้เราเป็นที่อิจฉาของเพื่อนบ้านทั้งหมด ใครจะต้องการพิชิตเมือง เมื่อคุณสามารถพิชิตใจ?</Text>		<!-- I am your Culture Advisor, an expert on arts, philosophy, and all other things worth thinking about.
@@ -17281,20 +17281,20 @@
 				[n][n]Remember: [icon:NOTIFICATION_TEAM_VICTORIOUS] [b]Legacies [/b]improve your performance in later Ages, but [b]you can choose to pursue one, multiple, or none at all[/b]. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_1_TRACKING_TITLE" Language="th_TH">
-			<Text>เส้นทางดั้งเดิม: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} I</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} I -->
+			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} I</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} I -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_1_TRACKING_BODY" Language="th_TH">
 			<Text>สร้าง: สิ่งมหัศจรรย์ใด ๆ {1_CompletionIcon}</Text>		<!-- Construct: any Wonder {1_CompletionIcon} -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_2_TITLE" Language="th_TH">
-			<Text>เส้นทางแห่งมรดก: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} II</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} II -->
+			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} II</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} II -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_2_ADVISOR_BODY" Language="th_TH">
 			<Text>เราได้สร้างสิ่งมหัศจรรย์แรกของเราเสร็จเรียบร้อยแล้ว! สิ่งนี้จะช่วยพวกเราในการพยายามสร้าง [b]ผลกระทบทางวัฒนธรรมที่ยั่งยืน[/b] อย่างแน่นอน แน่นอนว่าประชาชนของเราต้องการสิ่งมหัศจรรย์เพิ่มเติมในตอนนี้</Text>		<!-- We have completed our first Wonder! This will surely assist us in our efforts to create a [b]lasting Cultural impact[/b]. Of course, our people will want more Wonders now. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_2_BODY" Language="th_TH">
 			<Text>ชาว{1_CivAdj}จะต้องสร้างสิ่งมหัศจรรย์เพิ่มเติมเพื่อทำให้เส้นทางมรดกนี้เสร็จสมบูรณ์ในยุคโบราณ  
-				[n]วัตถุประสงค์ถัดไป: [b]สร้างสิ่งมหัศจรรย์ที่สอง[/b] เพื่อให้บรรลุหมุดหมายแรกในเส้นทางมรดก {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME}</Text>		<!-- The {1_CivAdj} people will need to complete more Wonders to complete this Legacy Path within the Antiquity Age.
+				[n]เป้าหมายถัดไป: [b]สร้างสิ่งมหัศจรรย์ที่สอง[/b] เพื่อให้บรรลุหมุดหมายแรกในเส้นทางมรดก {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME}</Text>		<!-- The {1_CivAdj} people will need to complete more Wonders to complete this Legacy Path within the Antiquity Age.
 				[n]Next Objective: [b]Construct a second Wonder[/b], achieving the first Milestone in the {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_2_TRACKING_TITLE" Language="th_TH">
@@ -17312,23 +17312,23 @@
 		<Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_3_BODY" Language="th_TH">
 			<Text>ด้วยการสร้างสิ่งมหัศจรรย์ที่สอง คุณได้บรรลุหมุดหมายที่ยิ่งใหญ่สำหรับ {1_CivAdj} [icon:YIELD_CULTURE] วัฒนธรรม ! เมื่อบรรลุหมุดหมายแรกเสร็จสิ้นแล้ว คุณได้ปลดล็อกรางวัลบางส่วนสำหรับยุคหน้า
 
-[n]วัตถุประสงค์ถัดไป: [b]สร้าง {2_WonderNum} สิ่งมหัศจรรย์[/b] บรรลุหมุดหมายที่สองในเส้นทางมรดก {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME}</Text>		<!-- By building a second Wonder, you've achieved a great Milestone for {1_CivAdj} [icon:YIELD_CULTURE] Culture! With the first Milestone complete, you've already unlocked some rewards for the next Age.
+[n]เป้าหมายถัดไป: [b]สร้าง {2_WonderNum} สิ่งมหัศจรรย์[/b] บรรลุหมุดหมายที่สองในเส้นทางมรดก {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME}</Text>		<!-- By building a second Wonder, you've achieved a great Milestone for {1_CivAdj} [icon:YIELD_CULTURE] Culture! With the first Milestone complete, you've already unlocked some rewards for the next Age.
 				[n]Next Objective: [b]Construct {2_WonderNum} Wonders[/b], achieving the second Milestone in the {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_3_TRACKING_TITLE" Language="th_TH">
-			<Text>เส้นทางดั้งเดิม: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} III</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} III -->
+			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} III</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} III -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_3_TRACKING_BODY" Language="th_TH">
 			<Text>สร้างสิ่งมหัศจรรย์: {1_WondersCurrent}/{2_WondersTarget}</Text>		<!-- Construct Wonders: {1_WondersCurrent}/{2_WondersTarget} -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_4_TITLE" Language="th_TH">
-			<Text>เส้นทางดั้งเดิม: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} IV</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} IV -->
+			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} IV</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} IV -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_4_ADVISOR_BODY" Language="th_TH">
 			<Text>ด้วยความมหัศจรรย์ที่สี่เสร็จสิ้น ชื่อเสียงของ {1_CivAdj} ส่องแสงสว่างไสว แต่เช่นเดียวกับไฟใดๆ ชื่อเสียงต้องการเชื้อเพลิงเติมเต็มอย่างต่อเนื่อง พวกเราไม่ต้องการที่จะเป็นคนที่เริ่มสร้างสิ่งมหัศจรรย์แล้วก็หยุดใช่ไหม?</Text>		<!-- With a fourth Wonder completed, the fame of the {1_CivAdj} burns brightly. But like any fire, fame requires constant refueling. We don't want to be the people that began building Wonders and then stopped, do we? -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_4_BODY" Language="th_TH">
-			<Text>โดยการสร้างสิ่งมหัศจรรย์สี่แห่ง คุณได้บรรลุขั้นที่สองสำหรับ {1_CivAdj} [icon:YIELD_CULTURE] วัฒนธรรม ! การทำภารกิจถัดไปให้สำเร็จจะ [b]เสร็จสมบูรณ์[/b] [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} [/b][icon:YIELD_CULTURE] เส้นทางแห่งมรดกวัฒนธรรม โดยคุณจะได้รับรางวัลพิเศษเมื่ออารยธรรมของคุณเติบโตไปไกลกว่ายุคโบราณ [n]เป้าหมายถัดไป: [b]สร้างสิ่งมหัศจรรย์ {2_WonderNum} แห่ง[/b]</Text>		<!-- By building four Wonders, you've achieved a second Milestone for {1_CivAdj} [icon:YIELD_CULTURE] Culture! Completing the next quest will [b]complete [/b]the [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} [/b][icon:YIELD_CULTURE] Culture Legacy Path, earning you special rewards as your Civilization grows beyond the Antiquity Age.
+			<Text>โดยการสร้างสิ่งมหัศจรรย์สี่แห่ง คุณได้บรรลุขั้นที่สองสำหรับ {1_CivAdj} [icon:YIELD_CULTURE] วัฒนธรรม ! การทำภารกิจถัดไปให้สำเร็จจะ [b]เสร็จสมบูรณ์[/b] [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} [/b][icon:YIELD_CULTURE] เส้นทางมรดกวัฒนธรรม โดยคุณจะได้รับรางวัลพิเศษเมื่ออารยธรรมของคุณเติบโตไปไกลกว่ายุคโบราณ [n]เป้าหมายถัดไป: [b]สร้างสิ่งมหัศจรรย์ {2_WonderNum} แห่ง[/b]</Text>		<!-- By building four Wonders, you've achieved a second Milestone for {1_CivAdj} [icon:YIELD_CULTURE] Culture! Completing the next quest will [b]complete [/b]the [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} [/b][icon:YIELD_CULTURE] Culture Legacy Path, earning you special rewards as your Civilization grows beyond the Antiquity Age.
 				[n]Next Objective: [b]Construct {2_WonderNum} Wonders[/b]. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_4_TRACKING_TITLE" Language="th_TH">
@@ -17347,7 +17347,7 @@
 			<Text>ขอแสดงความยินดี! คุณได้สร้างสิ่งมหัศจรรย์ทั้งเจ็ดและสำเร็จเส้นทางมรดกทางวัฒนธรรมยุคโบราณ [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} [/b][icon:YIELD_CULTURE] อย่างสมบูรณ์ [n]คุณสามารถเข้าไปที่ [b]หน้าจอเส้นทางมรดก [/b]เพื่อดูเส้นทางมรดกเพิ่มเติมที่คุณสามารถทำตามได้ หรือคุณสามารถสร้างเส้นทางของคุณเองก็ได้</Text>		<!-- Congratulations! You've built seven Wonders and successfully completed the [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} [/b][icon:YIELD_CULTURE] Culture Legacy Path of the Antiquity Age. [n]You can visit the [b]Legacy Path Screen [/b]to see more Legacy Paths you can follow, or you can forge your own path. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_INTRO_TITLE" Language="th_TH">
-			<Text>เส้นทางดั้งเดิม: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} I</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} I -->
+			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} I</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} I -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_INTRO_ADVISOR_BODY" Language="th_TH">
 			<Text>เวลามีค่า ดังนั้นขอให้ฉันพูดสั้น ๆ – ฉันเป็นที่ปรึกษาด้านเศรษฐกิจของคุณ และฉันตั้งใจที่จะทำให้คุณร่ำรวย
@@ -17356,8 +17356,7 @@
 				[n]There is a bounty in the world's Resources. Let us make certain that we are the ones to reap it. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_INTRO_BODY" Language="th_TH">
-			<Text>วัตถุประสงค์: ศึกษา [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]{LOC_CIVIC_CODE_OF_LAWS_NAME} [/b]รัฐบาลพลเมืองโดยเร็วที่สุดเพื่อปลดล็อก [b]{1_UnitName} [/b]ยูนิต ซึ่งมีความสามารถในการสร้าง [icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] [b]เส้นทางการค้า[/b]  
-[n][icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] [b]เส้นทางการค้า [/b]จะให้คุณได้รับ [icon:YIELD_GOLD] [b]ทอง[/b], [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]ทรัพยากร[/b], และความก้าวหน้าสำหรับเส้นทางมรดกเศรษฐกิจ [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} [/b][icon:YIELD_GOLD]  
+			<Text>เป้าหมายถัดไป: ศึกษาแนวคิด [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]{LOC_CIVIC_CODE_OF_LAWS_NAME} [/b]โดยเร็วที่สุดเพื่อปลดล็อก [b]{1_UnitName}[/b] ซึ่งมีความสามารถในการสร้าง [icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] [b]เส้นทางการค้า[/b] ตัวความสามารถของ [icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] [b]เส้นทางการค้า [/b]จะให้คุณได้รับ [icon:YIELD_GOLD] [b]ทอง[/b], [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]ทรัพยากร[/b], และความก้าวหน้าสำหรับเส้นทางมรดกเศรษฐกิจ [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} [/b][icon:YIELD_GOLD]  
 [n][n]จำไว้ว่า: [icon:NOTIFICATION_TEAM_VICTORIOUS] [b]มรดก [/b]ช่วยพัฒนาผลงานของคุณในยุคต่อไป แต่ว่า [b]คุณสามารถเลือกที่จะทำตามหนึ่ง, หลาย, หรือไม่ทำตามเลยก็ได้[/b]</Text>		<!-- Objective: Study [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]{LOC_CIVIC_CODE_OF_LAWS_NAME} [/b]Civic as soon as possible to unlock the [b]{1_UnitName} [/b]Unit, which has the ability to establish [icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] [b]Trade Routes[/b].
 				[n][icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] [b]Trade Routes [/b]will grant you [icon:YIELD_GOLD] [b]Gold[/b], [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]Resources[/b], and progress for the [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} [/b][icon:YIELD_GOLD] Economic Legacy Path.
 				[n][n]Remember: [icon:NOTIFICATION_TEAM_VICTORIOUS] [b]Legacies [/b]improve your performance in later Ages, but [b]you can choose to pursue one, multiple, or none at all[/b]. -->
@@ -17372,18 +17371,18 @@
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} II</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} II -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_1_ADVISOR_BODY" Language="th_TH">
-			<Text>ตอนนี้เรามี [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]{LOC_CIVIC_CODE_OF_LAWS_NAME}[/b] และที่สำคัญกว่า มี [icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] {1_UnitName} [n]ถ้าคุณส่ง {1_UnitName} ไปยังหมู่บ้านนอกพรมแดนของเรา มันจะนำความมั่งคั่งที่เกินกว่าที่เราจะฝันถึงมาให้เรา แต่ไม่ต้องสงสัยเลย – นี่เป็นเพียงการเริ่มต้นเท่านั้น</Text>		<!-- We now have a [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]{LOC_CIVIC_CODE_OF_LAWS_NAME}[/b], and – more importantly, a [icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] {1_UnitName}.
+			<Text>ตอนนี้เรามี [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]{LOC_CIVIC_CODE_OF_LAWS_NAME}[/b] และที่สำคัญกว่า มี [icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] {1_UnitName} ถ้าคุณส่ง {1_UnitName} ไปยังหมู่บ้านนอกพรมแดนของเรา มันจะนำความมั่งคั่งที่เกินกว่า ที่เราจะฝันถึงมาให้เรา แต่ไม่ต้องสงสัยเลย – นี่เป็นเพียงการเริ่มต้นเท่านั้น</Text>		<!-- We now have a [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]{LOC_CIVIC_CODE_OF_LAWS_NAME}[/b], and – more importantly, a [icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] {1_UnitName}.
 				[n]If you send the {1_UnitName} to a Settlement beyond our borders, it will acquire for us riches beyond our dreaming. But make no mistake – this is only the start. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_1_BODY" Language="th_TH">
-			<Text>วัตถุประสงค์: สร้าง [icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] [b]เส้นทางการค้า[/b] คะแนนแรกที่คุณจะได้รับสำหรับ [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} [/b][icon:YIELD_GOLD] มรดกเศรษฐกิจแห่งยุคโบราณ [n]เพื่อทำสิ่งนี้ คุณต้องพา {1_UnitName} ใหม่ของคุณไปยังอารยธรรมต่างประเทศที่เป็นมิตร และใช้การกระทำ [icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] [b]สร้างเส้นทางการค้า[/b] คุณจะต้องเลือก [b]ถิ่นฐานที่อยู่ใกล้เคียง[/b] เนื่องจากผู้ค้าของคุณสามารถเดินทางได้ไม่ไกลในขณะนี้</Text>		<!-- Objective: Create a [icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] [b]Trade Route[/b], the first point you will score towards a [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} [/b][icon:YIELD_GOLD] Economic Legacy of the Antiquity Age.
+			<Text>เป้าหมายถัดไป: สร้าง [icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] [b]เส้นทางการค้า[/b] คะแนนแรกที่คุณจะได้รับสำหรับ [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} [/b][icon:YIELD_GOLD] มรดกเศรษฐกิจแห่งยุคโบราณ เพื่อทำสิ่งนี้ คุณต้องพา {1_UnitName} ใหม่ของคุณไปยังอารยธรรมต่างประเทศที่เป็นมิตร และใช้การกระทำ [icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] [b]สร้างเส้นทางการค้า[/b] คุณจะต้องเลือก [b]ถิ่นฐานที่อยู่ใกล้เคียง[/b] เนื่องจากผู้ค้าของคุณสามารถเดินทางได้ไม่ไกลในขณะนี้</Text>		<!-- Objective: Create a [icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] [b]Trade Route[/b], the first point you will score towards a [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} [/b][icon:YIELD_GOLD] Economic Legacy of the Antiquity Age.
 				[n]To do this, you must take your new {1_UnitName} to a friendly foreign Civilization and use the [icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] [b]Create Trade Route [/b]Action. You'll need to pick a [b]nearby Settlement [/b]as your traders can only travel so far right now. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_1_TRACKING_TITLE" Language="th_TH">
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} II</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} II -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_1_TRACKING_BODY" Language="th_TH">
-			<Text>ย้าย: {1_UnitName} ไปยังดินแดนต่างประเทศ[n]เริ่มต้น: เส้นทางการค้า</Text>		<!-- Move: {1_UnitName} to foreign land[n]Initiate: Trade Route -->
+			<Text>เคลื่อนที่: {1_UnitName} ไปยังดินแดนต่างประเทศ[n]เริ่มต้น: เส้นทางการค้า</Text>		<!-- Move: {1_UnitName} to foreign land[n]Initiate: Trade Route -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_2_TITLE" Language="th_TH">
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} III</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} III -->
@@ -17409,10 +17408,10 @@
 			<Text>ดี – ความสัมพันธ์ที่แข็งแกร่งเป็นพื้นฐานของการค้า ตราบใดที่เราไม่ได้ทำสงครามกับอารยธรรมอื่น สิ่งที่เป็นของพวกเขาก็จะเป็นของเรา ให้เรามาดูกันว่าพันธมิตรของเราสามารถเสนออะไรให้เราได้อีก</Text>		<!-- Good – a strong relationship is the foundation of trade. As long as we are not at War with another Civilization, then what's theirs will be ours. Let us see what else our associates can offer us. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_3_BODY" Language="th_TH">
-			<Text>ทุกครั้งที่คุณได้รับ [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]ทรัพยากร[/b] ผ่านทาง [icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] [b]การค้า[/b] หรือการขยายตัว จะนำคุณก้าวหน้าไปในเส้นทางแห่งมรดก [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} [/b] ซึ่งทำให้คุณได้รับรางวัลพิเศษเมื่ออารยธรรมของคุณเติบโตเกินกว่ายุคโบราณ [n]เป้าหมายถัดไป: สะสมทรัพยากร [icon:NOTIFICATION_DISCOVER_RESOURCE] 7 ครั้ง เพื่อบรรลุเหตุการณ์สำคัญแรกในเส้นทางแห่งมรดก {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME}</Text>		<!-- Every [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]Resource [/b]you receive, via [icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] [b]Trade [/b]or expansion, progresses you along the [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} [/b]Legacy Path, earning you special rewards as your Civilization grows beyond the Antiquity Age.[n]Next Objective: Slot 7 [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources, achieving the first Milestone in the {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} Legacy Path. -->
+			<Text>ทุกครั้งที่คุณได้รับ [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]ทรัพยากร[/b] ผ่านทาง [icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] [b]การค้า[/b] หรือการขยายตัว จะนำคุณก้าวหน้าไปในเส้นทางมรดก [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} [/b] ซึ่งทำให้คุณได้รับรางวัลพิเศษเมื่ออารยธรรมของคุณเติบโตเกินกว่ายุคโบราณ [n]เป้าหมายถัดไป: สะสมทรัพยากร [icon:NOTIFICATION_DISCOVER_RESOURCE] 7 ครั้ง เพื่อบรรลุเหตุการณ์สำคัญแรกในเส้นทางมรดก {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME}</Text>		<!-- Every [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]Resource [/b]you receive, via [icon:NOTIFICATION_TRADE_ROUTE_TO_YOU] [b]Trade [/b]or expansion, progresses you along the [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} [/b]Legacy Path, earning you special rewards as your Civilization grows beyond the Antiquity Age.[n]Next Objective: Slot 7 [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources, achieving the first Milestone in the {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_3_TRACKING_TITLE" Language="th_TH">
-			<Text>เส้นทางแห่งมรดก: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} IV</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} IV -->
+			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} IV</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} IV -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_3_TRACKING_BODY" Language="th_TH">
 			<Text>สล็อต: 7 [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร</Text>		<!-- Slot: 7 [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources -->
@@ -17421,25 +17420,25 @@
 			<Text>สล็อต: 7 [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร</Text>		<!-- Slot: 7 [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_4_TITLE" Language="th_TH">
-			<Text>เส้นทางแห่งมรดก: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} V</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} V -->
+			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} V</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} V -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_4_ADVISOR_BODY" Language="th_TH">
 			<Text>ด้วยทรัพยากรจำนวนมากที่เรามีอยู่ ความมั่งคั่งของโลกก็เป็นของเราให้เพลิดเพลิน ฉันไม่เห็นเหตุผลที่จะหยุด</Text>		<!-- With so many [b]Resources[/b] at our disposal, the wealth of the world is ours to enjoy. I see no reason to stop. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_4_BODY" Language="th_TH">
-			<Text>เป้าหมายถัดไป: ช่องที่ 14 [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร, บรรลุหลักชัยที่สองในเส้นทางมรดก {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME}</Text>		<!-- Next Objective: Slot 14 [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources, achieving the second Milestone in the {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} Legacy Path. -->
+			<Text>เป้าหมายถัดไป: ได้รับ [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร 14 ช่อง, บรรลุหลักชัยที่สองในเส้นทางมรดก {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME}</Text>		<!-- Next Objective: Slot 14 [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources, achieving the second Milestone in the {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_4_BODY" Language="th_TH">
-			<Text>เป้าหมายถัดไป: ช่องที่ 14 [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร, บรรลุหลักชัยที่สองในเส้นทางมรดก {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME}</Text>		<!-- Next Objective: Slot 14 [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources, achieving the second Milestone in the {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} Legacy Path. -->
+			<Text>เป้าหมายถัดไป: ได้รับ [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร 14 ช่อง, บรรลุหลักชัยที่สองในเส้นทางมรดก {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME}</Text>		<!-- Next Objective: Slot 14 [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources, achieving the second Milestone in the {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_4_TRACKING_TITLE" Language="th_TH">
-			<Text>เส้นทางดั้งเดิม: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} V</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} V -->
+			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} V</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} V -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_4_TRACKING_BODY" Language="th_TH">
-			<Text>สล็อต: 14 [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร</Text>		<!-- Slot: 14 [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources -->
+			<Text>ได้รับ [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร 14 ช่อง</Text>		<!-- Slot: 14 [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_4_TRACKING_BODY" Language="th_TH">
-			<Text>สล็อต: 14 [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร</Text>		<!-- Slot: 14 [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources -->
+			<Text>ได้รับ [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร 14 ช่อง</Text>		<!-- Slot: 14 [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_5_TITLE" Language="th_TH">
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} VI</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} VI -->
@@ -17448,16 +17447,16 @@
 			<Text>การสะสมทรัพยากรของเราทำให้แม้แต่ตัวเองยังประทับใจ อีกไม่นานมรดกของเราในฐานะตลาดของโลกจะไม่อาจปฏิเสธได้</Text>		<!-- Our accumulation of  Resources impresses even myself. Before long, our legacy as the world's marketplace will be undeniable. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_5_BODY" Language="th_TH">
-			<Text>เป้าหมายถัดไป: Slot 20 [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร บรรลุ Milestone ที่สามและสุดท้ายในเส้นทางมรดก {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME}</Text>		<!-- Next Objective: Slot 20 [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources, achieving the third and final Milestone in the {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} Legacy Path. -->
+			<Text>เป้าหมายถัดไป: ได้รับ [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร 20 ช่อง, บรรลุหลักชัยที่สามและสุดท้ายในเส้นทางมรดก {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME}</Text>		<!-- Next Objective: Slot 20 [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources, achieving the third and final Milestone in the {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_5_TRACKING_TITLE" Language="th_TH">
-			<Text>เส้นทางแห่งมรดก: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} VI</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} VI -->
+			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} VI</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} VI -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_5_TRACKING_BODY" Language="th_TH">
-			<Text>สล็อต: 20 [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร</Text>		<!-- Slot: 20 [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources -->
+			<Text>ได้รับ [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร 20 ช่อง</Text>		<!-- Slot: 20 [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_5_TRACKING_BODY" Language="th_TH">
-			<Text>สล็อต: 20 [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร</Text>		<!-- Slot: 20 [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources -->
+			<Text>ได้รับ [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร 20 ช่อง</Text>		<!-- Slot: 20 [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_LINE_COMPLETED_TITLE" Language="th_TH">
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME}</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME} -->
@@ -17478,13 +17477,13 @@
 			[n]Our warriors are bold and fierce, but victory on the battlefield requires discipline above all. We must train our soldiers quickly to keep enemies at bay. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_LINE_HINT_A_BODY" Language="th_TH">
-			<Text>วัตถุประสงค์: ศึกษา [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]{LOC_CIVIC_DISCIPLINE_NAME} [/b]นโยบายพื้นฐาน ซึ่งเป็นก้าวแรกสู่การก่อตั้ง [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] มรดกทางทหารในยุคสมัยโบราณ
+			<Text>เป้าหมายถัดไป: ศึกษาแนวคิด [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]{LOC_CIVIC_DISCIPLINE_NAME} [/b]เป็นนโยบายพื้นฐาน ซึ่งเป็นก้าวแรกสู่การก่อตั้ง [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] มรดกทางทหารในยุคสมัยโบราณ
 
 [n][n]โปรดจำไว้ว่า: [icon:NOTIFICATION_TEAM_VICTORIOUS] [b]มรดกเหล่านี้ [/b]พัฒนาการปฏิบัติงานของคุณในยุคถัดไป, แต่ [b]คุณสามารถเลือกที่จะทำตามหนึ่ง, หลายอย่าง, หรือไม่เลือกเลย[/b]</Text>		<!-- Objective: Study the [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]{LOC_CIVIC_DISCIPLINE_NAME} [/b]Civic, the first step towards establishing a [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] Military Legacy of the Antiquity Age.
 				[n][n]Remember: [icon:NOTIFICATION_TEAM_VICTORIOUS] [b]Legacies [/b]improve your performance in later Ages, but [b]you can choose to pursue one, multiple, or none at all[/b]. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_LINE_HINT_A_TRACKING_TITLE" Language="th_TH">
-			<Text>เส้นทางแห่งมรดก: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} I</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} I -->
+			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} I</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} I -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_LINE_HINT_A_TRACKING_BODY" Language="th_TH">
 			<Text>ศึกษาวิชาศีลธรรม: {LOC_CIVIC_DISCIPLINE_NAME}</Text>		<!-- Study Civic: {LOC_CIVIC_DISCIPLINE_NAME} -->
@@ -17497,14 +17496,14 @@
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_1_BODY" Language="th_TH">
 			<Text>{1_Icon} [b]{2_CommanderName} [/b]เป็นสิ่งสำคัญในการจัดการกองทัพและคุณจะเรียนรู้วิธีการใช้มันผ่านการสู้รบหลายครั้ง เนื่องจากมัน [b]ไม่สามารถโจมตีด้วยตัวเอง[/b] คุณจึงจำเป็นต้องฝึกกองทัพให้มันเป็นผู้นำ 
-[n]วัตถุประสงค์ถัดไป: [b]ฝึกและรวบรวมยูนิตทหาร 4 ยูนิต [/b]และนำพวกเขาไปใกล้ {1_Icon} [b]{2_CommanderName}[/b] เมื่ออยู่ใกล้กันให้ใช้ {1_Icon} [b]{2_CommanderName} [/b]เพื่อ [b]บรรจุ [/b]พวกเขาเป็นกองทัพโดยใช้ [b]{LOC_UNITCOMMAND_PACK_ARMY_NAME}[/b]</Text>		<!-- A {1_Icon} [b]{2_CommanderName} [/b]is critical to managing any standing Military, and you'll continue to learn to use it over the course of many battles. Since it [b]cannot attack on its own[/b], you'll need to train an Army for it to lead. 
+[n]เป้าหมายถัดไป: [b]ฝึกและรวบรวมยูนิตทหาร 4 ยูนิต [/b]และนำพวกเขาไปใกล้ {1_Icon} [b]{2_CommanderName}[/b] เมื่ออยู่ใกล้กันให้ใช้ {1_Icon} [b]{2_CommanderName} [/b]เพื่อ [b]บรรจุ [/b]พวกเขาเป็นกองทัพโดยใช้ [b]{LOC_UNITCOMMAND_PACK_ARMY_NAME}[/b]</Text>		<!-- A {1_Icon} [b]{2_CommanderName} [/b]is critical to managing any standing Military, and you'll continue to learn to use it over the course of many battles. Since it [b]cannot attack on its own[/b], you'll need to train an Army for it to lead. 
 				[n]Next Objective: [b]Train and assemble 4 Military Units [/b]and move them near your {1_Icon} [b]{2_CommanderName}[/b]. When adjacent, use the {1_Icon} [b]{2_CommanderName} [/b]to [b]pack [/b]them into an army using the [b]{LOC_UNITCOMMAND_PACK_ARMY_NAME} action[/b]. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_1_TRACKING_TITLE" Language="th_TH">
-			<Text>เส้นทางดั้งเดิม: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} II</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} II -->
+			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} II</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} II -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_1_TRACKING_BODY" Language="th_TH">
-			<Text>ฝึก: {2_UnitsTarget} ยูนิตทหาร: {1_UnitsCurrent}/{2_UnitsTarget} [n]รวบรวมกองทัพเต็ม: {4_PackedCurrent}/{2_UnitsTarget}</Text>		<!-- Train: {2_UnitsTarget} Military Units: {1_UnitsCurrent}/{2_UnitsTarget}
+			<Text>ฝึก: {2_UnitsTarget} ยูนิตทหาร: {1_UnitsCurrent}/{2_UnitsTarget} [n]รวบรวมกองทัพ: {4_PackedCurrent}/{2_UnitsTarget}</Text>		<!-- Train: {2_UnitsTarget} Military Units: {1_UnitsCurrent}/{2_UnitsTarget}
 				[n]Assemble Full Army: {4_PackedCurrent}/{2_UnitsTarget} -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_2_TITLE" Language="th_TH">
@@ -17522,19 +17521,19 @@
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_2_TRACKING_BODY" Language="th_TH">
 			<Text>ฝึก: ยูนิตปิดล้อม {1_UnitsCurrent}/{2_UnitsTarget} 
-				[n]ยึดครองนิคมศัตรู {3_SettlementCurrent}/{4_SettlementTarget}</Text>		<!-- Train: Siege Unit {1_UnitsCurrent}/{2_UnitsTarget} 
+				[n]ยึดครองถิ่นฐานศัตรู {3_SettlementCurrent}/{4_SettlementTarget}</Text>		<!-- Train: Siege Unit {1_UnitsCurrent}/{2_UnitsTarget} 
 				[n]Capture Enemy Settlement {3_SettlementCurrent}/{4_SettlementTarget}  -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_3_TITLE" Language="th_TH">
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} IV</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} IV -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_3_ADVISOR_BODY" Language="th_TH">
-			<Text>การพิชิตที่สำเร็จ! โลกในขณะนี้รู้ถึงความยิ่งใหญ่ของเรา; และคนของเราก็เช่นกัน แต่นี่เป็นเพียงจุดเริ่มต้นเท่านั้น ให้เราสานต่อการขยายตัวของเรา ไม่ว่าจะผ่านสงครามหรือถิ่นฐาน</Text>		<!-- A successful conquest! The world now knows of our might; so too do our people. But this is only the beginning. Let us continue our expansion, through war or settlement. -->
+			<Text>เป็นการยึดครองที่ประสบความสำเร็จ! โลกในขณะนี้รู้ถึงความยิ่งใหญ่ของเรา; และคนของเราก็เช่นกัน แต่นี่เป็นเพียงจุดเริ่มต้นเท่านั้น ให้เราสานต่อการขยายตัวของเรา ไม่ว่าจะผ่านสงครามหรือถิ่นฐาน</Text>		<!-- A successful conquest! The world now knows of our might; so too do our people. But this is only the beginning. Let us continue our expansion, through war or settlement. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_3_BODY" Language="th_TH">
-			<Text>เป้าหมายถัดไป: รับ [b]{1_NumVictoryPoints} [icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} คะแนนเกียรติยศ[/b] โดยพิชิตที่ตั้งถิ่นฐานศัตรูและก่อตั้งที่ตั้งถิ่นฐานมิตร เป้าหมายถัดไป: รับ [b]{1_NumVictoryPoints} คะแนนเกียรติยศ เป้าหมายแรกเพื่อสถาปนา [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] มรดกทางทหารของยุคโบราณ
+			<Text>เป้าหมายถัดไป: รับคะแนน [b]{1_NumVictoryPoints} [icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME}[/b] แต้ม, โดยการพิชิตที่ตั้งถิ่นฐานศัตรู และก่อตั้งที่ตั้งถิ่นฐานที่เป็นมิตร เป้าหมายถัดไป: รับคะแนนมรดก [b]{1_NumVictoryPoints} แต้ม เป้าหมายแรกเพื่อสถาปนา [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] มรดกทางทหารของยุคโบราณ
 [n]การก่อตั้งที่ตั้งถิ่นฐานมอบ 1 คะแนน
-[n]การพิชิตที่ตั้งถิ่นฐานมอบ 2 คะแนน</Text>		<!-- Next Objective: Earn [b]{1_NumVictoryPoints} [icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} Legacy Points [/b]by conquering enemy Settlements and founding friendly Settlements Next Objective: Earn [b]{1_NumVictoryPoints} Legacy Points, the first Milestone to establish a [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] Military Legacy of the Antiquity Age.
+[n]การยึดครองที่ตั้งถิ่นฐานมอบ 2 คะแนน</Text>		<!-- Next Objective: Earn [b]{1_NumVictoryPoints} [icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} Legacy Points [/b]by conquering enemy Settlements and founding friendly Settlements Next Objective: Earn [b]{1_NumVictoryPoints} Legacy Points, the first Milestone to establish a [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] Military Legacy of the Antiquity Age.
 				[n]Founded Settlements grant 1 Point.
 				[n]Captured Settlements grant 2 Points. -->
 		</Replace>
@@ -17542,18 +17541,18 @@
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} IV</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} IV -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_3_TRACKING_BODY" Language="th_TH">
-			<Text>{LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} คะแนนเกียรติยศ: {1_PointsCurrent}/{2_PointsTarget}</Text>		<!-- {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} Legacy Points: {1_PointsCurrent}/{2_PointsTarget} -->
+			<Text>{LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} คะแนนมรดก: {1_PointsCurrent}/{2_PointsTarget}</Text>		<!-- {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} Legacy Points: {1_PointsCurrent}/{2_PointsTarget} -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_4_TITLE" Language="th_TH">
-			<Text>เส้นทางแห่งมรดก: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} V</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} V -->
+			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} V</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} V -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_4_ADVISOR_BODY" Language="th_TH">
 			<Text>จักรวรรดิของเราเติบโตขึ้น และพร้อมกับมันคือความรับผิดชอบของเราในการทำให้พลเมือง {1_CivAdj} ปลอดภัยและเจริญรุ่งเรือง โลกเต็มไปด้วยอันตราย ยิ่งเราควบคุมมันได้มากเท่าไร ภัยคุกคามที่ประชาชนของเราต้องเผชิญก็ยิ่งลดลงเท่านั้น</Text>		<!-- Our empire grows, and with it our responsibility to keep the {1_CivAdj} citizens safe and prosperous. The world is full of dangers. The more of it we control, the fewer threats our people face. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_4_BODY" Language="th_TH">
-			<Text>เป้าหมายถัดไป: รับ [b]{2_NumVictoryPoints} คะแนนมรดก[/b], เป้าหมายระยะที่สองเพื่อตั้งชื่อ [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] มรดกทางทหารของยุคโบราณ
-				[n]การก่อตั้งถิ่นฐานจะได้รับ 1 คะแนน
-				[n]การยึดถิ่นฐานจะได้รับ 2 คะแนน</Text>		<!-- Next Objective: Earn [b]{2_NumVictoryPoints} Legacy Points[/b], the second Milestone to establish a [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] Military Legacy of the Antiquity Age.
+			<Text>เป้าหมายถัดไป: รับ [b]{2_NumVictoryPoints} คะแนนมรดก[/b], เป้าหมายระยะที่สองเพื่อสร้าง [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] มรดกทางทหารของยุคโบราณ
+				[n]การก่อตั้งถิ่นฐานใหม่จะได้รับ 1 คะแนน
+				[n]การยึดครองถิ่นฐานจะได้รับ 2 คะแนน</Text>		<!-- Next Objective: Earn [b]{2_NumVictoryPoints} Legacy Points[/b], the second Milestone to establish a [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] Military Legacy of the Antiquity Age.
 				[n]Founded Settlements grant 1 Point.
 				[n]Captured Settlements grant 2 Points. -->
 		</Replace>
@@ -17564,15 +17563,15 @@
 			<Text>{LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} คะแนนมรดก: {1_PointsCurrent}/{2_PointsTarget}</Text>		<!-- {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} Legacy Points: {1_PointsCurrent}/{2_PointsTarget} -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_5_TITLE" Language="th_TH">
-			<Text>เส้นทางแห่งมรดก: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} VI</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} VI -->
+			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} VI</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} VI -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_5_ADVISOR_BODY" Language="th_TH">
 			<Text>{1_CivAdj} ตั้งถิ่นฐานกระจายทั่วแผนที่ เสริมด้วยพลังของกองทัพและวิสัยทัศน์ของประชาชน แต่ยังมีแผ่นดินอีกมากที่รอให้เราเข้าควบคุม ให้พวกเราเข้ายึดครองในตอนนี้เถิด</Text>		<!-- {1_CivAdj} settlements spread across the map, bolstered by the might of our armies and the vision of the people. Yet more lands await our guiding hand. Let us seize them now. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_5_BODY" Language="th_TH">
-			<Text>เป้าหมายต่อไป: รับ [b]{1_NumVictoryPoints} คะแนนเกียรติยศ[/b] ซึ่งเป็นขั้นตอนที่สามและสุดท้ายในการสร้าง [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] มรดกทางการทหารของยุคโบราณ
-				[n]การก่อตั้งนิคมใหม่จะได้รับ 1 คะแนน
-				[n]การยึดนิคมจะได้รับ 2 คะแนน</Text>		<!-- Next Objective: Earn [b]{1_NumVictoryPoints} Legacy Points[/b], the third and final step towards establishing a [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] Military Legacy of the Antiquity Age.
+			<Text>เป้าหมายต่อไป: รับ [b]{1_NumVictoryPoints} คะแนนมรดก[/b] ซึ่งเป็นขั้นตอนที่สามและสุดท้ายในการสร้าง [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] มรดกทางการทหารของยุคโบราณ
+				[n]การก่อตั้งถิ่นฐานใหม่จะได้รับ 1 คะแนน
+				[n]การยึดครองถิ่นฐานจะได้รับ 2 คะแนน</Text>		<!-- Next Objective: Earn [b]{1_NumVictoryPoints} Legacy Points[/b], the third and final step towards establishing a [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] Military Legacy of the Antiquity Age.
 				[n]Founded Settlements grant 1 Point.
 				[n]Captured Settlements grant 2 Points. -->
 		</Replace>
@@ -17723,7 +17722,7 @@
 			<Text>ยูนิตบางส่วน หรืออาจจะทั้งหมดของคุณจะรอดพ้นจากการเปลี่ยนผ่านยุค ในตอนเริ่มต้นของยุคสำรวจ ยูนิตจำนวน {1_UnitCount} จะยังคงอยู่เพื่อปกป้องถิ่นฐานของคุณ และส่วนที่เหลือจะถูกมอบหมายให้กับผู้บัญชาการ ตราบเท่าที่มีที่ว่างสำหรับพวกเขา [b]ยูนิตอื่นๆ ที่คุณมีจะถูกทิ้งไว้เบื้องหลัง[/b]![n]รัฐอิสระและนครรัฐเป็นเอกลักษณ์ในแต่ละยุค ทำให้มีพื้นที่สำหรับสิ่งใหม่ๆ ในยุคต่อไป หากคุณต้องการรักษาการควบคุมเหนือดินแดนของนครรัฐ จงแน่ใจว่าได้ [b]รวม[/b] เข้ากับจักรวรรดิของคุณก่อนที่ยุคจะสิ้นสุด!</Text>		<!-- Some, if not all, of your Units will survive through Age Transition. At the start of the Exploration Age, {1_UnitCount} Units will remain to defend your Settlements, and the rest will be assigned to Commanders, as long as there is space for them. [b]Any other Units you have will be left behind[/b]![n]Independent Powers and City-States are unique to a given Age, making way for new ones to rise in the following Age. If you want to maintain control over the territory of a City-State, be sure to [b]incorporate [/b]it into your empire before the Age ends! -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_SLINGER_NAME" Language="th_TH">
-			<Text>สลิงเกอร์</Text>		<!-- Slinger -->
+			<Text>พลขว้างหิน</Text>		<!-- Slinger -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_SLINGER_DESCRIPTION" Language="th_TH">
 			<Text>ยูนิตระยะไกลระดับ 1 ในกลุ่มโบราณ มีพลังต่อสู้ที่แข็งแกร่งกว่าพลังป้องกัน</Text>		<!-- Tier 1 Antiquity Ranged Unit. Stronger on attack than defense. -->
@@ -17735,7 +17734,7 @@
 			<Text>ทหารราบโบราณระดับที่ 1</Text>		<!-- Tier 1 Antiquity Infantry Unit. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPEARMAN_NAME" Language="th_TH">
-			<Text>สเปียร์แมน</Text>		<!-- Spearman -->
+			<Text>พลหอก</Text>		<!-- Spearman -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPEARMAN_DESCRIPTION" Language="th_TH">
 			<Text>ยูนิตทหารราบยุคโบราณระดับ 2</Text>		<!-- Tier 2 Antiquity Infantry Unit. -->
@@ -17750,13 +17749,13 @@
 			<Text>รถศึก</Text>		<!-- Chariot -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_CHARIOT_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารม้าชั้นที่ 2 โบราณ ไม่สนใจเขตการควบคุม</Text>		<!-- Tier 2 Antiquity Cavalry Unit. Ignores Zone of Control. -->
+			<Text>ยูนิตทหารม้า ระดับ 2 โบราณ ไม่สนใจเขตการควบคุม</Text>		<!-- Tier 2 Antiquity Cavalry Unit. Ignores Zone of Control. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_BALLISTA_NAME" Language="th_TH">
 			<Text>บาลิสตา</Text>		<!-- Ballista -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_BALLISTA_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตโจมตีโบราณชั้น 2 มีพลังต่อสู้สูงในการโจมตีเขตป้องกันที่เสริมคม</Text>		<!-- Tier 2 Antiquity Siege Unit. High Bombard strength for attacking Fortified Districts. -->
+			<Text>ยูนิตโจมตีโบราณ ระดับ 2 มีพลังต่อสู้สูงในการโจมตีเขตป้องกันที่เสริมคม</Text>		<!-- Tier 2 Antiquity Siege Unit. High Bombard strength for attacking Fortified Districts. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_GALLEY_NAME" Language="th_TH">
 			<Text>กัลลีย์</Text>		<!-- Galley -->
@@ -17771,7 +17770,7 @@
 			<Text>ยูนิตทหารราบสมัยโบราณระดับ 3</Text>		<!-- Tier 3 Antiquity Infantry Unit. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_HORSEMAN_NAME" Language="th_TH">
-			<Text>คนขี่ม้า</Text>		<!-- Horseman -->
+			<Text>ทหารม้า</Text>		<!-- Horseman -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_HORSEMAN_DESCRIPTION" Language="th_TH">
 			<Text>ยูนิตทหารม้าศตวรรษที่ 3 โบราณ ไม่สนใจกฎการควบคุมพื้นที่</Text>		<!-- Tier 3 Antiquity Cavalry Unit. Ignores Zone of Control. -->
@@ -18095,19 +18094,19 @@
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_DESCRIPTION" Language="th_TH">
-			<Text>บ้าน 7 สิ่งมหัศจรรย์ของโลกในอาณาจักรของคุณ</Text>		<!-- House 7 World Wonders in your empire. -->
+			<Text>บ้าน 7 สิ่งมหัศจรรย์ของโลก ในอาณาจักรของคุณ</Text>		<!-- House 7 World Wonders in your empire. -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_VICTORY_TEXT" Language="th_TH">
 			<Text>ขอแสดงความยินดีด้วย คุณชนะด้วยชัยชนะทางวัฒนธรรม!</Text>		<!-- Congratulations, you won a Culture Victory! -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME" Language="th_TH">
-			<Text>แพ็กซ์ อิมเพอราโทเรีย</Text>		<!-- Pax Imperatoria -->
+			<Text>สันติภาพแห่งจักรวรรดิ</Text>		<!-- Pax Imperatoria -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_MILITARY_DESCRIPTION" Language="th_TH">
-			<Text>มี 12 เมืองหรือชุมชนในอาณาจักรของคุณ การพิชิตนิคมจะนับเป็น 2</Text>		<!-- Have 12 Towns or Cities in your empire. Conquered Settlements count as 2. -->
+			<Text>มี 12 เมืองหรือชุมชนในอาณาจักรของคุณ การยึดครอง ถิ่นฐาน จะนับเป็น 2</Text>		<!-- Have 12 Towns or Cities in your empire. Conquered Settlements count as 2. -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_MILITARY_VICTORY_TEXT" Language="th_TH">
-			<Text>ขอแสดงความยินดี คุณได้รับชัยชนะทางทหาร!</Text>		<!-- Congratulations, you won a Military Victory! -->
+			<Text>ขอแสดงความยินดีด้วย คุณชนะด้วยชัยชนะทางทหาร!</Text>		<!-- Congratulations, you won a Military Victory! -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME" Language="th_TH">
 			<Text>ห้องสมุดที่ยิ่งใหญ่</Text>		<!-- Great Library -->
@@ -18116,16 +18115,16 @@
 			<Text>แสดงคัมภีร์ 10 เล่ม ในจักรวรรดิของคุณ</Text>		<!-- Display 10 Codices in your empire. -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_VICTORY_TEXT" Language="th_TH">
-			<Text>ยินดีด้วย คุณชนะทางวิทยาศาสตร์!</Text>		<!-- Congratulations, you won a Science Victory! -->
+			<Text>ขอแสดงความยินดีด้วย คุณชนะด้วยชัยชนะทางวิทยาศาสตร์!</Text>		<!-- Congratulations, you won a Science Victory! -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME" Language="th_TH">
 			<Text>เส้นทางสายไหม</Text>		<!-- Silk Roads -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_DESCRIPTION" Language="th_TH">
-			<Text>กำหนดทรัพยากร 20 หน่วยให้กับถิ่นฐานของคุณ</Text>		<!-- Assign 20 Resources to your Settlements. -->
+			<Text>กำหนดทรัพยากร 20 หน่วย ให้กับถิ่นฐานของคุณ</Text>		<!-- Assign 20 Resources to your Settlements. -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_VICTORY_TEXT" Language="th_TH">
-			<Text>ยินดีด้วย คุณชนะด้วยชัยชนะทางเศรษฐกิจ!</Text>		<!-- Congratulations, you won an Economic Victory! -->
+			<Text>ขอแสดงความยินดีด้วย คุณชนะด้วยชัยชนะทางเศรษฐกิจ!</Text>		<!-- Congratulations, you won an Economic Victory! -->
 		</Replace>
 		<Replace Tag="LOC_VICTORY_UNLOCK_ANTIQUITY_MILITARY_NAME" Language="th_TH">
 			<Text>ชัยชนะทางทหาร</Text>		<!-- Militaristic Victory -->
@@ -18173,13 +18172,13 @@
 			<Text>[WIP]ปลดล็อกการ์ดยุคมืดพิเศษในยุค[B]การสำรวจ[/B]!</Text>		<!-- [WIP]Unlock special Dark Age cards in the [B]Exploration [/B]Age! -->
 		</Replace>
 		<Replace Tag="LOC_VICTORY_REQUNLOCK_ANTIQUITY_MILITARY_DESCRIPTION" Language="th_TH">
-			<Text>ชนะ [B] Pax Imperatoria [/B] ชัยชนะ</Text>		<!-- Win the [B]Pax Imperatoria [/B] Victory -->
+			<Text>ชนะ [B]สันติภาพแห่งจักรวรรดิ[/B] ชัยชนะ</Text>		<!-- Win the [B]Pax Imperatoria [/B] Victory -->
 		</Replace>
 		<Replace Tag="LOC_SECOND_REQUNLOCK_ANTIQUITY_MILITARY_DESCRIPTION" Language="th_TH">
-			<Text>บรรลุเป้าหมายอย่างน้อยที่สองในการแข่งขัน [B]Pax Imperatoria[/B] Victory</Text>		<!-- Achieve at least second place in the [B]Pax Imperatoria [/B] Victory -->
+			<Text>บรรลุเป้าหมายอย่างน้อยที่สองในการแข่งขัน [B]สันติภาพแห่งจักรวรรดิ[/B]</Text>		<!-- Achieve at least second place in the [B]Pax Imperatoria [/B] Victory -->
 		</Replace>
 		<Replace Tag="LOC_THIRD_REQUNLOCK_ANTIQUITY_MILITARY_DESCRIPTION" Language="th_TH">
-			<Text>บรรลุอย่างน้อยอันดับสามในชัยชนะ [B]Pax Imperatoria[/B]</Text>		<!-- Achieve at least third place in the [B]Pax Imperatoria [/B] Victory -->
+			<Text>บรรลุอย่างน้อยอันดับสามในชัยชนะ [B]สันติภาพแห่งจักรวรรดิ[/B]</Text>		<!-- Achieve at least third place in the [B]Pax Imperatoria [/B] Victory -->
 		</Replace>
 		<Replace Tag="LOC_VICTORY_REQUNLOCK_ANTIQUITY_CULTURE_DESCRIPTION" Language="th_TH">
 			<Text>ชนะเลิศ [B]สิ่งมหัศจรรย์ของโลกยุคโบราณ[/B]</Text>		<!-- Win the [B]Wonders of the Ancient World [/B] Victory -->

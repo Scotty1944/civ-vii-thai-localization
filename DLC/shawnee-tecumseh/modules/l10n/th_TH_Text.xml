@@ -5,7 +5,7 @@
 			<Text>เทคัมเซห์ ตำนานยุคสำรวจ การทหาร</Text>		<!-- Tecumseh Exploration Legend Militaristic -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_TECUMSEH_1_DESCRIPTION" Language="th_TH">
-			<Text>ในยุคนี้, +3 ความแข็งแกร่งในการต่อสู้สำหรับยูนิตทหารเรือของคุณในราคาลด -10% อิทธิพล[icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Naval Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
+			<Text>ในยุคนี้, +3 พลังต่อสู้สำหรับยูนิตทหารเรือของคุณในราคาลด -10% อิทธิพล[icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Naval Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_TECUMSEH_2_NAME" Language="th_TH">
 			<Text>เทคัมเซห์ ตำนานยุคสำรวจ การทูต</Text>		<!-- Tecumseh Exploration Legend Diplomatic -->
@@ -17,13 +17,13 @@
 			<Text>เทคัมเซห์ ตำนานยุคใหม่ การทหาร</Text>		<!-- Tecumseh Modern Legend Militaristic -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_TECUMSEH_1_DESCRIPTION" Language="th_TH">
-			<Text>ในยุคนี้, +3 พลังต่อสู้สำหรับยูนิตอากาศของคุณ โดยมีค่าใช้จ่าย -10% อิทธิพล[icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Air Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
+			<Text>ในยุคนี้, +3 พลังต่อสู้สำหรับ ยูนิตทางอากาศ ของคุณ โดยมีค่าใช้จ่าย -10% อิทธิพล[icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Air Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_TECUMSEH_2_NAME" Language="th_TH">
 			<Text>เทคัมเซห์ ตำนานยุคใหม่ การทูต</Text>		<!-- Tecumseh Modern Legend Diplomatic -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_TECUMSEH_2_DESCRIPTION" Language="th_TH">
-			<Text>สำหรับยุคนี้ ได้รับอิทธิพลเพิ่มขึ้น +15% [icon:YIELD_DIPLOMACY] โดยแลกกับการลดความแข็งแกร่งในการต่อสู้ลง -2 สำหรับยูนิตทางอากาศของคุณ</Text>		<!-- For this Age, gain +15% Influence[icon:YIELD_DIPLOMACY] at the cost of -2 Combat Strength for your Air Units -->
+			<Text>สำหรับยุคนี้ ได้รับอิทธิพลเพิ่มขึ้น +15% [icon:YIELD_DIPLOMACY] โดยแลกกับการลดพลังต่อสู้ลง -2 สำหรับยูนิตทางอากาศของคุณ</Text>		<!-- For this Age, gain +15% Influence[icon:YIELD_DIPLOMACY] at the cost of -2 Combat Strength for your Air Units -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_TECUMSEH_L2_DESCRIPTION" Language="th_TH">
 			<Text>ตำนานที่ปลดล็อก +25% ความสัมพันธ์จากการเริ่มหรือสนับสนุน ความร่วมมือ -25% ความสัมพันธ์จากการเริ่ม คว่ำบาตร หรือปฏิเสธ ความร่วมมือ</Text>		<!-- Legend Unlock. +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
@@ -359,7 +359,7 @@
 			<Text>+2 [icon:YIELD_DIPLOMACY] อิทธิพลต่อเทิร์น</Text>		<!-- +2 [icon:YIELD_DIPLOMACY] Influence Per turn. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_KISPOKO_NENA_TO_SUPPORT_DESCRIPTION" Language="th_TH">
-			<Text>Kispoko Nena'to จะได้รับความแข็งแกร่งในการต่อสู้ +1 ต่อการสนับสนุนสงครามเชิงบวก</Text>		<!-- The Kispoko Nena'to receives +1 Combat Strength per Positive War Support. -->
+			<Text>Kispoko Nena'to จะได้รับพลังต่อสู้ +1 ต่อการสนับสนุนสงครามเชิงบวก</Text>		<!-- The Kispoko Nena'to receives +1 Combat Strength per Positive War Support. -->
 		</Replace>
 		<Replace Tag="LOC_KISPOKO_NENA_TO_SUPPORT_COMBAT_DESCRIPTION" Language="th_TH">
 			<Text>+{1_Value} พลังต่อสู้จากการสนับสนุนสงครามในทางบวก (Telwatiki Civic)</Text>		<!-- +{1_Value} Combat Strength from Positive War Support. (Telwatiki Civic) -->
@@ -419,7 +419,7 @@
 			<Text>เทคัมเซห์</Text>		<!-- Tecumseh -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_TECUMSEH_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_FOOD] อาหาร และ [icon:YIELD_PRODUCTION] การผลิตต่อยุคในถิ่นฐาน สำหรับทุกนครรัฐที่คุณเป็น Suzerain ของ +1 ความแข็งแกร่งในการต่อสู้สำหรับทุกยูนิต สำหรับทุกนครรัฐที่คุณเป็น Suzerain ของ</Text>		<!-- +1 [icon:YIELD_FOOD] Food and [icon:YIELD_PRODUCTION] Production per Age in Settlements for every City-State you are Suzerain of. +1 Combat Strength for all Units for every City-State you are Suzerain of. -->
+			<Text>+1 [icon:YIELD_FOOD] อาหาร และ [icon:YIELD_PRODUCTION] การผลิตต่อยุคในถิ่นฐาน สำหรับทุกนครรัฐที่คุณเป็น Suzerain ของ +1 พลังต่อสู้สำหรับทุกยูนิต สำหรับทุกนครรัฐที่คุณเป็น Suzerain ของ</Text>		<!-- +1 [icon:YIELD_FOOD] Food and [icon:YIELD_PRODUCTION] Production per Age in Settlements for every City-State you are Suzerain of. +1 Combat Strength for all Units for every City-State you are Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_TECUMSEH_ABILITY_NAME" Language="th_TH">
 			<Text>ไนจากิกายาโคลาคเว</Text>		<!-- Nicaakiyakoolaakwe -->
@@ -467,7 +467,7 @@
 			<Text>อย่านอนนานเกินไป</Text>		<!-- Sleep not longer. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_TECUMSEH_WARCLUB_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1 ความแข็งแกร่งในการต่อสู้ให้กับยูนิตทั้งหมดสำหรับทุก [City-State] ที่คุณเป็น Suzerain</Text>		<!-- +1 Combat Strength for all Units for every City-State you are Suzerain of. -->
+			<Text>+1 พลังต่อสู้ให้กับยูนิตทั้งหมดสำหรับทุก [City-State] ที่คุณเป็น Suzerain</Text>		<!-- +1 Combat Strength for all Units for every City-State you are Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_TECUMSEH_WARCLUB_COMBAT_PREVIEW" Language="th_TH">
 			<Text>+{1_Amount} กระบองสงครามที่ระลึก</Text>		<!-- +{1_Amount} Warclub Memento -->
@@ -533,7 +533,7 @@
 			<Text>โลกนี้คับแคบเกินไปแล้ว 3</Text>		<!-- Non Sufficit Orbis 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>ในฐานะเทคัมเซห์ ให้ทำตามเส้นทางแห่งมรดก Non Sufficit Orbis สามครั้ง</Text>		<!-- As Tecumseh, complete the Non Sufficit Orbis Legacy Path thrice. -->
+			<Text>ในฐานะเทคัมเซห์ ให้ทำตามเส้นทางมรดก Non Sufficit Orbis สามครั้ง</Text>		<!-- As Tecumseh, complete the Non Sufficit Orbis Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_EXPLORATION_NAME" Language="th_TH">
 			<Text>กองเรือสมบัติ</Text>		<!-- Treasure Fleet -->
@@ -572,19 +572,19 @@
 			<Text>ในฐานะเทคัมเซห์ ให้ทำเส้นทางมรดกอุดมการณ์สามครั้ง</Text>		<!-- As Tecumseh, complete the Ideology Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>นักธุรกิจทางรถไฟ</Text>		<!-- Railroad Tycoon -->
+			<Text>เจ้าพ่อรถไฟ</Text>		<!-- Railroad Tycoon -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_MODERN_DESC" Language="th_TH">
 			<Text>ในฐานะเทคัมเซห์ ให้ทำเส้นทางมรดก Railroad Tycoon ให้สำเร็จ</Text>		<!-- As Tecumseh, complete the Railroad Tycoon Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_MODERN_2_NAME" Language="th_TH">
-			<Text>ไทคูนรถไฟ 2</Text>		<!-- Railroad Tycoon 2 -->
+			<Text>เจ้าพ่อรถไฟ 2</Text>		<!-- Railroad Tycoon 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_MODERN_2_DESC" Language="th_TH">
 			<Text>ในฐานะเทคัมเซห์ ทำ Railroad Tycoon Legacy Path ให้สำเร็จสองครั้ง</Text>		<!-- As Tecumseh, complete the Railroad Tycoon Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>Railroad Tycoon 3</Text>		<!-- Railroad Tycoon 3 -->
+			<Text>เจ้าพ่อรถไฟ 3</Text>		<!-- Railroad Tycoon 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_ECONOMIC_VICTORY_MODERN_3_DESC" Language="th_TH">
 			<Text>ในฐานะเทคัมเซห์, ทำเส้นทาง Railroad Tycoon Legacy ให้สำเร็จสามครั้ง</Text>		<!-- As Tecumseh, complete the Railroad Tycoon Legacy Path thrice. -->
@@ -1586,7 +1586,7 @@
 			<Text>ยูนิตทหารราบพิเศษ ระดับ 3 ของชอว์นี, +1 พลังต่อสู้ ในแต่ละ ทรัพยากรของอาณาจักร ที่ไม่ซ้ำกัน</Text>		<!-- Tier 3 Shawnee Unique Infantry Unit. +1 Combat Strength for every unique Empire Resource. -->
 		</Replace>
 		<Replace Tag="LOC_KISPOKO_NENA_TO_RESOURCE_COMBAT_DESCRIPTION" Language="th_TH">
-			<Text>+{1_Value} ความแข็งแกร่งในการต่อสู้สำหรับทรัพยากรอาณาจักรที่ไม่ซ้ำกันทุกประเภท</Text>		<!-- +{1_Value} Combat Strength for every unique Empire Resource. -->
+			<Text>+{1_Value} พลังต่อสู้สำหรับทรัพยากรอาณาจักรที่ไม่ซ้ำกันทุกประเภท</Text>		<!-- +{1_Value} Combat Strength for every unique Empire Resource. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_HOCEEPKILENI_NAME" Language="th_TH">
 			<Text>โฮซีปกิลีนิ</Text>		<!-- Hoceepkileni  -->
@@ -1611,14 +1611,14 @@
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_TECUMSEH_EXPLORATION_1_DESCRIPTION" Language="th_TH">
 			<Text>ในฐานะที่เป็น Tecumseh เข้าถึงการ์ดมรดกการสำรวจใหม่:[n]  
-				+3 ความแข็งแกร่งในการต่อสู้ต่อยูนิตเรือ, -10% อิทธิพล</Text>		<!-- As Tecumseh, access a new Exploration Legacy Card:[n]
+				+3 พลังต่อสู้ต่อยูนิตเรือ, -10% อิทธิพล</Text>		<!-- As Tecumseh, access a new Exploration Legacy Card:[n]
 				+3 Combat Strength towards Naval Units, -10% Influence -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_TECUMSEH_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>การสำรวจมรดกทางการทูตการ์ด</Text>		<!-- Exploration Diplomatic Legacy Card -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_TECUMSEH_EXPLORATION_2_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะที่เป็น เทคัมเซห์ เข้าถึง Exploration Legacy Card ใหม่: [n] +15% อิทธิพล, -2 ความแข็งแกร่งในการต่อสู้สำหรับยูนิตเรือ</Text>		<!-- As Tecumseh, access a new Exploration Legacy Card:[n]
+			<Text>ในฐานะที่เป็น เทคัมเซห์ เข้าถึง Exploration Legacy Card ใหม่: [n] +15% อิทธิพล, -2 พลังต่อสู้สำหรับยูนิตเรือ</Text>		<!-- As Tecumseh, access a new Exploration Legacy Card:[n]
 				+15% Influence, -2 Combat Strength for Naval Units -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_TECUMSEH_MODERN_1_NAME" Language="th_TH">
@@ -1626,7 +1626,7 @@
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_TECUMSEH_MODERN_1_DESCRIPTION" Language="th_TH">
 			<Text>ในฐานะที่เป็น เทคัมเซห์ เข้าถึงการ์ดมรดกสมัยใหม่ใหม่:[n]  
-				+3 ความแข็งแกร่งในการต่อสู้ต่อยูนิตอากาศ, -10% อิทธิพล</Text>		<!-- As Tecumseh, access a new Modern Legacy Card:[n]
+				+3 พลังต่อสู้ต่อ ยูนิตทางอากาศ , -10% อิทธิพล</Text>		<!-- As Tecumseh, access a new Modern Legacy Card:[n]
 				+3 Combat Strength towards Air Units, -10% Influence -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_TECUMSEH_MODERN_2_NAME" Language="th_TH">
@@ -1634,14 +1634,14 @@
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_TECUMSEH_MODERN_2_DESCRIPTION" Language="th_TH">
 			<Text>ในฐานะที่เป็น Tecumseh, เข้าถึงบัตรมรดกสมัยใหม่ใหม่:[n]  
-				+15% อิทธิพล, -2 ความแข็งแกร่งการต่อสู้สำหรับยูนิตอากาศ</Text>		<!-- As Tecumseh, access a new Modern Legacy Card:[n]
+				+15% อิทธิพล, -2 ความแข็งแกร่งการต่อสู้สำหรับ ยูนิตทางอากาศ </Text>		<!-- As Tecumseh, access a new Modern Legacy Card:[n]
 				+15% Influence, -2 Combat Strength for Air Units -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_TECUMSEH_L1_NAME" Language="th_TH">
 			<Text>โหนดลักษณะทางทหาร</Text>		<!-- Militaristic Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_TECUMSEH_L1_DESCRIPTION" Language="th_TH">
-			<Text>+5 ความแข็งแกร่งในการต่อสู้สำหรับยูนิตทั้งหมดเมื่อเทียบกับเขตปกครอง</Text>		<!-- +5 Combat Strength for all Units against Districts. -->
+			<Text>+5 พลังต่อสู้สำหรับยูนิตทั้งหมดเมื่อเทียบกับเขตปกครอง</Text>		<!-- +5 Combat Strength for all Units against Districts. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_TECUMSEH_L2_NAME" Language="th_TH">
 			<Text>โหนดแอตทริบิวต์ทางการทูต</Text>		<!-- Diplomatic Attribute Node -->
