@@ -2447,7 +2447,7 @@
 			<Text>+2[icon:YIELD_HAPPINESS] ความสุข, รับประโยชน์เพิ่มเติมจาก Pantheons. อาคารความสุข ในยุคโบราณ. สามารถซื้อได้ในเมือง</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness. Receives additional benefits from Pantheons. Antiquity Happiness Building. Can be purchased in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ALTAR_TOOLTIP" Language="th_TH">
-			<Text>รับผลประโยชน์เพิ่มเติมจาก Pantheons อาคารความสุขโบราณ สามารถซื้อได้ในเมือง</Text>		<!-- Receives additional benefits from Pantheons. Antiquity Happiness Building. Can be purchased in Towns. -->
+			<Text>รับผลประโยชน์เพิ่มเติมจาก วิหาร, อาคารด้านความสุข ยุคโบราณ, สามารถซื้อได้ในเมือง</Text>		<!-- Receives additional benefits from Pantheons. Antiquity Happiness Building. Can be purchased in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_AMPHITHEATER_NAME" Language="th_TH">
 			<Text>โรงละครกลางแจ้ง</Text>		<!-- Amphitheater -->
@@ -2456,7 +2456,7 @@
 			<Text>+4[icon:YIELD_CULTURE] วัฒนธรรม, อาคารด้านวัฒนธรรม ยุคโบราณ. +10% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อสิ่งมหัศจรรย์</Text>		<!-- +4[icon:YIELD_CULTURE] Culture. Antiquity Culture Building. +10% [icon:YIELD_PRODUCTION] Production towards Wonders. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_AMPHITHEATER_TOOLTIP" Language="th_TH">
-			<Text>วัฒนธรรมโบราณอาคาร +10% [icon:YIELD_PRODUCTION] กำลังผลิต สำหรับสิ่งมหัศจรรย์</Text>		<!-- Antiquity Culture Building. +10% [icon:YIELD_PRODUCTION] Production towards Wonders. -->
+			<Text>อาคารด้านวัฒนธรรม ยุคโบราณ, +10% [icon:YIELD_PRODUCTION] กำลังผลิต สำหรับสิ่งมหัศจรรย์</Text>		<!-- Antiquity Culture Building. +10% [icon:YIELD_PRODUCTION] Production towards Wonders. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ANCIENT_BRIDGE_NAME" Language="th_TH">
 			<Text>สะพานโบราณ</Text>		<!-- Ancient Bridge -->
@@ -2483,7 +2483,7 @@
 			<Text>+4[icon:YIELD_HAPPINESS] ความสุข, อาคารด้านความสุข ยุคโบราณ. +1 [icon:YIELD_HAPPINESS] ความสุข บนพื้นที่</Text>		<!-- +4[icon:YIELD_HAPPINESS] Happiness. Antiquity Happiness Building. +1 [icon:YIELD_HAPPINESS] Happiness on Quarters. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ARENA_TOOLTIP" Language="th_TH">
-			<Text>โครงการความสุขโบราณ +1 [icon:YIELD_HAPPINESS] ความสุข บนพื้นที่</Text>		<!-- Antiquity Happiness Building. +1 [icon:YIELD_HAPPINESS] Happiness on Quarters. -->
+			<Text>อาคารด้านความสุข ยุคโบราณ, +1[icon:YIELD_HAPPINESS] ความสุข บน ย่าน</Text>		<!-- Antiquity Happiness Building. +1 [icon:YIELD_HAPPINESS] Happiness on Quarters. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BARRACKS_NAME" Language="th_TH">
 			<Text>ค่ายทหาร</Text>		<!-- Barracks -->
@@ -2510,7 +2510,7 @@
 			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต, อาคารด้านกำลังผลิตในยุคโบราณ. +1 [icon:YIELD_PRODUCTION] กำลังผลิต บนพื้นที่</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production. Antiquity Production Building. +1 [icon:YIELD_PRODUCTION] Production on Quarters. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BLACKSMITH_TOOLTIP" Language="th_TH">
-			<Text>อาคารผลิตสมัยโบราณ +1 [icon:YIELD_PRODUCTION]ผลิตบนพื้นที่</Text>		<!-- Antiquity Production Building. +1 [icon:YIELD_PRODUCTION] Production on Quarters. -->
+			<Text>อาคารด้านการผลิต ยุคโบราณ, +1[icon:YIELD_PRODUCTION] กำลังผลิต บน ย่าน</Text>		<!-- Antiquity Production Building. +1 [icon:YIELD_PRODUCTION] Production on Quarters. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BRICKYARD_NAME" Language="th_TH">
 			<Text>โรงผลิตอิฐ</Text>		<!-- Brickyard -->
@@ -2582,7 +2582,7 @@
 			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม และ +1[icon:YIELD_DIPLOMACY] อิทธิพล อาคารด้านวัฒนธรรมและการทูตโบราณ</Text>		<!-- +2[icon:YIELD_CULTURE] Culture and +1[icon:YIELD_DIPLOMACY] Influence. Antiquity Culture and Diplomacy Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MONUMENT_TOOLTIP" Language="th_TH">
-			<Text>วัฒนธรรมโบราณและการสร้างความสัมพันธ์ทางการฑูต</Text>		<!-- Antiquity Culture and Diplomacy Building. -->
+			<Text>อาคารด้านวัฒนธรรมและการทูต ยุคโบราณ,</Text>		<!-- Antiquity Culture and Diplomacy Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SAW_PIT_NAME" Language="th_TH">
 			<Text>หลุมเลื่อยไม้</Text>		<!-- Saw Pit -->
@@ -2597,10 +2597,10 @@
 			<Text>วิลล่า</Text>		<!-- Villa -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_VILLA_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_HAPPINESS] ความสุข และ +2[icon:YIELD_DIPLOMACY] อิทธิพล, ความสุขและการสร้างการทูตในยุคโบราณ</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness and +2[icon:YIELD_DIPLOMACY] Influence. Antiquity Happiness and Diplomacy Building. -->
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข และ +2[icon:YIELD_DIPLOMACY] อิทธิพล, อาคารด้านวัฒนธรรมและการทูต ยุคโบราณ</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness and +2[icon:YIELD_DIPLOMACY] Influence. Antiquity Happiness and Diplomacy Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_VILLA_TOOLTIP" Language="th_TH">
-			<Text>ความสุขในยุคโบราณ อาคาร</Text>		<!-- Antiquity Happiness Building. -->
+			<Text>อาคารด้านความสุข ยุคโบราณ</Text>		<!-- Antiquity Happiness Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MASTABA_NAME" Language="th_TH">
 			<Text>มาสตาบา</Text>		<!-- Mastaba -->
@@ -17334,7 +17334,9 @@
 			<Text>ด้วยความมหัศจรรย์ที่สี่เสร็จสิ้น ชื่อเสียงของ {1_CivAdj} ส่องแสงสว่างไสว แต่เช่นเดียวกับไฟใดๆ ชื่อเสียงต้องการเชื้อเพลิงเติมเต็มอย่างต่อเนื่อง พวกเราไม่ต้องการที่จะเป็นคนที่เริ่มสร้างสิ่งมหัศจรรย์แล้วก็หยุดใช่ไหม?</Text>		<!-- With a fourth Wonder completed, the fame of the {1_CivAdj} burns brightly. But like any fire, fame requires constant refueling. We don't want to be the people that began building Wonders and then stopped, do we? -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_4_BODY" Language="th_TH">
-			<Text>โดยการสร้างสิ่งมหัศจรรย์สี่แห่ง คุณได้บรรลุขั้นที่สองสำหรับ {1_CivAdj} [icon:YIELD_CULTURE] วัฒนธรรม ! ทำภารกิจถัดไปให้สำเร็จจะ [b]เสร็จสมบูรณ์[/b] [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} [/b][icon:YIELD_CULTURE] เส้นทางมรดกวัฒนธรรม โดยคุณจะได้รับรางวัลพิเศษเมื่ออารยธรรมของคุณเติบโตไปไกลกว่ายุคโบราณ [n]เป้าหมายถัดไป: [b]สร้างสิ่งมหัศจรรย์ {2_WonderNum} แห่ง[/b]</Text>		<!-- By building four Wonders, you've achieved a second Milestone for {1_CivAdj} [icon:YIELD_CULTURE] Culture! Completing the next quest will [b]complete [/b]the [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} [/b][icon:YIELD_CULTURE] Culture Legacy Path, earning you special rewards as your Civilization grows beyond the Antiquity Age.
+			<Text>ตอนนี้ที่ศาสนาของคุณมี [b]ความเชื่อเสริม[/b] คุณสามารถเผยแพร่ศาสนาไปยังถิ่นฐานได้ง่ายขึ้น อย่าลืมว่าคุณจะได้รับของ ศาสนวัตถุ ตามความเชื่อ ที่คุณได้นำมาใช้ 
+[n]เหมือนกับ [b]คัมภีร์[/b] ใน ยุคโบราณ คุณจะต้องสร้างอาคารบางที่ เช่น [icon:BUILDING_TEMPLE] {LOC_BUILDING_TEMPLE_NAME} และสิ่งมหัศจรรย์เพื่อ [b]จัดแสดงศาสนวัตถุ[/b] ทุกศาสนวัตถุที่คุณจัดแสดง จะทำให้คุณก้าวหน้าต่อไปในเส้นทางมรดก {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME}
+[n]เป้าหมายถัดไป: รวบรวมและจัดแสดง [b]ศาสนวัตถุ หกชิ้น[/b] ซึ่งเป็นหมุดหมายแรก ในเส้นทางมรดก [b]{LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME}[/b]</Text>		<!-- By building four Wonders, you've achieved a second Milestone for {1_CivAdj} [icon:YIELD_CULTURE] Culture! Completing the next quest will [b]complete [/b]the [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} [/b][icon:YIELD_CULTURE] Culture Legacy Path, earning you special rewards as your Civilization grows beyond the Antiquity Age.
 				[n]Next Objective: [b]Construct {2_WonderNum} Wonders[/b]. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_4_TRACKING_TITLE" Language="th_TH">
