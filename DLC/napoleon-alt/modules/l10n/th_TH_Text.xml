@@ -5,28 +5,28 @@
 			<Text>นโปเลียน ตำนาจยุคสำรวจ วัฒนธรรม</Text>		<!-- Napoleon Exploration Legend Cultural -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_NAPOLEON_REVOLUTIONARY_1_DESCRIPTION" Language="th_TH">
-			<Text>ในยุคนี้ ได้รับ +15% วัฒนธรรม[icon:YIELD_CULTURE] โดยจะต้องแลกกับ -10% วิทยาศาสตร์[icon:YIELD_Science]</Text>		<!-- For this Age, gain +15% CULTURE[icon:YIELD_CULTURE] at the cost of -10% Science[icon:YIELD_Science] -->
+			<Text>ในยุคนี้ ได้รับ +15%[icon:YIELD_CULTURE] วัฒนธรรม โดยจะต้องเสีย -10%[icon:YIELD_Science] วิทยาศาสตร์</Text>		<!-- For this Age, gain +15% CULTURE[icon:YIELD_CULTURE] at the cost of -10% Science[icon:YIELD_Science] -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_NAPOLEON_REVOLUTIONARY_2_NAME" Language="th_TH">
 			<Text>นโปเลียน ตำนาจยุคสำรวจ ทางทหาร</Text>		<!-- Napoleon Exploration Legend Militaristic -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_NAPOLEON_REVOLUTIONARY_2_DESCRIPTION" Language="th_TH">
-			<Text>สำหรับยุคนี้ เพิ่มพลังต่อสู้ +3 สำหรับยูนิตเรือของคุณโดยเสียค่าใช้จ่าย -10% อิทธิพล[icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Naval Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
+			<Text>ในยุคนี้ เพิ่มพลังต่อสู้ +3 สำหรับยูนิตเรือของคุณ โดยจะต้องเสีย -10%[icon:YIELD_DIPLOMACY] อิทธิพล</Text>		<!-- For this Age, +3 Combat Strength for your Naval Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_NAPOLEON_REVOLUTIONARY_1_NAME" Language="th_TH">
 			<Text>นโปเลียน ตำนานยุคใหม่ วัฒนธรรม</Text>		<!-- Napoleon Modern Legend Cultural -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_NAPOLEON_REVOLUTIONARY_1_DESCRIPTION" Language="th_TH">
-			<Text>ในยุคนี้ ได้รับ +15% วัฒนธรรม[icon:YIELD_CULTURE] โดยต้องเสีย -10% วิทยาศาสตร์[icon:YIELD_SCIENCE]</Text>		<!-- For this Age, gain +15% CULTURE[icon:YIELD_CULTURE] at the cost of -10% Science[icon:YIELD_Science] -->
+			<Text>ในยุคนี้ ได้รับ +15%[icon:YIELD_CULTURE] วัฒนธรรม โดยจะต้องเสีย -10%[icon:YIELD_SCIENCE] วิทยาศาสตร์</Text>		<!-- For this Age, gain +15% CULTURE[icon:YIELD_CULTURE] at the cost of -10% Science[icon:YIELD_Science] -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_NAPOLEON_REVOLUTIONARY_2_NAME" Language="th_TH">
 			<Text>นโปเลียน ตำนานยุคใหม่ การทหาร</Text>		<!-- Napoleon Modern Legend Militaristic -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_NAPOLEON_REVOLUTIONARY_2_DESCRIPTION" Language="th_TH">
-			<Text>สำหรับยุคนี้ ยูนิตทางอากาศของคุณมีความแข็งแกร่งในด้านการรบเพิ่มขึ้น +3 โดยแลกกับอิทธิพลที่ลดลง -10% [icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Air Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
+			<Text>ในยุคนี้ ได้รับ +3 พลังโจมตี สำหรับยูนิตทางอากาศของคุณ โดยจะต้องเสีย -10%[icon:YIELD_DIPLOMACY] อิทธิพล</Text>		<!-- For this Age, +3 Combat Strength for your Air Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_NAPOLEON_ALT_L1_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน +15% [icon:YIELD_PRODUCTION]การผลิตในการสร้างสิ่งก่อสร้างและสิ่งมหัศจรรย์ที่มีช่องใส่ผลงานชิ้นเอก</Text>		<!-- Legend Unlock. +15% [icon:YIELD_PRODUCTION]Production towards constructing Buildings and Wonders with Great Works slots. -->
+			<Text>ปลดล็อกตำนาน +15%[icon:YIELD_PRODUCTION] กำลังผลิต ในการสร้างสิ่งก่อสร้างและสิ่งมหัศจรรย์ที่มีช่องใส่ ผลงานชิ้นเอก</Text>		<!-- Legend Unlock. +15% [icon:YIELD_PRODUCTION]Production towards constructing Buildings and Wonders with Great Works slots. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_NAPOLEON_ALT_L2_DESCRIPTION" Language="th_TH">
 			<Text>การปลดล็อกตำนาน: เพิ่มพลังต่อสู้ +5 สำหรับทุกยูนิตเมื่อโจมตีเขตต่าง ๆ</Text>		<!-- Legend Unlock. +5 Combat Strength for all Units against Districts. -->
@@ -704,7 +704,7 @@
 			<Text>บนเนินเขาเหนือสนามรบ นโปเลียนสูดลมหายใจรับควันรบ เขาฟังเสียงกึกก้องแห่งสงคราม เขามองดูคำสั่งที่ชัดเจนของเขาปรากฏบนสนาม และเขายิ้มเมื่อคำสั่งที่ตะโกนออกไปกลายเป็นเสียงร้องแห่งชัยชนะ</Text>		<!-- On a hill above the battlefield, Napoleon inhales the smoke of battle. He listens to the din of war. He watches his precise commands manifest on the field. And he smiles as shouted orders become cries of victory. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1196D_IMPERATIVE" Language="th_TH">
-			<Text>ยึดครองนิคมในดินแดนห่างไกล</Text>		<!-- Capture a Settlement in Distant Lands. -->
+			<Text>ยึดครองถิ่นฐานในดินแดนห่างไกล</Text>		<!-- Capture a Settlement in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1196E_STORYTITLE" Language="th_TH">
 			<Text>เลอ เปอตี กาปอรัล</Text>		<!-- Le Petit Caporal -->
