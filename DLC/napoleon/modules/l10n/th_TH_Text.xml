@@ -5,7 +5,7 @@
 			<Text>นโปเลียน ตำนานยุคสำรวจ การทูต</Text>		<!-- Napoleon Exploration Legend Diplomatic -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_NAPOLEON_EMPEROR_1_DESCRIPTION" Language="th_TH">
-			<Text>สำหรับยุคนี้ เพิ่มอิทธิพล[ไอคอน:ผลตอบแทน_การทูต] +15% โดยแลกกับพลังต่อสู้ของยูนิตทหารทางเรือ -2</Text>		<!-- For this Age, gain +15% Influence[icon:YIELD_DIPLOMACY] at the cost of -2 Combat Strength for your Naval Units -->
+			<Text>สำหรับยุคนี้ เพิ่ม +15%[icon:YIELD_DIPLOMACY] อิทธิพล โดยแลกกับพลังต่อสู้ของยูนิตทหารทางเรือ -2</Text>		<!-- For this Age, gain +15% Influence[icon:YIELD_DIPLOMACY] at the cost of -2 Combat Strength for your Naval Units -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_NAPOLEON_EMPEROR_2_NAME" Language="th_TH">
 			<Text>นโปเลียน ตำนานยุคสำรวจ เศรษฐกิจ</Text>		<!-- Napoleon Exploration Legend Economic -->
@@ -29,7 +29,7 @@
 			<Text>ปรมาจารย์ปลดล็อก +25% ความสัมพันธ์จากการเริ่มต้นหรือสนับสนุนความพยายาม -25% ความสัมพันธ์จากการเริ่มต้นการลงโทษหรือปฏิเสธความพยายาม</Text>		<!-- Legend Unlock. +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_NAPOLEON_L2_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน: [n]+25% [ไอคอน: YIELD_GOLD] ทองคำจากการค้าขายและกองเรือสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD]Gold from Trade and Treasure Fleets. -->
+			<Text>ปลดล็อกตำนาน: [n]+25%[icon:YIELD_GOLD] ทอง จากการค้าขาย และกองเรือสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD]Gold from Trade and Treasure Fleets. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAPOLEON_TITLE" Language="th_TH">
 			<Text>{LOC_LEADER_NAPOLEON_NAME}</Text>		<!-- {LOC_LEADER_NAPOLEON_NAME} -->
@@ -143,49 +143,49 @@
 			<Text>สันติภาพแห่งจักรวรรดิ</Text>		<!-- Pax Imperatoria -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะเส้นทางมรดก [Pax Imperatoria]</Text>		<!-- As Napoleon Emperor, win the Pax Imperatoria Legacy Path. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะเส้นทางมรดก สันติภาพแห่งจักรวรรดิ</Text>		<!-- As Napoleon Emperor, win the Pax Imperatoria Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สันติภาพแห่งจักรวรรดิ 2</Text>		<!-- Pax Imperatoria 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะเส้นทางมรดก[Pax Imperatoria]สองครั้ง{twice}</Text>		<!-- As Napoleon Emperor, win the Pax Imperatoria Legacy Path twice. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะเส้นทางมรดกสันติภาพแห่งจักรวรรดิสองครั้ง{twice}</Text>		<!-- As Napoleon Emperor, win the Pax Imperatoria Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
 			<Text>สันติภาพแห่งจักรวรรดิ 3</Text>		<!-- Pax Imperatoria 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน, ชนะ [Pax Imperatoria Legacy Path] สามครั้ง</Text>		<!-- As Napoleon Emperor, win the Pax Imperatoria Legacy Path thrice. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน, ชนะ เส้นทางมรดก สันติภาพแห่งจักรวรรดิ สามครั้ง</Text>		<!-- As Napoleon Emperor, win the Pax Imperatoria Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>เส้นทางสายไหม</Text>		<!-- Silk Roads -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ, ชนะเส้นทางมรดกเส้นทางสายไหม</Text>		<!-- As Napoleon Emperor, win the Silk Roads Legacy Path. -->
+			<Text>ในฐานะ นโปเลียน จักรพรรดิ, ชนะเส้นทางมรดก เส้นทางสายไหม</Text>		<!-- As Napoleon Emperor, win the Silk Roads Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>เส้นทางสายไหม 2</Text>		<!-- Silk Roads 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน, ชนะเส้นทางมรดก {Silk Roads} สองครั้ง</Text>		<!-- As Napoleon Emperor, win the Silk Roads Legacy Path twice. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน, ชนะเส้นทางมรดก เส้นทางสายไหม สองครั้ง</Text>		<!-- As Napoleon Emperor, win the Silk Roads Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
 			<Text>เส้นทางสายไหม 3</Text>		<!-- Silk Roads 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะเส้นทางมรดก[Silk Roads Legacy Path]สามครั้ง</Text>		<!-- As Napoleon Emperor, win the Silk Roads Legacy Path thrice. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะเส้นทางมรดก เส้นทางสายไหม สามครั้ง</Text>		<!-- As Napoleon Emperor, win the Silk Roads Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_EXPLORATION_NAME" Language="th_TH">
 			<Text>โลกนี้คับแคบเกินไปแล้ว</Text>		<!-- Non Sufficit Orbis -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะ [Non Sufficit Orbis Legacy Path]</Text>		<!-- As Napoleon Emperor, win the Non Sufficit Orbis Legacy Path. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะ เส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว</Text>		<!-- As Napoleon Emperor, win the Non Sufficit Orbis Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>โลกนี้คับแคบเกินไปแล้ว 2</Text>		<!-- Non Sufficit Orbis 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะเส้นทางมรดก [Non Sufficit Orbis] สองครั้ง</Text>		<!-- As Napoleon Emperor, win the Non Sufficit Orbis Legacy Path twice. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว สองครั้ง</Text>		<!-- As Napoleon Emperor, win the Non Sufficit Orbis Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
 			<Text>โลกนี้คับแคบเกินไปแล้ว 3</Text>		<!-- Non Sufficit Orbis 3 -->
@@ -197,55 +197,55 @@
 			<Text>กองเรือบรรทุกสมบัติ</Text>		<!-- Treasure Fleet -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ชนะเส้นทางมรดกกองเรือสมบัติ</Text>		<!-- As Napoleon Emperor, win the Treasure Fleet Legacy Path. -->
+			<Text>ในฐานะ นโปเลียน จักรพรรดิ ชนะเส้นทางมรดก กองเรือบรรทุกสมบัติ</Text>		<!-- As Napoleon Emperor, win the Treasure Fleet Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>กองเรือบรรทุกสมบัติ 2</Text>		<!-- Treasure Fleet 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ จงชนะเส้นทางมรดกแห่งกองเรือสมบัติ [Treasure Fleet Legacy Path] สองครั้ง</Text>		<!-- As Napoleon Emperor, win the Treasure Fleet Legacy Path twice. -->
+			<Text>ในฐานะ นโปเลียน จักรพรรดิ จงชนะเส้นทางมรดก กองเรือบรรทุกสมบัติ สองครั้ง</Text>		<!-- As Napoleon Emperor, win the Treasure Fleet Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
 			<Text>กองเรือบรรทุกสมบัติ 3</Text>		<!-- Treasure Fleet 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะเส้นทางมรดก [Treasure Fleet] สามครั้ง</Text>		<!-- As Napoleon Emperor, win the Treasure Fleet Legacy Path thrice. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะเส้นทางมรดก กองเรือบรรทุกสมบัติ สามครั้ง</Text>		<!-- As Napoleon Emperor, win the Treasure Fleet Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_MODERN_NAME" Language="th_TH">
 			<Text>อุดมการณ์</Text>		<!-- Ideology -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะเส้นทางมรดกอุดมการณ์</Text>		<!-- As Napoleon Emperor, win the Ideology Legacy Path. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะ เส้นทางมรดก อุดมการณ์</Text>		<!-- As Napoleon Emperor, win the Ideology Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_MODERN_2_NAME" Language="th_TH">
 			<Text>อุดมการณ์ 2</Text>		<!-- Ideology 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะเส้นทางมรดกอุดมการณ์สองครั้ง</Text>		<!-- As Napoleon Emperor, win the Ideology Legacy Path twice. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะ เส้นทางมรดก อุดมการณ์ สองครั้ง</Text>		<!-- As Napoleon Emperor, win the Ideology Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_MODERN_3_NAME" Language="th_TH">
 			<Text>อุดมการณ์ 3</Text>		<!-- Ideology 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะเส้นทาง [Ideology Legacy Path] สามครั้ง</Text>		<!-- As Napoleon Emperor, win the Ideology Legacy Path thrice. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะเส้นทาง เส้นทางมรดก อุดมการณ์ สามครั้ง</Text>		<!-- As Napoleon Emperor, win the Ideology Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_MODERN_NAME" Language="th_TH">
 			<Text>เจ้าพ่อรถไฟ</Text>		<!-- Railroad Tycoon -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน ชนะเส้นทางมรดกของ Railroad Tycoon</Text>		<!-- As Napoleon Emperor, win the Railroad Tycoon Legacy Path. -->
+			<Text>ในฐานะ นโปเลียน ชนะเส้นทางมรดก เจ้าพ่อรถไฟ</Text>		<!-- As Napoleon Emperor, win the Railroad Tycoon Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_MODERN_2_NAME" Language="th_TH">
 			<Text>เจ้าพ่อรถไฟ 2</Text>		<!-- Railroad Tycoon 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน ชนะเส้นทาง [Railroad Tycoon Legacy Path] สองครั้ง</Text>		<!-- As Napoleon Emperor, win the Railroad Tycoon Legacy Path twice. -->
+			<Text>ในฐานะ นโปเลียน ชนะเส้นทางมรดก เจ้าพ่อรถไฟ สองครั้ง</Text>		<!-- As Napoleon Emperor, win the Railroad Tycoon Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_MODERN_3_NAME" Language="th_TH">
 			<Text>เจ้าพ่อรถไฟ 3</Text>		<!-- Railroad Tycoon 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน ชนะเส้นทางมรดก [Railroad Tycoon] สามครั้ง</Text>		<!-- As Napoleon Emperor, win the Railroad Tycoon Legacy Path thrice. -->
+			<Text>ในฐานะ นโปเลียน ชนะเส้นทางมรดก เจ้าพ่อรถไฟ สามครั้ง</Text>		<!-- As Napoleon Emperor, win the Railroad Tycoon Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_AGE_COMPLETED_ANTIQUITY_NAME" Language="th_TH">
 			<Text>จบยุคโบราณ</Text>		<!-- Antiquity Complete -->
@@ -305,19 +305,19 @@
 			<Text>เล่นเกม 1</Text>		<!-- Play Game 1 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_PLAY_GAMES_1_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน บรรลุอย่างน้อย 1 จุดหมาย [(tag)] ที่ {(tag)} เป็นเกียรติคุณ</Text>		<!-- As Napoleon Emperor, reach at least 1 Legacy Path Milestone. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน ให้บรรลุอย่างน้อย 1 หมุดหมายในเส้นทางมรดก</Text>		<!-- As Napoleon Emperor, reach at least 1 Legacy Path Milestone. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_PLAY_GAMES_2_NAME" Language="th_TH">
 			<Text>เล่นเกม 2</Text>		<!-- Play Game 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_PLAY_GAMES_2_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน ให้บรรลุอย่างน้อย 2 [Legacy Path Milestones]</Text>		<!-- As Napoleon Emperor, reach at least 2 Legacy Path Milestones. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน ให้บรรลุอย่างน้อย 2 หมุดหมายในเส้นทางมรดก</Text>		<!-- As Napoleon Emperor, reach at least 2 Legacy Path Milestones. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_PLAY_GAMES_3_NAME" Language="th_TH">
 			<Text>เล่นเกม 3</Text>		<!-- Play Game 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_PLAY_GAMES_3_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน บรรลุอย่างน้อย 3 [Legacy Path Milestones]</Text>		<!-- As Napoleon Emperor, reach at least 3 Legacy Path Milestones. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน ให้บรรลุอย่างน้อย 3 หมุดหมายในเส้นทางมรดก</Text>		<!-- As Napoleon Emperor, reach at least 3 Legacy Path Milestones. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_SCIENCE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>หอสมุดอันยิ่งใหญ่</Text>		<!-- Great Library -->
@@ -347,13 +347,13 @@
 			<Text>รู้แจ้งเห็นจริง 2</Text>		<!-- Enlightment 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_SCIENCE_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน, ชนะ [the Enlightenment Legacy Path] สองครั้ง</Text>		<!-- As Napoleon Emperor, win the Enlightenment Legacy Path twice. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน, ชนะ เส้นทางมรดก การตรัสรู้ สองครั้ง</Text>		<!-- As Napoleon Emperor, win the Enlightenment Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_SCIENCE_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
 			<Text>รู้แจ้งเห็นจริง 3</Text>		<!-- Enlightment 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_SCIENCE_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ชนะ [Enlightenment Legacy Path] สามครั้ง</Text>		<!-- As Napoleon Emperor, win the Enlightenment Legacy Path thrice. -->
+			<Text>ในฐานะ นโปเลียน จักรพรรดิ ชนะ เส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Napoleon Emperor, win the Enlightenment Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
 			<Text>การแข่งขันอวกาศ</Text>		<!-- Space Race -->
@@ -377,31 +377,31 @@
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ชนะ [Wonders of the Ancient World Legacy Path]</Text>		<!-- As Napoleon Emperor, win the Wonders of the Ancient World Legacy Path. -->
+			<Text>ในฐานะ นโปเลียน จักรพรรดิ ชนะ เส้นทางมรดก มหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Napoleon Emperor, win the Wonders of the Ancient World Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ชนะเส้นทางมรดก [Wonders of the Ancient World] สองครั้ง</Text>		<!-- As Napoleon Emperor, win the Wonders of the Ancient World Legacy Path twice. -->
+			<Text>ในฐานะ นโปเลียน จักรพรรดิ ชนะเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ สองครั้ง</Text>		<!-- As Napoleon Emperor, win the Wonders of the Ancient World Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 3</Text>		<!-- Wonders of the Ancient World 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะเส้นทางมรดก [Wonders of the Ancient World] สามครั้ง</Text>		<!-- As Napoleon Emperor, win the Wonders of the Ancient World Legacy Path thrice. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ สามครั้ง</Text>		<!-- As Napoleon Emperor, win the Wonders of the Ancient World Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_EXPLORATION_NAME" Language="th_TH">
 			<Text>โทชาคานา</Text>		<!-- Toshakhana -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะเส้นทางมรดก [Toshakhana]</Text>		<!-- As Napoleon Emperor, win the Toshakhana Legacy Path. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะเส้นทางมรดก โทชาคานา</Text>		<!-- As Napoleon Emperor, win the Toshakhana Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>โทชาคานา 2</Text>		<!-- Toshakhana 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะ [Toshakhana Legacy Path] สองครั้ง</Text>		<!-- As Napoleon Emperor, win the Toshakhana Legacy Path twice. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะ เส้นทางมรดก โทชาคานา สองครั้ง</Text>		<!-- As Napoleon Emperor, win the Toshakhana Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
 			<Text>โทชาคานา 3</Text>		<!-- Toshakhana 3 -->
@@ -413,7 +413,7 @@
 			<Text>สมาคมภูมิศาสตร์</Text>		<!-- Geographic Society -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะเส้นทางมรดก[a][b]ของสมาคมภูมิศาสตร์</Text>		<!-- As Napoleon Emperor, win the Geographic Society Legacy Path. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน ชนะเส้นทางมรดก[B][b]ของสมาคมภูมิศาสตร์</Text>		<!-- As Napoleon Emperor, win the Geographic Society Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_MODERN_2_NAME" Language="th_TH">
 			<Text>สมาคมภูมิศาสตร์ 2</Text>		<!-- Geographic Society 2 -->
@@ -431,25 +431,25 @@
 			<Text>มรดกคู่ ยุคโบราณ</Text>		<!-- Dual Legacies, Antiquity -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_FLAWLESS_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน, ทำเส้นทางมรดกให้เสร็จ 2 เส้นในยุคโบราณเดียว</Text>		<!-- As Napoleon Emperor, complete 2 Legacy Paths in a single Antiquity Age. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน, จบเส้นทางมรดก จำนวน 2 เส้นทางใน ยุคโบราณ ทีเดียว</Text>		<!-- As Napoleon Emperor, complete 2 Legacy Paths in a single Antiquity Age. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_FLAWLESS_VICTORY_EXPLORATION_NAME" Language="th_TH">
 			<Text>มรดกคู่, ยุคสำรวจ</Text>		<!-- Dual Legacies, Exploration -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_FLAWLESS_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน {Emperor}, จบเส้นทางมรดก [Legacy Paths] จำนวน 2 เส้นทางในยุคสำรวจเดียว</Text>		<!-- As Napoleon Emperor, complete 2 Legacy Paths in a single Exploration Age. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน, จบเส้นทางมรดก จำนวน 2 เส้นทางใน ยุคสำรวจ ทีเดียว</Text>		<!-- As Napoleon Emperor, complete 2 Legacy Paths in a single Exploration Age. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_FLAWLESS_VICTORY_MODERN_NAME" Language="th_TH">
 			<Text>มรดกคู่, ยุคใหม่</Text>		<!-- Dual Legacies, Modern -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_FLAWLESS_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ จักรพรรดินโปเลียน, จบ 2 เส้นทางมรดกในยุคใหม่ทีเดียว</Text>		<!-- As Napoleon Emperor, complete 2 Legacy Paths in a single Modern Age. -->
+			<Text>ในฐานะ จักรพรรดินโปเลียน, จบเส้นทางมรดก จำนวน 2 เส้นทางใน ยุคใหม่ ทีเดียว</Text>		<!-- As Napoleon Emperor, complete 2 Legacy Paths in a single Modern Age. -->
 		</Replace>
 		<Replace Tag="LOC_MODULE_NAPOLEON_NAME" Language="th_TH">
 			<Text>นโปเลียน</Text>		<!-- Napoleon -->
 		</Replace>
 		<Replace Tag="LOC_MODULE_NAPOLEON_DESCRIPTION" Language="th_TH">
-			<Text>ประกอบด้วยผู้นำคนใหม่: [Napoleon]</Text>		<!-- Contains a new leader: Napoleon. -->
+			<Text>ประกอบด้วยผู้นำคนใหม่: นโปเลียน</Text>		<!-- Contains a new leader: Napoleon. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1190A_STORYTITLE" Language="th_TH">
 			<Text>ชายผู้มีชะตากรรม</Text>		<!-- The Man of Destiny -->
@@ -515,16 +515,16 @@
 			<Text>เมื่อผู้คนของนโปเลียนละทิ้งความเชื่องมงายไว้เบื้องหลัง พวกเขาพบหนทางใหม่ในชีวิตที่นำความรุ่งเรืองมาสู่อาณาจักรของเขา</Text>		<!-- As Napoleon's people leave superstition behind, they find new avenues in life that bring prosperity to his empire. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1191B_IMPERATIVE" Language="th_TH">
-			<Text>บรรลุ 25 ประชากรในทุก [Settlements] ทั้งหมด</Text>		<!-- Reach 25 Population across all Settlements. -->
+			<Text>บรรลุ 25 ประชากรในทุก ถิ่นฐาน ทั้งหมด</Text>		<!-- Reach 25 Population across all Settlements. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1191C_STORYTITLE" Language="th_TH">
-			<Text>อิสรภาพ[Independence]</Text>		<!-- Independence -->
+			<Text>อิสรภาพ</Text>		<!-- Independence -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1191C_NAME" Language="th_TH">
 			<Text>สัญลักษณ์ดังกล่าวสามารถถูกจัดการได้ </Text>		<!-- Such symbols can be manipulated. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1191C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} ในทุก [Settlements]</Text>		<!-- {1_reward} in all Settlements. -->
+			<Text>{1_reward} ในทุก ถิ่นฐาน</Text>		<!-- {1_reward} in all Settlements. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1192A_STORYTITLE" Language="th_TH">
 			<Text>อิสระ</Text>		<!-- Independents -->
@@ -596,7 +596,7 @@
 			<Text>การละเมิดความเป็นส่วนตัว</Text>		<!-- A Breach of Privacy -->
 		</Replace>
 		<Replace Tag="LOC_3705A_COMPLETION" Language="th_TH">
-			<Text>นโปเลียนมองดูเรือของเขาจมลงใต้คลื่น {และกับเรือเหล่านั้น, จดหมายของเขากลับบ้าน – และเหล่าทหารของเขาด้วย} แต่มีคนคิดที่จะกู้จดหมายเหล่านั้นจากชะตากรรมน้ำพัด และเร็วๆ นี้ คำสารภาพส่วนตัวเหล่านี้ปรากฏขึ้นใน [translation], ตีพิมพ์โดยศัตรู!</Text>		<!-- Napoleon watches his ships disappear beneath the waves, and with them, his letters home – and those of his soldiers. But someone thought to rescue them from a watery fate, and soon these private confessions appear in translation, published by the enemy! -->
+			<Text>นโปเลียนมองดูเรือของเขาจมลงใต้คลื่น {และกับเรือเหล่านั้น, จดหมายของเขากลับบ้าน – และเหล่าทหารของเขาด้วย} แต่มีคนคิดที่จะกู้จดหมายเหล่านั้นจากชะตากรรมน้ำพัด และเร็วๆ นี้ คำสารภาพส่วนตัวเหล่านี้ปรากฏขึ้นในคำแปล, ที่ตีพิมพ์โดยศัตรู!</Text>		<!-- Napoleon watches his ships disappear beneath the waves, and with them, his letters home – and those of his soldiers. But someone thought to rescue them from a watery fate, and soon these private confessions appear in translation, published by the enemy! -->
 		</Replace>
 		<Replace Tag="LOC_3705B_NAME" Language="th_TH">
 			<Text>ความอัปยศเช่นนี้ไม่สามารถให้อภัยได้</Text>		<!-- Such humiliation is unforgivable. -->
@@ -638,7 +638,7 @@
 			<Text>มิสซาสำหรับประชาชน</Text>		<!-- A Mass for the Masses -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1194A_COMPLETION" Language="th_TH">
-			<Text>ในห้องโถงของวัด เสียงเพลงของพระดังก้อง และผู้ศรัทธาก็มารวมตัวกัน [Napoleon] นั่งอยู่ด้านหลัง แต่งตัวธรรมดา คอยดูและฟัง ด้านหน้า ชายคนหนึ่งร่ำไห้อย่างไม่มีความสุข ถูกอารมณ์ครอบงำ “คุณคิดอย่างไรกับทั้งหมดนี้?” [his advisor] กระซิบถาม</Text>		<!-- In the temple halls, the songs of the priests ring out, and the faithful gather. Napoleon sits in the back, dressed plainly, watching and listening. In the front, a man weeps disconsolately, overcome by emotion. “What do you think of all this?” his advisor whispers. -->
+			<Text>ในห้องโถงของวัด เสียงเพลงของพระดังก้อง และผู้ศรัทธาก็มารวมตัวกัน นโปเลียน นั่งอยู่ด้านหลัง แต่งตัวธรรมดา คอยดูและฟัง ด้านหน้า ชายคนหนึ่งร่ำไห้อย่างไม่มีความสุข ถูกอารมณ์ครอบงำ “คุณคิดอย่างไรกับทั้งหมดนี้?” ที่ปรึกษากระซิบถาม</Text>		<!-- In the temple halls, the songs of the priests ring out, and the faithful gather. Napoleon sits in the back, dressed plainly, watching and listening. In the front, a man weeps disconsolately, overcome by emotion. “What do you think of all this?” his advisor whispers. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1194B_STORYTITLE" Language="th_TH">
 			<Text>มิสซาสำหรับมวลชน</Text>		<!-- A Mass for the Masses -->
@@ -668,7 +668,7 @@
 			<Text>สุดปลายแผ่นดิน</Text>		<!-- The Ends of the Earth -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1195A_COMPLETION" Language="th_TH">
-			<Text>คนดูแลม้าของนโปเลียนดื่มเกินไป เขาเริ่มบ่นไม่หยุดให้ทุกคนฟังว่า "สิ่งที่ฉันเคยเก็บออกมาจากกีบเท้าของ [Marengo]? หนาม น้ำแข็ง ดินเหนียวสีแดง ดินเหนียวสีขาว ตะปู กระสุน ครั้งหนึ่ง - แมงมุมทารันทูล่าที่ยังมีชีวิตอยู่! {Quelle malchance}! ต่อไปจะเป็นอะไรอีกหนอ?"</Text>		<!-- Napoleon's stablehand has had too much to drink. He begins a litany of complaints to all who can hear: "The things I have picked out of Marengo’s hooves? Thorns. Ice. Red clay. White clay. Nails. Bullets. Once – a live tarantula! Quelle malchance! What will be next?” -->
+			<Text>คนดูแลม้าของนโปเลียนดื่มเกินไป เขาเริ่มบ่นไม่หยุดให้ทุกคนฟังว่า "สิ่งที่ฉันเคยเก็บออกมาจากกีบเท้าของ มาเรนโก? หนาม น้ำแข็ง ดินเหนียวสีแดง ดินเหนียวสีขาว ตะปู กระสุน ครั้งหนึ่ง - แมงมุมทารันทูล่าที่ยังมีชีวิตอยู่! โชคร้ายจริงๆ! ต่อไปจะเป็นอะไรอีกหนอ?"</Text>		<!-- Napoleon's stablehand has had too much to drink. He begins a litany of complaints to all who can hear: "The things I have picked out of Marengo’s hooves? Thorns. Ice. Red clay. White clay. Nails. Bullets. Once – a live tarantula! Quelle malchance! What will be next?” -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1195B_STORYTITLE" Language="th_TH">
 			<Text>สุดปลายแผ่นดิน</Text>		<!-- The Ends of the Earth -->
@@ -683,7 +683,7 @@
 			<Text>ข้ามผืนดินและมหาสมุทร ม้าศึกของนโปเลียนชื่อมาเรงโกเหยียบย่ำโลกทุกหนแห่ง อย่างไรก็ตาม พ่อค้ายังคงเก็บเกี่ยวความมั่งคั่งจากชายฝั่งที่ห่างไกลที่สุดด้วยความยินดี</Text>		<!-- Across land and ocean, Napoleon's steed Marengo trods the world round. In his wake, merchants gleefully collect the riches from even the most distant shores. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1195B_IMPERATIVE" Language="th_TH">
-			<Text>ปรับปรุง [4 Distant Land Resources]</Text>		<!-- Improve 4 Distant Land Resources. -->
+			<Text>ปรับปรุง 4 ทรัพยากร ในพื้นที่ห่างไกล</Text>		<!-- Improve 4 Distant Land Resources. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1196A_STORYTITLE" Language="th_TH">
 			<Text>เลอ เปอตี กาโปรัล</Text>		<!-- Le Petit Caporal -->
@@ -704,13 +704,13 @@
 			<Text>กองทัพของนโปเลียนลงหลักปักฐานในดินแดนใหม่ ขณะนี้เขาพร้อมที่เจรจาแล้ว</Text>		<!-- Napoleon's armies take root in new lands. Now he is ready to negotiate. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1196B_IMPERATIVE" Language="th_TH">
-			<Text>ยึด [Settlement] ในดินแดนห่างไกล</Text>		<!-- Capture a Settlement in Distant Lands. -->
+			<Text>ยึด ถิ่นฐาน ในดินแดนห่างไกล</Text>		<!-- Capture a Settlement in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1196C_STORYTITLE" Language="th_TH">
 			<Text>เลอ เปอตี กาโปราล</Text>		<!-- Le Petit Caporal -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1196C_NAME" Language="th_TH">
-			<Text>สงครามได้รับการยกเว้นโดย{divine} [tag]</Text>		<!-- War is condoned by the divine. -->
+			<Text>สงครามได้รับการยกเว้นโดยพระเจ้า</Text>		<!-- War is condoned by the divine. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1196C_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
@@ -719,7 +719,7 @@
 			<Text>ทหารปืนใหญ่</Text>		<!-- The Artilleryman -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1197A_COMPLETION" Language="th_TH">
-			<Text>เสียงดังก้องของปืนใหญ่สะท้อนจากหน้าผาอันห่างไกล [tag] [tag] โบนาปาร์ตมองดูด้วยความสงบ มีการกระตุกเบาๆ ที่มุมปากแสดงถึงความพึงพอใจของเขา “ใหญ่ขึ้น?” วิศวกรของเขาถาม “ไม่” กงสุลใหญ่ตอบ “มากกว่าเดิม”</Text>		<!-- The cannon thunder echoes off of the distant cliffs. Bonaparte looks on, a faint twitch at the corner of his mouth betraying his pleasure. “Larger?” his engineer asks. “No,” responds the First Consul. “More." -->
+			<Text>เสียงดังก้องของปืนใหญ่สะท้อนจากหน้าผาอันห่างไกล   โบนาปาร์ตมองดูด้วยความสงบ มีการกระตุกเบาๆ ที่มุมปากแสดงถึงความพึงพอใจของเขา “ใหญ่ขึ้น?” วิศวกรของเขาถาม “ไม่” กงสุลใหญ่ตอบ “มากกว่าเดิม”</Text>		<!-- The cannon thunder echoes off of the distant cliffs. Bonaparte looks on, a faint twitch at the corner of his mouth betraying his pleasure. “Larger?” his engineer asks. “No,” responds the First Consul. “More." -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1197B_STORYTITLE" Language="th_TH">
 			<Text>ทหารปืนใหญ่</Text>		<!-- The Artilleryman -->
@@ -728,7 +728,7 @@
 			<Text>ปิด</Text>		<!-- Close. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1197B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} ในทุก[Settlements]</Text>		<!-- {1_reward} in all Settlements. -->
+			<Text>{1_reward} ในทุก ถิ่นฐาน</Text>		<!-- {1_reward} in all Settlements. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1197B_COMPLETION" Language="th_TH">
 			<Text>นโปเลียนชอบสนทนากับศัตรูของเขาก่อน แต่หากเกิดความขัดแย้ง ปืนใหญ่ของเขาจะเป็นผู้ควบคุมบทสนทนา</Text>		<!-- Napoleon prefers to speak with his enemies first. But should disagreements arise, his artillery takes charge of the conversation. -->
@@ -740,7 +740,7 @@
 			<Text>เหยื่อผู้บริสุทธิ์</Text>		<!-- An Innocent Victim -->
 		</Replace>
 		<Replace Tag="LOC_3706A_COMPLETION" Language="th_TH">
-			<Text>สมาชิกสภาหยุดการโต้แย้งอันเผ็ดร้อนเรื่องการก่อสร้างสะพานใหม่เพื่อดูมีดเล็กของนโปเลียนทำงาน ขณะที่เขาฟัง ถาม และโต้แย้ง ใบมีดนั้นระบายพลังงานของเขา หายลงในท้าวแขนของเก้าอี้อีกครั้งและอีกครั้ง หนึ่งในเพื่อนที่จ้องมองรอยขูดลึก ๆ เสนอว่าให้หยุดพักเพื่อความสงบเสงี่ยมของทุกคน "ไร้สาระ" นโปเลียนโบกมือเขาออกไป "[tag]" ตอนนี้เรามีความเห็นว่าอย่างไรเกี่ยวกับ [tag] ศัลยแพทย์?</Text>		<!-- Councillors pause their hot debate over the construction of new bridge to watch Napoleon's small knife at work. As he listens, queries, and argues, the blade channels his energy, disappearing into the arm of his chair again and again. One fellow, staring at the deep gouges, suggests they take a break for the sake of everyone's nerves. "Nonsense," Napoleon waves him off. "Now where do we stand on surgeons?" -->
+			<Text>สมาชิกสภาหยุดการโต้แย้งอันเผ็ดร้อนเรื่องการก่อสร้างสะพานใหม่เพื่อดูมีดเล็กของนโปเลียนทำงาน ขณะที่เขาฟัง ถาม และโต้แย้ง ใบมีดนั้นระบายพลังงานของเขา หายลงในท้าวแขนของเก้าอี้อีกครั้งและอีกครั้ง หนึ่งในเพื่อนที่จ้องมองรอยขูดลึก ๆ เสนอว่าให้หยุดพักเพื่อความสงบเสงี่ยมของทุกคน "ไร้สาระ" นโปเลียนโบกมือเขาออกไป "" ตอนนี้เรามีความเห็นว่าอย่างไรเกี่ยวกับ  ศัลยแพทย์?</Text>		<!-- Councillors pause their hot debate over the construction of new bridge to watch Napoleon's small knife at work. As he listens, queries, and argues, the blade channels his energy, disappearing into the arm of his chair again and again. One fellow, staring at the deep gouges, suggests they take a break for the sake of everyone's nerves. "Nonsense," Napoleon waves him off. "Now where do we stand on surgeons?" -->
 		</Replace>
 		<Replace Tag="LOC_3706B_NAME" Language="th_TH">
 			<Text>ปัญหาสะพานควรได้รับการแก้ไขก่อน</Text>		<!-- The bridge issue should be resolved first. -->
@@ -776,7 +776,7 @@
 			<Text>ศาสนาท้องถิ่น</Text>		<!-- Local Religions -->
 		</Replace>
 		<Replace Tag="LOC_3708A_COMPLETION" Language="th_TH">
-			<Text>นโปเลียนเดินขบวนผ่านถนนของเมืองที่ถูกพิชิต {city} พลเมืองของเมืองนั้นมองดูด้วยความเงียบกังวลเรื่องอนาคตของพวกเขาและสิ่งที่จะเกิดขึ้นกับประเพณีของพวกเขา ผู้นำทางศาสนาท้องถิ่นวิงวอนขอให้ความเชื่อของพวกเขายังคงอยู่ [intact]</Text>		<!-- Napoleon parades through the streets of the conquered city. Its citizens watch in silence, worried for their futures and what will become of their traditions. Local religious leaders beg that their beliefs, at least, remain intact. -->
+			<Text>นโปเลียนเดินขบวนผ่านถนนของเมืองที่ถูกพิชิต พลเมืองของเมืองนั้นมองดูด้วยความเงียบกังวลเรื่องอนาคตของพวกเขาและสิ่งที่จะเกิดขึ้นกับประเพณีของพวกเขา ผู้นำทางศาสนาท้องถิ่นวิงวอนขอให้ความเชื่อของพวกเขายังคงอยู่</Text>		<!-- Napoleon parades through the streets of the conquered city. Its citizens watch in silence, worried for their futures and what will become of their traditions. Local religious leaders beg that their beliefs, at least, remain intact. -->
 		</Replace>
 		<Replace Tag="LOC_3708B_NAME" Language="th_TH">
 			<Text>ทำไมต้องเปลี่ยนสิ่งที่ทำให้ผู้คนมีความสุข?</Text>		<!-- Why change what makes the people happy? -->
@@ -785,19 +785,19 @@
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3708C_NAME" Language="th_TH">
-			<Text>ความเชื่อทั้งหมดต้องสอดคล้อง一致กัน</Text>		<!-- All beliefs must be aligned. -->
+			<Text>ความเชื่อทั้งหมดต้องสอดคล้อง一กัน</Text>		<!-- All beliefs must be aligned. -->
 		</Replace>
 		<Replace Tag="LOC_3708C_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1198A_STORYTITLE" Language="th_TH">
-			<Text>บรูแมร์ครั้งที่ 18</Text>		<!-- The 18th Brumaire -->
+			<Text>บรูแมร์ ครั้งที่ 18</Text>		<!-- The 18th Brumaire -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1198A_COMPLETION" Language="th_TH">
 			<Text>นโปเลียน โบนาปาร์ตเป็นวีรบุรุษสำหรับยุคแห่งเหตุผล ซึ่งชายคนหนึ่งผู้กล้าหาญและทะเยอทะยานสามารถยืนหยัดได้เพียงลำพังต่อสู้กับพลังแห่งปฏิกิริยา – หรืออย่างที่หนังสือพิมพ์รายงาน ใบปลิวหัวรุนแรงเล่าเรื่องที่ต่างออกไป: การปฏิวัติเพียงผิวเผิน อำนาจซ่อนอยู่หลังเครื่องหมายของนักปฏิวัติ ไม่ใช่โศกนาฏกรรม แต่เป็นเรื่องตลกร้าย</Text>		<!-- Napoleon Bonaparte is a hero for a rational age, where a single man of daring and ambition can stand alone against the forces of reaction – or so the newspapers report. The radical pamphlets tell a different tale: a cosmetic revolution, one where authority hides behind a revolutionary’s cockade. Not a tragedy, but a farce. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1198B_STORYTITLE" Language="th_TH">
-			<Text>The 18th Brumaire</Text>		<!-- The 18th Brumaire -->
+			<Text>บรูแมร์ ครั้งที่ 18</Text>		<!-- The 18th Brumaire -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1198B_NAME" Language="th_TH">
 			<Text>ปิด</Text>		<!-- Close. -->
@@ -812,7 +812,7 @@
 			<Text>สร้างสิ่งมหัศจรรย์</Text>		<!-- Build a Wonder. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1198C_STORYTITLE" Language="th_TH">
-			<Text>ที่ 18 บรูแมร์</Text>		<!-- The 18th Brumaire -->
+			<Text>บรูแมร์ ครั้งที่ 18</Text>		<!-- The 18th Brumaire -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1198C_NAME" Language="th_TH">
 			<Text>ปิด</Text>		<!-- Close. -->
@@ -821,7 +821,7 @@
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1198D_STORYTITLE" Language="th_TH">
-			<Text>บรูแมร์ครั้งที่ 18</Text>		<!-- The 18th Brumaire -->
+			<Text>บรูแมร์ ครั้งที่ 18</Text>		<!-- The 18th Brumaire -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1198D_NAME" Language="th_TH">
 			<Text>ปิด</Text>		<!-- Close. -->
@@ -830,25 +830,25 @@
 			<Text>{1_reward} และเข้าร่วมการเฉลิมฉลอง</Text>		<!-- {1_reward} and enter a Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1199A_STORYTITLE" Language="th_TH">
-			<Text>วันที่ 11 [Frimaire]</Text>		<!-- The 11th Frimaire -->
+			<Text>ฟริแมร์ ครั้งที่ 11</Text>		<!-- The 11th Frimaire -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1199A_COMPLETION" Language="th_TH">
-			<Text>นโปเลียน โบนาปาร์ต จักรพรรดิที่สร้างตัวเองขึ้นมา เป็นพระมหากษัตริย์ที่ไม่มีสิ่งประดับประดาของราชบัลลังก์ เหลือเพียงถึงกระดูกของดินประสิวและตะกั่ว [tag] และ [tag] มงกุฎที่เขาสวมคือมงกุฎที่เขาวางบนหัวของเขาเอง</Text>		<!-- Napoleon Bonaparte, the self-made emperor, a monarch stripped bare of the finery of monarchy down to the bones of niter and lead. The crown he wears is one he placed upon his own head. -->
+			<Text>นโปเลียน โบนาปาร์ต จักรพรรดิที่สร้างตัวเองขึ้นมา เป็นพระมหากษัตริย์ที่ไม่มีสิ่งประดับประดาของราชบัลลังก์ เหลือเพียงถึงกระดูกของดินประสิวและตะกั่ว  และ  มงกุฎที่เขาสวมคือมงกุฎที่เขาวางบนหัวของเขาเอง</Text>		<!-- Napoleon Bonaparte, the self-made emperor, a monarch stripped bare of the finery of monarchy down to the bones of niter and lead. The crown he wears is one he placed upon his own head. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1199B_STORYTITLE" Language="th_TH">
-			<Text>วันที่ 11 เดือนฟริแมร์</Text>		<!-- The 11th Frimaire -->
+			<Text>ฟริแมร์ ครั้งที่ 11</Text>		<!-- The 11th Frimaire -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1199B_NAME" Language="th_TH">
 			<Text>ปิด</Text>		<!-- Close. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1199B_DESCRIPTION" Language="th_TH">
-			<Text>{รางวัลสำหรับเด็ก 1 คน}</Text>		<!-- {1_child_reward} -->
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1199B_COMPLETION" Language="th_TH">
 			<Text>อำนาจการยิงของนโปเลียนนั้นน่ากลัว แต่คำพูดของเขากลับดึงดูดความสนใจมากกว่าเสียงระเบิดที่ดังที่สุด ทุกคนฟังเมื่อเขาพูด...มิฉะนั้นแล้ว</Text>		<!-- Napoleon's firepower is fearsome, yet his words command more attention than the loudest explosion. All listen when he speaks…or else. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1199B_IMPERATIVE" Language="th_TH">
-			<Text>ฝึกเครื่องบินสองปีก, [Trench Fighter], และ {Bomber}</Text>		<!-- Train a Biplane, Trench Fighter, and Bomber. -->
+			<Text>ฝึกเครื่องบินสองปีก, เครื่องบินโจมตีสนามเพลาะ, และ เครื่องบินทิ้งระเบิด</Text>		<!-- Train a Biplane, Trench Fighter, and Bomber. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1199C_STORYTITLE" Language="th_TH">
 			<Text>วันที่ 11 ฟรีแมร์</Text>		<!-- The 11th Frimaire -->
@@ -860,7 +860,7 @@
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1199D_STORYTITLE" Language="th_TH">
-			<Text>วันที่ 11 ฟริมแอร์</Text>		<!-- The 11th Frimaire -->
+			<Text>ฟริแมร์ ครั้งที่ 11</Text>		<!-- The 11th Frimaire -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1199D_NAME" Language="th_TH">
 			<Text>ปิด</Text>		<!-- Close. -->
@@ -908,7 +908,7 @@
 			<Text>เทพสมัยใหม่</Text>		<!-- A Modern Deity -->
 		</Replace>
 		<Replace Tag="LOC_3711A_COMPLETION" Language="th_TH">
-			<Text>นโปเลียนจ้องมองที่รูปปั้นตรงหน้า เขา เทพเจ้าแห่งสงครามโบราณที่ถูกปั้นในรูปลักษณ์ของเขา จ้องกลับ การสานเป็นเอกลักษณ์อย่างยอดเยี่ยม แต่รูปร่างไม่ประจบ...และเกือบจะเปลือยเปล่า ขณะที่รูปปั้นถูกนำไปที่ส่วนลึกของวัง [tag] ที่จะไม่เห็นแสงแห่งวันอีกเลย [tag] เขาตอบแทนประติมากรอย่างเต็มใจและส่งเขาออกไป [tag]</Text>		<!-- Napoleon stares at the statue before him. An ancient god of war, gifted with his own likeness, gazes back. The representation is exquisite. But the physique is not flattering…nor is its near nudity. As the figure is carried away to the bowels of the palace, never to see the light of day, he compensates the sculptor heartily and sends him on his way. -->
+			<Text>นโปเลียนจ้องมองที่รูปปั้นตรงหน้า เขา เทพเจ้าแห่งสงครามโบราณที่ถูกปั้นในรูปลักษณ์ของเขา จ้องกลับ การสานเป็นเอกลักษณ์อย่างยอดเยี่ยม แต่รูปร่างไม่ประจบ...และเกือบจะเปลือยเปล่า ขณะที่รูปปั้นถูกนำไปที่ส่วนลึกของวัง  ที่จะไม่เห็นแสงแห่งวันอีกเลย  เขาตอบแทนประติมากรอย่างเต็มใจและส่งเขาออกไป </Text>		<!-- Napoleon stares at the statue before him. An ancient god of war, gifted with his own likeness, gazes back. The representation is exquisite. But the physique is not flattering…nor is its near nudity. As the figure is carried away to the bowels of the palace, never to see the light of day, he compensates the sculptor heartily and sends him on his way. -->
 		</Replace>
 		<Replace Tag="LOC_3711B_NAME" Language="th_TH">
 			<Text>ศิลปะกล่าวถึงความจริงของจิตวิญญาณมนุษย์</Text>		<!-- The arts speak the truth of human spirit. -->
@@ -926,7 +926,7 @@
 			<Text>ไม่ใช่แค่ทหารทั่วไป</Text>		<!-- No Mere Soldier -->
 		</Replace>
 		<Replace Tag="LOC_3712A_COMPLETION" Language="th_TH">
-			<Text>เช่นเดียวกับที่นโปเลียนล้อมรอบตัวเองด้วยนายพล [tag] เขาก็มีส่วนร่วมกับนักปราชญ์ที่ยิ่งใหญ่ที่สุด [tag] วิทยาศาสตร์ วรรณกรรม ดนตรี และเทววิทยา... ความเชี่ยวชาญของเขาในวิชาเหล่านี้ทำให้ผู้เชี่ยวชาญต้องประหลาดใจและยินดี</Text>		<!-- As much as Napoleon surrounds himself with generals, so too does he engage the greatest of learned minds. Science, literature, music, and theology…his expertise in these subjects surprises and delights their masters. -->
+			<Text>เช่นเดียวกับที่นโปเลียนล้อมรอบตัวเองด้วยนายพล  เขาก็มีส่วนร่วมกับนักปราชญ์ที่ยิ่งใหญ่ที่สุด  วิทยาศาสตร์ วรรณกรรม ดนตรี และเทววิทยา... ความเชี่ยวชาญของเขาในวิชาเหล่านี้ทำให้ผู้เชี่ยวชาญต้องประหลาดใจและยินดี</Text>		<!-- As much as Napoleon surrounds himself with generals, so too does he engage the greatest of learned minds. Science, literature, music, and theology…his expertise in these subjects surprises and delights their masters. -->
 		</Replace>
 		<Replace Tag="LOC_3712B_NAME" Language="th_TH">
 			<Text>นักรบและนักวิชาการนำด้วยการเป็นแบบอย่าง</Text>		<!-- A scholar-soldier leads by example. -->
@@ -987,13 +987,13 @@
 			<Text>โหนดคุณลักษณะทางเศรษฐกิจ</Text>		<!-- Economic Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_NAPOLEON_EMPEROR_L1_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับทองคำเพิ่มขึ้น 25% จาก [Trade] และ {Treasure Fleets}</Text>		<!-- +25% Gold from Trade and Treasure Fleets. -->
+			<Text>ได้รับทองคำเพิ่มขึ้น 25% จากการค้า และ กองเรือบรรทุกสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Fleets. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_NAPOLEON_EMPEROR_L2_NAME" Language="th_TH">
 			<Text>โหนดคุณลักษณะทางการทูต</Text>		<!-- Diplomatic Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_NAPOLEON_EMPEROR_L2_DESCRIPTION" Language="th_TH">
-			<Text>+25% ความสัมพันธ์จากการเริ่มต้นหรือสนับสนุน [Endeavors]. -25% ความสัมพันธ์จากการเริ่มต้น [Sanctions] หรือปฏิเสธ [Endeavors]</Text>		<!-- +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
+			<Text>+25% ความสัมพันธ์จากการเริ่มต้นหรือสนับสนุน ความร่วมมือ. -25% ความสัมพันธ์จากการเริ่มต้น คว่ำบาตร หรือปฏิเสธ ความร่วมมือ</Text>		<!-- +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_NAPOLEON_DESCRIPTION" Language="th_TH">
 			<Text>เล่นเป็น [B]นโปเลียน, จักรพรรดิ[/B]</Text>		<!-- Play as [B]Napoleon, Emperor[/B]. -->
