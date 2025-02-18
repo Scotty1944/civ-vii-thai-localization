@@ -14193,13 +14193,12 @@
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MODERN_WELCOME_BODY" Language="th_TH">
 			<Text>ยุคแห่งการพัฒนาอุตสาหกรรมอย่างรวดเร็วเริ่มขึ้นแล้ว! เทคโนโลยีใหม่เหล่านี้จะปลดปล่อยพลังอะไรบ้าง?
-
-ยุคใหม่มอบโอกาสใหม่ๆ มากมาย:
+[n][n]ยุคใหม่มอบโอกาสใหม่ๆ มากมาย:
 [BLIST]
-[LI]สร้าง [b]สถานีรถไฟ [/b]และ [b]โรงงาน [/b]เพื่อสร้างเครือข่าย [icon:YIELD_GOLD] [b]การค้า [/b]ที่คึกคัก
-[LI]มองขึ้นไปบนท้องฟ้าและวิจัย [b]การบิน [/b]เพื่อเป็นผู้นำด้าน [icon:YIELD_SCIENCE] [b]วิทยาศาสตร์[/b]
+[LI]สร้าง [b]สถานีรถไฟ[/b] และ [b]โรงงาน[/b] เพื่อสร้างเครือข่าย [icon:YIELD_GOLD] [b]การค้า[/b] ที่คึกคัก
+[LI]มองขึ้นไปบนท้องฟ้าและวิจัย [b]การบิน[/b] เพื่อเป็นผู้นำด้าน [icon:YIELD_SCIENCE] [b]วิทยาศาสตร์[/b]
 [LI]รับเอา [b]อุดมการณ์ [/b]และเผยแพร่คำพูดผ่าน [icon:NOTIFICATION_DECLARE_WAR] [b]การพิชิต[/b]
-[LI]นำทาง [b]นักสำรวจ [/b]เพื่อขุดค้น [b]โบราณวัตถุ [/b]และบูชาวัฒนธรรม [icon:YIELD_CULTURE] [b]ของโลก[/b]
+[LI]นำทาง [b]นักสำรวจ[/b] เพื่อขุดค้น [b]โบราณวัตถุ[/b] และบูชาวัฒนธรรม [icon:YIELD_CULTURE] [b]ของโลก[/b]
 [/LIST]</Text>		<!-- 
 				A period of rapid industrialization begins! What forces will these new technologies unleash?
 				[n][n]The Modern Age brings many new opportunities:
@@ -14215,7 +14214,7 @@
 			<Text>ทางรถไฟ</Text>		<!-- Railroads -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_RAIL_STATION_BODY" Language="th_TH">
-			<Text>คุณสามารถก่อสร้าง [icon:BUILDING_RAIL_STATION] [b]{LOC_BUILDING_RAIL_STATION_NAME}[/b] ได้แล้ว![n]สองถิ่นฐานที่มีสถานีรถไฟเชื่อมต่อกันโดยทางบกจะสร้างทางรถไฟ [b]Railroad[/b] ระหว่างกัน ยูนิตสามารถส่งผ่านทางรถไฟได้ด้วย [b]Rail Transfers[/b] เมื่ออยู่บนหรือข้างเคียง [icon:BUILDING_RAIL_STATION] [b]{LOC_BUILDING_RAIL_STATION_NAME}[/b].[n]ถิ่นฐานจะต้องมี {LOC_BUILDING_RAIL_STATION_NAME} ก่อนที่จะสามารถมี [b][icon:BUILDING_FACTORY] [b]{LOC_BUILDING_FACTORY_NAME}[/b]</Text>		<!-- You may now construct a [icon:BUILDING_RAIL_STATION] [b]{LOC_BUILDING_RAIL_STATION_NAME}[/b]![n]Two Settlements with Rail Stations connected by land will create a [b]Railroad[/b] between them. Units can be sent along Railroads with [b]Rail Transfers[/b] when on or adjacent to a [icon:BUILDING_RAIL_STATION] [b]{LOC_BUILDING_RAIL_STATION_NAME}[/b].[n]A Settlement must have a {LOC_BUILDING_RAIL_STATION_NAME} before it can have a [b][icon:BUILDING_FACTORY] [b]{LOC_BUILDING_FACTORY_NAME}[/b]. -->
+			<Text>คุณสามารถก่อสร้าง [icon:BUILDING_RAIL_STATION] [b]{LOC_BUILDING_RAIL_STATION_NAME}[/b] ได้แล้ว![n]สองถิ่นฐาน ที่มีสถานีรถไฟเชื่อมต่อกันโดยทางบกจะสร้างทางรถไฟ [b]Railroad[/b] ระหว่างกัน ยูนิตสามารถส่งผ่านทางรถไฟได้ด้วย [b]Rail Transfers[/b] เมื่ออยู่บนหรือข้างเคียง [icon:BUILDING_RAIL_STATION] [b]{LOC_BUILDING_RAIL_STATION_NAME}[/b].[n]ถิ่นฐานจะต้องมี {LOC_BUILDING_RAIL_STATION_NAME} ก่อนที่จะสามารถมี [b][icon:BUILDING_FACTORY] [b]{LOC_BUILDING_FACTORY_NAME}[/b]</Text>		<!-- You may now construct a [icon:BUILDING_RAIL_STATION] [b]{LOC_BUILDING_RAIL_STATION_NAME}[/b]![n]Two Settlements with Rail Stations connected by land will create a [b]Railroad[/b] between them. Units can be sent along Railroads with [b]Rail Transfers[/b] when on or adjacent to a [icon:BUILDING_RAIL_STATION] [b]{LOC_BUILDING_RAIL_STATION_NAME}[/b].[n]A Settlement must have a {LOC_BUILDING_RAIL_STATION_NAME} before it can have a [b][icon:BUILDING_FACTORY] [b]{LOC_BUILDING_FACTORY_NAME}[/b]. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_PORT_TITLE" Language="th_TH">
 			<Text>ทางรถไฟ: ท่าเรือ</Text>		<!-- Railroads: Ports -->
@@ -14245,13 +14244,13 @@
 			<Text>โบราณคดี</Text>		<!-- Archaeology -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_NATURAL_HISTORY_CIVIC_UNLOCKED_BODY" Language="th_TH">
-			<Text>ความเชี่ยวชาญของคุณใน [icon:NOTIFICATION_FREE_CIVIC_AWARDED] [b]{LOC_CIVIC_NATURAL_HISTORY_NAME}[/b] อนุญาตให้คุณสร้างยูนิตใหม่, {1_ExplorerIcon} [b]{2_ExplorerName}[/b] เมื่อพวกเขาทำการวิจัยที่ [icon:BUILDING_UNIVERSITY] [b]{LOC_BUILDING_UNIVERSITY_NAME}[/b] หรือ [icon:BUILDING_MUSEUM] [b]{LOC_BUILDING_MUSEUM_NAME}[/b], ผู้เชี่ยวชาญที่ได้รับการฝึกฝนมาอย่างดีเหล่านี้จะสามารถสำรวจโลกเพื่อหา [b]โบราณวัตถุ[/b] จากยุคก่อน ๆ ได้</Text>		<!-- Your Mastery of [icon:NOTIFICATION_FREE_CIVIC_AWARDED] [b]{LOC_CIVIC_NATURAL_HISTORY_NAME}[/b] allows you to create a new Unit, the {1_ExplorerIcon} [b]{2_ExplorerName}[/b]. Once they've conducted research at a [icon:BUILDING_UNIVERSITY] [b]{LOC_BUILDING_UNIVERSITY_NAME}[/b] or [icon:BUILDING_MUSEUM] [b]{LOC_BUILDING_MUSEUM_NAME}[/b], these highly trained experts may comb the world for [b]Artifacts[/b] of previous Ages. -->
+			<Text>ความเชี่ยวชาญของคุณใน [icon:NOTIFICATION_FREE_CIVIC_AWARDED] [b]{LOC_CIVIC_NATURAL_HISTORY_NAME}[/b] อนุญาตให้คุณสร้างยูนิตใหม่, {1_ExplorerIcon} [b]{2_ExplorerName}[/b] เมื่อพวกเขาทำการวิจัยที่ [icon:BUILDING_UNIVERSITY] [b]{LOC_BUILDING_UNIVERSITY_NAME}[/b] หรือ [icon:BUILDING_MUSEUM] [b]{LOC_BUILDING_MUSEUM_NAME}[/b], ผู้เชี่ยวชาญที่ได้รับการ ฝึกฝน มาอย่างดีเหล่านี้จะสามารถสำรวจโลกเพื่อหา [b]โบราณวัตถุ[/b] จากยุคก่อนๆ ได้</Text>		<!-- Your Mastery of [icon:NOTIFICATION_FREE_CIVIC_AWARDED] [b]{LOC_CIVIC_NATURAL_HISTORY_NAME}[/b] allows you to create a new Unit, the {1_ExplorerIcon} [b]{2_ExplorerName}[/b]. Once they've conducted research at a [icon:BUILDING_UNIVERSITY] [b]{LOC_BUILDING_UNIVERSITY_NAME}[/b] or [icon:BUILDING_MUSEUM] [b]{LOC_BUILDING_MUSEUM_NAME}[/b], these highly trained experts may comb the world for [b]Artifacts[/b] of previous Ages. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_EXPLORER_TRAINED_TITLE" Language="th_TH">
-			<Text>การวิจัยโบราณวัตถุ</Text>		<!-- Researching Artifacts -->
+			<Text>วิจัยโบราณวัตถุ</Text>		<!-- Researching Artifacts -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_EXPLORER_TRAINED_BODY" Language="th_TH">
-			<Text>{1_ExplorerIcon} [b]{2_ExplorerName} [/b]ใหม่ของคุณกระตือรือร้นที่จะค้นหา [b]โบราณวัตถุ [/b]จาก [b]ยุค[/b]ก่อน ๆ ก่อนอื่นให้ส่ง [b]นักสำรวจ [/b]ของคุณไปที่ [icon:BUILDING_UNIVERSITY] [b]{LOC_BUILDING_UNIVERSITY_NAME} [/b](จากยุคสำรวจ) หรือ [icon:BUILDING_MUSEUM] [b]{LOC_BUILDING_MUSEUM_NAME} [/b](จากยุคสมัยใหม่) และดำเนินการ [b]วิจัยโบราณวัตถุ [/b]ที่นั่น สิ่งนี้จะเผยให้เห็นซากปรักหักพังใน [b]ยุคสำรวจ[/b]ทั้งหมดบน[b]ทวีป[/b]นี้</Text>		<!-- Your new {1_ExplorerIcon} [b]{2_ExplorerName} [/b]is eager to find [b]Artifacts [/b]from previous [b]Ages. [/b]First, send your [b]Explorer [/b]to a [icon:BUILDING_UNIVERSITY] [b]{LOC_BUILDING_UNIVERSITY_NAME} [/b](from the Exploration Age) or a [icon:BUILDING_MUSEUM] [b]{LOC_BUILDING_MUSEUM_NAME} [/b](from the Modern Age) and undertake the [b]Research Artifacts [/b]action there. This will reveal all the [b]Exploration Age [/b]Ruins on this [b]continent[/b]. -->
+			<Text>{1_ExplorerIcon} [b]{2_ExplorerName} [/b]ใหม่ ของคุณกระตือรือร้นที่จะค้นหา [b]โบราณวัตถุ [/b]จาก [b]ยุค[/b]ก่อน ๆ ก่อนอื่นให้ส่ง [b]นักสำรวจ [/b]ของคุณไปที่ [icon:BUILDING_UNIVERSITY] [b]{LOC_BUILDING_UNIVERSITY_NAME} [/b](จากยุคสำรวจ) หรือ [icon:BUILDING_MUSEUM] [b]{LOC_BUILDING_MUSEUM_NAME} [/b](จากยุคใหม่) และดำเนินการ [b]วิจัยโบราณวัตถุ [/b]ที่นั่น สิ่งนี้จะเผยให้เห็นซากปรักหักพังใน [b]ยุคสำรวจ[/b]ทั้งหมดบน[b]ทวีป[/b]นี้</Text>		<!-- Your new {1_ExplorerIcon} [b]{2_ExplorerName} [/b]is eager to find [b]Artifacts [/b]from previous [b]Ages. [/b]First, send your [b]Explorer [/b]to a [icon:BUILDING_UNIVERSITY] [b]{LOC_BUILDING_UNIVERSITY_NAME} [/b](from the Exploration Age) or a [icon:BUILDING_MUSEUM] [b]{LOC_BUILDING_MUSEUM_NAME} [/b](from the Modern Age) and undertake the [b]Research Artifacts [/b]action there. This will reveal all the [b]Exploration Age [/b]Ruins on this [b]continent[/b]. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_RUINS_RESEARCHED_TITLE" Language="th_TH">
 			<Text>พบซากปรักหักพัง!</Text>		<!-- Ruins Found! -->
@@ -14294,7 +14293,7 @@
 			<Text>การต่อสู้บนท้องฟ้า</Text>		<!-- Fighting in the Skies -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_AIR_COMBAT_BODY" Language="th_TH">
-			<Text>การถือกำเนิดของการบินที่ใช้เครื่องยนต์ได้นำพาความขัดแย้งของมนุษย์ขึ้นสู่ท้องฟ้า ยูนิตทางอากาศเป็นอาวุธสงครามที่ทรงพลังอย่างยิ่ง ทำให้ผู้โจมตีสามารถโจมตีเป้าหมายบนพื้นดินและทิ้งระเบิดเมืองจากระยะไกลได้ มียูนิตการต่อสู้อากาศสามประเภท: [BLIST] [LI]เครื่องบินทิ้งระเบิด: ยูนิตบุกโจมตีในอากาศ ที่เหมาะอย่างยิ่งสำหรับการโจมตีเมือง [LI]เครื่องบินโจมตี: ออกแบบมาเพื่อโจมตียูนิตภาคพื้นดินและยูนิตเรือ [LI]เครื่องบินขับไล่: มีบทบาทสำคัญในการสกัดกั้นการโจมตีทางอากาศของศัตรู [/BLIST]</Text>		<!-- The advent of powered human flight has taken human conflict to the skies. Air Units are incredibly powerful weapons of war, allowing the attacker to strike targets on the ground and bombard cities from great distances.[n]There are three types of Air Combat Unit:[BLIST][LI]Bombers: the siege units of the air, ideal for attacking cities[LI]Attackers: designed for attacking Land and Naval Units[LI]Fighters: instrumental in intercepting enemy air attacks[/BLIST] -->
+			<Text>การถือกำเนิดของการบินที่ใช้ เครื่องยนต์ ได้นำพาความขัดแย้งของมนุษย์ขึ้นสู่ท้องฟ้า ยูนิตทางอากาศเป็นอาวุธสงครามที่ทรงพลังอย่างยิ่ง ทำให้ผู้โจมตีสามารถโจมตีเป้าหมายบน พื้นดิน และทิ้งระเบิดเมืองจากระยะไกลได้ มียูนิตการต่อสู้อากาศสามประเภท: [BLIST] [LI]เครื่องบินทิ้งระเบิด: ยูนิตบุกโจมตีในอากาศ ที่เหมาะอย่างยิ่งสำหรับการโจมตีเมือง [LI]เครื่องบินโจมตี: ออกแบบมาเพื่อโจมตียูนิตภาคพื้นดินและยูนิตเรือ [LI]เครื่องบินขับไล่: มีบทบาทสำคัญในการสกัดกั้นการโจมตีทางอากาศของศัตรู [/BLIST]</Text>		<!-- The advent of powered human flight has taken human conflict to the skies. Air Units are incredibly powerful weapons of war, allowing the attacker to strike targets on the ground and bombard cities from great distances.[n]There are three types of Air Combat Unit:[BLIST][LI]Bombers: the siege units of the air, ideal for attacking cities[LI]Attackers: designed for attacking Land and Naval Units[LI]Fighters: instrumental in intercepting enemy air attacks[/BLIST] -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_QUEST_SELECTION_TITLE" Language="th_TH">
 			<Text>สร้างมรดกของคุณ</Text>		<!-- Building Your Legacy -->
