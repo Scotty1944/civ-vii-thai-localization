@@ -53,7 +53,7 @@
 			<Text>ปลดล็อกตำนาน. +15% [icon:YIELD_PRODUCTION]การผลิตที่ใช้ในการสร้างสิ่งก่อสร้างและมหัศจรรย์ที่มีช่องงานชิ้นเอก</Text>		<!-- Legend Unlock. +15% [icon:YIELD_PRODUCTION]Production towards constructing Buildings and Wonders with Great Works slots. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_ASHOKA_ALT_L1_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน +25% ความสัมพันธ์จากการเริ่มต้นหรือตอบสนอง Endeavors. -25% ความสัมพันธ์จากการเริ่มต้น Sanctions หรือการปฏิเสธ Endeavors</Text>		<!-- Legend Unlock. +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
+			<Text>ปลดล็อกตำนาน +25% ความสัมพันธ์ จากการเริ่มต้นหรือสนับสนุน ความร่วมมือ, -25% ความสัมพันธ์ จากการเริ่มต้น คว่ำบาตร หรือการปฏิเสธ ความร่วมมือ</Text>		<!-- Legend Unlock. +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_HIMIKO_ALT_L2_DESCRIPTION" Language="th_TH">
 			<Text>ปลดล็อกตำนาน +25% ความสัมพันธ์จากการเริ่มต้นหรือสนับสนุน ความร่วมมือ -25% ความสัมพันธ์จากการเริ่มต้น คว่ำบาตร หรือปฏิเสธ ความร่วมมือ</Text>		<!-- Legend Unlock. +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
@@ -1479,7 +1479,7 @@
 			<Text>โหนดคุณสมบัติทางการทูต</Text>		<!-- Diplomatic Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_ASHOKA_CONQUEROR_L1_DESCRIPTION" Language="th_TH">
-			<Text>+25% ความสัมพันธ์จากการเริ่มต้นหรือสนับสนุน Endeavors. -25% ความสัมพันธ์จากการเริ่มต้น Sanctions หรือปฏิเสธ Endeavors</Text>		<!-- +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
+			<Text>+25% ความสัมพันธ์ จากการเริ่มต้นหรือสนับสนุน ความร่วมมือ, -25% ความสัมพันธ์ จากการเริ่มต้น คว่ำบาตร หรือปฏิเสธ ความร่วมมือ</Text>		<!-- +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_ASHOKA_CONQUEROR_L2_NAME" Language="th_TH">
 			<Text>โหนดคุณสมบัติเชิงทหาร</Text>		<!-- Militaristic Attribute Node -->
@@ -1540,31 +1540,31 @@
 				+15% Influence, -2 Combat Strength for Air Units -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_HIMIKO_SHAMAN_L1_NAME" Language="th_TH">
-			<Text>[B]ฮิมิโกะ[/B] เป็นผู้นำอารยธรรมเบื้องต้นของ [B]เมจิ[/B]</Text>		<!-- Cultural Attribute Node -->
+			<Text>คะแนนคุณลักษณะทางวัฒนธรรม</Text>		<!-- Cultural Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_HIMIKO_SHAMAN_L1_DESCRIPTION" Language="th_TH">
-			<Text>[B]ฮิมิโกะ[/B] เป็นผู้นำอารยธรรมเบื้องต้นของ [B]เมจิ[/B]</Text>		<!-- +15% Production towards constructing Buildings and Wonders with Great Works slots. -->
+			<Text>+15% กำลังผลิต ในการสร้าง อาคารและสิ่งมหัศจรรย์ ที่มีช่องสำหรับ ผลงานชิ้นเอก</Text>		<!-- +15% Production towards constructing Buildings and Wonders with Great Works slots. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_HIMIKO_SHAMAN_L2_NAME" Language="th_TH">
-			<Text>[B]ฮิมิโกะ[/B] เป็นผู้นำอารยธรรมเบื้องต้นของ [B]เมจิ[/B]</Text>		<!-- Diplomatic Attribute Node -->
+			<Text>คะแนนคุณลักษณะทางการทูต</Text>		<!-- Diplomatic Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_HIMIKO_SHAMAN_L2_DESCRIPTION" Language="th_TH">
-			<Text>[B]ฮิมิโกะ[/B] เป็นผู้นำอารยธรรมเบื้องต้นของ [B]เมจิ[/B]</Text>		<!-- +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
+			<Text>+25% ความสัมพันธ์ จากการเริ่มต้นหรือสนับสนุน ความร่วมมือ, -25% ความสัมพันธ์ จากการเริ่มต้น คว่ำบาตร หรือปฏิเสธ ความร่วมมือ</Text>		<!-- +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_HIMIKO_SHAMAN_P_NAME" Language="th_TH">
-			<Text>[B]ฮิมิโกะ[/B] เป็นผู้นำอารยธรรมเบื้องต้นของ [B]เมจิ[/B]</Text>		<!-- Himiko High Shaman Badge 2 -->
+			<Text>เหรียญของฮิมิโกะ ผู้ชำระสูงสุด 2</Text>		<!-- Himiko High Shaman Badge 2 -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_ASHOKA_ALT_DESCRIPTION" Language="th_TH">
-			<Text>[B]ฮิมิโกะ[/B] เป็นผู้นำอารยธรรมเบื้องต้นของ [B]เมจิ[/B]</Text>		<!-- Play as [B]Ashoka, World Conqueror[/B]. -->
+			<Text>เล่นเป็น [B]อโศก, ผู้พิชิตโลก[/B]</Text>		<!-- Play as [B]Ashoka, World Conqueror[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_ASHOKA_ALT_TOOLTIP" Language="th_TH">
-			<Text>[B]ฮิมิโกะ[/B] เป็นผู้นำอารยธรรมเบื้องต้นของ [B]เมจิ[/B]</Text>		<!-- [B]Ashoka[/B] led a precursor Civilization of the [B]Chola [/B]. -->
+			<Text>[B]อโศก[/B] นำอารยธรรมก่อนหน้าของ [B]โชล่า[/B]</Text>		<!-- [B]Ashoka[/B] led a precursor Civilization of the [B]Chola [/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_HIMIKO_ALT_DESCRIPTION" Language="th_TH">
-			<Text>[B]ฮิมิโกะ[/B] เป็นผู้นำอารยธรรมเบื้องต้นของ [B]เมจิ[/B]</Text>		<!-- Play as [B]Himiko, High Shaman[/B]. -->
+			<Text>เล่นเป็น [B]ฮิมิโกะ, มิโกะสูงสุด[/B]</Text>		<!-- Play as [B]Himiko, High Shaman[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_HIMIKO_ALT_TOOLTIP" Language="th_TH">
-			<Text>[B]ฮิมิโกะ[/B] เป็นผู้นำอารยธรรมเบื้องต้นของ [B]เมจิ[/B]</Text>		<!-- [B]Himiko[/B] led a precursor Civilization of the [B]Meiji [/B]. -->
+			<Text>[B]ฮิมิโกะ[/B] นำอารยธรรมก่อนหน้าของ [B]เมจิ[/B]</Text>		<!-- [B]Himiko[/B] led a precursor Civilization of the [B]Meiji [/B]. -->
 		</Replace>
 	</LocalizedText>
 </Database>
