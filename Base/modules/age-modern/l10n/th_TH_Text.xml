@@ -446,16 +446,16 @@
 			<Text>สร้างยูนิตพ่อค้าในเมืองหลวงของคุณ</Text>		<!-- Create a Merchant Unit in your Capital -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_DARK_AGE_MILITARY" Language="th_TH">
-			<Text>กลับมาเสริมกำลังใหม่</Text>		<!-- Rearmament -->
+			<Text>การติดอาวุธใหม่</Text>		<!-- Rearmament -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_DARK_AGE_MILITARY_DESCRIPTION" Language="th_TH">
 			<Text>-50%[icon:YIELD_CULTURE] วัฒนธรรม และ[icon:YIELD_SCIENCE] วิทยาศาสตร์ แต่ +50%[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- -50%[icon:YIELD_CULTURE] Culture and[icon:YIELD_SCIENCE] Science BUT +50%[icon:YIELD_PRODUCTION] Production -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_DARK_AGE_HAPPINESS" Language="th_TH">
-			<Text>การโดดเดี่ยวตัวเอง</Text>		<!-- Isolationism -->
+			<Text>การแยกตัว</Text>		<!-- Isolationism -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_DARK_AGE_HAPPINESS_DESCRIPTION" Language="th_TH">
-			<Text>-5 สมรรถภาพการต่อสู้สำหรับยูนิตทั้งหมด แต่เพิ่มความสุขของคุณเป็นสองเท่าและได้รับผลกระทบเฉลิมฉลองที่เป็นเอกลักษณ์ +15% วัฒนธรรมและวิทยาศาสตร์</Text>		<!-- -5 Combat Strength for all Units BUT double your[icon:YIELD_HAPPINESS] Happiness and gain a unique Celebration effect of +15%[icon:YIELD_CULTURE] Culture and[icon:YIELD_SCIENCE] Science -->
+			<Text>-5 พลังต่อสู้ สำหรับยูนิตทั้งหมด, แต่เพิ่มความสุขของคุณเป็น 2 เท่า และได้รับ เอฟเฟคงานเฉลิมฉลองพิเศษ +15% วัฒนธรรมและวิทยาศาสตร์</Text>		<!-- -5 Combat Strength for all Units BUT double your[icon:YIELD_HAPPINESS] Happiness and gain a unique Celebration effect of +15%[icon:YIELD_CULTURE] Culture and[icon:YIELD_SCIENCE] Science -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_DARK_AGE_HAPPINESS_DESCRIPTION" Language="th_TH">
 			<Text>{Amount}: การแยกตัว</Text>		<!-- {Amount}: Isolationism -->
@@ -3422,7 +3422,7 @@
 			<Text>เฮอร์มิเทจ</Text>		<!-- Hermitage -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_HERMITAGE_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_CULTURE] วัฒนธรรม, +10%[icon:YIELD_CULTURE] วัฒนธรรม ในเมืองที่มี ผลงานชิ้นเอก จัดแสดงอยู่, มีช่อง วัตถุโบราณ 3 ช่อง, คงอยู่ตลอดกาล, ต้องวางในพื้นที่ทุนดรา</Text>		<!-- +4[icon:YIELD_CULTURE] Culture. +10%[icon:YIELD_CULTURE] Culture in Cities that have a Great Work on display. Has 3 Artifact slots. Ageless. Must be placed on Tundra. -->
+			<Text>+4[icon:YIELD_CULTURE] วัฒนธรรม, +10%[icon:YIELD_CULTURE] วัฒนธรรม ในเมืองที่มี ผลงานชิ้นเอก จัดแสดงอยู่, มีช่อง โบราณวัตถุ 3 ช่อง, คงอยู่ตลอดกาล, ต้องวางในพื้นที่ทุนดรา</Text>		<!-- +4[icon:YIELD_CULTURE] Culture. +10%[icon:YIELD_CULTURE] Culture in Cities that have a Great Work on display. Has 3 Artifact slots. Ageless. Must be placed on Tundra. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_HERMITAGE_TOOLTIP" Language="th_TH">
 			<Text>+10%[icon:YIELD_CULTURE] วัฒนธรรม ในเมืองที่มีผลงานที่ยอดเยี่ยมแสดงอยู่ มีช่องวางโบราณวัตถุ 3 ช่อง คงอยู่ตลอดกาล ต้องวางอยู่บนทุ่งน้ำแข็ง</Text>		<!-- +10%[icon:YIELD_CULTURE] Culture in Cities that have a Great Work on display. Has 3 Artifact slots. Ageless. Must be placed on Tundra. -->
@@ -4124,10 +4124,10 @@
 			<Text>เกียรติภูมิแห่งชาติ</Text>		<!-- National Prestige -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_NATIONAL_PRESTIGE_DESCRIPTION" Language="th_TH">
-			<Text>+10%[icon:YIELD_DIPLOMACY] อิทธิพล ในการเริ่มดำเนินการทางการทูตต่อ วัตถุโบราณ ที่แสดงอยู่ขณะสงครามกับผู้นำที่มี อุดมการณ์ตรงข้าม</Text>		<!-- +10%[icon:YIELD_DIPLOMACY] Influence towards initiating Diplomatic Actions per displayed Artifact while at war with a Leader with an opposing Ideology. -->
+			<Text>+10%[icon:YIELD_DIPLOMACY] อิทธิพล ในการเริ่มดำเนินการทางการทูตต่อ โบราณวัตถุ ที่แสดงอยู่ขณะสงครามกับผู้นำที่มี อุดมการณ์ตรงข้าม</Text>		<!-- +10%[icon:YIELD_DIPLOMACY] Influence towards initiating Diplomatic Actions per displayed Artifact while at war with a Leader with an opposing Ideology. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_NATIONAL_PRESTIGE_DESCRIPTION" Language="th_TH">
-			<Text>+10%[icon:YIELD_DIPLOMACY] อิทธิพล ในการเริ่มดำเนินการทางการทูตต่อ วัตถุโบราณ ที่แสดงอยู่ขณะสงครามกับผู้นำที่มี อุดมการณ์ตรงข้าม</Text>		<!-- +10%[icon:YIELD_DIPLOMACY] Influence towards initiating Diplomatic Actions per displayed Artifact while at war with a Leader with an opposing Ideology. -->
+			<Text>+10%[icon:YIELD_DIPLOMACY] อิทธิพล ในการเริ่มดำเนินการทางการทูตต่อ โบราณวัตถุ ที่แสดงอยู่ขณะสงครามกับผู้นำที่มี อุดมการณ์ตรงข้าม</Text>		<!-- +10%[icon:YIELD_DIPLOMACY] Influence towards initiating Diplomatic Actions per displayed Artifact while at war with a Leader with an opposing Ideology. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_LAST_RESERVES_NAME" Language="th_TH">
 			<Text>สำรองสุดท้าย</Text>		<!-- Last Reserves -->
@@ -8333,7 +8333,7 @@
 			<Text>นักโบราณคดีแห่งธรรมชาติ</Text>		<!-- Nature's Archaeologist -->
 		</Replace>
 		<Replace Tag="LOC_3519A_COMPLETION" Language="th_TH">
-			<Text>พายุเฮอริเคนที่ผ่านมาทำให้ชายหาดเผยให้เห็นซากเรือโบราณ การขุดค้นที่นี้อาจทำให้ไม้ที่ชำรุดเสียหาย แต่ก็อาจนำไปสู่การค้นพบวัตถุโบราณได้</Text>		<!-- The recent hurricane washes out the beach, revealing an old shipwreck. Excavating the site will destroy the aging wood, but may yield artifacts. -->
+			<Text>พายุเฮอริเคนที่ผ่านมาทำให้ชายหาดเผยให้เห็นซากเรือโบราณ การขุดค้นที่นี้อาจทำให้ไม้ที่ชำรุดเสียหาย แต่ก็อาจนำไปสู่การค้นพบโบราณวัตถุได้</Text>		<!-- The recent hurricane washes out the beach, revealing an old shipwreck. Excavating the site will destroy the aging wood, but may yield artifacts. -->
 		</Replace>
 		<Replace Tag="LOC_3519B_NAME" Language="th_TH">
 			<Text>ขุดค้นซากเรือ</Text>		<!-- Excavate the wreckage. -->
@@ -9854,7 +9854,7 @@
 			<Text>เวลาที่ถูกยืม</Text>		<!-- Borrowed Time -->
 		</Replace>
 		<Replace Tag="LOC_224A_COMPLETION" Language="th_TH">
-			<Text>ผู้เยี่ยมชมพิพิธภัณฑ์ตื่นเต้นกับการเข้ามาของ ของเก่าสวมมงคลที่มีเอกลักษณ์: นาฬิกาแขวนแบบโบราณที่มีภาพแกะสลักจากงาช้าง ซึ่งถูกจัดแสดงในสถานที่ที่มีเกียรติให้ทุกคนได้เห็น, ที่ด้านนอกบนบันได เสียงอึกทึกเริ่มดังขึ้น เมื่อผู้ประท้วงมารวมตัวกันเพื่อเรียกร้องการส่งคืนวัตถุโบราณชิ้นนี้ให้กับเจ้าของที่ถูกต้อง</Text>		<!-- Museum-goers thrill at a new acquisition: a distinctive antique pendant watch with an ivory cameo, displayed in a place of honor for all to see. Outside on the steps, a clamor grows as protesters gather to demand the artifact's return to its rightful owners. -->
+			<Text>ผู้เยี่ยมชมพิพิธภัณฑ์ตื่นเต้นกับการเข้ามาของ ของเก่าสวมมงคลที่มีเอกลักษณ์: นาฬิกาแขวนแบบโบราณที่มีภาพแกะสลักจากงาช้าง ซึ่งถูกจัดแสดงในสถานที่ที่มีเกียรติให้ทุกคนได้เห็น, ที่ด้านนอกบนบันได เสียงอึกทึกเริ่มดังขึ้น เมื่อผู้ประท้วงมารวมตัวกันเพื่อเรียกร้องการส่งคืนโบราณวัตถุชิ้นนี้ให้กับเจ้าของที่ถูกต้อง</Text>		<!-- Museum-goers thrill at a new acquisition: a distinctive antique pendant watch with an ivory cameo, displayed in a place of honor for all to see. Outside on the steps, a clamor grows as protesters gather to demand the artifact's return to its rightful owners. -->
 		</Replace>
 		<Replace Tag="LOC_224B_NAME" Language="th_TH">
 			<Text>สลายการชุมนุมของผู้ประท้วง</Text>		<!-- Disperse the protestors. -->
@@ -11691,7 +11691,7 @@
 			<Text>อดีตยังคงมีชีวิตอยู่ในจักรวรรดิของออกัสตัส นำสอนความรู้จากอดีตสู่รุ่นต่อไป</Text>		<!-- The past lives on in Augustus' empire, delivering lessons of the past to generations to come. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1028B_IMPERATIVE" Language="th_TH">
-			<Text>มีวัตถุโบราณ 5 ชิ้น</Text>		<!-- Have 5 Artifacts. -->
+			<Text>มี โบราณวัตถุ 5 ชิ้น</Text>		<!-- Have 5 Artifacts. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1028C_STORYTITLE" Language="th_TH">
 			<Text>มรดก</Text>		<!-- Inheritance -->
@@ -11886,7 +11886,7 @@
 			<Text>ในความมหัศจรรย์แห่งอดีต แคทเธอรีนและผู้คนของเธอค้นพบความงดงามของมนุษยชาติ ในประวัติศาสตร์ของพวกเขาได้บันทึกเรื่องราวของศักยภาพอันยิ่งใหญ่</Text>		<!-- In the marvels of the past, Catherine and her people find the beauty of humanity. Across their history is written the story of their great potential. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1049B_IMPERATIVE" Language="th_TH">
-			<Text>มีวัตถุโบราณ 5 ชิ้น</Text>		<!-- Have 5 Artifacts. -->
+			<Text>มี โบราณวัตถุ 5 ชิ้น</Text>		<!-- Have 5 Artifacts. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1049C_STORYTITLE" Language="th_TH">
 			<Text>เปลวไฟจากภายใน</Text>		<!-- Inner Fire -->
@@ -12042,7 +12042,7 @@
 			<Text>บรรดาผู้ปราชญ์ในอดีตได้ปฏิบัติคุณธรรมทางจริยธรรม เพื่อทำให้โลกนี้ดีขึ้น ในปัจจุบัน ข้าแต่ขงจื๊อ ผู้ช่วยที่ประเสริฐ บทเรียนของพวกเขายังคงสืบทอดต่อไปยังคนรุ่นหลัง</Text>		<!-- The sages of old practiced moral virtues to make the world a better place. Now, nurtured by Confucius, their lessons carry forth to future generations. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1069B_IMPERATIVE" Language="th_TH">
-			<Text>มีวัตถุโบราณ 3 ชิ้น</Text>		<!-- Have 3 Artifacts. -->
+			<Text>มี โบราณวัตถุ 3 ชิ้น</Text>		<!-- Have 3 Artifacts. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1069C_STORYTITLE" Language="th_TH">
 			<Text>ธรรมชาติของมนุษย์</Text>		<!-- Human Nature -->
@@ -12627,7 +12627,7 @@
 			<Text>ผ่านสงครามและสันติภาพ ลาฟาแยต นำพาประชาชนของเขาไปสู่โลกที่สว่างไสว มากับบทเรียนจากอดีต</Text>		<!-- Through war and peace, Lafayette guides his people to a brighter world, one build on the lessons of the past. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1148B_IMPERATIVE" Language="th_TH">
-			<Text>สะสมวัตถุโบราณ 5 ชิ้น</Text>		<!-- Have 5 Artifacts. -->
+			<Text>สะสมโบราณวัตถุ 5 ชิ้น</Text>		<!-- Have 5 Artifacts. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1148C_STORYTITLE" Language="th_TH">
 			<Text>วีรบุรุษแห่งโลกเก่า</Text>		<!-- Hero of the Old World -->
