@@ -3098,7 +3098,7 @@
 			<Text>+3[icon:YIELD_DIPLOMACY] อิทธิพล อาคารทั้งหมดได้รับ +1[icon:YIELD_HAPPINESS] ความสุข โบนัสใกล้เคียง แม่น้ำใหญ่, คงอยู่ตลอดกาล, ต้องถูกวางอยู่ข้างเคียงกับแม่น้ำใหญ่หรือบนแม่น้ำเล็ก</Text>		<!-- +3[icon:YIELD_DIPLOMACY] Influence. All Buildings gain a +1[icon:YIELD_HAPPINESS] Happiness Adjacency for Navigable Rivers. Ageless. Must be placed adjacent to a Navigable River or on a Minor River. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_BRIHADEESWARAR_TEMPLE_TOOLTIP" Language="th_TH">
-			<Text>อาคารทุกแห่งจะได้รับ +1[icon:YIELD_HAPPINESS] ความสุข จากการอยู่ใกล้แม่น้ำใหญ่ ต้องวางใกล้กับแม่น้ำใหญ่หรือบนแม่น้ำขนาดเล็ก</Text>		<!-- All Buildings gain a +1[icon:YIELD_HAPPINESS] Happiness Adjacency for Navigable Rivers. Ageless. Must be placed adjacent to a Navigable River or on a Minor River. -->
+			<Text>อาคารทุกแห่งจะได้รับ +1[icon:YIELD_HAPPINESS] ความสุข โบนัสใกล้เคียง จาก แม่น้ำใหญ่, คงอยู่ตลอดกาล, ต้องวางใกล้กับแม่น้ำใหญ่หรือบนแม่น้ำขนาดเล็ก</Text>		<!-- All Buildings gain a +1[icon:YIELD_HAPPINESS] Happiness Adjacency for Navigable Rivers. Ageless. Must be placed adjacent to a Navigable River or on a Minor River. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_EL_ESCORIAL_NAME" Language="th_TH">
 			<Text>เอล เอสโคเรียล</Text>		<!-- El Escorial -->
@@ -3122,7 +3122,7 @@
 			<Text>กรุงปักกิ่ง</Text>		<!-- Forbidden City -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_FORBIDDEN_CITY_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม +2[icon:YIELD_CULTURE] วัฒนธรรม และ[icon:YIELD_GOLD] ทองในอาคารป้องกันทั้งหมดในถิ่นฐานนี้ ต้องวางอยู่ติดกับเขต</Text>		<!-- +2[icon:YIELD_CULTURE] Culture. +2[icon:YIELD_CULTURE] Culture and[icon:YIELD_GOLD] Gold on all Fortification Buildings in this Settlement. Ageless. Must be placed adjacent to a District. -->
+			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม +2[icon:YIELD_CULTURE] วัฒนธรรม และ[icon:YIELD_GOLD] ทอง ใน อาคารด้านการป้องกัน ทั้งหมดในถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องวางอยู่ติดกับเขต</Text>		<!-- +2[icon:YIELD_CULTURE] Culture. +2[icon:YIELD_CULTURE] Culture and[icon:YIELD_GOLD] Gold on all Fortification Buildings in this Settlement. Ageless. Must be placed adjacent to a District. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_FORBIDDEN_CITY_TOOLTIP" Language="th_TH">
 			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม และ[icon:YIELD_GOLD] ทอง ในอาคารเสริมกำลังทั้งหมดในถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องวางอยู่ข้างเคียงกับเขต</Text>		<!-- +2[icon:YIELD_CULTURE] Culture and[icon:YIELD_GOLD] Gold on all Fortification Buildings in this Settlement. Ageless. Must be placed adjacent to a District. -->
@@ -3134,7 +3134,7 @@
 			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม การสร้างอาคารบนพื้นที่ชายฝั่งให้[icon:YIELD_CULTURE] วัฒนธรรม เท่ากับ 50% ของต้นทุน อาคารนี้มีช่องวางของโบราณวัตถุ 3 ช่อง คงอยู่ตลอดกาล ต้องอยู่ติดกับชายฝั่ง แต่ไม่อยู่ติดกับภูมิอากาศหนาว</Text>		<!-- +2[icon:YIELD_CULTURE] Culture. Constructing a Building on Coast Terrain grants[icon:YIELD_CULTURE] Culture equal to 50% of its cost. Has 3 Relic slots. Ageless. Must be adjacent to Coast, but not adjacent to Tundra. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_HALE_O_KEAWE_TOOLTIP" Language="th_TH">
-			<Text>การสร้างอาคารบนพื้นที่ชายฝั่งให้[icon:YIELD_CULTURE] วัฒนธรรม เท่ากับ 50% ของต้นทุน มีช่องสำหรับ Relic 3 ช่อง ไม่เป็นที่ตายตัว ต้องติดกับชายฝั่ง แต่ต้องไม่ติดกับภูมิประเทศเย็นจัด (Tundra)</Text>		<!-- Constructing a Building on Coast Terrain grants[icon:YIELD_CULTURE] Culture equal to 50% of its cost. Has 3 Relic slots. Ageless. Must be adjacent to Coast, but not adjacent to Tundra. -->
+			<Text>การสร้างอาคารบนพื้นที่ชายฝั่งให้ [icon:YIELD_CULTURE] วัฒนธรรม เท่ากับ 50% ของต้นทุน, มีช่องสำหรับ ศาสนวัตถุ 3 ช่อง, คงอยู่ตลอดกาล, ต้องติดกับชายฝั่ง, แต่ต้องไม่ติดกับภูมิประเทศเย็นจัด</Text>		<!-- Constructing a Building on Coast Terrain grants[icon:YIELD_CULTURE] Culture equal to 50% of its cost. Has 3 Relic slots. Ageless. Must be adjacent to Coast, but not adjacent to Tundra. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_HOUSE_OF_WISDOM_NAME" Language="th_TH">
 			<Text>บ้านแห่งปัญญา</Text>		<!-- House of Wisdom -->
@@ -3188,7 +3188,7 @@
 			<Text>+2[icon:YIELD_GOLD] ทอง, +2 ความจุ ทรัพยากร ในถิ่นฐานนี้. +2[icon:YIELD_GOLD] ทอง และ +1[icon:YIELD_PRODUCTION] กำลังผลิต ในถิ่นฐานนี้สำหรับทุกทรัพยากรที่มอบหมายให้มัน, คงอยู่ตลอดกาล, ต้องวางในทะเลทราย</Text>		<!-- +2[icon:YIELD_GOLD] Gold. +2 Resource Capacity in this Settlement. +2[icon:YIELD_GOLD] Gold and +1[icon:YIELD_PRODUCTION] Production in this Settlement for every Resource assigned to it. Ageless. Must be placed on Desert. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_TOMB_OF_ASKIA_TOOLTIP" Language="th_TH">
-			<Text>+2 ความจุทรัพยากรในถิ่นฐานนี้ +2[icon:YIELD_GOLD] ทอง และ +1[icon:YIELD_PRODUCTION] กำลังผลิต ในถิ่นฐานนี้สำหรับทรัพยากรแต่ละรายการที่ได้รับการมอบหมายให้กับมัน ไม่สูญสลาย ต้องวางไว้บนทะเลทราย</Text>		<!-- +2 Resource Capacity in this Settlement. +2[icon:YIELD_GOLD] Gold and +1[icon:YIELD_PRODUCTION] Production in this Settlement for every Resource assigned to it. Ageless. Must be placed on Desert. -->
+			<Text>+2 ความจุทรัพยากรในถิ่นฐานนี้ +2[icon:YIELD_GOLD] ทอง และ +1[icon:YIELD_PRODUCTION] กำลังผลิต ในถิ่นฐานนี้สำหรับ ทรัพยากรแต่ละรายการ ที่ได้รับจัดสรร, คงอยู่ตลอดกาล, ต้องวางไว้บนทะเลทราย</Text>		<!-- +2 Resource Capacity in this Settlement. +2[icon:YIELD_GOLD] Gold and +1[icon:YIELD_PRODUCTION] Production in this Settlement for every Resource assigned to it. Ageless. Must be placed on Desert. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_WHITE_TOWER_NAME" Language="th_TH">
 			<Text>หอคอยสีขาว</Text>		<!-- White Tower -->
