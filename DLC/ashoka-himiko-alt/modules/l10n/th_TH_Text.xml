@@ -50,7 +50,7 @@
 			<Text>ในยุคนี้ ได้รับ +15%[icon:YIELD_DIPLOMACY] อิทธิพล โดยจะต้องเสีย -2 พลังต่อสู้ สำหรับ ยูนิตทางอากาศ ของคุณ</Text>		<!-- For this Age, gain +15% Influence[icon:YIELD_DIPLOMACY] at the cost of -2 Combat Strength for your Air Units -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_HIMIKO_ALT_L1_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน. +15% [icon:YIELD_PRODUCTION]การผลิตที่ใช้ในการสร้างสิ่งก่อสร้างและมหัศจรรย์ที่มีช่องงานชิ้นเอก</Text>		<!-- Legend Unlock. +15% [icon:YIELD_PRODUCTION]Production towards constructing Buildings and Wonders with Great Works slots. -->
+			<Text>ปลดล็อกตำนาน, +15% [icon:YIELD_PRODUCTION]การผลิตที่ใช้ในการสร้างสิ่งก่อสร้างและมหัศจรรย์ที่มีช่องงานชิ้นเอก</Text>		<!-- Legend Unlock. +15% [icon:YIELD_PRODUCTION]Production towards constructing Buildings and Wonders with Great Works slots. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_ASHOKA_ALT_L1_DESCRIPTION" Language="th_TH">
 			<Text>ปลดล็อกตำนาน +25% ความสัมพันธ์ จากการเริ่มต้นหรือสนับสนุน ความร่วมมือ, -25% ความสัมพันธ์ จากการเริ่มต้น คว่ำบาตร หรือการปฏิเสธ ความร่วมมือ</Text>		<!-- Legend Unlock. +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
@@ -185,7 +185,7 @@
 			<Text>เทวราชา</Text>		<!-- Devaraja -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ASHOKA_ALT_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+1[icon:YIELD_PRODUCTION] การผลิต [/B]สำหรับทุก [B]5 [/B]ความเกิน [icon:YIELD_HAPPINESS][B]ความสุข [/B]ในเมือง.[LI][B] +10% [icon:YIELD_PRODUCTION] การผลิต [/B]ในถิ่นฐานที่ไม่ได้ก่อตั้งโดยคุณ. [LI]การประกาศ [B]สงครามอย่างเป็นทางการ [/B]จะมอบ [B]การเฉลิมฉลอง[/B].[LI][B]+10 พลังต่อสู้[/B] ต่อ [B]เขต[/B] สำหรับทุกยูนิตในระหว่าง [B]การเฉลิมฉลอง[/B].[/LIST]</Text>		<!-- [LIST][LI][B]+1[icon:YIELD_PRODUCTION] Production [/B]for every [B]5 [/B]excess [icon:YIELD_HAPPINESS][B]Happiness [/B]in Cities.[LI][B] +10% [icon:YIELD_PRODUCTION] Production [/B]in Settlements not founded by you. [LI]Declaring a [B]Formal War [/B]grants a [B]Celebration[/B].[LI][B]+10 Combat Strength[/B] against [B]Districts [/B]for all Units during a [B]Celebration[/B].[/LIST] -->
+			<Text>[LIST][LI][B]+1[icon:YIELD_PRODUCTION] การผลิต [/B]สำหรับทุก [B]5 [/B]ความเกิน [icon:YIELD_HAPPINESS][B]ความสุข [/B]ในเมือง.[LI][B] +10% [icon:YIELD_PRODUCTION] การผลิต [/B]ในถิ่นฐานที่ไม่ได้ก่อตั้งโดยคุณ, [LI]การประกาศ [B]สงครามอย่างเป็นทางการ [/B]จะมอบ [B]การเฉลิมฉลอง[/B].[LI][B]+10 พลังต่อสู้[/B] ต่อ [B]เขต[/B] สำหรับทุกยูนิตในระหว่าง [B]การเฉลิมฉลอง[/B].[/LIST]</Text>		<!-- [LIST][LI][B]+1[icon:YIELD_PRODUCTION] Production [/B]for every [B]5 [/B]excess [icon:YIELD_HAPPINESS][B]Happiness [/B]in Cities.[LI][B] +10% [icon:YIELD_PRODUCTION] Production [/B]in Settlements not founded by you. [LI]Declaring a [B]Formal War [/B]grants a [B]Celebration[/B].[LI][B]+10 Combat Strength[/B] against [B]Districts [/B]for all Units during a [B]Celebration[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ASHOKA_CONQUEROR_DESCRIPTION" Language="th_TH">
 			<Text>+{1_Value} พลังต่อสู้ต่อเขตสำหรับยูนิตทั้งหมดในระหว่างการเฉลิมฉลอง।</Text>		<!-- +{1_Value} Combat Strength against Districts for all Units during a Celebration. -->
@@ -197,7 +197,7 @@
 			<Text>ฮิมิโกะ, มิโกะสูงสุด</Text>		<!-- Himiko, High Shaman -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_HIMIKO_ALT_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_HAPPINESS] ความสุขต่ออายุในอาคารความสุข. +50% [icon:YIELD_PRODUCTION] การผลิตสำหรับการสร้างอาคารความสุข. +20% [icon:YIELD_CULTURE] วัฒนธรรม แต่ -10% [icon:YIELD_SCIENCE] วิทยาศาสตร์ และผลเหล่านี้จะเพิ่มเป็นสองเท่าในขณะที่อยู่ในงานเฉลิมฉลอง</Text>		<!-- +2 [icon:YIELD_HAPPINESS] Happiness per Age on Happiness Buildings. +50% [icon:YIELD_PRODUCTION] Production towards constructing Happiness Buildings. +20% [icon:YIELD_CULTURE] Culture but -10% [icon:YIELD_SCIENCE] Science, and these effects are doubled while in a Celebration. -->
+			<Text>+2 [icon:YIELD_HAPPINESS] ความสุขต่ออายุในอาคารความสุข, +50% [icon:YIELD_PRODUCTION] การผลิตสำหรับการสร้างอาคารความสุข, +20% [icon:YIELD_CULTURE] วัฒนธรรม แต่ -10% [icon:YIELD_SCIENCE] วิทยาศาสตร์ และผลเหล่านี้จะเพิ่มเป็นสองเท่าในขณะที่อยู่ในงานเฉลิมฉลอง</Text>		<!-- +2 [icon:YIELD_HAPPINESS] Happiness per Age on Happiness Buildings. +50% [icon:YIELD_PRODUCTION] Production towards constructing Happiness Buildings. +20% [icon:YIELD_CULTURE] Culture but -10% [icon:YIELD_SCIENCE] Science, and these effects are doubled while in a Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_HIMIKO_ALT_ABILITY_NAME" Language="th_TH">
 			<Text>มิโกะแห่งอามาเทราสุ</Text>		<!-- Miko of Amaterasu -->
