@@ -3017,7 +3017,7 @@
 			<Text>+1[icon:YIELD_FOOD] อาหาร และ[icon:YIELD_PRODUCTION] กำลังผลิต ในดินแดนห่างไกล +2[icon:YIELD_GOLD] ทองหากมีทรัพยากรอย่างน้อยหนึ่งรายการที่ถูกมอบหมายให้กับถิ่นฐานนี้ เขตพัฒนาพิเศษเฉพาะตัว ไม่ลบโบนัสคลังสินค้าในช่องนี้ ไม่สามารถวางใกล้กับ บริษัทไปรษณีย์ แห่งอื่นได้</Text>		<!-- +1[icon:YIELD_FOOD] Food and[icon:YIELD_PRODUCTION] Production in Distant Lands. +2[icon:YIELD_GOLD] Gold if there is at least one Resource assigned to this Settlement. City State Unique Improvement. Does not remove Warehouse bonuses on a tile. Cannot be placed adjacent to another Company Post. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MONASTERY_NAME" Language="th_TH">
-			<Text>วัด</Text>		<!-- Monastery -->
+			<Text>มอนัสเทอรี</Text>		<!-- Monastery -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MONASTERY_DESCRIPTION" Language="th_TH">
 			<Text>+4[icon:YIELD_SCIENCE] วิทยาศาสตร์ +3[icon:YIELD_HAPPINESS] ความสุข หากถิ่นฐานนี้ปฏิบัติตามศาสนาของคุณ, เขตพัฒนาพิเศษเฉพาะตัว, ไม่ลบโบนัสคลังสินค้าในช่องนี้. ไม่สามารถวางอยู่ติดกับเขตได้</Text>		<!-- +4[icon:YIELD_SCIENCE] Science. +3[icon:YIELD_HAPPINESS] Happiness if this Settlement follows your Religion. City State Unique Improvement. Does not remove Warehouse bonuses on a tile. Cannot be placed adjacent to a District -->
@@ -4391,7 +4391,7 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23010B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้ 1 เทิร์นของ [icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- Spend 1 turn of [icon:YIELD_SCIENCE] Science. -->
+			<Text>ใช้ 1 เทิร์น ของ [icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- Spend 1 turn of [icon:YIELD_SCIENCE] Science. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23010C_NAME" Language="th_TH">
 			<Text>ปล่อยให้พนักงานทำไป</Text>		<!-- Leave the workers. -->
@@ -4457,7 +4457,7 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_27009B_IMPERATIVE" Language="th_TH">
-			<Text>{1_reward} และใช้ 4 เทิร์นของ [icon:YIELD_PRODUCTION] กำลังผลิต จาก {2_capital}</Text>		<!-- {1_reward} and spend 4 Turns of [icon:YIELD_PRODUCTION] Production from {2_capital}. -->
+			<Text>{1_reward} และใช้ 4 เทิร์น ของ [icon:YIELD_PRODUCTION] กำลังผลิต จาก {2_capital}</Text>		<!-- {1_reward} and spend 4 Turns of [icon:YIELD_PRODUCTION] Production from {2_capital}. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_27009C_NAME" Language="th_TH">
 			<Text>ปล่อยให้ช่างสร้างเรือทำตามลำพัง</Text>		<!-- Leave the shipwrights. -->
@@ -4490,7 +4490,7 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_27010B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้ 2 เทิร์นของ [icon:YIELD_GOLD] ทอง</Text>		<!-- Spend 2 Turns of [icon:YIELD_GOLD] Gold. -->
+			<Text>ใช้ 2 เทิร์น ของ [icon:YIELD_GOLD] ทอง</Text>		<!-- Spend 2 Turns of [icon:YIELD_GOLD] Gold. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_27010C_NAME" Language="th_TH">
 			<Text>พวกเขาจะต้องเรียนรู้ทักษะใหม่</Text>		<!-- They will have to learn new skills. -->
@@ -4556,7 +4556,7 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23009B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้ทอง [icon:YIELD_GOLD] 3 รอบ</Text>		<!-- Spend 3 turns of [icon:YIELD_GOLD] Gold. -->
+			<Text>ใช้ 3 เทิร์น ของ [icon:YIELD_GOLD] ทอง</Text>		<!-- Spend 3 turns of [icon:YIELD_GOLD] Gold. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23009C_NAME" Language="th_TH">
 			<Text>ทิ้งนักรบรับจ้างไป</Text>		<!-- Leave the mercenaries. -->
@@ -4655,10 +4655,10 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_28005B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้ 2 เทิร์นของ [icon:YIELD_PRODUCTION] ผลิตจาก {1_capital}</Text>		<!-- Spend 2 turns of [icon:YIELD_PRODUCTION] Production from {1_capital}. -->
+			<Text>ใช้ 2 เทิร์น ของ [icon:YIELD_PRODUCTION] กำลังผลิต จาก {1_capital}</Text>		<!-- Spend 2 turns of [icon:YIELD_PRODUCTION] Production from {1_capital}. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_28005B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้ 2 เทิร์นของ [icon:YIELD_PRODUCTION] ผลิตจาก {1_capital}</Text>		<!-- Spend 2 turns of [icon:YIELD_PRODUCTION] Production from {1_capital}. -->
+			<Text>ใช้ 2 เทิร์น ของ [icon:YIELD_PRODUCTION] กำลังผลิต จาก {1_capital}</Text>		<!-- Spend 2 turns of [icon:YIELD_PRODUCTION] Production from {1_capital}. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_28005C_NAME" Language="th_TH">
 			<Text>ทิ้งชายชรา</Text>		<!-- Leave the horseman. -->
@@ -4724,7 +4724,7 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23007B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้เวลา 2 เทิร์นในการ [icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- Spend 2 turns of [icon:YIELD_SCIENCE] Science. -->
+			<Text>ใช้ 2 เทิร์น ของ [icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- Spend 2 turns of [icon:YIELD_SCIENCE] Science. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23007C_NAME" Language="th_TH">
 			<Text>ปล่อยมันไว้</Text>		<!-- Leave it be. -->
@@ -4973,7 +4973,7 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_25004B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้ 1 เทิร์นของ [icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- Spend 1 turn of [icon:YIELD_CULTURE] Culture. -->
+			<Text>ใช้ 1 เทิร์น ของ [icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- Spend 1 turn of [icon:YIELD_CULTURE] Culture. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_25004C_NAME" Language="th_TH">
 			<Text>ปล่อยให้ผู้ไม่เห็นด้วยไป</Text>		<!-- Leave the dissident. -->
@@ -5006,7 +5006,7 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_25005B_IMPERATIVE" Language="th_TH">
-			<Text>{1_independent} กลายเป็นศัตรู (ลบความก้าวหน้าทั้งหมดในการเป็นมิตร)</Text>		<!-- {1_independent} becomes Hostile (removes all progress towards Befriending). -->
+			<Text>{1_independent} กลายเป็นศัตรู (ลบความก้าวหน้าทั้งหมดในสร้างความฉันมิตร)</Text>		<!-- {1_independent} becomes Hostile (removes all progress towards Befriending). -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_25005C_NAME" Language="th_TH">
 			<Text>ปล่อยเขากลับไปหาครอบครัว</Text>		<!-- Leave him to his family. -->
@@ -5072,7 +5072,7 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21009B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้ 1 เทิร์นของ [icon:YIELD_DIPLOMACY]การทูต</Text>		<!-- Spend 1 turn of [icon:YIELD_DIPLOMACY]Diplomacy. -->
+			<Text>ใช้ 1 เทิร์น ของ [icon:YIELD_DIPLOMACY]การทูต</Text>		<!-- Spend 1 turn of [icon:YIELD_DIPLOMACY]Diplomacy. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21009C_NAME" Language="th_TH">
 			<Text>ปล่อยพริกไว้ตามเดิม</Text>		<!-- Leave the peppers. -->
@@ -5105,7 +5105,7 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21101B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้ 2 เทิร์นของ [icon:YIELD_PRODUCTION] กำลังผลิต จาก {1_capital}</Text>		<!-- Spend 2 turns of [icon:YIELD_PRODUCTION] Production from the {1_capital}. -->
+			<Text>ใช้ 2 เทิร์น ของ [icon:YIELD_PRODUCTION] กำลังผลิต จาก {1_capital}</Text>		<!-- Spend 2 turns of [icon:YIELD_PRODUCTION] Production from the {1_capital}. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21101C_NAME" Language="th_TH">
 			<Text>ทิ้งซากเรือไว้</Text>		<!-- Leave the wreck. -->
@@ -5138,7 +5138,7 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21102B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้ 2 เทิร์นของ [icon:YIELD_PRODUCTION] กำลังผลิต จาก {1_capital}</Text>		<!-- Spend 2 turns of [icon:YIELD_PRODUCTION] Production from {1_capital}. -->
+			<Text>ใช้ 2 เทิร์น ของ [icon:YIELD_PRODUCTION] กำลังผลิต จาก {1_capital}</Text>		<!-- Spend 2 turns of [icon:YIELD_PRODUCTION] Production from {1_capital}. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21102C_NAME" Language="th_TH">
 			<Text>ไม่ช่วยนักประดิษฐ์</Text>		<!-- Leave the inventor. -->
@@ -5171,7 +5171,7 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21103B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้ 2 เทิร์นของ [icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- Spend 2 turns of [icon:YIELD_CULTURE] Culture. -->
+			<Text>ใช้ 2 เทิร์น ของ [icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- Spend 2 turns of [icon:YIELD_CULTURE] Culture. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21103C_NAME" Language="th_TH">
 			<Text>ส่งทหารกลับบ้านเก่า</Text>		<!-- Return the soldiers to their old home. -->
@@ -5951,7 +5951,7 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21105B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้ 2 เทิร์น [icon:YIELD_PRODUCTION] กำลังผลิต ใน {1_capital}</Text>		<!-- Spend 2 Turns [icon:YIELD_PRODUCTION] Production in {1_capital}. -->
+			<Text>ใช้ 2 เทิร์น ของ [icon:YIELD_PRODUCTION] กำลังผลิต ใน {1_capital}</Text>		<!-- Spend 2 Turns [icon:YIELD_PRODUCTION] Production in {1_capital}. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21105C_NAME" Language="th_TH">
 			<Text>ปล้นทรัพย์สินภายใน</Text>		<!-- Plunder it. -->
@@ -5984,10 +5984,10 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21106B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้ 1 เทิร์น [icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- Spend 1 Turn [icon:YIELD_PRODUCTION] Production. -->
+			<Text>ใช้ 1 เทิร์น ของ [icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- Spend 1 Turn [icon:YIELD_PRODUCTION] Production. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21106B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้ 1 เทิร์น [icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- Spend 1 Turn [icon:YIELD_PRODUCTION] Production. -->
+			<Text>ใช้ 1 เทิร์น ของ [icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- Spend 1 Turn [icon:YIELD_PRODUCTION] Production. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21106C_NAME" Language="th_TH">
 			<Text>โยนตาข่ายลงไป</Text>		<!-- Throw down some nets. -->
@@ -6020,7 +6020,7 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21107B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้ 2 เทิร์น [icon:YIELD_GOLD] ทอง</Text>		<!-- Spend 2 Turns [icon:YIELD_GOLD] Gold. -->
+			<Text>ใช้ 2 เทิร์น ของ [icon:YIELD_GOLD] ทอง</Text>		<!-- Spend 2 Turns [icon:YIELD_GOLD] Gold. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21107C_NAME" Language="th_TH">
 			<Text>น่าหลงใหล ขยับไปข้างหน้า</Text>		<!-- Charming. Move on. -->
@@ -6053,7 +6053,7 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21108B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้ 2 เปิด [icon:YIELD_GOLD] ทอง</Text>		<!-- Spend 2 Turns [icon:YIELD_GOLD] Gold. -->
+			<Text>ใช้ 2 เทิร์น ของ [icon:YIELD_GOLD] ทอง</Text>		<!-- Spend 2 Turns [icon:YIELD_GOLD] Gold. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21108C_NAME" Language="th_TH">
 			<Text>สนุกกับการพักผ่อน</Text>		<!-- Enjoy the respite. -->
@@ -6086,10 +6086,10 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21109B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้เวลา 2 เทิร์น [icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- Spend 2 Turns [icon:YIELD_HAPPINESS] Happiness. -->
+			<Text>ใช้ 2 เทิร์น ของ [icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- Spend 2 Turns [icon:YIELD_HAPPINESS] Happiness. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21109B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้เวลา 2 เทิร์น [icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- Spend 2 Turns [icon:YIELD_HAPPINESS] Happiness. -->
+			<Text>ใช้ 2 เทิร์น ของ [icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- Spend 2 Turns [icon:YIELD_HAPPINESS] Happiness. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21109C_NAME" Language="th_TH">
 			<Text>ความกลัวกระตุ้นให้เกิดผลผลิต</Text>		<!-- Fear encourages productivity. -->
@@ -6122,7 +6122,7 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21110B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้ 1 เทิร์นของ [icon:YIELD_GOLD] ทอง</Text>		<!-- Spend 1 turn of [icon:YIELD_GOLD] Gold. -->
+			<Text>ใช้ 1 เทิร์น ของ [icon:YIELD_GOLD] ทอง</Text>		<!-- Spend 1 turn of [icon:YIELD_GOLD] Gold. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21110C_NAME" Language="th_TH">
 			<Text>อย่าให้อาหารสัตว์จรจัด</Text>		<!-- Don't feed the strays. -->
@@ -6221,10 +6221,10 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21113B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้เวลา 2 รอบ [icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- Spend 2 turns [icon:YIELD_CULTURE] Culture. -->
+			<Text>ใช้ 2 เทิร์น ของ [icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- Spend 2 turns [icon:YIELD_CULTURE] Culture. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21113B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้เวลา 2 รอบ [icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- Spend 2 turns [icon:YIELD_CULTURE] Culture. -->
+			<Text>ใช้ 2 เทิร์น ของ [icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- Spend 2 turns [icon:YIELD_CULTURE] Culture. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21113C_NAME" Language="th_TH">
 			<Text>หลีกเลี่ยงผู้ที่ให้ความช่วยเหลือแก่ศัตรู</Text>		<!-- Shun those who offer succor to an enemy. -->
@@ -6323,7 +6323,7 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21117B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้ 2 เทิร์นของ [icon:YIELD_CULTURE] วัฒนธรรม </Text>		<!-- Spend 2 turns of [icon:YIELD_CULTURE] Culture. -->
+			<Text>ใช้ 2 เทิร์น ของ [icon:YIELD_CULTURE] วัฒนธรรม </Text>		<!-- Spend 2 turns of [icon:YIELD_CULTURE] Culture. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21117C_NAME" Language="th_TH">
 			<Text>ทำลายจดหมาย</Text>		<!-- Destroy the letter. -->
@@ -6356,7 +6356,7 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21118B_IMPERATIVE" Language="th_TH">
-			<Text>ใช้ 1 เทิร์นของ [icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- Spend 1 turn of [icon:YIELD_SCIENCE] Science. -->
+			<Text>ใช้ 1 เทิร์น ของ [icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- Spend 1 turn of [icon:YIELD_SCIENCE] Science. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21118C_NAME" Language="th_TH">
 			<Text>ไม่สนใจสิ่งเหล่านี้และมองว่ามันเป็นแค่ของพิธีกรรม</Text>		<!-- Dismiss these as ritual objects. -->
@@ -7826,7 +7826,7 @@
 			<Text>อาณาจักรยืนอยู่ในขอบเขตของการค้นพบใหม่ และโลกกำลังรอคอย</Text>		<!-- The empire stands at the brink of new discoveries, and the world awaits. -->
 		</Replace>
 		<Replace Tag="LOC_13B_IMPERATIVE" Language="th_TH">
-			<Text>ได้ฝึก 4 'Alim ภายใน {1_turn_timer}</Text>		<!-- Have trained 4 'Alim within {1_turn_timer}. -->
+			<Text>ได้ฝึก อาลิม 4 หน่วย ภายใน {1_turn_timer}</Text>		<!-- Have trained 4 'Alim within {1_turn_timer}. -->
 		</Replace>
 		<Replace Tag="LOC_14A_STORYTITLE" Language="th_TH">
 			<Text>จุดหมายแห่งแรงบันดาลใจ</Text>		<!-- Destination Inspiration -->
@@ -7856,7 +7856,7 @@
 			<Text>นักรบแห่งทุ่งหญ้าทำให้ผู้ที่หวังจะเข้ายึดครองทุกคนหมดสภาพด้วยความเร็วของพวกเขา นำค่าไถ่ที่มีมูลค่าเข้ามาเป็นรางวัล</Text>		<!-- The steppe warriors overwhelm all would-be conquerors with their speed, bringing rich ransoms as reward. -->
 		</Replace>
 		<Replace Tag="LOC_15B_IMPERATIVE" Language="th_TH">
-			<Text>ยึดคืนการตั้งถิ่นฐานที่ถูกจับโดย Mamluk ภายใน {1_turn_timer}</Text>		<!-- Retake the captured Settlement with a Mamluk within {1_turn_timer}. -->
+			<Text>ยึดคืน ถิ่นฐาน ที่ถูกยึกครองโดย มัมลุก ภายใน {1_turn_timer}</Text>		<!-- Retake the captured Settlement with a Mamluk within {1_turn_timer}. -->
 		</Replace>
 		<Replace Tag="LOC_17A_STORYTITLE" Language="th_TH">
 			<Text>บทบาทของฟิกฮ์</Text>		<!-- The Role of the Fiqh -->
@@ -7877,7 +7877,7 @@
 			<Text>โรงเรียนที่เสร็จสมบูรณ์เป็นสิ่งมหัศจรรย์ทางสถาปัตยกรรมที่พร้อมให้เหล่านักวิชาการและนักเรียนมารวมตัวกันในลานกลางเพื่อสนทนาที่เต็มไปด้วยชีวิตชีวาเกี่ยวกับศรัทธา</Text>		<!-- The completed madrasa is an architectural marvel ready for scholars and students alike to populate its courtyard with lively discussions about faith. -->
 		</Replace>
 		<Replace Tag="LOC_17B_IMPERATIVE" Language="th_TH">
-			<Text>สร้าง ย่านพิเศษของ ยูเลมา</Text>		<!-- Build an Ulema Unique Quarter. -->
+			<Text>สร้าง ย่านพิเศษของ อูเลมา</Text>		<!-- Build an Ulema Unique Quarter. -->
 		</Replace>
 		<Replace Tag="LOC_18A_STORYTITLE" Language="th_TH">
 			<Text>บทบาทของฟิกฮ์</Text>		<!-- The Role of the Fiqh -->
@@ -7899,7 +7899,7 @@
 			<Text>เราได้สร้างบ้านแห่งศรัทธา</Text>		<!-- We have built a house of faith. -->
 		</Replace>
 		<Replace Tag="LOC_18B_IMPERATIVE" Language="th_TH">
-			<Text>สร้าง ย่านพิเศษของ ยูละมา</Text>		<!-- Build an Ulema Unique Quarter. -->
+			<Text>สร้าง ย่านพิเศษของ อูเลมา</Text>		<!-- Build an Ulema Unique Quarter. -->
 		</Replace>
 		<Replace Tag="LOC_19A_STORYTITLE" Language="th_TH">
 			<Text>ชาวทะเลทราย</Text>		<!-- People of the Desert -->
@@ -8811,7 +8811,7 @@
 			<Text>ชาวเมืองยอมแพ้ต่อเกซิก ไอสำลักขณะที่อากาศเต็มไปด้วยควันจากบ้านที่ถูกเผาไหม้ของพวกเขา เหนือศีรษะที่ก้มต่ำ ธงวิญญาณสีดำโบกสะบัดไปกับสายลม</Text>		<!-- The town's inhabitants surrender before the keshig, coughing as the air fills with smoke from their burning homes. Above their bowed heads, black spirit banners wave in the wind. -->
 		</Replace>
 		<Replace Tag="LOC_3041B_IMPERATIVE" Language="th_TH">
-			<Text>ยึดเมืองภายใน {1_turn_timer}</Text>		<!-- Capture a Town within {1_turn_timer}. -->
+			<Text>ยึดครอง เมืองภายใน {1_turn_timer}</Text>		<!-- Capture a Town within {1_turn_timer}. -->
 		</Replace>
 		<Replace Tag="LOC_3041C_STORYTITLE" Language="th_TH">
 			<Text>ทอร์กูด</Text>		<!-- Torguud -->
@@ -8826,7 +8826,7 @@
 			<Text>ผ่านฟาร์มที่ครั้งหนึ่งเคยสงบสุขและถนนที่ครั้งหนึ่งเคยคึกคัก ทหารเคชิกรุกล้ำเมืองนั้น เสียงกีบเท้าของม้าพวกเขานำพามาซึ่งเสียงนกหวีดของลูกธนู แสงวับ ของเหล็กกล้า และเปลวไฟที่ลุกลามด้วยความหิวโหยซึ่งส่งควันและเสียงกรีดร้องไปยังท้องฟ้าชั่วนิรันดร์</Text>		<!-- Through once-peaceful farms and once-bustling streets, the keshig overrun the city. The hoofbeats of their horses herald the arrow's whistle, the flash of steel, and the ravenous flames that send smoke and screams to the Eternal Sky. -->
 		</Replace>
 		<Replace Tag="LOC_3041C_IMPERATIVE" Language="th_TH">
-			<Text>จับเมืองภายใน {1_turn_timer}</Text>		<!-- Capture a City within {1_turn_timer}. -->
+			<Text>ยึดครอง เมืองภายใน {1_turn_timer}</Text>		<!-- Capture a City within {1_turn_timer}. -->
 		</Replace>
 		<Replace Tag="LOC_3042A_STORYTITLE" Language="th_TH">
 			<Text>ความหวาดกลัวของพ่อค้า</Text>		<!-- The Merchants' Terror -->
@@ -8979,7 +8979,7 @@
 			<Text>ผู้คนอาจอ้างว่าแผ่นดินเป็นของพวกเขา  แต่จักรวรรดิที่อ้างสิทธิ์ในท้องทะเล  ยังคงแข็งแกร่งบนชายฝั่งไม้  เหมือนดินแดนลอยน้ำที่เป็นของตนเอง</Text>		<!-- Others may claim the earth, but the empire that claims the sea stands strong on wooden shores, a floating land all their own. -->
 		</Replace>
 		<Replace Tag="LOC_1089A_IMPERATIVE" Language="th_TH">
-			<Text>มีเส้นทางการค้าไกลถึง 3 เส้นทาง</Text>		<!-- Have 3 Trade Routes to Distant Lands. -->
+			<Text>มี เส้นทางการค้าไกลถึง 3 เส้นทาง</Text>		<!-- Have 3 Trade Routes to Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_1098B_NAME" Language="th_TH">
 			<Text>การเดินทางของจิตใจคือสิ่งสำคัญอันดับแรก</Text>		<!-- The voyages of the mind come first. -->
@@ -9255,7 +9255,7 @@
 			<Text>ในมื้ออาหารที่จัดอยู่ในห้องจัดเลี้ยงที่ตกแต่งอย่างดี, ในชั้น mezzanine ของโรงละคร, ในวันหยุดสุดสัปดาห์ที่รีสอร์ทล่าสัตว์ – นี่คือที่ซึ่งเครือข่ายของทุนโลกมารวมกัน。 มันอาจจะเป็นโลกที่มีเหตุผลและไร้ความปรานี, แต่บางคนจะร่ำรวยขึ้นมาได้。</Text>		<!-- In meals in well-appointed guildhalls, in the mezzanine of theaters, in hunting-lodge weekends – here is where the networks of global capital come together. It will be a rational and heartless world, but some will become rich. -->
 		</Replace>
 		<Replace Tag="LOC_1199A_IMPERATIVE" Language="th_TH">
-			<Text>สร้างหอประชุมสมาคมในดินแดนห่างไกล</Text>		<!-- Build a Guildhall in Distant Lands. -->
+			<Text>สร้าง หอสมาคม ในดินแดนห่างไกล</Text>		<!-- Build a Guildhall in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_1129C_NAME" Language="th_TH">
 			<Text>ทำให้พวกเขาจ่ายบรรณาการเหมือนเดิม</Text>		<!-- Make them pay tribute all the same. -->
@@ -9959,7 +9959,7 @@
 			<Text>เมื่อหมอรีซาลกลับมาถึงบ้านและเล่าเรื่องราวการเดินทางให้เพื่อนฟัง เขาก็คิดถึงเรื่องแปลกประหลาดบางอย่างว่า "โลกนี้กว้างใหญ่ขึ้นมาก แต่ทำไมมันกลับดู... เล็กลงนะ?"</Text>		<!-- While regaling his fellows with tales of his travels upon returning home, Dr. Rizal is struck by a peculiar thought. “The world has expanded so, and yet it seems… smaller, does it not?” -->
 		</Replace>
 		<Replace Tag="LOC_289A_IMPERATIVE" Language="th_TH">
-			<Text>พบกับอารยธรรมทั้งหมดในดินแดนอันไกลโพ้น</Text>		<!-- Meet all Civilizations in Distant Lands. -->
+			<Text>พบกับทุกอารยธรรม ในดินแดนห่างไกล</Text>		<!-- Meet all Civilizations in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_289D_NAME" Language="th_TH">
 			<Text>สำรวจโลกใบนี้</Text>		<!-- Explore the world. -->
@@ -9968,7 +9968,7 @@
 			<Text>เรื่องราวยังคงดำเนินต่อไป..</Text>		<!-- Story continues. -->
 		</Replace>
 		<Replace Tag="LOC_289D_IMPERATIVE" Language="th_TH">
-			<Text>พบกับทุกอารยธรรมในดินแดนอันไกลโพ้น</Text>		<!-- Meet all Civilizations in Distant Lands. -->
+			<Text>พบกับทุกอารยธรรม ในดินแดนห่างไกล</Text>		<!-- Meet all Civilizations in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_271C_NAME" Language="th_TH">
 			<Text>ปล่อยไว้อย่างนั้น</Text>		<!-- Leave it be. -->
@@ -11538,7 +11538,7 @@
 			<Text>มิงได้เปิดพรมแดนให้กับเพื่อนบ้านรอบข้าง โดยมีชาวบ้านรู้สึกวิตกกังวลและอยากรู้อยากเห็น เกี่ยวกับนโยบายใหม่ มีชานใหม่ให้ลองชิม และหนังสือให้ศึกษา รวมถึงความคิดที่สามารถแลกเปลี่ยนกันได้ ระหว่างจิตใจที่เฉลียวฉลาด</Text>		<!-- Ming has opened its borders to surrounding neighbors, with residents equal parts anxious and curious over the new policy. There are new teas to try, and books to study, and thoughts to exchange among brilliant minds. -->
 		</Replace>
 		<Replace Tag="LOC_8009A_IMPERATIVE" Language="th_TH">
-			<Text>เริ่มเส้นทางการค้ากับ 2 อารยธรรม</Text>		<!-- Start a Trade Route with 2 Civilizations. -->
+			<Text>เริ่ม เส้นทางการค้า กับ 2 อารยธรรม</Text>		<!-- Start a Trade Route with 2 Civilizations. -->
 		</Replace>
 		<Replace Tag="LOC_8008C_NAME" Language="th_TH">
 			<Text>ปิดพรมแดนไว้</Text>		<!-- Keep the borders closed. -->
@@ -11643,7 +11643,7 @@
 			<Text>ในดินแดนห่างไกล แสงแห่งการเรียนรู้ได้ขยายตัว，ดึงดูดผู้อยู่อาศัยให้เข้าใจมากขึ้น...และบรรลุเป้าหมายทางการทูตของจงจักษ์</Text>		<!-- In distant lands, the light of learning expands, drawing its residents closer to understanding...and to Trung Trac's diplomatic goals. -->
 		</Replace>
 		<Replace Tag="LOC_1470A_IMPERATIVE" Language="th_TH">
-			<Text>สร้างมหาวิทยาลัยในดินแดนห่างไกล</Text>		<!-- Build a University in Distant Lands. -->
+			<Text>สร้าง มหาวิทยาลัย ในดินแดนห่างไกล</Text>		<!-- Build a University in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_1463A_STORYTITLE" Language="th_TH">
 			<Text>ถึงเวลาอาวุธ!</Text>		<!-- To Arms! -->
@@ -11880,7 +11880,7 @@
 			<Text>อาณาจักรของอามิน่าขยายตัวขึ้นจากความแข็งแกร่งของทหารของเธอ การรับใช้ของพวกเขาย่อมสร้างความเชื่อมั่นให้กับประชาชนและทำให้ศัตรูต้องหวาดกลัว</Text>		<!-- Amina's empire grows upon the might of her soldiers. Their tireless service instills confidence in the populace and fear in the hearts of enemies. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1005B_IMPERATIVE" Language="th_TH">
-			<Text>มีชุมชน 4 แห่งในดินแดนห่างไกล</Text>		<!-- Have 4 Settlements in Distant Lands. -->
+			<Text>มี ชุมชน 4 แห่งในดินแดนห่างไกล</Text>		<!-- Have 4 Settlements in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1006A_STORYTITLE" Language="th_TH">
 			<Text>สมบัติแห่งมหาสมุทร</Text>		<!-- Oceanic Riches -->
@@ -11931,7 +11931,7 @@
 			<Text>อามิน่าทำให้จักรวรรดิของเธอส่องประกายด้วยทองคำ และประชาชนของเธอสุกสกาวเหมือนดวงดาวในยามค่ำคืน</Text>		<!-- Amina has draped her empire in gold, and her people gleam like stars in the night. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1007B_IMPERATIVE" Language="th_TH">
-			<Text>สร้างธนาคาร</Text>		<!-- Build a Bank. -->
+			<Text>สร้าง ธนาคาร</Text>		<!-- Build a Bank. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1013A_STORYTITLE" Language="th_TH">
 			<Text>ชะตากรรมของโลก</Text>		<!-- The Fate of the World -->
@@ -11976,7 +11976,7 @@
 			<Text>ผู้คนมองไปยังสิ่งศักดิ์สิทธิ์เพื่อทำความเข้าใจตำแหน่งของพวกเขาในโลก แต่รากเหง้าของความไว้วางใจของพวกเขาอยู่ที่อโศก</Text>		<!-- The people look to the divine to understand their place in the world. But the root of their trust lies in Ashoka. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1014B_IMPERATIVE" Language="th_TH">
-			<Text>สร้างวัด 3 แห่ง</Text>		<!-- Build 3 Temples. -->
+			<Text>สร้าง วัด 3 แห่ง</Text>		<!-- Build 3 Temples. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1014C_STORYTITLE" Language="th_TH">
 			<Text>นารายณ์</Text>		<!-- Narayan -->
@@ -12006,7 +12006,7 @@
 			<Text>ความมั่งคั่งของโลก ความมั่งคั่งของพระเจ้า – ทั้งสองอย่างสามารถพบได้ภายในรัศมีของอโศก</Text>		<!-- The riches of the world, the riches of the divine – both can be found within Ashoka's aura. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1015B_IMPERATIVE" Language="th_TH">
-			<Text>พัฒนาโกโก้ น้ำตาล ชา และเครื่องเทศในดินแดนห่างไกล</Text>		<!-- Improve Cocoa, Sugar, Tea, and Spices in Distant Lands. -->
+			<Text>พัฒนา โกโก้ น้ำตาล ชา และเครื่องเทศในดินแดนห่างไกล</Text>		<!-- Improve Cocoa, Sugar, Tea, and Spices in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1016A_STORYTITLE" Language="th_TH">
 			<Text>โพธิสัตว์</Text>		<!-- Bodhisattva -->
@@ -12027,7 +12027,7 @@
 			<Text>มหาวิทยาลัยเป็นสถานที่เงียบสงบ เป็นบ่อเกิดสำหรับการศึกษาและการทำสมาธิที่เติมเต็มอาณาจักรของอโศกา</Text>		<!-- The university is a quiet place, a haven for silent study and meditation that enriches Ashoka's empire. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1016B_IMPERATIVE" Language="th_TH">
-			<Text>สร้างมหาวิทยาลัย</Text>		<!-- Build a University. -->
+			<Text>สร้าง มหาวิทยาลัย</Text>		<!-- Build a University. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1016C_STORYTITLE" Language="th_TH">
 			<Text>โพธิสัตว์</Text>		<!-- Bodhisattva -->
@@ -12057,7 +12057,7 @@
 			<Text>กลิ่นธูปลอยมาตามสายลมผ่านชุมชนของอโชกา ทุกคนหยุดทำงานประจำวัน สูดดมกลิ่นหอมพร้อมกันเป็นหนึ่งเดียว</Text>		<!-- The scent of incense drifts on the breeze through Ashoka's settlements. All pause in their daily work, inhaling its fragrance together as one. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1017B_IMPERATIVE" Language="th_TH">
-			<Text>มีทรัพยากรธูป 3 ชิ้น</Text>		<!-- Have 3 Incense Resources. -->
+			<Text>มี ทรัพยากรธูป 3 ชิ้น</Text>		<!-- Have 3 Incense Resources. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1023A_STORYTITLE" Language="th_TH">
 			<Text>ความฝันแห่งพลัง</Text>		<!-- Dreams of Strength -->
@@ -12153,7 +12153,7 @@
 			<Text>ด้วยการเดินเท้า ด้วยม้า ด้วยลูกศร – ศิลปะการสงครามนั้นเห็นถึง ความเชื่อมโยงระหว่างองค์ประกอบเหล่านี้ ภายใต้การนำของออกัสตัส โล่ของพวกเขาทำเครื่องหมาย ให้เห็นว่าพวกเขาคือกองทัพเดียวกัน ที่รวมตัวกันโดยภาพลักษณ์ของผู้นำ</Text>		<!-- By foot, by steed, by bolt – the art of war sees these elements combined. Under the command of Augustus, their very shields mark them as a single army, united by the image of their leader. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1026B_IMPERATIVE" Language="th_TH">
-			<Text>ฝึกอัศวิน, นักรบชาย, และนักธนู</Text>		<!-- Train a Knight, Man-At-Arms, and Crossbowman. -->
+			<Text>ฝึก อัศวิน, ทหารติดอาวุธ และพลหน้าไม้</Text>		<!-- Train a Knight, Man-At-Arms, and Crossbowman. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1026C_STORYTITLE" Language="th_TH">
 			<Text>จิตวิญญาณของทัพ</Text>		<!-- The Army's Soul -->
@@ -12183,7 +12183,7 @@
 			<Text>ลำดับของอำนาจ ที่ขยายมาจากออกัสตัส แผ่กระจายไปอย่างกว้างขวาง</Text>		<!-- The order of power, extending down from Augustus, spreads far and wide. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1027B_IMPERATIVE" Language="th_TH">
-			<Text>ยึดมั่นตั้งถิ่นฐานในดินแดนไกล</Text>		<!-- Capture a Settlement in Distant Lands. -->
+			<Text>ยึดครอง ถิ่นฐาน ในดินแดนไกล</Text>		<!-- Capture a Settlement in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1033A_STORYTITLE" Language="th_TH">
 			<Text>กระแสน้ำกัลฟ์สตรีม</Text>		<!-- The Gulph Stream -->
@@ -12228,7 +12228,7 @@
 			<Text>การบรรยายที่ได้รับการสนับสนุนจากแฟรงคลินได้ขยายตัวเกินกว่าจุดเริ่มต้นที่เรียบง่ายแล้ว นักเรียนเดินทางมาจากทุกจังหวัดเพื่อฟังการสอนของนักวิชาการที่มีชื่อเสียงที่สุดในโลก</Text>		<!-- The popular lectures sponsored by Franklin have grown far beyond their humble origins. Students travel from all provinces to hear the teachings of the world's most eminent scholars. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1034B_IMPERATIVE" Language="th_TH">
-			<Text>สร้างมหาวิทยาลัย</Text>		<!-- Build a University. -->
+			<Text>สร้าง มหาวิทยาลัย</Text>		<!-- Build a University. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1034C_STORYTITLE" Language="th_TH">
 			<Text>การแข่งขันที่ดุเดือด</Text>		<!-- Fierce Competition -->
@@ -12258,7 +12258,7 @@
 			<Text>ช่างทำขนมปัง, ช่างบด, ช่างตัดเสื้อ – ทุกคนมีความคิดเห็นเกี่ยวกับความก้าวหน้าล่าสุดในด้านวิทยาศาสตร์และปรัชญา</Text>		<!-- The baker, the miller, the tailor – all have something to say about the latest advances in science and philosophy. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1035B_IMPERATIVE" Language="th_TH">
-			<Text>ต้องมีเขตเมือง 3 เขต โดยมีผลผลิตรวม 30</Text>		<!-- Have 3 Urban Districts with 30 total yield. -->
+			<Text>ต้องมีเขตเมือง 3 เขต ที่มีผลผลิตรวม 30 หน่วย</Text>		<!-- Have 3 Urban Districts with 30 total yield. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1036A_STORYTITLE" Language="th_TH">
 			<Text>นักการทูตระหว่างประเทศ</Text>		<!-- International Diplomat -->
@@ -12279,7 +12279,7 @@
 			<Text>ข่าวแพร่สะพัดไปทั่วทะเล: หูของ เบน แฟรงคลิน เปิดรับเหตุผล พันธมิตรใหม่ของเขา ฉลองความสำเร็จร่วมกันและดื่มอวยพรโครงการในอนาคต</Text>		<!-- Word spreads quickly across the seas: Ben Franklin's ear is open to reason. His new allies celebrate their mutual success, and toast to future projects. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1036B_IMPERATIVE" Language="th_TH">
-			<Text>กลายเป็นผู้ควบคุมอำนาจอิสระในดินแดนไกลโพ้น</Text>		<!-- Become Suzerain of an Independent Power in Distant Lands. -->
+			<Text>กลายเป็น เจ้านคร ของ รัฐอิสระ ในดินแดนห่างไกล</Text>		<!-- Become Suzerain of an Independent Power in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1036C_STORYTITLE" Language="th_TH">
 			<Text>นักการทูตระหว่างประเทศ</Text>		<!-- International Diplomat -->
@@ -12309,7 +12309,7 @@
 			<Text>ค่าใช้จ่ายสำหรับไวน์ของนักการทูตนั้นคุ้มค่า – เพราะได้สร้างพันธมิตรจากมิตรภาพและความเคารพซึ่งกันและกัน ฟรังคลินลงนามในเอกสารด้วยความกระตือรือร้น</Text>		<!-- The cost of the diplomats' wine was worth it – an alliance has been forged out of friendship and mutual respect. Franklin signs the document with gusto. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1037B_IMPERATIVE" Language="th_TH">
-			<Text>ร่วมมือกับอารยธรรมอื่น</Text>		<!-- Have an Alliance with another Civilization. -->
+			<Text>ทำข้อตกลงพันธมิตรกับอารยธรรมอื่น</Text>		<!-- Have an Alliance with another Civilization. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1043A_STORYTITLE" Language="th_TH">
 			<Text>ท้องฟ้าเบื้องบน</Text>		<!-- The Sky Above -->
@@ -12354,7 +12354,7 @@
 			<Text>อำนาจและความรู้ ศิลปะและความงาม ถูกปรับปรุงให้ดียิ่งขึ้นในห้องเรียน</Text>		<!-- Power and knowledge, art and beauty, are better refined in the classroom. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1044B_IMPERATIVE" Language="th_TH">
-			<Text>สร้างมหาวิทยาลัย</Text>		<!-- Build a University. -->
+			<Text>สร้าง มหาวิทยาลัย</Text>		<!-- Build a University. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1044C_STORYTITLE" Language="th_TH">
 			<Text>การตรัสรู้</Text>		<!-- Enlightenment -->
@@ -12405,7 +12405,7 @@
 			<Text>นอกรัฐของแคทเธอรีน แสงสว่างแห่งความจริงได้แพร่กระจายไปยังชุมชนต่าง ๆ ที่ปรารถนาจะมีส่วนร่วมกับชุมชนศักดิ์สิทธิของผู้ติดตามนิกายนี้</Text>		<!-- Beyond Catherine's borders, the light of truth spreads to communities eager to engage with the holy community of her adherents. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1046B_IMPERATIVE" Language="th_TH">
-			<Text>เปลี่ยนแปลงการตั้งถิ่นฐานที่ไม่ได้เป็นของคุณ</Text>		<!-- Convert a Settlement that isn't yours. -->
+			<Text>เผยแพร่ศาสนาไป ถิ่นฐาน ที่ไม่ได้เป็นของคุณ</Text>		<!-- Convert a Settlement that isn't yours. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1046C_STORYTITLE" Language="th_TH">
 			<Text>นิกายออร์โธดอกซ์</Text>		<!-- Orthodoxy -->
@@ -12435,7 +12435,7 @@
 			<Text>ความมั่งคั่งของวัดของ แคทเธอรีน ในขณะนี้ประดับประดาสถานที่ที่ยิ่งใหญ่กว่านี้ แม้ว่ามนุษย์จะมีชีวิตจิตใจที่เปราะบาง แต่ความอัศจรรย์เช่นนี้มอบชื่อเสียง และผ่านชื่อเสียงนั้น คือความเป็นอมตะ</Text>		<!-- The riches of Catherine's temples now adorn a greater edifice. Though man be mortal, such a wonder grants fame – and through fame, immortality. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1047B_IMPERATIVE" Language="th_TH">
-			<Text>สร้างสิ่งมหัศจรรย์</Text>		<!-- Build a Wonder. -->
+			<Text>สร้าง สิ่งมหัศจรรย์</Text>		<!-- Build a Wonder. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1053A_STORYTITLE" Language="th_TH">
 			<Text>กลุ่มดาวอันห่างไกล</Text>		<!-- A Distant Constellation -->
@@ -12480,7 +12480,7 @@
 			<Text>ธงปลิวไสวในลม สัญญาณแห่งการสิ้นสุดของการล้อมปราบ ชาร์ลมาแรงขี่ม้าผ่านประตูเข้ามา และกองทัพยกทางให้เผยให้เห็นวีรบุรุษตัวจริงของการรบ: ทหารที่กษัตริย์เคยให้เป็นอัศวิน</Text>		<!-- Banners wave in the wind, signaling the end of the siege. Charlemagne rides through the gates and the army parts to reveal the true hero of the battle: a soldier whom the king once knighted. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1054B_IMPERATIVE" Language="th_TH">
-			<Text>ยึดครองชุมชน</Text>		<!-- Capture a Settlement. -->
+			<Text>ยึดครอง ถิ่นฐาน</Text>		<!-- Capture a Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1054C_STORYTITLE" Language="th_TH">
 			<Text>การเกิดของวีรบุรุษ</Text>		<!-- Rise of a Hero -->
@@ -12531,7 +12531,7 @@
 			<Text>นักการทูตเข้ามาและออกไปจากพระราชวังของชาร์ลมากเน่ พวกเขารู้ว่าการพูดของพวกเขามีคุณค่าเมื่ออยู่ในอาณาจักรของเขา และพวกเขารู้ว่าคำแนะนำของเขามีค่านั้นมากกว่าทองคำ</Text>		<!-- Diplomats come and go from Charlemagne's palace. They know that in his presence, their voices have value – and they know his advice is worth more than gold. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1056B_IMPERATIVE" Language="th_TH">
-			<Text>กลายเป็นสุเซอเรนเหนืออำนาจอิสระในดินแดนห่างไกล</Text>		<!-- Become Suzerain over an Independent Power in Distant Lands. -->
+			<Text>กลายเป็น เจ้านคร ของ รัฐอิสระ ในดินแดนห่างไกล</Text>		<!-- Become Suzerain over an Independent Power in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1056C_STORYTITLE" Language="th_TH">
 			<Text>ห้องโถงแห่งอำนาจ</Text>		<!-- Halls of Power -->
@@ -12606,7 +12606,7 @@
 			<Text>ผู้ติดตามของ ขงจื๊อ ปฏิบัติตามคำสอนของเขาในทุกแห่งที่ตั้งถิ่นฐาน แม้ว่าพวกเขาจะเดินทางไกลจากเมืองหลวงของเขา แต่ความจงรักภักดีต่อบทเรียนของเขาก็ยิ่งเพิ่มมากขึ้น</Text>		<!-- The followers of Confucius enact his teachings in all their settlements. Though they wander far from his capital, they become more staunch in their adherence to his lessons. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1064B_IMPERATIVE" Language="th_TH">
-			<Text>ตั้งถิ่นฐาน 2 แห่งในดินแดนที่ห่างไกล</Text>		<!-- Found 2 Settlements in Distant Lands. -->
+			<Text>ตั้งถิ่นฐาน 2 แห่ง ในดินแดนที่ห่างไกล</Text>		<!-- Found 2 Settlements in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1064C_STORYTITLE" Language="th_TH">
 			<Text>ผู้พเนจร</Text>		<!-- The Wanderers -->
@@ -12657,7 +12657,7 @@
 			<Text>ในทุกวัด พระของ ขงจื๊อ จะนำทางผู้ติดตามของพวกเขาในพิธีกรรม ที่ทั้งเคารพต่อสวรรค์และเฉลิมฉลอง การสะท้อนของระเบียบทางศีลธรรมอันศักดิ์สิทธิ์บนโลกใบนี้</Text>		<!-- In all temples, Confucius' priests guide their followers in rites that both honor the heavens and celebrate the reflection of divine moral order on earth. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1066B_IMPERATIVE" Language="th_TH">
-			<Text>สร้างวัด 3 แห่ง</Text>		<!-- Build 3 Temples. -->
+			<Text>สร้าง วัด 3 แห่ง</Text>		<!-- Build 3 Temples. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1066C_STORYTITLE" Language="th_TH">
 			<Text>ระเบียบโลก</Text>		<!-- World Order -->
@@ -12687,7 +12687,7 @@
 			<Text>เมืองของ ขงจื้อ ดูงดงามน่าหลงใหล แต่ที่สำคัญกว่าคือ พวกมันเป็นเครื่องจักรแห่งการเรียนรู้ การผลิต และนวัตกรรม</Text>		<!-- The cities of Confucius are wondrous to look at. But even more than a feast for the eyes, they are machines for learning, production, and innovation. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1067B_IMPERATIVE" Language="th_TH">
-			<Text>มี 4 คะแนนในเส้นทางมรดกแห่งปัญญา</Text>		<!-- Have 4 Points in the Enlightenment Legacy Path. -->
+			<Text>มี 4 คะแนนในเส้นทางมรดก การตรัสรู้</Text>		<!-- Have 4 Points in the Enlightenment Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1073A_STORYTITLE" Language="th_TH">
 			<Text>เพลงสำหรับยุคใหม่</Text>		<!-- A Song for a New Era -->
@@ -12732,7 +12732,7 @@
 			<Text>กองทัพของฟรีดริชเดินทัพผ่านประตูชัย การพิชิตของพวกเขากล้าหาญ และด้วยความกล้าหาญนั้นจึงประสบความสำเร็จ ตอนนี้สิ่งที่เหลืออยู่คือการเก็บเกี่ยวผลประโยชน์จากชัยชนะ</Text>		<!-- Friedrich's army marches through the gates. Their conquest was bold – and through that boldness, successful. Now all that remains is to reap the benefits of victory. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1074B_IMPERATIVE" Language="th_TH">
-			<Text>จับกุมถิ่นฐาน</Text>		<!-- Capture a Settlement. -->
+			<Text>ยึดครอง ถิ่นฐาน</Text>		<!-- Capture a Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1074C_STORYTITLE" Language="th_TH">
 			<Text>วิธีการทำสงคราม</Text>		<!-- Methods of Warfare -->
@@ -12762,7 +12762,7 @@
 			<Text>ฟริดริชแสดงสีหน้าเหยเกกับรสชาติกาแฟที่ยังคงฝังอยู่ในปาก เขาจำใจยอมรับว่า กองทัพของเขามีความกระตือรือร้นมากในยามเช้าของการพิชิต แต่เขาก็ยังอยู่ในอารมณ์ที่จะเจรจากับศัตรูที่พ่ายแพ้ของเขา</Text>		<!-- Grimacing at the lingering taste of coffee, Friedrich is forced to acknowledge that his army was energetic in their dawn conquest. He is even in the mood for negotiations with his defeated foe. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1075B_IMPERATIVE" Language="th_TH">
-			<Text>เอาชนะผู้บังคับบัญชา</Text>		<!-- Defeat a Commander. -->
+			<Text>เอาชนะ ผู้บัญชาการ</Text>		<!-- Defeat a Commander. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1076A_STORYTITLE" Language="th_TH">
 			<Text>กษัตริย์นักกวี</Text>		<!-- The Poet King -->
@@ -12783,7 +12783,7 @@
 			<Text>ความงามและความรู้รวมตัวกันที่ใจกลางเมืองของฟรีดริช ก่อให้เกิดปรากฏการณ์ที่ยิ่งใหญ่สำหรับทุกยุคทุกสมัย</Text>		<!-- Beauty and knowledge unite at the heart of Friedrich's city, manifesting a spectacle for the ages. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1076B_IMPERATIVE" Language="th_TH">
-			<Text>สร้างสิ่งมหัศจรรย์</Text>		<!-- Build a Wonder. -->
+			<Text>สร้าง สิ่งมหัศจรรย์</Text>		<!-- Build a Wonder. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1076C_STORYTITLE" Language="th_TH">
 			<Text>กษัตริย์นักกวี</Text>		<!-- The Poet King -->
@@ -12813,7 +12813,7 @@
 			<Text>ดังที่ฟรีดริชทราบดี มิตรภาพที่สร้างขึ้นด้วยไวน์นั้นเกินกว่าที่โต๊ะอาหารรอบใดจะสร้างได้</Text>		<!-- As Friedrich well knows, friendships fostered over wine reach far beyond the dinner table. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1077B_IMPERATIVE" Language="th_TH">
-			<Text>มีพันธมิตรกับอารยธรรมอื่น</Text>		<!-- Have an Alliance with another Civilization. -->
+			<Text>ทำข้อตกลงพันธมิตรกับอารยธรรมอื่น</Text>		<!-- Have an Alliance with another Civilization. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1083A_STORYTITLE" Language="th_TH">
 			<Text>นโยบายต่างประเทศ</Text>		<!-- Foreign Policy -->
@@ -12858,7 +12858,7 @@
 			<Text>วิหารในเมืองของ ทับแมน เปิดตลอด 24 ชั่วโมง ต้อนรับผู้ที่ต้องการความช่วยเหลือ และนำความสุขมาสู่หัวใจของผู้คน</Text>		<!-- The temples of Tubman's cities are open at all hours, welcoming those in need and bringing joy to the hearts of the people. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1084B_IMPERATIVE" Language="th_TH">
-			<Text>สร้างวิหาร 3 แห่ง</Text>		<!-- Build 3 Temples. -->
+			<Text>สร้าง วิหาร 3 แห่ง</Text>		<!-- Build 3 Temples. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1084C_STORYTITLE" Language="th_TH">
 			<Text>คำทำนายและแผนการ</Text>		<!-- Prophecy and Plans -->
@@ -12909,7 +12909,7 @@
 			<Text>เมื่อทหารของ ทับแมน เข้าควบคุมการตั้งถิ่นฐานที่ถูกยึด ครอบครัวหนึ่งยืนอยู่กลางจัตุรัส โดยมีผู้บังคับบัญชาคนหนึ่ง ยืนอยู่เพื่อทำให้ประชาชนในเมืองรู้สึกว่า ชีวิตของพวกเขานั้นปลอดภัย ทับแมนตั้งใจฟังคำพูดของเขา และรู้สึกพอใจที่ค่านิยมของเธอ ได้แทรกซึมเข้าไปในกองทัพแม้ใน ช่วงเวลาที่เต็มไปด้วยความขัดแย้ง</Text>		<!-- As Tubman's soldiers secure the conquered settlement, one commander stands in the central square, reassuring the townsfolk that their lives are safe. Tubman listens to his words, pleased that her values permeate her army even in times of strife. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1086B_IMPERATIVE" Language="th_TH">
-			<Text>ยึดการตั้งถิ่นฐาน</Text>		<!-- Capture a Settlement. -->
+			<Text>ยึดครอง ถิ่นฐาน</Text>		<!-- Capture a Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1086C_STORYTITLE" Language="th_TH">
 			<Text>ไฟในสายเลือด</Text>		<!-- Fire in the Blood -->
@@ -12939,7 +12939,7 @@
 			<Text>อาวุธคือพลัง ไม่ว่าจะใช้หรือไม่ก็ตาม แฮเรียต ทับแมน รู้ถึงพลังของอาวุธในครอบครอง...และผู้คนทุกคนที่อยู่ในเส้นทางของเธอก็รู้เช่นกัน</Text>		<!-- Weapons are strength, whether they are used or not. Harriet Tubman knows the power of her arsenal…and so too do all in her path. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1087B_IMPERATIVE" Language="th_TH">
-			<Text>มีจุดตั้งถิ่นฐาน 4 แห่งในดินแดนห่างไกล</Text>		<!-- Have 4 Settlements in Distant Lands. -->
+			<Text>มี ถิ่นฐาน 4 แห่งในดินแดนห่างไกล</Text>		<!-- Have 4 Settlements in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1093A_STORYTITLE" Language="th_TH">
 			<Text>มาทคาเร</Text>		<!-- Maatkare -->
@@ -12984,7 +12984,7 @@
 			<Text>เมื่อถึงฝั่งใหม่ กษัตริย์แฮตเชปซุตและลูกเรือของท่าน ขุกเข่าบนชายหาด พวกเขาร่วมกันสวดอ้อนวอน ขอบคุณสำหรับความสำเร็จในเส้นทางการเดินทาง และเตรียมตัวสำหรับเส้นทางที่รออยู่ข้างหน้า</Text>		<!-- Arriving upon a new shore, Hatshepsut's voyagers kneel in the sand. They give thanks for their journey's success, and ready themselves for the path ahead. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1094B_IMPERATIVE" Language="th_TH">
-			<Text>เริ่มทำเส้นทางการค้าไปยังการตั้งถิ่นฐานในดินแดนที่ห่างไกล</Text>		<!-- Start a Trade Route to a Settlement in Distant Lands. -->
+			<Text>เริ่ม เส้นทางการค้า ไปยังถิ่นฐาน ในดินแดนที่ห่างไกล</Text>		<!-- Start a Trade Route to a Settlement in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1094C_STORYTITLE" Language="th_TH">
 			<Text>ข้ามทะเลแห่งราตรี</Text>		<!-- Across the Sea of Night -->
@@ -13014,7 +13014,7 @@
 			<Text>ตลาดของแฮตเชปซุต เต็มไปด้วยความมั่งคั่งจากหลายประเทศ ในอาณาจักรของเธอ เส้นทางการค้าของโลกมาบรรจบกัน</Text>		<!-- Hatshepsut's markets overflow with the wealth of many nations. Within her realm, the trade routes of the world converge. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1095B_IMPERATIVE" Language="th_TH">
-			<Text>มีน้ำตาล, โกโก้, ชา และเครื่องเทศในดินแดนไกล</Text>		<!-- Have Sugar, Cocoa, Tea, and Spices in Distant Lands. -->
+			<Text>มี น้ำตาล, โกโก้, ชา และเครื่องเทศในดินแดนไกล</Text>		<!-- Have Sugar, Cocoa, Tea, and Spices in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1096A_STORYTITLE" Language="th_TH">
 			<Text>ความเป็นอมตะ</Text>		<!-- Immortality -->
@@ -13035,7 +13035,7 @@
 			<Text>พระอุปัชฌาย์สูงสุดของ แฮตเชปซุต ไม่พูดคุยเฉพาะกับชาวบ้านอีกต่อไป แต่เสียงของพวกเขาถูกส่งต่อโดยมิชชันนารี และในตอนนี้ได้ต้อนรับ เมืองไกลโพ้น เข้ามาร่วมสวดมนต์ด้วยกัน</Text>		<!-- The high priests of Hatshepsut no longer speak only to locals. Their voices, carried by missionaries, now welcome distant cities to join them in prayer. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1096B_IMPERATIVE" Language="th_TH">
-			<Text>ฝึกอบรมมิชชันนารี</Text>		<!-- Train a Missionary. -->
+			<Text>ฝึก มิชชันนารี</Text>		<!-- Train a Missionary. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1096C_STORYTITLE" Language="th_TH">
 			<Text>ความเป็นอมตะ</Text>		<!-- Immortality -->
@@ -13065,7 +13065,7 @@
 			<Text>การส่งมอบหินอ่อน ทองคำ และม้า ทำให้ช่างก่อสร้างของ แฮตเชปซุต มีพลังงานมากขึ้น ขณะนี้พวกเขาไม่ต้องกังวลเกี่ยวกับทรัพยากรอีกต่อไป จึงได้ปล่อยใจให้จินตนาการโลดแล่นอย่างเต็มที่</Text>		<!-- Deliveries of marble, gold, and horses energize Hatshepsut's builders. Now that they no longer worry for resources, they indulge their imaginations to the fullest. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1097B_IMPERATIVE" Language="th_TH">
-			<Text>ต้องมีทรัพยากร ทองคำ, ม้า และหินอ่อน</Text>		<!-- Have Gold, Horses, and Marble Resources. -->
+			<Text>มี ทรัพยากร ทองคำ, ม้า และหินอ่อน</Text>		<!-- Have Gold, Horses, and Marble Resources. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1103A_STORYTITLE" Language="th_TH">
 			<Text>ไทโย</Text>		<!-- Taiyo -->
@@ -13110,7 +13110,7 @@
 			<Text>เมื่ออำนาจของฮิมิโกะขยายตัวออกไป ผู้คนจำนวนมากขึ้นรู้สึกได้ถึงการจ้องมองของอามาเทราสุ ผู้ที่เฝ้ามองและนำทางพวกเขาในชีวิตประจำวันของพวกเขา</Text>		<!-- As Himiko's supremacy expands, more folk feel the gaze of Amaterasu, watching and guiding them through their everyday lives. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1104B_IMPERATIVE" Language="th_TH">
-			<Text>กลายเป็นพระราชาเหนืออำนาจที่เป็นอิสระ</Text>		<!-- Become Suzerain over an Independent Power. -->
+			<Text>กลายเป็น เจ้านคร ของ รัฐอิสระ ในดินแดนห่างไกล</Text>		<!-- Become Suzerain over an Independent Power. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1104C_STORYTITLE" Language="th_TH">
 			<Text>คามิ</Text>		<!-- The Kami -->
@@ -13140,7 +13140,7 @@
 			<Text>ชาวฮิมิโกะที่ห่มคลุมด้วยพรจากผืนดิน ได้ขอบคุณสำหรับการปกป้องจากสภาพอากาศและความหนาวเย็น ภายใต้การนำของเธอ พวกเขามักได้รับการดูแลเสมอ</Text>		<!-- Himiko's people, draped in the land's bounty, give thanks to the protection it affords from weather and cold. Beneath her guidance, they are always cared for. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1105B_IMPERATIVE" Language="th_TH">
-			<Text>มีแหล่งขนสัตว์ 3 แห่ง</Text>		<!-- Have 3 Fur Resources. -->
+			<Text>มี ทรัพยากร ขนสัตว์ 3 แห่ง</Text>		<!-- Have 3 Fur Resources. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1106A_STORYTITLE" Language="th_TH">
 			<Text>ความเจริญรุ่งเรืองอันศักดิ์สิทธิ์</Text>		<!-- Divine Prosperity -->
@@ -13161,7 +13161,7 @@
 			<Text>กระจกสัมฤทธิ์แผ่ขยายไปทั่วดินแดน ในแต่ละวิหาร ผู้คนต่างปีติยินดีภายใต้สายตาของฮิมิโกะ</Text>		<!-- The bronze mirror spreads across the land. In each temple, the populace rejoices beneath Himiko's gaze. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1106B_IMPERATIVE" Language="th_TH">
-			<Text>สร้างวัด 3 แห่ง</Text>		<!-- Build 3 Temples. -->
+			<Text>สร้าง วัด 3 แห่ง</Text>		<!-- Build 3 Temples. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1106C_STORYTITLE" Language="th_TH">
 			<Text>ความเจริญรุ่งเรืองอันศักดิ์สิทธิ์</Text>		<!-- Divine Prosperity -->
@@ -13191,7 +13191,7 @@
 			<Text>ความงามของหยกดึงดูดช่างฝีมือของฮิมิโกะ พวกเขามองหาวิธีใหม่ๆ ในการตัดและขึ้นรูปแร่ชนิดนี้ เพื่อเพิ่มพลังของมันให้มากขึ้น</Text>		<!-- The beauty of jade captivates Himiko's craftspeople. They seek new ways to cut and shape the mineral, and so harness its powers further. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1107B_IMPERATIVE" Language="th_TH">
-			<Text>มีทรัพยากรหยก 3 แห่ง</Text>		<!-- Have 3 Jade Resources. -->
+			<Text>มี ทรัพยากร หยก 3 แห่ง</Text>		<!-- Have 3 Jade Resources. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1113A_STORYTITLE" Language="th_TH">
 			<Text>การเดินทางเริ่มต้นขึ้น</Text>		<!-- The Journey Begins -->
@@ -13236,7 +13236,7 @@
 			<Text>การตั้งถิ่นฐานใหม่เริ่มเติบโต ผู้คนของที่นี่มีความสุข ในการสำรวจพื้นที่ใหม่ๆ ไม่ต่างจาก อิบน์ บัตตูตา เองเลย</Text>		<!-- The new settlement begins to grow. Its people delight in exploring their new surroundings as much as Ibn Battuta himself. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1114B_IMPERATIVE" Language="th_TH">
-			<Text>ก่อตั้งการตั้งถิ่นฐานในดินแดนห่างไกล</Text>		<!-- Found a Settlement in Distant Lands. -->
+			<Text>ก่อตั้ง ถิ่นฐาน ในดินแดนห่างไกล</Text>		<!-- Found a Settlement in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1114C_STORYTITLE" Language="th_TH">
 			<Text>ทางแยก</Text>		<!-- Crossroads -->
@@ -13266,7 +13266,7 @@
 			<Text>ผู้ใดที่ได้เห็นวัตถุโบราณของ อิบน์ บัตตูตา จะร่วมเฉลิมฉลองกับสัญลักษณ์ศักดิ์สิทธิ์เหล่านี้ พวกเขานำคำอธิษฐานของประชาชนไปสู่องค์ที่สูงสุด เสมือนที่ อิบน์ บัตตูตา ชี้นำการผจญภัยของพวกเขาบนแผ่นดินนี้</Text>		<!-- All who see the relics of Ibn Battuta celebrate these sacred symbols. They guide the peoples' prayers to the divine, just as Ibn Battuta guides their adventures on earth. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1115B_IMPERATIVE" Language="th_TH">
-			<Text>ต้องมีวัตถุโบราณ 3 ชิ้น</Text>		<!-- Have 3 Relics. -->
+			<Text>มี วัตถุโบราณ 3 ชิ้น</Text>		<!-- Have 3 Relics. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1116A_STORYTITLE" Language="th_TH">
 			<Text>จุดหมายปลายทาง</Text>		<!-- Destinations -->
@@ -13362,7 +13362,7 @@
 			<Text>ข่าวจากเมืองใหม่ถูกส่งถึงหูอันกระตือรือร้นของ อิซาเบลล่า รายงานเกี่ยวกับความสำเร็จของประชาชนของเธอปรากฏในทุกจดหมาย พร้อมด้วยรูปแบบของทองคำเล็กๆ น้อยๆ ท่วมท้นอยู่ในนั้น</Text>		<!-- Reports from the new town reach Isabella's eager ears. Evidence of her peoples' success accompanies every letter, in the form of small nuggets of gold. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1124B_IMPERATIVE" Language="th_TH">
-			<Text>ก่อตั้งการตั้งถิ่นฐานในดินแดนอันห่างไกล</Text>		<!-- Establish a Settlement in Distant Lands. -->
+			<Text>ก่อตั้ง ถิ่นฐาน ในดินแดนห่างไกล</Text>		<!-- Establish a Settlement in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1124C_STORYTITLE" Language="th_TH">
 			<Text>ก้าวแรกที่มั่นคง</Text>		<!-- The First Foothold -->
@@ -13392,7 +13392,7 @@
 			<Text>ความชำนาญของชาวประมง อิซาเบลล่า ไม่เพียงแต่เติมเต็มตลาดของเธอ แต่ยังขยายไปยังตลาดทั่วทั้งแผ่นดิน เมื่อพ่อค้าแลกเปลี่ยนปลาเพื่อเงินและเรื่องราวต่าง ๆ ยิ่งใหญ่</Text>		<!-- The skill of Isabella's fishermen fills not only her markets, but those across the land, as merchants exchange fish for both coin and stories. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1125B_IMPERATIVE" Language="th_TH">
-			<Text>มีเส้นทางการค้าสี่เส้น</Text>		<!-- Have 4 Trade Routes. -->
+			<Text>มี เส้นทางการค้า 4 เส้น</Text>		<!-- Have 4 Trade Routes. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1126A_STORYTITLE" Language="th_TH">
 			<Text>ผู้ศรัทธา</Text>		<!-- The Believers -->
@@ -13413,7 +13413,7 @@
 			<Text>ทุกคนที่ได้ยินคำสั่งสอนของนักบวชของอิซาเบลลาจะถูกชักชวนโดยน้ำเสียงของพวกเขา ไม่ว่าจะเป็นด้วยการปราศรัยหรือการข่มขู่</Text>		<!-- All who hear Isabella's priests find themselves persuaded by their call – whether by oratory or intimidation. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1126B_IMPERATIVE" Language="th_TH">
-			<Text>เปลี่ยนแปลงเมืองที่ไม่ใช่ของคุณ</Text>		<!-- Convert a City that isn't yours. -->
+			<Text>เผยแพร่ศาสนาใน เมืองที่ไม่ใช่ของคุณ</Text>		<!-- Convert a City that isn't yours. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1126C_STORYTITLE" Language="th_TH">
 			<Text>ผู้ศรัทธา</Text>		<!-- The Believers -->
@@ -13443,7 +13443,7 @@
 			<Text>พลเมืองที่พ่ายแพ้เปิดคลังสมบัติให้กับ อิซาเบลล่า บางส่วนของทรัพย์สินต้องถูกเก็บไว้เพื่อการฟื้นฟู แต่ทองคำส่วนใหญ่จะกลับไปอยู่ในมือของเธอ</Text>		<!-- The defeated citizens open their treasury to Isabella. Some wealth must be left for their recovery, but most of the gold will make its way back to her. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1127B_IMPERATIVE" Language="th_TH">
-			<Text>ยึดเมืองให้สำเร็จ</Text>		<!-- Capture a Settlement. -->
+			<Text>ยึดครอง ถิ่นฐาน</Text>		<!-- Capture a Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1133A_STORYTITLE" Language="th_TH">
 			<Text>หน้ากระดาษเปล่า</Text>		<!-- The Empty Page -->
@@ -13488,7 +13488,7 @@
 			<Text>ริซัลสะสมหนังสือเป็นธรรมดา แต่ยังมีของล้ำค่าชิ้นอื่น ๆ ที่ดึงดูดความสนใจด้านวิชาการของเขา พระของเขานำเสนอทั้งสองอย่างเพื่อเติมเต็มความอยากรู้ที่ไม่มีที่สิ้นสุดของเขา</Text>		<!-- Rizal collects books, of course – but other relics attract his scholarly attention too. His priests deliver both to satisfy his boundless curiosity. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1134B_IMPERATIVE" Language="th_TH">
-			<Text>มีของล้ำค่า 3 ชิ้น</Text>		<!-- Have 3 Relics. -->
+			<Text>มี ศาสนวัตถุ 3 ชิ้น</Text>		<!-- Have 3 Relics. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1134C_STORYTITLE" Language="th_TH">
 			<Text>ผู้หลงใหลในหนังสือ</Text>		<!-- The Bibliophile -->
@@ -13518,7 +13518,7 @@
 			<Text>งานศิลปะอันยิ่งใหญ่ตั้งตระหง่าน เหนือเมืองของรีซัล เป็นการตระหนักถึงวิสัยทัศน์ ที่แบ่งปันโดยผู้นำและประชาชน</Text>		<!-- A masterpiece rises above Rizal's city, the realization of a vision shared by leader and populace. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1135B_IMPERATIVE" Language="th_TH">
-			<Text>สร้างสิ่งมหัศจรรย์</Text>		<!-- Build a Wonder. -->
+			<Text>สร้าง สิ่งมหัศจรรย์</Text>		<!-- Build a Wonder. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1136A_STORYTITLE" Language="th_TH">
 			<Text>ดวงดาวคงที่</Text>		<!-- The Fixed Star -->
@@ -13539,7 +13539,7 @@
 			<Text>นักสำรวจได้กลายเป็นพลเมือง และดินแดนที่เคยเป็นดินแดนใหม่ ในตอนนี้กลับกลายเป็นที่คุ้นเคยอย่างรวดเร็ว เมื่ออิทธิพลของริซาลแผ่ขยายไปทั่วมหาสมุทร</Text>		<!-- Explorers have become civilians, and what was once a new land now quickly becomes familiar as Rizal's influence spreads across the ocean. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1136B_IMPERATIVE" Language="th_TH">
-			<Text>ก่อตั้งการตั้งถิ่นฐานในดินแดนห่างไกล</Text>		<!-- Found Settlement in Distant Lands. -->
+			<Text>ก่อตั้ง ถิ่นฐาน ในดินแดนห่างไกล</Text>		<!-- Found Settlement in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1136C_STORYTITLE" Language="th_TH">
 			<Text>ดวงดาวคงที่</Text>		<!-- The Fixed Star -->
@@ -13569,7 +13569,7 @@
 			<Text>พ่อค้าของรีซัล ส่งมอบสินค้าอันน่าอัศจรรย์ จากฟากฝั่งทะเลอย่างไม่รู้จักหมดสิ้น มันเป็นการอิ่มอร่อยสำหรับ ทุกประสาทสัมผัสและจินตนาการ</Text>		<!-- Rizal's merchants deliver an endless supply of marvelous goods from across the sea. They are a feast for the senses, and for the imagination. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1137B_IMPERATIVE" Language="th_TH">
-			<Text>มีทรัพยากรทั้งหมด ในดินแดนห่างไกล</Text>		<!-- Have all Resources in Distant Lands. -->
+			<Text>มี ทรัพยากรทั้งหมด ในดินแดนห่างไกล</Text>		<!-- Have all Resources in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1143A_STORYTITLE" Language="th_TH">
 			<Text>เหนือขอบฟ้า</Text>		<!-- Beyond the Horizon -->
@@ -13665,7 +13665,7 @@
 			<Text>เพื่อนใหม่มาพร้อมกับแนวคิดใหม่ ๆ การเป็นพันธมิตรครั้งใหม่ ของลาฟาแยต กระตุ้นการแลกเปลี่ยนความรู้ที่ช่วยยกระดับทั้งสองประชาคม</Text>		<!-- New friends bring new ideas. Lafayette's newest alliance sparks an exchange of knowledge that enriches both peoples. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1146B_IMPERATIVE" Language="th_TH">
-			<Text>สร้างพันธมิตรกับอารยธรรมอื่น</Text>		<!-- Have an Alliance with another Civilization. -->
+			<Text>ทำข้อตกลงพันธมิตรกับอารยธรรมอื่น</Text>		<!-- Have an Alliance with another Civilization. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1146C_STORYTITLE" Language="th_TH">
 			<Text>เทพและเหตุผล</Text>		<!-- The Divine and the Rational -->
@@ -13695,7 +13695,7 @@
 			<Text>ชีวิตของทหารไม่เคยง่ายดาย แต่ ลาฟาแยต มั่นใจว่ากองทัพของเขา ได้รับการจัดหาเสบียงที่เพียงพอ และนำโดยผู้บัญชาการที่มีประสบการณ์มากที่สุด</Text>		<!-- A soldier's life is never easy, but Lafayette makes sure his armies are well-provisioned and led by the most experienced generals. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1147B_IMPERATIVE" Language="th_TH">
-			<Text>มีผู้บัญชาการที่ได้รับการเลื่อนตำแหน่ง 5 ครั้ง</Text>		<!-- Have a Commander with 5 Promotions. -->
+			<Text>มี ผู้บัญชาการ ที่ได้รับการเลื่อนขั้น 5 ครั้ง</Text>		<!-- Have a Commander with 5 Promotions. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1153A_STORYTITLE" Language="th_TH">
 			<Text>แรงบันดาลใจในยามเช้า</Text>		<!-- Inspiration at Dawn -->
@@ -13740,7 +13740,7 @@
 			<Text>นักวิชาการของแมคคิอาเวลลี่พูดถูก – ดินแดนใกล้เคียงนั้น เต็มไปด้วยขนบธรรมเนียมและความมั่งคั่ง และตอนนี้พวกเขาก็ติดต่อกับเราโดยเฉพาะ</Text>		<!-- Machiavelli's scholar was right – neighboring lands are indeed lavish in customs and wealth, and now they deal exclusively with us. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1154B_IMPERATIVE" Language="th_TH">
-			<Text>กลายเป็นสุซาเรนเหนืออำนาจอิสระ</Text>		<!-- Become a Suzerain over an Independent Power. -->
+			<Text>กลายเป็น เจ้านคร ของ รัฐอิสระ</Text>		<!-- Become a Suzerain over an Independent Power. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1154C_STORYTITLE" Language="th_TH">
 			<Text>เปิดพรมแดน</Text>		<!-- Open Borders -->
@@ -13791,7 +13791,7 @@
 			<Text>วัยรุ่นที่หัวกบฏใน จักรวรรดิของแมคคิอาเวลลี่ ไม่ยับยั้งตนเองในการเดินทางไปต่างประเทศ พวกเขาพบสิ่งที่ดีกว่า: ความทะเยอทะยานและความมั่งคั่ง</Text>		<!-- The rebellious youth of Machiavelli's empire have not found restraint in their travels abroad. They have found something far better: ambition and wealth. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1156B_IMPERATIVE" Language="th_TH">
-			<Text>มีเส้นทางการค้า 3 เส้น</Text>		<!-- Have 3 Trade Routes. -->
+			<Text>มี เส้นทางการค้า 3 เส้น</Text>		<!-- Have 3 Trade Routes. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1156C_STORYTITLE" Language="th_TH">
 			<Text>ไฟแห่งความเยาว์วัย</Text>		<!-- The Fires of Youth -->
@@ -14118,7 +14118,7 @@
 			<Text>"โอ เซอร์ซีส" ข้อความจากชายหนุ่มผู้สูงศักดิ์คนหนึ่งอ่านว่า "ครั้งหนึ่งท่านเคยส่งข้าออกจากสายตาของท่านเพราะข้าได้สนทนาโดยตรงกับท่าน ในฐานะพ่อค้า ข้าได้เดินทางไปไกลและเรียนรู้วิถีทางของโลก เพื่อความเมตตาของท่าน โปรดรับของขวัญเหล่านี้ที่เหมาะสมเฉพาะสำหรับสายตาของมหาราชชาห์อันซา"</Text>		<!-- "O Xerxes," reads a message from a noble youth, "once you sent me from your sight for addressing you directly. As a merchant, I have traveled far and learned the ways of the world. For your mercy, accept these gifts fit only for the eyes of the great Shahanshah." -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1184B_IMPERATIVE" Language="th_TH">
-			<Text>ฝึกอบรมพ่อค้า 2 คน</Text>		<!-- Train 2 Merchants. -->
+			<Text>ฝึก พ่อค้า 2 คน</Text>		<!-- Train 2 Merchants. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1184C_STORYTITLE" Language="th_TH">
 			<Text>ข้อบังคับของศาล</Text>		<!-- Rules of the Court -->
@@ -14148,7 +14148,7 @@
 			<Text>ความพยายามของสถาปนิกของเซอร์ซีส ซึ่งเคยมุ่งเน้นไปที่พระราชวัง ได้เปลี่ยนไปยังโครงการที่ยิ่งใหญ่กว่าเดิม และเช่นเคย ความชื่นชอบในความหรูหราของพวกเขาไม่เคยทำให้ผิดหวัง</Text>		<!-- The efforts of Xerxes' architects, once focused on the palace, have rerouted to grander projects. As always, their taste for opulence does not disappoint. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1185B_IMPERATIVE" Language="th_TH">
-			<Text>สร้างสิ่งมหัศจรรย์</Text>		<!-- Build a Wonder. -->
+			<Text>สร้าง สิ่งมหัศจรรย์</Text>		<!-- Build a Wonder. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1186A_STORYTITLE" Language="th_TH">
 			<Text>เปลวไฟแห่งสงคราม</Text>		<!-- Flames of War -->
@@ -14169,7 +14169,7 @@
 			<Text>กองทัพของเซอร์ซีสชำระล้างดินแดนของศัตรู เมื่อพวกเขาผ่านไป โลกใหม่ก็เริ่มรุ่งโรจน์ - โลกที่สร้างขึ้นตามภาพของอาหุระมาสดา</Text>		<!-- The armies of Xerxes wash the land of enemies. In their wake, a new world dawns – one fashioned in the image of Ahura Mazda. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1186B_IMPERATIVE" Language="th_TH">
-			<Text>ยึดครองที่ตั้งถิ่นฐาน</Text>		<!-- Capture a Settlement. -->
+			<Text>ยึดครอง ถิ่นฐาน</Text>		<!-- Capture a Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1186C_STORYTITLE" Language="th_TH">
 			<Text>เปลวไฟแห่งสงคราม</Text>		<!-- Flames of War -->
@@ -14382,7 +14382,7 @@
 			<Text>ทหารของอามีนา พึงพอใจกับสิ่งอำนวยความสะดวกใหม่เหล่านี้ พร้อมที่จะแสดงความขอบคุณต่อความเอื้ออาทรของราชินีด้วยการพิชิต</Text>		<!-- Amina’s soldiers, pleased with these new amenities, are ready to show appreciation for the queen’s generosity by way of conquest. -->
 		</Replace>
 		<Replace Tag="LOC_8072B_IMPERATIVE" Language="th_TH">
-			<Text>สร้างช่างตีเกราะ</Text>		<!-- Build an Armorer. -->
+			<Text>สร้าง โรงทำอาวุธ</Text>		<!-- Build an Armorer. -->
 		</Replace>
 		<Replace Tag="LOC_8072C_NAME" Language="th_TH">
 			<Text>เก็บกองทัพไว้ตามเดิม</Text>		<!-- Keep the army as it is. -->
@@ -14427,7 +14427,7 @@
 			<Text>เมื่อได้รับเป้าหมายสำหรับดาบและที่ดินที่จะปล้นสะดม กองทัพของอามีนาจึงยินดีเป็นอย่างยิ่งที่จะกระหายสงคราม</Text>		<!-- Presented with targets for their blades and land to be pillaged, Amina’s army is all too happy to indulge in warmongering. -->
 		</Replace>
 		<Replace Tag="LOC_8074B_IMPERATIVE" Language="th_TH">
-			<Text>ทำลายรัฐอิสระ</Text>		<!-- Disperse an Independent Power. -->
+			<Text>ทำลาย รัฐอิสระ</Text>		<!-- Disperse an Independent Power. -->
 		</Replace>
 		<Replace Tag="LOC_8074C_NAME" Language="th_TH">
 			<Text>ส่งนักรบไปยังเป้าหมายของพวกเขาอีกครั้ง</Text>		<!-- Send the warriors to their purpose once more. -->
@@ -14726,7 +14726,7 @@
 			<Text>เรือของมาเจลลันได้เห็นแผ่นดินในที่สุด พวกเขาเผชิญกับพายุ ความหิวโหย และโรคภัย พร้อมกับการก่อกบฏที่ทำให้พวกเขาหนักแน่นขึ้น ยังมีโลกทั้งใบที่รอให้พวกเขาเข้าไปสำรวจ แต่พวกเขาก็ต้องเผชิญกับการต่อต้านจากชาวท้องถิ่นไม่ขาดสาย</Text>		<!-- Magellan's fleet at last glimpses land. They had been ravaged by storms, plagued by hunger and disease and hardened by mutiny. There is an entire world before them to exploit, but no shortage of local opposition. -->
 		</Replace>
 		<Replace Tag="LOC_7049A_IMPERATIVE" Language="th_TH">
-			<Text>ได้คะแนน 3 คะแนนกองเรือสมบัติจากกองเรือสมบัติเดียว</Text>		<!-- Score 3 Treasure Fleet Points from a single Treasure Fleet. -->
+			<Text>ได้ 3 คะแนน จากกองเรือสมบัติเดียว</Text>		<!-- Score 3 Treasure Fleet Points from a single Treasure Fleet. -->
 		</Replace>
 		<Replace Tag="LOC_7049B_NAME" Language="th_TH">
 			<Text>จ่ายในสิ่งที่ความรุ่งโรจน์ต้องการ</Text>		<!-- Pay what glory costs. -->
@@ -14765,7 +14765,7 @@
 			<Text>ข่าวลือได้ชี้นำให้พิซซาโรไปสู่ทรัพย์สมบัติมหาศาล เขายึดเกือบทั้งหมดของทองคำและเงิน ซึ่งทำให้ผู้ช่วยของเขาโกรธเคือง</Text>		<!-- The rumors lead Pizzaro to unimaginable spoils. He claims almost all the gold and silver, angering his lieutenants. -->
 		</Replace>
 		<Replace Tag="LOC_7051A_IMPERATIVE" Language="th_TH">
-			<Text>ทำลายรัฐอิสระหรือยึดครองถิ่นฐานในดินแดนห่างไกล</Text>		<!-- Disperse an Independent Power or Capture a Settlement in Distant Lands. -->
+			<Text>ทำลายรัฐอิสระ หรือยึดครอง ถิ่นฐาน ในดินแดนห่างไกล</Text>		<!-- Disperse an Independent Power or Capture a Settlement in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_7051B_NAME" Language="th_TH">
 			<Text>ให้ผู้ชนะได้ชิงทรัพย์สมบัติ</Text>		<!-- To the victor go the spoils. -->
@@ -14804,7 +14804,7 @@
 			<Text>ข่าวเกี่ยวกับกระแสน้ำที่รุนแรงแพร่กระจายไปอย่างรวดเร็ว แต่เรื่องเล่าและข่าวลือเกี่ยวกับการค้นหาน้ำพุแห่งความเยาว์วัย กลับกลายมาเป็นคู่แข่งเพื่อชื่อเสียงของพอนซ์ เดอ ลีออน</Text>		<!-- News of the strong ocean current travels fast, but tales and rumors about a vain search for the fountain of youth compete for Ponce de León's legacy. -->
 		</Replace>
 		<Replace Tag="LOC_7053A_IMPERATIVE" Language="th_TH">
-			<Text>สร้างท่าเรือประมงในดินแดนห่างไกล</Text>		<!-- Build a Fishing Quay in Distant Lands. -->
+			<Text>สร้าง ท่าเรือประมง ในดินแดนห่างไกล</Text>		<!-- Build a Fishing Quay in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_7053B_NAME" Language="th_TH">
 			<Text>การสูญเสียของพอนซ์ เดอ ลีออนคือกำไรของสเปน</Text>		<!-- Ponce de León's loss is Spain's profit. -->
@@ -14843,7 +14843,7 @@
 			<Text>คริสโตเฟอร์ โคลัมบัสผู้ได้รับการแต่งตั้งเป็นอัศวินใหม่ ได้รับตราอาร์มซึ่งมีภาพปราสาทหลวงและสิงโตอยู่ เขาทำภารกิจแรกสำเร็จลุล่วง แต่ทุ่งหญ้าที่สุกงอมอยู่เบื้องหน้ากลับยังดึงดูดความคิดของเขา</Text>		<!-- The newly knighted Christopher Columbus receives the coat of arms, boasting the royal castle and lion. His first journey was a success, but the ripe fields beyond the horizon continue to beckon his thoughts. -->
 		</Replace>
 		<Replace Tag="LOC_7055A_IMPERATIVE" Language="th_TH">
-			<Text>รับคะแนน 2 คะแนนสมบัติจากกองเรือสมบัติกองเดียว</Text>		<!-- Score 2 Treasure Fleet Points from a single Treasure Fleet. -->
+			<Text>ได้ 2 คะแนน จากกองเรือสมบัติเดียว</Text>		<!-- Score 2 Treasure Fleet Points from a single Treasure Fleet. -->
 		</Replace>
 		<Replace Tag="LOC_7055B_NAME" Language="th_TH">
 			<Text>จำเป็นต้องเดินหน้าต่อไปอีกครั้ง</Text>		<!-- Necessary to venture forth again. -->
@@ -14882,7 +14882,7 @@
 			<Text>คอร์เตสและเหล่าทหารของเขายืนอยู่ท่ามกลางศัตรูที่ล้มลง เขาได้สั่งให้ทำลายเรือของพวกเขา เพื่อไม่ให้มีทางเลือกอื่น นอกจากการเดินหน้าต่อไป</Text>		<!-- Cortés and his men stand among their fallen enemies. He had ordered their ships scuttled, leaving only a path forward. -->
 		</Replace>
 		<Replace Tag="LOC_7057A_IMPERATIVE" Language="th_TH">
-			<Text>เอาชนะผู้บัญชาการกองทัพในดินแดนห่างไกล</Text>		<!-- Defeat an Army Commander in Distant Lands. -->
+			<Text>เอาชนะ ผู้บัญชาการ ในดินแดนห่างไกล</Text>		<!-- Defeat an Army Commander in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_7057B_NAME" Language="th_TH">
 			<Text>เผยแพร่ข้อความของสเปนอย่างไม่ย่อท้อ</Text>		<!-- Spread Spain's message at all costs. -->
@@ -14921,7 +14921,7 @@
 			<Text>เด ซอโต้และทีมงานของเขาออกเดินทางเพื่อค้นหา หลักฐานของเมืองทองคำในตำนาน แต่กลับไม่พบสิ่ง ใดเลย อย่างไรก็ตามแผ่นดินเหล่านี้ยังคงให้ผล ผลิตบางอย่าง และไม่มีเหตุผลที่จะต้องออกเดินทาง ไปมือเปล่า</Text>		<!-- De Soto and his men set off to find evidence of a fabled city of gold, but find no such thing. But these lands still bear some fruit, and there is no point in leaving empty-handed. -->
 		</Replace>
 		<Replace Tag="LOC_7059A_IMPERATIVE" Language="th_TH">
-			<Text>มีผู้บัญชาการที่ได้รับคำชื่นชม 3 รายการ</Text>		<!-- Have a Commander with 3 Commendations. -->
+			<Text>มี ผู้บัญชาการ ที่ได้รับคำชื่นชม 3 รายการ</Text>		<!-- Have a Commander with 3 Commendations. -->
 		</Replace>
 		<Replace Tag="LOC_7059B_NAME" Language="th_TH">
 			<Text>เรียกร้องของขวัญจากชาวบ้าน</Text>		<!-- Demand gifts from the locals. -->
@@ -14960,7 +14960,7 @@
 			<Text>โรคระบาด ความอดอยาก และชนพื้นเมืองที่ไม่เป็นมิตร คุกคามฟรานซิสโก เดอ โอเรลลานาและลูกเรือของเขาอีกครั้ง แม่น้ำใหญ่เรียกร้องค่าใช้จ่ายที่สูง แต่พวกเขายังมีสิ่งที่น่าจะได้ตอบแทนอย่างมาก</Text>		<!-- Disease, starvation and hostile locals threaten Francisco de Orellana and his crew once again. The great river exacts a heavy price, but they have much to gain in return. -->
 		</Replace>
 		<Replace Tag="LOC_7061A_IMPERATIVE" Language="th_TH">
-			<Text>มีถิ่นฐานถัดจากแม่น้ำที่สามารถนำร่องได้ในดินแดนห่างไกล</Text>		<!-- Have a Settlement next to a Navigable River in Distant Lands. -->
+			<Text>มี ถิ่นฐาน ถัดจากแม่น้ำใหญ่ ในดินแดนห่างไกล</Text>		<!-- Have a Settlement next to a Navigable River in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_7061B_NAME" Language="th_TH">
 			<Text>จ่ายค่าใช้จ่าย</Text>		<!-- Pay the price. -->
@@ -14999,7 +14999,7 @@
 			<Text>โชคชะตาที่ไม่แน่นอนทำให้ คาเบซ่า เด วาก้าและลูกเรือที่เหลือรอดเพียงไม่กี่คนต้องติดอยู่ในสถานการณ์ที่ยากลำบาก และประสบกับความอดอยาก พวกเขาปลอมตัวเป็นหมอที่เดินทางเพื่อแลกกับที่พักพิงและการเดินทางอย่างปลอดภัยในแผ่นดินนี้</Text>		<!-- Fickle fortune leaves Cabeza de Vaca and his few surviving crewmembers stranded and starving. They pose as wandering healers to earn shelter and safe passage through these lands. -->
 		</Replace>
 		<Replace Tag="LOC_7063A_IMPERATIVE" Language="th_TH">
-			<Text>ตั้งถิ่นฐานข้างสิ่งมหัศจรรย์ทางธรรมชาติในดินแดนอันไกลโพ้น</Text>		<!-- Have a Settlement next to a Natural Wonder in Distant Lands. -->
+			<Text>มี ถิ่นฐาน ข้างสิ่งมหัศจรรย์ทางธรรมชาติ ในดินแดนห่างไกล</Text>		<!-- Have a Settlement next to a Natural Wonder in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_7063B_NAME" Language="th_TH">
 			<Text>เรียนรู้เกี่ยวกับประเพณีท้องถิ่น</Text>		<!-- Learn about local customs. -->
@@ -15038,7 +15038,7 @@
 			<Text>การต่อต้านของชาวบ้านแสดงให้เห็นว่าเป็นเพียงเรื่องเล็กน้อย. เลกัสปี ก้าวขึ้นมาเป็นผู้ว่าการของเขตปกครองใหม่ของสเปน, แต่ก็มีข่าวลือว่ามีกลุ่มกบฏที่ยังคงไม่สงบอยู่</Text>		<!-- The locals' resistance proves to be a trifle. Legazpi steps forward as governor of Spain's newest protectorate, but rumors insist that restless pockets of rebellion still stir. -->
 		</Replace>
 		<Replace Tag="LOC_7065A_IMPERATIVE" Language="th_TH">
-			<Text>รับคะแนนกองเรือสมบัติ 2 คะแนนจากกองเรือสมบัติเดียว</Text>		<!-- Score 2 Treasure Fleet Points from a single Treasure Fleet. -->
+			<Text>ได้ 2 คะแนน จากกองเรือสมบัติเดียว</Text>		<!-- Score 2 Treasure Fleet Points from a single Treasure Fleet. -->
 		</Replace>
 		<Replace Tag="LOC_7065B_NAME" Language="th_TH">
 			<Text>การลงโทษอันชอบธรรมสำหรับผู้ไม่เชื่อฟัง</Text>		<!-- Holy justice for the unruly. -->
@@ -15077,7 +15077,7 @@
 			<Text>ในฐานะที่เป็นเจ้าของที่ดิน อิเนส ซูอาเรซ เก็บเกี่ยวผลผลิตอย่างมั่งคั่งทั้งสำหรับตนเองและสำหรับสเปน แต่ความไม่สงบยังคงเกิดขึ้นในหมู่แรงงานพื้นเมือง ที่ต้องทำงานหนักเพื่อประโยชน์ของการถือครองที่ดินนี้</Text>		<!-- Now an encomendera, Inés Suárez reaps bountiful harvests for herself and for Spain. Still, unrest stirs among the native laborers, who break their backs for the sake of the encomienda. -->
 		</Replace>
 		<Replace Tag="LOC_7067A_IMPERATIVE" Language="th_TH">
-			<Text>มีเมืองป้อมปราการในดินแดนห่างไกล</Text>		<!-- Have a Fort Town in Distant Lands. -->
+			<Text>มี เมืองป้อมปราการ ในดินแดนห่างไกล</Text>		<!-- Have a Fort Town in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_7067B_NAME" Language="th_TH">
 			<Text>บังคับใช้วินัย</Text>		<!-- Enforce discipline. -->
@@ -15179,10 +15179,10 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_1471B_IMPERATIVE" Language="th_TH">
-			<Text>ค้นพบถิ่นฐาน 3 แห่ง -2 [icon:YIELD_HAPPINESS] ความสุข ในทุกถิ่นฐานขณะที่ภารกิจดำเนินอยู่</Text>		<!-- Found 3 Settlements. -2 [icon:YIELD_HAPPINESS] Happiness in all Settlements while quest is active. -->
+			<Text>ตั้งถิ่นฐาน 3 แห่ง, -2 [icon:YIELD_HAPPINESS] ความสุข ในทุก ถิ่นฐาน ขณะที่ภารกิจดำเนินอยู่</Text>		<!-- Found 3 Settlements. -2 [icon:YIELD_HAPPINESS] Happiness in all Settlements while quest is active. -->
 		</Replace>
 		<Replace Tag="LOC_1471B_IMPERATIVE" Language="th_TH">
-			<Text>ค้นพบถิ่นฐาน 3 แห่ง -2 [icon:YIELD_HAPPINESS] ความสุข ในทุกถิ่นฐานขณะที่ภารกิจดำเนินอยู่</Text>		<!-- Found 3 Settlements. -2 [icon:YIELD_HAPPINESS] Happiness in all Settlements while quest is active. -->
+			<Text>ตั้งถิ่นฐาน 3 แห่ง, -2 [icon:YIELD_HAPPINESS] ความสุข ในทุก ถิ่นฐาน ขณะที่ภารกิจดำเนินอยู่</Text>		<!-- Found 3 Settlements. -2 [icon:YIELD_HAPPINESS] Happiness in all Settlements while quest is active. -->
 		</Replace>
 		<Replace Tag="LOC_1471C_NAME" Language="th_TH">
 			<Text>อาจจะเป็นคำสาบานที่เร่งรีบเกินไป</Text>		<!-- Perhaps this vow was overhasty. -->
@@ -15203,7 +15203,7 @@
 			<Text>ดินแดนที่สัญญาของนูซานตาราได้ถูกอ้างสิทธิ์ และเทพเจ้าก็แสดงความเอื้อเฟื้อของพวกเขา</Text>		<!-- The promised lands of Nusantara have been claimed, and the gods show their favor. -->
 		</Replace>
 		<Replace Tag="LOC_1472A_IMPERATIVE" Language="th_TH">
-			<Text>พบถิ่นฐานอีก 3 แห่ง และ -2 [icon:YIELD_HAPPINESS] ความสุข ในทุกถิ่นฐานขณะที่ภารกิจทำงานอยู่</Text>		<!-- Found 3 more Settlements and -2 [icon:YIELD_HAPPINESS] Happiness in all Settlements while quest is active. -->
+			<Text>ตั้งถิ่นฐาน 3 แห่ง และ -2 [icon:YIELD_HAPPINESS] ความสุข ในทุก ถิ่นฐาน ขณะที่ภารกิจดำเนินอยู่</Text>		<!-- Found 3 more Settlements and -2 [icon:YIELD_HAPPINESS] Happiness in all Settlements while quest is active. -->
 		</Replace>
 		<Replace Tag="LOC_1479A_STORYTITLE" Language="th_TH">
 			<Text>โลกที่มองไม่เห็น</Text>		<!-- The Invisible World -->
