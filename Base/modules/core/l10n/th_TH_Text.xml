@@ -68,7 +68,7 @@
 			<Text>ผู้นำ</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_MP_HEADER_READY" Language="th_TH">
-			<Text>พร้อมหรือไม่?</Text>
+			<Text>พร้อมหรือยัง?</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_MP_HEADER_KICK" Language="th_TH">
 			<Text>เตะ</Text>
@@ -77,7 +77,7 @@
 			<Text>แชท</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_RULES" Language="th_TH">
-			<Text>ดูทั้งหมดกฎ</Text>
+			<Text>ดูรายละเอียด</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_MP_MEMENTO" Language="th_TH">
 			<Text>เลือกของที่ระลึก</Text>
@@ -104,7 +104,7 @@
 			<Text>ความเร็วเกม:</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_READY_BUTTON_NOT_READY" Language="th_TH">
-			<Text>พร้อมหรือไม่?</Text>
+			<Text>พร้อมหรือยัง?</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_READY_BUTTON_WAITING_FOR_OTHERS" Language="th_TH">
 			<Text>รอผู้เล่น</Text>
@@ -260,7 +260,7 @@
 			<Text>กำลังเข้าร่วมเกม</Text>
 		</Replace>
 		<Replace Tag="LOC_MP_JOINING_GAME_BODY" Language="th_TH">
-			<Text>กรุณารอ, ., </Text>
+			<Text>กรุณารอ, กำลังเข้าร่วมเกม</Text>
 		</Replace>
 		<Replace Tag="LOC_MP_MATCHMAKING_GAME_TITLE" Language="th_TH">
 			<Text>กำลังค้นหาล็อบบี้</Text>
@@ -269,7 +269,7 @@
 			<Text>ข้อผิดพลาดในการเข้าร่วม</Text>
 		</Replace>
 		<Replace Tag="LOC_MP_CREATE_GAME_WAITING_BODY" Language="th_TH">
-			<Text>กรุณารอ, ., </Text>		<!-- Please wait, .,  -->
+			<Text>กรุณารอ, กำลังสร้างเกม </Text>		<!-- Please wait, .,  -->
 		</Replace>
 		<Replace Tag="LOC_MP_CREATE_GAME_WAITING_TITLE" Language="th_TH">
 			<Text>กำลังสร้างเกม</Text>		<!-- Creating Game -->
@@ -566,7 +566,7 @@
 			<Text>สร้างเกมผู้เล่นหลายคน</Text>		<!-- Create Multiplayer Game -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_HOST_LOBBY" Language="th_TH">
-			<Text>โฮสต์ล็อบบี้</Text>		<!-- Host Lobby -->
+			<Text>สร้างล็อบบี้</Text>		<!-- Host Lobby -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_EXTRA_CONTENT" Language="th_TH">
 			<Text>เนื้อหาที่ดาวน์โหลดได้</Text>		<!-- Downloadable Content -->
@@ -578,7 +578,7 @@
 			<Text>ขั้นสูง</Text>		<!-- Advanced -->
 		</Replace>
 		<Replace Tag="LOC_GROUPID_MAPOPTIONS" Language="th_TH">
-			<Text>เฉพาะแผนที่</Text>		<!-- Map Specific -->
+			<Text>เลือกแผนที่</Text>		<!-- Map Specific -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_QUICK_JOIN_SUBTITLE" Language="th_TH">
 			<Text>กฎการเข้าร่วมด่วน</Text>		<!-- Quick Join Rules -->
@@ -611,7 +611,7 @@
 			<Text>จำนวนผู้เล่น:</Text>		<!-- Number of Players: -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_GAME_RULE_AI_PLAYER_COUNT" Language="th_TH">
-			<Text>จำนวนผู้เล่น CPU:</Text>		<!-- Number of CPU Players: -->
+			<Text>จำนวนบอท:</Text>		<!-- Number of CPU Players: -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_GAME_RULE_PRIVATE_GAME" Language="th_TH">
 			<Text>เกมส่วนตัว:</Text>		<!-- Private Game: -->
@@ -620,7 +620,7 @@
 			<Text>การโหวตเตะ:</Text>		<!-- Kick Voting: -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_GAME_RULE_TURN_TIMER" Language="th_TH">
-			<Text>ตัวจับเวลาตา:</Text>		<!-- Turn Timer: -->
+			<Text>เวลาเทิร์น:</Text>		<!-- Turn Timer: -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_GAME_RULE_TURN_TIMER_NONE" Language="th_TH">
 			<Text>ไม่มี</Text>		<!-- None -->
@@ -632,7 +632,7 @@
 			<Text>ไดนามิก</Text>		<!-- Dynamic -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_GAME_RULE_TURN_MODE" Language="th_TH">
-			<Text>โหมดตา:</Text>		<!-- Turn Mode: -->
+			<Text>เทิร์น:</Text>		<!-- Turn Mode: -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_GAME_RULE_TURN_MODE_NONE" Language="th_TH">
 			<Text>ไม่มี</Text>		<!-- None -->
@@ -824,7 +824,7 @@
 			<Text>ตัวเลือกเกม</Text>		<!-- Game Options -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_DETAILS_MAP_TYPE" Language="th_TH">
-			<Text>ประเภทแผนที่:</Text>		<!-- Map Type: -->
+			<Text>แผนที่:</Text>		<!-- Map Type: -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_DETAILS_SPEED" Language="th_TH">
 			<Text>ความเร็วเกม:</Text>		<!-- Game Speed: -->
@@ -851,13 +851,13 @@
 			<Text>เนื้อหาที่จำเป็น</Text>		<!-- Required Content -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_LOCALSAVE" Language="th_TH">
-			<Text>ท้องถิ่น</Text>		<!-- Local -->
+			<Text>บันทึก</Text>		<!-- Local -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_SAVES" Language="th_TH">
-			<Text>การบันทึก</Text>		<!-- Saves -->
+			<Text>บันทึก</Text>		<!-- Saves -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_CROSSPLAYSAVES" Language="th_TH">
-			<Text>การเล่นข้ามแพลตฟอร์ม</Text>		<!-- Crossplay -->
+			<Text>เล่นข้ามแพลตฟอร์ม</Text>		<!-- Crossplay -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_AGETRANSITIONSAVES" Language="th_TH">
 			<Text>การเปลี่ยนยุค</Text>		<!-- Age Transitions -->
@@ -1211,7 +1211,7 @@
 			<Text>ส่งแชททั่วโลก</Text>		<!-- Send a global chat. -->
 		</Replace>
 		<Replace Tag="LOC_UI_CHAT_GAMEPAD_INPUT_DESC_GLOBAL" Language="th_TH">
-			<Text>เขียนถึงทั่วโลก</Text>		<!-- Write to GLOBAL -->
+			<Text>เขียนข้อความ</Text>		<!-- Write to GLOBAL -->
 		</Replace>
 		<Replace Tag="LOC_UI_CHAT_COMMAND_DESC_PRIVATE" Language="th_TH">
 			<Text>ส่งข้อความส่วนตัวถึง {1_Name}</Text>		<!-- Send a private message to {1_Name}. -->
@@ -3068,7 +3068,7 @@
 			<Text>ระดับเสียงหลัก</Text>		<!-- Master Volume -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_AUDIO_VOLUME_MASTER_DESCRIPTION" Language="th_TH">
-			<Text>ควบคุมระดับเสียงสำหรับทุกเสียงในเกม ค่าระดับเสียงอื่น ๆ จะสัมพันธ์กับระดับเสียงหลัก</Text>		<!-- Volume control for all sounds in the game. All other volume values are relative to master volume. -->
+			<Text>ควบคุมระดับเสียงสำหรับทุกเสียงในเกม ค่าระดับเสียงอื่นๆ จะสัมพันธ์กับระดับเสียงหลัก</Text>		<!-- Volume control for all sounds in the game. All other volume values are relative to master volume. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_AUDIO_VOLUME_MUSIC" Language="th_TH">
 			<Text>ระดับเสียงเพลง</Text>		<!-- Music Volume -->
@@ -3257,10 +3257,10 @@
 			<Text>จำนวนการเซฟอัตโนมัติที่จะเก็บไว้สำหรับเกมปัจจุบัน</Text>		<!-- The number of autosaves which are retained for the current game. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_PROMOTIONS" Language="th_TH">
-			<Text>แสดงเนื้อหาโปรโมชั่น</Text>		<!-- Show Promotional Content -->
+			<Text>แสดงเนื้อหาเลื่อนขั้น</Text>		<!-- Show Promotional Content -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_PROMOTIONS_DESCRIPTION" Language="th_TH">
-			<Text>แสดงเนื้อหาโปรโมชั่นจากทีม Civilization</Text>		<!-- Shows promotional content from the Civilization team. -->
+			<Text>แสดงเนื้อหาเลื่อนขั้นจากทีม Civilization</Text>		<!-- Shows promotional content from the Civilization team. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_GPU_SELECTION" Language="th_TH">
 			<Text>GPU ที่ใช้งาน</Text>		<!-- GPU Selection -->
@@ -4121,7 +4121,7 @@
 			<Text>ข้ามไปที่ประเภทการเรียงลำดับ</Text>		<!-- Jump to Sort Type -->
 		</Replace>
 		<Replace Tag="LOC_PROFILE_CHALLENGE_CLASS_FOUNDATION" Language="th_TH">
-			<Text>รากฐาน</Text>		<!-- Foundation -->
+			<Text>ความสำเร็จ</Text>		<!-- Foundation -->
 		</Replace>
 		<Replace Tag="LOC_PROFILE_CHALLENGE_CLASS_LEADER" Language="th_TH">
 			<Text>ผู้นำ</Text>		<!-- Leader -->
