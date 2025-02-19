@@ -17175,7 +17175,7 @@
 			<Text>แมนดาริน</Text>		<!-- Mandarin -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_MANDARIN_DESCRIPTION" Language="th_TH">
-			<Text>พ่อค้าเอกลักษณ์ หมิง: พลเมืองที่สามารถสร้า งเส้นทางการค้า เพื่อการนำเข้าทรัพยากรจาก ถิ่นฐาน ต่างประเทศ +100 [icon:YIELD_GOLD] ทอง เมื่อใช้การกระทำการสร้างถนน</Text>		<!-- Ming Unique Merchant. Civilian who can establish a Trade Route to import Resources from a foreign Settlement. +100[icon:YIELD_GOLD] Gold when using the Create a Road Action. -->
+			<Text>พ่อค้าพิเศษ ของหมิง: พลเมืองที่สามารถสร้าง เส้นทางการค้า เพื่อการนำเข้าทรัพยากรจาก ถิ่นฐาน ต่างประเทศ +100 [icon:YIELD_GOLD] ทอง เมื่อใช้การกระทำการสร้างถนน</Text>		<!-- Ming Unique Merchant. Civilian who can establish a Trade Route to import Resources from a foreign Settlement. +100[icon:YIELD_GOLD] Gold when using the Create a Road Action. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_MANDARIN_DESCRIPTION" Language="th_TH">
 			<Text>+100[icon:YIELD_GOLD] ทองเมื่อใช้การกระทำ "สร้างถนน"</Text>		<!-- +100[icon:YIELD_GOLD] Gold when using the Create a Road Action. -->
@@ -17289,19 +17289,16 @@
 			<Text>ทาจิโระ</Text>		<!-- Tajiro -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_TAJIRO_DESCRIPTION" Language="th_TH">
-			<Text>พ่อค้าเอกลักษณ์แห่งซองไฮ พลเรือนที่สามารถสร้างเส้นทางการค้าเพื่อนำเข้าทรัพยากรจากการตั้งถิ่นฐานต่างชาติ เมื่อคุณสร้างเส้นทางการค้าจะได้รับ 100 [icon:YIELD_GOLD] ทอง ถ้านี่เป็นเส้นทางการค้าที่มีแม่น้ำซึ่งสามารถเดินทางได้อย่างน้อย 1 แห่ง</Text>		<!-- Songhai Unique Merchant. Civilian who can establish a Trade Route to import Resources from a foreign Settlement. When you create a Trade Route receive 100[icon:YIELD_GOLD] Gold if this is a Trade Route with at least 1 Navigable River. -->
-		</Replace>
-		<Replace Tag="LOC_UNIT_TAJIRO_DESCRIPTION" Language="th_TH">
-			<Text>พ่อค้าเอกลักษณ์แห่งซองไฮ พลเรือนที่สามารถสร้างเส้นทางการค้าเพื่อนำเข้าทรัพยากรจากการตั้งถิ่นฐานต่างชาติ เมื่อคุณสร้างเส้นทางการค้าจะได้รับ 100 [icon:YIELD_GOLD] ทอง ถ้านี่เป็นเส้นทางการค้าที่มีแม่น้ำซึ่งสามารถเดินทางได้อย่างน้อย 1 แห่ง</Text>		<!-- Songhai Unique Merchant. Civilian who can establish a Trade Route to import Resources from a foreign Settlement. When you create a Trade Route receive 100[icon:YIELD_GOLD] Gold if this is a Trade Route with at least 1 Navigable River. -->
+			<Text>พ่อค้าพิเศษ ของซองไฮ, พลเรือนที่สามารถสร้าง เส้นทางการค้า เพื่อนำเข้า ทรัพยากร จากการตั้งถิ่นฐานต่างชาติ, เมื่อคุณสร้าง เส้นทางการค้า จะได้รับ 100 [icon:YIELD_GOLD] ทอง หากนี่เป็น เส้นทางการค้า ที่มีแม่น้ำใหญ่อย่างน้อย 1 ช่อง</Text>		<!-- Songhai Unique Merchant. Civilian who can establish a Trade Route to import Resources from a foreign Settlement. When you create a Trade Route receive 100[icon:YIELD_GOLD] Gold if this is a Trade Route with at least 1 Navigable River. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TAJIRO_DESCRIPTION" Language="th_TH">
-			<Text>เมื่อคุณสร้างเส้นทางการค้า รับทองคำ 100 [icon:YIELD_GOLD] หากเส้นทางการค้านี้มีแม่น้ำใหญ่อย่างน้อย 1 สาย</Text>		<!-- When you create a Trade Route receive 100[icon:YIELD_GOLD] Gold if this is a Trade Route with at least 1 Navigable River. -->
+			<Text>เมื่อคุณสร้างเส้นทางการค้า รับทองคำ 100 [icon:YIELD_GOLD] หากนี่เป็น เส้นทางการค้า ที่มีแม่น้ำใหญ่อย่างน้อย 1 ช่อง</Text>		<!-- When you create a Trade Route receive 100[icon:YIELD_GOLD] Gold if this is a Trade Route with at least 1 Navigable River. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TAJIRO_BONUS_DESCRIPTION" Language="th_TH">
-			<Text>เมื่อคุณสร้างเส้นทางการค้า รับทองคำเพิ่มอีก 100[icon:YIELD_GOLD] หากเป็นเส้นทางการค้าที่มีแม่น้ำใหญ่อย่างน้อย 1 สาย</Text>		<!-- When you create a Trade Route receive an additional 100[icon:YIELD_GOLD] Gold if this is a Trade Route with at least 1 Navigable River. -->
+			<Text>เมื่อคุณสร้าง เส้นทางการค้า รับเพิ่ม 100[icon:YIELD_GOLD] ทอง หากนี่เป็น เส้นทางการค้า ที่มีแม่น้ำใหญ่อย่างน้อย 1 ช่อง</Text>		<!-- When you create a Trade Route receive an additional 100[icon:YIELD_GOLD] Gold if this is a Trade Route with at least 1 Navigable River. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SONGHAI_TRADE_PROTECTION_DESCRIPTION" Language="th_TH">
-			<Text>เมื่อคุณสร้างเส้นทางการค้า รับเพิ่ม 100[icon:YIELD_GOLD] ทอง หากเป็นเส้นทางการค้าที่มีแม่น้ำที่สามารถนำร่องได้อย่างน้อย 1 แห่ง</Text>		<!-- When you create a Trade Route receive an additional 100[icon:YIELD_GOLD] Gold if this is a Trade Route with at least 1 Navigable River. -->
+			<Text>เมื่อคุณสร้าง เส้นทางการค้า รับเพิ่ม 100[icon:YIELD_GOLD] ทอง หากนี่เป็น เส้นทางการค้า ที่มีแม่น้ำใหญ่อย่างน้อย 1 ช่อง</Text>		<!-- When you create a Trade Route receive an additional 100[icon:YIELD_GOLD] Gold if this is a Trade Route with at least 1 Navigable River. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_TERCIO_NAME" Language="th_TH">
 			<Text>เทอร์ซิโอ</Text>		<!-- Tercio -->
