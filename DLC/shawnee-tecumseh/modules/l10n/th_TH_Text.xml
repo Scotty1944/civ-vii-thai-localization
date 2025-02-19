@@ -359,10 +359,10 @@
 			<Text>+2 [icon:YIELD_DIPLOMACY] อิทธิพลต่อเทิร์น</Text>		<!-- +2 [icon:YIELD_DIPLOMACY] Influence Per turn. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_KISPOKO_NENA_TO_SUPPORT_DESCRIPTION" Language="th_TH">
-			<Text>Kispoko Nena'to จะได้รับพลังต่อสู้ +1 ต่อการสนับสนุนสงครามเชิงบวก</Text>		<!-- The Kispoko Nena'to receives +1 Combat Strength per Positive War Support. -->
+			<Text>คิปโปโก เนนาโต้ จะได้รับ +1 พลังต่อสู้ ต่อแต้ม การสนับสนุนสงคราม ที่เป็นบวก</Text>		<!-- The Kispoko Nena'to receives +1 Combat Strength per Positive War Support. -->
 		</Replace>
 		<Replace Tag="LOC_KISPOKO_NENA_TO_SUPPORT_COMBAT_DESCRIPTION" Language="th_TH">
-			<Text>+{1_Value} พลังต่อสู้จากการสนับสนุนสงครามในทางบวก (Telwatiki Civic)</Text>		<!-- +{1_Value} Combat Strength from Positive War Support. (Telwatiki Civic) -->
+			<Text>+{1_Value} พลังต่อสู้ ต่อแต้ม การสนับสนุนสงคราม ที่เป็นบวก (แนวคิดเทลวาติกิ)</Text>		<!-- +{1_Value} Combat Strength from Positive War Support. (Telwatiki Civic) -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_BREAD_DANCE_NAME" Language="th_TH">
 			<Text>การเต้นรำขนมปัง</Text>		<!-- Bread Dance -->
@@ -1149,7 +1149,7 @@
 			<Text>ส่งเข็มขัดวัมปัมสีดำ</Text>		<!-- Send a black wampum belt. -->
 		</Replace>
 		<Replace Tag="LOC_3727B_DESCRIPTION" Language="th_TH">
-			<Text>การดำเนินการทางทหาร Bolster [require] {less} อิทธิพล</Text>		<!-- Bolster Military actions require less Influence. -->
+			<Text>เสริมพลังกองทัพ ต้องใช้อิทธิพลน้อยลง</Text>		<!-- Bolster Military actions require less Influence. -->
 		</Replace>
 		<Replace Tag="LOC_3727C_NAME" Language="th_TH">
 			<Text>ส่งเข็มขัดวัมปัมสีขาว</Text>		<!-- Send a white wampum belt. -->
@@ -1185,13 +1185,13 @@
 			<Text>การโจมตีอย่างรวดเร็วจะสยบศัตรู</Text>		<!-- A quick strike will quash the foe. -->
 		</Replace>
 		<Replace Tag="LOC_3729B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} on Kispoko Nena’to</Text>		<!-- {1_reward} on Kispoko Nena’to. -->
+			<Text>{1_reward} บน คิปโปโก เนนาโต้</Text>		<!-- {1_reward} on Kispoko Nena’to. -->
 		</Replace>
 		<Replace Tag="LOC_3729C_NAME" Language="th_TH">
 			<Text>การตีที่รุนแรงยากที่จะป้องกัน</Text>		<!-- A hard blow is difficult to block. -->
 		</Replace>
 		<Replace Tag="LOC_3729C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} บน Kispoko Nena’to</Text>		<!-- {1_reward} on Kispoko Nena’to. -->
+			<Text>{1_reward} บน คิปโปโก เนนาโต้</Text>		<!-- {1_reward} on Kispoko Nena’to. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1200A_STORYTITLE" Language="th_TH">
 			<Text>ประตูเปิดแล้ว</Text>		<!-- The Door Opens -->
@@ -1344,7 +1344,7 @@
 			<Text>การขยายตัวเพียงพอแล้ว</Text>		<!-- There has been enough expansion. -->
 		</Replace>
 		<Replace Tag="LOC_3725C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}, แต่ลดความสัมพันธ์ของ Independent Power ทั้งหมดลง 2</Text>		<!-- {1_reward}, but lower all Independent Power relationships by 2. -->
+			<Text>{1_reward}, แต่ลดความสัมพันธ์ของ รัฐอิสระ ทั้งหมดลง 2</Text>		<!-- {1_reward}, but lower all Independent Power relationships by 2. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1208A_STORYTITLE" Language="th_TH">
 			<Text>รวมกันเป็นหนึ่ง</Text>		<!-- Together as One -->
@@ -1488,7 +1488,7 @@
 			<Text>รักษาอำนาจของผู้อาวุโสไว้</Text>		<!-- Preserve the elders’ authority. -->
 		</Replace>
 		<Replace Tag="LOC_1497B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} ในเมืองสำหรับแต่ละ Shawnee Tradition ที่ถูกจัดสรร</Text>		<!-- {1_reward} in Cities for each Slotted Shawnee Tradition. -->
+			<Text>{1_reward} ในเมืองสำหรับแต่ละ ประเพณีของ ชอว์นี ที่ถูกใส่</Text>		<!-- {1_reward} in Cities for each Slotted Shawnee Tradition. -->
 		</Replace>
 		<Replace Tag="LOC_1497C_NAME" Language="th_TH">
 			<Text>ชอว์นีใหม่เลือกใช้รูปแบบการปกครองที่ใหม่ขึ้น</Text>		<!-- The new Shawnee take up new forms of governance. -->
@@ -1542,13 +1542,13 @@
 			<Text>รับฟังคำปรึกษาของผู้อาวุโส</Text>		<!-- Take the counsel of the elders. -->
 		</Replace>
 		<Replace Tag="LOC_1500B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} but {2_reward}</Text>		<!-- {1_reward} but {2_reward}. -->
+			<Text>{1_reward} แต่ {2_reward}</Text>		<!-- {1_reward} but {2_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_1500C_NAME" Language="th_TH">
 			<Text>ปฏิเสธคำปรึกษาของผู้อาวุโส</Text>		<!-- Deny the counsel of the elders. -->
 		</Replace>
 		<Replace Tag="LOC_1500C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} but {2_reward}</Text>		<!-- {1_reward} but {2_reward}. -->
+			<Text>{1_reward} แต่ {2_reward}</Text>		<!-- {1_reward} but {2_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_1501A_STORYTITLE" Language="th_TH">
 			<Text>ตำนานชาติ</Text>		<!-- National Myths -->
@@ -1696,7 +1696,7 @@
 			<Text>[B]ชอว์นี[/B] เป็นเพื่อนกับหลายประเทศเล็กๆ</Text>		<!-- The [B]Shawnee[/B] were friends with many smaller nations. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_CITY_STATES_NARRATIVE" Language="th_TH">
-			<Text>อำนาจในดินแดน {1_Civilization_Adj} ไม่ได้มาจากเพียงแค่พระราชวัง แต่ยังมาจากเครือข่ายพันธมิตรทางการทูตที่เชื่อมโยงกัน ที่ซึ่งคำสอนของศาสดา Tenskwatawa ได้เริ่มแพร่หลายไปในหมู่ผู้ที่เคลื่อนไหวระหว่างนครรัฐ และเมืองของ {1_Civilization_Adj}; บทเรียนแห่งความสามัคคีท่ามกลางการเปลี่ยนแปลง</Text>		<!-- Power in {1_Civilization_Adj} lands emerges not only from the palace, but from the network of diplomatic alliances that converge there. The teachings of the prophet Tenskwatawa have begun to circulate among some that move between the city-states and {1_Civilization_Adj} cities; a lesson of unity in the face of change. -->
+			<Text>อำนาจในดินแดน {1_Civilization_Adj} ไม่ได้มาจากเพียงแค่พระราชวัง แต่ยังมาจากเครือข่ายพันธมิตรทางการทูตที่เชื่อมโยงกัน ที่ซึ่งคำสอนของศาสดา เทนสควาทาวา ได้เริ่มแพร่หลายไปในหมู่ผู้ที่เคลื่อนไหวระหว่างนครรัฐ และเมืองของ {1_Civilization_Adj}; บทเรียนแห่งความสามัคคีท่ามกลางการเปลี่ยนแปลง</Text>		<!-- Power in {1_Civilization_Adj} lands emerges not only from the palace, but from the network of diplomatic alliances that converge there. The teachings of the prophet Tenskwatawa have begun to circulate among some that move between the city-states and {1_Civilization_Adj} cities; a lesson of unity in the face of change. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_CITY_STATES_UNLOCK" Language="th_TH">
 			<Text>คุณได้ปลดล็อกชอว์นีโดยการเป็นเจ้านครของ 2 นครรัฐ </Text>		<!-- You have unlocked Shawnee by becoming the Suzerain of 2 City-States. -->
