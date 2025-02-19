@@ -59,7 +59,7 @@
 			<Text>ปลดล็อกตำนาน +25% ความสัมพันธ์จากการเริ่มต้นหรือสนับสนุน ความร่วมมือ -25% ความสัมพันธ์จากการเริ่มต้น คว่ำบาตร หรือปฏิเสธ ความร่วมมือ</Text>		<!-- Legend Unlock. +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_ASHOKA_ALT_L2_DESCRIPTION" Language="th_TH">
-			<Text>เปิดตำนาน +5 พลังต่อสู้สำหรับยูนิตทั้งหมดเมื่อเผชิญกับ Districts</Text>		<!-- Legend Unlock. +5 Combat Strength for all Units against Districts. -->
+			<Text>ตำนานปลดล็อก +5 พลังต่อสู้สำหรับยูนิตทั้งหมด เมื่อสู้ พื้นที่เขต</Text>		<!-- Legend Unlock. +5 Combat Strength for all Units against Districts. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ASHOKA_ALT_TITLE" Language="th_TH">
 			<Text>{LOC_LEADER_ASHOKA_ALT_NAME}</Text>		<!-- {LOC_LEADER_ASHOKA_ALT_NAME} -->
@@ -146,7 +146,7 @@
 			<Text>ทางที่ถูกต้อง</Text>		<!-- The righteous path. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_DEAL_REJECTED_LEADER_ASHOKA_ALT" Language="th_TH">
-			<Text>นี่คือ "adharma" ซึ่งเป็นความผิดพลาด</Text>		<!-- This is "adharma", an error. -->
+			<Text>นี่คือ "อธรรมา" ซึ่งเป็นความผิดพลาด</Text>		<!-- This is "adharma", an error. -->
 		</Replace>
 		<Replace Tag="LOC_MAIN_CHAR_SELECT_LEADER_HIMIKO_ALT_ANY" Language="th_TH">
 			<Text>ดวงอาทิตย์ส่องสว่างเหนือฉัน ลูกสาวของเธอ สำหรับศัตรูของฉัน มันจะเผาไหม้</Text>		<!-- The sun shines upon me, her daughter. Upon my enemies, it will burn. -->
@@ -206,28 +206,28 @@
 			<Text>[LIST][LI][B]+2 [icon:YIELD_HAPPINESS] ความสุข [/B]ต่ออายุใน [B]อาคารความสุข[/B].[LI][B]+50% [icon:YIELD_PRODUCTION] การผลิต [/B]เพื่อการก่อสร้าง [B]อาคารความสุข[/B].[LI][B]+20% [icon:YIELD_CULTURE] วัฒนธรรม [/B]แต่ [B]-10% [icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] และผลกระทบเหล่านี้จะถูก [B]เพิ่มเป็นสองเท่า [/B]ในขณะที่อยู่ใน [B]การเฉลิมฉลอง[/B].[/LIST]</Text>		<!-- [LIST][LI][B]+2 [icon:YIELD_HAPPINESS] Happiness [/B]per Age on [B]Happiness Buildings[/B].[LI][B]+50% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Happiness Buildings[/B].[LI][B]+20% [icon:YIELD_CULTURE] Culture [/B]but [B]-10% [icon:YIELD_SCIENCE] Science[/B], and these effects are [B]doubled [/B]while in a [B]Celebration[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_ASHOKA_ALT" Language="th_TH">
-			<Text>มีการพูดถึงว่าอโศกมหาราชจักรวรรดิที่กระหายเลือดของมหาราชาเมาริยะ ได้กลายเป็นจักรพรรดิที่มีอำนาจในการหมุนเวียนหรือ "wheel-turning monarch" ซึ่งมีบทบาทในการเผยแพร่พุทธศาสนาทั่วอินเดีย แต่ถ้าเขาไม่ได้ประสบกับการเปิดเผยที่ลึกซึ้งเมื่อได้เห็นการสังหารเลือดเย็นของทหารของตัวเองต่อชาวกาลินกะเมื่อประมาณ 260 ปีก่อนคริสต์ศักราช การเปลี่ยนแปลงนั้นอาจจะไม่เคยเกิดขึ้น มรดกของเขาในวันนี้อาจเป็นเรื่องของการพิชิตและการทำลาย มากกว่าการยอมรับและไม่ใช้ความรุนแรง</Text>		<!-- Much is made of how Ashoka the Great, the bloodthirsty emperor of the Maurya, became a chakravartin, a “wheel-turning monarch,” for his role in spreading Buddhism across India. But if he had not experienced a profound revelation upon witnessing his own troops’ bloody slaughter of the Kalinga around 260 BCE, that transformation might never have taken place. His legacy today may be one of conquest and destruction, rather than one of tolerance and non-violence. -->
+			<Text>มีการพูดถึงว่าอโศกมหาราชจักรวรรดิที่กระหายเลือดของมหาราชาเมาริยะ ได้กลายเป็นจักรพรรดิที่มีอำนาจในการหมุนเวียนหรือ "ราชาแห่งกงล้อ" ซึ่งมีบทบาทในการเผยแพร่พุทธศาสนาทั่วอินเดีย แต่ถ้าเขาไม่ได้ประสบกับการเปิดเผยที่ลึกซึ้งเมื่อได้เห็นการสังหารเลือดเย็นของทหารของตัวเองต่อชาวกาลินกะเมื่อประมาณ 260 ปีก่อนคริสต์ศักราช การเปลี่ยนแปลงนั้นอาจจะไม่เคยเกิดขึ้น มรดกของเขาในวันนี้อาจเป็นเรื่องของการพิชิตและการทำลาย มากกว่าการยอมรับและไม่ใช้ความรุนแรง</Text>		<!-- Much is made of how Ashoka the Great, the bloodthirsty emperor of the Maurya, became a chakravartin, a “wheel-turning monarch,” for his role in spreading Buddhism across India. But if he had not experienced a profound revelation upon witnessing his own troops’ bloody slaughter of the Kalinga around 260 BCE, that transformation might never have taken place. His legacy today may be one of conquest and destruction, rather than one of tolerance and non-violence. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_HIMIKO_ALT" Language="th_TH">
 			<Text>ราชินีมิโกะแห่งยามาไต, ฮิมิโกะ ปรากฏตัวขึ้นในรุ่งอรุณของประวัติศาสตร์ญี่ปุ่น ชื่อของเธอหมายถึง “บุตรแห่งดวงอาทิตย์” ซึ่งเชื่อมโยงฮิมิโกะกับเทพีแห่งดวงอาทิตย์ อามาเทราสุ ซึ่งเธออาจใช้พลังของเทพีเพื่อรวมเผ่าศึกสงครามของญี่ปุ่น เรื่องราวเชื่อมโยงแบบมิโกะนี้ปรากฏในเรื่องอื่นๆ เช่น การแต่งงานของฮิมิโกะกับสิ่งมีชีวิตฝ่ายวิญญาณที่รูปร่างแท้จริงคือ งูสีขาว ไม่ว่าจะเป็นความจริงเบื้องหลังตำนานของฮิมิโกะอย่างไร เธอได้สร้างความเชื่อมโยงระหว่างเทพเจ้าชินโตและจักรวรรดิญี่ปุ่นที่ดำเนินต่อไปกว่า هزار ปีหลังจากนั้น</Text>		<!-- The shaman-queen of Yamatai, Himiko emerges at the dawn of Japanese history. Her name, literally “daughter of the sun,” links Himiko to the sun goddess Amaterasu, whose power she may have harnessed in order to unite the warring tribes of Japan. This shamanic connection is present in other stories, such as Himiko’s marriage to a divine being whose true form is that of a white snake.Whatever the truth behind Himiko’s legend, she established the link between the Shinto gods and the Empire of Japan that continued for over a thousand years afterwards. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ASHOKA_CONQUEROR_CHANDA_MAHASENA_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อกที่ Ashoka World-Conqueror ระดับ 2</Text>		<!-- Unlock at Ashoka World-Conqueror level 2 -->
+			<Text>ปลดล็อกที่ อโศกมหาราช, ผู้พิชิตโลก ระดับ 2</Text>		<!-- Unlock at Ashoka World-Conqueror level 2 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ASHOKA_CONQUEROR_SILK_UTTARIYA_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อกที่ Ashoka World-Conqueror ระดับ 5</Text>		<!-- Unlock at Ashoka World-Conqueror level 5 -->
+			<Text>ปลดล็อกที่ อโศกมหาราช, ผู้พิชิตโลก ระดับ 5</Text>		<!-- Unlock at Ashoka World-Conqueror level 5 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ASHOKA_CONQUEROR_LION_CAPITAL_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อกที่ระดับ 9 ของ Ashoka World-Conqueror</Text>		<!-- Unlock at Ashoka World-Conqueror level 9 -->
+			<Text>ปลดล็อกที่ อโศกมหาราช, ผู้พิชิตโลก ระดับ 9</Text>		<!-- Unlock at Ashoka World-Conqueror level 9 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ASHOKA_CONQUEROR_CHANDA_MAHASENA_NAME" Language="th_TH">
-			<Text>จันดามหาสีṇa</Text>		<!-- Chanda-mahasena -->
+			<Text>จันดามหาเซนา</Text>		<!-- Chanda-mahasena -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ASHOKA_CONQUEROR_CHANDA_MAHASENA_DESCRIPTION" Language="th_TH">
 			<Text>การสร้างสรรค์อันศักดิ์สิทธิ์ของวิศวกรรมศาสตร์</Text>		<!-- Vishwakarma's divine creation. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ASHOKA_CONQUEROR_CHANDA_MAHASENA_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+5 Combat Strength against Fortified Districts for all Units during a Celebration</Text>		<!-- +5 Combat Strength against Fortified Districts for all Units during a Celebration. -->
+			<Text>+5 พลังต่อสู้ ต่อเขตป้อมปราการ สำหรับยูนิตทุกตัว ในระหว่างการเฉลิมฉลอง.</Text>		<!-- +5 Combat Strength against Fortified Districts for all Units during a Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ASHOKA_CONQUEROR_CHANDA_MAHASENA_COMBAT_PREVIEW" Language="th_TH">
 			<Text>+{1_Amount} ชานดามหาสเน่ห์ เมมโท่</Text>		<!-- +{1_Amount} Chanda-mahasena Memento -->
@@ -290,19 +290,19 @@
 			<Text>สันติภาพแห่งจักรวรรดิ</Text>		<!-- Pax Imperatoria -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_MILITARY_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ อโศก จอมจักรพรรดิผู้พิชิตโลก ให้ทำเสร็จเส้นทางมรดก Pax Imperatoria</Text>		<!-- As Ashoka World-Conqueror, complete the Pax Imperatoria Legacy Path. -->
+			<Text>ในฐานะ อโศกมหาราช ผู้พิชิตโลก ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ</Text>		<!-- As Ashoka World-Conqueror, complete the Pax Imperatoria Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_MILITARY_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สันติภาพแห่งจักรวรรดิ 2</Text>		<!-- Pax Imperatoria 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_MILITARY_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>ในฐานะ อโศก จอมจักรพรรดิผู้พิชิตโลก ให้ทำเส้นทางมรดก Pax Imperatoria ครบสองครั้ง</Text>		<!-- As Ashoka World-Conqueror, complete the Pax Imperatoria Legacy Path twice. -->
+			<Text>ในฐานะ อโศกมหาราช ผู้พิชิตโลก ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ ครบสองครั้ง</Text>		<!-- As Ashoka World-Conqueror, complete the Pax Imperatoria Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_MILITARY_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
 			<Text>สันติภาพแห่งจักรวรรดิ 3</Text>		<!-- Pax Imperatoria 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_MILITARY_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
-			<Text>ในฐานะ อโศก จอมจักรพรรดิผู้พิชิตโลก ทำเสร็จเส้นทางมรดก Pax Imperatoria สามครั้ง</Text>		<!-- As Ashoka World-Conqueror, complete the Pax Imperatoria Legacy Path thrice. -->
+			<Text>ในฐานะ อโศกมหาราช ผู้พิชิตโลก ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ สามครั้ง</Text>		<!-- As Ashoka World-Conqueror, complete the Pax Imperatoria Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_ECONOMIC_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>เส้นทางสายไหม</Text>		<!-- Silk Roads -->
@@ -332,13 +332,13 @@
 			<Text>โลกนี้คับแคบเกินไปแล้ว 2</Text>		<!-- Non Sufficit Orbis 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_MILITARY_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>ในฐานะ อโศก จอมจักรพรรดิผู้พิชิตโลก ให้ดำเนินการเส้นทางมรดก Non Sufficit Orbis สองครั้ง</Text>		<!-- As Ashoka World-Conqueror, complete the Non Sufficit Orbis Legacy Path twice. -->
+			<Text>ในฐานะ อโศกมหาราช ผู้พิชิตโลก ให้ทำเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว สองครั้ง</Text>		<!-- As Ashoka World-Conqueror, complete the Non Sufficit Orbis Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_MILITARY_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
 			<Text>โลกนี้คับแคบเกินไปแล้ว 3</Text>		<!-- Non Sufficit Orbis 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_MILITARY_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>ในฐานะ อโศก จอมจักรพรรดิผู้พิชิตโลก ให้ทำเสร็จเส้นทางมรดก Non Sufficit Orbis สามครั้ง</Text>		<!-- As Ashoka World-Conqueror, complete the Non Sufficit Orbis Legacy Path thrice. -->
+			<Text>ในฐานะ อโศกมหาราช ผู้พิชิตโลก ให้ทำเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว สามครั้ง</Text>		<!-- As Ashoka World-Conqueror, complete the Non Sufficit Orbis Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_ECONOMIC_VICTORY_EXPLORATION_NAME" Language="th_TH">
 			<Text>กองเรือบรรทุกสมบัติ</Text>		<!-- Treasure Fleet -->
@@ -380,19 +380,19 @@
 			<Text>เจ้าพ่อรถไฟ</Text>		<!-- Railroad Tycoon -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_ECONOMIC_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ อโศก จอมจักรพรรดิผู้พิชิตโลก ให้ทำเสร็จเส้นทาง Railroad Tycoon Legacy</Text>		<!-- As Ashoka World-Conqueror, complete the Railroad Tycoon Legacy Path. -->
+			<Text>ในฐานะ อโศกมหาราช ผู้พิชิตโลก ให้ทำเส้นทางมรดก เจ้าพ่อรถไฟ</Text>		<!-- As Ashoka World-Conqueror, complete the Railroad Tycoon Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_ECONOMIC_VICTORY_MODERN_2_NAME" Language="th_TH">
 			<Text>เจ้าพ่อรถไฟ 2</Text>		<!-- Railroad Tycoon 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_ECONOMIC_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ อโศก จอมจักรพรรดิผู้พิชิตโลก ให้ทำเส้นทาง Railroad Tycoon Legacy ให้ครบสองครั้ง</Text>		<!-- As Ashoka World-Conqueror, complete the Railroad Tycoon Legacy Path twice. -->
+			<Text>ในฐานะ อโศกมหาราช ผู้พิชิตโลก ให้ทำเส้นทางมรดก เจ้าพ่อรถไฟ ให้ครบสองครั้ง</Text>		<!-- As Ashoka World-Conqueror, complete the Railroad Tycoon Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_ECONOMIC_VICTORY_MODERN_3_NAME" Language="th_TH">
 			<Text>เจ้าพ่อรถไฟ 3</Text>		<!-- Railroad Tycoon 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_ECONOMIC_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ อโศก จอมจักรพรรดิผู้พิชิตโลก ให้สำเร็จเส้นทาง Railroad Tycoon Legacy สามครั้ง</Text>		<!-- As Ashoka World-Conqueror, complete the Railroad Tycoon Legacy Path thrice. -->
+			<Text>ในฐานะ อโศกมหาราช ผู้พิชิตโลก ให้ทำเส้นทางมรดก เจ้าพ่อรถไฟ สามครั้ง</Text>		<!-- As Ashoka World-Conqueror, complete the Railroad Tycoon Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_AGE_COMPLETED_ANTIQUITY_NAME" Language="th_TH">
 			<Text>จบยุคโบราณ</Text>		<!-- Antiquity Complete -->
@@ -494,7 +494,7 @@
 			<Text>การตื่นรู้ 2</Text>		<!-- Enlightment 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_SCIENCE_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>ในฐานะ อโศก ผู้พิชิตโลก ให้สำเร็จเส้นทาง Enlightenment Legacy สองครั้ง</Text>		<!-- As Ashoka World-Conqueror, complete the Enlightenment Legacy Path twice. -->
+			<Text>ในฐานะ อโศกมหาราช ผู้พิชิตโลก ให้ทำเส้นทางมรดก การตรัสรู้ สองครั้ง</Text>		<!-- As Ashoka World-Conqueror, complete the Enlightenment Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_SCIENCE_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
 			<Text>การส่องสว่าง 3</Text>		<!-- Enlightment 3 -->
@@ -554,7 +554,7 @@
 			<Text>โทชาคานา 3</Text>		<!-- Toshakhana 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_CULTURE_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>ในฐานะ อโศก World-Conqueror ทำเสร็จเส้นทางมรดก โทชาคานา สามครั้ง</Text>		<!-- As Ashoka World-Conqueror, complete the Toshakhana Legacy Path thrice. -->
+			<Text>ในฐานะ อโศกมหาราช ผู้พิชิตโลก ให้ทำเส้นทางมรดก โทชาคานา สามครั้ง</Text>		<!-- As Ashoka World-Conqueror, complete the Toshakhana Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_CULTURE_VICTORY_MODERN_NAME" Language="th_TH">
 			<Text>สังคมภูมิศาสตร์</Text>		<!-- Geographic Society -->
@@ -569,7 +569,7 @@
 			<Text>ในฐานะ อโศก ผู้พิชิตโลก ทำเสร็จเส้นทางมรดก สมาคมภูมิศาสตร์ 2 ครั้ง</Text>		<!-- As Ashoka World-Conqueror, complete the Geographic Society Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_CULTURE_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>Geographic Society 3</Text>		<!-- Geographic Society 3 -->
+			<Text>สมาคมภูมิศาสตร์ 3</Text>		<!-- Geographic Society 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_ALT_CULTURE_VICTORY_MODERN_3_DESC" Language="th_TH">
 			<Text>ในฐานะ อโศก ผู้พิชิตโลก ให้ทำเส้นทางมรดกของ สมาคมภูมิศาสตร์ ให้สำเร็จสามครั้ง</Text>		<!-- As Ashoka World-Conqueror, complete the Geographic Society Legacy Path thrice. -->
@@ -632,13 +632,13 @@
 			<Text>สันติภาพแห่งจักรวรรดิ</Text>		<!-- Pax Imperatoria -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HIMIKO_ALT_MILITARY_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ ฮิมิโกะ มิโกะสูงสุด ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ Legacy Path</Text>		<!-- As Himiko High Shaman, complete the Pax Imperatoria Legacy Path. -->
+			<Text>ในฐานะ ฮิมิโกะ มิโกะสูงสุด ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ</Text>		<!-- As Himiko High Shaman, complete the Pax Imperatoria Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HIMIKO_ALT_MILITARY_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สันติภาพแห่งจักรวรรดิ 2</Text>		<!-- Pax Imperatoria 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HIMIKO_ALT_MILITARY_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>ในฐานะ ฮิมิโกะ มิโกะสูงสุด ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ Legacy สองครั้ง</Text>		<!-- As Himiko High Shaman, complete the Pax Imperatoria Legacy Path twice. -->
+			<Text>ในฐานะ ฮิมิโกะ มิโกะสูงสุด ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ สองครั้ง</Text>		<!-- As Himiko High Shaman, complete the Pax Imperatoria Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HIMIKO_ALT_MILITARY_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
 			<Text>สันติภาพแห่งจักรวรรดิ 3</Text>		<!-- Pax Imperatoria 3 -->
