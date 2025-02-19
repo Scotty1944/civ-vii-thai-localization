@@ -4606,10 +4606,10 @@
 			<Text>+{1_Value} ปราสาทเขา</Text>		<!-- +{1_Value} Hillfort -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOU_KILLED_ENEMY_UNIT" Language="th_TH">
-			<Text>ขณะที่ป้องกัน {2_UnitName} ของคุณ ({5_Num} ความเสียหาย) ได้ฆ่า {LOC_GRAMMAR_A_AN &lt;&lt; {3_EnemyAdjective}} {4_EnemyUnitName}!</Text>		<!-- While defending, your {2_UnitName} ({5_Num} damage) killed {LOC_GRAMMAR_A_AN &lt;&lt; {3_EnemyAdjective}} {4_EnemyUnitName}! -->
+			<Text>ขณะที่ป้องกัน {2_UnitName} ของคุณ ({5_Num} ความเสียหาย) ได้ฆ่า {LOC_GRAMMAR_A_AN &amp;lt;&amp;lt; {3_EnemyAdjective}} {4_EnemyUnitName}!</Text>		<!-- While defending, your {2_UnitName} ({5_Num} damage) killed {LOC_GRAMMAR_A_AN &amp;lt;&amp;lt; {3_EnemyAdjective}} {4_EnemyUnitName}! -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOU_KILLED_ENEMY_UNIT_DEFENDING_CITY" Language="th_TH">
-			<Text>ขณะป้องกัน เมือง {2_CityName} ของคุณ ({5_Num} ความเสียหาย) ได้ฆ่า {LOC_GRAMMAR_A_AN &lt;&lt; {3_EnemyAdjective}} {4_EnemyUnitName}!</Text>		<!-- While defending, your City of {2_CityName} ({5_Num} damage) killed {LOC_GRAMMAR_A_AN &lt;&lt; {3_EnemyAdjective}} {4_EnemyUnitName}! -->
+			<Text>ขณะป้องกัน เมือง {2_CityName} ของคุณ ({5_Num} ความเสียหาย) ได้ฆ่า {LOC_GRAMMAR_A_AN &amp;lt;&amp;lt; {3_EnemyAdjective}} {4_EnemyUnitName}!</Text>		<!-- While defending, your City of {2_CityName} ({5_Num} damage) killed {LOC_GRAMMAR_A_AN &amp;lt;&amp;lt; {3_EnemyAdjective}} {4_EnemyUnitName}! -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOUR_CITY_WAS_CAPTURED" Language="th_TH">
 			<Text>เมือง {1_CityName} ของคุณถูกศัตรู {2_UnitName} ยึดครอง!</Text>		<!-- Your City of {1_CityName} was captured by an enemy {2_UnitName}! -->
@@ -4645,7 +4645,7 @@
 			<Text>ยูนิต {1_UnitName} ของคุณ ({2_Num} ความเสียหาย) ถูกโจมตีโดยศัตรู {3_EnUName} ({4_Num} ความเสียหาย)!</Text>		<!-- Your {1_UnitName} ({2_Num} damage) was attacked by an enemy {3_EnUName} ({4_Num} damage)! -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOUR_UNIT_DIED_DEFENDING" Language="th_TH">
-			<Text>ขณะป้องกัน {1_UnitName} ของคุณถูกทำลายโดย {2_EnemyUnitName} จาก {3_EnemyAdjective} ({4_Num} ความเสียหาย)!</Text>		<!-- While defending, your {1_UnitName} was destroyed by {LOC_GRAMMAR_A_AN &lt;&lt; {2_EnemyUnitName}} from the {3_EnemyAdjective} ({4_Num} damage)! -->
+			<Text>ขณะป้องกัน {1_UnitName} ของคุณถูกทำลายโดย {2_EnemyUnitName} จาก {3_EnemyAdjective} ({4_Num} ความเสียหาย)!</Text>		<!-- While defending, your {1_UnitName} was destroyed by {LOC_GRAMMAR_A_AN &amp;lt;&amp;lt; {2_EnemyUnitName}} from the {3_EnemyAdjective} ({4_Num} damage)! -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOUR_UNIT_DAMAGED_ENEMY" Language="th_TH">
 			<Text>ยูนิต {1_UnitName} ของคุณทำความเสียหายให้กับศัตรู {2_EnUName} ({3_Num} ความเสียหาย)!</Text>		<!-- Your {1_UnitName} damaged an enemy {2_EnUName}({3_Num} damage)! -->
@@ -9461,10 +9461,10 @@
 			<Text>{1_Value} {2_Resource} ไปยัง {3_City}</Text>		<!-- {1_Value} {2_Resource} to {3_City} -->
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_VALUE_TO_CITY_LEFT" Language="th_TH">
-			<Text>&lt;&lt;&lt; {1_Value} {2_Resource} ไปยัง {3_City} &lt;&lt;&lt;</Text>		<!-- &lt;&lt;&lt; {1_Value} {2_Resource} to {3_City} &lt;&lt;&lt; -->
+			<Text>&amp;lt;&amp;lt;&amp;lt; {1_Value} {2_Resource} ไปยัง {3_City} &amp;lt;&amp;lt;&amp;lt;</Text>		<!-- &amp;lt;&amp;lt;&amp;lt; {1_Value} {2_Resource} to {3_City} &amp;lt;&amp;lt;&amp;lt; -->
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_VALUE_TO_CITY_RIGHT" Language="th_TH">
-			<Text>{1_Value} {2_Resource} ไปยัง {3_City}</Text>		<!-- &gt;&gt;&gt; {1_Value} {2_Resource} to {3_City} &gt;&gt;&gt; -->
+			<Text>{1_Value} {2_Resource} ไปยัง {3_City}</Text>		<!-- &amp;gt;&amp;gt;&amp;gt; {1_Value} {2_Resource} to {3_City} &amp;gt;&amp;gt;&amp;gt; -->
 		</Replace>
 		<Replace Tag="TXT_KEY_MP_LAST_PLAYER" Language="th_TH">
 			<Text>คุณเป็นผู้เล่นมนุษย์คนสุดท้ายที่เหลืออยู่ในเกม</Text>		<!-- You are the last remaining human player in the game. -->
@@ -9491,7 +9491,7 @@
 			<Text>เพิ่มการพัฒนา</Text>		<!-- Add Improvement -->
 		</Replace>
 		<Replace Tag="LOC_UI_IMPROVEMENT_FOR_TILE" Language="th_TH">
-			<Text>การเลือกช่องนี้จะทำให้คุณได้รับ {1_ImprovementName}</Text>		<!-- Picking this tile will give you {LOC_GRAMMAR_A_AN &lt;&lt; {1_ImprovementName}}. -->
+			<Text>การเลือกช่องนี้จะทำให้คุณได้รับ {1_ImprovementName}</Text>		<!-- Picking this tile will give you {LOC_GRAMMAR_A_AN &amp;lt;&amp;lt; {1_ImprovementName}}. -->
 		</Replace>
 		<Replace Tag="LOC_PLOTKEY_FRESHWATER" Language="th_TH">
 			<Text>น้ำจืด</Text>		<!-- Fresh Water -->
@@ -10592,7 +10592,7 @@
 			<Text>ซีแลนด์เดีย</Text>		<!-- Zealandia -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_LOCKED_NAME" Language="th_TH">
-			<Text>ถูกล็อค</Text>		<!-- Locked -->
+			<Text>ถูกล็อก</Text>		<!-- Locked -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_NONE_NAME" Language="th_TH">
 			<Text>ไม่มีของที่ระลึก</Text>		<!-- No Memento -->
@@ -10604,10 +10604,10 @@
 			<Text>ไอเท็มที่สวมใส่ได้</Text>		<!-- Equipable items. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_NONE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>ไม่มีผลกระทบ</Text>		<!-- No effects. -->
+			<Text>ไม่มีเอฟเฟค</Text>		<!-- No effects. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_SLING_BULLET_NAME" Language="th_TH">
-			<Text>ลูกโลกที่มีการแกะสลัก</Text>		<!-- Inscribed Sling Bullet -->
+			<Text>กระสุนหนังสติ๊ก</Text>		<!-- Inscribed Sling Bullet -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_SLING_BULLET_DESCRIPTION" Language="th_TH">
 			<Text>มันเขียนว่า "จับ!"</Text>		<!-- It reads, "Catch!" -->
@@ -10616,10 +10616,10 @@
 			<Text>+1 คะแนนคุณสมบัติทางทหาร</Text>		<!-- +1 Military Attribute Point. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_EA_NASIR_NAME" Language="th_TH">
-			<Text>คำร้องทุกข์ต่ออานัสเซอร์</Text>		<!-- Complaint to Ea-nāsir -->
+			<Text>แผ่นจารึกร้องเรียน ถึง เอยา-นาตซีร์</Text>		<!-- Complaint to Ea-nāsir -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_EA_NASIR_DESCRIPTION" Language="th_TH">
-			<Text>ทองแดงที่ไม่ตรงมาตรฐานไม่สามารถยอมรับได้</Text>		<!-- Sub-standard copper is unacceptable. -->
+			<Text>ทองแดง ที่ได้มาตรฐานนี้ ไม่สามารถยอมรับได้!</Text>		<!-- Sub-standard copper is unacceptable. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_EA_NASIR_FUNCTIONAL_DESCRIPTION" Language="th_TH">
 			<Text>+1 แต้มคุณลักษณะทางเศรษฐกิจ</Text>		<!-- +1 Economic Attribute Point. -->
@@ -10640,10 +10640,10 @@
 			<Text>การสำรวจเพื่อการแบ่งแปลงที่ดิน</Text>		<!-- Surveying for centuriation. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_GROMA_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1 จุด คุณสมบัติขยายตัว</Text>		<!-- +1 Expansionist Attribute Point. -->
+			<Text>+1 คะแนนคุณลักษณะขยายอาณาเขต</Text>		<!-- +1 Expansionist Attribute Point. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_SHAKOKIDOGU_NAME" Language="th_TH">
-			<Text>ชากโคคิอิโดงู</Text>		<!-- Shakōkidogū -->
+			<Text>ชาคโคคิโดกุ</Text>		<!-- Shakōkidogū -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_SHAKOKIDOGU_DESCRIPTION" Language="th_TH">
 			<Text>รูปปั้นดินเหนียว</Text>		<!-- Earthen effigy. -->
@@ -10652,7 +10652,7 @@
 			<Text>+1 แต้มคุณลักษณะทางวัฒนธรรม</Text>		<!-- +1 Cultural Attribute Point. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_ANTIKYTHERA_MECHANISM_NAME" Language="th_TH">
-			<Text>กลไกอันทิกิธารา</Text>		<!-- Antikythera Mechanism -->
+			<Text>กลไกแอนติคิเธรา</Text>		<!-- Antikythera Mechanism -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_ANTIKYTHERA_MECHANISM_DESCRIPTION" Language="th_TH">
 			<Text>การคำนวณของมันมหาศาล</Text>		<!-- Its calculations are astronomical. -->
@@ -10667,7 +10667,7 @@
 			<Text>วาเอ วิกติส!</Text>		<!-- Vae victis! -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_SWORD_BRENNUS_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+400[icon:YIELD_GOLD] ทอง สำหรับถิ่นฐานที่ถูกคืนในข้อตกลงสันติภาพ</Text>		<!-- +400[icon:YIELD_GOLD] Gold for every Settlement returned in a Peace Deal. -->
+			<Text>+400[icon:YIELD_GOLD] ทอง สำหรับ ถิ่นฐาน ที่ถูกคืนใน ข้อตกลงสันติภาพ</Text>		<!-- +400[icon:YIELD_GOLD] Gold for every Settlement returned in a Peace Deal. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_SWORD_COMBAT_PREVIEW" Language="th_TH">
 			<Text>{1_Amount} ดาบแห่งเบรนเนส เมนโต</Text>		<!-- {1_Amount} Sword of Brennus Memento -->
@@ -10679,7 +10679,7 @@
 			<Text>เหรียญอิเลคตรัม</Text>		<!-- Electrum coinage. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_LYDIAN_LION_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+200[icon:YIELD_GOLD] ทอง ต่อยุคเมื่อเริ่มต้นยุค</Text>		<!-- +200[icon:YIELD_GOLD] Gold per Age at the start of an Age. -->
+			<Text>+200[icon:YIELD_GOLD] ทอง ต่อยุคเมื่อ เริ่มต้นยุค</Text>		<!-- +200[icon:YIELD_GOLD] Gold per Age at the start of an Age. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_IMAGO_MUNDI_NAME" Language="th_TH">
 			<Text>อิมาโก มันดี</Text>		<!-- Imago Mundi -->
@@ -10691,13 +10691,13 @@
 			<Text>+3 การมองเห็น แทนที่จะเป็น +1 สำหรับ ความสามารถ ค้นหา และ สำรวจ ของหน่วยสอดแนม</Text>		<!-- +3 Sight instead of +1 for Scout's Search &amp; Lookout abilities. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_CORPUS_JURIS_CIVILIS_NAME" Language="th_TH">
-			<Text>ประมวลกฎหมายแพ่ง</Text>		<!-- Corpus Juris Civilis -->
+			<Text>คอร์ปัส จูริส ซิเวลิส</Text>		<!-- Corpus Juris Civilis -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_CORPUS_JURIS_CIVILIS_DESCRIPTION" Language="th_TH">
 			<Text>รหัสกฎหมายที่รอบคอบ</Text>		<!-- Prudent legal code. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_CORPUS_JURIS_CIVILIS_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>เริ่มต้นด้วยสล็อตนโยบายสังคมเพิ่มเติมหนึ่งช่อง</Text>		<!-- Start with one extra Social Policy slot. -->
+			<Text>เริ่มต้นด้วย ช่องนโยบายสังคม เพิ่มเติมหนึ่งช่อง</Text>		<!-- Start with one extra Social Policy slot. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_TRAVELS_MARCO_POLO_NAME" Language="th_TH">
 			<Text>การเดินทางของมาร์โก โปโล</Text>		<!-- The Travels of Marco Polo -->
@@ -10706,7 +10706,7 @@
 			<Text>เพียงแค่ครึ่งเดียวของสิ่งที่เห็น</Text>		<!-- Only half of what was seen. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_TRAVELS_MARCO_POLO_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+50[icon:YIELD_GOLD] ทอง สำหรับทุก 100 ช่อง สำรวจโดยยูนิตของ</Text>		<!-- +50[icon:YIELD_GOLD] Gold for every 100 Tiles Explored by your Units. -->
+			<Text>+50[icon:YIELD_GOLD] ทอง สำหรับทุก 100 ช่อง สำรวจโดยยูนิตของคุณ</Text>		<!-- +50[icon:YIELD_GOLD] Gold for every 100 Tiles Explored by your Units. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_EQUESTRIAN_FIGURE_NAME" Language="th_TH">
 			<Text>รูปปั้นนักขี่ม้า</Text>		<!-- Equestrian Figure -->
@@ -10715,7 +10715,7 @@
 			<Text>ขนส่งทางทหาร</Text>		<!-- Transportable military. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_EQUESTRIAN_FIGURE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>ลดเวลาในการฟื้นฟูของผู้บังคับการลง 50%</Text>		<!-- +50% Reduction in Commander Recovery Time. -->
+			<Text>+50% ลดเวลาในการฟื้นฟูของผู้บังคับการ</Text>		<!-- +50% Reduction in Commander Recovery Time. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_POCHTECA_BACKPACK_NAME" Language="th_TH">
 			<Text>กระเป๋าเป้ โพช-เท-คา</Text>		<!-- Pochteca Backpack -->
@@ -10727,7 +10727,7 @@
 			<Text>+5 ระยะทางสำหรับเส้นทางการค้า ทั้งหมด</Text>		<!-- +5 range for all Trade Routes. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_COLADA_TIZONA_NAME" Language="th_TH">
-			<Text>โคลาดาและติซโซนา</Text>		<!-- Colada &amp; Tizona -->
+			<Text>โคลาดา &amp; ติซโซนา</Text>		<!-- Colada &amp; Tizona -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_COLADA_TIZONA_DESCRIPTION" Language="th_TH">
 			<Text>ดาบของเอลซิด</Text>		<!-- Swords of El Cid. -->
@@ -10745,7 +10745,7 @@
 			<Text>สิงโตพิทักษ์</Text>		<!-- Guardian lion. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_SHISA_NECKLACE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>เมื่อคุณเป็นอธิปไตยของรัฐเมือง จะได้รับอิทธิพล 100[icon:YIELD_DIPLOMACY]</Text>		<!-- Gain 100[icon:YIELD_DIPLOMACY] Influence when you become Suzerain of a City-State. -->
+			<Text>ได้รับ 100[icon:YIELD_DIPLOMACY] อิทธิพล เมื่อคุณเป็น เจ้านคร ของ นครรัฐ</Text>		<!-- Gain 100[icon:YIELD_DIPLOMACY] Influence when you become Suzerain of a City-State. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_AGINCOURT_ARROWHEAD_NAME" Language="th_TH">
 			<Text>หัวลูกศรเอจินคอร์ต</Text>		<!-- Agincourt Arrowhead -->
@@ -10754,7 +10754,7 @@
 			<Text>เครื่องดูดเลือดในอากาศ</Text>		<!-- Airborne exsanguinator. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_AGINCOURT_ARROWHEAD_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1 แต้มเคลื่อนที่สำหรับยูนิตที่อยู่ไกล</Text>		<!-- +1 Movement for Ranged Units. -->
+			<Text>+1 แต้มเคลื่อนที่ สำหรับยูนิตระยะไกล</Text>		<!-- +1 Movement for Ranged Units. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_GARUDA_STATUE_NAME" Language="th_TH">
 			<Text>รูปปั้นการูด้า</Text>		<!-- Garuda Statue -->
@@ -10763,7 +10763,7 @@
 			<Text>บินสูง</Text>		<!-- Soaring high. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_GARUDA_STATUE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>ทุกครั้งที่คุณเริ่มการเฉลิมฉลอง จะเพิ่มประชากรให้กับถิ่นฐานที่เล็กที่สุดของคุณ 1 คน</Text>		<!-- +1 Population to your smallest Settlement every time you start a Celebration. -->
+			<Text>+1 ประชากร ให้กับถิ่นฐานที่เล็กที่สุด ทุกครั้งที่คุณเริ่ม การเฉลิมฉลอง</Text>		<!-- +1 Population to your smallest Settlement every time you start a Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_ART_OF_WAR_NAME" Language="th_TH">
 			<Text>ศิลปะการสงคราม</Text>		<!-- The Art of War -->
@@ -10772,7 +10772,7 @@
 			<Text>สำคัญอย่างยิ่ง</Text>		<!-- Of vital importance. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_ART_OF_WAR_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+10% ประสบการณ์ผู้บัญชาการ.[n]+50% เมื่อผู้บัญชาการของคุณอยู่ภายในรัศมีคำสั่งของผู้บัญชาการระดับสูงกว่า</Text>		<!-- +10% Commander Experience.[n]+50% when your Commander is within the Command Radius of a higher level Commander. -->
+			<Text>+10% ประสบการณ์ผู้บัญชาการ.[n]+50% เมื่อผู้บัญชาการของคุณอยู่ภายใน รัศมีคำสั่ง ของผู้บัญชาการระดับสูงกว่า</Text>		<!-- +10% Commander Experience.[n]+50% when your Commander is within the Command Radius of a higher level Commander. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_GAME_OF_UR_NAME" Language="th_TH">
 			<Text>เกมราชาแห่งอูร์</Text>		<!-- Royal Game of Ur -->
@@ -10781,7 +10781,7 @@
 			<Text>การเล่นเชิงกลยุทธ์</Text>		<!-- Strategic play. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_GAME_OF_UR_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+10%[icon:YIELD_SCIENCE] วิทยาศาสตร์ เมื่อถูกเพื่อนผู้นำอีกอย่างน้อยครึ่งหนึ่งแซงหน้าในด้านเทคโนโลยี[n]+10%[icon:YIELD_CULTURE] วัฒนธรรม เมื่อถูกเพื่อนผู้นำอีกอย่างน้อยครึ่งหนึ่งแซงหน้าในด้านแนวคิด</Text>		<!-- +10%[icon:YIELD_SCIENCE] Science when outpaced in Tech by at least half of other Leaders.[n]+10% [icon:YIELD_CULTURE]Culture whenever being outpaced in Civics by at least half of other Leaders. -->
+			<Text>+10%[icon:YIELD_SCIENCE] วิทยาศาสตร์ เมื่อถูก เพื่อนผู้นำ อีกอย่างน้อยครึ่งหนึ่งแซงหน้าใน ด้านเทคโนโลยี[n]+10%[icon:YIELD_CULTURE] วัฒนธรรม เมื่อถูก เพื่อนผู้นำ อีกอย่างน้อยครึ่งหนึ่งแซงหน้าใน ด้านแนวคิด</Text>		<!-- +10%[icon:YIELD_SCIENCE] Science when outpaced in Tech by at least half of other Leaders.[n]+10% [icon:YIELD_CULTURE]Culture whenever being outpaced in Civics by at least half of other Leaders. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AMINA_TAKOBA_NAME" Language="th_TH">
 			<Text>ตะโกบา</Text>		<!-- Takoba -->
@@ -10790,7 +10790,7 @@
 			<Text>ใบมีดฮาวซาแบบดั้งเดิม</Text>		<!-- A traditional Hausa blade. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AMINA_TAKOBA_COMBAT_STRENGTH_DESCRIPTION" Language="th_TH">
-			<Text>+{1_Amount} พลังต่อสู้ สำหรับยูนิตทั้งหมดในพื้นที่ราบและทะเลทราย</Text>		<!-- +{1_Amount} Combat Strength for all Units in Plains and Desert. -->
+			<Text>+{1_Amount} พลังต่อสู้ สำหรับยูนิตทั้งหมดใน ที่ราบ และทะเลทราย</Text>		<!-- +{1_Amount} Combat Strength for all Units in Plains and Desert. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AMINA_TAKOBA_FUNCTIONAL_DESCRIPTION" Language="th_TH">
 			<Text>+1 พลังต่อสู้ สำหรับยูนิตทั้งหมดใน ที่ราบ และทะเลทราย</Text>		<!-- +1 Combat Strength for all Units in Plains and Desert. -->
@@ -10805,7 +10805,7 @@
 			<Text>หัวเข็มขัดม้าเสียงหลอน</Text>		<!-- Regal horse headdress. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AMINA_KWALKWALI_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_GOLD] ทอง ต่อยุคสำหรับแต่ละทรัพยากรที่มอบหมายให้กับเมือง</Text>		<!-- +1[icon:YIELD_GOLD] Gold per Age for each Resource assigned to Cities. -->
+			<Text>+1[icon:YIELD_GOLD] ทอง ต่อยุคสำหรับแต่ละ ทรัพยากร ที่จัดสรรให้กับเมืองใหญ่</Text>		<!-- +1[icon:YIELD_GOLD] Gold per Age for each Resource assigned to Cities. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AMINA_RAWANI_NAME" Language="th_TH">
 			<Text>ราวานี</Text>		<!-- Rawani -->
@@ -10814,7 +10814,7 @@
 			<Text>มงกุฎราชา</Text>		<!-- Royal turban. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AMINA_RAWANI_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้ให้กับการโจมตีครั้งถัดไปของยูนิตหลังจากที่พวกเขาทำลายยูนิตศัตรู</Text>		<!-- +3 Combat Strength to a Unit's next attack after they destroy an enemy Unit. -->
+			<Text>+3 พลังต่อสู้ ให้กับการโจมตีครั้งถัดไปของยูนิต หลังจากที่พวกเขาทำลาย ยูนิตศัตรู</Text>		<!-- +3 Combat Strength to a Unit's next attack after they destroy an enemy Unit. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AMINA_RAWANI_COMBAT_PREVIEW" Language="th_TH">
 			<Text>+{1_Amount} ของที่ระลึก ราวานี</Text>		<!-- +{1_Amount} Rawani memento -->
@@ -10835,7 +10835,7 @@
 			<Text>กลีบกุหลาบใต้บัลลังก์</Text>		<!-- Blossoms beneath the throne. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ASHOKA_RENOUNCER_GOLD_SAPPHIRE_FLOWERS_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ 100[icon:YIELD_FOOD] อาหาร ในเมืองหลวง เมื่อคุณใช้ แต้มคุณลักษณะ ในการเพิ่ม คุณลักษณะขยายตัว</Text>		<!-- Gain 100[icon:YIELD_FOOD] Food in Capital when you spend an Attribute Point on the Expansionist Attribute tree. -->
+			<Text>ได้รับ 100[icon:YIELD_FOOD] อาหาร ในเมืองหลวง เมื่อคุณใช้ แต้มคุณลักษณะ ในการเพิ่ม คุณลักษณะขยายอณาเขต</Text>		<!-- Gain 100[icon:YIELD_FOOD] Food in Capital when you spend an Attribute Point on the Expansionist Attribute tree. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ASHOKA_RENOUNCER_DIAMOND_THRONE_NAME" Language="th_TH">
 			<Text>บัลลังก์เพชร</Text>		<!-- Diamond Throne -->
@@ -10844,10 +10844,10 @@
 			<Text>สถานที่แห่งการตรัสรู้</Text>		<!-- Location of enlightenment. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ASHOKA_RENOUNCER_DIAMOND_THRONE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>ในระหว่างการเฉลิมฉลอง +1[icon:YIELD_HAPPINESS] ต่อย่าน ต่อยุค</Text>		<!-- During a Celebration, +1[icon:YIELD_HAPPINESS] per Quarter per Age. -->
+			<Text>ในระหว่าง การเฉลิมฉลอง +1[icon:YIELD_HAPPINESS] ต่อย่าน ต่อยุค</Text>		<!-- During a Celebration, +1[icon:YIELD_HAPPINESS] per Quarter per Age. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AUGUSTUS_CORONA_CIVICA_NAME" Language="th_TH">
-			<Text>แนวคิดโคโรน่า</Text>		<!-- Corona Civica -->
+			<Text>โคโรนา ซีวิก้า</Text>		<!-- Corona Civica -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AUGUSTUS_CORONA_CIVICA_DESCRIPTION" Language="th_TH">
 			<Text>เพื่อเป็นเกียรติแก่ชีวิตที่ได้รับการช่วยเหลือ</Text>		<!-- In honor of lives saved. -->
@@ -10856,7 +10856,7 @@
 			<Text>+{1_Amount} ขีดจำกัดการตั้งถิ่นฐานต่อยุค</Text>		<!-- +{1_Amount} Settlement Limit per Age. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AUGUSTUS_CORONA_CIVICA_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1 ขีดจำกัดการตั้งถิ่นฐานต่อยุค แต่เพิ่มค่าใช้จ่ายในการแปลงเป็นเมืองเป็น 50%</Text>		<!-- +1 Settlement Limit per Age, but +50% Convert to City cost. -->
+			<Text>+1 ขีดจำกัดการตั้งถิ่นฐาน ต่อยุค, แต่เพิ่มค่าใช้จ่ายในการแปลงเป็นเมืองเป็น 50%</Text>		<!-- +1 Settlement Limit per Age, but +50% Convert to City cost. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AUGUSTUS_BREASTPLATE_NAME" Language="th_TH">
 			<Text>เกราะหน้าอก</Text>		<!-- Breastplate -->
@@ -10868,13 +10868,13 @@
 			<Text>+2[icon:YIELD_FOOD] อาหาร ต่อยุคในเมือง</Text>		<!-- +2[icon:YIELD_FOOD] Food per Age in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AUGUSTUS_CLIPEUS_VIRTUTIS_NAME" Language="th_TH">
-			<Text>คลิปเพียส เวอร์ทูติส</Text>		<!-- Clipeus Virtutis -->
+			<Text>คลีเพอุส เวอร์ตูติส</Text>		<!-- Clipeus Virtutis -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AUGUSTUS_CLIPEUS_VIRTUTIS_DESCRIPTION" Language="th_TH">
 			<Text>การยอมรับที่มีค่า</Text>		<!-- Golden recognition. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AUGUSTUS_CLIPEUS_VIRTUTIS_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต ในกรุงสำหรับทุกเมือง</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production in the Capital for every Town. -->
+			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต ใน เมืองหลวง สำหรับทุกเมือง</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production in the Capital for every Town. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BENJAMIN_FRANKLIN_BIFOCALS_NAME" Language="th_TH">
 			<Text>แว่นสองชั้น</Text>		<!-- Bifocals -->
@@ -10883,16 +10883,16 @@
 			<Text>มองเห็นได้ชัดเจน ไม่ว่าจะไกลหรือใกล้</Text>		<!-- See distinctly, far or near. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BENJAMIN_FRANKLIN_BIFOCALS_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>หลังจากศึกษาเทคโนโลยีหรือนโยบายความเชี่ยวชาญ จะได้รับอิทธิพล 50[icon:YIELD_DIPLOMACY]</Text>		<!-- Gain 50[icon:YIELD_DIPLOMACY] Influence after researching a Tech or Civic Mastery. -->
+			<Text>ได้รับ 50[icon:YIELD_DIPLOMACY] อิทธิพล หลังจากศึกษาความเชี่ยวชาญ ด้านเทคโนโลยี หรือ ด้านแนวคิด</Text>		<!-- Gain 50[icon:YIELD_DIPLOMACY] Influence after researching a Tech or Civic Mastery. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BENJAMIN_FRANKLIN_KITE_NAME" Language="th_TH">
-			<Text>ว่าวและกุญแจ</Text>		<!-- Kite &amp; Key -->
+			<Text>ว่าว &amp; กุญแจ</Text>		<!-- Kite &amp; Key -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BENJAMIN_FRANKLIN_KITE_DESCRIPTION" Language="th_TH">
 			<Text>ไขปริศนาของสายฟ้า</Text>		<!-- Unravel lightning's mysteries. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BENJAMIN_FRANKLIN_KITE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+10%[icon:YIELD_SCIENCE] วิทยาศาสตร์ ในการค้นคว้าเทคโนโลยีขั้นสูง</Text>		<!-- +10%[icon:YIELD_SCIENCE] Science towards researching Tech Masteries. -->
+			<Text>+10%[icon:YIELD_SCIENCE] วิทยาศาสตร์ ในการค้นคว้า เทคโนโลยี ระดับเชี่ยวชาญ</Text>		<!-- +10%[icon:YIELD_SCIENCE] Science towards researching Tech Masteries. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BENJAMIN_FRANKLIN_GLASS_ARMONICA_NAME" Language="th_TH">
 			<Text>กลาส อาร์โมนิกา</Text>		<!-- Glass Armonica -->
@@ -10901,7 +10901,7 @@
 			<Text>สัมผัสเสียง</Text>		<!-- Tones by touch. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BENJAMIN_FRANKLIN_GLASS_ARMONICA_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>10%[icon:YIELD_SCIENCE] วิทยาศาสตร์ และ [icon:YIELD_HAPPINESS]ความสุขเมื่ออยู่ในพันธมิตรสำหรับคุณและพันธมิตร</Text>		<!-- 10%[icon:YIELD_SCIENCE] Science and [icon:YIELD_HAPPINESS] Happiness when in an Alliance for you and ally. -->
+			<Text>10%[icon:YIELD_SCIENCE] วิทยาศาสตร์ และ [icon:YIELD_HAPPINESS] ความสุข เมื่ออยู่ในพันธมิตร สำหรับคุณและพันธมิตร</Text>		<!-- 10%[icon:YIELD_SCIENCE] Science and [icon:YIELD_HAPPINESS] Happiness when in an Alliance for you and ally. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CATHERINE_GREAT_IMPERIAL_CROWN_NAME" Language="th_TH">
 			<Text>มงกุฎจักรพรรดิอันยิ่งใหญ่</Text>		<!-- Great Imperial Crown -->
@@ -10910,16 +10910,16 @@
 			<Text>อัญมณีเหมือนดาวเด่น</Text>		<!-- Jewels like stars. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CATHERINE_GREAT_IMPERIAL_CROWN_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>เมืองจะได้รับ +5%[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อผลงานชิ้นเอกที่แสดง (สูงสุด 25%)</Text>		<!-- Cities gain +5%[icon:YIELD_SCIENCE] Science per Great Work on display (Max 25%). -->
+			<Text>เมืองจะได้รับ +5%[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อ ผลงานชิ้นเอก ที่จัดแสดง (สูงสุด 25%)</Text>		<!-- Cities gain +5%[icon:YIELD_SCIENCE] Science per Great Work on display (Max 25%). -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CATHERINE_POTEMKINS_SWORD_KNOT_NAME" Language="th_TH">
-			<Text>ดาบผูกของโปเท็มกิน</Text>		<!-- Potemkin's Sword-Knot -->
+			<Text>โบว์ผูกดาบของโปเท็มกิน</Text>		<!-- Potemkin's Sword-Knot -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CATHERINE_POTEMKINS_SWORD_KNOT_DESCRIPTION" Language="th_TH">
 			<Text>ของขวัญจากคู่ชีวิต</Text>		<!-- Gift from a soulmate. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CATHERINE_POTEMKINS_SWORD_KNOT_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1 แต้มเคลื่อนที่สำหรับผู้บังคับบัญชา</Text>		<!-- +1 Movement for Commanders. -->
+			<Text>+1 แต้มเคลื่อนที่ สำหรับผู้บังคับบัญชา</Text>		<!-- +1 Movement for Commanders. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CATHERINE_EAGLE_BANNER_NAME" Language="th_TH">
 			<Text>ธงนกอินทรี</Text>		<!-- Eagle Banner -->
@@ -10928,16 +10928,16 @@
 			<Text>มรดกจักรวรรดิ</Text>		<!-- Imperial legacy. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CATHERINE_EAGLE_BANNER_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>เมืองจะได้รับโบนัส 5%[icon:YIELD_SCIENCE] ประสิทธิภาพทางวิทยาศาสตร์ต่อผลงานชิ้นเอกที่มีอยู่ในเมือง (สูงสุด 25%)</Text>		<!-- Cities gain 5% bonus[icon:YIELD_SCIENCE] Science Efficiency per Great Work they contain. (Max 25%) -->
+			<Text>เมืองใหญ่จะได้รับโบนัส 5%[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อผลงานชิ้นเอกที่มีอยู่ในเมือง (สูงสุด 25%)</Text>		<!-- Cities gain 5% bonus[icon:YIELD_SCIENCE] Science Efficiency per Great Work they contain. (Max 25%) -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CHARLEMAGNE_JOYEUSE_NAME" Language="th_TH">
-			<Text>จอยอิวส</Text>		<!-- Joyeuse -->
+			<Text>จอยยูซ</Text>		<!-- Joyeuse -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CHARLEMAGNE_JOYEUSE_DESCRIPTION" Language="th_TH">
 			<Text>ความสุขในแต่ละชิ้น</Text>		<!-- Happiness, by the slice. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CHARLEMAGNE_JOYEUSE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_HAPPINESS] ความสุข ต่อยุคสำหรับยูนิตทหารม้าแต่ละยูนิต</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness per Age for every Cavalry Unit. -->
+			<Text>+2[icon:YIELD_HAPPINESS] ความสุข ต่อยุค สำหรับยูนิตทหารม้าแต่ละยูนิต</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness per Age for every Cavalry Unit. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CHARLEMAGNE_GLOBUS_CRUCIGER_NAME" Language="th_TH">
 			<Text>กลอบัสครูซิเกอร์</Text>		<!-- Globus Cruciger -->
@@ -10955,16 +10955,16 @@
 			<Text>ความขัดแย้ง, ถูกบังคับ</Text>		<!-- Strife, saddled. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CHARLEMAGNE_TENCENDUR_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1 แต้มเคลื่อนที่สำหรับยูนิตทหารม้า</Text>		<!-- +1 Movement for Cavalry Units. -->
+			<Text>+1 แต้มเคลื่อนที่ สำหรับยูนิตทหารม้า</Text>		<!-- +1 Movement for Cavalry Units. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CONFUCIUS_BRUSH_SCROLL_NAME" Language="th_TH">
-			<Text>แปรงและเลื่อน</Text>		<!-- Brush &amp; Scroll -->
+			<Text>แปรง &amp; ม้วน</Text>		<!-- Brush &amp; Scroll -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CONFUCIUS_BRUSH_SCROLL_DESCRIPTION" Language="th_TH">
 			<Text>ปัญญาในคำพูด</Text>		<!-- Wisdom in words. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CONFUCIUS_BRUSH_SCROLL_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+5% อัตราการเติบโตในเมืองสำหรับผู้เชี่ยวชาญแต่ละคนในเมืองนั้น (สูงสุด 25%)</Text>		<!-- +5% Growth Rate in Cities for every Specialist in that City (Max 25%). -->
+			<Text>+5% อัตราการเติบโตในเมืองสำหรับ ผู้เชี่ยวชาญ แต่ละคนในเมืองนั้น (สูงสุด 25%)</Text>		<!-- +5% Growth Rate in Cities for every Specialist in that City (Max 25%). -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CONFUCIUS_ALTAR_SET_NAME" Language="th_TH">
 			<Text>ชุดแท่นบูชา</Text>		<!-- Altar Set -->
@@ -10991,7 +10991,7 @@
 			<Text>การเดินด้วยไม้เท้าเป็นแนวทาง</Text>		<!-- Cane-supported cadence. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FRIEDRICH_OBLIQUE_WALKING_STICK_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุคในอาคารด้านทหาร</Text>		<!-- +1[icon:YIELD_SCIENCE] Science per Age on Military Buildings. -->
+			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุค บนอาคารด้านทหาร</Text>		<!-- +1[icon:YIELD_SCIENCE] Science per Age on Military Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FRIEDRICH_OBLIQUE_ORDER_BLACK_EAGLE_NAME" Language="th_TH">
 			<Text>คำสั่งของเหรียญกลุ่มนกอินทรีดำ</Text>		<!-- Order of the Black Eagle Badge -->
@@ -11000,7 +11000,7 @@
 			<Text>อันดับสูงสุดของอัศวินสุภาพ</Text>		<!-- Highest order of chivalry. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FRIEDRICH_OBLIQUE_ORDER_BLACK_EAGLE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ 50[icon:YIELD_PRODUCTION] กำลังผลิตเมื่อคุณใช้คะแนนคุณลักษณะ ใน ผังคุณลักษณะทางทหาร </Text>		<!-- Gain 50[icon:YIELD_PRODUCTION] Production when you spend an Attribute Point on the Militaristic Attribute tree. -->
+			<Text>ได้รับ 50[icon:YIELD_PRODUCTION] กำลังผลิตเมื่อคุณใช้ คะแนนคุณลักษณะ ใน ผังคุณลักษณะทางทหาร </Text>		<!-- Gain 50[icon:YIELD_PRODUCTION] Production when you spend an Attribute Point on the Militaristic Attribute tree. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FRIEDRICH_OBLIQUE_KRONE_VON_FRIEDRICH_NAME" Language="th_TH">
 			<Text>มงกุฎของฟรีดริชที่ที่ 1</Text>		<!-- Krone von Friedrich I -->
@@ -11009,10 +11009,10 @@
 			<Text>จากกษัตริย์นักรบสู่วิญญาณของลูกชาย</Text>		<!-- From Soldier King to son. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FRIEDRICH_OBLIQUE_KRONE_VON_FRIEDRICH_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>เมื่อตั้งโจมตีประสานงานหรือยิงเป้าหมายจะเพิ่มกำลังการต่อสู้ +2 สำหรับยูนิตทั้งหมด</Text>		<!-- +2 Combat Strength for All Units when using Coordinated Attack or Focus Fire. -->
+			<Text>+2 พลังโจมตี สำหรับยูนิตทั้งหมด เมื่อตั้งโจมตีประสานงานหรือระดมยิง</Text>		<!-- +2 Combat Strength for All Units when using Coordinated Attack or Focus Fire. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FRIEDRICH_OBLIQUE_KRONE_VON_FRIEDRICH_COMBAT_PREVIEW" Language="th_TH">
-			<Text>+2 โครนจากฟรีดริชที่ที่ 1 ชั่วระลึก</Text>		<!-- +2 Krone von Friedrich I Memento -->
+			<Text>+2 ของที่ระลึก "มงกุฎของฟรีดริชที่ที่ 1"</Text>		<!-- +2 Krone von Friedrich I Memento -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_TUBMAN_LANTERN_NAME" Language="th_TH">
 			<Text>โคมไฟ</Text>		<!-- Lantern -->
@@ -11021,7 +11021,7 @@
 			<Text>แสงสว่างที่นำทาง</Text>		<!-- A guiding light. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_TUBMAN_LANTERN_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>เมื่อคุณทำการกระทำสอดแนมโดยไม่ถูกตรวจจับ ผู้ย้ายถิ่นจะปรากฏในเมืองหลวง</Text>		<!-- A Migrant appears in the Capital whenever you complete an Espionage Action without being detected. -->
+			<Text>ผู้อพยพ จะปรากฏในเมืองหลวง เมื่อคุณทำ การจารกรรม โดยไม่ถูกตรวจจับ</Text>		<!-- A Migrant appears in the Capital whenever you complete an Espionage Action without being detected. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_TUBMAN_SATCHEL_NAME" Language="th_TH">
 			<Text>กระเป๋าเป้</Text>		<!-- Satchel -->
@@ -11030,16 +11030,16 @@
 			<Text>ข้อกำหนดสำหรับผู้โดยสาร</Text>		<!-- Provisions for passengers. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_TUBMAN_SATCHEL_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>หากผู้ตั้งถิ่นฐานถูกสังหาร มันจะเกิดขึ้นใหม่ในเมืองหลวงของคุณหลังจาก 3 เทิร์น (ในความเร็วมาตรฐาน)</Text>		<!-- If a Settler is defeated, it respawns in your Capital after 3 turns (on Standard speed). -->
+			<Text>หาก ผู้ตั้งถิ่นฐาน ถูกสังหาร มันจะเกิดขึ้นใหม่ใน เมืองหลวงของคุณ หลังจาก 3 เทิร์น (ในความเร็วมาตรฐาน)</Text>		<!-- If a Settler is defeated, it respawns in your Capital after 3 turns (on Standard speed). -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_TUBMAN_SIDEARM_NAME" Language="th_TH">
-			<Text>ข้างปืน</Text>		<!-- Sidearm -->
+			<Text>อาวุธพกพา</Text>		<!-- Sidearm -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_TUBMAN_SIDEARM_DESCRIPTION" Language="th_TH">
 			<Text>ความตายหรือเสรีภาพ</Text>		<!-- Death or liberty. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_TUBMAN_SIDEARM_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้ให้กับยูนิตของคุณที่มีสุขภาพน้อยกว่า 50%</Text>		<!-- +3 Combat Strength to your Units below 50% health. -->
+			<Text>+3 พลังต่อสู้ ให้กับยูนิตของคุณ ที่มีสุขภาพน้อยกว่า 50%</Text>		<!-- +3 Combat Strength to your Units below 50% health. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_HATSHEPSUT_ROYAL_MACE_NAME" Language="th_TH">
 			<Text>ไม้เซ้นท์หลวง</Text>		<!-- Royal Mace -->
@@ -11048,7 +11048,7 @@
 			<Text>สัญลักษณ์ของอำนาจ</Text>		<!-- A symbol of authority. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_HATSHEPSUT_ROYAL_MACE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_GOLD] ทอง ต่อยุคสำหรับแต่ละทรัพยากรที่นำเข้า</Text>		<!-- +1[icon:YIELD_GOLD] Gold per Age for each imported Resource. -->
+			<Text>+1[icon:YIELD_GOLD] ทอง ต่อยุค สำหรับแต่ละ ทรัพยากร ที่นำเข้า</Text>		<!-- +1[icon:YIELD_GOLD] Gold per Age for each imported Resource. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_HATSHEPSUT_FALSE_BEARD_NAME" Language="th_TH">
 			<Text>เคราปลอม</Text>		<!-- False Beard -->
@@ -11066,7 +11066,7 @@
 			<Text>สัญลักษณ์งูหลามแห่งอำนาจอธิปไตย</Text>		<!-- Serpentine symbol of sovereignty. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_HATSHEPSUT_URAEUS_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+10%[icon:YIELD_CULTURE] วัฒนธรรม ถ้าคุณมีสิ่งมหัศจรรย์มากที่สุด[n]+10%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้างสิ่งมหัศจรรย์ถ้าคุณไม่มี</Text>		<!-- +10%[icon:YIELD_CULTURE] Culture if you have the most Wonders.[n]+10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders if you do not. -->
+			<Text>+10%[icon:YIELD_CULTURE] วัฒนธรรม ถ้าคุณมี สิ่งมหัศจรรย์มากที่สุด[n]+10%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้าง สิ่งมหัศจรรย์ ถ้าคุณไม่มี</Text>		<!-- +10%[icon:YIELD_CULTURE] Culture if you have the most Wonders.[n]+10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders if you do not. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_HIMIKO_QUEEN_GOLDEN_SEAL_STONE_NAME" Language="th_TH">
 			<Text>หินตราผลึกทอง</Text>		<!-- Golden Seal Stone -->
@@ -11075,7 +11075,7 @@
 			<Text>ของขวัญจากจักรพรรดิ</Text>		<!-- Gift from an emperor. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_HIMIKO_QUEEN_GOLDEN_SEAL_STONE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_DIPLOMACY] อิทธิพล ต่ออาคารด้านวิทยาศาสตร์ตามยุค</Text>		<!-- +1[icon:YIELD_DIPLOMACY] Influence per Age on Science Buildings. -->
+			<Text>+1[icon:YIELD_DIPLOMACY] อิทธิพล ต่อยุค บนอาคารด้านวิทยาศาสตร์</Text>		<!-- +1[icon:YIELD_DIPLOMACY] Influence per Age on Science Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_HIMIKO_QUEEN_YASAKANI_NO_MAGATAMA_NAME" Language="th_TH">
 			<Text>ยาสากานิ โนะ มากะทามะ</Text>		<!-- Yasakani no Magatama -->
@@ -11084,7 +11084,7 @@
 			<Text>เป็นตัวแทนของความกรุณา</Text>		<!-- Represents benevolence. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_HIMIKO_QUEEN_YASAKANI_NO_MAGATAMA_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุคสำหรับการเชี่ยวชาญเทคโนโลยีแต่ละอันที่เสร็จสมบูรณ์</Text>		<!-- +2[icon:YIELD_SCIENCE] Science per Age for every Technology Mastery completed. -->
+			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุค สำหรับความเชี่ยวชาญ ด้านเทคโนโลยี แต่ละอันที่เสร็จสมบูรณ์</Text>		<!-- +2[icon:YIELD_SCIENCE] Science per Age for every Technology Mastery completed. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_HIMIKO_QUEEN_DOTAKU_NAME" Language="th_TH">
 			<Text>โดทากุ</Text>		<!-- Dōtaku -->
@@ -11093,7 +11093,7 @@
 			<Text>เพื่อนของการเก็บเกี่ยว</Text>		<!-- Friend of the Harvest. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_HIMIKO_QUEEN_DOTAKU_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>เมื่อคุณใช้แต้มแอตทริบิวต์ใน ผังคุณลักษณะทางวิทยาศาสตร์ จะได้รับ 50[icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- Gain 50[icon:YIELD_SCIENCE] Science when you spend an Attribute Point on the Scientific Attribute tree. -->
+			<Text>ได้รับ 50[icon:YIELD_SCIENCE] วิทยาศาสตร์ เมื่อคุณใช้ แต้มคุณลักษณะใน ผังคุณลักษณะทางวิทยาศาสตร์</Text>		<!-- Gain 50[icon:YIELD_SCIENCE] Science when you spend an Attribute Point on the Scientific Attribute tree. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BATTUTA_TRAVELLERS_SANDALS_NAME" Language="th_TH">
 			<Text>รองเท้าแตะนักเดินทาง</Text>		<!-- Traveller's Sandals -->
@@ -11102,7 +11102,7 @@
 			<Text>เป็นที่ทำเครื่องหมายโดยหลายไมล์</Text>		<!-- Marked by many miles. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BATTUTA_TRAVELLERS_SANDALS_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>ทุกครั้งที่คุณใช้คะแนนคุณสมบัติ จะได้รับผลตอบแทน 10 ของผลผลิตที่เกี่ยวข้อง</Text>		<!-- Gain 10 of the corresponding yield whenever you spend an Attribute Point. -->
+			<Text>ได้รับ 10 ของผลผลิตที่เกี่ยวข้อง เมื่อคุณใช้ แต้มคุณลักษณะ</Text>		<!-- Gain 10 of the corresponding yield whenever you spend an Attribute Point. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BATTUTA_MERCHANTS_SADDLE_NAME" Language="th_TH">
 			<Text>เกี้ยวของพ่อค้า</Text>		<!-- Merchant's Saddle -->
@@ -11111,7 +11111,7 @@
 			<Text>กระดูกสันหลังของการค้า</Text>		<!-- Backbone of commerce. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BATTUTA_MERCHANTS_SADDLE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1 แต้มเคลื่อนที่และการมองเห็นสำหรับผู้สอดแนม พ่อค้า และผู้ตั้งถิ่นฐาน</Text>		<!-- +1 Movement and Sight for Scouts, Merchants, and Settlers. -->
+			<Text>+1 แต้มเคลื่อนที่ และระยะมองเห็นสำหรับ หน่วยสอดแนม, พ่อค้า และผู้ตั้งถิ่นฐาน</Text>		<!-- +1 Movement and Sight for Scouts, Merchants, and Settlers. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BATTUTA_RIHLA_NAME" Language="th_TH">
 			<Text>ริฮล่า</Text>		<!-- The Rihla -->
@@ -11120,7 +11120,7 @@
 			<Text>ความมหัศจรรย์ของการเดินทาง</Text>		<!-- The Marvels of Traveling. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BATTUTA_RIHLA_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม , [icon:YIELD_GOLD] ทอง, [icon:YIELD_HAPPINESS] ความสุข , และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น ต่อยุค สำหรับแต่ละ ผังของคุณสมบัติที่คุณมีคะแนน</Text>		<!-- +1[icon:YIELD_CULTURE] Culture, [icon:YIELD_GOLD] Gold, [icon:YIELD_HAPPINESS] Happiness, and [icon:YIELD_SCIENCE] Science per turn per Age for each Attribute tree in which you have points. -->
+			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม, [icon:YIELD_GOLD] ทอง, [icon:YIELD_HAPPINESS] ความสุข, และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น ต่อยุค สำหรับแต่ละ ผังของคุณสมบัติที่คุณมีคะแนน</Text>		<!-- +1[icon:YIELD_CULTURE] Culture, [icon:YIELD_GOLD] Gold, [icon:YIELD_HAPPINESS] Happiness, and [icon:YIELD_SCIENCE] Science per turn per Age for each Attribute tree in which you have points. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ISABELLA_QUEENS_JEWELRY_NAME" Language="th_TH">
 			<Text>เครื่องประดับของราชินี</Text>		<!-- Queen's Jewelry -->
@@ -11138,7 +11138,7 @@
 			<Text>ตรวจสอบให้แน่ใจว่ามีละติจูดที่ถูกต้อง</Text>		<!-- Ensures proper latitude. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ISABELLA_BALLESTILLA_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1 มุมมองสำหรับยูนิตทหารเรือ</Text>		<!-- +1 Sight for Naval Units. -->
+			<Text>+1 ระยะมองเห็น สำหรับยูนิตทหารเรือ</Text>		<!-- +1 Sight for Naval Units. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ISABELLA_PADRON_REAL_NAME" Language="th_TH">
 			<Text>ปาโดรอน เรอัล</Text>		<!-- Padrón Real -->
@@ -11147,34 +11147,34 @@
 			<Text>ลับที่ถูกทำแผนที่และลงทะเบียนอย่างเป็นทางการ</Text>		<!-- Secrets mapped and royally registered. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ISABELLA_PADRON_REAL_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+100% ผลผลิตจากสิ่งมหัศจรรย์ทางธรรมชาติ หากคุณกำลังทำงานกับช่องสิ่งมหัศจรรย์ทางธรรมชาติส่วนใหญ่[n]+2 พลังต่อสู้ สำหรับเรือทางน้ำหากคุณไม่ได้ทำเช่นนั้น</Text>		<!-- +100% yields on Natural Wonders, if you are working the most Natural Wonder tiles.[n]+2 Combat Strength for Naval Units if you are not. -->
+			<Text>+100% ผลผลิต จากสิ่งมหัศจรรย์ทางธรรมชาติ หากคุณกำลังทำงานกับช่อง สิ่งมหัศจรรย์ทางธรรมชาติ เป็นส่วนใหญ่[n]+2 พลังต่อสู้ สำหรับ ยูนิตทางน้ำ หากคุณไม่ได้ทำเช่นนั้น</Text>		<!-- +100% yields on Natural Wonders, if you are working the most Natural Wonder tiles.[n]+2 Combat Strength for Naval Units if you are not. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_RIZAL_FORGET_ME_NOT_NAME" Language="th_TH">
-			<Text>อย่าลืมฉัน</Text>		<!-- Forget-me-not -->
+			<Text>ดอกอย่าลืมฉัน</Text>		<!-- Forget-me-not -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_RIZAL_FORGET_ME_NOT_DESCRIPTION" Language="th_TH">
 			<Text>ปลูกโดยนักเดินทาง</Text>		<!-- Sown by the traveler. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_RIZAL_FORGET_ME_NOT_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ 10 [icon:YIELD_HAPPINESS]ความสุขต่อยุคเมื่อเสร็จสิ้นเหตุการณ์เล่าเรื่อง</Text>		<!-- Gain 10 [icon:YIELD_HAPPINESS]Happiness per Age for completing Narrative Events. -->
+			<Text>ได้รับ 10 [icon:YIELD_HAPPINESS]ความสุข ต่อยุค เมื่อเสร็จสิ้นเหตุการณ์เล่าเรื่อง</Text>		<!-- Gain 10 [icon:YIELD_HAPPINESS]Happiness per Age for completing Narrative Events. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_RIZAL_OPHTHALMOSCOPE_NAME" Language="th_TH">
-			<Text>อุปกรณ์ตรวจตา</Text>		<!-- Ophthalmoscope -->
+			<Text>ออฟธัลโมสโคป</Text>		<!-- Ophthalmoscope -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_RIZAL_OPHTHALMOSCOPE_DESCRIPTION" Language="th_TH">
 			<Text>ความชัดเจนของวิสัยทัศน์</Text>		<!-- Clarity of vision. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_RIZAL_OPHTHALMOSCOPE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>เพิ่มระยะเวลาเฉลิมฉลองขึ้น 25%</Text>		<!-- +25% Celebration Duration. -->
+			<Text>เพิ่มระยะเวลา การเฉลิมฉลอง ขึ้น 25%</Text>		<!-- +25% Celebration Duration. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_RIZAL_NOLI_ME_TANGERE_NAME" Language="th_TH">
 			<Text>โนลี มี ทังเงอ</Text>		<!-- Noli Me Tángere -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_RIZAL_NOLI_ME_TANGERE_DESCRIPTION" Language="th_TH">
-			<Text>ไปยังประเทศของฉัน</Text>		<!-- To my country. -->
+			<Text>เพื่อประเทศของข้า</Text>		<!-- To my country. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_RIZAL_NOLI_ME_TANGERE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+10% ให้กับ [icon:YIELD_SCIENCE] วิทยาศาสตร์ , [icon:YIELD_CULTURE] วัฒนธรรม , และ [icon:YIELD_GOLD] ทอง สำหรับแต่ละเส้นทางมรดกที่เสร็จสมบูรณ์ในยุคนี้</Text>		<!-- +10% to [icon:YIELD_SCIENCE] Science, [icon:YIELD_CULTURE] Culture, and [icon:YIELD_GOLD] Gold for each Legacy Path completed in this Age. -->
+			<Text>+10% ให้กับ [icon:YIELD_SCIENCE] วิทยาศาสตร์, [icon:YIELD_CULTURE] วัฒนธรรม, และ [icon:YIELD_GOLD] ทอง สำหรับแต่ละ เส้นทางมรดก ที่เสร็จสมบูรณ์ในยุคนี้</Text>		<!-- +10% to [icon:YIELD_SCIENCE] Science, [icon:YIELD_CULTURE] Culture, and [icon:YIELD_GOLD] Gold for each Legacy Path completed in this Age. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_LAFAYETTE_LETTER_ADRIENNE_NAME" Language="th_TH">
 			<Text>จดหมายถึงแอดเรียน</Text>		<!-- Letter to Adrienne -->
@@ -11183,7 +11183,7 @@
 			<Text>ความสุขของมนุษย์ทุกคน</Text>		<!-- The happiness of all mankind. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_LAFAYETTE_LETTER_ADRIENNE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_HAPPINESS] ความสุข ต่อยุคสำหรับนโยบายสังคมแต่ละอย่างที่ถูกจัดสรรในรัฐบาลของคุณ</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness per Age for each Social Policy slotted in your Government. -->
+			<Text>+2[icon:YIELD_HAPPINESS] ความสุข ต่อยุค สำหรับนโยบายสังคม แต่ละอย่างที่ถูกจัดสรรใน รัฐบาลของคุณ</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness per Age for each Social Policy slotted in your Government. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_LAFAYETTE_HERMIONE_MODEL_NAME" Language="th_TH">
 			<Text>โมเดลเฮอร์ไมโอนี่</Text>		<!-- Hermione Model -->
@@ -11192,7 +11192,7 @@
 			<Text>เรือฟริเกตชั้นคอนคอร์ด</Text>		<!-- Concorde-class frigate. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_LAFAYETTE_HERMIONE_MODEL_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1 แต้มเคลื่อนที่ให้กับยูนิตนาวิกโยธินทั้งหมด</Text>		<!-- +1 Movement to all Naval Units. -->
+			<Text>+1 แต้มเคลื่อนที่ ให้กับยูนิตนาวิกโยธินทั้งหมด</Text>		<!-- +1 Movement to all Naval Units. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_LAFAYETTE_TRICOLOUR_COCKADE_NAME" Language="th_TH">
 			<Text>ริบบิ้นสามสี</Text>		<!-- Tricolor Cockade -->
@@ -11201,34 +11201,34 @@
 			<Text>ริบบิ้นตัวแทน</Text>		<!-- Representative ribbon. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_LAFAYETTE_TRICOLOUR_COCKADE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_HAPPINESS] ความสุข ต่อยุคในเมืองหลวง สำหรับทุกประเพณี แต่ไม่ใช่นโยบาย ที่รองรับในรัฐบาลของคุณ</Text>		<!-- +2[icon:YIELD_CULTURE] Culture and [icon:YIELD_HAPPINESS] Happiness per Age in the Capital for every Tradition, but not Policy, slotted into your Government. -->
+			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_HAPPINESS] ความสุข ต่อยุค ในเมืองหลวง สำหรับทุกประเพณี แต่ไม่ใช่นโยบาย ที่รองรับในรัฐบาลของคุณ</Text>		<!-- +2[icon:YIELD_CULTURE] Culture and [icon:YIELD_HAPPINESS] Happiness per Age in the Capital for every Tradition, but not Policy, slotted into your Government. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_MACHIAVELLI_DISCORSI_SOPRA_LIVIO_NAME" Language="th_TH">
-			<Text>การพูดคุยเกี่ยวกับลิวิโอ</Text>		<!-- Discorsi sopra Livio -->
+			<Text>ดิสรอร์ซิ โซปรา ลีวีโอ</Text>		<!-- Discorsi sopra Livio -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_MACHIAVELLI_DISCORSI_SOPRA_LIVIO_DESCRIPTION" Language="th_TH">
 			<Text>ความยืนยาวต้องการการฟื้นฟู</Text>		<!-- Longevity requires renewal. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_MACHIAVELLI_DISCORSI_SOPRA_LIVIO_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>ทำให้ฝ่ายตรงข้ามมีค่าใช้จ่ายเพิ่มขึ้น 50% [icon:YIELD_DIPLOMACY]ในการปฏิเสธการกระทำทางการทูตของคุณ</Text>		<!-- Costs opponents 50% more [icon:YIELD_DIPLOMACY]Influence to reject your Diplomatic Actions. -->
+			<Text>ทำให้ ฝ่ายตรงข้าม มีค่าใช้จ่ายเพิ่มขึ้น 50%[icon:YIELD_DIPLOMACY] อิทธิพล ในการปฏิเสธการกระทำทางการทูตของคุณ</Text>		<!-- Costs opponents 50% more [icon:YIELD_DIPLOMACY]Influence to reject your Diplomatic Actions. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_MACHIAVELLI_DELL_ARTE_DELLA_GUERRA_NAME" Language="th_TH">
-			<Text>ศิลปะแห่งสงคราม</Text>		<!-- Dell'Arte della Guerra -->
+			<Text>เดลล์อาร์เต เดลลา กุแวร์รา</Text>		<!-- Dell'Arte della Guerra -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_MACHIAVELLI_DELL_ARTE_DELLA_GUERRA_DESCRIPTION" Language="th_TH">
 			<Text>ความกังวลเดียวของผู้ที่มีอำนาจ</Text>		<!-- The only concern to one who commands. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_MACHIAVELLI_DELL_ARTE_DELLA_GUERRA_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+5[icon:YIELD_GOLD] ทอง ต่อ การคว่ำบาตร ที่คุณมีใช้งานต่อยุค</Text>		<!-- +5[icon:YIELD_GOLD] Gold per Sanction you have active per Age. -->
+			<Text>+5[icon:YIELD_GOLD] ทอง ต่อการคว่ำบาตร ที่คุณมีใช้งาน ต่อยุค</Text>		<!-- +5[icon:YIELD_GOLD] Gold per Sanction you have active per Age. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_MACHIAVELLI_IL_PRINCIPE_NAME" Language="th_TH">
-			<Text>เจ้าชาย</Text>		<!-- Il Principe -->
+			<Text>อิล พรินซิเป</Text>		<!-- Il Principe -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_MACHIAVELLI_IL_PRINCIPE_DESCRIPTION" Language="th_TH">
-			<Text>เกี่ยวกับความโหดร้ายและความเมตตา</Text>		<!-- Concerning cruelty and clemency. -->
+			<Text>กังวลกับความโหดร้ายและความเมตตา</Text>		<!-- Concerning cruelty and clemency. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_MACHIAVELLI_IL_PRINCIPE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>การประกาศสงครามอย่างเป็นทางการจะทำให้ความสัมพันธ์กับอารยธรรมที่ไม่ได้เป็นเป้าหมายลดลง 25</Text>		<!-- Declaring a Formal War decreases relationship by with all untargeted Civilizations by 25. -->
+			<Text>การประกาศสงครามอย่างเป็นทางการ จะทำให้ความสัมพันธ์กับ อารยธรรม ที่ไม่ได้เป็นเป้าหมายลดลง 25</Text>		<!-- Declaring a Formal War decreases relationship by with all untargeted Civilizations by 25. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_PACHACUTI_TOPAYAURI_NAME" Language="th_TH">
 			<Text>โตปายอุรี</Text>		<!-- Topayauri -->
@@ -11237,16 +11237,16 @@
 			<Text>สัญลักษณ์ของอำนาจและเกียรติยศ</Text>		<!-- Symbol of power and prestige. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_PACHACUTI_TOPAYAURI_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_FOOD] อาหาร ต่อยุคในเขตที่ติดกับภูเขา</Text>		<!-- +1[icon:YIELD_FOOD] Food per Age on Districts adjacent to Mountains. -->
+			<Text>+1[icon:YIELD_FOOD] อาหาร ต่อยุค ในเขตที่ติดกับภูเขา</Text>		<!-- +1[icon:YIELD_FOOD] Food per Age on Districts adjacent to Mountains. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_PACHACUTI_ALL_TOQAPU_TUNIC_NAME" Language="th_TH">
-			<Text>เสื้อทูนิคออล์-ทอคาปู</Text>		<!-- All-T'oqapu Tunic -->
+			<Text>ออล-ทอกาปู ทูนิก</Text>		<!-- All-T'oqapu Tunic -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_PACHACUTI_ALL_TOQAPU_TUNIC_DESCRIPTION" Language="th_TH">
 			<Text>ผ้าคุณภาพดี ลวดลายเรขาคณิต</Text>		<!-- Fine cloth, geometric motifs. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_PACHACUTI_ALL_TOQAPU_TUNIC_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+3 การมองเห็นสำหรับ หน่วยสอดแนม ที่อยู่ติดกับภูเขา</Text>		<!-- +3 Sight for Scouts adjacent to Mountains. -->
+			<Text>+3 ระยะมองเห็น สำหรับ หน่วยสอดแนม ที่อยู่ติดกับภูเขา</Text>		<!-- +3 Sight for Scouts adjacent to Mountains. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_PACHACUTI_MASCAPAYCHA_NAME" Language="th_TH">
 			<Text>มาสกาฟายจา</Text>		<!-- Mascapaycha -->
@@ -11255,7 +11255,7 @@
 			<Text>มงกุฎจักรวรรดิของทาวันตินซูยู</Text>		<!-- Imperial crown of the Tawantinsuyu. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_PACHACUTI_MASCAPAYCHA_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_GOLD] ทอง และ [icon:YIELD_FOOD] อาหาร จากผู้เชี่ยวชาญในช่องที่อยู่ติดกับภูเขา</Text>		<!-- +1[icon:YIELD_GOLD] Gold and [icon:YIELD_FOOD] Food from Specialists in tiles adjacent to Mountains. -->
+			<Text>+1[icon:YIELD_GOLD] ทอง และ [icon:YIELD_FOOD] อาหาร จากผู้เชี่ยวชาญ ในช่องที่อยู่ติดกับภูเขา</Text>		<!-- +1[icon:YIELD_GOLD] Gold and [icon:YIELD_FOOD] Food from Specialists in tiles adjacent to Mountains. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_TRUNG_KIEM_NAME" Language="th_TH">
 			<Text>เกียม</Text>		<!-- Kiem -->
@@ -11273,19 +11273,19 @@
 			<Text>การสนับสนุนอย่างมีน้ำหนัก</Text>		<!-- Elephantine encouragement. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_TRUNG_ANKUS_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1 ฟรีการสนับสนุนสงครามในทุกสงคราม</Text>		<!-- +1 free War Support on all wars. -->
+			<Text>+1 ฟรี การสนับสนุนสงคราม ในทุกสงคราม</Text>		<!-- +1 free War Support on all wars. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_TRUNG_DONG_SON_DRUM_NAME" Language="th_TH">
-			<Text>ระฆังตอนซัน</Text>		<!-- Dong Son Drum -->
+			<Text>กลองดงซอน</Text>		<!-- Dong Son Drum -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_TRUNG_DONG_SON_DRUM_DESCRIPTION" Language="th_TH">
 			<Text>เสียงศักดิ์สิทธิ์</Text>		<!-- Sacred sound. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_TRUNG_DONG_SON_DRUM_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>การประกาศสงครามกับอารยธรรมอื่นจะทำให้เกิดการเฉลิมฉลอง</Text>		<!-- Declaring war against another Civilization grants a Celebration. -->
+			<Text>การ ประกาศสงคราม กับอารยธรรมอื่นจะทำให้เกิด การเฉลิมฉลอง</Text>		<!-- Declaring war against another Civilization grants a Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_XERXES_KING_SCYTHIAN_AXE_NAME" Language="th_TH">
-			<Text>ขวานสงครามชาวสกายธิอัน</Text>		<!-- Scythian Battle-Axe -->
+			<Text>ขวานสงครามสกายธิอัน</Text>		<!-- Scythian Battle-Axe -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_XERXES_KING_SCYTHIAN_AXE_DESCRIPTION" Language="th_TH">
 			<Text>เพื่อปกป้องบัลลังก์</Text>		<!-- To guard the throne. -->
@@ -11300,16 +11300,16 @@
 			<Text>ถืออยู่ในมือ</Text>		<!-- Held in hand. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_XERXES_KING_LOTUS_BLOSSOM_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+4% ของรายได้ [icon:YIELD_GOLD] ทอง ของคุณเป็น [icon:YIELD_SCIENCE] วิทยาศาสตร์ และ [icon:YIELD_CULTURE] วัฒนธรรม เพิ่มเติม۔</Text>		<!-- +4% of your [icon:YIELD_GOLD] Gold income as additional [icon:YIELD_SCIENCE]Science and [icon:YIELD_CULTURE]Culture. -->
+			<Text>+4% ของรายได้ [icon:YIELD_GOLD] ทอง ของคุณเป็น [icon:YIELD_SCIENCE] วิทยาศาสตร์ และ [icon:YIELD_CULTURE] วัฒนธรรม เพิ่มเติม</Text>		<!-- +4% of your [icon:YIELD_GOLD] Gold income as additional [icon:YIELD_SCIENCE]Science and [icon:YIELD_CULTURE]Culture. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_XERXES_KING_GOLDEN_SCEPTRE_NAME" Language="th_TH">
-			<Text>สัปเหร่อทองคำ</Text>		<!-- Golden Sceptre -->
+			<Text>คฑาทองคำ</Text>		<!-- Golden Sceptre -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_XERXES_KING_GOLDEN_SCEPTRE_DESCRIPTION" Language="th_TH">
 			<Text>ขยายความโปรดปราน</Text>		<!-- Extends favor. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_XERXES_KING_GOLDEN_SCEPTRE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_GOLD] ทอง ต่อยุคสำหรับถิ่นฐานของอารยธรรมอื่นที่คุณได้พิชิต</Text>		<!-- +3[icon:YIELD_GOLD] Gold per age for each other Civilization's Settlement you have conquered. -->
+			<Text>+3[icon:YIELD_GOLD] ทอง ต่อยุค สำหรับถิ่นฐานของอารยธรรมอื่น ที่คุณได้ยึดครอง</Text>		<!-- +3[icon:YIELD_GOLD] Gold per age for each other Civilization's Settlement you have conquered. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_SLING_BULLET_UNLOCK_TITLE" Language="th_TH">
 			<Text>ปลดล็อกที่เลเวล 2</Text>		<!-- Unlock at level 2 -->
@@ -11336,22 +11336,22 @@
 			<Text>ปลดล็อกที่เลเวล 8</Text>		<!-- Unlock at level 8 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_IMAGO_MUNDI_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อคที่เลเวล 9</Text>		<!-- Unlock at level 9 -->
+			<Text>ปลดล็อกที่เลเวล 9</Text>		<!-- Unlock at level 9 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_CORPUS_JURIS_CIVILIS_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อคที่เลเวล 10</Text>		<!-- Unlock at level 10 -->
+			<Text>ปลดล็อกที่เลเวล 10</Text>		<!-- Unlock at level 10 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_TRAVELS_MARCO_POLO_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อคที่เลเวล 11</Text>		<!-- Unlock at level 11 -->
+			<Text>ปลดล็อกที่เลเวล 11</Text>		<!-- Unlock at level 11 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_EQUESTRIAN_FIGURE_UNLOCK_TITLE" Language="th_TH">
 			<Text>ปลดล็อกที่เลเวล 12</Text>		<!-- Unlock at level 12 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_POCHTECA_BACKPACK_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อคที่เลเวล 13</Text>		<!-- Unlock at level 13 -->
+			<Text>ปลดล็อกที่เลเวล 13</Text>		<!-- Unlock at level 13 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_COLADA_TIZONA_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อคที่เลเวล 14</Text>		<!-- Unlock at level 14 -->
+			<Text>ปลดล็อกที่เลเวล 14</Text>		<!-- Unlock at level 14 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_SHISA_NECKLACE_UNLOCK_TITLE" Language="th_TH">
 			<Text>ปลดล็อกที่เลเวล 15</Text>		<!-- Unlock at level 15 -->
@@ -11360,10 +11360,10 @@
 			<Text>ปลดล็อกที่เลเวล 16</Text>		<!-- Unlock at level 16 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_GARUDA_STATUE_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อคที่เลเวล 17</Text>		<!-- Unlock at level 17 -->
+			<Text>ปลดล็อกที่เลเวล 17</Text>		<!-- Unlock at level 17 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_ART_OF_WAR_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อคที่เลเวล 18</Text>		<!-- Unlock at level 18 -->
+			<Text>ปลดล็อกที่เลเวล 18</Text>		<!-- Unlock at level 18 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_GAME_OF_UR_UNLOCK_TITLE" Language="th_TH">
 			<Text>ปลดล็อกที่เลเวล 19</Text>		<!-- Unlock at level 19 -->
@@ -11390,7 +11390,7 @@
 			<Text>ปลดล็อกที่เลเวล 2 ของออกัสตัส</Text>		<!-- Unlock at Augustus level 2 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AUGUSTUS_BREASTPLATE_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อคที่เลเวล 5 ของออกัสตัส</Text>		<!-- Unlock at Augustus level 5 -->
+			<Text>ปลดล็อกที่เลเวล 5 ของออกัสตัส</Text>		<!-- Unlock at Augustus level 5 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AUGUSTUS_CLIPEUS_VIRTUTIS_UNLOCK_TITLE" Language="th_TH">
 			<Text>ปลดล็อกที่เลเวล 9 ของออกัสตัส</Text>		<!-- Unlock at Augustus level 9 -->
@@ -11405,10 +11405,10 @@
 			<Text>ปลดล็อกที่เลเวล 9 ของเบนจามิน แฟรงคลิน</Text>		<!-- Unlock at Benjamin Franklin level 9 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CATHERINE_TIARA_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อคที่เลเวล 2 ของแคเทอรีน</Text>		<!-- Unlock at Catherine level 2 -->
+			<Text>ปลดล็อกที่เลเวล 2 ของแคเทอรีน</Text>		<!-- Unlock at Catherine level 2 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CATHERINE_POTEMKINS_SWORD_KNOT_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อคที่เลเวล 5 ของแคเทอรีน</Text>		<!-- Unlock at Catherine level 5 -->
+			<Text>ปลดล็อกที่เลเวล 5 ของแคเทอรีน</Text>		<!-- Unlock at Catherine level 5 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CATHERINE_EAGLE_BANNER_UNLOCK_TITLE" Language="th_TH">
 			<Text>ปลดล็อกที่เลเวล 9 ของแคเทอรีน</Text>		<!-- Unlock at Catherine level 9 -->
@@ -11420,10 +11420,10 @@
 			<Text>ปลดล็อกที่เลเวล 5 ของชาร์ลมาญ</Text>		<!-- Unlock at Charlemagne level 5 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CHARLEMAGNE_TENCENDUR_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อคที่เลเวล 9 ของชาร์ลมาญ</Text>		<!-- Unlock at Charlemagne level 9 -->
+			<Text>ปลดล็อกที่เลเวล 9 ของชาร์ลมาญ</Text>		<!-- Unlock at Charlemagne level 9 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CONFUCIUS_BRUSH_SCROLL_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อคที่เลเวล 2 ของขงจื๊อ</Text>		<!-- Unlock at Confucius level 2 -->
+			<Text>ปลดล็อกที่เลเวล 2 ของขงจื๊อ</Text>		<!-- Unlock at Confucius level 2 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CONFUCIUS_ALTAR_SET_UNLOCK_TITLE" Language="th_TH">
 			<Text>ปลดล็อกที่เลเวล 5 ของขงจื๊อ</Text>		<!-- Unlock at Confucius level 5 -->
@@ -11471,7 +11471,7 @@
 			<Text>ปลดล็อกที่เลเวล 2 ของอิบน์บัตตูตะ</Text>		<!-- Unlock at Ibn Battuta level 2 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BATTUTA_MERCHANTS_SADDLE_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อคที่เลเวล 5 ของอิบน์บัตตูตะ</Text>		<!-- Unlock at Ibn Battuta level 5 -->
+			<Text>ปลดล็อกที่เลเวล 5 ของอิบน์บัตตูตะ</Text>		<!-- Unlock at Ibn Battuta level 5 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BATTUTA_RIHLA_UNLOCK_TITLE" Language="th_TH">
 			<Text>ปลดล็อกที่เลเวล 9 ของอิบน์บัตตูตะ</Text>		<!-- Unlock at Ibn Battuta level 9 -->
@@ -11480,7 +11480,7 @@
 			<Text>ปลดล็อกที่เลเวล 2 ของอิซาเบลล่า</Text>		<!-- Unlock at Isabella level 2 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ISABELLA_BALLESTILLA_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อคที่เลเวล 5 ของอิซาเบลล่า</Text>		<!-- Unlock at Isabella level 5 -->
+			<Text>ปลดล็อกที่เลเวล 5 ของอิซาเบลล่า</Text>		<!-- Unlock at Isabella level 5 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ISABELLA_PADRON_REAL_UNLOCK_TITLE" Language="th_TH">
 			<Text>ปลดล็อกที่เลเวล 9 ของอิซาเบลล่า</Text>		<!-- Unlock at Isabella level 9 -->
@@ -11489,7 +11489,7 @@
 			<Text>ปลดล็อกที่เลเวล 2 ของโฮเซ รีซัล</Text>		<!-- Unlock at Jose Rizal level 2 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_RIZAL_OPHTHALMOSCOPE_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อคที่เลเวล 5 ของโฮเซ รีซัล</Text>		<!-- Unlock at Jose Rizal level 5 -->
+			<Text>ปลดล็อกที่เลเวล 5 ของโฮเซ รีซัล</Text>		<!-- Unlock at Jose Rizal level 5 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_RIZAL_NOLI_ME_TANGERE_UNLOCK_TITLE" Language="th_TH">
 			<Text>ปลดล็อกที่เลเวล 9 ของโฮเซ รีซัล</Text>		<!-- Unlock at Jose Rizal level 9 -->
@@ -11540,10 +11540,10 @@
 			<Text>ปลดล็อกที่เลเวล 9 ของพระเจ้าเซิร์กซีส กษัตริย์แห่งกษัตริย์</Text>		<!-- Unlock at Xerxes King of Kings level 9 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_SLOT_1_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อกที่พื้นฐานเลเวล 2</Text>		<!-- Unlock at Foundation level 2 -->
+			<Text>ปลดล็อกที่ ความสำเร็จ เลเวล 2</Text>		<!-- Unlock at Foundation level 2 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_SLOT_2_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อคที่พื้นฐานเลเวล 5</Text>		<!-- Unlock at Foundation level 5 -->
+			<Text>ปลดล็อกที่ ความสำเร็จ เลเวล 5</Text>		<!-- Unlock at Foundation level 5 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_AKSUM_LEGACY_PATH_ECONOMIC_NAME" Language="th_TH">
 			<Text>เส้นทางมรดกอักซุม</Text>		<!-- Aksum Legacy Path -->
@@ -21101,13 +21101,13 @@
 			<Text>การประกาศสงคราม</Text>		<!-- Declaration of War -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DECLARE_WAR_SUMMARY" Language="th_TH">
-			<Text>ผู้นำ {1_leader} ได้ประกาศสงครามกับ {2_leader}</Text>		<!-- {LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} {1_leader: plural 1?has; other?have;} declared war on {LOC_GRAMMAR_LEADER &lt;&lt; {2_leader}}. -->
+			<Text>ผู้นำ {1_leader} ได้ประกาศสงครามกับ {2_leader}</Text>		<!-- {LOC_GRAMMAR_LEADER_UPPER &amp;lt;&amp;lt; {1_leader}} {1_leader: plural 1?has; other?have;} declared war on {LOC_GRAMMAR_LEADER &amp;lt;&amp;lt; {2_leader}}. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_MAKE_PEACE_MESSAGE" Language="th_TH">
 			<Text>เกิดสันติภาพขึ้นแล้ว</Text>		<!-- Peace has been made -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_MAKE_PEACE_SUMMARY" Language="th_TH">
-			<Text>ผู้นำได้ทำสันติภาพกับผู้นำอื่นๆ</Text>		<!-- {LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} {1_leader: plural 1?has; other?have;} made peace with {LOC_GRAMMAR_LEADER &lt;&lt; {2_leader}}. -->
+			<Text>ผู้นำได้ทำสันติภาพกับผู้นำอื่นๆ</Text>		<!-- {LOC_GRAMMAR_LEADER_UPPER &amp;lt;&amp;lt; {1_leader}} {1_leader: plural 1?has; other?have;} made peace with {LOC_GRAMMAR_LEADER &amp;lt;&amp;lt; {2_leader}}. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_UNIT_CAPTURED_MESSAGE" Language="th_TH">
 			<Text>ยูนิตที่ถูกจับกุม</Text>		<!-- Unit Captured -->
@@ -21161,7 +21161,7 @@
 			<Text>{1_Contructible} ถูกปล้น!</Text>		<!-- {1_Contructible} Pillaged! -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_BUILDING_PILLAGED_SUMMARY" Language="th_TH">
-			<Text>{1_CivName} ได้ทำลาย {LOC_GRAMMAR_A_AN &lt;&lt; {2_Constructible}} ในถิ่นฐานของ {3_SettlementName}</Text>		<!-- {1_CivName} has pillaged {LOC_GRAMMAR_A_AN &lt;&lt; {2_Constructible}} in the settlement of {3_SettlementName}. -->
+			<Text>{1_CivName} ได้ทำลาย {LOC_GRAMMAR_A_AN &amp;lt;&amp;lt; {2_Constructible}} ในถิ่นฐานของ {3_SettlementName}</Text>		<!-- {1_CivName} has pillaged {LOC_GRAMMAR_A_AN &amp;lt;&amp;lt; {2_Constructible}} in the settlement of {3_SettlementName}. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_TRADE_ROUTE_PLUNDERED_MESSAGE" Language="th_TH">
 			<Text>เส้นทางการค้าโดนปล้น</Text>		<!-- Trade Route Plundered -->
@@ -21410,13 +21410,13 @@
 			<Text>เส้นทางมรดก</Text>		<!-- Legacy Path -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_LEGACY_PATH_PROGRESS_SUMMARY" Language="th_TH">
-			<Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_LeaderName}} ได้ทำ หมุดหมาย สำเร็จสำหรับ {2_LegacyPathName}!</Text>		<!-- {LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_LeaderName}} {LOC_GRAMMAR_HAS_HAVE &lt;&lt; {1_LeaderName}} completed a milestone for {2_LegacyPathName}! -->
+			<Text>{LOC_GRAMMAR_LEADER_UPPER &amp;lt;&amp;lt; {1_LeaderName}} ได้ทำ หมุดหมาย สำเร็จสำหรับ {2_LegacyPathName}!</Text>		<!-- {LOC_GRAMMAR_LEADER_UPPER &amp;lt;&amp;lt; {1_LeaderName}} {LOC_GRAMMAR_HAS_HAVE &amp;lt;&amp;lt; {1_LeaderName}} completed a milestone for {2_LegacyPathName}! -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_LEGACY_PATH_COMPLETE_MESSAGE" Language="th_TH">
 			<Text>เส้นทางมรดก</Text>		<!-- Legacy Path -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_LEGACY_PATH_COMPLETE_SUMMARY" Language="th_TH">
-			<Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_LeaderName}} ได้สำเร็จ {2_LegacyPathName}!</Text>		<!-- {LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_LeaderName}} {LOC_GRAMMAR_HAS_HAVE &lt;&lt; {1_LeaderName}} completed {2_LegacyPathName}! -->
+			<Text>{LOC_GRAMMAR_LEADER_UPPER &amp;lt;&amp;lt; {1_LeaderName}} ได้สำเร็จ {2_LegacyPathName}!</Text>		<!-- {LOC_GRAMMAR_LEADER_UPPER &amp;lt;&amp;lt; {1_LeaderName}} {LOC_GRAMMAR_HAS_HAVE &amp;lt;&amp;lt; {1_LeaderName}} completed {2_LegacyPathName}! -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_PLAYER_CONNECTING" Language="th_TH">
 			<Text>{1_playerName} เข้าร่วม</Text>		<!-- {1_playerName} Joining -->
@@ -25158,7 +25158,7 @@
 			<Text>คุณได้จบยุค {1_Age} แล้ว</Text>		<!-- You have finished the {1_Age} Age. -->
 		</Replace>
 		<Replace Tag="LOC_AGE_LOADOUT_BODY_FOUR" Language="th_TH">
-			<Text>&lt;&lt;ผู้เล่นจะได้รับเชิญให้ดาวน์โหลดยุคถัดไป&gt;&gt;</Text>		<!-- &lt;&lt;Player will be invited to download the next age&gt;&gt; -->
+			<Text>&amp;lt;&amp;lt;ผู้เล่นจะได้รับเชิญให้ดาวน์โหลดยุคถัดไป&amp;gt;&amp;gt;</Text>		<!-- &amp;lt;&amp;lt;Player will be invited to download the next age&amp;gt;&amp;gt; -->
 		</Replace>
 		<Replace Tag="LOC_AGE_LOADOUT_CONTINUE" Language="th_TH">
 			<Text>ดำเนินการต่อ</Text>		<!-- Continue -->
@@ -27768,13 +27768,13 @@
 			<Text>ช่องของที่ระลึก 1</Text>		<!-- Memento Slot 1 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_SLOT_1_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกช่องความทรงจำแรกของคุณ</Text>		<!-- Unlock your first Memento Slot. -->
+			<Text>ปลดล็อกช่อง ของที่ระลึก แรกของคุณ</Text>		<!-- Unlock your first Memento Slot. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_SLOT_2_NAME" Language="th_TH">
 			<Text>ช่องของที่ระลึก 2</Text>		<!-- Memento Slot 2 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_SLOT_2_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกช่องที่ระลึกที่สองของคุณ</Text>		<!-- Unlock your second Memento Slot. -->
+			<Text>ปลดล็อกช่อง ของที่ระลึก ที่สองของคุณ</Text>		<!-- Unlock your second Memento Slot. -->
 		</Replace>
 		<Replace Tag="LOC_TITLE_FOUNDATION_1_NAME" Language="th_TH">
 			<Text>นักเขียนลวกๆ</Text>		<!-- Scrawling Scribe -->
@@ -28771,7 +28771,7 @@
 			<Text>+25% ความสัมพันธ์ จากการเริ่มต้นหรือสนับสนุน ความร่วมมือ, -25% ความสัมพันธ์จากการเริ่มต้น คว่ำบาตร หรือปฏิเสธความพยายาม</Text>		<!-- +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_ASHOKA_RENOUNCER_L2_NAME" Language="th_TH">
-			<Text>โหนดคุณลักษณะขยายตัว</Text>		<!-- Expansionist Attribute Node -->
+			<Text>โหนดคุณลักษณะขยายอณาเขต</Text>		<!-- Expansionist Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_ASHOKA_RENOUNCER_L2_DESCRIPTION" Language="th_TH">
 			<Text>ทอง +50% สำหรับการเปลี่ยนเมืองเล็กให้กลายเป็นเมืองใหญ่</Text>		<!-- +50% Gold towards converting a Town to a City. -->
@@ -28891,7 +28891,7 @@
 			<Text>+25% ทอง จากการค้า และกองเรือสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Fleets. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_BATTUTA_L2_NAME" Language="th_TH">
-			<Text>โหนดคุณลักษณะขยายตัว</Text>		<!-- Expansionist Attribute Node -->
+			<Text>โหนดคุณลักษณะขยายอณาเขต</Text>		<!-- Expansionist Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_BATTUTA_L2_DESCRIPTION" Language="th_TH">
 			<Text>+50% ทองสำหรับการเปลี่ยนเมืองเป็นเมืองใหญ่</Text>		<!-- +50% Gold towards converting a Town to a City. -->
