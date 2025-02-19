@@ -371,7 +371,7 @@
 			<Text>เพิ่มมรดกหรือเลือกการตั้งค่าล่วงหน้าเพื่อวางแผนอารยธรรมของคุณในยุคนี้</Text>		<!-- Add Legacies or select a Preset to plan your Civilization in this Age. -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_START_AUTOFILL" Language="th_TH">
-			<Text>เติมอัตโนมัติ</Text>		<!-- Auto-Fill -->
+			<Text>เลือกอัตโนมัติ</Text>		<!-- Auto-Fill -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_START_CONFIRM_LEGACIES" Language="th_TH">
 			<Text>ยืนยันมรดก</Text>		<!-- Confirm Legacies -->
@@ -1142,7 +1142,7 @@
 			<Text>+15%[icon:YIELD_PRODUCTION] กำลังผลิต ต่อการฝึกอบรมยูนิตทหาร</Text>		<!-- +15%[icon:YIELD_PRODUCTION] Production towards training Military Units. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_05_DESCRIPTION" Language="th_TH">
-			<Text>ไม่สนใจบทลงโทษ [icon:YIELD_HAPPINESS] ความสุข จากความไม่สงบ ในถิ่นฐานที่เราพึ่งยึดครอง</Text>		<!-- Ignore the [icon:YIELD_HAPPINESS] Happiness penalty from Unrest in captured Settlements. -->
+			<Text>ไม่สนใจบทลงโทษ [icon:YIELD_HAPPINESS] ความสุข จากความไม่สงบ ใน ถิ่นฐาน ที่เราพึ่งยึดครอง</Text>		<!-- Ignore the [icon:YIELD_HAPPINESS] Happiness penalty from Unrest in captured Settlements. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_06_DESCRIPTION" Language="th_TH">
 			<Text>ผู้บัญชาการที่ประจำการ ในเมือง ลดบทลงโทษ[icon:YIELD_HAPPINESS] ความสุข ได้เพิ่มเติมอีก 10%</Text>		<!-- Garrisoned Commanders reduce[icon:YIELD_HAPPINESS] Happiness penalties by an additional 10%. -->
@@ -1454,7 +1454,7 @@
 			<Text>กรีซ</Text>		<!-- Greece -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_HAN_NAME" Language="th_TH">
-			<Text>ฮั่น</Text>		<!-- Han -->
+			<Text>ราชวงศ์ฮั่น</Text>		<!-- Han -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_KHMER_NAME" Language="th_TH">
 			<Text>ขอม</Text>		<!-- Khmer -->
@@ -1490,7 +1490,7 @@
 			<Text>จักรวรรดิขอม</Text>		<!-- Khmer Empire -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_MAURYA_FULLNAME" Language="th_TH">
-			<Text>จักรวรรดิเหมารยะ</Text>		<!-- Mauryan Empire -->
+			<Text>จักรวรรดิเมารยะ</Text>		<!-- Mauryan Empire -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_MAYA_FULLNAME" Language="th_TH">
 			<Text>จักรวรรดิมายา</Text>		<!-- Maya Empire -->
@@ -1514,7 +1514,7 @@
 			<Text>กรีก</Text>		<!-- Greek -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_HAN_ADJECTIVE" Language="th_TH">
-			<Text>ฮั่น</Text>		<!-- Han -->
+			<Text>ราชวงศ์ฮั่น</Text>		<!-- Han -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_KHMER_ADJECTIVE" Language="th_TH">
 			<Text>ขอม</Text>		<!-- Khmer -->
@@ -1568,7 +1568,7 @@
 			<Text>จักรวรรดิอับบาซิด</Text>		<!-- Abbasid Empire -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_CHOLA_FULLNAME" Language="th_TH">
-			<Text>จักรวรรดิโชละ</Text>		<!-- Chola Empire -->
+			<Text>จักรวรรดิโจฬะ</Text>		<!-- Chola Empire -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_HAWAII_FULLNAME" Language="th_TH">
 			<Text>จักรวรรดิฮาวาย</Text>		<!-- Hawaiian Empire -->
@@ -1598,7 +1598,7 @@
 			<Text>อับบาซิด</Text>		<!-- Abbasid -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_CHOLA_ADJECTIVE" Language="th_TH">
-			<Text>โชละ</Text>		<!-- Chola -->
+			<Text>โจฬะ</Text>		<!-- Chola -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_HAWAII_ADJECTIVE" Language="th_TH">
 			<Text>ฮาวาย</Text>		<!-- Hawaiian -->
@@ -1880,7 +1880,7 @@
 			<Text>ชีวนิเวศ</Text>		<!-- Biomes -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGEGROUP_FEATURES_NAME" Language="th_TH">
-			<Text>คุณสมบัติ</Text>		<!-- Features -->
+			<Text>ลักษณะ</Text>		<!-- Features -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGEGROUP_NATURAL_WONDERS_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ทางธรรมชาติ</Text>		<!-- Natural Wonders -->
@@ -2606,7 +2606,7 @@
 			<Text>เคล็ดลับ: การวางยูนิตประชิดในด้านหน้าของยูนิตระยะไกลเป็นรูปแบบที่คลาสสิกและมีประสิทธิภาพ มุ่งหวังที่จะใช้กลยุทธ์นี้บ่อยๆ! หากคุณมีปัญหาในการรบ ให้มองหาวิธีอื่นในการเพิ่มพลังต่อสู้ของยูนิตของคุณ</Text>		<!-- Tip: Positioning a melee unit in front of a ranged unit is a classic and effective formation. Aim to use this tactic frequently! If you're having difficulty in warfare, look for different ways to boost your units' combat strength. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_ATTRIBUTE_1_TITLE" Language="th_TH">
-			<Text>คุณสมบัติ</Text>		<!-- Attribute -->
+			<Text>คุณลักษณะ</Text>		<!-- Attribute -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_ATTRIBUTE_1_CHAPTER_CONTENT_PARA_1" Language="th_TH">
 			<Text>คุณลักษณะคืออัตลักษณ์ที่ผู้นำของคุณได้รับตลอดแคมเปญ Civilization ซึ่งเพิ่มองค์ประกอบ RPG ให้กับเกม โดยแต่ละคุณลักษณะจะแทนพื้นที่ที่ผู้นำอาจเก่ง เช่น วิทยาศาสตร์ วัฒนธรรม หรือทหาร คะแนน คุณลักษณะที่สะสมได้สามารถนำไปใช้ใน ผังทักษะที่เกี่ยวข้อง ซึ่งจะมอบโบนัสที่คงอยู่ตลอดทุกยุค ระบบนี้ทำให้ผู้เล่นสามารถปรับแต่งผู้นำของตนได้หลายวิธี และแม้แต่เล่นผู้นำเดียวกันในหลายวิธีในหลายเกม</Text>		<!-- Attributes are traits your leader earns throughout a Civilization campaign. These add an RPG element to the game. Each Attribute represents an area in which a leader might excel, such as Science, Culture, or Military. Accumulated Attribute Points can be spent on corresponding Skill Trees, granting bonuses that persist across every Age. This system lets players customize their leaders in various ways and even play the same leader in different ways in multiple games. -->
@@ -5437,7 +5437,7 @@
 			<Text>ข้าหลวง</Text>		<!-- Governor -->
 		</Replace>
 		<Replace Tag="LOC_DIFFICULTY_KING_NAME" Language="th_TH">
-			<Text>ผู้แทน</Text>		<!-- Viceroy -->
+			<Text>อุปราช</Text>		<!-- Viceroy -->
 		</Replace>
 		<Replace Tag="LOC_DIFFICULTY_EMPEROR_NAME" Language="th_TH">
 			<Text>กษัตริย์</Text>		<!-- Sovereign -->
@@ -5983,7 +5983,7 @@
 			<Text>พิธีจรัส</Text>		<!-- Pithi Chrat -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_PITHI_CHRAT_DESCRIPTION" Language="th_TH">
-			<Text>+4 พลังต่อสู้สำหรับยูนิตใน พื้นที่น้ำท่วม</Text>		<!-- +4 Combat Strength for Units on Floodplains. -->
+			<Text>+4 พลังต่อสู้ สำหรับยูนิตใน พื้นที่น้ำท่วม</Text>		<!-- +4 Combat Strength for Units on Floodplains. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_VARNA_NAME" Language="th_TH">
 			<Text>วาร์นา</Text>		<!-- Varna -->
@@ -6082,7 +6082,7 @@
 			<Text>ชาห์อันชาห์</Text>		<!-- Shahanshah -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SHAHANSHAH_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้สำหรับยูนิตในเขตศัตรู</Text>		<!-- +3 Combat Strength for Units in enemy territory. -->
+			<Text>+3 พลังต่อสู้ สำหรับยูนิตในเขตศัตรู</Text>		<!-- +3 Combat Strength for Units in enemy territory. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SHAHANSHAH_PREVIEW" Language="th_TH">
 			<Text>+{1_Amount} ชาฮันชาห์</Text>		<!-- +{1_Amount} Shahanshah -->
@@ -6223,7 +6223,7 @@
 			<Text>บากาตูร์</Text>		<!-- Baghatur -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_BAGHATUR_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้สำหรับยูนิตทหารม้า</Text>		<!-- +5 Combat Strength for Cavalry Units. -->
+			<Text>+5 พลังต่อสู้ สำหรับยูนิตทหารม้า</Text>		<!-- +5 Combat Strength for Cavalry Units. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_BAGHATUR_PREVIEW" Language="th_TH">
 			<Text>+{1_amount} บากาตูร์</Text>		<!-- +{1_amount} Baghatur -->
@@ -6392,7 +6392,7 @@
 			<Text>โคคุตาอิ</Text>		<!-- Kōkūtai -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_KOKUTAI_DESCRIPTION" Language="th_TH">
-			<Text>+6 พลังต่อสู้สำหรับเครื่องบินที่โจมตียูนิตศัตรูที่กำลังมีส่วนร่วมกับยูนิตเรือ</Text>		<!-- +6 Combat Strength for Aircraft attacking an enemy Unit engaged by a Naval Unit. -->
+			<Text>+6 พลังต่อสู้ สำหรับเครื่องบินที่โจมตียูนิตศัตรูที่กำลังมีส่วนร่วมกับยูนิตเรือ</Text>		<!-- +6 Combat Strength for Aircraft attacking an enemy Unit engaged by a Naval Unit. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_CORRIDOS_NAME" Language="th_TH">
 			<Text>คอรีโดส</Text>		<!-- Corridos -->
@@ -6404,7 +6404,7 @@
 			<Text>เสียงร้องของดอโลเรส</Text>		<!-- Cry of Dolores -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_CRY_OF_DOLORES_DESCRIPTION" Language="th_TH">
-			<Text>+1 พลังต่อสู้สำหรับยูนิตบกและเรือในดินแดนมิตรภาพสำหรับทุกประเพณีที่ถูกจัดสรรในรัฐบาล</Text>		<!-- +1 Combat Strength for Land and Naval Units in friendly territory for every Tradition slotted into the Government. -->
+			<Text>+1 พลังต่อสู้ สำหรับยูนิตบกและเรือในดินแดนมิตรภาพสำหรับทุกประเพณีที่ถูกจัดสรรในรัฐบาล</Text>		<!-- +1 Combat Strength for Land and Naval Units in friendly territory for every Tradition slotted into the Government. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_LA_REFORMA_NAME" Language="th_TH">
 			<Text>ลา เรฟอร์มา</Text>		<!-- La Reforma -->
@@ -6434,7 +6434,7 @@
 			<Text>อาณาจักรดินปืน</Text>		<!-- Gunpowder Empire -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_GUNPOWDER_EMPIRE_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้สำหรับยูนิตทั้งหมด</Text>		<!-- +3 Combat Strength for all Units. -->
+			<Text>+3 พลังต่อสู้ สำหรับยูนิตทั้งหมด</Text>		<!-- +3 Combat Strength for all Units. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_MAYURASANA_NAME" Language="th_TH">
 			<Text>มายุราสนะ</Text>		<!-- Mayūrāsana -->
@@ -6467,7 +6467,7 @@
 			<Text>+3 ไม้กางเขนเหล็ก</Text>		<!-- +3 Iron Cross. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_IRON_CROSS_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้สำหรับยูนิตที่อยู่ภายในรัศมีคำสั่งของผู้บัญชาที่ได้รับคำชม</Text>		<!-- +3 Combat Strength for Units within the Command Radius of a Commander with a Commendation. -->
+			<Text>+3 พลังต่อสู้ สำหรับยูนิตที่อยู่ภายในรัศมีคำสั่งของผู้บัญชาที่ได้รับคำชม</Text>		<!-- +3 Combat Strength for Units within the Command Radius of a Commander with a Commendation. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_CHUANG_GUANDONG_NAME" Language="th_TH">
 			<Text>ฉวงกวนตง</Text>		<!-- Chuang Guandong -->
@@ -6512,7 +6512,7 @@
 			<Text>พลเอกมอโรซ</Text>		<!-- General Moroz -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_GENERAL_MOROZ_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้สำหรับยูนิตในเขตหนาว</Text>		<!-- +5 Combat Strength for Units in Tundra. -->
+			<Text>+5 พลังต่อสู้ สำหรับยูนิตในเขตหนาว</Text>		<!-- +5 Combat Strength for Units in Tundra. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SAKDINA_NAME" Language="th_TH">
 			<Text>ศักดินา</Text>		<!-- Sakdina -->
@@ -6632,7 +6632,7 @@
 			<Text>เป็นเพื่อน - {1_villageName}</Text>		<!-- Befriending - {1_villageName} -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_GIVE_INFLUENCE_TOKEN_PROJECT_NAME" Language="th_TH">
-			<Text>ทำความรู้จักกับรัฐอิสระ</Text>		<!-- Befriend Independent -->
+			<Text>เป็นมิตรกับรัฐอิสระ</Text>		<!-- Befriend Independent -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_GIVE_INFLUENCE_TOKEN_WINNING" Language="th_TH">
 			<Text>คุณก้าวล้ำหน้าทุกอารยธรรมอื่นๆ</Text>		<!-- You are outpacing all other Civilizations -->
@@ -8222,7 +8222,7 @@
 			<Text>กองหลัง</Text>		<!-- Defender -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ATTRIBUTES_BUTTON_NAME" Language="th_TH">
-			<Text>คุณสมบัติ</Text>		<!-- Attributes -->
+			<Text>คุณลักษณะ</Text>		<!-- Attributes -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_START_PROJECT_BUTTON" Language="th_TH">
 			<Text>เริ่มโครงการ</Text>		<!-- Start Project -->
@@ -9587,13 +9587,13 @@
 			<Text>จุดเริ่มต้นของทุกสิ่งนั้นเล็กน้อย แต่ในที่สุด ฉันจะสร้างเมืองด้วยหินอ่อน จากเมืองที่เคยเป็นอิฐมาก่อน</Text>		<!-- The beginnings of all things are small. But in the end, I will raise a city of marble where once were bricks.  -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_LEADER_AUGUSTUS_ANY" Language="th_TH">
-			<Text>ข้าคือออกตาเวียน, ออกุสตัส ซีซาร์ พลเมืองคนแรก และเป็นจักรพรรดิของโลก</Text>		<!-- I am Octavian, Augustus Caesar, a simple first citizen. And emperor of the world.  -->
+			<Text>ข้าคือออกตาเวียน, ออกัสตัส ซีซาร์ พลเมืองคนแรก และเป็นจักรพรรดิของโลก</Text>		<!-- I am Octavian, Augustus Caesar, a simple first citizen. And emperor of the world.  -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_RECIPIENT_LEADER_AUGUSTUS_ANY" Language="th_TH">
-			<Text>ข้าคือออกตาเวียน, ออกุสตัส ซีซาร์ พลเมืองคนแรก และเป็นจักรพรรดิของโลก</Text>		<!-- I am Octavian, Augustus Caesar, a simple first citizen. And emperor of the world.  -->
+			<Text>ข้าคือออกตาเวียน, ออกัสตัส ซีซาร์ พลเมืองคนแรก และเป็นจักรพรรดิของโลก</Text>		<!-- I am Octavian, Augustus Caesar, a simple first citizen. And emperor of the world.  -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_LEADER_AUGUSTUS_ANY" Language="th_TH">
-			<Text>ข้าคือออกตาเวียน, ออกุสตัส ซีซาร์ พลเมืองคนแรก และเป็นจักรพรรดิของโลก</Text>		<!-- I am Octavian, Augustus Caesar, a simple first citizen. And emperor of the world.  -->
+			<Text>ข้าคือออกตาเวียน, ออกัสตัส ซีซาร์ พลเมืองคนแรก และเป็นจักรพรรดิของโลก</Text>		<!-- I am Octavian, Augustus Caesar, a simple first citizen. And emperor of the world.  -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_INITIATOR_LEADER_AUGUSTUS_ANY" Language="th_TH">
 			<Text>ทุกอย่างได้ถูกกำหนดแล้ว</Text>		<!-- The die is cast. -->
@@ -10070,7 +10070,7 @@
 			<Text>ธรรมราชา</Text>		<!-- Dhammaraja -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ASHOKA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+1 [icon:YIELD_FOOD] อาหาร [/B]ใน [B]เมือง [/B]สำหรับทุก [B]ความสุขเกิน [icon:YIELD_HAPPINESS] ความสุข [/B].[LI][B]+10% [icon:YIELD_FOOD] อาหาร [/B]ในทุกถิ่นฐานในช่วง [B]การเฉลิมฉลอง[/B].[LI]ทุกอาคารได้รับ [B]+1 [icon:YIELD_HAPPINESS] ความสุข เพิ่มเติม [/B]สำหรับทุก [B]การพัฒนา[/B][/LIST]</Text>		<!-- [LIST][LI][B]+1 [icon:YIELD_FOOD] Food [/B]in [B]Cities [/B]for every [B]5 excess[icon:YIELD_HAPPINESS] Happiness[/B].[LI][B]+10% [icon:YIELD_FOOD] Food [/B]in all Settlements during a [B]Celebration[/B].[LI]All Buildings gain a [B]+1 [icon:YIELD_HAPPINESS] Happiness Adjacency [/B]for all [B]Improvements[/B].[/LIST] -->
+			<Text>[LIST][LI][B]+1 [icon:YIELD_FOOD] อาหาร [/B]ใน [B]เมือง [/B]สำหรับทุก [B]ความสุขเกิน [icon:YIELD_HAPPINESS] ความสุข [/B][LI][B]+10% [icon:YIELD_FOOD] อาหาร [/B]ในทุกถิ่นฐานในช่วง [B]การเฉลิมฉลอง[/B][LI]ทุกอาคารได้รับ [B]+1 [icon:YIELD_HAPPINESS] ความสุข เพิ่มเติม [/B]สำหรับทุก [B]การพัฒนา[/B][/LIST]</Text>		<!-- [LIST][LI][B]+1 [icon:YIELD_FOOD] Food [/B]in [B]Cities [/B]for every [B]5 excess[icon:YIELD_HAPPINESS] Happiness[/B].[LI][B]+10% [icon:YIELD_FOOD] Food [/B]in all Settlements during a [B]Celebration[/B].[LI]All Buildings gain a [B]+1 [icon:YIELD_HAPPINESS] Happiness Adjacency [/B]for all [B]Improvements[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_AUGUSTUS_NAME" Language="th_TH">
 			<Text>ออกัสตัส</Text>		<!-- Augustus -->
@@ -10130,7 +10130,7 @@
 			<Text>เคจู</Text>		<!-- Keju -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_CONFUCIUS_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+25% อัตราการเติบโต [/B]ในเมือง.[LI][B]+2 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]จาก [B]ผู้เชี่ยวชาญ[/B].[LI]</Text>		<!-- [LIST][LI][B]+25% Growth Rate [/B]in Cities.[LI][B]+2 [icon:YIELD_SCIENCE] Science [/B]from [B]Specialists[/B].[/LIST] -->
+			<Text>[LIST][LI][B]+25% อัตราการเติบโต [/B]ในเมือง.[LI][B]+2 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]จาก [B]ผู้เชี่ยวชาญ[/B][LI]</Text>		<!-- [LIST][LI][B]+25% Growth Rate [/B]in Cities.[LI][B]+2 [icon:YIELD_SCIENCE] Science [/B]from [B]Specialists[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_FRIEDRICH_NAME" Language="th_TH">
 			<Text>ฟรีดริช, โอบลีค</Text>		<!-- Friedrich, Oblique -->
@@ -10229,7 +10229,7 @@
 			<Text>ลาฟาแยต</Text>		<!-- Lafayette -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_LAFAYETTE_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ ความร่วมมือพิเศษ ที่เรียกว่า "การปฏิรูป" ซึ่งมอบ ช่องทางนโยบายสังคม เพิ่มเติมอีกหนึ่งช่อง การสนับสนุน ความร่วมมือ นี้จะทำให้นำอื่นได้รับช่องทางนโยบายสังคมเพิ่มเติมอีกหนึ่งช่อง +1 พลังต่อสู้ต่อทุกประเพณี แต่ไม่รวมถึงนโยบาย ที่มีอยู่ในรัฐบาล +2 [icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_HAPPINESS] ความสุข ต่อยุคในถิ่นฐาน ผลลัพธ์เหล่านี้จะถูกคูณสองในแผ่นดินที่ห่างไกล</Text>		<!-- Gains a unique Endeavor called Reform, which grants an additional Social Policy slot. Supporting this Endeavor also grants the other Leader an additional Social Policy slot. +1 Combat Strength for every Tradition, but not Policy, slotted in the Government. +2 [icon:YIELD_CULTURE] Culture and [icon:YIELD_HAPPINESS] Happiness per Age in Settlements. These effects are doubled in Distant Lands. -->
+			<Text>ได้รับ ความร่วมมือพิเศษ ที่เรียกว่า "การปฏิรูป" ซึ่งมอบ ช่องทางนโยบายสังคม เพิ่มเติมอีกหนึ่งช่อง การสนับสนุน ความร่วมมือ นี้จะทำให้นำอื่นได้รับ ช่องทางนโยบายสังคม เพิ่มเติมอีกหนึ่งช่อง +1 พลังต่อสู้ต่อทุกประเพณี แต่ไม่รวมถึงนโยบาย ที่มีอยู่ในรัฐบาล +2 [icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_HAPPINESS] ความสุข ต่อยุคในถิ่นฐาน ผลลัพธ์เหล่านี้จะถูกคูณสองในแผ่นดินที่ห่างไกล</Text>		<!-- Gains a unique Endeavor called Reform, which grants an additional Social Policy slot. Supporting this Endeavor also grants the other Leader an additional Social Policy slot. +1 Combat Strength for every Tradition, but not Policy, slotted in the Government. +2 [icon:YIELD_CULTURE] Culture and [icon:YIELD_HAPPINESS] Happiness per Age in Settlements. These effects are doubled in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_LAFAYETTE_ABILITY_NAME" Language="th_TH">
 			<Text>วีรบุรุษแห่งสองโลก</Text>		<!-- Hero of Two Worlds -->
@@ -10241,7 +10241,7 @@
 			<Text>แมคคิอาเวลลี่</Text>		<!-- Machiavelli -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_MACHIAVELLI_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:YIELD_DIPLOMACY] อิทธิพล ต่อยุค เพิ่ม 50 [icon:YIELD_GOLD] ทอง ต่อยุคเมื่อข้อเสนอทางการทูตของคุณได้รับการตอบรับ หรือ 100 [icon:YIELD_GOLD] ทอง เมื่อถูกปฏิเสธ ไม่สนใจข้อกำหนดความสัมพันธ์ในการประกาศสงครามอย่างเป็นทางการ สามารถเรียกทหารจากนครรัฐที่คุณไม่ใช่ผู้มีอำนาจเหนือได้</Text>		<!-- +3 [icon:YIELD_DIPLOMACY] Influence per Age. Gains 50 [icon:YIELD_GOLD] Gold per Age when your Diplomatic Action proposals are accepted, or 100 [icon:YIELD_GOLD] Gold when they are rejected. Ignores Relationship requirements for declaring Formal Wars. Can Levy Troops from City-States you are not Suzerain of. -->
+			<Text>+3 [icon:YIELD_DIPLOMACY] อิทธิพล ต่อยุค เพิ่ม 50 [icon:YIELD_GOLD] ทอง ต่อยุคเมื่อข้อเสนอทางการทูตของคุณได้รับการตอบรับ หรือ 100 [icon:YIELD_GOLD] ทอง เมื่อถูกปฏิเสธ ไม่สนใจข้อกำหนดความสัมพันธ์ใน การประกาศสงครามอย่างเป็นทางการ สามารถเรียกทหารจากนครรัฐที่คุณไม่ใช่ผู้มีอำนาจเหนือได้</Text>		<!-- +3 [icon:YIELD_DIPLOMACY] Influence per Age. Gains 50 [icon:YIELD_GOLD] Gold per Age when your Diplomatic Action proposals are accepted, or 100 [icon:YIELD_GOLD] Gold when they are rejected. Ignores Relationship requirements for declaring Formal Wars. Can Levy Troops from City-States you are not Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MACHIAVELLI_ABILITY_NAME" Language="th_TH">
 			<Text>เจ้าชาย</Text>		<!-- Il Principe -->
@@ -10277,7 +10277,7 @@
 			<Text>เซิร์กซีส, กษัตริย์แห่งกษัตริย์</Text>		<!-- Xerxes, King of Kings -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_XERXES_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้สำหรับยูนิตที่กำลังโจมตีในดินแดนที่เป็นกลางหรือของศัตรู รับ 100 [icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_GOLD] เงินทองต่อยุคเมื่อคุณจับกุมสถานที่ตั้งเป็นครั้งแรก +10% [icon:YIELD_GOLD] เงินทองในสถานที่ตั้งทั้งหมด นี่จะถูกคูณสองในสถานที่ตั้งที่ไม่ได้ก่อตั้งโดยคุณ +1 ขีดจำกัดถิ่นฐานต่อยุค</Text>		<!-- +3 Combat Strength for Units that are attacking in neutral or enemy territory. Gain 100 [icon:YIELD_CULTURE] Culture and [icon:YIELD_GOLD] Gold per Age when you capture a Settlement for the first time. +10% [icon:YIELD_GOLD] Gold in all Settlements. This is doubled in Settlements not founded by you. +1 Settlement Limit per Age. -->
+			<Text>+3 พลังต่อสู้ สำหรับยูนิตที่กำลังโจมตีในดินแดนที่เป็นกลางหรือของศัตรู รับ 100 [icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_GOLD] เงินทองต่อยุคเมื่อคุณจับกุมสถานที่ตั้งเป็นครั้งแรก +10% [icon:YIELD_GOLD] เงินทองในสถานที่ตั้งทั้งหมด นี่จะถูกคูณสองในสถานที่ตั้งที่ไม่ได้ก่อตั้งโดยคุณ +1 ขีดจำกัดถิ่นฐานต่อยุค</Text>		<!-- +3 Combat Strength for Units that are attacking in neutral or enemy territory. Gain 100 [icon:YIELD_CULTURE] Culture and [icon:YIELD_GOLD] Gold per Age when you capture a Settlement for the first time. +10% [icon:YIELD_GOLD] Gold in all Settlements. This is doubled in Settlements not founded by you. +1 Settlement Limit per Age. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_XERXES_ABILITY_NAME" Language="th_TH">
 			<Text>ผู้ทำลายการกบฏ</Text>		<!-- Crusher of Rebellions -->
@@ -10313,61 +10313,61 @@
 			<Text>มันเป็นรุ่งอรุณของยุคใหม่ ผู้นำของคุณได้เลือกหนึ่งในอารยธรรมที่ยิ่งใหญ่ของยุคนั้นเพื่อเดินเรื่องราวที่ยิ่งใหญ่ต่อไป</Text>		<!-- It is the dawn of a new Age. Your Leader has chosen one of the great Civilizations of that period to further their epic tale. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_AMINA" Language="th_TH">
-			<Text>ราชินีนักรบอามินาขึ้นสู่อำนาจเมื่อเส้นทางการค้าของซาฮาราเริ่มเปิดโอกาสให้เข้าถึงโลกที่กว้างใหญ่ขึ้นเรื่อยๆ เธอเป็นผู้พิชิตที่ไร้ความรู้สึกและมีใจเป็นหนึ่งเดียว นำประชาชนฮาวซาไปสู่การขยายตัวผ่านเซเนกัลก่อนยุคล่าอาณานิคม และมีคำกล่าวว่าเธอพาสวามีเข้าไปในทุกเมืองที่เธอพิชิตเพียงเพื่อฆ่าเขาในตอนเช้า ในการรวมดินแดน อามินาพิชิตตามแบบฉบับของเธอ — ด้วยดาบ ไม่ใช่ชายข้างกาย</Text>		<!-- The warrior queen Amina rose to power when the trade routes of the Sahara began to provide access to a larger and larger world. A callous and single-minded conqueror, she led the Hausa people on a campaign of expansion across the precolonial Sahel, and she was said to take a lover in every city she vanquished, only to kill him in the morning. In uniting the lands, Amina conquered according to her own fashion — with a sword, not a man, at her side. -->
+			<Text>ราชินีนักรบ อามินา ขึ้นสู่อำนาจเมื่อเส้นทางการค้าของ ซาฮารา เริ่มเปิดโอกาสให้เข้าถึงโลกที่กว้างใหญ่ขึ้นเรื่อยๆ เธอเป็นผู้พิชิตที่ไร้ความรู้สึก และมีใจเป็นหนึ่งเดียว นำประชาชนฮาวซาไปสู่การขยายตัวผ่าน เซเนกัล ก่อนยุคล่าอาณานิคม และมีคำกล่าวว่าเธอพาสวามีเข้าไปในทุกเมืองที่เธอพิชิต เพียงเพื่อฆ่าเขาในตอนเช้า ในการรวมดินแดน อามินาพิชิตตามแบบฉบับของเธอ — ด้วยดาบ ไม่ใช่ชายข้างกาย</Text>		<!-- The warrior queen Amina rose to power when the trade routes of the Sahara began to provide access to a larger and larger world. A callous and single-minded conqueror, she led the Hausa people on a campaign of expansion across the precolonial Sahel, and she was said to take a lover in every city she vanquished, only to kill him in the morning. In uniting the lands, Amina conquered according to her own fashion — with a sword, not a man, at her side. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_ASHOKA" Language="th_TH">
-			<Text>ถูกยกย่องว่าเป็นจักรพรรดิที่ "หมุนวงล้อ" สำหรับการแพร่หลายของพุทธศาสนา อโศกมีอดีตที่หลากหลาย เป็นที่รู้จักในด้านความโกรธแค้นในฐานะจักรพรรดิของเมารยะ อโศกได้ประสบกับการเปิดเผยอย่างลึกซึ้งเมื่อได้เห็นการสังหารของเขาที่มีต่อกาลิงกาในปี 260 ก่อนคริสต์ศักราช หลังจากนั้น เขาได้เผยแพร่ข้อความเกี่ยวกับความไม่ใช้ความรุนแรงทั่วดินแดนของเขาและต่างประเทศ พยายามนำทางคนอื่นให้ห่างไกลจากมรดกของการทำลายล้างของเขาเอง</Text>		<!-- Lauded as a chakravartin, a “wheel-turning monarch,” for spreading Buddhism, Ashoka had a checkered past. Known for his ferocity as the emperor of the Maurya, Ashoka experienced a profound revelation upon witnessing his slaughter of the Kalinga in 260 BCE. Afterwards, he spread a message of non-violence around his lands and abroad, seeking to steer others away from his own legacy of destruction. -->
+			<Text>ถูกยกย่องว่าเป็นจักรพรรดิที่ "หมุนวงล้อ" สำหรับการแพร่หลายของพุทธศาสนา อโศกมีอดีตที่หลากหลาย เป็นที่รู้จักในด้านความโกรธแค้นในฐานะจักรพรรดิของเมารยะ อโศกได้ประสบกับการเปิดเผยอย่างลึกซึ้ง เมื่อได้เห็นการสังหารของเขาที่มีต่อกาลิงกาในปี 260 ก่อนคริสต์ศักราช หลังจากนั้น เขาได้เผยแพร่ข้อความเกี่ยวกับ ความไม่ใช้ความรุนแรงทั่วดินแดนของเขา และต่างประเทศ พยายามนำทางคนอื่นให้ห่างไกล จากมรดกของการทำลายล้างของเขาเอง</Text>		<!-- Lauded as a chakravartin, a “wheel-turning monarch,” for spreading Buddhism, Ashoka had a checkered past. Known for his ferocity as the emperor of the Maurya, Ashoka experienced a profound revelation upon witnessing his slaughter of the Kalinga in 260 BCE. Afterwards, he spread a message of non-violence around his lands and abroad, seeking to steer others away from his own legacy of destruction. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_AUGUSTUS" Language="th_TH">
-			<Text>หลังจากสงครามกลางเมืองในกรุงโรม ออกัสตัส ได้รวบรวมสาธารณรัฐที่แตกแยกเป็นจักรวรรดิที่ขยายจากทะเลเหนือไปยังอียิปต์ แม้จะมีความกลัวของชาวโรมันต่อผู้ปกครองที่เป็นทรราช เขาก็สามารถสร้างอำนาจเพียงคนเดียวในขณะที่ยังคงรักษาโครงสร้างของสาธารณรัฐเก่าไว้อย่างเห็นได้ชัด เขาขยายพรมแดนของโรมผ่านรัฐลูกและการจัดระเบียบกองทัพใหม่ ปฏิรูปกฎหมายภาษี และก่อตั้งพิธีบูชาอาณาจักร ภาพลักษณ์สมัยใหม่ของจักรวรรดิโรมัน ส่วนใหญ่เป็นภาพตามวิสัยทัศน์ของ ออกัสตัส</Text>		<!-- Emerging from Rome’s civil wars, Augustus consolidated the fractious republic into an empire stretching from the North Sea to Egypt. Despite the Roman fear of tyrants, he achieved sole power while outwardly maintaining the old republic’s structures. He expanded Rome’s borders via client states and a reorganized army, reformed the tax code, and inaugurated the imperial cult. The modern image of Imperial Rome is largely the one of Augustus’ vision. -->
+			<Text>หลังจากสงครามกลางเมืองในกรุงโรม ออกัสตัส ได้รวบรวมสาธารณรัฐที่แตกแยกเป็น จักรวรรดิที่ขยายจากทะเลเหนือไปยังอียิปต์ แม้จะมีความกลัวของชาวโรมันต่อผู้ปกครองที่เป็นทรราช เขาก็สามารถสร้างอำนาจเพียงคนเดียว ในขณะที่ยังคงรักษาโครงสร้างของสาธารณรัฐเก่าไว้อย่างเห็นได้ชัด เขาขยายพรมแดนของโรมผ่านรัฐลูกและการจัดระเบียบกองทัพใหม่ ปฏิรูปกฎหมายภาษี และก่อตั้งพิธีบูชาอาณาจักร ภาพลักษณ์สมัยใหม่ของจักรวรรดิโรมัน ส่วนใหญ่เป็นภาพตามวิสัยทัศน์ของ ออกัสตัส</Text>		<!-- Emerging from Rome’s civil wars, Augustus consolidated the fractious republic into an empire stretching from the North Sea to Egypt. Despite the Roman fear of tyrants, he achieved sole power while outwardly maintaining the old republic’s structures. He expanded Rome’s borders via client states and a reorganized army, reformed the tax code, and inaugurated the imperial cult. The modern image of Imperial Rome is largely the one of Augustus’ vision. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_BENJAMIN_FRANKLIN" Language="th_TH">
 			<Text>ในอเมริกายุคอาณานิคม มีบุคคลไม่กี่คนที่ฉายแสงเท่ากับเบนจามิน แฟรงคลิน เริ่มต้นจากการเป็นช่างพิมพ์ธรรมดา เขาได้สร้างชื่อเสียงให้กับตัวเองในฐานะผู้เผยแพร่หนังสือพิมพ์ที่โดดเด่น ในปี 1747 เขาเข้าสู่การเมืองและกลายเป็นหนึ่งในบิดาแห่งชาติ โดยมีส่วนร่วมในการร่างและลงนามในเอกสารประกาศอิสรภาพ แฟรงคลินเป็นคนที่ไม่หยุดนิ่งในความรู้และยังได้ให้การสนับสนุนด้านวิทยาศาสตร์ในหลายสาขาที่หลากหลาย เช่น ไฟฟ้าและมหาสมุทรวิทยา</Text>		<!-- In colonial America, few individuals shone as brightly as Benjamin Franklin. Beginning as a humble printer, he soon established himself as a prominent newspaper publisher. In 1747, he moved into politics and became one of the Founding Fathers, participating in the drafting and signing of the Declaration of Independence. A restless polymath, Franklin also made many contributions to science in fields as diverse as electricity and oceanography. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_CATHERINE" Language="th_TH">
-			<Text>เกิดเป็นเจ้าหญิงจากเยอรมนี คาเธอรีนมหาราชาได้โค่นสามีของเธอในปี 1762 เพื่อขึ้นเป็นจักรพรรดินีแห่งรัสเซีย ด้วยวิสัยทัศน์ในการพัฒนา เธอได้สร้างแบบอย่างใหม่ของกฎหมายและการปกครอง และดูแลยุคของการขยายตัวอย่างรวดเร็วทั้งจากการสงครามและการทูต โดยมีแรงจูงใจจากความอยากรู้ทางปัญญาและความรักในศิลปะ คาเธอรีนยังได้สนับสนุนผู้สร้างสรรค์ นักวิชาการ และนักวิทยาศาสตร์ ส่งเสริมการตรัสรู้ของรัสเซียและสภาพแวดล้อมของนวัตกรรม</Text>		<!-- Born a German princess, Catherine the Great overthrew her husband in 1762 to become Empress of Russia. Guided by a vision of modernization, she established new models of law and governance, and oversaw an era of rapid expansion through war and diplomacy. Motivated by intellectual curiosity and love of the arts, Catherine also sponsored creatives, scholars, and scientists, fostering the Russian Enlightenment and its environment of innovation. -->
+			<Text>เกิดเป็นเจ้าหญิงจากเยอรมนี คาเธอรีนมหาราชาได้โค่นสามีของเธอในปี 1762 เพื่อขึ้นเป็นจักรพรรดินีแห่งรัสเซีย ด้วยวิสัยทัศน์ในการพัฒนา เธอได้สร้างแบบอย่างใหม่ของกฎหมายและการปกครอง และดูแลยุคของการขยายตัวอย่างรวดเร็ว ทั้งจากการสงครามและการทูต โดยมีแรงจูงใจจากความอยากรู้ทางปัญญา และความรักในศิลปะ คาเธอรีนยังได้สนับสนุนผู้สร้างสรรค์ นักวิชาการ และนักวิทยาศาสตร์ ส่งเสริมการตรัสรู้ของรัสเซียและสภาพแวดล้อมของนวัตกรรม</Text>		<!-- Born a German princess, Catherine the Great overthrew her husband in 1762 to become Empress of Russia. Guided by a vision of modernization, she established new models of law and governance, and oversaw an era of rapid expansion through war and diplomacy. Motivated by intellectual curiosity and love of the arts, Catherine also sponsored creatives, scholars, and scientists, fostering the Russian Enlightenment and its environment of innovation. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_CHARLEMAGNE" Language="th_TH">
-			<Text>ชาร์ลส์ผู้ยิ่งใหญ่ หรือ ชาร์ลมาญ เริ่มต้นอาชีพของเขาในฐานะกษัตริย์แห่งเฝรงค์ในปี ค.ศ. 768 เขาสืบทอดประชากรที่หลากหลายและไม่สงบ เขาได้สร้างอาณาจักรของเขาใหม่โดยการรวมประเพณีเก่ากับรูปแบบการปกครองใหม่และขยายอาณาจักรที่ทอดยาวไปทั่วยุโรป นอกจากความเฉลียวฉลาดทางการเมืองแล้ว ความอยากรู้ตามธรรมชาติของชาร์ลมาญยังสนับสนุนยุคฟื้นฟูศิลปวิทยาของคาโรลินเจียน ทำให้พระราชวังของเขากลายเป็นศูนย์กลางสำหรับนักการทูตและปัญญาชนเช่นกัน</Text>		<!-- Charles the Great, or Charlemagne, began his career as King of the Franks in 768 CE. Having inherited a diverse and restless population, he reforged his kingdom by integrating old traditions with new forms of governance and grew an empire that stretched across Europe. In addition to his political acumen, Charlemagne’s natural curiosity encouraged the Carolingian Renaissance, transforming his court into a hub for diplomats and intellectuals alike. -->
+			<Text>ชาร์ลส์ผู้ยิ่งใหญ่ หรือ ชาร์ลมาญ เริ่มต้นอาชีพของเขาในฐานะกษัตริย์แห่งเฝรงค์ในปี ค.ศ. 768 เขาสืบทอดประชากรที่หลากหลายและไม่สงบ เขาได้สร้างอาณาจักรของเขาใหม่ โดยการรวมประเพณีเก่ากับรูปแบบการปกครองใหม่ และขยายอาณาจักรที่ทอดยาวไปทั่วยุโรป นอกจากความเฉลียวฉลาดทางการเมืองแล้ว ความอยากรู้ตามธรรมชาติของ ชาร์ลมาญ ยังสนับสนุนยุคฟื้นฟูศิลปวิทยาของคาโรลินเจียน ทำให้พระราชวังของเขากลายเป็นศูนย์กลางสำหรับนักการทูตและปัญญาชนเช่นกัน</Text>		<!-- Charles the Great, or Charlemagne, began his career as King of the Franks in 768 CE. Having inherited a diverse and restless population, he reforged his kingdom by integrating old traditions with new forms of governance and grew an empire that stretched across Europe. In addition to his political acumen, Charlemagne’s natural curiosity encouraged the Carolingian Renaissance, transforming his court into a hub for diplomats and intellectuals alike. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_CONFUCIUS" Language="th_TH">
-			<Text>กงฟูจื ไม่หรือ ขงจื๊อ ได้รับความสนใจในช่วงยุคโจว และหันไปเขียนหลังจากชีวิตในรัฐบาล ตรงกันข้ามกับสภาพการเมืองที่เจ้านายแข่งขันเพื่ออำนาจและยอมจำนนต่อความชั่ว ขงจื๊อได้พัฒนาหลักการของระเบียบ ความสามัคคี และประเพณี งานเขียนมากมายของเขาย้ำถึงความสำคัญของการทำงานหนักและการรู้สถานะของตนเอง ไม่ว่าจะเป็นเจ้านายหรือประชาชน ผู้ปกครองหรือบุตร หลักคิดของขงจื๊อได้มีอิทธิพลต่อสังคมเอเชียตะวันออกมาเป็นเวลาหลายศตวรรษเลยทีเดียว</Text>		<!-- Kong Fu Zi, or Confucius, came to prominence during the Zhou Dynasty and turned to writing following a life in government. In contrast to a political climate in which rulers vied for power and succumbed to vice, Confucius cultivated an ethos of order, harmony and tradition. His many writings stress hard work and knowing one’s place — be you ruler or subject, parent or child. Confucian thought would influence East Asian society for centuries hence.  -->
+			<Text>กงฟูจื หรือ ขงจื๊อ ได้รับความสนใจในช่วงยุคโจว และหันไปเขียนหลังจากชีวิตในรัฐบาล ตรงกันข้ามกับสภาพการเมือง ที่เจ้านายแข่งขันเพื่ออำนาจ และยอมจำนนต่อความชั่ว ขงจื๊อ ได้พัฒนาหลักการของระเบียบ ความสามัคคี และประเพณี งานเขียนมากมายของเขา ย้ำถึงความสำคัญของการทำงานหนัก และการรู้สถานะของตนเอง ไม่ว่าจะเป็นเจ้านายหรือประชาชน ผู้ปกครองหรือบุตร หลักคิดของ ขงจื๊อ ได้มีอิทธิพลต่อสังคมเอเชียตะวันออก มาเป็นเวลาหลายศตวรรษเลยทีเดียว</Text>		<!-- Kong Fu Zi, or Confucius, came to prominence during the Zhou Dynasty and turned to writing following a life in government. In contrast to a political climate in which rulers vied for power and succumbed to vice, Confucius cultivated an ethos of order, harmony and tradition. His many writings stress hard work and knowing one’s place — be you ruler or subject, parent or child. Confucian thought would influence East Asian society for centuries hence.  -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_FRIEDRICH" Language="th_TH">
-			<Text>การขึ้นสู่อำนาจของ ฟรีดริช ใน ปรัสเซีย ที่มีการทหารดูเหมือนจะขัดแย้งกันในตอนแรก ในวัยเยาว์เขาสนใจในศิลปะ และวรรณกรรมมากกว่าการทำสงคราม อย่างไรก็ตามเมื่อเขาขึ้นครองบัลลังก์ เขาได้เปิดเผยถึงความชอบในทฤษฎีการทหารและรสนิยมในความรุนแรง ของปรัสเซีย เฟรเดอริกขยายอาณาเขตของเขาอย่างเข้มข้น และทำให้ชื่อเสียงด้านการทหารของปรัสเซียมั่นคง แต่เขาก็ไม่เคยสูญเสียความรักในศิลปะ โดยรักษาสมดุลระหว่างมือเหล็กกับการสนับสนุนทางปัญญา</Text>		<!-- Friedrich the Great’s rise to power in militarized Prussia at first seems contradictory. In his youth he was more interested in art and literature than war. Yet upon taking the throne, he revealed a sharp proclivity for military theory and a taste for Prussian aggression. Friedrich vigorously expanded his borders and solidified Prussia’s martial reputation, but never lost his love of the arts, balancing his iron hand with intellectual patronage. -->
+			<Text>การขึ้นสู่อำนาจของ ฟรีดริช ใน ปรัสเซีย ที่มีการทหารดูเหมือนจะขัดแย้งกันในตอนแรก ในวัยเยาว์เขาสนใจในศิลปะ และวรรณกรรมมากกว่าการทำสงคราม อย่างไรก็ตามเมื่อเขาขึ้นครองบัลลังก์ เขาได้เปิดเผยถึงความชอบในทฤษฎีการทหาร และรสนิยมในความรุนแรง ของปรัสเซีย เฟรเดอริกขยายอาณาเขตของเขาอย่างเข้มข้น และทำให้ชื่อเสียงด้านการทหารของปรัสเซียมั่นคง แต่เขาก็ไม่เคยสูญเสียความรักในศิลปะ โดยรักษาสมดุลระหว่างมือเหล็กกับการสนับสนุนทางปัญญา</Text>		<!-- Friedrich the Great’s rise to power in militarized Prussia at first seems contradictory. In his youth he was more interested in art and literature than war. Yet upon taking the throne, he revealed a sharp proclivity for military theory and a taste for Prussian aggression. Friedrich vigorously expanded his borders and solidified Prussia’s martial reputation, but never lost his love of the arts, balancing his iron hand with intellectual patronage. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_HARRIET_TUBMAN" Language="th_TH">
-			<Text>เกิดในชื่อ อารามินตา “มินตี้” รอสส์ ในครอบครัวที่เป็นทาสในไร่ในรัฐแมรี่แลนด์ แฮเรียต ทับแมน หลบหนีจากการเป็นทาส และช่วยคนอื่นๆ ทำเช่นเดียวกันผ่านทางรถไฟใต้ดิน ซึ่งเป็นเครือข่ายของบ้านปลอดภัยที่นำไปสู่ ทางตอนเหนือที่เป็นอิสระ, เธอเป็นผู้นำกองทัพสหภาพในการโจมตีที่ เรือข้ามฟากคัมบาฮี, ช่วยเหลือผู้คนกว่า 700 คน และหลังจากนั้นก็เข้าร่วมในขบวนการเรียกร้องสิทธิและสาเหตุอื่นๆ น้อยคนที่จะสะท้อนถึงการต่อสู้เพื่อเสรีภาพและสิทธิเสมอภาคได้ดีเท่า แฮเรียต ทับแมน</Text>		<!-- Born Araminta “Minty” Ross to enslaved parents on a Maryland plantation, Harriet Tubman escaped slavery, then helped others do the same via the Underground Railroad, a network of safehouses that led to the free North. She led the Union Army in a raid on Combahee Ferry, rescuing over 700 people, and later became involved in the suffrage movement and other causes. Few have embodied the fight for freedom and equal rights as well as Harriet Tubman.  -->
+			<Text>เกิดในชื่อ อารามินตา “มินตี้” รอสส์ ในครอบครัวที่เป็นทาสในไร่ในรัฐแมรี่แลนด์ แฮเรียต ทับแมน หลบหนีจากการเป็นทาส และช่วยคนอื่นๆ ทำเช่นเดียวกันผ่านทางรถไฟใต้ดิน ซึ่งเป็นเครือข่ายของบ้านปลอดภัยที่นำไปสู่ ทางตอนเหนือที่เป็นอิสระ, เธอเป็นผู้นำกองทัพสหภาพในการโจมตีที่ เรือข้ามฟากคัมบาฮี, ช่วยเหลือผู้คนกว่า 700 คน และหลังจากนั้นก็เข้าร่วมใน ขบวนการเรียกร้องสิทธิและสาเหตุอื่นๆ น้อยคนที่จะสะท้อนถึงการต่อสู้เพื่อเสรีภาพ และสิทธิเสมอภาคได้ดีเท่า แฮเรียต ทับแมน</Text>		<!-- Born Araminta “Minty” Ross to enslaved parents on a Maryland plantation, Harriet Tubman escaped slavery, then helped others do the same via the Underground Railroad, a network of safehouses that led to the free North. She led the Union Army in a raid on Combahee Ferry, rescuing over 700 people, and later became involved in the suffrage movement and other causes. Few have embodied the fight for freedom and equal rights as well as Harriet Tubman.  -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_HATSHEPSUT" Language="th_TH">
-			<Text>ช่วงต้นศตวรรษที่ 14 ก่อนคริสต์ศักราช อียิปต์ได้เจริญรุ่งเรืองภายใต้การนำของ แฮตเชปซุต ในช่วงเวลายาวนานของเธอ แฮตเชปซุตได้ขยายอาณาจักรการค้าอียิปต์ สร้างเครือข่ายและอิทธิพลในทะเลเมดิเตอร์เรเนียนทางตอนเหนือ และดินแดนที่ร่ำรวยของ พันต์ ทางทิศใต้ เธอได้ใช้ความมั่งคั่งที่เกิดขึ้นนั้นไปในโครงการก่อสร้างที่ยิ่งใหญ่ ซึ่งสะท้อนถึงมรดกทางวัฒนธรรมที่มั่งคั่งของประชาชนของเธอ ทำให้มั่นใจว่าพลังที่เธอสร้างขึ้นเพื่อทั้งอียิปต์ และตัวเธอเองจะคงอยู่ตลอดไป</Text>		<!-- The early 14th century BCE saw Egypt flourish beneath the guiding hand of Hatshepsut. During her long tenure Hatshepsut expanded Egypt’s trading empire, establishing networks and influence in the Mediterranean to the north and the rich land of Punt to the south. She channeled the resulting wealth into immense building projects that captured her people’s rich heritage, ensuring the power she cultivated for both Egypt and herself would be immortal. -->
+			<Text>ช่วงต้นศตวรรษที่ 14 ก่อนคริสต์ศักราช อียิปต์ได้เจริญรุ่งเรืองภายใต้การนำของ แฮตเชปซุต ในช่วงเวลายาวนานของเธอ แฮตเชปซุตได้ขยายอาณาจักรการค้าอียิปต์ สร้างเครือข่ายและอิทธิพลในทะเลเมดิเตอร์เรเนียนทางตอนเหนือ และดินแดนที่ร่ำรวยของ พันต์ ทางทิศใต้ เธอได้ใช้ความมั่งคั่งที่เกิดขึ้นนั้นไปใน โครงการก่อสร้างที่ยิ่งใหญ่ ซึ่งสะท้อนถึง มรดกทางวัฒนธรรมที่มั่งคั่งของประชาชนของเธอ ทำให้มั่นใจว่าพลังที่เธอสร้างขึ้นเพื่อทั้งอียิปต์ และตัวเธอเองจะคงอยู่ตลอดไป</Text>		<!-- The early 14th century BCE saw Egypt flourish beneath the guiding hand of Hatshepsut. During her long tenure Hatshepsut expanded Egypt’s trading empire, establishing networks and influence in the Mediterranean to the north and the rich land of Punt to the south. She channeled the resulting wealth into immense building projects that captured her people’s rich heritage, ensuring the power she cultivated for both Egypt and herself would be immortal. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_HIMIKO" Language="th_TH">
-			<Text>ราชินีของยามาไต รัฐญี่ปุ่นในยุคแรก ฮิมิโกะ ใช้อำนาจทางการเมืองและศาสนาของเธอในฐานะที่อาจจะเป็นหมอผีของเทพีสุริยะ อามาเทราสึในการปกครอง ความสามารถทางการเมืองของเธอได้รับการยอมรับจากอาณาจักรจีนของเฉาซวี ซึ่งเรียกเธอว่า "เพื่อนของเว่ย" อำนาจของเธอปรากฏในสิ่งที่จะกลายเป็นจักรวรรดิญี่ปุ่นเป็นเวลานานกว่าแต่พันปี</Text>		<!-- The queen of Yamatai, an early Japanese state, Himiko used her political and religious authority as, possibly, a shaman of the sun-goddess Amaterasu to rule. Her political prowess was recognized by the Chinese kingdom of Cao Wei, who dubbed her a “friend of Wei.” Her authority is echoed in what will become the Empire of Japan for over a thousand years. -->
+			<Text>ราชินีของ ยามาไต รัฐญี่ปุ่นในยุคแรก ฮิมิโกะ ใช้อำนาจทางการเมือง และศาสนาของเธอในฐานะที่อาจจะเป็น มิโกะ ของเทพีสุริยะ อามาเทราสึ ในการปกครอง ความสามารถทางการเมืองของเธอได้รับการยอมรับจากอาณาจักรจีนของเฉาซวี ซึ่งเรียกเธอว่า "เพื่อนของเว่ย" อำนาจของเธอปรากฏในสิ่งที่จะกลายเป็นจักรวรรดิญี่ปุ่น เป็นเวลานานกว่าพันปี</Text>		<!-- The queen of Yamatai, an early Japanese state, Himiko used her political and religious authority as, possibly, a shaman of the sun-goddess Amaterasu to rule. Her political prowess was recognized by the Chinese kingdom of Cao Wei, who dubbed her a “friend of Wei.” Her authority is echoed in what will become the Empire of Japan for over a thousand years. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_IBN_BATTUTA" Language="th_TH">
-			<Text>ตามเส้นทางการค้าของแอฟริกา เอเชีย และยุโรป มีอิบน์ บัตตูตา นักวิชาการและนักประวัติศาสตร์ที่เกิดจากครอบครัวโมร็อกโก และเบร์เบอร์ในปี 1325 หลังจากที่ไปประกอบพิธีฮัจญ์ การแสวงบุญของมุสลิมไปยังเมกกะ, เขาได้ออกสำรวจดาร์ อัลอิสลาม (โลกมุสลิมที่รู้จัก) ผ่านบันทึกการเดินทางของเขา ริห์ล่า ความเข้าใจของอิบน์บัตตูตะเกี่ยวกับโลกของเขาและชีวิตของผู้คนที่เขาแบ่งปันด้วยยังคงสร้างแรงบันดาลใจให้กับนักเดินทางที่มีแนวคิดเดียวกัน</Text>		<!-- Down the trade routes of Africa, Asia, and Europe traveled Ibn Battuta, a scholar and chronicler born of a Moroccan and Berber family in 1325. After performing the Hajj, the Muslim pilgrimage to Mecca, he went on to explore the Dar Al-Islam (the known Muslim world). Through his travelogue, the Rihla, Ibn Battuta's insights into his world, and the lives of those he shared it with, continue to inspire like-minded travelers. -->
+			<Text>ตามเส้นทางการค้าของ แอฟริกา เอเชีย และยุโรป มีอิบน์ บัตตูตา นักวิชาการและนักประวัติศาสตร์ที่เกิดจากครอบครัวโมร็อกโก และเบร์เบอร์ในปี 1325 หลังจากที่ไปประกอบพิธีฮัจญ์ การแสวงบุญของมุสลิมไปยังเมกกะ, เขาได้ออกสำรวจดาร์ อัลอิสลาม (โลกมุสลิมที่รู้จัก) ผ่านบันทึกการเดินทางของเขา ริห์ล่า ความเข้าใจของ อิบน์ บัตตูตะ เกี่ยวกับโลกของเขา และชีวิตของผู้คนที่เขาแบ่งปันด้วย ยังคงสร้างแรงบันดาลใจให้กับนักเดินทางที่มีแนวคิดเดียวกัน</Text>		<!-- Down the trade routes of Africa, Asia, and Europe traveled Ibn Battuta, a scholar and chronicler born of a Moroccan and Berber family in 1325. After performing the Hajj, the Muslim pilgrimage to Mecca, he went on to explore the Dar Al-Islam (the known Muslim world). Through his travelogue, the Rihla, Ibn Battuta's insights into his world, and the lives of those he shared it with, continue to inspire like-minded travelers. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_ISABELLA" Language="th_TH">
-			<Text>พระราชินีอิซาเบลลาของสเปนมีวิสัยทัศน์เพียงหนึ่งเดียว – การเติบโตของอำนาจชาติของเธอ ที่บ้าน เธออุทิศตัวเพื่อสร้างบทต่อไปของสเปนในฐานะป้อมปราการของนิกายคาทอลิก และดูแลความรุนแรงของการสอบสวนและการรีคอนคีสตา ในต่างประเทศ เธอสนับสนุนการขยายอำนาจของสเปนเข้าสู่โลกใหม่ ด้วยความเฉลียวฉลาดและไร้ความปรานี อิซาเบลลาสร้างพื้นฐานสำหรับอนาคตของสเปนจากสงครามและความมั่งคั่ง</Text>		<!-- Queen Isabella of Spain had a single vision – the growth of her nation’s power. At home, she dedicated herself to establishing Spain’s next chapter as a bastion of Catholicism and oversaw the violence of the Inquisition and the Reconquista. Abroad, she sponsored the expansion of Spanish might into the New World. Clever and ruthless, Isabella built the groundwork for Spain’s future upon war and wealth. -->
+			<Text>พระราชินี อิซาเบลลา ของสเปน มีวิสัยทัศน์เพียงหนึ่งเดียว – การเติบโตของอำนาจชาติของเธอ ที่บ้าน เธออุทิศตัวเพื่อสร้างบทต่อไปของสเปนในฐานะ ป้อมปราการของนิกายคาทอลิก และดูแลความรุนแรงของการสอบสวน และการรีคอนคีสตา ในต่างประเทศ เธอสนับสนุนการขยายอำนาจของ สเปน เข้าสู่โลกใหม่ ด้วยความเฉลียวฉลาดและไร้ความปรานี อิซาเบลลาสร้างพื้นฐานสำหรับอนาคตของ สเปน จากสงครามและความมั่งคั่ง</Text>		<!-- Queen Isabella of Spain had a single vision – the growth of her nation’s power. At home, she dedicated herself to establishing Spain’s next chapter as a bastion of Catholicism and oversaw the violence of the Inquisition and the Reconquista. Abroad, she sponsored the expansion of Spanish might into the New World. Clever and ruthless, Isabella built the groundwork for Spain’s future upon war and wealth. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_JOSE_RIZAL" Language="th_TH">
-			<Text>โจเซ ริซาล ซึ่งถูกมองว่าเป็นวีรบุรุษของฟิลิปปินส์ เป็นผู้ปกป้องเกียรติยศและความเป็นอิสระของชาวฟิลิปปินส์อย่างมีความมุ่งมั่น เขาเริ่มต้นสร้างชื่อเสียงในฐานะนักเคลื่อนไหวทางการเมืองในยุโรป วิพากษ์วิจารณ์การปกครองของสเปนในบ้านเกิดของเขา และถึงแม้เขาจะเรียกร้องให้มีการปฏิรูปอย่างสันติและสิทธิเสมอภาค ริซาลก็ถูกนำขึ้นศาลและถูกประหารชีวิตโดยสเปน อย่างไรก็ตาม จิตวิญญาณในการปฏิวัติของเขาไม่สามารถถูกกักขังไว้ได้ และยังคงสร้างแรงบันดาลใจให้กับชาวฟิลิปปินส์ตั้งแต่นั้นมา</Text>		<!-- Long regarded as a hero of the Philippines, José Rizal was a passionate defender of the dignity and autonomy of Filipinos. He first gained his reputation as a political activist in Europe, criticizing the Spanish rule of his homeland, and though he advocated for peaceful reform and equal rights, Rizal was eventually tried and executed by the Spanish. Yet his revolutionary spirit could not be contained, and has inspired Filipinos ever since.  -->
+			<Text>โฮเซ รีซัล ซึ่งถูกมองว่าเป็นวีรบุรุษของ ฟิลิปปินส์ เป็นผู้ปกป้องเกียรติยศ และความเป็นอิสระของชาวฟิลิปปินส์อย่างมีความมุ่งมั่น เขาเริ่มต้นสร้างชื่อเสียงใน ฐานะนักเคลื่อนไหว ทางการเมืองในยุโรป วิพากษ์วิจารณ์การปกครองของสเปนในบ้านเกิดของเขา และถึงแม้เขาจะเรียกร้องให้มีการปฏิรูปอย่างสันติและสิทธิเสมอภาค ริซาล ก็ถูกนำขึ้นศาล และถูกประหารชีวิตโดยสเปน อย่างไรก็ตาม จิตวิญญาณในการปฏิวัติของเขาไม่สามารถถูกกักขังไว้ได้ และยังคงสร้างแรงบันดาลใจให้กับชาวฟิลิปปินส์ตั้งแต่นั้นมา</Text>		<!-- Long regarded as a hero of the Philippines, José Rizal was a passionate defender of the dignity and autonomy of Filipinos. He first gained his reputation as a political activist in Europe, criticizing the Spanish rule of his homeland, and though he advocated for peaceful reform and equal rights, Rizal was eventually tried and executed by the Spanish. Yet his revolutionary spirit could not be contained, and has inspired Filipinos ever since.  -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_LAFAYETTE" Language="th_TH">
-			<Text>กิลแบร์ดู โมติเยร์ มาร์คีส์เดอลาฟาแยต ทำเครื่องหมายของเขาในสองทวีป โดยนำทหารในสงครามปฏิวัติอเมริกา และเป็นเสียงของเหตุผลในฝรั่งเศส ระหว่างสยองขวัญสองด้านคือระบบอำนาจเผด็จการและการล้างแค้นจากการปฏิวัติ ในขณะที่มรดกของเขาน่าประทับใจ ความสำเร็จที่มีทักษะที่สุดของเขาอาจจะเป็นเพียงการอยู่รอดในศูนย์กลางของความวุ่นวายที่ยิ่งใหญ่ที่สุดในยุคของเขา</Text>		<!-- Gilbert du Motier, the Marquis de Lafayette, made his mark on two continents, leading troops in the American revolution, and being a voice of reason in France, between the twin horrors of autocracy and revolutionary retribution. While his legacy is impressive, his most skillful feat may simply be survival at the center of some of the greatest tumult of his time. -->
+			<Text>กิลแบร์ดู โมติเยร์ มาร์คีส์ เดอ ลาฟาแยต ทำเครื่องหมายของเขาในสองทวีป โดยนำทหารในสงครามปฏิวัติอเมริกา และเป็นเสียงของเหตุผลในฝรั่งเศส ระหว่างสยองขวัญสองด้านคือระบบอำนาจเผด็จการและการล้างแค้นจากการปฏิวัติ ในขณะที่มรดกของเขาน่าประทับใจ ความสำเร็จที่มีทักษะที่สุดของเขาอาจจะเป็นเพียงการอยู่รอดในศูนย์กลางของความวุ่นวายที่ยิ่งใหญ่ที่สุดในยุคของเขา</Text>		<!-- Gilbert du Motier, the Marquis de Lafayette, made his mark on two continents, leading troops in the American revolution, and being a voice of reason in France, between the twin horrors of autocracy and revolutionary retribution. While his legacy is impressive, his most skillful feat may simply be survival at the center of some of the greatest tumult of his time. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_PACHACUTI" Language="th_TH">
-			<Text>หลังจากที่เขาปกป้องอาณาจักรจากการรุกราน ปาชาคูตีได้ขึ้นครองอำนาจในอาณาจักรคุซโกประมาณปี 1438 และเริ่มทำการพิชิตภูมิภาคใกล้เคียงในไม่ช้า เขามีความสามารถทางทหารและการเมืองในระดับที่เท่ากัน — ผู้ที่เขาไม่สามารถครอบครองได้ด้วยกำลัง เขาตอบแทนด้วยของขวัญ โดยสัญญาถึงความเป็นอิสระและความเจริญรุ่งเรืองแลกกับความจงรักภักดี อาณาจักรอินคาจะดำรงอยู่ต่อไปเพียงประมาณหกสิบปีหลังจากการเสียชีวิตของเขา เมื่อชาวสเปนมาถึง แต่มรดกของปาชาคูติก็ยังคงอยู่ต่อไปอย่างไรก็ตาม</Text>		<!-- Having defended it from invasion, Pachacuti assumed rule over the kingdom of Cuzco around 1438 and soon began to conquer neighboring regions. He had military and political prowess in equal measure — those he could not take by force he plied with gifts, promising autonomy and prosperity in exchange for loyalty. The Inca Empire would only continue for some sixty years after his death, when the Spanish came, but Pachacuti’s legacy endures nonetheless. -->
+			<Text>หลังจากที่เขาปกป้องอาณาจักรจากการรุกราน ปาชาคูตี ได้ขึ้นครองอำนาจใน อาณาจักรคุซโก ประมาณปี 1438 และเริ่มทำการพิชิตภูมิภาคใกล้เคียงในไม่ช้า เขามีความสามารถทางทหาร และการเมืองในระดับที่เท่ากัน — ผู้ที่เขาไม่สามารถครอบครองได้ด้วยกำลัง เขาตอบแทนด้วยของขวัญ โดยสัญญาถึงความเป็นอิสระ และความเจริญรุ่งเรืองแลกกับความจงรักภักดี อาณาจักรอินคาจะดำรงอยู่ต่อไปเพียงประมาณหกสิบปีหลังจากการเสียชีวิตของเขา เมื่อชาวสเปนมาถึง แต่มรดกของปาชาคูติก็ยังคงอยู่ต่อไปอย่างไรก็ตาม</Text>		<!-- Having defended it from invasion, Pachacuti assumed rule over the kingdom of Cuzco around 1438 and soon began to conquer neighboring regions. He had military and political prowess in equal measure — those he could not take by force he plied with gifts, promising autonomy and prosperity in exchange for loyalty. The Inca Empire would only continue for some sixty years after his death, when the Spanish came, but Pachacuti’s legacy endures nonetheless. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_MACHIAVELLI" Language="th_TH">
-			<Text>ชื่อของนักเขียน นักการทูต และนักปรัชญาชาวฟลอเรนซ์นาม นิคโคโล มาเคียเวลลี่ ได้กลายเป็นสัญลักษณ์ของความหลอกลวงและการทรยศ เขาได้โต้แย้งว่าผู้นำที่มีประสิทธิภาพที่สุดคือผู้ที่พร้อมที่จะทำทุกอย่างเพื่อให้ได้มา รักษา และใช้อำนาจ มุมมองดังกล่าวทำให้เขาได้รับความไม่พอใจจากทั้งคริสตจักรคาทอลิกและตระกูลเมดิชิผู้ทรงอำนาจ แต่ความคิดของเขายังคงมีชีวิตอยู่ในงานหลังความตายของเขา "เจ้าชาย" ซึ่งทำให้เขาในแบบฉบับของมาเคียเวลลี่ได้รับคำพูดสุดท้าย</Text>		<!-- The name of Florentine writer, diplomat and philosopher Niccolo Machiavelli has become synonymous with duplicity and treachery. He argued that the most effective ruler was one willing to do whatever it took to gain, retain and wield power. Such views won him the ire of both the Catholic Church and the powerful Medici dynasty. But his ideas live on in his posthumous work The Prince — giving him, in true Machiavellian fashion, the last word.  -->
+			<Text>ชื่อของนักเขียน นักการทูต และนักปรัชญาชาวฟลอเรนซ์นาม นิคโคโล มาเคียเวลลี่ ได้กลายเป็นสัญลักษณ์ของความหลอกลวงและการทรยศ เขาได้โต้แย้งว่าผู้นำที่มีประสิทธิภาพที่สุดคือผู้ที่พร้อมที่จะทำทุกอย่างเพื่อให้ได้มา รักษา และใช้อำนาจ มุมมองดังกล่าวทำให้เขาได้รับความไม่พอใจ จากทั้งคริสตจักรคาทอลิกและตระกูลเมดิชิผู้ทรงอำนาจ แต่ความคิดของเขายังคงมีชีวิตอยู่ในงานหลังความตายของเขา "เจ้าชาย" ซึ่งทำให้เขาในแบบฉบับขอ มาเคียเวลลี่ ได้รับคำพูดสุดท้าย</Text>		<!-- The name of Florentine writer, diplomat and philosopher Niccolo Machiavelli has become synonymous with duplicity and treachery. He argued that the most effective ruler was one willing to do whatever it took to gain, retain and wield power. Such views won him the ire of both the Catholic Church and the powerful Medici dynasty. But his ideas live on in his posthumous work The Prince — giving him, in true Machiavellian fashion, the last word.  -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_TRUNG_TRAC" Language="th_TH">
 			<Text>ในช่วงสั้นๆ ในสิ่งที่ปัจจุบันคือเวียดนาม สองพี่น้อง ตึง จั๊ค และตึง ญี่ ได้ยืนหยัดต่อสู้กับอำนาจของราชวงศ์ฮั่น เมื่อสามีของตึง จั๊ค ถูกตัดสินประหารชีวิต ตึง จั๊ค และน้องสาวจึงต่อสู้ต่อไป โดยได้เอกราชมาเป็นเวลา 3 ปี ก่อนที่การตอบโต้ของฮั่นจะเกิดขึ้น พวกเธอยังคงถูกยกย่องเป็นสัญลักษณ์ของเอกราชเวียดนาม และเป็นเทพเจ้าที่มีความสำคัญในตัวของพวกเธอเอง</Text>		<!-- For a brief period in what is now Vietnam, two sisters, Trung Trac and Trung Nhi, stood against the might of the Han Dynasty. When her husband was sentenced to death, Trung Trac and her sister fought on, gaining independence for three years before the Han counterattack. They are still held up as symbols of Vietnamese independence, and divinities in their own right. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_XERXES" Language="th_TH">
-			<Text>เซิร์กซีสที่ 1 สืบทอดอาณาจักรอาเคเมนิดในช่วงเวลาที่วิกฤตและนำไปสู่ความยิ่งใหญ่ เขาได้บดขยี้การปฏิวัติสองครั้งอย่างรวดเร็วเมื่อเข้ารับตำแหน่ง โดยตั้งเป้าหมายไปที่กรีซและรุกรานในปี 480 ก่อนคริสต์ศักราช หลังจากความพ่ายแพ้ที่ซาลามิสทำให้ความทะเยอทะยานในยุโรปของเขาสิ้นสุดลง เซิร์กซีสจึงเปลี่ยนความสนใจจากการขยายอาณาเขตไปสู่การสร้างความมั่งคั่ง โดยทุ่มเทคลังหลวงของเขาสำหรับผลงานด้านสถาปัตยกรรม ที่เป็นเครื่องพิสูจน์ถึงชัยชนะที่เขามอบให้แก่ประชาชนของเขาและความกลัวที่เขาสร้างขึ้นในศัตรูของเขา</Text>		<!-- Xerxes I inherited the Achaemenid Empire at a time of crisis and guided it to greatness. Swiftly crushing two uprisings upon taking power, he set his sights on Greece and invaded in 480 BCE. After defeat at Salamis ended his European ambitions, Xerxes shifted his attention from expansion to enrichment, devoting his treasury to architectural masterpieces, testaments to the triumph he bestowed on his people and the fear he provoked in his enemies. -->
+			<Text>เซิร์กซีส ที่ 1 สืบทอดอาณาจักรอาเคเมนิดใน ช่วงเวลาที่วิกฤต และนำไปสู่ความยิ่งใหญ่ เขาได้บดขยี้การปฏิวัติสองครั้งอย่างรวดเร็วเมื่อเข้ารับตำแหน่ง โดยตั้งเป้าหมายไปที่กรีซและรุกรานในปี 480 ก่อนคริสต์ศักราช หลังจากความพ่ายแพ้ที่ ซาลามิส ทำให้ความทะเยอทะยานใน ยุโรป ของเขาสิ้นสุดลง เซิร์กซีสจึงเปลี่ยนความสนใจจากการขยายอาณาเขต ไปสู่การสร้างความมั่งคั่ง โดยทุ่มเทคลังหลวงของเขาสำหรับผลงานด้านสถาปัตยกรรม ที่เป็นเครื่องพิสูจน์ถึงชัยชนะที่เขามอบให้แก่ประชาชนของเขาและความกลัวที่เขาสร้างขึ้นในศัตรูของเขา</Text>		<!-- Xerxes I inherited the Achaemenid Empire at a time of crisis and guided it to greatness. Swiftly crushing two uprisings upon taking power, he set his sights on Greece and invaded in 480 BCE. After defeat at Salamis ended his European ambitions, Xerxes shifted his attention from expansion to enrichment, devoting his treasury to architectural masterpieces, testaments to the triumph he bestowed on his people and the fear he provoked in his enemies. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_UNIQUE_UNITS_INTRO_TEXT" Language="th_TH">
 			<Text>แต่ละอารยธรรมมอบสิทธิพิเศษในการเข้าถึงรายการต่อไปนี้:[LIST][LI]- ความสามารถเฉพาะที่ปลดล็อกเมื่อเริ่มยุค[LI]- ยูนิตพิเศษสองยูนิต (โดยปกติจะเป็นยูนิตทหารและยูนิตพลเรือน)[LI]- การพัฒนาเฉพาะหรือย่านพิเศษ[LI]- แนวคิดเฉพาะที่ปลดล็อกนโยบายสังคมพิเศษที่เรียกว่าวัฒนธรรม[/LIST]</Text>		<!-- Each Civilization grants you exclusive access to the following items:[LIST][LI]- a Unique Ability, unlocked at the Age start[LI]- two Unique Units (typically a military unit and a civilian)[LI]- a Unique Improvement or a Unique Quarter[LI]- Unique Civics that unlock special Social Policies called Traditions[/LIST] -->
@@ -10733,7 +10733,7 @@
 			<Text>ดาบของเอลซิด</Text>		<!-- Swords of El Cid. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_COLADA_TIZONA_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+2 พลังต่อสู้สำหรับยูนิตที่อยู่ติดกับยูนิตศัตรู 2 ยูนิตหรือมากกว่า</Text>		<!-- +2 Combat Strength for Units adjacent to 2 or more enemy Units. -->
+			<Text>+2 พลังต่อสู้ สำหรับยูนิตที่อยู่ติดกับยูนิตศัตรู 2 ยูนิตหรือมากกว่า</Text>		<!-- +2 Combat Strength for Units adjacent to 2 or more enemy Units. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_COLADA_TIZONA_COMBAT_PREVIEW" Language="th_TH">
 			<Text>+{1_Amount} โคลาเด และ ทีโซน่า เมนโต</Text>		<!-- +{1_Amount} Colada &amp; Tizona Memento -->
@@ -10790,7 +10790,7 @@
 			<Text>ใบมีดฮาวซาแบบดั้งเดิม</Text>		<!-- A traditional Hausa blade. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AMINA_TAKOBA_COMBAT_STRENGTH_DESCRIPTION" Language="th_TH">
-			<Text>+{1_Amount} พลังต่อสู้สำหรับยูนิตทั้งหมดในพื้นที่ราบและทะเลทราย</Text>		<!-- +{1_Amount} Combat Strength for all Units in Plains and Desert. -->
+			<Text>+{1_Amount} พลังต่อสู้ สำหรับยูนิตทั้งหมดในพื้นที่ราบและทะเลทราย</Text>		<!-- +{1_Amount} Combat Strength for all Units in Plains and Desert. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AMINA_TAKOBA_FUNCTIONAL_DESCRIPTION" Language="th_TH">
 			<Text>+1 พลังต่อสู้ สำหรับยูนิตทั้งหมดใน ที่ราบ และทะเลทราย</Text>		<!-- +1 Combat Strength for all Units in Plains and Desert. -->
@@ -11147,7 +11147,7 @@
 			<Text>ลับที่ถูกทำแผนที่และลงทะเบียนอย่างเป็นทางการ</Text>		<!-- Secrets mapped and royally registered. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ISABELLA_PADRON_REAL_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+100% ผลผลิตจากสิ่งมหัศจรรย์ทางธรรมชาติ หากคุณกำลังทำงานกับช่องสิ่งมหัศจรรย์ทางธรรมชาติส่วนใหญ่[n]+2 พลังต่อสู้สำหรับเรือทางน้ำหากคุณไม่ได้ทำเช่นนั้น</Text>		<!-- +100% yields on Natural Wonders, if you are working the most Natural Wonder tiles.[n]+2 Combat Strength for Naval Units if you are not. -->
+			<Text>+100% ผลผลิตจากสิ่งมหัศจรรย์ทางธรรมชาติ หากคุณกำลังทำงานกับช่องสิ่งมหัศจรรย์ทางธรรมชาติส่วนใหญ่[n]+2 พลังต่อสู้ สำหรับเรือทางน้ำหากคุณไม่ได้ทำเช่นนั้น</Text>		<!-- +100% yields on Natural Wonders, if you are working the most Natural Wonder tiles.[n]+2 Combat Strength for Naval Units if you are not. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_RIZAL_FORGET_ME_NOT_NAME" Language="th_TH">
 			<Text>อย่าลืมฉัน</Text>		<!-- Forget-me-not -->
@@ -21119,7 +21119,7 @@
 			<Text>ค้นพบสิ่งมหัศจรรย์ทางธรรมชาติ</Text>		<!-- Natural Wonder Discovered -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DISCOVER_NATURAL_WONDER_SUMMARY" Language="th_TH">
-			<Text>อารยธรรมของคุณได้ค้นพบสิ่งมหัศจรรย์ทางธรรมชาติ {1_NaturalWonderName}</Text>		<!-- Your Civilization has discovered the Natural Wonder {1_NaturalWonderName}. -->
+			<Text>อารยธรรมของคุณ ได้ค้นพบ สิ่งมหัศจรรย์ทางธรรมชาติ {1_NaturalWonderName}</Text>		<!-- Your Civilization has discovered the Natural Wonder {1_NaturalWonderName}. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_BANKRUPT_START_MESSAGE" Language="th_TH">
 			<Text>ธนารักษ์ล้มละลาย!</Text>		<!-- Treasury Bankrupt! -->
@@ -21131,7 +21131,7 @@
 			<Text>กระทรวงการคลังมีสภาพคล่อง</Text>		<!-- Treasury Solvent -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_BANKRUPT_END_SUMMARY" Language="th_TH">
-			<Text>อารยธรรมของคุณได้กลับมามีรายได้ทองที่เป็นบวกอีกครั้ง เมืองจะเริ่มมีเสถียรภาพและการยุบยูนิตแบบบังคับจะหยุดลง</Text>		<!-- Your Civilization has regained positive Gold income. Cities will begin to stabilize and forced disbanding of Units will stop. -->
+			<Text>อารยธรรมของคุณ ได้กลับมามี รายได้ ที่เป็นบวกอีกครั้ง เมืองจะเริ่มมีเสถียรภาพ และการยุบยูนิตแบบบังคับจะหยุดลง</Text>		<!-- Your Civilization has regained positive Gold income. Cities will begin to stabilize and forced disbanding of Units will stop. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_STARVATION_MESSAGE" Language="th_TH">
 			<Text>เมืองหิว</Text>		<!-- City Hungry -->
@@ -23322,7 +23322,7 @@
 			<Text>การเฉลิมฉลองในปัจจุบัน</Text>		<!-- Current Celebration -->
 		</Replace>
 		<Replace Tag="LOC_UI_POLICIES_INCOME" Language="th_TH">
-			<Text>รายได้</Text>		<!-- Income -->
+			<Text>ผลตอบแทน</Text>		<!-- Income -->
 		</Replace>
 		<Replace Tag="LOC_UI_POLICIES_OVERVIEW_TAB" Language="th_TH">
 			<Text>ภาพรวม</Text>		<!-- Overview -->
@@ -24111,7 +24111,7 @@
 			<Text>การเติบโตของพลเมือง</Text>		<!-- Citizen Growth -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_DETAILS_BUILDINGS_TAB" Language="th_TH">
-			<Text>การล่มสลายของอาคาร</Text>		<!-- Building Breakdown -->
+			<Text>รายละเอียดอาคาร</Text>		<!-- Building Breakdown -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_DETAILS_BUILDING_DAMAGED" Language="th_TH">
 			<Text>ได้รับความเสียหาย</Text>		<!-- Damaged -->
@@ -24165,7 +24165,7 @@
 			<Text>สิ่งมหัศจรรย์</Text>		<!-- Wonders -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_DETAILS_YIELDS_TAB" Language="th_TH">
-			<Text>การแยกย่อยผลตอบแทน</Text>		<!-- Yields Breakdown -->
+			<Text>รายงานผลผลิต</Text>		<!-- Yields Breakdown -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_DETAILS_CITY_BEING_RAZED" Language="th_TH">
 			<Text>เมืองกำลังถูกทำลาย!</Text>		<!-- City is being Razed! -->
@@ -26211,13 +26211,13 @@
 			<Text>+1 ระยะรัศมีการบังคับบัญชา</Text>		<!-- +1 Command Radius range. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_COMMENDATION_ARMY_ORDER_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้สำหรับยูนิตบกภายในรัศมีการบังคับบัญชา</Text>		<!-- +5 Combat Strength for Land Units within the Command Radius. -->
+			<Text>+5 พลังต่อสู้ สำหรับยูนิตบกภายในรัศมีการบังคับบัญชา</Text>		<!-- +5 Combat Strength for Land Units within the Command Radius. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_COMMENDATION_SQUADRON_ORDER_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้สำหรับยูนิตทางอากาศ ที่อยู่ภายใต้บังคับบัญชา</Text>		<!-- +5 Combat Strength for packed Air Units. -->
+			<Text>+5 พลังต่อสู้ สำหรับยูนิตทางอากาศ ที่อยู่ภายใต้บังคับบัญชา</Text>		<!-- +5 Combat Strength for packed Air Units. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_COMMENDATION_FLEET_ORDER_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้สำหรับยูนิตกองทัพเรือภายในรัศมีคำสั่ง</Text>		<!-- +5 Combat Strength for Naval Units within the Command Radius. -->
+			<Text>+5 พลังต่อสู้ สำหรับยูนิตกองทัพเรือภายในรัศมีคำสั่ง</Text>		<!-- +5 Combat Strength for Naval Units within the Command Radius. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ORDER_PREVIEW" Language="th_TH">
 			<Text>+{Amount} คำสั่งซื้อ</Text>		<!-- +{Amount} Order -->
@@ -26265,7 +26265,7 @@
 			<Text>อยู่อย่างมั่นคง</Text>		<!-- Steadfast -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_STEADFAST_DESCRIPTION" Language="th_TH">
-			<Text>+2 พลังต่อสู้สำหรับยูนิตทหารบก ภายในรัศมีคำสั่งเมื่อทำการป้องกัน</Text>		<!-- +2 Combat Strength for Land Units within the Command Radius when defending. -->
+			<Text>+2 พลังต่อสู้ สำหรับยูนิตทหารบก ภายในรัศมีคำสั่งเมื่อทำการป้องกัน</Text>		<!-- +2 Combat Strength for Land Units within the Command Radius when defending. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_STEADFAST_NAME" Language="th_TH">
 			<Text>มั่นคง</Text>		<!-- Steadfast -->
@@ -26355,13 +26355,13 @@
 			<Text>เดินทัพ</Text>		<!-- Rout -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_ROUT_DESCRIPTION" Language="th_TH">
-			<Text>+2 พลังต่อสู้สำหรับยูนิตทหารราบ ภายในรัศมีการบังคับบัญชาเมื่อทำการโจมตี</Text>		<!-- +2 Combat Strength for Infantry Units within the Command Radius when attacking. -->
+			<Text>+2 พลังต่อสู้ สำหรับยูนิตทหารราบ ภายในรัศมีการบังคับบัญชาเมื่อทำการโจมตี</Text>		<!-- +2 Combat Strength for Infantry Units within the Command Radius when attacking. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_ROUT_NAME" Language="th_TH">
 			<Text>เดินทัพ</Text>		<!-- Rout -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_ROUT_DESCRIPTION" Language="th_TH">
-			<Text>+{Amount} พลังต่อสู้สำหรับยูนิตทหารราบเมื่อโจมตี</Text>		<!-- +{Amount} Combat Strength for Infantry Units when attacking. -->
+			<Text>+{Amount} พลังต่อสู้ สำหรับยูนิตทหารราบเมื่อโจมตี</Text>		<!-- +{Amount} Combat Strength for Infantry Units when attacking. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_ROUT_PREVIEW" Language="th_TH">
 			<Text>+{Amount} รูท</Text>		<!-- +{Amount} Rout -->
@@ -26370,13 +26370,13 @@
 			<Text>พายุ</Text>		<!-- Storm -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_STORM_DESCRIPTION" Language="th_TH">
-			<Text>+2 พลังต่อสู้สำหรับยูนิตระยะไกลภายในระยะคำสั่งเมื่อโจมตี</Text>		<!-- +2 Combat Strength for Ranged Units within the Command Radius when attacking. -->
+			<Text>+2 พลังต่อสู้ สำหรับยูนิตระยะไกลภายในระยะคำสั่งเมื่อโจมตี</Text>		<!-- +2 Combat Strength for Ranged Units within the Command Radius when attacking. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_STORM_NAME" Language="th_TH">
 			<Text>พายุ</Text>		<!-- Storm -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_STORMSTRENGTH_DESCRIPTION" Language="th_TH">
-			<Text>+{Amount} พลังต่อสู้สำหรับยูนิตระยะไกลเมื่อโจมตี</Text>		<!-- +{Amount} Combat Strength for Ranged Units when attacking. -->
+			<Text>+{Amount} พลังต่อสู้ สำหรับยูนิตระยะไกลเมื่อโจมตี</Text>		<!-- +{Amount} Combat Strength for Ranged Units when attacking. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_STORM_PREVIEW" Language="th_TH">
 			<Text>+{Amount} พายุ</Text>		<!-- +{Amount} Storm -->
@@ -26400,13 +26400,13 @@
 			<Text>เอนฟิเลด</Text>		<!-- Enfilade -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_ENFILADE_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้สำหรับยูนิตปิดล้อมภายในรัศมีคำสั่งเมื่อโจมตี</Text>		<!-- +3 Combat Strength for Siege Units within the Command Radius when attacking. -->
+			<Text>+3 พลังต่อสู้ สำหรับยูนิตปิดล้อมภายในรัศมีคำสั่งเมื่อโจมตี</Text>		<!-- +3 Combat Strength for Siege Units within the Command Radius when attacking. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_ENFILADE_NAME" Language="th_TH">
 			<Text>อินฟิเลด</Text>		<!-- Enfilade -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_ENFILADE_DESCRIPTION" Language="th_TH">
-			<Text>+{Amount} พลังต่อสู้สำหรับยูนิตปิดล้อมเมื่อโจมตี</Text>		<!-- +{Amount} Combat Strength for Siege Units when attacking. -->
+			<Text>+{Amount} พลังต่อสู้ สำหรับยูนิตปิดล้อมเมื่อโจมตี</Text>		<!-- +{Amount} Combat Strength for Siege Units when attacking. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_ENFILADE_PREVIEW" Language="th_TH">
 			<Text>+{Amount} เอนฟิเลด</Text>		<!-- +{Amount} Enfilade -->
@@ -26577,7 +26577,7 @@
 			<Text>โจมตีอย่างรุนแรง</Text>		<!-- Onslaught -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_ONSLAUGHT_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้สำหรับทุกยูนิตที่โจมตี เมื่อใช้ความสามารถผู้บัญชาการ "โจมตีแบบประสานงาน"</Text>		<!-- +5 Combat Strength for all Units attacking when using the Coordinated Attack Commander Ability. -->
+			<Text>+5 พลังต่อสู้ สำหรับทุกยูนิตที่โจมตี เมื่อใช้ความสามารถผู้บัญชาการ "โจมตีแบบประสานงาน"</Text>		<!-- +5 Combat Strength for all Units attacking when using the Coordinated Attack Commander Ability. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_ONSLAUGHT_NAME" Language="th_TH">
 			<Text>โจมตีอย่างรุนแรง</Text>		<!-- Onslaught -->
@@ -26589,7 +26589,7 @@
 			<Text>โจมตีแบบปูพรม</Text>		<!-- Barrage -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_BARRAGE_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้สำหรับทุกยูนิตที่โจมตี เมื่อใช้ความสามารถผู้บัญชาการ "สั่งระดมยิง"</Text>		<!-- +5 Combat Strength for all Units attacking when using the Focus Fire Commander Ability. -->
+			<Text>+5 พลังต่อสู้ สำหรับทุกยูนิตที่โจมตี เมื่อใช้ความสามารถผู้บัญชาการ "สั่งระดมยิง"</Text>		<!-- +5 Combat Strength for all Units attacking when using the Focus Fire Commander Ability. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_BARRAGE_NAME" Language="th_TH">
 			<Text>โจมตีแบบปูพรม</Text>		<!-- Barrage -->
@@ -26616,7 +26616,7 @@
 			<Text>ปืนใหญ่เรือ</Text>		<!-- Naval Artillery -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_FLEET_NAVAL_ARTILLERY_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้สำหรับยูนิตทางเรือ ภายในรัศมีคำสั่งเมื่อโจมตีเขต ที่มีการเสริมกำลัง</Text>		<!-- +5 Combat Strength for Naval Units within the Command Radius when attacking Fortified Districts. -->
+			<Text>+5 พลังต่อสู้ สำหรับยูนิตทางเรือ ภายในรัศมีคำสั่งเมื่อโจมตีเขต ที่มีการเสริมกำลัง</Text>		<!-- +5 Combat Strength for Naval Units within the Command Radius when attacking Fortified Districts. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_FLEET_NAVAL_ARTILLERY_PREVIEW" Language="th_TH">
 			<Text>+{Amount} อาวุธปืนใหญ่ทางทะเล</Text>		<!-- +{Amount} Naval Artillery -->
@@ -26682,7 +26682,7 @@
 			<Text>ยิงแบบลาก</Text>		<!-- Raking Fire -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_FLEET_RAKING_FIRE_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้สำหรับยูนิตทะเล ภายในรัศมีการบังคับบัญชาเมื่อตั้งรับ</Text>		<!-- +3 Combat Strength for Naval Units within the Command Radius when defending. -->
+			<Text>+3 พลังต่อสู้ สำหรับยูนิตทะเล ภายในรัศมีการบังคับบัญชาเมื่อตั้งรับ</Text>		<!-- +3 Combat Strength for Naval Units within the Command Radius when defending. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FLEET_REINFORCED_HULL_NAME" Language="th_TH">
 			<Text>ยิงแบบลาก</Text>		<!-- Raking Fire -->
@@ -26697,7 +26697,7 @@
 			<Text>ซัลโว</Text>		<!-- Salvo -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_FLEET_SALVO_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้สำหรับยูนิตทางเรือ ภายในรัศมีคำสั่งเมื่อโจมตี ยูนิตทางเรืออื่นๆ</Text>		<!-- +3 Combat Strength for Naval Units within the Command Radius when attacking other Naval Units. -->
+			<Text>+3 พลังต่อสู้ สำหรับยูนิตทางเรือ ภายในรัศมีคำสั่งเมื่อโจมตี ยูนิตทางเรืออื่นๆ</Text>		<!-- +3 Combat Strength for Naval Units within the Command Radius when attacking other Naval Units. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FLEET_SALVO_NAME" Language="th_TH">
 			<Text>ซัลโว</Text>		<!-- Salvo -->
@@ -26856,13 +26856,13 @@
 			<Text>ซิงโครไนซ์</Text>		<!-- Synchronization -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SQUADRON_SYNCHRONIZATION_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้สำหรับ ยูนิตเครื่องบินขับไล่ ที่อยู่ภายใต้บังคับบัญชา เมื่อสู้กับ ยูนิตทางอากาศ </Text>		<!-- +3 Combat Strength for all packed Fighters against Air Units. -->
+			<Text>+3 พลังต่อสู้ สำหรับ ยูนิตเครื่องบินขับไล่ ที่อยู่ภายใต้บังคับบัญชา เมื่อสู้กับ ยูนิตทางอากาศ </Text>		<!-- +3 Combat Strength for all packed Fighters against Air Units. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SQUADRON_SYNCHRONIZATION_NAME" Language="th_TH">
 			<Text>ซิงโครไนซ์</Text>		<!-- Synchronization -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SQUADRON_SYNCHRONIZATION_DESCRIPTION" Language="th_TH">
-			<Text>+{Amount} พลังต่อสู้สำหรับ ยูนิตเครื่องบินขับไล่ ที่อยู่ภายใต้บังคับบัญชา เมื่อสู้กับ ยูนิตทางอากาศ </Text>		<!-- +{Amount} Combat Strength for Fighters against Air Units. -->
+			<Text>+{Amount} พลังต่อสู้ สำหรับ ยูนิตเครื่องบินขับไล่ ที่อยู่ภายใต้บังคับบัญชา เมื่อสู้กับ ยูนิตทางอากาศ </Text>		<!-- +{Amount} Combat Strength for Fighters against Air Units. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SQUADRON_SYNCHRONIZATION_PREVIEW" Language="th_TH">
 			<Text>การซิงโครไนซ์ +{Amount}</Text>		<!-- +{Amount} Synchronization -->
@@ -26871,7 +26871,7 @@
 			<Text>หลบหลีก</Text>		<!-- Evasive Maneuvers -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SQUADRON_EVASIVE_MANEUVERS_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้สำหรับยูนิตทางอากาศ ที่อยู่ภายใต้บังคับบัญชา เมื่อป้องกัน</Text>		<!-- +3 Combat Strength for packed Air Units when defending. -->
+			<Text>+3 พลังต่อสู้ สำหรับยูนิตทางอากาศ ที่อยู่ภายใต้บังคับบัญชา เมื่อป้องกัน</Text>		<!-- +3 Combat Strength for packed Air Units when defending. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SQUADRON_EVASIVE_MANEUVERS_NAME" Language="th_TH">
 			<Text>การหลบหลีก</Text>		<!-- Evasive Maneuvers -->
@@ -26904,13 +26904,13 @@
 			<Text>โจมตีทางยุทธวิธี</Text>		<!-- Tactical Strike -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SQUADRON_TACTICAL_STRIKE_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้สำหรับ เครื่องบินโจมตีภาคพื้นดิน และเครื่องบินทิ้งระเบิด ที่อยู่ภายใต้บังคับบัญชา เมื่อโจมตียูนิตบก</Text>		<!-- +3 Combat Strength for packed Ground Attackers and Bombers when attacking Land Units. -->
+			<Text>+3 พลังต่อสู้ สำหรับ เครื่องบินโจมตีภาคพื้นดิน และเครื่องบินทิ้งระเบิด ที่อยู่ภายใต้บังคับบัญชา เมื่อโจมตียูนิตบก</Text>		<!-- +3 Combat Strength for packed Ground Attackers and Bombers when attacking Land Units. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SQUADRON_TACTICAL_STRIKE_NAME" Language="th_TH">
 			<Text>โจมตีเชิงกลยุทธ์</Text>		<!-- Tactical Strike -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SQUADRON_TACTICAL_STRIKE_DESCRIPTION" Language="th_TH">
-			<Text>+{Amount} พลังต่อสู้สำหรับ เครื่องบินโจมตีภาคพื้นดิน และเครื่องบินทิ้งระเบิด เมื่อโจมตียูนิตบก</Text>		<!-- +{Amount} Combat Strength for Attack Air Units and Bombers when attacking Land Units. -->
+			<Text>+{Amount} พลังต่อสู้ สำหรับ เครื่องบินโจมตีภาคพื้นดิน และเครื่องบินทิ้งระเบิด เมื่อโจมตียูนิตบก</Text>		<!-- +{Amount} Combat Strength for Attack Air Units and Bombers when attacking Land Units. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SQUADRON_TACTICAL_STRIKE_PREVIEW" Language="th_TH">
 			<Text>+{Amount} การโจมตีทางยุทธวิธี</Text>		<!-- +{Amount} Tactical Strike -->
@@ -26958,7 +26958,7 @@
 			<Text>สนามบินขนาดเล็ก</Text>		<!-- Advanced Landing Ground -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SQUADRON_ADVANCED_LANDING_GROUND_DESCRIPTION" Language="th_TH">
-			<Text>+10 พลังต่อสู้สำหรับผู้บัญชาการนี้เมื่อป้องกัน, +2 ช่องยูนิตเพิ่มเติม</Text>		<!-- +10 Combat Strength for this Commander when defending. +2 Unit Slots. -->
+			<Text>+10 พลังต่อสู้ สำหรับผู้บัญชาการนี้เมื่อป้องกัน, +2 ช่องยูนิตเพิ่มเติม</Text>		<!-- +10 Combat Strength for this Commander when defending. +2 Unit Slots. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SQUADRON_ADVANCED_LANDING_GROUND_PREVIEW" Language="th_TH">
 			<Text>+{Amount} สนามบินขนาดเล็ก</Text>		<!-- +{Amount} Advanced Landing Ground -->
@@ -26967,7 +26967,7 @@
 			<Text>กลุ่มรบ</Text>		<!-- Battle Group -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CARRIER_BATTLE_GROUP_DESCRIPTION" Language="th_TH">
-			<Text>+10 พลังต่อสู้สำหรับผู้บัญชาการนี้เมื่อป้องกัน ยูนิตเรือภายในรัศมีคำสั่งจะได้รับพลังต่อสู้ +5 เมื่อป้องกัน</Text>		<!-- +10 Combat Strength for this Commander when defending. Naval Units within the Command Radius gain +5 Combat Strength when defending. -->
+			<Text>+10 พลังต่อสู้ สำหรับผู้บัญชาการนี้เมื่อป้องกัน ยูนิตเรือภายในรัศมีคำสั่งจะได้รับพลังต่อสู้ +5 เมื่อป้องกัน</Text>		<!-- +10 Combat Strength for this Commander when defending. Naval Units within the Command Radius gain +5 Combat Strength when defending. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CARRIER_BATTLE_GROUP_PREVIEW" Language="th_TH">
 			<Text>กลุ่มรบจำนวน +{Amount}</Text>		<!-- +{Amount} Battle Group -->
@@ -26988,13 +26988,13 @@
 			<Text>อันตรายเข้าใกล้</Text>		<!-- Danger Close -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SQUADRON_DANGER_CLOSE_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้สำหรับยูนิตทางอากาศ ที่อยู่ภายใต้บังคับบัญชา เมื่อโจมตียูนิตศัตรูที่อยู่ติดกับ ยูนิตทหารของฝ่ายเรา</Text>		<!-- +3 Combat Strength for packed Air Units when attacking an enemy Unit that is adjacent to a friendly Military Unit. -->
+			<Text>+3 พลังต่อสู้ สำหรับยูนิตทางอากาศ ที่อยู่ภายใต้บังคับบัญชา เมื่อโจมตียูนิตศัตรูที่อยู่ติดกับ ยูนิตทหารของฝ่ายเรา</Text>		<!-- +3 Combat Strength for packed Air Units when attacking an enemy Unit that is adjacent to a friendly Military Unit. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SQUADRON_DANGER_CLOSE_NAME" Language="th_TH">
 			<Text>อันตรายเข้าใกล้</Text>		<!-- Danger Close -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SQUADRON_DANGER_CLOSE_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้สำหรับยูนิตทางอากาศ ที่อยู่ภายใต้บังคับบัญชา เมื่อโจมตียูนิตศัตรูที่อยู่ติดกับ ยูนิตทหารของฝ่ายเรา</Text>		<!-- +3 Combat Strength for packed Air Units when attacking an enemy Unit that is adjacent to a friendly Military Unit. -->
+			<Text>+3 พลังต่อสู้ สำหรับยูนิตทางอากาศ ที่อยู่ภายใต้บังคับบัญชา เมื่อโจมตียูนิตศัตรูที่อยู่ติดกับ ยูนิตทหารของฝ่ายเรา</Text>		<!-- +3 Combat Strength for packed Air Units when attacking an enemy Unit that is adjacent to a friendly Military Unit. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SQUADRON_DANGER_CLOSE_PREVIEW" Language="th_TH">
 			<Text>+{1_Number} อันตรายเข้าใกล้</Text>		<!-- +{1_Amount} Danger Close -->
@@ -27045,7 +27045,7 @@
 			<Text>กลุ่มรบ</Text>		<!-- Battle Group -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SQUADRON_BATTLE_GROUP_DESCRIPTION" Language="th_TH">
-			<Text>+15 พลังต่อสู้สำหรับผู้บัญชาการนี้เมื่อป้องกัน</Text>		<!-- +15 Combat Strength for this Commander when defneding. -->
+			<Text>+15 พลังต่อสู้ สำหรับผู้บัญชาการนี้เมื่อป้องกัน</Text>		<!-- +15 Combat Strength for this Commander when defneding. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SQUADRON_TORPEDO_BOMBERS_NAME" Language="th_TH">
 			<Text>ตอร์ปิโดบอมเบอร์</Text>		<!-- Torpedo Bombers -->
@@ -27057,7 +27057,7 @@
 			<Text>ทอร์ปิโด บอมเบอร์</Text>		<!-- Torpedo Bombers -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SQUADRON_TORPEDO_BOMBERS_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้สำหรับยูนิตโจมตีทางอากาศและเครื่องบินทิ้งระเบิด ที่อยู่ภายใต้บังคับบัญชา ต่อยูนิตทางทะเล</Text>		<!-- +5 Combat for packed Ground Attack Air Units and Bombers against Naval Units. -->
+			<Text>+5 พลังต่อสู้ สำหรับยูนิตโจมตีทางอากาศและเครื่องบินทิ้งระเบิด ที่อยู่ภายใต้บังคับบัญชา ต่อยูนิตทางทะเล</Text>		<!-- +5 Combat for packed Ground Attack Air Units and Bombers against Naval Units. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SQUADRON_TORPEDO_BOMBERS_PREVIEW" Language="th_TH">
 			<Text>+{Amount} เครื่องบินทิ้งระเบิดตอร์ปิโด</Text>		<!-- +{Amount} Torpedo Bombers -->
@@ -27078,7 +27078,7 @@
 			<Text>การตรวจพบ</Text>		<!-- Spotting -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SQUADRON_SPOTTING_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทั้งหมดในรัศมี 3 ช่องถูกเปิดเผย +5 พลังต่อสู้สำหรับยูนิตทางอากาศ ที่อยู่ภายใต้บังคับบัญชา ต่อยูนิตล่องหน</Text>		<!-- All Units within 3 tiles are revealed. +5 Combat for packed Air Units against Stealth Units. -->
+			<Text>ยูนิตทั้งหมดในรัศมี 3 ช่องถูกเปิดเผย +5 พลังต่อสู้ สำหรับยูนิตทางอากาศ ที่อยู่ภายใต้บังคับบัญชา ต่อยูนิตล่องหน</Text>		<!-- All Units within 3 tiles are revealed. +5 Combat for packed Air Units against Stealth Units. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FIRST_STRIKE_PREVIEW" Language="th_TH">
 			<Text>+{Amount} โจมตีครั้งแรก</Text>		<!-- +{Amount} First Strike -->
@@ -27186,19 +27186,19 @@
 			<Text>พ่อค้า</Text>		<!-- Merchant -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_MERCHANT_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตพลเรือนที่สามารถสร้างเส้นทางการค้า เพื่อการนำเข้าทรัพยากรจากชุมชนต่างประเทศ</Text>		<!-- Civilian who can establish a Trade Route to import Resources from a foreign Settlement. -->
+			<Text>ยูนิตพลเรือน ที่สามารถสร้าง เส้นทางการค้า เพื่อการนำเข้า ทรัพยากร จากถิ่นฐานต่างประเทศ</Text>		<!-- Civilian who can establish a Trade Route to import Resources from a foreign Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_TRADE_CARAVAN_NAME" Language="th_TH">
 			<Text>ขบวนคาราวานการค้า</Text>		<!-- Trade Caravan -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_TRADE_CARAVAN_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตพลเรือนที่ถูกเคลื่อนย้ายโดยอัตโนมัติ ที่แสดงถึงกิจกรรมตามเส้นทางการค้าทางบก อาจถูกปล้นสะดมโดยกองกำลังศัตรู</Text>		<!-- Automatically-moved Civilian Unit that shows activity along a Land Trade Route. Subject to plunder by enemy forces. -->
+			<Text>ยูนิตพลเรือน ที่เคลื่อนที่อัตโนมัติ ตามเส้นทางการค้าทางบก, อาจถูกปล้นสะดมโดยกองกำลังศัตรู</Text>		<!-- Automatically-moved Civilian Unit that shows activity along a Land Trade Route. Subject to plunder by enemy forces. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_TRADE_SHIP_NAME" Language="th_TH">
 			<Text>เรือพาณิชย์</Text>		<!-- Trade Ship -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_TRADE_SHIP_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตพลเรือนที่เคลื่อนที่อัตโนมัติ ซึ่งแสดงกิจกรรมตามเส้นทางการค้าเดินเรือ มีความเสี่ยงต่อการถูกปล้นโดยกองกำลังศัตรู</Text>		<!-- Automatically-moved Civilian Unit that shows activity along a Naval Trade Route. Subject to plunder by enemy forces. -->
+			<Text>ยูนิตพลเรือน ที่เคลื่อนที่อัตโนมัติ ตามเส้นทางการค้าเดินเรือ, อาจถูกปล้นสะดมโดยกองกำลังศัตรู</Text>		<!-- Automatically-moved Civilian Unit that shows activity along a Naval Trade Route. Subject to plunder by enemy forces. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_NAME_WITH_CITY" Language="th_TH">
 			<Text>{1_CityName} {2_UnitName} </Text>		<!-- {1_CityName} {2_UnitName} -->
@@ -27207,19 +27207,19 @@
 			<Text>สะเทินน้ำสะเทินบก</Text>		<!-- Amphibious -->
 		</Replace>
 		<Replace Tag="LOC_KEYWORD_ABILITY_AMPHIBIOUS_DESCRIPTION" Language="th_TH">
-			<Text>ละเลยการลดพลังต่อสู้เมื่อลงเรือ ไม่เสียค่าความเคลื่อนที่ในการขึ้นหรือลงจากเรือ</Text>		<!-- Ignores the Combat Strength penalty for being Embarked. Pays no Movement cost to Embark or Disembark. -->
+			<Text>ไม่ลดพลังต่อสู้เมื่อลงเรือ ไม่เสีย แต้มเคลื่อนที่ ในการขึ้นหรือลงจากเรือ</Text>		<!-- Ignores the Combat Strength penalty for being Embarked. Pays no Movement cost to Embark or Disembark. -->
 		</Replace>
 		<Replace Tag="LOC_KEYWORD_ABILITY_ENTER_FOREIGN_LANDS" Language="th_TH">
 			<Text>เข้าสู่ดินแดนต่างประเทศ</Text>		<!-- Enter Foreign Lands -->
 		</Replace>
 		<Replace Tag="LOC_KEYWORD_ABILITY_ENTER_FOREIGN_LANDS_DESCRIPTION" Language="th_TH">
-			<Text>สามารถเข้าสู่ดินแดนต่างประเทศได้แม้ไม่มีข้อตกลงเปิดพรมแดน</Text>		<!-- Can enter foreign territory even without Open Borders. -->
+			<Text>สามารถเข้าสู่ดินแดนต่างประเทศได้ แม้ไม่มีข้อตกลงเปิดพรมแดน</Text>		<!-- Can enter foreign territory even without Open Borders. -->
 		</Replace>
 		<Replace Tag="LOC_KEYWORD_ABILITY_EMBED" Language="th_TH">
 			<Text>ฝัง</Text>		<!-- Embed -->
 		</Replace>
 		<Replace Tag="LOC_KEYWORD_ABILITY_EMBED_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตยังคงอยู่ที่ตำแหน่งเดิมและได้รับความสามารถพิเศษอย่างต่อเนื่อง ยูนิตที่ฝังอยู่นั้นไม่สามารถโต้ตอบกับยูนิตอื่นหรือถิ่นฐานได้ แต่ไม่ขัดขวางยูนิตหรือกองทัพจากการเข้าสู่ช่องของพวกเขา ผู้เล่นสามารถยกเลิกความสามารถที่ฝังไว้ได้ทุกเมื่อ</Text>		<!-- The Unit remains in place at its location and gains an ongoing ability effect. Embedded Units cannot interact with other Units or Settlements in any way, but they do not block Units or Armies from entering their tile. Players can cancel Embedded abilities at any time. -->
+			<Text>ยูนิตยังคงอยู่ที่ตำแหน่งเดิม และได้รับความสามารถพิเศษอย่างต่อเนื่อง ยูนิตที่ฝังอยู่นั้นไม่สามารถโต้ตอบกับยูนิตอื่นหรือถิ่นฐานได้ แต่ไม่ขัดขวางยูนิต หรือกองทัพจากการเข้าสู่ช่องของพวกเขา ผู้เล่นสามารถยกเลิกความสามารถที่ฝังไว้ได้ทุกเมื่อ</Text>		<!-- The Unit remains in place at its location and gains an ongoing ability effect. Embedded Units cannot interact with other Units or Settlements in any way, but they do not block Units or Armies from entering their tile. Players can cancel Embedded abilities at any time. -->
 		</Replace>
 		<Replace Tag="LOC_KEYWORD_ABILITY_FIRST_STRIKE" Language="th_TH">
 			<Text>การโจมตีครั้งแรก</Text>		<!-- First Strike -->
@@ -27474,7 +27474,7 @@
 			<Text>+{1_Amount} ราชินีนักรบแห่งซาซเซา</Text>		<!-- +{1_Amount} Warrior-Queen of Zazzau -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_CHARLEMAGNE_CAVALRY_DESCRIPTION" Language="th_TH">
-			<Text>+{1_Value} พลังต่อสู้สำหรับยูนิตม้าในช่วงเฉลิมฉลอง</Text>		<!-- +{1_Value} Combat Strength for Cavalry Units during a Celebration -->
+			<Text>+{1_Value} พลังต่อสู้ สำหรับยูนิตม้าในช่วงเฉลิมฉลอง</Text>		<!-- +{1_Value} Combat Strength for Cavalry Units during a Celebration -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_CHARLEMAGNE_COMBAT_PREVIEW" Language="th_TH">
 			<Text>+{1_Amount} บิดาแห่งยุโรป</Text>		<!-- +{1_Amount} Father of Europe -->
@@ -28243,7 +28243,7 @@
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_ASHOKA_RENOUNCER_MODERN_1_DESCRIPTION" Language="th_TH">
 			<Text>ในฐานะ พระเจ้าอโศกผู้ทิ้งโลก ได้รับการ์ดมรดกยุคใหม่:[n]
-                +15% อิทธิพล, -2 พลังต่อสู้สำหรับ ยูนิตทางอากาศ </Text>		<!-- As Ashoka World-Renouncer, access a new Modern Legacy Card:[n]
+                +15% อิทธิพล, -2 พลังต่อสู้ สำหรับ ยูนิตทางอากาศ </Text>		<!-- As Ashoka World-Renouncer, access a new Modern Legacy Card:[n]
 				+15% Influence, -2 Combat Strength for Air Units -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_ASHOKA_RENOUNCER_MODERN_2_NAME" Language="th_TH">
@@ -28288,7 +28288,7 @@
 			<Text>ไพ่มรดกทางการทูตการสำรวจ</Text>		<!-- Exploration Diplomatic Legacy Card -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_FRANKLIN_EXPLORATION_1_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ เบนจามิน แฟรงคลิน เข้าถึงไพ่มรดกยุคสำรวจ ใบใหม่: [n] +15% อิทธิพล, -2 พลังต่อสู้สำหรับยูนิตเรือ</Text>		<!-- As Benjamin Franklin, access a new Exploration Legacy Card:[n]
+			<Text>ในฐานะ เบนจามิน แฟรงคลิน เข้าถึงไพ่มรดกยุคสำรวจ ใบใหม่: [n] +15% อิทธิพล, -2 พลังต่อสู้ สำหรับยูนิตเรือ</Text>		<!-- As Benjamin Franklin, access a new Exploration Legacy Card:[n]
 				+15% Influence, -2 Combat Strength for Naval Units -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_FRANKLIN_EXPLORATION_2_NAME" Language="th_TH">
@@ -28302,7 +28302,7 @@
 			<Text>ไพ่มรดกทางการทูตสมัยใหม่</Text>		<!-- Modern Diplomatic Legacy Card -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_FRANKLIN_MODERN_1_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ เบนจามิน แฟรงคลิน เข้าถึงการ์ดมรดกสมัยใหม่ใบใหม่: [n] +15% อิทธิพล, -2 พลังต่อสู้สำหรับ ยูนิตทางอากาศ </Text>		<!-- As Benjamin Franklin, access a new Modern Legacy Card:[n]
+			<Text>ในฐานะ เบนจามิน แฟรงคลิน เข้าถึงการ์ดมรดกสมัยใหม่ใบใหม่: [n] +15% อิทธิพล, -2 พลังต่อสู้ สำหรับ ยูนิตทางอากาศ </Text>		<!-- As Benjamin Franklin, access a new Modern Legacy Card:[n]
 				+15% Influence, -2 Combat Strength for Air Units -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_FRANKLIN_MODERN_2_NAME" Language="th_TH">
@@ -28450,7 +28450,7 @@
 			<Text>ไพ่มรดกการทูตร่วมสมัย</Text>		<!-- Modern Diplomatic Legacy Card -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_TUBMAN_MODERN_1_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ แฮเรียต ทับแมน เข้าถึงไพ่มรดกยุคใหม่ ใบใหม่:[n] +15% อิทธิพล, -2 พลังต่อสู้สำหรับยูนิตทางอากาศ</Text>		<!-- As Harriet Tubman, access a new Modern Legacy Card:[n]
+			<Text>ในฐานะ แฮเรียต ทับแมน เข้าถึงไพ่มรดกยุคใหม่ ใบใหม่:[n] +15% อิทธิพล, -2 พลังต่อสู้ สำหรับยูนิตทางอากาศ</Text>		<!-- As Harriet Tubman, access a new Modern Legacy Card:[n]
 				+15% Influence, -2 Combat Strength for Air Units -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_TUBMAN_MODERN_2_NAME" Language="th_TH">
@@ -28493,7 +28493,7 @@
 			<Text>ไพ่มรดกการทูตแห่งการสำรวจ</Text>		<!-- Exploration Diplomatic Legacy Card -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_HIMIKO_QUEEN_EXPLORATION_1_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ ฮิมิโกะ ราชินีแห่งวา เข้าถึงการ์ดสำรวจประวัติศาสตร์ใบใหม่:[n] +15% อิทธิพล, -2 พลังต่อสู้สำหรับยูนิตทางเรือ</Text>		<!-- As Himiko Queen of Wa, access a new Exploration Legacy Card:[n]
+			<Text>ในฐานะ ฮิมิโกะ ราชินีแห่งวา เข้าถึงการ์ดสำรวจประวัติศาสตร์ใบใหม่:[n] +15% อิทธิพล, -2 พลังต่อสู้ สำหรับยูนิตทางเรือ</Text>		<!-- As Himiko Queen of Wa, access a new Exploration Legacy Card:[n]
 				+15% Influence, -2 Combat Strength for Naval Units -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_HIMIKO_QUEEN_EXPLORATION_2_NAME" Language="th_TH">
@@ -28589,7 +28589,7 @@
 			<Text>ไพ่มรดกทางการทูตสำรวจ</Text>		<!-- Exploration Diplomatic Legacy Card -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_RIZAL_EXPLORATION_2_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ได้รับการ์ดการสำรวจมรดกใหม่:[n] +15% อิทธิพล, -2 พลังต่อสู้สำหรับยูนิตเรือรบ</Text>		<!-- As Jose Rizal, access a new Exploration Legacy Card:[n]
+			<Text>ในฐานะ โฮเซ รีซัล ได้รับการ์ดการสำรวจมรดกใหม่:[n] +15% อิทธิพล, -2 พลังต่อสู้ สำหรับยูนิตเรือรบ</Text>		<!-- As Jose Rizal, access a new Exploration Legacy Card:[n]
 				+15% Influence, -2 Combat Strength for Naval Units -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_RIZAL_MODERN_1_NAME" Language="th_TH">
@@ -28604,7 +28604,7 @@
 			<Text>การ์ดมรดกทางการทูตสมัยใหม่</Text>		<!-- Modern Diplomatic Legacy Card -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_RIZAL_MODERN_2_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ โฮเซ ริซัล เข้าถึงการ์ดมรดกสมัยใหม่ใหม่:[n] +15% อิทธิพล, -2 พลังต่อสู้สำหรับ ยูนิตทางอากาศ </Text>		<!-- As Jose Rizal, access a new Modern Legacy Card:[n]
+			<Text>ในฐานะ โฮเซ ริซัล เข้าถึงการ์ดมรดกสมัยใหม่ใหม่:[n] +15% อิทธิพล, -2 พลังต่อสู้ สำหรับ ยูนิตทางอากาศ </Text>		<!-- As Jose Rizal, access a new Modern Legacy Card:[n]
 				+15% Influence, -2 Combat Strength for Air Units -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_LAFAYETTE_EXPLORATION_1_NAME" Language="th_TH">
@@ -28618,7 +28618,7 @@
 			<Text>การ์ดมรดกทางการทูตการสำรวจ</Text>		<!-- Exploration Diplomatic Legacy Card -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_LAFAYETTE_EXPLORATION_2_DESCRIPTION" Language="th_TH">
-			<Text>เมื่อลาฟาแยตต์เข้าถึงการ์ดมรดกการสำรวจใหม่: [n] +15% อิทธิพล, -2 พลังต่อสู้สำหรับยูนิตทางเรือ</Text>		<!-- As Lafayette, access a new Exploration Legacy Card:[n]
+			<Text>เมื่อลาฟาแยตต์เข้าถึงการ์ดมรดกการสำรวจใหม่: [n] +15% อิทธิพล, -2 พลังต่อสู้ สำหรับยูนิตทางเรือ</Text>		<!-- As Lafayette, access a new Exploration Legacy Card:[n]
 				+15% Influence, -2 Combat Strength for Naval Units -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_LAFAYETTE_MODERN_1_NAME" Language="th_TH">
@@ -28633,14 +28633,14 @@
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_LAFAYETTE_MODERN_2_DESCRIPTION" Language="th_TH">
 			<Text>ในฐานะ ลาไฟแยตต์ เข้าถึงการ์ดมรดกสมัยใหม่ใหม่:[n]  
-				+15% อิทธิพล, -2 พลังต่อสู้สำหรับยูนิตทางอากาศ</Text>		<!-- As Lafayette, access a new Modern Legacy Card:[n]
+				+15% อิทธิพล, -2 พลังต่อสู้ สำหรับยูนิตทางอากาศ</Text>		<!-- As Lafayette, access a new Modern Legacy Card:[n]
 				+15% Influence, -2 Combat Strength for Air Units -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_MACHIAVELLI_EXPLORATION_1_NAME" Language="th_TH">
 			<Text>ไพ่มรดกทางการทูตการสำรวจ</Text>		<!-- Exploration Diplomatic Legacy Card -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_MACHIAVELLI_EXPLORATION_1_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ เข้าถึงไพ่มรดกยุคสำรวจ ใบใหม่:[n] +15% อิทธิพล, -2 พลังต่อสู้สำหรับยูนิตเรือ</Text>		<!-- As Machiavelli, access a new Exploration Legacy Card:[n]
+			<Text>ในฐานะ แมคคิอาเวลลี่ เข้าถึงไพ่มรดกยุคสำรวจ ใบใหม่:[n] +15% อิทธิพล, -2 พลังต่อสู้ สำหรับยูนิตเรือ</Text>		<!-- As Machiavelli, access a new Exploration Legacy Card:[n]
 				+15% Influence, -2 Combat Strength for Naval Units -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_MACHIAVELLI_EXPLORATION_2_NAME" Language="th_TH">
@@ -28654,7 +28654,7 @@
 			<Text>ไพ่มรดกลึกซึ้งทางการทูตสมัยใหม่</Text>		<!-- Modern Diplomatic Legacy Card -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_MACHIAVELLI_MODERN_1_DESCRIPTION" Language="th_TH">
-			<Text>ในบทบาทของมาคิอาเวลลี เข้าถึงการ์ดมรดกสมัยใหม่ใหม่:[n] +15% อิทธิพล, -2 พลังต่อสู้สำหรับ ยูนิตทางอากาศ </Text>		<!-- As Machiavelli, access a new Modern Legacy Card:[n]
+			<Text>ในบทบาทของมาคิอาเวลลี เข้าถึงการ์ดมรดกสมัยใหม่ใหม่:[n] +15% อิทธิพล, -2 พลังต่อสู้ สำหรับ ยูนิตทางอากาศ </Text>		<!-- As Machiavelli, access a new Modern Legacy Card:[n]
 				+15% Influence, -2 Combat Strength for Air Units -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_MACHIAVELLI_MODERN_2_NAME" Language="th_TH">
@@ -28762,7 +28762,7 @@
 			<Text>โหนดคุณลักษณะทางทหาร</Text>		<!-- Militaristic Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_AMINA_L2_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้สำหรับทุกยูนิตต่อเขตเมือง</Text>		<!-- +5 Combat Strength for all Units against Districts. -->
+			<Text>+5 พลังต่อสู้ สำหรับทุกยูนิตต่อเขตเมือง</Text>		<!-- +5 Combat Strength for all Units against Districts. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_ASHOKA_RENOUNCER_L1_NAME" Language="th_TH">
 			<Text>โหนดลักษณะทางการทูต</Text>		<!-- Diplomatic Attribute Node -->
@@ -28816,7 +28816,7 @@
 			<Text>โหนดคุณลักษณะทางทหาร</Text>		<!-- Militaristic Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_CHARLEMAGNE_L1_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้สำหรับทุกยูนิตเมื่อสู้กับเขตเมือง</Text>		<!-- +5 Combat Strength for all Units against Districts. -->
+			<Text>+5 พลังต่อสู้ สำหรับทุกยูนิตเมื่อสู้กับเขตเมือง</Text>		<!-- +5 Combat Strength for all Units against Districts. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_CHARLEMAGNE_L2_NAME" Language="th_TH">
 			<Text>โหนดคุณลักษณะทางวิทยาศาสตร์</Text>		<!-- Scientific Attribute Node -->
@@ -28960,7 +28960,7 @@
 			<Text>โหนดแอตทริบิวต์แบบทหาร</Text>		<!-- Militaristic Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_TRUNG_L1_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้สำหรับยูนิตทั้งหมดเมื่อสู้กับเขต</Text>		<!-- +5 Combat Strength for all Units against Districts. -->
+			<Text>+5 พลังต่อสู้ สำหรับยูนิตทั้งหมดเมื่อสู้กับเขต</Text>		<!-- +5 Combat Strength for all Units against Districts. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_TRUNG_L2_NAME" Language="th_TH">
 			<Text>โหนดคุณลักษณะทางวิทยาศาสตร์</Text>		<!-- Scientific Attribute Node -->
@@ -29674,10 +29674,10 @@
 			<Text>[B]เซิร์กซีส[/B] มาจากภูมิภาคใกล้กับ [B]รัสเซีย[/B]</Text>		<!-- [B]Xerxes[/B] was from a nearby region to [B]Russia[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_CAMELS_DESCRIPTION" Language="th_TH">
-			<Text>พัฒนาอูฐสามตัว</Text>		<!-- Improve three [B]Camels[/B]. -->
+			<Text>พัฒนา [B]อูฐ[/B] สามตัว</Text>		<!-- Improve three [B]Camels[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_CAMELS_ABBASIDS_TOOLTIP" Language="th_TH">
-			<Text>[B]อูฐ[/B] เป็นสินค้าที่สำคัญสำหรับ [B]ราชวงศ์อับบาซิด[/B]</Text>		<!-- [B]Camels[/B] were an important commodity to the [B]Abbasids[/B]. -->
+			<Text>[B]อูฐ[/B] เป็นสินค้าที่สำคัญสำหรับ [B]อับบาซิด[/B]</Text>		<!-- [B]Camels[/B] were an important commodity to the [B]Abbasids[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_CAMELS_ABBASIDS_NARRATIVE" Language="th_TH">
 			<Text>ขบวนอูฐแกว่งไปมาจากด้านหนึ่งไปอีกด้านหนึ่งอย่างน่าหลงใหล เรือแห่งทะเลทรายเหล่านี้ได้นำความเจริญรุ่งเรืองใหม่มาสู่เมืองที่เจริญของ {1_Civilization_Adj} และเหล่าศิลปินและนักคิดนั่งเอนบนของนำเข้าที่หรูหรา และส่งความคิดของพวกเขาไปยังสิ่งที่อาจจะเป็น</Text>		<!-- The camel train sways from side to side, hypnotically. These ships of the desert have brought a new prosperity to {1_Civilization_Adj} cities, and artists and thinkers recline on imported finery, and send their thoughts to what might be. -->
@@ -29920,7 +29920,7 @@
 			<Text>คุณได้ปลดล็อก ปรัสเซีย โดยมีผู้บัญชาการกองทัพ 3 คน</Text>		<!-- You have unlocked Prussia by having 3 Army Commanders. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_NAVIGABLE_RIVER_SETTLEMENT_DESCRIPTION" Language="th_TH">
-			<Text>มีถิ่นฐานสามแห่งที่มีแผ่นแม่น้ำ [B]นำทางได้[/B] อย่างน้อยสามแผ่นในแต่ละแห่ง</Text>		<!-- Have three Settlements with at least three [B]Navigable River[/B] tiles each. -->
+			<Text>มีถิ่นฐานสามแห่งที่มีช่อง [B]แม่น้ำใหญ่[/B] อย่างน้อยสามช่องในแต่ละแห่ง</Text>		<!-- Have three Settlements with at least three [B]Navigable River[/B] tiles each. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_NAVIGABLE_RIVER_SETTLEMENT_SONGHAI_TOOLTIP" Language="th_TH">
 			<Text>แม่น้ำใหญ่เป็นส่วนสำคัญของอัตลักษณ์ของซองไฮ</Text>		<!-- [B]Navigable Rivers[/B] were an important part of [B]Songhai's[/B] identity. -->
@@ -29929,7 +29929,7 @@
 			<Text>ชาวแม่น้ำรู้จักการขี่ม้าเช่นเดียวกับการอยู่ในน้ำ... ถ้าจะบอกว่าเขารู้สึกเป็นที่ไหนซักแห่ง นอกจากนั้น พวกเขาปรารถนาที่จะเคลื่อนไหว ซึ่งเป็นคุณลักษณะที่เหมาะกับท่าเรือและตลาดของ {1_Civilization_Adj} ในขณะนี้ แต่ใครจะรู้ว่าเหล่านักพเนจรเหล่านี้มีความทะเยอทะยานอย่างไร?</Text>		<!-- The river-people are equally at home on horseback… if they can be said to be at home anywhere. Above all, they yearn for movement. This has suited {1_Civilization_Adj} ports and markets well for now, but who knows what ambitions these wanderers may hold? -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_NAVIGABLE_RIVER_SETTLEMENT_SONGHAI_UNLOCK" Language="th_TH">
-			<Text>คุณได้ปลดล็อก ซองไฮ โดยมี 3 เมือง แต่ละเมืองมี 3 ช่องแม่น้ำที่สามารถนำทางได้</Text>		<!-- You have unlocked Songhai by having 3 Cities with 3 Navigable River tiles each. -->
+			<Text>คุณได้ปลดล็อก ซองไฮ โดยมี 3 เมือง แต่ละเมืองมี 3 ช่องแม่น้ำใหญ่</Text>		<!-- You have unlocked Songhai by having 3 Cities with 3 Navigable River tiles each. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_MOUNTAIN_SETTLEMENTS_DESCRIPTION" Language="th_TH">
 			<Text>มีเมืองตั้งถิ่นฐาน 3 แห่งที่มี [B]ภูเขา[/B] อย่างน้อย 3 แห่งต่อแห่ง</Text>		<!-- Have three Settlements with at least three [B]Mountains[/B] each. -->
@@ -30142,7 +30142,7 @@
 			<Text>มีโรงพยาบาลอย่างน้อย 4 แห่ง</Text>		<!-- Have at least 4 Hospitals. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_EX_PLAGUE_CONTAGION_THEORY_TOOLTIP" Language="th_TH">
-			<Text>อารยธรรมของคุณได้คัดเลือกหมอผู้กล้าหาญและผู้รักษาฝีมือดีในช่วงที่เกิดโรคระบาด</Text>		<!-- Your civilization recruited bold doctors and skilled healers during the plague. -->
+			<Text>อารยธรรมของคุณ ได้คัดเลือก หมอผู้กล้าหาญ และผู้รักษาฝีมือดี ในช่วงที่เกิดโรคระบาด</Text>		<!-- Your civilization recruited bold doctors and skilled healers during the plague. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_EX_PLAGUE_EARLY_INDUSTRIALIZATION_NAME" Language="th_TH">
 			<Text>อุตสาหกรรมยุคแรก</Text>		<!-- Early Industrialization -->
@@ -30790,7 +30790,7 @@
 			<Text>ทูต</Text>		<!-- Envoys -->
 		</Replace>
 		<Replace Tag="LOC_YIELD_MAX_CITIES" Language="th_TH">
-			<Text>จำนวนขีดจำกัดการตั้งถิ่นฐาน: -5 [icon:YIELD_HAPPINESS] ความสุข ในทุกถิ่นฐานที่เกินกว่าขีดจำกัด (สูงสุด -35 [icon:YIELD_HAPPINESS] ความสุข )</Text>		<!-- Settlement Limit. -5 [icon:YIELD_HAPPINESS] Happiness in all Settlements per Settlement over the limit (to a maximum of -35 [icon:YIELD_HAPPINESS] Happiness). -->
+			<Text>จำนวนขีดจำกัดถิ่นฐาน: -5 [icon:YIELD_HAPPINESS] ความสุข ในทุกถิ่นฐานที่เกินกว่าขีดจำกัด (สูงสุด -35 [icon:YIELD_HAPPINESS] ความสุข)</Text>		<!-- Settlement Limit. -5 [icon:YIELD_HAPPINESS] Happiness in all Settlements per Settlement over the limit (to a maximum of -35 [icon:YIELD_HAPPINESS] Happiness). -->
 		</Replace>
 		<Replace Tag="LOC_PLUNDER_HEAL_NAME" Language="th_TH">
 			<Text>รักษา</Text>		<!-- Healing -->
@@ -30853,7 +30853,7 @@
 			<Text>+{1_Value} ขุมทรัพย์กองเรือ {1_Value: plural 1?Point;other?Points;}</Text>		<!-- +{1_Value} Treasure Fleet {1_Value: plural 1?Point;other?Points;} -->
 		</Replace>
 		<Replace Tag="LOC_GLOBAL_YIELDS_TITLE" Language="th_TH">
-			<Text>การแยกย่อยผลตอบแทนทั่วโลก</Text>		<!-- Global Yields Breakdown -->
+			<Text>รายงานผลผลิตทั่วโลก</Text>		<!-- Global Yields Breakdown -->
 		</Replace>
 		<Replace Tag="LOC_GLOBAL_YIELDS_SUBTITLE" Language="th_TH">
 			<Text>รายงาน ผลผลิตของทุกเมืองใน จักรวรรดิของคุณ</Text>		<!-- Yields Breakdown across all Cities in your Empire -->
