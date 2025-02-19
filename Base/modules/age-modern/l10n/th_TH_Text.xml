@@ -3269,7 +3269,7 @@
 			<Text>บ่อขั้นบันได</Text>		<!-- Stepwell -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_STEPWELL_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_FOOD] อาหาร จากฟาร์มใกล้เคียง, เขตพัฒนาพิเศษ ของมุกัล, คงอยู่ตลอดกาล, ไม่ลบโบนัสจากโกดังในช่องนี้, ต้องวางบนพื้นเรียบ, ไม่สามารถวางใกล้กับ Stepwell อีกแห่งหนึ่งได้</Text>		<!-- +2[icon:YIELD_FOOD] Food from adjacent Farms. Mughal Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Flat Terrain. Cannot be placed adjacent to another Stepwell. -->
+			<Text>+2[icon:YIELD_FOOD] อาหาร จากฟาร์มใกล้เคียง, เขตพัฒนาพิเศษ ของมุกัล, คงอยู่ตลอดกาล, ไม่ลบโบนัสจากโกดังในช่องนี้, ต้องวางบนพื้นเรียบ, ไม่สามารถวางใกล้กับ บ่อขั้นบันได อีกแห่งหนึ่งได้</Text>		<!-- +2[icon:YIELD_FOOD] Food from adjacent Farms. Mughal Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Flat Terrain. Cannot be placed adjacent to another Stepwell. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_STEPWELL_TOOLTIP" Language="th_TH">
 			<Text>เขตพัฒนาพิเศษเฉพาะตัวของมูกัล คงอยู่ตลอดกาล ไม่ลบโบนัสคลังสินค้าในช่องนี้ ต้องวางบนพื้นดินราบ ไม่สามารถวางติดกับสเต็ปเวลล์อื่นได้</Text>		<!-- Mughal Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Flat Terrain. Cannot be placed adjacent to another Stepwell. -->
@@ -9149,7 +9149,7 @@
 			<Text>เรื่องราวยังคงดำเนินต่อไป..</Text>		<!-- Story continues. -->
 		</Replace>
 		<Replace Tag="LOC_3442A_COMPLETION" Language="th_TH">
-			<Text></Text>		<!--  -->
+			<Text/>		<!--  -->
 		</Replace>
 		<Replace Tag="LOC_3442B_NAME" Language="th_TH">
 			<Text>ปิด</Text>		<!-- Close. -->
@@ -11685,7 +11685,7 @@
 			<Text>ปิด</Text>		<!-- Close. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1028B_DESCRIPTION" Language="th_TH">
-			<Text>1_child_reward</Text>		<!-- {1_child_reward} -->
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1028B_COMPLETION" Language="th_TH">
 			<Text>อดีตยังคงมีชีวิตอยู่ในจักรวรรดิของออกัสตัส นำสอนความรู้จากอดีตสู่รุ่นต่อไป</Text>		<!-- The past lives on in Augustus' empire, delivering lessons of the past to generations to come. -->
