@@ -20,7 +20,7 @@
 			<Text>เล่นอัตโนมัติ...</Text>		<!-- Auto Playing... -->
 		</Replace>
 		<Replace Tag="LOC_ACTION_PANEL_CURRENT_AGE_PROGRESS" Language="th_TH">
-			<Text>ความก้าวหน้าในยุค: {2_AgeProgress}. ยุค {1_Age} จะสิ้นสุดที่ความก้าวหน้าในยุค {3_MaxAgeProgress}</Text>		<!-- Age Progress: {2_AgeProgress}. The {1_Age} Age will end at {3_MaxAgeProgress} Age Progress. -->
+			<Text>ความก้าวหน้าในยุค: {2_AgeProgress} แต้ม, ยุค {1_Age} จะสิ้นสุดที่ {3_MaxAgeProgress} แต้ม</Text>		<!-- Age Progress: {2_AgeProgress}. The {1_Age} Age will end at {3_MaxAgeProgress} Age Progress. -->
 		</Replace>
 		<Replace Tag="LOC_ACTION_PANEL_CURRENT_TURN" Language="th_TH">
 			<Text>เทิร์น: {1_TurnNumber}</Text>		<!-- Turn: {1_TurnNumber} -->
@@ -1325,13 +1325,13 @@
 			<Text>ค.ศ. {1_Date: number #}</Text>		<!-- {1_Date: number #} CE -->
 		</Replace>
 		<Replace Tag="LOC_TIME_AD_SAVE" Language="th_TH">
-			<Text>{2} ค.ศ.-{1_Date}</Text>		<!-- {2} CE-{1_Date} -->
+			<Text>{2} ค.ศ. {1_Date}</Text>		<!-- {2} CE-{1_Date} -->
 		</Replace>
 		<Replace Tag="LOC_TIME_BC" Language="th_TH">
 			<Text>{1_Date: number #} ก่อนคริสตกาล</Text>		<!-- {1_Date: number #} BCE -->
 		</Replace>
 		<Replace Tag="LOC_TIME_BC_SAVE" Language="th_TH">
-			<Text>{2} ก่อนคริสตกาล-{1_Date}</Text>		<!-- {2} BCE-{1_Date} -->
+			<Text>{2} {1_Date} ก่อนคริสตกาล</Text>		<!-- {2} BCE-{1_Date} -->
 		</Replace>
 		<Replace Tag="LOC_TIME_MONTH" Language="th_TH">
 			<Text>{1_Date},{2_Month}</Text>		<!-- {1_Date},{2_Month} -->
@@ -3004,7 +3004,7 @@
 			<Text>อาคาร: โบนัสความใกล้เคียง</Text>		<!-- Buildings: Adjacency -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_7_CHAPTER_CONTENT_PARA_1" Language="th_TH">
-			<Text>อาคารที่อยู่ใกล้เคียงมอบโบนัสให้กับพื้นที่รอบข้าง ซึ่งโดยปกติจะเริ่มต้นด้วยโบนัสพื้นฐาน 1 แต่สามารถเพิ่มขึ้นได้โดยผู้เชี่ยวชาญ เพื่อปลดล็อกโบนัสนี้ พื้นที่รอบข้างต้องตรงตามเงื่อนไขเฉพาะที่ระบุไว้ในเครื่องมือการผลิต เงื่อนไขเหล่านี้อาจรวมถึงการวางอาคารใกล้หรือตามบริเวณที่เฉพาะเจาะจง เช่น ไบโอม สภาพภูมิประเทศ สี่เหลี่ยม พืชพรรณ สิ่งมหัศจรรย์ การพัฒนา หรือการก่อสร้างที่มีผลผลิตเฉพาะ</Text>		<!-- Adjacency buildings offer bonuses to surrounding tiles, which typically start with a base bonus of 1 but can be enhanced by Specialists. To unlock this bonus, surrounding tiles must meet specific conditions outlined in the production tooltip. These conditions may include placing buildings near or in certain biomes, terrains, quarters, vegetation, wonders, improvements, or constructs with specific yields. -->
+			<Text>อาคารที่อยู่ใกล้เคียงมอบโบนัสให้กับพื้นที่รอบข้าง ซึ่งโดยปกติจะเริ่มต้นด้วยโบนัสพื้นฐาน 1 แต่สามารถเพิ่มขึ้นได้โดยผู้เชี่ยวชาญ เพื่อปลดล็อกโบนัสนี้ พื้นที่รอบข้างต้องตรงตามเงื่อนไขเฉพาะที่ระบุไว้ในเครื่องมือการผลิต เงื่อนไขเหล่านี้อาจรวมถึงการวางอาคารใกล้หรือตามบริเวณที่เฉพาะเจาะจง เช่น ระบบนิเวศ สภาพภูมิประเทศ สี่เหลี่ยม พืชพรรณ สิ่งมหัศจรรย์ การพัฒนา หรือการก่อสร้างที่มีผลผลิตเฉพาะ</Text>		<!-- Adjacency buildings offer bonuses to surrounding tiles, which typically start with a base bonus of 1 but can be enhanced by Specialists. To unlock this bonus, surrounding tiles must meet specific conditions outlined in the production tooltip. These conditions may include placing buildings near or in certain biomes, terrains, quarters, vegetation, wonders, improvements, or constructs with specific yields. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_7_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>เคล็ดลับ: วางอาคารไว้ข้างๆ แผ่นที่ตรงตามข้อกำหนดการอยู่ใกล้กัน จากนั้นเพิ่มผู้เชี่ยวชาญเพื่อเพิ่มผลผลิตให้สูงขึ้นอีก ซึ่งกลยุทธ์นี้สามารถเพิ่มผลผลิตได้อย่างมีประสิทธิภาพในแผ่นเดียว</Text>		<!-- Tip: Place buildings next to tiles that meet the adjacency requirements then add Specialists to further boost their yield. This strategy effectively maximizes the yield on a single tile. -->
@@ -4507,7 +4507,7 @@
 			<Text>ฐานพลัง</Text>		<!--  Base Strength -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_MELEE_STRENGTH" Language="th_TH">
-			<Text>พลังตีระยะใกล้</Text>		<!--  Melee Strength -->
+			<Text>พลังต่อสู้ระยะประชิด</Text>		<!--  Melee Strength -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_RANGED_STRENGTH" Language="th_TH">
 			<Text>พลังต่อสู้ระยะไกล</Text>		<!--  Ranged Strength -->
@@ -4999,7 +4999,7 @@
 			<Text>ผลผลิตจากธรรมชาติในเมืองตามศาสนาของคุณ</Text>		<!-- Yield from Natural Wonders in Cities following your Religion -->
 		</Replace>
 		<Replace Tag="ATTR_NUM_BIOMES_FOLLOWING_RELIGION" Language="th_TH">
-			<Text>ผลผลิตจากไบโอมในเมืองตามศาสนาของคุณ</Text>		<!-- Yield from Biomes in Cities following your Religion -->
+			<Text>ผลผลิตจากระบบนิเวศในเมืองตามศาสนาของคุณ</Text>		<!-- Yield from Biomes in Cities following your Religion -->
 		</Replace>
 		<Replace Tag="LOC_PRESTIGE_RESOURCE_NAME" Language="th_TH">
 			<Text>{1_CivAdjective} {2_ResourceName}</Text>		<!-- {1_CivAdjective} {2_ResourceName} -->
@@ -5143,7 +5143,7 @@
 			<Text>ส่วนลดการซื้อยูนิตทั่วโลก</Text>		<!-- Global Unit Purchase Discount -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_BUILDING_MAINT" Language="th_TH">
-			<Text>การบำรุงรักษาอาคาร</Text>		<!-- Building Maintenance -->
+			<Text>ค่าบำรุงรักษาอาคาร</Text>		<!-- Building Maintenance -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_CITY_BUILDING_PURCHASE_DISCOUNT" Language="th_TH">
 			<Text>ส่วนลดการซื้ออาคารในเมือง</Text>		<!-- City Building Purchase Discount -->
@@ -5434,7 +5434,7 @@
 			<Text>ผู้จดบันทึก</Text>		<!-- Scribe -->
 		</Replace>
 		<Replace Tag="LOC_DIFFICULTY_PRINCE_NAME" Language="th_TH">
-			<Text>ผู้ว่า</Text>		<!-- Governor -->
+			<Text>ข้าหลวง</Text>		<!-- Governor -->
 		</Replace>
 		<Replace Tag="LOC_DIFFICULTY_KING_NAME" Language="th_TH">
 			<Text>ผู้แทน</Text>		<!-- Viceroy -->
@@ -5968,7 +5968,7 @@
 			<Text>+1[icon:YIELD_DIPLOMACY] อิทธิพล บนอาคารด้านวิทยาศาสตร์</Text>		<!-- +1[icon:YIELD_DIPLOMACY] Influence on Science Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_JIU_QING_NAME" Language="th_TH">
-			<Text>Jiu Qing</Text>		<!-- Jiu Qing -->
+			<Text>จิ่ว ฉิง</Text>		<!-- Jiu Qing -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_JIU_QING_DESCRIPTION" Language="th_TH">
 			<Text>+1[icon:YIELD_DIPLOMACY] อิทธิพล บนอาคารด้านความสุข</Text>		<!-- +1[icon:YIELD_DIPLOMACY] Influence on Happiness Buildings. -->
@@ -20003,22 +20003,22 @@
 			<Text>ภูเขาไฟซุยด์วัล</Text>		<!-- Zuidwal Volcano -->
 		</Replace>
 		<Replace Tag="LOC_LOYALTY001A_STORYTITLE" Language="th_TH">
-			<Text>คำร้อง</Text>		<!-- A Petition -->
+			<Text>คำร้องขอ</Text>		<!-- A Petition -->
 		</Replace>
 		<Replace Tag="LOC_LOYALTY001A_COMPLETION" Language="th_TH">
-			<Text>ชาวเมือง {1_story_city} ที่อยู่ใกล้เคียงนั้นไม่มีความสุขเลย พวกเขาได้ขอเข้าร่วมกับอารยธรรมของเราเพื่อค้นหาอนาคตที่สดใสกว่า</Text>		<!-- The people of neighboring {1_story_city} are terribly unhappy. They have asked to join our civilization in their quest for a brighter future. -->
+			<Text>ชาวเมือง {1_story_city} ที่อยู่ใกล้เคียงนั้นไม่มีความสุขเลย พวกเขาได้ขอเข้าร่วมกับอารยธรรมของเรา เพื่อค้นหาอนาคตที่สดใสกว่า</Text>		<!-- The people of neighboring {1_story_city} are terribly unhappy. They have asked to join our civilization in their quest for a brighter future. -->
 		</Replace>
 		<Replace Tag="LOC_LOYALTY001B_NAME" Language="th_TH">
 			<Text>เราจะต้อนรับผู้คนจาก {1_story_city}</Text>		<!-- We will welcome the people of {1_story_city}. -->
 		</Replace>
 		<Replace Tag="LOC_LOYALTY001B_DESCRIPTION" Language="th_TH">
-			<Text>การควบคุมถิ่นฐานเป็นของคุณแล้ว</Text>		<!-- Settlement control is given to you. -->
+			<Text>ถิ่นฐาน เป็นของคุณแล้ว</Text>		<!-- Settlement control is given to you. -->
 		</Replace>
 		<Replace Tag="LOC_LOYALTY001C_NAME" Language="th_TH">
 			<Text>เราจำเป็นต้องปฏิเสธคำขอของพวกเขา</Text>		<!-- We must decline their request. -->
 		</Replace>
 		<Replace Tag="LOC_LOYALTY001C_DESCRIPTION" Language="th_TH">
-			<Text>-1 ความสุขในทุกถิ่นฐานและ -1 อิทธิพลจนกว่าจะสิ้นสุดยุคนี้</Text>		<!-- -1 Happiness in all settlements and -1 Influence until the end of this Age. -->
+			<Text>-1 ความสุขในทุกถิ่นฐาน และ -1 อิทธิพลจนกว่าจะสิ้นสุดยุคนี้</Text>		<!-- -1 Happiness in all settlements and -1 Influence until the end of this Age. -->
 		</Replace>
 		<Replace Tag="LOC_LOYALTY002A_STORYTITLE" Language="th_TH">
 			<Text>การกบฏ</Text>		<!-- A Revolt -->
@@ -20027,10 +20027,10 @@
 			<Text>พลเมืองของ {1_story_city} รู้สึกไม่พอใจอย่างมาก พวกเขาได้ลุกขึ้นมาก่อกบฏกับเรา</Text>		<!-- The citizens of {1_story_city} are extremely unhappy. They have risen in revolt against us. -->
 		</Replace>
 		<Replace Tag="LOC_LOYALTY002A_DESCRIPTION" Language="th_TH">
-			<Text>คุณได้สูญเสียการควบคุมถิ่นฐานนี้แล้ว</Text>		<!-- You have lost control of this Settlement. -->
+			<Text>คุณได้สูญเสีย ถิ่นฐาน นี้แล้ว</Text>		<!-- You have lost control of this Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_LOYALTY002C_DESCRIPTION" Language="th_TH">
-			<Text>+2 การสนับสนุนสงครามสำหรับสงครามที่คุณประกาศ</Text>		<!-- +2 War Support for wars you declare. -->
+			<Text>+2 การสนับสนุนสงคราม สำหรับสงครามที่คุณประกาศ</Text>		<!-- +2 War Support for wars you declare. -->
 		</Replace>
 		<Replace Tag="LOC_LOYALTY002D_DESCRIPTION" Language="th_TH">
 			<Text>+2 [icon:YIELD_HAPPINESS] ความสุข ต่อยุคในทุกถิ่นฐาน</Text>		<!-- +2 [Icon:YIELD_HAPPINESS] Happiness per Age in all Settlements. -->
@@ -21203,7 +21203,7 @@
 			<Text>กลุ่มศาสนาใหม่ที่เป็นส่วนใหญ่</Text>		<!-- New Religious Majority -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_CITY_NEW_RELIGION_SUMMARY" Language="th_TH">
-			<Text>ถิ่นฐานของเราใน {1_CityName} ได้ถูกเปลี่ยนแปลงอย่างเต็มที่โดยมิชชันนารีต่างชาติและขณะนี้กำลังปฏิบัติตามศาสนา {2_ReligionName}</Text>		<!-- Our settlement of {1_CityName} has been fully converted by foreign Missionaries and is now following the religion of {2_ReligionName}. -->
+			<Text>ถิ่นฐานของเราใน {1_CityName} ได้ถูก เผยแพร่ศาสนา อย่างเต็มที่โดยมิชชันนารีต่างชาติ และขณะนี้กำลัง นับถือศาสนา {2_ReligionName}</Text>		<!-- Our settlement of {1_CityName} has been fully converted by foreign Missionaries and is now following the religion of {2_ReligionName}. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_UNHAPPINESS_LOST_CONSTRUCTIBLE_MESSAGE" Language="th_TH">
 			<Text>การจลาจลในถิ่นฐาน!</Text>		<!-- Settlement Rioting! -->
@@ -21257,49 +21257,49 @@
 			<Text>น้ำท่วมแม่น้ำที่มีการบันทึกสถิติ</Text>		<!-- Record-Setting River Flooding -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_RIVER_FLOODS_SEV2_SUMMARY" Language="th_TH">
-			<Text>แม่น้ำ {1_RiverName} ได้ท่วมและทำลายล้างพื้นที่อย่างที่ไม่เคยเห็นมาก่อน</Text>		<!-- The {1_RiverName} has flooded and devastated the area as never seen before. -->
+			<Text>{1_RiverName} ได้ท่วมและทำลายล้างพื้นที่อย่างที่ไม่เคยเห็นมาก่อน</Text>		<!-- The {1_RiverName} has flooded and devastated the area as never seen before. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_STORM_ARRIVED_MESSAGE" Language="th_TH">
 			<Text>พายุรุนแรง!</Text>		<!-- Violent Storm! -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_STORM_ARRIVED_SUMMARY" Language="th_TH">
-			<Text>พายุ {1_StormType} ได้ก่อตัวขึ้นและมุ่งหน้าไปยัง {3_Direction} พายุจะสร้างความเสียหายในอีกสองเทิร์นข้างหน้า (เมื่อมันมาถึง มี {4_Tiles} ช่อง เสียหาย, สูญเสียประชากร {5_Pop} หน่วย, {6_Units} {6_Units: plural 1?Unit; other?Units;} ถูกฆ่า, {7_Yields} {7_Yields: plural 1?ช่อง; other?ช่อง;} ได้รับความอุดมสมบูรณ์)</Text>		<!-- A {1_StormType} has developed and is headed to the {3_Direction}. The storm will cause destruction over the next two turns. (With its arrival there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} gained fertility) -->
+			<Text>{1_StormType} ได้ก่อตัวขึ้นและมุ่งหน้าไปยัง {3_Direction} พายุจะสร้างความเสียหายในอีกสองเทิร์นข้างหน้า (เมื่อมันมาถึง มี {4_Tiles} ช่อง เสียหาย, สูญเสียประชากร {5_Pop} หน่วย, {6_Units} {6_Units: plural 1?Unit; other?Units;} ถูกฆ่า, {7_Yields} {7_Yields: plural 1?ช่อง; other?ช่อง;} ได้รับความอุดมสมบูรณ์)</Text>		<!-- A {1_StormType} has developed and is headed to the {3_Direction}. The storm will cause destruction over the next two turns. (With its arrival there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} gained fertility) -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_NAMED_STORM_ARRIVED_SUMMARY" Language="th_TH">
-			<Text>พายุประเภท {1_StormType} ชื่อ {2_StormName} ได้ก่อตัวขึ้นและกำลังมุ่งหน้าไปทาง {3_Direction} พายุจะก่อให้เกิดความเสียหายในอีกสองรอบถัดไป (เมื่อพายุมาถึงมี {4_Tiles} ช่อง แผ่นดินเสียหาย, สูญเสียประชากร {5_Pop} หน่วย, มียูนิต {6_Units} ยูนิตถูกฆ่า, ความอุดมสมบูรณ์ถูกเพิ่มขึ้นใน {7_Yields} แผ่นดิน)</Text>		<!-- A {1_StormType} named {2_StormName} has developed and is headed to the {3_Direction}. The storm will cause destruction over the next two turns. (With its arrival there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} gained fertility) -->
+			<Text>{1_StormType} ชื่อ {2_StormName} ได้ก่อตัวขึ้นและกำลังมุ่งหน้าไปทาง {3_Direction} พายุจะก่อให้เกิดความเสียหายในอีกสองรอบถัดไป (เมื่อพายุมาถึงมี {4_Tiles} ช่อง แผ่นดินเสียหาย, สูญเสียประชากร {5_Pop} หน่วย, มียูนิต {6_Units} ยูนิตถูกฆ่า, ความอุดมสมบูรณ์ถูกเพิ่มขึ้นใน {7_Yields} แผ่นดิน)</Text>		<!-- A {1_StormType} named {2_StormName} has developed and is headed to the {3_Direction}. The storm will cause destruction over the next two turns. (With its arrival there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} gained fertility) -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_STORM_ARRIVED_LOSSES_SUMMARY" Language="th_TH">
-			<Text>พายุ {1_StormType} ได้ก่อตัวขึ้นและกำลังมุ่งหน้าไปทาง {3_Direction} พายุจะสร้างความเสียหายในอีกสองเทิร์นถัดไป (เมื่อพายุมาถึง มี {4_Tiles} ช่อง ได้รับความเสียหาย, สูญเสียประชากร {5_Pop} หน่วย, {6_Units} {6_Units: plural 1?Unit; other?Units;} ถูกทำลาย, และ {7_Yields} ช่อง สูญเสียความอุดมสมบูรณ์)</Text>		<!-- A {1_StormType} has developed and is headed to the {3_Direction}. The storm will cause destruction over the next two turns. (With its arrival there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} lost fertility) -->
+			<Text>{1_StormType} ได้ก่อตัวขึ้นและกำลังมุ่งหน้าไปทาง {3_Direction} พายุจะสร้างความเสียหายในอีกสองเทิร์นถัดไป (เมื่อพายุมาถึง มี {4_Tiles} ช่อง ได้รับความเสียหาย, สูญเสียประชากร {5_Pop} หน่วย, {6_Units} {6_Units: plural 1?Unit; other?Units;} ถูกทำลาย, และ {7_Yields} ช่อง สูญเสียความอุดมสมบูรณ์)</Text>		<!-- A {1_StormType} has developed and is headed to the {3_Direction}. The storm will cause destruction over the next two turns. (With its arrival there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} lost fertility) -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_NAMED_STORM_ARRIVED_LOSSES_SUMMARY" Language="th_TH">
-			<Text>พายุ {1_StormType} ชื่อ {2_StormName} ได้ก่อตัวขึ้นและกำลังมุ่งหน้าไปทาง {3_Direction} พายุนี้จะก่อให้เกิดการทำลายล้างในอีกสองเทิร์นข้างหน้า (เมื่อพายุนี้มาถึง มี {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} เสียหาย, สูญเสียประชากร {5_Pop} หน่วย, {6_Units} ยูนิต เสียชีวิต, {7_Yields} ช่อง สูญเสียความอุดมสมบูรณ์)</Text>		<!-- A {1_StormType} named {2_StormName} has developed and is headed to the {3_Direction}. The storm will cause destruction over the next two turns. (With its arrival there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} lost fertility) -->
+			<Text>{1_StormType} ชื่อ {2_StormName} ได้ก่อตัวขึ้นและกำลังมุ่งหน้าไปทาง {3_Direction} พายุนี้จะก่อให้เกิดการทำลายล้างในอีกสองเทิร์นข้างหน้า (เมื่อพายุนี้มาถึง มี {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} เสียหาย, สูญเสียประชากร {5_Pop} หน่วย, {6_Units} ยูนิต เสียชีวิต, {7_Yields} ช่อง สูญเสียความอุดมสมบูรณ์)</Text>		<!-- A {1_StormType} named {2_StormName} has developed and is headed to the {3_Direction}. The storm will cause destruction over the next two turns. (With its arrival there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} lost fertility) -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_STORM_MOVED_MESSAGE" Language="th_TH">
 			<Text>พายุยังคงโหมกระหน่ำ</Text>		<!-- Storm Rages On -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_STORM_MOVED_SUMMARY" Language="th_TH">
-			<Text>พายุประเภท {1_StormType} ยังคงเคลื่อนที่ต่อไปและกำลังมุ่งหน้าไปทาง {3_Direction} (ในช่วงนี้มี {4_Tiles} ช่อง ได้รับความเสียหาย, ประชากร {5_Pop} หายไป, {6_Units} ยูนิต ถูกฆ่า, {7_Yields} ช่อง ได้รับความอุดมสมบูรณ์)</Text>		<!-- The {1_StormType} continues its movement and is now headed to the {3_Direction}. (During this turn there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} gained fertility) -->
+			<Text>{1_StormType} ยังคงเคลื่อนที่ต่อไปและกำลังมุ่งหน้าไปทาง {3_Direction} (ในช่วงนี้มี {4_Tiles} ช่อง ได้รับความเสียหาย, ประชากร {5_Pop} หายไป, {6_Units} ยูนิต ถูกฆ่า, {7_Yields} ช่อง ได้รับความอุดมสมบูรณ์)</Text>		<!-- The {1_StormType} continues its movement and is now headed to the {3_Direction}. (During this turn there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} gained fertility) -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_NAMED_STORM_MOVED_SUMMARY" Language="th_TH">
 			<Text>{1_StormType} ชื่อ {2_StormName} ยังคงเคลื่อนที่และกำลังมุ่งหน้าไปทาง {3_Direction} (ในช่วงนี้มี {4_Tiles} ช่อง ได้รับความเสียหาย, สูญเสียประชากร {5_Pop} หน่วย, {6_Units} ยูนิต ถูกฆ่า, {7_Yields} ช่อง ได้รับความอุดมสมบูรณ์)</Text>		<!-- The {1_StormType} named {2_StormName} continues its movement and is now headed to the {3_Direction}. (During this turn there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} gained fertility) -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_STORM_MOVED_LOSSES_SUMMARY" Language="th_TH">
-			<Text>พายุประเภท {1_StormType} ยังคงเคลื่อนไหวและกำลังมุ่งหน้าไปทาง {3_Direction} (ระหว่างการเคลื่อนนี้มีความเสียหายเกิดขึ้นกับ {4_Tiles} ช่อง ประชากรสูญหาย {5_Pop} เสียชีวิต {6_Units} ยูนิต ยูนิต สูญเสียความอุดมสมบูรณ์ {7_Yields} ช่อง)</Text>		<!-- The {1_StormType} continues its movement and is now headed to the {3_Direction}. (During this turn there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} lost fertility) -->
+			<Text>{1_StormType} ยังคงเคลื่อนไหวและกำลังมุ่งหน้าไปทาง {3_Direction} (ระหว่างการเคลื่อนนี้มีความเสียหายเกิดขึ้นกับ {4_Tiles} ช่อง ประชากรสูญหาย {5_Pop} เสียชีวิต {6_Units} ยูนิต ยูนิต สูญเสียความอุดมสมบูรณ์ {7_Yields} ช่อง)</Text>		<!-- The {1_StormType} continues its movement and is now headed to the {3_Direction}. (During this turn there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} lost fertility) -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_NAMED_STORM_MOVED_LOSSES_SUMMARY" Language="th_TH">
-			<Text>พายุ {1_StormType} ชื่อ {2_StormName} ยังคงเคลื่อนที่ต่อไปและขณะนี้มุ่งหน้าไปทาง {3_Direction} (ในช่วงเวลานี้มี {4_Tiles} ช่องเสียหาย, ประชากร {5_Pop} คนสูญหาย, {6_Units} ยูนิตเสียชีวิต, {7_Yields} ช่องสูญเสียความอุดมสมบูรณ์)</Text>		<!-- The {1_StormType} named {2_StormName} continues its movement and is now headed to the {3_Direction}. (During this turn there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} lost fertility) -->
+			<Text>{1_StormType} ชื่อ {2_StormName} ยังคงเคลื่อนที่ต่อไปและขณะนี้มุ่งหน้าไปทาง {3_Direction} (ในช่วงเวลานี้มี {4_Tiles} ช่องเสียหาย, ประชากร {5_Pop} คนสูญหาย, {6_Units} ยูนิตเสียชีวิต, {7_Yields} ช่องสูญเสียความอุดมสมบูรณ์)</Text>		<!-- The {1_StormType} named {2_StormName} continues its movement and is now headed to the {3_Direction}. (During this turn there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} lost fertility) -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_STORM_DISSIPATED_MESSAGE" Language="th_TH">
 			<Text>พายุสลายตัว</Text>		<!-- Storm Peters Out -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_STORM_DISSIPATED_SUMMARY" Language="th_TH">
-			<Text>พายุ{1_StormType}ซึ่งอ่อนกำลังลงแล้ว ได้เคลื่อนตัวครั้งสุดท้ายผ่านแผนที่ (ในระหว่างรอบนี้มี{3_Tiles} ช่อง ได้รับความเสียหาย, สูญเสียประชากร {4_Pop} หน่วย, มี{5_Units} ยูนิต เสียชีวิต, ได้รับความอุดมสมบูรณ์จาก{6_Yields} ช่อง)</Text>		<!-- The {1_StormType}, now weaker, has made its final move across the map. (During this turn there were {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;} damaged, {4_Pop} population lost, {5_Units} {5_Units: plural 1?unit; other?units;} killed, {6_Yields} {6_Yields: plural 1?tile; other?tiles;} gained fertility) -->
+			<Text>{1_StormType}ซึ่งอ่อนกำลังลงแล้ว ได้เคลื่อนตัวครั้งสุดท้ายผ่านแผนที่ (ในระหว่างรอบนี้มี{3_Tiles} ช่อง ได้รับความเสียหาย, สูญเสียประชากร {4_Pop} หน่วย, มี{5_Units} ยูนิต เสียชีวิต, ได้รับความอุดมสมบูรณ์จาก{6_Yields} ช่อง)</Text>		<!-- The {1_StormType}, now weaker, has made its final move across the map. (During this turn there were {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;} damaged, {4_Pop} population lost, {5_Units} {5_Units: plural 1?unit; other?units;} killed, {6_Yields} {6_Yields: plural 1?tile; other?tiles;} gained fertility) -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_NAMED_STORM_DISSIPATED_SUMMARY" Language="th_TH">
 			<Text>{1_StormType} ชื่อ {2_StormName} ตอนนี้อ่อนกำลังลง ได้เคลื่อนตัวครั้งสุดท้ายผ่านแผนที่ (ระหว่างการเคลื่อนตัวครั้งนี้มี {3_Tiles} ช่อง เสียหาย, {4_Pop} ประชากรสูญหาย, {5_Units} ยูนิต เสียชีวิต, {6_Yields} ช่อง ได้รับความอุดมสมบูรณ์)</Text>		<!-- The {1_StormType} named {2_StormName}, now weaker, has made its final move across the map. (During this turn there were {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;} damaged, {4_Pop} population lost, {5_Units} {5_Units: plural 1?unit; other?units;} killed, {6_Yields} {6_Yields: plural 1?tile; other?tiles;} gained fertility) -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_STORM_DISSIPATED_LOSSES_SUMMARY" Language="th_TH">
-			<Text>พายุ {1_StormType} ซึ่งอ่อนกำลังลงแล้ว ได้เคลื่อนที่เป็นครั้งสุดท้ายบนแผนที่ (ในเทิร์นนี้ มี {3_Tiles} ช่อง ได้รับความเสียหาย, สูญเสียประชากร {4_Pop} หน่วย, {5_Units} ยูนิต ถูกทำลาย, และ {6_Yields} ช่อง สูญเสียความอุดมสมบูรณ์)</Text>		<!-- The {1_StormType}, now weaker, has made its final move across the map. (During this turn there were {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;} damaged, {4_Pop} population lost, {5_Units} {5_Units: plural 1?unit; other?units;} killed, {6_Yields} {6_Yields: plural 1?tile; other?tiles;} lost fertility) -->
+			<Text>{1_StormType} ซึ่งอ่อนกำลังลงแล้ว ได้เคลื่อนที่เป็นครั้งสุดท้ายบนแผนที่ (ในเทิร์นนี้ มี {3_Tiles} ช่อง ได้รับความเสียหาย, สูญเสียประชากร {4_Pop} หน่วย, {5_Units} ยูนิต ถูกทำลาย, และ {6_Yields} ช่อง สูญเสียความอุดมสมบูรณ์)</Text>		<!-- The {1_StormType}, now weaker, has made its final move across the map. (During this turn there were {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;} damaged, {4_Pop} population lost, {5_Units} {5_Units: plural 1?unit; other?units;} killed, {6_Yields} {6_Yields: plural 1?tile; other?tiles;} lost fertility) -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_NAMED_STORM_DISSIPATED_LOSSES_SUMMARY" Language="th_TH">
 			<Text>{1_StormType} ที่ชื่อ {2_StormName} ซึ่งตอนนี้อ่อนกำลังลงแล้ว ได้เคลื่อนไหวครั้งสุดท้ายข้ามแผนที่ (ในช่วงนี้มี {3_Tiles} ช่อง เสียหาย ประชากรสูญหาย {4_Pop} จำนวน {5_Units} ยูนิต ถูกฆ่า สูญเสียความอุดมสมบูรณ์ {6_Yields} ช่อง)</Text>		<!-- The {1_StormType} named {2_StormName}, now weaker, has made its final move across the map. (During this turn there were {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;} damaged, {4_Pop} population lost, {5_Units} {5_Units: plural 1?unit; other?units;} killed, {6_Yields} {6_Yields: plural 1?tile; other?tiles;} lost fertility) -->
@@ -21308,7 +21308,7 @@
 			<Text>การปะทุของภูเขาไฟอย่างอ่อนโยน</Text>		<!-- Gentle Volcanic Eruption -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_VOLCANO_ERUPTS_SEV0_SUMMARY" Language="th_TH">
-			<Text>ภูเขาไฟ {1_VolcanoName} ได้ปะทุขึ้น โชคดีที่ความเสียหายดูเหมือนจะไม่มากนัก</Text>		<!-- {1_VolcanoName} has erupted. Thankfully damage appears to be light. -->
+			<Text>{1_VolcanoName} ได้ปะทุขึ้น โชคดีที่ความเสียหายดูเหมือนจะไม่มากนัก</Text>		<!-- {1_VolcanoName} has erupted. Thankfully damage appears to be light. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_VOLCANO_ERUPTS_SEV1_MESSAGE" Language="th_TH">
 			<Text>การระเบิดของภูเขาไฟที่ร้ายแรง</Text>		<!-- Catastrophic Volcanic Eruption -->
@@ -21815,7 +21815,7 @@
 			<Text>{1_Turns} รอบจนกว่าคุณจะสามารถซื้อหรือเปลี่ยนโฟกัสได้</Text>		<!-- {1_Turns} turns until you can purchase or change focus. -->
 		</Replace>
 		<Replace Tag="LOC_UI_PRODUCTION_BUILDING_MAINTENANCE" Language="th_TH">
-			<Text>การบำรุงรักษาอาคาร:</Text>		<!-- Building Maintenance: -->
+			<Text>ค่าบำรุงรักษาอาคาร:</Text>		<!-- Building Maintenance: -->
 		</Replace>
 		<Replace Tag="LOC_UI_PRODUCTION_MAINTENANCE" Language="th_TH">
 			<Text>การบำรุงรักษา:</Text>		<!-- Maintenance: -->
@@ -21965,7 +21965,7 @@
 			<Text>{3_progressType} {1_currentProgress}</Text>		<!-- {3_progressType} {1_currentProgress} -->
 		</Replace>
 		<Replace Tag="LOC_UI_QUEST_TRACKER_PROGRESS_TYPE_TURNS_TEMP" Language="th_TH">
-			<Text>เทิร์น:</Text>		<!-- Turns:  -->
+			<Text>Turns:</Text>		<!-- Turns:  -->
 		</Replace>
 		<Replace Tag="LOC_UI_QUEST_TRACKER_PROGRESS_TYPE_UNITS" Language="th_TH">
 			<Text>ยูนิตถูกฝึก:</Text>		<!-- Units trained:  -->
@@ -22433,7 +22433,7 @@
 			<Text>ระบบนิเวศ</Text>		<!-- BIOME -->
 		</Replace>
 		<Replace Tag="LOC_SETTLEMENT_RECOMMENDATION_CITY_CENTER_BIOME" Language="th_TH">
-			<Text>ใจกลางเมืองไบโอม</Text>		<!-- CITY CENTER BIOME -->
+			<Text>ระบบนิเวศใจกลางเมือง</Text>		<!-- CITY CENTER BIOME -->
 		</Replace>
 		<Replace Tag="LOC_SETTLEMENT_RECOMMENDATION_POOR_TOTAL_YIELD" Language="th_TH">
 			<Text>ผลผลิตต่ำภายใน 3 ช่อง</Text>		<!-- Poor yields within 3 tiles -->
@@ -22469,13 +22469,13 @@
 			<Text>ความสามารถของคุณไม่ได้รับประโยชน์จากการตั้งรกรากในชีวมณฑลนี้</Text>		<!-- Your abilities do not benefit from settling in this biome -->
 		</Replace>
 		<Replace Tag="LOC_SETTLEMENT_RECOMMENDATION_GOOD_CITY_CENTER_BIOME" Language="th_TH">
-			<Text>ความสามารถของคุณจะได้รับประโยชน์จากถิ่นฐานในไบโอมนี้</Text>		<!-- Your abilities benefit from settling in this biome -->
+			<Text>ความสามารถของคุณจะได้รับประโยชน์จากถิ่นฐานในระบบนิเวศนี้</Text>		<!-- Your abilities benefit from settling in this biome -->
 		</Replace>
 		<Replace Tag="LOC_SETTLEMENT_RECOMMENDATION_POOR_SPECIFIC_BIOME" Language="th_TH">
-			<Text>ช่องบางอันให้ประโยชน์เฉพาะของไบโอมนี้</Text>		<!-- Few tiles providing biome-specific benefits -->
+			<Text>ช่องบางอันให้ประโยชน์เฉพาะของระบบนิเวศนี้</Text>		<!-- Few tiles providing biome-specific benefits -->
 		</Replace>
 		<Replace Tag="LOC_SETTLEMENT_RECOMMENDATION_GOOD_SPECIFIC_BIOME" Language="th_TH">
-			<Text>ช่องหลายอันให้ประโยชน์เฉพาะของไบโอมนี้</Text>		<!-- Many tiles provide biome-specific benefits -->
+			<Text>ช่องหลายอันให้ประโยชน์เฉพาะของระบบนิเวศนี้</Text>		<!-- Many tiles provide biome-specific benefits -->
 		</Replace>
 		<Replace Tag="LOC_SETTLEMENT_RECOMMENDATION_POOR_LAKE_COUNT" Language="th_TH">
 			<Text>ไม่มีช่องทะเลสาบในระยะของเมือง</Text>		<!-- No lake tiles within city range -->
@@ -24894,7 +24894,7 @@
 			<Text>ประเภทความเชื่อนี้ให้วิธีในการรับมรดกแห่งศรัทธา คุณสามารถมีความเชื่อในมรดกแห่งศรัทธาได้เพียงหนึ่งอย่างเท่านั้น</Text>		<!-- This Belief type provide ways of earning Relics. You may have only one Reliquary belief. -->
 		</Replace>
 		<Replace Tag="LOC_UI_ESTABLISH_BELIEFS_PERCENT_FOLLOWING" Language="th_TH">
-			<Text>{1_Percent} กำลังติดตาม</Text>		<!-- {1_Percent} Following -->
+			<Text>{1_Percent} กำลังนับถือ</Text>		<!-- {1_Percent} Following -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITYSTATE_BONUS_CHOOSER_TITLE" Language="th_TH">
 			<Text>เลือกโบนัสเจ้านคร</Text>		<!-- Choose a Suzerain Bonus -->
@@ -27693,7 +27693,7 @@
 			<Text>เปิดใช้งานบนช่องประเภท {1_BiomeType}</Text>		<!-- Activate on a {1_BiomeType} tile. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_ACTIVATE_GREAT_PERSON_REQUIRES_ON_BIOME_TYPE" Language="th_TH">
-			<Text>ต้องอยู่บน ช่องที่มีไบโอม {1_BiomeType}</Text>		<!-- Must be on a tile with {1_BiomeType} Biome. -->
+			<Text>ต้องอยู่บน ช่องที่มีระบบนิเวศ {1_BiomeType}</Text>		<!-- Must be on a tile with {1_BiomeType} Biome. -->
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT" Language="th_TH">
 			<Text>เปิดใช้งานบนช่อง {1_UnitType}</Text>		<!-- Activate on a {1_UnitType} tile. -->
@@ -29869,7 +29869,7 @@
 			<Text>ถิ่นฐานในดินแดนที่ห่างไกลมักจะเต็มไปด้วยความใหม่ ผู้คนที่เคยถูกความเสื่อมถอย การข่มเหง หรือความเบื่อหน่ายในโลกเก่าได้ย้ายมาอยู่ที่นี่ โลกใหม่แห่งนี้ได้เริ่มตอบโต้กับโลกเก่า โดยมองว่าดินแดนแห่งนี้ไม่ใช่ที่เนรเทศ แต่เป็นบ้าน</Text>		<!-- Settlements in distant lands are always saturated in newness. Peopled by those for whom the old world holds stagnation, persecution, or simply boredom, this new world has begun to speak back against the old, seeing their lands not as exile, but as a home. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_3_DISTANT_LANDS_PLAINS_AMERICA_UNLOCK" Language="th_TH">
-			<Text>คุณได้ปลดล็อก อเมริกา โดยการสร้างถิ่นฐานในดินแดนห่างไกล 3 แห่งใน ไบโอมทุ่งหญ้า หรือที่ราบ</Text>		<!-- You have unlocked America by building 3 Distant Lands settlements in Grassland or Plains biomes. -->
+			<Text>คุณได้ปลดล็อก อเมริกา โดยการสร้างถิ่นฐานในดินแดนห่างไกล 3 แห่งใน ระบบนิเวศทุ่งหญ้า หรือที่ราบ</Text>		<!-- You have unlocked America by building 3 Distant Lands settlements in Grassland or Plains biomes. -->
 		</Replace>
 		<Replace Tag="   " Language="th_TH">
 			<Text>มีถิ่นฐานแดนไกลสามแห่งใน [B]ที่ราบ[/B] หรือ [B]ทุ่งหญ้า[/B]</Text>		<!-- Have three Distant Land Settlements in either [B]Plains[/B] or [B]Grasslands[/B]. -->
@@ -29881,7 +29881,7 @@
 			<Text>ถิ่นฐานในดินแดนห่างไกลมักจะเต็มไปด้วยความแปลกใหม่ ผู้คนที่อยู่ในดินแดนเหล่านี้เป็นผู้ที่มองว่าโลกเก่านั้นเต็มไปด้วยความซบเซา การกดขี่ หรือเพียงแค่ความเบื่อหน่าย ซึ่งโลกใหม่นี้เริ่มพูดตอบโต้กับโลกเก่า มองว่าดินแดนของพวกตนไม่ใช่การเนรเทศ แต่เป็นเหมือนบ้าน</Text>		<!-- Settlements in distant lands are always saturated in newness. Peopled by those for whom the old world holds stagnation, persecution, or simply boredom, this new world has begun to speak back against the old, seeing their lands not as exile, but as a home. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_3_DISTANT_LANDS_GRASSLANDS_AMERICA_UNLOCK" Language="th_TH">
-			<Text>คุณได้ปลดล็อก อเมริกา โดยการสร้างถิ่นฐานในดินแดนห่างไกล 3 แห่งใน ไบโอมทุ่งหญ้า หรือที่ราบ</Text>		<!-- You have unlocked America by building 3 Distant Lands settlements in Grassland or Plains biomes. -->
+			<Text>คุณได้ปลดล็อก อเมริกา โดยการสร้างถิ่นฐานในดินแดนห่างไกล 3 แห่งใน ระบบนิเวศทุ่งหญ้า หรือที่ราบ</Text>		<!-- You have unlocked America by building 3 Distant Lands settlements in Grassland or Plains biomes. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_3_DISTANT_LANDS_DESERT_DESCRIPTION" Language="th_TH">
 			<Text>มีถิ่นฐานในดินแดนอันไกลโพ้นสามแห่งในทะเลทรายหรือเขตร้อน</Text>		<!-- Have three Distant Land Settlements in [B]Desert[/B] or [B]Tropical[/B]. -->
@@ -29905,7 +29905,7 @@
 			<Text>ในพลาซ่าที่เต็มไปด้วยแสงแดด ห่างไกลจากบ้านเป็นระยะทางเท่าอากาศมหาสมุทร กลุ่มเยาวชนชั้นสูงกำลังมีอภิปรายเสียงดังซึ่งมีการกล่าวถึงชื่อ {1_Civilization_Adj} บ่อยครั้ง กลุ่มนายทหาร {1_Civilization_Adj} ผ่านมาและพวกเขาก็นิ่งเงียบ</Text>		<!-- In the sun-drenched plaza, an ocean’s distance from home, a group of aristocratic youth are engaged in a loud debate, in which the {1_Civilization_Adj} name is mentioned frequently. A group of {1_Civilization_Adj} officers pass by, and they fall silent. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_3_DISTANT_LANDS_TROPCIAL_MEXICO_UNLOCK" Language="th_TH">
-			<Text>คุณได้ปลดล็อก เม็กซิโก โดยการสร้างถิ่นฐานดินแดนห่างไกล 3 แห่งในไบโอมเขตร้อนหรือทะเลทราย</Text>		<!-- You have unlocked Mexico by building 3 Distant Lands settlements in a Tropical or Desert biome. -->
+			<Text>คุณได้ปลดล็อก เม็กซิโก โดยการสร้างถิ่นฐานดินแดนห่างไกล 3 แห่งใน ระบบนิเวศเขตร้อนหรือทะเลทราย</Text>		<!-- You have unlocked Mexico by building 3 Distant Lands settlements in a Tropical or Desert biome. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_ARMY_COMMANDERS_DESCRIPTION" Language="th_TH">
 			<Text>มีผู้บัญชาการกองทัพสามคน</Text>		<!-- Have three [B]Army Commanders[/B]. -->
@@ -30856,7 +30856,7 @@
 			<Text>การแยกย่อยผลตอบแทนทั่วโลก</Text>		<!-- Global Yields Breakdown -->
 		</Replace>
 		<Replace Tag="LOC_GLOBAL_YIELDS_SUBTITLE" Language="th_TH">
-			<Text>การแจกแจงผลตอบแทนในทุกเมืองในจักรวรรดิของคุณ</Text>		<!-- Yields Breakdown across all Cities in your Empire -->
+			<Text>รายงาน ผลผลิตของทุกเมืองใน จักรวรรดิของคุณ</Text>		<!-- Yields Breakdown across all Cities in your Empire -->
 		</Replace>
 		<Replace Tag="LOC_GLOBAL_YIELDS_SUMMARY_TITLE" Language="th_TH">
 			<Text>สรุปผลผลิต</Text>		<!-- Yield Summary -->
