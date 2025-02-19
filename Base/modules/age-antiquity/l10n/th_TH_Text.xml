@@ -2897,10 +2897,10 @@
 			<Text>สวนลอยฟ้า</Text>		<!-- Hanging Gardens -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_HANGING_GARDENS_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_FOOD] อาหาร บนฟาร์มในถิ่นฐานนี้, +10% อัตราการเติบโตในเมืองทั้งหมด, +1 คะแนน คุณลักษณะการขยายตัว, คงอยู่ตลอดกาล, ต้องวางอยู่ติดกับแม่น้ำ</Text>		<!-- +1 [icon:YIELD_FOOD] Food on Farms in this Settlement. +10% Growth Rate in all Cities. +1 Expansionist Attribute Point. Ageless. Must be placed adjacent to a River. -->
+			<Text>+1 [icon:YIELD_FOOD] อาหาร บนฟาร์มในถิ่นฐานนี้, +10% อัตราการเติบโตในเมืองทั้งหมด, +1 คะแนน คุณลักษณะขยายอาณาเขต, คงอยู่ตลอดกาล, ต้องวางอยู่ติดกับแม่น้ำ</Text>		<!-- +1 [icon:YIELD_FOOD] Food on Farms in this Settlement. +10% Growth Rate in all Cities. +1 Expansionist Attribute Point. Ageless. Must be placed adjacent to a River. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_HANGING_GARDENS_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_FOOD] อาหาร ในฟาร์มในถิ่นฐานนี้, +10% อัตราการเติบโตในเมืองทั้งหมด, +1 คะแนน คุณลักษณะการขยายตัว, คงอยู่ตลอดกาล, ต้องตั้งอยู่ติดกับแม่น้ำ</Text>		<!-- +1[icon:YIELD_FOOD] Food on Farms in this Settlement. +10% Growth Rate in all Cities. +1 Expansionist Attribute Point. Ageless. Must be placed adjacent to a River. -->
+			<Text>+1[icon:YIELD_FOOD] อาหาร ในฟาร์มในถิ่นฐานนี้, +10% อัตราการเติบโตในเมืองทั้งหมด, +1 คะแนน คุณลักษณะขยายอาณาเขต, คงอยู่ตลอดกาล, ต้องตั้งอยู่ติดกับแม่น้ำ</Text>		<!-- +1[icon:YIELD_FOOD] Food on Farms in this Settlement. +10% Growth Rate in all Cities. +1 Expansionist Attribute Point. Ageless. Must be placed adjacent to a River. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_MAUSOLEUM_OF_THEODORIC_NAME" Language="th_TH">
 			<Text>มัสยิดของเธโอดอริค</Text>		<!-- Mausoleum of Theodoric -->
@@ -10157,7 +10157,7 @@
 			<Text>นักภูมิศาสตร์สร้างแผ่นดินจากข้าว โดยการนำเสนอแผนที่สามมิติของเขตแดนฮั่นต่อสำนัก ขณะสำรวจภูมิประเทศ ที่ปรึกษาตั้งคำถามว่าสิ่งนี้จะมีอนาคตเป็นเช่นไร แดนนี้จะขยายตัวด้วยการตั้งถิ่นฐานใหม่ หรือจะมีการรวมอำนาจอยู่ที่เมืองหลวง?</Text>		<!-- Geographers mold a land out of rice, presenting the three-dimensional map of Han territory to the court. Surveying the terrain, advisors wonder what its future holds. Will these borders grow with new settlements, or will power be consolidated in the capital? -->
 		</Replace>
 		<Replace Tag="LOC_3701B_NAME" Language="th_TH">
-			<Text>เตรียมพร้อมสำหรับการขยายตัว</Text>		<!-- Prepare for expansion. -->
+			<Text>เตรียมพร้อมสำหรับขยายอาณาเขต</Text>		<!-- Prepare for expansion. -->
 		</Replace>
 		<Replace Tag="LOC_3701B_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
@@ -11802,7 +11802,7 @@
 			<Text>หน้าที่ต่อกันคือหน้าที่ต่อตนเอง การทูตยิ่งมีพลังมากขึ้นเมื่อฝึกฝน</Text>		<!-- Duty to one another is duty to the self. Diplomacy grows more powerful with practice. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTE_QUEST_1005A_STORYTITLE" Language="th_TH">
-			<Text>คุณลักษณะการขยายตัว</Text>		<!-- Expansionist Attribute -->
+			<Text>คุณลักษณะขยายอาณาเขต</Text>		<!-- Expansionist Attribute -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTE_QUEST_1005A_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
@@ -16634,7 +16634,7 @@
 			<Text>แหล่งทรัพยากรใหม่</Text>		<!-- New Resource -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ANNEXED_FIRST_RESOURCE_BODY" Language="th_TH">
-			<Text>การขยายตัวล่าสุด ทำให้คุณสามารถพัฒนาทรัพยากร [icon:{1_ResourceType}] [b]{2_ResourceName} [/b]ได้ [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]ทรัพยากร [/b]ให้โบนัสหรือความสามารถแก่เมืองที่ครอบครอง [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]ทรัพยากร [/b]หรือแก่ทั้งอารยธรรมของคุณ[n][n][icon:{1_ResourceType}] [b]{ 2_ResourceName } [/b]มีผลนี้:[n]{ 3_ResourceDesc}. { 4_ResourceTarget}[n][n]จดจำ: [b]สิ่งก่อสร้าง[/b] ไม่สามารถวางบน [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]ทรัพยากร[/b] ได้ ดังนั้น [icon:YIELD_FOOD] [b]การเติบโต [/b]บนทรัพยากรจึงเป็นความคิดที่ดีเสมอ</Text>		<!-- Recent expansion has allowed you to improve a [icon:{1_ResourceType}] [b]{2_ResourceName} [/b]Resource. [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]Resources [/b]grant bonuses or abilities to the City that holds the [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]Resource [/b]or to your entire Civilization.[n][n][icon:{1_ResourceType}] [b]{2_ResourceName} [/b]has this effect:[n]{3_ResourceDesc}. {4_ResourceTarget}[n][n]Remember: [b]Buildings [/b]cannot be placed atop [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]Resources[/b], so [icon:YIELD_FOOD] [b]Growing [/b]atop them is always a great idea. -->
+			<Text>การขยายอาณาเขตล่าสุด ทำให้คุณสามารถพัฒนาทรัพยากร [icon:{1_ResourceType}] [b]{2_ResourceName} [/b]ได้ [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]ทรัพยากร [/b]ให้โบนัสหรือความสามารถแก่เมืองที่ครอบครอง [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]ทรัพยากร [/b]หรือแก่ทั้งอารยธรรมของคุณ[n][n][icon:{1_ResourceType}] [b]{ 2_ResourceName } [/b]มีผลนี้:[n]{ 3_ResourceDesc}. { 4_ResourceTarget}[n][n]จดจำ: [b]สิ่งก่อสร้าง[/b] ไม่สามารถวางบน [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]ทรัพยากร[/b] ได้ ดังนั้น [icon:YIELD_FOOD] [b]การเติบโต [/b]บนทรัพยากรจึงเป็นความคิดที่ดีเสมอ</Text>		<!-- Recent expansion has allowed you to improve a [icon:{1_ResourceType}] [b]{2_ResourceName} [/b]Resource. [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]Resources [/b]grant bonuses or abilities to the City that holds the [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]Resource [/b]or to your entire Civilization.[n][n][icon:{1_ResourceType}] [b]{2_ResourceName} [/b]has this effect:[n]{3_ResourceDesc}. {4_ResourceTarget}[n][n]Remember: [b]Buildings [/b]cannot be placed atop [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]Resources[/b], so [icon:YIELD_FOOD] [b]Growing [/b]atop them is always a great idea. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_RESOURCE_CITY_EFFECT" Language="th_TH">
 			<Text>นี่คือ [b]ทรัพยากรของเมือง[/b] ดังนั้นจึงสามารถมอบหมายให้ [b]เมือง[/b] ได้เท่านั้น</Text>		<!-- This is a [b]City Resource[/b], so it can only be assigned to [b]Cities[/b]. -->
@@ -16757,7 +16757,7 @@
 			<Text>[b]{1_SettlerName}[/b] ใหม่ ของคุณพร้อมที่จะขยายอาณาเขตของอารยธรรม {2_CivAdj} ด้วยการตั้งถิ่นฐานใหม่แล้ว [n][n]เช่นเดียวกับครั้งแรก มองหาพื้นที่ดินอุดมสมบูรณ์ที่มีผลผลิตที่ดีและการเข้าถึงแหล่งน้ำอย่างใกล้ชิด</Text>		<!-- Your new [b]{1_SettlerName} [/b]is ready to expand the reach of the {2_CivAdj} Civilization with a new Settlement.[n][n]As with the first, look for fertile land with good yields and close access to water. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SECOND_SETTLEMENT_CREATED_TITLE" Language="th_TH">
-			<Text>การขยายตัว</Text>		<!-- Expansion -->
+			<Text>การขยายอาณาเขต</Text>		<!-- Expansion -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SECOND_SETTLEMENT_CREATED_BODY" Language="th_TH">
 			<Text>พวกคนของคุณได้สร้างบ้านใหม่ ให้คุณมี [b]เมือง[/b] แห่งแรก เช่นเดียวกับในเมือง [icon:YIELD_FOOD] อาหาร จากที่ตั้งนี้ช่วยให้คุณขยายไปยังแผ่นที่ใกล้เคียงได้ อย่างไรก็ตาม สิ่งก่อสร้างและยูนิตในเมืองสามารถ [b]ซื้อ[/b] ได้ด้วย [icon:YIELD_GOLD] ทอง เท่านั้น คุณยังสามารถใช้ทองเพื่อเปลี่ยนเมืองเป็นเมืองเต็มรูปแบบ แม้ว่าค่าใช้ทองจะเพิ่มขึ้นเมื่อคุณมีเมืองมากขึ้นในอารยธรรมของคุณ และจะลดลงเมื่อ [b]เมือง[/b] เติบโตขึ้น</Text>		<!-- Your people have made a new home, providing you with your first [b]Town[/b]. Like a City, [icon:YIELD_FOOD] Food from this Settlement allows you to expand into nearby tiles. However, Buildings and Units in Towns can only be [b]purchased [/b]with [icon:YIELD_GOLD] Gold.[n][n]You can also spend Gold to turn a Town into a full-fledged City, though the Gold cost is greater the more Cities you have in your Civilization and decreases as the [b]Town [/b]grows. -->
