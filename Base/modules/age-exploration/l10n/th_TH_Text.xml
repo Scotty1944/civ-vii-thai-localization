@@ -4181,19 +4181,19 @@
 			<Text>มหากาพย์ของอัสเกีย มูฮัมหมัด</Text>		<!-- The Epic of Askia Mohammed -->
 		</Replace>
 		<Replace Tag="LOC_MOD_SHIPS_OF_THE_DESERT_BAZAAR_GOLD_DESCRIPTION" Language="th_TH">
-			<Text>คาราวานซารีได้รับ +2[icon:YIELD_GOLD] ทอง ใน ถิ่นฐานที่มีบาซาร์</Text>		<!-- The Caravansari receives +2[icon:YIELD_GOLD] Gold in Settlements with a Bazaar. -->
+			<Text>คาราวานซารี ได้รับ +2[icon:YIELD_GOLD] ทอง ใน ถิ่นฐานที่มี ตลาด</Text>		<!-- The Caravansari receives +2[icon:YIELD_GOLD] Gold in Settlements with a Bazaar. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_KANTA_TAJIRO_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>ทาจิโระ[icon:YIELD_GOLD] ทองกลายเป็น 200</Text>		<!-- Tajiro's[icon:YIELD_GOLD] Gold becomes 200. -->
+			<Text>[icon:YIELD_GOLD] ทอง ของทาจิโระ กลายเป็น 200 แท่ง</Text>		<!-- Tajiro's[icon:YIELD_GOLD] Gold becomes 200. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_KANTA_TAJIRO_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>ทาจิโระ[icon:YIELD_GOLD] ทองกลายเป็น 200</Text>		<!-- Tajiro's[icon:YIELD_GOLD] Gold becomes 200. -->
+			<Text>[icon:YIELD_GOLD] ทอง ของทาจิโระ กลายเป็น 200 แท่ง</Text>		<!-- Tajiro's[icon:YIELD_GOLD] Gold becomes 200. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_HI_KOI_RIVER_COMBAT_DESCRIPTION" Language="th_TH">
 			<Text>ยูนิตรบจะได้รับ +5 พลังต่อสู้ บนแม่น้ำใหญ่</Text>		<!-- Combat Units receive +5 Combat Strength on Navigable Rivers -->
 		</Replace>
 		<Replace Tag="LOC_MOD_MOD_HI_KOI_RIVER_MOVEMENT_DESCRIPTION" Language="th_TH">
-			<Text>แม่น้ำไม่สิ้นสุดการเคลื่อนไหว</Text>		<!-- Rivers do not end movement. -->
+			<Text>แม่น้ำ จะไม่หยุดการเคลื่อนไหวของยูนิต</Text>		<!-- Rivers do not end movement. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_KANTA_TREASURE_FLEET_DESCRIPTION" Language="th_TH">
 			<Text>เมืองในดินแดนบ้านเกิดที่ตั้งอยู่ริม แม่น้ำใหญ่ จะสร้างเรือขุมทรัพย์ที่มีมูลค่า 1 แต้มเรือขุมทรัพย์ต่อหนึ่งลำ</Text>		<!-- Cities in Homelands on Navigable Rivers generate Treasure Fleets worth 1 Treasure Fleet point each. -->
@@ -16072,12 +16072,13 @@
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_EXPLORATION_WELCOME_BODY" Language="th_TH">
 			<Text>การผจญภัยใหม่ข้ามทะเลรออยู่!
-
-ยุคแห่งการสำรวจนำมาซึ่งโอกาสใหม่ๆ มากมาย:
-
-- สำรวจมหาสมุทรอันกว้างใหญ่เพื่อค้นหาแผ่นดินที่ไกลออกไป ยูนิตทางทะเลของคุณสามารถฟื้นฟูในน่านน้ำชายฝั่งได้
-- สร้างชุมชนในแผ่นดินที่ไกลออกไป พบกับอารยธรรมใหม่ๆ และรวบรวมทรัพยากรใหม่ๆ เพื่อเสริมสร้างอาณาจักรของคุณ
-- รับศาสนาด้วยการสร้างวัด ด้วยศาสนาที่มีอยู่ คุณสามารถฝึกผู้สอนศาสนาเพื่อเผยแผ่ศรัทธาของคุณไปทั่วโลก</Text>		<!-- 
+[n][n]ยุคแห่งการสำรวจ นำมาซึ่งโอกาสใหม่ๆ มากมาย:
+[BLIST]
+[LI]  สำรวจมหาสมุทรอันกว้างใหญ่ เพื่อค้นหาแผ่นดินที่ไกลออกไป ยูนิตทางทะเลของคุณ สามารถฟื้นฟูในน่านน้ำชายฝั่งได้
+[LI]  สร้างถิ่นฐานในแผ่นดินที่ไกลออกไป พบกับอารยธรรมใหม่ๆ และรวบรวม ทรัพยากร ใหม่ๆ เพื่อเสริมสร้างอาณาจักรของคุณ
+[LI]  รับหลักศาสนาด้วยการสร้างวัด ด้วยศาสนาที่มีอยู่ คุณสามารถฝึก มิชชันนารี เพื่อเผยแผ่ศรัทธาของคุณไปทั่วโลก
+[/LIST]
+</Text>		<!-- 
 				New adventures across the sea await!
 				[n][n]The Exploration Age brings many new opportunities:
 				[BLIST]
@@ -16233,16 +16234,16 @@
 			<Text>{1_legacyPathAdvisor}</Text>		<!-- {1_LegacyPathAdvisor} -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_QUEST_QUOTE_ECONOMIC" Language="th_TH">
-			<Text>ดินแดนที่อยู่ไกลเกินขอบฟ้าส่องแสงสว่างด้วยความเป็นไปได้ที่ไม่สิ้นสุดและความมั่งคั่ง</Text>		<!-- The lands beyond the horizon gleam with endless possibility — and prosperity. -->
+			<Text>ดินแดนที่อยู่ไกลเกินขอบฟ้า ส่องแสงสว่างด้วย ความเป็นไปได้ ที่ไม่สิ้นสุด และความมั่งคั่ง</Text>		<!-- The lands beyond the horizon gleam with endless possibility — and prosperity. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_QUEST_QUOTE_MILITARY" Language="th_TH">
-			<Text>กองทัพของเราเป็นโล่ที่ปกป้องอาณาจักรให้เจริญรุ่งเรือง</Text>		<!-- Our army is the aegis behind which empire thrives. -->
+			<Text>กองทัพของเรา เป็นโล่ที่ปกป้องอาณาจักร ให้เจริญรุ่งเรือง</Text>		<!-- Our army is the aegis behind which empire thrives. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_QUEST_QUOTE_CULTURE" Language="th_TH">
-			<Text>โลกมีขอบเขตโดยเส้นขอบฟ้า แต่จินตนาการไม่มีขอบเขต</Text>		<!-- The world is bounded by its horizon; the imagination is not. -->
+			<Text>โลกมีขอบเขต โดยเส้นขอบฟ้า แต่จินตนาการไม่มีขอบเขต</Text>		<!-- The world is bounded by its horizon; the imagination is not. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_QUEST_QUOTE_SCIENCE" Language="th_TH">
-			<Text>ความก้าวหน้าไม่ได้มาจากอัจฉริยะบุคคล แต่เกิดจากชุมชนของนักคิด</Text>		<!-- Progress does not come from individual genius, but from a community of thinkers. -->
+			<Text>ความก้าวหน้าไม่ได้มาจาก อัจฉริยะบุคคล แต่เกิดจากชุมชนของนักคิด</Text>		<!-- Progress does not come from individual genius, but from a community of thinkers. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_QUEST_CONFIRM_TITLE" Language="th_TH">
 			<Text>เส้นทางมรดก: {1_LegacyPathAdvisor}</Text>		<!-- Legacy Path: {1_LegacyPathAdvisor} -->
@@ -16251,16 +16252,16 @@
 			<Text>ติดตามแล้ว</Text>		<!-- Already Following -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_QUEST_CONFIRM_BODY" Language="th_TH">
-			<Text>{1_PathDescription}[n]{2_LegacyPathAdvisor}ของคุณ[b] [/b]อยู่ที่นี่เพื่อชี้แนะคุณในเส้นทางนี้ ถ้าคุณต้องการ[n]โปรดทราบว่าคุณสามารถเปลี่ยนเส้นทางได้ตลอดเวลา</Text>		<!-- {1_PathDescription}[n]Your [b]{2_LegacyPathAdvisor} [/b]is here to guide you in this path if you wish.[n]Note that you can change paths at any time. -->
+			<Text>{1_PathDescription}[n]{2_LegacyPathAdvisor}ของคุณ[b] [/b]อยู่ที่นี่เพื่อชี้แนะคุณใน เส้นทางนี้ ถ้าคุณต้องการ[n]โปรดทราบว่าคุณสามารถเปลี่ยน เส้นทาง ได้ตลอดเวลา</Text>		<!-- {1_PathDescription}[n]Your [b]{2_LegacyPathAdvisor} [/b]is here to guide you in this path if you wish.[n]Note that you can change paths at any time. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_LEGACY_PATH_ECONOMIC_DESCRIPTION" Language="th_TH">
-			<Text>สำรวจดินแดนใหม่และนำกองเรือสมบัติล้ำค่ากลับบ้าน!</Text>		<!-- Explore new lands and bring home valuable Treasure Fleets! -->
+			<Text>สำรวจดินแดนใหม่และนำ กองเรือสมบัติล้ำค่า กลับบ้าน!</Text>		<!-- Explore new lands and bring home valuable Treasure Fleets! -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_LEGACY_PATH_MILITARY_DESCRIPTION" Language="th_TH">
-			<Text>แล่นเรือไปยังดินแดนใหม่และขยายอาณาจักรของคุณ!</Text>		<!-- Sail to new lands and expand your empire's reach! -->
+			<Text>แล่นเรือไปยังดินแดนใหม่ และขยายอาณาจักรของคุณ!</Text>		<!-- Sail to new lands and expand your empire's reach! -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_LEGACY_PATH_CULTURE_DESCRIPTION" Language="th_TH">
-			<Text>พบศาสนาใหม่และสร้างศาสนวัตถุพิเศษ!</Text>		<!-- Found a new faith and create special Relics! -->
+			<Text>พบศาสนาใหม่ และสร้างศาสนวัตถุพิเศษ!</Text>		<!-- Found a new faith and create special Relics! -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_LEGACY_PATH_SCIENCE_DESCRIPTION" Language="th_TH">
 			<Text>ออกแบบใจกลางเมืองให้รุ่งเรือง!</Text>		<!-- Design prosperous urban centers! -->
@@ -16726,7 +16727,7 @@
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_1_BODY" Language="th_TH">
 			<Text>เป้าหมายถัดไป: วิจัยเทคโนโลยี [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_CARTOGRAPHY_NAME} [/b]และ [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_ASTRONOMY_NAME} [/b]ซึ่งเป็นก้าวแรกในการสร้าง [icon:YIELD_GOLD] เส้นทางมรดกทางเศรษฐกิจของยุคการสำรวจ [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} [/b]
-[n][b]{LOC_TECH_CARTOGRAPHY_NAME} [/b]จะช่วยให้ยูนิตของคุณข้ามทะเลลึกที่อันตรายได้ และ [b]{LOC_TECH_ASTRONOMY_NAME} [/b]จะปลดล็อก {1_CommanderIcon} {2_CommanderName} ที่ทรงพลัง ซึ่งสามารถจัดการ [b]ยูนิตทางทะเล[/b] ของคุณได้
+[n][b]{LOC_TECH_CARTOGRAPHY_NAME} [/b]จะช่วยให้ยูนิตของคุณข้ามทะเลลึกที่อันตรายได้ และ [b]{LOC_TECH_ASTRONOMY_NAME} [/b]จะปลดล็อก {1_CommanderIcon}{2_CommanderName} ที่ทรงพลัง ซึ่งสามารถจัดการ [b]ยูนิตทางทะเล[/b] ของคุณได้
 [n][n]จำไว้ว่า: [icon:NOTIFICATION_TEAM_VICTORIOUS] [b]เส้นมรดก[/b] จะเพิ่มประสิทธิภาพของคุณในยุคต่อๆ ไป แต่ [b]คุณสามารถเลือกที่จะแสวงหาทางหนึ่ง, หลายทาง หรือไม่ซักทางเลยก็ได้[/b]</Text>		<!-- Objective: Research the [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_CARTOGRAPHY_NAME} [/b]and [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_ASTRONOMY_NAME} [/b]Technologies, the first step towards establishing a [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} [/b][icon:YIELD_GOLD] Economic Legacy of the Exploration Age.
 				[n][b]{LOC_TECH_CARTOGRAPHY_NAME} [/b]will allow your Units to traverse dangerous [b]Deep Ocean[/b], and [b]{LOC_TECH_ASTRONOMY_NAME} [/b]will unlock the powerful {1_CommanderIcon} {2_CommanderName}, which can organize your [b]Naval Units[/b].
 				[n][n]Remember: [icon:NOTIFICATION_TEAM_VICTORIOUS] [b]Legacies [/b]improve your performance in later Ages, but [b]you can choose to pursue one, multiple, or none at all[/b]. -->
