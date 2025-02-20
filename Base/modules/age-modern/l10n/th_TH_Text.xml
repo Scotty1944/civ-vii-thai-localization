@@ -14395,10 +14395,6 @@
 			<Text>การวิจัย: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_AERODYNAMICS_NAME} {1_itemComplete} [n]เสร็จสิ้น: [icon:PROJECT_BREAK_SOUND_BARRIER] {LOC_PROJECT_BREAK_SOUND_BARRIER_NAME} โครงการ {2_itemComplete}</Text>		<!-- Research: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_AERODYNAMICS_NAME} {1_itemComplete}
 				[n]Complete: [icon:PROJECT_BREAK_SOUND_BARRIER] {LOC_PROJECT_BREAK_SOUND_BARRIER_NAME} Project {2_itemComplete} -->
 		</Replace>
-		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_3_TRACKING_BODY" Language="th_TH">
-			<Text>การวิจัย: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_AERODYNAMICS_NAME} {1_itemComplete} [n]เสร็จสิ้น: [icon:PROJECT_BREAK_SOUND_BARRIER] {LOC_PROJECT_BREAK_SOUND_BARRIER_NAME} โครงการ {2_itemComplete}</Text>		<!-- Research: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_AERODYNAMICS_NAME} {1_itemComplete}
-				[n]Complete: [icon:PROJECT_BREAK_SOUND_BARRIER] {LOC_PROJECT_BREAK_SOUND_BARRIER_NAME} Project {2_itemComplete} -->
-		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_4_TITLE" Language="th_TH">
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_MODERN_SCIENCE_NAME} IV</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_MODERN_SCIENCE_NAME} IV -->
 		</Replace>
@@ -14668,7 +14664,7 @@
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} II</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} II -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_2_ADVISOR_BODY" Language="th_TH">
-			<Text>ตอนนี้ที่เรารู้แล้วว่าจะไปที่นั่นอย่างไร เราควรจัดหาท่าเรือให้กับ เรือบรรทุกสมบัติของเรา</Text>		<!-- The locomotive: a modern workhorse for modern work. Now let’s have two more Rail Stations, and weave a net to catch our wildest dreams. -->
+			<Text>หัวรถจักร: ม้าทำงานในยุคสมัยใหม่สำหรับงานสมัยใหม่ ตอนนี้ให้เรามีสถานีรถไฟเพิ่มอีกสองแห่ง เพื่อสร้างเครือข่ายเพื่อยึดครองความฝันที่ยิ่งใหญ่ที่สุดของเรา</Text>		<!-- The locomotive: a modern workhorse for modern work. Now let’s have two more Rail Stations, and weave a net to catch our wildest dreams. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_2_BODY" Language="th_TH">
 			<Text>การค้นคว้าเรื่อง [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_INDUSTRIALIZATION_NAME} [/b]ได้นำไปสู่การสร้าง [icon:BUILDING_RAIL_STATION] [b]{LOC_BUILDING_RAIL_STATION_NAME}[/b] แห่งแรกของคุณ! ถิ่นฐานที่มี [b]{LOC_BUILDING_RAIL_STATION_NAME} [/b]จะเชื่อมต่อกันโดยอัตโนมัติด้วย [b]รถไฟ[/b] ตราบใดที่ไม่มีน้ำกีดขวางเส้นทางรถไฟ
@@ -14697,9 +14693,9 @@
 			<Text>ตอนนี้ที่เครือข่ายสถานีรถไฟของเราให้วิธีการแก่เราแล้ว มามุ่งเน้นที่สิ่งที่ต้องทำกัน โรงงานจะทำให้เราสามารถผลิตสินค้าที่ทั่วโลกต้องการได้</Text>		<!-- Now that our network of Rail Stations gives us the how, let's focus on the what. Factories will allow us to manufacture goods desired the world over. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_3_BODY" Language="th_TH">
-			<Text>[b]ดินแดนห่างไกล[/b] มี [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]ทรัพยากร[/b] ที่แตกต่างจากบ้านเกิดของคุณ และเมื่อเวลาผ่านไประยะหนึ่ง [b]เรือบรรทุกสมบัติ[/b]  สามารถนำทรัพยากรเหล่านี้กลับไปยังบ้านเกิดของคุณได้
-
-[n]เป้าหมายต่อไป: พัฒนา [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]ทรัพยากรสมบัติ[/b] ห้าชนิด และรอให้ [b]เรือบรรทุกสมบัติ[/b] ปรากฏในถิ่นฐาน[/b]</Text>		<!-- Research of [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_MASS_PRODUCTION_NAME} [/b]has led to plans for a [icon:BUILDING_FACTORY] [b]{LOC_BUILDING_FACTORY_NAME}[/b]! Settlements with a [b]Rail connection[/b] and a [b]{LOC_BUILDING_FACTORY_NAME} [/b]will be able to slot [icon:NOTIFICATION_DISCOVER_RESOURCE][b]Factory Resources[/b], critical to the {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Legacy Path.
+			<Text>การวิจัยของ [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_MASS_PRODUCTION_NAME} [/b]ได้นำไปสู่แผนการสร้าง [icon:BUILDING_FACTORY] [b]{LOC_BUILDING_FACTORY_NAME}[/b]! ถิ่นฐานที่มี [b]การเชื่อมต่อทางรถไฟ[/b] และ [b]{LOC_BUILDING_FACTORY_NAME} [/b]จะสามารถใส่ [icon:NOTIFICATION_DISCOVER_RESOURCE][b]ทรัพยากรโรงงาน[/b] ซึ่งมีความสำคัญต่อเส้นทางมรดก {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME}
+[n]เป้าหมายถัดไป: สร้าง [b]{LOC_BUILDING_FACTORY_NAME} [/b]ในพื้นที่ตั้งถิ่นฐานที่มีการเชื่อมต่อทางรถไฟ และใส่ทรัพยากรโรงงาน {1_ResourceNum} ช่อง เพื่อรับคะแนน {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} จำนวน {2_PointGoal} แต้ม
+[n]เคล็ดลับ: ในทุกๆ รอบ คุณจะได้รับคะแนน {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} ตามจำนวน ทรัพยากรโรงงาน ที่คุณได้ใส่ไป</Text>		<!-- Research of [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_MASS_PRODUCTION_NAME} [/b]has led to plans for a [icon:BUILDING_FACTORY] [b]{LOC_BUILDING_FACTORY_NAME}[/b]! Settlements with a [b]Rail connection[/b] and a [b]{LOC_BUILDING_FACTORY_NAME} [/b]will be able to slot [icon:NOTIFICATION_DISCOVER_RESOURCE][b]Factory Resources[/b], critical to the {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Legacy Path.
 				[n]Next Objective: Build a [b]{LOC_BUILDING_FACTORY_NAME} [/b]in a Settlement with a Rail connection, slot {1_ResourceNum} Factory Resources, and earn {2_PointGoal} {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Points.
 				[n]Tip: Every turn, you earn {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Points based on how many Factory Resources you have slotted. -->
 		</Replace>
@@ -14707,7 +14703,9 @@
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} III</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} III -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_3_TRACKING_BODY" Language="th_TH">
-			<Text>ได้รับ: [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร 7 ช่อง</Text>		<!-- Build: [icon:BUILDING_FACTORY] {LOC_BUILDING_FACTORY_NAME} {1_itemComplete}
+			<Text>สร้าง: [icon:BUILDING_FACTORY] {LOC_BUILDING_FACTORY_NAME} {1_itemComplete}  
+				[n]ช่อง: [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากรโรงงาน {2_ResourcesCurrent}/{3_ResourcesGoal}  
+				[n]รับ: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} {4_pointsCurrent}/{5_pointsGoal} คะแนน</Text>		<!-- Build: [icon:BUILDING_FACTORY] {LOC_BUILDING_FACTORY_NAME} {1_itemComplete}
 				[n]Slot: [icon:NOTIFICATION_DISCOVER_RESOURCE] Factory Resources {2_ResourcesCurrent}/{3_ResourcesGoal}
 				[n]Earn: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Points {4_pointsCurrent}/{5_pointsGoal} -->
 		</Replace>
@@ -14718,32 +14716,31 @@
 			<Text>รถไฟออกจากสถานีของเราเต็มไปด้วยสินค้าพร้อมกลับมาพร้อมทองคำเพื่อเติมเต็มห้องนิรภัยของเรา</Text>		<!-- Trains leave our stations laden with goods and return with gold to fill our vaults. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_4_BODY" Language="th_TH">
-			<Text>เป้าหมายถัดไป: ได้รับ [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร 14 ช่อง, บรรลุ หมุดหมาย ที่สอง ในเส้นทางมรดก {LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME}</Text>		<!-- Next Objective: Earn [b]{1_goalNum} {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Points[/b], the first Milestone along the [b]{LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Legacy Path[/b].
+			<Text>เป้าหมายถัดไป: รับ [b]{1_goalNum} คะแนน {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME}[/b], ซึ่งเป็น หมุดหมาย แรกในเส้นทางมรดก [b]{LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME}[/b]  
+				[n]เคล็ดลับ: เนื่องจากถิ่นฐานสามารถรองรับประเภทของ [icon:NOTIFICATION_DISCOVER_RESOURCE][b]ทรัพยากรโรงงาน[/b] ได้เพียงประเภทเดียวในแต่ละครั้ง ให้แต่ละถิ่นฐานมี ผู้เชี่ยวชาญ ด้วยจะดีกว่า</Text>		<!-- Next Objective: Earn [b]{1_goalNum} {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Points[/b], the first Milestone along the [b]{LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Legacy Path[/b].
 				[n]Tip: As Settlements can only house one type of [icon:NOTIFICATION_DISCOVER_RESOURCE] Factory Resource at a time, it's best for each Settlement to specialize. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_4_TRACKING_TITLE" Language="th_TH">
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} IV</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} IV -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_4_TRACKING_BODY" Language="th_TH">
-			<Text>ได้รับ [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร 14 ช่อง</Text>		<!-- Earn: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Points {1_pointsCurrent}/{2_pointsGoal} -->
+			<Text>รับ: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} {1_pointsCurrent}/{2_pointsGoal} คะแนน</Text>		<!-- Earn: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Points {1_pointsCurrent}/{2_pointsGoal} -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_5_TITLE" Language="th_TH">
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} V</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} V -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_5_ADVISOR_BODY" Language="th_TH">
-			<Text>ข้าได้รับข่าวเกี่ยวกับการมาถึงของ เรือบรรทุกสมบัติ แล้ว นี่เป็นโอกาสสำหรับการเฉลิมฉลองแน่นอน แต่ยังเป็นเพียงจุดเริ่มต้นเท่านั้น ตอนนี้จักรวรรดิทั้งหมดของเรามองหาความเจริญรุ่งเรืองจากดินแดนห่างไกล มาทำให้พวกเขาไม่ต้องรอกันเถอะ</Text>		<!-- Just as I suspected, wealth begets wealth. But let's not neglect the riches our overseas settlements have to offer. -->
+			<Text>อย่างที่ฉันสงสัย ความมั่งคั่งก่อให้เกิดความมั่งคั่ง แต่เราก็ไม่ควรละเลยทรัพย์สมบัติที่ถิ่นฐานในต่างประเทศของเรามีให้</Text>		<!-- Just as I suspected, wealth begets wealth. But let's not neglect the riches our overseas settlements have to offer. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_5_BODY" Language="th_TH">
-			<Text>คุณสามารถเพิ่มอัตราการทำคะแนนได้โดยการก่อตั้ง [b]ถิ่นฐานในดินแดนห่างไกล[/b] เพิ่มขึ้น, [b]เพื่อที่จะได้รับ [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากรสมบัติ[/b] ได้มากขึ้น, และการใช้ การดำเนินการทางการทูต [b]สร้างเรือบรรทุกสมบัติ[/b] กับพันธมิตรที่อยู่ไกลบ้าน
-
-[n]เป้าหมายถัดไป: [b]ได้รับ 20 คะแนน {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} (TF)[/b], ซึ่งเป็น หมุดหมาย ที่สอง ใน เส้นทางมรดก [b]{LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME}[/b]</Text>		<!-- Next Objective: Earn [b]{1_goalNum} {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Points[/b], the second Milestone along the [b]{LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Legacy Path[/b].
+			<Text>เป้าหมายถัดไป: รับ [b]{1_goalNum} คะแนน {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME}[/b] ซึ่งเป็น หมุดหมาย ที่สองบน เส้นทางมรดก [b]{LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME}[/b] [n]เคล็ดลับ: การก่อสร้าง [icon:BUILDING_PORT] [b]{LOC_BUILDING_PORT_NAME}[/b] บนฝั่งใดฝั่งหนึ่งของมหาสมุทรสามารถเชื่อมต่อทางรถไฟข้ามน้ำได้</Text>		<!-- Next Objective: Earn [b]{1_goalNum} {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Points[/b], the second Milestone along the [b]{LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Legacy Path[/b].
 				[n]Tip: Constructing a [icon:BUILDING_PORT] [b]{LOC_BUILDING_PORT_NAME} [/b]on either side of an ocean can continue Rail connections across water. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_5_TRACKING_TITLE" Language="th_TH">
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} V</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} V -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_5_TRACKING_BODY" Language="th_TH">
-			<Text>ได้รับ [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร 20 ช่อง</Text>		<!-- Earn: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Points {1_pointsCurrent}/{2_pointsGoal} -->
+			<Text>รับ: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} {1_pointsCurrent}/{2_pointsGoal} คะแนน</Text>		<!-- Earn: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Points {1_pointsCurrent}/{2_pointsGoal} -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_6_TITLE" Language="th_TH">
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} VI</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} VI -->
@@ -14752,21 +14749,19 @@
 			<Text>ด้วยทองคำและสินค้าที่ไหลเวียนทั่วโลก ผู้คนในจักรวรรดิของเราจึงไม่ขาดแคลนสิ่งใดเลย</Text>		<!-- With gold and goods flowing around the world, the people of our empire want for nothing. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_6_BODY" Language="th_TH">
-			<Text>คุณสามารถเพิ่มอัตราการทำคะแนนของคุณโดยการสร้างตั้งถิ่นฐานใหม่ในดินแดนห่างไกล, ได้รับทรัพยากรสมบัติเพิ่มมากขึ้น, และใช้การทูต "สร้างเรือบรรทุกสมบัติ" กับพันธมิตรห่างไกลใดๆ
-
-เป้าหมายต่อไป: ทำคะแนน 30 คะแนน (TF) ซึ่งเป็นหมุดหมายสุดท้ายตามเส้นทางมรดกของ {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME}</Text>		<!-- Next Objective: Earn [b]{1_goalNum} {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Points[/b], the third and final Milestone along the [b]{LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Legacy Path[/b]. -->
+			<Text>เป้าหมายถัดไป: รับ [b]{1_goalNum} คะแนน {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME}[/b] ซึ่งเป็นก้าวสำคัญที่สามและสุดท้ายในเส้นทางมรดก [b]{LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME}[/b]</Text>		<!-- Next Objective: Earn [b]{1_goalNum} {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Points[/b], the third and final Milestone along the [b]{LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Legacy Path[/b]. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_6_TRACKING_TITLE" Language="th_TH">
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} VI</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} VI -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_6_TRACKING_BODY" Language="th_TH">
-			<Text>รับคะแนน TF โดยการขนถ่าย เรือบรรทุกสมบัติ มาใน ถิ่นฐานบ้านเกิด ของคุณ {1_ScoreCurrent}/{2_ScoreTarget}</Text>		<!-- Earn: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Points {1_pointsCurrent}/{2_pointsGoal} -->
+			<Text>รับ: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} {1_pointsCurrent}/{2_pointsGoal} คะแนน</Text>		<!-- Earn: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Points {1_pointsCurrent}/{2_pointsGoal} -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_LINE_COMPLETED_TITLE" Language="th_TH">
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME}</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_LINE_COMPLETED_ADVISOR_BODY" Language="th_TH">
-			<Text>ด้วย เรือบรรทุกสมบัติ สุดท้ายนี้ เราได้สร้างความมั่นใจ ไม่เพียงแค่ประชาชนของเราจะรุ่งเรืองเท่านั้น แต่ยังทำให้ความสำเร็จของเราเป็นที่จดจำไปชั่วกาลนาน ทรัพย์สมบัติที่มากเกินจะพรรณนาได้</Text>		<!-- Rivers, shipping lanes, railroads – these are the veins and arteries of our vast empire. And they are strong. -->
+			<Text>แม่น้ำ เส้นทางการเดินเรือ ทางรถไฟ – เหล่านี้คือเส้นเลือดและหลอดเลือดแดงของจักรวรรดิอันกว้างใหญ่ของเรา และพวกมันแข็งแกร่ง</Text>		<!-- Rivers, shipping lanes, railroads – these are the veins and arteries of our vast empire. And they are strong. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_LINE_COMPLETED_BODY" Language="th_TH">
 			<Text>ขอแสดงความยินดี! คุณได้ทำ หมุดหมาย ทั้งหมดใน {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} สำเร็จแล้ว และได้สำเร็จ [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} [/b][icon:YIELD_GOLD] เส้นทางเศรษฐกิจระดับตำนานแห่งยุคสมัยใหม่ คุณสามารถไปที่ [b]หน้าจอเส้นทางระดับตำนาน [/b]เพื่อดูเส้นทางระดับตำนานอื่นๆ ที่คุณสามารถติดตามได้ หรือคุณสามารถสร้างเส้นทางของคุณเอง</Text>		<!-- Congratulations! You've completed all {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} Milestones, and completed the [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME} [/b][icon:YIELD_GOLD] Economic Legacy Path of the Modern Age.
@@ -14845,9 +14840,7 @@
 			<Text>อาณาจักรของเรากำลังเผชิญกับภัยคุกคาม – ไม่ใช่ด้านวัตถุ แต่เป็นด้านอุดมการณ์ ในการปกป้องพลเมืองของเรา เราควรดับเชื้อนี้ก่อนที่จะมีโอกาสปะทุขึ้น</Text>		<!-- Our empire faces threats – not material, but ideological. To protect our citizens, we should douse these embers before they have a chance to ignite. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_3_BODY" Language="th_TH">
-			<Text>เป้าหมายถัดไป: รับคะแนน [b]{1_NumVictoryPoints} [icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME}[/b] แต้ม, โดยการพิชิตที่ตั้งถิ่นฐานศัตรู และก่อตั้งที่ตั้งถิ่นฐานที่เป็นมิตร เป้าหมายถัดไป: รับคะแนนมรดก [b]{1_NumVictoryPoints} แต้ม, หมุดหมายแรกเพื่อสถาปนา [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] มรดกทางทหารของยุคโบราณ
-[n]การก่อตั้งที่ตั้งถิ่นฐานมอบ 1 คะแนน
-[n]การยึดครองที่ตั้งถิ่นฐานมอบ 2 คะแนน</Text>		<!-- Next Objective: Research [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_FLIGHT_NAME}. [n]Capture a foreign city belonging to a Civilization that follows a different Ideology. -->
+			<Text>เป้าหมายถัดไป: วิจัย [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_FLIGHT_NAME} [n]ยึดเมืองต่างชาติที่เป็นของอารยธรรมที่มีอุดมการณ์ต่างกัน</Text>		<!-- Next Objective: Research [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_FLIGHT_NAME}. [n]Capture a foreign city belonging to a Civilization that follows a different Ideology. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_3_TRACKING_TITLE" Language="th_TH">
 			<Text>เส้นทางสืบทอด: {LOC_LEGACY_PATH_MODERN_MILITARY_NAME} III</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_MODERN_MILITARY_NAME} III -->
@@ -14865,9 +14858,10 @@
 			<Text>อันตรายในโลกนี้มีอยู่ตลอดเวลา และเราต้องเคลื่อนที่อย่างรวดเร็วเพื่อปกป้องแก่นของเราจากศัตรูในวันนี้และในวันพรุ่งนี้</Text>		<!-- The dangers of this world are ever-present, and we must move quickly to defend our core against enemies of today and tomorrow. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_4_BODY" Language="th_TH">
-			<Text>เป้าหมายถัดไป: รับ [b]{2_NumVictoryPoints} คะแนนมรดก[/b], หมุดหมายที่สองเพื่อสร้าง [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] มรดกทางทหารของยุคโบราณ
-				[n]การก่อตั้งถิ่นฐานใหม่จะได้รับ 1 คะแนน
-				[n]การยึดครองถิ่นฐานจะได้รับ 2 คะแนน</Text>		<!-- You've successfully captured an Ideologically opposed Settlement!
+			<Text>คุณได้ยึดครอง ถิ่นฐาน ที่มีอุดมการณ์ ตรงข้ามสำเร็จแล้ว!
+				[n]เป้าหมายถัดไป: ทำคะแนนอุดมการณ์ {1_Number} คะแนนโดยการยึดครอง ถิ่นฐาน
+				[n]เมื่อเลือกอุดมการณ์แล้ว ถิ่นฐานของอารยธรรมที่ไม่มี อุดมการณ์ จะมีค่า 2 คะแนน
+				[n]ถิ่นฐานของอารยธรรมที่มี อุดมการณ์ ตรงข้ามจะมีค่า 3 คะแนน</Text>		<!-- You've successfully captured an Ideologically opposed Settlement!
 				[n]Next Objective: score {1_Number} Ideology Points by capturing Settlements.
 				[n]Once adopting an Ideology, Settlements of a Civilization without an Ideology are worth 2 points.
 				[n]Settlements of a Civilization with an opposing Ideology are worth 3 points. -->
@@ -14885,9 +14879,10 @@
 			<Text>อุดมการณ์ของเราแพร่กระจายไปทั่วโลก เป็นแรงบันดาลใจให้กับทุกคนที่ยึดมั่นในข้อปฏิบัติของมัน! อย่างไรก็ตาม ฝ่ายตรงข้ามยังคงพร้อมที่จะทำให้โลกตกอยู่ในความมืด เราต้องดำเนินการรณรงค์ต่อไป</Text>		<!-- Our ideology spreads around the globe, inspiring all who adhere to its maxims! Yet opposition remains, ever poised to cast the world into darkness. We must continue our campaign. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_5_BODY" Language="th_TH">
-			<Text>เป้าหมายต่อไป: รับ [b]{1_NumVictoryPoints} คะแนนมรดก[/b] ซึ่งเป็นขั้นตอนที่สามและสุดท้ายในการสร้าง [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] มรดกทางการทหารของยุคโบราณ
-				[n]การก่อตั้งถิ่นฐานใหม่จะได้รับ 1 คะแนน
-				[n]การยึดครองถิ่นฐานจะได้รับ 2 คะแนน</Text>		<!-- You've completed the first Milestone along the [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_MODERN_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] Military Legacy Path!
+			<Text>คุณได้ทำสำเร็จ หมุดหมาย แรกในเส้นทางมรดกทางทหาร [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_MODERN_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR]!
+[n]เป้าหมายถัดไป: ทำคะแนนอุดมการณ์ {1_Number} แต้ม โดยการยึดครองถิ่นฐาน
+[n]เมื่อได้รับอุดมการณ์, ถิ่นฐานของอารยธรรมที่ไม่มี อุดมการณ์ จะมีค่าเท่ากับ 2 คะแนน
+[n]ถิ่นฐานของอารยธรรมที่มี อุดมการณ์ ตรงข้ามจะมีค่าเท่ากับ 3 คะแนน</Text>		<!-- You've completed the first Milestone along the [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_MODERN_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] Military Legacy Path!
 				[n]Next Objective: score {1_Number} Ideology Points by capturing Settlements.
 				[n]Once adopting an Ideology, Settlements of a Civilization without an Ideology are worth 2 points.
 				[n]Settlements of a Civilization with an opposing Ideology are worth 3 points. -->
