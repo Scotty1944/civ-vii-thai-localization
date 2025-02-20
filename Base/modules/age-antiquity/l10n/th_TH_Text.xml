@@ -3526,7 +3526,7 @@
 			<Text>แม่น้ำน้อยไม่ทำให้การเคลื่อนที่ของยูนิตจบลง</Text>		<!-- Minor Rivers do not end Unit movement. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ANUBIS_MEDJAY_GENERATE_GOLD_DESCRIPTION" Language="th_TH">
-			<Text>เมดเจย์สร้าง +1[icon:YIELD_GOLD] ทอง เมื่อประจำอยู่ที่ตั้งถิ่นฐานที่คุณเป็นเจ้าของ</Text>		<!-- Medjay generate +1[icon:YIELD_GOLD] Gold when stationed in a Settlement you own. -->
+			<Text>เมดไจสร้าง +1[icon:YIELD_GOLD] ทอง เมื่อประจำอยู่ที่ตั้งถิ่นฐานที่คุณเป็นเจ้าของ</Text>		<!-- Medjay generate +1[icon:YIELD_GOLD] Gold when stationed in a Settlement you own. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AMUN_RA_PALACE_GOLD_DESCRIPTION" Language="th_TH">
 			<Text>+5[icon:YIELD_GOLD] ทอง บนพระราชวัง</Text>		<!-- +5[icon:YIELD_GOLD] Gold on the Palace. -->
@@ -3571,7 +3571,7 @@
 			<Text>+2[icon:YIELD_HAPPINESS] ความสุข ในอาคารด้านทหาร</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness on Military Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AYURVEDA_PURABHETTARAH_HEAL_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตที่อยู่ติดกับ พูราบเฮตตาราห์ ฟื้นฟู +5 HP ต่อเทิร์น</Text>		<!-- Units adjacent to the Purabhettarah heal +5 HP per turn. -->
+			<Text>ยูนิตที่อยู่ติดกับ ปุระเภตระ ฟื้นฟู +5 HP ต่อเทิร์น</Text>		<!-- Units adjacent to the Purabhettarah heal +5 HP per turn. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_MANTRIPARISHAD_OCCUPIED_CITY_YIELD_DESCRIPTION" Language="th_TH">
 			<Text>เพิ่ม 10% ให้กับผลตอบแทนทั้งหมดในถิ่นฐานที่ไม่ได้ก่อตั้งโดยคุณ</Text>		<!-- +10% to all yields in Settlements not founded by you. -->
@@ -6133,7 +6133,7 @@
 			<Text>จำนวนหนึ่งของ</Text>		<!-- a certain amount of -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_TJATY_NAME" Language="th_TH">
-			<Text>ทจาติ</Text>		<!-- Tjaty -->
+			<Text>ทยาตี</Text>		<!-- Tjaty -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_TJATY_DESCRIPTION" Language="th_TH">
 			<Text>บุคคลสำคัญ พร้อมให้ใช้งาน 1 ครั้ง, สามารถฝึกฝนได้เฉพาะในเมืองที่มีเนโครโพลิส และ ทจาติ เฉพาะที่ได้รับจะเป็นแบบสุ่ม ทจาติ แต่ละอันสามารถได้รับเพียงครั้งเดียว ค่าใช้จ่ายจะเพิ่มขึ้นต่อ ทจาติ ที่ฝึกฝน</Text>		<!-- A Great Person with one charge. Can only be trained in Cities with a Necropolis, and the specific Tjaty received is random. Each Tjaty can only be received once. Cost increases per Tjaty trained. -->
@@ -6166,7 +6166,7 @@
 			<Text>ขาย</Text>		<!-- Khay -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TJATY_KHAY_DESCRIPTION" Language="th_TH">
-			<Text>สร้าง เมดเจย์ 2 ตัว โดยมี +3 พลังต่อสู้</Text>		<!-- Creates 2 Medjay with +3 Combat Strength. -->
+			<Text>สร้าง เมดไจ 2 ตัว โดยมี +3 พลังต่อสู้</Text>		<!-- Creates 2 Medjay with +3 Combat Strength. -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TJATY_NEBET_NAME" Language="th_TH">
 			<Text>เนเบ็ท</Text>		<!-- Nebet -->
@@ -6199,7 +6199,7 @@
 			<Text>เปิดใช้งานบน สิ่งมหัศจรรย์ เพื่อเพิ่ม +2[icon:YIELD_CULTURE] วัฒนธรรม ให้กับสิ่งมหัศจรรย์ทั้งหมด ที่อยู่ในถิ่นฐานนี้</Text>		<!-- Activated on a Wonder to add +2[icon:YIELD_CULTURE] Culture to all Wonders currently in this Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_LOGIOS_NAME" Language="th_TH">
-			<Text>โลจิออส</Text>		<!-- Logios -->
+			<Text>โลเกียส</Text>		<!-- Logios -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_LOGIOS_DESCRIPTION" Language="th_TH">
 			<Text>บุคคลสำคัญ พร้อมให้ใช้งาน 1 ครั้ง, สามารถฝึกได้เฉพาะในเมืองที่มี อัครโพลิส, และ โลจิออส ที่ได้รับแบบสุ่ม, โลจิออส แต่ละตัวสามารถรับได้เพียงครั้งเดียว ค่าใช้จ่ายจะเพิ่มขึ้นสำหรับแต่ละ โลจิออส ที่ฝึกฝน</Text>		<!-- A Great Person with one charge. Can only be trained in Cities with an Acropolis, and the specific Logios received is random. Each Logios can only be received once. Cost increases per Logios trained. -->
@@ -7423,13 +7423,13 @@
 			<Text>เราจะฝึกทหารอียิปต์ของเราให้เป็นนักรบแบบเมดจาย และนำพลังของพวกเขามาเป็นส่วนหนึ่งของเรา แต่เราต้องฝึกทหารเหล่านี้อย่างเร่งด่วน เพราะเมดจายอาจไม่อยู่ในที่ใดที่นานนัก</Text>		<!-- We will train our own Egyptian soldiers in the way of the Medjay, and bring their strength into ours. We will have to train these troops rapidly, though – the Medjay may not remain in one place for long. -->
 		</Replace>
 		<Replace Tag="LOC_4B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} เมดเจย์</Text>		<!-- {1_reward} Medjay. -->
+			<Text>{1_reward} เมดไจ</Text>		<!-- {1_reward} Medjay. -->
 		</Replace>
 		<Replace Tag="LOC_4B_COMPLETION" Language="th_TH">
-			<Text>แม้ว่าชาวเมดเจย์จะไม่อยู่ในที่เดียวเป็นเวลานาน แต่ทหารอียิปต์ก็รีบใช้โอกาสนี้ศึกษาความแข็งแกร่งของพวกเขา โดยเร็วๆ นี้ กองทัพก็ได้รับการฝึกฝนในวิธีการของเพื่อนบ้านเร่ร่อนที่ดุร้ายของพวกเขา</Text>		<!-- Though the Medjay do not remain in one place for long, Egyptian soldiers quickly take advantage of the chance to study their strength. Soon, the army is trained in the ways of their fierce nomadic neighbors. -->
+			<Text>แม้ว่าชาวเมดไจจะไม่อยู่ในที่เดียวเป็นเวลานาน แต่ทหารอียิปต์ก็รีบใช้โอกาสนี้ศึกษาความแข็งแกร่งของพวกเขา โดยเร็วๆ นี้ กองทัพก็ได้รับการฝึกฝนในวิธีการของเพื่อนบ้านเร่ร่อนที่ดุร้ายของพวกเขา</Text>		<!-- Though the Medjay do not remain in one place for long, Egyptian soldiers quickly take advantage of the chance to study their strength. Soon, the army is trained in the ways of their fierce nomadic neighbors. -->
 		</Replace>
 		<Replace Tag="LOC_4B_IMPERATIVE" Language="th_TH">
-			<Text>มี เมดเจย์ 5 ตัว ภายใน {1_turn_timer}</Text>		<!-- Have 5 Medjay within {1_turn_timer}. -->
+			<Text>มี เมดไจ 5 ตัว ภายใน {1_turn_timer}</Text>		<!-- Have 5 Medjay within {1_turn_timer}. -->
 		</Replace>
 		<Replace Tag="LOC_4C_STORYTITLE" Language="th_TH">
 			<Text>แผ่นดินอันฉายแสง</Text>		<!-- Shining Land -->
@@ -7444,7 +7444,7 @@
 			<Text>เราต้องจำไว้ว่า จุดประสงค์ของทหารคือความตาย ไม่ว่าใบหน้าจะเป็นมิตรแค่ไหนก็ตาม</Text>		<!-- One must remember that a soldier's purpose is death, no matter how friendly the face. -->
 		</Replace>
 		<Replace Tag="LOC_4C_IMPERATIVE" Language="th_TH">
-			<Text>ทำลาย รัฐอิสระ ด้วยเมดเจย์ ภายใน {1_turn_timer}</Text>		<!-- Disperse an Independent Power with a Medjay within {1_turn_timer}. -->
+			<Text>ทำลาย รัฐอิสระ ด้วยเมดไจ ภายใน {1_turn_timer}</Text>		<!-- Disperse an Independent Power with a Medjay within {1_turn_timer}. -->
 		</Replace>
 		<Replace Tag="LOC_5A_STORYTITLE" Language="th_TH">
 			<Text>ดอกไม้ทะเลทราย</Text>		<!-- Desert Flower -->
@@ -11718,13 +11718,13 @@
 			<Text>ผู้ทำลายเมือง</Text>		<!-- The City-Breaker -->
 		</Replace>
 		<Replace Tag="LOC_1043A_COMPLETION" Language="th_TH">
-			<Text>มันคือสิ่งที่หลอกหลอน: เสียงฟ้าร้องที่เข้าใกล้, เสียงไม้แตกดังสนั่น, และในที่สุดเสียงพังทลายอย่างมหาศาล, ท่ามกลางฝุ่นและควัน ยืนอยู่ช้างที่มีเกียรติและไม่รู้จักเหน็ดเหนื่อย – ปูราบเฮตตารา ผู้ทำลายเมือง</Text>		<!-- It is the stuff of nightmares: the approaching thunder, the crack of splintering wood, and finally a tremendous crash. Amid the dust and smoke stands a proud, tireless elephant – the purabhettarah, the city-breaker. -->
+			<Text>มันคือสิ่งที่หลอกหลอน: เสียงฟ้าร้องที่เข้าใกล้, เสียงไม้แตกดังสนั่น, และในที่สุดเสียงพังทลายอย่างมหาศาล, ท่ามกลางฝุ่นและควัน ยืนอยู่ช้างที่มีเกียรติและไม่รู้จักเหน็ดเหนื่อย – ปุระเภตระ ผู้ทำลายเมือง</Text>		<!-- It is the stuff of nightmares: the approaching thunder, the crack of splintering wood, and finally a tremendous crash. Amid the dust and smoke stands a proud, tireless elephant – the purabhettarah, the city-breaker. -->
 		</Replace>
 		<Replace Tag="LOC_1043B_NAME" Language="th_TH">
 			<Text>หัวใจของกองทัพ</Text>		<!-- The heart of the army. -->
 		</Replace>
 		<Replace Tag="LOC_1043B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} บน ปุระเภทตะระห์</Text>		<!-- {1_reward} on Purabhettarah. -->
+			<Text>{1_reward} บน ปุระเภตระ</Text>		<!-- {1_reward} on Purabhettarah. -->
 		</Replace>
 		<Replace Tag="LOC_1043C_NAME" Language="th_TH">
 			<Text>การแสดงพลังที่หายาก</Text>		<!-- A rare show of strength. -->
@@ -12646,7 +12646,7 @@
 			<Text>หันมาสนใจเรื่องการป้องกัน</Text>		<!-- Turn toward matters of defense. -->
 		</Replace>
 		<Replace Tag="LOC_7023C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} บนเมดเจย์</Text>		<!-- {1_reward} on Medjay. -->
+			<Text>{1_reward} บนเมดไจ</Text>		<!-- {1_reward} on Medjay. -->
 		</Replace>
 		<Replace Tag="LOC_7022B_NAME" Language="th_TH">
 			<Text>ประสบการณ์คือครูที่ดีที่สุด</Text>		<!-- Experience is the best teacher. -->
@@ -17768,7 +17768,7 @@
 			<Text>ยูนิตเรือโบราณระดับ 2</Text>		<!-- Tier 2 Antiquity Naval Unit. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_PHALANX_NAME" Language="th_TH">
-			<Text>ฟาลังค์</Text>		<!-- Phalanx -->
+			<Text>ฟาแลงก์</Text>		<!-- Phalanx -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_PHALANX_DESCRIPTION" Language="th_TH">
 			<Text>ยูนิตทหารราบสมัยโบราณระดับ 3</Text>		<!-- Tier 3 Antiquity Infantry Unit. -->
@@ -17780,7 +17780,7 @@
 			<Text>ยูนิตทหารม้าศตวรรษที่ 3 โบราณ ไม่สนใจกฎการควบคุมพื้นที่</Text>		<!-- Tier 3 Antiquity Cavalry Unit. Ignores Zone of Control. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_QUADRIREME_NAME" Language="th_TH">
-			<Text>ควอดรีรม</Text>		<!-- Quadrireme -->
+			<Text>ควอดริรีม</Text>		<!-- Quadrireme -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_QUADRIREME_DESCRIPTION" Language="th_TH">
 			<Text>ยูนิตเรือยุคโบราณระดับ 3</Text>		<!-- Tier 3 Antiquity Naval Unit. -->
@@ -17849,7 +17849,7 @@
 			<Text>เรือการค้าพิเศษของอักซุม ไม่สามารถถูกปล้นได้, +10 ระยะเส้นทางการค้า</Text>		<!-- Aksum Unique Trade Ship. Cannot be pillaged. +10 Trade Route range. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_MEDJAY_NAME" Language="th_TH">
-			<Text>เมดเจย์</Text>		<!-- Medjay -->
+			<Text>เมดไจ</Text>		<!-- Medjay -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_MEDJAY_BASE_DESCRIPTION" Language="th_TH">
 			<Text>ยูนิตทหารราบพิเศษ ของอียิปต์ ไม่มีการบำรุงรักษา +3 พลังต่อสู้ ในเขตแดนของมิตรประเทศ เพิ่มเป็นสองเท่าเมื่อประจำอยู่ใน ถิ่นฐานที่คุณเป็นเจ้าของ</Text>		<!-- Egyptian Unique Infantry Unit. Has no maintenance. +3 Combat Strength in friendly territory, doubled when stationed in a Settlement you own. -->
@@ -17900,7 +17900,7 @@
 			<Text>+{1_Amount} จากนครรัฐ</Text>		<!-- +{1_Amount} from City-States -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_NU_NAME" Language="th_TH">
-			<Text>จูกั๋วหนวี่</Text>		<!-- Chu-Ko-Nu -->
+			<Text>จูเก๋อหนู่</Text>		<!-- Chu-Ko-Nu -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_NU_BASE_DESCRIPTION" Language="th_TH">
 			<Text>ยูนิตระยะไกลพิเศษ ของฮั่น, มีพื้นที่ควบคุมและพลังป้องกันสูงกว่า, +5 พลังต่อสู้ เมื่อโจมตียูนิตที่อยู่ติดกัน</Text>		<!-- Han Unique Ranged Unit. Has Zone of Control and a higher Defense Strength. +5 Combat Strength when attacking adjacent Units. -->
@@ -17939,7 +17939,7 @@
 			<Text>พ่อค้าพิเศษ ของขอม, พลเรือนที่สามารถสร้าง เส้นทางการค้า เพื่อนำเข้า ทรัพยากร จากถิ่นฐานต่างประเทศ, ปลอดภัยจากความเสียหายจากน้ำท่วม, ไม่สนใจบทลงโทษการเคลื่อนไหวบน ภูมิประเทศเปียก</Text>		<!-- Khmer Unique Merchant. Civilian who can establish a Trade Route to import Resources from a foreign Settlement. Immune to flood damage. Ignores movement penalties from Wet Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_PURABHETTARAH_NAME" Language="th_TH">
-			<Text>พูราบเฮตตาราห์</Text>		<!-- Purabhettarah -->
+			<Text>ปุระเภตระ</Text>		<!-- Purabhettarah -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_PURABHETTARAH_BASE_DESCRIPTION" Language="th_TH">
 			<Text>ยูนิตทหารม้าพิเศษ ของเมารยะ, +5 พลังต่อสู้ กับเขตที่มีการป้องกัน ไม่ถูกจำกัดโดยเขตควบคุม</Text>		<!-- Maurya Unique Cavalry Unit. +5 Combat Strength against Fortified Districts. Ignores Zone of Control. -->
