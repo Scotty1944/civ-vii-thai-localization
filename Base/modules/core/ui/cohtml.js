@@ -555,7 +555,7 @@ function insertAdditionThaiFont(shouldMain) {
 	if(!shouldMain) return;
 
 	const style2 = document.createElement('style');
-	style.textContent = `
+	style2.textContent = `
 		.tracking-25, .tracking-100, .tracking-150, .text-button__label,
         .age-ending__small-text, .age-ending__main-text, .city-banner__name, .end-results-title,
         .root-game-loading-intro-text, .root-game-loading__loading-gif-text,
