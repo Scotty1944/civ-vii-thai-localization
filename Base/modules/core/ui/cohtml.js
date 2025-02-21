@@ -480,11 +480,13 @@
     No intention to edit any other code than this.
 */
 
-function insertAdditionThaiFont() {
+function insertAdditionThaiFont(shouldMain) {
     const style = document.createElement('style');
+	const font_tail = shouldMain ? '' : '-TC';
+
     style.textContent = `
         @font-face {
-            font-family: 'TitleFont';
+            font-family: 'TitleFont${font_tail}';
             src: url('fs://game/core/fonts/NotoSansThai-Medium.ttf') format('truetype');
             font-weight: 400; /* Regular */
             font-style: normal;
@@ -492,7 +494,7 @@ function insertAdditionThaiFont() {
         }
 
         @font-face {
-            font-family: 'TitleFont';
+            font-family: 'TitleFont${font_tail}';
             src: url('fs://game/core/fonts/NotoSansThai-Bold.ttf') format('truetype');
             font-weight: 700; /* Bold */
             font-style: normal;
@@ -500,7 +502,7 @@ function insertAdditionThaiFont() {
         }
 
         @font-face {
-            font-family: 'TitleFont';
+            font-family: 'TitleFont${font_tail}';
             src: url('fs://game/core/fonts/NotoSansThai-Medium.ttf') format('truetype');
             font-weight: 400; /* Regular weight */
             font-style: italic;
@@ -508,7 +510,7 @@ function insertAdditionThaiFont() {
         }
 
         @font-face {
-            font-family: 'TitleFont';
+            font-family: 'TitleFont${font_tail}';
             src: url('fs://game/core/fonts/NotoSansThai-Medium.ttf') format('truetype');
             font-weight: 700; /* Bold weight */
             font-style: italic;
@@ -520,34 +522,41 @@ function insertAdditionThaiFont() {
         */
 
         @font-face {
-            font-family: 'BodyFont';
+            font-family: 'BodyFont${font_tail}';
             src: url('fs://game/core/fonts/NotoSansThai-Regular.ttf') format('truetype');
             font-weight: 400; /* Regular */
             font-style: normal;
         }
 
         @font-face {
-            font-family: 'BodyFont';
+            font-family: 'BodyFont${font_tail}';
             src: url('fs://game/core/fonts/NotoSansThai-Bold.ttf') format('truetype');
             font-weight: 700; /* Bold */
             font-style: normal;
         }
 
         @font-face {
-            font-family: 'BodyFont';
+            font-family: 'BodyFont${font_tail}';
             src: url('fs://game/core/fonts/NotoSansThai-Regular.ttf') format('truetype');
             font-weight: 400; /* Regular weight */
             font-style: italic;
         }
 
         @font-face {
-            font-family: 'BodyFont';
+            font-family: 'BodyFont${font_tail}';
             src: url('fs://game/core/fonts/NotoSansThai-Bold.ttf') format('truetype');
             font-weight: 700; /* Bold weight */
             font-style: italic;
         }
+    `;
 
-        .tracking-25, .tracking-100, .tracking-150, .text-button__label,
+	document.head.appendChild(style);
+
+	if(!shouldMain) return;
+
+	const style2 = document.createElement('style');
+	style.textContent = `
+		.tracking-25, .tracking-100, .tracking-150, .text-button__label,
         .age-ending__small-text, .age-ending__main-text, .city-banner__name, .end-results-title,
         .root-game-loading-intro-text, .root-game-loading__loading-gif-text,
         .notif__buttonText, .panel-religion-chooser__religion-title, .stat-value,
@@ -562,16 +571,17 @@ function insertAdditionThaiFont() {
         .ps-clock, .ps-turn-age, .ps-turn-number {
             font-family: 'BodyFont' !important;
         }
-    `;
-    document.head.appendChild(style);
+	`
+    document.head.appendChild(style2);
 }
 
 const displayLanguages = Locale.getDisplayLanguageOptionNames();
 const currentLanguage = Locale.getCurrentDisplayLanguageOption();
-console.warn(displayLanguages)
 
 try{
 	if (String(displayLanguages[currentLanguage]).includes("TH_TH")) {
+		insertAdditionThaiFont(true);
+	}else{
 		insertAdditionThaiFont();
 	}
 }catch(e){
