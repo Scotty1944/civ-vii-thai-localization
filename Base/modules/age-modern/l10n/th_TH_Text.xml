@@ -14536,9 +14536,10 @@
 			<Text>การรู้สิ่งใดว่าเป็นอะไรนั้นไม่เพียงพอ: เราต้องเปิดเผยความหมายของมัน ยิ่งเราค้นพบมากเท่าไร แต่ละส่วนก็ยิ่งมารวมตัวกันมากขึ้นเท่านั้น</Text>		<!-- It is not sufficient to know what a thing is: we must reveal what it means. The more we find, the more each part comes together. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_4_BODY" Language="th_TH">
-			<Text>ตอนนี้ที่ศาสนาของคุณมี [b]ความเชื่อเสริม[/b] คุณสามารถเผยแพร่ศาสนาไปยังถิ่นฐานได้ง่ายขึ้น อย่าลืมว่าคุณจะได้รับของ ศาสนวัตถุ ตามความเชื่อ ที่คุณได้นำมาใช้ 
-[n]เหมือนกับ [b]คัมภีร์[/b] ใน ยุคโบราณ คุณจะต้องสร้างอาคารบางที่ เช่น [icon:BUILDING_TEMPLE] {LOC_BUILDING_TEMPLE_NAME} และสิ่งมหัศจรรย์เพื่อ [b]จัดแสดงศาสนวัตถุ[/b] ทุกศาสนวัตถุที่คุณจัดแสดง จะทำให้คุณก้าวหน้าต่อไปในเส้นทางมรดก {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME}
-[n]เป้าหมายถัดไป: รวบรวมและจัดแสดง [b]ศาสนวัตถุ หกชิ้น[/b] ซึ่งเป็นหมุดหมายแรก ในเส้นทางมรดก [b]{LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME}[/b]</Text>		<!-- An Artifact is now on display, bringing you closer to the first Milestone along the [icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_MODERN_CULTURE_NAME} Legacy Path.
+			<Text>โบราณวัตถุได้ถูกจัดแสดงแล้ว ซึ่งทำให้คุณเข้าใกล้สู่หมุดหมายสำคัญแรกตามเส้นทางมรดก [icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_MODERN_CULTURE_NAME} ได้มากยิ่งขึ้น
+[n]โบราณวัตถุสามารถพบได้ผ่าน [b]การขุดค้นซากปรักหักพัง[/b], [b]เหตุการณ์ในเรื่องเล่า[/b], และ [b]การสร้างที่ตั้งถิ่นฐานเพิ่มเติม[/b] เมื่อค้นคว้าแหล่งโบราณวัตถุ [b]เฉพาะซากปรักหักพังบนทวีปที่คุณวิจัยเท่านั้นที่จะถูกเปิดเผย[/b] ดังนั้นโปรดพิจารณา [b]เยี่ยมชมอารยธรรมอื่นๆ[/b] เพื่อค้นหาซากปรักหักพังใหม่ๆ 
+[n]เป้าหมายถัดไป: ศึกษา [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]{LOC_CIVIC_HEGEMONY_NAME}[/b] และ [b]จัดแสดง {1_goalNum} โบราณวัตถุ[/b] ซึ่งเป็นหมุดหมายสำคัญแรกตามเส้นทางมรดก [b]{LOC_LEGACY_PATH_MODERN_CULTURE_NAME}[/b]
+[n]เป้าหมายทางเลือก: [b]วิจัยโบราณวัตถุ[/b] บนทวีปอื่น</Text>		<!-- An Artifact is now on display, bringing you closer to the first Milestone along the [icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_MODERN_CULTURE_NAME} Legacy Path.
 				[n]Artifacts can be found through [b]Excavating Ruins[/b], [b]Narrative Events[/b], and [b]Overbuilding your Settlements[/b]. When Researching Artifact sites, [b]only Ruins on the continent you research will be revealed[/b], so consider [b]visiting other Civilizations [/b]to find new Ruins.
 				[n]Next Objective: Study [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]{LOC_CIVIC_HEGEMONY_NAME} [/b]and [b]Display {1_goalNum} Artifacts[/b], the first Milestone along the [b]{LOC_LEGACY_PATH_MODERN_CULTURE_NAME} Legacy Path[/b].
 				[n]Optional Objective: [b]Research Artifacts [/b]on another continent. -->
@@ -14547,7 +14548,7 @@
 			<Text>เส้นทางมรดก: วัฒนธรรมสมัยใหม่ IV</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_MODERN_CULTURE_NAME} IV -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_4_TRACKING_BODY" Language="th_TH">
-			<Text>ศึกษา: [icon:YIELD_CULTURE] {LOC_CIVIC_HEGEMONY_NAME} {1_itemComplete}
+			<Text>ศึกษา: [icon:NOTIFICATION_CULTURE_TREE_REVEALED] {LOC_CIVIC_HEGEMONY_NAME} {1_itemComplete}
 [n]แสดงโบราณวัตถุ 5 ชิ้น: {2_PointsCurrent}/{3_PointsGoal}
 [n]ตัวเลือกเพิ่มเติม: ศึกษาโบราณวัตถุในทวีปที่แตกต่างกัน</Text>		<!-- Study: [icon:NOTIFICATION_CULTURE_TREE_REVEALED] {LOC_CIVIC_HEGEMONY_NAME} {1_itemComplete}
 				[n]Display 5 Artifacts: {2_PointsCurrent}/{3_PointsGoal}
