@@ -1082,7 +1082,7 @@
 			<Text>+1[icon:YIELD_GOLD] ทอง บนทรัพยากรในเมือง, หรือ +2 ในเมืองในดินแดนห่างไกล</Text>		<!-- +1[icon:YIELD_GOLD] Gold on Resources in Towns -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_07_DESCRIPTION" Language="th_TH">
-			<Text>+1 ความจุทรัพยากรในเมืองใหญ่, หรือ +2 หากคุณมีเมืองใหญ่ 3 แห่งหรือน้อยกว่า</Text>		<!-- +1 Resource Capacity in Cities -->
+			<Text>+1 ความจุทรัพยากรในเมืองใหญ่, หรือ +2 หากคุณมีเมืองใหญ่ 3 แห่งหรือน้อยกว่า</Text>		<!-- +1 Resource Capacity in Cities, or +2 if you have 3 or fewer Cities. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_08_DESCRIPTION" Language="th_TH">
 			<Text>+10%[icon:YIELD_GOLD] ทอง สำหรับทุกพันธมิตรที่คุณมี</Text>		<!-- +10%[icon:YIELD_GOLD] Gold for every Alliance you have. -->
@@ -1112,13 +1112,13 @@
 			<Text>ได้รับ +1 ประชากรในเมือง, การสร้างเมืองใหม่ จะได้รับ ประชากรเพิ่มเติม</Text>		<!-- Gain +1 Population in Towns. New Towns start with an additional Population. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_06_DESCRIPTION" Language="th_TH">
-			<Text>+15%[icon:YIELD_FOOD] อาหาร และ[icon:YIELD_HAPPINESS] ความสุข ต่อการบำรุงรักษา ผู้เชี่ยวชาญ, หรือ +30% หากคุณมีเมืองใหญ่ 3 แห่งหรือน้อยกว่า</Text>		<!-- +15%[icon:YIELD_FOOD] Food and[icon:YIELD_HAPPINESS] Happiness towards maintaining Specialists -->
+			<Text>+15%[icon:YIELD_FOOD] อาหาร และ[icon:YIELD_HAPPINESS] ความสุข ต่อการบำรุงรักษา ผู้เชี่ยวชาญ, หรือ +30% หากคุณมีเมืองใหญ่ 3 แห่งหรือน้อยกว่า</Text>		<!-- +15%[icon:YIELD_FOOD] Food and[icon:YIELD_HAPPINESS] Happiness towards maintaining Specialists, or +30% if you have 3 or fewer Cities. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_07_DESCRIPTION" Language="th_TH">
-			<Text>+15% ผลผลิตในเมืองที่มี ผู้เชี่ยวชาญ, หรือ +30% ในดินแดนห่างไกล</Text>		<!-- +15% Yields in Towns with a Specialization -->
+			<Text>+15% ผลผลิตในเมืองที่มี ผู้เชี่ยวชาญ, หรือ +30% ในดินแดนห่างไกล</Text>		<!-- +15% Yields in Towns with a Specialization, or +30% in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_08_DESCRIPTION" Language="th_TH">
-			<Text>+1 ขีดจำกัดผู้เชี่ยวชาญในทุกเมือง, -1 ขีดจำกัดการตั้งถิ่นฐาน</Text>		<!-- +1 Specialist Limit in all Cities -->
+			<Text>+1 ขีดจำกัดผู้เชี่ยวชาญในทุกเมือง, -1 ขีดจำกัดการตั้งถิ่นฐาน</Text>		<!-- +1 Specialist Limit in all Cities, -1 Settlement Limit. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_09_DESCRIPTION" Language="th_TH">
 			<Text>+1 ขีดจำกัดการตั้งถิ่นฐาน</Text>		<!-- +1 Settlement Limit. -->
@@ -1187,7 +1187,7 @@
 			<Text>+10%[icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับทุกพันธมิตรที่คุณมี</Text>		<!-- +10%[icon:YIELD_SCIENCE] Science for every Alliance you have. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_09_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุคในเมือง หรือ +2 ในดินแดนห่างไกล</Text>		<!-- +1[icon:YIELD_SCIENCE] Science per Age in Towns -->
+			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุคในเมือง หรือ +2 ในดินแดนห่างไกล</Text>		<!-- +1[icon:YIELD_SCIENCE] Science per Age in Towns, or +2 in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_10_DESCRIPTION" Language="th_TH">
 			<Text>+5%[icon:YIELD_SCIENCE] วิทยาศาสตร์ (ทำซ้ำได้)</Text>		<!-- +5% total[icon:YIELD_SCIENCE] Science. Repeatable. -->
@@ -1418,7 +1418,7 @@
 			<Text>คุณไม่สามารถทำลายถิ่นฐานที่คุณก่อตั้งได้</Text>		<!-- You cannot raze a settlement that you have founded. -->
 		</Replace>
 		<Replace Tag="LOC_CITYCOMMAND_DESTROY_RAZE_CONDITIONS" Language="th_TH">
-			<Text>{1_Name} จะถูกทำลาย อย่างค่อยเป็นค่อยไป ในช่วงเวลา {2_NumTurns} เทิร์น ในช่วงเวลานี้ ถิ่นฐาน จะไม่สร้างผลตอบแทนใดๆ[n]ฝ่ายตรงข้าม ในสงครามปัจจุบันและอนาคตทั้งหมดจะได้รับ การสนับสนุนสงคราม โบนัส 1 เมื่อต้องเผชิญหน้ากับคุณ</Text>		<!-- {1_Name} will be gradually destroyed over a period of {2_NumTurns} Turns. During this time the settlement will not generate any yields.[n]Opponents in all current and future wars will gain 1 bonus War Support against you. -->
+			<Text>{1_Name} จะถูกทำลาย อย่างค่อยเป็นค่อยไป ในช่วงเวลา {2_NumTurns} เทิร์น ในช่วงเวลานี้ ถิ่นฐาน จะไม่สร้าง ผลตอบแทนใดๆ[n]ฝ่ายตรงข้าม ในสงครามปัจจุบันและอนาคตทั้งหมดจะได้รับ การสนับสนุนสงคราม 1 แต้ม เมื่อต้องเผชิญหน้ากับคุณ</Text>		<!-- {1_Name} will be gradually destroyed over a period of {2_NumTurns} Turns. During this time the settlement will not generate any yields.[n]Opponents in all current and future wars will gain 1 bonus War Support against you. -->
 		</Replace>
 		<Replace Tag="LOC_CITYCOMMAND_EXPAND_NO_EXPANSION_PLOTS" Language="th_TH">
 			<Text>ถิ่นฐานนี้ไม่สามารถขยายได้ในขณะนี้</Text>		<!-- This Settlement cannot expand right now. -->
@@ -2312,7 +2312,7 @@
 			<Text>เริ่มต้นโดยการศึกษา แนวคิดประวัติศาสตร์ธรรมชาติ ซึ่งช่วยให้คุณฝึก นักสำรวจ ยูนิตพิเศษนี้สามารถทำการวิจัยและขุดค้น โบราณวัตถุ ได้ นักสำรวจ ของคุณสามารถระบุสถานที่ วัตถุโบราณ โดยการทำการวิจัยที่มหาวิทยาลัยใดๆ (มีให้ตั้งแต่ Exploration Age) หรือพิพิธภัณฑ์ (ปลดล็อคใน ยุคใหม่) ผ่านการสอบสวนเหล่านี้ ซากปรักหักพังบนทวีปจะถูกเปิดเผย หลังจากระบุสถานที่แล้ว ส่ง นักสำรวจ ของคุณไปขุดค้น โบราณวัตถุ ซึ่งเป็นกระบวนการที่ใช้เวลาหลายเทิร์นและส่งผลให้ได้ Artifact หนึ่งชิ้น</Text>		<!-- To get started, study the Natural History Civic, which enables you to train an Explorer. This specialized unit can research and excavate Artifacts. Your Explorer can locate Artifact sites by conducting research at any University (available from the Exploration Age) or Museum (unlocked in the Modern Age). Through these investigations, Ruins on the continent will be revealed. After locating a site, send your Explorer to excavate the Artifact, a process that takes several turns and results in an Artifact. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_35_CHAPTER_CONTENT_PARA_3" Language="th_TH">
-			<Text>เคล็ดลับ: โบราณวัตถุสามารถได้รับผ่านการขุดค้นซากปรักหักพัง กิจกรรมเล่าเรื่องบางอย่าง และโดยการสร้างมากเกินไปในหมู่บ้านของคุณ มุ่งเน้นไปที่กิจกรรมเหล่านี้เพื่อสะสมโบราณวัตถุได้อย่างรวดเร็วและก้าวหน้าในเส้นทางมรดกนี้</Text>		<!-- Tip: Artifacts can be acquired through excavating Ruins, certain Narrative Events, and by Overbuilding in your Settlements. Focus on these activities to quickly accumulate Artifacts and advance along this legacy path. -->
+			<Text>เคล็ดลับ: โบราณวัตถุสามารถได้รับผ่านการขุดค้นซากปรักหักพัง กิจกรรมเล่าเรื่องบางอย่าง และโดยการก่อสร้างทับอาคารในถิ่นฐานของคุณ มุ่งเน้นไปที่กิจกรรมเหล่านี้เพื่อสะสมโบราณวัตถุได้อย่างรวดเร็วและก้าวหน้าในเส้นทางมรดกนี้</Text>		<!-- Tip: Artifacts can be acquired through excavating Ruins, certain Narrative Events, and by Overbuilding in your Settlements. Focus on these activities to quickly accumulate Artifacts and advance along this legacy path. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_36_TITLE" Language="th_TH">
 			<Text>ชัยชนะทางเศรษฐกิจยุคใหม่</Text>		<!-- Modern Economic Victory -->
@@ -2597,7 +2597,7 @@
 			<Text>การต่อสู้</Text>		<!-- Combat -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_1_CHAPTER_CONTENT_PARA_1" Language="th_TH">
-			<Text>การต่อสู้เริ่มต้นโดยยูนิตทหาร ซึ่งถูกผลิตหรือซื้อในเขตตั้งถิ่นฐาน  ยูนิตทางอากาศ สามารถผลิตได้เฉพาะในเขตตั้งถิ่นฐานที่มีสนามบิน ในขณะที่ยูนิตนาวีก็สามารถผลิตได้เฉพาะในเขตตั้งถิ่นฐานที่ตั้งอยู่บนพื้นที่ชายฝั่งหรือพื้นที่แม่น้ำใหญ่ ยูนิตบกสามารถผลิตได้ในทุกเมือง</Text>		<!-- Combat is initiated by Military Units, which are produced or bought in Settlements. Air units can only be produced in Settlements with an Aerodrome, while Naval units can only be produced in Settlements founded on coastal tiles or navigable river tiles. Land units can be produced in all Cities. -->
+			<Text>การต่อสู้เริ่มต้นโดยยูนิตทหาร ซึ่งถูกผลิตหรือซื้อในเขตตั้งถิ่นฐาน  ยูนิตทางอากาศ สามารถผลิตได้เฉพาะในเขตตั้งถิ่นฐานที่มีสนามบิน ในขณะที่ยูนิตทางน้ำ ก็สามารถผลิตได้เฉพาะในเขตตั้งถิ่นฐานที่ตั้งอยู่บนพื้นที่ชายฝั่งหรือพื้นที่แม่น้ำใหญ่ ยูนิตบกสามารถผลิตได้ในทุกเมือง</Text>		<!-- Combat is initiated by Military Units, which are produced or bought in Settlements. Air units can only be produced in Settlements with an Aerodrome, while Naval units can only be produced in Settlements founded on coastal tiles or navigable river tiles. Land units can be produced in all Cities. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>การต่อสู้ใน Civilization VII ยังคงมีหลักการพื้นฐานมากมายจากภาคก่อนๆ ยูนิตทหารแต่ละยูนิตมีสถิติที่กำหนดความสามารถในการต่อสู้ ซึ่งสามารถพัฒนาได้ผ่านการโปรโมทผู้บัญชาการ, ข้อได้เปรียบจากภูมิประเทศ, และโบนัสพิเศษอื่นๆ สถิติที่สำคัญ ได้แก่:[BLIST][LI]จุดชีวิต (HP): ยูนิตแต่ละยูนิตมี 100 จุดชีวิต หรือที่รู้จักกันว่าเป็นสุขภาพ เมื่อยูนิตได้รับความเสียหาย จุดชีวิตจะลดลง การโจมตีที่แข็งแกร่งกว่าจะทำให้จุดชีวิตลดลงมาก ยูนิตจะถูกทำลายหากจุดชีวิตลดลงจนถึง 0[LI]พลังต่อสู้ (CS): สถิตินี้บ่งชี้ถึงประสิทธิภาพในการต่อสู้รวมของยูนิต สำหรับยูนิตประชิด นี่หมายถึงทั้งพลังต่อสู้และพลังป้องกัน สำหรับยูนิตระยะไกล นี้จะคำนวณเพียงพลังป้องกันเท่านั้น[LI]ความแข็งแกร่งระยะไกล (RS): เฉพาะสำหรับยูนิตระยะไกล สถิตินี้วัดพลังต่อสู้ของยูนิตจากระยะไกล อย่างไรก็ตาม การโจมตีระยะไกลจะมีประสิทธิภาพน้อยกว่ากับการป้องกันของเมืองและยูนิตกองเรือ[LI]ระยะ (Range): สถิตินี้กำหนดระยะที่ยูนิตสามารถโจมตีได้ ซึ่งมีความเกี่ยวข้องกับยูนิตระยะไกล/ยูนิตปืนใหญ่, ยูนิตสอดแนมบางยูนิต, และยูนิตอมตะ ตัวอย่างเช่น ระยะ 1 จำกัดการโจมตีอยู่ที่แผ่นดินข้างเคียง ในขณะที่ระยะ 3 สามารถโจมตีได้สูงสุดถึงสามแผ่นดินห่างออกไป[LI]แต้มการเคลื่อนที่ (MP): แต้มเหล่านี้ถูกใช้เมื่อยูนิตเคลื่อนที่หรือลงมือทำ โดยทั่วไป, 1 MP ต่อแผ่นดินจะต้องใช้เพื่อเคลื่อนที่ผ่านทุ่งและน้ำ แต่สามารถเปลี่ยนแปลงได้ตามถนน, เนินเขา, จุดข้ามแม่น้ำ, และเขตควบคุมของศัตรู ยูนิตต้องมี MP ที่เพียงพอเพื่อเคลื่อนที่และโจมตี ซึ่งทำให้ค่าตัว MP ที่สูงมีประโยชน์สำหรับการครอบคลุมดินแดนด้วยยูนิตที่น้อยกว่า[LI]การมองเห็น: สถิตินี้บ่งชี้ว่ายูนิตสามารถเปิดเผยแผ่นดินมากเพียงใดรอบตำแหน่งของมัน โดยกำจัด "หมอกสงคราม" ยูนิตส่วนใหญ่มีระยะการมองเห็น 2 ในขณะที่ไม่ใช่สถิติการต่อสู้โดยตรง การมองเห็นมีความสำคัญในการให้ยูนิตระยะไกลสามารถระบุเป้าหมายได้[LI]ความแข็งแกร่งในการระเบิด: การโจมตีแบบระเบิดมีประสิทธิภาพมากกว่าต่อแผ่นดินที่เสริมกำลังเมื่อเปรียบเทียบกับการโจมตีระยะไกล จึงทำให้ยูนิตปืนใหญ่จริงๆ เป็นตัวเลือกที่ได้รับการสนับสนุนสำหรับการส่งมอบพลังการยิงที่เหนือกว่าไปยังการป้องกันดังกล่าว ทั้งยูนิตระยะไกลและยูนิตปืนใหญ่บนบกใช้ความแข็งแกร่งในการระเบิดเมื่อโจมตียูนิตทางน้ำ ส่งผลให้ยูนิตระยะไกลสร้างความเสียหายได้น้อยและยูนิตปืนใหญ่สร้างความเสียหายได้มากกว่าเป้าหมายทางน้ำ[/LIST]</Text>		<!-- Combat in Civilization VII retains many core principles from previous titles. Each military unit has a set of statistics that defines its combat capabilities, which can be enhanced through Commander promotions, terrain advantages, and other special bonuses. Key statistics include:[BLIST][LI]Hit Points (HP): Each unit has 100 hit points, also known as Health. When a unit takes damage, its HP decreases; stronger attacks cause more significant HP loss. A unit is destroyed if its HP drops to 0.[LI]Combat Strength (CS): This stat indicates a unit’s overall combat effectiveness. For melee units, this represents both its offensive and defensive power. For ranged units, this only accounts for its defensive power.[LI]Ranged Strength (RS): Specific to ranged units, this stat measures a unit’s attack power from a distance. However, ranged attacks are less effective against City Defenses and naval units.[LI]Range: This stat determines the distance a unit can attack and is relevant to ranged/siege units, some recon units, and Immortals. For example, a Range of 1 limits attacks to adjacent tiles, while a Range of 3 allows attacks up to three tiles away.[LI]Movement Points (MP): These points are used when units move or perform actions. Typically, 1 MP per tile is required to move over plains and water, but this can change with roads, hills, river crossings, and enemy zones of control. Units need sufficient MPs to move and attack, making high MP values beneficial for covering territory with fewer units.[LI]Sight: This stat indicates how many tiles a unit can reveal around its position, removing the "fog of war." Most units have a Sight range of 2. While not a direct combat stat, Sight is crucial for allowing ranged units to identify targets.[LI]Bombard Strength: Bombard attacks are more effective against fortified tiles compared to ranged attacks, making actual siege units the preferred choice for delivering superior firepower against such defenses. Both ranged and siege land units use their bombard strength when attacking naval units, resulting in ranged units inflicting less damage and siege units inflicting more damage on naval targets.[/LIST] -->
@@ -2908,7 +2908,7 @@
 			<Text>ผู้เล่นสามารถสร้างกำแพงในเมืองหรือซื้อได้ทั้งในเมืองหรือหมู่บ้าน</Text>		<!-- Players can build Walls in Cities or purchase them in both Cities or Towns. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_WALLS_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
-			<Text>การป้องกันกำแพงเพิ่มสุขภาพของเขตเมืองขึ้น 100 กำแพงจากยุคก่อนให้โบนัสการป้องกันเพียงครึ่งหนึ่งและสุขภาพของเขตเมืองเพียงครึ่งเดียว ในขณะที่กำแพงที่เก่ากว่าหนึ่งยุคไม่มีประโยชน์ใดๆ อย่างไรก็ตาม กำแพงจากยุคก่อนสามารถอัปเกรดได้โดยการสร้างทับด้วยการป้องกันจากยุคปัจจุบัน กำแพงจะไม่ได้รับการซ่อมแซมผ่านลำดับการผลิตเมือง; พวกมันจะซ่อมแซมตัวเองโดยอัตโนมัติตามเวลา ตราบใดที่ไม่มีการโจมตีและไม่มียูนิตศัตรูที่อยู่ใกล้เคียง</Text>		<!-- Wall defenses increase a district's health by 100. Walls from the previous Age provide only half the defense bonus and half the district health, while walls older than one age provide no benefit. However, Walls from the previous Age can be upgraded by overbuilding them with the current age defenses. Walls are not repaired through the City production queue; they automatically repair over time as long as they are not under attack and have no adjacent enemy units. -->
+			<Text>การป้องกันกำแพงเพิ่มสุขภาพของเขตเมืองขึ้น 100 กำแพงจากยุคก่อนให้โบนัสการป้องกันเพียงครึ่งหนึ่งและสุขภาพของเขตเมืองเพียงครึ่งเดียว ในขณะที่กำแพงที่เก่ากว่าหนึ่งยุคไม่มีประโยชน์ใดๆ อย่างไรก็ตาม กำแพงจากยุคก่อนสามารถอัปเกรดได้โดยการสร้างทับ ด้วยการป้องกันในยุคปัจจุบัน กำแพงจะไม่ได้รับการซ่อมแซมผ่านลำดับการผลิตเมือง; พวกมันจะซ่อมแซมตัวเองโดยอัตโนมัติตามเวลา ตราบใดที่ไม่มีการโจมตีและไม่มียูนิตศัตรูที่อยู่ใกล้เคียง</Text>		<!-- Wall defenses increase a district's health by 100. Walls from the previous Age provide only half the defense bonus and half the district health, while walls older than one age provide no benefit. However, Walls from the previous Age can be upgraded by overbuilding them with the current age defenses. Walls are not repaired through the City production queue; they automatically repair over time as long as they are not under attack and have no adjacent enemy units. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_WALLS_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
 			<Text>การป้องกันกำแพงไม่สามารถซื้อได้ด้วยทอง ยกเว้นในใจกลางเมือง แทนที่จะเป็นเช่นนั้น กำแพงในเขตเมืองสามารถสร้างได้ทีละ ช่อง จากคิวสร้างของเมือง โดยใช้การผลิต กำแพงไม่สามารถสร้างได้บน ช่องแม่น้ำใหญ่ และต้องสร้างติดกับกำแพงอื่นจากถิ่นฐานเดียวกัน โดยเริ่มจากใจกลางเมือง กำแพงไม่สามารถสร้างติดกับกำแพงที่เป็นของถิ่นฐานที่แตกต่างกัน ยกเว้นในใจกลางเมือง ซึ่งเป็นสิ่งที่อนุญาตเสมอ</Text>		<!-- Wall defenses cannot be purchased with Gold, except in the City Center. Instead, walls in urban districts can be constructed one tile at a time from the City build queue, using Production. Walls cannot be constructed on Navigable River hexes and must be built adjacent to other wall defenses from the same settlement, starting with the City Center. Walls cannot be built adjacent to walls owned by a different settlement, except in the city center, which is always allowed. -->
@@ -3028,7 +3028,7 @@
 			<Text>การพัฒนาสามารถทับด้วยการก่อสร้างอาคารได้เสมอ</Text>		<!-- Improvements can always be overbuilt with a building. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_9_CHAPTER_CONTENT_PARA_3" Language="th_TH">
-			<Text>เคล็ดลับ: โบนัสผลผลิตใน ย่าน และโบนัสความใกล้เคียงจะรีเซ็ตเมื่อมีการเปลี่ยนยุค การสร้างมากเกินไปเป็นกลยุทธ์ที่มีค่าที่จะเพิ่มศักยภาพของช่องของคุณและนำโบนัสผลผลิตกลับเข้าสู่ ย่าน และโบนัสความใกล้เคียงอีกครั้ง</Text>		<!-- Tip: Yield bonuses on Quarters and Adjacencies reset with each Age transition. Overbuilding is a valuable strategy to maximize your tile's potential and reintroduce bonus yields back into Quarters and Adjacencies. -->
+			<Text>เคล็ดลับ: โบนัสผลผลิตใน ย่าน และโบนัสความใกล้เคียงจะรีเซ็ตเมื่อมีการเปลี่ยนยุค การก่อสร้างทับอาคาร เป็นกลยุทธ์ที่มีค่าที่จะเพิ่มศักยภาพของช่องของคุณและนำโบนัสผลผลิตกลับเข้าสู่ ย่าน และโบนัสความใกล้เคียงอีกครั้ง</Text>		<!-- Tip: Yield bonuses on Quarters and Adjacencies reset with each Age transition. Overbuilding is a valuable strategy to maximize your tile's potential and reintroduce bonus yields back into Quarters and Adjacencies. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_10_TITLE" Language="th_TH">
 			<Text>อาคาร: การบำรุงรักษา</Text>		<!-- Buildings: Maintenance -->
@@ -4495,10 +4495,10 @@
 			<Text>ชัยชนะเล็กน้อย</Text>		<!-- Minor Victory -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_MAJOR_DEFEAT" Language="th_TH">
-			<Text>ความพ่ายแพ้ครั้งใหญ่</Text>		<!-- Major Defeat -->
+			<Text>พ่ายแพ้ครั้งใหญ่</Text>		<!-- Major Defeat -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_MINOR_DEFEAT" Language="th_TH">
-			<Text>ความพ่ายแพ้เล็กน้อย</Text>		<!-- Minor Defeat -->
+			<Text>พ่ายแพ้เล็กน้อย</Text>		<!-- Minor Defeat -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_STALEMATE" Language="th_TH">
 			<Text>การเจรจาที่หยุดชะงัก</Text>		<!-- Stalemate -->
@@ -4519,10 +4519,10 @@
 			<Text>ยูนิตที่ขึ้นเรือ</Text>		<!--  Embarked Unit -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_CAPTURE_CHANCE" Language="th_TH">
-			<Text>จะจับภาพเมื่อแพ้</Text>		<!-- Will Capture on Defeat -->
+			<Text>จะจับเมื่อแพ้</Text>		<!-- Will Capture on Defeat -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_MOVEMENT_BONUS_DESC" Language="th_TH">
-			<Text>+{1_Value} แต้มเคลื่อนที่ที่เหลือ</Text>		<!-- +{1_Value} Remaining Movement -->
+			<Text>+{1_Value} แต้มเคลื่อนที่ ที่เหลืออยู่</Text>		<!-- +{1_Value} Remaining Movement -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_FLEET_CONVOYS" Language="th_TH">
 			<Text>+{1_Value} ขบวนรถ</Text>		<!--  +{1_Value} Convoys -->
@@ -4534,13 +4534,13 @@
 			<Text>{1_Value} {2_FeatureName}</Text>		<!-- {1_Value} {2_FeatureName} -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_TERRAIN_BONUS_DESC" Language="th_TH">
-			<Text>+{1_Value} พื้นที่ที่เหมาะสม</Text>		<!-- +{1_Value} Ideal Terrain -->
+			<Text>+{1_Value} พื้นที่เหมาะสม</Text>		<!-- +{1_Value} Ideal Terrain -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_ROUGH_TERRAIN_BONUS" Language="th_TH">
 			<Text>+{1_Value} ป้องกันในพื้นที่ที่ขรุขระ</Text>		<!-- +{1_Value} Defending in Rough Terrain -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_DEFENSIVE_IMPROVEMENT_BONUS_DESC" Language="th_TH">
-			<Text>+{1_Value} สิ่งกีดขวางถาวร</Text>		<!-- +{1_Value} Static Fortifications -->
+			<Text>+{1_Value} ปราการถาวร</Text>		<!-- +{1_Value} Static Fortifications -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_TERRAIN_PENALTY" Language="th_TH">
 			<Text>พื้นที่ที่ไม่เอื้ออำนวย</Text>		<!-- {1_Value} Unfavorable Terrain -->
@@ -4567,16 +4567,16 @@
 			<Text>โบนัสการสนับสนุน +{1_Value}</Text>		<!-- +{1_Value} Flanking Bonus -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_FLANK_RESISTANCE_DESC" Language="th_TH">
-			<Text>-{1_Value} ความต้านทานด้านปีกของผู้พิทักษ์</Text>		<!-- -{1_Value} Defender Flank Resistance -->
+			<Text>-{1_Value} ความต้านทาน โจมตีขนาบข้าง</Text>		<!-- -{1_Value} Defender Flank Resistance -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_SHOCK_BONUS_DESC" Language="th_TH">
-			<Text>+{1_Value} การโจมตีของยูนิตม้าศึก</Text>		<!-- +{1_Value} Cavalry Charge -->
+			<Text>+{1_Value} ทหารม้าเข้าพุ่ง</Text>		<!-- +{1_Value} Cavalry Charge -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_DAMAGED_UNIT_DESC" Language="th_TH">
 			<Text>รับการโจมตี {1_Value} หน่วย</Text>		<!-- {1_Value} Damaged Unit -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_AMPHIBIOUS_ATTACK_PENALTY" Language="th_TH">
-			<Text>{1_Value} การโจมตีแบบครึ่งบกครึ่งน้ำ</Text>		<!-- {1_Value} Amphibious Attack -->
+			<Text>{1_Value} การโจมตีแบบสะเทินน้ำ</Text>		<!-- {1_Value} Amphibious Attack -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_WAR_WEARINESS_PENALTY" Language="th_TH">
 			<Text>{1_Value} ผลกระทบจากสงคราม</Text>		<!-- {1_Value} War Weariness -->
@@ -4600,22 +4600,22 @@
 			<Text>+{1_Value} ความสัมพันธ์ของผู้เล่น</Text>		<!-- +{1_Value} Player Relationships -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_INDIVIDUAL_RESOURCE_DESC" Language="th_TH">
-			<Text>+{1_Value} {2_Name} ทรัพยากร</Text>		<!-- +{1_Value} {2_Name} Resource -->
+			<Text>+{1_Value} ทรัพยากร {2_Name}</Text>		<!-- +{1_Value} {2_Name} Resource -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_IMPROVEMENT_HILLFORT_DESC" Language="th_TH">
 			<Text>+{1_Value} ปราการเนินเขา</Text>		<!-- +{1_Value} Hillfort -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOU_KILLED_ENEMY_UNIT" Language="th_TH">
-			<Text>ขณะที่ป้องกัน {2_UnitName} ของคุณ ({5_Num} ความเสียหาย) ได้ฆ่า {LOC_GRAMMAR_A_AN &amp;lt;&amp;lt; {3_EnemyAdjective}} {4_EnemyUnitName}!</Text>		<!-- While defending, your {2_UnitName} ({5_Num} damage) killed {LOC_GRAMMAR_A_AN &amp;lt;&amp;lt; {3_EnemyAdjective}} {4_EnemyUnitName}! -->
+			<Text>ขณะที่ป้องกัน {2_UnitName} ของคุณ (ความเสียหาย {5_Num} หน่วย) ได้ฆ่า {LOC_GRAMMAR_A_AN &amp;lt;&amp;lt; {3_EnemyAdjective}} {4_EnemyUnitName}!</Text>		<!-- While defending, your {2_UnitName} ({5_Num} damage) killed {LOC_GRAMMAR_A_AN &amp;lt;&amp;lt; {3_EnemyAdjective}} {4_EnemyUnitName}! -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOU_KILLED_ENEMY_UNIT_DEFENDING_CITY" Language="th_TH">
-			<Text>ขณะป้องกัน เมือง {2_CityName} ของคุณ ({5_Num} ความเสียหาย) ได้ฆ่า {LOC_GRAMMAR_A_AN &amp;lt;&amp;lt; {3_EnemyAdjective}} {4_EnemyUnitName}!</Text>		<!-- While defending, your City of {2_CityName} ({5_Num} damage) killed {LOC_GRAMMAR_A_AN &amp;lt;&amp;lt; {3_EnemyAdjective}} {4_EnemyUnitName}! -->
+			<Text>ขณะป้องกัน เมือง {2_CityName} ของคุณ (ความเสียหาย {5_Num} หน่วย) ได้ฆ่า {LOC_GRAMMAR_A_AN &amp;lt;&amp;lt; {3_EnemyAdjective}} {4_EnemyUnitName}!</Text>		<!-- While defending, your City of {2_CityName} ({5_Num} damage) killed {LOC_GRAMMAR_A_AN &amp;lt;&amp;lt; {3_EnemyAdjective}} {4_EnemyUnitName}! -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOUR_CITY_WAS_CAPTURED" Language="th_TH">
 			<Text>เมือง {1_CityName} ของคุณถูกศัตรู {2_UnitName} ยึดครอง!</Text>		<!-- Your City of {1_CityName} was captured by an enemy {2_UnitName}! -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOUR_UNIT_CAPTURED_ENEMY_CITY" Language="th_TH">
-			<Text>ยูนิต {1_UnitName} ของคุณ ({2_Num} ความเสียหาย) ได้ยึดเมือง {3_CityName} ของศัตรู!</Text>		<!-- Your {1_UnitName} ({2_Num} damage) captured the enemy City of {3_CityName}! -->
+			<Text>ยูนิต {1_UnitName} ของคุณ (ความเสียหาย {2_Num} หน่วย) ได้ยึดเมือง {3_CityName} ของศัตรู!</Text>		<!-- Your {1_UnitName} ({2_Num} damage) captured the enemy City of {3_CityName}! -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOUR_UNIT_CAPTURED_ENEMY_UNIT" Language="th_TH">
 			<Text>ยูนิต {1_UnitName} ของคุณจับกุมศัตรู {2_UnitName} ได้!</Text>		<!-- Your {1_UnitName} captured an enemy {2_UnitName}! -->
@@ -4624,31 +4624,31 @@
 			<Text>ยูนิต {1_UnitName} ของคุณถูกจับโดยยูนิตศัตรู {2_UnitName}!</Text>		<!-- Your {1_UnitName} was captured by an enemy {2_UnitName}! -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOUR_UNIT_DESTROYED_ENEMY" Language="th_TH">
-			<Text>ยูนิต {1_UnitName} ของคุณ ({2_Num} ความเสียหาย) ทำลายยูนิตศัตรู {3_UnitName}!</Text>		<!-- Your {1_UnitName} ({2_Num} damage) destroyed an enemy {3_UnitName}! -->
+			<Text>ยูนิต {1_UnitName} ของคุณ (ความเสียหาย {2_Num} หน่วย) ทำลายยูนิตศัตรู {3_UnitName}!</Text>		<!-- Your {1_UnitName} ({2_Num} damage) destroyed an enemy {3_UnitName}! -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOUR_UNIT_DIED_ATTACKING" Language="th_TH">
-			<Text>ยูนิต {1_UnitName} ของคุณตาย أثناءโจมตีศัตรู {2_EnUName} ({3_Num} ความเสียหาย)!</Text>		<!-- Your {1_UnitName} died attacking an enemy {2_EnUName} ({3_Num} damage)! -->
+			<Text>ยูนิต {1_UnitName} ของคุณตาย أثناءโจมตีศัตรู {2_EnUName} (ความเสียหาย {3_Num} หน่วย)!</Text>		<!-- Your {1_UnitName} died attacking an enemy {2_EnUName} ({3_Num} damage)! -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOUR_UNIT_DIED_ATTACKING_CITY" Language="th_TH">
-			<Text>ยูนิต {1_UnitName} ของคุณถูกทำลายขณะโจมตีเมืองศัตรู {2_EnUName} ({3_Num} ความเสียหาย)!</Text>		<!-- Your {1_UnitName} died attacking the enemy City of {2_EnUName} ({3_Num} damage)! -->
+			<Text>ยูนิต {1_UnitName} ของคุณถูกทำลายขณะโจมตีเมืองศัตรู {2_EnUName} (ความเสียหาย {3_Num} หน่วย)!</Text>		<!-- Your {1_UnitName} died attacking the enemy City of {2_EnUName} ({3_Num} damage)! -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOUR_UNIT_WITHDREW" Language="th_TH">
-			<Text>ยูนิต {1_UnitName} ของคุณ ({2_Num} ความเสียหาย) ได้โจมตีศัตรู {3_EnUName} ({4_Num} ความเสียหาย)!</Text>		<!-- Your {1_UnitName} ({2_Num} damage) attacked an enemy {3_EnUName} ({4_Num} damage)! -->
+			<Text>ยูนิต {1_UnitName} ของคุณ (ความเสียหาย {2_Num} หน่วย) ได้โจมตีศัตรู {3_EnUName} (ความเสียหาย {4_Num} หน่วย)!</Text>		<!-- Your {1_UnitName} ({2_Num} damage) attacked an enemy {3_EnUName} ({4_Num} damage)! -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOUR_UNIT_WITHDREW_CITY" Language="th_TH">
-			<Text>{1_UnitName} ของคุณ ({2_Num} ความเสียหาย) ได้โจมตีเมืองศัตรู {3_CityName} ({4_Num} ความเสียหาย)!</Text>		<!-- Your {1_UnitName} ({2_Num} damage) attacked the enemy City of {3_CityName} ({4_Num} damage)! -->
+			<Text>{1_UnitName} ของคุณ (ความเสียหาย {2_Num} หน่วย) ได้โจมตีเมืองศัตรู {3_CityName} (ความเสียหาย {4_Num} หน่วย)!</Text>		<!-- Your {1_UnitName} ({2_Num} damage) attacked the enemy City of {3_CityName} ({4_Num} damage)! -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_FRIENDLY_UNIT_WITHDREW" Language="th_TH">
 			<Text>ยูนิต {1_UnitName} ของเราได้ถอนตัวจากการโจมตีระยะประชิดของศัตรูแล้ว</Text>		<!-- Our {1_UnitName} has withdrawn from enemy melee attack. -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_ENEMY_UNIT_WITHDREW" Language="th_TH">
-			<Text>ยูนิต {1_UnitName} ของคุณ ({2_Num} ความเสียหาย) ถูกโจมตีโดยศัตรู {3_EnUName} ({4_Num} ความเสียหาย)!</Text>		<!-- Your {1_UnitName} ({2_Num} damage) was attacked by an enemy {3_EnUName} ({4_Num} damage)! -->
+			<Text>ยูนิต {1_UnitName} ของคุณ (ความเสียหาย {2_Num} หน่วย) ถูกโจมตีโดยศัตรู {3_EnUName} (ความเสียหาย {4_Num} หน่วย)!</Text>		<!-- Your {1_UnitName} ({2_Num} damage) was attacked by an enemy {3_EnUName} ({4_Num} damage)! -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOUR_UNIT_DIED_DEFENDING" Language="th_TH">
-			<Text>ขณะป้องกัน {1_UnitName} ของคุณถูกทำลายโดย {2_EnemyUnitName} จาก {3_EnemyAdjective} ({4_Num} ความเสียหาย)!</Text>		<!-- While defending, your {1_UnitName} was destroyed by {LOC_GRAMMAR_A_AN &amp;lt;&amp;lt; {2_EnemyUnitName}} from the {3_EnemyAdjective} ({4_Num} damage)! -->
+			<Text>ขณะป้องกัน {1_UnitName} ของคุณถูกทำลายโดย {2_EnemyUnitName} จาก {3_EnemyAdjective} (ความเสียหาย {4_Num} หน่วย)!</Text>		<!-- While defending, your {1_UnitName} was destroyed by {LOC_GRAMMAR_A_AN &amp;lt;&amp;lt; {2_EnemyUnitName}} from the {3_EnemyAdjective} ({4_Num} damage)! -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOUR_UNIT_DAMAGED_ENEMY" Language="th_TH">
-			<Text>ยูนิต {1_UnitName} ของคุณทำความเสียหายให้กับศัตรู {2_EnUName} ({3_Num} ความเสียหาย)!</Text>		<!-- Your {1_UnitName} damaged an enemy {2_EnUName}({3_Num} damage)! -->
+			<Text>ยูนิต {1_UnitName} ของคุณทำความเสียหายให้กับศัตรู {2_EnUName} (ความเสียหาย {3_Num} หน่วย)!</Text>		<!-- Your {1_UnitName} damaged an enemy {2_EnUName}({3_Num} damage)! -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOUR_UNIT_BOMBARDED_ENEMY" Language="th_TH">
 			<Text>ยูนิต {1_UnitName} ของคุณได้โจมตี {2_EnUName} ของศัตรู ทำให้เกิดความเสียหาย {3_Num}!</Text>		<!-- Your {1_UnitName} bombarded an enemy {2_EnUName} causing {3_Num} damage! -->
@@ -5242,7 +5242,7 @@
 			<Text>แสดงโรงงาน</Text>		<!-- Show Factories -->
 		</Replace>
 		<Replace Tag="LOC_UI_RESOURCE_ORIGIN" Language="th_TH">
-			<Text>ต้นกำเนิด: {1_Name}</Text>		<!-- Origin: {1_Name} -->
+			<Text>ถิ่นกำเนิด: {1_Name}</Text>		<!-- Origin: {1_Name} -->
 		</Replace>
 		<Replace Tag="LOC_UI_RESOURCE_TREASURE_TURNS_LEFT" Language="th_TH">
 			<Text>{1_Name} หันซ้ายไปยังฟลีตสมบัติ</Text>		<!-- {1_Name} Turns Left for Treasure Fleet -->
@@ -6139,7 +6139,7 @@
 			<Text>มารักกาลัม</Text>		<!-- Marakkalam  -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_MARAKKALAM_DESCRIPTION" Language="th_TH">
-			<Text>-2[icon:YIELD_GOLD] การบำรุงรักษาทองสำหรับยูนิตนายเรือ</Text>		<!-- -2[icon:YIELD_GOLD] Gold maintenance for Naval Units. -->
+			<Text>-2[icon:YIELD_GOLD] การบำรุงรักษาทอง สำหรับยูนิตนายเรือ</Text>		<!-- -2[icon:YIELD_GOLD] Gold maintenance for Naval Units. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_ANGADI_NAME" Language="th_TH">
 			<Text>อังคาดี</Text>		<!-- Angadi  -->
@@ -6269,7 +6269,7 @@
 			<Text>เซอร์วิเทียม เดบิตัม</Text>		<!-- Servitium Debitum -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SERVITIUM_DEBITUM_DESCRIPTION" Language="th_TH">
-			<Text>-2[icon:YIELD_GOLD] การบำรุงรักษาทองสำหรับยูนิตทหารม้า</Text>		<!-- -2[icon:YIELD_GOLD] Gold maintenance for Cavalry Units. -->
+			<Text>-2[icon:YIELD_GOLD] การบำรุงรักษาทอง สำหรับยูนิตทหารม้า</Text>		<!-- -2[icon:YIELD_GOLD] Gold maintenance for Cavalry Units. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_ISA_NAME" Language="th_TH">
 			<Text>อิซา</Text>		<!-- Isa -->
@@ -6305,7 +6305,7 @@
 			<Text>กองทัพเรือที่ยิ่งใหญ่</Text>		<!-- Great and Most Fortunate Navy -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_GREAT_AND_MOST_FORTUNATE_NAVY_DESCRIPTION" Language="th_TH">
-			<Text>+50%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับยูนิตเรือ, -1[icon:YIELD_GOLD] ค่าใช้จ่ายทองสำหรับยูนิตเรือ</Text>		<!-- +50%[icon:YIELD_PRODUCTION] Production towards Naval Units. -1[icon:YIELD_GOLD] Gold maintenance for Naval Units. -->
+			<Text>+50%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับยูนิตเรือ, -1[icon:YIELD_GOLD] ค่าใช้จ่ายทอง สำหรับยูนิตเรือ</Text>		<!-- +50%[icon:YIELD_PRODUCTION] Production towards Naval Units. -1[icon:YIELD_GOLD] Gold maintenance for Naval Units. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_GOLD_RUSH_NAME" Language="th_TH">
 			<Text>ขบวนค้นหาทอง</Text>		<!-- Gold Rush -->
@@ -6671,7 +6671,7 @@
 			<Text>คุณจะร่วมมือกับ {1_initialName}</Text>		<!-- You will ally yourself with {1_initialName}. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FORM_ALLIANCE_REJECT" Language="th_TH">
-			<Text>คุณปฏิเสธข้อเสนอเป็นพันธมิตร ของ {1_initialName}[n]จะไม่มีการเป็นพันธมิตรระหว่างผู้นำเป็นเวลา {2_cooldown} เทิร์น[n]ความสัมพันธ์แย่ลง</Text>		<!-- You reject {1_initialName}'s Alliance offer.[n]No new Alliance between Leaders for {2_cooldown} turns.[n]Relationships worsen. -->
+			<Text>คุณปฏิเสธข้อเสนอเป็นพันธมิตร ของ {1_initialName}[n]จะไม่มีการเป็น พันธมิตร ระหว่างผู้นำ เป็นเวลา {2_cooldown} เทิร์น[n]ความสัมพันธ์แย่ลง</Text>		<!-- You reject {1_initialName}'s Alliance offer.[n]No new Alliance between Leaders for {2_cooldown} turns.[n]Relationships worsen. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_OPEN_BORDERS_NAME" Language="th_TH">
 			<Text>เปิดพรมแดน</Text>		<!-- Open Borders -->
@@ -7247,7 +7247,7 @@
 			<Text>ยกเลิกการกระทำทางการทูต[n]{1_initialName} ได้รับ [icon:YIELD_DIPLOMACY] ค่าอิทธิพล คืน[n]ไม่มีความร่วมมือใหม่ระหว่างผู้นำเป็นเวลา {2_cooldown} เทิร์น[n]ความสัมพันธ์แย่ลง</Text>		<!-- Cancels the Diplomatic Action.[n]{1_initialName}'s[icon:YIELD_DIPLOMACY] Influence is refunded.[n]No new Endeavors between Leaders for {2_cooldown} turns.[n]Relationships worsen. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_REJECT" Language="th_TH">
-			<Text>ถูกปิดกั้นจากโปรเจกต์ในอนาคตเป็นเวลา {2_cooldown} เทิร์น[n] ความสัมพันธ์แย่ลง</Text>		<!-- Blocked from future projects for {2_cooldown} turns.[n]Relationships worsen. -->
+			<Text>ถูกปิดกั้นจาก โครงการในอนาคต เป็นเวลา {2_cooldown} เทิร์น[n] ความสัมพันธ์แย่ลง</Text>		<!-- Blocked from future projects for {2_cooldown} turns.[n]Relationships worsen. -->
 		</Replace>
 		<Replace Tag="LOC_PLAYER_RELATIONSHIP_HOSTILE" Language="th_TH">
 			<Text>ปรปักษ์</Text>		<!-- Hostile -->
@@ -7631,7 +7631,7 @@
 			<Text>สามารถใช้งานได้อีก {1_turns} เทิร์น</Text>		<!-- Active for {1_turns} more turns. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_LASTS_FOR_TURNS" Language="th_TH">
-			<Text>มีอายุ {1_turns} เทิร์น</Text>		<!-- Lasts for {1_turns} turns. -->
+			<Text>ใช้เวลา {1_turns} เทิร์น</Text>		<!-- Lasts for {1_turns} turns. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_ESPIONAGE_TURNS_AND_DURATION" Language="th_TH">
 			<Text>สามารถใช้เวลาอย่างน้อย {1_minTurns} - {2_maxTurns} เทิร์นในการดำเนินการ เมื่อดำเนินการแล้ว ผลจะมีอายุอยู่เป็นเวลา {3_turns} เทิร์น เวลาในการดำเนินการและโอกาสในการเปิดเผยสามารถเพิ่มขึ้นได้ หากคุณถูกตั้งรับการโจรกรรมโดยเป้าหมาย</Text>		<!-- Can take at least {1_minTurns} - {2_maxTurns} turns to execute. Once executed, the effect lasts for {3_turns} turns. Execution time and reveal chance can both be increased if you are being counterspied by the target. -->
@@ -7688,7 +7688,7 @@
 			<Text>การกระทำนี้มีความเสี่ยงที่จะล้มเหลวและต้องการการสนับสนุนเพิ่มเติม</Text>		<!-- This action at risk of failing and needs more support. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_WILL_NOT_COMPLETE" Language="th_TH">
-			<Text>{1_progress} ความก้าวหน้าใน {2_turns} รอบ</Text>		<!-- {1_progress} progress in {2_turns} turns. -->
+			<Text>{1_progress} ความก้าวหน้าใน {2_turns} เทิร์น</Text>		<!-- {1_progress} progress in {2_turns} turns. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_AGENDA_LORD_OF_FIRE_NAME" Language="th_TH">
 			<Text>พระเจ้าแห่งไฟ</Text>		<!-- Lord of Fire -->
@@ -8333,10 +8333,10 @@
 			<Text>การกระทำนี้จะเริ่มสงครามกับ {1_targetName} คุณแน่ใจไหม?</Text>		<!-- This action will start a war with {1_targetName}. Are you sure? -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PICK_WAR_TYPE_FORMAL_BODY" Language="th_TH">
-			<Text>นี่จะประกาศสงครามอย่างเป็นทางการเนื่องจากคุณมีความสัมพันธ์ที่เป็นศัตรูกัน[N]การสนับสนุนสงครามเริ่มต้น - สำหรับคุณ: {1_yourWarBonus}, สำหรับพวกเขา: {2_theirWarBonus}[N]โบนัสการสนับสนุนสงครามขึ้นอยู่กับความสัมพันธ์, การทำลายตั้งถิ่นฐานและปัจจัยอื่นๆ</Text>		<!-- This will declare a Formal War since you have a Hostile Relationship.[N]Initial War Support - For you: {1_yourWarBonus}, For them: {2_theirWarBonus}.[N]Bonus War Support is impacted by relationship, razing settlements and other factors. -->
+			<Text>นี่จะประกาศ สงครามอย่างเป็นทางการ เนื่องจากคุณเป็น ปรปักษ์[N]การสนับสนุนสงคราม - ฝ่ายเรา: {1_yourWarBonus}, ฝ่ายตรงข้าม: {2_theirWarBonus}[N]โบนัส การสนับสนุนสงคราม จะได้รับผลกระทบจากความสัมพันธ์, การทำลายถินฐาน และปัจจัยอื่นๆ</Text>		<!-- This will declare a Formal War since you have a Hostile Relationship.[N]Initial War Support - For you: {1_yourWarBonus}, For them: {2_theirWarBonus}.[N]Bonus War Support is impacted by relationship, razing settlements and other factors. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PICK_WAR_TYPE_SURPRISE_BODY" Language="th_TH">
-			<Text>นี่จะประกาศสงครามอย่างฉับพลัน เนื่องจากคุณไม่มีความสัมพันธ์ที่เป็นปรปักษ์กัน พวกเขาจะได้รับ {3_theirInfluenceBonus}[icon:YIELD_DIPLOMACY] อิทธิพล [N]การสนับสนุนสงครามเริ่มต้น - สำหรับคุณ: {1_yourWarBonus}, สำหรับพวกเขา: {2_theirWarBonus}[N]โบนัส การสนับสนุนสงคราม จะได้รับผลกระทบจากความสัมพันธ์, การทำลาย ถินฐาน และปัจจัยอื่นๆ</Text>		<!-- This will declare a Surprise War since you do not have a Hostile Relationship. They will gain {3_theirInfluenceBonus}[icon:YIELD_DIPLOMACY] Influence.[N]Initial War Support - For you: {1_yourWarBonus}, For them: {2_theirWarBonus}.[N]Bonus War Support is impacted by relationship, razing settlements and other factors. -->
+			<Text>นี่จะประกาศสงครามอย่างฉับพลัน เนื่องจากคุณไม่ได้เป็น ปรปักษ์ ฝ่ายตรงข้ามจะได้รับ {3_theirInfluenceBonus}[icon:YIELD_DIPLOMACY] อิทธิพล [N]การสนับสนุนสงคราม - ฝ่ายเรา: {1_yourWarBonus}, ฝ่ายตรงข้าม: {2_theirWarBonus}[N]โบนัส การสนับสนุนสงคราม จะได้รับผลกระทบจากความสัมพันธ์, การทำลายถินฐาน และปัจจัยอื่นๆ</Text>		<!-- This will declare a Surprise War since you do not have a Hostile Relationship. They will gain {3_theirInfluenceBonus}[icon:YIELD_DIPLOMACY] Influence.[N]Initial War Support - For you: {1_yourWarBonus}, For them: {2_theirWarBonus}.[N]Bonus War Support is impacted by relationship, razing settlements and other factors. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_FORMAL_WAR" Language="th_TH">
 			<Text>สงครามอย่างเป็นทางการ</Text>		<!-- Formal War -->
@@ -8348,13 +8348,13 @@
 			<Text>0</Text>		<!-- 0 -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_BONUS_WAR_SUPPORT" Language="th_TH">
-			<Text>สงครามนี้จะสร้างการสนับสนุนสงครามต่อไปนี้[N] {1_yourWarBonus} สำหรับคุณ, {2_theirWarBonus} และ {3_theirInfluenceBonus}[icon:YIELD_DIPLOMACY] อิทธิพล สำหรับคู่ต่อสู้ของคุณ[N]โบนัสการสนับสนุนสงครามจะได้รับผลกระทบจากความสัมพันธ์, การทำลายตั้งถิ่นฐานและปัจจัยอื่นๆ[N]การเป็นศัตรูจะสร้างสงครามอย่างเป็นทางการ</Text>		<!-- This War will create the following War Support[N] {1_yourWarBonus} for you, {2_theirWarBonus} and {3_theirInfluenceBonus}[icon:YIELD_DIPLOMACY] Influence for your opponent.[N]Bonus War Support is impacted by relationship, razing settlements and other factors.[N]Being Hostile will create a Formal War. -->
+			<Text>สงครามนี้จะสร้าง การสนับสนุนสงคราม ต่อไปนี้[N] {1_yourWarBonus} สำหรับคุณ, {2_theirWarBonus} และ {3_theirInfluenceBonus}[icon:YIELD_DIPLOMACY] อิทธิพล สำหรับคู่ต่อสู้ของคุณ[N]โบนัส การสนับสนุนสงคราม จะได้รับผลกระทบจากความสัมพันธ์, การทำลายตั้งถิ่นฐานและปัจจัยอื่นๆ[N]การเป็นศัตรูจะสร้าง สงครามอย่างเป็นทางการ</Text>		<!-- This War will create the following War Support[N] {1_yourWarBonus} for you, {2_theirWarBonus} and {3_theirInfluenceBonus}[icon:YIELD_DIPLOMACY] Influence for your opponent.[N]Bonus War Support is impacted by relationship, razing settlements and other factors.[N]Being Hostile will create a Formal War. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_CONFIRM_DECLARE_WAR_ON_INDEPENDENT_TITLE" Language="th_TH">
 			<Text>เริ่มการต่อสู้?</Text>		<!-- Begin Hostilities? -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_CONFIRM_DECLARE_WAR_ON_INDEPENDENT_BODY" Language="th_TH">
-			<Text>การกระทำนี้จะเริ่มความเป็นปรปักษ์กับรัฐอิสระของ {1_targetName} คุณแน่ใจหรือไม่?</Text>		<!-- This action will start hostilities with the Independent Power of {1_targetName}. Are you sure? -->
+			<Text>การกระทำนี้จะเริ่มความเป็น ปรปักษ์ กับรัฐอิสระของ {1_targetName} คุณแน่ใจหรือไม่?</Text>		<!-- This action will start hostilities with the Independent Power of {1_targetName}. Are you sure? -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_CONFIRM_DECLARE_WAR_FROM_MAP_SUZERAIN_BODY" Language="th_TH">
 			<Text>การกระทำนี้จะเริ่มสงครามกับอาณาจักรเมือง {1_cityStateName} และผู้มีอำนาจ {2_suzerainName} ของพวกเขา คุณมั่นใจหรือไม่?</Text>		<!-- This action will start a war with the City-State {1_cityStateName} and their Suzerain {2_suzerainName}. Are you sure? -->
@@ -8798,10 +8798,10 @@
 			<Text>คุณจะสิ้นสุดพันธมิตรกับทั้งสองฝ่ายและส่งผลกระทบเชิงลบต่อความสัมพันธ์ของคุณกับพวกเขา</Text>		<!-- You will end your alliance with both parties and negatively impact your relationship with them. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_CALL_TO_ARMS_STAY_NEUTRAL_ONE_ALLY" Language="th_TH">
-			<Text>คุณจะสิ้นสุดความร่วมมือกับ {1_leaderName} และจะไม่เข้าร่วมสงคราม</Text>		<!-- You will end your alliance with {1_leaderName} and not join the war. -->
+			<Text>คุณจะสิ้นสุดการเป็น พันธมิตร กับ {1_leaderName} และจะไม่เข้าร่วมสงคราม</Text>		<!-- You will end your alliance with {1_leaderName} and not join the war. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_CALL_TO_ARMS_JOIN_WAR" Language="th_TH">
-			<Text>คุณจะให้เกียรติพันธมิตรของคุณกับ {1_allyName} และประกาศสงครามกับ {2_targetName}</Text>		<!-- You will honor your alliance with {1_allyName} and declare war on {2_targetName}. -->
+			<Text>คุณจะให้เกียรติ พันธมิตรของคุณ กับ {1_allyName} และประกาศสงคราม กับ {2_targetName}</Text>		<!-- You will honor your alliance with {1_allyName} and declare war on {2_targetName}. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_CALL_TO_ARMS_STAY_NEUTRAL_TITLE" Language="th_TH">
 			<Text>รักษาความเป็นกลาง</Text>		<!-- Stay Neutral -->
@@ -9842,13 +9842,13 @@
 			<Text>ข้าไม่ใช่ทหาร แต่ข้าจ้างทหาร ที่นี่พวกเขามาเคลื่อนทัพมาแล้ว</Text>		<!-- I am no soldier. But I employ them. Here they come. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_RECIPIENT_LEADER_IBN_BATTUTA_ANY" Language="th_TH">
-			<Text>นักเดินทางในอนาคตจะไม่สามารถแยกศพของเราจากของท่านได้</Text>		<!-- A future traveler will not be able to tell our dead from yours. -->
+			<Text>นักเดินทางในอนาคต จะไม่สามารถแยกความตายของเรา ออกจากของพวกคุณได้</Text>		<!-- A future traveler will not be able to tell our dead from yours. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DEFEAT_AI_LEADER_IBN_BATTUTA_ANY" Language="th_TH">
-			<Text>ในทุ่งร้างฉันเห็นรูปทรงของมนุษย์ถูกเปลี่ยนเป็นหิน และรอบๆ ตัวพวกเขา วัดเมืองของพวกเขากลายเป็นเพียงฝุ่นเท่านั้น นั่นคือข้าหรือ? ข้าจะจ้องมองอย่างไม่เห็นอะไรในทุ่งนี้ตลอดชั่วกาลนานหรือ? อา ช่างเป้นชะตากรรมช่างน่าสลดใจเหลือเกิน</Text>		<!-- In the empty plain I have seen men's forms turned to stone, and all around them their cities nothing but dust. Is that me? Shall I gaze sightless upon the plain for all eternity? Ah, what a fate. -->
+			<Text>ในทุ่งร้างฉันเห็นรูปทรงของมนุษย์ถูกเปลี่ยนเป็นหิน และรอบๆ ตัวพวกเขา เมืองของพวกเขา กลายเป็นเพียงฝุ่นเท่านั้น นั่นคือข้าหรือ? ข้าจะจ้องมองอย่างไม่เห็นอะไร ในทุ่งนี้ตลอดชั่วกาลนานหรือ? อา ช่างเป้นชะตากรรมช่างน่าสลดใจเหลือเกิน</Text>		<!-- In the empty plain I have seen men's forms turned to stone, and all around them their cities nothing but dust. Is that me? Shall I gaze sightless upon the plain for all eternity? Ah, what a fate. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_DEAL_ACCEPTED_LEADER_IBN_BATTUTA" Language="th_TH">
-			<Text>เป็นการพัฒนาที่ยุติธรรมดีนิ</Text>		<!-- A righteous development. -->
+			<Text>เป็นการพัฒนาที่ยุติธรรมดี</Text>		<!-- A righteous development. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_DEAL_REJECTED_LEADER_IBN_BATTUTA" Language="th_TH">
 			<Text>ข้ากลัวว่าข้าจะทำไม่ได้</Text>		<!-- I fear I cannot. -->
@@ -10202,7 +10202,7 @@
 			<Text>อิซาเบลล่า</Text>		<!-- Isabella -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_ISABELLA_DESCRIPTION" Language="th_TH">
-			<Text>รับทอง 300 [icon:YIELD_GOLD] ทุกครั้งที่คุณค้นพบสิ่งมหัศจรรย์ทางธรรมชาติ ซึ่งจะเพิ่มเป็นสองเท่า หากสิ่งมหัศจรรย์ทางธรรมชาติอยู่ในดินแดนห่างไกล +100% ผลผลิตจากสิ่งมหัศจรรย์ทางธรรมชาติ +50% [icon:YIELD_GOLD] ทอง เพื่อใช้ในการซื้อยูนิตเรือ -1 [icon:YIELD_GOLD] ค่าบำรุงรักษาทองสำหรับยูนิตเรือ</Text>		<!-- Gain 300 [icon:YIELD_GOLD] Gold every time you discover a Natural Wonder. This is doubled if the Natural Wonder is in Distant Lands. +100% tile yields from Natural Wonders. +50% [icon:YIELD_GOLD] Gold towards purchasing Naval Units. -1 [icon:YIELD_GOLD] Gold maintenance for Naval Units. -->
+			<Text>รับทอง 300 [icon:YIELD_GOLD] ทุกครั้งที่คุณค้นพบสิ่งมหัศจรรย์ทางธรรมชาติ ซึ่งจะเพิ่มเป็นสองเท่า หากสิ่งมหัศจรรย์ทางธรรมชาติอยู่ในดินแดนห่างไกล +100% ผลผลิตจากสิ่งมหัศจรรย์ทางธรรมชาติ +50% [icon:YIELD_GOLD] ทอง เพื่อใช้ในการซื้อยูนิตเรือ -1 [icon:YIELD_GOLD] ค่าบำรุงรักษาทอง สำหรับยูนิตเรือ</Text>		<!-- Gain 300 [icon:YIELD_GOLD] Gold every time you discover a Natural Wonder. This is doubled if the Natural Wonder is in Distant Lands. +100% tile yields from Natural Wonders. +50% [icon:YIELD_GOLD] Gold towards purchasing Naval Units. -1 [icon:YIELD_GOLD] Gold maintenance for Naval Units. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ISABELLA_ABILITY_NAME" Language="th_TH">
 			<Text>เจ็ดเมืองแห่งทอง</Text>		<!-- Seven Cities of Gold -->
@@ -10613,7 +10613,7 @@
 			<Text>มันเขียนว่า "จับ!"</Text>		<!-- It reads, "Catch!" -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_SLING_BULLET_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1 คะแนนคุณสมบัติทางทหาร</Text>		<!-- +1 Military Attribute Point. -->
+			<Text>+1 คะแนน คุณลักษณะทางทหาร</Text>		<!-- +1 Military Attribute Point. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_EA_NASIR_NAME" Language="th_TH">
 			<Text>แผ่นจารึกร้องเรียน ถึง เอยา-นาตซีร์</Text>		<!-- Complaint to Ea-nāsir -->
@@ -10631,7 +10631,7 @@
 			<Text>ชิ้นส่วนแห่งสันติภาพ</Text>		<!-- Peace pieces. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_TREATY_OF_KADESH_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1 คะแนนคุณสมบัติทางการทูต</Text>		<!-- +1 Diplomatic Attribute Point. -->
+			<Text>+1 คะแนน คุณลักษณะทางการทูต</Text>		<!-- +1 Diplomatic Attribute Point. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_GROMA_NAME" Language="th_TH">
 			<Text>โกรมา</Text>		<!-- Groma -->
@@ -12059,7 +12059,7 @@
 			<Text>การขยายแบบเลขชี้กำลัง</Text>		<!-- Exponential Expansionist -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_FOUNDATION_ATTRIBUTES_EXPANSIONIST_MAXED_DESC" Language="th_TH">
-			<Text>ทำผังคุณสมบัติผู้นำด้าน ขยายอนาเขต ให้เต็ม</Text>		<!-- Max out your Leader's Expansionist Attribute Tree. -->
+			<Text>ทำผังคุณสมบัติผู้นำด้าน ขยายอาณาเขต ให้เต็ม</Text>		<!-- Max out your Leader's Expansionist Attribute Tree. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_FOUNDATION_ATTRIBUTES_MILITARISTIC_MAXED_NAME" Language="th_TH">
 			<Text>นายทหารชั้นยอด</Text>		<!-- Master Militarist -->
@@ -20414,7 +20414,7 @@
 			<Text>{1_value: number +#;-#}% [icon:YIELD_GOLD] ทอง เพื่อการซื้อ</Text>		<!-- {1_value: number +#;-#}% [icon:YIELD_GOLD] Gold towards purchasing -->
 		</Replace>
 		<Replace Tag="LOC_NARRATIVE_TURN_TIMER" Language="th_TH">
-			<Text>{1_value} รอบ</Text>		<!-- {1_value} Turns -->
+			<Text>{1_value} เทิร์น</Text>		<!-- {1_value} Turns -->
 		</Replace>
 		<Replace Tag="LOC_NARRATIVE_TURN_TIMER_UNKNOWN" Language="th_TH">
 			<Text>ไม่ทราบการเลี้ยว</Text>		<!-- unknown Turns -->
@@ -20444,7 +20444,7 @@
 			<Text>เดวิด แอทเทนโบโรห์</Text>		<!-- David Attenborough -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_FEATURE_GULLFOSS" Language="th_TH">
-			<Text>ฉันมองลงไป ฉันหยิบรูนขึ้นมา - กรีดร้อง ฉันหยิบมันขึ้นมา - จากนั้นฉันก็ตกกลับลงไปอีกครั้ง</Text>		<!-- I peered down, I took up the runes - screaming, I took them - from there, I fell back again. -->
+			<Text>ข้าจ้องมองลงไป, ข้าหยิบรูนขึ้นมา - กรีดร้อง, ข้าหยิบมัน - จากนั้น, ข้ากลับตกลงไปอีกครั้ง</Text>		<!-- I peered down, I took up the runes - screaming, I took them - from there, I fell back again. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_AUTHOR_FEATURE_GULLFOSS" Language="th_TH">
 			<Text>ฮาวามาล</Text>		<!-- Hávamál -->
@@ -20462,43 +20462,43 @@
 			<Text>เซเป ติอาราจู</Text>		<!-- Sepé Tiaraju -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_FEATURE_KILIMANJARO" Language="th_TH">
-			<Text>ใกล้กับยอดเขาทางทิศตะวันตกมีซากเสือดาวที่แห้งและแช่แข็ง ไม่มีใครสามารถอธิบายได้ว่าเสือดาวนั้นแสวงหาอะไรที่ความสูงนั้น</Text>		<!-- Close to the western summit there is the dried and frozen carcass of a leopard. No one has explained what the leopard was seeking at that altitude. -->
+			<Text>ใกล้กับยอดเขาทางทิศตะวันตกมี ซากเสือดาวที่แห้งและแช่แข็ง ไม่มีใครสามารถอธิบายได้ว่าเสือดาวนั้นแสวงหาอะไรที่ความสูงนั้น</Text>		<!-- Close to the western summit there is the dried and frozen carcass of a leopard. No one has explained what the leopard was seeking at that altitude. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_AUTHOR_FEATURE_KILIMANJARO" Language="th_TH">
 			<Text>เออร์เนสต์ เฮมิงเวย์</Text>		<!-- Ernest Hemingway -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_FEATURE_REDWOOD_FOREST" Language="th_TH">
-			<Text>มีต้นไม้ต้นหนึ่งที่พูดคุยเท่านั้นกับยอดเขาที่เงียบสงบ ลมที่มีสติ และดาวที่เฝ้ามอง</Text>		<!-- There is one tree that speaks only to the austere mountain heads, to the mindful wind and the watching stars.  -->
+			<Text>มีเพียงต้นไม้ต้นหนึ่งเท่านั้นที่เอื้อนเอ่ยแก่ยอดเขาอันเคร่งขรึม สายลมผู้รู้แจ้ง และเหล่าดวงดาวที่เฝ้ามอง</Text>		<!-- There is one tree that speaks only to the austere mountain heads, to the mindful wind and the watching stars.  -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_AUTHOR_FEATURE_REDWOOD_FOREST" Language="th_TH">
 			<Text>แมรี่ ออสติน</Text>		<!-- Mary Austin -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_FEATURE_THERA" Language="th_TH">
-			<Text>ไอที่เหมือนเปลวไฟจากเตาอบลอยขึ้นมาจากส่วนลึกของทะเลเป็นเวลาหลายวัน และทั้งที่นั้นก็ลุกไหม้ดั่งไฟ</Text>		<!-- A vapor like an oven's fire boiled up for days from the depths of the sea, and the whole place burned like fire. -->
+			<Text>ไอร้อนดุจเปลวไฟจากเตาอบ พลุ่งขึ้นจากส่วนลึกของท้องทะเลนานหลายวัน ทั้งผืนสมุทรลุกโชนดังเปลวเพลิง</Text>		<!-- A vapor like an oven's fire boiled up for days from the depths of the sea, and the whole place burned like fire. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_AUTHOR_FEATURE_THERA" Language="th_TH">
 			<Text>จอร์จ เคเดรโนส</Text>		<!-- George Kedrenos -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_FEATURE_TORRES_DEL_PAINE" Language="th_TH">
-			<Text>ในความมืดสงบของคืนที่ไร้แสงจันทร์ และในความสว่างเหงาของกลางวัน หิมะได้โปรยปรายลงบนภูเขานั้น ไม่มีใครได้เห็นมันที่นั่น</Text>		<!-- In the calm darkness of moonless nights; in the lone glare of day, the snows descend upon that mountain; none beholds them there. -->
+			<Text>ในความมืดสงัดแห่งราตรีไร้จันทร์ ในแสงเดียวดายแห่งทิวา หิมะโปรยปรายลงบนขุนเขานั้น ไร้ผู้ใดได้เห็น</Text>		<!-- In the calm darkness of moonless nights; in the lone glare of day, the snows descend upon that mountain; none beholds them there. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_AUTHOR_FEATURE_TORRES_DEL_PAINE" Language="th_TH">
 			<Text>เพอร์ซีย์ เชลลีย์</Text>		<!-- Percy Shelley -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_FEATURE_ULURU" Language="th_TH">
-			<Text>นักท่องเที่ยวควรได้เลนส์อีกอัน - เพื่อมองเห็นภายในตรงๆ จะไม่เห็นหินใหญ่ตอนนั้น เขาจะเห็นว่าคูนิยาอาศัยอยู่ในนั้นตั้งแต่เริ่มแรก</Text>		<!-- The tourist should get another lens - see straight inside. Wouldn't see big rock then. He would see that Kuniya living right inside there as from the beginning. -->
+			<Text>นักท่องเที่ยวควรหาเลนส์ใหม่ — มองให้ทะลุเข้าไปข้างใน แล้วจะไม่เห็นเพียงหินผาใหญ่ หากแต่เห็นคุนิยะที่สถิตอยู่ที่นั่นตั้งแต่แรกเริ่ม</Text>		<!-- The tourist should get another lens - see straight inside. Wouldn't see big rock then. He would see that Kuniya living right inside there as from the beginning. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_AUTHOR_FEATURE_ULURU" Language="th_TH">
 			<Text>โทนี่ แจมิวา</Text>		<!-- Tony Tjamiwa -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_FEATURE_VALLEY_OF_FLOWERS" Language="th_TH">
-			<Text>ดอกไม้ฤดูใบไม้ผลิจางหายไปในฤดูใบไม้ร่วง; ไม่ใช่หน้าที่ของผึ้งที่จะโศกเศร้า</Text>		<!-- Spring flowers fade in autumn; it is not for the bees to mourn. -->
+			<Text>ดอกไม้ฤดูใบไม้ผลิจางหายไปในฤดูใบไม้ร่วง ไม่ใช่หน้าที่ของผึ้งที่จะโศกเศร้า</Text>		<!-- Spring flowers fade in autumn; it is not for the bees to mourn. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_AUTHOR_FEATURE_VALLEY_OF_FLOWERS" Language="th_TH">
-			<Text>องค์ดาไลลามะองค์ที่ 6</Text>		<!-- The 6th Dalai Lama -->
+			<Text>องค์ดาไลลามะ ที่ 6</Text>		<!-- The 6th Dalai Lama -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_FEATURE_ZHANGJIAJIE" Language="th_TH">
-			<Text>คุณถามว่าทำไมฉันถึงอยู่บนภูเขาเขียว ฉันยิ้ม แต่ไม่ได้ตอบ</Text>		<!-- You ask for what reason I stay on the green mountain. I smile, but do not answer. -->
+			<Text>เจ้าถามว่าด้วยเหตุใดข้าจึงพำนักบนขุนเขาเขียว ข้ายิ้มรับ แต่ไม่เอื้อนเอ่ยตอบ</Text>		<!-- You ask for what reason I stay on the green mountain. I smile, but do not answer. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_AUTHOR_FEATURE_ZHANGJIAJIE" Language="th_TH">
 			<Text>หลี่ ไป่</Text>		<!-- Li Bai -->
@@ -20600,7 +20600,7 @@
 			<Text>คุณได้สูญเสีย {1_UnitName} เนื่องจากความเสียหายจาก {2_PlotEffect}</Text>		<!-- You have lost a {1_UnitName} due to damage from {2_PlotEffect}. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_UNIT_LOST_TO_WATER_DAMAGE" Language="th_TH">
-			<Text>คุณได้สูญเสีย{1_UnitName}ไปจากทะเลที่มีพายุ</Text>		<!-- You have lost a {1_UnitName} due to stormy seas. -->
+			<Text>คุณได้สูญเสีย {1_UnitName} ไปจากทะเลที่มีพายุ</Text>		<!-- You have lost a {1_UnitName} due to stormy seas. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_UNIT_ATTACKED_MESSAGE" Language="th_TH">
 			<Text>ยูนิตถูกโจมตี</Text>		<!-- Unit Attacked -->
@@ -20612,7 +20612,7 @@
 			<Text>ทะเลมีคลื่นแรง!</Text>		<!-- Rough Seas! -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_UNIT_OCEAN_DAMAGE_SUMMARY" Language="th_TH">
-			<Text>{1_UnitName} ของคุณได้รับความเสียหายจากการเดินทางข้ามทะเลหลวง!</Text>		<!-- Your {1_UnitName} was damaged from travelling the high seas! -->
+			<Text>{1_UnitName} ของคุณ ได้รับความเสียหาย จากการเดินทางข้ามทะเลลึก!</Text>		<!-- Your {1_UnitName} was damaged from travelling the high seas! -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_UNIT_REINFORCEMENT_FAILED_MESSAGE" Language="th_TH">
 			<Text>การเสริมกำลังล้มเหลว!</Text>		<!-- Reinforcement Failed! -->
@@ -23352,7 +23352,7 @@
 			<Text>เลือกนโยบาย จากตัวเลือก ทางด้านซ้าย</Text>		<!-- Select Policy from options on the left -->
 		</Replace>
 		<Replace Tag="LOC_UI_POLICIES_ADD_CRISIS_POLICY" Language="th_TH">
-			<Text>คุณต้องเลือกนโยบายการจัดการวิกฤติ</Text>		<!-- You must select a Crisis Policy -->
+			<Text>คุณต้องเลือกนโยบาย การจัดการวิกฤต</Text>		<!-- You must select a Crisis Policy -->
 		</Replace>
 		<Replace Tag="LOC_UI_POLICIES_CRISIS_AGE_BEGINS" Language="th_TH">
 			<Text>เริ่มต้นยุค</Text>		<!-- The Age Begins -->
@@ -24231,7 +24231,7 @@
 			<Text>เมืองศักดิ์สิทธิ์ไม่สามารถถูกทำลายได้</Text>		<!-- Holy Cities cannot be razed -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_CAPTURE_KEEP_SETTLEMENT_DESC" Language="th_TH">
-			<Text>ความสุข และ การผลิต จะถูกลดลงชั่วคราว จนกว่าถิ่นฐานจะ ปรับตัว เข้าได้</Text>		<!-- Happiness and Production will be temporarily reduced until the Settlement is assimilated. -->
+			<Text>ความสุข และ กำลังผลิต จะถูกลดลงชั่วคราว จนกว่าถิ่นฐานจะ ปรับตัว เข้าได้</Text>		<!-- Happiness and Production will be temporarily reduced until the Settlement is assimilated. -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_CAPTURE_RAZE_SETTLEMENT_DESC" Language="th_TH">
 			<Text>ลบถิ่นฐานอย่างถาวรหลังจาก {1_Turns} เทิร์น, สิ่งนี้ทำให้เกิดบทลงโทษทางการทูต -100 แต้ม</Text>		<!-- Remove the Settlement permanently after {1_Turns} {1_Turns: plural 1?turn; other?turns;}. This incurs a -100 Diplomatic Penalty -->
@@ -25125,7 +25125,7 @@
 			<Text>ยุค[N][STYLE:age-ending__main-text]{1_AgeName}[/STYLE][N]ได้เริ่มต้นขึ้นแล้ว</Text>		<!-- The[N][STYLE:age-ending__main-text]{1_AgeName}[/STYLE][N]Age Has Begun -->
 		</Replace>
 		<Replace Tag="LOC_AGE_BANNER_END_TEXT" Language="th_TH">
-			<Text>ยุค{1_AgeName}สิ้นสุดลง</Text>		<!-- The[N][STYLE:age-ending__main-text]{1_AgeName}[/STYLE][N]Age Comes to an End -->
+			<Text>ยุค{1_AgeName}ได้สิ้นสุดลง</Text>		<!-- The[N][STYLE:age-ending__main-text]{1_AgeName}[/STYLE][N]Age Comes to an End -->
 		</Replace>
 		<Replace Tag="LOC_AGE_BANNER_TEXT_TOP" Language="th_TH">
 			<Text>แน่นอน, แต่คุณส่งข้อความไม่ครบ คุณต้องการให้ฉันแปลอะไรครับ?</Text>		<!-- The -->
@@ -26484,7 +26484,7 @@
 			<Text>การล่วงละเมิด</Text>		<!-- Harassment -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_HARASSMENT_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตบกภายในรัศมีคำสั่งจะได้รับโบนัสโจมตีด้านข้าง +2 เมื่อโจมตี</Text>		<!-- Land Units within the Command Radius have a +2 Flanking bonus when attacking. -->
+			<Text>ยูนิตบกภายในรัศมีคำสั่งจะได้รับโบนัสโจมตีขนาบข้าง +2 เมื่อโจมตี</Text>		<!-- Land Units within the Command Radius have a +2 Flanking bonus when attacking. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_HARASSMENT_NAME" Language="th_TH">
 			<Text>การคุกคาม</Text>		<!-- Harassment -->
@@ -26496,7 +26496,7 @@
 			<Text>ปรับใช้ใหม่</Text>		<!-- Redeploy -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_REDEPLOY_DESCRIPTION" Language="th_TH">
-			<Text>ฝ่ายตรงข้ามมีโบนัส โจมตีด้านข้าง -2 เมื่อโจมตียูนิตบนบกภายในรัศมีคำสั่ง</Text>		<!-- Opponents have -2 to Flanking bonuses when attacking Land Units within the Command Radius. -->
+			<Text>ฝ่ายตรงข้ามมีโบนัส โจมตีขนาบข้าง -2 เมื่อโจมตียูนิตบนบกภายในรัศมีคำสั่ง</Text>		<!-- Opponents have -2 to Flanking bonuses when attacking Land Units within the Command Radius. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_REDEPLOY_NAME" Language="th_TH">
 			<Text>นำกลับมาใช้งานใหม่</Text>		<!-- Redeploy -->
@@ -26784,13 +26784,13 @@
 			<Text>ครอสซิ่ง เดอะ ที</Text>		<!-- Crossing The T -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FLEET_CROSSING_THE_T_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารเรือภายในรัศมีคำสั่งจะได้รับโบนัสการโจมตีด้านข้าง +3 เมื่อโจมตี</Text>		<!-- Naval Units within the Command Radius have a +3 Flanking bonus when attacking. -->
+			<Text>ยูนิตทหารเรือภายในรัศมีคำสั่งจะได้รับโบนัสการโจมตีขนาบข้าง +3 เมื่อโจมตี</Text>		<!-- Naval Units within the Command Radius have a +3 Flanking bonus when attacking. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_FLEET_BRACE_NAME" Language="th_TH">
 			<Text>เตรียมตัว</Text>		<!-- Brace -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_FLEET_BRACE_DESCRIPTION" Language="th_TH">
-			<Text>ฝ่ายตรงข้ามมี -3 ต่อโบนัสโจมตีด้านข้างเมื่อโจมตียูนิตเรือภายในรัศมีของคำสั่ง</Text>		<!-- Opponents have -3 to Flanking bonuses when attacking Naval Units within the Command Radius. -->
+			<Text>ฝ่ายตรงข้ามมี -3 ต่อโบนัสโจมตีขนาบข้างเมื่อโจมตียูนิตเรือภายในรัศมีของคำสั่ง</Text>		<!-- Opponents have -3 to Flanking bonuses when attacking Naval Units within the Command Radius. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FLEET_BRACE_NAME" Language="th_TH">
 			<Text>เตรียมตัว</Text>		<!-- Brace -->
@@ -27273,10 +27273,10 @@
 			<Text>เข้าปะทะ</Text>		<!-- Skirmish -->
 		</Replace>
 		<Replace Tag="LOC_KEYWORD_ABILITY_SKIRMISH_SUMMARY" Language="th_TH">
-			<Text>+{1_Value}% พลังต่อสู้ จากการโจมตีด้านข้าง</Text>		<!-- +{1_Value}% Combat Strength from Flanking. -->
+			<Text>+{1_Value}% พลังต่อสู้ จากการโจมตีขนาบข้าง</Text>		<!-- +{1_Value}% Combat Strength from Flanking. -->
 		</Replace>
 		<Replace Tag="LOC_KEYWORD_ABILITY_SKIRMISH_DESCRIPTION" Language="th_TH">
-			<Text>+{1_Value}% พลังต่อสู้ จากการโจมตีด้านข้าง</Text>		<!-- +{1_Value}% Combat Strength from Flanking. -->
+			<Text>+{1_Value}% พลังต่อสู้ จากการโจมตีขนาบข้าง</Text>		<!-- +{1_Value}% Combat Strength from Flanking. -->
 		</Replace>
 		<Replace Tag="LOC_KEYWORD_ABILITY_STEALTH" Language="th_TH">
 			<Text>ลักลอบ</Text>		<!-- Stealth -->
@@ -28771,7 +28771,7 @@
 			<Text>+25% ความสัมพันธ์ จากการเริ่มต้นหรือสนับสนุน ความร่วมมือ, -25% ความสัมพันธ์จากการเริ่มต้น คว่ำบาตร หรือปฏิเสธความพยายาม</Text>		<!-- +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_ASHOKA_RENOUNCER_L2_NAME" Language="th_TH">
-			<Text>โหนดคุณลักษณะขยายอนาเขต</Text>		<!-- Expansionist Attribute Node -->
+			<Text>โหนดคุณลักษณะขยายอาณาเขต</Text>		<!-- Expansionist Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_ASHOKA_RENOUNCER_L2_DESCRIPTION" Language="th_TH">
 			<Text>ทอง +50% สำหรับการเปลี่ยนเมืองเล็กให้กลายเป็นเมืองใหญ่</Text>		<!-- +50% Gold towards converting a Town to a City. -->
@@ -28783,7 +28783,7 @@
 			<Text>เพิ่มการผลิต +15% สำหรับการก่อสร้างอาคารและสิ่งมหัศจรรย์ที่มีช่องสำหรับผลงานชิ้นเอก</Text>		<!-- +15% Production towards constructing Buildings and Wonders with Great Works slots. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_AUGUSTUS_L2_NAME" Language="th_TH">
-			<Text>โหนดคุณลักษณะขยายอนาเขต</Text>		<!-- Expansionist Attribute Node -->
+			<Text>โหนดคุณลักษณะขยายอาณาเขต</Text>		<!-- Expansionist Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_AUGUSTUS_L2_DESCRIPTION" Language="th_TH">
 			<Text>+50% ทองในการเปลี่ยนเมืองเป็นเมืองหลวง</Text>		<!-- +50% Gold towards converting a Town to a City. -->
@@ -28825,7 +28825,7 @@
 			<Text>+1 ให้กับอาคารด้านทอง ผลิต และวิทยาศาสตร์มาตรฐานที่อยู่ติดกัน</Text>		<!-- +1 to the adjacencies of standard Gold, Production, and Science Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_CONFUCIUS_L1_NAME" Language="th_TH">
-			<Text>โหนดคุณลักษณะขยายอนาเขต</Text>		<!-- Expansionist Attribute Node -->
+			<Text>โหนดคุณลักษณะขยายอาณาเขต</Text>		<!-- Expansionist Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_CONFUCIUS_L1_DESCRIPTION" Language="th_TH">
 			<Text>+50% ทอง สำหรับการเปลี่ยนเมืองให้กลายเป็นเมืองใหญ่</Text>		<!-- +50% Gold towards converting a Town to a City. -->
@@ -28894,7 +28894,7 @@
 			<Text>โหนดคุณลักษณะขยายอณาเขต</Text>		<!-- Expansionist Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_BATTUTA_L2_DESCRIPTION" Language="th_TH">
-			<Text>+50% ทองสำหรับการเปลี่ยนเมืองเป็นเมืองใหญ่</Text>		<!-- +50% Gold towards converting a Town to a City. -->
+			<Text>+50% ทอง สำหรับการเปลี่ยนเมืองเป็นเมืองใหญ่</Text>		<!-- +50% Gold towards converting a Town to a City. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_ISABELLA_L1_NAME" Language="th_TH">
 			<Text>โหนดคุณลักษณะทางเศรษฐกิจ</Text>		<!-- Economic Attribute Node -->
@@ -28903,7 +28903,7 @@
 			<Text>+25% ทอง จากการค้า และ เรือบรรทุกสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Fleets. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_ISABELLA_L2_NAME" Language="th_TH">
-			<Text>โหนดคุณลักษณะขยายอนาเขต</Text>		<!-- Expansionist Attribute Node -->
+			<Text>โหนดคุณลักษณะขยายอาณาเขต</Text>		<!-- Expansionist Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_ISABELLA_L2_DESCRIPTION" Language="th_TH">
 			<Text>+50% ทองในการเปลี่ยนเมืองเล็กเป็นเมืองใหญ่</Text>		<!-- +50% Gold towards converting a Town to a City. -->
@@ -28951,7 +28951,7 @@
 			<Text>+25% ทอง จากการค้า และ เรือบรรทุกสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Fleets. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_PACHACUTI_L2_NAME" Language="th_TH">
-			<Text>โหนดคุณลักษณะขยายอนาเขต</Text>		<!-- Expansionist Attribute Node -->
+			<Text>โหนดคุณลักษณะขยายอาณาเขต</Text>		<!-- Expansionist Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_PACHACUTI_L2_DESCRIPTION" Language="th_TH">
 			<Text>+50% ทองในการเปลี่ยนเมืองเล็กให้เป็นเมืองใหญ่</Text>		<!-- +50% Gold towards converting a Town to a City. -->
@@ -30217,7 +30217,7 @@
 			<Text>{LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_MILESTONE_2_NAME}</Text>		<!-- {LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_MILESTONE_2_NAME} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_MILESTONE_2_DESCRIPTION" Language="th_TH">
-			<Text>สิ่งมหัศจรรย์ที่คุณควบคุมได้รับ +1[icon:YIELD_CULTURE] วัฒนธรรม และ +1[icon:YIELD_HAPPINESS] ความสุข </Text>		<!-- Wonders you control get +1[icon:YIELD_CULTURE] Culture and +1[icon:YIELD_HAPPINESS] Happiness. -->
+			<Text>สิ่งมหัศจรรย์ที่คุณควบคุม ได้รับ +1[icon:YIELD_CULTURE] วัฒนธรรม และ +1[icon:YIELD_HAPPINESS] ความสุข </Text>		<!-- Wonders you control get +1[icon:YIELD_CULTURE] Culture and +1[icon:YIELD_HAPPINESS] Happiness. -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_MILITARY_GOLDEN_AGE_NAME" Language="th_TH">
 			<Text>ยุคทอง ของ สันติภาพแห่งจักรวรรดิ</Text>		<!-- Pax Imperatoria Golden Age -->
@@ -30463,10 +30463,10 @@
 			<Text>{LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_ATTRIBUTE_MILITARY_NAME}</Text>		<!-- {LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_ATTRIBUTE_MILITARY_NAME} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ATTRIBUTE_MILITARY_DESCRIPTION" Language="th_TH">
-			<Text>รับ 1 คะแนน คุณลักษณะทางการทหาร</Text>		<!-- Gain 1 Militaristic Attribute Point. -->
+			<Text>ได้รับ 1 แต้ม คุณลักษณะทางการทหาร</Text>		<!-- Gain 1 Militaristic Attribute Point. -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ATTRIBUTE_EXPANSIONIST_NAME" Language="th_TH">
-			<Text>แต้มคุณลักษณะผู้ขยายอนาเขต</Text>		<!-- Expansionist Attribute Point -->
+			<Text>แต้มคุณลักษณะผู้ขยายอาณาเขต</Text>		<!-- Expansionist Attribute Point -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ATTRIBUTE_EXPANSIONIST_REWARD_TEXT" Language="th_TH">
 			<Text>{LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_ATTRIBUTE_EXPANSIONIST_NAME}</Text>		<!-- {LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_ATTRIBUTE_EXPANSIONIST_NAME} -->
@@ -30490,7 +30490,7 @@
 			<Text>{LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_ATTRIBUTE_SCIENCE_NAME}</Text>		<!-- {LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_ATTRIBUTE_SCIENCE_NAME} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ATTRIBUTE_SCIENCE_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับแต้มคุณลักษณะทางวิทยาศาสตร์ 1 แต้ม</Text>		<!-- Gain 1 Scientific Attribute Point. -->
+			<Text>ได้รับ 1 แต้ม คุณลักษณะทางวิทยาศาสตร์</Text>		<!-- Gain 1 Scientific Attribute Point. -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ATTRIBUTE_ECONOMIC_NAME" Language="th_TH">
 			<Text>แต้มคุณลักษณะทางเศรษฐกิจ</Text>		<!-- Economic Attribute Point -->
@@ -30508,7 +30508,7 @@
 			<Text>{LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_ATTRIBUTE_DIPLOMATIC_NAME}</Text>		<!-- {LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_ATTRIBUTE_DIPLOMATIC_NAME} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ATTRIBUTE_DIPLOMATIC_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ 1 คะแนน คุณลักษณะทางการทูต</Text>		<!-- Gain 1 Diplomatic Attribute Point. -->
+			<Text>ได้รับ 1 แต้ม คุณลักษณะทางการทูต</Text>		<!-- Gain 1 Diplomatic Attribute Point. -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_POINT_ECONOMIC_REWARD_NAME" Language="th_TH">
 			<Text>แต้มมรดกทางเศรษฐกิจ</Text>		<!-- Economic Legacy Point -->
