@@ -29,10 +29,10 @@
 			<Text>ไม่พร้อม</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_MP_STAGING_HOST_TITLE" Language="th_TH">
-			<Text>หน้าจอเตรียมการผู้เล่นหลายคน: การตั้งค่าโฮสต์</Text>
+			<Text>หน้าจอเตรียมการผู้เล่นหลายคน: ตั้งค่าหัวห้อง</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_MP_STAGING_CLIENT_TITLE" Language="th_TH">
-			<Text>หน้าจอเตรียมการผู้เล่นหลายคน: การตั้งค่าผู้เล่น</Text>
+			<Text>หน้าจอเตรียมการผู้เล่นหลายคน: ตั้งค่าผู้เล่น</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_MP_STAGING_PLAYER_LIST_TITLE" Language="th_TH">
 			<Text>รายชื่อผู้เล่น: </Text>
@@ -191,7 +191,7 @@
 			<Text>รายงานเกม</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_MP_REPORT_BODY" Language="th_TH">
-			<Text>คุณแน่ใจหรือว่าต้องการรายงานผู้เล่นโฮสต์และซ่อนเกมนี้จากรายการ?</Text>
+			<Text>คุณแน่ใจหรือว่าต้องการรายงานผู้เล่นหัวห้องและซ่อนเกมนี้จากรายการ?</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_MP_JOIN_CODE_TITLE" Language="th_TH">
 			<Text>รหัสเข้าร่วม</Text>
@@ -305,7 +305,7 @@
 			<Text>โหมดผู้เล่นหลายคนของรหัสเข้าร่วมนี้ไม่รองรับ</Text>		<!-- The multiplayer mode of this Join Code is unsupported. -->
 		</Replace>
 		<Replace Tag="LOC_JOIN_GAME_CONNECTION_REJECTED" Language="th_TH">
-			<Text>การเชื่อมต่อกับโฮสต์เกมล้มเหลว หากใช้รหัสเข้าร่วม ตรวจสอบและลองใหม่อีกครั้ง</Text>		<!-- Failed to connect to game host. If using a Join Code, check it and try again. -->
+			<Text>การเชื่อมต่อกับหัวห้องเกมล้มเหลว หากใช้รหัสเข้าร่วม ตรวจสอบและลองใหม่อีกครั้ง</Text>		<!-- Failed to connect to game host. If using a Join Code, check it and try again. -->
 		</Replace>
 		<Replace Tag="LOC_JOIN_GAME_LINK_INCOMPLETE" Language="th_TH">
 			<Text>ต้องมีบัญชี 2K ที่สมบูรณ์</Text>		<!-- A 2K Account must be completed. -->
@@ -605,7 +605,7 @@
 			<Text>ม็อด</Text>		<!-- Mods -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_GAME_RULE_HOST" Language="th_TH">
-			<Text>โฮสต์:</Text>		<!-- Host: -->
+			<Text>หัวห้อง:</Text>		<!-- Host: -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_GAME_RULE_HUMAN_PLAYER_COUNT" Language="th_TH">
 			<Text>จำนวนผู้เล่น:</Text>		<!-- Number of Players: -->
@@ -1184,7 +1184,7 @@
 			<Text>ผู้เล่น [STYLE:mp-chat__text-shrink]{1_Name} [/S]ถูกเตะเนื่องจากข้อผิดพลาดของม็อด</Text>		<!-- Player [STYLE:mp-chat__text-shrink]{1_Name} [/S]has been kicked due to mod error. -->
 		</Replace>
 		<Replace Tag="LOC_UI_CHAT_PANEL_PLAYER_KICKED_CROSSPLAY_DISABLED_HOST" Language="th_TH">
-			<Text>ผู้เล่น [STYLE:mp-chat__text-shrink]{1_Name} [/S]ถูกเตะเนื่องจากปิดการใช้งานการเล่นข้ามแพลตฟอร์มบนโฮสต์</Text>		<!-- Player [STYLE:mp-chat__text-shrink]{1_Name} [/S]has been kicked due to crossplay disabled on host. -->
+			<Text>ผู้เล่น [STYLE:mp-chat__text-shrink]{1_Name} [/S]ถูกเตะเนื่องจากปิดการใช้งานการเล่นข้ามแพลตฟอร์มบนหัวห้อง</Text>		<!-- Player [STYLE:mp-chat__text-shrink]{1_Name} [/S]has been kicked due to crossplay disabled on host. -->
 		</Replace>
 		<Replace Tag="LOC_UI_CHAT_PANEL_PLAYER_KICKED_CROSSPLAY_DISABLED_CLIENT" Language="th_TH">
 			<Text>ผู้เล่น [STYLE:mp-chat__text-shrink]{1_Name} [/S]ถูกเตะเนื่องจากปิดการใช้งานการเล่นข้ามแพลตฟอร์มบนไคลเอนต์</Text>		<!-- Player [STYLE:mp-chat__text-shrink]{1_Name} [/S]has been kicked due to crossplay disabled on client. -->
@@ -2273,10 +2273,10 @@
 			<Text>ถูกเตะ!</Text>		<!-- Kicked! -->
 		</Replace>
 		<Replace Tag="LOC_GAME_ABANDONED_HOST_LOSTED" Language="th_TH">
-			<Text>การเชื่อมต่อเครือข่ายกับโฮสต์ขาดหายไป</Text>		<!-- Network connection to host has been lost. -->
+			<Text>การเชื่อมต่อเครือข่ายกับหัวห้องขาดหายไป</Text>		<!-- Network connection to host has been lost. -->
 		</Replace>
 		<Replace Tag="LOC_GAME_ABANDONED_HOST_LOSTED_TITLE" Language="th_TH">
-			<Text>การเชื่อมต่อโฮสต์ขาดหายไป</Text>		<!-- Host Connection Lost -->
+			<Text>การเชื่อมต่อหัวห้องขาดหายไป</Text>		<!-- Host Connection Lost -->
 		</Replace>
 		<Replace Tag="LOC_GAME_ABANDONED_ROOM_FULL" Language="th_TH">
 			<Text>เกมมีจำนวนผู้เล่นสูงสุดแล้ว</Text>		<!-- The game has the maximum number of players. -->
@@ -2285,7 +2285,7 @@
 			<Text>เกมเต็ม</Text>		<!-- Full Game -->
 		</Replace>
 		<Replace Tag="LOC_GAME_ABANDONED_VERSION_MISMATCH" Language="th_TH">
-			<Text>เวอร์ชันไม่ตรงกับโฮสต์.[N]เวอร์ชันของเรา={1_localVersion}[N]เวอร์ชันของโฮสต์={2_remoteVersion}</Text>		<!-- Version mismatch with host.[N]Our Version={1_localVersion}[N]Host Version={2_remoteVersion} -->
+			<Text>เวอร์ชันไม่ตรงกับหัวห้อง[N]เวอร์ชันของเรา={1_localVersion}[N]เวอร์ชันของหัวห้อง={2_remoteVersion}</Text>		<!-- Version mismatch with host.[N]Our Version={1_localVersion}[N]Host Version={2_remoteVersion} -->
 		</Replace>
 		<Replace Tag="LOC_GAME_ABANDONED_VERSION_MISMATCH_TITLE" Language="th_TH">
 			<Text>เวอร์ชันไม่ตรงกัน</Text>		<!-- Version Mismatch -->
@@ -2321,7 +2321,7 @@
 			<Text>เข้าร่วมล้มเหลว</Text>		<!-- Join Failed -->
 		</Replace>
 		<Replace Tag="LOC_GAME_ABANDONED_MATCH_DELETED" Language="th_TH">
-			<Text>โฮสต์ลบเกมแล้ว</Text>		<!-- The host deleted the game. -->
+			<Text>หัวห้องลบเกมแล้ว</Text>		<!-- The host deleted the game. -->
 		</Replace>
 		<Replace Tag="LOC_GAME_ABANDONED_MATCH_DELETED_TITLE" Language="th_TH">
 			<Text>เกมถูกลบ</Text>		<!-- Game Deleted -->
@@ -2357,7 +2357,7 @@
 			<Text>ขนาดแผนที่ไม่รองรับ</Text>		<!-- Map Size Unsupported -->
 		</Replace>
 		<Replace Tag="LOC_GAME_ABANDONED_CROSSPLAY_DISABLED_HOST" Language="th_TH">
-			<Text>คุณไม่สามารถเข้าร่วมเกมนี้ได้ มีการปิดการใช้งานการเล่นข้ามแพลตฟอร์มและโฮสต์บนแพลตฟอร์มอื่น</Text>		<!-- You cannot join this game. It has Crossplay disabled and is hosted on another platform. -->
+			<Text>คุณไม่สามารถเข้าร่วมเกมนี้ได้ มีการปิดการใช้งานการเล่นข้ามแพลตฟอร์ม และหัวห้องบนแพลตฟอร์มอื่น</Text>		<!-- You cannot join this game. It has Crossplay disabled and is hosted on another platform. -->
 		</Replace>
 		<Replace Tag="LOC_GAME_ABANDONED_CROSSPLAY_DISABLED_HOST_TITLE" Language="th_TH">
 			<Text>การเล่นข้ามแพลตฟอร์มไม่ตรงกัน</Text>		<!-- Crossplay Mismatch -->

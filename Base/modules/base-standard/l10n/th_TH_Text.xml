@@ -29,10 +29,10 @@
 			<Text>เทิร์น: {1_TurnNumber}/{2_MaxTurns}</Text>		<!-- Turn: {1_TurnNumber}/{2_MaxTurns} -->
 		</Replace>
 		<Replace Tag="LOC_ACTION_PANEL_UNIT_MOVES_REMAINING" Language="th_TH">
-			<Text>ยูนิตยังมีกำลังเหลือ</Text>		<!-- Unit Has Moves -->
+			<Text>ยูนิตยังมีแต้มเคลื่อนที่</Text>		<!-- Unit Has Moves -->
 		</Replace>
 		<Replace Tag="LOC_ACTION_PANEL_UNIT_MOVES_REMAINING_TT" Language="th_TH">
-			<Text>ยูนิตยังมีกำลังเหลืออยู่</Text>		<!-- A unit has moves remaining. -->
+			<Text>ยูนิตยังมีแต้มเคลื่อนที่อยู่</Text>		<!-- A unit has moves remaining. -->
 		</Replace>
 		<Replace Tag="LOC_ACTION_PANEL_LAST_PLAYER_MESSAGE" Language="th_TH">
 			<Text>เกมกำลังรอคุณอยู่</Text>		<!-- The game is waiting for you. -->
@@ -44,10 +44,10 @@
 			<Text>{1_Hours}:{2_Minutes} PM</Text>		<!-- {1_Hours}:{2_Minutes} PM -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_GAME_SETTINGS" Language="th_TH">
-			<Text>การตั้งค่าเกม</Text>		<!-- Game Settings -->
+			<Text>ตั้งค่าเกม</Text>		<!-- Game Settings -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_SETTINGS" Language="th_TH">
-			<Text>การตั้งค่าผู้เล่น</Text>		<!-- Player Settings -->
+			<Text>ตั้งค่าผู้เล่น</Text>		<!-- Player Settings -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_ADD_PLAYER" Language="th_TH">
 			<Text>เพิ่มบอท</Text>		<!-- Add AI Player -->
@@ -21440,13 +21440,13 @@
 			<Text>{1_playerName} หลุดการเชื่อมต่อ</Text>		<!-- {1_playerName} Desynced -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_PLAYER_DESYNCED_TT" Language="th_TH">
-			<Text>เกมของ {1_playerName} ได้เบี่ยงเบนไปจากโฮสต์ ทุกคนจะต้องรีโหลดเพื่อแก้ไขปัญหา</Text>		<!-- {1_playerName}'s game has deviated from the host's. Everyone will reload to correct the problem. -->
+			<Text>เกมของ {1_playerName} ได้เบี่ยงเบนไปจากหัวห้อง ทุกคนจะต้องรีโหลดเพื่อแก้ไขปัญหา</Text>		<!-- {1_playerName}'s game has deviated from the host's. Everyone will reload to correct the problem. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_HOST_MIGRATION" Language="th_TH">
 			<Text>หัวห้องจะถูกย้าย</Text>		<!-- Host Migration -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_HOST_MIGRATION_TT" Language="th_TH">
-			<Text>ตัวเกมกำลังย้ายไปยังโฮสต์เกมใหม่ เกมจะกลับมาเริ่มใหม่ในไม่ช้า</Text>		<!-- The game is migrating to a new game host. The game will resume shortly. -->
+			<Text>ตัวเกมกำลังย้ายไปยังหัวห้องเกมใหม่ เกมจะกลับมาเริ่มใหม่ในไม่ช้า</Text>		<!-- The game is migrating to a new game host. The game will resume shortly. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_HOST_CHANGED" Language="th_TH">
 			<Text>หัวห้องถูกย้าย</Text>		<!-- Host Migrated -->
@@ -22664,7 +22664,7 @@
 			<Text>แลน</Text>		<!-- LAN -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_SETUP_TITLE" Language="th_TH">
-			<Text>การตั้งค่าโฮสต์</Text>		<!-- Host Setup -->
+			<Text>การตั้งค่าหัวห้อง</Text>		<!-- Host Setup -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_TITLE" Language="th_TH">
 			<Text>โถงรับรอง</Text>		<!-- Lobby -->
@@ -22673,7 +22673,7 @@
 			<Text>เมนูหลัก</Text>		<!-- Main Menu -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_HOST" Language="th_TH">
-			<Text>โฮสต์</Text>		<!-- Host -->
+			<Text>หัวห้อง</Text>		<!-- Host -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOCAL_PLAYER" Language="th_TH">
 			<Text>ผู้เล่นท้องถิ่น</Text>		<!-- Local Player -->
@@ -30658,7 +30658,7 @@
 			<Text>+{1_Amount} [icon:ADVISOR_HOUR_GLASS] ความก้าวหน้าของยุค</Text>		<!-- +{1_Amount} [icon:ADVISOR_HOUR_GLASS] Age Progression -->
 		</Replace>
 		<Replace Tag="LOC_VICTORY_AGE_PROGRESS_TOOLTIP" Language="th_TH">
-			<Text>เมื่อผู้เล่นคนแรกบรรลุหลักไมล์นี้ จำนวน {1_amount} คะแนนความก้าวหน้าของยุคจะถูกเพิ่มให้กับผู้เล่นทุกคน</Text>		<!-- The first time any player reaches this milestone, {1_amount} Age Progress Points are added for all players -->
+			<Text>เมื่อผู้เล่นคนแรกบรรลุหลักไมล์นี้ จำนวน {1_amount} แต้ม ความก้าวหน้าของยุค จะถูกเพิ่มให้กับผู้เล่นทุกคน</Text>		<!-- The first time any player reaches this milestone, {1_amount} Age Progress Points are added for all players -->
 		</Replace>
 		<Replace Tag="LOC_VICTORY_ADDITIONAL_REWARDS" Language="th_TH">
 			<Text>+1[icon:{1_Icon}]</Text>		<!-- +1[icon:{1_Icon}]  -->
