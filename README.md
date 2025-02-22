@@ -62,7 +62,7 @@
 หรือ ไปคลิกขวาที่เกมใน Steam เลือก Properties แล้วไปหน้า Installed File เลือก Browse
 4. จะมี Civilization VII.app อยู่ให้ คลิกขวาเลือก Show Package Content จะเข้าไปข้างในได้
 5. เข้าไปใน 'Contents/Resources/' จะพบตัวไฟล์เกมใน MacOS
-6. ให้วาง (Ctrl+V) ลงแล้วกดตกลงหากมีหน้าต่างขึ้นมา
+6. ให้วาง (Ctrl+V) ลง หากมีหน้าต่างขึ้นมา กด Merge แล้วติ๊กถูกที่ Apply to All (ห้ามกด Replace ไฟล์เกมจะหายไปด้วย)
 7. เข้าเกมไป 1 รอบและไปที่ Options ไปเปลี่ยนเป็นภาษาไทยแล้วออกจากเกม จากนั้นถ้าเข้าไปก็น่าจะเป็นภาษาไทยแล้ว
 
 ![installmac](https://i.imgur.com/j67uZWq.png)
