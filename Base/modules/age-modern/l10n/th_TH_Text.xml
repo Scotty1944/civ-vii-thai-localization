@@ -395,13 +395,13 @@
 			<Text>คุณลักษณะทางเศรษฐกิจ</Text>		<!-- Economic Attribute -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_ECONOMIC_ATTRIBUTE_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ 1 คะแนนคุณสมบัติทางเศรษฐกิจ</Text>		<!-- Gain 1 Economic Attribute Point -->
+			<Text>ได้รับ 1 คะแนน คุณสมบัติทางเศรษฐกิจ</Text>		<!-- Gain 1 Economic Attribute Point -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_POLITICAL_ATTRIBUTE_NAME" Language="th_TH">
 			<Text>คุณลักษณะทางการฑูต</Text>		<!-- Diplomatic Attribute -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_POLITICAL_ATTRIBUTE_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ 1 คะแนนคุณสมบัติทางการทูต</Text>		<!-- Gain 1 Diplomatic Attribute Point -->
+			<Text>ได้รับ 1 คะแนน คุณสมบัติทางการทูต</Text>		<!-- Gain 1 Diplomatic Attribute Point -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_CULTURAL_ATTRIBUTE_NAME" Language="th_TH">
 			<Text>คุณลักษณะทางวัฒนธรรม</Text>		<!-- Cultural Attribute -->
@@ -3371,7 +3371,7 @@
 			<Text>+4[icon:YIELD_HAPPINESS] ความสุข ถิ่นฐานนี้จะมีประชากรเพิ่มขึ้นทุกครั้งที่คุณเข้าร่วมงานเฉลิมฉลอง คงอยู่ตลอดกาล ต้องวางติดกับชายฝั่ง</Text>		<!-- +4[icon:YIELD_HAPPINESS] Happiness. This Settlement gains a Population every time you enter a Celebration. Ageless. Must be placed adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_DOGO_ONSEN_TOOLTIP" Language="th_TH">
-			<Text>ถิ่นฐานนี้จะได้รับประชากรทุกครั้งที่คุณเข้าร่วมงานเฉลิมฉลอง คงอยู่ตลอดกาล ต้องวางอยู่ติดกับชายฝั่ง</Text>		<!-- This Settlement gains a Population every time you enter a Celebration. Ageless. Must be placed adjacent to Coast. -->
+			<Text>ถิ่นฐานนี้จะได้รับประชากรทุกครั้งที่คุณ เข้าร่วมงานเฉลิมฉลอง, คงอยู่ตลอดกาลม ต้องวางอยู่ติดกับชายฝั่ง</Text>		<!-- This Settlement gains a Population every time you enter a Celebration. Ageless. Must be placed adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_DOI_SUTHEP_NAME" Language="th_TH">
 			<Text>ดอยสุเทพ</Text>		<!-- Doi Suthep -->
@@ -3560,7 +3560,7 @@
 			<Text>อำนาจครอบงำ</Text>		<!-- Hegemony -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_HEGEMONY_QUOTE" Language="th_TH">
-			<Text>"เรารู้สึกเป็นอิสระเพราะเราไม่มีแม้แต่ภาษาที่จะอธิบายถึงการไม่เป็นอิสระของเรา"</Text>		<!-- "We feel free because we lack the very language to articulate our unfreedom." -->
+			<Text>"เรารู้สึกเป็นอิสระเพราะเราไม่มีแม้แต่ ภาษาที่จะอธิบายถึงการไม่เป็นอิสระของเรา"</Text>		<!-- "We feel free because we lack the very language to articulate our unfreedom." -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_HEGEMONY_QUOTE_AUTHOR" Language="th_TH">
 			<Text>สลาวอย ชิเชค</Text>		<!-- Slavoj Žižek -->
@@ -3776,7 +3776,7 @@
 			<Text>มาตรฐานการครองชีพ</Text>		<!-- Living Standards -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_PEASANT_LIBERATION_DESCRIPTION" Language="th_TH">
-			<Text>+25%[icon:YIELD_GOLD] ทองและ[icon:YIELD_HAPPINESS] ความสุข ในการรักษาอาคาร</Text>		<!-- +25%[icon:YIELD_GOLD] Gold and[icon:YIELD_HAPPINESS] Happiness towards maintaining Buildings. -->
+			<Text>+25%[icon:YIELD_GOLD] ทอง และ[icon:YIELD_HAPPINESS] ความสุข ในการบำรุงรักษาอาคาร</Text>		<!-- +25%[icon:YIELD_GOLD] Gold and[icon:YIELD_HAPPINESS] Happiness towards maintaining Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_MATERIEL_NAME" Language="th_TH">
 			<Text>วัสดุ</Text>		<!-- Materiel -->
@@ -4625,7 +4625,7 @@
 			<Text>"เมืองแห่งเทวดา, เป็นที่สถิตของพระแก้วมรกต นครที่ไม่มีใครรบชนะ, เมืองหลวงที่สวยงามของเก้ารัตนชาติ, ที่ประทับของกษัตริย์, บ้านของเทพยดา"</Text>		<!-- "City of angels, great city of immortals, magnificent city of the nine gems, seat of the king, home of the gods." -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_NINE_GEMS_AUTHOR" Language="th_TH">
-			<Text>กรุงเทพมหานคร</Text>		<!-- Name of Bangkok -->
+			<Text>ชื่อของกรุงเทพมหานคร</Text>		<!-- Name of Bangkok -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_MANDALA_NAME" Language="th_TH">
 			<Text>มันดาลา</Text>		<!-- Mandala -->
@@ -4634,7 +4634,7 @@
 			<Text>จักรวาลประกอบด้วยดวงอาทิตย์จำนวนไม่สิ้นสุด และโลกจำนวนไม่สิ้นสุด ที่ใจกลางของแต่ละโลกคือเขาเมรุ</Text>		<!-- "The universe consists of an infinite amount of suns and an infinite amount of worlds. At the center of each is Mount Meru." -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_MANDALA_AUTHOR" Language="th_TH">
-			<Text>เจ้าพระยาธิพากร วงศ์</Text>		<!-- Chaophraya Thiphakorawong -->
+			<Text>เจ้าพระยาทิพากรวงศ์มหาโกษาธิบดี</Text>		<!-- Chaophraya Thiphakorawong -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_SRIWILAI_NAME" Language="th_TH">
 			<Text>ศรีวิไล</Text>		<!-- Sriwilai -->
@@ -4643,7 +4643,7 @@
 			<Text>"จากทุกชาติ ทุกภาษาสิบสองภาษา ทุกคนมารวมกันและยืนอยู่ในร่มเงาของเมืองนี้"</Text>		<!-- "From every nation, from twelvefold tongues, all come and stand in the shade of this city." -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_SRIWILAI_AUTHOR" Language="th_TH">
-			<Text>พระนเรศวร</Text>		<!-- King Narai -->
+			<Text>สมเด็จพระนารายณ์มหาราช</Text>		<!-- King Narai -->
 		</Replace>
 		<Replace Tag="LOC_MOD_NINE_GEMS_CULTURE_PER_FRIENDLY_DESCRIPTION" Language="th_TH">
 			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุกอารยะธรรมที่มีความสัมพันธ์สูงกว่า สถานะเป็นมิตร</Text>		<!-- +2[icon:YIELD_CULTURE] Culture for every Civilization Relationship above Friendly status. -->
@@ -4661,7 +4661,7 @@
 			<Text>+2[icon:YIELD_DIPLOMACY] อิทธิพล ต่อการเป็นมิตรของทุกอารยธรรมที่มีสถานะสูงกว่ามิตรภาพ</Text>		<!-- +2[icon:YIELD_DIPLOMACY] Influence for every Civilization Relationship above Friendly status. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_MANDALA_CHANG_BEUN_COMBAT_STRENGTH_IN_CITY_STATE_ALLY_DESCRIPTION" Language="th_TH">
-			<Text>ช้างบึนได้รับ +6 พลังต่อสู้ในหรือใกล้ นครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- Chang Beun gain +6 Combat Strength in or adjacent to City-States you are Suzerain of. -->
+			<Text>ช้างปืน ได้รับ +6 พลังต่อสู้ในหรือใกล้ นครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- Chang Beun gain +6 Combat Strength in or adjacent to City-States you are Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_MANDALA_CHANG_BEUN_COMBAT_STRENGTH_IN_CITY_STATE_ALLY_PREVIEW" Language="th_TH">
 			<Text>+6 มณีดา</Text>		<!-- +6 Mandala -->
@@ -4712,7 +4712,7 @@
 			<Text>มีตลาดเปิดกับผู้นำคนอื่น[n]ที่ได้รับการยอมรับ: คุณจะได้รับ +12[icon:YIELD_GOLD] ทอง ต่อเทิร์น ผู้นำอื่นจะได้รับ +6[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]ที่สนับสนุน: ผู้นำทั้งสองจะได้รับ +18[icon:YIELD_GOLD] ทอง ต่อเทิร์น</Text>		<!-- Have Open Markets with another Leader.[n]Accepted: You receive +12[icon:YIELD_GOLD] Gold per turn. Other Leader receives +6[icon:YIELD_GOLD] Gold per turn.[n]Supported: Both Leaders receive +18[icon:YIELD_GOLD] Gold per turn. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +18 ต่อเทิร์นที่ได้รับจากทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_GOLD] +18 per turn received by both Leaders. -->
+			<Text>[icon:YIELD_GOLD] +18 ต่อเทิร์น ที่ได้รับจาก ทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_GOLD] +18 per turn received by both Leaders. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_ACCEPT" Language="th_TH">
 			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]{1_initialName} จะได้รับ [icon:YIELD_GOLD] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]{1_initialName} receives [icon:YIELD_GOLD] +12 per turn. -->
@@ -4970,7 +4970,7 @@
 			<Text>เบนิโต ฮัวเรซ</Text>		<!-- Benito Juárez -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_REVOLUCIONARIO_JUAREZ_DESCRIPTION" Language="th_TH">
-			<Text>เปิดใช้งานที่ โซคาโล เพื่อมอบช่องนโยบายสังคม +1</Text>		<!-- Activate on a Zócalo to grant +1 Social Policy slot. -->
+			<Text>เปิดใช้งานที่ โซคาโล เพื่อมอบ +1 ช่องนโยบายสังคม</Text>		<!-- Activate on a Zócalo to grant +1 Social Policy slot. -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_REVOLUCIONARIO_MORELOS_NAME" Language="th_TH">
 			<Text>โฮเซ มาริอา โมเรลอส</Text>		<!-- José María Morelos -->
@@ -5633,10 +5633,10 @@
 			<Text>อาคารด้านวัฒนธรรมได้รับ +1[icon:YIELD_CULTURE] วัฒนธรรม, ในแต่ละนครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- Culture Buildings receive +1[icon:YIELD_CULTURE] Culture for every City-State you are Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_MODERN_8_DESCRIPTION" Language="th_TH">
-			<Text>รับอาร์ติแฟกต์</Text>		<!-- Receive an Artifact. -->
+			<Text>รับ โบราณวัตถุ</Text>		<!-- Receive an Artifact. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_MODERN_9_DESCRIPTION" Language="th_TH">
-			<Text>+1 โควตานโยบายสังคม</Text>		<!-- +1 Social Policy slot. -->
+			<Text>+1 ช่องนโยบายสังคม</Text>		<!-- +1 Social Policy slot. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_MODERN_10_DESCRIPTION" Language="th_TH">
 			<Text>+20%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อการก่อสร้างพิพิธภัณฑ์, ในแต่ละนครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards constructing Museums for every City-State you are Suzerain of. -->
@@ -7649,7 +7649,7 @@
 			<Text>"ประชาธิปไตยเป็นสิ่งจำเป็นสำหรับชนชั้นแรงงาน เพราะการใช้สิทธิประชาธิปไตยของตนเอง ทำให้กรรมาชีพตระหนักถึงผลประโยชน์ทางชนชั้นของตน." - โรซา ลักซ์เบิร์ก</Text>		<!-- "Democracy is indispensable to the working class, because only through the exercise of its democratic rights can the proletariat become aware of its class interests." - Rosa Luxemburg -->
 		</Replace>
 		<Replace Tag="LOC_1142A_IMPERATIVE" Language="th_TH">
-			<Text>มีประชากร 125 คนในทุกถิ่นฐานภายใน {1_turn_timer}</Text>		<!-- Have 125 Population across all Settlements within {1_turn_timer}. -->
+			<Text>มีประชากร 125 หน่วย ในทุกถิ่นฐานภายใน {1_turn_timer}</Text>		<!-- Have 125 Population across all Settlements within {1_turn_timer}. -->
 		</Replace>
 		<Replace Tag="LOC_1142B_NAME" Language="th_TH">
 			<Text>ไม่มีความก้าวหน้า หากมีผู้ถูกทิ้งไว้เบื้องหลัง</Text>		<!-- There is no progress if some are left behind. -->
@@ -9119,7 +9119,7 @@
 			<Text>สวัสดีอันอบอุ่น</Text>		<!-- Warm Greetings -->
 		</Replace>
 		<Replace Tag="LOC_3442A_NAME" Language="th_TH">
-			<Text>ก้าวมหัว?</Text>		<!-- -->
+			<Text>--. .- --- -- …. .-- ..--..</Text>		<!-- -->
 		</Replace>
 		<Replace Tag="LOC_3442A_DESCRIPTION" Language="th_TH">
 			<Text>เรื่องราวยังคงดำเนินต่อไป..</Text>		<!-- Story continues. -->
@@ -11073,7 +11073,7 @@
 			<Text>ส่วนลึกที่ไม่รู้จัก</Text>		<!-- Unknown Depths -->
 		</Replace>
 		<Replace Tag="LOC_ARCHAEOLOGY_12A_COMPLETION" Language="th_TH">
-			<Text>ในขณะที่รื้อถอน{1_archaeology_overbuilt_building}เก่าลงถึงฐานราก คนงานได้พบกับหลักฐานของ{2_archaeology_building}ที่เก่ากว่านั้นอีก หัวหน้าคนงานจึงสั่งให้หยุดการก่อสร้าง{3_archaeology_new_building}ชั่วคราวในขณะที่มีการประเมินค่าความสำคัญของการค้นพบนี้</Text>		<!-- While taking the old {1_archaeology_overbuilt_building} down to its foundations, workers stumble upon indications of an even older {2_archaeology_building}. The foreman calls for construction on the {3_archaeology_new_building} to halt while the value of this finding is appraised. -->
+			<Text>ในขณะที่รื้อถอน {1_archaeology_overbuilt_building} เก่าลงถึงฐานราก คนงานได้พบกับหลักฐานของ {2_archaeology_building} ที่เก่ากว่านั้นอีก หัวหน้าคนงานจึงสั่งให้หยุดการก่อสร้าง {3_archaeology_new_building} ชั่วคราวในขณะที่มีการประเมินค่า ความสำคัญของการค้นพบนี้</Text>		<!-- While taking the old {1_archaeology_overbuilt_building} down to its foundations, workers stumble upon indications of an even older {2_archaeology_building}. The foreman calls for construction on the {3_archaeology_new_building} to halt while the value of this finding is appraised. -->
 		</Replace>
 		<Replace Tag="LOC_ARCHAEOLOGY_12B_NAME" Language="th_TH">
 			<Text>เรียกร้องโบราณวัตถุ</Text>		<!-- Claim the artifact. -->
@@ -11091,7 +11091,7 @@
 			<Text>+1 อาร์ติแฟกต์</Text>		<!-- +1 Artifact. -->
 		</Replace>
 		<Replace Tag="LOC_ARCHAEOLOGY_12D_COMPLETION" Language="th_TH">
-			<Text>ขณะที่พวกเขาเตรียมที่จะขุดซาก {1_archaeology_source_civ_adj} [b]{2_reward}[/b] อันได้รับการอนุรักษ์ไว้อย่างดี นักโบราณคดีก็สงสัยว่าผลงานจากอดีตนั้นลึกถึงกี่ชั้น</Text>		<!-- As they prepare to remove a well-preserved {1_archaeology_source_civ_adj} [b]{2_reward}[/b], the archaeologists wonder just how many layers deep the past goes. -->
+			<Text>ขณะที่พวกเขาเตรียมที่จะขุดซาก {1_archaeology_source_civ_adj} [b]{2_reward}[/b], อันได้รับการอนุรักษ์ไว้อย่างดี นักโบราณคดีก็สงสัยว่าผลงานจากอดีตนั้นลึกถึงกี่ชั้น</Text>		<!-- As they prepare to remove a well-preserved {1_archaeology_source_civ_adj} [b]{2_reward}[/b], the archaeologists wonder just how many layers deep the past goes. -->
 		</Replace>
 		<Replace Tag="LOC_ARCHAEOLOGY_13A_STORYTITLE" Language="th_TH">
 			<Text>ชั้นของอดีต</Text>		<!-- Layers of the Past -->
@@ -13678,7 +13678,7 @@
 			<Text>ทำให้สำเร็จ เพื่อผู้บัญชาการฝูงบิน และได้รับ 1 แต้มมรดกทางวิทยาศาสตร์</Text>		<!-- Complete for a Squadron Commander and 1 Legacy Point towards the Science Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_BREAK_SOUND_BARRIER_NAME" Language="th_TH">
-			<Text>ฝ่าอุปสรรคเสียง</Text>		<!-- Break The Sound Barrier -->
+			<Text>ทำลายกำแพงเสียง</Text>		<!-- Break The Sound Barrier -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_BREAK_SOUND_BARRIER_SHORT_NAME" Language="th_TH">
 			<Text>ทำลายกำแพงเสียง</Text>		<!-- Break The Sound Barrier -->
@@ -13762,13 +13762,13 @@
 			<Text>โครงการคลังสินค้า</Text>		<!-- Warehouse Project -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_FACTORY_NAME" Language="th_TH">
-			<Text>โรงงานเมือง</Text>		<!-- Factory Town -->
+			<Text>เมืองโรงงาน</Text>		<!-- Factory Town -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_FACTORY_DESCRIPTION" Language="th_TH">
-			<Text>+100% [icon:YIELD_GOLD] ทอง สำหรับการซื้อโรงงานในเมืองนี้ +1 ช่องทรัพยากร ต้องมีทรัพยากรโรงงานี่ได้รับการพัฒนาในถิ่นฐานนี้</Text>		<!-- +100%[icon:YIELD_GOLD] Gold towards purchasing a Factory in this town. +1 Resource Slot. Must have an improved factory resource in this settlement. -->
+			<Text>+100% [icon:YIELD_GOLD] ทอง สำหรับการซื้อโรงงานในเมืองนี้, +1 ช่องทรัพยากร, ต้องมี ทรัพยากรโรงงาน ที่ได้รับการพัฒนาใน ถิ่นฐานนี้</Text>		<!-- +100%[icon:YIELD_GOLD] Gold towards purchasing a Factory in this town. +1 Resource Slot. Must have an improved factory resource in this settlement. -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_INN_NAME" Language="th_TH">
-			<Text>ฮับทาวน์</Text>		<!-- Hub Town -->
+			<Text>เมืองศูนย์กลาง</Text>		<!-- Hub Town -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_INN_DESCRIPTION" Language="th_TH">
 			<Text>+2[icon:YIELD_DIPLOMACY] อิทธิพล ต่อถิ่นฐานที่เชื่อมต่อกับเมืองนี้</Text>		<!-- +2[icon:YIELD_DIPLOMACY] Influence per Settlement Connected to this Town. -->
@@ -13936,13 +13936,13 @@
 			<Text>"ในไม่ช้า พลังแห่งเจ้าไอน้ำ ผู้ไม่เคยปราชัย จะลากเรือบรรทุกที่เคลื่อนไหวช้า หรือขับเคลื่อนรถเร็วไกลโพ้น"</Text>		<!-- "Soon shall thy arm, unconquered steam, afar drag the slow barge or drive the rapid car." -->
 		</Replace>
 		<Replace Tag="LOC_TECH_STEAM_ENGINE_QUOTE_AUTHOR" Language="th_TH">
-			<Text>เอราสมุส ดาร์วิน</Text>		<!-- Erasmus Darwin -->
+			<Text>อีราสมุส ดาร์วิน</Text>		<!-- Erasmus Darwin -->
 		</Replace>
 		<Replace Tag="LOC_TECH_MILITARY_SCIENCE_NAME" Language="th_TH">
 			<Text>วิทยาศาสตร์การทหาร</Text>		<!-- Military Science -->
 		</Replace>
 		<Replace Tag="LOC_TECH_MILITARY_SCIENCE_QUOTE" Language="th_TH">
-			<Text>"ทำให้ศัตรูของคุณสับสน, เก็บเขาไว้ในความมืดเกี่ยวกับเจตนาของคุณ"</Text>		<!-- "Confuse your enemy. Keep him in the dark about your intentions." -->
+			<Text>"ทำให้ศัตรูของคุณสับสน, เก็บเขาไว้ใน ความมืด เกี่ยวกับเจตนาของคุณ"</Text>		<!-- "Confuse your enemy. Keep him in the dark about your intentions." -->
 		</Replace>
 		<Replace Tag="LOC_TECH_MILITARY_SCIENCE_QUOTE_AUTHOR" Language="th_TH">
 			<Text>โว๋ เหงียน ย้าป</Text>		<!-- Võ Nguyên Giáp -->
@@ -13969,7 +13969,7 @@
 			<Text>ไฟฟ้า</Text>		<!-- Electricity -->
 		</Replace>
 		<Replace Tag="LOC_TECH_ELECTRICITY_QUOTE" Language="th_TH">
-			<Text>"ความงดงามของไฟฟ้าไม่ใช่เพราะว่าพลังงานนั้นลึกลับ, แต่เป็นเพราะมันอยู่ภายใต้กฎเกณฑ์ และปัญญาที่ได้รับการศึกษา สามารถควบคุมมันได้แม้ในขณะนี้"</Text>		<!-- "The beauty of electricity is not that the power is mysterious, but that it is under law, and that the taught intellect can even now govern it." -->
+			<Text>"ความงดงามของไฟฟ้าไม่ใช่เพราะว่าพลังงานนั้นลึกลับ, แต่เป็นเพราะมันอยู่ภายใต้กฎเกณฑ์ และปัญญา ที่ได้รับการศึกษา สามารถควบคุมมันได้ แม้ในขณะนี้"</Text>		<!-- "The beauty of electricity is not that the power is mysterious, but that it is under law, and that the taught intellect can even now govern it." -->
 		</Replace>
 		<Replace Tag="LOC_TECH_ELECTRICITY_QUOTE_AUTHOR" Language="th_TH">
 			<Text>ไมเคิล ฟาราเดย์</Text>		<!-- Michael Faraday -->
@@ -14293,7 +14293,7 @@
 			<Text>{1_LegacyPathAdvisor}</Text>		<!-- {1_LegacyPathAdvisor} -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_QUEST_QUOTE_ECONOMIC" Language="th_TH">
-			<Text>อุตสาหกรรมใหม่หมายถึงโอกาสใหม่ ในการสร้างความมั่งคั่ง และวิธีการใหม่ในการนำมันกลับบ้าน</Text>		<!-- New industries mean new opportunities for wealth, and new ways to bring it home. -->
+			<Text>อุตสาหกรรมใหม่หมายถึง โอกาสใหม่ ในการสร้างความมั่งคั่ง และวิธีการใหม่ ในการนำมันกลับบ้าน</Text>		<!-- New industries mean new opportunities for wealth, and new ways to bring it home. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_QUEST_QUOTE_MILITARY" Language="th_TH">
 			<Text>ความแข็งแกร่งในสนามรบ จุดประกายความแข็งแกร่งที่บ้าน</Text>		<!-- Strength on the battlefield ignites strength at home. -->
@@ -14302,7 +14302,7 @@
 			<Text>โลกถูกสำรวจแล้ว อดีตยังคงไม่ถูกค้นพบ</Text>		<!-- The world is explored; the past is as yet undiscovered. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_QUEST_QUOTE_SCIENCE" Language="th_TH">
-			<Text>ผู้ใดที่ประสงค์จะทดสอบขีดจำกัดของสิ่งที่เป็นไปได้ ลองเพียงแค่เงยหน้าขึ้นมองดวงดาวเท่านั้นแล้วจะรู้</Text>		<!-- Those who wish to test the limits of the possible need only look to the stars. -->
+			<Text>ผู้ใดที่ประสงค์จะทดสอบขีดจำกัด ของสิ่งที่เป็นไปได้ ลองเพียงแค่เงยหน้าขึ้น มองดวงดาวเท่านั้นแล้วจะรู้</Text>		<!-- Those who wish to test the limits of the possible need only look to the stars. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_QUEST_CONFIRM_TITLE" Language="th_TH">
 			<Text>เส้นทางมรดก: {1_LegacyPathAdvisor}</Text>		<!-- Legacy Path: {1_LegacyPathAdvisor} -->
@@ -14347,10 +14347,7 @@
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_MODERN_SCIENCE_NAME} I</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_MODERN_SCIENCE_NAME} I -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_1_TRACKING_BODY" Language="th_TH">
-			<Text>การวิจัย: [icon:NOTIFICATION_TECH_DISCOVERED]{LOC_TECH_FLIGHT_NAME} {1_itemComplete}</Text>		<!-- Research: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_FLIGHT_NAME} {1_itemComplete} -->
-		</Replace>
-		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_1_TRACKING_BODY" Language="th_TH">
-			<Text>การวิจัย: [icon:NOTIFICATION_TECH_DISCOVERED]{LOC_TECH_FLIGHT_NAME} {1_itemComplete}</Text>		<!-- Research: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_FLIGHT_NAME} {1_itemComplete} -->
+			<Text>การวิจัย: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_FLIGHT_NAME} {1_itemComplete}</Text>		<!-- Research: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_FLIGHT_NAME} {1_itemComplete} -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_2_TITLE" Language="th_TH">
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_MODERN_SCIENCE_NAME} II</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_MODERN_SCIENCE_NAME} II -->
@@ -14385,14 +14382,14 @@
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_3_BODY" Language="th_TH">
 			<Text>โครงการ [icon:PROJECT_TRANS_OCEANIC_FLIGHT] [b]{LOC_PROJECT_TRANS_OCEANIC_FLIGHT_NAME}[/b] เสร็จสมบูรณ์แล้ว และคุณได้บรรลุ หมุดหมาย แรกบนเส้นทางมรดก [b]{LOC_LEGACY_PATH_MODERN_SCIENCE_NAME}[/b]!
-[n] เป้าหมายต่อไป: วิจัย [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_AERODYNAMICS_NAME}[/b] จากนั้นทำโครงการ [icon:PROJECT_BREAK_SOUND_BARRIER] [b]{LOC_PROJECT_BREAK_SOUND_BARRIER_NAME} Project[/b] ให้เสร็จสมบูรณ์ หมุดหมาย ต่อไปบนเส้นทางมรดก [b]{LOC_LEGACY_PATH_MODERN_SCIENCE_NAME}[/b]</Text>		<!-- The [icon:PROJECT_TRANS_OCEANIC_FLIGHT] [b]{LOC_PROJECT_TRANS_OCEANIC_FLIGHT_NAME} Project [/b]is complete, and you have achieved the first Milestone along the [b]{LOC_LEGACY_PATH_MODERN_SCIENCE_NAME} Legacy Path[/b]!
+[n] เป้าหมายต่อไป: วิจัย [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_AERODYNAMICS_NAME}[/b] จากนั้นทำโครงการ [icon:PROJECT_BREAK_SOUND_BARRIER] [b]โครงการ{LOC_PROJECT_BREAK_SOUND_BARRIER_NAME}[/b] ให้เสร็จสมบูรณ์ หมุดหมาย ต่อไปบนเส้นทางมรดก [b]{LOC_LEGACY_PATH_MODERN_SCIENCE_NAME}[/b]</Text>		<!-- The [icon:PROJECT_TRANS_OCEANIC_FLIGHT] [b]{LOC_PROJECT_TRANS_OCEANIC_FLIGHT_NAME} Project [/b]is complete, and you have achieved the first Milestone along the [b]{LOC_LEGACY_PATH_MODERN_SCIENCE_NAME} Legacy Path[/b]!
 				[n]Next Objective: Research [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_AERODYNAMICS_NAME}[/b], then complete [icon:PROJECT_BREAK_SOUND_BARRIER] [b]{LOC_PROJECT_BREAK_SOUND_BARRIER_NAME} Project[/b], the next Milestone along the [b]{LOC_LEGACY_PATH_MODERN_SCIENCE_NAME} Legacy Path[/b]. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_3_TRACKING_TITLE" Language="th_TH">
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_MODERN_SCIENCE_NAME} III</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_MODERN_SCIENCE_NAME} III -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_3_TRACKING_BODY" Language="th_TH">
-			<Text>การวิจัย: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_AERODYNAMICS_NAME} {1_itemComplete} [n]เสร็จสิ้น: [icon:PROJECT_BREAK_SOUND_BARRIER] {LOC_PROJECT_BREAK_SOUND_BARRIER_NAME} โครงการ {2_itemComplete}</Text>		<!-- Research: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_AERODYNAMICS_NAME} {1_itemComplete}
+			<Text>การวิจัย: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_AERODYNAMICS_NAME} {1_itemComplete} [n]เสร็จสิ้น: [icon:PROJECT_BREAK_SOUND_BARRIER] โครงการ{LOC_PROJECT_BREAK_SOUND_BARRIER_NAME} {2_itemComplete}</Text>		<!-- Research: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_AERODYNAMICS_NAME} {1_itemComplete}
 				[n]Complete: [icon:PROJECT_BREAK_SOUND_BARRIER] {LOC_PROJECT_BREAK_SOUND_BARRIER_NAME} Project {2_itemComplete} -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_4_TITLE" Language="th_TH">
@@ -14404,7 +14401,7 @@
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_4_BODY" Language="th_TH">
 			<Text>โครงการ [icon:PROJECT_BREAK_SOUND_BARRIER][b]{LOC_PROJECT_BREAK_SOUND_BARRIER_NAME}[/b]เสร็จสิ้นแล้ว และคุณได้บรรลุหมุดหมายที่สองบนเส้นทางมรดก [b]{LOC_LEGACY_PATH_MODERN_SCIENCE_NAME}[/b]!
 
-[n]เป้าหมายถัดไป: วิจัย [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_ROCKETRY_NAME}[/b] สร้าง [icon:BUILDING_LAUNCH_PAD] [b]{LOC_BUILDING_LAUNCH_PAD_NAME}[/b] จากนั้นทำให้สมบูรณ์ [icon:PROJECT_LAUNCH_SATELLITE] [b]{LOC_PROJECT_LAUNCH_SATELLITE_NAME} Project[/b] ซึ่งเป็นหมุดหมายสุดท้าย บนเส้นทางมรดก [b]{LOC_LEGACY_PATH_MODERN_SCIENCE_NAME}[/b]
+[n]เป้าหมายถัดไป: วิจัย [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_ROCKETRY_NAME}[/b] สร้าง [icon:BUILDING_LAUNCH_PAD] [b]{LOC_BUILDING_LAUNCH_PAD_NAME}[/b] จากนั้นทำให้สมบูรณ์ [icon:PROJECT_LAUNCH_SATELLITE] [b]โครงการ{LOC_PROJECT_LAUNCH_SATELLITE_NAME}[/b] ซึ่งเป็นหมุดหมายสุดท้าย บนเส้นทางมรดก [b]{LOC_LEGACY_PATH_MODERN_SCIENCE_NAME}[/b]
 
 [n]หมายเหตุ: เพื่อทำภารกิจนี้ให้สำเร็จ คุณต้องทำโครงการ {LOC_PROJECT_TRANS_OCEANIC_FLIGHT_NAME} และ {LOC_PROJECT_BREAK_SOUND_BARRIER_NAME} ให้เสร็จด้วย</Text>		<!-- The [icon:PROJECT_BREAK_SOUND_BARRIER] [b]{LOC_PROJECT_BREAK_SOUND_BARRIER_NAME} Project [/b]is complete, and you have achieved the second Milestone along the [b]{LOC_LEGACY_PATH_MODERN_SCIENCE_NAME} Legacy Path[/b]!
 				[n]Next Objective: Research [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_ROCKETRY_NAME}[/b], build a [icon:BUILDING_LAUNCH_PAD] [b]{LOC_BUILDING_LAUNCH_PAD_NAME}[/b], then complete [icon:PROJECT_LAUNCH_SATELLITE] [b]{LOC_PROJECT_LAUNCH_SATELLITE_NAME} Project[/b], the final Milestone along the [b]{LOC_LEGACY_PATH_MODERN_SCIENCE_NAME} Legacy Path[/b].

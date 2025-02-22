@@ -1052,7 +1052,7 @@
 			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม และ[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุคสำหรับแต่ละนครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- +2[icon:YIELD_CULTURE] Culture and[icon:YIELD_SCIENCE] Science per Age for each City-State you are Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_POLITICAL_08_DESCRIPTION" Language="th_TH">
-			<Text>+1 สล็อตนโยบายสังคม</Text>		<!-- +1 Social Policy slot. -->
+			<Text>+1 ช่องนโยบายสังคม</Text>		<!-- +1 Social Policy slot. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_POLITICAL_09_DESCRIPTION" Language="th_TH">
 			<Text>ปลดล็อก การก่อวินาศกรรม ทางทหาร</Text>		<!-- Unlock the Military Sabotage Espionage Action. -->
@@ -1418,7 +1418,7 @@
 			<Text>คุณไม่สามารถทำลายถิ่นฐานที่คุณก่อตั้งได้</Text>		<!-- You cannot raze a settlement that you have founded. -->
 		</Replace>
 		<Replace Tag="LOC_CITYCOMMAND_DESTROY_RAZE_CONDITIONS" Language="th_TH">
-			<Text>{1_Name} จะถูกทำลาย อย่างค่อยเป็นค่อยไป ในช่วงเวลา {2_NumTurns} เทิร์น ในช่วงเวลานี้ ถิ่นฐาน จะไม่สร้าง ผลตอบแทนใดๆ[n]ฝ่ายตรงข้าม ในสงครามปัจจุบันและอนาคตทั้งหมดจะได้รับ การสนับสนุนสงคราม 1 แต้ม เมื่อต้องเผชิญหน้ากับคุณ</Text>		<!-- {1_Name} will be gradually destroyed over a period of {2_NumTurns} Turns. During this time the settlement will not generate any yields.[n]Opponents in all current and future wars will gain 1 bonus War Support against you. -->
+			<Text>{1_Name} จะถูกทำลาย อย่างค่อยเป็นค่อยไป ในช่วงเวลา {2_NumTurns} เทิร์น ในช่วงเวลานี้ ถิ่นฐาน จะไม่สร้าง ผลตอบแทนใดๆ[n]ฝ่ายตรงข้าม ในสงครามปัจจุบัน และอนาคตทั้งหมด จะได้รับ การสนับสนุนสงคราม 1 แต้ม เมื่อต้องเผชิญหน้ากับคุณ</Text>		<!-- {1_Name} will be gradually destroyed over a period of {2_NumTurns} Turns. During this time the settlement will not generate any yields.[n]Opponents in all current and future wars will gain 1 bonus War Support against you. -->
 		</Replace>
 		<Replace Tag="LOC_CITYCOMMAND_EXPAND_NO_EXPANSION_PLOTS" Language="th_TH">
 			<Text>ถิ่นฐานนี้ไม่สามารถขยายได้ในขณะนี้</Text>		<!-- This Settlement cannot expand right now. -->
@@ -6139,7 +6139,7 @@
 			<Text>มารักกาลัม</Text>		<!-- Marakkalam  -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_MARAKKALAM_DESCRIPTION" Language="th_TH">
-			<Text>-2[icon:YIELD_GOLD] การบำรุงรักษาทอง สำหรับยูนิตนายเรือ</Text>		<!-- -2[icon:YIELD_GOLD] Gold maintenance for Naval Units. -->
+			<Text>-2[icon:YIELD_GOLD] ทอง สำหรับการบำรุงรักษา ยูนิตทางน้ำ</Text>		<!-- -2[icon:YIELD_GOLD] Gold maintenance for Naval Units. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_ANGADI_NAME" Language="th_TH">
 			<Text>อังคาดี</Text>		<!-- Angadi  -->
@@ -6620,7 +6620,7 @@
 			<Text>ใช้ [icon:YIELD_DIPLOMACY] อิทธิพล เพื่อสร้างมิตรภาพกับรัฐอิสระ, พวกเขาจะกลายเป็นนครรัฐที่มีคุณเป็นเจ้านครเมื่อเสร็จ</Text>		<!-- Spend [icon:YIELD_DIPLOMACY] Influence to befriend an Independent Power. Becomes a City-State with you as its Suzerain once completed. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_BECOME_SUZERAIN_NAME" Language="th_TH">
-			<Text>อิทซาพระหับ</Text>		<!-- Itsapharahab -->
+			<Text>อิสรภาพ</Text>		<!-- Itsapharahab -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_BECOME_SUZERAIN_INITIAL" Language="th_TH">
 			<Text>เปลี่ยนรัฐอิสระนี้ให้เป็นนครรัฐที่คุณเป็นผู้ปกครองทันที</Text>		<!-- Instantly turn this Independent Power into a City-State with you as its Suzerain. -->
@@ -7922,7 +7922,7 @@
 			<Text>เร่งพัฒนาเทคโนโลยี</Text>		<!-- Tech Boost -->
 		</Replace>
 		<Replace Tag="LOC_GOODYHUT_SCIENCE_GRANT_ONE_CODEX_DESCRIPTION" Language="th_TH">
-			<Text>รับ 1 คัมภีร์</Text>		<!-- Gain 1 Codex -->
+			<Text>ได้รับ 1 คัมภีร์</Text>		<!-- Gain 1 Codex -->
 		</Replace>
 		<Replace Tag="LOC_GOODYHUT_SURVIVORS_GRANT_MIGRANT_DESCRIPTION" Language="th_TH">
 			<Text>ผู้เข้ามาตั้งถิ่นฐานฟรี ในถิ่นฐานที่ใกล้ที่สุด</Text>		<!-- Free Migrant in nearest Settlement -->
@@ -21956,7 +21956,7 @@
 			<Text>โครงการทั่วไป</Text>		<!-- Common Project -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_URBAN_CENTER_NAME" Language="th_TH">
-			<Text>ใจกลางเมือง</Text>		<!-- Urban Center -->
+			<Text>ศูนย์กลางเมือง</Text>		<!-- Urban Center -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_URBAN_CENTER_DESCRIPTION" Language="th_TH">
 			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ[icon:YIELD_SCIENCE] วิทยาศาสตร์ บนย่านในเมืองนี้</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and[icon:YIELD_SCIENCE] Science on Quarters in this Town. -->
@@ -23028,7 +23028,7 @@
 			<Text>ชายฝั่ง</Text>		<!-- Coastal -->
 		</Replace>
 		<Replace Tag="LOC_TERRAIN_OCEAN_NAME" Language="th_TH">
-			<Text>เปิดมหาสมุทร</Text>		<!-- Open Ocean -->
+			<Text>น่านน้ำสากล</Text>		<!-- Open Ocean -->
 		</Replace>
 		<Replace Tag="LOC_TERRAIN_LAKE_NAME" Language="th_TH">
 			<Text>ทะเลสาบ (ชายฝั่ง)</Text>		<!-- Lake (Coastal) -->
@@ -25746,7 +25746,7 @@
 			<Text>ไม่สามารถสร้างเส้นทางการค้าเมื่อต้องทำกับอารยธรรมศัตรูได้</Text>		<!-- Cannot establish a Trade Route with an enemy Civilization. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_REQUIRES_MOVEMENT" Language="th_TH">
-			<Text>ต้องการการเคลื่อนไหว</Text>		<!-- Requires Movement -->
+			<Text>ต้องการแต้มเคลื่อนไหว</Text>		<!-- Requires Movement -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_ALREADY_UNPACKED_THIS_TURN" Language="th_TH">
 			<Text>ไม่สามารถเพิ่มยูนิตเข้าไปในกองทัพได้ในเทิร์นเดียวกับที่ยูนิตนั้นได้ทำการปลดออกจากกองทัพแล้ว</Text>		<!-- Units cannot be added to an army on the same turn they have unpacked from an army. -->
@@ -25773,13 +25773,13 @@
 			<Text>ต้องการภูมิประเทศเรียบหรือมีพืชคลุม</Text>		<!-- Requires Flat or Vegetated Terrain -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_TRADE_ROUTE_FAILURE_MORE_DIPLO_ONE" Language="th_TH">
-			<Text>เส้นทางการค้า 1 เส้นทางที่เป็นไปได้สำหรับอารยธรรมนี้ได้ถูกสร้างขึ้นแล้ว ดำเนินการทางการทูตเพื่อพัฒนาความสัมพันธ์ทางการค้าให้เสร็จสมบูรณ์เพื่อเพิ่มเส้นทางอีกเส้นทางหนึ่ง</Text>		<!-- The 1 Trade Route possible to this Civilization has already been established. Complete the Improve Trade Relations Diplomatic Action to add another route. -->
+			<Text>เส้นทางการค้า 1 เส้นทาง ที่เป็นไปได้สำหรับอารยธรรมนี้ ได้ถูกสร้างขึ้นแล้ว ดำเนินการทางการทูตเพื่อ พัฒนาความสัมพันธ์ทางการค้า ให้เสร็จสมบูรณ์เพื่อเพิ่มเส้นทางอีก เส้นทางหนึ่ง</Text>		<!-- The 1 Trade Route possible to this Civilization has already been established. Complete the Improve Trade Relations Diplomatic Action to add another route. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_TRADE_ROUTE_FAILURE_MORE_DIPLO" Language="th_TH">
 			<Text>เส้นทางการค้า {1_NumPossible} ที่เป็นไปได้สำหรับผู้เล่นนี้ได้ถูกสร้างขึ้นแล้ว</Text>		<!-- The {1_NumPossible} Trade Routes possible to this player have already been established. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_TRADE_ROUTE_FAILURE_NO_NEARBY_CITIES" Language="th_TH">
-			<Text>ไม่มีเส้นทางการค้าในขณะนี้ สำรวจแผนที่เพื่อค้นหาพันธมิตรทางการค้าใหม่ จัดตั้งเมืองใกล้กับอารยธรรมอื่นๆ หรือค้นหาวิธีการขยายระยะทางเส้นทางการค้าของคุณ</Text>		<!-- No Trade Routes currently possible. Explore the map to find new trade partners, establish Towns near other Civilizations, or find ways to extend your Trade Route range. -->
+			<Text>ไม่มีเส้นทางการค้าในขณะนี้ สำรวจแผนที่เพื่อค้นหาพันธมิตรทางการค้าใหม่ จัดตั้งเมืองใกล้กับอารยธรรมอื่นๆ หรือค้นหาวิธีการขยายระยะทา งเส้นทางการค้า ของคุณ</Text>		<!-- No Trade Routes currently possible. Explore the map to find new trade partners, establish Towns near other Civilizations, or find ways to extend your Trade Route range. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_REQUIRES_PACKED_UNIT" Language="th_TH">
 			<Text>การดำเนินการนี้ต้องการอากาศยาน ที่ภายใต้คำสั่งและมี แต้มการเคลื่อนไหวเพียงพอ</Text>		<!-- This action requires a packed eligible aircraft with movement points. -->
@@ -25956,10 +25956,10 @@
 			<Text>สร้างฐานทัพอากาศที่สถานที่ใหม่</Text>		<!-- Establish Air Base at a new location. -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_REBASE_NAME" Language="th_TH">
-			<Text>จัดวางเครื่องบินใหม่</Text>		<!-- Rebase Aircraft -->
+			<Text>ย้ายฐานประจำการ</Text>		<!-- Rebase Aircraft -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_REBASE_DESCRIPTION" Language="th_TH">
-			<Text>ย้ายเครื่องบินไปยังฐานทัพอากาศใหม่</Text>		<!-- Move Aircraft to a new Air Base. -->
+			<Text>ย้ายเครื่องบินไปยังฐานประจำการทางอากาศใหม่</Text>		<!-- Move Aircraft to a new Air Base. -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_AIR_ATTACK_NAME" Language="th_TH">
 			<Text>การโจมตีทางอากาศ</Text>		<!-- Air Strike -->
@@ -26259,7 +26259,7 @@
 			<Text>โจมตี</Text>		<!-- Raids -->
 		</Replace>
 		<Replace Tag="LOC_DISCIPLINE_AIRLIFT_OPERATIONS_NAME" Language="th_TH">
-			<Text>ปฏิบัติการยกพลขึ้นทางอากาศ</Text>		<!-- Airlift Operations -->
+			<Text>ปฏิบัติการยกพลทางอากาศ</Text>		<!-- Airlift Operations -->
 		</Replace>
 		<Replace Tag="LOC_DISCIPLINE_CARRIER_OPERATIONS_NAME" Language="th_TH">
 			<Text>การดำเนินงานของสายการบิน</Text>		<!-- Carrier Operations -->
@@ -26523,7 +26523,7 @@
 			<Text>สะเทินน้ำสะเทินบก</Text>		<!-- Amphibious -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_AMPHIBIOUS_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตบกภายในรัศมีคำสั่งจะไม่ถูกลงโทษการต่อสู้เมื่อโจมตีขณะอยู่บนยานพาหนะ การขึ้นและลงจากยานพาหนะจะใช้การเคลื่อนที่ 1 ยูนิต</Text>		<!-- Land Units within the Command Radius suffer no Combat penalties when attacking while embarked. It costs 1 Movement to Embark and Disembark. -->
+			<Text>ยูนิตบกภายในรัศมีคำสั่งจะไม่ถูกลงโทษการต่อสู้เมื่อโจมตี ขณะอยู่บนยานพาหนะ, การขึ้นและลงจากยานพาหนะ จะใช้แต้มเคลื่อนที่ 1 หน่วย</Text>		<!-- Land Units within the Command Radius suffer no Combat penalties when attacking while embarked. It costs 1 Movement to Embark and Disembark. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_AMPHIBIOUS_NAME" Language="th_TH">
 			<Text>สะเทินน้ำสะเทินบก</Text>		<!-- Amphibious -->
@@ -30523,19 +30523,19 @@
 			<Text>แต้มมรดกทางวิทยาศาสตร์</Text>		<!-- Scientific Legacy Point -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_POINT_SCIENCE_REWARD_DESCRIPTION" Language="th_TH">
-			<Text>รับ 1 คะแนนมรดกทางวิทยาศาสตร์ ใช้สำหรับโบนัสในยุคถัดไป</Text>		<!-- Gain 1 Scientific Legacy Point. Spent for bonuses in the next age. -->
+			<Text>ได้รับ 1 คะแนนมรดกทางวิทยาศาสตร์ ใช้สำหรับโบนัสในยุคถัดไป</Text>		<!-- Gain 1 Scientific Legacy Point. Spent for bonuses in the next age. -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_POINT_MILITARY_REWARD_NAME" Language="th_TH">
 			<Text>แต้มมรดกทางทหาร</Text>		<!-- Militaristic Legacy Point -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_POINT_MILITARY_REWARD_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับแต้มมรดกทางทหาร 1 แต้ม ใช้สำหรับโบนัสในยุคถัดไป</Text>		<!-- Gain 1 Militaristic Legacy Point. Spent for bonuses in the next age. -->
+			<Text>ได้รับ 1 คะแนนมรดกทางทหาร ใช้สำหรับโบนัสในยุคถัดไป</Text>		<!-- Gain 1 Militaristic Legacy Point. Spent for bonuses in the next age. -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_POINT_CULTURE_REWARD_NAME" Language="th_TH">
 			<Text>แต้มมรดกทางวัฒนธรรม</Text>		<!-- Cultural Legacy Point -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_POINT_CULTURE_REWARD_DESCRIPTION" Language="th_TH">
-			<Text>รับ 1 คะแนนมรดกทางวัฒนธรรม ใช้สำหรับโบนัสในยุคถัดไป</Text>		<!-- Gain 1 Cultural Legacy Point. Spent for bonuses in the next age. -->
+			<Text>ได้รับ 1 คะแนนมรดกทางวัฒนธรรม ใช้สำหรับโบนัสในยุคถัดไป</Text>		<!-- Gain 1 Cultural Legacy Point. Spent for bonuses in the next age. -->
 		</Replace>
 		<Replace Tag="LOC_MILITARY_BOOST_REWARD_NAME" Language="th_TH">
 			<Text>เพิ่มพลังการชนะทางทหาร</Text>		<!-- Military Victory Boost -->
