@@ -1040,7 +1040,7 @@
 			<Text>+1[icon:YIELD_HAPPINESS] ความสุข ในถิ่นฐานสำหรับแต่ละ ทรัพยากร ที่กำหนดให้พวกเขา</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness in Settlements for each Resource assigned to them. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_POLITICAL_04_DESCRIPTION" Language="th_TH">
-			<Text>+50%[icon:YIELD_DIPLOMACY] อิทธิพล ต่อการเริ่มต้นและความก้าวหน้า ของการกระทำการเป็นมิตรกับ รัฐอิสระ</Text>		<!-- +50%[icon:YIELD_DIPLOMACY] Influence towards initiating and progressing the Befriend Independent Action. -->
+			<Text>+50%[icon:YIELD_DIPLOMACY] อิทธิพล ต่อการเริ่มต้น และดำเนิน การกระทำผูกมิตรกับ รัฐอิสระ</Text>		<!-- +50%[icon:YIELD_DIPLOMACY] Influence towards initiating and progressing the Befriend Independent Action. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_POLITICAL_05_DESCRIPTION" Language="th_TH">
 			<Text>+25%[icon:YIELD_DIPLOMACY] อิทธิพล ต่อการสนับสนุนหรือ ปฏิเสธการกระทำทางการทูต</Text>		<!-- +25%[icon:YIELD_DIPLOMACY] Influence towards supporting or rejecting Diplomatic Actions. -->
@@ -5809,7 +5809,7 @@
 			<Text>ค่าย</Text>		<!-- Camp -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_PASTURE_NAME" Language="th_TH">
-			<Text>ทุ่งหญ้าเลี้ยงสัตว์</Text>		<!-- Pasture -->
+			<Text>ทุ่งหญ้า</Text>		<!-- Pasture -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_NAME" Language="th_TH">
 			<Text>พื้นที่เพาะปลูก</Text>		<!-- Plantation -->
@@ -5941,7 +5941,7 @@
 			<Text>เซเนีย</Text>		<!-- Xenia -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_XENIA_DESCRIPTION" Language="th_TH">
-			<Text>+50%[icon:YIELD_DIPLOMACY] อิทธิพล ต่อการเริ่มต้นและดำเนินโครงการสร้างมิตรกับประเทศอิสระ</Text>		<!-- +50%[icon:YIELD_DIPLOMACY] Influence towards the initiating and progressing the Befriend Independent Project. -->
+			<Text>+50%[icon:YIELD_DIPLOMACY] อิทธิพล ต่อการเริ่มต้น และดำเนิน โครงการผูกมิตรกับ รัฐอิสระ</Text>		<!-- +50%[icon:YIELD_DIPLOMACY] Influence towards the initiating and progressing the Befriend Independent Project. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_STRATEGOI_NAME" Language="th_TH">
 			<Text>กลยุทธ์</Text>		<!-- Strategoi -->
@@ -5959,7 +5959,7 @@
 			<Text>ลีกเพโลพอนนีส</Text>		<!-- Peloponnesian League -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_PELOPONNESIAN_LEAGUE_DESCRIPTION" Language="th_TH">
-			<Text>+30%[icon:YIELD_DIPLOMACY] อิทธิพล ในการเริ่มมีการคว่ำบาตร</Text>		<!-- +30%[icon:YIELD_DIPLOMACY] Influence towards initiating Sanctions. -->
+			<Text>+30%[icon:YIELD_DIPLOMACY] อิทธิพล ในการเริ่มต้น คว่ำบาตร</Text>		<!-- +30%[icon:YIELD_DIPLOMACY] Influence towards initiating Sanctions. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_GUANXI_NAME" Language="th_TH">
 			<Text>กวนซี</Text>		<!-- Guanxi -->
@@ -22163,7 +22163,7 @@
 			<Text>อูฐ</Text>		<!-- Camels -->
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_HIDES_NAME" Language="th_TH">
-			<Text>ซ่อน</Text>		<!-- Hides -->
+			<Text>หนังสัตว์</Text>		<!-- Hides -->
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_HORSES_NAME" Language="th_TH">
 			<Text>ม้า</Text>		<!-- Horses -->
@@ -22442,7 +22442,7 @@
 			<Text>ผลผลิตต่ำภายใน 3 ช่อง</Text>		<!-- Poor yields within 3 tiles -->
 		</Replace>
 		<Replace Tag="LOC_SETTLEMENT_RECOMMENDATION_POOR_INNER_YIELD" Language="th_TH">
-			<Text>ผลผลิตต่ำที่อยู่ติดกับไซต์นี้</Text>		<!-- Poor yields adjacent to this site -->
+			<Text>ผลผลิตต่ำที่อยู่ติดกับที่นี้</Text>		<!-- Poor yields adjacent to this site -->
 		</Replace>
 		<Replace Tag="LOC_SETTLEMENT_RECOMMENDATION_POOR_FRESH_WATER" Language="th_TH">
 			<Text>ขาดแคลนน้ำจืด</Text>		<!-- No fresh water at site -->
@@ -22451,7 +22451,7 @@
 			<Text>ทรัพยากรมีจำกัด</Text>		<!-- Scarce resources here -->
 		</Replace>
 		<Replace Tag="LOC_SETTLEMENT_RECOMMENDATION_POOR_COAST" Language="th_TH">
-			<Text>ไซต์อยู่ในแผ่นดิน</Text>		<!-- Site is inland -->
+			<Text>ที่นี่อยู่ในแผ่นดิน</Text>		<!-- Site is inland -->
 		</Replace>
 		<Replace Tag="LOC_SETTLEMENT_RECOMMENDATION_POOR_RESOURCES" Language="th_TH">
 			<Text>ม้า, เหล็ก, ดินประสิวมีจำนวนจำกัดที่นี่</Text>		<!-- Limited Horses, Iron, Niter seen here -->
@@ -22493,19 +22493,19 @@
 			<Text>ไม่มีภูมิประเทศที่ต้องการ</Text>		<!-- Lack of Preferred Terrain -->
 		</Replace>
 		<Replace Tag="LOC_SETTLEMENT_RECOMMENDATION_GOOD_TOTAL_YIELD" Language="th_TH">
-			<Text>ผลผลิตที่แข็งแกร่งภายใน 3 แผ่น</Text>		<!-- Strong yields within 3 tiles -->
+			<Text>ผลผลิตดีมากใน 3 ช่อง</Text>		<!-- Strong yields within 3 tiles -->
 		</Replace>
 		<Replace Tag="LOC_SETTLEMENT_RECOMMENDATION_GOOD_INNER_YIELD" Language="th_TH">
-			<Text>ผลผลิตที่แข็งแกร่งใกล้กับไซต์นี้</Text>		<!-- Strong yields adjacent to this site -->
+			<Text>ผลผลิตดีมากใกล้กับที่นี่</Text>		<!-- Strong yields adjacent to this site -->
 		</Replace>
 		<Replace Tag="LOC_SETTLEMENT_RECOMMENDATION_GOOD_FRESH_WATER" Language="th_TH">
-			<Text>เว็บไซต์นี้มีน้ำจืด</Text>		<!-- This site has fresh water -->
+			<Text>ที่นี่มีน้ำจืด</Text>		<!-- This site has fresh water -->
 		</Replace>
 		<Replace Tag="LOC_SETTLEMENT_RECOMMENDATION_GOOD_NEW_RESOURCES" Language="th_TH">
 			<Text>มีแนวโน้มที่จะได้รับทรัพยากรใหม่</Text>		<!-- Likely to gain new resources -->
 		</Replace>
 		<Replace Tag="LOC_SETTLEMENT_RECOMMENDATION_GOOD_COAST" Language="th_TH">
-			<Text>ไซต์อยู่ริมชายฝั่ง</Text>		<!-- Site is on coast -->
+			<Text>ที่นี่อยู่ริมชายฝั่ง</Text>		<!-- Site is on coast -->
 		</Replace>
 		<Replace Tag="LOC_SETTLEMENT_RECOMMENDATION_GOOD_RESOURCES" Language="th_TH">
 			<Text>ม้า เหล็ก หรือ ดินประสิว อยู่ใกล้เคียง</Text>		<!-- Horses, Iron, or Niter nearby -->
@@ -22526,7 +22526,7 @@
 			<Text>ใกล้กับสถานที่ที่เป็นมิตร</Text>		<!-- Close to a friendly site -->
 		</Replace>
 		<Replace Tag="LOC_SETTLEMENT_RECOMMENDATION_GOOD_TERRAIN" Language="th_TH">
-			<Text>ภูมิประเทศที่ต้องการ</Text>		<!-- Preferred Terrain -->
+			<Text>เป็นภูมิประเทศที่เหมาะสม</Text>		<!-- Preferred Terrain -->
 		</Replace>
 		<Replace Tag="LOC_MAIN_MENU_VERTICAL_SLICE" Language="th_TH">
 			<Text>แนวตั้งของชิ้นส่วน</Text>		<!-- Vertical Slice -->
@@ -23049,7 +23049,7 @@
 			<Text>ทุ่งหญ้า</Text>		<!-- Grassland -->
 		</Replace>
 		<Replace Tag="LOC_BIOME_PLAINS_NAME" Language="th_TH">
-			<Text>ที่ราบ</Text>		<!-- Plains -->
+			<Text>เรียบ</Text>		<!-- Plains -->
 		</Replace>
 		<Replace Tag="LOC_BIOME_TROPICAL_NAME" Language="th_TH">
 			<Text>เขตร้อน</Text>		<!-- Tropical -->
@@ -23067,10 +23067,10 @@
 			<Text>ภูมิประเทศที่ปรากฏในมหาสมุทร ทะเลสาบ หรือแม่น้ำ ปกติแล้วจะจมอยู่ใต้น้ำทั้งหมด แต่บางภูมิประเทศทางน้ำก็อาจโผล่เหนือน้ำหรือสามารถมองเห็นได้จากด้านบน</Text>		<!-- Terrain that appears in the ocean, lakes, or rivers. While usually completely submerged, some aquatic terrain breaks the surface of the water or can be visible from above. -->
 		</Replace>
 		<Replace Tag="LOC_FEATURE_CLASS_FLOODPLAIN_NAME" Language="th_TH">
-			<Text>ที่ราบน้ำท่วม</Text>		<!-- Floodplain -->
+			<Text>น้ำท่วม</Text>		<!-- Floodplain -->
 		</Replace>
 		<Replace Tag="LOC_FEATURE_CLASS_FLOODPLAIN_ADJ" Language="th_TH">
-			<Text>ที่ราบน้ำท่วม</Text>		<!-- Floodplain -->
+			<Text>น้ำท่วม</Text>		<!-- Floodplain -->
 		</Replace>
 		<Replace Tag="LOC_FEATURE_CLASS_FLOODPLAIN_DESC" Language="th_TH">
 			<Text>พื้นที่ติดกับแม่น้ำสายใหญ่ที่น้ำท่วมบ่อยๆ ส่งผลให้มีการสะสมตะกอนและสารอาหรเข้าที่ดิน ที่ลุ่มน้ำอาจเป็นพื้นที่ที่ไม่มั่นคงสำหรับการตั้งถิ่นฐาน แต่ความอุดมสมบูรณ์ของดินทำให้พื้นที่เหล่านี้มีคุณค่ามากสำหรับการเกษตรกรรม</Text>		<!-- Terrain adjacent to major rivers that regularly flood the area, depositing silt and nutrients into the soil. Floodplains can be unstable places to settle, but the richness of the land makes them highly valuable for agriculture. -->
@@ -30193,7 +30193,7 @@
 			<Text>มีคะแนนมรดกมากที่สุดเมื่อเกมจบลง</Text>		<!-- Have the most legacy points by the end of the game. -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_OPTION" Language="th_TH">
-			<Text>มรดกตัวเลือก สำหรับ ยุคถัดไป</Text>		<!-- Legacy Option for Next Age -->
+			<Text>ตัวเลือกมรดก สำหรับ ยุคถัดไป</Text>		<!-- Legacy Option for Next Age -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_GOLDEN_AGE_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณยุคทอง</Text>		<!-- Wonders of the Ancient World Golden Age -->
