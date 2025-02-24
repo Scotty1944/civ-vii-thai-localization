@@ -1082,13 +1082,13 @@
 			<Text>+1[icon:YIELD_GOLD] ทอง บนทรัพยากรในเมือง, หรือ +2 ในเมืองในดินแดนห่างไกล</Text>		<!-- +1[icon:YIELD_GOLD] Gold on Resources in Towns -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_07_DESCRIPTION" Language="th_TH">
-			<Text>+1 ความจุทรัพยากรในเมืองใหญ่, หรือ +2 หากคุณมีเมืองใหญ่ 3 แห่งหรือน้อยกว่า</Text>		<!-- +1 Resource Capacity in Cities, or +2 if you have 3 or fewer Cities. -->
+			<Text>+1 ความจุทรัพยากร ในเมืองใหญ่, หรือ +2 หากคุณมีเมืองใหญ่ 3 แห่งหรือน้อยกว่า</Text>		<!-- +1 Resource Capacity in Cities, or +2 if you have 3 or fewer Cities. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_08_DESCRIPTION" Language="th_TH">
 			<Text>+10%[icon:YIELD_GOLD] ทอง สำหรับทุกพันธมิตรที่คุณมี</Text>		<!-- +10%[icon:YIELD_GOLD] Gold for every Alliance you have. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_09_DESCRIPTION" Language="th_TH">
-			<Text>+1 ความจุทรัพยากรในเมือง</Text>		<!-- +1 Resource Capacity in Towns. -->
+			<Text>+1 ความจุทรัพยากร ในเมือง</Text>		<!-- +1 Resource Capacity in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_10_DESCRIPTION" Language="th_TH">
 			<Text>+5%[icon:YIELD_GOLD] ทอง (ทำซ้ำได้)</Text>		<!-- +5% total[icon:YIELD_GOLD] Gold. Repeatable. -->
@@ -6217,7 +6217,7 @@
 			<Text>แกรนด์ ซิเครทาเรียต</Text>		<!-- Grand Secretariat -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_GRAND_SECRETARIAT_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์ บนอาคารด้านทองและ +2[icon:YIELD_GOLD] ทอง บนอาคารด้านวิทยาศาสตร์</Text>		<!-- +2[icon:YIELD_SCIENCE] Science on Gold Buildings and +2[icon:YIELD_GOLD] Gold on Science buildings. -->
+			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์ บนอาคารด้านทอง และ +2[icon:YIELD_GOLD] ทอง บนอาคารด้านวิทยาศาสตร์</Text>		<!-- +2[icon:YIELD_SCIENCE] Science on Gold Buildings and +2[icon:YIELD_GOLD] Gold on Science buildings. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_BAGHATUR_NAME" Language="th_TH">
 			<Text>บากาตูร์</Text>		<!-- Baghatur -->
@@ -7958,7 +7958,7 @@
 			<Text>ยังเร็วเกินไปที่จะเริ่มสงคราม {1_turns} {1_turns: plural 1?เทิร์น; other?เทิร์น;} จนกว่าสงครามจะพร้อมใช้งาน</Text>		<!-- Too eary to start war. {1_turns} {1_turns: plural 1?turn; other?turns;} until war is available. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_FAILURE_REASON_WAR_FORMAL_NEEDS_HOSTILE" Language="th_TH">
-			<Text>ไม่สามารถเริ่มสงครามอย่างเป็นทางการได้หากไม่มีความสัมพันธ์ที่เป็นศัตรูอยู่แล้ว</Text>		<!-- Cannot start Formal War without already having a Hostile Relationship. -->
+			<Text>ไม่สามารถเริ่มสงครามอย่างเป็นทางการได้ หากไม่มีความสัมพันธ์ที่เป็นศัตรูอยู่แล้ว</Text>		<!-- Cannot start Formal War without already having a Hostile Relationship. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_FAILURE_REASON_PEACE_TOO_RECENT" Language="th_TH">
 			<Text>ไม่สามารถประกาศสงครามได้เร็วเกินไปหลังจากทำสันติภาพ {1_turns} {1_turns: plural 1?เทิร์น; other?เทิร์น;} จนกว่าการทำสงครามจะสามารถทำได้</Text>		<!-- Can't declare war too soon after making peace. {1_turns} {1_turns: plural 1?turn; other?turns;} until war is available. -->
@@ -9794,10 +9794,10 @@
 			<Text>ได้โปรดเปิดปรโลกไว้ให้ข้าได้สามารถพบพ่อของข้า โอซิริส และขับไล่ความมืด เพราะข้าเป็นที่รักของท่าน วิญญาณทั้งหลาย จงเตรียมทางให้ข้าเถอะ</Text>		<!-- Open the Netherworld so that I may see my father Osiris and drive away darkness, for I am beloved of him. All you spirits, prepare a path for me. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_DEAL_ACCEPTED_LEADER_HATSHEPSUT" Language="th_TH">
-			<Text>แม่น้ำจะบันดาลพร</Text>		<!-- The river brings blessings. -->
+			<Text>แม่น้ำจะบันดาลพรให้กับสิ่งนี้</Text>		<!-- The river brings blessings. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_DEAL_REJECTED_LEADER_HATSHEPSUT" Language="th_TH">
-			<Text>เราต้องโยนสิ่งนี้ลงไปในน้ำเชี่ยว</Text>		<!-- We must cast this downstream. -->
+			<Text>เราจะต้องโยนข้อเสนอบ้าๆนี้ ลงไปในน้ำเชียวล่ะ</Text>		<!-- We must cast this downstream. -->
 		</Replace>
 		<Replace Tag="LOC_MAIN_CHAR_SELECT_LEADER_HIMIKO_ANY" Language="th_TH">
 			<Text>ดวงอาทิตย์ส่องแสงมายังข้า ลูกสาวของเธอ ต่อหน้าศัตรูของข้า มันจะต้องถูกเผาทั้งเป็น</Text>		<!-- The sun shines upon me, her daughter. Upon my enemies, it will burn. -->
@@ -10052,7 +10052,7 @@
 			<Text>อามินา</Text>		<!-- Amina -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_AMINA_DESCRIPTION" Language="th_TH">
-			<Text>+1 ความจุทรัพยากรในเมือง, +1 [icon:YIELD_GOLD] ทอง ต่อยุคสำหรับทรัพยากรแต่ละชนิดที่จัดสรรให้กับเมือง, ยูนิตทั้งหมดได้รับ +5 พลังต่อสู้ในที่ราบและทะเลทราย</Text>		<!-- +1 Resource Capacity in Cities. +1 [icon:YIELD_GOLD] Gold per Age for each Resource assigned to Cities. All Units receive +5 Combat Strength in Plains and Desert. -->
+			<Text>+1 ความจุทรัพยากร ในเมืองใหญ่, +1 [icon:YIELD_GOLD] ทอง ต่อยุคสำหรับทรัพยากรแต่ละชนิดที่จัดสรรให้กับเมือง, ยูนิตทั้งหมดได้รับ +5 พลังต่อสู้ในที่ราบและทะเลทราย</Text>		<!-- +1 Resource Capacity in Cities. +1 [icon:YIELD_GOLD] Gold per Age for each Resource assigned to Cities. All Units receive +5 Combat Strength in Plains and Desert. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_AMINA_ABILITY_NAME" Language="th_TH">
 			<Text>นักรบ-ราชินีแห่งซาซเซา</Text>		<!-- Warrior-Queen of Zazzau -->
@@ -21923,7 +21923,7 @@
 			<Text>เพิ่มการเติบโตของเมืองขึ้น 50% [icon:YIELD_PRODUCTION]กำลังผลิตทั้งหมดของเมือง จะถูกเปลี่ยนเป็น [icon:YIELD_GOLD]ทอง</Text>		<!-- Increases Town's Growth by 50%. All of the Town's[icon:YIELD_PRODUCTION] Production is converted into[icon:YIELD_GOLD] Gold. -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_DEFAULT_TOOLTIP_DESCRIPTION" Language="th_TH">
-			<Text>การผลิตทั้งหมด ของเมืองจะถูกแปลงเป็น [icon:YIELD_GOLD]ทอง, [icon:YIELD_FOOD]อาหารทั้งหมด ของเมืองจะถูกส่ง ไปยังเมืองที่เชื่อมต่อกัน</Text>		<!-- All of the Town's[icon:YIELD_PRODUCTION] Production is converted into[icon:YIELD_GOLD] Gold. All of the Town's[icon:YIELD_FOOD] Food is sent to Connected Cities. -->
+			<Text>กำลังผลิตทั้งหมด ของเมืองจะถูกแปลงเป็น [icon:YIELD_GOLD]ทอง, [icon:YIELD_FOOD]อาหารทั้งหมด ของเมืองจะถูกส่ง ไปยังเมืองที่เชื่อมต่อกัน</Text>		<!-- All of the Town's[icon:YIELD_PRODUCTION] Production is converted into[icon:YIELD_GOLD] Gold. All of the Town's[icon:YIELD_FOOD] Food is sent to Connected Cities. -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_CITY_SCIENCE_PROJECT_NAME" Language="th_TH">
 			<Text>เริ่มการวิจัย</Text>		<!-- Research Initiative -->
