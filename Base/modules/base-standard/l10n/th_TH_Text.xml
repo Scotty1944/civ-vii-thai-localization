@@ -1667,7 +1667,7 @@
 			<Text>เมจิญี่ปุ่น</Text>		<!-- Meiji Japan -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_MEXICO_FULLNAME" Language="th_TH">
-			<Text>จักรวรรดิเหม็กซิกัน</Text>		<!-- Mexican Empire -->
+			<Text>จักรวรรดิเม็กซิกัน</Text>		<!-- Mexican Empire -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_MUGHAL_FULLNAME" Language="th_TH">
 			<Text>จักรวรรดิโมกุล</Text>		<!-- Mughal Empire -->
@@ -2138,7 +2138,7 @@
 			<Text>เพื่อจะชนะความสำเร็จทางทหาร ผู้เล่นต้องทำตามสามขั้นตอน ก่อนอื่น ต้องทำเส้นทางมรดกทางทหารสมัยใหม่ให้สำเร็จ ซึ่งจะปลดล็อกโครงการแมนฮัตตันให้สามารถสร้างในเมืองได้ เมื่อผู้เล่นสร้างโครงการแมนฮัตตันแล้ว พวกเขาจะสามารถดำเนินโครงการไอวี่ในหนึ่งในเมืองของพวกเขาได้</Text>		<!-- To win a military victory, players must complete three steps. First, the Modern Military Legacy Path must be completed, which will unlock the Manhattan Project Wonder to build in a City. Once a player has built the Manhattan Project, they will able to to conduct an Operation Ivy Project in one of their Cities. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_23_CHAPTER_CONTENT_PARA_2" Language="th_TH">
-			<Text>ผู้เล่นที่สำเร็จโครงการ ปฏิบัติการไอวี่" จะได้รับชัยชนะทางทหารทันที คะแนนมรดกทางทหารที่ได้รับจากทุกยุคจะเพิ่มการผลิตในการสร้างโครงการแมนฮัตตันและโครงการ ปฏิบัติการไอวี่"</Text>		<!-- A player who completes the Operation Ivy Project will immediately win a military victory. Military Legacy points earned across all ages will increase Production towards building the Manhattan Project and Operation Ivy. -->
+			<Text>ผู้เล่นที่สำเร็จโครงการ "ปฏิบัติการไอวี่" จะได้รับชัยชนะทางทหารทันที คะแนนมรดกทางทหารที่ได้รับจากทุกยุคจะเพิ่มการผลิตในการสร้าง โครงการ "แมนฮัตตัน" และโครงการ "ปฏิบัติการไอวี่"</Text>		<!-- A player who completes the Operation Ivy Project will immediately win a military victory. Military Legacy points earned across all ages will increase Production towards building the Manhattan Project and Operation Ivy. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_24_TITLE" Language="th_TH">
 			<Text>ยุคโบราณ: สิ่งมหัศจรรย์แห่งโลกโบราณ</Text>		<!-- Antiquity: Wonders of the Ancient World -->
@@ -4573,7 +4573,7 @@
 			<Text>+{1_Value} ทหารม้าเข้าพุ่ง</Text>		<!-- +{1_Value} Cavalry Charge -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_DAMAGED_UNIT_DESC" Language="th_TH">
-			<Text>รับการโจมตี {1_Value} หน่วย</Text>		<!-- {1_Value} Damaged Unit -->
+			<Text>{1_Value} ยูนิตได้รับความเสียหาย</Text>		<!-- {1_Value} Damaged Unit -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_AMPHIBIOUS_ATTACK_PENALTY" Language="th_TH">
 			<Text>{1_Value} การโจมตีแบบสะเทินน้ำ</Text>		<!-- {1_Value} Amphibious Attack -->
@@ -4729,7 +4729,7 @@
 			<Text>จากประชากร</Text>		<!-- From Population -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_YIELD_FROM_RESOURCES" Language="th_TH">
-			<Text>จากแหล่งข้อมูล</Text>		<!-- From Resources -->
+			<Text>จากทรัพยากร</Text>		<!-- From Resources -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_YIELD_FROM_TRADE" Language="th_TH">
 			<Text>จากการค้า</Text>		<!-- From Trade -->
@@ -5182,7 +5182,7 @@
 			<Text>{1_Number} {2_YieldName}</Text>		<!-- , {1_Amount} {2_YieldName} -->
 		</Replace>
 		<Replace Tag="LOC_UI_RESOURCE_ALLOCATION_TITLE" Language="th_TH">
-			<Text>แหล่งข้อมูล</Text>		<!-- Resources -->
+			<Text>ทรัพยากร</Text>		<!-- Resources -->
 		</Replace>
 		<Replace Tag="LOC_UI_RESOURCE_ALLOCATION_RESOURCES" Language="th_TH">
 			<Text>ทรัพยากร</Text>		<!-- Resources -->
@@ -6311,13 +6311,13 @@
 			<Text>ขบวนค้นหาทอง</Text>		<!-- Gold Rush -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_GOLD_RUSH_DESCRIPTION" Language="th_TH">
-			<Text>+5[icon:YIELD_GOLD] ทอง ในถิ่นฐานสำหรับทุกทรัพยากรที่มอบหมายให้กับพวกเขา</Text>		<!-- +5[icon:YIELD_GOLD] Gold in Settlements for every Resource assigned to them. -->
+			<Text>+5[icon:YIELD_GOLD] ทอง ในถิ่นฐานสำหรับทุกทรัพยากร ที่จัดสรรให้กับพวกเขา</Text>		<!-- +5[icon:YIELD_GOLD] Gold in Settlements for every Resource assigned to them. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_ROBBER_BARON_NAME" Language="th_TH">
 			<Text>เจ้าสัวผู้ผูกขาด</Text>		<!-- Robber Baron -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_ROBBER_BARON_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_DIPLOMACY] อิทธิพล ในถิ่นฐานสำหรับทุกทรัพยากรที่จัดสรรให้กับพวกเขา</Text>		<!-- +2 [icon:YIELD_DIPLOMACY] Influence in Settlements for every Resource assigned to them. -->
+			<Text>+2 [icon:YIELD_DIPLOMACY] อิทธิพล ในถิ่นฐานสำหรับทุกทรัพยากร ที่จัดสรรให้กับพวกเขา</Text>		<!-- +2 [icon:YIELD_DIPLOMACY] Influence in Settlements for every Resource assigned to them. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_LEND_LEASE_NAME" Language="th_TH">
 			<Text>ให้ยืม-เช่า</Text>		<!-- Lend-Lease -->
@@ -6899,7 +6899,7 @@
 			<Text>คุณจะสูญเสียความสุข 10% [icon:YIELD_HAPPINESS] ต่อเทิร์น</Text>		<!-- You lose 10% [icon:YIELD_HAPPINESS] Happiness per turn. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_SABOTAGE_MORALE_REJECT" Language="th_TH">
-			<Text>ยกเลิกการดำเนินการทางการทูต</Text>		<!-- Cancels the Diplomatic Action. -->
+			<Text>ยกเลิกการดำเนินการทางการทูตนี้</Text>		<!-- Cancels the Diplomatic Action. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_SABOTAGE_RESEARCH_NAME" Language="th_TH">
 			<Text>ขัดขวางการวิจัย</Text>		<!-- Hinder Research -->
@@ -6920,7 +6920,7 @@
 			<Text>คุณจะสูญเสีย 10%[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น</Text>		<!-- You lose 10%[icon:YIELD_SCIENCE] Science per turn. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_SABOTAGE_RESEARCH_REJECT" Language="th_TH">
-			<Text>ยกเลิกการดำเนินการทางการทูต</Text>		<!-- Cancels the Diplomatic Action. -->
+			<Text>ยกเลิกการดำเนินการทางการทูตนี้</Text>		<!-- Cancels the Diplomatic Action. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_SABOTAGE_CIVIC_STUDY_NAME" Language="th_TH">
 			<Text>ขัดขวางการศึกษาเกี่ยวกับแนวคิด</Text>		<!-- Hinder Civic Study -->
@@ -6941,7 +6941,7 @@
 			<Text>คุณสูญเสีย 10%[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น</Text>		<!-- You lose 10%[icon:YIELD_CULTURE] Culture per turn. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_SABOTAGE_CIVIC_STUDY_REJECT" Language="th_TH">
-			<Text>ยกเลิกการดำเนินการทางการทูต</Text>		<!-- Cancels the Diplomatic Action. -->
+			<Text>ยกเลิกการดำเนินการทางการทูตนี้</Text>		<!-- Cancels the Diplomatic Action. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_SABOTAGE_MILITARY_PRODUCTION_NAME" Language="th_TH">
 			<Text>ขัดขวางกำลังผลิตทางทหาร</Text>		<!-- Hinder Military Production -->
@@ -6962,7 +6962,7 @@
 			<Text>ยูนิตทหารมีค่าใช้จ่ายในการฝึกอบรมคุณเพิ่มขึ้น 20%[icon:YIELD_PRODUCTION]</Text>		<!-- Military Units cost you 20% more[icon:YIELD_PRODUCTION] Production to train. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_SABOTAGE_MILITARY_PRODUCTION_REJECT" Language="th_TH">
-			<Text>ยกเลิกการดำเนินการทางการทูต</Text>		<!-- Cancels the Diplomatic Action. -->
+			<Text>ยกเลิกการดำเนินการทางการทูตนี้</Text>		<!-- Cancels the Diplomatic Action. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_SABOTAGE_TRADE_CAPACITY_NAME" Language="th_TH">
 			<Text>คอนติเนนตัล</Text>		<!-- Continental System -->
@@ -6983,7 +6983,7 @@
 			<Text>ขีดจำกัดเส้นทางการค้า ของคุณกับอารยธรรมอื่นทั้งหมดจะลดลง 1 ตลอดระยะเวลาของการดำเนินการทางการทูต เส้นทางการค้าที่เกินมาจะถูกทำลาย</Text>		<!-- Your Trade Route Limit with all other Civilizations is reduced by 1 for the duration of the Diplomatic Action. Excess Trade Routes are destroyed. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_SABOTAGE_TRADE_CAPACITY_REJECT" Language="th_TH">
-			<Text>ยกเลิกการดำเนินการทางการทูต</Text>		<!-- Cancels the Diplomatic Action. -->
+			<Text>ยกเลิกการดำเนินการทางการทูตนี้</Text>		<!-- Cancels the Diplomatic Action. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_SABOTAGE_FOOD_PRODUCTION_NAME" Language="th_TH">
 			<Text>ขัดขวางการเกษตร</Text>		<!-- Hinder Agriculture -->
@@ -7004,10 +7004,10 @@
 			<Text>[icon:YIELD_FOOD] อาหารในถิ่นฐานลดลง 20%</Text>		<!-- [icon:YIELD_FOOD] Food in the Settlement is reduced by 20%. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_SABOTAGE_FOOD_PRODUCTION_REJECT" Language="th_TH">
-			<Text>ยกเลิกการดำเนินการทางการทูต</Text>		<!-- Cancels the Diplomatic Action. -->
+			<Text>ยกเลิกการดำเนินการทางการทูตนี้</Text>		<!-- Cancels the Diplomatic Action. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CANCEL_ACTION" Language="th_TH">
-			<Text>ยกเลิกการดำเนินการทางการทูต</Text>		<!-- Cancels the Diplomatic Action. -->
+			<Text>ยกเลิกการดำเนินการทางการทูตนี้</Text>		<!-- Cancels the Diplomatic Action. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_SEND_DELEGATION_NAME" Language="th_TH">
 			<Text>ปรองดอง</Text>		<!-- Reconciliation -->
@@ -7025,7 +7025,7 @@
 			<Text>ความสัมพันธ์ของคุณจะเพิ่มขึ้น 30 ในช่วงเวลาที่ {3_duration} ครั้ง</Text>		<!-- Your Relationship will increase by 30 over {3_duration} turns. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_SEND_DELEGATION_REJECT" Language="th_TH">
-			<Text>ยกเลิกการดำเนินการทางการทูต</Text>		<!-- Cancels the Diplomatic Action. -->
+			<Text>ยกเลิกการดำเนินการทางการทูตนี้</Text>		<!-- Cancels the Diplomatic Action. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_DENOUNCE_NAME" Language="th_TH">
 			<Text>ประณาม</Text>		<!-- Denounce -->
@@ -7043,7 +7043,7 @@
 			<Text>ความสัมพันธ์ของคุณจะลดลง 60 ในระยะเวลา {3_duration} เทิร์น</Text>		<!-- Your Relationship will decrease by 60 over {3_duration} turns. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_DENOUNCE_REJECT" Language="th_TH">
-			<Text>ยกเลิกการดำเนินการทางการทูต</Text>		<!-- Cancels the Diplomatic Action. -->
+			<Text>ยกเลิกการดำเนินการทางการทูตนี้</Text>		<!-- Cancels the Diplomatic Action. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_DENOUNCE_MILITARY_PRESENCE_ACCEPT" Language="th_TH">
 			<Text>ตกลงที่จะไม่โจมตีอารยธรรมอื่นในระยะเวลาของการดำเนินการทางการฑูตนี้ หากทำการก่อสงครามในระหว่างนั้นผู้ก่อจะได้รับผลกระทบจากสงครามเต็มๆ</Text>		<!-- Agree to not attack the other Civilization for the duration of this Diplomatic Action. Doing so will result in War Weariness at the start of the war. -->
@@ -7082,13 +7082,13 @@
 			<Text>นครรัฐ - ส่งเสริมการเติบโต</Text>		<!-- City-State - Promote Growth -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CS_PROMOTE_GROWTH_NO_DATA" Language="th_TH">
-			<Text>ส่งเสริมการเติบโตของนครรัฐโดยการช่วยให้เพิ่มการผลิต[icon:YIELD_FOOD] อาหาร </Text>		<!-- Promote the growth of a City-State by helping it generate[icon:YIELD_FOOD] Food. -->
+			<Text>ส่งเสริมการเติบโตของนครรัฐ โดยการช่วยให้เพิ่มการผลิต[icon:YIELD_FOOD] อาหาร </Text>		<!-- Promote the growth of a City-State by helping it generate[icon:YIELD_FOOD] Food. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CS_PROMOTE_GROWTH_INITIAL" Language="th_TH">
-			<Text>ส่งเสริมการเติบโตของนครรัฐโดยการช่วยให้เพิ่มการผลิต[icon:YIELD_FOOD] อาหาร กำลังผลิตเพิ่มอีก 15[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในขณะที่การกระทำทางการทูตยังคงดำเนินอยู่</Text>		<!-- Promote the growth of a City-State by helping it generate[icon:YIELD_FOOD] Food. It generates an additional 15[icon:YIELD_FOOD] Food per turn while the Diplomatic Action is active. -->
+			<Text>ส่งเสริมการเติบโตของนครรัฐ โดยการช่วยให้เพิ่มการผลิต[icon:YIELD_FOOD] อาหาร กำลังผลิต เพิ่มอีก 15[icon:YIELD_FOOD] อาหาร ต่อเทิร์น ในขณะที่การกระทำทางการทูตยังคงดำเนินอยู่</Text>		<!-- Promote the growth of a City-State by helping it generate[icon:YIELD_FOOD] Food. It generates an additional 15[icon:YIELD_FOOD] Food per turn while the Diplomatic Action is active. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CS_PROMOTE_GROWTH" Language="th_TH">
-			<Text>ส่งเสริมการเติบโตของนครรัฐโดยการช่วยให้เพิ่มการผลิต[icon:YIELD_FOOD] อาหาร กำลังผลิตเพิ่มอีก 15[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในขณะที่การกระทำทางการทูตยังคงดำเนินอยู่</Text>		<!-- Promote the growth of a City-State by helping it generate[icon:YIELD_FOOD] Food. It generates an additional 15[icon:YIELD_FOOD] Food per turn while the Diplomatic Action is active. -->
+			<Text>ส่งเสริมการเติบโตของนครรัฐ โดยการช่วยให้เพิ่มการผลิต[icon:YIELD_FOOD] อาหาร กำลังผลิต เพิ่มอีก 15[icon:YIELD_FOOD] อาหาร ต่อเทิร์น ในขณะที่การกระทำทางการทูตยังคงดำเนินอยู่</Text>		<!-- Promote the growth of a City-State by helping it generate[icon:YIELD_FOOD] Food. It generates an additional 15[icon:YIELD_FOOD] Food per turn while the Diplomatic Action is active. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CS_REVEAL_MAP_NAME" Language="th_TH">
 			<Text>นครรัฐ - แสดงแผนที่</Text>		<!-- City-State - Reveal Map -->
@@ -8393,7 +8393,7 @@
 			<Text>คว่ำบาตร</Text>		<!-- Sanctions -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PEACE_DEAL_SELECT_SETTLEMENTS" Language="th_TH">
-			<Text>เลือกถิ่นฐานสำหรับผู้นำในการค้า</Text>		<!-- Select Settlements for leaders to trade -->
+			<Text>เลือกถิ่นฐานสำหรับใช้ในการแลกเปลี่ยน</Text>		<!-- Select Settlements for leaders to trade -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PEACE_DEAL_THEIR_SETTLEMENTS" Language="th_TH">
 			<Text>ถิ่นฐานของพวกเขา</Text>		<!-- Their Settlements -->
@@ -8411,7 +8411,7 @@
 			<Text>เจ้าของใหม่</Text>		<!-- New Owner -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PEACE_DEAL_TO_END" Language="th_TH">
-			<Text>จบ</Text>		<!-- To End -->
+			<Text>ไปสู่การจบ</Text>		<!-- To End -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PEACE_DEAL_OFFER" Language="th_TH">
 			<Text>ข้อเสนอ</Text>		<!-- Offer -->
@@ -10322,13 +10322,13 @@
 			<Text>หลังจากสงครามกลางเมืองในกรุงโรม ออกัสตัส ได้รวบรวมสาธารณรัฐที่แตกแยกเป็น จักรวรรดิที่ขยายจากทะเลเหนือไปยังอียิปต์ แม้จะมีความกลัวของชาวโรมันต่อผู้ปกครองที่เป็นทรราช เขาก็สามารถสร้างอำนาจเพียงคนเดียว ในขณะที่ยังคงรักษาโครงสร้างของสาธารณรัฐเก่าไว้อย่างเห็นได้ชัด เขาขยายพรมแดนของโรมผ่านรัฐลูกและการจัดระเบียบกองทัพใหม่ ปฏิรูปกฎหมายภาษี และก่อตั้งพิธีบูชาอาณาจักร ภาพลักษณ์สมัยใหม่ของจักรวรรดิโรมัน ส่วนใหญ่เป็นภาพตามวิสัยทัศน์ของ ออกัสตัส</Text>		<!-- Emerging from Rome’s civil wars, Augustus consolidated the fractious republic into an empire stretching from the North Sea to Egypt. Despite the Roman fear of tyrants, he achieved sole power while outwardly maintaining the old republic’s structures. He expanded Rome’s borders via client states and a reorganized army, reformed the tax code, and inaugurated the imperial cult. The modern image of Imperial Rome is largely the one of Augustus’ vision. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_BENJAMIN_FRANKLIN" Language="th_TH">
-			<Text>ในอเมริกายุคอาณานิคม มีบุคคลไม่กี่คนที่ฉายแสงเท่ากับเบนจามิน แฟรงคลิน เริ่มต้นจากการเป็นช่างพิมพ์ธรรมดา เขาได้สร้างชื่อเสียงให้กับตัวเองในฐานะผู้เผยแพร่หนังสือพิมพ์ที่โดดเด่น ในปี 1747 เขาเข้าสู่การเมืองและกลายเป็นหนึ่งในบิดาแห่งชาติ โดยมีส่วนร่วมในการร่างและลงนามในเอกสารประกาศอิสรภาพ แฟรงคลินเป็นคนที่ไม่หยุดนิ่งในความรู้และยังได้ให้การสนับสนุนด้านวิทยาศาสตร์ในหลายสาขาที่หลากหลาย เช่น ไฟฟ้าและมหาสมุทรวิทยา</Text>		<!-- In colonial America, few individuals shone as brightly as Benjamin Franklin. Beginning as a humble printer, he soon established himself as a prominent newspaper publisher. In 1747, he moved into politics and became one of the Founding Fathers, participating in the drafting and signing of the Declaration of Independence. A restless polymath, Franklin also made many contributions to science in fields as diverse as electricity and oceanography. -->
+			<Text>ในอเมริกายุคอาณานิคม มีบุคคลไม่กี่คนที่ฉายแสงเท่ากับเบนจามิน แฟรงคลิน เริ่มต้นจากการเป็นช่างพิมพ์ธรรมดา เขาได้สร้างชื่อเสียงให้กับตัวเองในฐานะผู้เผยแพร่หนังสือพิมพ์ที่โดดเด่น ในปี ค.ศ. 1747 เขาเข้าสู่การเมืองและกลายเป็นหนึ่งในบิดาแห่งชาติ โดยมีส่วนร่วมในการร่างและลงนามในเอกสารประกาศอิสรภาพ แฟรงคลินเป็นคนที่ไม่หยุดนิ่งในความรู้และยังได้ให้การสนับสนุนด้านวิทยาศาสตร์ในหลายสาขาที่หลากหลาย เช่น ไฟฟ้าและมหาสมุทรวิทยา</Text>		<!-- In colonial America, few individuals shone as brightly as Benjamin Franklin. Beginning as a humble printer, he soon established himself as a prominent newspaper publisher. In 1747, he moved into politics and became one of the Founding Fathers, participating in the drafting and signing of the Declaration of Independence. A restless polymath, Franklin also made many contributions to science in fields as diverse as electricity and oceanography. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_CATHERINE" Language="th_TH">
-			<Text>เกิดเป็นเจ้าหญิงจากเยอรมนี คาเธอรีนมหาราชาได้โค่นสามีของเธอในปี 1762 เพื่อขึ้นเป็นจักรพรรดินีแห่งรัสเซีย ด้วยวิสัยทัศน์ในการพัฒนา เธอได้สร้างแบบอย่างใหม่ของกฎหมายและการปกครอง และดูแลยุคของการขยายตัวอย่างรวดเร็ว ทั้งจากการสงครามและการทูต โดยมีแรงจูงใจจากความอยากรู้ทางปัญญา และความรักในศิลปะ คาเธอรีนยังได้สนับสนุนผู้สร้างสรรค์ นักวิชาการ และนักวิทยาศาสตร์ ส่งเสริมการตรัสรู้ของรัสเซียและสภาพแวดล้อมของนวัตกรรม</Text>		<!-- Born a German princess, Catherine the Great overthrew her husband in 1762 to become Empress of Russia. Guided by a vision of modernization, she established new models of law and governance, and oversaw an era of rapid expansion through war and diplomacy. Motivated by intellectual curiosity and love of the arts, Catherine also sponsored creatives, scholars, and scientists, fostering the Russian Enlightenment and its environment of innovation. -->
+			<Text>เกิดเป็นเจ้าหญิงจากเยอรมนี แคทเธอรีนมหาราชาได้โค่นสามีของเธอในปี ค.ศ. 1762 เพื่อขึ้นเป็นจักรพรรดินีแห่งรัสเซีย ด้วยวิสัยทัศน์ในการพัฒนา เธอได้สร้างแบบอย่างใหม่ของกฎหมายและการปกครอง และดูแลยุคของการขยายตัวอย่างรวดเร็ว ทั้งจากการสงครามและการทูต โดยมีแรงจูงใจจากความอยากรู้ทางปัญญา และความรักในศิลปะ แคทเธอรีนยังได้สนับสนุนผู้สร้างสรรค์ นักวิชาการ และนักวิทยาศาสตร์ ส่งเสริมการตรัสรู้ของรัสเซียและสภาพแวดล้อมของนวัตกรรม</Text>		<!-- Born a German princess, Catherine the Great overthrew her husband in 1762 to become Empress of Russia. Guided by a vision of modernization, she established new models of law and governance, and oversaw an era of rapid expansion through war and diplomacy. Motivated by intellectual curiosity and love of the arts, Catherine also sponsored creatives, scholars, and scientists, fostering the Russian Enlightenment and its environment of innovation. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_CHARLEMAGNE" Language="th_TH">
-			<Text>ชาร์ลส์ผู้ยิ่งใหญ่ หรือ ชาร์ลมาญ เริ่มต้นอาชีพของเขาในฐานะกษัตริย์แห่งเฝรงค์ในปี ค.ศ. 768 เขาสืบทอดประชากรที่หลากหลายและไม่สงบ เขาได้สร้างอาณาจักรของเขาใหม่ โดยการรวมประเพณีเก่ากับรูปแบบการปกครองใหม่ และขยายอาณาจักรที่ทอดยาวไปทั่วยุโรป นอกจากความเฉลียวฉลาดทางการเมืองแล้ว ความอยากรู้ตามธรรมชาติของ ชาร์ลมาญ ยังสนับสนุนยุคฟื้นฟูศิลปวิทยาของคาโรลินเจียน ทำให้พระราชวังของเขากลายเป็นศูนย์กลางสำหรับนักการทูตและปัญญาชนเช่นกัน</Text>		<!-- Charles the Great, or Charlemagne, began his career as King of the Franks in 768 CE. Having inherited a diverse and restless population, he reforged his kingdom by integrating old traditions with new forms of governance and grew an empire that stretched across Europe. In addition to his political acumen, Charlemagne’s natural curiosity encouraged the Carolingian Renaissance, transforming his court into a hub for diplomats and intellectuals alike. -->
+			<Text>ชาร์ลส์ผู้ยิ่งใหญ่ หรือ ชาร์เลอมาญ เริ่มต้นอาชีพของเขาในฐานะกษัตริย์แห่งเฝรงค์ในปี ค.ศ. 768 เขาสืบทอดประชากรที่หลากหลายและไม่สงบ เขาได้สร้างอาณาจักรของเขาใหม่ โดยการรวมประเพณีเก่ากับรูปแบบการปกครองใหม่ และขยายอาณาจักรที่ทอดยาวไปทั่วยุโรป นอกจากความเฉลียวฉลาดทางการเมืองแล้ว ความอยากรู้ตามธรรมชาติของ ชาร์ลมาญ ยังสนับสนุนยุคฟื้นฟูศิลปวิทยาของคาโรลินเจียน ทำให้พระราชวังของเขากลายเป็นศูนย์กลางสำหรับนักการทูตและปัญญาชนเช่นกัน</Text>		<!-- Charles the Great, or Charlemagne, began his career as King of the Franks in 768 CE. Having inherited a diverse and restless population, he reforged his kingdom by integrating old traditions with new forms of governance and grew an empire that stretched across Europe. In addition to his political acumen, Charlemagne’s natural curiosity encouraged the Carolingian Renaissance, transforming his court into a hub for diplomats and intellectuals alike. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_CONFUCIUS" Language="th_TH">
 			<Text>กงฟูจื หรือ ขงจื๊อ ได้รับความสนใจในช่วงยุคโจว และหันไปเขียนหลังจากชีวิตในรัฐบาล ตรงกันข้ามกับสภาพการเมือง ที่เจ้านายแข่งขันเพื่ออำนาจ และยอมจำนนต่อความชั่ว ขงจื๊อ ได้พัฒนาหลักการของระเบียบ ความสามัคคี และประเพณี งานเขียนมากมายของเขา ย้ำถึงความสำคัญของการทำงานหนัก และการรู้สถานะของตนเอง ไม่ว่าจะเป็นเจ้านายหรือประชาชน ผู้ปกครองหรือบุตร หลักคิดของ ขงจื๊อ ได้มีอิทธิพลต่อสังคมเอเชียตะวันออก มาเป็นเวลาหลายศตวรรษเลยทีเดียว</Text>		<!-- Kong Fu Zi, or Confucius, came to prominence during the Zhou Dynasty and turned to writing following a life in government. In contrast to a political climate in which rulers vied for power and succumbed to vice, Confucius cultivated an ethos of order, harmony and tradition. His many writings stress hard work and knowing one’s place — be you ruler or subject, parent or child. Confucian thought would influence East Asian society for centuries hence.  -->
@@ -20699,7 +20699,7 @@
 			<Text>การดำเนินการทางการทูต {1_ProjectName} ของคุณถูกยกเลิก</Text>		<!-- Your {1_ProjectName} Diplomatic Action has been canceled. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ACTION_CANCELED_TARGET_MESSAGE" Language="th_TH">
-			<Text>ยกเลิกการดำเนินการทางการทูต</Text>		<!-- Diplomatic Action Canceled -->
+			<Text>ยกเลิกการดำเนินการทางการทูตนี้</Text>		<!-- Diplomatic Action Canceled -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ACTION_CANCELED_TARGET_SUMMARY" Language="th_TH">
 			<Text>การดำเนินการทางการทูต {1_ProjectName} ที่มุ่งเป้าคุณถูกยกเลิกแล้ว</Text>		<!-- The {1_ProjectName} Diplomatic Action targeting you has been canceled. -->
@@ -23028,7 +23028,7 @@
 			<Text>ชายฝั่ง</Text>		<!-- Coastal -->
 		</Replace>
 		<Replace Tag="LOC_TERRAIN_OCEAN_NAME" Language="th_TH">
-			<Text>น่านน้ำสากล</Text>		<!-- Open Ocean -->
+			<Text>ทะเลเปิด</Text>		<!-- Open Ocean -->
 		</Replace>
 		<Replace Tag="LOC_TERRAIN_LAKE_NAME" Language="th_TH">
 			<Text>ทะเลสาบ (ชายฝั่ง)</Text>		<!-- Lake (Coastal) -->
@@ -24567,10 +24567,10 @@
 			<Text>ยึดเขตแล้ว!</Text>		<!-- District Captured! -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_DISTRICT_CONTROL_LOST" Language="th_TH">
-			<Text>การควบคุมเขตสูญหาย!</Text>		<!-- District Control Lost! -->
+			<Text>เสียการควบคุมเขตแล้ว!</Text>		<!-- District Control Lost! -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_DISTRICT_CONTROL_LIBERATED" Language="th_TH">
-			<Text>เขตปลดปล่อยแล้ว!</Text>		<!-- District Liberated! -->
+			<Text>ปลดปล่อยเขตแล้ว!</Text>		<!-- District Liberated! -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_CLOSE_YIELDS" Language="th_TH">
 			<Text>ปิด</Text>		<!-- Close -->
@@ -25659,10 +25659,10 @@
 			<Text>วางกับดักที่ทำให้ศัตรูได้รับบาดเจ็บ และหยุดการเคลื่อนไหวของพวกเขา</Text>		<!-- Place a trap that damages enemies and stops their movement. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_CLAIM_RESOURCE_NAME" Language="th_TH">
-			<Text>เรียกร้องทรัพยากร</Text>		<!-- Claim Resource -->
+			<Text>อ้างสิทธิ์ในทรัพยากร</Text>		<!-- Claim Resource -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_CLAIM_RESOURCE_DESCRIPTION" Language="th_TH">
-			<Text>เปิดใช้งานกับทรัพยากรที่ไม่มีเจ้าของ เส้นทางของช่องจะถูกอ้างสิทธิจนถึงถิ่นฐานและพัฒนาทรัพยากรในทันที</Text>		<!-- Activate on an unowned Resource. A path of tiles is claimed back to the Settlement and the Resource is improved immediately. -->
+			<Text>เปิดใช้งานกับทรัพยากรที่ไม่มีเจ้าของ เส้นทางของช่องจะถูกอ้างสิทธิจนถึงถิ่นฐาน และพัฒนาทรัพยากรในทันที</Text>		<!-- Activate on an unowned Resource. A path of tiles is claimed back to the Settlement and the Resource is improved immediately. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_TREAT_SICK_NAME" Language="th_TH">
 			<Text>รักษาผู้ป่วย</Text>		<!-- Treat the Sick -->
@@ -26250,7 +26250,7 @@
 			<Text>กระหน่ำยิง</Text>		<!-- Bombardment -->
 		</Replace>
 		<Replace Tag="LOC_DISCIPLINE_FLEET_ENGAGEMENT_NAME" Language="th_TH">
-			<Text>เข้าประทะ</Text>		<!-- Engagement -->
+			<Text>เข้าปะทะ</Text>		<!-- Engagement -->
 		</Replace>
 		<Replace Tag="LOC_DISCIPLINE_SQUADRON_DOGFIGHTING_NAME" Language="th_TH">
 			<Text>ต่อสู้ทางอากาศ</Text>		<!-- Dogfighting -->
@@ -26262,7 +26262,7 @@
 			<Text>ปฏิบัติการยกพลทางอากาศ</Text>		<!-- Airlift Operations -->
 		</Replace>
 		<Replace Tag="LOC_DISCIPLINE_CARRIER_OPERATIONS_NAME" Language="th_TH">
-			<Text>การดำเนินงานของสายการบิน</Text>		<!-- Carrier Operations -->
+			<Text>ปฏิบัติการขนส่ง</Text>		<!-- Carrier Operations -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_STEADFAST_NAME" Language="th_TH">
 			<Text>อยู่อย่างมั่นคง</Text>		<!-- Steadfast -->
@@ -26652,19 +26652,19 @@
 			<Text>ยิงสนับสนุน</Text>		<!-- Gunfire Support -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_FLEET_GUNFIRE_SUPPORT_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตเรือภายในรัศมีคำสั่งมีความสามารถในการ ยิงกระจาย  ยูนิตศัตรูในช่องที่อยู่ติดกับเป้าหมายจะได้รับความเสียหาย 50% ของความเสียหายทั้งหมดที่เกิดขึ้นกับเป้าหมาย</Text>		<!-- Naval Units within the Command Radius have the Splash ability. Enemy Units in tiles adjacent to the target take 50% of the total damage done to the target. -->
+			<Text>ยูนิตเรือภายในรัศมีบังคับบัญชา มีความสามารถในการ ยิงกระจาย  ยูนิตศัตรูในช่องที่อยู่ติดกับเป้าหมายจะได้รับความเสียหาย 50% ของความเสียหายทั้งหมดที่เกิดขึ้นกับเป้าหมาย</Text>		<!-- Naval Units within the Command Radius have the Splash ability. Enemy Units in tiles adjacent to the target take 50% of the total damage done to the target. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_FLEET_REINFORCED_HULL_NAME" Language="th_TH">
 			<Text>เสริมแกร่ง</Text>		<!-- Reinforced Hull -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_FLEET_REINFORCED_HULL_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตเรือภายในรัศมีการบังคับบัญชาจะได้รับความเสียหายเพียงครึ่งหนึ่งเมื่อโจมตีจากด้านข้าง</Text>		<!-- Naval Units within the Command Radius take half reciprocal damage when flanking. -->
+			<Text>ยูนิตเรือภายในรัศมีบังคับบัญชา จะได้รับความเสียหายเพียงครึ่งหนึ่ง เมื่อโจมตีจากขนาบข้าง</Text>		<!-- Naval Units within the Command Radius take half reciprocal damage when flanking. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FLEET_RAKING_FIRE_NAME" Language="th_TH">
 			<Text>เสริมแกร่ง</Text>		<!-- Reinforced Hull -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FLEET_RAKING_FIRE_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตเรือภายในรัศมีคำสั่งได้รับความเสียหายเพียงครึ่งหนึ่งเมื่อโจมตีจากด้านข้าง</Text>		<!-- Naval Units within the Command Radius take half reciprocal damage when flanking. -->
+			<Text>ยูนิตเรือภายในรัศมีบังคับบัญชา จะได้รับความเสียหายเพียงครึ่งหนึ่ง เมื่อโจมตีจากขนาบข้าง</Text>		<!-- Naval Units within the Command Radius take half reciprocal damage when flanking. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FLEET_RAKING_FIRE_PREVIEW" Language="th_TH">
 			<Text>ลดความเสียหายจากการโต้ตอบที่ได้รับ</Text>		<!-- Reduced retaliation damage received -->
@@ -26673,7 +26673,7 @@
 			<Text>เครื่องวัดสภาพอากาศ</Text>		<!-- Weather Gage -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_FLEET_WEATHER_GAGE_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตเรือภายในรัศมีคำสั่งสามารถเคลื่อนที่ได้หลังจากแยกออกจากบรรจุภัณฑ์</Text>		<!-- Naval Units within the Command Radius can move after unpacking. -->
+			<Text>ยูนิตเรือภายในรัศมีบังคับบัญชา สามารถเคลื่อนที่ได้หลังจากแยกออกจากบรรจุภัณฑ์</Text>		<!-- Naval Units within the Command Radius can move after unpacking. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FLEET_WEATHER_GAGE_NAME" Language="th_TH">
 			<Text>เครื่องวัดสภาพอากาศ</Text>		<!-- Weather Gage -->
@@ -26931,19 +26931,19 @@
 			<Text>ฟอร์เมชันส์</Text>		<!-- Formations -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SQUADRON_FORMATIONS_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้เมื่อใช้ความสามารถผู้บัญชาการการโจมตีภาคพื้นดิน</Text>		<!-- +5 Combat Strength when using the Ground Attack Commander Ability -->
+			<Text>+5 พลังต่อสู้ เมื่อใช้ความสามารถของ ผู้บัญชาการ "โจมตีภาคพื้นดิน"</Text>		<!-- +5 Combat Strength when using the Ground Attack Commander Ability -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SQUADRON_FORMATIONS_NAME" Language="th_TH">
 			<Text>รูปแบบ</Text>		<!-- Formations -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SQUADRON_FORMATIONS_DESCRIPTION" Language="th_TH">
-			<Text>พลังต่อสู้ +5 เมื่อใช้ความสามารถของผู้บัญชาการการโจมตีภาคพื้นดิน</Text>		<!-- +5 Combat Strength when using the Ground Attack Commander Ability -->
+			<Text>พลังต่อสู้ +5 เมื่อใช้ความสามารถของ ผู้บัญชาการ "โจมตีภาคพื้นดิน"</Text>		<!-- +5 Combat Strength when using the Ground Attack Commander Ability -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SQUADRON_SATURATION_NAME" Language="th_TH">
 			<Text>โจมตีหนักหน่วง</Text>		<!-- Saturation -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SQUADRON_SATURATION_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้ เมื่อใช้ความสามารถของผู้บัญชาการ "ระเบิดปูพรม"</Text>		<!-- +5 Combat when using the Carpet Bomb Commander Ability -->
+			<Text>+5 พลังต่อสู้ เมื่อใช้ความสามารถของ ผู้บัญชาการ "ระเบิดปูพรม"</Text>		<!-- +5 Combat when using the Carpet Bomb Commander Ability -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SQUADRON_SATURATION_NAME" Language="th_TH">
 			<Text>โจมตีหนักหน่วง</Text>		<!-- Saturation -->
@@ -26955,7 +26955,7 @@
 			<Text>ทำลายล้าง</Text>		<!-- Obliteration -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SQUADRON_OBLITERATION_DESCRIPTION" Language="th_TH">
-			<Text>เครื่องบินทิ้งระเบิด ที่อยู่ภายใต้บังคับบัญชา จะได้รับความสามารถ ในการโจมตีแบบกระจาย ยูนิตศัตรูในช่องที่อยู่ติดกับเป้าหมาย จะได้รับความเสียหาย 50% ของความเสียหายทั้งหมดที่ทำกับเป้าหมาย</Text>		<!-- Packed Bombers gain the Splash ability. Enemy Units in tiles adjacent to the target take 50% of the total damage done to the target. -->
+			<Text>เครื่องบินทิ้งระเบิด ที่อยู่ภายใต้บังคับบัญชา จะได้รับความสามารถ "โจมตีแบบกระจาย" ยูนิตศัตรูในช่องที่อยู่ติดกับเป้าหมาย จะได้รับความเสียหาย 50% ของความเสียหายทั้งหมดที่ทำกับเป้าหมาย</Text>		<!-- Packed Bombers gain the Splash ability. Enemy Units in tiles adjacent to the target take 50% of the total damage done to the target. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SQUADRON_ADVANCED_LANDING_GROUND_NAME" Language="th_TH">
 			<Text>สนามบินขนาดเล็ก</Text>		<!-- Advanced Landing Ground -->
@@ -26985,7 +26985,7 @@
 			<Text>ลาดตระเวน</Text>		<!-- Aerial Reconnaissance -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SQUADRON_AERIAL_RECONNIASSANCE_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกความสามารถผู้บัญชาการการลาดตระเวนอากาศ มอบสายตาในพื้นที่ เผยให้เห็นผู้บัญชาการศัตรูที่ได้รับกำลังเสริมผ่านพื้นที่นั้นและเผยให้เห็นยูนิตล่องหนของศัตรู</Text>		<!-- Unlock the Aerial Reconnaissance Commander Ability. Grants sight on an area, revels enemy commanders receiving reinforcements through the area and reveals any enemy Stealth Units. -->
+			<Text>ปลดล็อกความสามารถผู้บัญชาการ การลาดตระเวนอากาศ มอบสายตาในพื้นที่ เผยให้เห็นผู้บัญชาการศัตรูที่ได้รับกำลังเสริมผ่านพื้นที่นั้น และเผยให้เห็นยูนิตล่องหนของศัตรู</Text>		<!-- Unlock the Aerial Reconnaissance Commander Ability. Grants sight on an area, revels enemy commanders receiving reinforcements through the area and reveals any enemy Stealth Units. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SQUADRON_DANGER_CLOSE_NAME" Language="th_TH">
 			<Text>อันตรายเข้าใกล้</Text>		<!-- Danger Close -->
