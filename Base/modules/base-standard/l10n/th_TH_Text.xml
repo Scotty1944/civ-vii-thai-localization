@@ -1010,7 +1010,7 @@
 			<Text>+10%[icon:YIELD_CULTURE] วัฒนธรรม ในเมืองที่มีสิ่งมหัศจรรย์อย่างน้อย 1 แห่ง</Text>		<!-- +10%[icon:YIELD_CULTURE] Culture in Cities with at least 1 Wonder. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_CULTURAL_05_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม ในถิ่นฐานสำหรับแต่ละ ทรัพยากร ที่กำหนดให้พวกเขา</Text>		<!-- +1[icon:YIELD_CULTURE] Culture in Settlements for each Resource assigned to them. -->
+			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม สำหรับแต่ละทรัพยากร ในถิ่นฐานที่จัดสรรให้พวกเขา</Text>		<!-- +1[icon:YIELD_CULTURE] Culture in Settlements for each Resource assigned to them. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_CULTURAL_06_DESCRIPTION" Language="th_TH">
 			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม ต่อยุคจาก ผลงานชิ้นเอก ที่จัดแสดง</Text>		<!-- +1[icon:YIELD_CULTURE] Culture per Age from Great Works on display. -->
@@ -1037,7 +1037,7 @@
 			<Text>+1[icon:YIELD_DIPLOMACY] อิทธิพล ต่อยุค ในพระราชวัง</Text>		<!-- +1[icon:YIELD_DIPLOMACY] Influence per Age on the Palace. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_POLITICAL_03_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_HAPPINESS] ความสุข ในถิ่นฐานสำหรับแต่ละ ทรัพยากร ที่กำหนดให้พวกเขา</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness in Settlements for each Resource assigned to them. -->
+			<Text>+1[icon:YIELD_HAPPINESS] ความสุข ในถิ่นฐานสำหรับแต่ละทรัพยากร ที่จัดสรรให้พวกเขา</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness in Settlements for each Resource assigned to them. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_POLITICAL_04_DESCRIPTION" Language="th_TH">
 			<Text>+50%[icon:YIELD_DIPLOMACY] อิทธิพล ต่อการเริ่มต้น และดำเนิน การกระทำผูกมิตรกับ รัฐอิสระ</Text>		<!-- +50%[icon:YIELD_DIPLOMACY] Influence towards initiating and progressing the Befriend Independent Action. -->
@@ -1175,7 +1175,7 @@
 			<Text>+20%[icon:YIELD_GOLD] ทอง และ[icon:YIELD_HAPPINESS] ความสุข ต่อการบำรุงรักษาอาคาร</Text>		<!-- +20%[icon:YIELD_GOLD] Gold and[icon:YIELD_HAPPINESS] Happiness towards maintaining Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_05_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ ในถิ่นฐานสำหรับแต่ละ ทรัพยากร ที่กำหนดให้พวกเขา</Text>		<!-- +1[icon:YIELD_SCIENCE] Science in Settlements for each Resource assigned to them. -->
+			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับแต่ละทรัพยากร ในถิ่นฐานที่จัดสรรให้พวกเขา</Text>		<!-- +1[icon:YIELD_SCIENCE] Science in Settlements for each Resource assigned to them. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_06_DESCRIPTION" Language="th_TH">
 			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ ในแต่ละ ย่าน</Text>		<!-- +1[icon:YIELD_SCIENCE] Science on each Quarter. -->
@@ -3751,7 +3751,7 @@
 			<Text>กงจื๊อ หรือที่รู้จักกันในชื่อ “ขงจื๊อ” เป็นข้าราชการและนักปรัชญาจากยุคแรกในประวัติศาสตร์จีน เมื่อประมาณ 500 ปีก่อนคริสต์ศักราช ซึ่งมาช้ากว่าราชวงศ์ฮั่น และก่อนรุ่งอรุณของจีน ภ writings ของเขาเน้นย้ำถึงพฤติกรรมที่มีเหตุผล มีเมตตา การอุทิศตนต่อหน้าที่ และการเคารพประเพณี ที่สำคัญคือ ขงจื๊อเชื่อมั่นในระบบ – หากบุคคลพยายามที่จะศึกษาด้วยตนเองและมีความรู้สึกที่ดีและซื่อสัตย์ต่อผู้อื่น (โดยเฉพาะครอบครัวของพวกเขา) พวกเขาจะทำหน้าที่เป็นการตรวจสอบต่อผู้นำที่โลภและใฝ่สูงในอำนาจ</Text>		<!-- Kongzi, Master Kong, is better known by his Hellenized name of “Confucius.” He was a government official and philosopher from an early period in Chinese history, the 500s BCE, slightly before the Han Dynasty and the very dawn of China. His writings emphasized rational, benevolent behavior, devotion to one’s duty, and respect for tradition. Importantly, Confucius trusted the system – if individuals strove to educate themselves and adopted a sense of good faith and loyalty to others (especially their families), they would serve as a check on greedy and power-hungry leaders. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CONFUCIUS_CHAPTER_HISTORY_PARA_2" Language="th_TH">
-			<Text>ขงจื๊อมีตัวอย่างของผู้นำที่เลวร้ายมากมาย ขณะที่ราชวงศ์ชางล่มสลาย ราชวงศ์ใหม่ที่ประกอบรวมกันอย่างหลวมๆ ก็เกิดขึ้น: ราชวงศ์โจว (1046-256 ปีก่อนคริสต์ศักราช) ภายใต้ราชวงศ์นี้ รัฐต่างๆ ที่นำโดยนายพลบางคนมีอำนาจเหนือรัฐที่มีขนาดเล็กกว่าและมีการรวมศูนย์ซึ่งถูกปกครองโดยจักรพรรดิ ลองจินตนาการถึงคนที่มีความนิยมในโรงเรียนที่ถูกล้อมรอบด้วยกลุ่มอันธพาลที่ต่อสู้กันตลอดเวลาเพื่ออ้างว่าเป็นเพื่อนที่ดีที่สุดและผู้ปกป้องที่แท้จริงของพวกเขา สถานการณ์ทางการเมืองที่แตกแยกและเต็มไปด้วยความขัดแย้งมักจะเป็นที่ด fertile สำหรับนักเขียนและนักปรัชญา – เพียงแค่ถามแมคคิอาเวลลี่่ ขงจื๊อใช้ชีวิตอยู่ที่ขอบตะวันออกของจีนในช่วงเวลาที่มีสงครามนี้ ขณะที่โลกทางการเมืองของเขาล่มสลายรอบตัว ขงจื๊อใช้ชีวิตในการสนับสนุนระเบียบที่สมเหตุสมผลและการปกครองที่ดี อิทธิพลของขงจื๊อเรียกร้องให้ผู้ที่มีเสน่ห์หรือมีอำนาจจำกัดพลังของตนและทำงานเพื่อประโยชน์ส่วนรวม</Text>		<!-- Confucius had plenty of examples of terrible leaders. As the Shang Dynasty fell apart, a new, loosely-assembled dynasty arose: the Zhou (1046-256 BCE). Under this dynasty, individual states led by particular generals held sway over a smaller, more centralized state ruled by the emperor. Imagine a popular person at school surrounded by a crowd of bullies constantly fighting for the claim to be their absolute best friend and protector. Oddly enough, fractured and contentious political situations are often fertile ground for writers and philosophers – just ask Machiavelli. Confucius lived on the eastern edge of China at some point during this war-torn period. As his political world broke down around him, Confucius spent his life advocating for sensible order and good governance. Confucian influence calls on would-be charismatic or forceful rulers to curb their power and work for the common good. -->
+			<Text>ขงจื๊อมีตัวอย่างของผู้นำที่เลวร้ายมากมาย ขณะที่ราชวงศ์ชางล่มสลาย ราชวงศ์ใหม่ที่ประกอบรวมกันอย่างหลวมๆ ก็เกิดขึ้น: ราชวงศ์โจว (1046-256 ปีก่อนคริสต์ศักราช) ภายใต้ราชวงศ์นี้ รัฐต่างๆ ที่นำโดยนายพลบางคนมีอำนาจเหนือรัฐที่มีขนาดเล็กกว่าและมีการรวมศูนย์ซึ่งถูกปกครองโดยจักรพรรดิ ลองจินตนาการถึงคนที่มีความนิยมในโรงเรียนที่ถูกล้อมรอบด้วยกลุ่มอันธพาลที่ต่อสู้กันตลอดเวลาเพื่ออ้างว่าเป็นเพื่อนที่ดีที่สุดและผู้ปกป้องที่แท้จริงของพวกเขา สถานการณ์ทางการเมืองที่แตกแยกและเต็มไปด้วยความขัดแย้งมักจะเป็นที่ด fertile สำหรับนักเขียนและนักปรัชญา – เพียงแค่ถามมาเคียเวลลี่ ขงจื๊อใช้ชีวิตอยู่ที่ขอบตะวันออกของจีนในช่วงเวลาที่มีสงครามนี้ ขณะที่โลกทางการเมืองของเขาล่มสลายรอบตัว ขงจื๊อใช้ชีวิตในการสนับสนุนระเบียบที่สมเหตุสมผลและการปกครองที่ดี อิทธิพลของขงจื๊อเรียกร้องให้ผู้ที่มีเสน่ห์หรือมีอำนาจจำกัดพลังของตนและทำงานเพื่อประโยชน์ส่วนรวม</Text>		<!-- Confucius had plenty of examples of terrible leaders. As the Shang Dynasty fell apart, a new, loosely-assembled dynasty arose: the Zhou (1046-256 BCE). Under this dynasty, individual states led by particular generals held sway over a smaller, more centralized state ruled by the emperor. Imagine a popular person at school surrounded by a crowd of bullies constantly fighting for the claim to be their absolute best friend and protector. Oddly enough, fractured and contentious political situations are often fertile ground for writers and philosophers – just ask Machiavelli. Confucius lived on the eastern edge of China at some point during this war-torn period. As his political world broke down around him, Confucius spent his life advocating for sensible order and good governance. Confucian influence calls on would-be charismatic or forceful rulers to curb their power and work for the common good. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CONFUCIUS_CHAPTER_HISTORY_PARA_3" Language="th_TH">
 			<Text>เกิดในชนชั้นที่สูงขึ้นเล็กน้อย (แต่ไม่ใช่ชนชั้นสูง) ในแคว้นหลู คอนฟูซัสค่อยๆ เลื่อนตำแหน่งขึ้นในระบบการบริหารท้องถิ่น เขาเห็นปัญหาที่มีอยู่ในยุคสมัยนั้นและพยายามวิงวอนต่ออำนาจส่วนกลางเพื่อจัดการกับความยุ่งเหยิง ตัวอย่างเช่น เมื่อตอนที่เขาได้เป็นนายกเทศมนตรีของเมืองเล็กๆ เขาได้พยายามที่จะรื้อกำแพงของเมือง กำแพงที่ถูกสร้างขึ้นเพื่อป้องกันการโจมตีจากครอบครัวคู่แข่ง; เมื่อลบกำแพงออก คอนฟูซัสคิดว่าดัชชีท้องถิ่นจะต้องมีบทบาทที่ชัดเจนมากขึ้นในการป้องกันเมือง</Text>		<!-- Born to a slightly upper (but not aristocratic) caste in the duchy of Lu, Confucius slowly rose through the ranks of local administration. He saw the problems inherent in the era and sought to appeal to central authority over the chaos. For instance, when he attained mayorship of a small town, he sought to dismantle its walls. Walls intended to defend against attacks from rival families; with the walls removed, Confucius thought the local duke would have to take a more direct role in defending the town. -->
@@ -4069,7 +4069,7 @@
 			<Text>หนึ่งในแนวทางการมองอำนาจคือการมุ่งเน้นไปที่ผู้ปกครองในยุคกลางที่มีอุดมคติซึ่งคาดการณ์ถึงอาณาจักรของพระเจ้า ที่พยายามอย่างไม่หยุดยั้งเพื่อความสมบูรณ์แบบ มาคิอาเวลลีถือเป็นตัวอย่างที่ตรงกันข้าม: การเข้ายึดอำนาจอย่างโหดร้าย ซึ่งไม่อิงจากสิ่งที่ควรเกิดขึ้น แต่เป็นสิ่งที่เกิดขึ้นจริง มาคิอาเวลลีสามารถถือได้ว่าเป็นหนึ่งในนักปรัชญาการเมืองสมัยใหม่คนแรก นี่คือเหตุผลที่ชื่อของเขากลายเป็นคำพ้องที่หมายถึงการแทงข้างหลัง, กลยุทธ์ที่มุ่งเน้นผลลัพธ์ และการใช้เล่ห์กล</Text>		<!-- One approach to power is the medieval focus on idealized rulers who anticipate the kingdom of God, forever striving for perfection. Machiavelli epitomizes the opposite: brutal acquisitions of power, based not on what should happen but on what does. Machiavelli can be considered one of the first modern political philosophers. This is also why his name is synonymous with backstabbing, end-oriented, and manipulative strategies. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACHIAVELLI_CHAPTER_HISTORY_PARA_2" Language="th_TH">
-			<Text>เพื่อเข้าใจโลกของแมคคิอาเวลลี่ ต้องเริ่มต้นจากคลื่นยิ่งใหญ่ที่ไหลผ่านยุโรปตะวันตกในช่วงปลายยุคกลาง ในสเปน การปกครองของชาวอาหรับครั้งสุดท้ายถูกขับไล่ออกไป และประเทศกำลังมองหาสถานที่ใหม่ๆ เพื่อขยายอำนาจ ในเงาของอาณาจักรอาหรับตะวันออก อำนาจใหม่จากตุรกีได้ปรากฏขึ้นและผลักไบแซนเทียมให้ถึงขอบแห่งการล่มสลาย</Text>		<!-- To understand Machiavelli’s world, one must start with the great waves that flowed over Western Europe in the late Middle Ages. In Spain, the last of the Arab caliphates had been driven out, and the country was looking for new places to push conquest. In the wake of the eastern Arab empires, new Turkish powers appeared and pressed Byzantium to the brink. -->
+			<Text>เพื่อเข้าใจโลกของมาเคียเวลลี ต้องเริ่มต้นจากคลื่นยิ่งใหญ่ที่ไหลผ่านยุโรปตะวันตกในช่วงปลายยุคกลาง ในสเปน การปกครองของชาวอาหรับครั้งสุดท้ายถูกขับไล่ออกไป และประเทศกำลังมองหาสถานที่ใหม่ๆ เพื่อขยายอำนาจ ในเงาของอาณาจักรอาหรับตะวันออก อำนาจใหม่จากตุรกีได้ปรากฏขึ้นและผลักไบแซนเทียมให้ถึงขอบแห่งการล่มสลาย</Text>		<!-- To understand Machiavelli’s world, one must start with the great waves that flowed over Western Europe in the late Middle Ages. In Spain, the last of the Arab caliphates had been driven out, and the country was looking for new places to push conquest. In the wake of the eastern Arab empires, new Turkish powers appeared and pressed Byzantium to the brink. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACHIAVELLI_CHAPTER_HISTORY_PARA_3" Language="th_TH">
 			<Text>อย่างไรก็ตาม พลังที่เปลี่ยนแปลงโลกที่ใหญ่ที่สุดคือชีวภาพ: โรคระบาดดำ โรคระบาดนี้ได้เปลี่ยนแปลงโลก ในจีน มันทำลายอาณาจักรมองโกลที่ได้ทำให้เส้นทางสายไหมไหลเวียนอย่างไม่ขาดตอน ในยุโรป มันได้สิ้นสุดการจัดหากำลังแรงงานเกษตรราคาถูกจากระบบศักดินา และในอิตาลี ความว่างเปล่าทำให้ผู้คนสามารถคิดใหม่เกี่ยวกับบทบาทของกษัตริย์พาณิชย์และตระกูลขุนนาง บุคคลเหล่านี้มีอิทธิพลอยู่แล้วและเชื่อมโยงอย่างใกล้ชิดกับความขัดแย้งทางอำนาจที่วาติกัน แต่ตอนนี้พวกเขาอยู่ที่ศูนย์กลางของการค้าและอำนาจ</Text>		<!-- However, the biggest world-shaking force was biological: the Black Death. The plague reshaped the world. In China, it shattered the Mongol Empire, which had ensured the Silk Road's seamless flow. In Europe, it ended the feudal system's ready supply of cheap agricultural labor. And in Italy, the devastation allowed people to rethink the role of merchant kings and noble families. These figures were already influential and intimately linked with the power struggles at the Vatican, but now they were at the central nexus of trade and power. -->
@@ -4084,7 +4084,7 @@
 			<Text>ใน "เจ้าชาย" มาคิอาเวลลีได้ โครงร่างกลยุทธ์สำหรับผู้นำใหม่ ข้อเสนอแนะของเขาชวนตกใจในความเป็นจริงที่เย็นชา มาคิอาเวลลีให้ความสำคัญกับการสร้างพื้นฐานสำหรับอำนาจเพื่อเป็นวิธีการรักษาไว้ ตัวอย่างเช่น ในขณะที่มันอาจจะเป็นเรื่องดีที่ผู้นำจะรักษาความรักของประชาชน การเป็นที่เกรงกลัวก็เป็นทางเลือกที่ดีที่สุด เจ้าชายควรพยายามเป็นคนซื่อสัตย์; หากนี่เป็นไปไม่ได้ เขาควรโกหกและรักษาภาพลักษณ์ของความซื่อสัตย์ จากมุมมองของมาคิอาเวลลี มาตรการบางอย่าง – เช่นการกำจัดตระกูลคู่แข่งที่มีอำนาจหรือการสร้างความกลัวในประชาชน – เป็นสิ่งจำเป็นในบางสถานการณ์ สรุปแล้ว "เจ้าชาย" เป็นคู่มือในการเป็นผู้นำที่โหดเหี้ยม ชอบชักใย ซึ่งน่าเกลียด – แต่ประสบความสำเร็จ</Text>		<!-- In “The Prince,” Machiavelli outlines a strategy for a new ruler. His recommendations are shocking in their cold pragmatism. Machiavelli focused on reconstructing the grounds for power as a means of keeping it. For instance, while it might be ideal for a ruler to maintain the love of his subjects, the best alternative is to be feared. A prince should strive to be honest; if this is impossible, then he should lie and keep the appearance of honesty. From a Machiavellian perspective, certain measures – such as wiping out powerful rival families or instilling fear in the population – are necessities in some situations. In short, “The Prince” is a guidebook to being a ruthless, manipulative, despicable – but successful – ruler.  -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACHIAVELLI_CHAPTER_HISTORY_PARA_7" Language="th_TH">
-			<Text>แมคคิอาเวลลี่่มาจากตระกูลของทนายความในสาธารณรัฐฟลอเรนซ์ เขาขยับขึ้นเรื่อยๆ ในตำแหน่งบริหารและยังได้ทำการทูตเล็กน้อย – สิ่งที่มีความสำคัญในยุคที่ครอบครัวอย่างเมดิชิและบอร์เกียกำลังทำสงครามและทำร้ายชุมชนของกันและกัน ในปี 1509 แมคคิอาเวลลี่่นำกำลังทหารท้องถิ่นฟลอเรนซ์ขนาดเล็กไปยึดเมืองปีซา แต่เขาต้องเผชิญกับการตอบโต้จากสมเด็จพระสันตะปาปาอย่างรวดเร็ว ในขณะที่ตกอยู่ในความเสื่อมเสีย ครอบครัวผู้สนับสนุนของแมคคิอาเวลลี่่ได้ลาออกจากตำแหน่งผู้นำของฟลอเรนซ์และยุติสาธารณรัฐไม่นานหลังจากนั้น พวกผู้มีอำนาจที่เคยทรงอิทธิพล – เมดิชิที่มีชื่อเสียงในด้านลบ – ได้กลับคืนสู่เมืองและทำให้แมคคิอาเวลลี่่ถูกคุมขังและทรมาน</Text>		<!-- Machiavelli came from a line of lawyers in the Florentine Republic. He steadily moved up in the administrative ranks and even conducted some minor diplomacy – something in high order in an era when families like the Medici and Borgias were conquering and brutalizing each other’s communities. In 1509, Machiavelli led a small force of local Florentine militia to take the city of Pisa, but he quickly faced reprisals from the pope. In disgrace, Machiavelli’s patron family resigned from the leadership of Florence and ended the Republic. Soon after, the former strongmen – the infamous Medici – returned to the city and had Machiavelli imprisoned and tortured. -->
+			<Text>มาเคียเวลลี่มาจากตระกูลของทนายความในสาธารณรัฐฟลอเรนซ์ เขาขยับขึ้นเรื่อยๆ ในตำแหน่งบริหารและยังได้ทำการทูตเล็กน้อย – สิ่งที่มีความสำคัญในยุคที่ครอบครัวอย่างเมดิชิและบอร์เกียกำลังทำสงครามและทำร้ายชุมชนของกันและกัน ในปี 1509 มาเคียเวลลี่นำกำลังทหารท้องถิ่นฟลอเรนซ์ขนาดเล็กไปยึดเมืองปีซา แต่เขาต้องเผชิญกับการตอบโต้จากสมเด็จพระสันตะปาปาอย่างรวดเร็ว ในขณะที่ตกอยู่ในความเสื่อมเสีย ครอบครัวผู้สนับสนุนของมาเคียเวลลี่ได้ลาออกจากตำแหน่งผู้นำของฟลอเรนซ์และยุติสาธารณรัฐไม่นานหลังจากนั้น พวกผู้มีอำนาจที่เคยทรงอิทธิพล – เมดิชิที่มีชื่อเสียงในด้านลบ – ได้กลับคืนสู่เมืองและทำให้มาเคียเวลลี่ถูกคุมขังและทรมาน</Text>		<!-- Machiavelli came from a line of lawyers in the Florentine Republic. He steadily moved up in the administrative ranks and even conducted some minor diplomacy – something in high order in an era when families like the Medici and Borgias were conquering and brutalizing each other’s communities. In 1509, Machiavelli led a small force of local Florentine militia to take the city of Pisa, but he quickly faced reprisals from the pope. In disgrace, Machiavelli’s patron family resigned from the leadership of Florence and ended the Republic. Soon after, the former strongmen – the infamous Medici – returned to the city and had Machiavelli imprisoned and tortured. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACHIAVELLI_CHAPTER_HISTORY_PARA_8" Language="th_TH">
 			<Text>หลังจากถูกคุมขังอยู่สามสัปดาห์ "บนเชือก" มาคิอาเวลลี่ถูกปล่อยออกมาและใช้ชีวิตในฟาร์มของครอบครัวในชนบท ซึ่งเขาได้ทำการเขียนงานของเขาให้เสร็จสิ้น ทัศนคติเชิงเสียดสีของเขาได้รับอิทธิพลจากการเผชิญหน้ากับการเมืองที่ไร้ความปรานีในช่วงเวลาที่แนวคิดใหม่ (เช่น สาธารณรัฐนิยม) เริ่มตั้งรากฐานในขณะที่สิ่งที่เป็นสัมพัทธ์ของยุคกลางเริ่มสลายตัว – และเป็นช่วงเวลาที่พระสันตปาปาผู้มีศรัทธาได้ระดมทหารและลงโทษฝ่ายตรงข้ามของตนด้วยการประหารชีวิต</Text>		<!-- After three weeks of hanging on “the rope,” Machiavelli was released and lived out his days on a family farm in the countryside, where he completed his writing. His cynical view was informed by his exposure to ruthless politics during a time when new ideas (such as republicanism) took root as the trappings of the Middle Ages began to dissolve – and a period where pious popes raised armies and had their foes executed. -->
@@ -4093,7 +4093,7 @@
 			<Text>มาเกียเวลลีได้เปลี่ยนแปลงวิธีที่เราคิดเกี่ยวกับอำนาจและการควบคุม โดยเปลี่ยนจากอุดมคติที่สูงส่งไปสู่การพิจารณาเชิงปฏิบัติ เขาสามารถถูกมองในความตรงกันข้ามกับบุคคลอย่างขงจื๊อ ซึ่งเคยอยู่ในตำแหน่งที่คล้ายกันในฐานะที่ปรึกษาราชสำนัก (แม้ว่าเขาจะอยู่ในอาณาจักรที่มีขนาดใหญ่กว่ามากในอดีตที่ไกลกว่า) ขงจื๊อเชื่อว่าควรมีรหัสพฤติกรรมที่เข้มงวดซึ่งมุ่งเน้นไปที่การเคารพประเพณีและความปรารถนาดีต่อผู้อื่น และการปฏิบัติตามรหัสนี้จะทำให้ผู้ปกครองเจริญรุ่งเรือง มาเกียเวลลีคือคนที่ตรงกันข้าม – เขาเป็นผู้ทันสมัยและนักปฏิบัตินิยม ท่าทีที่เข้มงวด (หรือพูดตรงๆ) ของเขาทำให้เขาเป็นที่ไม่พอใจของบุคคลสำคัญทางประวัติศาสตร์ที่มีชื่อเสียงคนอื่นๆ ฟริดริชที่ 2 ของปรัสเซียได้เขียน "ต่อต้านมาเกียเวลลี" ซึ่งพยายามที่จะยกย่องคุณธรรมของอาณาจักรที่มีปัญญามากกว่าผู้ทรงอำนาจที่ชอบสร้างภาพ แต่กลับถูกทำลายโดยสถานะที่หิวโหยอำนาจของปรัสเซียเอง</Text>		<!-- Machiavelli reshaped how we think about power and control, moving away from high-minded ideals towards practical considerations. He could be considered in contrast with a person like Confucius, someone who had been in a very similar position as a court advisor (though to a far larger empire in a far earlier time). Confucius thought there should be a strict code of conduct focused on respect for tradition and goodwill towards others, and that following this code would mean that rulers would prosper. Machiavelli is the opposite – a modernist and pragmatist. His brutal (or brutally honest) stance earned him the enmity of other famous historical figures. Prussia’s Friedrich II penned the “Anti-Machiavelli,” which sought to extol the virtues of the enlightened despot over the manipulative prince, but was undercut by Prussia’s own power-hungry status. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACHIAVELLI_CHAPTER_HISTORY_PARA_10" Language="th_TH">
-			<Text>อาจจะกล่าวได้ว่าชื่อเสียงของแมคคิอาเวลลี่่นั้นไม่สมควร เขาเขียนหนังสือเล่มนี้ถึงตระกูลเมดิชี – ผู้ทรมานและขับไล่เขา ต่อมา พระผู้อ่านอาจสังเกตเห็นท่าทีที่เห็นอกเห็นใจต่อสาธารณรัฐมากขึ้นใน “บทสนทนาเกี่ยวกับลิวี่” เราสามารถจินตนาการถึงแมคคิอาเวลลี่่ผู้สูงอายุ ผู้ถูกเนรเทศอยู่ในบ้านชนบทของเขา แบกรับรอยแผลจากการถูกทรมาน ขีดเขียนวาทกรรมที่เหยียดหยามและขมขื่นเกี่ยวกับวิธีการใช้อำนาจโดยปราศจากจิตสำนึก ก่อนจะเพิ่มชื่อของผู้ทรมานเขาในคำถวายราชสดุดี โดยกล่าวไปที่ตระกูลเมดิชีว่า “นี่นี่คือสิ่งที่พวกคุณเป็นจริงๆ”</Text>		<!-- Perhaps Machiavelli's reputation is undeserved. He addressed his book to the Medici family – his torturers and banishers. Later readers may note his more sympathetic attitude towards republics in “Discourses on Livy.” One can picture an elder Machiavelli, exiled in his country home, bearing the scars of torture, writing a cynical and bitter discourse on how to exercise power without conscience before adding his torturers’ name in the dedication, saying to the Medicis, “Here, here is who you really are." -->
+			<Text>อาจจะกล่าวได้ว่าชื่อเสียงของมาเคียเวลลี่นั้นไม่สมควร เขาเขียนหนังสือเล่มนี้ถึงตระกูลเมดิชี – ผู้ทรมานและขับไล่เขา ต่อมา พระผู้อ่านอาจสังเกตเห็นท่าทีที่เห็นอกเห็นใจต่อสาธารณรัฐมากขึ้นใน “บทสนทนาเกี่ยวกับลิวี่” เราสามารถจินตนาการถึงมาเคียเวลลี่ผู้สูงอายุ ผู้ถูกเนรเทศอยู่ในบ้านชนบทของเขา แบกรับรอยแผลจากการถูกทรมาน ขีดเขียนวาทกรรมที่เหยียดหยามและขมขื่นเกี่ยวกับวิธีการใช้อำนาจโดยปราศจากจิตสำนึก ก่อนจะเพิ่มชื่อของผู้ทรมานเขาในคำถวายราชสดุดี โดยกล่าวไปที่ตระกูลเมดิชีว่า “นี่นี่คือสิ่งที่พวกคุณเป็นจริงๆ”</Text>		<!-- Perhaps Machiavelli's reputation is undeserved. He addressed his book to the Medici family – his torturers and banishers. Later readers may note his more sympathetic attitude towards republics in “Discourses on Livy.” One can picture an elder Machiavelli, exiled in his country home, bearing the scars of torture, writing a cynical and bitter discourse on how to exercise power without conscience before adding his torturers’ name in the dedication, saying to the Medicis, “Here, here is who you really are." -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACHIAVELLI_CHAPTER_HISTORY_PARA_11" Language="th_TH">
 			<Text>ไม่ว่าจะเป็นอย่างไร มักเคียเวลลีถือเป็นหนึ่งในนักปรัชญาการเมืองสมัยใหม่คนแรกที่พยายามคิดอย่างมีกลยุทธ์และเป็นระบบเกี่ยวกับการทำงานของประชากร งานของเขาสามารถถูกมองว่าเป็นการเสียดสี นี่เป็นคำพูดที่มืดมนว่าทัศนคติที่มองโลกในแง่ลบเช่นนี้ได้กลายเป็นพื้นฐานของการเมืองสมัยใหม่มากมายของเราแล้ว</Text>		<!-- Regardless, Machiavelli is considered one of the first modernist political philosophers who tried to think strategically and systematically about how populations function. His works could be considered satire; it is a dark statement that such a dystopic view of the world has become the foundation of much of our modern politics. -->
@@ -6205,7 +6205,7 @@
 			<Text>เบาเจีย</Text>		<!-- Baojia -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_BAOJIA_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับแต่ละทรัพยากรที่ได้รับมอบหมายให้กับเมือง เมื่อนั้นจะกลายเป็น +2 ในเมืองอื่นที่ไม่ใช่เมืองหลวงของคุณ</Text>		<!-- +1[icon:YIELD_SCIENCE] Science for each Resource assigned to a City. This becomes +2 in Cities other than your Capital. -->
+			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับแต่ละทรัพยากร ที่ได้รับจัดสรรให้กับเมือง, จะกลายเป็น +2 ในเมืองอื่นที่ไม่ใช่เมืองหลวงของคุณ</Text>		<!-- +1[icon:YIELD_SCIENCE] Science for each Resource assigned to a City. This becomes +2 in Cities other than your Capital. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_DIVINE_ENGINE_DIVISION_NAME" Language="th_TH">
 			<Text>แผนกเครื่องจักรอันศักดิ์สิทธิ์</Text>		<!-- Divine Engine Division -->
@@ -6473,7 +6473,7 @@
 			<Text>ฉวงกวนตง</Text>		<!-- Chuang Guandong -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_CHUANG_GUANDONG_DESCRIPTION" Language="th_TH">
-			<Text>+25% อัตราเติบโต ในเมืองที่มีทรัพยากรจัดสรรให้แก่พวกเขา</Text>		<!-- +25% Growth Rate in Towns with a Resource assigned to them. -->
+			<Text>+25% อัตราเติบโต ในเมืองที่มีทรัพยากร จัดสรรให้แก่พวกเขา</Text>		<!-- +25% Growth Rate in Towns with a Resource assigned to them. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_COHONG_NAME" Language="th_TH">
 			<Text>โคฮง</Text>		<!-- Cohong -->
@@ -8333,10 +8333,10 @@
 			<Text>การกระทำนี้จะเริ่มสงครามกับ {1_targetName} คุณแน่ใจไหม?</Text>		<!-- This action will start a war with {1_targetName}. Are you sure? -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PICK_WAR_TYPE_FORMAL_BODY" Language="th_TH">
-			<Text>นี่จะประกาศ สงครามอย่างเป็นทางการ เนื่องจากคุณเป็น ปรปักษ์[N]การสนับสนุนสงคราม - ฝ่ายเรา: {1_yourWarBonus}, ฝ่ายตรงข้าม: {2_theirWarBonus}[N]โบนัส การสนับสนุนสงคราม จะได้รับผลกระทบจากความสัมพันธ์, การทำลายถินฐาน และปัจจัยอื่นๆ</Text>		<!-- This will declare a Formal War since you have a Hostile Relationship.[N]Initial War Support - For you: {1_yourWarBonus}, For them: {2_theirWarBonus}.[N]Bonus War Support is impacted by relationship, razing settlements and other factors. -->
+			<Text>นี่จะประกาศ สงครามอย่างเป็นทางการ เนื่องจากคุณเป็น ปรปักษ์ กับฝ่ายตรงข้ามที่จะทำสงครามด้วย[N]การสนับสนุนสงคราม - ฝ่ายเรา: {1_yourWarBonus}, ฝ่ายตรงข้าม: {2_theirWarBonus}[N]โบนัส การสนับสนุนสงคราม จะได้รับผลกระทบจากความสัมพันธ์, การทำลายถิ่นฐาน และปัจจัยอื่นๆ</Text>		<!-- This will declare a Formal War since you have a Hostile Relationship.[N]Initial War Support - For you: {1_yourWarBonus}, For them: {2_theirWarBonus}.[N]Bonus War Support is impacted by relationship, razing settlements and other factors. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PICK_WAR_TYPE_SURPRISE_BODY" Language="th_TH">
-			<Text>นี่จะประกาศสงครามอย่างฉับพลัน เนื่องจากคุณไม่ได้เป็น ปรปักษ์ ฝ่ายตรงข้ามจะได้รับ {3_theirInfluenceBonus}[icon:YIELD_DIPLOMACY] อิทธิพล [N]การสนับสนุนสงคราม - ฝ่ายเรา: {1_yourWarBonus}, ฝ่ายตรงข้าม: {2_theirWarBonus}[N]โบนัส การสนับสนุนสงคราม จะได้รับผลกระทบจากความสัมพันธ์, การทำลายถินฐาน และปัจจัยอื่นๆ</Text>		<!-- This will declare a Surprise War since you do not have a Hostile Relationship. They will gain {3_theirInfluenceBonus}[icon:YIELD_DIPLOMACY] Influence.[N]Initial War Support - For you: {1_yourWarBonus}, For them: {2_theirWarBonus}.[N]Bonus War Support is impacted by relationship, razing settlements and other factors. -->
+			<Text>นี่จะประกาศ สงครามอย่างฉับพลัน เนื่องจากคุณไม่ได้เป็น ปรปักษ์ ฝ่ายตรงข้ามจะได้รับ {3_theirInfluenceBonus}[icon:YIELD_DIPLOMACY] อิทธิพล [N]การสนับสนุนสงคราม - ฝ่ายเรา: {1_yourWarBonus}, ฝ่ายตรงข้าม: {2_theirWarBonus}[N]โบนัส การสนับสนุนสงคราม จะได้รับผลกระทบจากความสัมพันธ์, การทำลายถิ่นฐาน และปัจจัยอื่นๆ</Text>		<!-- This will declare a Surprise War since you do not have a Hostile Relationship. They will gain {3_theirInfluenceBonus}[icon:YIELD_DIPLOMACY] Influence.[N]Initial War Support - For you: {1_yourWarBonus}, For them: {2_theirWarBonus}.[N]Bonus War Support is impacted by relationship, razing settlements and other factors. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_FORMAL_WAR" Language="th_TH">
 			<Text>สงครามอย่างเป็นทางการ</Text>		<!-- Formal War -->
@@ -9911,19 +9911,19 @@
 			<Text>ทุกคนเห็นสิ่งที่เจ้าปรากฏให้เห็น แต่มีเพียงไม่กี่คนที่รู้ว่าเจ้าเป็นใคร นี่คือสิ่งที่ควรจะเป็น</Text>		<!-- Every one sees what you appear to be, few really know what you are. This is as it should be. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_LEADER_MACHIAVELLI_ANY" Language="th_TH">
-			<Text>นิคโคโล แมคคิอาเวลลี่ ยินดีให้รับใช้ครับ คุณต้องการให้ผมช่วยอะไรไหม? หมายถึง… ผมจะช่วยคุณได้อย่างไรครับ?</Text>		<!-- Niccolo Machiavelli, at your service. How might you be of service to me? I mean… how might I be of service to you?  -->
+			<Text>นิคโคโล มาเคียเวลลี ยินดีให้รับใช้ครับ คุณต้องการให้ผมช่วยอะไรไหม? หมายถึง… ผมจะช่วยคุณได้อย่างไรครับ?</Text>		<!-- Niccolo Machiavelli, at your service. How might you be of service to me? I mean… how might I be of service to you?  -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_RECIPIENT_LEADER_MACHIAVELLI_ANY" Language="th_TH">
-			<Text>นิคโคโล แมคคิอาเวลลี่ ยินดีให้รับใช้ครับ คุณต้องการให้ผมช่วยอะไรไหม? หมายถึง… ผมจะช่วยคุณได้อย่างไรครับ?</Text>		<!-- Niccolo Machiavelli, at your service. How might you be of service to me? I mean… how might I be of service to you?  -->
+			<Text>นิคโคโล มาเคียเวลลี ยินดีให้รับใช้ครับ คุณต้องการให้ผมช่วยอะไรไหม? หมายถึง… ผมจะช่วยคุณได้อย่างไรครับ?</Text>		<!-- Niccolo Machiavelli, at your service. How might you be of service to me? I mean… how might I be of service to you?  -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_LEADER_MACHIAVELLI_ANY" Language="th_TH">
-			<Text>นิคโคโล แมคคิอาเวลลี่ พร้อมให้บริการคุณครับ คุณต้องการให้ผมช่วยอะไรครับ? หรือหมายถึง… ผมจะสามารถช่วยคุณได้อย่างไรครับ?</Text>		<!-- Niccolo Machiavelli, at your service. How might you be of service to me? I mean… how might I be of service to you?  -->
+			<Text>นิคโคโล มาเคียเวลลี พร้อมให้บริการคุณครับ คุณต้องการให้ผมช่วยอะไรครับ? หรือหมายถึง… ผมจะสามารถช่วยคุณได้อย่างไรครับ?</Text>		<!-- Niccolo Machiavelli, at your service. How might you be of service to me? I mean… how might I be of service to you?  -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_INITIATOR_LEADER_MACHIAVELLI_ANY" Language="th_TH">
 			<Text>การถูกจับได้ว่าเป็นคนไร้น้ำยาเป็นความผิดที่เลวร้ายที่สุด</Text>		<!-- To be caught unarmed is the worst fault. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_RECIPIENT_LEADER_MACHIAVELLI_ANY" Language="th_TH">
-			<Text>ฮ่าๆๆ! คุณคิดว่าข้าเป็นสุนัขจิ้งจอก; แต่ข้าก็ยังเป็นสิงโตด้วยนะ</Text>		<!-- Hahahaha! You think me a fox; I am also a lion. -->
+			<Text>ฮ่าๆๆ! แกคิดว่าข้าเป็นสุนัขจิ้งจอก แต่ข้าก็ยังเป็นสิงโตด้วยนะ</Text>		<!-- Hahahaha! You think me a fox; I am also a lion. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DEFEAT_AI_LEADER_MACHIAVELLI_ANY" Language="th_TH">
 			<Text>การต่อสู้ การล้มลง ข้าไม่ใช่เจ้าชาย แต่เป็นเพียงนักเขียน ข้าจะกลับไปที่โต๊ะเขียนของข้า ในความมืดมน</Text>		<!-- A struggle. A fall. I am no prince, but only a writer. I return to my writing desk in obscurity. -->
@@ -10238,7 +10238,7 @@
 			<Text>[LIST][LI]ได้รับ ความร่วมมือพิเศษ ที่เรียกว่า [B]ปฏิรูป[/B] ซึ่งมอบ [B]ช่องนโยบายทางสังคมเพิ่มเติม[/B] การสนับสนุน ความร่วมมือ นี้ยังมอบ [B]ช่องนโยบายทางสังคมเพิ่มเติม[/B] ให้กับผู้นำคนอื่นด้วย [LI][B]+1 พลังต่อสู้ [/B]สำหรับทุก [B]ประเพณี[/B] ที่มีในรัฐบาลแต่ไม่ใช่นโยบาย [B]+2 [icon:YIELD_CULTURE] วัฒนธรรม [/B]และ [icon:YIELD_HAPPINESS] [B]ความสุข [/B]ต่อยุคในถิ่นฐาน โดยเอฟเฟคเหล่านี้จะถูก [B]เพิ่มเป็นสองเท่า [/B]ใน [B]ดินแดนห่างไกล[/B][/LIST]</Text>		<!-- [LIST][LI]Gains a unique [B]Endeavor [/B]called [B]Reform[/B], which grants an additional [B]Social Policy slot[/B]. Supporting this Endeavor also grants the other Leader an additional [B]Social Policy slot[/B].[LI][B]+1 Combat Strength [/B]for every [B]Tradition[/B], but not Policy, slotted in the Government. [B]+2 [icon:YIELD_CULTURE] Culture [/B]and [icon:YIELD_HAPPINESS] [B]Happiness [/B]per Age in Settlements. These effects are [B]doubled [/B]in [B]Distant Lands[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_MACHIAVELLI_NAME" Language="th_TH">
-			<Text>แมคคิอาเวลลี่</Text>		<!-- Machiavelli -->
+			<Text>มาเคียเวลลี</Text>		<!-- Machiavelli -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_MACHIAVELLI_DESCRIPTION" Language="th_TH">
 			<Text>+3 [icon:YIELD_DIPLOMACY] อิทธิพล ต่อยุค เพิ่ม 50 [icon:YIELD_GOLD] ทอง ต่อยุคเมื่อข้อเสนอทางการทูตของคุณได้รับการตอบรับ หรือ 100 [icon:YIELD_GOLD] ทอง เมื่อถูกปฏิเสธ ไม่สนใจข้อกำหนดความสัมพันธ์ใน การประกาศสงครามอย่างเป็นทางการ สามารถเรียกทหารจากนครรัฐที่คุณไม่ใช่ผู้มีอำนาจเหนือได้</Text>		<!-- +3 [icon:YIELD_DIPLOMACY] Influence per Age. Gains 50 [icon:YIELD_GOLD] Gold per Age when your Diplomatic Action proposals are accepted, or 100 [icon:YIELD_GOLD] Gold when they are rejected. Ignores Relationship requirements for declaring Formal Wars. Can Levy Troops from City-States you are not Suzerain of. -->
@@ -10361,7 +10361,7 @@
 			<Text>หลังจากที่เขาปกป้องอาณาจักรจากการรุกราน ปาชาคูตี ได้ขึ้นครองอำนาจใน อาณาจักรคุซโก ประมาณปี 1438 และเริ่มทำการพิชิตภูมิภาคใกล้เคียงในไม่ช้า เขามีความสามารถทางทหาร และการเมืองในระดับที่เท่ากัน — ผู้ที่เขาไม่สามารถครอบครองได้ด้วยกำลัง เขาตอบแทนด้วยของขวัญ โดยสัญญาถึงความเป็นอิสระ และความเจริญรุ่งเรืองแลกกับความจงรักภักดี อาณาจักรอินคาจะดำรงอยู่ต่อไปเพียงประมาณหกสิบปีหลังจากการเสียชีวิตของเขา เมื่อชาวสเปนมาถึง แต่มรดกของปาชาคูติก็ยังคงอยู่ต่อไปอย่างไรก็ตาม</Text>		<!-- Having defended it from invasion, Pachacuti assumed rule over the kingdom of Cuzco around 1438 and soon began to conquer neighboring regions. He had military and political prowess in equal measure — those he could not take by force he plied with gifts, promising autonomy and prosperity in exchange for loyalty. The Inca Empire would only continue for some sixty years after his death, when the Spanish came, but Pachacuti’s legacy endures nonetheless. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_MACHIAVELLI" Language="th_TH">
-			<Text>ชื่อของนักเขียน นักการทูต และนักปรัชญาชาวฟลอเรนซ์นาม นิคโคโล แมคคิอาเวลลี่่ ได้กลายเป็นสัญลักษณ์ของความหลอกลวงและการทรยศ เขาได้โต้แย้งว่าผู้นำที่มีประสิทธิภาพที่สุดคือผู้ที่พร้อมที่จะทำทุกอย่างเพื่อให้ได้มา รักษา และใช้อำนาจ มุมมองดังกล่าวทำให้เขาได้รับความไม่พอใจ จากทั้งคริสตจักรคาทอลิกและตระกูลเมดิชิผู้ทรงอำนาจ แต่ความคิดของเขายังคงมีชีวิตอยู่ในงานหลังความตายของเขา "เจ้าชาย" ซึ่งทำให้เขาในแบบฉบับขอ แมคคิอาเวลลี่่ ได้รับคำพูดสุดท้าย</Text>		<!-- The name of Florentine writer, diplomat and philosopher Niccolo Machiavelli has become synonymous with duplicity and treachery. He argued that the most effective ruler was one willing to do whatever it took to gain, retain and wield power. Such views won him the ire of both the Catholic Church and the powerful Medici dynasty. But his ideas live on in his posthumous work The Prince — giving him, in true Machiavellian fashion, the last word.  -->
+			<Text>ชื่อของนักเขียน นักการทูต และนักปรัชญาชาวฟลอเรนซ์นาม นิคโคโล มาเคียเวลลี่ ได้กลายเป็นสัญลักษณ์ของความหลอกลวงและการทรยศ เขาได้โต้แย้งว่าผู้นำที่มีประสิทธิภาพที่สุดคือผู้ที่พร้อมที่จะทำทุกอย่างเพื่อให้ได้มา รักษา และใช้อำนาจ มุมมองดังกล่าวทำให้เขาได้รับความไม่พอใจ จากทั้งคริสตจักรคาทอลิกและตระกูลเมดิชิผู้ทรงอำนาจ แต่ความคิดของเขายังคงมีชีวิตอยู่ในงานหลังความตายของเขา "เจ้าชาย" ซึ่งทำให้เขาในแบบฉบับขอ มาเคียเวลลี่ ได้รับคำพูดสุดท้าย</Text>		<!-- The name of Florentine writer, diplomat and philosopher Niccolo Machiavelli has become synonymous with duplicity and treachery. He argued that the most effective ruler was one willing to do whatever it took to gain, retain and wield power. Such views won him the ire of both the Catholic Church and the powerful Medici dynasty. But his ideas live on in his posthumous work The Prince — giving him, in true Machiavellian fashion, the last word.  -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_TRUNG_TRAC" Language="th_TH">
 			<Text>ในช่วงสั้นๆ ในสิ่งที่ปัจจุบันคือเวียดนาม สองพี่น้อง ตึง จั๊ค และตึง ญี่ ได้ยืนหยัดต่อสู้กับอำนาจของราชวงศ์ฮั่น เมื่อสามีของตึง จั๊ค ถูกตัดสินประหารชีวิต ตึง จั๊ค และน้องสาวจึงต่อสู้ต่อไป โดยได้เอกราชมาเป็นเวลา 3 ปี ก่อนที่การตอบโต้ของฮั่นจะเกิดขึ้น พวกเธอยังคงถูกยกย่องเป็นสัญลักษณ์ของเอกราชเวียดนาม และเป็นเทพเจ้าที่มีความสำคัญในตัวของพวกเธอเอง</Text>		<!-- For a brief period in what is now Vietnam, two sisters, Trung Trac and Trung Nhi, stood against the might of the Han Dynasty. When her husband was sentenced to death, Trung Trac and her sister fought on, gaining independence for three years before the Han counterattack. They are still held up as symbols of Vietnamese independence, and divinities in their own right. -->
@@ -10805,7 +10805,7 @@
 			<Text>หัวเข็มขัดม้าเสียงหลอน</Text>		<!-- Regal horse headdress. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AMINA_KWALKWALI_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_GOLD] ทอง ต่อยุคสำหรับแต่ละ ทรัพยากร ที่จัดสรรให้กับเมืองใหญ่</Text>		<!-- +1[icon:YIELD_GOLD] Gold per Age for each Resource assigned to Cities. -->
+			<Text>+1[icon:YIELD_GOLD] ทอง ต่อยุค สำหรับแต่ละทรัพยากร ที่จัดสรรให้กับเมืองใหญ่</Text>		<!-- +1[icon:YIELD_GOLD] Gold per Age for each Resource assigned to Cities. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AMINA_RAWANI_NAME" Language="th_TH">
 			<Text>ราวานี</Text>		<!-- Rawani -->
@@ -11048,7 +11048,7 @@
 			<Text>สัญลักษณ์ของอำนาจ</Text>		<!-- A symbol of authority. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_HATSHEPSUT_ROYAL_MACE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_GOLD] ทอง ต่อยุค สำหรับแต่ละ ทรัพยากร ที่นำเข้า</Text>		<!-- +1[icon:YIELD_GOLD] Gold per Age for each imported Resource. -->
+			<Text>+1[icon:YIELD_GOLD] ทอง ต่อยุค สำหรับแต่ละทรัพยากร ที่นำเข้า</Text>		<!-- +1[icon:YIELD_GOLD] Gold per Age for each imported Resource. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_HATSHEPSUT_FALSE_BEARD_NAME" Language="th_TH">
 			<Text>เคราปลอม</Text>		<!-- False Beard -->
@@ -17732,307 +17732,307 @@
 			<Text>สันติภาพแห่งจักรวรรดิ</Text>		<!-- Pax Imperatoria -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_MILITARY_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ</Text>		<!-- As Machiavelli, complete the Pax Imperatoria Legacy Path. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ</Text>		<!-- As Machiavelli, complete the Pax Imperatoria Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_MILITARY_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สันติภาพแห่งจักรวรรดิ 2</Text>		<!-- Pax Imperatoria 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_MILITARY_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ สองครั้ง</Text>		<!-- As Machiavelli, complete the Pax Imperatoria Legacy Path twice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ สองครั้ง</Text>		<!-- As Machiavelli, complete the Pax Imperatoria Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_MILITARY_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
 			<Text>สันติภาพแห่งจักรวรรดิ 3</Text>		<!-- Pax Imperatoria 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_MILITARY_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ สามครั้ง</Text>		<!-- As Machiavelli, complete the Pax Imperatoria Legacy Path thrice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ สามครั้ง</Text>		<!-- As Machiavelli, complete the Pax Imperatoria Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_ECONOMIC_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>เส้นทางสายไหม</Text>		<!-- Silk Roads -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_ECONOMIC_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก เส้นทางสายไหม</Text>		<!-- As Machiavelli, complete the Silk Roads Legacy Path. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก เส้นทางสายไหม</Text>		<!-- As Machiavelli, complete the Silk Roads Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_ECONOMIC_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>เส้นทางสายไหม 2</Text>		<!-- Silk Roads 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_ECONOMIC_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก เส้นทางสายไหม สองครั้ง</Text>		<!-- As Machiavelli, complete the Silk Roads Legacy Path twice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก เส้นทางสายไหม สองครั้ง</Text>		<!-- As Machiavelli, complete the Silk Roads Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_ECONOMIC_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
 			<Text>เส้นทางสายไหม 3</Text>		<!-- Silk Roads 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_ECONOMIC_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก เส้นทางสายไหม สามครั้ง</Text>		<!-- As Machiavelli, complete the Silk Roads Legacy Path thrice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก เส้นทางสายไหม สามครั้ง</Text>		<!-- As Machiavelli, complete the Silk Roads Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_MILITARY_VICTORY_EXPLORATION_NAME" Language="th_TH">
 			<Text>โลกนี้คับแคบเกินไปแล้ว</Text>		<!-- Non Sufficit Orbis -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_MILITARY_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว</Text>		<!-- As Machiavelli, complete the Non Sufficit Orbis Legacy Path. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว</Text>		<!-- As Machiavelli, complete the Non Sufficit Orbis Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_MILITARY_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>โลกนี้คับแคบเกินไปแล้ว 2</Text>		<!-- Non Sufficit Orbis 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_MILITARY_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว สองครั้ง</Text>		<!-- As Machiavelli, complete the Non Sufficit Orbis Legacy Path twice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว สองครั้ง</Text>		<!-- As Machiavelli, complete the Non Sufficit Orbis Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_MILITARY_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
 			<Text>โลกนี้คับแคบเกินไปแล้ว 3</Text>		<!-- Non Sufficit Orbis 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_MILITARY_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว สามครั้ง</Text>		<!-- As Machiavelli, complete the Non Sufficit Orbis Legacy Path thrice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว สามครั้ง</Text>		<!-- As Machiavelli, complete the Non Sufficit Orbis Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_ECONOMIC_VICTORY_EXPLORATION_NAME" Language="th_TH">
 			<Text>กองเรือบรรทุกสมบัติ</Text>		<!-- Treasure Fleet -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_ECONOMIC_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก กองเรือบรรทุกสมบัติ</Text>		<!-- As Machiavelli, complete the Treasure Fleet Legacy Path. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก กองเรือบรรทุกสมบัติ</Text>		<!-- As Machiavelli, complete the Treasure Fleet Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_ECONOMIC_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>กองเรือบรรทุกสมบัติ 2</Text>		<!-- Treasure Fleet 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_ECONOMIC_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก กองเรือบรรทุกสมบัติ สองครั้ง</Text>		<!-- As Machiavelli, complete the Treasure Fleet Legacy Path twice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก กองเรือบรรทุกสมบัติ สองครั้ง</Text>		<!-- As Machiavelli, complete the Treasure Fleet Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_ECONOMIC_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
 			<Text>กองเรือบรรทุกสมบัติ 3</Text>		<!-- Treasure Fleet 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_ECONOMIC_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก กองเรือบรรทุกสมบัติ สามครั้ง</Text>		<!-- As Machiavelli, complete the Treasure Fleet Legacy Path thrice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก กองเรือบรรทุกสมบัติ สามครั้ง</Text>		<!-- As Machiavelli, complete the Treasure Fleet Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_MILITARY_VICTORY_MODERN_NAME" Language="th_TH">
 			<Text>อุดมการณ์</Text>		<!-- Ideology -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_MILITARY_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก อุดมการณ์</Text>		<!-- As Machiavelli, complete the Ideology Legacy Path. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก อุดมการณ์</Text>		<!-- As Machiavelli, complete the Ideology Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_MILITARY_VICTORY_MODERN_2_NAME" Language="th_TH">
 			<Text>อุดมการณ์ 2</Text>		<!-- Ideology 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_MILITARY_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก อุดมการณ์ สองครั้ง</Text>		<!-- As Machiavelli, complete the Ideology Legacy Path twice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก อุดมการณ์ สองครั้ง</Text>		<!-- As Machiavelli, complete the Ideology Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_MILITARY_VICTORY_MODERN_3_NAME" Language="th_TH">
 			<Text>อุดมการณ์ 3</Text>		<!-- Ideology 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_MILITARY_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก อุดมการณ์ สามครั้ง</Text>		<!-- As Machiavelli, complete the Ideology Legacy Path thrice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก อุดมการณ์ สามครั้ง</Text>		<!-- As Machiavelli, complete the Ideology Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_ECONOMIC_VICTORY_MODERN_NAME" Language="th_TH">
 			<Text>เจ้าพ่อรถไฟ</Text>		<!-- Railroad Tycoon -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_ECONOMIC_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก เจ้าพ่อรถไฟ</Text>		<!-- As Machiavelli, complete the Railroad Tycoon Legacy Path. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก เจ้าพ่อรถไฟ</Text>		<!-- As Machiavelli, complete the Railroad Tycoon Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_ECONOMIC_VICTORY_MODERN_2_NAME" Language="th_TH">
 			<Text>เจ้าพ่อรถไฟ 2</Text>		<!-- Railroad Tycoon 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_ECONOMIC_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก เจ้าพ่อรถไฟ สองครั้ง</Text>		<!-- As Machiavelli, complete the Railroad Tycoon Legacy Path twice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก เจ้าพ่อรถไฟ สองครั้ง</Text>		<!-- As Machiavelli, complete the Railroad Tycoon Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_ECONOMIC_VICTORY_MODERN_3_NAME" Language="th_TH">
 			<Text>เจ้าพ่อรถไฟ 3</Text>		<!-- Railroad Tycoon 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_ECONOMIC_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก เจ้าพ่อรถไฟ สามครั้ง</Text>		<!-- As Machiavelli, complete the Railroad Tycoon Legacy Path thrice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก เจ้าพ่อรถไฟ สามครั้ง</Text>		<!-- As Machiavelli, complete the Railroad Tycoon Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_AGE_COMPLETED_ANTIQUITY_NAME" Language="th_TH">
 			<Text>จบยุคโบราณ</Text>		<!-- Antiquity Complete -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_AGE_COMPLETED_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ จบยุคโบราณ หนึ่งครั้ง</Text>		<!-- As Machiavelli, finish the Antiquity Age. -->
+			<Text>ในฐานะ มาเคียเวลลี จบยุคโบราณ หนึ่งครั้ง</Text>		<!-- As Machiavelli, finish the Antiquity Age. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_AGE_COMPLETED_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>จบยุคโบราณ 2</Text>		<!-- Antiquity Complete 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_AGE_COMPLETED_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ จบยุคโบราณ สองครั้ง</Text>		<!-- As Machiavelli, finish the Antiquity Age twice. -->
+			<Text>ในฐานะ มาเคียเวลลี จบยุคโบราณ สองครั้ง</Text>		<!-- As Machiavelli, finish the Antiquity Age twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_AGE_COMPLETED_ANTIQUITY_3_NAME" Language="th_TH">
 			<Text>จบยุคโบราณ 3</Text>		<!-- Antiquity Complete 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_AGE_COMPLETED_ANTIQUITY_3_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ จบยุคโบราณ สามครั้ง</Text>		<!-- As Machiavelli, finish the Antiquity Age thrice. -->
+			<Text>ในฐานะ มาเคียเวลลี จบยุคโบราณ สามครั้ง</Text>		<!-- As Machiavelli, finish the Antiquity Age thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_AGE_COMPLETED_EXPLORATION_NAME" Language="th_TH">
 			<Text>จบยุคสำรวจ</Text>		<!-- Exploration Complete -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_AGE_COMPLETED_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ จบยุคสำรวจ หนึ่งครั้ง</Text>		<!-- As Machiavelli, finish the Exploration Age. -->
+			<Text>ในฐานะ มาเคียเวลลี จบยุคสำรวจ หนึ่งครั้ง</Text>		<!-- As Machiavelli, finish the Exploration Age. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_AGE_COMPLETED_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>จบยุคสำรวจ 2</Text>		<!-- Exploration Complete 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_AGE_COMPLETED_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ จบยุคสำรวจ สองครั้ง</Text>		<!-- As Machiavelli, finish the Exploration Age twice. -->
+			<Text>ในฐานะ มาเคียเวลลี จบยุคสำรวจ สองครั้ง</Text>		<!-- As Machiavelli, finish the Exploration Age twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_AGE_COMPLETED_EXPLORATION_3_NAME" Language="th_TH">
 			<Text>จบยุคสำรวจ 3</Text>		<!-- Exploration Complete 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_AGE_COMPLETED_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ จบยุคสำรวจ สามครั้ง</Text>		<!-- As Machiavelli, finish the Exploration Age thrice. -->
+			<Text>ในฐานะ มาเคียเวลลี จบยุคสำรวจ สามครั้ง</Text>		<!-- As Machiavelli, finish the Exploration Age thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_AGE_COMPLETED_MODERN_NAME" Language="th_TH">
 			<Text>จบยุคใหม่</Text>		<!-- Modern Complete -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_AGE_COMPLETED_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ จบยุคใหม่ หนึ่งครั้ง</Text>		<!-- As Machiavelli, finish the Modern Age. -->
+			<Text>ในฐานะ มาเคียเวลลี จบยุคใหม่ หนึ่งครั้ง</Text>		<!-- As Machiavelli, finish the Modern Age. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_AGE_COMPLETED_MODERN_2_NAME" Language="th_TH">
 			<Text>จบยุคใหม่ 2</Text>		<!-- Modern Complete 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_AGE_COMPLETED_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ จบยุคใหม่ สองครั้ง</Text>		<!-- As Machiavelli, finish the Modern Age twice. -->
+			<Text>ในฐานะ มาเคียเวลลี จบยุคใหม่ สองครั้ง</Text>		<!-- As Machiavelli, finish the Modern Age twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_AGE_COMPLETED_MODERN_3_NAME" Language="th_TH">
 			<Text>จบยุคใหม่ 3</Text>		<!-- Modern Complete 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_AGE_COMPLETED_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ จบยุคใหม่ สามครั้ง</Text>		<!-- As Machiavelli, finish the Modern Age thrice. -->
+			<Text>ในฐานะ มาเคียเวลลี จบยุคใหม่ สามครั้ง</Text>		<!-- As Machiavelli, finish the Modern Age thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_PLAY_GAMES_1_NAME" Language="th_TH">
 			<Text>เล่นเกม 1</Text>		<!-- Play Game 1 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_PLAY_GAMES_1_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้บรรลุอย่างน้อย 1 หมุดหมาย ของเส้นทางมรดก</Text>		<!-- As Machiavelli, reach at least 1 Legacy Path Milestone. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้บรรลุอย่างน้อย 1 หมุดหมาย ของเส้นทางมรดก</Text>		<!-- As Machiavelli, reach at least 1 Legacy Path Milestone. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_PLAY_GAMES_2_NAME" Language="th_TH">
 			<Text>เล่นเกม 2</Text>		<!-- Play Game 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_PLAY_GAMES_2_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้บรรลุอย่างน้อย 2 หมุดหมาย ของเส้นทางมรดก</Text>		<!-- As Machiavelli, reach at least 2 Legacy Path Milestones. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้บรรลุอย่างน้อย 2 หมุดหมาย ของเส้นทางมรดก</Text>		<!-- As Machiavelli, reach at least 2 Legacy Path Milestones. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_PLAY_GAMES_3_NAME" Language="th_TH">
 			<Text>เล่นเกมที่ 3</Text>		<!-- Play Game 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_PLAY_GAMES_3_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้บรรลุอย่างน้อย 3 หมุดหมาย ของเส้นทางมรดก</Text>		<!-- As Machiavelli, reach at least 3 Legacy Path Milestones. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้บรรลุอย่างน้อย 3 หมุดหมาย ของเส้นทางมรดก</Text>		<!-- As Machiavelli, reach at least 3 Legacy Path Milestones. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>หอสมุดอันยิ่งใหญ่</Text>		<!-- Great Library -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก หอสมุดอันยิ่งใหญ่</Text>		<!-- As Machiavelli, complete the Great Library Legacy Path. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก หอสมุดอันยิ่งใหญ่</Text>		<!-- As Machiavelli, complete the Great Library Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>หอสมุดอันยิ่งใหญ่ 2</Text>		<!-- Great Library 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก หอสมุดอันยิ่งใหญ่ สองครั้ง</Text>		<!-- As Machiavelli, complete the Great Library Legacy Path twice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก หอสมุดอันยิ่งใหญ่ สองครั้ง</Text>		<!-- As Machiavelli, complete the Great Library Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
 			<Text>หอสมุดอันยิ่งใหญ่ 3</Text>		<!-- Great Library 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก หอสมุดอันยิ่งใหญ่ สามครั้ง</Text>		<!-- As Machiavelli, complete the Great Library Legacy Path thrice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก หอสมุดอันยิ่งใหญ่ สามครั้ง</Text>		<!-- As Machiavelli, complete the Great Library Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_EXPLORATION_NAME" Language="th_TH">
 			<Text>การตรัสรู้</Text>		<!-- Enlightment -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก การตรัสรู้</Text>		<!-- As Machiavelli, complete the Enlightenment Legacy Path. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก การตรัสรู้</Text>		<!-- As Machiavelli, complete the Enlightenment Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>การตรัสรู้ 2</Text>		<!-- Enlightment 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก การตรัสรู้ สองครั้ง</Text>		<!-- As Machiavelli, complete the Enlightenment Legacy Path twice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก การตรัสรู้ สองครั้ง</Text>		<!-- As Machiavelli, complete the Enlightenment Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
 			<Text>การตรัสรู้ 3</Text>		<!-- Enlightment 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Machiavelli, complete the Enlightenment Legacy Path thrice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Machiavelli, complete the Enlightenment Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
 			<Text>การแข่งขันทางอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Machiavelli, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Machiavelli, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
 			<Text>การแข่งขันอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As Machiavelli, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As Machiavelli, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
 			<Text>การแข่งขันอวกาศครั้งที่ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As Machiavelli, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As Machiavelli, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Machiavelli, complete the Wonders of the Ancient World Legacy Path. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Machiavelli, complete the Wonders of the Ancient World Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_CULTURE_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ สองครั้ง</Text>		<!-- As Machiavelli, complete the Wonders of the Ancient World Legacy Path twice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ สองครั้ง</Text>		<!-- As Machiavelli, complete the Wonders of the Ancient World Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_CULTURE_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 3</Text>		<!-- Wonders of the Ancient World 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_CULTURE_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ สามครั้ง</Text>		<!-- As Machiavelli, complete the Wonders of the Ancient World Legacy Path thrice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ สามครั้ง</Text>		<!-- As Machiavelli, complete the Wonders of the Ancient World Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_CULTURE_VICTORY_EXPLORATION_NAME" Language="th_TH">
 			<Text>โทชาคานา</Text>		<!-- Toshakhana -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_CULTURE_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก โทชาคานา</Text>		<!-- As Machiavelli, complete the Toshakhana Legacy Path. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก โทชาคานา</Text>		<!-- As Machiavelli, complete the Toshakhana Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_CULTURE_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>โทชาคานา 2</Text>		<!-- Toshakhana 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_CULTURE_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก โทชาคานา สองครั้ง</Text>		<!-- As Machiavelli, complete the Toshakhana Legacy Path twice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก โทชาคานา สองครั้ง</Text>		<!-- As Machiavelli, complete the Toshakhana Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_CULTURE_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
 			<Text>โทชาคานา 3</Text>		<!-- Toshakhana 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_CULTURE_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก โทชาคานา สามครั้ง</Text>		<!-- As Machiavelli, complete the Toshakhana Legacy Path thrice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก โทชาคานา สามครั้ง</Text>		<!-- As Machiavelli, complete the Toshakhana Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_CULTURE_VICTORY_MODERN_NAME" Language="th_TH">
 			<Text>สมาคมภูมิศาสตร์</Text>		<!-- Geographic Society -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_CULTURE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก สมาคมภูมิศาสตร์</Text>		<!-- As Machiavelli, complete the Geographic Society Legacy Path. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก สมาคมภูมิศาสตร์</Text>		<!-- As Machiavelli, complete the Geographic Society Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_CULTURE_VICTORY_MODERN_2_NAME" Language="th_TH">
 			<Text>สมาคมภูมิศาสตร์ 2</Text>		<!-- Geographic Society 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_CULTURE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก สมาคมภูมิศาสตร์ สองครั้ง</Text>		<!-- As Machiavelli, complete the Geographic Society Legacy Path twice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก สมาคมภูมิศาสตร์ สองครั้ง</Text>		<!-- As Machiavelli, complete the Geographic Society Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_CULTURE_VICTORY_MODERN_3_NAME" Language="th_TH">
 			<Text>สมาคมภูมิศาสตร์ 3</Text>		<!-- Geographic Society 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_CULTURE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก สมาคมภูมิศาสตร์ สามครั้ง</Text>		<!-- As Machiavelli, complete the Geographic Society Legacy Path thrice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก สมาคมภูมิศาสตร์ สามครั้ง</Text>		<!-- As Machiavelli, complete the Geographic Society Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_FLAWLESS_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สองมรดก, ยุคโบราณ</Text>		<!-- Dual Legacies, Antiquity -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_FLAWLESS_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก 2 เส้นทาง ในยุคโบราณเดียว</Text>		<!-- As Machiavelli, complete 2 Legacy Paths in a single Antiquity Age. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก 2 เส้นทาง ในยุคโบราณเดียว</Text>		<!-- As Machiavelli, complete 2 Legacy Paths in a single Antiquity Age. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_FLAWLESS_VICTORY_EXPLORATION_NAME" Language="th_TH">
 			<Text>สองมรดก, ยุคสำรวจ</Text>		<!-- Dual Legacies, Exploration -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_FLAWLESS_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก 2 เส้นทาง ในยุคสำรวจเดียว</Text>		<!-- As Machiavelli, complete 2 Legacy Paths in a single Exploration Age. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก 2 เส้นทาง ในยุคสำรวจเดียว</Text>		<!-- As Machiavelli, complete 2 Legacy Paths in a single Exploration Age. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_FLAWLESS_VICTORY_MODERN_NAME" Language="th_TH">
 			<Text>สองมรดก, ยุคใหม่</Text>		<!-- Dual Legacies, Modern -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_FLAWLESS_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ให้ทำเส้นทางมรดก 2 เส้นทาง ในยุคใหม่เดียว</Text>		<!-- As Machiavelli, complete 2 Legacy Paths in a single Modern Age. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก 2 เส้นทาง ในยุคใหม่เดียว</Text>		<!-- As Machiavelli, complete 2 Legacy Paths in a single Modern Age. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_PACHACUTI_MILITARY_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สันติภาพแห่งจักรวรรดิ</Text>		<!-- Pax Imperatoria -->
@@ -20270,7 +20270,7 @@
 			<Text>{1_value: number +#;-#} {2_type}</Text>		<!-- {1_value: number +#;-#} {2_type} -->
 		</Replace>
 		<Replace Tag="LOC_REWARD_AMOUNT_TRADITION_SLOTS" Language="th_TH">
-			<Text>สล็อตประเพณี +{1_value}</Text>		<!-- +{1_value} Tradition Slots -->
+			<Text>+{1_value} ช่องประเพณี</Text>		<!-- +{1_value} Tradition Slots -->
 		</Replace>
 		<Replace Tag="LOC_REWARD_AMOUNT_RELIGION_ALL_SETTLEMENTS" Language="th_TH">
 			<Text>+{1_value} {2_type} สำหรับถิ่นฐานทั้งหมดตามศาสนาของคุณ</Text>		<!-- +{1_value} {2_type} for all Settlements following your Religion -->
@@ -20765,7 +20765,7 @@
 			<Text>เจตนารมณ์ของ {1_LeaderName} ได้เปลี่ยนแปลงความสัมพันธ์ของคุณแล้ว</Text>		<!-- The Agenda of {1_LeaderName} has changed your Relationship. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ESPIONAGE_REVEALED_TARGET" Language="th_TH">
-			<Text>คุณพบว่า {1_LeaderName} กำลังดำเนินการจารกรรม {2_ActionName} ต่อคุณ สำหรับการถูกเปิดโปงพวกเขาจะได้รับโทษอิทธิพล {3_PenaltyInfluence} เป็นเวลา {4_PenaltyTurns} เทิร์น {5_SuccessFailStr}</Text>		<!-- You discovered {1_LeaderName} performing the Espionage Action {2_ActionName} against you.  For being revealed they suffer a {3_PenaltyInfluence} Influence penalty for {4_PenaltyTurns} turns.  {5_SuccessFailStr} -->
+			<Text>คุณพบว่า {1_LeaderName} กำลังดำเนินการจารกรรม {2_ActionName} ต่อคุณ สำหรับการถูกเปิดโปง พวกเขาจะได้รับโทษอิทธิพล {3_PenaltyInfluence} เป็นเวลา {4_PenaltyTurns} เทิร์น {5_SuccessFailStr}</Text>		<!-- You discovered {1_LeaderName} performing the Espionage Action {2_ActionName} against you.  For being revealed they suffer a {3_PenaltyInfluence} Influence penalty for {4_PenaltyTurns} turns.  {5_SuccessFailStr} -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ESPIONAGE_NOT_REVEALED_TARGET" Language="th_TH">
 			<Text>คุณพบผู้นำที่ไม่รู้จักกำลังดำเนินการจารกรรม {2_ActionName} ต่อคุณ {5_SuccessFailStr}</Text>		<!-- You discovered an unknown Leader performing the Espionage Action {2_ActionName} against you. {5_SuccessFailStr} -->
@@ -21170,13 +21170,13 @@
 			<Text>เส้นทางการค้าโดนปล้น</Text>		<!-- Trade Route Plundered -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_TRADE_ROUTE_PLUNDERED_SUMMARY_FOR_ROUTE_OWNER" Language="th_TH">
-			<Text>{1_LeaderName} ได้ปล้นเส้นทางการค้าของคุณจาก {1_CityName} ไปยัง {2_CityName} ทรัพยากรที่ได้รับตามเส้นทางนั้นได้สูญหายไปแล้ว</Text>		<!-- {1_LeaderName} has plundered your Trade Route from {1_CityName} to {2_CityName}. Resources received along that route have been lost. -->
+			<Text>{1_LeaderName} ได้ปล้นเส้นทางการค้าของคุณจาก {1_CityName} ไปยัง {2_CityName} ทรัพยากรที่ได้รับตามเส้นทางนั้น ได้สูญหายไปแล้ว</Text>		<!-- {1_LeaderName} has plundered your Trade Route from {1_CityName} to {2_CityName}. Resources received along that route have been lost. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_TRADE_RESOURCES_GAINED_MESSAGE" Language="th_TH">
 			<Text>ทรัพยากรทางการค้าได้รับ</Text>		<!-- Trade Resource Gained -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_TRADE_RESOURCES_GAINED_SUMMARY" Language="th_TH">
-			<Text>ถิ่นฐานในต่างประเทศ {1_CityName} ได้เพิ่ม {2_ResourceName} ให้กับเส้นทางการค้าของคุณ คุณสามารถกำหนดทรัพยากรนี้ให้กับสถานที่ตั้งแห่งหนึ่งของคุณได้แล้ว</Text>		<!-- The foreign Settlement {1_CityName} has added {2_ResourceName} to your Trade Route. You can now assign this Resource to one of your Settlements. -->
+			<Text>ถิ่นฐานในต่างประเทศ {1_CityName} ได้เพิ่ม {2_ResourceName} ให้กับเส้นทางการค้าของคุณ คุณสามารถจัดสรรทรัพยากรนี้ ให้กับถิ่นฐานของคุณได้แล้ว</Text>		<!-- The foreign Settlement {1_CityName} has added {2_ResourceName} to your Trade Route. You can now assign this Resource to one of your Settlements. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_TRADE_RESOURCES_LOST_MESSAGE" Language="th_TH">
 			<Text>ทรัพยากรการค้าเสียหาย</Text>		<!-- Trade Resource Lost -->
@@ -21275,37 +21275,37 @@
 			<Text>{1_StormType} ได้ก่อตัวขึ้นและกำลังมุ่งหน้าไปทาง {3_Direction} พายุจะสร้างความเสียหายในอีกสองเทิร์นถัดไป (เมื่อพายุมาถึง มี {4_Tiles} ช่อง ได้รับความเสียหาย, สูญเสียประชากร {5_Pop} หน่วย, {6_Units} {6_Units: plural 1?Unit; other?Units;} ถูกทำลาย, และ {7_Yields} ช่อง สูญเสียความอุดมสมบูรณ์)</Text>		<!-- A {1_StormType} has developed and is headed to the {3_Direction}. The storm will cause destruction over the next two turns. (With its arrival there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} lost fertility) -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_NAMED_STORM_ARRIVED_LOSSES_SUMMARY" Language="th_TH">
-			<Text>{1_StormType} ชื่อ {2_StormName} ได้ก่อตัวขึ้นและกำลังมุ่งหน้าไปทาง {3_Direction} พายุนี้จะก่อให้เกิดการทำลายล้างในอีกสองเทิร์นข้างหน้า (เมื่อพายุนี้มาถึง มี {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} เสียหาย, สูญเสียประชากร {5_Pop} หน่วย, {6_Units} ยูนิต เสียชีวิต, {7_Yields} ช่อง สูญเสียความอุดมสมบูรณ์)</Text>		<!-- A {1_StormType} named {2_StormName} has developed and is headed to the {3_Direction}. The storm will cause destruction over the next two turns. (With its arrival there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} lost fertility) -->
+			<Text>{1_StormType} ชื่อ {2_StormName} ได้ก่อตัวขึ้นและกำลังมุ่งหน้าไปทาง {3_Direction} พายุนี้จะก่อให้เกิดการทำลายล้างในอีกสองเทิร์นข้างหน้า (เมื่อพายุนี้มาถึง มี {4_Tiles} ช่อง ได้รับความเสียหาย, สูญเสียประชากร {5_Pop} หน่วย, {6_Units} ยูนิต เสียชีวิต, {7_Yields} ช่อง สูญเสียความอุดมสมบูรณ์)</Text>		<!-- A {1_StormType} named {2_StormName} has developed and is headed to the {3_Direction}. The storm will cause destruction over the next two turns. (With its arrival there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} lost fertility) -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_STORM_MOVED_MESSAGE" Language="th_TH">
 			<Text>พายุยังคงโหมกระหน่ำ</Text>		<!-- Storm Rages On -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_STORM_MOVED_SUMMARY" Language="th_TH">
-			<Text>{1_StormType} ยังคงเคลื่อนที่ต่อไปและกำลังมุ่งหน้าไปทาง {3_Direction} (ในช่วงนี้มี {4_Tiles} ช่อง ได้รับความเสียหาย, ประชากร {5_Pop} หายไป, {6_Units} ยูนิต ถูกฆ่า, {7_Yields} ช่อง ได้รับความอุดมสมบูรณ์)</Text>		<!-- The {1_StormType} continues its movement and is now headed to the {3_Direction}. (During this turn there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} gained fertility) -->
+			<Text>{1_StormType} ยังคงเคลื่อนที่ต่อไปและกำลังมุ่งหน้าไปทาง {3_Direction} (ในช่วงนี้มี {4_Tiles} ช่อง ได้รับความเสียหาย, สูญเสียประชากร {5_Pop} หน่วย, {6_Units} ยูนิต เสียชีสิต, {7_Yields} ช่อง ได้รับความอุดมสมบูรณ์)</Text>		<!-- The {1_StormType} continues its movement and is now headed to the {3_Direction}. (During this turn there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} gained fertility) -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_NAMED_STORM_MOVED_SUMMARY" Language="th_TH">
-			<Text>{1_StormType} ชื่อ {2_StormName} ยังคงเคลื่อนที่และกำลังมุ่งหน้าไปทาง {3_Direction} (ในช่วงนี้มี {4_Tiles} ช่อง ได้รับความเสียหาย, สูญเสียประชากร {5_Pop} หน่วย, {6_Units} ยูนิต ถูกฆ่า, {7_Yields} ช่อง ได้รับความอุดมสมบูรณ์)</Text>		<!-- The {1_StormType} named {2_StormName} continues its movement and is now headed to the {3_Direction}. (During this turn there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} gained fertility) -->
+			<Text>{1_StormType} ชื่อ {2_StormName} ยังคงเคลื่อนที่และกำลังมุ่งหน้าไปทาง {3_Direction} (ในช่วงนี้มี {4_Tiles} ช่อง ได้รับความเสียหาย, สูญเสียประชากร {5_Pop} หน่วย, {6_Units} ยูนิต เสียชีวิต, {7_Yields} ช่อง ได้รับความอุดมสมบูรณ์)</Text>		<!-- The {1_StormType} named {2_StormName} continues its movement and is now headed to the {3_Direction}. (During this turn there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} gained fertility) -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_STORM_MOVED_LOSSES_SUMMARY" Language="th_TH">
-			<Text>{1_StormType} ยังคงเคลื่อนไหวและกำลังมุ่งหน้าไปทาง {3_Direction} (ระหว่างการเคลื่อนนี้มีความเสียหายเกิดขึ้นกับ {4_Tiles} ช่อง ประชากรสูญหาย {5_Pop} เสียชีวิต {6_Units} ยูนิต ยูนิต สูญเสียความอุดมสมบูรณ์ {7_Yields} ช่อง)</Text>		<!-- The {1_StormType} continues its movement and is now headed to the {3_Direction}. (During this turn there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} lost fertility) -->
+			<Text>{1_StormType} ยังคงเคลื่อนไหวและกำลังมุ่งหน้าไปทาง {3_Direction} (ระหว่างการเคลื่อนนี้มีความเสียหายเกิดขึ้นกับ {4_Tiles} ช่อง สูญเสียประชากร {5_Pop} หน่วย, {6_Units} ยูนิต เสียชิวิต, {7_Yields} ช่อง สูญเสียความอุดมสมบูรณ์)</Text>		<!-- The {1_StormType} continues its movement and is now headed to the {3_Direction}. (During this turn there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} lost fertility) -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_NAMED_STORM_MOVED_LOSSES_SUMMARY" Language="th_TH">
-			<Text>{1_StormType} ชื่อ {2_StormName} ยังคงเคลื่อนที่ต่อไปและขณะนี้มุ่งหน้าไปทาง {3_Direction} (ในช่วงเวลานี้มี {4_Tiles} ช่องเสียหาย, ประชากร {5_Pop} คนสูญหาย, {6_Units} ยูนิตเสียชีวิต, {7_Yields} ช่องสูญเสียความอุดมสมบูรณ์)</Text>		<!-- The {1_StormType} named {2_StormName} continues its movement and is now headed to the {3_Direction}. (During this turn there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} lost fertility) -->
+			<Text>{1_StormType} ชื่อ {2_StormName} ยังคงเคลื่อนที่ต่อไปและขณะนี้มุ่งหน้าไปทาง {3_Direction} (ในช่วงเวลานี้มี {4_Tiles} ช่องเสียหาย, สูญเสียประชากร {5_Pop} หน่วย, {6_Units} ยูนิต เสียชีวิต, {7_Yields} ช่อง สูญเสียความอุดมสมบูรณ์)</Text>		<!-- The {1_StormType} named {2_StormName} continues its movement and is now headed to the {3_Direction}. (During this turn there were {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} damaged, {5_Pop} Population lost, {6_Units} {6_Units: plural 1?Unit; other?Units;} killed, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} lost fertility) -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_STORM_DISSIPATED_MESSAGE" Language="th_TH">
 			<Text>พายุสลายตัว</Text>		<!-- Storm Peters Out -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_STORM_DISSIPATED_SUMMARY" Language="th_TH">
-			<Text>{1_StormType}ซึ่งอ่อนกำลังลงแล้ว ได้เคลื่อนตัวครั้งสุดท้ายผ่านแผนที่ (ในระหว่างรอบนี้มี{3_Tiles} ช่อง ได้รับความเสียหาย, สูญเสียประชากร {4_Pop} หน่วย, มี{5_Units} ยูนิต เสียชีวิต, ได้รับความอุดมสมบูรณ์จาก{6_Yields} ช่อง)</Text>		<!-- The {1_StormType}, now weaker, has made its final move across the map. (During this turn there were {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;} damaged, {4_Pop} population lost, {5_Units} {5_Units: plural 1?unit; other?units;} killed, {6_Yields} {6_Yields: plural 1?tile; other?tiles;} gained fertility) -->
+			<Text>{1_StormType}ซึ่งอ่อนกำลังลงแล้ว ได้เคลื่อนตัวครั้งสุดท้ายผ่านแผนที่ (ในระหว่างรอบนี้มี{3_Tiles} ช่อง ได้รับความเสียหาย, สูญเสียประชากร {4_Pop} หน่วย, {5_Units} ยูนิต เสียชีวิต, {6_Yields} ช่อง ได้รับความอุดมสมบูรณ์)</Text>		<!-- The {1_StormType}, now weaker, has made its final move across the map. (During this turn there were {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;} damaged, {4_Pop} population lost, {5_Units} {5_Units: plural 1?unit; other?units;} killed, {6_Yields} {6_Yields: plural 1?tile; other?tiles;} gained fertility) -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_NAMED_STORM_DISSIPATED_SUMMARY" Language="th_TH">
-			<Text>{1_StormType} ชื่อ {2_StormName} ตอนนี้อ่อนกำลังลง ได้เคลื่อนตัวครั้งสุดท้ายผ่านแผนที่ (ระหว่างการเคลื่อนตัวครั้งนี้มี {3_Tiles} ช่อง เสียหาย, {4_Pop} ประชากรสูญหาย, {5_Units} ยูนิต เสียชีวิต, {6_Yields} ช่อง ได้รับความอุดมสมบูรณ์)</Text>		<!-- The {1_StormType} named {2_StormName}, now weaker, has made its final move across the map. (During this turn there were {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;} damaged, {4_Pop} population lost, {5_Units} {5_Units: plural 1?unit; other?units;} killed, {6_Yields} {6_Yields: plural 1?tile; other?tiles;} gained fertility) -->
+			<Text>{1_StormType} ชื่อ {2_StormName} ตอนนี้อ่อนกำลังลง ได้เคลื่อนตัวครั้งสุดท้ายผ่านแผนที่ (ระหว่างการเคลื่อนตัวครั้งนี้มี {3_Tiles} ช่อง เสียหาย, สูญเสียประชากร {4_Pop} หน่วย, {5_Units} ยูนิต เสียชีวิต, {6_Yields} ช่อง ได้รับความอุดมสมบูรณ์)</Text>		<!-- The {1_StormType} named {2_StormName}, now weaker, has made its final move across the map. (During this turn there were {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;} damaged, {4_Pop} population lost, {5_Units} {5_Units: plural 1?unit; other?units;} killed, {6_Yields} {6_Yields: plural 1?tile; other?tiles;} gained fertility) -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_STORM_DISSIPATED_LOSSES_SUMMARY" Language="th_TH">
-			<Text>{1_StormType} ซึ่งอ่อนกำลังลงแล้ว ได้เคลื่อนที่เป็นครั้งสุดท้ายบนแผนที่ (ในเทิร์นนี้ มี {3_Tiles} ช่อง ได้รับความเสียหาย, สูญเสียประชากร {4_Pop} หน่วย, {5_Units} ยูนิต ถูกทำลาย, และ {6_Yields} ช่อง สูญเสียความอุดมสมบูรณ์)</Text>		<!-- The {1_StormType}, now weaker, has made its final move across the map. (During this turn there were {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;} damaged, {4_Pop} population lost, {5_Units} {5_Units: plural 1?unit; other?units;} killed, {6_Yields} {6_Yields: plural 1?tile; other?tiles;} lost fertility) -->
+			<Text>{1_StormType} ซึ่งอ่อนกำลังลงแล้ว ได้เคลื่อนที่เป็นครั้งสุดท้ายบนแผนที่ (ในเทิร์นนี้ มี {3_Tiles} ช่อง ได้รับความเสียหาย, สูญเสียประชากร {4_Pop} หน่วย, {5_Units} ยูนิต เสียชีวิต, และ {6_Yields} ช่อง สูญเสียความอุดมสมบูรณ์)</Text>		<!-- The {1_StormType}, now weaker, has made its final move across the map. (During this turn there were {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;} damaged, {4_Pop} population lost, {5_Units} {5_Units: plural 1?unit; other?units;} killed, {6_Yields} {6_Yields: plural 1?tile; other?tiles;} lost fertility) -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_NAMED_STORM_DISSIPATED_LOSSES_SUMMARY" Language="th_TH">
-			<Text>{1_StormType} ที่ชื่อ {2_StormName} ซึ่งตอนนี้อ่อนกำลังลงแล้ว ได้เคลื่อนไหวครั้งสุดท้ายข้ามแผนที่ (ในช่วงนี้มี {3_Tiles} ช่อง เสียหาย ประชากรสูญหาย {4_Pop} จำนวน {5_Units} ยูนิต ถูกฆ่า สูญเสียความอุดมสมบูรณ์ {6_Yields} ช่อง)</Text>		<!-- The {1_StormType} named {2_StormName}, now weaker, has made its final move across the map. (During this turn there were {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;} damaged, {4_Pop} population lost, {5_Units} {5_Units: plural 1?unit; other?units;} killed, {6_Yields} {6_Yields: plural 1?tile; other?tiles;} lost fertility) -->
+			<Text>{1_StormType} ที่ชื่อ {2_StormName} ซึ่งตอนนี้อ่อนกำลังลงแล้ว ได้เคลื่อนไหวครั้งสุดท้ายข้ามแผนที่ (ในช่วงนี้มี {3_Tiles} ช่อง ได้รับความเสียหาย, สูญเสียประชากร {4_Pop} จำนวน {5_Units} ยูนิต เสียชีวิต, {6_Yields} ช่อง สูญเสียความอุดมสมบูรณ์)</Text>		<!-- The {1_StormType} named {2_StormName}, now weaker, has made its final move across the map. (During this turn there were {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;} damaged, {4_Pop} population lost, {5_Units} {5_Units: plural 1?unit; other?units;} killed, {6_Yields} {6_Yields: plural 1?tile; other?tiles;} lost fertility) -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_VOLCANO_ERUPTS_SEV0_MESSAGE" Language="th_TH">
 			<Text>การปะทุของภูเขาไฟอย่างอ่อนโยน</Text>		<!-- Gentle Volcanic Eruption -->
@@ -23988,28 +23988,28 @@
 			<Text>+{1_Amount} {2_YieldName} จาก {3_ResourceName}</Text>		<!-- +{1_Amount} {2_YieldName} from {3_ResourceName} -->
 		</Replace>
 		<Replace Tag="LOC_UI_ADJACENCY_INFO_TERRAIN" Language="th_TH">
-			<Text>+{1_Amount} {2_YieldName} สำหรับแต่ละพื้นที่ภูมิประเทศ {3_TerrainName} ที่อยู่ติดกัน</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent {3_TerrainName} Terrain -->
+			<Text>+{1_Amount} {2_YieldName} สำหรับแต่ละ ภูมิประเทศ {3_TerrainName} ที่อยู่ติดกัน</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent {3_TerrainName} Terrain -->
 		</Replace>
 		<Replace Tag="LOC_UI_ADJACENCY_INFO_BIOME" Language="th_TH">
-			<Text>+{1_Amount} {2_YieldName} สำหรับแต่ละช่อง {3_BiomeName} ที่อยู่ติดกัน</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent {3_BiomeName} tile -->
+			<Text>+{1_Amount} {2_YieldName} สำหรับแต่ละ ช่อง {3_BiomeName} ที่อยู่ติดกัน</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent {3_BiomeName} tile -->
 		</Replace>
 		<Replace Tag="LOC_UI_ADJACENCY_INFO_FEATURE" Language="th_TH">
-			<Text>+{1_Amount} {2_YieldName} สำหรับแต่ละ {3_FeatureName} ฟีเจอร์ที่อยู่ติดกัน</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent {3_FeatureName} Feature -->
+			<Text>+{1_Amount} {2_YieldName} สำหรับแต่ละ {3_FeatureName} ที่อยู่ติดกัน</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent {3_FeatureName} Feature -->
 		</Replace>
 		<Replace Tag="LOC_UI_ADJACENCY_INFO_DISTRICT" Language="th_TH">
-			<Text>+{1_Amount} {2_YieldName} สำหรับแต่ละ เขต {3_DistrictName} ที่อยู่ใกล้เคียง</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent {3_DistrictName} District -->
+			<Text>+{1_Amount} {2_YieldName} สำหรับแต่ละ เขต {3_DistrictName} ที่อยู่ติดกัน</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent {3_DistrictName} District -->
 		</Replace>
 		<Replace Tag="LOC_UI_ADJACENCY_INFO_WONDERS" Language="th_TH">
-			<Text>+{1_Number} {2_YieldName} สำหรับสิ่งมหัศจรรย์ ถัดไปแต่ละแห่ง</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent Wonder -->
+			<Text>+{1_Number} {2_YieldName} สำหรับแต่ละ สิ่งมหัศจรรย์ ที่อยู่ติดกัน</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent Wonder -->
 		</Replace>
 		<Replace Tag="LOC_UI_ADJACENCY_INFO_LAKE" Language="th_TH">
-			<Text>+{1_Amount} {2_YieldName} สำหรับแต่ละ ทะเลสาบที่ติดกัน</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent Lake -->
+			<Text>+{1_Amount} {2_YieldName} สำหรับแต่ละ ทะเลสาบ ที่อยู่ติดกัน</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent Lake -->
 		</Replace>
 		<Replace Tag="LOC_UI_ADJACENCY_INFO_RESOURCES" Language="th_TH">
-			<Text>+{1_Amount} {2_YieldName} สำหรับแต่ละ ทรัพยากรที่อยู่ติดกัน</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent Resource -->
+			<Text>+{1_Amount} {2_YieldName} สำหรับแต่ละ ทรัพยากร ที่อยู่ติดกัน</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent Resource -->
 		</Replace>
 		<Replace Tag="LOC_UI_ADJACENCY_INFO_NATURAL_WONDER" Language="th_TH">
-			<Text>+{1_Amount} {2_YieldName} สำหรับสิ่งมหัศจรรย์ทางธรรมชาติ แต่ละแห่งที่อยู่ติดกัน</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent Natural Wonder -->
+			<Text>+{1_Amount} {2_YieldName} สำหรับแต่ละ สิ่งมหัศจรรย์ทางธรรมชาติ ที่อยู่ติดกัน</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent Natural Wonder -->
 		</Replace>
 		<Replace Tag="LOC_UI_ADJACENCY_INFO_UNIQUE_QUARTERS" Language="th_TH">
 			<Text>+{1_Amount} {2_YieldName} สำหรับแต่ละ ย่านพิเศษ ที่อยู่ติดกัน</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent Unique Quarter -->
@@ -24018,7 +24018,7 @@
 			<Text>+{1_Amount} {2_YieldName} สำหรับแต่ละ {3_ObjectName} ที่อยู่ติดกัน</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent {3_ObjectName} -->
 		</Replace>
 		<Replace Tag="LOC_UI_ADJACENCY_INFO_CONSTRUCTIBLE_TAG" Language="th_TH">
-			<Text>+{1_Amount} {2_YieldName} สำหรับสิ่งก่อสร้างทาง {3_TagName} ที่อยู่ติดกัน</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent {3_TagName} Constructible -->
+			<Text>+{1_Amount} {2_YieldName} สำหรับแต่ละ สิ่งก่อสร้างทาง {3_TagName} ที่อยู่ติดกัน</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent {3_TagName} Constructible -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_STATUS_EMPTY_QUEUE" Language="th_TH">
 			<Text>คิวก่อสร้างว่างเปล่า</Text>		<!-- Empty Build Queue -->
@@ -25509,7 +25509,7 @@
 			<Text>สั่งให้ยูนิตจัดทำรูปขบวนอยู่ใกล้ ผู้บังคับฝูงบิน ในบริเวณใกล้เคียง</Text>		<!-- Order the Unit to form up on a nearby Squadron Commander. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_CONNECT_WITH_ROAD_NAME" Language="th_TH">
-			<Text>สร้างถนนไปยังที่พักอาศัย</Text>		<!-- Build Road to Settlement -->
+			<Text>สร้างถนนไปยังถิ่นฐาน</Text>		<!-- Build Road to Settlement -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_CONNECT_WITH_ROAD_DESCRIPTION" Language="th_TH">
 			<Text>สร้างถนนไปยังถิ่นฐานที่เป็นมิตร</Text>		<!-- Build Road to a friendly Settlement -->
@@ -26223,7 +26223,7 @@
 			<Text>+5 พลังต่อสู้ สำหรับยูนิตกองทัพเรือภายในรัศมีคำสั่ง</Text>		<!-- +5 Combat Strength for Naval Units within the Command Radius. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ORDER_PREVIEW" Language="th_TH">
-			<Text>+{Amount} คำสั่งซื้อ</Text>		<!-- +{Amount} Order -->
+			<Text>+{Amount} คำสั่ง</Text>		<!-- +{Amount} Order -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_COMMENDATION_SQUADRON_ACHIEVEMENT_DESCRIPTION" Language="th_TH">
 			<Text>ยูนิตเพิ่มพลังชีวิต +10 HP หลังจากโจมตี</Text>		<!-- Units heal 10 HP after attacking. -->
@@ -26418,13 +26418,13 @@
 			<Text>ความก้าวหน้า</Text>		<!-- Advancement -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_ADVANCEMENT_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบและทหารม้าภายในรัศมีคำสั่งมีความสามารถโจมตีก่อนและมี +5 พลังต่อสู้ เมื่อมีสุขภาพเต็มที่</Text>		<!-- Infantry and Cavalry Units within the Command Radius have the First Strike ability, +5 Combat Strength when at full health. -->
+			<Text>ยูนิตทหารราบ และยูนิตทหารม้า ที่อยู่ในรัศมีบัญชาการ มีความสามารถโจมตีก่อน, +5 พลังต่อสู้ เมื่อมีพลังชีวิตเต็ม</Text>		<!-- Infantry and Cavalry Units within the Command Radius have the First Strike ability, +5 Combat Strength when at full health. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_ADVANCEMENT_NAME" Language="th_TH">
 			<Text>ความก้าวหน้า</Text>		<!-- Advancement -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_ADVANCEMENT_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบและยูนิตทหารม้าที่อยู่ในรัศมีการบังคับบัญชามีความสามารถโจมตีก่อน และได้รับพลังต่อสู้ +5 เมื่อมีพลังชีวิตเต็มที่</Text>		<!-- Infantry and Cavalry Units within the Command Radius have the First Strike ability, +5 Combat Strength when at full health. -->
+			<Text>ยูนิตทหารราบ และยูนิตทหารม้า ที่อยู่ในรัศมีบัญชาการ มีความสามารถโจมตีก่อน, +5 พลังต่อสู้ เมื่อมีพลังชีวิตเต็ม</Text>		<!-- Infantry and Cavalry Units within the Command Radius have the First Strike ability, +5 Combat Strength when at full health. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_QUARTERMASTER_NAME" Language="th_TH">
 			<Text>ควอเตอร์มาสเตอร์</Text>		<!-- Quartermaster -->
@@ -26439,7 +26439,7 @@
 			<Text>+15% กำลังผลิตไปยังยูนิตฝึกอบรมทางบกเมื่อประจำอยู่ในเขต</Text>		<!-- +15% Production towards training Land Units when stationed on a District. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_PROMOTION_ARMY_RECRUITMENT_DESCRIPTION" Language="th_TH">
-			<Text>+15% กำลังผลิตสำหรับการฝึกยูนิตทหารบกจากผู้บัญชาการที่มีการส่งเสริมการสรรหา</Text>		<!-- +15% Production towards training Land Units from a Commander with the Recruitment Promotion. -->
+			<Text>+15% กำลังผลิต สำหรับการฝึกยูนิตทหารบก จากผู้บัญชาการที่มีการเลื่อนขั้น "สรรหา"</Text>		<!-- +15% Production towards training Land Units from a Commander with the Recruitment Promotion. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_REGIMENTS_NAME" Language="th_TH">
 			<Text>กรมทหาร</Text>		<!-- Regiments -->
@@ -27945,7 +27945,7 @@
 			<Text>ตราแห่งลาฟาแยต 1</Text>		<!-- Lafayette Badge 1 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_MACHIAVELLI_NAME" Language="th_TH">
-			<Text>ตราแห่งแมคคิอาเวลลี่ 1</Text>		<!-- Machiavelli Badge 1 -->
+			<Text>ตราแห่งมาเคียเวลลี 1</Text>		<!-- Machiavelli Badge 1 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_PACHACUTI_NAME" Language="th_TH">
 			<Text>ตราแห่งปาชาคูติ 1</Text>		<!-- Pachacuti Badge 1 -->
@@ -28005,7 +28005,7 @@
 			<Text>ตราแห่งลาฟาแยต 2</Text>		<!-- Lafayette Badge 2 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_MACHIAVELLI_P_NAME" Language="th_TH">
-			<Text>ตราแห่งแมคคิอาเวลลี่ 2</Text>		<!-- Machiavelli Badge 2 -->
+			<Text>ตราแห่งมาเคียเวลลี 2</Text>		<!-- Machiavelli Badge 2 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_PACHACUTI_P_NAME" Language="th_TH">
 			<Text>ตราแห่งปาชาคูติ 2</Text>		<!-- Pachacuti Badge 2 -->
@@ -28062,7 +28062,7 @@
 			<Text>ธงแห่งลาฟาแยต</Text>		<!-- Lafayette Banner -->
 		</Replace>
 		<Replace Tag="LOC_BANNER_MACHIAVELLI_NAME" Language="th_TH">
-			<Text>ธงแห่งแมคคิอาเวลลี่</Text>		<!-- Machiavelli Banner -->
+			<Text>ธงแห่งมาเคียเวลลี</Text>		<!-- Machiavelli Banner -->
 		</Replace>
 		<Replace Tag="LOC_BANNER_PACHACUTI_NAME" Language="th_TH">
 			<Text>ธงแห่งปาชาคูติ</Text>		<!-- Pachacuti Banner -->
@@ -28643,7 +28643,7 @@
 			<Text>ไพ่มรดกทางการทูต ยุคสำรวจ</Text>		<!-- Exploration Diplomatic Legacy Card -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_MACHIAVELLI_EXPLORATION_1_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ได้รับ ไพ่มรดกทางการทูต ยุคสำรวจ:[n] +15% อิทธิพล, -2 พลังต่อสู้ สำหรับยูนิตเรือ</Text>		<!-- As Machiavelli, access a new Exploration Legacy Card:[n]
+			<Text>ในฐานะ มาเคียเวลลี ได้รับ ไพ่มรดกทางการทูต ยุคสำรวจ:[n] +15% อิทธิพล, -2 พลังต่อสู้ สำหรับยูนิตเรือ</Text>		<!-- As Machiavelli, access a new Exploration Legacy Card:[n]
 				+15% Influence, -2 Combat Strength for Naval Units -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_MACHIAVELLI_EXPLORATION_2_NAME" Language="th_TH">
@@ -28664,7 +28664,7 @@
 			<Text>ไพ่มรดกเศรษฐกิจ ยุคใหม่</Text>		<!-- Modern Economic Legacy Card -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_MACHIAVELLI_MODERN_2_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ แมคคิอาเวลลี่ ได้รับ ไพ่มรดกทางเศรษฐกิจ ยุคสำรวจ: +15% ทอง, -10% อาหาร</Text>		<!-- As Machiavelli, access a new Modern Legacy Card:[n]
+			<Text>ในฐานะ มาเคียเวลลี ได้รับ ไพ่มรดกทางเศรษฐกิจ ยุคสำรวจ: +15% ทอง, -10% อาหาร</Text>		<!-- As Machiavelli, access a new Modern Legacy Card:[n]
 				+15% Gold, -10% Food -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_PACHACUTI_EXPLORATION_1_NAME" Language="th_TH">
@@ -28915,7 +28915,7 @@
 			<Text>โหนดคุณลักษณะทางวัฒนธรรม</Text>		<!-- Cultural Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_RIZAL_L1_DESCRIPTION" Language="th_TH">
-			<Text>+15% กำลังผลิตสำหรับการสร้างอาคารและสิ่งมหัศจรรย์ที่มีช่องใส่ผลงานชิ้นเอก</Text>		<!-- +15% Production towards constructing Buildings and Wonders with Great Works slots. -->
+			<Text>+15% กำลังผลิต สำหรับการสร้างอาคาร และสิ่งมหัศจรรย์ ที่มีช่องใส่ผลงานชิ้นเอก</Text>		<!-- +15% Production towards constructing Buildings and Wonders with Great Works slots. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_RIZAL_L2_NAME" Language="th_TH">
 			<Text>โหนดคุณลักษณะทางการทูต</Text>		<!-- Diplomatic Attribute Node -->
@@ -29566,10 +29566,10 @@
 			<Text>[B]มาคิอาเวลลี[/B] มาจากทวีปเดียวกับ [B]สเปน[/B]</Text>		<!-- [B]Machiavelli[/B] was from the same continent as [B]Spain[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_MACHIAVELLI_RUSSIA_TOOLTIP" Language="th_TH">
-			<Text>[B]แมคคิอาเวลลี่[/B] มาจากทวีปเดียวกับ [B]รัสเซีย[/B]</Text>		<!-- [B]Machiavelli[/B] was from the same continent as [B]Russia[/B]. -->
+			<Text>[B]มาเคียเวลลี[/B] มาจากทวีปเดียวกับ [B]รัสเซีย[/B]</Text>		<!-- [B]Machiavelli[/B] was from the same continent as [B]Russia[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_MACHIAVELLI_FRENCH_EMPIRE_TOOLTIP" Language="th_TH">
-			<Text>[B]แมคคิอาเวลลี่[/B] มาจากทวีปเดียวกับ [B]ฝรั่งเศส[/B]</Text>		<!-- [B]Machiavelli[/B] was from the same continent as [B]France[/B]. -->
+			<Text>[B]มาเคียเวลลี[/B] มาจากทวีปเดียวกับ [B]ฝรั่งเศส[/B]</Text>		<!-- [B]Machiavelli[/B] was from the same continent as [B]France[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_PACHACUTI_DESCRIPTION" Language="th_TH">
 			<Text>เล่นเป็น [B]ปาชาคูติ[/B]</Text>		<!-- Play as [B]Pachacuti[/B]. -->
@@ -30385,7 +30385,7 @@
 			<Text>{LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_EXPLORATION_MILITARY_GOLDEN_AGE_NAME}</Text>		<!-- {LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_EXPLORATION_MILITARY_GOLDEN_AGE_NAME} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_EXPLORATION_MILITARY_GOLDEN_AGE_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับยูนิตทหารราบและยูนิตโจมตีระยะไกลในถิ่นฐานทั้งหมดของดินแดนห่างไกลของคุณ</Text>		<!-- Gain an Infantry Unit and a Ranged Unit in all of your Distant Lands settlements -->
+			<Text>ได้รับยูนิตทหารราบ และยูนิตโจมตีระยะไกล ในถิ่นฐานทั้งหมดของดินแดนห่างไกลของคุณ</Text>		<!-- Gain an Infantry Unit and a Ranged Unit in all of your Distant Lands settlements -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_EXPLORATION_MILITARY_DARK_AGE_NAME" Language="th_TH">
 			<Text>ยุคมืดทางทหาร</Text>		<!-- Militaristic Dark Age -->
@@ -30541,7 +30541,7 @@
 			<Text>เพิ่มพลังการชนะทางทหาร</Text>		<!-- Military Victory Boost -->
 		</Replace>
 		<Replace Tag="LOC_MILITARY_BOOST_REWARD_MANHATTAN_PROJECT_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ +10% กำลังผลิตสำหรับโครงการมหัศจรรย์แมนฮัตตันต่อจุดมรดกทางทหาร</Text>		<!-- Gain +10% production towards the Manhattan Project Wonder per Military Legacy Point. -->
+			<Text>ได้รับ +10% กำลังผลิต สำหรับโครงการแมนฮัตตัน ต่อคะแนนมรดกทางทหาร</Text>		<!-- Gain +10% production towards the Manhattan Project Wonder per Military Legacy Point. -->
 		</Replace>
 		<Replace Tag="LOC_MILITARY_BOOST_REWARD_OPERATION_IVY_DESCRIPTION" Language="th_TH">
 			<Text>ได้รับ +10% กำลังผลิต ต่อ คะแนนมรดกทางทหาร สำหรับโครงการ ปฏิบัติการไอวี่ ในเมือง</Text>		<!-- Gain +10% production towards the Operation Ivy City Project per Military Legacy Point. -->
