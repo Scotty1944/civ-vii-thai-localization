@@ -1232,7 +1232,7 @@
 			<Text>+2[icon:YIELD_GOLD] ทอง จากทรัพยากร</Text>		<!-- +2[icon:YIELD_GOLD] Gold on Resources. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_AKSUM_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+2 [icon:YIELD_GOLD] ทอง [/B]ใน [B]ทรัพยากร[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการก่อสร้าง [B]สเตลขนาดใหญ่[/B][LIST]</Text>		<!-- [LIST][LI][B]+2 [icon:YIELD_GOLD] Gold [/B]on [B]Resources[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Great Stele[/B].[/LIST] -->
+			<Text>[LIST][LI][B]+2 [icon:YIELD_GOLD] ทอง [/B]ใน [B]ทรัพยากร[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการก่อสร้าง [B]เกรท สตีล[/B][LIST]</Text>		<!-- [LIST][LI][B]+2 [icon:YIELD_GOLD] Gold [/B]on [B]Resources[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Great Stele[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_AKSUM_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้อง กับอักซุม</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Aksum's associated Wonder. -->
@@ -2876,7 +2876,7 @@
 			<Text>+2 สนับสนุนในทุกสงคราม คงอยู่ตลอดกาล ต้องวางติดกับเขต</Text>		<!-- +2 Support on all wars. Ageless. Must be placed adjacent to a District. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_GREAT_STELE_NAME" Language="th_TH">
-			<Text>แท่นศิลาจารึกยักษ์</Text>		<!-- Great Stele -->
+			<Text>เกรท สตีล</Text>		<!-- Great Stele -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_GREAT_STELE_DESCRIPTION" Language="th_TH">
 			<Text>รับ 200[icon:YIELD_GOLD] ทอง เมื่อคุณสร้างสิ่งมหัศจรรย์ในที่ตั้งนี้ รวมถึงที่นี่ด้วย, คงอยู่ตลอดกาล, ต้องวางบนพื้นที่เรียบ</Text>		<!-- Gain 200[icon:YIELD_GOLD] Gold when you construct a Wonder in this Settlement, including this one. Ageless. Must be placed on Flat Terrain. -->
@@ -6538,7 +6538,7 @@
 			<Text>หลงเฉิง</Text>		<!-- Longcheng -->
 		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_ANTIQUITY_15_MAJOR_NAME" Language="th_TH">
-			<Text>โอฟุナโตะ</Text>		<!-- Ōfunato  -->
+			<Text>โอฟุนาโตะ</Text>		<!-- Ōfunato  -->
 		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_ANTIQUITY_16_MAJOR_NAME" Language="th_TH">
 			<Text>เซอราเบอล</Text>		<!-- Seorabeol -->
@@ -6712,7 +6712,7 @@
 			<Text>เรตนู</Text>		<!-- Retenu -->
 		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_ANTIQUITY_43_MAJOR_NAME" Language="th_TH">
-			<Text>ซู นูรา็กซี</Text>		<!-- Su Nuraxi -->
+			<Text>ซู นูรัคซี</Text>		<!-- Su Nuraxi -->
 		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_ANTIQUITY_44_MAJOR_NAME" Language="th_TH">
 			<Text>เซลูเซีย</Text>		<!-- Seleucia -->
@@ -6934,13 +6934,13 @@
 			<Text>+20%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้าง อาคารด้านวิทยาศาสตร์, ในแต่ละนครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards constructing Science Buildings for every City-State you are Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_AKSUM" Language="th_TH">
-			<Text>ชายฝั่งแอฟริกาของทะเลแดงเป็นเขตแดนของอักซุม ซึ่งถูกตั้งชื่อโดยผู้พยากรณ์มานีว่าเป็นหนึ่งในสี่อำนาจหลักของโลกโบราณ ในช่วงเกือบทั้งหมดของพันปีแรกในยุคคริสต์ศักราช พ่อค้าชาวอักซุมได้ขนส่งงาช้าง ทอง เงิน เครื่องเทศ และสินค้าต่าง ๆ จากภายในแอฟริกาไปยังอินเดีย เปอร์เซีย และทะเลเมดิเตอร์เรเนียน อย่างไรก็ตาม เส้นทางการค้าก็ได้ปลูกฝังเมล็ดพันธุ์แห่งการล่มสลายของอักซุม - เมื่อการปกครองของอาหรับเข้ายึดเส้นทางสายไหม อักซุมจึงถูกตัดขาดและตกต่ำลง</Text>		<!-- The African coast of the Red Sea was the domain of Aksum, named by the prophet Mani as one of the four key powers of the ancient world. For most of the first millennium CE, Aksumite merchants bore ivory, gold, spices and other goods from the African interior to India, Persia, and the Mediterranean. Yet these trade routes planted the seeds of Aksum’s fall – when the Arab caliphates took over the Silk Road, Aksum was isolated and fell into decline. -->
+			<Text>ชายฝั่งแอฟริกาของทะเลแดง เป็นเขตแดนของอักซุม ซึ่งถูกตั้งชื่อโดยผู้พยากรณ์มานีว่าเป็นหนึ่งในสี่อำนาจหลักของโลกโบราณ ในช่วงเกือบทั้งหมดของพันปีแรกในยุคคริสต์ศักราช พ่อค้าชาวอักซุมได้ขนส่งงาช้าง ทอง เงิน เครื่องเทศ และสินค้าต่าง ๆ จากภายในแอฟริกาไปยังอินเดีย เปอร์เซีย และทะเลเมดิเตอร์เรเนียน อย่างไรก็ตาม เส้นทางการค้าก็ได้ปลูกฝังเมล็ดพันธุ์แห่งการล่มสลายของอักซุม - เมื่อการปกครองของอาหรับเข้ายึดเส้นทางสายไหม อักซุมจึงถูกตัดขาดและตกต่ำลง</Text>		<!-- The African coast of the Red Sea was the domain of Aksum, named by the prophet Mani as one of the four key powers of the ancient world. For most of the first millennium CE, Aksumite merchants bore ivory, gold, spices and other goods from the African interior to India, Persia, and the Mediterranean. Yet these trade routes planted the seeds of Aksum’s fall – when the Arab caliphates took over the Silk Road, Aksum was isolated and fell into decline. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_EGYPT" Language="th_TH">
 			<Text>เคมิต, แถบที่อุดมสมบูรณ์ของพื้นที่น้ำท่วมไนล์, เป็นหัวใจของอียิปต์โบราณ ประวัติศาสตร์กว่า 5,000 ปีของมันได้รับการสนับสนุนโดยแม่น้ำและตะกอนที่มีชีวิตซึ่งมันทิ้งไว้ สร้างชั้นของการค้า การพิชิต และอนุสาวรีย์เพื่อความเป็นอมตะที่เป็นสิ่งมหัศจรรย์ของมัน ความมั่งคั่งของมันเป็นตำนาน – และยั่วยวนใจ อียิปต์ตกเป็นของเปอร์เซียในปี 525 ก่อนคริสต์ศักราช แต่ไนล์ยังคงไหลอยู่</Text>		<!-- Kemet, the fertile band of the Nile floodplain, is the heart of ancient Egypt. Its over five thousand years of history have been sustained by the river and the life-giving silt that it leaves, building layers of trade, conquest, and the monuments to immortality that were its wonders. Its riches were legendary – and tempting. Egypt fell to Persia in 525 BCE, but the Nile still flows.  -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_GREECE" Language="th_TH">
-			<Text>นครรัฐในเฮลลาสเป็นกลุ่มอำนาจที่มีประวัติศาสตร์อันยาวนานแต่ละแห่ง – สปาร์ตาที่มุ่งมั่นด้านการทหาร, เอเธนส์ที่มีปัญญา, โครินธ์ที่มั่งคั่ง, และซิราคิวส์ที่อยู่ห่างไกล พวกเขาเป็นกลุ่มที่ขัดแย้งกันในความสัมพันธ์ แต่เคยรวมตัวกันเพียงครั้งเดียวภายใต้การนำของอเล็กซานเดอร์แห่งมาซิโดเนีย แม้ว่าจะกลายเป็นส่วนหนึ่งของจักรวรรดิโรมัน แต่เมืองกรีกได้มีอิทธิพลต่อศาสนาและความคิดของโรมัน, คณิตศาสตร์และวิทยาศาสตร์ในยุคทองของอิสลาม, และแม้กระทั่งแนวคิดพื้นฐานของประชาธิปไตยอเมริกัน</Text>		<!-- The city-states of Hellas were a constellation of powers, each with a rich history – militaristic Sparta, intellectual Athens, wealthy Corinth, far-off Syracuse. Fractious in their alliances, they were briefly united only once, under Alexander of Macedon. Though subsumed into the Roman Empire, the Greek cities influenced Roman religion and thought, the math and science of the Islamic Golden Age, and even the founding ideas of American democracy. -->
+			<Text>นครรัฐแห่งเฮลลาส เป็นกลุ่มอำนาจที่มีประวัติศาสตร์อันยาวนานแต่ละแห่ง – สปาร์ตาที่มุ่งมั่นด้านการทหาร, เอเธนส์ที่มีปัญญา, โครินธ์ที่มั่งคั่ง, และซิราคิวส์ที่อยู่ห่างไกล พวกเขาเป็นกลุ่มที่ขัดแย้งกันในความสัมพันธ์ แต่เคยรวมตัวกันเพียงครั้งเดียวภายใต้การนำของอเล็กซานเดอร์แห่งมาซิโดเนีย แม้ว่าจะกลายเป็นส่วนหนึ่งของจักรวรรดิโรมัน แต่เมืองกรีกได้มีอิทธิพลต่อศาสนาและความคิดของโรมัน, คณิตศาสตร์และวิทยาศาสตร์ในยุคทองของอิสลาม, และแม้กระทั่งแนวคิดพื้นฐานของประชาธิปไตยอเมริกัน</Text>		<!-- The city-states of Hellas were a constellation of powers, each with a rich history – militaristic Sparta, intellectual Athens, wealthy Corinth, far-off Syracuse. Fractious in their alliances, they were briefly united only once, under Alexander of Macedon. Though subsumed into the Roman Empire, the Greek cities influenced Roman religion and thought, the math and science of the Islamic Golden Age, and even the founding ideas of American democracy. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_HAN" Language="th_TH">
 			<Text>ฮั่นไม่ใช่ราชวงศ์โบราณแรกของจีน แต่เป็นราชวงศ์ที่ยิ่งใหญ่ที่สุด จากการกบฏของหลิวปังต่อฉินซึ่งมีอำนาจเข้มงวด ทำให้เกิดสมดุลระหว่าง อำนาจกลาง และค่านิยมตามลำดับชั้นในลัทธิคอนเฟอเซียส และคลื่นนวัตกรรมในศาสตร์การปกครอง ปรัชญา และวิทยาศาสตร์ ด้วยกองทัพของชิทันฟู ข้าราชการนักปรัชญาที่บ้าน และกองทัพรถม้าทหารราบหนักและลูกธนูต่างประเทศ ในระยะเวลา 400 ปี ฮั่นครองอำนาจจากฟ้าผ่า</Text>		<!-- The Han were not the first of China’s ancient dynasties, but were its grandest. From Liu Bang’s rebellion against the iron-fisted Qin came a balance between centralized authority and Confucian meritocracy, and a wave of innovation in statecraft, philosophy, and science. With an army of shi dafu, scholar-bureaucrats, at home, and an army of chariots, heavy infantry, and crossbows abroad, for four hundred years the Han held the Mandate of Heaven.  -->
@@ -6949,7 +6949,7 @@
 			<Text>กัมพูชา, อาณาจักรขอม เป็นแบบอย่างของสวรรค์ ฮินดู-พุทธ ในเอเชียตะวันออกเฉียงใต้, จากศูนย์กลางของมัน มันเผยแพร่ความมีอิทธิพลไปทั่วภูมิภาค อำนาจของขอมแท้จริงอยู่ที่น้ำ เพราะการใช้ประโยชน์จากน้ำท่วมของแม่น้ำโขงทำให้เกิดเมืองใหญ่ที่สุดในโลก แต่เมื่ออุทกภัยเหล่านี้ลดน้อยลง อำนาจของขอมก็ลดลงตามไปด้วย ทิ้งความฝันของมันไว้ในซากปรักหักพังทั่วทั้งกัมพูชา ไทย ลาว และเวียดนาม</Text>		<!-- Kamboja, the Khmer Empire, was a model of the Hindu-Buddhist heavens in Southeast Asia. From its center, it projected its influence across the region. True Khmer power lay in water, as harnessing the floods of the Mekong fueled some of the largest cities in the world. But as these floods waned, so did Khmer power, leaving its dream in ruins across Cambodia, Thailand, Laos and Vietnam. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_MAURYA" Language="th_TH">
-			<Text>เมารยะเกิดขึ้นจากดินแดนที่มีความหลากหลายทางวัฒนธรรมอย่างไม่น่าเชื่อ แต่กลับเต็มไปด้วยสงคราม จากการพิชิตของชาญราษฎร์ที่เอาชนะผู้สืบทอดอเล็กซานเดอร์มหาราช ราชวงศ์นี้ถึงจุดสูงสุดในสมัยอโศก ที่ส่งเสริมความไม่ใช้ความรุนแรงและความอดทน โดยการสร้างสมดุลระหว่างความเปิดกว้างกับความแข็งแกร่งทางทหาร เมารยะได้สร้างจักรวรรดิที่เต็มไปด้วยปัญญาและความรุ่งโรจน์ – จนกระทั่งมันล่มสลายจากมีดของฆาตกร</Text>		<!-- The Maurya arose from a land of incredible cultural diversity, but one reeling from war. From Chandragupta’s conquests of Alexander the Great’s successors, the dynasty reached its height under Ashoka, who embraced nonviolence and tolerance. Balancing open-mindedness with military might, the Maurya built an empire that was as wise as it was glorious – until its fall to an assassin’s blade.  -->
+			<Text>เมารยะ เกิดขึ้นจากดินแดนที่มีความหลากหลายทางวัฒนธรรมอย่างไม่น่าเชื่อ แต่กลับเต็มไปด้วยสงคราม จากการพิชิตของชาญราษฎร์ที่เอาชนะผู้สืบทอดอเล็กซานเดอร์มหาราช ราชวงศ์นี้ถึงจุดสูงสุดในสมัยอโศก ที่ส่งเสริมความไม่ใช้ความรุนแรงและความอดทน โดยการสร้างสมดุลระหว่างความเปิดกว้างกับความแข็งแกร่งทางทหาร เมารยะได้สร้างจักรวรรดิที่เต็มไปด้วยปัญญาและความรุ่งโรจน์ – จนกระทั่งมันล่มสลายจากมีดของฆาตกร</Text>		<!-- The Maurya arose from a land of incredible cultural diversity, but one reeling from war. From Chandragupta’s conquests of Alexander the Great’s successors, the dynasty reached its height under Ashoka, who embraced nonviolence and tolerance. Balancing open-mindedness with military might, the Maurya built an empire that was as wise as it was glorious – until its fall to an assassin’s blade.  -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_MAYA" Language="th_TH">
 			<Text>ในป่าของอเมริกากลางมีการเติบโตของนครรัฐหลายแห่งที่เชื่อมโยงกันด้วยพันธมิตรและวัฒนธรรมร่วม – ชาวมายา พวกเขาได้เปลี่ยนภูมิทัศน์ที่ดูเหมือนไม่เป็นมิตรให้กลายเป็นสวรรค์ของจัตุรัส สนามบอล และปิรามิดที่ตั้งตระหง่านจากป่าเพื่อทักทายกับท้องฟ้า แต่เมื่อเผชิญกับวิกฤตทางภูมิอากาศและการเมือง ชาวมายาจึงเสื่อมถอย และผืนดินก็กลับถูกปกคลุมด้วยป่าอีกครั้ง</Text>		<!-- In the Central American jungles grew a series of city-states bound by alliances and a common culture – the Maya. They transformed a seemingly inhospitable landscape into a paradise of plazas, ball courts, and pyramids that rose out of the jungle to greet the open sky. But struck by climate and political crises, the Maya declined, and the land was once more covered by forest.  -->
@@ -6964,7 +6964,7 @@
 			<Text>เมื่อคนส่วนใหญ่คิดถึงโลกโบราณ พวกเขานึกถึงโรม จากจุดเริ่มต้นที่เรียบง่าย มันเติบโตขึ้นไปครอบคลุมสามทวีป ดูดซับความมั่งคั่งและวัฒนธรรมของผู้ที่ได้รับการพิชิต ในช่วงสาธารณรัฐ การบริหารรัฐแบบเฉพาะกิจและอำนาจอันมีคุณสมบัติได้ก่อให้เกิดการแข่งขับที่รุนแรง ส่งผลให้เกิดการทำให้กองทัพและราชการเป็นมืออาชีพในอาณาจักร แต่รอยแตกได้ขยายออกเป็นสร้างช่องว่าง และเศรษฐกิจที่ล่มสลายและการบุกรุกซ้ำแล้วซ้ำเล่าทำให้โรมล่มสลายลง</Text>		<!-- When most people think of the classical world, they imagine Rome. From humble beginnings, it grew to span three continents, assimilating the wealth and cultures of those it conquered. During the Republic, ad-hoc statecraft and meritocracy spawned fierce competition, spurring the professionalization of military and bureaucracy of the Empire. But cracks turned to chasms, and a foundering economy and repeated invasions brought Rome to collapse. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_INTRO_AKSUM" Language="th_TH">
-			<Text>พูดคำว่า และอักซุมจะนั่งอยู่ที่ประตูระหว่างโลก ขอให้มีแต่ผู้ที่คู่ควรผ่านเข้าไปและรู้ถึงความยิ่งใหญ่ของมัน</Text>		<!-- Say the word, and Aksum shall perch on the gateway between worlds. May only the worthy pass and know its majesty. -->
+			<Text>เอ่ยนาม แล้วอักซุมจะสถิตเหนือประตูแห่งภพ ผู้คู่ควรเท่านั้นจึงจะผ่านและประจักษ์ถึงความยิ่งใหญ่</Text>		<!-- Say the word, and Aksum shall perch on the gateway between worlds. May only the worthy pass and know its majesty. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_INTRO_EGYPT" Language="th_TH">
 			<Text>น้ำท่วมอีกครั้ง เตรียมดินแดนสำหรับการเติบโตใหม่ ที่นี่อียิปต์จะทำให้โลกต้องเห็นความมหัศจรรย์ที่มันสร้างสรรค์</Text>		<!-- The waters flood again, preparing the lands for new growth. Here Egypt will compel the world to behold the wonders it works. -->
@@ -7639,7 +7639,7 @@
 			<Text>พัฒนาประเพณีท้องถิ่น</Text>		<!-- Develop local traditions. -->
 		</Replace>
 		<Replace Tag="LOC_3035B_DESCRIPTION" Language="th_TH">
-			<Text>รางวัล {1_reward}</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3035C_NAME" Language="th_TH">
 			<Text>สำรวจเทคโนโลยีใหม่</Text>		<!-- Investigate new technologies. -->
@@ -9722,7 +9722,7 @@
 			<Text>ข้อความสู่อนาคต</Text>		<!-- A Message to the Future -->
 		</Replace>
 		<Replace Tag="LOC_3605A_COMPLETION" Language="th_TH">
-			<Text>ปราชญ์คนหนึ่งแนะนำว่าการสลักสัญลักษณ์ลงบนหินจะช่วยสื่อสารความยิ่งใหญ่ของอักซัมไปยังรุ่นหลังเนื้อหาของการสลักถูกถกเถียงกันอย่างดุเดือดในพระราชวัง: ทหารผลักดันให้ยกย่องความสามารถทางการทหารของพวกเขา ค้าแนะนำให้ยกย่องความสำเร็จทางเศรษฐกิจ และปราชญ์เสนอให้ยกย่องความเคร่งศาสนาของประชาชน</Text>		<!-- A sage advises that the incision of symbols into stone will communicate the greatness of Aksum to future generations. The inscription's content is hotly debated in the palace corridors: soldiers push for their military prowess, merchants request their economic success, and the sage suggests the piety of the people. -->
+			<Text>ปราชญ์ผู้หนึ่ง แนะนำว่าการสลักสัญลักษณ์ลงบนหิน จะช่วยสื่อสารความยิ่งใหญ่ของอักซัมไปยังรุ่นหลัง เนื้อหาของการสลักถูกถกเถียงกันอย่างดุเดือดในพระราชวัง: ทหารผลักดันให้ยกย่อง ความสามารถทางการทหารของพวกเขา พ่อค้าแนะนำให้ยกย่องความสำเร็จทางเศรษฐกิจ และปราชญ์เสนอให้ยกย่องความเคร่งศาสนาของประชาชน</Text>		<!-- A sage advises that the incision of symbols into stone will communicate the greatness of Aksum to future generations. The inscription's content is hotly debated in the palace corridors: soldiers push for their military prowess, merchants request their economic success, and the sage suggests the piety of the people. -->
 		</Replace>
 		<Replace Tag="LOC_3605B_NAME" Language="th_TH">
 			<Text>ให้เกียรติกองทัพ</Text>		<!-- Honor the army. -->
@@ -16460,9 +16460,6 @@
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ZOOM_INTRO_BODY_GAMEPAD" Language="th_TH">
 			<Text>ใช้ [action:{1_Icon}] เพื่อขยายเข้า และ [action:{2_Icon}] เพื่อย่อออก</Text>		<!-- Use [action:{1_Icon}] to zoom in and [action:{2_Icon}] to zoom out. -->
-		</Replace>
-		<Replace Tag="LOC_TUTORIAL_PRODUCTION_INTRO_TITLE" Language="th_TH">
-			<Text>[icon:YIELD_PRODUCTION]การผลิต[icon:YIELD_PRODUCTION]</Text>		<!-- [icon:YIELD_PRODUCTION]Production[icon:YIELD_PRODUCTION] -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_PRODUCTION_INTRO_TITLE" Language="th_TH">
 			<Text>[icon:YIELD_PRODUCTION]การผลิต[icon:YIELD_PRODUCTION]</Text>		<!-- [icon:YIELD_PRODUCTION]Production[icon:YIELD_PRODUCTION] -->
