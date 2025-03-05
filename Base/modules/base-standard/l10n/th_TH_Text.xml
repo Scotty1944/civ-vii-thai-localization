@@ -2513,7 +2513,7 @@
 			<Text>ในเขตที่ตั้งมีช่องสองประเภท: แบบเมืองและแบบชนบท ช่องชนบทได้มาจากการขยายพรมแดน ในขณะที่ช่องแบบเมืองถูกสร้างขึ้นโดยการวางอาคารบนช่องชนบท</Text>		<!-- Two types of tiles exist within a Settlement: Urban and Rural. Rural tiles are obtained through border expansion, while Urban tiles are created by placing buildings on a Rural tile. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TILES_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
-			<Text>ในระหว่างกิจกรรมการเติบโต การวางจุดประชากรบนแผ่นดินชนบทจะทำให้เกิดการพัฒนา การพัฒนาพื้นฐานรวมถึงฟาร์ม, เหมือง, คนตัดไม้, หลุมดินเหนียว, และเรือประมง ในทางกลับกัน การวางจุดประชากรบนแผ่นดินในเมืองจะทำให้ได้ผู้เชี่ยวชาญ ผู้เชี่ยวชาญให้ประโยชน์เช่นการเพิ่มวิทยาศาสตร์, วัฒนธรรม, และโบนัสความติดกันในการสร้าง (+2 วิทยาศาสตร์, +2 วัฒนธรรม, +05 โบนัสความติดกัน) แต่พวกเขาก็ลดอาหารและความสุขของเมือง (-2 อาหาร, -2 ความสุข)</Text>		<!-- During a growth event, placing a point of population on a Rural tile results in an Improvement. Basic Improvements include Farms, Mines, Woodcutters, Clay Pits, and Fishing Boats. Conversely, placing a point of population on an Urban tile grants a Specialist. Specialists provide benefits such as increased Science, Culture, and building adjacency bonuses (+2 Science, +2 Culture, +0.5 Adjacency Bonus), but they also reduce the City's Food and Happiness (-2 Food, -2 Happiness). -->
+			<Text>ในระหว่างกิจกรรมการเติบโต การวางจุดประชากรบนแผ่นดินชนบทจะทำให้เกิดการพัฒนา การพัฒนาพื้นฐานรวมถึงฟาร์ม, เหมือง, คนตัดไม้, หลุมดินเหนียว, และเรือประมง ในทางกลับกัน การวางจุดประชากรบนแผ่นดินในเมืองจะทำให้ได้ผู้เชี่ยวชาญ ผู้เชี่ยวชาญให้ประโยชน์เช่นการเพิ่มวิทยาศาสตร์, วัฒนธรรม, และโบนัสความติดกันในการสร้าง (+2 วิทยาศาสตร์, +2 วัฒนธรรม, +0.5 โบนัสความติดกัน) แต่พวกเขาก็ลดอาหารและความสุขของเมือง (-2 อาหาร, -2 ความสุข)</Text>		<!-- During a growth event, placing a point of population on a Rural tile results in an Improvement. Basic Improvements include Farms, Mines, Woodcutters, Clay Pits, and Fishing Boats. Conversely, placing a point of population on an Urban tile grants a Specialist. Specialists provide benefits such as increased Science, Culture, and building adjacency bonuses (+2 Science, +2 Culture, +0.5 Adjacency Bonus), but they also reduce the City's Food and Happiness (-2 Food, -2 Happiness). -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TILES_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
 			<Text>แผ่นดินในเมืองที่มีอาคารอย่างน้อยหนึ่งหลังเรียกว่าเขต เมื่อแผ่นดินในเมืองถูกครอบครองโดยอาคารจากยุคปัจจุบันหรือหมวดหมู่อาคารที่คงอยู่ตลอดกาลอย่างเต็มที่ จะถูกกำหนดว่าเป็นย่าน</Text>		<!-- Urban tiles with at least one building are referred to as Districts. When an Urban tile is completely occupied by buildings from the current Age or Ageless category, it is designated as a Quarter. -->
@@ -3361,7 +3361,7 @@
 			<Text>ผู้เชี่ยวชาญ</Text>		<!-- Specialist -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SPECIALIST_1_CHAPTER_CONTENT_PARA_1" Language="th_TH">
-			<Text>การกำหนดจำนวนประชากรให้กับแผ่นเมืองจะสร้างผู้เชี่ยวชาญ ผู้เชี่ยวชาญจะขยายโบนัสจากการติดขอบของแผ่นและให้ประโยชน์เช่นเพิ่มวิทยาศาสตร์ วัฒนธรรม และผลผลิตจากการติดขอบของอาคาร (+2 วิทยาศาสตร์, +2 วัฒนธรรม, +05 โบนัสการติดขอบ) อย่างไรก็ตาม พวกเขามาพร้อมกับการแลกเปลี่ยน โดยลดอาหารและความสุขของเมืองลง -2 แต่ละอย่าง</Text>		<!-- Assigning a point of population to an Urban tile creates a Specialist. Specialists amplify the tile's adjacency bonuses and offer benefits like increased Science, Culture, and building adjacency yields (+2 Science, +2 Culture, +0.5 Adjacency Bonus). However, they come with a trade-off, reducing the City’s Food and Happiness by -2 each. -->
+			<Text>การกำหนดจำนวนประชากรให้กับแผ่นเมืองจะสร้างผู้เชี่ยวชาญ ผู้เชี่ยวชาญจะขยายโบนัสจากการติดขอบของแผ่นและให้ประโยชน์เช่นเพิ่มวิทยาศาสตร์ วัฒนธรรม และผลผลิตจากการติดขอบของอาคาร (+2 วิทยาศาสตร์, +2 วัฒนธรรม, +0.5 โบนัสใกล้เคียง) อย่างไรก็ตาม พวกเขามาพร้อมกับการแลกเปลี่ยน โดยลดอาหารและความสุขของเมืองลง -2 แต่ละอย่าง</Text>		<!-- Assigning a point of population to an Urban tile creates a Specialist. Specialists amplify the tile's adjacency bonuses and offer benefits like increased Science, Culture, and building adjacency yields (+2 Science, +2 Culture, +0.5 Adjacency Bonus). However, they come with a trade-off, reducing the City’s Food and Happiness by -2 each. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SPECIALIST_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>ในขณะที่เมืองสามารถได้รับแผ่นปูพื้นที่เมืองโดยการซื้ออาคาร แต่เฉพาะเมืองเท่านั้นที่มีความสามารถในการได้ผู้เชี่ยวชาญ ทำให้พวกเขาเป็นศูนย์กลางที่ไม่เหมือนใครในการส่งเสริมวิทยาศาสตร์ วัฒนธรรม และผลผลิตสำคัญอื่นๆ</Text>		<!-- While Towns can acquire Urban tiles by purchasing buildings, only Cities have the ability to gain Specialists, making them unique centers for advancing Science, Culture, and other key yields. -->
@@ -6175,7 +6175,7 @@
 			<Text>คิวปู</Text>		<!-- Quipu  -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_QUIPU_DESCRIPTION" Language="th_TH">
-			<Text>ถิ่นฐานจะได้รับ +05[icon:YIELD_GOLD] ทอง สำหรับแต่ละประชากรในเขตเมือง และ +05[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับแต่ละประชากรในพื้นที่ชนบท</Text>		<!-- Settlements receive +0.5[icon:YIELD_GOLD] Gold for every Urban Population and +0.5[icon:YIELD_PRODUCTION] Production for every Rural Population. -->
+			<Text>ถิ่นฐานจะได้รับ +0.5[icon:YIELD_GOLD] ทอง สำหรับแต่ละประชากรในเขตเมือง และ +0.5[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับแต่ละประชากรในพื้นที่ชนบท</Text>		<!-- Settlements receive +0.5[icon:YIELD_GOLD] Gold for every Urban Population and +0.5[icon:YIELD_PRODUCTION] Production for every Rural Population. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_TIRAKUNA_NAME" Language="th_TH">
 			<Text>ติราคูนา</Text>		<!-- Tirakuna -->
@@ -11192,7 +11192,7 @@
 			<Text>เรือฟริเกตชั้นคอนคอร์ด</Text>		<!-- Concorde-class frigate. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_LAFAYETTE_HERMIONE_MODEL_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1 แต้มเคลื่อนที่ ให้กับยูนิตนาวิกโยธินทั้งหมด</Text>		<!-- +1 Movement to all Naval Units. -->
+			<Text>+1 แต้มเคลื่อนที่ ให้กับ ยูนิตทางน้ำทั้งหมด</Text>		<!-- +1 Movement to all Naval Units. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_LAFAYETTE_TRICOLOUR_COCKADE_NAME" Language="th_TH">
 			<Text>ริบบิ้นสามสี</Text>		<!-- Tricolor Cockade -->
@@ -26706,7 +26706,7 @@
 			<Text>ซัลโว</Text>		<!-- Salvo -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FLEET_SALVO_DESCRIPTION" Language="th_TH">
-			<Text>+{Amount} พลังต่อสู้ เมื่อโจมตียูนิตนาวิกโยธิน</Text>		<!-- +{Amount} Combat Strength when attacking Naval Units. -->
+			<Text>+{Amount} พลังต่อสู้ เมื่อโจมตียูนิตทางน้ำ</Text>		<!-- +{Amount} Combat Strength when attacking Naval Units. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FLEET_SALVO_PREVIEW" Language="th_TH">
 			<Text>+{Amount} ซัลโว</Text>		<!-- +{Amount} Salvo -->
@@ -26715,7 +26715,7 @@
 			<Text>การยิงปืนอย่างต่อเนื่อง</Text>		<!-- Fusillade -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_FLEET_FUSILLADE_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตนาวิกโยธินในรัศมีการบังคับบัญชามีความสามารถโจมตีก่อน เพิ่มความแข็งแกร่งการต่อสู้ +5 เมื่อมีสุขภาพเต็มที่</Text>		<!-- Naval Units within the Command Radius have the First Strike ability. +5 Combat Strength when at full health. -->
+			<Text>ยูนิตทางน้ำ ในรัศมีการบังคับบัญชามีความสามารถโจมตีก่อน เพิ่มความแข็งแกร่งการต่อสู้ +5 เมื่อมีสุขภาพเต็มที่</Text>		<!-- Naval Units within the Command Radius have the First Strike ability. +5 Combat Strength when at full health. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FLEET_FUSILLADE_NAME" Language="th_TH">
 			<Text>ห่ากระสุน</Text>		<!-- Fusillade -->
@@ -26733,7 +26733,7 @@
 			<Text>เรือรบ</Text>		<!-- Warships -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_FLEET_WARSHIPS_DESCRIPTION" Language="th_TH">
-			<Text>การผลิตเพิ่มขึ้น 15% สำหรับการฝึกยูนิตนาวิกโยธินเมื่อประจำการอยู่ในเขตน้ำ</Text>		<!-- +15% Production towards training Naval Units when stationed on a water District. -->
+			<Text>การผลิตเพิ่มขึ้น 15% สำหรับการฝึก ยูนิตทางน้ำ เมื่อประจำการอยู่ในเขตน้ำ</Text>		<!-- +15% Production towards training Naval Units when stationed on a water District. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_FLEET_FLOTILLA_NAME" Language="th_TH">
 			<Text>หมู่เรือ</Text>		<!-- Flotilla -->
@@ -26745,7 +26745,7 @@
 			<Text>เรือรับส่ง</Text>		<!-- Ship's Tender -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_FLEET_SHIPS_TENDER_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตนาวิกโยธินภายในรัศมีคำสั่งจะได้รับการฟื้นฟู +5 ในดินแดนของศัตรูและพื้นที่เป็นกลาง</Text>		<!-- Naval Units within the Command Radius gain +5 Healing in enemy and neutral territory. -->
+			<Text>ยูนิตทางน้ำ ภายในรัศมีคำสั่งจะได้รับการฟื้นฟู +5 ในดินแดนของศัตรูและพื้นที่เป็นกลาง</Text>		<!-- Naval Units within the Command Radius gain +5 Healing in enemy and neutral territory. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FLEET_SHIPS_TENDER_NAME" Language="th_TH">
 			<Text>เรือบริการพิเศษ</Text>		<!-- Ships Tender -->
@@ -26979,7 +26979,7 @@
 			<Text>คณะกรรมการภาคสนาม</Text>		<!-- Field Commission -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SQUADRON_FIELD_COMMISSION_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทางอากาศ ที่อยู่ภายใต้บังคับบัญชา และที่อยู่ภายในรัศมีคำสั่งสามารถอัพเกรดได้เหมือนอยู่ในอาณาเขตที่เป็นมิตร และฟื้นฟู 10 HP เมื่อทำการอัพเกรด</Text>		<!-- Packed Air Units within the Command Radius can be upgraded as if in friendly territory, and heal 10 HP when upgraded. -->
+			<Text>ยูนิตทางอากาศ ที่อยู่ภายใต้บังคับบัญชา และที่อยู่ภายในรัศมีคำสั่ง สามารถอัพเกรดได้เหมือนอยู่ในอาณาเขตที่เป็นมิตร และฟื้นฟู 10 HP เมื่อทำการอัพเกรด</Text>		<!-- Packed Air Units within the Command Radius can be upgraded as if in friendly territory, and heal 10 HP when upgraded. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SQUADRON_AERIAL_RECONNIASSANCE_NAME" Language="th_TH">
 			<Text>ลาดตระเวน</Text>		<!-- Aerial Reconnaissance -->
@@ -28352,7 +28352,7 @@
 			<Text>ไพ่มรดกทางทหาร ยุคสำรวจ</Text>		<!-- Exploration Militaristic Legacy Card -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_CHARLEMAGNE_EXPLORATION_1_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ ชาร์เลอมาญ ได้รับ ไพ่มรดกทางทหาร ยุคสำรวจ: [n] +3 พลังต่อสู้ต่อยูนิตนาวิกโยธิน, -10% อิทธิพล</Text>		<!-- As Charlemagne, access a new Exploration Legacy Card:[n]
+			<Text>ในฐานะ ชาร์เลอมาญ ได้รับ ไพ่มรดกทางทหาร ยุคสำรวจ: [n] +3 พลังต่อสู้ ต่อยูนิตทางน้ำ, -10% อิทธิพล</Text>		<!-- As Charlemagne, access a new Exploration Legacy Card:[n]
 				+3 Combat Strength towards Naval Units, -10% Influence -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_CHARLEMAGNE_EXPLORATION_2_NAME" Language="th_TH">
