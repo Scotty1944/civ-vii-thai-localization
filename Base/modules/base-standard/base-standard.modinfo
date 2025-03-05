@@ -62,7 +62,6 @@
 					<Item>ui/chooser-item/chooser-item.js</Item>
 					<Item>ui/tree-chooser-item/tree-chooser-item.js</Item>
 					<Item>ui/culture-tree-chooser/screen-culture-tree-chooser.js</Item>
-					<Item>ui/culture-tree-hex-grid/screen-culture-tree-hex-grid.js</Item>
 					<Item>ui/diplo-ribbon/panel-diplo-ribbon.js</Item>
 					<Item>ui/diplo-ribbon/panel-yield-banner.js</Item>
 					<Item>ui/diplomacy-action-details/screen-diplomacy-action-details.js</Item>
@@ -96,7 +95,6 @@
 					<Item>ui/culture-tree/screen-culture-tree.js</Item>
 					<Item>ui/end-results/end-results.js</Item>
 					<Item>ui/pantheon-chooser/panel-religion-chooser.js</Item>
-					<Item>ui/tech-tree-hex-grid/screen-tech-tree-hex-grid.js</Item>
 					<Item>ui/tech-tree-chooser/screen-tech-tree-chooser.js</Item>
 					<Item>ui/trade-route-chooser/trade-route-banner.js</Item>
 					<Item>ui/trade-route-chooser/trade-route-chooser.js</Item>
@@ -231,7 +229,6 @@
 					<Item>ui/system-bar/panel-system-button.js</Item>
 					<Item>ui/tech-civic-complete/screen-tech-civic-complete.js</Item>
 					<Item>ui/tech-tree-chooser/screen-tech-tree-chooser.js</Item>
-					<Item>ui/tech-tree-hex-grid/screen-tech-tree-hex-grid.js</Item>
 					<Item>ui/tech-tree/screen-tech-tree.js</Item>
 					<Item>ui/tree-grid/tree-card.js</Item>
 					<Item>ui/tree-grid/tree-line.js</Item>
@@ -361,6 +358,8 @@
 					<Item>data/projects.xml</Item>
 					<Item>data/projects-gameeffects.xml</Item>
 					<Item>data/pseudoyields.xml</Item>
+					<Item>data/racetowonders-terrain.xml</Item>
+					<Item>data/racetowonders-terrain-gameeffects.xml</Item>
 					<Item>data/resources.xml</Item>
 					<Item>data/random-events.xml</Item>
 					<Item>data/religion.xml</Item>
@@ -403,6 +402,7 @@
 					<Item>data/icons/notification-icons.xml</Item>
 					<Item>data/icons/project-icons.xml</Item>
 					<Item>data/icons/promotion-icons.xml</Item>
+					<Item>data/icons/radial-icons.xml</Item>
 					<Item>data/icons/random-event-icons.xml</Item>
 					<Item>data/icons/relationship-icons.xml</Item>
 					<Item>data/icons/resource-icons.xml</Item>
@@ -543,36 +543,6 @@
 				<UpdateVisualRemaps>
 					<Item>data/visual-remaps.xml</Item>
 				</UpdateVisualRemaps>
-
-				<ImportFiles locale="th_TH">
-					<Item>l10n/th_TH/intro.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_amina.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_ashoka_defeat.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_ashoka.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_augustus.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_benjaminfranklin.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_catherine_alt.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_catherine.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_charlemagne.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_confucius.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_friedrich.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_harriettubman_alt.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_harriettubman.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_hatshepsut.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_himiko.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_ibnbattuta.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_isabella.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_joserizal_alt.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_joserizal.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_lafayette_alt.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_lafayette.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_machiavelli.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_napoleon.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_pachacuti.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_trungtrac.vtt</Item>
-					<Item>l10n/th_TH/wilco_leader_xerxes.vtt</Item>
-					<Item>l10n/th_TH/wilco_victory_generic_domination.vtt</Item>
-				</ImportFiles>
 
 				<ImportFiles locale="de_DE">
 					<Item>l10n/de_DE/intro.vtt</Item>
@@ -903,6 +873,36 @@
 					<Item>l10n/zh_Hant_HK/wilco_leader_xerxes.vtt</Item>
 					<Item>l10n/zh_Hant_HK/wilco_victory_generic_domination.vtt</Item>
 				</ImportFiles>
+
+				<ImportFiles locale="th_TH">
+					<Item>l10n/th_TH/intro.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_amina.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_ashoka_defeat.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_ashoka.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_augustus.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_benjaminfranklin.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_catherine_alt.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_catherine.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_charlemagne.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_confucius.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_friedrich.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_harriettubman_alt.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_harriettubman.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_hatshepsut.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_himiko.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_ibnbattuta.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_isabella.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_joserizal_alt.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_joserizal.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_lafayette_alt.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_lafayette.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_machiavelli.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_napoleon.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_pachacuti.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_trungtrac.vtt</Item>
+					<Item>l10n/th_TH/wilco_leader_xerxes.vtt</Item>
+					<Item>l10n/th_TH/wilco_victory_generic_domination.vtt</Item>
+				</ImportFiles>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="base-game-shell" scope="shell" criteria="always">
@@ -913,6 +913,9 @@
 				<UIScripts>
 					<Item>ui/live-notice/live-notice.js</Item>
 				</UIScripts>
+				<UpdateArt>
+					<Item>boot-shell</Item>
+				</UpdateArt>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
 					<Item>config/hall-of-fame.xml</Item>

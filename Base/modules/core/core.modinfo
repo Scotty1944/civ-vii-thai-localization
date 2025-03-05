@@ -112,13 +112,13 @@
 					<Item>ui/shell/create-panels/civ-select-panel.js</Item>
 					<Item>ui/shell/create-panels/game-setup-panel.js</Item>
 					<Item>ui/shell/create-panels/leader-select-panel.js</Item>
+					<Item>ui/shell/create-panels/learn-more.js</Item>
 					<Item>ui/shell/create-panels/memento-editor.js</Item>
 					<Item>ui/shell/create-panels/memento-slot.js</Item>
 					<Item>ui/shell/events/screen-events.js</Item>
 					<Item>ui/shell/gift-notifications/giftbox-popup.js</Item>
 					<Item>ui/shell/mods-content/mods-content.js</Item>
 					<Item>ui/shell/extras/screen-extras.js</Item>
-					<Item>ui/shell/filter-sort-popup/filter-sort-popup.js</Item>
 					<Item>ui/shell/leader-select/leader-button/leader-button.js</Item>
 					<Item>ui/shell/main-menu/main-menu.js</Item>
 					<Item>ui/shell/mp-legal/mp-legal.js</Item>
@@ -147,6 +147,7 @@
 					<Item>ui/shell/store-launcher/2k-code-redemption.js</Item>
 					<Item>ui/shell/shell-components/icon-dropdown.js</Item>
 					<Item>ui/shell/store-launcher/screen-dlc-viewer.js</Item>
+					<Item>ui/utilities/utilities-liveops.js</Item>
 				</UIScripts>
 
 				<UIShortcuts>
@@ -214,6 +215,7 @@
 					<Item locale="ru_RU">l10n/ru_RU_Text.xml</Item>
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
+					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
 
 					<!-- These text-override entries must happen *after* translations. -->
 					<Item platform="NX">text/en_us/OptionsText_RumbleFeature.xml</Item>
@@ -305,7 +307,6 @@
 					<Item>ui/system-message/screen-system-message.js</Item>
 					<Item>ui/tooltips/default-tooltip.js</Item>
 					<Item>ui/tooltips/tooltip-manager.js</Item>
-					<Item>ui/shell/filter-sort-popup/filter-sort-popup.js</Item>
 					<Item>ui/shell/mp-staging/mp-friends.js</Item>
 					<Item>ui/shell/mp-staging/mp-friends-options.js</Item>
 					<Item>ui/shell/mp-staging/mp-search.js</Item>
