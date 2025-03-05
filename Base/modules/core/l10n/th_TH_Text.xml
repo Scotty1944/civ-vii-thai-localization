@@ -1,281 +1,485 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" ?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_COPYRIGHT_BLOCK" Language="th_TH">
-			<Text>© 1991-2025 Take-Two Interactive Software, Inc.  Developed by Firaxis Games.  2K, Firaxis Games, Sid Meier's Civilization VII, Sid Meier's Civilization, Civilization, Civ, and their respective logos are trademarks of Take-Two Interactive Software, Inc.  Sid Meier's Civilization VII uses Coherent Labs user interface technology. Copyright 2012-2025 Coherent Labs. All Rights Reserved.  Powered by Wwise © 2006-2025 Audiokinetic Inc.  All rights reserved.  Uses Oodle. Copyright © 2008-2025 by Epic Games Tools, LLC.  Uses Quixel Megascans ®, Copyright © 2017 Quixel AB</Text>
+			<Text>© 1991-2025 Take-Two Interactive Software, Inc.  Developed by Firaxis Games.  2K, Firaxis Games, Sid Meier's Civilization VII, Sid Meier's Civilization, Civilization, Civ, and their respective logos are trademarks of Take-Two Interactive Software, Inc.  Sid Meier's Civilization VII uses Coherent Labs user interface technology. Copyright 2012-2025 Coherent Labs. All Rights Reserved.  Powered by Wwise © 2006-2025 Audiokinetic Inc.  All rights reserved.  Uses Oodle. Copyright © 2008-2025 by Epic Games Tools, LLC.  Uses Quixel Megascans ®, Copyright © 2017 Quixel AB</Text>		<!-- © 1991-2025 Take-Two Interactive Software, Inc.  Developed by Firaxis Games.  2K, Firaxis Games, Sid Meier's Civilization VII, Sid Meier's Civilization, Civilization, Civ, and their respective logos are trademarks of Take-Two Interactive Software, Inc.  Sid Meier's Civilization VII uses Coherent Labs user interface technology. Copyright 2012-2025 Coherent Labs. All Rights Reserved.  Powered by Wwise © 2006-2025 Audiokinetic Inc.  All rights reserved.  Uses Oodle. Copyright © 2008-2025 by Epic Games Tools, LLC.  Uses Quixel Megascans ®, Copyright © 2017 Quixel AB. -->
+		</Replace>
+		<Replace Tag="LOC_UI_CONTROLLER_MAPPING_TITLE" Language="th_TH">
+			<Text>Controls</Text>		<!-- Controls -->
+		</Replace>
+		<Replace Tag="LOC_UI_CONTROLLER_MAPPING_SUBTITLE" Language="th_TH">
+			<Text>View mappings and rebind any input</Text>		<!-- View mappings and rebind any input -->
+		</Replace>
+		<Replace Tag="LOC_UI_CONTROLLER_MAPPING_INVERT_STICK" Language="th_TH">
+			<Text>Swap Stick Functionality</Text>		<!-- Swap Stick Functionality -->
+		</Replace>
+		<Replace Tag="LOC_UI_CONTROLLER_MAPPING_RESTORE_DEFAULT" Language="th_TH">
+			<Text>Restore Default</Text>		<!-- Restore Default -->
+		</Replace>
+		<Replace Tag="LOC_UI_CONTROLLER_MAPPING_BIND_TITLE" Language="th_TH">
+			<Text>Currently Remapping</Text>		<!-- Currently Remapping -->
+		</Replace>
+		<Replace Tag="LOC_UI_CONTROLLER_MAPPING_BIND_GESTURE" Language="th_TH">
+			<Text>Press any input to rebind this command</Text>		<!-- Press any input to rebind this command -->
+		</Replace>
+		<Replace Tag="LOC_UI_CONTROLLER_MAPPING_RESET_DEFAULT_TITLE" Language="th_TH">
+			<Text>Restore Default</Text>		<!-- Restore Default -->
+		</Replace>
+		<Replace Tag="LOC_UI_CONTROLLER_MAPPING_RESET_DEFAULT_BODY" Language="th_TH">
+			<Text>Are you sure you want to restore to the default mapping?</Text>		<!-- Are you sure you want to restore to the default mapping? -->
+		</Replace>
+		<Replace Tag="LOC_UI_CONTROLLER_MAPPING_CONFIRM_CHANGE_TITLE" Language="th_TH">
+			<Text>Confirm Changes</Text>		<!-- Confirm Changes -->
+		</Replace>
+		<Replace Tag="LOC_UI_CONTROLLER_MAPPING_CONFIRM_CHANGE_BODY" Language="th_TH">
+			<Text>Are you sure you want to save this new mapping?</Text>		<!-- Are you sure you want to save this new mapping? -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_A" Language="th_TH">
+			<Text>A</Text>		<!-- A -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_B" Language="th_TH">
+			<Text>B</Text>		<!-- B -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_X" Language="th_TH">
+			<Text>X</Text>		<!-- X -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_Y" Language="th_TH">
+			<Text>Y</Text>		<!-- Y -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_LSHOULDER" Language="th_TH">
+			<Text>Left bumper</Text>		<!-- Left bumper -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_LTRIGGER" Language="th_TH">
+			<Text>Left trigger</Text>		<!-- Left trigger -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_RSHOULDER" Language="th_TH">
+			<Text>Right bumper</Text>		<!-- Right bumper -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_RTRIGGER" Language="th_TH">
+			<Text>Right trigger</Text>		<!-- Right trigger -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_DPAD_RIGHT" Language="th_TH">
+			<Text>D-pad right</Text>		<!-- D-pad right -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_DPAD_LEFT" Language="th_TH">
+			<Text>D-pad left</Text>		<!-- D-pad left -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_DPAD_UP" Language="th_TH">
+			<Text>D-pad up</Text>		<!-- D-pad up -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_DPAD_DOWN" Language="th_TH">
+			<Text>D-pad down</Text>		<!-- D-pad down -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_START" Language="th_TH">
+			<Text>Start</Text>		<!-- Start -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_BACK" Language="th_TH">
+			<Text>Back</Text>		<!-- Back -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_SHARE" Language="th_TH">
+			<Text>Share</Text>		<!-- Share -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_LTHUMB_AXIS" Language="th_TH">
+			<Text>Left stick</Text>		<!-- Left stick -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_RTHUMB_AXIS" Language="th_TH">
+			<Text>Right stick</Text>		<!-- Right stick -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_LTHUMB_PRESS" Language="th_TH">
+			<Text>Left stick click</Text>		<!-- Left stick click -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_RTHUMB_PRESS" Language="th_TH">
+			<Text>Right stick click</Text>		<!-- Right stick click -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_A_PS" Language="th_TH">
+			<Text>X</Text>		<!-- X -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_B_PS" Language="th_TH">
+			<Text>Circle</Text>		<!-- Circle -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_X_PS" Language="th_TH">
+			<Text>Square</Text>		<!-- Square -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_Y_PS" Language="th_TH">
+			<Text>Triangle</Text>		<!-- Triangle -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_LSHOULDER_PS" Language="th_TH">
+			<Text>Left bumper</Text>		<!-- Left bumper -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_LTRIGGER_PS" Language="th_TH">
+			<Text>Left trigger</Text>		<!-- Left trigger -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_RSHOULDER_PS" Language="th_TH">
+			<Text>Right bumper</Text>		<!-- Right bumper -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_RTRIGGER_PS" Language="th_TH">
+			<Text>Right trigger</Text>		<!-- Right trigger -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_DPAD_RIGHT_PS" Language="th_TH">
+			<Text>D-pad right</Text>		<!-- D-pad right -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_DPAD_LEFT_PS" Language="th_TH">
+			<Text>D-pad left</Text>		<!-- D-pad left -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_DPAD_UP_PS" Language="th_TH">
+			<Text>D-pad up</Text>		<!-- D-pad up -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_DPAD_DOWN_PS" Language="th_TH">
+			<Text>D-pad down</Text>		<!-- D-pad down -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_START_PS" Language="th_TH">
+			<Text>Options</Text>		<!-- Options -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_BACK_PS" Language="th_TH">
+			<Text>Touch Pad</Text>		<!-- Touch Pad -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_LTHUMB_AXIS_PS" Language="th_TH">
+			<Text>Left stick</Text>		<!-- Left stick -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_RTHUMB_AXIS_PS" Language="th_TH">
+			<Text>Right stick</Text>		<!-- Right stick -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_LTHUMB_PRESS_PS" Language="th_TH">
+			<Text>Left stick click</Text>		<!-- Left stick click -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_RTHUMB_PRESS_PS" Language="th_TH">
+			<Text>Right stick click</Text>		<!-- Right stick click -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_A_NX" Language="th_TH">
+			<Text>A</Text>		<!-- A -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_B_NX" Language="th_TH">
+			<Text>B</Text>		<!-- B -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_X_NX" Language="th_TH">
+			<Text>X</Text>		<!-- X -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_Y_NX" Language="th_TH">
+			<Text>Y</Text>		<!-- Y -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_LSHOULDER_NX" Language="th_TH">
+			<Text>Left bumper</Text>		<!-- Left bumper -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_LTRIGGER_NX" Language="th_TH">
+			<Text>Left trigger</Text>		<!-- Left trigger -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_RSHOULDER_NX" Language="th_TH">
+			<Text>Right bumper</Text>		<!-- Right bumper -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_RTRIGGER_NX" Language="th_TH">
+			<Text>Right trigger</Text>		<!-- Right trigger -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_DPAD_RIGHT_NX" Language="th_TH">
+			<Text>D-pad right</Text>		<!-- D-pad right -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_DPAD_LEFT_NX" Language="th_TH">
+			<Text>D-pad left</Text>		<!-- D-pad left -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_DPAD_UP_NX" Language="th_TH">
+			<Text>D-pad up</Text>		<!-- D-pad up -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_DPAD_DOWN_NX" Language="th_TH">
+			<Text>D-pad down</Text>		<!-- D-pad down -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_START_NX" Language="th_TH">
+			<Text>Plus</Text>		<!-- Plus -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_BACK_NX" Language="th_TH">
+			<Text>Minus</Text>		<!-- Minus -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_LTHUMB_AXIS_NX" Language="th_TH">
+			<Text>Left stick</Text>		<!-- Left stick -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_RTHUMB_AXIS_NX" Language="th_TH">
+			<Text>Right stick</Text>		<!-- Right stick -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_LTHUMB_PRESS_NX" Language="th_TH">
+			<Text>Left stick click</Text>		<!-- Left stick click -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PAD_RTHUMB_PRESS_NX" Language="th_TH">
+			<Text>Right stick click</Text>		<!-- Right stick click -->
+		</Replace>
+		<Replace Tag="LOC_UI_CONTROLLER_MAPPING_INVERT_STICK_MICROSOFT" Language="th_TH">
+			<Text>Swap Stick Functionality</Text>		<!-- Swap Stick Functionality -->
+		</Replace>
+		<Replace Tag="LOC_UI_CONTROLLER_MAPPING_INVERT_STICK_PS4" Language="th_TH">
+			<Text>Swap Stick Functionality</Text>		<!-- Swap Stick Functionality -->
+		</Replace>
+		<Replace Tag="LOC_UI_CONTROLLER_MAPPING_INVERT_STICK_PS5" Language="th_TH">
+			<Text>Swap Stick Functionality</Text>		<!-- Swap Stick Functionality -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_RANDOM_NAME" Language="th_TH">
-			<Text>สุ่ม</Text>
+			<Text>สุ่ม</Text>		<!-- Random -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_RANDOM_DESCRIPTION" Language="th_TH">
-			<Text>จะมีการเลือกผู้นำให้คุณ</Text>
+			<Text>จะมีการเลือกผู้นำให้คุณ</Text>		<!-- A leader will be chosen for you. -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_RANDOM_NAME" Language="th_TH">
-			<Text>สุ่ม</Text>
+			<Text>สุ่ม</Text>		<!-- Random -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_RANDOM_DESCRIPTION" Language="th_TH">
-			<Text>จะมีการเลือกอารยธรรมให้คุณ</Text>
+			<Text>จะมีการเลือกอารยธรรมให้คุณ</Text>		<!-- A civilization will be chosen for you. -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_STAGING_TITLE" Language="th_TH">
-			<Text>ผู้เล่นหลายคน</Text>
+			<Text>ผู้เล่นหลายคน</Text>		<!-- MULTIPLAYER -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_STAGING_SUBTITLE" Language="th_TH">
-			<Text>หน้าจอเตรียมการ</Text>
+			<Text>หน้าจอเตรียมการ</Text>		<!-- Staging Screen -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_STAGING_READY_BUTTON_READY" Language="th_TH">
-			<Text>พร้อม</Text>
+			<Text>พร้อม</Text>		<!-- READY UP -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_STAGING_READY_BUTTON_UNREADY" Language="th_TH">
-			<Text>ไม่พร้อม</Text>
+			<Text>ไม่พร้อม</Text>		<!-- UNREADY -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_STAGING_HOST_TITLE" Language="th_TH">
-			<Text>หน้าจอเตรียมการผู้เล่นหลายคน: ตั้งค่าหัวห้อง</Text>
+			<Text>หน้าจอเตรียมการผู้เล่นหลายคน: ตั้งค่าหัวห้อง</Text>		<!-- Multiplayer Staging Screen: Host Set Up -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_STAGING_CLIENT_TITLE" Language="th_TH">
-			<Text>หน้าจอเตรียมการผู้เล่นหลายคน: ตั้งค่าผู้เล่น</Text>
+			<Text>หน้าจอเตรียมการผู้เล่นหลายคน: ตั้งค่าผู้เล่น</Text>		<!-- Multiplayer Staging Screen: Client Set Up -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_STAGING_PLAYER_LIST_TITLE" Language="th_TH">
-			<Text>รายชื่อผู้เล่น: </Text>
+			<Text>รายชื่อผู้เล่น: </Text>		<!-- Player List: -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_STAGING_INVITE_BUTTON" Language="th_TH">
-			<Text>เชิญเพื่อน</Text>
+			<Text>เชิญเพื่อน</Text>		<!-- Invite Friends -->
 		</Replace>
 		<Replace Tag="LOC_GAME_SUMMARY_JOIN_CODE" Language="th_TH">
-			<Text>รหัสเข้าร่วม: {1_JoinCode}</Text>
+			<Text>รหัสเข้าร่วม: {1_JoinCode}</Text>		<!-- Join Code: {1_JoinCode} -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_SUBTITLE" Language="th_TH">
-			<Text>ล็อบบี้</Text>
+			<Text>ล็อบบี้</Text>		<!-- Lobby -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_TIME_REMAINING" Language="th_TH">
-			<Text>เวลาที่เหลือ</Text>
+			<Text>เวลาที่เหลือ</Text>		<!-- Time remaining -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_SHOW_JOIN_CODE" Language="th_TH">
-			<Text>แสดงรหัสเข้าร่วม</Text>
+			<Text>แสดงรหัสเข้าร่วม</Text>		<!-- Show Join Code -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_SHOW_FRIENDS" Language="th_TH">
-			<Text>แสดงเพื่อน</Text>
+			<Text>แสดงเพื่อน</Text>		<!-- Show Friends -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_HEADER_PLAYER" Language="th_TH">
-			<Text>ผู้เล่น</Text>
+			<Text>ผู้เล่น</Text>		<!-- Player -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_HEADER_TEAM" Language="th_TH">
-			<Text>ทีม</Text>
+			<Text>ทีม</Text>		<!-- Team -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_HEADER_CIV" Language="th_TH">
-			<Text>อารยธรรม</Text>
+			<Text>อารยธรรม</Text>		<!-- Civ -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_HEADER_LEADER" Language="th_TH">
-			<Text>ผู้นำ</Text>
+			<Text>ผู้นำ</Text>		<!-- Leader -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_HEADER_READY" Language="th_TH">
-			<Text>พร้อมหรือยัง?</Text>
+			<Text>พร้อมหรือยัง?</Text>		<!-- Ready? -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_HEADER_KICK" Language="th_TH">
-			<Text>เตะ</Text>
+			<Text>เตะ</Text>		<!-- Kick -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_CHAT" Language="th_TH">
-			<Text>แชท</Text>
+			<Text>แชท</Text>		<!-- Chat -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_RULES" Language="th_TH">
-			<Text>ดูรายละเอียด</Text>
+			<Text>ดูรายละเอียด</Text>		<!-- View All Rules -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_MEMENTO" Language="th_TH">
-			<Text>เลือกของที่ระลึก</Text>
+			<Text>เลือกของที่ระลึก</Text>		<!-- Choose Mementos -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_GAME_OPTION" Language="th_TH">
-			<Text>ตัวเลือกเกม</Text>
+			<Text>ตัวเลือกเกม</Text>		<!-- Game Options -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_PLAYERS" Language="th_TH">
-			<Text>{1_currentPlayers}/{2_maxPlayers} ผู้เล่น</Text>
+			<Text>{1_currentPlayers}/{2_maxPlayers} ผู้เล่น</Text>		<!-- {1_currentPlayers}/{2_maxPlayers} players -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_DIFFICULTY" Language="th_TH">
-			<Text>ความยาก:</Text>
+			<Text>ความยาก:</Text>		<!-- Difficulty: -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_RULE_SET" Language="th_TH">
-			<Text>ชุดกฎ:</Text>
+			<Text>ชุดกฎ:</Text>		<!-- Rule Set: -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_MAP_TYPE" Language="th_TH">
-			<Text>ประเภทแผนที่:</Text>
+			<Text>ประเภทแผนที่:</Text>		<!-- Map Type: -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_MAP_SIZE" Language="th_TH">
-			<Text>ขนาดแผนที่:</Text>
+			<Text>ขนาดแผนที่:</Text>		<!-- Map Size: -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_GAME_SPEED" Language="th_TH">
-			<Text>ความเร็วเกม:</Text>
+			<Text>ความเร็วเกม:</Text>		<!-- Game Speed: -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_READY_BUTTON_NOT_READY" Language="th_TH">
-			<Text>พร้อมหรือยัง?</Text>
+			<Text>พร้อมหรือยัง?</Text>		<!-- Ready? -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_READY_BUTTON_WAITING_FOR_OTHERS" Language="th_TH">
-			<Text>รอผู้เล่น</Text>
+			<Text>รอผู้เล่น</Text>		<!-- Waiting for players -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_READY_BUTTON_STARTING_GAME" Language="th_TH">
-			<Text>กำลังเริ่ม.</Text>
+			<Text>กำลังเริ่ม.</Text>		<!-- Starting... -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_DROPDOWN_ACTION_DESC" Language="th_TH">
-			<Text>ตัวเลือกการกระทำสำหรับช่องผู้เล่นนี้</Text>
+			<Text>ตัวเลือกการกระทำสำหรับช่องผู้เล่นนี้</Text>		<!-- Action selector for this player slot. -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_DROPDOWN_TEAM_DESC" Language="th_TH">
-			<Text>ตัวเลือกทีมสำหรับผู้เล่นนี้</Text>
+			<Text>ตัวเลือกทีมสำหรับผู้เล่นนี้</Text>		<!-- Team selector for this player. -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_DROPDOWN_CIV_DESC" Language="th_TH">
-			<Text>ตัวเลือกอารยธรรมสำหรับผู้เล่นนี้</Text>
+			<Text>ตัวเลือกอารยธรรมสำหรับผู้เล่นนี้</Text>		<!-- Civilization selector for this player. -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_DROPDOWN_LEADER_DESC" Language="th_TH">
-			<Text>ตัวเลือกผู้นำสำหรับผู้เล่นนี้</Text>
+			<Text>ตัวเลือกผู้นำสำหรับผู้เล่นนี้</Text>		<!-- Leader selector for this player. -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_DROPDOWN_ACTION_DEFAULT" Language="th_TH">
-			<Text>การกระทำต่อผู้เล่น</Text>
+			<Text>การกระทำต่อผู้เล่น</Text>		<!-- Actions on Player -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_DROPDOWN_TEAM_DEFAULT" Language="th_TH">
-			<Text>ไม่มีทีม</Text>
+			<Text>ไม่มีทีม</Text>		<!-- No Team -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_TEAM" Language="th_TH">
-			<Text>ทีม {1_TeamNumber}</Text>
+			<Text>ทีม {1_TeamNumber}</Text>		<!-- Team {1_TeamNumber} -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LANDING_TITLE" Language="th_TH">
-			<Text>โหมดผู้เล่นหลายคน</Text>
+			<Text>โหมดผู้เล่นหลายคน</Text>		<!-- MULTIPLAYER PLAY MODE -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LANDING_SUBTITLE" Language="th_TH">
-			<Text>หน้าจอหลัก</Text>
+			<Text>หน้าจอหลัก</Text>		<!-- LANDING SCREEN -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LANDING_LAN" Language="th_TH">
-			<Text>แลน</Text>
+			<Text>แลน</Text>		<!-- LAN -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LANDING_INTERNET" Language="th_TH">
-			<Text>อินเทอร์เน็ต</Text>
+			<Text>อินเทอร์เน็ต</Text>		<!-- Internet -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LANDING_WIRELESS" Language="th_TH">
-			<Text>ไร้สาย</Text>
+			<Text>ไร้สาย</Text>		<!-- Wireless -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LANDING_MATCHMAKE_GAME" Language="th_TH">
-			<Text>เข้าร่วมด่วน</Text>
+			<Text>เข้าร่วมด่วน</Text>		<!-- QUICK JOIN -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LANDING_CREATE_GAME" Language="th_TH">
-			<Text>สร้างเกม</Text>
+			<Text>สร้างเกม</Text>		<!-- CREATE GAME -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LANDING_JOIN_GAME" Language="th_TH">
-			<Text>เข้าร่วมเกม</Text>
+			<Text>เข้าร่วมเกม</Text>		<!-- JOIN GAME -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LANDING_LOAD_GAME" Language="th_TH">
-			<Text>โหลดเกม</Text>
+			<Text>โหลดเกม</Text>		<!-- LOAD GAME -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LANDING_GAMES_BROWSER" Language="th_TH">
-			<Text>เรียกดูเกม</Text>
+			<Text>เรียกดูเกม</Text>		<!-- BROWSE GAMES -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LANDING_ERROR_ROOM_FULL" Language="th_TH">
-			<Text>ห้องเต็ม</Text>
+			<Text>ห้องเต็ม</Text>		<!-- Room Full -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LANDING_ERROR_GAME_STARTED" Language="th_TH">
-			<Text>เกมเริ่มแล้ว</Text>
+			<Text>เกมเริ่มแล้ว</Text>		<!-- Game started -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LANDING_ERROR_TOO_MANY_MATCHES" Language="th_TH">
-			<Text>มีแมตช์มากเกินไป</Text>
+			<Text>มีแมตช์มากเกินไป</Text>		<!-- Too many matches -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LANDING_ERROR_NO_CONNECTION" Language="th_TH">
-			<Text>ไม่มีการเชื่อมต่อ</Text>
+			<Text>ไม่มีการเชื่อมต่อ</Text>		<!-- No connection -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LANDING_UNKNOWN_ERROR" Language="th_TH">
-			<Text>ข้อผิดพลาดที่ไม่รู้จัก: {1_ErrorNumber}</Text>
+			<Text>ข้อผิดพลาดที่ไม่รู้จัก: {1_ErrorNumber}</Text>		<!-- Unknown error returned: {1_ErrorNumber} -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LANDING_ERROR_BODY" Language="th_TH">
-			<Text>ไม่สามารถเข้าร่วมล็อบบี้: {1_Reason}</Text>
+			<Text>ไม่สามารถเข้าร่วมล็อบบี้: {1_Reason}</Text>		<!-- Failed to join lobby: {1_Reason} -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LANDING_MATCHMAKE_START_ERROR" Language="th_TH">
-			<Text>ไม่สามารถเริ่มการจับคู่</Text>
+			<Text>ไม่สามารถเริ่มการจับคู่</Text>		<!-- Matchmaking failed to start -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LANDING_RELAY_SERVER_ADDRESS_PROMPT" Language="th_TH">
-			<Text>ที่อยู่เซิร์ฟเวอร์รีเลย์:</Text>
+			<Text>ที่อยู่เซิร์ฟเวอร์รีเลย์:</Text>		<!-- Relay Server Address: -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_REPORT_TITLE" Language="th_TH">
-			<Text>รายงานเกม</Text>
+			<Text>รายงานเกม</Text>		<!-- Report Game -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_REPORT_BODY" Language="th_TH">
-			<Text>คุณแน่ใจหรือว่าต้องการรายงานผู้เล่นหัวห้องและซ่อนเกมนี้จากรายการ?</Text>
+			<Text>คุณแน่ใจหรือว่าต้องการรายงานผู้เล่นหัวห้องและซ่อนเกมนี้จากรายการ?</Text>		<!-- Are you sure you want to report the host player and hide this game from the list? -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_JOIN_CODE_TITLE" Language="th_TH">
-			<Text>รหัสเข้าร่วม</Text>
+			<Text>รหัสเข้าร่วม</Text>		<!-- Join Code -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_JOIN_CODE_PLACEHOLDER" Language="th_TH">
-			<Text>ใส่รหัส</Text>
+			<Text>ใส่รหัส</Text>		<!-- Enter code -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_NEW_GAME_TITLE" Language="th_TH">
-			<Text>เกมใหม่</Text>
+			<Text>เกมใหม่</Text>		<!-- NEW GAME -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_NEW_GAME_JOIN" Language="th_TH">
-			<Text>เข้าร่วม</Text>
+			<Text>เข้าร่วม</Text>		<!-- JOIN -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_NEW_GAME_CREATE" Language="th_TH">
-			<Text>สร้าง</Text>
+			<Text>สร้าง</Text>		<!-- CREATE -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_NEW_GAME_ENTER_JOIN_CODE" Language="th_TH">
-			<Text>กรุณาใส่รหัสเข้าร่วม:</Text>
+			<Text>กรุณาใส่รหัสเข้าร่วม:</Text>		<!-- Please enter a join code: -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_STATUS_JOINING" Language="th_TH">
-			<Text>กำลังเข้าร่วมเกม ... </Text>
+			<Text>กำลังเข้าร่วมเกม ... </Text>		<!-- Joining game ... -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_PLAY_MODE_TITLE" Language="th_TH">
-			<Text>เลือกโหมดเล่น</Text>
+			<Text>เลือกโหมดเล่น</Text>		<!-- CHOOSE PLAY MODE -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_PLAY_MODE_SUBTITLE" Language="th_TH">
-			<Text>ผู้เล่นหลายคน</Text>
+			<Text>ผู้เล่นหลายคน</Text>		<!-- MULTIPLAYER -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_PLAY_MODE_ONLINE" Language="th_TH">
-			<Text>ออนไลน์</Text>
+			<Text>ออนไลน์</Text>		<!-- Online -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_PLAY_MODE_ONLINE_DESCRIPTION" Language="th_TH">
-			<Text>สร้างเกมผู้เล่นหลายคนออนไลน์กับเพื่อนหรือเข้าร่วมการจับคู่อัตโนมัติ</Text>
+			<Text>สร้างเกมผู้เล่นหลายคนออนไลน์กับเพื่อนหรือเข้าร่วมการจับคู่อัตโนมัติ</Text>		<!-- Create a Multiplayer Online game with friends or join an auto match -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_PLAY_MODE_LOCAL" Language="th_TH">
-			<Text>ท้องถิ่น</Text>
+			<Text>ท้องถิ่น</Text>		<!-- Local -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_PLAY_MODE_LOCAL_DESCRIPTION" Language="th_TH">
-			<Text>สร้างเกมท้องถิ่นและเชิญเพื่อน</Text>
+			<Text>สร้างเกมท้องถิ่นและเชิญเพื่อน</Text>		<!-- Create a local game and invite friends -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_GAME_MODE_TITLE" Language="th_TH">
-			<Text>เลือกโหมดเกม</Text>
+			<Text>เลือกโหมดเกม</Text>		<!-- CHOOSE GAME MODE -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_GAME_MODE_SUBTITLE" Language="th_TH">
-			<Text>ผู้เล่นหลายคน</Text>
+			<Text>ผู้เล่นหลายคน</Text>		<!-- MULTIPLAYER -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_GAME_MODE_CREATE_GAME" Language="th_TH">
-			<Text>สร้างเกม</Text>
+			<Text>สร้างเกม</Text>		<!-- Create Game -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_GAME_MODE_CREATE_GAME_DESCRIPTION" Language="th_TH">
-			<Text>สร้างเกมออนไลน์และเชิญเพื่อน</Text>
+			<Text>สร้างเกมออนไลน์และเชิญเพื่อน</Text>		<!-- Create an Online game and invite friends -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_GAME_MODE_AUTOMATCH" Language="th_TH">
-			<Text>จับคู่อัตโนมัติ</Text>
+			<Text>จับคู่อัตโนมัติ</Text>		<!-- Auto Match -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_GAME_MODE_AUTOMATCH_DESCRIPTION" Language="th_TH">
-			<Text>จับคู่อัตโนมัติกับผู้เล่นสุ่ม</Text>
+			<Text>จับคู่อัตโนมัติกับผู้เล่นสุ่ม</Text>		<!-- Auto Match with random players -->
 		</Replace>
 		<Replace Tag="LOC_MP_PARENT_PERMISSIONS_TITLE" Language="th_TH">
-			<Text>การอนุญาตของผู้ปกครอง</Text>
+			<Text>การอนุญาตของผู้ปกครอง</Text>		<!-- Parental Permissions -->
 		</Replace>
 		<Replace Tag="LOC_MP_JOIN_PARENT_PERMISSIONS_DISABLED" Language="th_TH">
-			<Text>บัญชี 2K ไม่ได้รับอนุญาต กรุณาขออนุญาตจากผู้ปกครองหรือผู้ดูแลเพื่อเล่นออนไลน์</Text>
+			<Text>บัญชี 2K ไม่ได้รับอนุญาต กรุณาขออนุญาตจากผู้ปกครองหรือผู้ดูแลเพื่อเล่นออนไลน์</Text>		<!-- 2K Account not authorized, please ask a parent or guardian for permission to play online. -->
 		</Replace>
 		<Replace Tag="LOC_MP_JOINING_GAME_TITLE" Language="th_TH">
-			<Text>กำลังเข้าร่วมเกม</Text>
+			<Text>กำลังเข้าร่วมเกม</Text>		<!-- Joining a game -->
 		</Replace>
 		<Replace Tag="LOC_MP_JOINING_GAME_BODY" Language="th_TH">
-			<Text>กรุณารอ, กำลังเข้าร่วมเกม</Text>
+			<Text>กรุณารอ, กำลังเข้าร่วมเกม</Text>		<!-- Please wait . . . -->
 		</Replace>
 		<Replace Tag="LOC_MP_MATCHMAKING_GAME_TITLE" Language="th_TH">
-			<Text>กำลังค้นหาล็อบบี้</Text>
+			<Text>กำลังค้นหาล็อบบี้</Text>		<!-- Searching for Lobby -->
 		</Replace>
 		<Replace Tag="LOC_MP_JOINING_ERROR_TITLE" Language="th_TH">
-			<Text>ข้อผิดพลาดในการเข้าร่วม</Text>
+			<Text>ข้อผิดพลาดในการเข้าร่วม</Text>		<!-- Join Error -->
 		</Replace>
 		<Replace Tag="LOC_MP_CREATE_GAME_WAITING_BODY" Language="th_TH">
-			<Text>กรุณารอ, กำลังสร้างเกม </Text>		<!-- Please wait, .,  -->
+			<Text>กรุณารอ, กำลังสร้างเกม </Text>		<!-- Please wait, ., -->
 		</Replace>
 		<Replace Tag="LOC_MP_CREATE_GAME_WAITING_TITLE" Language="th_TH">
 			<Text>กำลังสร้างเกม</Text>		<!-- Creating Game -->
 		</Replace>
 		<Replace Tag="LOC_SHELL_BUILD_INFO" Language="th_TH">
-			<Text>Build: {1_BuildString}</Text>
+			<Text>Build: {1_BuildString}</Text>		<!-- Build: {1_BuildString} -->
 		</Replace>
 		<Replace Tag="LOC_MP_CANT_PLAY_ONLINE_ERROR_TITLE" Language="th_TH">
 			<Text>ไม่สามารถเล่นออนไลน์ได้</Text>		<!-- Can't Play Online -->
@@ -326,7 +530,7 @@
 			<Text>ผู้นำ</Text>		<!-- Leader -->
 		</Replace>
 		<Replace Tag="LOC_CREATE_GAME_AGE_CIV_SELECT_CATEGORY" Language="th_TH">
-			<Text>ยุค &amp; อารยธรรม</Text>		<!-- Age &amp; Civilization -->
+			<Text>ยุค &amp; อารยธรรม</Text>		<!-- Age &amp;amp; Civilization -->
 		</Replace>
 		<Replace Tag="LOC_CREATE_GAME_GAME_START_CATEGORY" Language="th_TH">
 			<Text>ยืนยัน</Text>		<!-- Confirm -->
@@ -359,7 +563,7 @@
 			<Text>ของ</Text>		<!-- of -->
 		</Replace>
 		<Replace Tag="LOC_CREATE_GAME_LEADER_TO_AGE" Language="th_TH">
-			<Text>ใน</Text>		<!--  in the -->
+			<Text>ใน</Text>		<!-- in the -->
 		</Replace>
 		<Replace Tag="LOC_CREATE_GAME_ADD_MEMENTO_MINOR" Language="th_TH">
 			<Text>เพิ่มของที่ระลึก</Text>		<!-- Add Memento -->
@@ -749,7 +953,7 @@
 			<Text>กำลังโหลด</Text>		<!-- Loading -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_TITLE_LOAD" Language="th_TH">
-			<Text>โหลดเกม</Text>
+			<Text>โหลดเกม</Text>		<!-- Load Game -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_TITLE_LOADING" Language="th_TH">
 			<Text>กำลังโหลด</Text>		<!-- Loading -->
@@ -859,6 +1063,15 @@
 		<Replace Tag="LOC_SAVE_LOAD_CROSSPLAYSAVES" Language="th_TH">
 			<Text>เล่นข้ามแพลตฟอร์ม</Text>		<!-- Crossplay -->
 		</Replace>
+		<Replace Tag="LOC_GESTURE_THUMB_AXIS_MICROSOFT" Language="th_TH">
+			<Text>Actions using the sticks</Text>		<!-- Actions using the sticks -->
+		</Replace>
+		<Replace Tag="LOC_GESTURE_THUMB_AXIS_PS4" Language="th_TH">
+			<Text>Actions using the sticks</Text>		<!-- Actions using the sticks -->
+		</Replace>
+		<Replace Tag="LOC_GESTURE_THUMB_AXIS_PS5" Language="th_TH">
+			<Text>Actions using the sticks</Text>		<!-- Actions using the sticks -->
+		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_AGETRANSITIONSAVES" Language="th_TH">
 			<Text>การเปลี่ยนยุค</Text>		<!-- Age Transitions -->
 		</Replace>
@@ -896,10 +1109,10 @@
 			<Text>บันทึกอัตโนมัติ</Text>		<!-- Auto Save -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_SAVE_DATE" Language="th_TH">
-			<Text>{1_Date: date short}</Text>
+			<Text>{1_Date: date short}</Text>		<!-- {1_Date: date short} -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_SAVE_TIME" Language="th_TH">
-			<Text>{1_Date: time short}</Text>
+			<Text>{1_Date: time short}</Text>		<!-- {1_Date: time short} -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_GAME_CONFIG_SAVE_PANEL_TITLE" Language="th_TH">
 			<Text>บันทึกการกำหนดค่าเกมของคุณ</Text>		<!-- Save your game configuration -->
@@ -1351,17 +1564,23 @@
 		<Replace Tag="LOC_AUTHORS_FIRAXIS" Language="th_TH">
 			<Text>Firaxis Games</Text>		<!-- Firaxis Games -->
 		</Replace>
+		<Replace Tag="LOC_MULTIPLAYER_DEFAULT_NO_TEAM_NAME" Language="th_TH">
+			<Text>No Team</Text>		<!-- No Team -->
+		</Replace>
+		<Replace Tag="LOC_MULTIPLAYER_DEFAULT_TEAM_NAME" Language="th_TH">
+			<Text>Team {1_TeamNumber}</Text>		<!-- Team {1_TeamNumber} -->
+		</Replace>
 		<Replace Tag="LOC_UI_MOD_DATE" Language="th_TH">
 			<Text>สร้าง: {1_Date: datetime}</Text>		<!-- Created: {1_Date: datetime} -->
 		</Replace>
 		<Replace Tag="LOC_UI_AFFECTS_SAVE" Language="th_TH">
-			<Text>มีผลต่อเกมที่บันทึกไว้: </Text>		<!-- Affects saved games:  -->
+			<Text>มีผลต่อเกมที่บันทึกไว้: </Text>		<!-- Affects saved games: -->
 		</Replace>
 		<Replace Tag="LOC_UI_MOD_SINGLE_PLAYER" Language="th_TH">
-			<Text>ผู้เล่นคนเดียว: </Text>		<!-- Single Player:  -->
+			<Text>ผู้เล่นคนเดียว: </Text>		<!-- Single Player: -->
 		</Replace>
 		<Replace Tag="LOC_UI_MOD_MULTIPLAYER" Language="th_TH">
-			<Text>ผู้เล่นหลายคน: </Text>		<!-- Multiplayer:  -->
+			<Text>ผู้เล่นหลายคน: </Text>		<!-- Multiplayer: -->
 		</Replace>
 		<Replace Tag="LOC_UI_TEXT_ENTRY_DENIAL" Language="th_TH">
 			<Text>การป้อนข้อความไม่ถูกต้อง</Text>		<!-- Invalid text entry -->
@@ -1379,7 +1598,7 @@
 			<Text>ฐานข้อมูลการเล่นเกมไม่ผ่านการตรวจสอบ! ดู Database.log สำหรับรายละเอียดเพิ่มเติม</Text>		<!-- Gameplay database failed validation!  See Database.log for additional details. -->
 		</Replace>
 		<Replace Tag="LOC_GRAMMAR_COMMA_SEPARATOR" Language="th_TH">
-			<Text>, </Text>		<!-- ,  -->
+			<Text>, </Text>		<!-- , -->
 		</Replace>
 		<Replace Tag="LOC_GRAMMAR_A_AN" Language="th_TH">
 			<Text>{1: gender *:an?an {1}; *:the?the {1}; *:no_article?{1}; other?a {1};}</Text>		<!-- {1: gender *:an?an {1}; *:the?the {1}; *:no_article?{1}; other?a {1};} -->
@@ -1759,6 +1978,12 @@
 		<Replace Tag="LOC_UI_KBM_MAPPING_DIPLOMACY_HEADER" Language="th_TH">
 			<Text>มุมมองการทูต</Text>		<!-- Diplomacy View -->
 		</Replace>
+		<Replace Tag="LOC_OPTIONS_AUDIO_DYNAMIC_RANGE_NARROW" Language="th_TH">
+			<Text>Narrow</Text>		<!-- Narrow -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_AUDIO_DYNAMIC_RANGE_NARROW_DESCRIPTION" Language="th_TH">
+			<Text>Smallest Dynamic Range - all sounds are heard at low volume, in noisy environments, or by speakers limited in range.</Text>		<!-- Smallest Dynamic Range - all sounds are heard at low volume, in noisy environments, or by speakers limited in range. -->
+		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_MENUS_HEADER" Language="th_TH">
 			<Text>เมนู</Text>		<!-- Menus -->
 		</Replace>
@@ -1891,6 +2116,12 @@
 		<Replace Tag="LOC_UI_KBM_MAPPING_NEXT_ACTION_TT" Language="th_TH">
 			<Text>ดำเนินการถัดไปหรือสิ้นสุดตาของผู้เล่นหากเป็นไปได้</Text>		<!-- Take the next action or ends the player's turn if possible. -->
 		</Replace>
+		<Replace Tag="LOC_OPTIONS_SHOW_UNOWNED_CONTENT" Language="th_TH">
+			<Text>Show Unowned Leaders and Civilizations</Text>		<!-- Show Unowned Leaders and Civilizations -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_SHOW_UNOWNED_CONTENT_DESCRIPTION" Language="th_TH">
+			<Text>Shows unowned leaders and civilizations</Text>		<!-- Shows unowned leaders and civilizations -->
+		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_LENSES" Language="th_TH">
 			<Text>เลนส์</Text>		<!-- Lenses -->
 		</Replace>
@@ -2008,6 +2239,27 @@
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_SLEEP_TT" Language="th_TH">
 			<Text>ดำเนินการนอนหลับด้วยยูนิตที่เลือก</Text>		<!-- Performs the Sleep action with the selected unit -->
 		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_XELL" Language="th_TH">
+			<Text>Intel Xe Low Latency</Text>		<!-- Intel Xe Low Latency -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_XELL_DESCRIPTION" Language="th_TH">
+			<Text>Reduces lag and input delays</Text>		<!-- Reduces lag and input delays -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_XELL_FRAME_RATE" Language="th_TH">
+			<Text>Intel Xe Low Latency Frame Rate Control</Text>		<!-- Intel Xe Low Latency Frame Rate Control -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_XELL_FRAME_RATE_DESCRIPTION" Language="th_TH">
+			<Text>Cap the maxiumum frame rate</Text>		<!-- Cap the maxiumum frame rate -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_XELL_FRAME_RATE_UNLIMITED" Language="th_TH">
+			<Text>Unlimited</Text>		<!-- Unlimited -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_XEFG" Language="th_TH">
+			<Text>Intel XeSS Frame Generation</Text>		<!-- Intel XeSS Frame Generation -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_XEFG_DESCRIPTION" Language="th_TH">
+			<Text>AI-generated frames are interlaced between existing graphics output to significantly increase the number of frames per second (FPS) and boost performance.</Text>		<!-- AI-generated frames are interlaced between existing graphics output to significantly increase the number of frames per second (FPS) and boost performance. -->
+		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_USER_INTERFACE_ACTIONS" Language="th_TH">
 			<Text>การกระทำของอินเทอร์เฟซผู้ใช้</Text>		<!-- User Interface Actions -->
 		</Replace>
@@ -2018,7 +2270,7 @@
 			<Text>ย้อนกลับในประวัติหน้าขณะเปิด Civilopedia</Text>		<!-- Goes back in the page history when the Civilopedia is open -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_CIV_FORWARD" Language="th_TH">
-			<Text>ประวัติ Civilopedia ไปข้างหน้า</Text>		<!--  Civilopedia History Forward -->
+			<Text>ประวัติ Civilopedia ไปข้างหน้า</Text>		<!-- Civilopedia History Forward -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_CIV_FORWARD_TT" Language="th_TH">
 			<Text>ไปข้างหน้าในประวัติหน้าขณะเปิด Civilopedia</Text>		<!-- Goes forward in the page history when the Civilopedia is open -->
@@ -2066,118 +2318,118 @@
 			<Text>เปิด/ปิด รายงานผลผลิต</Text>		<!-- Toggle Yields Report -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_NP_0" Language="th_TH">
-			<Text>0 (Number Pad)</Text>
+			<Text>0 (Number Pad)</Text>		<!-- 0 (Number Pad) -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_NP_1" Language="th_TH">
-			<Text>1 (Number Pad)</Text>
+			<Text>1 (Number Pad)</Text>		<!-- 1 (Number Pad) -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_NP_2" Language="th_TH">
-			<Text>2 (Number Pad)</Text>
+			<Text>2 (Number Pad)</Text>		<!-- 2 (Number Pad) -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_NP_3" Language="th_TH">
-			<Text>3 (Number Pad)</Text>
+			<Text>3 (Number Pad)</Text>		<!-- 3 (Number Pad) -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_NP_4" Language="th_TH">
-			<Text>4 (Number Pad)</Text>
+			<Text>4 (Number Pad)</Text>		<!-- 4 (Number Pad) -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_NP_5" Language="th_TH">
-			<Text>5 (Number Pad)</Text>
+			<Text>5 (Number Pad)</Text>		<!-- 5 (Number Pad) -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_NP_6" Language="th_TH">
-			<Text>6 (Number Pad)</Text>
+			<Text>6 (Number Pad)</Text>		<!-- 6 (Number Pad) -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_NP_7" Language="th_TH">
-			<Text>7 (Number Pad)</Text>
+			<Text>7 (Number Pad)</Text>		<!-- 7 (Number Pad) -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_NP_8" Language="th_TH">
-			<Text>9 (Number Pad)</Text>
+			<Text>9 (Number Pad)</Text>		<!-- 8 (Number Pad) -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_NP_9" Language="th_TH">
-			<Text>9 (Number Pad)</Text>
+			<Text>9 (Number Pad)</Text>		<!-- 9 (Number Pad) -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_NP_MULTIPLY" Language="th_TH">
-			<Text>* (Number Pad)</Text>
+			<Text>* (Number Pad)</Text>		<!-- * (Number Pad) -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_NP_PLUS" Language="th_TH">
-			<Text>+ (Number Pad)</Text>
+			<Text>+ (Number Pad)</Text>		<!-- + (Number Pad) -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_NP_MINUS" Language="th_TH">
-			<Text>- (Number Pad)</Text>
+			<Text>- (Number Pad)</Text>		<!-- - (Number Pad) -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_NP_DECIMAL" Language="th_TH">
-			<Text>. (Number Pad)</Text>
+			<Text>. (Number Pad)</Text>		<!-- . (Number Pad) -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_NP_DIVIDE" Language="th_TH">
-			<Text>/ (Number Pad)</Text>
+			<Text>/ (Number Pad)</Text>		<!-- / (Number Pad) -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_NP_CENTER" Language="th_TH">
-			<Text>Center (Number Pad)</Text>
+			<Text>Center (Number Pad)</Text>		<!-- Center (Number Pad) -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_INSERT" Language="th_TH">
-			<Text>Insert</Text>
+			<Text>Insert</Text>		<!-- Insert -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_HOME" Language="th_TH">
-			<Text>Home</Text>
+			<Text>Home</Text>		<!-- Home -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_PAGEUP" Language="th_TH">
-			<Text>Page Up</Text>
+			<Text>Page Up</Text>		<!-- Page Up -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_DELETE" Language="th_TH">
-			<Text>Delete</Text>
+			<Text>Delete</Text>		<!-- Delete -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_END" Language="th_TH">
-			<Text>End</Text>
+			<Text>End</Text>		<!-- End -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_PAGEDOWN" Language="th_TH">
-			<Text>Page Down</Text>
+			<Text>Page Down</Text>		<!-- Page Down -->
 		</Replace>
 		<Replace Tag="LOC_OPTION_KEY_QUOTE" Language="th_TH">
-			<Text>"</Text>
+			<Text>"</Text>		<!-- " -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_PRINTSCREEN" Language="th_TH">
-			<Text>Print Screen</Text>
+			<Text>Print Screen</Text>		<!-- Print Screen -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_PAUSE" Language="th_TH">
-			<Text>Pause</Text>
+			<Text>Pause</Text>		<!-- Pause -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_SPACE" Language="th_TH">
-			<Text>Space</Text>
+			<Text>Space</Text>		<!-- Space -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_TAB" Language="th_TH">
-			<Text>Tab</Text>
+			<Text>Tab</Text>		<!-- Tab -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_BACKSPACE" Language="th_TH">
-			<Text>Backspace</Text>
+			<Text>Backspace</Text>		<!-- Backspace -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_CANCEL" Language="th_TH">
-			<Text>ยกเลิก</Text>
+			<Text>ยกเลิก</Text>		<!-- Cancel -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_CAPSLOCK" Language="th_TH">
-			<Text>Caps Lock</Text>
+			<Text>Caps Lock</Text>		<!-- Caps Lock -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_NUMLOCK" Language="th_TH">
-			<Text>Num Lock</Text>
+			<Text>Num Lock</Text>		<!-- Num Lock -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_SCROLLLOCK" Language="th_TH">
-			<Text>Scroll Lock</Text>
+			<Text>Scroll Lock</Text>		<!-- Scroll Lock -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_LSHIFT" Language="th_TH">
-			<Text>Left Shift</Text>
+			<Text>Left Shift</Text>		<!-- Left Shift -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_LCONTROL" Language="th_TH">
-			<Text>Left Control</Text>
+			<Text>Left Control</Text>		<!-- Left Control -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_LALT" Language="th_TH">
-			<Text>Left Alt</Text>
+			<Text>Left Alt</Text>		<!-- Left Alt -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_RSHIFT" Language="th_TH">
-			<Text>Right Shift</Text>
+			<Text>Right Shift</Text>		<!-- Right Shift -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_RCONTROL" Language="th_TH">
-			<Text>Right Control</Text>
+			<Text>Right Control</Text>		<!-- Right Control -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_KEY_RALT" Language="th_TH">
-			<Text>Right Alt</Text>
+			<Text>Right Alt</Text>		<!-- Right Alt -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_CONFIRM_CHANGE_TITLE" Language="th_TH">
 			<Text>ยืนยันการเปลี่ยนแปลง</Text>		<!-- Confirm Changes -->
@@ -2186,25 +2438,25 @@
 			<Text>คุณแน่ใจหรือว่าต้องการบันทึกการแมปใหม่นี้?</Text>		<!-- Are you sure you want to save this new mapping? -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_MOUSE_L" Language="th_TH">
-			<Text>Left Mouse</Text>
+			<Text>Left Mouse</Text>		<!-- Left Mouse -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_MOUSE_R" Language="th_TH">
-			<Text>Right Mouse</Text>
+			<Text>Right Mouse</Text>		<!-- Right Mouse -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_MOUSE_M" Language="th_TH">
-			<Text>Middle Mouse</Text>
+			<Text>Middle Mouse</Text>		<!-- Middle Mouse -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_MOUSE_X1" Language="th_TH">
-			<Text>Mouse X1</Text>
+			<Text>Mouse X1</Text>		<!-- Mouse X1 -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_MOUSE_X2" Language="th_TH">
-			<Text>Mouse X2</Text>
+			<Text>Mouse X2</Text>		<!-- Mouse X2 -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_MOUSE_WHEEL_UP" Language="th_TH">
-			<Text>Mouse Wheel Up</Text>
+			<Text>Mouse Wheel Up</Text>		<!-- Mouse Wheel Up -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_MOUSE_WHEEL_DOWN" Language="th_TH">
-			<Text>Mouse Wheel Down</Text>
+			<Text>Mouse Wheel Down</Text>		<!-- Mouse Wheel Down -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_OPEN_ATTRIBUTES" Language="th_TH">
 			<Text>เปิดคุณลักษณะ</Text>		<!-- Open Attributes -->
@@ -2225,46 +2477,46 @@
 			<Text>สิ้นสุดตาปัจจุบันโดยไม่คำนึงถึงการกระทำที่บล็อกตา</Text>		<!-- Ends the current turn regardless of any turn blocking actions. -->
 		</Replace>
 		<Replace Tag="LOC_LANGUAGE_DEFAULT_NAME" Language="th_TH">
-			<Text>ค่าเริ่มต้นระบบ</Text>
+			<Text>ค่าเริ่มต้นระบบ</Text>		<!-- System Default -->
 		</Replace>
 		<Replace Tag="LOC_LANGUAGE_EN_US_NAME" Language="th_TH">
-			<Text>อังกฤษ (English)</Text>
+			<Text>อังกฤษ (English)</Text>		<!-- English -->
 		</Replace>
 		<Replace Tag="LOC_LANGUAGE_FR_FR_NAME" Language="th_TH">
-			<Text>ฝรั่งเศษ (French)</Text>
+			<Text>ฝรั่งเศษ (French)</Text>		<!-- Français (French) -->
 		</Replace>
 		<Replace Tag="LOC_LANGUAGE_DE_DE_NAME" Language="th_TH">
-			<Text>เยอรมัน (German)</Text>
+			<Text>เยอรมัน (German)</Text>		<!-- Deutsch (German) -->
 		</Replace>
 		<Replace Tag="LOC_LANGUAGE_IT_IT_NAME" Language="th_TH">
-			<Text>อิตาลี (Italian)</Text>
+			<Text>อิตาลี (Italian)</Text>		<!-- Italiano (Italian) -->
 		</Replace>
 		<Replace Tag="LOC_LANGUAGE_ES_ES_NAME" Language="th_TH">
-			<Text>สเปน (Spanish)</Text>
+			<Text>สเปน (Spanish)</Text>		<!-- Español (Spanish) -->
 		</Replace>
 		<Replace Tag="LOC_LANGUAGE_JA_JP_NAME" Language="th_TH">
-			<Text>ญี่ปุ่น (Japanese)</Text>
+			<Text>ญี่ปุ่น (Japanese)</Text>		<!-- 日本語 (Japanese) -->
 		</Replace>
 		<Replace Tag="LOC_LANGUAGE_RU_RU_NAME" Language="th_TH">
-			<Text>รัสเซีย (Russian)</Text>
+			<Text>รัสเซีย (Russian)</Text>		<!-- Русский (Russian) -->
 		</Replace>
 		<Replace Tag="LOC_LANGUAGE_PT_BR_NAME" Language="th_TH">
-			<Text>โปรตุเกส (Portuguese)</Text>
+			<Text>โปรตุเกส (Portuguese)</Text>		<!-- Português (Portuguese) -->
 		</Replace>
 		<Replace Tag="LOC_LANGUAGE_PL_PL_NAME" Language="th_TH">
-			<Text>โปแลนด์ (Polish)</Text>
+			<Text>โปแลนด์ (Polish)</Text>		<!-- polski (Polish) -->
 		</Replace>
 		<Replace Tag="LOC_LANGUAGE_KO_KR_NAME" Language="th_TH">
-			<Text>เกาหลี (Korean)</Text>
+			<Text>เกาหลี (Korean)</Text>		<!-- 한국어 (Korean) -->
 		</Replace>
 		<Replace Tag="LOC_LANGUAGE_ZH_HANT_HK_NAME" Language="th_TH">
-			<Text>จีนตัวเต็ม (Traditional Chinese)</Text>
+			<Text>จีนตัวเต็ม (Traditional Chinese)</Text>		<!-- 漢語 (Traditional Chinese) -->
 		</Replace>
 		<Replace Tag="LOC_LANGUAGE_ZH_HANS_CN_NAME" Language="th_TH">
-			<Text>จีนตัวย่อ (Simplified Chinese)</Text>
+			<Text>จีนตัวย่อ (Simplified Chinese)</Text>		<!-- 汉语 (Simplified Chinese) -->
 		</Replace>
 		<Replace Tag="LOC_LANGUAGE_TH_TH_NAME" Language="th_TH">
-			<Text>ไทย (Thai)</Text>
+			<Text>ไทย (Thai)</Text>		<!-- ไทย (Thai) -->
 		</Replace>
 		<Replace Tag="LOC_GAME_ABANDONED_KICKED" Language="th_TH">
 			<Text>คุณถูกเตะออกจากเกม</Text>		<!-- You have been kicked from the game. -->
@@ -2289,6 +2541,33 @@
 		</Replace>
 		<Replace Tag="LOC_GAME_ABANDONED_VERSION_MISMATCH_TITLE" Language="th_TH">
 			<Text>เวอร์ชันไม่ตรงกัน</Text>		<!-- Version Mismatch -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_POINT_LIGHT_SHADOWS" Language="th_TH">
+			<Text>Point Light Shadows</Text>		<!-- Point Light Shadows -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_POINT_LIGHT_SHADOW_DESCRIPTION" Language="th_TH">
+			<Text>Enables point light shadows in the foreground.</Text>		<!-- Enables point light shadows in the foreground. -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_POINT_LIGHT_SHADOW_QUALITY" Language="th_TH">
+			<Text>Point Light Shadow Quality</Text>		<!-- Point Light Shadow Quality -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_POINT_LIGHT_SHADOW_QUALITY_DESCRIPTION" Language="th_TH">
+			<Text>Selects shadow quality for foreground point lights. Higher levels provide more detailed shadows, while lower levels are faster and use less memory.</Text>		<!-- Selects shadow quality for foreground point lights. Higher levels provide more detailed shadows, while lower levels are faster and use less memory. -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_POINT_LIGHT_SHADOW_QUALITY_OFF" Language="th_TH">
+			<Text>Off</Text>		<!-- Off -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_POINT_LIGHT_SHADOW_QUALITY_LOW" Language="th_TH">
+			<Text>Low</Text>		<!-- Low -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_POINT_LIGHT_SHADOW_QUALITY_MEDIUM" Language="th_TH">
+			<Text>Medium</Text>		<!-- Medium -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_POINT_LIGHT_SHADOW_QUALITY_HIGH" Language="th_TH">
+			<Text>High</Text>		<!-- High -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_POINT_LIGHT_SHADOW_QUALITY_ULTRA" Language="th_TH">
+			<Text>Ultra</Text>		<!-- Ultra -->
 		</Replace>
 		<Replace Tag="LOC_GAME_ABANDONED_MOD_ERROR" Language="th_TH">
 			<Text>ไม่สามารถใช้เนื้อหาเพิ่มเติมได้</Text>		<!-- Unable to apply additional content. -->
@@ -2596,6 +2875,27 @@
 		<Replace Tag="LOC_UI_MP_FRIENDS_FEEDBACK_ACCEPT_FRIEND" Language="th_TH">
 			<Text>คุณเป็นเพื่อนกับ {1_PlayerName} แล้ว</Text>		<!-- You are now friends with {1_PlayerName} -->
 		</Replace>
+		<Replace Tag="LOC_OPTIONS_CATEGORY_SYSTEM_CONSOLE" Language="th_TH">
+			<Text>Console</Text>		<!-- Console -->
+		</Replace>
+		<Replace Tag="LOC_LANGUAGE_DEFAULT_NAME_CONSOLE" Language="th_TH">
+			<Text>Console Default</Text>		<!-- Console Default -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GROUP_WIRELESS_CONTROLLER" Language="th_TH">
+			<Text>Wireless Controller</Text>		<!-- Wireless Controller -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_VIBRATION" Language="th_TH">
+			<Text>Vibration</Text>		<!-- Vibration -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_VIBRATION_DESCRIPTION" Language="th_TH">
+			<Text>Vibration - enable or disable vibration.</Text>		<!-- Vibration - enable or disable vibration. -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_RUMBLE_FEATURE" Language="th_TH">
+			<Text>Rumble Feature</Text>		<!-- Rumble Feature -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_RUMBLE_FEATURE_DESCRIPTION" Language="th_TH">
+			<Text>Rumble Feature - enable or disable rumble feature.</Text>		<!-- Rumble Feature - enable or disable rumble feature. -->
+		</Replace>
 		<Replace Tag="LOC_UI_MP_FRIENDS_FEEDBACK_DECLINE_FREIND" Language="th_TH">
 			<Text>คุณได้ปฏิเสธคำขอเป็นเพื่อนจาก {1_PlayerName}</Text>		<!-- You have declined this friend request from {1_PlayerName} -->
 		</Replace>
@@ -2719,6 +3019,9 @@
 		<Replace Tag="LOC_UI_OPTIONS_TITLE" Language="th_TH">
 			<Text>ตั้งค่า</Text>		<!-- Settings -->
 		</Replace>
+		<Replace Tag="LOC_PROFILE_PROGRESS_HEADER" Language="th_TH">
+			<Text>Level {1_Level}: {2_CurrentPoints} / {3_NextLevelPoints} XP</Text>		<!-- Level {1_Level}: {2_CurrentPoints} / {3_NextLevelPoints} XP -->
+		</Replace>
 		<Replace Tag="LOC_OPTIONS_CATEGORY_ACCESSIBILITY" Language="th_TH">
 			<Text>การเข้าถึง</Text>		<!-- Accessibility -->
 		</Replace>
@@ -2749,8 +3052,14 @@
 		<Replace Tag="LOC_OPTIONS_CATEGORY_INPUT_DESCRIPTION" Language="th_TH">
 			<Text>ดูและกำหนดค่าการควบคุม</Text>		<!-- View and Configure Controls -->
 		</Replace>
+		<Replace Tag="LOC_PROFILE_CHALLENGE_CLASS_EVENT" Language="th_TH">
+			<Text>Event</Text>		<!-- Event -->
+		</Replace>
 		<Replace Tag="LOC_OPTIONS_CATEGORY_INTERFACE" Language="th_TH">
 			<Text>อินเทอร์เฟซ</Text>		<!-- Interface -->
+		</Replace>
+		<Replace Tag="LOC_PROFILE_CHALLENGE_REPEATABLE_PROGRESS" Language="th_TH">
+			<Text>Completed {1_CurrentProgress} / {2_MaxProgress}</Text>		<!-- Completed {1_CurrentProgress} / {2_MaxProgress} -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_CATEGORY_INTERFACE_DESCRIPTION" Language="th_TH">
 			<Text>ปรับการตั้งค่าอินเทอร์เฟซ</Text>		<!-- Adjust the Interface Settings -->
@@ -2858,7 +3167,7 @@
 			<Text>สุดขีด</Text>		<!-- Extreme -->
 		</Replace>
 		<Replace Tag="LOC_TEXT_R" Language="th_TH">
-			<Text>®</Text>
+			<Text>®</Text>		<!-- ® -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_REMAP_CONTROLLER" Language="th_TH">
 			<Text>การควบคุม</Text>		<!-- Controls -->
@@ -3115,6 +3424,9 @@
 		<Replace Tag="LOC_OPTIONS_AUDIO_DYNAMIC_RANGE_WIDE" Language="th_TH">
 			<Text>กว้าง</Text>		<!-- Wide -->
 		</Replace>
+		<Replace Tag="LOC_SAVE_LOAD_TURN" Language="th_TH">
+			<Text>Turn {1_turn}</Text>		<!-- Turn {1_turn} -->
+		</Replace>
 		<Replace Tag="LOC_OPTIONS_AUDIO_DYNAMIC_RANGE_WIDE_DESCRIPTION" Language="th_TH">
 			<Text>ช่วงไดนามิกที่ใหญ่ที่สุด - แนะนำสำหรับระบบเสียงระดับสูงหรือสภาพแวดล้อมที่เงียบ</Text>		<!-- Largest Dynamic Range - suggested for high-end sound systems or quiet environments. -->
 		</Replace>
@@ -3200,10 +3512,10 @@
 			<Text>แสดงคำแนะนำสำหรับผู้เล่นครั้งแรกเมื่อเริ่มเกม</Text>		<!-- Show the first time player instructions at the start of a game. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GAME_TUTORIAL_0" Language="th_TH">
-			<Text>ปิด</Text>
+			<Text>ปิด</Text>		<!-- Off -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GAME_TUTORIAL_1" Language="th_TH">
-			<Text>แค่แจ้งเตือนเท่านั้น</Text>
+			<Text>แค่แจ้งเตือนเท่านั้น</Text>		<!-- Only Warnings -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GAME_TUTORIAL_2" Language="th_TH">
 			<Text>การสอนเต็มรูปแบบ</Text>		<!-- Tutorials -->
@@ -3248,7 +3560,7 @@
 			<Text>จำนวนเทิร์นระหว่างการเซฟอัตโนมัติ</Text>		<!-- Turns Between Autosaves -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_AUTOSAVE_BETWEEN_DESCRIPTION" Language="th_TH">
-            <Text>จำนวนเทิร์นที่จะทำการเซฟอัตโนมัติ (เช่น 10 เทิร์น เซฟ 1 ที)</Text>		<!-- The number of turns between which an autosave will be made. -->
+			<Text>จำนวนเทิร์นที่จะทำการเซฟอัตโนมัติ (เช่น 10 เทิร์น เซฟ 1 ที)</Text>		<!-- The number of turns between which an autosave will be made. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_AUTOSAVE_KEEP_COUNT" Language="th_TH">
 			<Text>จำนวนเซฟอัตโนมัติ</Text>		<!-- Autosaves Amount -->
@@ -3333,6 +3645,9 @@
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_PROFILE_HIGH" Language="th_TH">
 			<Text>สูง</Text>		<!-- High -->
+		</Replace>
+		<Replace Tag="LOC_UI_MP_NOT_CONNECTED_TO_LOBBY" Language="th_TH">
+			<Text>Not connected to lobby</Text>		<!-- Not connected to lobby -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_PROFILE_ULTRA" Language="th_TH">
 			<Text>สูงสุด</Text>		<!-- Ultra -->
@@ -3612,6 +3927,18 @@
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_SSSHADOWS" Language="th_TH">
 			<Text>เงาในพื้นที่หน้าจอ</Text>		<!-- Screen Space Shadows -->
+		</Replace>
+		<Replace Tag="LOC_CREATE_GAME_LEARN_MORE" Language="th_TH">
+			<Text>Learn More</Text>		<!-- Learn More -->
+		</Replace>
+		<Replace Tag="LOC_LOCKED_GENERIC" Language="th_TH">
+			<Text>{1_LeaderOrCivName} is locked.</Text>		<!-- {1_LeaderOrCivName} is locked. -->
+		</Replace>
+		<Replace Tag="LOC_LOCKED_INCLUDED_WITH_CONTENT" Language="th_TH">
+			<Text>{1_LeaderOrCivName} is included with {2_ContentPack}.</Text>		<!-- {1_LeaderOrCivName} is included with {2_ContentPack}. -->
+		</Replace>
+		<Replace Tag="LOC_LOCKED_LINK_ACCOUNT" Language="th_TH">
+			<Text>Sign up (or sign in) for a 2k Account to unlock {1_LeaderOrCivName}!</Text>		<!-- Sign up (or sign in) for a 2k Account to unlock {1_LeaderOrCivName}! -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_SSSHADOWS_DESCRIPTION" Language="th_TH">
 			<Text>เปิดใช้งานเงาในพื้นที่หน้าจอ ซึ่งจะให้รายละเอียดเพิ่มเติมสำหรับเงา</Text>		<!-- Enables screen space shadows. This provides an extra level of detail for shadows. -->
@@ -4183,6 +4510,9 @@
 		<Replace Tag="LOC_PROFILE_TITLE_AUGUSTUS" Language="th_TH">
 			<Text>ประชาชนคนแรก</Text>		<!-- First Citizen -->
 		</Replace>
+		<Replace Tag="LOC_UI_TOOLTIP_DISABLED_CONTENT" Language="th_TH">
+			<Text>Disabled Content</Text>		<!-- Disabled Content -->
+		</Replace>
 		<Replace Tag="LOC_PROFILE_TITLE_BENJAMIN_FRANKLIN" Language="th_TH">
 			<Text>อเมริกันคนแรก</Text>		<!-- First American -->
 		</Replace>
@@ -4212,6 +4542,27 @@
 		</Replace>
 		<Replace Tag="LOC_PROFILE_TITLE_ISABELLA" Language="th_TH">
 			<Text>พระมหากษัตริย์ยุคทอง</Text>		<!-- Golden Age Monarch -->
+		</Replace>
+		<Replace Tag="LOC_UI_CODE_REDEEM_ERROR_BAD_REQUEST" Language="th_TH">
+			<Text>Invalid code request.</Text>		<!-- Invalid code request. -->
+		</Replace>
+		<Replace Tag="LOC_UI_CODE_REDEEM_ERROR_RESOURCE_NOT_FOUND" Language="th_TH">
+			<Text>Code not found.</Text>		<!-- Code not found. -->
+		</Replace>
+		<Replace Tag="LOC_UI_CODE_REDEEM_ERROR_ALREADY_REDEEMED" Language="th_TH">
+			<Text>Code already redeemed.</Text>		<!-- Code already redeemed. -->
+		</Replace>
+		<Replace Tag="LOC_UI_CODE_REDEEM_ERROR_UNSUPPORTED_MEDIA_TYPE" Language="th_TH">
+			<Text>Unsupported media type.</Text>		<!-- Unsupported media type. -->
+		</Replace>
+		<Replace Tag="LOC_UI_CODE_REDEEM_ERROR_TOO_MANY_REQUESTS" Language="th_TH">
+			<Text>Too many code requests.</Text>		<!-- Too many code requests. -->
+		</Replace>
+		<Replace Tag="LOC_UI_CODE_REDEEM_INTERNAL_SERVER_ERROR" Language="th_TH">
+			<Text>Unknown server error.</Text>		<!-- Unknown server error. -->
+		</Replace>
+		<Replace Tag="LOC_UI_CODE_REDEEM_UNKOWN_ERROR" Language="th_TH">
+			<Text>Unknown error has occurred.</Text>		<!-- Unknown error has occurred. -->
 		</Replace>
 		<Replace Tag="LOC_PROFILE_TITLE_JOSE_RIZAL" Language="th_TH">
 			<Text>วีรบุรุษแห่งชาติ</Text>		<!-- National Hero -->
