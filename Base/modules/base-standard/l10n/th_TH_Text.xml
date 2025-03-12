@@ -320,22 +320,22 @@
 			<Text>ค่าใช้จ่าย: {1_Cost}</Text>		<!-- Cost: {1_Cost} -->
 		</Replace>
 		<Replace Tag="LOC_CARD_CATEGORY_SHORT_MILITARISTIC" Language="th_TH">
-			<Text>{1_Amount}M</Text>		<!-- Militaristic -->
+			<Text>{1_Amount}M</Text>		<!-- {1_Amount}M -->
 		</Replace>
 		<Replace Tag="LOC_CARD_CATEGORY_SHORT_CULTURAL" Language="th_TH">
-			<Text>{1_Amount}C</Text>		<!-- Cultural -->
+			<Text>{1_Amount}C</Text>		<!-- {1_Amount}C -->
 		</Replace>
 		<Replace Tag="LOC_CARD_CATEGORY_SHORT_ECONOMIC" Language="th_TH">
-			<Text>{1_Amount}E</Text>		<!-- Economic -->
+			<Text>{1_Amount}E</Text>		<!-- {1_Amount}E -->
 		</Replace>
 		<Replace Tag="LOC_CARD_CATEGORY_SHORT_SCIENTIFIC" Language="th_TH">
-			<Text>{1_Amount}S</Text>		<!-- Scientific -->
+			<Text>{1_Amount}S</Text>		<!-- {1_Amount}S -->
 		</Replace>
 		<Replace Tag="LOC_CARD_CATEGORY_SHORT_WILDCARD" Language="th_TH">
-			<Text>{1_Amount}W</Text>		<!-- Wildcard -->
+			<Text>{1_Amount}W</Text>		<!-- {1_Amount}W -->
 		</Replace>
 		<Replace Tag="LOC_CARD_CATEGORY_SHORT_DARK_AGE" Language="th_TH">
-			<Text>{1_Amount}D</Text>		<!-- Dark Age -->
+			<Text>{1_Amount}D</Text>		<!-- {1_Amount}D -->
 		</Replace>
 		<Replace Tag="LOC_ADV_START_SELECT_CARD" Language="th_TH">
 			<Text>เลือกโบนัส</Text>		<!-- Select Bonus -->
@@ -449,7 +449,7 @@
 			<Text>ล้าหลังด้านเทคโนโลยี</Text>		<!-- Trailing in Technology -->
 		</Replace>
 		<Replace Tag="LOC_WARNING_TRAILING_2_CIVICS_MESSAGE" Language="th_TH">
-			<Text>สไตล์ล่าสุดใน {1_CivName} เป็นอย่างไร? เป็นคำถามที่ฉันได้ยินทุกวัน, พวกเขาดูเหมือนจะนำหน้าเราทางด้าน แนวคิด และผู้คนเริ่มสังเกตเห็น บางทีเราอาจต้องเพิ่มผลผลิตทางวัฒนธรรม?</Text>		<!-- What is the latest style in {1_CivName}? It is a question I hear daily. They appear to be ahead of us by several Civics, and people are starting to take notice. Perhaps some more Culture output is in order? -->
+			<Text>"สไตล์ล่าสุดใน {1_CivName} เป็นอย่างไร?" เป็นคำถามที่ฉันได้ยินทุกวัน, พวกเขาดูเหมือนจะนำหน้าเราทางด้าน แนวคิด และผู้คนเริ่มสังเกตเห็น บางทีเราอาจต้องเพิ่มผลผลิตทางวัฒนธรรม?</Text>		<!-- "What is the latest style in {1_CivName}?" It is a question I hear daily. They appear to be ahead of us by several Civics, and people are starting to take notice. Perhaps some more Culture output is in order? -->
 		</Replace>
 		<Replace Tag="LOC_WARNING_TRAILING_2_CIVICS_SUMMARY" Language="th_TH">
 			<Text>ล้าหลังด้านแนวคิด</Text>		<!-- Trailing in Civics -->
@@ -1079,7 +1079,7 @@
 			<Text>+15%[icon:YIELD_GOLD] ทอง ต่อการซื้อในถิ่นฐานทั้งหมด</Text>		<!-- +15%[icon:YIELD_GOLD] Gold towards purchasing in all Settlements. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_06_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_GOLD] ทอง บนทรัพยากรในเมือง, หรือ +2 ในเมืองในดินแดนห่างไกล</Text>		<!-- +1[icon:YIELD_GOLD] Gold on Resources in Towns -->
+			<Text>+1[icon:YIELD_GOLD] ทอง บนทรัพยากรในเมือง, หรือ +2 ในเมืองในดินแดนห่างไกล</Text>		<!-- +1[icon:YIELD_GOLD] Gold on Resources in Towns, or +2 in Towns in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_07_DESCRIPTION" Language="th_TH">
 			<Text>+1 ความจุทรัพยากร ในเมืองใหญ่, หรือ +2 หากคุณมีเมืองใหญ่ 3 แห่งหรือน้อยกว่า</Text>		<!-- +1 Resource Capacity in Cities, or +2 if you have 3 or fewer Cities. -->
@@ -1181,7 +1181,7 @@
 			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ ในแต่ละ ย่าน</Text>		<!-- +1[icon:YIELD_SCIENCE] Science on each Quarter. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_07_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ จากผู้เชี่ยวชาญ หรือ +2 หากคุณมีเมือง 3 แห่งหรือน้อยกว่า</Text>		<!-- +1[icon:YIELD_SCIENCE] Science on Specialists -->
+			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ จากผู้เชี่ยวชาญ หรือ +2 หากคุณมีเมือง 3 แห่งหรือน้อยกว่า</Text>		<!-- +1[icon:YIELD_SCIENCE] Science on Specialists, or +2 if you have 3 or fewer Cities. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_08_DESCRIPTION" Language="th_TH">
 			<Text>+10%[icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับทุกพันธมิตรที่คุณมี</Text>		<!-- +10%[icon:YIELD_SCIENCE] Science for every Alliance you have. -->
@@ -1286,25 +1286,25 @@
 			<Text>ปลดล็อกตำนาน, +5 พลังต่อสู้ สำหรับยูนิตทั้งหมดต่อเขต</Text>		<!-- Legend Unlock. +5 Combat Strength for all Units against Districts. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_BENJAMIN_FRANKLIN_L2_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน, +1 โบนัสใกล้เคียง ของอาคารด้าน [icon:YIELD_GOLD] ทอง, [icon:YIELD_PRODUCTION] กำลังผลิต, และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- Legend Unlock. +1 to the adjacencies of standard [icon:YIELD_GOLD]Gold -->
+			<Text>ปลดล็อกตำนาน, +1 โบนัสใกล้เคียง ของอาคารด้าน [icon:YIELD_GOLD] ทอง, [icon:YIELD_PRODUCTION] กำลังผลิต, และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- Legend Unlock. +1 to the adjacencies of standard [icon:YIELD_GOLD]Gold, [icon:YIELD_PRODUCTION]Production, and [icon:YIELD_SCIENCE]Science Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_CATHERINE_L2_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน, +1 โบนัสใกล้เคียง ของอาคารด้าน [icon:YIELD_GOLD] ทอง, [icon:YIELD_PRODUCTION] กำลังผลิต, และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- Legend Unlock. +1 to the adjacencies of standard [icon:YIELD_GOLD]Gold -->
+			<Text>ปลดล็อกตำนาน, +1 โบนัสใกล้เคียง ของอาคารด้าน [icon:YIELD_GOLD] ทอง, [icon:YIELD_PRODUCTION] กำลังผลิต, และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- Legend Unlock. +1 to the adjacencies of standard [icon:YIELD_GOLD]Gold, [icon:YIELD_PRODUCTION]Production, and [icon:YIELD_SCIENCE]Science Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_CHARLEMAGNE_L2_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน, +1 โบนัสใกล้เคียง ของอาคารด้าน [icon:YIELD_GOLD] ทอง, [icon:YIELD_PRODUCTION] กำลังผลิต, และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- Legend Unlock. +1 to the adjacencies of standard [icon:YIELD_GOLD]Gold -->
+			<Text>ปลดล็อกตำนาน, +1 โบนัสใกล้เคียง ของอาคารด้าน [icon:YIELD_GOLD] ทอง, [icon:YIELD_PRODUCTION] กำลังผลิต, และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- Legend Unlock. +1 to the adjacencies of standard [icon:YIELD_GOLD]Gold, [icon:YIELD_PRODUCTION]Production, and [icon:YIELD_SCIENCE]Science Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_CONFUCIUS_L2_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน, +1 โบนัสใกล้เคียง ของอาคารด้าน [icon:YIELD_GOLD] ทอง, [icon:YIELD_PRODUCTION] กำลังผลิต, และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- Legend Unlock. +1 to the adjacencies of standard [icon:YIELD_GOLD]Gold -->
+			<Text>ปลดล็อกตำนาน, +1 โบนัสใกล้เคียง ของอาคารด้าน [icon:YIELD_GOLD] ทอง, [icon:YIELD_PRODUCTION] กำลังผลิต, และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- Legend Unlock. +1 to the adjacencies of standard [icon:YIELD_GOLD]Gold, [icon:YIELD_PRODUCTION]Production, and [icon:YIELD_SCIENCE]Science Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_FRIEDRICH_L2_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน, +1 โบนัสใกล้เคียง ของอาคารด้าน [icon:YIELD_GOLD] ทอง, [icon:YIELD_PRODUCTION] กำลังผลิต, และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- Legend Unlock. +1 to the adjacencies of standard [icon:YIELD_GOLD]Gold -->
+			<Text>ปลดล็อกตำนาน, +1 โบนัสใกล้เคียง ของอาคารด้าน [icon:YIELD_GOLD] ทอง, [icon:YIELD_PRODUCTION] กำลังผลิต, และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- Legend Unlock. +1 to the adjacencies of standard [icon:YIELD_GOLD]Gold, [icon:YIELD_PRODUCTION]Production, and [icon:YIELD_SCIENCE]Science Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_HIMIKO_L2_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน, +1 โบนัสใกล้เคียง ของอาคารด้าน [icon:YIELD_GOLD] ทอง, [icon:YIELD_PRODUCTION] กำลังผลิต, และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- Legend Unlock. +1 to the adjacencies of standard [icon:YIELD_GOLD]Gold -->
+			<Text>ปลดล็อกตำนาน, +1 โบนัสใกล้เคียง ของอาคารด้าน [icon:YIELD_GOLD] ทอง, [icon:YIELD_PRODUCTION] กำลังผลิต, และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- Legend Unlock. +1 to the adjacencies of standard [icon:YIELD_GOLD]Gold, [icon:YIELD_PRODUCTION]Production, and [icon:YIELD_SCIENCE]Science Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_TRUNG_TRAC_L2_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน, +1 โบนัสใกล้เคียง ของอาคารด้าน [icon:YIELD_GOLD] ทอง, [icon:YIELD_PRODUCTION] กำลังผลิต, และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- Legend Unlock. +1 to the adjacencies of standard [icon:YIELD_GOLD]Gold -->
+			<Text>ปลดล็อกตำนาน, +1 โบนัสใกล้เคียง ของอาคารด้าน [icon:YIELD_GOLD] ทอง, [icon:YIELD_PRODUCTION] กำลังผลิต, และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- Legend Unlock. +1 to the adjacencies of standard [icon:YIELD_GOLD]Gold, [icon:YIELD_PRODUCTION]Production, and [icon:YIELD_SCIENCE]Science Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_BANNER_NAME_UNSET" Language="th_TH">
 			<Text>ชื่อแบนเนอร์ไม่ได้ตั้งค่า</Text>		<!-- Banner Name Unset. -->
@@ -2147,7 +2147,7 @@
 			<Text>สิ่งมหัศจรรย์แห่งโลกโบราณ คือเส้นทางมรดกแห่งยุคโบราณที่ท้าทายผู้เล่นให้สร้างมหัศจรรย์ 7 แห่งภายในอาณาจักรของตน โดยแต่ละมหัศจรรย์ไม่เพียงแต่ให้ผลผลิตจากการอยู่ใกล้กันเท่านั้น แต่ยังมอบผลกระทบที่เป็นเอกลักษณ์ เพิ่มพลังและอิทธิพลให้กับอารยธรรมของคุณอีกด้วย</Text>		<!-- The Wonders of the Ancient World is an Antiquity Age legacy path that challenges players to construct 7 Wonders within their empire. Each Wonder not only provides adjacency yields but also grants unique effects, enhancing your civilization's power and influence. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_24_CHAPTER_CONTENT_PARA_2" Language="th_TH">
-			<Text>การที่ไม่สามารถดำเนินการต่อในเส้นทางมรดกนี้จะทำให้การ์ดยุคมืดทางวัฒนธรรมถูกเปิดใช้งานในช่วงการเปลี่ยนแปลงยุค การ์ดนี้จะให้มิชชันนารีของคุณ +1 การชาร์จ และ +1 แต้มเคลื่อนที่ แต่จะมีการลงโทษความสุข -3 ในทุกถิ่นฐานหลังจากการก่อตั้งศาสนา โดยจะถูกคูณเป็นสองเท่าในถิ่นฐานที่ไม่ติดตามศาสนาของคุณ</Text>		<!-- Failing to make progress on this legacy path will unlock the Cultural Dark Age card at the Age Transition. This card grants your Missionaries +1 Charge and +1 Movement but imposes a -3 Happiness penalty in all Settlements after founding a Religion, doubled in Settlements that do not follow your Religion. -->
+			<Text>การที่ไม่สามารถดำเนินการต่อในเส้นทางมรดกนี้จะทำให้การ์ดยุคมืดทางวัฒนธรรมถูกเปิดใช้งานในช่วงการเปลี่ยนแปลงยุค การ์ดนี้จะให้มิชชันนารีของคุณ +1 การชาร์จ และ +1 แต้มเคลื่อนที่ แต่จะมีการลงโทษความสุข -3 ในทุกถิ่นฐานหลังจากการก่อตั้งศาสนา โดยจะถูกคูณเป็นสองเท่าในถิ่นฐานที่ไม่นับถือศาสนาของคุณ</Text>		<!-- Failing to make progress on this legacy path will unlock the Cultural Dark Age card at the Age Transition. This card grants your Missionaries +1 Charge and +1 Movement but imposes a -3 Happiness penalty in all Settlements after founding a Religion, doubled in Settlements that do not follow your Religion. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_24_CHAPTER_CONTENT_PARA_3" Language="th_TH">
 			<Text>การเสร็จสิ้นเส้นทางมรดกนี้จะทำให้โรงมหรสพของคุณขึ้นเป็นโรงมหรสพยุคทอง ซึ่งช่วยให้พวกเขายังคงผลผลิตพื้นฐาน โบนัสจากการอยู่ติดกัน และผลกระทบในยุคถัดไป โดยรักษาอิทธิพลและผลกระทบของพวกเขาเมื่ออารยธรรมของคุณก้าวหน้าขึ้น</Text>		<!-- Successfully finishing this legacy path upgrades your Amphitheaters to Golden Age Amphitheaters, allowing them to retain their base yield, adjacency bonuses, and effects in the next Age, preserving their impact and influence as your civilization advances. -->
@@ -2291,7 +2291,7 @@
 			<Text>เคล็ดลับ: การนำแนวคิดมาใช้ตั้งแต่เนิ่นๆ และมุ่งเป้าไปยังอารยธรรมที่มีแนวคิดที่แตกต่างจะช่วยเร่งความก้าวหน้าในเส้นทางนี้และนำคุณเข้าใกล้ชัยชนะในยุคสมัยใหม่มากขึ้น</Text>		<!-- Tip: Adopting an Ideology early and targeting civilizations with different Ideologies will accelerate your progress on this path and bring you closer to a Modern Victory. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_34_TITLE" Language="th_TH">
-			<Text>ยุคใหม่: โครงการการแข่งขันอวกาศ</Text>		<!-- Modern: Space Race Projects -->
+			<Text>ยุคใหม่: การแข่งขันอวกาศ</Text>		<!-- Modern: Space Race -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_34_CHAPTER_CONTENT_PARA_1" Language="th_TH">
 			<Text>โครงการการแข่งขันอวกาศ เป็นเส้นทางมรดกในยุคสมัยใหม่ ที่ท้าทายผู้เล่นให้เป็นคนแรกที่ทำ โครงการการแข่งขันอวกาศ ทั้งสามเสร็จสมบูรณ์และบรรลุการบินอวกาศที่มีคนขับเป็นคนแรก การทำเส้นทางนี้ให้สำเร็จจะปลดล็อกโอกาสใน การแสวงหาชัยชนะในยุคสมัยใหม่ ซึ่งเป็นสัญลักษณ์ของความเป็นผู้นำของอารยธรรมของคุณ ในการสำรวจอวกาศ</Text>		<!-- The Space Race Projects is a Modern Age legacy path that challenges players to be the first to complete all three Space Race Projects and achieve the First Staffed Space Flight. Completing this path unlocks the opportunity to pursue a Modern Victory, symbolizing your civilization’s leadership in space exploration. -->
@@ -4708,22 +4708,22 @@
 			<Text>การปรากฏตัวของผู้บัญชาการ</Text>		<!-- Commander Presence -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_RAZED_CITY_UNHAPPINESS" Language="th_TH">
-			<Text>ร้ายซิตี้</Text>		<!-- Razing City -->
+			<Text>ทำลายถื่นฐาน</Text>		<!-- Razing Settlement -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_SUPLUS_HAPPINESS" Language="th_TH">
-			<Text>ความสุขเกินพอ</Text>		<!-- Surplus Happiness -->
+			<Text>สุขจนล้น</Text>		<!-- Surplus Happiness -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_HAPPINESS_DEFICIT" Language="th_TH">
-			<Text>การขาดแคลนความสุข</Text>		<!-- Happiness Deficit -->
+			<Text>ทุกข์จนทรุด</Text>		<!-- Happiness Deficit -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_POP_FOOD_MAINTENANCE" Language="th_TH">
-			<Text>ประชากร การดูแลอาหาร</Text>		<!-- Population Food Maintenance -->
+			<Text>อาหารหล่อเลี้ยงประชากร</Text>		<!-- Population Food Maintenance -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_YIELD_FROM_PLOTS" Language="th_TH">
 			<Text>จากช่อง</Text>		<!-- From Tiles -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_YIELD_FROM_PLOT_MODIFIERS" Language="th_TH">
-			<Text>จากตัวแก้ไขช่อง</Text>		<!-- From Tile Modifiers -->
+			<Text>จากตัวปรับแต่งช่อง</Text>		<!-- From Tile Modifiers -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_BUILDING_YIELDS" Language="th_TH">
 			<Text>จากอาคาร</Text>		<!-- From Buildings -->
@@ -4777,7 +4777,7 @@
 			<Text>โบนัสผลงานชิ้นเอก</Text>		<!-- Great Works Bonus -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_GREAT_WORK_BONUS_YIELD_BASE" Language="th_TH">
-			<Text>โบนัสผลงานที่ยอดเยี่ยมเบส</Text>		<!-- Base Great Works Bonus -->
+			<Text>โบนัสผลงานที่ยอดเยี่ยมพื้นฐาน</Text>		<!-- Base Great Works Bonus -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_GREAT_WORK_BONUS_YIELD_MAX" Language="th_TH">
 			<Text>โบนัสผลงานชิ้นเอกสูงสุด</Text>		<!-- Great Works Bonus Max -->
@@ -4795,7 +4795,7 @@
 			<Text>แปลงจากการผลิต</Text>		<!-- Converted From Production -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_PRODUCTION_CONVERSION_BASE" Language="th_TH">
-			<Text>ฐาน</Text>		<!-- Base -->
+			<Text>พื้นฐาน</Text>		<!-- Base -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_PRODUCTION_CONVERSION_EFFICIENCY" Language="th_TH">
 			<Text>ประสิทธิภาพการแปลง</Text>		<!-- Conversion Efficiency -->
@@ -4807,10 +4807,10 @@
 			<Text>ค่าปรับที่มีเพดาน</Text>		<!-- Capped Penalty -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_SC_REDUCTION_MAX" Language="th_TH">
-			<Text>เพดานโทษ</Text>		<!-- Penalty Cap -->
+			<Text>เพดานบทลงโทษ</Text>		<!-- Penalty Cap -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_SC_REDUCTION_BASE" Language="th_TH">
-			<Text>การลงโทษ</Text>		<!-- Penalty -->
+			<Text>บทลงโทษ</Text>		<!-- Penalty -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_NUM_ACTIVE_CIV_TRADITIONS" Language="th_TH">
 			<Text>จำนวนประเพณีที่มีการจัดสรร</Text>		<!-- Number of Slotted Traditions -->
@@ -4822,7 +4822,7 @@
 			<Text>จำนวนของนโยบายและประเพณีที่มีช่องว่าง</Text>		<!-- Number of Slotted Policies and Traditions -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_NUM_CITIES" Language="th_TH">
-			<Text>จำนวนเมือง</Text>		<!-- Number of Cities -->
+			<Text>จำนวนเมืองใหญ่</Text>		<!-- Number of Cities -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_NUM_TOWNS" Language="th_TH">
 			<Text>จำนวนเมือง</Text>		<!-- Number of Towns -->
@@ -4996,19 +4996,19 @@
 			<Text>ผลผลิตจากความเชื่อ</Text>		<!-- Yield from Beliefs -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_NUM_CITIES_FOLLOWING_RELIGION" Language="th_TH">
-			<Text>ผลผลิตจากเมืองตามศาสนาของคุณ</Text>		<!-- Yield from Cities following your Religion -->
+			<Text>ผลผลิตจากเมือง ที่นับถือศาสนาของคุณ</Text>		<!-- Yield from Cities following your Religion -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_NUM_FOREIGN_CITIES_FOLLOWING_RELIGION" Language="th_TH">
-			<Text>ผลผลิตจากเมืองต่างประเทศตามศาสนาของคุณ</Text>		<!-- Yield from Foreign Cities following your Religion -->
+			<Text>ผลผลิตจากเมืองต่างประเทศ ที่นับถือศาสนาของคุณ</Text>		<!-- Yield from Foreign Cities following your Religion -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_NUM_WONDERS_FOLLOWING_RELIGION" Language="th_TH">
-			<Text>ผลผลิตจากสิ่งมหัศจรรย์ในเมืองตามศาสนาของคุณ</Text>		<!-- Yield from Wonders in Cities following your Religion -->
+			<Text>ผลผลิตจากสิ่งมหัศจรรย์ในเมือง ที่นับถือศาสนาของคุณ</Text>		<!-- Yield from Wonders in Cities following your Religion -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_NUM_NATURAL_WONDERS_FOLLOWING_RELIGION" Language="th_TH">
-			<Text>ผลผลิตจากธรรมชาติในเมืองตามศาสนาของคุณ</Text>		<!-- Yield from Natural Wonders in Cities following your Religion -->
+			<Text>ผลผลิตจากธรรมชาติในเมือง ที่นับถือศาสนาของคุณ</Text>		<!-- Yield from Natural Wonders in Cities following your Religion -->
 		</Replace>
 		<Replace Tag="ATTR_NUM_BIOMES_FOLLOWING_RELIGION" Language="th_TH">
-			<Text>ผลผลิตจากระบบนิเวศในเมืองตามศาสนาของคุณ</Text>		<!-- Yield from Biomes in Cities following your Religion -->
+			<Text>ผลผลิตจากระบบนิเวศในเมือง ที่นับถือศาสนาของคุณ</Text>		<!-- Yield from Biomes in Cities following your Religion -->
 		</Replace>
 		<Replace Tag="LOC_PRESTIGE_RESOURCE_NAME" Language="th_TH">
 			<Text>{1_CivAdjective} {2_ResourceName}</Text>		<!-- {1_CivAdjective} {2_ResourceName} -->
@@ -5395,10 +5395,10 @@
 			<Text>ก้าวสู่ยุคการปฏิวัติอุตสาหกรรม</Text>		<!-- Enter the Industrial Revolution -->
 		</Replace>
 		<Replace Tag="LOC_PRIVATE_GAME" Language="th_TH">
-			<Text>เกมส่วนตัว</Text>		<!-- Private Game -->
+			<Text>เกมส่วนตัว</Text>		<!-- Hidden Game -->
 		</Replace>
 		<Replace Tag="LOC_PRIVATE_GAME_DESCRIPTION" Language="th_TH">
-			<Text>เกมส่วนตัวจะไม่แสดงใน เบราว์เซอร์ โหมดผู้เล่นหลายคน เกมส่วนตัวสามารถเข้าถึงได้เฉพาะผ่าน รหัสเข้าร่วม หรือคำเชิญเกมเท่านั้น</Text>		<!-- Private games are not shown in the multiplayer browser. A private game is only accessible thru a Join Code or game invite. -->
+			<Text>เกมส่วนตัวจะไม่แสดงใน เบราว์เซอร์ โหมดผู้เล่นหลายคน เกมส่วนตัวสามารถเข้าถึงได้เฉพาะผ่าน รหัสเข้าร่วม หรือคำเชิญเกมเท่านั้น</Text>		<!-- Hidden games are not shown in the multiplayer browser. A hidden game is only accessible thru a Join Code or game invite. -->
 		</Replace>
 		<Replace Tag="LOC_KICKVOTE_NAME" Language="th_TH">
 			<Text>โหวตเตะ</Text>		<!-- Kick Vote -->
@@ -6193,7 +6193,7 @@
 			<Text>ติราคูนา</Text>		<!-- Tirakuna -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_TIRAKUNA_DESCRIPTION" Language="th_TH">
-			<Text>+15%[icon:YIELD_FOOD] อาหาร ในเขตถิ่นฐานที่มีใจกลางเมืองอยู่ติดกับภูเขาหรือมีแผ่นดินภูเขาที่ทำงาน 3 แผ่น</Text>		<!-- +15%[icon:YIELD_FOOD] Food in Settlements with their City Center adjacent to a Mountain or with 3 worked Mountain tiles. -->
+			<Text>+15%[icon:YIELD_FOOD] อาหาร ในถิ่นฐาน ที่ใจกลางเมือง อยู่ติดกับภูเขา หรือมีช่องภูเขาที่ทำงาน 3 ช่อง</Text>		<!-- +15%[icon:YIELD_FOOD] Food in Settlements with their City Center adjacent to a Mountain or with 3 worked Mountain tiles. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_PANJI_NAME" Language="th_TH">
 			<Text>ปันจิ</Text>		<!-- Panji -->
@@ -6632,7 +6632,7 @@
 			<Text>ใช้ [icon:YIELD_DIPLOMACY] อิทธิพล เพื่อสร้างมิตรภาพกับรัฐอิสระ, พวกเขาจะกลายเป็นนครรัฐที่มีคุณเป็นเจ้านครเมื่อเสร็จ</Text>		<!-- Spend [icon:YIELD_DIPLOMACY] Influence to befriend an Independent Power. Becomes a City-State with you as its Suzerain once completed. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_BECOME_SUZERAIN_NAME" Language="th_TH">
-			<Text>อิสรภาพ</Text>		<!-- Itsapharahab -->
+			<Text>อิสรภาพ</Text>		<!-- Itsaraphab -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_BECOME_SUZERAIN_INITIAL" Language="th_TH">
 			<Text>เปลี่ยนรัฐอิสระนี้ให้เป็นนครรัฐที่คุณเป็นผู้ปกครองทันที</Text>		<!-- Instantly turn this Independent Power into a City-State with you as its Suzerain. -->
@@ -7424,7 +7424,7 @@
 			<Text>{1_initiatorName} ได้ประณามการมีอยู่ของทหารของ {2_targetName} ตามชายแดนของพวกเขา</Text>		<!-- {1_initiatorName} has denounced the military presence of {2_targetName} on their borders. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MILITARY_SABOTAGE_INITIAL" Language="th_TH">
-			<Text>ทำลายกองทัพของอารยธรรมอื่น</Text>		<!-- Sabotage another Civilization's military. -->
+			<Text>ยูนิตทหารของเป้าหมาย -3 พลังต่อสู้</Text>		<!-- The Target's Military Units get -3 to their Combat Strength.-->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_STEAL_TECH_INITIAL" Language="th_TH">
 			<Text>ขโมยเทคโนโลยีที่อารยธรรมอื่นได้ทำการวิจัยซึ่งคุณยังไม่มี</Text>		<!-- Steal a Technology another Civilization has researched that you have not. -->
@@ -8036,10 +8036,10 @@
 			<Text>คุณต้องเป็นพันธมิตรเพื่อเริ่มดำเนินการทางการทูตนี้</Text>		<!-- You need to be Allied to start this Diplomatic Action. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_SUPPORT_FAILURE_AGAINST_ALLIES" Language="th_TH">
-			<Text>คุณไม่สามารถสนับสนุนการกระทำต่อต้านพันธมิตรได้</Text>		<!-- You cannot support actions against an Ally, -->
+			<Text>คุณไม่สามารถสนับสนุนการกระทำต่อต้านพันธมิตรได้</Text>		<!-- You cannot support actions against an Ally . -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_OPPOSE_FAILURE_AGAINST_ALLIES" Language="th_TH">
-			<Text>คุณไม่สามารถขัดขวางการกระทำที่เริ่มโดยพันธมิตรได้</Text>		<!-- You cannot oppose actions started by an Ally, -->
+			<Text>คุณไม่สามารถขัดขวางการกระทำที่เริ่มโดยพันธมิตรได้</Text>		<!-- You cannot oppose actions started by an Ally . -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_FAILURE_NOT_AT_WAR" Language="th_TH">
 			<Text>คุณต้องอยู่ในสงครามเพื่อเริ่มดำเนินการทางการทูตนี้</Text>		<!-- You need to be at war to start this Diplomatic Action. -->
@@ -8585,10 +8585,10 @@
 			<Text>ก่อวินาศกรรมทางทหาร</Text>		<!-- Military Sabotage -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ESPIONAGE_MILITARY_SABOTAGE_DESCRIPTION" Language="th_TH">
-			<Text>ทำลายกำลังทหารของพวกเขา</Text>		<!-- Sabotage their military -->
+			<Text>-3 พลังต่อสู้ ไปยัง ยูนิตทหารของพวกเขา เป็นเวลา {1_turns} เทิร์น</Text>		<!-- -3 Combat Strength to their Military Units for {1_turns} {1_turns: plural 1?turn; other?turns;}. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ESPIONAGE_MILITARY_SABOTAGE_DESCRIPTION_TARGET" Language="th_TH">
-			<Text>{1_leaderName} กำลังทำลายกองทัพของคุณ</Text>		<!-- {1_leaderName} is sabotaging your military. -->
+			<Text>-3 พลังต่อสู้ ไปยัง ยูนิตทหารของคุณ เป็นเวลา {1_turns} เทิร์น</Text>		<!-- -3 Combat Strength to your Military Units for {1_turns} {1_turns: plural 1?turn; other?turns;}. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ESPIONAGE_STEAL_TECH_NAME" Language="th_TH">
 			<Text>ขโมยความก้าวหน้าทางเทคโนโลยี</Text>		<!-- Steal Technological Advancement -->
@@ -8618,7 +8618,7 @@
 			<Text>โอกาสถูกจับได้: {1_revealChance}%</Text>		<!-- Reveal Chance: {1_revealChance}% -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_UNKNOWN_PLAYER" Language="th_TH">
-			<Text>ผู้เล่นที่ไม่รู้จัก</Text>		<!-- An unkown player -->
+			<Text>ผู้เล่นที่ไม่รู้จัก</Text>		<!-- An unknown player -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_WAR_NOT_YOUR_TURN" Language="th_TH">
 			<Text>คุณไม่สามารถประกาศสงครามได้เนื่องจากยังไม่ถึงเทิร์นคุณ!</Text>		<!-- You cannot declare war when it is not your turn! -->
@@ -9479,10 +9479,10 @@
 			<Text>{1_Value} {2_Resource} ไปยัง {3_City}</Text>		<!-- {1_Value} {2_Resource} to {3_City} -->
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_VALUE_TO_CITY_LEFT" Language="th_TH">
-			<Text>&amp;lt;&amp;lt;&amp;lt; {1_Value} {2_Resource} ไปยัง {3_City} &amp;lt;&amp;lt;&amp;lt;</Text>		<!-- &amp;amp;lt;&amp;amp;lt;&amp;amp;lt; {1_Value} {2_Resource} to {3_City} &amp;amp;lt;&amp;amp;lt;&amp;amp;lt; -->
+			<Text>&lt;&lt;&lt; {1_Value} {2_Resource} ไปยัง {3_City} &lt;&lt;&lt;</Text>		<!-- <<< {1_Value} {2_Resource} to {3_City} <<< -->
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_VALUE_TO_CITY_RIGHT" Language="th_TH">
-			<Text>{1_Value} {2_Resource} ไปยัง {3_City}</Text>		<!-- &amp;amp;gt;&amp;amp;gt;&amp;amp;gt; {1_Value} {2_Resource} to {3_City} &amp;amp;gt;&amp;amp;gt;&amp;amp;gt; -->
+			<Text>&gt;&gt;&gt; {1_Value} {2_Resource} ไปยัง {3_City} &gt;&gt;&gt;</Text>		<!-- >>> {1_Value} {2_Resource} to {3_City} >>> -->
 		</Replace>
 		<Replace Tag="TXT_KEY_MP_LAST_PLAYER" Language="th_TH">
 			<Text>คุณเป็นผู้เล่นมนุษย์คนสุดท้ายที่เหลืออยู่ในเกม</Text>		<!-- You are the last remaining human player in the game. -->
@@ -9659,19 +9659,19 @@
 			<Text>ให้เราครองอำนาจด้วยอำนาจของบุคลิกภาพ ด้วยความหลงใหล แทนที่จะเป็นระบบที่ไร้ชีวิตชีวา!</Text>		<!-- Let us rule by force of personality, by passion, rather than some bloodless system! -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_LEADER_CATHERINE_ANY" Language="th_TH">
-			<Text>เยกาเจรีนา อเล็กเซเยฟนา, แคทเทอรีน พระราชินีและผู้สนับสนุนศิลปะ แต่คุณสามารถเรียกฉันว่าโซฟี</Text>		<!-- Yekaterina Alekseyevna, Catherine, tsarina and patron of the arts. But you can call me Sophie. -->
+			<Text>เยกาเจรีนา อเล็กเซเยฟนา, แคทเทอรีน พระราชินีและผู้สนับสนุนศิลปะ แต่เจ้าสามารถเรียกข้าว่าโซฟี</Text>		<!-- Yekaterina Alekseyevna, Catherine, tsarina and patron of the arts. But you can call me Sophie. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_RECIPIENT_LEADER_CATHERINE_ANY" Language="th_TH">
-			<Text>เยกาเจรีนา อเล็กเซเยฟนา, แคทเทอรีน พระราชินีและผู้สนับสนุนศิลปะ แต่คุณสามารถเรียกฉันว่าโซฟี</Text>		<!-- Yekaterina Alekseyevna, Catherine, tsarina and patron of the arts. But you can call me Sophie. -->
+			<Text>เยกาเจรีนา อเล็กเซเยฟนา, แคทเทอรีน พระราชินีและผู้สนับสนุนศิลปะ แต่เจ้าสามารถเรียกข้าว่าโซฟี</Text>		<!-- Yekaterina Alekseyevna, Catherine, tsarina and patron of the arts. But you can call me Sophie. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_LEADER_CATHERINE_ANY" Language="th_TH">
-			<Text>เยกาเจรีนา อเล็กเซเยฟนา, แคทเทอรีน พระราชินีและผู้สนับสนุนศิลปะ แต่คุณสามารถเรียกฉันว่าโซฟี</Text>		<!-- Yekaterina Alekseyevna, Catherine, tsarina and patron of the arts. But you can call me Sophie. -->
+			<Text>เยกาเจรีนา อเล็กเซเยฟนา, แคทเทอรีน พระราชินีและผู้สนับสนุนศิลปะ แต่เจ้าสามารถเรียกข้าว่าโซฟี</Text>		<!-- Yekaterina Alekseyevna, Catherine, tsarina and patron of the arts. But you can call me Sophie. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_INITIATOR_LEADER_CATHERINE_ANY" Language="th_TH">
-			<Text>ฉันกำลังวางแผนขบวนพาเหรดแห่งชัยชนะ ของฉันหลังจากที่คุณพ่ายแพ้แล้ว</Text>		<!-- I am already planning my triumphal parade after your defeat. -->
+			<Text>ข้ากำลังวางแผนขบวนพาเหรดแห่งชัยชนะ หลังจากที่แกพ่ายแพ้แล้ว</Text>		<!-- I am already planning my triumphal parade after your defeat. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_RECIPIENT_LEADER_CATHERINE_ANY" Language="th_TH">
-			<Text>มาเถอะ แล้วฉันจะทิ้งคุณไว้ที่ที่ — อย่างที่พวกเขาพูดกัน — กุ้งน้ำจืดหลับ</Text>		<!-- Come, then. I will leave you where — as they say — the crayfish sleep. -->
+			<Text>มาเถอะ แล้วข้าจะทิ้งเจ้าไว้ที่ที่ — อย่างที่พวกเขาพูดกัน — กุ้งน้ำจืดหลับ</Text>		<!-- Come, then. I will leave you where — as they say — the crayfish sleep. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DEFEAT_AI_LEADER_CATHERINE_ANY" Language="th_TH">
 			<Text>ดูแลพระราชวังของฉันเมื่อฉันจากไป โบสถ์ใหญ่ต้องมีการถ่ายเทอากาศอย่างสม่ำเสมอ และต้องรักษาฝุ่นอำพันให้สะอาด คุณต้อง — ไม่ มันเป็นของคุณ ฉันไปแล้ว</Text>		<!-- Look after my palace when I am gone. The Grand Church must be aired regularly, and keep the amber dusted. You mu — No. It is yours. I leave now. -->
@@ -10202,13 +10202,13 @@
 			<Text>อิบน์ บัตตูตา</Text>		<!-- Ibn Battuta -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_IBN_BATTUTA_DESCRIPTION" Language="th_TH">
-			<Text>จะได้รับ 2 คะแนน คุณลักษณะไวลด์การ์ด หลังจากได้แนวคิดแรกในทุกยุค, +1 ระยะการมองเห็นสำหรับยูนิตทั้งหมด รับ ความร่วมมือ ที่ไม่ซ้ำใครชื่อว่า "แผนที่การค้า" ซึ่งให้คุณเห็นพื้นที่ที่ผู้นำคนอื่นสำรวจได้ทีละน้อย</Text>		<!-- Gains 2 Wildcard Attribute Points after the first Civic in every Age. +1 Sight for all Units. Gain a unique Endeavor called Trade Maps that allows you to gradually see other Leaders' explored area. -->
+			<Text>จะได้รับ 2 คะแนน คุณลักษณะไวลด์การ์ด หลังจากได้แนวคิดแรกในทุกยุค, +1 ระยะการมองเห็นสำหรับยูนิตทั้งหมด รับ ความร่วมมือ ที่ไม่ซ้ำใครชื่อว่า "แผนที่การค้า" ซึ่งให้คุณเห็นพื้นที่ที่ผู้นำคนอื่นเป็นเจ้าของ ได้อย่างค่อยเป็นค่อยไป</Text>		<!-- Gains 2 Wildcard Attribute Points after the first Civic in every Age. +1 Sight for all Units. Gain a unique Endeavor called Trade Maps that allows you to gradually see other Leaders' claimed territory. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_IBN_BATTUTA_ABILITY_NAME" Language="th_TH">
 			<Text>มหัศจรรย์ของการเดินทาง</Text>		<!-- The Marvels of Traveling -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_IBN_BATTUTA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]ได้รับ [B]2 คะแนนคุณสมบัติ ไวลด์การ์ด [/B]หลังจากได้ [B]แนวคิด [/B]แรกในทุกยุค[LI][B]+1 การมองเห็น [/B]สำหรับทุกยูนิต[LI]ได้รับ [B]ความร่วมมือ[/B] ที่ไม่ซ้ำใครชื่อว่า [B]แผนที่การค้า [/B]ซึ่งช่วยให้คุณสามารถเห็นพื้นที่ที่ผู้นำคนอื่น [B]สำรวจ[/B] ได้อย่างค่อยเป็นค่อยไป[/LIST]</Text>		<!-- [LIST][LI]Gains [B]2 Wildcard Attribute Points [/B]after the first [B]Civic [/B]in every Age.[LI][B]+1 Sight [/B]for all Units.[LI]Gain a unique [B]Endeavor [/B]called [B]Trade Maps [/B]that allows you to gradually see other Leaders' [B]explored area[/B].[/LIST] -->
+			<Text>[LIST][LI]ได้รับ [B]2 คะแนนคุณสมบัติ ไวลด์การ์ด [/B]หลังจากได้ [B]แนวคิด [/B]แรกในทุกยุค[LI][B]+1 การมองเห็น [/B]สำหรับทุกยูนิต[LI]ได้รับ [B]ความร่วมมือ[/B] ที่ไม่ซ้ำใครชื่อว่า [B]แผนที่การค้า [/B]ซึ่งช่วยให้คุณสามารถเห็นพื้นที่ที่ผู้นำคนอื่น [B]เป็นเจ้าของ[/B] ได้อย่างค่อยเป็นค่อยไป[/LIST]</Text>		<!-- [LIST][LI]Gains [B]2 Wildcard Attribute Points [/B]after the first [B]Civic [/B]in every Age.[LI][B]+1 Sight [/B]for all Units.[LI]Gain a unique [B]Endeavor [/B]called [B]Trade Maps [/B]that allows you to gradually see other Leaders' [B]claimed territory[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_IBN_BATTUTA_MOD_EX_WILDCARD_ATTRIBUTE_DESCRIPTION" Language="th_TH">
 			<Text>+2 คะแนน คุณลักษณะไวลด์การ์ด</Text>		<!-- +2 Wildcard Attribute Points. -->
@@ -10373,7 +10373,7 @@
 			<Text>โฮเซ รีซัล ซึ่งถูกมองว่าเป็นวีรบุรุษของ ฟิลิปปินส์ เป็นผู้ปกป้องเกียรติยศ และความเป็นอิสระของชาวฟิลิปปินส์อย่างมีความมุ่งมั่น เขาเริ่มต้นสร้างชื่อเสียงใน ฐานะนักเคลื่อนไหว ทางการเมืองในยุโรป วิพากษ์วิจารณ์การปกครองของสเปนในบ้านเกิดของเขา และถึงแม้เขาจะเรียกร้องให้มีการปฏิรูปอย่างสันติและสิทธิเสมอภาค ริซาล ก็ถูกนำขึ้นศาล และถูกประหารชีวิตโดยสเปน อย่างไรก็ตาม จิตวิญญาณในการปฏิวัติของเขาไม่สามารถถูกกักขังไว้ได้ และยังคงสร้างแรงบันดาลใจให้กับชาวฟิลิปปินส์ตั้งแต่นั้นมา</Text>		<!-- Long regarded as a hero of the Philippines, José Rizal was a passionate defender of the dignity and autonomy of Filipinos. He first gained his reputation as a political activist in Europe, criticizing the Spanish rule of his homeland, and though he advocated for peaceful reform and equal rights, Rizal was eventually tried and executed by the Spanish. Yet his revolutionary spirit could not be contained, and has inspired Filipinos ever since. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_LAFAYETTE" Language="th_TH">
-			<Text>กิลแบร์ดู โมติเยร์ มาร์คีส์ เดอ ลาฟาแยต ทำเครื่องหมายของเขาในสองทวีป โดยนำทหารในสงครามปฏิวัติอเมริกา และเป็นเสียงของเหตุผลในฝรั่งเศส ระหว่างสยองขวัญสองด้านคือระบบอำนาจเผด็จการและการล้างแค้นจากการปฏิวัติ ในขณะที่มรดกของเขาน่าประทับใจ ความสำเร็จที่มีทักษะที่สุดของเขาอาจจะเป็นเพียงการอยู่รอดในศูนย์กลางของความวุ่นวายที่ยิ่งใหญ่ที่สุดในยุคของเขา</Text>		<!-- Gilbert du Motier, the Marquis de Lafayette, made his mark on two continents, leading troops in the American revolution, and being a voice of reason in France, between the twin horrors of autocracy and revolutionary retribution. While his legacy is impressive, his most skillful feat may simply be survival at the center of some of the greatest tumult of his time. -->
+			<Text>กิลแบร์ดู โมติเยร์ มาร์คีส์ เดอ ลาฟาแยต ทำเครื่องหมายของเขาในสองทวีป โดยนำทหารในสงครามปฏิวัติอเมริกา และเป็นเสียงของเหตุผลในฝรั่งเศส ระหว่างสยองขวัญสองด้านคือระบบอำนาจเผด็จการและการล้างแค้นจากการปฏิวัติ ในขณะที่มรดกของเขาน่าประทับใจ ความสำเร็จที่มีทักษะที่สุดของเขาอาจจะเป็นเพียงการอยู่รอดในศูนย์กลางของความวุ่นวายที่ยิ่งใหญ่ที่สุดในยุคของเขา</Text>		<!-- Gilbert du Motier, the Marquis de Lafayette, made his mark on two continents, leading troops in the American Revolution, and being a voice of reason in France, between the twin horrors of autocracy and revolutionary retribution. While his legacy is impressive, his most skillful feat may simply be survival at the center of some of the greatest tumult of his time. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_PACHACUTI" Language="th_TH">
 			<Text>หลังจากที่เขาปกป้องอาณาจักรจากการรุกราน ปาชาคูตี ได้ขึ้นครองอำนาจใน อาณาจักรคุซโก ประมาณปี 1438 และเริ่มทำการพิชิตภูมิภาคใกล้เคียงในไม่ช้า เขามีความสามารถทางทหาร และการเมืองในระดับที่เท่ากัน — ผู้ที่เขาไม่สามารถครอบครองได้ด้วยกำลัง เขาตอบแทนด้วยของขวัญ โดยสัญญาถึงความเป็นอิสระ และความเจริญรุ่งเรืองแลกกับความจงรักภักดี อาณาจักรอินคาจะดำรงอยู่ต่อไปเพียงประมาณหกสิบปีหลังจากการเสียชีวิตของเขา เมื่อชาวสเปนมาถึง แต่มรดกของปาชาคูติก็ยังคงอยู่ต่อไปอย่างไรก็ตาม</Text>		<!-- Having defended it from invasion, Pachacuti assumed rule over the kingdom of Cuzco around 1438 and soon began to conquer neighboring regions. He had military and political prowess in equal measure — those he could not take by force he plied with gifts, promising autonomy and prosperity in exchange for loyalty. The Inca Empire would only continue for some sixty years after his death, when the Spanish came, but Pachacuti’s legacy endures nonetheless. -->
@@ -10706,7 +10706,7 @@
 			<Text>ภาพของโลกที่รู้จัก</Text>		<!-- Image of the known world. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_IMAGO_MUNDI_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+3 การมองเห็น แทนที่จะเป็น +1 สำหรับ ความสามารถ ค้นหา และ สำรวจ ของหน่วยสอดแนม</Text>		<!-- +3 Sight instead of +1 for Scout's Search &amp;amp; Lookout abilities. -->
+			<Text>+2 การมองเห็น แทนที่จะเป็น +1 สำหรับ ความสามารถ ค้นหา และ สำรวจ ของหน่วยสอดแนม</Text>		<!-- +2 Sight instead of +1 for Scout's Search & Lookout abilities. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_CORPUS_JURIS_CIVILIS_NAME" Language="th_TH">
 			<Text>คอร์ปัส จูริส ซิเวลิส</Text>		<!-- Corpus Juris Civilis -->
@@ -10745,7 +10745,7 @@
 			<Text>+5 ระยะทางสำหรับเส้นทางการค้า ทั้งหมด</Text>		<!-- +5 range for all Trade Routes. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_COLADA_TIZONA_NAME" Language="th_TH">
-			<Text>โคลาดา &amp; ติซโซนา</Text>		<!-- Colada &amp;amp; Tizona -->
+			<Text>โคลาดา &amp; ติซโซนา</Text>		<!-- Colada & Tizona -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_COLADA_TIZONA_DESCRIPTION" Language="th_TH">
 			<Text>ดาบของเอลซิด</Text>		<!-- Swords of El Cid. -->
@@ -10754,7 +10754,7 @@
 			<Text>+2 พลังต่อสู้ สำหรับยูนิตที่อยู่ติดกับยูนิตศัตรู 2 ยูนิตหรือมากกว่า</Text>		<!-- +2 Combat Strength for Units adjacent to 2 or more enemy Units. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_COLADA_TIZONA_COMBAT_PREVIEW" Language="th_TH">
-			<Text>+{1_Amount} โคลาเด และ ทีโซน่า เมนโต</Text>		<!-- +{1_Amount} Colada &amp;amp; Tizona Memento -->
+			<Text>+{1_Amount} โคลาเด และ ทีโซน่า เมนโต</Text>		<!-- +{1_Amount} Colada & Tizona Memento -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_SHISA_NECKLACE_NAME" Language="th_TH">
 			<Text>สร้อยคอชิซะ</Text>		<!-- Shisa Necklace -->
@@ -10847,7 +10847,7 @@
 			<Text>+1[icon:YIELD_FOOD] อาหาร ในเมืองหลวง สำหรับทุกๆ 5[icon:YIELD_HAPPINESS]ความสุข ที่เกินมา</Text>		<!-- +1[icon:YIELD_FOOD] Food in Capital for every 5 excess [icon:YIELD_HAPPINESS]Happiness. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ASHOKA_RENOUNCER_GOLD_SAPPHIRE_FLOWERS_NAME" Language="th_TH">
-			<Text>ดอกไม้ทองและทับทิม</Text>		<!-- Gold &amp;amp; Sapphire Flowers -->
+			<Text>ดอกไม้ทองและทับทิม</Text>		<!-- Gold & Sapphire Flowers -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ASHOKA_RENOUNCER_GOLD_SAPPHIRE_FLOWERS_DESCRIPTION" Language="th_TH">
 			<Text>กลีบกุหลาบใต้บัลลังก์</Text>		<!-- Blossoms beneath the throne. -->
@@ -10862,7 +10862,7 @@
 			<Text>สถานที่แห่งการตรัสรู้</Text>		<!-- Location of enlightenment. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ASHOKA_RENOUNCER_DIAMOND_THRONE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>ในระหว่าง การเฉลิมฉลอง +1[icon:YIELD_HAPPINESS] ต่อย่าน ต่อยุค</Text>		<!-- During a Celebration, +1[icon:YIELD_HAPPINESS] per Quarter per Age. -->
+			<Text>+1[icon:YIELD_HAPPINESS] ความสุข ต่อยุค บน ย่าน ในขณะงานเฉลิมฉลอง</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness per Age on Quarters during a Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AUGUSTUS_CORONA_CIVICA_NAME" Language="th_TH">
 			<Text>โคโรนา ซีวิก้า</Text>		<!-- Corona Civica -->
@@ -10904,7 +10904,7 @@
 			<Text>ได้รับ 50[icon:YIELD_DIPLOMACY] อิทธิพล หลังจากศึกษาความเชี่ยวชาญ ด้านเทคโนโลยี หรือ ด้านแนวคิด</Text>		<!-- Gain 50[icon:YIELD_DIPLOMACY] Influence after researching a Tech or Civic Mastery. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BENJAMIN_FRANKLIN_KITE_NAME" Language="th_TH">
-			<Text>ว่าว &amp; กุญแจ</Text>		<!-- Kite &amp;amp; Key -->
+			<Text>ว่าว &amp; กุญแจ</Text>		<!-- Kite & Key -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BENJAMIN_FRANKLIN_KITE_DESCRIPTION" Language="th_TH">
 			<Text>ไขปริศนาของสายฟ้า</Text>		<!-- Unravel lightning's mysteries. -->
@@ -10928,7 +10928,7 @@
 			<Text>อัญมณีเหมือนดาวเด่น</Text>		<!-- Jewels like stars. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CATHERINE_GREAT_IMPERIAL_CROWN_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>เมืองจะได้รับ +5%[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อ ผลงานชิ้นเอก ที่จัดแสดง (สูงสุด 25%)</Text>		<!-- Cities gain +5%[icon:YIELD_SCIENCE] Science per Great Work on display (Max 25%). -->
+			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุค ใน เมืองในช่องทุนดรา</Text>		<!-- +2[icon:YIELD_SCIENCE] Science per Age in Towns in Tundra. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CATHERINE_POTEMKINS_SWORD_KNOT_NAME" Language="th_TH">
 			<Text>โบว์ผูกดาบของโปเท็มกิน</Text>		<!-- Potemkin's Sword-Knot -->
@@ -10946,16 +10946,16 @@
 			<Text>มรดกจักรวรรดิ</Text>		<!-- Imperial legacy. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CATHERINE_EAGLE_BANNER_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>เมืองใหญ่จะได้รับโบนัส 5%[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อผลงานชิ้นเอกที่มีอยู่ในเมือง (สูงสุด 25%)</Text>		<!-- Cities gain 5% bonus[icon:YIELD_SCIENCE] Science Efficiency per Great Work they contain. (Max 25%) -->
+			<Text>เมืองใหญ่จะได้รับ 2%[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อผลงานชิ้นเอกที่มีอยู่ในเมือง (สูงสุด 20%)</Text>		<!-- Cities gain 2% [icon:YIELD_SCIENCE] Science per Great Work on display. (Max 20%) -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CHARLEMAGNE_JOYEUSE_NAME" Language="th_TH">
 			<Text>จอยยูซ</Text>		<!-- Joyeuse -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CHARLEMAGNE_JOYEUSE_DESCRIPTION" Language="th_TH">
-			<Text>ความสุขในแต่ละชิ้น</Text>		<!-- Happiness, by the slice. -->
+			<Text>ความสุขแต่ละชิ้น</Text>		<!-- Happiness, by the slice. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CHARLEMAGNE_JOYEUSE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_HAPPINESS] ความสุข ต่อยุค สำหรับยูนิตทหารม้าแต่ละยูนิต</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness per Age for every Cavalry Unit. -->
+			<Text>+2[icon:YIELD_HAPPINESS] ความสุข สำหรับยูนิตทหารม้าแต่ละตัว</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness for every Cavalry Unit. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CHARLEMAGNE_GLOBUS_CRUCIGER_NAME" Language="th_TH">
 			<Text>กลอบัสครูซิเกอร์</Text>		<!-- Globus Cruciger -->
@@ -10991,7 +10991,7 @@
 			<Text>รักษาพิธีกรรม</Text>		<!-- Preserving the rites. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CONFUCIUS_ALTAR_SET_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_GOLD] ทอง จากผู้เชี่ยวชาญ</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and [icon:YIELD_GOLD] Gold from Specialists. -->
+			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม จากผู้เชี่ยวชาญ</Text>		<!-- +1[icon:YIELD_CULTURE] Culture from Specialists. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CONFUCIUS_ANALECTS_NAME" Language="th_TH">
 			<Text>อาเนกตส์</Text>		<!-- The Analects -->
@@ -11000,7 +11000,7 @@
 			<Text>คำพูดของผู้มีปัญญา</Text>		<!-- Sayings of the sage. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_CONFUCIUS_ANALECTS_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อผู้เชี่ยวชาญ</Text>		<!-- +1[icon:YIELD_SCIENCE] Science per Speicalist. -->
+			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อผู้เชี่ยวชาญ</Text>		<!-- +1[icon:YIELD_SCIENCE] Science per Specialist. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FRIEDRICH_OBLIQUE_WALKING_STICK_NAME" Language="th_TH">
 			<Text>ไม้เท้า</Text>		<!-- Walking Stick -->
@@ -11084,7 +11084,7 @@
 			<Text>สัญลักษณ์งูหลามแห่งอำนาจอธิปไตย</Text>		<!-- Serpentine symbol of sovereignty. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_HATSHEPSUT_URAEUS_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+10%[icon:YIELD_CULTURE] วัฒนธรรม ถ้าคุณมี สิ่งมหัศจรรย์ มากที่สุด[n]+10%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้าง สิ่งมหัศจรรย์ ถ้าคุณไม่มี</Text>		<!-- +10%[icon:YIELD_CULTURE] Culture if you have the most Wonders.[n]+10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders if you do not. -->
+			<Text>+10%[icon:YIELD_CULTURE] วัฒนธรรม ในเมืองใหญ่ที่มี สิ่งมหัศจรรย์ อย่างน้อย 1 แห่ง</Text>		<!-- +10%[icon:YIELD_CULTURE] Culture in Cities with at least 1 Wonder. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_HIMIKO_QUEEN_GOLDEN_SEAL_STONE_NAME" Language="th_TH">
 			<Text>หินตราผลึกทอง</Text>		<!-- Golden Seal Stone -->
@@ -11129,7 +11129,7 @@
 			<Text>กระดูกสันหลังของการค้า</Text>		<!-- Backbone of commerce. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BATTUTA_MERCHANTS_SADDLE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1 แต้มเคลื่อนที่ และระยะมองเห็นสำหรับ หน่วยสอดแนม, พ่อค้า และผู้ตั้งถิ่นฐาน</Text>		<!-- +1 Movement and Sight for Scouts, Merchants, and Settlers. -->
+			<Text>+1 แต้มเคลื่อนที่ สำหรับ หน่วยสอดแนม, พ่อค้า, ผู้ตั้งถิ่นฐาน และนักสำรวจ</Text>		<!-- +1 Movement for Scouts, Merchants, Settlers, and Explorers. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BATTUTA_RIHLA_NAME" Language="th_TH">
 			<Text>ริฮล่า</Text>		<!-- The Rihla -->
@@ -11147,7 +11147,7 @@
 			<Text>เครื่องราชอิสริยาภรณ์</Text>		<!-- Royal regalia. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ISABELLA_QUEENS_JEWELRY_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_GOLD] ทอง ในสิ่งมหัศจรรย์ทางธรรมชาติ</Text>		<!-- +2[icon:YIELD_GOLD] Gold on Natural Wonders -->
+			<Text>+2[icon:YIELD_GOLD] ทอง ต่อยุค บน สิ่งมหัศจรรย์ทางธรรมชาติ</Text>		<!-- +2[icon:YIELD_GOLD] Gold per Age on Natural Wonders. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ISABELLA_BALLESTILLA_NAME" Language="th_TH">
 			<Text>บอลเลสติลล่า</Text>		<!-- Ballestilla -->
@@ -11162,10 +11162,10 @@
 			<Text>ปาโดรอน เรอัล</Text>		<!-- Padrón Real -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ISABELLA_PADRON_REAL_DESCRIPTION" Language="th_TH">
-			<Text>ลับที่ถูกทำแผนที่และลงทะเบียนอย่างเป็นทางการ</Text>		<!-- Secrets mapped and royally registered. -->
+			<Text>ความลับถูกทำแผนผังและจดทะเบียนอย่างเป็นทางการ</Text>		<!-- Secrets mapped and royally registered. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ISABELLA_PADRON_REAL_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+100% ผลผลิต จากสิ่งมหัศจรรย์ทางธรรมชาติ หากคุณกำลังทำงานกับช่อง สิ่งมหัศจรรย์ทางธรรมชาติ เป็นส่วนใหญ่[n]+2 พลังต่อสู้ สำหรับ ยูนิตทางน้ำ หากคุณไม่ได้ทำเช่นนั้น</Text>		<!-- +100% yields on Natural Wonders, if you are working the most Natural Wonder tiles.[n]+2 Combat Strength for Naval Units if you are not. -->
+			<Text>+2[icon:YIELD_HAPPINESS] ความสุข ต่อยุค บน สิ่งมหัศจรรย์ทางธรรมชาติ</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness per Age on Natural Wonders. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_RIZAL_FORGET_ME_NOT_NAME" Language="th_TH">
 			<Text>ดอกอย่าลืมฉัน</Text>		<!-- Forget-me-not -->
@@ -11246,7 +11246,7 @@
 			<Text>กังวลกับความโหดร้ายและความเมตตา</Text>		<!-- Concerning cruelty and clemency. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_MACHIAVELLI_IL_PRINCIPE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>การประกาศสงครามอย่างเป็นทางการ จะทำให้ความสัมพันธ์กับ อารยธรรม ที่ไม่ได้เป็นเป้าหมายลดลง 25</Text>		<!-- Declaring a Formal War decreases relationship by with all untargeted Civilizations by 25. -->
+			<Text>การประกาศสงครามอย่างเป็นทางการ จะทำให้ความสัมพันธ์กับ อารยธรรม ที่ไม่ใช่เป้าหมายลดลง 25</Text>		<!-- Declaring a Formal War decreases relationship with all untargeted Civilizations by 25. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_PACHACUTI_TOPAYAURI_NAME" Language="th_TH">
 			<Text>โตปายอุรี</Text>		<!-- Topayauri -->
@@ -11264,7 +11264,7 @@
 			<Text>ผ้าคุณภาพดี ลวดลายเรขาคณิต</Text>		<!-- Fine cloth, geometric motifs. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_PACHACUTI_ALL_TOQAPU_TUNIC_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+3 ระยะมองเห็น สำหรับ หน่วยสอดแนม ที่อยู่ติดกับภูเขา</Text>		<!-- +3 Sight for Scouts adjacent to Mountains. -->
+			<Text>+1 ระยะมองเห็น สำหรับ หน่วยสอดแนม ที่อยู่ติดกับภูเขา</Text>		<!-- +1 Sight for Scouts adjacent to Mountains. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_PACHACUTI_MASCAPAYCHA_NAME" Language="th_TH">
 			<Text>มาสกาฟายจา</Text>		<!-- Mascapaycha -->
@@ -11300,7 +11300,7 @@
 			<Text>เสียงศักดิ์สิทธิ์</Text>		<!-- Sacred sound. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_TRUNG_DONG_SON_DRUM_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>การ ประกาศสงคราม กับอารยธรรมอื่นจะทำให้เกิด การเฉลิมฉลอง</Text>		<!-- Declaring war against another Civilization grants a Celebration. -->
+			<Text>การประกาศสงครามอย่างเป็นทางการ กับอารยธรรมอื่นจะทำให้ได้รับ การเร่งเทคโนโลยี</Text>		<!-- Declaring a Formal War against another Civilization grants a Tech Boost. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_XERXES_KING_SCYTHIAN_AXE_NAME" Language="th_TH">
 			<Text>ขวานสงครามสกายธิอัน</Text>		<!-- Scythian Battle-Axe -->
@@ -11318,7 +11318,7 @@
 			<Text>ถืออยู่ในมือ</Text>		<!-- Held in hand. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_XERXES_KING_LOTUS_BLOSSOM_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+4% ของรายได้ [icon:YIELD_GOLD] ทอง ของคุณเป็น [icon:YIELD_SCIENCE] วิทยาศาสตร์ และ [icon:YIELD_CULTURE] วัฒนธรรม เพิ่มเติม</Text>		<!-- +4% of your [icon:YIELD_GOLD] Gold income as additional [icon:YIELD_SCIENCE]Science and [icon:YIELD_CULTURE]Culture. -->
+			<Text>ได้รับ [icon:YIELD_SCIENCE]วิทยาศาสตร์ และ [icon:YIELD_CULTURE]วัฒนธรรม ต่อเทิร์น เท่ากับรายได้ 4% จาก [icon:YIELD_GOLD]ทอง</Text>		<!-- Gain [icon:YIELD_SCIENCE]Science and [icon:YIELD_CULTURE]Culture per turn equal to 4% of your [icon:YIELD_GOLD] Gold income. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_XERXES_KING_GOLDEN_SCEPTRE_NAME" Language="th_TH">
 			<Text>คฑาทองคำ</Text>		<!-- Golden Sceptre -->
@@ -11504,13 +11504,13 @@
 			<Text>ปลดล็อกที่เลเวล 9 ของอิซาเบลล่า</Text>		<!-- Unlock at Isabella level 9 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_RIZAL_FORGET_ME_NOT_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อกที่เลเวล 2 ของโฮเซ รีซัล</Text>		<!-- Unlock at Jose Rizal level 2 -->
+			<Text>ปลดล็อกที่เลเวล 2 ของโฮเซ รีซัล</Text>		<!-- Unlock at José Rizal level 2 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_RIZAL_OPHTHALMOSCOPE_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อกที่เลเวล 5 ของโฮเซ รีซัล</Text>		<!-- Unlock at Jose Rizal level 5 -->
+			<Text>ปลดล็อกที่เลเวล 5 ของโฮเซ รีซัล</Text>		<!-- Unlock at José Rizal level 5 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_RIZAL_NOLI_ME_TANGERE_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อกที่เลเวล 9 ของโฮเซ รีซัล</Text>		<!-- Unlock at Jose Rizal level 9 -->
+			<Text>ปลดล็อกที่เลเวล 9 ของโฮเซ รีซัล</Text>		<!-- Unlock at José Rizal level 9 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_LAFAYETTE_LETTER_ADRIENNE_UNLOCK_TITLE" Language="th_TH">
 			<Text>ปลดล็อกที่เลเวล 2 ของลาฟาแยตท์</Text>		<!-- Unlock at Lafayette level 2 -->
@@ -17138,307 +17138,307 @@
 			<Text>สันติภาพแห่งจักรวรรดิ</Text>		<!-- Pax Imperatoria -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_MILITARY_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ</Text>		<!-- As Jose Rizal, complete the Pax Imperatoria Legacy Path. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ</Text>		<!-- As José Rizal, complete the Pax Imperatoria Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_MILITARY_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สันติภาพแห่งจักรวรรดิ 2</Text>		<!-- Pax Imperatoria 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_MILITARY_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ สองครั้ง</Text>		<!-- As Jose Rizal, complete the Pax Imperatoria Legacy Path twice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ สองครั้ง</Text>		<!-- As José Rizal, complete the Pax Imperatoria Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_MILITARY_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
 			<Text>สันติภาพแห่งจักรวรรดิ 3</Text>		<!-- Pax Imperatoria 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_MILITARY_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ สามครั้ง</Text>		<!-- As Jose Rizal, complete the Pax Imperatoria Legacy Path thrice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ สามครั้ง</Text>		<!-- As José Rizal, complete the Pax Imperatoria Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_ECONOMIC_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>เส้นทางสายไหม</Text>		<!-- Silk Roads -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_ECONOMIC_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก เส้นทางสายไหม</Text>		<!-- As Jose Rizal, complete the Silk Roads Legacy Path. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก เส้นทางสายไหม</Text>		<!-- As José Rizal, complete the Silk Roads Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_ECONOMIC_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>เส้นทางสายไหม 2</Text>		<!-- Silk Roads 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_ECONOMIC_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก เส้นทางสายไหม สองครั้ง</Text>		<!-- As Jose Rizal, complete the Silk Roads Legacy Path twice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก เส้นทางสายไหม สองครั้ง</Text>		<!-- As José Rizal, complete the Silk Roads Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_ECONOMIC_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
 			<Text>เส้นทางสายไหม 3</Text>		<!-- Silk Roads 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_ECONOMIC_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก เส้นทางสายไหม สามครั้ง</Text>		<!-- As Jose Rizal, complete the Silk Roads Legacy Path thrice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก เส้นทางสายไหม สามครั้ง</Text>		<!-- As José Rizal, complete the Silk Roads Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_MILITARY_VICTORY_EXPLORATION_NAME" Language="th_TH">
 			<Text>โลกนี้คับแคบเกินไปแล้ว</Text>		<!-- Non Sufficit Orbis -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_MILITARY_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว</Text>		<!-- As Jose Rizal, complete the Non Sufficit Orbis Legacy Path. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว</Text>		<!-- As José Rizal, complete the Non Sufficit Orbis Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_MILITARY_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>โลกนี้คับแคบเกินไปแล้ว 2</Text>		<!-- Non Sufficit Orbis 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_MILITARY_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว สองครั้ง</Text>		<!-- As Jose Rizal, complete the Non Sufficit Orbis Legacy Path twice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว สองครั้ง</Text>		<!-- As José Rizal, complete the Non Sufficit Orbis Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_MILITARY_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
 			<Text>โลกนี้คับแคบเกินไปแล้ว 3</Text>		<!-- Non Sufficit Orbis 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_MILITARY_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว สามครั้ง</Text>		<!-- As Jose Rizal, complete the Non Sufficit Orbis Legacy Path thrice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว สามครั้ง</Text>		<!-- As José Rizal, complete the Non Sufficit Orbis Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_ECONOMIC_VICTORY_EXPLORATION_NAME" Language="th_TH">
 			<Text>กองเรือบรรทุกสมบัติ</Text>		<!-- Treasure Fleet -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_ECONOMIC_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก กองเรือบรรทุกสมบัติ</Text>		<!-- As Jose Rizal, complete the Treasure Fleet Legacy Path. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก กองเรือบรรทุกสมบัติ</Text>		<!-- As José Rizal, complete the Treasure Fleet Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_ECONOMIC_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>กองเรือบรรทุกสมบัติ 2</Text>		<!-- Treasure Fleet 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_ECONOMIC_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก กองเรือบรรทุกสมบัติ สองครั้ง</Text>		<!-- As Jose Rizal, complete the Treasure Fleet Legacy Path twice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก กองเรือบรรทุกสมบัติ สองครั้ง</Text>		<!-- As José Rizal, complete the Treasure Fleet Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_ECONOMIC_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
 			<Text>กองเรือบรรทุกสมบัติ 3</Text>		<!-- Treasure Fleet 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_ECONOMIC_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก กองเรือบรรทุกสมบัติ สามครั้ง</Text>		<!-- As Jose Rizal, complete the Treasure Fleet Legacy Path thrice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก กองเรือบรรทุกสมบัติ สามครั้ง</Text>		<!-- As José Rizal, complete the Treasure Fleet Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_MILITARY_VICTORY_MODERN_NAME" Language="th_TH">
 			<Text>อุดมการณ์</Text>		<!-- Ideology -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_MILITARY_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก อุดมการณ์</Text>		<!-- As Jose Rizal, complete the Ideology Legacy Path. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก อุดมการณ์</Text>		<!-- As José Rizal, complete the Ideology Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_MILITARY_VICTORY_MODERN_2_NAME" Language="th_TH">
 			<Text>อุดมการณ์ 2</Text>		<!-- Ideology 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_MILITARY_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก อุดมการณ์ สองครั้ง</Text>		<!-- As Jose Rizal, complete the Ideology Legacy Path twice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก อุดมการณ์ สองครั้ง</Text>		<!-- As José Rizal, complete the Ideology Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_MILITARY_VICTORY_MODERN_3_NAME" Language="th_TH">
 			<Text>อุดมการณ์ 3</Text>		<!-- Ideology 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_MILITARY_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก อุดมการณ์ สามครั้ง</Text>		<!-- As Jose Rizal, complete the Ideology Legacy Path thrice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก อุดมการณ์ สามครั้ง</Text>		<!-- As José Rizal, complete the Ideology Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_ECONOMIC_VICTORY_MODERN_NAME" Language="th_TH">
 			<Text>เจ้าพ่อรถไฟ</Text>		<!-- Railroad Tycoon -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_ECONOMIC_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก เจ้าพ่อรถไฟ</Text>		<!-- As Jose Rizal, complete the Railroad Tycoon Legacy Path. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก เจ้าพ่อรถไฟ</Text>		<!-- As José Rizal, complete the Railroad Tycoon Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_ECONOMIC_VICTORY_MODERN_2_NAME" Language="th_TH">
 			<Text>เจ้าพ่อรถไฟ 2</Text>		<!-- Railroad Tycoon 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_ECONOMIC_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก เจ้าพ่อรถไฟ สองครั้ง</Text>		<!-- As Jose Rizal, complete the Railroad Tycoon Legacy Path twice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก เจ้าพ่อรถไฟ สองครั้ง</Text>		<!-- As José Rizal, complete the Railroad Tycoon Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_ECONOMIC_VICTORY_MODERN_3_NAME" Language="th_TH">
 			<Text>เจ้าพ่อรถไฟ 3</Text>		<!-- Railroad Tycoon 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_ECONOMIC_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก เจ้าพ่อรถไฟ สามครั้ง</Text>		<!-- As Jose Rizal, complete the Railroad Tycoon Legacy Path thrice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก เจ้าพ่อรถไฟ สามครั้ง</Text>		<!-- As José Rizal, complete the Railroad Tycoon Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_AGE_COMPLETED_ANTIQUITY_NAME" Language="th_TH">
 			<Text>จบยุคโบราณ</Text>		<!-- Antiquity Complete -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_AGE_COMPLETED_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้จบยุคโบราณ</Text>		<!-- As Jose Rizal, finish the Antiquity Age. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้จบยุคโบราณ</Text>		<!-- As José Rizal, finish the Antiquity Age. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_AGE_COMPLETED_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>จบยุคโบราณ 2</Text>		<!-- Antiquity Complete 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_AGE_COMPLETED_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ ริซาล เสร็จสิ้นยุคโบราณสองครั้ง</Text>		<!-- As Jose Rizal, finish the Antiquity Age twice. -->
+			<Text>ในฐานะ โฮเซ ริซาล เสร็จสิ้นยุคโบราณสองครั้ง</Text>		<!-- As José Rizal, finish the Antiquity Age twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_AGE_COMPLETED_ANTIQUITY_3_NAME" Language="th_TH">
 			<Text>จบยุคโบราณ 3</Text>		<!-- Antiquity Complete 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_AGE_COMPLETED_ANTIQUITY_3_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ ริซาล จบยุคโบราณสามครั้ง</Text>		<!-- As Jose Rizal, finish the Antiquity Age thrice. -->
+			<Text>ในฐานะ โฮเซ ริซาล จบยุคโบราณสามครั้ง</Text>		<!-- As José Rizal, finish the Antiquity Age thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_AGE_COMPLETED_EXPLORATION_NAME" Language="th_TH">
 			<Text>จบยุคสำรวจ</Text>		<!-- Exploration Complete -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_AGE_COMPLETED_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล, จบยุคสำรวจ</Text>		<!-- As Jose Rizal, finish the Exploration Age. -->
+			<Text>ในฐานะ โฮเซ รีซัล, จบยุคสำรวจ</Text>		<!-- As José Rizal, finish the Exploration Age. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_AGE_COMPLETED_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>จบยุคสำรวจ 2</Text>		<!-- Exploration Complete 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_AGE_COMPLETED_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ ริซาล จบยุคแห่งการสำรวจสองครั้ง</Text>		<!-- As Jose Rizal, finish the Exploration Age twice. -->
+			<Text>ในฐานะ โฮเซ ริซาล จบยุคแห่งการสำรวจสองครั้ง</Text>		<!-- As José Rizal, finish the Exploration Age twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_AGE_COMPLETED_EXPLORATION_3_NAME" Language="th_TH">
 			<Text>จบยุคสำรวจ 3</Text>		<!-- Exploration Complete 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_AGE_COMPLETED_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ทำยุคสำรวจให้เสร็จสามครั้ง</Text>		<!-- As Jose Rizal, finish the Exploration Age thrice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ทำยุคสำรวจให้เสร็จสามครั้ง</Text>		<!-- As José Rizal, finish the Exploration Age thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_AGE_COMPLETED_MODERN_NAME" Language="th_TH">
 			<Text>จบยุคใหม่</Text>		<!-- Modern Complete -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_AGE_COMPLETED_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล จงทำให้ยุคสมัยใหม่สิ้นสุดลง</Text>		<!-- As Jose Rizal, finish the Modern Age. -->
+			<Text>ในฐานะ โฮเซ รีซัล จงทำให้ยุคสมัยใหม่สิ้นสุดลง</Text>		<!-- As José Rizal, finish the Modern Age. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_AGE_COMPLETED_MODERN_2_NAME" Language="th_TH">
 			<Text>จบยุคใหม่ 2</Text>		<!-- Modern Complete 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_AGE_COMPLETED_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ ริซัล จบยุคสมัยใหม่เป็นครั้งที่สอง</Text>		<!-- As Jose Rizal, finish the Modern Age twice. -->
+			<Text>ในฐานะ โฮเซ ริซัล จบยุคสมัยใหม่เป็นครั้งที่สอง</Text>		<!-- As José Rizal, finish the Modern Age twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_AGE_COMPLETED_MODERN_3_NAME" Language="th_TH">
 			<Text>จบยุคใหม่ 3</Text>		<!-- Modern Complete 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_AGE_COMPLETED_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล จบยุคใหม่สามครั้ง</Text>		<!-- As Jose Rizal, finish the Modern Age thrice. -->
+			<Text>ในฐานะ โฮเซ รีซัล จบยุคใหม่สามครั้ง</Text>		<!-- As José Rizal, finish the Modern Age thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_PLAY_GAMES_1_NAME" Language="th_TH">
 			<Text>เล่นเกม 1</Text>		<!-- Play Game 1 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_PLAY_GAMES_1_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้บรรลุอย่างน้อย 1 หมุดหมาย ของเส้นทางมรดก</Text>		<!-- As Jose Rizal, reach at least 1 Legacy Path Milestone. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้บรรลุอย่างน้อย 1 หมุดหมาย ของเส้นทางมรดก</Text>		<!-- As José Rizal, reach at least 1 Legacy Path Milestone. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_PLAY_GAMES_2_NAME" Language="th_TH">
 			<Text>เล่นเกม 2</Text>		<!-- Play Game 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_PLAY_GAMES_2_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้บรรลุอย่างน้อย 2 หมุดหมาย ของเส้นทางมรดก</Text>		<!-- As Jose Rizal, reach at least 2 Legacy Path Milestones. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้บรรลุอย่างน้อย 2 หมุดหมาย ของเส้นทางมรดก</Text>		<!-- As José Rizal, reach at least 2 Legacy Path Milestones. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_PLAY_GAMES_3_NAME" Language="th_TH">
 			<Text>เล่นเกม 3</Text>		<!-- Play Game 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_PLAY_GAMES_3_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้บรรลุอย่างน้อย 3 หมุดหมาย ของเส้นทางมรดก</Text>		<!-- As Jose Rizal, reach at least 3 Legacy Path Milestones. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้บรรลุอย่างน้อย 3 หมุดหมาย ของเส้นทางมรดก</Text>		<!-- As José Rizal, reach at least 3 Legacy Path Milestones. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>หอสมุดอันยิ่งใหญ่</Text>		<!-- Great Library -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก หอสมุดอันยิ่งใหญ่</Text>		<!-- As Jose Rizal, complete the Great Library Legacy Path. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก หอสมุดอันยิ่งใหญ่</Text>		<!-- As José Rizal, complete the Great Library Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>หอสมุดอันยิ่งใหญ่ 2</Text>		<!-- Great Library 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก หอสมุดอันยิ่งใหญ่ สองครั้ง</Text>		<!-- As Jose Rizal, complete the Great Library Legacy Path twice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก หอสมุดอันยิ่งใหญ่ สองครั้ง</Text>		<!-- As José Rizal, complete the Great Library Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
 			<Text>หอสมุดอันยิ่งใหญ่ 3</Text>		<!-- Great Library 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก หอสมุดอันยิ่งใหญ่ สามครั้ง</Text>		<!-- As Jose Rizal, complete the Great Library Legacy Path thrice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก หอสมุดอันยิ่งใหญ่ สามครั้ง</Text>		<!-- As José Rizal, complete the Great Library Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_EXPLORATION_NAME" Language="th_TH">
 			<Text>การรู้แจ้ง</Text>		<!-- Enlightment -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก การตรัสรู้</Text>		<!-- As Jose Rizal, complete the Enlightenment Legacy Path. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก การตรัสรู้</Text>		<!-- As José Rizal, complete the Enlightenment Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>การตรัสรู้ 2</Text>		<!-- Enlightment 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก การตรัสรู้ สองครั้ง</Text>		<!-- As Jose Rizal, complete the Enlightenment Legacy Path twice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก การตรัสรู้ สองครั้ง</Text>		<!-- As José Rizal, complete the Enlightenment Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
 			<Text>ความรู้แจ้ง 3</Text>		<!-- Enlightment 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Jose Rizal, complete the Enlightenment Legacy Path thrice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As José Rizal, complete the Enlightenment Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
 			<Text>การแข่งขันด้านอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Jose Rizal, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As José Rizal, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
 			<Text>การแข่งขันในอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As Jose Rizal, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As José Rizal, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
 			<Text>การแข่งขันอวกาศ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As Jose Rizal, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As José Rizal, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Jose Rizal, complete the Wonders of the Ancient World Legacy Path. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As José Rizal, complete the Wonders of the Ancient World Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_CULTURE_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ สองครั้ง</Text>		<!-- As Jose Rizal, complete the Wonders of the Ancient World Legacy Path twice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ สองครั้ง</Text>		<!-- As José Rizal, complete the Wonders of the Ancient World Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_CULTURE_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 3</Text>		<!-- Wonders of the Ancient World 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_CULTURE_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ สามครั้ง</Text>		<!-- As Jose Rizal, complete the Wonders of the Ancient World Legacy Path thrice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ สามครั้ง</Text>		<!-- As José Rizal, complete the Wonders of the Ancient World Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_CULTURE_VICTORY_EXPLORATION_NAME" Language="th_TH">
 			<Text>โทชาคานา</Text>		<!-- Toshakhana -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_CULTURE_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก โทชาคานา</Text>		<!-- As Jose Rizal, complete the Toshakhana Legacy Path. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก โทชาคานา</Text>		<!-- As José Rizal, complete the Toshakhana Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_CULTURE_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>โทชาคานา 2</Text>		<!-- Toshakhana 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_CULTURE_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก โทชาคานา สองครั้ง</Text>		<!-- As Jose Rizal, complete the Toshakhana Legacy Path twice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก โทชาคานา สองครั้ง</Text>		<!-- As José Rizal, complete the Toshakhana Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_CULTURE_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
 			<Text>โทชาคานา 3</Text>		<!-- Toshakhana 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_CULTURE_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก โทชาคานา สามครั้ง</Text>		<!-- As Jose Rizal, complete the Toshakhana Legacy Path thrice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก โทชาคานา สามครั้ง</Text>		<!-- As José Rizal, complete the Toshakhana Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_CULTURE_VICTORY_MODERN_NAME" Language="th_TH">
 			<Text>สมาคมภูมิศาสตร์</Text>		<!-- Geographic Society -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_CULTURE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก สมาคมภูมิศาสตร์</Text>		<!-- As Jose Rizal, complete the Geographic Society Legacy Path. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก สมาคมภูมิศาสตร์</Text>		<!-- As José Rizal, complete the Geographic Society Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_CULTURE_VICTORY_MODERN_2_NAME" Language="th_TH">
 			<Text>สมาคมภูมิศาสตร์ 2</Text>		<!-- Geographic Society 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_CULTURE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก สมาคมภูมิศาสตร์ สองครั้ง</Text>		<!-- As Jose Rizal, complete the Geographic Society Legacy Path twice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก สมาคมภูมิศาสตร์ สองครั้ง</Text>		<!-- As José Rizal, complete the Geographic Society Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_CULTURE_VICTORY_MODERN_3_NAME" Language="th_TH">
 			<Text>สมาคมภูมิศาสตร์ 3</Text>		<!-- Geographic Society 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_CULTURE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก สมาคมภูมิศาสตร์ สามครั้ง</Text>		<!-- As Jose Rizal, complete the Geographic Society Legacy Path thrice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก สมาคมภูมิศาสตร์ สามครั้ง</Text>		<!-- As José Rizal, complete the Geographic Society Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_FLAWLESS_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สองมรดก, ยุคโบราณ</Text>		<!-- Dual Legacies, Antiquity -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_FLAWLESS_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก 2 เส้นทาง ในยุคโบราณเดียว</Text>		<!-- As Jose Rizal, complete 2 Legacy Paths in a single Antiquity Age. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก 2 เส้นทาง ในยุคโบราณเดียว</Text>		<!-- As José Rizal, complete 2 Legacy Paths in a single Antiquity Age. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_FLAWLESS_VICTORY_EXPLORATION_NAME" Language="th_TH">
 			<Text>สองมรดก, ยุคสำรวจ</Text>		<!-- Dual Legacies, Exploration -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_FLAWLESS_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก 2 เส้นทาง ในยุคสำรวจเดียว</Text>		<!-- As Jose Rizal, complete 2 Legacy Paths in a single Exploration Age. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก 2 เส้นทาง ในยุคสำรวจเดียว</Text>		<!-- As José Rizal, complete 2 Legacy Paths in a single Exploration Age. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_FLAWLESS_VICTORY_MODERN_NAME" Language="th_TH">
 			<Text>สองมรดก, ยุคใหม่</Text>		<!-- Dual Legacies, Modern -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_FLAWLESS_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก 2 เส้นทาง ในยุคใหม่เดียว</Text>		<!-- As Jose Rizal, complete 2 Legacy Paths in a single Modern Age. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก 2 เส้นทาง ในยุคใหม่เดียว</Text>		<!-- As José Rizal, complete 2 Legacy Paths in a single Modern Age. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAFAYETTE_MILITARY_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สันติภาพแห่งจักรวรรดิ</Text>		<!-- Pax Imperatoria -->
@@ -19007,7 +19007,7 @@
 			<Text>{1_Number}XP</Text>		<!-- {1_Number}XP -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_SORT_BY_CHALLENGES" Language="th_TH">
-			<Text>จัดเรียงตามความท้าทาย</Text>		<!-- Sort by Challenges -->
+			<Text>จัดเรียงตามค่าเริ่มต้น</Text>		<!-- Sort by Default -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_SORT_BY_COMPLETED" Language="th_TH">
 			<Text>จัดเรียงตามสถานะที่เสร็จสิ้นแล้ว</Text>		<!-- Sort by Completed Status -->
@@ -20294,16 +20294,16 @@
 			<Text>+{1_value} ช่องประเพณี</Text>		<!-- +{1_value} Tradition Slots -->
 		</Replace>
 		<Replace Tag="LOC_REWARD_AMOUNT_RELIGION_ALL_SETTLEMENTS" Language="th_TH">
-			<Text>+{1_value} {2_type} สำหรับถิ่นฐานทั้งหมดตามศาสนาของคุณ</Text>		<!-- +{1_value} {2_type} for all Settlements following your Religion -->
+			<Text>+{1_value} {2_type} สำหรับถิ่นฐานทั้งหมด ที่นับถือศาสนาของคุณ</Text>		<!-- +{1_value} {2_type} for all Settlements following your Religion -->
 		</Replace>
 		<Replace Tag="LOC_REWARD_AMOUNT_RELIGION_FOREIGN_SETTLEMENTS" Language="th_TH">
 			<Text>+{1_value} {2_type} สำหรับถิ่นฐานของอารยธรรมอื่นๆ ที่นับถือศาสนาของคุณ</Text>		<!-- +{1_value} {2_type} for other Civilizations’ Settlements following your Religion -->
 		</Replace>
 		<Replace Tag="LOC_REWARD_AMOUNT_RELIGION_WONDER" Language="th_TH">
-			<Text>+{1_value} {2_type} สำหรับทุกสิ่งมหัศจรรย์ในเขตตั้งถิ่นฐานของอารยธรรมอื่นที่ตามศาสนาของคุณ</Text>		<!-- +{1_value} {2_type} for every Wonder in other Civilizations’ Settlements following your Religion -->
+			<Text>+{1_value} {2_type} สำหรับทุกสิ่งมหัศจรรย์ในเขตตั้งถิ่นฐานของอารยธรรมอื่น ที่นับถือศาสนาของคุณ</Text>		<!-- +{1_value} {2_type} for every Wonder in other Civilizations’ Settlements following your Religion -->
 		</Replace>
 		<Replace Tag="LOC_REWARD_AMOUNT_RELIGION_NATURAL_WONDER" Language="th_TH">
-			<Text>+{1_value} {2_type} สำหรับทุกช่องที่มีสิ่งมหัศจรรย์ทางธรรมชาติในเมืองของอารยธรรมอื่นๆ ที่ตามศาสนาของคุณ</Text>		<!-- +{1_value} {2_type} for every tile that has a Natural Wonder in other Civilizations’ Settlements following your Religion -->
+			<Text>+{1_value} {2_type} สำหรับทุกช่องที่มีสิ่งมหัศจรรย์ทางธรรมชาติในเมืองของอารยธรรมอื่นๆ ที่นับถือศาสนาของคุณ</Text>		<!-- +{1_value} {2_type} for every tile that has a Natural Wonder in other Civilizations’ Settlements following your Religion -->
 		</Replace>
 		<Replace Tag="LOC_REWARD_AMOUNT_RELIGION_BIOME" Language="th_TH">
 			<Text>+{1_value} {2_type} สำหรับทุกๆ แผ่นดิน {3_biome} ในถิ่นฐานของอารยธรรมอื่นที่นับถือศาสนาของคุณ</Text>		<!-- +{1_value} {2_type} for every {3_biome} tile in other Civilizations’ Settlements following your Religion -->
@@ -20321,7 +20321,7 @@
 			<Text>{1_value: number +#;-#}% {2_type} เป็นเวลา {3_turns} เทิร์น</Text>		<!-- {1_value: number +#;-#}% {2_type} for {3_turns} turns -->
 		</Replace>
 		<Replace Tag="LOC_REWARD_AMOUNT_SPECIALISTS" Language="th_TH">
-			<Text>{1_value: number +#;-#} {2_type} เกี่ยวกับผู้เชี่ยวชาญ</Text>		<!-- {1_value: number +#;-#} {2_type} on Specialists -->
+			<Text>{1_value: number +#;-#} {2_type} บนผู้เชี่ยวชาญ</Text>		<!-- {1_value: number +#;-#} {2_type} on Specialists -->
 		</Replace>
 		<Replace Tag="LOC_REWARD_AMOUNT_SPECIALISTS_PERCENT" Language="th_TH">
 			<Text>{1_value: number +#;-#}% {2_type} บนผู้เชี่ยวชาญ</Text>		<!-- {1_value: number +#;-#}% {2_type} on Specialists -->
@@ -21251,7 +21251,7 @@
 			<Text>ยูนิตถูกยุบ!</Text>		<!-- Unit Disbanded! -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_UNIT_DISBANDED_SUMMARY" Language="th_TH">
-			<Text>ยอดคงเหลือทองของคุณเป็นลบและคุณไม่สามารถจ่ายให้กับกองทัพของคุณได้ [n] {1_UnitName} ของคุณได้ยุบเลิกไปแล้ว</Text>		<!-- Your[icon:YIELD_GOLD] Gold balance is negative and you cannot afford to pay your troops.[n]Your {1_UnitName} has disbanded. -->
+			<Text>ยอดทองคงเหลือของคุณเป็นลบ และคุณไม่สามารถจ่ายให้กับกองทัพของคุณได้ [n] {1_UnitName} ของคุณได้ยุบเลิกไปแล้ว</Text>		<!-- Your[icon:YIELD_GOLD] Gold balance is negative and you cannot afford to pay your troops.[n]Your {1_UnitName} has disbanded. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_ENTERED_ENEMY_ARMY_ZOC_MESSAGE" Language="th_TH">
 			<Text>พบกองทัพศัตรู!</Text>		<!-- Enemy Army Encountered! -->
@@ -24243,10 +24243,10 @@
 			<Text>รายงานผลผลิต</Text>		<!-- Yields Breakdown -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_DETAILS_CITY_BEING_RAZED" Language="th_TH">
-			<Text>เมืองกำลังถูกทำลาย!</Text>		<!-- City is being Razed! -->
+			<Text>ถิ่นฐานกำลังถูกทำลาย!</Text>		<!-- Settlement is being Razed! -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_DETAILS_CITY_TURNS_TILL_RAZED" Language="th_TH">
-			<Text>{1_Turns} {1_Turns: plural 1?turn; other?turns;} จนกว่าเมืองจะสูญหายอย่างถาวร</Text>		<!-- {1_Turns} {1_Turns: plural 1?turn; other?turns;} until the City is permanently lost -->
+			<Text>{1_Turns} {1_Turns: plural 1?turn; other?turns;} จนกว่าถิ่นฐานจะสูญหายอย่างถาวร</Text>		<!-- {1_Turns} {1_Turns: plural 1?turn; other?turns;} until the Settlement is permanently lost -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_DETAILS_STARVATION" Language="th_TH">
 			<Text>ถิ่นฐานของคุณจะไม่เติบโตเนื่องจากการขาดแคลนอาหาร</Text>		<!-- Your Settlement won’t grow due to starvation. -->
@@ -24312,7 +24312,7 @@
 			<Text>ลบถิ่นฐานอย่างถาวรหลังจาก {1_Turns} เทิร์น, สิ่งนี้ทำให้เกิดบทลงโทษทางการทูต -100 แต้ม</Text>		<!-- Remove the Settlement permanently after {1_Turns} {1_Turns: plural 1?turn; other?turns;}. This incurs a -100 Diplomatic Penalty -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_CAPTURE_RAZED_DESC" Language="th_TH">
-			<Text>เมืองนี้กำลังถูกทำลายและจะถูกลบออกทั้งหมดในอีก {1_Turns} เทิร์น</Text>		<!-- This City is being razed and will be removed entirely in {1_Turns} {1_Turns: plural 1?turn; other?turns;} -->
+			<Text>ถิ่นฐานนี้กำลังถูกทำลายและจะถูกถอนอย่างหมดจดในอีก {1_Turns} เทิร์น</Text>		<!-- This Settlement is being razed and will be removed entirely in {1_Turns} {1_Turns: plural 1?turn; other?turns;} -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_CAPTURE_RAZE_WONDER_WARNING" Language="th_TH">
 			<Text>คำเตือน: เมืองนี้มีสิ่งมหัศจรรย์ของโลกที่จะสูญหายไปอย่างถาวร!</Text>		<!-- WARNING: This City contains World Wonders that will be permanently lost! -->
@@ -24762,7 +24762,7 @@
 			<Text>ไอแซก นิวตัน</Text>		<!-- Isaac Newton -->
 		</Replace>
 		<Replace Tag="LOC_UI_CINEMATIC_FIRST_SPACE_FLIGHT" Language="th_TH">
-			<Text>การบินอวกาศที่มีมนุษย์โดยสารครั้งแรก</Text>		<!-- First Staffed Space Flight -->
+			<Text>เที่ยวบินอวกาศที่มีลูกเรือครั้งแรก</Text>		<!-- First Crewed Space Flight -->
 		</Replace>
 		<Replace Tag="LOC_UI_CINEMATIC_WORLD_BANK" Language="th_TH">
 			<Text>ธนาคารโลก</Text>		<!-- World Bank -->
@@ -25008,7 +25008,7 @@
 			<Text>ทวีป</Text>		<!-- Continents -->
 		</Replace>
 		<Replace Tag="LOC_UI_CONTINENTS_PANEL_NOT_RESEARCHED" Language="th_TH">
-			<Text>ความต้องการวิจัย</Text>		<!-- Research Required -->
+			<Text>ต้องวิจัยก่อน</Text>		<!-- Research Required -->
 		</Replace>
 		<Replace Tag="LOC_UI_CONTINENTS_PANEL_HOMELAND" Language="th_TH">
 			<Text>ขุมทรัพย์บนเกาะที่มีให้บริการ</Text>		<!-- Island Treasures Available -->
@@ -25917,7 +25917,7 @@
 			<Text>ขุดโบราณวัตถุ</Text>		<!-- Excavate Artifact -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_EXCAVATE_DESCRIPTION" Language="th_TH">
-			<Text>ขุดผลงานชิ้นเยี่ยมที่สามารถจัดแสดงในพิพิธภัณฑ์เพื่อสร้างความก้าวหน้าในเส้นทางมรดกของสมาคมภูมิศาสตร์</Text>		<!-- Dig up a Great Work that can be displayed in a Museum to make progress on the Geographic Society Legacy Path. -->
+			<Text>ขุด ผลงานชิ้นเอก ที่สามารถจัดแสดงในพิพิธภัณฑ์ เพื่อสร้างความก้าวหน้าในเส้นทางมรดก สมาคมภูมิศาสตร์</Text>		<!-- Dig up a Great Work that can be displayed in a Museum to make progress on the Geographic Society Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_FOUND_CITY_NAME" Language="th_TH">
 			<Text>ตั้งถิ่นฐาน</Text>		<!-- Found Settlement -->
@@ -26007,7 +26007,7 @@
 			<Text>เดินทางไปยังเมือง</Text>		<!-- Travel to City -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_TELEPORT_TO_CITY_DESCRIPTION" Language="th_TH">
-			<Text>เคลื่อนย้ายยูนิตจากใจกลางเมืองหนึ่งไปยังอีกใจกลางเมืองหนึ่ง</Text>		<!-- Moves the unit from one City Center to another. -->
+			<Text>เคลื่อนย้ายยูนิตจากเมืองหลวงหนึ่งไปยังที่อื่น</Text>		<!-- Moves the unit from one Capital City to another. -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_TELEPORT_TO_DESCRIPTION" Language="th_TH">
 			<Text>เดินทางไป</Text>		<!-- Travel to -->
@@ -26172,10 +26172,10 @@
 			<Text>ต้องตั้งอยู่ในเขตที่สามารถเผยแพร่ศาสนาได้</Text>		<!-- Must be located on a valid District to Spread Religion. -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_CANNOT_CONVERT_A_HOLY_CITY_LOCATION" Language="th_TH">
-			<Text>ไม่สามารถเผยแผ่ศาสนาในเมืองศักดิ์สิทธิ์ หรือถิ่นฐานที่กำลังถูกทำลายได้</Text>		<!-- Spread Religion cannot be used on Holy Cities or Settlements that are being Razed. -->
+			<Text>ไม่สามารถเผยแผ่ศาสนาในถิ่นฐานที่กำลังถูกทำลายได้</Text>		<!-- Spread Religion cannot be used on Settlements that are being Razed. -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_RELIGION_LOCATION" Language="th_TH">
-			<Text>ต้องตั้งอยู่ในถิ่นฐานตามศาสนาของคุณ</Text>		<!-- Must be located in a Settlement following your Religion. -->
+			<Text>ต้องตั้งอยู่ในถิ่นฐานที่นับถือศาสนาของคุณ</Text>		<!-- Must be located in a Settlement following your Religion. -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_RELIC_LOCATION" Language="th_TH">
 			<Text>สถานที่นี้ต้องมีช่องสำหรับศาสนวัตถุที่ใช้ได้</Text>		<!-- This location must have a Relic slot available. -->
@@ -26286,7 +26286,7 @@
 			<Text>+1 แต้มเคลื่อนที่ของยูนิตทหารเรือ ภายในรัศมีคำสั่ง</Text>		<!-- +1 Movement for Naval Units within the Command Radius. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FLEET_SERVICE_DESCRIPTION" Language="th_TH">
-			<Text>+1 แต้มเคลื่อนที่สำหรับยูนิตทางเรือ ภายในรัศมีคำสั่ง</Text>		<!-- +1 Movement for Naval Units within the Command Radius. -->
+			<Text>+1 แต้มเคลื่อนที่สำหรับยูนิตทางน้ำ ภายในรัศมีคำสั่ง</Text>		<!-- +1 Movement for Naval Units within the Command Radius. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_COMMENDATION_SQUADRON_SERVICE_DESCRIPTION" Language="th_TH">
 			<Text>+2 แต้มเคลื่อนที่สำหรับยูนิตทางอากาศ ที่อยู่ภายใต้บังคับบัญชา</Text>		<!-- +2 Movement for packed Air Units. -->
@@ -26631,7 +26631,7 @@
 			<Text>ปฏิเสธพื้นที่</Text>		<!-- Area Denial -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_AREA_DENIAL_DESCRIPTION" Language="th_TH">
-			<Text>รัศมีคำสั่งจะใช้เขตควบคุม กับยูนิตทหารบกของศัตรู</Text>		<!-- The Command Radius applies Zone of Control to enemy Land Units. -->
+			<Text>รัศมีบัญชาการจะใช้เขตควบคุม กับยูนิตทหารบกของศัตรู</Text>		<!-- The Command Radius applies Zone of Control to enemy Land Units. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_ZEAL_NAME" Language="th_TH">
 			<Text>ความกระตือรือร้น</Text>		<!-- Zeal -->
@@ -26688,7 +26688,7 @@
 			<Text>การยิงด้วยปืนใหญ่</Text>		<!-- Shelling -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_FLEET_SHELLING_DESCRIPTION" Language="th_TH">
-			<Text>กำลังการต่อสู้ +3 สำหรับยูนิตทางเรือภายในรัศมีคำสั่งเมื่อโจมตียูนิตบนบก</Text>		<!-- +3 Combat Strength for Naval Units within the Command Radius when attacking Land Units. -->
+			<Text>กำลังการต่อสู้ +3 สำหรับยูนิตทางน้ำ ภายในรัศมีคำสั่งเมื่อโจมตียูนิตบนบก</Text>		<!-- +3 Combat Strength for Naval Units within the Command Radius when attacking Land Units. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FLEET_SHELLING_NAME" Language="th_TH">
 			<Text>การระดมยิง</Text>		<!-- Shelling -->
@@ -26703,7 +26703,7 @@
 			<Text>ปืนใหญ่เรือ</Text>		<!-- Naval Artillery -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_FLEET_NAVAL_ARTILLERY_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้ สำหรับยูนิตทางเรือ ภายในรัศมีคำสั่งเมื่อโจมตีเขต ที่มีการเสริมกำลัง</Text>		<!-- +5 Combat Strength for Naval Units within the Command Radius when attacking Fortified Districts. -->
+			<Text>+5 พลังต่อสู้ สำหรับยูนิตทางน้ำ ภายในรัศมีคำสั่งเมื่อโจมตีเขต ที่มีการเสริมกำลัง</Text>		<!-- +5 Combat Strength for Naval Units within the Command Radius when attacking Fortified Districts. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_FLEET_NAVAL_ARTILLERY_PREVIEW" Language="th_TH">
 			<Text>+{Amount} อาวุธปืนใหญ่ทางทะเล</Text>		<!-- +{Amount} Naval Artillery -->
@@ -26784,7 +26784,7 @@
 			<Text>ซัลโว</Text>		<!-- Salvo -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_FLEET_SALVO_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้ สำหรับยูนิตทางเรือ ภายในรัศมีคำสั่งเมื่อโจมตี ยูนิตทางเรืออื่นๆ</Text>		<!-- +3 Combat Strength for Naval Units within the Command Radius when attacking other Naval Units. -->
+			<Text>+3 พลังต่อสู้ สำหรับยูนิตทางน้ำ ภายในรัศมีคำสั่งเมื่อโจมตี ยูนิตทางเรืออื่นๆ</Text>		<!-- +3 Combat Strength for Naval Units within the Command Radius when attacking other Naval Units. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FLEET_SALVO_NAME" Language="th_TH">
 			<Text>ซัลโว</Text>		<!-- Salvo -->
@@ -27063,7 +27063,7 @@
 			<Text>คณะกรรมการภาคสนาม</Text>		<!-- Field Commission -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SQUADRON_FIELD_COMMISSION_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทางอากาศ ที่อยู่ภายใต้บังคับบัญชา และที่อยู่ภายในรัศมีคำสั่ง สามารถอัพเกรดได้เหมือนอยู่ในอาณาเขตที่เป็นมิตร และฟื้นฟู 10 HP เมื่อทำการอัพเกรด</Text>		<!-- Packed Air Units within the Command Radius can be upgraded as if in friendly territory, and heal 10 HP when upgraded. -->
+			<Text>ยูนิตทางอากาศ ที่อยู่ภายใต้บังคับบัญชา สามารถอัพเกรดได้เหมือนอยู่ในอาณาเขตที่เป็นมิตร และฟื้นฟู 10 HP เมื่อทำการอัพเกรด</Text>		<!-- Packed Air Units can be upgraded as if in friendly territory, and heal 10 HP when upgraded. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SQUADRON_AERIAL_RECONNIASSANCE_NAME" Language="th_TH">
 			<Text>ลาดตระเวน</Text>		<!-- Aerial Reconnaissance -->
@@ -28026,7 +28026,7 @@
 			<Text>ตราแห่งอิซาเบลล่า 1</Text>		<!-- Isabella Badge 1 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_JOSE_RIZAL_NAME" Language="th_TH">
-			<Text>ตราแห่งโฮเซ รีซัล 1</Text>		<!-- Jose Rizal Badge 1 -->
+			<Text>ตราแห่งโฮเซ รีซัล 1</Text>		<!-- José Rizal Badge 1 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_LAFAYETTE_NAME" Language="th_TH">
 			<Text>ตราแห่งลาฟาแยต 1</Text>		<!-- Lafayette Badge 1 -->
@@ -28086,7 +28086,7 @@
 			<Text>ตราแห่งอิซาเบลล่า 2</Text>		<!-- Isabella Badge 2 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_JOSE_RIZAL_P_NAME" Language="th_TH">
-			<Text>ตราแห่งโฮเซ รีซัล 2</Text>		<!-- Jose Rizal Badge 2 -->
+			<Text>ตราแห่งโฮเซ รีซัล 2</Text>		<!-- José Rizal Badge 2 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_LAFAYETTE_P_NAME" Language="th_TH">
 			<Text>ตราแห่งลาฟาแยต 2</Text>		<!-- Lafayette Badge 2 -->
@@ -28143,7 +28143,7 @@
 			<Text>ธงแห่งอิซาเบลล่า</Text>		<!-- Isabella Banner -->
 		</Replace>
 		<Replace Tag="LOC_BANNER_JOSE_RIZAL_NAME" Language="th_TH">
-			<Text>ธงแห่งโฮเซ รีซัล</Text>		<!-- Jose Rizal Banner -->
+			<Text>ธงแห่งโฮเซ รีซัล</Text>		<!-- José Rizal Banner -->
 		</Replace>
 		<Replace Tag="LOC_BANNER_LAFAYETTE_NAME" Language="th_TH">
 			<Text>ธงแห่งลาฟาแยต</Text>		<!-- Lafayette Banner -->
@@ -28583,7 +28583,7 @@
 			<Text>ไพ่มรดกทางการทูต ยุคสำรวจ</Text>		<!-- Exploration Diplomatic Legacy Card -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_HIMIKO_QUEEN_EXPLORATION_1_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ ฮิมิโกะ ราชินีแห่งแคว้นวะ ได้รับ ไพ่มรดกทางการทูต ยุคสำรวจ:[n] +15% อิทธิพล, -2 พลังต่อสู้ สำหรับยูนิตทางเรือ</Text>		<!-- As Himiko Queen of Wa, access a new Exploration Legacy Card:[n]
+			<Text>ในฐานะ ฮิมิโกะ ราชินีแห่งแคว้นวะ ได้รับ ไพ่มรดกทางการทูต ยุคสำรวจ:[n] +15% อิทธิพล, -2 พลังต่อสู้ สำหรับยูนิตทางน้ำ</Text>		<!-- As Himiko Queen of Wa, access a new Exploration Legacy Card:[n]
 				+15% Influence, -2 Combat Strength for Naval Units -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_HIMIKO_QUEEN_EXPLORATION_2_NAME" Language="th_TH">
@@ -28672,14 +28672,14 @@
 			<Text>ไพ่มรดกทางวัฒนธรรม ยุคสำรวจ</Text>		<!-- Exploration Cultural Legacy Card -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_RIZAL_EXPLORATION_1_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ได้รับ ไพ่มรดกทางวัฒนธรรม ยุคสำรวจ: [n] +15% วัฒนธรรม, -10% วิทยาศาสตร์</Text>		<!-- As Jose Rizal, access a new Exploration Legacy Card:[n]
+			<Text>ในฐานะ โฮเซ รีซัล ได้รับ ไพ่มรดกทางวัฒนธรรม ยุคสำรวจ: [n] +15% วัฒนธรรม, -10% วิทยาศาสตร์</Text>		<!-- As José Rizal, access a new Exploration Legacy Card:[n]
 				+15% Culture, -10% Science -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_RIZAL_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>ไพ่มรดกทางการทูต ยุคสำรวจ</Text>		<!-- Exploration Diplomatic Legacy Card -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_RIZAL_EXPLORATION_2_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ได้รับ ไพ่มรดกทางการทูต ยุคสำรวจ:[n] +15% อิทธิพล, -2 พลังต่อสู้ สำหรับยูนิตเรือรบ</Text>		<!-- As Jose Rizal, access a new Exploration Legacy Card:[n]
+			<Text>ในฐานะ โฮเซ รีซัล ได้รับ ไพ่มรดกทางการทูต ยุคสำรวจ:[n] +15% อิทธิพล, -2 พลังต่อสู้ สำหรับยูนิตเรือรบ</Text>		<!-- As José Rizal, access a new Exploration Legacy Card:[n]
 				+15% Influence, -2 Combat Strength for Naval Units -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_RIZAL_MODERN_1_NAME" Language="th_TH">
@@ -28687,14 +28687,14 @@
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_RIZAL_MODERN_1_DESCRIPTION" Language="th_TH">
 			<Text>ในฐานะ โฮเซ ริซัล ได้รับ ไพ่มรดกทางวัฒนธรรม ยุคใหม่: [n]
-				+15% วัฒนธรรม, -10% วิทยาศาสตร์</Text>		<!-- As Jose Rizal, access a new Modern Legacy Card:[n]
+				+15% วัฒนธรรม, -10% วิทยาศาสตร์</Text>		<!-- As José Rizal, access a new Modern Legacy Card:[n]
 				+15% Culture, -10% Science -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_RIZAL_MODERN_2_NAME" Language="th_TH">
 			<Text>ไพ่มรดกทางการทูต ยุคใหม่</Text>		<!-- Modern Diplomatic Legacy Card -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_RIZAL_MODERN_2_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ โฮเซ ริซัล ได้รับ ไพ่มรดกทางการทูต ยุคใหม่:[n] +15% อิทธิพล, -2 พลังต่อสู้ สำหรับ ยูนิตทางอากาศ </Text>		<!-- As Jose Rizal, access a new Modern Legacy Card:[n]
+			<Text>ในฐานะ โฮเซ ริซัล ได้รับ ไพ่มรดกทางการทูต ยุคใหม่:[n] +15% อิทธิพล, -2 พลังต่อสู้ สำหรับ ยูนิตทางอากาศ </Text>		<!-- As José Rizal, access a new Modern Legacy Card:[n]
 				+15% Influence, -2 Combat Strength for Air Units -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_LAFAYETTE_EXPLORATION_1_NAME" Language="th_TH">
@@ -28708,7 +28708,7 @@
 			<Text>ไพ่มรดกทางการทูต ยุคสำรวจ</Text>		<!-- Exploration Diplomatic Legacy Card -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_LAFAYETTE_EXPLORATION_2_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ ลาฟาแยต ได้รับ ไพ่มรดกทางการทูต ยุคสำรวจ: [n] +15% อิทธิพล, -2 พลังต่อสู้ สำหรับยูนิตทางเรือ</Text>		<!-- As Lafayette, access a new Exploration Legacy Card:[n]
+			<Text>ในฐานะ ลาฟาแยต ได้รับ ไพ่มรดกทางการทูต ยุคสำรวจ: [n] +15% อิทธิพล, -2 พลังต่อสู้ สำหรับยูนิตทางน้ำ</Text>		<!-- As Lafayette, access a new Exploration Legacy Card:[n]
 				+15% Influence, -2 Combat Strength for Naval Units -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_LAFAYETTE_MODERN_1_NAME" Language="th_TH">
@@ -29389,7 +29389,7 @@
 			<Text>[B]อามีนา[/B] มาจากทวีปเดียวกับ [B]บูกันดา[/B]</Text>		<!-- [B]Amina[/B] was from the same continent as [B]Buganda[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_AMINA_MEXICO_TOOLTIP" Language="th_TH">
-			<Text>[B]เม็กซิโก[/B] เสริมกลยุทธ์ของ [B]อามีนา[/B] ได้ดีเยี่ยม</Text>		<!-- [B]Mexico[B/] strategically complements [B]Amina[/B]. -->
+			<Text>[B]เม็กซิโก[/B] เสริมกลยุทธ์ของ [B]อามีนา[/B] ได้ดีเยี่ยม</Text>		<!-- [B]Mexico[/B] strategically complements [B]Amina[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_ASHOKA_DESCRIPTION" Language="th_TH">
 			<Text>เล่นเป็น [B]อโศก, ผู้ละทางโลก[/B]</Text>		<!-- Play as [B]Ashoka, World Renouncer[/B]. -->
@@ -29398,7 +29398,7 @@
 			<Text>[B]อโศก[/B] มาจากภูมิภาคเดียวกับ [B]โจฬะ[/B]</Text>		<!-- [B]Ashoka[/B] was from the same region as the [B]Chola[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_ASHOKA_MAURYA_TOOLTIP" Language="th_TH">
-			<Text>[B]อโศก[/B] มาจากภูมิภาคเดียวกันกับ [B]โมริยะ[/B]</Text>		<!-- [B]Ashoka[/B] was from the same region as the [B]Maurya[/B]. -->
+			<Text>[B]อโศก[/B] ปกครอง [B]อินเดีย โมริยะ[/B]</Text>		<!-- [B]Ashoka[/B] ruled [B]Maurya India[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_ASHOKA_KHMER_TOOLTIP" Language="th_TH">
 			<Text>[B]อโศก[/B] มีอิทธิพลต่อวัฒนธรรม [B]ขอม[/B]</Text>		<!-- [B]Ashoka[/B] influenced [B]Khmer[/B] culture. -->
@@ -29416,22 +29416,22 @@
 			<Text>เล่นเป็น [B]ออกัสตัส[/B]</Text>		<!-- Play as [B]Augustus[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_AUGUSTUS_ROME_TOOLTIP" Language="th_TH">
-			<Text>[B]ออกัสตัส[/B] ปกครอง[B]โรม[/B]</Text>		<!-- [B]Augustus[/B] ruled [B]Rome[/B]. -->
+			<Text>[B]ออกัสตัส[/B] ปกครอง [B]โรม[/B]</Text>		<!-- [B]Augustus[/B] ruled [B]Rome[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_AUGUSTUS_ABBASID_TOOLTIP" Language="th_TH">
-			<Text>[B]กรุงโรม[/B] ของ [B]ออกัสตัส[/B] มีอิทธิพลต่อ [B]อับบาซิด[/B]</Text>		<!-- [B]Augustus's[/B] [B]Rome[/B] had an influence on the [B]Abbasids[/B]. -->
+			<Text>[B]โรม[/B] ของ [B]ออกัสตัส[/B] ส่งอิทธิพลต่อ [B]อับบาซิด[/B]</Text>		<!-- [B]Augustus's[/B] [B]Rome[/B] influenced the [B]Abbasids[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_AUGUSTUS_EGYPT_TOOLTIP" Language="th_TH">
 			<Text>[B]ออกัสตัส[/B] ปกครอง [B]อียิปต์[/B]</Text>		<!-- [B]Augustus[/B] ruled [B]Egypt[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_AUGUSTUS_SPAIN_TOOLTIP" Language="th_TH">
-			<Text>[B] ออกัสตัส [/B] ปกครอง [B] สเปน [/B] เมื่อมันเป็นส่วนหนึ่งของ [B] โรม [/B]</Text>		<!-- [B]Augustus[/B] ruled [B]Spain[/B] when it was part of [B]Rome[/B]. -->
+			<Text>[B]ออกัสตัส[/B] ปกครอง [B]สเปน[/B] เมื่อมันเป็นส่วนหนึ่งของ โรม</Text>		<!-- [B]Augustus[/B] ruled [B]Spain[/B] when it was part of Rome. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_AUGUSTUS_PRUSSIA_TOOLTIP" Language="th_TH">
-			<Text>[B]อ็อกตัส[/B] [B]โรม[/B] มีอิทธิพลต่อ [B]ปรัสเซีย[/B]</Text>		<!-- [B]Augustus's[/B] [B]Rome[/B] had an influence on [B]Prussia[/B]. -->
+			<Text>[B]โรม[/B] ของ [B]ออกัสตัส[/B] ส่งอิทธิพลต่อ [B]ปรัสเซีย[/B]</Text>		<!-- [B]Augustus's[/B] [B]Rome[/B] influenced [B]Prussia[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_AUGUSTUS_FRENCH_EMPIRE_TOOLTIP" Language="th_TH">
-			<Text>[B]กรุงโรม[/B] ของ [B]ออกัสตัส[/B] ส่งอิทธิพลต่อ [B]ฝรั่งเศส[/B]</Text>		<!-- [B]Augustus's[/B] [B]Rome[/B] had an influence on the [B]French[/B]. -->
+			<Text>[B]โรม[/B] ของ [B]ออกัสตัส[/B] ส่งอิทธิพลต่อ [B]ฝรั่งเศส[/B]</Text>		<!-- [B]Augustus's[/B] [B]Rome[/B] influenced the [B]French[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_CATHERINE_DESCRIPTION" Language="th_TH">
 			<Text>เล่นเป็น [B]แคทเธอรีน[/B]</Text>		<!-- Play as [B]Catherine[/B]. -->
@@ -29449,7 +29449,7 @@
 			<Text>[B]แคทเธอรีน[/B] ได้รับอิทธิพลจากแนวคิด [B]โรมัน[/B]</Text>		<!-- [B]Catherine[/B] drew influence from [B]Roman[/B] ideas. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_CATHERINE_MONGOLIA_TOOLTIP" Language="th_TH">
-			<Text>[B]รัสเซีย[/B] ของ [B]แคทเธอรีน[/B] เคยถูกปกครองโดย [B]มองโกล[/B]</Text>		<!-- [B]Catherine's[/B] [B]Russia[/B] was once ruled by the [B]Mongols[/B]. -->
+			<Text>[B]รัสเซีย[/B] ของ [B]แคทเธอรีน[/B] เคยถูกปกครองโดย [B]มองโกล[/B]</Text>		<!-- [B]Catherine's[/B] Russia was once ruled by the [B]Mongols[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_CATHERINE_PRUSSIA_TOOLTIP" Language="th_TH">
 			<Text>[B]แคทเธอรีน[/B] เกิดใกล้กับ [B]ปรัสเซีย[/B]</Text>		<!-- [B]Catherine[/B] was born near [B]Prussia[/B]. -->
@@ -29518,7 +29518,7 @@
 			<Text>[B]ฟรีดริช[/B] ได้สถาปนาตนเองเป็น [B]ผู้สืบทอดของโรมัน[/B]</Text>		<!-- [B]Friedrich[/B] styled himself as a [B]Roman[/B] successor. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_FRIEDRICH_EGYPT_TOOLTIP" Language="th_TH">
-			<Text>[B]อียิปต์[/B] สนับสนุนในเชิงกลยุทธ์ [B]ฟรีดริช[/B]</Text>		<!-- [B]Egypt[/B] strategically Complements [B]Friedrich[/B]. -->
+			<Text>[B]อียิปต์[/B] สนับสนุนในเชิงกลยุทธ์ [B]ฟรีดริช[/B]</Text>		<!-- [B]Egypt[/B] strategically complements [B]Friedrich[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_FRIEDRICH_NORMAN_TOOLTIP" Language="th_TH">
 			<Text>[B]ฟรีดริช[/B] มาจากทวีปเดียวกันกับ [B]นอร์มัน[/B]</Text>		<!-- [B]Friedrich[/B] was from the same continent as the [B]Normans[/B]. -->
@@ -29635,7 +29635,7 @@
 			<Text>[B]ลาฟาแยต[/B] เป็นรัฐบุรุษใน [B]ฝรั่งเศส[/B]</Text>		<!-- [B]Lafayette[/B] was a statesman in [B]France[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_LAFAYETTE_AMERICA_TOOLTIP" Language="th_TH">
-			<Text>[B]ลาฟาแยต[/B] มีอิทธิพลต่อ [B]อเมริกา[/B]</Text>		<!-- [B]Lafayette's[/B] had an influence on [B]America[/B]. -->
+			<Text>[B]ลาฟาแยต[/B] มีอิทธิพลต่อ [B]อเมริกา[/B]</Text>		<!-- [B]Lafayette[/B] had an influence on [B]America[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_MACHIAVELLI_DESCRIPTION" Language="th_TH">
 			<Text>เล่นเป็น [B]มาคิอาเวลลี[/B]</Text>		<!-- Play as [B]Machiavelli[/B]. -->
@@ -29758,7 +29758,7 @@
 			<Text>[B]ชาวมองโกล[/B] ยึดครองประเทศเปอร์เซียของ [B]เซอร์ซีส[/B] ในภายหลัง</Text>		<!-- [B]Mongols[/B] later captured [B]Xerxes'[/B] Persia. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_XERXES_MUGHAL_TOOLTIP" Language="th_TH">
-			<Text>เปอร์เซียของ [B]เซิร์กซีส[/B] มีอิทธิพลต่อ [B]โมกุล[/B]</Text>		<!-- [B]Xerxes’[/B] Persia had an influence on the [B]Mughal[/B] -->
+			<Text>[B]เปอร์เซีย[/B] ของ [B]เซิร์กซีส[/B] มีอิทธิพลต่อ [B]โมกุล[/B]</Text>		<!-- [B]Xerxes’[/B] Persia had an influence on the [B]Mughal[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_XERXES_RUSSIA_TOOLTIP" Language="th_TH">
 			<Text>[B]เซิร์กซีส[/B] มาจากภูมิภาคใกล้กับ [B]รัสเซีย[/B]</Text>		<!-- [B]Xerxes[/B] was from a nearby region to [B]Russia[/B]. -->
@@ -30298,7 +30298,7 @@
 			<Text>{LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_DARK_AGE_NAME}</Text>		<!-- {LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_DARK_AGE_NAME} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_DARK_AGE_DESCRIPTION" Language="th_TH">
-			<Text>มิชชันนารีมี +1 บรรจุและ +1 แต้มเคลื่อนที่ แต่ -3 ความสุขในทุกถิ่นฐานเมื่อคุณได้ก่อตั้งศาสนาแล้ว จะเพิ่มเป็นสองเท่าหากถิ่นฐานนั้นไม่ปฏิบัติตามศาสนาของคุณ</Text>		<!-- Missionaries have +1 charge and +1 movement, but -3[icon:YIELD_HAPPINESS] Happiness in all Settlements once you have founded a religion, doubled if the Settlement does not follow your religion. -->
+			<Text>มิชชันนารีมี +1 บรรจุและ +1 แต้มเคลื่อนที่ แต่ -3 ความสุขในทุกถิ่นฐานเมื่อคุณได้ก่อตั้งศาสนาแล้ว จะเพิ่มเป็นสองเท่าหากถิ่นฐานนั้นไม่นับถือศาสนาของคุณ</Text>		<!-- Missionaries have +1 charge and +1 movement, but -3[icon:YIELD_HAPPINESS] Happiness in all Settlements once you have founded a religion, doubled if the Settlement does not follow your religion. -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_MILESTONE_2_NAME" Language="th_TH">
 			<Text>มรดกมหัศจรรย์</Text>		<!-- Wondrous Heritage -->
@@ -30307,7 +30307,7 @@
 			<Text>{LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_MILESTONE_2_NAME}</Text>		<!-- {LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_MILESTONE_2_NAME} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_MILESTONE_2_DESCRIPTION" Language="th_TH">
-			<Text>สิ่งมหัศจรรย์ที่คุณควบคุม ได้รับ +1[icon:YIELD_CULTURE] วัฒนธรรม และ +1[icon:YIELD_HAPPINESS] ความสุข </Text>		<!-- Wonders you control get +1[icon:YIELD_CULTURE] Culture and +1[icon:YIELD_HAPPINESS] Happiness. -->
+			<Text>สิ่งมหัศจรรย์ที่คุณเป็นเจ้าของ จะได้รับ +1[icon:YIELD_CULTURE] วัฒนธรรม และ +1[icon:YIELD_HAPPINESS] ความสุข </Text>		<!-- Wonders you control get +1[icon:YIELD_CULTURE] Culture and +1[icon:YIELD_HAPPINESS] Happiness. -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_MILITARY_GOLDEN_AGE_NAME" Language="th_TH">
 			<Text>ยุคทอง ของ สันติภาพแห่งจักรวรรดิ</Text>		<!-- Pax Imperatoria Golden Age -->
@@ -30637,7 +30637,7 @@
 			<Text>ได้รับ 1 คะแนนมรดกทางวัฒนธรรม</Text>		<!-- Gain 1 Cultural Legacy Point. -->
 		</Replace>
 		<Replace Tag="LOC_MILITARY_BOOST_REWARD_NAME" Language="th_TH">
-			<Text>เพิ่มพลังการชนะทางทหาร</Text>		<!-- Military Victory Boost -->
+			<Text>แรงผลักดันเพื่อชัยชนะทางทหาร</Text>		<!-- Military Victory Boost -->
 		</Replace>
 		<Replace Tag="LOC_MILITARY_BOOST_REWARD_MANHATTAN_PROJECT_DESCRIPTION" Language="th_TH">
 			<Text>ได้รับ +10% กำลังผลิต สำหรับโครงการแมนฮัตตัน ต่อคะแนนมรดกทางทหาร</Text>		<!-- Gain +10% production towards the Manhattan Project Wonder per Military Legacy Point. -->
@@ -30646,10 +30646,10 @@
 			<Text>ได้รับ +10% กำลังผลิต ต่อ คะแนนมรดกทางทหาร สำหรับโครงการ "ปฏิบัติการไอวี่" ในเมือง</Text>		<!-- Gain +10% production towards the Operation Ivy City Project per Military Legacy Point. -->
 		</Replace>
 		<Replace Tag="LOC_SCIENCE_BOOST_REWARD_NAME" Language="th_TH">
-			<Text>เพิ่มพลังการชนะทางวิทยาศาสตร์</Text>		<!-- Science Victory Boost -->
+			<Text>แรงผลักดันเพื่อชัยชนะทางวิทยาศาสตร์</Text>		<!-- Science Victory Boost -->
 		</Replace>
 		<Replace Tag="LOC_SCIENCE_BOOST_REWARD_LAUNCH_ROCKET_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ +10% กำลังผลิต สำหรับโครงการ "เที่ยวบินอวกาศที่มีลูกเรือ" ต่อคะแนนมรดกทางวิทยาศาสตร์</Text>		<!-- Gain +10% production towards the Staffed Space Flight City Project per Scientific Legacy Point. -->
+			<Text>ได้รับ +10% กำลังผลิต สำหรับโครงการ "เที่ยวบินอวกาศที่มีลูกเรือ" ต่อคะแนนมรดกทางวิทยาศาสตร์</Text>		<!-- Gain +10% production towards the Crewed Space Flight City Project per Scientific Legacy Point. -->
 		</Replace>
 		<Replace Tag="LOC_CULTURE_BOOST_REWARD_NAME" Language="th_TH">
 			<Text>แรงผลักดันเพื่อชัยชนะทางวัฒนธรรม</Text>		<!-- Culture Victory Boost -->
@@ -30658,7 +30658,7 @@
 			<Text>ได้รับ +10% กำลังผลิต ต่อ คะแนนมรดกทางวัฒนธรรม สำหรับงานมหกรรมโลก</Text>		<!-- Gain +10% production towards the World's Fair Wonder per Cultural Legacy Point. -->
 		</Replace>
 		<Replace Tag="LOC_ECONOMIC_BOOST_REWARD_NAME" Language="th_TH">
-			<Text>ชัยชนะทางเศรษฐกิจที่เพิ่มขึ้น</Text>		<!-- Econmic Victory Boost -->
+			<Text>แรงผลักดันเพื่อชัยชนะทางงเศรษฐกิจ</Text>		<!-- Economic Victory Boost -->
 		</Replace>
 		<Replace Tag="LOC_ECNOMIC_BOOST_REWARD_ESTABLISH_WORLD_BANK_REDUCTION_DESCRIPTION" Language="th_TH">
 			<Text>ค่าใช้จ่ายของการจัดตั้งสำนักงานธนาคารโลกโดย นายธนาคารผู้ยิ่งใหญ่ ลดลง 5% ต่อคะแนนมรดกทางเศรษฐกิจ</Text>		<!-- The cost of the Great Banker's Establish World Bank Office action is reduced by 5% per Economic Legacy Point. -->
@@ -30958,7 +30958,7 @@
 			<Text>รายงานผลผลิตทั่วโลก</Text>		<!-- Global Yields Breakdown -->
 		</Replace>
 		<Replace Tag="LOC_GLOBAL_YIELDS_SUBTITLE" Language="th_TH">
-			<Text>รายงาน ผลผลิตของทุกเมืองใน จักรวรรดิของคุณ</Text>		<!-- Yields Breakdown across all Cities in your Empire -->
+			<Text>รายงาน ผลผลิตของทุกถิ่นฐานใน จักรวรรดิของคุณ</Text>		<!-- Yields Breakdown across all Settlements in your Empire -->
 		</Replace>
 		<Replace Tag="LOC_GLOBAL_YIELDS_SUMMARY_TITLE" Language="th_TH">
 			<Text>สรุปผลผลิต</Text>		<!-- Yield Summary -->
@@ -30991,7 +30991,7 @@
 			<Text>การดำเนินการทางการทูต</Text>		<!-- Diplomatic Actions -->
 		</Replace>
 		<Replace Tag="LOC_GLOBAL_YIELDS_TOTAL_FROM_CITIES" Language="th_TH">
-			<Text>ยอดรวมจากเมืองต่างๆ</Text>		<!-- Total from Cities -->
+			<Text>ยอดรวมจากถิ่นฐานต่างๆ</Text>		<!-- Total from Settlements -->
 		</Replace>
 		<Replace Tag="LOC_GLOBAL_YIELDS_URBAN_DISTRICTS" Language="th_TH">
 			<Text>เขตเมือง</Text>		<!-- Urban Districts -->

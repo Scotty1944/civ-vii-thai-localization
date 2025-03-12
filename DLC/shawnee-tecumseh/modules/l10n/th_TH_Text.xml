@@ -11,7 +11,7 @@
 			<Text>เทคัมเซห์ ยุคสำรวจ ตำนาน ทางการทูต</Text>		<!-- Tecumseh Exploration Legend Diplomatic -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_TECUMSEH_2_DESCRIPTION" Language="th_TH">
-			<Text>ในยุคนี้, ได้รับ +15%[icon:YIELD_DIPLOMACY] อิทธิพล โดยจะต้องเสีย -2 พลังต่อสู้ สำหรับยูนิตทางเรือของคุณ</Text>		<!-- For this Age, gain +15% Influence[icon:YIELD_DIPLOMACY] at the cost of -2 Combat Strength for your Naval Units -->
+			<Text>ในยุคนี้, ได้รับ +15%[icon:YIELD_DIPLOMACY] อิทธิพล โดยจะต้องเสีย -2 พลังต่อสู้ สำหรับยูนิตทางน้ำของคุณ</Text>		<!-- For this Age, gain +15% Influence[icon:YIELD_DIPLOMACY] at the cost of -2 Combat Strength for your Naval Units -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_TECUMSEH_1_NAME" Language="th_TH">
 			<Text>เทคัมเซห์ ตำนาน ยุคใหม่ ทางทหาร</Text>		<!-- Tecumseh Modern Legend Militaristic -->
@@ -110,7 +110,7 @@
 			<Text>ลิตเติ้ล แอ็กซ์</Text>		<!-- Little Axe -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_SHAWNEE7" Language="th_TH">
-			<Text>เมืองของศาสดา</Text>		<!-- Prophet's Town -->
+			<Text>พรอฟเฟ็ทส์ ทาวน์</Text>		<!-- Prophet's Town -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_SHAWNEE8" Language="th_TH">
 			<Text>เซกาควิส</Text>		<!-- Sekakwis -->
@@ -281,10 +281,10 @@
 			<Text>มาวาสคะเว สโคเต</Text>		<!-- Mawaskawe Skote -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MAWASKAWE_SKOTE_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_FOOD] อาหาร +1 [icon:YIELD_GOLD] ทอง ในแต่ละทรัพยากรที่อยู่ติดกัน, ต้องวางบนช่อง พืชพรรณ และไม่ติดกับ มาวาสคะเว สโคเต อื่นๆ, เขตพัฒนาพิเศษ ของชอว์นี, คงอยู่ตลอดกาล</Text>		<!-- +4 [icon:YIELD_FOOD] Food. +1 [icon:YIELD_GOLD] Gold for each adjacent Resource. Must be placed on Vegetated Terrain not adjacent to another Mawaskawe Skote. Shawnee Unique Improvement. Ageless" -->
+			<Text>+4[icon:YIELD_FOOD] อาหาร +1 [icon:YIELD_GOLD] ทอง ในแต่ละทรัพยากรที่อยู่ติดกัน, ต้องวางบนช่อง พืชพรรณ และไม่ติดกับ มาวาสคะเว สโคเต อื่นๆ, เขตพัฒนาพิเศษ ของชอว์นี, คงอยู่ตลอดกาล</Text>		<!-- +4 [icon:YIELD_FOOD] Food. +1 [icon:YIELD_GOLD] Gold for each adjacent Resource. Must be placed on Vegetated Terrain not adjacent to another Mawaskawe Skote. Shawnee Unique Improvement. Ageless. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MAWASKAWE_SKOTE_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_GOLD] ทอง ในแต่ละทรัพยากรที่อยู่ติดกัน, ต้องวางบนช่อง พืชพรรณ และไม่ติดกับ มาวาสคะเว สโคเต อื่นๆ, เขตพัฒนาพิเศษ ของชอว์นี, คงอยู่ตลอดกาล</Text>		<!-- +1 [icon:YIELD_GOLD] Gold for each adjacent Resource. Must be placed on Vegetated Terrain not adjacent to another Mawaskawe Skote. Shawnee Unique Improvement. Ageless" -->
+			<Text>+1[icon:YIELD_GOLD] ทอง ในแต่ละทรัพยากรที่อยู่ติดกัน, ต้องวางบนช่อง พืชพรรณ และไม่ติดกับ มาวาสคะเว สโคเต อื่นๆ, เขตพัฒนาพิเศษ ของชอว์นี, คงอยู่ตลอดกาล</Text>		<!-- +1 [icon:YIELD_GOLD] Gold for each adjacent Resource. Must be placed on Vegetated Terrain not adjacent to another Mawaskawe Skote. Shawnee Unique Improvement. Ageless. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_SERPENT_MOUND_NAME" Language="th_TH">
 			<Text>เนินงู</Text>		<!-- Serpent Mound -->
@@ -380,7 +380,7 @@
 			<Text>คาคอฟี ปาฟโคตาเวตา</Text>		<!-- Kakawfe Pafkotaweta -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_KAKAWFE_PAFKOTAWETA_DESCRIPTION" Language="th_TH">
-			<Text>ทุกครั้งที่เกิดพายุ น้ำท่วม หรือการระเบิดของภูเขาไฟจะให้ ความอุดมสมบูรณ์ยุคนี้ ได้รับ +1 [icon:YIELD_CULTURE] วัฒนธรรมและ +2 [icon:YIELD_GOLD] ทอง, สิ่งก่อสร้าง, และเขตเมือง จะไม่ได้รับความเสียหายจากพายุ</Text>		<!-- Every time a Storm, Flood, or Volcanic Eruption has provided Fertility this Age receive +1 [icon:YIELD_CULTURE] Culture and +2 [icon:YIELD_GOLD] Gold. Improvements, Buildings, and Urban Districts do not get pillaged by Storms. -->
+			<Text>ทุกครั้งที่เกิดพายุ น้ำท่วม หรือการระเบิดของภูเขาไฟจะให้ ความอุดมสมบูรณ์ยุคนี้ ได้รับ +1 [icon:YIELD_CULTURE] วัฒนธรรมและ +2 [icon:YIELD_GOLD] ทอง, สิ่งก่อสร้าง, และเขตเมือง จะไม่ได้รับความเสียหายจากพายุ</Text>		<!-- Every time a Storm, Flood, or Volcanic Eruption has provided Fertility this Age receive +1 [icon:YIELD_CULTURE] Culture and +2 [icon:YIELD_GOLD] Gold. Improvements, Buildings, and Urban Districts do not get damaged by Storms. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_TAKESIYAKE_YEPEPOKI_NAME" Language="th_TH">
 			<Text>ทาเคะซิยากะ เยเพะโปะกิ</Text>		<!-- Takesiyake Yepepoki -->
@@ -1651,10 +1651,10 @@
 			<Text>+25% ความสัมพันธ์ จากการเริ่มต้นหรือสนับสนุน ความร่วมมือ, -25% ความสัมพันธ์ จากการเริ่มต้น คว่ำบาตร หรือปฏิเสธ ความร่วมมือ</Text>		<!-- +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_MISSISSIPPI_SHAWNEE_DESCRIPTION" Language="th_TH">
-			<Text>ชาว [B]มิสซิสซิปปี [/B] เป็นร่วมสมัยกับบรรพบุรุษของ [B]ชอว์นี [/B]</Text>		<!-- The [B]Mississippians [/B] were a contemporary of the [B]Shawnee's [/B] ancestors. -->
+			<Text>ชาว [B]มิสซิสซิปปี[/B] เป็นร่วมสมัยกับบรรพบุรุษของ [B]ชอว์นี [/B]</Text>		<!-- The [B]Mississippians [/B] were a contemporary of the [B]Shawnee's [/B] ancestors. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_TECUMSEH_MISSISSIPPIAN_TOOLTIP" Language="th_TH">
-			<Text>บรรพบุรุษของ[B]เทคัมเซห์[/B] เป็นเพื่อนบ้านกับชาวมิสซิสซิปปี</Text>		<!-- [B]Tecumseh's[/B] ancestors were neighbors to the Mississippians. -->
+			<Text>บรรพบุรุษของ [B]เทคัมเซห์[/B] เป็นเพื่อนบ้านกับ [B]มิสซิสซิปปี[/B]</Text>		<!-- [B]Tecumseh's[/B] ancestors were neighbors to the [B]Mississippians.[/B] -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_TECUMSEH_DESCRIPTION" Language="th_TH">
 			<Text>เล่นเป็น [B]เทคัมเซห์[/B]</Text>		<!-- Play as [B]Tecumseh[/B]. -->
@@ -1666,7 +1666,7 @@
 			<Text>[B]เทคัมเซห์[/B] อาศัยอยู่ในดินแดนที่ต่อมาถูกครอบครองโดย [B]อเมริกา[/B]</Text>		<!-- [B]Tecumseh[/B] lived in lands later occupied by [B]America[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_TECUMSEH_MEXICO_TOOLTIP" Language="th_TH">
-			<Text>[B]เทคัมเซห์[/B] อาศัยอยู่ในดินแดนที่ต่อมาได้ถูกยึดครองโดย [B]เม็กซิโก[/B]</Text>		<!-- [B]Tecumseh[/B] lived in lands later occupied by [B]Mexico[/B]. -->
+			<Text>[B]เทคัมเซห์[/B] มาจาก อเมริกาเหนือ</Text>		<!-- [B]Tecumseh[/B] was from North America. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_SHAWNEE_DESCRIPTION" Language="th_TH">
 			<Text>เล่นเป็น [B]ชอว์นี[/B]</Text>		<!-- Play as the [B]Shawnee[/B]. -->
@@ -1693,7 +1693,7 @@
 			<Text>เป็น [B]เจ้านคร[/B] ของ 2 [B]นครรัฐ [/B]</Text>		<!-- Be [B]Suzerain[/B] of 2 [B]City-States[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_CITY_STATES_TOOLTIP" Language="th_TH">
-			<Text>[B]ชอว์นี[/B] เป็นเพื่อนกับหลายประเทศเล็กๆ</Text>		<!-- The [B]Shawnee[/B] were friends with many smaller nations. -->
+			<Text>[B]ชอว์นี[/B] เป็นเพื่อนกับหลายประเทศเล็กๆ</Text>		<!-- The [B]Shawnee [/B] were friends with many smaller nations. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_CITY_STATES_NARRATIVE" Language="th_TH">
 			<Text>อำนาจในดินแดน {1_Civilization_Adj} ไม่ได้มาจากเพียงแค่พระราชวัง แต่ยังมาจากเครือข่ายพันธมิตรทางการทูตที่เชื่อมโยงกัน ที่ซึ่งคำสอนของศาสดา เทนสควาทาวา ได้เริ่มแพร่หลายไปในหมู่ผู้ที่เคลื่อนไหวระหว่างนครรัฐ และเมืองของ {1_Civilization_Adj}; บทเรียนแห่งความสามัคคีท่ามกลางการเปลี่ยนแปลง</Text>		<!-- Power in {1_Civilization_Adj} lands emerges not only from the palace, but from the network of diplomatic alliances that converge there. The teachings of the prophet Tenskwatawa have begun to circulate among some that move between the city-states and {1_Civilization_Adj} cities; a lesson of unity in the face of change. -->

@@ -500,7 +500,7 @@
 			<Text>ความอดทนทางศาสนา</Text>		<!-- Religious Tolerance -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_CRISIS_RELIGIOUS_TOLERANCE_DESCRIPTION" Language="th_TH">
-			<Text>+4 ความสุข ใน ถิ่นฐาน ที่ไม่ปฏิบัติตามศาสนาของคุณ</Text>		<!-- +4 Happiness in Settlements not following your Religion. -->
+			<Text>+4 ความสุข ใน ถิ่นฐาน ที่ไม่นับถือศาสนาของคุณ</Text>		<!-- +4 Happiness in Settlements not following your Religion. -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_CRISIS_WESTPHALIAN_SOVEREIGNTY" Language="th_TH">
 			<Text>อธิปไตยแบบเวสต์ฟาเลีย</Text>		<!-- Westphalian Sovereignty -->
@@ -1673,10 +1673,7 @@
 			<Text>สวรรค์ของประชาชาติ</Text>		<!-- Paradise of Nations -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_MUGHAL_DESCRIPTION" Language="th_TH">
-			<Text>+75% [icon:YIELD_GOLD] ทอง จากแหล่งทั้งหมด, -25% ต่อผลผลิตอื่นๆ ทุกประเภท</Text>		<!-- +75% [icon:YIELD_GOLD] Gold from all sources. -25% to all other yields. -->
-		</Replace>
-		<Replace Tag="LOC_CIVILIZATION_MUGHAL_DESCRIPTION" Language="th_TH">
-			<Text>+75% [icon:YIELD_GOLD] ทอง จากแหล่งทั้งหมด, -25% ต่อผลผลิตอื่นๆ ทุกประเภท</Text>		<!-- +75% [icon:YIELD_GOLD] Gold from all sources. -25% to all other yields. -->
+			<Text>+75% ไปยังผลผลิต [icon:YIELD_GOLD] ทอง ทั้งหมด, -25% ต่อผลผลิตอื่นๆ ทุกประเภท</Text>		<!-- +75% to all [icon:YIELD_GOLD] Gold yields. -25% to all other yields. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_MUGHAL_ABILITY_DESCRIPTION" Language="th_TH">
 			<Text>[LIST][LI][B]+75% [icon:YIELD_GOLD] ทอง [/B]จากแหล่งทั้งหมด[LI][B]-25% [/B]สำหรับผลผลิตอื่นๆทั้งหมด[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]เพื่อการก่อสร้าง [B]ปราการสีแดง[/B][/LIST]</Text>		<!-- [LIST][LI][B]+75% [icon:YIELD_GOLD] Gold [/B]from all sources.[LI][B]-25% [/B]to all other yields.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Red Fort[/B].[/LIST] -->
@@ -1706,7 +1703,7 @@
 			<Text>+4[icon:YIELD_GOLD] ทอง, +3[icon:YIELD_CULTURE] วัฒนธรรม, +2[icon:YIELD_DIPLOMACY] อิทธิพล, แต่ -1[icon:YIELD_SCIENCE] วิทยาศาสตร์ จากทรัพยากรที่นำเข้า</Text>		<!-- +4[icon:YIELD_GOLD] Gold, +3[icon:YIELD_CULTURE] Culture, +2[icon:YIELD_DIPLOMACY] Influence, but -1[icon:YIELD_SCIENCE] Science from Imported Resources. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_QING_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+4[icon:YIELD_GOLD], +3[icon:YIELD_CULTURE] วัฒนธรรม, +2[icon:YIELD_DIPLOMACY] อิทธิพล [/B]แต่ [B]-1[icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]จาก [B]ทรัพยากรที่นำเข้า[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]รีสอร์ทภูเขาเฉิงเต๋อ[/B][/LIST]</Text>		<!-- [LIST][LI][B]+4[icon:YIELD_GOLD], +3[icon:YIELD_CULTURE] Culture, +2[icon:YIELD_DIPLOMACY] Influence[/B]but [B]-1[icon:YIELD_SCIENCE] Science [/B]from [B]imported Resources[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Chengde Mountain Resort[/B].[/LIST] -->
+			<Text>[LIST][LI][B]+4[icon:YIELD_GOLD] ทอง, +3[icon:YIELD_CULTURE] วัฒนธรรม, +2[icon:YIELD_DIPLOMACY] อิทธิพล, [/B]แต่ [B]-1[icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]จาก [B]ทรัพยากรที่นำเข้า[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]รีสอร์ทภูเขาเฉิงเต๋อ[/B][/LIST]</Text>		<!-- [LIST][LI][B]+4[icon:YIELD_GOLD] Gold, +3[icon:YIELD_CULTURE] Culture, +2[icon:YIELD_DIPLOMACY] Influence, [/B]but [B]-1[icon:YIELD_SCIENCE] Science [/B]from [B]imported Resources[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Chengde Mountain Resort[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_QING_DESCRIPTION" Language="th_TH">
 			<Text>+30%[icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องกับ ราชวงศ์ชิง</Text>		<!-- +30%[icon:YIELD_PRODUCTION] Production from being Qing's associated Wonder. -->
@@ -1730,7 +1727,7 @@
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องกับรัสเซีย</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Russia's associated Wonder. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_SIAM_ABILITY_NAME" Language="th_TH">
-			<Text>อิสรภาพ</Text>		<!-- Itsapharahab -->
+			<Text>อิสรภาพ</Text>		<!-- Itsaraphab -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_SIAM_DESCRIPTION" Language="th_TH">
 			<Text>ได้รับการกระทำทางการทูตที่ไม่เหมือนใครเพื่อให้กลายเป็นผู้มีอำนาจเหนือกว่านครรัฐทันที โดยมีค่าใช้จ่ายด้านอิทธิพล [icon:YIELD_DIPLOMACY] ที่สูงกว่าการเป็นมิตรกับเมืองที่เป็นอิสระ</Text>		<!-- Gains a unique Diplomatic Action to immediately become Suzerain of a City-State at a higher [icon:YIELD_DIPLOMACY] Influence cost than Befriend Independent. -->
@@ -3083,10 +3080,10 @@
 			<Text>สถานีรถไฟ</Text>		<!-- Rail Station -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_RAIL_STATION_DESCRIPTION" Language="th_TH">
-			<Text>+8[icon:YIELD_GOLD] ทอง, +10%[icon:YIELD_PRODUCTION] กำลังผลิต ในการฝึกยูนิตในเมืองที่มีทางรถไฟ เมื่อสร้างขึ้น จะอัพเกรดถนนใดๆ ที่เชื่อมไปยังพื้นที่ถิ่นฐาน ที่มีสถานีรถไฟเป็นทางรถไฟ ทางรถไฟอนุญาตให้ยูนิต เคลื่อนที่จากพื้นที่ตั้งถิ่นฐานหนึ่ง ที่มีสถานีรถไฟไปยังอีกแห่งหนึ่ง, อาคารด้านทอง ยุคใหม่, ใช้พื้นที่เต็มและไม่สามารถจับคู่กับอาคารอื่นได้ สามารถซื้อได้ในเมือง</Text>		<!-- +8[icon:YIELD_GOLD] Gold. +10%[icon:YIELD_PRODUCTION] Production towards training Units in Cities with a Railroad. When built, upgrades any Roads to Settlements that also have a Rail Station into Railroads. Railroads allow Units to move from one Settlement with a Rail Station to another. Modern Gold Building. Occupies a full tile and cannot be paired with another Building. Can be purchased in Towns. -->
+			<Text>+8[icon:YIELD_GOLD] ทอง, +10%[icon:YIELD_PRODUCTION] กำลังผลิต ในการฝึกยูนิตในเมืองที่มีทางรถไฟ เมื่อสร้างขึ้น จะอัพเกรดถนนใดๆ ที่เชื่อมไปยังพื้นที่ถิ่นฐาน ที่มีสถานีรถไฟเป็นทางรถไฟ ทางรถไฟอนุญาตให้ยูนิต เคลื่อนที่จากพื้นที่ตั้งถิ่นฐานหนึ่ง ที่มีสถานีรถไฟไปยังอีกแห่งหนึ่ง, อาคารด้านทอง ยุคใหม่, ใช้พื้นที่เต็มและไม่สามารถจับคู่กับอาคารอื่นได้, สามารถซื้อได้ในเมือง</Text>		<!-- +8[icon:YIELD_GOLD] Gold. +10%[icon:YIELD_PRODUCTION] Production towards training Units in Cities with a Railroad. When built, upgrades any Roads to Settlements that also have a Rail Station into Railroads. Railroads allow Units to move from one Settlement with a Rail Station to another. Modern Gold Building. Occupies a full tile and cannot be paired with another Building. Can be purchased in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_RAIL_STATION_TOOLTIP" Language="th_TH">
-			<Text>+10%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อฝึกยูนิตในเมืองที่มีรถไฟราง เมื่อสร้างเสร็จจะอัปเกรดถนนใด ๆ ไปยังเขตที่มีสถานีรถไฟเป็นรถไฟ รางรถไฟช่วยให้ยูนิต สามารถเคลื่อนที่ จากเขตหนึ่งที่มีสถานีรถไฟ ไปยังอีกเขตหนึ่งได้, อาคารด้านทอง ยุคใหม่, ใช้ช่องแบบเต็มแผ่น และไม่สามารถจับคู่กับอาคารอื่นได้, สามารถซื้อได้ในเมือง</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards training Units in Cities with a Railroad. When built, upgrades any Roads to Settlements that also have a Rail Station into Railroads. Railroads allow Units to move from one Settlement with a Rail Station to another. Modern Gold Building. Occupies a full tile and cannot be paired with another Building. Can be purchased in Towns. -->
+			<Text>เมื่อสร้างเสร็จ จะอัปเกรดถนนที่เชื่อมต่อเมืองที่มีสถานีรถไฟให้เป็นทางรถไฟ ทางรถไฟช่วยให้หน่วยสามารถเคลื่อนที่ จากเมืองหนึ่งที่มีสถานีรถไฟไปยังอีกเมืองหนึ่งได้, อาคารด้านทอง ยุคใหม่, ใช้พื้นที่เต็มและไม่สามารถจับคู่กับอาคารอื่นได้, สามารถซื้อได้ในเมือง</Text>		<!-- When built, upgrades any Roads to Settlements that also have a Rail Station into Railroads. Railroads allow Units to move from one Settlement with a Rail Station to another. Modern Gold Building. Occupies a full tile and cannot be paired with another Building. Can be purchased in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_RAILYARD_CONNECTED_PRODUCTION_DESCRIPTION" Language="th_TH">
 			<Text>+10%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการฝึกยูนิตในเมืองที่มีรถไฟรถไฟ</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards training Units in Cities with a Railroad. -->
@@ -3137,10 +3134,7 @@
 			<Text>โรงงานเหล็ก</Text>		<!-- Steel Mill -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_STEEL_MILL_DESCRIPTION" Language="th_TH">
-			<Text>+6[icon:YIELD_PRODUCTION] กำลังผลิต, [icon:YIELD_GOLD] ทอง โบนัสใกล้เคียง ทรัพยากรและสิ่งมหัศจรรย์, อาคารพิเศษด้านการผลิต สำหรับอเมริกา, คงอยู่ตลอดกาล</Text>		<!-- +6[icon:YIELD_PRODUCTION] Production. [icon:YIELD_GOLD] Gold adjacency for Resources and Wonders. American Unique Production Building. Ageless. -->
-		</Replace>
-		<Replace Tag="LOC_BUILDING_STEEL_MILL_DESCRIPTION" Language="th_TH">
-			<Text>+6[icon:YIELD_PRODUCTION] กำลังผลิต, [icon:YIELD_GOLD] ทอง โบนัสใกล้เคียง ทรัพยากรและสิ่งมหัศจรรย์, อาคารพิเศษด้านการผลิต สำหรับอเมริกา, คงอยู่ตลอดกาล</Text>		<!-- +6[icon:YIELD_PRODUCTION] Production. [icon:YIELD_GOLD] Gold adjacency for Resources and Wonders. American Unique Production Building. Ageless. -->
+			<Text>+6[icon:YIELD_PRODUCTION] กำลังผลิต, +1[icon:YIELD_GOLD] ทอง โบนัสใกล้เคียง ทรัพยากรและสิ่งมหัศจรรย์, อาคารพิเศษด้านการผลิต สำหรับอเมริกา, คงอยู่ตลอดกาล</Text>		<!-- +6[icon:YIELD_PRODUCTION] Production. +1[icon:YIELD_GOLD] Gold Adjacency for Resources and Wonders. American Unique Production Building. Ageless. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_STEEL_MILL_TOOLTIP" Language="th_TH">
 			<Text>อาคารพิเศษด้านการผลิต สำหรับอเมริกา, คงอยู่ตลอดกาล</Text>		<!-- American Unique Production Building. Ageless. -->
@@ -3299,13 +3293,13 @@
 			<Text>พื้นที่อุตสาหกรรม</Text>		<!-- Industrial Park -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_INDUSTRIAL_PARK_DESCRIPTION" Language="th_TH">
-			<Text>ย่านพิเศษของ อเมริกัน สร้างขึ้นโดยการก่อสร้าง ลานรถไฟ และ โรงงานเหล็ก ในเขตเดียวกัน +2[icon:YIELD_FOOD] อาหาร ในเมืองนี้ สำหรับทรัพยากรที่มอบหมายให้กับเมืองนี้ทุกยูนิต</Text>		<!-- American Unique Quarter. Created by constructing the Railyard and Steel Mill in the same District. +2[icon:YIELD_FOOD] Food in this City for every Resource assigned to this City. -->
+			<Text>ย่านพิเศษของ อเมริกัน สร้างขึ้นโดยการก่อสร้าง ลานรถไฟ และ โรงงานเหล็ก ในเขตเดียวกัน, เพิ่มจำนวนของ [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร ที่อาจจะจัดสรรได้ในถิ่นฐานนี้ 2 หน่วย</Text>		<!-- American Unique Quarter. Created by constructing the Railyard and Steel Mill in the same District. Increases the number of [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources that may be assigned to this Settlement by 2. -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_INDUSTRIAL_PARK_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_FOOD] อาหาร ในเมืองนี้สำหรับทุกทรัพยากรที่ถูกกำหนดให้กับเมืองนี้</Text>		<!-- +2[icon:YIELD_FOOD] Food in this City for every Resource assigned to this City. -->
+			<Text>เพิ่มจำนวนของ [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร ที่อาจจะจัดสรรได้ในถิ่นฐานนี้ 2 หน่วย</Text>		<!-- Increases the number of [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources that may be assigned to this Settlement by 2. -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_AVENUE_NAME" Language="th_TH">
-			<Text>บูเลอวาร์ด</Text>		<!-- Avenue -->
+			<Text>อาเวนู</Text>		<!-- Avenue -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_AVENUE_DESCRIPTION" Language="th_TH">
 			<Text>ย่านพิเศษของ จักรวรรดิ์ฝรั่งเศษ สร้างขึ้นโดยการสร้าง "ชาร์ดัง อา ลา ฟร็องเซ" และ "ซาลอน" ในเขตเดียวกัน +2[icon:YIELD_HAPPINESS] ความสุข ในเขตนี้ของเมือง</Text>		<!-- French Imperial Unique Quarter. Created by constructing the Jardin à la Française and Salon in the same District. +2[icon:YIELD_HAPPINESS] Happiness on Quarters in this City. -->
@@ -3317,7 +3311,7 @@
 			<Text>ไซบัตสึ</Text>		<!-- Zaibatsu -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_ZAIBATSU_DESCRIPTION" Language="th_TH">
-			<Text>ย่านพิเศษของ เมจิ สร้างขึ้นโดยการก่อสร้าง กินโกะ และ จูโคเกียว ในเขตเดียวกัน, +1[icon:YIELD_GOLD] ทอง และ[icon:YIELD_PRODUCTION] กำลังผลิต บนอาคารที่อยู่ติดกับเขต</Text>		<!-- Meiji Unique Quarter. Created by constructing the Ginkō and Jukogyo in the same District. +1[icon:YIELD_GOLD] Gold and[icon:YIELD_PRODUCTION] Production on Buildings in adjacent Districts. -->
+			<Text>ย่านพิเศษของ เมจิ สร้างขึ้นโดยการก่อสร้าง กินโกะ และ จูโคเกียว ในเขตเดียวกัน, +1[icon:YIELD_GOLD] ทอง และ[icon:YIELD_PRODUCTION] กำลังผลิต บนอาคารที่อยู่ติดกับเขต,  เพิ่มจำนวนของ [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร ที่อาจจะจัดสรรได้ในถิ่นฐานนี้ 1 หน่วย</Text>		<!-- Meiji Unique Quarter. Created by constructing the Ginkō and Jukogyo in the same District. +1[icon:YIELD_GOLD] Gold and[icon:YIELD_PRODUCTION] Production on Buildings in adjacent Districts. Increases the number of [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources that may be assigned to this Settlement by 1. -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_ZAIBATSU_TOOLTIP" Language="th_TH">
 			<Text>+1[icon:YIELD_GOLD] ทอง และ[icon:YIELD_PRODUCTION] กำลังผลิต ในอาคารในเขตติดกัน</Text>		<!-- +1[icon:YIELD_GOLD] Gold and[icon:YIELD_PRODUCTION] Production on Buildings in adjacent Districts. -->
@@ -3434,10 +3428,7 @@
 			<Text>+5[icon:YIELD_CULTURE] วัฒนธรรม, +2[icon:YIELD_HAPPINESS] ความสุข จากผลงานชิ้นเอก, +10%[icon:YIELD_HAPPINESS] ความสุข ในเมืองนี้, มีช่องสำหรับโบราณวัตถุ 3 ช่อง, คงอยู่ตลอดกาล, ต้องวางติดกับเขต</Text>		<!-- +5[icon:YIELD_CULTURE] Culture. +2[icon:YIELD_HAPPINESS] Happiness on Great Works. +10%[icon:YIELD_HAPPINESS] Happiness in this City. Has 3 Artifact slots. Ageless. Must be placed adjacent to a District. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_PALACIO_DE_BELLAS_ARTES_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_HAPPINESS] ความสุข จากผลงานชิ้นเอก, +10%[icon:YIELD_HAPPINESS] ความสุข ในเมืองนี้, มีช่องอาร์ติแฟค 3 ช่อง, คงอยู่ตลอดกาล, จะต้องตั้งอยู่ติดกับเขต</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness on Great Works. +10%[icon:YIELD_HAPPINESS] Happiness in this City. Has 3 Artifact slots. Ageless. Must be placed adjacent to a District. -->
-		</Replace>
-		<Replace Tag="LOC_WONDER_PALACIO_DE_BELLAS_ARTES_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_HAPPINESS] ความสุข จากผลงานชิ้นเอก, +10%[icon:YIELD_HAPPINESS] ความสุข ในเมืองนี้, มีช่องอาร์ติแฟค 3 ช่อง, คงอยู่ตลอดกาล, จะต้องตั้งอยู่ติดกับเขต</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness on Great Works. +10%[icon:YIELD_HAPPINESS] Happiness in this City. Has 3 Artifact slots. Ageless. Must be placed adjacent to a District. -->
+			<Text>+2[icon:YIELD_HAPPINESS] ความสุข จากผลงานชิ้นเอก, +10%[icon:YIELD_HAPPINESS] ความสุข ในเมืองนี้, มีช่องโบราณวัตถุ 3 ช่อง, คงอยู่ตลอดกาล, จะต้องตั้งอยู่ติดกับเขต</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness on Great Works. +10%[icon:YIELD_HAPPINESS] Happiness in this City. Has 3 Artifact slots. Ageless. Must be placed adjacent to a District. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_RED_FORT_NAME" Language="th_TH">
 			<Text>ปราการสีแดง</Text>		<!-- Red Fort -->
@@ -3698,7 +3689,7 @@
 			<Text>นักสำรวจสามารถศึกษาโบราณวัตถุ ที่ถูกฝังมานานตั้งแต่ยุคสำรวจ</Text>		<!-- Explorers can Research Artifacts buried since the Exploration Age. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIVIC_MO_ANTIQUITY_ARCHAEOLOGY_DESCRIPTION" Language="th_TH">
-			<Text>นักสำรวจสามารถค้นคว้าโบราณวัตถุ ที่ถูกฝังมานานตั้งแต่ยุคโบราณ</Text>		<!-- Explorers can Research Artifacts buried since the Antiquity Age. -->
+			<Text>นักสำรวจสามารถค้นคว้าโบราณวัตถุ ที่ถูกฝังมานานตั้งแต่ยุคโบราณ, ได้รับ โบราณวัตถุ ฟรีเมื่อค้นคว้าโบราณวัตถุ</Text>		<!-- Explorers can Research Artifacts buried since the Antiquity Age. Gain a free Artifact when Researching Artifacts. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_MO_TRADITION_SLOT_DESCRIPTION" Language="th_TH">
 			<Text>+1 ช่องนโยบายสังคม</Text>		<!-- +1 Social Policy slot. -->
@@ -3710,13 +3701,13 @@
 			<Text>+1 คะแนน คุณลักษณะไวลด์การ์ด</Text>		<!-- +1 Wildcard Attribute Point. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_DEMOCRACY_RIFLEMEN_DESCRIPTION" Language="th_TH">
-			<Text>+4 ยูนิตทหารราบ</Text>		<!-- +4 Infantry Units. -->
+			<Text>+4 ยูนิตทหารราบ ใน เมืองหลวง</Text>		<!-- +4 Infantry Units in Capital. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_FASCISM_LANDSHIP_DESCRIPTION" Language="th_TH">
-			<Text>+3 ยูนิตทหารม้า</Text>		<!-- +3 Cavalry Units. -->
+			<Text>+3 ยูนิตทหารม้า ใน เมืองหลวง</Text>		<!-- +3 Cavalry Units in Capital. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_COMMUNISM_AT_GUNS_DESCRIPTION" Language="th_TH">
-			<Text>+3 ยูนิตระยะไกล</Text>		<!-- +3 Ranged Units. -->
+			<Text>+3 ยูนิตระยะไกล ใน เมืองหลวง</Text>		<!-- +3 Ranged Units in Capital. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_MO_FUTURE_CIVIC_ATTRIBUTE_DESCRIPTION" Language="th_TH">
 			<Text>+1 คะแนน คุณลักษณะไวลด์การ์ด</Text>		<!-- +1 Wildcard Attribute Point. -->
@@ -4496,13 +4487,7 @@
 			<Text>คาร์ล ฟอน คลอสวิตซ์</Text>		<!-- Carl von Clausewitz -->
 		</Replace>
 		<Replace Tag="LOC_MOD_RUHR_CONSTRUCTIBLE_RIVER_PRODUCTION_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต เมื่อใกล้เคียงกับอาคารทั้งหมด ที่ตั้งอยู่บนแม่น้ำใหญ่</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production adjacency to all buildings on Navigable Rivers. -->
-		</Replace>
-		<Replace Tag="LOC_MOD_RUHR_CONSTRUCTIBLE_RIVER_PRODUCTION_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต เมื่อใกล้เคียงกับอาคารทั้งหมด ที่ตั้งอยู่บนแม่น้ำใหญ่</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production adjacency to all buildings on Navigable Rivers. -->
-		</Replace>
-		<Replace Tag="LOC_MOD_RUHR_STRATEGIC_RESOURCE_SCIENCE_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์ ในพื้นที่ทรัพยากร</Text>		<!-- +2[icon:YIELD_SCIENCE] Science on Resources. -->
+			<Text>อาคารทุกแห่งได้รับ +1[icon:YIELD_PRODUCTION] กำลังผลิต โบนัสใกล้เคียง สำหรับ แม่น้ำใหญ่</Text>		<!-- All Buildings gain a +1[icon:YIELD_PRODUCTION] Production Adjacency for Navigable Rivers. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_RUHR_STRATEGIC_RESOURCE_SCIENCE_DESCRIPTION" Language="th_TH">
 			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์ ในพื้นที่ทรัพยากร</Text>		<!-- +2[icon:YIELD_SCIENCE] Science on Resources. -->
@@ -5060,7 +5045,7 @@
 			<Text>เปิดใช้งานที่ผู้บัญชาการเพื่อให้ยูนิตในรัศมีบัญชาการ +1 พลังต่อสู้, ในแต่ละนครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- Activate on a Commander to grant Units in the Command Radius +1 Combat Strength for every City-State you are Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_UPARAT_VAJRAVUDH_NAME" Language="th_TH">
-			<Text>วชิราวุฒิ</Text>		<!-- Vajravudh -->
+			<Text>วชิราวุฒิ</Text>		<!-- Vajiravudh -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_UPARAT_VAJRAVUDH_DESCRIPTION" Language="th_TH">
 			<Text>เปิดใช้งานใน เขต เพื่อให้เมืองได้รับ +4[icon:YIELD_SCIENCE] วิทยาศาสตร์, ในแต่ละนครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- Activate on a District to give the City +4[icon:YIELD_SCIENCE] Science for every City-State you are Suzerain of. -->
@@ -5723,7 +5708,7 @@
 			<Text>จากทะเลสาบ ด้วยเรือรบและหอก ปืนไรเฟิลและอำนาจของกษัตริย์ ชาวบากันดาของบูกันดามา ให้ทุกคนคุกเข่าลงก่อนบัลลังก์ของกษัตริย์</Text>		<!-- From the lakes, with war-canoe and spear, rifle and kingly authority, the Baganda of Buganda come. Let all kneel before the throne of the kabakas. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_INTRO_FRENCH_EMPIRE" Language="th_TH">
-			<Text>ฝรั่งเศสมองออกไปยังโลกที่ยังไม่สมบูรณ์-- ผืนผ้าใบว่างที่รอให้ถูกทำเครื่องหมาย</Text>		<!-- France looks out upon an incomplete world a blank canvas waiting to be marked. -->
+			<Text>ฝรั่งเศสมองออกไปยังโลกที่ยังไม่สมบูรณ์-- ผืนผ้าใบว่างที่รอให้ถูกทำเครื่องหมาย</Text>		<!-- France looks out upon an incomplete world – a blank canvas waiting to be marked. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_INTRO_MEIJI" Language="th_TH">
 			<Text>เมื่อตะวันทอแสง เมจิเคลื่อนสู่จุดสูงสุด</Text>		<!-- The sun rises. The Meiji ascend. -->
@@ -6923,13 +6908,13 @@
 			<Text>เส้นทางแห่งสันติภาพ</Text>		<!-- The Path of Peace -->
 		</Replace>
 		<Replace Tag="LOC_3098A_COMPLETION" Language="th_TH">
-			<Text>เมื่อสงครามสิ้นสุดลง ประชาชนปรัสเซียกระหายสิ่งที่จะแสดงถึงความเป็นหนึ่งเดียวของพวกเขา แต่ไม่มีใครสามารถตกลงกันได้ว่าฉลองด้วยวันหยุดหรืออนุสาวรีย์จะเป็นสิ่งที่ยืนยาวได้ดีกว่า</Text>		<!-- As the war ends, the Prussian people are hungry for something to celebrate their unity. But no one can agree on whether a holiday or a monument will better stand the test of time. -->
+			<Text>เมื่อสงครามสิ้นสุดลง ประชาชนปรัสเซียกระหายสิ่งที่จะแสดงถึงความเป็นหนึ่งเดียวของพวกเขา แต่ไม่มีใครสามารถตกลงกันได้ว่าฉลองด้วยวันหยุด หรืออนุสาวรีย์จะเป็นสิ่งที่ยืนยาวได้ดีกว่า</Text>		<!-- As the war ends, the Prussian people are hungry for something to celebrate their unity. But no one can agree on whether a holiday or a monument will better stand the test of time. -->
 		</Replace>
 		<Replace Tag="LOC_3098B_STORYTITLE" Language="th_TH">
 			<Text>เส้นทางแห่งสันติภาพ</Text>		<!-- The Path of Peace -->
 		</Replace>
 		<Replace Tag="LOC_3098B_NAME" Language="th_TH">
-			<Text>สร้างประตูแบรนเดนบูร์กใน 25 เทิร์น</Text>		<!-- Build the Brandenburg Gate in 25 turns. -->
+			<Text>สั่งให้สถาปนิกออกแบบ</Text>		<!-- Commission the architects. -->
 		</Replace>
 		<Replace Tag="LOC_3098B_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
@@ -10087,13 +10072,13 @@
 			<Text>พวกเขาจะเริ่มไม่สนใจกับกลิ่นในสักวันหนึ่ง</Text>		<!-- They will stop noticing the smell in time. -->
 		</Replace>
 		<Replace Tag="LOC_206B_DESCRIPTION" Language="th_TH">
-			<Text>+1 อาหาร และ +1 ความสุข ในร้านขายของชำ แต่ -1 กำลังผลิต ในโรงงานทุกถิ่นฐาน</Text>		<!-- +1 Food and +1 Happiness on Grocers, but -1 Production on Factories in all Settlements. -->
+			<Text>+3 อาหาร และ +3 ความสุข ในร้านขายของชำ, แต่ -3 กำลังผลิต บนโรงงาน ในทุกถิ่นฐาน</Text>		<!-- +3 Food and +3 Happiness on Grocers, but -3 Production on Factories in all Settlements. -->
 		</Replace>
 		<Replace Tag="LOC_206C_NAME" Language="th_TH">
 			<Text>ยุติการสะสมยางธรรมชาติ</Text>		<!-- End the rubber stockpiles. -->
 		</Replace>
 		<Replace Tag="LOC_206C_DESCRIPTION" Language="th_TH">
-			<Text>-1 อาหารและ -1 ความสุขในร้านขายของชำ แต่ +1 กำลังผลิต ในโรงงานทุกถิ่นฐาน</Text>		<!-- -1 Food and -1 Happiness on Grocers, but +1 Production on Factories in all Settlements. -->
+			<Text>-3 อาหารและ -3 ความสุขในร้านขายของชำ แต่ +3 กำลังผลิต บนโรงงาน ในทุกถิ่นฐาน</Text>		<!-- -3 Food and -3 Happiness on Grocers, but +3 Production on Factories in all Settlements. -->
 		</Replace>
 		<Replace Tag="LOC_207A_STORYTITLE" Language="th_TH">
 			<Text>ความช่วยเหลือจากส้ม</Text>		<!-- Orange Aid -->
@@ -10945,7 +10930,7 @@
 			<Text>ผู้คนที่ถูกลืม</Text>		<!-- A Forgotten People -->
 		</Replace>
 		<Replace Tag="LOC_ARCHAEOLOGY_2A_COMPLETION" Language="th_TH">
-			<Text>นักโบราณคดีค้นพบซากหมู่บ้านที่เรียกว่า {1_archaeology_independent} หมู่บ้านนี้มีอายุสั้น โดยถูกกระจายโดยอารยธรรม {2_archaeology_source_civ_adj} ในช่วงยุค {3_archaeology_age}</Text>		<!-- Archaeologists uncover remnants of a village called {1_archaeology_independent}. This village was short-lived, having been dispersed by the {2_archaeology_source_civ_adj} civilization during the {3_archaeology_age} age. -->
+			<Text>นักโบราณคดีค้นพบซากของ {1_archaeology_independent}, หมู่บ้านนี้มีอายุสั้น โดยถูกทำลายโดยอารยธรรม {2_archaeology_source_civ_adj} ในช่วงยุค {3_archaeology_age}</Text>		<!-- Archaeologists uncover remnants of {1_archaeology_independent}. This village was short-lived, having been dispersed by the {2_archaeology_source_civ_adj} civilization during the {3_archaeology_age} age. -->
 		</Replace>
 		<Replace Tag="LOC_ARCHAEOLOGY_2B_NAME" Language="th_TH">
 			<Text>อ้างสิทธิ์ในโบราณวัตถุนี้</Text>		<!-- Claim the artifact. -->
@@ -10969,7 +10954,7 @@
 			<Text>ความเสียหายจากสงครามและกาลเวลา</Text>		<!-- The Ravages of War and Time -->
 		</Replace>
 		<Replace Tag="LOC_ARCHAEOLOGY_3A_COMPLETION" Language="th_TH">
-			<Text>บางครั้งไม่มีสัญญาณใดของอารยธรรมมนุษย์ที่แน่นอนมากไปกว่าถิ่นฐานที่ถูกทำลายด้วยสงคราม ไม่ว่าจะเป็นความขัดแย้งใด ทหารที่ {1_archaeology_source_civ_adj} ของยุค {2_archaeology_age} ได้อยู่ที่นี่ ไม่ว่าจะเป็นผู้ชนะหรือไม่ก็ตาม</Text>		<!-- There is sometimes no surer sign of human civilization than a settlement ravaged by war. Whatever the conflict, the {1_archaeology_source_civ_adj} soldiers of the {2_archaeology_age} age were here, whether victors or not. -->
+			<Text>บางครั้งไม่มีสัญญาณใดของอารยธรรมมนุษย์ที่แน่นอนมากไปกว่า ถิ่นฐานที่ถูกทำลายด้วยสงคราม ไม่ว่าจะเป็นความขัดแย้งใด ทหารที่ {1_archaeology_source_civ_adj} ของยุค {2_archaeology_age} ได้อยู่ที่นี่ ไม่ว่าจะเป็นผู้ชนะหรือไม่ก็ตาม</Text>		<!-- There is sometimes no surer sign of human civilization than a settlement ravaged by war. Whatever the conflict, the {1_archaeology_source_civ_adj} soldiers of the {2_archaeology_age} age were here, whether victors or not. -->
 		</Replace>
 		<Replace Tag="LOC_ARCHAEOLOGY_3B_NAME" Language="th_TH">
 			<Text>อ้างสิทธิ์ในโบราณวัตถุ</Text>		<!-- Claim the artifact. -->
@@ -11068,7 +11053,7 @@
 			<Text>+1 โบราณวัตถุ</Text>		<!-- +1 Artifact. -->
 		</Replace>
 		<Replace Tag="LOC_ARCHAEOLOGY_7A_COMPLETION" Language="th_TH">
-			<Text>นักโบราณคดีค้นพบซากปรักหักพังของหมู่บ้านที่เรียกว่า {1_archaeology_independent} หมู่บ้านนี้มีอายุสั้น ถูกกระจายโดยอารยธรรม {2_archaeology_source_civ_adj} ในยุค {3_archaeology_age} แต่ [b]{4_reward}[/b] ที่ได้รับการอนุรักษ์ไว้อย่างดี ยังคงอยู่เพื่อเล่าเรื่องราวของมัน</Text>		<!-- Archaeologists uncover remnants of a village called {1_archaeology_independent}. This village was short-lived, having been dispersed by the {2_archaeology_source_civ_adj} civilization during the {3_archaeology_age} age. But a well-preserved [b]{4_reward}[/b] survives to tell its story. -->
+			<Text>นักโบราณคดีค้นพบซากของ {1_archaeology_independent}, หมู่บ้านนี้มีอายุสั้น ถูกทำลายโดยอารยธรรม {2_archaeology_source_civ_adj} ในยุค {3_archaeology_age}, แต่ [b]{4_reward}[/b] ได้รับการอนุรักษ์ไว้อย่างดี เพื่อเล่าเรื่องราวของมัน</Text>		<!-- Archaeologists uncover remnants of {1_archaeology_independent}. This village was short-lived, having been dispersed by the {2_archaeology_source_civ_adj} civilization during the {3_archaeology_age} age. But a well-preserved [b]{4_reward}[/b] survives to tell its story. -->
 		</Replace>
 		<Replace Tag="LOC_ARCHAEOLOGY_8A_STORYTITLE" Language="th_TH">
 			<Text>ความเสียหายจากสงครามและกาลเวลา</Text>		<!-- The Ravages of War and Time -->
@@ -11077,7 +11062,7 @@
 			<Text>+1 โบราณวัตถุ</Text>		<!-- +1 Artifact. -->
 		</Replace>
 		<Replace Tag="LOC_ARCHAEOLOGY_8A_COMPLETION" Language="th_TH">
-			<Text>บางครั้งไม่มีสัญญาณใดของอารยธรรมมนุษย์ที่แน่นอนกว่าแผ่นดินที่ชุ่มด้วยเลือด และสิ่งนี้ยืนยันข้อสงสัยของนักสำรวจ อย่างไรก็ตามข้อขัดแย้ง เหล่าทหารแห่ง{2_archaeology_source_civ_adj}ในยุค{3_archaeology_age}อยู่ที่นี่ ไม่ว่าจะเป็นผู้ชนะหรือไม่ก็ตาม</Text>		<!-- There is sometimes no surer sign of human civilization than a land soaked with blood, and this [b]{1_reward}[/b] confirms explorers' suspicions. Whatever the conflict, the {2_archaeology_source_civ_adj} soldiers of the {3_archaeology_age} age were here, whether victors or not. -->
+			<Text>บางครั้งไม่มีสัญญาณใดของอารยธรรมมนุษย์ที่แน่นอนกว่า แผ่นดินที่ชุ่มด้วยเลือด และสิ่งนี้ยืนยันข้อสงสัยของนักสำรวจ อย่างไรก็ตามข้อขัดแย้ง เหล่าทหารแห่ง {2_archaeology_source_civ_adj} ในยุค {3_archaeology_age} อยู่ที่นี่ ไม่ว่าจะเป็นผู้ชนะหรือไม่ก็ตาม</Text>		<!-- There is sometimes no surer sign of human civilization than a land soaked with blood, and this [b]{1_reward}[/b] confirms explorers' suspicions. Whatever the conflict, the {2_archaeology_source_civ_adj} soldiers of the {3_archaeology_age} age were here, whether victors or not. -->
 		</Replace>
 		<Replace Tag="LOC_ARCHAEOLOGY_9A_STORYTITLE" Language="th_TH">
 			<Text>ความทะเยอทะยานที่ยังไม่บรรลุ</Text>		<!-- Unmet Ambition -->
@@ -11092,7 +11077,7 @@
 			<Text>ธรรมชาติที่ไม่อาจต้านทานได้</Text>		<!-- Indomitable Nature -->
 		</Replace>
 		<Replace Tag="LOC_ARCHAEOLOGY_10A_DESCRIPTION" Language="th_TH">
-			<Text>อาร์ติแฟกต์ +1</Text>		<!-- +1 Artifact. -->
+			<Text>+1 โบราณวัตถุ</Text>		<!-- +1 Artifact. -->
 		</Replace>
 		<Replace Tag="LOC_ARCHAEOLOGY_10A_COMPLETION" Language="th_TH">
 			<Text>ในเงาแห่ง {1_archaeology_volcano} นักสำรวจค้นพบโครงกระดูกของย่าน {2_archaeology_source_civ: gender *:an?an; other?a;} {2_archaeology_source_civ_adj} ที่ถูกทำลายล้างโดยภูเขาใหญ่นี้ในยุค {3_archaeology_age} แต่ไม่สามารถทำลายทุกสิ่งได้: [b]{4_reward}[/b] ที่ได้รับการอนุรักษ์ไว้เป็นอย่างดีอยู่ท่ามกลางการค้นพบของนักโบราณคดี</Text>		<!-- In the shadow of {1_archaeology_volcano}, explorers find the bones of {2_archaeology_source_civ: gender *:an?an; other?a;} {2_archaeology_source_civ_adj} neighborhood laid to waste by the great mountain during the {3_archaeology_age} age. But it could not destroy everything: a well-preserved [b]{4_reward}[/b] lies among the archaeologists' findings. -->
@@ -11125,7 +11110,7 @@
 			<Text>โบราณวัตถุจะสูญหาย</Text>		<!-- Artifact will be lost. -->
 		</Replace>
 		<Replace Tag="LOC_ARCHAEOLOGY_12D_DESCRIPTION" Language="th_TH">
-			<Text>+1 อาร์ติแฟกต์</Text>		<!-- +1 Artifact. -->
+			<Text>+1 โบราณวัตถุ</Text>		<!-- +1 Artifact. -->
 		</Replace>
 		<Replace Tag="LOC_ARCHAEOLOGY_12D_COMPLETION" Language="th_TH">
 			<Text>ขณะที่พวกเขาเตรียมที่จะขุดซาก {1_archaeology_source_civ_adj} [b]{2_reward}[/b], อันได้รับการอนุรักษ์ไว้อย่างดี นักโบราณคดีก็สงสัยว่าผลงานจากอดีตนั้นลึกถึงกี่ชั้น</Text>		<!-- As they prepare to remove a well-preserved {1_archaeology_source_civ_adj} [b]{2_reward}[/b], the archaeologists wonder just how many layers deep the past goes. -->
@@ -13733,13 +13718,13 @@
 			<Text>ทำให้สำเร็จ เพื่อเปิดเผยแผนที่ทั้งหมด และได้รับ 1 แต้มมรดกทางวิทยาศาสตร์</Text>		<!-- Complete for total map reveal and 1 Legacy Point towards the Science Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_LAUNCH_ROCKET_NAME" Language="th_TH">
-			<Text>เที่ยวบินอวกาศที่มีลูกเรือ</Text>		<!-- Staffed Space Flight -->
+			<Text>เที่ยวบินอวกาศที่มีลูกเรือ</Text>		<!-- Crewed Space Flight -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_LAUNCH_ROCKET_SHORT_NAME" Language="th_TH">
-			<Text>เที่ยวบินอวกาศที่มีลูกเรือ</Text>		<!-- Staffed Space Flight -->
+			<Text>เที่ยวบินอวกาศที่มีลูกเรือ</Text>		<!-- Crewed Space Flight -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_LAUNCH_ROCKET_DESCRIPTION" Language="th_TH">
-			<Text>ทำโครงการนี้ให้เสร็จสิ้น เพื่อส่งมนุษย์คนแรกเข้าสู่อวกาศ และคว้าชัยชนะทางวิทยาศาสตร์</Text>		<!-- Complete this Project to launch the first man into space and win a Scientific Victory. -->
+			<Text>ทำโครงการนี้ให้เสร็จสิ้น เพื่อส่งมนุษย์คนแรกเข้าสู่อวกาศ และคว้าชัยชนะทางวิทยาศาสตร์</Text>		<!-- Complete this Project to launch the first person into space and win a Scientific Victory. -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_PRODUCE_WMD_NAME" Language="th_TH">
 			<Text>ผลิตอาวุธนิวเคลียร์</Text>		<!-- Produce Nuclear Weapon -->
@@ -14126,7 +14111,7 @@
 			<Text>+1 ระยะสกัดกั้นสำหรับยูนิตรบทางอากาศ</Text>		<!-- +1 Intercept Range for Fighter Units. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_MO_TECH_NAVAL_STRENGTH_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้ สำหรับยูนิตทางเรือ</Text>		<!-- +3 Combat Strength for Naval Units. -->
+			<Text>+3 พลังต่อสู้ สำหรับยูนิตทางน้ำ</Text>		<!-- +3 Combat Strength for Naval Units. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_MO_TECH_RANGED_STRENGTH_DESCRIPTION" Language="th_TH">
 			<Text>+3 พลังต่อสู้ สำหรับยูนิตระยะไกลและยูนิตปิดล้อม</Text>		<!-- +3 Combat Strength for Ranged and Siege Units. -->
@@ -15482,7 +15467,7 @@
 			<Text>ทำโครงการแมนฮัตตันให้เสร็จสิ้น แล้วทำโครงการปฏิบัติการไอวีให้เสร็จสิ้น ทั้งสองโครงการจะมีค่าใช้จ่ายน้อยลงสำหรับแต่ละ คะแนนมรดกทางการทหาร ที่คุณได้รับตลอดแคมเปญ</Text>		<!-- Complete the Manhattan Project, and then complete the Operation Ivy Project. Both are cheaper for each Militaristic Legacy Point you have earned throughout the campaign. -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_MODERN_SCIENCE_NAME" Language="th_TH">
-			<Text>โครงการแข่งขันทางอวกาศ</Text>		<!-- Space Race Projects -->
+			<Text>แข่งขันทางอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_MODERN_SCIENCE_DESCRIPTION" Language="th_TH">
 			<Text>ทำโครงการแข่งขันทางอวกาศ ให้เสร็จทั้งหมด 3 โครงการ</Text>		<!-- Complete all 3 Space Race Projects. -->
@@ -15491,7 +15476,7 @@
 			<Text>ยินดีด้วย! คุณชนะทางวิทยาศาสตร์!</Text>		<!-- Congratulations, you won a Science Victory! -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_MODERN_SCIENCE_VICTORY_DESCRIPTION" Language="th_TH">
-			<Text>ทำโครงการบินอวกาศพร้อมคนบนยานเป็นครั้งแรกให้เสร็จสมบูรณ์ โครงการนี้จะมีราคาถูกลงสำหรับทุกคะแนนมรดกทางวิทยาศาสตร์ที่คุณได้รับตลอดการรณรงค์</Text>		<!-- Complete the First Staffed Space Flight Project. The Project is cheaper for each Scientific Legacy Point you have earned throughout the campaign. -->
+			<Text>ทำโครงการ เที่ยวบินอวกาศที่มีลูกเรือครั้งแรก ให้เสร็จสมบูรณ์ โครงการนี้จะมีราคาถูกลงสำหรับทุกคะแนนมรดกทางวิทยาศาสตร์ที่คุณได้รับตลอดแคมเปญ</Text>		<!-- Complete the First Crewed Space Flight Project. The Project is cheaper for each Scientific Legacy Point you have earned throughout the campaign. -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_MODERN_CULTURE_NAME" Language="th_TH">
 			<Text>สมาคมภูมิศาสตร์</Text>		<!-- Geographic Society -->
