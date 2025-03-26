@@ -42,6 +42,7 @@
 					<Item>ui/age-transition-banner/age-transition-banner.js</Item>
 					<Item>ui/appeal-plotkey/appeal-plotkey.js</Item>
 					<Item>ui/army-panel/army-panel.js</Item>
+					<Item>ui/unit-rename/unit-rename.js</Item>
 					<Item>ui/attribute-trees/screen-attribute-trees.js</Item>
 					<Item>ui/attribute-trees/attribute-card.js</Item>
 					<Item>ui/attribute-trees/attribute-small-card.js</Item>
@@ -62,6 +63,7 @@
 					<Item>ui/chooser-item/chooser-item.js</Item>
 					<Item>ui/tree-chooser-item/tree-chooser-item.js</Item>
 					<Item>ui/culture-tree-chooser/screen-culture-tree-chooser.js</Item>
+					<Item>ui/crisis-meter/crisis-meter.js</Item>
 					<Item>ui/diplo-ribbon/panel-diplo-ribbon.js</Item>
 					<Item>ui/diplo-ribbon/panel-yield-banner.js</Item>
 					<Item>ui/diplomacy-action-details/screen-diplomacy-action-details.js</Item>
@@ -169,6 +171,7 @@
 					<Item>ui/lenses/layer/culture-borders-layer.js</Item>
 					<Item>ui/lenses/layer/hexgrid-layer.js</Item>
 					<Item>ui/lenses/layer/random-events-layer.js</Item>
+					<Item>ui/lenses/layer/operation-target-layer.js</Item>
 					<Item>ui/lenses/layer/resource-layer.js</Item>
 					<Item>ui/lenses/layer/settlement-recommendations-layer.js</Item>
 					<Item>ui/lenses/layer/trade-layer.js</Item>
@@ -194,8 +197,6 @@
 					<Item>ui/notification-train/model-notification-train.js</Item>
 					<Item>ui/notification-train/notification-handlers.js</Item>
 					<Item>ui/notification-train/panel-notification-train.js</Item>
-					<Item>ui/notification-train/panel-notification-opener.js</Item>
-					<Item>ui/notification-train/panel-notifications-left.js</Item>
 					<Item>ui/notification-train-mobile/panel-notification-mobile-opener.js</Item>
 					<Item>ui/notification-train-mobile/panel-notification-train-mobile.js</Item>
 					<Item>ui/pantheon-chooser/screen-pantheon-chooser.js</Item>
@@ -287,6 +288,8 @@
 					<Item>ui/world-anchor-text/world-anchor-text.js</Item>
 					<Item>ui/world-input/world-input.js</Item>
 					<Item>ui/world-vfx/world-vfx.js</Item>
+					<Item>ui/yield-bar/model-yield-bar.js</Item>
+					<Item>ui/yield-bar/yield-bar.js</Item>
 				</UIScripts>
 				<UpdateDatabase>
 					<Item>data/gameplay.xml</Item>
@@ -360,6 +363,8 @@
 					<Item>data/pseudoyields.xml</Item>
 					<Item>data/racetowonders-terrain.xml</Item>
 					<Item>data/racetowonders-terrain-gameeffects.xml</Item>
+					<Item>data/marvelous-mountains-terrain.xml</Item>
+					<Item>data/marvelous-mountains-terrain-gameeffects.xml</Item>
 					<Item>data/resources.xml</Item>
 					<Item>data/random-events.xml</Item>
 					<Item>data/religion.xml</Item>
@@ -531,6 +536,12 @@
 					<Item platform="PS5">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
 					<Item platform="XboxOne">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
 					<Item platform="XboxScarlett">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
+
+					<Item platform="NX">text/en_us/ShellText_RestrictedContent.xml</Item>
+					<Item platform="PS4">text/en_us/ShellText_RestrictedContent.xml</Item>
+					<Item platform="PS5">text/en_us/ShellText_RestrictedContent.xml</Item>
+					<Item platform="XboxOne">text/en_us/ShellText_RestrictedContent.xml</Item>
+					<Item platform="XboxScarlett">text/en_us/ShellText_RestrictedContent.xml</Item>
 				</UpdateText>
 				<UpdateArt>
 					<!-- Asset Packages that the mod depends on -->
@@ -997,6 +1008,12 @@
 					<Item platform="PS5">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
 					<Item platform="XboxOne">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
 					<Item platform="XboxScarlett">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
+
+					<Item platform="NX">text/en_us/ShellText_RestrictedContent.xml</Item>
+					<Item platform="PS4">text/en_us/ShellText_RestrictedContent.xml</Item>
+					<Item platform="PS5">text/en_us/ShellText_RestrictedContent.xml</Item>
+					<Item platform="XboxOne">text/en_us/ShellText_RestrictedContent.xml</Item>
+					<Item platform="XboxScarlett">text/en_us/ShellText_RestrictedContent.xml</Item>
 				</UpdateText>
 
 				<ImportFiles>
