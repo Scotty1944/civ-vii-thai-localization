@@ -3903,7 +3903,7 @@
 			<Text>เปิดพรมแดนของคุณให้กับพวกเขา[n][icon:YIELD_GOLD] +2 ต่อเทิร์น</Text>		<!-- Open your borders to them.[n][icon:YIELD_GOLD] +2 per turn. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_INITIAL" Language="th_TH">
-			<Text>ร่วมทำวิจัยกับผู้นำอีกคนหนึ่ง[n]ได้รับการยอมรับ: คุณจะได้รับ +4[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น ผู้นำอื่นจะได้รับ +2[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น[n]ที่ได้รับการสนับสนุน: ทั้งสองผู้นำจะได้รับ +6[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น</Text>		<!-- Do a Research Collaboration with another Leader.[n]Accepted: You receive +4[icon:YIELD_SCIENCE] Science per turn. Other Leader receives +2[icon:YIELD_SCIENCE] Science per turn.[n]Supported: Both Leaders receive +6[icon:YIELD_SCIENCE] Science per turn. -->
+			<Text>ร่วมทำวิจัยกับผู้นำอีกคนหนึ่ง[n]ได้รับการยอมรับ: คุณจะได้รับ +4[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น ผู้นำอื่นจะได้รับ +2[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +6[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น</Text>		<!-- Do a Research Collaboration with another Leader.[n]Accepted: You receive +4[icon:YIELD_SCIENCE] Science per turn. Other Leader receives +2[icon:YIELD_SCIENCE] Science per turn.[n]Supported: Both Leaders receive +6[icon:YIELD_SCIENCE] Science per turn. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_SUPPORT" Language="th_TH">
 			<Text>[icon:YIELD_SCIENCE] +6 ต่อเทิร์นสำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_SCIENCE] +6 per turn for both Leaders. -->
@@ -3912,7 +3912,7 @@
 			<Text>[icon:YIELD_SCIENCE] +2 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_SCIENCE] +4 ต่อเทิร์น</Text>		<!-- [icon:YIELD_SCIENCE] +2 per turn.[n]{1_initialName} receives [icon:YIELD_SCIENCE] +4 per turn. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CULTURAL_EXCHANGE_INITIAL" Language="th_TH">
-			<Text>มีการแลกเปลี่ยนวัฒนธรรมกับผู้นำคนอื่น[n]ได้รับการยอมรับ: คุณจะได้รับ +4[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น ผู้นำคนอื่นจะได้รับ +2[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น[n]รองรับ: ผู้นำทั้งสองจะได้รับ +6[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น</Text>		<!-- Have a Cultural Exchange with another Leader.[n]Accepted: You receive +4[icon:YIELD_CULTURE] Culture per turn. Other Leader receives +2[icon:YIELD_CULTURE] Culture per turn.[n]Supported: Both Leaders receive +6[icon:YIELD_CULTURE] Culture per turn. -->
+			<Text>มีการแลกเปลี่ยนวัฒนธรรมกับผู้นำคนอื่น[n]ได้รับการยอมรับ: คุณจะได้รับ +4[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น ผู้นำคนอื่นจะได้รับ +2[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +6[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น</Text>		<!-- Have a Cultural Exchange with another Leader.[n]Accepted: You receive +4[icon:YIELD_CULTURE] Culture per turn. Other Leader receives +2[icon:YIELD_CULTURE] Culture per turn.[n]Supported: Both Leaders receive +6[icon:YIELD_CULTURE] Culture per turn. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CULTURAL_EXCHANGE_SUPPORT" Language="th_TH">
 			<Text>[icon:YIELD_CULTURE] +6 ต่อเทิร์นสำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_CULTURE] +6 per turn for both Leaders. -->
@@ -3930,7 +3930,7 @@
 			<Text>[icon:YIELD_GOLD] +2 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_GOLD] +4 ต่อเทิร์น</Text>		<!-- [icon:YIELD_GOLD] +2 per turn.[n]{1_initialName} receives [icon:YIELD_GOLD] +4 per turn. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_LOCAL_FESTIVALS_INITIAL" Language="th_TH">
-			<Text>จัดเทศกาลท้องถิ่นกับผู้นำอีกคนหนึ่ง[n]ได้รับการตอบรับ: คุณได้รับ +2[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในเมืองอื่น ผู้นำอื่นได้รับ +2[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น[n]ได้รับการสนับสนุน: ทั้งสองผู้นำได้รับ +3[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในเมือง</Text>		<!-- Have Local Festivals with another Leader.[n]Accepted: You receive +2[icon:YIELD_HAPPINESS] Happiness per turn in Cities. Other Leader receives +2[icon:YIELD_DIPLOMACY] Influence per turn.[n]Supported: Both Leaders receive +3[icon:YIELD_HAPPINESS] Happiness per turn in Cities. -->
+			<Text>จัดเทศกาลท้องถิ่นกับผู้นำอีกคนหนึ่ง[n]ได้รับการตอบรับ: คุณได้รับ +2[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในเมืองอื่น ผู้นำอื่นได้รับ +2[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +3[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในเมือง</Text>		<!-- Have Local Festivals with another Leader.[n]Accepted: You receive +2[icon:YIELD_HAPPINESS] Happiness per turn in Cities. Other Leader receives +2[icon:YIELD_DIPLOMACY] Influence per turn.[n]Supported: Both Leaders receive +3[icon:YIELD_HAPPINESS] Happiness per turn in Cities. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_LOCAL_FESTIVALS_SUPPORT" Language="th_TH">
 			<Text>[icon:YIELD_HAPPINESS] +3 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_HAPPINESS] +3 per turn in Cities for both Leaders -->
@@ -3939,7 +3939,7 @@
 			<Text>[icon:YIELD_DIPLOMACY] +2 ต่อเทิร์น[n]{1_initialName} ได้รับ +2[icon:YIELD_HAPPINESS] ต่อเทิร์นในเมือง</Text>		<!-- [icon:YIELD_DIPLOMACY] +2 per turn[n]{1_initialName} receives +2[icon:YIELD_HAPPINESS] per turn in Cities -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FARMERS_MARKET_INITIAL" Language="th_TH">
-			<Text>แบ่งปันสินค้าเกษตรกับผู้นำคนอื่น[n]ยอมรับ: คุณได้รับ +2[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมือง ผู้นำอื่นได้รับ +2[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]สนับสนุน: ทั้งสองผู้นำได้รับ +3[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมือง</Text>		<!-- Share agricultural goods with another Leader.[n]Accepted: You receive +2[icon:YIELD_FOOD] Food per turn in Towns. Other Leader receives +2[icon:YIELD_GOLD] Gold per turn.[n]Supported: Both Leaders receive +3[icon:YIELD_FOOD] Food per turn in Towns. -->
+			<Text>แบ่งปันสินค้าเกษตรกับผู้นำคนอื่น[n]ยอมรับ: คุณได้รับ +2[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมือง ผู้นำอื่นได้รับ +2[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +3[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมือง</Text>		<!-- Share agricultural goods with another Leader.[n]Accepted: You receive +2[icon:YIELD_FOOD] Food per turn in Towns. Other Leader receives +2[icon:YIELD_GOLD] Gold per turn.[n]Supported: Both Leaders receive +3[icon:YIELD_FOOD] Food per turn in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FARMERS_MARKET_SUPPORT" Language="th_TH">
 			<Text>[icon:YIELD_FOOD] +3 ต่อเทิร์นในเมือง สำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_FOOD] +3 per turn in Towns for both Leaders. -->
@@ -3963,7 +3963,7 @@
 			<Text>มอบโบนัสให้กับ การก่อสร้าง สิงมหัศจรรย์</Text>		<!-- Grants a bonus to Wonder construction. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_WONDER_CONSTRUCTION_INITIAL" Language="th_TH">
-			<Text>ให้โบนัสแก่การสร้างมหัศจรรย์[n]ได้รับการยอมรับ: คุณจะได้รับ +10%[icon:YIELD_PRODUCTION] กำลังผลิต ในการสร้างมหัศจรรย์ ผู้นำคนอื่นจะได้รับ +6[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น[n]สนับสนุน: ทั้งสองผู้นำจะได้รับ +15%[icon:YIELD_PRODUCTION] กำลังผลิต ในการสร้างมหัศจรรย์</Text>		<!-- Grants a bonus to Wonder construction.[n]Accepted: You get +10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders. Other Leader receives +6[icon:YIELD_CULTURE] Culture per turn.[n]Supported: Both Leaders get +15%[icon:YIELD_PROUDCTION] Production towards constructing Wonders. -->
+			<Text>ให้โบนัสแก่การสร้างมหัศจรรย์[n]ได้รับการยอมรับ: คุณจะได้รับ +10%[icon:YIELD_PRODUCTION] กำลังผลิต ในการสร้างมหัศจรรย์ ผู้นำคนอื่นจะได้รับ +6[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +15%[icon:YIELD_PRODUCTION] กำลังผลิต ในการสร้างมหัศจรรย์</Text>		<!-- Grants a bonus to Wonder construction.[n]Accepted: You get +10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders. Other Leader receives +6[icon:YIELD_CULTURE] Culture per turn.[n]Supported: Both Leaders get +15%[icon:YIELD_PROUDCTION] Production towards constructing Wonders. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_WONDER_CONSTRUCTION_SUPPORT" Language="th_TH">
 			<Text>[icon:YIELD_PRODUCTION] +15% ในการสร้าง สิ่งมหัศจรรย์ สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_PRODUCTION] +15% towards constructing Wonders for both Leaders. -->
@@ -3975,7 +3975,7 @@
 			<Text>การก่อสร้างสิงมหัศจรรย์</Text>		<!-- Wonder Construction -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_GINSING_AGREEMENT_INITIAL" Language="th_TH">
-			<Text>มีข้อตกลงโสมกับผู้นำอีกคนหนึ่ง[n]ยอมรับ: คุณได้รับ +4[icon:YIELD_FOOD] อาหาร ต่อเทิร์น ในเมืองหลวงของคุณ ผู้นำอื่นได้รับ +2[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองหลวงของพวกเขา[n]สนับสนุน: ทั้งสองผู้นำได้รับ +6[icon:YIELD_FOOD] อาหาร ต่อเทิร์น ในเมืองหลวงของพวกเขา</Text>		<!-- Have Ginseng Agreements with another Leader.[n]Accepted: You receive +4[icon:YIELD_FOOD] Food per turn in your Capital. Other Leader receives +2[icon:YIELD_FOOD] Food per turn in their Capital.[n]Supported: Both Leaders receive +6[icon:YIELD_FOOD] Food per turn in their Capitals. -->
+			<Text>มีข้อตกลงโสมกับผู้นำอีกคนหนึ่ง[n]ยอมรับ: คุณได้รับ +4[icon:YIELD_FOOD] อาหาร ต่อเทิร์น ในเมืองหลวงของคุณ ผู้นำอื่นได้รับ +2[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองหลวงของพวกเขา[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +6[icon:YIELD_FOOD] อาหาร ต่อเทิร์น ในเมืองหลวงของพวกเขา</Text>		<!-- Have Ginseng Agreements with another Leader.[n]Accepted: You receive +4[icon:YIELD_FOOD] Food per turn in your Capital. Other Leader receives +2[icon:YIELD_FOOD] Food per turn in their Capital.[n]Supported: Both Leaders receive +6[icon:YIELD_FOOD] Food per turn in their Capitals. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_GINSING_AGREEMENT_SUPPORT" Language="th_TH">
 			<Text>[icon:YIELD_FOOD] +6 ต่อเทิร์นสำหรับผู้นำทั้งสองในเมืองหลวงของพวกเขา</Text>		<!-- [icon:YIELD_FOOD] +6 per turn for both Leaders in their Capitals. -->

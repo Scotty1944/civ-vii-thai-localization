@@ -4777,7 +4777,7 @@
 			<Text>โบนัสผลงานชิ้นเอก</Text>		<!-- Great Works Bonus -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_GREAT_WORK_BONUS_YIELD_BASE" Language="th_TH">
-			<Text>โบนัสผลงานที่ยอดเยี่ยมพื้นฐาน</Text>		<!-- Base Great Works Bonus -->
+			<Text>โบนัสผลงานชิ้นเอกพื้นฐาน</Text>		<!-- Base Great Works Bonus -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_GREAT_WORK_BONUS_YIELD_MAX" Language="th_TH">
 			<Text>โบนัสผลงานชิ้นเอกสูงสุด</Text>		<!-- Great Works Bonus Max -->
@@ -4861,7 +4861,7 @@
 			<Text>ผลผลิตของอาหารพื้นฐาน</Text>		<!-- Base Food Yield -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_GREAT_WORK_YIELD" Language="th_TH">
-			<Text>ผลงานที่ยอดเยี่ยม</Text>		<!-- Great Works -->
+			<Text>ผลงานชิ้นเอก</Text>		<!-- Great Works -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_NATURAL_YIELD" Language="th_TH">
 			<Text>ผลผลิตธรรมชาติ</Text>		<!-- Natural Yield -->
@@ -5929,7 +5929,7 @@
 			<Text>ขอให้สิ่งนี้ทำให้ผู้คนพอใจ</Text>		<!-- May This Please The People -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_MAY_THIS_PLEASE_THE_PEOPLE_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม เกี่ยวกับทรัพยากรบนหรือใกล้ชายฝั่ง</Text>		<!-- +2[icon:YIELD_CULTURE] Culture on Resources on or adjacent to Coast. -->
+			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม บน ทรัพยากร หรือใกล้ชายฝั่ง</Text>		<!-- +2[icon:YIELD_CULTURE] Culture on Resources on or adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_AKHET_NAME" Language="th_TH">
 			<Text>อาเคท</Text>		<!-- Akhet -->
@@ -6115,7 +6115,7 @@
 			<Text>ลาตินิตัส</Text>		<!-- Latinitas -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_LATINITAS_DESCRIPTION" Language="th_TH">
-			<Text>+10%[icon:YIELD_FOOD] อาหาร ,[icon:YIELD_GOLD] ทอง, และ[icon:YIELD_CULTURE] วัฒนธรรม ในเมืองที่มีความเชี่ยวชาญ</Text>		<!-- +10%[icon:YIELD_FOOD] Food,[icon:YIELD_GOLD] Gold, and[icon:YIELD_CULTURE] Culture in Towns with a Specialization. -->
+			<Text>+10%[icon:YIELD_FOOD] อาหาร,[icon:YIELD_GOLD] ทอง, และ[icon:YIELD_CULTURE] วัฒนธรรม ในเมืองที่มีโฟกัสความเชี่ยวชาญ</Text>		<!-- +10%[icon:YIELD_FOOD] Food,[icon:YIELD_GOLD] Gold, and[icon:YIELD_CULTURE] Culture in Towns with a Specialization. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_PRINCEPS_CIVITATIS_NAME" Language="th_TH">
 			<Text>พรินเคปส์ คิวิทาทิส</Text>		<!-- Princeps Civitatis -->
@@ -6410,25 +6410,25 @@
 			<Text>คอรีโดส</Text>		<!-- Corridos -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_CORRIDOS_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_HAPPINESS] ความสุข ในถิ่นฐานสำหรับทุกประเพณีที่ถูกจัดสรรในรัฐบาล</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness in Settlements for every Tradition slotted into the Government. -->
+			<Text>+2[icon:YIELD_HAPPINESS] ความสุข ในถิ่นฐาน สำหรับทุกประเพณี ที่ถูกจัดสรรในรัฐบาล</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness in Settlements for every Tradition slotted into the Government. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_CRY_OF_DOLORES_NAME" Language="th_TH">
 			<Text>เสียงร้องของดอโลเรส</Text>		<!-- Cry of Dolores -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_CRY_OF_DOLORES_DESCRIPTION" Language="th_TH">
-			<Text>+1 พลังต่อสู้ สำหรับยูนิตภาคพื้นและเรือในดินแดนมิตรภาพสำหรับทุกประเพณีที่ถูกจัดสรรในรัฐบาล</Text>		<!-- +1 Combat Strength for Land and Naval Units in friendly territory for every Tradition slotted into the Government. -->
+			<Text>+1 พลังต่อสู้ สำหรับยูนิตภาคพื้น และทางน้ำ ในดินแดนที่เป็นมิตร สำหรับทุกประเพณี ที่ถูกจัดสรรในรัฐบาล</Text>		<!-- +1 Combat Strength for Land and Naval Units in friendly territory for every Tradition slotted into the Government. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_LA_REFORMA_NAME" Language="th_TH">
 			<Text>ลา เรฟอร์มา</Text>		<!-- La Reforma -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_LA_REFORMA_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม ในเมืองสำหรับทุกประเพณีที่ถูกบรรจุในรัฐบาล</Text>		<!-- +1[icon:YIELD_CULTURE] Culture in Towns for every Tradition slotted into the Government. -->
+			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม ในเมืองสำหรับทุกประเพณี ที่ถูกบรรจุในรัฐบาล</Text>		<!-- +1[icon:YIELD_CULTURE] Culture in Towns for every Tradition slotted into the Government. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_ORDER_AND_PROGRESS_NAME" Language="th_TH">
 			<Text>คำสั่งและความก้าวหน้า</Text>		<!-- Order and Progress -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_ORDER_AND_PROGRESS_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ ในเมืองสำหรับทุกประเพณีที่ถูกจัดให้อยู่ในรัฐบาล</Text>		<!-- +1[icon:YIELD_SCIENCE] Science in Cities for every Tradition slotted into the Government. -->
+			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ ในเมืองสำหรับทุกประเพณี ที่ถูกบรรจุในรัฐบาล</Text>		<!-- +1[icon:YIELD_SCIENCE] Science in Cities for every Tradition slotted into the Government. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_JINSI_KAMIL_NAME" Language="th_TH">
 			<Text>จินส์-อี คาเมล</Text>		<!-- Jins-i Kamil -->
@@ -6458,7 +6458,7 @@
 			<Text>โค๊กกิ้ง</Text>		<!-- Coking -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_COKING_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต ในเมืองสำหรับทุกทรัพยากร ที่ได้รับมอบหมายให้กับพวกเขา</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production in Cities for every Resource assigned to them. -->
+			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต ในเมืองสำหรับทุกทรัพยากร ที่ได้จัดสรรให้กับพวกเขา</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production in Cities for every Resource assigned to them. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_MEDIATIZATION_NAME" Language="th_TH">
 			<Text>มีเดียทาไซชัน</Text>		<!-- Mediatization -->
@@ -9563,10 +9563,10 @@
 			<Text>เมื่อเรากลืนกินเมืองของคุณด้วยสงคราม เราจะเปิดประตู และให้ฝูงไฮยีน่าหักกระดูกของคุณซะ</Text>		<!-- As we devour your cities with war, we will open the gates, and let the hyenas break your bones. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_RECIPIENT_LEADER_AMINA_ANY" Language="th_TH">
-			<Text>ใบมีดของเราคม แต่คอของคุณนั้นนุ่ม</Text>		<!-- Our blades are sharp. Your necks are soft. -->
+			<Text>ใบมีดของเรานั้นคม แต่คอของแกน่ะนุ่ม</Text>		<!-- Our blades are sharp. Your necks are soft. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DEFEAT_AI_LEADER_AMINA_ANY" Language="th_TH">
-			<Text>จากความมืดมน ฉันได้ลุกขึ้น และกลับไปที่นั่น จากทะเลทราย ฉันจะเฝ้าดูคุณอยู่</Text>		<!-- From obscurity I rose, and to it I must return.  From the desert I will watch you. -->
+			<Text>จากความมืดมน ข้าได้ลุกขึ้น และกลับไปที่นั่น จากบนผืนทะเลทราย ข้าจะเฝ้าดูเจ้า</Text>		<!-- From obscurity I rose, and to it I must return.  From the desert I will watch you. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_DEAL_ACCEPTED_LEADER_AMINA" Language="th_TH">
 			<Text>ทุกสิ่งทุกอย่างมีการเปลี่ยนแปลงอยู่เสมอ</Text>		<!-- The sands shift. -->
@@ -9674,7 +9674,7 @@
 			<Text>มาเถอะ แล้วข้าจะทิ้งเจ้าไว้ที่ที่ — อย่างที่พวกเขาพูดกัน — กุ้งน้ำจืดหลับ</Text>		<!-- Come, then. I will leave you where — as they say — the crayfish sleep. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DEFEAT_AI_LEADER_CATHERINE_ANY" Language="th_TH">
-			<Text>ดูแลพระราชวังของฉันเมื่อฉันจากไป โบสถ์ใหญ่ต้องมีการถ่ายเทอากาศอย่างสม่ำเสมอ และต้องรักษาฝุ่นอำพันให้สะอาด คุณต้อง — ไม่ มันเป็นของคุณ ฉันไปแล้ว</Text>		<!-- Look after my palace when I am gone. The Grand Church must be aired regularly, and keep the amber dusted. You mu — No. It is yours. I leave now. -->
+			<Text>โปรดดูแลพระราชวังของข้า เมื่อข้าจากไป โบสถ์ใหญ่ต้องมีอากาศถ่ายเทอย่างสม่ำเสมอ และต้องรักษาฝุ่นอำพันให้สะอาด เจ้าต้อง — ไม่ มันเป็นของเจ้า ข้าไปแล้ว</Text>		<!-- Look after my palace when I am gone. The Grand Church must be aired regularly, and keep the amber dusted. You mu — No. It is yours. I leave now. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_DEAL_ACCEPTED_LEADER_CATHERINE" Language="th_TH">
 			<Text>น่ารักมาก ให้เราทำให้เป็นเช่นนั้นเถอะ</Text>		<!-- Lovely. Let us make it so. -->
@@ -24525,7 +24525,7 @@
 			<Text>ซ่อมแซมการพัฒนาที่ถูกทำลาย</Text>		<!-- Repair a pillaged improvement -->
 		</Replace>
 		<Replace Tag="LOC_UI_ACQUIRE_TILE_NUM_SPECIALISTS" Language="th_TH">
-			<Text>คุณมี {1_NumSpecialists} {1_NumSpecialists: plural 1?Specialist; other?Specialists;} อยู่ที่นี่</Text>		<!-- You have {1_NumSpecialists} {1_NumSpecialists: plural 1?Specialist; other?Specialists;} here. -->
+			<Text>คุณมี {1_NumSpecialists} ผู้เชี่ยวชาญ อยู่ที่นี่</Text>		<!-- You have {1_NumSpecialists} {1_NumSpecialists: plural 1?Specialist; other?Specialists;} here. -->
 		</Replace>
 		<Replace Tag="LOC_UI_ACQUIRE_TILE_CAN_ADD_SPECIALISTS" Language="th_TH">
 			<Text>คุณสามารถเพิ่มผู้เชี่ยวชาญที่นี่ได้</Text>		<!-- You can add a Specialist here. -->
@@ -25083,7 +25083,7 @@
 			<Text>รหัส:{1_codeNumber}</Text>		<!-- Code:{1_codeNumber} -->
 		</Replace>
 		<Replace Tag="LOC_UI_TURNTIMER_TIME_REMAINING" Language="th_TH">
-			<Text>ตัวจับเวลาการหมุน: {1_timeRemaining}</Text>		<!-- Turn Timer: {1_timeRemaining} -->
+			<Text> เวลาเทิร์น: {1_timeRemaining}</Text>		<!-- Turn Timer: {1_timeRemaining} -->
 		</Replace>
 		<Replace Tag="LOC_UI_DRAG_START" Language="th_TH">
 			<Text>เริ่มลาก</Text>		<!-- Start Dragging -->
@@ -25629,7 +25629,7 @@
 			<Text>ระดมยิง</Text>		<!-- Focus Fire -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_FOCUSED_ATTACK_LAND_RANGED_DESCRIPTION" Language="th_TH">
-			<Text>สั่งให้ยูนิตจู่โจมทางไกลทั้งหมดภายในรัศมีระดมยิงไปยังเป้าหมายที่กำหนด ยูนิตทั้งหมดจะได้รับการเพิ่มพลังต่อสู้ +2 สำหรับการโจมตีนี้</Text>		<!-- Order all Ranged Units within Command Radius to fire on a specified target. All Units have +2 Combat Strength for this attack. -->
+			<Text>สั่งให้ยูนิตระยะไกลทั้งหมดภายในรัศมีบัญชาการ ระดมยิงไปยังเป้าหมายที่กำหนด ยูนิตทั้งหมดจะได้รับการเพิ่มพลังต่อสู้ +2 สำหรับการโจมตีนี้</Text>		<!-- Order all Ranged Units within Command Radius to fire on a specified target. All Units have +2 Combat Strength for this attack. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_GRANT_SECOND_WIND_NAME" Language="th_TH">
 			<Text>ฟื้นฟูแต้มเคลื่อนที่</Text>		<!-- Grant Second Wind -->
@@ -26196,7 +26196,7 @@
 			<Text>ซากปรักหักพังของทวีปนี้ (จากทุกยุคสมัย) สามารถให้ นักสำรวจ ทำการวิจัยที่มหาวิทยาลัยหรือพิพิธภัณฑ์ได้</Text>		<!-- This continent's Ruins (from all Ages) can be researched by an Explorer at a University or Museum. -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_RESEARCH_ARTIFACTS_1_AVAIL_1_RESEARCH" Language="th_TH">
-			<Text>ซากปรักหักพังยุคโบราณของทวีปนี้สามารถทำการวิจัยโดยนักสำรวจที่มหาวิทยาลัยหรือพิพิธภัณฑ์</Text>		<!-- This continent's Antiquity Age Ruins can be researched by an Explorer at a University or Museum. -->
+			<Text>ซากปรักหักพังยุคโบราณของทวีปนี้ สามารถทำการวิจัยโดยนักสำรวจ ที่มหาวิทยาลัยหรือพิพิธภัณฑ์</Text>		<!-- This continent's Antiquity Age Ruins can be researched by an Explorer at a University or Museum. -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_RESEARCH_ARTIFACTS_2_RESEARCHED" Language="th_TH">
 			<Text>ซากปรักหักพังจากทุกยุคสมัย ได้ถูกค้นคว้าไปแล้วสำหรับทวีปนี้</Text>		<!-- Ruins from all Ages have already been researched for this continent. -->
@@ -26394,7 +26394,7 @@
 			<Text>ที่กำบัง</Text>		<!-- Defilade -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_DEFILADE_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้จากป้อมปราการสำหรับยูนิตทหารบกภายในรัศมีบัญชาการ</Text>		<!-- +3 Combat Strength from Fortifications for Land Units within the Command Radius. -->
+			<Text>+3 พลังต่อสู้ จากป้อมปราการ สำหรับยูนิตทหารบกภายในรัศมีบัญชาการ</Text>		<!-- +3 Combat Strength from Fortifications for Land Units within the Command Radius. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_DEFILADE_NAME" Language="th_TH">
 			<Text>ที่กำบัง</Text>		<!-- Defilade -->
@@ -30301,7 +30301,7 @@
 			<Text>มิชชันนารีมี +1 บรรจุและ +1 แต้มเคลื่อนที่ แต่ -3 ความสุขในทุกถิ่นฐานเมื่อคุณได้ก่อตั้งศาสนาแล้ว จะเพิ่มเป็นสองเท่าหากถิ่นฐานนั้นไม่นับถือศาสนาของคุณ</Text>		<!-- Missionaries have +1 charge and +1 movement, but -3[icon:YIELD_HAPPINESS] Happiness in all Settlements once you have founded a religion, doubled if the Settlement does not follow your religion. -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_MILESTONE_2_NAME" Language="th_TH">
-			<Text>มรดกมหัศจรรย์</Text>		<!-- Wondrous Heritage -->
+			<Text>มรดกแห่งสิ่งมหัศจรรย์</Text>		<!-- Wondrous Heritage -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_MILESTONE_2_REWARD_TEXT" Language="th_TH">
 			<Text>{LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_MILESTONE_2_NAME}</Text>		<!-- {LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_MILESTONE_2_NAME} -->
@@ -30406,40 +30406,40 @@
 			<Text>{LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_EXPLORATION_CULTURE_GOLDEN_AGE_NAME}</Text>		<!-- {LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_EXPLORATION_CULTURE_GOLDEN_AGE_NAME} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_BELIEF_BONUS_17_DESCRIPTION" Language="th_TH">
-			<Text>คงไว้ซึ่ง {LOC_BELIEF_BONUS_17_NAME}. {LOC_BELIEF_BONUS_17_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_17_NAME}. {LOC_BELIEF_BONUS_17_DESCRIPTION} -->
+			<Text>คงไว้ซึ่ง {LOC_BELIEF_BONUS_17_NAME}, {LOC_BELIEF_BONUS_17_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_17_NAME}. {LOC_BELIEF_BONUS_17_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_BELIEF_BONUS_18_DESCRIPTION" Language="th_TH">
-			<Text>รักษา {LOC_BELIEF_BONUS_18_NAME} {LOC_BELIEF_BONUS_18_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_18_NAME}. {LOC_BELIEF_BONUS_18_DESCRIPTION} -->
+			<Text>คงไว้ซึ่ง {LOC_BELIEF_BONUS_18_NAME}, {LOC_BELIEF_BONUS_18_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_18_NAME}. {LOC_BELIEF_BONUS_18_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_BELIEF_BONUS_19_DESCRIPTION" Language="th_TH">
-			<Text>รักษา {LOC_BELIEF_BONUS_19_NAME}. {LOC_BELIEF_BONUS_19_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_19_NAME}. {LOC_BELIEF_BONUS_19_DESCRIPTION} -->
+			<Text>คงไว้ซึ่ง {LOC_BELIEF_BONUS_19_NAME}, {LOC_BELIEF_BONUS_19_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_19_NAME}. {LOC_BELIEF_BONUS_19_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_BELIEF_BONUS_20_DESCRIPTION" Language="th_TH">
-			<Text>เก็บรักษา {LOC_BELIEF_BONUS_20_NAME}. {LOC_BELIEF_BONUS_20_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_20_NAME}. {LOC_BELIEF_BONUS_20_DESCRIPTION} -->
+			<Text>คงไว้ซึ่ง {LOC_BELIEF_BONUS_20_NAME}, {LOC_BELIEF_BONUS_20_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_20_NAME}. {LOC_BELIEF_BONUS_20_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_BELIEF_BONUS_21_DESCRIPTION" Language="th_TH">
-			<Text>คงไว้ซึ่ง {LOC_BELIEF_BONUS_21_NAME}. {LOC_BELIEF_BONUS_21_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_21_NAME}. {LOC_BELIEF_BONUS_21_DESCRIPTION} -->
+			<Text>คงไว้ซึ่ง {LOC_BELIEF_BONUS_21_NAME}, {LOC_BELIEF_BONUS_21_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_21_NAME}. {LOC_BELIEF_BONUS_21_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_BELIEF_BONUS_22_DESCRIPTION" Language="th_TH">
-			<Text>รักษา {LOC_BELIEF_BONUS_22_NAME}. {LOC_BELIEF_BONUS_22_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_22_NAME}. {LOC_BELIEF_BONUS_22_DESCRIPTION} -->
+			<Text>คงไว้ซึ่ง {LOC_BELIEF_BONUS_22_NAME}, {LOC_BELIEF_BONUS_22_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_22_NAME}. {LOC_BELIEF_BONUS_22_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_BELIEF_BONUS_23_DESCRIPTION" Language="th_TH">
-			<Text>เก็บรักษา {LOC_BELIEF_BONUS_23_NAME} ไว้ {LOC_BELIEF_BONUS_23_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_23_NAME}. {LOC_BELIEF_BONUS_23_DESCRIPTION} -->
+			<Text>คงไว้ซึ่ง {LOC_BELIEF_BONUS_23_NAME}, {LOC_BELIEF_BONUS_23_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_23_NAME}. {LOC_BELIEF_BONUS_23_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_BELIEF_BONUS_24_DESCRIPTION" Language="th_TH">
-			<Text>เก็บรักษา {LOC_BELIEF_BONUS_24_NAME}ไว้ {LOC_BELIEF_BONUS_24_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_24_NAME}. {LOC_BELIEF_BONUS_24_DESCRIPTION} -->
+			<Text>คงไว้ซึ่ง {LOC_BELIEF_BONUS_24_NAME}, {LOC_BELIEF_BONUS_24_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_24_NAME}. {LOC_BELIEF_BONUS_24_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_BELIEF_BONUS_25_DESCRIPTION" Language="th_TH">
-			<Text>เก็บรักษา {LOC_BELIEF_BONUS_25_NAME}. {LOC_BELIEF_BONUS_25_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_25_NAME}. {LOC_BELIEF_BONUS_25_DESCRIPTION} -->
+			<Text>คงไว้ซึ่ง {LOC_BELIEF_BONUS_25_NAME}, {LOC_BELIEF_BONUS_25_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_25_NAME}. {LOC_BELIEF_BONUS_25_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_BELIEF_BONUS_26_DESCRIPTION" Language="th_TH">
-			<Text>เก็บรักษา {LOC_BELIEF_BONUS_26_NAME}. {LOC_BELIEF_BONUS_26_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_26_NAME}. {LOC_BELIEF_BONUS_26_DESCRIPTION} -->
+			<Text>คงไว้ซึ่ง {LOC_BELIEF_BONUS_26_NAME}, {LOC_BELIEF_BONUS_26_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_26_NAME}. {LOC_BELIEF_BONUS_26_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_BELIEF_BONUS_27_DESCRIPTION" Language="th_TH">
-			<Text>รักษา {LOC_BELIEF_BONUS_27_NAME}. {LOC_BELIEF_BONUS_27_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_27_NAME}. {LOC_BELIEF_BONUS_27_DESCRIPTION} -->
+			<Text>คงไว้ซึ่ง {LOC_BELIEF_BONUS_27_NAME}, {LOC_BELIEF_BONUS_27_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_27_NAME}. {LOC_BELIEF_BONUS_27_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_BELIEF_BONUS_28_DESCRIPTION" Language="th_TH">
-			<Text>เก็บรักษา {LOC_BELIEF_BONUS_28_NAME}. {LOC_BELIEF_BONUS_28_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_28_NAME}. {LOC_BELIEF_BONUS_28_DESCRIPTION} -->
+			<Text>คงไว้ซึ่ง {LOC_BELIEF_BONUS_28_NAME}, {LOC_BELIEF_BONUS_28_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_28_NAME}. {LOC_BELIEF_BONUS_28_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_EXPLORATION_CULTURE_GOLDEN_AGE_DESCRIPTION" Language="th_TH">
 			<Text>เก็บรักษาความเชื่อของผู้ก่อตั้งศาสนาของคุณไว้</Text>		<!-- Keep your Religious Founder Beliefs. -->

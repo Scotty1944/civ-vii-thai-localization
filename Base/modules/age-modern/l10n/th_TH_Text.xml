@@ -3395,10 +3395,7 @@
 			<Text>+4[icon:YIELD_CULTURE] วัฒนธรรม, +10%[icon:YIELD_CULTURE] วัฒนธรรม ในเมืองที่มี ผลงานชิ้นเอก จัดแสดงอยู่, มีช่อง โบราณวัตถุ 3 ช่อง, คงอยู่ตลอดกาล, ต้องวางในพื้นที่ทุนดรา</Text>		<!-- +4[icon:YIELD_CULTURE] Culture. +10%[icon:YIELD_CULTURE] Culture in Cities that have a Great Work on display. Has 3 Artifact slots. Ageless. Must be placed on Tundra. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_HERMITAGE_TOOLTIP" Language="th_TH">
-			<Text>+10%[icon:YIELD_CULTURE] วัฒนธรรม ในเมืองที่มีผลงานที่ยอดเยี่ยมแสดงอยู่ มีช่องวางโบราณวัตถุ 3 ช่อง คงอยู่ตลอดกาล ต้องวางอยู่บนทุ่งน้ำแข็ง</Text>		<!-- +10%[icon:YIELD_CULTURE] Culture in Cities that have a Great Work on display. Has 3 Artifact slots. Ageless. Must be placed on Tundra. -->
-		</Replace>
-		<Replace Tag="LOC_WONDER_HERMITAGE_TOOLTIP" Language="th_TH">
-			<Text>+10%[icon:YIELD_CULTURE] วัฒนธรรม ในเมืองที่มีผลงานที่ยอดเยี่ยมแสดงอยู่ มีช่องวางโบราณวัตถุ 3 ช่อง คงอยู่ตลอดกาล ต้องวางอยู่บนทุ่งน้ำแข็ง</Text>		<!-- +10%[icon:YIELD_CULTURE] Culture in Cities that have a Great Work on display. Has 3 Artifact slots. Ageless. Must be placed on Tundra. -->
+			<Text>+10%[icon:YIELD_CULTURE] วัฒนธรรม ในเมืองที่มี ผลงานชิ้นเอก จัดแสดงอยู่, มีช่องวางโบราณวัตถุ 3 ช่อง, คงอยู่ตลอดกาล, ต้องวางในพื้นที่ทุนดรา</Text>		<!-- +10%[icon:YIELD_CULTURE] Culture in Cities that have a Great Work on display. Has 3 Artifact slots. Ageless. Must be placed on Tundra. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_MUZIBU_AZAALA_MPANGA_NAME" Language="th_TH">
 			<Text>มูซิบู อาซาลา มพังกา</Text>		<!-- Muzibu Azaala Mpanga -->
@@ -3449,7 +3446,7 @@
 			<Text>+6[icon:YIELD_HAPPINESS] ความสุข สร้างผู้อพยพ 4 หน่วย, คงอยู่ตลอดกาล, ต้องวางไว้ที่ชายฝั่งติดกับแผ่นดิน</Text>		<!-- +6[icon:YIELD_HAPPINESS] Happiness. Spawns 4 Migrants. Ageless. Must be placed on Coast adjacent to land. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_STATUE_OF_LIBERTY_TOOLTIP" Language="th_TH">
-			<Text>สร้างผู้เข้าเมือง 4 คน คงอยู่ตลอดกาล ต้องวางบนชายฝั่งที่ติดกับพื้นดิน</Text>		<!-- Spawns 4 Migrants. Ageless. Must be placed on Coast adjacent to land. -->
+			<Text>สร้างผู้อพยพ 4 หน่วย, คงอยู่ตลอดกาล, ต้องวางบนชายฝั่งที่ติดกับพื้นดิน</Text>		<!-- Spawns 4 Migrants. Ageless. Must be placed on Coast adjacent to land. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_TAJ_MAHAL_NAME" Language="th_TH">
 			<Text>ทัชมาฮาล</Text>		<!-- Taj Mahal -->
@@ -3980,10 +3977,10 @@
 			<Text>โลกที่ถูกแผดเผา</Text>		<!-- Scorched Earth -->
 		</Replace>
 		<Replace Tag="LOC_SCORCHED_EARTH_DESCRIPTION" Language="th_TH">
-			<Text>เมื่อทำการโจมตีให้ยูนิตทั้งหมดมี +5 พลังต่อสู้, การปล้นจะได้รับผลลัพธ์และพลังชีวิตเพิ่มขึ้น 25%</Text>		<!-- +5 Combat Strength for all Units when attacking. +25% yields and HP from pillaging. -->
+			<Text>+5 พลังต่อสู้ สำหรับยูนิตทั้งหมดเมื่อโจมตี, +25% ผลตอบแทน และ HP จากการปล้นสะดม</Text>		<!-- +5 Combat Strength for all Units when attacking. +25% yields and HP from pillaging. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SCORCHED_EARTH_PREVIEW" Language="th_TH">
-			<Text>+{1_Value} ดินเผา</Text>		<!-- +{1_Value} Scorched Earth -->
+			<Text>+{1_Value} โลกที่ถูกแผดเผา</Text>		<!-- +{1_Value} Scorched Earth -->
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_AUTHORITARIANISM_NAME" Language="th_TH">
 			<Text>อำนาจนิยม</Text>		<!-- Authoritarianism -->
@@ -4502,7 +4499,7 @@
 			<Text>+25% การเปลี่ยนแปลงความสัมพันธ์ จากการดำเนินการทางการทูต</Text>		<!-- +25% Relationship change from Diplomatic Actions. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_BEWEGUNGSKRIEG_HEAVY_CAVALRY_SKIRMISH_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตม้าได้รับความสามารถ "เข้าปะทะ" และ +50% พลังต่อสู้จากการโจมตีขนาบข้าง</Text>		<!-- Cavalry Units gain the Skirmish ability, +50% Combat Strength from Flanking. -->
+			<Text>ยูนิตม้าได้รับความสามารถ "เข้าปะทะ" และ +50% พลังต่อสู้ จากการโจมตีขนาบข้าง</Text>		<!-- Cavalry Units gain the Skirmish ability, +50% Combat Strength from Flanking. -->
 		</Replace>
 		<Replace Tag="LOC_TREE_CIVICS_MO_QING_NAME" Language="th_TH">
 			<Text>แนวคิดชิง</Text>		<!-- Qing Civics -->
@@ -4856,7 +4853,7 @@
 			<Text>เปิดใช้งานในพระราชวังเพื่อมอบให้ยูนิตที่ดินทั้งหมด +3 พลังต่อสู้ในเขตต่างๆ</Text>		<!-- Activate on the Palace to grant all Land Units +3 Combat Strength in Districts. -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JACOBIN_BILLAUD_VARENNE_PREVIEW" Language="th_TH">
-			<Text>+3 พลังต่อสู้จากฌาคส์ นิโคลาส บิลโลด์-วาเรนน์</Text>		<!-- +3 Combat Strength from Jacques Nicolas Billaud-Varenne -->
+			<Text>+3 พลังต่อสู้ จาก ฌาคส์ นิโคลาส บิลโลด์-วาเรนน์</Text>		<!-- +3 Combat Strength from Jacques Nicolas Billaud-Varenne -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JACOBIN_BRISSOT_NAME" Language="th_TH">
 			<Text>จาคส์ ปีแอร์ บริสโซต์</Text>		<!-- Jacques Pierre Brissot -->
@@ -4865,7 +4862,7 @@
 			<Text>เปิดใช้งานที่พระราชวังเพื่อให้ยูนิตทั้งหมดมีพลังต่อสู้ +2</Text>		<!-- Activate on the Palace to grant all Units +2 Combat Strength. -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JACOBIN_BRISSOT_PREVIEW" Language="th_TH">
-			<Text>+2 พลังต่อสู้จาก จาคส์ ปีแอร์ บริสโซต์</Text>		<!-- +2 Combat Strength from Jacques Pierre Brissot -->
+			<Text>+2 พลังต่อสู้ จาก จาคส์ ปีแอร์ บริสโซต์</Text>		<!-- +2 Combat Strength from Jacques Pierre Brissot -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JACOBIN_D_AELDERS_NAME" Language="th_TH">
 			<Text>อีตตา ปาล์ม ดิ เอลเดอร์ส</Text>		<!-- Etta Palm D'Aelders -->
@@ -4913,7 +4910,7 @@
 			<Text>อัครเทวดาแห่งความน่าสะพรึงกลัว</Text>		<!-- Archangel of the Terror -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JACOBIN_SAINT_JUST_PREVIEW" Language="th_TH">
-			<Text>+4 พลังต่อสู้จากหลุยส์ อองทัวน์ เดอ แซ็งต์-จัสท์</Text>		<!-- +4 Combat Strength from Louis Antoine de Saint-Just -->
+			<Text>+4 พลังต่อสู้ จาก หลุยส์ อองทัวน์ เดอ แซ็งต์-จัสท์</Text>		<!-- +4 Combat Strength from Louis Antoine de Saint-Just -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_REVOLUCIONARIO_NAME" Language="th_TH">
 			<Text>เรโวลูซิโอนารีโอ</Text>		<!-- Revolucionario -->
@@ -4928,7 +4925,7 @@
 			<Text>เปิดใช้งานที่ โซคาโล เพื่อมอบ โซลดาเดราส ฟรี 2 ตัวพร้อมพลังต่อสู้ +3</Text>		<!-- Activate on a Zócalo to grant 2 free Soldaderas with +3 Combat Strength. -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_REVOLUCIONARIO_AVILA_PREVIEW" Language="th_TH">
-			<Text>+3 พลังต่อสู้จากอมีลิโอ โรเบลส อาวิลา</Text>		<!-- +3 Combat Strength from Amelio Robles Ávila -->
+			<Text>+3 พลังต่อสู้ จาก อมีลิโอ โรเบลส อาวิลา</Text>		<!-- +3 Combat Strength from Amelio Robles Ávila -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_REVOLUCIONARIO_GUERRERO_NAME" Language="th_TH">
 			<Text>วิเซนเต กูerriโร</Text>		<!-- Vicente Guerrero -->
@@ -4943,7 +4940,7 @@
 			<Text>เปิดใช้งานที่ผู้บัญชาการทหาร กลุ่ม โซลดาเดราส ทั้งหมดภายในระยะบังคับบัญชา จะได้รับ +3 พลังต่อสู้</Text>		<!-- Activate on an Army Commander. All Soldaderas Units within the Command Radius gain +3 Combat Strength. -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_REVOLUCIONARIO_HERRERA_PREVIEW" Language="th_TH">
-			<Text>+3 พลังต่อสู้จากเพทรา เฮอร์เรร่า</Text>		<!-- +3 Combat Strength from Petra Herrera -->
+			<Text>+3 พลังต่อสู้ จาก เพทรา เฮอร์เรร่า</Text>		<!-- +3 Combat Strength from Petra Herrera -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_REVOLUCIONARIO_HIDALGO_NAME" Language="th_TH">
 			<Text>มิเกล อีดัลโก</Text>		<!-- Miguel Hidalgo -->
@@ -5000,7 +4997,7 @@
 			<Text>เปิดใช้งานที่พระราชวังเพื่อรับอิทธิพล 100[icon:YIELD_DIPLOMACY] ทันที</Text>		<!-- Activate on Palace to immediately receive 100[icon:YIELD_DIPLOMACY] Influence. -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_UPARAT_ITSARASUNTHON_NAME" Language="th_TH">
-			<Text>อิทธิราชสนธิ์</Text>		<!-- Itsarasunthon -->
+			<Text>อิศรสุนทร</Text>		<!-- Itsarasunthon -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_UPARAT_ITSARASUNTHON_DESCRIPTION" Language="th_TH">
 			<Text>เปิดใช้งานในเขตเพื่อกระตุ้นการเฉลิมฉลองทันที</Text>		<!-- Activate on a District to immediately trigger a Celebration. -->
@@ -5030,13 +5027,13 @@
 			<Text>เปิดใช้งานใน นครรัฐ ที่คุณเป็นเจ้านคร, เพื่อเปลี่ยนมันให้กลายเป็นเมืองที่อยู่ภายใต้การควบคุมของคุณ</Text>		<!-- Activate on an City-State you are Suzerain of to turn it into a Town under your control. -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_UPARAT_SAKDIPHONLASEP_NAME" Language="th_TH">
-			<Text>สักดิ์ดิพรมลาซิป</Text>		<!-- Sakdiphonlasep -->
+			<Text>ศักดิพลเสพ</Text>		<!-- Sakdiphonlasep -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_UPARAT_SAKDIPHONLASEP_DESCRIPTION" Language="th_TH">
 			<Text>เปิดใช้งานในเขตร้อน เพื่อมอบ ช้างปืน 2 เชือก พร้อม +3 พลังต่อสู้</Text>		<!-- Activated on Tropical Terrain to grant 2 Chang Beun with +3 Combat Strength. -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_UPARAT_SAKDIPHONLASEP_PREVIEW" Language="th_TH">
-			<Text>+3 สักดิพ์พลลเซพ</Text>		<!-- +3 Sakdiphonlasep -->
+			<Text>+3 ศักดิพลเสพ</Text>		<!-- +3 Sakdiphonlasep -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_UPARAT_SENANURAK_NAME" Language="th_TH">
 			<Text>เซนานุรักษ์</Text>		<!-- Senanurak -->
@@ -5669,7 +5666,7 @@
 			<Text>เมื่อคุณเป็นเจ้านครของนครรัฐ คุณจะได้รับเทคโนโลยีฟรี รวมถึงอันนี้ด้วย</Text>		<!-- Receive a free Technology when you become Suzerain of a City-State, including this one. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_MODERN_20_DESCRIPTION" Language="th_TH">
-			<Text>+25%[icon:YIELD_PRODUCTION] กำลังผลิต ในทิศทางการ完成โครงการในเมืองที่มีอาคารด้านวิทยาศาสตร์</Text>		<!-- +25%[icon:YIELD_PRODUCTION] Production towards completing Projects in Cities with a Science Building. -->
+			<Text>+25%[icon:YIELD_PRODUCTION] กำลังผลิต ไปสู่ โครงการในเมืองใหญ่ ที่มีอาคารด้านวิทยาศาสตร์</Text>		<!-- +25%[icon:YIELD_PRODUCTION] Production towards completing Projects in Cities with a Science Building. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_AMERICA" Language="th_TH">
 			<Text>อเมริกาเป็นชาติใหม่ที่ก่อตั้งบนอุดมการณ์ของความก้าวหน้าและความมีเหตุผล, อุตสาหกรรมและความก้าวหน้า, และขอบฟ้าที่ขยายออกไปเรื่อยๆ, การปฏิวัติอเมริกาเกิดขึ้นจากความต้องการในการขยายตัวนี้: เพื่อขยายการค้าอย่างอิสระไปยังแคริบเบียน, เพื่อขยายพรมแดนของอาณานิคมไปทางตะวันตก (เข้าสู่ดินแดนที่ในความครอบครองของชนเผ่าพื้นเมือง), และเพื่อเสรีภาพจากภาษีและอากรของอังกฤษ</Text>		<!-- America was a new nation, one founded on Enlightenment ideals of progress and rationality, industry and progress, and ever-expanding horizons. The American Revolution ignited from this demand for expansion: to expand trade independently to the Caribbean, to extend the colonies’ borders westward (into land held by indigenous nations), and freedom from British tariffs and taxes. -->
@@ -14984,7 +14981,7 @@
 			<Text>เรือหุ้มเกราะ</Text>		<!-- Ironclad -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_IRONCLAD_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตเรือเบา ยุคใหม่ ระดับ 1, มีความสามารถ "เข้าปะทะ", +50% พลังต่อสู้จากการโจมตีขนาบข้าง</Text>		<!-- Tier 1 Modern Light Naval Unit. Has the Skirmish ability, +50% Combat Strength from Flanking. -->
+			<Text>ยูนิตเรือเบา ยุคใหม่ ระดับ 1, มีความสามารถ "เข้าปะทะ", +50% พลังต่อสู้ จากการโจมตีขนาบข้าง</Text>		<!-- Tier 1 Modern Light Naval Unit. Has the Skirmish ability, +50% Combat Strength from Flanking. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_FRIGATE_NAME" Language="th_TH">
 			<Text>เรือประจัญบาน</Text>		<!-- Ship of the Line -->
@@ -15023,7 +15020,7 @@
 			<Text>เรือลาดตระเวน</Text>		<!-- Cruiser -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_CRUISER_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตเรือรบเบา ยุคใหม่ ระดับ 2, มีความสามารถ "เข้าปะทะ", +50% พลังต่อสู้จากการโจมตีขนาบข้าง</Text>		<!-- Tier 2 Modern Light Naval Unit. Has the Skirmish ability, +50% Combat Strength from Flanking. -->
+			<Text>ยูนิตเรือรบเบา ยุคใหม่ ระดับ 2, มีความสามารถ "เข้าปะทะ", +50% พลังต่อสู้ จากการโจมตีขนาบข้าง</Text>		<!-- Tier 2 Modern Light Naval Unit. Has the Skirmish ability, +50% Combat Strength from Flanking. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_DREADNOUGHT_NAME" Language="th_TH">
 			<Text>เดรดนอต</Text>		<!-- Dreadnought -->
@@ -15080,7 +15077,7 @@
 			<Text>เรือพิฆาต</Text>		<!-- Destroyer -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_DESTROYER_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตเรือนาวี ยุคใหม่ ระดับ 3 มีความสามารถ "เข้าปะทะ", +50% พลังต่อสู้จากการโจมตีขนาบข้าง</Text>		<!-- Tier 3 Modern Light Naval Unit. Has the Skirmish ability, +50% Combat Strength from Flanking. -->
+			<Text>ยูนิตเรือนาวี ยุคใหม่ ระดับ 3 มีความสามารถ "เข้าปะทะ", +50% พลังต่อสู้ จากการโจมตีขนาบข้าง</Text>		<!-- Tier 3 Modern Light Naval Unit. Has the Skirmish ability, +50% Combat Strength from Flanking. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_BATTLESHIP_NAME" Language="th_TH">
 			<Text>เรือรบ</Text>		<!-- Battleship -->

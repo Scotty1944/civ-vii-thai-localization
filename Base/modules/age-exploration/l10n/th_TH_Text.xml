@@ -3785,7 +3785,7 @@
 			<Text>รับ[icon:YIELD_SCIENCE] วิทยาศาสตร์ เท่ากับ 25% ของรายได้จากการค้า</Text>		<!-- Earn[icon:YIELD_SCIENCE] Science equal to 25% of Trade Income. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_MAWLA_MAMLUK_ABILITY_SKIRMISH_DESCRIPTION" Language="th_TH">
-			<Text>มัมลุก ได้รับความสามารถ "เข้าปะทะ", +50% พลังต่อสู้จากการโจมตีขนาบข้าง</Text>		<!-- Mamluks gain the Skirmish ability, +50% bonus from Flanking. -->
+			<Text>มัมลุก ได้รับความสามารถ "เข้าปะทะ", +50% พลังต่อสู้ จากการโจมตีขนาบข้าง</Text>		<!-- Mamluks gain the Skirmish ability, +50% bonus from Flanking. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AL_JABR_URBAN_SCIENCE_DESCRIPTION" Language="th_TH">
 			<Text>+15%[icon:YIELD_SCIENCE] วิทยาศาสตร์ ในเมืองที่มีประชากร ในเขตเมืองอย่างน้อย 8 คน</Text>		<!-- +15%[icon:YIELD_SCIENCE] Science in Cities with at least 8 Urban Population. -->
@@ -4163,7 +4163,7 @@
 			<Text>ไฮ-คอย</Text>		<!-- Hi-Koi -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_HI_KOI_QUOTE" Language="th_TH">
-			<Text>หนึ่งพบว่าตนอยู่บนเส้นทางที่เคยเดินผ่านมาแล้วและคาดการณ์สิ่งที่ยังเหลือต้องทำ</Text>		<!-- One finds oneself on the path already traveled and one foresees what remains to be done. -->
+			<Text>เมื่อหวนคืนสู่เส้นทางเดิม จึงแลเห็นสิ่งที่ยังมิได้สัมฤทธิ์</Text>		<!-- One finds oneself on the path already traveled and one foresees what remains to be done. -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_HI_KOI_AUTHOR" Language="th_TH">
 			<Text>ฌอง-มารี กิบบาล</Text>		<!-- Jean-Marie Gibbal -->
@@ -15482,7 +15482,7 @@
 			<Text>เทพเจ้าแห่งท้องฟ้า</Text>		<!-- Sky Gods -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_1_DESCRIPTION" Language="th_TH">
-			<Text>เมืองที่ก่อตั้งใหม่ในดินแดนห่างไกลเริ่มต้นด้วยศาสนานี้ในที่นี้</Text>		<!-- Newly founded Towns in Distant Lands start with this Religion in place. -->
+			<Text>เมืองที่ก่อตั้งใหม่ในดินแดนห่างไกล จะเริ่มต้นด้วยศาสนานี้</Text>		<!-- Newly founded Towns in Distant Lands start with this Religion in place. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_2_DESCRIPTION" Language="th_TH">
 			<Text>+2 แต้มเคลื่อนที่ ของ มิชชันนารี เมื่อขึ้นเรือ ยูนิตทางเรือและ ยูนิตที่ขึ้นเรือทั้งหมดได้รับ +1 แต้มเคลื่อนที่</Text>		<!-- +2 movement to Missionaries when Embarked. All Naval and Embarked Units receive +1 movement. -->
@@ -15491,18 +15491,18 @@
 			<Text>ยูนิตจะได้รับ +5 พลังต่อสู้ ในเขตตั้ง ถิ่นฐานที่เป็นมิตร ซึ่งนับถือตามศาสนานี้</Text>		<!-- Units gain +5 Combat Strength in friendly Settlements that follow this Religion. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_3_COMBAT_PREVIEW" Language="th_TH">
-			<Text>+{1_Amount} ความเชื่อผู้พิทักษ์ศาสนา</Text>		<!-- +{1_Amount} Defender of the Faith Belief -->
+			<Text>+{1_Amount} ความเชื่อ ผู้พิทักษ์ศรัทธา</Text>		<!-- +{1_Amount} Defender of the Faith Belief -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_4_DESCRIPTION" Language="th_TH">
-			<Text>ถิ่นฐานที่ถูกพิชิตจะถูกเปลี่ยนเป็นศาสนาของคุณ</Text>		<!-- Conquered Settlements are converted to your Religion. -->
+			<Text>ถิ่นฐานที่ถูกพิชิตจะถูกเปลี่ยนเป็น ศาสนาของคุณ</Text>		<!-- Conquered Settlements are converted to your Religion. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_5_DESCRIPTION" Language="th_TH">
 			<Text>เมื่อเส้นทางการค้าได้รับการจัดตั้งกับถิ่นฐาน มันจะถูกเปลี่ยนให้เป็นศาสนาของคุณ</Text>		<!-- When a Trade Route is established to a Settlement, it is converted to your Religion. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_6_DESCRIPTION" Language="th_TH">
-			<Text>มิชชันนารีได้รับค่าใช้ +1</Text>		<!-- Missionaries receive +1 Charge. -->
+			<Text>มิชชันนารีได้รับพลังเพิ่ม +1 หน่วย</Text>		<!-- Missionaries receive +1 Charge. -->
 		</Replace>
-		<Replace Tag="LOC_BELIEF_BONUS_7_DESCRIPTION" Language="th_TH">
+		<Replace Tag="LOC_BELIEF_BONUS_7_DESCRIPTION"   Language="th_TH">
 			<Text>+10% [icon:YIELD_PRODUCTION] กำลังผลิต เพื่อฝึกฝนมิชชันนารีสำหรับทุก ศาสนวัตถุ</Text>		<!-- +10% [icon:YIELD_PRODUCTION] Production towards training Missionaries for every Relic. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_7_DESCRIPTION" Language="th_TH">
