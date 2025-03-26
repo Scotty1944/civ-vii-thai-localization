@@ -3023,10 +3023,10 @@
 			<Text>วิทยาลัยทหาร</Text>		<!-- Military Academy -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MILITARY_ACADEMY_DESCRIPTION" Language="th_TH">
-			<Text>มอบระดับฟรีให้กับ ผู้บัญชาการใหม่ ที่ฝึกฝนในเมืองนี้ ยูนิตทหาร ที่ฝึกในเมืองนี้ จะเกิดขึ้นที่ ตำแหน่งของอาคารนี้, อาคารด้านทหาร ยุคใหม่</Text>		<!-- Grants a free Level to new Commanders trained in this City. Military Units trained in this City will spawn at this Building's location. Modern Military Building. -->
+			<Text>มอบระดับฟรีให้กับ ผู้บัญชาการใหม่ ที่ฝึกฝนในเมืองนี้</Text>		<!-- Grants a free Level to new Commanders trained in this City. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MILITARY_ACADEMY_TOOLTIP" Language="th_TH">
-			<Text>มอบระดับฟรีให้กับ ผู้บัญชาการใหม่ ที่ฝึกฝนในเมืองนี้ ยูนิตทหาร ที่ฝึกในเมืองนี้ จะเกิดขึ้นที่ ตำแหน่งของอาคารนี้, อาคารด้านทหาร ยุคใหม่</Text>		<!-- Grants a free Level to new Commanders trained in this City. Military Units trained in this City will spawn at this Building's location. Modern Military Building. -->
+			<Text>ยูนิตทหาร ที่ฝึกในเมืองนี้ จะเกิดขึ้นที่ ตำแหน่งของอาคารนี้, อาคารด้านทหาร ยุคใหม่</Text>		<!-- Military Units trained in this City will spawn at this Building's location. Modern Military Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MODERN_BRIDGE_NAME" Language="th_TH">
 			<Text>สะพานยุคใหม่</Text>		<!-- Modern Bridge -->
@@ -3983,7 +3983,7 @@
 			<Text>โลกที่ถูกแผดเผา</Text>		<!-- Scorched Earth -->
 		</Replace>
 		<Replace Tag="LOC_SCORCHED_EARTH_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้ สำหรับยูนิตทั้งหมดเมื่อโจมตี, +25% ผลตอบแทน และ HP จากการปล้นสะดม</Text>		<!-- +5 Combat Strength for all Units when attacking. +25% yields and HP from pillaging. -->
+			<Text>+3 พลังต่อสู้ สำหรับยูนิตทั้งหมดเมื่อโจมตี, +25% ผลตอบแทน และ HP จากการปล้นสะดม</Text>		<!-- +3 Combat Strength for all Units when attacking. +25% yields and HP from pillaging. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SCORCHED_EARTH_PREVIEW" Language="th_TH">
 			<Text>+{1_Value} โลกที่ถูกแผดเผา</Text>		<!-- +{1_Value} Scorched Earth -->
@@ -13768,17 +13768,8 @@
 		<Replace Tag="LOC_PROJECT_TOWN_GRANARY_DESCRIPTION" Language="th_TH">
 			<Text>+3 [icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า ปลูกพืช และเรือประมง</Text>		<!-- +3[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. -->
 		</Replace>
-		<Replace Tag="LOC_PROJECT_TOWN_GRANARY_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า ปลูกพืช และเรือประมง</Text>		<!-- +3[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. -->
-		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_FISHING_DESCRIPTION" Language="th_TH">
 			<Text>+3[icon:YIELD_FOOD] อาหาร จากฟาร์ม, ทุ่งหญ้า, ไร่ และเรือประมง</Text>		<!-- +3[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. -->
-		</Replace>
-		<Replace Tag="LOC_PROJECT_TOWN_FISHING_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร จากฟาร์ม, ทุ่งหญ้า, ไร่ และเรือประมง</Text>		<!-- +3[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. -->
-		</Replace>
-		<Replace Tag="LOC_PROJECT_TOWN_PRODUCTION_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต ในค่าย, คนตัดไม้, หลุมดินเหนียว, เหมือง, และเหมืองหิน</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production on Camps, Woodcutters, Clay Pits, Mines, and Quarries. -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_PRODUCTION_DESCRIPTION" Language="th_TH">
 			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต ในค่าย, คนตัดไม้, หลุมดินเหนียว, เหมือง, และเหมืองหิน</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production on Camps, Woodcutters, Clay Pits, Mines, and Quarries. -->
@@ -13798,38 +13789,26 @@
 		<Replace Tag="LOC_PROJECT_TOWN_INN_DESCRIPTION" Language="th_TH">
 			<Text>+2[icon:YIELD_DIPLOMACY] อิทธิพล ต่อถิ่นฐานที่เชื่อมต่อกับเมืองนี้</Text>		<!-- +2[icon:YIELD_DIPLOMACY] Influence per Settlement Connected to this Town. -->
 		</Replace>
-		<Replace Tag="LOC_PROJECT_TOWN_INN_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_DIPLOMACY] อิทธิพล ต่อถิ่นฐานที่เชื่อมต่อกับเมืองนี้</Text>		<!-- +2[icon:YIELD_DIPLOMACY] Influence per Settlement Connected to this Town. -->
-		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_COTTON_TOOLTIP" Language="th_TH">
-			<Text>ทรัพยากรโรงงาน, +5%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการฝึกยูนิตภาคพื้น</Text>		<!-- Factory Resource. +5%[icon:YIELD_PRODUCTION] Production towards training Land Units. -->
+			<Text>+5%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการฝึกยูนิตภาคพื้น</Text>		<!-- +5%[icon:YIELD_PRODUCTION] Production towards training Land Units. -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_FISH_TOOLTIP" Language="th_TH">
-			<Text>ทรัพยากรโรงงาน, +5% อัตราการเติบโตของถิ่นฐาน</Text>		<!-- Factory Resource. +5% Settlement Growth Rate. -->
-		</Replace>
-		<Replace Tag="LOC_ANT_RESOURCE_GOLD_TOOLTIP" Language="th_TH">
-			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้อสิ่งก่อสร้าง</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings -->
+			<Text>+5% อัตราการเติบโตของถิ่นฐาน</Text>		<!-- +5% Settlement Growth Rate. -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_GOLD_TOOLTIP" Language="th_TH">
 			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้อสิ่งก่อสร้าง</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_GOLD_DISTANT_LANDS_TOOLTIP" Language="th_TH">
-			<Text>สร้าง เรือบรรทุกสมบัติ เมื่อเชื่อมต่อกับถิ่นฐานชายฝั่ง</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings -->
+			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้อสิ่งก่อสร้าง</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_GOLD_DISTANT_LANDS_TOOLTIP" Language="th_TH">
-			<Text>สร้าง เรือบรรทุกสมบัติ เมื่อเชื่อมต่อกับถิ่นฐานชายฝั่ง</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings -->
-		</Replace>
-		<Replace Tag="LOC_ANT_RESOURCE_IVORY_TOOLTIP" Language="th_TH">
-			<Text>+4[icon:YIELD_HAPPINESS] ความสุข, +4[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +4[icon:YIELD_HAPPINESS] Happiness, +4[icon:YIELD_PRODUCTION] Production -->
+			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้อสิ่งก่อสร้างง</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_IVORY_TOOLTIP" Language="th_TH">
 			<Text>+4[icon:YIELD_HAPPINESS] ความสุข, +4[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +4[icon:YIELD_HAPPINESS] Happiness, +4[icon:YIELD_PRODUCTION] Production -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_KAOLIN_TOOLTIP" Language="th_TH">
-			<Text>ทรัพยากรโรงงาน, +3%[icon:YIELD_CULTURE] วัฒนธรรม </Text>		<!-- Factory Resource. +3%[icon:YIELD_CULTURE] Culture. -->
-		</Replace>
-		<Replace Tag="LOC_ANT_RESOURCE_MARBLE_TOOLTIP" Language="th_TH">
-			<Text>+10% [icon:YIELD_PRODUCTION] กำลังผลิต สู่สิ่งมหัศจรรย์ที่วางบนพื้นที่ทุ่งหญ้า ทุ่งทุนดรา และทะเล</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders -->
+			<Text>+3%[icon:YIELD_CULTURE] วัฒนธรรม </Text>		<!-- +3%[icon:YIELD_CULTURE] Culture. -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_MARBLE_TOOLTIP" Language="th_TH">
 			<Text>+10% [icon:YIELD_PRODUCTION] กำลังผลิต สู่สิ่งมหัศจรรย์ที่วางบนพื้นที่ทุ่งหญ้า ทุ่งทุนดรา และทะเล</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders -->
@@ -13840,17 +13819,11 @@
 		<Replace Tag="LOC_ANT_RESOURCE_SILK_TOOLTIP" Language="th_TH">
 			<Text>+6 [icon:YIELD_CULTURE] วัฒนธรรม ในเมืองหลวง +3 [icon:YIELD_CULTURE] วัฒนธรรม เพิ่มไปยังเมืองอื่นๆ</Text>		<!-- +6[icon:YIELD_CULTURE] Culture in Capital. +3[icon:YIELD_CULTURE] Culture to any other City. -->
 		</Replace>
-		<Replace Tag="LOC_ANT_RESOURCE_SILK_TOOLTIP" Language="th_TH">
-			<Text>+6 [icon:YIELD_CULTURE] วัฒนธรรม ในเมืองหลวง +3 [icon:YIELD_CULTURE] วัฒนธรรม เพิ่มไปยังเมืองอื่นๆ</Text>		<!-- +6[icon:YIELD_CULTURE] Culture in Capital. +3[icon:YIELD_CULTURE] Culture to any other City. -->
-		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILVER_TOOLTIP" Language="th_TH">
-			<Text>+20% [icon:YIELD_GOLD] ทอง สำหรับการซื้อต่อยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Units -->
-		</Replace>
-		<Replace Tag="LOC_ANT_RESOURCE_SILVER_TOOLTIP" Language="th_TH">
-			<Text>+20% [icon:YIELD_GOLD] ทอง สำหรับการซื้อต่อยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Units -->
+			<Text>+20% [icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Units -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILVER_DISTANT_LANDS_TOOLTIP" Language="th_TH">
-			<Text>สร้าง เรือบรรทุกสมบัติ เมื่อเชื่อมต่อกับถิ่นฐานชายฝั่ง</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Units -->
+			<Text>+20% [icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Units -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_WINE_TOOLTIP" Language="th_TH">
 			<Text>+4[icon:YIELD_FOOD] อาหาร, +4[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +4[icon:YIELD_FOOD] Food, +4[icon:YIELD_PRODUCTION] Production -->
@@ -13858,41 +13831,23 @@
 		<Replace Tag="LOC_ANT_RESOURCE_HORSES_TOOLTIP" Language="th_TH">
 			<Text>+6[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +6[icon:YIELD_HAPPINESS] Happiness -->
 		</Replace>
-		<Replace Tag="LOC_ANT_RESOURCE_HORSES_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +6[icon:YIELD_HAPPINESS] Happiness -->
-		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_COCOA_TOOLTIP" Language="th_TH">
-			<Text>สร้าง เรือบรรทุกสมบัติ เมื่อต่อกับชายฝั่งของถิ่นฐาน</Text>		<!-- Factory Resource. +3%[icon:YIELD_HAPPINESS] Happiness. -->
-		</Replace>
-		<Replace Tag="LOC_EXP_RESOURCE_COCOA_TOOLTIP" Language="th_TH">
-			<Text>สร้าง เรือบรรทุกสมบัติ เมื่อต่อกับชายฝั่งของถิ่นฐาน</Text>		<!-- Factory Resource. +3%[icon:YIELD_HAPPINESS] Happiness. -->
-		</Replace>
-		<Replace Tag="LOC_EXP_RESOURCE_FURS_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_HAPPINESS] ความสุข ในเมืองที่มีสถานีรถไฟ +3[icon:YIELD_HAPPINESS] ความสุข ให้กับเมืองอื่นๆ ทุกเมือง</Text>		<!-- +6[icon:YIELD_HAPPINESS] Happiness in a City with a Rail Station. +3[icon:YIELD_HAPPINESS] Happiness to any other City. -->
+			<Text>3%[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +3%[icon:YIELD_HAPPINESS] Happiness. -->
 		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_FURS_TOOLTIP" Language="th_TH">
 			<Text>+6[icon:YIELD_HAPPINESS] ความสุข ในเมืองที่มีสถานีรถไฟ +3[icon:YIELD_HAPPINESS] ความสุข ให้กับเมืองอื่นๆ ทุกเมือง</Text>		<!-- +6[icon:YIELD_HAPPINESS] Happiness in a City with a Rail Station. +3[icon:YIELD_HAPPINESS] Happiness to any other City. -->
 		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_SPICES_TOOLTIP" Language="th_TH">
-			<Text>สร้าง เรือบรรทุกสมบัติ เมื่อเชื่อมต่อกับชุมชนชายฝั่ง</Text>		<!-- +4[icon:YIELD_FOOD] Food, +4[icon:YIELD_HAPPINESS] Happiness -->
+			<Text>+4[icon:YIELD_FOOD] อาหาร, +4[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +4[icon:YIELD_FOOD] Food, +4[icon:YIELD_HAPPINESS] Happiness -->
 		</Replace>
 		<Replace Tag="LOC_MOD_TECH_MO_OIL_PRODUCTION_DESCRIPTION" Language="th_TH">
 			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต บนแท่นขุดเจาะน้ำมัน</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Oil Rigs. -->
 		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_SUGAR_TOOLTIP" Language="th_TH">
-			<Text>สร้าง เรือบรรทุกสมบัติ เมื่อเชื่อมต่อกับถิ่นฐานชายฝั่ง</Text>		<!-- +6[icon:YIELD_FOOD] Food -->
-		</Replace>
-		<Replace Tag="LOC_EXP_RESOURCE_SUGAR_TOOLTIP" Language="th_TH">
-			<Text>สร้าง เรือบรรทุกสมบัติ เมื่อเชื่อมต่อกับถิ่นฐานชายฝั่ง</Text>		<!-- +6[icon:YIELD_FOOD] Food -->
+			<Text>+3%[icon:YIELD_SCIENCE] อาหาร</Text>		<!-- +6[icon:YIELD_FOOD] Food -->
 		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_TEA_TOOLTIP" Language="th_TH">
-			<Text>สร้าง เรือบรรทุกสมบัติ เมื่อเชื่อมต่อกับชุมชนชายฝั่ง</Text>		<!-- Factory Resource. +3%[icon:YIELD_SCIENCE] Science. -->
-		</Replace>
-		<Replace Tag="LOC_EXP_RESOURCE_TEA_TOOLTIP" Language="th_TH">
-			<Text>สร้าง เรือบรรทุกสมบัติ เมื่อเชื่อมต่อกับชุมชนชายฝั่ง</Text>		<!-- Factory Resource. +3%[icon:YIELD_SCIENCE] Science. -->
-		</Replace>
-		<Replace Tag="LOC_EXP_RESOURCE_TRUFFLES_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_FOOD] อาหารในเมืองที่มีสถานีรถไฟ, อาหาร +3[icon:YIELD_FOOD] ไปยังเมืองอื่นๆ</Text>		<!-- +6[icon:YIELD_FOOD] Food in a City with a Rail Station. +3[icon:YIELD_FOOD] Food to any other City. -->
+			<Text>+3%[icon:YIELD_SCIENCE] วิทยาศาสตร์</Text>		<!-- +3%[icon:YIELD_SCIENCE] Science. -->
 		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_TRUFFLES_TOOLTIP" Language="th_TH">
 			<Text>+6[icon:YIELD_FOOD] อาหารในเมืองที่มีสถานีรถไฟ, อาหาร +3[icon:YIELD_FOOD] ไปยังเมืองอื่นๆ</Text>		<!-- +6[icon:YIELD_FOOD] Food in a City with a Rail Station. +3[icon:YIELD_FOOD] Food to any other City. -->
@@ -13903,38 +13858,26 @@
 		<Replace Tag="LOC_EXP_RESOURCE_WHALES_TOOLTIP" Language="th_TH">
 			<Text>+6[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +6[icon:YIELD_PRODUCTION] Production -->
 		</Replace>
-		<Replace Tag="LOC_EXP_RESOURCE_WHALES_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +6[icon:YIELD_PRODUCTION] Production -->
-		</Replace>
 		<Replace Tag="LOC_MOD_RESOURCE_COFFEE_TOOLTIP" Language="th_TH">
-			<Text>ทรัพยากรโรงงาน, +5%[icon:YIELD_PRODUCTION] กำลังผลิต ในการสร้างอาคารและสิ่งมหัศจรรย์</Text>		<!-- Factory Resource. +5%[icon:YIELD_PRODUCTION] Production towards constructing Buildings and Wonders. -->
-		</Replace>
-		<Replace Tag="LOC_MOD_RESOURCE_COFFEE_TOOLTIP" Language="th_TH">
-			<Text>ทรัพยากรโรงงาน, +5%[icon:YIELD_PRODUCTION] กำลังผลิต ในการสร้างอาคารและสิ่งมหัศจรรย์</Text>		<!-- Factory Resource. +5%[icon:YIELD_PRODUCTION] Production towards constructing Buildings and Wonders. -->
+			<Text>+5%[icon:YIELD_PRODUCTION] กำลังผลิต ในการสร้างอาคารและสิ่งมหัศจรรย์</Text>		<!-- +5%[icon:YIELD_PRODUCTION] Production towards constructing Buildings and Wonders. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_RESOURCE_TOBACCO_TOOLTIP" Language="th_TH">
 			<Text>+6[icon:YIELD_PRODUCTION] กำลังผลิต ในเมืองที่มีสถานีรถไฟ +3[icon:YIELD_PRODUCTION] กำลังผลิต ไปยังเมืองอื่นๆ</Text>		<!-- +6[icon:YIELD_PRODUCTION] Production in a City with a Rail Station. +3[icon:YIELD_PRODUCTION] Production to any other City. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_RESOURCE_CITRUS_TOOLTIP" Language="th_TH">
-			<Text>ทรัพยากรโรงงาน, +5%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อการฝึกยูนิตเรือรบ</Text>		<!-- Factory Resource. +5%[icon:YIELD_PRODUCTION] Production towards training Naval Units. -->
-		</Replace>
-		<Replace Tag="LOC_MOD_RESOURCE_CITRUS_TOOLTIP" Language="th_TH">
-			<Text>ทรัพยากรโรงงาน, +5%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อการฝึกยูนิตเรือรบ</Text>		<!-- Factory Resource. +5%[icon:YIELD_PRODUCTION] Production towards training Naval Units. -->
+			<Text>+5%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อการฝึกยูนิตเรือรบ</Text>		<!-- +5%[icon:YIELD_PRODUCTION] Production towards training Naval Units. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_RESOURCE_COAL_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตเรือรบเบาได้รับ +1 พลังต่อสู้, +100%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการสร้างสถานีรถไฟ</Text>		<!-- Light Naval Units gain +1 Combat Strength. +100%[icon:YIELD_PRODUCTION] Production towards constructing Rail Stations -->
+			<Text>ยูนิตเรือเบาได้รับ +1 พลังต่อสู้, +10%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการสร้างสถานีรถไฟ และ ท่าเรือ</Text>		<!-- Light Naval Units gain +1 Combat Strength. +10%[icon:YIELD_PRODUCTION] Production towards Rail Stations and Ports. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_RESOURCE_OIL_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตเรือหนักและยูนิตทหารม้า จะได้รับ +1 พลังต่อสู้ และจะได้รับพลังต่อสู้เพิ่มอีก +1 เมื่อสู้กับยูนิตทหารราบ</Text>		<!-- Heavy Naval and Cavalry Units gain +1 Combat Strength, and an additional +1 against Infantry Units -->
-		</Replace>
-		<Replace Tag="LOC_MOD_RESOURCE_NICKEL_TOOLTIP" Language="th_TH">
-			<Text>+10%[icon:YIELD_GOLD] ทอง, +10%[icon:YIELD_SCIENCE] วิทยาศาสตร์</Text>		<!-- +10%[icon:YIELD_GOLD] Gold, +10%[icon:YIELD_SCIENCE] Science -->
+			<Text>ยูนิตเรือหนักและยูนิตทหารม้า จะได้รับ +1 พลังต่อสู้ และจะได้รับพลังต่อสู้เพิ่มอีก +1 เมื่อสู้กับยูนิตทหารราบ, +10%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับ โรงงาน</Text>		<!-- Heavy Naval and Cavalry Units gain +1 Combat Strength, and an additional +1 against Infantry Units. +10%[icon:YIELD_PRODUCTION] Production towards Factories. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_RESOURCE_NICKEL_TOOLTIP" Language="th_TH">
 			<Text>+10%[icon:YIELD_GOLD] ทอง, +10%[icon:YIELD_SCIENCE] วิทยาศาสตร์</Text>		<!-- +10%[icon:YIELD_GOLD] Gold, +10%[icon:YIELD_SCIENCE] Science -->
 		</Replace>
 		<Replace Tag="LOC_MOD_RESOURCE_QUININE_TOOLTIP" Language="th_TH">
-			<Text>โรงงานทรัพยากร ยูนิตฟื้นฟู +1 HP</Text>		<!-- Factory Resource. Units heal +1 HP. -->
+			<Text>ยูนิตฟื้นฟู +1 HP</Text>		<!-- Units heal +1 HP. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_RESOURCE_RUBBER_TOOLTIP" Language="th_TH">
 			<Text>ยูนิตทหารราบและ ยูนิตทางอากาศ ได้รับ +1 พลังต่อสู้</Text>		<!-- Infantry and Air Units gain +1 Combat Strength -->
@@ -14338,7 +14281,7 @@
 			<Text>{1_PathDescription}[n]{2_LegacyPathAdvisor} [b]ของคุณ[/b]อยู่ที่นี่เพื่อแนะนำคุณใน เส้นทางนี้ หากคุณต้องการ[n]โปรดทราบว่าคุณสามารถเปลี่ยน เส้นทาง ได้ตลอดเวลา</Text>		<!-- {1_PathDescription}[n]Your [b]{2_LegacyPathAdvisor} [/b]is here to guide you in this path if you wish.[n]Note that you can change paths at any time. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_LEGACY_PATH_ECONOMIC_DESCRIPTION" Language="th_TH">
-			<Text>สำรวจดินแดนใหม่และนำ เรือบรรทุกสมบัติล้ำค่า กลับบ้าน!</Text>		<!-- Collect new Resources and lead an Industrial Revolution! -->
+			<Text>รวบรวมทรัพยากรใหม่และนำพาการปฏิวัติอุตสาหกรรม!</Text>		<!-- Collect new Resources and lead an Industrial Revolution! -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_LEGACY_PATH_MILITARY_DESCRIPTION" Language="th_TH">
 			<Text>ขยายกำลังทหารของคุณ และต่อสู้กับศัตรูแห่งอุดมการณ์!</Text>		<!-- Expand your military might and battle Ideological enemies! -->
@@ -15530,7 +15473,7 @@
 			<Text>บัดนี้ข้าคือความตาย คือผู้ทำลายล้างโลก</Text>		<!-- Now, I am become Death, the destroyer of worlds. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_AUTHOR_WONDER_MANHATTAN_PROJECT" Language="th_TH">
-			<Text>ภควัทคีตา</Text>		<!-- The Baghvad Gita -->
+			<Text>ภควัทคีตา</Text>		<!-- The Bhagavad Gita -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_WONDER_MUZIBU_AZAALA_MPANGA" Language="th_TH">
 			<Text>เจ้าชายก็เหมือนกับงูเหลือม พวกเขากลืนกินกันและกัน</Text>		<!-- Princes are like pythons. They swallow each other. -->
