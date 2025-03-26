@@ -2197,6 +2197,12 @@
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_DELETE_TT" Language="th_TH">
 			<Text>ลบยูนิตที่เลือก</Text>		<!-- Deletes the selected unit -->
 		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_FRAME_RATE_LIMIT" Language="th_TH">
+			<Text>จำกัดเฟรมเรท</Text>		<!-- Frame Rate Limit -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_FRAME_RATE_LIMIT_DESCRIPTION" Language="th_TH">
+			<Text>จำกัดเฟรมเรทสูงสุด</Text>		<!-- Caps the maximum frame rate -->
+		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_FORTIFIED_HEAL" Language="th_TH">
 			<Text>รักษาป้อมปราการ</Text>		<!-- Fortified Heal -->
 		</Replace>
@@ -2223,6 +2229,18 @@
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_RANGED_ATTACK" Language="th_TH">
 			<Text>โจมตีระยะไกล</Text>		<!-- Range Attack -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_UPSCALE_AA_METALFX_SPATIAL" Language="th_TH">
+			<Text>MSAA + MetalFX Spatial</Text>		<!-- MSAA + MetalFX Spatial -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_UPSCALE_AA_METALFX_SPATIAL_DESCRIPTION" Language="th_TH">
+			<Text>เปิดใช้งาน MSAA + MetalFX Spatial</Text>		<!-- Enable MSAA + MetalFX Spatial -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_UPSCALE_AA_METALFX_TEMPORAL" Language="th_TH">
+			<Text>MetalFX Temporal</Text>		<!-- MetalFX Temporal -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_UPSCALE_AA_METALFX_TEMPORAL_DESCRIPTION" Language="th_TH">
+			<Text>เปิดใช้งาน MetalFX Temporal</Text>		<!-- Enable MetalFX Temporal -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_RANGED_ATTACK_TT" Language="th_TH">
 			<Text>ดำเนินการโจมตีระยะไกลด้วยยูนิตที่เลือก</Text>		<!-- Performs the Ranged Attack with the selected unit -->
@@ -3514,6 +3532,18 @@
 		<Replace Tag="LOC_OPTIONS_GAME_TUTORIAL_0" Language="th_TH">
 			<Text>ปิด</Text>		<!-- Off -->
 		</Replace>
+		<Replace Tag="LOC_DRIVER_OUT_OF_DATE_MESSAGE" Language="th_TH">
+			<Text>"ไดรเวอร์กราฟิกในเครื่องนี้อาจจะเก่าแล้ว เราแนะนำให้ใช้ไดรเวอร์กราฟิก ที่มีการสนับสนุนอย่างเป็นทางการสำหรับ Sid Meier's Civilization VII เพื่อประสบการณ์ที่ดีที่สุด สามารถดูข้อมูลเพิ่มเติมได้ที่ https://support.2k.com/"</Text>		<!-- "The graphics drivers on this machine might be out of date.  We recommend using graphics drivers with official support for Sid Meier's Civilization VII for the best experience.  More information can be found at https://support.2k.com/" -->
+		</Replace>
+		<Replace Tag="LOC_DRIVER_OUT_OF_DATE_EXIT" Language="th_TH">
+			<Text>"ออก"</Text>		<!-- "Exit" -->
+		</Replace>
+		<Replace Tag="LOC_DRIVER_OUT_OF_DATE_CONTINUE" Language="th_TH">
+			<Text>"ดำเนินการต่อ"</Text>		<!-- "Continue" -->
+		</Replace>
+		<Replace Tag="LOC_DRIVER_OUT_OF_DATE_IGNORE" Language="th_TH">
+			<Text>"ไม่ต้องแสดงอีก"</Text>		<!-- "Ignore Always" -->
+		</Replace>
 		<Replace Tag="LOC_OPTIONS_GAME_TUTORIAL_1" Language="th_TH">
 			<Text>แค่แจ้งเตือนเท่านั้น</Text>		<!-- Only Warnings -->
 		</Replace>
@@ -4188,6 +4218,9 @@
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_CAMERA_MOVEMENT_FRICTION" Language="th_TH">
 			<Text>แรงเสียดทานการเคลื่อนที่ของกล้อง</Text>		<!-- Camera Movement Friction -->
+		</Replace>
+		<Replace Tag="LOC_UI_EVENTS_MULTIPLAYER_NO_WIRELESS" Language="th_TH">
+			<Text>โหมดไร้สาย จะตัดการเชื่อมต่ออินเทอร์เน็ต ซึ่งจำเป็นสำหรับกิจกรรม</Text>		<!-- Wireless mode will disconnect internet connection which is required for events. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_CAMERA_MOVEMENT_FRICTION_DESCRIPTION" Language="th_TH">
 			<Text>แรงเสียดทานที่ใช้กับกล้องเมื่อแพนด้วยแท่งอนาล็อก</Text>		<!-- How much friction to apply to the camera when panning it with the analog stick. -->

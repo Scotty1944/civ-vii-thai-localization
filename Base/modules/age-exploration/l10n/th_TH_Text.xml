@@ -352,6 +352,18 @@
 		<Replace Tag="LOC_WARNING_DISTANT_LAND_CONVERSION_SUMMARY" Language="th_TH">
 			<Text>สูญเสียการมีอยู่ของศาสนาในดินแดนห่างไกล</Text>		<!-- Losing Distant Land Religious Presence -->
 		</Replace>
+		<Replace Tag="LOC_WARNING_AGE_TRANSITION_COMMANDERS_MESSAGE" Language="th_TH">
+			<Text>กองทัพของเรามีทหารจำนวนมาก แต่ไม่มีผู้บัญชาการเพียงพอที่จะนำพวกเขาได้ เราจะสามารถรักษายูนิตภาคพื้นได้เพียง {1_value} หน่วยในช่วงเริ่มต้นของยุคถัดไป บวกกับจำนวนยูนิตที่ผู้บัญชาการกองทัพของเราสามารถถือได้ เราต้องผลิตผู้บัญชาการกองทัพเพิ่มขึ้น มิฉะนั้นเราจะสูญเสีย ยูนิตภาคพื้น {2_lostunits} หน่วย</Text>		<!-- Our armies have many soldiers but not enough Commanders to lead them. We will only be able to maintain {1_value} Land Units at the start of the next Age plus however many Units our Army Commanders can hold. We must produce more Army Commanders or we will lose {2_lostunits} Land {2_lostunits: plural 1?Unit; other?Units;}. -->
+		</Replace>
+		<Replace Tag="LOC_WARNING_AGE_TRANSITION_COMMANDERS_SUMMARY" Language="th_TH">
+			<Text>กองทัพขนาดใหญ่</Text>		<!-- Large Army -->
+		</Replace>
+		<Replace Tag="LOC_WARNING_AGE_TRANSITION_NAVAL_COMMANDERS_MESSAGE" Language="th_TH">
+			<Text>กองทัพเรือของเรามีลูกเรือจำนวนมาก แต่ไม่มีผู้บัญชาการเพียงพอที่จะนำพวกเขาได้ ในช่วงเริ่มต้นของยุคถัดไป เราจะสามารถรักษายูนิตเรือได้ เพียงเท่าที่ผู้บัญชาการกองเรือของเราสามารถถือครองได้ เราต้องผลิตผู้บัญชาการกองเรือเพิ่มขึ้น มิฉะนั้นเราจะสูญเสีย ยูนิตทางน้ำ {1_lostunits} หน่วย</Text>		<!-- Our navy has many sailors but not enough Commanders to lead them. At the start of the next age we will only be able to maintain however many Naval Units our Fleet Commanders can hold. We must produce more Fleet Commanders or we will lose {1_lostunits} Naval {1_lostunits: plural 1?Unit; other?Units;} -->
+		</Replace>
+		<Replace Tag="LOC_WARNING_AGE_TRANSITION_NAVAL_COMMANDERS_SUMMARY" Language="th_TH">
+			<Text>กองทัพเรือขนาดใหญ่</Text>		<!-- Large Navy -->
+		</Replace>
 		<Replace Tag="LOC_WARNING_FIRST_CONVERSION_MESSAGE" Language="th_TH">
 			<Text>มิชชันนารีจากต่างประเทศได้ทำให้ผู้คนใน {1_City} หลงใหล — ซึ่งเป็นลางที่ไม่ดี หากเราสูญเสียหัวใจของประชาชน อาจทำให้เราสูญเสียมากกว่าเดิม</Text>		<!-- Missionaries from abroad have captivated the inhabitants of {1_City} — an ill portent. If we lose our people's hearts, we may lose more. -->
 		</Replace>
@@ -3796,6 +3808,9 @@
 		<Replace Tag="LOC_TREE_CIVICS_EX_CHOLA_NAME" Language="th_TH">
 			<Text>แนวคิดโจฬะ</Text>		<!-- Chola Civics -->
 		</Replace>
+		<Replace Tag="LOC_MOD_RELIGION_MARINE_TILE_HAPPINESS_TOWN_DESCRIPTION" Language="th_TH">
+			<Text>+1[icon:YIELD_HAPPINESS] ความสุข บนพื้นที่ทางทะเล ในเมืองที่นับถือศาสนาของคุณ, ค่านี้จะเพิ่มเป็นสองเท่าสำหรับเมืองใหญ่</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness on Marine Terrain in Towns following your Religion. This is doubled for Cities. -->
+		</Replace>
 		<Replace Tag="LOC_CIVIC_NAGARAM_NAME" Language="th_TH">
 			<Text>นาคา รัม</Text>		<!-- Nagaram -->
 		</Replace>
@@ -3897,6 +3912,9 @@
 		</Replace>
 		<Replace Tag="LOC_MOD_RELIGION_MARINE_TILE_CULTURE_DESCRIPTION" Language="th_TH">
 			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม ในพื้นที่ทะเลในถิ่นฐานที่นับถือศาสนาของคุณ</Text>		<!-- +2[icon:YIELD_CULTURE] Culture on Marine Terrain in Settlements following your Religion. -->
+		</Replace>
+		<Replace Tag="LOC_MOD_NUSUNTARA_COAST_ADJACENCY_DESCRIPTION" Language="th_TH">
+			<Text>อาคารด้านวัฒนธรรมได้รับ +1[icon:YIELD_HAPPINESS] ความสุข จากการอยู่ติดกับพื้นที่ชายฝั่ง</Text>		<!-- Culture Buildings receive a +1[icon:YIELD_HAPPINESS] Happiness Adjacency for Coast Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_KAHUNA_CHARGES_DESCRIPTION" Language="th_TH">
 			<Text>คาฮูนาได้รับพลังการรักษาเป็นครั้งที่สอง</Text>		<!-- The Kahuna Receives a Second Healing Charge. -->
@@ -4077,6 +4095,9 @@
 		</Replace>
 		<Replace Tag="LOC_CIVIC_FOUR_HOUNDS_NAME" Language="th_TH">
 			<Text>สี่สุนัขเกรย์ฮาวด์</Text>		<!-- Four Hounds -->
+		</Replace>
+		<Replace Tag="LOC_MOD_HI_KOI_RIVER_COMBAT_PREVIEW" Language="th_TH">
+			<Text>+{1_amount} ไฮ-คอย</Text>		<!-- +{1_amount} Hi-Koi -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_FOUR_HOUNDS_QUOTE" Language="th_TH">
 			<Text>เครื่องมือสำหรับจมูกและอุปกรณ์สำหรับลิ้น, เหล็กสำหรับหัวใจและหนังสำหรับดาบ, ดื่มน้ำค้างและแข่งกับลม - พวกเขาไป</Text>		<!-- Chisels for snouts and awls for tongues, iron for hearts and whips for swords, drinking the dew and racing the wind - they go. -->
@@ -15502,7 +15523,7 @@
 		<Replace Tag="LOC_BELIEF_BONUS_6_DESCRIPTION" Language="th_TH">
 			<Text>มิชชันนารีได้รับพลังเพิ่ม +1 หน่วย</Text>		<!-- Missionaries receive +1 Charge. -->
 		</Replace>
-		<Replace Tag="LOC_BELIEF_BONUS_7_DESCRIPTION"   Language="th_TH">
+		<Replace Tag="LOC_BELIEF_BONUS_7_DESCRIPTION" Language="th_TH">
 			<Text>+10% [icon:YIELD_PRODUCTION] กำลังผลิต เพื่อฝึกฝนมิชชันนารีสำหรับทุก ศาสนวัตถุ</Text>		<!-- +10% [icon:YIELD_PRODUCTION] Production towards training Missionaries for every Relic. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_7_DESCRIPTION" Language="th_TH">

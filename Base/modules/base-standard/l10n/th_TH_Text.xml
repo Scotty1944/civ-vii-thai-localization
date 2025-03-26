@@ -85,6 +85,24 @@
 		<Replace Tag="LOC_ADVANCED_OPTIONS_START_POSITION" Language="th_TH">
 			<Text>ตำแหน่งเริ่มต้น</Text>		<!-- Start Position -->
 		</Replace>
+		<Replace Tag="LOC_MAP_START_POSITION_NAME" Language="th_TH">
+			<Text>ตำแหน่งเริ่มต้น</Text>		<!-- Start Position -->
+		</Replace>
+		<Replace Tag="LOC_MAP_START_POSITION_DESCRIPTION" Language="th_TH">
+			<Text>เลือกวิธีการกำหนดตำแหน่งเริ่มต้น</Text>		<!-- Choose how start positions are determined. -->
+		</Replace>
+		<Replace Tag="LOC_MAP_START_POSITION_BALANCED_NAME" Language="th_TH">
+			<Text>สมดุล</Text>		<!-- Balanced -->
+		</Replace>
+		<Replace Tag="LOC_MAP_START_POSITION_BALANCED_DESCRIPTION" Language="th_TH">
+			<Text>พื้นที่เริ่มต้นขนาดเท่าๆ กันสำหรับผู้เล่นแต่ละคน, เหมาะสำหรับโหมดผู้เล่นหลายคน</Text>		<!-- Roughly equal-sized start areas for each player; ideal for multiplayer. -->
+		</Replace>
+		<Replace Tag="LOC_MAP_START_POSITION_STANDARD_NAME" Language="th_TH">
+			<Text>มาตรฐาน</Text>		<!-- Standard -->
+		</Replace>
+		<Replace Tag="LOC_MAP_START_POSITION_STANDARD_DESCRIPTION" Language="th_TH">
+			<Text>รูปร่างแผนที่จะเป็นธรรมชาติยิ่งขึ้น, พื้นที่เริ่มต้นจะไม่สมดุล สำหรับผู้เล่นทุกคน</Text>		<!-- More organic map shapes; start areas not as balanced for all players. -->
+		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_TEMPERATURE" Language="th_TH">
 			<Text>อุณหภูมิ</Text>		<!-- Temperature -->
 		</Replace>
@@ -489,6 +507,18 @@
 		</Replace>
 		<Replace Tag="LOC_WARNING_ALLIANCE_WEAKENING_SUMMARY" Language="th_TH">
 			<Text>พันธมิตรกำลังอ่อนแอลง</Text>		<!-- Alliance Weakening -->
+		</Replace>
+		<Replace Tag="LOC_WARNING_TREASURE_FLEET_BUILDING_MESSAGE" Language="th_TH">
+			<Text>{1_City} พร้อมที่จะเริ่มสร้าง เรือบรรทุกสมบัติ แล้ว แต่พวกเขาต้องการสถานที่สำหรับปล่อย เราควรสร้างท่าเรือประมงใน {1_City} เพื่อจุดประสงค์นี้ เมื่อสิ่งอำนวยความสะดวกพร้อมใช้งาน คุณสามารถตรวจสอบระยะเวลา จนถึง เรือบรรทุกสมบัติ ถัดไปของคุณบนหน้าจอทรัพยากร</Text>		<!-- {1_City} is ready to start building treasure fleets, but they need a place to launch. We should create a Fishing Quay in {1_City} for this purpose. Once the facilities are available, you can check how long until your next Treasure Fleet on the Resources screen. -->
+		</Replace>
+		<Replace Tag="LOC_WARNING_TREASURE_FLEET_BUILDING_SUMMARY" Language="th_TH">
+			<Text>จุดปล่อยเรือบรรทุกสมบัติ</Text>		<!-- Treasure Fleet Launch Point -->
+		</Replace>
+		<Replace Tag="LOC_WARNING_TREASURE_FLEET_TECH_MESSAGE" Language="th_TH">
+			<Text>{1_City} มีสินค้าที่มีค่าพร้อมที่จะส่งกลับไปยังจักรวรรดิของคุณ อย่างไรก็ตาม เราจำเป็นต้องปรับปรุงความสามารถในการต่อเรือของเราก่อน ฉันแนะนำให้คุณวิจัยเทคโนโลยีการต่อเรือโดยเร็วที่สุด</Text>		<!-- {1_City} has valuable goods ready to be sent back to your empire. However, we first need to first improve our shipbuilding capabilities. I suggest you research the Shipbuilding technology as soon as you can. -->
+		</Replace>
+		<Replace Tag="LOC_WARNING_TREASURE_FLEET_TECH_SUMMARY" Language="th_TH">
+			<Text>เรือบรรทุกสมบัติ ต้องการการ อู่ต่อเรือ</Text>		<!-- Treasure Fleets Need Shipbuilding -->
 		</Replace>
 		<Replace Tag="LOC_WARNING_WAR_WEARINESS_MESSAGE" Language="th_TH">
 			<Text>ความพยายามในสงครามของเราล้มเหลวเมื่อการสนับสนุนของ {1_playerName} ในความขัดแย้งนี้เพิ่มขึ้น ที่บ้าน ประชาชนของเราได้รับโทษด้าน [icon:YIELD_HAPPINESS]ความสุข ในถิ่นฐานของเรา ที่แนวหน้า ทหารของเราทนทุกข์กับการลงโทษในการต่อสู้เมื่อต่อสู้กับยูนิตของ {1_playerName} ให้เราใช้ [icon:YIELD_DIPLOMACY]อิทธิพล เพื่อเพิ่มการสนับสนุนเพื่อลดผลกระทบเชิงลบเหล่านี้</Text>		<!-- Our war efforts falter as {1_playerName}'s support in this conflict grows. At home, our people suffer a penalty to [icon:YIELD_HAPPINESS]Happiness in our settlements. At the front, our soldiers endure a combat penalty when fighting {1_playerName}'s units. Let us spend [icon:YIELD_DIPLOMACY]Influence to increase support for our cause to reduce these negative effects. -->
@@ -1864,6 +1894,15 @@
 		<Replace Tag="LOC_PEDIA_SIDEBAR_REQUIRED_CIVIC" Language="th_TH">
 			<Text>แนวคิดที่จำเป็น:</Text>		<!-- Required Civic: -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_SIDEBAR_REQUIRED_BUILDING" Language="th_TH">
+			<Text>สิ่งก่อสร้างที่จำเป็น:</Text>		<!-- Required Building: -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_SIDEBAR_REQUIRED_IMPROVEMENT" Language="th_TH">
+			<Text>เขตพัฒนาที่จำเป็น:</Text>		<!-- Required Improvement: -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_SIDEBAR_REQUIRED_WONDER" Language="th_TH">
+			<Text>สิ่งมหัศจรรย์ที่จำเป็น:</Text>		<!-- Required Wonder: -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_CITIES_NAME" Language="th_TH">
 			<Text>เมืองใหญ่</Text>		<!-- Cities -->
 		</Replace>
@@ -1915,6 +1954,9 @@
 		<Replace Tag="LOC_PEDIA_PAGEGROUP_UNIQUE_MILITARY_UNITS_NAME" Language="th_TH">
 			<Text>ทหารพิเศษ</Text>		<!-- Unique Military -->
 		</Replace>
+		<Replace Tag="LOC_CIVILOPEDIA_UPGRADE_TIER" Language="th_TH">
+			<Text> (ระดับ {1_upgradeTier})</Text>		<!--  (Tier {1_upgradeTier}) -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_1_TITLE" Language="th_TH">
 			<Text>ยุคและการเปลี่ยนยุค</Text>		<!-- Ages and Age Transition -->
 		</Replace>
@@ -1947,6 +1989,24 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_2_CHAPTER_CONTENT_PARA_4" Language="th_TH">
 			<Text>[BLIST][LI]ผู้เล่นทุกคนเลือกอารยธรรมใหม่ [LI]เมืองทั้งหมดกลับไปเป็นเมืองเล็ก (ยกเว้นเมืองหลวงของผู้เล่น) [LI]โบนัสอาคารทั้งหมดจะถูกลบออกและสามารถสร้างใหม่ได้ [LI]รัฐอิสระใหม่และรัฐเมืองเกิดขึ้น [LI]แผนที่เต็มไปด้วยการค้นพบใหม่ ในยุคสมัยใหม่ พวกเขาต้องถูกค้นพบโดยนักสำรวจเพื่อให้ได้โบราณวัตถุสำหรับยุคนั้น [LI]ภารกิจที่ยังไม่เสร็จสิ้นจะสูญหาย [LI]ความสัมพันธ์กับผู้นำคนอื่นๆ เปลี่ยนไปในระดับปานกลางไปสู่ความเป็นกลาง [/LIST]</Text>		<!-- [BLIST][LI]All Players select new Civilizations[LI]All Cities revert to Towns (except Player capitals)[LI]All Buildings bonuses will be removed and they can be overbuilt[LI]New Independent Powers and City-States emerge[LI]The map is populated with new Discoveries. In Modern, they must be discovered by Explorers in order to gain Artifacts for that Age.[LI]Any uncompleted Quests are lost [LI]Relationships with other leaders change by a moderate amount towards Neutral[/LIST] -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_AGES_39_TITLE" Language="th_TH">
+			<Text>การถ่ายโอนระหว่างยุค: ทหาร</Text>		<!-- Carry over between Ages: Military -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_AGES_39_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>กองกำลังทหารจะถูกรีเซ็ตบางส่วนเมื่อสิ้นสุดแต่ละยุค หน่วยปิดล้อมและหน่วยเรือจะหายไปหลังจากยุคแรก แต่คุณจะได้รับเรือ ค็อก ฟรีเมื่อเริ่มยุคที่สองหากคุณใช้คะแนนมรดกของคุณ การรักษาหน่วยเรือหลังจากยุคที่สองต้องใช้ผู้บัญชาการกองเรือ หน่วยภาคพื้นดินถูกจำกัดไว้ที่หกหลังจากยุคโบราณและเก้าหลังจากยุคสำรวจ รวมถึงหน่วยที่ได้รับมอบหมายให้กับผู้บัญชาการกองทัพ หน่วยที่เกินขีดจำกัดจะถูกยุบ และหากคุณมีน้อยกว่าขั้นต่ำ คุณจะได้รับทหารราบฟรีเพื่อชดเชยความแตกต่าง</Text>		<!-- Military forces partially reset at the end of each Age. Siege and naval units are lost after the first Age, although you gain a free Cog upon starting the second Age if you have spent your Legacy Points. Keeping naval units beyond the second Age requires Fleet Commanders. Land units are capped at six after the Antiquity Age and nine after the Exploration Age, plus any assigned to an Army Commander. Surplus units above those limits are disbanded, and if you have fewer than the minimum, you receive free Infantry to make up the difference. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_AGES_39_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>เคล็ดลับ: วางแผนองค์ประกอบของกองทัพของคุณอย่างรอบคอบก่อนการเปลี่ยนยุคแต่ละครั้งเพื่อหลีกเลี่ยงการสูญเสียหน่วยที่มีค่า หรือเผชิญกับการขาดแคลนที่ไม่คาดคิด หน่วยทั้งหมดที่คุณได้รับหลังการเปลี่ยนแปลงจะได้รับการอัปเกรดเป็นหน่วยระดับ 1 ของยุคถัดไปโดยอัตโนมัติ</Text>		<!-- Tip: Plan your army composition carefully before each Age transition to avoid losing valuable units or facing unexpected deficits. All units you receive after the transition are automatically upgraded to tier 1 units of the next Age. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_AGES_40_TITLE" Language="th_TH">
+			<Text>การถ่ายโอนระหว่างยุค: อื่นๆ</Text>		<!-- Carry over between Ages: Others -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_AGES_40_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>เมื่อยุคสิ้นสุดลง ประชาชนอิสระและรัฐเมืองจะหายไป และจะปรากฏขึ้นใหม่ในฐานะประชาชนอิสระใหม่ในเทิร์นที่สอง คุณยังคงรักษาการปรับปรุงและทรัพยากรไว้ได้ แต่จะสูญเสียผลประโยชน์จากการเป็นเจ้าเมือง ขีดจำกัดของทองคำ 3000 และอิทธิพล 500 จะถูกถ่ายโอนในแต่ละยุค แต่ทั้งสองค่านี้จะปรับตามความเร็วของเกม สิ่งก่อสร้างจากยุคเก่าจะมีประสิทธิภาพน้อยลง โดยสูญเสียโบนัสการอยู่ติดกันและคงไว้เพียงผลผลิตพื้นฐานเท่านั้น มีเพียงเมืองหลวงเท่านั้นที่ยังคงเป็นเมือง เมืองอื่นๆ ทั้งหมดจะกลับไปเป็นเมืองเล็ก แม้ว่าคุณจะสามารถย้ายเมืองหลวงของคุณเพื่อสร้างเมืองที่สองได้ทันที เทคโนโลยีและพลเมืองส่วนใหญ่จะถูกรีเซ็ต เช่นเดียวกับหน่วยพลเรือน ในขณะที่ความสามารถของพลเมืองเก่าจะหมดอายุ (สิ่งก่อสร้างและการปรับปรุงเฉพาะยังคงอยู่) คะแนนมรดกที่ไม่ได้ใช้ในช่วงเริ่มต้นของยุคจะสูญหายไป</Text>		<!-- When an Age ends, Independent Peoples and City-States disappear, reappearing as new Independents in the second turn. You retain improvements and resources but lose suzerainty benefits. A cap of 3000 Gold and 500 Influence carries over in each Age, but both values are scaled by game speed. Buildings from older Ages become less effective, losing adjacency while retaining only base yields. Only the Capital remains a City; all others revert to Towns, though you can relocate your Capital to spawn a second City immediately. Most Techs and Civics reset, as do civilian units, while old Civ abilities expire (unique buildings and improvements remain). Legacy Points not used at the Age start are lost. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_AGES_40_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>เคล็ดลับ: ใช้ทองและอิทธิพลส่วนเกิน ก่อนการเปลี่ยนยุคเพื่อไม่ให้สูญเสียทรัพยากร ที่เกินขีดจำกัดการถ่ายโอน</Text>		<!-- Tip: Spend excess Gold and Influence before an Age transition so you do not waste resources that exceed the carryover limit. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_3_TITLE" Language="th_TH">
 			<Text>การเริ่มต้นขั้นสูง</Text>		<!-- Advanced Start -->
@@ -2955,6 +3015,9 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>เคล็ดลับ: บางอาคารคงอยู่ตลอดกาลหมายความว่าพวกมันยังคงมีผลต่อไปไม่ว่ายุคปัจจุบันจะเป็นอย่างไร นอกจากนี้ บางอาคารยังมีโบนัสจากการอยู่ติดกัน ซึ่งจะให้ผลผลิตเพิ่มเติมเมื่อวางอยู่ข้างๆ โครงสร้างหรือคุณลักษณะเฉพาะ</Text>		<!-- Tip: Some buildings are Ageless, meaning they continue to offer effects regardless of the current Age. Additionally, some buildings have adjacency bonuses, providing extra yields when placed next to specific structures or features. -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
+			<Text>เคล็ดลับ: สิ่งก่อสร้างบางอย่างไม่มีอายุ หมายความว่าสามารถให้ผลกระทบได้ต่อไปโดยไม่คำนึงถึงยุคปัจจุบัน นอกจากนี้ สิ่งก่อสร้างบางอย่างยังมีโบนัสการอยู่ติดกัน ซึ่งให้ผลผลิตเพิ่มเติมเมื่อวางไว้ใกล้กับโครงสร้างหรือคุณลักษณะเฉพาะ</Text>		<!-- Tip: Some buildings are Ageless, meaning they continue to offer effects regardless of the current Age. Additionally, some buildings have adjacency bonuses, providing extra yields when placed next to specific structures or features. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_2_TITLE" Language="th_TH">
 			<Text>อาคาร: โรงเก็บสินค้า</Text>		<!-- Buildings: Warehouses -->
 		</Replace>
@@ -3086,6 +3149,24 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_2_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>เคล็ดลับ: การใช้คะแนนอิทธิพลมากขึ้นสามารถเร่งการกระทำใน การเป็นมิตรกับอิสระ ได้ สู้กับผู้เล่นคนอื่นให้เร็วขึ้น มิฉะนั้นอาจมีคนอื่นเข้ายึดสถานะ เจ้านครของรัฐอิสระ ก่อน สถานะเจ้านครมีเฉพาะสำหรับผู้เล่นคนเดียวเท่านั้น!</Text>		<!-- Tip: Spending more Influence can speed up the Befriend Independent action. Outpace other players or someone else might claim an Independent Power’s suzerain status first. The Suzerain status is exclusive to one player! -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_TITLE" Language="th_TH">
+			<Text>การค้า</Text>		<!-- Trade -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>การค้า ต้องการทรัพยากรอย่างน้อยหนึ่งอย่างใน ถิ่นฐานต่างประเทศ ในยุคโบราณและยุคสำรวจ พ่อค้าของคุณต้องเคลื่อนที่ไปยังถิ่นฐานก่อนจึงจะสามารถสร้างเส้นทางการค้าได้ เมื่อสร้างเส้นทางการค้า คุณจะได้รับสำเนาของทรัพยากรทั้งหมดในถิ่นฐานนั้น ในขณะที่อีกฝ่ายจะได้รับทองต่อทรัพยากร การคัดลอกทรัพยากรเดียวกันหลายครั้งจะเพิ่มผลประโยชน์ เช่น ส่วนลดการซื้อ ถิ่นฐานต้องเป็นส่วนหนึ่งของเครือข่ายการค้าของคุณ เพื่อแบ่งปันทรัพยากร ซึ่งระยะทางสามารถขยายได้โดยการมีสิ่งก่อสร้างทางทะเล ถิ่นฐานที่วางไว้อย่างเหมาะสม และการมุ่งเน้นที่เมือง การกำหนดทรัพยากรใหม่สามารถทำได้เฉพาะเมื่อได้รับทรัพยากรใหม่หรือขยายช่องทรัพยากร</Text>		<!-- Trading requires foreign Settlements to work at least one resource. In the Antiquity Age and the Exploration Age, your Merchant must physically move to a Settlement before being able to establish a Trade Route. Upon establishing a Trade route, you gain a copy of all the resources in that Settlement, while the other party gains Gold per copy of resource. Multiple copies of a single resource stack additively, increasing benefits like purchase discounts. Settlements must be part of your trade network to share resources, the range of which is expandable by having a Naval building, properly placed Settlements, and a Town Focus. Reassigning resources is only possible when acquiring new ones or expanding resource slots. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>เคล็ดลับ: สะสมทรัพยากรที่จำเป็น เช่น ทอง เพื่อสร้างโบนัสสะสม ที่ช่วยเพิ่มพลังทองคำของคุณเป็นอย่างมาก</Text>		<!-- Tip: Accumulate multiple copies of essential resources, such as Gold, to build stacking bonuses that significantly enhance your Gold power. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_4_TITLE" Language="th_TH">
+			<Text>ระยะทางการค้า</Text>		<!-- Trade Range -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_4_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>การค้าทางบกมีระยะทางเริ่มต้น 10 ช่องในยุคโบราณ 15 ช่องในยุคสำรวจ และ 20 ช่องในยุคสมัยใหม่ แม้ว่าภูมิประเทศที่ไม่สามารถผ่านได้ เช่น ภูเขาหรือสิ่งมหัศจรรย์ทางธรรมชาติ อาจปิดกั้นเส้นทางหากไม่มีเส้นทางอื่น ซึ่งทำให้ข้อกำหนดเส้นทางสูงขึ้น การค้าทางทะเลยืดออกไปไกลกว่า ครอบคลุม 30 ช่องในยุคโบราณ 45 ช่องในยุคสำรวจ และ 60 ช่องในยุคสมัยใหม่</Text>		<!-- Land-based trade has a default range of 10 tiles in Antiquity, 15 tiles in Exploration, and 20 tiles in Modern, although impassable terrain such as Mountains or Natural Wonders may block routes if no alternate path exists, which makes the route requirement higher. Sea-based trade extends further, covering 30 tiles in Antiquity, 45 tiles in Exploration, and 60 tiles in Modern. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_4_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>เคล็ดลับ: คุณสามารถเพิ่มระยะทางการค้านี้ได้ ผ่านการโฟกัสที่เมือง, นโยบาย หรือสร้างเส้นทางเพิ่มเติมระหว่างถิ่นฐาน</Text>		<!-- Tip: You can boost this trade range via Town Focus, Policies, or planting down more in-between Settlements. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BIOME_1_TITLE" Language="th_TH">
 			<Text>ระบบนิเวศและลักษณะเฉพาะ</Text>		<!-- Biomes and Features -->
@@ -3240,6 +3321,15 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_4_CHAPTER_CONTENT_PARA_4" Language="th_TH">
 			<Text>ยูนิตทางอากาศ สามารถโจมตีได้ในขณะที่อยู่ใน ผู้บัญชาการ โดยการเลือกพวกเขาทีละตัวหรือ ยูนิตทางอากาศ ทั้งหมดของประเภทเดียวกันสามารถโจมตีกันได้โดยใช้การโจมตีที่มุ่งเน้นของ ผู้บัญชาการ เป้าหมายที่มีสิทธิ์ในการโจมตีจะถูกเน้นบนแผนที่ ยูนิตศัตรูสามารถโจมตีได้เฉพาะเมื่อพวกเขามองเห็นได้เท่านั้น แต่เขตสามารถถูกโจมตีได้ตราบใดที่ได้มีการสำรวจแล้ว</Text>		<!-- Air units can attack while packed in a Commander by selecting them individually or all Air units of a single type can attack together by using the Commander's Focused Attack. Eligible targets for an attack will be highlighted on the map. Enemy units can only be attacked if they are visible but districts can be attacked as long as they have been explored. -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_9_TITLE" Language="th_TH">
+			<Text>โจมตีขนาบข้าง</Text>		<!-- Flanking -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_9_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>เมื่อหน่วยสองหน่วยเข้าสู่การต่อสู้ พวกเขาจะถูกล็อกใน “แนวหน้า” ทำให้ผู้โจมตีเพิ่มเติมสามารถโจมตีจากด้านข้างหรือด้านหลังได้ โบนัสการโจมตีขนาบข้างจะเพิ่มขึ้นตามมุม: มุมด้านหน้าซ้ายหรือด้านหน้าขวาให้ +2, มุมด้านหลังซ้ายหรือด้านหลังขวาให้ +3, และการโจมตีตรงด้านหลังให้ +5 อารยธรรมบางอย่าง เช่น มองโกล สามารถเพิ่มโบนัสเหล่านี้ได้มากขึ้น (เช่น +50%)</Text>		<!-- Once two units engage in combat, they are locked in a “front,” allowing additional attackers to strike from the sides or rear. Flanking bonuses scale by angle: front-left or front-right angles grant +2, back-left or back-right grant +3, and a direct rear attack provides +5. Certain civilizations, like the Mongols, can amplify these bonuses further (e.g., +50%). -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_9_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>เคล็ดลับ: จัดตำแหน่ง ยูนิตหลายหน่วย เพื่อโอบล้อมศัตรูจากมุมต่างๆ เพื่อเพิ่มโบนัสการโจมตีขนาบข้างและได้เปรียบในการต่อสู้ ในยุคโบราณ คุณจะต้องวิจัยเทคโนโลยีการฝึกทหารเพื่อปลดล็อกกลไกการโจมตีขนาบข้าง</Text>		<!-- Tip: Position multiple units to encircle foes from different angles, maximizing the flanking bonus and gaining a decisive combat edge. In Antiquity, you will need to research the Military Training technology to unlock the Flanking mechanic. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_5_TITLE" Language="th_TH">
 			<Text>การสกัดกั้น</Text>		<!-- Intercept -->
 		</Replace>
@@ -3254,6 +3344,15 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_5_CHAPTER_CONTENT_PARA_4" Language="th_TH">
 			<Text>เคล็ดลับ: จัดวางเครื่องขัดขวางในตำแหน่งที่สำคัญเพื่อให้ครอบคลุมพื้นที่ที่สำคัญ โดยให้แน่ใจว่ามีช่วงการป้องกันที่ทับซ้อนกันเพื่อให้ได้รับการป้องกันสูงสุด เครื่องขัดขวางมีความสำคัญในการทำให้ภัยคุกคามทางอากาศของศัตรูเป็นกลางและปกป้องกำลังพื้นดินและโครงสร้างพื้นฐานจากการโจมตีทางอากาศ</Text>		<!-- Tip: Place interceptors strategically to cover critical areas, ensuring they have overlapping ranges for maximum defense. Interceptors are essential for neutralizing enemy air threats and protecting ground forces and infrastructure from aerial assaults. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_10_TITLE" Language="th_TH">
+			<Text>กวาดล้างทางอากาศ</Text>		<!-- Fighter Sweep -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_10_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>การกวาดล้างทางอากาศ จะดึงดูดและสร้างความเสียหาย—หรือแม้กระทั่งทำลาย—นักบินรบของศัตรู, ทำให้การใช้เครื่องบินทิ้งระเบิดปลอดภัยยิ่งขึ้น, โดยการมอบหมายหน่วยนักบินรบของคุณให้กับผู้บัญชาการฝูงบิน คุณสามารถใช้ความสามารถการกวาดล้างในตำแหน่งเป้าหมาย บังคับให้นักบินรบฝ่ายป้องกันเข้าสกัดกั้น เมื่อเครื่องบินข้าศึกเหล่านี้ถูกโจมตีหรือกำจัดแล้ว เครื่องบินทิ้งระเบิดของคุณสามารถปฏิบัติการได้โดยมีความเสี่ยงน้อยลงมาก</Text>		<!-- A Fighter Sweep draws out and damages—or even destroys—enemy fighters, paving the way for a safer bombing run. By assigning your fighter units to a Squadron Commander, you can use the Sweep ability on a target location, forcing defending fighters to intercept. Once these hostile aircraft have been engaged or eliminated, your bombers can operate with far less risk. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_10_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>เคล็ดลับ: ใช้ "โจมตีกวาดล้าง" เสมอเพื่อลดหรือกำจัดการป้องกันทางอากาศของศัตรู ก่อนส่งเครื่องบินทิ้งระเบิดของคุณ โดยเฉพาะเครื่องบินทิ้งระเบิดนิวเคลียร์</Text>		<!-- Tip: Always perform a Fighter Sweep to reduce or eliminate enemy air defenses before sending in your bombers, especially your nuclear bombers. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_6_TITLE" Language="th_TH">
 			<Text>สะเทินน้ำสะเทินบก</Text>		<!-- Amphibious -->
@@ -3321,6 +3420,24 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_2_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>เคล็ดลับ: การขยายเมืองของคุณจะช่วยเสริมเศรษฐกิจของคุณ แต่ควรระวังไม่ให้เกินขีดจำกัดการตั้งถิ่นฐาน</Text>		<!-- Tip: Expanding your towns boosts your economy, but be mindful that you don’t exceed the Settlement cap. -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_3_TITLE" Language="th_TH">
+			<Text>น้ำจืด</Text>		<!-- Fresh Water -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_3_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>การตั้งถิ่นฐานบนพื้นที่น้ำจืด ซึ่งระบุโดยช่องสีน้ำเงินในเลนส์ผู้ตั้งถิ่นฐาน จะให้โบนัสความสุขถาวร +5 คุณสามารถสลับเลนส์ผู้ตั้งถิ่นฐานผ่านไอคอนเหนือแผนที่ย่อเพื่อดูตำแหน่งที่เหมาะสมเหล่านี้</Text>		<!-- Establishing a Settlement on Fresh Water, identified by blue tiles in the Settler Lens, grants a permanent +5 Happiness bonus. You can toggle the Settler Lens via the icon above the minimap to spot these ideal locations. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_3_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>เคล็ดลับ: ตั้งถิ่นฐานบนพื้นที่น้ำจืดเมื่อเป็นไปได้เพื่อรักษาความสุขที่สูงขึ้นและลดความไม่มีความสุขในถิ่นฐานของคุณ ถิ่นฐานที่ไม่มีความสุขจะได้รับโทษต่อผลผลิตทั้งหมด โดยแต่ละจุดของความไม่มีความสุขจะลดลง 2% โดยรวม</Text>		<!-- Tip: Settle on Fresh Water whenever possible to maintain higher Happiness and reduce Unhappiness in your Settlements. An Unhappy Settlement takes a penalty to all of its yields, with each point of negative Happiness causing a 2% overall reduction. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_4_TITLE" Language="th_TH">
+			<Text>ความน่าดึงดูด</Text>		<!-- Appeal -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_4_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>คล้ายกับ Civilization VI ช่องดินแดนอาจมีคุณภาพ “น่าดึงดูด” ที่มีอิทธิพลต่อความสุข น้ำและแม่น้ำที่สามารถเดินเรือได้จะไม่มีความน่าดึงดูดในตัวเอง แต่สามารถเพิ่มความน่าดึงดูดของช่องที่อยู่ติดกันได้ เช่นเดียวกับภูเขา โดยเฉพาะในยุคหลัง หากมีอย่างน้อยสามในหกช่องโดยรอบที่น่าดึงดูด ช่องนั้นจะได้รับ +1 ความสุขในยุคโบราณ +2 ในยุคสำรวจ และ +3 ในยุคสมัยใหม่ การวางประชากรบนช่องดังกล่าว จะรักษาโบนัสความสุขสำหรับถิ่นฐานของคุณ</Text>		<!-- Similar to Civilization VI, land tiles may have an “appealing” quality that influences Happiness. Water and navigable rivers are never appealing themselves, but they can boost the appeal of adjacent tiles, as can Mountains, especially in the later Ages. If at least three of the six surrounding hexes are appealing, the tile gains +1 Happiness in Antiquity, +2 in Exploration, and +3 in Modern. Placing a population on such a tile secures its Happiness bonus for your Settlement. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_4_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>เคล็ดลับ: มองหากลุ่มของภูมิประเทศที่สวยงามเมื่อขยาย เพราะช่องที่น่าดึงดูดให้โบนัสความสุขระยะยาวที่โดดเด่น</Text>		<!-- Tip: Look for clusters of scenic terrain when expanding, since appealing tiles provide notable long-term Happiness boosts. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MERCHANTS_1_TITLE" Language="th_TH">
 			<Text>พ่อค้าแม่ค้า</Text>		<!-- Merchants -->
 		</Replace>
@@ -3329,6 +3446,9 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MERCHANTS_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>เคล็ดลับ: พ่อค้า มักเป็นวิธีหลักในการหาทรัพยากรต่างประเทศของคุณ ใช้พวกเขาอย่างมีกลยุทธ์เพื่อเสริมสร้างเศรษฐกิจของคุณและทำให้เสร็จสมบูรณ์เส้นทางมรดกบางอย่าง นอกจากนี้ คุณสามารถใช้พ่อค้าในการสร้างถนนภายในอาณาจักรของคุณ ซึ่งสามารถช่วยเชื่อมต่อเมืองกับเมืองใหญ่เพื่อช่วยเลี้ยงดูพวกเขาได้</Text>		<!-- Tip: Merchants are your primary method for acquiring foreign resources. Use them strategically to strengthen your economy and complete certain legacy paths. Additonally, you can use Merchants to build roads within your Empire, which can help you connect Towns to Cities in order to feed them. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MERCHANTS_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
+			<Text>เคล็ดลับ: พ่อค้าเป็นวิธีหลักของคุณในการรับทรัพยากรจากต่างประเทศ ใช้พวกเขาอย่างมีกลยุทธ์เพื่อเสริมสร้างเศรษฐกิจของคุณ และทำเส้นทางมรดกบางเส้นให้สำเร็จ นอกจากนี้ คุณสามารถใช้พ่อค้าเพื่อสร้างถนนภายในจักรวรรดิของคุณ ซึ่งสามารถช่วยคุณเชื่อมต่อเมืองเล็กกับเมืองใหญ่เพื่อเลี้ยงดูพวกเขา</Text>		<!-- Tip: Merchants are your primary method for acquiring foreign resources. Use them strategically to strengthen your economy and complete certain legacy paths. Additionally, you can use Merchants to build roads within your Empire, which can help you connect Towns to Cities in order to feed them. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CAP_1_TITLE" Language="th_TH">
 			<Text>ขีดจำกัดการตั้งถิ่นฐาน</Text>		<!-- Settlement Cap -->
@@ -3356,6 +3476,15 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_RAZING_1_CHAPTER_CONTENT_PARA_4" Language="th_TH">
 			<Text>คำแนะนำ: การทำลายเป็นวิธีที่มีประสิทธิภาพในการอยู่ภายใต้เพดานการตั้งถิ่นฐาน หากคุณตัดสินใจที่จะไปในแนวทางการทำสงคราม อย่างไรก็ตาม ควรระมัดระวังถึงผลลบที่อาจเกิดขึ้นด้วย</Text>		<!-- Tip: Razing is an effective way to stay under the Settlement cap if you decide to go Warmongering. However, be wary of its negative consequences. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_RAZING_2_TITLE" Language="th_TH">
+			<Text>สถานะไฟไหม้</Text>		<!-- Burning Status -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_RAZING_2_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>การโจมตีหรือผลกระทบบางอย่างทำให้เกิดสถานะไฟไหม้บนช่อง สร้างความเสียหายคงที่ 15 ต่อเทิร์นต่อยูนิตใดๆ ที่ยืนอยู่ที่นั่น ความเสียหายนี้ไม่ได้รับผลกระทบ จากความแข็งแกร่งในการต่อสู้ของผู้โจมตีหรือผู้ป้องกัน และระยะเวลาขึ้นอยู่กับแหล่งที่มาเฉพาะ ตัวอย่างเช่น ยูนิต ลูกธนูไฟ จะระบุ เป็นระยะเวลาสองเทิร์นในคำอธิบาย</Text>		<!-- Some attacks or effects inflict a Burning status on a tile, dealing a flat 15 damage per turn to any unit standing there. This damage is unaffected by either the attacker’s or defender’s combat strength, and the duration depends on the specific source. For instance, the Burning Arrow unit states a two-turn duration in its description. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_RAZING_2_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>เคล็ดลับ: ย้ายยูนิตออกจากช่องที่กำลังไฟไหม้อย่างรวดเร็ว เพื่อหลีกเลี่ยงการได้รับความเสียหายอย่างมากในหลายๆ เทิร์น</Text>		<!-- Tip:  Move units off burning tiles quickly to avoid taking significant damage over multiple turns. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SPECIALIST_1_TITLE" Language="th_TH">
 			<Text>ผู้เชี่ยวชาญ</Text>		<!-- Specialist -->
@@ -3426,6 +3555,15 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_RELIGION_1_CHAPTER_CONTENT_PARA_5" Language="th_TH">
 			<Text>เคล็ดลับ: ให้มุ่งเน้นไปที่ชุมชนที่ไม่มีอิทธิพลทางศาสนาเพื่อเพิ่มค่าธรรมเนียมของมิชชันนารีและสร้างอิทธิพลทางศาสนาที่เข้มแข็งในระยะแรก</Text>		<!-- Tip: Focus on settlements with no existing religious influence to maximize your Missionary charges and establish a strong religious presence early. -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_RELIGION_2_TITLE" Language="th_TH">
+			<Text>หลักการเล่นเกมทางศาสนา</Text>		<!-- Religious Gameplay -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_RELIGION_2_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>มิชชันนารีจะแพร่ศาสนาเฉพาะของผู้ก่อตั้งเท่านั้น และเมืองศักดิ์สิทธิ์ของฝ่ายตรงข้ามสามารถเปลี่ยนเป็นศาสนาของคุณได้ ประชาชนแห่งรัฐอิสระ ไม่สามารถรับศาสนาได้จนกว่าพวกเขาจะกลายเป็นนครรัฐ ความเชื่อของผู้ก่อตั้งเพิ่มเติมนั้นหายากมากและมักจะเกิดจากเหตุการณ์สุ่ม มีธงศาสนา 2 ธงบนแบนเนอร์เมืองของแต่ละถิ่นฐานที่ได้รับผลกระทบจากศาสนา ธงทั้งสองต้องตรงกันเพื่อให้ถิ่นฐานถือว่าเปลี่ยนศาสนาแล้ว ธงหนึ่งแสดงถึงศาสนาในเมือง ในขณะที่อีกธงหนึ่งแสดงถึงศาสนาในชนบท</Text>		<!-- Missionaries only spread their founder’s religion, and opponents’ Holy Cities CAN be converted to your religion. Independent Peoples cannot adopt a religion until they become City-States. Additional Founder Beliefs are extremely rare and often triggered by random events. There are two Religion flags on the City banner of each Settlement affected by Religion. Both flags need to match, in order for the Settlement to be considered as converted. One flag represents Urban religion, while the other flag represents Rural religion. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_RELIGION_2_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>เคล็ดลับ: การเป็นคนแรกที่แพร่ศาสนาไปยังถิ่นฐานจะเปลี่ยนธงทั้งสองพร้อมกัน หากถิ่นฐานมีศาสนาอยู่แล้ว คุณจะต้องเปลี่ยนช่องในเมืองและช่องในชนบทเพื่อทำการเปลี่ยนศาสนาให้สำเร็จ</Text>		<!-- Tip: Being the first to spread Religion to a Settlement converts both flags at the same time. If a Settlement already has a Religion, you will need to convert an Urban tile and a Rural tile to accomplish the conversion. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BANKRUPTCY_1_TITLE" Language="th_TH">
 			<Text>ล้มละลาย</Text>		<!-- Bankruptcy -->
 		</Replace>
@@ -3443,6 +3581,24 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CONNECTED_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>เคล็ดลับ: สร้างการค้าและการเชื่อมต่อถนนตั้งแต่เนิ่นๆ เพื่อเพิ่มประสิทธิภาพในการเคลื่อนย้ายทรัพยากรและให้เมืองสามารถสนับสนุนการเติบโตของเมืองใหญ่ได้</Text>		<!-- Tip: Establish trade and road connections early to optimize resource movement and enable Towns to support City growth. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_1_TITLE" Language="th_TH">
+			<Text>ตำนาน (ความก้าวหน้าของผู้นำ)</Text>		<!-- Legends (Leader Progress) -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_1_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>ผู้นำจะได้รับประสบการณ์เมื่อคุณทำภารกิจและเกมสำเร็จ สิ่งนี้จะช่วยให้คุณปลดล็อกของที่ระลึกที่ทรงพลังได้ รางวัลเพิ่มเติมอาจปรากฏในรูปแบบของตัวเลือกมรดกเพิ่มเติมเมื่อเริ่มแต่ละยุค หรือคุณลักษณะของผู้นำ คุณสามารถตรวจสอบการปลดล็อกที่เป็นไปได้เมื่อสร้างเกม การไปถึงระดับที่สูงขึ้นสำหรับผู้นำอาจใช้เวลาหลายเกม</Text>		<!-- Leaders gain experience as you complete challenges and games. This will allow you to unlock powerful Mementos. Additional rewards can also appear in the form of additional Legacy options at the start of each Age, or leader Attributes. You can examine potential unlocks at game creation. Reaching higher levels for a Leader may take several matches. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>เคล็ดลับ: มุ่งเน้นไปที่ผู้นำที่คุณชื่นชอบในหลายๆ การเล่นเพื่อปลดล็อกของที่ระลึกอย่างรวดเร็วและได้รับความได้เปรียบที่แข็งแกร่งขึ้นในแต่ละเกมใหม่</Text>		<!-- Tip: Focus on a preferred Leader across multiple playthroughs to rapidly unlock mementos and gain a stronger foothold in each new game. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TURNEND_1_TITLE" Language="th_TH">
+			<Text>การบังคับจบเทิร์น (เฉพาะ PC)</Text>		<!-- Force-Ending Turns (PC-Only) -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TURNEND_1_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>โดยการกด Shift + Enter บน PC คุณสามารถเพิกเฉยต่อการแจ้งเตือนที่บล็อกการจบเทิร์นทั้งหมด และจบเทิร์นของคุณทันที โปรดจำไว้ว่าการปฏิบัตินี้ส่วนใหญ่ใช้เมื่อคุณติดขัด และมักจะเป็นที่ถกเถียงกันในโหมดผู้เล่นหลายคนเนื่องจากอาจมีการใช้ประโยชน์</Text>		<!-- By pressing Shift + Enter on PC, you can ignore all turn-blocking notifications and immediately end your turn. Please keep in mind that this practice is mostly used when you are stuck, and it’s often controversial in multiplayer due to potential exploits. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TURNEND_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>เคล็ดลับ: หลีกเลี่ยงการใช้กลไกนี้หากเล่นในโหมดแข่งขัน</Text>		<!-- Tip: Avoid using this mechanic if playing competitively. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_BUILDING_CITY_HALL_CHAPTER_HISTORY_PARA_1" Language="th_TH">
 			<Text>การปกครองในลักษณะแนวคิด – การปกครองนอกเหนือจากระบบกษัตริย์หรือศาสนา – มีประวัติศาสตร์ที่ยาวนานอย่างน่าประหลาดใจ แบบจำลองในช่วงต้นของการก่อตั้งรัฐจินตนาการถึงสังคมเกษตรกรรมที่มีการแบ่งประเภทของผู้คนอย่างชัดเจนเป็นชั้นๆ โดยมีผู้ปกครองที่มีอำนาจสูงสุดอยู่เหนือทุกคน แต่แม้แต่สังคมเช่นอียิปต์ก็สามารถเปลี่ยนจากการปกครองที่มุ่งเน้นในท้องถิ่นไปสู่การปกครองจากบนลงล่าง และสังคมเช่นนั้นในสแกนดิเนเวีย ภาคภูมิของเอเชียตะวันออกเฉียงใต้ พื้นที่พื้นเมืองในอเมริกาเหนือ และอื่นๆ ยังคงพึ่งพาการปรึกษาหารือจากเสียงของคนในท้องถิ่นพร้อมกับประกาศจากด้านบน ที่ทำการเทศบาลคือสถานที่ที่เกิดขึ้นนี้ เป็นจุดนัดพบสำหรับบุคคลที่มีชื่อเสียงในท้องถิ่นเพื่อกำหนดการจัดการเทศบาล ซึ่งเห็นได้จากชื่อของพวกเขา: “บ้านรัฐ” ในหลายๆ ภาษาเยอรมัน และ “ศาลากลาง” ในภาษาไทย ทำการเทศบาล โดยเฉพาะในยุคสมัยใหม่ อาจเป็นสิ่งมหัศจรรย์ทางสถาปัตยกรรมหรือตึกชั่วคราวที่เรียบง่ายในใจกลางเมือง ในทั้งสองกรณี สถานที่เหล่านี้เป็นสถานที่สำหรับการมีส่วนร่วมร่วมกัน – แบบจำลองที่มีสมมุติฐานว่าประชาชนมีความสามารถในการปกครองตามผลประโยชน์ของตนเอง</Text>		<!-- Civic governance – rule outside of the monarchy or church – has a surprisingly long history. Early models of state formation imagined agricultural societies based around the sharp division of people into classes, with a despotic ruler above all. But even societies such as Egypt could move from locally-focused governance to top-down rule, and societies such as those in Scandinavia, upland Southeast Asia, indigenous North America, and others relied on the consultation of local voices with decrees from above. The city hall is where this happens, a gathering point for local notables to decide on municipal administration, as evinced by their name: “state house” in many Germanic languages, and “central pavilion” in Siamese. City halls, especially in the modern era, could be architectural wonders or simple pavilions in the center of town. In either case, these were places of collective input – a model that assumes the public is capable of governing with its own interests. -->
@@ -3563,6 +3719,12 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_FEATURE_VALLEY_OF_FLOWERS_CHAPTER_HISTORY_PARA_2" Language="th_TH">
 			<Text>หุบเขาเป็นเกาะของความสงบในภูมิประเทศที่เป็นศัตรูและเข้าถึงได้ยาก – การค้นพบของมันได้รับเครดิตจากนักปีนเขาชาวอังกฤษสามคนในปี 1931 แม้ว่าเรื่องราวของซิกข์จะบอกว่า พระคุรุโกบินด์ซิงห์ได้ทำสมาธิใกล้เคียงกับภูเขาในชีวิตก่อนหน้านี้ ในเกียรติของเขา ศาลาเก้าของซิกข์ถูกสร้างขึ้นในพื้นที่นั้นและยังคงเป็นสถานที่แสวงบุญจนถึงปัจจุบัน</Text>		<!-- The valley is an island of calm in a hostile and inaccessible region – its discovery is credited to three British mountaneers in 1931, though Sikh accounts cite the guru Gobind Singh has having meditated nearby amidst the mountains upon his previous lives. In his honor, a Sikh gurudwara was constructed in the area, and remains a site of pilgrimage. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_FEATURE_MOUNT_EVEREST_CHAPTER_HISTORY_PARA_1" Language="th_TH">
+			<Text>ตั้งอยู่ใจกลางเทือกเขาหิมาลัย ยอดเขาเอเวอเรสต์เป็นภูเขาที่สูงที่สุดในโลก เรียกว่า สการ์มาธา ในภาษาเนปาล และ โชโมลังมา ในภาษาทิเบต ภูเขานี้ได้รับการยกย่องว่าเป็นสิ่งศักดิ์สิทธิ์ในหมู่ประชากรท้องถิ่นมาอย่างยาวนาน ชื่อ “เอเวอเรสต์” มาจาก เซอร์ จอร์จ เอเวอเรสต์ ซึ่งชื่อของเขา ตรงกันข้ามกับการออกเสียงที่นิยม ออกเสียงว่า “อีฟ-เรสต์”</Text>		<!-- Situated at the heart of the Himalayas, Mount Everest is the tallest mountain in the world. Called Sagarmatha in Nepali and Chomolungma in Tibetan, the mountain has been long held as sacred among local populations. “Everest” comes from Sir George Everest, whose name, contrary to popular pronunciation, was pronounced “EEV-rest.” -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_FEATURE_MOUNT_EVEREST_CHAPTER_HISTORY_PARA_2" Language="th_TH">
+			<Text>ยอดเขาเอเวอเรสต์ถูกวัดว่าเป็นยอดเขาที่สูงที่สุดในโลกในปี ค.ศ. 1852 และถูกพิชิตครั้งแรกในปี ค.ศ. 1953 โดย เอ็ดมันด์ ฮิลลารี และ เทนซิง นอร์เกย์; ความสำเร็จที่เป็นไปได้ของความพยายามในปี ค.ศ. 1924 โดย จอร์จ มัลลอรี และ แอนดรูว์ เออร์ไวน์ ยังคงเป็นปริศนาอย่างโด่งดังจนถึงทุกวันนี้ ปัจจุบันภูเขานี้เป็นจุดหมายปลายทางยอดนิยมสำหรับนักปีนเขา และนักท่องเที่ยว ซึ่งนำไปสู่ปัญหาขยะ และความแออัดที่อันตรายบนยอดเขา</Text>		<!-- Mount Everest was measured as the world’s tallest peak in 1852, and was first summitted in 1953 by Edmund Hillary and Tenzing Norgay; the possible success of the 1924 attempt by George Mallory and Andrew Irvine remains famously unsolved. Today the mountain is a popular destination for climbers and tourists alike, leading to problems of waste and dangerous overcrowding at the summit. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMINA_TITLE" Language="th_TH">
 			<Text>{LOC_LEADER_AMINA_NAME}</Text>		<!-- {LOC_LEADER_AMINA_NAME} -->
@@ -7424,7 +7586,7 @@
 			<Text>{1_initiatorName} ได้ประณามการมีอยู่ของทหารของ {2_targetName} ตามชายแดนของพวกเขา</Text>		<!-- {1_initiatorName} has denounced the military presence of {2_targetName} on their borders. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MILITARY_SABOTAGE_INITIAL" Language="th_TH">
-			<Text>ยูนิตทหารของเป้าหมาย -3 พลังต่อสู้</Text>		<!-- The Target's Military Units get -3 to their Combat Strength.-->
+			<Text>ยูนิตทหารของเป้าหมาย -3 พลังต่อสู้</Text>		<!-- The Target's Military Units get -3 to their Combat Strength. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_STEAL_TECH_INITIAL" Language="th_TH">
 			<Text>ขโมยเทคโนโลยีที่อารยธรรมอื่นได้ทำการวิจัยซึ่งคุณยังไม่มี</Text>		<!-- Steal a Technology another Civilization has researched that you have not. -->
@@ -9479,10 +9641,10 @@
 			<Text>{1_Value} {2_Resource} ไปยัง {3_City}</Text>		<!-- {1_Value} {2_Resource} to {3_City} -->
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_VALUE_TO_CITY_LEFT" Language="th_TH">
-			<Text>&lt;&lt;&lt; {1_Value} {2_Resource} ไปยัง {3_City} &lt;&lt;&lt;</Text>		<!-- <<< {1_Value} {2_Resource} to {3_City} <<< -->
+			<Text>&lt;&lt;&lt; {1_Value} {2_Resource} ไปยัง {3_City} &lt;&lt;&lt;</Text>		<!-- &lt;&lt;&lt; {1_Value} {2_Resource} to {3_City} &lt;&lt;&lt; -->
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_VALUE_TO_CITY_RIGHT" Language="th_TH">
-			<Text>&gt;&gt;&gt; {1_Value} {2_Resource} ไปยัง {3_City} &gt;&gt;&gt;</Text>		<!-- >>> {1_Value} {2_Resource} to {3_City} >>> -->
+			<Text>&gt;&gt;&gt; {1_Value} {2_Resource} ไปยัง {3_City} &gt;&gt;&gt;</Text>		<!-- &gt;&gt;&gt; {1_Value} {2_Resource} to {3_City} &gt;&gt;&gt; -->
 		</Replace>
 		<Replace Tag="TXT_KEY_MP_LAST_PLAYER" Language="th_TH">
 			<Text>คุณเป็นผู้เล่นมนุษย์คนสุดท้ายที่เหลืออยู่ในเกม</Text>		<!-- You are the last remaining human player in the game. -->
@@ -10706,7 +10868,7 @@
 			<Text>ภาพของโลกที่รู้จัก</Text>		<!-- Image of the known world. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_IMAGO_MUNDI_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+2 การมองเห็น แทนที่จะเป็น +1 สำหรับ ความสามารถ ค้นหา และ สำรวจ ของหน่วยสอดแนม</Text>		<!-- +2 Sight instead of +1 for Scout's Search & Lookout abilities. -->
+			<Text>+2 การมองเห็น แทนที่จะเป็น +1 สำหรับ ความสามารถ ค้นหา และ สำรวจ ของหน่วยสอดแนม</Text>		<!-- +2 Sight instead of +1 for Scout's Search &amp; Lookout abilities. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_CORPUS_JURIS_CIVILIS_NAME" Language="th_TH">
 			<Text>คอร์ปัส จูริส ซิเวลิส</Text>		<!-- Corpus Juris Civilis -->
@@ -10745,7 +10907,7 @@
 			<Text>+5 ระยะทางสำหรับเส้นทางการค้า ทั้งหมด</Text>		<!-- +5 range for all Trade Routes. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_COLADA_TIZONA_NAME" Language="th_TH">
-			<Text>โคลาดา &amp; ติซโซนา</Text>		<!-- Colada & Tizona -->
+			<Text>โคลาดา &amp; ติซโซนา</Text>		<!-- Colada &amp; Tizona -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_COLADA_TIZONA_DESCRIPTION" Language="th_TH">
 			<Text>ดาบของเอลซิด</Text>		<!-- Swords of El Cid. -->
@@ -10754,7 +10916,7 @@
 			<Text>+2 พลังต่อสู้ สำหรับยูนิตที่อยู่ติดกับยูนิตศัตรู 2 ยูนิตหรือมากกว่า</Text>		<!-- +2 Combat Strength for Units adjacent to 2 or more enemy Units. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_COLADA_TIZONA_COMBAT_PREVIEW" Language="th_TH">
-			<Text>+{1_Amount} โคลาเด และ ทีโซน่า เมนโต</Text>		<!-- +{1_Amount} Colada & Tizona Memento -->
+			<Text>+{1_Amount} โคลาเด และ ทีโซน่า เมนโต</Text>		<!-- +{1_Amount} Colada &amp; Tizona Memento -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FOUNDATION_SHISA_NECKLACE_NAME" Language="th_TH">
 			<Text>สร้อยคอชิซะ</Text>		<!-- Shisa Necklace -->
@@ -10847,7 +11009,7 @@
 			<Text>+1[icon:YIELD_FOOD] อาหาร ในเมืองหลวง สำหรับทุกๆ 5[icon:YIELD_HAPPINESS]ความสุข ที่เกินมา</Text>		<!-- +1[icon:YIELD_FOOD] Food in Capital for every 5 excess [icon:YIELD_HAPPINESS]Happiness. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ASHOKA_RENOUNCER_GOLD_SAPPHIRE_FLOWERS_NAME" Language="th_TH">
-			<Text>ดอกไม้ทองและทับทิม</Text>		<!-- Gold & Sapphire Flowers -->
+			<Text>ดอกไม้ทองและทับทิม</Text>		<!-- Gold &amp; Sapphire Flowers -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ASHOKA_RENOUNCER_GOLD_SAPPHIRE_FLOWERS_DESCRIPTION" Language="th_TH">
 			<Text>กลีบกุหลาบใต้บัลลังก์</Text>		<!-- Blossoms beneath the throne. -->
@@ -10904,7 +11066,7 @@
 			<Text>ได้รับ 50[icon:YIELD_DIPLOMACY] อิทธิพล หลังจากศึกษาความเชี่ยวชาญ ด้านเทคโนโลยี หรือ ด้านแนวคิด</Text>		<!-- Gain 50[icon:YIELD_DIPLOMACY] Influence after researching a Tech or Civic Mastery. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BENJAMIN_FRANKLIN_KITE_NAME" Language="th_TH">
-			<Text>ว่าว &amp; กุญแจ</Text>		<!-- Kite & Key -->
+			<Text>ว่าว &amp; กุญแจ</Text>		<!-- Kite &amp; Key -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BENJAMIN_FRANKLIN_KITE_DESCRIPTION" Language="th_TH">
 			<Text>ไขปริศนาของสายฟ้า</Text>		<!-- Unravel lightning's mysteries. -->
@@ -20434,6 +20596,18 @@
 		<Replace Tag="LOC_REWARD_DESTROY_UNIT" Language="th_TH">
 			<Text>เสียยูนิตนี้</Text>		<!-- Lose this unit -->
 		</Replace>
+		<Replace Tag="LOC_TYPE_PURCHASE_PERCENT_BUILDINGS" Language="th_TH">
+			<Text>{1_value: number +#;-#}% [icon:YIELD_GOLD] ทอง สำหรับการซื้อสิ่งก่อสร้าง</Text>		<!-- {1_value: number +#;-#}% [icon:YIELD_GOLD] Gold towards purchasing Buildings -->
+		</Replace>
+		<Replace Tag="LOC_TYPE_PURCHASE_PERCENT_WONDERS" Language="th_TH">
+			<Text>{1_value: number +#;-#}%[icon:YIELD_GOLD] ทอง สำหรับการซื้อสิ่งมหัศจรรย์</Text>		<!-- {1_value: number +#;-#}%[icon:YIELD_GOLD] Gold towards purchasing Wonders -->
+		</Replace>
+		<Replace Tag="LOC_TYPE_PURCHASE_PERCENT_IMPROVEMENTS" Language="th_TH">
+			<Text>{1_value: number +#;-#}%[icon:YIELD_GOLD] ทอง สำหรับการซื้อเขตพัฒนา</Text>		<!-- {1_value: number +#;-#}%[icon:YIELD_GOLD] Gold towards purchasing Improvements -->
+		</Replace>
+		<Replace Tag="LOC_TYPE_PURCHASE_PERCENT_TYPE" Language="th_TH">
+			<Text>{1_value: number +#;-#}% [icon:YIELD_GOLD] ทอง สำหรับการซื้อ {2_type}</Text>		<!-- {1_value: number +#;-#}% [icon:YIELD_GOLD] Gold towards purchasing {2_type} -->
+		</Replace>
 		<Replace Tag="LOC_REWARD_AMOUNT_VP" Language="th_TH">
 			<Text>{1_value: number +#;-#} {1_Value: plural 1?แต้ม; other?แต้ม;} ไปยังเส้นมรดก {2_type}</Text>		<!-- {1_value: number +#;-#} {1_Value: plural 1?Point; other?Points;} towards the {2_type} Legacy Path -->
 		</Replace>
@@ -20451,6 +20625,15 @@
 		</Replace>
 		<Replace Tag="LOC_REWARD_PER_TRADE_ROUTE" Language="th_TH">
 			<Text>{1_value: number +#;-#} {2_type} ต่อเส้นทางการค้าที่เริ่มต้น</Text>		<!-- {1_value: number +#;-#} {2_type} per initated Trade Routes -->
+		</Replace>
+		<Replace Tag="LOC_REWARD_AMOUNT_PURCHASE_CHARGE" Language="th_TH">
+			<Text>+{1_Value} ซื้อ {2_type} ฟรี</Text>		<!-- +{1_Value} free {2_type} {1_Value: plural 1?purchase; other?purchases;} -->
+		</Replace>
+		<Replace Tag="LOC_REWARD_TRADE_ROUTE_RANGE_LAND" Language="th_TH">
+			<Text>+{1_Value} ระยะทางเส้นทางการค้าทางบก</Text>		<!-- +{1_Value} Land Trade Route Range -->
+		</Replace>
+		<Replace Tag="LOC_REWARD_TRADE_ROUTE_RANGE_SEA" Language="th_TH">
+			<Text>+{1_Value} ระยะทางเส้นทางการค้าทางทะเล</Text>		<!-- +{1_Value} Sea Trade Route Range -->
 		</Replace>
 		<Replace Tag="LOC_DEFAULT_ARTIFACT" Language="th_TH">
 			<Text>โบราณวัตถุ</Text>		<!-- artifact -->
@@ -20493,6 +20676,12 @@
 		</Replace>
 		<Replace Tag="LOC_QUOTE_FEATURE_IGUAZU_FALLS" Language="th_TH">
 			<Text>ที่ดินนี้มีเจ้าของ!</Text>		<!-- This land has owners! -->
+		</Replace>
+		<Replace Tag="LOC_QUOTE_FEATURE_MOUNT_EVEREST" Language="th_TH">
+			<Text>เรามองขึ้นไป หลายสัปดาห์, หลายเดือน, นั่นคือทั้งหมดที่เราทำ มองขึ้นไป</Text>		<!-- We look up. For weeks, for months, that is all we have done. Look up. -->
+		</Replace>
+		<Replace Tag="LOC_QUOTE_AUTHOR_FEATURE_MOUNT_EVEREST" Language="th_TH">
+			<Text>เทนซิง นอร์เก</Text>		<!-- Tenzing Norgay -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_AUTHOR_FEATURE_IGUAZU_FALLS" Language="th_TH">
 			<Text>เซเป ติอาราจู</Text>		<!-- Sepé Tiaraju -->
@@ -20635,6 +20824,12 @@
 		<Replace Tag="LOC_NOTIFICATION_UNIT_LOST_TO_PLOT_EFFECT_DAMAGE" Language="th_TH">
 			<Text>คุณได้สูญเสีย {1_UnitName} เนื่องจากความเสียหายจาก {2_PlotEffect}</Text>		<!-- You have lost a {1_UnitName} due to damage from {2_PlotEffect}. -->
 		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_DISTRICT_ATTACKED_MESSAGE" Language="th_TH">
+			<Text>เขตถูกโจมตี</Text>		<!-- District Attacked -->
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_DISTRICT_ATTACKED_SUMMARY" Language="th_TH">
+			<Text>{1_CityName} ถูกโจมตีโดย {2_CivName}</Text>		<!-- {1_CityName} was attacked by the {2_CivName}. -->
+		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_UNIT_LOST_TO_WATER_DAMAGE" Language="th_TH">
 			<Text>คุณได้สูญเสีย {1_UnitName} ไปจากทะเลที่มีพายุ</Text>		<!-- You have lost a {1_UnitName} due to stormy seas. -->
 		</Replace>
@@ -20704,11 +20899,20 @@
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ACTION_REGRESSING_MESSAGE" Language="th_TH">
 			<Text>การดำเนินการทางการทูตถดถอย</Text>		<!-- Diplomatic Action Regressing -->
 		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ACTION_COMPLETE_OWNER_SUMMARY_TARGET" Language="th_TH">
+			<Text>การดำเนินการทางการทูต {1_ProjectName} กับ {2_LeaderName} เสร็จสมบูรณ์แล้ว</Text>		<!-- Your Diplomatic Action {1_ProjectName} with {2_LeaderName} has completed. -->
+		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ACTION_REGRESSING_SUMMARY" Language="th_TH">
 			<Text>การดำเนินการทางการทูตกำลังสูญเสียความก้าวหน้า</Text>		<!-- A Diplomatic Action is losing progress. -->
 		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ACTION_COMPLETE_TARGET_MESSAGE_INITIAL" Language="th_TH">
+			<Text>การดำเนินการทางการทูตเสร็จสมบูรณ์กับ {2_LederName}</Text>		<!-- Diplomatic Action Completed with {2_LederName}. -->
+		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ACTION_COMPLETE_OWNER_MESSAGE" Language="th_TH">
 			<Text>การดำเนินการทางการทูตเสร็จสิ้นแล้ว</Text>		<!-- Diplomatic Action Completed -->
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ACTION_COMPLETE_TARGET_SUMMARY_INITIAL" Language="th_TH">
+			<Text>การดำเนินการทางการทูต {1_ProjectName} จาก {2_LeaderName} ที่กำหนดเป้าหมายคุณเสร็จสมบูรณ์แล้ว</Text>		<!-- The {1_ProjectName} Diplomatic Action from {2_LeaderName} targeting you has completed. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ACTION_COMPLETE_OWNER_SUMMARY" Language="th_TH">
 			<Text>การดำเนินการทางการทูต {1_ProjectName} ของคุณเสร็จสิ้นแล้ว</Text>		<!-- Your Diplomatic Action {1_ProjectName} has completed. -->
@@ -20728,17 +20932,26 @@
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ACTION_CANCELED_OWNER_MESSAGE" Language="th_TH">
 			<Text>การดำเนินการทางการทูตถูกยกเลิก</Text>		<!-- Diplomatic Action Canceled -->
 		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ACTION_CANCELED_TARGET_SUMMARY_INITIAL" Language="th_TH">
+			<Text>การดำเนินการทางการทูต {1_ProjectName} จาก {2_LeaderName} ที่กำหนดเป้าหมายคุณถูกยกเลิกแล้ว</Text>		<!-- The {1_ProjectName} Diplomatic Action from {2_LeaderName} targeting you has been canceled. -->
+		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ACTION_CANCELED_OWNER_SUMMARY" Language="th_TH">
 			<Text>การดำเนินการทางการทูต {1_ProjectName} ของคุณถูกยกเลิก</Text>		<!-- Your {1_ProjectName} Diplomatic Action has been canceled. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ACTION_CANCELED_TARGET_MESSAGE" Language="th_TH">
 			<Text>ยกเลิกการดำเนินการทางการทูตนี้</Text>		<!-- Diplomatic Action Canceled -->
 		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ACTION_CANCELED_GENERAL_SUMMARY_INITIAL" Language="th_TH">
+			<Text>การดำเนินการทางการทูต {1_ProjectName} จาก {2_LeaderName} ถูกยกเลิกแล้ว</Text>		<!-- A diplomatic action, {1_ProjectName} from {2_LeaderName}, has been canceled. -->
+		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ACTION_CANCELED_TARGET_SUMMARY" Language="th_TH">
 			<Text>การดำเนินการทางการทูต {1_ProjectName} ที่มุ่งเป้าคุณถูกยกเลิกแล้ว</Text>		<!-- The {1_ProjectName} Diplomatic Action targeting you has been canceled. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ACTION_CANCELED_GENERAL_MESSAGE" Language="th_TH">
 			<Text>การดำเนินการทางการทูตถูกยกเลิก</Text>		<!-- Diplomatic Action Canceled -->
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ACTION_CANCELED_INFLUENCE_OWNER_SUMMARY_TARGET" Language="th_TH">
+			<Text>การดำเนินการทางการทูต {1_ProjectName} ของคุณกับ {2_LeaderName} ถูกยกเลิกเนื่องจากขาดอิทธิพล</Text>		<!-- Your {1_ProjectName} Diplomatic Action with {2_LeaderName} has been canceled due to a lack of Influence. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ACTION_CANCELED_GENERAL_SUMMARY" Language="th_TH">
 			<Text>การดำเนินการทางการทูต, {1_ProjectName}, ได้ถูกยกเลิกแล้ว</Text>		<!-- A diplomatic action, {1_ProjectName}, has been canceled. -->
@@ -21544,6 +21757,24 @@
 		<Replace Tag="LOC_PAUSE_MENU_QUICK_SAVE" Language="th_TH">
 			<Text>บันทึกด่วน</Text>		<!-- Quick Save -->
 		</Replace>
+		<Replace Tag="LOC_PAUSE_MENU_RESTART" Language="th_TH">
+			<Text>เริ่มใหม่</Text>		<!-- Restart -->
+		</Replace>
+		<Replace Tag="LOC_PAUSE_MENU_RESTART_DESCRIPTION" Language="th_TH">
+			<Text>เริ่มเกมใหม่ด้วยตัวสุ่มใหม่</Text>		<!-- Restart the game with new random seeds. -->
+		</Replace>
+		<Replace Tag="LOC_RESTART_DISABLED_REASON_START_AGE" Language="th_TH">
+			<Text>สามารถใช้ได้เฉพาะในยุคเริ่มต้นเท่านั้น</Text>		<!-- Can only be used in the starting age. -->
+		</Replace>
+		<Replace Tag="LOC_RESTART_DISABLED_REASON_WORLDBUILDER_MAP" Language="th_TH">
+			<Text>สามารถใช้ได้เฉพาะกับสคริปต์แผนที่เท่านั้น</Text>		<!-- Can only be used with map scripts. -->
+		</Replace>
+		<Replace Tag="LOC_RESTART_DISABLED_REASON_NETWORK_MULTIPLAYER" Language="th_TH">
+			<Text>ไม่สามารถใช้ในเกมผู้เล่นหลายคนแบบเครือข่ายได้</Text>		<!-- Cannot be used in Network Multiplayer games. -->
+		</Replace>
+		<Replace Tag="LOC_RESTART_DISABLED_REASON_SAVED_GAME" Language="th_TH">
+			<Text>ไม่สามารถใช้หลังจากโหลดเกมที่บันทึกไว้ได้</Text>		<!-- Cannot be used after loading a saved game. -->
+		</Replace>
 		<Replace Tag="LOC_PAUSE_MENU_SAVE" Language="th_TH">
 			<Text>บันทึกเกม</Text>		<!-- Save Game -->
 		</Replace>
@@ -21570,6 +21801,9 @@
 		</Replace>
 		<Replace Tag="LOC_PAUSE_MENU_CONFIRM_QUIT" Language="th_TH">
 			<Text>คุณแน่ใจหรือว่าต้องการออก? ความคืบหน้าที่ยังไม่ได้บันทึกจะหายไปทั้งหมด!</Text>		<!-- Are you sure you wish to exit? All unsaved progress will be lost! -->
+		</Replace>
+		<Replace Tag="LOC_PAUSE_MENU_CONFIRM_RESTART_GAME" Language="th_TH">
+			<Text>คุณแน่ใจหรือไม่ว่าต้องการเริ่มเกมใหม่?[N]นี่จะเริ่มเกมใหม่ด้วยตัวสุ่มใหม่ ตัวเลือกใดๆ รวมถึงผู้นำและอารยธรรมที่ตั้งค่าเป็น "สุ่ม" จะถูกสุ่มใหม่</Text>		<!-- Are you sure you wish to restart the game?[N]This will restart the game with new random seeds.  Any options, including Leaders and Civilizations, that were set to "RANDOM" will be re-rolled. -->
 		</Replace>
 		<Replace Tag="LOC_PAUSE_MENU_CONFIRM_QUIT_TO_MENU" Language="th_TH">
 			<Text>คุณแน่ใจว่าต้องการออกไปที่เมนูหลักหรือไม่? ความคืบหน้าที่ยังไม่ได้บันทึกทั้งหมดจะหายไป!</Text>		<!-- Are you sure you wish to exit to main menu? All unsaved progress will be lost! -->
@@ -21684,6 +21918,9 @@
 		</Replace>
 		<Replace Tag="LOC_PLOT_TOOLTIP_STUDY_NATURAL_WONDER" Language="th_TH">
 			<Text>ขุดโบราณวัตถุ</Text>		<!-- Excavate Artifact -->
+		</Replace>
+		<Replace Tag="LOC_PLOT_TOOLTIP_SPECIALISTS_ASSIGNED" Language="th_TH">
+			<Text>ผู้เชี่ยวชาญ {1_Current} จาก {2_Possible} ถูกจัดสรร</Text>		<!-- {1_Current} of {2_Possible} Specialists Assigned -->
 		</Replace>
 		<Replace Tag="LOC_PLOT_TOOLTIP_NATURAL_WONDER_RESEARCH_DESCRIPTION" Language="th_TH">
 			<Text>นักสำรวจ บนหรือใกล้กับสิ่งมหัศจรรย์ทางธรรมชาตินี้ สามารถศึกษามันเพื่อรับวัตถุโบราณ</Text>		<!-- An Explorer on or adjacent to this Natural Wonder can study it to obtain an artifact -->
@@ -22267,6 +22504,9 @@
 		<Replace Tag="LOC_RESOURCE_QUININE_NAME" Language="th_TH">
 			<Text>ควินิน</Text>		<!-- Quinine -->
 		</Replace>
+		<Replace Tag="LOC_RESOURCECLASS_TOOLTIP_NAME" Language="th_TH">
+			<Text>ทรัพยากร {1_ClassType}</Text>		<!-- {1_ClassType} Resource -->
+		</Replace>
 		<Replace Tag="LOC_RESOURCE_RUBBER_NAME" Language="th_TH">
 			<Text>ยาง</Text>		<!-- Rubber -->
 		</Replace>
@@ -22617,6 +22857,9 @@
 		</Replace>
 		<Replace Tag="LOC_MAIN_MENU_BENCHMARK_AI" Language="th_TH">
 			<Text>วัดประสิทธิภาพเอไอ</Text>		<!-- AI Benchmark -->
+		</Replace>
+		<Replace Tag="LOC_MAIN_MENU_ADDITIONAL_CONTENT" Language="th_TH">
+			<Text>เนื้อหาเพิ่มเติม</Text>		<!-- Additional Content -->
 		</Replace>
 		<Replace Tag="LOC_MAIN_MENU_BENCHMARK_AI_DESCRIPTION" Language="th_TH">
 			<Text>วัดการประมวลผลการหมุนเวียนและประสิทธิภาพของเอไอ ของเครื่องของคุณ</Text>		<!-- Measure turn-processing and AI performance of your machine. -->
@@ -23027,6 +23270,9 @@
 		<Replace Tag="LOC_UI_STORE_ADDITIONAL_CONTENT_CONSOLE" Language="th_TH">
 			<Text>เนื้อหาที่ดาวน์โหลดได้</Text>		<!-- Downloadable Content -->
 		</Replace>
+		<Replace Tag="LOC_UI_CONTENT_RESTRICTED_MGR_SUBTITLE_DESCRIPTION" Language="th_TH">
+			<Text>จัดการส่วนเสริมสำหรับเกม</Text>		<!-- Manage add-ons for the game -->
+		</Replace>
 		<Replace Tag="LOC_MAIN_MENU_PREMIUM_SERVICES_ERROR_NO_PREMIUM_SERVICES_NX_OVERRIDE" Language="th_TH">
 			<Text>ขาดการเป็นสมาชิกของ Nintendo Switch Online</Text>		<!-- Missing Nintendo Switch Online membership -->
 		</Replace>
@@ -23233,6 +23479,15 @@
 		</Replace>
 		<Replace Tag="LOC_FEATURE_BARRIER_REEF_TOOLTIP" Language="th_TH">
 			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์ บนพื้นที่ทางทะเลที่อยู่ติดกัน</Text>		<!-- +2[icon:YIELD_SCIENCE] Science on adjacent Marine Terrain. -->
+		</Replace>
+		<Replace Tag="LOC_FEATURE_MOUNT_EVEREST_NAME" Language="th_TH">
+			<Text>ยอดเขาเอเวอเรสต์</Text>		<!-- Mount Everest -->
+		</Replace>
+		<Replace Tag="LOC_FEATURE_MOUNT_EVEREST_DESCRIPTION" Language="th_TH">
+			<Text>+2[icon:YIELD_HAPPINESS] ความสุข, +2[icon:YIELD_DIPLOMACY] อิทธิพล, +2[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness, +2[icon:YIELD_DIPLOMACY] Influence, +2[icon:YIELD_CULTURE] Culture. -->
+		</Replace>
+		<Replace Tag="LOC_FEATURE_MOUNT_EVEREST_TOOLTIP" Language="th_TH">
+			<Text>+2[icon:YIELD_HAPPINESS] ความสุข, +2[icon:YIELD_DIPLOMACY] อิทธิพล, +2[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness, +2[icon:YIELD_DIPLOMACY] Influence, +2[icon:YIELD_CULTURE] Culture. -->
 		</Replace>
 		<Replace Tag="LOC_FEATURE_BERMUDA_TRIANGLE_NAME" Language="th_TH">
 			<Text>สามเหลี่ยมเบอร์มิวดา</Text>		<!-- Bermuda Triangle -->
@@ -23554,6 +23809,15 @@
 		</Replace>
 		<Replace Tag="LOC_UNIT_INFO_MOVES_REMAINING" Language="th_TH">
 			<Text>เคลื่อนไหว</Text>		<!-- Moves -->
+		</Replace>
+		<Replace Tag="LOC_UNIT_RENAME_UNIT" Language="th_TH">
+			<Text>เปลี่ยนชื่อยูนิต</Text>		<!-- Rename Unit -->
+		</Replace>
+		<Replace Tag="LOC_NAME_EDIT" Language="th_TH">
+			<Text>แก้ไขชื่อ</Text>		<!-- Edit Name -->
+		</Replace>
+		<Replace Tag="LOC_CITY_CUSTOM_NAME" Language="th_TH">
+			<Text>ชื่อเมืองที่กำหนดเอง</Text>		<!-- Custom City Name -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_INFO_BUILD_CHARGES" Language="th_TH">
 			<Text>ค่าใช้จ่าย</Text>		<!-- Charges -->
@@ -24296,6 +24560,9 @@
 		<Replace Tag="LOC_UI_CITY_CAPTURE_SUBTITLE" Language="th_TH">
 			<Text>เลือกสิ่งที่คุณต้องการทำกับถิ่นฐานนี้</Text>		<!-- Choose what you want to do with this Settlement -->
 		</Replace>
+		<Replace Tag="LOC_UI_CITY_CAPTURE_CONSIDER_RENAME" Language="th_TH">
+			<Text>ถิ่นฐานนี้มีชื่อที่กำหนดเอง พิจารณาเปลี่ยนชื่อหลังจากคุณตัดสินใจว่าจะทำอย่างไรกับมัน</Text>		<!-- This settlement has a custom name. Consider renaming it after you decide what to do with it. -->
+		</Replace>
 		<Replace Tag="LOC_UI_CITY_CAPTURE_KEEP_SETTLEMENT" Language="th_TH">
 			<Text>เก็บถิ่นฐาน</Text>		<!-- Keep Settlement -->
 		</Replace>
@@ -24436,6 +24703,24 @@
 		</Replace>
 		<Replace Tag="LOC_TRADE_LENS_ADD_ROUTES" Language="th_TH">
 			<Text>{1_NumRoutes}/{2_MaxRoutes} เพิ่มเส้นทางการค้า</Text>		<!-- {1_NumRoutes}/{2_MaxRoutes} Add Trade Route -->
+		</Replace>
+		<Replace Tag="LOC_TRADE_LENS_CONFIRM_TOOLTIP" Language="th_TH">
+			<Text>เริ่มเส้นทางการค้า</Text>		<!-- Start the trade route -->
+		</Replace>
+		<Replace Tag="LOC_TRADE_LENS_SEND_MERCHANT" Language="th_TH">
+			<Text>ส่งพ่อค้า</Text>		<!-- Send Merchant -->
+		</Replace>
+		<Replace Tag="LOC_TRADE_LENS_CONFIRM_ROUTE_TOOLTIP" Language="th_TH">
+			<Text>เริ่มเส้นทางการค้า</Text>		<!-- Start the trade route. -->
+		</Replace>
+		<Replace Tag="LOC_TRADE_LENS_SEND_MERCHANT_TOOLTIP" Language="th_TH">
+			<Text>ย้ายพ่อค้าไปยังเมืองเป้าหมาย</Text>		<!-- Move the merchant to the target city. -->
+		</Replace>
+		<Replace Tag="LOC_TRADE_LENS_NO_MERCHANT_SELECTED_TOOLTIP" Language="th_TH">
+			<Text>เลือกยูนิตพ่อค้าที่ถูกต้องเพื่อเริ่มเส้นทางการค้า</Text>		<!-- Select a valid merchant unit to start a trade route. -->
+		</Replace>
+		<Replace Tag="LOC_TRADE_LENS_NO_TRADE_ROUTE_SELECTED" Language="th_TH">
+			<Text>เลือกเส้นทางการค้าที่ถูกต้องเพื่อเริ่ม</Text>		<!-- Select a valid trade route to start. -->
 		</Replace>
 		<Replace Tag="LOC_TRADE_LENS_YIELD" Language="th_TH">
 			<Text>[style: {1_Style}]{2_Amount: number +#,###;-#,###}[icon:{3_Icon}][/style]</Text>		<!-- [style: {1_Style}]{2_Amount: number +#,###;-#,###}[icon:{3_Icon}][/style] -->
@@ -25680,7 +25965,7 @@
 			<Text>สั่งการให้ยูนิตรบทางเรือทั้งหมด ทั้งหมดภายในรัศมีบัญชาการ โจมตีเป้าหมายภาคพื้นที่กำหนด ยูนิตทั้งหมดได้รับ +2 พลังต่อสู้ สำหรับการโจมตีนี้</Text>		<!-- Order all Naval Units within Command Radius to fire upon a specified land target. All Units have +2 Combat Strength for this attack. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_FOCUSED_ATTACK_AIR_TO_AIR_NAME" Language="th_TH">
-			<Text>โจมตีแบบกวาด</Text>		<!-- Fighter Sweep -->
+			<Text>โจมตีกวาดล้าง</Text>		<!-- Fighter Sweep -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_FOCUSED_ATTACK_AIR_TO_AIR_DESCRIPTION" Language="th_TH">
 			<Text>สั่งทุกยูนิตเครื่องบินขับไล่ ให้คอยสำรวจพื้นที่และเข้าปะทะ กับเครื่องบินขับไล่ฝ่ายศัตรู</Text>		<!-- Order all Fighter Units to scout a location and engage any intercepting enemy Fighters. -->

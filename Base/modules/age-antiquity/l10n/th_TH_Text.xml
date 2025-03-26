@@ -34,6 +34,12 @@
 		<Replace Tag="LOC_CITIZEN_EGYPT_MALE_1" Language="th_TH">
 			<Text>อาห์เมส</Text>		<!-- Ahmes -->
 		</Replace>
+		<Replace Tag="LOC_WARNING_AGE_TRANSITION_COMMANDERS_MESSAGE" Language="th_TH">
+			<Text>กองทัพของเรามีทหารจำนวนมาก แต่ไม่มีผู้บัญชาการเพียงพอที่จะนำพวกเขาได้ เราจะสามารถรักษายูนิตภาคพื้นได้เพียง {1_value} หน่วยในช่วงเริ่มต้นของยุคถัดไป บวกกับจำนวนยูนิตที่ผู้บัญชาการกองทัพของเราสามารถถือได้ เราต้องผลิตผู้บัญชาการกองทัพเพิ่มขึ้น มิฉะนั้นเราจะสูญเสีย ยูนิตภาคพื้น {2_lostunits} หน่วย</Text>		<!-- Our armies have many soldiers but not enough Commanders to lead them. We will only be able to maintain {1_value} Land Units at the start of the next Age plus however many Units our Army Commanders can hold. We must produce more Army Commanders or we will lose {2_lostunits} Land {2_lostunits: plural 1?Unit; other?Units;}. Going into the next Age, we can only maintain our Infantry, Ranged and Cavalry Units. -->
+		</Replace>
+		<Replace Tag="LOC_WARNING_AGE_TRANSITION_COMMANDERS_SUMMARY" Language="th_TH">
+			<Text>กองทัพขนาดใหญ่</Text>		<!-- Large Army -->
+		</Replace>
 		<Replace Tag="LOC_CITIZEN_EGYPT_MALE_2" Language="th_TH">
 			<Text>เอพิส</Text>		<!-- Apis -->
 		</Replace>
@@ -16479,10 +16485,10 @@
 			<Text>ยูนิต [b]{1_Name} {2_Icon}[/b] สามารถนำทางผ่านภูมิประเทศที่ยากลำบากเพื่อ [b]สำรวจ[/b]โลก และเปิดเผยมันอย่างรวดเร็ว</Text>		<!-- The [b]{1_Name} {2_Icon} [/b]Unit can navigate difficult terrain to [b]explore [/b]the world, revealing it quickly. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CHOOSE_FIRST_TECH_BODY_KBM" Language="th_TH">
-			<Text>คลิกที่เทคโนโลยีเพื่อเริ่มการวิจัย</Text>		<!--  click on the Technology to begin researching. -->
+			<Text>คลิกที่เทคโนโลยีเพื่อเริ่มการวิจัย</Text>		<!-- click on the Technology to begin researching. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CHOOSE_FIRST_TECH_BODY_GAMEPAD" Language="th_TH">
-			<Text>ยืนยันการเลือกเทคโนโลยีของคุณโดยกด [action:{1_Icon}]</Text>		<!--  confirm your Tech choice by pressing [action:{1_Icon}]. -->
+			<Text>ยืนยันการเลือกเทคโนโลยีของคุณโดยกด [action:{1_Icon}]</Text>		<!-- confirm your Tech choice by pressing [action:{1_Icon}]. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_FIRST_PRODUCTION_WARRIOR_ITEM_TEXT" Language="th_TH">
 			<Text>[b]{1_Name} {2_Icon}[/b] เป็นยูนิตทหารที่สามารถ [b]โจมตี[/b]ศัตรูที่เป็นอันตรายหรือปกป้องเมืองของคุณจากการรุกราน</Text>		<!-- The [b]{1_Name} {2_Icon} [/b]is a military Unit that can [b]attack [/b]hostile enemies or defend your City from an invasion. -->
