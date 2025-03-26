@@ -554,8 +554,7 @@
 			<Text>เปลี่ยนเมืองหลวง</Text>		<!-- Change Capital -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_CHANGE_CAPITAL_DESCRIPTION" Language="th_TH">
-			<Text>{1_name} อัพเกรดเป็นเมือง กลายเป็นเมืองหลวง และถูกเปลี่ยนชื่อเป็น {2_capital_name}</Text>		<!-- {1_name} upgrades to a City, becomes the Capital, and is renamed {2_capital_name} -->
-		</Replace>
+			<Text>{1_name} อัพเกรดไปยังเมืองใหญ่, ได้กลายเป็นเมืองหลวง และถูกเปลี่ยนชื่อเป็น {2_capital_name}, {3_current_capital_name} ยังคงเป็นเมืองใหญ่ดังเดิม</Text>		<!-- {1_name} upgrades to a City, becomes the Capital, and is renamed {2_capital_name}. {3_current_capital_name} remains a City. --></Replace>
 		<Replace Tag="LOC_AGE_TRANSITION_BOOST_FAVORED_WONDER_PRODUCTION_NAME" Language="th_TH">
 			<Text>เพิ่มกำลังผลิต {1_wonder_name}</Text>		<!-- Boost {1_wonder_name} Production -->
 		</Replace>
@@ -1448,8 +1447,7 @@
 			<Text>คุณไม่สามารถทำลายถิ่นฐานที่คุณก่อตั้งได้</Text>		<!-- You cannot raze a settlement that you have founded. -->
 		</Replace>
 		<Replace Tag="LOC_CITYCOMMAND_DESTROY_RAZE_CONDITIONS" Language="th_TH">
-			<Text>{1_Name} จะถูกทำลาย อย่างค่อยเป็นค่อยไป ในช่วงเวลา {2_NumTurns} เทิร์น ในช่วงเวลานี้ ถิ่นฐาน จะไม่สร้าง ผลตอบแทนใดๆ[n]ฝ่ายตรงข้าม ในสงครามปัจจุบัน และอนาคตทั้งหมด จะได้รับ การสนับสนุนสงคราม 1 แต้ม เมื่อต้องเผชิญหน้ากับคุณ</Text>		<!-- {1_Name} will be gradually destroyed over a period of {2_NumTurns} Turns. During this time the settlement will not generate any yields.[n]Opponents in all current and future wars will gain 1 bonus War Support against you. -->
-		</Replace>
+			<Text>{1_Name} จะถูกทำลาย อย่างค่อยเป็นค่อยไป ในช่วงเวลา {2_NumTurns} เทิร์น ในช่วงเวลานี้ ถิ่นฐาน จะไม่สร้าง ผลตอบแทนใดๆ[n]ฝ่ายตรงข้าม ในสงครามปัจจุบัน และอนาคตทั้งหมด จะได้รับ การสนับสนุนสงคราม 1 แต้ม เมื่อต้องเผชิญหน้ากับคุณ ตลอดยุคนี้</Text>		<!-- {1_Name} will be gradually destroyed over a period of {2_NumTurns} Turns. During this time the settlement will not generate any yields.[n]Opponents in all current and future wars will gain 1 bonus War Support against you for the rest of this Age. --></Replace>
 		<Replace Tag="LOC_CITYCOMMAND_EXPAND_NO_EXPANSION_PLOTS" Language="th_TH">
 			<Text>ถิ่นฐานนี้ไม่สามารถขยายได้ในขณะนี้</Text>		<!-- This Settlement cannot expand right now. -->
 		</Replace>
@@ -4753,17 +4751,14 @@
 			<Text>+{1_Value} กำแพงป้องกัน</Text>		<!-- +{1_Value} Wall Defenses -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_EMPIRE_RESOURCES_DESC" Language="th_TH">
-			<Text>+{1_Value} ทรัพยากรอาณาจักร</Text>		<!-- +{1_Value} Empire Resources -->
-		</Replace>
+			<Text>+{1_Value} ทรัพยากรจักรวรรดิ์พิเศษ</Text>		<!-- +{1_Value} Unique Empire Resources --></Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_WAR_SUPPORT_DESC" Language="th_TH">
 			<Text>+{1_Value} การสนับสนุนสงคราม</Text>		<!-- +{1_Value} War Support -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_BONUS_RESOURCES_DESC" Language="th_TH">
-			<Text>+{1_Value} โบนัสทรัพยากร</Text>		<!-- +{1_Value} Bonus Resources -->
-		</Replace>
+			<Text>+{1_Value} โบนัสทรัพยากรพิเศษ</Text>		<!-- +{1_Value} Unique Bonus Resources --></Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_CITY_RESOURCES_DESC" Language="th_TH">
-			<Text>+{1_Value} ทรัพยากรเมือง</Text>		<!-- +{1_Value} City Resources -->
-		</Replace>
+			<Text>+{1_Value} ทรัพยากรเมืองพิเศษ</Text>		<!-- +{1_Value} Unique City Resources --></Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_RELATIONSHIP_DESC" Language="th_TH">
 			<Text>+{1_Value} ความสัมพันธ์ของผู้เล่น</Text>		<!-- +{1_Value} Player Relationships -->
 		</Replace>
@@ -5182,8 +5177,7 @@
 			<Text>ผลผลิตจากสิ่งก่อสร้างบนแม่น้ำ</Text>		<!-- Yield from Constructibles on Rivers -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_NUM_DISASTER" Language="th_TH">
-			<Text>ผลผลิตจากภัยพิบัติ</Text>		<!-- Yield from Distasters -->
-		</Replace>
+			<Text>ผลผลิตจากภัยพิบัติ</Text>		<!-- Yield from Disasters --></Replace>
 		<Replace Tag="ATTR_NUM_RECONQUERED_SETTLEMENTS" Language="th_TH">
 			<Text>จำนวนชุมชนที่ถูกคืนกลับมา</Text>		<!-- Number of Reconquered Settlements -->
 		</Replace>
@@ -5560,8 +5554,7 @@
 			<Text>เกมส่วนตัว</Text>		<!-- Hidden Game -->
 		</Replace>
 		<Replace Tag="LOC_PRIVATE_GAME_DESCRIPTION" Language="th_TH">
-			<Text>เกมส่วนตัวจะไม่แสดงใน เบราว์เซอร์ โหมดผู้เล่นหลายคน เกมส่วนตัวสามารถเข้าถึงได้เฉพาะผ่าน รหัสเข้าร่วม หรือคำเชิญเกมเท่านั้น</Text>		<!-- Hidden games are not shown in the multiplayer browser. A hidden game is only accessible thru a Join Code or game invite. -->
-		</Replace>
+			<Text>เกมส่วนตัวจะไม่แสดงใน เบราว์เซอร์ โหมดผู้เล่นหลายคน เกมส่วนตัวสามารถเข้าถึงได้เฉพาะผ่าน รหัสเข้าร่วม หรือคำเชิญเกมเท่านั้น</Text>		<!-- Hidden games are not shown in the multiplayer browser. A hidden game is only accessible through a Join Code or game invite. --></Replace>
 		<Replace Tag="LOC_KICKVOTE_NAME" Language="th_TH">
 			<Text>โหวตเตะ</Text>		<!-- Kick Vote -->
 		</Replace>
@@ -5626,8 +5619,7 @@
 			<Text>{1_Value}: โบนัสความยากสำหรับ Army XP</Text>		<!-- {1_Value}: Difficulty bonus to Army XP -->
 		</Replace>
 		<Replace Tag="LOC_DIFFICULTY_BUILDINGS_NAME" Language="th_TH">
-			<Text>{1_Value}: โบนัสความยากสำหรับการสร้างอาคาร</Text>		<!-- {1_Value}: Difficulty bonus for constucting Buildings -->
-		</Replace>
+			<Text>{1_Value}: โบนัสความยากสำหรับการสร้างอาคาร</Text>		<!-- {1_Value}: Difficulty bonus for constructing Buildings --></Replace>
 		<Replace Tag="LOC_DIFFICULTY_COMBAT_NAME" Language="th_TH">
 			<Text>{1_Value}: โบนัสความยากในการต่อสู้</Text>		<!-- {1_Value}: Difficulty bonus to Combat -->
 		</Replace>
@@ -5842,8 +5834,7 @@
 			<Text>ยุโรปเหนือ</Text>		<!-- Northern Europe -->
 		</Replace>
 		<Replace Tag="LOC_TAG_ORIGIN_MEDITERANEAN_NAME" Language="th_TH">
-			<Text>เมดิเตอร์เรเนียน</Text>		<!-- Mediteranean -->
-		</Replace>
+			<Text>เมดิเตอร์เรเนียน</Text>		<!-- Mediterranean --></Replace>
 		<Replace Tag="LOC_TAG_ORIGIN_MIDDLE_EAST_NAME" Language="th_TH">
 			<Text>ตะวันออกกลาง</Text>		<!-- Middle East -->
 		</Replace>
@@ -6277,8 +6268,7 @@
 			<Text>ลาตินิตัส</Text>		<!-- Latinitas -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_LATINITAS_DESCRIPTION" Language="th_TH">
-			<Text>+10%[icon:YIELD_FOOD] อาหาร,[icon:YIELD_GOLD] ทอง, และ[icon:YIELD_CULTURE] วัฒนธรรม ในเมืองที่มีโฟกัสความเชี่ยวชาญ</Text>		<!-- +10%[icon:YIELD_FOOD] Food,[icon:YIELD_GOLD] Gold, and[icon:YIELD_CULTURE] Culture in Towns with a Specialization. -->
-		</Replace>
+			<Text>+5%[icon:YIELD_FOOD] อาหาร,[icon:YIELD_GOLD] ทอง, และ[icon:YIELD_CULTURE] วัฒนธรรม ในเมือง ที่ไม่มีโฟกัส การเติบโต</Text>		<!-- +5%[icon:YIELD_FOOD] Food,[icon:YIELD_GOLD] Gold, and[icon:YIELD_CULTURE] Culture in Towns without a Growing Town Focus. --></Replace>
 		<Replace Tag="LOC_TRADITION_PRINCEPS_CIVITATIS_NAME" Language="th_TH">
 			<Text>พรินเคปส์ คิวิทาทิส</Text>		<!-- Princeps Civitatis -->
 		</Replace>
@@ -6325,14 +6315,12 @@
 			<Text>โฮโอะคุปู</Text>		<!-- Ho'okupu -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_HO_OKUPU_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม บนพื้นทะเล</Text>		<!-- +2[icon:YIELD_CULTURE] Culture on Marine Terrain. -->
-		</Replace>
+			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม บนพื้นทะเล</Text>		<!-- +1[icon:YIELD_CULTURE] Culture on Marine Terrain. --></Replace>
 		<Replace Tag="LOC_TRADITION_AHUPUA_A_NAME" Language="th_TH">
 			<Text>อะฮูปูอา</Text>		<!-- Ahupua'a -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_AHUPUA_A_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_CULTURE] วัฒนธรรม บนอาคารด้านอาหาร</Text>		<!-- +4[icon:YIELD_CULTURE] Culture on Food Buildings. -->
-		</Replace>
+			<Text>+4[icon:YIELD_FOOD] อาหาร บนอาคารด้านวัฒนธรรม</Text>		<!-- +4[icon:YIELD_FOOD] Food on Culture Buildings. --></Replace>
 		<Replace Tag="LOC_TRADITION_KAPA_NAME" Language="th_TH">
 			<Text>กะปา</Text>		<!-- Kapa -->
 		</Replace>
@@ -6373,8 +6361,7 @@
 			<Text>สุบัก</Text>		<!-- Subak -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SUBAK_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ +1[icon:YIELD_PRODUCTION] กำลังผลิต บนพื้นที่ทะเล</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and +1[icon:YIELD_PRODUCTION] Production on Marine Terrain. -->
-		</Replace>
+			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ +1[icon:YIELD_PRODUCTION] กำลังผลิต บนพื้นที่ทะเล ในเมืองใหญ่</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and +1[icon:YIELD_PRODUCTION] Production on Marine Terrain in Cities. --></Replace>
 		<Replace Tag="LOC_TRADITION_BAOJIA_NAME" Language="th_TH">
 			<Text>เบาเจีย</Text>		<!-- Baojia -->
 		</Replace>
@@ -6397,8 +6384,7 @@
 			<Text>บากาตูร์</Text>		<!-- Baghatur -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_BAGHATUR_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้ สำหรับยูนิตทหารม้า</Text>		<!-- +5 Combat Strength for Cavalry Units. -->
-		</Replace>
+			<Text>+3 พลังต่อสู้ สำหรับยูนิตทหารม้า</Text>		<!-- +3 Combat Strength for Cavalry Units. --></Replace>
 		<Replace Tag="LOC_TRADITION_BAGHATUR_PREVIEW" Language="th_TH">
 			<Text>+{1_amount} บากาตูร์</Text>		<!-- +{1_amount} Baghatur -->
 		</Replace>
@@ -6686,8 +6672,7 @@
 			<Text>พลเอกมอโรซ</Text>		<!-- General Moroz -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_GENERAL_MOROZ_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้ สำหรับยูนิตในเขตหนาว</Text>		<!-- +5 Combat Strength for Units in Tundra. -->
-		</Replace>
+			<Text>+3 พลังต่อสู้ สำหรับยูนิตในเขตทุนดรา</Text>		<!-- +3 Combat Strength for Units in Tundra. --></Replace>
 		<Replace Tag="LOC_TRADITION_SAKDINA_NAME" Language="th_TH">
 			<Text>ศักดินา</Text>		<!-- Sakdina -->
 		</Replace>
@@ -6887,8 +6872,7 @@
 			<Text>อีกหนึ่งผู้นำได้ประณามคุณที่กองทัพของคุณเข้าใกล้ถิ่นฐานของพวกเขามากเกินไป</Text>		<!-- Another Leader has denounced you for your military being too close to their Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FREE_CAPTURED_COMMANDER_MESSAGE" Language="th_TH">
-			<Text>ผู้นำกำลังเจรจาเพื่อปล่อยตัวผู้บัญชาการที่ถูกจับตัวไป</Text>		<!-- A Leader is negotiating to free thier captured Commander. -->
-		</Replace>
+			<Text>ผู้นำกำลังเจรจาเพื่อปล่อยตัวผู้บัญชาการที่ถูกจับตัวไป</Text>		<!-- A Leader is negotiating to free their captured Commander. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FREE_CAPTURED_COMMANDER_SUMMARY" Language="th_TH">
 			<Text>อีกหนึ่งผู้นำได้เสนอค่าไถ่[icon:YIELD_GOLD] ทอง สำหรับการกลับคืนผู้บัญชาการที่ถูกจับของพวกเขา</Text>		<!-- Another Leader has offered you ransom[icon:YIELD_GOLD] Gold for the return of their captured Commander. -->
 		</Replace>
@@ -7922,8 +7906,7 @@
 			<Text>ผู้เลี้ยงแกะทองคำ</Text>		<!-- The Golden Shepherd -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_AGENDA_THE_GOLDEN_SHEPHERD_DESC" Language="th_TH">
-			<Text>ชอบอารยธรรมที่มีการเฉลิมฉลองมากที่สุด ไม่ชอบอารยธรรมที่มีการเฉลิมฉลองน้อยที่สุด</Text>		<!-- Likes the Civlilization that has had the most Celebrations. Dislikes the one that has had the fewest Celebrations. -->
-		</Replace>
+			<Text>ชอบอารยธรรมที่มีการเฉลิมฉลองมากที่สุด ไม่ชอบอารยธรรมที่มีการเฉลิมฉลองน้อยที่สุด</Text>		<!-- Likes the Civilization that has had the most Celebrations. Dislikes the one that has had the fewest Celebrations. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_AGENDA_WONDERLUST_NAME" Language="th_TH">
 			<Text>ความรักในการเดินทาง</Text>		<!-- Wonderlust -->
 		</Replace>
@@ -8129,8 +8112,7 @@
 			<Text>ไม่สามารถทำสันติภาพได้เร็วเกินไปหลังจากประกาศสงคราม {1_turns} {1_turns: plural 1?เทิร์น; other?เทิร์น;} จนกว่าสันติภาพจะพร้อมใช้งาน</Text>		<!-- Can't make peace too soon after declaring war. {1_turns} {1_turns: plural 1?turn; other?turns;} until peace is available. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_FAILURE_REASON_WAR_TOO_EARLY" Language="th_TH">
-			<Text>ยังเร็วเกินไปที่จะเริ่มสงคราม {1_turns} {1_turns: plural 1?เทิร์น; other?เทิร์น;} จนกว่าสงครามจะพร้อมใช้งาน</Text>		<!-- Too eary to start war. {1_turns} {1_turns: plural 1?turn; other?turns;} until war is available. -->
-		</Replace>
+			<Text>ยังเร็วเกินไปที่จะก่อสงคราม, {1_turns} เทิร์น จนกว่าจะพร้อมก่อสงคราม</Text>		<!-- Too early to start war. {1_turns} {1_turns: plural 1?turn; other?turns;} until war is available. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_FAILURE_REASON_WAR_FORMAL_NEEDS_HOSTILE" Language="th_TH">
 			<Text>ไม่สามารถเริ่มสงครามอย่างเป็นทางการได้ หากไม่มีความสัมพันธ์ที่เป็นศัตรูอยู่แล้ว</Text>		<!-- Cannot start Formal War without already having a Hostile Relationship. -->
 		</Replace>
@@ -8624,8 +8606,7 @@
 			<Text>เรียกไปสงคราม</Text>		<!-- Call To War -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ALLY_WAR_PICK_ALLEGIENCE_TITLE" Language="th_TH">
-			<Text>การเลือกฝ่าย</Text>		<!-- Picking Alliegence -->
-		</Replace>
+			<Text>กำลังเลือกฝ่าย</Text>		<!-- Picking Allegiance --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_SUZERAIN_YOU" Language="th_TH">
 			<Text>คุณเป็นเจ้าแห่งเมืองนี้</Text>		<!-- You are the Suzerain of this City-State -->
 		</Replace>
@@ -8762,8 +8743,7 @@
 			<Text>ขโมยความลับของรัฐบาล</Text>		<!-- Steal Government Secrets -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ESPIONAGE_STEAL_CIVIC_DESCRIPTION" Language="th_TH">
-			<Text>รับ แนวคิด จากเป้าหมายที่คุณยังไม่ได้ศึกษา หากอารยธรรมไม่มี แนวคิด ที่มีสิทธิ์ ให้รับ[icon:YIELD_CULTURE] วัฒนธรรม แทน</Text>		<!-- Gain a Civic form the target that you have not studied. If the Civilization has no eligible Civics, gain[icon:YIELD_CULTURE] Culture instead. -->
-		</Replace>
+			<Text>รับ แนวคิด จากเป้าหมายที่คุณยังไม่ได้ศึกษา, หากอารยธรรมไม่มี แนวคิด ที่มีสิทธิ์, จะได้รับ [icon:YIELD_CULTURE] วัฒนธรรม แทน</Text>		<!-- Gain a Civic from the target that you have not studied. If the Civilization has no eligible Civics, gain[icon:YIELD_CULTURE] Culture instead. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_ESPIONAGE_MILITARY_INFILTRATION_NAME" Language="th_TH">
 			<Text>แทรกซึมทางทหาร</Text>		<!-- Military Infiltration -->
 		</Replace>
@@ -8798,8 +8778,7 @@
 			<Text>ก่อวินาศกรรมเส้นทางขนส่ง</Text>		<!-- Sabotage Shipping -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ESPIONAGE_SABOTAGE_SHIPPING_DESCRIPTION" Language="th_TH">
-			<Text>ทำลายท่าเรือและสถานีรถไฟทั้งหมดในเมืองเป้าหมาย</Text>		<!-- Destory all Ports and Rail Stations in a target City. -->
-		</Replace>
+			<Text>ทำลายท่าเรือและสถานีรถไฟทั้งหมดในเมืองเป้าหมาย</Text>		<!-- Destroy all Ports and Rail Stations in a target City. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_ESPIONAGE_CONVERT_POPULATION_NAME" Language="th_TH">
 			<Text>เพยแพร่ศาสนา</Text>		<!-- Convert Population -->
 		</Replace>
@@ -8846,8 +8825,7 @@
 			<Text>ก่อวินาศกรรมโปรแกรมอวกาศ</Text>		<!-- Sabotage Space Program -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ESPIONAGE_SABOTAGE_SPACE_PROGRAM_DESCRIPTION" Language="th_TH">
-			<Text>เพิ่มระยะเวลา ในการสร้างฐานปล่อย และในการทำโครงการปล่อยดาวเทียม ในเมืองเป้าหมาย</Text>		<!-- Increases the time it takes to construct Launch Pads and the complete the Launch Satellite Project in the target City. -->
-		</Replace>
+			<Text>เพิ่มระยะเวลา ในการสร้างฐานปล่อย และในการทำโครงการปล่อยดาวเทียม ในเมืองเป้าหมาย</Text>		<!-- Increases the time it takes to construct Launch Pads and the time to complete the Launch Satellite Project. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_RELATIONSHIP_CHANGE_ACCEPTED" Language="th_TH">
 			<Text>ความสัมพันธ์ จะเปลี่ยนไปหากได้รับ การตอบรับ: {1_change} หน่วย</Text>		<!-- Relationship change if accepted: {1_change} -->
 		</Replace>
@@ -9698,8 +9676,7 @@
 			<Text>คุณต้องเปลี่ยนเป็นเขตเมืองเพื่อสร้าง {2_Name} การเลือกช่องนี้จะทำให้ลบ {1_CurrentImprovementName} ที่มีอยู่เพื่อเปลี่ยนเป็นเขตเมือง คุณต้องการดำเนินการต่อหรือไม่?</Text>		<!-- You must convert to an Urban District to build a {2_Name}. Selecting this tile will remove the existing {1_CurrentImprovementName} to convert it to an Urban District. Continue? -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_PLACEMENT_CREATE_URBAN_TILE_BODY" Language="th_TH">
-			<Text>การเลือกแผ่นนี้จะทำให้มันกลายเป็นเขตเมือง คุณต้องแปลงเป็นเขตเมืองเพื่อสร้าง {1_Name} ต่อไปไหม?</Text>		<!-- Selecting this tile will convert it to an Urban District. You must convert to an Urban District to to build a {1_Name}. Continue? -->
-		</Replace>
+			<Text>การเลือกช่องนี้ จะทำให้มันกลายเป็นเขตเมือง คุณต้องแปลงเป็นเขตเมืองเพื่อสร้าง {1_Name} ต่อไปไหม?</Text>		<!-- Selecting this tile will convert it to an Urban District. You must convert to an Urban District to build a {1_Name}. Continue? --></Replace>
 		<Replace Tag="LOC_BUILDING_PLACEMENT_REPLACE_BUILDING" Language="th_TH">
 			<Text>วางทับอาคารยุคเก่าหรือไม่?</Text>		<!-- Replace Previous Age Building? -->
 		</Replace>
@@ -10409,14 +10386,12 @@
 			<Text>ลาฟาแยต</Text>		<!-- Lafayette -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_LAFAYETTE_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ ความร่วมมือพิเศษ ที่เรียกว่า "การปฏิรูป" ซึ่งมอบ ช่องทางนโยบายสังคม เพิ่มเติมอีกหนึ่งช่อง การสนับสนุน ความร่วมมือ นี้จะทำให้นำอื่นได้รับ ช่องทางนโยบายสังคม เพิ่มเติมอีกหนึ่งช่อง +1 พลังต่อสู้ต่อทุกประเพณี แต่ไม่รวมถึงนโยบาย ที่มีอยู่ในรัฐบาล +2 [icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_HAPPINESS] ความสุข ต่อยุคในถิ่นฐาน ผลลัพธ์เหล่านี้จะถูกคูณสองในแผ่นดินที่ห่างไกล</Text>		<!-- Gains a unique Endeavor called Reform, which grants an additional Social Policy slot. Supporting this Endeavor also grants the other Leader an additional Social Policy slot. +1 Combat Strength for every Tradition, but not Policy, slotted in the Government. +2 [icon:YIELD_CULTURE] Culture and [icon:YIELD_HAPPINESS] Happiness per Age in Settlements. These effects are doubled in Distant Lands. -->
-		</Replace>
+			<Text>ได้รับ ความร่วมมือพิเศษ ที่เรียกว่า "การปฏิรูป" ซึ่งมอบ ช่องทางนโยบายสังคม เพิ่มเติมอีกหนึ่งช่อง การสนับสนุน ความร่วมมือ นี้จะทำให้นำอื่นได้รับ ช่องทางนโยบายสังคม เพิ่มเติมอีกหนึ่งช่อง +1 พลังต่อสู้ต่อทุกประเพณี แต่ไม่รวมถึงนโยบาย ที่มีอยู่ในรัฐบาล +1 [icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_HAPPINESS] ความสุข ต่อยุคในถิ่นฐาน ผลลัพธ์เหล่านี้จะถูกคูณสองในแผ่นดินที่ห่างไกล</Text>		<!-- Gains a unique Endeavor called Reform, which grants an additional Social Policy slot. Supporting this Endeavor also grants the other Leader an additional Social Policy slot. +1 Combat Strength for every Tradition, but not Policy, slotted in the Government. +1 [icon:YIELD_CULTURE] Culture and [icon:YIELD_HAPPINESS] Happiness per Age in Settlements, doubled in Distant Lands. --></Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_LAFAYETTE_ABILITY_NAME" Language="th_TH">
 			<Text>วีรบุรุษแห่งสองโลก</Text>		<!-- Hero of Two Worlds -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_LAFAYETTE_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]ได้รับ ความร่วมมือพิเศษ ที่เรียกว่า [B]ปฏิรูป[/B] ซึ่งมอบ [B]ช่องนโยบายทางสังคมเพิ่มเติม[/B] การสนับสนุน ความร่วมมือ นี้ยังมอบ [B]ช่องนโยบายทางสังคมเพิ่มเติม[/B] ให้กับผู้นำคนอื่นด้วย [LI][B]+1 พลังต่อสู้ [/B]สำหรับทุก [B]ประเพณี[/B] ที่มีในรัฐบาลแต่ไม่ใช่นโยบาย [B]+2 [icon:YIELD_CULTURE] วัฒนธรรม [/B]และ [icon:YIELD_HAPPINESS] [B]ความสุข [/B]ต่อยุคในถิ่นฐาน โดยเอฟเฟคเหล่านี้จะถูก [B]เพิ่มเป็นสองเท่า [/B]ใน [B]ดินแดนห่างไกล[/B][/LIST]</Text>		<!-- [LIST][LI]Gains a unique [B]Endeavor [/B]called [B]Reform[/B], which grants an additional [B]Social Policy slot[/B]. Supporting this Endeavor also grants the other Leader an additional [B]Social Policy slot[/B].[LI][B]+1 Combat Strength [/B]for every [B]Tradition[/B], but not Policy, slotted in the Government. [B]+2 [icon:YIELD_CULTURE] Culture [/B]and [icon:YIELD_HAPPINESS] [B]Happiness [/B]per Age in Settlements. These effects are [B]doubled [/B]in [B]Distant Lands[/B].[/LIST] -->
-		</Replace>
+			<Text>[LIST][LI]ได้รับ ความร่วมมือพิเศษ ที่เรียกว่า [B]ปฏิรูป[/B] ซึ่งมอบ [B]ช่องนโยบายทางสังคมเพิ่มเติม[/B] การสนับสนุน ความร่วมมือ นี้ยังมอบ [B]ช่องนโยบายทางสังคมเพิ่มเติม[/B] ให้กับผู้นำคนอื่นด้วย [LI][B]+1 พลังต่อสู้ [/B]สำหรับทุก [B]ประเพณี[/B] ที่มีในรัฐบาลแต่ไม่ใช่นโยบาย [B]+1 [icon:YIELD_CULTURE] วัฒนธรรม [/B]และ [icon:YIELD_HAPPINESS] [B]ความสุข [/B]ต่อยุคในถิ่นฐาน โดยเอฟเฟคเหล่านี้จะถูก [B]เพิ่มเป็นสองเท่า [/B]ใน [B]ดินแดนห่างไกล[/B][/LIST]</Text>		<!-- [LIST][LI]Gains a unique [B]Endeavor [/B]called [B]Reform[/B], which grants an additional [B]Social Policy slot[/B]. Supporting this Endeavor also grants the other Leader an additional [B]Social Policy slot[/B].[LI][B]+1 Combat Strength [/B]for every [B]Tradition[/B], but not Policy, slotted in the Government.[LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]and [icon:YIELD_HAPPINESS] [B]Happiness [/B]per Age in Settlements, [B]doubled [/B]in [B]Distant Lands[/B].[/LIST] --></Replace>
 		<Replace Tag="LOC_LEADER_MACHIAVELLI_NAME" Language="th_TH">
 			<Text>มาเคียเวลลี</Text>		<!-- Machiavelli -->
 		</Replace>
@@ -20576,8 +20551,7 @@
 			<Text>ภูเขาไฟ</Text>		<!-- a volcano -->
 		</Replace>
 		<Replace Tag="LOC_NARRATIVE_DEFAULT_ARCHAEOLOGY_RIVER" Language="th_TH">
-			<Text>แม่น้ำ</Text>		<!-- a river -->
-		</Replace>
+			<Text>แม่น้ำ</Text>		<!-- river --></Replace>
 		<Replace Tag="LOC_NARRATIVE_DEFAULT_ARCHAEOLOGY_BUILDING" Language="th_TH">
 			<Text>การก่อสร้าง</Text>		<!-- construction -->
 		</Replace>
@@ -20624,8 +20598,7 @@
 			<Text>ไม่ทราบการเลี้ยว</Text>		<!-- unknown Turns -->
 		</Replace>
 		<Replace Tag="LOC_REWARD_PER_TRADE_ROUTE" Language="th_TH">
-			<Text>{1_value: number +#;-#} {2_type} ต่อเส้นทางการค้าที่เริ่มต้น</Text>		<!-- {1_value: number +#;-#} {2_type} per initated Trade Routes -->
-		</Replace>
+			<Text>{1_value: number +#;-#} {2_type} ต่อเส้นทางการค้าที่เริ่มต้น</Text>		<!-- {1_value: number +#;-#} {2_type} per initiated Trade Routes --></Replace>
 		<Replace Tag="LOC_REWARD_AMOUNT_PURCHASE_CHARGE" Language="th_TH">
 			<Text>+{1_Value} ซื้อ {2_type} ฟรี</Text>		<!-- +{1_Value} free {2_type} {1_Value: plural 1?purchase; other?purchases;} -->
 		</Replace>
@@ -20876,8 +20849,7 @@
 			<Text>การคว่ำบาตรเริ่มขึ้นแล้ว</Text>		<!-- Sanction Started -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_SANCTION_PROJECT_STARTED_SUMMARY" Language="th_TH">
-			<Text>ผู้นำอีกคนได้เริ่มการคว่ำบาตร</Text>		<!-- Another Leadern has started a Sanction. -->
-		</Replace>
+			<Text>ผู้นำอีกคนได้เริ่มการคว่ำบาตร</Text>		<!-- Another Leader has started a Sanction. --></Replace>
 		<Replace Tag="LOC_NOTIFICATION_TARGET_COOPERATIVE_PROJECT_STARTED_MESSAGE" Language="th_TH">
 			<Text>ความร่วมมือเริ่มต้นจากคุณ</Text>		<!-- Endeavor Started With You. -->
 		</Replace>
@@ -21113,11 +21085,9 @@
 			<Text>พวกเขาได้แทรกซึมเข้ามาในตำแหน่งของเราและยูนิตของเรากำลังรับความเสียหายเพิ่มขึ้นจากยูนิตปิดล้อมเป็นเวลา {1_EffectDuration} เทิร์น</Text>		<!-- They have infiltrated our positions and our Units are now taking increased damage from Siege Units for {1_EffectDuration} turns. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ESPIONAGE_SABOTAGE_SPACE_PROGRAM_EFFECT" Language="th_TH">
-			<Text>เราได้ก่อวินาศกรรมโครงการอวกาศของพวกเขาใน {1_CityName}</Text>		<!-- We have sabotaged their space program in {1_CityName}. -->
-		</Replace>
+			<Text>เราได้ก่อวินาศกรรมโครงการอวกาศของพวกเขาใน {1_CityName}, กำลังผลิต สำหรับ ฐานปล่อย และโครงการ ปล่อยดาวเทียม ถูกหั่นครึ่งนึง</Text>		<!-- We have sabotaged their space program. Production towards Launch Pads and the Launch Satellite project are halved. --></Replace>
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ESPIONAGE_SABOTAGE_SPACE_PROGRAM_EFFECT_TARGET" Language="th_TH">
-			<Text>พวกเขาได้วินาศกรรมโครงการอวกาศของเราใน {1_CityName}</Text>		<!-- They have sabotaged our space program in {1_CityName}. -->
-		</Replace>
+			<Text>พวกเขาได้วินาศกรรมโครงการอวกาศของเราใน {1_CityName}, สำหรับ ฐานปล่อย และโครงการ ปล่อยดาวเทียม ถูกหั่นครึ่งนึง</Text>		<!-- They have sabotaged our space program. Production towards Launch Pads and the Launch Satellite project are halved. --></Replace>
 		<Replace Tag="LOC_NOTIFICATION_CHOOSE_GOVERNMENT_MESSAGE" Language="th_TH">
 			<Text>เลือกรัฐบาล</Text>		<!-- Choose a Government -->
 		</Replace>
@@ -21482,8 +21452,7 @@
 			<Text>ภูเขาไฟกำลังปะทุ</Text>		<!-- Volcano Now Active -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_VOLCANO_ACTIVE_SUMMARY" Language="th_TH">
-			<Text>{1_VolcanoName} ได้กลับมามีความเคลื่อนไหวอีกครั้ง กรุณาระวัง -- มันอาจปะทุขึ้นได้ทุกเวลา!</Text>		<!-- {1_VolcanoName} has become active. Beware it can now erupt at any time! -->
-		</Replace>
+			<Text>{1_VolcanoName} ได้กลับมาเคลื่อนไหวอีกครั้ง, กรุณาระวัง -- มันอาจปะทุขึ้นได้ทุกเวลา!</Text>		<!-- {1_VolcanoName} has become active. Beware - - it can now erupt at any time! --></Replace>
 		<Replace Tag="LOC_NOTIFICATION_VOLCANO_INACTIVE_MESSAGE" Language="th_TH">
 			<Text>ภูเขาไฟเข้าสู่สภาวะสงบ</Text>		<!-- Volcano Goes Dormant -->
 		</Replace>
@@ -21575,14 +21544,12 @@
 			<Text>การระบาดใหญ่ของกาฬโรค</Text>		<!-- Major Plague Outbreak -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_PLAGUE_MAJOR_OUTBREAK_SUMMARY" Language="th_TH">
-			<Text>เกิดเหตุการณ์ {1_PlagueName} ในเมือง {2_CityName} (ในช่วงเทิร์นนี้มี {3_Tiles} ช่อง ได้รับความเสียหาย, ประชากรเสียชีวิต {4_Pop} คน, ได้รับความอุดมสมบูรณ์เพิ่ม {5_Yields} ช่อง)</Text>		<!-- A {1_PlagueName} has occured in the settlement of {2_CityName}. (During this turn there were {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;} damaged, {4_Pop} population lost, {5_Yields} {5_Yields: plural 1?tile; other?tiles;} gained fertility) -->
-		</Replace>
+			<Text>เกิดเหตุการณ์ {1_PlagueName} ในเมือง {2_CityName} (ในช่วงเทิร์นนี้มี {3_Tiles} ช่อง ได้รับความเสียหาย, ประชากรเสียชีวิต {4_Pop} คน, ได้รับความอุดมสมบูรณ์เพิ่ม {5_Yields} ช่อง)</Text>		<!-- A {1_PlagueName} has occurred in the settlement of {2_CityName}. (During this turn there were {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;} damaged, {4_Pop} population lost, {5_Yields} {5_Yields: plural 1?tile; other?tiles;} gained fertility) --></Replace>
 		<Replace Tag="LOC_NOTIFICATION_PLAGUE_MINOR_OUTBREAK_MESSAGE" Language="th_TH">
 			<Text>การระบาดของกาฬโรคน้อย</Text>		<!-- Minor Plague Outbreak -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_PLAGUE_MINOR_OUTBREAK_SUMMARY" Language="th_TH">
-			<Text>เกิดโรคระบาด {1_PlagueName} ในถิ่นฐาน {2_CityName} (ในรอบนี้มี {3_Tiles} ช่อง เสียหาย, สูญเสียประชากร {4_Pop} คน, ได้รับความอุดมสมบูรณ์เพิ่ม {5_Yields} ช่อง)</Text>		<!-- A {1_PlagueName} has occured in the settlement of {2_CityName}. (During this turn there were {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;} damaged, {4_Pop} population lost, {5_Yields} {5_Yields: plural 1?tile; other?tiles;} gained fertility) -->
-		</Replace>
+			<Text>เกิดโรคระบาด {1_PlagueName} ในถิ่นฐาน {2_CityName} (ในรอบนี้มี {3_Tiles} ช่อง เสียหาย, สูญเสียประชากร {4_Pop} คน, ได้รับความอุดมสมบูรณ์เพิ่ม {5_Yields} ช่อง)</Text>		<!-- A {1_PlagueName} has occurred in the settlement of {2_CityName}. (During this turn there were {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;} damaged, {4_Pop} population lost, {5_Yields} {5_Yields: plural 1?tile; other?tiles;} gained fertility) --></Replace>
 		<Replace Tag="LOC_NOTIFICATION_PLAGUE_SPREADS_MESSAGE" Language="th_TH">
 			<Text>กาฬโรคระบาด</Text>		<!-- Plague Spreads -->
 		</Replace>
@@ -21644,8 +21611,7 @@
 			<Text>มีความก้าวหน้าไปแล้ว {2_CompletionPct: percent} ในการบรรลุยุคนี้</Text>		<!-- {2_CompletionPct: percent} progress has already been made toward completing this Age. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_AGE_LATE_PROGRESS_MESSAGE" Language="th_TH">
-			<Text>ยุค {1_Age} ใกล้จะสิ้นสุดแล้ว!</Text>		<!-- The {1_Age} Age is is nearly over! -->
-		</Replace>
+			<Text>ยุค {1_Age} ใกล้จะสิ้นสุดแล้ว!</Text>		<!-- The {1_Age} Age is nearly over! --></Replace>
 		<Replace Tag="LOC_NOTIFICATION_AGE_LATE_PROGRESS_SUMMARY" Language="th_TH">
 			<Text>ยุค {1_Age} ได้ดำเนินไป {2_CompletionPct: percent} แล้ว</Text>		<!-- The {1_Age} Age has progressed {2_CompletionPct: percent}. -->
 		</Replace>
@@ -22244,8 +22210,7 @@
 			<Text>{1_currentProgress}/{2_goal}</Text>		<!-- {1_currentProgress}/{2_goal} -->
 		</Replace>
 		<Replace Tag="LOC_UI_QUEST_TRACKER_PROGRESS" Language="th_TH">
-			<Text>{3_progressType} {1_currentProgress}</Text>		<!-- {3_progressType} {1_currentProgress} -->
-		</Replace>
+			<Text>{3_progressType} {1_currentProgress}</Text>		<!-- {1_progressType} {2_currentProgress} --></Replace>
 		<Replace Tag="LOC_UI_QUEST_TRACKER_PROGRESS_NO_TYPE" Language="th_TH">
 			<Text>{1_currentProgress}</Text>		<!-- {1_currentProgress} -->
 		</Replace>
@@ -23000,11 +22965,9 @@
 			<Text>จัดการม็อด</Text>		<!-- Manage Mods -->
 		</Replace>
 		<Replace Tag="LOC_UI_CONTENT_MGR_TITLE" Language="th_TH">
-			<Text>เนื้อหาเพิ่มเติม</Text>		<!-- additional content -->
-		</Replace>
+			<Text>เนื้อหาเพิ่มเติม</Text>		<!-- add-ons --></Replace>
 		<Replace Tag="LOC_UI_CONTENT_MGR_SUBTITLE" Language="th_TH">
-			<Text>ม็อดส์</Text>		<!-- Mods -->
-		</Replace>
+			<Text>เนื้อหาเพิ่มเติม</Text>		<!-- Add-ons --></Replace>
 		<Replace Tag="LOC_UI_CONTENT_MGR_SUBTITLE_DESCRIPTION" Language="th_TH">
 			<Text>จัดการส่วนเสริมสำหรับเกม รวมถึงม็อดที่ผู้เล่นสร้างขึ้น และส่วนเสริมอย่างเป็นทางการของ Firaxis</Text>		<!-- Manage add-ons for the game, including both player-created mods and official Firaxis add-ons -->
 		</Replace>
@@ -23184,8 +23147,7 @@
 			<Text>ปฏิเสธเอกสาร</Text>		<!-- Decline Document -->
 		</Replace>
 		<Replace Tag="LOC_UI_LEGAL_ERROR" Language="th_TH">
-			<Text>เกิดข้อผิดพลาด {1_Value} ขณะพยายามยอมรับเอกสารนี้</Text>		<!-- Error {1_Value} occured trying to accept this document. -->
-		</Replace>
+			<Text>เกิดข้อผิดพลาด {1_Value} ขณะพยายามยอมรับเอกสารนี้</Text>		<!-- Error {1_Value} occurred trying to accept this document. --></Replace>
 		<Replace Tag="LOC_UI_LEGAL_DECLINED_TITLE" Language="th_TH">
 			<Text>เอกสารถูกปฏิเสธ</Text>		<!-- Document Declined -->
 		</Replace>
@@ -23202,8 +23164,7 @@
 			<Text>คอลเลกชั่น</Text>		<!-- Collection -->
 		</Replace>
 		<Replace Tag="LOC_UI_STORE_ADDITIONAL_CONTENT" Language="th_TH">
-			<Text>เนื้อหาเพิ่มเติม</Text>		<!-- Additional Content -->
-		</Replace>
+			<Text>เนื้อหาเพิ่มเติม</Text>		<!-- Add-ons --></Replace>
 		<Replace Tag="LOC_UI_KICK_SESSION_BODY" Language="th_TH">
 			<Text>ตรวจพบการรันของอินสแตนซ์อีกตัวหนึ่ง คุณต้องการยกเลิกเซสชันอื่นเพื่อดำเนินการต่อหรือไม่? หากปฏิเสธ ระบบจะออกจากเซสชันปัจจุบัน</Text>		<!-- Another instance was detected running. Do you wish to terminate the other session to continue? Declining will logout the current session. -->
 		</Replace>
@@ -23574,11 +23535,9 @@
 			<Text>ตอร์เรส เดล ไปย์เน่</Text>		<!-- Torres del Paine -->
 		</Replace>
 		<Replace Tag="LOC_FEATURE_TORRES_DEL_PAINE_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_FOOD] อาหาร และ +4[icon:YIELD_HAPPINESS] ความสุข ต่อยุค ยูนิตภาคพื้นที่เคลื่อนที่ไปอยู่ข้างๆ หอคอยเดลไปนจะเพิกเฉยต่อภูมิประเทศที่ยากลำบากตลอดทั้งเกม</Text>		<!-- +2[icon:YIELD_FOOD] Food and +4[icon:YIELD_HAPPINESS] Happiness per Age. Land Units that move next to the Torres del Paine ignore Rough Terrain for the rest of the game. -->
-		</Replace>
+			<Text>+2[icon:YIELD_FOOD] อาหาร และ +4[icon:YIELD_HAPPINESS] ความสุข ต่อยุค, +1 [icon:YIELD_FOOD] อาหาร และ [icon:YIELD_PRODUCTION] กำลังผลิต บน พื้นที่ทุนดรา ในถิ่นฐานนี้</Text>		<!-- +2[icon:YIELD_FOOD] Food and +4[icon:YIELD_HAPPINESS] Happiness per Age. +1 [icon:YIELD_FOOD] Food and [icon:YIELD_PRODUCTION] Production on Tundra Terrain in this Settlement. --></Replace>
 		<Replace Tag="LOC_FEATURE_TORRES_DEL_PAINE_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตบนบกที่เคลื่อนที่ไปข้างๆ ตอร์เรส เดล ไปย์เน่ จะไม่สนใจภูมิประเทศที่ขรุขระตลอดทั้งเกม</Text>		<!-- Land Units that move next to the Torres del Paine ignore Rough Terrain for the rest of the game. -->
-		</Replace>
+			<Text>+1 [icon:YIELD_FOOD] อาหาร และ [icon:YIELD_PRODUCTION] กำลังผลิต บน พื้นที่ทุนดรา ในถิ่นฐานนี้</Text>		<!-- +1 [icon:YIELD_FOOD] Food and [icon:YIELD_PRODUCTION] Production on Tundra Terrain in this Settlement. --></Replace>
 		<Replace Tag="LOC_FEATURE_ULURU_NAME" Language="th_TH">
 			<Text>อูลูรู</Text>		<!-- Uluru -->
 		</Replace>
@@ -23796,8 +23755,7 @@
 			<Text>{1_Turns}+ {1_Turns: plural 1?turn; other?turns;}</Text>		<!-- {1_Turns}+ {1_Turns: plural 1?turn; other?turns;} -->
 		</Replace>
 		<Replace Tag="LOC_UI_LAND_CLAIM_STALLED" Language="th_TH">
-			<Text>-- ครั้ง</Text>		<!-- turns -->
-		</Replace>
+			<Text>-- เทิร์น</Text>		<!-- - - turns --></Replace>
 		<Replace Tag="LOC_UNIT_INFO_MELEE_STRENGTH" Language="th_TH">
 			<Text>ระยะประชิด</Text>		<!-- Melee -->
 		</Replace>
@@ -24894,8 +24852,7 @@
 			<Text>ผลผลิตสูงสุดที่ติดกัน</Text>		<!-- Maximum Yield Adjacency -->
 		</Replace>
 		<Replace Tag="LOC_UI_PRODUCTION_ADJACENCY_YIELDS_CURRENT_BEST_TOOLTIP" Language="th_TH">
-			<Text>อัตราผลตอบแทนปัจจุบันที่ดีที่สุดในการเปรียบเทียบ</Text>		<!-- Best Curent Yield Adjacency -->
-		</Replace>
+			<Text>ผลผลิตที่ดีที่สุดจากโบนัสใกล้เคียง</Text>		<!-- Best Current Yield Adjacency --></Replace>
 		<Replace Tag="LOC_UI_PRODUCTION_NO_SPECIAL_YIELD_TOOLTIP" Language="th_TH">
 			<Text>ผลตอบแทนพื้นฐานเท่านั้น</Text>		<!-- Base yield only -->
 		</Replace>
@@ -27417,8 +27374,7 @@
 			<Text>กลุ่มรบ</Text>		<!-- Battle Group -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SQUADRON_BATTLE_GROUP_DESCRIPTION" Language="th_TH">
-			<Text>+15 พลังต่อสู้ สำหรับผู้บัญชาการนี้เมื่อป้องกัน</Text>		<!-- +15 Combat Strength for this Commander when defneding. -->
-		</Replace>
+			<Text>+15 พลังต่อสู้ สำหรับผู้บัญชาการนี้เมื่อป้องกัน</Text>		<!-- +15 Combat Strength for this Commander when defending. --></Replace>
 		<Replace Tag="LOC_PROMOTION_SQUADRON_TORPEDO_BOMBERS_NAME" Language="th_TH">
 			<Text>ทอร์ปิโด บอมเบอร์</Text>		<!-- Torpedo Bombers -->
 		</Replace>
@@ -29362,8 +29318,7 @@
 			<Text>ตราอูลูรู</Text>		<!-- Uluru Badge -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_EVENT_VICTORY_NATURALWONDER_NAME" Language="th_TH">
-			<Text>เข็มกลัดภูเขาไฟฟูจิ</Text>		<!-- Mount Fuji Badge -->
-		</Replace>
+			<Text>เข็มกลัดภูเขาคิลิมันจาโร</Text>		<!-- Mount Kilimanjaro Badge --></Replace>
 		<Replace Tag="LOC_BADGE_EVENT_PARTICIPATION_MONEYMONEYMONEY_NAME" Language="th_TH">
 			<Text>เข็มกลัดทางแยก</Text>		<!-- Crossroads Badge -->
 		</Replace>
@@ -30100,8 +30055,7 @@
 			<Text>สร้างกำแพงห้ากำแพง</Text>		<!-- Build five [B]Walls[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_WALLS_NORMANS_TOOLTIP" Language="th_TH">
-			<Text>[B]กำแพง[/B]เป็นมาตรการป้องกันที่สำคัญสำหรับชาว [B]นอร์มัน[/B]</Text>		<!-- [B]Walls[/B] were an important defensive mesaure to the [B]Normans[/B]. -->
-		</Replace>
+			<Text>[B]กำแพง[/B] เป็นมาตรการป้องกันที่สำคัญสำหรับชาว [B]นอร์มัน[/B]</Text>		<!-- [B]Walls[/B] were an important defensive measure to the [B]Normans[/B]. --></Replace>
 		<Replace Tag="LOC_UNLOCK_WALLS_NORMANS_NARRATIVE" Language="th_TH">
 			<Text>ประตูเมืองปิดลงด้วยเสียงดังแน่นขนัดขณะที่ม้าตัวสุดท้ายเข้ามา ชาวบ้านเชื่อว่าพ่อค้าและนักเดินทางฝันถึงดินแดนห่างไกลโพ้นและทอง; ในความเป็นจริง พวกเขาฝันถึงความปลอดภัย จากหลังกำแพงเหล่านี้ มีระเบียบใหม่ของผู้สร้างปราสาทเริ่มเป็นรูปเป็นร่าง</Text>		<!-- The gates of the city close with a dull thud as the last horses enter. Commoners believe that merchants and travelers dream of distant lands and gold; in reality, they dream of security. From behind these walls, a new order of castle-builders gains shape. -->
 		</Replace>
