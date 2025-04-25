@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_COPYRIGHT_BLOCK" Language="th_TH">
@@ -2753,7 +2753,7 @@
 			<Text>ภาษาหยาบคาย</Text>		<!-- Foul Language -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_RIBBON_DEFAULT_DISPLAY" Language="th_TH">
-			<Text>Show Ribbon Yields by Default</Text>		<!-- Show Ribbon Yields by Default -->
+			<Text>แสดงผลตอบแทนบนริบบิ้นโดยค่าเริ่มต้น</Text>		<!-- Show Ribbon Yields by Default -->
 		</Replace>
 		<Replace Tag="LOC_ABUSE_REPORT_FOUL_LANGUAGE_TOOLTIP" Language="th_TH">
 			<Text>ผู้เล่นใช้ภาษาที่ไม่เหมาะสม</Text>		<!-- The player is using inappropriate language. -->
@@ -3536,10 +3536,10 @@
 			<Text>แสดงคำแนะนำสำหรับผู้เล่นครั้งแรกเมื่อเริ่มเกม</Text>		<!-- Show the first time player instructions at the start of a game. -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_CONTENT_ERROR" Language="th_TH">
-			<Text>Additional content is required but either has not been purchased or is not installed.</Text>		<!-- Additional content is required but either has not been purchased or is not installed. -->
+			<Text>ต้องใช้เนื้อหาเพิ่มเติม แต่ยังไม่ได้ซื้อหรือไม่ได้ติดตั้ง</Text>		<!-- Additional content is required but either has not been purchased or is not installed. -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_CONTENT_ERROR_TITLE" Language="th_TH">
-			<Text>Content Error</Text>		<!-- Content Error -->
+			<Text>ข้อผิดพลาดของเนื้อหา</Text>		<!-- Content Error -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GAME_TUTORIAL_0" Language="th_TH">
 			<Text>ปิด</Text>		<!-- Off -->
@@ -3848,7 +3848,7 @@
 			<Text>คุณภาพสูงสุดบวก</Text>		<!-- Ultra Quality Plus -->
 		</Replace>
 		<Replace Tag="LOC_JOIN_GAME_MATCHMAKING_TIMED_OUT" Language="th_TH">
-			<Text>Matchmaking timed out. Not enough players in the queue, please try again later or try a different queue.</Text>		<!-- Matchmaking timed out. Not enough players in the queue, please try again later or try a different queue. -->
+			<Text>หมดเวลาจับคู่ ไม่พบผู้เล่นในคิวเพียงพอ กรุณาลองใหม่ภายหลังหรือเปลี่ยนคิว</Text>		<!-- Matchmaking timed out. Not enough players in the queue, please try again later or try a different queue. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_XESS_QUALITY_NATIVE" Language="th_TH">
 			<Text>เนทีฟ</Text>		<!-- Native -->
@@ -4385,7 +4385,7 @@
 			<Text>ความเร็วเกม: {1_Speed}</Text>		<!-- Game Speed: {1_Speed} -->
 		</Replace>
 		<Replace Tag="LOC_UI_CHAT_TEAM" Language="th_TH">
-			<Text>Team</Text>		<!-- Team -->
+			<Text>ทีม</Text>		<!-- Team -->
 		</Replace>
 		<Replace Tag="LOC_PROFILE_MARK_AS_SEEN" Language="th_TH">
 			<Text>ทำเครื่องหมายทั้งหมดว่าเห็นแล้ว</Text>		<!-- Mark All As Seen -->
@@ -4472,10 +4472,10 @@
 			<Text>ระดับ {1_Level}</Text>		<!-- Level {1_Level} -->
 		</Replace>
 		<Replace Tag="LOC_UI_CHAT_COMMAND_DESC_TEAM" Language="th_TH">
-			<Text>Send a message to your team channel.</Text>		<!-- Send a message to your team channel. -->
+			<Text>ส่งข้อความไปยังช่องทีมของคุณ</Text>		<!-- Send a message to your team channel. -->
 		</Replace>
 		<Replace Tag="LOC_UI_CHAT_GAMEPAD_INPUT_DESC_TEAM" Language="th_TH">
-			<Text>Write to TEAM</Text>		<!-- Write to TEAM -->
+			<Text>พิมพ์ถึงทีม</Text>		<!-- Write to TEAM -->
 		</Replace>
 		<Replace Tag="LOC_PROFILE_PROGRESS_HEADER_XP" Language="th_TH">
 			<Text>{1_CurrentPoints} / {2_NextLevelPoints} XP</Text>		<!-- {1_CurrentPoints} / {2_NextLevelPoints} XP -->

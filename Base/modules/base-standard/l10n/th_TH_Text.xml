@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_ACTION_PANEL_TAKE_THE_NEXT_ACTION" Language="th_TH">
@@ -3091,13 +3091,13 @@
 			<Text>การพัฒนาสามารถทับด้วยการก่อสร้างอาคารได้เสมอ</Text>		<!-- Improvements can always be overbuilt with a building. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_11_TITLE" Language="th_TH">
-			<Text>Buildings: Water Building</Text>		<!-- Buildings: Water Building -->
+			<Text>สิ่งก่อสร้าง: สิ่งปลูกสร้างทางน้ำ</Text>		<!-- Buildings: Water Building -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_11_CHAPTER_CONTENT_PARA_1" Language="th_TH">
-			<Text>A Water Building is any structure that requires water to be placed. Examples include the Fishing Quay and Wharf. However, buildings that can be placed on water features but don’t actually depend on it, such as a Granary on a minor river, are not considered Water Buildings.</Text>		<!-- A Water Building is any structure that requires water to be placed. Examples include the Fishing Quay and Wharf. However, buildings that can be placed on water features but don’t actually depend on it, such as a Granary on a minor river, are not considered Water Buildings. -->
+			<Text>สิ่งปลูกสร้างทางน้ำคือสิ่งปลูกสร้างใดๆ ที่ต้องการแหล่งน้ำในการวาง ตัวอย่างเช่น ท่าเรือประมง และท่าเรือขนส่ง อย่างไรก็ตาม สิ่งปลูกสร้างที่สามารถวางบนพื้นที่ที่มีน้ำได้แต่ไม่จำเป็นต้องพึ่งพาน้ำ เช่น ยุ้งฉางที่ตั้งอยู่ริมแม่น้ำสายเล็ก จะไม่ถือว่าเป็นสิ่งปลูกสร้างทางน้ำ</Text>		<!-- A Water Building is any structure that requires water to be placed. Examples include the Fishing Quay and Wharf. However, buildings that can be placed on water features but don’t actually depend on it, such as a Granary on a minor river, are not considered Water Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_11_CHAPTER_CONTENT_PARA_2" Language="th_TH">
-			<Text>Tip: A general rule of thumb is that if a Building can be placed on Coastal or Navigable River tiles, it’s a Water Building.</Text>		<!-- Tip: A general rule of thumb is that if a Building can be placed on Coastal or Navigable River tiles, it’s a Water Building. -->
+			<Text>เคล็ดลับ: กฎทั่วไปคือ หากสิ่งปลูกสร้างสามารถวางบนช่องชายฝั่งหรือแม่น้ำที่เรือเดินได้ แสดงว่าเป็นสิ่งปลูกสร้างทางน้ำ</Text>		<!-- Tip: A general rule of thumb is that if a Building can be placed on Coastal or Navigable River tiles, it’s a Water Building. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_9_CHAPTER_CONTENT_PARA_3" Language="th_TH">
 			<Text>เคล็ดลับ: โบนัสผลผลิตใน ย่าน และโบนัสความใกล้เคียงจะรีเซ็ตเมื่อมีการเปลี่ยนยุค การก่อสร้างทับอาคาร เป็นกลยุทธ์ที่มีค่าที่จะเพิ่มศักยภาพของช่องของคุณและนำโบนัสผลผลิตกลับเข้าสู่ ย่าน และโบนัสความใกล้เคียงอีกครั้ง</Text>		<!-- Tip: Yield bonuses on Quarters and Adjacencies reset with each Age transition. Overbuilding is a valuable strategy to maximize your tile's potential and reintroduce bonus yields back into Quarters and Adjacencies. -->
@@ -3304,16 +3304,16 @@
 			<Text>การปล้นจะทำให้การเคลื่อนที่ของยูนิตหมดลงและสามารถปล้นได้เพียงหนึ่งช่องในแต่ละครั้ง ช่องเมืองที่มีอาคารสองหลังจะต้องปล้นทีละหลัง โดยเริ่มจากอาคารที่ให้ผลตอบแทนสูงที่สุด เมื่ออาคารใดถูกปล้นแล้ว จะไม่สามารถปล้นได้อีกจนกว่าจะได้รับการซ่อมแซมจากเจ้าของ การซ่อมแซมสามารถทำได้ผ่านเมนูการผลิตและต้องใช้ค่าใช้จ่ายในการก่อสร้างเริ่มต้นของอาคาร 25%</Text>		<!-- Pillaging exhausts a unit’s movement and allows one tile to be pillaged at a time. Urban tiles with two buildings must be pillaged one building at a time, starting with the highest-yield building. Once a building is pillaged, it cannot be pillaged again until it is repaired by its owner. Repairs can be completed through the Production Menu and require 25% of the building’s initial construction cost. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_3_TITLE" Language="th_TH">
-			<Text>Terrain Combat Modifier</Text>		<!-- Terrain Combat Modifier -->
+			<Text>ตัวปรับการรบตามภูมิประเทศ</Text>		<!-- Terrain Combat Modifier -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_3_CHAPTER_CONTENT_PARA_1" Language="th_TH">
-			<Text>In battle, the type of terrain can help or hurt your units. Each natural feature adds or subtracts a bonus to a unit’s defensive combat strength. Here’s a simple guide:</Text>		<!-- In battle, the type of terrain can help or hurt your units. Each natural feature adds or subtracts a bonus to a unit’s defensive combat strength. Here’s a simple guide: -->
+			<Text>ในสนามรบ ประเภทของภูมิประเทศสามารถช่วยหรือเป็นอุปสรรคต่อหน่วยของคุณได้ ลักษณะทางธรรมชาติแต่ละแบบจะเพิ่มหรือลดความแข็งแกร่งในการป้องกันของหน่วย ต่อไปนี้คือแนวทางง่าย ๆ:</Text>		<!-- In battle, the type of terrain can help or hurt your units. Each natural feature adds or subtracts a bonus to a unit’s defensive combat strength. Here’s a simple guide: -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_3_CHAPTER_CONTENT_PARA_2" Language="th_TH">
-			<Text>[BLIST][LI]Vegetated Areas: Forests, woodlands, and similar features give your units a +2 bonus in combat when defending.[LI]Wet Areas: Bogs, oasis, and other wet features lower your defensive combat strength by 2.[LI]Hills: If a tile is a hill, it provides extra defense—currently a bonus of +3.[LI]Navigable Rivers: Naval units can sail on these without trouble. However, land units must embark (board a boat) to cross safely.[LI]Minor Rivers: These slow you down in combat. Attacking from a minor river tile gives your unit a penalty, and defending from one also makes your unit less effective.[/LIST]</Text>		<!-- [BLIST][LI]Vegetated Areas: Forests, woodlands, and similar features give your units a +2 bonus in combat when defending.[LI]Wet Areas: Bogs, oasis, and other wet features lower your defensive combat strength by 2.[LI]Hills: If a tile is a hill, it provides extra defense—currently a bonus of +3.[LI]Navigable Rivers: Naval units can sail on these without trouble. However, land units must embark (board a boat) to cross safely.[LI]Minor Rivers: These slow you down in combat. Attacking from a minor river tile gives your unit a penalty, and defending from one also makes your unit less effective.[/LIST] -->
+			<Text>[BLIST][LI]พื้นที่มีพืชคลุม: ป่าไม้ พื้นที่ไม้พุ่ม และลักษณะอื่น ๆ ให้โบนัส +2 แก่หน่วยในการป้องกัน[LI]พื้นที่ชื้น: หนองน้ำ โอเอซิส และพื้นที่เปียกอื่น ๆ ลดความแข็งแกร่งในการป้องกันลง 2[LI]เนินเขา: ช่องที่เป็นเนินเขาให้การป้องกันพิเศษ ปัจจุบันคือโบนัส +3[LI]แม่น้ำที่เรือเดินได้: หน่วยเรือสามารถแล่นผ่านได้อย่างไม่มีปัญหา แต่หน่วยภาคพื้นต้องลงเรือก่อนเพื่อข้ามอย่างปลอดภัย[LI]แม่น้ำสายเล็ก: ทำให้การเคลื่อนไหวช้าลง การโจมตีจากแม่น้ำสายเล็กจะทำให้หน่วยถูกลดความสามารถ และการป้องกันจากตำแหน่งนี้ก็ไม่ดีเท่าไหร่[/LIST]</Text>		<!-- [BLIST][LI]Vegetated Areas: Forests, woodlands, and similar features give your units a +2 bonus in combat when defending.[LI]Wet Areas: Bogs, oasis, and other wet features lower your defensive combat strength by 2.[LI]Hills: If a tile is a hill, it provides extra defense—currently a bonus of +3.[LI]Navigable Rivers: Naval units can sail on these without trouble. However, land units must embark (board a boat) to cross safely.[LI]Minor Rivers: These slow you down in combat. Attacking from a minor river tile gives your unit a penalty, and defending from one also makes your unit less effective.[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_3_CHAPTER_CONTENT_PARA_3" Language="th_TH">
-			<Text>Tip: Generally speaking, you would not want to defend on water tiles, while you’d get increased protection from standing on vegetated tiles and hills. </Text>		<!-- Tip: Generally speaking, you would not want to defend on water tiles, while you’d get increased protection from standing on vegetated tiles and hills. -->
+			<Text>เคล็ดลับ: โดยทั่วไปแล้ว คุณไม่ควรตั้งรับบนช่องน้ำ แต่ควรยืนบนช่องที่มีพืชคลุมหรือเนินเขาเพื่อการป้องกันที่ดีกว่า</Text>		<!-- Tip: Generally speaking, you would not want to defend on water tiles, while you’d get increased protection from standing on vegetated tiles and hills. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_PILLAGING_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
 			<Text>เคล็ดลับ: หากคุณถูกล็อกอยู่ในสงครามยาวนาน ใช้การปล้นเพื่อฟื้นฟูยูนิตของคุณและขัดขวางเศรษฐกิจและโครงสร้างพื้นฐานของคู่ต่อสู้เพื่อให้ได้เปรียบในระยะยาว</Text>		<!-- Tip: If you are locked in for a long war, use pillaging to heal your units and disrupt your opponent's economy and infrastructure to gain an advantage over time. -->
@@ -3448,49 +3448,49 @@
 			<Text>การตั้งถิ่นฐานบนพื้นที่น้ำจืด ซึ่งระบุโดยช่องสีน้ำเงินในเลนส์ผู้ตั้งถิ่นฐาน จะให้โบนัสความสุขถาวร +5 คุณสามารถสลับเลนส์ผู้ตั้งถิ่นฐานผ่านไอคอนเหนือแผนที่ย่อเพื่อดูตำแหน่งที่เหมาะสมเหล่านี้</Text>		<!-- Establishing a Settlement on Fresh Water, identified by blue tiles in the Settler Lens, grants a permanent +5 Happiness bonus. You can toggle the Settler Lens via the icon above the minimap to spot these ideal locations. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_5_TITLE" Language="th_TH">
-			<Text>Migrant Gameplay</Text>		<!-- Migrant Gameplay -->
+			<Text>ระบบผู้อพยพ</Text>		<!-- Migrant Gameplay -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_5_CHAPTER_CONTENT_PARA_1" Language="th_TH">
-			<Text>Migrants appear through various Narrative events, Wonder effects, and Policy cards—but most often, they show up when a Settlement has grown as much as it can. When a Settlement runs out of Rural tiles to improve and has no available Specialist slots, a migrant will appear during a growth event, and the growth requirement will increase as usual. You can then use a migrant in any Settlement that still has open Rural tiles, though they can only improve these tiles and cannot serve as Specialists.</Text>		<!-- Migrants appear through various Narrative events, Wonder effects, and Policy cards—but most often, they show up when a Settlement has grown as much as it can. When a Settlement runs out of Rural tiles to improve and has no available Specialist slots, a migrant will appear during a growth event, and the growth requirement will increase as usual. You can then use a migrant in any Settlement that still has open Rural tiles, though they can only improve these tiles and cannot serve as Specialists. -->
+			<Text>ผู้อพยพจะปรากฏจากเหตุการณ์เนื้อเรื่อง สิ่งมหัศจรรย์ และการ์ดนโยบายต่าง ๆ แต่โดยทั่วไปแล้วจะเกิดขึ้นเมื่อการตั้งถิ่นฐานเติบโตจนถึงขีดจำกัด หากไม่มีช่องชนบทให้พัฒนาอีก และไม่มีช่องผู้เชี่ยวชาญว่าง ผู้อพยพจะปรากฏขึ้นเมื่อเกิดเหตุการณ์การเติบโต และข้อกำหนดการเติบโตจะเพิ่มขึ้นตามปกติ จากนั้นคุณสามารถใช้ผู้อพยพในถิ่นฐานใดก็ได้ที่ยังมีช่องชนบทว่างอยู่ แต่ผู้อพยพสามารถพัฒนาเฉพาะช่องเหล่านั้น และไม่สามารถทำหน้าที่เป็นผู้เชี่ยวชาญได้</Text>		<!-- Migrants appear through various Narrative events, Wonder effects, and Policy cards—but most often, they show up when a Settlement has grown as much as it can. When a Settlement runs out of Rural tiles to improve and has no available Specialist slots, a migrant will appear during a growth event, and the growth requirement will increase as usual. You can then use a migrant in any Settlement that still has open Rural tiles, though they can only improve these tiles and cannot serve as Specialists. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_5_CHAPTER_CONTENT_PARA_2" Language="th_TH">
-			<Text>When a Settlement runs out of Rural tiles to improve and has no available Specialist slots, a migrant will appear during a growth event, and the growth requirement will increase as usual. You can then use a migrant in any Settlement that still has open Rural tiles, though they can only improve these tiles and cannot serve as Specialists. </Text>		<!-- When a Settlement runs out of Rural tiles to improve and has no available Specialist slots, a migrant will appear during a growth event, and the growth requirement will increase as usual. You can then use a migrant in any Settlement that still has open Rural tiles, though they can only improve these tiles and cannot serve as Specialists. -->
+			<Text>เมื่อการตั้งถิ่นฐานไม่มีช่องชนบทให้พัฒนาอีก และไม่มีช่องผู้เชี่ยวชาญว่าง ผู้อพยพจะปรากฏขึ้นในเหตุการณ์การเติบโต และข้อกำหนดการเติบโตจะเพิ่มขึ้นตามปกติ จากนั้นคุณสามารถใช้ผู้อพยพในถิ่นฐานที่ยังมีช่องชนบทว่างอยู่ แต่พวกเขาสามารถพัฒนาได้เฉพาะช่องเหล่านั้น และไม่สามารถทำหน้าที่เป็นผู้เชี่ยวชาญได้</Text>		<!-- When a Settlement runs out of Rural tiles to improve and has no available Specialist slots, a migrant will appear during a growth event, and the growth requirement will increase as usual. You can then use a migrant in any Settlement that still has open Rural tiles, though they can only improve these tiles and cannot serve as Specialists. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_5_CHAPTER_CONTENT_PARA_3" Language="th_TH">
-			<Text>Tip: You need to walk your Migrants to a Settlement before activating them. Once activated, they cannot be taken out again.</Text>		<!-- Tip: You need to walk your Migrants to a Settlement before activating them. Once activated, they cannot be taken out again. -->
+			<Text>เคล็ดลับ: คุณต้องพาผู้อพยพเดินทางไปยังถิ่นฐานก่อนจึงจะสามารถใช้งานได้ และเมื่อเปิดใช้งานแล้ว พวกเขาจะไม่สามารถนำออกมาได้อีก</Text>		<!-- Tip: You need to walk your Migrants to a Settlement before activating them. Once activated, they cannot be taken out again. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_6_TITLE" Language="th_TH">
-			<Text>Unrest</Text>		<!-- Unrest -->
+			<Text>ความไม่สงบ</Text>		<!-- Unrest -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_6_CHAPTER_CONTENT_PARA_1" Language="th_TH">
-			<Text>When you capture a Settlement, it falls into unrest for several turns, causing unhappiness and stopping it from building or buying anything. Any captured Settlement also downgrades into a Town.</Text>		<!-- When you capture a Settlement, it falls into unrest for several turns, causing unhappiness and stopping it from building or buying anything. Any captured Settlement also downgrades into a Town. -->
+			<Text>เมื่อคุณยึดถิ่นฐาน มันจะตกอยู่ในสถานะไม่สงบเป็นเวลาหลายเทิร์น ทำให้ประชาชนไม่มีความสุข และไม่สามารถสร้างหรือซื้อสิ่งใดได้ ถิ่นฐานที่ถูกยึดจะลดระดับลงเป็นเมือง</Text>		<!-- When you capture a Settlement, it falls into unrest for several turns, causing unhappiness and stopping it from building or buying anything. Any captured Settlement also downgrades into a Town. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_6_CHAPTER_CONTENT_PARA_2" Language="th_TH">
-			<Text>Placing a commander in the Settlement will help lower this unhappiness. If you conquer a Settlement that originally belonged to you, all unrest penalties disappear because the city is considered liberated.</Text>		<!-- Placing a commander in the Settlement will help lower this unhappiness. If you conquer a Settlement that originally belonged to you, all unrest penalties disappear because the city is considered liberated. -->
+			<Text>การวางผู้บัญชาการไว้ในถิ่นฐานจะช่วยลดความไม่พอใจนี้ หากคุณยึดถิ่นฐานที่เคยเป็นของคุณ ความไม่สงบทั้งหมดจะหายไป เพราะเมืองนั้นถือว่าได้รับการปลดปล่อย</Text>		<!-- Placing a commander in the Settlement will help lower this unhappiness. If you conquer a Settlement that originally belonged to you, all unrest penalties disappear because the city is considered liberated. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_6_CHAPTER_CONTENT_PARA_3" Language="th_TH">
-			<Text>Tip: Gaining Settlements through peace deals avoids unrest, so sometimes it's smart to mix diplomacy with your military actions.</Text>		<!-- Tip: Gaining Settlements through peace deals avoids unrest, so sometimes it's smart to mix diplomacy with your military actions. -->
+			<Text>เคล็ดลับ: การได้ถิ่นฐานผ่านข้อตกลงสันติภาพจะหลีกเลี่ยงความไม่สงบ ดังนั้นบางครั้งการผสมผสานการทูตเข้ากับการรบอาจเป็นกลยุทธ์ที่ชาญฉลาด</Text>		<!-- Tip: Gaining Settlements through peace deals avoids unrest, so sometimes it's smart to mix diplomacy with your military actions. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_7_TITLE" Language="th_TH">
-			<Text>Urban Population</Text>		<!-- Urban Population -->
+			<Text>ประชากรในเมือง</Text>		<!-- Urban Population -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_7_CHAPTER_CONTENT_PARA_1" Language="th_TH">
-			<Text>Urban Population counts only the citizens generated by constructing buildings—it does not include Specialists. This number matters because several bonuses depend on it. Here are a couple of examples:</Text>		<!-- Urban Population counts only the citizens generated by constructing buildings—it does not include Specialists. This number matters because several bonuses depend on it. Here are a couple of examples: -->
+			<Text>ประชากรในเมืองหมายถึงประชากรที่เกิดจากการสร้างสิ่งปลูกสร้างเท่านั้น ไม่รวมผู้เชี่ยวชาญ จำนวนนี้สำคัญ เพราะโบนัสหลายอย่างขึ้นอยู่กับมัน ตัวอย่างเช่น:</Text>		<!-- Urban Population counts only the citizens generated by constructing buildings—it does not include Specialists. This number matters because several bonuses depend on it. Here are a couple of examples: -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_7_CHAPTER_CONTENT_PARA_2" Language="th_TH">
-			<Text>[BLIST][LI]Abbasid's Mamluk: +1 Combat Strength for every Urban Population.[LI]Inca Tradition: Settlements receive +0.5 Gold for every Urban Population.[/LIST]</Text>		<!-- [BLIST][LI]Abbasid's Mamluk: +1 Combat Strength for every Urban Population.[LI]Inca Tradition: Settlements receive +0.5 Gold for every Urban Population.[/LIST] -->
+			<Text>[BLIST][LI]มัมลุกแห่งราชวงศ์อับบาซิด: +1 ความแข็งแกร่งในการต่อสู้ต่อประชากรในเมืองแต่ละคน[LI]ประเพณีอินคา: ถิ่นฐานได้รับ +0.5 ทองต่อประชากรในเมืองแต่ละคน[/LIST]</Text>		<!-- [BLIST][LI]Abbasid's Mamluk: +1 Combat Strength for every Urban Population.[LI]Inca Tradition: Settlements receive +0.5 Gold for every Urban Population.[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_7_CHAPTER_CONTENT_PARA_3" Language="th_TH">
-			<Text>Tip: Focus on constructing buildings to boost your Urban Population when playing Civs that benefit from it.</Text>		<!-- Tip: Focus on constructing buildings to boost your Urban Population when playing Civs that benefit from it. -->
+			<Text>เคล็ดลับ: โฟกัสที่การสร้างสิ่งปลูกสร้างเพื่อเพิ่มประชากรในเมืองหากเล่นอารยธรรมที่ได้รับประโยชน์จากค่านี้</Text>		<!-- Tip: Focus on constructing buildings to boost your Urban Population when playing Civs that benefit from it. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_8_TITLE" Language="th_TH">
-			<Text>Land and Territory</Text>		<!-- Land and Territory -->
+			<Text>ผืนดินและเขตแดน</Text>		<!-- Land and Territory -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_8_CHAPTER_CONTENT_PARA_1" Language="th_TH">
-			<Text>[BLIST][LI]Owned Tile: A tile within your Settlement’s borders.[LI]Unowned Tile: A tile that is not yet part of any Settlement’s borders.[LI]Improved Tile: A Rural tile with an improvement (worked by a population point).[LI]Unimproved Tile: A Rural tile without an improvement (no population assigned to it).[LI]Friendly Tile: A tile you own, or owned by your allied Civs and City-States.[LI]Neutral Tile: A tile not owned by any Civilization.[LI]Enemy Tile: A tile owned by a Civilization you are at war with.[/LIST]</Text>		<!-- [BLIST][LI]Owned Tile: A tile within your Settlement’s borders.[LI]Unowned Tile: A tile that is not yet part of any Settlement’s borders.[LI]Improved Tile: A Rural tile with an improvement (worked by a population point).[LI]Unimproved Tile: A Rural tile without an improvement (no population assigned to it).[LI]Friendly Tile: A tile you own, or owned by your allied Civs and City-States.[LI]Neutral Tile: A tile not owned by any Civilization.[LI]Enemy Tile: A tile owned by a Civilization you are at war with.[/LIST] -->
+			<Text>[BLIST][LI]ช่องที่ครอบครอง: ช่องที่อยู่ในขอบเขตของถิ่นฐานของคุณ[LI]ช่องที่ไม่ครอบครอง: ช่องที่ยังไม่อยู่ในขอบเขตของถิ่นฐานใด ๆ[LI]ช่องที่พัฒนาแล้ว: ช่องชนบทที่มีการปรับปรุง (มีประชากรทำงานอยู่)[LI]ช่องที่ยังไม่ได้พัฒนา: ช่องชนบทที่ไม่มีการปรับปรุง (ไม่มีประชากรทำงาน)[LI]ช่องของมิตร: ช่องที่คุณเป็นเจ้าของ หรือที่พันธมิตรและนครรัฐพันธมิตรของคุณเป็นเจ้าของ[LI]ช่องที่เป็นกลาง: ช่องที่ไม่มีอารยธรรมใดเป็นเจ้าของ[LI]ช่องของศัตรู: ช่องที่เป็นของอารยธรรมที่คุณอยู่ในภาวะสงครามด้วย[/LIST]</Text>		<!-- [BLIST][LI]Owned Tile: A tile within your Settlement’s borders.[LI]Unowned Tile: A tile that is not yet part of any Settlement’s borders.[LI]Improved Tile: A Rural tile with an improvement (worked by a population point).[LI]Unimproved Tile: A Rural tile without an improvement (no population assigned to it).[LI]Friendly Tile: A tile you own, or owned by your allied Civs and City-States.[LI]Neutral Tile: A tile not owned by any Civilization.[LI]Enemy Tile: A tile owned by a Civilization you are at war with.[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_8_CHAPTER_CONTENT_PARA_2" Language="th_TH">
-			<Text>Tip: A lot of effects function according to these tile types. Make sure to check what type of tile a specific effect mentions when making a decision.</Text>		<!-- Tip: A lot of effects function according to these tile types. Make sure to check what type of tile a specific effect mentions when making a decision. -->
+			<Text>เคล็ดลับ: เอฟเฟกต์จำนวนมากทำงานตามประเภทของช่อง ตรวจสอบให้แน่ใจว่าคุณรู้ว่าผลกระทบใดอ้างถึงช่องประเภทไหนก่อนตัดสินใจ</Text>		<!-- Tip: A lot of effects function according to these tile types. Make sure to check what type of tile a specific effect mentions when making a decision. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_3_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>เคล็ดลับ: ตั้งถิ่นฐานบนพื้นที่น้ำจืดเมื่อเป็นไปได้เพื่อรักษาความสุขที่สูงขึ้นและลดความไม่มีความสุขในถิ่นฐานของคุณ ถิ่นฐานที่ไม่มีความสุขจะได้รับโทษต่อผลผลิตทั้งหมด โดยแต่ละจุดของความไม่มีความสุขจะลดลง 2% โดยรวม</Text>		<!-- Tip: Settle on Fresh Water whenever possible to maintain higher Happiness and reduce Unhappiness in your Settlements. An Unhappy Settlement takes a penalty to all of its yields, with each point of negative Happiness causing a 2% overall reduction. -->
@@ -3637,19 +3637,19 @@
 			<Text>หากรายได้จากทองของคุณเป็นลบ คุณมีความเสี่ยงในการล้มละลาย เมื่อยอดเงินของคลังลดต่ำกว่าศูนย์ในขณะที่รายได้ของคุณติดลบ ยูนิตที่มีต้นทุนบำรุงรักษาสูงที่สุดจะถูกยกเลิกทีละยูนิตจนกว่ายอดเงินจะกลับสู่สถานะปกติ การทำเช่นนี้อาจส่งผลกระทบต่อความมั่นคงทางทหารและเศรษฐกิจอย่างรุนแรง ดังนั้นการรักษารายได้ให้เป็นบวกจึงเป็นสิ่งสำคัญ</Text>		<!-- If your gold income is negative, you risk bankruptcy. When the treasury balance falls below zero while your income is negative, units with the highest maintenance costs will disband one by one until the balance is restored. This can severely impact military and economic stability, so maintaining a positive income is essential. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_ONEMORE_1_TITLE" Language="th_TH">
-			<Text>Just One More Turn</Text>		<!-- Just One More Turn -->
+			<Text>ขออีกเทิร์นเดียว</Text>		<!-- Just One More Turn -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_ONEMORE_1_CHAPTER_CONTENT_PARA_1" Language="th_TH">
-			<Text>Just One More Turn mode allows you to continue your game beyond victory, giving you the freedom to keep exploring, building, and shaping the world even after your story officially concludes. Whether you want to admire your accomplishments, further develop your empire, or simply enjoy the gameplay without pressure, Just One More Turn lets you extend the experience at your leisure.</Text>		<!-- Just One More Turn mode allows you to continue your game beyond victory, giving you the freedom to keep exploring, building, and shaping the world even after your story officially concludes. Whether you want to admire your accomplishments, further develop your empire, or simply enjoy the gameplay without pressure, Just One More Turn lets you extend the experience at your leisure. -->
+			<Text>โหมด Just One More Turn เปิดโอกาสให้คุณเล่นเกมต่อได้แม้จะคว้าชัยชนะไปแล้ว มอบอิสระในการสำรวจ สร้าง และปั้นแต่งโลกของคุณต่อไปแม้เรื่องราวจะจบลงอย่างเป็นทางการ ไม่ว่าคุณจะอยากชื่นชมความสำเร็จ ขยายอารยธรรม หรือเพียงแค่เล่นต่อโดยไม่ต้องกังวล โหมดนี้พร้อมให้คุณดื่มด่ำกับประสบการณ์ได้ตามใจ</Text>		<!-- Just One More Turn mode allows you to continue your game beyond victory, giving you the freedom to keep exploring, building, and shaping the world even after your story officially concludes. Whether you want to admire your accomplishments, further develop your empire, or simply enjoy the gameplay without pressure, Just One More Turn lets you extend the experience at your leisure. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_ONEMORE_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
-			<Text>After you reach the end of the final age, you'll see the "Just One More Turn" option alongside your victory summary. Selecting it keeps your game running, allowing you to resume play right away.</Text>		<!-- After you reach the end of the final age, you'll see the "Just One More Turn" option alongside your victory summary. Selecting it keeps your game running, allowing you to resume play right away. -->
+			<Text>เมื่อคุณเข้าสู่ยุคสุดท้าย คุณจะเห็นตัวเลือก “Just One More Turn” ปรากฏเคียงข้างสรุปชัยชนะ หากเลือก ตัวเกมจะดำเนินต่อทันที ให้คุณกลับเข้าสู่การเล่นได้เลย</Text>		<!-- After you reach the end of the final age, you'll see the "Just One More Turn" option alongside your victory summary. Selecting it keeps your game running, allowing you to resume play right away. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_ONEMORE_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
-			<Text>In this mode, you've already won, so additional victories won't end your game, though you can still complete legacy paths and enjoy their special cinematics and achievements.</Text>		<!-- In this mode, you've already won, so additional victories won't end your game, though you can still complete legacy paths and enjoy their special cinematics and achievements. -->
+			<Text>ในโหมดนี้ คุณชนะไปแล้ว ชัยชนะเพิ่มเติมจะไม่จบเกมอีกต่อไป คุณยังสามารถสานต่อเส้นทางมรดก และชมฉากภาพยนตร์หรือปลดล็อกความสำเร็จพิเศษได้เช่นเดิม</Text>		<!-- In this mode, you've already won, so additional victories won't end your game, though you can still complete legacy paths and enjoy their special cinematics and achievements. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_ONEMORE_1_CHAPTER_CONTENT_PARA_4" Language="th_TH">
-			<Text>Tip: You'll always know you're in Just One More Turn mode thanks to a persistent reminder at the top left of your screen. When you're finally ready to conclude your adventure, simply exit to the main menu. There's always one more turn waiting for you if you want it!</Text>		<!-- Tip: You'll always know you're in Just One More Turn mode thanks to a persistent reminder at the top left of your screen. When you're finally ready to conclude your adventure, simply exit to the main menu. There's always one more turn waiting for you if you want it! -->
+			<Text>เคล็ดลับ: คุณจะรู้เสมอว่ากำลังอยู่ในโหมด Just One More Turn ด้วยการแจ้งเตือนมุมบนซ้ายของหน้าจอ และเมื่อถึงเวลาที่คุณพร้อมจะจบบทผจญภัย เพียงแค่กลับสู่เมนูหลัก ยังมีอีกหนึ่งเทิร์นรอคุณเสมอ ถ้าคุณต้องการ!</Text>		<!-- Tip: You'll always know you're in Just One More Turn mode thanks to a persistent reminder at the top left of your screen. When you're finally ready to conclude your adventure, simply exit to the main menu. There's always one more turn waiting for you if you want it! -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BANKRUPTCY_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>เคล็ดลับ: คอยสังเกตค่าใช้จ่ายในการบำรุงรักษาขณะขยายกองทัพหรือสร้างโครงสร้างใหม่ การหลีกเลี่ยงการล้มละลายเป็นสิ่งสำคัญต่อการเติบโตและความปลอดภัยที่ยั่งยืน</Text>		<!-- Tip: Keep an eye on maintenance costs when expanding your military or building new structures. Avoiding bankruptcy is crucial for sustained growth and security. -->
@@ -3670,22 +3670,22 @@
 			<Text>ผู้นำจะได้รับประสบการณ์เมื่อคุณทำภารกิจและเกมสำเร็จ สิ่งนี้จะช่วยให้คุณปลดล็อกของที่ระลึกที่ทรงพลังได้ รางวัลเพิ่มเติมอาจปรากฏในรูปแบบของตัวเลือกมรดกเพิ่มเติมเมื่อเริ่มแต่ละยุค หรือคุณลักษณะของผู้นำ คุณสามารถตรวจสอบการปลดล็อกที่เป็นไปได้เมื่อสร้างเกม การไปถึงระดับที่สูงขึ้นสำหรับผู้นำอาจใช้เวลาหลายเกม</Text>		<!-- Leaders gain experience as you complete challenges and games. This will allow you to unlock powerful Mementos. Additional rewards can also appear in the form of additional Legacy options at the start of each Age, or leader Attributes. You can examine potential unlocks at game creation. Reaching higher levels for a Leader may take several matches. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMPLAY_1_TITLE" Language="th_TH">
-			<Text>Team Play</Text>		<!-- Team Play -->
+			<Text>การเล่นเป็นทีม</Text>		<!-- Team Play -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMPLAY_1_CHAPTER_CONTENT_PARA_1" Language="th_TH">
-			<Text>In Multiplayer, players can form teams. To set this up, players should select the same team in the team dropdown menu when creating a multiplayer game.</Text>		<!-- In Multiplayer, players can form teams. To set this up, players should select the same team in the team dropdown menu when creating a multiplayer game. -->
+			<Text>ในโหมดผู้เล่นหลายคน ผู้เล่นสามารถจัดตั้งทีมได้ โดยเลือกทีมเดียวกันจากเมนูแบบเลื่อนลงเมื่อตั้งค่าเกม</Text>		<!-- In Multiplayer, players can form teams. To set this up, players should select the same team in the team dropdown menu when creating a multiplayer game. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMPLAY_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
-			<Text>When playing on a team, teammates are locked into an Alliance that cannot be broken and are locked at the max Relationship level. Unlike a standard Alliance, teammates share map visibility. Teammates may use Diplomatic Actions with one another but are prohibited from using Espionage Actions.</Text>		<!-- When playing on a team, teammates are locked into an Alliance that cannot be broken and are locked at the max Relationship level. Unlike a standard Alliance, teammates share map visibility. Teammates may use Diplomatic Actions with one another but are prohibited from using Espionage Actions. -->
+			<Text>เมื่ออยู่ในทีมเดียวกัน ผู้เล่นจะผูกพันในพันธมิตรที่ไม่อาจถูกยกเลิก และมีระดับความสัมพันธ์สูงสุด ต่างจากพันธมิตรทั่วไป สมาชิกทีมจะเห็นแผนที่ร่วมกัน สามารถใช้การทูตระหว่างกันได้ แต่ห้ามใช้สายลับต่อกัน</Text>		<!-- When playing on a team, teammates are locked into an Alliance that cannot be broken and are locked at the max Relationship level. Unlike a standard Alliance, teammates share map visibility. Teammates may use Diplomatic Actions with one another but are prohibited from using Espionage Actions. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMPLAY_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
-			<Text>Teammates share a Relationship status, and a War and Alliance status, with all other players and teams. When negotiating peace, one player from each team will manage the negotiations. Once a deal is reached, all other players on each team will make peace automatically with no further exchanges.</Text>		<!-- Teammates share a Relationship status, and a War and Alliance status, with all other players and teams. When negotiating peace, one player from each team will manage the negotiations. Once a deal is reached, all other players on each team will make peace automatically with no further exchanges. -->
+			<Text>สมาชิกทีมจะแชร์สถานะความสัมพันธ์ สงคราม และพันธมิตรกับผู้เล่นและทีมอื่น ๆ การเจรจาสันติภาพจะมีผู้แทนทีมเป็นผู้ดำเนินการ เมื่อข้อตกลงสำเร็จ สมาชิกทีมคนอื่นจะเข้าสู่สันติภาพโดยอัตโนมัติ โดยไม่ต้องแลกเปลี่ยนอะไรเพิ่มเติม</Text>		<!-- Teammates share a Relationship status, and a War and Alliance status, with all other players and teams. When negotiating peace, one player from each team will manage the negotiations. Once a deal is reached, all other players on each team will make peace automatically with no further exchanges. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMPLAY_1_CHAPTER_CONTENT_PARA_4" Language="th_TH">
-			<Text>If one player on a team achieves a Victory, all teammates share in the Victory. If there is a Score Victory, the total Legacy Point count for all teammates are combined for their score.</Text>		<!-- If one player on a team achieves a Victory, all teammates share in the Victory. If there is a Score Victory, the total Legacy Point count for all teammates are combined for their score. -->
+			<Text>หากสมาชิกคนใดในทีมคว้าชัยชนะ สมาชิกทั้งหมดในทีมจะได้รับชัยชนะร่วมกัน และหากเป็นชัยชนะด้วยคะแนน คะแนนมรดกของทุกคนจะถูกรวมเข้าด้วยกันเพื่อคำนวณคะแนนรวมของทีม</Text>		<!-- If one player on a team achieves a Victory, all teammates share in the Victory. If there is a Score Victory, the total Legacy Point count for all teammates are combined for their score. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMPLAY_1_CHAPTER_CONTENT_PARA_5" Language="th_TH">
-			<Text>Note: Technology and Civic progress, and Legacy Path progress, is [B]not[/B] shared between teammates.</Text>		<!-- Note: Technology and Civic progress, and Legacy Path progress, is [B]not[/B] shared between teammates. -->
+			<Text>หมายเหตุ: ความก้าวหน้าทางเทคโนโลยี หน่วยงานพลเรือน และเส้นทางมรดก [B]จะไม่[/B] ถูกแบ่งปันระหว่างสมาชิกในทีม</Text>		<!-- Note: Technology and Civic progress, and Legacy Path progress, is [B]not[/B] shared between teammates. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>เคล็ดลับ: มุ่งเน้นไปที่ผู้นำที่คุณชื่นชอบในหลายๆ การเล่นเพื่อปลดล็อกของที่ระลึกอย่างรวดเร็วและได้รับความได้เปรียบที่แข็งแกร่งขึ้นในแต่ละเกมใหม่</Text>		<!-- Tip: Focus on a preferred Leader across multiple playthroughs to rapidly unlock mementos and gain a stronger foothold in each new game. -->
@@ -4561,34 +4561,34 @@
 			<Text>จนกระทั่งปลายศตวรรษที่ 20 อันตรายจากยาสูบจึงชัดเจน และการใช้ยาสูบลดลงอย่างรวดเร็วในหลายแห่ง</Text>		<!-- It was not until the late 20th century that the dangers of tobacco were made clear, and its use has dropped precipitously in many places. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_RESOURCE_MANGOS_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>Environmental anthropologists refer to species who have symbiotically adapted to a now-extinct ecosystem as ‘ghosts.’ So it is with wild mangoes – their heavy seeds are adapted to be eaten and passed on by large animals: rhinoceroses, elephants, hornbills, and the like, most of which are now vanished from much of the areas of South and Southeast Asia from where mango trees originate. But since ancient times, people, too, have been a key way that mangoes spread. In these regions, mangoes form a part of local diets: unripened mango chips dipped in spicy paste, chopped into rojak, or mashed with garlic and chili; or the ripened sweet orange fruit eaten with sweetened sticky rice, refined down into chunda, or eaten on its own.</Text>		<!-- Environmental anthropologists refer to species who have symbiotically adapted to a now-extinct ecosystem as ‘ghosts.’ So it is with wild mangoes – their heavy seeds are adapted to be eaten and passed on by large animals: rhinoceroses, elephants, hornbills, and the like, most of which are now vanished from much of the areas of South and Southeast Asia from where mango trees originate. But since ancient times, people, too, have been a key way that mangoes spread. In these regions, mangoes form a part of local diets: unripened mango chips dipped in spicy paste, chopped into rojak, or mashed with garlic and chili; or the ripened sweet orange fruit eaten with sweetened sticky rice, refined down into chunda, or eaten on its own. -->
+			<Text>นักมานุษยวิทยาสิ่งแวดล้อมใช้คำว่า 'วิญญาณ' เรียกสิ่งมีชีวิตที่ปรับตัวอยู่ร่วมกับระบบนิเวศซึ่งสูญสิ้นไปแล้ว เช่นเดียวกับมะม่วงป่า—เมล็ดขนาดใหญ่ของมันเหมาะกับการถูกรับประทานและกระจายพันธุ์โดยสัตว์ขนาดใหญ่ เช่น แรด ช้าง และนกเงือก ซึ่งหลายชนิดได้หายไปจากภูมิภาคเอเชียใต้และเอเชียตะวันออกเฉียงใต้ อันเป็นถิ่นกำเนิดของมะม่วง แต่ตั้งแต่ยุคโบราณ มนุษย์ก็มีบทบาทสำคัญในการแพร่กระจายของมะม่วงเช่นกัน ในภูมิภาคเหล่านี้ มะม่วงเป็นส่วนหนึ่งของวัฒนธรรมอาหาร: มะม่วงดิบหั่นแผ่นจิ้มพริกเกลือ หั่นลงในโรจัค หรือโขลกรวมกับกระเทียมและพริก หรือมะม่วงสุกสีส้มหวานที่กินกับข้าวเหนียวมูน แปรรูปเป็นชุนด้า หรือกินเปล่า ๆ ก็ย่อมได้</Text>		<!-- Environmental anthropologists refer to species who have symbiotically adapted to a now-extinct ecosystem as ‘ghosts.’ So it is with wild mangoes – their heavy seeds are adapted to be eaten and passed on by large animals: rhinoceroses, elephants, hornbills, and the like, most of which are now vanished from much of the areas of South and Southeast Asia from where mango trees originate. But since ancient times, people, too, have been a key way that mangoes spread. In these regions, mangoes form a part of local diets: unripened mango chips dipped in spicy paste, chopped into rojak, or mashed with garlic and chili; or the ripened sweet orange fruit eaten with sweetened sticky rice, refined down into chunda, or eaten on its own. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_RESOURCE_CLAY_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>In clay, the human hand plays at creation, forming shapes for utility or artistry alike, made permanent in fire. Clay bricks make sturdy buildings where stone is scarce, and clay pots allow for cooking, brewing, fermentation, and, importantly, the transportation of water. Because of the changes that it signified in ways of life, pottery is one of the key signifiers of the Neolithic age (though, in places, it predates the Neolithic) and pottery production begins thousands of years ago: over 20,000 in Europe, nearly that in China, and approaching 10,000 years of age in Mesoamerica, the Middle East, Africa, and Southeast Asia. The quality of clay and the ability to intensify heat all have an impact upon the pottery produced, from low-heat and porous earthenware to mid- and high-heat stoneware (achieved early in China and only until the later Middle Ages in Europe), and delicate, glasslike porcelain. </Text>		<!-- In clay, the human hand plays at creation, forming shapes for utility or artistry alike, made permanent in fire. Clay bricks make sturdy buildings where stone is scarce, and clay pots allow for cooking, brewing, fermentation, and, importantly, the transportation of water. Because of the changes that it signified in ways of life, pottery is one of the key signifiers of the Neolithic age (though, in places, it predates the Neolithic) and pottery production begins thousands of years ago: over 20,000 in Europe, nearly that in China, and approaching 10,000 years of age in Mesoamerica, the Middle East, Africa, and Southeast Asia. The quality of clay and the ability to intensify heat all have an impact upon the pottery produced, from low-heat and porous earthenware to mid- and high-heat stoneware (achieved early in China and only until the later Middle Ages in Europe), and delicate, glasslike porcelain. -->
+			<Text>ในดินเหนียว มนุษย์ได้เล่นบทบาทของผู้สร้าง หล่อหลอมรูปทรงเพื่อใช้สอยหรือเพื่อศิลป์ แล้วทำให้ถาวรด้วยเปลวไฟ อิฐดินเผาช่วยสร้างที่อยู่อาศัยที่แข็งแรงในพื้นที่ขาดแคลนหิน และภาชนะดินเผาก็ช่วยให้เราสามารถปรุงอาหาร หมักดอง ต้มกลั่น และที่สำคัญคือขนส่งน้ำได้ เครื่องปั้นดินเผาจึงเป็นหนึ่งในสัญลักษณ์สำคัญของยุคหินใหม่ (แม้ในบางพื้นที่จะมีมาก่อนยุคนี้) การผลิตเริ่มขึ้นเมื่อหลายพันปีก่อน: กว่า 20,000 ปีในยุโรป เกือบเท่านั้นในจีน และราว 10,000 ปีในเมโสอเมริกา ตะวันออกกลาง แอฟริกา และเอเชียตะวันออกเฉียงใต้ คุณภาพของดินและเทคโนโลยีการให้ความร้อนมีผลต่อภาชนะที่ผลิตได้ ตั้งแต่ภาชนะเนื้อหยาบเผาอุณหภูมิต่ำ ไปจนถึงเครื่องหินเนื้อแข็ง และสุดท้ายคือเครื่องเคลือบพอร์ซเลนที่เปราะบางดั่งแก้ว</Text>		<!-- In clay, the human hand plays at creation, forming shapes for utility or artistry alike, made permanent in fire. Clay bricks make sturdy buildings where stone is scarce, and clay pots allow for cooking, brewing, fermentation, and, importantly, the transportation of water. Because of the changes that it signified in ways of life, pottery is one of the key signifiers of the Neolithic age (though, in places, it predates the Neolithic) and pottery production begins thousands of years ago: over 20,000 in Europe, nearly that in China, and approaching 10,000 years of age in Mesoamerica, the Middle East, Africa, and Southeast Asia. The quality of clay and the ability to intensify heat all have an impact upon the pottery produced, from low-heat and porous earthenware to mid- and high-heat stoneware (achieved early in China and only until the later Middle Ages in Europe), and delicate, glasslike porcelain. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_RESOURCE_FLAX_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>The long, supple and strong fibers from the flax or linseed plant have been used to make clothing since the Paleolithic. In antiquity, the crop was grown from the Mediterranean to India, and refined into a light, strong cloth – linen, and its seeds crushed to produce linseed oil. As such, it was one of the first crops to be intensively domesticated (in Mesopotamia), and it was the flax plant’s fibers that wrapped Egyptian mummies and its oil that anointed them. Roman soldiers mixed linseed oil into their food, and Charlemagne decreed that his subjects should consume it for their health. The linen trade was present in ancient Greece, and intensified in the early modern period, especially in western Europe. It remains a popular material today, especially in summer.</Text>		<!-- The long, supple and strong fibers from the flax or linseed plant have been used to make clothing since the Paleolithic. In antiquity, the crop was grown from the Mediterranean to India, and refined into a light, strong cloth – linen, and its seeds crushed to produce linseed oil. As such, it was one of the first crops to be intensively domesticated (in Mesopotamia), and it was the flax plant’s fibers that wrapped Egyptian mummies and its oil that anointed them. Roman soldiers mixed linseed oil into their food, and Charlemagne decreed that his subjects should consume it for their health. The linen trade was present in ancient Greece, and intensified in the early modern period, especially in western Europe. It remains a popular material today, especially in summer. -->
+			<Text>เส้นใยยาว แข็งแรง และยืดหยุ่นจากต้นปอหรือเมล็ดลินซีด ถูกมนุษย์นำมาใช้ทอผ้าตั้งแต่ยุคหินเก่า ในสมัยโบราณ พืชชนิดนี้ถูกปลูกตั้งแต่แถบเมดิเตอร์เรเนียนจรดอินเดีย และถูกแปรรูปเป็นผ้าเนื้อนุ่มแข็งแรงเรียกว่า ลินิน ส่วนเมล็ดถูกใช้สกัดน้ำมันลินซีด จึงนับเป็นหนึ่งในพืชที่มนุษย์เริ่มปลูกอย่างจริงจังเป็นพืชเศรษฐกิจ (ในเมโสโปเตเมีย) เส้นใยปอถูกใช้พันร่างมัมมี่อียิปต์ ส่วนน้ำมันก็ใช้ในพิธีกรรมโบราณ ทหารโรมันใส่น้ำมันลินซีดในอาหาร และจักรพรรดิชาร์เลอมาญก็เคยประกาศให้ราษฎรบริโภคเพื่อสุขภาพ การค้าผ้าลินินมีมาตั้งแต่กรีกโบราณ และขยายตัวมากขึ้นในยุคใหม่ตอนต้น โดยเฉพาะในยุโรปตะวันตก ปัจจุบัน ผ้าลินินยังคงได้รับความนิยม โดยเฉพาะในฤดูร้อน</Text>		<!-- The long, supple and strong fibers from the flax or linseed plant have been used to make clothing since the Paleolithic. In antiquity, the crop was grown from the Mediterranean to India, and refined into a light, strong cloth – linen, and its seeds crushed to produce linseed oil. As such, it was one of the first crops to be intensively domesticated (in Mesopotamia), and it was the flax plant’s fibers that wrapped Egyptian mummies and its oil that anointed them. Roman soldiers mixed linseed oil into their food, and Charlemagne decreed that his subjects should consume it for their health. The linen trade was present in ancient Greece, and intensified in the early modern period, especially in western Europe. It remains a popular material today, especially in summer. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_RESOURCE_RUBIES_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>As the demon Vala fell to the Hindu gods, his blood collected, hardened, and turned into rubies. So the legend goes, and rubies were in ancient Sanskrit texts called ratanaraj, the king of gemstones, valued beyond diamonds for their color. The Siamese considered them one of the sacred “nine gems” of rule, and Burmese warriors might place a ruby in their own body to achieve invincibility. Surely, thinking of them as simply hardened aluminum oxide is less romantic. Today, they are mined in East Africa and especially in Southeast Asia, principally Myanmar, and they remain one of the hardest and most prized gemstones. </Text>		<!-- As the demon Vala fell to the Hindu gods, his blood collected, hardened, and turned into rubies. So the legend goes, and rubies were in ancient Sanskrit texts called ratanaraj, the king of gemstones, valued beyond diamonds for their color. The Siamese considered them one of the sacred “nine gems” of rule, and Burmese warriors might place a ruby in their own body to achieve invincibility. Surely, thinking of them as simply hardened aluminum oxide is less romantic. Today, they are mined in East Africa and especially in Southeast Asia, principally Myanmar, and they remain one of the hardest and most prized gemstones. -->
+			<Text>เมื่ออสูรวลาถูกสังหารโดยเทพเจ้าฮินดู เลือดของมันก็หยดลง สะสมแข็งตัว กลายเป็นอัญมณีทับทิม—ตำนานกล่าวไว้เช่นนั้น ในคัมภีร์สันสกฤตโบราณ ทับทิมถูกเรียกว่า *ratanaraj* หรือราชาแห่งอัญมณี มีคุณค่าเหนือเพชรด้วยสีสันอันสดใส ชาวสยามนับถือทับทิมเป็นหนึ่งในนพเก้าแห่งราชาภิเษก ส่วนเหล่านักรบพม่าบางคนถึงขั้นฝังทับทิมในร่างกายเพื่อให้ตนไร้เทียมทาน แน่นอนว่าการมองว่าทับทิมเป็นแค่ผลึกอะลูมิเนียมออกไซด์แข็ง ๆ ก็คงดูไร้มนต์ขลัง ปัจจุบันทับทิมถูกขุดได้ในแอฟริกาตะวันออก และโดยเฉพาะในเอเชียตะวันออกเฉียงใต้ โดยมีเมียนมาเป็นแหล่งสำคัญ ทับทิมยังคงเป็นหนึ่งในอัญมณีที่แข็งและทรงคุณค่าที่สุด</Text>		<!-- As the demon Vala fell to the Hindu gods, his blood collected, hardened, and turned into rubies. So the legend goes, and rubies were in ancient Sanskrit texts called ratanaraj, the king of gemstones, valued beyond diamonds for their color. The Siamese considered them one of the sacred “nine gems” of rule, and Burmese warriors might place a ruby in their own body to achieve invincibility. Surely, thinking of them as simply hardened aluminum oxide is less romantic. Today, they are mined in East Africa and especially in Southeast Asia, principally Myanmar, and they remain one of the hardest and most prized gemstones. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_RESOURCE_RICE_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>Rice is by far the most important cereal crop in the world. It was first domesticated in China, around 10,000 years ago, in areas that were at that time home to Hmong and Austronesian populations. “Wet” rice cultivation, practiced for thousands of years, has an unusual method of cultivation, requiring first growing seedlings in a dry field, and then transplanting them in a flooded one, often by hand. Rice cultivation made its mark on ritual culture as well, with emperors scattering the first seeds, plowing the first furrow, or investing in the great hydroengineering projects such as Angkor’s baray or Balinese water temples. </Text>		<!-- Rice is by far the most important cereal crop in the world. It was first domesticated in China, around 10,000 years ago, in areas that were at that time home to Hmong and Austronesian populations. “Wet” rice cultivation, practiced for thousands of years, has an unusual method of cultivation, requiring first growing seedlings in a dry field, and then transplanting them in a flooded one, often by hand. Rice cultivation made its mark on ritual culture as well, with emperors scattering the first seeds, plowing the first furrow, or investing in the great hydroengineering projects such as Angkor’s baray or Balinese water temples. -->
+			<Text>ข้าวคือพืชธัญพืชที่สำคัญที่สุดของโลก โดยมีต้นกำเนิดจากจีนเมื่อราว 10,000 ปีก่อน ในพื้นที่ซึ่งครั้งหนึ่งเคยเป็นถิ่นที่อยู่ของชาวม้งและออสโตรนีเซียน การทำนาแบบนาน้ำ ซึ่งมีมาแล้วหลายพันปี มีวิธีการเฉพาะตัว คือต้องเพาะกล้าในแปลงแห้ง แล้วจึงย้ายไปปักดำในแปลงน้ำซึ่งมักทำด้วยมือ การปลูกข้าวยังมีความสำคัญในเชิงพิธีกรรม จักรพรรดิจะโปรยเมล็ดแรกลงดิน ไถร่องแรก หรือเป็นผู้สนับสนุนโครงการชลประทานอันยิ่งใหญ่ เช่น บารายในนครวัด หรือระบบวัดน้ำของบาหลี</Text>		<!-- Rice is by far the most important cereal crop in the world. It was first domesticated in China, around 10,000 years ago, in areas that were at that time home to Hmong and Austronesian populations. “Wet” rice cultivation, practiced for thousands of years, has an unusual method of cultivation, requiring first growing seedlings in a dry field, and then transplanting them in a flooded one, often by hand. Rice cultivation made its mark on ritual culture as well, with emperors scattering the first seeds, plowing the first furrow, or investing in the great hydroengineering projects such as Angkor’s baray or Balinese water temples. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_RESOURCE_LIMESTONE_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>On the beds of prehistoric seas, the calcium carbonate shells of mollusks and corals fell, were ground to powder, and compressed over millions of years. This process forms limestone, a sedimentary rock that has been important for construction since antiquity. Because of the ease in which limestone can be cut, and its impressive white luster, limestone was used in construction of ancient buildings such as the Great Pyramid of Egypt, or when burned and made into plaster, the wonders of the Maya world. Subjected to intense heat and pressure, limestone will eventually produce yet another important and wonderous stone – marble. </Text>		<!-- On the beds of prehistoric seas, the calcium carbonate shells of mollusks and corals fell, were ground to powder, and compressed over millions of years. This process forms limestone, a sedimentary rock that has been important for construction since antiquity. Because of the ease in which limestone can be cut, and its impressive white luster, limestone was used in construction of ancient buildings such as the Great Pyramid of Egypt, or when burned and made into plaster, the wonders of the Maya world. Subjected to intense heat and pressure, limestone will eventually produce yet another important and wonderous stone – marble. -->
+			<Text>บนก้นทะเลยุคดึกดำบรรพ์ เปลือกหอยและปะการังที่เต็มไปด้วยแคลเซียมคาร์บอเนตตกตะกอน ถูกบดละเอียดและอัดแน่นผ่านกาลเวลาหลายล้านปี ก่อกำเนิดเป็นหินปูน หินตะกอนที่มีบทบาทสำคัญในการก่อสร้างมาตั้งแต่ยุคโบราณ ด้วยความง่ายในการตัดแต่ง และความขาวละมุนตา หินปูนจึงถูกใช้สร้างสิ่งก่อสร้างอันยิ่งใหญ่ เช่น มหาพีระมิดแห่งอียิปต์ หรือเมื่อเผาและทำเป็นปูน ก็ใช้สร้างสิ่งมหัศจรรย์ของอารยธรรมมายา หากถูกแรงกดดันและความร้อนอย่างรุนแรง หินปูนก็จะแปรสภาพเป็นหินอีกชนิดที่ทรงคุณค่าไม่แพ้กัน—หินอ่อน</Text>		<!-- On the beds of prehistoric seas, the calcium carbonate shells of mollusks and corals fell, were ground to powder, and compressed over millions of years. This process forms limestone, a sedimentary rock that has been important for construction since antiquity. Because of the ease in which limestone can be cut, and its impressive white luster, limestone was used in construction of ancient buildings such as the Great Pyramid of Egypt, or when burned and made into plaster, the wonders of the Maya world. Subjected to intense heat and pressure, limestone will eventually produce yet another important and wonderous stone – marble. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_RESOURCE_TIN_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>We may think of tin – a brittle, bright elemental metal – as a relatively flimsy material, but when combined with copper, tin produces bronze, one of the most important metals of the ancient world. Ancient smelters may have discovered tin alloys by accident when making copper tools, but once they understood that adding tin oxide into the mix could make harder, sharper, more durable tools and weapons, the Bronze Age had begun. But relying upon two different sources runs a risk should one of these fall to an enemy, and securing sources of tin was a vital part of ancient realpolitik.  </Text>		<!-- We may think of tin – a brittle, bright elemental metal – as a relatively flimsy material, but when combined with copper, tin produces bronze, one of the most important metals of the ancient world. Ancient smelters may have discovered tin alloys by accident when making copper tools, but once they understood that adding tin oxide into the mix could make harder, sharper, more durable tools and weapons, the Bronze Age had begun. But relying upon two different sources runs a risk should one of these fall to an enemy, and securing sources of tin was a vital part of ancient realpolitik.  -->
+			<Text>เรามักคิดว่าทินคือโลหะธาตุที่เปราะบางและสว่างสดใส เป็นวัสดุที่ไม่ทนทานนัก แต่เมื่อผสมกับทองแดงแล้ว ทินจะกลายเป็นบรอนซ์ หนึ่งในโลหะสำคัญที่สุดของโลกยุคโบราณ นักถลุงโลหะในสมัยก่อนอาจค้นพบโลหะผสมทินโดยบังเอิญระหว่างการทำเครื่องมือทองแดง แต่เมื่อพวกเขารู้ว่าการเติมออกไซด์ของทินลงไปสามารถทำให้เครื่องมือและอาวุธแข็งแกร่ง คม และทนทานขึ้น ยุคสัมฤทธิก็ได้เริ่มต้นขึ้น ทว่า การต้องพึ่งพาแหล่งทรัพยากรสองประเภทหมายถึงความเสี่ยงหากหนึ่งในนั้นตกอยู่ในมือศัตรู การหาทินจึงเป็นหนึ่งในยุทธศาสตร์การเมืองสำคัญของโลกยุคโบราณ</Text>		<!-- We may think of tin – a brittle, bright elemental metal – as a relatively flimsy material, but when combined with copper, tin produces bronze, one of the most important metals of the ancient world. Ancient smelters may have discovered tin alloys by accident when making copper tools, but once they understood that adding tin oxide into the mix could make harder, sharper, more durable tools and weapons, the Bronze Age had begun. But relying upon two different sources runs a risk should one of these fall to an enemy, and securing sources of tin was a vital part of ancient realpolitik.  -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_RESOURCE_LLAMAS_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>The New World differed perhaps the most from the Old in having few beasts of burden – there were no horses, camels or elephants to carry loads from one city to the next. But in the Andes, there were llamas, and they were well-suited to traversing the high paths. Long before the Inca Empire rose, Andean peoples used llamas (and their cousins, the alpacas) for wool, fertilizer, meat, and, of course, transportation. These appear to have been extremely important for the consolidation and growth of empire in the region but also limiting – where llamas did not do well (in the jungle lowlands, for instance), empire also did not expand. </Text>		<!-- The New World differed perhaps the most from the Old in having few beasts of burden – there were no horses, camels or elephants to carry loads from one city to the next. But in the Andes, there were llamas, and they were well-suited to traversing the high paths. Long before the Inca Empire rose, Andean peoples used llamas (and their cousins, the alpacas) for wool, fertilizer, meat, and, of course, transportation. These appear to have been extremely important for the consolidation and growth of empire in the region but also limiting – where llamas did not do well (in the jungle lowlands, for instance), empire also did not expand. -->
+			<Text>โลกใหม่แตกต่างจากโลกเก่าอย่างเห็นได้ชัดในเรื่องการขาดสัตว์ใช้งาน—ไม่มีม้า อูฐ หรือช้างไว้ขนของระหว่างเมือง แต่ในเทือกเขาแอนดีส มีลามะ ซึ่งเหมาะกับการเดินทางบนเส้นทางสูงชันอย่างยิ่ง นานก่อนจักรวรรดิอินคาจะรุ่งเรือง ชาวพื้นเมืองแอนดีสใช้ลามะ (รวมถึงญาติของมันอย่างอัลปากา) เพื่อขนข้าวของ ผลิตขนสัตว์ ปุ๋ย และอาหาร การมีลามะมีบทบาทอย่างมากในการรวมอำนาจและขยายอาณาจักร แต่ก็มีข้อจำกัดเช่นกัน—บริเวณที่ลามะอยู่ไม่ได้ดี เช่นที่ราบลุ่มป่าเขตร้อน จักรวรรดิก็ไม่สามารถขยายไปถึง</Text>		<!-- The New World differed perhaps the most from the Old in having few beasts of burden – there were no horses, camels or elephants to carry loads from one city to the next. But in the Andes, there were llamas, and they were well-suited to traversing the high paths. Long before the Inca Empire rose, Andean peoples used llamas (and their cousins, the alpacas) for wool, fertilizer, meat, and, of course, transportation. These appear to have been extremely important for the consolidation and growth of empire in the region but also limiting – where llamas did not do well (in the jungle lowlands, for instance), empire also did not expand. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_RESOURCE_HARDWOOD_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>In tropical forests, the sheer abundance of life allows a variety of strategies. Some plants grow quickly, fruit, and die. Others take their time – the hardwoods. Teak (from Southeast Asia), mahogany (from the Americas), and ebony (from Africa) are three examples of tropical hardwoods, and have been used since antiquity not only for their luster, but also because the fine-grained wood resists encroachment by fungi or insects, meaning that one can build a structure even in the most humid climate, and have it last. Palaces in the Southeast Asian highlands were often made of teak, and indigenous canoes in the Caribbean of mahogany. In the age of colonialism, though, these resources became sources of great desire and wealth – and fell under threat, with many protected now by law.</Text>		<!-- In tropical forests, the sheer abundance of life allows a variety of strategies. Some plants grow quickly, fruit, and die. Others take their time – the hardwoods. Teak (from Southeast Asia), mahogany (from the Americas), and ebony (from Africa) are three examples of tropical hardwoods, and have been used since antiquity not only for their luster, but also because the fine-grained wood resists encroachment by fungi or insects, meaning that one can build a structure even in the most humid climate, and have it last. Palaces in the Southeast Asian highlands were often made of teak, and indigenous canoes in the Caribbean of mahogany. In the age of colonialism, though, these resources became sources of great desire and wealth – and fell under threat, with many protected now by law. -->
+			<Text>ในป่าร้อนชื้นที่อุดมสมบูรณ์ ชีวิตพืชต่าง ๆ มีหลายกลยุทธ์ บางชนิดเติบโตเร็ว ออกผล และตายไป ขณะที่พวกไม้เนื้อแข็งเติบโตช้า ตัวอย่างได้แก่ ไม้สักจากเอเชียตะวันออกเฉียงใต้ ไม้มะฮอกกานีจากอเมริกา และไม้มะเกลือจากแอฟริกา ซึ่งล้วนเป็นไม้เนื้อแข็งที่มีคุณค่า ใช้มาตั้งแต่โบราณ ไม่เพียงเพราะความสวยงาม แต่เพราะเนื้อไม้ละเอียดแน่น ทนต่อเชื้อราและแมลง จึงเหมาะกับการสร้างสิ่งปลูกสร้างแม้ในสภาพอากาศชื้นจัด เช่น พระราชวังในเขตภูเขาของเอเชียตะวันออกเฉียงใต้ที่ทำจากไม้สัก หรือเรือแคนูพื้นเมืองในแคริบเบียนที่ทำจากไม้มะฮอกกานี ในยุคล่าอาณานิคม ไม้เหล่านี้กลายเป็นทรัพยากรที่ทั้งต้องการและมีมูลค่าสูง—จนบางชนิดต้องได้รับการคุ้มครองโดยกฎหมาย</Text>		<!-- In tropical forests, the sheer abundance of life allows a variety of strategies. Some plants grow quickly, fruit, and die. Others take their time – the hardwoods. Teak (from Southeast Asia), mahogany (from the Americas), and ebony (from Africa) are three examples of tropical hardwoods, and have been used since antiquity not only for their luster, but also because the fine-grained wood resists encroachment by fungi or insects, meaning that one can build a structure even in the most humid climate, and have it last. Palaces in the Southeast Asian highlands were often made of teak, and indigenous canoes in the Caribbean of mahogany. In the age of colonialism, though, these resources became sources of great desire and wealth – and fell under threat, with many protected now by law. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_RESOURCE_WILD_GAME_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>The term “hunter-gatherer” is most often associated with small-scale societies, but hunting was, at times, productive enough to support cities: many New World cities, for instance, relied upon hunting for meat, and even where domestication of animals was underway, hunting remained an important source of protein and resources. Game could vary – antelopes (e.g. deer, moose, gazelles) are important nearly everywhere, but also wild cattle, birds (such as pheasants and turkeys), rabbits, and the like are hunted. As agriculture became more and more prevalent, these sources of food turned from a staple of the diet to a delicacy. </Text>		<!-- The term “hunter-gatherer” is most often associated with small-scale societies, but hunting was, at times, productive enough to support cities: many New World cities, for instance, relied upon hunting for meat, and even where domestication of animals was underway, hunting remained an important source of protein and resources. Game could vary – antelopes (e.g. deer, moose, gazelles) are important nearly everywhere, but also wild cattle, birds (such as pheasants and turkeys), rabbits, and the like are hunted. As agriculture became more and more prevalent, these sources of food turned from a staple of the diet to a delicacy. -->
+			<Text>คำว่า “นักล่า-เก็บของป่า” มักเกี่ยวข้องกับสังคมขนาดเล็ก แต่ในบางครั้งการล่าสัตว์ก็เพียงพอจะเลี้ยงดูเมืองได้ เช่น หลายเมืองในโลกใหม่ที่ยังพึ่งการล่าเพื่อเนื้อสัตว์ แม้ในที่ที่เริ่มมีการเลี้ยงสัตว์แล้วก็ตาม การล่ายังคงเป็นแหล่งโปรตีนและทรัพยากรสำคัญ สัตว์ป่าที่ล่าได้มีหลายชนิด—จากละมั่ง (เช่น กวาง มูซ กาเซล) ซึ่งพบได้ทั่วไป ไปจนถึงวัวป่า นก (เช่น ไก่ฟ้า ไก่งวง) กระต่าย ฯลฯ เมื่อเกษตรกรรมแพร่หลายมากขึ้น แหล่งอาหารเหล่านี้ก็เปลี่ยนจากอาหารหลักกลายเป็นของหายากราคาแพง</Text>		<!-- The term “hunter-gatherer” is most often associated with small-scale societies, but hunting was, at times, productive enough to support cities: many New World cities, for instance, relied upon hunting for meat, and even where domestication of animals was underway, hunting remained an important source of protein and resources. Game could vary – antelopes (e.g. deer, moose, gazelles) are important nearly everywhere, but also wild cattle, birds (such as pheasants and turkeys), rabbits, and the like are hunted. As agriculture became more and more prevalent, these sources of food turned from a staple of the diet to a delicacy. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_RESOURCE_CITRUS_CHAPTER_HISTORY_PARA_1" Language="th_TH">
 			<Text>ผลไม้ตระกูลส้ม เช่น ส้มและมะนาว รวมถึงผลไม้ที่ไม่ค่อยคุ้นเคย (แต่ไม่ด้อยรสชาติน้อยกว่า) อย่างยูซุและส้มโอ เป็นผลไม้หลากหลายชนิดที่เป็นพื้นที่กำเนิดในเอเชียตะวันออกเฉียงใต้ ผลไม้ตระกูลส้มถูกนำมาใช้เป็นปลูกที่เก่าแก่ในเวลาอันรวดเร็ว และขยายไปยังเอเชียตะวันออกและทิศตะวันตกตามเส้นทางการค้าผ่านดินแดนของอิสลามไปยังทะเลเมดิเตอร์เรเนียนในช่วงปี 900 และไปยังยุโรปในช่วงปี 1400 โดยที่พวกมันถูกปลูกอย่างเสรีในพื้นที่ที่มีอากาศอบอุ่นของทวีป นอกเหนือจากการเป็นอาหารที่ได้รับความนิยม ผลไม้ตระกูลส้มถูกค้นพบว่าเป็นอาหารที่จำเป็นสำหรับการเดินทางทางทะเล ขาดวิตามินซี – โรคเลือดออก – รบกวนหลายคนในโลกก่อนสมัยใหม่ แต่ที่แพร่หลายโดยเฉพาะในหมู่ผู้เดินเรือ ผู้เดินเรือที่มีชีวิตอยู่ด้วยอาหารเนื้อเค็มในช่วงการเดินทางที่ยาวนานขาดวิตามินซีที่พวกเขาปกติเสพได้จากอาหารที่มีความหลากหลายมากขึ้นจากพื้นดิน (เช่น การกินอวัยวะสัตว์ พืชผัก เป็นต้น) ผลไม้ตระกูลส้ม (โดยเฉพาะมะนาว) เป็นแหล่งที่ยอดเยี่ยมของสารอาหารนั้น และถูกพิสูจน์ว่าเป็นวิธีการแก้ไขปัญหาแบบรวดเร็วสำหรับโรคนี้ ช่วยป้องกันการสูญเสียที่เลวร้ายที่สุดจากโรคเลือดออก ซึ่งอาจทำให้ล้มหายตายจากเปอร์เซ็นต์ที่มีขนาดใหญ่ของลูกเรือระยะไกลได้</Text>		<!-- Citrus fruits, such as oranges and lemons as well as the less familiar (but no less delicious) yuzu and pomelo, are a variety of fruit native to Southeast Asia. Quickly adopted as an early cultivar, citrus fruits expanded in human hands to East Asia and westward along trade routes through Islamic lands to the Mediterranean in the 900s and to Europe in the 1400s, where they were freely cultivated in the warmer regions of the continent. Beyond being a popular food, citrus fruits were discovered to be a necessary staple for sea travel. Vitamin C deficiency – scurvy – plagued many in the premodern world but was especially rampant among sailors. Subsisting on a diet of salted meat over long voyages, sailors lacked the vitamin C intake they normally received from a more varied, land-based diet (e.g. eating animal organs, green plants, etc.). Citrus fruits (especially limes) are an excellent source of the nutrient, and proved to be a quick fix for the disease, preventing the worst of the losses from scurvy, which could wipe out a sizeable percentage of any long-distance crew. -->
@@ -4927,7 +4927,7 @@
 			<Text>ยูนิต {1_UnitName} ของคุณตาย أثناءโจมตีศัตรู {2_EnUName} (ความเสียหาย {3_Num} หน่วย)!</Text>		<!-- Your {1_UnitName} died attacking an enemy {2_EnUName} ({3_Num} damage)! -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOUR_UNIT_DIED_DEFENDING_IP" Language="th_TH">
-			<Text>While defending, your {1_UnitName} was destroyed by {LOC_GRAMMAR_A_AN &lt;&lt; {2_EnemyUnitName}} from {3_EnemyAdjective} ({4_Num} damage)!</Text>		<!-- While defending, your {1_UnitName} was destroyed by {LOC_GRAMMAR_A_AN &lt;&lt; {2_EnemyUnitName}} from {3_EnemyAdjective} ({4_Num} damage)! -->
+			<Text>ขณะป้องกัน {1_UnitName} ของคุณถูกทำลายโดย {2_EnemyUnitName} จาก {3_EnemyAdjective} (ได้รับความเสียหาย {4_Num} หน่วย)!</Text>		<!-- While defending, your {1_UnitName} was destroyed by {LOC_GRAMMAR_A_AN &lt;&lt; {2_EnemyUnitName}} from {3_EnemyAdjective} ({4_Num} damage)! -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOUR_UNIT_DIED_ATTACKING_CITY" Language="th_TH">
 			<Text>ยูนิต {1_UnitName} ของคุณถูกทำลายขณะโจมตีเมืองศัตรู {2_EnUName} (ความเสียหาย {3_Num} หน่วย)!</Text>		<!-- Your {1_UnitName} died attacking the enemy City of {2_EnUName} ({3_Num} damage)! -->
@@ -5059,7 +5059,7 @@
 			<Text>โบนัสการใกล้เคียง</Text>		<!-- Adjacency Bonus -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_GREAT_WORK_BONUS_YIELD_MODIFIER" Language="th_TH">
-			<Text>Capped Great Works Bonus</Text>		<!-- Capped Great Works Bonus -->
+			<Text>โบนัสจากมหากรรมศิลป์ถูกจำกัด</Text>		<!-- Capped Great Works Bonus -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_YIELD_FROM_APPEAL" Language="th_TH">
 			<Text>โบนัสอุทธรณ์</Text>		<!-- Appeal Bonus -->
@@ -5293,7 +5293,7 @@
 			<Text>ผลผลิตจากความเชื่อ</Text>		<!-- Yield from Beliefs -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_YIELDS_FROM_GOLDEN_AGES" Language="th_TH">
-			<Text>Yield from Celebrations</Text>		<!-- Yield from Celebrations -->
+			<Text>ผลผลิตจากการเฉลิมฉลอง</Text>		<!-- Yield from Celebrations -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_NUM_CITIES_FOLLOWING_RELIGION" Language="th_TH">
 			<Text>ผลผลิตจากเมือง ที่นับถือศาสนาของคุณ</Text>		<!-- Yield from Cities following your Religion -->
@@ -5440,10 +5440,10 @@
 			<Text>ฐาน</Text>		<!-- Base -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_NUM_COMPLETED_CIVIC_MASTERIES" Language="th_TH">
-			<Text>Number of Completed Civic Masteries</Text>		<!-- Number of Completed Civic Masteries -->
+			<Text>จำนวนความเชี่ยวชาญด้านแนวคิดที่สำเร็จแล้ว</Text>		<!-- Number of Completed Civic Masteries -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_NUM_COMPLETED_TECH_MASTERIES" Language="th_TH">
-			<Text>Number of Completed Tech Masteries</Text>		<!-- Number of Completed Tech Masteries -->
+			<Text>จำนวนความเชี่ยวชาญทางเทคโนโลยีที่สำเร็จแล้ว</Text>		<!-- Number of Completed Tech Masteries -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_ALL_PURCHASES_DISCOUNT" Language="th_TH">
 			<Text>ส่วนลดการซื้อทั่วโลก</Text>		<!-- Global Purchase Discount -->
@@ -5731,37 +5731,37 @@
 			<Text>เวลาเทิร์นการเปลี่ยนจะขึ้นอยู่กับตัวเลือกเวลาการเปลี่ยน (เป็นวินาที)</Text>		<!-- Turn Time is based on the Turn Time option (in seconds). -->
 		</Replace>
 		<Replace Tag="LOC_DIFFICULTY_SETTLER_DESCRIPTION" Language="th_TH">
-			<Text>Ideal for beginners with a forgiving pace.</Text>		<!-- Ideal for beginners with a forgiving pace. -->
+			<Text>เหมาะสำหรับผู้เริ่มต้น พร้อมจังหวะเกมที่ให้อภัย</Text>		<!-- Ideal for beginners with a forgiving pace. -->
 		</Replace>
 		<Replace Tag="LOC_TURNTIMER_DYNAMIC" Language="th_TH">
 			<Text>ไดนามิก</Text>		<!-- Dynamic -->
 		</Replace>
 		<Replace Tag="LOC_DIFFICULTY_PRINCE_DESCRIPTION" Language="th_TH">
-			<Text>A balanced challenge for intermediate players.</Text>		<!-- A balanced challenge for intermediate players. -->
+			<Text>ความท้าทายที่สมดุลสำหรับผู้เล่นระดับกลาง</Text>		<!-- A balanced challenge for intermediate players. -->
 		</Replace>
 		<Replace Tag="LOC_TURNTIMER_DYNAMIC_DESC" Language="th_TH">
 			<Text>เวลาหมุนจะถูกปรับตามจำนวนเมืองและยูนิตที่กำลังเล่นอยู่</Text>		<!-- Turn Time is dynamically scaled based on the number of Cities and Units in play. -->
 		</Replace>
 		<Replace Tag="LOC_DIFFICULTY_KING_DESCRIPTION" Language="th_TH">
-			<Text>Offers a more strategic and robust gameplay experience.</Text>		<!-- Offers a more strategic and robust gameplay experience. -->
+			<Text>ประสบการณ์การเล่นที่วางกลยุทธ์และแข็งแกร่งยิ่งขึ้น</Text>		<!-- Offers a more strategic and robust gameplay experience. -->
 		</Replace>
 		<Replace Tag="LOC_GAME_TURN_TIMER_TIME" Language="th_TH">
 			<Text>เวลาของเทิร์น</Text>		<!-- Turn Time -->
 		</Replace>
 		<Replace Tag="LOC_DIFFICULTY_EMPEROR_DESCRIPTION" Language="th_TH">
-			<Text>Increases difficulty with stronger opponents.</Text>		<!-- Increases difficulty with stronger opponents. -->
+			<Text>เพิ่มระดับความยากด้วยศัตรูที่แข็งแกร่งกว่า</Text>		<!-- Increases difficulty with stronger opponents. -->
 		</Replace>
 		<Replace Tag="LOC_GAME_TURN_TIMER_TIME_TOOLTIP" Language="th_TH">
 			<Text>เวลาในแต่ละเทิร์น ที่ใช้โดยโหมดเครื่องจับเวลามาตรฐาน (เป็นวินาที)</Text>		<!-- Turn Time used by the Standard Turn Timer mode (in seconds). -->
 		</Replace>
 		<Replace Tag="LOC_DIFFICULTY_IMMORTAL_DESCRIPTION" Language="th_TH">
-			<Text>Requires mastery and offers a high-stakes challenge.</Text>		<!-- Requires mastery and offers a high-stakes challenge. -->
+			<Text>ต้องการความเชี่ยวชาญ พร้อมความท้าทายระดับสูง</Text>		<!-- Requires mastery and offers a high-stakes challenge. -->
 		</Replace>
 		<Replace Tag="LOC_DIFFICULTY_NAME" Language="th_TH">
 			<Text>ระดับความยาก</Text>		<!-- Difficulty -->
 		</Replace>
 		<Replace Tag="LOC_DIFFICULTY_DEITY_DESCRIPTION" Language="th_TH">
-			<Text>The ultimate challenge, demanding advanced strategy and skill.</Text>		<!-- The ultimate challenge, demanding advanced strategy and skill. -->
+			<Text>ความท้าทายสูงสุด ต้องใช้กลยุทธ์และทักษะขั้นสูง</Text>		<!-- The ultimate challenge, demanding advanced strategy and skill. -->
 		</Replace>
 		<Replace Tag="LOC_DIFFICULTY_DESCRIPTION" Language="th_TH">
 			<Text>เลือกความยากของเกม</Text>		<!-- Selects the difficulty of the game -->
@@ -5824,31 +5824,31 @@
 			<Text>{1_Value}: โบนัสความยากในการสร้างกำแพงฟรีในเมือง</Text>		<!-- {1_Value}: Difficulty bonus free Walls in Cities -->
 		</Replace>
 		<Replace Tag="LOC_GAMESPEED_ONLINE_DESCRIPTION" Language="th_TH">
-			<Text>Fast-paced gameplay for competitive online matches. Double speed.</Text>		<!-- Fast-paced gameplay for competitive online matches. Double speed. -->
+			<Text>เกมเพลย์รวดเร็วสำหรับการแข่งขันออนไลน์ ความเร็วเพิ่มเป็นสองเท่า</Text>		<!-- Fast-paced gameplay for competitive online matches. Double speed. -->
 		</Replace>
 		<Replace Tag="LOC_DIFFICULTY_TOWN_WALLS_NAME" Language="th_TH">
 			<Text>{1_Value}: โบนัสความยากสำหรับกำแพงฟรีในเมือง</Text>		<!-- {1_Value}: Difficulty bonus free Walls in Towns -->
 		</Replace>
 		<Replace Tag="LOC_GAMESPEED_QUICK_DESCRIPTION" Language="th_TH">
-			<Text>A brisk game pace for rapid play sessions. 33% faster.</Text>		<!-- A brisk game pace for rapid play sessions. 33% faster. -->
+			<Text>จังหวะเกมไว เหมาะสำหรับการเล่นแบบรวดเร็ว เร็วขึ้น 33%</Text>		<!-- A brisk game pace for rapid play sessions. 33% faster. -->
 		</Replace>
 		<Replace Tag="LOC_GAMESEED_NAME" Language="th_TH">
 			<Text>เกมตัวสุ่ม</Text>		<!-- Game Random Seed -->
 		</Replace>
 		<Replace Tag="LOC_GAMESPEED_STANDARD_DESCRIPTION" Language="th_TH">
-			<Text>Balanced speed suitable for most players.</Text>		<!-- Balanced speed suitable for most players. -->
+			<Text>ความเร็วสมดุล เหมาะกับผู้เล่นส่วนใหญ่</Text>		<!-- Balanced speed suitable for most players. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTOS_ENABLED_NAME" Language="th_TH">
 			<Text>ของที่ระลึก</Text>		<!-- Mementos -->
 		</Replace>
 		<Replace Tag="LOC_GAMESPEED_EPIC_DESCRIPTION" Language="th_TH">
-			<Text>A slower, more deliberate pace for strategic depth. 50% slower.</Text>		<!-- A slower, more deliberate pace for strategic depth. 50% slower. -->
+			<Text>จังหวะช้าลงเพื่อความลึกทางกลยุทธ์ ช้าลง 50%</Text>		<!-- A slower, more deliberate pace for strategic depth. 50% slower. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTOS_ENABLED_DESC" Language="th_TH">
 			<Text>เปิดใช้งาน ของที่ระลึก</Text>		<!-- Enable Mementos -->
 		</Replace>
 		<Replace Tag="LOC_GAMESPEED_MARATHON_DESCRIPTION" Language="th_TH">
-			<Text>An extended game pace for long, immersive sessions. 200% slower.</Text>		<!-- An extended game pace for long, immersive sessions. 200% slower. -->
+			<Text>เกมยาวต่อเนื่อง สำหรับประสบการณ์ที่ดื่มด่ำ ช้าลง 200%</Text>		<!-- An extended game pace for long, immersive sessions. 200% slower. -->
 		</Replace>
 		<Replace Tag="LOC_GAME_SPEED" Language="th_TH">
 			<Text>ความเร็ว</Text>		<!-- Game Speed -->
@@ -5860,37 +5860,37 @@
 			<Text>ออนไลน์</Text>		<!-- Online -->
 		</Replace>
 		<Replace Tag="LOC_MAP_ARCHIPELAGO_DESCRIPTION" Language="th_TH">
-			<Text>A series of islands providing varied terrain and water challenges.</Text>		<!-- A series of islands providing varied terrain and water challenges. -->
+			<Text>หมู่เกาะที่มีภูมิประเทศหลากหลายและความท้าทายทางน้ำ</Text>		<!-- A series of islands providing varied terrain and water challenges. -->
 		</Replace>
 		<Replace Tag="LOC_GAMESPEED_QUICK_NAME" Language="th_TH">
 			<Text>รวดเร็ว</Text>		<!-- Quick -->
 		</Replace>
 		<Replace Tag="LOC_MAP_CONTINENTS_DESCRIPTION" Language="th_TH">
-			<Text>Large continuous landmasses offering balanced gameplay.</Text>		<!-- Large continuous landmasses offering balanced gameplay. -->
+			<Text>แผ่นดินขนาดใหญ่ต่อเนื่อง มอบการเล่นที่สมดุล</Text>		<!-- Large continuous landmasses offering balanced gameplay. -->
 		</Replace>
 		<Replace Tag="LOC_GAMESPEED_STANDARD_NAME" Language="th_TH">
 			<Text>มาตรฐาน</Text>		<!-- Standard -->
 		</Replace>
 		<Replace Tag="LOC_MAP_CONTINENTS_PLUS_DESCRIPTION" Language="th_TH">
-			<Text>An expanded version of Continents with additional islands.</Text>		<!-- An expanded version of Continents with additional islands. -->
+			<Text>เวอร์ชันขยายของทวีป มีเกาะเพิ่มเติม</Text>		<!-- An expanded version of Continents with additional islands. -->
 		</Replace>
 		<Replace Tag="LOC_GAMESPEED_EPIC_NAME" Language="th_TH">
 			<Text>มหากาพย์</Text>		<!-- Epic -->
 		</Replace>
 		<Replace Tag="LOC_MAP_FRACTAL_DESCRIPTION" Language="th_TH">
-			<Text>Unpredictable map that can result in many landmasses.</Text>		<!-- Unpredictable map that can result in many landmasses. -->
+			<Text>แผนที่ไม่แน่นอน อาจเกิดแผ่นดินหลากหลายรูปแบบ</Text>		<!-- Unpredictable map that can result in many landmasses. -->
 		</Replace>
 		<Replace Tag="LOC_GAMESPEED_MARATHON_NAME" Language="th_TH">
 			<Text>มาราธอน</Text>		<!-- Marathon -->
 		</Replace>
 		<Replace Tag="LOC_MAP_SHUFFLE_DESCRIPTION" Language="th_TH">
-			<Text>What secrets will this map reveal?</Text>		<!-- What secrets will this map reveal? -->
+			<Text>แผนที่นี้จะเปิดเผยความลับใดบ้างนะ?</Text>		<!-- What secrets will this map reveal? -->
 		</Replace>
 		<Replace Tag="LOC_MAP_SCRIPT" Language="th_TH">
 			<Text>ประเภทแผนที่</Text>		<!-- Map Type -->
 		</Replace>
 		<Replace Tag="LOC_MAP_TERRA_INCOGNITA_DESCRIPTION" Language="th_TH">
-			<Text>A classic homeland map with unpredictable distant lands.</Text>		<!-- A classic homeland map with unpredictable distant lands. -->
+			<Text>แผนที่บ้านเกิดแบบคลาสสิก พร้อมดินแดนไกลลึกลับ</Text>		<!-- A classic homeland map with unpredictable distant lands. -->
 		</Replace>
 		<Replace Tag="LOC_MAP_DESCRIPTION" Language="th_TH">
 			<Text>เลือกประเภทของแผนที่สำหรับเกม</Text>		<!-- Select the type of Map for the game -->
@@ -5905,31 +5905,31 @@
 			<Text>ทวีป+</Text>		<!-- Continents Plus -->
 		</Replace>
 		<Replace Tag="LOC_MAPSIZE_TINY_DESCRIPTION" Language="th_TH">
-			<Text>A compact map ideal for quick, close-quarters gameplay.</Text>		<!-- A compact map ideal for quick, close-quarters gameplay. -->
+			<Text>แผนที่ขนาดเล็ก เหมาะสำหรับการเล่นเร็วและปะทะระยะประชิด</Text>		<!-- A compact map ideal for quick, close-quarters gameplay. -->
 		</Replace>
 		<Replace Tag="LOC_MAP_FRACTAL_NAME" Language="th_TH">
 			<Text>แฟรกทัล</Text>		<!-- Fractal -->
 		</Replace>
 		<Replace Tag="LOC_MAPSIZE_SMALL_DESCRIPTION" Language="th_TH">
-			<Text>A small map that offers fast encounters.</Text>		<!-- A small map that offers fast encounters. -->
+			<Text>แผนที่ขนาดเล็ก ที่ให้การปะทะที่รวดเร็ว</Text>		<!-- A small map that offers fast encounters. -->
 		</Replace>
 		<Replace Tag="LOC_MAP_SHUFFLE_NAME" Language="th_TH">
 			<Text>สุ่ม</Text>		<!-- Shuffle -->
 		</Replace>
 		<Replace Tag="LOC_MAPSIZE_STANDARD_DESCRIPTION" Language="th_TH">
-			<Text>A balanced size for moderate expansion and conflict.</Text>		<!-- A balanced size for moderate expansion and conflict. -->
+			<Text>ขนาดสมดุล สำหรับการขยายและการปะทะในระดับกลาง</Text>		<!-- A balanced size for moderate expansion and conflict. -->
 		</Replace>
 		<Replace Tag="LOC_MAP_TERRA_INCOGNITA_NAME" Language="th_TH">
 			<Text>ลึกลับ</Text>		<!-- Terra Incognita -->
 		</Replace>
 		<Replace Tag="LOC_MAPSIZE_LARGE_DESCRIPTION" Language="th_TH">
-			<Text>A spacious map designed for extensive exploration and strategy.</Text>		<!-- A spacious map designed for extensive exploration and strategy. -->
+			<Text>แผนที่กว้างขวาง สำหรับการสำรวจและกลยุทธ์ที่ลึกซึ้ง</Text>		<!-- A spacious map designed for extensive exploration and strategy. -->
 		</Replace>
 		<Replace Tag="LOC_MAPSEED_NAME" Language="th_TH">
 			<Text>สุ่มค่าแผนที่</Text>		<!-- Map Random Seed -->
 		</Replace>
 		<Replace Tag="LOC_MAPSIZE_HUGE_DESCRIPTION" Language="th_TH">
-			<Text>An enormous map for epic, long-duration battles.</Text>		<!-- An enormous map for epic, long-duration battles. -->
+			<Text>แผนที่ขนาดมหึมา สำหรับศึกยาวนานสุดยิ่งใหญ่</Text>		<!-- An enormous map for epic, long-duration battles. -->
 		</Replace>
 		<Replace Tag="LOC_MAP_SIZE" Language="th_TH">
 			<Text>ขนาดแผนที่</Text>		<!-- Map Size -->
@@ -6941,7 +6941,7 @@
 			<Text>เป็นเกียรติอย่างยิ่งที่ได้พบคุณ</Text>		<!-- It is an honor to meet you. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_DEFEAT_NOTIFICATION_MESSAGE_INITIAL" Language="th_TH">
-			<Text>Leader Defeated</Text>		<!-- Leader Defeated -->
+			<Text>ผู้นำพ่ายแพ้แล้ว</Text>		<!-- Leader Defeated -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_RECIPIENT_CHOICE_ACKNOWLEDGE" Language="th_TH">
 			<Text>เป็นเกียรติอย่างยิ่งที่ได้พบคุณ</Text>		<!-- It is an honor to meet you. -->
@@ -7766,7 +7766,7 @@
 			<Text>ชัยชนะแบบเดียวกัน</Text>		<!-- Same Victories -->
 		</Replace>
 		<Replace Tag="LOC_HISTORICAL_EVENT_TEAM" Language="th_TH">
-			<Text>Team Member</Text>		<!-- Team Member -->
+			<Text>สมาชิกทีม</Text>		<!-- Team Member -->
 		</Replace>
 		<Replace Tag="LOC_HISTORICAL_EVENT_SHARE_GOVERNMENT" Language="th_TH">
 			<Text>รัฐบาลที่เหมือนกัน</Text>		<!-- Shared Government -->
@@ -8318,7 +8318,7 @@
 			<Text>ผู้เข้ามาตั้งถิ่นฐานฟรี ในถิ่นฐานที่ใกล้ที่สุด</Text>		<!-- Free Migrant in nearest Settlement -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_FAILURE_PERMANENT_ALLIANCE" Language="th_TH">
-			<Text>You cannot end an Alliance with a Team Member.</Text>		<!-- You cannot end an Alliance with a Team Member. -->
+			<Text>คุณไม่สามารถยุติพันธมิตรกับสมาชิกทีมได้</Text>		<!-- You cannot end an Alliance with a Team Member. -->
 		</Replace>
 		<Replace Tag="LOC_GOODYHUT_SURVIVORS_GRANT_COMMANDER_DESCRIPTION" Language="th_TH">
 			<Text>ผู้บัญชาการกองทัพฟรี ในถิ่นฐานที่ใกล้ที่สุด</Text>		<!-- Free Army Commander in nearest Settlement -->
@@ -8372,7 +8372,7 @@
 			<Text>อารยธรรมที่มีอุดมการณ์ร่วมกันไม่สามารถทำสงครามกับกันและกันได้</Text>		<!-- Civilizations with shared Ideologies cannot go to war with each other. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_FAILURE_LEADER_DEFEATED" Language="th_TH">
-			<Text>Leader has been defeated.</Text>		<!-- Leader has been defeated. -->
+			<Text>ผู้นำถูกโค่นล้มแล้ว</Text>		<!-- Leader has been defeated. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_FAILURE_ADDING_TOO_MANY_ENVOYS" Language="th_TH">
 			<Text>พยายามเริ่มต้นการดำเนินการทางการทูตกับผู้แทนมากเกินไป</Text>		<!-- Trying to start a Diplomatic Action with too many envoys. -->
@@ -8453,7 +8453,7 @@
 			<Text>คุณไม่สามารถเริ่มการดำเนินการทางการทูตนี้ได้เนื่องจากคุณอยู่ในความร่วมมือ</Text>		<!-- You cannot start this Diplomatic Action due to being in an Alliance. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_FAILURE_TEAM_ESPIONAGE" Language="th_TH">
-			<Text>You cannot spy on a teammate.</Text>		<!-- You cannot spy on a teammate. -->
+			<Text>คุณไม่สามารถสอดแนมสมาชิกทีมได้</Text>		<!-- You cannot spy on a teammate. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_FAILURE_WAR" Language="th_TH">
 			<Text>คุณไม่สามารถเริ่มดำเนินการทางการทูตนี้ได้เนื่องจากอยู่ในภาวะสงคราม</Text>		<!-- You cannot start this Diplomatic Action due to being at war. -->
@@ -8834,7 +8834,7 @@
 			<Text>แสดงเมือง</Text>		<!-- Show City -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_SUZERAIN_TEAM" Language="th_TH">
-			<Text>A teammate is the Suzerain of this City-State</Text>		<!-- A teammate is the Suzerain of this City-State -->
+			<Text>สมาชิกทีมของคุณเป็นผู้ครองนครรัฐนี้</Text>		<!-- A teammate is the Suzerain of this City-State -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ALLY_WAR_BOTH_ALLIES" Language="th_TH">
 			<Text>พันธมิตรของคุณ {1_leaderName} ได้ประกาศสงครามต่อพันธมิตรอีกคนของคุณ {2_otherLeaderName} คุณต้องเลือกข้างในสงครามนี้หรือทำให้ทั้งสองพันธมิตรสิ้นสุดลง</Text>		<!-- Your ally {1_leaderName} has declared war on your other ally {2_otherLeaderName}. You must choose a side in this war or end both Alliances. -->
@@ -8987,7 +8987,7 @@
 			<Text>ค้นหาเทคโนโลยีจากเป้าหมายที่คุณยังไม่ได้ทำการวิจัย หากอารยธรรมดังกล่าวไม่มีเทคโนโลยีที่มีสิทธิ์ ให้รับ [icon:YIELD_SCIENCE] วิทยาศาสตร์ แทน</Text>		<!-- Gain a Technology from the target that you have not researched. If the Civilization has no eligible Technologies, gain[icon:YIELD_SCIENCE] Science instead. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ESPIONAGE_PENALTY" Language="th_TH">
-			<Text>Penalty if Revealed: {1_penalty}[icon:YIELD_DIPLOMACY] Influence per turn for {2_turns} turns</Text>		<!-- Penalty if Revealed: {1_penalty}[icon:YIELD_DIPLOMACY] Influence per turn for {2_turns} turns -->
+			<Text>บทลงโทษหากถูกจับได้: {1_penalty}[icon:YIELD_DIPLOMACY] คะแนนอิทธิพลต่อเทิร์น เป็นเวลา {2_turns} เทิร์น</Text>		<!-- Penalty if Revealed: {1_penalty}[icon:YIELD_DIPLOMACY] Influence per turn for {2_turns} turns -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ESPIONAGE_STEAL_CIVIC_NAME" Language="th_TH">
 			<Text>ขโมยความลับของรัฐบาล</Text>		<!-- Steal Government Secrets -->
@@ -9224,13 +9224,13 @@
 			<Text>เมืองมี {1_wondercount} แห่งสิ่งมหัศจรรย์ของโลก</Text>		<!-- City has {1_wondercount}x World Wonders -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PICK_ALLIANCE_BODY_1" Language="th_TH">
-			<Text>Forming an alliance with {1_selectedPlayer}, will put you at war with others.</Text>		<!-- Forming an alliance with {1_selectedPlayer}, will put you at war with others. -->
+			<Text>การเป็นพันธมิตรกับ {1_selectedPlayer} จะทำให้คุณเข้าสู่สงครามกับฝ่ายอื่น</Text>		<!-- Forming an alliance with {1_selectedPlayer}, will put you at war with others. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PICK_ALLIANCE_BODY_2" Language="th_TH">
-			<Text>Bonus War Support is impacted by relationship, razing settlements and other factors.</Text>		<!-- Bonus War Support is impacted by relationship, razing settlements and other factors. -->
+			<Text>แรงสนับสนุนสงครามพิเศษได้รับผลจากความสัมพันธ์ การเผาเมือง และปัจจัยอื่นๆ</Text>		<!-- Bonus War Support is impacted by relationship, razing settlements and other factors. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_FORM_ALLIANCE_TOOL_TIP" Language="th_TH">
-			<Text>Forming an Alliance will put you at war with others.[N][B]{1_leaders}[/B]</Text>		<!-- Forming an Alliance will put you at war with others.[N][B]{1_leaders}[/B] -->
+			<Text>การสร้างพันธมิตรจะทำให้คุณเข้าสู่สงครามกับฝ่ายอื่น[N][B]{1_leaders}[/B]</Text>		<!-- Forming an Alliance will put you at war with others.[N][B]{1_leaders}[/B] -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PEACE_DEAL_CITY_OCCUPIED" Language="th_TH">
 			<Text>ถูกยึดครอง</Text>		<!-- Occupied -->
@@ -20861,7 +20861,7 @@
 			<Text>{1_value} เทิร์น</Text>		<!-- {1_value} Turns -->
 		</Replace>
 		<Replace Tag="LOC_REWARD_CELEBRATION" Language="th_TH">
-			<Text>Enter a Celebration</Text>		<!-- Enter a Celebration -->
+			<Text>เข้าสู่ช่วงเฉลิมฉลอง</Text>		<!-- Enter a Celebration -->
 		</Replace>
 		<Replace Tag="LOC_NARRATIVE_TURN_TIMER_UNKNOWN" Language="th_TH">
 			<Text>ไม่ทราบการเลี้ยว</Text>		<!-- unknown Turns -->
@@ -21053,7 +21053,7 @@
 			<Text>ยูนิตถูกฆ่า</Text>		<!-- Unit Killed -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_UNIT_ATTACKED_BY_IP_SUMMARY" Language="th_TH">
-			<Text>Your {1_UnitType} was attacked by {2_CivName}.</Text>		<!-- Your {1_UnitType} was attacked by {2_CivName}. -->
+			<Text>หน่วย {1_UnitType} ของคุณถูกโจมตีโดย {2_CivName}</Text>		<!-- Your {1_UnitType} was attacked by {2_CivName}. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_COMMAND_UNITS_MESSAGE" Language="th_TH">
 			<Text>สั่งการยูนิต</Text>		<!-- Command Units -->
@@ -21062,7 +21062,7 @@
 			<Text>ย้ายยูนิตหรือสั่งให้ดำเนินการบางอย่าง</Text>		<!-- Move a Unit or have it perform an operation. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DISTRICT_ATTACKED_BY_IP_SUMMARY" Language="th_TH">
-			<Text>{1_CityName} was attacked by {2_CivName}.</Text>		<!-- {1_CityName} was attacked by {2_CivName}. -->
+			<Text>{1_CityName} ถูกโจมตีโดย {2_CivName}</Text>		<!-- {1_CityName} was attacked by {2_CivName}. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_UNIT_PROMOTION_AVAILABLE_MESSAGE" Language="th_TH">
 			<Text>ผู้บัญชาการมีคะแนนเลื่อนขั้นที่ใช้ได้</Text>		<!-- Commander has available Promotion Points -->
@@ -21161,7 +21161,7 @@
 			<Text>การดำเนินการทางการทูตเสร็จสิ้นแล้ว</Text>		<!-- Diplomatic Action Completed -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ACTION_CANCELED_OWNER_SUMMARY_TARGET" Language="th_TH">
-			<Text>Your {1_ProjectName} Diplomatic Action with {2_LeaderName} has been canceled.</Text>		<!-- Your {1_ProjectName} Diplomatic Action with {2_LeaderName} has been canceled. -->
+			<Text>การทูต {1_ProjectName} ของคุณกับ {2_LeaderName} ถูกยกเลิกแล้ว</Text>		<!-- Your {1_ProjectName} Diplomatic Action with {2_LeaderName} has been canceled. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ACTION_COMPLETE_TARGET_SUMMARY_INITIAL" Language="th_TH">
 			<Text>การดำเนินการทางการทูต {1_ProjectName} จาก {2_LeaderName} ที่กำหนดเป้าหมายคุณเสร็จสมบูรณ์แล้ว</Text>		<!-- The {1_ProjectName} Diplomatic Action from {2_LeaderName} targeting you has completed. -->
@@ -21884,10 +21884,10 @@
 			<Text>งานที่ยอดเยี่ยมถูกสร้างขึ้น</Text>		<!-- Great Work Created -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_AGE_EXTENDED_MESSAGE" Language="th_TH">
-			<Text>Just One More Turn</Text>		<!-- Just One More Turn -->
+			<Text>ขออีกแค่เทิร์นเดียว</Text>		<!-- Just One More Turn -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_AGE_EXTENDED_SUMMARY" Language="th_TH">
-			<Text>While in [B]Just One More Turn[/B] mode, you may play for as many turns as you'd like.  To leave [B]Just One More Turn[/B] mode, select [B]No More Turns[/B] from the Pause menu.</Text>		<!-- While in [B]Just One More Turn[/B] mode, you may play for as many turns as you'd like.  To leave [B]Just One More Turn[/B] mode, select [B]No More Turns[/B] from the Pause menu. -->
+			<Text>ในโหมด [B]ขออีกแค่เทิร์นเดียว[/B] คุณสามารถเล่นได้ไม่จำกัดเทิร์น หากต้องการออกจากโหมดนี้ ให้เลือก [B]ไม่มีเทิร์นอีกแล้ว[/B] ในเมนูหยุดเกม</Text>		<!-- While in [B]Just One More Turn[/B] mode, you may play for as many turns as you'd like.  To leave [B]Just One More Turn[/B] mode, select [B]No More Turns[/B] from the Pause menu. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_GREAT_WORK_CREATED_ARCHIVE_SUMMARY" Language="th_TH">
 			<Text>ผลงานชิ้นเอก "{1_Name}" ได้ถูกเพิ่มลงในคลังของคุณแล้ว</Text>		<!-- The Great Work {1_Name} has been added to your Archive. -->
@@ -22046,7 +22046,7 @@
 			<Text>ไม่มีการหมุนอีกต่อไป</Text>		<!-- No More Turns -->
 		</Replace>
 		<Replace Tag="LOC_PAUSE_MENU_CONFIRM_NOMORETURNS" Language="th_TH">
-			<Text>Are you sure you wish to end [B]Just One More Turn[/B]?</Text>		<!-- Are you sure you wish to end [B]Just One More Turn[/B]? -->
+			<Text>คุณแน่ใจหรือไม่ว่าต้องการจบโหมด [B]ขออีกแค่เทิร์นเดียว[/B]?</Text>		<!-- Are you sure you wish to end [B]Just One More Turn[/B]? -->
 		</Replace>
 		<Replace Tag="LOC_PAUSE_MENU_EVENT_RULES" Language="th_TH">
 			<Text>กติกาการแข่งขัน</Text>		<!-- Event Rules -->
@@ -22109,28 +22109,28 @@
 			<Text>แม่น้ำเล็ก</Text>		<!-- Minor -->
 		</Replace>
 		<Replace Tag="LOC_PLOT_TOOLTIP_UNIMPROVED" Language="th_TH">
-			<Text>Unimproved</Text>		<!-- Unimproved -->
+			<Text>ยังไม่ได้พัฒนา</Text>		<!-- Unimproved -->
 		</Replace>
 		<Replace Tag="LOC_PLOT_TOTAL_YIELDS" Language="th_TH">
-			<Text>Total Yields: {1_Yields}</Text>		<!-- Total Yields: {1_Yields} -->
+			<Text>ผลผลิตรวม: {1_Yields}</Text>		<!-- Total Yields: {1_Yields} -->
 		</Replace>
 		<Replace Tag="LOC_PLOT_TOOLTIP_URBAN_DISTRICT" Language="th_TH">
-			<Text>Urban District</Text>		<!-- Urban District -->
+			<Text>เขตเมือง</Text>		<!-- Urban District -->
 		</Replace>
 		<Replace Tag="LOC_PLOT_TOOLTIP_URBAN_QUARTER" Language="th_TH">
-			<Text>Urban Quarter</Text>		<!-- Urban Quarter -->
+			<Text>ย่านเมือง</Text>		<!-- Urban Quarter -->
 		</Replace>
 		<Replace Tag="LOC_PLOT_TOOLTIP_UNIQUE_QUARTER" Language="th_TH">
-			<Text>Unique Quarter</Text>		<!-- Unique Quarter -->
+			<Text>ย่านพิเศษ</Text>		<!-- Unique Quarter -->
 		</Replace>
 		<Replace Tag="LOC_PLOT_TOOLTIP_RURAL_DISTRICT" Language="th_TH">
-			<Text>Rural District</Text>		<!-- Rural District -->
+			<Text>เขตชนบท</Text>		<!-- Rural District -->
 		</Replace>
 		<Replace Tag="LOC_PLOT_TOOLTIP_OVERBUILDABLE" Language="th_TH">
-			<Text>Overbuildable</Text>		<!-- Overbuildable -->
+			<Text>สามารถสร้างทับได้</Text>		<!-- Overbuildable -->
 		</Replace>
 		<Replace Tag="LOC_PLOT_TOOLTIP_NATURAL_WONDER" Language="th_TH">
-			<Text>Natural Wonder</Text>		<!-- Natural Wonder -->
+			<Text>สิ่งมหัศจรรย์ทางธรรมชาติ</Text>		<!-- Natural Wonder -->
 		</Replace>
 		<Replace Tag="LOC_PLOT_TOOLTIP_THIS_AGE_BUILDINGS" Language="th_TH">
 			<Text>อาคาร: ยุคปัจจุบัน</Text>		<!-- Buildings: Current Age -->
@@ -22139,7 +22139,7 @@
 			<Text>อาคาร: ยุคก่อนหน้านี้</Text>		<!-- Buildings: Earlier Ages -->
 		</Replace>
 		<Replace Tag="LOC_PLOT_TOOLTIP_GROWTH_IMPROVEMENT" Language="th_TH">
-			<Text>Improve here to get:[N]{1_ConstructibleName}</Text>		<!-- Improve here to get:[N]{1_ConstructibleName} -->
+			<Text>พัฒนาที่นี่เพื่อรับ:[N]{1_ConstructibleName}</Text>		<!-- Improve here to get:[N]{1_ConstructibleName} -->
 		</Replace>
 		<Replace Tag="LOC_PLOT_TOOLTIP_DEBUG_TITLE" Language="th_TH">
 			<Text>ข้อมูลการแก้จุดบกพร่อง</Text>		<!-- Debug Info -->
@@ -22403,10 +22403,10 @@
 			<Text>ย่านพิเศษ</Text>		<!-- Unique Quarter -->
 		</Replace>
 		<Replace Tag="LOC_UI_JUST_COMPLETED" Language="th_TH">
-			<Text>Just Completed</Text>		<!-- Just Completed -->
+			<Text>เพิ่งเสร็จสิ้น</Text>		<!-- Just Completed -->
 		</Replace>
 		<Replace Tag="LOC_UI_PRODUCTION_REPAIR_ALL" Language="th_TH">
-			<Text>Repair: All</Text>		<!-- Repair: All -->
+			<Text>ซ่อมแซม: ทั้งหมด</Text>		<!-- Repair: All -->
 		</Replace>
 		<Replace Tag="LOC_UI_PRODUCTION_QUARTER_BUILDINGS_COMPLETED" Language="th_TH">
 			<Text>{1_Completed}/2 อาคารที่ สร้างเสร็จ</Text>		<!-- {1_Completed}/2 Buildings Completed -->
@@ -22784,34 +22784,34 @@
 			<Text>กาแฟ</Text>		<!-- Coffee -->
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_MANGOS_NAME" Language="th_TH">
-			<Text>Mangoes</Text>		<!-- Mangoes -->
+			<Text>มะม่วง</Text>		<!-- Mangoes -->
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_CLAY_NAME" Language="th_TH">
-			<Text>Clay</Text>		<!-- Clay -->
+			<Text>ดินเหนียว</Text>		<!-- Clay -->
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_FLAX_NAME" Language="th_TH">
-			<Text>Flax</Text>		<!-- Flax -->
+			<Text>ปอป่าน</Text>		<!-- Flax -->
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_RUBIES_NAME" Language="th_TH">
-			<Text>Rubies</Text>		<!-- Rubies -->
+			<Text>ทับทิม</Text>		<!-- Rubies -->
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_RICE_NAME" Language="th_TH">
-			<Text>Rice</Text>		<!-- Rice -->
+			<Text>ข้าว</Text>		<!-- Rice -->
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_LIMESTONE_NAME" Language="th_TH">
-			<Text>Limestone</Text>		<!-- Limestone -->
+			<Text>หินปูน</Text>		<!-- Limestone -->
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_TIN_NAME" Language="th_TH">
-			<Text>Tin</Text>		<!-- Tin -->
+			<Text>ดีบุก</Text>		<!-- Tin -->
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_LLAMAS_NAME" Language="th_TH">
-			<Text>Llamas</Text>		<!-- Llamas -->
+			<Text>ลามะ</Text>		<!-- Llamas -->
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_HARDWOOD_NAME" Language="th_TH">
-			<Text>Hardwood</Text>		<!-- Hardwood -->
+			<Text>ไม้เนื้อแข็ง</Text>		<!-- Hardwood -->
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_WILD_GAME_NAME" Language="th_TH">
-			<Text>Wild Game</Text>		<!-- Wild Game -->
+			<Text>สัตว์ป่า</Text>		<!-- Wild Game -->
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_CITRUS_NAME" Language="th_TH">
 			<Text>ส้ม</Text>		<!-- Citrus -->
@@ -23129,7 +23129,7 @@
 			<Text>คุณสมบัติที่เป็นประโยชน์ใกล้เคียง</Text>		<!-- Beneficial features nearby -->
 		</Replace>
 		<Replace Tag="LOC_MAIN_MENU_CONTINUE_INFO" Language="th_TH">
-			<Text>[B]{1_GameName}[/B][N]{2_LeaderName} of {3_CivilizationName}[N]Turn {4_Turn} of the {5_Age} Age[N]Saved at {6_SaveTimeDate}</Text>		<!-- [B]{1_GameName}[/B][N]{2_LeaderName} of {3_CivilizationName}[N]Turn {4_Turn} of the {5_Age} Age[N]Saved at {6_SaveTimeDate} -->
+			<Text>[B]{1_GameName}[/B][N]{2_LeaderName} แห่ง {3_CivilizationName}[N]เทิร์นที่ {4_Turn} ยุค {5_Age}[N]บันทึกเมื่อ {6_SaveTimeDate}</Text>		<!-- [B]{1_GameName}[/B][N]{2_LeaderName} of {3_CivilizationName}[N]Turn {4_Turn} of the {5_Age} Age[N]Saved at {6_SaveTimeDate} -->
 		</Replace>
 		<Replace Tag="LOC_SETTLEMENT_RECOMMENDATION_GOOD_FOREIGN_CONTINENT" Language="th_TH">
 			<Text>ความต้องการตั้งถิ่นฐานในทวีปใหม่</Text>		<!-- Desire settling a new continent -->
@@ -23541,7 +23541,7 @@
 			<Text>ซื้อแล้ว</Text>		<!-- Purchased -->
 		</Replace>
 		<Replace Tag="LOC_TEAMS_TOO_MANY_PLAYERS" Language="th_TH">
-			<Text>There are too many players on one team</Text>		<!-- There are too many players on one team -->
+			<Text>มีผู้เล่นมากเกินไปในทีมเดียว</Text>		<!-- There are too many players on one team -->
 		</Replace>
 		<Replace Tag="LOC_UI_STORE_BUY" Language="th_TH">
 			<Text>ซื้อ</Text>		<!-- Buy -->
@@ -24003,7 +24003,7 @@
 			<Text>นโยบายสังคมของคุณ</Text>		<!-- Your Social Policies -->
 		</Replace>
 		<Replace Tag="LOC_UI_POLICIES_CRISIS_ENDS" Language="th_TH">
-			<Text>The Age Ends</Text>		<!-- The Age Ends -->
+			<Text>จบยุคแล้ว</Text>		<!-- The Age Ends -->
 		</Replace>
 		<Replace Tag="LOC_UI_POLICIES_YOUR_CRISIS_POLICIES" Language="th_TH">
 			<Text>นโยบายการจัดการวิกฤตของคุณ</Text>		<!-- Your Crisis Policies -->
@@ -24015,28 +24015,28 @@
 			<Text>คุณต้องเลือกนโยบาย การจัดการวิกฤต</Text>		<!-- You must select a Crisis Policy -->
 		</Replace>
 		<Replace Tag="LOC_UI_POLICIES_TURNS_UNTIL_CRISIS_BEGINS" Language="th_TH">
-			<Text>{1_Turns} turns until the Crisis [STYLE:text-accent-1]Begins[/S]</Text>		<!-- {1_Turns} turns until the Crisis [STYLE:text-accent-1]Begins[/S] -->
+			<Text>อีก {1_Turns} เทิร์น วิกฤติจะ[STYLE:text-accent-1]เริ่มต้น[/S]</Text>		<!-- {1_Turns} turns until the Crisis [STYLE:text-accent-1]Begins[/S] -->
 		</Replace>
 		<Replace Tag="LOC_UI_POLICIES_TURNS_UNTIL_CRISIS_BEGINS_RANGE" Language="th_TH">
-			<Text>{1_TurnsMin} - {2_TurnsMax} turns until the Crisis [STYLE:text-accent-1]Begins[/S]</Text>		<!-- {1_TurnsMin} - {2_TurnsMax} turns until the Crisis [STYLE:text-accent-1]Begins[/S] -->
+			<Text>อีก {1_TurnsMin} - {2_TurnsMax} เทิร์น วิกฤติจะ[STYLE:text-accent-1]เริ่มต้น[/S]</Text>		<!-- {1_TurnsMin} - {2_TurnsMax} turns until the Crisis [STYLE:text-accent-1]Begins[/S] -->
 		</Replace>
 		<Replace Tag="LOC_UI_POLICIES_TURNS_UNTIL_CRISIS_INTENSIFIES" Language="th_TH">
-			<Text>{1_Turns} turns until the Crisis [STYLE:text-accent-1]Intensifies[/S]</Text>		<!-- {1_Turns} turns until the Crisis [STYLE:text-accent-1]Intensifies[/S] -->
+			<Text>อีก {1_Turns} เทิร์น วิกฤติจะ[STYLE:text-accent-1]รุนแรงขึ้น[/S]</Text>		<!-- {1_Turns} turns until the Crisis [STYLE:text-accent-1]Intensifies[/S] -->
 		</Replace>
 		<Replace Tag="LOC_UI_POLICIES_TURNS_UNTIL_CRISIS_INTENSIFIES_RANGE" Language="th_TH">
-			<Text>{1_TurnsMin} - {2_TurnsMax} turns until the Crisis [STYLE:text-accent-1]Intensifies[/S]</Text>		<!-- {1_TurnsMin} - {2_TurnsMax} turns until the Crisis [STYLE:text-accent-1]Intensifies[/S] -->
+			<Text>อีก {1_TurnsMin} - {2_TurnsMax} เทิร์น วิกฤติจะ[STYLE:text-accent-1]รุนแรงขึ้น[/S]</Text>		<!-- {1_TurnsMin} - {2_TurnsMax} turns until the Crisis [STYLE:text-accent-1]Intensifies[/S] -->
 		</Replace>
 		<Replace Tag="LOC_UI_POLICIES_TURNS_UNTIL_CRISIS_CULMINATES" Language="th_TH">
-			<Text>{1_Turns} turns until the Crisis [STYLE:text-accent-1]Culminates[/S]</Text>		<!-- {1_Turns} turns until the Crisis [STYLE:text-accent-1]Culminates[/S] -->
+			<Text>อีก {1_Turns} เทิร์น วิกฤติจะ[STYLE:text-accent-1]ถึงจุดสูงสุด[/S]</Text>		<!-- {1_Turns} turns until the Crisis [STYLE:text-accent-1]Culminates[/S] -->
 		</Replace>
 		<Replace Tag="LOC_UI_POLICIES_TURNS_UNTIL_CRISIS_CULMINATES_RANGE" Language="th_TH">
-			<Text>{1_TurnsMin} - {2_TurnsMax} turns until the Crisis [STYLE:text-accent-1]Culminates[/S]</Text>		<!-- {1_TurnsMin} - {2_TurnsMax} turns until the Crisis [STYLE:text-accent-1]Culminates[/S] -->
+			<Text>อีก {1_TurnsMin} - {2_TurnsMax} เทิร์น วิกฤติจะ[STYLE:text-accent-1]ถึงจุดสูงสุด[/S]</Text>		<!-- {1_TurnsMin} - {2_TurnsMax} turns until the Crisis [STYLE:text-accent-1]Culminates[/S] -->
 		</Replace>
 		<Replace Tag="LOC_UI_POLICIES_TURNS_UNTIL_CRISIS_ENDS" Language="th_TH">
-			<Text>{1_Turns} turns until the Age [STYLE:text-accent-1]Ends[/S]</Text>		<!-- {1_Turns} turns until the Age [STYLE:text-accent-1]Ends[/S] -->
+			<Text>อีก {1_Turns} เทิร์น ยุคจะ[STYLE:text-accent-1]สิ้นสุด[/S]</Text>		<!-- {1_Turns} turns until the Age [STYLE:text-accent-1]Ends[/S] -->
 		</Replace>
 		<Replace Tag="LOC_UI_POLICIES_TURNS_UNTIL_CRISIS_ENDS_RANGE" Language="th_TH">
-			<Text>{1_TurnsMin} - {2_TurnsMax} turns until the Age [STYLE:text-accent-1]Ends[/S]</Text>		<!-- {1_TurnsMin} - {2_TurnsMax} turns until the Age [STYLE:text-accent-1]Ends[/S] -->
+			<Text>อีก {1_TurnsMin} - {2_TurnsMax} เทิร์น ยุคจะ[STYLE:text-accent-1]สิ้นสุด[/S]</Text>		<!-- {1_TurnsMin} - {2_TurnsMax} turns until the Age [STYLE:text-accent-1]Ends[/S] -->
 		</Replace>
 		<Replace Tag="LOC_UI_POLICIES_CRISIS_AGE_BEGINS" Language="th_TH">
 			<Text>เริ่มต้นยุค</Text>		<!-- The Age Begins -->
@@ -24324,10 +24324,10 @@
 			<Text>ดูผลงานชิ้นเอก</Text>		<!-- View Great Works -->
 		</Replace>
 		<Replace Tag="LOC_UI_TREE_WONDER_BUILT_BY_YOU" Language="th_TH">
-			<Text>ALREADY BUILT</Text>		<!-- ALREADY BUILT -->
+			<Text>สร้างแล้ว</Text>		<!-- ALREADY BUILT -->
 		</Replace>
 		<Replace Tag="LOC_UI_TREE_WONDER_BUILT_BY_OTHER" Language="th_TH">
-			<Text>ALREADY BUILT BY ANOTHER PLAYER</Text>		<!-- ALREADY BUILT BY ANOTHER PLAYER -->
+			<Text>ผู้เล่นอื่นสร้างแล้ว</Text>		<!-- ALREADY BUILT BY ANOTHER PLAYER -->
 		</Replace>
 		<Replace Tag="LOC_UI_VIEW_RELIGION" Language="th_TH">
 			<Text>ดูศาสนา</Text>		<!-- View Religion -->
@@ -25242,7 +25242,7 @@
 			<Text>วาง {1_Building} ตรงนี้เพื่อทำให้ {2_Quarter} สมบูรณ์</Text>		<!-- Place the {1_Building} here to complete the {2_Quarter} -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_BANNER_POPULATION_INFO" Language="th_TH">
-			<Text>Urban Population: {1_Urban}[n]Rural Population: {2_Rural}[n]Specialists: {3_Specialists}</Text>		<!-- Urban Population: {1_Urban}[n]Rural Population: {2_Rural}[n]Specialists: {3_Specialists} -->
+			<Text>ประชากรในเมือง: {1_Urban}[n]ประชากรนอกเมือง: {2_Rural}[n]ผู้เชี่ยวชาญ: {3_Specialists}</Text>		<!-- Urban Population: {1_Urban}[n]Rural Population: {2_Rural}[n]Specialists: {3_Specialists} -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_VIEW_ADJACENCY_BONUSES" Language="th_TH">
 			<Text>โบนัสความใกล้เคียง</Text>		<!-- Adjacency Bonuses -->
@@ -25653,10 +25653,10 @@
 			<Text>แสดง</Text>		<!-- Decorations -->
 		</Replace>
 		<Replace Tag="LOC_UI_CONTINENTS_HOMELANDS_RESOURCE_DESCRIPTION" Language="th_TH">
-			<Text>Homelands treasure resource</Text>		<!-- Homelands treasure resource -->
+			<Text>ทรัพยากรสมบัติจากดินแดนต้นกำเนิด</Text>		<!-- Homelands treasure resource -->
 		</Replace>
 		<Replace Tag="LOC_UI_CONTINENTS_DISTANT_LANDS_RESOURCE_DESCRIPTION" Language="th_TH">
-			<Text>Distant Lands treasure resource</Text>		<!-- Distant Lands treasure resource -->
+			<Text>ทรัพยากรสมบัติจากแดนไกล</Text>		<!-- Distant Lands treasure resource -->
 		</Replace>
 		<Replace Tag="LOC_UI_MINI_MAP_RELIGION" Language="th_TH">
 			<Text>ศาสนา</Text>		<!-- Religion -->
@@ -26130,16 +26130,16 @@
 			<Text>เวลาเฟรม (มิลลิวินาที):</Text>		<!-- Frame Time(ms): -->
 		</Replace>
 		<Replace Tag="LOC_UI_METAPROGRESSION_REQUIRED_LEVEL" Language="th_TH">
-			<Text>To Unlock: Reach Level {2_level} with [icon:{1_leader_icon}]</Text>		<!-- To Unlock: Reach Level {2_level} with [icon:{1_leader_icon}] -->
+			<Text>ปลดล็อกเมื่อเลเวล {2_level} กับผู้นำ [icon:{1_leader_icon}]</Text>		<!-- To Unlock: Reach Level {2_level} with [icon:{1_leader_icon}] -->
 		</Replace>
 		<Replace Tag="LOC_UI_METAPROGRESSION_REQUIRED_LEVEL_DEFAULT" Language="th_TH">
-			<Text>Unlocked when [icon:{1_leader_icon}] reaches required Level</Text>		<!-- Unlocked when [icon:{1_leader_icon}] reaches required Level -->
+			<Text>ปลดล็อกเมื่อ [icon:{1_leader_icon}] ถึงเลเวลที่กำหนด</Text>		<!-- Unlocked when [icon:{1_leader_icon}] reaches required Level -->
 		</Replace>
 		<Replace Tag="LOC_UI_METAPROGRESSION_REQUIRED_LEVEL_DEFAULT_BACKUP" Language="th_TH">
-			<Text>Unlocked by reaching required Level</Text>		<!-- Unlocked by reaching required Level -->
+			<Text>ปลดล็อกเมื่อถึงเลเวลที่กำหนด</Text>		<!-- Unlocked by reaching required Level -->
 		</Replace>
 		<Replace Tag="LOC_UI_TOOPTIP_TREASURE_HOMELANDS" Language="th_TH">
-			<Text>This Resource is in the Homelands.</Text>		<!-- This Resource is in the Homelands. -->
+			<Text>ทรัพยากรนี้อยู่ในดินแดนต้นกำเนิด</Text>		<!-- This Resource is in the Homelands. -->
 		</Replace>
 		<Replace Tag="LOC_UI_BENCHMARK_TURN_TIME" Language="th_TH">
 			<Text>เวลาเทิร์น:</Text>		<!-- Turn Time(s): -->
@@ -26304,10 +26304,10 @@
 			<Text>สั่งให้ยูนิตระยะไกลทั้งหมดภายในรัศมีบัญชาการ ระดมยิงไปยังเป้าหมายที่กำหนด ยูนิตทั้งหมดจะได้รับการเพิ่มพลังต่อสู้ +2 สำหรับการโจมตีนี้</Text>		<!-- Order all Ranged Units within Command Radius to fire on a specified target. All Units have +2 Combat Strength for this attack. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_UPGRADE_ARMY_NAME" Language="th_TH">
-			<Text>Upgrade All Units</Text>		<!-- Upgrade All Units -->
+			<Text>อัปเกรดยูนิตทั้งหมด</Text>		<!-- Upgrade All Units -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_UPGRADE_ARMY_DESCRIPTION" Language="th_TH">
-			<Text>Upgrade all eligible units in the army.</Text>		<!-- Upgrade all eligible units in the army. -->
+			<Text>อัปเกรดยูนิตที่มีสิทธิ์ทั้งหมดในกองทัพ</Text>		<!-- Upgrade all eligible units in the army. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_GRANT_SECOND_WIND_NAME" Language="th_TH">
 			<Text>ฟื้นฟูแต้มเคลื่อนที่</Text>		<!-- Grant Second Wind -->
@@ -26421,7 +26421,7 @@
 			<Text>รักษาผู้ป่วย</Text>		<!-- Treat the Sick -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_UPGRADE_ARMY_INFO" Language="th_TH">
-			<Text>Upgrade {1_Num} units: {2_Amount} [icon:YIELD_GOLD] Gold</Text>		<!-- Upgrade {1_Num} units: {2_Amount} [icon:YIELD_GOLD] Gold -->
+			<Text>อัปเกรด {1_Num} ยูนิต: {2_Amount} [icon:YIELD_GOLD] ทอง</Text>		<!-- Upgrade {1_Num} units: {2_Amount} [icon:YIELD_GOLD] Gold -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_TREAT_SICK_DESCRIPTION" Language="th_TH">
 			<Text>เปิดใช้งานในเขตเมืองที่ติดเชื้อเพื่อลดความไม่สงบในเขตนั้น</Text>		<!-- Activate in an Infected Urban District to remove Unrest from that Settlement. -->
@@ -26823,13 +26823,13 @@
 			<Text>ยูนิตภาคพื้นไม่สามารถฟื้นพลังชีวิตได้ขณะอยู่บนเรือหรือยานพาหนะในน้ำ</Text>		<!-- Land Units cannot heal while Embarked. -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_PILLAGE_DIPLOMACY_DESCRIPTION" Language="th_TH">
-			<Text>Damage the {1_ConstructibleName} and gain {2_DiplomacyAmount} Influence.</Text>		<!-- Damage the {1_ConstructibleName} and gain {2_DiplomacyAmount} Influence. -->
+			<Text>สร้างความเสียหายแก่ {1_ConstructibleName} และได้รับอิทธิพล {2_DiplomacyAmount}</Text>		<!-- Damage the {1_ConstructibleName} and gain {2_DiplomacyAmount} Influence. -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_PILLAGE_FOOD_TOWN_DESCRIPTION" Language="th_TH">
-			<Text>Damage the {1_ConstructibleName} and gain {2_FoodAmount} Food to all Towns.</Text>		<!-- Damage the {1_ConstructibleName} and gain {2_FoodAmount} Food to all Towns. -->
+			<Text>สร้างความเสียหายแก่ {1_ConstructibleName} และได้รับอาหาร {2_FoodAmount} ให้กับทุกเมืองเล็ก</Text>		<!-- Damage the {1_ConstructibleName} and gain {2_FoodAmount} Food to all Towns. -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_PILLAGE_PRODUCTION_CITY_DESCRIPTION" Language="th_TH">
-			<Text>Damage the {1_ConstructibleName} and gain {2_ProductionAmount} Production to all Cities.</Text>		<!-- Damage the {1_ConstructibleName} and gain {2_ProductionAmount} Production to all Cities. -->
+			<Text>สร้างความเสียหายแก่ {1_ConstructibleName} และได้รับการผลิต {2_ProductionAmount} ให้กับทุกเมือง</Text>		<!-- Damage the {1_ConstructibleName} and gain {2_ProductionAmount} Production to all Cities. -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_CANNOT_RESETTLE_OUTSIDE_OWNED_URBAN_PLOT" Language="th_TH">
 			<Text>จะต้องตั้งอยู่บนเขตที่เป็นเจ้าของ</Text>		<!-- Must be located on an owned District. -->
@@ -26838,10 +26838,10 @@
 			<Text>ยูนิตไม่สามารถเสียหายได้</Text>		<!-- Unit cannot be damaged. -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_CANNOT_CONVERT_RAZING_CITY" Language="th_TH">
-			<Text>Spread Religion cannot be used on Settlements that are being razed.</Text>		<!-- Spread Religion cannot be used on Settlements that are being razed. -->
+			<Text>ไม่สามารถเผยแผ่ศาสนาในนิคมที่กำลังถูกทำลายได้</Text>		<!-- Spread Religion cannot be used on Settlements that are being razed. -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_NO_AVAILABLE_RELIGION_ALREADY_FOLLOWING" Language="th_TH">
-			<Text>This location already follows this Missonary's Religion.</Text>		<!-- This location already follows this Missonary's Religion. -->
+			<Text>สถานที่นี้นับถือศาสนาของนักเผยแผ่ศาสนานี้อยู่แล้ว</Text>		<!-- This location already follows this Missonary's Religion. -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_REQUIRE_OWNED_PLOT" Language="th_TH">
 			<Text>สามารถใช้ได้เฉพาะในเขตแดนที่เป็นเจ้าของเท่านั้น</Text>		<!-- Can only be used inside owned territory. -->
@@ -26850,7 +26850,7 @@
 			<Text>สามารถใช้ได้ในเขตแดนที่เป็นของอารยธรรมอื่นเท่านั้น</Text>		<!-- Can only be used in another Civilization's owned territory. -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_NO_MOVEMENT_LEFT" Language="th_TH">
-			<Text>Unit has no movement left.</Text>		<!-- Unit has no movement left. -->
+			<Text>ยูนิตไม่มีการเคลื่อนไหวเหลืออยู่</Text>		<!-- Unit has no movement left. -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_PILLAGE_HEAL_DESCRIPTION" Language="th_TH">
 			<Text>สร้างความเสียหายแก่ {1_ConstructibleName} และฟื้นฟู {2_HealingAmount} HP</Text>		<!-- Damage the {1_ConstructibleName} and heal {2_HealingAmount} HP. -->
@@ -27021,7 +27021,7 @@
 			<Text>ภาวะผู้นำ</Text>		<!-- Leadership -->
 		</Replace>
 		<Replace Tag="LOC_DISCIPLINE_ARMY_TRUNG_NHI_NAME" Language="th_TH">
-			<Text>Trung Nhi</Text>		<!-- Trung Nhi -->
+			<Text>จึง นี</Text>		<!-- Trung Nhi -->
 		</Replace>
 		<Replace Tag="LOC_DISCIPLINE_UNIQUE_NAME" Language="th_TH">
 			<Text>ไม่ซ้ำใคร</Text>		<!-- Unique -->
@@ -27360,43 +27360,43 @@
 			<Text>+10 พลังต่อสู้ให้กับผู้บัญชาการนี้เมื่อทำการป้องกัน</Text>		<!-- +10 Combat Strength for this Commander when defending. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_JUNGLE_WARFARE_NAME" Language="th_TH">
-			<Text>Jungle Warfare</Text>		<!-- Jungle Warfare -->
+			<Text>สงครามป่า</Text>		<!-- Jungle Warfare -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_JUNGLE_WARFARE_DESCRIPTION" Language="th_TH">
-			<Text>+5 Combat Strength for Land Units in Tropical in the Command Radius, including this Commander.</Text>		<!-- +5 Combat Strength for Land Units in Tropical in the Command Radius, including this Commander. -->
+			<Text>+5 พลังโจมตีสำหรับยูนิตภาคพื้นดินในเขตร้อนภายในรัศมีคำสั่ง รวมถึงผู้บัญชาการนี้ด้วย</Text>		<!-- +5 Combat Strength for Land Units in Tropical in the Command Radius, including this Commander. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_METTLE_COURAGE_NAME" Language="th_TH">
-			<Text>Mettle and Courage</Text>		<!-- Mettle and Courage -->
+			<Text>กล้าหาญและมุ่งมั่น</Text>		<!-- Mettle and Courage -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_METTLE_COURAGE_DESCRIPTION" Language="th_TH">
-			<Text>+5 Combat Strength for Land Units in the Command Radius when in friendly territory, including this Commander.</Text>		<!-- +5 Combat Strength for Land Units in the Command Radius when in friendly territory, including this Commander. -->
+			<Text>+5 พลังโจมตีเมื่ออยู่ในอาณาเขตมิตร สำหรับยูนิตภาคพื้นดินในรัศมีคำสั่ง รวมถึงผู้บัญชาการนี้</Text>		<!-- +5 Combat Strength for Land Units in the Command Radius when in friendly territory, including this Commander. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_LAC_REBELLION_NAME" Language="th_TH">
-			<Text>Lạc Rebellion</Text>		<!-- Lạc Rebellion -->
+			<Text>กบฏลạc</Text>		<!-- Lạc Rebellion -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_LAC_REBELLION_DESCRIPTION" Language="th_TH">
-			<Text>+1 Combat Strength for Land Units in the Command Radius, including this Commander, for each enemy Unit adjacent to them.</Text>		<!-- +1 Combat Strength for Land Units in the Command Radius, including this Commander, for each enemy Unit adjacent to them. -->
+			<Text>+1 พลังโจมตีสำหรับยูนิตภาคพื้นดินในรัศมีคำสั่ง ต่อศัตรูแต่ละหน่วยที่อยู่ติดกัน รวมถึงผู้บัญชาการนี้</Text>		<!-- +1 Combat Strength for Land Units in the Command Radius, including this Commander, for each enemy Unit adjacent to them. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_ONE_SINGLE_CRY_NAME" Language="th_TH">
-			<Text>One Single Cry</Text>		<!-- One Single Cry -->
+			<Text>เสียงตะโกนเดียว</Text>		<!-- One Single Cry -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_ONE_SINGLE_CRY_DESCRIPTION" Language="th_TH">
-			<Text>+10 Combat Strength with Coordinated Attack and Focus Fire.</Text>		<!-- +10 Combat Strength with Coordinated Attack and Focus Fire. -->
+			<Text>+10 พลังโจมตีเมื่อใช้การโจมตีพร้อมกันหรือโจมตีจุดเดียว</Text>		<!-- +10 Combat Strength with Coordinated Attack and Focus Fire. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_65_STRONGHOLDS_NAME" Language="th_TH">
-			<Text>65 Strongholds</Text>		<!-- 65 Strongholds -->
+			<Text>65 ป้อมปราการ</Text>		<!-- 65 Strongholds -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_65_STRONGHOLDS_DESCRIPTION" Language="th_TH">
-			<Text>+5 Combat Strength against Fortified Districts for Land Units in the Command Radius.</Text>		<!-- +5 Combat Strength against Fortified Districts for Land Units in the Command Radius. -->
+			<Text>+5 พลังโจมตีต่อเขตที่มีการเสริมกำลัง สำหรับยูนิตภาคพื้นดินในรัศมีคำสั่ง</Text>		<!-- +5 Combat Strength against Fortified Districts for Land Units in the Command Radius. -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_HAI_BA_TRUNG_NAME" Language="th_TH">
-			<Text>Hai Bà Trung</Text>		<!-- Hai Bà Trung -->
+			<Text>สองพี่น้อง Trưng</Text>		<!-- Hai Bà Trung -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_HAI_BA_TRUNG_DESCRIPTION" Language="th_TH">
-			<Text>+15 Combat Strength for this Commander when defending.</Text>		<!-- +15 Combat Strength for this Commander when defending. -->
+			<Text>+15 พลังป้องกันสำหรับผู้บัญชาการนี้</Text>		<!-- +15 Combat Strength for this Commander when defending. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_TRUNG_NHI_HAI_BA_TRUNG_PREVIEW" Language="th_TH">
-			<Text>+{Amount} Hai Bà Trung</Text>		<!-- +{Amount} Hai Bà Trung -->
+			<Text>+{Amount} สองพี่น้อง Trưng</Text>		<!-- +{Amount} Hai Bà Trung -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_OLD_GUARD_PREVIEW" Language="th_TH">
 			<Text>จำนวน {Amount} ผู้พิทักษ์เก่า</Text>		<!-- +{Amount} Old Guard -->
@@ -27930,10 +27930,10 @@
 			<Text>ผู้บัญชาการเขตควบคุม</Text>		<!-- Commander Zone Of Control -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_MOVE_AFTER_UNPACKING_NAME" Language="th_TH">
-			<Text>Move After Unpacking</Text>		<!-- Move After Unpacking -->
+			<Text>เคลื่อนที่หลังการกาง</Text>		<!-- Move After Unpacking -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_MOVE_AFTER_UNPACKING_DESCRIPTION" Language="th_TH">
-			<Text>Units can move after unpacking from this Commander.</Text>		<!-- Units can move after unpacking from this Commander. -->
+			<Text>ยูนิตสามารถเคลื่อนที่ได้หลังจากกางจากผู้บัญชาการนี้</Text>		<!-- Units can move after unpacking from this Commander. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ABILITY_UNIT_AFFECTED_BY_ZOC_DESCRIPTION" Language="th_TH">
 			<Text>รัศมีบัญชาการจะใช้เขตควบคุมกับยูนิตต่างๆ</Text>		<!-- The Command Radius applies Zone of Control to Units. -->
@@ -28014,10 +28014,10 @@
 			<Text>ยูนิตพลเรือนที่สามารถก่อตั้งเมืองหลวง</Text>		<!-- Civilian Unit capable of founding a Capital. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_TRUNG_NHI_NAME" Language="th_TH">
-			<Text>Trung Nhi</Text>		<!-- Trung Nhi -->
+			<Text>จึง นี</Text>		<!-- Trung Nhi -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_TRUNG_NHI_DESCRIPTION" Language="th_TH">
-			<Text>Unique Army Commander. Has an additional Promotion Tree.</Text>		<!-- Unique Army Commander. Has an additional Promotion Tree. -->
+			<Text>ผู้บัญชาการกองทัพเฉพาะตัว มีสายการเลื่อนขั้นเพิ่มเติม</Text>		<!-- Unique Army Commander. Has an additional Promotion Tree. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_SETTLER_NAME" Language="th_TH">
 			<Text>ผู้ตั้งถิ่นฐาน</Text>		<!-- Settler -->
@@ -28455,16 +28455,16 @@
 			<Text>ต้องอยู่บนช่องที่เป็นเจ้าของโดยรัฐนครที่คุณเป็นผู้นำสูงสุดอยู่</Text>		<!-- Must be on a tile owned by a City-State you are Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_ACTIVATE_GREAT_PERSON_REQUIRES_PILLAGED_TILE" Language="th_TH">
-			<Text>Must be on a tile with an pillaged Constructible.</Text>		<!-- Must be on a tile with an pillaged Constructible. -->
+			<Text>ต้องอยู่บนช่องที่มีสิ่งก่อสร้างเสียหาย</Text>		<!-- Must be on a tile with an pillaged Constructible. -->
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ACTION_USAGE_ON_PILLAGED_TILE" Language="th_TH">
-			<Text>Activate on a tile with an pillaged Constructible.</Text>		<!-- Activate on a tile with an pillaged Constructible. -->
+			<Text>เปิดใช้งานบนช่องที่มีสิ่งก่อสร้างเสียหาย</Text>		<!-- Activate on a tile with an pillaged Constructible. -->
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ACTION_USAGE_MILITARY_UNIT_ANY_DOMAIN" Language="th_TH">
-			<Text>Activate on a tile with a Military Unit.</Text>		<!-- Activate on a tile with a Military Unit. -->
+			<Text>เปิดใช้งานบนช่องที่มีหน่วยทหาร</Text>		<!-- Activate on a tile with a Military Unit. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_ACTIVATE_GREAT_PERSON_REQUIRES_MILITARY_UNIT" Language="th_TH">
-			<Text>Activate on a tile with a Military Unit.</Text>		<!-- Activate on a tile with a Military Unit. -->
+			<Text>ต้องอยู่บนช่องที่มีหน่วยทหาร</Text>		<!-- Activate on a tile with a Military Unit. -->
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ACTION_USAGE_ON_COMPLETED_CONSTRUCTIBLE" Language="th_TH">
 			<Text>เปิดใช้งานบน {1_ConstructibleType}</Text>		<!-- Activate on a {1_ConstructibleType}. -->
@@ -28506,10 +28506,10 @@
 			<Text>เปิดใช้งานในตำแหน่งตั้งถิ่นฐานที่ถูกต้อง</Text>		<!-- Activate in a valid Settlement location. -->
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ACTION_USAGE_COMMANDER" Language="th_TH">
-			<Text>Activate on a Commander.</Text>		<!-- Activate on a Commander. -->
+			<Text>เปิดใช้งานกับผู้บัญชาการ</Text>		<!-- Activate on a Commander. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_ACTIVATE_GREAT_PERSON_REQUIRES_COMMANDER" Language="th_TH">
-			<Text>Must be on a tile with a Commander.</Text>		<!-- Must be on a tile with a Commander. -->
+			<Text>ต้องอยู่บนช่องที่มีผู้บัญชาการ</Text>		<!-- Must be on a tile with a Commander. -->
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ACTION_USAGE_FOREIGN_HEMISPHERE" Language="th_TH">
 			<Text>เปิดใช้งานในดินแดนห่างไกล</Text>		<!-- Activate in Distant Lands. -->
@@ -28542,10 +28542,10 @@
 			<Text>เปิดใช้งานบนช่องที่มีช่องผู้เชี่ยวชาญว่างเปล่า</Text>		<!-- Activate on an tile with empty Specialist slots. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_ACTIVATE_GREAT_PERSON_REQUIRES_RESOURCE" Language="th_TH">
-			<Text>Must be on a tile containing a resource.</Text>		<!-- Must be on a tile containing a resource. -->
+			<Text>ต้องอยู่บนช่องที่มีทรัพยากร</Text>		<!-- Must be on a tile containing a resource. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_ACTIVATE_GREAT_PERSON_REQUIRES_RESOURCE_TYPE" Language="th_TH">
-			<Text>Must be on a tile containing a {1_ResourceType} resource.</Text>		<!-- Must be on a tile containing a {1_ResourceType} resource. -->
+			<Text>ต้องอยู่บนช่องที่มีทรัพยากรประเภท {1_ResourceType}</Text>		<!-- Must be on a tile containing a {1_ResourceType} resource. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_ACTIVATE_GREAT_PERSON_REQUIRES_SPECIALIST_SLOTS" Language="th_TH">
 			<Text>ต้องอยู่บน ช่องที่มีช่องว่างสำหรับผู้เชี่ยวชาญ {1_Amount} ช่อง</Text>		<!-- Must be on a tile with {1_Amount} empty Specialist slots. -->
@@ -29842,7 +29842,7 @@
 			<Text>ทอง +25% จากการค้าและ เรือบรรทุกสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Fleets. -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_EVENT_PARTICIPATION_RESOURCESHUFFLE_NAME" Language="th_TH">
-			<Text>Cornucopia Badge</Text>		<!-- Cornucopia Badge -->
+			<Text>ตราเขาอุดมสมบูรณ์</Text>		<!-- Cornucopia Badge -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_XERXES_KING_L2_NAME" Language="th_TH">
 			<Text>โหนดคุณลักษณะทางทหาร</Text>		<!-- Militaristic Attribute Node -->
@@ -29932,10 +29932,10 @@
 			<Text>เพื่อปลดล็อก: ซื้อ Right to Rule</Text>		<!-- To Unlock: Purchase of Right to Rule -->
 		</Replace>
 		<Replace Tag="LOC_BANNER_DISCORD_NAME" Language="th_TH">
-			<Text>Modern Trade</Text>		<!-- Modern Trade -->
+			<Text>การค้าสมัยใหม่</Text>		<!-- Modern Trade -->
 		</Replace>
 		<Replace Tag="LOC_BANNER_DISCORD_UNLOCK_CONDITION" Language="th_TH">
-			<Text>To Unlock: Linking Discord to your 2K account</Text>		<!-- To Unlock: Linking Discord to your 2K account -->
+			<Text>เงื่อนไขปลดล็อก: เชื่อมบัญชี Discord กับบัญชี 2K ของคุณ</Text>		<!-- To Unlock: Linking Discord to your 2K account -->
 		</Replace>
 		<Replace Tag="LOC_BANNER_TWITCH_NAME" Language="th_TH">
 			<Text>เรือการค้า</Text>		<!-- Trade Ships -->
@@ -31654,7 +31654,7 @@
 			<Text>[icon:YIELD_GOLD] ทอง</Text>		<!-- [icon:YIELD_GOLD] Gold -->
 		</Replace>
 		<Replace Tag="LOC_YIELD_MAX_TRADE" Language="th_TH">
-			<Text>Trade Route Limit: Use the Improve Trade Relations diplomacy action to increase the number of trade routes you can have with this Leader.</Text>		<!-- Trade Route Limit: Use the Improve Trade Relations diplomacy action to increase the number of trade routes you can have with this Leader. -->
+			<Text>ขีดจำกัดเส้นทางการค้า: ใช้การทูตเพื่อพัฒนาความสัมพันธ์ทางการค้าเพื่อเพิ่มจำนวนเส้นทางที่คุณสามารถมีได้กับผู้นำนี้</Text>		<!-- Trade Route Limit: Use the Improve Trade Relations diplomacy action to increase the number of trade routes you can have with this Leader. -->
 		</Replace>
 		<Replace Tag="LOC_YIELD_GOLD_TREASURY" Language="th_TH">
 			<Text>คลังทอง</Text>		<!-- Gold Treasury -->
@@ -31669,13 +31669,13 @@
 			<Text>[icon:YIELD_HAPPINESS] ความสุข </Text>		<!-- [icon:YIELD_HAPPINESS] Happiness -->
 		</Replace>
 		<Replace Tag="LOC_PLUNDER_FOOD_TOWN_NAME" Language="th_TH">
-			<Text>Food</Text>		<!-- Food -->
+			<Text>อาหาร</Text>		<!-- Food -->
 		</Replace>
 		<Replace Tag="LOC_PLUNDER_PRODUCTION_CITY_NAME" Language="th_TH">
-			<Text>Production</Text>		<!-- Production -->
+			<Text>การผลิต</Text>		<!-- Production -->
 		</Replace>
 		<Replace Tag="LOC_PLUNDER_DIPLOMACY_NAME" Language="th_TH">
-			<Text>Influence</Text>		<!-- Influence -->
+			<Text>อิทธิพล</Text>		<!-- Influence -->
 		</Replace>
 		<Replace Tag="LOC_YIELD_UNHAPPINESS" Language="th_TH">
 			<Text>ความทุกข์</Text>		<!-- Unhappiness -->
