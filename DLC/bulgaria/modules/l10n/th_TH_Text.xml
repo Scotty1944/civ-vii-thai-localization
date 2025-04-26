@@ -191,11 +191,9 @@
 			<Text>กำลังผลิต</Text>		<!-- Production -->
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_PILLAGE_FOOD_TOWN_DESCRIPTION" Language="th_TH">
-			<Text>ทำลาย {1_ConstructibleName} และรับ {2_FoodAmount} อาหาร</Text>		<!-- Damage the {1_ConstructibleName} and gain {2_FoodAmount} Food. -->
-		</Replace>
+			<Text>ทำลาย {1_ConstructibleName} และรับ {2_FoodAmount} อาหาร ไปยังเมืองทั้งหมด</Text>		<!-- Damage the {1_ConstructibleName} and gain {2_FoodAmount} Food to all Towns. --></Replace>
 		<Replace Tag="LOC_UNITOPERATION_PILLAGE_PRODUCTION_CITY_DESCRIPTION" Language="th_TH">
-			<Text>ทำลาย {1_ConstructibleName} และได้รับ {2_ProductionAmount} ผลิตภัณฑ์</Text>		<!-- Damage the {1_ConstructibleName} and gain {2_ProductionAmount} Production. -->
-		</Replace>
+			<Text>ทำลาย {1_ConstructibleName} และได้รับ {2_ProductionAmount} ผลผลิต ไปยังเมืองใหญ่ทั้งหมด</Text>		<!-- Damage the {1_ConstructibleName} and gain {2_ProductionAmount} Production to all Cities. --></Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_CIVILIZATION_BULGARIA_CHAPTER_HISTORY_PARA_1" Language="th_TH">
 			<Text>ในช่วงปี 670s สาขาที่มีอำนาจของ Bulgars ซึ่งนำโดย Khan Asparuch ได้มาถึงพื้นที่แม่น้ำดานูบด้วยความตั้งใจที่จะตั้งรกราก ในขณะนั้น ดินแดนดังกล่าวถูกยึดโดยจักรวรรดิไบเซนไทน์อย่างไม่มั่นคง การขยายตัวของ Avar Khaganate และการรวมตัวกันของเผ่าสลาฟท้องถิ่นได้ท้าทายอำนาจของพวกเขาอยู่เพิ่งล่าสุด Bulgars ซึ่งเป็นชนชาติ Turkic จากพื้นที่ Volga-Caspian ได้ติดตาม Avars ออกจากทุ่งหญ้ายูเรเซียหลังจากการล่มสลายของดินแดนที่รวมตัวกันอย่างชั่วคราวของ Old Great Bulgaria แต่แตกต่างจาก Avars ที่เคลื่อนที่อยู่ตลอดเวลา ซึ่งรักษาอาณาจักรเร่ร่อนของพวกเขา Bulgars ของ Asparuch กำลังเริ่มปรับตัวสู่วิถีชีวิตที่อยู่อาศัยมากขึ้นและมุ่งหวังที่จะสร้างดินแดนถาวรเพื่อให้เป็นของตนเอง</Text>		<!-- In the 670s, a powerful branch of Bulgars led by Khan Asparuch arrived in the Danube region with intent to settle. At the time, the territory was tenuously held by the Byzantine Empire; the expansion of the Avar Khaganate and an alliance among local Slavic tribes had recently challenged their authority. The Bulgars, a Turkic people from the Volga-Caspian region, had followed the Avars out of the Eurasian steppe after the collapse of the short-lived unified territories of Old Great Bulgaria. But unlike the peripatetic Avars, who maintained their nomadic empire, Asparuch’s Bulgars were beginning to adopt a more sedentary lifestyle and sought a permanent territory to make their own. -->
 		</Replace>
@@ -290,11 +288,9 @@
 			<Text>ปราการลับ</Text>		<!-- Hidden Fortress -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HIDDEN_FORTRESS_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_PRODUCTION] กำลังผลิต, ตั้งอยู่บน พื้นที่ขรุขระ ที่ไม่ติดกับ ปราการลับ อื่น, หน่วยในช่องนี้จะมี พรางตัว และพวกเขาจะได้รับ +3 พลังต่อสู้, เขตพัฒนาพิเศษ บัลแกเรีย, ถือว่าเป็นป้อมกราการ, +6 พลังต่อสู่ เมื่อป้องกัน, คงอยู่ตลอดกาล, ไม่ลบโบนัสโกดังบนช่อง</Text>		<!-- +4[icon:YIELD_PRODUCTION] Production. Placed on Rough not adjacent to another Hidden Fortress. Units on this tile gain Stealth and they receive +3 Combat Strength. Bulgarian Unique Improvement. Counts as Fortification, +6 Combat Strength when defending.  Ageless. Does not remove Warehouse bonuses on a tile. -->
-		</Replace>
+			<Text>+4[icon:YIELD_PRODUCTION] กำลังผลิต, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ขรุขระ ที่ไม่ติดกับ ปราการลับ อื่น, หน่วยในช่องนี้จะมี พรางตัว และพวกเขาจะได้รับ +3 พลังต่อสู้, เขตพัฒนาพิเศษ บัลแกเรีย, ถือว่าเป็นป้อมกราการ, +6 พลังต่อสู่ เมื่อป้องกัน, คงอยู่ตลอดกาล, ไม่ลบโบนัสโกดังบนช่อง</Text>		<!-- +4[icon:YIELD_PRODUCTION] Production. Must be placed on an existing Improvement on Rough not adjacent to another Hidden Fortress. Units on this tile gain Stealth. Bulgarian Unique Improvement. Counts as Fortification, +6 Combat Strength when defending.  Ageless. Does not remove Warehouse bonuses on a tile. --></Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HIDDEN_FORTRESS_TOOLTIP" Language="th_TH">
-			<Text>ตั้งอยู่บน พื้นที่ขรุขระ ที่ไม่ติดกับ ปราการลับ อื่น, หน่วยในช่องนี้จะมี พรางตัว และพวกเขาจะได้รับ +3 พลังต่อสู้, เขตพัฒนาพิเศษ บัลแกเรีย, ถือว่าเป็นป้อมกราการ, +6 พลังต่อสู่ เมื่อป้องกัน, คงอยู่ตลอดกาล, ไม่ลบโบนัสโกดังบนช่อง</Text>		<!-- Placed on Rough not adjacent to another Hidden Fortress. Units on this tile gain Stealth and they receive +3 Combat Strength. Bulgarian Unique Improvement. Counts as Fortification, +6 Combat Strength when defending.  Ageless. Does not remove Warehouse bonuses on a tile. -->
-		</Replace>
+			<Text>ต้องวางบนพื้นที่พัฒนา บนพื้นที่ขรุขระ ที่ไม่ติดกับ ปราการลับ อื่น, หน่วยในช่องนี้จะมี พรางตัว และพวกเขาจะได้รับ +3 พลังต่อสู้, เขตพัฒนาพิเศษ บัลแกเรีย, ถือว่าเป็นป้อมกราการ, +6 พลังต่อสู่ เมื่อป้องกัน, คงอยู่ตลอดกาล, ไม่ลบโบนัสโกดังบนช่อง</Text>		<!-- Must be placed on an existing Improvement on Rough not adjacent to another Hidden Fortress. Units on this tile gain Stealth. Bulgarian Unique Improvement. Counts as Fortification, +6 Combat Strength when defending.  Ageless. Does not remove Warehouse bonuses on a tile. --></Replace>
 		<Replace Tag="LOC_WONDER_RILA_MONASTERY_NAME" Language="th_TH">
 			<Text>ริล่า มอนาสเตอรี</Text>		<!-- Rila Monastery -->
 		</Replace>
@@ -371,8 +367,7 @@
 			<Text>ผลงานชิ้นเอก ให้ +1 [icon:YIELD_HAPPINESS] ความสุข และ +1 [icon:YIELD_GOLD] ทอง</Text>		<!-- Great Works provide +1 [icon:YIELD_HAPPINESS] Happiness and +1 [icon:YIELD_GOLD] Gold. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_STRATAGEMS_NAME" Language="th_TH">
-			<Text>กลยุทธ์</Text>		<!-- Strategems -->
-		</Replace>
+			<Text>กลยุทธ์</Text>		<!-- Stratagems --></Replace>
 		<Replace Tag="LOC_TRADITION_STRATAGEMS_DESCRIPTION" Language="th_TH">
 			<Text>+50% ผลตอบแทนและ HP จากการปล้นสะดม</Text>		<!-- +50% yields and HP from pillaging. -->
 		</Replace>
@@ -623,20 +618,15 @@
 			<Text>โบลยาร์</Text>		<!-- Bolyar -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_BOYAR_BASE_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารม้าพิเศษ ของบัลแกเรีย, ไม่สนใจพื้นที่ขรุขระในการเคลื่อนที่ และการต่อสู้ของยูนิตฝ่ายตรงข้าม, +3 พลังต่อสู้ เมื่อกำลังต่อสู้ในพื้นที่ขรุขระ</Text>		<!-- Bulgarian Unique Cavalry Unit. Ignores Rough for movement and opposing unit’s combat. +3 Combat Strength when this unit is fighting on Rough. -->
-		</Replace>
+			<Text>ยูนิตทหารม้าพิเศษ ของบัลแกเรีย, ไม่สนใจพื้นที่ขรุขระในการเคลื่อนที่ และการต่อสู้ของยูนิตฝ่ายตรงข้าม, +3 พลังต่อสู้ เมื่อกำลังต่อสู้ในพื้นที่ขรุขระ, ไม่สนพื้นที่ควบคุม</Text>		<!-- Bulgarian Unique Cavalry Unit. Ignores Rough Terrain for movement and opposing unit’s combat. +3 Combat Strength when this unit is fighting on Rough Terrain. Ignore Zone of Control. --></Replace>
 		<Replace Tag="LOC_UNIT_BOYAR_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารม้าพิเศษ ระดับ 1 ของบัลแกเรีย, ไม่สนใจพื้นที่ขรุขระในการเคลื่อนที่ และการต่อสู้ของยูนิตฝ่ายตรงข้าม, +3 พลังต่อสู้ เมื่อกำลังต่อสู้ในพื้นที่ขรุขระ</Text>		<!-- Tier 1 Bulgarian Unique Cavalry Unit. Ignores Rough for movement and opposing unit’s combat. +3 Combat Strength when this unit is fighting on Rough. -->
-		</Replace>
+			<Text>ยูนิตทหารม้าพิเศษ ระดับ 1 ของบัลแกเรีย, ไม่สนใจพื้นที่ขรุขระในการเคลื่อนที่ และการต่อสู้ของยูนิตฝ่ายตรงข้าม, +3 พลังต่อสู้ เมื่อกำลังต่อสู้ในพื้นที่ขรุขระ, ไม่สนพื้นที่ควบคุม</Text>		<!-- Tier 1 Bulgarian Unique Cavalry Unit. Ignores Rough Terrain for movement and opposing unit’s combat. +3 Combat Strength when this unit is fighting on Rough Terrain. Ignore Zone of Control. --></Replace>
 		<Replace Tag="LOC_UNIT_BOYAR_2_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารม้าพิเศษ ระดับ 2 ของบัลแกเรีย, ไม่สนใจพื้นที่ขรุขระในการเคลื่อนที่ และการต่อสู้ของยูนิตฝ่ายตรงข้าม, +3 พลังต่อสู้ เมื่อกำลังต่อสู้ในพื้นที่ขรุขระ</Text>		<!-- Tier 2 Bulgarian Unique Cavalry Unit. Ignores Rough for movement and opposing unit’s combat. +3 Combat Strength when this unit is fighting on Rough. -->
-		</Replace>
+			<Text>ยูนิตทหารม้าพิเศษ ระดับ 2 ของบัลแกเรีย, ไม่สนใจพื้นที่ขรุขระในการเคลื่อนที่ และการต่อสู้ของยูนิตฝ่ายตรงข้าม, +3 พลังต่อสู้ เมื่อกำลังต่อสู้ในพื้นที่ขรุขระ, ไม่สนพื้นที่ควบคุม</Text>		<!-- Tier 2 Bulgarian Unique Cavalry Unit. Ignores Rough Terrain for movement and opposing unit’s combat. +3 Combat Strength when this unit is fighting on Rough Terrain. Ignore Zone of Control. --></Replace>
 		<Replace Tag="LOC_UNIT_BOYAR_3_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารม้าพิเศษ ระดับ 3 ของบัลแกเรีย, ไม่สนใจพื้นที่ขรุขระในการเคลื่อนที่ และการต่อสู้ของยูนิตฝ่ายตรงข้าม, +3 พลังต่อสู้ เมื่อกำลังต่อสู้ในพื้นที่ขรุขระ</Text>		<!-- Tier 3 Bulgarian Unique Cavalry Unit. Ignores Rough for movement and opposing unit’s combat. +3 Combat Strength when this unit is fighting on Rough. -->
-		</Replace>
+			<Text>ยูนิตทหารม้าพิเศษ ระดับ 3 ของบัลแกเรีย, ไม่สนใจพื้นที่ขรุขระในการเคลื่อนที่ และการต่อสู้ของยูนิตฝ่ายตรงข้าม, +3 พลังต่อสู้ เมื่อกำลังต่อสู้ในพื้นที่ขรุขระ, ไม่สนพื้นที่ควบคุม</Text>		<!-- Tier 3 Bulgarian Unique Cavalry Unit. Ignores Rough Terrain for movement and opposing unit’s combat. +3 Combat Strength when this unit is fighting on Rough Terrain. Ignore Zone of Control. --></Replace>
 		<Replace Tag="LOC_ABILITY_BOYAR_PREVIEW" Language="th_TH">
-			<Text>{1_Amount} ใน ที่ขรุขระ</Text>		<!-- +{1_Amount} in Rough -->
-		</Replace>
+			<Text>{1_Amount} ใน พื้นที่ขรุขระ</Text>		<!-- +{1_Amount} in Rough Terrain --></Replace>
 		<Replace Tag="LOC_UNIT_BALIK_NAME" Language="th_TH">
 			<Text>ทาร์คาน</Text>		<!-- Tarkhan -->
 		</Replace>

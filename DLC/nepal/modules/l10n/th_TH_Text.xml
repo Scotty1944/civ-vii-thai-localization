@@ -170,8 +170,7 @@
 			<Text>หลังคาของโลก</Text>		<!-- Roof of the World -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_NEPAL_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>อาคารคลังสินค้าทั้งหมด ถูกใช้บน ช่องภูเขา, แต่มีค่าใช้จ่าย +1 [icon:YIELD_GOLD] ทอง และ [icon:YIELD_HAPPINESS] ความสุข ในการบำรุงรักษา</Text>		<!-- All Warehouse buildings apply to Mountain tiles, but they cost +1 [icon:YIELD_GOLD] Gold and[icon:YIELD_HAPPINESS] Happiness Maintenance. -->
-		</Replace>
+			<Text>[LIST][LI][B]อาคารโกดังทั้งหมด[/B] ใช้ได้กับพื้นที่ [B]ภูเขา[/B] แต่มีค่าบำรุงรักษาเพิ่ม +1 [icon:YIELD_GOLD] ทองคำ และ [icon:YIELD_HAPPINESS] ความสุข [LI][B]+30% [icon:YIELD_PRODUCTION] ผลิตผล[/B] ในการสร้าง [B]บูฑนาถ[/B].[/LIST]</Text>		<!-- [LIST][LI][B]All Warehouse buildings[/B] apply to [B]Mountain Terrain[/B] tiles, but they cost +1 [icon:YIELD_GOLD] Gold and[icon:YIELD_HAPPINESS] Happiness Maintenance. [LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Boudhanath[/B].[/LIST] --></Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_NEPAL_DESCRIPTION" Language="th_TH">
 			<Text>+30% กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ ของเนปาล</Text>		<!-- +30% Production from being the Nepal's unique wonder. -->
 		</Replace>
@@ -233,11 +232,9 @@
 			<Text>โรงไฟฟ้าฮายแลนด์</Text>		<!-- Highland Power Station -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HIGHLAND_POWER_STATION_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_PRODUCTION] กำลังผลิต, +1[icon:YIELD_CULTURE] วัฒนธรรม จากภูเขาที่อยู่ใกล้เคียง, พื้นที่พัฒนาพิเศษ ของเนปาล, คงอยู่ตลอดกาล, ไม่ลบโบนัสโกดังในช่อง, ต้องวางบนภูมิประเทศภูเขา</Text>		<!-- +2[icon:YIELD_PRODUCTION] Production. +1[icon:YIELD_CULTURE] Culture from adjacent Mountains. Nepal Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Mountain terrain. -->
-		</Replace>
+			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต และ +3[icon:YIELD_CULTURE] วัฒนธรรม, พื้นที่พัฒนาพิเศษ ของเนปาล, คงอยู่ตลอดกาล, ไม่ลบโบนัสโกดังในช่อง, ต้องวางบนภูมิประเทศภูเขาที่ไม่มีลักษณะพิเศษ และจะถูกสร้างโดย เชอร์ปา หลังจากที่คุณได้ความเชี่ยวชาญ ซากามาธา</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production and +3[icon:YIELD_CULTURE] Culture. Nepal Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on a Featureless Mountain tile and is constructed by the Sherpa once you have the Sagarmatha Mastery. --></Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HIGHLAND_POWER_STATION_TOOLTIP" Language="th_TH">
-			<Text>พื้นที่พัฒนาพิเศษ ของเนปาล, คงอยู่ตลอดกาล, ไม่ลบโบนัสโกดังในช่อง, ต้องวางบนภูมิประเทศภูเขา</Text>		<!-- Nepal Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Mountain terrain. -->
-		</Replace>
+			<Text>พื้นที่พัฒนาพิเศษ ของเนปาล, คงอยู่ตลอดกาล, ไม่ลบโบนัสโกดังในช่อง, ต้องวางบนภูมิประเทศภูเขาที่ไม่มีลักษณะพิเศษ และจะถูกสร้างโดย เชอร์ปา หลังจากที่คุณได้ความเชี่ยวชาญ ซากามาธา</Text>		<!-- Nepal Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on a Featureless Mountain tile and is constructed by the Sherpa once you have the Sagarmatha Mastery. --></Replace>
 		<Replace Tag="LOC_WONDER_BOUDHANATH_NAME" Language="th_TH">
 			<Text>โพธินาถ</Text>		<!-- Boudhanath -->
 		</Replace>
@@ -293,8 +290,7 @@
 			<Text>พระราชาเบเรนดรา</Text>		<!-- King Birendra -->
 		</Replace>
 		<Replace Tag="LOC_MOD_SAGARMATHA_BUILDINGS_MOUNTAIN_ADJACENCY_DESCRIPTION" Language="th_TH">
-			<Text>อาคารด้านอาหารและวิทยาศาสตร์ ได้รับ โบนัสใกล้เคียง ภูเขา,  ภูเขา ที่ได้รับการครอบครอง จะได้รับ โรงไฟฟ้าฮายแลนด์</Text>		<!-- Food and Science Buildings receive an adjacency from Mountains. Claimed Mountains will now receive a Highland Power Station. -->
-		</Replace>
+			<Text>อาคารด้านอาหารและวิทยาศาสตร์ ได้รับ โบนัสใกล้เคียง ภูเขา</Text>		<!-- Food and Science Buildings receive an adjacency from Mountains. --></Replace>
 		<Replace Tag="LOC_MOD_SHERPA_MOUNTAIN_CLAIM_DESCRIPTION" Language="th_TH">
 			<Text>เชอร์ปา สามารถเปิดใช้งานบนพื้นที่ภูเขาที่ไม่มีเจ้าของภายใน 5 ช่องจากหนึ่งใน พระราชวัง หรือ ห้องเมือง ของถิ่นฐานของคุณ เส้นทางของช่อง จะถูกสร้างไปยังถิ่นฐานของคุณ และพื้นที่ภูเขาจะได้รับการปรับปรุงทันทีด้วย สถานีไฟฟ้าพลังสูง</Text>		<!-- Sherpas can activate on an unowned Mountain tile within 5 tiles of one of your Settlements' Palace or City Hall. A path of tiles is claimed back to the Settlement and the Mountain tile is improved immediately with a Highland Power Station. -->
 		</Replace>
@@ -302,8 +298,7 @@
 			<Text>เขตทั้งหมดที่ติดกับภูเขาจะได้รับการเสริมกำลังป้องกัน เป็นผลครั้งเดียว ปฏิบัติตามกฎการวางกำแพงตามปกติ</Text>		<!-- All Districts adjacent to Mountains receive Defensive Fortifications, one time effect. Follows normal Walls placement rules. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_GIFT_GURKHA_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อก "มอบกูร์ขา" ซึ่งให้ กุรขา แก่อารยธรรมอื่น เนปาลได้รับความสัมพันธ์ +10 กับพวกเขาและ 5 [icon:YIELD_CULTURE] (ปรับตามความเร็วของเกม) สำหรับระดับความสัมพันธ์ปัจจุบันกับพวกเขา สามารถทำได้เฉพาะกับอารยธรรมที่เป็นมิตรหรือช่วยเหลือเท่านั้น</Text>		<!-- Unlocks the Gift Gurkha Action which Grants a Gurkha to another Civilization. Nepal receives a +10 Relationship with them and 5 [icon:YIELD_CULTURE] (Scales by Gamespeed) for the current Relationship Level with them. Can only be done with Friendly of Helpful Civilizations. -->
-		</Replace>
+			<Text>ปลดล็อก "มอบกูร์ขา" ซึ่งให้ กุรขา แก่อารยธรรมอื่น เนปาลได้รับความสัมพันธ์ +10 กับพวกเขาและ 5 [icon:YIELD_CULTURE] (ปรับตามความเร็วของเกม) สำหรับระดับความสัมพันธ์ปัจจุบันกับพวกเขา สามารถทำได้เฉพาะกับอารยธรรมที่เป็นมิตรหรือช่วยเหลือเท่านั้น</Text>		<!-- Unlocks the Gift Gurkha Action which Grants a Gurkha to another Civilization. Nepal receives a +10 Relationship with them and 5 [icon:YIELD_CULTURE] (Scales by Gamespeed) for the current Relationship Level with them. Can only be done with Friendly or Helpful Civilizations. --></Replace>
 		<Replace Tag="LOC_MOD_JYUMDO_BAGHA_FORTIFICATION_DESCRIPTION" Language="th_TH">
 			<Text>ยูนิตจะสร้างปราการเสร็๋จใน 1 เทิร์น หากอยู่ติดกับภูเขา</Text>		<!-- Units complete Fortifications in 1 turn if adjacent to a Mountain. -->
 		</Replace>
@@ -362,8 +357,7 @@
 			<Text>ครอบครองภูเขา</Text>		<!-- Claim Mountain -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_CLAIM_MOUNTAIN_DESCRIPTION" Language="th_TH">
-			<Text>เปิดใช้งานบนภูเขาที่ไม่มีเจ้าของ เส้นทางของช่อง จะถูกอ้างสิทธิ์ไปยังกลับไปยัง ถิ่นฐานใกล้เคียง และภูเขาจะได้รับการพัฒนาในทันที</Text>		<!-- Activate on an unowned Mountain. A path of tiles is claimed back to the Settlement and the Mountain is improved immediately. -->
-		</Replace>
+			<Text>เปิดใช้งานบนภูเขาที่ไม่มีเจ้าของ เส้นทางของช่อง จะถูกอ้างสิทธิ์ไปยังกลับไปยัง ถิ่นฐานใกล้เคียง และภูเขาจะได้รับการพัฒนาโดยมี โรงไฟฟ้าฮายแลนด์ ในทันที, ต้องใช้เชอร์ปา</Text>		<!-- Activate on an unowned Mountain. A path of tiles is claimed back to the Settlement and the Mountain is improved with a Highland Power Station immediately. Consumes the Sherpa. --></Replace>
 		<Replace Tag="LOC_UNITCOMMAND_CLAIM_MOUNTAIN_REQUIRES_UNOWNED_MOUNTAIN" Language="th_TH">
 			<Text>ต้องการภูเขาที่ไม่มีเจ้าของอยู่ภายใน 5 ช่อง ของหนึ่งในพระราชวังหรือศาลากลางของ ถิ่นฐานของคุณ</Text>		<!-- Requires an unowned Mountain within 5 tiles of one of your Settlements' Palace or City Hall. -->
 		</Replace>
@@ -416,8 +410,7 @@
 			<Text>ทีละน้อย ภาษาอินคาถูกแทนที่ด้วยภาษาเนปาล และประเพณีโบราณเริ่มสลายไป</Text>		<!-- Slowly, the Inca language gives way to Nepali, and old customs wither. -->
 		</Replace>
 		<Replace Tag="LOC_11031A_IMPERATIVE" Language="th_TH">
-			<Text>มี 3 โรงเรียนอยู่ติดกับภูเขา</Text>		<!-- Have 3 Schools adjacent to Mountains. -->
-		</Replace>
+			<Text>มี 3 โรงเรียนอยู่ติดกับภูเขา</Text>		<!-- Have 3 Schoolhouses adjacent to Mountains. --></Replace>
 		<Replace Tag="LOC_11030B_NAME" Language="th_TH">
 			<Text>ให้พวกเขาต่อเนื่องประเพณีของพวกเขา</Text>		<!-- Let them continue their traditions. -->
 		</Replace>
@@ -443,20 +436,17 @@
 			<Text>{1_reward} และ {2_reward}</Text>		<!-- {1_reward} and {2_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_11033A_STORYTITLE" Language="th_TH">
-			<Text>มาชูปุชซารี</Text>		<!-- Machupuchare -->
-		</Replace>
+			<Text>มาจาปูชาร์เร</Text>		<!-- Machapuchare --></Replace>
 		<Replace Tag="LOC_11033A_COMPLETION" Language="th_TH">
 			<Text>ยอดเขาหิมะที่มีสองยอดสูงตระหง่านเหนือขบวนภูเขา ดูเหมือนจะประกาศอำนาจของมันเหนือท้องฟ้า</Text>		<!-- The great double-peaked snowcap rises above the mountain chains, seeming to declare its dominion over the sky. -->
 		</Replace>
 		<Replace Tag="LOC_11034A_STORYTITLE" Language="th_TH">
-			<Text>มาชูปูชเร</Text>		<!-- Machupuchare -->
-		</Replace>
+			<Text>มาจาปูชาร์เร</Text>		<!-- Machapuchare --></Replace>
 		<Replace Tag="LOC_11034A_NAME" Language="th_TH">
 			<Text>จัดทริปเพื่อปีนภูเขานั้น</Text>		<!-- Arrange an expedition to climb it. -->
 		</Replace>
 		<Replace Tag="LOC_11034A_DESCRIPTION" Language="th_TH">
-			<Text>{2_reward} และเรื่องราวยังคงดำเนินต่อไป</Text>		<!-- {2_reward} and story continues. -->
-		</Replace>
+			<Text>{1_reward} และเรื่องราวยังคงดำเนินต่อไป</Text>		<!-- {1_reward} and story continues. --></Replace>
 		<Replace Tag="LOC_11034A_COMPLETION" Language="th_TH">
 			<Text>การเดินทางสำรวจนี้เป็นหายนะและจบลงด้วยความล้มเหลว — และความตาย ไกด์ภูเขาเตือนว่านี่คือบ้านของเทพเจ้า และไม่มีใครควรท้าทายมัน</Text>		<!-- The expedition is a disaster and ends in failure — and death. The mountain guides warn that this is the home of the gods, and none should challenge it. -->
 		</Replace>
@@ -635,26 +625,21 @@
 			<Text>ยูนิตทหารราบพิเศษ ของเนปาล, แข็งแกร่งกว่า เร็วกว่า และมีค่าใช้จ่ายมากกว่า</Text>		<!-- Nepalese Unique Infantry Unit. Stronger, faster, and more expensive. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_GURKHA_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบพิเศษ ระดับ 1 ของเนปาล, แข็งแกร่งกว่า เร็วกว่า และมีค่าใช้จ่ายมากกว่า</Text>		<!-- Tier 1 Nepalese Unique Infantry Unit. Stronger, faster, and more expensive than the Line Infantry. -->
-		</Replace>
+			<Text>ยูนิตทหารราบพิเศษ ระดับ 1 ของเนปาล, +1 แต้มเคลื่อนที่, +5 พลังต่อสู้, มีค่าใช้จ่ายมากกว่า ทหารราบ</Text>		<!-- Tier 1 Nepalese Unique Infantry Unit. +1 Movement. +5 Combat Strength. More expensive than the Line Infantry. --></Replace>
 		<Replace Tag="LOC_UNIT_GURKHA_2_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบพิเศษ ระดับ 2 ของเนปาล, แข็งแกร่งกว่า เร็วกว่า และมีค่าใช้จ่ายมากกว่า</Text>		<!-- Tier 2 Nepalese Unique Infantry Unit. Stronger, faster, and more expensive the Rifleman. -->
-		</Replace>
+			<Text>ยูนิตทหารราบพิเศษ ระดับ 2 ของเนปาล, +1 แต้มเคลื่อนที่, +5 พลังต่อสู้, มีค่าใช้จ่ายมากกว่า ทหารราบปืนไรเฟิล</Text>		<!-- Tier 2 Nepalese Unique Infantry Unit. +1 Movement. +5 Combat Strength. More expensive than the Rifle Infantry. --></Replace>
 		<Replace Tag="LOC_UNIT_GURKHA_3_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบพิเศษ ระดับ 3 ของเนปาล, แข็งแกร่งกว่า เร็วกว่า และมีค่าใช้จ่ายมากกว่า</Text>		<!-- Tier 3 Nepalese Unique Infantry Unit. Stronger, faster, and more expensive than the Infantry Company. -->
-		</Replace>
+			<Text>ยูนิตทหารราบพิเศษ ระดับ 3 ของเนปาล, +1 แต้มเคลื่อนที่, +5 พลังต่อสู้, มีค่าใช้จ่ายมากกว่า กองร้อยทหารราบ</Text>		<!-- Tier 3 Nepalese Unique Infantry Unit. +1 Movement. +5 Combat Strength. More expensive than the Infantry Company. --></Replace>
 		<Replace Tag="LOC_UNIT_SHERPA_NAME" Language="th_TH">
 			<Text>เชอร์ปา</Text>		<!-- Sherpa -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_SHERPA_DESCRIPTION" Language="th_TH">
-			<Text>หน่วยสอดแนมพิเศษ ของเนปาล, ไม่สนใจข้อจำกัดภูเขาและพื้นที่ขรุขระ ในการมองเห็น, ไม่สนใจข้อจำกัดภูเขา สำหรับการเคลื่อนไหว</Text>		<!-- Nepalese Unique Scout. Ignores Mountains and Rough Terrain for Sight. Ignores Mountains for Movement. -->
-		</Replace>
+			<Text>หน่วยสอดแนมพิเศษ ของเนปาล, ไม่สนใจข้อจำกัดภูเขาและพื้นที่ขรุขระ ในการมองเห็น, ไม่สนใจข้อจำกัดภูเขาที่ไม่มีลักษณะพิเศษ สำหรับการเคลื่อนไหว</Text>		<!-- Nepalese Unique Scout. Ignores Mountains and Rough Terrain for Sight. Ignores Featureless Mountains for Movement. Can move on Mount Everest --></Replace>
 		<Replace Tag="LOC_ABILITY_SHERPA_UNLOCK_NAME" Language="th_TH">
 			<Text>ครอบครองภูเขา</Text>		<!-- Claim Mountain -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SHERPA_UNLOCK_DESCRIPTION" Language="th_TH">
-			<Text>เปิดใช้งานบนภูเขาที่ไม่มีเจ้าของ เส้นทางของช่อง จะถูกอ้างสิทธิ์ไปยังกลับไปยัง ถิ่นฐานใกล้เคียง และภูเขาจะได้รับการพัฒนาในทันที</Text>		<!-- Activate on an unowned Mountain tile within 5 tiles of one of your Settlements' Palace or City Hall. A path of tiles is claimed back to the Settlement and the Mountain is improved immediately. -->
-		</Replace>
+			<Text>เปิดใช้งานบนภูเขาที่ไม่มีลักษณะพิเศษและไม่มีเจ้าของ เส้นทางของช่อง จะถูกอ้างสิทธิ์ไปยังกลับไปยัง ถิ่นฐานใกล้เคียง และภูเขาจะได้รับการพัฒนาในทันที</Text>		<!-- Activate on an unowned Featureless Mountain tile within 5 tiles of one of your Settlements' Palace or City Hall. A path of tiles is claimed back to the Settlement and the Mountain is improved immediately with a Highland Power Station. --></Replace>
 		<Replace Tag="LOC_UNLOCK_MOUNTAIN_5_SETTLEMENTS_DESCRIPTION" Language="th_TH">
 			<Text>มีสาม ถิ่นฐาน ที่มี [B]ภูเขา[/B] อย่างน้อยห้าลูก</Text>		<!-- Have three Settlements with at least five [B]Mountains[/B]. -->
 		</Replace>
