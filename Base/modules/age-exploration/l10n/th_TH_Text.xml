@@ -128,7 +128,8 @@
 			<Text>ออกัสตัส ยุคสำรวจ ตำนาน ทางวัฒนธรรม</Text>		<!-- Augustus Exploration Legend Cultural -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_AUGUSTUS_1_DESCRIPTION" Language="th_TH">
-			<Text>ในยุคนี้, จะได้รับ +15%[icon:YIELD_CULTURE] วัฒนธรรม โดยจะต้องเสีย -10%[icon:YIELD_Science] วิทยาศาสตร์</Text>		<!-- For this Age, gain +15% Culture[icon:YIELD_CULTURE] at the cost of -10% Science[icon:YIELD_Science] --></Replace>
+			<Text>ในยุคนี้, จะได้รับ +15%[icon:YIELD_CULTURE] วัฒนธรรม โดยจะต้องเสีย -10%[icon:YIELD_Science] วิทยาศาสตร์</Text>		<!-- For this Age, gain +15% Culture[icon:YIELD_CULTURE] at the cost of -10% Science[icon:YIELD_Science] -->
+		</Replace>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_AUGUSTUS_2_NAME" Language="th_TH">
 			<Text>ออกัสตัส ยุคสำรวจ ตำนาน ขยายอาณาเขต</Text>		<!-- Augustus Exploration Legend Expansionist -->
 		</Replace>
@@ -352,12 +353,14 @@
 			<Text>สูญเสียการมีอยู่ของศาสนาในดินแดนห่างไกล</Text>		<!-- Losing Distant Land Religious Presence -->
 		</Replace>
 		<Replace Tag="LOC_WARNING_AGE_TRANSITION_COMMANDERS_MESSAGE" Language="th_TH">
-			<Text>กองทัพของเรามีทหารจำนวนมาก แต่ไม่มีผู้บัญชาการเพียงพอที่จะนำพวกเขาได้ เราจะสามารถรักษายูนิตภาคพื้นได้เพียง {1_value} หน่วยในช่วงเริ่มต้นของยุคถัดไป บวกกับจำนวนยูนิตที่ผู้บัญชาการกองทัพของเราสามารถถือได้ เราต้องผลิตผู้บัญชาการกองทัพเพิ่มขึ้น มิฉะนั้นเราจะสูญเสีย ยูนิตภาคพื้น {2_lostunits} หน่วย</Text>		<!-- Many soldiers have pledged their lives to our empire, but we lack the Commanders to lead them. In addition to the amount of Units our Army Commanders can hold, we will only be able to maintain {1_value} Land Units at the start of the next Age. Without more Army Commanders, we will lose {2_lostunits} Land {2_lostunits: plural 1?Unit; other?Units;} when the Age ends. --></Replace>
+			<Text>กองทัพของเรามีทหารจำนวนมาก แต่ไม่มีผู้บัญชาการเพียงพอที่จะนำพวกเขาได้ เราจะสามารถรักษายูนิตภาคพื้นได้เพียง {1_value} หน่วยในช่วงเริ่มต้นของยุคถัดไป บวกกับจำนวนยูนิตที่ผู้บัญชาการกองทัพของเราสามารถถือได้ เราต้องผลิตผู้บัญชาการกองทัพเพิ่มขึ้น มิฉะนั้นเราจะสูญเสีย ยูนิตภาคพื้น {2_lostunits} หน่วย</Text>		<!-- Many soldiers have pledged their lives to our empire, but we lack the Commanders to lead them. In addition to the amount of Units our Army Commanders can hold, we will only be able to maintain {1_value} Land Units at the start of the next Age. Without more Army Commanders, we will lose {2_lostunits} Land {2_lostunits: plural 1?Unit; other?Units;} when the Age ends. -->
+		</Replace>
 		<Replace Tag="LOC_WARNING_AGE_TRANSITION_COMMANDERS_SUMMARY" Language="th_TH">
 			<Text>กองทัพขนาดใหญ่</Text>		<!-- Large Army -->
 		</Replace>
 		<Replace Tag="LOC_WARNING_AGE_TRANSITION_NAVAL_COMMANDERS_MESSAGE" Language="th_TH">
-			<Text>กองทัพเรือของเรามีลูกเรือจำนวนมาก แต่ไม่มีผู้บัญชาการเพียงพอที่จะนำพวกเขาได้ ในช่วงเริ่มต้นของยุคถัดไป เราจะสามารถรักษายูนิตเรือได้ เพียงเท่าที่ผู้บัญชาการกองเรือของเราสามารถถือครองได้ เราต้องผลิตผู้บัญชาการกองเรือเพิ่มขึ้น มิฉะนั้นเราจะสูญเสีย ยูนิตทางน้ำ {1_lostunits} หน่วย</Text>		<!-- Many ships have pledged themselves to our empire, but we lack the Commanders to lead them. At the start of the next Age, we will only be able to maintain as many Naval Units as our Fleet Commanders can hold. Without more Fleet Commanders, we will lose {1_lostunits} Naval {1_lostunits: plural 1?Unit; other?Units;} when the Age ends. --></Replace>
+			<Text>กองทัพเรือของเรามีลูกเรือจำนวนมาก แต่ไม่มีผู้บัญชาการเพียงพอที่จะนำพวกเขาได้ ในช่วงเริ่มต้นของยุคถัดไป เราจะสามารถรักษายูนิตเรือได้ เพียงเท่าที่ผู้บัญชาการกองเรือของเราสามารถถือครองได้ เราต้องผลิตผู้บัญชาการกองเรือเพิ่มขึ้น มิฉะนั้นเราจะสูญเสีย ยูนิตทางน้ำ {1_lostunits} หน่วย</Text>		<!-- Many ships have pledged themselves to our empire, but we lack the Commanders to lead them. At the start of the next Age, we will only be able to maintain as many Naval Units as our Fleet Commanders can hold. Without more Fleet Commanders, we will lose {1_lostunits} Naval {1_lostunits: plural 1?Unit; other?Units;} when the Age ends. -->
+		</Replace>
 		<Replace Tag="LOC_WARNING_AGE_TRANSITION_NAVAL_COMMANDERS_SUMMARY" Language="th_TH">
 			<Text>กองทัพเรือขนาดใหญ่</Text>		<!-- Large Navy -->
 		</Replace>
@@ -701,7 +704,8 @@
 			<Text>มะโตตตาม</Text>		<!-- Matottam -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAWAII1" Language="th_TH">
-			<Text>ลาฮายน่า</Text>		<!-- Lāhainā --></Replace>
+			<Text>ลาฮายน่า</Text>		<!-- Lāhainā -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAWAII2" Language="th_TH">
 			<Text>เคา</Text>		<!-- Kou -->
 		</Replace>
@@ -709,7 +713,8 @@
 			<Text>ฮิโล</Text>		<!-- Hilo -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAWAII4" Language="th_TH">
-			<Text>ไวลุกุ</Text>		<!-- Wailuku --></Replace>
+			<Text>ไวลุกุ</Text>		<!-- Wailuku -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAWAII5" Language="th_TH">
 			<Text>ลิฮูเอ</Text>		<!-- Lihu'e -->
 		</Replace>
@@ -717,21 +722,26 @@
 			<Text>เอวา</Text>		<!-- ‘Ewa -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAWAII7" Language="th_TH">
-			<Text>ไคลัว</Text>		<!-- Kailua --></Replace>
+			<Text>ไคลัว</Text>		<!-- Kailua -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAWAII8" Language="th_TH">
-			<Text>ไวปาฮู</Text>		<!-- Waipahu --></Replace>
+			<Text>ไวปาฮู</Text>		<!-- Waipahu -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAWAII9" Language="th_TH">
 			<Text>ลานาอิ</Text>		<!-- Lāna'i -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAWAII10" Language="th_TH">
-			<Text>คะฮูลูอี</Text>		<!-- Kahului --></Replace>
+			<Text>คะฮูลูอี</Text>		<!-- Kahului -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAWAII11" Language="th_TH">
 			<Text>คิเฮอี</Text>		<!-- Kihei -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAWAII12" Language="th_TH">
-			<Text>ไวโคลู</Text>		<!-- Waikolu --></Replace>
+			<Text>ไวโคลู</Text>		<!-- Waikolu -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAWAII13" Language="th_TH">
-			<Text>กาปาอา</Text>		<!-- Kapa'a --></Replace>
+			<Text>กาปาอา</Text>		<!-- Kapa'a -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAWAII14" Language="th_TH">
 			<Text>เพิร์ลซิตี้</Text>		<!-- Pearl City -->
 		</Replace>
@@ -739,18 +749,23 @@
 			<Text>โคนา</Text>		<!-- Kona -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAWAII16" Language="th_TH">
-			<Text>คาอูนาคาฮากาย</Text>		<!-- Kaunakahakai --></Replace>
+			<Text>คาอูนาคาฮากาย</Text>		<!-- Kaunakahakai -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAWAII17" Language="th_TH">
 			<Text>นานาคูลี</Text>		<!-- Nānākuli -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAWAII18" Language="th_TH">
-			<Text>ไวลัว</Text>		<!-- Wailua --></Replace>
+			<Text>ไวลัว</Text>		<!-- Wailua -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAWAII19" Language="th_TH">
-			<Text>ปาปา'อิเกา</Text>		<!-- Pāpa'ikou --></Replace>
+			<Text>ปาปา'อิเกา</Text>		<!-- Pāpa'ikou -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAWAII20" Language="th_TH">
-			<Text>คาฮาลู'อู</Text>		<!-- Kahalu'u --></Replace>
+			<Text>คาฮาลู'อู</Text>		<!-- Kahalu'u -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAWAII21" Language="th_TH">
-			<Text>ไวเมอา</Text>		<!-- Waimea --></Replace>
+			<Text>ไวเมอา</Text>		<!-- Waimea -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAWAII22" Language="th_TH">
 			<Text>มาคาฮะ</Text>		<!-- Mākaha -->
 		</Replace>
@@ -773,7 +788,8 @@
 			<Text>เปเป้เอโก</Text>		<!-- Pepe’eko -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAWAII29" Language="th_TH">
-			<Text>อานาเอโฮโอมาลู</Text>		<!-- ‘Anaeho’omalu --></Replace>
+			<Text>อานาเอโฮโอมาลู</Text>		<!-- ‘Anaeho’omalu -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAWAII30" Language="th_TH">
 			<Text>ปูฮิ</Text>		<!-- Puhi -->
 		</Replace>
@@ -1753,7 +1769,8 @@
 			<Text>สุดท้าย มิงก็ทนไม่ไหวกับน้ำหนักนั้น</Text>		<!-- Eventually, Ming broke under its weight. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_CIVILIZATION_MING_CHAPTER_HISTORY_PARA_16" Language="th_TH">
-			<Text>เรื่องราวนั้นเริ่มต้นในญี่ปุ่นสมัยเซ็งโกคุ นี่คือยุคที่ทุกคนล้วนต่อสู้อย่างไม่เป็นระเบียบบนเกาะ ขณะที่ขุนนางจากภูมิภาคต่างๆ ต่อสู้เพื่อควบคุมจักรพรรดิและเรียกร้องตำแหน่งโชกุน ผู้นำใหญ่คนที่สองในยุคนี้คือโทโยโทมิ ฮิเดโยชิ ซึ่งไม่ต้องการหยุดการพิชิตของเขาที่ญี่ปุ่น แต่กลับตัดสินใจบุกเกาหลีและจีน การเดินทางครั้งนี้ไม่ประสบความสำเร็จ และเมื่อเวลาผ่านไป ชาวเกาหลีได้ขับไล่ชาวญี่ปุ่นออกไปด้วยความช่วยเหลือจากมิง อย่างไรก็ตาม มิงเองก็อยู่ในภาวะวิกฤตทางการเงินอย่างมาก ดังนั้นพวกเขาจึงมอบอิสระให้กับหัวหน้าชาวจูเจิน (และแมนจู) ในมณฑลแมนจูเรียซึ่งติดกับเกาหลี</Text>		<!-- That story starts in Sengoku Japan. This was an era of all against all on the island, as lords of different regions fought to control the emperor and claim the title of shogun. The second great leader of this time was Toyotomi Hideyoshi, who didn’t want to stop his conquest with Japan. Instead, he decided to invade Korea and China. This expedition was not a success, and over time the Koreans threw out the Japanese with Ming assistance. However, Ming was already in deep financial distress, so they granted autonomy to Manchu chiefs in Manchuria, which bordered Korea. --></Replace>
+			<Text>เรื่องราวนั้นเริ่มต้นในญี่ปุ่นสมัยเซ็งโกคุ นี่คือยุคที่ทุกคนล้วนต่อสู้อย่างไม่เป็นระเบียบบนเกาะ ขณะที่ขุนนางจากภูมิภาคต่างๆ ต่อสู้เพื่อควบคุมจักรพรรดิและเรียกร้องตำแหน่งโชกุน ผู้นำใหญ่คนที่สองในยุคนี้คือโทโยโทมิ ฮิเดโยชิ ซึ่งไม่ต้องการหยุดการพิชิตของเขาที่ญี่ปุ่น แต่กลับตัดสินใจบุกเกาหลีและจีน การเดินทางครั้งนี้ไม่ประสบความสำเร็จ และเมื่อเวลาผ่านไป ชาวเกาหลีได้ขับไล่ชาวญี่ปุ่นออกไปด้วยความช่วยเหลือจากมิง อย่างไรก็ตาม มิงเองก็อยู่ในภาวะวิกฤตทางการเงินอย่างมาก ดังนั้นพวกเขาจึงมอบอิสระให้กับหัวหน้าชาวจูเจิน (และแมนจู) ในมณฑลแมนจูเรียซึ่งติดกับเกาหลี</Text>		<!-- That story starts in Sengoku Japan. This was an era of all against all on the island, as lords of different regions fought to control the emperor and claim the title of shogun. The second great leader of this time was Toyotomi Hideyoshi, who didn’t want to stop his conquest with Japan. Instead, he decided to invade Korea and China. This expedition was not a success, and over time the Koreans threw out the Japanese with Ming assistance. However, Ming was already in deep financial distress, so they granted autonomy to Manchu chiefs in Manchuria, which bordered Korea. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_CIVILIZATION_MING_CHAPTER_HISTORY_PARA_17" Language="th_TH">
 			<Text>หนึ่งในหัวหน้าพวกเขา นูร์ฮาชิ ได้มีความกล้าหาญด้วยอำนาจและส่งรายการข้อเรียกร้องไปยังราชสำนักหมิง ข้อเรียกร้องส่วนใหญ่เป็นเรื่องไม่สำคัญและเกี่ยวข้องกับการทูตที่ไม่ดีของหมิง แต่การกระทำของนูร์ฮาชิได้จุดชนวนให้เกิดการกบฏที่ไม่อาจมองข้ามได้ การกบฏของชาวนาเกิดขึ้นทั่วอาณาจักร</Text>		<!-- One of these chiefs, Nurhaci, became emboldened with power and sent a list of grievances to the Ming court. Most of these are immaterial and relate to poor diplomacy on the Mings’ part, but Nurhaci sparked a rebellion that was not immaterial. Peasant revolts erupted around the empire. -->
 		</Replace>
@@ -2712,9 +2729,11 @@
 			<Text>สะพานยุคกลาง</Text>		<!-- Medieval Bridge -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MEDIEVAL_BRIDGE_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_GOLD] ทอง, อนุญาตให้ยูนิตภาคพื้นเคลื่อนที่ข้าม แม่น้ำใหญ่ โดยไม่ต้องขึ้นเรือ มีค่าใช้จ่ายในการสร้างถูกกว่าใน สถานที่ที่ถนนได้สร้างเป็นท่าข้ามแม่น้ำแล้ว, อาคารด้านทอง ยุคสำรวจ, ต้องวางบนพื้นที่พัฒนา บนแม่น้ำใหญ่, สามารถซื้อในเมืองได้</Text>		<!-- +4[icon:YIELD_GOLD] Gold. Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Exploration Gold Building. Must be placed on a Navigable River. Can be purchased in Towns only on the Town Center. --></Replace>
+			<Text>+4[icon:YIELD_GOLD] ทอง, อนุญาตให้ยูนิตภาคพื้นเคลื่อนที่ข้าม แม่น้ำใหญ่ โดยไม่ต้องขึ้นเรือ มีค่าใช้จ่ายในการสร้างถูกกว่าใน สถานที่ที่ถนนได้สร้างเป็นท่าข้ามแม่น้ำแล้ว, อาคารด้านทอง ยุคสำรวจ, ต้องวางบนพื้นที่พัฒนา บนแม่น้ำใหญ่, สามารถซื้อในเมืองได้</Text>		<!-- +4[icon:YIELD_GOLD] Gold. Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Exploration Gold Building. Must be placed on a Navigable River. Can be purchased in Towns only on the Town Center. -->
+		</Replace>
 		<Replace Tag="LOC_BUILDING_MEDIEVAL_BRIDGE_TOOLTIP" Language="th_TH">
-			<Text>อนุญาตให้ยูนิตภาคพื้นเคลื่อนที่ ข้ามแม่น้ำใหญ่โดยไม่ต้องขึ้นเรือ สร้างได้ถูกกว่าที่ที่ถนนได้สร้างสะพานข้ามแม่น้ำแล้ว, อาคารด้านทอง ยุคสำรวจ, ต้องวางบนพื้นที่พัฒนา บนแม่น้ำใหญ่, สามารถซื้อในเมืองได้</Text>		<!-- Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Exploration Gold Building. Must be placed on a Navigable River. Can be purchased in Towns only on the Town Center. --></Replace>
+			<Text>อนุญาตให้ยูนิตภาคพื้นเคลื่อนที่ ข้ามแม่น้ำใหญ่โดยไม่ต้องขึ้นเรือ สร้างได้ถูกกว่าที่ที่ถนนได้สร้างสะพานข้ามแม่น้ำแล้ว, อาคารด้านทอง ยุคสำรวจ, ต้องวางบนพื้นที่พัฒนา บนแม่น้ำใหญ่, สามารถซื้อในเมืองได้</Text>		<!-- Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Exploration Gold Building. Must be placed on a Navigable River. Can be purchased in Towns only on the Town Center. -->
+		</Replace>
 		<Replace Tag="LOC_BUILDING_MEDIEVAL_WALLS_NAME" Language="th_TH">
 			<Text>กำแพงยุคกลาง</Text>		<!-- Medieval Walls -->
 		</Replace>
@@ -2929,23 +2948,29 @@
 			<Text>คาราวานเซรัย</Text>		<!-- Caravanserai -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_CARAVANSERAI_DESCRIPTION" Language="th_TH">
-			<Text>+5[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_GOLD] ทอง โบนัสใกล้เคียง สำหรับแม่น้ำใหญ่ และทรัพยากร, เขตพัฒนาพิเศษ ของซองไฮ, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนทะเลทรายหรือทุ่งหญ้า</Text>		<!-- +5[icon:YIELD_GOLD] Gold. +1[icon:YIELD_GOLD] Gold Adjacency for Navigable Rivers and Resources. Songhai Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be built on an existing Improvement on Desert or Plains. --></Replace>
+			<Text>+5[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_GOLD] ทอง โบนัสใกล้เคียง สำหรับแม่น้ำใหญ่ และทรัพยากร, เขตพัฒนาพิเศษ ของซองไฮ, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนทะเลทรายหรือทุ่งหญ้า</Text>		<!-- +5[icon:YIELD_GOLD] Gold. +1[icon:YIELD_GOLD] Gold Adjacency for Navigable Rivers and Resources. Songhai Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be built on an existing Improvement on Desert or Plains. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_CARAVANSERAI_TOOLTIP" Language="th_TH">
-			<Text>เขตพัฒนาพิเศษ ของซองไฮ, คงอยู่ตลอดกาล, ไม่มีการลบโบนัสจากคลังสินค้าบนแผ่นดิน, ต้องวางบนพื้นที่พัฒนา บนทะเลทรายหรือทุ่งหญ้า</Text>		<!-- Songhai Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be built on an existing Improvement on Desert or Plains. --></Replace>
+			<Text>เขตพัฒนาพิเศษ ของซองไฮ, คงอยู่ตลอดกาล, ไม่มีการลบโบนัสจากคลังสินค้าบนแผ่นดิน, ต้องวางบนพื้นที่พัฒนา บนทะเลทรายหรือทุ่งหญ้า</Text>		<!-- Songhai Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be built on an existing Improvement on Desert or Plains. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_LO_I_KALO_NAME" Language="th_TH">
 			<Text>โลอี คาโล</Text>		<!-- Lo'i Kalo -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_LO_I_KALO_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร และ +2[icon:YIELD_PRODUCTION] กำลังผลิต, ฟาร์มที่อยู่ติดกันได้รับ +1[icon:YIELD_CULTURE] วัฒนธรรม, เขตพัฒนาพิเศษ ของฮาวาย, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่หญ้าหรือเขตร้อน</Text>		<!-- +3[icon:YIELD_FOOD] Food and +2[icon:YIELD_PRODUCTION] Production. Adjacent Farms receive +1[icon:YIELD_CULTURE] Culture. Hawaiian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Grassland or Tropical. --></Replace>
+			<Text>+3[icon:YIELD_FOOD] อาหาร และ +2[icon:YIELD_PRODUCTION] กำลังผลิต, ฟาร์มที่อยู่ติดกันได้รับ +1[icon:YIELD_CULTURE] วัฒนธรรม, เขตพัฒนาพิเศษ ของฮาวาย, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่หญ้าหรือเขตร้อน</Text>		<!-- +3[icon:YIELD_FOOD] Food and +2[icon:YIELD_PRODUCTION] Production. Adjacent Farms receive +1[icon:YIELD_CULTURE] Culture. Hawaiian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Grassland or Tropical. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_LO_I_KALO_TOOLTIP" Language="th_TH">
-			<Text>ฟาร์มที่อยู่ติดกันได้รับ +1[icon:YIELD_CULTURE] วัฒนธรรม, เขตพัฒนาพิเศษ ของฮาวาย, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่หญ้าหรือเขตร้อน</Text>		<!-- Adjacent Farms receive +1[icon:YIELD_CULTURE] Culture. Hawaiian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Grassland or Tropical. --></Replace>
+			<Text>ฟาร์มที่อยู่ติดกันได้รับ +1[icon:YIELD_CULTURE] วัฒนธรรม, เขตพัฒนาพิเศษ ของฮาวาย, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่หญ้าหรือเขตร้อน</Text>		<!-- Adjacent Farms receive +1[icon:YIELD_CULTURE] Culture. Hawaiian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Grassland or Tropical. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MING_GREAT_WALL_NAME" Language="th_TH">
 			<Text>กำแพงเมืองจีนหมิง</Text>		<!-- Ming Great Wall -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MING_GREAT_WALL_DESCRIPTION" Language="th_TH">
-			<Text>+5[icon:YIELD_CULTURE] วัฒนธรรม +1[icon:YIELD_GOLD] ทอง โบนัสใกล้เคียง อาคารและเขตพัฒนาที่มีการเสริมกำลัง, เขตพัฒนาพิเศษ ของหมิง, คงอยู่ตลอดกาล, นับเป็นการเสริมกำลัง, +6 พลังต่อสู้ เมื่อป้องกัน, ไม่ลบโบนัสจากคลังสินค้าที่อยู่บนแผ่นดิน, สามารถสร้างได้เฉพาะในแนวเดียว และต้องวางบนพื้นที่พัฒนา, ไม่สามารถแยกหรือแตกกิ่งได้</Text>		<!-- +5[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_GOLD] Gold Adjacency for Fortification Buildings and Improvements. Ming Unique Improvement. Ageless. Counts as Fortification, +6 Combat Strength when defending. Does not remove Warehouse bonuses on a tile. Can only be built in a line and must be placed on an existing Improvement. Cannot branch or fork. --></Replace>
+			<Text>+5[icon:YIELD_CULTURE] วัฒนธรรม +1[icon:YIELD_GOLD] ทอง โบนัสใกล้เคียง อาคารและเขตพัฒนาที่มีการเสริมกำลัง, เขตพัฒนาพิเศษ ของหมิง, คงอยู่ตลอดกาล, นับเป็นการเสริมกำลัง, +6 พลังต่อสู้ เมื่อป้องกัน, ไม่ลบโบนัสจากคลังสินค้าที่อยู่บนแผ่นดิน, สามารถสร้างได้เฉพาะในแนวเดียว และต้องวางบนพื้นที่พัฒนา, ไม่สามารถแยกหรือแตกกิ่งได้</Text>		<!-- +5[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_GOLD] Gold Adjacency for Fortification Buildings and Improvements. Ming Unique Improvement. Ageless. Counts as Fortification, +6 Combat Strength when defending. Does not remove Warehouse bonuses on a tile. Can only be built in a line and must be placed on an existing Improvement. Cannot branch or fork. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MING_GREAT_WALL_TOOLTIP" Language="th_TH">
-			<Text>เขตพัฒนาพิเศษ ของหมิง, คงอยู่ตลอดกาล, นับเป็นการเสริมความแข็งแกร่ง, +6 พลังต่อสู้ เมื่อป้องกัน, ไม่ลบโบนัสโกดังบนแผ่นดิน, สามารถสร้างได้เฉพาะในแนวเดียว และต้องวางบนพื้นที่พัฒนา, ไม่สามารถแยกหรือแตกกิ่งได้</Text>		<!-- Ming Unique Improvement. Ageless. Counts as Fortification, +6 Combat Strength when defending. Does not remove Warehouse bonuses on a tile. Can only be built in a line and must be placed on an existing Improvement. Cannot branch or fork. --></Replace>
+			<Text>เขตพัฒนาพิเศษ ของหมิง, คงอยู่ตลอดกาล, นับเป็นการเสริมความแข็งแกร่ง, +6 พลังต่อสู้ เมื่อป้องกัน, ไม่ลบโบนัสโกดังบนแผ่นดิน, สามารถสร้างได้เฉพาะในแนวเดียว และต้องวางบนพื้นที่พัฒนา, ไม่สามารถแยกหรือแตกกิ่งได้</Text>		<!-- Ming Unique Improvement. Ageless. Counts as Fortification, +6 Combat Strength when defending. Does not remove Warehouse bonuses on a tile. Can only be built in a line and must be placed on an existing Improvement. Cannot branch or fork. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_INCA_MOUNTAIN_NAME" Language="th_TH">
 			<Text>ฐานการสำรวจ</Text>		<!-- Expedition Base -->
 		</Replace>
@@ -2953,44 +2978,56 @@
 			<Text>เออร์ตู</Text>		<!-- Örtöö -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ORTOO_DESCRIPTION" Language="th_TH">
-			<Text>+5[icon:YIELD_GOLD] ทอง ฟื้นฟูการเคลื่อนไหวให้กับยูนิตมองโกลใด ๆ ที่อยู่ในตำแหน่งนั้น, เขตพัฒนาพิเศษ ของชาวมองโกล, คงอยู่ตลอดกาล, ไม่ลบโบนัสโกดังบนแผ่นดิน, ต้องวางบนพื้นที่พัฒนา และไม่สามารถวางบนพื้นที่ขรุขระ, แม่น้ำ, หรือบนช่องที่มีลักษณะเฉพาะ</Text>		<!-- +5[icon:YIELD_GOLD] Gold. Restores movement to any Mongol Unit at its location. Mongolian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed on Rough, River, or a tile with a Feature. --></Replace>
+			<Text>+5[icon:YIELD_GOLD] ทอง ฟื้นฟูการเคลื่อนไหวให้กับยูนิตมองโกลใด ๆ ที่อยู่ในตำแหน่งนั้น, เขตพัฒนาพิเศษ ของชาวมองโกล, คงอยู่ตลอดกาล, ไม่ลบโบนัสโกดังบนแผ่นดิน, ต้องวางบนพื้นที่พัฒนา และไม่สามารถวางบนพื้นที่ขรุขระ, แม่น้ำ, หรือบนช่องที่มีลักษณะเฉพาะ</Text>		<!-- +5[icon:YIELD_GOLD] Gold. Restores movement to any Mongol Unit at its location. Mongolian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed on Rough, River, or a tile with a Feature. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ORTOO_TOOLTIP" Language="th_TH">
-			<Text>ฟื้นฟูแต้มเคลื่อนที่ให้กับยูนิตมองโกลใดๆ ที่ตำแหน่งของมัน เขตพัฒนาพิเศษ ของชาวมองโกล, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา และไม่สามารถวางบนพื้นที่ขรุขระ แม่น้ำ หรือช่องที่มีลักษณะพิเศษ</Text>		<!-- Restores movement to any Mongol Unit at its location. Mongolian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed on Rough, River, or a tile with a Feature. --></Replace>
+			<Text>ฟื้นฟูแต้มเคลื่อนที่ให้กับยูนิตมองโกลใดๆ ที่ตำแหน่งของมัน เขตพัฒนาพิเศษ ของชาวมองโกล, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา และไม่สามารถวางบนพื้นที่ขรุขระ แม่น้ำ หรือช่องที่มีลักษณะพิเศษ</Text>		<!-- Restores movement to any Mongol Unit at its location. Mongolian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed on Rough, River, or a tile with a Feature. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_TERRACE_FARM_NAME" Language="th_TH">
 			<Text>ฟาร์มขั้นบันได</Text>		<!-- Terrace Farm -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_TERRACE_FARM_DESCRIPTION" Language="th_TH">
-			<Text>+6[icon:YIELD_FOOD] อาหาร, เขตพัฒนาพิเศษ ของอินคา, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ขรุขระที่ติดกับภูเขา</Text>		<!-- +6[icon:YIELD_FOOD] Food. Incan Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Rough Terrain adjacent to a Mountain. --></Replace>
+			<Text>+6[icon:YIELD_FOOD] อาหาร, เขตพัฒนาพิเศษ ของอินคา, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ขรุขระที่ติดกับภูเขา</Text>		<!-- +6[icon:YIELD_FOOD] Food. Incan Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Rough Terrain adjacent to a Mountain. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_TERRACE_FARM_TOOLTIP" Language="th_TH">
-			<Text>เขตพัฒนาพิเศษ ของอินคา, คงอยู่ตลอดกาล, ไม่ลบโบนัสโกดังในแผ่นดิน, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ขรุขระที่อยู่ติดกับภูเขา</Text>		<!-- Incan Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Rough Terrain adjacent to a Mountain. --></Replace>
+			<Text>เขตพัฒนาพิเศษ ของอินคา, คงอยู่ตลอดกาล, ไม่ลบโบนัสโกดังในแผ่นดิน, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ขรุขระที่อยู่ติดกับภูเขา</Text>		<!-- Incan Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Rough Terrain adjacent to a Mountain. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_KASBAH_NAME" Language="th_TH">
 			<Text>คาซบะ</Text>		<!-- Kasbah -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_KASBAH_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_CULTURE],[icon:YIELD_GOLD] ทอง และ[icon:YIELD_SCIENCE] วิทยาศาสตร์ เขตพัฒนาพิเศษ ของนครรัฐ, นับเป็นการเสริมสร้าง, +6 พลังต่อสู้ เมื่อป้องกัน, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา ในเขตทะเลทราย</Text>		<!-- +1[icon:YIELD_CULTURE],[icon:YIELD_GOLD] Gold, and[icon:YIELD_SCIENCE] Science. City State Unique Improvement. Counts as Fortification, +6 Combat Strength when defending. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Desert. --></Replace>
+			<Text>+1[icon:YIELD_CULTURE],[icon:YIELD_GOLD] ทอง และ[icon:YIELD_SCIENCE] วิทยาศาสตร์ เขตพัฒนาพิเศษ ของนครรัฐ, นับเป็นการเสริมสร้าง, +6 พลังต่อสู้ เมื่อป้องกัน, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา ในเขตทะเลทราย</Text>		<!-- +1[icon:YIELD_CULTURE],[icon:YIELD_GOLD] Gold, and[icon:YIELD_SCIENCE] Science. City State Unique Improvement. Counts as Fortification, +6 Combat Strength when defending. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Desert. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_KASBAH_TOOLTIP" Language="th_TH">
-			<Text>เขตพัฒนาพิเศษ ของนครรัฐ, นับเป็นการเสริมกำลัง, เพิ่ม +6 พลังต่อสู้ เมื่อป้องกัน ไม่ลบโบนัสโกดังบนแผ่นดิน ต้องวางบนพื้นที่พัฒนา ในเขตทะเลทราย</Text>		<!-- City State Unique Improvement. Counts as Fortification, +6 Combat Strength when defending. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Desert. --></Replace>
+			<Text>เขตพัฒนาพิเศษ ของนครรัฐ, นับเป็นการเสริมกำลัง, เพิ่ม +6 พลังต่อสู้ เมื่อป้องกัน ไม่ลบโบนัสโกดังบนแผ่นดิน ต้องวางบนพื้นที่พัฒนา ในเขตทะเลทราย</Text>		<!-- City State Unique Improvement. Counts as Fortification, +6 Combat Strength when defending. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Desert. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_STONE_HEAD_NAME" Language="th_TH">
 			<Text>สโตนเฮด</Text>		<!-- Stone Head -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_STONE_HEAD_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_CULTURE] วัฒนธรรม +1[icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุก สโตนเฮดที่อยู่ใกล้, เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา ที่มีผลผลิตความสุขตามธรรมชาติ</Text>		<!-- +4[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_CULTURE] Culture for every adjacent Stone Head. City State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on tiles with a natural Happiness yield. --></Replace>
+			<Text>+4[icon:YIELD_CULTURE] วัฒนธรรม +1[icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุก สโตนเฮดที่อยู่ใกล้, เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา ที่มีผลผลิตความสุขตามธรรมชาติ</Text>		<!-- +4[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_CULTURE] Culture for every adjacent Stone Head. City State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on tiles with a natural Happiness yield. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_STONE_HEAD_TOOLTIP" Language="th_TH">
-			<Text>เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา ที่มีผลผลิตความสุขตามธรรมชาติ</Text>		<!-- City State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on tiles with a natural Happiness yield. --></Replace>
+			<Text>เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา ที่มีผลผลิตความสุขตามธรรมชาติ</Text>		<!-- City State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on tiles with a natural Happiness yield. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_TRADING_FACTORY_NAME" Language="th_TH">
 			<Text>บริษัทไปรษณีย์</Text>		<!-- Company Post -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_TRADING_FACTORY_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_FOOD] อาหาร และ[icon:YIELD_PRODUCTION] กำลังผลิต ในดินแดนห่างไกล, +2[icon:YIELD_GOLD] ทอง หากมีทรัพยากรอย่างน้อยหนึ่งอย่างถูกกำหนดให้กับถิ่นฐานนี้, เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา และไม่สามารถวางในตำแหน่งที่ติดกันกับ บริษัทไปรษณีย์ แห่งอื่นได้</Text>		<!-- +4[icon:YIELD_GOLD] Gold. +1[icon:YIELD_FOOD] Food and[icon:YIELD_PRODUCTION] Production in Distant Lands. +2[icon:YIELD_GOLD] Gold if there is at least one Resource assigned to this Settlement. City State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to another Company Post. --></Replace>
+			<Text>+4[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_FOOD] อาหาร และ[icon:YIELD_PRODUCTION] กำลังผลิต ในดินแดนห่างไกล, +2[icon:YIELD_GOLD] ทอง หากมีทรัพยากรอย่างน้อยหนึ่งอย่างถูกกำหนดให้กับถิ่นฐานนี้, เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา และไม่สามารถวางในตำแหน่งที่ติดกันกับ บริษัทไปรษณีย์ แห่งอื่นได้</Text>		<!-- +4[icon:YIELD_GOLD] Gold. +1[icon:YIELD_FOOD] Food and[icon:YIELD_PRODUCTION] Production in Distant Lands. +2[icon:YIELD_GOLD] Gold if there is at least one Resource assigned to this Settlement. City State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to another Company Post. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_TRADING_FACTORY_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_FOOD] อาหาร และ[icon:YIELD_PRODUCTION] กำลังผลิต ในดินแดนห่างไกล +2[icon:YIELD_GOLD] ทอง หากมีทรัพยากรอย่างน้อย หนึ่งรายการ ที่ถูกมอบหมายให้กับถิ่นฐานนี้, เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา และไม่สามารถวางใกล้กับ บริษัทไปรษณีย์ แห่งอื่นได้</Text>		<!-- +1[icon:YIELD_FOOD] Food and[icon:YIELD_PRODUCTION] Production in Distant Lands. +2[icon:YIELD_GOLD] Gold if there is at least one Resource assigned to this Settlement. City State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to another Company Post. --></Replace>
+			<Text>+1[icon:YIELD_FOOD] อาหาร และ[icon:YIELD_PRODUCTION] กำลังผลิต ในดินแดนห่างไกล +2[icon:YIELD_GOLD] ทอง หากมีทรัพยากรอย่างน้อย หนึ่งรายการ ที่ถูกมอบหมายให้กับถิ่นฐานนี้, เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา และไม่สามารถวางใกล้กับ บริษัทไปรษณีย์ แห่งอื่นได้</Text>		<!-- +1[icon:YIELD_FOOD] Food and[icon:YIELD_PRODUCTION] Production in Distant Lands. +2[icon:YIELD_GOLD] Gold if there is at least one Resource assigned to this Settlement. City State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to another Company Post. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MONASTERY_NAME" Language="th_TH">
 			<Text>มอนัสเทอรี</Text>		<!-- Monastery -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MONASTERY_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_SCIENCE] วิทยาศาสตร์ +3[icon:YIELD_HAPPINESS] ความสุข หากถิ่นฐานนี้นับถือศาสนาของคุณ, เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา และไม่สามารถวางอยู่ติดกับเขตได้</Text>		<!-- +4[icon:YIELD_SCIENCE] Science. +3[icon:YIELD_HAPPINESS] Happiness if this Settlement follows your Religion. City State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to a District --></Replace>
+			<Text>+4[icon:YIELD_SCIENCE] วิทยาศาสตร์ +3[icon:YIELD_HAPPINESS] ความสุข หากถิ่นฐานนี้นับถือศาสนาของคุณ, เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา และไม่สามารถวางอยู่ติดกับเขตได้</Text>		<!-- +4[icon:YIELD_SCIENCE] Science. +3[icon:YIELD_HAPPINESS] Happiness if this Settlement follows your Religion. City State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to a District -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MONASTERY_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_HAPPINESS] ความสุข หากถิ่นฐานนี้นับถือศาสนาของคุณ, เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา และไม่สามารถวางติดกับเขตได้</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness if this Settlement follows your Religion. City State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to a District. --></Replace>
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข หากถิ่นฐานนี้นับถือศาสนาของคุณ, เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา และไม่สามารถวางติดกับเขตได้</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness if this Settlement follows your Religion. City State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to a District. -->
+		</Replace>
 		<Replace Tag="LOC_QUARTER_DONJON_NAME" Language="th_TH">
 			<Text>ดอนจอน</Text>		<!-- Donjon -->
 		</Replace>
@@ -3973,7 +4010,8 @@
 			<Text>กากามวงศ์ซาร์ปาเพจะเดนิ่งยุยุ</Text>		<!-- Gagak Mwang Sarpa Pejah Dening Yuyu -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_NUSUNTARA_NAME" Language="th_TH">
-			<Text>นูซันตารา</Text>		<!-- Nusantara --></Replace>
+			<Text>นูซันตารา</Text>		<!-- Nusantara -->
+		</Replace>
 		<Replace Tag="LOC_CIVIC_NUSUNTARA_QUOTE" Language="th_TH">
 			<Text>ไม่ว่าเธอจะไปที่ไหน เราจะติดตาม และแบ่งปันทั้งความสุขและความเศร้าใจ</Text>		<!-- Wherever you go, we will follow, and share in joy and sorrow. -->
 		</Replace>
@@ -4005,7 +4043,8 @@
 			<Text>เพดันดามอบ 25 [icon:YIELD_CULTURE] วัฒนธรรม เพิ่มเติมเมื่อเผยแพร่ศาสนา ในถิ่นฐานให้มานับถือ</Text>		<!-- The Pedanda grants an extra [icon:YIELD_CULTURE] 25 Culture when it converts a Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_GAMELAN_CULTURE_BUILDINGS_THIS_AGE_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม บนย่าน</Text>		<!-- +2[icon:YIELD_CULTURE] Culture on Quarters. --></Replace>
+			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม บนย่าน</Text>		<!-- +2[icon:YIELD_CULTURE] Culture on Quarters. -->
+		</Replace>
 		<Replace Tag="LOC_TREE_CIVICS_EX_MING_NAME" Language="th_TH">
 			<Text>แนวคิดหมิง</Text>		<!-- Ming Civics -->
 		</Replace>
@@ -4352,7 +4391,8 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23010B_IMPERATIVE" Language="th_TH">
-			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23010C_NAME" Language="th_TH">
 			<Text>ปล่อยให้พนักงานทำไป</Text>		<!-- Leave the workers. -->
 		</Replace>
@@ -4417,7 +4457,8 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_27009B_IMPERATIVE" Language="th_TH">
-			<Text>{1_reward} และ {3_reward} ใน {2_capital}</Text>		<!-- {1_reward} and {3_reward} in {2_capital}. --></Replace>
+			<Text>{1_reward} และ {3_reward} ใน {2_capital}</Text>		<!-- {1_reward} and {3_reward} in {2_capital}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_27009C_NAME" Language="th_TH">
 			<Text>ปล่อยให้ช่างสร้างเรือทำตามลำพัง</Text>		<!-- Leave the shipwrights. -->
 		</Replace>
@@ -4449,7 +4490,8 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_27010B_IMPERATIVE" Language="th_TH">
-			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_27010C_NAME" Language="th_TH">
 			<Text>พวกเขาจะต้องเรียนรู้ทักษะใหม่</Text>		<!-- They will have to learn new skills. -->
 		</Replace>
@@ -4514,7 +4556,8 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23009B_IMPERATIVE" Language="th_TH">
-			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23009C_NAME" Language="th_TH">
 			<Text>ทิ้งนักรบรับจ้างไป</Text>		<!-- Leave the mercenaries. -->
 		</Replace>
@@ -4612,9 +4655,11 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_28005B_IMPERATIVE" Language="th_TH">
-			<Text>{2_reward} ใน {1_capital}</Text>		<!-- {2_reward} in {1_capital}. --></Replace>
+			<Text>{2_reward} ใน {1_capital}</Text>		<!-- {2_reward} in {1_capital}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_28005B_IMPERATIVE" Language="th_TH">
-			<Text>{2_reward} ใน {1_capital}</Text>		<!-- {2_reward} in {1_capital}. --></Replace>
+			<Text>{2_reward} ใน {1_capital}</Text>		<!-- {2_reward} in {1_capital}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_28005C_NAME" Language="th_TH">
 			<Text>ทิ้งชายชรา</Text>		<!-- Leave the horseman. -->
 		</Replace>
@@ -4679,7 +4724,8 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23007B_IMPERATIVE" Language="th_TH">
-			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23007C_NAME" Language="th_TH">
 			<Text>ปล่อยมันไว้</Text>		<!-- Leave it be. -->
 		</Replace>
@@ -4927,7 +4973,8 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_25004B_IMPERATIVE" Language="th_TH">
-			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_25004C_NAME" Language="th_TH">
 			<Text>ปล่อยให้ผู้ไม่เห็นด้วยไป</Text>		<!-- Leave the dissident. -->
 		</Replace>
@@ -5025,7 +5072,8 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21009B_IMPERATIVE" Language="th_TH">
-			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21009C_NAME" Language="th_TH">
 			<Text>ปล่อยพริกไว้ตามเดิม</Text>		<!-- Leave the peppers. -->
 		</Replace>
@@ -5057,7 +5105,8 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21101B_IMPERATIVE" Language="th_TH">
-			<Text>{2_reward} ใน {1_capital}</Text>		<!-- {2_reward} in {1_capital}. --></Replace>
+			<Text>{2_reward} ใน {1_capital}</Text>		<!-- {2_reward} in {1_capital}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21101C_NAME" Language="th_TH">
 			<Text>ทิ้งซากเรือไว้</Text>		<!-- Leave the wreck. -->
 		</Replace>
@@ -5089,7 +5138,8 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21102B_IMPERATIVE" Language="th_TH">
-			<Text>{2_reward} ใน {1_capital}</Text>		<!-- {2_reward} in {1_capital}. --></Replace>
+			<Text>{2_reward} ใน {1_capital}</Text>		<!-- {2_reward} in {1_capital}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21102C_NAME" Language="th_TH">
 			<Text>ไม่ช่วยนักประดิษฐ์</Text>		<!-- Leave the inventor. -->
 		</Replace>
@@ -5121,7 +5171,8 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21103B_IMPERATIVE" Language="th_TH">
-			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21103C_NAME" Language="th_TH">
 			<Text>ส่งทหารกลับบ้านเก่า</Text>		<!-- Return the soldiers to their old home. -->
 		</Replace>
@@ -5900,7 +5951,8 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21105B_IMPERATIVE" Language="th_TH">
-			<Text>{2_reward} ใน {1_capital}</Text>		<!-- {2_reward} in {1_capital}. --></Replace>
+			<Text>{2_reward} ใน {1_capital}</Text>		<!-- {2_reward} in {1_capital}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21105C_NAME" Language="th_TH">
 			<Text>ปล้นทรัพย์สินภายใน</Text>		<!-- Plunder it. -->
 		</Replace>
@@ -5932,9 +5984,11 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21106B_IMPERATIVE" Language="th_TH">
-			<Text>{2_reward} ใน {1_capital}</Text>		<!-- {2_reward} in {1_capital}. --></Replace>
+			<Text>{2_reward} ใน {1_capital}</Text>		<!-- {2_reward} in {1_capital}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21106B_IMPERATIVE" Language="th_TH">
-			<Text>{2_reward} ใน {1_capital}</Text>		<!-- {2_reward} in {1_capital}. --></Replace>
+			<Text>{2_reward} ใน {1_capital}</Text>		<!-- {2_reward} in {1_capital}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21106C_NAME" Language="th_TH">
 			<Text>โยนตาข่ายลงไป</Text>		<!-- Throw down some nets. -->
 		</Replace>
@@ -5966,7 +6020,8 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21107B_IMPERATIVE" Language="th_TH">
-			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21107C_NAME" Language="th_TH">
 			<Text>น่าหลงใหล ขยับไปข้างหน้า</Text>		<!-- Charming. Move on. -->
 		</Replace>
@@ -5998,7 +6053,8 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21108B_IMPERATIVE" Language="th_TH">
-			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21108C_NAME" Language="th_TH">
 			<Text>สนุกกับการพักผ่อน</Text>		<!-- Enjoy the respite. -->
 		</Replace>
@@ -6030,9 +6086,11 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21109B_IMPERATIVE" Language="th_TH">
-			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21109B_IMPERATIVE" Language="th_TH">
-			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21109C_NAME" Language="th_TH">
 			<Text>ความกลัวกระตุ้นให้เกิดผลผลิต</Text>		<!-- Fear encourages productivity. -->
 		</Replace>
@@ -6064,7 +6122,8 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21110B_IMPERATIVE" Language="th_TH">
-			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21110C_NAME" Language="th_TH">
 			<Text>อย่าให้อาหารสัตว์จรจัด</Text>		<!-- Don't feed the strays. -->
 		</Replace>
@@ -6162,9 +6221,11 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21113B_IMPERATIVE" Language="th_TH">
-			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21113B_IMPERATIVE" Language="th_TH">
-			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21113C_NAME" Language="th_TH">
 			<Text>หลีกเลี่ยงผู้ที่ให้ความช่วยเหลือแก่ศัตรู</Text>		<!-- Shun those who offer succor to an enemy. -->
 		</Replace>
@@ -6262,7 +6323,8 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21117B_IMPERATIVE" Language="th_TH">
-			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21117C_NAME" Language="th_TH">
 			<Text>ทำลายจดหมาย</Text>		<!-- Destroy the letter. -->
 		</Replace>
@@ -6294,7 +6356,8 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21118B_IMPERATIVE" Language="th_TH">
-			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21118C_NAME" Language="th_TH">
 			<Text>ไม่สนใจสิ่งเหล่านี้และมองว่ามันเป็นแค่ของพิธีกรรม</Text>		<!-- Dismiss these as ritual objects. -->
 		</Replace>
@@ -6917,7 +6980,8 @@
 			<Text>จุงกาเรีย</Text>		<!-- Dzungaria -->
 		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_EXPLORATION_19_MAJOR_NAME" Language="th_TH">
-			<Text>เคียฟ</Text>		<!-- Kyiv --></Replace>
+			<Text>เคียฟ</Text>		<!-- Kyiv -->
+		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_EXPLORATION_20_MAJOR_NAME" Language="th_TH">
 			<Text>รอสกิลด์</Text>		<!-- Roskilde -->
 		</Replace>
@@ -10642,7 +10706,8 @@
 			<Text>สถานที่ที่มันต้องเคยไปเยือน..</Text>		<!-- The places it must have seen... -->
 		</Replace>
 		<Replace Tag="LOC_259C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} ใน {2_capital}</Text>		<!-- {1_reward} in {2_capital}. --></Replace>
+			<Text>{1_reward} ใน {2_capital}</Text>		<!-- {1_reward} in {2_capital}. -->
+		</Replace>
 		<Replace Tag="LOC_259D_NAME" Language="th_TH">
 			<Text>...ความทุกข์ที่มันคงนำมาด้วยแน่ๆ</Text>		<!-- ...the suffering it is sure to have brought. -->
 		</Replace>
@@ -10722,11 +10787,14 @@
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_1174A_STORYTITLE" Language="th_TH">
-			<Text>นักพรตศักดิ์สิทธิ์</Text>		<!-- The Holy Mendicants --></Replace>
+			<Text>นักพรตศักดิ์สิทธิ์</Text>		<!-- The Holy Mendicants -->
+		</Replace>
 		<Replace Tag="LOC_1174A_COMPLETION" Language="th_TH">
-			<Text>นุ่งห่มเพียงผ้าคลุมสีดำเรียบง่าย เหล่าศาสนิกชนแห่งลัทธิใหม่ผู้ตั้งมั่นในศรัทธาของ ชาว{1_civilization_adj} เดินทางไกลไปยังดินแดนอันห่างไกล ความยากไร้ที่พวกเขาอ้างถึง ยิ่งเพิ่มพูนแรงดึงดูด ขณะที่ความใกล้ชิดกับความหรูหราของต่างแดน ก่อให้เกิดอิทธิพลอันแผ่ไพศาล</Text>		<!-- Clad in simple black robes, the new order dedicated to spreading the beliefs of the {1_civilization_adj} people moves in lands far from home. Their claims to poverty increase their appeal; their proximity to foreign luxuries increases their influence. --></Replace>
+			<Text>นุ่งห่มเพียงผ้าคลุมสีดำเรียบง่าย เหล่าศาสนิกชนแห่งลัทธิใหม่ผู้ตั้งมั่นในศรัทธาของ ชาว{1_civilization_adj} เดินทางไกลไปยังดินแดนอันห่างไกล ความยากไร้ที่พวกเขาอ้างถึง ยิ่งเพิ่มพูนแรงดึงดูด ขณะที่ความใกล้ชิดกับความหรูหราของต่างแดน ก่อให้เกิดอิทธิพลอันแผ่ไพศาล</Text>		<!-- Clad in simple black robes, the new order dedicated to spreading the beliefs of the {1_civilization_adj} people moves in lands far from home. Their claims to poverty increase their appeal; their proximity to foreign luxuries increases their influence. -->
+		</Replace>
 		<Replace Tag="LOC_1174B_NAME" Language="th_TH">
-			<Text>ปิด</Text>		<!-- The divine and secular worlds are aligned. --></Replace>
+			<Text>ปิด</Text>		<!-- The divine and secular worlds are aligned. -->
+		</Replace>
 		<Replace Tag="LOC_1174B_DESCRIPTION" Language="th_TH">
 			<Text>+1 ความเชื่อ</Text>		<!-- +1 Belief. -->
 		</Replace>
@@ -12010,7 +12078,8 @@
 			<Text>ความมั่งคั่งของโลก ความมั่งคั่งของพระเจ้า – ทั้งสองอย่างสามารถพบได้ภายในรัศมีของอโศก</Text>		<!-- The riches of the world, the riches of the divine – both can be found within Ashoka's aura. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1015B_IMPERATIVE" Language="th_TH">
-			<Text>มี โกโก้, น้ำตาล, ชา และ เครื่องเทศ</Text>		<!-- Gather Cocoa, Sugar, Tea, and Spices. --></Replace>
+			<Text>มี โกโก้, น้ำตาล, ชา และ เครื่องเทศ</Text>		<!-- Gather Cocoa, Sugar, Tea, and Spices. -->
+		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1016A_STORYTITLE" Language="th_TH">
 			<Text>โพธิสัตว์</Text>		<!-- Bodhisattva -->
 		</Replace>
@@ -13017,7 +13086,8 @@
 			<Text>ตลาดของแฮตเชปซุต เต็มไปด้วยความมั่งคั่งจากหลายประเทศ ในอาณาจักรของเธอ เส้นทางการค้าของโลกมาบรรจบกัน</Text>		<!-- Hatshepsut's markets overflow with the wealth of many nations. Within her realm, the trade routes of the world converge. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1095B_IMPERATIVE" Language="th_TH">
-			<Text>มี น้ำตาล, โกโก้, ชา และ เครื่องเทศ</Text>		<!-- Gather Sugar, Cocoa, Tea, and Spices. --></Replace>
+			<Text>มี น้ำตาล, โกโก้, ชา และ เครื่องเทศ</Text>		<!-- Gather Sugar, Cocoa, Tea, and Spices. -->
+		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1096A_STORYTITLE" Language="th_TH">
 			<Text>ความเป็นอมตะ</Text>		<!-- Immortality -->
 		</Replace>
@@ -13556,7 +13626,8 @@
 			<Text>หมู่เกาะเครื่องเทศ</Text>		<!-- The Spice Islands -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1137A_COMPLETION" Language="th_TH">
-			<Text>แทนที่จะเป็นกลิ่นของปลาตายและน้ำเปรี้ยว ท่าเรือของริซาลกลับเต็มไปด้วยกลิ่นหอมของเครื่องเทศนานาชนิด: อบเชยและกานพลู, มะพร้าวและมะกรูด, ส้มและพริกไทย</Text>		<!-- Instead of the smell of dead fish and sour water, Rizal's docks are perfumed with a thousand delightful scents: cinnamon and clove, nutmeg and makrut lime, citrus and pepper. --></Replace>
+			<Text>แทนที่จะเป็นกลิ่นของปลาตายและน้ำเปรี้ยว ท่าเรือของริซาลกลับเต็มไปด้วยกลิ่นหอมของเครื่องเทศนานาชนิด: อบเชยและกานพลู, มะพร้าวและมะกรูด, ส้มและพริกไทย</Text>		<!-- Instead of the smell of dead fish and sour water, Rizal's docks are perfumed with a thousand delightful scents: cinnamon and clove, nutmeg and makrut lime, citrus and pepper. -->
+		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1137B_STORYTITLE" Language="th_TH">
 			<Text>หมู่เกาะเครื่องเทศ</Text>		<!-- The Spice Islands -->
 		</Replace>
@@ -13570,7 +13641,8 @@
 			<Text>พ่อค้าของรีซัล ส่งมอบสินค้าอันน่าอัศจรรย์ จากฟากฝั่งทะเลอย่างไม่รู้จักหมดสิ้น มันเป็นการอิ่มอร่อยสำหรับ ทุกประสาทสัมผัสและจินตนาการ</Text>		<!-- Rizal's merchants deliver an endless supply of marvelous goods from across the sea. They are a feast for the senses, and for the imagination. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1137B_IMPERATIVE" Language="th_TH">
-			<Text>มี โกโก้, น้ำตาล, ชา และ เครื่องเทศ</Text>		<!-- Gather Cocoa, Sugar, Tea, and Spices. --></Replace>
+			<Text>มี โกโก้, น้ำตาล, ชา และ เครื่องเทศ</Text>		<!-- Gather Cocoa, Sugar, Tea, and Spices. -->
+		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1143A_STORYTITLE" Language="th_TH">
 			<Text>เหนือขอบฟ้า</Text>		<!-- Beyond the Horizon -->
 		</Replace>
@@ -14663,7 +14735,8 @@
 			<Text>จัดงานเลี้ยงสาธารณะ...ด้วยลาผัด</Text>		<!-- Plan a public feast...of roast donkey. -->
 		</Replace>
 		<Replace Tag="LOC_9006B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} ใน {2_capital}</Text>		<!-- {1_reward} in {2_capital}. --></Replace>
+			<Text>{1_reward} ใน {2_capital}</Text>		<!-- {1_reward} in {2_capital}. -->
+		</Replace>
 		<Replace Tag="LOC_9006C_NAME" Language="th_TH">
 			<Text>ท้าทายลาให้มีการอภิปรายทางการเมือง</Text>		<!-- Challenge the donkey to a political debate. -->
 		</Replace>
@@ -15181,9 +15254,11 @@
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_1438A_STORYTITLE" Language="th_TH">
-			<Text>การพิชิตสวรรค์</Text>		<!-- The Conquest of Heaven --></Replace>
+			<Text>การพิชิตสวรรค์</Text>		<!-- The Conquest of Heaven -->
+		</Replace>
 		<Replace Tag="LOC_1438A_COMPLETION" Language="th_TH">
-			<Text>ดั่งหยาดแรกแห่งฤดูฝน ดั่งสุริยันยามรุ่งสางแห่งฤดูเหมันต์ โลกใหม่ถือกำเนิดขึ้น เบิกเนตรสู่ศรัทธาใหม่ — หนึ่งศรัทธา หนึ่งเป้าหมาย เพื่อมวลชนทั้งผอง</Text>		<!-- Like the first drops of the rainy season, like the dawning of the winter's sun, a new world comes into being. The world opens its eyes to a new faith - one faith, one purpose, for all. --></Replace>
+			<Text>ดั่งหยาดแรกแห่งฤดูฝน ดั่งสุริยันยามรุ่งสางแห่งฤดูเหมันต์ โลกใหม่ถือกำเนิดขึ้น เบิกเนตรสู่ศรัทธาใหม่ — หนึ่งศรัทธา หนึ่งเป้าหมาย เพื่อมวลชนทั้งผอง</Text>		<!-- Like the first drops of the rainy season, like the dawning of the winter's sun, a new world comes into being. The world opens its eyes to a new faith - one faith, one purpose, for all. -->
+		</Replace>
 		<Replace Tag="LOC_1438B_NAME" Language="th_TH">
 			<Text>ปิด</Text>		<!-- Close. -->
 		</Replace>
@@ -15599,7 +15674,8 @@
 			<Text>+1 ช่องใส่ศาสนวัตถุ ในวิหารในเมือง</Text>		<!-- +1 Relic Slot in Temples in Cities -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_9_DESCRIPTION" Language="th_TH">
-			<Text>+2 ศาสนวัตถุ สำหรับเผยแพร่เข้า รัฐอิสระ ครั้งแรก</Text>		<!-- +2 Relics for first-time conversion of a City-State --></Replace>
+			<Text>+2 ศาสนวัตถุ สำหรับเผยแพร่เข้า รัฐอิสระ ครั้งแรก</Text>		<!-- +2 Relics for first-time conversion of a City-State -->
+		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_10_DESCRIPTION" Language="th_TH">
 			<Text>+2 ศาสนวัตถุ สำหรับเผยแพร่เข้า เมืองหลวง ของอารยธรรมอื่นครั้งแรก</Text>		<!-- +2 Relics for first-time conversion of another Civilization’s Capital city -->
 		</Replace>
@@ -15610,12 +15686,14 @@
 			<Text>สร้างกองเรือสมบัติ หากพัฒนาในถิ่นฐานชายฝั่งใน ดินแดนห่างไกล</Text>		<!-- Creates Treasure Fleets if improved in Coastal Settlements in the Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_12_DESCRIPTION" Language="th_TH">
-			<Text>+2 ศาสนวัตถุ สำหรับเผยแพร่เข้า ถิ่นฐานอารยธรรมอื่นครั้งแรก ที่มีสิ่งมหัศจรรย์จากทุกยุคสมัย</Text>		<!-- +2 Relics for first-time conversion of another Civilization's settlement with a Wonder from any Age --></Replace>
+			<Text>+2 ศาสนวัตถุ สำหรับเผยแพร่เข้า ถิ่นฐานอารยธรรมอื่นครั้งแรก ที่มีสิ่งมหัศจรรย์จากทุกยุคสมัย</Text>		<!-- +2 Relics for first-time conversion of another Civilization's settlement with a Wonder from any Age -->
+		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_13_DESCRIPTION" Language="th_TH">
 			<Text>+1 ศาสนวัตถุ สำหรับเผยแพร่เข้า ถิ่นฐานอารยธรรมอื่นในดินแดนห่างไกล ครั้งแรก ที่ไม่ใช่นครรัฐ</Text>		<!-- +1 Relic for first-time conversion of another Civilization's settlement in Distant Lands that is not a City-State -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_14_DESCRIPTION" Language="th_TH">
-			<Text>+2 ศาสนวัตถุ สำหรับเผยแพร่เข้า ถิ่นฐานอารยธรรมอื่นที่ผลิต เรือบรรทุกสมบัติ</Text>		<!-- +2 Relics for first-time conversion of another Civilization's settlement producing Treasure Fleets --></Replace>
+			<Text>+2 ศาสนวัตถุ สำหรับเผยแพร่เข้า ถิ่นฐานอารยธรรมอื่นที่ผลิต เรือบรรทุกสมบัติ</Text>		<!-- +2 Relics for first-time conversion of another Civilization's settlement producing Treasure Fleets -->
+		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_15_DESCRIPTION" Language="th_TH">
 			<Text>+1 ศาสนวัตถุ สำหรับเผยแพร่เข้า ถิ่นฐานของอารยธรรมอื่นครั้งแรก ที่มีประชากรในชนบท อย่างน้อย 10 หน่วย</Text>		<!-- +1 Relic for the first time conversion of another Civilization's settlement with at least 10 Rural Population -->
 		</Replace>
@@ -15746,7 +15824,8 @@
 			<Text>+5[icon:YIELD_FOOD] อาหาร </Text>		<!-- +5[icon:YIELD_FOOD] Food -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_GOLD_TOOLTIP" Language="th_TH">
-			<Text>+20% [icon:YIELD_GOLD] ทอง สำหรับการซื้อสิ่งก่อสร้าง</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings. --></Replace>
+			<Text>+20% [icon:YIELD_GOLD] ทอง สำหรับการซื้อสิ่งก่อสร้าง</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings. -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_GOLD_DISTANT_LANDS_TOOLTIP" Language="th_TH">
 			<Text>สร้าง เรือบรรทุกสมบัติ เมื่อเชื่อมต่อกับถิ่นฐานชายฝั่ง</Text>		<!-- Creates Treasure Fleets when connected to a coastal Settlement -->
 		</Replace>
@@ -15793,9 +15872,11 @@
 			<Text>+10%[icon:YIELD_CULTURE] วัฒนธรรม </Text>		<!-- +10%[icon:YIELD_CULTURE] Culture -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILVER_TOOLTIP" Language="th_TH">
-			<Text>+20% [icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Units. --></Replace>
+			<Text>+20% [icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Units. -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILVER_TOOLTIP" Language="th_TH">
-			<Text>+20% [icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Units. --></Replace>
+			<Text>+20% [icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Units. -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILVER_DISTANT_LANDS_TOOLTIP" Language="th_TH">
 			<Text>สร้าง เรือบรรทุกสมบัติ เมื่อเชื่อมต่อกับถิ่นฐานชายฝั่ง</Text>		<!-- Creates Treasure Fleets when connected to a coastal Settlement -->
 		</Replace>
@@ -15806,24 +15887,32 @@
 			<Text>+3[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +10%[icon:YIELD_CULTURE] วัฒนธรรม เมื่ออยู่ในช่วงเฉลิมฉลอง</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness in the Capital and +10%[icon:YIELD_CULTURE] Culture when in a Celebration -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_CAMELS_TOOLTIP" Language="th_TH">
-			<Text>เมื่อถูกจัดสรรให้กับเมืองใหญ่, เพิ่มจำนวน ทรัพยากร ที่สามารถจัดสรรให้กับ เมืองได้อีก 2 หน่วย</Text>		<!-- While slotted in a City, allows another 2 additional Resources to be assigned to that City --></Replace>
+			<Text>เมื่อถูกจัดสรรให้กับเมืองใหญ่, เพิ่มจำนวน ทรัพยากร ที่สามารถจัดสรรให้กับ เมืองได้อีก 2 หน่วย</Text>		<!-- While slotted in a City, allows another 2 additional Resources to be assigned to that City -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_HORSES_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตทหารม้าได้รับ +1 พลังต่อสู้ และได้รับอีก +1 เมื่อสู้กับยูนิตทหารราบ และยูนิตระยะไกล</Text>		<!-- Cavalry Units gain +1 Combat Strength, and an additional +1 against Infantry and Ranged Units. --></Replace>
+			<Text>ยูนิตทหารม้าได้รับ +1 พลังต่อสู้ และได้รับอีก +1 เมื่อสู้กับยูนิตทหารราบ และยูนิตระยะไกล</Text>		<!-- Cavalry Units gain +1 Combat Strength, and an additional +1 against Infantry and Ranged Units. -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_IRON_TOOLTIP" Language="th_TH">
 			<Text>ยูนิตทหารราบ และยูนิตระยะไกล ได้รับ +1 พลังต่อสู้</Text>		<!-- Infantry and Ranged Units gain +1 Combat Strength -->
 		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_COCOA_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_HAPPINESS] ความสุข ในเมือง เพิ่มเป็นสองเท่าในบ้านเกิด</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness in Towns, doubled in Homelands. --></Replace>
+			<Text>+1[icon:YIELD_HAPPINESS] ความสุข ในเมือง เพิ่มเป็นสองเท่าในบ้านเกิด</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness in Towns, doubled in Homelands. -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_FURS_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +10%[icon:YIELD_GOLD] ทอง เมื่ออยู่ในช่วงเฉลิมฉลอง</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness in the Capital and +10%[icon:YIELD_GOLD] Gold when in a Celebration. --></Replace>
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +10%[icon:YIELD_GOLD] ทอง เมื่ออยู่ในช่วงเฉลิมฉลอง</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness in the Capital and +10%[icon:YIELD_GOLD] Gold when in a Celebration. -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_FURS_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +10%[icon:YIELD_GOLD] ทอง เมื่ออยู่ในช่วงเฉลิมฉลอง</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness in the Capital and +10%[icon:YIELD_GOLD] Gold when in a Celebration. --></Replace>
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +10%[icon:YIELD_GOLD] ทอง เมื่ออยู่ในช่วงเฉลิมฉลอง</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness in the Capital and +10%[icon:YIELD_GOLD] Gold when in a Celebration. -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_SPICES_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_DIPLOMACY] อิทธิพล ในเมือง, เพิ่มเป็นสองเท่าในบ้านเกิด</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and [icon:YIELD_DIPLOMACY] Influence in Cities, doubled in Homelands. --></Replace>
+			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_DIPLOMACY] อิทธิพล ในเมือง, เพิ่มเป็นสองเท่าในบ้านเกิด</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and [icon:YIELD_DIPLOMACY] Influence in Cities, doubled in Homelands. -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_SUGAR_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_FOOD] อาหาร และ [icon:YIELD_HAPPINESS] ความสุข ในเมือง, เพิ่มเป็นสองเท่าในบ้านเกิด</Text>		<!-- +1[icon:YIELD_FOOD] Food and [icon:YIELD_HAPPINESS] Happiness in Cities, doubled in Homelands. --></Replace>
+			<Text>+1[icon:YIELD_FOOD] อาหาร และ [icon:YIELD_HAPPINESS] ความสุข ในเมือง, เพิ่มเป็นสองเท่าในบ้านเกิด</Text>		<!-- +1[icon:YIELD_FOOD] Food and [icon:YIELD_HAPPINESS] Happiness in Cities, doubled in Homelands. -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_TEA_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ และ [icon:YIELD_PRODUCTION] กำลังผลิต ในเมือง, เพิ่มเป็นสองเท่าในบ้านเกิด</Text>		<!-- +1[icon:YIELD_SCIENCE] Science and [icon:YIELD_PRODUCTION] Production in Cities, doubled in Homelands. --></Replace>
+			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ และ [icon:YIELD_PRODUCTION] กำลังผลิต ในเมือง, เพิ่มเป็นสองเท่าในบ้านเกิด</Text>		<!-- +1[icon:YIELD_SCIENCE] Science and [icon:YIELD_PRODUCTION] Production in Cities, doubled in Homelands. -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_TRUFFLES_TOOLTIP" Language="th_TH">
 			<Text>+20%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการฝึกยูนิต</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards training Units -->
 		</Replace>
@@ -15840,7 +15929,8 @@
 			<Text>+5[icon:YIELD_PRODUCTION] กำลังผลิต </Text>		<!-- +5[icon:YIELD_PRODUCTION] Production -->
 		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_CLOVES_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_FOOD] อาหาร, +10%[icon:YIELD_GOLD] ทอง</Text>		<!-- +6[icon:YIELD_FOOD] Food, +10%[icon:YIELD_GOLD] Gold --></Replace>
+			<Text>+6[icon:YIELD_FOOD] อาหาร, +10%[icon:YIELD_GOLD] ทอง</Text>		<!-- +6[icon:YIELD_FOOD] Food, +10%[icon:YIELD_GOLD] Gold -->
+		</Replace>
 		<Replace Tag="LOC_TREE_TECHS_EX_NAME" Language="th_TH">
 			<Text>เทคโนโลยีการสำรวจ</Text>		<!-- Exploration Technology -->
 		</Replace>
@@ -17033,7 +17123,8 @@
 			<Text>+{1_Amount} การหล่อโลหะ</Text>		<!-- +{1_Amount} Metal Casting -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_EX_TECH_RANGED_PREVIEW" Language="th_TH">
-			<Text>+{1_Amount} โลหะวิทยา</Text>		<!-- +{1_Amount} Metallurgy --></Replace>
+			<Text>+{1_Amount} โลหะวิทยา</Text>		<!-- +{1_Amount} Metallurgy -->
+		</Replace>
 		<Replace Tag="LOC_ABILITY_CRISIS_COMBAT_MINOR_PENALTY_PREVIEW" Language="th_TH">
 			<Text>เจ้าหน้าที่ที่ถูกลบจำนวน {1_Amount} คน</Text>		<!-- {1_Amount} Purged Officers -->
 		</Replace>
@@ -17308,23 +17399,32 @@
 			<Text>ทหารกองร้อยกำไลทอง</Text>		<!-- Gold Bangles Infantry -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_GOLD_BANGLES_BASE_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบพิเศษ ของชองไฮ, +5 พลังต่อสู้ เมื่อต่อสู้บนช่องทรัพยากร, ได้รับ +100%[icon:YIELD_GOLD] ทอง จากการปล้นเส้นทางการค้า</Text>		<!-- Songhai Unique Infantry Unit. +5 Combat Strength when fighting on Resource tiles. +100%[icon:YIELD_GOLD] Gold from pillaging Trade Routes. --></Replace>
+			<Text>ยูนิตทหารราบพิเศษ ของชองไฮ, +5 พลังต่อสู้ เมื่อต่อสู้บนช่องทรัพยากร, ได้รับ +100%[icon:YIELD_GOLD] ทอง จากการปล้นเส้นทางการค้า</Text>		<!-- Songhai Unique Infantry Unit. +5 Combat Strength when fighting on Resource tiles. +100%[icon:YIELD_GOLD] Gold from pillaging Trade Routes. -->
+		</Replace>
 		<Replace Tag="LOC_UNIT_GOLD_BANGLES_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบพิเศษ ระดับ 1 ของชองไฮ, +5 พลังต่อสู้ เมื่อต่อสู้บนช่องทรัพยากร, ได้รับ +100%[icon:YIELD_GOLD] ทอง จากการปล้นเส้นทางการค้า</Text>		<!-- Tier 1 Songhai Unique Infantry Unit. +5 Combat Strength when fighting on Resource tiles. +100%[icon:YIELD_GOLD] Gold from pillaging Trade Routes. --></Replace>
+			<Text>ยูนิตทหารราบพิเศษ ระดับ 1 ของชองไฮ, +5 พลังต่อสู้ เมื่อต่อสู้บนช่องทรัพยากร, ได้รับ +100%[icon:YIELD_GOLD] ทอง จากการปล้นเส้นทางการค้า</Text>		<!-- Tier 1 Songhai Unique Infantry Unit. +5 Combat Strength when fighting on Resource tiles. +100%[icon:YIELD_GOLD] Gold from pillaging Trade Routes. -->
+		</Replace>
 		<Replace Tag="LOC_UNIT_GOLD_BANGLES_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบพิเศษ ระดับ 1 ของชองไฮ, +5 พลังต่อสู้ เมื่อต่อสู้บนช่องทรัพยากร, ได้รับ +100%[icon:YIELD_GOLD] ทอง จากการปล้นเส้นทางการค้า</Text>		<!-- Tier 1 Songhai Unique Infantry Unit. +5 Combat Strength when fighting on Resource tiles. +100%[icon:YIELD_GOLD] Gold from pillaging Trade Routes. --></Replace>
+			<Text>ยูนิตทหารราบพิเศษ ระดับ 1 ของชองไฮ, +5 พลังต่อสู้ เมื่อต่อสู้บนช่องทรัพยากร, ได้รับ +100%[icon:YIELD_GOLD] ทอง จากการปล้นเส้นทางการค้า</Text>		<!-- Tier 1 Songhai Unique Infantry Unit. +5 Combat Strength when fighting on Resource tiles. +100%[icon:YIELD_GOLD] Gold from pillaging Trade Routes. -->
+		</Replace>
 		<Replace Tag="LOC_UNIT_GOLD_BANGLES_2_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบพิเศษ ระดับ 2 ของชองไฮ, +5 พลังต่อสู้ เมื่อต่อสู้บนช่องทรัพยากร, ได้รับ +100%[icon:YIELD_GOLD] ทอง จากการปล้นเส้นทางการค้า</Text>		<!-- Tier 2 Songhai Unique Infantry Unit. +5 Combat Strength when fighting on Resource tiles. +100%[icon:YIELD_GOLD] Gold from pillaging Trade Routes. --></Replace>
+			<Text>ยูนิตทหารราบพิเศษ ระดับ 2 ของชองไฮ, +5 พลังต่อสู้ เมื่อต่อสู้บนช่องทรัพยากร, ได้รับ +100%[icon:YIELD_GOLD] ทอง จากการปล้นเส้นทางการค้า</Text>		<!-- Tier 2 Songhai Unique Infantry Unit. +5 Combat Strength when fighting on Resource tiles. +100%[icon:YIELD_GOLD] Gold from pillaging Trade Routes. -->
+		</Replace>
 		<Replace Tag="LOC_UNIT_GOLD_BANGLES_3_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบพิเศษ ระดับ 3 ของชองไฮ, +5 พลังต่อสู้ เมื่อต่อสู้บนช่องทรัพยากร, ได้รับ +100%[icon:YIELD_GOLD] ทอง จากการปล้นเส้นทางการค้า</Text>		<!-- Tier 3 Songhai Unique Infantry Unit. +5 Combat Strength when fighting on Resource tiles. +100%[icon:YIELD_GOLD] Gold from pillaging Trade Routes. --></Replace>
+			<Text>ยูนิตทหารราบพิเศษ ระดับ 3 ของชองไฮ, +5 พลังต่อสู้ เมื่อต่อสู้บนช่องทรัพยากร, ได้รับ +100%[icon:YIELD_GOLD] ทอง จากการปล้นเส้นทางการค้า</Text>		<!-- Tier 3 Songhai Unique Infantry Unit. +5 Combat Strength when fighting on Resource tiles. +100%[icon:YIELD_GOLD] Gold from pillaging Trade Routes. -->
+		</Replace>
 		<Replace Tag="LOC_UNIT_GOLD_BANGLES_3_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบพิเศษ ระดับ 3 ของชองไฮ, +5 พลังต่อสู้ เมื่อต่อสู้บนช่องทรัพยากร, ได้รับ +100%[icon:YIELD_GOLD] ทอง จากการปล้นเส้นทางการค้า</Text>		<!-- Tier 3 Songhai Unique Infantry Unit. +5 Combat Strength when fighting on Resource tiles. +100%[icon:YIELD_GOLD] Gold from pillaging Trade Routes. --></Replace>
+			<Text>ยูนิตทหารราบพิเศษ ระดับ 3 ของชองไฮ, +5 พลังต่อสู้ เมื่อต่อสู้บนช่องทรัพยากร, ได้รับ +100%[icon:YIELD_GOLD] ทอง จากการปล้นเส้นทางการค้า</Text>		<!-- Tier 3 Songhai Unique Infantry Unit. +5 Combat Strength when fighting on Resource tiles. +100%[icon:YIELD_GOLD] Gold from pillaging Trade Routes. -->
+		</Replace>
 		<Replace Tag="LOC_ABILITY_GOLD_BANGLES_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้ เมื่อต่อสู้บนช่องทรัพยากร +100%[icon:YIELD_GOLD] ทอง จากการปล้นเส้นทางการค้า</Text>		<!-- +5 Combat Strength when fighting on Resource tiles. +100%[icon:YIELD_GOLD] Gold from pillaging Trade Routes. --></Replace>
+			<Text>+5 พลังต่อสู้ เมื่อต่อสู้บนช่องทรัพยากร +100%[icon:YIELD_GOLD] ทอง จากการปล้นเส้นทางการค้า</Text>		<!-- +5 Combat Strength when fighting on Resource tiles. +100%[icon:YIELD_GOLD] Gold from pillaging Trade Routes. -->
+		</Replace>
 		<Replace Tag="LOC_ABILITY_GOLD_BANGLES_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้ เมื่อต่อสู้บนช่องทรัพยากร +100%[icon:YIELD_GOLD] ทอง จากการปล้นเส้นทางการค้า</Text>		<!-- +5 Combat Strength when fighting on Resource tiles. +100%[icon:YIELD_GOLD] Gold from pillaging Trade Routes. --></Replace>
+			<Text>+5 พลังต่อสู้ เมื่อต่อสู้บนช่องทรัพยากร +100%[icon:YIELD_GOLD] ทอง จากการปล้นเส้นทางการค้า</Text>		<!-- +5 Combat Strength when fighting on Resource tiles. +100%[icon:YIELD_GOLD] Gold from pillaging Trade Routes. -->
+		</Replace>
 		<Replace Tag="LOC_ABILITY_GOLD_BANGLES_PREVIEW" Language="th_TH">
-			<Text>+{1_Amount} ต่อสู้ บนทรัพยากร</Text>		<!-- +{1_Amount} fighting on Resources --></Replace>
+			<Text>+{1_Amount} ต่อสู้ บนทรัพยากร</Text>		<!-- +{1_Amount} fighting on Resources -->
+		</Replace>
 		<Replace Tag="LOC_UNIT_TAJIRO_NAME" Language="th_TH">
 			<Text>ทาจิโร</Text>		<!-- Tajiro -->
 		</Replace>

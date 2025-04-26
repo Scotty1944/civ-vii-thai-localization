@@ -80,9 +80,11 @@
 			<Text>เมืองจะได้รับ +2 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุคเมื่อคุณทำ แนวคิด ระดับเชี่ยวชาญ สำเร็จ นี่จะถูกรีเซ็ตเมื่อเริ่มต้นยุคใหม่ รับ [icon:YIELD_CULTURE] วัฒนธรรมเท่ากับ 50% ของ [icon:YIELD_SCIENCE] วิทยาศาสตร์ ทั้งหมดของคุณต่อเทิร์นเมื่อคุณทำ เทคโนโลยี ระดับเชี่ยวชาญ สำเร็จ</Text>		<!-- Cities receive +2 [icon:YIELD_SCIENCE] Science per Age when you complete a Civic Mastery. This resets at the start of each age. Gain [icon:YIELD_CULTURE] Culture equal to 50% of your total [icon:YIELD_SCIENCE] Science per turn when you complete a Technology Mastery. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ADA_LOVELACE_ABILITY_NAME" Language="th_TH">
-			<Text>แม่มดแห่งตัวเลข</Text>		<!-- Enchantress of Number --></Replace>
+			<Text>แม่มดแห่งตัวเลข</Text>		<!-- Enchantress of Number -->
+		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ADA_LOVELACE_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]เมืองจะได้รับ [B]+2[icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] ต่อยุคเมื่อคุณทำ [B]แนวคิด ระดับเชี่ยวชาญ[/B] สำเร็จ ซึ่งจะรีเซ็ตในตอนเริ่มต้นของแต่ละยุค [LI]รับ [B][icon:YIELD_CULTURE] วัฒนธรรม[/B] เท่ากับ 50% ของ [B][icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] รวมทั้งหมดของคุณต่อเทิร์นเมื่อคุณทำ [B]เทคโนโลยี ระดับเชี่ยวชาญ[/B] สำเร็จ[/LIST]</Text>		<!-- [LIST][LI]Cities receive [B]+2[icon:YIELD_SCIENCE] Science [/B] per Age when you complete a [B]Civic Mastery[/B]. This resets at the start of each age. [LI]Gain [B][icon:YIELD_CULTURE] Culture[/B] equal to 50% of your total [B][icon:YIELD_SCIENCE] Science[/B] per turn when you complete a [B]Technology Mastery[/B].[/LIST] --></Replace>
+			<Text>[LIST][LI]เมืองจะได้รับ [B]+2[icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] ต่อยุคเมื่อคุณทำ [B]แนวคิด ระดับเชี่ยวชาญ[/B] สำเร็จ ซึ่งจะรีเซ็ตในตอนเริ่มต้นของแต่ละยุค [LI]รับ [B][icon:YIELD_CULTURE] วัฒนธรรม[/B] เท่ากับ 50% ของ [B][icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] รวมทั้งหมดของคุณต่อเทิร์นเมื่อคุณทำ [B]เทคโนโลยี ระดับเชี่ยวชาญ[/B] สำเร็จ[/LIST]</Text>		<!-- [LIST][LI]Cities receive [B]+2[icon:YIELD_SCIENCE] Science [/B] per Age when you complete a [B]Civic Mastery[/B]. This resets at the start of each age. [LI]Gain [B][icon:YIELD_CULTURE] Culture[/B] equal to 50% of your total [B][icon:YIELD_SCIENCE] Science[/B] per turn when you complete a [B]Technology Mastery[/B].[/LIST] -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_AGENDA_ANALYTICAL_ENGINE_NAME" Language="th_TH">
 			<Text>เครื่องจักรวิเคราะห์</Text>		<!-- Analytical Engine -->
 		</Replace>
@@ -621,7 +623,8 @@
 			<Text>ผู้สนับสนุนของตัวเลข</Text>		<!-- Patron of Numbers -->
 		</Replace>
 		<Replace Tag="LOC_10004A_COMPLETION" Language="th_TH">
-			<Text>เมื่อการก่อสร้างมหาวิทยาลัยสิ้นสุดลง สถาปนิกได้สังเกตวัดที่อยู่ใกล้ๆ พวกเขาได้ยินมาว่าอาคารที่ใช้ในการสักการะมักจะประณามการทำงานของนักวิชาการ</Text>		<!-- As construction of the university ends, an architect takes note of the temple nearby. They have heard that houses of worship often denounce the work of academics. --></Replace>
+			<Text>เมื่อการก่อสร้างมหาวิทยาลัยสิ้นสุดลง สถาปนิกได้สังเกตวัดที่อยู่ใกล้ๆ พวกเขาได้ยินมาว่าอาคารที่ใช้ในการสักการะมักจะประณามการทำงานของนักวิชาการ</Text>		<!-- As construction of the university ends, an architect takes note of the temple nearby. They have heard that houses of worship often denounce the work of academics. -->
+		</Replace>
 		<Replace Tag="LOC_10004B_NAME" Language="th_TH">
 			<Text>ให้พวกเขานำการข่มเหงมาเถอะ — มันจะไม่ได้ผล</Text>		<!-- Let them bring persecution — it won't work. -->
 		</Replace>
@@ -665,7 +668,8 @@
 			<Text>อาดะเกลี่ยส่วนบนของเตียงโรงพยาบาล, ถอดออกจากรอยยับสุดท้าย รอยพับในผ้าดูเหมือนสมอง, ทำให้เธอนึกถึงช่วงเวลาเมื่อจิตใจของเธอกลายเป็นนักโทษของการออกแบบของมันเอง</Text>		<!-- Ada smoothes out the top of a hospital bed, removing the last wrinkle. Folds in the fabric resemble a brain, reminding her of times when her own mind became a prisoner of it's own design. -->
 		</Replace>
 		<Replace Tag="LOC_10006B_NAME" Language="th_TH">
-			<Text>สมองแยกออกจากร่างกาย; มันไม่รู้สึกเหนื่อยเร็วขนาดนั้น</Text>		<!-- The brain is separate from the body; it doesn't tire so quickly. --></Replace>
+			<Text>สมองแยกออกจากร่างกาย; มันไม่รู้สึกเหนื่อยเร็วขนาดนั้น</Text>		<!-- The brain is separate from the body; it doesn't tire so quickly. -->
+		</Replace>
 		<Replace Tag="LOC_10006B_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
@@ -790,7 +794,8 @@
 			<Text>ถามมันทั้งหมด</Text>		<!-- Question it All -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1217A_COMPLETION" Language="th_TH">
-			<Text>การเปลี่ยนแปลงใกล้เข้ามาแล้ว มีการเปลี่ยนแปลงในสถานะที่เป็นอยู่ — เสียงกระซิบของการไม่เห็นด้วยเกี่ยวกับคำสอนทางศาสนาผสมผสานกับความกลัวต่อสิ่งที่ไม่รู้จัก</Text>		<!-- Change looms on the horizon. A shift in the status quo — murmurs of dissent over religious teachings mix with fear of the unknown. --></Replace>
+			<Text>การเปลี่ยนแปลงใกล้เข้ามาแล้ว มีการเปลี่ยนแปลงในสถานะที่เป็นอยู่ — เสียงกระซิบของการไม่เห็นด้วยเกี่ยวกับคำสอนทางศาสนาผสมผสานกับความกลัวต่อสิ่งที่ไม่รู้จัก</Text>		<!-- Change looms on the horizon. A shift in the status quo — murmurs of dissent over religious teachings mix with fear of the unknown. -->
+		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1217B_STORYTITLE" Language="th_TH">
 			<Text>ถามทุกอย่าง</Text>		<!-- Question it All -->
 		</Replace>
@@ -924,12 +929,14 @@
 			<Text>เวลาเดินไปข้างหน้า ไม่เดินถอยหลัง</Text>		<!-- Time marches forward, not backward. -->
 		</Replace>
 		<Replace Tag="LOC_10014B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} บน อาคารด้านวัฒนธรรม</Text>		<!-- {1_reward} on Culture Buildings. --></Replace>
+			<Text>{1_reward} บน อาคารด้านวัฒนธรรม</Text>		<!-- {1_reward} on Culture Buildings. -->
+		</Replace>
 		<Replace Tag="LOC_10014C_NAME" Language="th_TH">
 			<Text>บทเรียนจากประวัติศาสตร์มีค่าอย่างยิ่ง</Text>		<!-- The lessons of history are invaluable. -->
 		</Replace>
 		<Replace Tag="LOC_10014C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} บน อาคารด้านวิทยาศาสตร์</Text>		<!-- {1_reward} on Science Buildings. --></Replace>
+			<Text>{1_reward} บน อาคารด้านวิทยาศาสตร์</Text>		<!-- {1_reward} on Science Buildings. -->
+		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1218A_STORYTITLE" Language="th_TH">
 			<Text>การเคลื่อนที่ขึ้น</Text>		<!-- Upward Momentum -->
 		</Replace>
