@@ -402,6 +402,7 @@
 					<Item>data/icons/improvement-icons.xml</Item>
 					<Item>data/icons/leader-icons.xml</Item>
 					<Item>data/icons/legacy-icons.xml</Item>
+					<Item>data/icons/misc-icons.xml</Item>
 					<Item>data/icons/modifier-icons.xml</Item>
 					<Item>data/icons/narrative-icons.xml</Item>
 					<Item>data/icons/notification-icons.xml</Item>
@@ -530,15 +531,18 @@
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
 
 					<!-- These text-override entries must happen *after* translations. -->
-					<Item platform="NX">text/en_us/ShellText_Premium_Services_Switch.xml</Item>
+					<Item platform="Switch">text/en_us/ShellText_Premium_Services_NX.xml</Item>
+					<Item platform="Ounce">text/en_us/ShellText_Premium_Services_NX.xml</Item>
 
-					<Item platform="NX">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
+					<Item platform="Switch">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
+					<Item platform="Ounce">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
 					<Item platform="PS4">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
 					<Item platform="PS5">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
 					<Item platform="XboxOne">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
 					<Item platform="XboxScarlett">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
 
-					<Item platform="NX">text/en_us/ShellText_RestrictedContent.xml</Item>
+					<Item platform="Switch">text/en_us/ShellText_RestrictedContent.xml</Item>
+					<Item platform="Ounce">text/en_us/ShellText_RestrictedContent.xml</Item>
 					<Item platform="PS4">text/en_us/ShellText_RestrictedContent.xml</Item>
 					<Item platform="PS5">text/en_us/ShellText_RestrictedContent.xml</Item>
 					<Item platform="XboxOne">text/en_us/ShellText_RestrictedContent.xml</Item>
@@ -947,6 +951,7 @@
 					<Item>data/icons/emoji-icons.xml</Item>
 					<Item>data/icons/improvement-icons.xml</Item>
 					<Item>data/icons/leader-icons.xml</Item>
+					<Item>data/icons/misc-icons.xml</Item>
 					<Item>data/icons/modifier-icons.xml</Item>
 					<Item>data/icons/narrative-icons.xml</Item>
 					<Item>data/icons/notification-icons.xml</Item>
@@ -1006,18 +1011,19 @@
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 
-					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-
 					<!-- These text-override entries must happen *after* translations. -->
-					<Item platform="NX">text/en_us/ShellText_Premium_Services_Switch.xml</Item>
+					<Item platform="Switch">text/en_us/ShellText_Premium_Services_NX.xml</Item>
+					<Item platform="Ounce">text/en_us/ShellText_Premium_Services_NX.xml</Item>
 
-					<Item platform="NX">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
+					<Item platform="Switch">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
+					<Item platform="Ounce">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
 					<Item platform="PS4">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
 					<Item platform="PS5">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
 					<Item platform="XboxOne">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
 					<Item platform="XboxScarlett">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
 
-					<Item platform="NX">text/en_us/ShellText_RestrictedContent.xml</Item>
+					<Item platform="Switch">text/en_us/ShellText_RestrictedContent.xml</Item>
+					<Item platform="Ounce">text/en_us/ShellText_RestrictedContent.xml</Item>
 					<Item platform="PS4">text/en_us/ShellText_RestrictedContent.xml</Item>
 					<Item platform="PS5">text/en_us/ShellText_RestrictedContent.xml</Item>
 					<Item platform="XboxOne">text/en_us/ShellText_RestrictedContent.xml</Item>
