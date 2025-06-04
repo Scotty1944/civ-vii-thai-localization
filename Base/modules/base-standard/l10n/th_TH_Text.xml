@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" ?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_ACTION_PANEL_TAKE_THE_NEXT_ACTION" Language="th_TH">
@@ -1288,20 +1288,38 @@
 		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_CONFUCIUS_L1_DESCRIPTION" Language="th_TH">
 			<Text>ปลดล็อกตำนาน, +50% [icon:YIELD_GOLD]ทอง ต่อการแปลงเมือง เป็น เมืองใหญ่</Text>		<!-- Legend Unlock. +50% [icon:YIELD_GOLD]Gold towards converting a Town to a City. -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_AMINA_L2_COMBAT_PREVIEW" Language="th_TH">
+			<Text>+{1_Value} Legend Militaristic Attribute</Text>		<!-- +{1_Value} Legend Militaristic Attribute -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_IBN_BATTUTA_L2_DESCRIPTION" Language="th_TH">
 			<Text>ปลดล็อกตำนาน, +50% [icon:YIELD_GOLD]ทอง ต่อการแปลงเมือง เป็น เมืองใหญ่</Text>		<!-- Legend Unlock. +50% [icon:YIELD_GOLD]Gold towards converting a Town to a City. -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_CHARLEMAGNE_L1_COMBAT_PREVIEW" Language="th_TH">
+			<Text>+{1_Value} Legend Militaristic Attribute</Text>		<!-- +{1_Value} Legend Militaristic Attribute -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_ISABELLA_L2_DESCRIPTION" Language="th_TH">
 			<Text>ปลดล็อกตำนาน, +50% [icon:YIELD_GOLD]ทอง ต่อการแปลงเมือง เป็น เมืองใหญ่</Text>		<!-- Legend Unlock. +50% [icon:YIELD_GOLD]Gold towards converting a Town to a City. -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_FRIEDRICH_L1_COMBAT_PREVIEW" Language="th_TH">
+			<Text>+{1_Value} Legend Militaristic Attribute</Text>		<!-- +{1_Value} Legend Militaristic Attribute -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_PACHACUTI_L2_DESCRIPTION" Language="th_TH">
 			<Text>ปลดล็อกตำนาน, +50% [icon:YIELD_GOLD]ทอง ต่อการแปลงเมือง เป็น เมืองใหญ่</Text>		<!-- Legend Unlock. +50% [icon:YIELD_GOLD]Gold towards converting a Town to a City. -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_HARRIET_TUBMAN_L2_COMBAT_PREVIEW" Language="th_TH">
+			<Text>+{1_Value} Legend Militaristic Attribute</Text>		<!-- +{1_Value} Legend Militaristic Attribute -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_AMINA_L2_DESCRIPTION" Language="th_TH">
 			<Text>ปลดล็อกตำนาน, +5 พลังต่อสู้ สำหรับยูนิตทั้งหมดต่อเขต</Text>		<!-- Legend Unlock. +5 Combat Strength for all Units against Districts. -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_TRUNG_TRAC_L1_COMBAT_PREVIEW" Language="th_TH">
+			<Text>+{1_Value} Legend Militaristic Attribute</Text>		<!-- +{1_Value} Legend Militaristic Attribute -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_CHARLEMAGNE_L1_DESCRIPTION" Language="th_TH">
 			<Text>ปลดล็อกตำนาน, +5 พลังต่อสู้ สำหรับยูนิตทั้งหมดต่อเขต</Text>		<!-- Legend Unlock. +5 Combat Strength for all Units against Districts. -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_XERXES_L2_COMBAT_PREVIEW" Language="th_TH">
+			<Text>+{1_Value} Legend Militaristic Attribute</Text>		<!-- +{1_Value} Legend Militaristic Attribute -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_FRIEDRICH_L1_DESCRIPTION" Language="th_TH">
 			<Text>ปลดล็อกตำนาน, +5 พลังต่อสู้ สำหรับยูนิตทั้งหมดต่อเขต</Text>		<!-- Legend Unlock. +5 Combat Strength for all Units against Districts. -->
@@ -1440,6 +1458,9 @@
 		</Replace>
 		<Replace Tag="LOC_WORLD_TEXT_CITY_CENTER_RAZED" Language="th_TH">
 			<Text>เมืองถูกทำลาย!</Text>		<!-- City Razed! -->
+		</Replace>
+		<Replace Tag="LOC_CITYCOMMAND_KEEP_NO_PENALTY" Language="th_TH">
+			<Text>You receive no penalty for keeping this Settlement</Text>		<!-- You receive no penalty for keeping this Settlement -->
 		</Replace>
 		<Replace Tag="LOC_WORLD_TEXT_DISTRICT_RAZED" Language="th_TH">
 			<Text>เขตถูกทำลาย!</Text>		<!-- District Razed! -->
@@ -1944,6 +1965,9 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGEGROUP_AIR_COMBAT_UNITS_NAME" Language="th_TH">
 			<Text>การต่อสู้ทางอากาศ</Text>		<!-- Air Combat -->
+		</Replace>
+		<Replace Tag="LOC_CIVILOPEDIA_UNIT_NAME_WITH_TIER" Language="th_TH">
+			<Text>{1_UnitName} (Tier {2_Tier})</Text>		<!-- {1_UnitName} (Tier {2_Tier}) -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGEGROUP_COMMAND_UNITS_NAME" Language="th_TH">
 			<Text>คำสั่ง</Text>		<!-- Command -->
@@ -3492,6 +3516,18 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_8_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>เคล็ดลับ: เอฟเฟกต์จำนวนมากทำงานตามประเภทของช่อง ตรวจสอบให้แน่ใจว่าคุณรู้ว่าผลกระทบใดอ้างถึงช่องประเภทไหนก่อนตัดสินใจ</Text>		<!-- Tip: A lot of effects function according to these tile types. Make sure to check what type of tile a specific effect mentions when making a decision. -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_8_CHAPTER_CONTENT_PARA_3" Language="th_TH">
+			<Text>Tip: If your City is starving, consider specializing a connected Town to help feed it. If low Happiness is the issue, stationing a high-level Commander in the City can significantly reduce the Unhappiness it generates. </Text>		<!-- Tip: If your City is starving, consider specializing a connected Town to help feed it. If low Happiness is the issue, stationing a high-level Commander in the City can significantly reduce the Unhappiness it generates. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_9_TITLE" Language="th_TH">
+			<Text>Land and Territory</Text>		<!-- Land and Territory -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_9_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>[BLIST][LI]Owned Tile: A tile within your Settlement’s borders.[LI]Unowned Tile: A tile that is not yet part of any Settlement’s borders.[LI]Improved Tile: A Rural tile with an improvement (worked by a population point).[LI]Unimproved Tile: A Rural tile without an improvement (no population assigned to it).[LI]Friendly Tile: A tile you own, or owned by your allied Civs and City-States.[LI]Neutral Tile: A tile not owned by any Civilization.[LI]Enemy Tile: A tile owned by a Civilization you are at war with.[/LIST]</Text>		<!-- [BLIST][LI]Owned Tile: A tile within your Settlement’s borders.[LI]Unowned Tile: A tile that is not yet part of any Settlement’s borders.[LI]Improved Tile: A Rural tile with an improvement (worked by a population point).[LI]Unimproved Tile: A Rural tile without an improvement (no population assigned to it).[LI]Friendly Tile: A tile you own, or owned by your allied Civs and City-States.[LI]Neutral Tile: A tile not owned by any Civilization.[LI]Enemy Tile: A tile owned by a Civilization you are at war with.[/LIST] -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_9_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>Tip: A lot of effects function according to these tile types. Make sure to check what type of tile a specific effect mentions when making a decision.</Text>		<!-- Tip: A lot of effects function according to these tile types. Make sure to check what type of tile a specific effect mentions when making a decision. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_3_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>เคล็ดลับ: ตั้งถิ่นฐานบนพื้นที่น้ำจืดเมื่อเป็นไปได้เพื่อรักษาความสุขที่สูงขึ้นและลดความไม่มีความสุขในถิ่นฐานของคุณ ถิ่นฐานที่ไม่มีความสุขจะได้รับโทษต่อผลผลิตทั้งหมด โดยแต่ละจุดของความไม่มีความสุขจะลดลง 2% โดยรวม</Text>		<!-- Tip: Settle on Fresh Water whenever possible to maintain higher Happiness and reduce Unhappiness in your Settlements. An Unhappy Settlement takes a penalty to all of its yields, with each point of negative Happiness causing a 2% overall reduction. -->
 		</Replace>
@@ -4579,7 +4615,7 @@
 			<Text>บนก้นทะเลยุคดึกดำบรรพ์ เปลือกหอยและปะการังที่เต็มไปด้วยแคลเซียมคาร์บอเนตตกตะกอน ถูกบดละเอียดและอัดแน่นผ่านกาลเวลาหลายล้านปี ก่อกำเนิดเป็นหินปูน หินตะกอนที่มีบทบาทสำคัญในการก่อสร้างมาตั้งแต่ยุคโบราณ ด้วยความง่ายในการตัดแต่ง และความขาวละมุนตา หินปูนจึงถูกใช้สร้างสิ่งก่อสร้างอันยิ่งใหญ่ เช่น มหาพีระมิดแห่งอียิปต์ หรือเมื่อเผาและทำเป็นปูน ก็ใช้สร้างสิ่งมหัศจรรย์ของอารยธรรมมายา หากถูกแรงกดดันและความร้อนอย่างรุนแรง หินปูนก็จะแปรสภาพเป็นหินอีกชนิดที่ทรงคุณค่าไม่แพ้กัน—หินอ่อน</Text>		<!-- On the beds of prehistoric seas, the calcium carbonate shells of mollusks and corals fell, were ground to powder, and compressed over millions of years. This process forms limestone, a sedimentary rock that has been important for construction since antiquity. Because of the ease in which limestone can be cut, and its impressive white luster, limestone was used in construction of ancient buildings such as the Great Pyramid of Egypt, or when burned and made into plaster, the wonders of the Maya world. Subjected to intense heat and pressure, limestone will eventually produce yet another important and wonderous stone – marble. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_RESOURCE_TIN_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>เรามักคิดว่าทินคือโลหะธาตุที่เปราะบางและสว่างสดใส เป็นวัสดุที่ไม่ทนทานนัก แต่เมื่อผสมกับทองแดงแล้ว ทินจะกลายเป็นบรอนซ์ หนึ่งในโลหะสำคัญที่สุดของโลกยุคโบราณ นักถลุงโลหะในสมัยก่อนอาจค้นพบโลหะผสมทินโดยบังเอิญระหว่างการทำเครื่องมือทองแดง แต่เมื่อพวกเขารู้ว่าการเติมออกไซด์ของทินลงไปสามารถทำให้เครื่องมือและอาวุธแข็งแกร่ง คม และทนทานขึ้น ยุคสัมฤทธิก็ได้เริ่มต้นขึ้น ทว่า การต้องพึ่งพาแหล่งทรัพยากรสองประเภทหมายถึงความเสี่ยงหากหนึ่งในนั้นตกอยู่ในมือศัตรู การหาทินจึงเป็นหนึ่งในยุทธศาสตร์การเมืองสำคัญของโลกยุคโบราณ</Text>		<!-- We may think of tin – a brittle, bright elemental metal – as a relatively flimsy material, but when combined with copper, tin produces bronze, one of the most important metals of the ancient world. Ancient smelters may have discovered tin alloys by accident when making copper tools, but once they understood that adding tin oxide into the mix could make harder, sharper, more durable tools and weapons, the Bronze Age had begun. But relying upon two different sources runs a risk should one of these fall to an enemy, and securing sources of tin was a vital part of ancient realpolitik.  -->
+			<Text>เรามักคิดว่าทินคือโลหะธาตุที่เปราะบางและสว่างสดใส เป็นวัสดุที่ไม่ทนทานนัก แต่เมื่อผสมกับทองแดงแล้ว ทินจะกลายเป็นบรอนซ์ หนึ่งในโลหะสำคัญที่สุดของโลกยุคโบราณ นักถลุงโลหะในสมัยก่อนอาจค้นพบโลหะผสมทินโดยบังเอิญระหว่างการทำเครื่องมือทองแดง แต่เมื่อพวกเขารู้ว่าการเติมออกไซด์ของทินลงไปสามารถทำให้เครื่องมือและอาวุธแข็งแกร่ง คม และทนทานขึ้น ยุคสัมฤทธิก็ได้เริ่มต้นขึ้น ทว่า การต้องพึ่งพาแหล่งทรัพยากรสองประเภทหมายถึงความเสี่ยงหากหนึ่งในนั้นตกอยู่ในมือศัตรู การหาทินจึงเป็นหนึ่งในยุทธศาสตร์การเมืองสำคัญของโลกยุคโบราณ</Text>		<!-- We may think of tin – a brittle, bright elemental metal – as a relatively flimsy material, but when combined with copper, tin produces bronze, one of the most important metals of the ancient world. Ancient smelters may have discovered tin alloys by accident when making copper tools, but once they understood that adding tin oxide into the mix could make harder, sharper, more durable tools and weapons, the Bronze Age had begun. But relying upon two different sources runs a risk should one of these fall to an enemy, and securing sources of tin was a vital part of ancient realpolitik. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_RESOURCE_LLAMAS_CHAPTER_HISTORY_PARA_1" Language="th_TH">
 			<Text>โลกใหม่แตกต่างจากโลกเก่าอย่างเห็นได้ชัดในเรื่องการขาดสัตว์ใช้งาน—ไม่มีม้า อูฐ หรือช้างไว้ขนของระหว่างเมือง แต่ในเทือกเขาแอนดีส มีลามะ ซึ่งเหมาะกับการเดินทางบนเส้นทางสูงชันอย่างยิ่ง นานก่อนจักรวรรดิอินคาจะรุ่งเรือง ชาวพื้นเมืองแอนดีสใช้ลามะ (รวมถึงญาติของมันอย่างอัลปากา) เพื่อขนข้าวของ ผลิตขนสัตว์ ปุ๋ย และอาหาร การมีลามะมีบทบาทอย่างมากในการรวมอำนาจและขยายอาณาจักร แต่ก็มีข้อจำกัดเช่นกัน—บริเวณที่ลามะอยู่ไม่ได้ดี เช่นที่ราบลุ่มป่าเขตร้อน จักรวรรดิก็ไม่สามารถขยายไปถึง</Text>		<!-- The New World differed perhaps the most from the Old in having few beasts of burden – there were no horses, camels or elephants to carry loads from one city to the next. But in the Andes, there were llamas, and they were well-suited to traversing the high paths. Long before the Inca Empire rose, Andean peoples used llamas (and their cousins, the alpacas) for wool, fertilizer, meat, and, of course, transportation. These appear to have been extremely important for the consolidation and growth of empire in the region but also limiting – where llamas did not do well (in the jungle lowlands, for instance), empire also did not expand. -->
@@ -4927,7 +4963,7 @@
 			<Text>ยูนิต {1_UnitName} ของคุณตาย أثناءโจมตีศัตรู {2_EnUName} (ความเสียหาย {3_Num} หน่วย)!</Text>		<!-- Your {1_UnitName} died attacking an enemy {2_EnUName} ({3_Num} damage)! -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOUR_UNIT_DIED_DEFENDING_IP" Language="th_TH">
-			<Text>ขณะป้องกัน {1_UnitName} ของคุณถูกทำลายโดย {2_EnemyUnitName} จาก {3_EnemyAdjective} (ได้รับความเสียหาย {4_Num} หน่วย)!</Text>		<!-- While defending, your {1_UnitName} was destroyed by {LOC_GRAMMAR_A_AN &lt;&lt; {2_EnemyUnitName}} from {3_EnemyAdjective} ({4_Num} damage)! -->
+			<Text>ขณะป้องกัน {1_UnitName} ของคุณถูกทำลายโดย {2_EnemyUnitName} จาก {3_EnemyAdjective} (ได้รับความเสียหาย {4_Num} หน่วย)!</Text>		<!-- While defending, your {1_UnitName} was destroyed by {LOC_GRAMMAR_A_AN &amp;lt;&amp;lt; {2_EnemyUnitName}} from {3_EnemyAdjective} ({4_Num} damage)! -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_YOUR_UNIT_DIED_ATTACKING_CITY" Language="th_TH">
 			<Text>ยูนิต {1_UnitName} ของคุณถูกทำลายขณะโจมตีเมืองศัตรู {2_EnUName} (ความเสียหาย {3_Num} หน่วย)!</Text>		<!-- Your {1_UnitName} died attacking the enemy City of {2_EnUName} ({3_Num} damage)! -->
@@ -5079,6 +5115,9 @@
 		<Replace Tag="LOC_ATTR_GREAT_WORK_BONUS_YIELD_MAX" Language="th_TH">
 			<Text>โบนัสผลงานชิ้นเอกสูงสุด</Text>		<!-- Great Works Bonus Max -->
 		</Replace>
+		<Replace Tag="LOC_ATTR_CLAMPED_HAPPINESS_DEFICIT" Language="th_TH">
+			<Text>Income Penalty from Unhappiness</Text>		<!-- Income Penalty from Unhappiness -->
+		</Replace>
 		<Replace Tag="LOC_ATTR_GREAT_WORK_BONUS_YIELD_MAX_MODIFIER" Language="th_TH">
 			<Text>โบนัสผลงานชิ้นเอกที่มีขีดจำกัด</Text>		<!-- Capped Great Works Bonus -->
 		</Replace>
@@ -5163,6 +5202,12 @@
 		<Replace Tag="LOC_ATTR_NATURAL_YIELD" Language="th_TH">
 			<Text>ผลผลิตธรรมชาติ</Text>		<!-- Natural Yield -->
 		</Replace>
+		<Replace Tag="LOC_ATTR_NUM_ASSIGNED_RESOURCES" Language="th_TH">
+			<Text>Assigned Resources</Text>		<!-- Assigned Resources -->
+		</Replace>
+		<Replace Tag="LOC_ATTR_ASSIGNED_RESOURCES_CAP" Language="th_TH">
+			<Text>Assigned Resource Cap</Text>		<!-- Assigned Resource Cap -->
+		</Replace>
 		<Replace Tag="LOC_ATTR_TRADE_HUB_GOLD" Language="th_TH">
 			<Text>ฮับการค้า</Text>		<!-- Trade Hub -->
 		</Replace>
@@ -5240,6 +5285,9 @@
 		</Replace>
 		<Replace Tag="LOC_ATTR_YIELD_PER_NUM_LOCAL_RESOURCES" Language="th_TH">
 			<Text>ผลผลิตต่อทรัพยากรท้องถิ่น</Text>		<!-- Yield per local Resource -->
+		</Replace>
+		<Replace Tag="LOC_ATTR_UNIT_ADJUST_PLAYER_YIELD_PER_COMMANDER_LEVEL" Language="th_TH">
+			<Text>Yield per Commander Level</Text>		<!-- Yield per Commander Level -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_YIELD_PER_NUM_IMPORTED_RESOURCES" Language="th_TH">
 			<Text>ผลผลิตต่อทรัพยากรที่นำเข้า</Text>		<!-- Yield per imported Resource -->
@@ -5892,6 +5940,12 @@
 		<Replace Tag="LOC_MAP_TERRA_INCOGNITA_DESCRIPTION" Language="th_TH">
 			<Text>แผนที่บ้านเกิดแบบคลาสสิก พร้อมดินแดนไกลลึกลับ</Text>		<!-- A classic homeland map with unpredictable distant lands. -->
 		</Replace>
+		<Replace Tag="LOC_MAP_PANGAEA_PLUS_NAME" Language="th_TH">
+			<Text>Pangaea Plus</Text>		<!-- Pangaea Plus -->
+		</Replace>
+		<Replace Tag="LOC_MAP_PANGAEA_PLUS_DESCRIPTION" Language="th_TH">
+			<Text>All players start on a single large homeland surrounded by distant lands islands.</Text>		<!-- All players start on a single large homeland surrounded by distant lands islands. -->
+		</Replace>
 		<Replace Tag="LOC_MAP_DESCRIPTION" Language="th_TH">
 			<Text>เลือกประเภทของแผนที่สำหรับเกม</Text>		<!-- Select the type of Map for the game -->
 		</Replace>
@@ -6080,6 +6134,12 @@
 		</Replace>
 		<Replace Tag="LOC_TAG_TRAIT_WILDCARD_NAME" Language="th_TH">
 			<Text>ไวลด์การ์ด</Text>		<!-- Wildcard -->
+		</Replace>
+		<Replace Tag="LOC_TAG_CONSTRUCTIBLE_MILITARY" Language="th_TH">
+			<Text>Military</Text>		<!-- Military -->
+		</Replace>
+		<Replace Tag="LOC_TAG_CONSTRUCTIBLE_WATER" Language="th_TH">
+			<Text>Water</Text>		<!-- Water -->
 		</Replace>
 		<Replace Tag="LOC_TAG_CONSTRUCTIBLE_SCIENCE" Language="th_TH">
 			<Text>วิทยาศาสตร์</Text>		<!-- Science -->
@@ -7666,6 +7726,9 @@
 		<Replace Tag="LOC_FAVOR_FROM_ENDEAVOR" Language="th_TH">
 			<Text>สร้าง ความร่วมมือ กับผู้นำคนอื่น</Text>		<!-- Endeavor with another Leader -->
 		</Replace>
+		<Replace Tag="LOC_FAVOR_FROM_WONDER" Language="th_TH">
+			<Text>From a Wonder</Text>		<!-- From a Wonder -->
+		</Replace>
 		<Replace Tag="LOC_FAVOR_FROM_SUPPORT" Language="th_TH">
 			<Text>สนับสนุน ความร่วมมือ กับผู้นำอีกคนหนึ่ง</Text>		<!-- Supported Endeavor with another Leader -->
 		</Replace>
@@ -7722,6 +7785,9 @@
 		</Replace>
 		<Replace Tag="LOC_GRIEVANCE_FROM_OPPOSE" Language="th_TH">
 			<Text>คัดค้านการดำเนินการทางการทูต</Text>		<!-- Opposed a Diplomatic Action -->
+		</Replace>
+		<Replace Tag="LOC_GRIEVANCE_FROM_WONDER" Language="th_TH">
+			<Text>From a Wonder</Text>		<!-- From a Wonder -->
 		</Replace>
 		<Replace Tag="LOC_GRIEVANCE_FROM_UNEVEN_PEACE_DEAL" Language="th_TH">
 			<Text>ข้อตกลงสันติภาพที่ไม่เท่าเทียม</Text>		<!-- Uneven peace deal -->
@@ -8413,6 +8479,12 @@
 		<Replace Tag="LOC_DIPLOMACY_ACTION_MAX_INSTANCE_RUNNING_PROJECT" Language="th_TH">
 			<Text>ดำเนินการในจำนวนสูงสุดของโครงการนี้แล้ว</Text>		<!-- Already running the maximum number of instances of this project. -->
 		</Replace>
+		<Replace Tag="LOC_DIPLOMACY_ACTION_FAILURE_NO_SETTLEMENT_INITIAL" Language="th_TH">
+			<Text>You need at least one settlement to start this action.</Text>		<!-- You need at least one settlement to start this action. -->
+		</Replace>
+		<Replace Tag="LOC_DIPLOMACY_ACTION_FAILURE_NO_SETTLEMENT_TARGET" Language="th_TH">
+			<Text>The other player needs at least one settlement to start this action.</Text>		<!-- The other player needs at least one settlement to start this action. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_NO_BORDERS_TO_CLOSE" Language="th_TH">
 			<Text>ไม่มีข้อตกลงชายแดนที่เปิดกว้างกับ {1_PlayerName} ที่สามารถยกเลิกได้</Text>		<!-- No Open Borders agreement with {1_PlayerName} that can be canceled. -->
 		</Replace>
@@ -8454,6 +8526,9 @@
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_FAILURE_TEAM_ESPIONAGE" Language="th_TH">
 			<Text>คุณไม่สามารถสอดแนมสมาชิกทีมได้</Text>		<!-- You cannot spy on a teammate. -->
+		</Replace>
+		<Replace Tag="LOC_DIPLOMACY_ACTION_FAILURE_NOT_SUZERAIN" Language="th_TH">
+			<Text>You cannot do this action since you are not Suzerain of this City State.</Text>		<!-- You cannot do this action since you are not Suzerain of this City State. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_FAILURE_WAR" Language="th_TH">
 			<Text>คุณไม่สามารถเริ่มดำเนินการทางการทูตนี้ได้เนื่องจากอยู่ในภาวะสงคราม</Text>		<!-- You cannot start this Diplomatic Action due to being at war. -->
@@ -8979,6 +9054,9 @@
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ESPIONAGE_MILITARY_SABOTAGE_DESCRIPTION_TARGET" Language="th_TH">
 			<Text>-3 พลังต่อสู้ ไปยัง ยูนิตทหารของคุณ เป็นเวลา {1_turns} เทิร์น</Text>		<!-- -3 Combat Strength to your Military Units for {1_turns} {1_turns: plural 1?turn; other?turns;}. -->
+		</Replace>
+		<Replace Tag="LOC_DIPLOMACY_SUCCESS_REVEAL_CHANCE" Language="th_TH">
+			<Text>Success Chance: {1_successChance}% Reveal Chance: {2_revealChance}%</Text>		<!-- Success Chance: {1_successChance}% Reveal Chance: {2_revealChance}% -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ESPIONAGE_STEAL_TECH_NAME" Language="th_TH">
 			<Text>ขโมยความก้าวหน้าทางเทคโนโลยี</Text>		<!-- Steal Technological Advancement -->
@@ -21688,6 +21766,12 @@
 		<Replace Tag="LOC_NOTIFICATION_TRADE_ROUTE_TO_YOU_SUMMARY" Language="th_TH">
 			<Text>{1_LeaderName} ได้จัดตั้งเส้นทางการค้าใหม่มาที่ถิ่นฐานของคุณ, {2_CityName} เส้นทางนี้ให้ผลตอบแทนดังต่อไปนี้ในแต่ละเทิร์น: {3_YieldString}</Text>		<!-- {1_LeaderName} has established a new Trade Route to your Settlement, {2_CityName}. This route provides you with the following yields each turn: {3_YieldString} -->
 		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_BUILDING_PILLAGED_EFFECT_DEFAULT_MESSAGE" Language="th_TH">
+			<Text>{1_Contructible} Pillaged!</Text>		<!-- {1_Contructible} Pillaged! -->
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_BUILDING_PILLAGED_EFFECT_DEFAULT_SUMMARY" Language="th_TH">
+			<Text>{1_Constructible} is pillaged in {2_CityName}!</Text>		<!-- {1_Constructible} is pillaged in {2_CityName}! -->
+		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_CITY_NOW_UNHAPPY_MESSAGE" Language="th_TH">
 			<Text>เมืองไม่มีความสุข</Text>		<!-- City Unhappy -->
 		</Replace>
@@ -23434,6 +23518,9 @@
 		<Replace Tag="LOC_UI_PRIMARY_ACCOUNT_SELECT_TITLE" Language="th_TH">
 			<Text>เลือกบัญชีแพลตฟอร์มหลัก</Text>		<!-- Select Primary Platform Account -->
 		</Replace>
+		<Replace Tag="LOC_UI_FORCE_OFFLINE_ACCOUNT_BODY" Language="th_TH">
+			<Text>Your system settings may be preventing connection to 2K services. Please check system settings such as system time.</Text>		<!-- Your system settings may be preventing connection to 2K services. Please check system settings such as system time. -->
+		</Replace>
 		<Replace Tag="LOC_UI_CURRENT_PRIMARY_ACCOUNT" Language="th_TH">
 			<Text>บัญชีแพลตฟอร์มหลักปัจจุบัน</Text>		<!-- Current Primary Platform Account -->
 		</Replace>
@@ -23470,6 +23557,20 @@
 		</Replace>
 		<Replace Tag="LOC_UI_LEADER_NAPOLEON_ALT_LOCKED" Language="th_TH">
 			<Text>เป็นเจ้าของ Civilization 6 ด้วยบัญชี 2K ที่เชื่อมโยงเพื่อปลดล็อก</Text>		<!-- Own Civilization 6 with an associated 2K account to unlock. -->
+		</Replace>
+		<Replace Tag="LOC_UI_SSO_CONNECTING_SUBTITLE" Language="th_TH">
+			<Text>CONNECTING TO NETWORK</Text>		<!-- CONNECTING TO NETWORK -->
+		</Replace>
+		<Replace Tag="LOC_UI_SSO_PLAY_OFFLINE" Language="th_TH">
+			<Text>PLAY OFFLINE?</Text>		<!-- PLAY OFFLINE? -->
+		</Replace>
+		<Replace Tag="LOC_UI_SSO_PLAY_OFFLINE_BODY" Language="th_TH">
+			<Text>You are not connected to the network. You can play offline, but progress towards challenges will not be recorded. Continue to play offline?
+			</Text>		<!-- You are not connected to the network. You can play offline, but progress towards challenges will not be recorded. Continue to play offline?
+			 -->
+		</Replace>
+		<Replace Tag="LOC_UI_SSO_RETRY" Language="th_TH">
+			<Text>RETRY</Text>		<!-- RETRY -->
 		</Replace>
 		<Replace Tag="LOC_UI_LEADER_REMAINS_LOCKED" Language="th_TH">
 			<Text>บัญชีนี้ไม่มีสิทธิ์เข้าถึง {1_Leader}</Text>		<!-- This account does not have access to {1_Leader} -->

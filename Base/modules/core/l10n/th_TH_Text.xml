@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" ?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_COPYRIGHT_BLOCK" Language="th_TH">
@@ -6,6 +6,15 @@
 		</Replace>
 		<Replace Tag="LOC_UI_CONTROLLER_MAPPING_TITLE" Language="th_TH">
 			<Text>การควบคุม</Text>		<!-- Controls -->
+		</Replace>
+		<Replace Tag="LOC_UI_CONTROLLER_MAPPING_TITLE_HYBRID" Language="th_TH">
+			<Text>{1_type} Mouse Controls</Text>		<!-- {1_type} Mouse Controls -->
+		</Replace>
+		<Replace Tag="LOC_UI_CONTROLLER_MAPPING_LEFT" Language="th_TH">
+			<Text>Left</Text>		<!-- Left -->
+		</Replace>
+		<Replace Tag="LOC_UI_CONTROLLER_MAPPING_RIGHT" Language="th_TH">
+			<Text>Right</Text>		<!-- Right -->
 		</Replace>
 		<Replace Tag="LOC_UI_CONTROLLER_MAPPING_SUBTITLE" Language="th_TH">
 			<Text>ดูการแมปและเปลี่ยนการตั้งค่าปุ่มใดๆ</Text>		<!-- View mappings and rebind any input -->
@@ -312,6 +321,18 @@
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_READY_BUTTON_WAITING_FOR_OTHERS" Language="th_TH">
 			<Text>รอผู้เล่น</Text>		<!-- Waiting for players -->
+		</Replace>
+		<Replace Tag="LOC_CYCLE_NEXT" Language="th_TH">
+			<Text>Cycle Next</Text>		<!-- Cycle Next -->
+		</Replace>
+		<Replace Tag="LOC_CYCLE_NEXT_HELP" Language="th_TH">
+			<Text>Cycles selection to the next unit or city</Text>		<!-- Cycles selection to the next unit or city -->
+		</Replace>
+		<Replace Tag="LOC_CYCLE_PREV" Language="th_TH">
+			<Text>Cycle Previous</Text>		<!-- Cycle Previous -->
+		</Replace>
+		<Replace Tag="LOC_CYCLE_PREV_HELP" Language="th_TH">
+			<Text>Cycles selection to the previous unit or city</Text>		<!-- Cycles selection to the previous unit or city -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_READY_BUTTON_STARTING_GAME" Language="th_TH">
 			<Text>กำลังเริ่ม.</Text>		<!-- Starting... -->
@@ -1063,6 +1084,15 @@
 		<Replace Tag="LOC_SAVE_LOAD_CROSSPLAYSAVES" Language="th_TH">
 			<Text>เล่นข้ามแพลตฟอร์ม</Text>		<!-- Crossplay -->
 		</Replace>
+		<Replace Tag="LOC_UI_KBM_MAPPING_ACTIONS" Language="th_TH">
+			<Text>Actions</Text>		<!-- Actions -->
+		</Replace>
+		<Replace Tag="LOC_UI_KBM_MAPPING_PRIMARY_KEY" Language="th_TH">
+			<Text>Primary</Text>		<!-- Primary -->
+		</Replace>
+		<Replace Tag="LOC_UI_KBM_MAPPING_SECONDARY_KEY" Language="th_TH">
+			<Text>Secondary</Text>		<!-- Secondary -->
+		</Replace>
 		<Replace Tag="LOC_GESTURE_THUMB_AXIS_MICROSOFT" Language="th_TH">
 			<Text>การกระทำโดยใช้แท่งอนาล็อก</Text>		<!-- Actions using the sticks -->
 		</Replace>
@@ -1317,6 +1347,84 @@
 		</Replace>
 		<Replace Tag="LOC_UI_CHAT_SEND_TO" Language="th_TH">
 			<Text>ส่งถึง</Text>		<!-- Send To -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_HACKS" Language="th_TH">
+			<Text>Hacking</Text>		<!-- Hacking -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_HACKS_TOOLTIP" Language="th_TH">
+			<Text>Hack</Text>		<!-- Hack -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_PRIVACY" Language="th_TH">
+			<Text>Privacy</Text>		<!-- Privacy -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_PRIVACY_TOOLTIP" Language="th_TH">
+			<Text>Privacy</Text>		<!-- Privacy -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_FRAUD" Language="th_TH">
+			<Text>Fraud</Text>		<!-- Fraud -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_FRAUD_TOOLTIP" Language="th_TH">
+			<Text>Fraud</Text>		<!-- Fraud -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_SPAM" Language="th_TH">
+			<Text>Spam</Text>		<!-- Spam -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_SPAM_TOOLTIP" Language="th_TH">
+			<Text>Spam</Text>		<!-- Spam -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_VIOLENCE" Language="th_TH">
+			<Text>Violence</Text>		<!-- Violence -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_VIOLENCE_TOOLTIP" Language="th_TH">
+			<Text>Violence</Text>		<!-- Violence -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_SELFHARM" Language="th_TH">
+			<Text>Self Harm</Text>		<!-- Self Harm -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_SELFHARM_TOOLTIP" Language="th_TH">
+			<Text>Suicide or Self Harm</Text>		<!-- Suicide or Self Harm -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_HARASSMENT" Language="th_TH">
+			<Text>Adult Sexual Harassment</Text>		<!-- Adult Sexual Harassment -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_HARASSMENT_TOOLTIP" Language="th_TH">
+			<Text>Adult Sexual Harassment</Text>		<!-- Adult Sexual Harassment -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_EXPLICIT_CONTENT" Language="th_TH">
+			<Text>Adult Sexually Explicit Content</Text>		<!-- Adult Sexually Explicit Content -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_EXPLICIT_CONTENT_TOOLTIP" Language="th_TH">
+			<Text>Adult Sexually Explicit Content</Text>		<!-- Adult Sexually Explicit Content -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_MINORABUSE" Language="th_TH">
+			<Text>Minor Abuse or Child Sexual Content</Text>		<!-- Minor Abuse or Child Sexual Content -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_MINORABUSE_TOOLTIP" Language="th_TH">
+			<Text>Minor Abuse or Child Sexual Content</Text>		<!-- Minor Abuse or Child Sexual Content -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_BULLYING" Language="th_TH">
+			<Text>Bullying, Threats, Harassment</Text>		<!-- Bullying, Threats, Harassment -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_BULLYING_TOOLTIP" Language="th_TH">
+			<Text>Bullying, Threats, Harassment</Text>		<!-- Bullying, Threats, Harassment -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_HATESPEECH" Language="th_TH">
+			<Text>Hate Speech, Discrimination</Text>		<!-- Hate Speech, Discrimination -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_HATESPEECH_TOOLTIP" Language="th_TH">
+			<Text>Hate Speech, Discrimination</Text>		<!-- Hate Speech, Discrimination -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_TERRORISM" Language="th_TH">
+			<Text>Terrorism or Violent Extremism</Text>		<!-- Terrorism or Violent Extremism -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_TERRORISM_TOOLTIP" Language="th_TH">
+			<Text>Terrorism or Violent Extremism</Text>		<!-- Terrorism or Violent Extremism -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_OTHER" Language="th_TH">
+			<Text>Other Illegal Content</Text>		<!-- Other Illegal Content -->
+		</Replace>
+		<Replace Tag="LOC_ABUSE_REPORT_OTHER_TOOLTIP" Language="th_TH">
+			<Text>Other Illegal Content</Text>		<!-- Other Illegal Content -->
 		</Replace>
 		<Replace Tag="LOC_UI_CHAT_ICONS" Language="th_TH">
 			<Text>ไอคอน</Text>		<!-- Icons -->
@@ -3657,6 +3765,12 @@
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_ENABLE_HDR_DESCRIPTION" Language="th_TH">
 			<Text>เปิดใช้งานการแสดงผลแบบไดนามิกสูง (ต้องรีสตาร์ท)</Text>		<!-- Enable High Dynamic Range display (requires restart). -->
+		</Replace>
+		<Replace Tag="LOC_UI_MP_LOBBY_NAVTRAY_READY" Language="th_TH">
+			<Text>Ready</Text>		<!-- Ready -->
+		</Replace>
+		<Replace Tag="LOC_UI_MP_LOBBY_NAVTRAY_UNREADY" Language="th_TH">
+			<Text>Unready</Text>		<!-- Unready -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_CALIBRATE_HDR" Language="th_TH">
 			<Text>ปรับเทียบ HDR</Text>		<!-- Calibrate HDR -->
