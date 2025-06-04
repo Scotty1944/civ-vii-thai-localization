@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_WARNING_NO_CODEX_SLOT_MESSAGE" Language="th_TH">
@@ -281,10 +281,10 @@
 			<Text>ไม่รู้จัก</Text>		<!-- UNKNOWN -->
 		</Replace>
 		<Replace Tag="LOC_CITYCOMMAND_DESTROY_RAZE_PENALTY" Language="th_TH">
-			<Text>-4[icon:YIELD_DIPLOMACY] Influence per turn for the rest of the Age once razing is complete</Text>		<!-- -4[icon:YIELD_DIPLOMACY] Influence per turn for the rest of the Age once razing is complete -->
+			<Text>-4[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น สำหรับช่วงเวลาที่เหลือของยุคเมื่อการทำลายเสร็จสมบูรณ์</Text>		<!-- -4[icon:YIELD_DIPLOMACY] Influence per turn for the rest of the Age once razing is complete -->
 		</Replace>
 		<Replace Tag="LOC_CITYCOMMAND_KEEP_PENALTY" Language="th_TH">
-			<Text>-2[icon:YIELD_DIPLOMACY] Influence per turn while you control this Settlement during this Age</Text>		<!-- -2[icon:YIELD_DIPLOMACY] Influence per turn while you control this Settlement during this Age -->
+			<Text>-2[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น ขณะที่คุณควบคุมถิ่นฐานนี้ในช่วงยุคนี้</Text>		<!-- -2[icon:YIELD_DIPLOMACY] Influence per turn while you control this Settlement during this Age -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_AKSUM1" Language="th_TH">
 			<Text>อักซุม</Text>		<!-- Aksum -->
@@ -6291,7 +6291,7 @@
 			<Text>ฮั่นเฟย</Text>		<!-- Han Fei -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHI_DAFU_BAN_ZHAO_DESCRIPTION" Language="th_TH">
-			<Text>Activate on a Constructible with a Great Work Slot to grant a Codex called Book of Han that grants +2[icon:YIELD_CULTURE] Culture.</Text>		<!-- Activate on a Constructible with a Great Work Slot to grant a Codex called Book of Han that grants +2[icon:YIELD_CULTURE] Culture. -->
+			<Text>ใช้กับสิ่งก่อสร้างที่มีช่องงานศิลป์เพื่อรับคัมภีร์ชื่อ หนังสือฮั่น ที่ให้ +2[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- Activate on a Constructible with a Great Work Slot to grant a Codex called Book of Han that grants +2[icon:YIELD_CULTURE] Culture. -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHI_DAFU_HAN_FEI_DESCRIPTION" Language="th_TH">
 			<Text>เปิดใช้งานบน พระราชวัง เพื่อเพิ่ม +3[icon:YIELD_SCIENCE] วิทยาศาสตร์ ให้กับอาคาร</Text>		<!-- Activate on the Palace to add +3[icon:YIELD_SCIENCE] Science to the Building. -->
@@ -6303,7 +6303,7 @@
 			<Text>เมงซีอุส</Text>		<!-- Mencius -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHI_DAFU_LAOZI_DESCRIPTION" Language="th_TH">
-			<Text>Activate on a Constructible with a Great Work Slot to grant a Codex called Tao Te Ching that grants +2[icon:YIELD_HAPPINESS] Happiness.</Text>		<!-- Activate on a Constructible with a Great Work Slot to grant a Codex called Tao Te Ching that grants +2[icon:YIELD_HAPPINESS] Happiness. -->
+			<Text>ใช้กับสิ่งก่อสร้างที่มีช่องงานศิลป์เพื่อรับคัมภีร์ชื่อ เต๋าเต๋อจิง ที่ให้ +2[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- Activate on a Constructible with a Great Work Slot to grant a Codex called Tao Te Ching that grants +2[icon:YIELD_HAPPINESS] Happiness. -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHI_DAFU_MENCIUS_DESCRIPTION" Language="th_TH">
 			<Text>เปิดใช้งานบน อาคารด้านวิทยาศาสตร์ เพื่อรับเทคโนโลยีสุ่มฟรีหนึ่งรายการ</Text>		<!-- Activate on a Science Building to receive a free random Technology. -->
@@ -16698,42 +16698,42 @@
 			<Text>เมืองใหญ่</Text>		<!-- City -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_HYBRID_CONTROLLER_TITLE" Language="th_TH">
-			<Text>Mouse Controls</Text>		<!-- Mouse Controls -->
+			<Text>การควบคุมด้วยเมาส์</Text>		<!-- Mouse Controls -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_HYBRID_CONTROLLER_BODY" Language="th_TH">
-			<Text>To use [b]Mouse Controls[/b], use the horizontal Joy-Con 2 to move the cursor. The [b]other Joy-Con 2 [/b]can be used [b]outside menus[/b].
+			<Text>หากต้องการใช้ [b]การควบคุมด้วยเมาส์[/b] ให้ใช้ Joy-Con 2 แนวนอนเพื่อเลื่อนเคอร์เซอร์ [b]Joy-Con 2 อีกอัน[/b] สามารถใช้ [b]นอกเมนู[/b] ได้
             [n]{1_controllerConfirm} {2_controllerCancel}
-            [n][n]You may [b]configure your controls[/b] any time in the [b]Options menu[/b].</Text>		<!-- To use [b]Mouse Controls[/b], use the horizontal Joy-Con 2 to move the cursor. The [b]other Joy-Con 2 [/b]can be used [b]outside menus[/b].
+            [n][n]คุณสามารถ [b]ตั้งค่าการควบคุม[/b] ได้ตลอดเวลาใน [b]เมนูตัวเลือก[/b]</Text>		<!-- To use [b]Mouse Controls[/b], use the horizontal Joy-Con 2 to move the cursor. The [b]other Joy-Con 2 [/b]can be used [b]outside menus[/b].
             [n]{1_controllerConfirm} {2_controllerCancel}
             [n][n]You may [b]configure your controls[/b] any time in the [b]Options menu[/b]. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_HYBRID_CONTROLLER_CONFIRM_KBM" Language="th_TH">
-			<Text>Return the Joy-Con 2 to the Mouse position to learn more about [b]Mouse Controls[/b], or close to continue playing.</Text>		<!-- Return the Joy-Con 2 to the Mouse position to learn more about [b]Mouse Controls[/b], or close to continue playing. -->
+			<Text>นำ Joy-Con 2 กลับไปที่ตำแหน่งเมาส์เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับ [b]การควบคุมด้วยเมาส์[/b] หรือปิดเพื่อเล่นต่อ</Text>		<!-- Return the Joy-Con 2 to the Mouse position to learn more about [b]Mouse Controls[/b], or close to continue playing. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_HYBRID_CONTROLLER_CONFIRM_GAMEPAD" Language="th_TH">
-			<Text>Return the Joy-Con 2 to the Mouse position to learn more about [b]Mouse Controls[/b], or close to continue playing.</Text>		<!-- Return the Joy-Con 2 to the Mouse position to learn more about [b]Mouse Controls[/b], or close to continue playing. -->
+			<Text>นำ Joy-Con 2 กลับไปที่ตำแหน่งเมาส์เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับ [b]การควบคุมด้วยเมาส์[/b] หรือปิดเพื่อเล่นต่อ</Text>		<!-- Return the Joy-Con 2 to the Mouse position to learn more about [b]Mouse Controls[/b], or close to continue playing. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_HYBRID_CONTROLLER_CONFIRM_TOUCH" Language="th_TH">
-			<Text>Return the Joy-Con 2 to the Mouse position to learn more about [b]Mouse Controls[/b], or close to continue playing.</Text>		<!-- Return the Joy-Con 2 to the Mouse position to learn more about [b]Mouse Controls[/b], or close to continue playing. -->
+			<Text>นำ Joy-Con 2 กลับไปที่ตำแหน่งเมาส์เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับ [b]การควบคุมด้วยเมาส์[/b] หรือปิดเพื่อเล่นต่อ</Text>		<!-- Return the Joy-Con 2 to the Mouse position to learn more about [b]Mouse Controls[/b], or close to continue playing. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_HYBRID_CONTROLLER_CONFIRM_HYBRID" Language="th_TH">
-			<Text>[b]Press [/b][action:{1_Icon}] [b]to confirm[/b].</Text>		<!-- [b]Press [/b][action:{1_Icon}] [b]to confirm[/b]. -->
+			<Text>[b]กด [/b][action:{1_Icon}] [b]เพื่อยืนยัน[/b]</Text>		<!-- [b]Press [/b][action:{1_Icon}] [b]to confirm[/b]. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_HYBRID_CONTROLLER_CANCEL_KBM" Language="th_TH">
-			<Text/>
+			<Text>ไม่มี</Text>
 		<!-- None -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_HYBRID_CONTROLLER_CANCEL_GAMEPAD" Language="th_TH">
-			<Text/>
+			<Text>ไม่มี</Text>
 		<!-- None -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_HYBRID_CONTROLLER_CANCEL_HYBRID" Language="th_TH">
-			<Text>[b]Press [/b][action:{1_Icon}] [b]to cancel[/b].
-            [n]If you'd like to exit [b]Mouse Controls[/b], [b]turn the Joy-Con 2 [/b]upright at any time.</Text>		<!-- [b]Press [/b][action:{1_Icon}] [b]to cancel[/b].
+			<Text>[b]กด [/b][action:{1_Icon}] [b]เพื่อยกเลิก[/b]
+            [n]หากคุณต้องการออกจาก [b]การควบคุมด้วยเมาส์[/b] [b]ให้ตั้ง Joy-Con 2 [/b]ตั้งตรงได้ตลอดเวลา</Text>		<!-- [b]Press [/b][action:{1_Icon}] [b]to cancel[/b].
             [n]If you'd like to exit [b]Mouse Controls[/b], [b]turn the Joy-Con 2 [/b]upright at any time. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_HYBRID_CONTROLLER_CANCEL_TOUCH" Language="th_TH">
-			<Text/>
+			<Text>ไม่มี</Text>
 		<!-- None -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ANTIQUITY_WELCOME_PAGE_ONE_TITLE" Language="th_TH">
@@ -16759,10 +16759,10 @@
 				[LI]Each Age presents its own [b]unique gameplay, new challenges, and an opportunity to change your strategy[/b]. Your [b]Leader [/b]remains the same, but at the end of every Age you will choose a new [b]Civilization[/b], with a different set of Abilities and Units at your disposal. The Legacy you create with each Civilization will carry into subsequent Ages.[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_LEADER_AND_CIV_BODY_HYBRID" Language="th_TH">
-			<Text>[b]Hover your cursor [/b]over your [b]Founder [/b]and press [/b][action:{1_Icon}] to [b]select [/b]them.</Text>		<!-- [b]Hover your cursor [/b]over your [b]Founder [/b]and press [/b][action:{1_Icon}] to [b]select [/b]them. -->
+			<Text>[b]เลื่อนเคอร์เซอร์ของคุณ[/b]ไปที่ [b]ผู้ก่อตั้ง[/b] แล้วกด [/b][action:{1_Icon}] เพื่อ [b]เลือก[/b]</Text>		<!-- [b]Hover your cursor [/b]over your [b]Founder [/b]and press [/b][action:{1_Icon}] to [b]select [/b]them. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_LEADER_AND_CIV_BODY_TOUCH" Language="th_TH">
-			<Text>[b]Tap them now[/b].</Text>		<!-- [b]Tap them now[/b]. -->
+			<Text>[b]แตะที่พวกเขาตอนนี้[/b]</Text>		<!-- [b]Tap them now[/b]. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ANTIQUITY_WELCOME_PAGE_THREE_TITLE" Language="th_TH">
 			<Text>เส้นทางมรดก &amp; ชัยชนะ</Text>		<!-- Legacy Paths &amp; Victories -->
@@ -16779,10 +16779,10 @@
 			<Text>ถิ่นฐาน</Text>		<!-- Settlements -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_YOUR_FIRST_CITY_BODY_HYBRID" Language="th_TH">
-			<Text> press [action:{1_Icon}] on </Text>		<!--  press [action:{1_Icon}] on -->
+			<Text> กด [action:{1_Icon}] บน </Text>		<!--  press [action:{1_Icon}] on -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_YOUR_FIRST_CITY_BODY_TOUCH" Language="th_TH">
-			<Text> tap</Text>		<!--  tap -->
+			<Text> แตะ</Text>		<!--  tap -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ANTIQUITY_WELCOME_PAGE_FOUR_SUBTITLE" Language="th_TH">
 			<Text>หัวใจของอารยธรรมของคุณ</Text>		<!-- The heart of your Civilization -->
@@ -16839,10 +16839,10 @@
 			<Text>บ้านหลังใหม่</Text>		<!-- A New Home -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_PRODUCTION_INTRO_BODY_HYBRID" Language="th_TH">
-			<Text>Press [action:{1_Icon}] while hovering over [icon:NOTIFICATION_CHOOSE_CITY_PRODUCTION] [b]Choose Production [/b]to begin.</Text>		<!-- Press [action:{1_Icon}] while hovering over [icon:NOTIFICATION_CHOOSE_CITY_PRODUCTION] [b]Choose Production [/b]to begin. -->
+			<Text>กด [action:{1_Icon}] ขณะเลื่อนเมาส์ไปที่ [icon:NOTIFICATION_CHOOSE_CITY_PRODUCTION] [b]เลือกการผลิต[/b] เพื่อเริ่มต้น</Text>		<!-- Press [action:{1_Icon}] while hovering over [icon:NOTIFICATION_CHOOSE_CITY_PRODUCTION] [b]Choose Production [/b]to begin. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_PRODUCTION_INTRO_BODY_TOUCH" Language="th_TH">
-			<Text>Tap [icon:NOTIFICATION_CHOOSE_CITY_PRODUCTION] [b]Choose Production [/b]to begin.</Text>		<!-- Tap [icon:NOTIFICATION_CHOOSE_CITY_PRODUCTION] [b]Choose Production [/b]to begin. -->
+			<Text>แตะ [icon:NOTIFICATION_CHOOSE_CITY_PRODUCTION] [b]เลือกการผลิต[/b] เพื่อเริ่มต้น</Text>		<!-- Tap [icon:NOTIFICATION_CHOOSE_CITY_PRODUCTION] [b]Choose Production [/b]to begin. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_LEADER_AND_CIV_BODY" Language="th_TH">
 			<Text>สวัสดี, [b]{1_LeaderName}[/b]![n]พร้อมกับวิสัยทัศน์ใหม่คือชาว {2_CivAdj} ที่เตรียมพร้อมจะลงหลักปักฐาน ในดินแดนที่อุดมสมบูรณ์นี้[n][icon:UNIT_FOUNDER] [b]{3_Founder} [/b]มีความสามารถในการก่อตั้ง [icon:UNIT_FOUND_CITY_ICON] [b]เมือง[/b] แห่งแรกของคุณ {4_Prompts}</Text>		<!-- Greetings, [b]{1_LeaderName}[/b]![n]With a new vision come the {2_CivAdj} people, ready to put down roots in these fertile lands.[n]Your [icon:UNIT_FOUNDER] [b]{3_Founder} [/b]has the ability to establish your first [icon:UNIT_FOUND_CITY_ICON] [b]City[/b]. {4_Prompts} -->
@@ -16857,10 +16857,10 @@
 			<Text>เมืองแรกของคุณ</Text>		<!-- Your First City -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_FIRST_PRODUCTION_BODY_HYBRID" Language="th_TH">
-			<Text> Press [action:{1_Icon}] on an option to select it and </Text>		<!--  Press [action:{1_Icon}] on an option to select it and -->
+			<Text> กด [action:{1_Icon}] บนตัวเลือกเพื่อเลือกและ </Text>		<!--  Press [action:{1_Icon}] on an option to select it and -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_FIRST_PRODUCTION_BODY_TOUCH" Language="th_TH">
-			<Text> Tap one to </Text>		<!--  Tap one to -->
+			<Text> แตะหนึ่งตัวเลือกเพื่อ </Text>		<!--  Tap one to -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_YOUR_FIRST_CITY_BODY" Language="th_TH">
 			<Text>ถิ่นฐานแรก ของคุณจะเจริญรุ่งเรืองเมื่ออยู่ใกล้แหล่งน้ำ และทรัพยากรอุดมสมบูรณ์ สถานที่นี้เหมาะสมกับความต้องการของคุณ! [n]สั่งการ [icon:UNIT_FOUNDER][b]{1_Founder}[/b] เพื่อก่อตั้ง [b]เมืองหลวง[/b] ของคุณ, {2_Prompts} ปุ่มการกระทำ [icon:UNIT_FOUND_CITY_ICON][b]{LOC_UNITOPERATION_FOUND_CITY_NAME} [/b] ที่ตั้งอยู่ในแผงยูนิตด้านล่าง</Text>		<!-- Your first settlement is sure to thrive near sources of water and abundant resources. This location is well-suited to your needs![n]Order your [icon:UNIT_FOUNDER] [b]{1_Founder} [/b]to establish your [b]Capital City[/b], {2_Prompts} the [icon:UNIT_FOUND_CITY_ICON] [b]{LOC_UNITOPERATION_FOUND_CITY_NAME} [/b]action button located in the Unit panel below. -->
@@ -16881,10 +16881,10 @@
 			<Text>จงดูเถิด [b]{1_CityName}[/b] ศูนย์กลางทางวัฒนธรรมของชาว [b]{2_CivAdj}[/b]![n]เมืองนี้และ [b]ถิ่นฐาน[/b] ในอนาคตทั้งหมดของท่านมอบผลลัพธ์พิเศษให้แก่ [b]อารยธรรม[/b] ของท่าน:[n][n][icon:YIELD_FOOD] [b]อาหาร [/b]เพื่อเลี้ยงดู ประชากร ของท่าน และขยายความเพิ่มพูนของประชาชน[n][n][icon:YIELD_PRODUCTION] [b]กำลังผลิต [/b]เพื่อสร้าง [b]อาคารพิเศษ[/b] และฝึกฝน [b]ยูนิตต่างๆ[/b][n][n][icon:YIELD_SCIENCE] [b]วิทยาศาสตร์ [/b]เพื่อขับเคลื่อน ประชากร ของท่าน สู่อนาคตและมุ่งสู่สิ่งที่ยิ่งใหญ่กว่า</Text>		<!-- Behold [b]{1_CityName}[/b], the cultural center of the [b]{2_CivAdj} [/b]people![n]This [b]City [/b]and all your future [b]Settlements [/b]provide your Civilization with specific yields:[n][n][icon:YIELD_FOOD] [b]Food [/b]to feed your people and grow your populace.[n][n][icon:YIELD_PRODUCTION] [b]Production [/b]to construct special Buildings and train Units.[n][n][icon:YIELD_SCIENCE] [b]Science [/b]to propel your people into the future and progress to greater things. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_END_TURN_BODY_HYBRID" Language="th_TH">
-			<Text>[b]press [/b][action:{1_Icon}] on [icon:NEXT_TURN] [b]Next Turn[/b] to end your turn.</Text>		<!-- [b]press [/b][action:{1_Icon}] on [icon:NEXT_TURN] [b]Next Turn[/b] to end your turn. -->
+			<Text>[b]กด [/b][action:{1_Icon}] บน [icon:NEXT_TURN] [b]เทิร์นถัดไป[/b] เพื่อจบเทิร์นของคุณ</Text>		<!-- [b]press [/b][action:{1_Icon}] on [icon:NEXT_TURN] [b]Next Turn[/b] to end your turn. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_END_TURN_BODY_TOUCH" Language="th_TH">
-			<Text>tap [icon:NEXT_TURN] [b]Next Turn[/b].</Text>		<!-- tap [icon:NEXT_TURN] [b]Next Turn[/b]. -->
+			<Text>แตะ [icon:NEXT_TURN] [b]เทิร์นถัดไป[/b]</Text>		<!-- tap [icon:NEXT_TURN] [b]Next Turn[/b]. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MOVEMENT_INTRO_TITLE" Language="th_TH">
 			<Text>การนำทาง: เคลื่อนไหว</Text>		<!-- Navigation: Movement -->
@@ -16908,10 +16908,10 @@
 			<Text>{1_ZoomControls}</Text>		<!-- {1_ZoomControls} -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_FIRST_UNIT_MOVE_ADD1_HYBRID" Language="th_TH">
-			<Text>[b]Press [/b][action:{1_Icon}] [b]to select a destination [/b]</Text>		<!-- [b]Press [/b][action:{1_Icon}] [b]to select a destination [/b] -->
+			<Text>[b]กด [/b][action:{1_Icon}] [b]เพื่อเลือกจุดหมาย[/b]</Text>		<!-- [b]Press [/b][action:{1_Icon}] [b]to select a destination [/b] -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_FIRST_UNIT_MOVE_ADD1_TOUCH" Language="th_TH">
-			<Text>[style:kbm][b]Tap a destination [/b][/style]</Text>		<!-- [style:kbm][b]Tap a destination [/b][/style] -->
+			<Text>[style:kbm][b]แตะจุดหมาย[/b][/style]</Text>		<!-- [style:kbm][b]Tap a destination [/b][/style] -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ZOOM_INTRO_BODY_KBM" Language="th_TH">
 			<Text>ใช้ [b]ลูกกิ้งเมาส์[/b] เพื่อซูมเข้าและออก</Text>		<!-- Use [b]the scroll wheel[/b] to zoom in and out. -->
@@ -16923,10 +16923,10 @@
 			<Text>[icon:YIELD_PRODUCTION]การผลิต[icon:YIELD_PRODUCTION]</Text>		<!-- [icon:YIELD_PRODUCTION]Production[icon:YIELD_PRODUCTION] -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_FIRST_UNIT_MOVE_ADD2_HYBRID" Language="th_TH">
-			<Text>[style:gamepad] pressing [action:{1_Icon}] to select a destination [/style]</Text>		<!-- [style:gamepad] pressing [action:{1_Icon}] to select a destination [/style] -->
+			<Text>[style:gamepad] กด [action:{1_Icon}] เพื่อเลือกจุดหมาย [/style]</Text>		<!-- [style:gamepad] pressing [action:{1_Icon}] to select a destination [/style] -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_FIRST_UNIT_MOVE_ADD2_TOUCH" Language="th_TH">
-			<Text>[style:kbm] tapping a destination [/style]</Text>		<!-- [style:kbm] tapping a destination [/style] -->
+			<Text>[style:kbm] แตะจุดหมาย [/style]</Text>		<!-- [style:kbm] tapping a destination [/style] -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_PRODUCTION_INTRO_BODY" Language="th_TH">
 			<Text>[icon:UNIT_FOUND_CITY_ICON][b]ถิ่นฐาน[/b] จะสร้าง[icon:YIELD_PRODUCTION] [b]กำลังผลิต[/b]ทุกๆเทิร์น, [icon:YIELD_PRODUCTION] [b]กำลังผลิต[/b] สามารถใช้สำหรับหลายสิ่ง เช่น การสร้าง [b]อาคาร[/b] ใหม่ที่สำคัญ หรือฝึก [b]ยูนิต[/b] ทหารที่ทรงพลัง [b]เมือง[/b] ควรมีการผลิตสิ่งต่างๆ เสมอ</Text>		<!-- A [icon:UNIT_FOUND_CITY_ICON] [b]Settlement [/b]generates an amount of [icon:YIELD_PRODUCTION] [b]Production [/b]every game turn. This [icon:YIELD_PRODUCTION] [b]Production [/b]can be used for many things, like constructing important new [b]Buildings [/b]or training powerful military [b]Units[/b]. A [b]City [/b]should always be producing something. [n][n] {1_Prompts} -->
@@ -16947,10 +16947,10 @@
 			<Text>เลือกหนึ่งรายการเพื่อ</Text>		<!-- Select one to -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_TECHNOLOGY_INTRO_BODY_HYBRID" Language="th_TH">
-			<Text>Press [action:{1_Icon}] on the [icon:NOTIFICATION_CHOOSE_TECH] [b]Choose Technology[/b] option below.</Text>		<!-- Press [action:{1_Icon}] on the [icon:NOTIFICATION_CHOOSE_TECH] [b]Choose Technology[/b] option below. -->
+			<Text>กด [action:{1_Icon}] บน [icon:NOTIFICATION_CHOOSE_TECH] [b]เลือกเทคโนโลยี[/b] ด้านล่าง</Text>		<!-- Press [action:{1_Icon}] on the [icon:NOTIFICATION_CHOOSE_TECH] [b]Choose Technology[/b] option below. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_TECHNOLOGY_INTRO_BODY_TOUCH" Language="th_TH">
-			<Text>Tap the [icon:NOTIFICATION_CHOOSE_TECH] [b]Choose Technology [/b]option below.</Text>		<!-- Tap the [icon:NOTIFICATION_CHOOSE_TECH] [b]Choose Technology [/b]option below. -->
+			<Text>แตะ [icon:NOTIFICATION_CHOOSE_TECH] [b]เลือกเทคโนโลยี[/b] ด้านล่าง</Text>		<!-- Tap the [icon:NOTIFICATION_CHOOSE_TECH] [b]Choose Technology [/b]option below. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_FIRST_PRODUCTION_BODY_GAMEPAD" Language="th_TH">
 			<Text>กด [action:{1_Icon}] เพื่อเลือกหนึ่งรายการและ</Text>		<!-- Press [action:{1_Icon}] to select one and -->
@@ -16965,10 +16965,10 @@
 			<Text>ยืนยันการเลือกเทคโนโลยีของคุณโดยกด [action:{1_Icon}]</Text>		<!-- confirm your Tech choice by pressing [action:{1_Icon}]. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CHOOSE_FIRST_TECH_BODY_HYBRID" Language="th_TH">
-			<Text> press [action:{1_Icon}] on the Technology to begin researching.</Text>		<!--  press [action:{1_Icon}] on the Technology to begin researching. -->
+			<Text> กด [action:{1_Icon}] บนเทคโนโลยีเพื่อเริ่มวิจัย</Text>		<!--  press [action:{1_Icon}] on the Technology to begin researching. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CHOOSE_FIRST_TECH_BODY_TOUCH" Language="th_TH">
-			<Text> tap on the Technology to begin researching.</Text>		<!--  tap on the Technology to begin researching. -->
+			<Text> แตะบนเทคโนโลยีเพื่อเริ่มวิจัย</Text>		<!--  tap on the Technology to begin researching. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_FIRST_PRODUCTION_WARRIOR_ITEM_TEXT" Language="th_TH">
 			<Text>[b]{1_Name} {2_Icon}[/b] เป็นยูนิตทหารที่สามารถ [b]โจมตี[/b]ศัตรูที่เป็นอันตรายหรือปกป้องเมืองของคุณจากการรุกราน</Text>		<!-- The [b]{1_Name} {2_Icon} [/b]is a military Unit that can [b]attack [/b]hostile enemies or defend your City from an invasion. -->
@@ -17106,10 +17106,10 @@
 			<Text>คลังของคุณ</Text>		<!-- Your Treasury -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CHOOSE_FIRST_CIVIC_BODY_HYBRID" Language="th_TH">
-			<Text> press [action:{1_Icon}] on </Text>		<!--  press [action:{1_Icon}] on -->
+			<Text> กด [action:{1_Icon}] บน </Text>		<!--  press [action:{1_Icon}] on -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CHOOSE_FIRST_CIVIC_BODY_TOUCH" Language="th_TH">
-			<Text> tap on </Text>		<!--  tap on -->
+			<Text> แตะบน </Text>		<!--  tap on -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_PLAYER_GOLD_INCOME_BODY" Language="th_TH">
 			<Text>อารยธรรมของคุณสะสมความมั่งคั่งในรูปแบบของ [icon:YIELD_GOLD] [b]ทอง[/b] ซึ่งเกิดขึ้นในแต่ละเทิร์นจากแหล่งต่างๆ รวมถึงสิ่งก่อสร้าง ทรัพยากร และการพัฒนาที่ดิน รวมทั้งนโยบายพลเมืองและการค้า [n][b]ทอง[/b] เป็นทรัพยากรที่ทรงพลังมาก ซึ่งสามารถใช้ซื้อสิ่งต่างๆ ได้ทันทีที่ปกติจะต้องใช้เวลาและกำลังผลิตในการได้มา อย่างไรก็ตาม โปรดจำไว้ว่าสิ่งก่อสร้างและยูนิตส่วนใหญ่มีค่าใช้จ่ายบำรุงรักษา [b]ทอง[/b] ซึ่งจะถูกหักออกจากคลังของคุณในแต่ละเทิร์น การรักษารายได้ [b]ทอง[/b] ให้เป็นบวกเป็นสิ่งสำคัญ!</Text>		<!-- Your Civilization accumulates wealth in the form of [icon:YIELD_GOLD] [b]Gold [/b]which is generated every turn from various sources including Buildings, Resources, and land Improvements as well as Civic Policies and trades.[n][b]Gold [/b]is a very powerful resource which can be used to purchase things instantly that would normally require time and Production to obtain. However, keep in mind that most Buildings and Units have a [b]Gold [/b]maintenance cost which is subtracted from your Treasury each turn. Maintaining a positive [b]Gold [/b]income is important! -->
@@ -17142,10 +17142,10 @@
 			<Text>อย่าลืมสำรวจสิ่งรอบตัวคุณ! เคลื่อนยูนิต ของคุณเพื่อเปิดเผย {1_GoalNum} แผ่นดินในดินแดนที่อยู่นอกเหนือออกไป</Text>		<!-- Don't forget to explore your surroundings! Keep moving your Units to reveal {1_GoalNum} tiles in the lands beyond. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_EARN_FIRST_ATTRIBUTE_POINT_BODY_HYBRID" Language="th_TH">
-			<Text>press [action:{1_Icon}] on</Text>		<!-- press [action:{1_Icon}] on -->
+			<Text>กด [action:{1_Icon}] บน</Text>		<!-- press [action:{1_Icon}] on -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_EARN_FIRST_ATTRIBUTE_POINT_BODY_TOUCH" Language="th_TH">
-			<Text>tap</Text>		<!-- tap -->
+			<Text>แตะ</Text>		<!-- tap -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_QUEST_REVEAL_MAP_TITLE" Language="th_TH">
 			<Text>สำรวจ</Text>		<!-- Explore -->
@@ -17280,10 +17280,10 @@
 			<Text>หมู่บ้านอิสระ</Text>		<!-- Independent Villages -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_YOUR_FIRST_COMMANDER_PROMOTION_HYBRID" Language="th_TH">
-			<Text> press [action:{1_Icon}] on</Text>		<!--  press [action:{1_Icon}] on -->
+			<Text> กด [action:{1_Icon}] บน</Text>		<!--  press [action:{1_Icon}] on -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_YOUR_FIRST_COMMANDER_PROMOTION_TOUCH" Language="th_TH">
-			<Text> tap</Text>		<!--  tap -->
+			<Text> แตะ</Text>		<!--  tap -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_FIRST_INDEPENDENT_MET_BODY" Language="th_TH">
 			<Text>{1_IndpendentText}</Text>		<!-- {1_IndpendentText} -->
@@ -17549,10 +17549,10 @@
 			<Text>ค่ายทหารอิสระ</Text>		<!-- Independent Encampments -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_OPEN_LEGACY_PROGRESS_SCREEN_HYBRID" Language="th_TH">
-			<Text>Press [action:{1_Icon}] on</Text>		<!-- Press [action:{1_Icon}] on -->
+			<Text>กด [action:{1_Icon}] บน</Text>		<!-- Press [action:{1_Icon}] on -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_OPEN_LEGACY_PROGRESS_SCREEN_TOUCH" Language="th_TH">
-			<Text>Tap</Text>		<!-- Tap -->
+			<Text>แตะ</Text>		<!-- Tap -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_INDEPENDENT_ENCAMPMENT_BODY" Language="th_TH">
 			<Text>{1_IndpendentText}</Text>		<!-- {1_IndpendentText} -->
@@ -18082,10 +18082,10 @@
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME}</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME} -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_LEADER_SCREEN_INTRO_BODY_HYBRID" Language="th_TH">
-			<Text>Press [action:{1_Icon}] on</Text>		<!-- Press [action:{1_Icon}] on -->
+			<Text>กด [action:{1_Icon}] บน</Text>		<!-- Press [action:{1_Icon}] on -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_LEADER_SCREEN_INTRO_BODY_TOUCH" Language="th_TH">
-			<Text>Tap</Text>		<!-- Tap -->
+			<Text>แตะ</Text>		<!-- Tap -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_VICTORY_ADVISOR_BODY" Language="th_TH">
 			<Text>โลกคุกเข่าลงเบื้องหน้าอาณาจักร {1_CivAdj} อันยิ่งใหญ่ บรรดาชุมชนของเราจารึกถึงการปรากฏตัวของเราลงบนแผ่นดิน เพื่อให้ได้รับการจดจำตลอดกาล</Text>		<!-- The world kneels before the vast {1_CivAdj} empire. Our settlements inscribe our presence upon the very earth, to be remembered forever. -->
