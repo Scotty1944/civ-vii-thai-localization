@@ -353,11 +353,9 @@
 			<Text>การกระทำต่อผู้เล่น</Text>		<!-- Actions on Player -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_DROPDOWN_TEAM_DEFAULT" Language="th_TH">
-			<Text>ไม่มีทีม</Text>		<!-- No Team -->
-		</Replace>
+			<Text>ไม่มี</Text>		<!-- None --></Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_TEAM" Language="th_TH">
-			<Text>ทีม {1_TeamNumber}</Text>		<!-- Team {1_TeamNumber} -->
-		</Replace>
+			<Text>{1_TeamNumber}</Text>		<!-- {1_TeamNumber} --></Replace>
 		<Replace Tag="LOC_UI_MP_LANDING_TITLE" Language="th_TH">
 			<Text>โหมดผู้เล่นหลายคน</Text>		<!-- MULTIPLAYER PLAY MODE -->
 		</Replace>
@@ -494,8 +492,7 @@
 			<Text>ข้อผิดพลาดในการเข้าร่วม</Text>		<!-- Join Error -->
 		</Replace>
 		<Replace Tag="LOC_MP_CREATE_GAME_WAITING_BODY" Language="th_TH">
-			<Text>กรุณารอ, กำลังสร้างเกม </Text>		<!-- Please wait, ., -->
-		</Replace>
+			<Text>กรุณารอ . . . </Text>		<!-- Please wait . . .  --></Replace>
 		<Replace Tag="LOC_MP_CREATE_GAME_WAITING_TITLE" Language="th_TH">
 			<Text>กำลังสร้างเกม</Text>		<!-- Creating Game -->
 		</Replace>
@@ -785,8 +782,7 @@
 			<Text>วัฒนธรรมใหม่เกิดขึ้น</Text>		<!-- A New Culture Emerges -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_CREATE_GAME_TITLE" Language="th_TH">
-			<Text>ผู้เล่นหลายคน</Text>		<!-- Multiplayer -->
-		</Replace>
+			<Text>ผู้เล่นหลายคน</Text>		<!-- MULTIPLAYER --></Replace>
 		<Replace Tag="LOC_UI_MP_CREATE_GAME_SUBTITLE" Language="th_TH">
 			<Text>สร้างเกม ผู้เล่นหลายคน</Text>		<!-- Create Multiplayer Game -->
 		</Replace>
@@ -839,8 +835,7 @@
 			<Text>จำนวนบอท:</Text>		<!-- Number of CPU Players: -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_GAME_RULE_PRIVATE_GAME" Language="th_TH">
-			<Text>เกมส่วนตัว:</Text>		<!-- Private Game: -->
-		</Replace>
+			<Text>เกมส่วนตัว:</Text>		<!-- Hidden Game: --></Replace>
 		<Replace Tag="LOC_UI_MP_GAME_RULE_KICK_VOTING" Language="th_TH">
 			<Text>การโหวตเตะ:</Text>		<!-- Kick Voting: -->
 		</Replace>
@@ -1064,8 +1059,7 @@
 			<Text>บันทึกโดยเวอร์ชัน:</Text>		<!-- Saved By Version: -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_DETAILS_DIFFERENT_PLAYER_SAVE" Language="th_TH">
-			<Text>ไม่ได้บันทึกโดยผู้เล่นนี้, ความท้าทายจะไม่นับ</Text>		<!-- Not saved by this player -->
-		</Replace>
+			<Text>ไม่ได้บันทึกโดยผู้เล่นนี้, ความท้าทายจะไม่นับ</Text>		<!-- Not saved by this player, challenges will not count --></Replace>
 		<Replace Tag="LOC_SAVE_LOAD_DETAILS_SAVED_BY_PLATFORM" Language="th_TH">
 			<Text>บันทึกโดยแพลตฟอร์ม:</Text>		<!-- Saved By Platform: -->
 		</Replace>
@@ -1169,11 +1163,9 @@
 			<Text>การกำหนดค่าใหม่</Text>		<!-- New Config -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_GAME_MOD_NOT_INSTALLED" Language="th_TH">
-			<Text>[STYLE:text-negative]{1_modTitle} (ไม่ได้ติดตั้ง)[/STYLE]</Text>		<!-- (NOT INSTALLED) -->
-		</Replace>
+			<Text>[STYLE:text-negative]{1_modTitle} (ไม่ได้ติดตั้ง)[/STYLE]</Text>		<!-- [STYLE:text-negative]{1_modTitle} (NOT INSTALLED)[/STYLE] --></Replace>
 		<Replace Tag="LOC_SAVE_GAME_MOD_NOT_OWNED" Language="th_TH">
-			<Text>[STYLE:text-negative]{1_modTitle} (ไม่ได้เป็นเจ้าของ)[/STYLE]</Text>		<!-- (NOT OWNED) -->
-		</Replace>
+			<Text>[STYLE:text-negative]{1_modTitle} (ไม่ได้เป็นเจ้าของ)[/STYLE]</Text>		<!-- [STYLE:text-negative]{1_modTitle} (NOT OWNED)[/STYLE] --></Replace>
 		<Replace Tag="LOC_LOAD_GAME_ERROR_LINKED_ACCOUNT" Language="th_TH">
 			<Text>การบันทึกเหตุการณ์สดนี้ต้องการบัญชี 2K ที่เชื่อมโยง</Text>		<!-- This Live Event save requires linked 2K account -->
 		</Replace>
@@ -1574,14 +1566,11 @@
 			<Text>r</Text>		<!-- r -->
 		</Replace>
 		<Replace Tag="LOC_OOBE_TITLE_LANGUAGE" Language="th_TH">
-			<Text>เลือกภาษา</Text>		<!-- Choose Language -->
-		</Replace>
+			<Text>เลือกภาษา</Text>		<!-- Choose Your Languages --></Replace>
 		<Replace Tag="LOC_OOBE_TITLE_DISPLAY" Language="th_TH">
-			<Text>เลือกการตั้งค่าหน้าจอ</Text>		<!-- Choose Display Settings -->
-		</Replace>
+			<Text>เลือกการตั้งค่าหน้าจอ</Text>		<!-- Choose Your Display Options --></Replace>
 		<Replace Tag="LOC_OOBE_TITLE_AUDIO" Language="th_TH">
-			<Text>เลือกการตั้งค่าเสียง</Text>		<!-- Choose Audio Settings -->
-		</Replace>
+			<Text>เลือกการตั้งค่าเสียง</Text>		<!-- Choose Your Audio Options --></Replace>
 		<Replace Tag="LOC_OOBE_TITLE_AUTOSAVE" Language="th_TH">
 			<Text>เกมนี้รองรับการบันทึกอัตโนมัติ.[n]โปรดอย่าปิดเกมของคุณเมื่อคุณเห็นไอคอนนี้</Text>		<!-- This game supports auto save.[n]Please do not turn off your game when you see this icon. -->
 		</Replace>
@@ -1601,8 +1590,7 @@
 			<Text>ไม่มีการเชื่อมต่ออินเทอร์เน็ต</Text>		<!-- NO INTERNET CONNECTION -->
 		</Replace>
 		<Replace Tag="LOC_UI_NO_INTERNET_CONNECTION" Language="th_TH">
-			<Text>การบันทึกบนคลาวด์ที่มีอยู่จะไม่สามารถใช้งานได้.[n]ความคืบหน้าในเกมใด ๆ ที่ทำอาจไม่ได้รับการบันทึก</Text>		<!-- Any existing cloud saves will not be available.[n]Any game progress made may not be saved. -->
-		</Replace>
+			<Text>การบันทึกบนคลาวด์ที่มีอยู่จะไม่สามารถใช้งานได้.[n]ความคืบหน้าในเกมใด ๆ ที่ทำอาจไม่ได้รับการบันทึก</Text>		<!-- Any existing cloud saves will not be available.[n]Legends meta progression may not be saved. --></Replace>
 		<Replace Tag="LOC_UI_ACTIVITY_LEAVE_MP_GAME_TITLE" Language="th_TH">
 			<Text>ออกจากเกมผู้เล่นหลายคน?</Text>		<!-- LEAVE MULTIPLAYER GAME? -->
 		</Replace>
@@ -1610,14 +1598,11 @@
 			<Text>ออกจากเกม?</Text>		<!-- LEAVE GAME? -->
 		</Replace>
 		<Replace Tag="LOC_UI_ACTIVITY_LAST_SAVE_DESC" Language="th_TH">
-			<Text>หากคุณดำเนินการต่อไปยังการบันทึกล่าสุด คุณจะออกจากการแข่งขันนี้ คุณแน่ใจหรือไม่?</Text>		<!-- If you continue to your last save -->
-		</Replace>
+			<Text>หากคุณดำเนินการต่อไปยังการบันทึกล่าสุด คุณจะออกจากการแข่งขันนี้ คุณแน่ใจหรือไม่?</Text>		<!-- If you continue to your last save, you will leave this match. Are you certain? --></Replace>
 		<Replace Tag="LOC_UI_ACTIVITY_HOST_MP_DESC" Language="th_TH">
-			<Text>หากคุณดำเนินการต่อไปยังล็อบบี้ใหม่ คุณจะออกจากเกมนี้โดยไม่บันทึก คุณแน่ใจหรือไม่?</Text>		<!-- If you continue to a new lobby -->
-		</Replace>
+			<Text>หากคุณดำเนินการต่อไปยังล็อบบี้ใหม่ คุณจะออกจากเกมนี้โดยไม่บันทึก คุณแน่ใจหรือไม่?</Text>		<!-- If you continue to a new lobby, you will leave this game without saving. Are you certain? --></Replace>
 		<Replace Tag="LOC_UI_TOOLTIP_MODS" Language="th_TH">
-			<Text>ม็อด</Text>		<!-- Mods -->
-		</Replace>
+			<Text>ส่วนเสริม</Text>		<!-- Add-ons --></Replace>
 		<Replace Tag="LOC_UI_TOOLTIP_DLCS" Language="th_TH">
 			<Text>เนื้อหาอย่างเป็นทางการ</Text>		<!-- Official Content -->
 		</Replace>
@@ -1817,11 +1802,9 @@
 			<Text>เป้าหมาย</Text>		<!-- Target -->
 		</Replace>
 		<Replace Tag="LOC_NEXT_ACTION" Language="th_TH">
-			<Text>ตาถัดไป</Text>		<!-- Next Turn -->
-		</Replace>
+			<Text>การกระทำถัดไป</Text>		<!-- Next Action --></Replace>
 		<Replace Tag="LOC_NEXT_ACTION_HELP" Language="th_TH">
-			<Text>ตาถัดไป</Text>		<!-- Next Turn -->
-		</Replace>
+			<Text>ดำเนินการต่อไป หรือจบรอบผู้เล่นหากไม่มีการกระทำเหลืออยู่แล้ว </Text>		<!-- Activate the next action or end the player's turn if there are no more actions. --></Replace>
 		<Replace Tag="LOC_SWAP_PLOT_SELECTION" Language="th_TH">
 			<Text>สลับพล็อต</Text>		<!-- Swap Plot -->
 		</Replace>
@@ -2126,8 +2109,7 @@
 			<Text>โหลดด่วน</Text>		<!-- Quick Load -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_QUICK_LOAD_TT" Language="th_TH">
-			<Text>โหลดการบันทึกด่วนล่าสุดหากมี</Text>		<!-- Loads the most recent quick save -->
-		</Replace>
+			<Text>โหลดการบันทึกด่วนล่าสุด, หากมี</Text>		<!-- Loads the most recent quick save, if one exists. --></Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_QUICK_SAVE" Language="th_TH">
 			<Text>บันทึกด่วน</Text>		<!-- Quick Save -->
 		</Replace>
@@ -2279,14 +2261,12 @@
 			<Text>ข้อความเป็นเสียง (เคอร์เซอร์เมาส์)</Text>		<!-- Text to Speech (Mouse Cursor) -->
 		</Replace>
 		<Replace Tag="LOC_UI_TEXT_TO_SPEECH_KEYBOARD_TT" Language="th_TH">
-			<Text>บรรยายข้อความใต้เคอร์เซอร์โดยใช้ข้อความเป็นเสียงหากแพลตฟอร์มรองรับ</Text>		<!-- Narrates the text under the cursor using text to speech -->
-		</Replace>
+			<Text>บรรยายข้อความใต้เคอร์เซอร์โดยใช้ข้อความเป็นเสียงหากแพลตฟอร์มรองรับ</Text>		<!-- Narrates the text under the cursor using text to speech, if supported by the platform --></Replace>
 		<Replace Tag="LOC_UI_TEXT_TO_SPEECH_CONTROLLER" Language="th_TH">
 			<Text>ข้อความเป็นเสียง (โฟกัสคอนโทรลเลอร์)</Text>		<!-- Text to Speech (Controller Focus) -->
 		</Replace>
 		<Replace Tag="LOC_UI_TEXT_TO_SPEECH_CONTROLLER_TT" Language="th_TH">
-			<Text>บรรยายข้อความด้วยโฟกัสคอนโทรลเลอร์โดยใช้ข้อความเป็นเสียงหากแพลตฟอร์มรองรับ</Text>		<!-- Narrates the text with controller focus using text to speech -->
-		</Replace>
+			<Text>บรรยายข้อความด้วยโฟกัสคอนโทรลเลอร์โดยใช้ข้อความเป็นเสียงหากแพลตฟอร์มรองรับ</Text>		<!-- Narrates the text with controller focus using text to speech, if supported by the platform --></Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_ATTACK" Language="th_TH">
 			<Text>โจมตี</Text>		<!-- Attack -->
 		</Replace>
@@ -2378,8 +2358,7 @@
 			<Text>Intel Xe Low Latency Frame Rate Control</Text>		<!-- Intel Xe Low Latency Frame Rate Control -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_XELL_FRAME_RATE_DESCRIPTION" Language="th_TH">
-			<Text>จำกัดอัตราเฟรมสูงสุด</Text>		<!-- Cap the maxiumum frame rate -->
-		</Replace>
+			<Text>จำกัดอัตราเฟรมสูงสุด</Text>		<!-- Cap the maximum frame rate --></Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_XELL_FRAME_RATE_UNLIMITED" Language="th_TH">
 			<Text>ไม่จำกัด</Text>		<!-- Unlimited -->
 		</Replace>
@@ -2630,8 +2609,7 @@
 			<Text>รัสเซีย (Russian)</Text>		<!-- Русский (Russian) -->
 		</Replace>
 		<Replace Tag="LOC_LANGUAGE_PT_BR_NAME" Language="th_TH">
-			<Text>โปรตุเกส (Portuguese)</Text>		<!-- Português (Portuguese) -->
-		</Replace>
+			<Text>โปรตุเกส (Portuguese)</Text>		<!-- Português Brasileiro (Brazilian Portuguese) --></Replace>
 		<Replace Tag="LOC_LANGUAGE_PL_PL_NAME" Language="th_TH">
 			<Text>โปแลนด์ (Polish)</Text>		<!-- polski (Polish) -->
 		</Replace>
@@ -3149,8 +3127,7 @@
 			<Text>{1_PlayerName} เป็นเพื่อนของคุณแล้ว</Text>		<!-- {1_PlayerName} is already your friend -->
 		</Replace>
 		<Replace Tag="LOC_UI_OPTIONS_TITLE" Language="th_TH">
-			<Text>ตั้งค่า</Text>		<!-- Settings -->
-		</Replace>
+			<Text>ตั้งค่า</Text>		<!-- Options --></Replace>
 		<Replace Tag="LOC_PROFILE_PROGRESS_HEADER" Language="th_TH">
 			<Text>ระดับ {1_Level}: {2_CurrentPoints} / {3_NextLevelPoints} XP</Text>		<!-- Level {1_Level}: {2_CurrentPoints} / {3_NextLevelPoints} XP -->
 		</Replace>
@@ -3158,8 +3135,7 @@
 			<Text>การเข้าถึง</Text>		<!-- Accessibility -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_CATEGORY_ACCESSIBILITY_DESCRIPTION" Language="th_TH">
-			<Text>ปรับหน้าจอ คำบรรยาย และการป้อนข้อมูล</Text>		<!-- Adjust the Screen -->
-		</Replace>
+			<Text>ปรับหน้าจอ คำบรรยาย และการป้อนข้อมูล</Text>		<!-- Adjust the Screen, Subtitles and Input --></Replace>
 		<Replace Tag="LOC_OPTIONS_CATEGORY_AUDIO" Language="th_TH">
 			<Text>เสียง</Text>		<!-- Audio -->
 		</Replace>
@@ -3170,8 +3146,7 @@
 			<Text>เกม</Text>		<!-- Game -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_CATEGORY_GAME_DESCRIPTION" Language="th_TH">
-			<Text>ปรับการตั้งค่า HUD บันทึกอัตโนมัติ และเวลาของวัน</Text>		<!-- Adjust the HUD -->
-		</Replace>
+			<Text>ปรับการตั้งค่า HUD บันทึกอัตโนมัติ และเวลาของวัน</Text>		<!-- Adjust the HUD, Autosaves and Time of Day Settings --></Replace>
 		<Replace Tag="LOC_OPTIONS_CATEGORY_GRAPHICS" Language="th_TH">
 			<Text>ภาพ</Text>		<!-- Graphics -->
 		</Replace>
@@ -3200,8 +3175,7 @@
 			<Text>ระบบ</Text>		<!-- System -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_CATEGORY_SYSTEM_DESCRIPTION" Language="th_TH">
-			<Text>ปรับการตั้งค่าอินเทอร์เฟซ กล้อง และการสัมผัส</Text>		<!-- Adjust the Interface -->
-		</Replace>
+			<Text>ปรับการตั้งค่าอินเทอร์เฟซ กล้อง และการสัมผัส</Text>		<!-- Adjust the Interface, Camera and Touch Settings --></Replace>
 		<Replace Tag="LOC_OPTIONS_CANCEL" Language="th_TH">
 			<Text>ยกเลิก</Text>		<!-- Cancel -->
 		</Replace>
@@ -3260,8 +3234,7 @@
 			<Text>โหลดใหม่?</Text>		<!-- Reload? -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_RELOAD_WARN_BODY" Language="th_TH">
-			<Text>ตัวเลือกที่เปลี่ยนจะทำให้เกมโหลดใหม่ เพื่อแสดงการเปลี่ยนแปลง, คุณจะไม่สูญเสียตำแหน่งของคุณ แต่คุณอาจต้องเริ่มการกระทำใดๆ ที่กำลังดำเนินการใหม่ คุณต้องการดำเนินการต่อหรือไม่?</Text>		<!-- One or more changed options will cause the game to reload briefly to show the changes. You will not lose your place -->
-		</Replace>
+			<Text>ตัวเลือกที่เปลี่ยนจะทำให้เกมโหลดใหม่ เพื่อแสดงการเปลี่ยนแปลง, คุณจะไม่สูญเสียตำแหน่งของคุณ แต่คุณอาจต้องเริ่มการกระทำใดๆ ที่กำลังดำเนินการใหม่ คุณต้องการดำเนินการต่อหรือไม่?</Text>		<!-- One or more changed options will cause the game to reload briefly to show the changes.  You will not lose your place, but you may need to restart any actions that are in progress.  Do you wish to proceed? --></Replace>
 		<Replace Tag="LOC_OPTIONS_RELOAD_WARN_CONTINUE" Language="th_TH">
 			<Text>ดำเนินการต่อ</Text>		<!-- Continue -->
 		</Replace>
@@ -3509,8 +3482,7 @@
 			<Text>ระดับเสียงหลัก</Text>		<!-- Master Volume -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_AUDIO_VOLUME_MASTER_DESCRIPTION" Language="th_TH">
-			<Text>ควบคุมระดับเสียงสำหรับทุกเสียงในเกม ค่าระดับเสียงอื่นๆ จะสัมพันธ์กับระดับเสียงหลัก</Text>		<!-- Volume control for all sounds in the game. All other volume values are relative to master volume. -->
-		</Replace>
+			<Text>ควบคุมระดับเสียงสำหรับทุกเสียงในเกม ค่าระดับเสียงอื่นๆ จะสัมพันธ์กับระดับเสียงหลัก</Text>		<!-- Volume control for all sounds in the game.  All other volume values are relative to master volume. --></Replace>
 		<Replace Tag="LOC_OPTIONS_AUDIO_VOLUME_MUSIC" Language="th_TH">
 			<Text>ระดับเสียงเพลง</Text>		<!-- Music Volume -->
 		</Replace>
@@ -3596,8 +3568,7 @@
 			<Text>จูนเนอร์ (ปิดการใช้งานความสำเร็จ)</Text>		<!-- Tuner (Disables Achievements) -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_TUNER_DESCRIPTION" Language="th_TH">
-			<Text>เปิดจูนเนอร์การม็อด สิ่งนี้จะปิดการใช้งานความสำเร็จ</Text>		<!-- Turn on the modding tuner. This will disable achievements. -->
-		</Replace>
+			<Text>เปิดจูนเนอร์การม็อด สิ่งนี้จะปิดการใช้งานความสำเร็จ</Text>		<!-- Turn on the modding tuner.  This will disable achievements. --></Replace>
 		<Replace Tag="LOC_OPTIONS_AUTOENDTURN" Language="th_TH">
 			<Text>สิ้นสุดเทิร์นอัตโนมัติ</Text>		<!-- Auto End Turn -->
 		</Replace>
@@ -3608,20 +3579,17 @@
 			<Text>เลื่อนไปหายูนิตที่ยังเคลื่อนที่ได้</Text>		<!-- Unit Cycle Remaining Movement -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_UNITCYCLE_REMAININGMOVES_DESCRIPTION" Language="th_TH">
-			<Text>หลังจากทำทุกอย่างในเทิร์นจนครบหมดแล้ว ระบบจะปรับไปหายูนิตอื่นที่ยังเคลื่อนที่ได้ทันที</Text>		<!-- After all other turn blocking actions have been taken -->
-		</Replace>
+			<Text>หลังจากทำทุกอย่างในเทิร์นจนครบหมดแล้ว ระบบจะปรับไปหายูนิตอื่นที่ยังเคลื่อนที่ได้ทันที</Text>		<!-- After all other turn blocking actions have been taken, cycle through units with movement points remaining. --></Replace>
 		<Replace Tag="LOC_OPTIONS_AUTOUNITYCYCLE" Language="th_TH">
 			<Text>เลื่อนไปหายูนิตอื่นโดยอัตโนมัติ</Text>		<!-- Auto Unit Cycle -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_AUTOUNITYCYCLE_DESCRIPTION" Language="th_TH">
-			<Text>หลังจากใช้แต้มเคลื่อนที่ของยูนิตจนหมด ระบบจะปรับไปหายูนิตอื่นที่ยังเคลื่อนที่ได้ทันที</Text>		<!-- After expending all movement points for the selected unit -->
-		</Replace>
+			<Text>หลังจากใช้แต้มเคลื่อนที่ของยูนิตจนหมด ระบบจะปรับไปหายูนิตอื่นที่ยังเคลื่อนที่ได้ทันที</Text>		<!-- After expending all movement points for the selected unit, cycle through units with movement points remaining. --></Replace>
 		<Replace Tag="LOC_OPTIONS_TUTORIALLEVEL" Language="th_TH">
 			<Text>ระดับการสอน (Tutorial)</Text>		<!-- Tutorial Level -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_TUTORIALLEVEL_DESCRIPTION" Language="th_TH">
-			<Text>ระดับของข้อมูลการสอนที่คุณต้องการรับขณะเล่นเกม</Text>		<!-- How many levels of detailed -->
-		</Replace>
+			<Text>ระดับของข้อมูลการสอนที่คุณต้องการรับขณะเล่นเกม</Text>		<!-- How many levels of detailed, tutorial information you'd like to receive while playing the game. --></Replace>
 		<Replace Tag="LOC_OPTIONS_GAME_TUTORIAL_0_DESCRIPTION" Language="th_TH">
 			<Text>ปิดคำเตือนและการสอน</Text>		<!-- Warnings and Tutorials are off. -->
 		</Replace>
@@ -3683,8 +3651,7 @@
 			<Text>เรียนรู้ขณะเล่น คำเตือนก็เปิดใช้งานด้วย</Text>		<!-- Learn as you play. Warnings are also enabled. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GAME_TUTORIAL_2_TOOLTIP_ALT" Language="th_TH">
-			<Text>เรียนรู้ขณะเล่น คำเตือนก็เปิดใช้งานด้วย หากเปลี่ยนแปลง คุณจะต้องเริ่มเกมใหม่ด้วยการตั้งค่านี้เพื่อดูการสอน</Text>		<!-- Learn as you play. Warnings are also enabled. If changed -->
-		</Replace>
+			<Text>เรียนรู้ขณะเล่น คำเตือนก็เปิดใช้งานด้วย หากเปลี่ยนแปลง คุณจะต้องเริ่มเกมใหม่ด้วยการตั้งค่านี้เพื่อดูการสอน</Text>		<!-- Learn as you play. Warnings are also enabled. If changed, you will need to start a new game with this setting to see Tutorials. --></Replace>
 		<Replace Tag="LOC_OPTIONS_HELP_TYPES" Language="th_TH">
 			<Text>แสดงความช่วยเหลือ</Text>		<!-- Display Help -->
 		</Replace>
@@ -3860,8 +3827,7 @@
 			<Text>NVIDIA DLSS ใช้ AI เพื่อเพิ่มอัตราเฟรมในขณะที่รักษาคุณภาพของภาพและการตอบสนองที่ยอดเยี่ยม คุณสมบัตินี้ต้องการการ์ดกราฟิก GeForce RTX</Text>		<!-- NVIDIA DLSS uses AI to boost frame rates while maintaining great image quality and responsiveness. This feature requires a GeForce RTX graphics card. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_UPSCALE_AA_DLSS_SUPER_RESOLUTION_DESCRIPTION" Language="th_TH">
-			<Text>Super Resolution เพิ่มอัตราเฟรมโดยการเรนเดอร์พิกเซลน้อยลงและใช้ AI เพื่อสร้างเฟรมความละเอียดสูง คุณสมบัตินี้ต้องการการ์ดกราฟิก GeForce RTX</Text>		<!-- Super Resolution boosts frame rates by rendering fewer pixels and using AI to output high resolution frames. This feature requires a GeForce RTX graphics card. -->
-		</Replace>
+			<Text>Super Resolution เพิ่มอัตราเฟรมโดยการเรนเดอร์พิกเซลน้อยลงและใช้ AI เพื่อสร้างเฟรมความละเอียดสูง คุณสมบัตินี้ต้องการการ์ดกราฟิก GeForce RTX</Text>		<!-- Super Resolution boosts frame rates by rendering fewer pixels and using AI to output high resolution frames.This feature requires a GeForce RTX graphics card. --></Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_UPSCALE_AA_DLSS_DLAA_DESCRIPTION" Language="th_TH">
 			<Text>NVIDIA DLAA เป็นโหมดการลดรอยหยักที่ใช้ AI เพื่อปรับปรุงคุณภาพของภาพ คุณสมบัตินี้ต้องการการ์ดกราฟิก GeForce RTX</Text>		<!-- NVIDIA DLAA is an AI-based anti-aliasing mode to improve image quality. This feature requires a GeForce RTX graphics card. -->
 		</Replace>
@@ -4058,8 +4024,7 @@
 			<Text>คุณภาพของวัตถุ</Text>		<!-- Asset Quality -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_ASSET_QUALITY_DESCRIPTION" Language="th_TH">
-			<Text>เลือกระดับรายละเอียดสำหรับวัตถุ 3 มิติในเกม ระดับสูงจะใช้วัตถุที่มีรายละเอียดมากขึ้น ในขณะที่ระดับต่ำจะใช้วัตถุที่ง่ายกว่าและมีรายละเอียดน้อยกว่า</Text>		<!-- Selects the detail level for 3D objects in the game. High will use more detailed objects -->
-		</Replace>
+			<Text>เลือกระดับรายละเอียดสำหรับวัตถุ 3 มิติในเกม ระดับสูงจะใช้วัตถุที่มีรายละเอียดมากขึ้น ในขณะที่ระดับต่ำจะใช้วัตถุที่ง่ายกว่าและมีรายละเอียดน้อยกว่า</Text>		<!-- Selects the detail level for 3D objects in the game. High will use more detailed objects, while low will use simpler, less detailed objects. --></Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_ASSET_QUALITY_LOW" Language="th_TH">
 			<Text>ต่ำ</Text>		<!-- Low -->
 		</Replace>
@@ -4070,8 +4035,7 @@
 			<Text>คุณภาพของเอฟเฟกต์</Text>		<!-- Particle Quality -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_PARTICLE_QUALITY_DESCRIPTION" Language="th_TH">
-			<Text>เลือกระดับคุณภาพสำหรับเอฟเฟกต์อนุภาคเช่นไฟและควัน ระดับสูงหมายถึงมีอนุภาคมากขึ้นและมีการเคลื่อนไหวที่ละเอียดมากขึ้น ในขณะที่ระดับต่ำหมายถึงมีอนุภาคน้อยลงและทำงานได้เร็วขึ้น</Text>		<!-- Selects the quality level for Particle Effects like fires and smokes. High means more particles with more detailed motions -->
-		</Replace>
+			<Text>เลือกระดับคุณภาพสำหรับเอฟเฟกต์อนุภาคเช่นไฟและควัน ระดับสูงหมายถึงมีอนุภาคมากขึ้นและมีการเคลื่อนไหวที่ละเอียดมากขึ้น ในขณะที่ระดับต่ำหมายถึงมีอนุภาคน้อยลงและทำงานได้เร็วขึ้น</Text>		<!-- Selects the quality level for Particle Effects like fires and smokes. High means more particles with more detailed motions, while low means less particles and runs faster. --></Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_PARTICLE_QUALITY_LOW" Language="th_TH">
 			<Text>ต่ำ</Text>		<!-- Low -->
 		</Replace>
@@ -4118,8 +4082,7 @@
 			<Text>ความละเอียดของพื้นผิว</Text>		<!-- Texture Detail -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_TEXTURE_DETAIL_DESCRIPTION" Language="th_TH">
-			<Text>เลือกระดับรายละเอียดของพื้นผิว ระดับที่สูงกว่าจะมีรายละเอียดมากขึ้นบนวัตถุ ในขณะที่ระดับที่ต่ำกว่าจะใช้หน่วยความจำน้อยลงมาก</Text>		<!-- Selects texture detail level. Higher levels have more detail on objects -->
-		</Replace>
+			<Text>เลือกระดับรายละเอียดของพื้นผิว ระดับที่สูงกว่าจะมีรายละเอียดมากขึ้นบนวัตถุ ในขณะที่ระดับที่ต่ำกว่าจะใช้หน่วยความจำน้อยลงมาก</Text>		<!-- Selects texture detail level. Higher levels have more detail on objects, while lower levels use much less memory. --></Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_TEXTURE_DETAIL_LOW" Language="th_TH">
 			<Text>ต่ำ</Text>		<!-- Low -->
 		</Replace>
@@ -4133,8 +4096,7 @@
 			<Text>คุณภาพของเงา</Text>		<!-- Shadow Quality -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_SHADOW_QUALITY_DESCRIPTION" Language="th_TH">
-			<Text>เลือกคุณภาพของเงา ระดับที่สูงกว่าจะให้เงาที่มีรายละเอียดมากขึ้น ในขณะที่ระดับที่ต่ำกว่าจะทำงานได้เร็วขึ้นและใช้หน่วยความจำน้อยลง</Text>		<!-- Selects shadow quality. Higher levels provide more detailed shadows -->
-		</Replace>
+			<Text>เลือกคุณภาพของเงา ระดับที่สูงกว่าจะให้เงาที่มีรายละเอียดมากขึ้น ในขณะที่ระดับที่ต่ำกว่าจะทำงานได้เร็วขึ้นและใช้หน่วยความจำน้อยลง</Text>		<!-- Selects shadow quality. Higher levels provide more detailed shadows, while lower levels are faster and use less memory. --></Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_SHADOW_QUALITY_LOW" Language="th_TH">
 			<Text>ต่ำ</Text>		<!-- Low -->
 		</Replace>
@@ -4151,8 +4113,7 @@
 			<Text>คุณภาพของน้ำ</Text>		<!-- Water Quality -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_WATER_QUALITY_DESCRIPTION" Language="th_TH">
-			<Text>เลือกคุณภาพการเรนเดอร์น้ำ ระดับสูงมีคลื่นมากขึ้นและเปิดใช้งานการหักเห ในขณะที่ระดับต่ำทำงานได้เร็วขึ้น</Text>		<!-- Select water rendering quality. High has more waves and enables refraction -->
-		</Replace>
+			<Text>เลือกคุณภาพการเรนเดอร์น้ำ ระดับสูงมีคลื่นมากขึ้นและเปิดใช้งานการหักเห ในขณะที่ระดับต่ำทำงานได้เร็วขึ้น</Text>		<!-- Select water rendering quality. High has more waves and enables refraction, while low runs faster. --></Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_WATER_QUALITY_LOW" Language="th_TH">
 			<Text>ต่ำ</Text>		<!-- Low -->
 		</Replace>
@@ -4214,20 +4175,16 @@
 			<Text>เปลี่ยนภาษา</Text>		<!-- Change Language -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_LANGUAGE_DESCRIPTION" Language="th_TH">
-			<Text>เลือกภาษาสำหรับเสียงและข้อความ</Text>		<!-- Select the language for audio and text -->
-		</Replace>
+			<Text>เลือกภาษาสำหรับเสียงและข้อความ</Text>		<!-- Choose which language is used for audio and text. --></Replace>
 		<Replace Tag="LOC_OPTIONS_LANGUAGE_AUDIO" Language="th_TH">
-			<Text>เสียง:</Text>		<!-- Audio: -->
-		</Replace>
+			<Text>เสียง:</Text>		<!-- Spoken: --></Replace>
 		<Replace Tag="LOC_OPTIONS_LANGUAGE_DISPLAY" Language="th_TH">
-			<Text>ภาษาที่แสดง:</Text>		<!-- Display Language: -->
-		</Replace>
+			<Text>ภาษาที่แสดง:</Text>		<!-- Display: --></Replace>
 		<Replace Tag="LOC_OPTIONS_SHOW_INTRO_VIDEO" Language="th_TH">
 			<Text>แสดงวีดีโอเปิด</Text>		<!-- Show Intro Video -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_SHOW_INTRO_VIDEO_DESCRIPTION" Language="th_TH">
-			<Text>แสดงวีดีโอเปิดเมื่อเริ่มต้นเกม</Text>		<!-- Show the intro video when starting the game. -->
-		</Replace>
+			<Text>แสดงวีดีโอเปิดเมื่อเริ่มต้นเกม</Text>		<!-- Show the introduction video at startup. --></Replace>
 		<Replace Tag="LOC_OPTIONS_CLOCK_FORMAT" Language="th_TH">
 			<Text>รูปแบบนาฬิกา</Text>		<!-- Clock Format -->
 		</Replace>
@@ -4274,8 +4231,7 @@
 			<Text>ใหญ่</Text>		<!-- large -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_TOOLTIP_DELAY" Language="th_TH">
-			<Text>ดีเลย์กล่องข้อความแสดงรายละเอียด</Text>		<!-- Tooltip Delay -->
-		</Replace>
+			<Text>ดีเลย์กล่องข้อความแสดงรายละเอียด</Text>		<!-- Tooltip delay --></Replace>
 		<Replace Tag="LOC_OPTIONS_TOOLTIP_DELAY_DESCRIPTION" Language="th_TH">
 			<Text>จำนวนวินาทีที่ต้องรอก่อนแสดงกล่องข้อความแสดงรายละเอียดบนอินเทอร์เฟซผู้ใช้</Text>		<!-- How many seconds to wait before showing a tooltip on the user interface. -->
 		</Replace>
@@ -4298,11 +4254,9 @@
 			<Text>ความเร็วในการเลื่อนข้อความอัตโนมัติ</Text>		<!-- How fast to auto-scroll text. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_WARN_MOD" Language="th_TH">
-			<Text>เตือนเกี่ยวกับความเข้ากันได้ของ MOD</Text>		<!-- Warn about MOD compatiblity -->
-		</Replace>
+			<Text>เตือนเกี่ยวกับความเข้ากันได้ของ MOD</Text>		<!-- Warn about MOD compatibility --></Replace>
 		<Replace Tag="LOC_OPTIONS_WARN_MOD_DESCRIPTION" Language="th_TH">
-			<Text>เตือนเกี่ยวกับปัญหาความเข้ากันได้เมื่อโหลด MODs</Text>		<!-- Warn about compatiblity issues when loading MODs. -->
-		</Replace>
+			<Text>เตือนเกี่ยวกับปัญหาความเข้ากันได้เมื่อโหลด MODs</Text>		<!-- Warn about compatibility issues when loading MODs. --></Replace>
 		<Replace Tag="LOC_OPTIONS_USE_RGB" Language="th_TH">
 			<Text>ใช้ไฟ RGB</Text>		<!-- Use RGB Lighting -->
 		</Replace>
@@ -4310,8 +4264,7 @@
 			<Text>ใช้ไฟ RGB ของบุคคลที่สามที่เข้ากันได้กับเกม</Text>		<!-- Use compatible 3rd party RGB lighting with game. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_RIBBON_DISPLAY" Language="th_TH">
-			<Text>แสดงข้อมูลผลผลิตตลอด</Text>		<!-- Always Show Yields -->
-		</Replace>
+			<Text>แสดงข้อมูลผลผลิตตลอด</Text>		<!-- Always Show Ribbon Yields --></Replace>
 		<Replace Tag="LOC_OPTIONS_RIBBON_DISPLAY_DESCRIPTION" Language="th_TH">
 			<Text>แสดงผลผลิตของผู้เล่นในริบบิ้น HUD ตลอดเวลา</Text>		<!-- Always show the players yields in the HUD ribbon. -->
 		</Replace>
@@ -4328,20 +4281,16 @@
 			<Text>ตั้งค่าความเร็วของล้อเมาส์</Text>		<!-- Set the speed of the mouse wheel. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_REPLACE_HOLD_TO_DRAG" Language="th_TH">
-			<Text>แทนที่การลากด้วยการคลิก</Text>		<!-- Replace Hold to Drag -->
-		</Replace>
+			<Text>แทนที่การลากด้วยการคลิก</Text>		<!-- Replace draggable with click --></Replace>
 		<Replace Tag="LOC_OPTIONS_REPLACE_HOLD_TO_DRAG_DESCRIPTION" Language="th_TH">
-			<Text>แทนที่ฟังก์ชันการลากและถือด้วยการคลิก ลากและปล่อย</Text>		<!-- Replace the drag-and-hold functionality with click -->
-		</Replace>
+			<Text>แทนที่ฟังก์ชันการลากและถือด้วยการคลิก ลากและปล่อย</Text>		<!-- Replace the drag-and-hold functionality with click, drag and dropping. --></Replace>
 		<Replace Tag="LOC_OPTIONS_CAMERA_PANNING_SPEED" Language="th_TH">
-			<Text>ความเร็วในการแพนกล้อง</Text>		<!-- Camera Panning Speed -->
-		</Replace>
+			<Text>ความเร็วในการแพนกล้อง</Text>		<!-- Camera pan speed --></Replace>
 		<Replace Tag="LOC_OPTIONS_CAMERA_PANNING_SPEED_DESCRIPTION" Language="th_TH">
 			<Text>ความเร็วที่กล้องเคลื่อนที่เมื่อแพน</Text>		<!-- How fast the camera moves when panning. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_NOTIFICATION_CAMERA_PAN" Language="th_TH">
-			<Text>ปรับมุมกล้องไปยังจุดที่แจ้งเตือนโดยอัตโนมัติ</Text>		<!-- Notification Camera Pan -->
-		</Replace>
+			<Text>ปรับมุมกล้องไปยังจุดที่แจ้งเตือนโดยอัตโนมัติ</Text>		<!-- Auto pan to notifications --></Replace>
 		<Replace Tag="LOC_OPTIONS_NOTIFICATION_CAMERA_PAN_DESCRIPTION" Language="th_TH">
 			<Text>ปรับมุมกล้องไปยังการแจ้งเตือนที่บล็อกตาถัดไปโดยอัตโนมัติ</Text>		<!-- Automatically pan the camera to the next turn blocking notification. -->
 		</Replace>
@@ -4553,8 +4502,7 @@
 			<Text>Haunted Hallow</Text>		<!-- Haunted Hallow -->
 		</Replace>
 		<Replace Tag="LOC_PROFILE_SAMPLE_TITLE_DESCRIPTION" Language="th_TH">
-			<Text>ชนะในช่วงกิจกรรมฮาโลวีน นี่คือเกม Firaxis ที่วางจำหน่ายในปี 2013</Text>		<!-- Won during the Halloween Event. This was a Firaxis game released in 2013. -->
-		</Replace>
+			<Text>ชนะในช่วงกิจกรรมฮาโลวีน นี่คือเกม Firaxis ที่วางจำหน่ายในปี 2013</Text>		<!-- Won during the Halloween Event.  This was a Firaxis game released in 2013. --></Replace>
 		<Replace Tag="LOC_PROFILE_SAMPLE_TITLE_DATE" Language="th_TH">
 			<Text>เสร็จสิ้น 11/25/29</Text>		<!-- Completed 11/25/29 -->
 		</Replace>
@@ -4772,11 +4720,9 @@
 			<Text>ความขัดแย้งของความก้าวหน้าบัญชี 2K ที่เชื่อมโยง</Text>		<!-- 2K Linked Account Progression Conflict -->
 		</Replace>
 		<Replace Tag="LOC_PROFILE_PROGRESS_BODY_CONFLICT_RESOLUTION" Language="th_TH">
-			<Text>ความก้าวหน้าในเครื่องของคุณขัดแย้งกับที่เชื่อมโยงกับบัญชี 2K ของคุณ คุณจะต้องเลือกเวอร์ชันเพื่อดำเนินการต่อ กรุณาเลือกความก้าวหน้าที่คุณจะเก็บไว้เพื่อซิงค์กับอุปกรณ์นี้และบัญชี 2K ของคุณ</Text>		<!-- Your local progress conflicts with what is linked with your 2K account. You will need to choose a version to proceed. Please select the progress you will keep to be synced to this device and your 2K account. -->
-		</Replace>
+			<Text>ความก้าวหน้าในเครื่องของคุณขัดแย้งกับที่เชื่อมโยงกับบัญชี 2K ของคุณ คุณจะต้องเลือกเวอร์ชันเพื่อดำเนินการต่อ กรุณาเลือกความก้าวหน้าที่คุณจะเก็บไว้เพื่อซิงค์กับอุปกรณ์นี้และบัญชี 2K ของคุณ</Text>		<!-- Your local progress conflicts with what is linked with your 2K account.  You will need to choose a version to proceed.  Please select the progress you will keep to be synced to this device and your 2K account. --></Replace>
 		<Replace Tag="LOC_PROFILE_PROGRESS_BODY_CONSOLE_CONFLICT_RESOLUTION" Language="th_TH">
-			<Text>ความก้าวหน้าในเครื่องของคุณขัดแย้งกับที่เชื่อมโยงกับบัญชี 2K ของคุณ คุณจะต้องเลือกเวอร์ชันเพื่อดำเนินการต่อ กรุณาเลือกความก้าวหน้าที่คุณจะเก็บไว้เพื่อซิงค์กับคอนโซลนี้และบัญชี 2K ของคุณ</Text>		<!-- Your local progress conflicts with what is linked with your 2K account. You will need to choose a version to proceed. Please select the progress you will keep to be synced to this console and your 2K account. -->
-		</Replace>
+			<Text>ความก้าวหน้าในเครื่องของคุณขัดแย้งกับที่เชื่อมโยงกับบัญชี 2K ของคุณ คุณจะต้องเลือกเวอร์ชันเพื่อดำเนินการต่อ กรุณาเลือกความก้าวหน้าที่คุณจะเก็บไว้เพื่อซิงค์กับคอนโซลนี้และบัญชี 2K ของคุณ</Text>		<!-- Your local progress conflicts with what is linked with your 2K account.  You will need to choose a version to proceed.  Please select the progress you will keep to be synced to this console and your 2K account. --></Replace>
 		<Replace Tag="LOC_PROFILE_PROGRESS_CHOICE_1_CONFLICT_RESOLUTION" Language="th_TH">
 			<Text>ความก้าวหน้าในเครื่อง</Text>		<!-- Local Progress -->
 		</Replace>
