@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="asia-wonders" version="1"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>LOC_MODULE_ASIA_WONDERS_NAME</Name>
+		<Description>LOC_MODULE_ASIA_WONDERS_DESCRIPTION</Description>
+		<Authors>LOC_AUTHORS_FIRAXIS</Authors>
+		<EnabledByDefault>1</EnabledByDefault>
+		<Package>Hexham</Package>
+	</Properties>
+	<Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+	</Dependencies>
+	<References>
+		<Mod id="age-antiquity" title="LOC_MODULE_AGE_ANTIQUITY_NAME"/>
+		<Mod id="age-exploration" title="LOC_MODULE_AGE_EXPLORATION_NAME"/>
+	</References>
+	<ActionCriteria>
+		<Criteria id="antiquity-age-persist" any="true">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-persist" any="true">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-current">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-persist" any="true">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-current">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<ActionGroup id="standard-game-asia-wonders" scope="game" criteria="always">
+			<Properties>
+				<AffectsSavedGames>0</AffectsSavedGames>
+			</Properties>
+			<Actions>
+				<UpdateArt>
+					<Item>asia-wonders</Item>
+				</UpdateArt>
+				<UpdateIcons>
+					<Item>data/icons/icons.xml</Item>
+				</UpdateIcons>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="antiquity-age-persist-asia-wonders" scope="game" criteria="antiquity-age-persist">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/constructibles-antiquity.xml</Item>
+					<Item>data/constructibles-antiquity-gameeffects.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/ConstructibleAntiquityText.xml</Item>
+					<Item>text/CivilopediaAntiquityText.xml</Item>
+
+					<!-- Items below were generated via our loc tool. -->
+					<Item>l10n/ModuleText.xml</Item>
+					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
+					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
+					<Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>
+					<Item locale="it_IT">l10n/it_IT_Text.xml</Item>
+					<Item locale="ja_JP">l10n/ja_JP_Text.xml</Item>
+					<Item locale="ko_KR">l10n/ko_KR_Text.xml</Item>
+					<Item locale="pl_PL">l10n/pl_PL_Text.xml</Item>
+					<Item locale="pt_BR">l10n/pt_BR_Text.xml</Item>
+					<Item locale="ru_RU">l10n/ru_RU_Text.xml</Item>
+					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
+					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="antiquity-age-current-asia-wonders" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/progression-trees-antiquity.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="exploration-age-persist-asia-wonders" scope="game" criteria="exploration-age-persist">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/constructibles-exploration.xml</Item>
+					<Item>data/constructibles-exploration-gameeffects.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/ConstructibleExplorationText.xml</Item>
+					<Item>text/CivilopediaExplorationText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="exploration-age-current-asia-wonders" scope="game" criteria="exploration-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/progression-trees-exploration.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="modern-age-persist-asia-wonders" scope="game" criteria="modern-age-persist">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/constructibles-modern.xml</Item>
+					<Item>data/constructibles-modern-gameeffects.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/ConstructibleModernText.xml</Item>
+					<Item>text/CivilopediaModernText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="modern-age-current-asia-wonders" scope="game" criteria="modern-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/progression-trees-modern.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+	<LocalizedText>
+		<File>text/ModuleText.xml</File>
+		<File>l10n/ModuleText.xml</File>
+	</LocalizedText>
+</Mod>
