@@ -1721,14 +1721,11 @@
 			<Text>พรอสเวชเชนีอา</Text>		<!-- Prosveshchenie -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_RUSSIA_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม ในเขตพื้นที่ในเมือง +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ในเขตพื้นที่ในเมืองในทุ่งทุนดรา</Text>		<!-- +1[icon:YIELD_CULTURE] Culture on Districts in Cities. +1 [icon:YIELD_SCIENCE] Science on Districts in Cities in Tundra. -->
-		</Replace>
+			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บนเขตพื้นที่เมือง ในทุ่งทุนดรา</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and +1[icon:YIELD_SCIENCE] Science on Districts, doubled in Tundra.  --></Replace>
 		<Replace Tag="LOC_CIVILIZATION_RUSSIA_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม ในเขตพื้นที่ในเมือง +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ในเขตพื้นที่ในเมืองในทุ่งทุนดรา</Text>		<!-- +1[icon:YIELD_CULTURE] Culture on Districts in Cities. +1 [icon:YIELD_SCIENCE] Science on Districts in Cities in Tundra. -->
-		</Replace>
+			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บนเขตพื้นที่เมือง ในทุ่งทุนดรา</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and +1[icon:YIELD_SCIENCE] Science on Districts, doubled in Tundra.  --></Replace>
 		<Replace Tag="LOC_TRAIT_RUSSIA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+1 [icon:YIELD_CULTURE] วัฒนธรรม [/B]ใน [B]เขต [/B]ในเมือง[LI][B]+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]ใน [B]เขต [/B]ในเมืองใน [B]ทุนดรา[/B][LI][B]+30% [icon:YIELD_PRODUCTION] ผลิตภัณฑ์ [/B]เพื่อการสร้าง [B]เฮอร์มิเทจ[/B][/LIST]</Text>		<!-- [LIST][LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]on [B]Districts [/B]in Cities.[LI][B]+1 [icon:YIELD_SCIENCE] Science [/B]on [B]Districts [/B]in Cities in [B]Tundra[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Hermitage[/B].[/LIST] -->
-		</Replace>
+			<Text>[LIST][LI][B]+1 [icon:YIELD_CULTURE] วัฒนธรรม [/B] และ +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]บน [B]เขตพื้นที่เมือง[/B] ใน [B]ทุ่งทุนดรา[/B][LI][B]+30% [icon:YIELD_PRODUCTION] ผลิตภัณฑ์ [/B]เพื่อการสร้าง [B]เฮอร์มิเทจ[/B][/LIST]</Text>		<!-- [LIST][LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]and [B]+1 [icon:YIELD_SCIENCE] Science [/B]on [B]Districts[/B], doubled in [B]Tundra[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Hermitage[/B].[/LIST] --></Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_RUSSIA_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องกับรัสเซีย</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Russia's associated Wonder. -->
 		</Replace>
@@ -3038,11 +3035,9 @@
 			<Text>สะพานยุคใหม่</Text>		<!-- Modern Bridge -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MODERN_BRIDGE_DESCRIPTION" Language="th_TH">
-			<Text>+6[icon:YIELD_GOLD] ทอง, อนุญาตให้ ยูนิตภาคพื้น สามารถเคลื่อนที่ข้ามแม่น้ำใหญ่ โดยไม่ต้องลงน้ำ, สร้างได้ถูกกว่า เมื่อมีถนนที่สร้างสะพานข้ามแม่น้ำแล้ว, อาคารด้านทอง ยุคใหม่, ต้องถูกวางไว้บนแม่น้ำใหญ่, ไม่ได้รับผลกระทบจากน้ำท่วม, สามารถซื้อในเมืองได้</Text>		<!-- +6[icon:YIELD_GOLD] Gold. Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Modern Gold Building. Must be placed on a Navigable River. Unaffected by Floods. Can be purchased in Towns. -->
-		</Replace>
+			<Text>+6[icon:YIELD_GOLD] ทอง, อนุญาตให้ ยูนิตภาคพื้น สามารถเคลื่อนที่ข้ามแม่น้ำใหญ่ โดยไม่ต้องลงน้ำ, สร้างได้ถูกกว่า เมื่อมีถนนที่สร้างสะพานข้ามแม่น้ำแล้ว, ต้องถูกวางไว้บนแม่น้ำใหญ่, ไม่ได้รับผลกระทบจากน้ำท่วม, สามารถซื้อในเมืองได้</Text>		<!-- +6[icon:YIELD_GOLD] Gold. Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Must be placed on a Navigable River. Unaffected by Floods. Can be purchased in Towns. --></Replace>
 		<Replace Tag="LOC_BUILDING_MODERN_BRIDGE_TOOLTIP" Language="th_TH">
-			<Text>อนุญาตให้ ยูนิตภาคพื้น สามารถเคลื่อนที่ข้ามแม่น้ำใหญ่ โดยไม่ต้องลงน้ำ, สร้างได้ถูกกว่า เมื่อมีถนนที่สร้างสะพานข้ามแม่น้ำแล้ว, อาคารด้านทอง ยุคใหม่, ต้องถูกวางไว้บนแม่น้ำใหญ่, ไม่ได้รับผลกระทบจากน้ำท่วม, สามารถซื้อในเมืองได้</Text>		<!-- Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Modern Gold Building. Must be placed on a Navigable River. Unaffected by Floods. Can be purchased in Towns. -->
-		</Replace>
+			<Text>อนุญาตให้ ยูนิตภาคพื้น สามารถเคลื่อนที่ข้ามแม่น้ำใหญ่ โดยไม่ต้องลงน้ำ, สร้างได้ถูกกว่า เมื่อมีถนนที่สร้างสะพานข้ามแม่น้ำแล้ว, ต้องถูกวางไว้บนแม่น้ำใหญ่, ไม่ได้รับผลกระทบจากน้ำท่วม, สามารถซื้อในเมืองได้</Text>		<!-- Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Must be placed on a Navigable River. Unaffected by Floods. Can be purchased in Towns. --></Replace>
 		<Replace Tag="LOC_BUILDING_MUSEUM_NAME" Language="th_TH">
 			<Text>พิพิธภัณฑ์</Text>		<!-- Museum -->
 		</Replace>
@@ -3245,11 +3240,9 @@
 			<Text>อ็อบชินนา</Text>		<!-- Obshchina -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_OBSHCHINA_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_FOOD] อาหาร จากฟาร์มข้างเคียง +2[icon:YIELD_CULTURE] วัฒนธรรม ในทุ่งน้ำแข็ง, เขตพัฒนาพิเศษ ของจักรวรรดิรัสเซีย, คงอยู่ตลอดกาล ไม่ลบโบนัสโกดังในช่อง, ต้องวางบนเขตพัฒนาบนพื้นที่ราบ และไม่สามารถวางติดกับ อ็อบชินนา อื่นได้</Text>		<!-- +2[icon:YIELD_FOOD] Food from adjacent Farms. +2[icon:YIELD_CULTURE] Culture in Tundra. Russian Empire Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to another Obshchina. -->
-		</Replace>
+			<Text>+2[icon:YIELD_FOOD] อาหาร บนฟาร์มทั้งหมดในถิ่นฐานนี้, +2[icon:YIELD_CULTURE] วัฒนธรรม ในทุ่งทุนดรา, เขตพัฒนาพิเศษ ของจักรวรรดิรัสเซีย, คงอยู่ตลอดกาล ไม่ลบโบนัสโกดังในช่อง, ต้องวางบนเขตพัฒนาบนพื้นที่ราบ และไม่สามารถวางติดกับ อ็อบชินนา อื่นได้</Text>		<!-- +2[icon:YIELD_FOOD] Food on all Farms in this Settlement. +2[icon:YIELD_CULTURE] Culture in Tundra. Russian Empire Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to another Obshchina. --></Replace>
 		<Replace Tag="LOC_IMPROVEMENT_OBSHCHINA_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม ในทุนดรา เขตพัฒนาพิเศษ ของจักรวรรดิรัสเซีย, คงอยู่ตลอดกาล, ไม่ลบโบนัสโกดังในแผ่นดิน, ต้องวางบนเขตพัฒนาบนพื้นที่ราบ และไม่สามารถวางติดกับ อ็อบชินนา อื่นได้</Text>		<!-- +2[icon:YIELD_CULTURE] Culture in Tundra. Russian Empire Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to another Obshchina. -->
-		</Replace>
+			<Text>+2[icon:YIELD_FOOD] อาหาร บนฟาร์มทั้งหมดในถิ่นฐานนี้, +2[icon:YIELD_CULTURE] วัฒนธรรม ในทุ่งทุนดรา, เขตพัฒนาพิเศษ ของจักรวรรดิรัสเซีย, คงอยู่ตลอดกาล, ไม่ลบโบนัสโกดังในแผ่นดิน, ต้องวางบนเขตพัฒนาบนพื้นที่ราบ และไม่สามารถวางติดกับ อ็อบชินนา อื่นได้</Text>		<!-- +2[icon:YIELD_FOOD] Food on all Farms in this Settlement. +2[icon:YIELD_CULTURE] Culture in Tundra. Russian Empire Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to another Obshchina. --></Replace>
 		<Replace Tag="LOC_IMPROVEMENT_STEPWELL_NAME" Language="th_TH">
 			<Text>บ่อขั้นบันได</Text>		<!-- Stepwell -->
 		</Replace>
@@ -3275,11 +3268,9 @@
 			<Text>+5[icon:YIELD_CULTURE] วัฒนธรรม, +2[icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับแต่ละแปลงที่อยู่ติดกันใน ช่อง เขตร้อน, +2[icon:YIELD_CULTURE] วัฒนธรรม สำหรับแต่ละแปลงที่อยู่ติดกันในทุ่งทุนดรา, และ +2[icon:YIELD_GOLD] ทอง สำหรับแต่ละแปลงที่อยู่ติดกันในทะเลทราย, การพัฒนาพิเศษของนครรัฐ, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนเขตพัฒนา, หนึ่งแห่งต่อถิ่นฐาน</Text>		<!-- +5[icon:YIELD_CULTURE] Culture. +2[icon:YIELD_SCIENCE] Science for each adjacent Tropical tile, +2[icon:YIELD_CULTURE] Culture for each adjacent Tundra tile, and +2[icon:YIELD_GOLD] Gold for each adjacent Desert tile. City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement. One Per Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับแต่ละแปลงที่อยู่ติดกันใน ช่อง เขตร้อน, +2[icon:YIELD_CULTURE] วัฒนธรรม สำหรับแต่ละแปลงที่อยู่ติดกันใน ช่อง ทุนดรา, และ +2[icon:YIELD_GOLD] ทอง สำหรับแต่ละแปลงที่อยู่ติดกันใน ช่อง ทะเลทราย, เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัสของคลังสินค้าในตาราง, ต้องวางบนเขตพัฒนา, หนึ่งแห่งต่อถิ่นฐาน</Text>		<!-- +2[icon:YIELD_SCIENCE] Science for each adjacent Tropical tile, +2[icon:YIELD_CULTURE] Culture for each adjacent Tundra tile, and +2[icon:YIELD_GOLD] Gold for each adjacent Desert tile. City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement. One Per Settlement. -->
-		</Replace>
+			<Text>เขตพัฒนาพิเศษของรัฐอิสระ, ไม่ลบโบนัสจากคลังสินค้า ที่อยู่บนช่องนั้น, ต้องวางบนเขตพัฒนาที่มีอยู่แล้ว, สร้างได้เพียงหนึ่งแห่งต่อหนึ่งถิ่นฐาน</Text>		<!-- City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement. One Per Settlement. --></Replace>
 		<Replace Tag="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับแต่ละแปลงที่อยู่ติดกันใน ช่อง เขตร้อน, +2[icon:YIELD_CULTURE] วัฒนธรรม สำหรับแต่ละแปลงที่อยู่ติดกันใน ช่อง ทุนดรา, และ +2[icon:YIELD_GOLD] ทอง สำหรับแต่ละแปลงที่อยู่ติดกันใน ช่อง ทะเลทราย, เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัสของคลังสินค้าในตาราง, ต้องวางบนเขตพัฒนา, หนึ่งแห่งต่อถิ่นฐาน</Text>		<!-- +2[icon:YIELD_SCIENCE] Science for each adjacent Tropical tile, +2[icon:YIELD_CULTURE] Culture for each adjacent Tundra tile, and +2[icon:YIELD_GOLD] Gold for each adjacent Desert tile. City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement. One Per Settlement. -->
-		</Replace>
+			<Text>เขตพัฒนาพิเศษของรัฐอิสระ, ไม่ลบโบนัสจากคลังสินค้า ที่อยู่บนช่องนั้น, ต้องวางบนเขตพัฒนาที่มีอยู่แล้ว, สร้างได้เพียงหนึ่งแห่งต่อหนึ่งถิ่นฐาน</Text>		<!-- City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement. One Per Settlement. --></Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ENTREPOT_NAME" Language="th_TH">
 			<Text>อองเทรโป</Text>		<!-- Entrepôt -->
 		</Replace>
@@ -4157,8 +4148,7 @@
 			<Text>โจเซฟ เฮลเลอร์</Text>		<!-- Joseph Heller -->
 		</Replace>
 		<Replace Tag="LOC_MOD_YANKEE_INGENUITY_PROSPECTOR_DISCOUNT_DESCRIPTION" Language="th_TH">
-			<Text>25%[icon:YIELD_GOLD] ทอง สำหรับการซื้อ ผู้สำรวจแร่</Text>		<!-- 25%[icon:YIELD_GOLD] Gold towards purchasing Prospectors. -->
-		</Replace>
+			<Text>+25%[icon:YIELD_GOLD] ทอง สำหรับการซื้อ ผู้สำรวจแร่</Text>		<!-- +25%[icon:YIELD_GOLD] Gold towards purchasing Prospectors. --></Replace>
 		<Replace Tag="LOC_MOD_CAPTAINS_OF_INDUSTRY_PRODUCTION_ON_RESOURCES_DESCRIPTION" Language="th_TH">
 			<Text>+2[icon:YIELD_PRODUCTION] กำลังผลิต จากทรัพยากร</Text>		<!-- +2[icon:YIELD_PRODUCTION] Production on Resources. -->
 		</Replace>
@@ -4958,8 +4948,7 @@
 			<Text>มิเกล อีดัลโก</Text>		<!-- Miguel Hidalgo -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_REVOLUCIONARIO_HIDALGO_DESCRIPTION" Language="th_TH">
-			<Text>เปิดใช้งานในเขตของเมืองเพื่อเรียกยูนิตทหารราบฟรีในเขตที่ดินทุกแห่งในเมืองนั้น</Text>		<!-- Activate in a Town's District to summon a free Infantry Unit on every land District in that Town. -->
-		</Replace>
+			<Text>เปิดใช้งานในเขตของเมืองเพื่อเรียก ยูนิตทหารราบ ฟรีในเขตที่ดินทุกแห่งในเมืองนั้น</Text>		<!-- Activate in a Town's Urban District to summon a free Infantry Unit on every land Urban District in that Town. --></Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_REVOLUCIONARIO_JIMENEZ_NAME" Language="th_TH">
 			<Text>อังเญล่า ฆิเมเนซ</Text>		<!-- Ángela Jiménez -->
 		</Replace>
@@ -9176,20 +9165,17 @@
 			<Text>การส่งข้อมูล</Text>		<!-- A Transmission -->
 		</Replace>
 		<Replace Tag="LOC_3441A_COMPLETION" Language="th_TH">
-			<Text>-.-. .- -.., .- ….- .-. -.-</Text>		<!-- -.-. - -.- -.. . .- ….- .-. -.- -->
-		</Replace>
+			<Text>-.-. --.- -.. . .- ….- .-. -.-</Text>		<!-- -.-. - -.- -.. . .- ….- .-. -.- --></Replace>
 		<Replace Tag="LOC_3442A_STORYTITLE" Language="th_TH">
 			<Text>สวัสดีอันอบอุ่น</Text>		<!-- Warm Greetings -->
 		</Replace>
 		<Replace Tag="LOC_3442A_NAME" Language="th_TH">
-			<Text>--. .- --- -- …. .-- ..--..</Text>		<!-- - -. .- - - - - - …. .- - ..- -.. -->
-		</Replace>
+			<Text>--. .- --- -- …. .-- ..--..</Text>		<!-- - -. .- - - - - - …. .- - ..- -.. --></Replace>
 		<Replace Tag="LOC_3442A_DESCRIPTION" Language="th_TH">
 			<Text>เรื่องราวยังคงดำเนินต่อไป..</Text>		<!-- Story continues. -->
 		</Replace>
 		<Replace Tag="LOC_3442A_COMPLETION" Language="th_TH">
-			<Text>--. .- -.. .-. --- -- ..- .-. ..... ----. ----.</Text>		<!-- - -. .- -.. .-. - - - - - ..- .-. ….. - - - -. - - - -. -->
-		</Replace>
+			<Text>--. .- -.. .-. --- -- ..- .-. ….. ----. ----.</Text>		<!-- - -. .- -.. .-. - - - - - ..- .-. ….. - - - -. - - - -. --></Replace>
 		<Replace Tag="LOC_3442B_NAME" Language="th_TH">
 			<Text>ปิด</Text>		<!-- Close. -->
 		</Replace>
@@ -9200,8 +9186,7 @@
 			<Text>การตอบสนองที่หนาวเย็น</Text>		<!-- A Chilly Response -->
 		</Replace>
 		<Replace Tag="LOC_3443A_NAME" Language="th_TH">
-			<Text>--.- .- --. ….. .---</Text>		<!-- - -.- .- - -. ….. .- - - -->
-		</Replace>
+			<Text>--.- .- --. ….. .---</Text>		<!-- - -.- .- - -. ….. .- - - --></Replace>
 		<Replace Tag="LOC_3443A_DESCRIPTION" Language="th_TH">
 			<Text>เรื่องราวยังคงดำเนินต่อไป..</Text>		<!-- Story continues. -->
 		</Replace>
@@ -12303,8 +12288,7 @@
 			<Text>ในแต่ละยุคสมัย มีความท้าทาย.. แต่แฮตเชปซุต ผู้มองข้ามดินแดนที่หรูหรา กลับมองเห็นเพียงแต่ความสำเร็จเท่านั้น</Text>		<!-- With each age, a challenge...yet Hatshepsut, gazing across her lands of luxury, sees only success. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1098B_IMPERATIVE" Language="th_TH">
-			<Text>ให้ได้มาซึ่งสินค้าหรูหราในยุคใหม่ 1 ชนิดจากทุกประเภท</Text>		<!-- Obtain 1 of every Modern luxury goods. -->
-		</Replace>
+			<Text>มี 6 ทรัพยากรโรงงานพิเศษ</Text>		<!-- Have 6 unique Factory Resources. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1098C_STORYTITLE" Language="th_TH">
 			<Text>ดินแดนแห่งนิรันดร์</Text>		<!-- The Forever Land -->
 		</Replace>
@@ -14173,8 +14157,7 @@
 			<Text>+6[icon:YIELD_FOOD] อาหารในเมืองที่มีสถานีรถไฟ, อาหาร +3[icon:YIELD_FOOD] ไปยังเมืองอื่นๆ</Text>		<!-- +6[icon:YIELD_FOOD] Food in a City with a Rail Station. +3[icon:YIELD_FOOD] Food to any other City. -->
 		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_NITER_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตโจมตีระยะไกลและยูนิตปิดล้อม ได้รับ +1 พลังต่อสู้ และได้รับเพิ่มเติมอีก +1 เมื่อสู้กับยูนิตทหารม้า</Text>		<!-- Ranged and Siege Units gain +1 Combat Strength, and an additional +1 against Cavalry Units -->
-		</Replace>
+			<Text>ยูนิตโจมตีระยะไกลและยูนิตปิดล้อม ได้รับ +1 พลังต่อสู้ (สูงสุด +6)</Text>		<!-- Ranged and Siege Units gain +1 Combat Strength (Max +6) --></Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_WHALES_TOOLTIP" Language="th_TH">
 			<Text>+6[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +6[icon:YIELD_PRODUCTION] Production -->
 		</Replace>
@@ -14188,11 +14171,9 @@
 			<Text>+5%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อการฝึกยูนิตเรือรบ</Text>		<!-- +5%[icon:YIELD_PRODUCTION] Production towards training Naval Units. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_RESOURCE_COAL_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตเรือเบาได้รับ +1 พลังต่อสู้, +10%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการสร้างสถานีรถไฟ และ ท่าเรือ</Text>		<!-- Light Naval Units gain +1 Combat Strength. +10%[icon:YIELD_PRODUCTION] Production towards Rail Stations and Ports. -->
-		</Replace>
+			<Text>ยูนิตเรือเบาได้รับ +1 พลังต่อสู้ (สูงสุด +6), +10%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการสร้างสถานีรถไฟ และ ท่าเรือ</Text>		<!-- Light Naval Units gain +1 Combat Strength (Max +6). +10%[icon:YIELD_PRODUCTION] Production towards Rail Stations and Ports. --></Replace>
 		<Replace Tag="LOC_MOD_RESOURCE_OIL_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตเรือหนักและยูนิตทหารม้า จะได้รับ +1 พลังต่อสู้ และจะได้รับพลังต่อสู้เพิ่มอีก +1 เมื่อสู้กับยูนิตทหารราบ, +10%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับ โรงงาน</Text>		<!-- Heavy Naval and Cavalry Units gain +1 Combat Strength, and an additional +1 against Infantry Units. +10%[icon:YIELD_PRODUCTION] Production towards Factories. -->
-		</Replace>
+			<Text>ยูนิตเรือหนักและยูนิตทหารม้า จะได้รับ +1 พลังต่อสู้ (สูงสุด +6), +10%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับ โรงงาน</Text>		<!-- Heavy Naval and Cavalry Units gain +1 Combat Strength (Max +6). +10%[icon:YIELD_PRODUCTION] Production towards Factories. --></Replace>
 		<Replace Tag="LOC_MOD_RESOURCE_NICKEL_TOOLTIP" Language="th_TH">
 			<Text>+10%[icon:YIELD_GOLD] ทอง, +10%[icon:YIELD_SCIENCE] วิทยาศาสตร์</Text>		<!-- +10%[icon:YIELD_GOLD] Gold, +10%[icon:YIELD_SCIENCE] Science -->
 		</Replace>
@@ -14200,8 +14181,7 @@
 			<Text>ยูนิตฟื้นฟู +1 HP</Text>		<!-- Units heal +1 HP. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_RESOURCE_RUBBER_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตทหารราบและ ยูนิตทางอากาศ ได้รับ +1 พลังต่อสู้</Text>		<!-- Infantry and Air Units gain +1 Combat Strength -->
-		</Replace>
+			<Text>ยูนิตทหารราบและ ยูนิตทางอากาศ ได้รับ +1 พลังต่อสู้ (สูงสุด +6)</Text>		<!-- Infantry and Air Units gain +1 Combat Strength (Max +6) --></Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_NICKEL_TOOLTIP" Language="th_TH">
 			<Text>+10%[icon:YIELD_GOLD] ทอง, 10%[icon:YIELD_SCIENCE] วิทยาศาสตร์</Text>		<!-- +10%[icon:YIELD_GOLD] Gold, 10%[icon:YIELD_SCIENCE] Science -->
 		</Replace>
@@ -15694,8 +15674,7 @@
 			<Text>กองโจรยอดฝีมือ</Text>		<!-- Elite Partisan -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_PARTISAN_DESCRIPTION" Language="th_TH">
-			<Text>แต่ละอันมีราคาสูงกว่าอันก่อนเล็กน้อย +5 พลังต่อสู้กับอารยธรรมที่มีอุดมการณ์ต่างกัน, +10 การฟื้นฟูในดินแดนที่เป็นเจ้าของ</Text>		<!-- Each one is slightly more expensive than the last. +5 Combat Strength against Civilizations with a different Ideology. +10 healing in owned territory. -->
-		</Replace>
+			<Text>ยูนิตพิเศษของรัฐอิสระ, แต่ละอันมีราคาสูงกว่าอันก่อนเล็กน้อย +5 พลังต่อสู้กับอารยธรรมที่มีอุดมการณ์ต่างกัน, +10 การฟื้นฟูในดินแดนที่เป็นเจ้าของ</Text>		<!-- City State Unique Infantry Unit. Each one is slightly more expensive than the last. +5 Combat Strength against Civilizations with a different Ideology. +10 healing in owned territory. --></Replace>
 		<Replace Tag="LOC_PARTISAN_MOD_IDEOLOGY_DESCRIPTION" Language="th_TH">
 			<Text>+{1_Amount} ต่อต้านอุดมการณ์ที่แตกต่างกัน</Text>		<!-- +{1_Amount} against differrent Ideologies -->
 		</Replace>
