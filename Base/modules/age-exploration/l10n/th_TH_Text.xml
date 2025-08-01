@@ -335,7 +335,7 @@
 			<Text>ในยุคนี้ ได้รับ +3 พลังต่อสู้ สำหรับ ยูนิตทางน้ำ ของคุณ โดยจะต้องเสีย -10%[icon:YIELD_DIPLOMACY] อิทธิพล</Text>		<!-- For this Age, +3 Combat Strength for your Naval Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
 		</Replace>
 		<Replace Tag="LOC_WARNING_OPPONENT_FIRST_TREASURE_MESSAGE" Language="th_TH">
-			<Text>เรือบรรทุกสมบัติลำแรกของ {1_LeaderName} เพิ่งถึงท่าเรือของพวกเขาอย่างปลอดภัย นี่เป็นก้าวหนึ่งในการเดินทางสู่ {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} สำหรับพวกเขา; หากเราหวังที่จะประสบความสำเร็จ เราต้องตั้งถิ่นฐานในดินแดนห่างไกลของเราเอง</Text>		<!-- The first of {1_LeaderName}'s Treasure Fleets has just reached their port safely. This is a step down the {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} Legacy Path for them; if we hope to succeed, we must establish our own Distant Lands settlements. -->
+			<Text>ขบวนบรรทุกสมบัติ ลำแรกของ {1_LeaderName} เพิ่งถึงท่าเรือของพวกเขาอย่างปลอดภัย นี่เป็นก้าวหนึ่งในการเดินทางสู่ {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} สำหรับพวกเขา; หากเราหวังที่จะประสบความสำเร็จ เราต้องตั้งถิ่นฐานในดินแดนห่างไกลของเราเอง</Text>		<!-- The first of {1_LeaderName}'s Treasure Convoys has just reached their port safely. This is a step down the {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} Legacy Path for them; if we hope to succeed, we must establish our own Distant Lands settlements. -->
 		</Replace>
 		<Replace Tag="LOC_WARNING_OPPONENT_FIRST_TREASURE_SUMMARY" Language="th_TH">
 			<Text>ผู้นำต่างชาติกำลังขนส่งสมบัติ</Text>		<!-- Foreign Leader is Returning Treasure -->
@@ -353,7 +353,8 @@
 			<Text>สูญเสียการมีอยู่ของศาสนาในดินแดนห่างไกล</Text>		<!-- Losing Distant Land Religious Presence -->
 		</Replace>
 		<Replace Tag="LOC_WARNING_AGE_TRANSITION_COMMANDERS_MESSAGE" Language="th_TH">
-			<Text>ทหารมากมายได้สาบานตนถวายชีวิตแด่อาณาจักรของเรา ทว่าเรากลับขาดแม่ทัพที่จะนำพวกเขาไปสู่ชัยชนะ นอกเหนือจากจำนวนยูนิตที่แม่ทัพสามารถบัญชาการได้แล้ว เราจะสามารถรักษากองทัพภาคพื้นดินไว้ได้เพียง {1_value} หน่วยเท่านั้นในช่วงเริ่มต้นยุคหน้า หากไม่เร่งแต่งตั้งแม่ทัพเพิ่ม เราจะสูญเสีย {2_lostunits} หน่วย เมื่อต้นยุคใหม่มาถึง</Text>		<!-- Many soldiers have pledged their lives to our empire, but we lack the Commanders to lead them. In addition to the amount of Units our Army Commanders can hold, we will only be able to maintain {1_value} Land Units at the start of the next Age. Without more Army Commanders, we will lose {2_lostunits} Land {2_lostunits: plural 1?Unit; other?Units;} when the Age ends. --></Replace>
+			<Text>ทหารมากมายได้สาบานตนถวายชีวิตแด่อาณาจักรของเรา ทว่าเรากลับขาดแม่ทัพที่จะนำพวกเขาไปสู่ชัยชนะ นอกเหนือจากจำนวนยูนิตที่แม่ทัพสามารถบัญชาการได้แล้ว เราจะสามารถรักษากองทัพภาคพื้นดินไว้ได้เพียง {1_value} หน่วยเท่านั้นในช่วงเริ่มต้นยุคหน้า หากไม่เร่งแต่งตั้งแม่ทัพเพิ่ม เราจะสูญเสีย {2_lostunits} หน่วย เมื่อต้นยุคใหม่มาถึง</Text>		<!-- Many soldiers have pledged their lives to our empire, but we lack the Commanders to lead them. In addition to the amount of Units our Army Commanders can hold, we will only be able to maintain {1_value} Land Units at the start of the next Age. Without more Army Commanders, we will lose {2_lostunits} Land {2_lostunits: plural 1?Unit; other?Units;} when the Age ends. -->
+		</Replace>
 		<Replace Tag="LOC_WARNING_AGE_TRANSITION_COMMANDERS_SUMMARY" Language="th_TH">
 			<Text>กองทัพขนาดใหญ่</Text>		<!-- Large Army -->
 		</Replace>
@@ -520,9 +521,11 @@
 			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับทุก 5[icon:YIELD_HAPPINESS] ความสุข ที่เกินมาในถิ่นฐานที่คุณยึดครอง</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production for every 5 excess[icon:YIELD_HAPPINESS] Happiness in Settlements you Conquer. -->
 		</Replace>
 		<Replace Tag="LOC_CITYCOMMAND_DESTROY_RAZE_PENALTY" Language="th_TH">
-			<Text>-8[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น สำหรับช่วงเวลาที่เหลือของยุคเมื่อการทำลายเสร็จสมบูรณ์</Text>		<!-- -8[icon:YIELD_DIPLOMACY] Influence per turn for the rest of the Age once razing is complete --></Replace>
+			<Text>-8[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น สำหรับช่วงเวลาที่เหลือของยุคเมื่อการทำลายเสร็จสมบูรณ์</Text>		<!-- -8[icon:YIELD_DIPLOMACY] Influence per turn for the rest of the Age once razing is complete -->
+		</Replace>
 		<Replace Tag="LOC_CITYCOMMAND_KEEP_PENALTY" Language="th_TH">
-			<Text>-4[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น ขณะที่คุณควบคุมถิ่นฐานนี้ในช่วงยุคนี้</Text>		<!-- -4[icon:YIELD_DIPLOMACY] Influence per turn while you control this Settlement during this Age --></Replace>
+			<Text>-4[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น ขณะที่คุณควบคุมถิ่นฐานนี้ในช่วงยุคนี้</Text>		<!-- -4[icon:YIELD_DIPLOMACY] Influence per turn while you control this Settlement during this Age -->
+		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_CRISIS_INWARD_PERFECTION" Language="th_TH">
 			<Text>ความสมบูรณ์จากภายใน</Text>		<!-- Inward Perfection -->
 		</Replace>
@@ -1442,7 +1445,7 @@
 			<Text>เมื่อคุณสร้างผู้เชี่ยวชาญ คุณจะได้รับ 30 [icon:YIELD_GOLD] ทอง สำหรับทุกๆ ประชากรในชนบทของเมือง (ปรับตามความเร็วเกม)</Text>		<!-- Receive 30 [icon:YIELD_GOLD] Gold for each Rural Population of the City when you create a Specialist. (Scales by Game Speed) -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_ABBASID_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]รับ [B]30 [icon:YIELD_GOLD] ทอง [/B]สำหรับแต่ละ [B]ประชากรในชนบท [/B]ของเมืองเมื่อคุณสร้าง [B]ผู้เชี่ยวชาญ[/B] (ปรับตามความเร็วเกม)[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]บ้านแห่งปัญญา[/B][/LIST]</Text>		<!-- [LIST][LI]Receive [B]30 [icon:YIELD_GOLD] Gold [/B]for each [B]Rural Population [/B]of the City when you create a [B]Specialist[/B]. (Scales by Game Speed)[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]House of Wisdom[/B].[/LIST] -->
+			<Text>[BLIST][LI]รับ [B]30 [icon:YIELD_GOLD] ทอง [/B]สำหรับแต่ละ [B]ประชากรในชนบท [/B]ของเมืองเมื่อคุณสร้าง [B]ผู้เชี่ยวชาญ[/B] (ปรับตามความเร็วเกม)[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]บ้านแห่งปัญญา[/B][/BLIST]</Text>		<!-- [BLIST][LI]Receive [B]30 [icon:YIELD_GOLD] Gold [/B]for each [B]Rural Population [/B]of the City when you create a [B]Specialist[/B]. (Scales by Game Speed)[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]House of Wisdom[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_ABBASID_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นความมหัศจรรย์ที่เกี่ยวข้องกับธรรมบาล</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being the Abbasid's associated Wonder. -->
@@ -1454,10 +1457,10 @@
 			<Text>+1 เส้นทางการค้า จากการดำเนินการพัฒนาความสัมพันธ์ทางการค้า</Text>		<!-- +1 Trade Route from the Improve Trade Relations Action. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CHOLA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+1 เส้นทางการค้า [/B]จากการกระทำ[B] พัฒนาความสัมพันธ์ทางการค้า [/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง[B] วัดบริหเฑศวร [/B][/LIST]</Text>		<!-- [LIST][LI][B]+1 Trade Route [/B]from the [B]Improve Trade Relations [/B]Action.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Brihadeeswarar Temple[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]+1 เส้นทางการค้า [/B]จากการกระทำ[B] พัฒนาความสัมพันธ์ทางการค้า [/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง[B] วัดบริหเฑศวร [/B][/BLIST]</Text>		<!-- [BLIST][LI][B]+1 Trade Route [/B]from the [B]Improve Trade Relations [/B]Action.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Brihadeeswarar Temple[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CHOLA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+1 เส้นทางการค้า [/B]จากการกระทำ[B] พัฒนาความสัมพันธ์ทางการค้า [/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง[B] วัดบริหเฑศวร [/B][/LIST]</Text>		<!-- [LIST][LI][B]+1 Trade Route [/B]from the [B]Improve Trade Relations [/B]Action.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Brihadeeswarar Temple[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]+1 เส้นทางการค้า [/B]จากการกระทำ[B] พัฒนาความสัมพันธ์ทางการค้า [/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง[B] วัดบริหเฑศวร [/B][/BLIST]</Text>		<!-- [BLIST][LI][B]+1 Trade Route [/B]from the [B]Improve Trade Relations [/B]Action.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Brihadeeswarar Temple[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_CHOLA_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องกับโจฬะ</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Chola's associated Wonder. -->
@@ -1469,10 +1472,10 @@
 			<Text>เมื่อถิ่นฐานขยายไปยังพื้นที่ทะเล จะได้ 25 [icon:YIELD_CULTURE] วัฒนธรรม ทุกครั้ง +1[icon:YIELD_HAPPINESS] ความสุข สำหรับ [B]เรือประมง</Text>		<!-- Gain 25 [icon:YIELD_CULTURE] Culture each time a Settlement expands to Marine Terrain. +1[icon:YIELD_HAPPINESS] Happiness on [B]Fishing Boats. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_HAWAII_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]ได้รับ [B]25 [icon:YIELD_CULTURE] วัฒนธรรม [/B]ทุกครั้งที่ถิ่นฐานขยายไปยัง [B]พื้นที่ทะเล[/B][LI][B]+1[icon:YIELD_HAPPINESS] ความสุข [/B]จาก [B]เรือประมง[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการก่อสร้าง [B]ฮาเล โอ เคอาเว[/B][/LIST]</Text>		<!-- [LIST][LI]Gain [B]25 [icon:YIELD_CULTURE] Culture [/B]each time a Settlement expands to [B]Marine Terrain[/B].[LI][B]+1[icon:YIELD_HAPPINESS] Happiness[/B] on [B]Fishing Boats.[/B][LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Hale o Keawe[/B].[/LIST] -->
+			<Text>[BLIST][LI]ได้รับ [B]25 [icon:YIELD_CULTURE] วัฒนธรรม [/B]ทุกครั้งที่ถิ่นฐานขยายไปยัง [B]พื้นที่ทะเล[/B][LI][B]+1[icon:YIELD_HAPPINESS] ความสุข [/B]จาก [B]เรือประมง[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการก่อสร้าง [B]ฮาเล โอ เคอาเว[/B][/BLIST]</Text>		<!-- [BLIST][LI]Gain [B]25 [icon:YIELD_CULTURE] Culture [/B]each time a Settlement expands to [B]Marine Terrain[/B].[LI][B]+1[icon:YIELD_HAPPINESS] Happiness[/B] on [B]Fishing Boats.[/B][LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Hale o Keawe[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_HAWAII_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]ได้รับ [B]25 [icon:YIELD_CULTURE] วัฒนธรรม [/B]ทุกครั้งที่ถิ่นฐานขยายไปยัง [B]พื้นที่ทะเล[/B][LI][B]+1[icon:YIELD_HAPPINESS] ความสุข [/B]จาก [B]เรือประมง[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการก่อสร้าง [B]ฮาเล โอ เคอาเว[/B][/LIST]</Text>		<!-- [LIST][LI]Gain [B]25 [icon:YIELD_CULTURE] Culture [/B]each time a Settlement expands to [B]Marine Terrain[/B].[LI][B]+1[icon:YIELD_HAPPINESS] Happiness[/B] on [B]Fishing Boats.[/B][LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Hale o Keawe[/B].[/LIST] -->
+			<Text>[BLIST][LI]ได้รับ [B]25 [icon:YIELD_CULTURE] วัฒนธรรม [/B]ทุกครั้งที่ถิ่นฐานขยายไปยัง [B]พื้นที่ทะเล[/B][LI][B]+1[icon:YIELD_HAPPINESS] ความสุข [/B]จาก [B]เรือประมง[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการก่อสร้าง [B]ฮาเล โอ เคอาเว[/B][/BLIST]</Text>		<!-- [BLIST][LI]Gain [B]25 [icon:YIELD_CULTURE] Culture [/B]each time a Settlement expands to [B]Marine Terrain[/B].[LI][B]+1[icon:YIELD_HAPPINESS] Happiness[/B] on [B]Fishing Boats.[/B][LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Hale o Keawe[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_HAWAII_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องของฮาวาย</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Hawai'i's associated Wonder. -->
@@ -1484,10 +1487,10 @@
 			<Text>อพัส</Text>		<!-- Apus -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_INCA_DESCRIPTION" Language="th_TH">
-			<Text>สามารถทำงานบนภูเขา +2[icon:YIELD_FOOD] อาหาร และ +1[icon:YIELD_PRODUCTION] กำลังผลิตบนภูเขา</Text>		<!-- Can work Mountain Terrain. +2[icon:YIELD_FOOD] Food and +1[icon:YIELD_PRODUCTION] Production on Mountain Terrain. -->
+			<Text>สามารถทำงานบนภูเขา +2[icon:YIELD_FOOD] อาหาร และ +1[icon:YIELD_PRODUCTION] กำลังผลิตบนภูเขา, สามารถสร้าง ขบวนบรรทุกสมบัติ ในเมืองที่มีภูเขา 3 ลูกที่ทำงานแล้ว หลังจากผ่านการทำ แนวคิดคาปัก นัน สำเร็จ</Text>		<!-- Can work Mountain Terrain. +2[icon:YIELD_FOOD] Food and +1[icon:YIELD_PRODUCTION] Production on Mountain Terrain. Can generate Homelands Treasure Convoys in Cities with 3 Worked Mountains after completing the Qhapaq Ñan Civic. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_INCA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]สามารถทำงานใน [B]ภูมิประเทศภูเขา[/B][LI][B]+2 [icon:YIELD_FOOD] อาหาร [/B]และ [B]+1 [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ใน [B]ภูมิประเทศภูเขา[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]มาชูปิกชู[/B][/LIST]</Text>		<!-- [LIST][LI]Can work [B]Mountain Terrain[/B].[LI][B]+2 [icon:YIELD_FOOD] Food [/B]and [B]+1 [icon:YIELD_PRODUCTION] Production [/B]on [B]Mountain Terrain[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Machu Pikchu[/B].[/LIST] -->
+			<Text>[BLIST][LI]สามารถทำงานบน [B]ภูเขา[/B] ได้[LI][B]+2 [icon:YIELD_FOOD] อาหาร [/B] และ [B]+1 [icon:YIELD_PRODUCTION] การผลิต [/B] บน [B]ภูเขา[/B][LI]สามารถสร้าง [B]ขบวนบรรทุกสมบัติ[/B] ในเมืองที่มี [B]ภูเขาที่ทำงานแล้ว 3 ลูก[/B] หลังจากผ่านการทำ [B]แนวคิดคาปัก นัน[/B] สำเร็จ[LI][B]+30% [icon:YIELD_PRODUCTION] การผลิต [/B] สำหรับการก่อสร้าง [B]มาชูปิกชู[/B][/BLIST]</Text>		<!-- [BLIST][LI]Can work [B]Mountain Terrain[/B].[LI][B]+2 [icon:YIELD_FOOD] Food [/B]and [B]+1 [icon:YIELD_PRODUCTION] Production [/B]on [B]Mountain Terrain[/B].[LI]Can generate [B]Homelands Treasure Convoys[/B] in Cities with [B]3 Worked Mountains[/B] after completing the [B]Qhapaq Ñan Civic[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Machu Pikchu[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_INCA_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องกับชาวอินคา</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being the Inca's associated Wonder. -->
@@ -1499,7 +1502,7 @@
 			<Text>ทุกเมืองยกเว้นเมืองหลวงจะได้รับ +1 ขีดจำกัดผู้เชี่ยวชาญ หลังจากยุคสำรวจ ขีดจำกัดผู้เชี่ยวชาญจะถูกยกเลิก ผู้เชี่ยวชาญจะไม่ทำงานจนกว่าคุณจะเพิ่มขีดจำกัด</Text>		<!-- All Cities except the Capital receive +1 Specialist Limit. After the Exploration Age the Specialist Limit increase goes away, the Specialists become inactive until you increase the Limit. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_MAJAPAHIT_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]เมืองทั้งหมด ยกเว้นเมืองหลวง จะได้รับ [B]+1 ขีดจำกัดผู้เชี่ยวชาญ[/B][LI]หลังจากยุคการสำรวจ ขีดจำกัดผู้เชี่ยวชาญจะหายไป ผู้เชี่ยวชาญจะไม่สามารถทำงานได้จนกว่าคุณจะเพิ่มขีดจำกัด[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการสร้าง [B]บอโรบูดูร์[/B][/LIST]</Text>		<!-- [LIST][LI]All Cities except the Capital receive [B]+1 Specialist Limit[/B].[LI]After the Exploration Age the Specialist Limit increase goes away, the Specialists become inactive until you increase the Limit.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Borobudur[/B].[/LIST] -->
+			<Text>[BLIST][LI]เมืองทั้งหมด ยกเว้นเมืองหลวง จะได้รับ [B]+1 ขีดจำกัดผู้เชี่ยวชาญ[/B][LI]หลังจากยุคการสำรวจ ขีดจำกัดผู้เชี่ยวชาญจะหายไป ผู้เชี่ยวชาญจะไม่สามารถทำงานได้จนกว่าคุณจะเพิ่มขีดจำกัด[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการสร้าง [B]บอโรบูดูร์[/B][/BLIST]</Text>		<!-- [BLIST][LI]All Cities except the Capital receive [B]+1 Specialist Limit[/B].[LI]After the Exploration Age the Specialist Limit increase goes away, the Specialists become inactive until you increase the Limit.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Borobudur[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_MAJAPAHIT_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นอัศจรรย์ที่เกี่ยวข้องกับมาจาปาฮิต</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being the Majapahit's associated Wonder. -->
@@ -1514,7 +1517,7 @@
 			<Text>+50% [icon:YIELD_SCIENCE] วิทยาศาสตร์ ในเมืองหลวง, -15 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์นสำหรับนโยบายสังคมแต่ละข้อ ยกเว้นนโยบายประเพณีที่เลือก</Text>		<!-- +50% [icon:YIELD_SCIENCE] Science in the Capital. -15 [icon:YIELD_SCIENCE] Science per turn for each Social Policy, but not Tradition, slotted. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_MING_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+50% [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]ใน[B]เมืองหลวง[/B][LI][B]-15 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]ต่อเทิร์นสำหรับ[B]นโยบายสังคม[/B]แต่ไม่รวมถึงประเพณีที่กำหนด[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]พระราชวังต้องห้าม[/B][/LIST]</Text>		<!-- [LIST][LI][B]+50% [icon:YIELD_SCIENCE] Science [/B]in the [B]Capital[/B].[LI][B]-15 [icon:YIELD_SCIENCE] Science [/B]per turn for each [B]Social Policy[/B], but not Tradition, slotted.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Forbidden City[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]+50% [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]ใน[B]เมืองหลวง[/B][LI][B]-15 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]ต่อเทิร์นสำหรับ[B]นโยบายสังคม[/B]แต่ไม่รวมถึงประเพณีที่กำหนด[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]พระราชวังต้องห้าม[/B][/BLIST]</Text>		<!-- [BLIST][LI][B]+50% [icon:YIELD_SCIENCE] Science [/B]in the [B]Capital[/B].[LI][B]-15 [icon:YIELD_SCIENCE] Science [/B]per turn for each [B]Social Policy[/B], but not Tradition, slotted.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Forbidden City[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_MING_DESCRIPTION" Language="th_TH">
 			<Text>+30%[icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องกับหมิง</Text>		<!-- +30%[icon:YIELD_PRODUCTION] Production from being the Ming's associated Wonder. -->
@@ -1523,10 +1526,10 @@
 			<Text>บกห์</Text>		<!-- Bokh -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_MONGOLIA_DESCRIPTION" Language="th_TH">
-			<Text>เมื่อคุณจับที่ตั้งที่เป็นปฏิปักษ์จะได้รับ ยูนิตทหารม้า ที่แข็งแกร่งที่สุดที่คุณสามารถฝึกได้ในขณะนี้ แต่ลดกำลังผลิต [icon:YIELD_PRODUCTION] ลง -50% สำหรับการฝึก ผู้ตั้งถิ่นฐาน รับ 1 คะแนนในเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว สำหรับที่ตั้งที่ควบคุมในดินแดนอันไกลโพ้นและที่ตั้งที่ถูกพิชิตในบ้านเกิด</Text>		<!-- When you capture an opposing Settlement gain the strongest Cavalry Unit you can currently train, but -50% [icon:YIELD_PRODUCTION] Production towards training Settlers. Gain 1 Point toward the Non Sufficit Orbis Legacy Path for controlled Settlements in the Distant Lands and conquered Settlements in the Homelands. -->
+			<Text>เมื่อคุณจับที่ตั้งที่เป็นปฏิปักษ์จะได้รับ ยูนิตทหารม้า ที่แข็งแกร่งที่สุดที่คุณสามารถฝึกได้ในขณะนี้ แต่ลดกำลังผลิต [icon:YIELD_PRODUCTION] ลง -50% สำหรับการฝึก ผู้ตั้งถิ่นฐาน รับ 1 คะแนนในเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว สำหรับที่ตั้งที่ควบคุมในดินแดนอันไกลโพ้นและที่ตั้งที่ถูกพิชิตในบ้านเกิด</Text>		<!-- When you capture an opposing Settlement gain the strongest Cavalry Unit you can currently train, but -50% [icon:YIELD_PRODUCTION] Production towards training Settlers. Gain 1 Point toward the Non Sufficit Orbis Legacy Path for controlled Settlements in Distant Lands and conquered Settlements in Homelands. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_MONGOLIA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]เมื่อคุณ [B]ยึดครอง[/B] ถิ่นฐานของฝ่ายตรงข้าม จะได้รับ [B]ยูนิตทหารม้า[/B]ที่คุณสามารถฝึกได้ในขณะนี้ แต่จะมี [B]-50% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการฝึก [B]ผู้ตั้งถิ่นฐาน[/B][LI]ได้รับ [B]1 คะแนน [/B]ต่อ [B]เส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว [/B]สำหรับ [B]ถิ่นฐานที่มีการควบคุม [/B]ในดินแดนห่างไกลและ [B]ตั้งถิ่นฐานที่ถูกพิชิต [/B]ในบ้านเกิด[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการก่อสร้าง [B]เออร์เดน ซู[/B][/LIST]</Text>		<!-- [LIST][LI]When you [B]capture [/B]an opposing Settlement gain the strongest [B]Cavalry Unit [/B]you can currently train, but [B]-50% [icon:YIELD_PRODUCTION] Production [/B]towards training [B]Settlers[/B].[LI]Gain [B]1 Point [/B]toward the [B]Non Sufficit Orbis Legacy Path [/B]for [B]controlled Settlements [/B]in the Distant Lands and [B]conquered Settlements [/B]in the Homelands.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Erdene Zuu[/B].[/LIST] -->
+			<Text>[BLIST][LI]เมื่อคุณ [B]ยึดครอง[/B] ถิ่นฐานของฝ่ายตรงข้าม จะได้รับ [B]ยูนิตทหารม้า[/B]ที่คุณสามารถฝึกได้ในขณะนี้ แต่จะมี [B]-50% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการฝึก [B]ผู้ตั้งถิ่นฐาน[/B][LI]ได้รับ [B]1 คะแนน [/B]ต่อ [B]เส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว [/B]สำหรับ [B]ถิ่นฐานที่มีการควบคุม [/B]ในดินแดนห่างไกลและ [B]ตั้งถิ่นฐานที่ถูกพิชิต [/B]ในบ้านเกิด[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการก่อสร้าง [B]เออร์เดน ซู[/B][/BLIST]</Text>		<!-- [BLIST][LI]When you [B]capture [/B]an opposing Settlement gain the strongest [B]Cavalry Unit [/B]you can currently train, but [B]-50% [icon:YIELD_PRODUCTION] Production [/B]towards training [B]Settlers[/B].[LI]Gain [B]1 Point [/B]toward the [B]Non Sufficit Orbis Legacy Path [/B]for [B]controlled Settlements [/B]in Distant Lands and [B]conquered Settlements [/B]in Homelands.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Erdene Zuu[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_MONGOLIA_DESCRIPTION" Language="th_TH">
 			<Text>+30%[icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องของมองโกเลีย</Text>		<!-- +30%[icon:YIELD_PRODUCTION] Production from being Mongolia's associated Wonder. -->
@@ -1538,10 +1541,10 @@
 			<Text>ยูนิตภาคพื้น จะได้รับ +1 แต้มเคลื่อนที่เมื่อขึ้นเรือ และยูนิตภาคพื้น ที่อยู่ติดริมชายฝั่งจะได้รับ +5 พลังต่อสู้</Text>		<!-- Land Units receive +1 Movement when Embarked and Land Units adjacent to Coast receive +5 Combat Strength. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_NORMAN_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]ยูนิตภาคพื้น [/B]ได้รับ [B]+1 แต้มเคลื่อนที่ [/B]เมื่อ [B]ขึ้นเรือ [/B]และ [B]ยูนิตภาคพื้น [/B]ที่อยู่ติดกับ [B]ชายฝั่ง [/B]ได้รับ [B]+5 พลังต่อสู้[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการสร้าง [B]หอคอยสีขาว[/B][/LIST]</Text>		<!-- [LIST][LI][B]Land Units [/B]receive [B]+1 Movement [/B]when [B]Embarked [/B]and [B]Land Units [/B]adjacent to [B]Coast [/B]receive [B]+5 Combat Strength[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]White Tower[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]ยูนิตภาคพื้น [/B]ได้รับ [B]+1 แต้มเคลื่อนที่ [/B]เมื่อ [B]ขึ้นเรือ [/B]และ [B]ยูนิตภาคพื้น [/B]ที่อยู่ติดกับ [B]ชายฝั่ง [/B]ได้รับ [B]+5 พลังต่อสู้[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการสร้าง [B]หอคอยสีขาว[/B][/BLIST]</Text>		<!-- [BLIST][LI][B]Land Units [/B]receive [B]+1 Movement [/B]when [B]Embarked [/B]and [B]Land Units [/B]adjacent to [B]Coast [/B]receive [B]+5 Combat Strength[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]White Tower[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_NORMAN_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]ยูนิตภาคพื้น [/B]ได้รับ [B]+1 แต้มเคลื่อนที่ [/B]เมื่อ [B]ขึ้นเรือ [/B]และ [B]ยูนิตภาคพื้น [/B]ที่อยู่ติดกับ [B]ชายฝั่ง [/B]ได้รับ [B]+5 พลังต่อสู้[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการสร้าง [B]หอคอยสีขาว[/B][/LIST]</Text>		<!-- [LIST][LI][B]Land Units [/B]receive [B]+1 Movement [/B]when [B]Embarked [/B]and [B]Land Units [/B]adjacent to [B]Coast [/B]receive [B]+5 Combat Strength[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]White Tower[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]ยูนิตภาคพื้น [/B]ได้รับ [B]+1 แต้มเคลื่อนที่ [/B]เมื่อ [B]ขึ้นเรือ [/B]และ [B]ยูนิตภาคพื้น [/B]ที่อยู่ติดกับ [B]ชายฝั่ง [/B]ได้รับ [B]+5 พลังต่อสู้[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการสร้าง [B]หอคอยสีขาว[/B][/BLIST]</Text>		<!-- [BLIST][LI][B]Land Units [/B]receive [B]+1 Movement [/B]when [B]Embarked [/B]and [B]Land Units [/B]adjacent to [B]Coast [/B]receive [B]+5 Combat Strength[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]White Tower[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_NORMAN_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องกับนอร์มัน</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being the Norman's associated Wonder. -->
@@ -1557,7 +1560,7 @@
 สามารถสร้าง กองเรือสมบัติแห่งบ้านเกิด ได้บนช่องแม่น้ำใหญ่ได้ หลังจากวิจัย แนวคิดกันตา สำเร็จ</Text>		<!-- +2 Resource Capacity in Cities on Navigable Rivers and your Trade Ships cannot be Plundered on Navigable Rivers. +3[icon:YIELD_GOLD] Gold for every active Trade Route. Can generate Homelands Treasure Fleets on Navigable Rivers after completing the Kanta Civic. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_SONGHAI_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+2 ความจุทรัพยากร[/B] ใน [B]เมือง[/B] บน [B]แม่น้ำใหญ่[/B] และเรือ [B]การค้า[/B] ของคุณไม่สามารถถูก [B]ปล้น[/B] ได้บน [B]แม่น้ำใหญ่[/B][LI][B]+3[icon:YIELD_GOLD] ทอง[/B] ต่อ [B]เส้นทางการค้าแต่ละเส้นที่กำลังใช้งาน[/B] [LI]สามารถสร้าง [B]กองเรือสมบัติแห่งบ้านเกิด[/B] บนช่อง [B]แม่น้ำใหญ่[/B] หลังจากวิจัย [B]แนวคิดกันตา[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการก่อสร้าง [B]หลุมฝังศพของอัสเกีย[/B][/LIST]</Text>		<!-- [LIST][LI][B]+2 Resource Capacity[/B] in [B]Cities[/B] on [B]Navigable Rivers[/B] and your [B]Trade Ships [/B]cannot be [B]Plundered[/B] on [B]Navigable Rivers[/B].[LI][B]+3[icon:YIELD_GOLD] Gold[/B] for every [B]active Trade Route[/B]. [LI]Can generate [B]Homelands Treasure Fleets[/B] on [B]Navigable Rivers[/B] after completing the [B]Kanta Civic[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Tomb of Askia[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]+2 ความจุทรัพยากร[/B] ใน [B]เมือง[/B] บน [B]แม่น้ำใหญ่[/B] และเรือ [B]การค้า[/B] ของคุณไม่สามารถถูก [B]ปล้น[/B] ได้บน [B]แม่น้ำใหญ่[/B][LI][B]+3[icon:YIELD_GOLD] ทอง[/B] ต่อ [B]เส้นทางการค้าแต่ละเส้นที่กำลังใช้งาน[/B] [LI]สามารถสร้าง [B]ขบวนบรรทุกสมบัติ[/B] บนช่อง [B]แม่น้ำใหญ่[/B] หลังจากวิจัย [B]แนวคิดกันตา[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการก่อสร้าง [B]หลุมฝังศพของอัสเกีย[/B][/BLIST]</Text>		<!-- [BLIST][LI][B]+2 Resource Capacity[/B] in [B]Cities[/B] on [B]Navigable Rivers[/B] and your [B]Trade Ships [/B]cannot be [B]Plundered[/B] on [B]Navigable Rivers[/B].[LI][B]+3[icon:YIELD_GOLD] Gold[/B] for every [B]active Trade Route[/B]. [LI]Can generate [B]Homelands Treasure Convoys[/B] on [B]Navigable Rivers[/B] after completing the [B]Kanta Civic[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Tomb of Askia[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_SONGHAI_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องกับซองไฮ</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being the Songhai's associated Wonder. -->
@@ -1569,10 +1572,10 @@
 			<Text>+15% [icon:YIELD_GOLD] ทองในการเปลี่ยนเมืองเป็นเมืองใหญ่ หรือ +30% ในดินแดนห่างไกล</Text>		<!-- +15% [icon:YIELD_GOLD] Gold towards converting a Town to a City, or +30% in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_SPAIN_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+15% [icon:YIELD_GOLD] ทอง [/B]สำหรับ [B]การแปลง [/B] เมืองเป็นเมืองใหญ่ หรือ [B]+30% [/B]ใน [B]ดินแดนห่างไกล[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการสร้าง [B]เอลเอสกอเรียล[/B][/LIST]</Text>		<!-- [LIST][LI][B]+15% [icon:YIELD_GOLD] Gold [/B]towards [B]converting [/B]a Town to a City, or [B]+30% [/B]in [B]Distant Lands[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]El Escorial[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]+15% [icon:YIELD_GOLD] ทอง [/B]สำหรับ [B]การแปลง [/B] เมืองเป็นเมืองใหญ่ หรือ [B]+30% [/B]ใน [B]ดินแดนห่างไกล[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการสร้าง [B]เอลเอสกอเรียล[/B][/BLIST]</Text>		<!-- [BLIST][LI][B]+15% [icon:YIELD_GOLD] Gold [/B]towards [B]converting [/B]a Town to a City, or [B]+30% [/B]in [B]Distant Lands[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]El Escorial[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_SPAIN_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+15% [icon:YIELD_GOLD] ทอง [/B]สำหรับ [B]การแปลง [/B] เมืองเป็นเมืองใหญ่ หรือ [B]+30% [/B]ใน [B]ดินแดนห่างไกล[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการสร้าง [B]เอลเอสกอเรียล[/B][/LIST]</Text>		<!-- [LIST][LI][B]+15% [icon:YIELD_GOLD] Gold [/B]towards [B]converting [/B]a Town to a City, or [B]+30% [/B]in [B]Distant Lands[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]El Escorial[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]+15% [icon:YIELD_GOLD] ทอง [/B]สำหรับ [B]การแปลง [/B] เมืองเป็นเมืองใหญ่ หรือ [B]+30% [/B]ใน [B]ดินแดนห่างไกล[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการสร้าง [B]เอลเอสกอเรียล[/B][/BLIST]</Text>		<!-- [BLIST][LI][B]+15% [icon:YIELD_GOLD] Gold [/B]towards [B]converting [/B]a Town to a City, or [B]+30% [/B]in [B]Distant Lands[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]El Escorial[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_SPAIN_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องกับสเปน</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Spain's associated Wonder. -->
@@ -2979,10 +2982,10 @@
 			<Text>โลอี คาโล</Text>		<!-- Lo'i Kalo -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_LO_I_KALO_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร และ +2[icon:YIELD_PRODUCTION] กำลังผลิต, ฟาร์มที่อยู่ติดกันได้รับ +1[icon:YIELD_CULTURE] วัฒนธรรม, เขตพัฒนาพิเศษ ของฮาวาย, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่หญ้าหรือเขตร้อน</Text>		<!-- +3[icon:YIELD_FOOD] Food and +2[icon:YIELD_PRODUCTION] Production. Adjacent Farms receive +1[icon:YIELD_CULTURE] Culture. Hawaiian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Grassland or Tropical. -->
+			<Text>+3[icon:YIELD_FOOD] อาหาร และ +2[icon:YIELD_PRODUCTION] กำลังผลิต, +1[icon:YIELD_CULTURE] วัฒนธรรม สำหรับฟาร์มที่อยู่ใกล้เคียง, เขตพัฒนาพิเศษ ของฮาวาย, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่หญ้าหรือเขตร้อน</Text>		<!-- +3[icon:YIELD_FOOD] Food and +2[icon:YIELD_PRODUCTION] Production. +1[icon:YIELD_CULTURE] Culture for each adjacent Farm. Hawaiian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Grassland or Tropical. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_LO_I_KALO_TOOLTIP" Language="th_TH">
-			<Text>ฟาร์มที่อยู่ติดกันได้รับ +1[icon:YIELD_CULTURE] วัฒนธรรม, เขตพัฒนาพิเศษ ของฮาวาย, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่หญ้าหรือเขตร้อน</Text>		<!-- Adjacent Farms receive +1[icon:YIELD_CULTURE] Culture. Hawaiian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Grassland or Tropical. -->
+			<Text>เขตพัฒนาพิเศษ ของฮาวาย, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่หญ้าหรือเขตร้อน</Text>		<!-- Hawaiian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Grassland or Tropical. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MING_GREAT_WALL_NAME" Language="th_TH">
 			<Text>กำแพงเมืองจีนหมิง</Text>		<!-- Ming Great Wall -->
@@ -3018,7 +3021,7 @@
 			<Text>คาซบะ</Text>		<!-- Kasbah -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_KASBAH_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_CULTURE],[icon:YIELD_GOLD] ทอง และ[icon:YIELD_SCIENCE] วิทยาศาสตร์ เขตพัฒนาพิเศษ ของนครรัฐ, นับเป็นการเสริมสร้าง, +6 พลังต่อสู้ เมื่อป้องกัน, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา ในเขตทะเลทราย</Text>		<!-- +1[icon:YIELD_CULTURE],[icon:YIELD_GOLD] Gold, and[icon:YIELD_SCIENCE] Science. City State Unique Improvement. Counts as Fortification, +6 Combat Strength when defending. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Desert. -->
+			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม,[icon:YIELD_GOLD] ทอง และ[icon:YIELD_SCIENCE] วิทยาศาสตร์ เขตพัฒนาพิเศษ ของนครรัฐ, นับเป็นการเสริมสร้าง, +6 พลังต่อสู้ เมื่อป้องกัน, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา ในเขตทะเลทราย</Text>		<!-- +1[icon:YIELD_CULTURE]Culture, [icon:YIELD_GOLD]Gold, and [icon:YIELD_SCIENCE]Science. City State Unique Improvement. Counts as Fortification, +6 Combat Strength when defending. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Desert. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_KASBAH_TOOLTIP" Language="th_TH">
 			<Text>เขตพัฒนาพิเศษ ของนครรัฐ, นับเป็นการเสริมกำลัง, เพิ่ม +6 พลังต่อสู้ เมื่อป้องกัน ไม่ลบโบนัสโกดังบนแผ่นดิน ต้องวางบนพื้นที่พัฒนา ในเขตทะเลทราย</Text>		<!-- City State Unique Improvement. Counts as Fortification, +6 Combat Strength when defending. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Desert. -->
@@ -3192,10 +3195,10 @@
 			<Text>เจดีย์ชเวดากอง</Text>		<!-- Shwedagon Zedi Daw -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_SHWEDAGON_ZEDI_DAW_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_SCIENCE] วิทยาศาสตร์ +2[icon:YIELD_SCIENCE] วิทยาศาสตร์ ในพื้นที่ชนบททั้งหมดในถิ่นฐานนี้ที่มีความสุขอย่างน้อย 1, +1 คะแนน คุณลักษณะไวลด์การ์ด, คงอยู่ตลอดกาล, ต้องตั้งอยู่ติดกับทะเลสาบ</Text>		<!-- +4[icon:YIELD_SCIENCE] Science. +2[icon:YIELD_SCIENCE] Science on all Rural tiles in this Settlement that have at least 1 Happiness. +1 Wildcard Attribute Point. Ageless. Must be placed adjacent to a Lake. -->
+			<Text>+4[icon:YIELD_SCIENCE] วิทยาศาสตร์ +2[icon:YIELD_SCIENCE] วิทยาศาสตร์ ในพื้นที่ชนบททั้งหมดในถิ่นฐานนี้ที่มีอย่างน้อย 1 [icon:YIELD_HAPPINESS] ความสุข, +1 คะแนน คุณลักษณะไวลด์การ์ด, คงอยู่ตลอดกาล, ต้องตั้งอยู่ติดกับทะเลสาบ</Text>		<!-- +4[icon:YIELD_SCIENCE] Science. +2[icon:YIELD_SCIENCE] Science on all Rural tiles in this Settlement that have at least 1[icon:YIELD_HAPPINESS] Happiness. +1 Wildcard Attribute Point. Ageless. Must be placed adjacent to a Lake. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_SHWEDAGON_ZEDI_DAW_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์ บนพื้นที่ชนบททั้งหมดในถิ่นฐานนี้ที่มีความสุขอย่างน้อย 1 จุด +1 คะแนน คุณลักษณะไวลด์การ์ด คงอยู่ตลอดกาล, ต้องวางอยู่ติดกับทะเลสาบ</Text>		<!-- +2[icon:YIELD_SCIENCE] Science on all Rural tiles in this Settlement that have at least 1 Happiness. +1 Wildcard Attribute Point. Ageless. Must be placed adjacent to a Lake. -->
+			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์ บนพื้นที่ชนบททั้งหมดในถิ่นฐานนี้ที่มีอย่างน้อย 1 [icon:YIELD_HAPPINESS] ความสุข +1 คะแนน คุณลักษณะไวลด์การ์ด คงอยู่ตลอดกาล, ต้องวางอยู่ติดกับทะเลสาบ</Text>		<!-- +2[icon:YIELD_SCIENCE] Science on all Rural tiles in this Settlement that have at least 1[icon:YIELD_HAPPINESS] Happiness. +1 Wildcard Attribute Point. Ageless. Must be placed adjacent to a Lake. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_TOMB_OF_ASKIA_NAME" Language="th_TH">
 			<Text>สุสานของอัสกีอา</Text>		<!-- Tomb of Askia -->
@@ -3417,7 +3420,7 @@
 			<Text>รัฐธรรมนูญ</Text>		<!-- Constitution -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_CONSTITUTION_DESCRIPTION" Language="th_TH">
-			<Text>+50%[icon:YIELD_FOOD] อาหาร และ[icon:YIELD_HAPPINESS] ความสุข ในการบำรุงรักษาผู้เชี่ยวชาญ</Text>		<!-- +50%[icon:YIELD_FOOD] Food and[icon:YIELD_HAPPINESS] Happiness towards maintaining Specialists. -->
+			<Text>+25%[icon:YIELD_FOOD] อาหาร และ[icon:YIELD_HAPPINESS] ความสุข ในการบำรุงรักษาผู้เชี่ยวชาญ</Text>		<!-- +25%[icon:YIELD_FOOD] Food and[icon:YIELD_HAPPINESS] Happiness towards maintaining Specialists. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_DE_FACTO_NAME" Language="th_TH">
 			<Text>เดอแฟคโต</Text>		<!-- De Facto -->
@@ -3681,7 +3684,7 @@
 			<Text>-8[icon:YIELD_HAPPINESS] ความสุข ในถิ่นฐานที่ไม่นับถือศาสนาของคุณ +2 พลัง สำหรับยูนิตมิชชันนารีใหม่</Text>		<!-- -8[icon:YIELD_HAPPINESS] Happiness in settlements that do not follow your religion. +2 Charges on new Missionaries. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_RELIGIOUS_ESPIONAGE_NAME" Language="th_TH">
-			<Text>การสอบสวน</Text>		<!-- Inquisition -->
+			<Text>การแตกแยก</Text>		<!-- Schism -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_RELIGIOUS_ESPIONAGE_DESCRIPTION" Language="th_TH">
 			<Text>+50%[icon:YIELD_DIPLOMACY] อิทธิพล ต่อการ เพยแพร่ศาสนาโดยใช้การจารกรรม, -4[icon:YIELD_HAPPINESS] ความสุข ในถิ่นฐานในบ้านเกิด</Text>		<!-- +50%[icon:YIELD_DIPLOMACY] Influence towards Convert Settlement Espionage actions. -4[icon:YIELD_HAPPINESS] Happiness in Homelands settlements. -->
@@ -3714,7 +3717,7 @@
 			<Text>ระบอบฟิวดัล</Text>		<!-- Feudal Monarchy -->
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_FEUDAL_MONARCHY_DESCRIPTION" Language="th_TH">
-			<Text>รัฐบาลของคุณมอบทางเลือกให้คุณระหว่าง เอฟเฟคเหล่านี้ ในช่วงงานเฉลิมฉลอง</Text>		<!-- Your Government grants you a choice between these effects during a Celebration. -->
+			<Text>รัฐบาลนี้ มอบทางเลือกให้คุณระหว่าง เอฟเฟคเหล่านี้ ในช่วงงานเฉลิมฉลอง</Text>		<!-- This Government grants you a choice between these effects during a Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_FEUDAL_MONARCHY_PASSIVE_DESCRIPTION" Language="th_TH">
 			<Text>+1 ประชากรในถิ่นฐานใหม่ที่คุณพบในดินแดนที่ห่างไกล</Text>		<!-- +1 Population in new Settlements that you found in Distant Lands. -->
@@ -3726,7 +3729,7 @@
 			<Text>เศรษฐยาธิปไตย</Text>		<!-- Plutocracy -->
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_PLUTOCRACY_DESCRIPTION" Language="th_TH">
-			<Text>รัฐบาลของคุณมอบทางเลือกให้คุณระหว่าง เอฟเฟคเหล่านี้ ในช่วงงานเฉลิมฉลอง</Text>		<!-- Your Government grants you a choice between these effects during a Celebration. -->
+			<Text>รัฐบาลนี้ มอบทางเลือกให้คุณระหว่าง เอฟเฟคเหล่านี้ ในช่วงงานเฉลิมฉลอง</Text>		<!-- This Government grants you a choice between these effects during a Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_PLUTOCRACY_PASSIVE_DESCRIPTION" Language="th_TH">
 			<Text>เมื่อคุณสร้างอาคารเกิน ต้องได้รับ[icon:YIELD_GOLD] ทองเท่ากับ 25% ของต้นทุนกำลังผลิตของอาคารนั้น</Text>		<!-- When you Overbuild a Building, gain[icon:YIELD_GOLD] Gold equal to 25% of the Building's Production cost. -->
@@ -3738,7 +3741,7 @@
 			<Text>เทวาธิปไตย</Text>		<!-- Theocracy -->
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_THEOCRACY_DESCRIPTION" Language="th_TH">
-			<Text>รัฐบาลของคุณมอบทางเลือกให้คุณระหว่าง เอฟเฟคเหล่านี้ ในช่วงงานเฉลิมฉลอง</Text>		<!-- Your Government grants you a choice between these effects during a Celebration. -->
+			<Text>รัฐบาลนี้ มอบทางเลือกให้คุณระหว่าง เอฟเฟคเหล่านี้ ในช่วงงานเฉลิมฉลอง</Text>		<!-- This Government grants you a choice between these effects during a Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_THEOCRACY_PASSIVE_DESCRIPTION" Language="th_TH">
 			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุกถิ่นฐานที่นับถือศาสนาของคุณ</Text>		<!-- +1[icon:YIELD_CULTURE] Culture for every Settlement following your Religion. -->
@@ -3750,7 +3753,7 @@
 			<Text>อำนาจนิยมเชิงปฏิวัติ</Text>		<!-- Revolutionary Authoritarianism -->
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_REVOLUTIONARY_AUTHORITARIANISM_DESCRIPTION" Language="th_TH">
-			<Text>รัฐบาลของคุณมอบทางเลือกให้คุณระหว่าง เอฟเฟคเหล่านี้ ในช่วงงานเฉลิมฉลอง</Text>		<!-- Your Government grants you a choice between these effects during a Celebration. -->
+			<Text>รัฐบาลนี้ มอบทางเลือกให้คุณระหว่าง เอฟเฟคเหล่านี้ ในช่วงงานเฉลิมฉลอง</Text>		<!-- This Government grants you a choice between these effects during a Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_REVOLUTIONARY_AUTHORITARIANISM_PASSIVE_DESCRIPTION" Language="th_TH">
 			<Text>+3 พลังต่อสู้ สำหรับยูนิตทหาร</Text>		<!-- +3 Combat Strength for Military Units. -->
@@ -3762,7 +3765,7 @@
 			<Text>ระบอบกษัตริย์ภายใต้รัฐธรรมนูญ</Text>		<!-- Constitutional Monarchy -->
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_CONSTITUTIONAL_MONARCHY_DESCRIPTION" Language="th_TH">
-			<Text>รัฐบาลของคุณมอบทางเลือกให้คุณระหว่าง เอฟเฟคเหล่านี้ ในช่วงงานเฉลิมฉลอง</Text>		<!-- Your Government grants you a choice between these effects during a Celebration. -->
+			<Text>รัฐบาลนี้ มอบทางเลือกให้คุณระหว่าง เอฟเฟคเหล่านี้ ในช่วงงานเฉลิมฉลอง</Text>		<!-- This Government grants you a choice between these effects during a Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_CONSTITUTIONAL_MONARCHY_PASSIVE_DESCRIPTION" Language="th_TH">
 			<Text>+2[icon:YIELD_GOLD] ทอง สำหรับแต่ละ ความร่วมมือ ที่มีอยู่ และ การคว่ำบาตร ที่คุณเริ่มต้นหรือสนับสนุน</Text>		<!-- +2[icon:YIELD_GOLD] Gold for each active Endeavor and Sanction you initiated or supported. -->
@@ -3774,7 +3777,7 @@
 			<Text>สาธารณรัฐปฏิวัติ</Text>		<!-- Revolutionary Republic -->
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_REVOLUTIONARY_REPUBLIC_DESCRIPTION" Language="th_TH">
-			<Text>รัฐบาลของคุณมอบทางเลือกให้คุณระหว่าง เอฟเฟคเหล่านี้ ในช่วงงานเฉลิมฉลอง</Text>		<!-- Your Government grants you a choice between these effects during a Celebration. -->
+			<Text>รัฐบาลนี้ มอบทางเลือกให้คุณระหว่าง เอฟเฟคเหล่านี้ ในช่วงงานเฉลิมฉลอง</Text>		<!-- This Government grants you a choice between these effects during a Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_REVOLUTIONARY_REPUBLIC_PASSIVE_DESCRIPTION" Language="th_TH">
 			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม จากผลงานชิ้นเอกที่แสดงอยู่</Text>		<!-- +1[icon:YIELD_CULTURE] Culture from displayed Great Works. -->
@@ -4203,7 +4206,7 @@
 			<Text>+2[icon:YIELD_GOLD] ทอง จากฟาร์ม ซึ่งจะเพิ่มเป็นสองเท่าในช่วงเฉลิมฉลอง</Text>		<!-- +2[icon:YIELD_GOLD] Gold from Farms. This is doubled during a Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CONSUETUDINES_ET_JUSTICIE_CHEVELAR_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>เพิ่ม +1 พลังต่อสู้ให้กับ ชวาเลียร์ สำหรับทุกประเพณีที่ถูกติดตั้งในรัฐบาลของคุณ</Text>		<!-- +1 Combat Strength to the Chevelar for every Tradition slotted in your Government. -->
+			<Text>เพิ่ม +1 พลังต่อสู้ให้กับ ชวาเลียร์ สำหรับทุกประเพณีที่ถูกติดตั้งในรัฐบาลของคุณ</Text>		<!-- +1 Combat Strength to the Chevaler for every Tradition slotted in your Government. -->
 		</Replace>
 		<Replace Tag="LOC_TREE_CIVICS_EX_SONGHAI_NAME" Language="th_TH">
 			<Text>แนวคิดซองไฮ</Text>		<!-- Songhai Civics -->
@@ -4251,7 +4254,7 @@
 			<Text>แม่น้ำ จะไม่หยุดการเคลื่อนไหวของยูนิต</Text>		<!-- Rivers do not end movement. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_KANTA_TREASURE_FLEET_DESCRIPTION" Language="th_TH">
-			<Text>เมืองในดินแดนบ้านเกิดที่ตั้งอยู่ริม แม่น้ำใหญ่ จะสร้าง เรือบรรทุกสมบัติ ที่มีมูลค่า 2 คะแนนกองเรือสมบัติ ต่อหนึ่งลำ</Text>		<!-- Cities in Homelands on Navigable Rivers generate Treasure Fleets worth 2 Treasure Fleet point each. -->
+			<Text>เมืองในดินแดนบ้านเกิดที่ตั้งอยู่ริม แม่น้ำใหญ่ จะสร้าง ขบวนบรรทุกสมบัติ ที่มีมูลค่า 2 คะแนนกองเรือสมบัติ ต่อหนึ่งลำ</Text>		<!-- Cities in Homelands on Navigable Rivers generate Treasure Convoys worth 2 Treasure Fleet points each. -->
 		</Replace>
 		<Replace Tag="LOC_TREE_CIVICS_EX_SPAIN_NAME" Language="th_TH">
 			<Text>แนวคิดสเปน</Text>		<!-- Spanish Civics -->
@@ -4284,7 +4287,7 @@
 			<Text>เบอร์นาล ดิแอซ เดล คาสติลโล</Text>		<!-- Bernal Díaz del Castillo -->
 		</Replace>
 		<Replace Tag="LOC_MOD_COUNCIL_OF_THE_INDIES_TREASURE_FLEET_MOVEMENT_DESCRIPTION" Language="th_TH">
-			<Text>+1 แต้มเคลื่อนที่ ไปยัง เรือบรรทุกสมบัติ</Text>		<!-- +1 movement to Treasure Fleets. -->
+			<Text>ขบวนบรรทุกสมบัติ รับ +1 แต้มเคลื่อนที่ และไม่สนข้อจำกัดจาก พื้นที่ขรุขระ</Text>		<!-- Treasure Convoys gain +1 Movement and ignore movement penalties from Rough Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_NEW_WORLD_RICHES_FOREIGN_CITIES_PRODUCTION_FOOD_DESCRIPTION" Language="th_TH">
 			<Text>+10%[icon:YIELD_FOOD] อาหาร และ[icon:YIELD_PRODUCTION] ผลิตภัณฑ์ในตั้งถิ่นฐานในดินแดนห่างไกล</Text>		<!-- +10%[icon:YIELD_FOOD] Food and[icon:YIELD_PRODUCTION] Production in Settlements in Distant Lands. -->
@@ -4293,79 +4296,112 @@
 			<Text>ผู้บังคับการกองเรือ ได้รับ ได้รับตำแหน่ง ฟลอทิลลา</Text>		<!-- Fleet Commanders receive the Flotilla Promotion. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ARMADA_EMBARKED_MOVEMENT_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตภาคพื้นได้รับ +2 แต้มเคลื่อนที่ เมื่อขึ้นเรือ</Text>		<!-- All Land Units receive +2 Movement when Embarked. -->
+			<Text>ยูนิตทหารภาคพื้น, ผู้ตั้งถิ่นฐาน, มิชชันนารี และ ได้รับ +2 แต้มเคลื่อนที่ เมื่อขึ้นเรือ</Text>		<!-- All Military Land Units, Settlers, Missionaries, and Conquistadors receive +2 Movement when Embarked. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_OPEN_BORDERS_ACCEPT" Language="th_TH">
-			<Text>เปิดพรมแดนของคุณให้กับพวกเขา[n][icon:YIELD_GOLD] +4 ต่อเทิร์น</Text>		<!-- Open your borders to them.[n][icon:YIELD_GOLD] +4 per turn. --></Replace>
+			<Text>เปิดพรมแดนของคุณให้กับพวกเขา[n][icon:YIELD_GOLD] +4 ต่อเทิร์น</Text>		<!-- Open your borders to them.[n][icon:YIELD_GOLD] +4 per turn. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_INITIAL" Language="th_TH">
-			<Text>ร่วมทำวิจัยกับผู้นำอีกคนหนึ่ง[n]ได้รับการยอมรับ: คุณจะได้รับ +8[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น ผู้นำอื่นจะได้รับ +4[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +12[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น</Text>		<!-- Do a Research Collaboration with another Leader.[n]Accepted: You receive +8[icon:YIELD_SCIENCE] Science per turn. Other Leader receives +4[icon:YIELD_SCIENCE] Science per turn.[n]Supported: Both Leaders receive +12[icon:YIELD_SCIENCE] Science per turn. --></Replace>
+			<Text>ร่วมทำวิจัยกับผู้นำอีกคนหนึ่ง[n]ได้รับการยอมรับ: คุณจะได้รับ +8[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น ผู้นำอื่นจะได้รับ +4[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +12[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น</Text>		<!-- Do a Research Collaboration with another Leader.[n]Accepted: You receive +8[icon:YIELD_SCIENCE] Science per turn. Other Leader receives +4[icon:YIELD_SCIENCE] Science per turn.[n]Supported: Both Leaders receive +12[icon:YIELD_SCIENCE] Science per turn. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_SCIENCE] +12 ต่อเทิร์นสำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_SCIENCE] +12 per turn for both Leaders. --></Replace>
+			<Text>[icon:YIELD_SCIENCE] +12 ต่อเทิร์นสำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_SCIENCE] +12 per turn for both Leaders. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_SCIENCE] +12 ต่อเทิร์นสำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_SCIENCE] +12 per turn for both Leaders. --></Replace>
+			<Text>[icon:YIELD_SCIENCE] +12 ต่อเทิร์นสำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_SCIENCE] +12 per turn for both Leaders. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_SCIENCE] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_SCIENCE] +8 ต่อเทิร์น</Text>		<!-- [icon:YIELD_SCIENCE] +4 per turn.[n]{1_initialName} receives [icon:YIELD_SCIENCE] +8 per turn. --></Replace>
+			<Text>[icon:YIELD_SCIENCE] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_SCIENCE] +8 ต่อเทิร์น</Text>		<!-- [icon:YIELD_SCIENCE] +4 per turn.[n]{1_initialName} receives [icon:YIELD_SCIENCE] +8 per turn. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_SCIENCE] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_SCIENCE] +8 ต่อเทิร์น</Text>		<!-- [icon:YIELD_SCIENCE] +4 per turn.[n]{1_initialName} receives [icon:YIELD_SCIENCE] +8 per turn. --></Replace>
+			<Text>[icon:YIELD_SCIENCE] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_SCIENCE] +8 ต่อเทิร์น</Text>		<!-- [icon:YIELD_SCIENCE] +4 per turn.[n]{1_initialName} receives [icon:YIELD_SCIENCE] +8 per turn. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CULTURAL_EXCHANGE_INITIAL" Language="th_TH">
-			<Text>มีการแลกเปลี่ยนวัฒนธรรมกับผู้นำคนอื่น[n]ได้รับการยอมรับ: คุณจะได้รับ +8[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น ผู้นำคนอื่นจะได้รับ +4[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +12[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น</Text>		<!-- Have a Cultural Exchange with another Leader.[n]Accepted: You receive +8[icon:YIELD_CULTURE] Culture per turn. Other Leader receives +4[icon:YIELD_CULTURE] Culture per turn.[n]Supported: Both Leaders receive +12[icon:YIELD_CULTURE] Culture per turn. --></Replace>
+			<Text>มีการแลกเปลี่ยนวัฒนธรรมกับผู้นำคนอื่น[n]ได้รับการยอมรับ: คุณจะได้รับ +8[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น ผู้นำคนอื่นจะได้รับ +4[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +12[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น</Text>		<!-- Have a Cultural Exchange with another Leader.[n]Accepted: You receive +8[icon:YIELD_CULTURE] Culture per turn. Other Leader receives +4[icon:YIELD_CULTURE] Culture per turn.[n]Supported: Both Leaders receive +12[icon:YIELD_CULTURE] Culture per turn. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CULTURAL_EXCHANGE_SUPPORT" Language="th_TH">
-			<Text>+12[icon:YIELD_CULTURE] ต่อเทิร์นสำหรับผู้นำทั้งสอง</Text>		<!-- +12[icon:YIELD_CULTURE] per turn for both Leaders. --></Replace>
+			<Text>+12[icon:YIELD_CULTURE] ต่อเทิร์นสำหรับผู้นำทั้งสอง</Text>		<!-- +12[icon:YIELD_CULTURE] per turn for both Leaders. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CULTURAL_EXCHANGE_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_CULTURE] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_CULTURE] +8 ต่อเทิร์น</Text>		<!-- [icon:YIELD_CULTURE] +4 per turn.[n]{1_initialName} receives [icon:YIELD_CULTURE] +8 per turn. --></Replace>
+			<Text>[icon:YIELD_CULTURE] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_CULTURE] +8 ต่อเทิร์น</Text>		<!-- [icon:YIELD_CULTURE] +4 per turn.[n]{1_initialName} receives [icon:YIELD_CULTURE] +8 per turn. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CULTURAL_EXCHANGE_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_CULTURE] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_CULTURE] +8 ต่อเทิร์น</Text>		<!-- [icon:YIELD_CULTURE] +4 per turn.[n]{1_initialName} receives [icon:YIELD_CULTURE] +8 per turn. --></Replace>
+			<Text>[icon:YIELD_CULTURE] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_CULTURE] +8 ต่อเทิร์น</Text>		<!-- [icon:YIELD_CULTURE] +4 per turn.[n]{1_initialName} receives [icon:YIELD_CULTURE] +8 per turn. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_INITIAL" Language="th_TH">
-			<Text>เปิดการค้ากับผู้นำอีกคนหนึ่ง[n]ยอมรับ: คุณจะได้รับ +8[icon:YIELD_GOLD] ทอง ต่อเทิร์น ผู้นำอีกคนจะได้รับ +4[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +12[icon:YIELD_GOLD] ทอง ต่อเทิร์น</Text>		<!-- Have Open Markets with another Leader.[n]Accepted: You receive +8[icon:YIELD_GOLD] Gold per turn. Other Leader receives +4[icon:YIELD_GOLD] Gold per turn.[n]Supported: Both Leaders receive +12[icon:YIELD_GOLD] Gold per turn. --></Replace>
+			<Text>เปิดการค้ากับผู้นำอีกคนหนึ่ง[n]ยอมรับ: คุณจะได้รับ +8[icon:YIELD_GOLD] ทอง ต่อเทิร์น ผู้นำอีกคนจะได้รับ +4[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +12[icon:YIELD_GOLD] ทอง ต่อเทิร์น</Text>		<!-- Have Open Markets with another Leader.[n]Accepted: You receive +8[icon:YIELD_GOLD] Gold per turn. Other Leader receives +4[icon:YIELD_GOLD] Gold per turn.[n]Supported: Both Leaders receive +12[icon:YIELD_GOLD] Gold per turn. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +12 ต่อเทิร์นสำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_GOLD] +12 per turn for both Leaders. --></Replace>
+			<Text>[icon:YIELD_GOLD] +12 ต่อเทิร์นสำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_GOLD] +12 per turn for both Leaders. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +12 ต่อเทิร์นสำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_GOLD] +12 per turn for both Leaders. --></Replace>
+			<Text>[icon:YIELD_GOLD] +12 ต่อเทิร์นสำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_GOLD] +12 per turn for both Leaders. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_GOLD] +8 ต่อเทิร์น</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]{1_initialName} receives [icon:YIELD_GOLD] +8 per turn. --></Replace>
+			<Text>[icon:YIELD_GOLD] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_GOLD] +8 ต่อเทิร์น</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]{1_initialName} receives [icon:YIELD_GOLD] +8 per turn. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_GOLD] +8 ต่อเทิร์น</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]{1_initialName} receives [icon:YIELD_GOLD] +8 per turn. --></Replace>
+			<Text>[icon:YIELD_GOLD] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_GOLD] +8 ต่อเทิร์น</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]{1_initialName} receives [icon:YIELD_GOLD] +8 per turn. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_LOCAL_FESTIVALS_INITIAL" Language="th_TH">
-			<Text>จัดเทศกาลท้องถิ่นกับผู้นำอีกคนหนึ่ง[n]ได้รับการตอบรับ: คุณได้รับ +4[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในเมืองใหญ่ทั้งหมด ผู้นำอื่นได้รับ +4[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +6[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในเมือง</Text>		<!-- Have Local Festivals with another Leader.[n]Accepted: You receive +4[icon:YIELD_HAPPINESS] Happiness per turn in all Cities. Other Leader receives +4[icon:YIELD_DIPLOMACY] Influence per turn.[n]Supported: Both Leaders receive +6[icon:YIELD_HAPPINESS] Happiness per turn in Cities. --></Replace>
+			<Text>จัดเทศกาลท้องถิ่นกับผู้นำอีกคนหนึ่ง[n]ได้รับการตอบรับ: คุณได้รับ +4[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในเมืองใหญ่ทั้งหมด ผู้นำอื่นได้รับ +4[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +6[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในเมือง</Text>		<!-- Have Local Festivals with another Leader.[n]Accepted: You receive +4[icon:YIELD_HAPPINESS] Happiness per turn in all Cities. Other Leader receives +4[icon:YIELD_DIPLOMACY] Influence per turn.[n]Supported: Both Leaders receive +6[icon:YIELD_HAPPINESS] Happiness per turn in Cities. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_LOCAL_FESTIVALS_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_HAPPINESS] +5 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_HAPPINESS] +6 per turn in Cities for both Leaders. --></Replace>
+			<Text>[icon:YIELD_HAPPINESS] +5 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_HAPPINESS] +6 per turn in Cities for both Leaders. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_LOCAL_FESTIVALS_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_HAPPINESS] +5 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_HAPPINESS] +6 per turn in Cities for both Leaders. --></Replace>
+			<Text>[icon:YIELD_HAPPINESS] +5 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_HAPPINESS] +6 per turn in Cities for both Leaders. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_LOCAL_FESTIVALS_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_DIPLOMACY] +4 ต่อเทิร์น[n][icon:YIELD_HAPPINESS] +4 ต่อเทิร์นในเมืองใหญ่ สำหรับ {1_initialName}</Text>		<!-- [icon:YIELD_DIPLOMACY] +4 per turn.[n] [icon:YIELD_HAPPINESS] +4 per turn in Cities for {1_initialName}. --></Replace>
+			<Text>[icon:YIELD_DIPLOMACY] +4 ต่อเทิร์น[n][icon:YIELD_HAPPINESS] +4 ต่อเทิร์นในเมืองใหญ่ สำหรับ {1_initialName}</Text>		<!-- [icon:YIELD_DIPLOMACY] +4 per turn.[n] [icon:YIELD_HAPPINESS] +4 per turn in Cities for {1_initialName}. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FARMERS_MARKET_INITIAL" Language="th_TH">
-			<Text>แบ่งปันสินค้าเกษตรกับผู้นำคนอื่น[n]ยอมรับ: คุณได้รับ +4[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมือง ผู้นำอื่นได้รับ +4[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +6[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมือง</Text>		<!-- Share agricultural goods with another Leader.[n]Accepted: You receive +4[icon:YIELD_FOOD] Food per turn in Towns. Other Leader receives +4[icon:YIELD_GOLD] Gold per turn.[n]Supported: Both Leaders receive +6[icon:YIELD_FOOD] Food per turn in Towns. --></Replace>
+			<Text>แบ่งปันสินค้าเกษตรกับผู้นำคนอื่น[n]ยอมรับ: คุณได้รับ +4[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมือง ผู้นำอื่นได้รับ +4[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +6[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมือง</Text>		<!-- Share agricultural goods with another Leader.[n]Accepted: You receive +4[icon:YIELD_FOOD] Food per turn in Towns. Other Leader receives +4[icon:YIELD_GOLD] Gold per turn.[n]Supported: Both Leaders receive +6[icon:YIELD_FOOD] Food per turn in Towns. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FARMERS_MARKET_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_FOOD] +6 ต่อเทิร์นในเมือง สำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_FOOD] +6 per turn in Towns for both Leaders. --></Replace>
+			<Text>[icon:YIELD_FOOD] +6 ต่อเทิร์นในเมือง สำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_FOOD] +6 per turn in Towns for both Leaders. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FARMERS_MARKET_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_FOOD] +6 ต่อเทิร์นในเมือง สำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_FOOD] +6 per turn in Towns for both Leaders. --></Replace>
+			<Text>[icon:YIELD_FOOD] +6 ต่อเทิร์นในเมือง สำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_FOOD] +6 per turn in Towns for both Leaders. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FARMERS_MARKET_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_FOOD] +4 ต่อเทิร์นในเมือง</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]{1_initialName} receives [icon:YIELD_FOOD] +4 per turn in Towns. --></Replace>
+			<Text>[icon:YIELD_GOLD] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_FOOD] +4 ต่อเทิร์นในเมือง</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]{1_initialName} receives [icon:YIELD_FOOD] +4 per turn in Towns. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_TRADE_MAP_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +4 ต่อเทิร์น[n]ผู้นำคนอื่นจะเห็น พื้นที่อ้างสิทธิ์ ของคุณ เมื่อเวลาผ่านไป</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]The other Leader has your claimed territory revealed to them over time. --></Replace>
+			<Text>[icon:YIELD_GOLD] +4 ต่อเทิร์น[n]ผู้นำคนอื่นจะเห็น พื้นที่อ้างสิทธิ์ ของคุณ เมื่อเวลาผ่านไป</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]The other Leader has your claimed territory revealed to them over time. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_TRADE_MAP_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +4 ต่อเทิร์น[n]ผู้นำคนอื่นจะเห็น พื้นที่อ้างสิทธิ์ ของคุณ เมื่อเวลาผ่านไป</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]The other Leader has your claimed territory revealed to them over time. --></Replace>
+			<Text>[icon:YIELD_GOLD] +4 ต่อเทิร์น[n]ผู้นำคนอื่นจะเห็น พื้นที่อ้างสิทธิ์ ของคุณ เมื่อเวลาผ่านไป</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]The other Leader has your claimed territory revealed to them over time. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MILITARY_AID_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD]+4 ต่อเทิร์น[n]ยูนิตของผู้นำคนอื่นได้รับ +2 พลังต่อสู้</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]Other Leader's Units get +2 Combat Strength. --></Replace>
+			<Text>[icon:YIELD_GOLD]+4 ต่อเทิร์น[n]ยูนิตของผู้นำคนอื่นได้รับ +2 พลังต่อสู้</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]Other Leader's Units get +2 Combat Strength. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MILITARY_AID_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD]+4 ต่อเทิร์น[n]ยูนิตของผู้นำคนอื่นได้รับ +2 พลังต่อสู้</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]Other Leader's Units get +2 Combat Strength. --></Replace>
+			<Text>[icon:YIELD_GOLD]+4 ต่อเทิร์น[n]ยูนิตของผู้นำคนอื่นได้รับ +2 พลังต่อสู้</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]Other Leader's Units get +2 Combat Strength. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_IMPROVE_TRADE_RELATIONS_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +60[n]{1_initialName} สามารถเริ่มเส้นทางการค้าเพิ่มเติมกับคุณได้</Text>		<!-- [icon:YIELD_GOLD] +60.[n]{1_initialName} can start an additional Trade Route with you. --></Replace>
+			<Text>[icon:YIELD_GOLD] +60[n]{1_initialName} สามารถเริ่มเส้นทางการค้าเพิ่มเติมกับคุณได้</Text>		<!-- [icon:YIELD_GOLD] +60.[n]{1_initialName} can start an additional Trade Route with you. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_IMPROVE_TRADE_RELATIONS_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +60[n]{1_initialName} สามารถเริ่มเส้นทางการค้าเพิ่มเติมกับคุณได้</Text>		<!-- [icon:YIELD_GOLD] +60.[n]{1_initialName} can start an additional Trade Route with you. --></Replace>
+			<Text>[icon:YIELD_GOLD] +60[n]{1_initialName} สามารถเริ่มเส้นทางการค้าเพิ่มเติมกับคุณได้</Text>		<!-- [icon:YIELD_GOLD] +60.[n]{1_initialName} can start an additional Trade Route with you. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_GINSING_AGREEMENT_INITIAL" Language="th_TH">
-			<Text>มีข้อตกลงโสมกับผู้นำอีกคนหนึ่ง[n]ยอมรับ: คุณได้รับ +8[icon:YIELD_FOOD] อาหาร ต่อเทิร์น ในเมืองหลวงของคุณ ผู้นำอื่นได้รับ +4[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองหลวงของพวกเขา[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +12[icon:YIELD_FOOD] อาหาร ต่อเทิร์น ในเมืองหลวงของพวกเขา</Text>		<!-- Have Ginseng Agreements with another Leader.[n]Accepted: You receive +8[icon:YIELD_FOOD] Food per turn in your Capital. Other Leader receives +4[icon:YIELD_FOOD] Food per turn in their Capital.[n]Supported: Both Leaders receive +12[icon:YIELD_FOOD] Food per turn in their Capitals. --></Replace>
+			<Text>มีข้อตกลงโสมกับผู้นำอีกคนหนึ่ง[n]ยอมรับ: คุณได้รับ +8[icon:YIELD_FOOD] อาหาร ต่อเทิร์น ในเมืองหลวงของคุณ ผู้นำอื่นได้รับ +4[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองหลวงของพวกเขา[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +12[icon:YIELD_FOOD] อาหาร ต่อเทิร์น ในเมืองหลวงของพวกเขา</Text>		<!-- Have Ginseng Agreements with another Leader.[n]Accepted: You receive +8[icon:YIELD_FOOD] Food per turn in your Capital. Other Leader receives +4[icon:YIELD_FOOD] Food per turn in their Capital.[n]Supported: Both Leaders receive +12[icon:YIELD_FOOD] Food per turn in their Capitals. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_GINSING_AGREEMENT_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_FOOD] +12 ต่อเทิร์นสำหรับผู้นำทั้งสองในเมืองหลวงของพวกเขา</Text>		<!-- [icon:YIELD_FOOD] +12 per turn for both Leaders in their Capitals. --></Replace>
+			<Text>[icon:YIELD_FOOD] +12 ต่อเทิร์นสำหรับผู้นำทั้งสองในเมืองหลวงของพวกเขา</Text>		<!-- [icon:YIELD_FOOD] +12 per turn for both Leaders in their Capitals. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_GINSING_AGREEMENT_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_FOOD] +12 ต่อเทิร์นสำหรับผู้นำทั้งสองในเมืองหลวงของพวกเขา</Text>		<!-- [icon:YIELD_FOOD] +12 per turn for both Leaders in their Capitals. --></Replace>
+			<Text>[icon:YIELD_FOOD] +12 ต่อเทิร์นสำหรับผู้นำทั้งสองในเมืองหลวงของพวกเขา</Text>		<!-- [icon:YIELD_FOOD] +12 per turn for both Leaders in their Capitals. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_GINSING_AGREEMENT_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_FOOD] +4 ต่อเทิร์นในเมืองหลวงของคุณ[n]{1_initialName} ได้รับ [icon:YIELD_FOOD] +8 ต่อเทิร์นในเมืองหลวงของพวกเขา</Text>		<!-- [icon:YIELD_FOOD] +4 per turn in your Capital.[n]{1_initialName} receives [icon:YIELD_FOOD] +8 per turn in their Capital. --></Replace>
+			<Text>[icon:YIELD_FOOD] +4 ต่อเทิร์นในเมืองหลวงของคุณ[n]{1_initialName} ได้รับ [icon:YIELD_FOOD] +8 ต่อเทิร์นในเมืองหลวงของพวกเขา</Text>		<!-- [icon:YIELD_FOOD] +4 per turn in your Capital.[n]{1_initialName} receives [icon:YIELD_FOOD] +8 per turn in their Capital. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FRIEND_OF_WA_INITIAL" Language="th_TH">
 			<Text>ทำให้พันธมิตรเป็น เพื่อนของเหวย[n]ยอมรับ: ผู้นำทั้งสองได้รับ +25%[icon:YIELD_SCIENCE] วิทยาศาสตร์,</Text>		<!-- Make an ally into a Friend of Wei.[n]Accepted: Both Leaders receive +25%[icon:YIELD_SCIENCE] Science. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FRIEND_OF_WA" Language="th_TH">
-			<Text>ทำให้พันธมิตรกลายเป็นเพื่อนของเหว่ย[n][icon:YIELD_SCIENCE] +25% สำหรับทั้งสองผู้นำ</Text>		<!-- Make an ally into a Friend of Wei.[n] [icon:YIELD_SCIENCE] +25% received by both Leaders. -->
+			<Text>ทำให้พันธมิตรกลายเป็นเพื่อนของเหว่ย[n]ยอมรับ: ทั้งสองผู้นำได้รับ +25% [icon:YIELD_SCIENCE] วิทยาศาสตร์</Text>		<!-- Make an ally into a Friend of Wei.[n]Accepted: Both Leaders receive +25%[icon:YIELD_SCIENCE] Science. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FRIEND_OF_WA_ACCEPT" Language="th_TH">
 			<Text>[icon:YIELD_SCIENCE] +25%[n]{1_initialName} ได้รับ [icon:YIELD_SCIENCE] +25%</Text>		<!-- [icon:YIELD_SCIENCE] +25%.[n]{1_initialName} receives [icon:YIELD_SCIENCE] +25%. -->
@@ -7074,7 +7110,7 @@
 			<Text>อัล-มักดิสซี</Text>		<!-- Al-Maqdisi -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_ALIM_AL_MAQDISI_DESCRIPTION" Language="th_TH">
-			<Text>เปิดใช้งานในอารยธรรมอื่น รับ 50[icon:YIELD_GOLD] ทอง สำหรับทรัพยากรแต่ละชนิดที่ตั้งถิ่นฐานนี้มี (ในความเร็วมาตรฐาน)</Text>		<!-- Activate in another Civilization. Receive 50[icon:YIELD_GOLD] Gold for every Resource this Settlement has. (On Standard Speed) -->
+			<Text>เปิดใช้งานในอารยธรรมอื่น รับ 50[icon:YIELD_GOLD] ทอง สำหรับ ช่องพัฒนาทรัพยากร แต่ละชนิดที่ตั้งถิ่นฐานนี้มี (ในความเร็วมาตรฐาน)</Text>		<!-- Activate in another Civilization. Receive 50[icon:YIELD_GOLD] Gold for every Improved Resource tile this Settlement has. (On Standard Speed) -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_ALIM_AL_FARGHANI_NAME" Language="th_TH">
 			<Text>อัล-ฟาร์กานี</Text>		<!-- Al-Farghani -->
@@ -7134,7 +7170,7 @@
 			<Text>ฮวน ปอนเซ เดอ เลออน</Text>		<!-- Juan Ponce de León -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_CONQUISTADOR_JUAN_PONCE_DE_LEON_DESCRIPTION" Language="th_TH">
-			<Text>เปิดใช้งานในดินแดนที่ห่างไกลบนช่องน้ำใดๆ มีการเคลื่อนที่เพิ่มขึ้น 1 สำหรับ เรือบรรทุกสมบัติ</Text>		<!-- Activate in Distant Lands on any Water tile. +1 movement for Treasure Fleets. -->
+			<Text>เปิดใช้งานในดินแดนที่ห่างไกลบนช่องน้ำใดๆ มีการเคลื่อนที่เพิ่มขึ้น 1 สำหรับ ขบวนบรรทุกสมบัติ</Text>		<!-- Activate in Distant Lands on any Water tile. +1 movement for Treasure Convoys. -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_CONQUISTADOR_CHRISTOPHER_COLUMBUS_NAME" Language="th_TH">
 			<Text>คริสโตเฟอร์ โคลัมบัส</Text>		<!-- Christopher Columbus -->
@@ -7821,7 +7857,7 @@
 			<Text>ไรช์สไครเซอ</Text>		<!-- Reichskreise -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_EXPLORATION_1_DESCRIPTION" Language="th_TH">
-			<Text>อนุญาตให้สร้างการ เขตพัฒนาพิเศษ คัสบาห์, คัสบาห์ให้ +1[icon:YIELD_CULTURE] วัฒนธรรม,[icon:YIELD_GOLD] ทอง,[icon:YIELD_SCIENCE] และวิทยาศาสตร์, +3 พลังต่อสู้ ให้กับยูนิตในแผ่นดินนี้ ต้องวางในทะเลทราย</Text>		<!-- Allows the construction of the Kasbah Unique Improvement. The Kasbah provides +1[icon:YIELD_CULTURE] Culture,[icon:YIELD_GOLD] Gold,[icon:YIELD_SCIENCE] and Science. +3 Combat Strength to Units in this tile. Must be placed in Desert. -->
+			<Text>อนุญาตให้สร้างการ เขตพัฒนาพิเศษ คัสบาห์, คัสบาห์ให้ +1[icon:YIELD_CULTURE] วัฒนธรรม,[icon:YIELD_GOLD] ทอง และ [icon:YIELD_SCIENCE] วิทยาศาสตร์, +3 พลังต่อสู้ ให้กับยูนิตในแผ่นดินนี้ ต้องวางในทะเลทราย</Text>		<!-- Allows the construction of the Kasbah Unique Improvement. The Kasbah provides +1[icon:YIELD_CULTURE] Culture,[icon:YIELD_GOLD] Gold, and [icon:YIELD_SCIENCE] Science. +3 Combat Strength to Units in this tile. Must be placed in Desert. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_EXPLORATION_2_DESCRIPTION" Language="th_TH">
 			<Text>ผู้บัญชาการในดินแดนห่างไกลได้รับประสบการณ์เป็นสองเท่า</Text>		<!-- Commanders in Distant Lands earn double experience. -->
@@ -7881,34 +7917,34 @@
 			<Text>เมื่อคุณเป็นเจ้านครของรัฐเมือง รับเทคโนโลยีฟรี รวมถึงเมืองนี้ด้วย</Text>		<!-- Receive a free Technology when you become Suzerain of a City-State, including this one. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_ABBASID" Language="th_TH">
-			<Text>รวมกันด้วยศาสนาใหม่แห่งอิสลาม อาหรับคาลิฟะห์ ในยุคแรกได้ขยายตัวอย่างรวดเร็วไปทั่วทะเลเมดิเตอร์เรเนียน และไปทางตะวันออกเข้าสู่เปอร์เซีย ในโลกนี้ แบกแดด เมืองหลวงของ อับบาซิด เจริญรุ่งเรืองเป็นศูนย์กลางการเรียนรู้ และวัฒนธรรม นักวิชาการอาหรับได้พัฒนาวิชาดาราศาสตร์ และคณิตศาสตร์ ปรัชญาและศิลปะ จนกระทั่งเหมือนกับความมืดของคืน ข้าศึกมองโกลปรากฏขึ้นที่ขอบฟ้าทางตะวันออก</Text>		<!-- Unified by the new religion of Islam, the early Arab caliphates expanded rapidly across the Mediterranean and eastward into Persia. In this world, Baghdad, the capital of the Abbasid dynasty,  thrived as a center of learning and culture. Arab scholars advanced astronomy and mathematics, philosophy and art until, like the fall of night, the Mongols appeared on the eastern horizon. -->
+			<Text>ราชวงศ์อับบาซิด ซึ่งเป็นราชวงศ์คาลิฟะอาหรับใหญ่แห่งแรก คือหัวใจแห่งปัญญา เมื่อความรู้ทั้งจากโลกและสวรรค์ไหลเข้าสู่หอสมุดอับบาซิด นักวิชาการอับบาซิดดำเนินชีวิตด้วยหลักศรัทธา และความมุ่งมั่นขยายขอบเขตแห่งวิทยาศาสตร์และการค้า จงแสวงหา อ่าน และค้นพบ—โลกทั้งใบเป็นของเจ้าแล้ว</Text>		<!-- The first of the great Arab caliphates, the Abbasid Dynasty is the heart of wisdom. As the knowledge of the world and the heavens flows inwards to Abbasid libraries, Abbasid scholars are guided by the tenets of their faith, and their devotion to expanding the frontiers of science and commerce. Seek, read, discover - the world is yours. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_CHOLA" Language="th_TH">
-			<Text>การค้าข้ามมหาสมุทรอินเดีย โจฬะดูแลเครือข่ายของพ่อค้า และเรือสินค้าขนาดใหญ่ที่นำหนังสือ และประเพณีของอินเดียพร้อมกับเครื่องเทศ ไอวอรี ไม้ดำ และสินค้าที่ค้าขายอื่นๆ การปกครองของพวกเขาขยายไปถึงรัฐที่เป็นลูกในพม่า และซูมาตราในบางครั้ง แต่ภัยคุกคามมาจากบ้านเกิด เนื่องจากอาณาจักรใกล้เคียงทำให้พวกเขาถูกลืมเลือน</Text>		<!-- Cornering trade across the Indian Ocean, the Chola oversaw a vast network of merchants and naval vessels that brought Indic texts and traditions along with spices, ivory, ebony, and other trade goods. Their dominion extended at times to vassals in Burma and Sumatra. But danger came from home, as neighboring kingdoms drove them into obscurity. -->
+			<Text>ราชวงศ์ทมิฬที่ยิ่งใหญ่ที่สุด เจ้านายโชลาปกครองท้องทะเล อิทธิพลของพวกเขาขยายออกไปไกล ผ่านเครือข่ายพ่อค้าค้าขาย ไปยังกวีและนักปรัชญาแห่งโลกสันสกฤต และศิลปินรวมถึงนักวิชาการ ทุกคนต่างพยายามจับภาพความฝันของโลกที่เปลี่ยนแปลงอยู่เสมอในช่วงเวลาหนึ่ง จงขยายอำนาจของเจ้า — แม้ว่าทะเลจะเปลี่ยนแปลงไม่หยุดนิ่ง แต่จงทิ้งร่องรอยของเจ้าไว้ให้จงได้</Text>		<!-- The greatest of the Tamil dynasties, the Chola lords rule the seas. Their touch extends outward, across networks of merchant houses, to the poets and philosophers of the Sanskrit world, and to artists and scholars. Each seek to capture the dreams of the fleeting world, for a time. Extend your grasp - though the seas are ever-changing, make your mark. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_HAWAII" Language="th_TH">
-			<Text>ด้วยเรือแคนูสองห้องและใบเรือที่มีลักษณะคล้ายกรรเชียงปู ชาวโพลีเนเซียนได้เดินทางข้ามความกว้างใหญ่ของมหาสมุทรแปซิฟิก ฮาวายซึ่งตั้งรกรากประมาณปี คศ 1000 เป็นกลุ่มอาณาจักรที่มีการแข่งขันกันในช่วงแรกจนอาณาจักรคาเมฮาเมฮาเกิดขึ้นในปี คศ 1795 แต่เพียงไม่นานหลังจากนั้น มิชชันนารีชาวยุโรปและอเมริกัน ผู้ตั้งถิ่นฐาน และเกษตรกรได้บุกเข้าไปในฮาวายจนทำให้อาณาจักรล่มสลายจากการรัฐประหาร</Text>		<!-- With their double-hulled canoes and crab-clawed sails, Polynesian settlers reached across the vastness of the Pacific. Hawai’i, settled around 1000 CE, was at first a series of rival kingdoms until the advent of Kamehameha in 1795. But just a short while later, European and American missionaries, settlers, and planters invaded Hawai’i until the kingdom fell to a coup. -->
+			<Text>สุดยอดนักเดินเรือแห่งโลก ชาวฮาวายออกเดินทางเมื่อใครอื่นล้มเหลว ด้วยพระพรจากคาฮูนา พวกเขากล้าหาญฝ่ามหาสมุทรกว้างใหญ่ เพื่อค้นหาดินแดนใหม่ที่จะปลูกเผือก สมบัติใหม่ที่จะเก็บสะสม และมรดกใหม่ที่จะสร้างขึ้น แตรหอยสังข์เป่าดังลั่น ลมพัดมาเป็นใจ — ถึงเวลาที่จะพายพุ่งน้ำแล้ว</Text>		<!-- The world’s greatest sailors, the Hawaiians venture forth when all others fail. With the blessing of their kahuna, they brave the blue expanse in search of new lands to sow with taro, new treasures to collect, and new legacies to forge. The conch is blowing, the wind is right - it is time for the oar to bite water. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_INCA" Language="th_TH">
-			<Text>ทวานตินซูยุ “อาณาจักรในสี่ส่วน” ถูกปกครองโดยชาวอินคาและขยายไปทั่วเทือกเขาแอนดีส สร้างถนนและสถานที่พักผ่อน พื้นที่เกษตรแบบขั้นบันไดและเหมืองเงิน - อาณาจักรในท้องฟ้า ใต้การปกครองของชาวอินคามีการรวบรวมที่หลากหลายของประชากร ภาษา และวัฒนธรรม แต่ไม่มีการเขียนหรือตราเงิน อย่างไรก็ตาม อาณาจักรนี้มีจุดจบอย่างกะทันหันเมื่อมีการมาถึงของชาวสเปนและโรคฝีดาษ</Text>		<!-- Tawantinsuyu, “the empire in four parts,” was ruled by the Inca, and extended across the Andes mountains, building roads and waystations, terraced fields and silver mines - an empire in the sky. Under the Inca was a diverse collection of subjects, languages, and cultures, but no writing or coinage. Yet the empire came to a crashing end upon the arrival of the Spanish, and smallpox. -->
+			<Text>บนยอดเขาหินสูงตระหง่าน อินคาสร้างอาณาจักรที่คนอื่นน้อยคนนักกล้าก้าวเข้าสู่ ด้วยการนำทางจากการบินของแร้งคอนดอร์และรอยเท้าของพุม่า พวกเขาวางเส้นทางเชื่อมต่อยอดเขาต่าง ๆ สร้างป้อมปราการกลางภูเขา จากที่สูงเหล่านี้ จงตัดสินใจว่าจะส่งความมั่งคั่งและปัญญาลงมา หรือจะส่งฝนกระสุนหินจากเครื่องยิงหนังสติ๊ก</Text>		<!-- In the stony heights, the Inca create an empire where few others dare to tread. Guided by the condor’s flight and the puma’s track, they chart connections from peak to peak, building fortresses in the mountains. From these heights, decide whether to send down prosperity and wisdom - or a hail of sling stones. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_MAJAPAHIT" Language="th_TH">
-			<Text>อาณาจักรฮินดูใหญ่สุดท้ายของอินโดนีเซียเกิดขึ้นจากการทรยศที่ไม่คาดคิดของกองเรือของกุบไลข่าน ซึ่งเปิดทางให้กับมัจาปาหิต ที่พิชิตและควบคุมหมู่เกาะเครื่องเทศในช่วงเริ่มต้นของยุคโลกาภิวัตน์ แต่หลังจากการโดดเด่นมานานสามร้อยปี ลมเริ่มเปลี่ยนทิศทาง เครือข่ายการค้าของมุสลิมทำให้อาณาจักรมัจาปาหิตถูกลดทอนลง บังคับให้พวกเขาย้ายไปยังเกาะบาหลี ซึ่งมรดกของพวกเขายังคงอยู่ที่นั่น</Text>		<!-- The last great Hindu kingdom of Indonesia arose with the surprise betrayal of Kublai Khan’s navy, paving the way for the Majapahit, who conquered and controlled the spice islands at the dawn of the global era. But after three hundred years of dominance, the winds began to change. Muslim trade networks sidelined the Majapahit state, forcing them to the island of Bali, where their legacy remains. -->
+			<Text>ชาวมาจาปาหิตแล่นเรือผ่านหมู่เกาะนับพัน นำเรื่องราวของวีรบุรุษและเทพเจ้าไปด้วย เมื่อพระอาทิตย์ลับขอบฟ้า เหล่าลูกเรือผู้เหนื่อยล้ารวมตัวฟังเสียงกามาเล็ง และชมการแสดงเรื่องเล่าของพวกเขาผ่านเงาบนผืนผ้าห่มไหม กวีมาจาปาหิตกล่าวว่า ความงามคือสิ่งศักดิ์สิทธิ์ และสิ่งศักดิ์สิทธิ์คืออำนาจ</Text>		<!-- The Majapahit sail between a thousand islands, bringing with them their tales of heroes and gods. As the sun sets, weary sailors gather to hear the gamelan, and see their tales performed in shadow on the silken screen. Beauty is divine, claim the Majapahit poets, and divinity is power. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_MING" Language="th_TH">
-			<Text>หลังจากหลุดพ้นจากเงาของราชวงศ์หยวนที่มองโกลปกครอง ราชวงศ์หมิงหันกลับมาเน้นฟื้นฟูวัฒนธรรมฮั่นและเสริมสร้างโครงสร้างพื้นฐานและเศรษฐกิจของจีน กำแพงเมืองจีนถูกขยายและปรับปรุง ระบบบรรณาการถูกนำมาใช้เป็นกลไกป้องกันและควบคุมดินแดน ขณะที่สินค้าหมิงกลายเป็นที่ต้องการมากที่สุดในตลาดโลก แต่เมื่อแหล่งเงินเงินล่มสลาย กองทัพหมิงที่ไม่ได้รับค่าจ้างก็ลุกฮือก่อกบฏ นำไปสู่การขึ้นสู่อำนาจของราชวงศ์ชิงที่มองโกลครองอำนาจ</Text>		<!-- Emerging from the shadow of Mongol-dominated Yuan, the Ming turned inward, revitalizing Han traditions and fortifying Chinese infrastructure and economy. The Great Wall was expanded and improved, a tributary system of defense and dependency was installed, and Ming goods became the most desired commodities in the global market. But when silver sources collapsed, unpaid Ming armies rebelled, leading to the rise of the Manchu-dominated Qing. -->
+			<Text>ราชวงศ์หมิง ที่หมายถึง “ความสว่างไสว” “งดงาม” หรือ “เปล่งประกาย” เปล่งรัศมีอยู่กลางใจโลก สังคมอันกว้างใหญ่ที่ประกอบด้วยนักปราชญ์ ข้าราชการ ชาวนา และกษัตริย์ ราชวงศ์หมิงมุ่งเน้นความเจริญสู่ภายใน นำสิ่งที่ทรงคุณค่าทั้งปวงมาสู่ศูนย์กลาง เสริมความงามให้เข้มข้น และส่งประกายออกไปดุจดั่งดวงอาทิตย์ จงรับภาระแห่งราชวงศ์หมิงไว้ และเปล่งประกายเถิด</Text>		<!-- Meaning “the bright,” “beautiful,” or “shining,” the Ming Dynasty radiates at the heart of the world. A vast society, with scholars and bureaucrats, farmers and kings, the Ming concentrates its focus inward, bringing all that is worth having to the center, intensifying its beauty and radiating it outward like the sun. Take up the mantle of the Ming, and shine. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_MONGOLIA" Language="th_TH">
-			<Text>ในทุ่งหญ้าแห่งมองโกเลีย เทมูจิน – ผู้ที่จะกลายเป็นข่านเจงกีส – ได้รวมเผ่าที่ขัดแย้งกันและนำพวกเขาออกไปสู่โลกที่รู้จัก มองโกเลียไม่ได้ใช้เพียงแต่ธนูที่มีชื่อเสียงเท่านั้น แต่ยังเริ่มใช้ดินปืนในสนามรบอีกด้วย ภายในอาณาจักรนั้นเป็นรัฐที่อดทน อนุญาตให้มีเสรีภาพในการนับถือศาสนา ถนนที่ปลอดภัย และระบบหนังสือเดินทาง แต่เมื่อข่านผู้ยิ่งใหญ่สิ้นชีวิต ฝูงมองโกลก็แยกออกไป</Text>		<!-- In the steppe of Mongolia, Temüjin – who would become Genghis Khan – united feuding clans and led them across the known world. The Mongols used not only their famed archers, but also debuted gunpowder on the battlefield. Internally, the empire was a tolerant state, permitting freedom of religion, safe roads, and a passport system. But with the great Khan’s passing, the Mongol horde splintered. -->
+			<Text>ชื่อเสียงที่ถูกกระซิบในฝันร้ายของดินแดนผู้ตั้งถิ่นฐาน มองโกลยืนหยัดพร้อมทำลายโลก — และสร้างมันขึ้นใหม่ในภาพลักษณ์ใหม่ ด้วยเสียงคำรามของปืนใหญ่และเสียงเท้าบุกของม้า ฝูงทัพมาถึง นำพวกเขา และหว่านความพินาศให้แก่ศัตรูของเจ้า</Text>		<!-- A name whispered in the nightmares of the settled lands, the Mongols stand poised to shatter the world – and remake it in a new image. With the thunder of bombards and roll of hooves, the hordes come. Lead them, and sow destruction among your enemies. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_NORMAN" Language="th_TH">
-			<Text>จากชายฝั่งที่ห่างไกล นอร์มันได้แล่นเรือพร้อมกับความคิดที่จะพิชิต เดิมมาจากสแกนดิเนเวีย พวกเขาอยู่ในภาคเหนือของฝรั่งเศสอย่างไม่สงบเกือบหนึ่งศตวรรษก่อนที่จะยึดอังกฤษในปี ค.ศ. 1066 พวกเขานำวัฒนธรรมศาล สายภาษาฝรั่งเศส และอาวุธสงครามมา อัศวินขี่ม้าจากปราสาทหิน เพื่อติดตามค่านิยมของอัศวิน นอร์มันไม่เคยหายไปจริงๆ แต่รวมตัวกับประชากรท้องถิ่น สร้างเป็นสิ่งผสมผสานที่เราเรียกว่า “ภาษาอังกฤษ” ในปัจจุบัน</Text>		<!-- From distant shores, the Normans sailed with conquest on their minds. Originally from Scandinavia, they sat unquietly in northern France for just over a century before seizing England in 1066. They brought court culture, French language, and weapons of war. Knights rode out from stone castles, pursuing the values of chivalry. The Normans never truly disappeared, but merged with local populations, creating the amalgam we call “English” today. -->
+			<Text>ผู้พิชิตผู้ไม่หยุดนิ่ง ชาวนอร์มันออกตามหาดินแดนใหม่ และด้วยปราสาทหินอันยิ่งใหญ่ พวกเขายึดครองทุกที่ที่ได้มา สังคมของชาวนอร์มันประกอบด้วยอัศวินผู้มีเกียรติและจริยธรรมแห่งอัศวิน อัศวินขี่ม้าและป้อมปราการ พวกเขามอบการปกป้อง—ภายใต้ดาบ จงยืนหยัดและรับการถวายสัตย์จากอัศวินของเจ้า—บ่วงนอร์มันครอบคลุมแผ่นดินแล้ว</Text>		<!-- Restless conquerors, the Normans seek out new lands, and, with their mighty stone castles, they hold what they take. Norman society is made of courtly knights and chivalry, chevalers and keeps. It offers protection – under the sword. Stand and receive the fealty of your knights - the Norman yoke is upon the land. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_SONGHAI" Language="th_TH">
-			<Text>เมื่ออาณาจักรมัลลิอ่อนกำลังลง บรรดาขุนนางซองไฮได้ลุกขึ้นมาสร้างหนึ่งในรัฐที่ใหญ่ที่สุดในแอฟริกา ซองไฮได้ฟื้นฟูอิสลามในภูมิภาคนี้ ปรับปรุงชุมชนการศึกษาใน ทิมบักตู และควบคุมการค้าข้ามทะเลทรายซาฮารา แต่วันเวลาของอาณาจักรกำลังน้อยลงเมื่อชาวโมร็อกโกบุกเข้ามา พร้อมด้วยปืนดินปืนและมองหาช่องทางใหม่เพื่อความเจริญรุ่งเรืองของตนเอง</Text>		<!-- As the Empire of Mali faltered, their Songhai vassals rose up to form one of the largest states in Africa. Songhai revitalized Islam in the region, renewed the academic community in Timbuktu, and controlled the trans-Saharan trade. But the empire’s days were numbered when the Moroccans invaded, armed with gunpowder and seeking new routes for their own prosperity. -->
+			<Text>ผู้เป็นเจ้าแห่งแม่น้ำและทะเลทราย ชาวซงไฮออกผจญภัยเข้าสู่แผ่นดิน ด้วยบทเพลงของกรีโอทที่ปลุกเร้าใจ และแรงผลักดันจากทั้งความทะเยอทะยานและศรัทธา พวกเขาแสวงหาความมั่งคั่งของโลก จงร่วมขี่เคียงข้างพวกเขา ไม่ว่าขับเคลื่อนด้วยความทะเยอทะยานหรือความดีงาม และยึดครองสิ่งที่เจ้าได้มาไว้เถิด</Text>		<!-- Masters of the rivers and desert alike, the Songhai venture forth into the land. Stirred by the songs of the griot, and driven by their passion for profit and God alike, they seek out the riches of the world. Ride now with them, whether driven on by ambition or virtue, and lay claim to what you can. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_SPAIN" Language="th_TH">
-			<Text>ในบรรดาอำนาจอาณานิคมแรกของยุโรป สเปนเป็นจักรวรรดิที่ใหญ่ที่สุดและมีอิทธิพลมากที่สุดอย่างไม่ต้องสงสัย อิเบรียถูกแบ่งแยกระหว่างเอมิเรตมุสลิมและอาณาจักรคริสเตียน แต่หลังจากการรวมตัวของกัสติลและอารากอน และการเสร็จสิ้นการฟื้นฟู ขึ้น สเปนได้ครอบงำเวทีโลกในนามของพระเจ้าและความมั่งคั่ง จักรวรรดิเริ่มมีปัญหาเมื่อความทะเยอทะยานถูกท้าทายในทวีป และอาณานิคมที่ห่างไกลได้แสวงหาชะตากรรมของตนเอง</Text>		<!-- Among early European colonial powers, Spain was by far the largest and most influential empire. Iberia had been divided between Muslim emirates and Christian kingdoms, but following the unification of Castile and Aragon, and the completion of the Reconquista, Spain dominated the global stage in the name of God, and wealth. The empire faltered as its ambitions were challenged on the continent, and its far-flung colonies sought their own destinies. -->
+			<Text>ฟองน้ำขาวกระจายเมื่อกะลาสีแล่นเรือออกเดินทาง และสเปนผงาดขึ้นบนเวทีโลก ขณะที่นักพิชิตเฝ้าจ้องขอบฟ้า แววประกายปรากฏในดวงตา พวกเขาแล่นเรือเพื่อยึดครองโลก—เพื่อเกียรติยศ เพื่อพระเจ้า… หรือเพื่อทองคำ</Text>		<!-- The white foam gathers as the galleons set forth, and Spain emerges on the world. As conquistadors set their gaze upon the horizon, a glint arises in their eyes - they sail to claim the world – for glory, for God… or for gold. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_INTRO_ABBASID" Language="th_TH">
 			<Text>บาฮามุต คำรามและสั่นสะเทือนแผ่นหินจาซินธ์ของ คูยุตะ, อับบาสิด จะทำให้ดุลยภาพของโลกกลับเข้าสู่สมดุลใหม่</Text>		<!-- Bahamut rumbles and sways the jacinth slab of Kuyutha. The Abbasids' weight will realign the balance of the world. -->
@@ -7947,22 +7983,22 @@
 			<Text>ในฐานะ อามีนา ในยุคสำรวจ, ให้ทำภารกิจโดยใช้อยู่เหล็กและเหล็กกล้า</Text>		<!-- As Amina in Exploration, complete a quest wielding iron and steel. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AMINA_QUEST_B_EXPLORATION_NAME" Language="th_TH">
-			<Text>ไม่มีเวลาพอที่จะหยุด</Text>		<!-- No Time to Stop -->
+			<Text>สมบัติแห่งมหาสมุทร</Text>		<!-- Oceanic Riches -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AMINA_QUEST_B_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ อามีนา ในยุคสำรวจ, จงทำภารกิจเพื่อเปลี่ยนแผ่นดินให้เป็นทอง</Text>		<!-- As Amina in Exploration, complete a quest to turn the land to gold. -->
+			<Text>ในฐานะ อามีนา ในยุคสำรวจ, จงทำภารกิจเพื่อเปลี่ยนแผ่นดินให้เป็นทอง</Text>		<!-- As Amina in Exploration, complete a quest to import gold from afar. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ASHOKA_QUEST_A_EXPLORATION_NAME" Language="th_TH">
 			<Text>นารายณ์</Text>		<!-- Narayan -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ASHOKA_QUEST_A_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ อโศกมหาราช ผู้ละทางโลก ในยุคสำรวจ, จงทำภารกิจเพื่อเสริมพลังแก่วัดในแผ่นดินนี้</Text>		<!-- As Ashoka World-Renouncer in Exploration, complete a quest to empower the monks of the land. -->
+			<Text>ในฐานะ อโศกมหาราช ผู้ละทางโลก ในยุคสำรวจ, จงทำภารกิจเพื่อพัฒนาสถานที่ศักดิ์สิทธิ์</Text>		<!-- As Ashoka World-Renouncer in Exploration, complete a quest to develop holy sites. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ASHOKA_QUEST_B_EXPLORATION_NAME" Language="th_TH">
-			<Text>พระเกียรติยศอันศักดิ์สิทธิ์</Text>		<!-- Divine Glory -->
+			<Text>พระโพธิสัตว์</Text>		<!-- Bodhisattva -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ASHOKA_QUEST_B_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ อโศกมหาราช ผู้ละทางโลก ในยุคสำรวจ, ให้ทำภารกิจเพื่อก้าวขึ้นเหนือพระภิกษุในดินแดนนี้</Text>		<!-- As Ashoka World-Renouncer in Exploration, complete a quest to rise above the monks of the land. -->
+			<Text>ในฐานะ อโศกมหาราช ผู้ละทางโลก ในยุคสำรวจ, ให้ทำภารกิจเพื่อสร้างสถานที่ศึกษาศาสนา</Text>		<!-- As Ashoka World-Renouncer in Exploration, complete a quest to build a haven for study. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AUGUSTUS_QUEST_A_EXPLORATION_NAME" Language="th_TH">
 			<Text>โครงสร้างของอำนาจ</Text>		<!-- Structures of Power -->
@@ -7977,28 +8013,28 @@
 			<Text>ในฐานะ ออกัสตัส ในยุคสำรวจ, ให้ทำภารกิจเพื่อสร้างแรงบันดาลใจให้กับความจงรักภักดีในทหาร</Text>		<!-- As Augustus in Exploration, complete a quest to inspire loyalty in soldiers. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BENJAMIN_FRANKLIN_QUEST_A_EXPLORATION_NAME" Language="th_TH">
-			<Text>ทำงานจนดึกดื่น</Text>		<!-- Burning the Midnight Oil -->
+			<Text>การแข่งขันที่ดุเดือด</Text>		<!-- Fierce Competition -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BENJAMIN_FRANKLIN_QUEST_A_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ เบนจามิน แฟรงคลิน ในยุคสำรวจ, ทำภารกิจเพื่อทำงานร่วมกับนักวิชาการ</Text>		<!-- As Benjamin Franklin in Exploration, complete a quest to work alongside the academics. -->
+			<Text>ในฐานะ เบนจามิน แฟรงคลิน ในยุคสำรวจ, ทำภารกิจเพื่อจัดบรรยายทางวิทยาศาสตร์</Text>		<!-- As Benjamin Franklin in Exploration, complete a quest to host scientific lectures. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BENJAMIN_FRANKLIN_QUEST_B_EXPLORATION_NAME" Language="th_TH">
-			<Text>เพื่อนดื่ม</Text>		<!-- Drinking Buddies -->
+			<Text>นักการทูตนานาชาติ</Text>		<!-- International Diplomat -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BENJAMIN_FRANKLIN_QUEST_B_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ เบนจามิน แฟรงคลิน ในยุคสำรวจ, ทำภารกิจเพื่อสนทนากับนักการทูต</Text>		<!-- As Benjamin Franklin in Exploration, complete a quest to converse with diplomats. -->
+			<Text>ในฐานะ เบนจามิน แฟรงคลิน ในยุคสำรวจ, ทำภารกิจเพื่อดำเนินการทูตในต่างประเทศ</Text>		<!-- As Benjamin Franklin in Exploration, complete a quest to conduct diplomacy overseas. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CATHERINE_QUEST_A_EXPLORATION_NAME" Language="th_TH">
-			<Text>เฟอร์มินและมิงค์</Text>		<!-- Ermine and Mink -->
+			<Text>ยุคแห่งความรู้แจ้ง</Text>		<!-- Enlightenment -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CATHERINE_QUEST_A_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ แคทเธอรีน ในยุคสำรวจ, ให้ทำภารกิจเพื่อจัดเตรียมกองทัพด้วยขนสัตว์</Text>		<!-- As Catherine in Exploration, complete a quest to outfit armies with furs. -->
+			<Text>ในฐานะ แคทเธอรีน ในยุคสำรวจ, ให้ทำภารกิจเพื่อจัดการศึกษา</Text>		<!-- As Catherine in Exploration, complete a quest to organize education. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CATHERINE_QUEST_B_EXPLORATION_NAME" Language="th_TH">
-			<Text>ทองและอำพัน</Text>		<!-- Gold and Amber -->
+			<Text>ออร์โธดอกซ์</Text>		<!-- Orthodoxy -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CATHERINE_QUEST_B_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ แคทเธอรีน ในยุคสำรวจ, ทำภารกิจเพื่อให้ได้มาซึ่งความเป็นอมตะผ่านชื่อเสียง</Text>		<!-- As Catherine in Exploration, complete a quest to gain immortality through fame. -->
+			<Text>ในฐานะ แคทเธอรีน ในยุคสำรวจ, ทำภารกิจเพื่อส่งมิชชันนารีไปต่างประเทศ</Text>		<!-- As Catherine in Exploration, complete a quest to send missionaries abroad. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CHARLEMAGNE_QUEST_A_EXPLORATION_NAME" Language="th_TH">
 			<Text>ความเชี่ยวชาญในคลื่น</Text>		<!-- Mastery of the Waves -->
@@ -8013,160 +8049,160 @@
 			<Text>ในฐานะ ชาร์เลอมาญ ในยุคสำรวจ, ทำภารกิจให้เสร็จเพื่อเป็นเจ้าภาพเลี้ยงอาหารที่เป็นตำนาน</Text>		<!-- As Charlemagne in Exploration, complete a quest to become a legendary banquet host. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CONFUCIUS_QUEST_A_EXPLORATION_NAME" Language="th_TH">
-			<Text>รากฐานของการตัดสินใจ</Text>		<!-- The Roots of Decisions -->
+			<Text>นักเดินทาง</Text>		<!-- The Wanderers -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CONFUCIUS_QUEST_A_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ ขงจื๊อ ในยุคสำรวจ, จงทำภารกิจให้สำเร็จเพื่อตั้งมาตรฐานทางศีลธรรม</Text>		<!-- As Confucius in Exploration, complete a quest to set the standards of morality. -->
+			<Text>ในฐานะ ขงจื๊อ ในยุคสำรวจ, จงทำภารกิจให้สำเร็จเพื่อพาผู้คนข้ามมหาสมุทร</Text>		<!-- As Confucius in Exploration, complete a quest to lead the people across the ocean. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CONFUCIUS_QUEST_B_EXPLORATION_NAME" Language="th_TH">
-			<Text>เมืองแห่งแสง</Text>		<!-- Cities of Light -->
+			<Text>ระเบียบโลก</Text>		<!-- World Order -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CONFUCIUS_QUEST_B_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ ขงจื๊อ ในยุคสำรวจ, ให้ทำภารกิจเพื่อสร้างแรงบันดาลใจในการออกแบบสถาปัตยกรรมอันยอดเยี่ยม</Text>		<!-- As Confucius in Exploration, complete a quest to inspire architectural genius. -->
+			<Text>ในฐานะ ขงจื๊อ ในยุคสำรวจ, ให้ทำภารกิจเพื่อไตร่ตรองระเบียบศักดิ์สิทธิ์</Text>		<!-- As Confucius in Exploration, complete a quest to contemplate the divine order. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_FRIEDRICH_QUEST_A_EXPLORATION_NAME" Language="th_TH">
-			<Text>ตื่นขึ้นและส่องสว่าง</Text>		<!-- Rise and Shine -->
+			<Text>วิธีการสงคราม</Text>		<!-- Methods of Warfare -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_FRIEDRICH_QUEST_A_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ ฟรีดริช, โอบลิค,  ในยุคสำรวจ, ทำภารกิจให้สำเร็จเพื่อต่อยอดรสชาติ</Text>		<!-- As Friedrich, Oblique, in Exploration, complete a quest to refine taste. -->
+			<Text>ในฐานะ ฟรีดริช, โอบลิค,  ในยุคสำรวจ, ทำภารกิจให้สำเร็จเพื่อฝึกฝนยุทธวิธีและตรรกะ</Text>		<!-- As Friedrich, Oblique, in Exploration, complete a quest to practice tactics and logic. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_FRIEDRICH_QUEST_B_EXPLORATION_NAME" Language="th_TH">
-			<Text>การทูตเชิงของเหลว</Text>		<!-- Liquid Diplomacy -->
+			<Text>กษัตริย์กวี</Text>		<!-- The Poet King -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_FRIEDRICH_QUEST_B_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ ฟรีดริช, โอบลีค, ในยุคสำรวจ, ทำภารกิจเพื่อสร้างพันธมิตรในขณะที่มีเครื่องดื่ม</Text>		<!-- As Friedrich, Oblique, in Exploration, complete a quest to foster allies over drinks. -->
+			<Text>ในฐานะ ฟรีดริช, โอบลีค, ในยุคสำรวจ, ทำภารกิจเพื่อแสดงมหรสพ</Text>		<!-- As Friedrich, Oblique, in Exploration, complete a quest to manifest a spectacle. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HARRIET_TUBMAN_QUEST_A_EXPLORATION_NAME" Language="th_TH">
-			<Text>ถนนสายยาวข้างหน้า</Text>		<!-- The Long Road Ahead -->
+			<Text>คำทำนายและแผนการ</Text>		<!-- Prophecy and Plans -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HARRIET_TUBMAN_QUEST_A_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ แฮเรียต ทับแมน ในยุคสำรวจ, ทำภารกิจเพื่อจัดหาสิ่งของให้แก่ผู้ส่งสาร</Text>		<!-- As Harriet Tubman in Exploration, complete a quest to supply the emissaries. -->
+			<Text>ในฐานะ แฮเรียต ทับแมน ในยุคสำรวจ, ทำภารกิจเพื่อปกป้องผู้ศรัทธา</Text>		<!-- As Harriet Tubman in Exploration, complete a quest to keep the faithful safe. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HARRIET_TUBMAN_QUEST_B_EXPLORATION_NAME" Language="th_TH">
-			<Text>คลังสินค้า</Text>		<!-- Stockpiles -->
+			<Text>ไฟในสายเลือด</Text>		<!-- Fire in the Blood -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HARRIET_TUBMAN_QUEST_B_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ แฮเรียต ทับแมน ในยุคสำรวจ, ให้ทำภารกิจเพื่อจัดเก็บกระสุน</Text>		<!-- As Harriet Tubman in Exploration, complete a quest to garrison ammunition. -->
+			<Text>ในฐานะ แฮเรียต ทับแมน ในยุคสำรวจ, ให้ทำภารกิจเพื่อควบคุมความโกรธของทหาร</Text>		<!-- As Harriet Tubman in Exploration, complete a quest to harness the soldiers' fury. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HATSHEPSUT_QUEST_A_EXPLORATION_NAME" Language="th_TH">
-			<Text>ของขวัญจากฮอรัส</Text>		<!-- The Gifts of Horus -->
+			<Text>ข้ามทะเลรัตติกาล</Text>		<!-- Across the Sea of Night -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HATSHEPSUT_QUEST_A_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ แฮตเชปซุต ในยุคสำรวจ, ให้ทำภารกิจเพื่อรวมสินค้าจากทั่วโลกในตลาด</Text>		<!-- As Hatshepsut in Exploration, complete a quest to converge the goods of the world on the market. -->
+			<Text>ในฐานะ แฮตเชปซุต ในยุคสำรวจ, ให้ทำภารกิจเพื่อค้นหาความมั่งคั่งทั่วโลก</Text>		<!-- As Hatshepsut in Exploration, complete a quest to scour the world for riches. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HATSHEPSUT_QUEST_B_EXPLORATION_NAME" Language="th_TH">
-			<Text>หินของเบส</Text>		<!-- The Stones of Bes -->
+			<Text>ความเป็นอมตะ</Text>		<!-- Immortality -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HATSHEPSUT_QUEST_B_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ แฮตเชปซุต ในยุคสำรวจ, ทำภารกิจเพื่อจัดหาอุปกรณ์แก่ช่างประติมากรรมอนุสาวรีย์</Text>		<!-- As Hatshepsut in Exploration, complete a quest to supply the monument artisans. -->
+			<Text>ในฐานะ แฮตเชปซุต ในยุคสำรวจ, ทำภารกิจเพื่อเผยแพร่คำสอนของนักบวช</Text>		<!-- As Hatshepsut in Exploration, complete a quest to spread the words of the high priests. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HIMIKO_QUEST_A_EXPLORATION_NAME" Language="th_TH">
-			<Text>เคกาวะ</Text>		<!-- Kegawa -->
+			<Text>เทพคามิ</Text>		<!-- The Kami -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HIMIKO_QUEST_A_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ ฮิมิโกะ ราชินีแห่งแคว้นวะ  ในยุคสำรวจ จงทำภารกิจเพื่อเคารพธรรมชาติ</Text>		<!-- As Himiko, Queen of Wa, in Exploration, complete a quest to revere nature. -->
+			<Text>ในฐานะ ฮิมิโกะ ราชินีแห่งแคว้นวะ  ในยุคสำรวจ จงทำภารกิจเพื่อเข้าถึงชาวชนบท</Text>		<!-- As Himiko, Queen of Wa, in Exploration, complete a quest to reach out to the rural folk. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HIMIKO_QUEST_B_EXPLORATION_NAME" Language="th_TH">
-			<Text>ฮิสึย</Text>		<!-- Hisui -->
+			<Text>ความมั่งคั่งศักดิ์สิทธิ์</Text>		<!-- Divine Prosperity -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HIMIKO_QUEST_B_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ ฮิมิโกะ ราชินีแห่งแคว้นวะ  ในยุคสำรวจ จงทำภารกิจให้สำเร็จเพื่อเต็มไปด้วยความเปล่งประกายของอัญมณี</Text>		<!-- As Himiko, Queen of Wa, in Exploration, complete a quest to outshine gems. -->
+			<Text>ในฐานะ ฮิมิโกะ ราชินีแห่งแคว้นวะ  ในยุคสำรวจ จงทำภารกิจเพื่อประดับสถานที่ศักดิ์สิทธิ์</Text>		<!-- As Himiko, Queen of Wa, in Exploration, complete a quest to decorate sacred spaces. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_IBN_BATTUTA_QUEST_A_EXPLORATION_NAME" Language="th_TH">
-			<Text>การเดินทางทางจิตวิญญาณ</Text>		<!-- The Spiritual Journey -->
+			<Text>ทางแยก</Text>		<!-- Crossroads -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_IBN_BATTUTA_QUEST_A_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ อิบน์ บัตตูตา ในยุคสำรวจ, จงทำภารกิจเพื่อสรรเสริญสิ่งศักดิ์สิทธิ์</Text>		<!-- As Ibn Battuta in Exploration, complete a quest to praise the divine. -->
+			<Text>ในฐานะ อิบน์ บัตตูตา ในยุคสำรวจ, จงทำภารกิจเพื่อข้ามขอบแผนที่</Text>		<!-- As Ibn Battuta in Exploration, complete a quest to cross the edge of the map. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_IBN_BATTUTA_QUEST_B_EXPLORATION_NAME" Language="th_TH">
-			<Text>การสนทนายามเย็น</Text>		<!-- Evening Conversation -->
+			<Text>จุดหมายปลายทาง</Text>		<!-- Destinations -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_IBN_BATTUTA_QUEST_B_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ อิบน์ บัตตูตา ในยุคสำรวจ, ทำภารกิจให้สำเร็จเพื่อตูกรวมความเชื่อมั่นและความสงสัยให้เป็นหนึ่งเดียวกัน</Text>		<!-- As Ibn Battuta in Exploration, complete a quest to unite the faithful and the skeptical. -->
+			<Text>ในฐานะ อิบน์ บัตตูตา ในยุคสำรวจ, ทำภารกิจให้สำเร็จเพื่อดึงดูดพ่อค้าและนักท่องเที่ยว</Text>		<!-- As Ibn Battuta in Exploration, complete a quest to attract traders and tourists. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ISABELLA_QUEST_A_EXPLORATION_NAME" Language="th_TH">
-			<Text>ความอุดมสมบูรณ์ของทะเล</Text>		<!-- The Sea's Bounty -->
+			<Text>จุดยืนแรก</Text>		<!-- The First Foothold -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ISABELLA_QUEST_A_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ อิซาเบลล่า ในยุคสำรวจ, ให้ทำภารกิจเพื่อเก็บสะสมรางวัลจากท้องทะเล</Text>		<!-- As Isabella in Exploration, complete a quest to collect the bounty of the sea. -->
+			<Text>ในฐานะ อิซาเบลล่า ในยุคสำรวจ, ให้ทำภารกิจเพื่อแสวงหาชายฝั่งที่ห่างไกล</Text>		<!-- As Isabella in Exploration, complete a quest to seek far-off shores. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ISABELLA_QUEST_B_EXPLORATION_NAME" Language="th_TH">
-			<Text>ต้นทุนของสงคราม</Text>		<!-- Costs of War -->
+			<Text>ผู้ศรัทธา</Text>		<!-- The Believers -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ISABELLA_QUEST_B_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ อิซาเบลล่า ในยุคสำรวจ, จงทำภารกิจให้สำเร็จเพื่อทำกำไรจากชัยชนะ</Text>		<!-- As Isabella in Exploration, complete a quest to profit from victory. -->
+			<Text>ในฐานะ อิซาเบลล่า ในยุคสำรวจ, จงทำภารกิจให้สำเร็จเพื่อสนับสนุนคณะนักบวชใหม่</Text>		<!-- As Isabella in Exploration, complete a quest to support a new order of priests. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_JOSE_RIZAL_QUEST_A_EXPLORATION_NAME" Language="th_TH">
-			<Text>จินตนาการของประชาชน</Text>		<!-- The People's Imagination -->
+			<Text>นักรักหนังสือ</Text>		<!-- The Bibliophile -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_JOSE_RIZAL_QUEST_A_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ในยุคสำรวจ, ทำภารกิจเพื่อดึงแรงบันดาลใจจากผู้คน</Text>		<!-- As José Rizal in Exploration, complete a quest to draw inspiration from the people. -->
+			<Text>ในฐานะ โฮเซ รีซัล ในยุคสำรวจ, ทำภารกิจเพื่อเติมเต็มความอยากรู้อยากเห็นทางวิชาการ</Text>		<!-- As José Rizal in Exploration, complete a quest to satisfy scholastic curiosity. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_JOSE_RIZAL_QUEST_B_EXPLORATION_NAME" Language="th_TH">
-			<Text>หมู่เกาะเครื่องเทศ</Text>		<!-- The Spice Islands -->
+			<Text>ดาวคงที่</Text>		<!-- The Fixed Star -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_JOSE_RIZAL_QUEST_B_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ในยุคสำรวจ, ทำภารกิจเพื่อดึงแรงบันดาลใจจากท่าเรือ</Text>		<!-- As José Rizal in Exploration, complete a quest to draw inspiration from the docks. -->
+			<Text>ในฐานะ โฮเซ รีซัล ในยุคสำรวจ, ทำภารกิจเพื่อเดินตามดาวไปยังดินแดนใหม่</Text>		<!-- As José Rizal in Exploration, complete a quest to follow a star to new lands. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAFAYETTE_QUEST_A_EXPLORATION_NAME" Language="th_TH">
-			<Text>ประตูแห่งเสรีภาพ</Text>		<!-- Doorways of Liberty -->
+			<Text>ชีวิตคือศิลปะ</Text>		<!-- Life as Art -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAFAYETTE_QUEST_A_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ ลาฟาแยต ในยุคสำรวจ, ทำภารกิจหนึ่งเพื่อสะท้อนถึงความโกลาหล</Text>		<!-- As Lafayette in Exploration, complete a quest to reflect on chaos. -->
+			<Text>ในฐานะ ลาฟาแยต ในยุคสำรวจ, ทำภารกิจเพื่อรับฟังช่างฝีมือ</Text>		<!-- As Lafayette in Exploration, complete a quest to hear out the artisans. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAFAYETTE_QUEST_B_EXPLORATION_NAME" Language="th_TH">
-			<Text>ท่อของทหาร</Text>		<!-- A Soldier's Pipe -->
+			<Text>พระเจ้าและเหตุผล</Text>		<!-- The Divine and the Rational -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAFAYETTE_QUEST_B_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ ลาฟาแยต ในยุคสำรวจ, ทำภารกิจเพื่อมอบความสะดวกสบายของบ้านให้กับกองทัพ</Text>		<!-- As Lafayette in Exploration, complete a quest to provide armies with the comforts of home. -->
+			<Text>ในฐานะ ลาฟาแยต ในยุคสำรวจ, ทำภารกิจเพื่อจุดประกายการแลกเปลี่ยนความรู้</Text>		<!-- As Lafayette in Exploration, complete a quest to spark an exchange of knowledge. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_MACHIAVELLI_QUEST_A_EXPLORATION_NAME" Language="th_TH">
-			<Text>สมดุลที่ละเอียดอ่อน</Text>		<!-- A Delicate Balance -->
+			<Text>เปิดพรมแดน</Text>		<!-- Open Borders -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_MACHIAVELLI_QUEST_A_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ มาเคียเวลลี ในยุคสำรวจ, จงทำภารกิจให้สำเร็จเพื่อใช้ดาบเหนือปากกา</Text>		<!-- As Machiavelli in Exploration, complete a quest to use the sword over the pen. -->
+			<Text>ในฐานะ มาเคียเวลลี ในยุคสำรวจ, จงทำภารกิจให้สำเร็จเพื่อเข้าไปในดินแดนเพื่อนบ้าน</Text>		<!-- As Machiavelli in Exploration, complete a quest to indulge in neighboring lands. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_MACHIAVELLI_QUEST_B_EXPLORATION_NAME" Language="th_TH">
-			<Text>คลื่นทอง</Text>		<!-- Waves of Gold -->
+			<Text>ไฟแห่งวัยเยาว์</Text>		<!-- The Fires of Youth -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_MACHIAVELLI_QUEST_B_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ มาเคียเวลลี ในยุคสำรวจ, จงทำภารกิจให้สำเร็จเพื่อชิงความมั่งคั่งจากทะเล</Text>		<!-- As Machiavelli in Exploration, complete a quest to harness the wealth of the seas. -->
+			<Text>ในฐานะ มาเคียเวลลี ในยุคสำรวจ, จงทำภารกิจให้สำเร็จเพื่อส่งเยาวชนที่ขี้เกียจไปต่างประเทศ</Text>		<!-- As Machiavelli in Exploration, complete a quest to send indolent youths abroad. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_PACHACUTI_QUEST_A_EXPLORATION_NAME" Language="th_TH">
-			<Text>เหงื่อของพระอาทิตย์</Text>		<!-- Sweat of the Sun -->
+			<Text>ข่าวลือเรื่องความมั่งคั่ง</Text>		<!-- Rumors of Riches -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_PACHACUTI_QUEST_A_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ ปาชาคูติ ในยุคสำรวจ, ทำภารกิจเพื่อประดับพระราชวังด้วยทองคำ</Text>		<!-- As Pachacuti in Exploration, complete a quest to bedeck the palace in gold. -->
+			<Text>ในฐานะ ปาชาคูติ ในยุคสำรวจ, ทำภารกิจเพื่อส่งขบวนคาราวานอันงดงามออกไป</Text>		<!-- As Pachacuti in Exploration, complete a quest to send out magnificent caravans. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_PACHACUTI_QUEST_B_EXPLORATION_NAME" Language="th_TH">
-			<Text>จักรวรรดิที่ไม่มีที่สิ้นสุด</Text>		<!-- The Endless Empire -->
+			<Text>บทสวดศักดิ์สิทธิ์</Text>		<!-- Sacred Hymns -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_PACHACUTI_QUEST_B_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ ปาชาคูติ ในยุคสำรวจ, ทำภารกิจเพื่อกระตุ้นความตื่นเต้นให้กับผู้คน</Text>		<!-- As Pachacuti in Exploration, complete a quest to excite the people. -->
+			<Text>ในฐานะ ปาชาคูติ ในยุคสำรวจ, ทำภารกิจเพื่อท้าทายความลังเลทางจิตวิญญาณ</Text>		<!-- As Pachacuti in Exploration, complete a quest to challenge spiritual reluctance. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_TRUNG_TRAC_QUEST_A_EXPLORATION_NAME" Language="th_TH">
-			<Text>พระบรมราชเทริน</Text>		<!-- The Royal Mounts -->
+			<Text>ศัตรูรุกคืบ</Text>		<!-- The Enemy Advances -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_TRUNG_TRAC_QUEST_A_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ จึง จั๊ก ในยุคสำรวจ, ให้ทำภารกิจดูแลช้างขี่</Text>		<!-- As Trung Trac in Exploration, complete a quest to tend to the elephant mounts. -->
+			<Text>ในฐานะ จึง จั๊ก ในยุคสำรวจ, ทำภารกิจเพื่อแผ่ขยายความเดือดดาลไปทั่วผืนแผ่นดิน</Text>		<!-- As Trung Trac in Exploration, complete a quest to rage across the land. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_TRUNG_TRAC_QUEST_B_EXPLORATION_NAME" Language="th_TH">
-			<Text>แม่น้ำแห่งความรู้</Text>		<!-- The River of Knowledge -->
+			<Text>ประชาชนหนึ่งเดียว</Text>		<!-- A Single People -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_TRUNG_TRAC_QUEST_B_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ จึง จั๊ก ในยุคสำรวจ, ให้ทำภารกิจร่วมกับนักวิชาการ</Text>		<!-- As Trung Trac in Exploration, complete a quest to work with scholars. -->
+			<Text>ในฐานะ จึง จั๊ก ในยุคสำรวจ, ให้ทำภารกิจเพื่อขยายเมืองและชุมชน</Text>		<!-- As Trung Trac in Exploration, complete a quest to grow settlements and communities. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_XERXES_QUEST_A_EXPLORATION_NAME" Language="th_TH">
-			<Text>สถาปนิกที่มีความกระตือรือร้น</Text>		<!-- Zealous Architects -->
+			<Text>กฎแห่งราชสำนัก</Text>		<!-- Rules of the Court -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_XERXES_QUEST_A_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ เซิร์กเซส พระราชาคณะ  ในยุคสำรวจ ให้ทำภารกิจตกแต่งพระราชวังใหม่</Text>		<!-- As Xerxes, King of Kings, in Exploration, complete a quest to restyle the palace. -->
+			<Text>ในฐานะ เซิร์กเซส, กษัตริย์แห่งกษัตริย์ ในยุคสำรวจ ให้ทำภารกิจตกแต่งพระราชวังใหม่</Text>		<!-- As Xerxes, King of Kings, in Exploration, complete a quest to send a brazen youth abroad. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_XERXES_QUEST_B_EXPLORATION_NAME" Language="th_TH">
-			<Text>การแพร่กระจายไฟ</Text>		<!-- Spreading Fire -->
+			<Text>ไฟแห่งสงคราม</Text>		<!-- Flames of War -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_XERXES_QUEST_B_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ เซิร์กเซส ราชาที่สุดในบรรดาราชา  ในยุคสำรวจ ทำภารกิจให้เสร็จสิ้นเพื่อติดต่อไฟพระราชา</Text>		<!-- As Xerxes, King of Kings, in Exploration, complete a quest to tend the royal flame. -->
+			<Text>ในฐานะ เซิร์กเซส, กษัตริย์แห่งกษัตริย์ ในยุคสำรวจ ทำภารกิจให้เสร็จสิ้นเพื่อติดต่อไฟพระราชา</Text>		<!-- As Xerxes, King of Kings, in Exploration, complete a quest to cleanse the land with fire. -->
 		</Replace>
 		<Replace Tag="LOC_EC001A_STORYTITLE" Language="th_TH">
 			<Text>ชนชั้นกลาง</Text>		<!-- The Bourgeoisie -->
@@ -9626,7 +9662,7 @@
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_1106D_NAME" Language="th_TH">
-			<Text>เพื่อเผยแพร่บทกวีของโลกสันสกฤต</Text>		<!-- To spread the poetry of the Sanskrit world. -->
+			<Text>เสียงของพวกเขาบอกเล่าเรื่องราวแห่งความรุ่งโรจน์ของมาจาปาหิต</Text>		<!-- Their voices tell of the glory that is Majapahit. -->
 		</Replace>
 		<Replace Tag="LOC_1106D_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
@@ -9736,7 +9772,7 @@
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_1112D_NAME" Language="th_TH">
-			<Text>เราสามารถนำขนบธรรมเนียมท้องถิ่นมาผนวกเข้ากับวิสัยทัศน์ของเราเองได้</Text>		<!-- We can take local custom and incorporate it into our own vision. -->
+			<Text>นำธรรมเนียมท้องถิ่นมาบูรณาการเข้ากับวิสัยทัศน์ที่ยิ่งใหญ่กว่า</Text>		<!-- Take local customs and incorporate them into a greater vision. -->
 		</Replace>
 		<Replace Tag="LOC_1112D_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward} บน ถิ่นฐานของคุณ ที่นับถือศาสนาของคุณ</Text>		<!-- {1_reward} on your Settlements following your Religion. -->
@@ -11151,7 +11187,7 @@
 			<Text>ปิด</Text>		<!-- Close. -->
 		</Replace>
 		<Replace Tag="LOC_219B_DESCRIPTION" Language="th_TH">
-			<Text>เรื่องราวยังคงดำเนินต่อไป..</Text>		<!-- Story continues. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward} -->
 		</Replace>
 		<Replace Tag="LOC_236A_STORYTITLE" Language="th_TH">
 			<Text>การเดินทางสักการะในยามสงคราม</Text>		<!-- A Wartime Pilgrimage -->
@@ -12280,16 +12316,16 @@
 			<Text>ชีวิตของชุมชนกัมปง</Text>		<!-- Lives of the Kampong -->
 		</Replace>
 		<Replace Tag="LOC_1474B_COMPLETION" Language="th_TH">
-			<Text>เมืองมัชปาหิตเติบโตและหนาแน่นขึ้นเมื่อชาวชนบทอพยพเข้ามาแออัดกับชาวเมืองที่อาศัยอยู่มาหลายรุ่น ผู้ย้ายถิ่นฐานใหม่นำอะไรบางอย่างติดตัวมาด้วย..</Text>		<!-- Majapahit cities grow close and dense, as rural migrants crowd with generations-old city-dwellers. The new migrants bring something with them, though... -->
+			<Text>เมืองมาจาปาหิตเติบโตหนาแน่น เมื่อชาวชนบทอพยพเข้ามาแออัดกับชาวเมืองรุ่นก่อนหน้า แต่ผู้อพยพใหม่นำพาสิ่งมีค่ามามากมาย</Text>		<!-- Majapahit cities grow close and dense, as rural migrants crowd with generations-old city-dwellers. The new migrants bring much of value, however. -->
 		</Replace>
 		<Replace Tag="LOC_1474C_NAME" Language="th_TH">
-			<Text>วิถีชีวิตของผู้คน</Text>		<!-- Their trade. -->
+			<Text>เรียนรู้จากการซื้อขายของเขา</Text>		<!-- Learn from their trade. -->
 		</Replace>
 		<Replace Tag="LOC_1474C_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_1474D_NAME" Language="th_TH">
-			<Text>วิถีพื้นบ้านของพวกเขา</Text>		<!-- Their folk ways. -->
+			<Text>รับเอาประเพณีของพวกเขา</Text>		<!-- Adopt their local traditions. -->
 		</Replace>
 		<Replace Tag="LOC_1474D_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
@@ -12499,10 +12535,10 @@
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1006B_COMPLETION" Language="th_TH">
-			<Text>ประชาชนของ อามินา ไปยังท่าเรือเพื่อดูการมาถึงของ เรือบรรทุกสมบัติ โดยความมั่งคั่งเหล่านี้ เคยเป็นสิ่งที่อยู่เหนือจินตนาการของพวกเขา แต่ตอนนี้จะกลายเป็นเรื่องปกติ ในชีวิตประจำวัน</Text>		<!-- Amina's people flock to the harbor to watch the treasure fleet arrive. Such riches, once beyond their imaginations, will now become commonplace. -->
+			<Text>ประชาชนของ อามินา ไปยังท่าเรือเพื่อดูการมาถึงของ ขบวนบรรทุกสมบัติ โดยความมั่งคั่งเหล่านี้ เคยเป็นสิ่งที่อยู่เหนือจินตนาการของพวกเขา แต่ตอนนี้จะกลายเป็นเรื่องปกติ ในชีวิตประจำวัน</Text>		<!-- Amina's people flock to watch the treasure convoy arrive. Such riches, once beyond their imaginations, will now become commonplace. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1006B_IMPERATIVE" Language="th_TH">
-			<Text>นำกลับมาซึ่ง เรือบรรทุกสมบัติ</Text>		<!-- Return a Treasure Fleet. -->
+			<Text>ปล่อยขบวนบรรทุกสมบัติ</Text>		<!-- Unload a Treasure Convoy. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1006C_STORYTITLE" Language="th_TH">
 			<Text>สมบัติแห่งมหาสมุทร</Text>		<!-- Oceanic Riches -->
@@ -13162,7 +13198,7 @@
 			<Text>ความงามของงานเลี้ยงในสมัยของพระเจ้า ชาร์เลอมาญ นั้นมีชื่อเสียงไปทั่วไม่เพียงแต่ในเรื่องอาหารที่หรูหรา แต่ยังรวมถึงความงดงามของบรรยากาศรอบข้างอีกด้วย</Text>		<!-- The magnificence of Charlemagne's feasts are legendary, not only for the finery of the food, but the beauty of the surroundings. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1057B_IMPERATIVE" Language="th_TH">
-			<Text>มีแต้ม 3 คะแนนในเส้นทางมรดก การตรัสรู้</Text>		<!-- Have 3 Points in the Enlightenment Legacy Path. -->
+			<Text>มี 3 เขตที่ไม่ใช่เขตใจกลางเมือง ที่มีผลผลิต 40 หน่วยในแต่ละแห่ง</Text>		<!-- Have 3 Districts that are not the City Center with 40 total Yield each. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1063A_STORYTITLE" Language="th_TH">
 			<Text>เข็มทิศทางศีลธรรม</Text>		<!-- Moral Compass -->
@@ -13288,7 +13324,7 @@
 			<Text>เมืองของ ขงจื้อ ดูงดงามน่าหลงใหล แต่ที่สำคัญกว่าคือ พวกมันเป็นเครื่องจักรแห่งการเรียนรู้ การผลิต และนวัตกรรม</Text>		<!-- The cities of Confucius are wondrous to look at. But even more than a feast for the eyes, they are machines for learning, production, and innovation. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1067B_IMPERATIVE" Language="th_TH">
-			<Text>มี 4 คะแนนในเส้นทางมรดก การตรัสรู้</Text>		<!-- Have 4 Points in the Enlightenment Legacy Path. -->
+			<Text>มี 3 เขตที่ไม่ใช่เขตใจกลางเมือง ที่มีผลผลิต 40 หน่วยในแต่ละแห่ง</Text>		<!-- Have 4 Districts that are not the City Center with 40 total Yield each. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1073A_STORYTITLE" Language="th_TH">
 			<Text>เพลงสำหรับยุคใหม่</Text>		<!-- A Song for a New Era -->
@@ -14443,10 +14479,10 @@
 			<Text>{1_reward} ใน ถิ่นฐานทั้งหมด</Text>		<!-- {1_reward} in all Settlements. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1157B_COMPLETION" Language="th_TH">
-			<Text>การมาถึงของ กองเรือบรรทุกสมบัติ ทำให้ประชาชนของ มาเคียเวลลี ตกตะลึง และกระตุ้นความอิจฉาให้แก่ศัตรูของเขา นี่คือราคาของอำนาจ</Text>		<!-- The treasure fleet's arrival astonishes Machiavelli's citizens and inspires the envy of his enemies. Such is the price of power. -->
+			<Text>การมาถึงของ ขบวนบรรทุกสมบัติ ทำให้ประชาชนของ มาเคียเวลลี ตกตะลึง และกระตุ้นความอิจฉาให้แก่ศัตรูของเขา นี่คือราคาของอำนาจ</Text>		<!-- The treasure convoy's arrival astonishes Machiavelli's citizens and inspires the envy of his enemies. Such is the price of power. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1157B_IMPERATIVE" Language="th_TH">
-			<Text>นำ กองเรือบรรทุกสมบัติ กลับมา</Text>		<!-- Return a Treasure Fleet. -->
+			<Text>ปล่อยขบวนบรรทุกสมบัติ</Text>		<!-- Unload a Treasure Convoy. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1163A_STORYTITLE" Language="th_TH">
 			<Text>เส้นทางไม่มีที่สิ้นสุด</Text>		<!-- Endless Paths -->
@@ -14668,7 +14704,7 @@
 			<Text>เมืองของจึง จั๊กไม่เคยเงียบสงบ เสียงเคาะฆ้อนและเสียงโยกของเลื่อยดังก้องในทุกถนน ขณะที่อาคารที่งดงามงอกเงยเหมือนต้นไม้ในป่า</Text>		<!-- Trung Trac's cities are never quiet. The clink of hammers and the creak of saws echo in every street as magnificent buildings grow like trees in a forest. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1176B_IMPERATIVE" Language="th_TH">
-			<Text>มีแต้ม 3 คะแนนในเส้นทางมรดก การตรัสรู้</Text>		<!-- Have 3 Points in the Enlightenment Legacy Path. -->
+			<Text>มี 3 เขตที่ไม่ใช่เขตใจกลางเมือง ที่มีผลผลิต 40 หน่วยในแต่ละแห่ง</Text>		<!-- Have 3 Districts that are not the City Center with 40 total Yield each. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1176C_STORYTITLE" Language="th_TH">
 			<Text>ชนชาติเดียว</Text>		<!-- A Single People -->
@@ -14824,7 +14860,7 @@
 			<Text>น่านน้ำลึกไม่เพียงพอที่จะดับเปลวไฟของเซอร์ซีส หากพวกมันกล้าลอง เขาจะเฆี่ยนพวกมันให้ยอมทำตาม</Text>		<!-- The waters of the deep are not enough to quench the flames of Xerxes. If they dare try, he whips them into submission. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1187B_IMPERATIVE" Language="th_TH">
-			<Text>มี 8 คะแนนในเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว</Text>		<!-- Have 8 Points in the Non Sufficit Orbis Legacy Path. -->
+			<Text>ยึดครองถิ่นฐาน</Text>		<!-- Capture a Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_8021A_STORYTITLE" Language="th_TH">
 			<Text>เครื่องดื่มอื้อฉาว</Text>		<!-- Scandalous Brew -->
@@ -15348,16 +15384,16 @@
 			<Text>เรื่องราวยังคงดำเนินต่อไป..</Text>		<!-- Story continues. -->
 		</Replace>
 		<Replace Tag="LOC_7049A_COMPLETION" Language="th_TH">
-			<Text>เรือของมาเจลลันได้เห็นแผ่นดินในที่สุด พวกเขาเผชิญกับพายุ ความหิวโหย และโรคภัย พร้อมกับการก่อกบฏที่ทำให้พวกเขาหนักแน่นขึ้น ยังมีโลกทั้งใบที่รอให้พวกเขาเข้าไปสำรวจ แต่พวกเขาก็ต้องเผชิญกับการต่อต้านจากชาวท้องถิ่นไม่ขาดสาย</Text>		<!-- Magellan's fleet at last glimpses land. They had been ravaged by storms, plagued by hunger and disease and hardened by mutiny. There is an entire world before them to exploit, but no shortage of local opposition. -->
+			<Text>ขบวนของมาเจลลันได้เห็นแผ่นดินในที่สุด พวกเขาเผชิญกับพายุ ความหิวโหย และโรคภัย พร้อมกับการก่อกบฏที่ทำให้พวกเขาหนักแน่นขึ้น ยังมีโลกทั้งใบที่รอให้พวกเขาเข้าไปสำรวจ แต่พวกเขาก็ต้องเผชิญกับการต่อต้านจากชาวท้องถิ่นไม่ขาดสาย</Text>		<!-- Magellan's convoy at last glimpses land. They had been ravaged by storms, plagued by hunger and disease and hardened by mutiny. There is an entire world before them to exploit, but no shortage of local opposition. -->
 		</Replace>
 		<Replace Tag="LOC_7049A_IMPERATIVE" Language="th_TH">
-			<Text>ได้ 3 คะแนน จาก เรือบรรทุกสมบัติเดียว</Text>		<!-- Score 3 Treasure Fleet Points from a single Treasure Fleet. -->
+			<Text>ปล่อย ขบวนบรรทุกสมบัติ ที่มีค่า 3 แต้ม</Text>		<!-- Unload a Treasure Convoy worth 3 Treasure Fleet Points. -->
 		</Replace>
 		<Replace Tag="LOC_7049B_NAME" Language="th_TH">
 			<Text>จ่ายในสิ่งที่ความรุ่งโรจน์ต้องการ</Text>		<!-- Pay what glory costs. -->
 		</Replace>
 		<Replace Tag="LOC_7049B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} บน กองเรือบรรทุกสมบัติ แต่ {2_reward}</Text>		<!-- {1_reward} on Treasure Fleets but {2_reward}. -->
+			<Text>{1_reward} บน ขบวนบรรทุกสมบัติ แต่ {2_reward}</Text>		<!-- {1_reward} on Treasure Convoys but {2_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_7049C_NAME" Language="th_TH">
 			<Text>เรียนรู้จากชาวท้องถิ่น</Text>		<!-- Learn from the locals. -->
@@ -15468,7 +15504,7 @@
 			<Text>คริสโตเฟอร์ โคลัมบัสผู้ได้รับการแต่งตั้งเป็นอัศวินใหม่ ได้รับตราอาร์มซึ่งมีภาพปราสาทหลวงและสิงโตอยู่ เขาทำภารกิจแรกสำเร็จลุล่วง แต่ทุ่งหญ้าที่สุกงอมอยู่เบื้องหน้ากลับยังดึงดูดความคิดของเขา</Text>		<!-- The newly knighted Christopher Columbus receives the coat of arms, boasting the royal castle and lion. His first journey was a success, but the ripe fields beyond the horizon continue to beckon his thoughts. -->
 		</Replace>
 		<Replace Tag="LOC_7055A_IMPERATIVE" Language="th_TH">
-			<Text>ได้ 2 คะแนน จาก เรือบรรทุกสมบัติเดียว</Text>		<!-- Score 2 Treasure Fleet Points from a single Treasure Fleet. -->
+			<Text>ปล่อย ขบวนบรรทุกสมบัติ ที่มีค่า 2 แต้ม</Text>		<!-- Unload a Treasure Convoy worth 2 Treasure Fleet Points. -->
 		</Replace>
 		<Replace Tag="LOC_7055B_NAME" Language="th_TH">
 			<Text>จำเป็นต้องเดินหน้าต่อไปอีกครั้ง</Text>		<!-- Necessary to venture forth again. -->
@@ -15591,7 +15627,7 @@
 			<Text>จ่ายค่าใช้จ่าย</Text>		<!-- Pay the price. -->
 		</Replace>
 		<Replace Tag="LOC_7061B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} มีค่า 3 แต้ม แต่ {2_reward}</Text>		<!-- {1_reward} worth 3 Points but {2_reward}. -->
+			<Text>{1_reward} มีค่า 3 แต้ม แต่ {2_reward} บนทหารราบ</Text>		<!-- {1_reward} worth 3 Points but {2_reward} on Infantry. -->
 		</Replace>
 		<Replace Tag="LOC_7061C_NAME" Language="th_TH">
 			<Text>ตัดขาดทุน</Text>		<!-- Cut losses. -->
@@ -15675,7 +15711,7 @@
 			<Text>การต่อต้านของชาวบ้านแสดงให้เห็นว่าเป็นเพียงเรื่องเล็กน้อย, เลกัสปี ก้าวขึ้นมาเป็นผู้ว่าการของเขตปกครองใหม่ของสเปน, แต่ก็มีข่าวลือว่ามีกลุ่มกบฏที่ยังคงไม่สงบอยู่</Text>		<!-- The locals' resistance proves to be a trifle. Legazpi steps forward as governor of Spain's newest protectorate, but rumors insist that restless pockets of rebellion still stir. -->
 		</Replace>
 		<Replace Tag="LOC_7065A_IMPERATIVE" Language="th_TH">
-			<Text>ได้ 2 คะแนน จาก เรือบรรทุกสมบัติเดียว</Text>		<!-- Score 2 Treasure Fleet Points from a single Treasure Fleet. -->
+			<Text>ปล่อย ขบวนบรรทุกสมบัติ ที่มีค่า 2 แต้ม</Text>		<!-- Unload a Treasure Convoy worth 2 Treasure Fleet Points. -->
 		</Replace>
 		<Replace Tag="LOC_7065B_NAME" Language="th_TH">
 			<Text>การลงโทษอันชอบธรรมสำหรับผู้ไม่เชื่อฟัง</Text>		<!-- Holy justice for the unruly. -->
@@ -15921,10 +15957,10 @@
 			<Text>อาคารทั้งหมดได้รับ +1 [icon:YIELD_HAPPINESS] ความสุข จากการอยู่ติดกับวัด</Text>		<!-- All buildings receive a +1[icon:YIELD_HAPPINESS] Happiness adjacency with the Temple. -->
 		</Replace>
 		<Replace Tag="LOC_1471B_IMPERATIVE" Language="th_TH">
-			<Text>ตั้งถิ่นฐาน 3 แห่ง, -2 [icon:YIELD_HAPPINESS] ความสุข ในทุก ถิ่นฐาน ขณะที่ภารกิจดำเนินอยู่</Text>		<!-- Found 3 Settlements. -2 [icon:YIELD_HAPPINESS] Happiness in all Settlements while quest is active. -->
+			<Text>ตั้งถิ่นฐาน 3 แห่ง, -2 [icon:YIELD_HAPPINESS] ความสุข ในทุก ถิ่นฐาน ขณะที่ภารกิจดำเนินอยู่</Text>		<!-- Found 3 more Settlements. -2 [icon:YIELD_HAPPINESS] Happiness in all Settlements while quest is active. -->
 		</Replace>
 		<Replace Tag="LOC_1471B_IMPERATIVE" Language="th_TH">
-			<Text>ตั้งถิ่นฐาน 3 แห่ง, -2 [icon:YIELD_HAPPINESS] ความสุข ในทุก ถิ่นฐาน ขณะที่ภารกิจดำเนินอยู่</Text>		<!-- Found 3 Settlements. -2 [icon:YIELD_HAPPINESS] Happiness in all Settlements while quest is active. -->
+			<Text>ตั้งถิ่นฐาน 3 แห่ง, -2 [icon:YIELD_HAPPINESS] ความสุข ในทุก ถิ่นฐาน ขณะที่ภารกิจดำเนินอยู่</Text>		<!-- Found 3 more Settlements. -2 [icon:YIELD_HAPPINESS] Happiness in all Settlements while quest is active. -->
 		</Replace>
 		<Replace Tag="LOC_1471C_NAME" Language="th_TH">
 			<Text>อาจจะเป็นคำสาบานที่เร่งรีบเกินไป</Text>		<!-- Perhaps this vow was overhasty. -->
@@ -16086,41 +16122,49 @@
 			<Text>เมืองเหมืองแร่</Text>		<!-- Mining Town -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_GRANARY_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า ปลูกพืช และเรือประมง</Text>		<!-- +2[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. --></Replace>
+			<Text>+2[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า ปลูกพืช และเรือประมง</Text>		<!-- +2[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. -->
+		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_GRANARY_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า ปลูกพืช และเรือประมง</Text>		<!-- +2[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. --></Replace>
+			<Text>+2[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า ปลูกพืช และเรือประมง</Text>		<!-- +2[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. -->
+		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_FISHING_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้าเลี้ยงสัตว์ ไร่สวน และเรือประมง</Text>		<!-- +2[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. --></Replace>
+			<Text>+2[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้าเลี้ยงสัตว์ ไร่สวน และเรือประมง</Text>		<!-- +2[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. -->
+		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_FISHING_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้าเลี้ยงสัตว์ ไร่สวน และเรือประมง</Text>		<!-- +2[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. --></Replace>
+			<Text>+2[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้าเลี้ยงสัตว์ ไร่สวน และเรือประมง</Text>		<!-- +2[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. -->
+		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_PRODUCTION_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต บน ค่ายคนงาน, โรงตัดไม้, หลุมดิน, เหมืองแร่ และบ่อหิน</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production on Camps, Woodcutters, Clay Pits, Mines, and Quarries. --></Replace>
+			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต บน ค่ายคนงาน, โรงตัดไม้, หลุมดิน, เหมืองแร่ และบ่อหิน</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production on Camps, Woodcutters, Clay Pits, Mines, and Quarries. -->
+		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_PRODUCTION_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต บน ค่ายคนงาน, โรงตัดไม้, หลุมดิน, เหมืองแร่ และบ่อหิน</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production on Camps, Woodcutters, Clay Pits, Mines, and Quarries. --></Replace>
+			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต บน ค่ายคนงาน, โรงตัดไม้, หลุมดิน, เหมืองแร่ และบ่อหิน</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production on Camps, Woodcutters, Clay Pits, Mines, and Quarries. -->
+		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_TRADE_NAME" Language="th_TH">
 			<Text>สถานีการค้า</Text>		<!-- Trade Outpost -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_TRADE_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_HAPPINESS] ความสุข บนแต่ละแหล่งทรัพยากรในเมืองนี้ และระยะการค้าเพิ่มขึ้น 5 หน่วย</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness on each Resource tile in this Town and +5 Trade Route range. --></Replace>
+			<Text>+2[icon:YIELD_HAPPINESS] ความสุข บนแต่ละแหล่งทรัพยากรในเมืองนี้ และระยะการค้าเพิ่มขึ้น 5 หน่วย</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness on each Resource tile in this Town and +5 Trade Route range. -->
+		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_TRADE_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_HAPPINESS] ความสุข บนแต่ละแหล่งทรัพยากรในเมืองนี้ และระยะการค้าเพิ่มขึ้น 5 หน่วย</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness on each Resource tile in this Town and +5 Trade Route range. --></Replace>
+			<Text>+2[icon:YIELD_HAPPINESS] ความสุข บนแต่ละแหล่งทรัพยากรในเมืองนี้ และระยะการค้าเพิ่มขึ้น 5 หน่วย</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness on each Resource tile in this Town and +5 Trade Route range. -->
+		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_TEMPLE_NAME" Language="th_TH">
 			<Text>สถานที่ทางศาสนา</Text>		<!-- Religious Site -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_TEMPLE_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_HAPPINESS] ความสุข และ +1 ช่องเก็บโบราณวัตถุบนวัดในเมืองนี้</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness and +1 Relic Slot on Temples in this Town. -->
+			<Text>+1[icon:YIELD_HAPPINESS] ความสุข บนอาคารทั้งหมด และ +1 ช่องเก็บโบราณวัตถุบนวัดในเมืองนี้</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness on all buildings and +1 Relic Slot on Temples in this Town. -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_TEMPLE_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_HAPPINESS] ความสุข และ +1 ช่องเก็บโบราณวัตถุบนวัดในเมืองนี้</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness and +1 Relic Slot on Temples in this Town. -->
+			<Text>+1[icon:YIELD_HAPPINESS] ความสุข บนอาคารทั้งหมด และ +1 ช่องเก็บโบราณวัตถุบนวัดในเมืองนี้</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness on all buildings and +1 Relic Slot on Temples in this Town. -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_INN_NAME" Language="th_TH">
 			<Text>ฮับทาวน์</Text>		<!-- Hub Town -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_INN_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_DIPLOMACY] อิทธิพล ต่อถิ่นฐานที่เชื่อมต่อกับเมืองนี้</Text>		<!-- +2[icon:YIELD_DIPLOMACY] Influence per Settlement Connected to this Town. -->
+			<Text>+1[icon:YIELD_DIPLOMACY] อิทธิพล ต่อถิ่นฐานที่เชื่อมต่อกับเมืองนี้</Text>		<!-- +1[icon:YIELD_DIPLOMACY] Influence per Settlement Connected to this Town. -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_INN_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_DIPLOMACY] อิทธิพล ต่อถิ่นฐานที่เชื่อมต่อกับเมืองนี้</Text>		<!-- +2[icon:YIELD_DIPLOMACY] Influence per Settlement Connected to this Town. -->
+			<Text>+1[icon:YIELD_DIPLOMACY] อิทธิพล ต่อถิ่นฐานที่เชื่อมต่อกับเมืองนี้</Text>		<!-- +1[icon:YIELD_DIPLOMACY] Influence per Settlement Connected to this Town. -->
 		</Replace>
 		<Replace Tag="LOC_RELIGION_BUDDHISM_NAME" Language="th_TH">
 			<Text>พุทธศาสนา</Text>		<!-- Buddhism -->
@@ -16213,7 +16257,8 @@
 			<Text>ลัทธิอัครสาวก</Text>		<!-- Apostolism -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_MANGOS_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร, +3[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +3[icon:YIELD_FOOD] Food, +3[icon:YIELD_CULTURE] Culture --></Replace>
+			<Text>+3[icon:YIELD_FOOD] อาหาร, +3[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +3[icon:YIELD_FOOD] Food, +3[icon:YIELD_CULTURE] Culture -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_CLAY_TOOLTIP" Language="th_TH">
 			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต ในอาคารคลังสินค้า</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Warehouse Buildings -->
 		</Replace>
@@ -16221,20 +16266,26 @@
 			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์, +2[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +2[icon:YIELD_SCIENCE] Science, +2[icon:YIELD_CULTURE] Culture -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_RUBIES_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_GOLD] ทอง ในเมือง, เพิ่มเป็นสองเท่าใน ดินแดนบ้านเกิด</Text>		<!-- +1[icon:YIELD_GOLD] Gold in Towns, doubled in Homelands --></Replace>
+			<Text>+1[icon:YIELD_GOLD] ทอง ในเมือง, เพิ่มเป็นสองเท่าใน ดินแดนบ้านเกิด</Text>		<!-- +1[icon:YIELD_GOLD] Gold in Towns, doubled in Homelands -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_RICE_TOOLTIP" Language="th_TH">
-			<Text>+5%[icon:YIELD_FOOD] อาหาร ในถื่นฐาน, +10% ใน ดินแดนห่างไกล</Text>		<!-- +5%[icon:YIELD_FOOD] Food in Settlements, +10% in Distant Lands --></Replace>
+			<Text>+5%[icon:YIELD_FOOD] อาหาร ในถื่นฐาน, +10% ใน ดินแดนห่างไกล</Text>		<!-- +5%[icon:YIELD_FOOD] Food in Settlements, +10% in Distant Lands -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_LIMESTONE_TOOLTIP" Language="th_TH">
-			<Text>+10%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับอาคาร</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards Buildings --></Replace>
+			<Text>+10%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับอาคาร</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards Buildings -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_TIN_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต, +3[icon:YIELD_GOLD] ทอง</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production, +3[icon:YIELD_GOLD] Gold --></Replace>
+			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต, +3[icon:YIELD_GOLD] ทอง</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production, +3[icon:YIELD_GOLD] Gold -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_LLAMAS_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต, +5[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production, +5[icon:YIELD_HAPPINESS] Happiness --></Replace>
+			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต, +5[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production, +5[icon:YIELD_HAPPINESS] Happiness -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_HARDWOOD_TOOLTIP" Language="th_TH">
-			<Text>+20%[icon:YIELD_PRODUCTION] กำลังผลิต ต่อยูนิตพลเรือน</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards Civilian Units -->
+			<Text>+20%[icon:YIELD_PRODUCTION] กำลังผลิต ต่อยูนิตทางน้ำ</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards Naval units -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_WILD_GAME_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_FOOD] อาหาร ในเมืองใหญ่, +6[icon:YIELD_FOOD] อาหาร ในเมือง</Text>		<!-- +3[icon:YIELD_FOOD] Food in Cities, +6[icon:YIELD_FOOD] Food in Towns --></Replace>
+			<Text>+2[icon:YIELD_FOOD] อาหาร ในเมืองใหญ่, +6[icon:YIELD_FOOD] อาหาร ในเมือง</Text>		<!-- +3[icon:YIELD_FOOD] Food in Cities, +6[icon:YIELD_FOOD] Food in Towns -->
+		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_13_NAME" Language="th_TH">
 			<Text>อีแวนเจลิสม์</Text>		<!-- Evangelism -->
 		</Replace>
@@ -16314,61 +16365,61 @@
 			<Text>+10% [icon:YIELD_PRODUCTION] กำลังผลิต เพื่อฝึกฝนมิชชันนารีสำหรับทุก ศาสนวัตถุ</Text>		<!-- +10% [icon:YIELD_PRODUCTION] Production towards training Missionaries for every Relic. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_8_DESCRIPTION" Language="th_TH">
-			<Text>+1 ช่องใส่ศาสนวัตถุ ในวิหารในเมือง</Text>		<!-- +1 Relic Slot in Temples in Cities -->
+			<Text>+1 ช่องใส่ศาสนวัตถุ ในวิหารในเมือง</Text>		<!-- +1 Relic Slot in Temples in Cities. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_9_DESCRIPTION" Language="th_TH">
-			<Text>+2 ศาสนวัตถุ สำหรับเผยแพร่เข้า รัฐอิสระ ครั้งแรก</Text>		<!-- +2 Relics for first-time conversion of a City-State -->
+			<Text>+2 ศาสนวัตถุ สำหรับเผยแพร่เข้า รัฐอิสระ ครั้งแรก</Text>		<!-- +2 Relics for first-time conversion of a City-State. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_10_DESCRIPTION" Language="th_TH">
-			<Text>+2 ศาสนวัตถุ สำหรับเผยแพร่เข้า เมืองหลวง ของอารยธรรมอื่นครั้งแรก</Text>		<!-- +2 Relics for first-time conversion of another Civilization’s Capital city -->
+			<Text>+2 ศาสนวัตถุ สำหรับเผยแพร่เข้า เมืองหลวง ของอารยธรรมอื่นครั้งแรก</Text>		<!-- +2 Relics for first-time conversion of another Civilization’s Capital city. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_11_DESCRIPTION" Language="th_TH">
-			<Text>+1 ศาสนวัตถุ สำหรับเผยแพร่เข้า ถิ่นฐานอารยธรรมอื่นครั้งแรก ที่มีวิหารหรือแท่นบูชา</Text>		<!-- +1 Relic for first-time conversion of another Civilization’s settlement with a Temple or Altar -->
+			<Text>+1 ศาสนวัตถุ สำหรับเผยแพร่เข้า ถิ่นฐานอารยธรรมอื่นครั้งแรก ที่มีวิหารหรือแท่นบูชา</Text>		<!-- +1 Relic for first-time conversion of another Civilization’s settlement with a Temple or Altar. -->
 		</Replace>
 		<Replace Tag="LOC_CAN_CREATE_TREASURE_FLEET" Language="th_TH">
-			<Text>สร้างกองเรือสมบัติ หากพัฒนาในถิ่นฐานชายฝั่งใน ดินแดนห่างไกล</Text>		<!-- Creates Treasure Fleets if improved in Coastal Settlements in the Distant Lands. -->
+			<Text>สร้าง ขบวนบรรทุกสมบัติ หากพัฒนาในถิ่นฐานชายฝั่งใน ดินแดนห่างไกล</Text>		<!-- Creates Treasure Convoys if improved in the Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_12_DESCRIPTION" Language="th_TH">
-			<Text>+2 ศาสนวัตถุ สำหรับเผยแพร่เข้า ถิ่นฐานอารยธรรมอื่นครั้งแรก ที่มีสิ่งมหัศจรรย์จากทุกยุคสมัย</Text>		<!-- +2 Relics for first-time conversion of another Civilization's settlement with a Wonder from any Age -->
+			<Text>+2 ศาสนวัตถุ สำหรับเผยแพร่เข้า ถิ่นฐานอารยธรรมอื่นครั้งแรก ที่มีสิ่งมหัศจรรย์จากทุกยุคสมัย</Text>		<!-- +2 Relics for first-time conversion of another Civilization's settlement with a Wonder from any Age. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_13_DESCRIPTION" Language="th_TH">
-			<Text>+1 ศาสนวัตถุ สำหรับเผยแพร่เข้า ถิ่นฐานอารยธรรมอื่นในดินแดนห่างไกล ครั้งแรก ที่ไม่ใช่นครรัฐ</Text>		<!-- +1 Relic for first-time conversion of another Civilization's settlement in Distant Lands that is not a City-State -->
+			<Text>+1 ศาสนวัตถุ สำหรับเผยแพร่เข้า ถิ่นฐานอารยธรรมอื่นในดินแดนห่างไกล ครั้งแรก ที่ไม่ใช่นครรัฐ</Text>		<!-- +1 Relic for first-time conversion of another Civilization's settlement in Distant Lands that is not a City-State. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_14_DESCRIPTION" Language="th_TH">
-			<Text>+2 ศาสนวัตถุ สำหรับเผยแพร่เข้า ถิ่นฐานอารยธรรมอื่นที่ผลิต เรือบรรทุกสมบัติ</Text>		<!-- +2 Relics for first-time conversion of another Civilization's settlement producing Treasure Fleets -->
+			<Text>+2 ศาสนวัตถุ สำหรับเผยแพร่เข้า ถิ่นฐานอารยธรรมอื่นที่ผลิต ขบวนบรรทุกสมบัติ</Text>		<!-- +2 Relics for first-time conversion of another Civilization's settlement producing Treasure Convoys. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_15_DESCRIPTION" Language="th_TH">
-			<Text>+1 ศาสนวัตถุ สำหรับเผยแพร่เข้า ถิ่นฐานของอารยธรรมอื่นครั้งแรก ที่มีประชากรในชนบท อย่างน้อย 10 หน่วย</Text>		<!-- +1 Relic for the first time conversion of another Civilization's settlement with at least 10 Rural Population -->
+			<Text>+1 ศาสนวัตถุ สำหรับเผยแพร่เข้า ถิ่นฐานของอารยธรรมอื่นครั้งแรก ที่มีประชากรในชนบท อย่างน้อย 10 หน่วย</Text>		<!-- +1 Relic for the first time conversion of another Civilization's settlement with at least 10 Rural Population. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_16_DESCRIPTION" Language="th_TH">
-			<Text>+1 ศาสนวัตถุ สำหรับเผยแพร่เข้า ถิ่นฐานของอารยธรรมอื่นครั้งแรก ที่มีประชากรในเมือง อย่างน้อย 10 หน่วย</Text>		<!-- +1 Relic for the first time conversion of another Civilization's settlement with at least 10 Urban Population -->
+			<Text>+1 ศาสนวัตถุ สำหรับเผยแพร่เข้า ถิ่นฐานของอารยธรรมอื่นครั้งแรก ที่มีประชากรในเมือง อย่างน้อย 10 หน่วย</Text>		<!-- +1 Relic for the first time conversion of another Civilization's settlement with at least 10 Urban Population. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_17_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับถิ่นฐานต่างประเทศทุกแห่ง ที่นับถือศาสนาของคุณ</Text>		<!-- +4[icon:YIELD_SCIENCE] Science for every foreign Settlement following your Religion. -->
+			<Text>+4[icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับถิ่นฐานต่างประเทศทุกแห่ง ที่นับถือศาสนาของคุณ, +1[icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับแต่ละถิ่นฐาน ที่นับถือศาสนาของคุณ</Text>		<!-- +4[icon:YIELD_SCIENCE] Science for every foreign Settlement following your Religion. +1[icon:YIELD_SCIENCE] Science for each of your own Settlements following your Religion. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_17_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับถิ่นฐานต่างประเทศทุกแห่ง ที่นับถือศาสนาของคุณ</Text>		<!-- +4[icon:YIELD_SCIENCE] Science for every foreign Settlement following your Religion. -->
+			<Text>+4[icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับถิ่นฐานต่างประเทศทุกแห่ง ที่นับถือศาสนาของคุณ, +1[icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับแต่ละถิ่นฐาน ที่นับถือศาสนาของคุณ</Text>		<!-- +4[icon:YIELD_SCIENCE] Science for every foreign Settlement following your Religion. +1[icon:YIELD_SCIENCE] Science for each of your own Settlements following your Religion. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_18_DESCRIPTION" Language="th_TH">
 			<Text>+8[icon:YIELD_CULTURE] วัฒนธรรม, [icon:YIELD_GOLD] ทอง, [icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับทุกช่องที่มี สิ่งมหัศจรรย์ทางธรรมชาติ ในถิ่นฐานของอารยธรรมอื่นๆ ที่นับถือศาสนาของคุณ</Text>		<!-- +8[icon:YIELD_CULTURE] Culture,[icon:YIELD_GOLD] Gold, and[icon:YIELD_SCIENCE] Science for every tile that has a Natural Wonder in  other Civilizations’ Settlements following your Religion. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_19_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_CULTURE] วัฒนธรรม , [icon:YIELD_GOLD] ทอง, [icon:YIELD_SCIENCE] วิทยาศาสตร์สำหรับสิ่งมหัศจรรย์ ในถิ่นฐานของอารยธรรมอื่น ที่นับถือศาสนาของคุณ</Text>		<!-- +4[icon:YIELD_CULTURE] Culture,[icon:YIELD_GOLD] Gold,[icon:YIELD_SCIENCE] and Science for every Wonder in other Civilizations’ Settlements following your Religion. -->
+			<Text>+4[icon:YIELD_CULTURE] วัฒนธรรม , [icon:YIELD_GOLD] ทอง และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับสิ่งมหัศจรรย์ ในถิ่นฐานของอารยธรรมอื่น ที่นับถือศาสนาของคุณ</Text>		<!-- +4[icon:YIELD_CULTURE] Culture,[icon:YIELD_GOLD] Gold, and[icon:YIELD_SCIENCE] Science for every Wonder in other Civilizations’ Settlements following your Religion. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_19_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_CULTURE] วัฒนธรรม , [icon:YIELD_GOLD] ทอง, [icon:YIELD_SCIENCE] วิทยาศาสตร์สำหรับสิ่งมหัศจรรย์ ในถิ่นฐานของอารยธรรมอื่น ที่นับถือศาสนาของคุณ</Text>		<!-- +4[icon:YIELD_CULTURE] Culture,[icon:YIELD_GOLD] Gold,[icon:YIELD_SCIENCE] and Science for every Wonder in other Civilizations’ Settlements following your Religion. -->
+			<Text>+4[icon:YIELD_CULTURE] วัฒนธรรม , [icon:YIELD_GOLD] ทอง และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับสิ่งมหัศจรรย์ ในถิ่นฐานของอารยธรรมอื่น ที่นับถือศาสนาของคุณ</Text>		<!-- +4[icon:YIELD_CULTURE] Culture,[icon:YIELD_GOLD] Gold, and[icon:YIELD_SCIENCE] Science for every Wonder in other Civilizations’ Settlements following your Religion. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_20_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_GOLD] สำหรับทุกถิ่นฐานของต่างประเทศ ที่นับถือศาสนาของคุณ</Text>		<!-- +4[icon:YIELD_GOLD] Gold for every foreign Settlement following your Religion. -->
+			<Text>+4 [icon:YIELD_GOLD] สำหรับทุกถิ่นฐานของต่างประเทศ ที่นับถือศาสนาของคุณ, +1[icon:YIELD_GOLD] ทอง สำหรับแต่ละถิ่นฐาน ที่นับถือศาสนาของคุณ</Text>		<!-- +4[icon:YIELD_GOLD] Gold for every foreign Settlement following your Religion. +1[icon:YIELD_GOLD] Gold for each of your own Settlements following your Religion. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_20_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_GOLD] สำหรับทุกถิ่นฐานของต่างประเทศ ที่นับถือศาสนาของคุณ</Text>		<!-- +4[icon:YIELD_GOLD] Gold for every foreign Settlement following your Religion. -->
+			<Text>+4 [icon:YIELD_GOLD] สำหรับทุกถิ่นฐานของต่างประเทศ ที่นับถือศาสนาของคุณ, +1[icon:YIELD_GOLD] ทอง สำหรับแต่ละถิ่นฐาน ที่นับถือศาสนาของคุณ</Text>		<!-- +4[icon:YIELD_GOLD] Gold for every foreign Settlement following your Religion. +1[icon:YIELD_GOLD] Gold for each of your own Settlements following your Religion. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_21_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุกถิ่นฐานของต่างชาติ ที่นับถือศาสนาของคุณ</Text>		<!-- +4[icon:YIELD_CULTURE] Culture for every foreign Settlement following your Religion. -->
+			<Text>+4[icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุกถิ่นฐานของต่างชาติ ที่นับถือศาสนาของคุณ, +1[icon:YIELD_CULTURE] วัฒนธรรม สำหรับแต่ละถิ่นฐาน ที่นับถือศาสนาของคุณ</Text>		<!-- +4[icon:YIELD_CULTURE] Culture for every foreign Settlement following your Religion. +1[icon:YIELD_CULTURE] Culture for each of your own Settlements following your Religion. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_21_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุกถิ่นฐานของต่างชาติ ที่นับถือศาสนาของคุณ</Text>		<!-- +4[icon:YIELD_CULTURE] Culture for every foreign Settlement following your Religion. -->
+			<Text>+4[icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุกถิ่นฐานของต่างชาติ ที่นับถือศาสนาของคุณ, +1[icon:YIELD_CULTURE] วัฒนธรรม สำหรับแต่ละถิ่นฐาน ที่นับถือศาสนาของคุณ</Text>		<!-- +4[icon:YIELD_CULTURE] Culture for every foreign Settlement following your Religion. +1[icon:YIELD_CULTURE] Culture for each of your own Settlements following your Religion. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_22_DESCRIPTION" Language="th_TH">
 			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับทุกช่อง เขตร้อน ในถิ่นฐานของอารยธรรมอื่น ที่นับถือศาสนาของคุณ</Text>		<!-- +2[icon:YIELD_SCIENCE] Science for every Tropical tile in other Civilizations’ Settlements following your Religion. -->
@@ -16386,7 +16437,7 @@
 			<Text>+2[icon:YIELD_GOLD] ทอง สำหรับทุกช่อง ทะเลทราย ในถิ่นฐานของอารยธรรมอื่น ที่นับถือศาสนาของคุณ</Text>		<!-- +2[icon:YIELD_GOLD] Gold for every Desert tile in other Civilizations’ Settlements following your Religion. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_25_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_HAPPINESS] ความสุข สำหรับถิ่นฐานต่างประเทศทุกแห่ง ที่นับถือศาสนาของคุณ</Text>		<!-- +4[icon:YIELD_HAPPINESS] Happiness for every foreign Settlement following your Religion. -->
+			<Text>+4[icon:YIELD_HAPPINESS] ความสุข สำหรับถิ่นฐานต่างประเทศทุกแห่ง ที่นับถือศาสนาของคุณ, +1[icon:YIELD_HAPPINESS] ความสุข สำหรับแต่ละถิ่นฐาน ที่นับถือศาสนาของคุณ</Text>		<!-- +4[icon:YIELD_HAPPINESS] Happiness for every foreign Settlement following your Religion. +1[icon:YIELD_HAPPINESS] Happiness for each of your own Settlements following your Religion. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_26_DESCRIPTION" Language="th_TH">
 			<Text>+1[icon:YIELD_HAPPINESS] ความสุข สำหรับทุกช่อง ทางทะเล ทุกแห่งในถิ่นฐานของอารยธรรมอื่น ที่นับถือศาสนาของคุณ</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness for every Marine tile in other Civilizations’ Settlements following your Religion. -->
@@ -16449,34 +16500,47 @@
 			<Text>{1_ReligionName} เป็นส่วนใหญ่</Text>		<!-- {1_ReligionName} Majority -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_COTTON_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร, +3[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +3[icon:YIELD_FOOD] Food, +3[icon:YIELD_PRODUCTION] Production --></Replace>
+			<Text>+3[icon:YIELD_FOOD] อาหาร, +3[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +3[icon:YIELD_FOOD] Food, +3[icon:YIELD_PRODUCTION] Production -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_DATES_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร, +3[icon:YIELD_HAPPINESS] ความสุข </Text>		<!-- +3[icon:YIELD_FOOD] Food, +3[icon:YIELD_HAPPINESS] Happiness --></Replace>
+			<Text>+3[icon:YIELD_FOOD] อาหาร, +3[icon:YIELD_HAPPINESS] ความสุข </Text>		<!-- +3[icon:YIELD_FOOD] Food, +3[icon:YIELD_HAPPINESS] Happiness -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_DYES_TOOLTIP" Language="th_TH">
-			<Text>+5[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +5[icon:YIELD_HAPPINESS] Happiness --></Replace>
+			<Text>+5[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +5[icon:YIELD_HAPPINESS] Happiness -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_DYES_TOOLTIP" Language="th_TH">
-			<Text>+5[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +5[icon:YIELD_HAPPINESS] Happiness --></Replace>
+			<Text>+5[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +5[icon:YIELD_HAPPINESS] Happiness -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_FISH_TOOLTIP" Language="th_TH">
-			<Text>+5[icon:YIELD_FOOD] อาหาร</Text>		<!-- +5[icon:YIELD_FOOD] Food --></Replace>
+			<Text>+5[icon:YIELD_FOOD] อาหาร</Text>		<!-- +5[icon:YIELD_FOOD] Food -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_FISH_TOOLTIP" Language="th_TH">
-			<Text>+5[icon:YIELD_FOOD] อาหาร</Text>		<!-- +5[icon:YIELD_FOOD] Food --></Replace>
+			<Text>+5[icon:YIELD_FOOD] อาหาร</Text>		<!-- +5[icon:YIELD_FOOD] Food -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_GOLD_TOOLTIP" Language="th_TH">
-			<Text>+20%[icon:YIELD_GOLD] สำหรับการซื้อสิ่งก่อสร้าง</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings. --></Replace>
+			<Text>+20%[icon:YIELD_GOLD] สำหรับการซื้อสิ่งก่อสร้าง</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings. -->
+		</Replace>
 		<Replace Tag="LOC_TUTORIAL_QUEST_SELECTION_BODY_NO_ADVISORS" Language="th_TH">
 			<Text>(เส้นทางมรดกถูกปิดใช้งานในขณะนี้ หากคุณเปิดใช้งาน ที่ปรึกษาของคุณจะพร้อมให้บริการเพื่อแนะนำคุณในเส้นทางที่เลือก.)</Text>		<!-- (Legacy Paths are currently disabled. If you enable them, your Advisors will be at your service to guide you on the path of your choice.) -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_GOLD_DISTANT_LANDS_TOOLTIP" Language="th_TH">
-			<Text>สร้าง ขบวนบรรทุกสมบัติ หากได้รับการพัฒนาในแดนไกล</Text>		<!-- Creates Treasure Convoys if improved in the Distant Lands. --></Replace>
+			<Text>สร้าง ขบวนบรรทุกสมบัติ หากได้รับการพัฒนาในแดนไกล</Text>		<!-- Creates Treasure Convoys if improved in the Distant Lands. -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_GYPSUM_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต ให้กับเมืองหลวง ในแผ่นดินบ้านเกิด, +4[icon:YIELD_PRODUCTION] กำลังผลิต ให้กับเมืองใหญ่อื่นๆ ในดินแดนห่างไกล</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production to Homeland Cities; +6[icon:YIELD_PRODUCTION] Production to Distant Land Cities --></Replace>
+			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต ให้กับเมืองหลวง ในแผ่นดินบ้านเกิด, +4[icon:YIELD_PRODUCTION] กำลังผลิต ให้กับเมืองใหญ่อื่นๆ ในดินแดนห่างไกล</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production to Homeland Cities; +6[icon:YIELD_PRODUCTION] Production to Distant Land Cities -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_INCENSE_TOOLTIP" Language="th_TH">
-			<Text>+100%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับมิชชันนารี และ วิหาร</Text>		<!-- +100%[icon:YIELD_PRODUCTION] Production towards Missionaries and Temples --></Replace>
+			<Text>+100%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับมิชชันนารี และ วิหาร</Text>		<!-- +100%[icon:YIELD_PRODUCTION] Production towards Missionaries and Temples -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_INCENSE_TOOLTIP" Language="th_TH">
-			<Text>+100%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับมิชชันนารี และ วิหาร</Text>		<!-- +100%[icon:YIELD_PRODUCTION] Production towards Missionaries and Temples --></Replace>
+			<Text>+100%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับมิชชันนารี และ วิหาร</Text>		<!-- +100%[icon:YIELD_PRODUCTION] Production towards Missionaries and Temples -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_IVORY_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_HAPPINESS] ความสุข, +3[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness, +3[icon:YIELD_PRODUCTION] Production --></Replace>
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข, +3[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness, +3[icon:YIELD_PRODUCTION] Production -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_IVORY_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_HAPPINESS] ความสุข, +3[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness, +3[icon:YIELD_PRODUCTION] Production --></Replace>
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข, +3[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness, +3[icon:YIELD_PRODUCTION] Production -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_JADE_TOOLTIP" Language="th_TH">
 			<Text>+15%[icon:YIELD_GOLD] ทอง</Text>		<!-- +15%[icon:YIELD_GOLD] Gold -->
 		</Replace>
@@ -16484,66 +16548,87 @@
 			<Text>+15%[icon:YIELD_GOLD] ทอง</Text>		<!-- +15%[icon:YIELD_GOLD] Gold -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_KAOLIN_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร ไปยังเมืองใหญ่ ในบ้านเกิด, +4[icon:YIELD_FOOD] อาหาร ให้กับเมืองใหญ่อื่นๆ ในดินแดนห่างไกล</Text>		<!-- +3[icon:YIELD_FOOD] Food to Homeland Cities; +6[icon:YIELD_FOOD] Food to Distant Land Cities --></Replace>
+			<Text>+3[icon:YIELD_FOOD] อาหาร ไปยังเมืองใหญ่ ในบ้านเกิด, +4[icon:YIELD_FOOD] อาหาร ให้กับเมืองใหญ่อื่นๆ ในดินแดนห่างไกล</Text>		<!-- +3[icon:YIELD_FOOD] Food to Homeland Cities; +6[icon:YIELD_FOOD] Food to Distant Land Cities -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_MARBLE_TOOLTIP" Language="th_TH">
-			<Text>+10%[icon:YIELD_PRODUCTION] กำลังผลิต ไปยังสิ่งมหัศจรรย์</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders --></Replace>
+			<Text>+10%[icon:YIELD_PRODUCTION] กำลังผลิต ไปยังสิ่งมหัศจรรย์</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_MARBLE_TOOLTIP" Language="th_TH">
-			<Text>+10%[icon:YIELD_PRODUCTION] กำลังผลิต ไปยังสิ่งมหัศจรรย์</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders --></Replace>
+			<Text>+10%[icon:YIELD_PRODUCTION] กำลังผลิต ไปยังสิ่งมหัศจรรย์</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders -->
+		</Replace>
 		<Replace Tag="LOC_MOD_EXPLORATION_SPAWN_TREASURE_FLEETS_DUMMY_DESCRIPTION" Language="th_TH">
 			<Text>ปลดล็อกการสร้าง กองเรือสมบัติ ในถิ่นฐานชายฝั่งในดินแดนห่างไกล</Text>		<!-- Unlocks Treasure Fleet spawning in Coastal Settlements in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_PEARLS_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_HAPPINESS] ความสุข ไปยังเมืองใหญ่ ในบ้านเกิด, +4[icon:YIELD_HAPPINESS] ความสุข ให้กับเมืองใหญ่อื่นๆ ในดินแดนห่างไกล</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness to Homeland Cities; +6[icon:YIELD_HAPPINESS] Happiness to Distant Land Cities --></Replace>
-		<Replace Tag="LOC_ANT_RESOURCE_SILK_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง, +3[icon:YIELD_HAPPINESS] ความสุข ให้กับทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_CULTURE] Culture in Capital. +3[icon:YIELD_CULTURE] Culture to any other City. -->
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข ไปยังเมืองใหญ่ ในบ้านเกิด, +4[icon:YIELD_HAPPINESS] ความสุข ให้กับเมืองใหญ่อื่นๆ ในดินแดนห่างไกล</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness to Homeland Cities; +6[icon:YIELD_HAPPINESS] Happiness to Distant Land Cities -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILK_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง, +3[icon:YIELD_HAPPINESS] ความสุข ให้กับทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_CULTURE] Culture in Capital. +3[icon:YIELD_CULTURE] Culture to any other City. -->
+			<Text>+10%[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +10%[icon:YIELD_CULTURE] Culture -->
+		</Replace>
+		<Replace Tag="LOC_ANT_RESOURCE_SILK_TOOLTIP" Language="th_TH">
+			<Text>+10%[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +10%[icon:YIELD_CULTURE] Culture -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILVER_TOOLTIP" Language="th_TH">
-			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้อและอัพเกรดยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing and upgrading Units. --></Replace>
+			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้อและอัพเกรดยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing and upgrading Units. -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILVER_TOOLTIP" Language="th_TH">
-			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้อและอัพเกรดยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing and upgrading Units. --></Replace>
+			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้อและอัพเกรดยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing and upgrading Units. -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILVER_DISTANT_LANDS_TOOLTIP" Language="th_TH">
-			<Text>สร้าง ขบวนบรรทุกสมบัติ หากได้รับการพัฒนาในแดนไกล</Text>		<!-- Creates Treasure Convoys if improved in the Distant Lands. --></Replace>
+			<Text>สร้าง ขบวนบรรทุกสมบัติ หากได้รับการพัฒนาในแดนไกล</Text>		<!-- Creates Treasure Convoys if improved in the Distant Lands. -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_WINE_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +10%[icon:YIELD_CULTURE] วัฒนธรรม เมื่ออยู่ในงานเฉลิมฉลอง</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness in the Capital and +10%[icon:YIELD_CULTURE] Culture when in a Celebration --></Replace>
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +10%[icon:YIELD_CULTURE] วัฒนธรรม เมื่ออยู่ในงานเฉลิมฉลอง</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness in the Capital and +10%[icon:YIELD_CULTURE] Culture when in a Celebration -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_WINE_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +10%[icon:YIELD_CULTURE] วัฒนธรรม เมื่ออยู่ในงานเฉลิมฉลอง</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness in the Capital and +10%[icon:YIELD_CULTURE] Culture when in a Celebration --></Replace>
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +10%[icon:YIELD_CULTURE] วัฒนธรรม เมื่ออยู่ในงานเฉลิมฉลอง</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness in the Capital and +10%[icon:YIELD_CULTURE] Culture when in a Celebration -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_CAMELS_TOOLTIP" Language="th_TH">
 			<Text>เมื่อถูกจัดสรรให้กับเมืองใหญ่, เพิ่มจำนวน ทรัพยากร ที่สามารถจัดสรรให้กับ เมืองได้อีก 2 หน่วย</Text>		<!-- While slotted in a City, allows another 2 additional Resources to be assigned to that City -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_HORSES_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +6[icon:YIELD_HAPPINESS] Happiness -->
+			<Text>ยูนิตทหารม้า ได้รับ +1 พลังต่อสู้ (สูงสุด +6)</Text>		<!-- Cavalry Units gain +1 Combat Strength (Max +6) -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_IRON_TOOLTIP" Language="th_TH">
 			<Text>ยูนิตทหารราบ ได้รับ +1 พลังต่อสู้ (สูงสุด +6)</Text>		<!-- Infantry Units gain +1 Combat Strength (Max +6) -->
 		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_COCOA_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_HAPPINESS] ความสุข ในเมือง, เพิ่มขึ้นเป็นสองเท่า ในดินแดนบ้านเกิด</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness in Towns, doubled in Homelands. --></Replace>
+			<Text>+1[icon:YIELD_HAPPINESS] ความสุข ในเมือง, เพิ่มขึ้นเป็นสองเท่า ในดินแดนบ้านเกิด</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness in Towns, doubled in Homelands. -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_FURS_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +10%[icon:YIELD_GOLD] ทอง เมื่ออยู่ในงานเฉลิมฉลอง</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness in the Capital and +10%[icon:YIELD_GOLD] Gold when in a Celebration. --></Replace>
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +10%[icon:YIELD_GOLD] ทอง เมื่ออยู่ในงานเฉลิมฉลอง</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness in the Capital and +10%[icon:YIELD_GOLD] Gold when in a Celebration. -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_FURS_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +10%[icon:YIELD_GOLD] ทอง เมื่ออยู่ในงานเฉลิมฉลอง</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness in the Capital and +10%[icon:YIELD_GOLD] Gold when in a Celebration. --></Replace>
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +10%[icon:YIELD_GOLD] ทอง เมื่ออยู่ในงานเฉลิมฉลอง</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness in the Capital and +10%[icon:YIELD_GOLD] Gold when in a Celebration. -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_SPICES_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_DIPLOMACY] อิทธิพล ในเมืองใหญ่, เพิ่มขึ้นเป็นสองเท่าใน ดินแดนบ้านเกิด</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and [icon:YIELD_DIPLOMACY] Influence in Cities, doubled in Homelands. --></Replace>
+			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_DIPLOMACY] อิทธิพล ในเมืองใหญ่, เพิ่มขึ้นเป็นสองเท่าใน ดินแดนบ้านเกิด</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and [icon:YIELD_DIPLOMACY] Influence in Cities, doubled in Homelands. -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_SUGAR_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_FOOD] อาหาร และ [icon:YIELD_HAPPINESS] ความสุข ในเมืองใหญ่, เพิ่มขึ้นเป็นสองเท่าใน ดินแดนบ้านเกิด</Text>		<!-- +1[icon:YIELD_FOOD] Food and [icon:YIELD_HAPPINESS] Happiness in Cities, doubled in Homelands. --></Replace>
+			<Text>+1[icon:YIELD_FOOD] อาหาร และ [icon:YIELD_HAPPINESS] ความสุข ในเมืองใหญ่, เพิ่มขึ้นเป็นสองเท่าใน ดินแดนบ้านเกิด</Text>		<!-- +1[icon:YIELD_FOOD] Food and [icon:YIELD_HAPPINESS] Happiness in Cities, doubled in Homelands. -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_TEA_TOOLTIP" Language="th_TH">
 			<Text> 	
-+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ และ [icon:YIELD_PRODUCTION] กำลังผลิต ในเมืองใหญ่, เพิ่มขึ้นเป็นสองเท่าใน ดินแดนบ้านเกิด</Text>		<!-- +1[icon:YIELD_SCIENCE] Science and [icon:YIELD_PRODUCTION] Production in Cities, doubled in Homelands. --></Replace>
++1[icon:YIELD_SCIENCE] วิทยาศาสตร์ และ [icon:YIELD_PRODUCTION] กำลังผลิต ในเมืองใหญ่, เพิ่มขึ้นเป็นสองเท่าใน ดินแดนบ้านเกิด</Text>		<!-- +1[icon:YIELD_SCIENCE] Science and [icon:YIELD_PRODUCTION] Production in Cities, doubled in Homelands. -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_TRUFFLES_TOOLTIP" Language="th_TH">
-			<Text>+20%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการฝึกยูนิต</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards training Units --></Replace>
+			<Text>+20%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการฝึกยูนิต</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards training Units -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_TRUFFLES_TOOLTIP" Language="th_TH">
-			<Text>+20%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการฝึกยูนิต</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards training Units --></Replace>
+			<Text>+20%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการฝึกยูนิต</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards training Units -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_NITER_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตปิดล้อมและทางน้ำ ได้รับ +1 พลังต่อสู้ (สูงสุด +6)</Text>		<!-- Siege and Naval Units gain +1 Combat Strength (Max +6) --></Replace>
+			<Text>ยูนิตปิดล้อมและทางน้ำ ได้รับ +1 พลังต่อสู้ (สูงสุด +6)</Text>		<!-- Siege and Naval Units gain +1 Combat Strength (Max +6) -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_WHALES_TOOLTIP" Language="th_TH">
-			<Text>+5[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +5[icon:YIELD_PRODUCTION] Production --></Replace>
+			<Text>+5[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +5[icon:YIELD_PRODUCTION] Production -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_WHALES_TOOLTIP" Language="th_TH">
-			<Text>+5[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +5[icon:YIELD_PRODUCTION] Production --></Replace>
+			<Text>+5[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +5[icon:YIELD_PRODUCTION] Production -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_CLOVES_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_FOOD] อาหาร, +10%[icon:YIELD_GOLD] ทอง</Text>		<!-- +6[icon:YIELD_FOOD] Food, +10%[icon:YIELD_GOLD] Gold --></Replace>
+			<Text>+6[icon:YIELD_FOOD] อาหาร, +10%[icon:YIELD_GOLD] ทอง</Text>		<!-- +6[icon:YIELD_FOOD] Food, +10%[icon:YIELD_GOLD] Gold -->
+		</Replace>
 		<Replace Tag="LOC_TREE_TECHS_EX_NAME" Language="th_TH">
 			<Text>เทคโนโลยีการสำรวจ</Text>		<!-- Exploration Technology -->
 		</Replace>
@@ -16644,7 +16729,7 @@
 			<Text>"ใช่ แต่...คุณมีธงไหม?"</Text>		<!-- "Yes, but...do you have a flag?" -->
 		</Replace>
 		<Replace Tag="LOC_TECH_HERALDRY_QUOTE_AUTHOR" Language="th_TH">
-			<Text>เอ็ดดี้ อิซซาร์ด</Text>		<!-- Eddie Izzard -->
+			<Text>ซูซี่ เอดดี้ อิซซาร์ด</Text>		<!-- Suzy Eddie Izzard -->
 		</Replace>
 		<Replace Tag="LOC_TECH_URBAN_PLANNING_NAME" Language="th_TH">
 			<Text>การวางผังเมือง</Text>		<!-- Urban Planning -->
@@ -16815,10 +16900,11 @@
 			<Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บนอาคารด้านวิทยาศาสตร์</Text>		<!-- +1[icon:YIELD_SCIENCE] Science on Science Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_FUTURE_TECH_ATTRIBUTE_DESCRIPTION" Language="th_TH">
-			<Text>+1 คะแนน คุณลักษณะไวลด์การ์ด</Text>		<!-- +1 Wildcard Attribute Point. -->
+			<Text>+1 คะแนน คุณลักษณะแบบสุ่ม</Text>		<!-- +1 Random Attribute Point. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_FUTURE_TECH_BOOST_DESCRIPTION" Language="th_TH">
-			<Text>ส่งเสริมการพัฒนา สำหรับการเริ่มต้น เทคโนโลยีในยุคถัดไป</Text>		<!-- A boost for a starting Technology in the next Age. --></Replace>
+			<Text>ส่งเสริมการพัฒนา สำหรับการเริ่มต้น เทคโนโลยีในยุคถัดไป</Text>		<!-- A boost for a starting Technology in the next Age. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_FUTURE_TECH_AGE_PROGRESS_DESCRIPTION" Language="th_TH">
 			<Text>+10 แต้ม ความก้าวหน้าของยุค</Text>		<!-- +10 Age Progress. -->
 		</Replace>
@@ -17711,7 +17797,7 @@
 			<Text>ยูนิตพลเรือน ที่มีสามารถเผยแพร่ศาสนา จะได้รับทอง 25 หน่วยเมื่อคุณเปลี่ยนศาสนาของ ถิ่นฐาน ครั้งแรก</Text>		<!-- A Civilian Unit that has the Spread Religion action. Receive 25[icon:YIELD_GOLD] Gold when you convert a Settlement for the first time. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_TREASURE_FLEET_NAME" Language="th_TH">
-			<Text>เรือบรรทุกสมบัติ</Text>		<!-- Treasure Fleet -->
+			<Text>ขบวนบรรทุกสมบัติ</Text>		<!-- Treasure Convoy -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_TREASURE_FLEET_DESCRIPTION" Language="th_TH">
 			<Text>ยูนิตสนับสนุนที่บรรทุก ทรัพย์สมบัติ จากดินแดนห่างไกล, นำกลับไปยังน่านน้ำของมิตรใน บ้านเกิด เพื่อรับแต้มสมบัติและ [icon:YIELD_GOLD] ทอง</Text>		<!-- A Support Unit that carries riches from the Distant Lands. Return it to friendly waters in the Homeland to earn Treasure Fleet Points and[icon:YIELD_GOLD] Gold. -->
@@ -17807,31 +17893,31 @@
 			<Text>เลโอมาโน่</Text>		<!-- Leiomano -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_LEIOMANO_BASE_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบพิเศษ ของฮาวาย, +3 พลังต่อสู้กับยูนิตทหารราบและทหารม้า ได้รับ[icon:YIELD_CULTURE] วัฒนธรรม เมื่อเอาชนะยูนิตศัตรู</Text>		<!-- Hawaiian Unique Infantry Unit. +3 Combat Strength against Infantry and Cavalry Units. Receives[icon:YIELD_CULTURE] Culture from defeating enemy Units. -->
+			<Text>ยูนิตทหารราบพิเศษ ของฮาวาย, +3 พลังต่อสู้กับยูนิตทหารราบและทหารม้า</Text>		<!-- Hawaiian Unique Infantry Unit. +3 Combat Strength against Infantry and Cavalry Units. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_LEIOMANO_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบเฉพาะ ระดับ 1 ของฮาวาย, +3 พลังต่อสู้ กับยูนิตทหารราบและทหารม้า ได้รับ[icon:YIELD_CULTURE] วัฒนธรรม เมื่อเอาชนะยูนิตศัตรู</Text>		<!-- Tier 1 Hawaiian Unique Infantry Unit. +3 Combat Strength against Infantry and Cavalry Units. Receives[icon:YIELD_CULTURE] Culture from defeating enemy Units. -->
+			<Text>ยูนิตทหารราบเฉพาะ ระดับ 1 ของฮาวาย, +3 พลังต่อสู้ กับยูนิตทหารราบและทหารม้า</Text>		<!-- Tier 1 Hawaiian Unique Infantry Unit. +3 Combat Strength against Infantry and Cavalry Units. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_LEIOMANO_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบเฉพาะ ระดับ 1 ของฮาวาย, +3 พลังต่อสู้ กับยูนิตทหารราบและทหารม้า ได้รับ[icon:YIELD_CULTURE] วัฒนธรรม เมื่อเอาชนะยูนิตศัตรู</Text>		<!-- Tier 1 Hawaiian Unique Infantry Unit. +3 Combat Strength against Infantry and Cavalry Units. Receives[icon:YIELD_CULTURE] Culture from defeating enemy Units. -->
+			<Text>ยูนิตทหารราบเฉพาะ ระดับ 1 ของฮาวาย, +3 พลังต่อสู้ กับยูนิตทหารราบและทหารม้า</Text>		<!-- Tier 1 Hawaiian Unique Infantry Unit. +3 Combat Strength against Infantry and Cavalry Units. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_LEIOMANO_2_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบเฉพาะ ระดับ 2 ของฮาวาย, +3 พลังต่อสู้ กับยูนิตทหารราบและทหารม้า ได้รับ[icon:YIELD_CULTURE] วัฒนธรรม จากการเอาชนะยูนิตศัตรู</Text>		<!-- Tier 2 Hawaiian Unique Infantry Unit. +3 Combat Strength against Infantry and Cavalry Units. Receives[icon:YIELD_CULTURE] Culture from defeating enemy Units. -->
+			<Text>ยูนิตทหารราบเฉพาะ ระดับ 2 ของฮาวาย, +3 พลังต่อสู้ กับยูนิตทหารราบและทหารม้า</Text>		<!-- Tier 2 Hawaiian Unique Infantry Unit. +3 Combat Strength against Infantry and Cavalry Units. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_LEIOMANO_3_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบเฉพาะ ระดับ 3 ของฮาวาย, +3 พลังต่อสู้ กับยูนิตทหารราบและทหารม้า ได้รับ[icon:YIELD_CULTURE] วัฒนธรรม จากการเอาชนะยูนิตศัตรู</Text>		<!-- Tier 3 Hawaiian Unique Infantry Unit. +3 Combat Strength against Infantry and Cavalry Units. Receives[icon:YIELD_CULTURE] Culture from defeating enemy Units. -->
+			<Text>ยูนิตทหารราบเฉพาะ ระดับ 3 ของฮาวาย, +3 พลังต่อสู้ กับยูนิตทหารราบและทหารม้า</Text>		<!-- Tier 3 Hawaiian Unique Infantry Unit. +3 Combat Strength against Infantry and Cavalry Units. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_LEIOMANO_3_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบเฉพาะ ระดับ 3 ของฮาวาย, +3 พลังต่อสู้ กับยูนิตทหารราบและทหารม้า ได้รับ[icon:YIELD_CULTURE] วัฒนธรรม จากการเอาชนะยูนิตศัตรู</Text>		<!-- Tier 3 Hawaiian Unique Infantry Unit. +3 Combat Strength against Infantry and Cavalry Units. Receives[icon:YIELD_CULTURE] Culture from defeating enemy Units. -->
+			<Text>ยูนิตทหารราบเฉพาะ ระดับ 3 ของฮาวาย, +3 พลังต่อสู้ กับยูนิตทหารราบและทหารม้า</Text>		<!-- Tier 3 Hawaiian Unique Infantry Unit. +3 Combat Strength against Infantry and Cavalry Units. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_LEIOMANO_DESCRIPTION" Language="th_TH">
 			<Text>+3 พลังต่อสู้ ต่อยูนิตทหารราบ และยูนิตทหารม้า</Text>		<!-- +3 Combat Strength against Infantry and Cavalry Units. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_LEIOMANO_CULTURE_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ [icon:YIELD_CULTURE] วัฒนธรรม เท่ากับ 25% ของความแข็งแกร่งของยูนิตที่พ่ายแพ้</Text>		<!-- Gain[icon:YIELD_CULTURE] Culture equal to 25% of the defeated Unit's strength. -->
+			<Text>ได้รับ [icon:YIELD_CULTURE] วัฒนธรรม เท่ากับ 25% ของความแข็งแกร่งของยูนิตที่พ่ายแพ้</Text>		<!-- Gain [icon:YIELD_CULTURE]Culture equal to 25% of the defeated Unit's strength. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_LEIOMANO_CULTURE_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ [icon:YIELD_CULTURE] วัฒนธรรม เท่ากับ 25% ของความแข็งแกร่งของยูนิตที่พ่ายแพ้</Text>		<!-- Gain[icon:YIELD_CULTURE] Culture equal to 25% of the defeated Unit's strength. -->
+			<Text>ได้รับ [icon:YIELD_CULTURE] วัฒนธรรม เท่ากับ 25% ของความแข็งแกร่งของยูนิตที่พ่ายแพ้</Text>		<!-- Gain [icon:YIELD_CULTURE]Culture equal to 25% of the defeated Unit's strength. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_LEIOMANO_PREVIEW" Language="th_TH">
 			<Text>+{1_Amount} ต่อยูนิตทหารราบ และยูนิตทหารม้า</Text>		<!-- +{1_Amount} against Infantry and Cavalry Units -->
