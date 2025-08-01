@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_ACTION_PANEL_TAKE_THE_NEXT_ACTION" Language="th_TH">
@@ -50,13 +50,13 @@
 			<Text>ตั้งค่าผู้เล่น</Text>		<!-- Player Settings -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_LEGACY_PATH_SETTINGS" Language="th_TH">
-			<Text>Legacy Paths</Text>		<!-- Legacy Paths -->
+			<Text>เส้นทางมรดก</Text>		<!-- Legacy Paths -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_ADD_PLAYER" Language="th_TH">
 			<Text>เพิ่มบอท</Text>		<!-- Add AI Player -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_SETTINGS_SUBHEADER" Language="th_TH">
-			<Text>Add additional AI players</Text>		<!-- Add additional AI players -->
+			<Text>เพิ่มผู้เล่น AI เพิ่มเติม</Text>		<!-- Add additional AI players -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_RULESET" Language="th_TH">
 			<Text>ชุดกฎ</Text>		<!-- Ruleset -->
@@ -227,10 +227,10 @@
 			<Text>ไม่มีหมู่บ้านชนเผ่า</Text>		<!-- No Tribal Villages -->
 		</Replace>
 		<Replace Tag="LOC_CRISIS_TITLE_AGE_ANTIQUITY" Language="th_TH">
-			<Text>Antiquity Age Crises</Text>		<!-- Antiquity Age Crises -->
+			<Text>วิกฤตยุคโบราณ</Text>		<!-- Antiquity Age Crises -->
 		</Replace>
 		<Replace Tag="LOC_CRISIS_TITLE_AGE_EXPLORATION" Language="th_TH">
-			<Text>Exploration Age Crises</Text>		<!-- Exploration Age Crises -->
+			<Text>วิกฤตยุคสำรวจ</Text>		<!-- Exploration Age Crises -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_ANTIQUITY_CRISIS_1" Language="th_TH">
 			<Text>การรุกราน</Text>		<!-- Invasion -->
@@ -263,28 +263,28 @@
 			<Text>กำหนดความแข็งแกร่งและความถี่ของภัยพิบัติ</Text>		<!-- Determines the strength and frequency of disasters -->
 		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_HOSTILITY_NAME" Language="th_TH">
-			<Text>Initial Independent Hostility</Text>		<!-- Initial Independent Hostility -->
+			<Text>ระดับความเป็นศัตรูของอิสระเริ่มต้น</Text>		<!-- Initial Independent Hostility -->
 		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_HOSTILITY_DESCRIPTION" Language="th_TH">
-			<Text>Determines what the initial hostility level of Independent Powers is with players when the Independent Power first spawns</Text>		<!-- Determines what the initial hostility level of Independent Powers is with players when the Independent Power first spawns -->
+			<Text>กำหนดระดับความเป็นศัตรูเริ่มต้นของอำนาจอิสระกับผู้เล่นเมื่ออำนาจอิสระเกิดขึ้นครั้งแรก</Text>		<!-- Determines what the initial hostility level of Independent Powers is with players when the Independent Power first spawns -->
 		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_HOSTILITY_FRIENDLY" Language="th_TH">
-			<Text>Friendly</Text>		<!-- Friendly -->
+			<Text>เป็นมิตร</Text>		<!-- Friendly -->
 		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_HOSTILITY_FRIENDLY_DESCRIPTION" Language="th_TH">
-			<Text>Independent Powers will start Friendly towards Players</Text>		<!-- Independent Powers will start Friendly towards Players -->
+			<Text>อำนาจอิสระจะเริ่มต้นเป็นมิตรกับผู้เล่น</Text>		<!-- Independent Powers will start Friendly towards Players -->
 		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_HOSTILITY_DEFAULT" Language="th_TH">
-			<Text>Default</Text>		<!-- Default -->
+			<Text>ค่าเริ่มต้น</Text>		<!-- Default -->
 		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_HOSTILITY_DEFAULT_DESCRIPTION" Language="th_TH">
-			<Text>Independent Powers will start at a mix of Friendly and Hostile towards Players</Text>		<!-- Independent Powers will start at a mix of Friendly and Hostile towards Players -->
+			<Text>อำนาจอิสระจะเริ่มต้นทั้งเป็นมิตรและเป็นศัตรูกับผู้เล่น</Text>		<!-- Independent Powers will start at a mix of Friendly and Hostile towards Players -->
 		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_HOSTILITY_HOSTILE" Language="th_TH">
-			<Text>Hostile</Text>		<!-- Hostile -->
+			<Text>เป็นศัตรู</Text>		<!-- Hostile -->
 		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_HOSTILITY_HOSTILE_DESCRIPTION" Language="th_TH">
-			<Text>Independent Powers will start Hostile towards Players. This excludes Independent powers who spawn as a result of a player having a City State in that location in the previous Age.</Text>		<!-- Independent Powers will start Hostile towards Players. This excludes Independent powers who spawn as a result of a player having a City State in that location in the previous Age. -->
+			<Text>อำนาจอิสระจะเริ่มต้นเป็นศัตรูกับผู้เล่น ยกเว้นอำนาจอิสระที่เกิดจากการที่ผู้เล่นมีรัฐในพื้นที่นั้นในยุคก่อนหน้า</Text>		<!-- Independent Powers will start Hostile towards Players. This excludes Independent powers who spawn as a result of a player having a City State in that location in the previous Age. -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_CRISIS" Language="th_TH">
 			<Text>วิกฤต</Text>		<!-- Crises -->
@@ -293,10 +293,10 @@
 			<Text>เปิดใช้งานเหตุการณ์วิกฤตในยุคที่ไม่มีการปลดล็อกชัยชนะ</Text>		<!-- Enables Crisis Events in Ages without Victory Unlocks -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_CRISIS_INTENSITY" Language="th_TH">
-			<Text>Crisis Intensity</Text>		<!-- Crisis Intensity -->
+			<Text>ความรุนแรงของวิกฤต</Text>		<!-- Crisis Intensity -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_CRISIS_INTENSITY_DESC" Language="th_TH">
-			<Text>Determines the strength of crisis events</Text>		<!-- Determines the strength of crisis events -->
+			<Text>กำหนดความแข็งแกร่งของเหตุการณ์วิกฤต</Text>		<!-- Determines the strength of crisis events -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_ABBREVIATED" Language="th_TH">
 			<Text>ย่อ</Text>		<!-- Abbreviated -->
@@ -308,13 +308,13 @@
 			<Text>เบา</Text>		<!-- Light -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_COUNTDOWN_NONE" Language="th_TH">
-			<Text>No Countdown</Text>		<!-- No Countdown -->
+			<Text>ไม่มีการนับถอยหลัง</Text>		<!-- No Countdown -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_COUNTDOWN_STANDARD" Language="th_TH">
-			<Text>10 Turns</Text>		<!-- 10 Turns -->
+			<Text>10 เทิร์น</Text>		<!-- 10 Turns -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_COUNTDOWN_LONG" Language="th_TH">
-			<Text>20 Turns</Text>		<!-- 20 Turns -->
+			<Text>20 เทิร์น</Text>		<!-- 20 Turns -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_MODERATE" Language="th_TH">
 			<Text>ปานกลาง</Text>		<!-- Moderate -->
@@ -338,146 +338,146 @@
 			<Text>ปิด</Text>		<!-- Off -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_SETTINGS_TITLE" Language="th_TH">
-			<Text>Player Settings</Text>		<!-- Player Settings -->
+			<Text>การตั้งค่าผู้เล่น</Text>		<!-- Player Settings -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_LEGACY_PATH_TITLE" Language="th_TH">
-			<Text>Legacy Path Settings</Text>		<!-- Legacy Path Settings -->
+			<Text>การตั้งค่าเส้นทางมรดก</Text>		<!-- Legacy Path Settings -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_ARMY_XP" Language="th_TH">
-			<Text>AI Commander XP</Text>		<!-- AI Commander XP -->
+			<Text>ค่าประสบการณ์ผู้บัญชาการ AI</Text>		<!-- AI Commander XP -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_ARMY_XP_TOOLTIP" Language="th_TH">
-			<Text>Increases the bonus to XP gained by AI Commanders.
-				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +40%[LI]Sovereign: +60%[LI]Immortal: +80%[LI]Deity: +100%[/LIST] 
+			<Text>เพิ่มโบนัสค่าประสบการณ์ที่ผู้บัญชาการ AI ได้รับ
+				[n] [BLIST][LI]ผู้จดบันทึก: -20%[LI]ข้าหลวง: 0%[LI]อุปราช: +40%[LI]กษัตริย์: +60%[LI]เซียน: +80%[LI]เทพเจ้า: +100%[/LIST] 
 			</Text>		<!-- Increases the bonus to XP gained by AI Commanders.
 				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +40%[LI]Sovereign: +60%[LI]Immortal: +80%[LI]Deity: +100%[/LIST] 
 			 -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_BUILDING_PRODUCTION" Language="th_TH">
-			<Text>AI Building Production</Text>		<!-- AI Building Production -->
+			<Text>กำลังผลิตสิ่งก่อสร้างของ AI</Text>		<!-- AI Building Production -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_BUILDING_PRODUCTION_TOOLTIP" Language="th_TH">
-			<Text>Increases the bonus that AI players receive towards producing Constructibles.
-				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST] 
+			<Text>เพิ่มโบนัสที่ผู้เล่น AI ได้รับในการผลิตสิ่งก่อสร้าง
+				[n] [BLIST][LI]ผู้จดบันทึก: -20%[LI]ข้าหลวง: 0%[LI]อุปราช: +20%[LI]กษัตริย์: +40%[LI]เซียน: +60%[LI]เทพเจ้า: +80%[/LIST] 
 			</Text>		<!-- Increases the bonus that AI players receive towards producing Constructibles.
 				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST] 
 			 -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_COMBAT" Language="th_TH">
-			<Text>Combat Strength for AI</Text>		<!-- Combat Strength for AI -->
+			<Text>ความแข็งแกร่งในการต่อสู้ของ AI</Text>		<!-- Combat Strength for AI -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_COMBAT_TOOLTIP" Language="th_TH">
-			<Text>Increases the bonus to Combat Strength for AI players.
-				[n] [BLIST][LI]Scribe: -4 Combat Strength[LI]Governor: +0 Combat Strength[LI]Viceroy: +1 Combat Strength[LI]Sovereign: +3 Combat Strength[LI]Immortal: +5 Combat Strength[LI]Deity: +8 Combat Strength[/LIST] 
+			<Text>เพิ่มโบนัสความแข็งแกร่งในการต่อสู้สำหรับผู้เล่น AI
+				[n] [BLIST][LI]ผู้จดบันทึก: -4 ความแข็งแกร่ง[LI]ข้าหลวง: +0 ความแข็งแกร่ง[LI]อุปราช: +1 ความแข็งแกร่ง[LI]กษัตริย์: +3 ความแข็งแกร่ง[LI]เซียน: +5 ความแข็งแกร่ง[LI]เทพเจ้า: +8 ความแข็งแกร่ง[/LIST] 
 			</Text>		<!-- Increases the bonus to Combat Strength for AI players.
 				[n] [BLIST][LI]Scribe: -4 Combat Strength[LI]Governor: +0 Combat Strength[LI]Viceroy: +1 Combat Strength[LI]Sovereign: +3 Combat Strength[LI]Immortal: +5 Combat Strength[LI]Deity: +8 Combat Strength[/LIST] 
 			 -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_CULTURE" Language="th_TH">
-			<Text>Culture</Text>		<!-- Culture -->
+			<Text>วัฒนธรรม</Text>		<!-- Culture -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_CULTURE_TOOLTIP" Language="th_TH">
-			<Text>Increases the amount of bonus Culture that AI players receive.
-				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST]
+			<Text>เพิ่มจำนวนโบนัสวัฒนธรรมที่ผู้เล่น AI ได้รับ
+				[n] [BLIST][LI]ผู้จดบันทึก: -20%[LI]ข้าหลวง: 0%[LI]อุปราช: +20%[LI]กษัตริย์: +40%[LI]เซียน: +60%[LI]เทพเจ้า: +80%[/LIST]
 			</Text>		<!-- Increases the amount of bonus Culture that AI players receive.
 				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST]
 			 -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_GOLD" Language="th_TH">
-			<Text>Gold</Text>		<!-- Gold -->
+			<Text>ทอง</Text>		<!-- Gold -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_GOLD_TOOLTIP" Language="th_TH">
-			<Text>Increases the amount of bonus Gold that AI players receive.
-				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST]
+			<Text>เพิ่มจำนวนโบนัสทองที่ผู้เล่น AI ได้รับ
+				[n] [BLIST][LI]ผู้จดบันทึก: -20%[LI]ข้าหลวง: 0%[LI]อุปราช: +20%[LI]กษัตริย์: +40%[LI]เซียน: +60%[LI]เทพเจ้า: +80%[/LIST]
 			</Text>		<!-- Increases the amount of bonus Gold that AI players receive.
 				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST]
 			 -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_HAPPINESS" Language="th_TH">
-			<Text>Happiness</Text>		<!-- Happiness -->
+			<Text>ความสุข</Text>		<!-- Happiness -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_HAPPINESS_TOOLTIP" Language="th_TH">
-			<Text>Increases the amount of bonus Happiness that AI players receive.
-				[n] [BLIST][LI]Scribe: -30%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST]
+			<Text>เพิ่มจำนวนโบนัสความสุขที่ผู้เล่น AI ได้รับ
+				[n] [BLIST][LI]ผู้จดบันทึก: -30%[LI]ข้าหลวง: 0%[LI]อุปราช: +20%[LI]กษัตริย์: +40%[LI]เซียน: +60%[LI]เทพเจ้า: +80%[/LIST]
 			</Text>		<!-- Increases the amount of bonus Happiness that AI players receive.
 				[n] [BLIST][LI]Scribe: -30%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST]
 			 -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_IP_COMBAT" Language="th_TH">
-			<Text>Combat Strength for Independents</Text>		<!-- Combat Strength for Independents -->
+			<Text>ความแข็งแกร่งในการต่อสู้ของรัฐอิสระ</Text>		<!-- Combat Strength for Independents -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_IP_COMBAT_TOOLTIP" Language="th_TH">
-			<Text>Increases the bonus to Combat Strength for Independent Powers.
-				[n] [BLIST][LI]Scribe: -6 Combat Strength[LI]Governor: -3 Combat Strength[LI]Viceroy: -3 Combat Strength[LI]Sovereign: 0 Combat Strength[LI]Immortal: 0 Combat Strength[LI]Deity: 0 Combat Strength[/LIST]
+			<Text>เพิ่มโบนัสความแข็งแกร่งในการต่อสู้สำหรับอำนาจอิสระ
+				[n] [BLIST][LI]ผู้จดบันทึก: -6 ความแข็งแกร่ง[LI]ข้าหลวง: -3 ความแข็งแกร่ง[LI]อุปราช: -3 ความแข็งแกร่ง[LI]กษัตริย์: 0 ความแข็งแกร่ง[LI]เซียน: 0 ความแข็งแกร่ง[LI]เทพเจ้า: 0 ความแข็งแกร่ง[/LIST]
 			</Text>		<!-- Increases the bonus to Combat Strength for Independent Powers.
 				[n] [BLIST][LI]Scribe: -6 Combat Strength[LI]Governor: -3 Combat Strength[LI]Viceroy: -3 Combat Strength[LI]Sovereign: 0 Combat Strength[LI]Immortal: 0 Combat Strength[LI]Deity: 0 Combat Strength[/LIST]
 			 -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_SCIENCE" Language="th_TH">
-			<Text>Science</Text>		<!-- Science -->
+			<Text>วิทยาศาสตร์</Text>		<!-- Science -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_SCIENCE_TOOLTIP" Language="th_TH">
-			<Text>Increases the amount of bonus Science that AI players receive.
-				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST]
+			<Text>เพิ่มจำนวนโบนัสวิทยาศาสตร์ที่ผู้เล่น AI ได้รับ
+				[n] [BLIST][LI]ผู้จดบันทึก: -20%[LI]ข้าหลวง: 0%[LI]อุปราช: +20%[LI]กษัตริย์: +40%[LI]เซียน: +60%[LI]เทพเจ้า: +80%[/LIST]
 			</Text>		<!-- Increases the amount of bonus Science that AI players receive.
 				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST]
 			 -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_UNIT_PRODUCTION" Language="th_TH">
-			<Text>AI Unit Production</Text>		<!-- AI Unit Production -->
+			<Text>กำลังผลิตของ AI</Text>		<!-- AI Unit Production -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_UNIT_PRODUCTION_TOOLTIP" Language="th_TH">
-			<Text>Increases the bonus that AI players receive towards producing Units.
-				[n] [BLIST][LI]Scribe: -40%[LI]Governor: 0%[LI]Viceroy: +40%[LI]Sovereign: +80%[LI]Immortal: +120%[LI]Deity: +160%[/LIST]
+			<Text>เพิ่มโบนัสที่ผู้เล่น AI ได้รับในการผลิตยูนิต
+				[n] [BLIST][LI]ผู้จดบันทึก: -40%[LI]ข้าหลวง: 0%[LI]อุปราช: +40%[LI]กษัตริย์: +80%[LI]เซียน: +120%[LI]เทพเจ้า: +160%[/LIST]
 			</Text>		<!-- Increases the bonus that AI players receive towards producing Units.
 				[n] [BLIST][LI]Scribe: -40%[LI]Governor: 0%[LI]Viceroy: +40%[LI]Sovereign: +80%[LI]Immortal: +120%[LI]Deity: +160%[/LIST]
 			 -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_TECH_NODE_COST" Language="th_TH">
-			<Text>Tech Costs</Text>		<!-- Tech Costs -->
+			<Text>ค่าใช้จ่ายเทคโนโลยี</Text>		<!-- Tech Costs -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_TECH_NODE_COST_TOOLTIP" Language="th_TH">
-			<Text>Adjusts the amount of Science towards researching Techs for all players.
-				[n] [BLIST][LI]Scribe: +10%[LI]Governor: 0%[LI]Viceroy: -10%[LI]Sovereign: -20%[LI]Immortal: -30%[LI]Deity: -40%[/LIST]
+			<Text>ปรับจำนวนวิทยาศาสตร์ที่ใช้ในการวิจัยเทคโนโลยีสำหรับผู้เล่นทุกคน
+				[n] [BLIST][LI]ผู้จดบันทึก: +10%[LI]ข้าหลวง: 0%[LI]อุปราช: -10%[LI]กษัตริย์: -20%[LI]เซียน: -30%[LI]เทพเจ้า: -40%[/LIST]
 			</Text>		<!-- Adjusts the amount of Science towards researching Techs for all players.
 				[n] [BLIST][LI]Scribe: +10%[LI]Governor: 0%[LI]Viceroy: -10%[LI]Sovereign: -20%[LI]Immortal: -30%[LI]Deity: -40%[/LIST]
 			 -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_CIVIC_NODE_COST" Language="th_TH">
-			<Text>Civic Costs</Text>		<!-- Civic Costs -->
+			<Text>ค่าใช้จ่ายแนวคิด</Text>		<!-- Civic Costs -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_CIVIC_NODE_COST_TOOLTIP" Language="th_TH">
-			<Text>Adjusts the amount of Culture towards researching Civics for all players.
-				[n] [BLIST][LI]Scribe: +10%[LI]Governor: 0%[LI]Viceroy: -10%[LI]Sovereign: -20%[LI]Immortal: -30%[LI]Deity: -40%[/LIST]
+			<Text>ปรับจำนวนวัฒนธรรมที่ใช้ในการวิจัยแนวคิดสำหรับผู้เล่นทุกคน
+				[n] [BLIST][LI]ผู้จดบันทึก: +10%[LI]ข้าหลวง: 0%[LI]อุปราช: -10%[LI]กษัตริย์: -20%[LI]เซียน: -30%[LI]เทพเจ้า: -40%[/LIST]
 			</Text>		<!-- Adjusts the amount of Culture towards researching Civics for all players.
 				[n] [BLIST][LI]Scribe: +10%[LI]Governor: 0%[LI]Viceroy: -10%[LI]Sovereign: -20%[LI]Immortal: -30%[LI]Deity: -40%[/LIST]
 			 -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_OCEAN_DAMAGE" Language="th_TH">
-			<Text>Ocean Damage</Text>		<!-- Ocean Damage -->
+			<Text>ความเสียหายจากมหาสมุทร</Text>		<!-- Ocean Damage -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_OCEAN_DAMAGE_TOOLTIP" Language="th_TH">
-			<Text>Increases the damage reduction AI Units receive when ending their turn on Open Ocean tiles in Exploration.
-				[n] [BLIST][LI]Scribe: +25%[LI]Governor: +33%[LI]Viceroy: +40%[LI]Sovereign: +45%[LI]Immortal: +50%[LI]Deity: +80%[/LIST]
+			<Text>เพิ่มการลดความเสียหายที่ยูนิต AI ได้รับเมื่อจบเทิร์นบนช่องมหาสมุทรในยุคสำรวจ
+				[n] [BLIST][LI]ผู้จดบันทึก: +25%[LI]ข้าหลวง: +33%[LI]อุปราช: +40%[LI]กษัตริย์: +45%[LI]เซียน: +50%[LI]เทพเจ้า: +80%[/LIST]
 			</Text>		<!-- Increases the damage reduction AI Units receive when ending their turn on Open Ocean tiles in Exploration.
 				[n] [BLIST][LI]Scribe: +25%[LI]Governor: +33%[LI]Viceroy: +40%[LI]Sovereign: +45%[LI]Immortal: +50%[LI]Deity: +80%[/LIST]
 			 -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_FREE_STUFF" Language="th_TH">
-			<Text>Additional Walls on AI Settlements</Text>		<!-- Additional Walls on AI Settlements -->
+			<Text>กำแพงเพิ่มเติมในเมือง AI</Text>		<!-- Additional Walls on AI Settlements -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_FREE_STUFF_TOOLTIP" Language="th_TH">
-			<Text>Increases the number of Additional Walls AI players receive when unlocking the current Age Specific Walls.
-				[n] [BLIST][LI]Scribe: 0[LI]Governor: 0[LI]Viceroy: 1 City[LI]Sovereign: 2 City[LI]Immortal: 3 City/1 Town[LI]Deity: 4 City/1 Town[/LIST]
+			<Text>เพิ่มจำนวนกำแพงเพิ่มเติมที่ผู้เล่น AI ได้รับเมื่อปลดล็อกกำแพงเฉพาะยุค
+				[n] [BLIST][LI]ผู้จดบันทึก: 0[LI]ข้าหลวง: 0[LI]อุปราช: 1 เมือง[LI]กษัตริย์: 2 เมือง[LI]เซียน: 3 เมือง/1 เมืองเล็ก[LI]เทพเจ้า: 4 เมือง/1 เมืองเล็ก[/LIST]
 			</Text>		<!-- Increases the number of Additional Walls AI players receive when unlocking the current Age Specific Walls.
 				[n] [BLIST][LI]Scribe: 0[LI]Governor: 0[LI]Viceroy: 1 City[LI]Sovereign: 2 City[LI]Immortal: 3 City/1 Town[LI]Deity: 4 City/1 Town[/LIST]
 			 -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_SCORE_VICTORY_WARNING" Language="th_TH">
-			<Text>Disabling the Score Victory will end the game when all leaders are dominated.</Text>		<!-- Disabling the Score Victory will end the game when all leaders are dominated. -->
+			<Text>การปิดชัยชนะด้วยคะแนนจะจบเกมเมื่อผู้นำทุกคนถูกครอบงำ</Text>		<!-- Disabling the Score Victory will end the game when all leaders are dominated. -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_LEGACY_PATHS_DISABLED_WARNING" Language="th_TH">
-			<Text>Disabling a Legacy Path will cause it to not track progress, give rewards, display advisors, and will also disable any victory condition associated with it.</Text>		<!-- Disabling a Legacy Path will cause it to not track progress, give rewards, display advisors, and will also disable any victory condition associated with it. -->
+			<Text>การปิดเส้นทางมรดกจะทำให้ไม่ติดตามความคืบหน้า ไม่ให้รางวัล ไม่แสดงที่ปรึกษา และยังปิดเงื่อนไขชัยชนะที่เกี่ยวข้องด้วย</Text>		<!-- Disabling a Legacy Path will cause it to not track progress, give rewards, display advisors, and will also disable any victory condition associated with it. -->
 		</Replace>
 		<Replace Tag="LOC_UI_ADVANCED_START_TITLE" Language="th_TH">
 			<Text>เริ่มต้นขั้นสูง</Text>		<!-- Advanced Start -->
@@ -1992,7 +1992,7 @@
 			<Text>การต่อสู้</Text>		<!-- Combat -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEGENDS_TITLE" Language="th_TH">
-			<Text>Progression</Text>		<!-- Progression -->
+			<Text>ความก้าวหน้า</Text>		<!-- Progression -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_ARMY_TITLE" Language="th_TH">
 			<Text>การจัดการกองทัพ</Text>		<!-- Army Management -->
@@ -2109,10 +2109,10 @@
 			<Text>เทคโนโลยีที่จำเป็น:</Text>		<!-- Required Tech: -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_SIDEBAR_UNIT_MOVE_RANGE" Language="th_TH">
-			<Text>Move Range</Text>		<!-- Move Range -->
+			<Text>ระยะการเคลื่อนที่</Text>		<!-- Move Range -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_SIDEBAR_UNIT_SIGHT_RANGE" Language="th_TH">
-			<Text>Sight Range</Text>		<!-- Sight Range -->
+			<Text>ระยะการมองเห็น</Text>		<!-- Sight Range -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_SIDEBAR_REQUIRED_CIVIC" Language="th_TH">
 			<Text>แนวคิดที่จำเป็น:</Text>		<!-- Required Civic: -->
@@ -2214,7 +2214,7 @@
 			<Text>สิ่งต่อไปนี้จะเปลี่ยนไปหลังจากการเปลี่ยนแปลงยุค:</Text>		<!-- The following things change after an Age Transition: -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_39_CHAPTER_CONTENT_PARA_3" Language="th_TH">
-			<Text>Tip: When playing with the Regroup Age Transition Impact option, plan your army composition carefully before each Age transition to avoid losing valuable units or facing unexpected deficits.</Text>		<!-- Tip: When playing with the Regroup Age Transition Impact option, plan your army composition carefully before each Age transition to avoid losing valuable units or facing unexpected deficits. -->
+			<Text>เคล็ดลับ: เมื่อเล่นด้วยตัวเลือกผลกระทบการเปลี่ยนยุคแบบ Regroup วางแผนองค์ประกอบกองทัพของคุณอย่างรอบคอบก่อนแต่ละการเปลี่ยนยุคเพื่อหลีกเลี่ยงการสูญเสียยูนิตสำคัญหรือเผชิญกับการขาดแคลนที่ไม่คาดคิด</Text>		<!-- Tip: When playing with the Regroup Age Transition Impact option, plan your army composition carefully before each Age transition to avoid losing valuable units or facing unexpected deficits. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_2_CHAPTER_CONTENT_PARA_4" Language="th_TH">
 			<Text>[BLIST][LI]ผู้เล่นทุกคนเลือกอารยธรรมใหม่ [LI]เมืองทั้งหมดกลับไปเป็นเมืองเล็ก (ยกเว้นเมืองหลวงของผู้เล่น) [LI]โบนัสใกล้เคียงอาคารทั้งหมดจะถูกลบออก และสามารถสร้างใหม่ได้ [LI]รัฐอิสระใหม่และนครรัฐเกิดขึ้น [LI]แผนที่เต็มไปด้วยการค้นพบใหม่ ในยุคสมัยใหม่ พวกเขาต้องถูกค้นพบโดยนักสำรวจเพื่อให้ได้โบราณวัตถุสำหรับยุคนั้น [LI]ภารกิจที่ยังไม่เสร็จสิ้นจะสูญหาย [LI]ความสัมพันธ์กับผู้นำคนอื่นๆ เปลี่ยนไปในระดับปานกลางไปสู่ความเป็นกลาง [/LIST]</Text>		<!-- [BLIST][LI]All Players select new Civilizations[LI]All Cities revert to Towns (except Player capitals)[LI]All Buildings adjacency bonuses will be removed and they can be overbuilt[LI]New Independent Powers and City-States emerge[LI]The map is populated with new Discoveries. In Modern, they must be discovered by Explorers in order to gain Artifacts for that Age.[LI]Any uncompleted Quests are lost [LI]Relationships with other leaders change by a moderate amount towards Neutral[/LIST] -->
@@ -2592,7 +2592,7 @@
 			<Text>เคล็ดลับ: ให้ความสำคัญกับเทคโนโลยีและโครงสร้างพื้นฐานที่เกี่ยวข้องเพื่อก้าวนำหน้าในการแข่งขันในอวกาศ การรักษาความเป็นผู้นำในโครงการเหล่านี้สามารถให้ข้อได้เปรียบที่เด็ดขาดในการเผชิญหน้าที่ทันสมัยได้</Text>		<!-- Tip: Prioritize the relevant technologies and infrastructure to stay ahead in the Space Race. Securing the lead in these projects can give you a decisive advantage in the Modern Victory pursuit. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_35_CHAPTER_CONTENT_PARA_4" Language="th_TH">
-			<Text>Tip: Artifacts can be acquired through excavating Ruins, certain Narrative Events, and by Overbuilding in your Settlements. Focus on these activities to quickly accumulate Artifacts and advance along this legacy path.</Text>		<!-- Tip: Artifacts can be acquired through excavating Ruins, certain Narrative Events, and by Overbuilding in your Settlements. Focus on these activities to quickly accumulate Artifacts and advance along this legacy path. -->
+			<Text>เคล็ดลับ: คุณสามารถรับสิ่งประดิษฐ์ได้จากการขุดซากปรักหักพัง เหตุการณ์เนื้อเรื่องบางอย่าง และการสร้างทับในนิคมของคุณ มุ่งเน้นกิจกรรมเหล่านี้เพื่อสะสมสิ่งประดิษฐ์อย่างรวดเร็วและก้าวหน้าในเส้นทางมรดกนี้</Text>		<!-- Tip: Artifacts can be acquired through excavating Ruins, certain Narrative Events, and by Overbuilding in your Settlements. Focus on these activities to quickly accumulate Artifacts and advance along this legacy path. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_35_TITLE" Language="th_TH">
 			<Text>ยุคใหม่: สังคมภูมิศาสตร์</Text>		<!-- Modern: Geographic Society -->
@@ -2823,19 +2823,19 @@
 			<Text>อาคารที่เสียหายสามารถซ่อมแซมได้ผ่านทางคิวการผลิตหรือคิวการซื้อของถิ่นฐานที่เกี่ยวข้อง</Text>		<!-- Damaged buildings can be repaired through either the production queue or the purchase queue of the corresponding Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_NATURALWONDER_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
-			<Text>Tip: Natural Wonder yields are substantial, so discovering one early could significantly influence your expansion strategy.</Text>		<!-- Tip: Natural Wonder yields are substantial, so discovering one early could significantly influence your expansion strategy. -->
+			<Text>เคล็ดลับ: ผลตอบแทนจากสิ่งมหัศจรรย์ทางธรรมชาติมีมาก ดังนั้นการค้นพบตั้งแต่ต้นอาจส่งผลต่อกลยุทธ์การขยายตัวของคุณอย่างมาก</Text>		<!-- Tip: Natural Wonder yields are substantial, so discovering one early could significantly influence your expansion strategy. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DISCOVERIES_1_TITLE" Language="th_TH">
-			<Text>Discoveries</Text>		<!-- Discoveries -->
+			<Text>การค้นพบ</Text>		<!-- Discoveries -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DISCOVERIES_1_CHAPTER_CONTENT_PARA_1" Language="th_TH">
-			<Text>Discoveries replace the traditional “Goody Huts” from previous Civilization games. These special points of interest are placed on the map during its initial generation, and some may even reappear as exploration progresses.</Text>		<!-- Discoveries replace the traditional “Goody Huts” from previous Civilization games. These special points of interest are placed on the map during its initial generation, and some may even reappear as exploration progresses. -->
+			<Text>การค้นพบมาแทนที่ “กระท่อมของขวัญ” แบบดั้งเดิมจากเกม Civilization ก่อนหน้า จุดสนใจพิเศษเหล่านี้จะถูกวางบนแผนที่ระหว่างการสร้างแผนที่ครั้งแรก และบางจุดอาจปรากฏใหม่เมื่อการสำรวจดำเนินไป</Text>		<!-- Discoveries replace the traditional “Goody Huts” from previous Civilization games. These special points of interest are placed on the map during its initial generation, and some may even reappear as exploration progresses. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DISCOVERIES_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
-			<Text>There are three types of Discoveries, each increasing in complexity, rewards, and rarity:[BLIST][LI][B]Basic Discoveries[/B] function similarly to classic Goody Huts. When a unit enters the tile, the discovery provides an immediate small reward and then disappears.[LI][B]Investigations[/B] require more investment, either by dedicating a unit to remain at the location for several turns, paying a resource yield such as gold, science, production, happiness, or culture—or a combination of both. Completing Investigations provides medium-sized rewards.[LI][B]Mythic Quests[/B] offer substantial challenges but also grant large rewards. These Discoveries task the player with completing specific quests or achieving certain milestones before claiming their generous prizes.[/LIST]</Text>		<!-- There are three types of Discoveries, each increasing in complexity, rewards, and rarity:[BLIST][LI][B]Basic Discoveries[/B] function similarly to classic Goody Huts. When a unit enters the tile, the discovery provides an immediate small reward and then disappears.[LI][B]Investigations[/B] require more investment, either by dedicating a unit to remain at the location for several turns, paying a resource yield such as gold, science, production, happiness, or culture—or a combination of both. Completing Investigations provides medium-sized rewards.[LI][B]Mythic Quests[/B] offer substantial challenges but also grant large rewards. These Discoveries task the player with completing specific quests or achieving certain milestones before claiming their generous prizes.[/LIST] -->
+			<Text>มีการค้นพบสามประเภท แต่ละประเภทมีความซับซ้อน รางวัล และความหายากเพิ่มขึ้น:[BLIST][LI][B]การค้นพบพื้นฐาน[/B] ทำงานคล้ายกับกระท่อมของขวัญแบบคลาสสิก เมื่อยูนิตเข้าสู่ช่อง การค้นพบจะให้รางวัลเล็กน้อยทันทีและหายไป[LI][B]การสืบสวน[/B] ต้องใช้การลงทุนมากขึ้น ไม่ว่าจะโดยการให้ยูนิตอยู่ที่ตำแหน่งนั้นหลายเทิร์น จ่ายทรัพยากรเช่น ทอง วิทยาศาสตร์ การผลิต ความสุข หรือวัฒนธรรม หรือทั้งสองอย่าง การสืบสวนที่สำเร็จจะให้รางวัลขนาดกลาง[LI][B]ภารกิจในตำนาน[/B] มีความท้าทายมากแต่ให้รางวัลใหญ่ การค้นพบเหล่านี้จะมอบหมายให้ผู้เล่นทำภารกิจเฉพาะหรือบรรลุเป้าหมายก่อนที่จะรับรางวัลมากมาย[/LIST]</Text>		<!-- There are three types of Discoveries, each increasing in complexity, rewards, and rarity:[BLIST][LI][B]Basic Discoveries[/B] function similarly to classic Goody Huts. When a unit enters the tile, the discovery provides an immediate small reward and then disappears.[LI][B]Investigations[/B] require more investment, either by dedicating a unit to remain at the location for several turns, paying a resource yield such as gold, science, production, happiness, or culture—or a combination of both. Completing Investigations provides medium-sized rewards.[LI][B]Mythic Quests[/B] offer substantial challenges but also grant large rewards. These Discoveries task the player with completing specific quests or achieving certain milestones before claiming their generous prizes.[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DISCOVERIES_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
-			<Text>Tip: Always prioritize sending scouts or idle units to explore Discoveries early. Basic Discoveries give quick boosts, while strategic investment in Investigations and Mythic Quests can significantly accelerate your civilization’s progress.</Text>		<!-- Tip: Always prioritize sending scouts or idle units to explore Discoveries early. Basic Discoveries give quick boosts, while strategic investment in Investigations and Mythic Quests can significantly accelerate your civilization’s progress. -->
+			<Text>เคล็ดลับ: ให้ความสำคัญกับการส่งยูนิตสอดแนมหรือยูนิตว่างไปสำรวจการค้นพบตั้งแต่ต้น การค้นพบพื้นฐานให้การสนับสนุนอย่างรวดเร็ว ขณะที่การลงทุนเชิงกลยุทธ์ใน การสืบสวนและภารกิจในตำนานสามารถเร่งความก้าวหน้าของอารยธรรมคุณได้อย่างมาก</Text>		<!-- Tip: Always prioritize sending scouts or idle units to explore Discoveries early. Basic Discoveries give quick boosts, while strategic investment in Investigations and Mythic Quests can significantly accelerate your civilization’s progress. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_REPAIR_1_CHAPTER_IMPROVEMENTREPAIR_TITLE" Language="th_TH">
 			<Text>การพัฒนาซ่อมแซม</Text>		<!-- Improvement Repair -->
@@ -3030,7 +3030,7 @@
 			<Text>การจัดสรรประชากรให้กับพื้นที่ว่างจัดเป็นพื้นที่ชนบทและเพิ่มการพัฒนาตามลักษณะภูมิประเทศ</Text>		<!-- Allocating a Population to an empty tile zones it as Rural and adds an Improvement based on the terrain. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_RESOURCES_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
-			<Text>Tip: The Resource Assignments Available Notification will appear when you obtain a new Resource or when a new Resource Slot is available.</Text>		<!-- Tip: The Resource Assignments Available Notification will appear when you obtain a new Resource or when a new Resource Slot is available. -->
+			<Text>เคล็ดลับ: การแจ้งเตือนการมอบหมายทรัพยากรจะปรากฏเมื่อคุณได้รับทรัพยากรใหม่หรือเมื่อมีช่องทรัพยากรใหม่พร้อมใช้งาน</Text>		<!-- Tip: The Resource Assignments Available Notification will appear when you obtain a new Resource or when a new Resource Slot is available. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_IMPROVEMENT_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>หากแผ่นปูพื้นมีทรัพยากร ทรัพยากรนั้นจะกำหนดการพัฒนาพื้นฐาน สำหรับแผ่นปูพื้นที่ไม่มีทรัพยากร การพัฒนาจะแตกต่างกันไปตามชีวภูมิ ตัวอย่างเช่น: [BLIST][LI]ภูมิประเทศราบ: ฟาร์ม - ให้ผลผลิตเป็นอาหาร[LI]ภูมิประเทศเนินเขา: เหมือง - ให้ผลผลิตเป็นการผลิต[LI]คุณลักษณะพืชพันธุ์: คนตัดไม้ - ให้ผลผลิตเป็นการผลิต[LI]คุณลักษณะชื้น: หลุมดินเหนียว - ให้ผลผลิตเป็นการผลิต[LI]แม่น้ำใหญ่ หรือ ชายฝั่ง: เรือประมง - ให้ผลผลิตเป็นอาหาร[/LIST]</Text>		<!-- If a tile has a Resource, that Resource determines the basic Improvement. For tiles without Resources, the Improvement varies by Biome. Examples include:[BLIST][LI]Flat Terrain: Farm - Provides Food.[LI]Hill Terrain: Mine - Provides Production.[LI]Vegetation Feature: Woodcutter - Provides Production.[LI]Wet Feature: Clay Pit - Provides Production.[LI]Navigable River or Coast: Fishing Boats - Provides Food.[/LIST] -->
@@ -3119,10 +3119,10 @@
 			<Text>เคล็ดลับ: เมืองควรสร้างในสถานที่ที่มีอาหาร ผลิตภัณฑ์ และการเข้าถึงทรัพยากรต่างๆ อย่างเพียงพอ การสร้างเมืองบนแม่น้ำหรือพื้นที่ชายฝั่งเป็นความคิดที่ดี เพราะน้ำมีความสำคัญต่อประชากรที่กำลังเติบโต</Text>		<!-- Tip: Cities should be constructed in locations with plenty of Food, Production, and access to various resources. Building Cities on a River or coastal hex is a good idea, as water is vital for a growing Population. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_1_CHAPTER_RESTRICTION_TITLE" Language="th_TH">
-			<Text>Restrictions</Text>		<!-- Restrictions -->
+			<Text>ข้อจำกัด</Text>		<!-- Restrictions -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_1_CHAPTER_RESTRICTION_PARA_1" Language="th_TH">
-			<Text>[BLIST][LI]Unrest: Towns cannot start a project while in Unrest. After capturing a settlement, Civs must wait until the unrest period is over before assigning a Town a specialization.[LI]Permanent Specialization: Once a Town’s Focus is selected, it is locked in permanently. Choose wisely![/LIST]</Text>		<!-- [BLIST][LI]Unrest: Towns cannot start a project while in Unrest. After capturing a settlement, Civs must wait until the unrest period is over before assigning a Town a specialization.[LI]Permanent Specialization: Once a Town’s Focus is selected, it is locked in permanently. Choose wisely![/LIST] -->
+			<Text>[BLIST][LI]ความไม่สงบ: เมืองไม่สามารถเริ่มโครงการขณะอยู่ในความไม่สงบ หลังจากยึดนิคม อารยธรรมต้องรอจนกว่าช่วงความไม่สงบจะสิ้นสุดก่อนที่จะกำหนดความเชี่ยวชาญให้กับเมือง[LI]ความเชี่ยวชาญถาวร: เมื่อเลือกโฟกัสของเมืองแล้ว จะถูกล็อกถาวร เลือกอย่างรอบคอบ![/LIST]</Text>		<!-- [BLIST][LI]Unrest: Towns cannot start a project while in Unrest. After capturing a settlement, Civs must wait until the unrest period is over before assigning a Town a specialization.[LI]Permanent Specialization: Once a Town’s Focus is selected, it is locked in permanently. Choose wisely![/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_1_TITLE" Language="th_TH">
 			<Text>เมือง</Text>		<!-- Towns -->
@@ -3251,7 +3251,7 @@
 			<Text>ยุค</Text>		<!-- Ages -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_1_CHAPTER_CONTENT_PARA_4" Language="th_TH">
-			<Text>Tip: Some buildings are Ageless, meaning they continue to offer effects regardless of the current Age. Additionally, some buildings have adjacency bonuses, providing extra yields when placed next to specific structures or features.</Text>		<!-- Tip: Some buildings are Ageless, meaning they continue to offer effects regardless of the current Age. Additionally, some buildings have adjacency bonuses, providing extra yields when placed next to specific structures or features. -->
+			<Text>เคล็ดลับ: อาคารบางแห่งไม่มีอายุ หมายความว่าจะยังคงให้ผลลัพธ์ไม่ว่าขณะนั้นจะอยู่ในยุคใด นอกจากนี้อาคารบางแห่งยังมีโบนัสติดกัน ให้ผลตอบแทนพิเศษเมื่อวางติดกับโครงสร้างหรือสิ่งแวดล้อมเฉพาะ</Text>		<!-- Tip: Some buildings are Ageless, meaning they continue to offer effects regardless of the current Age. Additionally, some buildings have adjacency bonuses, providing extra yields when placed next to specific structures or features. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_AGES_1_CHAPTER_CONTENT_PARA_1" Language="th_TH">
 			<Text>ประวัติศาสตร์สร้างขึ้นมาเป็นชั้นๆ ไม่มีอาณาจักรไหนที่ยืนหยัดทนทานต่อการพิสูจน์ของเวลาได้ทั้งหมด อาณาจักรที่สืบทอดต่อมาได้สร้างอยู่บนความรุ่งเรืองของผู้ที่มาก่อน</Text>		<!-- History is built in layers. No empire has stood the entire test of time. Instead, successor kingdoms build on the glories of their predecessors. -->
@@ -3263,22 +3263,22 @@
 			<Text>ยุคสมัยต่างๆ ย้อนกลับไปยังช่วงเวลาที่เฉพาะเจาะจงในประวัติศาสตร์โลก เมืองต่างๆ ประกอบด้วยอาคารและสิ่งมหัศจรรย์ที่นำไปสู่ความเจริญรุ่งเรืองและความก้าวหน้าทางแนวคิดของยุค เกมระบบต่างๆ เช่น การปกครอง การทูต และการค้า ถูกปรับแต่งให้เหมาะสมกับแต่ละยุค</Text>		<!-- Ages harken back to specific times in world history. Cities only contain buildings and wonders that led to the prosperity and civic advancement of the Age. Game systems, such as government, diplomacy, and trade are tailored for each era. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_12_TITLE" Language="th_TH">
-			<Text>Buildings: Standard Buildings</Text>		<!-- Buildings: Standard Buildings -->
+			<Text>อาคาร: อาคารมาตรฐาน</Text>		<!-- Buildings: Standard Buildings -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_12_CHAPTER_CONTENT_PARA_1" Language="th_TH">
-			<Text>Standard Buildings are the foundational structures available to all civilizations, providing essential yields such as Science, Culture, Production, and more. Unlike Unique Buildings, which are tied to specific civilizations and often come with special bonuses, Standard Buildings are more universally accessible and form the backbone of your infrastructure.</Text>		<!-- Standard Buildings are the foundational structures available to all civilizations, providing essential yields such as Science, Culture, Production, and more. Unlike Unique Buildings, which are tied to specific civilizations and often come with special bonuses, Standard Buildings are more universally accessible and form the backbone of your infrastructure. -->
+			<Text>อาคารมาตรฐานเป็นโครงสร้างพื้นฐานที่มีให้กับทุกอารยธรรม ให้ผลตอบแทนสำคัญ เช่น วิทยาศาสตร์ วัฒนธรรม การผลิต และอื่น ๆ แตกต่างจากอาคารเฉพาะที่ผูกกับอารยธรรมและมักมีโบนัสพิเศษ อาคารมาตรฐานสามารถเข้าถึงได้อย่างกว้างขวางและเป็นรากฐานของโครงสร้างพื้นฐานของคุณ</Text>		<!-- Standard Buildings are the foundational structures available to all civilizations, providing essential yields such as Science, Culture, Production, and more. Unlike Unique Buildings, which are tied to specific civilizations and often come with special bonuses, Standard Buildings are more universally accessible and form the backbone of your infrastructure. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_12_CHAPTER_CONTENT_PARA_2" Language="th_TH">
-			<Text>However, as your civilization progresses through different Ages, Standard Buildings undergo changes. During an Age Transition, these buildings lose their adjacency bonuses, retaining only their base yields. This reduction can significantly impact your city's productivity if not addressed.</Text>		<!-- However, as your civilization progresses through different Ages, Standard Buildings undergo changes. During an Age Transition, these buildings lose their adjacency bonuses, retaining only their base yields. This reduction can significantly impact your city's productivity if not addressed. -->
+			<Text>อย่างไรก็ตาม เมื่ออารยธรรมของคุณก้าวผ่านยุคต่าง ๆ อาคารมาตรฐานจะเปลี่ยนแปลงไป ในช่วงเปลี่ยนยุค อาคารเหล่านี้จะสูญเสียโบนัสติดกัน เหลือเพียงผลตอบแทนพื้นฐานเท่านั้น การลดลงนี้อาจส่งผลต่อประสิทธิภาพของเมืองคุณอย่างมากหากไม่ได้รับการแก้ไข</Text>		<!-- However, as your civilization progresses through different Ages, Standard Buildings undergo changes. During an Age Transition, these buildings lose their adjacency bonuses, retaining only their base yields. This reduction can significantly impact your city's productivity if not addressed. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_12_CHAPTER_CONTENT_PARA_3" Language="th_TH">
-			<Text>Despite the loss of adjacency bonuses, Standard Buildings continue to incur maintenance costs. This means they can become economic burdens if not updated or replaced, as they offer diminished returns while still consuming resources.</Text>		<!-- Despite the loss of adjacency bonuses, Standard Buildings continue to incur maintenance costs. This means they can become economic burdens if not updated or replaced, as they offer diminished returns while still consuming resources. -->
+			<Text>แม้จะสูญเสียโบนัสติดกัน อาคารมาตรฐานยังคงมีค่าใช้จ่ายในการบำรุงรักษา ซึ่งหมายความว่าอาจกลายเป็นภาระทางเศรษฐกิจหากไม่ได้รับการปรับปรุงหรือแทนที่ เนื่องจากให้ผลตอบแทนน้อยลงแต่ยังคงใช้ทรัพยากร</Text>		<!-- Despite the loss of adjacency bonuses, Standard Buildings continue to incur maintenance costs. This means they can become economic burdens if not updated or replaced, as they offer diminished returns while still consuming resources. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_12_CHAPTER_CONTENT_PARA_4" Language="th_TH">
-			<Text>To mitigate these issues, the game introduces the Overbuilding mechanic. Overbuilding allows you to construct new, more advanced buildings over existing ones, effectively replacing outdated structures with ones that are better suited to the current Age. This process helps restore or even enhance the adjacency bonuses and yields that were lost during the Age Transition.</Text>		<!-- To mitigate these issues, the game introduces the Overbuilding mechanic. Overbuilding allows you to construct new, more advanced buildings over existing ones, effectively replacing outdated structures with ones that are better suited to the current Age. This process helps restore or even enhance the adjacency bonuses and yields that were lost during the Age Transition. -->
+			<Text>เพื่อแก้ไขปัญหาเหล่านี้ เกมจึงนำกลไกการสร้างทับมาใช้ การสร้างทับช่วยให้คุณสร้างอาคารใหม่ที่ทันสมัยกว่าแทนอาคารเดิมที่ล้าสมัย ซึ่งจะช่วยฟื้นฟูหรือแม้แต่เพิ่มโบนัสติดกันและผลตอบแทนที่สูญเสียไปในช่วงเปลี่ยนยุค</Text>		<!-- To mitigate these issues, the game introduces the Overbuilding mechanic. Overbuilding allows you to construct new, more advanced buildings over existing ones, effectively replacing outdated structures with ones that are better suited to the current Age. This process helps restore or even enhance the adjacency bonuses and yields that were lost during the Age Transition. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_12_CHAPTER_CONTENT_PARA_5" Language="th_TH">
-			<Text>Regularly assess your cities after each Age Transition. Identify Standard Buildings that have lost their adjacency bonuses and consider overbuilding them with newer structures to maximize efficiency and maintain a strong economy.</Text>		<!-- Regularly assess your cities after each Age Transition. Identify Standard Buildings that have lost their adjacency bonuses and consider overbuilding them with newer structures to maximize efficiency and maintain a strong economy. -->
+			<Text>ประเมินเมืองของคุณเป็นประจำหลังแต่ละการเปลี่ยนยุค ระบุอาคารมาตรฐานที่สูญเสียโบนัสติดกันและพิจารณาสร้างทับด้วยโครงสร้างใหม่เพื่อเพิ่มประสิทธิภาพและรักษาเศรษฐกิจให้แข็งแกร่ง</Text>		<!-- Regularly assess your cities after each Age Transition. Identify Standard Buildings that have lost their adjacency bonuses and consider overbuilding them with newer structures to maximize efficiency and maintain a strong economy. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_AGES_1_CHAPTER_CONTENT_PARA_4" Language="th_TH">
 			<Text>สุดท้ายแล้ว แต่ละยุคจะจบลงด้วยการแข่งขันเพื่อทำให้จักรวรรดิของคุณอยู่บนแท่นเป็นราชอาณาจักรที่ยิ่งใหญ่ที่สุดในยุคนั้น ผู้เล่นแข่งขันกันเพื่อสร้างเจ็ดมหัศจรรย์แห่งโลกโบราณหรือเติมห้องสมุดขนาดใหญ่ของพวกเขาด้วยความรู้ทั้งหมดจากยุคโบราณ และความก้าวหน้าไปสู่เป้าหมายเหล่านี้จะมอบโบนัสสำหรับยุคถัดไป</Text>		<!-- Finally, each Age concludes with a race to put your empire on a pedestal as the greatest kingdom of the era. Players race to build the Seven Wonders of the Ancient World or to fill their Great Library with all the knowledge of Antiquity and advances toward these objectives provide bonuses for the next Age. -->
@@ -3404,7 +3404,7 @@
 			<Text>เคล็ดลับ: นโยบายจะต้องมีการจัดลำดับเพื่อให้มีประสิทธิภาพ ดังนั้นการเพิ่มผลผลิตความสุขของคุณเพื่อรับช่องเพิ่มเติมจากการเฉลิมฉลองจึงเป็นสิ่งสำคัญ กลยุทธ์วัฒนธรรมที่แข็งแกร่งขึ้นอยู่กับการจัดการความสุขที่มีประสิทธิภาพ</Text>		<!-- Tip: Policies must be slotted to be effective. Therefore, increasing your Happiness yield to gain more slots from Celebrations is crucial. A strong Culture strategy relies on robust Happiness management. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_1_CHAPTER_CONTENT_PARA_5" Language="th_TH">
-			<Text>Tip: If you care about managing relationships, invest in acquiring Influence. Certain buildings, wonders, policies, and towns grant extra Influence. </Text>		<!-- Tip: If you care about managing relationships, invest in acquiring Influence. Certain buildings, wonders, policies, and towns grant extra Influence. -->
+			<Text>เคล็ดลับ: หากคุณต้องการบริหารความสัมพันธ์ ให้ลงทุนในการได้รับอิทธิพล อาคาร สิ่งมหัศจรรย์ นโยบาย และเมืองบางแห่งจะให้อิทธิพลเพิ่มเติม</Text>		<!-- Tip: If you care about managing relationships, invest in acquiring Influence. Certain buildings, wonders, policies, and towns grant extra Influence. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_POLICIES_2_TITLE" Language="th_TH">
 			<Text>นโยบาย: ประเพณี</Text>		<!-- Policies: Traditions -->
@@ -3416,19 +3416,19 @@
 			<Text>คำแนะนำ: ลงทุนในประเพณี เพราะมันมักจะสอดคล้องกับจุดแข็งของอารยธรรมของคุณ ประเพณีทั้งหมดของคุณจะอยู่รอดไปจนถึงยุคถัดไป</Text>		<!-- Tip: Invest in Traditions, as they often align with your civilization’s strengths. All of your Traditions will survive into the next Age. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_5_TITLE" Language="th_TH">
-			<Text>Incite Raid</Text>		<!-- Incite Raid -->
+			<Text>ยุยงให้บุกโจมตี</Text>		<!-- Incite Raid -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_5_CHAPTER_CONTENT_PARA_1" Language="th_TH">
-			<Text>Incite Raid is a diplomatic action that allows you to direct Independent Powers to launch a raid against another civilization of your choosing. This tactic can be a strategic tool to divert aggression away from your own settlements or to weaken a rival.</Text>		<!-- Incite Raid is a diplomatic action that allows you to direct Independent Powers to launch a raid against another civilization of your choosing. This tactic can be a strategic tool to divert aggression away from your own settlements or to weaken a rival. -->
+			<Text>ยุยงให้บุกโจมตีเป็นการดำเนินการทางการทูตที่ช่วยให้คุณสั่งให้อำนาจอิสระโจมตีอารยธรรมอื่นที่คุณเลือก กลยุทธ์นี้สามารถใช้เบี่ยงเบนความก้าวร้าวออกจากนิคมของคุณหรือทำให้อริอ่อนแอลง</Text>		<!-- Incite Raid is a diplomatic action that allows you to direct Independent Powers to launch a raid against another civilization of your choosing. This tactic can be a strategic tool to divert aggression away from your own settlements or to weaken a rival. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_5_CHAPTER_CONTENT_PARA_2" Language="th_TH">
-			<Text>To initiate an Incite Raid, locate an Independent Power on the map. Upon interacting with them, you'll have the option to spend Influence to incite a raid. After selecting this option, choose the leader you wish to target. The Independent Power will then prepare to launch a raid against the chosen civilization.</Text>		<!-- To initiate an Incite Raid, locate an Independent Power on the map. Upon interacting with them, you'll have the option to spend Influence to incite a raid. After selecting this option, choose the leader you wish to target. The Independent Power will then prepare to launch a raid against the chosen civilization. -->
+			<Text>ในการเริ่มยุยงให้บุกโจมตี ให้ค้นหาอำนาจอิสระบนแผนที่ เมื่อโต้ตอบกับพวกเขา คุณจะมีตัวเลือกใช้อิทธิพลเพื่อยุยงให้บุกโจมตี หลังจากเลือกตัวเลือกนี้ ให้เลือกผู้นำที่คุณต้องการเป็นเป้าหมาย อำนาจอิสระจะเตรียมการบุกโจมตีอารยธรรมที่เลือก</Text>		<!-- To initiate an Incite Raid, locate an Independent Power on the map. Upon interacting with them, you'll have the option to spend Influence to incite a raid. After selecting this option, choose the leader you wish to target. The Independent Power will then prepare to launch a raid against the chosen civilization. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_5_CHAPTER_CONTENT_PARA_3" Language="th_TH">
-			<Text>If the targeted Independent Power lacks sufficient military units to conduct the raid, additional units will be spawned to ensure the raid proceeds. This mechanism ensures that the raid can be executed even if the Independent Power is initially under-resourced.</Text>		<!-- If the targeted Independent Power lacks sufficient military units to conduct the raid, additional units will be spawned to ensure the raid proceeds. This mechanism ensures that the raid can be executed even if the Independent Power is initially under-resourced. -->
+			<Text>หากอำนาจอิสระที่ถูกเลือกไม่มียูนิตทหารเพียงพอสำหรับการบุกโจมตี จะมีการสร้างยูนิตเพิ่มเติมเพื่อให้การบุกโจมตีดำเนินต่อไปได้ กลไกนี้ช่วยให้มั่นใจว่าการบุกโจมตีจะเกิดขึ้นแม้อำนาจอิสระจะขาดแคลนกำลังพลในตอนแรก</Text>		<!-- If the targeted Independent Power lacks sufficient military units to conduct the raid, additional units will be spawned to ensure the raid proceeds. This mechanism ensures that the raid can be executed even if the Independent Power is initially under-resourced. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_5_CHAPTER_CONTENT_PARA_4" Language="th_TH">
-			<Text>Tip: Use Incite Raid to strategically redirect potential threats away from your empire. By influencing Independent Powers to target rival civilizations, you can create opportunities to strengthen your position or exploit weaknesses in your opponents' defenses.</Text>		<!-- Tip: Use Incite Raid to strategically redirect potential threats away from your empire. By influencing Independent Powers to target rival civilizations, you can create opportunities to strengthen your position or exploit weaknesses in your opponents' defenses. -->
+			<Text>เคล็ดลับ: ใช้ยุยงให้บุกโจมตีเพื่อเบี่ยงเบนภัยคุกคามออกจากอาณาจักรของคุณ โดยชักจูงให้อำนาจอิสระโจมตีอารยธรรมคู่แข่ง คุณสามารถสร้างโอกาสในการเสริมความแข็งแกร่งหรือใช้ประโยชน์จากจุดอ่อนของฝ่ายตรงข้าม</Text>		<!-- Tip: Use Incite Raid to strategically redirect potential threats away from your empire. By influencing Independent Powers to target rival civilizations, you can create opportunities to strengthen your position or exploit weaknesses in your opponents' defenses. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_1_TITLE" Language="th_TH">
 			<Text>ความสัมพันธ์ที่เปลี่ยนแปลง</Text>		<!-- Changing Relationship -->
@@ -3665,7 +3665,7 @@
 			<Text>กวาดล้างทางอากาศ</Text>		<!-- Fighter Sweep -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_7_CHAPTER_CONTENT_PARA_3" Language="th_TH">
-			<Text>Tip: Use Embark for quick water crossings, but avoid leaving units exposed on open water, as their reduced combat strength makes them susceptible to attacks. Prioritize Amphibious units for coastal operations if you need full combat strength on water.</Text>		<!-- Tip: Use Embark for quick water crossings, but avoid leaving units exposed on open water, as their reduced combat strength makes them susceptible to attacks. Prioritize Amphibious units for coastal operations if you need full combat strength on water. -->
+			<Text>เคล็ดลับ: ใช้การลงน้ำเพื่อข้ามน้ำอย่างรวดเร็ว แต่หลีกเลี่ยงการปล่อยยูนิตไว้กลางน้ำ เพราะความแข็งแกร่งในการต่อสู้ที่ลดลงทำให้เสี่ยงต่อการถูกโจมตี เลือกยูนิตสะเทินน้ำสะเทินบกสำหรับปฏิบัติการชายฝั่งหากต้องการความแข็งแกร่งเต็มที่บนผิวน้ำ</Text>		<!-- Tip: Use Embark for quick water crossings, but avoid leaving units exposed on open water, as their reduced combat strength makes them susceptible to attacks. Prioritize Amphibious units for coastal operations if you need full combat strength on water. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_10_CHAPTER_CONTENT_PARA_1" Language="th_TH">
 			<Text>การกวาดล้างทางอากาศ จะดึงดูดและสร้างความเสียหาย—หรือแม้กระทั่งทำลาย—นักบินรบของศัตรู, ทำให้การใช้เครื่องบินทิ้งระเบิดปลอดภัยยิ่งขึ้น, โดยการมอบหมายหน่วยนักบินรบของคุณให้กับผู้บัญชาการฝูงบิน คุณสามารถใช้ความสามารถการกวาดล้างในตำแหน่งเป้าหมาย บังคับให้นักบินรบฝ่ายป้องกันเข้าสกัดกั้น เมื่อเครื่องบินข้าศึกเหล่านี้ถูกโจมตีหรือกำจัดแล้ว เครื่องบินทิ้งระเบิดของคุณสามารถปฏิบัติการได้โดยมีความเสี่ยงน้อยลงมาก</Text>		<!-- A Fighter Sweep draws out and damages—or even destroys—enemy fighters, paving the way for a safer bombing run. By assigning your fighter units to a Squadron Commander, you can use the Sweep ability on a target location, forcing defending fighters to intercept. Once these hostile aircraft have been engaged or eliminated, your bombers can operate with far less risk. -->
@@ -3689,7 +3689,7 @@
 			<Text>เมื่อยูนิตขึ้นเรือเพื่อข้ามแผ่นน้ำ ยูนิตจะใช้กำลังการต่อสู้ที่มาตรฐานซึ่งปรับตามยุคสมัย แทนที่จะใช้กำลังการต่อสู้ตามพื้นฐานบนบก ยูนิตที่ขึ้นเรือจะมี 5 กำลังการต่อสู้ในยุคโบราณ 25 กำลังการต่อสู้ในยุคสำรวจ และ 50 กำลังการต่อสู้ในยุคใหม่ นั่นหมายความว่าในขณะที่พวกเขาสามารถป้องกันตัวเองได้ แต่โดยทั่วไปแล้วพวกเขาจะเปราะบางกว่ากำลังการต่อสู้บนบก</Text>		<!-- When a unit embarks to traverse water tiles, it adopts a standardized combat strength that scales with the ages, rather than using its default land-based strength. Embarked units have 5 Combat Strength in the Antiquity Age, 25 Combat Strength in the Exploration Age, and 50 Combat Strength in the Modern Age. This means that while they can defend themselves, they are generally more vulnerable compared to their strength on land. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TECH_1_CHAPTER_CONTENT_PARA_4" Language="th_TH">
-			<Text>Tip: Focusing on technology research is an excellent way to gain a military advantage, as most military units are locked behind technologies.</Text>		<!-- Tip: Focusing on technology research is an excellent way to gain a military advantage, as most military units are locked behind technologies. -->
+			<Text>เคล็ดลับ: มุ่งเน้นการวิจัยเทคโนโลยีเป็นวิธีที่ยอดเยี่ยมในการสร้างความได้เปรียบทางทหาร เพราะยูนิตส่วนใหญ่ถูกปลดล็อกด้วยเทคโนโลยี</Text>		<!-- Tip: Focusing on technology research is an excellent way to gain a military advantage, as most military units are locked behind technologies. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_7_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>เคล็ดลับ: ใช้ ขึ้นเรือ สำหรับการข้ามน้ำอย่างรวดเร็ว แต่ควรหลีกเลี่ยงการทิ้งยูนิตไว้ในน้ำเปิด เนื่องจากความแข็งแกร่งในการรบที่ลดลงทำให้พวกเขาเสี่ยงต่อการถูกโจมตี ให้ความสำคัญกับยูนิตทางน้ำสำหรับปฏิบัติการชายฝั่งหากคุณต้องการความแข็งแกร่งในการรบเต็มที่ในน้ำ</Text>		<!-- Tip: Use Embark for quick water crossings, but avoid leaving units exposed on open water, as their reduced combat strength makes them susceptible to attacks. Prioritize Amphibious units for coastal operations if you need full combat strength on water. -->
@@ -3701,7 +3701,7 @@
 			<Text>การกระทำ เสริมสร้าง อนุญาตให้ยูนิตสร้างการป้องกันชั่วคราวบนช่องที่อยู่ในขณะนั้น โดยใช้เวลาทั้งหมด 2 เทิร์นในการสร้างตามค่าเริ่มต้น เมื่อตั้งการป้องกันเสร็จแล้ว ยูนิตจะได้รับโบนัสพลังต่อสู้ +6 เมื่อต้องป้องกัน โบนัสป้องกันนี้สอดคล้องกับการป้องกันจากสิ่งก่อสร้าง เช่น ปราการเนินเขา หรือ แบตเตอรี่ชายฝั่ง ซึ่งให้การเสริมความแข็งแกร่งในการป้องกันต่อการโจมตีของศัตรูได้อย่างมั่นคง</Text>		<!-- The Fortify action allows a unit to build temporary fortifications on its current tile, taking 2 turns to complete by default. Once fortifications are in place, the unit gains a +6 Combat Strength bonus when defending. This defensive bonus aligns with that of improvement fortifications like the Hillfort or Shore Battery, providing a solid defense boost against enemy attacks. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CIVIC_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
-			<Text>Tip: While Civics unlock Policies that can be slotted, Happiness ultimately grants extra slots. Maintain a balanced focus on both!</Text>		<!-- Tip: While Civics unlock Policies that can be slotted, Happiness ultimately grants extra slots. Maintain a balanced focus on both! -->
+			<Text>เคล็ดลับ: แม้แนวคิดจะปลดล็อกนโยบายที่สามารถใส่ได้ แต่ความสุขจะให้ช่องเพิ่มเติม รักษาสมดุลทั้งสองด้าน!</Text>		<!-- Tip: While Civics unlock Policies that can be slotted, Happiness ultimately grants extra slots. Maintain a balanced focus on both! -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_8_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>เคล็ดลับ: ใช้การเสริมกำลังในตำแหน่งยุทธศาสตร์ โดยเฉพาะในพื้นที่ที่มีความเสี่ยงหรือจุดคอขวด เพื่อเสริมความแข็งแกร่งในการป้องกัน ยูนิตในตำแหน่งที่ได้รับการเสริมกำลังสามารถต้านทานการโจมตีได้อย่างมีประสิทธิภาพมากขึ้น ทำให้พวกเขามีคุณค่าสำหรับการครอบครองดินแดนที่สำคัญ</Text>		<!-- Tip: Use Fortify in strategic locations, especially in vulnerable areas or chokepoints, to strengthen your defense. Units in fortified positions can withstand attacks more effectively, making them valuable for holding critical territory. -->
@@ -3992,91 +3992,91 @@
 			<Text>ในโหมดผู้เล่นหลายคน ผู้เล่นสามารถจัดตั้งทีมได้ โดยเลือกทีมเดียวกันจากเมนูแบบเลื่อนลงเมื่อตั้งค่าเกม</Text>		<!-- In Multiplayer, players can form teams. To set this up, players should select the same team in the team dropdown menu when creating a multiplayer game. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
-			<Text>Tip: Treat Legends as a rewarding extra layer rather than a mandatory system. Play your way, experiment freely, and you'll naturally find yourself unlocking bonuses and enhancing your civilization’s long-term capabilities.</Text>		<!-- Tip: Treat Legends as a rewarding extra layer rather than a mandatory system. Play your way, experiment freely, and you'll naturally find yourself unlocking bonuses and enhancing your civilization’s long-term capabilities. -->
+			<Text>เคล็ดลับ: มองระบบตำนานเป็นชั้นโบนัสที่ให้รางวัล ไม่ใช่ข้อบังคับ เล่นตามสไตล์ของคุณ ทดลองอย่างอิสระ แล้วคุณจะปลดล็อกโบนัสและเสริมศักยภาพอารยธรรมระยะยาวโดยธรรมชาติ</Text>		<!-- Tip: Treat Legends as a rewarding extra layer rather than a mandatory system. Play your way, experiment freely, and you'll naturally find yourself unlocking bonuses and enhancing your civilization’s long-term capabilities. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_2_TITLE" Language="th_TH">
-			<Text>Legends XP</Text>		<!-- Legends XP -->
+			<Text>ค่าประสบการณ์ตำนาน</Text>		<!-- Legends XP -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_2_CHAPTER_CONTENT_PARA_1" Language="th_TH">
-			<Text>Legend XP is the currency that drives progression within the Legends system, gained exclusively by completing Legend Challenges. Each completed challenge awards a certain amount of XP toward its corresponding Legend Path: Foundation Challenges reward XP for your global Foundation Path, while Leader Challenges boost specific Leader Paths.</Text>		<!-- Legend XP is the currency that drives progression within the Legends system, gained exclusively by completing Legend Challenges. Each completed challenge awards a certain amount of XP toward its corresponding Legend Path: Foundation Challenges reward XP for your global Foundation Path, while Leader Challenges boost specific Leader Paths. -->
+			<Text>ค่าประสบการณ์ตำนานคือสกุลเงินที่ขับเคลื่อนความก้าวหน้าในระบบตำนาน ได้รับจากการทำภารกิจตำนานสำเร็จเท่านั้น ทุกภารกิจที่สำเร็จจะให้ XP กับเส้นทางตำนานที่เกี่ยวข้อง: ภารกิจพื้นฐานให้ XP กับเส้นทางพื้นฐาน ส่วนภารกิจผู้นำจะเพิ่ม XP ให้เส้นทางผู้นำเฉพาะ</Text>		<!-- Legend XP is the currency that drives progression within the Legends system, gained exclusively by completing Legend Challenges. Each completed challenge awards a certain amount of XP toward its corresponding Legend Path: Foundation Challenges reward XP for your global Foundation Path, while Leader Challenges boost specific Leader Paths. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_2_CHAPTER_CONTENT_PARA_2" Language="th_TH">
-			<Text>The amount of XP earned depends on a challenge's complexity. Crucially, this XP accumulates even if you lose the game, meaning every match contributes to your overall Legends progression, win or lose. There's no shortcut—only gameplay accomplishments earn Legend XP, making each achievement feel valuable.</Text>		<!-- The amount of XP earned depends on a challenge's complexity. Crucially, this XP accumulates even if you lose the game, meaning every match contributes to your overall Legends progression, win or lose. There's no shortcut—only gameplay accomplishments earn Legend XP, making each achievement feel valuable. -->
+			<Text>จำนวน XP ที่ได้รับขึ้นอยู่กับความซับซ้อนของภารกิจ ที่สำคัญ XP นี้จะสะสมแม้คุณจะแพ้เกม หมายความว่าทุกแมตช์มีส่วนช่วยให้ความก้าวหน้าระบบตำนาน ไม่ว่าจะชนะหรือแพ้ ไม่มีทางลัด—มีแต่ความสำเร็จในเกมเท่านั้นที่ให้ XP ตำนาน ทำให้ทุกความสำเร็จมีคุณค่า</Text>		<!-- The amount of XP earned depends on a challenge's complexity. Crucially, this XP accumulates even if you lose the game, meaning every match contributes to your overall Legends progression, win or lose. There's no shortcut—only gameplay accomplishments earn Legend XP, making each achievement feel valuable. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_2_CHAPTER_CONTENT_PARA_3" Language="th_TH">
-			<Text>Tip: Don’t abandon tough matches early. Completing a few extra challenges can still provide valuable Legend XP, making your efforts worthwhile even in defeat.</Text>		<!-- Tip: Don’t abandon tough matches early. Completing a few extra challenges can still provide valuable Legend XP, making your efforts worthwhile even in defeat. -->
+			<Text>เคล็ดลับ: อย่าทิ้งแมตช์ยาก ๆ กลางคัน การทำภารกิจเพิ่มอีกเล็กน้อยยังให้ XP ตำนานที่มีค่า ทำให้ความพยายามของคุณคุ้มค่าแม้จะแพ้</Text>		<!-- Tip: Don’t abandon tough matches early. Completing a few extra challenges can still provide valuable Legend XP, making your efforts worthwhile even in defeat. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_3_TITLE" Language="th_TH">
-			<Text>Legend Challenges</Text>		<!-- Legend Challenges -->
+			<Text>ภารกิจตำนาน</Text>		<!-- Legend Challenges -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_3_CHAPTER_CONTENT_PARA_1" Language="th_TH">
-			<Text>Legend Challenges are special objectives you can complete while playing Civilization VII. These tasks act like quests or achievements, offering clear goals that range from simple feats like constructing your first Wonder to ambitious achievements such as dominating a victory type. Challenges come in two forms: Foundation Challenges, which can be completed with any leader, and Leader Challenges, unique to specific leaders and their abilities.</Text>		<!-- Legend Challenges are special objectives you can complete while playing Civilization VII. These tasks act like quests or achievements, offering clear goals that range from simple feats like constructing your first Wonder to ambitious achievements such as dominating a victory type. Challenges come in two forms: Foundation Challenges, which can be completed with any leader, and Leader Challenges, unique to specific leaders and their abilities. -->
+			<Text>ภารกิจตำนานคือเป้าหมายพิเศษที่คุณสามารถทำสำเร็จขณะเล่น Civilization VII ภารกิจเหล่านี้เหมือนเควสหรือความสำเร็จ มีเป้าหมายชัดเจนตั้งแต่สร้างสิ่งมหัศจรรย์แรกไปจนถึงชัยชนะในรูปแบบต่าง ๆ ภารกิจแบ่งเป็นสองประเภท: ภารกิจพื้นฐานที่ทำได้กับผู้นำใดก็ได้ และภารกิจผู้นำที่เฉพาะกับแต่ละผู้นำและความสามารถ</Text>		<!-- Legend Challenges are special objectives you can complete while playing Civilization VII. These tasks act like quests or achievements, offering clear goals that range from simple feats like constructing your first Wonder to ambitious achievements such as dominating a victory type. Challenges come in two forms: Foundation Challenges, which can be completed with any leader, and Leader Challenges, unique to specific leaders and their abilities. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_3_CHAPTER_CONTENT_PARA_2" Language="th_TH">
-			<Text>Whenever you fulfill the conditions of a challenge, you immediately earn Legend XP. This XP advances your Legend Paths, making each completed challenge meaningful—even if your current match isn’t going well. You can easily track your ongoing and completed challenges through the Challenge Log, helping you target goals aligned with your strategy.</Text>		<!-- Whenever you fulfill the conditions of a challenge, you immediately earn Legend XP. This XP advances your Legend Paths, making each completed challenge meaningful—even if your current match isn’t going well. You can easily track your ongoing and completed challenges through the Challenge Log, helping you target goals aligned with your strategy. -->
+			<Text>เมื่อคุณทำเงื่อนไขของภารกิจสำเร็จ คุณจะได้รับ XP ตำนานทันที XP นี้จะเพิ่มความก้าวหน้าเส้นทางตำนาน ทำให้ทุกภารกิจที่สำเร็จมีความหมาย แม้แมตช์ปัจจุบันจะไม่ดี คุณสามารถติดตามภารกิจที่กำลังทำและสำเร็จแล้วผ่านบันทึกภารกิจ เพื่อช่วยให้คุณตั้งเป้าหมายที่ตรงกับกลยุทธ์</Text>		<!-- Whenever you fulfill the conditions of a challenge, you immediately earn Legend XP. This XP advances your Legend Paths, making each completed challenge meaningful—even if your current match isn’t going well. You can easily track your ongoing and completed challenges through the Challenge Log, helping you target goals aligned with your strategy. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_3_CHAPTER_CONTENT_PARA_3" Language="th_TH">
-			<Text>Tip: Regularly check your Challenges Log. Completing even a few objectives can turn a losing game into progress for your long-term Legend growth.</Text>		<!-- Tip: Regularly check your Challenges Log. Completing even a few objectives can turn a losing game into progress for your long-term Legend growth. -->
+			<Text>เคล็ดลับ: ตรวจสอบบันทึกภารกิจของคุณเป็นประจำ การทำเป้าหมายเพียงไม่กี่ข้อสามารถเปลี่ยนเกมที่กำลังแพ้ให้เป็นความก้าวหน้าระยะยาวในระบบตำนาน</Text>		<!-- Tip: Regularly check your Challenges Log. Completing even a few objectives can turn a losing game into progress for your long-term Legend growth. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_TITLE" Language="th_TH">
-			<Text>Legend Paths</Text>		<!-- Legend Paths -->
+			<Text>เส้นทางตำนาน</Text>		<!-- Legend Paths -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_CHAPTER_BASICS_TITLE" Language="th_TH">
-			<Text>Basics</Text>		<!-- Basics -->
+			<Text>พื้นฐาน</Text>		<!-- Basics -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_CHAPTER_BASICS_PARA_1" Language="th_TH">
-			<Text>Legend Paths represent your overall advancement within Civilization VII's Legends system. They function like experience tracks, leveling up as you earn Legend XP by completing Legend Challenges. There are two main types: the universal [B]Foundation Path[/B] and specialized [B]Leader Paths[/B] specific to each leader.</Text>		<!-- Legend Paths represent your overall advancement within Civilization VII's Legends system. They function like experience tracks, leveling up as you earn Legend XP by completing Legend Challenges. There are two main types: the universal [B]Foundation Path[/B] and specialized [B]Leader Paths[/B] specific to each leader. -->
+			<Text>เส้นทางตำนานแสดงถึงความก้าวหน้าโดยรวมของคุณในระบบตำนานของ Civilization VII ทำงานคล้ายกับแถบประสบการณ์ที่เพิ่มระดับเมื่อคุณได้รับค่าประสบการณ์ตำนานจากการทำภารกิจตำนานสำเร็จ มีสองประเภทหลัก: [B]เส้นทางพื้นฐาน[/B] ที่เป็นสากล และ [B]เส้นทางผู้นำ[/B] ที่เฉพาะกับแต่ละผู้นำ</Text>		<!-- Legend Paths represent your overall advancement within Civilization VII's Legends system. They function like experience tracks, leveling up as you earn Legend XP by completing Legend Challenges. There are two main types: the universal [B]Foundation Path[/B] and specialized [B]Leader Paths[/B] specific to each leader. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_CHAPTER_BASICS_PARA_2" Language="th_TH">
-			<Text>Balance your efforts between different paths to maximize your long-term benefits. The Foundation Path offers broad rewards, while Leader Paths grant specialized advantages.</Text>		<!-- Balance your efforts between different paths to maximize your long-term benefits. The Foundation Path offers broad rewards, while Leader Paths grant specialized advantages. -->
+			<Text>ปรับสมดุลความพยายามระหว่างเส้นทางต่าง ๆ เพื่อเพิ่มผลประโยชน์ระยะยาวสูงสุด เส้นทางพื้นฐานให้รางวัลกว้าง ส่วนเส้นทางผู้นำให้ข้อได้เปรียบเฉพาะทาง</Text>		<!-- Balance your efforts between different paths to maximize your long-term benefits. The Foundation Path offers broad rewards, while Leader Paths grant specialized advantages. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_CHAPTER_FOUNDATION_TITLE" Language="th_TH">
-			<Text>Foundation Path</Text>		<!-- Foundation Path -->
+			<Text>เส้นทางพื้นฐาน</Text>		<!-- Foundation Path -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_CHAPTER_FOUNDATION_PARA_1" Language="th_TH">
-			<Text>The Foundation Path tracks your progress across all your games, regardless of leader choice. It has 50 levels, each unlocking various rewards, such as cosmetic profile upgrades (badges, banners, titles) and powerful gameplay bonuses called [B]Mementos[/B]. Importantly, leveling this path also unlocks [B]Memento Slots[/B], essential for equipping these bonuses.</Text>		<!-- The Foundation Path tracks your progress across all your games, regardless of leader choice. It has 50 levels, each unlocking various rewards, such as cosmetic profile upgrades (badges, banners, titles) and powerful gameplay bonuses called [B]Mementos[/B]. Importantly, leveling this path also unlocks [B]Memento Slots[/B], essential for equipping these bonuses. -->
+			<Text>เส้นทางพื้นฐานติดตามความก้าวหน้าของคุณในทุกเกม ไม่ว่าคุณจะเลือกผู้นำคนใด มี 50 ระดับ โดยแต่ละระดับปลดล็อกรางวัลต่าง ๆ เช่น การปรับแต่งโปรไฟล์ (ตรา แบนเนอร์ คำบรรยาย) และโบนัสเกมเพลย์ทรงพลังที่เรียกว่า [B]ของที่ระลึก[/B] ที่สำคัญ การเพิ่มระดับเส้นทางนี้ยังปลดล็อก [B]ช่องใส่ของที่ระลึก[/B] ซึ่งจำเป็นสำหรับการใช้งานโบนัสเหล่านี้</Text>		<!-- The Foundation Path tracks your progress across all your games, regardless of leader choice. It has 50 levels, each unlocking various rewards, such as cosmetic profile upgrades (badges, banners, titles) and powerful gameplay bonuses called [B]Mementos[/B]. Importantly, leveling this path also unlocks [B]Memento Slots[/B], essential for equipping these bonuses. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_CHAPTER_FOUNDATION_PARA_2" Language="th_TH">
-			<Text>Prioritize early levels in your Foundation Path to quickly unlock your first Memento Slots, significantly enhancing your gameplay options.</Text>		<!-- Prioritize early levels in your Foundation Path to quickly unlock your first Memento Slots, significantly enhancing your gameplay options. -->
+			<Text>เน้นการเพิ่มระดับต้น ๆ ในเส้นทางพื้นฐานเพื่อปลดล็อกช่องใส่ของที่ระลึกแรกอย่างรวดเร็ว ซึ่งจะช่วยเพิ่มทางเลือกในการเล่นอย่างมาก</Text>		<!-- Prioritize early levels in your Foundation Path to quickly unlock your first Memento Slots, significantly enhancing your gameplay options. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_CHAPTER_LEADER_TITLE" Language="th_TH">
-			<Text>Leader Path</Text>		<!-- Leader Path -->
+			<Text>เส้นทางผู้นำ</Text>		<!-- Leader Path -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_CHAPTER_LEADER_PARA_1" Language="th_TH">
-			<Text>Each leader in Civilization VII has their own unique Leader Path, which levels up through Leader Challenges specific to their abilities and history. Leader Paths go up to level 10, offering leader-themed Mementos, cosmetic items, and special gameplay advantages tailored to their playstyle.</Text>		<!-- Each leader in Civilization VII has their own unique Leader Path, which levels up through Leader Challenges specific to their abilities and history. Leader Paths go up to level 10, offering leader-themed Mementos, cosmetic items, and special gameplay advantages tailored to their playstyle. -->
+			<Text>แต่ละผู้นำใน Civilization VII มีเส้นทางผู้นำเฉพาะตัว ซึ่งจะเพิ่มระดับผ่านภารกิจผู้นำที่เกี่ยวข้องกับความสามารถและประวัติของผู้นำ เส้นทางผู้นำมีสูงสุดถึงระดับ 10 ให้รางวัลเป็นของที่ระลึกธีมผู้นำ ไอเทมตกแต่ง และข้อได้เปรียบพิเศษที่เหมาะกับสไตล์การเล่นของผู้นำแต่ละคน</Text>		<!-- Each leader in Civilization VII has their own unique Leader Path, which levels up through Leader Challenges specific to their abilities and history. Leader Paths go up to level 10, offering leader-themed Mementos, cosmetic items, and special gameplay advantages tailored to their playstyle. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_CHAPTER_LEADER_PARA_2" Language="th_TH">
-			<Text>Tip: Experiment with different leaders regularly to unlock a diverse set of Leader Path rewards. Mementoes unlocked for one leader can be used with any other leaders as well. Pairing specialized mementoes with their respective leaders can often unlock powerful synergies.</Text>		<!-- Tip: Experiment with different leaders regularly to unlock a diverse set of Leader Path rewards. Mementoes unlocked for one leader can be used with any other leaders as well. Pairing specialized mementoes with their respective leaders can often unlock powerful synergies. -->
+			<Text>เคล็ดลับ: ทดลองเล่นผู้นำต่าง ๆ เป็นประจำเพื่อปลดล็อกรางวัลเส้นทางผู้นำที่หลากหลาย ของที่ระลึกที่ปลดล็อกกับผู้นำหนึ่งสามารถใช้กับผู้นำอื่นได้เช่นกัน การจับคู่ของที่ระลึกเฉพาะกับผู้นำที่เหมาะสมมักจะสร้างซินเนอร์จี้ทรงพลัง</Text>		<!-- Tip: Experiment with different leaders regularly to unlock a diverse set of Leader Path rewards. Mementoes unlocked for one leader can be used with any other leaders as well. Pairing specialized mementoes with their respective leaders can often unlock powerful synergies. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_TITLE" Language="th_TH">
-			<Text>Mementos</Text>		<!-- Mementos -->
+			<Text>ของที่ระลึก</Text>		<!-- Mementos -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_BASICS_TITLE" Language="th_TH">
-			<Text>Basics</Text>		<!-- Basics -->
+			<Text>พื้นฐาน</Text>		<!-- Basics -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_BASICS_PARA_1" Language="th_TH">
-			<Text>Mementos are special items earned from your Legends progression, which can be equipped before each game to provide unique in-game bonuses. They function like gear for your leader, giving effects ranging from basic stat boosts to situational advantages. Every leader can equip up to two Mementos, offering powerful strategic flexibility.</Text>		<!-- Mementos are special items earned from your Legends progression, which can be equipped before each game to provide unique in-game bonuses. They function like gear for your leader, giving effects ranging from basic stat boosts to situational advantages. Every leader can equip up to two Mementos, offering powerful strategic flexibility. -->
+			<Text>ของที่ระลึกเป็นไอเทมพิเศษที่ได้รับจากความก้าวหน้าในระบบตำนาน สามารถติดตั้งก่อนเริ่มเกมเพื่อให้โบนัสเฉพาะในเกม ทำงานคล้ายกับอุปกรณ์สำหรับผู้นำ ให้ผลตั้งแต่เพิ่มค่าสถานะพื้นฐานไปจนถึงข้อได้เปรียบตามสถานการณ์ ผู้นำทุกคนสามารถใส่ของที่ระลึกได้สูงสุดสองชิ้น เพิ่มความยืดหยุ่นทางกลยุทธ์อย่างมาก</Text>		<!-- Mementos are special items earned from your Legends progression, which can be equipped before each game to provide unique in-game bonuses. They function like gear for your leader, giving effects ranging from basic stat boosts to situational advantages. Every leader can equip up to two Mementos, offering powerful strategic flexibility. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_BASICS_PARA_2" Language="th_TH">
-			<Text>Carefully choose your Mementos before starting a game, matching them to your desired victory type or compensating for your leader's weaknesses. [B]Keep in mind that Mementos can also be swapped between Ages.[/B]</Text>		<!-- Carefully choose your Mementos before starting a game, matching them to your desired victory type or compensating for your leader's weaknesses. [B]Keep in mind that Mementos can also be swapped between Ages.[/B] -->
+			<Text>เลือกของที่ระลึกอย่างรอบคอบก่อนเริ่มเกม ให้เหมาะกับชัยชนะที่ต้องการหรือเพื่อชดเชยจุดอ่อนของผู้นำ [B]โปรดทราบว่าของที่ระลึกสามารถเปลี่ยนได้ระหว่างยุคด้วย[/B]</Text>		<!-- Carefully choose your Mementos before starting a game, matching them to your desired victory type or compensating for your leader's weaknesses. [B]Keep in mind that Mementos can also be swapped between Ages.[/B] -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_UNLOCK_TITLE" Language="th_TH">
-			<Text>Unlocking and Collection</Text>		<!-- Unlocking and Collection -->
+			<Text>การปลดล็อกและสะสม</Text>		<!-- Unlocking and Collection -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_UNLOCK_PARA_1" Language="th_TH">
-			<Text>You unlock Mementos by reaching specific milestones within your Legend Paths. Some Mementos come from higher Foundation Path levels, while many are leader-specific rewards earned by progressing through Leader Paths. Once unlocked, they permanently join your collection and can be freely equipped by any leader.</Text>		<!-- You unlock Mementos by reaching specific milestones within your Legend Paths. Some Mementos come from higher Foundation Path levels, while many are leader-specific rewards earned by progressing through Leader Paths. Once unlocked, they permanently join your collection and can be freely equipped by any leader. -->
+			<Text>คุณจะปลดล็อกของที่ระลึกโดยไปถึงหมุดหมายเฉพาะในเส้นทางตำนาน ของที่ระลึกบางชิ้นได้จากระดับสูงในเส้นทางพื้นฐาน ขณะที่อีกหลายชิ้นเป็นรางวัลเฉพาะผู้นำที่ได้จากการเพิ่มระดับเส้นทางผู้นำ เมื่อปลดล็อกแล้วจะอยู่ในคลังถาวรและสามารถติดตั้งกับผู้นำใดก็ได้อย่างอิสระ</Text>		<!-- You unlock Mementos by reaching specific milestones within your Legend Paths. Some Mementos come from higher Foundation Path levels, while many are leader-specific rewards earned by progressing through Leader Paths. Once unlocked, they permanently join your collection and can be freely equipped by any leader. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_UNLOCK_PARA_2" Language="th_TH">
-			<Text>Unlocking a variety of Mementos by playing multiple leaders can significantly broaden your strategic options, even if you later return to your favorite leader.</Text>		<!-- Unlocking a variety of Mementos by playing multiple leaders can significantly broaden your strategic options, even if you later return to your favorite leader. -->
+			<Text>การปลดล็อกของที่ระลึกหลากหลายโดยเล่นผู้นำหลายคนจะเพิ่มทางเลือกเชิงกลยุทธ์ของคุณอย่างมาก แม้จะกลับมาเล่นผู้นำที่ชอบในภายหลังก็ตาม</Text>		<!-- Unlocking a variety of Mementos by playing multiple leaders can significantly broaden your strategic options, even if you later return to your favorite leader. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_STRAT_TITLE" Language="th_TH">
-			<Text>Strategies and Synergies</Text>		<!-- Strategies and Synergies -->
+			<Text>กลยุทธ์และซินเนอร์จี้</Text>		<!-- Strategies and Synergies -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_STRAT_PARA_1" Language="th_TH">
-			<Text>The variety of nearly 100 unique Mementos allows for extensive strategic combinations. Some offer straightforward bonuses, such as extra Economic or Cultural points at game start, while others trigger situationally, like spawning free units after successful espionage actions. Cleverly combining Mementos can lead to powerful or unique strategies, amplifying your strengths or mitigating weaknesses.</Text>		<!-- The variety of nearly 100 unique Mementos allows for extensive strategic combinations. Some offer straightforward bonuses, such as extra Economic or Cultural points at game start, while others trigger situationally, like spawning free units after successful espionage actions. Cleverly combining Mementos can lead to powerful or unique strategies, amplifying your strengths or mitigating weaknesses. -->
+			<Text>ความหลากหลายของของที่ระลึกเกือบ 100 ชิ้นเปิดโอกาสให้สร้างกลยุทธ์มากมาย บางชิ้นให้โบนัสตรงไปตรงมา เช่น คะแนนเศรษฐกิจหรือวัฒนธรรมเพิ่มตอนเริ่มเกม ขณะที่บางชิ้นจะทำงานตามสถานการณ์ เช่น สร้างยูนิตฟรีหลังจากทำภารกิจจารกรรมสำเร็จ การจับคู่ของที่ระลึกอย่างชาญฉลาดสามารถสร้างกลยุทธ์ทรงพลังหรือแปลกใหม่ เพิ่มจุดแข็งหรือกลบจุดอ่อน</Text>		<!-- The variety of nearly 100 unique Mementos allows for extensive strategic combinations. Some offer straightforward bonuses, such as extra Economic or Cultural points at game start, while others trigger situationally, like spawning free units after successful espionage actions. Cleverly combining Mementos can lead to powerful or unique strategies, amplifying your strengths or mitigating weaknesses. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_STRAT_PARA_2" Language="th_TH">
-			<Text>Tip: Experiment with different Memento combinations to discover powerful synergies. An unexpected pairing might provide just the advantage you need for your chosen victory path.</Text>		<!-- Tip: Experiment with different Memento combinations to discover powerful synergies. An unexpected pairing might provide just the advantage you need for your chosen victory path. -->
+			<Text>เคล็ดลับ: ทดลองจับคู่ของที่ระลึกต่าง ๆ เพื่อค้นหาซินเนอร์จี้ทรงพลัง การจับคู่ที่ไม่คาดคิดอาจให้ข้อได้เปรียบที่ต้องการสำหรับเส้นทางชัยชนะที่เลือก</Text>		<!-- Tip: Experiment with different Memento combinations to discover powerful synergies. An unexpected pairing might provide just the advantage you need for your chosen victory path. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMPLAY_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>เมื่ออยู่ในทีมเดียวกัน ผู้เล่นจะผูกพันในพันธมิตรที่ไม่อาจถูกยกเลิก และมีระดับความสัมพันธ์สูงสุด ต่างจากพันธมิตรทั่วไป สมาชิกทีมจะเห็นแผนที่ร่วมกัน สามารถใช้การทูตระหว่างกันได้ แต่ห้ามใช้สายลับต่อกัน</Text>		<!-- When playing on a team, teammates are locked into an Alliance that cannot be broken and are locked at the max Relationship level. Unlike a standard Alliance, teammates share map visibility. Teammates may use Diplomatic Actions with one another but are prohibited from using Espionage Actions. -->
@@ -5441,7 +5441,7 @@
 			<Text>การเปลี่ยนแปลงผลผลิตในแปลง</Text>		<!-- Plot Yield Changes -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_SLOTTED_GREAT_WORKS" Language="th_TH">
-			<Text>From Slotted Great Works</Text>		<!-- From Slotted Great Works -->
+			<Text>จากผลงานยอดเยี่ยมที่ใส่ช่อง</Text>		<!-- From Slotted Great Works -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_PLOT_PERCENT_YIELD_CHANGES" Language="th_TH">
 			<Text>เปอร์เซ็นต์การเปลี่ยนแปลงผลผลิต</Text>		<!-- Plot Yield Percent Change -->
@@ -5495,7 +5495,7 @@
 			<Text>จากโครงการ</Text>		<!-- From Projects -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_YIELD_PER_ACTIVE_CIV_TRADITION" Language="th_TH">
-			<Text>From Slotted Traditions</Text>		<!-- From Slotted Traditions -->
+			<Text>จากธรรมเนียมที่ใส่ช่อง</Text>		<!-- From Slotted Traditions -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_RESOURCE_STOCKPILE_YIELD" Language="th_TH">
 			<Text>จากคลังสินค้า</Text>		<!-- From Stockpiles -->
@@ -5552,7 +5552,7 @@
 			<Text>ถิ่นฐานติดลบขีดจำกัด</Text>		<!-- Negative Settlement Limit -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_YIELDS_FROM_ALL_POPULATION" Language="th_TH">
-			<Text>Population</Text>		<!-- Population -->
+			<Text>ประชากร</Text>		<!-- Population -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_OVER_CAP_NOT_NEGATIVE" Language="th_TH">
 			<Text>ถิ่นฐานเกินขีดจำกัดไม่ติดลบ</Text>		<!-- Settlements Over Limit Not Negative -->
@@ -5603,7 +5603,7 @@
 			<Text>ศูนย์กลางการค้า จำนวน</Text>		<!-- Trade Hub Quantity -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_YIELD_PER_ALL_POP" Language="th_TH">
-			<Text>Yield per Population</Text>		<!-- Yield per Population -->
+			<Text>ผลตอบแทนต่อประชากร</Text>		<!-- Yield per Population -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_NUM_LOCAL_RESOURCES" Language="th_TH">
 			<Text>ทรัพยากรท้องถิ่น</Text>		<!-- Local Resources -->
@@ -5735,7 +5735,7 @@
 			<Text>ผลผลิตจากธรรมชาติในเมือง ที่นับถือศาสนาของคุณ</Text>		<!-- Yield from Natural Wonders in Cities following your Religion -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_NUM_ALLIANCES" Language="th_TH">
-			<Text>Yield from Diplomatic Alliances</Text>		<!-- Yield from Diplomatic Alliances -->
+			<Text>ผลตอบแทนจากพันธมิตรทางการทูต</Text>		<!-- Yield from Diplomatic Alliances -->
 		</Replace>
 		<Replace Tag="ATTR_NUM_BIOMES_FOLLOWING_RELIGION" Language="th_TH">
 			<Text>ผลผลิตจากระบบนิเวศในเมือง ที่นับถือศาสนาของคุณ</Text>		<!-- Yield from Biomes in Cities following your Religion -->
@@ -5750,7 +5750,7 @@
 			<Text>ผลผลิตจากสิ่งก่อสร้างบนแม่น้ำ</Text>		<!-- Yield from Constructibles on Rivers -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_PLOT_YIELD_UNIQUE_NATURAL_WONDERS" Language="th_TH">
-			<Text>Yield from number of Unique Natural Wonders</Text>		<!-- Yield from number of Unique Natural Wonders -->
+			<Text>ผลตอบแทนจากจำนวนสิ่งมหัศจรรย์ทางธรรมชาติที่ไม่ซ้ำกัน</Text>		<!-- Yield from number of Unique Natural Wonders -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_NUM_DISASTER" Language="th_TH">
 			<Text>ผลผลิตจากภัยพิบัติ</Text>		<!-- Yield from Disasters -->
@@ -6101,10 +6101,10 @@
 			<Text>เลือกสถานการณ์และกฎสำหรับเกม</Text>		<!-- Select the scenario and rules for the game -->
 		</Replace>
 		<Replace Tag="LOC_AGE_COUNTDOWN_NAME" Language="th_TH">
-			<Text>End of Age Countdown</Text>		<!-- End of Age Countdown -->
+			<Text>การนับถอยหลังสิ้นสุดยุค</Text>		<!-- End of Age Countdown -->
 		</Replace>
 		<Replace Tag="LOC_AGE_COUNTDOWN_DESCRIPTION" Language="th_TH">
-			<Text>The numbers of turns at the end of each age before an age transition. During this time, no age progression will be added from any source other than elapsed turns.</Text>		<!-- The numbers of turns at the end of each age before an age transition. During this time, no age progression will be added from any source other than elapsed turns. -->
+			<Text>จำนวนเทิร์นในช่วงท้ายแต่ละยุคก่อนเปลี่ยนยุค ในช่วงนี้จะไม่มีความก้าวหน้าทางยุคจากแหล่งอื่นนอกจากเทิร์นที่ผ่านไป</Text>		<!-- The numbers of turns at the end of each age before an age transition. During this time, no age progression will be added from any source other than elapsed turns. -->
 		</Replace>
 		<Replace Tag="LOC_RULESET_STANDARD_NAME" Language="th_TH">
 			<Text>กฎมาตรฐาน</Text>		<!-- Standard Rules -->
@@ -6191,10 +6191,10 @@
 			<Text>เพิ่มระดับความยากด้วยศัตรูที่แข็งแกร่งกว่า</Text>		<!-- Increases difficulty with stronger opponents. -->
 		</Replace>
 		<Replace Tag="LOC_DIFFICULTY_CUSTOM_NAME" Language="th_TH">
-			<Text>Custom</Text>		<!-- Custom -->
+			<Text>กำหนดเอง</Text>		<!-- Custom -->
 		</Replace>
 		<Replace Tag="LOC_DIFFICULTY_CUSTOM_DESCRIPTION" Language="th_TH">
-			<Text>Custom difficulty settings configured under advanced options.</Text>		<!-- Custom difficulty settings configured under advanced options. -->
+			<Text>การตั้งค่าความยากที่กำหนดเองในตัวเลือกขั้นสูง</Text>		<!-- Custom difficulty settings configured under advanced options. -->
 		</Replace>
 		<Replace Tag="LOC_GAME_TURN_TIMER_TIME_TOOLTIP" Language="th_TH">
 			<Text>เวลาในแต่ละเทิร์น ที่ใช้โดยโหมดเครื่องจับเวลามาตรฐาน (เป็นวินาที)</Text>		<!-- Turn Time used by the Standard Turn Timer mode (in seconds). -->
@@ -6413,34 +6413,34 @@
 			<Text>ไม่มีการเปลี่ยนแปลงยุค</Text>		<!-- No Age Transitions -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_ENABLE_SCORE_VICTORY" Language="th_TH">
-			<Text>Score Victory (Final Age)</Text>		<!-- Score Victory (Final Age) -->
+			<Text>ชัยชนะด้วยคะแนน (ยุคสุดท้าย)</Text>		<!-- Score Victory (Final Age) -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_ENABLE_SCORE_VICTORY_DESCRIPTION" Language="th_TH">
-			<Text>Enables the [B]Score[/B] victory when the final age has ended.  Turning this off causes the final age to run until a player has achieved a victory.</Text>		<!-- Enables the [B]Score[/B] victory when the final age has ended.  Turning this off causes the final age to run until a player has achieved a victory. -->
+			<Text>เปิดใช้งานชัยชนะด้วยคะแนนเมื่อยุคสุดท้ายสิ้นสุด หากปิดจะทำให้ยุคสุดท้ายดำเนินต่อจนกว่าผู้เล่นจะชนะ</Text>		<!-- Enables the [B]Score[/B] victory when the final age has ended.  Turning this off causes the final age to run until a player has achieved a victory. -->
 		</Replace>
 		<Replace Tag="LOC_SETUP_NO_CIV_UNLOCKS_NAME" Language="th_TH">
-			<Text>Bypass Civilization Unlocks</Text>		<!-- Bypass Civilization Unlocks -->
+			<Text>ข้ามการปลดล็อกอารยธรรม</Text>		<!-- Bypass Civilization Unlocks -->
 		</Replace>
 		<Replace Tag="LOC_SETUP_NO_CIV_UNLOCKS_DESC" Language="th_TH">
-			<Text>All Civilizations are always unlocked at each age transition.</Text>		<!-- All Civilizations are always unlocked at each age transition. -->
+			<Text>อารยธรรมทั้งหมดจะปลดล็อกเสมอเมื่อเปลี่ยนยุค</Text>		<!-- All Civilizations are always unlocked at each age transition. -->
 		</Replace>
 		<Replace Tag="LOC_SETUP_LEGACY_PATHS_NAME" Language="th_TH">
-			<Text>Legacy Paths</Text>		<!-- Legacy Paths -->
+			<Text>เส้นทางมรดก</Text>		<!-- Legacy Paths -->
 		</Replace>
 		<Replace Tag="LOC_SETUP_LEGACY_PATHS_DESC" Language="th_TH">
-			<Text>Untick checkboxes to disable legacy paths</Text>		<!-- Untick checkboxes to disable legacy paths -->
+			<Text>ยกเลิกการเลือกเพื่อปิดเส้นทางมรดก</Text>		<!-- Untick checkboxes to disable legacy paths -->
 		</Replace>
 		<Replace Tag="LOC_SETUP_CRISIS_NAME" Language="th_TH">
-			<Text>Crises</Text>		<!-- Crises -->
+			<Text>วิกฤต</Text>		<!-- Crises -->
 		</Replace>
 		<Replace Tag="LOC_SETUP_CRISIS_DESC" Language="th_TH">
-			<Text>Select which crises will be available in the game. This does not guarentee all selected will be used.</Text>		<!-- Select which crises will be available in the game. This does not guarentee all selected will be used. -->
+			<Text>เลือกวิกฤตที่จะใช้ในเกม การเลือกนี้ไม่รับประกันว่าจะใช้ทุกอัน</Text>		<!-- Select which crises will be available in the game. This does not guarentee all selected will be used. -->
 		</Replace>
 		<Replace Tag="LOC_SETUP_NATURAL_WONDERS_NAME" Language="th_TH">
-			<Text>Natural Wonders</Text>		<!-- Natural Wonders -->
+			<Text>สิ่งมหัศจรรย์ทางธรรมชาติ</Text>		<!-- Natural Wonders -->
 		</Replace>
 		<Replace Tag="LOC_SETUP_NATURAL_WONDERS_DESC" Language="th_TH">
-			<Text>Select which Natural Wonders will be available in the game. This does not guarentee all selected will be used.</Text>		<!-- Select which Natural Wonders will be available in the game. This does not guarentee all selected will be used. -->
+			<Text>เลือกสิ่งมหัศจรรย์ทางธรรมชาติที่จะใช้ในเกม การเลือกนี้ไม่รับประกันว่าจะใช้ทุกอัน</Text>		<!-- Select which Natural Wonders will be available in the game. This does not guarentee all selected will be used. -->
 		</Replace>
 		<Replace Tag="LOC_SINGLEAGE_DESCRIPTION" Language="th_TH">
 			<Text>เล่นเพียงยุคเดียวเท่านั้น อย่าย้ายไปยังยุคถัดไป</Text>		<!-- Only play a single Age.  Do not Transition to later Ages. -->
@@ -6449,16 +6449,16 @@
 			<Text>ชื่อเกม</Text>		<!-- Game Name -->
 		</Replace>
 		<Replace Tag="LOC_AGE_TRANSITION_SETTING_KEEP_MORE_NAME" Language="th_TH">
-			<Text>Continuity</Text>		<!-- Continuity -->
+			<Text>ต่อเนื่อง</Text>		<!-- Continuity -->
 		</Replace>
 		<Replace Tag="LOC_AGE_TRANSITION_SETTING_KEEP_MORE_DESCRIPTION" Language="th_TH">
-			<Text>Default setting. Retain most of your empire and units at Age Transition.</Text>		<!-- Default setting. Retain most of your empire and units at Age Transition. -->
+			<Text>การตั้งค่าเริ่มต้น รักษาส่วนใหญ่ของอาณาจักรและยูนิตเมื่อเปลี่ยนยุค</Text>		<!-- Default setting. Retain most of your empire and units at Age Transition. -->
 		</Replace>
 		<Replace Tag="LOC_AGE_TRANSITION_SETTING_ORIGINAL_NAME" Language="th_TH">
-			<Text>Regroup</Text>		<!-- Regroup -->
+			<Text>รวมกลุ่มใหม่</Text>		<!-- Regroup -->
 		</Replace>
 		<Replace Tag="LOC_AGE_TRANSITION_SETTING_ORIGINAL_DESCRIPTION" Language="th_TH">
-			<Text>Players' empires will reset more aggressively on Age Transition, including fewer units carried over. Leads to a more balanced start between empires in the next Age. This is the original Civ 7 Age Transition experience.</Text>		<!-- Players' empires will reset more aggressively on Age Transition, including fewer units carried over. Leads to a more balanced start between empires in the next Age. This is the original Civ 7 Age Transition experience. -->
+			<Text>อาณาจักรของผู้เล่นจะรีเซ็ตมากขึ้นเมื่อเปลี่ยนยุค รวมถึงยูนิตที่ถ่ายโอนน้อยลง ทำให้เริ่มต้นยุคใหม่สมดุลขึ้น นี่คือประสบการณ์เปลี่ยนยุคแบบดั้งเดิมของ Civ 7</Text>		<!-- Players' empires will reset more aggressively on Age Transition, including fewer units carried over. Leads to a more balanced start between empires in the next Age. This is the original Civ 7 Age Transition experience. -->
 		</Replace>
 		<Replace Tag="LOC_GAMENAME_DESCRIPTION" Language="th_TH">
 			<Text>ตั้งชื่อเกมมัลติเพลเยอร์</Text>		<!-- Sets the name of the multiplayer game -->
@@ -6587,16 +6587,16 @@
 			<Text>วัฒนธรรม</Text>		<!-- Culture -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_CLASS_CULTURE_NAME" Language="th_TH">
-			<Text>Culture</Text>		<!-- Culture -->
+			<Text>วัฒนธรรม</Text>		<!-- Culture -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_CLASS_ECONOMIC_NAME" Language="th_TH">
-			<Text>Economic</Text>		<!-- Economic -->
+			<Text>เศรษฐกิจ</Text>		<!-- Economic -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_CLASS_MILITARY_NAME" Language="th_TH">
-			<Text>Military</Text>		<!-- Military -->
+			<Text>ทหาร</Text>		<!-- Military -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_CLASS_SCIENCE_NAME" Language="th_TH">
-			<Text>Science</Text>		<!-- Science -->
+			<Text>วิทยาศาสตร์</Text>		<!-- Science -->
 		</Replace>
 		<Replace Tag="LOC_TAG_CONSTRUCTIBLE_HAPPINESS" Language="th_TH">
 			<Text>ความสุข</Text>		<!-- Happiness -->
@@ -8256,7 +8256,7 @@
 			<Text>จากเหตุการณ์เล่าเรื่อง</Text>		<!-- From a Narrative Event -->
 		</Replace>
 		<Replace Tag="LOC_HISTORICAL_EVENT_FADE" Language="th_TH">
-			<Text>Relationship Decay Over Time</Text>		<!-- Relationship Decay Over Time -->
+			<Text>ความสัมพันธ์ลดลงตามเวลา</Text>		<!-- Relationship Decay Over Time -->
 		</Replace>
 		<Replace Tag="LOC_GRIEVANCE_FROM_REVEALED_TS_ESPIONAGE" Language="th_TH">
 			<Text>เปิดเผยข้อมูลลับสุดยอดเกี่ยวกับการจารกรรม</Text>		<!-- Revealed Top Secret Espionage -->
@@ -11213,34 +11213,34 @@
 			<Text>ผู้เขย่าพิภพ</Text>		<!-- Earth Shaker -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_TIPS_AND_HINTS" Language="th_TH">
-			<Text>Tips And Hints</Text>		<!-- Tips And Hints -->
+			<Text>เคล็ดลับและคำแนะนำ</Text>		<!-- Tips And Hints -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_ABILITY" Language="th_TH">
-			<Text>Leader Ability</Text>		<!-- Leader Ability -->
+			<Text>ความสามารถผู้นำ</Text>		<!-- Leader Ability -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIVILIZATION_ABILITY" Language="th_TH">
-			<Text>Civilization Ability</Text>		<!-- Civilization Ability -->
+			<Text>ความสามารถอารยธรรม</Text>		<!-- Civilization Ability -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_UNIQUE_UNITS" Language="th_TH">
-			<Text>Unique Units</Text>		<!-- Unique Units -->
+			<Text>ยูนิตเฉพาะ</Text>		<!-- Unique Units -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_UNIQUE_BUILDINGS" Language="th_TH">
-			<Text>Unique Buildings</Text>		<!-- Unique Buildings -->
+			<Text>อาคารเฉพาะ</Text>		<!-- Unique Buildings -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_UNIQUE_QUARTER" Language="th_TH">
-			<Text>Unique Quarter</Text>		<!-- Unique Quarter -->
+			<Text>เขตเฉพาะ</Text>		<!-- Unique Quarter -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_EQUIPPED_MEMENTOS" Language="th_TH">
-			<Text>Equipped Mementos</Text>		<!-- Equipped Mementos -->
+			<Text>ของที่ระลึกที่ติดตั้งแล้ว</Text>		<!-- Equipped Mementos -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_TRADITIONS" Language="th_TH">
-			<Text>Traditions</Text>		<!-- Traditions -->
+			<Text>ธรรมเนียม</Text>		<!-- Traditions -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_TRADITION_UNLOCKED_WITH" Language="th_TH">
-			<Text>Unlocked with</Text>		<!-- Unlocked with -->
+			<Text>ปลดล็อกด้วย</Text>		<!-- Unlocked with -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_MEMENTO_EMPTY" Language="th_TH">
-			<Text>Equip Mementos when starting a New Game or at Age Transition</Text>		<!-- Equip Mementos when starting a New Game or at Age Transition -->
+			<Text>ติดตั้งของที่ระลึกเมื่อเริ่มเกมใหม่หรือเปลี่ยนยุค</Text>		<!-- Equip Mementos when starting a New Game or at Age Transition -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_PACHACUTI_ABILITY_DESCRIPTION" Language="th_TH">
 			<Text>[LIST][LI]อาคารทุกชนิดได้รับโบนัส [B][icon:YIELD_FOOD] อาหาร[/B] จากพื้นที่ติดกับ [B]ภูเขา[/B] +1[LI][B]ผู้เชี่ยวชาญ[/B] ที่อยู่ติดกับ [B]ภูเขา[/B] ไม่ต้องเสียค่าบำรุงรักษา [icon:YIELD_HAPPINESS] [B]ความสุข[/B][LI][B]เมือง[/B] ได้รับโบนัส [icon:YIELD_PRODUCTION] [B]กำลังผลิต[/B] เท่ากับ 10% ของ [icon:YIELD_FOOD] [B]อาหาร[/B] ของเมืองนั้น
@@ -21651,40 +21651,40 @@
 			<Text>โวลคาน เด โกลิมา</Text>		<!-- Volcán de Colima -->
 		</Replace>
 		<Replace Tag="LOC_ANTIQUITY_INVASION_CRISIS_NAME" Language="th_TH">
-			<Text>Antiquity Invasion Crisis</Text>		<!-- Antiquity Invasion Crisis -->
+			<Text>วิกฤตการรุกรานยุคโบราณ</Text>		<!-- Antiquity Invasion Crisis -->
 		</Replace>
 		<Replace Tag="LOC_ANTIQUITY_INVASION_CRISIS_DESCRIPTION" Language="th_TH">
-			<Text>New independent powers rise up to challenge your empire.</Text>		<!-- New independent powers rise up to challenge your empire. -->
+			<Text>อำนาจอิสระใหม่ลุกขึ้นท้าทายอาณาจักรของคุณ</Text>		<!-- New independent powers rise up to challenge your empire. -->
 		</Replace>
 		<Replace Tag="LOC_ANTIQUITY_PLAGUE_CRISIS_NAME" Language="th_TH">
-			<Text>Antiquity Plague Crisis</Text>		<!-- Antiquity Plague Crisis -->
+			<Text>วิกฤตโรคระบาดยุคโบราณ</Text>		<!-- Antiquity Plague Crisis -->
 		</Replace>
 		<Replace Tag="LOC_ANTIQUITY_PLAGUE_CRISIS_DESCRIPTION" Language="th_TH">
-			<Text>Devastating diseases strike your largest cities.</Text>		<!-- Devastating diseases strike your largest cities. -->
+			<Text>โรคระบาดรุนแรงโจมตีเมืองใหญ่ของคุณ</Text>		<!-- Devastating diseases strike your largest cities. -->
 		</Replace>
 		<Replace Tag="LOC_ANTIQUITY_REVOLTS_CRISIS_NAME" Language="th_TH">
-			<Text>Antiquity Revolts Crisis</Text>		<!-- Antiquity Revolts Crisis -->
+			<Text>วิกฤตการก่อจลาจลยุคโบราณ</Text>		<!-- Antiquity Revolts Crisis -->
 		</Replace>
 		<Replace Tag="LOC_ANTIQUITY_REVOLTS_CRISIS_DESCRIPTION" Language="th_TH">
-			<Text>Unhappy settlements revolt and petition other empires for aid.</Text>		<!-- Unhappy settlements revolt and petition other empires for aid. -->
+			<Text>นิคมที่ไม่มีความสุขก่อจลาจลและขอความช่วยเหลือจากอาณาจักรอื่น</Text>		<!-- Unhappy settlements revolt and petition other empires for aid. -->
 		</Replace>
 		<Replace Tag="LOC_EXPLORATION_REVOLUTIONS_CRISIS_NAME" Language="th_TH">
-			<Text>Exploration Revolutions Crisis</Text>		<!-- Exploration Revolutions Crisis -->
+			<Text>วิกฤตการปฏิวัติยุคสำรวจ</Text>		<!-- Exploration Revolutions Crisis -->
 		</Replace>
 		<Replace Tag="LOC_EXPLORATION_REVOLUTIONS_CRISIS_DESCRIPTION" Language="th_TH">
-			<Text>Social unrest leads to new forms of Government.</Text>		<!-- Social unrest leads to new forms of Government. -->
+			<Text>ความไม่สงบทางสังคมนำไปสู่รูปแบบรัฐบาลใหม่</Text>		<!-- Social unrest leads to new forms of Government. -->
 		</Replace>
 		<Replace Tag="LOC_EXPLORATION_PLAGUE_CRISIS_NAME" Language="th_TH">
-			<Text>Exploration Plague Crisis</Text>		<!-- Exploration Plague Crisis -->
+			<Text>วิกฤตโรคระบาดยุคสำรวจ</Text>		<!-- Exploration Plague Crisis -->
 		</Replace>
 		<Replace Tag="LOC_EXPLORATION_PLAGUE_CRISIS_DESCRIPTION" Language="th_TH">
-			<Text>Devastating diseases from distant lands sweep across your empire.</Text>		<!-- Devastating diseases from distant lands sweep across your empire. -->
+			<Text>โรคระบาดรุนแรงจากแดนไกลแพร่กระจายทั่วอาณาจักรของคุณ</Text>		<!-- Devastating diseases from distant lands sweep across your empire. -->
 		</Replace>
 		<Replace Tag="LOC_EXPLORATION_RELIGIOUS_REVOLTS_CRISIS_NAME" Language="th_TH">
-			<Text>Exploration Revolts Crisis</Text>		<!-- Exploration Revolts Crisis -->
+			<Text>วิกฤตการก่อจลาจลทางศาสนายุคสำรวจ</Text>		<!-- Exploration Revolts Crisis -->
 		</Replace>
 		<Replace Tag="LOC_EXPLORATION_RELIGIOUS_REVOLTS_CRISIS_DESCRIPTION" Language="th_TH">
-			<Text>Unhappy settlements following a foreign religion rise up in revolt.</Text>		<!-- Unhappy settlements following a foreign religion rise up in revolt. -->
+			<Text>นิคมที่ไม่มีความสุขซึ่งนับถือศาสนาต่างชาติลุกขึ้นก่อจลาจล</Text>		<!-- Unhappy settlements following a foreign religion rise up in revolt. -->
 		</Replace>
 		<Replace Tag="LOC_VOLCANO_SAN_CRISTOBAL_NAME" Language="th_TH">
 			<Text>ภูเขาไฟซานคริสโตบัล</Text>		<!-- Volcán San Cristóbal -->
@@ -21921,7 +21921,7 @@
 			<Text>เมื่อฝุ่นเริ่มจางลง ทหารได้วางอาวุธลงด้วยความพ่ายแพ้ มันยากที่จะมองเห็นผู้ชนะอย่างชัดเจนท่ามกลางความโหดร้ายของสงคราม</Text>		<!-- As the dust settles, soldiers lay down their weapons in defeat. It is hard to see a clear victor in the wake of war's carnage. -->
 		</Replace>
 		<Replace Tag="LOC_REWARD_AMOUNT_RELIGION_DOMESTIC_SETTLEMENTS" Language="th_TH">
-			<Text>+{1_value} {2_type} for all Settlements that you own following your Religion</Text>		<!-- +{1_value} {2_type} for all Settlements that you own following your Religion -->
+			<Text>+{1_value} {2_type} สำหรับนิคมทั้งหมดที่คุณเป็นเจ้าของและนับถือศาสนาของคุณ</Text>		<!-- +{1_value} {2_type} for all Settlements that you own following your Religion -->
 		</Replace>
 		<Replace Tag="LOC_8088B_NAME" Language="th_TH">
 			<Text>พันธมิตรจะยังคงอยู่หลังสงคราม</Text>		<!-- Alliances will persist past wartime. -->
@@ -21936,7 +21936,7 @@
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_REWARD_AMOUNT_RELIGION_TERRAIN" Language="th_TH">
-			<Text>+{1_value} {2_type} for every {3_terrain} tile in other Civilizations’ Settlements following your Religion</Text>		<!-- +{1_value} {2_type} for every {3_terrain} tile in other Civilizations’ Settlements following your Religion -->
+			<Text>+{1_value} {2_type} สำหรับแต่ละช่อง {3_terrain} ในนิคมของอารยธรรมอื่นที่นับถือศาสนาของคุณ</Text>		<!-- +{1_value} {2_type} for every {3_terrain} tile in other Civilizations’ Settlements following your Religion -->
 		</Replace>
 		<Replace Tag="LOC_8089A_STORYTITLE" Language="th_TH">
 			<Text>เริ่มต้นใหม่</Text>		<!-- To New Beginnings -->
@@ -23766,13 +23766,13 @@
 			<Text>โฟกัสอาหาร (พิเศษ)</Text>		<!-- Food Focus (Exclusive) -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_RESORT_SHORT_NAME" Language="th_TH">
-			<Text>Common Project</Text>		<!-- Common Project -->
+			<Text>โครงการทั่วไป</Text>		<!-- Common Project -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_RESORT_NAME" Language="th_TH">
-			<Text>Resort Town</Text>		<!-- Resort Town -->
+			<Text>เมืองรีสอร์ท</Text>		<!-- Resort Town -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_RESORT_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_HAPPINESS] Happiness and[icon:YIELD_GOLD] Gold per Age on Rural tiles in this Town that have at least 1[icon:YIELD_HAPPINESS] Happiness. +50% tile yields from Natural Wonders.</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness and[icon:YIELD_GOLD] Gold per Age on Rural tiles in this Town that have at least 1[icon:YIELD_HAPPINESS] Happiness. +50% tile yields from Natural Wonders. -->
+			<Text>+1[icon:YIELD_HAPPINESS] ความสุข และ[icon:YIELD_GOLD] ทองต่อยุคบนช่องชนบทในเมืองนี้ที่มีอย่างน้อย 1[icon:YIELD_HAPPINESS] ความสุข +50% ผลตอบแทนช่องจากสิ่งมหัศจรรย์ทางธรรมชาติ</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness and[icon:YIELD_GOLD] Gold per Age on Rural tiles in this Town that have at least 1[icon:YIELD_HAPPINESS] Happiness. +50% tile yields from Natural Wonders. -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_GOLD_INCREASE_NAME" Language="th_TH">
 			<Text>โฟกัสทอง (พิเศษ)</Text>		<!-- Gold Focus (Exclusive) -->
@@ -24582,7 +24582,7 @@
 			<Text>ลองผสมผสานผู้นำและอารยธรรมต่างๆ เพื่อให้เหมาะสมกับสไตล์การเล่นของคุณมากที่สุด</Text>		<!-- Experiment with different combinations of Leader and Civilization to best fit your playstyle. -->
 		</Replace>
 		<Replace Tag="LOC_UI_CONTENT_MGR_OPEN_UGC_OVERLAY" Language="th_TH">
-			<Text>Open [icon:steam-workshop] Steam Workshop</Text>		<!-- Open [icon:steam-workshop] Steam Workshop -->
+			<Text>เปิด [icon:steam-workshop] Steam Workshop</Text>		<!-- Open [icon:steam-workshop] Steam Workshop -->
 		</Replace>
 		<Replace Tag="LOC_GAME_SETUP_TITLE" Language="th_TH">
 			<Text>การตั้งค่า</Text>		<!-- Settings -->
@@ -24603,10 +24603,10 @@
 			<Text>การตั้งค่าหัวห้อง</Text>		<!-- Host Setup -->
 		</Replace>
 		<Replace Tag="LOC_UI_NETWORK_CONNECTION_OK" Language="th_TH">
-			<Text>You have a network connection</Text>		<!-- You have a network connection -->
+			<Text>คุณเชื่อมต่อเครือข่ายแล้ว</Text>		<!-- You have a network connection -->
 		</Replace>
 		<Replace Tag="LOC_UI_NETWORK_CONNECTION_FAILED" Language="th_TH">
-			<Text>You do not have a network connection</Text>		<!-- You do not have a network connection -->
+			<Text>คุณไม่ได้เชื่อมต่อเครือข่าย</Text>		<!-- You do not have a network connection -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_TITLE" Language="th_TH">
 			<Text>โถงรับรอง</Text>		<!-- Lobby -->
@@ -24645,10 +24645,10 @@
 			<Text>จัดการม็อด</Text>		<!-- Manage Mods -->
 		</Replace>
 		<Replace Tag="LOC_REWARDS_TITLE" Language="th_TH">
-			<Text>Rewards</Text>		<!-- Rewards -->
+			<Text>รางวัล</Text>		<!-- Rewards -->
 		</Replace>
 		<Replace Tag="LOC_NO_REWARDS_AVAIALBE" Language="th_TH">
-			<Text>No New Rewards</Text>		<!-- No New Rewards -->
+			<Text>ไม่มีรางวัลใหม่</Text>		<!-- No New Rewards -->
 		</Replace>
 		<Replace Tag="LOC_UI_CONTENT_MGR_TITLE" Language="th_TH">
 			<Text>เนื้อหาเพิ่มเติม</Text>		<!-- add-ons -->
@@ -24684,7 +24684,7 @@
 			<Text>จัดการบัญชี 2K</Text>		<!-- Manage 2K Account -->
 		</Replace>
 		<Replace Tag="LOC_UI_LINK_ACCOUNT_QR_CODE_FETCH" Language="th_TH">
-			<Text>Fetching account linking info from online services.</Text>		<!-- Fetching account linking info from online services. -->
+			<Text>กำลังดึงข้อมูลการเชื่อมบัญชีจากบริการออนไลน์</Text>		<!-- Fetching account linking info from online services. -->
 		</Replace>
 		<Replace Tag="LOC_UI_WAITING_SPOP_HEARTBEAT_OK" Language="th_TH">
 			<Text>กำลังรอเซิร์ฟเวอร์ 2K.</Text>		<!-- Waiting for 2K Servers... -->
@@ -24738,10 +24738,10 @@
 			<Text>บัญชี 2K ของคุณได้ถูกสร้างและเชื่อมโยงแล้ว กรุณาตรวจสอบรายละเอียดในอีเมลของคุณ</Text>		<!-- Your 2K Account has been created and linked.  Check your email for details. -->
 		</Replace>
 		<Replace Tag="LOC_UI_HIGH_END_DOWNLOAD_TITLE" Language="th_TH">
-			<Text>Download High Quality Assets</Text>		<!-- Download High Quality Assets -->
+			<Text>ดาวน์โหลดทรัพยากรคุณภาพสูง</Text>		<!-- Download High Quality Assets -->
 		</Replace>
 		<Replace Tag="LOC_UI_HIGH_END_DOWNLOAD_BODY" Language="th_TH">
-			<Text>This game uses high quality assets. Please download them for the greatest experience.</Text>		<!-- This game uses high quality assets. Please download them for the greatest experience. -->
+			<Text>เกมนี้ใช้ทรัพยากรคุณภาพสูง กรุณาดาวน์โหลดเพื่อประสบการณ์ที่ดีที่สุด</Text>		<!-- This game uses high quality assets. Please download them for the greatest experience. -->
 		</Replace>
 		<Replace Tag="LOC_UI_LINK_ACCOUNT_INCOMPLETE" Language="th_TH">
 			<Text>กรุณาเติมข้อมูลบัญชี 2K ของคุณให้สมบูรณ์</Text>		<!-- Please complete your 2K Account -->
@@ -24907,7 +24907,7 @@
 			<Text>ผู้เล่นคนเดียว</Text>		<!-- Singleplayer -->
 		</Replace>
 		<Replace Tag="LOC_SUB_SYSTEM_TRADITIONS_DURING_CELEBRATION" Language="th_TH">
-			<Text>View Your Social Policies[N] [N][STYLE:font-title-base][STYLE:text-secondary][STYLE:uppercase]{1_name}[/S][/S][/S][N][B]{2_turns} {2_turns: plural 1?turn; other?turns;}[/b] left in [b]Celebration[/b][N] [N][STYLE:font-title-base][STYLE:text-secondary][STYLE:uppercase]Bonus[/S][/S][/S][N]{3_description}</Text>		<!-- View Your Social Policies[N] [N][STYLE:font-title-base][STYLE:text-secondary][STYLE:uppercase]{1_name}[/S][/S][/S][N][B]{2_turns} {2_turns: plural 1?turn; other?turns;}[/b] left in [b]Celebration[/b][N] [N][STYLE:font-title-base][STYLE:text-secondary][STYLE:uppercase]Bonus[/S][/S][/S][N]{3_description} -->
+			<Text>ดูนโยบายสังคมของคุณ[N] [N][STYLE:font-title-base][STYLE:text-secondary][STYLE:uppercase]{1_name}[/S][/S][/S][N][B]{2_turns} {2_turns: plural 1?เทิร์น; other?เทิร์น;}[/b] เหลือใน [b]การเฉลิมฉลอง[/b][N] [N][STYLE:font-title-base][STYLE:text-secondary][STYLE:uppercase]โบนัส[/S][/S][/S][N]{3_description}</Text>		<!-- View Your Social Policies[N] [N][STYLE:font-title-base][STYLE:text-secondary][STYLE:uppercase]{1_name}[/S][/S][/S][N][B]{2_turns} {2_turns: plural 1?turn; other?turns;}[/b] left in [b]Celebration[/b][N] [N][STYLE:font-title-base][STYLE:text-secondary][STYLE:uppercase]Bonus[/S][/S][/S][N]{3_description} -->
 		</Replace>
 		<Replace Tag="LOC_SOCIAL_NOTIFICATION_GAME_INVITE_RECEIVED" Language="th_TH">
 			<Text>คำเชิญเข้าร่วมเกม</Text>		<!-- Game Invite -->
@@ -25954,7 +25954,7 @@
 			<Text>ยูนิตพลเรือน</Text>		<!-- Civilian Units -->
 		</Replace>
 		<Replace Tag="LOC_UI_X_TURNS_LEFT_UNTIL_AGE_END" Language="th_TH">
-			<Text>{1_turns} {1_turns: plural 1?Turn; other?Turns;} until this Age ends</Text>		<!-- {1_turns} {1_turns: plural 1?Turn; other?Turns;} until this Age ends -->
+			<Text>เหลืออีก {1_turns} {1_turns: plural 1?เทิร์น; other?เทิร์น;} ก่อนสิ้นสุดยุคนี้</Text>		<!-- {1_turns} {1_turns: plural 1?Turn; other?Turns;} until this Age ends -->
 		</Replace>
 		<Replace Tag="LOC_UI_FOOD_CHOOSER_DEFAULT" Language="th_TH">
 			<Text>ค่าเริ่มต้นอาหาร</Text>		<!-- Food Default -->
@@ -25987,7 +25987,7 @@
 			<Text>ใช้งานอยู่</Text>		<!-- Active -->
 		</Replace>
 		<Replace Tag="LOC_UI_ADJACENCY_INFO_RIVERS" Language="th_TH">
-			<Text>+{1_Amount} {2_YieldName} for each adjacent River</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent River -->
+			<Text>+{1_Amount} {2_YieldName} สำหรับแต่ละแม่น้ำที่อยู่ติดกัน</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent River -->
 		</Replace>
 		<Replace Tag="LOC_UI_QUEUE_QUEUED" Language="th_TH">
 			<Text>เข้าคิว</Text>		<!-- Queued -->
@@ -26182,7 +26182,7 @@
 			<Text>เมืองนี้อนุญาต {1_Specialist} ผู้เชี่ยวชาญ ต่อช่อง</Text>		<!-- This City currently allows {1_Specialist} {1_Specialist: plural 1?Specialist; other?Specialists;} per Tile -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_DETAILS_TREASURE_FLEET_RESOURCE_PREREQ_NEEDED" Language="th_TH">
-			<Text>No Treasure resources available.</Text>		<!-- No Treasure resources available. -->
+			<Text>ไม่มีทรัพยากรสมบัติให้ใช้</Text>		<!-- No Treasure resources available. -->
 		</Replace>
 		<Replace Tag="LOC_UI_TOWN_DETAILS_SPECIALIST_PER_TILE" Language="th_TH">
 			<Text>เมืองนี้อนุญาต {1_Specialist} ผู้เชี่ยวชาญ ต่อช่อง</Text>		<!-- This Town currently allows {1_Specialist} {1_Specialist: plural 1?Specialist; other?Specialists;} per Tile -->
@@ -26323,10 +26323,10 @@
 			<Text>สถานที่ที่ว่างเปล่าในขณะนี้ โดยมีการเปลี่ยนแปลงที่รออยู่ในคิวการผลิต</Text>		<!-- Currently empty location, with pending changes in the production queue -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_STATUS_TRADE_NOT_CONNECTED" Language="th_TH">
-			<Text>This Settlement is not connected to the Capital via your Trade Network.</Text>		<!-- This Settlement is not connected to the Capital via your Trade Network. -->
+			<Text>นิคมนี้ไม่ได้เชื่อมต่อกับเมืองหลวงผ่านเครือข่ายการค้า</Text>		<!-- This Settlement is not connected to the Capital via your Trade Network. -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_STATUS_TRADE_NOT_CONNECTED_DESCRIPTION" Language="th_TH">
-			<Text>You may be able to connect it to an already connected Settlement by building a road with a Merchant, constructing a coastal building, or founding a settlement within range to connect them.</Text>		<!-- You may be able to connect it to an already connected Settlement by building a road with a Merchant, constructing a coastal building, or founding a settlement within range to connect them. -->
+			<Text>คุณอาจเชื่อมต่อกับนิคมที่เชื่อมต่ออยู่แล้วโดยสร้างถนนด้วยพ่อค้า สร้างอาคารชายฝั่ง หรือก่อตั้งนิคมใหม่ในระยะที่เชื่อมต่อได้</Text>		<!-- You may be able to connect it to an already connected Settlement by building a road with a Merchant, constructing a coastal building, or founding a settlement within range to connect them. -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_PLOT_CARD_COMPLETES_UNIQUE" Language="th_TH">
 			<Text>การสร้าง {1_constructibleName} บนแผ่นนี้จะทำให้ {2_uniqueQuarterName} เสร็จสิ้น</Text>		<!-- Constructing a {1_constructibleName} on this tile will complete the {2_uniqueQuarterName} Unique Quarter. -->
@@ -26398,10 +26398,10 @@
 			<Text>เส้นทางการค้าที่เป็นไปได้</Text>		<!-- Possible Trade Routes -->
 		</Replace>
 		<Replace Tag="LOC_UI_GAME_UNTIL_END_OF_AGE" Language="th_TH">
-			<Text>Until the end of this Age</Text>		<!-- Until the end of this Age -->
+			<Text>จนกว่าจะสิ้นสุดยุคนี้</Text>		<!-- Until the end of this Age -->
 		</Replace>
 		<Replace Tag="LOC_UI_GAME_FINAL_TURN_OF_AGE" Language="th_TH">
-			<Text>Final turn of this Age</Text>		<!-- Final turn of this Age -->
+			<Text>เทิร์นสุดท้ายของยุคนี้</Text>		<!-- Final turn of this Age -->
 		</Replace>
 		<Replace Tag="LOC_TRADE_LENS_TITLE_ALT" Language="th_TH">
 			<Text>เพิ่มเส้นทางการค้า</Text>		<!-- Add Trade Route -->
@@ -27472,28 +27472,28 @@
 			<Text>ผลลัพธ์สุดท้าย</Text>		<!-- End Results -->
 		</Replace>
 		<Replace Tag="LOC_UI_SETTLER_LEGEND_HEADER" Language="th_TH">
-			<Text>Settler</Text>		<!-- Settler -->
+			<Text>ผู้ตั้งถิ่นฐาน</Text>		<!-- Settler -->
 		</Replace>
 		<Replace Tag="LOC_UI_SETTLER_LEGEND_BAD" Language="th_TH">
-			<Text>[STYLE:text-secondary]Cannot Settle:[/STYLE] Too close to settlement or blocked by terrain</Text>		<!-- [STYLE:text-secondary]Cannot Settle:[/STYLE] Too close to settlement or blocked by terrain -->
+			<Text>[STYLE:text-secondary]ไม่สามารถตั้งถิ่นฐานได้:[/STYLE] ใกล้กับนิคมหรือถูกขวางโดยภูมิประเทศ</Text>		<!-- [STYLE:text-secondary]Cannot Settle:[/STYLE] Too close to settlement or blocked by terrain -->
 		</Replace>
 		<Replace Tag="LOC_UI_SETTLER_LEGEND_OKAY" Language="th_TH">
-			<Text>[STYLE:text-secondary]Can Settle:[/STYLE] -5[icon:YIELD_HAPPINESS]Happiness from no Fresh Water</Text>		<!-- [STYLE:text-secondary]Can Settle:[/STYLE] -5[icon:YIELD_HAPPINESS]Happiness from no Fresh Water -->
+			<Text>[STYLE:text-secondary]สามารถตั้งถิ่นฐานได้:[/STYLE] -5[icon:YIELD_HAPPINESS]ความสุขจากไม่มีน้ำจืด</Text>		<!-- [STYLE:text-secondary]Can Settle:[/STYLE] -5[icon:YIELD_HAPPINESS]Happiness from no Fresh Water -->
 		</Replace>
 		<Replace Tag="LOC_UI_SETTLER_LEGEND_GOOD" Language="th_TH">
-			<Text>[STYLE:text-secondary]Can Settle[/STYLE]</Text>		<!-- [STYLE:text-secondary]Can Settle[/STYLE] -->
+			<Text>[STYLE:text-secondary]สามารถตั้งถิ่นฐานได้[/STYLE]</Text>		<!-- [STYLE:text-secondary]Can Settle[/STYLE] -->
 		</Replace>
 		<Replace Tag="LOC_UI_SETTLER_LEGEND_FLOOD_RISK" Language="th_TH">
-			<Text>[STYLE:text-secondary]Flood Risk[/STYLE]</Text>		<!-- [STYLE:text-secondary]Flood Risk[/STYLE] -->
+			<Text>[STYLE:text-secondary]เสี่ยงน้ำท่วม[/STYLE]</Text>		<!-- [STYLE:text-secondary]Flood Risk[/STYLE] -->
 		</Replace>
 		<Replace Tag="LOC_UI_SETTLER_LEGEND_ERUPTION_RISK" Language="th_TH">
-			<Text>[STYLE:text-secondary]Nearby Volcano[/STYLE]</Text>		<!-- [STYLE:text-secondary]Nearby Volcano[/STYLE] -->
+			<Text>[STYLE:text-secondary]ภูเขาไฟใกล้เคียง[/STYLE]</Text>		<!-- [STYLE:text-secondary]Nearby Volcano[/STYLE] -->
 		</Replace>
 		<Replace Tag="LOC_UI_SETTLER_LEGEND_RECOMMENDED" Language="th_TH">
-			<Text>[STYLE:text-secondary]Recommended Settlement Location[/STYLE]</Text>		<!-- [STYLE:text-secondary]Recommended Settlement Location[/STYLE] -->
+			<Text>[STYLE:text-secondary]ตำแหน่งตั้งถิ่นฐานที่แนะนำ[/STYLE]</Text>		<!-- [STYLE:text-secondary]Recommended Settlement Location[/STYLE] -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_DETAILS_INFECTED" Language="th_TH">
-			<Text>Infected</Text>		<!-- Infected -->
+			<Text>ติดเชื้อ</Text>		<!-- Infected -->
 		</Replace>
 		<Replace Tag="LOC_UI_RESULTS_WIN" Language="th_TH">
 			<Text>คุณชนะ</Text>		<!-- You Won -->
@@ -27640,10 +27640,10 @@
 			<Text>สั่งการให้ยูนิตถอนตัวออกจากกองทัพ</Text>		<!-- Order the unit to remove itself from the Army -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_SCALING_COMMANDER_ATTACK_NAME" Language="th_TH">
-			<Text>Heroic Assault</Text>		<!-- Heroic Assault -->
+			<Text>จู่โจมอย่างกล้าหาญ</Text>		<!-- Heroic Assault -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_SCALING_COMMANDER_ATTACK_DESCRIPTION" Language="th_TH">
-			<Text>Directly attack a unit that shares the domain type with the commander. Damage increases for each commander level.</Text>		<!-- Directly attack a unit that shares the domain type with the commander. Damage increases for each commander level. -->
+			<Text>โจมตีโดยตรงกับยูนิตที่มีประเภทโดเมนเดียวกับผู้บัญชาการ ความเสียหายเพิ่มขึ้นตามระดับผู้บัญชาการ</Text>		<!-- Directly attack a unit that shares the domain type with the commander. Damage increases for each commander level. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_ADD_TO_FLEET_NAME" Language="th_TH">
 			<Text>เพิ่มเข้ากอง</Text>		<!-- Add To Fleet -->
@@ -27760,10 +27760,10 @@
 			<Text>สั่งการให้ยูนิตรบทางเรือทั้งหมด ทั้งหมดภายในรัศมีบัญชาการ โจมตีเป้าหมายภาคพื้นที่กำหนด ยูนิตทั้งหมดได้รับ +2 พลังต่อสู้ สำหรับการโจมตีนี้</Text>		<!-- Order all Naval Units within Command Radius to fire upon a specified land target. All Units have +2 Combat Strength for this attack. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_PET_THE_DOG_NAME" Language="th_TH">
-			<Text>Pet the Dog</Text>		<!-- Pet the Dog -->
+			<Text>ลูบหัวสุนัข</Text>		<!-- Pet the Dog -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_PET_THE_DOG_DESCRIPTION" Language="th_TH">
-			<Text>Who's a good dog?</Text>		<!-- Who's a good dog? -->
+			<Text>ใครเป็นสุนัขที่ดีนะ?</Text>		<!-- Who's a good dog? -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_FOCUSED_ATTACK_AIR_TO_AIR_NAME" Language="th_TH">
 			<Text>โจมตีกวาดล้าง</Text>		<!-- Fighter Sweep -->
@@ -27871,10 +27871,10 @@
 			<Text>ไม่มีการปฏิบัติพิเศษของกองทัพที่เหลือในเทิร์นนี้</Text>		<!-- No Army Special Actions remaining this turn. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_STONE_TRAP_CAN_REMOVE_EXISTING" Language="th_TH">
-			<Text>Trap exists here. This action will remove it!</Text>		<!-- Trap exists here. This action will remove it! -->
+			<Text>กับดักมีอยู่ที่นี่ การกระทำนี้จะลบออก!</Text>		<!-- Trap exists here. This action will remove it! -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_STONE_TRAP_NOT_ON_FOREIGN_TERRITORY" Language="th_TH">
-			<Text>Cannot be placed on Tiles belonging to another Leader</Text>		<!-- Cannot be placed on Tiles belonging to another Leader -->
+			<Text>ไม่สามารถวางบนช่องที่เป็นของผู้นำอื่น</Text>		<!-- Cannot be placed on Tiles belonging to another Leader -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_REQUIRES_FULL_MOVEMENT" Language="th_TH">
 			<Text>ต้องมีการเคลื่อนไหวอย่างเต็มที่</Text>		<!-- Requires Full Movement -->
@@ -27901,13 +27901,13 @@
 			<Text>ป้อมปราการมีอยู่แล้วในสถานที่นี้</Text>		<!-- Fortifications already exist at this location. -->
 		</Replace>
 		<Replace Tag="LOC_HUD_UNIT_ACTION_AUTOEXPLORE_NEAR_GOODY_HUT" Language="th_TH">
-			<Text>There is a Discovery nearby!</Text>		<!-- There is a Discovery nearby! -->
+			<Text>มีการค้นพบอยู่ใกล้ ๆ!</Text>		<!-- There is a Discovery nearby! -->
 		</Replace>
 		<Replace Tag="LOC_HUD_UNIT_ACTION_AUTOEXPLORE_IN_ZONE_OF_CONTROL" Language="th_TH">
-			<Text>There is an enemy unit nearby!</Text>		<!-- There is an enemy unit nearby! -->
+			<Text>มียูนิตศัตรูอยู่ใกล้ ๆ!</Text>		<!-- There is an enemy unit nearby! -->
 		</Replace>
 		<Replace Tag="LOC_HUD_UNIT_ACTION_AUTOEXPLORE_UNAVAILABLE" Language="th_TH">
-			<Text>Automate Exploration is not available now. Try moving to safer ground.</Text>		<!-- Automate Exploration is not available now. Try moving to safer ground. -->
+			<Text>ไม่สามารถสำรวจอัตโนมัติได้ในขณะนี้ ลองย้ายไปพื้นที่ปลอดภัยก่อน</Text>		<!-- Automate Exploration is not available now. Try moving to safer ground. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_TRADE_ROUTE_INFO_LAND" Language="th_TH">
 			<Text>สร้างเส้นทางการค้าทางบกเพื่อรับทรัพยากร {1_Num} ที่มีอยู่ในถิ่นฐานนี้</Text>		<!-- Create a land Trade Route to gain the {1_Num} resource(s) present in this Settlement. -->
@@ -31274,7 +31274,7 @@
 			<Text>+5 พลังต่อสู้ สำหรับทุกยูนิตเมื่อสู้กับเขตเมือง</Text>		<!-- +5 Combat Strength for all Units against Districts. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_NO_CIVILIZATION_UNLOCKS" Language="th_TH">
-			<Text>All Civilizations are Unlocked.</Text>		<!-- All Civilizations are Unlocked. -->
+			<Text>อารยธรรมทั้งหมดปลดล็อกแล้ว</Text>		<!-- All Civilizations are Unlocked. -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_EVENT_PARTICIPATION_LEADERMIXNMATCH_NAME" Language="th_TH">
 			<Text>ตราการเข้าร่วมอีเว้นท์ครั้งแรก</Text>		<!-- First Event Participation Badge -->
@@ -32537,22 +32537,22 @@
 			<Text>ยุคมืดทางทหาร</Text>		<!-- Militaristic Dark Age -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_FOUNDER_BELIEF_BONUS_13_DESCRIPTION" Language="th_TH">
-			<Text>Retain {LOC_FOUNDER_BELIEF_BONUS_13_NAME}. {LOC_FOUNDER_BELIEF_BONUS_13_DESCRIPTION}</Text>		<!-- Retain {LOC_FOUNDER_BELIEF_BONUS_13_NAME}. {LOC_FOUNDER_BELIEF_BONUS_13_DESCRIPTION} -->
+			<Text>คงไว้ซึ่ง {LOC_FOUNDER_BELIEF_BONUS_13_NAME} {LOC_FOUNDER_BELIEF_BONUS_13_DESCRIPTION}</Text>		<!-- Retain {LOC_FOUNDER_BELIEF_BONUS_13_NAME}. {LOC_FOUNDER_BELIEF_BONUS_13_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_FOUNDER_BELIEF_BONUS_14_DESCRIPTION" Language="th_TH">
-			<Text>Retain {LOC_FOUNDER_BELIEF_BONUS_14_NAME}. {LOC_FOUNDER_BELIEF_BONUS_14_DESCRIPTION}</Text>		<!-- Retain {LOC_FOUNDER_BELIEF_BONUS_14_NAME}. {LOC_FOUNDER_BELIEF_BONUS_14_DESCRIPTION} -->
+			<Text>คงไว้ซึ่ง {LOC_FOUNDER_BELIEF_BONUS_14_NAME} {LOC_FOUNDER_BELIEF_BONUS_14_DESCRIPTION}</Text>		<!-- Retain {LOC_FOUNDER_BELIEF_BONUS_14_NAME}. {LOC_FOUNDER_BELIEF_BONUS_14_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_FOUNDER_BELIEF_BONUS_15_DESCRIPTION" Language="th_TH">
-			<Text>Retain {LOC_FOUNDER_BELIEF_BONUS_15_NAME}. {LOC_FOUNDER_BELIEF_BONUS_15_DESCRIPTION}</Text>		<!-- Retain {LOC_FOUNDER_BELIEF_BONUS_15_NAME}. {LOC_FOUNDER_BELIEF_BONUS_15_DESCRIPTION} -->
+			<Text>คงไว้ซึ่ง {LOC_FOUNDER_BELIEF_BONUS_15_NAME} {LOC_FOUNDER_BELIEF_BONUS_15_DESCRIPTION}</Text>		<!-- Retain {LOC_FOUNDER_BELIEF_BONUS_15_NAME}. {LOC_FOUNDER_BELIEF_BONUS_15_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_FOUNDER_BELIEF_BONUS_16_DESCRIPTION" Language="th_TH">
-			<Text>Retain {LOC_FOUNDER_BELIEF_BONUS_16_NAME}. {LOC_FOUNDER_BELIEF_BONUS_16_DESCRIPTION}</Text>		<!-- Retain {LOC_FOUNDER_BELIEF_BONUS_16_NAME}. {LOC_FOUNDER_BELIEF_BONUS_16_DESCRIPTION} -->
+			<Text>คงไว้ซึ่ง {LOC_FOUNDER_BELIEF_BONUS_16_NAME} {LOC_FOUNDER_BELIEF_BONUS_16_DESCRIPTION}</Text>		<!-- Retain {LOC_FOUNDER_BELIEF_BONUS_16_NAME}. {LOC_FOUNDER_BELIEF_BONUS_16_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_FOUNDER_BELIEF_BONUS_17_DESCRIPTION" Language="th_TH">
-			<Text>Retain {LOC_FOUNDER_BELIEF_BONUS_17_NAME}. {LOC_FOUNDER_BELIEF_BONUS_17_DESCRIPTION}</Text>		<!-- Retain {LOC_FOUNDER_BELIEF_BONUS_17_NAME}. {LOC_FOUNDER_BELIEF_BONUS_17_DESCRIPTION} -->
+			<Text>คงไว้ซึ่ง {LOC_FOUNDER_BELIEF_BONUS_17_NAME} {LOC_FOUNDER_BELIEF_BONUS_17_DESCRIPTION}</Text>		<!-- Retain {LOC_FOUNDER_BELIEF_BONUS_17_NAME}. {LOC_FOUNDER_BELIEF_BONUS_17_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_BELIEF_BONUS_30_DESCRIPTION" Language="th_TH">
-			<Text>Retain {LOC_BELIEF_BONUS_30_NAME}. {LOC_BELIEF_BONUS_30_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_30_NAME}. {LOC_BELIEF_BONUS_30_DESCRIPTION} -->
+			<Text>คงไว้ซึ่ง {LOC_BELIEF_BONUS_30_NAME} {LOC_BELIEF_BONUS_30_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_30_NAME}. {LOC_BELIEF_BONUS_30_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_MILITARY_DARK_AGE_REWARD_TEXT" Language="th_TH">
 			<Text>{LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_DARK_AGE_NAME}</Text>		<!-- {LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_DARK_AGE_NAME} -->
@@ -32813,7 +32813,7 @@
 			<Text>ได้รับ 1 แต้ม คุณลักษณะทางวิทยาศาสตร์</Text>		<!-- Gain 1 Scientific Attribute Point. -->
 		</Replace>
 		<Replace Tag="LOC_DARK_AGE_REQUNLOCK_DESCRIPTION" Language="th_TH">
-			<Text>Don't win any Victories this Age</Text>		<!-- Don't win any Victories this Age -->
+			<Text>ห้ามชนะชัยชนะใด ๆ ในยุคนี้</Text>		<!-- Don't win any Victories this Age -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ATTRIBUTE_ECONOMIC_NAME" Language="th_TH">
 			<Text>แต้มคุณลักษณะทางเศรษฐกิจ</Text>		<!-- Economic Attribute Point -->
@@ -32852,10 +32852,10 @@
 			<Text>ได้รับ 1 คะแนนมรดกทางวิทยาศาสตร์</Text>		<!-- Gain 1 Scientific Legacy Point. -->
 		</Replace>
 		<Replace Tag="LOC_VICTORY_PROGRESS_LEGACY_PATHS_DISABLED" Language="th_TH">
-			<Text>Legacy Paths Disabled</Text>		<!-- Legacy Paths Disabled -->
+			<Text>ปิดใช้งานเส้นทางมรดก</Text>		<!-- Legacy Paths Disabled -->
 		</Replace>
 		<Replace Tag="LOC_VICTORY_PROGRESS_LEGACY_PATHS_DISABLED_INFO" Language="th_TH">
-			<Text>All Legacy Paths have been disabled in the Advanced Settings.</Text>		<!-- All Legacy Paths have been disabled in the Advanced Settings. -->
+			<Text>เส้นทางมรดกทั้งหมดถูกปิดใช้งานในตัวเลือกขั้นสูง</Text>		<!-- All Legacy Paths have been disabled in the Advanced Settings. -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_POINT_MILITARY_REWARD_NAME" Language="th_TH">
 			<Text>แต้มมรดกทางทหาร</Text>		<!-- Militaristic Legacy Point -->

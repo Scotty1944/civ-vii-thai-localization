@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_COPYRIGHT_BLOCK" Language="th_TH">
@@ -398,10 +398,10 @@
 			<Text>มีแมตช์มากเกินไป</Text>		<!-- Too many matches -->
 		</Replace>
 		<Replace Tag="LOC_CENTER_PLOT_CURSOR" Language="th_TH">
-			<Text>Center Cursor / Rename</Text>		<!-- Center Cursor / Rename -->
+			<Text>ศูนย์กลางเคอร์เซอร์ / เปลี่ยนชื่อ</Text>		<!-- Center Cursor / Rename -->
 		</Replace>
 		<Replace Tag="LOC_CENTER_PLOT_CURSOR_HELP" Language="th_TH">
-			<Text>Depending on context: moves cursor to center of the camera view or renames the focused object.</Text>		<!-- Depending on context: moves cursor to center of the camera view or renames the focused object. -->
+			<Text>ขึ้นอยู่กับบริบท: ย้ายเคอร์เซอร์ไปยังศูนย์กลางของมุมกล้องหรือเปลี่ยนชื่อวัตถุที่โฟกัสอยู่</Text>		<!-- Depending on context: moves cursor to center of the camera view or renames the focused object. -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LANDING_ERROR_NO_CONNECTION" Language="th_TH">
 			<Text>ไม่มีการเชื่อมต่อ</Text>		<!-- No connection -->
@@ -1433,7 +1433,7 @@
 			<Text>เนื้อหาที่ผิดกฎหมายอื่นๆ</Text>		<!-- Other Illegal Content -->
 		</Replace>
 		<Replace Tag="LOC_ABUSE_REPORT_SELECT_REASON" Language="th_TH">
-			<Text>Select a Reason</Text>		<!-- Select a Reason -->
+			<Text>เลือกเหตุผล</Text>		<!-- Select a Reason -->
 		</Replace>
 		<Replace Tag="LOC_UI_CHAT_ICONS" Language="th_TH">
 			<Text>ไอคอน</Text>		<!-- Icons -->
@@ -1679,7 +1679,7 @@
 			<Text>ผู้เขียน: {1_Name}</Text>		<!-- Author: {1_Name} -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_PLAYER_OPTIONS_CHAT_UNAVAILABLE" Language="th_TH">
-			<Text>Unavailable</Text>		<!-- Unavailable -->
+			<Text>ไม่พร้อมใช้งาน</Text>		<!-- Unavailable -->
 		</Replace>
 		<Replace Tag="LOC_AUTHORS_FIRAXIS" Language="th_TH">
 			<Text>Firaxis Games</Text>		<!-- Firaxis Games -->
@@ -2147,10 +2147,10 @@
 			<Text>ทำการบันทึกด่วน</Text>		<!-- Performs a quick save -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_PRODUCTIONPANEL_STAYSOPEN" Language="th_TH">
-			<Text>Production Panel Stays Open</Text>		<!-- Production Panel Stays Open -->
+			<Text>แผงการผลิตยังคงเปิดอยู่</Text>		<!-- Production Panel Stays Open -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_PRODUCTIONPANEL_STAYSOPEN_DESCRIPTION" Language="th_TH">
-			<Text>After placing a building to construct, you will be returned to the production panel.</Text>		<!-- After placing a building to construct, you will be returned to the production panel. -->
+			<Text>หลังจากเลือกอาคารที่จะสร้าง คุณจะกลับไปยังแผงการผลิต</Text>		<!-- After placing a building to construct, you will be returned to the production panel. -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_CAPITAL_CITY" Language="th_TH">
 			<Text>เมืองหลวง</Text>		<!-- Capital City -->
@@ -2585,70 +2585,70 @@
 			<Text>คุณแน่ใจหรือว่าต้องการบันทึกการแมปใหม่นี้?</Text>		<!-- Are you sure you want to save this new mapping? -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_SPATIAL_QUALITY_SETTING" Language="th_TH">
-			<Text>MetalFX Spatial Upscaling Quality Level</Text>		<!-- MetalFX Spatial Upscaling Quality Level -->
+			<Text>ระดับคุณภาพการอัปสเกล MetalFX Spatial</Text>		<!-- MetalFX Spatial Upscaling Quality Level -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_SPATIAL_QUALITY_SETTING_DESCRIPTION" Language="th_TH">
-			<Text>Set the quality level for MetalFX Spatial. Higher quality levels look better, while lower ones run faster.</Text>		<!-- Set the quality level for MetalFX Spatial. Higher quality levels look better, while lower ones run faster. -->
+			<Text>ตั้งค่าระดับคุณภาพสำหรับ MetalFX Spatial ระดับคุณภาพที่สูงขึ้นจะดูดีกว่า ในขณะที่ระดับต่ำจะทำงานได้เร็วกว่า</Text>		<!-- Set the quality level for MetalFX Spatial. Higher quality levels look better, while lower ones run faster. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_SPATIAL_QUALITY_PERFORMANCE" Language="th_TH">
-			<Text>Performance</Text>		<!-- Performance -->
+			<Text>ประสิทธิภาพ</Text>		<!-- Performance -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_SPATIAL_QUALITY_BALANCED" Language="th_TH">
-			<Text>Balanced</Text>		<!-- Balanced -->
+			<Text>สมดุล</Text>		<!-- Balanced -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_SPATIAL_QUALITY_QUALITY" Language="th_TH">
-			<Text>Quality</Text>		<!-- Quality -->
+			<Text>คุณภาพ</Text>		<!-- Quality -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_SPATIAL_QUALITY_ULTRA_QUALITY" Language="th_TH">
-			<Text>Ultra Quality</Text>		<!-- Ultra Quality -->
+			<Text>คุณภาพสูงสุด</Text>		<!-- Ultra Quality -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_SPATIAL_QUALITY_PERFORMANCE_DESCRIPTION" Language="th_TH">
-			<Text>Improves overall gaming performance.</Text>		<!-- Improves overall gaming performance. -->
+			<Text>เพิ่มประสิทธิภาพการเล่นเกมโดยรวม</Text>		<!-- Improves overall gaming performance. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_SPATIAL_QUALITY_BALANCED_DESCRIPTION" Language="th_TH">
-			<Text>Delivers optimal performance and image quality.</Text>		<!-- Delivers optimal performance and image quality. -->
+			<Text>ให้ประสิทธิภาพและคุณภาพของภาพที่เหมาะสม</Text>		<!-- Delivers optimal performance and image quality. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_SPATIAL_QUALITY_QUALITY_DESCRIPTION" Language="th_TH">
-			<Text>Delivers high quality visual upscale.</Text>		<!-- Delivers high quality visual upscale. -->
+			<Text>ให้การอัปสเกลภาพคุณภาพสูง</Text>		<!-- Delivers high quality visual upscale. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_SPATIAL_QUALITY_ULTRA_QUALITY_DESCRIPTION" Language="th_TH">
-			<Text>Delivers very high quality visual upscale.</Text>		<!-- Delivers very high quality visual upscale. -->
+			<Text>ให้การอัปสเกลภาพคุณภาพสูงมาก</Text>		<!-- Delivers very high quality visual upscale. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_TEMPORAL_QUALITY_SETTING" Language="th_TH">
-			<Text>MetalFX Temporal Upscaling Quality Level</Text>		<!-- MetalFX Temporal Upscaling Quality Level -->
+			<Text>ระดับคุณภาพการอัปสเกล MetalFX Temporal</Text>		<!-- MetalFX Temporal Upscaling Quality Level -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_TEMPORAL_QUALITY_SETTING_DESCRIPTION" Language="th_TH">
-			<Text>Set the quality level for MetalFX Temporal. Higher quality levels look better, while lower ones run faster.</Text>		<!-- Set the quality level for MetalFX Temporal. Higher quality levels look better, while lower ones run faster. -->
+			<Text>ตั้งค่าระดับคุณภาพสำหรับ MetalFX Temporal ระดับคุณภาพที่สูงขึ้นจะดูดีกว่า ในขณะที่ระดับต่ำจะทำงานได้เร็วกว่า</Text>		<!-- Set the quality level for MetalFX Temporal. Higher quality levels look better, while lower ones run faster. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_TEMPORAL_QUALITY_PERFORMANCE" Language="th_TH">
-			<Text>Performance</Text>		<!-- Performance -->
+			<Text>ประสิทธิภาพ</Text>		<!-- Performance -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_TEMPORAL_QUALITY_BALANCED" Language="th_TH">
-			<Text>Balanced</Text>		<!-- Balanced -->
+			<Text>สมดุล</Text>		<!-- Balanced -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_TEMPORAL_QUALITY_QUALITY" Language="th_TH">
-			<Text>Quality</Text>		<!-- Quality -->
+			<Text>คุณภาพ</Text>		<!-- Quality -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_TEMPORAL_QUALITY_ULTRA_QUALITY" Language="th_TH">
-			<Text>Ultra Quality</Text>		<!-- Ultra Quality -->
+			<Text>คุณภาพสูงสุด</Text>		<!-- Ultra Quality -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_TEMPORAL_QUALITY_NATIVE" Language="th_TH">
-			<Text>Native Quality</Text>		<!-- Native Quality -->
+			<Text>คุณภาพดั้งเดิม</Text>		<!-- Native Quality -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_TEMPORAL_QUALITY_PERFORMANCE_DESCRIPTION" Language="th_TH">
-			<Text>Improves overall gaming performance.</Text>		<!-- Improves overall gaming performance. -->
+			<Text>เพิ่มประสิทธิภาพการเล่นเกมโดยรวม</Text>		<!-- Improves overall gaming performance. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_TEMPORAL_QUALITY_BALANCED_DESCRIPTION" Language="th_TH">
-			<Text>Delivers optimal performance and image quality.</Text>		<!-- Delivers optimal performance and image quality. -->
+			<Text>ให้ประสิทธิภาพและคุณภาพของภาพที่เหมาะสม</Text>		<!-- Delivers optimal performance and image quality. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_TEMPORAL_QUALITY_QUALITY_DESCRIPTION" Language="th_TH">
-			<Text>Delivers high quality visual upscale.</Text>		<!-- Delivers high quality visual upscale. -->
+			<Text>ให้การอัปสเกลภาพคุณภาพสูง</Text>		<!-- Delivers high quality visual upscale. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_TEMPORAL_QUALITY_ULTRA_QUALITY_DESCRIPTION" Language="th_TH">
-			<Text>Delivers very high quality visual upscale.</Text>		<!-- Delivers very high quality visual upscale. -->
+			<Text>ให้การอัปสเกลภาพคุณภาพสูงมาก</Text>		<!-- Delivers very high quality visual upscale. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_METALFX_TEMPORAL_QUALITY_NATIVE_DESCRIPTION" Language="th_TH">
-			<Text>Delivers the highest quality anti-aliasing.</Text>		<!-- Delivers the highest quality anti-aliasing. -->
+			<Text>ให้คุณภาพการลบรอยหยักสูงสุด</Text>		<!-- Delivers the highest quality anti-aliasing. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_MOUSE_L" Language="th_TH">
 			<Text>Left Mouse</Text>		<!-- Left Mouse -->
@@ -3092,10 +3092,10 @@
 			<Text>คุณเป็นเพื่อนกับ {1_PlayerName} แล้ว</Text>		<!-- You are now friends with {1_PlayerName} -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_PROFILE_BATTERY" Language="th_TH">
-			<Text>Battery</Text>		<!-- Battery -->
+			<Text>แบตเตอรี่</Text>		<!-- Battery -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_PROFILE_QUALITY" Language="th_TH">
-			<Text>Quality</Text>		<!-- Quality -->
+			<Text>คุณภาพ</Text>		<!-- Quality -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_CATEGORY_SYSTEM_CONSOLE" Language="th_TH">
 			<Text>คอนโซล</Text>		<!-- Console -->
@@ -3269,7 +3269,7 @@
 			<Text>ปรับคุณภาพและประสิทธิภาพของ Civilization</Text>		<!-- Adjust the Quality and Performance of Civilization. -->
 		</Replace>
 		<Replace Tag="LOC_PROFILE_CHALLENGE_RETURN" Language="th_TH">
-			<Text>Jump to Challenges</Text>		<!-- Jump to Challenges -->
+			<Text>ไปยังความท้าทาย</Text>		<!-- Jump to Challenges -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_CATEGORY_INPUT" Language="th_TH">
 			<Text>การป้อนข้อมูล</Text>		<!-- Input -->
@@ -3581,7 +3581,7 @@
 			<Text>เลือกความโปร่งใสของพื้นหลังสำหรับข้อความคำบรรยาย</Text>		<!-- Select how transparent is the background for subtitle text. -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_DETAILS_MAP_SIZE" Language="th_TH">
-			<Text>Map Size:</Text>		<!-- Map Size: -->
+			<Text>ขนาดแผนที่:</Text>		<!-- Map Size: -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_USE_SCREEN_READER" Language="th_TH">
 			<Text>ใช้เครื่องอ่านหน้าจอ</Text>		<!-- Use Screen Reader -->
@@ -3596,10 +3596,10 @@
 			<Text>ใช้ Windows Narrator ในตัวเพื่ออ่านข้อความออกเสียง</Text>		<!-- Use the built in Windows Narrator to read text out load. -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_DETAILS_CREATED_BY_VERSION" Language="th_TH">
-			<Text>Created By Version:</Text>		<!-- Created By Version: -->
+			<Text>สร้างโดยเวอร์ชัน:</Text>		<!-- Created By Version: -->
 		</Replace>
 		<Replace Tag="LOC_SAVE_LOAD_DETAILS_CREATED_TIME" Language="th_TH">
-			<Text>Created:</Text>		<!-- Created: -->
+			<Text>สร้างเมื่อ:</Text>		<!-- Created: -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_AUDIO_LANGUAGE" Language="th_TH">
 			<Text>ภาษาของเสียง</Text>		<!-- Audio Language -->
@@ -3782,7 +3782,7 @@
 			<Text>ไม่มีการสอน ที่ปรึกษาจะแจ้งให้คุณทราบหากมีบางอย่างเสี่ยง</Text>		<!-- No Tutorials. Advisors will inform you if something is at risk. -->
 		</Replace>
 		<Replace Tag="LOC_UPSELL_UPGRADE_COMPLETE" Language="th_TH">
-			<Text>Thank you for your purchase. Please restart the game for the changes to take effect.</Text>		<!-- Thank you for your purchase. Please restart the game for the changes to take effect. -->
+			<Text>ขอบคุณสำหรับการซื้อ กรุณารีสตาร์ทเกมเพื่อให้การเปลี่ยนแปลงมีผล</Text>		<!-- Thank you for your purchase. Please restart the game for the changes to take effect. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GAME_TUTORIAL_2_TOOLTIP" Language="th_TH">
 			<Text>เรียนรู้ขณะเล่น คำเตือนก็เปิดใช้งานด้วย</Text>		<!-- Learn as you play. Warnings are also enabled. -->
@@ -4370,19 +4370,19 @@
 			<Text>ขนาดแผนที่ย่อที่คุณต้องการใน HUD ของคุณ</Text>		<!-- What size mini-map do you want in your HUD? -->
 		</Replace>
 		<Replace Tag="LOC_GROUPID_DISASTER_CRISIS_OPTIONS" Language="th_TH">
-			<Text>Disaster and Crisis Settings</Text>		<!-- Disaster and Crisis Settings -->
+			<Text>การตั้งค่าภัยพิบัติและวิกฤต</Text>		<!-- Disaster and Crisis Settings -->
 		</Replace>
 		<Replace Tag="LOC_GROUPID_DIFFICULTY_OPTIONS" Language="th_TH">
-			<Text>Difficulty Settings</Text>		<!-- Difficulty Settings -->
+			<Text>การตั้งค่าความยาก</Text>		<!-- Difficulty Settings -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_MINIMAP_SIZE_SMALL" Language="th_TH">
 			<Text>เล็ก</Text>		<!-- small -->
 		</Replace>
 		<Replace Tag="LOC_GROUPID_LEGACYOPTIONS" Language="th_TH">
-			<Text>Legacy Path Settings</Text>		<!-- Legacy Path Settings -->
+			<Text>การตั้งค่าเส้นทางมรดก</Text>		<!-- Legacy Path Settings -->
 		</Replace>
 		<Replace Tag="LOC_GROUPID_DISASTEROPTIONS" Language="th_TH">
-			<Text>Disaster and Crisis Settings</Text>		<!-- Disaster and Crisis Settings -->
+			<Text>การตั้งค่าภัยพิบัติและวิกฤต</Text>		<!-- Disaster and Crisis Settings -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_MINIMAP_SIZE_MEDIUM" Language="th_TH">
 			<Text>กลาง</Text>		<!-- medium -->
@@ -4436,7 +4436,7 @@
 			<Text>ล็อคเมาส์ไปที่หน้าต่าง</Text>		<!-- Lock Mouse To Window -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_GAME_RULE_TURN_TIME" Language="th_TH">
-			<Text>Turn Time:</Text>		<!-- Turn Time: -->
+			<Text>เวลาเทิร์น:</Text>		<!-- Turn Time: -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_LOCK_MOUSE_DESCRIPTION" Language="th_TH">
 			<Text>เก็บเมาส์ไว้ในพื้นที่หน้าต่างของเกม</Text>		<!-- Keep the mouse within the game's window region. -->
@@ -4499,7 +4499,7 @@
 			<Text>ที่ปรึกษา</Text>		<!-- Advisors -->
 		</Replace>
 		<Replace Tag="LOC_GENERIC_RESET_PRIMARY_ACCOUNT" Language="th_TH">
-			<Text>Reset Primary Account</Text>		<!-- Reset Primary Account -->
+			<Text>รีเซ็ตบัญชีหลัก</Text>		<!-- Reset Primary Account -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GROUP_ADVANCED" Language="th_TH">
 			<Text>ขั้นสูง</Text>		<!-- Advanced -->
@@ -4901,7 +4901,7 @@
 			<Text>ความก้าวหน้าในเครื่องของคุณขัดแย้งกับที่เชื่อมโยงกับบัญชี 2K ของคุณ คุณจะต้องเลือกเวอร์ชันเพื่อดำเนินการต่อ กรุณาเลือกความก้าวหน้าที่คุณจะเก็บไว้เพื่อซิงค์กับคอนโซลนี้และบัญชี 2K ของคุณ</Text>		<!-- Your local progress conflicts with what is linked with your 2K account.  You will need to choose a version to proceed.  Please select the progress you will keep to be synced to this console and your 2K account. -->
 		</Replace>
 		<Replace Tag="LOC_UI_ODR_DOWNLOAD_DESCRIPTION" Language="th_TH">
-			<Text>Downloading will continue in the background</Text>		<!-- Downloading will continue in the background -->
+			<Text>การดาวน์โหลดจะดำเนินต่อไปในพื้นหลัง</Text>		<!-- Downloading will continue in the background -->
 		</Replace>
 		<Replace Tag="LOC_PROFILE_PROGRESS_CHOICE_1_CONFLICT_RESOLUTION" Language="th_TH">
 			<Text>ความก้าวหน้าในเครื่อง</Text>		<!-- Local Progress -->
