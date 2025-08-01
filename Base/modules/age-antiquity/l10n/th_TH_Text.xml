@@ -290,10 +290,10 @@
 			<Text>ไม่รู้จัก</Text>		<!-- UNKNOWN -->
 		</Replace>
 		<Replace Tag="LOC_CITYCOMMAND_DESTROY_RAZE_PENALTY" Language="th_TH">
-			<Text>-4[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น สำหรับช่วงเวลาที่เหลือของยุคเมื่อการทำลายเสร็จสมบูรณ์</Text>		<!-- -4[icon:YIELD_DIPLOMACY] Influence per turn for the rest of the Age once razing is complete -->
+			<Text>-12[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น สำหรับช่วงเวลาที่เหลือของยุคเมื่อการทำลายเสร็จสมบูรณ์</Text>		<!-- -12[icon:YIELD_DIPLOMACY] Influence per turn for the rest of the Age once razing is complete -->
 		</Replace>
 		<Replace Tag="LOC_CITYCOMMAND_KEEP_PENALTY" Language="th_TH">
-			<Text>-2[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น ขณะที่คุณควบคุมถิ่นฐานนี้ในช่วงยุคนี้</Text>		<!-- -2[icon:YIELD_DIPLOMACY] Influence per turn while you control this Settlement during this Age -->
+			<Text>-6[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น ขณะที่คุณควบคุมถิ่นฐานนี้ในช่วงยุคนี้</Text>		<!-- -6[icon:YIELD_DIPLOMACY] Influence per turn while you control this Settlement during this Age -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_AKSUM1" Language="th_TH">
 			<Text>อักซุม</Text>		<!-- Aksum -->
@@ -1253,7 +1253,7 @@
 			<Text>+2[icon:YIELD_GOLD] ทอง จากทรัพยากร</Text>		<!-- +2[icon:YIELD_GOLD] Gold on Resources. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_AKSUM_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+2 [icon:YIELD_GOLD] ทอง [/B]ใน [B]ทรัพยากร[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการก่อสร้าง [B]เกรท สตีล[/B][LIST]</Text>		<!-- [LIST][LI][B]+2 [icon:YIELD_GOLD] Gold [/B]on [B]Resources[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Great Stele[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]+2 [icon:YIELD_GOLD] ทอง [/B]ใน [B]ทรัพยากร[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการก่อสร้าง [B]เกรท สตีล[/B][BLIST]</Text>		<!-- [BLIST][LI][B]+2 [icon:YIELD_GOLD] Gold [/B]on [B]Resources[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Great Stele[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_AKSUM_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้อง กับอักซุม</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Aksum's associated Wonder. -->
@@ -1265,7 +1265,7 @@
 			<Text>+1 [icon:YIELD_PRODUCTION] กำลังผลิต บนแม่น้ำใหญ่</Text>		<!-- +1 [icon:YIELD_PRODUCTION] Production on Navigable Rivers. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_EGYPT_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+1 [icon:YIELD_PRODUCTION] กำลังผลิต [/B]บน [B]แม่น้ำใหญ่[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการก่อสร้าง [B]พีระมิด[/B][/LIST]</Text>		<!-- [LIST][LI][B]+1 [icon:YIELD_PRODUCTION] Production [/B]on [B]Navigable Rivers[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Pyramids[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]+1 [icon:YIELD_PRODUCTION] กำลังผลิต [/B]บน [B]แม่น้ำใหญ่[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการก่อสร้าง [B]พีระมิด[/B][/BLIST]</Text>		<!-- [BLIST][LI][B]+1 [icon:YIELD_PRODUCTION] Production [/B]on [B]Navigable Rivers[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Pyramids[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_EGYPT_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้อง กับอียิปต์</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Egypt's associated Wonder. -->
@@ -1277,7 +1277,7 @@
 			<Text>+3 [icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์นในพระราชวัง</Text>		<!-- +3 [icon:YIELD_DIPLOMACY] Influence per turn on the Palace. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_GREECE_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+3 [icon:YIELD_DIPLOMACY] อิทธิพล [/B]ต่อเทิร์นบน[B] พระราชวัง[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง[B] สถาปัตยกรรม[/B][/LIST]</Text>		<!-- [LIST][LI][B]+3 [icon:YIELD_DIPLOMACY] Influence [/B]per turn on the [B]Palace[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Oracle[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]+3 [icon:YIELD_DIPLOMACY] อิทธิพล [/B]ต่อเทิร์นบน[B] พระราชวัง[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง[B] สถาปัตยกรรม[/B][/BLIST]</Text>		<!-- [BLIST][LI][B]+3 [icon:YIELD_DIPLOMACY] Influence [/B]per turn on the [B]Palace[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Oracle[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_GREECE_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้อง กับกรีซ</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Greece's associated Wonder. -->
@@ -1289,7 +1289,7 @@
 			<Text>เมืองหลวง และเมืองใหม่ จะได้ประชากรเพิ่มเติม ตอนที่เติบโตครั้งแรก</Text>		<!-- The Capital and new Towns gain an additional Population with their first growth event. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_HAN_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]เมืองหลวง[B] และ [/B]เมืองใหม่[B] ได้ประชากรเพิ่มเติม [/B]ตอนที่เติบโตครั้งแรก[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง[B] พระราชวังเหวยหยาง[/B][/LIST]</Text>		<!-- [LIST][LI]The [B]Capital [/B]and new [B]Towns [/B]gain an additional [B]Population [/B]with their first growth event.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Weiyang Palace[/B].[/LIST] -->
+			<Text>[BLIST][LI]เมืองหลวง[B] และ [/B]เมืองใหม่[B] ได้ประชากรเพิ่มเติม [/B]ตอนที่เติบโตครั้งแรก[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง[B] พระราชวังเหวยหยาง[/B][/BLIST]</Text>		<!-- [BLIST][LI]The [B]Capital [/B]and new [B]Towns [/B]gain an additional [B]Population [/B]with their first growth event.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Weiyang Palace[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_HAN_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องกับฮั่น</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Han's associated Wonder. -->
@@ -1301,7 +1301,7 @@
 			<Text>เขตพื้นที่ที่อยู่ตามแม่น้ำ ไม่ทำให้ผลผลิตตามธรรมชาติ ของช่องลดลง</Text>		<!-- Districts on Rivers do not remove the natural yield of the tile. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_KHMER_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]เขต [/B]บน [B]แม่น้ำ [/B]ไม่ทำลาย [B]ผลผลิตตามธรรมชาติ[/B] ของช่อง[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต[/B] เพื่อสร้าง [B]อังกอร์ วัต[/B][/LIST]</Text>		<!-- [LIST][LI][B]Districts [/B]on [B]Rivers [/B]do not remove the [B]natural yield [/B]of the tile.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Angkor Wat[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]เขต [/B]บน [B]แม่น้ำ [/B]ไม่ทำลาย [B]ผลผลิตตามธรรมชาติ[/B] ของช่อง[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต[/B] เพื่อสร้าง [B]อังกอร์ วัต[/B][/BLIST]</Text>		<!-- [BLIST][LI][B]Districts [/B]on [B]Rivers [/B]do not remove the [B]natural yield [/B]of the tile.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Angkor Wat[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_KHMER_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น สิ่งมหัศจรรย์ ที่เกี่ยวข้องกับ ขอม</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Khmer's associated Wonder. -->
@@ -1313,7 +1313,7 @@
 			<Text>คุณสามารถเลือก เทพเจ้า เพิ่มเติมได้หลังจากปลดล็อก ศาสตร์ลึกลับ แล้ว</Text>		<!-- You can choose an additional Pantheon after unlocking Mysticism. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_MAURYA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]คุณสามารถเลือก [B]เทพเจ้า[/B] เพิ่มเติมหลังจากปลดล็อก [B]ศาสตร์ลึกลับ[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ต่อการสร้าง [B]สัจจีสตูป[/B][/LIST]</Text>		<!-- [LIST][LI]You can choose an additional [B]Pantheon [/B]after unlocking [B]Mysticism[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Sanchi Stupa[/B].[/LIST] -->
+			<Text>[BLIST][LI]คุณสามารถเลือก [B]เทพเจ้า[/B] เพิ่มเติมหลังจากปลดล็อก [B]ศาสตร์ลึกลับ[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ต่อการสร้าง [B]สัจจีสตูป[/B][/BLIST]</Text>		<!-- [BLIST][LI]You can choose an additional [B]Pantheon [/B]after unlocking [B]Mysticism[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Sanchi Stupa[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_MAURYA_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องกับมาอูรียา</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Maurya's associated Wonder. -->
@@ -1325,7 +1325,7 @@
 			<Text>พระราชวังได้เพิ่ม +0.5 [icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับพื้นที่พืชพรรณใกล้เคียง</Text>		<!-- The Palace gains +0.5 [icon:YIELD_SCIENCE] Science for adjacent Vegetated Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_MAYA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]พระราชวังได้ [B]+0.5 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]สำหรับพื้นที่ [B]ที่มีพืชพันธุ์ [/B]อยู่รอบข้าง[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต  [/B]ในการสร้าง [B]มุนโด เพอร์ดิโด[/B][/LIST]</Text>		<!-- [LIST][LI]The [B]Palace [/B]gains [B]+0.5 [icon:YIELD_SCIENCE] Science [/B]for adjacent [B]Vegetated [/B]Terrain.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Mundo Perdido[/B].[/LIST] -->
+			<Text>[BLIST][LI]พระราชวังได้ [B]+0.5 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]สำหรับพื้นที่ [B]ที่มีพืชพันธุ์ [/B]อยู่รอบข้าง[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต  [/B]ในการสร้าง [B]มุนโด เพอร์ดิโด[/B][/BLIST]</Text>		<!-- [BLIST][LI]The [B]Palace [/B]gains [B]+0.5 [icon:YIELD_SCIENCE] Science [/B]for adjacent [B]Vegetated [/B]Terrain.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Mundo Perdido[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_MAYA_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น สิ่งมหัศจรรย์ที่เกี่ยวข้องของ มายา</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Maya's associated Wonder. -->
@@ -1337,7 +1337,7 @@
 			<Text>อาคารทั้งหมดได้รับคะแนน +1 [icon:YIELD_FOOD] โบนัสความใกล้เคียงสำหรับทรัพยากรอาหาร</Text>		<!-- All Buildings receive a +1 [icon:YIELD_FOOD] Food Adjacency for Resources. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_MISSISSIPPIAN_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]อาคารทั้งหมดได้รับ [B]+1 [icon:YIELD_FOOD] โบนัสความใกล้เคียงด้านอาหาร [/B]สำหรับ [B]ทรัพยากร[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]เนินมรณะ[/B][/LIST]</Text>		<!-- [LIST][LI]All Buildings receive a [B]+1 [icon:YIELD_FOOD] Food Adjacency [/B]for [B]Resources[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Monks Mound[/B].[/LIST] -->
+			<Text>[BLIST][LI]อาคารทั้งหมดได้รับ [B]+1 [icon:YIELD_FOOD] โบนัสความใกล้เคียงด้านอาหาร [/B]สำหรับ [B]ทรัพยากร[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]เนินมรณะ[/B][/BLIST]</Text>		<!-- [BLIST][LI]All Buildings receive a [B]+1 [icon:YIELD_FOOD] Food Adjacency [/B]for [B]Resources[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Monks Mound[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_MISSISSIPPIAN_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION]ผลิตภัณฑ์จากการเป็นผู้ที่เกี่ยวข้องกับความมหัศจรรย์ของมิสซิสซิปปี้</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Mississippian's associated Wonder. -->
@@ -1349,7 +1349,7 @@
 			<Text>ยูนิตทหารราบได้รับ +3 พลังต่อสู้ เมื่อทำการโจมตี</Text>		<!-- Infantry Units receive +3 Combat Strength when attacking. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_PERSIA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]ยูนิตทหารราบ [/B]ได้รับ [B]+3 พลังต่อสู้ [/B]เมื่อทำการโจมตี[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]ประตูแห่งสหชาติ[/B][/LIST]</Text>		<!-- [LIST][LI][B]Infantry Units [/B]receive [B]+3 Combat Strength [/B]when attacking.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Gate of All Nations[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]ยูนิตทหารราบ [/B]ได้รับ [B]+3 พลังต่อสู้ [/B]เมื่อทำการโจมตี[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]ประตูแห่งสหชาติ[/B][/BLIST]</Text>		<!-- [BLIST][LI][B]Infantry Units [/B]receive [B]+3 Combat Strength [/B]when attacking.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Gate of All Nations[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_PERSIA_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องกับเปอร์เซีย</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Persia's associated Wonder. -->
@@ -1361,7 +1361,7 @@
 			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม ในเขตต่างๆ ในเมืองหลวง และใจกลางเมืองในถิ่นฐาน</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture on Districts in the Capital and City Centers in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_ROME_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+1 [icon:YIELD_CULTURE] วัฒนธรรม [/B] บน[B]เขต[/B]ใน[B] เมืองหลวง [/B] และ [B]ใจกลางเมือง[/B] ใน [B]เมือง[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B] เพื่อสร้าง [B] โคลอสเซียม [/B][/LIST]</Text>		<!-- [LIST][LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]on [B]Districts [/B]in the [B]Capital [/B]and [B]City Centers [/B]in [B]Towns[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Colosseum[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]+1 [icon:YIELD_CULTURE] วัฒนธรรม [/B] บน[B]เขต[/B]ใน[B] เมืองหลวง [/B] และ [B]ใจกลางเมือง[/B] ใน [B]เมือง[/B][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B] เพื่อสร้าง [B] โคลอสเซียม [/B][/BLIST]</Text>		<!-- [BLIST][LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]on [B]Districts [/B]in the [B]Capital [/B]and [B]City Centers [/B]in [B]Towns[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Colosseum[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_ROME_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องของกรุงโรม</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Rome's associated Wonder. -->
@@ -2555,10 +2555,10 @@
 			<Text>สวน</Text>		<!-- Garden -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GARDEN_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร, อาคารด้านอาหาร ยุคโบราณ</Text>		<!-- +3[icon:YIELD_FOOD] Food. Antiquity Food Building. -->
+			<Text>+3[icon:YIELD_FOOD] อาหาร และ +3[icon:YIELD_HAPPINESS] ความสุข, อาคารด้านอาหารและความสุข ยุคโบราณ</Text>		<!-- +3[icon:YIELD_FOOD] Food and +3[icon:YIELD_HAPPINESS] Happiness. Antiquity Food and Happiness Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GARDEN_TOOLTIP" Language="th_TH">
-			<Text>อาคารด้านอาหาร ยุคโบราณ</Text>		<!-- Antiquity Food Building. -->
+			<Text>อาคารด้านอาหารและความสุข ยุคโบราณ</Text>		<!-- Antiquity Food and Happiness Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GRANARY_NAME" Language="th_TH">
 			<Text>โกดังข้าว</Text>		<!-- Granary -->
@@ -2618,7 +2618,7 @@
 			<Text>วิลล่า</Text>		<!-- Villa -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_VILLA_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_HAPPINESS] ความสุข และ +2[icon:YIELD_DIPLOMACY] อิทธิพล, อาคารด้านวัฒนธรรมและการทูต ยุคโบราณ</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness and +2[icon:YIELD_DIPLOMACY] Influence. Antiquity Happiness and Diplomacy Building. -->
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข และ +2[icon:YIELD_DIPLOMACY] อิทธิพล, อาคารด้านวัฒนธรรมและการทูต ยุคโบราณ, สามารถซื้อได้ในเมืองในช่วงของวิกฤตการกบฏ</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness and +2[icon:YIELD_DIPLOMACY] Influence. Antiquity Happiness and Diplomacy Building. Can be purchased in Towns during the Revolt Crisis. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_VILLA_TOOLTIP" Language="th_TH">
 			<Text>อาคารด้านความสุข และการทูต ยุคโบราณ</Text>		<!-- Antiquity Happiness and Diplomacy Building. -->
@@ -3150,7 +3150,7 @@
 			<Text>ไม่มี</Text>		<!-- None -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AQ_FUTURE_CIVIC_ATTRIBUTE_DESCRIPTION" Language="th_TH">
-			<Text>+1 คะแนน คุณลักษณะไวลด์การ์ด</Text>		<!-- +1 Wildcard Attribute Point. -->
+			<Text>+1 คะแนน คุณลักษณะแบบสุ่ม</Text>		<!-- +1 Random Attribute Point. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_FUTURE_CIVIC_BOOST_DESCRIPTION" Language="th_TH">
 			<Text>ส่งเสริมการพัฒนา แนวคิด ที่ไม่ใช่ของเฉพาะ อารยธรรม ในยุคถัดไป</Text>		<!-- A boost for a non-Civilization-unique starting Civic in the next age. -->
@@ -3888,7 +3888,7 @@
 			<Text>สาธารณรัฐคลาสสิก</Text>		<!-- Classical Republic -->
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_CLASSICAL_REPUBLIC_DESCRIPTION" Language="th_TH">
-			<Text>รัฐบาลของคุณมอบทางเลือกให้คุณระหว่าง เอฟเฟคเหล่านี้ ในช่วงงานเฉลิมฉลอง</Text>		<!-- Your Government grants you a choice between these effects during a Celebration. -->
+			<Text>รัฐบาลนี้ จะมอบทางเลือกให้คุณระหว่าง เอฟเฟคเหล่านี้ ในช่วงงานเฉลิมฉลอง</Text>		<!-- This Government grants you a choice between these effects during a Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_CLASSICAL_REPUBLIC_PASSIVE_DESCRIPTION" Language="th_TH">
 			<Text>เมื่อคุณสร้างสิ่งมหัศจรรย์เสร็จสิ้น รับ[icon:YIELD_CULTURE] วัฒนธรรม เท่ากับ 20% ของต้นทุนของสิ่งมหัศจรรย์นั้น</Text>		<!-- When you complete a Wonder, gain[icon:YIELD_CULTURE] Culture equal to 20% of the Wonder's cost. -->
@@ -3900,7 +3900,7 @@
 			<Text>สมบูรณาญาสิทธิราชย์</Text>		<!-- Despotism -->
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_DESPOTISM_DESCRIPTION" Language="th_TH">
-			<Text>รัฐบาลของคุณมอบทางเลือกให้คุณระหว่าง เอฟเฟคเหล่านี้ ในช่วงงานเฉลิมฉลอง</Text>		<!-- Your Government grants you a choice between these effects during a Celebration. -->
+			<Text>รัฐบาลนี้ จะมอบทางเลือกให้คุณระหว่าง เอฟเฟคเหล่านี้ ในช่วงงานเฉลิมฉลอง</Text>		<!-- This Government grants you a choice between these effects during a Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_DESPOTISM_PASSIVE_DESCRIPTION" Language="th_TH">
 			<Text>รับยูนิตทหารราบในที่ตั้งใหม่ที่คุณก่อตั้งขึ้น</Text>		<!-- Gain an Infantry Unit in new Settlements that you found. -->
@@ -3912,7 +3912,7 @@
 			<Text>คณาธิปไตย</Text>		<!-- Oligarchy -->
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_OLIGARCHY_DESCRIPTION" Language="th_TH">
-			<Text>รัฐบาลของคุณมอบทางเลือกให้คุณระหว่าง เอฟเฟคเหล่านี้ ในช่วงงานเฉลิมฉลอง</Text>		<!-- Your Government grants you a choice between these effects during a Celebration. -->
+			<Text>รัฐบาลนี้ จะมอบทางเลือกให้คุณระหว่าง เอฟเฟคเหล่านี้ ในช่วงงานเฉลิมฉลอง</Text>		<!-- This Government grants you a choice between these effects during a Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_OLIGARCHY_PASSIVE_DESCRIPTION" Language="th_TH">
 			<Text>+1 ความจุทรัพยากร ในเมืองใหญ่</Text>		<!-- +1 Resource Capacity in Cities. -->
@@ -3921,61 +3921,61 @@
 			<Text>เรารักวันสภา!</Text>		<!-- We Love The Council Day! -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_OPEN_BORDERS_ACCEPT" Language="th_TH">
-			<Text>เปิดพรมแดนของคุณให้กับพวกเขา[n][icon:YIELD_GOLD] +2 ต่อเทิร์น</Text>		<!-- Open your borders to them.[n][icon:YIELD_GOLD] +2 per turn. -->
+			<Text>เปิดพรมแดนของคุณให้กับพวกเขา[n][icon:YIELD_GOLD] +6 ต่อเทิร์น</Text>		<!-- Open your borders to them.[n][icon:YIELD_GOLD] +6 per turn. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_INITIAL" Language="th_TH">
-			<Text>ร่วมทำวิจัยกับผู้นำอีกคนหนึ่ง[n]ได้รับการยอมรับ: คุณจะได้รับ +4[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น ผู้นำอื่นจะได้รับ +2[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +6[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น</Text>		<!-- Do a Research Collaboration with another Leader.[n]Accepted: You receive +4[icon:YIELD_SCIENCE] Science per turn. Other Leader receives +2[icon:YIELD_SCIENCE] Science per turn.[n]Supported: Both Leaders receive +6[icon:YIELD_SCIENCE] Science per turn. -->
+			<Text>ร่วมทำวิจัยกับผู้นำอีกคนหนึ่ง[n]ได้รับการยอมรับ: คุณจะได้รับ +12[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น ผู้นำอื่นจะได้รับ +6[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +18[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น</Text>		<!-- Do a Research Collaboration with another Leader.[n]Accepted: You receive +12[icon:YIELD_SCIENCE] Science per turn. Other Leader receives +6[icon:YIELD_SCIENCE] Science per turn.[n]Supported: Both Leaders receive +18[icon:YIELD_SCIENCE] Science per turn. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_SCIENCE] +6 ต่อเทิร์นสำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_SCIENCE] +6 per turn for both Leaders. -->
+			<Text>[icon:YIELD_SCIENCE] +18 ต่อเทิร์นสำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_SCIENCE] +18 per turn for both Leaders. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_SCIENCE] +2 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_SCIENCE] +4 ต่อเทิร์น</Text>		<!-- [icon:YIELD_SCIENCE] +2 per turn.[n]{1_initialName} receives [icon:YIELD_SCIENCE] +4 per turn. -->
+			<Text>[icon:YIELD_SCIENCE] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_SCIENCE] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_SCIENCE] +6 per turn.[n]{1_initialName} receives [icon:YIELD_SCIENCE] +12 per turn. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CULTURAL_EXCHANGE_INITIAL" Language="th_TH">
-			<Text>มีการแลกเปลี่ยนวัฒนธรรมกับผู้นำคนอื่น[n]ได้รับการยอมรับ: คุณจะได้รับ +4[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น ผู้นำคนอื่นจะได้รับ +2[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +6[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น</Text>		<!-- Have a Cultural Exchange with another Leader.[n]Accepted: You receive +4[icon:YIELD_CULTURE] Culture per turn. Other Leader receives +2[icon:YIELD_CULTURE] Culture per turn.[n]Supported: Both Leaders receive +6[icon:YIELD_CULTURE] Culture per turn. -->
+			<Text>มีการแลกเปลี่ยนวัฒนธรรมกับผู้นำคนอื่น[n]ได้รับการยอมรับ: คุณจะได้รับ +12[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น ผู้นำคนอื่นจะได้รับ +6[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +18[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น</Text>		<!-- Have a Cultural Exchange with another Leader.[n]Accepted: You receive +12[icon:YIELD_CULTURE] Culture per turn. Other Leader receives +6[icon:YIELD_CULTURE] Culture per turn.[n]Supported: Both Leaders receive +18[icon:YIELD_CULTURE] Culture per turn. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CULTURAL_EXCHANGE_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_CULTURE] +6 ต่อเทิร์นสำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_CULTURE] +6 per turn for both Leaders. -->
+			<Text>[icon:YIELD_CULTURE] +18 ต่อเทิร์นสำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_CULTURE] +18 per turn for both Leaders. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CULTURAL_EXCHANGE_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_CULTURE] +2 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_CULTURE] +4 ต่อเทิร์น</Text>		<!-- [icon:YIELD_CULTURE] +2 per turn.[n]{1_initialName} receives [icon:YIELD_CULTURE] +4 per turn. -->
+			<Text>[icon:YIELD_CULTURE] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_CULTURE] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_CULTURE] +6 per turn.[n]{1_initialName} receives [icon:YIELD_CULTURE] +12 per turn. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_INITIAL" Language="th_TH">
-			<Text>ทำการค้าเล็กน้อยกับผู้นำอีกคนหนึ่ง[n]ยอมรับ: คุณจะได้รับ +4[icon:YIELD_GOLD] ทอง ต่อเทิร์น ผู้นำอีกคนจะได้รับ +2[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +6[icon:YIELD_GOLD] ทอง ต่อเทิร์น</Text>		<!-- Have Minor Trade with another Leader.[n]Accepted: You receive +4[icon:YIELD_GOLD] Gold per turn. Other Leader receives +2[icon:YIELD_GOLD] Gold per turn.[n]Supported: Both Leaders receive +6[icon:YIELD_GOLD] Gold per turn. -->
+			<Text>เปิดการค้ากับผู้นำอีกคนหนึ่ง[n]ยอมรับ: คุณจะได้รับ +12[icon:YIELD_GOLD] ทอง ต่อเทิร์น ผู้นำอีกคนจะได้รับ +6[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +18[icon:YIELD_GOLD] ทอง ต่อเทิร์น</Text>		<!-- Have Open Markets with another Leader.[n]Accepted: You receive +12[icon:YIELD_GOLD] Gold per turn. Other Leader receives +6[icon:YIELD_GOLD] Gold per turn.[n]Supported: Both Leaders receive +18[icon:YIELD_GOLD] Gold per turn. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์นสำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_GOLD] +6 per turn for both Leaders. -->
+			<Text>[icon:YIELD_GOLD] +18 ต่อเทิร์นสำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_GOLD] +18 per turn received by both Leaders. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +2 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_GOLD] +4 ต่อเทิร์น</Text>		<!-- [icon:YIELD_GOLD] +2 per turn.[n]{1_initialName} receives [icon:YIELD_GOLD] +4 per turn. -->
+			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_GOLD] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]{1_initialName} receives [icon:YIELD_GOLD] +12 per turn. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_LOCAL_FESTIVALS_INITIAL" Language="th_TH">
-			<Text>จัดเทศกาลท้องถิ่นกับผู้นำอีกคนหนึ่ง[n]ได้รับการตอบรับ: คุณได้รับ +2[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในเมืองอื่น ผู้นำอื่นได้รับ +2[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +3[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในเมือง</Text>		<!-- Have Local Festivals with another Leader.[n]Accepted: You receive +2[icon:YIELD_HAPPINESS] Happiness per turn in Cities. Other Leader receives +2[icon:YIELD_DIPLOMACY] Influence per turn.[n]Supported: Both Leaders receive +3[icon:YIELD_HAPPINESS] Happiness per turn in Cities. -->
+			<Text>จัดเทศกาลท้องถิ่นกับผู้นำอีกคนหนึ่ง[n]ได้รับการตอบรับ: คุณได้รับ +6[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในเมืองใหญ่ทั้งหมด ผู้นำอื่นได้รับ +6[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +9[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในเมือง</Text>		<!-- Have Local Festivals with another Leader.[n]Accepted: You receive +6[icon:YIELD_HAPPINESS] Happiness per turn in all Cities. Other Leader receives +6[icon:YIELD_DIPLOMACY] Influence per turn.[n]Supported: Both Leaders receive +9[icon:YIELD_HAPPINESS] Happiness per turn in Cities. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_LOCAL_FESTIVALS_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_HAPPINESS] +3 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_HAPPINESS] +3 per turn in Cities for both Leaders -->
+			<Text>[icon:YIELD_HAPPINESS] +9 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_HAPPINESS] +9 per turn in Cities for both Leaders. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_LOCAL_FESTIVALS_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_DIPLOMACY] +2 ต่อเทิร์น[n]{1_initialName} ได้รับ +2[icon:YIELD_HAPPINESS] ต่อเทิร์นในเมือง</Text>		<!-- [icon:YIELD_DIPLOMACY] +2 per turn[n]{1_initialName} receives +2[icon:YIELD_HAPPINESS] per turn in Cities -->
+			<Text>[icon:YIELD_DIPLOMACY] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ +6[icon:YIELD_HAPPINESS] ต่อเทิร์นในเมือง</Text>		<!-- [icon:YIELD_DIPLOMACY] +6 per turn.[n]{1_initialName} receives [icon:YIELD_HAPPINESS] +6 per turn in Cities. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FARMERS_MARKET_INITIAL" Language="th_TH">
-			<Text>แบ่งปันสินค้าเกษตรกับผู้นำคนอื่น[n]ยอมรับ: คุณได้รับ +2[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมือง ผู้นำอื่นได้รับ +2[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +3[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมือง</Text>		<!-- Share agricultural goods with another Leader.[n]Accepted: You receive +2[icon:YIELD_FOOD] Food per turn in Towns. Other Leader receives +2[icon:YIELD_GOLD] Gold per turn.[n]Supported: Both Leaders receive +3[icon:YIELD_FOOD] Food per turn in Towns. -->
+			<Text>แบ่งปันสินค้าเกษตรกับผู้นำคนอื่น[n]ยอมรับ: คุณได้รับ +6[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมือง ผู้นำอื่นได้รับ +6[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +9[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมือง</Text>		<!-- Share agricultural goods with another Leader.[n]Accepted: You receive +6[icon:YIELD_FOOD] Food per turn in Towns. Other Leader receives +6[icon:YIELD_GOLD] Gold per turn.[n]Supported: Both Leaders receive +9[icon:YIELD_FOOD] Food per turn in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FARMERS_MARKET_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_FOOD] +3 ต่อเทิร์นในเมือง สำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_FOOD] +3 per turn in Towns for both Leaders. -->
+			<Text>[icon:YIELD_FOOD] +9 ต่อเทิร์นในเมือง สำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_FOOD] +9 per turn in Towns for both Leaders. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FARMERS_MARKET_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +2 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_FOOD] +2 ต่อเทิร์นในเมือง</Text>		<!-- [icon:YIELD_GOLD] +2 per turn.[n]{1_initialName} receives [icon:YIELD_FOOD] +2 per turn in Towns. -->
+			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_FOOD] +6 ต่อเทิร์นในเมือง</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]{1_initialName} receives [icon:YIELD_FOOD] +6 per turn in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_TRADE_MAP_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +2 ต่อเทิร์น[n]ผู้นำคนอื่นจะเห็น พื้นที่อ้างสิทธิ์ ของคุณ เมื่อเวลาผ่านไป</Text>		<!-- [icon:YIELD_GOLD] +2 per turn.[n]The other Leader has your claimed territory revealed to them over time. -->
+			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]ผู้นำคนอื่นจะเห็น พื้นที่อ้างสิทธิ์ ของคุณ เมื่อเวลาผ่านไป</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]The other Leader has your claimed territory revealed to them over time. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MILITARY_AID_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD]+2 ต่อเทิร์น[n]ยูนิตของผู้นำคนอื่นได้รับ +2 พลังต่อสู้</Text>		<!-- [icon:YIELD_GOLD] +2 per turn.[n]Other Leader's Units get +2 Combat Strength. -->
+			<Text>[icon:YIELD_GOLD]+6 ต่อเทิร์น[n]ยูนิตของผู้นำคนอื่นได้รับ +2 พลังต่อสู้</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]Other Leader's Units get +2 Combat Strength. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_IMPROVE_TRADE_RELATIONS_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +30[n]{1_initialName} สามารถเริ่มเส้นทางการค้าเพิ่มเติมกับคุณได้</Text>		<!-- [icon:YIELD_GOLD] +30.[n]{1_initialName} can start an additional Trade Route with you. -->
+			<Text>[icon:YIELD_GOLD] +90[n]{1_initialName} สามารถเริ่มเส้นทางการค้าเพิ่มเติมกับคุณได้</Text>		<!-- [icon:YIELD_GOLD] +90.[n]{1_initialName} can start an additional Trade Route with you. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_WONDER_CONSTRUCTION_NAME" Language="th_TH">
 			<Text>การก่อสร้างสิงมหัศจรรย์</Text>		<!-- Wonder Construction -->
@@ -3996,19 +3996,19 @@
 			<Text>การก่อสร้างสิงมหัศจรรย์</Text>		<!-- Wonder Construction -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_GINSING_AGREEMENT_INITIAL" Language="th_TH">
-			<Text>มีข้อตกลงโสมกับผู้นำอีกคนหนึ่ง[n]ยอมรับ: คุณได้รับ +4[icon:YIELD_FOOD] อาหาร ต่อเทิร์น ในเมืองหลวงของคุณ ผู้นำอื่นได้รับ +2[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองหลวงของพวกเขา[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +6[icon:YIELD_FOOD] อาหาร ต่อเทิร์น ในเมืองหลวงของพวกเขา</Text>		<!-- Have Ginseng Agreements with another Leader.[n]Accepted: You receive +4[icon:YIELD_FOOD] Food per turn in your Capital. Other Leader receives +2[icon:YIELD_FOOD] Food per turn in their Capital.[n]Supported: Both Leaders receive +6[icon:YIELD_FOOD] Food per turn in their Capitals. -->
+			<Text>มีข้อตกลงโสมกับผู้นำอีกคนหนึ่ง[n]ยอมรับ: คุณได้รับ +12[icon:YIELD_FOOD] อาหาร ต่อเทิร์น ในเมืองหลวงของคุณ ผู้นำอื่นได้รับ +6[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองหลวงของพวกเขา[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +18[icon:YIELD_FOOD] อาหาร ต่อเทิร์น ในเมืองหลวงของพวกเขา</Text>		<!-- Have Ginseng Agreements with another Leader.[n]Accepted: You receive +12[icon:YIELD_FOOD] Food per turn in your Capital. Other Leader receives +6[icon:YIELD_FOOD] Food per turn in their Capital.[n]Supported: Both Leaders receive +18[icon:YIELD_FOOD] Food per turn in their Capitals. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_GINSING_AGREEMENT_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_FOOD] +6 ต่อเทิร์นสำหรับผู้นำทั้งสองในเมืองหลวงของพวกเขา</Text>		<!-- [icon:YIELD_FOOD] +6 per turn for both Leaders in their Capitals. -->
+			<Text>[icon:YIELD_FOOD] +18 ต่อเทิร์นสำหรับผู้นำทั้งสองในเมืองหลวงของพวกเขา</Text>		<!-- [icon:YIELD_FOOD] +18 per turn in both Leader's Capitals. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_GINSING_AGREEMENT_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_FOOD] +2 ต่อเทิร์นในเมืองหลวงของคุณ[n]{1_initialName} ได้รับ [icon:YIELD_FOOD] +4 ต่อเทิร์นในเมืองหลวงของพวกเขา</Text>		<!-- [icon:YIELD_FOOD] +2 per turn in your Capital.[n]{1_initialName} receives [icon:YIELD_FOOD] +4 per turn in their Capital. -->
+			<Text>[icon:YIELD_FOOD] +6 ต่อเทิร์นในเมืองหลวงของคุณ[n]{1_initialName} ได้รับ [icon:YIELD_FOOD] +12 ต่อเทิร์นในเมืองหลวงของพวกเขา</Text>		<!-- [icon:YIELD_FOOD] +6 per turn in your Capital.[n]{1_initialName} receives [icon:YIELD_FOOD] +12 per turn in their Capital. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FRIEND_OF_WA_INITIAL" Language="th_TH">
 			<Text>ทำให้พันธมิตรเป็น เพื่อนของเหวย[n]ยอมรับ: ผู้นำทั้งสองได้รับ +25%[icon:YIELD_SCIENCE] วิทยาศาสตร์,</Text>		<!-- Make an ally into a Friend of Wei.[n]Accepted: Both Leaders receive +25%[icon:YIELD_SCIENCE] Science. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FRIEND_OF_WA" Language="th_TH">
-			<Text>ทำพันธมิตรให้เป็น เพื่อนของเหวย [n]ยอมรับ: หัวหน้าทั้งสองจะได้รับ +25%[icon:YIELD_SCIENCE] วิทยาศาสตร์,</Text>		<!-- Make an ally into a Friend of Wei.[n]Accepted: Both Leaders receive +25%[icon:YIELD_SCIENCE] Science. -->
+			<Text>ทำพันธมิตรให้เป็น เพื่อนของเหวย [n]+25%[icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับผู้นำทั้งสอง</Text>		<!-- Make an ally into a Friend of Wei.[n] [icon:YIELD_SCIENCE] +25% received by both Leaders. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FRIEND_OF_WA_ACCEPT" Language="th_TH">
 			<Text>[icon:YIELD_SCIENCE] +25%[n]{1_initialName} ได้รับ [icon:YIELD_SCIENCE] +25%</Text>		<!-- [icon:YIELD_SCIENCE] +25%.[n]{1_initialName} receives [icon:YIELD_SCIENCE] +25%. -->
@@ -4053,7 +4053,7 @@
 			<Text>ศึกษาเครื่องมือของผู้สร้าง</Text>		<!-- Study the builders' tools. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_11002C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} เป็น {2_capital}</Text>		<!-- {1_reward} to {2_capital}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_11003A_STORYTITLE" Language="th_TH">
 			<Text>เทพเจ้าของความสมบูรณ์</Text>		<!-- God of Plenty -->
@@ -7383,34 +7383,35 @@
 			<Text>+1 วิทยาศาสตร์ บนอาคารคลังสินค้า โบนัสนี้สามารถเลือกได้โดยหลายอารยธรรม</Text>		<!-- +1 Science on Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_AKSUM" Language="th_TH">
-			<Text>ชายฝั่งแอฟริกาของทะเลแดง เป็นเขตแดนของอักซุม ซึ่งถูกตั้งชื่อโดยผู้พยากรณ์มานีว่าเป็นหนึ่งในสี่อำนาจหลักของโลกโบราณ ในช่วงเกือบทั้งหมดของพันปีแรกในยุคคริสต์ศักราช พ่อค้าชาวอักซุมได้ขนส่งงาช้าง ทอง เงิน เครื่องเทศ และสินค้าต่าง ๆ จากภายในแอฟริกาไปยังอินเดีย เปอร์เซีย และทะเลเมดิเตอร์เรเนียน อย่างไรก็ตาม เส้นทางการค้าก็ได้ปลูกฝังเมล็ดพันธุ์แห่งการล่มสลายของอักซุม - เมื่อการปกครองของอาหรับเข้ายึดเส้นทางสายไหม อักซุมจึงถูกตัดขาดและตกต่ำลง</Text>		<!-- The African coast of the Red Sea was the domain of Aksum, named by the prophet Mani as one of the four key powers of the ancient world. For most of the first millennium CE, Aksumite merchants bore ivory, gold, spices and other goods from the African interior to India, Persia, and the Mediterranean. Yet these trade routes planted the seeds of Aksum’s fall – when the Arab caliphates took over the Silk Road, Aksum was isolated and fell into decline. -->
+			<Text>เรือดอว์ที่มีใบสามเหลี่ยมบากคลื่น ขณะที่อักซุมออกเดินทางค้นหาขอบฟ้าและตลาดใหม่ ๆ ในเมืองที่มีป้อมปราการ ผู้ปกครองแห่งอักซุมสลักมรดกไว้บนหินและยกขึ้นสู่สวรรค์ จงจับพวงมาลัยและชักใบเรือของอักซุม นำลูกเรือของท่านไปสู่ความมั่งคั่งหรือการพิชิต จงชูธงฮาเวลติและประกาศให้อักซุมเป็นเจ้าแห่งยุคนี้</Text>		<!-- Triangle-rigged dhows cut the waves, as Aksum ventures in search of new horizons and new markets. In their walled cities, the rulers of Aksum carve their legacy in stone and raise it to the heavens. Take the rudder and hoist the sails of Aksum, and steer your crew to luxury or conquest. Raise the hawelti and herald Aksum as the lords of the age.  -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_EGYPT" Language="th_TH">
-			<Text>เคมิต, แถบที่อุดมสมบูรณ์ของพื้นที่น้ำท่วมไนล์, เป็นหัวใจของอียิปต์โบราณ ประวัติศาสตร์กว่า 5,000 ปีของมันได้รับการสนับสนุนโดยแม่น้ำและตะกอนที่มีชีวิตซึ่งมันทิ้งไว้ สร้างชั้นของการค้า การพิชิต และอนุสาวรีย์เพื่อความเป็นอมตะที่เป็นสิ่งมหัศจรรย์ของมัน ความมั่งคั่งของมันเป็นตำนาน – และยั่วยวนใจ อียิปต์ตกเป็นของเปอร์เซียในปี 525 ก่อนคริสต์ศักราช แต่ไนล์ยังคงไหลอยู่</Text>		<!-- Kemet, the fertile band of the Nile floodplain, is the heart of ancient Egypt. Its over five thousand years of history have been sustained by the river and the life-giving silt that it leaves, building layers of trade, conquest, and the monuments to immortality that were its wonders. Its riches were legendary – and tempting. Egypt fell to Persia in 525 BCE, but the Nile still flows. -->
+			<Text>จากทุ่งข้าวที่อุดมด้วยน้ำจากแม่น้ำ สู่เสาโอเบลิสก์หินปูนขัดเงา อียิปต์ได้ผงาดขึ้น อุดมด้วยดินดำที่อุดมสมบูรณ์ตามสองฝั่งแม่น้ำ อียิปต์เลี้ยงดูประชาชนของตน และในเสาโอเบลิสก์หินปูนและสุสาน อียิปต์ท้าทายศัตรูที่ไม่อาจหยุดยั้งได้ — กาลเวลา จงหยิบโคเพชที่คมกริบ หรือสิ่วบรอนซ์ขึ้นมา และจารึกชื่อของเจ้าไว้ — ความอมตะรอคอยอยู่</Text>		<!-- From the river-fed fields of grain to the polished limestone obelisks rises Egypt. Nurtured by the black soil that graces its riverbanks, Egypt provides for its people. And in its limestone obelisks and tombs, it challenges the most implacable of foes – time itself. Take up now the sharpened khopesh or the bronze chisel and make your mark - immortality awaits.  -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_GREECE" Language="th_TH">
-			<Text>นครรัฐแห่งเฮลลาส เป็นกลุ่มอำนาจที่มีประวัติศาสตร์อันยาวนานแต่ละแห่ง – สปาร์ตาที่มุ่งมั่นด้านการทหาร, เอเธนส์ที่มีปัญญา, โครินธ์ที่มั่งคั่ง, และซิราคิวส์ที่อยู่ห่างไกล พวกเขาเป็นกลุ่มที่ขัดแย้งกันในความสัมพันธ์ แต่เคยรวมตัวกันเพียงครั้งเดียวภายใต้การนำของอเล็กซานเดอร์แห่งมาซิโดเนีย แม้ว่าจะกลายเป็นส่วนหนึ่งของจักรวรรดิโรมัน แต่เมืองกรีกได้มีอิทธิพลต่อศาสนาและความคิดของโรมัน, คณิตศาสตร์และวิทยาศาสตร์ในยุคทองของอิสลาม, และแม้กระทั่งแนวคิดพื้นฐานของประชาธิปไตยอเมริกัน</Text>		<!-- The city-states of Hellas were a constellation of powers, each with a rich history – militaristic Sparta, intellectual Athens, wealthy Corinth, far-off Syracuse. Fractious in their alliances, they were briefly united only once, under Alexander of Macedon. Though subsumed into the Roman Empire, the Greek cities influenced Roman religion and thought, the math and science of the Islamic Golden Age, and even the founding ideas of American democracy. -->
+			<Text>จากแหล่งที่หลากหลาย — สปาร์ตาที่เน้นความเข้มแข็งทางทหาร, เอเธนส์ที่เต็มไปด้วยปัญญา, โครินธ์ที่มั่งคั่ง — คือความอุดมสมบูรณ์ของกรีก กวีและนักคิดแห่งกรีกใช้บทกวีที่แหลมคมยิ่งกว่าหอกของโฮปลิท พรรณนาความงามและธรรมชาติของโลก แม้ขณะที่ฟาลังกซ์เริ่มเคลื่อนพล จงนำทางพวกเขาในการเสาะแสวงหาความรุ่งโรจน์และชื่อเสียง</Text>		<!-- Out of many sources – militaristic Sparta, erudite Athens, wealthy Corinth – comes the rich bounty of Greece. Wielding poetry sharper than a hoplite’s spear, the writers and thinkers of Greece describe the beauty and nature of the world, even as the phalanx begins its march. Guide them in their quest for glory and fame.  -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_HAN" Language="th_TH">
-			<Text>ฮั่นไม่ใช่ราชวงศ์โบราณแรกของจีน แต่เป็นราชวงศ์ที่ยิ่งใหญ่ที่สุด จากการกบฏของหลิวปังต่อฉินซึ่งมีอำนาจเข้มงวด ทำให้เกิดสมดุลระหว่าง อำนาจกลาง และค่านิยมตามลำดับชั้นในลัทธิคอนเฟอเซียส และคลื่นนวัตกรรมในศาสตร์การปกครอง ปรัชญา และวิทยาศาสตร์ ด้วยกองทัพของชิทันฟู ข้าราชการนักปรัชญาที่บ้าน และกองทัพรถม้าทหารราบหนักและลูกธนูต่างประเทศ ในระยะเวลา 400 ปี ฮั่นครองอำนาจจากฟ้าผ่า</Text>		<!-- The Han were not the first of China’s ancient dynasties, but were its grandest. From Liu Bang’s rebellion against the iron-fisted Qin came a balance between centralized authority and Confucian meritocracy, and a wave of innovation in statecraft, philosophy, and science. With an army of shi dafu, scholar-bureaucrats, at home, and an army of chariots, heavy infantry, and crossbows abroad, for four hundred years the Han held the Mandate of Heaven. -->
+			<Text>สร้างขึ้นจากมรดกแห่งราชวงศ์ฉินผู้เน้นทางทหาร และราชวงศ์โจวผู้เต็มไปด้วยวัฒนธรรม ราชวงศ์ฮั่นแห่งจีนปกครองด้วยความชอบธรรมผสมผสานกับความเมตตา และด้วยปัญญาที่ได้รับจากประเพณี วิศวกรฮั่นเปลี่ยนแปลงผืนดิน ขณะที่นักปรัชญาฮั่นเปลี่ยนแปลงจิตใจ จงออกเดินทางและรับเอาพระราชอำนาจแห่งสวรรค์</Text>		<!-- Forged from the legacies of the militaristic Qin and the cultured Zhou, the Han Dynasty of China rules with righteousness tempered with benevolence, with wisdom informed by tradition. Han engineers transformed the land, even as Han philosophers transformed the mind. Go now, and take up the Mandate of Heaven.  -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_KHMER" Language="th_TH">
-			<Text>กัมพูชา, อาณาจักรขอม เป็นแบบอย่างของสวรรค์ ฮินดู-พุทธ ในเอเชียตะวันออกเฉียงใต้, จากศูนย์กลางของมัน มันเผยแพร่ความมีอิทธิพลไปทั่วภูมิภาค อำนาจของขอมแท้จริงอยู่ที่น้ำ เพราะการใช้ประโยชน์จากน้ำท่วมของแม่น้ำโขงทำให้เกิดเมืองใหญ่ที่สุดในโลก แต่เมื่ออุทกภัยเหล่านี้ลดน้อยลง อำนาจของขอมก็ลดลงตามไปด้วย ทิ้งความฝันของมันไว้ในซากปรักหักพังทั่วทั้งกัมพูชา ไทย ลาว และเวียดนาม</Text>		<!-- Kamboja, the Khmer Empire, was a model of the Hindu-Buddhist heavens in Southeast Asia. From its center, it projected its influence across the region. True Khmer power lay in water, as harnessing the floods of the Mekong fueled some of the largest cities in the world. But as these floods waned, so did Khmer power, leaving its dream in ruins across Cambodia, Thailand, Laos and Vietnam. -->
+			<Text>ดุจฝนมรสุม ขอม ให้อาหารแก่ผืนแผ่นดิน และดุจน้ำท่วมมรสุม พวกเขาพิชิตสิ่งที่ต้องการ มนฑลอันยิ่งใหญ่แห่งกัมพูชา จักรวรรดิขอม หมุนเวียนด้วยพระกรุณาธิคุณแห่งเทพเจ้า และพลังของมันไหลดุจสายน้ำ เป็นที่หลบภัยจากแสงแดดอันร้อนแรง จงยืนบนหลังช้าง และปล่อยให้น้ำขึ้นสูง พวกมันจะไม่อาจสัมผัสเจ้าได้</Text>		<!-- Like the monsoon rains, the Khmer give life to the land, and like the monsoon floods, they conquer what they will. The great mandala of Kambuja, the Khmer Empire, whirls with divine grace, and its power flows like water, a sanctuary against the burning sun. Stand on elephant-back, and let the waters rise. They will not touch you.  -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_MAURYA" Language="th_TH">
-			<Text>เมารยะ เกิดขึ้นจากดินแดนที่มีความหลากหลายทางวัฒนธรรมอย่างไม่น่าเชื่อ แต่กลับเต็มไปด้วยสงคราม จากการพิชิตของชาญราษฎร์ที่เอาชนะผู้สืบทอดอเล็กซานเดอร์มหาราช ราชวงศ์นี้ถึงจุดสูงสุดในสมัยอโศก ที่ส่งเสริมความไม่ใช้ความรุนแรงและความอดทน โดยการสร้างสมดุลระหว่างความเปิดกว้างกับความแข็งแกร่งทางทหาร เมารยะได้สร้างจักรวรรดิที่เต็มไปด้วยปัญญาและความรุ่งโรจน์ – จนกระทั่งมันล่มสลายจากมีดของฆาตกร</Text>		<!-- The Maurya arose from a land of incredible cultural diversity, but one reeling from war. From Chandragupta’s conquests of Alexander the Great’s successors, the dynasty reached its height under Ashoka, who embraced nonviolence and tolerance. Balancing open-mindedness with military might, the Maurya built an empire that was as wise as it was glorious – until its fall to an assassin’s blade. -->
+			<Text>ชีวิตแห่งมอริยะเต้นรำไปตามเสียงก้องของเท้าควายที่เดินกลับจากทุ่งนา เสียงกระทบของใบปาล์มที่ใช้จดบันทึก จังหวะกลองบัมภา เสียงสวดมนต์ของพระสงฆ์ และเสียงกระซิบของบ่าวในราชสำนัก จงใช้เสียงของเจ้า นำบทเพลงนี้</Text>		<!-- Maurya life thrums to the thud of ox hoofs returning from the fields, the clatter of palm-leaf texts, the beat of the bhambha drums, the steady rhythm of monks’ chants, the whisper of court attendants. Lend your voice, lead the song. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_MAYA" Language="th_TH">
-			<Text>ในป่าของอเมริกากลางมีการเติบโตของนครรัฐหลายแห่งที่เชื่อมโยงกันด้วยพันธมิตรและวัฒนธรรมร่วม – ชาวมายา พวกเขาได้เปลี่ยนภูมิทัศน์ที่ดูเหมือนไม่เป็นมิตรให้กลายเป็นสวรรค์ของจัตุรัส สนามบอล และปิรามิดที่ตั้งตระหง่านจากป่าเพื่อทักทายกับท้องฟ้า แต่เมื่อเผชิญกับวิกฤตทางภูมิอากาศและการเมือง ชาวมายาจึงเสื่อมถอย และผืนดินก็กลับถูกปกคลุมด้วยป่าอีกครั้ง</Text>		<!-- In the Central American jungles grew a series of city-states bound by alliances and a common culture – the Maya. They transformed a seemingly inhospitable landscape into a paradise of plazas, ball courts, and pyramids that rose out of the jungle to greet the open sky. But struck by climate and political crises, the Maya declined, and the land was once more covered by forest. -->
+			<Text>บนยอดพีระมิดหิน ร่มเงาป่าเปิดออกสู่ท้องฟ้าเต็มไปด้วยดวงดาว และจากที่นี่ มายาได้วางแผนชะตากรรมของพวกเขา ในความตื่นเต้นของสนามบอล และในถ้อยคำของบทกวีโบราณ วีรบุรุษของพวกเขาแสดงละครแห่งการสร้างสรรค์ จงลุกขึ้นตามเสียงแตรหอยสังข์ และสวมมงกุฎขนนก — มายาเริ่มออกเดินทาง</Text>		<!-- Atop stone pyramids, the forest canopy gives way to stars, and from here the Maya plot their fate. In the thrill of the ball-court and in the words of the ancient poems, their heroes enact the drama of creation. Rise to the conch-shell horn, and don the feathered headdress – the Maya set forth.  -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_MISSISSIPPIAN" Language="th_TH">
-			<Text>ชาวมิสซิสซิปปี้ - ตั้งชื่อตามแม่น้ำที่อยู่ใกล้กับเนินดินที่พวกเขาสร้างขึ้น - ไม่มีการเขียนใด ๆ ที่เหลือไว้ แต่การขุดค้นทางโบราณคดีบอกเล่าเกี่ยวกับสังคมที่ซับซ้อน ระบบการเมืองที่เมืองต่าง ๆ เพิ่มและลดอิทธิพล การเพาะปลูกข้าวโพด และการค้าขายทองแดง เปลือกหอย และหนังสัตว์ แต่ในปี ค.ศ. 1400 ไม่ว่าโดยวิธีการทางธรรมชาติหรือการเมือง ชาวมิสซิสซิปปี้ได้เลือนหายไปสู่อดีตแล้ว</Text>		<!-- The Mississippians - named for the river near where their earthen mounds stand - leave no writing behind, but archaeology tells of a complex society, a political system where cities waxed and waned in influence, maize farming, and trade in copper, shells, and hides. But by 1400 CE, whether through natural or political means, the Mississippians had already faded into memory. -->
+			<Text>วิสัยทัศน์ใหม่ของโลกเกิดขึ้นจากเนินดินแห่งคาโฮเกีย บุตรแห่งเรดฮอร์นและเอิร์ธเมคเกอร์ ปั้นแต่งผืนดินตามใจปรารถนา สร้างภูเขาจากทุ่งราบ และเมืองจากป่าดงดิบ ดั่งลูกศรเปลวเพลิงนำแสงสว่างสู่ความมืด มิตซิสซิปปี้จึงนำชีวิตใหม่สู่โลก</Text>		<!-- A new vision for the world arises from the mounds of Cahokia. The children of Red Horn and the Earthmaker shape the land as they see fit, building mountains out of plains, and cities out of the wilderness. As the burning arrow brings light to the darkness, the Mississippians bring new life to the world.  -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_PERSIA" Language="th_TH">
-			<Text>“อาณาจักร” เอ็กซ์ชาคา หรือที่เรารู้จักกันในชื่อเปอร์เซีย เป็นศูนย์กลางของโลกในช่วงเวลาที่รุ่งเรือง ครอบครองส่วนใหญ่ของเมโซโปเตเมีย อียิปต์ และอนาโตเลีย เป็นรัฐที่เข้มแข็งและมีศูนย์กลาง มีระบบการสื่อสารและการขนส่งที่มีประสิทธิภาพ รวมทั้งทหารมืออาชีพ และนำความหรูหราของโลกมารวมกัน จนกระทั่งกองกำลังของอเล็กซานเดอร์มหาราชทำให้มันล่มสลายลง</Text>		<!-- “The kingdom,” Xshaca, or what we know as Persia, was the center of the world at its height, reigning over most of Mesopotamia, Egypt, and Anatolia. It was a strong, centralized state with efficient communication and transportation systems and a professional army, and it brought the luxuries of the world together – until the forces of Alexander the Great sent it toppling down. -->
+			<Text>เปอร์เซียตั้งอยู่เหนือโลก ราชอาณาจักรอันยิ่งใหญ่ที่ประชาชนเรียกเพียงว่า Xšāça หรือ “ราชอาณาจักร” ผู้ปกครองเปอร์เซียควบคุมเส้นทางการค้าและกองทัพเพื่อปกป้อง พวกเขายึดทุกสิ่งที่มีค่าเป็นของตนเอง</Text>		<!-- Persia sits astride the world, a kingdom so great that its residents call it simply Xšāça, “the Kingdom.” Commanding trade routes and the armies to defend them, the rulers of Persia claim all that is worth having for their own.  -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_ROME" Language="th_TH">
-			<Text>เมื่อคนส่วนใหญ่คิดถึงโลกโบราณ พวกเขานึกถึงโรม จากจุดเริ่มต้นที่เรียบง่าย มันเติบโตขึ้นไปครอบคลุมสามทวีป ดูดซับความมั่งคั่งและวัฒนธรรมของผู้ที่ได้รับการพิชิต ในช่วงสาธารณรัฐ การบริหารรัฐแบบเฉพาะกิจและอำนาจอันมีคุณสมบัติได้ก่อให้เกิดการแข่งขับที่รุนแรง ส่งผลให้เกิดการทำให้กองทัพและราชการเป็นมืออาชีพในอาณาจักร แต่รอยแตกได้ขยายออกเป็นสร้างช่องว่าง และเศรษฐกิจที่ล่มสลายและการบุกรุกซ้ำแล้วซ้ำเล่าทำให้โรมล่มสลายลง</Text>		<!-- When most people think of the classical world, they imagine Rome. From humble beginnings, it grew to span three continents, assimilating the wealth and cultures of those it conquered. During the Republic, ad-hoc statecraft and meritocracy spawned fierce competition, spurring the professionalization of military and bureaucracy of the Empire. But cracks turned to chasms, and a foundering economy and repeated invasions brought Rome to collapse. -->
+			<Text>โรม: ชื่อนี้กลายเป็นคำพ้องความหมายกับอำนาจ ตำนานเล่าว่าชาวโรมันคนแรกถูกเลี้ยงดูโดยหมาป่า แต่เมื่อได้เห็นการอภิปรายในวุฒิสภา ถนนโรมันที่ตรงเป็นเส้นตรง และกองทัพที่มีระเบียบเรียบร้อยอย่างดี อาจทำให้ใครบางคนสงสัย แต่เมื่อได้เห็นประกายแห่งความทะเยอทะยานในดวงตาของชาวโรมัน ใครก็คงไม่สงสัยอีกต่อไป
+จงชูมาตราฐานนกอินทรีย์ และให้โลกรับรู้ถึงความรุ่งโรจน์แห่งโรม</Text>		<!-- Rome: a name synonymous with power. Legend has it that the first Romans were raised by wolves. Seeing the debates in the Senate, the achingly straight Roman roads, and the well-ordered legions, one might doubt this. Seeing the light of ambition in Roman eyes, one does not. Raise the eagle standard, and let the world know the glory that is Rome.   -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_INTRO_AKSUM" Language="th_TH">
 			<Text>เอ่ยนาม แล้วอักซุมจะสถิตเหนือประตูแห่งภพ ผู้คู่ควรเท่านั้นจึงจะผ่านและประจักษ์ถึงความยิ่งใหญ่</Text>		<!-- Say the word, and Aksum shall perch on the gateway between worlds. May only the worthy pass and know its majesty. -->
@@ -7419,7 +7420,7 @@
 			<Text>น้ำท่วมอีกครั้ง เตรียมดินแดนสำหรับการเติบโตใหม่ ที่นี่อียิปต์จะทำให้โลกต้องเห็นความมหัศจรรย์ที่มันสร้างสรรค์</Text>		<!-- The waters flood again, preparing the lands for new growth. Here Egypt will compel the world to behold the wonders it works. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_INTRO_GREECE" Language="th_TH">
-			<Text>ประชาชนมารวมตัวกันอภิปรายเกี่ยวกับดนตรีและการเมือง กวีนิพนธ์และกฎหมาย—จินตนาการถึงวิธีการสร้างกรีกที่จะคงอยู่ตลอดไป</Text>		<!-- The people gather together, debating music and politics, poetry and law- -envisioning how to build a Greece that will last for ages. -->
+			<Text>ประชาชนรวมตัวกัน สนทนาเรื่องดนตรีและการเมือง กวีนิพนธ์และกฎหมาย — พร้อมจินตนาการถึงการสร้างกรีซให้ยั่งยืนตลอดกาล</Text>		<!-- The people gather together, debating music and politics, poetry and law- -envisioning how to build a Greece that will last for ages. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_INTRO_HAN" Language="th_TH">
 			<Text>ความกลมกลืนจะปรากฏผ่านการสร้างพลังงาน การปลูกฝังความเป็นระเบียบ ตอนนี้ ฮั่นจะเป็นรัฐมนตรีของมัน</Text>		<!-- Harmony reveals itself through the shaping of energy, the cultivation of order. Now, the Han shall be its ministers. -->
@@ -7428,7 +7429,7 @@
 			<Text>ความเจริญรุ่งเรืองหล่นลงจากสวรรค์ ไหลลงสู่แม่น้ำเพื่อบำรุงขอม ผู้มีอำนาจเหนือสายน้ำ ฝนของพวกเขาจะตกลงที่ไหนอีก?</Text>		<!-- Prosperity falls from the heavens, flows down the rivers to nourish the Khmer, the masters of waters. Where else will their rains fall? -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_INTRO_MAURYA" Language="th_TH">
-			<Text>เส้นทางสู่ความรุ่งโรจน์ต้องการการนำทางจากมือที่มั่นคง มอร์ยาจะสามารถเป็นผู้ดูแลโลกได้หรือไม่ สง่าดั่งหิมาลัย?</Text>		<!-- The path to glory requires the guidance of a steady hand. Can Maurya, hardy as the Himalayas, become the stewards of the world? -->
+			<Text>ชีวิตแห่งมอริยะเต้นรำไปตามเสียงก้องของเท้าควายที่เดินกลับจากทุ่งนา เสียงกระทบของใบปาล์มที่ใช้จดบันทึก จังหวะกลองบัมภา เสียงสวดมนต์ของพระสงฆ์ และเสียงกระซิบของบ่าวในราชสำนัก จงใช้เสียงของเจ้า นำบทเพลงนี้</Text>		<!-- Maurya life thrums to the thud of ox hoofs returning from the fields, the clatter of palm-leaf texts, the beat of the bhambha drums, the steady rhythm of monks’ chants, the whisper of court attendants. Lend your voice, lead the song. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_INTRO_MAYA" Language="th_TH">
 			<Text>ผู้คนวางหินเหล่านี้เป็นทางเดินสู่สวรรค์ มาเถอะ คูฮูล อา-จาว และขึ้นครองบัลลังก์ของโลก</Text>		<!-- The people lay these stones as a pathway to the heavens. Come, k'uhul ajaw, and assume the world's throne. -->
@@ -7488,13 +7489,13 @@
 			<Text>เทวราชา</Text>		<!-- Devaraja -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ASHOKA_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ อโศกมหาราช ผู้ละทางโลก ในยุคโบราณ, จงทำภารกิจให้สำเร็จเพื่อนที่จะเป็น เทวราชา</Text>		<!-- As Ashoka World-Renouncer in Antiquity, complete a quest to become the Devaraja. -->
+			<Text>ในฐานะ อโศกมหาราช, ผู้ละทางโลก ในยุคโบราณ, จงทำภารกิจให้สำเร็จเพื่อนที่จะเป็น เทวราชา</Text>		<!-- As Ashoka, World Renouncer, in Antiquity, complete a quest to become the Devaraja. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ASHOKA_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
 			<Text>ธรรมราชา</Text>		<!-- Dhammaraja -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ASHOKA_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ อโศกมหาราช ผู้ละทางโลก ในยุคโบราณ, จงทำภารกิจให้สำเร็จเพื่อที่จะกลายเป็น ธรรมราชา</Text>		<!-- As Ashoka World-Renouncer in Antiquity, complete a quest to become the Dhammaraja. -->
+			<Text>ในฐานะ อโศกมหาราช, ผู้ละทางโลก ในยุคโบราณ, จงทำภารกิจให้สำเร็จเพื่อที่จะกลายเป็น ธรรมราชา</Text>		<!-- As Ashoka, World Renouncer, in Antiquity, complete a quest to become the Dhammaraja. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AUGUSTUS_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
 			<Text>ผู้ที่เป็นอันดับแรกในกลุ่มที่เท่าเทียมกัน</Text>		<!-- First Among Equals -->
@@ -12022,16 +12023,16 @@
 			<Text>ทางเลือกอันยากลำบาก</Text>		<!-- An Impossible Choice -->
 		</Replace>
 		<Replace Tag="LOC_101A_COMPLETION" Language="th_TH">
-			<Text>ทหารเซนทูเรียนผู้ผ่านการต่อสู้มาอย่างหนักเข้ามาเผชิญหน้ากับวุฒิสภา ท่ามกลางเสียงเรียกร้องที่ดังเหมือนเสียงของดาบ นี่คือคนจนที่ถูกปฏิเสธเกียรติยศในการต่อสู้เพื่อกรุงโรม เขากล่าวว่า กองทัพต้องการพวกเขา  ให้มอบที่ดินแก่พวกเขา หรือยกเลิกข้อกำหนดเกี่ยวกับกรรมสิทธิ์ เพื่อให้พลเมืองเหล่านี้สามารถรับใช้เมือง ในขณะที่ความกระตือรือร้นของพวกเขายังคงมีอยู่</Text>		<!-- A beleaguered centurion comes before the Senate, trailed by a clamor of voices sharp as swords. These are poor men denied the honor of fighting for Rome, he says. The army needs them. Either grant them land, or abolish the property requirement so that these citizens may serve, while their zeal still lasts. -->
+			<Text>ทหารเซ็นทูเรียนผู้ประสบความทุกข์ยากยืนต่อหน้าวุฒิสภา พร้อมเสียงโห่ร้องอันแหลมคมดุจดาบตามหลัง เขากล่าวว่า ชายผู้ยากไร้ไร้ที่ดินเหล่านี้ถูกปฏิเสธเกียรติยศในการรบเพื่อโรม กองทัพต้องการพวกเขา จงยกเลิกข้อกำหนดเรื่องกรรมสิทธิ์ที่ดิน เพื่อให้พลเมืองเหล่านี้ได้รับใช้ ในขณะที่พวกเขายังมีความกระตือรือร้นอยู่</Text>		<!-- A beleaguered centurion comes before the Senate, trailed by a clamor of voices sharp as swords. These poor landless men are denied the honor of fighting for Rome, he says. The army needs them. Abolish the property requirement so that these citizens may serve, while their zeal still lasts. -->
 		</Replace>
 		<Replace Tag="LOC_101B_NAME" Language="th_TH">
-			<Text>มอบที่ดินให้</Text>		<!-- Grant land. -->
+			<Text>มอบที่ดินให้พวกเขา</Text>		<!-- Grant them land. -->
 		</Replace>
 		<Replace Tag="LOC_101B_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward} บน นักรบ</Text>		<!-- {1_reward} on Warriors. -->
 		</Replace>
 		<Replace Tag="LOC_101C_NAME" Language="th_TH">
-			<Text>ยกเลิกข้อกำหนด</Text>		<!-- Abolish the requirement. -->
+			<Text>ยกเลิกข้อกำหนดเรื่องกรรมสิทธิ์ที่ดิน</Text>		<!-- Abolish the property requirement. -->
 		</Replace>
 		<Replace Tag="LOC_101C_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
@@ -14375,7 +14376,7 @@
 			<Text>ประชาชนของ แฮตเชปซุต เฉลิมฉลองในความอุดมสมบูรณ์ที่ส่งมาจากพ่อค้า พวกเขาขาดแคลนสิ่งใดไม่ และโลกได้รู้ถึงเรื่องนี้แล้ว</Text>		<!-- Hatshepsut's people rejoice in the bounty delivered by their merchants. They lack for nothing, and the world knows it. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1091B_IMPERATIVE" Language="th_TH">
-			<Text>มี 15 คะแนนในเส้นทางมรดก เส้นทางสายไหม</Text>		<!-- Have 15 Points in the Silk Roads Legacy Path. -->
+			<Text>มี 15 ทรัพยากร ที่ถูกจัดสรรในทุกๆถิ่นฐาน</Text>		<!-- Have 15 Resources Slotted across all Settlements. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1091C_STORYTITLE" Language="th_TH">
 			<Text>ดินแดนแห่งพุนต์</Text>		<!-- Land of Punt -->
@@ -14510,7 +14511,7 @@
 			<Text>ตามสัญญาของเธอ ฮิมิโกะมอบความมั่งคั่งของโลกให้กับประชาชนของเธอ พวกเขาไม่ขาดแคลนอะไรและยกย่องความเมตตากรุณาของเธอ</Text>		<!-- True to her word, Himiko bestows her populace with the world's riches. They want for nothing, and praise her benevolence. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1102B_IMPERATIVE" Language="th_TH">
-			<Text>มี 15 คะแนนในเส้นทางมรดกเส้นทางสายไหม</Text>		<!-- Have 15 Points in the Silk Roads Legacy Path. -->
+			<Text>มี 15 ทรัพยากร ที่ถูกจัดสรรในทุกๆถิ่นฐาน</Text>		<!-- Have 15 Resources Slotted across all Settlements. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1102C_STORYTITLE" Language="th_TH">
 			<Text>ธิดาแห่งดวงอาทิตย์</Text>		<!-- Daughter of the Sun -->
@@ -15368,13 +15369,13 @@
 			<Text>หลังจากการศึกษาที่ขยันขันแข็งหลายปี พระสงฆ์องค์หนึ่งได้บันทึกการเคลื่อนไหวตามพิธีกรรมของดวงดาวลงในหนังสือที่พับจากเปลือกไม้ การศึกษาลวดลายของ ชัก เอ็ก – และวิธีที่ดวงดาวดวงนี้ขึ้นและตกอยู่ในสมดุลกับดวงอาทิตย์ – อาจช่วยคาดการณ์ความเจริญรุ่งเรืองของเหตุการณ์ในอนาคต</Text>		<!-- After years of diligent study, one priest has recorded the ritual movements of the stars into a folded bark-paper book. Studying the patterns of Chak Ek' – and how this great star rises and falls in balance with the sun – could predict the prosperity of future events. -->
 		</Replace>
 		<Replace Tag="LOC_9000B_NAME" Language="th_TH">
-			<Text>ยืนยันถึงโชคลาภดีเพื่อสร้างความพอใจให้กับประชาชน</Text>		<!-- Insist on a good fortune to appease the people. -->
+			<Text>โชคลาภจะช่วยปลอบประโลมประชาชน</Text>		<!-- Good fortune will appease the people. -->
 		</Replace>
 		<Replace Tag="LOC_9000B_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_9000C_NAME" Language="th_TH">
-			<Text>รักษาไว้ซึ่งงานศักดิ์สิทธิ์นี้</Text>		<!-- Preserve this holy work. -->
+			<Text>สถานที่ศึกษาศักดิ์สิทธิ์นี้ต้องได้รับการอนุรักษ์ไว้</Text>		<!-- This holy study must be preserved. -->
 		</Replace>
 		<Replace Tag="LOC_9000C_DESCRIPTION" Language="th_TH">
 			<Text>+1 คัมภีร์</Text>		<!-- +1 Codex. -->
@@ -15386,13 +15387,13 @@
 			<Text>หัวหน้าเผ่าตื่นขึ้นอย่างกระทันหัน จากการนอนหลับกระสับกระส่าย, ในความฝัน พวกเขาได้พบกับมนุษย์นก นักรบผู้ทรงพลังที่ถือรอกสะเทือนซึ่งทำจากกะโหลกของศัตรู ก่อนที่จะเดินทางไปยังโลกเบื้องบน มนุษย์นกได้สัญญาว่าจะนำวิญญาณของญาติไปจากดินแดนแห่งความตายกลับมา</Text>		<!-- With a start, a chieftain awakes from restless sleep. In dreams, they were visited by the Birdman, a powerful warrior holding a rattle fashioned from the skulls of their enemies. Before traveling to the Upperworld, the Birdman promised to retrieve the souls of the chieftain's kin from the realm of the dead. -->
 		</Replace>
 		<Replace Tag="LOC_9001B_NAME" Language="th_TH">
-			<Text>บัญชีนี้ควรได้รับการเก็บรักษาผ่านภาพที่แกะสลัก</Text>		<!-- This account should be preserved through engraved images. -->
+			<Text>จงบันทึกเรื่องราวนี้ไว้ผ่านภาพสลักแกะสลัก</Text>		<!-- Preserve this account through engraved images. -->
 		</Replace>
 		<Replace Tag="LOC_9001B_DESCRIPTION" Language="th_TH">
 			<Text>+1 คัมภีร์</Text>		<!-- +1 Codex. -->
 		</Replace>
 		<Replace Tag="LOC_9001C_NAME" Language="th_TH">
-			<Text>บัญชีนี้ควรได้รับการหล่อหลอมให้เป็นอมตะผ่านการเต้นรำตามพิธีกรรม</Text>		<!-- This account should be immortalized through ritual dance. -->
+			<Text>จงทำให้ความฝันเป็นอมตะผ่านการร่ายรำพิธีกรรม</Text>		<!-- Immortalize the dream through ritual dance. -->
 		</Replace>
 		<Replace Tag="LOC_9001C_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
@@ -16611,19 +16612,19 @@
 			<Text>เมืองเหมืองแร่</Text>		<!-- Mining Town -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_GRANARY_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า ปลูกพืช และเรือประมง</Text>		<!-- +1[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. -->
+			<Text>+3[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า ปลูกพืช และเรือประมง</Text>		<!-- +3[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_FISHING_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้าเลี้ยงสัตว์ ไร่สวน และเรือประมง</Text>		<!-- +1[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. -->
+			<Text>+3[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้าเลี้ยงสัตว์ ไร่สวน และเรือประมง</Text>		<!-- +3[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_PRODUCTION_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_PRODUCTION]ผลผลิตในค่ายคนงาน, โรงตัดไม้, หลุมดิน, เหมืองแร่ และบ่อหิน</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Camps, Woodcutters, Clay Pits, Mines, and Quarries. -->
+			<Text>+4[icon:YIELD_PRODUCTION] กำลังผลิต บน ค่ายคนงาน, โรงตัดไม้, หลุมดิน, เหมืองแร่ และบ่อหิน</Text>		<!-- +4[icon:YIELD_PRODUCTION] Production on Camps, Woodcutters, Clay Pits, Mines, and Quarries. -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_TRADE_NAME" Language="th_TH">
 			<Text>สถานีการค้า</Text>		<!-- Trade Outpost -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_TRADE_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_HAPPINESS] ความสุข เพิ่มให้กับแต่ละแหล่งทรัพยากรในเมือง และระยะการค้าเพิ่มขึ้น 5 หน่วย</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness to each Resource tile in the Town and +5 Trade Route range. -->
+			<Text>+2[icon:YIELD_HAPPINESS] ความสุข บนแต่ละแหล่งทรัพยากรในเมืองนี้ และระยะการค้าเพิ่มขึ้น 5 หน่วย</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness on each Resource tile in this Town and +5 Trade Route range. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_CLASS_PANTHEON_NAME" Language="th_TH">
 			<Text>เทพเจ้า</Text>		<!-- Pantheon -->
@@ -16728,7 +16729,7 @@
 			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม ,[icon:YIELD_FOOD] อาหาร ,[icon:YIELD_GOLD] ทอง ,[icon:YIELD_HAPPINESS] ความสุข ,[icon:YIELD_PRODUCTION] กำลังผลิต , และ[icon:YIELD_SCIENCE] วิทยาศาสตร์ บนแท่นบูชา</Text>		<!-- +1[icon:YIELD_CULTURE] Culture,[icon:YIELD_FOOD] Food,[icon:YIELD_GOLD] Gold,[icon:YIELD_HAPPINESS] Happiness,[icon:YIELD_PRODUCTION] Production, and[icon:YIELD_SCIENCE] Science on the Altar. -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_MANGOS_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_FOOD] อาหาร, +2[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +2[icon:YIELD_FOOD] Food, +2[icon:YIELD_CULTURE] Culture -->
+			<Text>+3[icon:YIELD_FOOD] อาหาร, +3[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +3[icon:YIELD_FOOD] Food, +3[icon:YIELD_CULTURE] Culture -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_CLAY_TOOLTIP" Language="th_TH">
 			<Text>+1[icon:YIELD_PRODUCTION] การผลิตในอาคารคลังสินค้า</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Warehouse Buildings -->
@@ -16737,25 +16738,25 @@
 			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์, +2[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +2[icon:YIELD_SCIENCE] Science, +2[icon:YIELD_CULTURE] Culture -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_RUBIES_TOOLTIP" Language="th_TH">
-			<Text>+4[icon:YIELD_GOLD] ทอง</Text>		<!-- +4[icon:YIELD_GOLD] Gold -->
+			<Text>+1[icon:YIELD_GOLD] ทอง ในเมือง, เพิ่มสองเท่าหากเป็นดินแดนบ้านเกิด</Text>		<!-- +1[icon:YIELD_GOLD] Gold in Towns, doubled in Homelands -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_RICE_TOOLTIP" Language="th_TH">
-			<Text>+5%[icon:YIELD_FOOD] อาหารในเขตการตั้งถิ่นฐาน</Text>		<!-- +5%[icon:YIELD_FOOD] Food in Settlements -->
+			<Text>+10%[icon:YIELD_FOOD] อาหารในเขตการตั้งถิ่นฐาน</Text>		<!-- +10%[icon:YIELD_FOOD] Food in Settlements -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_LIMESTONE_TOOLTIP" Language="th_TH">
-			<Text>+5%[icon:YIELD_PRODUCTION] การผลิตสำหรับสิ่งมหัศจรรย์ทั้งหมด</Text>		<!-- +5%[icon:YIELD_PRODUCTION] Production towards all Wonders -->
+			<Text>+10%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับอาคาร</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards Buildings -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_TIN_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_PRODUCTION] การผลิตในเมือง, +4[icon:YIELD_PRODUCTION] การผลิตในเมืองเล็ก</Text>		<!-- +2[icon:YIELD_PRODUCTION] Production in Cities, +4[icon:YIELD_PRODUCTION] Production in Towns -->
+			<Text>+3 อัตราเติบโต</Text>		<!-- +3% Growth Rate -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_LLAMAS_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_PRODUCTION] การผลิต, +3[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production, +3[icon:YIELD_HAPPINESS] Happiness -->
+			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต, +7[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production, +7[icon:YIELD_HAPPINESS] Happiness -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_HARDWOOD_TOOLTIP" Language="th_TH">
-			<Text>+20%[icon:YIELD_PRODUCTION] การผลิตสำหรับหน่วยทางเรือ</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards Naval units -->
+			<Text>+20%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับยูนิตพลเรือน</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards Civilian Units -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_WILD_GAME_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_FOOD] อาหารในเมือง, +4[icon:YIELD_FOOD] อาหารในเมืองเล็ก</Text>		<!-- +2[icon:YIELD_FOOD] Food in Cities, +4[icon:YIELD_FOOD] Food in Towns -->
+			<Text>+3[icon:YIELD_FOOD] อาหารในเมือง, +6[icon:YIELD_FOOD] อาหารในเมืองเล็ก</Text>		<!-- +3[icon:YIELD_FOOD] Food in Cities, +6[icon:YIELD_FOOD] Food in Towns -->
 		</Replace>
 		<Replace Tag="LOC_PANTHEON_BONUS_11_DESCRIPTION" Language="th_TH">
 			<Text>+15%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับฝึก ยูนิตทหาร ในเมืองที่มีแท่นบูชา</Text>		<!-- +15%[icon:YIELD_PRODUCTION] Production towards training Military Units in Cities with an Altar. -->
@@ -16779,19 +16780,19 @@
 			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต ในหลุมดินเหนียว, เหมือง, และเหมืองหิน ในถิ่นฐานที่มีแท่นบูชา โบนัสคลังสินค้า</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Clay Pits, Mines, and Quarries in Settlements with an Altar. Warehouse bonus. -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_COTTON_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_FOOD] อาหาร , +2[icon:YIELD_PRODUCTION] กำลังผลิต </Text>		<!-- +2[icon:YIELD_FOOD] Food, +2[icon:YIELD_PRODUCTION] Production -->
+			<Text>+5%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการฝึกยูนิตทางบก</Text>		<!-- +5%[icon:YIELD_PRODUCTION] Production towards training Land Units. -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_DATES_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_FOOD] อาหาร , +2[icon:YIELD_HAPPINESS] ความสุข </Text>		<!-- +2[icon:YIELD_FOOD] Food, +2[icon:YIELD_HAPPINESS] Happiness -->
+			<Text>+3[icon:YIELD_FOOD] อาหาร , +3[icon:YIELD_HAPPINESS] ความสุข </Text>		<!-- +3[icon:YIELD_FOOD] Food, +3[icon:YIELD_HAPPINESS] Happiness -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_DYES_TOOLTIP" Language="th_TH">
-			<Text>+4[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +4[icon:YIELD_HAPPINESS] Happiness -->
+			<Text>+5[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +5[icon:YIELD_HAPPINESS] Happiness -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_FISH_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร </Text>		<!-- +3[icon:YIELD_FOOD] Food -->
+			<Text>+6[icon:YIELD_FOOD] อาหาร ในถิ่นฐานที่มีท่าเรือ, +3[icon:YIELD_FOOD] อาหาร ไปยังทุกถิ่นฐานอื่น</Text>		<!-- +6[icon:YIELD_FOOD] Food in Settlements with a Port, +3[icon:YIELD_FOOD] Food to any other Settlement -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_FISH_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร </Text>		<!-- +3[icon:YIELD_FOOD] Food -->
+			<Text>+6[icon:YIELD_FOOD] อาหาร ในถิ่นฐานที่มีท่าเรือ, +3[icon:YIELD_FOOD] อาหาร ไปยังทุกถิ่นฐานอื่น</Text>		<!-- +6[icon:YIELD_FOOD] Food in Settlements with a Port, +3[icon:YIELD_FOOD] Food to any other Settlement -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_GOLD_TOOLTIP" Language="th_TH">
 			<Text>+20%[icon:YIELD_GOLD] สำหรับการซื้อสิ่งก่อสร้าง</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings -->
@@ -16800,16 +16801,16 @@
 			<Text>+20%[icon:YIELD_GOLD] สำหรับการซื้อสิ่งก่อสร้าง</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_GYPSUM_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_PRODUCTION] กำลังผลิต ให้กับเมืองหลวง, +4[icon:YIELD_PRODUCTION] กำลังผลิต ให้กับเมืองอื่นๆ</Text>		<!-- +2[icon:YIELD_PRODUCTION] Production to Capital, +4[icon:YIELD_PRODUCTION] Production to any other City -->
+			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต ให้กับเมืองใหญ่ ในดินแดนบ้านเกิด, +4[icon:YIELD_PRODUCTION] กำลังผลิต ไปยังเมืองที่อยู่ห่างไกล</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production to Homeland Cities; +6[icon:YIELD_PRODUCTION] Production to Distant Land Cities -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_GYPSUM_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_PRODUCTION] กำลังผลิต ให้กับเมืองหลวง, +4[icon:YIELD_PRODUCTION] กำลังผลิต ให้กับเมืองอื่นๆ</Text>		<!-- +2[icon:YIELD_PRODUCTION] Production to Capital, +4[icon:YIELD_PRODUCTION] Production to any other City -->
+			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต ให้กับเมืองใหญ่ ในดินแดนบ้านเกิด, +4[icon:YIELD_PRODUCTION] กำลังผลิต ไปยังเมืองที่อยู่ห่างไกล</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production to Homeland Cities; +6[icon:YIELD_PRODUCTION] Production to Distant Land Cities -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_INCENSE_TOOLTIP" Language="th_TH">
-			<Text>+10%[icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- +10%[icon:YIELD_SCIENCE] Science -->
+			<Text>+100%[icon:YIELD_PRODUCTION] กำลังผลิต ต่อการสร้าง มิชชันนารี และ วิหาร</Text>		<!-- +100%[icon:YIELD_PRODUCTION] Production towards Missionaries and Temples -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_IVORY_TOOLTIP" Language="th_TH">
-			<Text>+10%[icon:YIELD_PRODUCTION] กำลังผลิต ต่อสิ่งมหัศจรรย์ ที่ตั้งอยู่ในภูมิประเทศ เขตร้อน, ที่ราบ และทะเลทราย</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards Wonders placed in Tropical, Plains, and Desert Terrain -->
+			<Text>+4[icon:YIELD_HAPPINESS] ความสุข, +4[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +4[icon:YIELD_HAPPINESS] Happiness, +4[icon:YIELD_PRODUCTION] Production -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_JADE_TOOLTIP" Language="th_TH">
 			<Text>+15%[icon:YIELD_GOLD] ทอง </Text>		<!-- +15%[icon:YIELD_GOLD] Gold -->
@@ -16818,34 +16819,34 @@
 			<Text>+15%[icon:YIELD_GOLD] ทอง </Text>		<!-- +15%[icon:YIELD_GOLD] Gold -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_KAOLIN_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_FOOD] อาหาร ให้กับเมืองหลวง, +4[icon:YIELD_FOOD] อาหาร ให้กับเมืองอื่นๆ</Text>		<!-- +2[icon:YIELD_FOOD] Food to Capital, +4[icon:YIELD_FOOD] Food to any other City -->
+			<Text>+3%[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +3%[icon:YIELD_CULTURE] Culture. -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_MARBLE_TOOLTIP" Language="th_TH">
-			<Text>+10% [icon:YIELD_PRODUCTION] กำลังผลิต สำหรับสิ่งมหัศจรรย์ ที่วางบนพื้นที่ทุ่งหญ้า ทุ่งทุนดรา และทะเล</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards Wonders placed in Grassland, Tundra, and Marine Terrain -->
+			<Text>+10%[icon:YIELD_PRODUCTION] กำลังผลิต ต่อการสร้าง สิ่งมหัศจรรย์</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_MARBLE_TOOLTIP" Language="th_TH">
-			<Text>+10% [icon:YIELD_PRODUCTION] กำลังผลิต สำหรับสิ่งมหัศจรรย์ ที่วางบนพื้นที่ทุ่งหญ้า ทุ่งทุนดรา และทะเล</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards Wonders placed in Grassland, Tundra, and Marine Terrain -->
+			<Text>+10%[icon:YIELD_PRODUCTION] กำลังผลิต ต่อการสร้าง สิ่งมหัศจรรย์</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_PEARLS_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_HAPPINESS] ความสุข แก่เมืองหลวง, +4[icon:YIELD_HAPPINESS] ความสุข แก่เมืองอื่นๆ</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness to Capital, +4[icon:YIELD_HAPPINESS] Happiness to any other City -->
+			<Text>+6[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง, +3[icon:YIELD_HAPPINESS] ความสุข แก่เมืองอื่นๆ</Text>		<!-- +6[icon:YIELD_HAPPINESS] Happiness in Capital. +3[icon:YIELD_HAPPINESS] Happiness to any other City. -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILK_TOOLTIP" Language="th_TH">
-			<Text>+10%[icon:YIELD_CULTURE] วัฒนธรรม </Text>		<!-- +10%[icon:YIELD_CULTURE] Culture -->
+			<Text>+6[icon:YIELD_CULTURE] วัฒนธรรม ในเมืองหลวง, +3[icon:YIELD_CULTURE] วัฒนธรรม แก่เมืองอื่นๆ</Text>		<!-- +6[icon:YIELD_CULTURE] Culture in Capital. +3[icon:YIELD_CULTURE] Culture to any other City. -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILK_TOOLTIP" Language="th_TH">
-			<Text>+10%[icon:YIELD_CULTURE] วัฒนธรรม </Text>		<!-- +10%[icon:YIELD_CULTURE] Culture -->
+			<Text>+6[icon:YIELD_CULTURE] วัฒนธรรม ในเมืองหลวง, +3[icon:YIELD_CULTURE] วัฒนธรรม แก่เมืองอื่นๆ</Text>		<!-- +6[icon:YIELD_CULTURE] Culture in Capital. +3[icon:YIELD_CULTURE] Culture to any other City. -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILVER_TOOLTIP" Language="th_TH">
-			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Units -->
+			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้อและอัพเกรดยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing and upgrading Units -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILVER_DISTANT_LANDS_TOOLTIP" Language="th_TH">
 			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Units -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_WINE_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +10%[icon:YIELD_CULTURE] วัฒนธรรม เมื่อมีการเฉลิมฉลอง</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness in the Capital and +10%[icon:YIELD_CULTURE] Culture when in a Celebration -->
+			<Text>+4[icon:YIELD_FOOD] อาหาร, +4[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +4[icon:YIELD_FOOD] Food, +4[icon:YIELD_PRODUCTION] Production -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_WINE_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +10%[icon:YIELD_CULTURE] วัฒนธรรม เมื่อมีการเฉลิมฉลอง</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness in the Capital and +10%[icon:YIELD_CULTURE] Culture when in a Celebration -->
+			<Text>+4[icon:YIELD_FOOD] อาหาร, +4[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +4[icon:YIELD_FOOD] Food, +4[icon:YIELD_PRODUCTION] Production -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_CAMELS_TOOLTIP" Language="th_TH">
 			<Text>เมื่อถูกจัดสรรให้กับเมือง, เพิ่มจำนวน ทรัพยากร ที่สามารถจัดสรรให้กับเมืองได้ 2 หน่วย</Text>		<!-- While slotted in a City, allows another 2 additional Resources to be assigned to that City -->
@@ -16857,10 +16858,10 @@
 			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต </Text>		<!-- +3[icon:YIELD_PRODUCTION] Production -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_HORSES_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตทหารม้าจะได้รับ +1 พลังต่อสู้ และเพิ่มอีก +1 เมื่อต่อสู้กับยูนิตทหารราบ</Text>		<!-- Cavalry Units gain +1 Combat Strength, and an additional +1 against Infantry Units -->
+			<Text>+6[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +6[icon:YIELD_HAPPINESS] Happiness -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_IRON_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตทหารราบได้รับ +1 พลังต่อสู้</Text>		<!-- Infantry Units gain +1 Combat Strength -->
+			<Text>ยูนิตทหารราบได้รับ +1 พลังต่อสู้ (สูงสุด +6)</Text>		<!-- Infantry Units gain +1 Combat Strength (Max +6) -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SALT_TOOLTIP" Language="th_TH">
 			<Text>+20% [icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการฝึกยูนิต</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards training Units -->
@@ -16878,10 +16879,10 @@
 			<Text>+1 ม้า</Text>		<!-- +1 Horses -->
 		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_COCOA_TOOLTIP" Language="th_TH">
-			<Text>นี่คือทรัพยากรของดินแดนห่างไกลที่จะสามารถเข้าถึงได้ในยุคถัดไป</Text>		<!-- This is a Distant Lands resource that will be attainable in the next age -->
+			<Text>+3%[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +3%[icon:YIELD_HAPPINESS] Happiness. -->
 		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_FURS_TOOLTIP" Language="th_TH">
-			<Text>นี่คือทรัพยากรของดินแดนห่างไกลที่จะสามารถเข้าถึงได้ในยุคถัดไป</Text>		<!-- This is a Distant Lands resource that will be attainable in the next age -->
+			<Text>+6[icon:YIELD_HAPPINESS] ความสุข ในเมืองที่มีสถานีรางรถไฟ, +3[icon:YIELD_HAPPINESS] ความสุข แก่เมืองอื่นๆ</Text>		<!-- +6[icon:YIELD_HAPPINESS] Happiness in a City with a Rail Station. +3[icon:YIELD_HAPPINESS] Happiness to any other City. -->
 		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_SPICES_TOOLTIP" Language="th_TH">
 			<Text>นี่คือทรัพยากรของดินแดนห่างไกลที่จะสามารถเข้าถึงได้ในยุคถัดไป</Text>		<!-- This is a Distant Lands resource that will be attainable in the next age -->
@@ -16893,16 +16894,16 @@
 			<Text>นี่คือทรัพยากรของดินแดนห่างไกลที่จะสามารถเข้าถึงได้ในยุคถัดไป</Text>		<!-- This is a Distant Lands resource that will be attainable in the next age -->
 		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_TRUFFLES_TOOLTIP" Language="th_TH">
-			<Text>นี่เป็นทรัพยากรจากดินแดนอันไกลโพ้นที่จะสามารถเข้าถึงได้ในยุคถัดไป</Text>		<!-- This is a Distant Lands resource that will be attainable in the next age -->
+			<Text>นี่คือทรัพยากรของดินแดนห่างไกลที่จะสามารถเข้าถึงได้ในยุคถัดไป</Text>		<!-- This is a Distant Lands resource that will be attainable in the next age -->
 		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_NITER_TOOLTIP" Language="th_TH">
-			<Text>นี่คือทรัพยากรจากดินแดนห่างไกลที่จะสามารถเข้าถึงได้ในยุคถัดไป</Text>		<!-- This is a Distant Lands resource that will be attainable in the next age -->
+			<Text>นี่คือทรัพยากรของดินแดนห่างไกลที่จะสามารถเข้าถึงได้ในยุคถัดไป</Text>		<!-- This is a Distant Lands resource that will be attainable in the next age -->
 		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_WHALES_TOOLTIP" Language="th_TH">
-			<Text>นี่คือทรัพยากรจากดินแดนห่างไกลที่จะสามารถเข้าถึงได้ในยุคถัดไป</Text>		<!-- This is a Distant Lands resource that will be attainable in the next age -->
+			<Text>นี่คือทรัพยากรของดินแดนห่างไกลที่จะสามารถเข้าถึงได้ในยุคถัดไป</Text>		<!-- This is a Distant Lands resource that will be attainable in the next age -->
 		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_CLOVES_TOOLTIP" Language="th_TH">
-			<Text>นี่คือทรัพยากรจากดินแดนห่างไกลที่จะสามารถเข้าถึงได้ในยุคถัดไป</Text>		<!-- This is a Distant Lands resource that will be attainable in the next age -->
+			<Text>นี่คือทรัพยากรของดินแดนห่างไกลที่จะสามารถเข้าถึงได้ในยุคถัดไป</Text>		<!-- This is a Distant Lands resource that will be attainable in the next age -->
 		</Replace>
 		<Replace Tag="LOC_TREE_TECHS_AQ_NAME" Language="th_TH">
 			<Text>เทคโนโลยีโบราณ</Text>		<!-- Antiquity Technology -->
@@ -17127,10 +17128,10 @@
 			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ บนอาคารด้านวิทยาศาสตร์</Text>		<!-- +1[icon:YIELD_SCIENCE] Science on Science Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_FUTURE_TECH_ATTRIBUTE_DESCRIPTION" Language="th_TH">
-			<Text>+1 คะแนน คุณลักษณะไวลด์การ์ด</Text>		<!-- +1 Wildcard Attribute Point. -->
+			<Text>+1 คะแนน คุณลักษณะแบบสุ่ม</Text>		<!-- +1 Random Attribute Point. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_FUTURE_TECH_BOOST_DESCRIPTION" Language="th_TH">
-			<Text>ส่งเสริมการพัฒนา สำหรับการเริ่มต้นเทคโนโลยีในยุคถัดไป</Text>		<!-- A boost for a starting Tech in the next Age. -->
+			<Text>ส่งเสริมการพัฒนา สำหรับการเริ่มต้น เทคโนโลยีในยุคถัดไป</Text>		<!-- A boost for a starting Technology in the next Age. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_FUTURE_TECH_AGE_PROGRESS_DESCRIPTION" Language="th_TH">
 			<Text>+10 แต้ม ความก้าวหน้าของยุค</Text>		<!-- +10 Age Progress. -->
