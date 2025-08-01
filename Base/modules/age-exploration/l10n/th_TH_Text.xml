@@ -353,8 +353,7 @@
 			<Text>สูญเสียการมีอยู่ของศาสนาในดินแดนห่างไกล</Text>		<!-- Losing Distant Land Religious Presence -->
 		</Replace>
 		<Replace Tag="LOC_WARNING_AGE_TRANSITION_COMMANDERS_MESSAGE" Language="th_TH">
-			<Text>กองทัพของเรามีทหารจำนวนมาก แต่ไม่มีผู้บัญชาการเพียงพอที่จะนำพวกเขาได้ เราจะสามารถรักษายูนิตภาคพื้นได้เพียง {1_value} หน่วยในช่วงเริ่มต้นของยุคถัดไป บวกกับจำนวนยูนิตที่ผู้บัญชาการกองทัพของเราสามารถถือได้ เราต้องผลิตผู้บัญชาการกองทัพเพิ่มขึ้น มิฉะนั้นเราจะสูญเสีย ยูนิตภาคพื้น {2_lostunits} หน่วย</Text>		<!-- Many soldiers have pledged their lives to our empire, but we lack the Commanders to lead them. In addition to the amount of Units our Army Commanders can hold, we will only be able to maintain {1_value} Land Units at the start of the next Age. Without more Army Commanders, we will lose {2_lostunits} Land {2_lostunits: plural 1?Unit; other?Units;} when the Age ends. -->
-		</Replace>
+			<Text>ทหารมากมายได้สาบานตนถวายชีวิตแด่อาณาจักรของเรา ทว่าเรากลับขาดแม่ทัพที่จะนำพวกเขาไปสู่ชัยชนะ นอกเหนือจากจำนวนยูนิตที่แม่ทัพสามารถบัญชาการได้แล้ว เราจะสามารถรักษากองทัพภาคพื้นดินไว้ได้เพียง {1_value} หน่วยเท่านั้นในช่วงเริ่มต้นยุคหน้า หากไม่เร่งแต่งตั้งแม่ทัพเพิ่ม เราจะสูญเสีย {2_lostunits} หน่วย เมื่อต้นยุคใหม่มาถึง</Text>		<!-- Many soldiers have pledged their lives to our empire, but we lack the Commanders to lead them. In addition to the amount of Units our Army Commanders can hold, we will only be able to maintain {1_value} Land Units at the start of the next Age. Without more Army Commanders, we will lose {2_lostunits} Land {2_lostunits: plural 1?Unit; other?Units;} when the Age ends. --></Replace>
 		<Replace Tag="LOC_WARNING_AGE_TRANSITION_COMMANDERS_SUMMARY" Language="th_TH">
 			<Text>กองทัพขนาดใหญ่</Text>		<!-- Large Army -->
 		</Replace>
@@ -521,11 +520,9 @@
 			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับทุก 5[icon:YIELD_HAPPINESS] ความสุข ที่เกินมาในถิ่นฐานที่คุณยึดครอง</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production for every 5 excess[icon:YIELD_HAPPINESS] Happiness in Settlements you Conquer. -->
 		</Replace>
 		<Replace Tag="LOC_CITYCOMMAND_DESTROY_RAZE_PENALTY" Language="th_TH">
-			<Text>-12[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น ตลอดยุคหลังจากทำลายเสร็จสิ้น</Text>		<!-- -12[icon:YIELD_DIPLOMACY] Influence per turn for the rest of the Age once razing is complete -->
-		</Replace>
+			<Text>-8[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น สำหรับช่วงเวลาที่เหลือของยุคเมื่อการทำลายเสร็จสมบูรณ์</Text>		<!-- -8[icon:YIELD_DIPLOMACY] Influence per turn for the rest of the Age once razing is complete --></Replace>
 		<Replace Tag="LOC_CITYCOMMAND_KEEP_PENALTY" Language="th_TH">
-			<Text>-6[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น ขณะควบคุมถิ่นฐานนี้ในยุคนี้</Text>		<!-- -6[icon:YIELD_DIPLOMACY] Influence per turn while you control this Settlement during this Age -->
-		</Replace>
+			<Text>-4[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น ขณะที่คุณควบคุมถิ่นฐานนี้ในช่วงยุคนี้</Text>		<!-- -4[icon:YIELD_DIPLOMACY] Influence per turn while you control this Settlement during this Age --></Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_CRISIS_INWARD_PERFECTION" Language="th_TH">
 			<Text>ความสมบูรณ์จากภายใน</Text>		<!-- Inward Perfection -->
 		</Replace>
@@ -4299,104 +4296,71 @@
 			<Text>ยูนิตภาคพื้นได้รับ +2 แต้มเคลื่อนที่ เมื่อขึ้นเรือ</Text>		<!-- All Land Units receive +2 Movement when Embarked. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_OPEN_BORDERS_ACCEPT" Language="th_TH">
-			<Text>เปิดพรมแดนของคุณให้พวกเขา[n][icon:YIELD_GOLD] +6 ต่อเทิร์น</Text>		<!-- Open your borders to them.[n][icon:YIELD_GOLD] +6 per turn. -->
-		</Replace>
+			<Text>เปิดพรมแดนของคุณให้กับพวกเขา[n][icon:YIELD_GOLD] +4 ต่อเทิร์น</Text>		<!-- Open your borders to them.[n][icon:YIELD_GOLD] +4 per turn. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_INITIAL" Language="th_TH">
-			<Text>ทำการร่วมมือวิจัยกับผู้นำอีกคนหนึ่ง[n]ได้รับการตอบรับ: คุณจะได้รับ +12[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น ผู้นำอีกคนจะได้รับ +6[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น[n]ได้รับการสนับสนุน: ทั้งสองผู้นำจะได้รับ +18[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น</Text>		<!-- Do a Research Collaboration with another Leader.[n]Accepted: You receive +12[icon:YIELD_SCIENCE] Science per turn. Other Leader receives +6[icon:YIELD_SCIENCE] Science per turn.[n]Supported: Both Leaders receive +18[icon:YIELD_SCIENCE] Science per turn. -->
-		</Replace>
+			<Text>ร่วมทำวิจัยกับผู้นำอีกคนหนึ่ง[n]ได้รับการยอมรับ: คุณจะได้รับ +8[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น ผู้นำอื่นจะได้รับ +4[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +12[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น</Text>		<!-- Do a Research Collaboration with another Leader.[n]Accepted: You receive +8[icon:YIELD_SCIENCE] Science per turn. Other Leader receives +4[icon:YIELD_SCIENCE] Science per turn.[n]Supported: Both Leaders receive +12[icon:YIELD_SCIENCE] Science per turn. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_SCIENCE] +18 ต่อเทิร์นสำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_SCIENCE] +18 per turn for both Leaders. -->
-		</Replace>
+			<Text>[icon:YIELD_SCIENCE] +12 ต่อเทิร์นสำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_SCIENCE] +12 per turn for both Leaders. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_SCIENCE] +18 ต่อเทิร์นสำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_SCIENCE] +18 per turn for both Leaders. -->
-		</Replace>
+			<Text>[icon:YIELD_SCIENCE] +12 ต่อเทิร์นสำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_SCIENCE] +12 per turn for both Leaders. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_SCIENCE] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_SCIENCE] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_SCIENCE] +6 per turn.[n]{1_initialName} receives [icon:YIELD_SCIENCE] +12 per turn. -->
-		</Replace>
+			<Text>[icon:YIELD_SCIENCE] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_SCIENCE] +8 ต่อเทิร์น</Text>		<!-- [icon:YIELD_SCIENCE] +4 per turn.[n]{1_initialName} receives [icon:YIELD_SCIENCE] +8 per turn. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_SCIENCE] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_SCIENCE] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_SCIENCE] +6 per turn.[n]{1_initialName} receives [icon:YIELD_SCIENCE] +12 per turn. -->
-		</Replace>
+			<Text>[icon:YIELD_SCIENCE] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_SCIENCE] +8 ต่อเทิร์น</Text>		<!-- [icon:YIELD_SCIENCE] +4 per turn.[n]{1_initialName} receives [icon:YIELD_SCIENCE] +8 per turn. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CULTURAL_EXCHANGE_INITIAL" Language="th_TH">
-			<Text>แลกเปลี่ยนวัฒนธรรมกับผู้นำอีกคนหนึ่ง[n]ได้รับการยอมรับ: คุณได้รับ +12[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น ผู้นำอีกคนได้รับ +6[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น[n]ได้รับการสนับสนุน: ทั้งสองผู้นำได้รับ +18[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น</Text>		<!-- Have a Cultural Exchange with another Leader.[n]Accepted: You receive +12[icon:YIELD_CULTURE] Culture per turn. Other Leader receives +6[icon:YIELD_CULTURE] Culture per turn.[n]Supported: Both Leaders receive +18[icon:YIELD_CULTURE] Culture per turn. -->
-		</Replace>
+			<Text>มีการแลกเปลี่ยนวัฒนธรรมกับผู้นำคนอื่น[n]ได้รับการยอมรับ: คุณจะได้รับ +8[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น ผู้นำคนอื่นจะได้รับ +4[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +12[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น</Text>		<!-- Have a Cultural Exchange with another Leader.[n]Accepted: You receive +8[icon:YIELD_CULTURE] Culture per turn. Other Leader receives +4[icon:YIELD_CULTURE] Culture per turn.[n]Supported: Both Leaders receive +12[icon:YIELD_CULTURE] Culture per turn. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CULTURAL_EXCHANGE_SUPPORT" Language="th_TH">
-			<Text>+18[icon:YIELD_CULTURE] ต่อเทิร์นสำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_CULTURE] +18 per turn for both Leaders. -->
-		</Replace>
+			<Text>+12[icon:YIELD_CULTURE] ต่อเทิร์นสำหรับผู้นำทั้งสอง</Text>		<!-- +12[icon:YIELD_CULTURE] per turn for both Leaders. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CULTURAL_EXCHANGE_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_CULTURE] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_CULTURE] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_CULTURE] +6 per turn.[n]{1_initialName} receives [icon:YIELD_CULTURE] +12 per turn. -->
-		</Replace>
+			<Text>[icon:YIELD_CULTURE] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_CULTURE] +8 ต่อเทิร์น</Text>		<!-- [icon:YIELD_CULTURE] +4 per turn.[n]{1_initialName} receives [icon:YIELD_CULTURE] +8 per turn. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CULTURAL_EXCHANGE_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_CULTURE] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_CULTURE] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_CULTURE] +6 per turn.[n]{1_initialName} receives [icon:YIELD_CULTURE] +12 per turn. -->
-		</Replace>
+			<Text>[icon:YIELD_CULTURE] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_CULTURE] +8 ต่อเทิร์น</Text>		<!-- [icon:YIELD_CULTURE] +4 per turn.[n]{1_initialName} receives [icon:YIELD_CULTURE] +8 per turn. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_INITIAL" Language="th_TH">
-			<Text>มีตลาดเปิดกับผู้นำคนอื่น[n]ยอมรับ: คุณจะได้รับ +12[icon:YIELD_GOLD] ทอง ต่อเทิร์น ผู้นำคนอื่นจะได้รับ +6[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]สนับสนุน: ทั้งสองผู้นำจะได้รับ +18[icon:YIELD_GOLD] ทอง ต่อเทิร์น</Text>		<!-- Have Open Markets with another Leader.[n]Accepted: You receive +12[icon:YIELD_GOLD] Gold per turn. Other Leader receives +6[icon:YIELD_GOLD] Gold per turn.[n]Supported: Both Leaders receive +18[icon:YIELD_GOLD] Gold per turn. -->
-		</Replace>
+			<Text>เปิดการค้ากับผู้นำอีกคนหนึ่ง[n]ยอมรับ: คุณจะได้รับ +8[icon:YIELD_GOLD] ทอง ต่อเทิร์น ผู้นำอีกคนจะได้รับ +4[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +12[icon:YIELD_GOLD] ทอง ต่อเทิร์น</Text>		<!-- Have Open Markets with another Leader.[n]Accepted: You receive +8[icon:YIELD_GOLD] Gold per turn. Other Leader receives +4[icon:YIELD_GOLD] Gold per turn.[n]Supported: Both Leaders receive +12[icon:YIELD_GOLD] Gold per turn. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +18 ต่อเทิร์น สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_GOLD] +18 per turn received by both Leaders. -->
-		</Replace>
+			<Text>[icon:YIELD_GOLD] +12 ต่อเทิร์นสำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_GOLD] +12 per turn for both Leaders. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +18 ต่อเทิร์น สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_GOLD] +18 per turn received by both Leaders. -->
-		</Replace>
+			<Text>[icon:YIELD_GOLD] +12 ต่อเทิร์นสำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_GOLD] +12 per turn for both Leaders. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_GOLD] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]{1_initialName} receives [icon:YIELD_GOLD] +12 per turn. -->
-		</Replace>
+			<Text>[icon:YIELD_GOLD] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_GOLD] +8 ต่อเทิร์น</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]{1_initialName} receives [icon:YIELD_GOLD] +8 per turn. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_GOLD] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]{1_initialName} receives [icon:YIELD_GOLD] +12 per turn. -->
-		</Replace>
+			<Text>[icon:YIELD_GOLD] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_GOLD] +8 ต่อเทิร์น</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]{1_initialName} receives [icon:YIELD_GOLD] +8 per turn. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_LOCAL_FESTIVALS_INITIAL" Language="th_TH">
-			<Text>มีเทศกาลท้องถิ่นร่วมกับผู้นำคนอื่น[n]ได้รับการตอบรับ: คุณได้รับ +6[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในทุกเมือง ผู้นำคนอื่นได้รับ +6[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น[n]ได้รับการสนับสนุน: ผู้นำทั้งสองได้รับ +9[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในเมือง</Text>		<!-- Have Local Festivals with another Leader.[n]Accepted: You receive +6[icon:YIELD_HAPPINESS] Happiness per turn in all Cities. Other Leader receives +6[icon:YIELD_DIPLOMACY] Influence per turn.[n]Supported: Both Leaders receive +9[icon:YIELD_HAPPINESS] Happiness per turn in Cities. -->
-		</Replace>
+			<Text>จัดเทศกาลท้องถิ่นกับผู้นำอีกคนหนึ่ง[n]ได้รับการตอบรับ: คุณได้รับ +4[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในเมืองใหญ่ทั้งหมด ผู้นำอื่นได้รับ +4[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +6[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในเมือง</Text>		<!-- Have Local Festivals with another Leader.[n]Accepted: You receive +4[icon:YIELD_HAPPINESS] Happiness per turn in all Cities. Other Leader receives +4[icon:YIELD_DIPLOMACY] Influence per turn.[n]Supported: Both Leaders receive +6[icon:YIELD_HAPPINESS] Happiness per turn in Cities. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_LOCAL_FESTIVALS_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_HAPPINESS] +9 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_HAPPINESS] +9 per turn in Cities for both Leaders. -->
-		</Replace>
+			<Text>[icon:YIELD_HAPPINESS] +5 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_HAPPINESS] +6 per turn in Cities for both Leaders. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_LOCAL_FESTIVALS_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_HAPPINESS] +9 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_HAPPINESS] +9 per turn in Cities for both Leaders. -->
-		</Replace>
+			<Text>[icon:YIELD_HAPPINESS] +5 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_HAPPINESS] +6 per turn in Cities for both Leaders. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_LOCAL_FESTIVALS_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_DIPLOMACY] +6 ต่อเทิร์น[n]{1_initialName} รับ [icon:YIELD_HAPPINESS] +6 ต่อเทิร์น ในเมือง</Text>		<!-- [icon:YIELD_DIPLOMACY] +6 per turn.[n]{1_initialName} receives [icon:YIELD_HAPPINESS] +6 per turn in Cities. -->
-		</Replace>
+			<Text>[icon:YIELD_DIPLOMACY] +4 ต่อเทิร์น[n][icon:YIELD_HAPPINESS] +4 ต่อเทิร์นในเมืองใหญ่ สำหรับ {1_initialName}</Text>		<!-- [icon:YIELD_DIPLOMACY] +4 per turn.[n] [icon:YIELD_HAPPINESS] +4 per turn in Cities for {1_initialName}. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FARMERS_MARKET_INITIAL" Language="th_TH">
-			<Text>แบ่งปันสินค้าการเกษตรกับผู้นำอีกคนหนึ่ง[n]ได้รับการยอมรับ: คุณจะได้รับ +6[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองอื่นๆ ผู้นำอีกคนจะได้รับ +6[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]ได้รับการสนับสนุน: ทั้งสองผู้นำจะได้รับ +9[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองอื่นๆ</Text>		<!-- Share agricultural goods with another Leader.[n]Accepted: You receive +6[icon:YIELD_FOOD] Food per turn in Towns. Other Leader receives +6[icon:YIELD_GOLD] Gold per turn.[n]Supported: Both Leaders receive +9[icon:YIELD_FOOD] Food per turn in Towns. -->
-		</Replace>
+			<Text>แบ่งปันสินค้าเกษตรกับผู้นำคนอื่น[n]ยอมรับ: คุณได้รับ +4[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมือง ผู้นำอื่นได้รับ +4[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +6[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมือง</Text>		<!-- Share agricultural goods with another Leader.[n]Accepted: You receive +4[icon:YIELD_FOOD] Food per turn in Towns. Other Leader receives +4[icon:YIELD_GOLD] Gold per turn.[n]Supported: Both Leaders receive +6[icon:YIELD_FOOD] Food per turn in Towns. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FARMERS_MARKET_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_FOOD] +9 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_FOOD] +9 per turn in Towns for both Leaders. -->
-		</Replace>
+			<Text>[icon:YIELD_FOOD] +6 ต่อเทิร์นในเมือง สำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_FOOD] +6 per turn in Towns for both Leaders. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FARMERS_MARKET_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_FOOD] +9 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_FOOD] +9 per turn in Towns for both Leaders. -->
-		</Replace>
+			<Text>[icon:YIELD_FOOD] +6 ต่อเทิร์นในเมือง สำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_FOOD] +6 per turn in Towns for both Leaders. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FARMERS_MARKET_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]{1_initialName} จะได้รับ [icon:YIELD_FOOD] +6 ต่อเทิร์นในเมือง</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]{1_initialName} receives [icon:YIELD_FOOD] +6 per turn in Towns. -->
-		</Replace>
+			<Text>[icon:YIELD_GOLD] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_FOOD] +4 ต่อเทิร์นในเมือง</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]{1_initialName} receives [icon:YIELD_FOOD] +4 per turn in Towns. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_TRADE_MAP_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]ผู้นำคนอื่นจะเห็น อาณาเขตที่คุณอ้างสิทธิ์ เผยออกมาให้พวกเขาเรื่อยๆ ตามเวลา</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]The other Leader has your claimed territory revealed to them over time. -->
-		</Replace>
+			<Text>[icon:YIELD_GOLD] +4 ต่อเทิร์น[n]ผู้นำคนอื่นจะเห็น พื้นที่อ้างสิทธิ์ ของคุณ เมื่อเวลาผ่านไป</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]The other Leader has your claimed territory revealed to them over time. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_TRADE_MAP_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]ผู้นำคนอื่นจะเห็น อาณาเขตที่คุณอ้างสิทธิ์ เผยออกมาให้พวกเขาเรื่อยๆ ตามเวลา</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]The other Leader has your claimed territory revealed to them over time. -->
-		</Replace>
+			<Text>[icon:YIELD_GOLD] +4 ต่อเทิร์น[n]ผู้นำคนอื่นจะเห็น พื้นที่อ้างสิทธิ์ ของคุณ เมื่อเวลาผ่านไป</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]The other Leader has your claimed territory revealed to them over time. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MILITARY_AID_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]ยูนิตของผู้นำอื่นๆ ได้ +2 พลังต่อสู้</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]Other Leader's Units get +2 Combat Strength. -->
-		</Replace>
+			<Text>[icon:YIELD_GOLD]+4 ต่อเทิร์น[n]ยูนิตของผู้นำคนอื่นได้รับ +2 พลังต่อสู้</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]Other Leader's Units get +2 Combat Strength. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MILITARY_AID_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]ยูนิตของผู้นำอื่นๆ ได้ +2 พลังต่อสู้</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]Other Leader's Units get +2 Combat Strength. -->
-		</Replace>
+			<Text>[icon:YIELD_GOLD]+4 ต่อเทิร์น[n]ยูนิตของผู้นำคนอื่นได้รับ +2 พลังต่อสู้</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]Other Leader's Units get +2 Combat Strength. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_IMPROVE_TRADE_RELATIONS_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +90[n]{1_initialName} สามารถเริ่มเส้นทางการค้าเพิ่มเติมกับคุณได้แล้ว</Text>		<!-- [icon:YIELD_GOLD] +90.[n]{1_initialName} can start an additional Trade Route with you. -->
-		</Replace>
+			<Text>[icon:YIELD_GOLD] +60[n]{1_initialName} สามารถเริ่มเส้นทางการค้าเพิ่มเติมกับคุณได้</Text>		<!-- [icon:YIELD_GOLD] +60.[n]{1_initialName} can start an additional Trade Route with you. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_IMPROVE_TRADE_RELATIONS_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +90[n]{1_initialName} สามารถเริ่มเส้นทางการค้าเพิ่มเติมกับคุณได้แล้ว</Text>		<!-- [icon:YIELD_GOLD] +90.[n]{1_initialName} can start an additional Trade Route with you. -->
-		</Replace>
+			<Text>[icon:YIELD_GOLD] +60[n]{1_initialName} สามารถเริ่มเส้นทางการค้าเพิ่มเติมกับคุณได้</Text>		<!-- [icon:YIELD_GOLD] +60.[n]{1_initialName} can start an additional Trade Route with you. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_GINSING_AGREEMENT_INITIAL" Language="th_TH">
-			<Text>มี ข้อตกลงจินเซิง กับผู้นำคนอื่น[n]ยอมรับ: คุณจะได้รับ +12[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองหลวงของคุณ ผู้นำอื่นจะได้รับ +6[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองหลวงของพวกเขา[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +18[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองหลวงของพวกเขา</Text>		<!-- Have Ginseng Agreements with another Leader.[n]Accepted: You receive +12[icon:YIELD_FOOD] Food per turn in your Capital. Other Leader receives +6[icon:YIELD_FOOD] Food per turn in their Capital.[n]Supported: Both Leaders receive +18[icon:YIELD_FOOD] Food per turn in their Capitals. -->
-		</Replace>
+			<Text>มีข้อตกลงโสมกับผู้นำอีกคนหนึ่ง[n]ยอมรับ: คุณได้รับ +8[icon:YIELD_FOOD] อาหาร ต่อเทิร์น ในเมืองหลวงของคุณ ผู้นำอื่นได้รับ +4[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองหลวงของพวกเขา[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +12[icon:YIELD_FOOD] อาหาร ต่อเทิร์น ในเมืองหลวงของพวกเขา</Text>		<!-- Have Ginseng Agreements with another Leader.[n]Accepted: You receive +8[icon:YIELD_FOOD] Food per turn in your Capital. Other Leader receives +4[icon:YIELD_FOOD] Food per turn in their Capital.[n]Supported: Both Leaders receive +12[icon:YIELD_FOOD] Food per turn in their Capitals. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_GINSING_AGREEMENT_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_FOOD] +18 ต่อเทิร์น สำหรับทั้งสองผู้นำ ในเมืองหลวง</Text>		<!-- [icon:YIELD_FOOD] +18 per turn in both Leader's Capitals. -->
-		</Replace>
+			<Text>[icon:YIELD_FOOD] +12 ต่อเทิร์นสำหรับผู้นำทั้งสองในเมืองหลวงของพวกเขา</Text>		<!-- [icon:YIELD_FOOD] +12 per turn for both Leaders in their Capitals. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_GINSING_AGREEMENT_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_FOOD] +18 ต่อเทิร์น สำหรับทั้งสองผู้นำ ในเมืองหลวง</Text>		<!-- [icon:YIELD_FOOD] +18 per turn in both Leader's Capitals. -->
-		</Replace>
+			<Text>[icon:YIELD_FOOD] +12 ต่อเทิร์นสำหรับผู้นำทั้งสองในเมืองหลวงของพวกเขา</Text>		<!-- [icon:YIELD_FOOD] +12 per turn for both Leaders in their Capitals. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_GINSING_AGREEMENT_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_FOOD] +6 ต่อเทิร์นในเมืองหลวงของคุณ[n]{1_initialName} รับ [icon:YIELD_FOOD] +12 ต่อเทิร์นในเมืองหลวงของพวกเขา</Text>		<!-- [icon:YIELD_FOOD] +6 per turn in your Capital.[n]{1_initialName} receives [icon:YIELD_FOOD] +12 per turn in their Capital. -->
-		</Replace>
+			<Text>[icon:YIELD_FOOD] +4 ต่อเทิร์นในเมืองหลวงของคุณ[n]{1_initialName} ได้รับ [icon:YIELD_FOOD] +8 ต่อเทิร์นในเมืองหลวงของพวกเขา</Text>		<!-- [icon:YIELD_FOOD] +4 per turn in your Capital.[n]{1_initialName} receives [icon:YIELD_FOOD] +8 per turn in their Capital. --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FRIEND_OF_WA_INITIAL" Language="th_TH">
 			<Text>ทำให้พันธมิตรเป็น เพื่อนของเหวย[n]ยอมรับ: ผู้นำทั้งสองได้รับ +25%[icon:YIELD_SCIENCE] วิทยาศาสตร์,</Text>		<!-- Make an ally into a Friend of Wei.[n]Accepted: Both Leaders receive +25%[icon:YIELD_SCIENCE] Science. -->
 		</Replace>
@@ -16122,32 +16086,24 @@
 			<Text>เมืองเหมืองแร่</Text>		<!-- Mining Town -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_GRANARY_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร ในฟาร์ม, ทุ่งหญ้า, ไร่ปลูกและเรือประมง</Text>		<!-- +3[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. -->
-		</Replace>
+			<Text>+2[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า ปลูกพืช และเรือประมง</Text>		<!-- +2[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. --></Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_GRANARY_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร ในฟาร์ม, ทุ่งหญ้า, ไร่ปลูกและเรือประมง</Text>		<!-- +3[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. -->
-		</Replace>
+			<Text>+2[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า ปลูกพืช และเรือประมง</Text>		<!-- +2[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. --></Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_FISHING_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า ไร่ และเรือประมง</Text>		<!-- +3[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. -->
-		</Replace>
+			<Text>+2[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้าเลี้ยงสัตว์ ไร่สวน และเรือประมง</Text>		<!-- +2[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. --></Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_FISHING_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า ไร่ และเรือประมง</Text>		<!-- +3[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. -->
-		</Replace>
+			<Text>+2[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้าเลี้ยงสัตว์ ไร่สวน และเรือประมง</Text>		<!-- +2[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. --></Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_PRODUCTION_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต ที่ค่าย คนตัดไม้ หลุมดิน เหมือง และเหมืองหิน</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production on Camps, Woodcutters, Clay Pits, Mines, and Quarries. -->
-		</Replace>
+			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต บน ค่ายคนงาน, โรงตัดไม้, หลุมดิน, เหมืองแร่ และบ่อหิน</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production on Camps, Woodcutters, Clay Pits, Mines, and Quarries. --></Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_PRODUCTION_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต ที่ค่าย คนตัดไม้ หลุมดิน เหมือง และเหมืองหิน</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production on Camps, Woodcutters, Clay Pits, Mines, and Quarries. -->
-		</Replace>
+			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต บน ค่ายคนงาน, โรงตัดไม้, หลุมดิน, เหมืองแร่ และบ่อหิน</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production on Camps, Woodcutters, Clay Pits, Mines, and Quarries. --></Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_TRADE_NAME" Language="th_TH">
 			<Text>สถานีการค้า</Text>		<!-- Trade Outpost -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_TRADE_DESCRIPTION" Language="th_TH">
-			<Text>+2 ความสุข [icon:YIELD_HAPPINESS] ในแต่ละแหล่งทรัพยากรในเมืองนี้และ +5 ระยะการค้า</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness on each Resource tile in this Town and +5 Trade Route range. -->
-		</Replace>
+			<Text>+2[icon:YIELD_HAPPINESS] ความสุข บนแต่ละแหล่งทรัพยากรในเมืองนี้ และระยะการค้าเพิ่มขึ้น 5 หน่วย</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness on each Resource tile in this Town and +5 Trade Route range. --></Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_TRADE_DESCRIPTION" Language="th_TH">
-			<Text>+2 ความสุข [icon:YIELD_HAPPINESS] ในแต่ละแหล่งทรัพยากรในเมืองนี้และ +5 ระยะการค้า</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness on each Resource tile in this Town and +5 Trade Route range. -->
-		</Replace>
+			<Text>+2[icon:YIELD_HAPPINESS] ความสุข บนแต่ละแหล่งทรัพยากรในเมืองนี้ และระยะการค้าเพิ่มขึ้น 5 หน่วย</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness on each Resource tile in this Town and +5 Trade Route range. --></Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_TEMPLE_NAME" Language="th_TH">
 			<Text>สถานที่ทางศาสนา</Text>		<!-- Religious Site -->
 		</Replace>
@@ -16257,8 +16213,7 @@
 			<Text>ลัทธิอัครสาวก</Text>		<!-- Apostolism -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_MANGOS_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร, +3[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +3[icon:YIELD_FOOD] Food, +3[icon:YIELD_CULTURE] Culture -->
-		</Replace>
+			<Text>+3[icon:YIELD_FOOD] อาหาร, +3[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +3[icon:YIELD_FOOD] Food, +3[icon:YIELD_CULTURE] Culture --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_CLAY_TOOLTIP" Language="th_TH">
 			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต ในอาคารคลังสินค้า</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Warehouse Buildings -->
 		</Replace>
@@ -16266,26 +16221,20 @@
 			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์, +2[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +2[icon:YIELD_SCIENCE] Science, +2[icon:YIELD_CULTURE] Culture -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_RUBIES_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_GOLD] ทอง ในเมือง เพิ่มเป็นสองเท่าในบ้านเกิด</Text>		<!-- +1[icon:YIELD_GOLD] Gold in Towns, doubled in Homelands -->
-		</Replace>
+			<Text>+1[icon:YIELD_GOLD] ทอง ในเมือง, เพิ่มเป็นสองเท่าใน ดินแดนบ้านเกิด</Text>		<!-- +1[icon:YIELD_GOLD] Gold in Towns, doubled in Homelands --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_RICE_TOOLTIP" Language="th_TH">
-			<Text>+10%[icon:YIELD_FOOD] อาหาร ในถิ่นฐาน</Text>		<!-- +10%[icon:YIELD_FOOD] Food in Settlements -->
-		</Replace>
+			<Text>+5%[icon:YIELD_FOOD] อาหาร ในถื่นฐาน, +10% ใน ดินแดนห่างไกล</Text>		<!-- +5%[icon:YIELD_FOOD] Food in Settlements, +10% in Distant Lands --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_LIMESTONE_TOOLTIP" Language="th_TH">
-			<Text>+10%[icon:YIELD_PRODUCTION] กำลังผลิต ต่ออาคาร</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards Buildings -->
-		</Replace>
+			<Text>+10%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับอาคาร</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards Buildings --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_TIN_TOOLTIP" Language="th_TH">
-			<Text>+3% อัตราเติบโต</Text>		<!-- +3% Growth Rate -->
-		</Replace>
+			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต, +3[icon:YIELD_GOLD] ทอง</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production, +3[icon:YIELD_GOLD] Gold --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_LLAMAS_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต, +7[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production, +7[icon:YIELD_HAPPINESS] Happiness -->
-		</Replace>
+			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต, +5[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production, +5[icon:YIELD_HAPPINESS] Happiness --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_HARDWOOD_TOOLTIP" Language="th_TH">
 			<Text>+20%[icon:YIELD_PRODUCTION] กำลังผลิต ต่อยูนิตพลเรือน</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards Civilian Units -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_WILD_GAME_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร ในเมืองใหญ่, +6[icon:YIELD_FOOD] อาหาร ในเมือง</Text>		<!-- +3[icon:YIELD_FOOD] Food in Cities, +6[icon:YIELD_FOOD] Food in Towns -->
-		</Replace>
+			<Text>+2[icon:YIELD_FOOD] อาหาร ในเมืองใหญ่, +6[icon:YIELD_FOOD] อาหาร ในเมือง</Text>		<!-- +3[icon:YIELD_FOOD] Food in Cities, +6[icon:YIELD_FOOD] Food in Towns --></Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_13_NAME" Language="th_TH">
 			<Text>อีแวนเจลิสม์</Text>		<!-- Evangelism -->
 		</Replace>
@@ -16500,47 +16449,34 @@
 			<Text>{1_ReligionName} เป็นส่วนใหญ่</Text>		<!-- {1_ReligionName} Majority -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_COTTON_TOOLTIP" Language="th_TH">
-			<Text>+5%[icon::YIELD_PRODUCTION] กำลังผลิต ต่อการฝึก ยูนิตทางบก</Text>		<!-- +5%[icon:YIELD_PRODUCTION] Production towards training Land Units. -->
-		</Replace>
+			<Text>+3[icon:YIELD_FOOD] อาหาร, +3[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +3[icon:YIELD_FOOD] Food, +3[icon:YIELD_PRODUCTION] Production --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_DATES_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร , +3[icon:YIELD_HAPPINESS] ความสุข </Text>		<!-- +3[icon:YIELD_FOOD] Food, +3[icon:YIELD_HAPPINESS] Happiness -->
-		</Replace>
+			<Text>+3[icon:YIELD_FOOD] อาหาร, +3[icon:YIELD_HAPPINESS] ความสุข </Text>		<!-- +3[icon:YIELD_FOOD] Food, +3[icon:YIELD_HAPPINESS] Happiness --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_DYES_TOOLTIP" Language="th_TH">
-			<Text>+5[icon:YIELD_HAPPINESS] ความสุข </Text>		<!-- +5[icon:YIELD_HAPPINESS] Happiness -->
-		</Replace>
+			<Text>+5[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +5[icon:YIELD_HAPPINESS] Happiness --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_DYES_TOOLTIP" Language="th_TH">
-			<Text>+5[icon:YIELD_HAPPINESS] ความสุข </Text>		<!-- +5[icon:YIELD_HAPPINESS] Happiness -->
-		</Replace>
+			<Text>+5[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +5[icon:YIELD_HAPPINESS] Happiness --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_FISH_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_FOOD] อาหาร ในทุกถิ่นฐานที่มีท่าเรือ, +3[icon:YIELD_FOOD] อาหาร ไปยังทุกถิ่นฐานอื่น</Text>		<!-- +6[icon:YIELD_FOOD] Food in Settlements with a Port, +3[icon:YIELD_FOOD] Food to any other Settlement -->
-		</Replace>
+			<Text>+5[icon:YIELD_FOOD] อาหาร</Text>		<!-- +5[icon:YIELD_FOOD] Food --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_FISH_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_FOOD] อาหาร ในทุกถิ่นฐานที่มีท่าเรือ, +3[icon:YIELD_FOOD] อาหาร ไปยังทุกถิ่นฐานอื่น</Text>		<!-- +6[icon:YIELD_FOOD] Food in Settlements with a Port, +3[icon:YIELD_FOOD] Food to any other Settlement -->
-		</Replace>
+			<Text>+5[icon:YIELD_FOOD] อาหาร</Text>		<!-- +5[icon:YIELD_FOOD] Food --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_GOLD_TOOLTIP" Language="th_TH">
-			<Text>+20% [icon:YIELD_GOLD] ทอง สำหรับการซื้อสิ่งก่อสร้าง</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings -->
-		</Replace>
+			<Text>+20%[icon:YIELD_GOLD] สำหรับการซื้อสิ่งก่อสร้าง</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings. --></Replace>
 		<Replace Tag="LOC_TUTORIAL_QUEST_SELECTION_BODY_NO_ADVISORS" Language="th_TH">
 			<Text>(เส้นทางมรดกถูกปิดใช้งานในขณะนี้ หากคุณเปิดใช้งาน ที่ปรึกษาของคุณจะพร้อมให้บริการเพื่อแนะนำคุณในเส้นทางที่เลือก.)</Text>		<!-- (Legacy Paths are currently disabled. If you enable them, your Advisors will be at your service to guide you on the path of your choice.) -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_GOLD_DISTANT_LANDS_TOOLTIP" Language="th_TH">
-			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้ออาคาร</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings -->
-		</Replace>
+			<Text>สร้าง ขบวนบรรทุกสมบัติ หากได้รับการพัฒนาในแดนไกล</Text>		<!-- Creates Treasure Convoys if improved in the Distant Lands. --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_GYPSUM_TOOLTIP" Language="th_TH">
-			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับเมืองใหญ่ในบ้านเกิด, +6[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับเมืองใหญ่ในพื้นที่ห่างไกล</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production to Homeland Cities; +6[icon:YIELD_PRODUCTION] Production to Distant Land Cities -->
-		</Replace>
+			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต ให้กับเมืองหลวง ในแผ่นดินบ้านเกิด, +4[icon:YIELD_PRODUCTION] กำลังผลิต ให้กับเมืองใหญ่อื่นๆ ในดินแดนห่างไกล</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production to Homeland Cities; +6[icon:YIELD_PRODUCTION] Production to Distant Land Cities --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_INCENSE_TOOLTIP" Language="th_TH">
-			<Text>+100%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับมิชชันนารี และวัด</Text>		<!-- +100%[icon:YIELD_PRODUCTION] Production towards Missionaries and Temples -->
-		</Replace>
+			<Text>+100%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับมิชชันนารี และ วิหาร</Text>		<!-- +100%[icon:YIELD_PRODUCTION] Production towards Missionaries and Temples --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_INCENSE_TOOLTIP" Language="th_TH">
-			<Text>+100%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับมิชชันนารี และวัด</Text>		<!-- +100%[icon:YIELD_PRODUCTION] Production towards Missionaries and Temples -->
-		</Replace>
+			<Text>+100%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับมิชชันนารี และ วิหาร</Text>		<!-- +100%[icon:YIELD_PRODUCTION] Production towards Missionaries and Temples --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_IVORY_TOOLTIP" Language="th_TH">
-			<Text>+4[icon:YIELD_HAPPINESS] ความสุข , +4[icon:YIELD_PRODUCTION] กำลังผลิต </Text>		<!-- +4[icon:YIELD_HAPPINESS] Happiness, +4[icon:YIELD_PRODUCTION] Production -->
-		</Replace>
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข, +3[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness, +3[icon:YIELD_PRODUCTION] Production --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_IVORY_TOOLTIP" Language="th_TH">
-			<Text>+4[icon:YIELD_HAPPINESS] ความสุข , +4[icon:YIELD_PRODUCTION] กำลังผลิต </Text>		<!-- +4[icon:YIELD_HAPPINESS] Happiness, +4[icon:YIELD_PRODUCTION] Production -->
-		</Replace>
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข, +3[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness, +3[icon:YIELD_PRODUCTION] Production --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_JADE_TOOLTIP" Language="th_TH">
 			<Text>+15%[icon:YIELD_GOLD] ทอง</Text>		<!-- +15%[icon:YIELD_GOLD] Gold -->
 		</Replace>
@@ -16548,20 +16484,16 @@
 			<Text>+15%[icon:YIELD_GOLD] ทอง</Text>		<!-- +15%[icon:YIELD_GOLD] Gold -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_KAOLIN_TOOLTIP" Language="th_TH">
-			<Text>+3%[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +3%[icon:YIELD_CULTURE] Culture. -->
-		</Replace>
+			<Text>+3[icon:YIELD_FOOD] อาหาร ไปยังเมืองใหญ่ ในบ้านเกิด, +4[icon:YIELD_FOOD] อาหาร ให้กับเมืองใหญ่อื่นๆ ในดินแดนห่างไกล</Text>		<!-- +3[icon:YIELD_FOOD] Food to Homeland Cities; +6[icon:YIELD_FOOD] Food to Distant Land Cities --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_MARBLE_TOOLTIP" Language="th_TH">
-			<Text>+10% [icon:YIELD_PRODUCTION] กำลังผลิต สู่สิ่งมหัศจรรย์ที่วางบนพื้นที่ทุ่งหญ้า ทุ่งทุนดรา และทะเล</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders -->
-		</Replace>
+			<Text>+10%[icon:YIELD_PRODUCTION] กำลังผลิต ไปยังสิ่งมหัศจรรย์</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_MARBLE_TOOLTIP" Language="th_TH">
-			<Text>+10% [icon:YIELD_PRODUCTION] กำลังผลิต สู่สิ่งมหัศจรรย์ที่วางบนพื้นที่ทุ่งหญ้า ทุ่งทุนดรา และทะเล</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders -->
-		</Replace>
+			<Text>+10%[icon:YIELD_PRODUCTION] กำลังผลิต ไปยังสิ่งมหัศจรรย์</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders --></Replace>
 		<Replace Tag="LOC_MOD_EXPLORATION_SPAWN_TREASURE_FLEETS_DUMMY_DESCRIPTION" Language="th_TH">
 			<Text>ปลดล็อกการสร้าง กองเรือสมบัติ ในถิ่นฐานชายฝั่งในดินแดนห่างไกล</Text>		<!-- Unlocks Treasure Fleet spawning in Coastal Settlements in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_PEARLS_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง, +3[icon:YIELD_HAPPINESS] ความสุข ให้กับทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_HAPPINESS] Happiness in Capital. +3[icon:YIELD_HAPPINESS] Happiness to any other City. -->
-		</Replace>
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข ไปยังเมืองใหญ่ ในบ้านเกิด, +4[icon:YIELD_HAPPINESS] ความสุข ให้กับเมืองใหญ่อื่นๆ ในดินแดนห่างไกล</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness to Homeland Cities; +6[icon:YIELD_HAPPINESS] Happiness to Distant Land Cities --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILK_TOOLTIP" Language="th_TH">
 			<Text>+6[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง, +3[icon:YIELD_HAPPINESS] ความสุข ให้กับทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_CULTURE] Culture in Capital. +3[icon:YIELD_CULTURE] Culture to any other City. -->
 		</Replace>
@@ -16569,20 +16501,15 @@
 			<Text>+6[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง, +3[icon:YIELD_HAPPINESS] ความสุข ให้กับทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_CULTURE] Culture in Capital. +3[icon:YIELD_CULTURE] Culture to any other City. -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILVER_TOOLTIP" Language="th_TH">
-			<Text>+20% [icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Units -->
-		</Replace>
+			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้อและอัพเกรดยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing and upgrading Units. --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILVER_TOOLTIP" Language="th_TH">
-			<Text>+20% [icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Units -->
-		</Replace>
+			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้อและอัพเกรดยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing and upgrading Units. --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILVER_DISTANT_LANDS_TOOLTIP" Language="th_TH">
-			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Units -->
-		</Replace>
+			<Text>สร้าง ขบวนบรรทุกสมบัติ หากได้รับการพัฒนาในแดนไกล</Text>		<!-- Creates Treasure Convoys if improved in the Distant Lands. --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_WINE_TOOLTIP" Language="th_TH">
-			<Text>+4[icon:YIELD_FOOD] อาหาร, +4[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +4[icon:YIELD_FOOD] Food, +4[icon:YIELD_PRODUCTION] Production -->
-		</Replace>
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +10%[icon:YIELD_CULTURE] วัฒนธรรม เมื่ออยู่ในงานเฉลิมฉลอง</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness in the Capital and +10%[icon:YIELD_CULTURE] Culture when in a Celebration --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_WINE_TOOLTIP" Language="th_TH">
-			<Text>+4[icon:YIELD_FOOD] อาหาร, +4[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +4[icon:YIELD_FOOD] Food, +4[icon:YIELD_PRODUCTION] Production -->
-		</Replace>
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +10%[icon:YIELD_CULTURE] วัฒนธรรม เมื่ออยู่ในงานเฉลิมฉลอง</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness in the Capital and +10%[icon:YIELD_CULTURE] Culture when in a Celebration --></Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_CAMELS_TOOLTIP" Language="th_TH">
 			<Text>เมื่อถูกจัดสรรให้กับเมืองใหญ่, เพิ่มจำนวน ทรัพยากร ที่สามารถจัดสรรให้กับ เมืองได้อีก 2 หน่วย</Text>		<!-- While slotted in a City, allows another 2 additional Resources to be assigned to that City -->
 		</Replace>
@@ -16593,41 +16520,30 @@
 			<Text>ยูนิตทหารราบ ได้รับ +1 พลังต่อสู้ (สูงสุด +6)</Text>		<!-- Infantry Units gain +1 Combat Strength (Max +6) -->
 		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_COCOA_TOOLTIP" Language="th_TH">
-			<Text>+3%[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +3%[icon:YIELD_HAPPINESS] Happiness. -->
-		</Replace>
+			<Text>+1[icon:YIELD_HAPPINESS] ความสุข ในเมือง, เพิ่มขึ้นเป็นสองเท่า ในดินแดนบ้านเกิด</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness in Towns, doubled in Homelands. --></Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_FURS_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_HAPPINESS] ความสุข ในเมืองที่มีสถานีรางรถไฟ, +3[icon:YIELD_HAPPINESS] ความสุข ไปยังทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_HAPPINESS] Happiness in a City with a Rail Station. +3[icon:YIELD_HAPPINESS] Happiness to any other City. -->
-		</Replace>
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +10%[icon:YIELD_GOLD] ทอง เมื่ออยู่ในงานเฉลิมฉลอง</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness in the Capital and +10%[icon:YIELD_GOLD] Gold when in a Celebration. --></Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_FURS_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_HAPPINESS] ความสุข ในเมืองที่มีสถานีรางรถไฟ, +3[icon:YIELD_HAPPINESS] ความสุข ไปยังทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_HAPPINESS] Happiness in a City with a Rail Station. +3[icon:YIELD_HAPPINESS] Happiness to any other City. -->
-		</Replace>
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +10%[icon:YIELD_GOLD] ทอง เมื่ออยู่ในงานเฉลิมฉลอง</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness in the Capital and +10%[icon:YIELD_GOLD] Gold when in a Celebration. --></Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_SPICES_TOOLTIP" Language="th_TH">
-			<Text>+4[icon:YIELD_FOOD] อาหาร, +4[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +4[icon:YIELD_FOOD] Food, +4[icon:YIELD_HAPPINESS] Happiness -->
-		</Replace>
+			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_DIPLOMACY] อิทธิพล ในเมืองใหญ่, เพิ่มขึ้นเป็นสองเท่าใน ดินแดนบ้านเกิด</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and [icon:YIELD_DIPLOMACY] Influence in Cities, doubled in Homelands. --></Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_SUGAR_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_FOOD] อาหาร</Text>		<!-- +6[icon:YIELD_FOOD] Food -->
-		</Replace>
+			<Text>+1[icon:YIELD_FOOD] อาหาร และ [icon:YIELD_HAPPINESS] ความสุข ในเมืองใหญ่, เพิ่มขึ้นเป็นสองเท่าใน ดินแดนบ้านเกิด</Text>		<!-- +1[icon:YIELD_FOOD] Food and [icon:YIELD_HAPPINESS] Happiness in Cities, doubled in Homelands. --></Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_TEA_TOOLTIP" Language="th_TH">
-			<Text>+3%[icon:YIELD_SCIENCE] วิทยาศาสตร์</Text>		<!-- +3%[icon:YIELD_SCIENCE] Science. -->
-		</Replace>
+			<Text> 	
++1[icon:YIELD_SCIENCE] วิทยาศาสตร์ และ [icon:YIELD_PRODUCTION] กำลังผลิต ในเมืองใหญ่, เพิ่มขึ้นเป็นสองเท่าใน ดินแดนบ้านเกิด</Text>		<!-- +1[icon:YIELD_SCIENCE] Science and [icon:YIELD_PRODUCTION] Production in Cities, doubled in Homelands. --></Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_TRUFFLES_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_FOOD] อาหาร ในเมืองที่มีสถานีรางรถไฟ, +3[icon:YIELD_FOOD] อาหาร ไปยังทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_FOOD] Food in a City with a Rail Station. +3[icon:YIELD_FOOD] Food to any other City. -->
-		</Replace>
+			<Text>+20%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการฝึกยูนิต</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards training Units --></Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_TRUFFLES_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_FOOD] อาหาร ในเมืองที่มีสถานีรางรถไฟ, +3[icon:YIELD_FOOD] อาหาร ไปยังทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_FOOD] Food in a City with a Rail Station. +3[icon:YIELD_FOOD] Food to any other City. -->
-		</Replace>
+			<Text>+20%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการฝึกยูนิต</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards training Units --></Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_NITER_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตระยะไกล และยูนิตทางน้ำได้รับ +1 พลังต่อสู้ (สูงสุด +6)</Text>		<!-- Ranged and Siege Units gain +1 Combat Strength (Max +6) -->
-		</Replace>
+			<Text>ยูนิตปิดล้อมและทางน้ำ ได้รับ +1 พลังต่อสู้ (สูงสุด +6)</Text>		<!-- Siege and Naval Units gain +1 Combat Strength (Max +6) --></Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_WHALES_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_PRODUCTION] กำลังผลิต </Text>		<!-- +6[icon:YIELD_PRODUCTION] Production -->
-		</Replace>
+			<Text>+5[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +5[icon:YIELD_PRODUCTION] Production --></Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_WHALES_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_PRODUCTION] กำลังผลิต </Text>		<!-- +6[icon:YIELD_PRODUCTION] Production -->
-		</Replace>
+			<Text>+5[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +5[icon:YIELD_PRODUCTION] Production --></Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_CLOVES_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_FOOD] อาหาร, +10%[icon:YIELD_GOLD] ทอง</Text>		<!-- +6[icon:YIELD_FOOD] Food, +10%[icon:YIELD_GOLD] Gold -->
-		</Replace>
+			<Text>+6[icon:YIELD_FOOD] อาหาร, +10%[icon:YIELD_GOLD] ทอง</Text>		<!-- +6[icon:YIELD_FOOD] Food, +10%[icon:YIELD_GOLD] Gold --></Replace>
 		<Replace Tag="LOC_TREE_TECHS_EX_NAME" Language="th_TH">
 			<Text>เทคโนโลยีการสำรวจ</Text>		<!-- Exploration Technology -->
 		</Replace>
@@ -16902,8 +16818,7 @@
 			<Text>+1 คะแนน คุณลักษณะไวลด์การ์ด</Text>		<!-- +1 Wildcard Attribute Point. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_FUTURE_TECH_BOOST_DESCRIPTION" Language="th_TH">
-			<Text>ส่งเสริมการพัฒนา สำหรับการเริ่มต้นเทคโนโลยีในยุคถัดไป</Text>		<!-- A boost for a starting Technology in the next Age. -->
-		</Replace>
+			<Text>ส่งเสริมการพัฒนา สำหรับการเริ่มต้น เทคโนโลยีในยุคถัดไป</Text>		<!-- A boost for a starting Technology in the next Age. --></Replace>
 		<Replace Tag="LOC_MOD_FUTURE_TECH_AGE_PROGRESS_DESCRIPTION" Language="th_TH">
 			<Text>+10 แต้ม ความก้าวหน้าของยุค</Text>		<!-- +10 Age Progress. -->
 		</Replace>
