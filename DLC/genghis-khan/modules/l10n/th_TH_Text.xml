@@ -1,1183 +1,793 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_GENGHIS_KHAN_1_NAME" Language="th_TH">
-			<Text>Genghis Khan Exploration Legend Expansionist</Text>		<!-- Genghis Khan Exploration Legend Expansionist -->
-		</Replace>
+			<Text>ตำนานขยายอาณาจักรยุคสำรวจของเจงกิสข่าน</Text>		<!-- Genghis Khan Exploration Legend Expansionist --></Replace>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_GENGHIS_KHAN_1_DESCRIPTION" Language="th_TH">
-			<Text>For this Age, gain +15% Food[icon:YIELD_FOOD] at the cost of -10% Gold[icon:YIELD_GOLD]</Text>		<!-- For this Age, gain +15% Food[icon:YIELD_FOOD] at the cost of -10% Gold[icon:YIELD_GOLD] -->
-		</Replace>
+			<Text>ในยุคนี้ ได้รับ +15% อาหาร[icon:YIELD_FOOD] โดยแลกกับ -10% ทอง[icon:YIELD_GOLD]</Text>		<!-- For this Age, gain +15% Food[icon:YIELD_FOOD] at the cost of -10% Gold[icon:YIELD_GOLD] --></Replace>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_GENGHIS_KHAN_2_NAME" Language="th_TH">
-			<Text>Genghis Khan Exploration Legend Militaristic</Text>		<!-- Genghis Khan Exploration Legend Militaristic -->
-		</Replace>
+			<Text>ตำนานทหารยุคสำรวจของเจงกิสข่าน</Text>		<!-- Genghis Khan Exploration Legend Militaristic --></Replace>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_GENGHIS_KHAN_2_DESCRIPTION" Language="th_TH">
-			<Text>For this Age, +3 Combat Strength for your Naval Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Naval Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
-		</Replace>
+			<Text>ในยุคนี้ +3 พลังต่อสู้ สำหรับยูนิตทางน้ำ โดยแลกกับ -10% อิทธิพล[icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Naval Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] --></Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_GENGHIS_KHAN_1_NAME" Language="th_TH">
-			<Text>Genghis Khan Modern Legend Expansionist</Text>		<!-- Genghis Khan Modern Legend Expansionist -->
-		</Replace>
+			<Text>ตำนานขยายอาณาจักรยุคสมัยใหม่ของเจงกิสข่าน</Text>		<!-- Genghis Khan Modern Legend Expansionist --></Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_GENGHIS_KHAN_1_DESCRIPTION" Language="th_TH">
-			<Text>For this Age, gain +15% Food[icon:YIELD_FOOD] at the cost of -10% Gold[icon:YIELD_GOLD]</Text>		<!-- For this Age, gain +15% Food[icon:YIELD_FOOD] at the cost of -10% Gold[icon:YIELD_GOLD] -->
-		</Replace>
+			<Text>ในยุคนี้ ได้รับ +15% อาหาร[icon:YIELD_FOOD] โดยแลกกับ -10% ทอง[icon:YIELD_GOLD]</Text>		<!-- For this Age, gain +15% Food[icon:YIELD_FOOD] at the cost of -10% Gold[icon:YIELD_GOLD] --></Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_GENGHIS_KHAN_2_NAME" Language="th_TH">
-			<Text>Genghis Khan Modern Legend Militaristic</Text>		<!-- Genghis Khan Modern Legend Militaristic -->
-		</Replace>
+			<Text>ตำนานทหารยุคสมัยใหม่ของเจงกิสข่าน</Text>		<!-- Genghis Khan Modern Legend Militaristic --></Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_GENGHIS_KHAN_2_DESCRIPTION" Language="th_TH">
-			<Text>For this Age, +3 Combat Strength for your Air Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Air Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
-		</Replace>
+			<Text>ในยุคนี้ +3 พลังต่อสู้ สำหรับยูนิตทางอากาศ โดยแลกกับ -10% อิทธิพล[icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Air Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] --></Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_GENGHIS_KHAN_L1_DESCRIPTION" Language="th_TH">
-			<Text>Legend Unlock. +50% [icon:YIELD_GOLD]Gold towards converting a Town to a City.</Text>		<!-- Legend Unlock. +50% [icon:YIELD_GOLD]Gold towards converting a Town to a City. -->
-		</Replace>
+			<Text>ปลดล็อกตำนาน +50% [icon:YIELD_GOLD]ทอง สำหรับการเปลี่ยนเมืองเล็กเป็นเมืองใหญ่</Text>		<!-- Legend Unlock. +50% [icon:YIELD_GOLD]Gold towards converting a Town to a City. --></Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_GENGHIS_KHAN_L2_DESCRIPTION" Language="th_TH">
-			<Text>Legend Unlock. +5 Combat Strength for all Units against Districts.</Text>		<!-- Legend Unlock. +5 Combat Strength for all Units against Districts. -->
-		</Replace>
+			<Text>ปลดล็อกตำนาน +5 พลังต่อสู้ สำหรับทุกยูนิตเมื่อโจมตีเขต</Text>		<!-- Legend Unlock. +5 Combat Strength for all Units against Districts. --></Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_GENGHIS_KHAN_L2_COMBAT_PREVIEW" Language="th_TH">
-			<Text>+{1_Value} Legend Militaristic Attribute</Text>		<!-- +{1_Value} Legend Militaristic Attribute -->
-		</Replace>
+			<Text>+{1_Value} คุณสมบัติตำนานทหาร</Text>		<!-- +{1_Value} Legend Militaristic Attribute --></Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GENGHIS_KHAN_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>The Mongols had a long history of invading the lands bordering their native steppes. Their nomadic ways led them to wander vast distances, and their mastery of the art of war inspired terror in all those unfortunate enough to live in their path. But one khan united the tribes like never before, vanquishing a territory so vast that his empire remains one of the largest in history, and wreaking so much devastation that his name is still synonymous with conquest today. </Text>		<!-- The Mongols had a long history of invading the lands bordering their native steppes. Their nomadic ways led them to wander vast distances, and their mastery of the art of war inspired terror in all those unfortunate enough to live in their path. But one khan united the tribes like never before, vanquishing a territory so vast that his empire remains one of the largest in history, and wreaking so much devastation that his name is still synonymous with conquest today. -->
-		</Replace>
+			<Text>ชาวมองโกลมีประวัติศาสตร์อันยาวนานในการรุกรานดินแดนที่อยู่รอบทุ่งหญ้าบ้านเกิดของพวกเขา วิถีชีวิตเร่ร่อนทำให้พวกเขาเดินทางไกล และความเชี่ยวชาญในศิลปะการสงครามสร้างความหวาดกลัวให้แก่ผู้ที่โชคร้ายที่อยู่ในเส้นทางของพวกเขา แต่มีข่านคนหนึ่งที่รวมเผ่าต่าง ๆ ได้อย่างไม่เคยมีมาก่อน พิชิตดินแดนกว้างใหญ่จนจักรวรรดิของเขายังคงเป็นหนึ่งในจักรวรรดิที่ใหญ่ที่สุดในประวัติศาสตร์ และสร้างความเสียหายมากมายจนชื่อของเขายังคงเป็นสัญลักษณ์ของการพิชิตจนถึงทุกวันนี้ </Text>		<!-- The Mongols had a long history of invading the lands bordering their native steppes. Their nomadic ways led them to wander vast distances, and their mastery of the art of war inspired terror in all those unfortunate enough to live in their path. But one khan united the tribes like never before, vanquishing a territory so vast that his empire remains one of the largest in history, and wreaking so much devastation that his name is still synonymous with conquest today. --></Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GENGHIS_KHAN_CHAPTER_HISTORY_PARA_2" Language="th_TH">
-			<Text>Genghis Khan needs no real introduction, but despite his fame, there are very few sources that accurately cover his life. The most important, and thorough, is the posthumous Secret History of the Mongols, the oldest written text in Mongolian, which covers Genghis Khan’s life from mythical origins to his death. Beyond that, the Mongols produced a very small body of literature, while a significant number of texts about the Mongols were written by their victims, whose displeasure at their violent incursions casts a biased lens on their accounts.</Text>		<!-- Genghis Khan needs no real introduction, but despite his fame, there are very few sources that accurately cover his life. The most important, and thorough, is the posthumous Secret History of the Mongols, the oldest written text in Mongolian, which covers Genghis Khan’s life from mythical origins to his death. Beyond that, the Mongols produced a very small body of literature, while a significant number of texts about the Mongols were written by their victims, whose displeasure at their violent incursions casts a biased lens on their accounts. -->
-		</Replace>
+			<Text>เจงกิสข่านแทบไม่ต้องการการแนะนำตัว แต่แม้จะมีชื่อเสียง ก็มีแหล่งข้อมูลเพียงไม่กี่แห่งที่บันทึกชีวิตของเขาอย่างถูกต้อง ที่สำคัญที่สุดคือประวัติศาสตร์ลับของชาวมองโกล ซึ่งเป็นข้อความที่เขียนเป็นภาษามองโกเลียที่เก่าแก่ที่สุด ครอบคลุมชีวิตของเจงกิสข่านตั้งแต่ต้นกำเนิดในตำนานจนถึงการเสียชีวิต นอกเหนือจากนั้น ชาวมองโกลผลิตวรรณกรรมเพียงเล็กน้อย ขณะที่ข้อความจำนวนมากเกี่ยวกับชาวมองโกลถูกเขียนโดยเหยื่อของพวกเขา ซึ่งความไม่พอใจต่อการรุกรานอย่างรุนแรงของชาวมองโกลทำให้เกิดมุมมองที่มีอคติในบันทึกเหล่านั้น</Text>		<!-- Genghis Khan needs no real introduction, but despite his fame, there are very few sources that accurately cover his life. The most important, and thorough, is the posthumous Secret History of the Mongols, the oldest written text in Mongolian, which covers Genghis Khan’s life from mythical origins to his death. Beyond that, the Mongols produced a very small body of literature, while a significant number of texts about the Mongols were written by their victims, whose displeasure at their violent incursions casts a biased lens on their accounts. --></Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GENGHIS_KHAN_CHAPTER_HISTORY_PARA_3" Language="th_TH">
-			<Text>What we do know about Genghis Khan: He was born Temüjin in 1155…or 1162…or 1167. He was the son of a chieftain, Yesügei. Later legends attest that Temüjin’s birth heralded his future greatness, because he emerged holding a blood clot in his hand. However, his childhood was not easy. When he was nine, his father was poisoned by the Tartars, after which his clan quickly dispersed, leaving behind Temüjin, his siblings, and his widowed mother Höelün.</Text>		<!-- What we do know about Genghis Khan: He was born Temüjin in 1155…or 1162…or 1167. He was the son of a chieftain, Yesügei. Later legends attest that Temüjin’s birth heralded his future greatness, because he emerged holding a blood clot in his hand. However, his childhood was not easy. When he was nine, his father was poisoned by the Tartars, after which his clan quickly dispersed, leaving behind Temüjin, his siblings, and his widowed mother Höelün. -->
-		</Replace>
+			<Text>สิ่งที่เรารู้เกี่ยวกับเจงกิสข่าน: เขาเกิดชื่อเทมูจินในปี 1155...หรือ 1162...หรือ 1167 เขาเป็นบุตรชายของหัวหน้าเผ่าเยซูเก เขาเกิดมาพร้อมกับก้อนเลือดในมือซึ่งเป็นสัญญาณแห่งความยิ่งใหญ่ในอนาคตตามตำนาน แต่ชีวิตในวัยเด็กของเขาไม่ง่ายเลย เมื่ออายุ 9 ขวบ พ่อของเขาถูกวางยาพิษโดยชาวทาร์ตาร์ หลังจากนั้นเผ่าของเขาก็แตกสลาย เหลือเพียงเทมูจิน พี่น้อง และแม่ม่ายชื่อโฮเอลุน</Text>		<!-- What we do know about Genghis Khan: He was born Temüjin in 1155…or 1162…or 1167. He was the son of a chieftain, Yesügei. Later legends attest that Temüjin’s birth heralded his future greatness, because he emerged holding a blood clot in his hand. However, his childhood was not easy. When he was nine, his father was poisoned by the Tartars, after which his clan quickly dispersed, leaving behind Temüjin, his siblings, and his widowed mother Höelün. --></Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GENGHIS_KHAN_CHAPTER_HISTORY_PARA_4" Language="th_TH">
-			<Text>Several apocryphal stories tell of early demonstrations of young Temüjin’s natural authority and charisma, but his story really picks up when he formed an alliance with a khan of another tribe, Toghril, who gave him an army of 20,000 warriors with which to reclaim his tribe. Temüjin began to eliminate his rivals one clan at a time, wiping out the nobility and incorporating the remaining people into his own tribe. Eventually he grew so powerful that he felt confident confronting the Tartars who had killed his father. Upon achieving victory, he killed anyone who was taller than the axle of a cart, and took the rest with him.</Text>		<!-- Several apocryphal stories tell of early demonstrations of young Temüjin’s natural authority and charisma, but his story really picks up when he formed an alliance with a khan of another tribe, Toghril, who gave him an army of 20,000 warriors with which to reclaim his tribe. Temüjin began to eliminate his rivals one clan at a time, wiping out the nobility and incorporating the remaining people into his own tribe. Eventually he grew so powerful that he felt confident confronting the Tartars who had killed his father. Upon achieving victory, he killed anyone who was taller than the axle of a cart, and took the rest with him. -->
-		</Replace>
+			<Text>มีเรื่องเล่าในตำนานหลายเรื่องเกี่ยวกับอำนาจและเสน่ห์โดยธรรมชาติของเทมูจินตั้งแต่ยังเด็ก แต่เรื่องราวของเขาเริ่มต้นจริง ๆ เมื่อเขาสร้างพันธมิตรกับข่านของเผ่าอื่นชื่อโทกริล ซึ่งมอบกองทัพ 20,000 คนให้เขาเพื่อทวงคืนเผ่าของตน เทมูจินเริ่มกำจัดคู่แข่งทีละเผ่า ฆ่าชนชั้นสูงและรวมประชากรที่เหลือเข้าเป็นเผ่าของตนเอง ในที่สุดเขาก็แข็งแกร่งพอที่จะเผชิญหน้ากับชาวทาร์ตาร์ที่ฆ่าพ่อของเขา เมื่อชนะ เขาฆ่าทุกคนที่สูงกว่าล้อเกวียน และพาคนที่เหลือไปด้วย</Text>		<!-- Several apocryphal stories tell of early demonstrations of young Temüjin’s natural authority and charisma, but his story really picks up when he formed an alliance with a khan of another tribe, Toghril, who gave him an army of 20,000 warriors with which to reclaim his tribe. Temüjin began to eliminate his rivals one clan at a time, wiping out the nobility and incorporating the remaining people into his own tribe. Eventually he grew so powerful that he felt confident confronting the Tartars who had killed his father. Upon achieving victory, he killed anyone who was taller than the axle of a cart, and took the rest with him. --></Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GENGHIS_KHAN_CHAPTER_HISTORY_PARA_5" Language="th_TH">
-			<Text>These initial successes on the steppes developed Temüjin’s method of conquest on two fronts. First, he never left an enemy behind – complete annihilation of the leadership was the only way to guarantee that they wouldn’t come back to seek revenge. Second, the incorporation of the defeated tribes’ populations not only boosted his own ranks, but also broke down allegiances and cultural barriers by uniting the people under a single banner. Specifically, his own.</Text>		<!-- These initial successes on the steppes developed Temüjin’s method of conquest on two fronts. First, he never left an enemy behind – complete annihilation of the leadership was the only way to guarantee that they wouldn’t come back to seek revenge. Second, the incorporation of the defeated tribes’ populations not only boosted his own ranks, but also broke down allegiances and cultural barriers by uniting the people under a single banner. Specifically, his own. -->
-		</Replace>
+			<Text>ความสำเร็จแรก ๆ บนทุ่งหญ้าสเตปป์ทำให้เทมูจินพัฒนาวิธีการพิชิตในสองด้าน ด้านแรกคือเขาไม่เคยปล่อยศัตรูไว้เบื้องหลัง การทำลายผู้นำอย่างสิ้นซากเป็นวิธีเดียวที่จะรับประกันว่าพวกเขาจะไม่กลับมาแก้แค้น ด้านที่สองคือการรวมประชากรของเผ่าที่พ่ายแพ้เข้าเป็นกองทัพของตนเอง ซึ่งไม่เพียงเพิ่มจำนวนทหาร แต่ยังทำลายความจงรักภักดีและอุปสรรคทางวัฒนธรรมโดยรวมผู้คนไว้ใต้ธงเดียวกัน โดยเฉพาะธงของเขาเอง</Text>		<!-- These initial successes on the steppes developed Temüjin’s method of conquest on two fronts. First, he never left an enemy behind – complete annihilation of the leadership was the only way to guarantee that they wouldn’t come back to seek revenge. Second, the incorporation of the defeated tribes’ populations not only boosted his own ranks, but also broke down allegiances and cultural barriers by uniting the people under a single banner. Specifically, his own. --></Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GENGHIS_KHAN_CHAPTER_HISTORY_PARA_6" Language="th_TH">
-			<Text>But despite this meteoric rise to power, trouble was never far away. A rift appeared between Temüjin and his longtime ally and childhood friend Jamuka, a rivalry that is in some ways exaggerated by the Secret History and other sources. But the competition between them was ultimately fierce and divided the Mongols, who allied themselves with whichever leader they viewed as stronger. Even Temüjin’s first ally, Toghril, ultimately chose to back Jamuka. This choice would prove his downfall – Temüjin crushed Toghril and, as with all his other opponents, executed the elite and absorbed the populace. Others tried and failed to stop his momentum, but none prevailed.</Text>		<!-- But despite this meteoric rise to power, trouble was never far away. A rift appeared between Temüjin and his longtime ally and childhood friend Jamuka, a rivalry that is in some ways exaggerated by the Secret History and other sources. But the competition between them was ultimately fierce and divided the Mongols, who allied themselves with whichever leader they viewed as stronger. Even Temüjin’s first ally, Toghril, ultimately chose to back Jamuka. This choice would prove his downfall – Temüjin crushed Toghril and, as with all his other opponents, executed the elite and absorbed the populace. Others tried and failed to stop his momentum, but none prevailed. -->
-		</Replace>
+			<Text>แต่แม้จะขึ้นสู่อำนาจอย่างรวดเร็ว ปัญหาก็ไม่เคยห่างไกล เกิดรอยร้าวระหว่างเทมูจินกับจามูกา เพื่อนสนิทในวัยเด็กและพันธมิตรเก่า ซึ่งการแข่งขันระหว่างทั้งสองถูกกล่าวขานเกินจริงในประวัติศาสตร์ลับและแหล่งข้อมูลอื่น ๆ แต่การแข่งขันนี้รุนแรงและแบ่งชาวมองโกลออกเป็นสองฝ่าย โดยแต่ละฝ่ายเลือกผู้นำที่ตนเห็นว่าแข็งแกร่งกว่า แม้แต่โทกริล พันธมิตรคนแรกของเทมูจิน ก็เลือกอยู่ฝ่ายจามูกา ซึ่งนำไปสู่จุดจบของเขา เทมูจินบดขยี้โทกริลและเช่นเดียวกับศัตรูคนอื่น ๆ ฆ่าชนชั้นสูงและรวมประชากรเข้าเป็นของตนเอง คนอื่น ๆ ก็พยายามหยุดเขาแต่ไม่มีใครสำเร็จ</Text>		<!-- But despite this meteoric rise to power, trouble was never far away. A rift appeared between Temüjin and his longtime ally and childhood friend Jamuka, a rivalry that is in some ways exaggerated by the Secret History and other sources. But the competition between them was ultimately fierce and divided the Mongols, who allied themselves with whichever leader they viewed as stronger. Even Temüjin’s first ally, Toghril, ultimately chose to back Jamuka. This choice would prove his downfall – Temüjin crushed Toghril and, as with all his other opponents, executed the elite and absorbed the populace. Others tried and failed to stop his momentum, but none prevailed. --></Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GENGHIS_KHAN_CHAPTER_HISTORY_PARA_7" Language="th_TH">
-			<Text>Several bloody years later, Jamuka was captured and executed, and in 1206, with no one left to challenge his authority, Temüjin was declared ruler of the steppes and took the title of Genghis Khan. The name has proven difficult to translate – a common interpretation posits its meaning as something like “Universal Ruler.” Genghis Khan’s first move was to reorganize his massive following. This involved replacing existing tribal leadership with a network of his own family members and trusted close associates to consolidate his authority across the population.</Text>		<!-- Several bloody years later, Jamuka was captured and executed, and in 1206, with no one left to challenge his authority, Temüjin was declared ruler of the steppes and took the title of Genghis Khan. The name has proven difficult to translate – a common interpretation posits its meaning as something like “Universal Ruler.” Genghis Khan’s first move was to reorganize his massive following. This involved replacing existing tribal leadership with a network of his own family members and trusted close associates to consolidate his authority across the population. -->
-		</Replace>
+			<Text>หลายปีแห่งการนองเลือดต่อมา จามูกาถูกจับและประหารชีวิต และในปี 1206 เมื่อไม่มีใครเหลือให้ท้าทายอำนาจของเขา เทมูจินได้รับการประกาศให้เป็นผู้ปกครองทุ่งหญ้าและรับตำแหน่งเจงกิสข่าน ชื่อนี้แปลได้ยาก โดยทั่วไปหมายถึง “ผู้ปกครองสากล” ก้าวแรกของเจงกิสข่านคือการจัดระเบียบผู้ติดตามจำนวนมหาศาลใหม่ โดยแทนที่ผู้นำเผ่าเดิมด้วยเครือข่ายสมาชิกครอบครัวและผู้ไว้วางใจ เพื่อรวมอำนาจของเขาเหนือประชากรทั้งหมด</Text>		<!-- Several bloody years later, Jamuka was captured and executed, and in 1206, with no one left to challenge his authority, Temüjin was declared ruler of the steppes and took the title of Genghis Khan. The name has proven difficult to translate – a common interpretation posits its meaning as something like “Universal Ruler.” Genghis Khan’s first move was to reorganize his massive following. This involved replacing existing tribal leadership with a network of his own family members and trusted close associates to consolidate his authority across the population. --></Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GENGHIS_KHAN_CHAPTER_HISTORY_PARA_8" Language="th_TH">
-			<Text>He also gave particular focus to the organization of the army, which was divided according to the decimal system (units of 10, 100, 1,000, and 10,000 soldiers) led by his sons and most trusted allies. His earlier forces consisted entirely of fast-moving cavalry, effective against other nomadic steppe tribes. But Genghis Khan had bigger visions for the future. He had come to understand the value of settlements and the benefits therein – the wealth and power that could be cultivated from sedentary populations and their merchants, artisans, and agricultural harvests. To conquer settlements, the Mongol army had to evolve. And it did, very quickly developing siege weapons and mastering tactics effective against even the most well-defended cities.</Text>		<!-- He also gave particular focus to the organization of the army, which was divided according to the decimal system (units of 10, 100, 1,000, and 10,000 soldiers) led by his sons and most trusted allies. His earlier forces consisted entirely of fast-moving cavalry, effective against other nomadic steppe tribes. But Genghis Khan had bigger visions for the future. He had come to understand the value of settlements and the benefits therein – the wealth and power that could be cultivated from sedentary populations and their merchants, artisans, and agricultural harvests. To conquer settlements, the Mongol army had to evolve. And it did, very quickly developing siege weapons and mastering tactics effective against even the most well-defended cities. -->
-		</Replace>
+			<Text>เขายังให้ความสำคัญกับการจัดระเบียบกองทัพ โดยแบ่งตามระบบทศนิยม (หน่วย 10, 100, 1,000 และ 10,000 คน) นำโดยบุตรชายและพันธมิตรที่ไว้วางใจที่สุด กองทัพในยุคแรกประกอบด้วยทหารม้าเคลื่อนที่เร็วทั้งหมด มีประสิทธิภาพในการต่อสู้กับชนเผ่าเร่ร่อนอื่น ๆ บนทุ่งหญ้า แต่เจงกิสข่านมีวิสัยทัศน์ที่ยิ่งใหญ่กว่า เขาเข้าใจถึงคุณค่าของการตั้งถิ่นฐานและประโยชน์ที่ได้รับ — ความมั่งคั่งและอำนาจที่สามารถสร้างขึ้นจากประชากรอยู่กับที่ พ่อค้า ช่างฝีมือ และผลผลิตทางการเกษตร เพื่อพิชิตเมือง กองทัพมองโกลต้องพัฒนา และก็เป็นเช่นนั้น พวกเขาได้พัฒนาอาวุธโจมตีและเชี่ยวชาญกลยุทธ์ที่มีประสิทธิภาพในการโจมตีเมืองที่ป้องกันอย่างแน่นหนาอย่างรวดเร็ว</Text>		<!-- He also gave particular focus to the organization of the army, which was divided according to the decimal system (units of 10, 100, 1,000, and 10,000 soldiers) led by his sons and most trusted allies. His earlier forces consisted entirely of fast-moving cavalry, effective against other nomadic steppe tribes. But Genghis Khan had bigger visions for the future. He had come to understand the value of settlements and the benefits therein – the wealth and power that could be cultivated from sedentary populations and their merchants, artisans, and agricultural harvests. To conquer settlements, the Mongol army had to evolve. And it did, very quickly developing siege weapons and mastering tactics effective against even the most well-defended cities. --></Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GENGHIS_KHAN_CHAPTER_HISTORY_PARA_9" Language="th_TH">
-			<Text>Now that the consolidation of power within the Mongol Empire was complete, it was time to look outward. Genghis Khan’s first target was China, against whom his new military formula was extremely successful, and he overran the northern Jin Empire over the course of four years. Provoked by the massacre of a caravan under his protection, Genghis Khan soon turned his attention west to the Khwarazmian Empire, south of the Aral Sea. This campaign lasted between 1219 and 1221, and gave the Mongols their vicious reputation. Thousands were massacred, while prisoners were forced to serve in the vanguard of the Mongol army in future battles against their own fellow Khwarazms. In addition to plundering the cities they defeated, the Mongol army also destroyed infrastructure, both urban and agricultural, devastating Khwarazm and bringing down a once-mighty empire in just two years.</Text>		<!-- Now that the consolidation of power within the Mongol Empire was complete, it was time to look outward. Genghis Khan’s first target was China, against whom his new military formula was extremely successful, and he overran the northern Jin Empire over the course of four years. Provoked by the massacre of a caravan under his protection, Genghis Khan soon turned his attention west to the Khwarazmian Empire, south of the Aral Sea. This campaign lasted between 1219 and 1221, and gave the Mongols their vicious reputation. Thousands were massacred, while prisoners were forced to serve in the vanguard of the Mongol army in future battles against their own fellow Khwarazms. In addition to plundering the cities they defeated, the Mongol army also destroyed infrastructure, both urban and agricultural, devastating Khwarazm and bringing down a once-mighty empire in just two years. -->
-		</Replace>
+			<Text>เมื่อการรวมอำนาจในจักรวรรดิมองโกลเสร็จสิ้น ก็ถึงเวลามองออกไปภายนอก เป้าหมายแรกของเจงกิสข่านคือจีน ซึ่งสูตรทางทหารใหม่ของเขาประสบความสำเร็จอย่างมาก เขายึดครองอาณาจักรจินทางเหนือได้ภายในสี่ปี ด้วยความโกรธแค้นจากการสังหารขบวนคาราวานที่อยู่ภายใต้การคุ้มครองของเขา เจงกิสข่านจึงหันไปทางตะวันตกสู่จักรวรรดิขวาเรซม ทางใต้ของทะเลอารัล การรณรงค์นี้กินเวลาตั้งแต่ปี 1219 ถึง 1221 และสร้างชื่อเสียงอันโหดเหี้ยมให้กับมองโกล มีผู้ถูกสังหารนับพัน ขณะที่เชลยถูกบังคับให้เป็นแนวหน้าในกองทัพมองโกลในการต่อสู้กับเพื่อนร่วมชาติขวาเรซมของตนเอง นอกจากการปล้นเมืองที่พิชิตได้แล้ว กองทัพมองโกลยังทำลายโครงสร้างพื้นฐานทั้งในเมืองและเกษตรกรรม สร้างความเสียหายให้กับขวาเรซมและโค่นล้มจักรวรรดิที่เคยยิ่งใหญ่ภายในเวลาเพียงสองปี</Text>		<!-- Now that the consolidation of power within the Mongol Empire was complete, it was time to look outward. Genghis Khan’s first target was China, against whom his new military formula was extremely successful, and he overran the northern Jin Empire over the course of four years. Provoked by the massacre of a caravan under his protection, Genghis Khan soon turned his attention west to the Khwarazmian Empire, south of the Aral Sea. This campaign lasted between 1219 and 1221, and gave the Mongols their vicious reputation. Thousands were massacred, while prisoners were forced to serve in the vanguard of the Mongol army in future battles against their own fellow Khwarazms. In addition to plundering the cities they defeated, the Mongol army also destroyed infrastructure, both urban and agricultural, devastating Khwarazm and bringing down a once-mighty empire in just two years. --></Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GENGHIS_KHAN_CHAPTER_HISTORY_PARA_10" Language="th_TH">
-			<Text>After the fall of Khwarazm, Genghis Khan returned to Mongolia and prepared to invade China once more, when the previously conquered Xia began to rebel. As before, his army swept through and quickly crushed all opposing forces. Not long after, in 1227, Genghis Khan succumbed to an illness. The nature of his death is a matter of debate, with theories ranging from consequences of an old injury from falling off his horse to a case of bubonic plague. The location of Genghis Khan’s burial site is unknown, and is one of the great mysteries of history. </Text>		<!-- After the fall of Khwarazm, Genghis Khan returned to Mongolia and prepared to invade China once more, when the previously conquered Xia began to rebel. As before, his army swept through and quickly crushed all opposing forces. Not long after, in 1227, Genghis Khan succumbed to an illness. The nature of his death is a matter of debate, with theories ranging from consequences of an old injury from falling off his horse to a case of bubonic plague. The location of Genghis Khan’s burial site is unknown, and is one of the great mysteries of history. -->
-		</Replace>
+			<Text>หลังจากขวาเรซมล่มสลาย เจงกิสข่านกลับไปมองโกเลียและเตรียมบุกจีนอีกครั้ง เมื่อเซียที่เคยถูกพิชิตเริ่มก่อกบฏอีกครั้ง เช่นเคย กองทัพของเขากวาดล้างและบดขยี้กองกำลังฝ่ายตรงข้ามอย่างรวดเร็ว ไม่นานหลังจากนั้น ในปี 1227 เจงกิสข่านก็เสียชีวิตด้วยโรคภัยไข้เจ็บ สาเหตุการตายยังเป็นที่ถกเถียงกันอยู่ มีทั้งทฤษฎีว่ามาจากอาการบาดเจ็บเก่าจากการตกม้า หรือเป็นโรคกาฬโรค สถานที่ฝังศพของเจงกิสข่านยังคงเป็นปริศนาที่ยิ่งใหญ่ในประวัติศาสตร์</Text>		<!-- After the fall of Khwarazm, Genghis Khan returned to Mongolia and prepared to invade China once more, when the previously conquered Xia began to rebel. As before, his army swept through and quickly crushed all opposing forces. Not long after, in 1227, Genghis Khan succumbed to an illness. The nature of his death is a matter of debate, with theories ranging from consequences of an old injury from falling off his horse to a case of bubonic plague. The location of Genghis Khan’s burial site is unknown, and is one of the great mysteries of history.  --></Replace>
 		<Replace Tag="LOC_GREATWORK_ARTIFACT_SECRET_HISTORY_NAME" Language="th_TH">
-			<Text>The Secret History of the Mongols</Text>		<!-- The Secret History of the Mongols -->
-		</Replace>
+			<Text>ประวัติศาสตร์ลับของชาวมองโกล</Text>		<!-- The Secret History of the Mongols --></Replace>
 		<Replace Tag="LOC_MAIN_CHAR_SELECT_LEADER_GENGHIS_KHAN_ANY" Language="th_TH">
-			<Text>The Eternal Blue Sky commands all. Who dares to listen? </Text>		<!-- The Eternal Blue Sky commands all. Who dares to listen? -->
-		</Replace>
+			<Text>ท้องฟ้าสีน้ำเงินนิรันดร์บัญชาทุกสิ่ง ใครกล้ารับฟัง?</Text>		<!-- The Eternal Blue Sky commands all. Who dares to listen?  --></Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_LEADER_GENGHIS_KHAN_ANY" Language="th_TH">
-			<Text>I am Genghis Khan. Are you friend or foe? For your sake, I hope a peace-seeking friend… </Text>		<!-- I am Genghis Khan. Are you friend or foe? For your sake, I hope a peace-seeking friend… -->
-		</Replace>
+			<Text>ข้าคือเจงกิสข่าน เจ้าเป็นมิตรหรือศัตรู? เพื่อประโยชน์ของเจ้า ขอให้เป็นมิตรที่แสวงหาสันติ… </Text>		<!-- I am Genghis Khan. Are you friend or foe? For your sake, I hope a peace-seeking friend… --></Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_RECIPIENT_LEADER_GENGHIS_KHAN_ANY" Language="th_TH">
-			<Text>I am Genghis Khan. Are you friend or foe? For your sake, I hope a peace-seeking friend… </Text>		<!-- I am Genghis Khan. Are you friend or foe? For your sake, I hope a peace-seeking friend… -->
-		</Replace>
+			<Text>ข้าคือเจงกิสข่าน เจ้าเป็นมิตรหรือศัตรู? เพื่อประโยชน์ของเจ้า ขอให้เป็นมิตรที่แสวงหาสันติ… </Text>		<!-- I am Genghis Khan. Are you friend or foe? For your sake, I hope a peace-seeking friend… --></Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_LEADER_GENGHIS_KHAN_ANY" Language="th_TH">
-			<Text>I am Genghis Khan. Are you friend or foe? For your sake, I hope a peace-seeking friend… </Text>		<!-- I am Genghis Khan. Are you friend or foe? For your sake, I hope a peace-seeking friend… -->
-		</Replace>
+			<Text>ข้าคือเจงกิสข่าน เจ้าเป็นมิตรหรือศัตรู? เพื่อประโยชน์ของเจ้า ขอให้เป็นมิตรที่แสวงหาสันติ… </Text>		<!-- I am Genghis Khan. Are you friend or foe? For your sake, I hope a peace-seeking friend… --></Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_INITIATOR_LEADER_GENGHIS_KHAN_ANY" Language="th_TH">
-			<Text>My enemy, I will not defeat you. I will annihilate your entire bloodline. </Text>		<!-- My enemy, I will not defeat you. I will annihilate your entire bloodline. -->
-		</Replace>
+			<Text>ศัตรูของข้า ข้าจะไม่เพียงแต่พิชิตเจ้า ข้าจะล้างเผ่าพันธุ์ของเจ้าทั้งหมด </Text>		<!-- My enemy, I will not defeat you. I will annihilate your entire bloodline. --></Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_RECIPIENT_LEADER_GENGHIS_KHAN_ANY" Language="th_TH">
-			<Text>Ha! You attack me? You seek your own demise. </Text>		<!-- Ha! You attack me? You seek your own demise. -->
-		</Replace>
+			<Text>ฮ่า! เจ้าโจมตีข้า? เจ้ากำลังหาความพินาศให้ตัวเอง </Text>		<!-- Ha! You attack me? You seek your own demise. --></Replace>
 		<Replace Tag="LOC_DIPLO_DEFEAT_AI_LEADER_GENGHIS_KHAN_ANY" Language="th_TH">
-			<Text>Tengri, have you forsaken me? Has my destiny failed? </Text>		<!-- Tengri, have you forsaken me? Has my destiny failed? -->
-		</Replace>
+			<Text>เทงกรี ท่านทอดทิ้งข้าหรือ? ชะตากรรมของข้าสิ้นสุดแล้วหรือ? </Text>		<!-- Tengri, have you forsaken me? Has my destiny failed? --></Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_DEAL_ACCEPTED_LEADER_GENGHIS_KHAN" Language="th_TH">
-			<Text>Your words hold the wisdom of the divine. </Text>		<!-- Your words hold the wisdom of the divine. -->
-		</Replace>
+			<Text>ถ้อยคำของเจ้ามีปัญญาแห่งเทพเจ้า </Text>		<!-- Your words hold the wisdom of the divine. --></Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_DEAL_REJECTED_LEADER_GENGHIS_KHAN" Language="th_TH">
-			<Text>Your vision hinders my own. </Text>		<!-- Your vision hinders my own. -->
-		</Replace>
+			<Text>วิสัยทัศน์ของเจ้าขัดขวางวิสัยทัศน์ของข้า </Text>		<!-- Your vision hinders my own. --></Replace>
 		<Replace Tag="LOC_LEADER_GENGHIS_KHAN_NAME" Language="th_TH">
-			<Text>Genghis Khan</Text>		<!-- Genghis Khan -->
-		</Replace>
+			<Text>เจงกิสข่าน</Text>		<!-- Genghis Khan --></Replace>
 		<Replace Tag="LOC_LEADER_GENGHIS_KHAN_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:NAR_REW_COMBAT] Combat Strength for Cavalry Units, or +5 when in an Army [icon:COMMANDER_RADIUS] Command Radius. [icon:UNIT_ARMY_COMMANDER]Army Commanders have +1 [icon:Action_Move] Movement even when no Units are packed into them. Once per Age, [icon:UNIT_ARMY_COMMANDER] Army Commanders can use the Convert Independents Action to convert adjacent Independent Military Units to your control.</Text>		<!-- +3 [icon:NAR_REW_COMBAT] Combat Strength for Cavalry Units, or +5 when in an Army [icon:COMMANDER_RADIUS] Command Radius. [icon:UNIT_ARMY_COMMANDER]Army Commanders have +1 [icon:Action_Move] Movement even when no Units are packed into them. Once per Age, [icon:UNIT_ARMY_COMMANDER] Army Commanders can use the Convert Independents Action to convert adjacent Independent Military Units to your control. -->
-		</Replace>
+			<Text>+3 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับยูนิตทหารม้า หรือ +5 เมื่ออยู่ในรัศมีบัญชาการกองทัพ [icon:COMMANDER_RADIUS] ผู้บัญชาการกองทัพ [icon:UNIT_ARMY_COMMANDER] มี +1 [icon:Action_Move] การเคลื่อนที่ แม้ไม่มียูนิตบรรจุอยู่ในกองทัพ ในแต่ละยุค ผู้บัญชาการกองทัพ [icon:UNIT_ARMY_COMMANDER] สามารถใช้คำสั่งเปลี่ยนฝ่ายอิสระเพื่อเปลี่ยนยูนิตทหารอิสระที่อยู่ติดกันให้มาอยู่ภายใต้การควบคุมของคุณได้หนึ่งครั้ง</Text>		<!-- +3 [icon:NAR_REW_COMBAT] Combat Strength for Cavalry Units, or +5 when in an Army [icon:COMMANDER_RADIUS] Command Radius. [icon:UNIT_ARMY_COMMANDER]Army Commanders have +1 [icon:Action_Move] Movement even when no Units are packed into them. Once per Age, [icon:UNIT_ARMY_COMMANDER] Army Commanders can use the Convert Independents Action to convert adjacent Independent Military Units to your control. --></Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_GENGHIS_KHAN_ABILITY_NAME" Language="th_TH">
-			<Text>Chosen of Tengri</Text>		<!-- Chosen of Tengri -->
-		</Replace>
+			<Text>ผู้ถูกเลือกโดยเทงกรี</Text>		<!-- Chosen of Tengri --></Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_GENGHIS_KHAN_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI][B]+3 [icon:NAR_REW_COMBAT] Combat Strength [/B]for [B]Cavalry Units[/B], or [B]+5[/B] when in an [B]Army [icon:COMMANDER_RADIUS] Command Radius[/B].[LI][icon:UNIT_ARMY_COMMANDER] [B]Army Commanders [/B]have [B]+1 [icon:Action_Move] Movement [/B]even when no Units are packed into them.[LI]Once per Age, [icon:UNIT_ARMY_COMMANDER] [B]Army Commanders [/B]can use the [B]Convert Independents Action[/B] to convert adjacent [B]Independent Military Units [/B]to your control.[/LIST]</Text>		<!-- [BLIST][LI][B]+3 [icon:NAR_REW_COMBAT] Combat Strength [/B]for [B]Cavalry Units[/B], or [B]+5[/B] when in an [B]Army [icon:COMMANDER_RADIUS] Command Radius[/B].[LI][icon:UNIT_ARMY_COMMANDER] [B]Army Commanders [/B]have [B]+1 [icon:Action_Move] Movement [/B]even when no Units are packed into them.[LI]Once per Age, [icon:UNIT_ARMY_COMMANDER] [B]Army Commanders [/B]can use the [B]Convert Independents Action[/B] to convert adjacent [B]Independent Military Units [/B]to your control.[/LIST] -->
-		</Replace>
+			<Text>[BLIST][LI][B]+3 [icon:NAR_REW_COMBAT] พลังต่อสู้  [/B]สำหรับ [B]ยูนิตทหารม้า[/B] หรือ [B]+5[/B] เมื่ออยู่ใน [B]รัศมีบัญชาการกองทัพ [icon:COMMANDER_RADIUS][/B][LI][icon:UNIT_ARMY_COMMANDER] [B]ผู้บัญชาการกองทัพ [/B]มี [B]+1 [icon:Action_Move] การเคลื่อนที่ [/B]แม้ไม่มียูนิตบรรจุอยู่ในกองทัพ[LI]ในแต่ละยุค [icon:UNIT_ARMY_COMMANDER] [B]ผู้บัญชาการกองทัพ [/B]สามารถใช้ [B]คำสั่งเปลี่ยนฝ่ายอิสระ[/B] เพื่อเปลี่ยน [B]ยูนิตทหารอิสระที่อยู่ติดกัน [/B]ให้มาอยู่ภายใต้การควบคุมของคุณได้หนึ่งครั้ง[/LIST]</Text>		<!-- [BLIST][LI][B]+3 [icon:NAR_REW_COMBAT] Combat Strength [/B]for [B]Cavalry Units[/B], or [B]+5[/B] when in an [B]Army [icon:COMMANDER_RADIUS] Command Radius[/B].[LI][icon:UNIT_ARMY_COMMANDER] [B]Army Commanders [/B]have [B]+1 [icon:Action_Move] Movement [/B]even when no Units are packed into them.[LI]Once per Age, [icon:UNIT_ARMY_COMMANDER] [B]Army Commanders [/B]can use the [B]Convert Independents Action[/B] to convert adjacent [B]Independent Military Units [/B]to your control.[/LIST] --></Replace>
 		<Replace Tag="LOC_ABILITY_GENGHIS_KHAN_ARMY_COMMANDER_DESCRIPTION" Language="th_TH">
-			<Text>+3 Combat Strength for Cavalry Units, +5 when in Command Radius. Army Commanders have +1 Movement even when no Units are packed into them. Once per Age, Army Commanders can use the Convert Independents Action to convert adjacent Independent Military Units to your control.</Text>		<!-- +3 Combat Strength for Cavalry Units, +5 when in Command Radius. Army Commanders have +1 Movement even when no Units are packed into them. Once per Age, Army Commanders can use the Convert Independents Action to convert adjacent Independent Military Units to your control. -->
-		</Replace>
+			<Text>+3 พลังต่อสู้ สำหรับยูนิตทหารม้า +5 เมื่ออยู่ในรัศมีบัญชาการ ผู้บัญชาการกองทัพมี +1 การเคลื่อนที่ แม้ไม่มียูนิตบรรจุอยู่ในกองทัพ ในแต่ละยุค ผู้บัญชาการกองทัพสามารถใช้คำสั่งเปลี่ยนฝ่ายอิสระเพื่อเปลี่ยนยูนิตทหารอิสระที่อยู่ติดกันให้มาอยู่ภายใต้การควบคุมของคุณได้</Text>		<!-- +3 Combat Strength for Cavalry Units, +5 when in Command Radius. Army Commanders have +1 Movement even when no Units are packed into them. Once per Age, Army Commanders can use the Convert Independents Action to convert adjacent Independent Military Units to your control. --></Replace>
 		<Replace Tag="LOC_ABILITY_GENGHIS_KHAN_COMMAND_RADIUS_COMBAT_DESCRIPTION" Language="th_TH">
-			<Text>+5 Combat Strength to Cavalry Units</Text>		<!-- +5 Combat Strength to Cavalry Units -->
-		</Replace>
+			<Text>+5 พลังต่อสู้ ให้ยูนิตทหารม้า</Text>		<!-- +5 Combat Strength to Cavalry Units --></Replace>
 		<Replace Tag="LOC_GENGHIS_KHAN_COMMAND_RADIUS_COMBAT_PREVIEW" Language="th_TH">
-			<Text>+{1_Amount} from Chosen of Tengri</Text>		<!-- +{1_Amount} from Chosen of Tengri -->
-		</Replace>
+			<Text>+{1_Amount} จากผู้ถูกเลือกโดยเทงกรี</Text>		<!-- +{1_Amount} from Chosen of Tengri --></Replace>
 		<Replace Tag="LOC_ABILITY_GENGHIS_KHAN_NO_COMMAND_RADIUS_COMBAT_DESCRIPTION" Language="th_TH">
-			<Text>+3 Combat Strength for Cavalry Units</Text>		<!-- +3 Combat Strength for Cavalry Units -->
-		</Replace>
+			<Text>+3 พลังต่อสู้ สำหรับยูนิตทหารม้า</Text>		<!-- +3 Combat Strength for Cavalry Units --></Replace>
 		<Replace Tag="LOC_GENGHIS_KHAN_NO_COMMAND_RADIUS_COMBAT_PREVIEW" Language="th_TH">
-			<Text>+{1_Amount} from Chosen of Tengri</Text>		<!-- +{1_Amount} from Chosen of Tengri -->
-		</Replace>
+			<Text>+{1_Amount} จากผู้ถูกเลือกโดยเทงกรี</Text>		<!-- +{1_Amount} from Chosen of Tengri --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_AGENDA_TUMEN_NAME" Language="th_TH">
-			<Text>Tümen</Text>		<!-- Tümen -->
-		</Replace>
+			<Text>ทูเมน</Text>		<!-- Tümen --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_AGENDA_TUMEN_DESC" Language="th_TH">
-			<Text>Likes the Civilization with the smallest number of Cavalry Units. Dislikes the one with the greatest number of Cavalry Units.</Text>		<!-- Likes the Civilization with the smallest number of Cavalry Units. Dislikes the one with the greatest number of Cavalry Units. -->
-		</Replace>
+			<Text>ชอบอารยธรรมที่มีจำนวนยูนิตทหารม้าน้อยที่สุด ไม่ชอบอารยธรรมที่มีจำนวนยูนิตทหารม้ามากที่สุด</Text>		<!-- Likes the Civilization with the smallest number of Cavalry Units. Dislikes the one with the greatest number of Cavalry Units. --></Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_GENGHIS_KHAN" Language="th_TH">
-			<Text>You were born Temujin - but the world knows you as Genghis Khan, the Universal Ruler, the terror of the steppe. At your word, the hordes ride, armies flee, walls crumble, and hopes fail. Take up your bow, Khagan - the world has gone soft. Let it know fear.</Text>		<!-- You were born Temujin - but the world knows you as Genghis Khan, the Universal Ruler, the terror of the steppe. At your word, the hordes ride, armies flee, walls crumble, and hopes fail. Take up your bow, Khagan - the world has gone soft. Let it know fear. -->
-		</Replace>
+			<Text>เจ้าถือกำเนิดในชื่อเทมูจิน - แต่โลกนี้รู้จักเจ้าว่าเจงกิสข่าน ผู้ปกครองสากล ผู้สร้างความหวาดกลัวบนทุ่งหญ้า เพียงคำสั่งของเจ้า กองทัพก็ออกเดินทาง ศัตรูหลบหนี กำแพงพังทลาย และความหวังดับสูญ หยิบคันธนูขึ้นมา ข่าน โลกนี้อ่อนแอเกินไป ให้มันรู้จักความหวาดกลัว</Text>		<!-- You were born Temujin - but the world knows you as Genghis Khan, the Universal Ruler, the terror of the steppe. At your word, the hordes ride, armies flee, walls crumble, and hopes fail. Take up your bow, Khagan - the world has gone soft. Let it know fear. --></Replace>
 		<Replace Tag="LOC_MEMENTO_GENGHIS_KHAN_PAIZA_NAME" Language="th_TH">
-			<Text>Paiza</Text>		<!-- Paiza -->
-		</Replace>
+			<Text>ไปซา</Text>		<!-- Paiza --></Replace>
 		<Replace Tag="LOC_MEMENTO_GENGHIS_KHAN_PAIZA_DESCRIPTION" Language="th_TH">
-			<Text>Tax-free and ready to ride.</Text>		<!-- Tax-free and ready to ride. -->
-		</Replace>
+			<Text>ปลอดภาษีพร้อมออกเดินทาง</Text>		<!-- Tax-free and ready to ride. --></Replace>
 		<Replace Tag="LOC_MEMENTO_GENGHIS_KHAN_PAIZA_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>-1 [icon:YIELD_GOLD]Gold Maintenance on Cavalry Units</Text>		<!-- -1 [icon:YIELD_GOLD]Gold Maintenance on Cavalry Units -->
-		</Replace>
+			<Text>-1 [icon:YIELD_GOLD]ค่าบำรุงรักษาทองสำหรับยูนิตทหารม้า</Text>		<!-- -1 [icon:YIELD_GOLD]Gold Maintenance on Cavalry Units --></Replace>
 		<Replace Tag="LOC_MEMENTO_GENGHIS_KHAN_SADDLE_NAME" Language="th_TH">
-			<Text>Saddle</Text>		<!-- Saddle -->
-		</Replace>
+			<Text>อานม้า</Text>		<!-- Saddle --></Replace>
 		<Replace Tag="LOC_MEMENTO_GENGHIS_KHAN_SADDLE_DESCRIPTION" Language="th_TH">
-			<Text>Union of horse and warrior.</Text>		<!-- Union of horse and warrior. -->
-		</Replace>
+			<Text>สหภาพระหว่างม้ากับนักรบ</Text>		<!-- Union of horse and warrior. --></Replace>
 		<Replace Tag="LOC_MEMENTO_GENGHIS_KHAN_SADDLE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_FOOD]Food per Age per Cavalry Unit Stationed on a Town Center.</Text>		<!-- +1 [icon:YIELD_FOOD]Food per Age per Cavalry Unit Stationed on a Town Center. -->
-		</Replace>
+			<Text>+1 [icon:YIELD_FOOD]อาหารต่อยุคต่อยูนิตทหารม้าที่ประจำการในศูนย์กลางเมือง</Text>		<!-- +1 [icon:YIELD_FOOD]Food per Age per Cavalry Unit Stationed on a Town Center. --></Replace>
 		<Replace Tag="LOC_MEMENTO_GENGHIS_KHAN_SULDE_NAME" Language="th_TH">
-			<Text>Sulde</Text>		<!-- Sulde -->
-		</Replace>
+			<Text>สุลด</Text>		<!-- Sulde --></Replace>
 		<Replace Tag="LOC_MEMENTO_GENGHIS_KHAN_SULDE_DESCRIPTION" Language="th_TH">
-			<Text>Banner of war.</Text>		<!-- Banner of war. -->
-		</Replace>
+			<Text>ธงแห่งสงคราม</Text>		<!-- Banner of war. --></Replace>
 		<Replace Tag="LOC_MEMENTO_GENGHIS_KHAN_SULDE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_CULTURE]Culture per Age for each Commander Promotion</Text>		<!-- +1 [icon:YIELD_CULTURE]Culture per Age for each Commander Promotion -->
-		</Replace>
+			<Text>+1 [icon:YIELD_CULTURE]วัฒนธรรมต่อยุคสำหรับแต่ละการเลื่อนขั้นของผู้บัญชาการ</Text>		<!-- +1 [icon:YIELD_CULTURE]Culture per Age for each Commander Promotion --></Replace>
 		<Replace Tag="LOC_MEMENTO_GENGHIS_KHAN_PAIZA_UNLOCK_TITLE" Language="th_TH">
-			<Text>Unlock at Genghis Khan level 2</Text>		<!-- Unlock at Genghis Khan level 2 -->
-		</Replace>
+			<Text>ปลดล็อกที่เจงกิสข่าน ระดับ 2</Text>		<!-- Unlock at Genghis Khan level 2 --></Replace>
 		<Replace Tag="LOC_MEMENTO_GENGHIS_KHAN_SADDLE_UNLOCK_TITLE" Language="th_TH">
-			<Text>Unlock at Genghis Khan level 5</Text>		<!-- Unlock at Genghis Khan level 5 -->
-		</Replace>
+			<Text>ปลดล็อกที่เจงกิสข่าน ระดับ 5</Text>		<!-- Unlock at Genghis Khan level 5 --></Replace>
 		<Replace Tag="LOC_MEMENTO_GENGHIS_KHAN_LETTER_TO_JAMAICA_UNLOCK_TITLE" Language="th_TH">
-			<Text>Unlock at Genghis Khan level 9</Text>		<!-- Unlock at Genghis Khan level 9 -->
-		</Replace>
+			<Text>ปลดล็อกที่เจงกิสข่าน ระดับ 9</Text>		<!-- Unlock at Genghis Khan level 9 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_MILITARY_VICTORY_ANTIQUITY_NAME" Language="th_TH">
-			<Text>Pax Imperatoria</Text>		<!-- Pax Imperatoria -->
-		</Replace>
+			<Text>Pax Imperatoria</Text>		<!-- Pax Imperatoria --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_MILITARY_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Pax Imperatoria Legacy Path.</Text>		<!-- As Genghis Khan, complete the Pax Imperatoria Legacy Path. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Pax Imperatoria Legacy Path.</Text>		<!-- As Genghis Khan, complete the Pax Imperatoria Legacy Path. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_MILITARY_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
-			<Text>Pax Imperatoria 2</Text>		<!-- Pax Imperatoria 2 -->
-		</Replace>
+			<Text>Pax Imperatoria 2</Text>		<!-- Pax Imperatoria 2 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_MILITARY_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Pax Imperatoria Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Pax Imperatoria Legacy Path twice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Pax Imperatoria Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Pax Imperatoria Legacy Path twice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_MILITARY_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
-			<Text>Pax Imperatoria 3</Text>		<!-- Pax Imperatoria 3 -->
-		</Replace>
+			<Text>Pax Imperatoria 3</Text>		<!-- Pax Imperatoria 3 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_MILITARY_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Pax Imperatoria Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Pax Imperatoria Legacy Path thrice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Pax Imperatoria Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Pax Imperatoria Legacy Path thrice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_ECONOMIC_VICTORY_ANTIQUITY_NAME" Language="th_TH">
-			<Text>Silk Roads</Text>		<!-- Silk Roads -->
-		</Replace>
+			<Text>Silk Roads</Text>		<!-- Silk Roads --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_ECONOMIC_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Silk Roads Legacy Path.</Text>		<!-- As Genghis Khan, complete the Silk Roads Legacy Path. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Silk Roads Legacy Path.</Text>		<!-- As Genghis Khan, complete the Silk Roads Legacy Path. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_ECONOMIC_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
-			<Text>Silk Roads 2</Text>		<!-- Silk Roads 2 -->
-		</Replace>
+			<Text>Silk Roads 2</Text>		<!-- Silk Roads 2 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_ECONOMIC_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Silk Roads Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Silk Roads Legacy Path twice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Silk Roads Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Silk Roads Legacy Path twice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_ECONOMIC_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
-			<Text>Silk Roads 3</Text>		<!-- Silk Roads 3 -->
-		</Replace>
+			<Text>Silk Roads 3</Text>		<!-- Silk Roads 3 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_ECONOMIC_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Silk Roads Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Silk Roads Legacy Path thrice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Silk Roads Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Silk Roads Legacy Path thrice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_MILITARY_VICTORY_EXPLORATION_NAME" Language="th_TH">
-			<Text>Non Sufficit Orbis</Text>		<!-- Non Sufficit Orbis -->
-		</Replace>
+			<Text>Non Sufficit Orbis</Text>		<!-- Non Sufficit Orbis --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_MILITARY_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Non Sufficit Orbis Legacy Path.</Text>		<!-- As Genghis Khan, complete the Non Sufficit Orbis Legacy Path. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Non Sufficit Orbis Legacy Path.</Text>		<!-- As Genghis Khan, complete the Non Sufficit Orbis Legacy Path. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_MILITARY_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
-			<Text>Non Sufficit Orbis 2</Text>		<!-- Non Sufficit Orbis 2 -->
-		</Replace>
+			<Text>Non Sufficit Orbis 2</Text>		<!-- Non Sufficit Orbis 2 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_MILITARY_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Non Sufficit Orbis Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Non Sufficit Orbis Legacy Path twice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Non Sufficit Orbis Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Non Sufficit Orbis Legacy Path twice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_MILITARY_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
-			<Text>Non Sufficit Orbis 3</Text>		<!-- Non Sufficit Orbis 3 -->
-		</Replace>
+			<Text>Non Sufficit Orbis 3</Text>		<!-- Non Sufficit Orbis 3 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_MILITARY_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Non Sufficit Orbis Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Non Sufficit Orbis Legacy Path thrice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Non Sufficit Orbis Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Non Sufficit Orbis Legacy Path thrice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_ECONOMIC_VICTORY_EXPLORATION_NAME" Language="th_TH">
-			<Text>Treasure Fleet</Text>		<!-- Treasure Fleet -->
-		</Replace>
+			<Text>Treasure Fleet</Text>		<!-- Treasure Fleet --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_ECONOMIC_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Treasure Fleet Legacy Path.</Text>		<!-- As Genghis Khan, complete the Treasure Fleet Legacy Path. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Treasure Fleet Legacy Path.</Text>		<!-- As Genghis Khan, complete the Treasure Fleet Legacy Path. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_ECONOMIC_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
-			<Text>Treasure Fleet 2</Text>		<!-- Treasure Fleet 2 -->
-		</Replace>
+			<Text>Treasure Fleet 2</Text>		<!-- Treasure Fleet 2 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_ECONOMIC_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Treasure Fleet Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Treasure Fleet Legacy Path twice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Treasure Fleet Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Treasure Fleet Legacy Path twice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_ECONOMIC_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
-			<Text>Treasure Fleet 3</Text>		<!-- Treasure Fleet 3 -->
-		</Replace>
+			<Text>Treasure Fleet 3</Text>		<!-- Treasure Fleet 3 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_ECONOMIC_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Treasure Fleet Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Treasure Fleet Legacy Path thrice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Treasure Fleet Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Treasure Fleet Legacy Path thrice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_MILITARY_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>Ideology</Text>		<!-- Ideology -->
-		</Replace>
+			<Text>Ideology</Text>		<!-- Ideology --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_MILITARY_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Ideology Legacy Path.</Text>		<!-- As Genghis Khan, complete the Ideology Legacy Path. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Ideology Legacy Path.</Text>		<!-- As Genghis Khan, complete the Ideology Legacy Path. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_MILITARY_VICTORY_MODERN_2_NAME" Language="th_TH">
-			<Text>Ideology 2</Text>		<!-- Ideology 2 -->
-		</Replace>
+			<Text>Ideology 2</Text>		<!-- Ideology 2 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_MILITARY_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Ideology Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Ideology Legacy Path twice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Ideology Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Ideology Legacy Path twice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_MILITARY_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>Ideology 3</Text>		<!-- Ideology 3 -->
-		</Replace>
+			<Text>Ideology 3</Text>		<!-- Ideology 3 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_MILITARY_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Ideology Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Ideology Legacy Path thrice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Ideology Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Ideology Legacy Path thrice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_ECONOMIC_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>Railroad Tycoon</Text>		<!-- Railroad Tycoon -->
-		</Replace>
+			<Text>Railroad Tycoon</Text>		<!-- Railroad Tycoon --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_ECONOMIC_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Railroad Tycoon Legacy Path.</Text>		<!-- As Genghis Khan, complete the Railroad Tycoon Legacy Path. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Railroad Tycoon Legacy Path.</Text>		<!-- As Genghis Khan, complete the Railroad Tycoon Legacy Path. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_ECONOMIC_VICTORY_MODERN_2_NAME" Language="th_TH">
-			<Text>Railroad Tycoon 2</Text>		<!-- Railroad Tycoon 2 -->
-		</Replace>
+			<Text>Railroad Tycoon 2</Text>		<!-- Railroad Tycoon 2 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_ECONOMIC_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Railroad Tycoon Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Railroad Tycoon Legacy Path twice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Railroad Tycoon Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Railroad Tycoon Legacy Path twice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_ECONOMIC_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>Railroad Tycoon 3</Text>		<!-- Railroad Tycoon 3 -->
-		</Replace>
+			<Text>Railroad Tycoon 3</Text>		<!-- Railroad Tycoon 3 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_ECONOMIC_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Railroad Tycoon Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Railroad Tycoon Legacy Path thrice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Railroad Tycoon Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Railroad Tycoon Legacy Path thrice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_AGE_COMPLETED_ANTIQUITY_NAME" Language="th_TH">
-			<Text>Antiquity Complete</Text>		<!-- Antiquity Complete -->
-		</Replace>
+			<Text>Antiquity Complete</Text>		<!-- Antiquity Complete --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_AGE_COMPLETED_ANTIQUITY_DESC" Language="th_TH">
-			<Text>As Genghis Khan, finish the Antiquity Age.</Text>		<!-- As Genghis Khan, finish the Antiquity Age. -->
-		</Replace>
+			<Text>As Genghis Khan, finish the Antiquity Age.</Text>		<!-- As Genghis Khan, finish the Antiquity Age. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_AGE_COMPLETED_ANTIQUITY_2_NAME" Language="th_TH">
-			<Text>Antiquity Complete 2</Text>		<!-- Antiquity Complete 2 -->
-		</Replace>
+			<Text>Antiquity Complete 2</Text>		<!-- Antiquity Complete 2 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_AGE_COMPLETED_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>As Genghis Khan, finish the Antiquity Age twice.</Text>		<!-- As Genghis Khan, finish the Antiquity Age twice. -->
-		</Replace>
+			<Text>As Genghis Khan, finish the Antiquity Age twice.</Text>		<!-- As Genghis Khan, finish the Antiquity Age twice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_AGE_COMPLETED_ANTIQUITY_3_NAME" Language="th_TH">
-			<Text>Antiquity Complete 3</Text>		<!-- Antiquity Complete 3 -->
-		</Replace>
+			<Text>Antiquity Complete 3</Text>		<!-- Antiquity Complete 3 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_AGE_COMPLETED_ANTIQUITY_3_DESC" Language="th_TH">
-			<Text>As Genghis Khan, finish the Antiquity Age thrice.</Text>		<!-- As Genghis Khan, finish the Antiquity Age thrice. -->
-		</Replace>
+			<Text>As Genghis Khan, finish the Antiquity Age thrice.</Text>		<!-- As Genghis Khan, finish the Antiquity Age thrice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_AGE_COMPLETED_EXPLORATION_NAME" Language="th_TH">
-			<Text>Exploration Complete</Text>		<!-- Exploration Complete -->
-		</Replace>
+			<Text>Exploration Complete</Text>		<!-- Exploration Complete --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_AGE_COMPLETED_EXPLORATION_DESC" Language="th_TH">
-			<Text>As Genghis Khan, finish the Exploration Age.</Text>		<!-- As Genghis Khan, finish the Exploration Age. -->
-		</Replace>
+			<Text>As Genghis Khan, finish the Exploration Age.</Text>		<!-- As Genghis Khan, finish the Exploration Age. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_AGE_COMPLETED_EXPLORATION_2_NAME" Language="th_TH">
-			<Text>Exploration Complete 2</Text>		<!-- Exploration Complete 2 -->
-		</Replace>
+			<Text>Exploration Complete 2</Text>		<!-- Exploration Complete 2 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_AGE_COMPLETED_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>As Genghis Khan, finish the Exploration Age twice.</Text>		<!-- As Genghis Khan, finish the Exploration Age twice. -->
-		</Replace>
+			<Text>As Genghis Khan, finish the Exploration Age twice.</Text>		<!-- As Genghis Khan, finish the Exploration Age twice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_AGE_COMPLETED_EXPLORATION_3_NAME" Language="th_TH">
-			<Text>Exploration Complete 3</Text>		<!-- Exploration Complete 3 -->
-		</Replace>
+			<Text>Exploration Complete 3</Text>		<!-- Exploration Complete 3 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_AGE_COMPLETED_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>As Genghis Khan, finish the Exploration Age thrice.</Text>		<!-- As Genghis Khan, finish the Exploration Age thrice. -->
-		</Replace>
+			<Text>As Genghis Khan, finish the Exploration Age thrice.</Text>		<!-- As Genghis Khan, finish the Exploration Age thrice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_AGE_COMPLETED_MODERN_NAME" Language="th_TH">
-			<Text>Modern Complete</Text>		<!-- Modern Complete -->
-		</Replace>
+			<Text>Modern Complete</Text>		<!-- Modern Complete --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_AGE_COMPLETED_MODERN_DESC" Language="th_TH">
-			<Text>As Genghis Khan, finish the Modern Age.</Text>		<!-- As Genghis Khan, finish the Modern Age. -->
-		</Replace>
+			<Text>As Genghis Khan, finish the Modern Age.</Text>		<!-- As Genghis Khan, finish the Modern Age. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_AGE_COMPLETED_MODERN_2_NAME" Language="th_TH">
-			<Text>Modern Complete 2</Text>		<!-- Modern Complete 2 -->
-		</Replace>
+			<Text>Modern Complete 2</Text>		<!-- Modern Complete 2 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_AGE_COMPLETED_MODERN_2_DESC" Language="th_TH">
-			<Text>As Genghis Khan, finish the Modern Age twice.</Text>		<!-- As Genghis Khan, finish the Modern Age twice. -->
-		</Replace>
+			<Text>As Genghis Khan, finish the Modern Age twice.</Text>		<!-- As Genghis Khan, finish the Modern Age twice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_AGE_COMPLETED_MODERN_3_NAME" Language="th_TH">
-			<Text>Modern Complete 3</Text>		<!-- Modern Complete 3 -->
-		</Replace>
+			<Text>Modern Complete 3</Text>		<!-- Modern Complete 3 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_AGE_COMPLETED_MODERN_3_DESC" Language="th_TH">
-			<Text>As Genghis Khan, finish the Modern Age thrice.</Text>		<!-- As Genghis Khan, finish the Modern Age thrice. -->
-		</Replace>
+			<Text>As Genghis Khan, finish the Modern Age thrice.</Text>		<!-- As Genghis Khan, finish the Modern Age thrice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_PLAY_GAMES_1_NAME" Language="th_TH">
-			<Text>Play Game 1</Text>		<!-- Play Game 1 -->
-		</Replace>
+			<Text>Play Game 1</Text>		<!-- Play Game 1 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_PLAY_GAMES_1_DESC" Language="th_TH">
-			<Text>As Genghis Khan, reach at least 1 Legacy Path Milestone.</Text>		<!-- As Genghis Khan, reach at least 1 Legacy Path Milestone. -->
-		</Replace>
+			<Text>As Genghis Khan, reach at least 1 Legacy Path Milestone.</Text>		<!-- As Genghis Khan, reach at least 1 Legacy Path Milestone. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_PLAY_GAMES_2_NAME" Language="th_TH">
-			<Text>Play Game 2</Text>		<!-- Play Game 2 -->
-		</Replace>
+			<Text>Play Game 2</Text>		<!-- Play Game 2 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_PLAY_GAMES_2_DESC" Language="th_TH">
-			<Text>As Genghis Khan, reach at least 2 Legacy Path Milestones.</Text>		<!-- As Genghis Khan, reach at least 2 Legacy Path Milestones. -->
-		</Replace>
+			<Text>As Genghis Khan, reach at least 2 Legacy Path Milestones.</Text>		<!-- As Genghis Khan, reach at least 2 Legacy Path Milestones. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_PLAY_GAMES_3_NAME" Language="th_TH">
-			<Text>Play Game 3</Text>		<!-- Play Game 3 -->
-		</Replace>
+			<Text>Play Game 3</Text>		<!-- Play Game 3 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_PLAY_GAMES_3_DESC" Language="th_TH">
-			<Text>As Genghis Khan, reach at least 3 Legacy Path Milestones.</Text>		<!-- As Genghis Khan, reach at least 3 Legacy Path Milestones. -->
-		</Replace>
+			<Text>As Genghis Khan, reach at least 3 Legacy Path Milestones.</Text>		<!-- As Genghis Khan, reach at least 3 Legacy Path Milestones. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_SCIENCE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
-			<Text>Great Library</Text>		<!-- Great Library -->
-		</Replace>
+			<Text>Great Library</Text>		<!-- Great Library --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_SCIENCE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Great Library Legacy Path.</Text>		<!-- As Genghis Khan, complete the Great Library Legacy Path. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Great Library Legacy Path.</Text>		<!-- As Genghis Khan, complete the Great Library Legacy Path. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_SCIENCE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
-			<Text>Great Library 2</Text>		<!-- Great Library 2 -->
-		</Replace>
+			<Text>Great Library 2</Text>		<!-- Great Library 2 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_SCIENCE_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Great Library Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Great Library Legacy Path twice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Great Library Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Great Library Legacy Path twice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_SCIENCE_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
-			<Text>Great Library 3</Text>		<!-- Great Library 3 -->
-		</Replace>
+			<Text>Great Library 3</Text>		<!-- Great Library 3 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_SCIENCE_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Great Library Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Great Library Legacy Path thrice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Great Library Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Great Library Legacy Path thrice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_SCIENCE_VICTORY_EXPLORATION_NAME" Language="th_TH">
-			<Text>Enlightenment</Text>		<!-- Enlightenment -->
-		</Replace>
+			<Text>Enlightenment</Text>		<!-- Enlightenment --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_SCIENCE_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Enlightenment Legacy Path.</Text>		<!-- As Genghis Khan, complete the Enlightenment Legacy Path. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Enlightenment Legacy Path.</Text>		<!-- As Genghis Khan, complete the Enlightenment Legacy Path. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_SCIENCE_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
-			<Text>Enlightenment 2</Text>		<!-- Enlightenment 2 -->
-		</Replace>
+			<Text>Enlightenment 2</Text>		<!-- Enlightenment 2 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_SCIENCE_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Enlightenment Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Enlightenment Legacy Path twice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Enlightenment Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Enlightenment Legacy Path twice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_SCIENCE_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
-			<Text>Enlightenment 3</Text>		<!-- Enlightenment 3 -->
-		</Replace>
+			<Text>Enlightenment 3</Text>		<!-- Enlightenment 3 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_SCIENCE_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Enlightenment Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Enlightenment Legacy Path thrice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Enlightenment Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Enlightenment Legacy Path thrice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>Space Race</Text>		<!-- Space Race -->
-		</Replace>
+			<Text>Space Race</Text>		<!-- Space Race --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Space Race Legacy Path.</Text>		<!-- As Genghis Khan, complete the Space Race Legacy Path. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Space Race Legacy Path.</Text>		<!-- As Genghis Khan, complete the Space Race Legacy Path. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
-			<Text>Space Race 2</Text>		<!-- Space Race 2 -->
-		</Replace>
+			<Text>Space Race 2</Text>		<!-- Space Race 2 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Space Race Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Space Race Legacy Path twice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Space Race Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Space Race Legacy Path twice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>Space Race 3</Text>		<!-- Space Race 3 -->
-		</Replace>
+			<Text>Space Race 3</Text>		<!-- Space Race 3 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Space Race Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Space Race Legacy Path thrice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Space Race Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Space Race Legacy Path thrice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
-			<Text>Wonders of the Ancient World</Text>		<!-- Wonders of the Ancient World -->
-		</Replace>
+			<Text>Wonders of the Ancient World</Text>		<!-- Wonders of the Ancient World --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Wonders of the Ancient World Legacy Path.</Text>		<!-- As Genghis Khan, complete the Wonders of the Ancient World Legacy Path. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Wonders of the Ancient World Legacy Path.</Text>		<!-- As Genghis Khan, complete the Wonders of the Ancient World Legacy Path. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
-			<Text>Wonders of the Ancient World 2</Text>		<!-- Wonders of the Ancient World 2 -->
-		</Replace>
+			<Text>Wonders of the Ancient World 2</Text>		<!-- Wonders of the Ancient World 2 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_CULTURE_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Wonders of the Ancient World Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Wonders of the Ancient World Legacy Path twice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Wonders of the Ancient World Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Wonders of the Ancient World Legacy Path twice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_CULTURE_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
-			<Text>Wonders of the Ancient World 3</Text>		<!-- Wonders of the Ancient World 3 -->
-		</Replace>
+			<Text>Wonders of the Ancient World 3</Text>		<!-- Wonders of the Ancient World 3 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_CULTURE_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Wonders of the Ancient World Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Wonders of the Ancient World Legacy Path thrice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Wonders of the Ancient World Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Wonders of the Ancient World Legacy Path thrice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_CULTURE_VICTORY_EXPLORATION_NAME" Language="th_TH">
-			<Text>Toshakhana</Text>		<!-- Toshakhana -->
-		</Replace>
+			<Text>Toshakhana</Text>		<!-- Toshakhana --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_CULTURE_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Toshakhana Legacy Path.</Text>		<!-- As Genghis Khan, complete the Toshakhana Legacy Path. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Toshakhana Legacy Path.</Text>		<!-- As Genghis Khan, complete the Toshakhana Legacy Path. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_CULTURE_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
-			<Text>Toshakhana 2</Text>		<!-- Toshakhana 2 -->
-		</Replace>
+			<Text>Toshakhana 2</Text>		<!-- Toshakhana 2 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_CULTURE_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Toshakhana Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Toshakhana Legacy Path twice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Toshakhana Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Toshakhana Legacy Path twice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_CULTURE_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
-			<Text>Toshakhana 3</Text>		<!-- Toshakhana 3 -->
-		</Replace>
+			<Text>Toshakhana 3</Text>		<!-- Toshakhana 3 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_CULTURE_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Toshakhana Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Toshakhana Legacy Path thrice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Toshakhana Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Toshakhana Legacy Path thrice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_CULTURE_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>Geographic Society</Text>		<!-- Geographic Society -->
-		</Replace>
+			<Text>Geographic Society</Text>		<!-- Geographic Society --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_CULTURE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Geographic Society Legacy Path.</Text>		<!-- As Genghis Khan, complete the Geographic Society Legacy Path. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Geographic Society Legacy Path.</Text>		<!-- As Genghis Khan, complete the Geographic Society Legacy Path. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_CULTURE_VICTORY_MODERN_2_NAME" Language="th_TH">
-			<Text>Geographic Society 2</Text>		<!-- Geographic Society 2 -->
-		</Replace>
+			<Text>Geographic Society 2</Text>		<!-- Geographic Society 2 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_CULTURE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Geographic Society Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Geographic Society Legacy Path twice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Geographic Society Legacy Path twice.</Text>		<!-- As Genghis Khan, complete the Geographic Society Legacy Path twice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_CULTURE_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>Geographic Society 3</Text>		<!-- Geographic Society 3 -->
-		</Replace>
+			<Text>Geographic Society 3</Text>		<!-- Geographic Society 3 --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_CULTURE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete the Geographic Society Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Geographic Society Legacy Path thrice. -->
-		</Replace>
+			<Text>As Genghis Khan, complete the Geographic Society Legacy Path thrice.</Text>		<!-- As Genghis Khan, complete the Geographic Society Legacy Path thrice. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_FLAWLESS_VICTORY_ANTIQUITY_NAME" Language="th_TH">
-			<Text>Dual Legacies, Antiquity</Text>		<!-- Dual Legacies, Antiquity -->
-		</Replace>
+			<Text>Dual Legacies, Antiquity</Text>		<!-- Dual Legacies, Antiquity --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_FLAWLESS_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete 2 Legacy Paths in a single Antiquity Age.</Text>		<!-- As Genghis Khan, complete 2 Legacy Paths in a single Antiquity Age. -->
-		</Replace>
+			<Text>As Genghis Khan, complete 2 Legacy Paths in a single Antiquity Age.</Text>		<!-- As Genghis Khan, complete 2 Legacy Paths in a single Antiquity Age. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_FLAWLESS_VICTORY_EXPLORATION_NAME" Language="th_TH">
-			<Text>Dual Legacies, Exploration</Text>		<!-- Dual Legacies, Exploration -->
-		</Replace>
+			<Text>Dual Legacies, Exploration</Text>		<!-- Dual Legacies, Exploration --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_FLAWLESS_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete 2 Legacy Paths in a single Exploration Age.</Text>		<!-- As Genghis Khan, complete 2 Legacy Paths in a single Exploration Age. -->
-		</Replace>
+			<Text>As Genghis Khan, complete 2 Legacy Paths in a single Exploration Age.</Text>		<!-- As Genghis Khan, complete 2 Legacy Paths in a single Exploration Age. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_FLAWLESS_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>Dual Legacies, Modern</Text>		<!-- Dual Legacies, Modern -->
-		</Replace>
+			<Text>Dual Legacies, Modern</Text>		<!-- Dual Legacies, Modern --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_FLAWLESS_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>As Genghis Khan, complete 2 Legacy Paths in a single Modern Age.</Text>		<!-- As Genghis Khan, complete 2 Legacy Paths in a single Modern Age. -->
-		</Replace>
+			<Text>As Genghis Khan, complete 2 Legacy Paths in a single Modern Age.</Text>		<!-- As Genghis Khan, complete 2 Legacy Paths in a single Modern Age. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
-			<Text>A Life Worth Living</Text>		<!-- A Life Worth Living -->
-		</Replace>
+			<Text>A Life Worth Living</Text>		<!-- A Life Worth Living --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
-			<Text>As Genghis Khan in Antiquity, complete a quest to celebrate your citizens.</Text>		<!-- As Genghis Khan in Antiquity, complete a quest to celebrate your citizens. -->
-		</Replace>
+			<Text>As Genghis Khan in Antiquity, complete a quest to celebrate your citizens.</Text>		<!-- As Genghis Khan in Antiquity, complete a quest to celebrate your citizens. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
-			<Text>Discipline</Text>		<!-- Discipline -->
-		</Replace>
+			<Text>Discipline</Text>		<!-- Discipline --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
-			<Text>As Genghis Khan in Antiquity, complete a quest to win battles.</Text>		<!-- As Genghis Khan in Antiquity, complete a quest to win battles. -->
-		</Replace>
+			<Text>As Genghis Khan in Antiquity, complete a quest to win battles.</Text>		<!-- As Genghis Khan in Antiquity, complete a quest to win battles. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_QUEST_A_EXPLORATION_NAME" Language="th_TH">
-			<Text>Stirrings</Text>		<!-- Stirrings -->
-		</Replace>
+			<Text>Stirrings</Text>		<!-- Stirrings --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_QUEST_A_EXPLORATION_DESC" Language="th_TH">
-			<Text>As Genghis Khan in Exploration, complete a quest to seek out distant pastures.</Text>		<!-- As Genghis Khan in Exploration, complete a quest to seek out distant pastures. -->
-		</Replace>
+			<Text>As Genghis Khan in Exploration, complete a quest to seek out distant pastures.</Text>		<!-- As Genghis Khan in Exploration, complete a quest to seek out distant pastures. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_QUEST_B_EXPLORATION_NAME" Language="th_TH">
-			<Text>All That is Under the Sky</Text>		<!-- All That is Under the Sky -->
-		</Replace>
+			<Text>All That is Under the Sky</Text>		<!-- All That is Under the Sky --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_QUEST_B_EXPLORATION_DESC" Language="th_TH">
-			<Text>As Genghis Khan in Exploration, complete a quest to burn enemy banners to ash.</Text>		<!-- As Genghis Khan in Exploration, complete a quest to burn enemy banners to ash. -->
-		</Replace>
+			<Text>As Genghis Khan in Exploration, complete a quest to burn enemy banners to ash.</Text>		<!-- As Genghis Khan in Exploration, complete a quest to burn enemy banners to ash. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_QUEST_A_MODERN_NAME" Language="th_TH">
-			<Text>Unbridled</Text>		<!-- Unbridled -->
-		</Replace>
+			<Text>Unbridled</Text>		<!-- Unbridled --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_QUEST_A_MODERN_DESC" Language="th_TH">
-			<Text>As Genghis Khan in Modern, complete a quest to manufacture the future.</Text>		<!-- As Genghis Khan in Modern, complete a quest to manufacture the future. -->
-		</Replace>
+			<Text>As Genghis Khan in Modern, complete a quest to manufacture the future.</Text>		<!-- As Genghis Khan in Modern, complete a quest to manufacture the future. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_QUEST_B_MODERN_NAME" Language="th_TH">
-			<Text>On Wings of Steel</Text>		<!-- On Wings of Steel -->
-		</Replace>
+			<Text>On Wings of Steel</Text>		<!-- On Wings of Steel --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GENGHIS_KHAN_QUEST_B_MODERN_DESC" Language="th_TH">
-			<Text>As Genghis Khan in Modern, complete a quest to soar to victory.</Text>		<!-- As Genghis Khan in Modern, complete a quest to soar to victory. -->
-		</Replace>
+			<Text>As Genghis Khan in Modern, complete a quest to soar to victory.</Text>		<!-- As Genghis Khan in Modern, complete a quest to soar to victory. --></Replace>
 		<Replace Tag="LOC_MODULE_GENGHIS_KHAN_NAME" Language="th_TH">
-			<Text>Genghis Khan</Text>		<!-- Genghis Khan -->
-		</Replace>
+			<Text>Genghis Khan</Text>		<!-- Genghis Khan --></Replace>
 		<Replace Tag="LOC_MODULE_GENGHIS_KHAN_DESCRIPTION" Language="th_TH">
-			<Text>Contains a new Leader, Genghis Khan.</Text>		<!-- Contains a new Leader, Genghis Khan. -->
-		</Replace>
+			<Text>ประกอบด้วยผู้นำใหม่ เจงกิสข่าน</Text>		<!-- Contains a new Leader, Genghis Khan. --></Replace>
 		<Replace Tag="LOC_UNITOPERATION_CONVERT_INDEPENDENTS_NAME" Language="th_TH">
-			<Text>Convert Independents</Text>		<!-- Convert Independents -->
-		</Replace>
+			<Text>เปลี่ยนฝ่ายอิสระ</Text>		<!-- Convert Independents --></Replace>
 		<Replace Tag="LOC_UNITOPERATION_CONVERT_INDEPENDENTS_DESCRIPTION" Language="th_TH">
-			<Text>Activate adjacent to at least 1 Independent unit, to make all adjacent Independent Military Units under your control.</Text>		<!-- Activate adjacent to at least 1 Independent unit, to make all adjacent Independent Military Units under your control. -->
-		</Replace>
+			<Text>ใช้เมื่ออยู่ติดกับยูนิตอิสระอย่างน้อย 1 หน่วย, เพื่อเปลี่ยนยูนิตทหารอิสระที่อยู่ติดกันทั้งหมด ให้มาอยู่ภายใต้การควบคุมของคุณ</Text>		<!-- Activate adjacent to at least 1 Independent unit, to make all adjacent Independent Military Units under your control. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1230A_STORYTITLE" Language="th_TH">
-			<Text>Two Men</Text>		<!-- Two Men -->
-		</Replace>
+			<Text>สองบุรุษ</Text>		<!-- Two Men --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1230A_COMPLETION" Language="th_TH">
-			<Text>Seeing his people gather around a campfire, Genghis Khan is reminded that he must always be two men. One is a shepherd nurturing life. The other, a blacksmith forging instruments of death.</Text>		<!-- Seeing his people gather around a campfire, Genghis Khan is reminded that he must always be two men. One is a shepherd nurturing life. The other, a blacksmith forging instruments of death. -->
-		</Replace>
+			<Text>Seeing his people gather around a campfire, Genghis Khan is reminded that he must always be two men. One is a shepherd nurturing life. The other, a blacksmith forging instruments of death.</Text>		<!-- Seeing his people gather around a campfire, Genghis Khan is reminded that he must always be two men. One is a shepherd nurturing life. The other, a blacksmith forging instruments of death. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1230B_STORYTITLE" Language="th_TH">
-			<Text>Two Men</Text>		<!-- Two Men -->
-		</Replace>
+			<Text>Two Men</Text>		<!-- Two Men --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1230B_NAME" Language="th_TH">
-			<Text>Tend the flock.</Text>		<!-- Tend the flock. -->
-		</Replace>
+			<Text>Tend the flock</Text>		<!-- Tend the flock. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1230B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1230B_COMPLETION" Language="th_TH">
-			<Text>Life flourishes in Genghis Khan's flock.</Text>		<!-- Life flourishes in Genghis Khan's flock. -->
-		</Replace>
+			<Text>Life flourishes in Genghis Khan's flock</Text>		<!-- Life flourishes in Genghis Khan's flock. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1230B_IMPERATIVE" Language="th_TH">
-			<Text>Have 4 Camps.</Text>		<!-- Have 4 Camps. -->
-		</Replace>
+			<Text>Have 4 Camps</Text>		<!-- Have 4 Camps. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1230C_STORYTITLE" Language="th_TH">
-			<Text>Two Men</Text>		<!-- Two Men -->
-		</Replace>
+			<Text>Two Men</Text>		<!-- Two Men --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1230C_NAME" Language="th_TH">
-			<Text>Light the forge.</Text>		<!-- Light the forge. -->
-		</Replace>
+			<Text>Light the forge</Text>		<!-- Light the forge. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1230C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1230C_COMPLETION" Language="th_TH">
-			<Text>Genghis Khan's troops march on, forged in the crucible of battle.</Text>		<!-- Genghis Khan's troops march on, forged in the crucible of battle. -->
-		</Replace>
+			<Text>Genghis Khan's troops march on, forged in the crucible of battle.</Text>		<!-- Genghis Khan's troops march on, forged in the crucible of battle. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1230C_IMPERATIVE" Language="th_TH">
-			<Text>Have a Commander with 3 Promotions.</Text>		<!-- Have a Commander with 3 Promotions. -->
-		</Replace>
+			<Text>Have a Commander with 3 Promotions</Text>		<!-- Have a Commander with 3 Promotions. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1230D_NAME" Language="th_TH">
-			<Text>Watch the fire a while.</Text>		<!-- Watch the fire a while. -->
-		</Replace>
+			<Text>Watch the fire a while</Text>		<!-- Watch the fire a while. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1230D_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1231A_STORYTITLE" Language="th_TH">
-			<Text>A Life Worth Living</Text>		<!-- A Life Worth Living -->
-		</Replace>
+			<Text>A Life Worth Living</Text>		<!-- A Life Worth Living --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1231A_COMPLETION" Language="th_TH">
-			<Text>In every street and alleyway of {1_CAPITAL}, Genghis Khan sees life. Farmers trade with merchants in the markets. Children play in the fields. Workers sweat under the sun.</Text>		<!-- In every street and alleyway of {1_CAPITAL}, Genghis Khan sees life. Farmers trade with merchants in the markets. Children play in the fields. Workers sweat under the sun. -->
-		</Replace>
+			<Text>In every street and alleyway of {1_CAPITAL}, Genghis Khan sees life. Farmers trade with merchants in the markets. Children play in the fields. Workers sweat under the sun.</Text>		<!-- In every street and alleyway of {1_CAPITAL}, Genghis Khan sees life. Farmers trade with merchants in the markets. Children play in the fields. Workers sweat under the sun. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1231B_STORYTITLE" Language="th_TH">
-			<Text>A Life Worth Living</Text>		<!-- A Life Worth Living -->
-		</Replace>
+			<Text>A Life Worth Living</Text>		<!-- A Life Worth Living --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1231B_NAME" Language="th_TH">
-			<Text>They deserve to feast.</Text>		<!-- They deserve to feast. -->
-		</Replace>
+			<Text>They deserve to feast</Text>		<!-- They deserve to feast. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1231B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1231B_COMPLETION" Language="th_TH">
-			<Text>In every street and alleyway Genghis Khan passes, he sees revelers mingle, joy on their faces and in their hearts. These are lives worth living.</Text>		<!-- In every street and alleyway Genghis Khan passes, he sees revelers mingle, joy on their faces and in their hearts. These are lives worth living. -->
-		</Replace>
+			<Text>In every street and alleyway Genghis Khan passes, he sees revelers mingle, joy on their faces and in their hearts. These are lives worth living.</Text>		<!-- In every street and alleyway Genghis Khan passes, he sees revelers mingle, joy on their faces and in their hearts. These are lives worth living. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1231B_IMPERATIVE" Language="th_TH">
-			<Text>Start 2 more Celebrations.</Text>		<!-- Start 2 more Celebrations. -->
-		</Replace>
+			<Text>Start 2 more Celebrations</Text>		<!-- Start 2 more Celebrations. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1231C_NAME" Language="th_TH">
-			<Text>As it should be.</Text>		<!-- As it should be. -->
-		</Replace>
+			<Text>As it should be</Text>		<!-- As it should be. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1231C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1232A_STORYTITLE" Language="th_TH">
-			<Text>Discipline</Text>		<!-- Discipline -->
-		</Replace>
+			<Text>Discipline</Text>		<!-- Discipline --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1232A_COMPLETION" Language="th_TH">
-			<Text>Loitering soldiers quickly fall into formation as Genghis Khan strides into the stillness after a battle. Silence follows.</Text>		<!-- Loitering soldiers quickly fall into formation as Genghis Khan strides into the stillness after a battle. Silence follows. -->
-		</Replace>
+			<Text>Loitering soldiers quickly fall into formation as Genghis Khan strides into the stillness after a battle. Silence follows</Text>		<!-- Loitering soldiers quickly fall into formation as Genghis Khan strides into the stillness after a battle. Silence follows. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1232B_STORYTITLE" Language="th_TH">
-			<Text>Discipline</Text>		<!-- Discipline -->
-		</Replace>
+			<Text>Discipline</Text>		<!-- Discipline --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1232B_NAME" Language="th_TH">
-			<Text>Onto the next.</Text>		<!-- Onto the next. -->
-		</Replace>
+			<Text>Onto the next</Text>		<!-- Onto the next. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1232B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1232B_COMPLETION" Language="th_TH">
-			<Text>With each strike of the hammer, slabs of iron sharpen into blades.</Text>		<!-- With each strike of the hammer, slabs of iron sharpen into blades. -->
-		</Replace>
+			<Text>With each strike of the hammer, slabs of iron sharpen into blades.</Text>		<!-- With each strike of the hammer, slabs of iron sharpen into blades. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1232B_IMPERATIVE" Language="th_TH">
-			<Text>Have 3 Conquered Settlements.</Text>		<!-- Have 3 Conquered Settlements. -->
-		</Replace>
+			<Text>Have 3 Conquered Settlements</Text>		<!-- Have 3 Conquered Settlements. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1232C_NAME" Language="th_TH">
-			<Text>Time to regroup.</Text>		<!-- Time to regroup. -->
-		</Replace>
+			<Text>Time to regroup</Text>		<!-- Time to regroup. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1232C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_10051A_STORYTITLE" Language="th_TH">
-			<Text>One Must Have a Code</Text>		<!-- One Must Have a Code -->
-		</Replace>
+			<Text>One Must Have a Code</Text>		<!-- One Must Have a Code --></Replace>
 		<Replace Tag="LOC_10051A_COMPLETION" Language="th_TH">
-			<Text>Genghis Khan's lieutenants return from battle and receive his favor, knowing they have served him well. But leadership does not simply require them to be strong and have razor-sharp minds. To be truly great, they must serve an idea greater than themselves.</Text>		<!-- Genghis Khan's lieutenants return from battle and receive his favor, knowing they have served him well. But leadership does not simply require them to be strong and have razor-sharp minds. To be truly great, they must serve an idea greater than themselves. -->
-		</Replace>
+			<Text>Genghis Khan's lieutenants return from battle and receive his favor, knowing they have served him well. But leadership does not simply require them to be strong and have razor-sharp minds. To be truly great, they must serve an idea greater than themselves.</Text>		<!-- Genghis Khan's lieutenants return from battle and receive his favor, knowing they have served him well. But leadership does not simply require them to be strong and have razor-sharp minds. To be truly great, they must serve an idea greater than themselves. --></Replace>
 		<Replace Tag="LOC_10051B_NAME" Language="th_TH">
-			<Text>Show Genghis Khan's enemies the line in the sand.</Text>		<!-- Show Genghis Khan's enemies the line in the sand. -->
-		</Replace>
+			<Text>Show Genghis Khan's enemies the line in the sand</Text>		<!-- Show Genghis Khan's enemies the line in the sand. --></Replace>
 		<Replace Tag="LOC_10051B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_10051C_NAME" Language="th_TH">
-			<Text>Show his people what is a good life.</Text>		<!-- Show his people what is a good life. -->
-		</Replace>
+			<Text>Show his people what is a good life</Text>		<!-- Show his people what is a good life. --></Replace>
 		<Replace Tag="LOC_10051C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_10052A_STORYTITLE" Language="th_TH">
-			<Text>The Winds of Chaos</Text>		<!-- The Winds of Chaos -->
-		</Replace>
+			<Text>The Winds of Chaos</Text>		<!-- The Winds of Chaos --></Replace>
 		<Replace Tag="LOC_10052A_COMPLETION" Language="th_TH">
-			<Text>Under the approbation of their commanders, soldiers sow chaos across the lands of the enemy. They leave no field unscathed, no cache intact. When they are gone, ash and blood will remain as reminders of their presence here.</Text>		<!-- Under the approbation of their commanders, soldiers sow chaos across the lands of the enemy. They leave no field unscathed, no cache intact. When they are gone, ash and blood will remain as reminders of their presence here. -->
-		</Replace>
+			<Text>Under the approbation of their commanders, soldiers sow chaos across the lands of the enemy. They leave no field unscathed, no cache intact. When they are gone, ash and blood will remain as reminders of their presence here.</Text>		<!-- Under the approbation of their commanders, soldiers sow chaos across the lands of the enemy. They leave no field unscathed, no cache intact. When they are gone, ash and blood will remain as reminders of their presence here. --></Replace>
 		<Replace Tag="LOC_10052B_NAME" Language="th_TH">
-			<Text>Genghis Khan's people cheer.</Text>		<!-- Genghis Khan's people cheer. -->
-		</Replace>
+			<Text>Genghis Khan's people cheer</Text>		<!-- Genghis Khan's people cheer. --></Replace>
 		<Replace Tag="LOC_10052B_DESCRIPTION" Language="th_TH">
-			<Text>+1 War Support on all wars.</Text>		<!-- +1 War Support on all wars. -->
-		</Replace>
+			<Text>+1 War Support on all wars</Text>		<!-- +1 War Support on all wars. --></Replace>
 		<Replace Tag="LOC_10052C_NAME" Language="th_TH">
-			<Text>More of his people take up arms.</Text>		<!-- More of his people take up arms. -->
-		</Replace>
+			<Text>More of his people take up arms</Text>		<!-- More of his people take up arms. --></Replace>
 		<Replace Tag="LOC_10052C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_10053A_STORYTITLE" Language="th_TH">
-			<Text>Destiny</Text>		<!-- Destiny -->
-		</Replace>
+			<Text>Destiny</Text>		<!-- Destiny --></Replace>
 		<Replace Tag="LOC_10053A_COMPLETION" Language="th_TH">
-			<Text>Nothing stands in Genghis Khan's way, not when it is ordained by Heaven itself.</Text>		<!-- Nothing stands in Genghis Khan's way, not when it is ordained by Heaven itself. -->
-		</Replace>
+			<Text>Nothing stands in Genghis Khan's way, not when it is ordained by Heaven itself.</Text>		<!-- Nothing stands in Genghis Khan's way, not when it is ordained by Heaven itself. --></Replace>
 		<Replace Tag="LOC_10053B_NAME" Language="th_TH">
-			<Text>His power knows no limit.</Text>		<!-- His power knows no limit. -->
-		</Replace>
+			<Text>His power knows no limit</Text>		<!-- His power knows no limit. --></Replace>
 		<Replace Tag="LOC_10053B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_10053C_NAME" Language="th_TH">
-			<Text>His reach knows no limit.</Text>		<!-- His reach knows no limit. -->
-		</Replace>
+			<Text>His reach knows no limit</Text>		<!-- His reach knows no limit. --></Replace>
 		<Replace Tag="LOC_10053C_DESCRIPTION" Language="th_TH">
-			<Text>Free Monument Purchase.</Text>		<!-- Free Monument Purchase. -->
-		</Replace>
+			<Text>Free Monument Purchase</Text>		<!-- Free Monument Purchase. --></Replace>
 		<Replace Tag="LOC_10054A_STORYTITLE" Language="th_TH">
-			<Text>Strangers</Text>		<!-- Strangers -->
-		</Replace>
+			<Text>Strangers</Text>		<!-- Strangers --></Replace>
 		<Replace Tag="LOC_10054A_COMPLETION" Language="th_TH">
-			<Text>The stranger that crosses Genghis Khan's path is not always doomed to the rocky grave. Like the trees and the rivers, everyone has their own destiny.</Text>		<!-- The stranger that crosses Genghis Khan's path is not always doomed to the rocky grave. Like the trees and the rivers, everyone has their own destiny. -->
-		</Replace>
+			<Text>The stranger that crosses Genghis Khan's path is not always doomed to the rocky grave. Like the trees and the rivers, everyone has their own destiny.</Text>		<!-- The stranger that crosses Genghis Khan's path is not always doomed to the rocky grave. Like the trees and the rivers, everyone has their own destiny. --></Replace>
 		<Replace Tag="LOC_10054B_NAME" Language="th_TH">
-			<Text>For some, destiny is in far-off lands.</Text>		<!-- For some, destiny is in far-off lands. -->
-		</Replace>
+			<Text>For some, destiny is in far-off lands.</Text>		<!-- For some, destiny is in far-off lands. --></Replace>
 		<Replace Tag="LOC_10054B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_10054C_NAME" Language="th_TH">
-			<Text>For others, it is the pride in an honest day's work.</Text>		<!-- For others, it is the pride in an honest day's work. -->
-		</Replace>
+			<Text>For others, it is the pride in an honest day's work.</Text>		<!-- For others, it is the pride in an honest day's work. --></Replace>
 		<Replace Tag="LOC_10054C_DESCRIPTION" Language="th_TH">
-			<Text>Free Brickyard Purchase.</Text>		<!-- Free Brickyard Purchase. -->
-		</Replace>
+			<Text>Free Brickyard Purchase</Text>		<!-- Free Brickyard Purchase. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1233A_STORYTITLE" Language="th_TH">
-			<Text>The Way Forward</Text>		<!-- The Way Forward -->
-		</Replace>
+			<Text>The Way Forward</Text>		<!-- The Way Forward --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1233A_COMPLETION" Language="th_TH">
-			<Text>His loyal retinue gathered around him, Genghis Khan feels the wind at his back like Tengri's guiding hand. This is his moment.</Text>		<!-- His loyal retinue gathered around him, Genghis Khan feels the wind at his back like Tengri's guiding hand. This is his moment. -->
-		</Replace>
+			<Text>His loyal retinue gathered around him, Genghis Khan feels the wind at his back like Tengri's guiding hand. This is his moment.</Text>		<!-- His loyal retinue gathered around him, Genghis Khan feels the wind at his back like Tengri's guiding hand. This is his moment. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1233B_NAME" Language="th_TH">
-			<Text>Lead them to new frontiers.</Text>		<!-- Lead them to new frontiers. -->
-		</Replace>
+			<Text>Lead them to new frontiers</Text>		<!-- Lead them to new frontiers. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1233B_DESCRIPTION" Language="th_TH">
-			<Text>Story continues.</Text>		<!-- Story continues. -->
-		</Replace>
+			<Text>Story continues</Text>		<!-- Story continues. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1233C_NAME" Language="th_TH">
-			<Text>Spur them to victory.</Text>		<!-- Spur them to victory. -->
-		</Replace>
+			<Text>Spur them to victory</Text>		<!-- Spur them to victory. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1233C_DESCRIPTION" Language="th_TH">
-			<Text>Story continues.</Text>		<!-- Story continues. -->
-		</Replace>
+			<Text>Story continues</Text>		<!-- Story continues. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1234A_STORYTITLE" Language="th_TH">
-			<Text>Stirrings</Text>		<!-- Stirrings -->
-		</Replace>
+			<Text>Stirrings</Text>		<!-- Stirrings --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1234A_COMPLETION" Language="th_TH">
-			<Text>Until now, Genghis Khan's world was bounded by the sea, but stirrings on the wind tell him there is more under the Great Sky than this.</Text>		<!-- Until now, Genghis Khan's world was bounded by the sea, but stirrings on the wind tell him there is more under the Great Sky than this. -->
-		</Replace>
+			<Text>Until now, Genghis Khan's world was bounded by the sea, but stirrings on the wind tell him there is more under the Great Sky than this.</Text>		<!-- Until now, Genghis Khan's world was bounded by the sea, but stirrings on the wind tell him there is more under the Great Sky than this. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1234B_STORYTITLE" Language="th_TH">
-			<Text>Stirrings</Text>		<!-- Stirrings -->
-		</Replace>
+			<Text>Stirrings</Text>		<!-- Stirrings --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1234B_NAME" Language="th_TH">
-			<Text>Seek out distant pastures.</Text>		<!-- Seek out distant pastures. -->
-		</Replace>
+			<Text>Seek out distant pastures</Text>		<!-- Seek out distant pastures. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1234B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1234B_COMPLETION" Language="th_TH">
-			<Text>Even when cleaved by an ocean, all of the Khan's empire sits under the same sky.</Text>		<!-- Even when cleaved by an ocean, all of the Khan's empire sits under the same sky. -->
-		</Replace>
+			<Text>Even when cleaved by an ocean, all of the Khan's empire sits under the same sky.</Text>		<!-- Even when cleaved by an ocean, all of the Khan's empire sits under the same sky. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1234B_IMPERATIVE" Language="th_TH">
-			<Text>Have 3 Fishing Quays in Distant Lands.</Text>		<!-- Have 3 Fishing Quays in Distant Lands. -->
-		</Replace>
+			<Text>Have 3 Fishing Quays in Distant Lands</Text>		<!-- Have 3 Fishing Quays in Distant Lands. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1234C_NAME" Language="th_TH">
-			<Text>Tend to those nearer to home.</Text>		<!-- Tend to those nearer to home. -->
-		</Replace>
+			<Text>Tend to those nearer to home</Text>		<!-- Tend to those nearer to home. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1234C_DESCRIPTION" Language="th_TH">
-			<Text>+1 Resource Slot in {1_capital}.</Text>		<!-- +1 Resource Slot in {1_capital}. -->
-		</Replace>
+			<Text>+1 Resource Slot in {1_capital}</Text>		<!-- +1 Resource Slot in {1_capital}. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1235A_STORYTITLE" Language="th_TH">
-			<Text>Paying Tribute</Text>		<!-- Paying Tribute -->
-		</Replace>
+			<Text>Paying Tribute</Text>		<!-- Paying Tribute --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1235A_COMPLETION" Language="th_TH">
-			<Text>As Genghis Khan's empire grows, so does the need for tribute. He can only be as benevolent as his people allow him to be.</Text>		<!-- As Genghis Khan's empire grows, so does the need for tribute. He can only be as benevolent as his people allow him to be. -->
-		</Replace>
+			<Text>As Genghis Khan's empire grows, so does the need for tribute. He can only be as benevolent as his people allow him to be.</Text>		<!-- As Genghis Khan's empire grows, so does the need for tribute. He can only be as benevolent as his people allow him to be. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1235B_STORYTITLE" Language="th_TH">
-			<Text>Paying Tribute</Text>		<!-- Paying Tribute -->
-		</Replace>
+			<Text>Paying Tribute</Text>		<!-- Paying Tribute --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1235B_NAME" Language="th_TH">
-			<Text>Even his most distant people.</Text>		<!-- Even his most distant people. -->
-		</Replace>
+			<Text>Even his most distant people</Text>		<!-- Even his most distant people. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1235B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} on Treasure Convoy.</Text>		<!-- {1_reward} on Treasure Convoy. -->
-		</Replace>
+			<Text>{1_reward} on Treasure Convoy</Text>		<!-- {1_reward} on Treasure Convoy. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1235B_COMPLETION" Language="th_TH">
-			<Text>Convoy after convoy brings tribute to Genghis Khan's lands, the winds of Tengri at their backs.</Text>		<!-- Convoy after convoy brings tribute to Genghis Khan's lands, the winds of Tengri at their backs. -->
-		</Replace>
+			<Text>Convoy after convoy brings tribute to Genghis Khan's lands, the winds of Tengri at their backs.</Text>		<!-- Convoy after convoy brings tribute to Genghis Khan's lands, the winds of Tengri at their backs. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1235B_IMPERATIVE" Language="th_TH">
-			<Text>Unload 3 Treasure Convoys.</Text>		<!-- Unload 3 Treasure Convoys. -->
-		</Replace>
+			<Text>Unload 3 Treasure Convoys</Text>		<!-- Unload 3 Treasure Convoys. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1236A_STORYTITLE" Language="th_TH">
-			<Text>All That is Under the Sky</Text>		<!-- All That is Under the Sky -->
-		</Replace>
+			<Text>All That is Under the Sky</Text>		<!-- All That is Under the Sky --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1236A_COMPLETION" Language="th_TH">
-			<Text>To lay claim to another's lands, to call home what others call home, is a dangerous thing. Fortunately for Genghis Khan and his people, the Great Sky is everywhere.</Text>		<!-- To lay claim to another's lands, to call home what others call home, is a dangerous thing. Fortunately for Genghis Khan and his people, the Great Sky is everywhere. -->
-		</Replace>
+			<Text>To lay claim to another's lands, to call home what others call home, is a dangerous thing. Fortunately for Genghis Khan and his people, the Great Sky is everywhere.</Text>		<!-- To lay claim to another's lands, to call home what others call home, is a dangerous thing. Fortunately for Genghis Khan and his people, the Great Sky is everywhere. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1236B_STORYTITLE" Language="th_TH">
-			<Text>All That is Under the Sky</Text>		<!-- All That is Under the Sky -->
-		</Replace>
+			<Text>All That is Under the Sky</Text>		<!-- All That is Under the Sky --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1236B_NAME" Language="th_TH">
-			<Text>These lands, too, are home.</Text>		<!-- These lands, too, are home. -->
-		</Replace>
+			<Text>These lands, too, are home.</Text>		<!-- These lands, too, are home. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1236B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1236B_COMPLETION" Language="th_TH">
-			<Text>The enemy's banners fall, and burn to ash. In their place, the colors of the Great Khan rise, so that there is no questioning to whom these lands belong.</Text>		<!-- The enemy's banners fall, and burn to ash. In their place, the colors of the Great Khan rise, so that there is no questioning to whom these lands belong. -->
-		</Replace>
+			<Text>The enemy's banners fall, and burn to ash. In their place, the colors of the Great Khan rise, so that there is no questioning to whom these lands belong.</Text>		<!-- The enemy's banners fall, and burn to ash. In their place, the colors of the Great Khan rise, so that there is no questioning to whom these lands belong. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1236B_IMPERATIVE" Language="th_TH">
-			<Text>Capture a Capital.</Text>		<!-- Capture a Capital. -->
-		</Replace>
+			<Text>Capture a Capital</Text>		<!-- Capture a Capital. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1236C_NAME" Language="th_TH">
-			<Text>There are other reasons to fight.</Text>		<!-- There are other reasons to fight. -->
-		</Replace>
+			<Text>There are other reasons to fight</Text>		<!-- There are other reasons to fight. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1236C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} on Infantry.</Text>		<!-- {1_reward} on Infantry. -->
-		</Replace>
+			<Text>{1_reward} on Infantry</Text>		<!-- {1_reward} on Infantry. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1237A_STORYTITLE" Language="th_TH">
-			<Text>Wasted Breath</Text>		<!-- Wasted Breath -->
-		</Replace>
+			<Text>Wasted Breath</Text>		<!-- Wasted Breath --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1237A_COMPLETION" Language="th_TH">
-			<Text>Genghis Khan storms away, flanked by his keshigs, while envoys stay and pick up the pieces of the failed peace talks. This conflict was begotten by violence; it will end just the same.</Text>		<!-- Genghis Khan storms away, flanked by his keshigs, while envoys stay and pick up the pieces of the failed peace talks. This conflict was begotten by violence; it will end just the same. -->
-		</Replace>
+			<Text>Genghis Khan storms away, flanked by his keshigs, while envoys stay and pick up the pieces of the failed peace talks. This conflict was begotten by violence; it will end just the same.</Text>		<!-- Genghis Khan storms away, flanked by his keshigs, while envoys stay and pick up the pieces of the failed peace talks. This conflict was begotten by violence; it will end just the same. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1237B_STORYTITLE" Language="th_TH">
-			<Text>Wasted Breath</Text>		<!-- Wasted Breath -->
-		</Replace>
+			<Text>Wasted Breath</Text>		<!-- Wasted Breath --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1237B_NAME" Language="th_TH">
-			<Text>Show no mercy.</Text>		<!-- Show no mercy. -->
-		</Replace>
+			<Text>Show no mercy</Text>		<!-- Show no mercy. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1237B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} and {2_reward}.</Text>		<!-- {1_reward} and {2_reward}. -->
-		</Replace>
+			<Text>{1_reward} and {2_reward}</Text>		<!-- {1_reward} and {2_reward}. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1237B_COMPLETION" Language="th_TH">
-			<Text>Wherever Genghis Khan's warband roves, it leaves destruction in its wake, scoring the lands with his name.</Text>		<!-- Wherever Genghis Khan's warband roves, it leaves destruction in its wake, scoring the lands with his name. -->
-		</Replace>
+			<Text>Wherever Genghis Khan's warband roves, it leaves destruction in its wake, scoring the lands with his name.</Text>		<!-- Wherever Genghis Khan's warband roves, it leaves destruction in its wake, scoring the lands with his name. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1237B_IMPERATIVE" Language="th_TH">
-			<Text>Capture a Settlement.</Text>		<!-- Capture a Settlement. -->
-		</Replace>
+			<Text>Capture a Settlement</Text>		<!-- Capture a Settlement. --></Replace>
 		<Replace Tag="LOC_10055A_STORYTITLE" Language="th_TH">
-			<Text>The Last Word</Text>		<!-- The Last Word -->
-		</Replace>
+			<Text>The Last Word</Text>		<!-- The Last Word --></Replace>
 		<Replace Tag="LOC_10055A_COMPLETION" Language="th_TH">
-			<Text>Genghis Khan calls for war against the advice of his generals, who insist there is no glory in fighting an enemy that does not know they are the enemy. Whatever the cost, it will be paid.</Text>		<!-- Genghis Khan calls for war against the advice of his generals, who insist there is no glory in fighting an enemy that does not know they are the enemy. Whatever the cost, it will be paid. -->
-		</Replace>
+			<Text>Genghis Khan calls for war against the advice of his generals, who insist there is no glory in fighting an enemy that does not know they are the enemy. Whatever the cost, it will be paid.</Text>		<!-- Genghis Khan calls for war against the advice of his generals, who insist there is no glory in fighting an enemy that does not know they are the enemy. Whatever the cost, it will be paid. --></Replace>
 		<Replace Tag="LOC_10055B_NAME" Language="th_TH">
-			<Text>Their judgement is only fuel.</Text>		<!-- Their judgement is only fuel. -->
-		</Replace>
+			<Text>Their judgement is only fuel</Text>		<!-- Their judgement is only fuel. --></Replace>
 		<Replace Tag="LOC_10055B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}, but {2_reward}.</Text>		<!-- {1_reward}, but {2_reward}. -->
-		</Replace>
+			<Text>{1_reward}, but {2_reward}.</Text>		<!-- {1_reward}, but {2_reward}. --></Replace>
 		<Replace Tag="LOC_10055C_NAME" Language="th_TH">
-			<Text>The troops' impatience is to blame.</Text>		<!-- The troops' impatience is to blame. -->
-		</Replace>
+			<Text>The troops' impatience is to blame</Text>		<!-- The troops' impatience is to blame. --></Replace>
 		<Replace Tag="LOC_10055C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}, but {2_reward} on all Units.</Text>		<!-- {1_reward}, but {2_reward} on all Units. -->
-		</Replace>
+			<Text>{1_reward}, but {2_reward} on all Units.</Text>		<!-- {1_reward}, but {2_reward} on all Units. --></Replace>
 		<Replace Tag="LOC_10055D_NAME" Language="th_TH">
-			<Text>The victors will have the last word.</Text>		<!-- The victors will have the last word. -->
-		</Replace>
+			<Text>The victors will have the last word</Text>		<!-- The victors will have the last word. --></Replace>
 		<Replace Tag="LOC_10055D_DESCRIPTION" Language="th_TH">
-			<Text>+1 War Support on all wars.</Text>		<!-- +1 War Support on all wars. -->
-		</Replace>
+			<Text>+1 War Support on all wars</Text>		<!-- +1 War Support on all wars. --></Replace>
 		<Replace Tag="LOC_10056A_STORYTITLE" Language="th_TH">
-			<Text>Tolerance</Text>		<!-- Tolerance -->
-		</Replace>
+			<Text>Tolerance</Text>		<!-- Tolerance --></Replace>
 		<Replace Tag="LOC_10056A_COMPLETION" Language="th_TH">
-			<Text>Though some may shun the presence of other faiths, Genghis Khan stays his hand. Only when people are free in their beliefs can they truly be free.</Text>		<!-- Though some may shun the presence of other faiths, Genghis Khan stays his hand. Only when people are free in their beliefs can they truly be free. -->
-		</Replace>
+			<Text>Though some may shun the presence of other faiths, Genghis Khan stays his hand. Only when people are free in their beliefs can they truly be free.</Text>		<!-- Though some may shun the presence of other faiths, Genghis Khan stays his hand. Only when people are free in their beliefs can they truly be free. --></Replace>
 		<Replace Tag="LOC_10056B_NAME" Language="th_TH">
-			<Text>It is an inspiring message.</Text>		<!-- It is an inspiring message. -->
-		</Replace>
+			<Text>It is an inspiring message</Text>		<!-- It is an inspiring message. --></Replace>
 		<Replace Tag="LOC_10056B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_10056C_NAME" Language="th_TH">
-			<Text>It is welcoming.</Text>		<!-- It is welcoming. -->
-		</Replace>
+			<Text>It is welcoming</Text>		<!-- It is welcoming. --></Replace>
 		<Replace Tag="LOC_10056C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_10056D_NAME" Language="th_TH">
-			<Text>It vivifies.</Text>		<!-- It vivifies. -->
-		</Replace>
+			<Text>It vivifies</Text>		<!-- It vivifies. --></Replace>
 		<Replace Tag="LOC_10056D_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} on Missionaries.</Text>		<!-- {1_reward} on Missionaries. -->
-		</Replace>
+			<Text>{1_reward} on Missionaries</Text>		<!-- {1_reward} on Missionaries. --></Replace>
 		<Replace Tag="LOC_10057A_STORYTITLE" Language="th_TH">
-			<Text>Outnumbered</Text>		<!-- Outnumbered -->
-		</Replace>
+			<Text>Outnumbered</Text>		<!-- Outnumbered --></Replace>
 		<Replace Tag="LOC_10057A_COMPLETION" Language="th_TH">
-			<Text>Beset on all sides, Genghis Khan faces enemies from across the known world. He has never shied from battle, but his generals worry that he has he gone too far.</Text>		<!-- Beset on all sides, Genghis Khan faces enemies from across the known world. He has never shied from battle, but his generals worry that he has he gone too far. -->
-		</Replace>
+			<Text>Beset on all sides, Genghis Khan faces enemies from across the known world. He has never shied from battle, but his generals worry that he has he gone too far.</Text>		<!-- Beset on all sides, Genghis Khan faces enemies from across the known world. He has never shied from battle, but his generals worry that he has he gone too far. --></Replace>
 		<Replace Tag="LOC_10057B_NAME" Language="th_TH">
-			<Text>There is only one way to find out.</Text>		<!-- There is only one way to find out. -->
-		</Replace>
+			<Text>There is only one way to find out</Text>		<!-- There is only one way to find out. --></Replace>
 		<Replace Tag="LOC_10057B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} on all Units.</Text>		<!-- {1_reward} on all Units. -->
-		</Replace>
+			<Text>{1_reward} on all Units</Text>		<!-- {1_reward} on all Units. --></Replace>
 		<Replace Tag="LOC_10057C_NAME" Language="th_TH">
-			<Text>No, there is another way.</Text>		<!-- No, there is another way. -->
-		</Replace>
+			<Text>No, there is another way.</Text>		<!-- No, there is another way. --></Replace>
 		<Replace Tag="LOC_10057C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} on all Units.</Text>		<!-- {1_reward} on all Units. -->
-		</Replace>
+			<Text>{1_reward} on all Units</Text>		<!-- {1_reward} on all Units. --></Replace>
 		<Replace Tag="LOC_10057D_NAME" Language="th_TH">
-			<Text>Too much talk.</Text>		<!-- Too much talk. -->
-		</Replace>
+			<Text>Too much talk</Text>		<!-- Too much talk. --></Replace>
 		<Replace Tag="LOC_10057D_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} on all Commanders.</Text>		<!-- {1_reward} on all Commanders. -->
-		</Replace>
+			<Text>{1_reward} on all Commanders</Text>		<!-- {1_reward} on all Commanders. --></Replace>
 		<Replace Tag="LOC_10058A_STORYTITLE" Language="th_TH">
-			<Text>Swift Completion</Text>		<!-- Swift Completion -->
-		</Replace>
+			<Text>Swift Completion</Text>		<!-- Swift Completion --></Replace>
 		<Replace Tag="LOC_10058A_COMPLETION" Language="th_TH">
-			<Text>A courier comes to rest at the Ortöö, glad to finally pass their burden to another. Many praise the Great Khan for his ingenious system, but have their own suggestions for improvement.</Text>		<!-- A courier comes to rest at the Ortöö, glad to finally pass their burden to another. Many praise the Great Khan for his ingenious system, but have their own suggestions for improvement. -->
-		</Replace>
+			<Text>A courier comes to rest at the Ortöö, glad to finally pass their burden to another. Many praise the Great Khan for his ingenious system, but have their own suggestions for improvement.</Text>		<!-- A courier comes to rest at the Ortöö, glad to finally pass their burden to another. Many praise the Great Khan for his ingenious system, but have their own suggestions for improvement. --></Replace>
 		<Replace Tag="LOC_10058B_NAME" Language="th_TH">
-			<Text>Grant privileges to foreign traders.</Text>		<!-- Grant privileges to foreign traders. -->
-		</Replace>
+			<Text>Grant privileges to foreign traders</Text>		<!-- Grant privileges to foreign traders. --></Replace>
 		<Replace Tag="LOC_10058B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_10058C_NAME" Language="th_TH">
-			<Text>Expand the network.</Text>		<!-- Expand the network. -->
-		</Replace>
+			<Text>Expand the network</Text>		<!-- Expand the network. --></Replace>
 		<Replace Tag="LOC_10058C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_10059A_STORYTITLE" Language="th_TH">
-			<Text>To the End</Text>		<!-- To the End -->
-		</Replace>
+			<Text>To the End</Text>		<!-- To the End --></Replace>
 		<Replace Tag="LOC_10059A_COMPLETION" Language="th_TH">
-			<Text>One by one, bodies crumple and tumble from their mounts, never to rise again. The keshig are among Genghis Khan's most faithful followers; if one were to perish, it would surely be in the name of a righteous cause.</Text>		<!-- One by one, bodies crumple and tumble from their mounts, never to rise again. The keshig are among Genghis Khan's most faithful followers; if one were to perish, it would surely be in the name of a righteous cause. -->
-		</Replace>
+			<Text>One by one, bodies crumple and tumble from their mounts, never to rise again. The keshig are among Genghis Khan's most faithful followers; if one were to perish, it would surely be in the name of a righteous cause.</Text>		<!-- One by one, bodies crumple and tumble from their mounts, never to rise again. The keshig are among Genghis Khan's most faithful followers; if one were to perish, it would surely be in the name of a righteous cause. --></Replace>
 		<Replace Tag="LOC_10059B_NAME" Language="th_TH">
-			<Text>Let their bravery be an example.</Text>		<!-- Let their bravery be an example. -->
-		</Replace>
+			<Text>Let their bravery be an example</Text>		<!-- Let their bravery be an example. --></Replace>
 		<Replace Tag="LOC_10059B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} on Keshig.</Text>		<!-- {1_reward} on Keshig. -->
-		</Replace>
+			<Text>{1_reward} on Keshig</Text>		<!-- {1_reward} on Keshig. --></Replace>
 		<Replace Tag="LOC_10059C_NAME" Language="th_TH">
-			<Text>Let their loyalty be an inspiration.</Text>		<!-- Let their loyalty be an inspiration. -->
-		</Replace>
+			<Text>Let their loyalty be an inspiration</Text>		<!-- Let their loyalty be an inspiration. --></Replace>
 		<Replace Tag="LOC_10059C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} Keshig.</Text>		<!-- {1_reward} Keshig. -->
-		</Replace>
+			<Text>{1_reward} Keshig</Text>		<!-- {1_reward} Keshig. --></Replace>
 		<Replace Tag="LOC_10060A_STORYTITLE" Language="th_TH">
-			<Text>Deadly Aim</Text>		<!-- Deadly Aim -->
-		</Replace>
+			<Text>Deadly Aim</Text>		<!-- Deadly Aim --></Replace>
 		<Replace Tag="LOC_10060A_COMPLETION" Language="th_TH">
-			<Text>Fire and fury rain down on the enemy walls like the judgement of Tengri. A massive siege engine provides the power, and Genghis Khan the aim.</Text>		<!-- Fire and fury rain down on the enemy walls like the judgement of Tengri. A massive siege engine provides the power, and Genghis Khan the aim. -->
-		</Replace>
+			<Text>Fire and fury rain down on the enemy walls like the judgement of Tengri. A massive siege engine provides the power, and Genghis Khan the aim.</Text>		<!-- Fire and fury rain down on the enemy walls like the judgement of Tengri. A massive siege engine provides the power, and Genghis Khan the aim. --></Replace>
 		<Replace Tag="LOC_10060B_NAME" Language="th_TH">
-			<Text>Leave nothing of value.</Text>		<!-- Leave nothing of value. -->
-		</Replace>
+			<Text>Leave nothing of value</Text>		<!-- Leave nothing of value. --></Replace>
 		<Replace Tag="LOC_10060B_DESCRIPTION" Language="th_TH">
-			<Text>Pillaging gives[icon:YIELD_SCIENCE] Science equal to 25% of the yield or healing.</Text>		<!-- Pillaging gives[icon:YIELD_SCIENCE] Science equal to 25% of the yield or healing. -->
-		</Replace>
+			<Text>Pillaging gives[icon:YIELD_SCIENCE] Science equal to 25% of the yield or healing</Text>		<!-- Pillaging gives[icon:YIELD_SCIENCE] Science equal to 25% of the yield or healing. --></Replace>
 		<Replace Tag="LOC_10060C_NAME" Language="th_TH">
-			<Text>Brace for retaliation.</Text>		<!-- Brace for retaliation. -->
-		</Replace>
+			<Text>Brace for retaliation</Text>		<!-- Brace for retaliation. --></Replace>
 		<Replace Tag="LOC_10060C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} on Siege Units.</Text>		<!-- {1_reward} on Siege Units. -->
-		</Replace>
+			<Text>{1_reward} on Siege Units</Text>		<!-- {1_reward} on Siege Units. --></Replace>
 		<Replace Tag="LOC_10060D_NAME" Language="th_TH">
-			<Text>Be swift.</Text>		<!-- Be swift. -->
-		</Replace>
+			<Text>Be swift</Text>		<!-- Be swift. --></Replace>
 		<Replace Tag="LOC_10060D_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} on Siege Units.</Text>		<!-- {1_reward} on Siege Units. -->
-		</Replace>
+			<Text>{1_reward} on Siege Units</Text>		<!-- {1_reward} on Siege Units. --></Replace>
 		<Replace Tag="LOC_10061A_STORYTITLE" Language="th_TH">
-			<Text>One Empire, One Clan</Text>		<!-- One Empire, One Clan -->
-		</Replace>
+			<Text>One Empire, One Clan</Text>		<!-- One Empire, One Clan --></Replace>
 		<Replace Tag="LOC_10061A_COMPLETION" Language="th_TH">
-			<Text>Every man has his use, even if only to gather dried cow dung in the Gobi for fuel.[n]Genghis Khan</Text>		<!-- Every man has his use, even if only to gather dried cow dung in the Gobi for fuel.[n]Genghis Khan -->
-		</Replace>
+			<Text>Every man has his use, even if only to gather dried cow dung in the Gobi for fuel.[n]Genghis Khan</Text>		<!-- Every man has his use, even if only to gather dried cow dung in the Gobi for fuel.[n]Genghis Khan --></Replace>
 		<Replace Tag="LOC_10061B_NAME" Language="th_TH">
-			<Text>There is need for philosophers.</Text>		<!-- There is need for philosophers. -->
-		</Replace>
+			<Text>There is need for philosophers</Text>		<!-- There is need for philosophers. --></Replace>
 		<Replace Tag="LOC_10061B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} on Science Buildings.</Text>		<!-- {1_reward} on Science Buildings. -->
-		</Replace>
+			<Text>{1_reward} on Science Buildings</Text>		<!-- {1_reward} on Science Buildings. --></Replace>
 		<Replace Tag="LOC_10061C_NAME" Language="th_TH">
-			<Text>Soldiers are always welcome.</Text>		<!-- Soldiers are always welcome. -->
-		</Replace>
+			<Text>Soldiers are always welcome</Text>		<!-- Soldiers are always welcome. --></Replace>
 		<Replace Tag="LOC_10061C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_10061D_NAME" Language="th_TH">
-			<Text>Come one, come all.</Text>		<!-- Come one, come all. -->
-		</Replace>
+			<Text>Come one, come all.</Text>		<!-- Come one, come all. --></Replace>
 		<Replace Tag="LOC_10061D_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} on Food Buildings.</Text>		<!-- {1_reward} on Food Buildings. -->
-		</Replace>
+			<Text>{1_reward} on Food Buildings</Text>		<!-- {1_reward} on Food Buildings. --></Replace>
 		<Replace Tag="LOC_10062A_STORYTITLE" Language="th_TH">
-			<Text>Iron Influence</Text>		<!-- Iron Influence -->
-		</Replace>
+			<Text>Iron Influence</Text>		<!-- Iron Influence --></Replace>
 		<Replace Tag="LOC_10062A_COMPLETION" Language="th_TH">
-			<Text>The {1_INDEPENDENT} people put aside their grievances and bow before the Great Khan. Like many before them, they welcome the life he has to offer them.</Text>		<!-- The {1_INDEPENDENT} people put aside their grievances and bow before the Great Khan. Like many before them, they welcome the life he has to offer them. -->
-		</Replace>
+			<Text>The {1_INDEPENDENT} people put aside their grievances and bow before the Great Khan. Like many before them, they welcome the life he has to offer them.</Text>		<!-- The {1_INDEPENDENT} people put aside their grievances and bow before the Great Khan. Like many before them, they welcome the life he has to offer them. --></Replace>
 		<Replace Tag="LOC_10062B_NAME" Language="th_TH">
-			<Text>They will work the lands.</Text>		<!-- They will work the lands. -->
-		</Replace>
+			<Text>They will work the lands</Text>		<!-- They will work the lands. --></Replace>
 		<Replace Tag="LOC_10062B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_10062C_NAME" Language="th_TH">
-			<Text>They will pledge their lives.</Text>		<!-- They will pledge their lives. -->
-		</Replace>
+			<Text>They will pledge their lives</Text>		<!-- They will pledge their lives. --></Replace>
 		<Replace Tag="LOC_10062C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_10062D_NAME" Language="th_TH">
-			<Text>They will devote themselves to the common good.</Text>		<!-- They will devote themselves to the common good. -->
-		</Replace>
+			<Text>They will devote themselves to the common good</Text>		<!-- They will devote themselves to the common good. --></Replace>
 		<Replace Tag="LOC_10062D_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} in all Settlements.</Text>		<!-- {1_reward} in all Settlements. -->
-		</Replace>
+			<Text>{1_reward} in all Settlements</Text>		<!-- {1_reward} in all Settlements. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1238A_STORYTITLE" Language="th_TH">
-			<Text>Unbridled</Text>		<!-- Unbridled -->
-		</Replace>
+			<Text>Unbridled</Text>		<!-- Unbridled --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1238A_COMPLETION" Language="th_TH">
-			<Text>Tengri had blessed the Khan with a keen and studied eye, yet much of the modern world dazzles, and the future rushes toward him with the abandon of a wild horse.</Text>		<!-- Tengri had blessed the Khan with a keen and studied eye, yet much of the modern world dazzles, and the future rushes toward him with the abandon of a wild horse. -->
-		</Replace>
+			<Text>Tengri had blessed the Khan with a keen and studied eye, yet much of the modern world dazzles, and the future rushes toward him with the abandon of a wild horse.</Text>		<!-- Tengri had blessed the Khan with a keen and studied eye, yet much of the modern world dazzles, and the future rushes toward him with the abandon of a wild horse. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1238B_STORYTITLE" Language="th_TH">
-			<Text>Unbridled</Text>		<!-- Unbridled -->
-		</Replace>
+			<Text>Unbridled</Text>		<!-- Unbridled --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1238B_NAME" Language="th_TH">
-			<Text>Tame the creature.</Text>		<!-- Tame the creature. -->
-		</Replace>
+			<Text>Tame the creature</Text>		<!-- Tame the creature. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1238B_DESCRIPTION" Language="th_TH">
-			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
-		</Replace>
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1238B_COMPLETION" Language="th_TH">
-			<Text>The present — and the future — belong to Genghis Khan.</Text>		<!-- The present — and the future — belong to Genghis Khan. -->
-		</Replace>
+			<Text>The present — and the future — belong to Genghis Khan</Text>		<!-- The present — and the future — belong to Genghis Khan. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1238B_IMPERATIVE" Language="th_TH">
-			<Text>Have 5 Factories.</Text>		<!-- Have 5 Factories. -->
-		</Replace>
+			<Text>Have 5 Factories</Text>		<!-- Have 5 Factories. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1238C_NAME" Language="th_TH">
-			<Text>Close.</Text>		<!-- Close. -->
-		</Replace>
+			<Text>Close</Text>		<!-- Close. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1238C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1238D_NAME" Language="th_TH">
-			<Text>Close.</Text>		<!-- Close. -->
-		</Replace>
+			<Text>Close</Text>		<!-- Close. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1238D_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} and enter a Celebration.</Text>		<!-- {1_reward} and enter a Celebration. -->
-		</Replace>
+			<Text>{1_reward} and enter a Celebration</Text>		<!-- {1_reward} and enter a Celebration. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1239A_STORYTITLE" Language="th_TH">
-			<Text>On Wings of Steel</Text>		<!-- On Wings of Steel -->
-		</Replace>
+			<Text>On Wings of Steel</Text>		<!-- On Wings of Steel --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1239A_COMPLETION" Language="th_TH">
-			<Text>Amid the unending chaos of modernity, new threats call for new tactics. This is a challenge Genghis Khan knows well.</Text>		<!-- Amid the unending chaos of modernity, new threats call for new tactics. This is a challenge Genghis Khan knows well. -->
-		</Replace>
+			<Text>Amid the unending chaos of modernity, new threats call for new tactics. This is a challenge Genghis Khan knows well.</Text>		<!-- Amid the unending chaos of modernity, new threats call for new tactics. This is a challenge Genghis Khan knows well. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1239B_STORYTITLE" Language="th_TH">
-			<Text>On Wings of Steel</Text>		<!-- On Wings of Steel -->
-		</Replace>
+			<Text>On Wings of Steel</Text>		<!-- On Wings of Steel --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1239B_NAME" Language="th_TH">
-			<Text>Rise to the challenge.</Text>		<!-- Rise to the challenge. -->
-		</Replace>
+			<Text>Rise to the challenge</Text>		<!-- Rise to the challenge. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1239B_DESCRIPTION" Language="th_TH">
-			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
-		</Replace>
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1239B_COMPLETION" Language="th_TH">
-			<Text>The skies belong to Genghis Khan.</Text>		<!-- The skies belong to Genghis Khan. -->
-		</Replace>
+			<Text>The skies belong to Genghis Khan</Text>		<!-- The skies belong to Genghis Khan. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1239B_IMPERATIVE" Language="th_TH">
-			<Text>Defeat an Air Unit with an Air Unit 3 times.</Text>		<!-- Defeat an Air Unit with an Air Unit 3 times. -->
-		</Replace>
+			<Text>Defeat an Air Unit with an Air Unit 3 times</Text>		<!-- Defeat an Air Unit with an Air Unit 3 times. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1239C_NAME" Language="th_TH">
-			<Text>Close.</Text>		<!-- Close. -->
-		</Replace>
+			<Text>Close</Text>		<!-- Close. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1239C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1239D_NAME" Language="th_TH">
-			<Text>Close.</Text>		<!-- Close. -->
-		</Replace>
+			<Text>Close</Text>		<!-- Close. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1239D_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} and enter a Celebration.</Text>		<!-- {1_reward} and enter a Celebration. -->
-		</Replace>
+			<Text>{1_reward} and enter a Celebration</Text>		<!-- {1_reward} and enter a Celebration. --></Replace>
 		<Replace Tag="LOC_10063A_STORYTITLE" Language="th_TH">
-			<Text>A Secret History</Text>		<!-- A Secret History -->
-		</Replace>
+			<Text>A Secret History</Text>		<!-- A Secret History --></Replace>
 		<Replace Tag="LOC_10063A_COMPLETION" Language="th_TH">
-			<Text>Museum scholars make a remarkable find — a once-lost history of the forebears of the {1_CIVILIZATION_ADJ} and its illustrious founder. An amalgam of truth and fiction, history and epic, translation and adaptation, the words it contains are yet both distant and familiar.</Text>		<!-- Museum scholars make a remarkable find — a once-lost history of the forebears of the {1_CIVILIZATION_ADJ} and its illustrious founder. An amalgam of truth and fiction, history and epic, translation and adaptation, the words it contains are yet both distant and familiar. -->
-		</Replace>
+			<Text>Museum scholars make a remarkable find — a once-lost history of the forebears of the {1_CIVILIZATION_ADJ} and its illustrious founder. An amalgam of truth and fiction, history and epic, translation and adaptation, the words it contains are yet both distant and familiar.</Text>		<!-- Museum scholars make a remarkable find — a once-lost history of the forebears of the {1_CIVILIZATION_ADJ} and its illustrious founder. An amalgam of truth and fiction, history and epic, translation and adaptation, the words it contains are yet both distant and familiar. --></Replace>
 		<Replace Tag="LOC_10063B_NAME" Language="th_TH">
-			<Text>This was fated to happen.</Text>		<!-- This was fated to happen. -->
-		</Replace>
+			<Text>This was fated to happen</Text>		<!-- This was fated to happen. --></Replace>
 		<Replace Tag="LOC_10063B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_10063C_NAME" Language="th_TH">
-			<Text>The past is the past.</Text>		<!-- The past is the past. -->
-		</Replace>
+			<Text>The past is the past</Text>		<!-- The past is the past. --></Replace>
 		<Replace Tag="LOC_10063C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_10064A_STORYTITLE" Language="th_TH">
-			<Text>One with the Sky</Text>		<!-- One with the Sky -->
-		</Replace>
+			<Text>One with the Sky</Text>		<!-- One with the Sky --></Replace>
 		<Replace Tag="LOC_10064A_COMPLETION" Language="th_TH">
-			<Text>With wings of steel and engines like thunder, Genghis Khan's forces take to the skies at last to become one with Tengri.</Text>		<!-- With wings of steel and engines like thunder, Genghis Khan's forces take to the skies at last to become one with Tengri. -->
-		</Replace>
+			<Text>With wings of steel and engines like thunder, Genghis Khan's forces take to the skies at last to become one with Tengri.</Text>		<!-- With wings of steel and engines like thunder, Genghis Khan's forces take to the skies at last to become one with Tengri. --></Replace>
 		<Replace Tag="LOC_10064B_NAME" Language="th_TH">
-			<Text>Hear Tengri's wisdom.</Text>		<!-- Hear Tengri's wisdom. -->
-		</Replace>
+			<Text>Hear Tengri's wisdom</Text>		<!-- Hear Tengri's wisdom. --></Replace>
 		<Replace Tag="LOC_10064B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_10064C_NAME" Language="th_TH">
-			<Text>Follow Tengri's path.</Text>		<!-- Follow Tengri's path. -->
-		</Replace>
+			<Text>Follow Tengri's path</Text>		<!-- Follow Tengri's path. --></Replace>
 		<Replace Tag="LOC_10064C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} on Squadron Commanders, Aerodrome Commanders, and Aircraft Carriers.</Text>		<!-- {1_reward} on Squadron Commanders, Aerodrome Commanders, and Aircraft Carriers. -->
-		</Replace>
+			<Text>{1_reward} on Squadron Commanders, Aerodrome Commanders, and Aircraft Carriers.</Text>		<!-- {1_reward} on Squadron Commanders, Aerodrome Commanders, and Aircraft Carriers. --></Replace>
 		<Replace Tag="LOC_10065A_STORYTITLE" Language="th_TH">
-			<Text>Know Your Enemy</Text>		<!-- Know Your Enemy -->
-		</Replace>
+			<Text>Know Your Enemy</Text>		<!-- Know Your Enemy --></Replace>
 		<Replace Tag="LOC_10065A_COMPLETION" Language="th_TH">
-			<Text>Himself a believer in the Great Blue Sky, Genghis Khan is tolerant of others' ways. But when those ways threaten his people, he cannot stand idle.</Text>		<!-- Himself a believer in the Great Blue Sky, Genghis Khan is tolerant of others' ways. But when those ways threaten his people, he cannot stand idle. -->
-		</Replace>
+			<Text>Himself a believer in the Great Blue Sky, Genghis Khan is tolerant of others' ways. But when those ways threaten his people, he cannot stand idle.</Text>		<!-- Himself a believer in the Great Blue Sky, Genghis Khan is tolerant of others' ways. But when those ways threaten his people, he cannot stand idle. --></Replace>
 		<Replace Tag="LOC_10065B_NAME" Language="th_TH">
-			<Text>A toast to Tengri!</Text>		<!-- A toast to Tengri! -->
-		</Replace>
+			<Text>A toast to Tengri!</Text>		<!-- A toast to Tengri! --></Replace>
 		<Replace Tag="LOC_10065B_DESCRIPTION" Language="th_TH">
-			<Text>Enter a Celebration.</Text>		<!-- Enter a Celebration. -->
-		</Replace>
+			<Text>Enter a Celebration</Text>		<!-- Enter a Celebration. --></Replace>
 		<Replace Tag="LOC_10065C_NAME" Language="th_TH">
-			<Text>To arms once more!</Text>		<!-- To arms once more! -->
-		</Replace>
+			<Text>To arms once more!</Text>		<!-- To arms once more! --></Replace>
 		<Replace Tag="LOC_10065C_DESCRIPTION" Language="th_TH">
-			<Text>+1 War Support on all wars.</Text>		<!-- +1 War Support on all wars. -->
-		</Replace>
+			<Text>+1 War Support on all wars</Text>		<!-- +1 War Support on all wars. --></Replace>
 		<Replace Tag="LOC_PROFILE_TITLE_GENGHIS_KHAN" Language="th_TH">
-			<Text>Chosen of Tengri</Text>		<!-- Chosen of Tengri -->
-		</Replace>
+			<Text>ผู้ถูกเลือกโดยเทงกรี</Text>		<!-- Chosen of Tengri --></Replace>
 		<Replace Tag="LOC_BADGE_GENGHIS_KHAN_NAME" Language="th_TH">
-			<Text>Genghis Khan Badge 1</Text>		<!-- Genghis Khan Badge 1 -->
-		</Replace>
+			<Text>ตราแห่งเจงกิสข่าน 1</Text>		<!-- Genghis Khan Badge 1 --></Replace>
 		<Replace Tag="LOC_BADGE_GENGHIS_KHAN_P_NAME" Language="th_TH">
-			<Text>Genghis Khan Badge 2</Text>		<!-- Genghis Khan Badge 2 -->
-		</Replace>
+			<Text>ตราแห่งเจงกิสข่าน 2</Text>		<!-- Genghis Khan Badge 2 --></Replace>
 		<Replace Tag="LOC_BANNER_GENGHIS_KHAN_NAME" Language="th_TH">
-			<Text>Genghis Khan Banner</Text>		<!-- Genghis Khan Banner -->
-		</Replace>
+			<Text>ธงแห่งเจงกิสข่าน</Text>		<!-- Genghis Khan Banner --></Replace>
 		<Replace Tag="LOC_TITLE_GENGHIS_KHAN_NAME" Language="th_TH">
-			<Text>Chosen of Tengri</Text>		<!-- Chosen of Tengri -->
-		</Replace>
+			<Text>ผู้ถูกเลือกโดยเทงกรี</Text>		<!-- Chosen of Tengri --></Replace>
 		<Replace Tag="LOC_STRATEGYCARD_GENGHIS_KHAN_EXPLORATION_1_NAME" Language="th_TH">
-			<Text>Exploration Expansionist Legacy Card</Text>		<!-- Exploration Expansionist Legacy Card -->
-		</Replace>
+			<Text>ไพ่มรดกขยายอาณาเขต ยุคสำรวจ</Text>		<!-- Exploration Expansionist Legacy Card --></Replace>
 		<Replace Tag="LOC_STRATEGYCARD_GENGHIS_KHAN_EXPLORATION_1_DESCRIPTION" Language="th_TH">
-			<Text>As Genghis Khan, access a new Exploration Legacy Card:[n]
-				+15% Food, -10% Gold</Text>		<!-- As Genghis Khan, access a new Exploration Legacy Card:[n]
-				+15% Food, -10% Gold -->
-		</Replace>
+			<Text>ในฐานะ เจงกิสข่าน เข้าถึงไพ่มรดกยุคสำรวจ:[n]
+				+15% อาหาร, -10% ทอง</Text>		<!-- As Genghis Khan, access a new Exploration Legacy Card:[n]
+				+15% Food, -10% Gold --></Replace>
 		<Replace Tag="LOC_STRATEGYCARD_GENGHIS_KHAN_EXPLORATION_2_NAME" Language="th_TH">
-			<Text>Exploration Militaristic Legacy Card</Text>		<!-- Exploration Militaristic Legacy Card -->
-		</Replace>
+			<Text>ไพ่มรดกทางทหาร ยุคสำรวจ</Text>		<!-- Exploration Militaristic Legacy Card --></Replace>
 		<Replace Tag="LOC_STRATEGYCARD_GENGHIS_KHAN_EXPLORATION_2_DESCRIPTION" Language="th_TH">
-			<Text>As Genghis Khan, access a new Exploration Legacy Card:[n]
-				+3 Combat Strength towards Naval Units, -10% Influence</Text>		<!-- As Genghis Khan, access a new Exploration Legacy Card:[n]
-				+3 Combat Strength towards Naval Units, -10% Influence -->
-		</Replace>
+			<Text>ในฐานะ เจงกิสข่าน เข้าถึงไพ่มรดกยุคสำรวจ:[n]
+				+3 พลังต่อสู้ ต่อยูนิตทางน้ำ, -10% อิทธิพล</Text>		<!-- As Genghis Khan, access a new Exploration Legacy Card:[n]
+				+3 Combat Strength towards Naval Units, -10% Influence --></Replace>
 		<Replace Tag="LOC_STRATEGYCARD_GENGHIS_KHAN_MODERN_1_NAME" Language="th_TH">
-			<Text>Modern Expansionist Legacy Card</Text>		<!-- Modern Expansionist Legacy Card -->
-		</Replace>
+			<Text>ไพ่มรดกขยายอาณาเขต ยุคใหม่</Text>		<!-- Modern Expansionist Legacy Card --></Replace>
 		<Replace Tag="LOC_STRATEGYCARD_GENGHIS_KHAN_MODERN_1_DESCRIPTION" Language="th_TH">
-			<Text>As Genghis Khan, access a new Modern Legacy Card:[n]
-				+15% Food, -10% Gold</Text>		<!-- As Genghis Khan, access a new Modern Legacy Card:[n]
-				+15% Food, -10% Gold -->
-		</Replace>
+			<Text>ในฐานะ เจงกิสข่าน เข้าถึงไพ่มรดกยุคใหม่:[n]
+				+15% อาหาร, -10% ทอง</Text>		<!-- As Genghis Khan, access a new Modern Legacy Card:[n]
+				+15% Food, -10% Gold --></Replace>
 		<Replace Tag="LOC_STRATEGYCARD_GENGHIS_KHAN_MODERN_2_NAME" Language="th_TH">
-			<Text>Modern Militaristic Legacy Card</Text>		<!-- Modern Militaristic Legacy Card -->
-		</Replace>
+			<Text>ไพ่มรดกทางทหาร ยุคใหม่</Text>		<!-- Modern Militaristic Legacy Card --></Replace>
 		<Replace Tag="LOC_STRATEGYCARD_GENGHIS_KHAN_MODERN_2_DESCRIPTION" Language="th_TH">
-			<Text>As Genghis Khan, access a new Modern Legacy Card:[n]
-				+3 Combat Strength towards Air Units, -10% Influence</Text>		<!-- As Genghis Khan, access a new Modern Legacy Card:[n]
-				+3 Combat Strength towards Air Units, -10% Influence -->
-		</Replace>
+			<Text>ในฐานะ เจงกิสข่าน เข้าถึงไพ่มรดกยุคใหม่:[n]
+				+3 พลังต่อสู้ ต่อยูนิตทางอากาศ, -10% อิทธิพล</Text>		<!-- As Genghis Khan, access a new Modern Legacy Card:[n]
+				+3 Combat Strength towards Air Units, -10% Influence --></Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_GENGHIS_KHAN_L1_NAME" Language="th_TH">
-			<Text>Expansionist Attribute Node</Text>		<!-- Expansionist Attribute Node -->
-		</Replace>
+			<Text>โหนดคุณสมบัติขยายอาณาเขต</Text>		<!-- Expansionist Attribute Node --></Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_GENGHIS_KHAN_L1_DESCRIPTION" Language="th_TH">
-			<Text>+50% Gold towards converting a Town to a City.</Text>		<!-- +50% Gold towards converting a Town to a City. -->
-		</Replace>
+			<Text>+50% ทองสำหรับการเปลี่ยนเมืองเล็กเป็นเมืองใหญ่</Text>		<!-- +50% Gold towards converting a Town to a City. --></Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_GENGHIS_KHAN_L2_NAME" Language="th_TH">
-			<Text>Militaristic Attribute Node</Text>		<!-- Militaristic Attribute Node -->
-		</Replace>
+			<Text>โหนดคุณสมบัติทหาร</Text>		<!-- Militaristic Attribute Node --></Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_GENGHIS_KHAN_L2_DESCRIPTION" Language="th_TH">
-			<Text>+5 Combat Strength for all Units against Districts.</Text>		<!-- +5 Combat Strength for all Units against Districts. -->
-		</Replace>
+			<Text>+5 พลังต่อสู้ สำหรับทุกยูนิตเมื่อโจมตีเขต</Text>		<!-- +5 Combat Strength for all Units against Districts. --></Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_GENGHIS_KHAN_DESCRIPTION" Language="th_TH">
-			<Text>Play as [B]Genghis Khan[/B].</Text>		<!-- Play as [B]Genghis Khan[/B]. -->
-		</Replace>
+			<Text>เล่นเป็น [B]เจงกิสข่าน[/B]</Text>		<!-- Play as [B]Genghis Khan[/B]. --></Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_GENGHIS_KHAN_PERSIA_TOOLTIP" Language="th_TH">
-			<Text>[B]Genghis Khan[/B] strategically complements [B]Persia[/B].</Text>		<!-- [B]Genghis Khan[/B] strategically complements [B]Persia[/B]. -->
-		</Replace>
+			<Text>[B]เจงกิสข่าน[/B] เสริมกลยุทธ์กับ [B]เปอร์เซีย[/B]</Text>		<!-- [B]Genghis Khan[/B] strategically complements [B]Persia[/B]. --></Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_GENGHIS_KHAN_MONGOLIA_TOOLTIP" Language="th_TH">
-			<Text>[B]Genghis Khan[/B] ruled the [B]Mongols[/B].</Text>		<!-- [B]Genghis Khan[/B] ruled the [B]Mongols[/B]. -->
-		</Replace>
+			<Text>[B]เจงกิสข่าน[/B] เคยปกครอง [B]มองโกล[/B]</Text>		<!-- [B]Genghis Khan[/B] ruled the [B]Mongols[/B]. --></Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_GENGHIS_KHAN_BULGARIA_TOOLTIP" Language="th_TH">
-			<Text>[B]Bulgaria[/B] strategically complements [B]Genghis Khan[/B].</Text>		<!-- [B]Bulgaria[/B] strategically complements [B]Genghis Khan[/B]. -->
-		</Replace>
+			<Text>[B]บัลแกเรีย[/B] เสริมกลยุทธ์กับ [B]เจงกิสข่าน[/B]</Text>		<!-- [B]Bulgaria[/B] strategically complements [B]Genghis Khan[/B]. --></Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_GENGHIS_KHAN_MUGHAL_TOOLTIP" Language="th_TH">
-			<Text>[B]Genghis Khan[/B] was from the same continent as the [B]Mughal[/B].</Text>		<!-- [B]Genghis Khan[/B] was from the same continent as the [B]Mughal[/B]. -->
-		</Replace>
+			<Text>[B]เจงกิสข่าน[/B] มาจากทวีปเดียวกับ [B]โมกุล[/B]</Text>		<!-- [B]Genghis Khan[/B] was from the same continent as the [B]Mughal[/B]. --></Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_GENGHIS_KHAN_PRUSSIA_TOOLTIP" Language="th_TH">
-			<Text>[B]Prussia[/B] strategically complements [B]Genghis Khan[/B].</Text>		<!-- [B]Prussia[/B] strategically complements [B]Genghis Khan[/B]. -->
-		</Replace>
+			<Text>[B]ปรัสเซีย[/B] เสริมกลยุทธ์กับ [B]เจงกิสข่าน[/B]</Text>		<!-- [B]Prussia[/B] strategically complements [B]Genghis Khan[/B]. --></Replace>
 	</LocalizedText>
 </Database>
