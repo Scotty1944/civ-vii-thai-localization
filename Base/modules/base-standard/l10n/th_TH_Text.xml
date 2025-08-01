@@ -3507,11 +3507,11 @@
 			<Text>เคล็ดลับ: โฟกัสที่การสร้างสิ่งปลูกสร้างเพื่อเพิ่มประชากรในเมืองหากเล่นอารยธรรมที่ได้รับประโยชน์จากค่านี้</Text>		<!-- Tip: Focus on constructing buildings to boost your Urban Population when playing Civs that benefit from it. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_8_TITLE" Language="th_TH">
-			<Text>การอดอยาก</Text>		<!-- Starvation --></Replace>
+			<Text>ความอดอยาก</Text>		<!-- Starvation --></Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_8_CHAPTER_CONTENT_PARA_1" Language="th_TH">
-			<Text>[BLIST][LI]ช่องที่ครอบครอง: ช่องที่อยู่ในขอบเขตของถิ่นฐานของคุณ[LI]ช่องที่ไม่ครอบครอง: ช่องที่ยังไม่อยู่ในขอบเขตของถิ่นฐานใด ๆ[LI]ช่องที่พัฒนาแล้ว: ช่องชนบทที่มีการปรับปรุง (มีประชากรทำงานอยู่)[LI]ช่องที่ยังไม่ได้พัฒนา: ช่องชนบทที่ไม่มีการปรับปรุง (ไม่มีประชากรทำงาน)[LI]ช่องของมิตร: ช่องที่คุณเป็นเจ้าของ หรือที่พันธมิตรและนครรัฐพันธมิตรของคุณเป็นเจ้าของ[LI]ช่องที่เป็นกลาง: ช่องที่ไม่มีอารยธรรมใดเป็นเจ้าของ[LI]ช่องของศัตรู: ช่องที่เป็นของอารยธรรมที่คุณอยู่ในภาวะสงครามด้วย[/LIST]</Text>		<!-- Starvation is uncommon in Civilization VII, thanks to the new approach to managing Food. Unlike previous games, only Specialists require Food upkeep—regular Rural and Urban populations do not. However, starvation can still occur under specific conditions, such as having too many Specialists or when your Settlement suffers from very low Happiness. --></Replace>
+			<Text>ความอดอยากไม่ค่อยเกิดขึ้นใน Civilization VII เนื่องจากระบบการจัดการอาหารแบบใหม่ ที่แตกต่างจากภาคก่อน ๆ ตรงที่มีเพียงผู้เชี่ยวชาญ (Specialist) เท่านั้นที่ต้องใช้ทรัพยากรอาหารในการยังชีพ ประชากรทั่วไปทั้งในพื้นที่ชนบทและเมืองไม่จำเป็นต้องใช้ แต่ถึงอย่างนั้น ความอดอยากก็ยังสามารถเกิดขึ้นได้ในบางกรณี เช่น เมื่อนิคมของคุณมีผู้เชี่ยวชาญมากเกินไป หรือเมื่อค่าความสุขของนิคมลดลงอย่างรุนแรง</Text>		<!-- Starvation is uncommon in Civilization VII, thanks to the new approach to managing Food. Unlike previous games, only Specialists require Food upkeep—regular Rural and Urban populations do not. However, starvation can still occur under specific conditions, such as having too many Specialists or when your Settlement suffers from very low Happiness. --></Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_8_CHAPTER_CONTENT_PARA_2" Language="th_TH">
-			<Text>เคล็ดลับ: เอฟเฟกต์จำนวนมากทำงานตามประเภทของช่อง ตรวจสอบให้แน่ใจว่าคุณรู้ว่าผลกระทบใดอ้างถึงช่องประเภทไหนก่อนตัดสินใจ</Text>		<!-- If your Settlement’s net Food output turns negative, starvation may begin to set in. When starvation fully sets in, it will harm your Settlement by lowering Happiness and destroying one of its buildings or improvements. Always keep an eye on your Food supply and Settlement Happiness to avoid the consequences of starvation. --></Replace>
+			<Text>หากผลผลิตอาหารสุทธิของถิ่นฐานคุณติดลบ ความอดอยากอาจเริ่มเกิดขึ้นได้ และหากเกิดภาวะอดอยากเต็มรูปแบบ จะส่งผลเสียต่อนิคมของคุณ โดยจะทำให้ค่าความสุขลดลง และสิ่งปลูกสร้างหรือสิ่งปรับปรุงอย่างใดอย่างหนึ่งถูกทำลาย คอยเฝ้าระวังปริมาณอาหารและความสุขของนิคมอยู่เสมอ เพื่อหลีกเลี่ยงผลกระทบจากความอดอยาก</Text>		<!-- If your Settlement’s net Food output turns negative, starvation may begin to set in. When starvation fully sets in, it will harm your Settlement by lowering Happiness and destroying one of its buildings or improvements. Always keep an eye on your Food supply and Settlement Happiness to avoid the consequences of starvation. --></Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_8_CHAPTER_CONTENT_PARA_3" Language="th_TH">
 			<Text>เคล็ดลับ: หากเมืองของคุณกำลังขาดแคลนอาหาร ให้พิจารณาเปลี่ยนเมืองที่เชื่อมต่อให้ช่วยเลี้ยงดูเมืองหลัก หากปัญหาคือความสุขต่ำ การประจำการผู้บัญชาการระดับสูงในเมืองจะช่วยลดความไม่มีความสุขได้อย่างมาก</Text>		<!-- Tip: If your City is starving, consider specializing a connected Town to help feed it. If low Happiness is the issue, stationing a high-level Commander in the City can significantly reduce the Unhappiness it generates. -->
 		</Replace>
@@ -9998,9 +9998,11 @@
 			<Text>ลบการพัฒนา?</Text>		<!-- Remove Improvement? -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_PLACEMENT_REMOVE_IMPOVEMENT_BODY" Language="th_TH">
-			<Text>การเลือกช่องนี้จะลบ {1_CurrentImprovementName} ที่มีอยู่เพื่อทำทางให้กับ {2_WonderName} ต่อไปไหม?</Text>		<!-- Selecting this tile will remove the existing {1_CurrentImprovementName} to make way for the {2_WonderName}. Continue?[n][b]The Rural Population is refunded[/b] and can immediately be placed on another tile. --></Replace>
+			<Text>การเลือกช่องนี้จะลบ {1_CurrentImprovementName} ที่มีอยู่เพื่อเปิดทางให้กับ {2_WonderName} คุณต้องการดำเนินการต่อหรือไม่?
+[n][b]ประชากรชนบทจะถูกคืนกลับ[/b] และสามารถย้ายไปยังช่องอื่นได้ทันที</Text>		<!-- Selecting this tile will remove the existing {1_CurrentImprovementName} to make way for the {2_WonderName}. Continue?[n][b]The Rural Population is refunded[/b] and can immediately be placed on another tile. --></Replace>
 		<Replace Tag="LOC_BUILDING_PLACEMENT_REMOVE_GENERIC_IMPOVEMENT_BODY" Language="th_TH">
-			<Text>การเลือกช่องนี้จะลบการพัฒนาที่มีอยู่เพื่อเปิดทางให้กับ {1_WonderName} ต่อไป?</Text>		<!-- Selecting this tile will remove the existing Improvement to make way for the {1_WonderName}. Continue?[n][b]The Rural Population is refunded[/b] and can immediately be placed on another tile. --></Replace>
+			<Text>การเลือกช่องนี้จะลบการพัฒนาที่มีอยู่ เพื่อเปิดทางให้กับ {1_WonderName} คุณต้องการดำเนินการต่อหรือไม่?
+[n][b]ประชากรชนบทจะถูกคืนกลับ[/b] และสามารถย้ายไปยังช่องอื่นได้ทันที</Text>		<!-- Selecting this tile will remove the existing Improvement to make way for the {1_WonderName}. Continue?[n][b]The Rural Population is refunded[/b] and can immediately be placed on another tile. --></Replace>
 		<Replace Tag="LOC_BUILDING_PLACEMENT_CREATE_URBAN_TILE" Language="th_TH">
 			<Text>สร้างเขตเมือง?</Text>		<!-- Create Urban District? -->
 		</Replace>
@@ -10626,12 +10628,12 @@
 			<Text>ฟรีดริช, โอบลีค</Text>		<!-- Friedrich, Oblique -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_FRIEDRICH_DESCRIPTION" Language="th_TH">
-			<Text>ผู้บัญชาการทหาร จะมาพร้อม เหรียญเชิดชู, โดยให้พวกเขามีระยะการบังคับบัญชาเพิ่มขึ้น 1 ยูนิต รับยูนิตทหารจากการสร้างอาคารด้านวิทยาศาสตร์</Text>		<!-- Army Commanders start with the Merit Commendation, granting them +1 Command Radius. Gain an Infantry Unit when you complete a Technology Mastery or construct a Science Building. --></Replace>
+			<Text>ผู้บัญชาการทหาร จะมาพร้อม เหรียญเชิดชู, โดยให้พวกเขามีระยะการบังคับบัญชาเพิ่มขึ้น 1 ยูนิต รับยูนิตทหารจากการวิจัย เทคโนโลยีระดับเชี่ยวชาญ หรือ สร้างอาคารด้านวิทยาศาสตร์</Text>		<!-- Army Commanders start with the Merit Commendation, granting them +1 Command Radius. Gain an Infantry Unit when you complete a Technology Mastery or construct a Science Building. --></Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_FRIEDRICH_ABILITY_NAME" Language="th_TH">
 			<Text>สถาบันการศึกษาแห่งเบอร์ลิน</Text>		<!-- Berlin Academy -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_FRIEDRICH_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]ผู้บัญชาการทหาร [/B]จะมาพร้อม [B]เหรียญเชิดชู[/B] มอบให้พวกเขา [B]+1 ระยะในการสั่งการ[/B][LI]รับ [B]ยูนิตทหารราบ[/B] เมื่อคุณสร้าง [B]อาคารด้านวิทยาศาสตร์[/B][/LIST]</Text>		<!-- [LIST][LI][B]Army Commanders [/B]start with the [B]Merit Commendation[/B], granting them [B]+1 Command Radius[/B].[LI]Gain an [B]Infantry Unit [/B]when you complete a [B]Technology Mastery[/B] or construct a [B]Science Building[/B].[/LIST] --></Replace>
+			<Text>[LIST][LI][B]ผู้บัญชาการทหาร [/B]จะมาพร้อม [B]เหรียญเชิดชู[/B] มอบให้พวกเขา [B]+1 ระยะในการสั่งการ[/B][LI]รับ [B]ยูนิตทหารราบ[/B] เมื่อคุณวิจัย [B]เทคโนโลยีระดับเชี่ยวชาญ[/B] หรือสร้าง [B]อาคารด้านวิทยาศาสตร์[/B][/LIST]</Text>		<!-- [LIST][LI][B]Army Commanders [/B]start with the [B]Merit Commendation[/B], granting them [B]+1 Command Radius[/B].[LI]Gain an [B]Infantry Unit [/B]when you complete a [B]Technology Mastery[/B] or construct a [B]Science Building[/B].[/LIST] --></Replace>
 		<Replace Tag="LOC_LEADER_HARRIET_TUBMAN_NAME" Language="th_TH">
 			<Text>แฮเรียต ทับแมน</Text>		<!-- Harriet Tubman -->
 		</Replace>
@@ -10648,12 +10650,12 @@
 			<Text>แฮตเชปซุต</Text>		<!-- Hatshepsut -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_HATSHEPSUT_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับทรัพยากรที่นำเข้าทั้งหมด +15% [icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้างอาคารและสิ่งมหัศจรรย์ในเมืองที่ติดกับแม่น้ำใหญ่</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture for every unique Resource. +15% [icon:YIELD_PRODUCTION] Production towards constructing Buildings and Wonders in Cities adjacent to Navigable Rivers. --></Replace>
+			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับทรัพยากรเฉพาะ ทั้งหมด +15% [icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้างอาคารและสิ่งมหัศจรรย์ในเมืองที่ติดกับแม่น้ำใหญ่</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture for every unique Resource. +15% [icon:YIELD_PRODUCTION] Production towards constructing Buildings and Wonders in Cities adjacent to Navigable Rivers. --></Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_HATSHEPSUT_ABILITY_NAME" Language="th_TH">
 			<Text>พระชายาของอามุน</Text>		<!-- God's Wife of Amun -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_HATSHEPSUT_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+1 [icon:YIELD_CULTURE] วัฒนธรรม [/B]สำหรับทุก [B]ทรัพยากร[/B] ที่นำเข้า[LI][B]+15% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการก่อสร้าง [B]อาคาร [/B]และ [B]สิ่งมหัศจรรย์ [/B]ใน [B]เมือง [/B]ที่อยู่ใกล้กับ [B]แม่น้ำใหญ่[/B][/LIST]</Text>		<!-- [LIST][LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]per Age for every unique [B]Resource[/B].[LI][B]+15% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Buildings [/B]and [B]Wonders [/B]in [B]Cities [/B]adjacent to [B]Navigable Rivers[/B].[/LIST] --></Replace>
+			<Text>[LIST][LI][B]+1 [icon:YIELD_CULTURE] วัฒนธรรม [/B]ต่อยุค สำหรับ [B]ทรัพยากรเฉพาะ[/B][LI][B]+15% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการก่อสร้าง [B]อาคาร [/B]และ [B]สิ่งมหัศจรรย์ [/B]ใน [B]เมือง [/B]ที่อยู่ใกล้กับ [B]แม่น้ำใหญ่[/B][/LIST]</Text>		<!-- [LIST][LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]per Age for every unique [B]Resource[/B].[LI][B]+15% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Buildings [/B]and [B]Wonders [/B]in [B]Cities [/B]adjacent to [B]Navigable Rivers[/B].[/LIST] --></Replace>
 		<Replace Tag="LOC_LEADER_HIMIKO_NAME" Language="th_TH">
 			<Text>ฮิมิโกะ, ราชินีแห่งแคว้นวะ</Text>		<!-- Himiko, Queen of Wa -->
 		</Replace>
@@ -10700,12 +10702,12 @@
 			<Text>โฮเซ รีซัล</Text>		<!-- José Rizal -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_JOSE_RIZAL_DESCRIPTION" Language="th_TH">
-			<Text>เมื่อได้รับรางวัลจากกิจกรรมบอกเรื่องราว จะได้รับวัฒนธรรม [icon:YIELD_CULTURE] เพิ่มอีก 20 และทอง [icon:YIELD_GOLD] เพิ่มอีก 20 ต่อยุค มีเหตุการณ์บอกเรื่องราวเพิ่มเติม ระยะเวลาเฉลิมฉลองเพิ่มขึ้น 50% ความสุข [icon:YIELD_HAPPINESS] ต่อการเฉลิมฉลองเพิ่มขึ้น 50%</Text>		<!-- When gaining rewards from a Narrative Event, gain an additional 20 [icon:YIELD_CULTURE] Culture, [icon:YIELD_GOLD] Gold and [icon:YIELD_INFLUENCE] Influence per Age. Has additional Narrative Events. +50% Celebration duration. +50% [icon:YIELD_HAPPINESS] Happiness towards Celebrations. --></Replace>
+			<Text>เมื่อได้รับรางวัลจากกิจกรรมบอกเรื่องราว จะได้รับเพิ่มอีก 20 [icon:YIELD_CULTURE] วัฒนธรรม, [icon:YIELD_GOLD] ทอง และ [icon:YIELD_INFLUENCE] อิทธิพล ต่อยุค, มีเหตุการณ์เรื่องเล่าเพิ่มเติม ระยะเวลาเฉลิมฉลองเพิ่มขึ้น 50% ความสุข [icon:YIELD_HAPPINESS] ต่อการเฉลิมฉลองเพิ่มขึ้น 50%</Text>		<!-- When gaining rewards from a Narrative Event, gain an additional 20 [icon:YIELD_CULTURE] Culture, [icon:YIELD_GOLD] Gold and [icon:YIELD_INFLUENCE] Influence per Age. Has additional Narrative Events. +50% Celebration duration. +50% [icon:YIELD_HAPPINESS] Happiness towards Celebrations. --></Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_JOSE_RIZAL_ABILITY_NAME" Language="th_TH">
 			<Text>วีรบุรุษแห่งชาติ</Text>		<!-- Pambansang Bayani -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_JOSE_RIZAL_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]เมื่อได้รับรางวัลจาก [B]เหตุการณ์ในเรื่องเล่า[/B] จะได้รับ [B]วัฒนธรรม [icon:YIELD_CULTURE] 20 [/B]และ [icon:YIELD_GOLD] [B]ทอง [/B]ต่อยุค[LI]มี [B]เหตุการณ์เชิงนัย[/B] เพิ่มเติม[LI][B]+50% ระยะเวลาเฉลิมฉลอง [/B][LI][B]+50% [icon:YIELD_HAPPINESS] ความสุข [/B]ต่อ [B]การเฉลิมฉลอง[/B][/LIST]</Text>		<!-- [LIST][LI]When gaining rewards from a [B]Narrative Event[/B], gain an additional [B]20 [icon:YIELD_CULTURE] Culture [/B], [icon:YIELD_GOLD] [B]Gold [/B] and [icon:YIELD_DIPLOMACY] [B]Influence [/B]per Age.[LI]Has additional [B]Narrative Events[/B].[LI][B]+50% Celebration [/B]duration.[LI][B]+50% [icon:YIELD_HAPPINESS] Happiness [/B]towards [B]Celebrations[/B].[/LIST] --></Replace>
+			<Text>[LIST][LI]เมื่อได้รับรางวัลจาก [B]เหตุการณ์เรื่องเล่า[/B] จะได้รับเพิ่มอีก 20 [B][icon:YIELD_CULTURE] วัฒนธรรม[/B], [B][icon:YIELD_GOLD] ทอง[/B] และ [B][icon:YIELD_INFLUENCE] อิทธิพล[/B] ต่อยุค[LI]มี [B]เหตุการณ์เรื่องเล่า[/B] เพิ่มเติม[LI][B]+50% ระยะเวลาเฉลิมฉลอง [/B][LI][B]+50% [icon:YIELD_HAPPINESS] ความสุข [/B]ต่อ [B]การเฉลิมฉลอง[/B][/LIST]</Text>		<!-- [LIST][LI]When gaining rewards from a [B]Narrative Event[/B], gain an additional [B]20 [icon:YIELD_CULTURE] Culture [/B], [icon:YIELD_GOLD] [B]Gold [/B] and [icon:YIELD_DIPLOMACY] [B]Influence [/B]per Age.[LI]Has additional [B]Narrative Events[/B].[LI][B]+50% Celebration [/B]duration.[LI][B]+50% [icon:YIELD_HAPPINESS] Happiness [/B]towards [B]Celebrations[/B].[/LIST] --></Replace>
 		<Replace Tag="LOC_RIZAL_MOD_CELEBRATION_LENGTH_DESCRIPTION" Language="th_TH">
 			<Text>ระยะเวลาเฉลิมฉลองเพิ่มขึ้น 50%</Text>		<!-- +50% Celebration duration. -->
 		</Replace>
@@ -10737,12 +10739,13 @@
 			<Text>ปาชาคูติ</Text>		<!-- Pachacuti -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_PACHACUTI_DESCRIPTION" Language="th_TH">
-			<Text>ทุกอาคารจะได้รับ +1 [icon:YIELD_FOOD] อาหาร โบนัสใกล้เคียงภูเขา, ผู้เชี่ยวชาญที่อยู่ติดกับภูเขาจะไม่ต้องจ่ายค่าบำรุงรักษา [icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- All Buildings receive a +1 [icon:YIELD_FOOD] Food Adjacency for Mountains. Specialists adjacent to Mountains pay no [icon:YIELD_HAPPINESS] Happiness maintenance. Cities gain a bonus to [icon:YIELD_PRODUCTION] Production equal to 10% of that City’s [icon:YIELD_FOOD] Food. --></Replace>
+			<Text>ทุกอาคารจะได้รับ +1 [icon:YIELD_FOOD] อาหาร โบนัสใกล้เคียงภูเขา, ผู้เชี่ยวชาญที่อยู่ติดกับภูเขาจะไม่ต้องจ่ายค่าบำรุงรักษา [icon:YIELD_HAPPINESS] ความสุข, เมืองจะได้รับโบนัส [icon:YIELD_PRODUCTION] กำลังผลิต เท่ากับ 10% ของ [icon:YIELD_FOOD] อาหาร ของเมืองนั้น</Text>		<!-- All Buildings receive a +1 [icon:YIELD_FOOD] Food Adjacency for Mountains. Specialists adjacent to Mountains pay no [icon:YIELD_HAPPINESS] Happiness maintenance. Cities gain a bonus to [icon:YIELD_PRODUCTION] Production equal to 10% of that City’s [icon:YIELD_FOOD] Food. --></Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_PACHACUTI_ABILITY_NAME" Language="th_TH">
 			<Text>ผู้เขย่าพิภพ</Text>		<!-- Earth Shaker -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_PACHACUTI_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]ทุกอาคารจะได้รับ[B]+1 [icon:YIELD_FOOD] อาหาร ในทุกช่องที่ใกล้กับ[/B] [B]ภูเขา[/B],[LI][B]ผู้เชี่ยวชาญ [/B]ที่อยู่ใกล้[B]ภูเขา [/B]จะไม่มีค่าใช้จ่ายการบำรุง[B]ความสุข [/B][/LIST]</Text>		<!-- [LIST][LI]All Buildings receive a +1 [B][icon:YIELD_FOOD] Food Adjacency [/B]for [B]Mountains[/B].[LI][B]Specialists [/B]adjacent to [B]Mountains [/B]pay no [icon:YIELD_HAPPINESS] [B]Happiness [/B]maintenance. [LI][B] Cities gain a bonus to [B][icon:YIELD_PRODUCTION] Production[/B] equal to 10% of that City’s [B][icon:YIELD_FOOD] Food[/B].[/LIST] --></Replace>
+			<Text>[LIST][LI]อาคารทุกชนิดได้รับโบนัส [B][icon:YIELD_FOOD] อาหาร[/B] จากพื้นที่ติดกับ [B]ภูเขา[/B] +1[LI][B]ผู้เชี่ยวชาญ[/B] ที่อยู่ติดกับ [B]ภูเขา[/B] ไม่ต้องเสียค่าบำรุงรักษา [icon:YIELD_HAPPINESS] [B]ความสุข[/B][LI][B]เมือง[/B] ได้รับโบนัส [icon:YIELD_PRODUCTION] [B]กำลังผลิต[/B] เท่ากับ 10% ของ [icon:YIELD_FOOD] [B]อาหาร[/B] ของเมืองนั้น
+[/LIST]</Text>		<!-- [LIST][LI]All Buildings receive a +1 [B][icon:YIELD_FOOD] Food Adjacency [/B]for [B]Mountains[/B].[LI][B]Specialists [/B]adjacent to [B]Mountains [/B]pay no [icon:YIELD_HAPPINESS] [B]Happiness [/B]maintenance. [LI][B] Cities gain a bonus to [B][icon:YIELD_PRODUCTION] Production[/B] equal to 10% of that City’s [B][icon:YIELD_FOOD] Food[/B].[/LIST] --></Replace>
 		<Replace Tag="LOC_LEADER_TRUNG_TRAC_NAME" Language="th_TH">
 			<Text>จึง จั๊ก</Text>		<!-- Trung Trac -->
 		</Replace>
@@ -23879,7 +23882,7 @@
 			<Text>หุบเขาดอกไม้</Text>		<!-- Valley of Flowers -->
 		</Replace>
 		<Replace Tag="LOC_FEATURE_VALLEY_OF_FLOWERS_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_FOOD] อาหาร, [icon:YIELD_GOLD] ทอง, และ[icon:YIELD_HAPPINESS] ความสุข ต่อยุค +10 ระยะการค้าทางบกให้กับเส้นทางการค้าจากถิ่นฐานนี้</Text>		<!-- +2[icon:YIELD_FOOD] Food,[icon:YIELD_CULTURE] Culture, and[icon:YIELD_HAPPINESS] Happiness per Age. +10 Land Trade Route Range to Trade Routes from this Settlement. --></Replace>
+			<Text>+2[icon:YIELD_FOOD] อาหาร, [icon:YIELD_CULTURE] วัฒนธรรม, และ[icon:YIELD_HAPPINESS] ความสุข ต่อยุค +10 ระยะการค้าทางบกให้กับเส้นทางการค้าจากถิ่นฐานนี้</Text>		<!-- +2[icon:YIELD_FOOD] Food,[icon:YIELD_CULTURE] Culture, and[icon:YIELD_HAPPINESS] Happiness per Age. +10 Land Trade Route Range to Trade Routes from this Settlement. --></Replace>
 		<Replace Tag="LOC_FEATURE_VALLEY_OF_FLOWERS_TOOLTIP" Language="th_TH">
 			<Text>เส้นทางการค้าทางบกต่อถิ่นฐานนี้เพิ่มขึ้น +10</Text>		<!-- +10 Land Trade Route Range to this Settlement. -->
 		</Replace>
@@ -25020,7 +25023,7 @@
 			<Text>เมืองศักดิ์สิทธิ์ไม่สามารถถูกทำลายได้</Text>		<!-- Holy Cities cannot be razed -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_CAPTURE_KEEP_SETTLEMENT_DESC" Language="th_TH">
-			<Text>ความสุข และ กำลังผลิต จะถูกลดลงชั่วคราว จนกว่าถิ่นฐานจะ ปรับตัว เข้าได้</Text>		<!-- Happiness and Production will be temporarily reduced until the Settlement is assimilated.[n]{1_penalty}. --></Replace>
+			<Text>ความสุข และ กำลังผลิต จะถูกลดลงชั่วคราว จนกว่าถิ่นฐานจะ ปรับตัว เข้าได้[n]{1_penalty}</Text>		<!-- Happiness and Production will be temporarily reduced until the Settlement is assimilated.[n]{1_penalty}. --></Replace>
 		<Replace Tag="LOC_UI_CITY_CAPTURE_RAZE_SETTLEMENT_DESC" Language="th_TH">
 			<Text>ลบถิ่นฐานอย่างถาวรหลังจาก {1_Turns} เทิร์น, สิ่งนี้ทำให้เกิดบทลงโทษทางการทูต -100 แต้ม</Text>		<!-- Remove the Settlement permanently after {1_Turns} {1_Turns: plural 1?turn; other?turns;}. This incurs a -100 Diplomatic Penalty -->
 		</Replace>
@@ -31407,7 +31410,7 @@
 			<Text>{LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_MILESTONE_2_NAME}</Text>		<!-- {LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_MILESTONE_2_NAME} -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_MILESTONE_2_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_GOLD] ทอง ต่อเทิร์นต่อทรัพยากรที่คุณมีที่ไม่ซ้ำกัน</Text>		<!-- +2[icon:YIELD_GOLD] Gold per turn per unique Resource you have. -->
+			<Text>+2 [icon:YIELD_GOLD] ทอง ต่อเทิร์นต่อ ทรัพยากรเฉพาะ ที่คุณมี</Text>		<!-- +2[icon:YIELD_GOLD] Gold per turn per unique Resource you have. -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ATTRIBUTE_MILITARY_NAME" Language="th_TH">
 			<Text>แต้มคุณลักษณะทางทหาร</Text>		<!-- Militaristic Attribute Point -->
