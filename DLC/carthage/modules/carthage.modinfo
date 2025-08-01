@@ -53,15 +53,16 @@
 					<Item>data/unlocks-base-standard.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
-					<Item>text/CultureText.xml</Item>
-					<Item>text/LoadingText.xml</Item>
-					<File>text/ModuleText.xml</File>
-					<Item>text/NamedPlacesText.xml</Item>
-					<Item>text/NarrativeStoriesText.xml</Item>
-					<Item>text/UnlockText.xml</Item>
-					<Item>text/CivilizationLegacyText.xml</Item>
-					<Item>text/MoveLaterText.xml</Item>
-					<Item>text/CivilopediaText.xml</Item>
+					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/LoadingText.xml</Item>
+					<File>text/en_us/ModuleText.xml</File>
+					<Item>text/en_us/NamedPlacesText.xml</Item>
+					<Item>text/en_us/NarrativeStoriesText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/en_us/CivilizationLegacyText.xml</Item>
+					<Item>text/en_us/MoveLaterText.xml</Item>
+					<Item>text/en_us/CivilopediaText.xml</Item>
+					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
 
 					<!-- Items below were generated via our loc tool. -->
 					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
@@ -89,6 +90,8 @@
 					<Item>data/civilizations-antiquity.xml</Item>
 					<Item>data/civilizations-gameeffects.xml</Item>
 					<Item>data/loading-info-antiquity.xml</Item>
+					<Item>data/metaprogression.xml</Item>
+					<Item>data/metaprogression-gameeffects.xml</Item>
 					<Item>data/narrative-display.xml</Item>
 					<Item>data/narrative-stories-gameeffects-antiquity.xml</Item>
 					<Item>data/narrative-stories-antiquity.xml</Item>
@@ -101,9 +104,9 @@
 					<Item>data/movies.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
-					<Item>text/CitizenNamesText.xml</Item>
-					<Item>text/CivilizationText.xml</Item>
-					<Item>text/UnitText.xml</Item>
+					<Item>text/en_us/CitizenNamesText.xml</Item>
+					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>
 				</UpdateText>
 				<ImportFiles locale="de_DE">
 					<Item>l10n/de_DE/loading_civ_antiquity_carthage.vtt</Item>
@@ -224,8 +227,8 @@
 					<Item>data/constructibles-gameeffects.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
-					<Item>text/CityNamesText.xml</Item>
-					<Item>text/ConstructibleText.xml</Item>
+					<Item>text/en_us/CityNamesText.xml</Item>
+					<Item>text/en_us/ConstructibleText.xml</Item>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
@@ -261,15 +264,17 @@
 				</UpdateArt>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
+					<Item>config/metaprogression.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
-					<Item>text/CivilizationLegacyText.xml</Item>
-					<Item>text/CivilizationText.xml</Item>
-					<Item>text/ConstructibleText.xml</Item>
-					<Item>text/LoadingText.xml</Item>
-					<File>text/ModuleText.xml</File>
-					<Item>text/UnitText.xml</Item>
-					<Item>text/UnlockText.xml</Item>
+					<Item>text/en_us/CivilizationLegacyText.xml</Item>
+					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/ConstructibleText.xml</Item>
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
+					<File>text/en_us/ModuleText.xml</File>
+					<Item>text/en_us/UnitText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>
 
 					<!-- Items below were generated via our loc tool. -->
 					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
@@ -289,7 +294,7 @@
 		</ActionGroup>
 	</ActionGroups>
 	<LocalizedText>
-		<File>text/ModuleText.xml</File>
+		<File>text/en_us/ModuleText.xml</File>
 		<File>l10n/ModuleText.xml</File>
 	</LocalizedText>
 </Mod>

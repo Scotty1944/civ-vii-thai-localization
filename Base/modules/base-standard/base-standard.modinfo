@@ -33,6 +33,8 @@
 					<Item>ui/action/panel-action.js</Item>
 					<Item>ui/advanced-start/model-advanced-start.js</Item>
 					<Item>ui/advanced-start/screen-advanced-start.js</Item>
+					<Item>ui/age-progression-warning-mini-banner/panel-age-progression-warning-mini-banner.js</Item>
+					<Item>ui/age-progression-warning-popup/panel-age-progression-warning-popup.js</Item>
 					<Item>ui/age-scores/model-age-scores.js</Item>
 					<Item>ui/age-scores/panel-age-scores.js</Item>
 					<Item>ui/age-rankings/model-age-rankings.js</Item>
@@ -40,7 +42,6 @@
 					<Item>ui/age-summary/model-age-summary-hub.js</Item>
 					<Item>ui/age-summary/screen-age-summary-hub.js</Item>
 					<Item>ui/age-transition-banner/age-transition-banner.js</Item>
-					<Item>ui/appeal-plotkey/appeal-plotkey.js</Item>
 					<Item>ui/army-panel/army-panel.js</Item>
 					<Item>ui/unit-rename/unit-rename.js</Item>
 					<Item>ui/attribute-trees/screen-attribute-trees.js</Item>
@@ -75,6 +76,7 @@
 					<Item>ui/diplomacy-peace-deal/panel-diplomacy-peace-deal.js</Item>
 					<Item>ui/diplomacy-project-reaction/panel-diplomacy-project-reaction.js</Item>
 					<Item>ui/diplomacy-actions/screen-diplomacy-target-select.js</Item>
+					<Item>ui/diplomacy/diplomacy-events.js</Item>
 					<Item>ui/diplomacy/diplomacy-manager.js</Item>
 					<Item>ui/district/district-health-manager.js</Item>
 					<Item>ui/district/district-health.js</Item>
@@ -96,13 +98,12 @@
 					<Item>ui/culture-tree/screen-culture-tree.js</Item>
 					<Item>ui/end-results/end-results.js</Item>
 					<Item>ui/pantheon-chooser/panel-religion-chooser.js</Item>
+					<Item>ui/settler-legend/panel-settler-legend.js</Item>
 					<Item>ui/tech-tree-chooser/screen-tech-tree-chooser.js</Item>
 					<Item>ui/trade-route-chooser/trade-route-banner.js</Item>
 					<Item>ui/trade-route-chooser/trade-route-chooser.js</Item>
 					<Item>ui/trade-route-chooser/trade-routes-model.js</Item>
 					<Item>ui/trade-route-chooser/trade-route-tooltip.js</Item>
-					<Item>ui/hex-grid/panel-hex-grid.js</Item>
-					<Item>ui/hex-grid/panel-hex-tile.js</Item>
 					<Item>ui/interface-modes/interface-mode-advanced-start.js</Item>
 					<Item>ui/interface-modes/interface-mode-acquire-tile.js</Item>
 					<Item>ui/interface-modes/interface-mode-add-to-army.js</Item>
@@ -213,6 +214,7 @@
 					<Item>ui/plot-icon/plot-icon-suggested-settlement.js</Item>
 					<Item>ui/plot-icon/plot-icon-archeology.js</Item>
 					<Item>ui/plot-workers/plot-workers-manager.js</Item>
+					<Item>ui/popup-sequencer/popup-sequencer.js</Item>
 					<Item>ui/production-chooser/panel-production-chooser.js</Item>
 					<Item>ui/production-chooser/panel-production-tooltips.js</Item>
 					<Item>ui/quest-tracker/narrative-quest-manager.js</Item>
@@ -221,7 +223,6 @@
 					<Item>ui/quest-tracker/quest-tracker.js</Item>
 					<Item>ui/quick-save-indicator/quick-save-indicator.js</Item>
 					<Item>ui/save-indicator/save-indicator.js</Item>
-					<Item>ui/root-game.js</Item>
 					<Item>ui/small-narrative-event/small-narrative-event.js</Item>
 					<Item>ui/resource-allocation/screen-resource-allocation.js</Item>
 					<Item>ui/sub-system-dock/panel-sub-system-dock.js</Item>
@@ -401,7 +402,7 @@
 					<Item>data/icons/emoji-icons.xml</Item>
 					<Item>data/icons/improvement-icons.xml</Item>
 					<Item>data/icons/leader-icons.xml</Item>
-					<Item>data/icons/legacy-icons.xml</Item>
+					<Item>data/icons/legacy-path-icons.xml</Item>
 					<Item>data/icons/misc-icons.xml</Item>
 					<Item>data/icons/modifier-icons.xml</Item>
 					<Item>data/icons/narrative-icons.xml</Item>
@@ -951,11 +952,13 @@
 					<Item>data/icons/emoji-icons.xml</Item>
 					<Item>data/icons/improvement-icons.xml</Item>
 					<Item>data/icons/leader-icons.xml</Item>
+					<Item>data/icons/legacy-path-icons.xml</Item>
 					<Item>data/icons/misc-icons.xml</Item>
 					<Item>data/icons/modifier-icons.xml</Item>
 					<Item>data/icons/narrative-icons.xml</Item>
 					<Item>data/icons/notification-icons.xml</Item>
 					<Item>data/icons/project-icons.xml</Item>
+					<Item>data/icons/radial-icons.xml</Item>
 					<Item>data/icons/relationship-icons.xml</Item>
 					<Item>data/icons/resource-icons.xml</Item>
 					<Item>data/icons/resource-icons-v2.xml</Item>
@@ -979,6 +982,7 @@
 					<Item>text/en_us/UnlockableRewardsText.xml</Item>
 					<Item>text/en_us/UIText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/en_us/NarrativeCrisesStoriesText.xml</Item>
 					<Item>text/en_us/LeaderDialog_BenjaminFranklin.xml</Item>
 					<Item>text/en_us/LeaderDialog_Augustus.xml</Item>
 					<Item>text/en_us/LeaderDialog_Catherine.xml</Item>

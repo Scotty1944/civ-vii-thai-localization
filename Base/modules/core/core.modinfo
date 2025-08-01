@@ -56,14 +56,17 @@
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
 
 					<!-- These text-override entries must happen *after* translations. -->
-					<Item platform="NX">text/en_us/OptionsText_RumbleFeature.xml</Item>
-					<Item platform="NX">text/en_us/OptionsText_Console.xml</Item>
+					<Item platform="Switch">text/en_us/OptionsText_RumbleFeature.xml</Item>
+					<Item platform="Ounce">text/en_us/OptionsText_RumbleFeature.xml</Item>
+					<Item platform="Switch">text/en_us/OptionsText_Console.xml</Item>
+					<Item platform="Ounce">text/en_us/OptionsText_Console.xml</Item>
 					<Item platform="PS4">text/en_us/OptionsText_ControllerVibration.xml</Item>
 					<Item platform="PS5">text/en_us/OptionsText_ControllerVibration.xml</Item>
 					<Item platform="XboxOne">text/en_us/OptionsText_ControllerVibration.xml</Item>
 					<Item platform="XboxOne">text/en_us/OptionsText_Console.xml</Item>
 					<Item platform="XboxScarlett">text/en_us/OptionsText_ControllerVibration.xml</Item>
 					<Item platform="XboxScarlett">text/en_us/OptionsText_Console.xml</Item>
+					<Item platform="iOS">text/en_us/OptionsText_AppleArcadeProfileNames.xml</Item>
 
 					<Item platform="PS4">text/en_us/ControllerText_InvertSticks_PS4.xml</Item>
 					<Item platform="PS4">text/en_us/InputText_ThumbSticks_PS4.xml</Item>
@@ -148,6 +151,7 @@
 					<Item>ui/shell/shell-components/icon-dropdown.js</Item>
 					<Item>ui/shell/store-launcher/screen-dlc-viewer.js</Item>
 					<Item>ui/utilities/utilities-liveops.js</Item>
+					<Item>ui/shell/odr-download/odr-download.js</Item>
 				</UIScripts>
 
 				<UIShortcuts>
@@ -158,11 +162,8 @@
 					<Item>ui/reference/icon-browser.html</Item>
 					<Item>ui/reference/movie-browser.html</Item>
 					<Item>ui/reference/page-panel.html</Item>
-					<Item>ui/sandbox/sandbox.html</Item>
 					<Item>ui/sandbox/comp-sandbox/comp-sandbox.html</Item>
 					<Item>ui/shell/root-shell.html</Item>
-					<Item>ui/shell/options/page-gameoptions.html</Item>
-					<Item>ui/shell/mp-browser/page-mp-browser.html</Item>
 					<Item>ui/shell/mp-host-setup/page-mp-hostsetup.html</Item>
 				</UIShortcuts>
 
@@ -217,14 +218,17 @@
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
 
 					<!-- These text-override entries must happen *after* translations. -->
-					<Item platform="NX">text/en_us/OptionsText_RumbleFeature.xml</Item>
-					<Item platform="NX">text/en_us/OptionsText_Console.xml</Item>
+					<Item platform="Switch">text/en_us/OptionsText_RumbleFeature.xml</Item>
+					<Item platform="Ounce">text/en_us/OptionsText_RumbleFeature.xml</Item>
+					<Item platform="Switch">text/en_us/OptionsText_Console.xml</Item>
+					<Item platform="Ounce">text/en_us/OptionsText_Console.xml</Item>
 					<Item platform="PS4">text/en_us/OptionsText_ControllerVibration.xml</Item>
 					<Item platform="PS5">text/en_us/OptionsText_ControllerVibration.xml</Item>
 					<Item platform="XboxOne">text/en_us/OptionsText_ControllerVibration.xml</Item>
 					<Item platform="XboxOne">text/en_us/OptionsText_Console.xml</Item>
 					<Item platform="XboxScarlett">text/en_us/OptionsText_ControllerVibration.xml</Item>
 					<Item platform="XboxScarlett">text/en_us/OptionsText_Console.xml</Item>
+					<Item platform="iOS">text/en_us/OptionsText_AppleArcadeProfileNames.xml</Item>
 
 					<Item platform="PS4">text/en_us/ControllerText_InvertSticks_PS4.xml</Item>
 					<Item platform="PS4">text/en_us/InputText_ThumbSticks_PS4.xml</Item>
@@ -254,10 +258,8 @@
 				</UIShortcuts>
 
 				<ImportFiles>
-					<Item>scripts-shared/utility-component-id.js</Item>
 					<Item>ui/cohtml.js</Item>
 					<Item>ui/component-support.js</Item>
-					<Item>ui/action-handler.js</Item>
 					<Item>ui/accessibility/cohtml-speech-api.js</Item>
 					<Item>ui/utilities/utilities-network.js</Item>
 					<Item>ui/utilities/utilities-online.js</Item>

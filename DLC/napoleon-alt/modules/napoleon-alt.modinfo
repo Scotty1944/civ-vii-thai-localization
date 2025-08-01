@@ -3,7 +3,7 @@
 	xmlns="ModInfo">
 	<Properties>
 		<Name>LOC_MODULE_NAPOLEON_ALT_NAME</Name>
-		<Description>LOC_MODULE_NAPOLEON_ALT_NAME</Description>
+		<Description>LOC_MODULE_NAPOLEON_ALT_DESCRIPTION</Description>
 		<Authors>LOC_AUTHORS_FIRAXIS</Authors>
 		<Package>DLC</Package>
 	</Properties>
@@ -93,7 +93,6 @@
 					<Item>data/narrative-stories-gameeffects-antiquity.xml</Item>
 					<Item>data/narrative-stories-antiquity.xml</Item>
 					<Item>data/age-transition-advanced-start-exploration.xml</Item>
-					<Item>data/unlocks-antiquity.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/AdvancedStartText-exploration.xml</Item>
@@ -109,10 +108,9 @@
 					<Item>data/narrative-stories-gameeffects-exploration.xml</Item>
 					<Item>data/narrative-stories-exploration.xml</Item>
 					<Item>data/age-transition-advanced-start-exploration.xml</Item>
-					<Item>data/unlocks-exploration.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
-					<Item>text/en_us/AdvancedStartText-modern.xml</Item>
+					<Item>text/en_us/AdvancedStartText-exploration.xml</Item>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
@@ -126,6 +124,9 @@
 					<Item>data/narrative-stories-modern.xml</Item>
 					<Item>data/age-transition-advanced-start-modern.xml</Item>
 				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/AdvancedStartText-modern.xml</Item>
+				</UpdateText>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="shell-napoleon-alt" scope="shell" criteria="always">
