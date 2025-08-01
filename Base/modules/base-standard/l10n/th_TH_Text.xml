@@ -44,10 +44,10 @@
 			<Text>{1_Hours}:{2_Minutes} PM</Text>		<!-- {1_Hours}:{2_Minutes} PM -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_GAME_SETTINGS" Language="th_TH">
-			<Text>ตั้งค่าเกม</Text>		<!-- Game Settings -->
+			<Text>ทั่วไป</Text>		<!-- General -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_SETTINGS" Language="th_TH">
-			<Text>ตั้งค่าผู้เล่น</Text>		<!-- Player Settings -->
+			<Text>ผู้เล่น</Text>		<!-- Player -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_LEGACY_PATH_SETTINGS" Language="th_TH">
 			<Text>เส้นทางมรดก</Text>		<!-- Legacy Paths -->
@@ -287,10 +287,10 @@
 			<Text>อำนาจอิสระจะเริ่มต้นเป็นศัตรูกับผู้เล่น ยกเว้นอำนาจอิสระที่เกิดจากการที่ผู้เล่นมีรัฐในพื้นที่นั้นในยุคก่อนหน้า</Text>		<!-- Independent Powers will start Hostile towards Players. This excludes Independent powers who spawn as a result of a player having a City State in that location in the previous Age. -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_CRISIS" Language="th_TH">
-			<Text>วิกฤต</Text>		<!-- Crises -->
+			<Text>วิกฤต</Text>		<!-- Crises Enabled -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_CRISIS_DESC" Language="th_TH">
-			<Text>เปิดใช้งานเหตุการณ์วิกฤตในยุคที่ไม่มีการปลดล็อกชัยชนะ</Text>		<!-- Enables Crisis Events in Ages without Victory Unlocks -->
+			<Text>เปิด/ปิดเหตุการณ์วิกฤต</Text>		<!-- Whether or not to enable crisis events in game -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_CRISIS_INTENSITY" Language="th_TH">
 			<Text>ความรุนแรงของวิกฤต</Text>		<!-- Crisis Intensity -->
@@ -1329,13 +1329,13 @@
 			<Text>+1[icon:YIELD_FOOD] อาหาร ต่อยุคใน อาคารคลังสินค้า</Text>		<!-- +1[icon:YIELD_FOOD] Food per Age on Warehouse Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_04_DESCRIPTION" Language="th_TH">
-			<Text>25% ของ[icon:YIELD_FOOD] อาหาร จะถูกคืนให้ เมื่อเมืองเติบโต โดยการเพิ่มผู้เชี่ยวชาญ</Text>		<!-- 25% of[icon:YIELD_FOOD] Food is refunded when a City grows by adding a Specialist. -->
+			<Text>15% ของ[icon:YIELD_FOOD] อาหาร จะถูกคืนให้ เมื่อเมืองเติบโต โดยการเพิ่มผู้เชี่ยวชาญ</Text>		<!-- 15% of[icon:YIELD_FOOD] Food is refunded when a City grows by adding a Specialist. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_05_DESCRIPTION" Language="th_TH">
 			<Text>ได้รับ +1 ประชากรในเมือง, การสร้างเมืองใหม่ จะได้รับ ประชากรเพิ่มเติม</Text>		<!-- Gain +1 Population in Towns. New Towns start with an additional Population. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_06_DESCRIPTION" Language="th_TH">
-			<Text>+15%[icon:YIELD_FOOD] อาหาร และ[icon:YIELD_HAPPINESS] ความสุข ต่อการบำรุงรักษา ผู้เชี่ยวชาญ, หรือ +30% หากคุณมีเมืองใหญ่ 3 แห่งหรือน้อยกว่า</Text>		<!-- +15%[icon:YIELD_FOOD] Food and[icon:YIELD_HAPPINESS] Happiness towards maintaining Specialists, or +30% if you have 3 or fewer Cities. -->
+			<Text>+10%[icon:YIELD_FOOD] อาหาร และ[icon:YIELD_HAPPINESS] ความสุข ต่อการบำรุงรักษา ผู้เชี่ยวชาญ, หรือ +20% หากคุณมีเมืองใหญ่ 3 แห่งหรือน้อยกว่า</Text>		<!-- +10%[icon:YIELD_FOOD] Food and[icon:YIELD_HAPPINESS] Happiness towards maintaining Specialists, or +20% if you have 3 or fewer Cities. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_07_DESCRIPTION" Language="th_TH">
 			<Text>+15% ผลผลิตในเมืองที่มี ผู้เชี่ยวชาญ, หรือ +30% ในดินแดนห่างไกล</Text>		<!-- +15% Yields in Towns with a Specialization, or +30% in Distant Lands. -->
@@ -1452,25 +1452,25 @@
 			<Text>ปลดล็อกตำนาน, +25% ความสัมพันธ์ จากการเริ่มต้น หรือสนับสนุน ความร่วมมือ, -25% ความสัมพันธ์ จากการ คว่ำบาตร หรือปฏิเสธ ความร่วมมือ</Text>		<!-- Legend Unlock. +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_AMINA_L1_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน,[n]+25% [icon:YIELD_GOLD]ทอง จากการค้า และ เรือบรรทุกสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD]Gold from Trade and Treasure Fleets. -->
+			<Text>ปลดล็อกตำนาน,[n]+25% [icon:YIELD_GOLD]ทอง จากการค้า และ ขบวนบรรทุกสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD]Gold from Trade and Treasure Convoys. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_HATSHEPSUT_L2_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน,[n]+25% [icon:YIELD_GOLD]ทอง จากการค้า และ เรือบรรทุกสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD]Gold from Trade and Treasure Fleets. -->
+			<Text>ปลดล็อกตำนาน,[n]+25% [icon:YIELD_GOLD]ทอง จากการค้า และ ขบวนบรรทุกสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD]Gold from Trade and Treasure Convoys. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_IBN_BATTUTA_L1_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน,[n]+25% [icon:YIELD_GOLD]ทอง จากการค้า และ เรือบรรทุกสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD]Gold from Trade and Treasure Fleets. -->
+			<Text>ปลดล็อกตำนาน,[n]+25% [icon:YIELD_GOLD]ทอง จากการค้า และ ขบวนบรรทุกสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD]Gold from Trade and Treasure Convoys. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_ISABELLA_L1_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน,[n]+25% [icon:YIELD_GOLD]ทอง จากการค้า และ เรือบรรทุกสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD]Gold from Trade and Treasure Fleets. -->
+			<Text>ปลดล็อกตำนาน,[n]+25% [icon:YIELD_GOLD]ทอง จากการค้า และ ขบวนบรรทุกสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD]Gold from Trade and Treasure Convoys. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_MACHIAVELLI_L2_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน,[n]+25% [icon:YIELD_GOLD]ทอง จากการค้า และ เรือบรรทุกสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD]Gold from Trade and Treasure Fleets. -->
+			<Text>ปลดล็อกตำนาน,[n]+25% [icon:YIELD_GOLD]ทอง จากการค้า และ ขบวนบรรทุกสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD]Gold from Trade and Treasure Convoys. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_PACHACUTI_L1_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน,[n]+25% [icon:YIELD_GOLD]ทอง จากการค้า และ เรือบรรทุกสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD]Gold from Trade and Treasure Fleets. -->
+			<Text>ปลดล็อกตำนาน,[n]+25% [icon:YIELD_GOLD]ทอง จากการค้า และ ขบวนบรรทุกสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD]Gold from Trade and Treasure Convoys. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_XERXES_L1_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน,[n]+25% [icon:YIELD_GOLD]ทอง จากการค้า และ เรือบรรทุกสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD]Gold from Trade and Treasure Fleets. -->
+			<Text>ปลดล็อกตำนาน,[n]+25% [icon:YIELD_GOLD]ทอง จากการค้า และ ขบวนบรรทุกสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD]Gold from Trade and Treasure Convoys. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_ASHOKA_L2_DESCRIPTION" Language="th_TH">
 			<Text>ปลดล็อกตำนาน, +50% [icon:YIELD_GOLD]ทอง ต่อการแปลงเมือง เป็น เมืองใหญ่</Text>		<!-- Legend Unlock. +50% [icon:YIELD_GOLD]Gold towards converting a Town to a City. -->
@@ -5993,7 +5993,7 @@
 			<Text>ถิ่นกำเนิด: {1_Name}</Text>		<!-- Origin: {1_Name} -->
 		</Replace>
 		<Replace Tag="LOC_UI_RESOURCE_TREASURE_TURNS_LEFT" Language="th_TH">
-			<Text>{1_Name} เทิร์น สำหรับ เรือบรรทุกสมบัติ</Text>		<!-- {1_Name} Turns Left for Treasure Fleet -->
+			<Text>{1_Name} เทิร์น สำหรับ ขบวนบรรทุกสมบัติ</Text>		<!-- {1_Name} Turns Left for Treasure Convoy -->
 		</Replace>
 		<Replace Tag="LOC_UI_RESOURCE_ALLOCATION_SETTLEMENT_DISCONNECTED" Language="th_TH">
 			<Text>ถิ่นฐานไม่ได้เชื่อมต่อกับเครือข่ายการค้าของจักรวรรดิของคุณ</Text>		<!-- Settlement is not connected to your empire's trade network. -->
@@ -6491,7 +6491,7 @@
 			<Text>ผลกระทบจากการเปลี่ยนแปลงยุค</Text>		<!-- Age Transition Impact -->
 		</Replace>
 		<Replace Tag="LOC_AGE_TRANSITION_SETTING_DESCRIPTION" Language="th_TH">
-			<Text>หลังจากการเปลี่ยนยุค สามารถรวมรายการได้กี่รายการเข้าไปในอาณาจักรของคุณโดยค่าเริ่มต้น</Text>		<!-- How many items can be incorporated into your empire by default after an Age Transition -->
+			<Text>ตั้งค่าความรุนแรงของผลกระทบต่อจักรวรรดิเมื่อเกิดการเปลี่ยนยุค</Text>		<!-- Sets how drastically empires are affected by Age Transitions. -->
 		</Replace>
 		<Replace Tag="LOC_AGE_TRANSITION_SETTING_DEFAULT_NAME" Language="th_TH">
 			<Text>ค่าเริ่มต้น</Text>		<!-- Default -->
@@ -7230,7 +7230,7 @@
 			<Text>อึนโกมา</Text>		<!-- Ng'oma -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_NG_OMA_DESCRIPTION" Language="th_TH">
-			<Text>+6 พลังต่อสู้ เมื่อยูนิตอยู่ใกล้ทะเลสาบ</Text>		<!-- +6 Combat Strength when Units are adjacent to a Lake. -->
+			<Text>+6 พลังต่อสู้ เมื่อยูนิตอยู่ใกล้ทะเลสาบชายฝั่ง</Text>		<!-- +6 Combat Strength when Units are adjacent to a Coastal Lake. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_NG_OMA_PREVIEW" Language="th_TH">
 			<Text>+6 อึนโกมา</Text>		<!-- +6 Ng'oma. -->
@@ -7239,7 +7239,7 @@
 			<Text>อินเทอร์ลาคัสทริน</Text>		<!-- Interlacustrine -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_INTERLACUSTRINE_DESCRIPTION" Language="th_TH">
-			<Text>ทุกอาคารได้รับประโยชน์กับการใกล้ทะเลสาบ</Text>		<!-- All Buildings gain adjacency from Lakes. -->
+			<Text>ทุกอาคารได้รับประโยชน์กับการใกล้ทะเลสาบชายฝั่ง</Text>		<!-- All Buildings gain adjacency from Coastal Lakes. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_STYLE_EMPIRE_NAME" Language="th_TH">
 			<Text>สไตล์จักรวรรดิ</Text>		<!-- Style Empire -->
@@ -9267,10 +9267,10 @@
 			<Text>การกระทำนี้จะเริ่มสงครามกับ {1_targetName} คุณแน่ใจไหม?</Text>		<!-- This action will start a war with {1_targetName}. Are you sure? -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PICK_WAR_TYPE_FORMAL_BODY" Language="th_TH">
-			<Text>นี่จะประกาศ สงครามอย่างเป็นทางการ เนื่องจากคุณเป็น ปรปักษ์ กับฝ่ายตรงข้ามที่จะทำสงครามด้วย[N]การสนับสนุนสงคราม - ฝ่ายเรา: {1_yourWarBonus}, ฝ่ายตรงข้าม: {2_theirWarBonus}[N]โบนัส การสนับสนุนสงคราม จะได้รับผลกระทบจากความสัมพันธ์, การทำลายถิ่นฐาน และปัจจัยอื่นๆ</Text>		<!-- This will declare a Formal War since you have a Hostile Relationship.[N]Initial War Support - For you: {1_yourWarBonus}, For them: {2_theirWarBonus}.[N]Bonus War Support is impacted by relationship, razing settlements and other factors. -->
+			<Text>นี่จะประกาศ สงครามอย่างเป็นทางการ เนื่องจากคุณเป็น ปรปักษ์ กับฝ่ายตรงข้ามที่จะทำสงครามด้วย[N]การสนับสนุนสงคราม - ฝ่ายเรา: {1_yourWarBonus}, ฝ่ายตรงข้าม: {2_theirWarBonus}[N]บทลงโทษจากการทำสงครามแบบฟ้าแลบ จะเพิ่มขึ้นตามระดับความสัมพันธ์ที่เป็นมิตร</Text>		<!-- This will declare a Formal War since you have a Hostile Relationship.[N]Initial War Support - For you: {1_yourWarBonus}, For them: {2_theirWarBonus}.[N]The penalty for a Surprise War increases with friendlier relations. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PICK_WAR_TYPE_SURPRISE_BODY" Language="th_TH">
-			<Text>นี่จะประกาศ สงครามอย่างฉับพลัน เนื่องจากคุณไม่ได้เป็น ปรปักษ์ ฝ่ายตรงข้ามจะได้รับ {3_theirInfluenceBonus}[icon:YIELD_DIPLOMACY] อิทธิพล [N]การสนับสนุนสงคราม - ฝ่ายเรา: {1_yourWarBonus}, ฝ่ายตรงข้าม: {2_theirWarBonus}[N]โบนัส การสนับสนุนสงคราม จะได้รับผลกระทบจากความสัมพันธ์, การทำลายถิ่นฐาน และปัจจัยอื่นๆ</Text>		<!-- This will declare a Surprise War since you do not have a Hostile Relationship. They will gain {3_theirInfluenceBonus}[icon:YIELD_DIPLOMACY] Influence.[N]Initial War Support - For you: {1_yourWarBonus}, For them: {2_theirWarBonus}.[N]Bonus War Support is impacted by relationship, razing settlements and other factors. -->
+			<Text>นี่จะประกาศ สงครามอย่างฉับพลัน เนื่องจากคุณไม่ได้เป็น ปรปักษ์ ฝ่ายตรงข้ามจะได้รับ {3_theirInfluenceBonus}[icon:YIELD_DIPLOMACY] อิทธิพล [N]การสนับสนุนสงคราม - ฝ่ายเรา: {1_yourWarBonus}, ฝ่ายตรงข้าม: {2_theirWarBonus}[N]บทลงโทษจากการทำสงครามแบบฟ้าแลบ จะเพิ่มขึ้นตามระดับความสัมพันธ์ที่เป็นมิตร</Text>		<!-- This will declare a Surprise War since you do not have a Hostile Relationship. They will gain {3_theirInfluenceBonus}[icon:YIELD_DIPLOMACY] Influence.[N]Initial War Support - For you: {1_yourWarBonus}, For them: {2_theirWarBonus}.[N]The penalty for a Surprise War increases with friendlier relations. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_FORMAL_WAR" Language="th_TH">
 			<Text>สงครามอย่างเป็นทางการ</Text>		<!-- Formal War -->
@@ -9282,7 +9282,7 @@
 			<Text>0</Text>		<!-- 0 -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_BONUS_WAR_SUPPORT" Language="th_TH">
-			<Text>สงครามนี้จะสร้าง การสนับสนุนสงคราม ต่อไปนี้[N] {1_yourWarBonus} สำหรับคุณ, {2_theirWarBonus} และ {3_theirInfluenceBonus}[icon:YIELD_DIPLOMACY] อิทธิพล สำหรับคู่ต่อสู้ของคุณ[N]โบนัส การสนับสนุนสงคราม จะได้รับผลกระทบจากความสัมพันธ์, การทำลายตั้งถิ่นฐานและปัจจัยอื่นๆ[N]การเป็นศัตรูจะสร้าง สงครามอย่างเป็นทางการ</Text>		<!-- This War will create the following War Support[N] {1_yourWarBonus} for you, {2_theirWarBonus} and {3_theirInfluenceBonus}[icon:YIELD_DIPLOMACY] Influence for your opponent.[N]Bonus War Support is impacted by relationship, razing settlements and other factors.[N]Being Hostile will create a Formal War. -->
+			<Text>สงครามนี้จะสร้าง การสนับสนุนสงคราม ต่อไปนี้[N] {1_yourWarBonus} สำหรับคุณ, {2_theirWarBonus} และ {3_theirInfluenceBonus}[icon:YIELD_DIPLOMACY] อิทธิพล สำหรับคู่ต่อสู้ของคุณ[N]บทลงโทษจากการทำสงครามแบบฟ้าแลบ จะเพิ่มขึ้นตามระดับความสัมพันธ์ที่เป็นมิตร[N]การเป็นศัตรูจะสร้าง สงครามอย่างเป็นทางการ</Text>		<!-- This War will create the following War Support[N] {1_yourWarBonus} for you, {2_theirWarBonus} and {3_theirInfluenceBonus}[icon:YIELD_DIPLOMACY] Influence for your opponent.[N]The penalty for a Surprise War increases with friendlier relations.[N]Being Hostile will create a Formal War. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_CONFIRM_DECLARE_WAR_ON_INDEPENDENT_TITLE" Language="th_TH">
 			<Text>เริ่มการต่อสู้?</Text>		<!-- Begin Hostilities? -->
@@ -9585,16 +9585,16 @@
 			<Text>ขโมยทรัพย์สมบัติ</Text>		<!-- Steal Riches -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ESPIONAGE_STEAL_RICHES_DESCRIPTION" Language="th_TH">
-			<Text>ปล้นทรัพย์สมบัติทั้งหมดในถิ่นฐานที่ตั้งเป้า จากนั้นเรียกเรือขุมทรัพย์ให้อยู่ภายใต้การควบคุมของคุณ</Text>		<!-- Pillage all treasure Resources in the target settlement, and then spawn a Treasure Fleet under your control. -->
+			<Text>ปล้นทรัพย์สมบัติทั้งหมดในถิ่นฐานที่ตั้งเป้า จากนั้นเรียกขบวนบรรทุกสมบัติให้อยู่ภายใต้การควบคุมของคุณ</Text>		<!-- Pillage all treasure Resources in the target settlement, and then spawn a Treasure Convoy under your control. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ESTABLISH_TREASURE_FLEET_NAME" Language="th_TH">
-			<Text>จัดตั้งกองเรือสมบัติ</Text>		<!-- Establish Treasure Fleet -->
+			<Text>จัดตั้งขบวนบรรทุกสมบัติ</Text>		<!-- Establish Treasure Convoy -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ESTABLISH_TREASURE_FLEET_DESCRIPTION" Language="th_TH">
-			<Text>สร้างยูนิตขนสินค้าทอง ในถิ่นฐานของพันธมิตรใน ดินแดนห่างไกล ที่สามารถก่อกำเนิดเรือขนสินค้าทองได้</Text>		<!-- Create a Treasure Fleet Unit in a Distant Lands Settlement of an ally that is capable of spawning a Treasure Fleet. -->
+			<Text>สร้างยูนิตขบวนบรรทุกสมบัติ ในถิ่นฐานของพันธมิตรใน ดินแดนห่างไกล ที่สามารถก่อกำเนิดเรือขนสินค้าทองได้</Text>		<!-- Create a Treasure Convoy Unit in a Distant Lands Settlement of an ally that is capable of spawning a Treasure Convoy. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_ESTABLISH_TREASURE_FLEET_ACCEPT" Language="th_TH">
-			<Text>สร้างยูนิตขุมทรัพย์ในพื้นที่ของผู้ริเริ่มในถิ่นฐานของคุณหลังจาก {3_duration} เทิร์น รับ +12[icon:YIELD_GOLD] ทอง ต่อเทิร์นในขณะที่การกระทำการทูตทำงานอยู่</Text>		<!-- Create a Treasure Fleet Unit in for the initiator in your Settlement after {3_duration} turns. Gain +12[icon:YIELD_GOLD] Gold per turn while the Diplomatic Action is active. -->
+			<Text>สร้างยูนิตขบวนบรรทุกสมบัติ ในพื้นที่ของผู้ริเริ่มในถิ่นฐานของคุณหลังจาก {3_duration} เทิร์น รับ +12[icon:YIELD_GOLD] ทอง ต่อเทิร์นในขณะที่การกระทำการทูตทำงานอยู่</Text>		<!-- Create a Treasure Convoy Unit in for the initiator in your Settlement after {3_duration} turns. Gain +12[icon:YIELD_GOLD] Gold per turn while the Diplomatic Action is active. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_ESTABLISH_TREASURE_FLEET_REJECT" Language="th_TH">
 			<Text>ยกเลิกการกระทำทางการทูต[n]{1_initialName}[icon:YIELD_DIPLOMACY] ได้รับ แต้มอิทธิพลคืน[n]ไม่มี ความร่วมมือ ใหม่ระหว่างผู้นำเป็นเวลา {2_cooldown} เทิร์น[n]ความสัมพันธ์แย่ลง</Text>		<!-- Cancels the Diplomatic Action.[n]{1_initialName}'s[icon:YIELD_DIPLOMACY] Influence is refunded.[n]No new Endeavors between Leaders for {2_cooldown} turns.[n]Relationships worsen. -->
@@ -9759,7 +9759,7 @@
 			<Text>การเป็นพันธมิตรกับ {1_selectedPlayer} จะทำให้คุณเข้าสู่สงครามกับฝ่ายอื่น</Text>		<!-- Forming an alliance with {1_selectedPlayer}, will put you at war with others. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PICK_ALLIANCE_BODY_2" Language="th_TH">
-			<Text>แรงสนับสนุนสงครามพิเศษได้รับผลจากความสัมพันธ์ การเผาเมือง และปัจจัยอื่นๆ</Text>		<!-- Bonus War Support is impacted by relationship, razing settlements and other factors. -->
+			<Text>บทลงโทษจากการทำสงครามแบบฟ้าแลบ จะเพิ่มขึ้นตามระดับความสัมพันธ์ที่เป็นมิตร</Text>		<!-- The penalty for a Surprise War increases with friendlier relations. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_FORM_ALLIANCE_TOOL_TIP" Language="th_TH">
 			<Text>การสร้างพันธมิตรจะทำให้คุณเข้าสู่สงครามกับฝ่ายอื่น[N][B]{1_leaders}[/B]</Text>		<!-- Forming an Alliance will put you at war with others.[N][B]{1_leaders}[/B] -->
@@ -11006,121 +11006,121 @@
 			<Text>อามินา</Text>		<!-- Amina -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_AMINA_DESCRIPTION" Language="th_TH">
-			<Text>+1 ความจุทรัพยากร ในเมืองใหญ่, +1 [icon:YIELD_GOLD] ทอง ต่อยุคสำหรับทรัพยากรแต่ละชนิดที่จัดสรรให้กับเมือง, ยูนิตทั้งหมดได้รับ +5 พลังต่อสู้ในที่ราบและทะเลทราย</Text>		<!-- +1 Resource Capacity in Cities. +1 [icon:YIELD_GOLD] Gold per Age for each Resource assigned to Cities. All Units receive +5 Combat Strength in Plains and Desert. -->
+			<Text>+1 [icon:RADIAL_RESOURCES] ความจุทรัพยากร ใน[icon:YIELD_CITIES] เมืองใหญ่, +1 [icon:YIELD_GOLD] ทอง ต่อยุคสำหรับ[icon:RADIAL_RESOURCES] ทรัพยากร แต่ละชนิดที่จัดสรรให้กับ[icon:YIELD_CITIES] เมืองใหญ่, ยูนิตทั้งหมดได้รับ +5 [icon:NAR_REW_COMBAT] พลังต่อสู้ในที่ราบและทะเลทราย</Text>		<!-- +1 [icon:RADIAL_RESOURCES] Resource Capacity in [icon:YIELD_CITIES] Cities. +1 [icon:YIELD_GOLD] Gold per Age for each [icon:RADIAL_RESOURCES] Resource assigned to [icon:YIELD_CITIES] Cities. All Units receive +5 [icon:NAR_REW_COMBAT] Combat Strength in Plains and Desert. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_AMINA_ABILITY_NAME" Language="th_TH">
 			<Text>ราชินีนักรบแห่งซาซเซา</Text>		<!-- Warrior-Queen of Zazzau -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_AMINA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+1 ความจุทรัพยากร [/B]ในเมืองใหญ่[LI][B]+1 [icon:YIELD_GOLD] ทอง [/B]ต่อยุคสำหรับแต่ละ [B]แหล่งทรัพยากร [/B]ที่ถูกกำหนดให้กับเมือง[LI][B]+5 กำลังต่อสู้ [/B]ในยูนิตทั้งหมดใน [B]ทุ่งนา [/B]และ [B]ทะเลทราย[/B][/LIST]</Text>		<!-- [LIST][LI][B]+1 Resource Capacity [/B]in Cities.[LI][B]+1 [icon:YIELD_GOLD] Gold [/B]per Age for each [B]Resource [/B]assigned to Cities.[LI][B]+5 Combat Strength [/B]on all Units in [B]Plains [/B]and [B]Desert[/B].[/LIST] -->
+			<Text>[LIST][LI][B]+1 [icon:RADIAL_RESOURCES] ความจุทรัพยากร [/B]ใน [icon:YIELD_CITIES] เมืองใหญ่[LI][B]+1 [icon:YIELD_GOLD] ทอง [/B]ต่อยุคสำหรับแต่ละ [icon:RADIAL_RESOURCES][B]แหล่งทรัพยากร [/B]ที่ถูกกำหนดให้กับ [icon:YIELD_CITIES] เมืองใหญ่[LI][B]+5 [icon:NAR_REW_COMBAT] พลังต่อสู้ [/B]ในยูนิตทั้งหมดใน [B]ทุ่งนา [/B]และ [B]ทะเลทราย[/B][/LIST]</Text>		<!-- [BLIST][LI][B]+1 [icon:RADIAL_RESOURCES] Resource Capacity [/B]in [icon:YIELD_CITIES] [B]Cities[/B].[LI][B]+1 [icon:YIELD_GOLD] Gold [/B]per Age for each [icon:RADIAL_RESOURCES] [B]Resource [/B]assigned to [icon:YIELD_CITIES] [B]Cities[/B].[LI][B]+5 [icon:NAR_REW_COMBAT] Combat Strength [/B]on all Units in [B]Plains [/B]and [B]Desert[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_ASHOKA_NAME" Language="th_TH">
 			<Text>อโศกมหาราช, ผู้ละทางโลก</Text>		<!-- Ashoka, World Renouncer -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_ASHOKA_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_FOOD] อาหาร ในเมืองสำหรับทุก 5[icon:YIELD_HAPPINESS] ความสุข ที่เกินมา +10% [icon:YIELD_FOOD] อาหาร ในทุกถิ่นฐานในระหว่าง งานเฉลิมฉลอง อาคารทั้งหมดได้รับ +1 [icon:YIELD_HAPPINESS] ความสุข จากความใกล้ชิดสำหรับเขตพัฒนาทั้งหมด</Text>		<!-- +1 [icon:YIELD_FOOD] Food in Cities for every 5 excess [icon:YIELD_HAPPINESS] Happiness. +10% [icon:YIELD_FOOD] Food in all Settlements during a Celebration. All Buildings gain a +1 [icon:YIELD_HAPPINESS] Happiness Adjacency for all Improvements. -->
+			<Text>+1 [icon:YIELD_FOOD] อาหาร ใน [icon:YIELD_CITIES] เมืองใหญ่สำหรับทุก 5[icon:YIELD_HAPPINESS] ความสุข ที่เกินมา +10% [icon:YIELD_FOOD] อาหาร ในทุกถิ่นฐานในระหว่าง [icon:CELEBRATION] งานเฉลิมฉลอง อาคารทั้งหมดได้รับ +1 [icon:YIELD_HAPPINESS] ความสุข จากความใกล้ชิดสำหรับเขตพัฒนาทั้งหมด</Text>		<!-- +1 [icon:YIELD_FOOD] Food in [icon:YIELD_CITIES] Cities for every 5 excess [icon:YIELD_HAPPINESS] Happiness. +10% [icon:YIELD_FOOD] Food in all Settlements during a [icon:CELEBRATION] Celebration. All Buildings gain a +1 [icon:YIELD_HAPPINESS] Happiness Adjacency for all Improvements. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ASHOKA_ABILITY_NAME" Language="th_TH">
 			<Text>ธรรมราชา</Text>		<!-- Dhammaraja -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ASHOKA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+1 [icon:YIELD_FOOD] อาหาร [/B]ใน [B]เมือง [/B]สำหรับทุก [B]ความสุขเกิน [icon:YIELD_HAPPINESS] ความสุข [/B][LI][B]+10% [icon:YIELD_FOOD] อาหาร [/B]ในทุกถิ่นฐานในช่วง [B]การเฉลิมฉลอง[/B][LI]ทุกอาคารได้รับ [B]+1 [icon:YIELD_HAPPINESS] ความสุข เพิ่มเติม [/B]สำหรับทุก [B]การพัฒนา[/B][/LIST]</Text>		<!-- [LIST][LI][B]+1 [icon:YIELD_FOOD] Food [/B]in [B]Cities [/B]for every [B]5 excess[icon:YIELD_HAPPINESS] Happiness[/B].[LI][B]+10% [icon:YIELD_FOOD] Food [/B]in all Settlements during a [B]Celebration[/B].[LI]All Buildings gain a [B]+1 [icon:YIELD_HAPPINESS] Happiness Adjacency [/B]for all [B]Improvements[/B].[/LIST] -->
+			<Text>[ฺBLIST][LI][B]+1 [icon:YIELD_FOOD] อาหาร [/B]ใน [B][icon:YIELD_CITIES] เมืองใหญ่ [/B]สำหรับทุก [B]ความสุขเกิน [icon:YIELD_HAPPINESS] ความสุข [/B][LI][B]+10% [icon:YIELD_FOOD] อาหาร [/B]ในทุกถิ่นฐานในช่วง [B][icon:CELEBRATION] งานเฉลิมฉลอง[/B][LI]ทุกอาคารได้รับ [B]+1 [icon:YIELD_HAPPINESS] ความสุข เพิ่มเติม [/B]สำหรับทุกเขตพัฒนา[/BLIST]</Text>		<!-- [BLIST][LI][B]+1 [icon:YIELD_FOOD] Food [/B]in [icon:YIELD_CITIES] [B]Cities [/B]for every [B]5 excess [icon:YIELD_HAPPINESS] Happiness[/B].[LI][B]+10% [icon:YIELD_FOOD] Food [/B]in all Settlements during a [icon:CELEBRATION] [B]Celebration[/B].[LI]All Buildings gain a [B]+1 [icon:YIELD_HAPPINESS] Happiness Adjacency [/B]for all Improvements.[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_AUGUSTUS_NAME" Language="th_TH">
 			<Text>ออกัสตัส</Text>		<!-- Augustus -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_AUGUSTUS_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_PRODUCTION] กำลังผลิต ในเมืองหลวง สำหรับทุกเมือง สามารถซื้อ [icon:YIELD_CULTURE] อาคารด้านวัฒนธรรมในเมืองได้ +50% [icon:YIELD_GOLD] ทอง ในการซื้ออาคารในเมือง</Text>		<!-- +2[icon:YIELD_PRODUCTION] Production in the Capital for every Town. Can purchase [icon:YIELD_CULTURE] Culture Buildings in Towns. +50% [icon:YIELD_GOLD] Gold towards purchasing Buildings in Towns. -->
+			<Text>+2 [icon:YIELD_PRODUCTION] กำลังผลิต ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง สำหรับทุก [icon:YIELD_TOWNS] เมือง สามารถซื้อ [icon:YIELD_CULTURE] อาคารด้านวัฒนธรรมใน [icon:YIELD_TOWNS] เมืองได้ +50% [icon:YIELD_GOLD] ทอง ในการซื้ออาคารใน [icon:YIELD_TOWNS] เมือง</Text>		<!-- +2 [icon:YIELD_PRODUCTION] Production in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every [icon:YIELD_TOWNS] Town. Can purchase [icon:YIELD_CULTURE] Culture Buildings in [icon:YIELD_TOWNS] Towns. +50% [icon:YIELD_GOLD] Gold towards purchasing Buildings in [icon:YIELD_TOWNS] Towns. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_AUGUSTUS_ABILITY_NAME" Language="th_TH">
 			<Text>อิมเปอเรียม ไมอุส</Text>		<!-- Imperium Maius -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_AUGUSTUS_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+2 [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ใน [B]เมืองหลวง [/B]สำหรับทุกๆ [B]เมือง[/B][LI]สามารถซื้อ [icon:YIELD_CULTURE] [B]อาคารด้านวัฒนธรรม [/B]ใน [B]เมือง[/B][LI][B]+50% [icon:YIELD_GOLD] ทอง [/B]สำหรับการซื้อ [B]อาคาร [/B]ใน [B]เมือง[/B][/LIST]</Text>		<!-- [LIST][LI][B]+2 [icon:YIELD_PRODUCTION] Production [/B]in the [B]Capital [/B]for every [B]Town[/B].[LI]Can purchase [icon:YIELD_CULTURE] [B]Culture Buildings [/B]in [B]Towns[/B].[LI][B]+50% [icon:YIELD_GOLD] Gold [/B]towards purchasing [B]Buildings [/B]in [B]Towns[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]+2 [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ใน [B][icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง [/B]สำหรับทุกๆ [B][icon:YIELD_TOWNS] เมือง[/B][LI]สามารถซื้อ [icon:YIELD_CULTURE] [B]อาคารด้านวัฒนธรรม [/B]ใน [B][icon:YIELD_TOWNS] เมือง[/B][LI][B]+50% [icon:YIELD_GOLD] ทอง [/B]สำหรับการซื้อ [B]อาคาร [/B]ใน [B][icon:YIELD_TOWNS] เมือง[/B][/BLIST]</Text>		<!-- [BLIST][LI][B]+2 [icon:YIELD_PRODUCTION] Production [/B]in the [icon:NOTIFICATION_SELECT_CAPITAL] [B]Capital [/B]for every [icon:YIELD_TOWNS] [B]Town[/B].[LI]Can purchase [icon:YIELD_CULTURE] [B]Culture Buildings [/B]in [icon:YIELD_TOWNS] [B]Towns[/B].[LI][B]+50% [icon:YIELD_GOLD] Gold [/B]towards purchasing Buildings in [icon:YIELD_TOWNS] [B]Towns[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_BENJAMIN_FRANKLIN_NAME" Language="th_TH">
 			<Text>เบนจามิน แฟรงคลิน</Text>		<!-- Benjamin Franklin -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_BENJAMIN_FRANKLIN_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุคในอาคารด้านการผลิตในเมือง +50% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อการสร้างอาคารด้านการผลิต +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุค จาก ความร่วมมือ ที่คุณเริ่มต้นหรือ สนับสนุน สามารถมี ความร่วมมือ ประเภทเดียวกัน สองอย่างทำงานพร้อมกันได้ในเวลาเดียวกัน</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science per Age on Production Buildings in Cities. +50% [icon:YIELD_PRODUCTION] Production towards constructing Production Buildings. +1 [icon:YIELD_SCIENCE] Science per Age from active Endeavors you started or supported. Can have two Endeavors of the same type active at a time. -->
+			<Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุค บน [icon:YIELD_PRODUCTION] อาคารด้านการผลิตใน [icon:YIELD_CITIES] เมืองใหญ่ +50% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อการสร้าง [icon:YIELD_PRODUCTION อาคารด้านการผลิต +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุค จาก [icon:ENDEAVOR] ความร่วมมือ ที่คุณเริ่มต้นหรือ สนับสนุน สามารถมี [icon:ENDEAVOR] ความร่วมมือ ประเภทเดียวกัน สองอย่างทำงานพร้อมกันได้ในเวลาเดียวกัน</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science per Age on [icon:YIELD_PRODUCTION] Production Buildings in [icon:YIELD_CITIES] Cities. +50% [icon:YIELD_PRODUCTION] Production towards constructing [icon:YIELD_PRODUCTION] Production Buildings. +1 [icon:YIELD_SCIENCE] Science per Age from active [icon:ENDEAVOR] Endeavors you started or supported. Can have two [icon:ENDEAVOR] Endeavors of the same type active at a time. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_BENJAMIN_FRANKLIN_ABILITY_NAME" Language="th_TH">
 			<Text>ชาวอเมริกันคนแรก</Text>		<!-- The First American -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_BENJAMIN_FRANKLIN_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]ต่อยุคใน [B]อาคารด้านการผลิต [/B]ในเมือง[LI][B]+50% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]อาคารด้านการผลิต[/B][LI][B]+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]ต่อยุคจาก [B]ความร่วมมือ [/B]ที่คุณเริ่มหรือสนับสนุน[LI]สามารถมี [B]ความร่วมมือ [/B]ประเภทเดียวกันได้ สองรายการ ที่กำลังดำเนินการในเวลาเดียวกัน[/LIST]</Text>		<!-- [LIST][LI][B]+1 [icon:YIELD_SCIENCE] Science [/B]per Age on [B]Production Buildings [/B]in Cities.[LI][B]+50% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Production Buildings[/B].[LI][B]+1 [icon:YIELD_SCIENCE] Science [/B]per Age from active [B]Endeavors [/B]you started or supported.[LI]Can have two [B]Endeavors [/B] of the same type active at a time.[/LIST] -->
+			<Text>[BLIST][LI][B]+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]ต่อยุคใน [B][icon:YIELD_PRODUCTION] อาคารด้านการผลิต [/B]ใน [icon:YIELD_CITIES] เมืองใหญ่[LI][B]+50% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B][icon:YIELD_PRODUCTION] อาคารด้านการผลิต[/B][LI][B]+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]ต่อยุคจาก [B][icon:ENDEAVOR] ความร่วมมือ [/B]ที่คุณเริ่มหรือสนับสนุน[LI]สามารถมี [B][icon:ENDEAVOR] ความร่วมมือ [/B]ประเภทเดียวกันได้ สองรายการ ที่กำลังดำเนินการในเวลาเดียวกัน[/BLIST]</Text>		<!-- [BLIST][LI][B]+1 [icon:YIELD_SCIENCE] Science [/B]per Age on [icon:YIELD_PRODUCTION] [B]Production Buildings [/B]in [icon:YIELD_CITIES] [B]Cities[/B].[LI][B]+50% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [icon:YIELD_PRODUCTION] [B]Production Buildings[/B].[LI][B]+1 [icon:YIELD_SCIENCE] Science [/B]per Age from active [icon:ENDEAVOR] [B]Endeavors [/B]you started or supported.[LI]Can have two [icon:ENDEAVOR] [B]Endeavors [/B] of the same type active at a time.[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CATHERINE_NAME" Language="th_TH">
 			<Text>แคทเธอรีนมหาราช</Text>		<!-- Catherine the Great -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CATHERINE_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม ต่อยุคในงานที่ยิ่งใหญ่ที่แสดงอยู่ อาคารที่มีช่องงานที่ยิ่งใหญ่จะได้รับช่องเพิ่มเติม 1 ช่อง เมืองที่ตั้งอยู่ในทุ่งน้ำแข็งจะได้รับ [icon:YIELD_SCIENCE] วิทยาศาสตร์ เท่ากับ 25% ของ [icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture per Age on displayed Great Works. Buildings with Great Work slots gain 1 additional slot. Cities settled in Tundra gain [icon:YIELD_SCIENCE] Science equal to 25% of their [icon:YIELD_CULTURE] Culture per turn. -->
+			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม ต่อยุค บน [icon:GREATWORK] ผลงานชิ้นเอก ที่แสดงอยู่ อาคารที่มี [icon:GREATWORK] ช่องผลงานชิ้นเอก จะได้รับช่องเพิ่มเติม 1 ช่อง [icon:YIELD_CITIES] เมืองใหญ่ ที่ตั้งอยู่ในทุ่งน้ำแข็งจะได้รับ [icon:YIELD_SCIENCE] วิทยาศาสตร์ เท่ากับ 25% ของ [icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture per Age on displayed [icon:GREATWORK] Great Works. Buildings with [icon:GREATWORK] Great Work slots gain 1 additional slot. [icon:YIELD_CITIES] Cities settled in Tundra gain [icon:YIELD_SCIENCE] Science equal to 25% of their [icon:YIELD_CULTURE] Culture per turn. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_CATHERINE_ABILITY_NAME" Language="th_TH">
 			<Text>ดวงดาวแห่งทิศเหนือ</Text>		<!-- Star of the North -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_CATHERINE_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+2 [icon:YIELD_CULTURE] วัฒนธรรม [/B]ต่อยุคจาก [B]ผลงานชิ้นเอก [/B]ที่แสดงอยู่[LI]อาคารที่มี ช่อง [B]ผลงานชิ้นเอก [/B]จะได้รับ [B]1 ช่อง[/B] เพิ่มเติม[LI]เมืองที่ตั้งอยู่ใน [B]ทุ่งน้ำแข็ง [/B]จะได้รับ [icon:YIELD_SCIENCE] [B]วิทยาศาสตร์ [/B]เท่ากับ [B]25% [/B]ของ [icon:YIELD_CULTURE] [B]วัฒนธรรม [/B]ต่อเทิร์น[/LIST]</Text>		<!-- [LIST][LI][B]+2 [icon:YIELD_CULTURE] Culture [/B]per Age on displayed [B]Great Works[/B].[LI]Buildings with [B]Great Work [/B]slots gain [B]1 additional slot[/B].[LI]Cities settled in [B]Tundra [/B]gain [icon:YIELD_SCIENCE] [B]Science [/B]equal to [B]25% [/B]of their [icon:YIELD_CULTURE] [B]Culture [/B]per turn.[/LIST] -->
+			<Text>[BLIST][LI][B]+2 [icon:YIELD_CULTURE] วัฒนธรรม [/B]ต่อยุคจาก [B][icon:GREATWORK] ผลงานชิ้นเอก [/B]ที่แสดงอยู่[LI]อาคารที่มี [B][icon:GREATWORK] ช่องผลงานชิ้นเอก [/B]จะได้รับ [B]1 ช่อง[/B] เพิ่มเติม[LI][icon:YIELD_CITIES] เมืองใหญ่ ที่ตั้งอยู่ใน [B]ทุ่งน้ำแข็ง [/B]จะได้รับ [icon:YIELD_SCIENCE] [B]วิทยาศาสตร์ [/B]เท่ากับ [B]25% [/B]ของ [icon:YIELD_CULTURE] [B]วัฒนธรรม [/B]ต่อเทิร์น[/BLIST]</Text>		<!-- [BLIST][LI][B]+2 [icon:YIELD_CULTURE] Culture [/B]per Age on displayed [icon:GREATWORK] [B]Great Works[/B].[LI]Buildings with [icon:GREATWORK] [B]Great Work [/B]slots gain [B]1 additional slot[/B].[LI][icon:YIELD_CITIES] Cities settled in [B]Tundra [/B]gain [icon:YIELD_SCIENCE] [B]Science [/B]equal to [B]25% [/B]of their [icon:YIELD_CULTURE] [B]Culture [/B]per turn.[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHARLEMAGNE_NAME" Language="th_TH">
 			<Text>ชาร์เลอมาญ</Text>		<!-- Charlemagne -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHARLEMAGNE_DESCRIPTION" Language="th_TH">
-			<Text>อาคารด้านทหารและวิทยาศาสตร์ จะได้รับความสุขจากการตั้งอยู่ใกล้กับที่พักอาศัย รับยูนิตทหารม้าฟรี 2 ยูนิต เมื่อปลดล็อกแล้วเมื่อเข้าสู่การเฉลิมฉลอง เพิ่มพลังต่อสู้ +5 สำหรับยูนิตทหารม้า ในระหว่างการเฉลิมฉลอง</Text>		<!-- Military and Science Buildings receive a [icon:YIELD_HAPPINESS] Happiness adjacency for Quarters. Gain 2 free Cavalry Units, once unlocked, when entering a Celebration. +5 Combat Strength for Cavalry Units during a Celebration. -->
+			<Text>อาคารด้าน[icon:DIPLOMACY_DECLARE_FORMAL_WAR_ICON]ทหารและ[icon:YIELD_SCIENCE]วิทยาศาสตร์ จะได้รับ [icon:YIELD_HAPPINESS] ความสุข โบนัสใกล้เคียง สำหรับ [icon:CITY_URBAN] พื้นที่ย่าน รับยูนิตทหารม้าฟรี 2 ยูนิต เมื่อปลดล็อกแล้วเมื่อเข้าสู่ [icon:CELEBRATION] งานเฉลิมฉลอง +5 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับยูนิตทหารม้า ในระหว่าง [icon:CELEBRATION] งานเฉลิมฉลอง</Text>		<!-- [icon:DIPLOMACY_DECLARE_FORMAL_WAR_ICON] Military and [icon:YIELD_SCIENCE] Science Buildings receive a +1 [icon:YIELD_HAPPINESS] Happiness Adjacency for [icon:CITY_URBAN] Quarters. Gain 2 free Cavalry Units, once unlocked, when entering a [icon:CELEBRATION] Celebration. +5 [icon:NAR_REW_COMBAT] Combat Strength for Cavalry Units during a [icon:CELEBRATION] Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_CHARLEMAGNE_ABILITY_NAME" Language="th_TH">
 			<Text>บิดาแห่งยุโรป</Text>		<!-- Father of Europe -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_CHARLEMAGNE_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]อาคารด้านทหาร [/B]และ [B]อาคารด้านวิทยาศาสตร์ [/B]จะได้รับ[B] [icon:YIELD_HAPPINESS]ความสุข โบนัสใกล้เคียง [/B] สำหรับ [B]พื้นที่ย่าน[/B][LI]ได้รับ[B] ยูนิตทหารม้า ฟรี 2 หน่วย[/B] เมื่อปลดล็อกแล้ว ในระหว่าง[B] งานเฉลิมฉลอง[/B][LI][B]+5 พลังต่อสู้[/B]สำหรับ[B] ยูนิตทหารม้า [/B]ในระหว่าง[B] งานเฉลิมฉลอง[/B][/LIST]</Text>		<!-- [LIST][LI][B]Military [/B]and [B]Science Buildings [/B]receive a [icon:YIELD_HAPPINESS] [B]Happiness adjacency [/B]for [B]Quarters[/B].[LI]Gain [B]2 free Cavalry Units[/B], once unlocked, when entering a [B]Celebration[/B].[LI][B]+5 Combat Strength[/B] for [B]Cavalry Units [/B]during a [B]Celebration[/B].[/LIST] -->
+			<Text>[LIST][LI][B]อาคารด้าน[icon:DIPLOMACY_DECLARE_FORMAL_WAR_ICON]ทหารและ[icon:YIELD_SCIENCE]วิทยาศาสตร์ [/B]จะได้รับ[B] [icon:YIELD_HAPPINESS]ความสุข โบนัสใกล้เคียง [/B] สำหรับ [B][icon:CITY_URBAN] พื้นที่ย่าน[/B][LI]ได้รับ[B] ยูนิตทหารม้า ฟรี 2 หน่วย[/B] เมื่อปลดล็อกแล้ว ในระหว่าง[B][icon:CELEBRATION] งานเฉลิมฉลอง[/B][LI][B]+5 [icon:NAR_REW_COMBAT] พลังต่อสู้[/B]สำหรับ[B] ยูนิตทหารม้า [/B]ในระหว่าง[B][icon:CELEBRATION] งานเฉลิมฉลอง[/B][/LIST]</Text>		<!-- [BLIST][LI][B][icon:WAR] Military [/B]and [icon:YIELD_SCIENCE] [B]Science Buildings [/B]receive a [B]+1 [icon:YIELD_HAPPINESS] Happiness Adjacency [/B]for [icon:CITY_URBAN] [B]Quarters[/B].[LI]Gain [B]2 free Cavalry Units[/B], once unlocked, when entering a [icon:CELEBRATION] [B]Celebration[/B].[LI][B]+5 [icon:NAR_REW_COMBAT] Combat Strength[/B] for [B]Cavalry Units [/B]during a [icon:CELEBRATION] [B]Celebration[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CONFUCIUS_NAME" Language="th_TH">
 			<Text>ขงจื๊อ</Text>		<!-- Confucius -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CONFUCIUS_DESCRIPTION" Language="th_TH">
-			<Text>+25% อัตราการเติบโตในเมือง +2 [icon:YIELD_SCIENCE] วิทยาศาสตร์ จากผู้เชี่ยวชาญ</Text>		<!-- +25% Growth Rate in Cities. +2 [icon:YIELD_SCIENCE] Science from Specialists. -->
+			<Text>+25% อัตราการเติบโตใน [icon:YIELD_CITIES] เมืองใหญ่ +2 [icon:YIELD_SCIENCE] วิทยาศาสตร์ จาก [icon:SPECIALIST] ผู้เชี่ยวชาญ</Text>		<!-- +25% Growth Rate in [icon:YIELD_CITIES] Cities. +2 [icon:YIELD_SCIENCE] Science from [icon:SPECIALIST] Specialists. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_CONFUCIUS_ABILITY_NAME" Language="th_TH">
 			<Text>เคจู</Text>		<!-- Keju -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_CONFUCIUS_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+25% อัตราการเติบโต [/B]ในเมือง[LI][B]+2 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]จาก [B]ผู้เชี่ยวชาญ[/B][LI]</Text>		<!-- [LIST][LI][B]+25% Growth Rate [/B]in Cities.[LI][B]+2 [icon:YIELD_SCIENCE] Science [/B]from [B]Specialists[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]+25% อัตราการเติบโต [/B]ใน [icon:YIELD_CITIES]เมืองใหญ่[LI][B]+2 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]จาก [B][icon:SPECIALIST] ผู้เชี่ยวชาญ[/B][LI][/BLIST]</Text>		<!-- [BLIST][LI][B]+25% Growth Rate [/B]in [icon:YIELD_CITIES] Cities.[LI][B]+2 [icon:YIELD_SCIENCE] Science [/B]from [icon:SPECIALIST] [B]Specialists[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_FRIEDRICH_NAME" Language="th_TH">
 			<Text>ฟรีดริช, โอบลีค</Text>		<!-- Friedrich, Oblique -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_FRIEDRICH_DESCRIPTION" Language="th_TH">
-			<Text>ผู้บัญชาการทหาร จะมาพร้อม เหรียญเชิดชู, โดยให้พวกเขามีระยะการบังคับบัญชาเพิ่มขึ้น 1 ยูนิต รับยูนิตทหารจากการวิจัย เทคโนโลยีระดับเชี่ยวชาญ หรือ สร้างอาคารด้านวิทยาศาสตร์</Text>		<!-- Army Commanders start with the Merit Commendation, granting them +1 Command Radius. Gain an Infantry Unit when you complete a Technology Mastery or construct a Science Building. -->
+			<Text>[icon:UNIT_ARMY_COMMANDER] ผู้บัญชาการทหาร จะมาพร้อม เหรียญเชิดชู, มอบให้พวกเขา +1 [icon:COMMANDER_RADIUS] ระยะบัญชาการ, รับยูนิตทหารจากการวิจัย [icon:RADIAL_TECH] เทคโนโลยีระดับเชี่ยวชาญ หรือ สร้าง [icon:YIELD_SCIENCE] อาคารด้านวิทยาศาสตร์</Text>		<!-- [icon:UNIT_ARMY_COMMANDER] Army Commanders start with the Merit Commendation, granting them +1 [icon:COMMANDER_RADIUS] Command Radius. Gain an Infantry Unit when you complete a [icon:RADIAL_TECH] Technology Mastery or construct a [icon:YIELD_SCIENCE] Science Building. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_FRIEDRICH_ABILITY_NAME" Language="th_TH">
 			<Text>สถาบันการศึกษาแห่งเบอร์ลิน</Text>		<!-- Berlin Academy -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_FRIEDRICH_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]ผู้บัญชาการทหาร [/B]จะมาพร้อม [B]เหรียญเชิดชู[/B] มอบให้พวกเขา [B]+1 ระยะในการสั่งการ[/B][LI]รับ [B]ยูนิตทหารราบ[/B] เมื่อคุณวิจัย [B]เทคโนโลยีระดับเชี่ยวชาญ[/B] หรือสร้าง [B]อาคารด้านวิทยาศาสตร์[/B][/LIST]</Text>		<!-- [LIST][LI][B]Army Commanders [/B]start with the [B]Merit Commendation[/B], granting them [B]+1 Command Radius[/B].[LI]Gain an [B]Infantry Unit [/B]when you complete a [B]Technology Mastery[/B] or construct a [B]Science Building[/B].[/LIST] -->
+			<Text>[LIST][LI][B][icon:UNIT_ARMY_COMMANDER] ผู้บัญชาการทหาร [/B]จะมาพร้อม [B]เหรียญเชิดชู[/B] มอบให้พวกเขา [B]+1 [icon:COMMANDER_RADIUS] ระยะบัญชาการ[/B][LI]รับ [B]ยูนิตทหารราบ[/B] เมื่อคุณวิจัย [B][icon:RADIAL_TECH] เทคโนโลยีระดับเชี่ยวชาญ[/B] หรือสร้าง [B][icon:YIELD_SCIENCE] อาคารด้านวิทยาศาสตร์[/B][/LIST]</Text>		<!-- [BLIST][LI][icon:UNIT_ARMY_COMMANDER] [B]Army Commanders [/B]start with the [B]Merit Commendation[/B], granting them [B]+1 [icon:COMMANDER_RADIUS] Command Radius[/B].[LI]Gain an [B]Infantry Unit [/B]when you complete a [icon:RADIAL_TECH] [B]Technology Mastery[/B] or construct a [icon:YIELD_SCIENCE] [B]Science Building[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_HARRIET_TUBMAN_NAME" Language="th_TH">
 			<Text>แฮเรียต ทับแมน</Text>		<!-- Harriet Tubman -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_HARRIET_TUBMAN_DESCRIPTION" Language="th_TH">
-			<Text>+100% [icon:YIELD_DIPLOMACY] อิทธิพล ในการเริ่มการสอดแนม รับ 5 คะแนนสนับสนุนสงครามในทุกสงครามที่ประกาศต่อคุณ ยูนิตจะไม่พบกับการลดความเร็วจากพืชพรรณ</Text>		<!-- +100% [icon:YIELD_DIPLOMACY] Influence towards initiating Espionage Actions. Gain 5 War Support on all wars declared against you. Units ignore movement penalties from Vegetation. -->
+			<Text>+100% [icon:YIELD_DIPLOMACY] อิทธิพล ต่อการเริ่ม [icon:ESPIONAGE]การจารกรรม, ได้รับ 5 [icon:WAR_SUPPORT] คะแนนสนับสนุนสงคราม ในทุกสงครามที่ประกาศต่อคุณ, ยูนิตจะไม่ได้รับบทลงโทษ[icon:Action_Move] การเคลื่อนที่จากช่องพืชพรรณ</Text>		<!-- +100% [icon:YIELD_DIPLOMACY] Influence towards initiating [icon:ESPIONAGE] Espionage Actions. Gain 5 [icon:WAR_SUPPORT] War Support on all wars declared against you. Units ignore [icon:Action_Move] Movement penalties from Vegetation. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_HARRIET_TUBMAN_ABILITY_NAME" Language="th_TH">
 			<Text>การจู่โจมคอมบาฮี</Text>		<!-- Combahee Raid -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_HARRIET_TUBMAN_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+100% [icon:YIELD_DIPLOMACY] อิทธิพล [/B]ในการเริ่ม [B]การจารกรรม[/B][LI]ได้รับ [B]5 คะแนนสนับสนุนสงคราม [/B]ในทุกสงครามที่ประกาศต่อคุณ[LI]ยูนิตไม่สนใจ [B]การลงโทษการเคลื่อนที่ [/B]จาก [B]พืชพรรณ[/B][/LIST]</Text>		<!-- [LIST][LI][B]+100% [icon:YIELD_DIPLOMACY] Influence [/B]towards initiating [B]Espionage Actions[/B].[LI]Gain [B]5 War Support [/B]on all wars declared against you.[LI]Units ignore [B]movement penalties [/B]from [B]Vegetation[/B].[/LIST] -->
+			<Text>[LIST][LI][B]+100% [icon:YIELD_DIPLOMACY] อิทธิพล [/B]ในการเริ่ม [B][icon:ESPIONAGE] การจารกรรม[/B][LI]ได้รับ [B]5 [icon:WAR_SUPPORT] คะแนนสนับสนุนสงคราม [/B]ในทุกสงครามที่ประกาศต่อคุณ[LI]ยูนิตไม่สนใจ [B]การลงโทษ[icon:Action_Move]การเคลื่อนที่ [/B]จาก [B]ช่องพืชพรรณ[/B][/LIST]</Text>		<!-- [BLIST][LI][B]+100% [icon:YIELD_DIPLOMACY] Influence [/B]towards initiating [icon:ESPIONAGE] [B]Espionage Actions[/B].[LI]Gain [B]5 [icon:WAR_SUPPORT] War Support [/B]on all wars declared against you.[LI]Units ignore [icon:Action_Move] [B]Movement penalties [/B]from [B]Vegetation[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_HATSHEPSUT_NAME" Language="th_TH">
 			<Text>แฮตเชปซุต</Text>		<!-- Hatshepsut -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_HATSHEPSUT_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับทรัพยากรเฉพาะ ทั้งหมด +15% [icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้างอาคารและสิ่งมหัศจรรย์ในเมืองที่ติดกับแม่น้ำใหญ่</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture for every unique Resource. +15% [icon:YIELD_PRODUCTION] Production towards constructing Buildings and Wonders in Cities adjacent to Navigable Rivers. -->
+			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับ [icon:RADIAL_RESOURCES]ทรัพยากรเฉพาะ ทั้งหมด +15% [icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้างอาคารและสิ่งมหัศจรรย์ใน [icon:YIELD_CITIES] เมืองใหญ่ ที่ติดกับแม่น้ำใหญ่</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture for every unique [icon:RADIAL_RESOURCES] Resource. +15% [icon:YIELD_PRODUCTION] Production towards constructing Buildings and Wonders in [icon:YIELD_CITIES] Cities adjacent to Navigable Rivers. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_HATSHEPSUT_ABILITY_NAME" Language="th_TH">
 			<Text>พระชายาของอามุน</Text>		<!-- God's Wife of Amun -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_HATSHEPSUT_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+1 [icon:YIELD_CULTURE] วัฒนธรรม [/B]ต่อยุค สำหรับ [B]ทรัพยากรเฉพาะ[/B][LI][B]+15% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการก่อสร้าง [B]อาคาร [/B]และ [B]สิ่งมหัศจรรย์ [/B]ใน [B]เมือง [/B]ที่อยู่ใกล้กับ [B]แม่น้ำใหญ่[/B][/LIST]</Text>		<!-- [LIST][LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]per Age for every unique [B]Resource[/B].[LI][B]+15% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Buildings [/B]and [B]Wonders [/B]in [B]Cities [/B]adjacent to [B]Navigable Rivers[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]+1 [icon:YIELD_CULTURE] วัฒนธรรม [/B]ต่อยุค สำหรับ [B][icon:RADIAL_RESOURCES] ทรัพยากรเฉพาะ[/B][LI][B]+15% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการก่อสร้าง [B]อาคาร [/B]และ [B]สิ่งมหัศจรรย์ [/B]ใน [B][icon:YIELD_CITIES] เมืองใหญ่ [/B]ที่อยู่ใกล้กับ [B]แม่น้ำใหญ่[/B][/BLIST]</Text>		<!-- [BLIST][LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]per Age for every unique [icon:RADIAL_RESOURCES] [B]Resource[/B].[LI][B]+15% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Buildings [/B]and [B]Wonders [/B]in [icon:YIELD_CITIES] [B]Cities [/B]adjacent to [B]Navigable Rivers[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_HIMIKO_NAME" Language="th_TH">
 			<Text>ฮิมิโกะ, ราชินีแห่งแคว้นวะ</Text>		<!-- Himiko, Queen of Wa -->
@@ -11132,7 +11132,7 @@
 			<Text>เพื่อนของเว่ย</Text>		<!-- Friend of Wei -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_HIMIKO_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]ได้รับ [B]ความร่วมมือ [/B]แบบพิเศษที่เรียกว่า [B]มิตรของเว่ย [/B]ซึ่งสามารถทำได้ใน [B]พันธมิตร [/B]เพื่อมอบให้คุณและพันธมิตรของคุณ [B]+25% [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B][LI][B]+4 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]ต่อยุคสำหรับทุกผู้นำที่คุณมีความ [B]เป็นมิตร [/B]หรือ [B]ช่วยเหลือ [/B] [LI]สามารถสนับสนุน [B]ความร่วมมือ [/B]ได้ [B]ฟรี[/B][/LIST]</Text>		<!-- [LIST][LI]Gain a unique [B]Endeavor [/B]called [B]Friend of Wei [/B]that can be performed in an [B]Alliance [/B]to grant you and your ally [B]+25% [icon:YIELD_SCIENCE] Science[/B].[LI][B]+4 [icon:YIELD_SCIENCE] Science [/B]per Age for every Leader you are [B]Friendly [/B]or [B]Helpful [/B]with.[LI]Can support [B]Endeavors [/B]for [B]free[/B].[/LIST] -->
+			<Text>[BLIST][LI]ได้รับ [B][icon:ENDEAVOR] ความร่วมมือ [/B]แบบพิเศษที่เรียกว่า [B]มิตรของเว่ย [/B]ซึ่งสามารถทำได้ใน [B][icon:PLAYER_RELATIONSHIP_ALLIANCE] พันธมิตร [/B]เพื่อมอบให้คุณและพันธมิตรของคุณ [B]+25% [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B][LI][B]+4 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]ต่อยุคสำหรับทุกผู้นำที่คุณมีความ [B]เป็นมิตร [/B]หรือ [B]ช่วยเหลือ [/B] [LI]สามารถสนับสนุน [B]ความร่วมมือ [/B]ได้ [B]ฟรี[/B][/BLIST]</Text>		<!-- [BLIST][LI]Gain a unique [icon:ENDEAVOR] [B]Endeavor [/B]called [B]Friend of Wei [/B]that can be performed in an [icon:PLAYER_RELATIONSHIP_ALLIANCE] [B]Alliance [/B]to grant you and your ally [B]+25% [icon:YIELD_SCIENCE] Science[/B].[LI][B]+4 [icon:YIELD_SCIENCE] Science [/B]per Age for every Leader you are [B]Friendly [/B]or [B]Helpful [/B]with.[LI]Can support [icon:ENDEAVOR] [B]Endeavors [/B]for [B]free[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_IBN_BATTUTA_NAME" Language="th_TH">
 			<Text>อิบน์ บัตตูตา</Text>		<!-- Ibn Battuta -->
@@ -11144,7 +11144,7 @@
 			<Text>ความมหัศจรรย์ของการเดินทาง</Text>		<!-- The Marvels of Traveling -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_IBN_BATTUTA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]ได้รับ [B]2 คะแนนคุณสมบัติ ไวลด์การ์ด [/B]หลังจากได้ [B]แนวคิด [/B]แรกในทุกยุค[LI][B]+1 การมองเห็น [/B]สำหรับทุกยูนิต[LI]ได้รับ [B]ความร่วมมือ[/B] ที่ไม่ซ้ำใครชื่อว่า [B]แผนที่การค้า [/B]ซึ่งช่วยให้คุณสามารถเห็นพื้นที่ที่ผู้นำคนอื่น [B]เป็นเจ้าของ[/B] ได้อย่างค่อยเป็นค่อยไป[/LIST]</Text>		<!-- [LIST][LI]Gains [B]2 Wildcard Attribute Points [/B]after the first [B]Civic [/B]in every Age.[LI][B]+1 Sight [/B]for all Units.[LI]Gain a unique [B]Endeavor [/B]called [B]Trade Maps [/B]that allows you to gradually see other Leaders' [B]claimed territory[/B].[/LIST] -->
+			<Text>[BLIST][LI]ได้รับ [B]2 [icon:ATTRIBUTE_WILDCARD] คะแนนคุณสมบัติ ไวลด์การ์ด [/B]หลังจากได้ [B][icon:RADIAL_CIVICS] แนวคิด [/B]แรกในทุกยุค[LI][B]+1 [icon:Action_Showall] การมองเห็น [/B]สำหรับทุกยูนิต[LI]ได้รับ [B][icon:ENDEAVOR] ความร่วมมือ[/B] ที่ไม่ซ้ำใครชื่อว่า [B]แผนที่การค้า [/B]ซึ่งช่วยให้คุณสามารถเห็นพื้นที่ที่ผู้นำคนอื่น [B]เป็นเจ้าของ[/B] ได้อย่างค่อยเป็นค่อยไป[/BLIST]</Text>		<!-- [BLIST][LI]Gains [B]2 [icon:ATTRIBUTE_WILDCARD] Wildcard Attribute Points [/B]after the first [icon:RADIAL_CIVICS] [B]Civic [/B]in every Age.[LI][B]+1 [icon:Action_Showall] Sight [/B]for all Units.[LI]Gain a unique [icon:ENDEAVOR] [B]Endeavor [/B]called [B]Trade Maps [/B]that allows you to gradually see other Leaders' [B]claimed territory[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_IBN_BATTUTA_MOD_EX_WILDCARD_ATTRIBUTE_DESCRIPTION" Language="th_TH">
 			<Text>+2 คะแนน คุณลักษณะไวลด์การ์ด</Text>		<!-- +2 Wildcard Attribute Points. -->
@@ -11156,25 +11156,25 @@
 			<Text>อิซาเบลล่า</Text>		<!-- Isabella -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_ISABELLA_DESCRIPTION" Language="th_TH">
-			<Text>รับทอง 300 [icon:YIELD_GOLD] ทุกครั้งที่คุณค้นพบสิ่งมหัศจรรย์ทางธรรมชาติ ซึ่งจะเพิ่มเป็นสองเท่า หากสิ่งมหัศจรรย์ทางธรรมชาติอยู่ในดินแดนห่างไกล +100% ผลผลิตจากสิ่งมหัศจรรย์ทางธรรมชาติ +50% [icon:YIELD_GOLD] ทอง เพื่อใช้ในการซื้อยูนิตเรือ -1 [icon:YIELD_GOLD] ค่าบำรุงรักษาทอง สำหรับยูนิตเรือ</Text>		<!-- Gain 300 [icon:YIELD_GOLD] Gold every time you discover a Natural Wonder. This is doubled if the Natural Wonder is in Distant Lands. +100% tile yields from Natural Wonders. +50% [icon:YIELD_GOLD] Gold towards purchasing Naval Units. -1 [icon:YIELD_GOLD] Gold maintenance for Naval Units. -->
+			<Text>รับ 100[icon:YIELD_GOLD] ทอง ทุกครั้งที่คุณค้นพบ [icon:NOTIFICATION_DISCOVER_NATURAL_WONDER] สิ่งมหัศจรรย์ทางธรรมชาติ ซึ่งจะเพิ่มเป็นสองเท่า หากสิ่งมหัศจรรย์ทางธรรมชาติอยู่ในดินแดนห่างไกล +50% ผลผลิตจาก [icon:NOTIFICATION_DISCOVER_NATURAL_WONDER] สิ่งมหัศจรรย์ทางธรรมชาติ ในอาณาจักของคุณ +50% [icon:YIELD_GOLD] ทอง เพื่อใช้ในการซื้อยูนิตเรือ -1 [icon:YIELD_GOLD] ค่าบำรุงรักษาทอง สำหรับยูนิตเรือ</Text>		<!-- Gain 100 [icon:YIELD_GOLD] Gold every time you discover a [icon:NOTIFICATION_DISCOVER_NATURAL_WONDER] Natural Wonder. This is doubled if the Natural Wonder is in Distant Lands. +50% tile yields from [icon:NOTIFICATION_DISCOVER_NATURAL_WONDER] Natural Wonders for every Natural Wonder in your Empire. +50% [icon:YIELD_GOLD] Gold towards purchasing Naval Units. -1 [icon:YIELD_GOLD] Gold maintenance for Naval Units. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ISABELLA_ABILITY_NAME" Language="th_TH">
 			<Text>เจ็ดเมืองทองคำ</Text>		<!-- Seven Cities of Gold -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ISABELLA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]ได้รับ [B]300 [icon:YIELD_GOLD] ทอง [/B]ทุกครั้งที่คุณค้นพบ [B]สิ่งมหัศจรรย์ทางธรรมชาติ[/B] ซึ่งจะ [B]เพิ่มเป็นสองเท่า [/B]หาก [B]สิ่งมหัศจรรย์ทางธรรมชาติ [/B]อยู่ใน[B] ดินแดนห่างไกล[/B][LI][B]+100% เม็ดเงินที่ได้ [/B]จาก [B]สิ่งมหัศจรรย์ทางธรรมชาติ[/B][LI][B]+50% [icon:YIELD_GOLD] ทอง [/B]สำหรับการซื้อ [B]ยูนิตเรือ[/B][LI][B]-1 [icon:YIELD_GOLD] ทอง [/B]ในการดูแล [B]ยูนิตเรือ[/B][/LIST]</Text>		<!-- [LIST][LI]Gain [B]300 [icon:YIELD_GOLD] Gold [/B]every time you discover a [B]Natural Wonder[/B]. This is [B]doubled [/B]if the [B]Natural Wonder [/B]is in [B]Distant Lands[/B].[LI][B]+100% tile yields [/B]from [B]Natural Wonders[/B].[LI][B]+50% [icon:YIELD_GOLD] Gold [/B]towards purchasing [B]Naval Units[/B].[LI][B]-1 [icon:YIELD_GOLD] Gold [/B]maintenance for [B]Naval Units[/B].[/LIST] -->
+			<Text>[BLIST][LI]ได้รับ [B]300 [icon:YIELD_GOLD] ทอง [/B]ทุกครั้งที่คุณค้นพบ [B]สิ่งมหัศจรรย์ทางธรรมชาติ[/B] ซึ่งจะ [B]เพิ่มเป็นสองเท่า [/B]หาก [B]สิ่งมหัศจรรย์ทางธรรมชาติ [/B]อยู่ใน[B] ดินแดนห่างไกล[/B][LI][B]+100% เม็ดเงินที่ได้ [/B]จาก [B]สิ่งมหัศจรรย์ทางธรรมชาติ[/B][LI][B]+50% [icon:YIELD_GOLD] ทอง [/B]สำหรับการซื้อ [B]ยูนิตเรือ[/B][LI][B]-1 [icon:YIELD_GOLD] ทอง [/B]ในการดูแล [B]ยูนิตเรือ[/B][/BLIST]</Text>		<!-- [BLIST][LI]Gain [B]100 [icon:YIELD_GOLD] Gold per Age [/B]every time you discover a [icon:NOTIFICATION_DISCOVER_NATURAL_WONDER] [B]Natural Wonder[/B]. This is [B]doubled [/B]if the [B]Natural Wonder [/B]is in [B]Distant Lands[/B].[LI][B]+50% tile yields [/B]from [icon:NOTIFICATION_DISCOVER_NATURAL_WONDER] [B]Natural Wonders[/B] for every [B]Natural Wonder[/B] in your Empire.[LI][B]+50% [icon:YIELD_GOLD] Gold [/B]towards purchasing [B]Naval Units[/B].[LI][B]-1 [icon:YIELD_GOLD] Gold [/B]maintenance for [B]Naval Units[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_JOSE_RIZAL_NAME" Language="th_TH">
 			<Text>โฮเซ รีซัล</Text>		<!-- José Rizal -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_JOSE_RIZAL_DESCRIPTION" Language="th_TH">
-			<Text>เมื่อได้รับรางวัลจากกิจกรรมบอกเรื่องราว จะได้รับเพิ่มอีก 20 [icon:YIELD_CULTURE] วัฒนธรรม, [icon:YIELD_GOLD] ทอง และ [icon:YIELD_INFLUENCE] อิทธิพล ต่อยุค, มีเหตุการณ์เรื่องเล่าเพิ่มเติม ระยะเวลาเฉลิมฉลองเพิ่มขึ้น 50% ความสุข [icon:YIELD_HAPPINESS] ต่อการเฉลิมฉลองเพิ่มขึ้น 50%</Text>		<!-- When gaining rewards from a Narrative Event, gain an additional 20 [icon:YIELD_CULTURE] Culture, [icon:YIELD_GOLD] Gold and [icon:YIELD_INFLUENCE] Influence per Age. Has additional Narrative Events. +50% Celebration duration. +50% [icon:YIELD_HAPPINESS] Happiness towards Celebrations. -->
+			<Text>เมื่อได้รับรางวัลจาก [icon:NAR_REW_DEFAULT]เหตุการณ์เรื่องเล่า จะได้รับเพิ่มอีก 20 [icon:YIELD_CULTURE] วัฒนธรรม, [icon:YIELD_GOLD] ทอง และ [icon:YIELD_INFLUENCE] อิทธิพล ต่อยุค, มี [icon:NAR_REW_DEFAULT] เหตุการณ์เรื่องเล่าเพิ่มเติม ระยะเวลา [icon:CELEBRATION] งานเฉลิมฉลอง เพิ่มขึ้น 50% ความสุข [icon:YIELD_HAPPINESS] ต่อ [icon:CELEBRATION] งานเฉลิมฉลอง</Text>		<!-- When gaining rewards from a [icon:NAR_REW_DEFAULT] Narrative Event, gain an additional 20 [icon:YIELD_CULTURE] Culture, [icon:YIELD_GOLD] Gold and [icon:YIELD_INFLUENCE] Influence per Age. Has additional [icon:NAR_REW_DEFAULT] Narrative Events. +50% [icon:CELEBRATION] Celebration duration. +50% [icon:YIELD_HAPPINESS] Happiness towards [icon:CELEBRATION] Celebrations. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_JOSE_RIZAL_ABILITY_NAME" Language="th_TH">
 			<Text>วีรบุรุษแห่งชาติ</Text>		<!-- Pambansang Bayani -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_JOSE_RIZAL_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]เมื่อได้รับรางวัลจาก [B]เหตุการณ์เรื่องเล่า[/B] จะได้รับเพิ่มอีก 20 [B][icon:YIELD_CULTURE] วัฒนธรรม[/B], [B][icon:YIELD_GOLD] ทอง[/B] และ [B][icon:YIELD_INFLUENCE] อิทธิพล[/B] ต่อยุค[LI]มี [B]เหตุการณ์เรื่องเล่า[/B] เพิ่มเติม[LI][B]+50% ระยะเวลาเฉลิมฉลอง [/B][LI][B]+50% [icon:YIELD_HAPPINESS] ความสุข [/B]ต่อ [B]การเฉลิมฉลอง[/B][/LIST]</Text>		<!-- [LIST][LI]When gaining rewards from a [B]Narrative Event[/B], gain an additional [B]20 [icon:YIELD_CULTURE] Culture [/B], [icon:YIELD_GOLD] [B]Gold [/B] and [icon:YIELD_DIPLOMACY] [B]Influence [/B]per Age.[LI]Has additional [B]Narrative Events[/B].[LI][B]+50% Celebration [/B]duration.[LI][B]+50% [icon:YIELD_HAPPINESS] Happiness [/B]towards [B]Celebrations[/B].[/LIST] -->
+			<Text>[BLIST][LI]เมื่อได้รับรางวัลจาก [B][icon:NAR_REW_DEFAULT] เหตุการณ์เรื่องเล่า[/B] จะได้รับเพิ่มอีก 20 [B][icon:YIELD_CULTURE] วัฒนธรรม[/B], [B][icon:YIELD_GOLD] ทอง[/B] และ [B][icon:YIELD_INFLUENCE] อิทธิพล[/B] ต่อยุค[LI]มี [B][icon:NAR_REW_DEFAULT] เหตุการณ์เรื่องเล่า[/B] เพิ่มเติม[LI][B]+50% ระยะเวลา [icon:CELEBRATION] งานเฉลิมฉลอง [/B][LI][B]+50% [icon:YIELD_HAPPINESS] ความสุข [/B]ต่อ [B][icon:CELEBRATION] งารเฉลิมฉลอง[/B][/BLIST]</Text>		<!-- [BLIST][LI]When gaining rewards from a [icon:NAR_REW_DEFAULT] [B]Narrative Event[/B], gain an additional [B]20 [icon:YIELD_CULTURE] Culture [/B], [icon:YIELD_GOLD] [B]Gold [/B] and [icon:YIELD_DIPLOMACY] [B]Influence [/B]per Age.[LI]Has additional [icon:NAR_REW_DEFAULT] [B]Narrative Events[/B].[LI][B]+50% [icon:CELEBRATION] Celebration [/B]duration.[LI][B]+50% [icon:YIELD_HAPPINESS] Happiness [/B]towards [icon:CELEBRATION] [B]Celebrations[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_RIZAL_MOD_CELEBRATION_LENGTH_DESCRIPTION" Language="th_TH">
 			<Text>ระยะเวลาเฉลิมฉลองเพิ่มขึ้น 50%</Text>		<!-- +50% Celebration duration. -->
@@ -11189,25 +11189,25 @@
 			<Text>วีรบุรุษแห่งสองโลก</Text>		<!-- Hero of Two Worlds -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_LAFAYETTE_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]ได้รับ ความร่วมมือพิเศษ ที่เรียกว่า [B]ปฏิรูป[/B] ซึ่งมอบ [B]ช่องนโยบายทางสังคมเพิ่มเติม[/B] การสนับสนุน ความร่วมมือ นี้ยังมอบ [B]ช่องนโยบายทางสังคมเพิ่มเติม[/B] ให้กับผู้นำคนอื่นด้วย [LI][B]+1 พลังต่อสู้ [/B]สำหรับทุก [B]ประเพณี[/B] ที่มีในรัฐบาลแต่ไม่ใช่นโยบาย [B]+1 [icon:YIELD_CULTURE] วัฒนธรรม [/B]และ [icon:YIELD_HAPPINESS] [B]ความสุข [/B]ต่อยุคในถิ่นฐาน โดยเอฟเฟคเหล่านี้จะถูก [B]เพิ่มเป็นสองเท่า [/B]ใน [B]ดินแดนห่างไกล[/B][/LIST]</Text>		<!-- [LIST][LI]Gains a unique [B]Endeavor [/B]called [B]Reform[/B], which grants an additional [B]Social Policy slot[/B]. Supporting this Endeavor also grants the other Leader an additional [B]Social Policy slot[/B].[LI][B]+1 Combat Strength [/B]for every [B]Tradition[/B], but not Policy, slotted in the Government.[LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]and [icon:YIELD_HAPPINESS] [B]Happiness [/B]per Age in Settlements, [B]doubled [/B]in [B]Distant Lands[/B].[/LIST] -->
+			<Text>[BLIST][LI]ได้รับ [icon:ENDEAVOR] ความร่วมมือพิเศษ ที่เรียกว่า [B]ปฏิรูป[/B] ซึ่งมอบ [B][icon:NAR_REW_TRADITION_SLOT] ช่องนโยบายทางสังคมเพิ่มเติม[/B] การสนับสนุน ความร่วมมือ นี้ยังมอบ [B]ช่องนโยบายทางสังคมเพิ่มเติม[/B] ให้กับผู้นำคนอื่นด้วย [LI][B]+1 [icon:NAR_REW_COMBAT] พลังต่อสู้ [/B]สำหรับทุก [B]ประเพณี[/B] ที่มีในรัฐบาลแต่ไม่ใช่นโยบาย [B]+1 [icon:YIELD_CULTURE] วัฒนธรรม [/B]และ [icon:YIELD_HAPPINESS] [B]ความสุข [/B]ต่อยุคในถิ่นฐาน โดยเอฟเฟคเหล่านี้จะถูก [B]เพิ่มเป็นสองเท่า [/B]ใน [B]ดินแดนห่างไกล[/B][/BLIST]</Text>		<!-- [BLIST][LI]Gains a unique [icon:ENDEAVOR] [B]Endeavor [/B]called [B]Reform[/B], which grants an additional [icon:NAR_REW_TRADITION_SLOT] [B]Social Policy slot[/B]. Supporting this Endeavor also grants the other Leader an additional [B]Social Policy slot[/B].[LI][B]+1 [icon:NAR_REW_COMBAT] Combat Strength [/B]for every [B]Tradition[/B], but not Policy, slotted in the Government.[LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]and [icon:YIELD_HAPPINESS] [B]Happiness [/B]per Age in Settlements, [B]doubled [/B]in [B]Distant Lands[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_MACHIAVELLI_NAME" Language="th_TH">
 			<Text>มาเคียเวลลี</Text>		<!-- Machiavelli -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_MACHIAVELLI_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:YIELD_DIPLOMACY] อิทธิพล ต่อยุค เพิ่ม 50 [icon:YIELD_GOLD] ทอง ต่อยุคเมื่อข้อเสนอทางการทูตของคุณได้รับการตอบรับ หรือ 100 [icon:YIELD_GOLD] ทอง เมื่อถูกปฏิเสธ ไม่สนใจข้อกำหนดความสัมพันธ์ใน การประกาศสงครามอย่างเป็นทางการ สามารถเรียกทหารจากนครรัฐที่คุณไม่ใช่ผู้มีอำนาจเหนือได้</Text>		<!-- +3 [icon:YIELD_DIPLOMACY] Influence per Age. Gains 50 [icon:YIELD_GOLD] Gold per Age when your Diplomatic Action proposals are accepted, or 100 [icon:YIELD_GOLD] Gold when they are rejected. Ignores Relationship requirements for declaring Formal Wars. Can Levy Troops from City-States you are not Suzerain of. -->
+			<Text>+3 [icon:YIELD_DIPLOMACY] อิทธิพล ต่อยุค เพิ่ม 50 [icon:YIELD_GOLD] ทอง ต่อยุคเมื่อ [icon:DIPLOMATIC_ACTION] ข้อเสนอทางการทูตของคุณได้รับการตอบรับ หรือ 100 [icon:YIELD_GOLD] ทอง เมื่อถูกปฏิเสธ ไม่สนใจข้อกำหนดความสัมพันธ์ใน การประกาศ [icon:WAR] สงครามอย่างเป็นทางการ สามารถเรียกทหารจากนครรัฐที่คุณไม่ใช่ผู้มีอำนาจเหนือได้</Text>		<!-- +3 [icon:YIELD_DIPLOMACY] Influence per Age. Gains 50 [icon:YIELD_GOLD] Gold per Age when your [icon:DIPLOMATIC_ACTION] Diplomatic Action proposals are accepted, or 100 [icon:YIELD_GOLD] Gold when they are rejected. Ignores Relationship requirements for declaring [icon:WAR] Formal Wars. Can Levy Troops from City-States you are not Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MACHIAVELLI_ABILITY_NAME" Language="th_TH">
 			<Text>เจ้าชาย</Text>		<!-- Il Principe -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MACHIAVELLI_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+3 [icon:YIELD_DIPLOMACY] อิทธิพล [/B]ต่อยุค[LI]ได้รับ [B]50 [icon:YIELD_GOLD] ทอง [/B]ต่อยุคเมื่อ [B]ข้อเสนอทางการทูต [/B]ของคุณ [B]ถูกตอบรับ[/B] หรือ [B]100 [icon:YIELD_GOLD] ทอง [/B]เมื่อถูก [B]ปฏิเสธ[/B][LI]ไม่จำเป็นต้องใช้ [B]ความสัมพันธ์ [/B]สำหรับการประกาศ[B] สงครามอย่างเป็นทางการ[/B][LI]สามารถ [B]เกณฑ์ทหาร [/B]จาก [B]นครรัฐ [/B]ที่คุณไม่ได้เป็นเจ้านคร[/LIST]</Text>		<!-- [LIST][LI][B]+3 [icon:YIELD_DIPLOMACY] Influence [/B]per Age.[LI]Gains [B]50 [icon:YIELD_GOLD] Gold [/B]per Age when your [B]Diplomatic Action [/B]proposals are [B]accepted[/B], or [B]100 [icon:YIELD_GOLD] Gold [/B]when they are [B]rejected[/B].[LI]Ignores [B]Relationship [/B]requirements for declaring [B]Formal Wars[/B].[LI]Can [B]Levy Troops [/B]from [B]City-States [/B]you are not Suzerain of.[/LIST] -->
+			<Text>[BLIST][LI][B]+3 [icon:YIELD_DIPLOMACY] อิทธิพล [/B]ต่อยุค[LI]ได้รับ [B]50 [icon:YIELD_GOLD] ทอง [/B]ต่อยุคเมื่อ [B][icon:DIPLOMATIC_ACTION] ข้อเสนอทางการทูต [/B]ของคุณ [B]ถูกตอบรับ[/B] หรือ [B]100 [icon:YIELD_GOLD] ทอง [/B]เมื่อถูก [B]ปฏิเสธ[/B][LI]ไม่จำเป็นต้องใช้ [B]ความสัมพันธ์ [/B]สำหรับการประกาศ [B][icon:WAR] สงครามอย่างเป็นทางการ[/B][LI]สามารถ [B]เกณฑ์ทหาร [/B]จาก [B][icon:CITYSTATE] นครรัฐ [/B]ที่คุณไม่ได้เป็นเจ้านคร[/BLIST]</Text>		<!-- [BLIST][LI][B]+3 [icon:YIELD_DIPLOMACY] Influence [/B]per Age.[LI]Gains [B]50 [icon:YIELD_GOLD] Gold [/B]per Age when your [icon:DIPLOMATIC_ACTION] [B]Diplomatic Action [/B]proposals are [B]accepted[/B], or [B]100 [icon:YIELD_GOLD] Gold [/B]when they are [B]rejected[/B].[LI]Ignores [B]Relationship [/B]requirements for declaring [icon:WAR] [B]Formal Wars[/B].[LI]Can [B]Levy Troops [/B]from [icon:CITYSTATE] [B]City-States [/B]you are not Suzerain of.[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_PACHACUTI_NAME" Language="th_TH">
 			<Text>ปาชาคูติ</Text>		<!-- Pachacuti -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_PACHACUTI_DESCRIPTION" Language="th_TH">
-			<Text>ทุกอาคารจะได้รับ +1 [icon:YIELD_FOOD] อาหาร โบนัสใกล้เคียงภูเขา, ผู้เชี่ยวชาญที่อยู่ติดกับภูเขาจะไม่ต้องจ่ายค่าบำรุงรักษา [icon:YIELD_HAPPINESS] ความสุข, เมืองจะได้รับโบนัส [icon:YIELD_PRODUCTION] กำลังผลิต เท่ากับ 10% ของ [icon:YIELD_FOOD] อาหาร ของเมืองนั้น</Text>		<!-- All Buildings receive a +1 [icon:YIELD_FOOD] Food Adjacency for Mountains. Specialists adjacent to Mountains pay no [icon:YIELD_HAPPINESS] Happiness maintenance. Cities gain a bonus to [icon:YIELD_PRODUCTION] Production equal to 10% of that City’s [icon:YIELD_FOOD] Food. -->
+			<Text>ทุกอาคารจะได้รับ +1 [icon:YIELD_FOOD] อาหาร โบนัสใกล้เคียงภูเขา, [icon:SPECIALIST] ผู้เชี่ยวชาญที่อยู่ติดกับภูเขาจะไม่ต้องจ่ายค่าบำรุงรักษา [icon:YIELD_HAPPINESS] ความสุข, [icon:YIELD_CITIES] เมืองใหญ่ จะได้รับโบนัส [icon:YIELD_PRODUCTION] กำลังผลิต เท่ากับ 10% ของ [icon:YIELD_FOOD] อาหาร ของเมืองนั้น</Text>		<!-- All Buildings receive a +1 [icon:YIELD_FOOD] Food Adjacency for Mountains. [icon:SPECIALIST] Specialists adjacent to Mountains pay no [icon:YIELD_HAPPINESS] Happiness maintenance. [icon:YIELD_CITIES]Cities gain a bonus to [icon:YIELD_PRODUCTION] Production equal to 10% of that City’s [icon:YIELD_FOOD] Food. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_PACHACUTI_ABILITY_NAME" Language="th_TH">
 			<Text>ผู้เขย่าพิภพ</Text>		<!-- Earth Shaker -->
@@ -11250,25 +11250,25 @@
 			<Text>จึง จั๊ก</Text>		<!-- Trung Trac -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_TRUNG_TRAC_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับเลเวล 3 ระดับฟรีในตัวผู้บัญชาการทัพแรกของคุณ +20% ประสบการณ์ผู้บัญชาการ +10% [icon:YIELD_SCIENCE] วิทยาศาสตร์ ในเมืองในเขตร้อน ซึ่งจะเพิ่มเป็นสองเท่าในขณะที่คุณประกาศสงครามอย่างเป็นทางการ</Text>		<!-- Gain 3 free Levels on your first Army Commander. +20% Commander experience. +10% [icon:YIELD_SCIENCE] Science in Cities in Tropical. This is doubled while in a Formal War you declare. -->
+			<Text>รับผู้บัญชาการทหารพิเศษ [icon:UNIT_ARMY_COMMANDER] ตรัง นี หลังจากผลิตหน่วยทหารภาคพื้นดินหน่วยแรกของยุคแล้ว [icon:UNIT_ARMY_COMMANDER] ตรัง นี จะคงอยู่ข้ามการเปลี่ยนยุค และเริ่มต้นด้วยการเลื่อนขั้น 2 ครั้งในโหมดเริ่มต้นขั้นสูงยุคสำรวจ หรือ 3 ครั้งในโหมดเริ่มต้นขั้นสูงยุคสมัยใหม่ เพิ่ม +20% ประสบการณ์ผู้บัญชาการ [icon:UNIT_ARMY_COMMANDER] เพิ่ม +10% [icon:YIELD_SCIENCE] วิทยาศาสตร์ ใน [icon:YIELD_CITIES] เมืองในเขตร้อน ค่าดังกล่าวจะเพิ่มเป็นสองเท่าเมื่ออยู่ในสถานะ [icon:WAR] สงครามอย่างเป็นทางการที่ท่านประกาศ</Text>		<!-- Gain the Unique Army Commander [icon:UNIT_ARMY_COMMANDER] Trung Nhi after producing your first Land Military Unit of the Age. [icon:UNIT_ARMY_COMMANDER] Trung Nhi persists across Age Transitions, and begins with two Promotions in Exploration Advanced Starts or three Promotions in Modern Advanced Starts. +20% [icon:UNIT_ARMY_COMMANDER] Commander experience. +10% [icon:YIELD_SCIENCE] Science in [icon:YIELD_CITIES]Cities in Tropical. This is doubled while in a [icon:WAR] Formal War you declare. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_TRUNG_TRAC_ABILITY_NAME" Language="th_TH">
 			<Text>สองวีรสตรีจุง</Text>		<!-- Hai Bà Trung -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_TRUNG_TRAC_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI] รับ [B]3 ระดับฟรี [/B]ใน [B]ผู้บัญชาการทหาร[/B] แรกของคุณ[LI][B]+20% [/B]ประสบการณ์ผู้บัญชาการ[LI][B]+10% [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]ในเมืองใน[B]เขตร้อน[/B] สิ่งนี้จะ[B]เพิ่มเป็นสองเท่า [/B]ในขณะที่อยู่ใน[B]สงครามทางการ [/B]ที่คุณประกาศ[/LIST]</Text>		<!-- [LIST][LI]Gain [B]3 free Levels [/B]on your first [B]Army Commander[/B].[LI][B]+20% [/B]Commander experience.[LI][B]+10% [icon:YIELD_SCIENCE] Science [/B]in Cities in [B]Tropical[/B]. This is [B]doubled [/B]while in a [B]Formal War [/B]you declare.[/LIST] -->
+			<Text>[BLIST][LI]ได้รับผู้บัญชาการทหารพิเศษ [icon:UNIT_ARMY_COMMANDER][B] ตรัง นี [/B] หลังจากผลิตหน่วยทหารภาคพื้นดินหน่วยแรกของยุคแล้ว [icon:UNIT_ARMY_COMMANDER][B] ตรัง นี [/B] คงอยู่ข้ามการเปลี่ยนยุค และเริ่มต้นด้วยการเลื่อนขั้น 2 ครั้งในโหมดเริ่มต้นขั้นสูงยุคสำรวจ หรือ 3 ครั้งในโหมดเริ่มต้นขั้นสูงยุคสมัยใหม่[LI][B]+20% [/B][icon:UNIT_ARMY_COMMANDER] ประสบการณ์ผู้บัญชาการ[LI][B]+10% [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]ใน [icon:YIELD_CITIES] เมืองใน [B]เขตร้อน[/B] ค่าดังกล่าวจะ [B]เพิ่มเป็นสองเท่า [/B]เมื่ออยู่ในสถานะ [icon:WAR] [B]สงครามอย่างเป็นทางการ[/B] ที่ท่านประกาศ[/LIST]</Text>		<!-- [BLIST][LI]Gain the Unique Army Commander [icon:UNIT_ARMY_COMMANDER][B] Trung Nhi [/B]after producing your first Land Military Unit of the Age. [icon:UNIT_ARMY_COMMANDER][B] Trung Nhi [/B]persists across Age Transitions, and begins with two Promotions in Exploration Advanced Starts or three Promotions in Modern Advanced Starts. [LI][B]+20% [/B][icon:UNIT_ARMY_COMMANDER] Commander experience.[LI][B]+10% [icon:YIELD_SCIENCE] Science [/B]in [icon:YIELD_CITIES] Cities in [B]Tropical[/B]. This is [B]doubled [/B]while in a [icon:WAR] [B]Formal War [/B]you declare.[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_XERXES_NAME" Language="th_TH">
 			<Text>เซิร์กซีส, กษัตริย์แห่งกษัตริย์</Text>		<!-- Xerxes, King of Kings -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_XERXES_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้ สำหรับยูนิตที่กำลังโจมตีในดินแดนที่เป็นกลางหรือของศัตรู รับ 100 [icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_GOLD] เงินทองต่อยุคเมื่อคุณจับกุมสถานที่ตั้งเป็นครั้งแรก +10% [icon:YIELD_GOLD] เงินทองในสถานที่ตั้งทั้งหมด นี่จะถูกคูณสองในสถานที่ตั้งที่ไม่ได้ก่อตั้งโดยคุณ +1 ขีดจำกัดถิ่นฐานต่อยุค</Text>		<!-- +3 Combat Strength for Units that are attacking in neutral or enemy territory. Gain 100 [icon:YIELD_CULTURE] Culture and [icon:YIELD_GOLD] Gold per Age when you capture a Settlement for the first time. +10% [icon:YIELD_GOLD] Gold in all Settlements. This is doubled in Settlements not founded by you. +1 Settlement Limit per Age. -->
+			<Text>+3 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับยูนิตที่กำลังโจมตีในดินแดนที่เป็นกลางหรือของศัตรู รับ 100 [icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_GOLD] เงินทองต่อยุคเมื่อคุณจับกุมสถานที่ตั้งเป็นครั้งแรก +10% [icon:YIELD_GOLD] เงินทองในสถานที่ตั้งทั้งหมด นี่จะถูกคูณสองในสถานที่ตั้งที่ไม่ได้ก่อตั้งโดยคุณ +1 ขีดจำกัดถิ่นฐานต่อยุค</Text>		<!-- +3 [icon:NAR_REW_COMBAT] Combat Strength for Units that are attacking in neutral or enemy territory. Gain 100 [icon:YIELD_CULTURE] Culture and [icon:YIELD_GOLD] Gold per Age when you capture a Settlement for the first time. +10% [icon:YIELD_GOLD] Gold in all Settlements. This is doubled in Settlements not founded by you. +1 [icon:SETTLEMENT_LIMIT] Settlement Limit per Age. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_XERXES_ABILITY_NAME" Language="th_TH">
 			<Text>ผู้ทำลายล้างกบฏ</Text>		<!-- Crusher of Rebellions -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_XERXES_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+3 พลังต่อสู้ [/B]สำหรับยูนิตที่กำลัง [B]โจมตี [/B]ในดินแดนที่เป็นกลางหรือดินแดนของศัตรู[LI]รับ [B]100 [icon:YIELD_CULTURE] วัฒนธรรม [/B]และ [icon:YIELD_GOLD] [B]ทอง [/B]ต่อยุคเมื่อคุณเข้ายึดถิ่นฐานอื่นเป็นครั้งแรก[LI][B]+10% [icon:YIELD_GOLD] ทอง [/B]ใน ถิ่นฐาน ทั้งหมด ซึ่งจะเป็น [B]สองเท่า [/B]ใน ถิ่นฐาน ที่ไม่ได้ก่อตั้งโดยคุณ[LI][B]+1 ขีดจำกัดถิ่นฐาน [/B]ต่อยุค[/LIST]</Text>		<!-- [LIST][LI][B]+3 Combat Strength [/B]for Units that are [B]attacking [/B]in neutral or enemy territory.[LI]Gain [B]100 [icon:YIELD_CULTURE] Culture [/B]and [icon:YIELD_GOLD] [B]Gold [/B]per Age when you capture a Settlement for the first time.[LI][B]+10% [icon:YIELD_GOLD] Gold [/B]in all Settlements. This is [B]doubled [/B]in Settlements not founded by you.[LI][B]+1 Settlement Limit [/B]per Age.[/LIST] -->
+			<Text>[LIST][LI][B]+3 [icon:NAR_REW_COMBAT] พลังต่อสู้ [/B]สำหรับยูนิตที่กำลัง [B]โจมตี [/B]ในดินแดนที่เป็นกลางหรือดินแดนของศัตรู[LI]รับ [B]100 [icon:YIELD_CULTURE] วัฒนธรรม [/B]และ [icon:YIELD_GOLD] [B]ทอง [/B]ต่อยุคเมื่อคุณเข้ายึดถิ่นฐานอื่นเป็นครั้งแรก[LI][B]+10% [icon:YIELD_GOLD] ทอง [/B]ใน ถิ่นฐาน ทั้งหมด ซึ่งจะเป็น [B]สองเท่า [/B]ใน ถิ่นฐาน ที่ไม่ได้ก่อตั้งโดยคุณ[LI][B]+1 ขีดจำกัดถิ่นฐาน [/B]ต่อยุค[/LIST]</Text>		<!-- [BLIST][LI][B]+3 [icon:NAR_REW_COMBAT] Combat Strength [/B]for Units that are [B]attacking [/B]in neutral or enemy territory.[LI]Gain [B]100 [icon:YIELD_CULTURE] Culture [/B]and [icon:YIELD_GOLD] [B]Gold [/B]per Age when you capture a Settlement for the first time.[LI][B]+10% [icon:YIELD_GOLD] Gold [/B]in all Settlements. This is [B]doubled [/B]in Settlements not founded by you.[LI][B]+1 [icon:SETTLEMENT_LIMIT] Settlement Limit [/B]per Age.[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_XERXES_MOD_CULTURE_ON_CAPTURE_SETTLEMENT_DESCRIPTION" Language="th_TH">
 			<Text>+{1_Amount} เครื่องบดการกบฏ</Text>		<!-- +{1_Amount} Crusher of Rebellions -->
@@ -11298,61 +11298,61 @@
 			<Text>มันเป็นรุ่งอรุณของยุคใหม่ ผู้นำของคุณได้เลือกหนึ่งในอารยธรรมที่ยิ่งใหญ่ของยุคนั้นเพื่อเดินเรื่องราวที่ยิ่งใหญ่ต่อไป</Text>		<!-- It is the dawn of a new Age. Your Leader has chosen one of the great Civilizations of that period to further their epic tale. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_AMINA" Language="th_TH">
-			<Text>ราชินีนักรบ อามินา ขึ้นสู่อำนาจเมื่อเส้นทางการค้าของ ซาฮารา เริ่มเปิดโอกาสให้เข้าถึงโลกที่กว้างใหญ่ขึ้นเรื่อยๆ เธอเป็นผู้พิชิตที่ไร้ความรู้สึก และมีใจเป็นหนึ่งเดียว นำประชาชนฮาวซาไปสู่การขยายตัวผ่าน เซเนกัล ก่อนยุคล่าอาณานิคม และมีคำกล่าวว่าเธอพาสวามีเข้าไปในทุกเมืองที่เธอพิชิต เพียงเพื่อฆ่าเขาในตอนเช้า ในการรวมดินแดน อามินาพิชิตตามแบบฉบับของเธอ — ด้วยดาบ ไม่ใช่ชายข้างกาย</Text>		<!-- The warrior queen Amina rose to power when the trade routes of the Sahara began to provide access to a larger and larger world. A callous and single-minded conqueror, she led the Hausa people on a campaign of expansion across the precolonial Sahel, and she was said to take a lover in every city she vanquished, only to kill him in the morning. In uniting the lands, Amina conquered according to her own fashion — with a sword, not a man, at her side. -->
+			<Text>อามีนา ซาราอูนิยาแห่งเฮาซา ผู้ไม่เคยยอมก้มหัวต่อใคร จงเตรียมขี่ม้าของท่านสู่สมรภูมิ ท่านผู้ไม่เคยรับใช้ใคร กลับปกป้องผู้ที่รับใช้ท่านไว้หลังผนังสูง และขี่บดขยี้ผู้ที่ไม่ยอมรับใช้ จงสู้ศึกเถิด ซาราอูนิยา แล้วจงชิงเอาสิ่งที่เป็นของท่านกลับคืนมา</Text>		<!-- Amina, sarauniya of the Hausa, bowing to none, prepare your mount for war. You who would not serve, protected those who served you behind high walls - and rode down those who would not. Fight now, sarauniya, and gain what is yours. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_ASHOKA" Language="th_TH">
 			<Text>ถูกยกย่องว่าเป็นจักรพรรดิที่ "หมุนวงล้อ" สำหรับการแพร่หลายของพุทธศาสนา อโศกมีอดีตที่หลากหลาย เป็นที่รู้จักในด้านความโกรธแค้นในฐานะจักรพรรดิของเมารยะ อโศกได้ประสบกับการเปิดเผยอย่างลึกซึ้ง เมื่อได้เห็นการสังหารของเขาที่มีต่อกาลิงกาในปี 260 ก่อนคริสต์ศักราช หลังจากนั้น เขาได้เผยแพร่ข้อความเกี่ยวกับ ความไม่ใช้ความรุนแรงทั่วดินแดนของเขา และต่างประเทศ พยายามนำทางคนอื่นให้ห่างไกล จากมรดกของการทำลายล้างของเขาเอง</Text>		<!-- Lauded as a chakravartin, a “wheel-turning monarch,” for spreading Buddhism, Ashoka had a checkered past. Known for his ferocity as the emperor of the Maurya, Ashoka experienced a profound revelation upon witnessing his slaughter of the Kalinga in 260 BCE. Afterwards, he spread a message of non-violence around his lands and abroad, seeking to steer others away from his own legacy of destruction. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_AUGUSTUS" Language="th_TH">
-			<Text>หลังจากสงครามกลางเมืองในกรุงโรม ออกัสตัส ได้รวบรวมสาธารณรัฐที่แตกแยกเป็น จักรวรรดิที่ขยายจากทะเลเหนือไปยังอียิปต์ แม้จะมีความกลัวของชาวโรมันต่อผู้ปกครองที่เป็นทรราช เขาก็สามารถสร้างอำนาจเพียงคนเดียว ในขณะที่ยังคงรักษาโครงสร้างของสาธารณรัฐเก่าไว้อย่างเห็นได้ชัด เขาขยายพรมแดนของโรมผ่านรัฐลูกและการจัดระเบียบกองทัพใหม่ ปฏิรูปกฎหมายภาษี และก่อตั้งพิธีบูชาอาณาจักร ภาพลักษณ์สมัยใหม่ของจักรวรรดิโรมัน ส่วนใหญ่เป็นภาพตามวิสัยทัศน์ของ ออกัสตัส</Text>		<!-- Emerging from Rome’s civil wars, Augustus consolidated the fractious republic into an empire stretching from the North Sea to Egypt. Despite the Roman fear of tyrants, he achieved sole power while outwardly maintaining the old republic’s structures. He expanded Rome’s borders via client states and a reorganized army, reformed the tax code, and inaugurated the imperial cult. The modern image of Imperial Rome is largely the one of Augustus’ vision. -->
+			<Text>ผู้หนึ่งในหมู่เท่าเทียมกัน ออกัสตัส ซีซาร์ ท่านยึดมั่นในสิทธิ์ของตน แม้จะไม่เคยเรียกตนเองว่าจักรพรรดิ แต่ประชาชนก็เทิดทูนท่านเสมือนเทพเจ้า โลกในขณะนี้เต็มไปด้วยความวุ่นวาย ท่านจะให้รูปแบบแก่โลก โลกที่ไร้ผู้นำ ท่านจะเป็นผู้ชี้นำ จงสวมมงกุฎรอบดอกลอเรลไว้บนศีรษะ และทรงบัญชา นำประชาชนของท่านสู่ความรุ่งโรจน์ และชื่อของท่านจะกลายเป็นคำพ้องความหมายของการปกครอง</Text>		<!-- First among equals, Augustus Caesar claims his right. You, who never call yourself Emperor, are revered by your people as a god. The world now is disorder; you will give it form. The world is leaderless; you will provide it direction. Set the laurels on your head and issue your commands - lead your people to glory, and your name will become synonymous with rule. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_BENJAMIN_FRANKLIN" Language="th_TH">
-			<Text>ในอเมริกายุคอาณานิคม มีบุคคลไม่กี่คนที่ฉายแสงเท่ากับเบนจามิน แฟรงคลิน เริ่มต้นจากการเป็นช่างพิมพ์ธรรมดา เขาได้สร้างชื่อเสียงให้กับตัวเองในฐานะผู้เผยแพร่หนังสือพิมพ์ที่โดดเด่น ในปี ค.ศ. 1747 เขาเข้าสู่การเมืองและกลายเป็นหนึ่งในบิดาแห่งชาติ โดยมีส่วนร่วมในการร่างและลงนามในเอกสารประกาศอิสรภาพ แฟรงคลินเป็นคนที่ไม่หยุดนิ่งในความรู้และยังได้ให้การสนับสนุนด้านวิทยาศาสตร์ในหลายสาขาที่หลากหลาย เช่น ไฟฟ้าและมหาสมุทรวิทยา</Text>		<!-- In colonial America, few individuals shone as brightly as Benjamin Franklin. Beginning as a humble printer, he soon established himself as a prominent newspaper publisher. In 1747, he moved into politics and became one of the Founding Fathers, participating in the drafting and signing of the Declaration of Independence. A restless polymath, Franklin also made many contributions to science in fields as diverse as electricity and oceanography. -->
+			<Text>นักเขียน นักพิมพ์ และนักประดิษฐ์ ท่านให้คำปรึกษาแก่ทุกคนที่ขอ และแม้แต่ผู้ที่ไม่ได้ร้องขอ ด้วยไหวพริบแห้งแล้งและปัญญาอันเฉียบคม ท่านท้าทายความอยุติธรรมของการปกครองโดยชาวต่างชาติ และใช้ความคิดสร้างสรรค์ของท่านในการสร้างชาติบนพื้นฐานของหลักการและเหตุผล เบนจามิน แฟรงคลิน ขอให้ท่านนำคำแนะนำที่มีคุณค่า และให้เราร่วมกันทำให้ดวงอาทิตย์ส่องสว่างเหนือประชาชนของท่าน</Text>		<!-- Writer, printer, and inventor, you offer your counsel to all who ask - and many who do not. With your dry wit and keen mind, you challenge the injustice of foreign rule and set your inventive mind towards building a nation based on principled rationality. Benjamin Franklin, bring your sound advice, and let us ensure that the sun rises on your people. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_CATHERINE" Language="th_TH">
-			<Text>เกิดเป็นเจ้าหญิงจากเยอรมนี แคทเธอรีนมหาราชาได้โค่นสามีของเธอในปี ค.ศ. 1762 เพื่อขึ้นเป็นจักรพรรดินีแห่งรัสเซีย ด้วยวิสัยทัศน์ในการพัฒนา เธอได้สร้างแบบอย่างใหม่ของกฎหมายและการปกครอง และดูแลยุคของการขยายตัวอย่างรวดเร็ว ทั้งจากการสงครามและการทูต โดยมีแรงจูงใจจากความอยากรู้ทางปัญญา และความรักในศิลปะ แคทเธอรีนยังได้สนับสนุนผู้สร้างสรรค์ นักวิชาการ และนักวิทยาศาสตร์ ส่งเสริมการตรัสรู้ของรัสเซียและสภาพแวดล้อมของนวัตกรรม</Text>		<!-- Born a German princess, Catherine the Great overthrew her husband in 1762 to become Empress of Russia. Guided by a vision of modernization, she established new models of law and governance, and oversaw an era of rapid expansion through war and diplomacy. Motivated by intellectual curiosity and love of the arts, Catherine also sponsored creatives, scholars, and scientists, fostering the Russian Enlightenment and its environment of innovation. -->
+			<Text>แคทเธอรีนผู้ยิ่งใหญ่ จักรพรรดินีแห่งโรมานอฟ ท่านนำความงดงามสู่ระบอบเผด็จการ ด้วยสายตาที่เฉียบคม ท่านเปลี่ยนแปลงไม่เพียงแต่พระราชวัง แต่รวมถึงประชาชนของท่าน จงปลูกฝังความรักในศิลปะ และความเคารพต่ออำนาจ นำพวกเขาสู่ความรู้ และให้พวกเขาเห็นแสงแห่งดวงดาวเหนือ ที่ส่องสว่างออกมาจากพระราชบัลลังก์ของท่าน</Text>		<!-- Catherine the Great, Tsarina of the Romanovs, you bring beauty to autocracy. With your keen eye, you transform not only your palace, but your people. Cultivate a love of the arts - and respect for authority. Guide them to knowledge, and let them see the light of the north star, shining out from your throne.   -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_CHARLEMAGNE" Language="th_TH">
-			<Text>ชาร์ลส์ผู้ยิ่งใหญ่ หรือ ชาร์เลอมาญ เริ่มต้นอาชีพของเขาในฐานะกษัตริย์แห่งเฝรงค์ในปี ค.ศ. 768 เขาสืบทอดประชากรที่หลากหลายและไม่สงบ เขาได้สร้างอาณาจักรของเขาใหม่ โดยการรวมประเพณีเก่ากับรูปแบบการปกครองใหม่ และขยายอาณาจักรที่ทอดยาวไปทั่วยุโรป นอกจากความเฉลียวฉลาดทางการเมืองแล้ว ความอยากรู้ตามธรรมชาติของ ชาร์ลมาญ ยังสนับสนุนยุคฟื้นฟูศิลปวิทยาของคาโรลินเจียน ทำให้พระราชวังของเขากลายเป็นศูนย์กลางสำหรับนักการทูตและปัญญาชนเช่นกัน</Text>		<!-- Charles the Great, or Charlemagne, began his career as King of the Franks in 768 CE. Having inherited a diverse and restless population, he reforged his kingdom by integrating old traditions with new forms of governance and grew an empire that stretched across Europe. In addition to his political acumen, Charlemagne’s natural curiosity encouraged the Carolingian Renaissance, transforming his court into a hub for diplomats and intellectuals alike. -->
+			<Text>เสียงแตรอันกังวานของอัศวินส่งเสียงเรียกท่าน ชาลส์มาน ผู้เป็นกษัตริย์แห่งแฟรงก์และจักรพรรดิโรมันอันศักดิ์สิทธิ์ ในห้องอาหารและบทเพลงของนักร้องเดินทาง ขอให้ชัยชนะของท่านดังก้องกังวาล ในตำนาน ขอให้ชัยชนะของท่านคงอยู่ตลอดกาล เมื่ออัศวินของท่านก้าวสู่สนามรบ จงให้พวกเขารู้ว่าพวกเขารบเพื่อใคร</Text>		<!-- The clarion call of the knight’s trumpet seeks you out, Charlemagne, King of the Franks and Holy Roman Emperor. In feast-halls and in troubadours’ songs, may your victories resound. In legend, may your victories remain. As your knights take the battlefield, let them know for whom they ride. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_CONFUCIUS" Language="th_TH">
-			<Text>กงฟูจื หรือ ขงจื๊อ ได้รับความสนใจในช่วงยุคโจว และหันไปเขียนหลังจากชีวิตในรัฐบาล ตรงกันข้ามกับสภาพการเมือง ที่เจ้านายแข่งขันเพื่ออำนาจ และยอมจำนนต่อความชั่ว ขงจื๊อ ได้พัฒนาหลักการของระเบียบ ความสามัคคี และประเพณี งานเขียนมากมายของเขา ย้ำถึงความสำคัญของการทำงานหนัก และการรู้สถานะของตนเอง ไม่ว่าจะเป็นเจ้านายหรือประชาชน ผู้ปกครองหรือบุตร หลักคิดของ ขงจื๊อ ได้มีอิทธิพลต่อสังคมเอเชียตะวันออก มาเป็นเวลาหลายศตวรรษเลยทีเดียว</Text>		<!-- Kong Fu Zi, or Confucius, came to prominence during the Zhou Dynasty and turned to writing following a life in government. In contrast to a political climate in which rulers vied for power and succumbed to vice, Confucius cultivated an ethos of order, harmony and tradition. His many writings stress hard work and knowing one’s place — be you ruler or subject, parent or child. Confucian thought would influence East Asian society for centuries hence. -->
+			<Text>ปรมาจารย์กง ท่านเคยให้คำชี้แนะแก่ผู้ปกครองเมื่อพวกเขาหลงทาง และบัดนี้ ท่านผู้มีปัญญา โลกก็ยังคงต้องการคำแนะนำจากท่านอีกครั้ง จงช่วยเราปรับสมดุลระหว่างหน้าที่กับความเมตตา ช่วยให้เราเห็นด้วยปัญญาและความเหมาะสม เมื่อความมืดแห่งความไม่รู้ปกคลุม จงนำเราไปสู่หนทางแห่งความถูกต้อง</Text>		<!-- Master Kong, you gave guidance to rulers when they were lost. Now, wise one, the world is again in need of your guidance. Help us to temper duty with benevolence; help us to see with wisdom and propriety. Where the darkness of ignorance falls, lead us in the righteous path. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_FRIEDRICH" Language="th_TH">
-			<Text>การขึ้นสู่อำนาจของ ฟรีดริช ใน ปรัสเซีย ที่มีการทหารดูเหมือนจะขัดแย้งกันในตอนแรก ในวัยเยาว์เขาสนใจในศิลปะ และวรรณกรรมมากกว่าการทำสงคราม อย่างไรก็ตามเมื่อเขาขึ้นครองบัลลังก์ เขาได้เปิดเผยถึงความชอบในทฤษฎีการทหาร และรสนิยมในความรุนแรง ของปรัสเซีย เฟรเดอริกขยายอาณาเขตของเขาอย่างเข้มข้น และทำให้ชื่อเสียงด้านการทหารของปรัสเซียมั่นคง แต่เขาก็ไม่เคยสูญเสียความรักในศิลปะ โดยรักษาสมดุลระหว่างมือเหล็กกับการสนับสนุนทางปัญญา</Text>		<!-- Friedrich the Great’s rise to power in militarized Prussia at first seems contradictory. In his youth he was more interested in art and literature than war. Yet upon taking the throne, he revealed a sharp proclivity for military theory and a taste for Prussian aggression. Friedrich vigorously expanded his borders and solidified Prussia’s martial reputation, but never lost his love of the arts, balancing his iron hand with intellectual patronage. -->
+			<Text>ถึงแม้ท่านจะรักโอเปร่าเฮาส์ยิ่งกว่าสนามรบ แต่ท่านกลับเปล่งประกายในเปลวไฟแห่งปืนใหญ่ เส้นทางแห่งการโจมตีแทนที่คันชักไวโอลิน เสียงระเบิดปืนใหญ่แทนแทมปานี และแตรทองเหลืองเปลี่ยนเป็นเสียงกระสุนเหล็ก จงโฟกัสจิตใจไปที่ศิลปะแห่งสงคราม เฟรดริช — ออร์เคสตราของท่านรอสัญญาณอยู่</Text>		<!-- Though a lover of the opera house more than the battlefield, it is in the cannon’s fire that you shine. The line of attack replaces the violin’s bow, the roll of cannon stands in for the timpani, and the brass horn now calls forth iron shot. Bend your mind towards the artistry of war, Friedrich - your orchestra awaits your signal. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_HARRIET_TUBMAN" Language="th_TH">
-			<Text>เกิดในชื่อ อารามินตา “มินตี้” รอสส์ ในครอบครัวที่เป็นทาสในไร่ในรัฐแมรี่แลนด์ แฮเรียต ทับแมน หลบหนีจากการเป็นทาส และช่วยคนอื่นๆ ทำเช่นเดียวกันผ่านทางรถไฟใต้ดิน ซึ่งเป็นเครือข่ายของบ้านปลอดภัยที่นำไปสู่ ทางตอนเหนือที่เป็นอิสระ, เธอเป็นผู้นำกองทัพสหภาพในการโจมตีที่ เรือข้ามฟากคัมบาฮี, ช่วยเหลือผู้คนกว่า 700 คน และหลังจากนั้นก็เข้าร่วมใน ขบวนการเรียกร้องสิทธิและสาเหตุอื่นๆ น้อยคนที่จะสะท้อนถึงการต่อสู้เพื่อเสรีภาพ และสิทธิเสมอภาคได้ดีเท่า แฮเรียต ทับแมน</Text>		<!-- Born Araminta “Minty” Ross to enslaved parents on a Maryland plantation, Harriet Tubman escaped slavery, then helped others do the same via the Underground Railroad, a network of safehouses that led to the free North. She led the Union Army in a raid on Combahee Ferry, rescuing over 700 people, and later became involved in the suffrage movement and other causes. Few have embodied the fight for freedom and equal rights as well as Harriet Tubman. -->
+			<Text>โคมไฟแห่งการนำทางส่องสว่างเจิดจ้าในมือของท่าน ฮาเรียน ทับแมน ขณะที่ท่านเรียกประชาชนให้มารวมกัน ท่านนำทางผ่านความมืดมิด เป็นประภาคารสำหรับผู้หลงทาง ส่งแสงสว่างที่ไม่เคยหวั่นไหวก้าวไปข้างหน้า สู่คำมั่นสัญญาแห่งรุ่งอรุณ</Text>		<!-- The guiding lantern shines bright in your hand, Harriet Tubman, as you call your people to you. You lead on through the darkness, a beacon for the lost, casting an unwavering light forward, towards the promise of dawn. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_HATSHEPSUT" Language="th_TH">
-			<Text>ช่วงต้นศตวรรษที่ 14 ก่อนคริสต์ศักราช อียิปต์ได้เจริญรุ่งเรืองภายใต้การนำของ แฮตเชปซุต ในช่วงเวลายาวนานของเธอ แฮตเชปซุตได้ขยายอาณาจักรการค้าอียิปต์ สร้างเครือข่ายและอิทธิพลในทะเลเมดิเตอร์เรเนียนทางตอนเหนือ และดินแดนที่ร่ำรวยของ พันต์ ทางทิศใต้ เธอได้ใช้ความมั่งคั่งที่เกิดขึ้นนั้นไปใน โครงการก่อสร้างที่ยิ่งใหญ่ ซึ่งสะท้อนถึง มรดกทางวัฒนธรรมที่มั่งคั่งของประชาชนของเธอ ทำให้มั่นใจว่าพลังที่เธอสร้างขึ้นเพื่อทั้งอียิปต์ และตัวเธอเองจะคงอยู่ตลอดไป</Text>		<!-- The early 14th century BCE saw Egypt flourish beneath the guiding hand of Hatshepsut. During her long tenure Hatshepsut expanded Egypt’s trading empire, establishing networks and influence in the Mediterranean to the north and the rich land of Punt to the south. She channeled the resulting wealth into immense building projects that captured her people’s rich heritage, ensuring the power she cultivated for both Egypt and herself would be immortal. -->
+			<Text>ฟาโรห์ผู้ยิ่งใหญ่ ฮัตเชปซุต ชื่อของท่านถูกจารึกซ้ำแล้วซ้ำเล่าในหินอมตะ ขอให้ท่านทอดมือออกมาอีกครั้ง นำสิ่งมหัศจรรย์จากผืนทรายกลับมาอีกครา ให้ประชาชนของท่านดุจสายน้ำ ที่ขึ้นและลง แต่ไม่เคยสูญสิ้น</Text>		<!-- Great Pharaoh Hatshepsut, your name is written again and again in immortal stone. Extend your hand now, and bring once again wonders from the sand. Ensure that your people, like the river, rise and fall, but never vanish. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_HIMIKO" Language="th_TH">
 			<Text>ราชินีของ ยามาไต รัฐญี่ปุ่นในยุคแรก ฮิมิโกะ ใช้อำนาจทางการเมือง และศาสนาของเธอในฐานะที่อาจจะเป็น มิโกะ ของเทพีสุริยะ อามาเทราสึ ในการปกครอง ความสามารถทางการเมืองของเธอได้รับการยอมรับจากอาณาจักรจีนของเฉาซวี ซึ่งเรียกเธอว่า "เพื่อนของเว่ย" อำนาจของเธอปรากฏในสิ่งที่จะกลายเป็นจักรวรรดิญี่ปุ่น เป็นเวลานานกว่าพันปี</Text>		<!-- The queen of Yamatai, an early Japanese state, Himiko used her political and religious authority as, possibly, a shaman of the sun-goddess Amaterasu to rule. Her political prowess was recognized by the Chinese kingdom of Cao Wei, who dubbed her a “friend of Wei.” Her authority is echoed in what will become the Empire of Japan for over a thousand years. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_IBN_BATTUTA" Language="th_TH">
-			<Text>ตามเส้นทางการค้าของ แอฟริกา เอเชีย และยุโรป มีอิบน์ บัตตูตา นักวิชาการและนักประวัติศาสตร์ที่เกิดจากครอบครัวโมร็อกโก และเบร์เบอร์ในปี ค.ศ. 1325 หลังจากที่ไปประกอบพิธีฮัจญ์ การแสวงบุญของมุสลิมไปยังเมกกะ, เขาได้ออกสำรวจดาร์ อัลอิสลาม (โลกมุสลิมที่รู้จัก) ผ่านบันทึกการเดินทางของเขา ริห์ล่า ความเข้าใจของ อิบน์ บัตตูตะ เกี่ยวกับโลกของเขา และชีวิตของผู้คนที่เขาแบ่งปันด้วย ยังคงสร้างแรงบันดาลใจให้กับนักเดินทางที่มีแนวคิดเดียวกัน</Text>		<!-- Down the trade routes of Africa, Asia, and Europe traveled Ibn Battuta, a scholar and chronicler born of a Moroccan and Berber family in 1325. After performing the Hajj, the Muslim pilgrimage to Mecca, he went on to explore the Dar Al-Islam (the known Muslim world). Through his travelogue, the Rihla, Ibn Battuta's insights into his world, and the lives of those he shared it with, continue to inspire like-minded travelers. -->
+			<Text>เส้นทางของนักเดินทางยาวไกลนัก แต่ไม่มีใครเก่งกล้ากว่านักเดินทางมุฮัมมัด อิบัน บัตตูตา กาดีรวบรวมเรื่องเล่า ไกล่เกลี่ยข้อพิพาท และรวบรวมคำตัดสินเพื่อผู้แสวงหาปัญญาของเขา จงหยิบไม้เท้าผู้แสวงบุญในมือ และก้าวย่างก้าวแรกเถิด</Text>		<!-- The wanderer’s road is a long one, but there is no greater traveler than Muhammad ibn Battuta. The qadi gathers stories, resolves disputes, and compiles judgements for those who seek his wisdom. Take your pilgrim’s staff in hand, and take the first step. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_ISABELLA" Language="th_TH">
-			<Text>พระราชินี อิซาเบลลา ของสเปน มีวิสัยทัศน์เพียงหนึ่งเดียว – การเติบโตของอำนาจชาติของเธอ ที่บ้าน เธออุทิศตัวเพื่อสร้างบทต่อไปของสเปนในฐานะ ป้อมปราการของนิกายคาทอลิก และดูแลความรุนแรงของการสอบสวน และการรีคอนคีสตา ในต่างประเทศ เธอสนับสนุนการขยายอำนาจของ สเปน เข้าสู่โลกใหม่ ด้วยความเฉลียวฉลาดและไร้ความปรานี อิซาเบลลาสร้างพื้นฐานสำหรับอนาคตของ สเปน จากสงครามและความมั่งคั่ง</Text>		<!-- Queen Isabella of Spain had a single vision – the growth of her nation’s power. At home, she dedicated herself to establishing Spain’s next chapter as a bastion of Catholicism and oversaw the violence of the Inquisition and the Reconquista. Abroad, she sponsored the expansion of Spanish might into the New World. Clever and ruthless, Isabella built the groundwork for Spain’s future upon war and wealth. -->
+			<Text>อิซาเบลลาแห่งกัสติยี ท่านรวมราชอาณาจักรทั้งปวงไว้ใต้พระราชบัลลังก์เดียว และทรงเริ่มการเดินเรือที่จะแปรเปลี่ยนโลก ทรงนำทางประชาชนของท่านสู่สิ่งมหัศจรรย์และความมั่งคั่งที่โลกมีให้ และควบคุมอย่างเข้มงวด เพื่อไม่ให้พวกเขาหลงทาง จงทรงบัญชาเถิด พระราชินี เพื่อให้เราได้เห็นสิ่งที่โลกมอบให้</Text>		<!-- Isabella of Castille, you united your kingdoms under one crown, and set sail the voyages that were to reshape the world. Guide your people to the wonders and riches that the world contains, and maintain your firm hand, lest they stray. Give the order, Queen, that we may see what the world has to offer. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_JOSE_RIZAL" Language="th_TH">
-			<Text>โฮเซ รีซัล ซึ่งถูกมองว่าเป็นวีรบุรุษของ ฟิลิปปินส์ เป็นผู้ปกป้องเกียรติยศ และความเป็นอิสระของชาวฟิลิปปินส์อย่างมีความมุ่งมั่น เขาเริ่มต้นสร้างชื่อเสียงใน ฐานะนักเคลื่อนไหว ทางการเมืองในยุโรป วิพากษ์วิจารณ์การปกครองของสเปนในบ้านเกิดของเขา และถึงแม้เขาจะเรียกร้องให้มีการปฏิรูปอย่างสันติและสิทธิเสมอภาค ริซาล ก็ถูกนำขึ้นศาล และถูกประหารชีวิตโดยสเปน อย่างไรก็ตาม จิตวิญญาณในการปฏิวัติของเขาไม่สามารถถูกกักขังไว้ได้ และยังคงสร้างแรงบันดาลใจให้กับชาวฟิลิปปินส์ตั้งแต่นั้นมา</Text>		<!-- Long regarded as a hero of the Philippines, José Rizal was a passionate defender of the dignity and autonomy of Filipinos. He first gained his reputation as a political activist in Europe, criticizing the Spanish rule of his homeland, and though he advocated for peaceful reform and equal rights, Rizal was eventually tried and executed by the Spanish. Yet his revolutionary spirit could not be contained, and has inspired Filipinos ever since. -->
+			<Text>ด้วยเสียงที่ไม่หวั่นไหว และปลายปากกาที่ไม่ลังเล โฮเซ ริซัล เรียกประชาชนให้มารวมตัวกัน ในเปลวไฟแห่งการปฏิวัติ แม้บางคนจะหวาดหวั่น แต่ริซัลยังคงยืนหยัดอย่างเด็ดเดี่ยวจนถึงที่สุด เตรียมตัวให้พร้อม เพราะยังมีหัวใจที่ต้องชนะใจ</Text>		<!-- With a voice that does not falter, and a pen that does not hesitate, Jose Rizal calls his people to him. In the fire of revolution, some falter, but Rizal stands resolute to the end. Ready yourself; there are hearts to be won. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_LAFAYETTE" Language="th_TH">
-			<Text>กิลแบร์ดู โมติเยร์ มาร์คีส์ เดอ ลาฟาแยต ทำเครื่องหมายของเขาในสองทวีป โดยนำทหารในสงครามปฏิวัติอเมริกา และเป็นเสียงของเหตุผลในฝรั่งเศส ระหว่างสยองขวัญสองด้านคือระบบอำนาจเผด็จการและการล้างแค้นจากการปฏิวัติ ในขณะที่มรดกของเขาน่าประทับใจ ความสำเร็จที่มีทักษะที่สุดของเขาอาจจะเป็นเพียงการอยู่รอดในศูนย์กลางของความวุ่นวายที่ยิ่งใหญ่ที่สุดในยุคของเขา</Text>		<!-- Gilbert du Motier, the Marquis de Lafayette, made his mark on two continents, leading troops in the American Revolution, and being a voice of reason in France, between the twin horrors of autocracy and revolutionary retribution. While his legacy is impressive, his most skillful feat may simply be survival at the center of some of the greatest tumult of his time. -->
+			<Text>จิลแบร์ ดู โมติเยร์ มาร์กีส์ เดอ ลาฟาแยตต์ วีรบุรุษแห่งสองโลก ท่านยืนอยู่บนคมมีด ทางหนึ่งคืออำนาจเผด็จการที่ไร้หัวใจ อีกทางคืออนาธิปไตยที่ไร้เหตุผล มีเพียงปัญญาและความเมตตานำทางท่านก้าวไป จงก้าวอย่างระมัดระวัง มาร์กีส์ เพราะก้าวพลาดหนึ่งก้าวอาจหมายถึงการล่มสลาย</Text>		<!-- Gilbert du Motier, the Marquis de Lafayette, the Hero of Two Worlds, you stand on the knife’s edge. On one side is heartless autocracy, and on the other mindless anarchy, with only reason and compassion leading you forward. Tread carefully, Marquis, one missed step risks a fall. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_PACHACUTI" Language="th_TH">
-			<Text>หลังจากที่เขาปกป้องอาณาจักรจากการรุกราน ปาชาคูตี ได้ขึ้นครองอำนาจใน อาณาจักรคุซโก ประมาณปี 1438 และเริ่มทำการพิชิตภูมิภาคใกล้เคียงในไม่ช้า เขามีความสามารถทางทหาร และการเมืองในระดับที่เท่ากัน — ผู้ที่เขาไม่สามารถครอบครองได้ด้วยกำลัง เขาตอบแทนด้วยของขวัญ โดยสัญญาถึงความเป็นอิสระ และความเจริญรุ่งเรืองแลกกับความจงรักภักดี อาณาจักรอินคาจะดำรงอยู่ต่อไปเพียงประมาณหกสิบปีหลังจากการเสียชีวิตของเขา เมื่อชาวสเปนมาถึง แต่มรดกของปาชาคูติก็ยังคงอยู่ต่อไปอย่างไรก็ตาม</Text>		<!-- Having defended it from invasion, Pachacuti assumed rule over the kingdom of Cuzco around 1438 and soon began to conquer neighboring regions. He had military and political prowess in equal measure — those he could not take by force he plied with gifts, promising autonomy and prosperity in exchange for loyalty. The Inca Empire would only continue for some sixty years after his death, when the Spanish came, but Pachacuti’s legacy endures nonetheless. -->
+			<Text>ซาปาอินคา ปาชาคูติ ผู้เขย่าพสุธา ถึงเวลาของท่านแล้ว จงเรียกพันธมิตรของท่านจากเผ่าติรากูนา ท่ามกลางก้อนหินและแสงสว่างแห่งที่สูง ในรอยเท้าของพุม่า — ประชาชนของท่านต้องการท่าน ท่านเรียกหาภูเขา และภูเขาสั่นสะเทือนเพื่อตอบรับ จงให้มันสั่นสะเทือนอีกครั้ง</Text>		<!-- Sapa Inca Pachacuti, Earth-Shaker, your time has come. Bring your allies among the tirakuna, in the stones and light of the high places, in the print of the puma’s paw - your people have need of you. You call to the mountains and they tremble for you. Let them tremble again. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_MACHIAVELLI" Language="th_TH">
 			<Text>ชื่อของนักเขียน นักการทูต และนักปรัชญาชาวฟลอเรนซ์นาม นิคโคโล มาเคียเวลลี่ ได้กลายเป็นสัญลักษณ์ของความหลอกลวงและการทรยศ เขาได้โต้แย้งว่าผู้นำที่มีประสิทธิภาพที่สุดคือผู้ที่พร้อมที่จะทำทุกอย่างเพื่อให้ได้มา รักษา และใช้อำนาจ มุมมองดังกล่าวทำให้เขาได้รับความไม่พอใจ จากทั้งคริสตจักรคาทอลิกและตระกูลเมดิชิผู้ทรงอำนาจ แต่ความคิดของเขายังคงมีชีวิตอยู่ในงานหลังความตายของเขา "เจ้าชาย" ซึ่งทำให้เขาในแบบฉบับขอ มาเคียเวลลี่ ได้รับคำพูดสุดท้าย</Text>		<!-- The name of Florentine writer, diplomat and philosopher Niccolo Machiavelli has become synonymous with duplicity and treachery. He argued that the most effective ruler was one willing to do whatever it took to gain, retain and wield power. Such views won him the ire of both the Catholic Church and the powerful Medici dynasty. But his ideas live on in his posthumous work The Prince — giving him, in true Machiavellian fashion, the last word. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_TRUNG_TRAC" Language="th_TH">
-			<Text>ในช่วงสั้นๆ ในสิ่งที่ปัจจุบันคือเวียดนาม สองพี่น้อง ตึง จั๊ค และตึง ญี่ ได้ยืนหยัดต่อสู้กับอำนาจของราชวงศ์ฮั่น เมื่อสามีของตึง จั๊ค ถูกตัดสินประหารชีวิต ตึง จั๊ค และน้องสาวจึงต่อสู้ต่อไป โดยได้เอกราชมาเป็นเวลา 3 ปี ก่อนที่การตอบโต้ของฮั่นจะเกิดขึ้น พวกเธอยังคงถูกยกย่องเป็นสัญลักษณ์ของเอกราชเวียดนาม และเป็นเทพเจ้าที่มีความสำคัญในตัวของพวกเธอเอง</Text>		<!-- For a brief period in what is now Vietnam, two sisters, Trung Trac and Trung Nhi, stood against the might of the Han Dynasty. When her husband was sentenced to death, Trung Trac and her sister fought on, gaining independence for three years before the Han counterattack. They are still held up as symbols of Vietnamese independence, and divinities in their own right. -->
+			<Text>ด้วยเสียงตะโกนแห่งความท้าทาย เจ้าจะยืนหยัดต่อสู้กับผู้ที่หวังบงการเจ้า ถึงแม้ว่าศัตรูของเจ้าจึงจักจะมากมาย แต่เจ้าจะทำให้พวกเขาต้องชดใช้ทุกย่างก้าวบนแผ่นดินของเจ้า จงส่งเสียงร้อง และเรียกประชาชนของเจ้ามายืนเคียงข้างกัน ท้องฟ้าเริ่มมืดครึ้ม...</Text>		<!-- With a cry of defiance, you stand against those who would impose their will. Though your enemies, Trung Trac, may be many, you will make them pay for each step they take in your lands.  Raise your cry, and call upon your people to stand with you. The sky darkens. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_XERXES" Language="th_TH">
-			<Text>เซิร์กซีส ที่ 1 สืบทอดอาณาจักรอาเคเมนิดใน ช่วงเวลาที่วิกฤต และนำไปสู่ความยิ่งใหญ่ เขาได้บดขยี้การปฏิวัติสองครั้งอย่างรวดเร็วเมื่อเข้ารับตำแหน่ง โดยตั้งเป้าหมายไปที่กรีซและรุกรานในปี 480 ก่อนคริสต์ศักราช หลังจากความพ่ายแพ้ที่ ซาลามิส ทำให้ความทะเยอทะยานใน ยุโรป ของเขาสิ้นสุดลง เซิร์กซีสจึงเปลี่ยนความสนใจจากการขยายอาณาเขต ไปสู่การสร้างความมั่งคั่ง โดยทุ่มเทคลังหลวงของเขาสำหรับผลงานด้านสถาปัตยกรรม ที่เป็นเครื่องพิสูจน์ถึงชัยชนะที่เขามอบให้แก่ประชาชนของเขาและความกลัวที่เขาสร้างขึ้นในศัตรูของเขา</Text>		<!-- Xerxes I inherited the Achaemenid Empire at a time of crisis and guided it to greatness. Swiftly crushing two uprisings upon taking power, he set his sights on Greece and invaded in 480 BCE. After defeat at Salamis ended his European ambitions, Xerxes shifted his attention from expansion to enrichment, devoting his treasury to architectural masterpieces, testaments to the triumph he bestowed on his people and the fear he provoked in his enemies. -->
+			<Text>เจ้าแห่งกษัตริย์ทั้งปวง ท่านได้นำไฟแห่งความทะเยอทะยานมาสู่โลก เปลวไฟนั้นสะท้อนประกายจากทองคำในห้องราชบัลลังก์ของท่าน และจากใบดาบบรอนซ์ของนักรบผู้กล้า ท่านได้จินตนาการถึงโลกใหม่ ที่เต็มไปด้วยสิ่งมหัศจรรย์ที่ผุดขึ้นจากป่าเขา สู่จักรวรรดิที่ท้าทายกาลเวลา และจะไม่มีวันลืมชื่อของท่าน — เซอร์ซีส</Text>		<!-- Shah of shahs, you bring the fire of ambition to the world. Its light glitters off of the gold in your throne room - and the bronze blades of your warriors. You conceive of a new world, one of wonders rising from the wilderness, of an empire that defies time, and one that will never forget your name - Xerxes. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_UNIQUE_UNITS_INTRO_TEXT" Language="th_TH">
 			<Text>แต่ละอารยธรรมมอบสิทธิพิเศษในการเข้าถึงรายการต่อไปนี้:[LIST][LI]- ความสามารถเฉพาะที่ปลดล็อกเมื่อเริ่มยุค[LI]- ยูนิตพิเศษสองยูนิต (โดยปกติจะเป็นยูนิตทหารและยูนิตพลเรือน)[LI]- การพัฒนาเฉพาะหรือย่านพิเศษ[LI]- แนวคิดเฉพาะที่ปลดล็อกนโยบายสังคมพิเศษที่เรียกว่าวัฒนธรรม[/LIST]</Text>		<!-- Each Civilization grants you exclusive access to the following items:[LIST][LI]- a Unique Ability, unlocked at the Age start[LI]- two Unique Units (typically a military unit and a civilian)[LI]- a Unique Improvement or a Unique Quarter[LI]- Unique Civics that unlock special Social Policies called Traditions[/LIST] -->
@@ -12363,13 +12363,13 @@
 			<Text>ปลดล็อกที่เลเวล 9 ของอามิน่า</Text>		<!-- Unlock at Amina level 9 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ASHOKA_RENOUNCER_CHAKRA_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อกที่เลเวล 2 ของอโศกมหาราช, ผู้ละทางโลก</Text>		<!-- Unlock at Ashoka World-Renouncer level 2 -->
+			<Text>ปลดล็อกที่เลเวล 2 ของอโศกมหาราช, ผู้ละทางโลก</Text>		<!-- Unlock at Ashoka, World Renouncer level 2 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ASHOKA_RENOUNCER_GOLD_SAPPHIRE_FLOWERS_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อกที่เลเวล 5 ของอโศกมหาราช, ผู้ละทางโลก</Text>		<!-- Unlock at Ashoka World-Renouncer level 5 -->
+			<Text>ปลดล็อกที่เลเวล 5 ของอโศกมหาราช, ผู้ละทางโลก</Text>		<!-- Unlock at Ashoka, World Renouncer level 5 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_ASHOKA_RENOUNCER_DIAMOND_THRONE_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อกที่เลเวล 9 ของอโศกมหาราช, ผู้ละทางโลก</Text>		<!-- Unlock at Ashoka World-Renouncer level 9 -->
+			<Text>ปลดล็อกที่เลเวล 9 ของอโศกมหาราช, ผู้ละทางโลก</Text>		<!-- Unlock at Ashoka, World Renouncer level 9 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_AUGUSTUS_CORONA_CIVICA_UNLOCK_TITLE" Language="th_TH">
 			<Text>ปลดล็อกที่เลเวล 2 ของออกัสตัส</Text>		<!-- Unlock at Augustus level 2 -->
@@ -12417,13 +12417,13 @@
 			<Text>ปลดล็อกที่เลเวล 9 ของขงจื๊อ</Text>		<!-- Unlock at Confucius level 9 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FRIEDRICH_OBLIQUE_WALKING_STICK_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อกที่เลเวล 2 ของฟรีดริช โอบลีค</Text>		<!-- Unlock at Friedrich Oblique level 2 -->
+			<Text>ปลดล็อกที่เลเวล 2 ของฟรีดริช, โอบลีค</Text>		<!-- Unlock at Friedrich, Oblique level 2 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FRIEDRICH_OBLIQUE_ORDER_BLACK_EAGLE_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อกที่เลเวล 5 ของฟรีดริช โอบลีค</Text>		<!-- Unlock at Friedrich Oblique level 5 -->
+			<Text>ปลดล็อกที่เลเวล 5 ของฟรีดริช, โอบลีค</Text>		<!-- Unlock at Friedrich, Oblique level 5 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FRIEDRICH_OBLIQUE_KRONE_VON_FRIEDRICH_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อกที่เลเวล 9 ของฟรีดริช โอบลีค</Text>		<!-- Unlock at Friedrich Oblique level 9 -->
+			<Text>ปลดล็อกที่เลเวล 9 ของฟรีดริช, โอบลีค</Text>		<!-- Unlock at Friedrich, Oblique level 9 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_TUBMAN_LANTERN_UNLOCK_TITLE" Language="th_TH">
 			<Text>ปลดล็อกที่เลเวล 2 ของแฮเรียต ทับแมน</Text>		<!-- Unlock at Harriet Tubman level 2 -->
@@ -12444,13 +12444,13 @@
 			<Text>ปลดล็อกที่เลเวล 9 ของฮัทเชปซุต</Text>		<!-- Unlock at Hatshepsut level 9 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_HIMIKO_QUEEN_GOLDEN_SEAL_STONE_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อกที่เลเวล 2 ของฮิมิโกะ ราชีนีแห่งแคว้นวะ</Text>		<!-- Unlock at Himiko Queen of Wa level 2 -->
+			<Text>ปลดล็อกที่เลเวล 2 ของฮิมิโกะ, ราชีนีแห่งแคว้นวะ</Text>		<!-- Unlock at Himiko, Queen of Wa level 2 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_HIMIKO_QUEEN_DOTAKU_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อกที่เลเวล 5 ของฮิมิโกะ ราชีนีแห่งแคว้นวะ</Text>		<!-- Unlock at Himiko Queen of Wa level 5 -->
+			<Text>ปลดล็อกที่เลเวล 5 ของฮิมิโกะ, ราชีนีแห่งแคว้นวะ</Text>		<!-- Unlock at Himiko, Queen of Wa level 5 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_HIMIKO_QUEEN_YASAKANI_NO_MAGATAMA_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อกที่เลเวล 9 ของฮิมิโกะ ราชีนีแห่งแคว้นวะ</Text>		<!-- Unlock at Himiko Queen of Wa level 9 -->
+			<Text>ปลดล็อกที่เลเวล 9 ของฮิมิโกะ, ราชีนีแห่งแคว้นวะ</Text>		<!-- Unlock at Himiko, Queen of Wa level 9 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BATTUTA_TRAVELLERS_SANDALS_UNLOCK_TITLE" Language="th_TH">
 			<Text>ปลดล็อกที่เลเวล 2 ของอิบน์บัตตูตะ</Text>		<!-- Unlock at Ibn Battuta level 2 -->
@@ -12516,13 +12516,13 @@
 			<Text>ปลดล็อกที่เลเวล 9 ของจึง จั๊ก</Text>		<!-- Unlock at Trung Trac level 9 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_XERXES_KING_SCYTHIAN_AXE_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อกที่เลเวล 2 ของพระเจ้าเซิร์กซีส กษัตริย์แห่งกษัตริย์</Text>		<!-- Unlock at Xerxes King of Kings level 2 -->
+			<Text>ปลดล็อกที่เลเวล 2 ของพระเจ้าเซิร์กซีส, กษัตริย์แห่งกษัตริย์</Text>		<!-- Unlock at Xerxes, King of Kings level 2 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_XERXES_KING_LOTUS_BLOSSOM_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อกที่เลเวล 5 ของพระเจ้าเซิร์กซีส กษัตริย์แห่งกษัตริย์</Text>		<!-- Unlock at Xerxes King of Kings level 5 -->
+			<Text>ปลดล็อกที่เลเวล 5 ของพระเจ้าเซิร์กซีส, กษัตริย์แห่งกษัตริย์</Text>		<!-- Unlock at Xerxes, King of Kings level 5 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_XERXES_KING_GOLDEN_SCEPTRE_UNLOCK_TITLE" Language="th_TH">
-			<Text>ปลดล็อกที่เลเวล 9 ของพระเจ้าเซิร์กซีส กษัตริย์แห่งกษัตริย์</Text>		<!-- Unlock at Xerxes King of Kings level 9 -->
+			<Text>ปลดล็อกที่เลเวล 9 ของพระเจ้าเซิร์กซีส, กษัตริย์แห่งกษัตริย์</Text>		<!-- Unlock at Xerxes, King of Kings level 9 -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_SLOT_1_UNLOCK_TITLE" Language="th_TH">
 			<Text>ปลดล็อกที่ รากเหง้า เลเวล 2</Text>		<!-- Unlock at Foundation level 2 -->
@@ -13119,7 +13119,7 @@
 			<Text>ยอดนักสะสมที่น่าอัศจรรย์</Text>		<!-- Incredible Completionist -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_FOUNDATION_COMPLETION_ALL_CHALLENGES_COMPLETE_DESC" Language="th_TH">
-			<Text>ทำทุกความท้าทายในเส้นทาง รากเหง้า</Text>		<!-- Complete every other Challenge in the Foundation Path. -->
+			<Text>ทำทุกความท้าทายของเกมหลักในเส้นทาง รากเหง้า</Text>		<!-- Complete every other base game Challenge in the Foundation Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MILITARY_VICTORY_FIRST_PLACE_5_NAME" Language="th_TH">
 			<Text>เส้นทางมรดกทางทหาร 5</Text>		<!-- Military Legacy Path 5 -->
@@ -22647,10 +22647,10 @@
 			<Text>พวกเขาได้แพร่กระจายข่าวลือเกี่ยวกับโบราณวัตถุปลอมและปิดกั้นผลผลิตโบราณวัตถุของเรา</Text>		<!-- They have spread rumors of fake Artifacts and disabled our Artifact yields. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ESPIONAGE_STEAL_RICHES_EFFECT" Language="th_TH">
-			<Text>เราได้ปล้นทรัพยากรสมบัติของพวกเขาและได้สร้างกองเรือสมบัติสำหรับตัวเราเองใน {1_CityName}</Text>		<!-- We have pillaged their Treasure Resources and spawned a Treasure Fleet for ourselves in {1_CityName}. -->
+			<Text>เราได้ปล้นทรัพยากรสมบัติของพวกเขาและได้สร้างขบวนบรรทุกสมบัติสำหรับตัวเราเองใน {1_CityName}</Text>		<!-- We have pillaged their Treasure Resources and spawned a Treasure Convoy for ourselves in {1_CityName}. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ESPIONAGE_STEAL_RICHES_EFFECT_TARGET" Language="th_TH">
-			<Text>พวกเขาได้ปล้นทรัพยากรสมบัติของเราและสร้างกองเรือสมบัติสำหรับตนเองใน {1_CityName}</Text>		<!-- They have pillaged our Treasure Resources and spawned a Treasure Fleet for themselves in {1_CityName}. -->
+			<Text>พวกเขาได้ปล้นทรัพยากรสมบัติของเราและสร้างขบวนบรรทุกสมบัติสำหรับตนเองใน {1_CityName}</Text>		<!-- They have pillaged our Treasure Resources and spawned a Treasure Convoy for themselves in {1_CityName}. -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ESPIONAGE_INFILTRATE_ENEMY_POSITIONS_EFFECT" Language="th_TH">
 			<Text>เราได้แทรกซึมตำแหน่งของพวกเขาแล้ว และยูนิตของพวกเขากำลังได้รับความเสียหายเพิ่มขึ้นจากยูนิตปิดล้อม {1_EffectDuration} เทิร์น</Text>		<!-- We have infiltrated their positions and their Units are now taking increased damage from Siege Units {1_EffectDuration} turns. -->
@@ -23829,7 +23829,7 @@
 			<Text>เมืองป้อมปราการ</Text>		<!-- Fort Town -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_FORT_DESCRIPTION" Language="th_TH">
-			<Text>+5 รักษาให้ยูนิตและ +25 ความคงทนให้กับกำแพงในเมืองนี้</Text>		<!-- +5 Healing to Units and +25 Health to Walls in this Town. -->
+			<Text>+5 รักษาให้ยูนิตและ +25 ความคงทนให้กับกำแพงในเมืองนี้, สามารถซื้อการป้องกันเพิ่มเติมได้ในเมืองนี้</Text>		<!-- +5 Healing to Units and +25 Health to Walls in this Town. Can Purchase additional Fortifications in this Town. -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_URBAN_CENTER_SHORT_NAME" Language="th_TH">
 			<Text>โครงการทั่วไป</Text>		<!-- Common Project -->
@@ -23838,7 +23838,7 @@
 			<Text>ศูนย์กลางเมือง</Text>		<!-- Urban Center -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_URBAN_CENTER_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ[icon:YIELD_SCIENCE] วิทยาศาสตร์ บนย่านในเมืองนี้</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and[icon:YIELD_SCIENCE] Science on Quarters in this Town. -->
+			<Text>+100%[icon:YIELD_GOLD] ทอง และ[icon:YIELD_HAPPINESS] ความสุข ต่อค่าบำรุงรักษาอาคารในเมือง, สามารถซื้ออาคารเพิ่มเติมได้ในเมืองนี้</Text>		<!-- +100%[icon:YIELD_GOLD] Gold and [icon:YIELD_HAPPINESS] Happiness towards Building Maintenance in this Town. Can Purchase additional Buildings in this Town. -->
 		</Replace>
 		<Replace Tag="LOC_UI_QUEST_TRACKER_PROGRESS_AND_GOAL" Language="th_TH">
 			<Text>{1_progressType} {2_currentProgress}/{3_goal}</Text>		<!-- {1_progressType} {2_currentProgress}/{3_goal} -->
@@ -24711,7 +24711,7 @@
 			<Text>เข้าสู่ระบบบัญชี 2K ของคุณ</Text>		<!-- Log in to your 2K Account -->
 		</Replace>
 		<Replace Tag="LOC_UI_ACCOUNT_BANNED" Language="th_TH">
-			<Text>บัญชี 2K ของคุณถูกแบน</Text>		<!-- Your 2K Account is Banned -->
+			<Text>บัญชี 2K ของคุณถูกแบน, โปรดติดต่อฝ่ายสนับสนุน 2K สำหรับข้อมูลเพิ่มเติม</Text>		<!-- Your 2K Account is Banned. Please reach out to 2K support for more information. -->
 		</Replace>
 		<Replace Tag="LOC_UI_LOGOUT_ACCOUNT_TITLE" Language="th_TH">
 			<Text>ออกจากระบบบัญชี 2K</Text>		<!-- 2K Account Logout -->
@@ -26242,19 +26242,19 @@
 			<Text>ถิ่นฐานของคุณจะไม่เติบโตเนื่องจากการขาดแคลนอาหาร</Text>		<!-- Your Settlement won’t grow due to starvation. -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_DETAILS_TREASURE_FLEET" Language="th_TH">
-			<Text>กองเรือบรรทุกสมบัติ</Text>		<!-- Treasure Fleet -->
+			<Text>ขบวนบรรทุกสมบัติ</Text>		<!-- Treasure Convoy -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_DETAILS_NEXT_TREASURE_FLEET_TURNS" Language="th_TH">
-			<Text>กองเรือสมบัติต่อไปจะปรากฏใน {1_Turns} {1_Turns: plural 1?turn; other?turns;}</Text>		<!-- Next Treasure Fleet will spawn in {1_Turns} {1_Turns: plural 1?turn; other?turns;} -->
+			<Text>ขบวนบรรทุกสมบัติต่อไปจะปรากฏใน {1_Turns} {1_Turns: plural 1?turn; other?turns;}</Text>		<!-- Next Treasure Convoy will spawn in {1_Turns} {1_Turns: plural 1?turn; other?turns;} -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_DETAILS_YIELD_ONE_DECIMAL" Language="th_TH">
 			<Text>{1_Amount: number +#.#;-#.#}</Text>		<!-- {1_Amount: number +#.#;-#.#} -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_DETAILS_TREASURE_FLEET_TECH_PREREQ_NEEDED" Language="th_TH">
-			<Text>เทคโนโลยี {1_TechName} ที่จำเป็นสำหรับการสร้างกองเรือสมบัติ</Text>		<!-- {1_TechName} Technology needed to spawn Treasure Fleets -->
+			<Text>เทคโนโลยี {1_TechName} ที่จำเป็นสำหรับการสร้างขบวนบรรทุกสมบัติ</Text>		<!-- {1_TechName} Technology needed to spawn Treasure Convoy -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_DETAILS_TREASURE_FLEET_CONSTRUCT_PREREQ_NEEDED" Language="th_TH">
-			<Text>อาคาร {1_ConstructName} จำเป็นสำหรับการสร้างกองเรือสมบัติ</Text>		<!-- {1_ConstructName} Building needed to spawn Treasure Fleets -->
+			<Text>อาคาร {1_ConstructName} จำเป็นสำหรับการสร้างขบวนบรรทุกสมบัติ</Text>		<!-- {1_ConstructName} Building needed to spawn Treasure Convoy -->
 		</Replace>
 		<Replace Tag="LOC_UI_YIELD_ONE_DECIMAL_NO_PLUS" Language="th_TH">
 			<Text>{1_Amount: number #.#;-#.#}</Text>		<!-- {1_Amount: number #.#;-#.#} -->
@@ -27010,7 +27010,7 @@
 			<Text>นโยบายสังคมปลดล็อกแล้ว</Text>		<!-- Social policy slot unlocked -->
 		</Replace>
 		<Replace Tag="LOC_UI_CELEBRATION_DESC_1" Language="th_TH">
-			<Text>รัฐบาลของคุณมอบทางเลือกให้คุณระหว่าง เอฟเฟคเหล่านี้ ในช่วงงานเฉลิมฉลอง</Text>		<!-- Your Government grants you a choice between these effects during a Celebration. -->
+			<Text>รัฐบาลนี้จะมอบทางเลือกให้คุณระหว่าง เอฟเฟคเหล่านี้ ในช่วงงานเฉลิมฉลอง</Text>		<!-- This Government grants you a choice between these effects during a Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_UI_CELEBRATION_DESC_2" Language="th_TH">
 			<Text>[B]เลือกโบนัสหนึ่งรายการสำหรับ {1_Turns} เทิร์น ถัดไป[/B]</Text>		<!-- [B]Choose one bonus for the next {1_Turns} {1_Turns: plural 1?Turn; other?Turns;}[/B] -->
@@ -27607,13 +27607,13 @@
 			<Text>รวมพล</Text>		<!-- Assemble Army -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_PACK_ARMY_DESCRIPTION" Language="th_TH">
-			<Text>รวบรวมยูนิตภาคพื้นที่อยู่ติดกันเพื่อตั้งแถวที่ผู้บัญชาการกองทัพ</Text>		<!-- Gather adjacent Land Units to form up on the Army Commander. -->
+			<Text>รวบรวม ยูนิตภาคพื้น ที่อยู่ใกล้เคียงเพื่อรวมตัวขึ้นกับ ผู้บัญชาการ</Text>		<!-- Gather adjacent Land Units to form up on the Commander. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_PACK_FLEET_NAME" Language="th_TH">
 			<Text>รวมพล</Text>		<!-- Assemble Fleet -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_PACK_FLEET_DESCRIPTION" Language="th_TH">
-			<Text>รวบรวม ยูนิตทางน้ำ ที่อยู่ใกล้เคียงเพื่อรวมตัวขึ้นกับ ผู้บัญชาการกองทัพบก</Text>		<!-- Gather adjacent Naval Units to form up on the Army Commander. -->
+			<Text>รวบรวม ยูนิตทางน้ำ ที่อยู่ใกล้เคียงเพื่อรวมตัวขึ้นกับ ผู้บัญชาการ</Text>		<!-- Gather adjacent Naval Units to form up on the Commander. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_UNPACK_ARMY_NAME" Language="th_TH">
 			<Text>วางกำลังพล</Text>		<!-- Deploy Army -->
@@ -27628,16 +27628,16 @@
 			<Text>วางยูนิตลงในช่องที่ติดกัน</Text>		<!-- Deploy stacked Units into adjacent tiles. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_ADD_TO_ARMY_NAME" Language="th_TH">
-			<Text>เพิ่มเข้ากองทัพ</Text>		<!-- Add To Army -->
+			<Text>เพิ่มเข้าผู้บัญชาการ</Text>		<!-- Add To Commander -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_ADD_TO_ARMY_DESCRIPTION" Language="th_TH">
-			<Text>สั่งให้ยูนิตจัดแถวรวมตัวกับผู้บัญชาการกองทัพที่อยู่ใกล้เคียง</Text>		<!-- Order the Unit to form up on a nearby Army Commander. -->
+			<Text>สั่งให้ยูนิตจัดแถวรวมตัวกับผู้บัญชาการที่อยู่ใกล้เคียง</Text>		<!-- Order the Unit to form up on a nearby Commander. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_REMOVE_FROM_ARMY_NAME" Language="th_TH">
-			<Text>ออกจากกองทัพ</Text>		<!-- Leave Army -->
+			<Text>ออกจากผู้บัญชาการ</Text>		<!-- Leave Commander -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_REMOVE_FROM_ARMY_DESCRIPTION" Language="th_TH">
-			<Text>สั่งการให้ยูนิตถอนตัวออกจากกองทัพ</Text>		<!-- Order the unit to remove itself from the Army -->
+			<Text>สั่งการให้ยูนิตถอนตัวออกจากผู้บัญชาการ</Text>		<!-- Order the unit to remove itself from the Commander -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_SCALING_COMMANDER_ATTACK_NAME" Language="th_TH">
 			<Text>จู่โจมอย่างกล้าหาญ</Text>		<!-- Heroic Assault -->
@@ -27709,13 +27709,13 @@
 			<Text>อัปเกรดยูนิตทั้งหมด</Text>		<!-- Upgrade All Units -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_UPGRADE_ARMY_DESCRIPTION" Language="th_TH">
-			<Text>อัปเกรดยูนิตที่มีสิทธิ์ทั้งหมดในกองทัพ</Text>		<!-- Upgrade all eligible units in the army. -->
+			<Text>อัปเกรดยูนิตที่มีสิทธิ์ทั้งหมดในกองทัพ, ซึ่งจะมอบ +5 พลังต่อสู้</Text>		<!-- Upgrade all eligible units in the army, which grants each unit +5 Combat Strength. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_GRANT_SECOND_WIND_NAME" Language="th_TH">
 			<Text>ฟื้นฟูแต้มเคลื่อนที่</Text>		<!-- Grant Second Wind -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_GRANT_SECOND_WIND_DESCRIPTION" Language="th_TH">
-			<Text>ฟื้นฟูแต้มเคลื่อนที่ 2 แต้ม, และการโจมตี 1 แต้มให้กับยูนิตที่ไม่มีการเคลื่อนไหวหรือการโจมตีที่เหลืออยู่</Text>		<!-- Restore 2 movement and 1 attack to a unit with no remaining movement or attacks. -->
+			<Text>รับ 2 แต้มเคลื่อนที่, และ 1 แต้มโจมตี ให้กับยูนิตที่ไม่มีการเคลื่อนไหวหรือการโจมตีที่เหลืออยู่</Text>		<!-- Grant 2 movement and 1 attack to a unit. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_COMMANDER_ATTACK_NAME" Language="th_TH">
 			<Text>โจมตีอย่างกล้าหาญ</Text>		<!-- Heroic Assault -->
@@ -27733,7 +27733,7 @@
 			<Text>อัปเกรดยูนิต</Text>		<!-- Upgrade Unit -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_UPGRADE_DESCRIPTION" Language="th_TH">
-			<Text>อัปเกรดเป็นยูนิตระดับถัดไปของคลาสเดียวกัน</Text>		<!-- Upgrade to the next tier Unit of the same class. -->
+			<Text>อัปเกรดเป็นยูนิตระดับถัดไปของคลาสเดียวกัน, ซึ่งจะมอบ +5 พลังต่อสู้</Text>		<!-- Upgrade to the next tier Unit of the same class, which gives +5 Combat Strength. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_PROMOTE_NAME" Language="th_TH">
 			<Text>เลื่อนขั้น</Text>		<!-- Promote -->
@@ -28786,13 +28786,13 @@
 			<Text>สงครามป่า</Text>		<!-- Jungle Warfare -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_JUNGLE_WARFARE_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังโจมตีสำหรับยูนิตภาคพื้นดินในเขตร้อนภายในรัศมีคำสั่ง รวมถึงผู้บัญชาการนี้ด้วย</Text>		<!-- +5 Combat Strength for Land Units in Tropical in the Command Radius, including this Commander. -->
+			<Text>+5 พลังต่อสู้ สำหรับยูนิตภาคพื้นดินในเขตร้อนภายในรัศมีคำสั่ง[n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION}</Text>		<!-- +5 Combat Strength for Land Units in Tropical Terrain in the Command Radius. [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_METTLE_COURAGE_NAME" Language="th_TH">
 			<Text>กล้าหาญและมุ่งมั่น</Text>		<!-- Mettle and Courage -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_METTLE_COURAGE_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังโจมตีเมื่ออยู่ในอาณาเขตมิตร สำหรับยูนิตภาคพื้นดินในรัศมีคำสั่ง รวมถึงผู้บัญชาการนี้</Text>		<!-- +5 Combat Strength for Land Units in the Command Radius when in friendly territory, including this Commander. -->
+			<Text>+5 พลังต่อสู้ เมื่ออยู่ในอาณาเขตมิตร สำหรับยูนิตภาคพื้นดินในรัศมีคำสั่ง[n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION}</Text>		<!-- +5 Combat Strength for Land Units in the Command Radius when in friendly territory. [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_LAC_REBELLION_NAME" Language="th_TH">
 			<Text>กบฏลạc</Text>		<!-- Lạc Rebellion -->
@@ -28804,19 +28804,19 @@
 			<Text>เสียงตะโกนเดียว</Text>		<!-- One Single Cry -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_ONE_SINGLE_CRY_DESCRIPTION" Language="th_TH">
-			<Text>+10 พลังโจมตีเมื่อใช้การโจมตีพร้อมกันหรือโจมตีจุดเดียว</Text>		<!-- +10 Combat Strength with Coordinated Attack and Focus Fire. -->
+			<Text>+10 พลังต่อสู้ เมื่อใช้การโจมตีพร้อมกันหรือโจมตีจุดเดียว[n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_FINAL_DESCRIPTION}</Text>		<!-- +5 Combat Strength with Coordinated Attack and Focus Fire. [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_FINAL_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_65_STRONGHOLDS_NAME" Language="th_TH">
 			<Text>65 ป้อมปราการ</Text>		<!-- 65 Strongholds -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_65_STRONGHOLDS_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังโจมตีต่อเขตที่มีการเสริมกำลัง สำหรับยูนิตภาคพื้นดินในรัศมีคำสั่ง</Text>		<!-- +5 Combat Strength against Fortified Districts for Land Units in the Command Radius. -->
+			<Text>+5 พลังต่อสู้ ต่อเขตที่มีการเสริมกำลัง สำหรับยูนิตภาคพื้นดินในรัศมีคำสั่ง[n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION}</Text>		<!-- +5 Combat Strength against Fortified Districts for Land Units in the Command Radius. [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_HAI_BA_TRUNG_NAME" Language="th_TH">
 			<Text>สองพี่น้อง Trưng</Text>		<!-- Hai Bà Trung -->
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_HAI_BA_TRUNG_DESCRIPTION" Language="th_TH">
-			<Text>+15 พลังป้องกันสำหรับผู้บัญชาการนี้</Text>		<!-- +15 Combat Strength for this Commander when defending. -->
+			<Text>+15 พลังต่อสู้ สำหรับผู้บัญชาการนี้[n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION}</Text>		<!-- +15 Combat Strength for this Commander when defending. [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION} -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_TRUNG_NHI_HAI_BA_TRUNG_PREVIEW" Language="th_TH">
 			<Text>+{Amount} สองพี่น้อง Trưng</Text>		<!-- +{Amount} Hai Bà Trung -->
@@ -29392,19 +29392,19 @@
 			<Text>ผู้บัญชาการทหารบก</Text>		<!-- Army Commander -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMY_COMMANDER_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตสนับสนุนภาคพื้นดินที่มีความสามารถ ในการรวบรวมและบังคับบัญชา ยูนิตทหารบกเป็นกองทัพ</Text>		<!-- Land Support Unit capable of assembling and commanding a collection of Land Military Units as an Army. -->
+			<Text>ยูนิตสนับสนุนภาคพื้นดินที่มีความสามารถ ในการรวบรวมและบังคับบัญชา ยูนิตทหารบกเป็นกองทัพ, เกิดใหม่เร็วกว่าผู้บัญชาการคนอื่นเมื่อแพ้</Text>		<!-- Land Support Unit capable of assembling and commanding a collection of Land Military Units as an Army. Respawns after a long delay if defeated. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_FLEET_COMMANDER_NAME" Language="th_TH">
 			<Text>ผู้บัญชาการกองเรือ</Text>		<!-- Fleet Commander -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_FLEET_COMMANDER_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตสนับสนุนทางเรือที่สามารถรวบรวม และสั่งการยูนิตทหารเรือ หลายยูนิตให้เป็นกองเรือเดียว</Text>		<!-- Naval Support Unit capable of assembling and commanding a collection of Naval Military Units as a single Fleet. -->
+			<Text>ยูนิตสนับสนุนทางเรือที่สามารถรวบรวม และสั่งการยูนิตทหารเรือ หลายยูนิตให้เป็นกองเรือเดียว, เกิดใหม่เร็วกว่าผู้บัญชาการคนอื่นเมื่อแพ้</Text>		<!-- Naval Support Unit capable of assembling and commanding a collection of Naval Military Units as a single Fleet. Respawns after a long delay if defeated. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_SQUADRON_COMMANDER_NAME" Language="th_TH">
 			<Text>ผู้บังคับฝูงบิน</Text>		<!-- Squadron Commander -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_SQUADRON_COMMANDER_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตสนับสนุนทางอากาศสามารถจัดระเบียบ และควบคุมยูนิตทหารอากาศ หลายยูนิตเป็นหนึ่งฝูงบิน</Text>		<!-- Air Support Unit capable of assembling and commanding a collection of Air Military Units as a single Squadron. -->
+			<Text>ยูนิตสนับสนุนทางอากาศสามารถจัดระเบียบ และควบคุมยูนิตทหารอากาศ หลายยูนิตเป็นหนึ่งฝูงบิน, เกิดใหม่หลังจากผ่านไประยะนึงเมื่อแพ้</Text>		<!-- Air Support Unit capable of assembling and commanding a collection of Air Military Units as a single Squadron. Respawns after a long delay if defeated. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_CARRIER_COMMANDER_NAME" Language="th_TH">
 			<Text>เรือบรรทุกเครื่องบิน</Text>		<!-- Aircraft Carrier -->
@@ -29440,7 +29440,7 @@
 			<Text>จึง นี</Text>		<!-- Trung Nhi -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_TRUNG_NHI_DESCRIPTION" Language="th_TH">
-			<Text>ผู้บัญชาการกองทัพเฉพาะตัว มีสายการเลื่อนขั้นเพิ่มเติม</Text>		<!-- Unique Army Commander. Has an additional Promotion Tree. -->
+			<Text>ผู้บัญชาการกองทัพเฉพาะตัว มีสายการเลื่อนขั้นเพิ่มเติม, เกิดใหม่เร็วกว่าผู้บัญชาการคนอื่นเมื่อแพ้</Text>		<!-- Unique Army Commander. Has an additional Promotion Tree. Faster respawn than other Commanders if defeated. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_SETTLER_NAME" Language="th_TH">
 			<Text>ผู้ตั้งถิ่นฐาน</Text>		<!-- Settler -->
@@ -29560,25 +29560,25 @@
 			<Text>ยูนิตเพิกเฉยต่อพื้นที่ควบคุม</Text>		<!-- Unit ignores Zone of Control. -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_NUMBER_CIV_TRADITIONS_BONUS_DESC" Language="th_TH">
-			<Text>+{1_Value} พลังต่อสู้ จากประเพณี</Text>		<!-- +{1_Value} Combat Strength from Traditions. -->
+			<Text>+{1_Value} พลังต่อสู้ จากประเพณี</Text>		<!-- +{1_Value} Combat Strength from Traditions -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_NUMBER_CIVS_TRADING_BONUS_DESC" Language="th_TH">
-			<Text>+{1_Value} พลังต่อสู้ จากทุกอารยธรรมอื่น ที่คุณมีเส้นทางการค้าด้วย</Text>		<!-- +{1_Value} Combat Strength from every other Civilization with which you have a Trade Route. -->
+			<Text>+{1_Value} พลังต่อสู้ จากทุกอารยธรรมอื่น ที่คุณมีเส้นทางการค้าด้วย</Text>		<!-- +{1_Value} Combat Strength from every other Civilization with which you have a Trade Route -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_NUMBER_URBAN_POP_BONUS_DESC" Language="th_TH">
-			<Text>+{1_Value} พลังต่อสู้ จากประชากรในเมือง</Text>		<!-- +{1_Value} Combat Strength from Urban Population. -->
+			<Text>+{1_Value} พลังต่อสู้ จากประชากรในเมือง</Text>		<!-- +{1_Value} Combat Strength from Urban Population -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_NUMBER_TRIBUTARIES_BONUS_DESC" Language="th_TH">
-			<Text>+{1_Value} พลังต่อสู้ จากนครรัฐ ที่คุณเป็น เจ้านคร</Text>		<!-- +{1_Value} Combat Strength from City-States you are Suzerain of. -->
+			<Text>+{1_Value} พลังต่อสู้ จากนครรัฐ ที่คุณเป็น เจ้านคร</Text>		<!-- +{1_Value} Combat Strength from City-States you are Suzerain of -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_NEIGHBOR_COMBAT_BONUS_DESC" Language="th_TH">
-			<Text>+{1_Value} พลังต่อสู้ จากยูนิตทหารที่อยู่ใกล้เคียง</Text>		<!-- +{1_Value} Combat Strength from neighboring Military Units. -->
+			<Text>+{1_Value} พลังต่อสู้ จากยูนิตทหารที่อยู่ใกล้เคียง</Text>		<!-- +{1_Value} Combat Strength from neighboring Military Units -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_NEIGHBOR_ENEMY_COMBAT_BONUS_DESC" Language="th_TH">
-			<Text>+{1_Value} พลังต่อสู้ จากยูนิตทหารของศัตรู ที่อยู่ใกล้เคียง</Text>		<!-- +{1_Value} Combat Strength from neighboring enemy Military Units. -->
+			<Text>+{1_Value} พลังต่อสู้ จากยูนิตทหารของศัตรู ที่อยู่ใกล้เคียง</Text>		<!-- +{1_Value} Combat Strength from neighboring enemy Military Units -->
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_NEIGHBOR_FRIENDLY_COMBAT_BONUS_DESC" Language="th_TH">
-			<Text>+{1_Value} พลังต่อสู้ จากยูนิตทหารเพื่อนบ้าน ที่เป็นมิตร</Text>		<!-- +{1_Value} Combat Strength from neighboring friendly Military Units. -->
+			<Text>+{1_Value} พลังต่อสู้ จากยูนิตทหารเพื่อนบ้าน ที่เป็นมิตร</Text>		<!-- +{1_Value} Combat Strength from neighboring friendly Military Units -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FLOODPLAIN_COMBAT_DESCRIPTION" Language="th_TH">
 			<Text>+{1_Value} พลังต่อสู้ บนที่ราบน้ำท่วมถึง</Text>		<!-- +{1_Value} Combat Strength on Floodplains. -->
@@ -30190,7 +30190,7 @@
 			<Text>ตราแห่งอามินา 1</Text>		<!-- Amina Badge 1 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_ASHOKA_RENOUNCER_NAME" Language="th_TH">
-			<Text>ตราแห่งอโศกมหาราช ผู้ละทางโลก 1</Text>		<!-- Ashoka World-Renouncer Badge 1 -->
+			<Text>ตราแห่งอโศกมหาราช, ผู้ละทางโลก 1</Text>		<!-- Ashoka, World Renouncer Badge 1 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_AUGUSTUS_NAME" Language="th_TH">
 			<Text>ตราแห่งออกัสตัส 1</Text>		<!-- Augustus Badge 1 -->
@@ -30208,7 +30208,7 @@
 			<Text>ตราแห่งขงจื๊อ 1</Text>		<!-- Confucius Badge 1 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_FRIEDRICH_OBLIQUE_NAME" Language="th_TH">
-			<Text>ตราแห่งฟรีดริช โอบลีค 1</Text>		<!-- Friedrich Oblique Badge 1 -->
+			<Text>ตราแห่งฟรีดริช, โอบลีค 1</Text>		<!-- Friedrich, Oblique Badge 1 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_HARRIET_TUBMAN_NAME" Language="th_TH">
 			<Text>ตราแห่งแฮเรียต ทับแมน 1</Text>		<!-- Harriet Tubman Badge 1 -->
@@ -30217,7 +30217,7 @@
 			<Text>ตราแห่งแฮตเชปซุต 1</Text>		<!-- Hatshepsut Badge 1 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_HIMIKO_QUEEN_OF_WA_NAME" Language="th_TH">
-			<Text>ตราแห่งฮิมิโกะ ราชินีแห่งแคว้นวะ 1</Text>		<!-- Himiko Queen of Wa Badge 1 -->
+			<Text>ตราแห่งฮิมิโกะ, ราชินีแห่งแคว้นวะ 1</Text>		<!-- Himiko, Queen of Wa Badge 1 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_IBN_BATTUTA_NAME" Language="th_TH">
 			<Text>ตราแห่งอิบน์ บัตตูตา 1</Text>		<!-- Ibn Battuta Badge 1 -->
@@ -30241,13 +30241,13 @@
 			<Text>ตราแห่งจึง จั๊ก 1</Text>		<!-- Trung Trac Badge 1 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_XERXES_KING_OF_KINGS_NAME" Language="th_TH">
-			<Text>ตราแห่งเซิร์กซีส กษัตริย์แห่งกษัตริย์ 1</Text>		<!-- Xerxes King of Kings Badge 1 -->
+			<Text>ตราแห่งเซิร์กซีส, กษัตริย์แห่งกษัตริย์ 1</Text>		<!-- Xerxes, King of Kings Badge 1 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_AMINA_P_NAME" Language="th_TH">
 			<Text>ตราแห่งอามินา 2</Text>		<!-- Amina Badge 2 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_ASHOKA_RENOUNCER_P_NAME" Language="th_TH">
-			<Text>ตราแห่งอโศกมหาราช ผู้ละทางโลก 2</Text>		<!-- Ashoka World-Renouncer Badge 2 -->
+			<Text>ตราแห่งอโศกมหาราช, ผู้ละทางโลก 2</Text>		<!-- Ashoka, World Renouncer Badge 2 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_AUGUSTUS_P_NAME" Language="th_TH">
 			<Text>ตราแห่งออกัสตัส 2</Text>		<!-- Augustus Badge 2 -->
@@ -30265,7 +30265,7 @@
 			<Text>ตราแห่งขงจื๊อ 2</Text>		<!-- Confucius Badge 2 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_FRIEDRICH_OBLIQUE_P_NAME" Language="th_TH">
-			<Text>ตราแห่งฟรีดริช โอบลีค 2</Text>		<!-- Friedrich Oblique Badge 2 -->
+			<Text>ตราแห่งฟรีดริช, โอบลีค 2</Text>		<!-- Friedrich, Oblique Badge 2 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_HARRIET_TUBMAN_P_NAME" Language="th_TH">
 			<Text>ตราแห่งแฮเรียต ทับแมน 2</Text>		<!-- Harriet Tubman Badge 2 -->
@@ -30274,10 +30274,10 @@
 			<Text>ตราแห่งแฮตเชปซุต 2</Text>		<!-- Hatshepsut Badge 2 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_HIMIKO_QUEEN_OF_WA_P_NAME" Language="th_TH">
-			<Text>ตราแห่งฮิมิโกะ ราชินีแห่งแคว้นวะ 2</Text>		<!-- Himiko Queen of Wa Badge 2 -->
+			<Text>ตราแห่งฮิมิโกะ, ราชินีแห่งแคว้นวะ 2</Text>		<!-- Himiko, Queen of Wa Badge 2 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_HIMIKO_QUEEN_P_NAME" Language="th_TH">
-			<Text>ตราแห่งฮิมิโกะ ราชินีแห่งแคว้นวะ 2</Text>		<!-- Himiko Queen of Wa Badge 2 -->
+			<Text>ตราแห่งฮิมิโกะ, ราชินีแห่งแคว้นวะ 2</Text>		<!-- Himiko, Queen of Wa Badge 2 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_IBN_BATTUTA_P_NAME" Language="th_TH">
 			<Text>ตราแห่งอิบน์ บัตตูตา 2</Text>		<!-- Ibn Battuta Badge 2 -->
@@ -30301,13 +30301,13 @@
 			<Text>ตราแห่งจึง จั๊ก 2</Text>		<!-- Trung Trac Badge 2 -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_XERXES_KINGS_P_NAME" Language="th_TH">
-			<Text>ตราแห่งเซิร์กซีส กษัตริย์แห่งกษัตริย์ 2</Text>		<!-- Xerxes King of Kings Badge 2 -->
+			<Text>ตราแห่งเซิร์กซีส, กษัตริย์แห่งกษัตริย์ 2</Text>		<!-- Xerxes, King of Kings Badge 2 -->
 		</Replace>
 		<Replace Tag="LOC_BANNER_AMINA_NAME" Language="th_TH">
 			<Text>ธงแห่งอามินา</Text>		<!-- Amina Banner -->
 		</Replace>
 		<Replace Tag="LOC_BANNER_ASHOKA_RENOUNCER_NAME" Language="th_TH">
-			<Text>ธงแห่งอโศกมหาราช ผู้ละทางโลก</Text>		<!-- Ashoka World-Renouncer Banner -->
+			<Text>ธงแห่งอโศกมหาราช, ผู้ละทางโลก</Text>		<!-- Ashoka, World Renouncer Banner -->
 		</Replace>
 		<Replace Tag="LOC_BANNER_AUGUSTUS_NAME" Language="th_TH">
 			<Text>ธงแห่งออกัสตัส</Text>		<!-- Augustus Banner -->
@@ -30325,7 +30325,7 @@
 			<Text>ธงแห่งขงจื๊อ</Text>		<!-- Confucius Banner -->
 		</Replace>
 		<Replace Tag="LOC_BANNER_FRIEDRICH_OBLIQUE_NAME" Language="th_TH">
-			<Text>ธงแห่งฟรีดริช โอบลีค</Text>		<!-- Friedrich Oblique Banner -->
+			<Text>ธงแห่งฟรีดริช, โอบลีค</Text>		<!-- Friedrich, Oblique Banner -->
 		</Replace>
 		<Replace Tag="LOC_BANNER_HARRIET_TUBMAN_NAME" Language="th_TH">
 			<Text>ธงแห่งแฮเรียต ทับแมน</Text>		<!-- Harriet Tubman Banner -->
@@ -30334,7 +30334,7 @@
 			<Text>ธงแห่งแฮตเชปซุต</Text>		<!-- Hatshepsut Banner -->
 		</Replace>
 		<Replace Tag="LOC_BANNER_HIMIKO_QUEEN_OF_WA_NAME" Language="th_TH">
-			<Text>ธงแห่งฮิมิโกะ ราชินีแห่งแคว้นวะ</Text>		<!-- Himiko Queen of Wa Banner -->
+			<Text>ธงแห่งฮิมิโกะ, ราชินีแห่งแคว้นวะ</Text>		<!-- Himiko, Queen of Wa Banner -->
 		</Replace>
 		<Replace Tag="LOC_BANNER_IBN_BATTUTA_NAME" Language="th_TH">
 			<Text>ธงแห่งอิบน์ บัตตูตา</Text>		<!-- Ibn Battuta Banner -->
@@ -30358,7 +30358,7 @@
 			<Text>ธงแห่งจึง จั๊ก</Text>		<!-- Trung Trac Banner -->
 		</Replace>
 		<Replace Tag="LOC_BANNER_XERXES_KING_OF_KINGS_NAME" Language="th_TH">
-			<Text>ธงแห่งเซิร์กซีส กษัตริย์แห่งกษัตริย์</Text>		<!-- Xerxes King of Kings Banner -->
+			<Text>ธงแห่งเซิร์กซีส, กษัตริย์แห่งกษัตริย์</Text>		<!-- Xerxes, King of Kings Banner -->
 		</Replace>
 		<Replace Tag="LOC_BANNER_GAMESCOM_NAME" Language="th_TH">
 			<Text>เรือแคนูโบราณ</Text>		<!-- Ancient Canoe -->
@@ -30370,7 +30370,7 @@
 			<Text>ราชินีนักรบ</Text>		<!-- Warrior-Queen -->
 		</Replace>
 		<Replace Tag="LOC_TITLE_ASHOKA_RENOUNCER_NAME" Language="th_TH">
-			<Text>ผู้ละทางโลก</Text>		<!-- World-Renouncer -->
+			<Text>ผู้ละทางโลก</Text>		<!-- World Renouncer -->
 		</Replace>
 		<Replace Tag="LOC_TITLE_AUGUSTUS_NAME" Language="th_TH">
 			<Text>พลเมืองคนแรก</Text>		<!-- First Citizen -->
@@ -31046,7 +31046,7 @@
 			<Text>โหนดคุณลักษณะทางเศรษฐกิจ</Text>		<!-- Economic Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_AMINA_L1_DESCRIPTION" Language="th_TH">
-			<Text>ทอง +25% จากการค้าและกองเรือขนสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Fleets. -->
+			<Text>ทอง +25% จากการค้า และ ขบวนบรรทุกสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Convoys. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_AMINA_L2_NAME" Language="th_TH">
 			<Text>โหนดคุณลักษณะทางทหาร</Text>		<!-- Militaristic Attribute Node -->
@@ -31160,7 +31160,7 @@
 			<Text>โหนดคุณลักษณะทางเศรษฐกิจ</Text>		<!-- Economic Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_HATSHEPSUT_L2_DESCRIPTION" Language="th_TH">
-			<Text>+25% ทอง จากการค้า และ เรือบรรทุกสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Fleets. -->
+			<Text>+25% ทอง จากการค้า และ ขบวนบรรทุกสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Convoys. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_HIMIKO_QUEEN_L1_NAME" Language="th_TH">
 			<Text>โหนดคุณสมบัติทางการทูต</Text>		<!-- Diplomatic Attribute Node -->
@@ -31178,7 +31178,7 @@
 			<Text>โหนดคุณลักษณะทางเศรษฐกิจ</Text>		<!-- Economic Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_BATTUTA_L1_DESCRIPTION" Language="th_TH">
-			<Text>+25% ทอง จากการค้า และ เรือบรรทุกสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Fleets. -->
+			<Text>+25% ทอง จากการค้า และ ขบวนบรรทุกสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Convoys. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_BATTUTA_L2_NAME" Language="th_TH">
 			<Text>โหนดคุณลักษณะขยายอณาเขต</Text>		<!-- Expansionist Attribute Node -->
@@ -31190,7 +31190,7 @@
 			<Text>โหนดคุณลักษณะทางเศรษฐกิจ</Text>		<!-- Economic Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_ISABELLA_L1_DESCRIPTION" Language="th_TH">
-			<Text>+25% ทอง จากการค้า และ เรือบรรทุกสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Fleets. -->
+			<Text>+25% ทอง จากการค้า และ ขบวนบรรทุกสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Convoys. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_ISABELLA_L2_NAME" Language="th_TH">
 			<Text>โหนดคุณลักษณะขยายอาณาเขต</Text>		<!-- Expansionist Attribute Node -->
@@ -31232,13 +31232,13 @@
 			<Text>โหนดคุณลักษณะทางเศรษฐกิจ</Text>		<!-- Economic Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_MACHIAVELLI_L2_DESCRIPTION" Language="th_TH">
-			<Text>+25% ทอง จากการค้า และ เรือบรรทุกสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Fleets. -->
+			<Text>+25% ทอง จากการค้า และ ขบวนบรรทุกสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Convoys. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_PACHACUTI_L1_NAME" Language="th_TH">
 			<Text>โหนดคุณลักษณะทางเศรษฐกิจ</Text>		<!-- Economic Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_PACHACUTI_L1_DESCRIPTION" Language="th_TH">
-			<Text>+25% ทอง จากการค้า และ เรือบรรทุกสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Fleets. -->
+			<Text>+25% ทอง จากการค้า และ ขบวนบรรทุกสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Convoys. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_PACHACUTI_L2_NAME" Language="th_TH">
 			<Text>โหนดคุณลักษณะขยายอาณาเขต</Text>		<!-- Expansionist Attribute Node -->
@@ -31262,7 +31262,7 @@
 			<Text>โหนดคุณลักษณะทางเศรษฐกิจ</Text>		<!-- Economic Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_XERXES_KING_L1_DESCRIPTION" Language="th_TH">
-			<Text>ทอง +25% จากการค้าและ เรือบรรทุกสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Fleets. -->
+			<Text>ทอง +25% จากการค้าและ ขบวนบรรทุกสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Convoys. -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_EVENT_PARTICIPATION_RESOURCESHUFFLE_NAME" Language="th_TH">
 			<Text>ตราเขาอุดมสมบูรณ์</Text>		<!-- Cornucopia Badge -->
@@ -31970,7 +31970,7 @@
 			<Text>[B]ชาวมองโกล[/B] ยึดครองประเทศเปอร์เซียของ [B]เซอร์ซีส[/B] ในภายหลัง</Text>		<!-- [B]Mongols[/B] later captured [B]Xerxes'[/B] Persia. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_XERXES_MUGHAL_TOOLTIP" Language="th_TH">
-			<Text>[B]เปอร์เซีย[/B] ของ [B]เซิร์กซีส[/B] มีอิทธิพลต่อ [B]โมกุล[/B]</Text>		<!-- [B]Xerxes’[/B] Persia had an influence on the [B]Mughal[/B]. -->
+			<Text>[B]เปอร์เซีย[/B] ของ [B]เซิร์กซีส[/B] มีอิทธิพลต่อ [B]โมกุล[/B]</Text>		<!-- [B]Xerxes'[/B] Persia had an influence on the [B]Mughal[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_XERXES_RUSSIA_TOOLTIP" Language="th_TH">
 			<Text>[B]เซิร์กซีส[/B] มาจากภูมิภาคใกล้กับ [B]รัสเซีย[/B]</Text>		<!-- [B]Xerxes[/B] was from a nearby region to [B]Russia[/B]. -->
@@ -32279,7 +32279,7 @@
 			<Text>คุณได้ปลดล็อก มองโกเลีย โดย มียูนิตปิดล้อม 3 ยูนิต</Text>		<!-- You have unlocked Mongolia by having 3 Siege units. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_TEMPLES_DESCRIPTION" Language="th_TH">
-			<Text>มี [B]วัด[/B] สี่แห่ง</Text>		<!-- Have four [B]Temples[/B] -->
+			<Text>มี [B]วัด[/B] สี่แห่ง</Text>		<!-- Have four [B]Temples[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_TEMPLES_SIAM_TOOLTIP" Language="th_TH">
 			<Text>[B]วัด[/B] เป็นส่วนสำคัญของเอกลักษณ์ของ [B]สยาม[/B]</Text>		<!-- [B]Temples[/B] were an important part of [B]Siam's[/B] identity. -->
@@ -33110,7 +33110,7 @@
 			<Text>ขีดจำกัดเส้นทางการค้า: ใช้การทูตเพื่อพัฒนาความสัมพันธ์ทางการค้าเพื่อเพิ่มจำนวนเส้นทางที่คุณสามารถมีได้กับผู้นำนี้</Text>		<!-- Trade Route Limit: Use the Improve Trade Relations diplomacy action to increase the number of trade routes you can have with this Leader. -->
 		</Replace>
 		<Replace Tag="LOC_YIELD_GOLD_TREASURY" Language="th_TH">
-			<Text>คลังทอง</Text>		<!-- Gold Treasury -->
+			<Text>[icon:YIELD_GOLD] คลังทอง</Text>		<!-- [icon:YIELD_GOLD] Gold Treasury -->
 		</Replace>
 		<Replace Tag="LOC_YIELD_SCIENCE" Language="th_TH">
 			<Text>[icon:YIELD_SCIENCE] วิทยาศาสตร์ </Text>		<!-- [icon:YIELD_SCIENCE] Science -->
@@ -33137,7 +33137,7 @@
 			<Text>[icon:YIELD_DIPLOMACY] อิทธิพล </Text>		<!-- [icon:YIELD_DIPLOMACY] Influence -->
 		</Replace>
 		<Replace Tag="LOC_YIELD_DIPLOMACY_TREASURY" Language="th_TH">
-			<Text>อิทธิพลที่สะสม</Text>		<!-- Accumulated Influence -->
+			<Text>[icon:YIELD_DIPLOMACY] อิทธิพลที่สะสม</Text>		<!-- [icon:YIELD_DIPLOMACY] Accumulated Influence -->
 		</Replace>
 		<Replace Tag="LOC_YIELD_ENVOYS" Language="th_TH">
 			<Text>ทูต</Text>		<!-- Envoys -->

@@ -2,54 +2,79 @@
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_MODULE_TRUNG_NHI_NAME" Language="th_TH">
-			<Text>Unit - Trung Nhi</Text>		<!-- Unit - Trung Nhi --></Replace>
+			<Text>Unit - Trung Nhi</Text>		<!-- Unit - Trung Nhi -->
+		</Replace>
 		<Replace Tag="LOC_MODULE_TRUNG_NHI_DESCRIPTION" Language="th_TH">
-			<Text>ประกอบด้วยแม่ทัพพิเศษของ จึง จั๊ก, มีนามว่า ตรึง ญี</Text>		<!-- Contains Trung Trac's unique commander, Trung Nhi. --></Replace>
+			<Text>ประกอบด้วยแม่ทัพพิเศษของ จึง จั๊ก, มีนามว่า ตรึง ญี</Text>		<!-- Contains Trung Trac's unique commander, Trung Nhi. -->
+		</Replace>
 		<Replace Tag="LOC_UNIT_TRUNG_NHI_NAME" Language="th_TH">
-			<Text>ตรึง ญี</Text>		<!-- Trung Nhi --></Replace>
+			<Text>ตรึง ญี</Text>		<!-- Trung Nhi -->
+		</Replace>
 		<Replace Tag="LOC_UNIT_TRUNG_NHI_DESCRIPTION" Language="th_TH">
-			<Text>แม่ทัพกองทัพเฉพาะทาง มีสายการเลื่อนขั้นเพิ่มเติม ฟื้นคืนชีพเร็วกว่าผู้นำคนอื่นหากพ่ายแพ้.</Text>		<!-- Unique Army Commander. Has an additional Promotion Tree. Faster respawn than other Commanders if defeated. --></Replace>
+			<Text>แม่ทัพกองทัพเฉพาะทาง มีสายการเลื่อนขั้นเพิ่มเติม ฟื้นคืนชีพเร็วกว่าผู้นำคนอื่นหากพ่ายแพ้.</Text>		<!-- Unique Army Commander. Has an additional Promotion Tree. Faster respawn than other Commanders if defeated. -->
+		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION" Language="th_TH">
-			<Text>+3 ความเสียหาย สำหรับการโจมตีฮีโร่</Text>		<!-- +3 Damage for Heroic Assault. --></Replace>
+			<Text>+3 ความเสียหาย สำหรับการโจมตีฮีโร่</Text>		<!-- +3 Damage for Heroic Assault. -->
+		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_FINAL_DESCRIPTION" Language="th_TH">
-			<Text>+10 ความเสียหาย สำหรับการโจมตีฮีโร่</Text>		<!-- +10 Damage for Heroic Assault. --></Replace>
+			<Text>+10 ความเสียหาย สำหรับการโจมตีฮีโร่</Text>		<!-- +10 Damage for Heroic Assault. -->
+		</Replace>
 		<Replace Tag="LOC_PROMOTION_TRUNG_COMMENDATION_DUTY_NAME" Language="th_TH">
-			<Text>พี่น้องร่วมใจ</Text>		<!-- Sisters Unite --></Replace>
+			<Text>พี่น้องร่วมใจ</Text>		<!-- Sisters Unite -->
+		</Replace>
 		<Replace Tag="LOC_PROMOTION_TRUNG_COMMENDATION_DUTY_DESCRIPTION" Language="th_TH">
-			<Text>+30 ความเสียหาย สำหรับการโจมตีฮีโร่</Text>		<!-- +30 damage for Heroic Assault --></Replace>
+			<Text>+30 ความเสียหาย สำหรับการโจมตีฮีโร่</Text>		<!-- +30 damage for Heroic Assault -->
+		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_JUNGLE_WARFARE_NAME" Language="th_TH">
-			<Text>สงครามป่า</Text>		<!-- Jungle Warfare --></Replace>
+			<Text>สงครามป่า</Text>		<!-- Jungle Warfare -->
+		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_JUNGLE_WARFARE_PREVIEW" Language="th_TH">
-			<Text>+{1_Amount} สงครามป่า</Text>		<!-- +{1_Amount} Jungle Warfare --></Replace>
+			<Text>+{1_Amount} สงครามป่า</Text>		<!-- +{1_Amount} Jungle Warfare -->
+		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_JUNGLE_WARFARE_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้ สำหรับยูนิตบก ในภูมิประเทศเขตร้อนในรัศมีคำสั่ง [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION}</Text>		<!-- +5 Combat Strength for Land Units in Tropical Terrain in the Command Radius. [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION} --></Replace>
+			<Text>+5 พลังต่อสู้ สำหรับยูนิตบก ในภูมิประเทศเขตร้อนในรัศมีคำสั่ง [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION}</Text>		<!-- +5 Combat Strength for Land Units in Tropical Terrain in the Command Radius. [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION} -->
+		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_METTLE_COURAGE_NAME" Language="th_TH">
-			<Text>ความกล้าหาญและความอดทน</Text>		<!-- Mettle and Courage --></Replace>
+			<Text>ความกล้าหาญและความอดทน</Text>		<!-- Mettle and Courage -->
+		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_METTLE_COURAGE_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้ สำหรับยูนิตบก ในรัศมีคำสั่งเมื่ออยู่ในดินแดนฝ่ายเดียวกัน [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION}</Text>		<!-- +5 Combat Strength for Land Units in the Command Radius when in friendly territory. [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION} --></Replace>
+			<Text>+5 พลังต่อสู้ สำหรับยูนิตบก ในรัศมีคำสั่งเมื่ออยู่ในดินแดนฝ่ายเดียวกัน [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION}</Text>		<!-- +5 Combat Strength for Land Units in the Command Radius when in friendly territory. [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION} -->
+		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_METTLE_COURAGE_PREVIEW" Language="th_TH">
-			<Text>+{1_Amount} ความกล้าหาญและความอดทน</Text>		<!-- +{1_Amount} Mettle and Courage --></Replace>
+			<Text>+{1_Amount} ความกล้าหาญและความอดทน</Text>		<!-- +{1_Amount} Mettle and Courage -->
+		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_LAC_REBELLION_NAME" Language="th_TH">
-			<Text>กบฏลัก</Text>		<!-- Lạc Rebellion --></Replace>
+			<Text>กบฏลัก</Text>		<!-- Lạc Rebellion -->
+		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_LAC_REBELLION_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้ สำหรับยูนิตบก ในรัศมีคำสั่งเมื่อมีศัตรูอย่างน้อย 2 หน่วยอยู่ติดกัน [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION}</Text>		<!-- +3 Combat Strength for Land Units in the Command Radius when there are at least 2 adjacent enemy Units. [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION} --></Replace>
+			<Text>+3 พลังต่อสู้ สำหรับยูนิตบก ในรัศมีคำสั่งเมื่อมีศัตรูอย่างน้อย 2 หน่วยอยู่ติดกัน [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION}</Text>		<!-- +3 Combat Strength for Land Units in the Command Radius when there are at least 2 adjacent enemy Units. [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION} -->
+		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_LAC_REBELLION_PREVIEW" Language="th_TH">
-			<Text>+{1_Amount} กบฏลัก</Text>		<!-- +{1_Amount} Lạc Rebellion --></Replace>
+			<Text>+{1_Amount} กบฏลัก</Text>		<!-- +{1_Amount} Lạc Rebellion -->
+		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_ONE_SINGLE_CRY_NAME" Language="th_TH">
-			<Text>เสียงร้องเดียว</Text>		<!-- One Single Cry --></Replace>
+			<Text>เสียงร้องเดียว</Text>		<!-- One Single Cry -->
+		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_ONE_SINGLE_CRY_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้ เมื่อโจมตีประสานและยิงเป้าหมายเดียว [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_FINAL_DESCRIPTION}</Text>		<!-- +5 Combat Strength with Coordinated Attack and Focus Fire. [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_FINAL_DESCRIPTION} --></Replace>
+			<Text>+5 พลังต่อสู้ เมื่อโจมตีประสานและยิงเป้าหมายเดียว [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_FINAL_DESCRIPTION}</Text>		<!-- +5 Combat Strength with Coordinated Attack and Focus Fire. [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_FINAL_DESCRIPTION} -->
+		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_65_STRONGHOLDS_NAME" Language="th_TH">
-			<Text>65 ป้อมปราการ</Text>		<!-- 65 Strongholds --></Replace>
+			<Text>65 ป้อมปราการ</Text>		<!-- 65 Strongholds -->
+		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_65_STRONGHOLDS_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้ กับเขตที่มีการป้องกันสำหรับยูนิตบก ในรัศมีคำสั่ง [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION}</Text>		<!-- +5 Combat Strength against Fortified Districts for Land Units in the Command Radius. [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION} --></Replace>
+			<Text>+5 พลังต่อสู้ กับเขตที่มีการป้องกันสำหรับยูนิตบก ในรัศมีคำสั่ง [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION}</Text>		<!-- +5 Combat Strength against Fortified Districts for Land Units in the Command Radius. [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION} -->
+		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_65_STRONGHOLDS_PREVIEW" Language="th_TH">
-			<Text>+{Amount} 65 ป้อมปราการ</Text>		<!-- +{Amount} 65 Strongholds --></Replace>
+			<Text>+{Amount} 65 ป้อมปราการ</Text>		<!-- +{Amount} 65 Strongholds -->
+		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_HAI_BA_TRUNG_NAME" Language="th_TH">
-			<Text>พี่น้องจึง</Text>		<!-- Hai Bà Trung --></Replace>
+			<Text>พี่น้องจึง</Text>		<!-- Hai Bà Trung -->
+		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMY_TRUNG_NHI_HAI_BA_TRUNG_DESCRIPTION" Language="th_TH">
-			<Text>+15 พลังต่อสู้ สำหรับแม่ทัพนี้เมื่อป้องกัน [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION}</Text>		<!-- +15 Combat Strength for this Commander when defending. [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION} --></Replace>
+			<Text>+15 พลังต่อสู้ สำหรับแม่ทัพนี้เมื่อป้องกัน [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION}</Text>		<!-- +15 Combat Strength for this Commander when defending. [n]{LOC_PROMOTION_ARMY_TRUNG_NHI_ATTACK_DAMAGE_DESCRIPTION} -->
+		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMY_TRUNG_NHI_HAI_BA_TRUNG_PREVIEW" Language="th_TH">
-			<Text>+{Amount} พี่น้องจึง</Text>		<!-- +{Amount} Hai Bà Trung --></Replace>
+			<Text>+{Amount} พี่น้องจึง</Text>		<!-- +{Amount} Hai Bà Trung -->
+		</Replace>
 	</LocalizedText>
 </Database>
