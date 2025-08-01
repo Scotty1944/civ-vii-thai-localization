@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_CARD_EXP_CITY_NAME" Language="th_TH">
@@ -365,13 +365,13 @@
 			<Text>กองทัพเรือขนาดใหญ่</Text>		<!-- Large Navy -->
 		</Replace>
 		<Replace Tag="LOC_AGE_END_WARNING_TITLE" Language="th_TH">
-			<Text>The Age of Exploration will soon come to an end</Text>		<!-- The Age of Exploration will soon come to an end -->
+			<Text>ยุคแห่งการสำรวจใกล้จะสิ้นสุดลง</Text>		<!-- The Age of Exploration will soon come to an end -->
 		</Replace>
 		<Replace Tag="LOC_AGE_END_WARNING_DESC" Language="th_TH">
-			<Text>The Exploration Age is drawing to a close. From this point forward, the Age only progresses when you select Next Turn; no other effects will influence its advance. Reflect on the remaining opportunities, and ready your Civilization for the dawn of a new era.</Text>		<!-- The Exploration Age is drawing to a close. From this point forward, the Age only progresses when you select Next Turn; no other effects will influence its advance. Reflect on the remaining opportunities, and ready your Civilization for the dawn of a new era. -->
+			<Text>ยุคแห่งการสำลวจกำลังจะสิ้นสุดลง ตั้งแต่จุดนี้เป็นต้นไป ยุคจะดำเนินต่อไปเมื่อคุณเลือกเทิร์นถัดไปเท่านั้น ไม่มีผลกระทบอื่นใดที่จะส่งผลต่อความก้าวหน้าอีก พิจารณาโอกาสที่เหลืออยู่ และเตรียมอารยธรรมของคุณสำหรับรุ่งอรุณแห่งยุคใหม่</Text>		<!-- The Exploration Age is drawing to a close. From this point forward, the Age only progresses when you select Next Turn; no other effects will influence its advance. Reflect on the remaining opportunities, and ready your Civilization for the dawn of a new era. -->
 		</Replace>
 		<Replace Tag="LOC_AGE_END_WARNING_DESC_FINAL_AGE" Language="th_TH">
-			<Text>The Exploration Age is drawing to a close. From this point forward, the Age only progresses when you select Next Turn; no other effects will influence its advance. If no Victory is won before the end of the Age, the player who accumulated the most [B]Legacy Points[/B] over the course of the Age will be the winner. Reflect on the remaining opportunities and etch your Civilization's legacy into history.</Text>		<!-- The Exploration Age is drawing to a close. From this point forward, the Age only progresses when you select Next Turn; no other effects will influence its advance. If no Victory is won before the end of the Age, the player who accumulated the most [B]Legacy Points[/B] over the course of the Age will be the winner. Reflect on the remaining opportunities and etch your Civilization's legacy into history. -->
+			<Text>ยุคแห่งการสำรวจใกล้จะสิ้นสุดลง ตั้งแต่จุดนี้เป็นต้นไป ยุคจะดำเนินต่อไปเมื่อคุณเลือกเทิร์นถัดไปเท่านั้น ไม่มีผลกระทบอื่นใดที่จะส่งผลต่อความก้าวหน้า หากไม่มีผู้ชนะก่อนสิ้นสุดยุค ผู้เล่นที่สะสม [B]แต้มมรดก[/B] ได้มากที่สุดตลอดยุคจะเป็นผู้ชนะ พิจารณาโอกาสที่เหลืออยู่และจารึกมรดกของอารยธรรมคุณไว้ในประวัติศาสตร์</Text>		<!-- The Exploration Age is drawing to a close. From this point forward, the Age only progresses when you select Next Turn; no other effects will influence its advance. If no Victory is won before the end of the Age, the player who accumulated the most [B]Legacy Points[/B] over the course of the Age will be the winner. Reflect on the remaining opportunities and etch your Civilization's legacy into history. -->
 		</Replace>
 		<Replace Tag="LOC_WARNING_TREASURE_FLEET_BUILDING_MESSAGE" Language="th_TH">
 			<Text>{1_City} เต็มไปด้วยทรัพยากรสมบัติ แต่ทรัพยากรเหล่านี้มีประโยชน์มากกว่าที่นี่ในบ้านเรา สร้างท่าเรือประมงใน {1_City} เพื่อที่เราจะสามารถปล่อยกองเรือสมบัติได้ จากนั้นเราสามารถตรวจสอบทรัพยากรของเราเพื่อดูว่าจะใช้เวลานานแค่ไหนในการผลิตกองเรือถัดไป</Text>		<!-- {1_City} abounds with Treasure Resources, but they are of better use here at home. Let us build a Fishing Quay in {1_City} so we can launch Treasure Fleets; then we can review our Resources to see how long it will take to produce the next one. -->
@@ -2031,10 +2031,10 @@
 			<Text>หอสังเกตการณ์ดาราศาสตร์แบบต้นแบบคือโดมหรืออาคารโลหะขนาดใหญ่ที่มีกล้องโทรทรรศน์โผล่ออกมา คล้ายกับหอสังเกตการณ์สฟิงซ์ในประเทศสวิตเซอร์แลนด์ แต่ลองจินตนาการถึงหอสังเกตการณ์ในศตวรรษก่อนหน้านั้น – แพลตฟอร์มที่เงียบสงบซึ่งสามารถวิเคราะห์ท้องฟ้าได้ อาจใช้เครื่องหมายอ้างอิงเพื่อกำหนดวันเวลาของการเคลื่อนไหวทางดาราศาสตร์ (เช่น ดาวศุกร์ขึ้นจากหินก้อนนี้ เป็นต้น) สถานที่ดังกล่าวมีความสำคัญต่อดาราศาสตร์ โหราศาสตร์ คณิตศาสตร์ และการเดินเรือ และมักจะผสานความเข้าใจทางศาสนาและวิทยาศาสตร์เข้าไว้ด้วยกัน เราพบโครงสร้างเหล่านี้ในปักกิ่ง เดลี เมืองมายันของคาราโคล และที่อื่นๆ เมื่อเทคโนโลยีแบบเล็งภาพขยายตัวขึ้น หอสังเกตการณ์ก็ได้ใช้ความสามารถในการใช้เลนส์ที่ใหญ่ขึ้นและแม่นยำมากขึ้น ตั้งแต่ศตวรรษที่ 17 เป็นต้นมา หลายประเทศในยุโรปได้สร้างหอสังเกตการณ์ที่ละเอียดเพื่อทำความเข้าใจท้องฟ้าได้ดียิ่งขึ้น</Text>		<!-- The archetypal astronomical observatory is a large metal dome with a telescope peeking out, something like the Sphinx Observatory in Switzerland. But imagine observatories centuries before – quiet, still platforms from which the sky can be analyzed, perhaps using reference markers to date astronomical movements (i.e. Venus rose from this stone, etc.). Such sites were important for astronomy, astrology, mathematics, and navigation, and they often fused religious and scientific understandings. We find these structures in Beijing, Delhi, the Mayan city of Caracol, and elsewhere. As optical technology expanded, observatories seized upon the ability to use bigger and more accurate lenses. By the 17th century onward, many major European nations built detailed observatories to better understand the heavens. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_BUILDING_AMPHITHEATER_EX_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>The word “amphitheater” references a semicircular or circular ring of seats surrounding a stage where performances, speeches, gladiatorial contests, poetry, and the like could be staged. The term is specific to Greek and Roman contexts, where it performed a key role in public entertainment. However, if "amphitheater" is used to reference any gathering point for performances, we find examples across several societies, from Balinese dance to Chinese village opera to the singing of Malinese griots. Stories are crafted to be shared, whether that be a politician’s speech, a mythological tale projected in shadow on a screen in a Malay market, or a story writ in bronze and blood upon gladiatorial ground.</Text>		<!-- The word “amphitheater” references a semicircular or circular ring of seats surrounding a stage where performances, speeches, gladiatorial contests, poetry, and the like could be staged. The term is specific to Greek and Roman contexts, where it performed a key role in public entertainment. However, if "amphitheater" is used to reference any gathering point for performances, we find examples across several societies, from Balinese dance to Chinese village opera to the singing of Malinese griots. Stories are crafted to be shared, whether that be a politician’s speech, a mythological tale projected in shadow on a screen in a Malay market, or a story writ in bronze and blood upon gladiatorial ground. -->
+			<Text>คำว่า “อัฒจันทร์” หมายถึงแถวที่นั่งรูปครึ่งวงกลมหรือวงกลมล้อมรอบเวทีสำหรับการแสดง สุนทรพจน์ การต่อสู้ของนักรบ กวี และอื่น ๆ คำนี้ใช้เฉพาะในบริบทกรีกและโรมัน ซึ่งมีบทบาทสำคัญในความบันเทิงสาธารณะ อย่างไรก็ตาม หากใช้ “อัฒจันทร์” หมายถึงจุดรวมตัวสำหรับการแสดง เราจะพบตัวอย่างในหลายสังคม ตั้งแต่การเต้นรำบาหลีไปจนถึงงิ้วหมู่บ้านจีน หรือการร้องเพลงของกรีโอตแห่งมาลี เรื่องราวถูกสร้างขึ้นเพื่อแบ่งปัน ไม่ว่าจะเป็นสุนทรพจน์ของนักการเมือง นิทานในเงาบนจอในตลาดมาเลย์ หรือเรื่องราวที่จารึกไว้ด้วยทองสัมฤทธิ์และเลือดบนสนามนักรบ</Text>		<!-- The word “amphitheater” references a semicircular or circular ring of seats surrounding a stage where performances, speeches, gladiatorial contests, poetry, and the like could be staged. The term is specific to Greek and Roman contexts, where it performed a key role in public entertainment. However, if "amphitheater" is used to reference any gathering point for performances, we find examples across several societies, from Balinese dance to Chinese village opera to the singing of Malinese griots. Stories are crafted to be shared, whether that be a politician’s speech, a mythological tale projected in shadow on a screen in a Malay market, or a story writ in bronze and blood upon gladiatorial ground. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_BUILDING_ACADEMY_EX_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>While universities are massive institutions of general study, academies are places for philosophical reflection. Confucian academies were quintessential examples – places where students of Confucianism could study and debate the classics. Expertise in classical texts was necessary to advance in the bureaucracy. In Greece, the classical academy was a school originally named for a grove of trees sacred to Athena, and scholars such as Plato and Socrates taught there. These schools emphasized debate and philosophy as well as a close relationship between teachers and students – a tradition exported to Persia under Alexander’s conquests. Academies merged naturally into larger universities in Africa (specifically Mali, Morocco, and Egypt) as interests and knowledge expanded, and as society realized it could no longer expect students to be masters of astronomy, philosophy, religion, and mathematics all at once!</Text>		<!-- While universities are massive institutions of general study, academies are places for philosophical reflection. Confucian academies were quintessential examples – places where students of Confucianism could study and debate the classics. Expertise in classical texts was necessary to advance in the bureaucracy. In Greece, the classical academy was a school originally named for a grove of trees sacred to Athena, and scholars such as Plato and Socrates taught there. These schools emphasized debate and philosophy as well as a close relationship between teachers and students – a tradition exported to Persia under Alexander’s conquests. Academies merged naturally into larger universities in Africa (specifically Mali, Morocco, and Egypt) as interests and knowledge expanded, and as society realized it could no longer expect students to be masters of astronomy, philosophy, religion, and mathematics all at once! -->
+			<Text>ในขณะที่มหาวิทยาลัยเป็นสถาบันขนาดใหญ่สำหรับการศึกษาทั่วไป สถาบันอคาเดมีเป็นสถานที่สำหรับการใคร่ครวญทางปรัชญา สถาบันขงจื๊อเป็นตัวอย่างสำคัญ—สถานที่ที่นักศึกษาขงจื๊อสามารถศึกษาและอภิปรายตำราโบราณ ความเชี่ยวชาญในตำราโบราณเป็นสิ่งจำเป็นสำหรับการก้าวหน้าในระบบราชการ ในกรีซ อคาเดมีคลาสสิกเป็นโรงเรียนที่ตั้งชื่อตามสวนต้นไม้ศักดิ์สิทธิ์ของอธีนา และนักปราชญ์เช่นเพลโตและโสเครติสสอนที่นั่น โรงเรียนเหล่านี้เน้นการอภิปรายและปรัชญา รวมถึงความสัมพันธ์ใกล้ชิดระหว่างครูและนักเรียน—เป็นธรรมเนียมที่ส่งต่อไปยังเปอร์เซียภายใต้การพิชิตของอเล็กซานเดอร์ สถาบันอคาเดมีผสานเข้ากับมหาวิทยาลัยขนาดใหญ่ในแอฟริกา (โดยเฉพาะมาลี โมร็อกโก และอียิปต์) เมื่อความสนใจและความรู้ขยายตัว และเมื่อสังคมตระหนักว่าไม่อาจคาดหวังให้นักเรียนเป็นผู้เชี่ยวชาญด้านดาราศาสตร์ ปรัชญา ศาสนา และคณิตศาสตร์ทั้งหมดพร้อมกันได้อีกต่อไป!</Text>		<!-- While universities are massive institutions of general study, academies are places for philosophical reflection. Confucian academies were quintessential examples – places where students of Confucianism could study and debate the classics. Expertise in classical texts was necessary to advance in the bureaucracy. In Greece, the classical academy was a school originally named for a grove of trees sacred to Athena, and scholars such as Plato and Socrates taught there. These schools emphasized debate and philosophy as well as a close relationship between teachers and students – a tradition exported to Persia under Alexander’s conquests. Academies merged naturally into larger universities in Africa (specifically Mali, Morocco, and Egypt) as interests and knowledge expanded, and as society realized it could no longer expect students to be masters of astronomy, philosophy, religion, and mathematics all at once! -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_BUILDING_PAVILION_CHAPTER_HISTORY_PARA_1" Language="th_TH">
 			<Text>ซุ้ม (ติ้งในภาษาจีน, ชาห์ร์ตักในภาษาเปอร์เซีย, และชาลาในภาษาสันสกฤต) โดยทั่วไปหมายถึงโครงสร้างเปิดที่ออกแบบมาสำหรับเทศกาล การประชุมสาธารณะ หรือการพักผ่อนทั่วไป แนวคิดนี้มีอายุเก่า เพราะซุ้มถูกใช้แพร่หลายตลอดช่วงราชวงศ์โจวและเป็นส่วนสำคัญของวัดไฟซอโรอัสเตอร์ในยุคก่อนอิสลาม ในตะวันตก โครงสร้างเหล่านี้มักจะมีลวดลายซับซ้อน วางอยู่ภายในพระราชวังหรือสถานที่จัดงานและมีจุดประสงค์ให้เป็นสถานที่ที่คนสามารถพักผ่อนและชมทิวทัศน์ ซุ้มที่มีชื่อเสียง ได้แก่ พระราชว夏ฤดูร้อนไทยที่บางปะอิน ซุ้มที่พระราชวังท็อปคาปีในอิสตันบูล และพระราชวังต้องห้าม</Text>		<!-- A pavilion (ting in Chinese, chahartaq in Persian, and shala in Sanskrit) generally refers to an open structure designed for festivals, public assemblies, or general relaxation. The concept is old as pavilions were used widely during the Zhou Dynasty and formed a central part of Zoroastrian fire temples in the pre-Islamic period. In the West, these structures were often decorative, placed within a royal complex or fairground, and intended as places where one could relax and take in the sights. Famous pavilions include the Siamese summer palace at Bang Pa-in, the pavilions at Topkapı Palace in Istanbul, and the Forbidden City. -->
@@ -2523,7 +2523,7 @@
 			<Text>ไม่มีภาพใดที่เป็นสัญลักษณ์ของยุคกลางมากไปกว่าผู้กล้า: นักรบที่สวมเกราะหนาแน่นซึ่งนั่งอยู่บนม้าในสงครามที่มีตำแหน่งสูงส่งและปฏิบัติตามจรรยาบรรณของอัศวิน ตัวละครเหล่านี้กลายเป็นที่รู้จักผ่านนิยายกลางยุคเช่น เรื่องเล่าของอาร์เธอร์ และก่อตั้งสังคมไม่รู้จบ เช่น อัศวินแห่งมอลตา, ลำดับแห่งมังกร, และลำดับแห่งการผูกโบว์ แต่สิ่งที่กำหนดตัวตนของอัศวินจริงๆ คืออะไร? ที่นี่เราเน้นที่การรวมกันของอาวุธ, เกราะ, และม้า ซึ่งอาจมีตั้งแต่ผู้กล้าแบบคลาสสิกของยุโรปไปจนถึงอัศวินอิหร่านหรืออัศวินเกาหลีที่มีเกราะเบาและซามูไรญี่ปุ่น ไม่ว่าจะมีวัฒนธรรมใด อัศวินคือรถถังของยุคและสามารถสร้างและทนต่อความเสียหายเป็นจำนวนมากได้</Text>		<!-- There is no image more emblematic of the Middle Ages than the knight: a heavily armored warrior astride a warhorse who bears a noble title and upholds a code of chivalric conduct. These figures were made famous through medieval romances such as the Arthurian tales, and formed countless societies, such as the Knights of Malta, the Order of the Dragon, and the Order of the Garter. But what truly defines a knight? Here, we focus on the combination of arms, armor, and horse, which can range from the classic European knight to the Iranian aswaran, or the more lightly-armored Korean hwarang and the Japanese samurai. Regardless of culture, knights were the tanks of their day, capable of dealing and withstanding immense amounts of damage. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_UNIT_TREASURE_FLEET_CHAPTER_HISTORY_PARA_4" Language="th_TH">
-			<Text>With these links, the bones of a world economy – and world empire – were forged. It would take centuries to break them.</Text>		<!-- With these links, the bones of a world economy – and world empire – were forged. It would take centuries to break them. -->
+			<Text>ด้วยสายสัมพันธ์เหล่านี้ โครงสร้างของเศรษฐกิจโลก—และจักรวรรดิโลก—ได้ถูกสร้างขึ้น ต้องใช้เวลาหลายศตวรรษกว่าจะสลายมันได้</Text>		<!-- With these links, the bones of a world economy – and world empire – were forged. It would take centuries to break them. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_UNIT_TREBUCHET_CHAPTER_HISTORY_PARA_1" Language="th_TH">
 			<Text>เครื่องทราย (Trebuchet) เป็นอาวุธปืนเขี้ยวสุดยอดที่ไม่มีดินปืน เป็นแขนขนาดใหญ่ที่มีผ้าถุงอยู่ด้านหนึ่งและน้ำหนักถ่วงอยู่ด้านอีกฝั่ง เมื่อปล่อยน้ำหนัก แขนทั้งหมดจะหมุนด้วยแรงพอที่จะโยนก้อนหินน้ำหนักห้าร้อยปอนด์ไปได้ถึงห้าร้อยฟุต เพื่อการเปรียบเทียบ น้ำหนักนี้มากกว่าสิบเท่าของขีปนาวุธที่ยิงจากออนาเจอร์ (catapult แบบคลาสสิก) และมีระยะทางที่มากเป็นสองเท่า เครื่องทรายคลาสสิกน่าจะเป็นอาวุธของอาหรับหรือเปอร์เซีย ซึ่งถูกระบุว่าเป็นของมาร์ดี อิบน์ อาลี อัล-ตาร์ซูซีในปี 1187 แต่ต่อมาได้รับความนิยมอย่างรวดเร็วในยุโรปและตะวันออกกลางจนกระทั่งถึงการเกิดของดินปืนในปี 1500s</Text>		<!-- The trebuchet was the ultimate pre-gunpowder siege weapon, a massive arm with a sling on one end and a counterweight on the other. When the weight was released, the entire arm rotated with enough force to fling a five-hundred-pound stone up to five hundred feet. For comparison, this is ten times the weight of a missile fired from an onager (a classic catapult) and twice the range. The classic trebuchet was likely an Arabic or Persian weapon, attributed to Mardi ibn Ali al-Tarsusi in 1187, but it quickly gained traction across Europe and the Middle East until the advent of gunpowder in the 1500s. -->
@@ -3894,7 +3894,7 @@
 			<Text>+1[icon:YIELD_GOLD] ทอง จากการอยู่ติดกับสิ่งปลูกสร้าง</Text>		<!-- +1[icon:YIELD_GOLD] Gold Adjacency for Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_QHAPAQ_NAN_TREASURE_FLEET_DESCRIPTION" Language="th_TH">
-			<Text>Cities in Homelands with 3 Worked Mountains generate Treasure Convoys worth 2 Treasure Fleet points each.</Text>		<!-- Cities in Homelands with 3 Worked Mountains generate Treasure Convoys worth 2 Treasure Fleet points each. -->
+			<Text>เมืองในบ้านเกิดที่มีภูเขาถูกใช้งาน 3 ลูก จะสร้างขบวนสมบัติที่มีค่า 2 คะแนนขบวนเรือสมบัติแต่ละขบวน</Text>		<!-- Cities in Homelands with 3 Worked Mountains generate Treasure Convoys worth 2 Treasure Fleet points each. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_NAGARAM_RSOURCE_CAP_DESCRIPTION" Language="th_TH">
 			<Text>+2 ความจุทรัพยากร ในเมืองหลวง</Text>		<!-- +2 Resource Capacity in the Capital. -->
@@ -7608,28 +7608,28 @@
 			<Text>คาลินาโก</Text>		<!-- Kalinago -->
 		</Replace>
 		<Replace Tag="CITY_STATE_MILITARISTIC_BONUS_EXPLORATION_6_NAME" Language="th_TH">
-			<Text>Staked Claims</Text>		<!-- Staked Claims -->
+			<Text>อ้างสิทธิ์ในดินแดน</Text>		<!-- Staked Claims -->
 		</Replace>
 		<Replace Tag="CITY_STATE_MILITARISTIC_BONUS_EXPLORATION_7_NAME" Language="th_TH">
-			<Text>Casus Belli</Text>		<!-- Casus Belli -->
+			<Text>ข้ออ้างสงคราม</Text>		<!-- Casus Belli -->
 		</Replace>
 		<Replace Tag="CITY_STATE_CULTURAL_BONUS_EXPLORATION_6_NAME" Language="th_TH">
-			<Text>Sì Mín</Text>		<!-- Sì Mín -->
+			<Text>ซื่อหมิน</Text>		<!-- Sì Mín -->
 		</Replace>
 		<Replace Tag="CITY_STATE_CULTURAL_BONUS_EXPLORATION_7_NAME" Language="th_TH">
-			<Text>Artisans</Text>		<!-- Artisans -->
+			<Text>ช่างฝีมือ</Text>		<!-- Artisans -->
 		</Replace>
 		<Replace Tag="CITY_STATE_ECONOMIC_BONUS_EXPLORATION_6_NAME" Language="th_TH">
-			<Text>Bullion</Text>		<!-- Bullion -->
+			<Text>ทองแท่ง</Text>		<!-- Bullion -->
 		</Replace>
 		<Replace Tag="CITY_STATE_ECONOMIC_BONUS_EXPLORATION_7_NAME" Language="th_TH">
-			<Text>Market Right</Text>		<!-- Market Right -->
+			<Text>สิทธิ์ตลาด</Text>		<!-- Market Right -->
 		</Replace>
 		<Replace Tag="CITY_STATE_SCIENTIFIC_BONUS_EXPLORATION_6_NAME" Language="th_TH">
-			<Text>Master Tradesmen</Text>		<!-- Master Tradesmen -->
+			<Text>ช่างฝีมือชั้นครู</Text>		<!-- Master Tradesmen -->
 		</Replace>
 		<Replace Tag="CITY_STATE_SCIENTIFIC_BONUS_EXPLORATION_7_NAME" Language="th_TH">
-			<Text>Apprenticeship</Text>		<!-- Apprenticeship -->
+			<Text>การฝึกงาน</Text>		<!-- Apprenticeship -->
 		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_EXPLORATION_46_MINOR_NAME" Language="th_TH">
 			<Text>เซมิโนล</Text>		<!-- Seminole -->
@@ -7692,28 +7692,28 @@
 			<Text>ล้านนา</Text>		<!-- Lanna -->
 		</Replace>
 		<Replace Tag="CITY_STATE_MILITARISTIC_BONUS_EXPLORATION_6_DESCRIPTION" Language="th_TH">
-			<Text>+1 Settlement Limit.</Text>		<!-- +1 Settlement Limit. -->
+			<Text>+1 ขีดจำกัดถิ่นฐาน</Text>		<!-- +1 Settlement Limit. -->
 		</Replace>
 		<Replace Tag="CITY_STATE_MILITARISTIC_BONUS_EXPLORATION_7_DESCRIPTION" Language="th_TH">
-			<Text>+1 War Support. This bonus can be chosen by multiple Civilizations.</Text>		<!-- +1 War Support. This bonus can be chosen by multiple Civilizations. -->
+			<Text>+1 สนับสนุนสงคราม โบนัสนี้สามารถเลือกได้โดยหลายอารยธรรม</Text>		<!-- +1 War Support. This bonus can be chosen by multiple Civilizations. -->
 		</Replace>
 		<Replace Tag="CITY_STATE_CULTURAL_BONUS_EXPLORATION_6_DESCRIPTION" Language="th_TH">
-			<Text>+1 Culture on Specialists.</Text>		<!-- +1 Culture on Specialists. -->
+			<Text>+1 วัฒนธรรม บนผู้เชี่ยวชาญ</Text>		<!-- +1 Culture on Specialists. -->
 		</Replace>
 		<Replace Tag="CITY_STATE_CULTURAL_BONUS_EXPLORATION_7_DESCRIPTION" Language="th_TH">
-			<Text>+1 Culture on Warehouse Buildings. This bonus can be chosen by multiple Civilizations.</Text>		<!-- +1 Culture on Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
+			<Text>+1 วัฒนธรรม บนอาคารคลังสินค้า โบนัสนี้สามารถเลือกได้โดยหลายอารยธรรม</Text>		<!-- +1 Culture on Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
 		</Replace>
 		<Replace Tag="CITY_STATE_ECONOMIC_BONUS_EXPLORATION_6_DESCRIPTION" Language="th_TH">
-			<Text>+1 Gold on Treasure Resources.</Text>		<!-- +1 Gold on Treasure Resources. -->
+			<Text>+1 ทอง บนทรัพยากรสมบัติ</Text>		<!-- +1 Gold on Treasure Resources. -->
 		</Replace>
 		<Replace Tag="CITY_STATE_ECONOMIC_BONUS_EXPLORATION_7_DESCRIPTION" Language="th_TH">
-			<Text>+1 Gold on Warehouse Buildings. This bonus can be chosen by multiple Civilizations.</Text>		<!-- +1 Gold on Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
+			<Text>+1 ทอง บนอาคารคลังสินค้า โบนัสนี้สามารถเลือกได้โดยหลายอารยธรรม</Text>		<!-- +1 Gold on Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
 		</Replace>
 		<Replace Tag="CITY_STATE_SCIENTIFIC_BONUS_EXPLORATION_6_DESCRIPTION" Language="th_TH">
-			<Text>+1 Science on Specialists.</Text>		<!-- +1 Science on Specialists. -->
+			<Text>+1 วิทยาศาสตร์ บนผู้เชี่ยวชาญ</Text>		<!-- +1 Science on Specialists. -->
 		</Replace>
 		<Replace Tag="CITY_STATE_SCIENTIFIC_BONUS_EXPLORATION_7_DESCRIPTION" Language="th_TH">
-			<Text>+1 Science on Warehouse Buildings. This bonus can be chosen by multiple Civilizations.</Text>		<!-- +1 Science on Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
+			<Text>+1 วิทยาศาสตร์ บนอาคารคลังสินค้า โบนัสนี้สามารถเลือกได้โดยหลายอารยธรรม</Text>		<!-- +1 Science on Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
 		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_EXPLORATION_56_MINOR_NAME" Language="th_TH">
 			<Text>ตอนโด</Text>		<!-- Tondo -->
@@ -7776,34 +7776,34 @@
 			<Text>ธนูยาว</Text>		<!-- Longbow -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_ABBASID" Language="th_TH">
-			<Text>With the City of Peace Tradition, Buildings around the City Center receive additional Science adjacencies. Put Specialists on those tiles to really make number go up.</Text>		<!-- With the City of Peace Tradition, Buildings around the City Center receive additional Science adjacencies. Put Specialists on those tiles to really make number go up. -->
+			<Text>ด้วยธรรมเนียมเมืองแห่งสันติภาพ อาคารรอบศูนย์กลางเมืองจะได้รับโบนัสวิทยาศาสตร์เพิ่มเติม วางผู้เชี่ยวชาญบนช่องเหล่านั้นเพื่อเพิ่มตัวเลขให้สูงขึ้น</Text>		<!-- With the City of Peace Tradition, Buildings around the City Center receive additional Science adjacencies. Put Specialists on those tiles to really make number go up. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_CHOLA" Language="th_TH">
-			<Text>The Chola excel at making Trade Agreements and Trade Routes, especially when you have Coastal Settlements. But they also have a really impressive navy for defense... or for offense.</Text>		<!-- The Chola excel at making Trade Agreements and Trade Routes, especially when you have Coastal Settlements. But they also have a really impressive navy for defense... or for offense. -->
+			<Text>โจฬะ โดดเด่นในการทำข้อตกลงการค้าและเส้นทางการค้า โดยเฉพาะเมื่อคุณมีถิ่นฐานชายฝั่ง แต่พวกเขายังมีทัพเรือที่น่าประทับใจสำหรับการป้องกัน...หรือโจมตี</Text>		<!-- The Chola excel at making Trade Agreements and Trade Routes, especially when you have Coastal Settlements. But they also have a really impressive navy for defense... or for offense. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_HAWAII" Language="th_TH">
-			<Text>The Moananuiākea Unique Ability and Ho’okupu Tradition provide amazing Culture yields for expanding into Coast. With the Mana Civic, you also benefit from natural disasters like volcanic eruptions.</Text>		<!-- The Moananuiākea Unique Ability and Ho’okupu Tradition provide amazing Culture yields for expanding into Coast. With the Mana Civic, you also benefit from natural disasters like volcanic eruptions. -->
+			<Text>ความสามารถพิเศษของ โมอานานูอาเคีย และธรรมเนียมโฮโอกูปูให้ผลผลิตวัฒนธรรมที่ยอดเยี่ยมสำหรับการขยายสู่ชายฝั่ง ด้วยพลเมืองมานะ คุณยังได้รับประโยชน์จากภัยธรรมชาติ เช่น ภูเขาไฟระเบิด</Text>		<!-- The Moananuiākea Unique Ability and Ho’okupu Tradition provide amazing Culture yields for expanding into Coast. With the Mana Civic, you also benefit from natural disasters like volcanic eruptions. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_INCA" Language="th_TH">
-			<Text>The Terrace Farm can go on any Rough Terrain that doesn't have a River or other Feature. However, with the Ayllu Civic, it benefits most from being adjacent to Mountains.</Text>		<!-- The Terrace Farm can go on any Rough Terrain that doesn't have a River or other Feature. However, with the Ayllu Civic, it benefits most from being adjacent to Mountains. -->
+			<Text>ฟาร์มขั้นบันได สามารถสร้างบนภูมิประเทศขรุขระที่ไม่มีแม่น้ำหรือสิ่งอื่น ๆ อย่างไรก็ตาม ด้วยพลเมืองอายลู จะได้รับประโยชน์สูงสุดเมื่ออยู่ติดกับภูเขา</Text>		<!-- The Terrace Farm can go on any Rough Terrain that doesn't have a River or other Feature. However, with the Ayllu Civic, it benefits most from being adjacent to Mountains. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_MAJAPAHIT" Language="th_TH">
-			<Text>The Majapahit benefit considerably from Specialists, which increase the adjacency of Buildings from the current Age by 50%. Use the Wayang Civic's boost to Overbuilding to construct those Buildings more quickly.</Text>		<!-- The Majapahit benefit considerably from Specialists, which increase the adjacency of Buildings from the current Age by 50%. Use the Wayang Civic's boost to Overbuilding to construct those Buildings more quickly. -->
+			<Text>มัชปาหิต ได้รับประโยชน์อย่างมากจากผู้เชี่ยวชาญ ซึ่งเพิ่มโบนัสอาคารจากยุคปัจจุบันขึ้น 50% ใช้พลเมืองวายังเพื่อเร่งการก่อสร้างอาคารเหล่านั้นให้เร็วขึ้น</Text>		<!-- The Majapahit benefit considerably from Specialists, which increase the adjacency of Buildings from the current Age by 50%. Use the Wayang Civic's boost to Overbuilding to construct those Buildings more quickly. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_MING" Language="th_TH">
-			<Text>The penalty from the Ming's Unique Ability, Great Canon of Yongle, does not apply to Traditions slotted into your Government. Look for Civilization icon tags on Social Policies to identify your Traditions.</Text>		<!-- The penalty from the Ming's Unique Ability, Great Canon of Yongle, does not apply to Traditions slotted into your Government. Look for Civilization icon tags on Social Policies to identify your Traditions. -->
+			<Text>บทลงโทษจากความสามารถพิเศษของหมิง มหากาพย์หย่งเล่อ ไม่ส่งผลต่อธรรมเนียมที่ใส่ในรัฐบาลของคุณ มองหาแท็กไอคอนอารยธรรมบนสังคมนโยบายเพื่อระบุธรรมเนียมของคุณ</Text>		<!-- The penalty from the Ming's Unique Ability, Great Canon of Yongle, does not apply to Traditions slotted into your Government. Look for Civilization icon tags on Social Policies to identify your Traditions. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_MONGOLIA" Language="th_TH">
-			<Text>The Örtöö Unique Improvement restores the movement of Units that enter the tile. With faster movement from the Four Hounds Civic and the Noyan Unique Commander, you could cross a continent in a single turn.</Text>		<!-- The Örtöö Unique Improvement restores the movement of Units that enter the tile. With faster movement from the Four Hounds Civic and the Noyan Unique Commander, you could cross a continent in a single turn. -->
+			<Text>สิ่งปรับปรุงพิเศษเออร์เทอคืนค่าการเคลื่อนที่ของหน่วยที่เข้าสู่ช่องนั้น ด้วยการเคลื่อนที่ที่เร็วขึ้นจากพลเมืองสี่สุนัขและผู้บัญชาการโนยัน คุณอาจข้ามทวีปได้ในเทิร์นเดียว</Text>		<!-- The Örtöö Unique Improvement restores the movement of Units that enter the tile. With faster movement from the Four Hounds Civic and the Noyan Unique Commander, you could cross a continent in a single turn. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_NORMAN" Language="th_TH">
-			<Text>The Motte and Bailey both count as Fortifications, automatically making them defensible Districts. It also means they can be purchased in Fort Towns.</Text>		<!-- The Motte and Bailey both count as Fortifications, automatically making them defensible Districts. It also means they can be purchased in Fort Towns. -->
+			<Text>ม็อตและเบลีย์นับเป็นป้อมปราการโดยอัตโนมัติ ทำให้อำเภอเหล่านี้สามารถป้องกันได้ นอกจากนี้ยังสามารถซื้อได้ในเมืองป้อม</Text>		<!-- The Motte and Bailey both count as Fortifications, automatically making them defensible Districts. It also means they can be purchased in Fort Towns. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_SONGHAI" Language="th_TH">
-			<Text>The Kanta Civic lets the Songhai generate small Treasure Convoys in Homelands Cities on Navigable Rivers. Unlock it early to get a head start on the Economic Legacy.</Text>		<!-- The Kanta Civic lets the Songhai generate small Treasure Convoys in Homelands Cities on Navigable Rivers. Unlock it early to get a head start on the Economic Legacy. -->
+			<Text>แนวคิดกันตา ให้ซงไฮสร้างขบวนสมบัติขนาดเล็กในเมืองบ้านเกิด บนแม่น้ำใหญ่ได้ ปลดล็อกเร็วเพื่อเริ่มต้นมรดกเศรษฐกิจ</Text>		<!-- The Kanta Civic lets the Songhai generate small Treasure Convoys in Homelands Cities on Navigable Rivers. Unlock it early to get a head start on the Economic Legacy. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_SPAIN" Language="th_TH">
-			<Text>Spain can thrive in Distant Lands with the New World Riches Civic and Plaza Unique Quarter... or conquer them with the Conquista Tradition.</Text>		<!-- Spain can thrive in Distant Lands with the New World Riches Civic and Plaza Unique Quarter... or conquer them with the Conquista Tradition. -->
+			<Text>สเปนสามารถรุ่งเรืองในดินแดนห่างไกลด้วย แนวคิดทรัพย์สมบัติแห่งโลกใหม่ และพลาซ่า เขตเมืองพิเศษ...หรือพิชิตด้วยธรรมเนียมคองกิสตา</Text>		<!-- Spain can thrive in Distant Lands with the New World Riches Civic and Plaza Unique Quarter... or conquer them with the Conquista Tradition. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_EXPLORATION_4_NAME" Language="th_TH">
 			<Text>โจรสลัด</Text>		<!-- Corsair -->
@@ -14242,28 +14242,28 @@
 			<Text>ชีวิตดุจศิลปะ</Text>		<!-- Life as Art -->
 		</Replace>
 		<Replace Tag="LOC_110A_STORYTITLE" Language="th_TH">
-			<Text>A Passing Likeness</Text>		<!-- A Passing Likeness -->
+			<Text>ภาพเหมือนผ่านทาง</Text>		<!-- A Passing Likeness -->
 		</Replace>
 		<Replace Tag="LOC_110A_COMPLETION" Language="th_TH">
-			<Text>Attendants cheer as the veil falls away from an enormous portrait. "This is a brilliant likeness of you," an august advisor exults, "a celebration of your generosity, in the leading style!" The smile seems more an uncanny leer, but no one else seems unsettled by it.</Text>		<!-- Attendants cheer as the veil falls away from an enormous portrait. "This is a brilliant likeness of you," an august advisor exults, "a celebration of your generosity, in the leading style!" The smile seems more an uncanny leer, but no one else seems unsettled by it. -->
+			<Text>Attendants cheer as the veil falls away from an enormous portrait. "This is a brilliant likeness of you," an august advisor exults, "a celebration of your generosity, in the leading style!" The smile seems more an uncanny leer, but no one else seems unsettled by it</Text>		<!-- Attendants cheer as the veil falls away from an enormous portrait. "This is a brilliant likeness of you," an august advisor exults, "a celebration of your generosity, in the leading style!" The smile seems more an uncanny leer, but no one else seems unsettled by it. -->
 		</Replace>
 		<Replace Tag="LOC_110B_NAME" Language="th_TH">
-			<Text>Hang this portrait in a place of honor.</Text>		<!-- Hang this portrait in a place of honor. -->
+			<Text>Hang this portrait in a place of honor</Text>		<!-- Hang this portrait in a place of honor. -->
 		</Replace>
 		<Replace Tag="LOC_110B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_110C_NAME" Language="th_TH">
-			<Text>Destroy the insult.</Text>		<!-- Destroy the insult. -->
+			<Text>Destroy the insult</Text>		<!-- Destroy the insult. -->
 		</Replace>
 		<Replace Tag="LOC_110C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_110D_NAME" Language="th_TH">
-			<Text>Pay to have it redone.</Text>		<!-- Pay to have it redone. -->
+			<Text>Pay to have it redone</Text>		<!-- Pay to have it redone. -->
 		</Replace>
 		<Replace Tag="LOC_110D_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} but {2_reward}.</Text>		<!-- {1_reward} but {2_reward}. -->
+			<Text>{1_reward} but {2_reward}</Text>		<!-- {1_reward} but {2_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1144B_NAME" Language="th_TH">
 			<Text>จัดประชุมเป็นประจำเพื่อนำเสนอข้อเสนอของพวกเขา</Text>		<!-- Hold regular meetings to discuss their proposals. -->
@@ -15723,10 +15723,10 @@
 			<Text>การปรองดองคือหนทาง</Text>		<!-- Reconciliation is the way. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_31_NAME" Language="th_TH">
-			<Text>Divine Inspiration</Text>		<!-- Divine Inspiration -->
+			<Text>แรงบันดาลใจจากพระเจ้า</Text>		<!-- Divine Inspiration -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_32_NAME" Language="th_TH">
-			<Text>Crusade</Text>		<!-- Crusade -->
+			<Text>สงครามศาสนา</Text>		<!-- Crusade -->
 		</Replace>
 		<Replace Tag="LOC_7065C_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
@@ -15753,10 +15753,10 @@
 			<Text>เรื่องราวยังคงดำเนินต่อไป..</Text>		<!-- Story continues. -->
 		</Replace>
 		<Replace Tag="LOC_ENHANCER_BELIEF_BONUS_9_NAME" Language="th_TH">
-			<Text>Parampara</Text>		<!-- Parampara -->
+			<Text>ปารัมปรา</Text>		<!-- Parampara -->
 		</Replace>
 		<Replace Tag="LOC_ENHANCER_BELIEF_BONUS_10_NAME" Language="th_TH">
-			<Text>Inter Caetera</Text>		<!-- Inter Caetera -->
+			<Text>อินเตอร์ คาเอเตรา</Text>		<!-- Inter Caetera -->
 		</Replace>
 		<Replace Tag="LOC_7067A_COMPLETION" Language="th_TH">
 			<Text>ในฐานะที่เป็นเจ้าของที่ดิน อิเนส ซูอาเรซ เก็บเกี่ยวผลผลิตอย่างมั่งคั่งทั้งสำหรับตนเองและสำหรับสเปน แต่ความไม่สงบยังคงเกิดขึ้นในหมู่แรงงานพื้นเมือง ที่ต้องทำงานหนักเพื่อประโยชน์ของการถือครองที่ดินนี้</Text>		<!-- Now an encomendera, Inés Suárez reaps bountiful harvests for herself and for Spain. Still, unrest stirs among the native laborers, who break their backs for the sake of the encomienda. -->
@@ -15795,34 +15795,34 @@
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_29_NAME" Language="th_TH">
-			<Text>Anitya</Text>		<!-- Anitya -->
+			<Text>อนิจจา</Text>		<!-- Anitya -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_30_NAME" Language="th_TH">
-			<Text>Covenant</Text>		<!-- Covenant -->
+			<Text>พันธสัญญา</Text>		<!-- Covenant -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_33_NAME" Language="th_TH">
-			<Text>Akhlaq</Text>		<!-- Akhlaq -->
+			<Text>อัคลาค</Text>		<!-- Akhlaq -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_34_NAME" Language="th_TH">
-			<Text>Sukha</Text>		<!-- Sukha -->
+			<Text>สุขะ</Text>		<!-- Sukha -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_35_NAME" Language="th_TH">
-			<Text>Barakah</Text>		<!-- Barakah -->
+			<Text>บารากะห์</Text>		<!-- Barakah -->
 		</Replace>
 		<Replace Tag="LOC_FOUNDER_BELIEF_BONUS_13_NAME" Language="th_TH">
-			<Text>Tikkun Olam</Text>		<!-- Tikkun Olam -->
+			<Text>ทิคคุน โอลัม</Text>		<!-- Tikkun Olam -->
 		</Replace>
 		<Replace Tag="LOC_FOUNDER_BELIEF_BONUS_14_NAME" Language="th_TH">
-			<Text>Pushkaram</Text>		<!-- Pushkaram -->
+			<Text>ปุษกรัม</Text>		<!-- Pushkaram -->
 		</Replace>
 		<Replace Tag="LOC_FOUNDER_BELIEF_BONUS_15_NAME" Language="th_TH">
-			<Text>Feed the World</Text>		<!-- Feed the World -->
+			<Text>เลี้ยงดูโลก</Text>		<!-- Feed the World -->
 		</Replace>
 		<Replace Tag="LOC_FOUNDER_BELIEF_BONUS_16_NAME" Language="th_TH">
-			<Text>Chesed</Text>		<!-- Chesed -->
+			<Text>เคเสด</Text>		<!-- Chesed -->
 		</Replace>
 		<Replace Tag="LOC_FOUNDER_BELIEF_BONUS_17_NAME" Language="th_TH">
-			<Text>Salat</Text>		<!-- Salat -->
+			<Text>ซาลาต</Text>		<!-- Salat -->
 		</Replace>
 		<Replace Tag="LOC_1127C_NAME" Language="th_TH">
 			<Text>ความศักดิ์สิทธิ์ที่ยกระดับนั้นอยู่ไกลออกไป และการดึงเคราก็เช่นกัน</Text>		<!-- The transcendent divine is far above us, and so is beard-pulling. -->
@@ -15852,19 +15852,19 @@
 			<Text>วัดเบซากิห์</Text>		<!-- Besakih Temple -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_31_DESCRIPTION" Language="th_TH">
-			<Text>Gain 2 Missionaries when you build a Wonder This belief can be chosen by multiple Civilizations.</Text>		<!-- Gain 2 Missionaries when you build a Wonder This belief can be chosen by multiple Civilizations. -->
+			<Text>ได้รับมิชชันนารี 2 คนเมื่อคุณสร้างสิ่งมหัศจรรย์ ความเชื่อนี้สามารถเลือกได้โดยหลายอารยธรรม</Text>		<!-- Gain 2 Missionaries when you build a Wonder This belief can be chosen by multiple Civilizations. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_32_DESCRIPTION" Language="th_TH">
-			<Text>+1 free War Support against Civilizations who have Founded a Religion.</Text>		<!-- +1 free War Support against Civilizations who have Founded a Religion. -->
+			<Text>+1 สนับสนุนสงครามฟรี กับอารยธรรมที่ก่อตั้งศาสนาแล้ว</Text>		<!-- +1 free War Support against Civilizations who have Founded a Religion. -->
 		</Replace>
 		<Replace Tag="LOC_ENHANCER_BELIEF_BONUS_9_DESCRIPTION" Language="th_TH">
-			<Text>+1 Relic Slot in Science Buildings in Cities.</Text>		<!-- +1 Relic Slot in Science Buildings in Cities. -->
+			<Text>+1 ช่องศาสนวัตถุ ในอาคารวิทยาศาสตร์ในเมือง</Text>		<!-- +1 Relic Slot in Science Buildings in Cities. -->
 		</Replace>
 		<Replace Tag="LOC_ENHANCER_BELIEF_BONUS_10_DESCRIPTION" Language="th_TH">
-			<Text>Treasure Convoys gain +1 Movement and +5 Combat Strength when defending.</Text>		<!-- Treasure Convoys gain +1 Movement and +5 Combat Strength when defending. -->
+			<Text>ขบวนสมบัติได้รับ +1 การเคลื่อนที่ และ +5 พลังต่อสู้เมื่อป้องกัน</Text>		<!-- Treasure Convoys gain +1 Movement and +5 Combat Strength when defending. -->
 		</Replace>
 		<Replace Tag="LOC_ENHANCER_BELIEF_TREASURE_DEFENSE_PREVIEW" Language="th_TH">
-			<Text>+5 Inter Caetera</Text>		<!-- +5 Inter Caetera -->
+			<Text>+5 อินเตอร์ คาเอเตรา</Text>		<!-- +5 Inter Caetera -->
 		</Replace>
 		<Replace Tag="LOC_1435A_COMPLETION" Language="th_TH">
 			<Text>ภูเขาไฟตั้งสูงตระหง่านเหนือที่ราบ มีกลุ่มควันและเถ้าถ่านลอยขึ้นไปในอากาศ</Text>		<!-- The mountain of fire rises high above the plain, a column of smoke and ash rising skyward. -->
@@ -15891,16 +15891,16 @@
 			<Text>{1_reward} มูลค่า 1 คะแนน</Text>		<!-- {1_reward} worth 1 Point. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_29_DESCRIPTION" Language="th_TH">
-			<Text>+2 Relics for the first-time Conversion of a Holy City. This belief can be chosen by multiple Civilizations.</Text>		<!-- +2 Relics for the first-time Conversion of a Holy City. This belief can be chosen by multiple Civilizations. -->
+			<Text>+2 ศาสนวัตถุ สำหรับการเปลี่ยนศาสนาเมืองศักดิ์สิทธิ์ครั้งแรก ความเชื่อนี้สามารถเลือกได้โดยหลายอารยธรรม</Text>		<!-- +2 Relics for the first-time Conversion of a Holy City. This belief can be chosen by multiple Civilizations. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_33_DESCRIPTION" Language="th_TH">
-			<Text>+1 Relic for first-time Conversion of one of your Cities.</Text>		<!-- +1 Relic for first-time Conversion of one of your Cities. -->
+			<Text>+1 ศาสนวัตถุ สำหรับการเปลี่ยนศาสนาเมืองของคุณครั้งแรก</Text>		<!-- +1 Relic for first-time Conversion of one of your Cities. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_34_DESCRIPTION" Language="th_TH">
-			<Text>+2 Relics for first-time Conversion of a Settlement with at least 3 Specialists.</Text>		<!-- +2 Relics for first-time Conversion of a Settlement with at least 3 Specialists. -->
+			<Text>+2 ศาสนวัตถุ สำหรับการเปลี่ยนศาสนาเมืองที่มีผู้เชี่ยวชาญอย่างน้อย 3 คนครั้งแรก</Text>		<!-- +2 Relics for first-time Conversion of a Settlement with at least 3 Specialists. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_35_DESCRIPTION" Language="th_TH">
-			<Text>+2 Relics for first-time Conversion of any Settlement with a Natural Wonder.</Text>		<!-- +2 Relics for first-time Conversion of any Settlement with a Natural Wonder. -->
+			<Text>+2 ศาสนวัตถุ สำหรับการเปลี่ยนศาสนาเมืองที่มีสิ่งมหัศจรรย์ทางธรรมชาติครั้งแรก</Text>		<!-- +2 Relics for first-time Conversion of any Settlement with a Natural Wonder. -->
 		</Replace>
 		<Replace Tag="LOC_9020C_NAME" Language="th_TH">
 			<Text>ใช้หินเพื่อซื้อความนิยมในท้องถิ่น</Text>		<!-- Use the stones to buy local favor. -->
@@ -15939,22 +15939,22 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_30_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:YIELD_SCIENCE] Science, [icon:YIELD_CULTURE] Culture, [icon:YIELD_HAPPINESS] Happiness, [icon:YIELD_DIPLOMACY] Influence, and [icon:YIELD_GOLD] Gold on the Temple in your Holy City. If you retain this belief, this bonus transfers to your Palace in Modern. This belief can be chosen by multiple Civilizations.</Text>		<!-- +3 [icon:YIELD_SCIENCE] Science, [icon:YIELD_CULTURE] Culture, [icon:YIELD_HAPPINESS] Happiness, [icon:YIELD_DIPLOMACY] Influence, and [icon:YIELD_GOLD] Gold on the Temple in your Holy City. If you retain this belief, this bonus transfers to your Palace in Modern. This belief can be chosen by multiple Civilizations. -->
+			<Text>+3 [icon:YIELD_SCIENCE] วิทยาศาสตร์, [icon:YIELD_CULTURE] วัฒนธรรม, [icon:YIELD_HAPPINESS] ความสุข, [icon:YIELD_DIPLOMACY] อิทธิพล, และ [icon:YIELD_GOLD] ทอง บนวัดในเมืองศักดิ์สิทธิ์ของคุณ หากคุณยังคงรักษาความเชื่อนี้ โบนัสนี้จะย้ายไปยังพระราชวังของคุณในยุคสมัยใหม่ ความเชื่อนี้สามารถเลือกได้โดยหลายอารยธรรม</Text>		<!-- +3 [icon:YIELD_SCIENCE] Science, [icon:YIELD_CULTURE] Culture, [icon:YIELD_HAPPINESS] Happiness, [icon:YIELD_DIPLOMACY] Influence, and [icon:YIELD_GOLD] Gold on the Temple in your Holy City. If you retain this belief, this bonus transfers to your Palace in Modern. This belief can be chosen by multiple Civilizations. -->
 		</Replace>
 		<Replace Tag="LOC_FOUNDER_BELIEF_BONUS_13_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_DIPLOMACY] Influence for every foreign Settlement following your Religion. +1 [icon:YIELD_DIPLOMACY]Influence for each of your Settlements following your Religion.</Text>		<!-- +2 [icon:YIELD_DIPLOMACY] Influence for every foreign Settlement following your Religion. +1 [icon:YIELD_DIPLOMACY]Influence for each of your Settlements following your Religion. -->
+			<Text>+2 [icon:YIELD_DIPLOMACY] อิทธิพล สำหรับแต่ละเมืองต่างประเทศที่นับถือศาสนาของคุณ +1 [icon:YIELD_DIPLOMACY] อิทธิพล สำหรับแต่ละเมืองของคุณที่นับถือศาสนาของคุณ</Text>		<!-- +2 [icon:YIELD_DIPLOMACY] Influence for every foreign Settlement following your Religion. +1 [icon:YIELD_DIPLOMACY]Influence for each of your Settlements following your Religion. -->
 		</Replace>
 		<Replace Tag="LOC_FOUNDER_BELIEF_BONUS_14_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_DIPLOMACY] Influence for every Navigable River tile in foreign Settlements following your Religion.</Text>		<!-- +1 [icon:YIELD_DIPLOMACY] Influence for every Navigable River tile in foreign Settlements following your Religion. -->
+			<Text>+1 [icon:YIELD_DIPLOMACY] อิทธิพล สำหรับแต่ละช่องแม่น้ำใหญ่ได้ในเมืองต่างประเทศที่นับถือศาสนาของคุณ</Text>		<!-- +1 [icon:YIELD_DIPLOMACY] Influence for every Navigable River tile in foreign Settlements following your Religion. -->
 		</Replace>
 		<Replace Tag="LOC_FOUNDER_BELIEF_BONUS_15_DESCRIPTION" Language="th_TH">
-			<Text>+6 [icon:YIELD_FOOD] Food in your Settlements following your Religion.</Text>		<!-- +6 [icon:YIELD_FOOD] Food in your Settlements following your Religion. -->
+			<Text>+6 [icon:YIELD_FOOD] อาหาร ในเมืองของคุณที่นับถือศาสนาของคุณ</Text>		<!-- +6 [icon:YIELD_FOOD] Food in your Settlements following your Religion. -->
 		</Replace>
 		<Replace Tag="LOC_FOUNDER_BELIEF_BONUS_16_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_PRODUCTION] Production in your Settlements following your Religion.</Text>		<!-- +4 [icon:YIELD_PRODUCTION] Production in your Settlements following your Religion. -->
+			<Text>+4 [icon:YIELD_PRODUCTION] กำลังผลิต ในเมืองของคุณที่นับถือศาสนาของคุณ</Text>		<!-- +4 [icon:YIELD_PRODUCTION] Production in your Settlements following your Religion. -->
 		</Replace>
 		<Replace Tag="LOC_FOUNDER_BELIEF_BONUS_17_DESCRIPTION" Language="th_TH">
-			<Text>All buildings receive a +1[icon:YIELD_HAPPINESS] Happiness adjacency with the Temple.</Text>		<!-- All buildings receive a +1[icon:YIELD_HAPPINESS] Happiness adjacency with the Temple. -->
+			<Text>อาคารทั้งหมดได้รับ +1 [icon:YIELD_HAPPINESS] ความสุข จากการอยู่ติดกับวัด</Text>		<!-- All buildings receive a +1[icon:YIELD_HAPPINESS] Happiness adjacency with the Temple. -->
 		</Replace>
 		<Replace Tag="LOC_1471B_IMPERATIVE" Language="th_TH">
 			<Text>ตั้งถิ่นฐาน 3 แห่ง, -2 [icon:YIELD_HAPPINESS] ความสุข ในทุก ถิ่นฐาน ขณะที่ภารกิจดำเนินอยู่</Text>		<!-- Found 3 Settlements. -2 [icon:YIELD_HAPPINESS] Happiness in all Settlements while quest is active. -->
@@ -15993,19 +15993,19 @@
 			<Text>ชื่อเสียงของเขาดึงดูดคนอื่นให้มาร่วมสู้</Text>		<!-- His fame draws others to the fight. -->
 		</Replace>
 		<Replace Tag="LOC_FOUNDER_BELIEF_REQUNLOCK_BONUS_13_DESCRIPTION" Language="th_TH">
-			<Text>Have the [B]Tikkun Olam [/B] Belief</Text>		<!-- Have the [B]Tikkun Olam [/B] Belief -->
+			<Text>มีความเชื่อ [B]ทิคคุน โอลัม [/B]</Text>		<!-- Have the [B]Tikkun Olam [/B] Belief -->
 		</Replace>
 		<Replace Tag="LOC_FOUNDER_BELIEF_REQUNLOCK_BONUS_14_DESCRIPTION" Language="th_TH">
-			<Text>Have the [B]Pushkaram [/B] Belief</Text>		<!-- Have the [B]Pushkaram [/B] Belief -->
+			<Text>มีความเชื่อ [B]ปุษกรัม [/B]</Text>		<!-- Have the [B]Pushkaram [/B] Belief -->
 		</Replace>
 		<Replace Tag="LOC_FOUNDER_BELIEF_REQUNLOCK_BONUS_15_DESCRIPTION" Language="th_TH">
-			<Text>Have the [B]Feed the World [/B] Belief</Text>		<!-- Have the [B]Feed the World [/B] Belief -->
+			<Text>มีความเชื่อ [B]เลี้ยงดูโลก [/B]</Text>		<!-- Have the [B]Feed the World [/B] Belief -->
 		</Replace>
 		<Replace Tag="LOC_FOUNDER_BELIEF_REQUNLOCK_BONUS_16_DESCRIPTION" Language="th_TH">
-			<Text>Have the [B]Chesed [/B] Belief</Text>		<!-- Have the [B]Chesed [/B] Belief -->
+			<Text>มีความเชื่อ [B]เคเสด [/B]</Text>		<!-- Have the [B]Chesed [/B] Belief -->
 		</Replace>
 		<Replace Tag="LOC_FOUNDER_BELIEF_REQUNLOCK_BONUS_17_DESCRIPTION" Language="th_TH">
-			<Text>Have the [B]Salat [/B] Belief</Text>		<!-- Have the [B]Salat [/B] Belief -->
+			<Text>มีความเชื่อ [B]ซาลาต [/B]</Text>		<!-- Have the [B]Salat [/B] Belief -->
 		</Replace>
 		<Replace Tag="LOC_1479B_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
@@ -16329,7 +16329,7 @@
 			<Text>น้ำศักดิ์สิทธิ์</Text>		<!-- Holy Waters -->
 		</Replace>
 		<Replace Tag="LOC_MOD_TECH_EX_NAVAL_AUTO_EXPLORE_DESCRIPTION" Language="th_TH">
-			<Text>All Tier 2 and Tier 3 Naval Units can use the Automate Exploration Action.</Text>		<!-- All Tier 2 and Tier 3 Naval Units can use the Automate Exploration Action. -->
+			<Text>หน่วยเรือระดับ 2 และ 3 ทั้งหมดสามารถใช้คำสั่งสำรวจอัตโนมัติได้</Text>		<!-- All Tier 2 and Tier 3 Naval Units can use the Automate Exploration Action. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_27_NAME" Language="th_TH">
 			<Text>ฝูงสัตว์ศักดิ์สิทธิ์</Text>		<!-- Sacred Herds -->
@@ -16521,7 +16521,7 @@
 			<Text>+20% [icon:YIELD_GOLD] ทอง สำหรับการซื้อสิ่งก่อสร้าง</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_QUEST_SELECTION_BODY_NO_ADVISORS" Language="th_TH">
-			<Text>(Legacy Paths are currently disabled. If you enable them, your Advisors will be at your service to guide you on the path of your choice.)</Text>		<!-- (Legacy Paths are currently disabled. If you enable them, your Advisors will be at your service to guide you on the path of your choice.) -->
+			<Text>(เส้นทางมรดกถูกปิดใช้งานในขณะนี้ หากคุณเปิดใช้งาน ที่ปรึกษาของคุณจะพร้อมให้บริการเพื่อแนะนำคุณในเส้นทางที่เลือก.)</Text>		<!-- (Legacy Paths are currently disabled. If you enable them, your Advisors will be at your service to guide you on the path of your choice.) -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_GOLD_DISTANT_LANDS_TOOLTIP" Language="th_TH">
 			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้ออาคาร</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings -->
