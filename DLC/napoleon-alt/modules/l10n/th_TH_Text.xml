@@ -95,17 +95,14 @@
 			<Text>นโปเลียน, นักปฏิวัติ</Text>		<!-- Napoleon, Revolutionary -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_NAPOLEON_ALT_DESCRIPTION" Language="th_TH">
-			<Text>การเคลื่อนไหว +1 สำหรับยูนิตบนบกทั้งหมด การเอาชนะยูนิตศัตรูจะให้ [icon:YIELD_CULTURE] วัฒนธรรมเท่ากับ 50% ของพลังต่อสู้ของยูนิตนั้น</Text>		<!-- +1 Movement for all Land Units. Defeating an enemy Unit provides [icon:YIELD_CULTURE] Culture equal to 50% of its Combat Strength. -->
-		</Replace>
+			<Text>+1 [icon:Action_Move] แต้มเคลื่อนไหว สำหรับยูนิตบนบกทั้งหมด การเอาชนะยูนิตศัตรูจะให้ [icon:YIELD_CULTURE] วัฒนธรรมเท่ากับ 50% ของ [icon:NAR_REW_COMBAT] พลังต่อสู้ของยูนิตนั้น</Text>		<!-- +1 [icon:Action_Move] Movement for all Land Units. Defeating an enemy Unit provides [icon:YIELD_CULTURE] Culture equal to 50% of its [icon:NAR_REW_COMBAT] Combat Strength. --></Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NAPOLEON_ALT_ABILITY_NAME" Language="th_TH">
 			<Text>ลา กร็องด์ อาร์เม่</Text>		<!-- La Grande Armée -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NAPOLEON_ALT_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+1 แต้มเคลื่อนที่ [/B]สำหรับ [B]ยูนิตบนบก[/B]ทั้งหมด[LI]การเอาชนะยูนิตศัตรูจะให้ [icon:YIELD_CULTURE] [B]วัฒนธรรม [/B]เท่ากับ [B]50% [/B]ของ [B]พลังการรบ[/B]ของมัน[/LIST]</Text>		<!-- [LIST][LI][B]+1 Movement [/B]for all [B]Land Units[/B].[LI]Defeating an enemy Unit provides [icon:YIELD_CULTURE] [B]Culture [/B]equal to [B]50% [/B]of its [B]Combat Strength[/B].[/LIST] -->
-		</Replace>
+			<Text>[BLIST][LI][B]+1 [icon:Action_Move] แต้มเคลื่อนที่ [/B]สำหรับ [B]ยูนิตบนบก[/B]ทั้งหมด[LI]การเอาชนะยูนิตศัตรูจะให้ [icon:YIELD_CULTURE] [B]วัฒนธรรม [/B]เท่ากับ [B]50% [/B]ของ [B][icon:NAR_REW_COMBAT] พลังต่อสู้[/B]ของมัน[/BLIST]</Text>		<!-- [BLIST][LI][B]+1 [icon:Action_Move] Movement [/B]for all [B]Land Units[/B].[LI]Defeating an enemy Unit provides [icon:YIELD_CULTURE] [B]Culture [/B]equal to [B]50% [/B]of its [icon:NAR_REW_COMBAT] [B]Combat Strength[/B].[/LIST] --></Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_NAPOLEON_ALT" Language="th_TH">
-			<Text>นโปเลียน โบนาปาร์ต ยังเป็นหนึ่งในผู้นำที่มีชื่อเสียงที่สุดในประวัติศาสตร์ เกิดในเกาะคอร์ซิกา เขาได้ขึ้นสู่อำนาจในกองทัพฝรั่งเศสอย่างรวดเร็วและสำเร็จรัฐประหารที่ทำให้เขากลายเป็นกงสุลใหญ่ของฝรั่งเศสในปี 1799 สี่ปีต่อมา เขาสวมมงกุฎเป็นจักรพรรดิแห่งฝรั่งเศสและได้จัดตั้งระบบคอนติเนนทอล ซึ่งมีจุดประสงค์เพื่อฟื้นฟูฝรั่งเศสและทำให้อริศัตรูอ่อนแอลง การครองราชย์ของเขาได้ถูกนิยามด้วยการปฏิรูปพลเมืองที่สำคัญและสงครามที่เกิดขึ้นทั่วทวีปยุโรปตั้งแต่ประเทศสเปนถึงประเทศรัสเซีย</Text>		<!-- Napoleon Bonaparte remains one of history’s most infamous leaders. Born in Corsica, his rapid rise through the French army culminated in a coup that made him France’s First Consul in 1799. Four years later, he crowned himself Emperor of the French and established the Continental System, meant to revitalize France and weaken its enemies. His reign was defined by major civic reforms and wars that raged across Europe from Spain to Russia. -->
-		</Replace>
+			<Text>นโปเลียน โบนาปาร์ต ชื่อของท่านเป็นสัญลักษณ์แห่งความทะเยอทะยานและความกล้าหาญ ในความโกลาหลของการปฏิวัติ ท่านนำความสงบ—ความสงบที่จัดระเบียบและบังคับใช้ด้วยมือของท่านเอง จงนำสัญชาตญาณยุทธศาสตร์อันเฉียบคมและแรงขับเคลื่อนที่หยุดไม่ได้ของท่านมาพลิกผันโลก และทำให้มั่นใจว่าเมื่อควันสงครามจางหาย ท่านยังคงยืนหยัดอยู่</Text>		<!-- Napoleon Bonaparte, your name is synonymous with ambition - and audacity. In the chaos of revolution, you bring order - your order, arranged and enacted by your hand. Bring your keen strategic senses and unstoppable drive to overturn the world and ensure that, when the smoke clears, you remain. --></Replace>
 		<Replace Tag="LOC_MEMENTO_NAPOLEON_REVOLUTIONARY_ARTILLERYMAN_GLOVES_NAME" Language="th_TH">
 			<Text>ถุงมือของทหารปืนใหญ่</Text>		<!-- Artilleryman's Gloves -->
 		</Replace>

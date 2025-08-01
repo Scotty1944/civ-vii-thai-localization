@@ -173,11 +173,9 @@
 			<Text>ราชวงศ์ครุม</Text>		<!-- Krum's Dynasty -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_BULGARIA_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ [icon:YIELD_FOOD] อาหาร ให้กับทุกเมือง เมื่อพวกเขาปล้นพื้นที่พัฒนา เท่ากับ 50% ของผลผลิตหรือ HP ที่ได้รับ, ยูนิตต่อสู้ทั้งหมดได้รับ -3 พลังต่อสู้ ต่อเขตที่มีกำแพงยุคกลาง</Text>		<!-- Receive [icon:YIELD_FOOD] Food to all Towns when pillaging Improvements equal to 50% of the yield or HP gained. All Combat units receive -3 Combat Strength against Districts with Medieval Walls. -->
-		</Replace>
+			<Text>ได้รับ [icon:YIELD_PRODUCTION] กำลังผลิต ในทุกเมืองใหญ่ เมื่อพวกเขาปล้นอาคาร เท่ากับ 50% ของผลผลิตหรือ HP ที่ได้รับ, ยูนิตต่อสู้ทั้งหมดได้รับ -3 พลังต่อสู้ ต่อเขตที่มีกำแพงยุคกลาง</Text>		<!-- Receive [icon:YIELD_PRODUCTION] Production in all Cities when pillaging Buildings equal to 50% of the yield or HP gained. All Combat units receive -3 Combat Strength against Districts with Medieval Walls. --></Replace>
 		<Replace Tag="LOC_TRAIT_BULGARIA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]รับ [B][icon:YIELD_FOOD] อาหาร [/B]จาก [B]เมือง [/B]ทั้งหมดเมื่อการโจมตีปรับปรุงมีจำนวนเท่ากับ [B]50% ของผลผลิตหรือ HP ที่ได้รับ[/B][LI]หน่วยรบทั้งหมดได้รับ [B]-3 ความแข็งแกร่งในการต่อสู้[/B]ต่อเขตที่มีกำแพงยุคกลาง[LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]ริล่า มอนาสเตอรี[/B][/LIST]</Text>		<!-- [LIST][LI]Receive [B][icon:YIELD_FOOD] Food [/B] to all [B]Towns [/B]when pillaging Improvements equal to [B]50% of the yield or HP gained[/B].[LI]All Combat units receive [B]-3 Combat Strength[/B] against Districts with Medieval Walls.[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Rila Monastery[/B].[/LIST] -->
-		</Replace>
+			<Text>[BLIST][LI]ได้รับ [B][icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในทุก [B]เมืองใหญ่ [/B]ทั้งหมดเมื่อปล้นอาคาร เท่ากับ [B]50% ของผลผลิตหรือ HP ที่ได้รับ[/B][LI]หน่วยรบทั้งหมดได้รับ [B]-3 ความแข็งแกร่งในการต่อสู้[/B]ต่อเขตที่มีกำแพงยุคกลาง[LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]ริล่า มอนาสเตอรี[/B][/BLIST]</Text>		<!-- [BLIST][LI]Receive [B][icon:YIELD_PRODUCTION] Production [/B] in all [B]Cities [/B]when pillaging Buildings equal to [B]50% of the yield or HP gained[/B].[LI]All Combat units receive [B]-3 Combat Strength[/B] against Districts with Medieval Walls.[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Rila Monastery[/B].[/LIST] --></Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_BULGARIA_DESCRIPTION" Language="th_TH">
 			<Text>+30% กำลังผลิต จาก สิ่งมหัศจรรย์พิเศษ ของบัลแกเรีย</Text>		<!-- +30% Production from being the Bulgaria's unique wonder. -->
 		</Replace>
@@ -359,8 +357,7 @@
 			<Text>การถอยทัพหลอก</Text>		<!-- False Retreat -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_FALSE_RETREAT_DESCRIPTION" Language="th_TH">
-			<Text>รับ [icon:YIELD_PRODUCTION] กำลังผลิต ในทุกเมืองเมื่อปล้นสะดมอาคารที่เท่ากับ 50% ของผลผลิตหรือ HP ที่ได้รับ ทุกหน่วยต่อสู้จะได้รับ -3 พลังต่อสู้ ต่อเขตป้อมปราการ</Text>		<!-- Receive [icon:YIELD_PRODUCTION] Production in all Cities when pillaging Buildings equal to 50% of the yield or HP gained. All Combat units receive -3 Combat Strength against Fortified Districts. -->
-		</Replace>
+			<Text>ได้รับ [icon:YIELD_FOOD] อาหาร ไปยังทุกเมือง เมื่อปล้นพื้นที่พัฒนา เท่ากับ 50% ของผลผลิตหรือ HP ที่ได้รับ ทุกหน่วยต่อสู้จะได้รับ -3 พลังต่อสู้ ต่อเขตป้อมปราการ</Text>		<!-- Receive [icon:YIELD_FOOD] Food to all Towns when pillaging Improvements equal to 50% of the yield or HP gained. All Combat units receive -3 Combat Strength against Fortified Districts. --></Replace>
 		<Replace Tag="LOC_TRADITION_FALSE_RETREAT_PREVIEW" Language="th_TH">
 			<Text>{1_CombatAmount} จาก การถอยทัพหลอก</Text>		<!-- {1_CombatAmount} from False Retreat -->
 		</Replace>
@@ -377,8 +374,7 @@
 			<Text>+50% ผลตอบแทนและ HP จากการปล้นสะดม</Text>		<!-- +50% yields and HP from pillaging. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_BULGARIA" Language="th_TH">
-			<Text>ในศตวรรษที่เจ็ด บัลการ์ข้ามแม่น้ำดานูบและทำให้บอลข่านเป็นของตน ศัตรูของพวกเขาใช้ภูเขาเป็นข้อได้เปรียบ กระจายกองทัพขนาดใหญ่ออกไปด้วยทักษะและกลยุทธ์ จักรวรรดิบัลแกเรียแรกดำเนินไปด้วยการพิชิต การขยายตัว และการเจริญเติบโตของการค้า จักรวรรดิที่สองเห็นการเพิ่มขึ้นของศิลปะ วรรณกรรม และสถาปัตยกรรมควบคู่ไปกับจิตวิญญาณและประเพณีทางอาราม ทั้งหมดพังทลายเมื่อออตโตมันเข้ามาโจมตี</Text>		<!-- In the seventh century, the Bulgars crossed the Danube and made the Balkans their own. Their warriors used the mountains to their advantage, scattering larger armies through skill and stratagems. The First Bulgarian Empire ran on conquest, expansion, and the growth of trade. The Second Empire saw the rise of art, literature, and architecture alongside spirituality and monastic traditions. All came crashing down when the Ottomans invaded. -->
-		</Replace>
+			<Text>บนยอดเขาสูงสุด พระสงฆ์ส่งคำอธิษฐานขึ้นฟ้า และบนทุ่งราบเบื้องล่าง แตรสงครามส่งเสียงก้อง บัลแกเรียออกขี่ขี่ม้า พร้อมดาบที่นำทางด้วยศรัทธา และศรัทธาที่แข็งแกร่งกว่าตะกั่ว จงเป่านกหวีดสงครามและยกดาบปลายปืน อาร์คานี และหอกยาว ปล่อยบัลการ์ออกไปทั่วโลก</Text>		<!-- Atop the high peaks, the monks send their prayers skyward, and on the plains below, the trumpet sounds. Bulgaria rides, with swords guided by faith and faith stronger than steel. Raise the war-horn and the saber, the arkani and the long spear, and set the Bulgars loose upon the world. --></Replace>
 		<Replace Tag="LOC_LOADING_INTRO_BULGARIA" Language="th_TH">
 			<Text>ขณะที่นักขี่ม้าขยี้มังกร, บัลแกเรียจะยึดครองโลก</Text>		<!-- As the horseman tramples the dragon, Bulgaria shall overrun the earth. -->
 		</Replace>
@@ -641,11 +637,9 @@
 			<Text>ทาร์คาน</Text>		<!-- Tarkhan -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_BALIK_DESCRIPTION" Language="th_TH">
-			<Text>ผู้บัญชาการกองทัพพิเศษ ของบัลแกเรีย, เร็วขึ้น ยูนิตในรัศมีบัญชาการ สามารถปล้นได้โดยไม่เสียแต้มเคลื่อนที่</Text>		<!-- Bulgarian Unique Army Commander. Faster. Units in its command radius can pillage for no movement cost. -->
-		</Replace>
+			<Text>ผู้บัญชาการกองทัพพิเศษ ของบัลแกเรีย, มีแต้มเคลื่อนที่ 3 แต้ม, ยูนิตในรัศมีบัญชาการ สามารถปล้นได้โดยใช้ 1 แต้มเคลื่อนที่</Text>		<!-- Bulgarian Unique Army Commander. Has 3 Movement. Units in its command radius can pillage for 1 Movement. --></Replace>
 		<Replace Tag="LOC_UNLOCK_ALTARS_DESCRIPTION" Language="th_TH">
-			<Text>มีสาม [B]แท่นบูชา[/B]</Text>		<!-- Have three [B]Altars[/B] -->
-		</Replace>
+			<Text>มีสาม [B]แท่นบูชา[/B]</Text>		<!-- Have three [B]Altars[/B]. --></Replace>
 		<Replace Tag="LOC_UNLOCK_ALTARS_BULGARIA_TOOLTIP" Language="th_TH">
 			<Text>[B]แท่นบูชา[/B] เป็นส่วนสำคัญของอัตลักษณ์ของ [B]บัลแกเรีย[/B]</Text>		<!-- [B]Altars[/B] were an important part of [B]Bulgaria's[/B] identity. -->
 		</Replace>

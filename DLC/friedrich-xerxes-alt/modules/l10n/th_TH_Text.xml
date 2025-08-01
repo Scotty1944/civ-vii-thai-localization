@@ -56,8 +56,7 @@
 			<Text>ปลดล็อกตำนาน +15%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้างอาคารและสิ่งมหัศจรรย์ ที่มีช่อง ผลงานชิ้นเอก</Text>		<!-- Legend Unlock. +15% [icon:YIELD_PRODUCTION]Production towards constructing Buildings and Wonders with Great Works slots. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_XERXES_ALT_L2_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อคตำนาน[n]+25% [icon:YIELD_GOLD] ทองจาก การค้า และกองเรือบรรทุกสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD]Gold from Trade and Treasure Fleets. -->
-		</Replace>
+			<Text>ปลดล็อคตำนาน[n]+25% [icon:YIELD_GOLD] ทองจาก การค้า และขบวนบรรทุกสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD]Gold from Trade and Treasure Convoys. --></Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_FRIEDRICH_ALT_L2_DESCRIPTION" Language="th_TH">
 			<Text>ปลดล็อคตำนาน, +5 พลังต่อสู้ สำหรับยูนิตทั้งหมดต่อเขต</Text>		<!-- Legend Unlock. +5 Combat Strength for all Units against Districts. -->
 		</Replace>
@@ -203,14 +202,12 @@
 			<Text>ฟรีดริช, บาโรก</Text>		<!-- Friedrich, Baroque -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_FRIEDRICH_ALT_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับผลงานชิ้นเอกเมื่อคุณยึดถิ่นฐานได้เป็นครั้งแรก ได้รับยูนิตทหารราบเมื่อคุณสร้างอาคารวัฒนธรรม</Text>		<!-- Gain a Great Work when you capture a Settlement for the first time. Gain an Infantry Unit when you construct a Culture Building. -->
-		</Replace>
+			<Text>ได้รับ [icon:NAR_REW_GREATWORK] ผลงานชิ้นเอก เมื่อยึดถิ่นฐานได้เป็นครั้งแรก, +1 [icon:YIELD_CULTURE] วัฒนธรรม ต่อยุค จากผลงานชิ้นเอกที่แสดงอยู่, ได้รับ ยูนิตทหารราบ เมื่อทำ [icon:RADIAL_CIVICS] ความชำนาญด้านการปกครองสำเร็จ หรือสร้าง [icon:YIELD_CULTURE] อาคารวัฒนธรรม</Text>		<!-- Gain a [icon:NAR_REW_GREATWORK] Great Work when you capture a Settlement for the first time. +1 [icon:YIELD_CULTURE] Culture per Age on displayed [icon:NAR_REW_GREATWORK] Great Works. Gain an Infantry Unit when you complete a [icon:RADIAL_CIVICS] Civic Mastery or construct a [icon:YIELD_CULTURE] Culture Building. --></Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_FRIEDRICH_ALT_ABILITY_NAME" Language="th_TH">
 			<Text>โฮเฮนฟรีดแบร์เกอร์ มาร์ช</Text>		<!-- Hohenfriedberger Marsch -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_FRIEDRICH_ALT_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]ได้รับ [B]ผลงานชิ้นเอก [/B]เมื่อคุณยึดถิ่นฐานได้เป็นครั้งแรก[LI]ได้รับ [B]ยูนิตทหารราบ [/B]เมื่อคุณสร้าง [B]อาคารวัฒนธรรม[/B][/LIST]</Text>		<!-- [LIST][LI]Gain a [B]Great Work [/B]when you capture a Settlement for the first time.[LI]Gain an [B]Infantry Unit [/B]when you construct a [B]Culture Building[/B].[/LIST] -->
-		</Replace>
+			<Text>[BLIST][LI]ได้รับ [icon:NAR_REW_GREATWORK] [B]ผลงานชิ้นเอก[/B] เมื่อยึดถิ่นฐานได้เป็นครั้งแรก[LI][B]+1 [icon:YIELD_CULTURE] วัฒนธรรม [/B]ต่อยุคจาก [icon:NAR_REW_GREATWORK] [B]ผลงานชิ้นเอก[/B] ที่แสดงอยู่[LI]ได้รับ [B]ยูนิตทหารราบ[/B] เมื่อทำ [icon:RADIAL_CIVICS] [B]แนวคิด ระดับเชี่ยวชาญ[/B] สำเร็จ หรือสร้าง [icon:YIELD_CULTURE] [B]อาคารด้านวัฒนธรรม[/B][/LIST]</Text>		<!-- [BLIST][LI]Gain a [icon:NAR_REW_GREATWORK] [B]Great Work [/B]when you capture a Settlement for the first time.[LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]per Age on displayed [icon:NAR_REW_GREATWORK] [B]Great Works[/B].[LI]Gain an [B]Infantry Unit [/B]when you complete a [icon:RADIAL_CIVICS] [B]Civic Mastery[/B] or construct a [icon:YIELD_CULTURE] [B]Culture Building[/B].[/LIST] --></Replace>
 		<Replace Tag="LOC_LEADER_XERXES_ALT_NAME" Language="th_TH">
 			<Text>เซิร์กซีส, อาคีเมนิด</Text>		<!-- Xerxes, the Achaemenid -->
 		</Replace>
@@ -221,14 +218,11 @@
 			<Text>เส้นทางสายไหม</Text>		<!-- Silk Road -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_XERXES_ALT_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+1 เส้นทางการค้า [/B]จำกัดกับผู้นำคนอื่นทั้งหมด[LI]ได้รับ [B]50 [icon:YIELD_CULTURE] วัฒนธรรม [/B]และ [B]100 [icon:YIELD_GOLD] ทอง [/B]ต่อยุคเมื่อคุณสร้าง [B]เส้นทางการค้า [/B]หรือ [B]ถนน[/B][LI][B]+1 [icon:YIELD_CULTURE] วัฒนธรรม [/B]และ [icon:YIELD_GOLD] [B]ทอง [/B]ต่อยุคสำหรับ [B]อาคารเฉพาะ [/B]และ [B]การปรับปรุง[/B][/LIST]</Text>		<!-- [LIST][LI][B]+1 Trade Route [/B]limit with all other Leaders.[LI]Gain [B]50 [icon:YIELD_CULTURE] Culture [/B]and [B]100[icon:YIELD_GOLD] Gold [/B]per Age when you create a [B]Trade Route [/B]or [B]Road[/B].[LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]and [icon:YIELD_GOLD] [B]Gold [/B]per Age on [B]Unique Buildings [/B]and [B]Improvements[/B].[/LIST] -->
-		</Replace>
+			<Text>[BLIST][LI][B]+1 [icon:TRADE_ROUTE] ขีดจำกัดเส้นทางการค้า [/B]กับผู้นำทุกคน[LI][B]+10 [/B]ระยะทางการค้า[LI]ได้รับ [B]50 [icon:YIELD_CULTURE] วัฒนธรรม [/B]และ [B]100 [icon:YIELD_GOLD] ทอง [/B]ต่อยุคเมื่อสร้าง [B]เส้นทางการค้า [/B]หรือ [B]ถนน[/B].[LI][B]+1 [icon:YIELD_CULTURE] วัฒนธรรม [/B]และ [icon:YIELD_GOLD] [B]ทอง [/B]ต่อยุคจาก [B]อาคารเฉพาะตัว [/B]และ [B]สิ่งปลูกสร้าง[/B].[/LIST]</Text>		<!-- [BLIST][LI][B]+1 [icon:TRADE_ROUTE] Trade Route [/B]limit with all other Leaders.[LI][B]+10 [/B]Trade Range.[LI]Gain [B]50 [icon:YIELD_CULTURE] Culture [/B]and [B]100 [icon:YIELD_GOLD] Gold [/B]per Age when you create a [B]Trade Route [/B]or [B]Road[/B].[LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]and [icon:YIELD_GOLD] [B]Gold [/B]per Age on [B]Unique Buildings [/B]and [B]Improvements[/B].[/LIST] --></Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_FRIEDRICH_ALT" Language="th_TH">
-			<Text>การขึ้นสู่อำนาจของ ฟรีดริชมหาราช ในปรัสเซียที่มีการทหารดูเหมือนจะขัดแย้งในตอนแรก เขามีแนวโน้มไปทางทฤษฎีกองทัพ และมีรสนิยมในการรุกรานของปรัสเซีย อย่างไรก็ตามตั้งแต่ยังเยาว์วัย ฟรีดริชได้รับแรงดึงดูดจากศิลปะและวรรณกรรม เขาได้เขียนปรัชญา แต่งเพลง และจัดงานให้กับศิลปิน และนักปัญญาชนชั้นนำในสมัยนั้น แต่เขาไม่เคยลืมสนามรบ และสามารถสร้างสมดุลระหว่างด้านสร้างสรรค์ของเขา กับความเข้มงวดเชิงตรรกะที่จำเป็นสำหรับ ผู้นำทางทหาร</Text>		<!-- Friedrich the Great’s rise to power in militarized Prussia at first seems contradictory. He had a proclivity for military theory and a taste for Prussian aggression. Yet from youth, Friedrich was drawn to art and literature. He wrote philosophy, composed music, and hosted the leading artists and intellectuals of the day. But he never lost sight of the battlefield, balancing his creative side with the logical rigor requisite for a military leader. -->
-		</Replace>
+			<Text>แม้จะรักโรงโอเปร่ามากกว่าทุ่งสงคราม แต่กลับเป็นในเปลวเพลิงของปืนใหญ่ที่ท่านเปล่งประกาย แทนที่คันชักไวโอลินคือแนวรบ แทนที่ทิมปานีคือเสียงคำรามของปืนใหญ่ และแตรทองเหลืองบัดนี้ส่งเสียงเรียกกระสุนเหล็ก จงหันความคิดสู่ศิลปะแห่งสงคราม ฟรีดริช — วงออร์เคสตราของท่านรอสัญญาณเริ่มบรรเลงอยู่แล้ว</Text>		<!-- Though a lover of the opera house more than the battlefield, it is in the cannon’s fire that you shine. The line of attack replaces the violin’s bow, the roll of cannon stands in for the timpani, and the brass horn now calls forth iron shot. Bend your mind towards the artistry of war, Friedrich - your orchestra awaits your signal. --></Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_XERXES_ALT" Language="th_TH">
-			<Text>เซิร์กซีสที่ 1 สืบทอดจักรวรรดิอาคีเมนิดในช่วงวิกฤตและนำมันไปสู่ความยิ่งใหญ่ หลังจากการรบหลายครั้งทั้งในประเทศและต่างประเทศ เซิร์กซีสได้เปลี่ยนความสนใจจากการขยายตัวเป็นการเพิ่มพูน เขาได้มอบสมบัติของเขาในการดูแลถนน การจัดตั้งระบบไปรษณีย์ที่กว้างขวาง และการสร้างพระราชวังที่เปอร์เซโปลิส ทั้งอนุสาวรีย์และวรรณกรรมต่างบอกเล่าถึงความกลัวที่เขากระตุ้นในศัตรูของเขาและชัยชนะที่เขามอบให้กับประชาชนของเขา</Text>		<!-- Xerxes I inherited the Achaemenid Empire at a time of crisis and guided it to greatness. After a series of military campaigns at home and abroad, Xerxes shifted his attention from expansion to enrichment. He devoted his treasury to maintaining roads, establishing an extensive mail system, and completing a palace at Persepolis. Monuments and literature alike speak to the fear he provoked in his enemies and the triumph he bestowed on his people. -->
-		</Replace>
+			<Text>ชาห์เหนือชาห์ ผู้ทรงนำไฟแห่งความทะเยอทะยานมาสู่โลก แสงของมันส่องประกายแวววาวบนทองคำในท้องพระโรง — และบนคมดาบสำริดของนักรบของท่าน ท่านได้วาดฝันถึงโลกใหม่ ดินแดนแห่งสิ่งมหัศจรรย์ที่ผุดขึ้นจากป่ารกร้าง จักรวรรดิที่ท้าทายกาลเวลา และจักรวรรดิที่จะไม่มีวันลืมนามของท่าน — เซอร์ซีส</Text>		<!-- Shah of shahs, you bring the fire of ambition to the world. Its light glitters off of the gold in your throne room - and the bronze blades of your warriors. You conceive of a new world, one of wonders rising from the wilderness, of an empire that defies time, and one that will never forget your name - Xerxes. --></Replace>
 		<Replace Tag="LOC_MEMENTO_FRIEDRICH_BAROQUE_FLUTE_NAME" Language="th_TH">
 			<Text>ขลุ่ย</Text>		<!-- Flute -->
 		</Replace>
@@ -1283,8 +1277,7 @@
 			<Text>อาณาจักรของเซอร์เซสขยายออกไปทั่วโลก เมื่อดินแดนของเขาเติบโตขึ้น ทรัพย์สมบัติของเขาก็เพิ่มขึ้นตามไปด้วย</Text>		<!-- Xerxes' empire spreads across the hemispheres. As his territory grows, so too does his treasury. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1187C_IMPERATIVE" Language="th_TH">
-			<Text>มี 8 คะแนนในเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว</Text>		<!-- Have 8 Points in the Non Sufficit Orbis Legacy Path. -->
-		</Replace>
+			<Text>ยึดครองถิ่นฐาน</Text>		<!-- Capture a Settlement. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1078E_STORYTITLE" Language="th_TH">
 			<Text>ซิมโฟนีแห่งปืน</Text>		<!-- A Symphony of Guns -->
 		</Replace>
@@ -1533,8 +1526,7 @@
 			<Text>โหนดคุณลักษณะทางเศรษฐกิจ</Text>		<!-- Economic Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_XERXES_ACHAEMENID_L2_DESCRIPTION" Language="th_TH">
-			<Text>+25% ทอง จากการค้า และ กองเรือบรรทุกสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Fleets. -->
-		</Replace>
+			<Text>+25% ทอง จากการค้า และ ขบวนบรรทุกสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Convoys. --></Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_FRIEDRICH_ALT_DESCRIPTION" Language="th_TH">
 			<Text>เล่นเป็น [B]ฟรีดริช, บาโรก[/B]</Text>		<!-- Play as [B]Friedrich, Baroque[/B]. -->
 		</Replace>

@@ -77,14 +77,12 @@
 			<Text>เอดา เลิฟเลซ</Text>		<!-- Ada Lovelace -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_ADA_LOVELACE_DESCRIPTION" Language="th_TH">
-			<Text>เมืองจะได้รับ +2 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุคเมื่อคุณทำ แนวคิด ระดับเชี่ยวชาญ สำเร็จ นี่จะถูกรีเซ็ตเมื่อเริ่มต้นยุคใหม่ รับ [icon:YIELD_CULTURE] วัฒนธรรมเท่ากับ 50% ของ [icon:YIELD_SCIENCE] วิทยาศาสตร์ ทั้งหมดของคุณต่อเทิร์นเมื่อคุณทำ เทคโนโลยี ระดับเชี่ยวชาญ สำเร็จ</Text>		<!-- Cities receive +2 [icon:YIELD_SCIENCE] Science per Age when you complete a Civic Mastery. This resets at the start of each age. Gain [icon:YIELD_CULTURE] Culture equal to 50% of your total [icon:YIELD_SCIENCE] Science per turn when you complete a Technology Mastery. -->
-		</Replace>
+			<Text>[icon:YIELD_CITIES] เมืองใหญ่จะได้รับ +2 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุคเมื่อคุณทำ [icon:RADIAL_CIVICS]แนวคิด ระดับเชี่ยวชาญ สำเร็จ นี่จะถูกรีเซ็ตเมื่อเริ่มต้นยุคใหม่ รับ [icon:YIELD_CULTURE] วัฒนธรรมเท่ากับ 50% ของ [icon:YIELD_SCIENCE] วิทยาศาสตร์ ทั้งหมดของคุณต่อเทิร์นเมื่อคุณทำ [icon:RADIAL_TECH] เทคโนโลยี ระดับเชี่ยวชาญ สำเร็จ</Text>		<!-- [icon:YIELD_CITIES] Cities receive +2 [icon:YIELD_SCIENCE] Science per Age when you complete a [icon:RADIAL_CIVICS] Civic Mastery. This resets at the start of each Age. Gain [icon:YIELD_CULTURE] Culture equal to 50% of your total [icon:YIELD_SCIENCE] Science per turn when you complete a [icon:RADIAL_TECH] Technology Mastery. --></Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ADA_LOVELACE_ABILITY_NAME" Language="th_TH">
 			<Text>แม่มดแห่งตัวเลข</Text>		<!-- Enchantress of Number -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ADA_LOVELACE_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]เมืองจะได้รับ [B]+2[icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] ต่อยุคเมื่อคุณทำ [B]แนวคิด ระดับเชี่ยวชาญ[/B] สำเร็จ ซึ่งจะรีเซ็ตในตอนเริ่มต้นของแต่ละยุค [LI]รับ [B][icon:YIELD_CULTURE] วัฒนธรรม[/B] เท่ากับ 50% ของ [B][icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] รวมทั้งหมดของคุณต่อเทิร์นเมื่อคุณทำ [B]เทคโนโลยี ระดับเชี่ยวชาญ[/B] สำเร็จ[/LIST]</Text>		<!-- [LIST][LI]Cities receive [B]+2[icon:YIELD_SCIENCE] Science [/B] per Age when you complete a [B]Civic Mastery[/B]. This resets at the start of each age. [LI]Gain [B][icon:YIELD_CULTURE] Culture[/B] equal to 50% of your total [B][icon:YIELD_SCIENCE] Science[/B] per turn when you complete a [B]Technology Mastery[/B].[/LIST] -->
-		</Replace>
+			<Text>[BLIST][LI][icon:YIELD_CITIES] เมืองใหญ่จะได้รับ [B]+2[icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] ต่อยุคเมื่อคุณทำ [B][icon:RADIAL_CIVICS] แนวคิด ระดับเชี่ยวชาญ[/B] สำเร็จ ซึ่งจะรีเซ็ตในตอนเริ่มต้นของแต่ละยุค [LI]รับ [B][icon:YIELD_CULTURE] วัฒนธรรม[/B] เท่ากับ 50% ของ [B][icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] รวมทั้งหมดของคุณต่อเทิร์นเมื่อคุณทำ [B][icon:RADIAL_TECH] เทคโนโลยี ระดับเชี่ยวชาญ[/B] สำเร็จ[/BLIST]</Text>		<!-- [BLIST][LI][icon:YIELD_CITIES] [B]Cities [/B]receive [B]+2[icon:YIELD_SCIENCE] Science [/B]per Age when you complete a [icon:RADIAL_CIVICS] [B]Civic Mastery[/B]. This resets at the start of each Age. [LI]Gain [B][icon:YIELD_CULTURE] Culture [/B]equal to 50% of your total [B][icon:YIELD_SCIENCE] Science [/B]per turn when you complete a [icon:RADIAL_TECH] [B]Technology Mastery[/B].[/LIST] --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_AGENDA_ANALYTICAL_ENGINE_NAME" Language="th_TH">
 			<Text>เครื่องจักรวิเคราะห์</Text>		<!-- Analytical Engine -->
 		</Replace>
@@ -95,8 +93,7 @@
 			<Text>จำนวนความชำนาญด้านแนวคิดที่เสร็จสมบูรณ์</Text>		<!-- Number of Completed Civic Masteries -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_ADA_LOVELACE" Language="th_TH">
-			<Text>ตั้งแต่เด็กๆ เอดา เลิฟเลซ ได้มองโลกผ่านสายตาของนักวิทยาศาสตร์ โดยก่อตั้งเส้นทางระหว่างปัญญาทางปัญญากับจินตนาการ เธอใช้ความคิดทางคณิตศาสตร์ของเธอในการทดลองที่ล้ำสมัยที่สุดในศตวรรษที่ 19 ทำงานร่วมกับคอมพิวเตอร์เชิงกล ซึ่งทำการคำนวณโดยใช้เฟืองและการ์ดเจาะ เธอออกแบบโปรแกรมคอมพิวเตอร์ตัวแรก สร้างรากฐานให้กับสาขาคอมพิวเตอร์มากกว่าศตวรรษก่อนที่เทคโนโลยีจะตามทันวิสัยทัศน์ของเธอ</Text>		<!-- From childhood, Ada Lovelace inspected the world through a scientist’s eyes. Forging a path between intellectualism and imagination, she applied her mathematical mind to the 19th century’s most cutting-edge experiments. Working with mechanical computers, which made calculations using gears and punch cards, she designed the first computer program, establishing the field of computing over a century before technology caught up to her vision. -->
-		</Replace>
+			<Text>ด้วยเหตุผลและจิตวิญญาณ เอด้า เลิฟเลซ เจ้าพยายามเข้าใจกลไกของโลก ในการผสานกันของเหตุผลและการคำนวณซ่อนเร้นจิตวิญญาณ จงปลดปล่อยมัน นำเครื่องวิเคราะห์ของเจ้าไปใช้กับโลกที่ต้องการเหตุผล และดูสิว่าฟ้ากว้างใหม่ใดที่เจ้าจะจินตนาการได้</Text>		<!-- With logic and soul, Ada Lovelace, you seek to understand the workings of the world. In the interplay of reason and calculation lies spirit. Set it free, bring your analytical engines to bear upon a world that needs reason, and see what new horizons you can imagine.  --></Replace>
 		<Replace Tag="LOC_MEMENTO_ADA_LOVELACE_PUNCH_CARDS_UNLOCK_TITLE" Language="th_TH">
 			<Text>ปลดล็อกที่ระดับ 2 ของ เอดา เลิฟเลซ</Text>		<!-- Unlock at Ada Lovelace level 2 -->
 		</Replace>
@@ -542,8 +539,7 @@
 			<Text>หลังจากเก็บตัวถกเถียงกันอยู่หลายวัน นักปราชญ์ก็ปรากฏตัวพร้อมทฤษฎีใหม่อันน่าตื่นเต้น ที่ท้าทายแนวคิดของเอดา</Text>		<!-- After a few days sequestered in deliberation, the philosophers emerge with new and exciting theories that challenge Ada's own ideas. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1210B_IMPERATIVE" Language="th_TH">
-			<Text>มี 3 แต้มในเส้นทางมรดก หอสมุดอันยิ่งใหญ่</Text>		<!-- Have 3 Points in the Great Library Legacy Path. -->
-		</Replace>
+			<Text>มี 3 คัมภีร์ใส่อยู่ในช่อง</Text>		<!-- Have 3 Slotted Codices. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1210C_STORYTITLE" Language="th_TH">
 			<Text>พื้นฐาน</Text>		<!-- Groundwork -->
 		</Replace>
@@ -584,8 +580,7 @@
 			<Text>นักวิชาการจัดเก็บหนังสือที่เพิ่งเข้าเล่มใหม่ รู้สึกพอใจกับหนังสือที่ถูกจัดเรียงอย่างเรียบร้อยในที่ของมัน</Text>		<!-- The scholar shelves freshly bound books, pleased with the spines tucked neatly into place. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1211B_IMPERATIVE" Language="th_TH">
-			<Text>มี 6 แต้มในเส้นทางมรดก หอสมุดอันยิ่งใหญ่</Text>		<!-- Have 6 Points in the Great Library Legacy Path. -->
-		</Replace>
+			<Text>มี 6 คัมภีร์ใส่อยู่ในช่อง</Text>		<!-- Have 6 Slotted Codices. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1211C_NAME" Language="th_TH">
 			<Text>สิ่งนี้ไม่คุ้มค่าที่จะทำความสะอาด</Text>		<!-- This mess is not worth cleaning. -->
 		</Replace>
@@ -641,8 +636,7 @@
 			<Text>ลักษณะทวิภาคของคำถามเช่นนี้เป็นข้อจำกัด ดีกว่าที่จะถามว่า ทำไม</Text>		<!-- The binary nature of such a question is restrictive. Better to ask why. -->
 		</Replace>
 		<Replace Tag="LOC_10004D_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} บน อาคารด้านทอง และวิทยาศาสตร์</Text>		<!-- {1_reward} on Gold and Science Buildings. -->
-		</Replace>
+			<Text>{1_reward} บน อาคารด้านวิทยาศาสตร์ และวัฒนธรรม</Text>		<!-- {1_reward} on Science and Culture Buildings. --></Replace>
 		<Replace Tag="LOC_10005A_STORYTITLE" Language="th_TH">
 			<Text>นอกกรอบ</Text>		<!-- Outside the Box -->
 		</Replace>
@@ -761,8 +755,7 @@
 			<Text>เมืองต่าง ๆ ของ เอดา จะยังคงเจริญเติบโตต่อไป โดยได้รับการชี้นำจากมือที่มั่นคงและมั่นใจของเธอ</Text>		<!-- Ada's cities will continue to grow, guided by her steady and confident hand. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1215B_IMPERATIVE" Language="th_TH">
-			<Text>มี 5 แต้มในเส้นทางมรดก การตรัสรู้</Text>		<!-- Have 5 Points in the Enlightenment Legacy Path. -->
-		</Replace>
+			<Text>มี 5 เขตที่ไม่ใช่ใจกลางเมือง ที่มีผลผลิต 40 หน่วยแต่ละแห่ง</Text>		<!-- Have 5 Districts that are not the City Center with 40 total Yield each. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1216A_STORYTITLE" Language="th_TH">
 			<Text>สวดมนต์เพื่อขจัดความเจ็บปวด</Text>		<!-- Pray the Pain Away -->
 		</Replace>
@@ -809,8 +802,7 @@
 			<Text>เพื่อระงับความกลัวและปิดปากผู้ไม่เชื่อ, สิ่งประดิษฐ์ถูกนำมาจัดแสดง, กลายเป็นหลักยึดเหนี่ยวเพื่อช่วยให้ผู้คนมีเสถียรภาพ</Text>		<!-- To quell fears and shut down naysayers, relics are put on display, becoming an anchor to ground the people. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1217B_IMPERATIVE" Language="th_TH">
-			<Text>มี 5 แต้มในเส้นทางมรดก โทชาคานา</Text>		<!-- Have 5 Points in the Toshakhana Legacy Path. -->
-		</Replace>
+			<Text>มี 5 ศาสนวัตถุใส่อยู่ในช่อง</Text>		<!-- Have 5 Slotted Relics. --></Replace>
 		<Replace Tag="LOC_10008A_STORYTITLE" Language="th_TH">
 			<Text>ตกหล่นอยู่ข้างหลัง</Text>		<!-- Falling Behind -->
 		</Replace>
@@ -875,8 +867,7 @@
 			<Text>ให้พวกเขาทำงานในห้องดนตรี</Text>		<!-- Let them work the music halls. -->
 		</Replace>
 		<Replace Tag="LOC_10011B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} แต่ {2_reward}</Text>		<!-- {1_reward} but {2_reward}. -->
-		</Replace>
+			<Text>{1_reward} บน อาคารด้านวัฒนธรรม แต่ {2_reward}</Text>		<!-- {1_reward} on Culture Buildings but {2_reward}. --></Replace>
 		<Replace Tag="LOC_10011C_NAME" Language="th_TH">
 			<Text>ห้องในโรงงาน</Text>		<!-- Find room in the factories. -->
 		</Replace>
@@ -989,8 +980,7 @@
 			<Text>ตอนนี้ที่วัตถุโบราณได้ถูกขุดค้นและเก็บรักษาไว้แล้ว, สามารถทำการศึกษาและเรียนรู้จากมันได้แล้ว</Text>		<!-- Now that the artifacts have been unearthed and preserved, they may now be studied and learned from. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1219B_IMPERATIVE" Language="th_TH">
-			<Text>มี 5 แต้มในเส้นทางมรดก สมาคมภูมิศาสตร์</Text>		<!-- Have 5 Points in the Geographic Society Legacy Path. -->
-		</Replace>
+			<Text>มี 5 โบราณวัตถุใส่อยู่ในช่อง</Text>		<!-- Have 5 Slotted Artifacts. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1219C_NAME" Language="th_TH">
 			<Text>ใกล้</Text>		<!-- Close. -->
 		</Replace>
@@ -1051,17 +1041,13 @@
 				+15% Culture, -10% Science -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_ADA_LOVELACE_L1_NAME" Language="th_TH">
-			<Text>โหนดคุณลักษณะทางวัฒนธรรม</Text>		<!-- Cultural Attribute Node -->
-		</Replace>
+			<Text>โหนดคุณลักษณะทางวิทยาศาสตร์</Text>		<!-- Scientific Attribute Node --></Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_ADA_LOVELACE_L1_DESCRIPTION" Language="th_TH">
-			<Text>+15% กำลังผลิต เพื่อสร้างอาคาร และสิ่งมหัศจรรย์พร้อมช่อง ผลงานชิ้นเอก</Text>		<!-- +15% Production towards constructing Buildings and Wonders with Great Works slots. -->
-		</Replace>
+			<Text>+1 โบนัสใกล้เคียง ของอาคารมาตรฐานด้านทอง, กำลังผลิต และ วิทยาศาสตร์</Text>		<!-- +1 to the adjacencies of standard Gold, Production, and Science Buildings. --></Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_ADA_LOVELACE_L2_NAME" Language="th_TH">
-			<Text>โหนดคุณลักษณะทางวิทยาศาสตร์</Text>		<!-- Scientific Attribute Node -->
-		</Replace>
+			<Text>โหนดคุณลักษณะทางวัฒนธรรม</Text>		<!-- Cultural Attribute Node --></Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_ADA_LOVELACE_L2_DESCRIPTION" Language="th_TH">
-			<Text>+1 ให้กับโบนัสใกล้เคียง อาคารมาตรฐานด้านทอง, การผลิต, และ วิทยาศาสตร์</Text>		<!-- +1 to the adjacencies of standard Gold, Production, and Science Buildings. -->
-		</Replace>
+			<Text>+15% กำลังผลิต เพื่อสร้างอาคาร และสิ่งมหัศจรรย์พร้อมช่อง ผลงานชิ้นเอก</Text>		<!-- +15% Production towards constructing Buildings and Wonders with Great Works slots. --></Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_ADA_LOVELACE_DESCRIPTION" Language="th_TH">
 			<Text>เล่นเป็น [B]เอดา เลิฟเลซ[/B]</Text>		<!-- Play as [B]Ada Lovelace[/B]. -->
 		</Replace>

@@ -164,11 +164,9 @@
 			<Text>โรงงานของโลก</Text>		<!-- Workshop of the World -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_GREAT_BRITAIN_DESCRIPTION" Language="th_TH">
-			<Text>ไม่มี</Text>		<!-- None -->
-		</Replace>
+			<Text>+25% [icon:YIELD_GOLD] ทอง ในการซื้ออาคาร และ +25% [icon:YIELD_PRODUCTION] กำลังผลิต ในการก่อสร้างอาคาร, มีค่าใช้จ่ายเพิ่มขึ้น +50% ในการแปลงเมืองเป็นเมืองใหญ่</Text>		<!-- +25%[icon:YIELD_GOLD] Gold towards purchasing Buildings and +25%[icon:YIELD_PRODUCTION] Production towards constructing Buildings. It costs 50% more to Convert Towns into Cities. --></Replace>
 		<Replace Tag="LOC_TRAIT_GREAT_BRITAIN_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]+25%[icon:YIELD_GOLD] ทอง ในการซื้ออาคาร และ +25%[icon:YIELD_PRODUCTION] กำลังผลิต ในการก่อสร้างอาคาร[LI]ใช้ค่าใช้จ่ายเพิ่มอีก 50% ในการเปลี่ยนเมืองเป็นนคร[LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการก่อสร้าง [B]Battersea Power Station[/B][/LIST]</Text>		<!-- [LIST][LI]+25%[icon:YIELD_GOLD] Gold towards purchasing Buildings and +25%[icon:YIELD_PRODUCTION] Production towards constructing Buildings.[LI]It costs 50% more to Convert Towns into Cities.[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Battersea Power Station[/B].[/LIST] -->
-		</Replace>
+			<Text>[BLIST][LI]+25%[icon:YIELD_GOLD] ทอง ในการซื้ออาคาร และ +25%[icon:YIELD_PRODUCTION] กำลังผลิต ในการก่อสร้างอาคาร[LI]ใช้ค่าใช้จ่ายเพิ่มอีก 50% ในการเปลี่ยนเมืองเป็นนคร[LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการก่อสร้าง [B]Battersea Power Station[/B][/BLIST]</Text>		<!-- [BLIST][LI]+25%[icon:YIELD_GOLD] Gold towards purchasing Buildings and +25%[icon:YIELD_PRODUCTION] Production towards constructing Buildings.[LI]It costs 50% more to Convert Towns into Cities.[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Battersea Power Station[/B].[/LIST] --></Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_GREAT_BRITAIN_DESCRIPTION" Language="th_TH">
 			<Text>+30%[icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ ที่เกี่ยวข้องกับบริเตนใหญ่</Text>		<!-- +30%[icon:YIELD_PRODUCTION] Production from being the Great Britain's associated Wonder. -->
 		</Replace>
@@ -272,14 +270,12 @@
 			<Text>ศูนย์การเงิน</Text>		<!-- Financial Centre -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_FINANCIAL_CENTRE_DESCRIPTION" Language="th_TH">
-			<Text>ย่านพิเศษ ของบริเตนใหญ่, สร้างขึ้นโดยการก่อสร้าง โรงงานผลิต และ โรยัล เอ็กซ์เชนจ์ ในเขตเดียวกัน +2 [icon:YIELD_GOLD] ทองสำหรับทุกถิ่นฐานที่เชื่อมต่อกัน</Text>		<!-- Great Britain Unique Quarter. Created by constructing the Manufactory and Royal Exchange in the same District. +2 [icon:YIELD_GOLD] Gold for every connected Settlement. -->
-		</Replace>
+			<Text>ย่านพิเศษ ของบริเตนใหญ่, สร้างขึ้นโดยการก่อสร้าง โรงงานผลิต และ โรยัล เอ็กซ์เชนจ์ ในเขตเดียวกัน +2 [icon:YIELD_GOLD] ทอง และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับทุกถิ่นฐานที่เชื่อมต่อกัน</Text>		<!-- Great Britain Unique Quarter. Created by constructing the Manufactory and Royal Exchange in the same District. +2 [icon:YIELD_GOLD] Gold and [icon:YIELD_SCIENCE] Science for every connected Settlement. --></Replace>
 		<Replace Tag="LOC_WONDER_BATTERSEA_POWER_STATION_NAME" Language="th_TH">
 			<Text>สถานีไฟฟ้าแบทเทอร์ซี</Text>		<!-- Battersea Power Station -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_FINANCIAL_CENTRE_TOOLTIP" Language="th_TH">
-			<Text>+2 [icon:YIELD_GOLD] ทอง สำหรับทุกถิ่นฐานที่เชื่อมต่อ</Text>		<!-- +2 [icon:YIELD_GOLD] Gold for every connected Settlement. -->
-		</Replace>
+			<Text>+2 [icon:YIELD_GOLD] ทอง และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับทุกถิ่นฐานที่เชื่อมต่อ</Text>		<!-- +2 [icon:YIELD_GOLD] Gold and [icon:YIELD_SCIENCE] Science for every connected Settlement. --></Replace>
 		<Replace Tag="LOC_WONDER_BATTERSEA_POWER_STATION_DESCRIPTION" Language="th_TH">
 			<Text>+4[icon:YIELD_PRODUCTION] กำลังผลิต, รับยูนิตทางน้ำอีกหนึ่งหน่วย ทุกครั้งที่คุณฝึกยูนิตทางน้ำ (ไม่รวมจากการซื้อ), คงอยู่ตลอดกาล, จะต้องวางบนดินที่อยู่ติดกับชายฝั่ง</Text>		<!-- +4[icon:YIELD_PRODUCTION] Production. Receive a second Naval Unit each time you train a Naval Unit (But not Purchase). Ageless. Must be placed on land adjacent to Coast. -->
 		</Replace>
@@ -374,8 +370,7 @@
 			<Text>โคอิโนอร์</Text>		<!-- Koh-i-Noor -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_GREAT_BRITAIN" Language="th_TH">
-			<Text>ดวงอาทิตย์ไม่เคยตกดินบนอาณาจักรขนาดใหญ่ของ บริเตนใหญ่ อาณาเขตของมันกระจายไปทั่วทุกทวีป โดยนำวัตถุดิบจากอาณานิคมไปยังโรงงานในเมืองหลวง นโยบายต่างประเทศดำเนินการผ่านกลยุทธ์ทางเศรษฐกิจ การทูตอย่างกว้างขวาง และการข่มขู่ทางสงคราม กองทัพเรืออังกฤษครองทะเล ขณะที่ที่บ้าน สังคมพบกับระเบียบใหม่ท่ามกลางการระเบิดของอุตสาหกรรม ภายใต้ ปากส์บริตันนิกา โลกก็ตามความเป็นผู้นำของบริเตน</Text>		<!-- The sun never set on Great Britain’s vast empire. Its territories spread across all continents, funneling raw materials from colonial holdings to the factories of the metropole. Foreign policy was conducted through economic strategy, extensive diplomacy, and threat of war. The British navy dominated the seas, while at home, society found a new order amid the explosion of industry. Under Pax Britannica, the world followed Britain’s lead. -->
-		</Replace>
+			<Text>ปกครองเถิด, บริทาเนีย! เหนือท้องฟ้าลอนดอนที่เต็มไปด้วยควัน เหนือเสียงเครื่องจักรโรงงานแมนเชสเตอร์ ยังมีความรุ่งโรจน์ยิ่งใหญ่ — จักรวรรดิ โรงงานที่ไม่เคยหยุดนิ่งต้องการวัตถุดิบ และคลังสินค้าที่เต็มล้นต้องการตลาด ฟังเสียงเรียกนั้น และขอให้ดวงอาทิตย์ไม่เคยลับขอบฟ้าบนอาณาจักรของท่านเลย</Text>		<!-- Rule, Britannia! Beyond the smoky London skies, beyond the churn of Manchester’s mills, there is a greater glory - the Empire. Ever-hungry mills demand feeding, and ever-full warehouses demand markets. Heed their call, and may the sun never set upon your dominion. --></Replace>
 		<Replace Tag="LOC_LOADING_INTRO_GREAT_BRITAIN" Language="th_TH">
 			<Text>ความยุ่งเหยิงคือการขาดแคลนกฏระเบียบ และโลกนั้นต้องการโครงสร้าง, บริเตนใหญ่ ได้ขึ้นสู่จุดสูงสุด</Text>		<!-- Chaos is the absence of order, and the world needs structure. Great Britain ascends. -->
 		</Replace>
@@ -593,14 +588,12 @@
 			<Text>{1_reward} แต่เริ่มสงคราม</Text>		<!-- {1_reward} but start a War. -->
 		</Replace>
 		<Replace Tag="LOC_11019C_NAME" Language="th_TH">
-			<Text>คืนโบราณวัตถุ พร้อมกับคำขอโทษ</Text>		<!-- Return the artifacts, with apologies. -->
-		</Replace>
+			<Text>คืนโบราณวัตถุ พร้อมกับคำขอโทษ</Text>		<!-- Return the artifact, with apologies. --></Replace>
 		<Replace Tag="LOC_11019C_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward} แต่ โบราณวัตถุ จะถูกส่งคืน</Text>		<!-- {1_reward} but Artifact is returned. -->
 		</Replace>
 		<Replace Tag="LOC_11019D_NAME" Language="th_TH">
-			<Text>ทำลายวัตถุโบราณ</Text>		<!-- Destroy the artifacts. -->
-		</Replace>
+			<Text>ทำลายวัตถุโบราณ</Text>		<!-- Destroy the artifact. --></Replace>
 		<Replace Tag="LOC_11019D_DESCRIPTION" Language="th_TH">
 			<Text>วัตถุโบราณหายไปแล้ว</Text>		<!-- Artifact is lost. -->
 		</Replace>
@@ -674,8 +667,7 @@
 			<Text>นักโบราณคดี</Text>		<!-- Antiquarian -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_ANTIQUARIAN_DESCRIPTION" Language="th_TH">
-			<Text>นักสำรวจพิเศษ ของอังกฤษ, +5 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุกแผ่นดินจากเมืองหลวงของคุณเมื่อคุณ ขุดโบราณวัตถุ</Text>		<!-- British Unique Explorer. +5 [icon:YIELD_CULTURE] Culture for every tile from your Capital when you use Excavate Artifact. -->
-		</Replace>
+			<Text>นักสำรวจพิเศษ ของอังกฤษ, +20 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุกแผ่นดินจากเมืองหลวงของคุณเมื่อคุณ ขุดโบราณวัตถุ</Text>		<!-- British Unique Explorer. +20 [icon:YIELD_CULTURE] Culture for every tile from your Capital when you use Excavate Artifact. --></Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_ROME_GREAT_BRITAIN_TOOLTIP" Language="th_TH">
 			<Text>[B]โรม[/B] เป็นอารยธรรมต้นแบบสำหรับ [B]บริเตนใหญ่[/B]</Text>		<!-- [B]Rome [/B] was a precursor Civilization to [B]Great Britain[/B]. -->
 		</Replace>

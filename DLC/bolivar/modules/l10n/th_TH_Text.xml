@@ -83,14 +83,12 @@
 			<Text>ซิมอน โบลิบาร์</Text>		<!-- Simón Bolívar -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_BOLIVAR_DESCRIPTION" Language="th_TH">
-			<Text>รับการสนับสนุนฟรี 1 ครั้งในสงครามของคุณ เมื่อคุณพิชิต ถิ่นฐาน เป็นครั้งแรก คุณสามารถซื้อ สิ่งก่อสร้าง ได้ฟรี 1 ชิ้น ความไม่สงบไม่เป็นอุปสรรคต่อการซื้อ</Text>		<!-- Gain 1 free Support on your wars. When you conquer a Settlement for the first time it can purchase 1 Constructible for free. Unrest does not prevent Purchasing. -->
-		</Replace>
+			<Text>รับ [icon:WAR_SUPPORT] การสนับสนุนสงคราม ฟรี 1 ครั้งในสงครามของคุณ เมื่อคุณพิชิต ถิ่นฐาน เป็นครั้งแรก คุณสามารถซื้อ สิ่งก่อสร้าง ได้ฟรี 1 ชิ้น [icon:YIELD_ANGRY] ความไม่สงบไม่เป็นอุปสรรคต่อการซื้อ</Text>		<!-- Gain 1 [icon:WAR_SUPPORT] War Support on all your wars. When you conquer a Settlement for the first time it can purchase 1 Constructible for free. [icon:YIELD_ANGRY] Unrest does not prevent Purchasing. --></Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_BOLIVAR_ABILITY_NAME" Language="th_TH">
 			<Text>เอล ลิเบอร์ตาดอร์</Text>		<!-- El Libertador -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_BOLIVAR_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]รับ [b]การสนับสนุนฟรี 1 ครั้ง[/b] ในสงครามของคุณ [LI]เมื่อคุณพิชิต ถิ่นฐาน เป็นครั้งแรก ถิ่นฐาน สามารถ [b]ซื้อสิ่งก่อสร้างได้ฟรี 1 อัน[/b] [LI]ความไม่สงบไม่เป็นอุปสรรคต่อการซื้อ[/LIST]</Text>		<!-- [LIST][LI]Gain [b]1 free Support[/b] on your wars. [LI]When you conquer a Settlement for the first time the Settlement can [b]purchase 1 Constructible for free[/b]. [LI]Unrest does not prevent Purchasing. [/LIST] -->
-		</Replace>
+			<Text>[LIST][LI]รับ [B][icon:WAR_SUPPORT]การสนับสนุนสงคราม[/B] ฟรี 1 ครั้ง ในสงครามของคุณ [LI]เมื่อคุณพิชิต ถิ่นฐาน เป็นครั้งแรก ถิ่นฐาน สามารถ [b]ซื้อสิ่งก่อสร้างได้ฟรี 1 อัน[/b] [LI][icon:YIELD_ANGRY] ความไม่สงบไม่เป็นอุปสรรคต่อการซื้อ[/LIST]</Text>		<!-- [BLIST][LI]Gain [B]1 [icon:WAR_SUPPORT] War Support [/B]on all your wars.[LI]When you conquer a Settlement for the first time the Settlement can [B]purchase 1 Constructible for free[/B].[LI][icon:YIELD_ANGRY] [B]Unrest [/B]does not prevent Purchasing.[/LIST] --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_AGENDA_CORNERSTONE_FREEDOM_NAME" Language="th_TH">
 			<Text>เสาหลักของเสรีภาพ</Text>		<!-- Cornerstone of Freedom -->
 		</Replace>
@@ -680,14 +678,12 @@
 			<Text>ต่อสู้อย่างสุดชีวิต</Text>		<!-- Fight desperately. -->
 		</Replace>
 		<Replace Tag="LOC_10037B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
-		</Replace>
+			<Text>{1_reward} แต่ {2_reward}</Text>		<!-- {1_reward} but {2_reward}. --></Replace>
 		<Replace Tag="LOC_10037C_NAME" Language="th_TH">
 			<Text>รวมตัวกันรอบๆ ไอเดียที่กล้าได้กล้าเสีย</Text>		<!-- Rally around bold ideas. -->
 		</Replace>
 		<Replace Tag="LOC_10037C_DESCRIPTION" Language="th_TH">
-			<Text>+1 การสนับสนุนสงครามในทุกสงคราม แต่มีอาคารกลายเป็นถูกปล้นใน {1_capital}</Text>		<!-- +1 War Support on all wars but a Building becomes Pillaged in {1_capital}. -->
-		</Replace>
+			<Text>+1 การสนับสนุนสงครามในทุกสงคราม แต่มี 1 ช่องจะถูกปล้นใน {1_capital}</Text>		<!-- +1 War Support on all wars but 1 Tile is Pillaged in {1_capital}. --></Replace>
 		<Replace Tag="LOC_10038A_STORYTITLE" Language="th_TH">
 			<Text>กลับไปที่แบบฟอร์ม</Text>		<!-- Return to Form -->
 		</Replace>
@@ -866,8 +862,7 @@
 			<Text>ประชาชนจะต้องเสียสละ</Text>		<!-- The people will have to make sacrifices. -->
 		</Replace>
 		<Replace Tag="LOC_10042B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} บน ยูนิตทั้งหมด แต่ 1 อาคารจะถูกปล้นในทุกถิ่นฐาน</Text>		<!-- {1_reward} on all Units but 1 Building is Pillaged in all Settlements. -->
-		</Replace>
+			<Text>{1_reward} บน ยูนิตทั้งหมด แต่ 1 ช่องจะถูกปล้นในทุกถิ่นฐาน</Text>		<!-- {1_reward} on all Units but 1 Tile is Pillaged in all Settlements. --></Replace>
 		<Replace Tag="LOC_10042C_NAME" Language="th_TH">
 			<Text>กองทัพจะต้องทำการเสียสละ</Text>		<!-- The troops will have to make sacrifices. -->
 		</Replace>
@@ -1016,8 +1011,7 @@
 			<Text>หนึ่งต่อหนึ่ง, ศัตรูของเขาล้มลง ให้คนอื่นพูดอะไรก็ได้, แต่ ซิมอน โบลิบาร์ ยืนหยัดตามความเชื่อของเขา</Text>		<!-- One after another, his enemies fall. Let others say what they will, but Simón Bolívar lives up to his convictions. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1229B_IMPERATIVE" Language="th_TH">
-			<Text>มี 6 แต้มในเส้นทางมรดก อุดมการณ์</Text>		<!-- Have 6 Points in the Ideology Legacy Path. -->
-		</Replace>
+			<Text>ยึดครองถิ่นฐาน 2 แห่ง</Text>		<!-- Capture 2 Settlements. --></Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1229C_NAME" Language="th_TH">
 			<Text>ปิด</Text>		<!-- Close. -->
 		</Replace>
