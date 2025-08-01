@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" ?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_ACTION_PANEL_TAKE_THE_NEXT_ACTION" Language="th_TH">
@@ -49,8 +49,14 @@
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_SETTINGS" Language="th_TH">
 			<Text>ตั้งค่าผู้เล่น</Text>		<!-- Player Settings -->
 		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_LEGACY_PATH_SETTINGS" Language="th_TH">
+			<Text>Legacy Paths</Text>		<!-- Legacy Paths -->
+		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_ADD_PLAYER" Language="th_TH">
 			<Text>เพิ่มบอท</Text>		<!-- Add AI Player -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_SETTINGS_SUBHEADER" Language="th_TH">
+			<Text>Add additional AI players</Text>		<!-- Add additional AI players -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_RULESET" Language="th_TH">
 			<Text>ชุดกฎ</Text>		<!-- Ruleset -->
@@ -220,6 +226,12 @@
 		<Replace Tag="LOC_ADVANCED_OPTIONS_TRIBAL" Language="th_TH">
 			<Text>ไม่มีหมู่บ้านชนเผ่า</Text>		<!-- No Tribal Villages -->
 		</Replace>
+		<Replace Tag="LOC_CRISIS_TITLE_AGE_ANTIQUITY" Language="th_TH">
+			<Text>Antiquity Age Crises</Text>		<!-- Antiquity Age Crises -->
+		</Replace>
+		<Replace Tag="LOC_CRISIS_TITLE_AGE_EXPLORATION" Language="th_TH">
+			<Text>Exploration Age Crises</Text>		<!-- Exploration Age Crises -->
+		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_ANTIQUITY_CRISIS_1" Language="th_TH">
 			<Text>การรุกราน</Text>		<!-- Invasion -->
 		</Replace>
@@ -250,11 +262,41 @@
 		<Replace Tag="LOC_ADVANCED_OPTIONS_DISASTER_INTENSITY_DESC" Language="th_TH">
 			<Text>กำหนดความแข็งแกร่งและความถี่ของภัยพิบัติ</Text>		<!-- Determines the strength and frequency of disasters -->
 		</Replace>
+		<Replace Tag="LOC_INDEPENDENT_HOSTILITY_NAME" Language="th_TH">
+			<Text>Initial Independent Hostility</Text>		<!-- Initial Independent Hostility -->
+		</Replace>
+		<Replace Tag="LOC_INDEPENDENT_HOSTILITY_DESCRIPTION" Language="th_TH">
+			<Text>Determines what the initial hostility level of Independent Powers is with players when the Independent Power first spawns</Text>		<!-- Determines what the initial hostility level of Independent Powers is with players when the Independent Power first spawns -->
+		</Replace>
+		<Replace Tag="LOC_INDEPENDENT_HOSTILITY_FRIENDLY" Language="th_TH">
+			<Text>Friendly</Text>		<!-- Friendly -->
+		</Replace>
+		<Replace Tag="LOC_INDEPENDENT_HOSTILITY_FRIENDLY_DESCRIPTION" Language="th_TH">
+			<Text>Independent Powers will start Friendly towards Players</Text>		<!-- Independent Powers will start Friendly towards Players -->
+		</Replace>
+		<Replace Tag="LOC_INDEPENDENT_HOSTILITY_DEFAULT" Language="th_TH">
+			<Text>Default</Text>		<!-- Default -->
+		</Replace>
+		<Replace Tag="LOC_INDEPENDENT_HOSTILITY_DEFAULT_DESCRIPTION" Language="th_TH">
+			<Text>Independent Powers will start at a mix of Friendly and Hostile towards Players</Text>		<!-- Independent Powers will start at a mix of Friendly and Hostile towards Players -->
+		</Replace>
+		<Replace Tag="LOC_INDEPENDENT_HOSTILITY_HOSTILE" Language="th_TH">
+			<Text>Hostile</Text>		<!-- Hostile -->
+		</Replace>
+		<Replace Tag="LOC_INDEPENDENT_HOSTILITY_HOSTILE_DESCRIPTION" Language="th_TH">
+			<Text>Independent Powers will start Hostile towards Players. This excludes Independent powers who spawn as a result of a player having a City State in that location in the previous Age.</Text>		<!-- Independent Powers will start Hostile towards Players. This excludes Independent powers who spawn as a result of a player having a City State in that location in the previous Age. -->
+		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_CRISIS" Language="th_TH">
 			<Text>วิกฤต</Text>		<!-- Crises -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_CRISIS_DESC" Language="th_TH">
 			<Text>เปิดใช้งานเหตุการณ์วิกฤตในยุคที่ไม่มีการปลดล็อกชัยชนะ</Text>		<!-- Enables Crisis Events in Ages without Victory Unlocks -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_CRISIS_INTENSITY" Language="th_TH">
+			<Text>Crisis Intensity</Text>		<!-- Crisis Intensity -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_CRISIS_INTENSITY_DESC" Language="th_TH">
+			<Text>Determines the strength of crisis events</Text>		<!-- Determines the strength of crisis events -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_ABBREVIATED" Language="th_TH">
 			<Text>ย่อ</Text>		<!-- Abbreviated -->
@@ -264,6 +306,15 @@
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_LIGHT" Language="th_TH">
 			<Text>เบา</Text>		<!-- Light -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_COUNTDOWN_NONE" Language="th_TH">
+			<Text>No Countdown</Text>		<!-- No Countdown -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_COUNTDOWN_STANDARD" Language="th_TH">
+			<Text>10 Turns</Text>		<!-- 10 Turns -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_COUNTDOWN_LONG" Language="th_TH">
+			<Text>20 Turns</Text>		<!-- 20 Turns -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_MODERATE" Language="th_TH">
 			<Text>ปานกลาง</Text>		<!-- Moderate -->
@@ -285,6 +336,148 @@
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_OFF" Language="th_TH">
 			<Text>ปิด</Text>		<!-- Off -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_SETTINGS_TITLE" Language="th_TH">
+			<Text>Player Settings</Text>		<!-- Player Settings -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_LEGACY_PATH_TITLE" Language="th_TH">
+			<Text>Legacy Path Settings</Text>		<!-- Legacy Path Settings -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_ARMY_XP" Language="th_TH">
+			<Text>AI Commander XP</Text>		<!-- AI Commander XP -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_ARMY_XP_TOOLTIP" Language="th_TH">
+			<Text>Increases the bonus to XP gained by AI Commanders.
+				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +40%[LI]Sovereign: +60%[LI]Immortal: +80%[LI]Deity: +100%[/LIST] 
+			</Text>		<!-- Increases the bonus to XP gained by AI Commanders.
+				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +40%[LI]Sovereign: +60%[LI]Immortal: +80%[LI]Deity: +100%[/LIST] 
+			 -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_BUILDING_PRODUCTION" Language="th_TH">
+			<Text>AI Building Production</Text>		<!-- AI Building Production -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_BUILDING_PRODUCTION_TOOLTIP" Language="th_TH">
+			<Text>Increases the bonus that AI players receive towards producing Constructibles.
+				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST] 
+			</Text>		<!-- Increases the bonus that AI players receive towards producing Constructibles.
+				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST] 
+			 -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_COMBAT" Language="th_TH">
+			<Text>Combat Strength for AI</Text>		<!-- Combat Strength for AI -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_COMBAT_TOOLTIP" Language="th_TH">
+			<Text>Increases the bonus to Combat Strength for AI players.
+				[n] [BLIST][LI]Scribe: -4 Combat Strength[LI]Governor: +0 Combat Strength[LI]Viceroy: +1 Combat Strength[LI]Sovereign: +3 Combat Strength[LI]Immortal: +5 Combat Strength[LI]Deity: +8 Combat Strength[/LIST] 
+			</Text>		<!-- Increases the bonus to Combat Strength for AI players.
+				[n] [BLIST][LI]Scribe: -4 Combat Strength[LI]Governor: +0 Combat Strength[LI]Viceroy: +1 Combat Strength[LI]Sovereign: +3 Combat Strength[LI]Immortal: +5 Combat Strength[LI]Deity: +8 Combat Strength[/LIST] 
+			 -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_CULTURE" Language="th_TH">
+			<Text>Culture</Text>		<!-- Culture -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_CULTURE_TOOLTIP" Language="th_TH">
+			<Text>Increases the amount of bonus Culture that AI players receive.
+				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST]
+			</Text>		<!-- Increases the amount of bonus Culture that AI players receive.
+				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST]
+			 -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_GOLD" Language="th_TH">
+			<Text>Gold</Text>		<!-- Gold -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_GOLD_TOOLTIP" Language="th_TH">
+			<Text>Increases the amount of bonus Gold that AI players receive.
+				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST]
+			</Text>		<!-- Increases the amount of bonus Gold that AI players receive.
+				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST]
+			 -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_HAPPINESS" Language="th_TH">
+			<Text>Happiness</Text>		<!-- Happiness -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_HAPPINESS_TOOLTIP" Language="th_TH">
+			<Text>Increases the amount of bonus Happiness that AI players receive.
+				[n] [BLIST][LI]Scribe: -30%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST]
+			</Text>		<!-- Increases the amount of bonus Happiness that AI players receive.
+				[n] [BLIST][LI]Scribe: -30%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST]
+			 -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_IP_COMBAT" Language="th_TH">
+			<Text>Combat Strength for Independents</Text>		<!-- Combat Strength for Independents -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_IP_COMBAT_TOOLTIP" Language="th_TH">
+			<Text>Increases the bonus to Combat Strength for Independent Powers.
+				[n] [BLIST][LI]Scribe: -6 Combat Strength[LI]Governor: -3 Combat Strength[LI]Viceroy: -3 Combat Strength[LI]Sovereign: 0 Combat Strength[LI]Immortal: 0 Combat Strength[LI]Deity: 0 Combat Strength[/LIST]
+			</Text>		<!-- Increases the bonus to Combat Strength for Independent Powers.
+				[n] [BLIST][LI]Scribe: -6 Combat Strength[LI]Governor: -3 Combat Strength[LI]Viceroy: -3 Combat Strength[LI]Sovereign: 0 Combat Strength[LI]Immortal: 0 Combat Strength[LI]Deity: 0 Combat Strength[/LIST]
+			 -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_SCIENCE" Language="th_TH">
+			<Text>Science</Text>		<!-- Science -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_SCIENCE_TOOLTIP" Language="th_TH">
+			<Text>Increases the amount of bonus Science that AI players receive.
+				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST]
+			</Text>		<!-- Increases the amount of bonus Science that AI players receive.
+				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST]
+			 -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_UNIT_PRODUCTION" Language="th_TH">
+			<Text>AI Unit Production</Text>		<!-- AI Unit Production -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_UNIT_PRODUCTION_TOOLTIP" Language="th_TH">
+			<Text>Increases the bonus that AI players receive towards producing Units.
+				[n] [BLIST][LI]Scribe: -40%[LI]Governor: 0%[LI]Viceroy: +40%[LI]Sovereign: +80%[LI]Immortal: +120%[LI]Deity: +160%[/LIST]
+			</Text>		<!-- Increases the bonus that AI players receive towards producing Units.
+				[n] [BLIST][LI]Scribe: -40%[LI]Governor: 0%[LI]Viceroy: +40%[LI]Sovereign: +80%[LI]Immortal: +120%[LI]Deity: +160%[/LIST]
+			 -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_TECH_NODE_COST" Language="th_TH">
+			<Text>Tech Costs</Text>		<!-- Tech Costs -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_TECH_NODE_COST_TOOLTIP" Language="th_TH">
+			<Text>Adjusts the amount of Science towards researching Techs for all players.
+				[n] [BLIST][LI]Scribe: +10%[LI]Governor: 0%[LI]Viceroy: -10%[LI]Sovereign: -20%[LI]Immortal: -30%[LI]Deity: -40%[/LIST]
+			</Text>		<!-- Adjusts the amount of Science towards researching Techs for all players.
+				[n] [BLIST][LI]Scribe: +10%[LI]Governor: 0%[LI]Viceroy: -10%[LI]Sovereign: -20%[LI]Immortal: -30%[LI]Deity: -40%[/LIST]
+			 -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_CIVIC_NODE_COST" Language="th_TH">
+			<Text>Civic Costs</Text>		<!-- Civic Costs -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_CIVIC_NODE_COST_TOOLTIP" Language="th_TH">
+			<Text>Adjusts the amount of Culture towards researching Civics for all players.
+				[n] [BLIST][LI]Scribe: +10%[LI]Governor: 0%[LI]Viceroy: -10%[LI]Sovereign: -20%[LI]Immortal: -30%[LI]Deity: -40%[/LIST]
+			</Text>		<!-- Adjusts the amount of Culture towards researching Civics for all players.
+				[n] [BLIST][LI]Scribe: +10%[LI]Governor: 0%[LI]Viceroy: -10%[LI]Sovereign: -20%[LI]Immortal: -30%[LI]Deity: -40%[/LIST]
+			 -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_OCEAN_DAMAGE" Language="th_TH">
+			<Text>Ocean Damage</Text>		<!-- Ocean Damage -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_OCEAN_DAMAGE_TOOLTIP" Language="th_TH">
+			<Text>Increases the damage reduction AI Units receive when ending their turn on Open Ocean tiles in Exploration.
+				[n] [BLIST][LI]Scribe: +25%[LI]Governor: +33%[LI]Viceroy: +40%[LI]Sovereign: +45%[LI]Immortal: +50%[LI]Deity: +80%[/LIST]
+			</Text>		<!-- Increases the damage reduction AI Units receive when ending their turn on Open Ocean tiles in Exploration.
+				[n] [BLIST][LI]Scribe: +25%[LI]Governor: +33%[LI]Viceroy: +40%[LI]Sovereign: +45%[LI]Immortal: +50%[LI]Deity: +80%[/LIST]
+			 -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_FREE_STUFF" Language="th_TH">
+			<Text>Additional Walls on AI Settlements</Text>		<!-- Additional Walls on AI Settlements -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_FREE_STUFF_TOOLTIP" Language="th_TH">
+			<Text>Increases the number of Additional Walls AI players receive when unlocking the current Age Specific Walls.
+				[n] [BLIST][LI]Scribe: 0[LI]Governor: 0[LI]Viceroy: 1 City[LI]Sovereign: 2 City[LI]Immortal: 3 City/1 Town[LI]Deity: 4 City/1 Town[/LIST]
+			</Text>		<!-- Increases the number of Additional Walls AI players receive when unlocking the current Age Specific Walls.
+				[n] [BLIST][LI]Scribe: 0[LI]Governor: 0[LI]Viceroy: 1 City[LI]Sovereign: 2 City[LI]Immortal: 3 City/1 Town[LI]Deity: 4 City/1 Town[/LIST]
+			 -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_SCORE_VICTORY_WARNING" Language="th_TH">
+			<Text>Disabling the Score Victory will end the game when all leaders are dominated.</Text>		<!-- Disabling the Score Victory will end the game when all leaders are dominated. -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_LEGACY_PATHS_DISABLED_WARNING" Language="th_TH">
+			<Text>Disabling a Legacy Path will cause it to not track progress, give rewards, display advisors, and will also disable any victory condition associated with it.</Text>		<!-- Disabling a Legacy Path will cause it to not track progress, give rewards, display advisors, and will also disable any victory condition associated with it. -->
 		</Replace>
 		<Replace Tag="LOC_UI_ADVANCED_START_TITLE" Language="th_TH">
 			<Text>เริ่มต้นขั้นสูง</Text>		<!-- Advanced Start -->
@@ -1469,7 +1662,8 @@
 			<Text>คุณไม่สามารถทำลายถิ่นฐานที่คุณก่อตั้งได้</Text>		<!-- You cannot raze a settlement that you have founded. -->
 		</Replace>
 		<Replace Tag="LOC_CITYCOMMAND_DESTROY_RAZE_CONDITIONS" Language="th_TH">
-			<Text>{1_Name} จะถูกทำลาย อย่างค่อยเป็นค่อยไป ในช่วงเวลา {2_NumTurns} เทิร์น ในช่วงเวลานี้ ถิ่นฐาน จะไม่สร้าง ผลตอบแทนใดๆ[n]ฝ่ายตรงข้าม ในสงครามปัจจุบัน และอนาคตทั้งหมด จะได้รับ การสนับสนุนสงคราม 1 แต้ม เมื่อต้องเผชิญหน้ากับคุณ ตลอดยุคนี้</Text>		<!-- {1_Name} will be gradually destroyed over a period of {2_NumTurns} Turns. During this time the settlement will not generate any yields.[n]{3_conquest_penalty}.[n]{4_razing_penalty}. --></Replace>
+			<Text>{1_Name} จะถูกทำลาย อย่างค่อยเป็นค่อยไป ในช่วงเวลา {2_NumTurns} เทิร์น ในช่วงเวลานี้ ถิ่นฐาน จะไม่สร้าง ผลตอบแทนใดๆ[n]ฝ่ายตรงข้าม ในสงครามปัจจุบัน และอนาคตทั้งหมด จะได้รับ การสนับสนุนสงคราม 1 แต้ม เมื่อต้องเผชิญหน้ากับคุณ ตลอดยุคนี้</Text>		<!-- {1_Name} will be gradually destroyed over a period of {2_NumTurns} Turns. During this time the settlement will not generate any yields.[n]{3_conquest_penalty}.[n]{4_razing_penalty}. -->
+		</Replace>
 		<Replace Tag="LOC_CITYCOMMAND_EXPAND_NO_EXPANSION_PLOTS" Language="th_TH">
 			<Text>ถิ่นฐานนี้ไม่สามารถขยายได้ในขณะนี้</Text>		<!-- This Settlement cannot expand right now. -->
 		</Replace>
@@ -1797,6 +1991,9 @@
 		<Replace Tag="LOC_PEDIA_COMBAT_TITLE" Language="th_TH">
 			<Text>การต่อสู้</Text>		<!-- Combat -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_LEGENDS_TITLE" Language="th_TH">
+			<Text>Progression</Text>		<!-- Progression -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_ARMY_TITLE" Language="th_TH">
 			<Text>การจัดการกองทัพ</Text>		<!-- Army Management -->
 		</Replace>
@@ -1911,6 +2108,12 @@
 		<Replace Tag="LOC_PEDIA_SIDEBAR_REQUIRED_TECH" Language="th_TH">
 			<Text>เทคโนโลยีที่จำเป็น:</Text>		<!-- Required Tech: -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_SIDEBAR_UNIT_MOVE_RANGE" Language="th_TH">
+			<Text>Move Range</Text>		<!-- Move Range -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_SIDEBAR_UNIT_SIGHT_RANGE" Language="th_TH">
+			<Text>Sight Range</Text>		<!-- Sight Range -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_SIDEBAR_REQUIRED_CIVIC" Language="th_TH">
 			<Text>แนวคิดที่จำเป็น:</Text>		<!-- Required Civic: -->
 		</Replace>
@@ -2009,6 +2212,9 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_2_CHAPTER_CONTENT_PARA_3" Language="th_TH">
 			<Text>สิ่งต่อไปนี้จะเปลี่ยนไปหลังจากการเปลี่ยนแปลงยุค:</Text>		<!-- The following things change after an Age Transition: -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_AGES_39_CHAPTER_CONTENT_PARA_3" Language="th_TH">
+			<Text>Tip: When playing with the Regroup Age Transition Impact option, plan your army composition carefully before each Age transition to avoid losing valuable units or facing unexpected deficits.</Text>		<!-- Tip: When playing with the Regroup Age Transition Impact option, plan your army composition carefully before each Age transition to avoid losing valuable units or facing unexpected deficits. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_2_CHAPTER_CONTENT_PARA_4" Language="th_TH">
 			<Text>[BLIST][LI]ผู้เล่นทุกคนเลือกอารยธรรมใหม่ [LI]เมืองทั้งหมดกลับไปเป็นเมืองเล็ก (ยกเว้นเมืองหลวงของผู้เล่น) [LI]โบนัสใกล้เคียงอาคารทั้งหมดจะถูกลบออก และสามารถสร้างใหม่ได้ [LI]รัฐอิสระใหม่และนครรัฐเกิดขึ้น [LI]แผนที่เต็มไปด้วยการค้นพบใหม่ ในยุคสมัยใหม่ พวกเขาต้องถูกค้นพบโดยนักสำรวจเพื่อให้ได้โบราณวัตถุสำหรับยุคนั้น [LI]ภารกิจที่ยังไม่เสร็จสิ้นจะสูญหาย [LI]ความสัมพันธ์กับผู้นำคนอื่นๆ เปลี่ยนไปในระดับปานกลางไปสู่ความเป็นกลาง [/LIST]</Text>		<!-- [BLIST][LI]All Players select new Civilizations[LI]All Cities revert to Towns (except Player capitals)[LI]All Buildings adjacency bonuses will be removed and they can be overbuilt[LI]New Independent Powers and City-States emerge[LI]The map is populated with new Discoveries. In Modern, they must be discovered by Explorers in order to gain Artifacts for that Age.[LI]Any uncompleted Quests are lost [LI]Relationships with other leaders change by a moderate amount towards Neutral[/LIST] -->
@@ -2385,6 +2591,9 @@
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_34_CHAPTER_CONTENT_PARA_3" Language="th_TH">
 			<Text>เคล็ดลับ: ให้ความสำคัญกับเทคโนโลยีและโครงสร้างพื้นฐานที่เกี่ยวข้องเพื่อก้าวนำหน้าในการแข่งขันในอวกาศ การรักษาความเป็นผู้นำในโครงการเหล่านี้สามารถให้ข้อได้เปรียบที่เด็ดขาดในการเผชิญหน้าที่ทันสมัยได้</Text>		<!-- Tip: Prioritize the relevant technologies and infrastructure to stay ahead in the Space Race. Securing the lead in these projects can give you a decisive advantage in the Modern Victory pursuit. -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_AGES_35_CHAPTER_CONTENT_PARA_4" Language="th_TH">
+			<Text>Tip: Artifacts can be acquired through excavating Ruins, certain Narrative Events, and by Overbuilding in your Settlements. Focus on these activities to quickly accumulate Artifacts and advance along this legacy path.</Text>		<!-- Tip: Artifacts can be acquired through excavating Ruins, certain Narrative Events, and by Overbuilding in your Settlements. Focus on these activities to quickly accumulate Artifacts and advance along this legacy path. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_35_TITLE" Language="th_TH">
 			<Text>ยุคใหม่: สังคมภูมิศาสตร์</Text>		<!-- Modern: Geographic Society -->
 		</Replace>
@@ -2613,6 +2822,21 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_REPAIR_1_CHAPTER_BUILDINGREPAIR_PARA_1" Language="th_TH">
 			<Text>อาคารที่เสียหายสามารถซ่อมแซมได้ผ่านทางคิวการผลิตหรือคิวการซื้อของถิ่นฐานที่เกี่ยวข้อง</Text>		<!-- Damaged buildings can be repaired through either the production queue or the purchase queue of the corresponding Settlement. -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_NATURALWONDER_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
+			<Text>Tip: Natural Wonder yields are substantial, so discovering one early could significantly influence your expansion strategy.</Text>		<!-- Tip: Natural Wonder yields are substantial, so discovering one early could significantly influence your expansion strategy. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DISCOVERIES_1_TITLE" Language="th_TH">
+			<Text>Discoveries</Text>		<!-- Discoveries -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DISCOVERIES_1_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>Discoveries replace the traditional “Goody Huts” from previous Civilization games. These special points of interest are placed on the map during its initial generation, and some may even reappear as exploration progresses.</Text>		<!-- Discoveries replace the traditional “Goody Huts” from previous Civilization games. These special points of interest are placed on the map during its initial generation, and some may even reappear as exploration progresses. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DISCOVERIES_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>There are three types of Discoveries, each increasing in complexity, rewards, and rarity:[BLIST][LI][B]Basic Discoveries[/B] function similarly to classic Goody Huts. When a unit enters the tile, the discovery provides an immediate small reward and then disappears.[LI][B]Investigations[/B] require more investment, either by dedicating a unit to remain at the location for several turns, paying a resource yield such as gold, science, production, happiness, or culture—or a combination of both. Completing Investigations provides medium-sized rewards.[LI][B]Mythic Quests[/B] offer substantial challenges but also grant large rewards. These Discoveries task the player with completing specific quests or achieving certain milestones before claiming their generous prizes.[/LIST]</Text>		<!-- There are three types of Discoveries, each increasing in complexity, rewards, and rarity:[BLIST][LI][B]Basic Discoveries[/B] function similarly to classic Goody Huts. When a unit enters the tile, the discovery provides an immediate small reward and then disappears.[LI][B]Investigations[/B] require more investment, either by dedicating a unit to remain at the location for several turns, paying a resource yield such as gold, science, production, happiness, or culture—or a combination of both. Completing Investigations provides medium-sized rewards.[LI][B]Mythic Quests[/B] offer substantial challenges but also grant large rewards. These Discoveries task the player with completing specific quests or achieving certain milestones before claiming their generous prizes.[/LIST] -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DISCOVERIES_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
+			<Text>Tip: Always prioritize sending scouts or idle units to explore Discoveries early. Basic Discoveries give quick boosts, while strategic investment in Investigations and Mythic Quests can significantly accelerate your civilization’s progress.</Text>		<!-- Tip: Always prioritize sending scouts or idle units to explore Discoveries early. Basic Discoveries give quick boosts, while strategic investment in Investigations and Mythic Quests can significantly accelerate your civilization’s progress. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_REPAIR_1_CHAPTER_IMPROVEMENTREPAIR_TITLE" Language="th_TH">
 			<Text>การพัฒนาซ่อมแซม</Text>		<!-- Improvement Repair -->
 		</Replace>
@@ -2805,6 +3029,9 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_IMPROVEMENT_1_CHAPTER_CONTENT_PARA_1" Language="th_TH">
 			<Text>การจัดสรรประชากรให้กับพื้นที่ว่างจัดเป็นพื้นที่ชนบทและเพิ่มการพัฒนาตามลักษณะภูมิประเทศ</Text>		<!-- Allocating a Population to an empty tile zones it as Rural and adds an Improvement based on the terrain. -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_RESOURCES_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
+			<Text>Tip: The Resource Assignments Available Notification will appear when you obtain a new Resource or when a new Resource Slot is available.</Text>		<!-- Tip: The Resource Assignments Available Notification will appear when you obtain a new Resource or when a new Resource Slot is available. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_IMPROVEMENT_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>หากแผ่นปูพื้นมีทรัพยากร ทรัพยากรนั้นจะกำหนดการพัฒนาพื้นฐาน สำหรับแผ่นปูพื้นที่ไม่มีทรัพยากร การพัฒนาจะแตกต่างกันไปตามชีวภูมิ ตัวอย่างเช่น: [BLIST][LI]ภูมิประเทศราบ: ฟาร์ม - ให้ผลผลิตเป็นอาหาร[LI]ภูมิประเทศเนินเขา: เหมือง - ให้ผลผลิตเป็นการผลิต[LI]คุณลักษณะพืชพันธุ์: คนตัดไม้ - ให้ผลผลิตเป็นการผลิต[LI]คุณลักษณะชื้น: หลุมดินเหนียว - ให้ผลผลิตเป็นการผลิต[LI]แม่น้ำใหญ่ หรือ ชายฝั่ง: เรือประมง - ให้ผลผลิตเป็นอาหาร[/LIST]</Text>		<!-- If a tile has a Resource, that Resource determines the basic Improvement. For tiles without Resources, the Improvement varies by Biome. Examples include:[BLIST][LI]Flat Terrain: Farm - Provides Food.[LI]Hill Terrain: Mine - Provides Production.[LI]Vegetation Feature: Woodcutter - Provides Production.[LI]Wet Feature: Clay Pit - Provides Production.[LI]Navigable River or Coast: Fishing Boats - Provides Food.[/LIST] -->
 		</Replace>
@@ -2890,6 +3117,12 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITY_1_CHAPTER_CONTENT_PARA_5" Language="th_TH">
 			<Text>เคล็ดลับ: เมืองควรสร้างในสถานที่ที่มีอาหาร ผลิตภัณฑ์ และการเข้าถึงทรัพยากรต่างๆ อย่างเพียงพอ การสร้างเมืองบนแม่น้ำหรือพื้นที่ชายฝั่งเป็นความคิดที่ดี เพราะน้ำมีความสำคัญต่อประชากรที่กำลังเติบโต</Text>		<!-- Tip: Cities should be constructed in locations with plenty of Food, Production, and access to various resources. Building Cities on a River or coastal hex is a good idea, as water is vital for a growing Population. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_1_CHAPTER_RESTRICTION_TITLE" Language="th_TH">
+			<Text>Restrictions</Text>		<!-- Restrictions -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_1_CHAPTER_RESTRICTION_PARA_1" Language="th_TH">
+			<Text>[BLIST][LI]Unrest: Towns cannot start a project while in Unrest. After capturing a settlement, Civs must wait until the unrest period is over before assigning a Town a specialization.[LI]Permanent Specialization: Once a Town’s Focus is selected, it is locked in permanently. Choose wisely![/LIST]</Text>		<!-- [BLIST][LI]Unrest: Towns cannot start a project while in Unrest. After capturing a settlement, Civs must wait until the unrest period is over before assigning a Town a specialization.[LI]Permanent Specialization: Once a Town’s Focus is selected, it is locked in permanently. Choose wisely![/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_1_TITLE" Language="th_TH">
 			<Text>เมือง</Text>		<!-- Towns -->
@@ -3017,6 +3250,9 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_AGES_1_TITLE" Language="th_TH">
 			<Text>ยุค</Text>		<!-- Ages -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_1_CHAPTER_CONTENT_PARA_4" Language="th_TH">
+			<Text>Tip: Some buildings are Ageless, meaning they continue to offer effects regardless of the current Age. Additionally, some buildings have adjacency bonuses, providing extra yields when placed next to specific structures or features.</Text>		<!-- Tip: Some buildings are Ageless, meaning they continue to offer effects regardless of the current Age. Additionally, some buildings have adjacency bonuses, providing extra yields when placed next to specific structures or features. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_AGES_1_CHAPTER_CONTENT_PARA_1" Language="th_TH">
 			<Text>ประวัติศาสตร์สร้างขึ้นมาเป็นชั้นๆ ไม่มีอาณาจักรไหนที่ยืนหยัดทนทานต่อการพิสูจน์ของเวลาได้ทั้งหมด อาณาจักรที่สืบทอดต่อมาได้สร้างอยู่บนความรุ่งเรืองของผู้ที่มาก่อน</Text>		<!-- History is built in layers. No empire has stood the entire test of time. Instead, successor kingdoms build on the glories of their predecessors. -->
 		</Replace>
@@ -3025,6 +3261,24 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_AGES_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
 			<Text>ยุคสมัยต่างๆ ย้อนกลับไปยังช่วงเวลาที่เฉพาะเจาะจงในประวัติศาสตร์โลก เมืองต่างๆ ประกอบด้วยอาคารและสิ่งมหัศจรรย์ที่นำไปสู่ความเจริญรุ่งเรืองและความก้าวหน้าทางแนวคิดของยุค เกมระบบต่างๆ เช่น การปกครอง การทูต และการค้า ถูกปรับแต่งให้เหมาะสมกับแต่ละยุค</Text>		<!-- Ages harken back to specific times in world history. Cities only contain buildings and wonders that led to the prosperity and civic advancement of the Age. Game systems, such as government, diplomacy, and trade are tailored for each era. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_12_TITLE" Language="th_TH">
+			<Text>Buildings: Standard Buildings</Text>		<!-- Buildings: Standard Buildings -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_12_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>Standard Buildings are the foundational structures available to all civilizations, providing essential yields such as Science, Culture, Production, and more. Unlike Unique Buildings, which are tied to specific civilizations and often come with special bonuses, Standard Buildings are more universally accessible and form the backbone of your infrastructure.</Text>		<!-- Standard Buildings are the foundational structures available to all civilizations, providing essential yields such as Science, Culture, Production, and more. Unlike Unique Buildings, which are tied to specific civilizations and often come with special bonuses, Standard Buildings are more universally accessible and form the backbone of your infrastructure. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_12_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>However, as your civilization progresses through different Ages, Standard Buildings undergo changes. During an Age Transition, these buildings lose their adjacency bonuses, retaining only their base yields. This reduction can significantly impact your city's productivity if not addressed.</Text>		<!-- However, as your civilization progresses through different Ages, Standard Buildings undergo changes. During an Age Transition, these buildings lose their adjacency bonuses, retaining only their base yields. This reduction can significantly impact your city's productivity if not addressed. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_12_CHAPTER_CONTENT_PARA_3" Language="th_TH">
+			<Text>Despite the loss of adjacency bonuses, Standard Buildings continue to incur maintenance costs. This means they can become economic burdens if not updated or replaced, as they offer diminished returns while still consuming resources.</Text>		<!-- Despite the loss of adjacency bonuses, Standard Buildings continue to incur maintenance costs. This means they can become economic burdens if not updated or replaced, as they offer diminished returns while still consuming resources. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_12_CHAPTER_CONTENT_PARA_4" Language="th_TH">
+			<Text>To mitigate these issues, the game introduces the Overbuilding mechanic. Overbuilding allows you to construct new, more advanced buildings over existing ones, effectively replacing outdated structures with ones that are better suited to the current Age. This process helps restore or even enhance the adjacency bonuses and yields that were lost during the Age Transition.</Text>		<!-- To mitigate these issues, the game introduces the Overbuilding mechanic. Overbuilding allows you to construct new, more advanced buildings over existing ones, effectively replacing outdated structures with ones that are better suited to the current Age. This process helps restore or even enhance the adjacency bonuses and yields that were lost during the Age Transition. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_12_CHAPTER_CONTENT_PARA_5" Language="th_TH">
+			<Text>Regularly assess your cities after each Age Transition. Identify Standard Buildings that have lost their adjacency bonuses and consider overbuilding them with newer structures to maximize efficiency and maintain a strong economy.</Text>		<!-- Regularly assess your cities after each Age Transition. Identify Standard Buildings that have lost their adjacency bonuses and consider overbuilding them with newer structures to maximize efficiency and maintain a strong economy. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_AGES_1_CHAPTER_CONTENT_PARA_4" Language="th_TH">
 			<Text>สุดท้ายแล้ว แต่ละยุคจะจบลงด้วยการแข่งขันเพื่อทำให้จักรวรรดิของคุณอยู่บนแท่นเป็นราชอาณาจักรที่ยิ่งใหญ่ที่สุดในยุคนั้น ผู้เล่นแข่งขันกันเพื่อสร้างเจ็ดมหัศจรรย์แห่งโลกโบราณหรือเติมห้องสมุดขนาดใหญ่ของพวกเขาด้วยความรู้ทั้งหมดจากยุคโบราณ และความก้าวหน้าไปสู่เป้าหมายเหล่านี้จะมอบโบนัสสำหรับยุคถัดไป</Text>		<!-- Finally, each Age concludes with a race to put your empire on a pedestal as the greatest kingdom of the era. Players race to build the Seven Wonders of the Ancient World or to fill their Great Library with all the knowledge of Antiquity and advances toward these objectives provide bonuses for the next Age. -->
@@ -3149,6 +3403,9 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_POLICIES_1_CHAPTER_CONTENT_PARA_4" Language="th_TH">
 			<Text>เคล็ดลับ: นโยบายจะต้องมีการจัดลำดับเพื่อให้มีประสิทธิภาพ ดังนั้นการเพิ่มผลผลิตความสุขของคุณเพื่อรับช่องเพิ่มเติมจากการเฉลิมฉลองจึงเป็นสิ่งสำคัญ กลยุทธ์วัฒนธรรมที่แข็งแกร่งขึ้นอยู่กับการจัดการความสุขที่มีประสิทธิภาพ</Text>		<!-- Tip: Policies must be slotted to be effective. Therefore, increasing your Happiness yield to gain more slots from Celebrations is crucial. A strong Culture strategy relies on robust Happiness management. -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_1_CHAPTER_CONTENT_PARA_5" Language="th_TH">
+			<Text>Tip: If you care about managing relationships, invest in acquiring Influence. Certain buildings, wonders, policies, and towns grant extra Influence. </Text>		<!-- Tip: If you care about managing relationships, invest in acquiring Influence. Certain buildings, wonders, policies, and towns grant extra Influence. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_POLICIES_2_TITLE" Language="th_TH">
 			<Text>นโยบาย: ประเพณี</Text>		<!-- Policies: Traditions -->
 		</Replace>
@@ -3157,6 +3414,21 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_POLICIES_2_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>คำแนะนำ: ลงทุนในประเพณี เพราะมันมักจะสอดคล้องกับจุดแข็งของอารยธรรมของคุณ ประเพณีทั้งหมดของคุณจะอยู่รอดไปจนถึงยุคถัดไป</Text>		<!-- Tip: Invest in Traditions, as they often align with your civilization’s strengths. All of your Traditions will survive into the next Age. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_5_TITLE" Language="th_TH">
+			<Text>Incite Raid</Text>		<!-- Incite Raid -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_5_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>Incite Raid is a diplomatic action that allows you to direct Independent Powers to launch a raid against another civilization of your choosing. This tactic can be a strategic tool to divert aggression away from your own settlements or to weaken a rival.</Text>		<!-- Incite Raid is a diplomatic action that allows you to direct Independent Powers to launch a raid against another civilization of your choosing. This tactic can be a strategic tool to divert aggression away from your own settlements or to weaken a rival. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_5_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>To initiate an Incite Raid, locate an Independent Power on the map. Upon interacting with them, you'll have the option to spend Influence to incite a raid. After selecting this option, choose the leader you wish to target. The Independent Power will then prepare to launch a raid against the chosen civilization.</Text>		<!-- To initiate an Incite Raid, locate an Independent Power on the map. Upon interacting with them, you'll have the option to spend Influence to incite a raid. After selecting this option, choose the leader you wish to target. The Independent Power will then prepare to launch a raid against the chosen civilization. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_5_CHAPTER_CONTENT_PARA_3" Language="th_TH">
+			<Text>If the targeted Independent Power lacks sufficient military units to conduct the raid, additional units will be spawned to ensure the raid proceeds. This mechanism ensures that the raid can be executed even if the Independent Power is initially under-resourced.</Text>		<!-- If the targeted Independent Power lacks sufficient military units to conduct the raid, additional units will be spawned to ensure the raid proceeds. This mechanism ensures that the raid can be executed even if the Independent Power is initially under-resourced. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_5_CHAPTER_CONTENT_PARA_4" Language="th_TH">
+			<Text>Tip: Use Incite Raid to strategically redirect potential threats away from your empire. By influencing Independent Powers to target rival civilizations, you can create opportunities to strengthen your position or exploit weaknesses in your opponents' defenses.</Text>		<!-- Tip: Use Incite Raid to strategically redirect potential threats away from your empire. By influencing Independent Powers to target rival civilizations, you can create opportunities to strengthen your position or exploit weaknesses in your opponents' defenses. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_1_TITLE" Language="th_TH">
 			<Text>ความสัมพันธ์ที่เปลี่ยนแปลง</Text>		<!-- Changing Relationship -->
@@ -3392,6 +3664,9 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_10_TITLE" Language="th_TH">
 			<Text>กวาดล้างทางอากาศ</Text>		<!-- Fighter Sweep -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_7_CHAPTER_CONTENT_PARA_3" Language="th_TH">
+			<Text>Tip: Use Embark for quick water crossings, but avoid leaving units exposed on open water, as their reduced combat strength makes them susceptible to attacks. Prioritize Amphibious units for coastal operations if you need full combat strength on water.</Text>		<!-- Tip: Use Embark for quick water crossings, but avoid leaving units exposed on open water, as their reduced combat strength makes them susceptible to attacks. Prioritize Amphibious units for coastal operations if you need full combat strength on water. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_10_CHAPTER_CONTENT_PARA_1" Language="th_TH">
 			<Text>การกวาดล้างทางอากาศ จะดึงดูดและสร้างความเสียหาย—หรือแม้กระทั่งทำลาย—นักบินรบของศัตรู, ทำให้การใช้เครื่องบินทิ้งระเบิดปลอดภัยยิ่งขึ้น, โดยการมอบหมายหน่วยนักบินรบของคุณให้กับผู้บัญชาการฝูงบิน คุณสามารถใช้ความสามารถการกวาดล้างในตำแหน่งเป้าหมาย บังคับให้นักบินรบฝ่ายป้องกันเข้าสกัดกั้น เมื่อเครื่องบินข้าศึกเหล่านี้ถูกโจมตีหรือกำจัดแล้ว เครื่องบินทิ้งระเบิดของคุณสามารถปฏิบัติการได้โดยมีความเสี่ยงน้อยลงมาก</Text>		<!-- A Fighter Sweep draws out and damages—or even destroys—enemy fighters, paving the way for a safer bombing run. By assigning your fighter units to a Squadron Commander, you can use the Sweep ability on a target location, forcing defending fighters to intercept. Once these hostile aircraft have been engaged or eliminated, your bombers can operate with far less risk. -->
 		</Replace>
@@ -3413,6 +3688,9 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_7_CHAPTER_CONTENT_PARA_1" Language="th_TH">
 			<Text>เมื่อยูนิตขึ้นเรือเพื่อข้ามแผ่นน้ำ ยูนิตจะใช้กำลังการต่อสู้ที่มาตรฐานซึ่งปรับตามยุคสมัย แทนที่จะใช้กำลังการต่อสู้ตามพื้นฐานบนบก ยูนิตที่ขึ้นเรือจะมี 5 กำลังการต่อสู้ในยุคโบราณ 25 กำลังการต่อสู้ในยุคสำรวจ และ 50 กำลังการต่อสู้ในยุคใหม่ นั่นหมายความว่าในขณะที่พวกเขาสามารถป้องกันตัวเองได้ แต่โดยทั่วไปแล้วพวกเขาจะเปราะบางกว่ากำลังการต่อสู้บนบก</Text>		<!-- When a unit embarks to traverse water tiles, it adopts a standardized combat strength that scales with the ages, rather than using its default land-based strength. Embarked units have 5 Combat Strength in the Antiquity Age, 25 Combat Strength in the Exploration Age, and 50 Combat Strength in the Modern Age. This means that while they can defend themselves, they are generally more vulnerable compared to their strength on land. -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TECH_1_CHAPTER_CONTENT_PARA_4" Language="th_TH">
+			<Text>Tip: Focusing on technology research is an excellent way to gain a military advantage, as most military units are locked behind technologies.</Text>		<!-- Tip: Focusing on technology research is an excellent way to gain a military advantage, as most military units are locked behind technologies. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_7_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>เคล็ดลับ: ใช้ ขึ้นเรือ สำหรับการข้ามน้ำอย่างรวดเร็ว แต่ควรหลีกเลี่ยงการทิ้งยูนิตไว้ในน้ำเปิด เนื่องจากความแข็งแกร่งในการรบที่ลดลงทำให้พวกเขาเสี่ยงต่อการถูกโจมตี ให้ความสำคัญกับยูนิตทางน้ำสำหรับปฏิบัติการชายฝั่งหากคุณต้องการความแข็งแกร่งในการรบเต็มที่ในน้ำ</Text>		<!-- Tip: Use Embark for quick water crossings, but avoid leaving units exposed on open water, as their reduced combat strength makes them susceptible to attacks. Prioritize Amphibious units for coastal operations if you need full combat strength on water. -->
 		</Replace>
@@ -3421,6 +3699,9 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_8_CHAPTER_CONTENT_PARA_1" Language="th_TH">
 			<Text>การกระทำ เสริมสร้าง อนุญาตให้ยูนิตสร้างการป้องกันชั่วคราวบนช่องที่อยู่ในขณะนั้น โดยใช้เวลาทั้งหมด 2 เทิร์นในการสร้างตามค่าเริ่มต้น เมื่อตั้งการป้องกันเสร็จแล้ว ยูนิตจะได้รับโบนัสพลังต่อสู้ +6 เมื่อต้องป้องกัน โบนัสป้องกันนี้สอดคล้องกับการป้องกันจากสิ่งก่อสร้าง เช่น ปราการเนินเขา หรือ แบตเตอรี่ชายฝั่ง ซึ่งให้การเสริมความแข็งแกร่งในการป้องกันต่อการโจมตีของศัตรูได้อย่างมั่นคง</Text>		<!-- The Fortify action allows a unit to build temporary fortifications on its current tile, taking 2 turns to complete by default. Once fortifications are in place, the unit gains a +6 Combat Strength bonus when defending. This defensive bonus aligns with that of improvement fortifications like the Hillfort or Shore Battery, providing a solid defense boost against enemy attacks. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CIVIC_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
+			<Text>Tip: While Civics unlock Policies that can be slotted, Happiness ultimately grants extra slots. Maintain a balanced focus on both!</Text>		<!-- Tip: While Civics unlock Policies that can be slotted, Happiness ultimately grants extra slots. Maintain a balanced focus on both! -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_8_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>เคล็ดลับ: ใช้การเสริมกำลังในตำแหน่งยุทธศาสตร์ โดยเฉพาะในพื้นที่ที่มีความเสี่ยงหรือจุดคอขวด เพื่อเสริมความแข็งแกร่งในการป้องกัน ยูนิตในตำแหน่งที่ได้รับการเสริมกำลังสามารถต้านทานการโจมตีได้อย่างมีประสิทธิภาพมากขึ้น ทำให้พวกเขามีคุณค่าสำหรับการครอบครองดินแดนที่สำคัญ</Text>		<!-- Tip: Use Fortify in strategic locations, especially in vulnerable areas or chokepoints, to strengthen your defense. Units in fortified positions can withstand attacks more effectively, making them valuable for holding critical territory. -->
@@ -3507,11 +3788,14 @@
 			<Text>เคล็ดลับ: โฟกัสที่การสร้างสิ่งปลูกสร้างเพื่อเพิ่มประชากรในเมืองหากเล่นอารยธรรมที่ได้รับประโยชน์จากค่านี้</Text>		<!-- Tip: Focus on constructing buildings to boost your Urban Population when playing Civs that benefit from it. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_8_TITLE" Language="th_TH">
-			<Text>ความอดอยาก</Text>		<!-- Starvation --></Replace>
+			<Text>ความอดอยาก</Text>		<!-- Starvation -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_8_CHAPTER_CONTENT_PARA_1" Language="th_TH">
-			<Text>ความอดอยากไม่ค่อยเกิดขึ้นใน Civilization VII เนื่องจากระบบการจัดการอาหารแบบใหม่ ที่แตกต่างจากภาคก่อน ๆ ตรงที่มีเพียงผู้เชี่ยวชาญ (Specialist) เท่านั้นที่ต้องใช้ทรัพยากรอาหารในการยังชีพ ประชากรทั่วไปทั้งในพื้นที่ชนบทและเมืองไม่จำเป็นต้องใช้ แต่ถึงอย่างนั้น ความอดอยากก็ยังสามารถเกิดขึ้นได้ในบางกรณี เช่น เมื่อนิคมของคุณมีผู้เชี่ยวชาญมากเกินไป หรือเมื่อค่าความสุขของนิคมลดลงอย่างรุนแรง</Text>		<!-- Starvation is uncommon in Civilization VII, thanks to the new approach to managing Food. Unlike previous games, only Specialists require Food upkeep—regular Rural and Urban populations do not. However, starvation can still occur under specific conditions, such as having too many Specialists or when your Settlement suffers from very low Happiness. --></Replace>
+			<Text>ความอดอยากไม่ค่อยเกิดขึ้นใน Civilization VII เนื่องจากระบบการจัดการอาหารแบบใหม่ ที่แตกต่างจากภาคก่อน ๆ ตรงที่มีเพียงผู้เชี่ยวชาญ (Specialist) เท่านั้นที่ต้องใช้ทรัพยากรอาหารในการยังชีพ ประชากรทั่วไปทั้งในพื้นที่ชนบทและเมืองไม่จำเป็นต้องใช้ แต่ถึงอย่างนั้น ความอดอยากก็ยังสามารถเกิดขึ้นได้ในบางกรณี เช่น เมื่อนิคมของคุณมีผู้เชี่ยวชาญมากเกินไป หรือเมื่อค่าความสุขของนิคมลดลงอย่างรุนแรง</Text>		<!-- Starvation is uncommon in Civilization VII, thanks to the new approach to managing Food. Unlike previous games, only Specialists require Food upkeep—regular Rural and Urban populations do not. However, starvation can still occur under specific conditions, such as having too many Specialists or when your Settlement suffers from very low Happiness. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_8_CHAPTER_CONTENT_PARA_2" Language="th_TH">
-			<Text>หากผลผลิตอาหารสุทธิของถิ่นฐานคุณติดลบ ความอดอยากอาจเริ่มเกิดขึ้นได้ และหากเกิดภาวะอดอยากเต็มรูปแบบ จะส่งผลเสียต่อนิคมของคุณ โดยจะทำให้ค่าความสุขลดลง และสิ่งปลูกสร้างหรือสิ่งปรับปรุงอย่างใดอย่างหนึ่งถูกทำลาย คอยเฝ้าระวังปริมาณอาหารและความสุขของนิคมอยู่เสมอ เพื่อหลีกเลี่ยงผลกระทบจากความอดอยาก</Text>		<!-- If your Settlement’s net Food output turns negative, starvation may begin to set in. When starvation fully sets in, it will harm your Settlement by lowering Happiness and destroying one of its buildings or improvements. Always keep an eye on your Food supply and Settlement Happiness to avoid the consequences of starvation. --></Replace>
+			<Text>หากผลผลิตอาหารสุทธิของถิ่นฐานคุณติดลบ ความอดอยากอาจเริ่มเกิดขึ้นได้ และหากเกิดภาวะอดอยากเต็มรูปแบบ จะส่งผลเสียต่อนิคมของคุณ โดยจะทำให้ค่าความสุขลดลง และสิ่งปลูกสร้างหรือสิ่งปรับปรุงอย่างใดอย่างหนึ่งถูกทำลาย คอยเฝ้าระวังปริมาณอาหารและความสุขของนิคมอยู่เสมอ เพื่อหลีกเลี่ยงผลกระทบจากความอดอยาก</Text>		<!-- If your Settlement’s net Food output turns negative, starvation may begin to set in. When starvation fully sets in, it will harm your Settlement by lowering Happiness and destroying one of its buildings or improvements. Always keep an eye on your Food supply and Settlement Happiness to avoid the consequences of starvation. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOWN_8_CHAPTER_CONTENT_PARA_3" Language="th_TH">
 			<Text>เคล็ดลับ: หากเมืองของคุณกำลังขาดแคลนอาหาร ให้พิจารณาเปลี่ยนเมืองที่เชื่อมต่อให้ช่วยเลี้ยงดูเมืองหลัก หากปัญหาคือความสุขต่ำ การประจำการผู้บัญชาการระดับสูงในเมืองจะช่วยลดความไม่มีความสุขได้อย่างมาก</Text>		<!-- Tip: If your City is starving, consider specializing a connected Town to help feed it. If low Happiness is the issue, stationing a high-level Commander in the City can significantly reduce the Unhappiness it generates. -->
 		</Replace>
@@ -3706,6 +3990,93 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMPLAY_1_CHAPTER_CONTENT_PARA_1" Language="th_TH">
 			<Text>ในโหมดผู้เล่นหลายคน ผู้เล่นสามารถจัดตั้งทีมได้ โดยเลือกทีมเดียวกันจากเมนูแบบเลื่อนลงเมื่อตั้งค่าเกม</Text>		<!-- In Multiplayer, players can form teams. To set this up, players should select the same team in the team dropdown menu when creating a multiplayer game. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
+			<Text>Tip: Treat Legends as a rewarding extra layer rather than a mandatory system. Play your way, experiment freely, and you'll naturally find yourself unlocking bonuses and enhancing your civilization’s long-term capabilities.</Text>		<!-- Tip: Treat Legends as a rewarding extra layer rather than a mandatory system. Play your way, experiment freely, and you'll naturally find yourself unlocking bonuses and enhancing your civilization’s long-term capabilities. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_2_TITLE" Language="th_TH">
+			<Text>Legends XP</Text>		<!-- Legends XP -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_2_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>Legend XP is the currency that drives progression within the Legends system, gained exclusively by completing Legend Challenges. Each completed challenge awards a certain amount of XP toward its corresponding Legend Path: Foundation Challenges reward XP for your global Foundation Path, while Leader Challenges boost specific Leader Paths.</Text>		<!-- Legend XP is the currency that drives progression within the Legends system, gained exclusively by completing Legend Challenges. Each completed challenge awards a certain amount of XP toward its corresponding Legend Path: Foundation Challenges reward XP for your global Foundation Path, while Leader Challenges boost specific Leader Paths. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_2_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>The amount of XP earned depends on a challenge's complexity. Crucially, this XP accumulates even if you lose the game, meaning every match contributes to your overall Legends progression, win or lose. There's no shortcut—only gameplay accomplishments earn Legend XP, making each achievement feel valuable.</Text>		<!-- The amount of XP earned depends on a challenge's complexity. Crucially, this XP accumulates even if you lose the game, meaning every match contributes to your overall Legends progression, win or lose. There's no shortcut—only gameplay accomplishments earn Legend XP, making each achievement feel valuable. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_2_CHAPTER_CONTENT_PARA_3" Language="th_TH">
+			<Text>Tip: Don’t abandon tough matches early. Completing a few extra challenges can still provide valuable Legend XP, making your efforts worthwhile even in defeat.</Text>		<!-- Tip: Don’t abandon tough matches early. Completing a few extra challenges can still provide valuable Legend XP, making your efforts worthwhile even in defeat. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_3_TITLE" Language="th_TH">
+			<Text>Legend Challenges</Text>		<!-- Legend Challenges -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_3_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>Legend Challenges are special objectives you can complete while playing Civilization VII. These tasks act like quests or achievements, offering clear goals that range from simple feats like constructing your first Wonder to ambitious achievements such as dominating a victory type. Challenges come in two forms: Foundation Challenges, which can be completed with any leader, and Leader Challenges, unique to specific leaders and their abilities.</Text>		<!-- Legend Challenges are special objectives you can complete while playing Civilization VII. These tasks act like quests or achievements, offering clear goals that range from simple feats like constructing your first Wonder to ambitious achievements such as dominating a victory type. Challenges come in two forms: Foundation Challenges, which can be completed with any leader, and Leader Challenges, unique to specific leaders and their abilities. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_3_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>Whenever you fulfill the conditions of a challenge, you immediately earn Legend XP. This XP advances your Legend Paths, making each completed challenge meaningful—even if your current match isn’t going well. You can easily track your ongoing and completed challenges through the Challenge Log, helping you target goals aligned with your strategy.</Text>		<!-- Whenever you fulfill the conditions of a challenge, you immediately earn Legend XP. This XP advances your Legend Paths, making each completed challenge meaningful—even if your current match isn’t going well. You can easily track your ongoing and completed challenges through the Challenge Log, helping you target goals aligned with your strategy. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_3_CHAPTER_CONTENT_PARA_3" Language="th_TH">
+			<Text>Tip: Regularly check your Challenges Log. Completing even a few objectives can turn a losing game into progress for your long-term Legend growth.</Text>		<!-- Tip: Regularly check your Challenges Log. Completing even a few objectives can turn a losing game into progress for your long-term Legend growth. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_TITLE" Language="th_TH">
+			<Text>Legend Paths</Text>		<!-- Legend Paths -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_CHAPTER_BASICS_TITLE" Language="th_TH">
+			<Text>Basics</Text>		<!-- Basics -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_CHAPTER_BASICS_PARA_1" Language="th_TH">
+			<Text>Legend Paths represent your overall advancement within Civilization VII's Legends system. They function like experience tracks, leveling up as you earn Legend XP by completing Legend Challenges. There are two main types: the universal [B]Foundation Path[/B] and specialized [B]Leader Paths[/B] specific to each leader.</Text>		<!-- Legend Paths represent your overall advancement within Civilization VII's Legends system. They function like experience tracks, leveling up as you earn Legend XP by completing Legend Challenges. There are two main types: the universal [B]Foundation Path[/B] and specialized [B]Leader Paths[/B] specific to each leader. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_CHAPTER_BASICS_PARA_2" Language="th_TH">
+			<Text>Balance your efforts between different paths to maximize your long-term benefits. The Foundation Path offers broad rewards, while Leader Paths grant specialized advantages.</Text>		<!-- Balance your efforts between different paths to maximize your long-term benefits. The Foundation Path offers broad rewards, while Leader Paths grant specialized advantages. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_CHAPTER_FOUNDATION_TITLE" Language="th_TH">
+			<Text>Foundation Path</Text>		<!-- Foundation Path -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_CHAPTER_FOUNDATION_PARA_1" Language="th_TH">
+			<Text>The Foundation Path tracks your progress across all your games, regardless of leader choice. It has 50 levels, each unlocking various rewards, such as cosmetic profile upgrades (badges, banners, titles) and powerful gameplay bonuses called [B]Mementos[/B]. Importantly, leveling this path also unlocks [B]Memento Slots[/B], essential for equipping these bonuses.</Text>		<!-- The Foundation Path tracks your progress across all your games, regardless of leader choice. It has 50 levels, each unlocking various rewards, such as cosmetic profile upgrades (badges, banners, titles) and powerful gameplay bonuses called [B]Mementos[/B]. Importantly, leveling this path also unlocks [B]Memento Slots[/B], essential for equipping these bonuses. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_CHAPTER_FOUNDATION_PARA_2" Language="th_TH">
+			<Text>Prioritize early levels in your Foundation Path to quickly unlock your first Memento Slots, significantly enhancing your gameplay options.</Text>		<!-- Prioritize early levels in your Foundation Path to quickly unlock your first Memento Slots, significantly enhancing your gameplay options. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_CHAPTER_LEADER_TITLE" Language="th_TH">
+			<Text>Leader Path</Text>		<!-- Leader Path -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_CHAPTER_LEADER_PARA_1" Language="th_TH">
+			<Text>Each leader in Civilization VII has their own unique Leader Path, which levels up through Leader Challenges specific to their abilities and history. Leader Paths go up to level 10, offering leader-themed Mementos, cosmetic items, and special gameplay advantages tailored to their playstyle.</Text>		<!-- Each leader in Civilization VII has their own unique Leader Path, which levels up through Leader Challenges specific to their abilities and history. Leader Paths go up to level 10, offering leader-themed Mementos, cosmetic items, and special gameplay advantages tailored to their playstyle. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_CHAPTER_LEADER_PARA_2" Language="th_TH">
+			<Text>Tip: Experiment with different leaders regularly to unlock a diverse set of Leader Path rewards. Mementoes unlocked for one leader can be used with any other leaders as well. Pairing specialized mementoes with their respective leaders can often unlock powerful synergies.</Text>		<!-- Tip: Experiment with different leaders regularly to unlock a diverse set of Leader Path rewards. Mementoes unlocked for one leader can be used with any other leaders as well. Pairing specialized mementoes with their respective leaders can often unlock powerful synergies. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_TITLE" Language="th_TH">
+			<Text>Mementos</Text>		<!-- Mementos -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_BASICS_TITLE" Language="th_TH">
+			<Text>Basics</Text>		<!-- Basics -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_BASICS_PARA_1" Language="th_TH">
+			<Text>Mementos are special items earned from your Legends progression, which can be equipped before each game to provide unique in-game bonuses. They function like gear for your leader, giving effects ranging from basic stat boosts to situational advantages. Every leader can equip up to two Mementos, offering powerful strategic flexibility.</Text>		<!-- Mementos are special items earned from your Legends progression, which can be equipped before each game to provide unique in-game bonuses. They function like gear for your leader, giving effects ranging from basic stat boosts to situational advantages. Every leader can equip up to two Mementos, offering powerful strategic flexibility. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_BASICS_PARA_2" Language="th_TH">
+			<Text>Carefully choose your Mementos before starting a game, matching them to your desired victory type or compensating for your leader's weaknesses. [B]Keep in mind that Mementos can also be swapped between Ages.[/B]</Text>		<!-- Carefully choose your Mementos before starting a game, matching them to your desired victory type or compensating for your leader's weaknesses. [B]Keep in mind that Mementos can also be swapped between Ages.[/B] -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_UNLOCK_TITLE" Language="th_TH">
+			<Text>Unlocking and Collection</Text>		<!-- Unlocking and Collection -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_UNLOCK_PARA_1" Language="th_TH">
+			<Text>You unlock Mementos by reaching specific milestones within your Legend Paths. Some Mementos come from higher Foundation Path levels, while many are leader-specific rewards earned by progressing through Leader Paths. Once unlocked, they permanently join your collection and can be freely equipped by any leader.</Text>		<!-- You unlock Mementos by reaching specific milestones within your Legend Paths. Some Mementos come from higher Foundation Path levels, while many are leader-specific rewards earned by progressing through Leader Paths. Once unlocked, they permanently join your collection and can be freely equipped by any leader. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_UNLOCK_PARA_2" Language="th_TH">
+			<Text>Unlocking a variety of Mementos by playing multiple leaders can significantly broaden your strategic options, even if you later return to your favorite leader.</Text>		<!-- Unlocking a variety of Mementos by playing multiple leaders can significantly broaden your strategic options, even if you later return to your favorite leader. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_STRAT_TITLE" Language="th_TH">
+			<Text>Strategies and Synergies</Text>		<!-- Strategies and Synergies -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_STRAT_PARA_1" Language="th_TH">
+			<Text>The variety of nearly 100 unique Mementos allows for extensive strategic combinations. Some offer straightforward bonuses, such as extra Economic or Cultural points at game start, while others trigger situationally, like spawning free units after successful espionage actions. Cleverly combining Mementos can lead to powerful or unique strategies, amplifying your strengths or mitigating weaknesses.</Text>		<!-- The variety of nearly 100 unique Mementos allows for extensive strategic combinations. Some offer straightforward bonuses, such as extra Economic or Cultural points at game start, while others trigger situationally, like spawning free units after successful espionage actions. Cleverly combining Mementos can lead to powerful or unique strategies, amplifying your strengths or mitigating weaknesses. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_STRAT_PARA_2" Language="th_TH">
+			<Text>Tip: Experiment with different Memento combinations to discover powerful synergies. An unexpected pairing might provide just the advantage you need for your chosen victory path.</Text>		<!-- Tip: Experiment with different Memento combinations to discover powerful synergies. An unexpected pairing might provide just the advantage you need for your chosen victory path. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMPLAY_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>เมื่ออยู่ในทีมเดียวกัน ผู้เล่นจะผูกพันในพันธมิตรที่ไม่อาจถูกยกเลิก และมีระดับความสัมพันธ์สูงสุด ต่างจากพันธมิตรทั่วไป สมาชิกทีมจะเห็นแผนที่ร่วมกัน สามารถใช้การทูตระหว่างกันได้ แต่ห้ามใช้สายลับต่อกัน</Text>		<!-- When playing on a team, teammates are locked into an Alliance that cannot be broken and are locked at the max Relationship level. Unlike a standard Alliance, teammates share map visibility. Teammates may use Diplomatic Actions with one another but are prohibited from using Espionage Actions. -->
@@ -5069,6 +5440,9 @@
 		<Replace Tag="LOC_ATTR_PLOT_YIELD_CHANGES" Language="th_TH">
 			<Text>การเปลี่ยนแปลงผลผลิตในแปลง</Text>		<!-- Plot Yield Changes -->
 		</Replace>
+		<Replace Tag="LOC_ATTR_SLOTTED_GREAT_WORKS" Language="th_TH">
+			<Text>From Slotted Great Works</Text>		<!-- From Slotted Great Works -->
+		</Replace>
 		<Replace Tag="LOC_ATTR_PLOT_PERCENT_YIELD_CHANGES" Language="th_TH">
 			<Text>เปอร์เซ็นต์การเปลี่ยนแปลงผลผลิต</Text>		<!-- Plot Yield Percent Change -->
 		</Replace>
@@ -5119,6 +5493,9 @@
 		</Replace>
 		<Replace Tag="LOC_ATTR_YIELD_FROM_PROJECTS" Language="th_TH">
 			<Text>จากโครงการ</Text>		<!-- From Projects -->
+		</Replace>
+		<Replace Tag="LOC_ATTR_YIELD_PER_ACTIVE_CIV_TRADITION" Language="th_TH">
+			<Text>From Slotted Traditions</Text>		<!-- From Slotted Traditions -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_RESOURCE_STOCKPILE_YIELD" Language="th_TH">
 			<Text>จากคลังสินค้า</Text>		<!-- From Stockpiles -->
@@ -5174,6 +5551,9 @@
 		<Replace Tag="LOC_ATTR_SETTLEMENTS_NEGATIVE_CAP" Language="th_TH">
 			<Text>ถิ่นฐานติดลบขีดจำกัด</Text>		<!-- Negative Settlement Limit -->
 		</Replace>
+		<Replace Tag="LOC_ATTR_YIELDS_FROM_ALL_POPULATION" Language="th_TH">
+			<Text>Population</Text>		<!-- Population -->
+		</Replace>
 		<Replace Tag="LOC_ATTR_OVER_CAP_NOT_NEGATIVE" Language="th_TH">
 			<Text>ถิ่นฐานเกินขีดจำกัดไม่ติดลบ</Text>		<!-- Settlements Over Limit Not Negative -->
 		</Replace>
@@ -5221,6 +5601,9 @@
 		</Replace>
 		<Replace Tag="LOC_ATTR_TRADE_HUB_QUANTITY" Language="th_TH">
 			<Text>ศูนย์กลางการค้า จำนวน</Text>		<!-- Trade Hub Quantity -->
+		</Replace>
+		<Replace Tag="LOC_ATTR_YIELD_PER_ALL_POP" Language="th_TH">
+			<Text>Yield per Population</Text>		<!-- Yield per Population -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_NUM_LOCAL_RESOURCES" Language="th_TH">
 			<Text>ทรัพยากรท้องถิ่น</Text>		<!-- Local Resources -->
@@ -5351,6 +5734,9 @@
 		<Replace Tag="LOC_ATTR_NUM_NATURAL_WONDERS_FOLLOWING_RELIGION" Language="th_TH">
 			<Text>ผลผลิตจากธรรมชาติในเมือง ที่นับถือศาสนาของคุณ</Text>		<!-- Yield from Natural Wonders in Cities following your Religion -->
 		</Replace>
+		<Replace Tag="LOC_ATTR_NUM_ALLIANCES" Language="th_TH">
+			<Text>Yield from Diplomatic Alliances</Text>		<!-- Yield from Diplomatic Alliances -->
+		</Replace>
 		<Replace Tag="ATTR_NUM_BIOMES_FOLLOWING_RELIGION" Language="th_TH">
 			<Text>ผลผลิตจากระบบนิเวศในเมือง ที่นับถือศาสนาของคุณ</Text>		<!-- Yield from Biomes in Cities following your Religion -->
 		</Replace>
@@ -5362,6 +5748,9 @@
 		</Replace>
 		<Replace Tag="LOC_ATTR_YIELDS_FROM_RIVERS" Language="th_TH">
 			<Text>ผลผลิตจากสิ่งก่อสร้างบนแม่น้ำ</Text>		<!-- Yield from Constructibles on Rivers -->
+		</Replace>
+		<Replace Tag="LOC_ATTR_PLOT_YIELD_UNIQUE_NATURAL_WONDERS" Language="th_TH">
+			<Text>Yield from number of Unique Natural Wonders</Text>		<!-- Yield from number of Unique Natural Wonders -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_NUM_DISASTER" Language="th_TH">
 			<Text>ผลผลิตจากภัยพิบัติ</Text>		<!-- Yield from Disasters -->
@@ -5711,6 +6100,12 @@
 		<Replace Tag="LOC_RULESET_DESCRIPTION" Language="th_TH">
 			<Text>เลือกสถานการณ์และกฎสำหรับเกม</Text>		<!-- Select the scenario and rules for the game -->
 		</Replace>
+		<Replace Tag="LOC_AGE_COUNTDOWN_NAME" Language="th_TH">
+			<Text>End of Age Countdown</Text>		<!-- End of Age Countdown -->
+		</Replace>
+		<Replace Tag="LOC_AGE_COUNTDOWN_DESCRIPTION" Language="th_TH">
+			<Text>The numbers of turns at the end of each age before an age transition. During this time, no age progression will be added from any source other than elapsed turns.</Text>		<!-- The numbers of turns at the end of each age before an age transition. During this time, no age progression will be added from any source other than elapsed turns. -->
+		</Replace>
 		<Replace Tag="LOC_RULESET_STANDARD_NAME" Language="th_TH">
 			<Text>กฎมาตรฐาน</Text>		<!-- Standard Rules -->
 		</Replace>
@@ -5794,6 +6189,12 @@
 		</Replace>
 		<Replace Tag="LOC_DIFFICULTY_EMPEROR_DESCRIPTION" Language="th_TH">
 			<Text>เพิ่มระดับความยากด้วยศัตรูที่แข็งแกร่งกว่า</Text>		<!-- Increases difficulty with stronger opponents. -->
+		</Replace>
+		<Replace Tag="LOC_DIFFICULTY_CUSTOM_NAME" Language="th_TH">
+			<Text>Custom</Text>		<!-- Custom -->
+		</Replace>
+		<Replace Tag="LOC_DIFFICULTY_CUSTOM_DESCRIPTION" Language="th_TH">
+			<Text>Custom difficulty settings configured under advanced options.</Text>		<!-- Custom difficulty settings configured under advanced options. -->
 		</Replace>
 		<Replace Tag="LOC_GAME_TURN_TIMER_TIME_TOOLTIP" Language="th_TH">
 			<Text>เวลาในแต่ละเทิร์น ที่ใช้โดยโหมดเครื่องจับเวลามาตรฐาน (เป็นวินาที)</Text>		<!-- Turn Time used by the Standard Turn Timer mode (in seconds). -->
@@ -5997,9 +6398,11 @@
 			<Text>มาตรฐาน</Text>		<!-- Standard -->
 		</Replace>
 		<Replace Tag="LOC_MAPSIZE_LARGE_NAME" Language="th_TH">
-			<Text>ใหญ่</Text>		<!-- Large --></Replace>
+			<Text>ใหญ่</Text>		<!-- Large -->
+		</Replace>
 		<Replace Tag="LOC_MAPSIZE_HUGE_NAME" Language="th_TH">
-			<Text>ขนาดใหญ่</Text>		<!-- Huge --></Replace>
+			<Text>ขนาดใหญ่</Text>		<!-- Huge -->
+		</Replace>
 		<Replace Tag="LOC_MAX_TURNS_NAME" Language="th_TH">
 			<Text>เทิร์นสูงสุด</Text>		<!-- Max Turns -->
 		</Replace>
@@ -6009,11 +6412,53 @@
 		<Replace Tag="LOC_SINGLEAGE_NAME" Language="th_TH">
 			<Text>ไม่มีการเปลี่ยนแปลงยุค</Text>		<!-- No Age Transitions -->
 		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_ENABLE_SCORE_VICTORY" Language="th_TH">
+			<Text>Score Victory (Final Age)</Text>		<!-- Score Victory (Final Age) -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_ENABLE_SCORE_VICTORY_DESCRIPTION" Language="th_TH">
+			<Text>Enables the [B]Score[/B] victory when the final age has ended.  Turning this off causes the final age to run until a player has achieved a victory.</Text>		<!-- Enables the [B]Score[/B] victory when the final age has ended.  Turning this off causes the final age to run until a player has achieved a victory. -->
+		</Replace>
+		<Replace Tag="LOC_SETUP_NO_CIV_UNLOCKS_NAME" Language="th_TH">
+			<Text>Bypass Civilization Unlocks</Text>		<!-- Bypass Civilization Unlocks -->
+		</Replace>
+		<Replace Tag="LOC_SETUP_NO_CIV_UNLOCKS_DESC" Language="th_TH">
+			<Text>All Civilizations are always unlocked at each age transition.</Text>		<!-- All Civilizations are always unlocked at each age transition. -->
+		</Replace>
+		<Replace Tag="LOC_SETUP_LEGACY_PATHS_NAME" Language="th_TH">
+			<Text>Legacy Paths</Text>		<!-- Legacy Paths -->
+		</Replace>
+		<Replace Tag="LOC_SETUP_LEGACY_PATHS_DESC" Language="th_TH">
+			<Text>Untick checkboxes to disable legacy paths</Text>		<!-- Untick checkboxes to disable legacy paths -->
+		</Replace>
+		<Replace Tag="LOC_SETUP_CRISIS_NAME" Language="th_TH">
+			<Text>Crises</Text>		<!-- Crises -->
+		</Replace>
+		<Replace Tag="LOC_SETUP_CRISIS_DESC" Language="th_TH">
+			<Text>Select which crises will be available in the game. This does not guarentee all selected will be used.</Text>		<!-- Select which crises will be available in the game. This does not guarentee all selected will be used. -->
+		</Replace>
+		<Replace Tag="LOC_SETUP_NATURAL_WONDERS_NAME" Language="th_TH">
+			<Text>Natural Wonders</Text>		<!-- Natural Wonders -->
+		</Replace>
+		<Replace Tag="LOC_SETUP_NATURAL_WONDERS_DESC" Language="th_TH">
+			<Text>Select which Natural Wonders will be available in the game. This does not guarentee all selected will be used.</Text>		<!-- Select which Natural Wonders will be available in the game. This does not guarentee all selected will be used. -->
+		</Replace>
 		<Replace Tag="LOC_SINGLEAGE_DESCRIPTION" Language="th_TH">
 			<Text>เล่นเพียงยุคเดียวเท่านั้น อย่าย้ายไปยังยุคถัดไป</Text>		<!-- Only play a single Age.  Do not Transition to later Ages. -->
 		</Replace>
 		<Replace Tag="LOC_GAMENAME_NAME" Language="th_TH">
 			<Text>ชื่อเกม</Text>		<!-- Game Name -->
+		</Replace>
+		<Replace Tag="LOC_AGE_TRANSITION_SETTING_KEEP_MORE_NAME" Language="th_TH">
+			<Text>Continuity</Text>		<!-- Continuity -->
+		</Replace>
+		<Replace Tag="LOC_AGE_TRANSITION_SETTING_KEEP_MORE_DESCRIPTION" Language="th_TH">
+			<Text>Default setting. Retain most of your empire and units at Age Transition.</Text>		<!-- Default setting. Retain most of your empire and units at Age Transition. -->
+		</Replace>
+		<Replace Tag="LOC_AGE_TRANSITION_SETTING_ORIGINAL_NAME" Language="th_TH">
+			<Text>Regroup</Text>		<!-- Regroup -->
+		</Replace>
+		<Replace Tag="LOC_AGE_TRANSITION_SETTING_ORIGINAL_DESCRIPTION" Language="th_TH">
+			<Text>Players' empires will reset more aggressively on Age Transition, including fewer units carried over. Leads to a more balanced start between empires in the next Age. This is the original Civ 7 Age Transition experience.</Text>		<!-- Players' empires will reset more aggressively on Age Transition, including fewer units carried over. Leads to a more balanced start between empires in the next Age. This is the original Civ 7 Age Transition experience. -->
 		</Replace>
 		<Replace Tag="LOC_GAMENAME_DESCRIPTION" Language="th_TH">
 			<Text>ตั้งชื่อเกมมัลติเพลเยอร์</Text>		<!-- Sets the name of the multiplayer game -->
@@ -6140,6 +6585,18 @@
 		</Replace>
 		<Replace Tag="LOC_TAG_CONSTRUCTIBLE_CULTURE" Language="th_TH">
 			<Text>วัฒนธรรม</Text>		<!-- Culture -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_CLASS_CULTURE_NAME" Language="th_TH">
+			<Text>Culture</Text>		<!-- Culture -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_CLASS_ECONOMIC_NAME" Language="th_TH">
+			<Text>Economic</Text>		<!-- Economic -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_CLASS_MILITARY_NAME" Language="th_TH">
+			<Text>Military</Text>		<!-- Military -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_CLASS_SCIENCE_NAME" Language="th_TH">
+			<Text>Science</Text>		<!-- Science -->
 		</Replace>
 		<Replace Tag="LOC_TAG_CONSTRUCTIBLE_HAPPINESS" Language="th_TH">
 			<Text>ความสุข</Text>		<!-- Happiness -->
@@ -7797,6 +8254,9 @@
 		</Replace>
 		<Replace Tag="LOC_GRIEVANCE_FROM_STORYLET" Language="th_TH">
 			<Text>จากเหตุการณ์เล่าเรื่อง</Text>		<!-- From a Narrative Event -->
+		</Replace>
+		<Replace Tag="LOC_HISTORICAL_EVENT_FADE" Language="th_TH">
+			<Text>Relationship Decay Over Time</Text>		<!-- Relationship Decay Over Time -->
 		</Replace>
 		<Replace Tag="LOC_GRIEVANCE_FROM_REVEALED_TS_ESPIONAGE" Language="th_TH">
 			<Text>เปิดเผยข้อมูลลับสุดยอดเกี่ยวกับการจารกรรม</Text>		<!-- Revealed Top Secret Espionage -->
@@ -9999,10 +10459,12 @@
 		</Replace>
 		<Replace Tag="LOC_BUILDING_PLACEMENT_REMOVE_IMPOVEMENT_BODY" Language="th_TH">
 			<Text>การเลือกช่องนี้จะลบ {1_CurrentImprovementName} ที่มีอยู่เพื่อเปิดทางให้กับ {2_WonderName} คุณต้องการดำเนินการต่อหรือไม่?
-[n][b]ประชากรชนบทจะถูกคืนกลับ[/b] และสามารถย้ายไปยังช่องอื่นได้ทันที</Text>		<!-- Selecting this tile will remove the existing {1_CurrentImprovementName} to make way for the {2_WonderName}. Continue?[n][b]The Rural Population is refunded[/b] and can immediately be placed on another tile. --></Replace>
+[n][b]ประชากรชนบทจะถูกคืนกลับ[/b] และสามารถย้ายไปยังช่องอื่นได้ทันที</Text>		<!-- Selecting this tile will remove the existing {1_CurrentImprovementName} to make way for the {2_WonderName}. Continue?[n][b]The Rural Population is refunded[/b] and can immediately be placed on another tile. -->
+		</Replace>
 		<Replace Tag="LOC_BUILDING_PLACEMENT_REMOVE_GENERIC_IMPOVEMENT_BODY" Language="th_TH">
 			<Text>การเลือกช่องนี้จะลบการพัฒนาที่มีอยู่ เพื่อเปิดทางให้กับ {1_WonderName} คุณต้องการดำเนินการต่อหรือไม่?
-[n][b]ประชากรชนบทจะถูกคืนกลับ[/b] และสามารถย้ายไปยังช่องอื่นได้ทันที</Text>		<!-- Selecting this tile will remove the existing Improvement to make way for the {1_WonderName}. Continue?[n][b]The Rural Population is refunded[/b] and can immediately be placed on another tile. --></Replace>
+[n][b]ประชากรชนบทจะถูกคืนกลับ[/b] และสามารถย้ายไปยังช่องอื่นได้ทันที</Text>		<!-- Selecting this tile will remove the existing Improvement to make way for the {1_WonderName}. Continue?[n][b]The Rural Population is refunded[/b] and can immediately be placed on another tile. -->
+		</Replace>
 		<Replace Tag="LOC_BUILDING_PLACEMENT_CREATE_URBAN_TILE" Language="th_TH">
 			<Text>สร้างเขตเมือง?</Text>		<!-- Create Urban District? -->
 		</Replace>
@@ -10628,12 +11090,14 @@
 			<Text>ฟรีดริช, โอบลีค</Text>		<!-- Friedrich, Oblique -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_FRIEDRICH_DESCRIPTION" Language="th_TH">
-			<Text>ผู้บัญชาการทหาร จะมาพร้อม เหรียญเชิดชู, โดยให้พวกเขามีระยะการบังคับบัญชาเพิ่มขึ้น 1 ยูนิต รับยูนิตทหารจากการวิจัย เทคโนโลยีระดับเชี่ยวชาญ หรือ สร้างอาคารด้านวิทยาศาสตร์</Text>		<!-- Army Commanders start with the Merit Commendation, granting them +1 Command Radius. Gain an Infantry Unit when you complete a Technology Mastery or construct a Science Building. --></Replace>
+			<Text>ผู้บัญชาการทหาร จะมาพร้อม เหรียญเชิดชู, โดยให้พวกเขามีระยะการบังคับบัญชาเพิ่มขึ้น 1 ยูนิต รับยูนิตทหารจากการวิจัย เทคโนโลยีระดับเชี่ยวชาญ หรือ สร้างอาคารด้านวิทยาศาสตร์</Text>		<!-- Army Commanders start with the Merit Commendation, granting them +1 Command Radius. Gain an Infantry Unit when you complete a Technology Mastery or construct a Science Building. -->
+		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_FRIEDRICH_ABILITY_NAME" Language="th_TH">
 			<Text>สถาบันการศึกษาแห่งเบอร์ลิน</Text>		<!-- Berlin Academy -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_FRIEDRICH_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]ผู้บัญชาการทหาร [/B]จะมาพร้อม [B]เหรียญเชิดชู[/B] มอบให้พวกเขา [B]+1 ระยะในการสั่งการ[/B][LI]รับ [B]ยูนิตทหารราบ[/B] เมื่อคุณวิจัย [B]เทคโนโลยีระดับเชี่ยวชาญ[/B] หรือสร้าง [B]อาคารด้านวิทยาศาสตร์[/B][/LIST]</Text>		<!-- [LIST][LI][B]Army Commanders [/B]start with the [B]Merit Commendation[/B], granting them [B]+1 Command Radius[/B].[LI]Gain an [B]Infantry Unit [/B]when you complete a [B]Technology Mastery[/B] or construct a [B]Science Building[/B].[/LIST] --></Replace>
+			<Text>[LIST][LI][B]ผู้บัญชาการทหาร [/B]จะมาพร้อม [B]เหรียญเชิดชู[/B] มอบให้พวกเขา [B]+1 ระยะในการสั่งการ[/B][LI]รับ [B]ยูนิตทหารราบ[/B] เมื่อคุณวิจัย [B]เทคโนโลยีระดับเชี่ยวชาญ[/B] หรือสร้าง [B]อาคารด้านวิทยาศาสตร์[/B][/LIST]</Text>		<!-- [LIST][LI][B]Army Commanders [/B]start with the [B]Merit Commendation[/B], granting them [B]+1 Command Radius[/B].[LI]Gain an [B]Infantry Unit [/B]when you complete a [B]Technology Mastery[/B] or construct a [B]Science Building[/B].[/LIST] -->
+		</Replace>
 		<Replace Tag="LOC_LEADER_HARRIET_TUBMAN_NAME" Language="th_TH">
 			<Text>แฮเรียต ทับแมน</Text>		<!-- Harriet Tubman -->
 		</Replace>
@@ -10650,12 +11114,14 @@
 			<Text>แฮตเชปซุต</Text>		<!-- Hatshepsut -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_HATSHEPSUT_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับทรัพยากรเฉพาะ ทั้งหมด +15% [icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้างอาคารและสิ่งมหัศจรรย์ในเมืองที่ติดกับแม่น้ำใหญ่</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture for every unique Resource. +15% [icon:YIELD_PRODUCTION] Production towards constructing Buildings and Wonders in Cities adjacent to Navigable Rivers. --></Replace>
+			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับทรัพยากรเฉพาะ ทั้งหมด +15% [icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้างอาคารและสิ่งมหัศจรรย์ในเมืองที่ติดกับแม่น้ำใหญ่</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture for every unique Resource. +15% [icon:YIELD_PRODUCTION] Production towards constructing Buildings and Wonders in Cities adjacent to Navigable Rivers. -->
+		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_HATSHEPSUT_ABILITY_NAME" Language="th_TH">
 			<Text>พระชายาของอามุน</Text>		<!-- God's Wife of Amun -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_HATSHEPSUT_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+1 [icon:YIELD_CULTURE] วัฒนธรรม [/B]ต่อยุค สำหรับ [B]ทรัพยากรเฉพาะ[/B][LI][B]+15% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการก่อสร้าง [B]อาคาร [/B]และ [B]สิ่งมหัศจรรย์ [/B]ใน [B]เมือง [/B]ที่อยู่ใกล้กับ [B]แม่น้ำใหญ่[/B][/LIST]</Text>		<!-- [LIST][LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]per Age for every unique [B]Resource[/B].[LI][B]+15% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Buildings [/B]and [B]Wonders [/B]in [B]Cities [/B]adjacent to [B]Navigable Rivers[/B].[/LIST] --></Replace>
+			<Text>[LIST][LI][B]+1 [icon:YIELD_CULTURE] วัฒนธรรม [/B]ต่อยุค สำหรับ [B]ทรัพยากรเฉพาะ[/B][LI][B]+15% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการก่อสร้าง [B]อาคาร [/B]และ [B]สิ่งมหัศจรรย์ [/B]ใน [B]เมือง [/B]ที่อยู่ใกล้กับ [B]แม่น้ำใหญ่[/B][/LIST]</Text>		<!-- [LIST][LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]per Age for every unique [B]Resource[/B].[LI][B]+15% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Buildings [/B]and [B]Wonders [/B]in [B]Cities [/B]adjacent to [B]Navigable Rivers[/B].[/LIST] -->
+		</Replace>
 		<Replace Tag="LOC_LEADER_HIMIKO_NAME" Language="th_TH">
 			<Text>ฮิมิโกะ, ราชินีแห่งแคว้นวะ</Text>		<!-- Himiko, Queen of Wa -->
 		</Replace>
@@ -10702,12 +11168,14 @@
 			<Text>โฮเซ รีซัล</Text>		<!-- José Rizal -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_JOSE_RIZAL_DESCRIPTION" Language="th_TH">
-			<Text>เมื่อได้รับรางวัลจากกิจกรรมบอกเรื่องราว จะได้รับเพิ่มอีก 20 [icon:YIELD_CULTURE] วัฒนธรรม, [icon:YIELD_GOLD] ทอง และ [icon:YIELD_INFLUENCE] อิทธิพล ต่อยุค, มีเหตุการณ์เรื่องเล่าเพิ่มเติม ระยะเวลาเฉลิมฉลองเพิ่มขึ้น 50% ความสุข [icon:YIELD_HAPPINESS] ต่อการเฉลิมฉลองเพิ่มขึ้น 50%</Text>		<!-- When gaining rewards from a Narrative Event, gain an additional 20 [icon:YIELD_CULTURE] Culture, [icon:YIELD_GOLD] Gold and [icon:YIELD_INFLUENCE] Influence per Age. Has additional Narrative Events. +50% Celebration duration. +50% [icon:YIELD_HAPPINESS] Happiness towards Celebrations. --></Replace>
+			<Text>เมื่อได้รับรางวัลจากกิจกรรมบอกเรื่องราว จะได้รับเพิ่มอีก 20 [icon:YIELD_CULTURE] วัฒนธรรม, [icon:YIELD_GOLD] ทอง และ [icon:YIELD_INFLUENCE] อิทธิพล ต่อยุค, มีเหตุการณ์เรื่องเล่าเพิ่มเติม ระยะเวลาเฉลิมฉลองเพิ่มขึ้น 50% ความสุข [icon:YIELD_HAPPINESS] ต่อการเฉลิมฉลองเพิ่มขึ้น 50%</Text>		<!-- When gaining rewards from a Narrative Event, gain an additional 20 [icon:YIELD_CULTURE] Culture, [icon:YIELD_GOLD] Gold and [icon:YIELD_INFLUENCE] Influence per Age. Has additional Narrative Events. +50% Celebration duration. +50% [icon:YIELD_HAPPINESS] Happiness towards Celebrations. -->
+		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_JOSE_RIZAL_ABILITY_NAME" Language="th_TH">
 			<Text>วีรบุรุษแห่งชาติ</Text>		<!-- Pambansang Bayani -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_JOSE_RIZAL_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]เมื่อได้รับรางวัลจาก [B]เหตุการณ์เรื่องเล่า[/B] จะได้รับเพิ่มอีก 20 [B][icon:YIELD_CULTURE] วัฒนธรรม[/B], [B][icon:YIELD_GOLD] ทอง[/B] และ [B][icon:YIELD_INFLUENCE] อิทธิพล[/B] ต่อยุค[LI]มี [B]เหตุการณ์เรื่องเล่า[/B] เพิ่มเติม[LI][B]+50% ระยะเวลาเฉลิมฉลอง [/B][LI][B]+50% [icon:YIELD_HAPPINESS] ความสุข [/B]ต่อ [B]การเฉลิมฉลอง[/B][/LIST]</Text>		<!-- [LIST][LI]When gaining rewards from a [B]Narrative Event[/B], gain an additional [B]20 [icon:YIELD_CULTURE] Culture [/B], [icon:YIELD_GOLD] [B]Gold [/B] and [icon:YIELD_DIPLOMACY] [B]Influence [/B]per Age.[LI]Has additional [B]Narrative Events[/B].[LI][B]+50% Celebration [/B]duration.[LI][B]+50% [icon:YIELD_HAPPINESS] Happiness [/B]towards [B]Celebrations[/B].[/LIST] --></Replace>
+			<Text>[LIST][LI]เมื่อได้รับรางวัลจาก [B]เหตุการณ์เรื่องเล่า[/B] จะได้รับเพิ่มอีก 20 [B][icon:YIELD_CULTURE] วัฒนธรรม[/B], [B][icon:YIELD_GOLD] ทอง[/B] และ [B][icon:YIELD_INFLUENCE] อิทธิพล[/B] ต่อยุค[LI]มี [B]เหตุการณ์เรื่องเล่า[/B] เพิ่มเติม[LI][B]+50% ระยะเวลาเฉลิมฉลอง [/B][LI][B]+50% [icon:YIELD_HAPPINESS] ความสุข [/B]ต่อ [B]การเฉลิมฉลอง[/B][/LIST]</Text>		<!-- [LIST][LI]When gaining rewards from a [B]Narrative Event[/B], gain an additional [B]20 [icon:YIELD_CULTURE] Culture [/B], [icon:YIELD_GOLD] [B]Gold [/B] and [icon:YIELD_DIPLOMACY] [B]Influence [/B]per Age.[LI]Has additional [B]Narrative Events[/B].[LI][B]+50% Celebration [/B]duration.[LI][B]+50% [icon:YIELD_HAPPINESS] Happiness [/B]towards [B]Celebrations[/B].[/LIST] -->
+		</Replace>
 		<Replace Tag="LOC_RIZAL_MOD_CELEBRATION_LENGTH_DESCRIPTION" Language="th_TH">
 			<Text>ระยะเวลาเฉลิมฉลองเพิ่มขึ้น 50%</Text>		<!-- +50% Celebration duration. -->
 		</Replace>
@@ -10739,13 +11207,45 @@
 			<Text>ปาชาคูติ</Text>		<!-- Pachacuti -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_PACHACUTI_DESCRIPTION" Language="th_TH">
-			<Text>ทุกอาคารจะได้รับ +1 [icon:YIELD_FOOD] อาหาร โบนัสใกล้เคียงภูเขา, ผู้เชี่ยวชาญที่อยู่ติดกับภูเขาจะไม่ต้องจ่ายค่าบำรุงรักษา [icon:YIELD_HAPPINESS] ความสุข, เมืองจะได้รับโบนัส [icon:YIELD_PRODUCTION] กำลังผลิต เท่ากับ 10% ของ [icon:YIELD_FOOD] อาหาร ของเมืองนั้น</Text>		<!-- All Buildings receive a +1 [icon:YIELD_FOOD] Food Adjacency for Mountains. Specialists adjacent to Mountains pay no [icon:YIELD_HAPPINESS] Happiness maintenance. Cities gain a bonus to [icon:YIELD_PRODUCTION] Production equal to 10% of that City’s [icon:YIELD_FOOD] Food. --></Replace>
+			<Text>ทุกอาคารจะได้รับ +1 [icon:YIELD_FOOD] อาหาร โบนัสใกล้เคียงภูเขา, ผู้เชี่ยวชาญที่อยู่ติดกับภูเขาจะไม่ต้องจ่ายค่าบำรุงรักษา [icon:YIELD_HAPPINESS] ความสุข, เมืองจะได้รับโบนัส [icon:YIELD_PRODUCTION] กำลังผลิต เท่ากับ 10% ของ [icon:YIELD_FOOD] อาหาร ของเมืองนั้น</Text>		<!-- All Buildings receive a +1 [icon:YIELD_FOOD] Food Adjacency for Mountains. Specialists adjacent to Mountains pay no [icon:YIELD_HAPPINESS] Happiness maintenance. Cities gain a bonus to [icon:YIELD_PRODUCTION] Production equal to 10% of that City’s [icon:YIELD_FOOD] Food. -->
+		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_PACHACUTI_ABILITY_NAME" Language="th_TH">
 			<Text>ผู้เขย่าพิภพ</Text>		<!-- Earth Shaker -->
 		</Replace>
+		<Replace Tag="LOC_LOADING_TIPS_AND_HINTS" Language="th_TH">
+			<Text>Tips And Hints</Text>		<!-- Tips And Hints -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_LEADER_ABILITY" Language="th_TH">
+			<Text>Leader Ability</Text>		<!-- Leader Ability -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIVILIZATION_ABILITY" Language="th_TH">
+			<Text>Civilization Ability</Text>		<!-- Civilization Ability -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_UNIQUE_UNITS" Language="th_TH">
+			<Text>Unique Units</Text>		<!-- Unique Units -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_UNIQUE_BUILDINGS" Language="th_TH">
+			<Text>Unique Buildings</Text>		<!-- Unique Buildings -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_UNIQUE_QUARTER" Language="th_TH">
+			<Text>Unique Quarter</Text>		<!-- Unique Quarter -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_EQUIPPED_MEMENTOS" Language="th_TH">
+			<Text>Equipped Mementos</Text>		<!-- Equipped Mementos -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_TRADITIONS" Language="th_TH">
+			<Text>Traditions</Text>		<!-- Traditions -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_TRADITION_UNLOCKED_WITH" Language="th_TH">
+			<Text>Unlocked with</Text>		<!-- Unlocked with -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_MEMENTO_EMPTY" Language="th_TH">
+			<Text>Equip Mementos when starting a New Game or at Age Transition</Text>		<!-- Equip Mementos when starting a New Game or at Age Transition -->
+		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_PACHACUTI_ABILITY_DESCRIPTION" Language="th_TH">
 			<Text>[LIST][LI]อาคารทุกชนิดได้รับโบนัส [B][icon:YIELD_FOOD] อาหาร[/B] จากพื้นที่ติดกับ [B]ภูเขา[/B] +1[LI][B]ผู้เชี่ยวชาญ[/B] ที่อยู่ติดกับ [B]ภูเขา[/B] ไม่ต้องเสียค่าบำรุงรักษา [icon:YIELD_HAPPINESS] [B]ความสุข[/B][LI][B]เมือง[/B] ได้รับโบนัส [icon:YIELD_PRODUCTION] [B]กำลังผลิต[/B] เท่ากับ 10% ของ [icon:YIELD_FOOD] [B]อาหาร[/B] ของเมืองนั้น
-[/LIST]</Text>		<!-- [LIST][LI]All Buildings receive a +1 [B][icon:YIELD_FOOD] Food Adjacency [/B]for [B]Mountains[/B].[LI][B]Specialists [/B]adjacent to [B]Mountains [/B]pay no [icon:YIELD_HAPPINESS] [B]Happiness [/B]maintenance. [LI][B] Cities gain a bonus to [B][icon:YIELD_PRODUCTION] Production[/B] equal to 10% of that City’s [B][icon:YIELD_FOOD] Food[/B].[/LIST] --></Replace>
+[/LIST]</Text>		<!-- [LIST][LI]All Buildings receive a +1 [B][icon:YIELD_FOOD] Food Adjacency [/B]for [B]Mountains[/B].[LI][B]Specialists [/B]adjacent to [B]Mountains [/B]pay no [icon:YIELD_HAPPINESS] [B]Happiness [/B]maintenance. [LI][B] Cities gain a bonus to [B][icon:YIELD_PRODUCTION] Production[/B] equal to 10% of that City’s [B][icon:YIELD_FOOD] Food[/B].[/LIST] -->
+		</Replace>
 		<Replace Tag="LOC_LEADER_TRUNG_TRAC_NAME" Language="th_TH">
 			<Text>จึง จั๊ก</Text>		<!-- Trung Trac -->
 		</Replace>
@@ -13863,6 +14363,42 @@
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_AMINA_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
 			<Text>ในฐานะ อามินา ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Amina, complete the Space Race Legacy Path. -->
 		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AMINA_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>The Warrior Queen</Text>		<!-- The Warrior Queen -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AMINA_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Amina in Antiquity, complete a quest to prioritize the blade.</Text>		<!-- As Amina in Antiquity, complete a quest to prioritize the blade. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AMINA_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>First Fruits</Text>		<!-- First Fruits -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AMINA_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Amina in Antiquity, complete a quest to prioritize coin.</Text>		<!-- As Amina in Antiquity, complete a quest to prioritize coin. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AMINA_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>Rising Flames</Text>		<!-- Rising Flames -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AMINA_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Amina in Exploration, complete a quest wielding iron and steel.</Text>		<!-- As Amina in Exploration, complete a quest wielding iron and steel. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AMINA_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>Oceanic Riches</Text>		<!-- Oceanic Riches -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AMINA_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Amina in Exploration, complete a quest to import gold from afar.</Text>		<!-- As Amina in Exploration, complete a quest to import gold from afar. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AMINA_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>The Next Conquest</Text>		<!-- The Next Conquest -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AMINA_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As Amina in Modern, complete a quest that follows the heartbeat of war.</Text>		<!-- As Amina in Modern, complete a quest that follows the heartbeat of war. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AMINA_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>Manufactured Riches</Text>		<!-- Manufactured Riches -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AMINA_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As Amina in Modern, complete a quest that facilitates the flow of luxury.</Text>		<!-- As Amina in Modern, complete a quest that facilitates the flow of luxury. -->
+		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_AMINA_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
 			<Text>การแข่งขันอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
@@ -14168,6 +14704,42 @@
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ อโศกมหาราช, ผู้ละทางโลก ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Ashoka World-Renouncer, complete the Wonders of the Ancient World Legacy Path. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ASHOKA_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Devaraja</Text>		<!-- Devaraja -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ASHOKA_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Ashoka, World Renouncer, in Antiquity, complete a quest to become the Devaraja.</Text>		<!-- As Ashoka, World Renouncer, in Antiquity, complete a quest to become the Devaraja. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ASHOKA_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Dhammaraja</Text>		<!-- Dhammaraja -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ASHOKA_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Ashoka, World Renouncer, in Antiquity, complete a quest to become the Dhammaraja.</Text>		<!-- As Ashoka, World Renouncer, in Antiquity, complete a quest to become the Dhammaraja. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ASHOKA_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>Narayan</Text>		<!-- Narayan -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ASHOKA_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Ashoka World-Renouncer in Exploration, complete a quest to develop holy sites.</Text>		<!-- As Ashoka World-Renouncer in Exploration, complete a quest to develop holy sites. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ASHOKA_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>Bodhisattva</Text>		<!-- Bodhisattva -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ASHOKA_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Ashoka World-Renouncer in Exploration, complete a quest to build a haven for study.</Text>		<!-- As Ashoka World-Renouncer in Exploration, complete a quest to build a haven for study. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ASHOKA_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>World Conqueror</Text>		<!-- World Conqueror -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ASHOKA_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As Ashoka, World Renouncer, in Modern, complete a quest to hold tight to the sword.</Text>		<!-- As Ashoka, World Renouncer, in Modern, complete a quest to hold tight to the sword. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ASHOKA_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>World Renouncer</Text>		<!-- World Renouncer -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ASHOKA_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As Ashoka, World Renouncer, in Modern, complete a quest to release the sword.</Text>		<!-- As Ashoka, World Renouncer, in Modern, complete a quest to release the sword. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
@@ -14475,6 +15047,42 @@
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_AUGUSTUS_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ ออกัสตัส ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Augustus, complete the Wonders of the Ancient World Legacy Path. -->
 		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AUGUSTUS_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>First Among Equals</Text>		<!-- First Among Equals -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AUGUSTUS_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Augustus in Antiquity, complete a quest to empower the craftspeople.</Text>		<!-- As Augustus in Antiquity, complete a quest to empower the craftspeople. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AUGUSTUS_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Sol Invictus</Text>		<!-- Sol Invictus -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AUGUSTUS_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Augustus in Antiquity, complete a quest to rise as Sol Invictus.</Text>		<!-- As Augustus in Antiquity, complete a quest to rise as Sol Invictus. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AUGUSTUS_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>Structures of Power</Text>		<!-- Structures of Power -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AUGUSTUS_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Augustus in Exploration, complete a quest to sit atop the temples.</Text>		<!-- As Augustus in Exploration, complete a quest to sit atop the temples. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AUGUSTUS_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>The Army's Soul</Text>		<!-- The Army's Soul -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AUGUSTUS_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Augustus in Exploration, complete a quest to inspire loyalty in soldiers.</Text>		<!-- As Augustus in Exploration, complete a quest to inspire loyalty in soldiers. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AUGUSTUS_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>Inheritance</Text>		<!-- Inheritance -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AUGUSTUS_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As Augustus in Modern, complete a quest to deliver inspiration to the realm.</Text>		<!-- As Augustus in Modern, complete a quest to deliver inspiration to the realm. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AUGUSTUS_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>Imperator</Text>		<!-- Imperator -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AUGUSTUS_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As Augustus in Modern, complete a quest to embody the First Citizen.</Text>		<!-- As Augustus in Modern, complete a quest to embody the First Citizen. -->
+		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_AUGUSTUS_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
 		</Replace>
@@ -14780,6 +15388,42 @@
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BENJAMIN_FRANKLIN_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ เบนจามิน แฟรงคลิน ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Benjamin Franklin, complete the Wonders of the Ancient World Legacy Path. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BENJAMIN_FRANKLIN_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Franklin the Inventor</Text>		<!-- Franklin the Inventor -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BENJAMIN_FRANKLIN_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Benjamin Franklin in Antiquity, complete a quest to exhibit inventions.</Text>		<!-- As Benjamin Franklin in Antiquity, complete a quest to exhibit inventions. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BENJAMIN_FRANKLIN_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Franklin the Orator</Text>		<!-- Franklin the Orator -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BENJAMIN_FRANKLIN_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Benjamin Franklin in Antiquity, complete a quest to share stories with the people.</Text>		<!-- As Benjamin Franklin in Antiquity, complete a quest to share stories with the people. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BENJAMIN_FRANKLIN_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>Fierce Competition</Text>		<!-- Fierce Competition -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BENJAMIN_FRANKLIN_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Benjamin Franklin in Exploration, complete a quest to host scientific lectures.</Text>		<!-- As Benjamin Franklin in Exploration, complete a quest to host scientific lectures. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BENJAMIN_FRANKLIN_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>International Diplomat</Text>		<!-- International Diplomat -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BENJAMIN_FRANKLIN_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Benjamin Franklin in Exploration, complete a quest to conduct diplomacy overseas.</Text>		<!-- As Benjamin Franklin in Exploration, complete a quest to conduct diplomacy overseas. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BENJAMIN_FRANKLIN_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>Franklin's Scholars</Text>		<!-- Franklin's Scholars -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BENJAMIN_FRANKLIN_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As Benjamin Franklin in Modern, complete a quest to prioritize scholarship.</Text>		<!-- As Benjamin Franklin in Modern, complete a quest to prioritize scholarship. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BENJAMIN_FRANKLIN_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>The Power of Words</Text>		<!-- The Power of Words -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BENJAMIN_FRANKLIN_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As Benjamin Franklin in Modern, complete a quest to convince with oratory triumph.</Text>		<!-- As Benjamin Franklin in Modern, complete a quest to convince with oratory triumph. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BENJAMIN_FRANKLIN_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
@@ -15087,6 +15731,42 @@
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CATHERINE_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ แคทเธอรีนมหาราช ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Catherine, complete the Wonders of the Ancient World Legacy Path. -->
 		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CATHERINE_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Refinement</Text>		<!-- Refinement -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CATHERINE_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Catherine in Antiquity, complete a quest to refine palacial architecture.</Text>		<!-- As Catherine in Antiquity, complete a quest to refine palacial architecture. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CATHERINE_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>The Folk</Text>		<!-- The Folk -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CATHERINE_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Catherine in Antiquity, complete a quest to share tales of generational values.</Text>		<!-- As Catherine in Antiquity, complete a quest to share tales of generational values. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CATHERINE_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>Enlightenment</Text>		<!-- Enlightenment -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CATHERINE_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Catherine in Exploration, complete a quest to organize education.</Text>		<!-- As Catherine in Exploration, complete a quest to organize education. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CATHERINE_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>Orthodoxy</Text>		<!-- Orthodoxy -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CATHERINE_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Catherine in Exploration, complete a quest to send missionaries abroad.</Text>		<!-- As Catherine in Exploration, complete a quest to send missionaries abroad. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CATHERINE_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>Lessons of the Land</Text>		<!-- Lessons of the Land -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CATHERINE_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As Catherine in Modern, complete a quest to build society on the value of exchanges.</Text>		<!-- As Catherine in Modern, complete a quest to build society on the value of exchanges. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CATHERINE_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>Inner Fire</Text>		<!-- Inner Fire -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CATHERINE_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As Catherine in Modern, complete a quest to build society on the value of beauty.</Text>		<!-- As Catherine in Modern, complete a quest to build society on the value of beauty. -->
+		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CATHERINE_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
 		</Replace>
@@ -15392,6 +16072,42 @@
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CHARLEMAGNE_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ ชาร์เลอมาญ ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Charlemagne, complete the Wonders of the Ancient World Legacy Path. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CHARLEMAGNE_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>The King's Diplomacy</Text>		<!-- The King's Diplomacy -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CHARLEMAGNE_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Charlemagne in Antiquity, complete a quest to impress authority amongst the people.</Text>		<!-- As Charlemagne in Antiquity, complete a quest to impress authority amongst the people. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CHARLEMAGNE_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Lord of the Harvest</Text>		<!-- Lord of the Harvest -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CHARLEMAGNE_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Charlemagne in Antiquity, complete a quest to walk amongst the people.</Text>		<!-- As Charlemagne in Antiquity, complete a quest to walk amongst the people. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CHARLEMAGNE_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>Mastery of the Waves</Text>		<!-- Mastery of the Waves -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CHARLEMAGNE_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Charlemagne in Exploration, complete a quest to conquer the art of seafaring.</Text>		<!-- As Charlemagne in Exploration, complete a quest to conquer the art of seafaring. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CHARLEMAGNE_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>Finery at the Feast</Text>		<!-- Finery at the Feast -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CHARLEMAGNE_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Charlemagne in Exploration, complete a quest to become a legendary banquet host.</Text>		<!-- As Charlemagne in Exploration, complete a quest to become a legendary banquet host. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CHARLEMAGNE_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>Engines of War</Text>		<!-- Engines of War -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CHARLEMAGNE_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As Charlemagne in Modern, complete a quest to set the world aflame.</Text>		<!-- As Charlemagne in Modern, complete a quest to set the world aflame. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CHARLEMAGNE_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>The Spark of Imagination</Text>		<!-- The Spark of Imagination -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CHARLEMAGNE_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As Charlemagne in Modern, complete a quest to illuminate the empire.</Text>		<!-- As Charlemagne in Modern, complete a quest to illuminate the empire. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CHARLEMAGNE_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
@@ -15699,6 +16415,42 @@
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CONFUCIUS_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ ขงจื๊อ ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Confucius, complete the Wonders of the Ancient World Legacy Path. -->
 		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CONFUCIUS_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Righteousness</Text>		<!-- Righteousness -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CONFUCIUS_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Confucius in Antiquity, complete a quest to set trading precedents.</Text>		<!-- As Confucius in Antiquity, complete a quest to set trading precedents. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CONFUCIUS_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>The Merits of Education</Text>		<!-- The Merits of Education -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CONFUCIUS_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Confucius in Antiquity, complete a quest to determine who can access Codices.</Text>		<!-- As Confucius in Antiquity, complete a quest to determine who can access Codices. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CONFUCIUS_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>The Wanderers</Text>		<!-- The Wanderers -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CONFUCIUS_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Confucius in Exploration, complete a quest to lead the people across the ocean.</Text>		<!-- As Confucius in Exploration, complete a quest to lead the people across the ocean. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CONFUCIUS_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>World Order</Text>		<!-- World Order -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CONFUCIUS_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Confucius in Exploration, complete a quest to contemplate the divine order.</Text>		<!-- As Confucius in Exploration, complete a quest to contemplate the divine order. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CONFUCIUS_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>Seeking the Ideal</Text>		<!-- Seeking the Ideal -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CONFUCIUS_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As Confucius in Modern, complete a quest to spread new Confucian thought.</Text>		<!-- As Confucius in Modern, complete a quest to spread new Confucian thought. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CONFUCIUS_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>Human Nature</Text>		<!-- Human Nature -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_CONFUCIUS_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As Confucius in Modern, complete a quest to cement the lessons of the past.</Text>		<!-- As Confucius in Modern, complete a quest to cement the lessons of the past. -->
+		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CONFUCIUS_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
 		</Replace>
@@ -16004,6 +16756,42 @@
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_FRIEDRICH_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ ฟรีดริช, โอบลีค ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Friedrich, Oblique, complete the Wonders of the Ancient World Legacy Path. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_FRIEDRICH_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Kriegslieder</Text>		<!-- Kriegslieder -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_FRIEDRICH_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Friedrich, Oblique, in Antiquity, complete a quest to compose symphonies.</Text>		<!-- As Friedrich, Oblique, in Antiquity, complete a quest to compose symphonies. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_FRIEDRICH_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Old Fritz</Text>		<!-- Old Fritz -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_FRIEDRICH_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Friedrich, Oblique, in Antiquity, complete a quest to improve soldier prowess.</Text>		<!-- As Friedrich, Oblique, in Antiquity, complete a quest to improve soldier prowess. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_FRIEDRICH_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>Methods of Warfare</Text>		<!-- Methods of Warfare -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_FRIEDRICH_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Friedrich, Oblique, in Exploration, complete a quest to practice tactics and logic.</Text>		<!-- As Friedrich, Oblique, in Exploration, complete a quest to practice tactics and logic. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_FRIEDRICH_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>The Poet King</Text>		<!-- The Poet King -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_FRIEDRICH_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Friedrich, Oblique, in Exploration, complete a quest to manifest a spectacle.</Text>		<!-- As Friedrich, Oblique, in Exploration, complete a quest to manifest a spectacle. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_FRIEDRICH_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>A Symphony of Guns</Text>		<!-- A Symphony of Guns -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_FRIEDRICH_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As Friedrich, Oblique, in Modern, complete a quest to perform victoriously.</Text>		<!-- As Friedrich, Oblique, in Modern, complete a quest to perform victoriously. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_FRIEDRICH_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>The Baroque Age</Text>		<!-- The Baroque Age -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_FRIEDRICH_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As Friedrich, Oblique, in Modern, complete a quest to inspire with melody.</Text>		<!-- As Friedrich, Oblique, in Modern, complete a quest to inspire with melody. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_FRIEDRICH_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
@@ -16311,6 +17099,42 @@
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HARRIET_TUBMAN_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ แฮเรียต ทับแมน ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Harriet Tubman, complete the Wonders of the Ancient World Legacy Path. -->
 		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HARRIET_TUBMAN_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Heart of the Land</Text>		<!-- Heart of the Land -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HARRIET_TUBMAN_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Harriet Tubman in Antiquity, complete a quest to address foreign powers.</Text>		<!-- As Harriet Tubman in Antiquity, complete a quest to address foreign powers. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HARRIET_TUBMAN_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>The Stone Temple</Text>		<!-- The Stone Temple -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HARRIET_TUBMAN_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Harriet Tubman in Antiquity, complete a quest to select a devotional offering.</Text>		<!-- As Harriet Tubman in Antiquity, complete a quest to select a devotional offering. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HARRIET_TUBMAN_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>Prophecy and Plans</Text>		<!-- Prophecy and Plans -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HARRIET_TUBMAN_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Harriet Tubman in Exploration, complete a quest to keep the faithful safe.</Text>		<!-- As Harriet Tubman in Exploration, complete a quest to keep the faithful safe. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HARRIET_TUBMAN_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>Fire in the Blood</Text>		<!-- Fire in the Blood -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HARRIET_TUBMAN_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Harriet Tubman in Exploration, complete a quest to harness the soldiers' fury.</Text>		<!-- As Harriet Tubman in Exploration, complete a quest to harness the soldiers' fury. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HARRIET_TUBMAN_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>Moses of Her People</Text>		<!-- Moses of Her People -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HARRIET_TUBMAN_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As Harriet Tubman in Modern, complete a quest to create call and response.</Text>		<!-- As Harriet Tubman in Modern, complete a quest to create call and response. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HARRIET_TUBMAN_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>General Tubman</Text>		<!-- General Tubman -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HARRIET_TUBMAN_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As Harriet Tubman in Modern, complete a quest to stay one step ahead.</Text>		<!-- As Harriet Tubman in Modern, complete a quest to stay one step ahead. -->
+		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HARRIET_TUBMAN_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
 		</Replace>
@@ -16616,6 +17440,42 @@
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HATSHEPSUT_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ แฮตเชปซุต ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Hatshepsut, complete the Wonders of the Ancient World Legacy Path. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HATSHEPSUT_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Land of Punt</Text>		<!-- Land of Punt -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HATSHEPSUT_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Hatshepsut in Antiquity, complete a quest to fulfill the wants of the people.</Text>		<!-- As Hatshepsut in Antiquity, complete a quest to fulfill the wants of the people. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HATSHEPSUT_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Precinct of Mut</Text>		<!-- Precinct of Mut -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HATSHEPSUT_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Hatshepsut in Antiquity, complete a quest to rise to divinity.</Text>		<!-- As Hatshepsut in Antiquity, complete a quest to rise to divinity. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HATSHEPSUT_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>Across the Sea of Night</Text>		<!-- Across the Sea of Night -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HATSHEPSUT_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Hatshepsut in Exploration, complete a quest to scour the world for riches.</Text>		<!-- As Hatshepsut in Exploration, complete a quest to scour the world for riches. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HATSHEPSUT_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>Immortality</Text>		<!-- Immortality -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HATSHEPSUT_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Hatshepsut in Exploration, complete a quest to spread the words of the high priests.</Text>		<!-- As Hatshepsut in Exploration, complete a quest to spread the words of the high priests. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HATSHEPSUT_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>The Forever Land</Text>		<!-- The Forever Land -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HATSHEPSUT_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As Hatshepsut in Modern, complete a quest to fill the court with luxuries.</Text>		<!-- As Hatshepsut in Modern, complete a quest to fill the court with luxuries. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HATSHEPSUT_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>The Undying Lands</Text>		<!-- The Undying Lands -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HATSHEPSUT_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As Hatshepsut in Modern, complete a quest to prevent the weathering of power.</Text>		<!-- As Hatshepsut in Modern, complete a quest to prevent the weathering of power. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HATSHEPSUT_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
@@ -16923,6 +17783,42 @@
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HIMIKO_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ ฮิมิโกะ, ราชินีแห่งแคว้นวะ ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Himiko Queen of Wa, complete the Wonders of the Ancient World Legacy Path. -->
 		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HIMIKO_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Daughter of the Mountain</Text>		<!-- Daughter of the Mountain -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HIMIKO_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Himiko, Queen of Wa, in Antiquity, complete a quest to summit the mountain.</Text>		<!-- As Himiko, Queen of Wa, in Antiquity, complete a quest to summit the mountain. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HIMIKO_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Daughter of the Sun</Text>		<!-- Daughter of the Sun -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HIMIKO_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Himiko, Queen of Wa, in Antiquity, complete a quest to gather wealth.</Text>		<!-- As Himiko, Queen of Wa, in Antiquity, complete a quest to gather wealth. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HIMIKO_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>The Kami</Text>		<!-- The Kami -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HIMIKO_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Himiko, Queen of Wa, in Exploration, complete a quest to reach out to the rural folk.</Text>		<!-- As Himiko, Queen of Wa, in Exploration, complete a quest to reach out to the rural folk. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HIMIKO_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>Divine Prosperity</Text>		<!-- Divine Prosperity -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HIMIKO_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Himiko, Queen of Wa, in Exploration, complete a quest to decorate sacred spaces.</Text>		<!-- As Himiko, Queen of Wa, in Exploration, complete a quest to decorate sacred spaces. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HIMIKO_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>Himiko, Triumphant</Text>		<!-- Himiko, Triumphant -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HIMIKO_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As Himiko, Queen of Wa, in Modern, complete a quest to encourage collective effort.</Text>		<!-- As Himiko, Queen of Wa, in Modern, complete a quest to encourage collective effort. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HIMIKO_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>Amaterasu Triumphant</Text>		<!-- Amaterasu Triumphant -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_HIMIKO_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As Himiko, Queen of Wa, in Modern, complete a quest to empower the kami.</Text>		<!-- As Himiko, Queen of Wa, in Modern, complete a quest to empower the kami. -->
+		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HIMIKO_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
 		</Replace>
@@ -17228,6 +18124,42 @@
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_IBN_BATTUTA_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ อิบน์ บัตตูตา ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Ibn Battuta, complete the Wonders of the Ancient World Legacy Path. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_IBN_BATTUTA_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Meals of the World</Text>		<!-- Meals of the World -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_IBN_BATTUTA_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Ibn Battuta in Antiquity, complete a quest to indulge in foreign flavors.</Text>		<!-- As Ibn Battuta in Antiquity, complete a quest to indulge in foreign flavors. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_IBN_BATTUTA_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Mechanized Marvels</Text>		<!-- Mechanized Marvels -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_IBN_BATTUTA_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Ibn Battuta in Antiquity, complete a quest to power machines with water.</Text>		<!-- As Ibn Battuta in Antiquity, complete a quest to power machines with water. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_IBN_BATTUTA_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>Crossroads</Text>		<!-- Crossroads -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_IBN_BATTUTA_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Ibn Battuta in Exploration, complete a quest to cross the edge of the map.</Text>		<!-- As Ibn Battuta in Exploration, complete a quest to cross the edge of the map. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_IBN_BATTUTA_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>Destinations</Text>		<!-- Destinations -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_IBN_BATTUTA_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Ibn Battuta in Exploration, complete a quest to attract traders and tourists.</Text>		<!-- As Ibn Battuta in Exploration, complete a quest to attract traders and tourists. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_IBN_BATTUTA_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>The Wandering Qadi</Text>		<!-- The Wandering Qadi -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_IBN_BATTUTA_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As Ibn Battuta in Modern, complete a quest to shine light on darkened hearts.</Text>		<!-- As Ibn Battuta in Modern, complete a quest to shine light on darkened hearts. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_IBN_BATTUTA_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>The Greatest of Travelers</Text>		<!-- The Greatest of Travelers -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_IBN_BATTUTA_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As Ibn Battuta in Modern, complete a quest to encounter unfamiliar customs.</Text>		<!-- As Ibn Battuta in Modern, complete a quest to encounter unfamiliar customs. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_IBN_BATTUTA_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
@@ -17535,6 +18467,42 @@
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ISABELLA_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ อิซาเบลล่า ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Isabella, complete the Wonders of the Ancient World Legacy Path. -->
 		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ISABELLA_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Crown of the Sea</Text>		<!-- Crown of the Sea -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ISABELLA_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Isabella in Antiquity, complete a quest to fill a galley.</Text>		<!-- As Isabella in Antiquity, complete a quest to fill a galley. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ISABELLA_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Crown of the Heavens</Text>		<!-- Crown of the Heavens -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ISABELLA_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Isabella in Antiquity, complete a quest to inspire the cavalry.</Text>		<!-- As Isabella in Antiquity, complete a quest to inspire the cavalry. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ISABELLA_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>The First Foothold</Text>		<!-- The First Foothold -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ISABELLA_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Isabella in Exploration, complete a quest to seek far-off shores.</Text>		<!-- As Isabella in Exploration, complete a quest to seek far-off shores. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ISABELLA_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>The Believers</Text>		<!-- The Believers -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ISABELLA_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Isabella in Exploration, complete a quest to support a new order of priests.</Text>		<!-- As Isabella in Exploration, complete a quest to support a new order of priests. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ISABELLA_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>Currents of Gold</Text>		<!-- Currents of Gold -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ISABELLA_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As Isabella in Modern, complete a quest to stir commerce.</Text>		<!-- As Isabella in Modern, complete a quest to stir commerce. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ISABELLA_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>The Crown Authority</Text>		<!-- The Crown Authority -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_ISABELLA_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As Isabella in Modern, complete a quest to honor the crown.</Text>		<!-- As Isabella in Modern, complete a quest to honor the crown. -->
+		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ISABELLA_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
 		</Replace>
@@ -17840,6 +18808,42 @@
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As José Rizal, complete the Wonders of the Ancient World Legacy Path. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_JOSE_RIZAL_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>An Opus</Text>		<!-- An Opus -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_JOSE_RIZAL_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As José Rizal in Antiquity, complete a quest to complete a magnum opus.</Text>		<!-- As José Rizal in Antiquity, complete a quest to complete a magnum opus. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_JOSE_RIZAL_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>A Political Quandary</Text>		<!-- A Political Quandary -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_JOSE_RIZAL_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As José Rizal in Antiquity, complete a quest to depose a despotic leader.</Text>		<!-- As José Rizal in Antiquity, complete a quest to depose a despotic leader. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_JOSE_RIZAL_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>The Bibliophile</Text>		<!-- The Bibliophile -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_JOSE_RIZAL_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As José Rizal in Exploration, complete a quest to satisfy scholastic curiosity.</Text>		<!-- As José Rizal in Exploration, complete a quest to satisfy scholastic curiosity. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_JOSE_RIZAL_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>The Fixed Star</Text>		<!-- The Fixed Star -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_JOSE_RIZAL_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As José Rizal in Exploration, complete a quest to follow a star to new lands.</Text>		<!-- As José Rizal in Exploration, complete a quest to follow a star to new lands. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_JOSE_RIZAL_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>The Poet's Vision</Text>		<!-- The Poet's Vision -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_JOSE_RIZAL_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As José Rizal in Modern, complete a quest to look to the sea.</Text>		<!-- As José Rizal in Modern, complete a quest to look to the sea. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_JOSE_RIZAL_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>The Heart of His People</Text>		<!-- The Heart of His People -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_JOSE_RIZAL_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As José Rizal in Modern, complete a quest to navigate diversity.</Text>		<!-- As José Rizal in Modern, complete a quest to navigate diversity. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
@@ -18147,6 +19151,42 @@
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAFAYETTE_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ ลาฟาแยต ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Lafayette, complete the Wonders of the Ancient World Legacy Path. -->
 		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAFAYETTE_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>A New Tomorrow</Text>		<!-- A New Tomorrow -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAFAYETTE_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Lafayette in Antiquity, complete a quest to be on the front lines.</Text>		<!-- As Lafayette in Antiquity, complete a quest to be on the front lines. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAFAYETTE_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>The Nature of Rule</Text>		<!-- The Nature of Rule -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAFAYETTE_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Lafayette in Antiquity, complete a quest to assemble an inner circle.</Text>		<!-- As Lafayette in Antiquity, complete a quest to assemble an inner circle. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAFAYETTE_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>Life as Art</Text>		<!-- Life as Art -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAFAYETTE_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Lafayette in Exploration, complete a quest to hear out the artisans.</Text>		<!-- As Lafayette in Exploration, complete a quest to hear out the artisans. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAFAYETTE_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>The Divine and the Rational</Text>		<!-- The Divine and the Rational -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAFAYETTE_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Lafayette in Exploration, complete a quest to spark an exchange of knowledge.</Text>		<!-- As Lafayette in Exploration, complete a quest to spark an exchange of knowledge. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAFAYETTE_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>Hero of the Old World</Text>		<!-- Hero of the Old World -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAFAYETTE_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As Lafayette in Modern, complete a quest to show the enduring spirit of humanity.</Text>		<!-- As Lafayette in Modern, complete a quest to show the enduring spirit of humanity. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAFAYETTE_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>Hero of the New World</Text>		<!-- Hero of the New World -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAFAYETTE_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As Lafayette in Modern, complete a quest to work towards collective liberation.</Text>		<!-- As Lafayette in Modern, complete a quest to work towards collective liberation. -->
+		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAFAYETTE_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
 		</Replace>
@@ -18452,6 +19492,42 @@
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Machiavelli, complete the Wonders of the Ancient World Legacy Path. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_MACHIAVELLI_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>The Diplomat</Text>		<!-- The Diplomat -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_MACHIAVELLI_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Machiavelli in Antiquity, complete a quest to decide the fate of a once-trusted advisor.</Text>		<!-- As Machiavelli in Antiquity, complete a quest to decide the fate of a once-trusted advisor. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_MACHIAVELLI_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>The Scholar</Text>		<!-- The Scholar -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_MACHIAVELLI_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Machiavelli in Antiquity, complete a quest to select a reading subject.</Text>		<!-- As Machiavelli in Antiquity, complete a quest to select a reading subject. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_MACHIAVELLI_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>Open Borders</Text>		<!-- Open Borders -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_MACHIAVELLI_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Machiavelli in Exploration, complete a quest to indulge in neighboring lands.</Text>		<!-- As Machiavelli in Exploration, complete a quest to indulge in neighboring lands. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_MACHIAVELLI_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>The Fires of Youth</Text>		<!-- The Fires of Youth -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_MACHIAVELLI_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Machiavelli in Exploration, complete a quest to send indolent youths abroad.</Text>		<!-- As Machiavelli in Exploration, complete a quest to send indolent youths abroad. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_MACHIAVELLI_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>Realpolitik</Text>		<!-- Realpolitik -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_MACHIAVELLI_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As Machiavelli in Modern, complete a quest to promote divine self-interest.</Text>		<!-- As Machiavelli in Modern, complete a quest to promote divine self-interest. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_MACHIAVELLI_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>Ruthless Pragmatism</Text>		<!-- Ruthless Pragmatism -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_MACHIAVELLI_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As Machiavelli in Modern, complete a quest to empower pragmatism.</Text>		<!-- As Machiavelli in Modern, complete a quest to empower pragmatism. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
@@ -18759,6 +19835,42 @@
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_PACHACUTI_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ ปาชาคูติ ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Pachacuti, complete the Wonders of the Ancient World Legacy Path. -->
 		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_PACHACUTI_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>People of the Stone</Text>		<!-- People of the Stone -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_PACHACUTI_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Pachacuti in Antiquity, complete a quest to make a revelation.</Text>		<!-- As Pachacuti in Antiquity, complete a quest to make a revelation. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_PACHACUTI_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>A Celestial Message</Text>		<!-- A Celestial Message -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_PACHACUTI_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Pachacuti in Antiquity, complete a quest to interpret a falling star.</Text>		<!-- As Pachacuti in Antiquity, complete a quest to interpret a falling star. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_PACHACUTI_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>Rumors of Riches</Text>		<!-- Rumors of Riches -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_PACHACUTI_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Pachacuti in Exploration, complete a quest to send out magnificent caravans.</Text>		<!-- As Pachacuti in Exploration, complete a quest to send out magnificent caravans. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_PACHACUTI_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>Sacred Hymns</Text>		<!-- Sacred Hymns -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_PACHACUTI_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Pachacuti in Exploration, complete a quest to challenge spiritual reluctance.</Text>		<!-- As Pachacuti in Exploration, complete a quest to challenge spiritual reluctance. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_PACHACUTI_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>Wisdom of the Future</Text>		<!-- Wisdom of the Future -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_PACHACUTI_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As Pachacuti in Modern, complete a quest to honor the mountains.</Text>		<!-- As Pachacuti in Modern, complete a quest to honor the mountains. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_PACHACUTI_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>Son of the Sun</Text>		<!-- Son of the Sun -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_PACHACUTI_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As Pachacuti in Modern, complete a quest to hold the empire strong.</Text>		<!-- As Pachacuti in Modern, complete a quest to hold the empire strong. -->
+		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_PACHACUTI_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
 		</Replace>
@@ -19064,6 +20176,42 @@
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TRUNG_TRAC_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ จึง จั๊ก ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Trung Trac, complete the Wonders of the Ancient World Legacy Path. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_TRUNG_TRAC_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Never Bend My Back</Text>		<!-- Never Bend My Back -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_TRUNG_TRAC_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Trung Trac in Antiquity, complete a quest to resolve conflict.</Text>		<!-- As Trung Trac in Antiquity, complete a quest to resolve conflict. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_TRUNG_TRAC_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>A Lesson of Stone</Text>		<!-- A Lesson of Stone -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_TRUNG_TRAC_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Trung Trac in Antiquity, complete a quest to determine the strength of a stone.</Text>		<!-- As Trung Trac in Antiquity, complete a quest to determine the strength of a stone. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_TRUNG_TRAC_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>The Enemy Advances</Text>		<!-- The Enemy Advances -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_TRUNG_TRAC_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Trung Trac in Exploration, complete a quest to rage across the land.</Text>		<!-- As Trung Trac in Exploration, complete a quest to rage across the land. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_TRUNG_TRAC_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>A Single People</Text>		<!-- A Single People -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_TRUNG_TRAC_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Trung Trac in Exploration, complete a quest to grow settlements and communities.</Text>		<!-- As Trung Trac in Exploration, complete a quest to grow settlements and communities. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_TRUNG_TRAC_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>Unstoppable</Text>		<!-- Unstoppable -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_TRUNG_TRAC_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As Trung Trac in Modern, complete a quest to determine that power lies in military might.</Text>		<!-- As Trung Trac in Modern, complete a quest to determine that power lies in military might. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_TRUNG_TRAC_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>Doi Moi</Text>		<!-- Doi Moi -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_TRUNG_TRAC_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As Trung Trac in Modern, complete a quest to determine that power lies in the people.</Text>		<!-- As Trung Trac in Modern, complete a quest to determine that power lies in the people. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TRUNG_TRAC_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
@@ -19371,6 +20519,42 @@
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_XERXES_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ เซิร์กซีส, กษัตริย์แห่งกษัตริย์ ให้ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Xerxes King of Kings, complete the Wonders of the Ancient World Legacy Path. -->
 		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_XERXES_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Axis Mundi</Text>		<!-- Axis Mundi -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_XERXES_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Xerxes, King of Kings, in Antiquity, complete a quest to compare the cosmos to the rule of Xerxes.</Text>		<!-- As Xerxes, King of Kings, in Antiquity, complete a quest to compare the cosmos to the rule of Xerxes. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_XERXES_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Ahura Mazda</Text>		<!-- Ahura Mazda -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_XERXES_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Xerxes, King of Kings, in Antiquity, complete a quest to balance the power of fire.</Text>		<!-- As Xerxes, King of Kings, in Antiquity, complete a quest to balance the power of fire. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_XERXES_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>Rules of the Court</Text>		<!-- Rules of the Court -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_XERXES_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Xerxes, King of Kings, in Exploration, complete a quest to send a brazen youth abroad.</Text>		<!-- As Xerxes, King of Kings, in Exploration, complete a quest to send a brazen youth abroad. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_XERXES_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>Flames of War</Text>		<!-- Flames of War -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_XERXES_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Xerxes, King of Kings, in Exploration, complete a quest to cleanse the land with fire.</Text>		<!-- As Xerxes, King of Kings, in Exploration, complete a quest to cleanse the land with fire. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_XERXES_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>The Order of the Universe</Text>		<!-- The Order of the Universe -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_XERXES_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As Xerxes, King of Kings, in Modern, complete a quest to understand the orbit of heavenly bodies.</Text>		<!-- As Xerxes, King of Kings, in Modern, complete a quest to understand the orbit of heavenly bodies. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_XERXES_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>A New Order</Text>		<!-- A New Order -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_XERXES_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As Xerxes, King of Kings, in Modern, complete a quest to reshape the world by war.</Text>		<!-- As Xerxes, King of Kings, in Modern, complete a quest to reshape the world by war. -->
+		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_XERXES_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
 		</Replace>
@@ -19445,6 +20629,9 @@
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CATEGORY_FOUNDATION_TUTORIALS" Language="th_TH">
 			<Text>บทแนะนำ</Text>		<!-- Tutorials -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_FOUNDATION_SELECT_LEADER" Language="th_TH">
+			<Text>Select a leader</Text>		<!-- Select a leader -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CATEGORY_FOUNDATION_STARTERS" Language="th_TH">
 			<Text>อาหารเรียกน้ำย่อย</Text>		<!-- Starters -->
@@ -20463,6 +21650,42 @@
 		<Replace Tag="LOC_VOLCANO_VOLCAN_DE_COLIMA_NAME" Language="th_TH">
 			<Text>โวลคาน เด โกลิมา</Text>		<!-- Volcán de Colima -->
 		</Replace>
+		<Replace Tag="LOC_ANTIQUITY_INVASION_CRISIS_NAME" Language="th_TH">
+			<Text>Antiquity Invasion Crisis</Text>		<!-- Antiquity Invasion Crisis -->
+		</Replace>
+		<Replace Tag="LOC_ANTIQUITY_INVASION_CRISIS_DESCRIPTION" Language="th_TH">
+			<Text>New independent powers rise up to challenge your empire.</Text>		<!-- New independent powers rise up to challenge your empire. -->
+		</Replace>
+		<Replace Tag="LOC_ANTIQUITY_PLAGUE_CRISIS_NAME" Language="th_TH">
+			<Text>Antiquity Plague Crisis</Text>		<!-- Antiquity Plague Crisis -->
+		</Replace>
+		<Replace Tag="LOC_ANTIQUITY_PLAGUE_CRISIS_DESCRIPTION" Language="th_TH">
+			<Text>Devastating diseases strike your largest cities.</Text>		<!-- Devastating diseases strike your largest cities. -->
+		</Replace>
+		<Replace Tag="LOC_ANTIQUITY_REVOLTS_CRISIS_NAME" Language="th_TH">
+			<Text>Antiquity Revolts Crisis</Text>		<!-- Antiquity Revolts Crisis -->
+		</Replace>
+		<Replace Tag="LOC_ANTIQUITY_REVOLTS_CRISIS_DESCRIPTION" Language="th_TH">
+			<Text>Unhappy settlements revolt and petition other empires for aid.</Text>		<!-- Unhappy settlements revolt and petition other empires for aid. -->
+		</Replace>
+		<Replace Tag="LOC_EXPLORATION_REVOLUTIONS_CRISIS_NAME" Language="th_TH">
+			<Text>Exploration Revolutions Crisis</Text>		<!-- Exploration Revolutions Crisis -->
+		</Replace>
+		<Replace Tag="LOC_EXPLORATION_REVOLUTIONS_CRISIS_DESCRIPTION" Language="th_TH">
+			<Text>Social unrest leads to new forms of Government.</Text>		<!-- Social unrest leads to new forms of Government. -->
+		</Replace>
+		<Replace Tag="LOC_EXPLORATION_PLAGUE_CRISIS_NAME" Language="th_TH">
+			<Text>Exploration Plague Crisis</Text>		<!-- Exploration Plague Crisis -->
+		</Replace>
+		<Replace Tag="LOC_EXPLORATION_PLAGUE_CRISIS_DESCRIPTION" Language="th_TH">
+			<Text>Devastating diseases from distant lands sweep across your empire.</Text>		<!-- Devastating diseases from distant lands sweep across your empire. -->
+		</Replace>
+		<Replace Tag="LOC_EXPLORATION_RELIGIOUS_REVOLTS_CRISIS_NAME" Language="th_TH">
+			<Text>Exploration Revolts Crisis</Text>		<!-- Exploration Revolts Crisis -->
+		</Replace>
+		<Replace Tag="LOC_EXPLORATION_RELIGIOUS_REVOLTS_CRISIS_DESCRIPTION" Language="th_TH">
+			<Text>Unhappy settlements following a foreign religion rise up in revolt.</Text>		<!-- Unhappy settlements following a foreign religion rise up in revolt. -->
+		</Replace>
 		<Replace Tag="LOC_VOLCANO_SAN_CRISTOBAL_NAME" Language="th_TH">
 			<Text>ภูเขาไฟซานคริสโตบัล</Text>		<!-- Volcán San Cristóbal -->
 		</Replace>
@@ -20697,6 +21920,9 @@
 		<Replace Tag="LOC_8088A_COMPLETION" Language="th_TH">
 			<Text>เมื่อฝุ่นเริ่มจางลง ทหารได้วางอาวุธลงด้วยความพ่ายแพ้ มันยากที่จะมองเห็นผู้ชนะอย่างชัดเจนท่ามกลางความโหดร้ายของสงคราม</Text>		<!-- As the dust settles, soldiers lay down their weapons in defeat. It is hard to see a clear victor in the wake of war's carnage. -->
 		</Replace>
+		<Replace Tag="LOC_REWARD_AMOUNT_RELIGION_DOMESTIC_SETTLEMENTS" Language="th_TH">
+			<Text>+{1_value} {2_type} for all Settlements that you own following your Religion</Text>		<!-- +{1_value} {2_type} for all Settlements that you own following your Religion -->
+		</Replace>
 		<Replace Tag="LOC_8088B_NAME" Language="th_TH">
 			<Text>พันธมิตรจะยังคงอยู่หลังสงคราม</Text>		<!-- Alliances will persist past wartime. -->
 		</Replace>
@@ -20708,6 +21934,9 @@
 		</Replace>
 		<Replace Tag="LOC_8088C_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_REWARD_AMOUNT_RELIGION_TERRAIN" Language="th_TH">
+			<Text>+{1_value} {2_type} for every {3_terrain} tile in other Civilizations’ Settlements following your Religion</Text>		<!-- +{1_value} {2_type} for every {3_terrain} tile in other Civilizations’ Settlements following your Religion -->
 		</Replace>
 		<Replace Tag="LOC_8089A_STORYTITLE" Language="th_TH">
 			<Text>เริ่มต้นใหม่</Text>		<!-- To New Beginnings -->
@@ -21805,7 +23034,8 @@
 			<Text>ภูเขาไฟกำลังปะทุ</Text>		<!-- Volcano Now Active -->
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_VOLCANO_ACTIVE_SUMMARY" Language="th_TH">
-			<Text>{1_VolcanoName} ได้กลับมาเคลื่อนไหวอีกครั้ง, กรุณาระวัง -- มันอาจปะทุขึ้นได้ทุกเวลา!</Text>		<!-- {1_VolcanoName} has become active. Beware - - it can now erupt at any time! --></Replace>
+			<Text>{1_VolcanoName} ได้กลับมาเคลื่อนไหวอีกครั้ง, กรุณาระวัง -- มันอาจปะทุขึ้นได้ทุกเวลา!</Text>		<!-- {1_VolcanoName} has become active. Beware - - it can now erupt at any time! -->
+		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_VOLCANO_INACTIVE_MESSAGE" Language="th_TH">
 			<Text>ภูเขาไฟเข้าสู่สภาวะสงบ</Text>		<!-- Volcano Goes Dormant -->
 		</Replace>
@@ -22534,6 +23764,15 @@
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_FOOD_INCREASE_NAME" Language="th_TH">
 			<Text>โฟกัสอาหาร (พิเศษ)</Text>		<!-- Food Focus (Exclusive) -->
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TOWN_RESORT_SHORT_NAME" Language="th_TH">
+			<Text>Common Project</Text>		<!-- Common Project -->
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TOWN_RESORT_NAME" Language="th_TH">
+			<Text>Resort Town</Text>		<!-- Resort Town -->
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TOWN_RESORT_DESCRIPTION" Language="th_TH">
+			<Text>+1[icon:YIELD_HAPPINESS] Happiness and[icon:YIELD_GOLD] Gold per Age on Rural tiles in this Town that have at least 1[icon:YIELD_HAPPINESS] Happiness. +50% tile yields from Natural Wonders.</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness and[icon:YIELD_GOLD] Gold per Age on Rural tiles in this Town that have at least 1[icon:YIELD_HAPPINESS] Happiness. +50% tile yields from Natural Wonders. -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_GOLD_INCREASE_NAME" Language="th_TH">
 			<Text>โฟกัสทอง (พิเศษ)</Text>		<!-- Gold Focus (Exclusive) -->
@@ -23342,6 +24581,9 @@
 		<Replace Tag="LOC_CIV_SELECT_INFO_2" Language="th_TH">
 			<Text>ลองผสมผสานผู้นำและอารยธรรมต่างๆ เพื่อให้เหมาะสมกับสไตล์การเล่นของคุณมากที่สุด</Text>		<!-- Experiment with different combinations of Leader and Civilization to best fit your playstyle. -->
 		</Replace>
+		<Replace Tag="LOC_UI_CONTENT_MGR_OPEN_UGC_OVERLAY" Language="th_TH">
+			<Text>Open [icon:steam-workshop] Steam Workshop</Text>		<!-- Open [icon:steam-workshop] Steam Workshop -->
+		</Replace>
 		<Replace Tag="LOC_GAME_SETUP_TITLE" Language="th_TH">
 			<Text>การตั้งค่า</Text>		<!-- Settings -->
 		</Replace>
@@ -23359,6 +24601,12 @@
 		</Replace>
 		<Replace Tag="LOC_UI_MP_SETUP_TITLE" Language="th_TH">
 			<Text>การตั้งค่าหัวห้อง</Text>		<!-- Host Setup -->
+		</Replace>
+		<Replace Tag="LOC_UI_NETWORK_CONNECTION_OK" Language="th_TH">
+			<Text>You have a network connection</Text>		<!-- You have a network connection -->
+		</Replace>
+		<Replace Tag="LOC_UI_NETWORK_CONNECTION_FAILED" Language="th_TH">
+			<Text>You do not have a network connection</Text>		<!-- You do not have a network connection -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_LOBBY_TITLE" Language="th_TH">
 			<Text>โถงรับรอง</Text>		<!-- Lobby -->
@@ -23396,6 +24644,12 @@
 		<Replace Tag="LOC_UI_MANAGE_MODS" Language="th_TH">
 			<Text>จัดการม็อด</Text>		<!-- Manage Mods -->
 		</Replace>
+		<Replace Tag="LOC_REWARDS_TITLE" Language="th_TH">
+			<Text>Rewards</Text>		<!-- Rewards -->
+		</Replace>
+		<Replace Tag="LOC_NO_REWARDS_AVAIALBE" Language="th_TH">
+			<Text>No New Rewards</Text>		<!-- No New Rewards -->
+		</Replace>
 		<Replace Tag="LOC_UI_CONTENT_MGR_TITLE" Language="th_TH">
 			<Text>เนื้อหาเพิ่มเติม</Text>		<!-- add-ons -->
 		</Replace>
@@ -23428,6 +24682,9 @@
 		</Replace>
 		<Replace Tag="LOC_UI_ACCOUNT_OK" Language="th_TH">
 			<Text>จัดการบัญชี 2K</Text>		<!-- Manage 2K Account -->
+		</Replace>
+		<Replace Tag="LOC_UI_LINK_ACCOUNT_QR_CODE_FETCH" Language="th_TH">
+			<Text>Fetching account linking info from online services.</Text>		<!-- Fetching account linking info from online services. -->
 		</Replace>
 		<Replace Tag="LOC_UI_WAITING_SPOP_HEARTBEAT_OK" Language="th_TH">
 			<Text>กำลังรอเซิร์ฟเวอร์ 2K.</Text>		<!-- Waiting for 2K Servers... -->
@@ -23479,6 +24736,12 @@
 		</Replace>
 		<Replace Tag="LOC_UI_LINK_ACCOUNT_CREATE_SUCCESS" Language="th_TH">
 			<Text>บัญชี 2K ของคุณได้ถูกสร้างและเชื่อมโยงแล้ว กรุณาตรวจสอบรายละเอียดในอีเมลของคุณ</Text>		<!-- Your 2K Account has been created and linked.  Check your email for details. -->
+		</Replace>
+		<Replace Tag="LOC_UI_HIGH_END_DOWNLOAD_TITLE" Language="th_TH">
+			<Text>Download High Quality Assets</Text>		<!-- Download High Quality Assets -->
+		</Replace>
+		<Replace Tag="LOC_UI_HIGH_END_DOWNLOAD_BODY" Language="th_TH">
+			<Text>This game uses high quality assets. Please download them for the greatest experience.</Text>		<!-- This game uses high quality assets. Please download them for the greatest experience. -->
 		</Replace>
 		<Replace Tag="LOC_UI_LINK_ACCOUNT_INCOMPLETE" Language="th_TH">
 			<Text>กรุณาเติมข้อมูลบัญชี 2K ของคุณให้สมบูรณ์</Text>		<!-- Please complete your 2K Account -->
@@ -23551,8 +24814,7 @@
 			<Text>เล่นแบบออฟไลน์?</Text>		<!-- PLAY OFFLINE? -->
 		</Replace>
 		<Replace Tag="LOC_UI_SSO_PLAY_OFFLINE_BODY" Language="th_TH">
-			<Text>คุณไม่ได้เชื่อมต่อกับเครือข่าย คุณสามารถเล่นแบบออฟไลน์ได้ แต่ความคืบหน้าในความท้าทายจะไม่ถูกบันทึก ต้องการเล่นแบบออฟไลน์ต่อหรือไม่?</Text>		<!-- You are not connected to the network. You can play offline, but progress towards challenges will not be recorded. Continue to play offline?
-			 -->
+			<Text>คุณไม่ได้เชื่อมต่อกับเครือข่าย คุณสามารถเล่นแบบออฟไลน์ได้ แต่ความคืบหน้าในความท้าทายจะไม่ถูกบันทึก ต้องการเล่นแบบออฟไลน์ต่อหรือไม่?</Text>		<!-- You are not connected to the network. You can play offline, but progress towards challenges will not be recorded. Continue to play offline? -->
 		</Replace>
 		<Replace Tag="LOC_UI_SSO_RETRY" Language="th_TH">
 			<Text>ลองใหม่</Text>		<!-- RETRY -->
@@ -23643,6 +24905,9 @@
 		</Replace>
 		<Replace Tag="LOC_SOCIAL_PRESENCE_SINGLEPLAYER" Language="th_TH">
 			<Text>ผู้เล่นคนเดียว</Text>		<!-- Singleplayer -->
+		</Replace>
+		<Replace Tag="LOC_SUB_SYSTEM_TRADITIONS_DURING_CELEBRATION" Language="th_TH">
+			<Text>View Your Social Policies[N] [N][STYLE:font-title-base][STYLE:text-secondary][STYLE:uppercase]{1_name}[/S][/S][/S][N][B]{2_turns} {2_turns: plural 1?turn; other?turns;}[/b] left in [b]Celebration[/b][N] [N][STYLE:font-title-base][STYLE:text-secondary][STYLE:uppercase]Bonus[/S][/S][/S][N]{3_description}</Text>		<!-- View Your Social Policies[N] [N][STYLE:font-title-base][STYLE:text-secondary][STYLE:uppercase]{1_name}[/S][/S][/S][N][B]{2_turns} {2_turns: plural 1?turn; other?turns;}[/b] left in [b]Celebration[/b][N] [N][STYLE:font-title-base][STYLE:text-secondary][STYLE:uppercase]Bonus[/S][/S][/S][N]{3_description} -->
 		</Replace>
 		<Replace Tag="LOC_SOCIAL_NOTIFICATION_GAME_INVITE_RECEIVED" Language="th_TH">
 			<Text>คำเชิญเข้าร่วมเกม</Text>		<!-- Game Invite -->
@@ -23882,7 +25147,8 @@
 			<Text>หุบเขาดอกไม้</Text>		<!-- Valley of Flowers -->
 		</Replace>
 		<Replace Tag="LOC_FEATURE_VALLEY_OF_FLOWERS_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_FOOD] อาหาร, [icon:YIELD_CULTURE] วัฒนธรรม, และ[icon:YIELD_HAPPINESS] ความสุข ต่อยุค +10 ระยะการค้าทางบกให้กับเส้นทางการค้าจากถิ่นฐานนี้</Text>		<!-- +2[icon:YIELD_FOOD] Food,[icon:YIELD_CULTURE] Culture, and[icon:YIELD_HAPPINESS] Happiness per Age. +10 Land Trade Route Range to Trade Routes from this Settlement. --></Replace>
+			<Text>+2[icon:YIELD_FOOD] อาหาร, [icon:YIELD_CULTURE] วัฒนธรรม, และ[icon:YIELD_HAPPINESS] ความสุข ต่อยุค +10 ระยะการค้าทางบกให้กับเส้นทางการค้าจากถิ่นฐานนี้</Text>		<!-- +2[icon:YIELD_FOOD] Food,[icon:YIELD_CULTURE] Culture, and[icon:YIELD_HAPPINESS] Happiness per Age. +10 Land Trade Route Range to Trade Routes from this Settlement. -->
+		</Replace>
 		<Replace Tag="LOC_FEATURE_VALLEY_OF_FLOWERS_TOOLTIP" Language="th_TH">
 			<Text>เส้นทางการค้าทางบกต่อถิ่นฐานนี้เพิ่มขึ้น +10</Text>		<!-- +10 Land Trade Route Range to this Settlement. -->
 		</Replace>
@@ -24238,7 +25504,8 @@
 			<Text>{1_Turns}+ {1_Turns: plural 1?turn; other?turns;}</Text>		<!-- {1_Turns}+ {1_Turns: plural 1?turn; other?turns;} -->
 		</Replace>
 		<Replace Tag="LOC_UI_LAND_CLAIM_STALLED" Language="th_TH">
-			<Text>-- เทิร์น</Text>		<!-- - - turns --></Replace>
+			<Text>-- เทิร์น</Text>		<!-- - - turns -->
+		</Replace>
 		<Replace Tag="LOC_UNIT_INFO_MELEE_STRENGTH" Language="th_TH">
 			<Text>ระยะประชิด</Text>		<!-- Melee -->
 		</Replace>
@@ -24686,6 +25953,9 @@
 		<Replace Tag="LOC_UI_FOOD_CHOOSER_CIVILIAN_CONTROLS" Language="th_TH">
 			<Text>ยูนิตพลเรือน</Text>		<!-- Civilian Units -->
 		</Replace>
+		<Replace Tag="LOC_UI_X_TURNS_LEFT_UNTIL_AGE_END" Language="th_TH">
+			<Text>{1_turns} {1_turns: plural 1?Turn; other?Turns;} until this Age ends</Text>		<!-- {1_turns} {1_turns: plural 1?Turn; other?Turns;} until this Age ends -->
+		</Replace>
 		<Replace Tag="LOC_UI_FOOD_CHOOSER_DEFAULT" Language="th_TH">
 			<Text>ค่าเริ่มต้นอาหาร</Text>		<!-- Food Default -->
 		</Replace>
@@ -24715,6 +25985,9 @@
 		</Replace>
 		<Replace Tag="LOC_UI_QUEUE_ACTIVE" Language="th_TH">
 			<Text>ใช้งานอยู่</Text>		<!-- Active -->
+		</Replace>
+		<Replace Tag="LOC_UI_ADJACENCY_INFO_RIVERS" Language="th_TH">
+			<Text>+{1_Amount} {2_YieldName} for each adjacent River</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent River -->
 		</Replace>
 		<Replace Tag="LOC_UI_QUEUE_QUEUED" Language="th_TH">
 			<Text>เข้าคิว</Text>		<!-- Queued -->
@@ -24908,6 +26181,9 @@
 		<Replace Tag="LOC_UI_CITY_DETAILS_SPECIALIST_PER_TILE" Language="th_TH">
 			<Text>เมืองนี้อนุญาต {1_Specialist} ผู้เชี่ยวชาญ ต่อช่อง</Text>		<!-- This City currently allows {1_Specialist} {1_Specialist: plural 1?Specialist; other?Specialists;} per Tile -->
 		</Replace>
+		<Replace Tag="LOC_UI_CITY_DETAILS_TREASURE_FLEET_RESOURCE_PREREQ_NEEDED" Language="th_TH">
+			<Text>No Treasure resources available.</Text>		<!-- No Treasure resources available. -->
+		</Replace>
 		<Replace Tag="LOC_UI_TOWN_DETAILS_SPECIALIST_PER_TILE" Language="th_TH">
 			<Text>เมืองนี้อนุญาต {1_Specialist} ผู้เชี่ยวชาญ ต่อช่อง</Text>		<!-- This Town currently allows {1_Specialist} {1_Specialist: plural 1?Specialist; other?Specialists;} per Tile -->
 		</Replace>
@@ -25023,7 +26299,8 @@
 			<Text>เมืองศักดิ์สิทธิ์ไม่สามารถถูกทำลายได้</Text>		<!-- Holy Cities cannot be razed -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_CAPTURE_KEEP_SETTLEMENT_DESC" Language="th_TH">
-			<Text>ความสุข และ กำลังผลิต จะถูกลดลงชั่วคราว จนกว่าถิ่นฐานจะ ปรับตัว เข้าได้[n]{1_penalty}</Text>		<!-- Happiness and Production will be temporarily reduced until the Settlement is assimilated.[n]{1_penalty}. --></Replace>
+			<Text>ความสุข และ กำลังผลิต จะถูกลดลงชั่วคราว จนกว่าถิ่นฐานจะ ปรับตัว เข้าได้[n]{1_penalty}</Text>		<!-- Happiness and Production will be temporarily reduced until the Settlement is assimilated.[n]{1_penalty}. -->
+		</Replace>
 		<Replace Tag="LOC_UI_CITY_CAPTURE_RAZE_SETTLEMENT_DESC" Language="th_TH">
 			<Text>ลบถิ่นฐานอย่างถาวรหลังจาก {1_Turns} เทิร์น, สิ่งนี้ทำให้เกิดบทลงโทษทางการทูต -100 แต้ม</Text>		<!-- Remove the Settlement permanently after {1_Turns} {1_Turns: plural 1?turn; other?turns;}. This incurs a -100 Diplomatic Penalty -->
 		</Replace>
@@ -25044,6 +26321,12 @@
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_PLOT_CARD_QUEUE_CHANGES_PENDING_EMPTY" Language="th_TH">
 			<Text>สถานที่ที่ว่างเปล่าในขณะนี้ โดยมีการเปลี่ยนแปลงที่รออยู่ในคิวการผลิต</Text>		<!-- Currently empty location, with pending changes in the production queue -->
+		</Replace>
+		<Replace Tag="LOC_UI_CITY_STATUS_TRADE_NOT_CONNECTED" Language="th_TH">
+			<Text>This Settlement is not connected to the Capital via your Trade Network.</Text>		<!-- This Settlement is not connected to the Capital via your Trade Network. -->
+		</Replace>
+		<Replace Tag="LOC_UI_CITY_STATUS_TRADE_NOT_CONNECTED_DESCRIPTION" Language="th_TH">
+			<Text>You may be able to connect it to an already connected Settlement by building a road with a Merchant, constructing a coastal building, or founding a settlement within range to connect them.</Text>		<!-- You may be able to connect it to an already connected Settlement by building a road with a Merchant, constructing a coastal building, or founding a settlement within range to connect them. -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_PLOT_CARD_COMPLETES_UNIQUE" Language="th_TH">
 			<Text>การสร้าง {1_constructibleName} บนแผ่นนี้จะทำให้ {2_uniqueQuarterName} เสร็จสิ้น</Text>		<!-- Constructing a {1_constructibleName} on this tile will complete the {2_uniqueQuarterName} Unique Quarter. -->
@@ -25113,6 +26396,12 @@
 		</Replace>
 		<Replace Tag="LOC_TRADE_LENS_TITLE" Language="th_TH">
 			<Text>เส้นทางการค้าที่เป็นไปได้</Text>		<!-- Possible Trade Routes -->
+		</Replace>
+		<Replace Tag="LOC_UI_GAME_UNTIL_END_OF_AGE" Language="th_TH">
+			<Text>Until the end of this Age</Text>		<!-- Until the end of this Age -->
+		</Replace>
+		<Replace Tag="LOC_UI_GAME_FINAL_TURN_OF_AGE" Language="th_TH">
+			<Text>Final turn of this Age</Text>		<!-- Final turn of this Age -->
 		</Replace>
 		<Replace Tag="LOC_TRADE_LENS_TITLE_ALT" Language="th_TH">
 			<Text>เพิ่มเส้นทางการค้า</Text>		<!-- Add Trade Route -->
@@ -26182,6 +27471,30 @@
 		<Replace Tag="LOC_UI_RESULTS_TITLE" Language="th_TH">
 			<Text>ผลลัพธ์สุดท้าย</Text>		<!-- End Results -->
 		</Replace>
+		<Replace Tag="LOC_UI_SETTLER_LEGEND_HEADER" Language="th_TH">
+			<Text>Settler</Text>		<!-- Settler -->
+		</Replace>
+		<Replace Tag="LOC_UI_SETTLER_LEGEND_BAD" Language="th_TH">
+			<Text>[STYLE:text-secondary]Cannot Settle:[/STYLE] Too close to settlement or blocked by terrain</Text>		<!-- [STYLE:text-secondary]Cannot Settle:[/STYLE] Too close to settlement or blocked by terrain -->
+		</Replace>
+		<Replace Tag="LOC_UI_SETTLER_LEGEND_OKAY" Language="th_TH">
+			<Text>[STYLE:text-secondary]Can Settle:[/STYLE] -5[icon:YIELD_HAPPINESS]Happiness from no Fresh Water</Text>		<!-- [STYLE:text-secondary]Can Settle:[/STYLE] -5[icon:YIELD_HAPPINESS]Happiness from no Fresh Water -->
+		</Replace>
+		<Replace Tag="LOC_UI_SETTLER_LEGEND_GOOD" Language="th_TH">
+			<Text>[STYLE:text-secondary]Can Settle[/STYLE]</Text>		<!-- [STYLE:text-secondary]Can Settle[/STYLE] -->
+		</Replace>
+		<Replace Tag="LOC_UI_SETTLER_LEGEND_FLOOD_RISK" Language="th_TH">
+			<Text>[STYLE:text-secondary]Flood Risk[/STYLE]</Text>		<!-- [STYLE:text-secondary]Flood Risk[/STYLE] -->
+		</Replace>
+		<Replace Tag="LOC_UI_SETTLER_LEGEND_ERUPTION_RISK" Language="th_TH">
+			<Text>[STYLE:text-secondary]Nearby Volcano[/STYLE]</Text>		<!-- [STYLE:text-secondary]Nearby Volcano[/STYLE] -->
+		</Replace>
+		<Replace Tag="LOC_UI_SETTLER_LEGEND_RECOMMENDED" Language="th_TH">
+			<Text>[STYLE:text-secondary]Recommended Settlement Location[/STYLE]</Text>		<!-- [STYLE:text-secondary]Recommended Settlement Location[/STYLE] -->
+		</Replace>
+		<Replace Tag="LOC_UI_CITY_DETAILS_INFECTED" Language="th_TH">
+			<Text>Infected</Text>		<!-- Infected -->
+		</Replace>
 		<Replace Tag="LOC_UI_RESULTS_WIN" Language="th_TH">
 			<Text>คุณชนะ</Text>		<!-- You Won -->
 		</Replace>
@@ -26326,6 +27639,12 @@
 		<Replace Tag="LOC_UNITCOMMAND_REMOVE_FROM_ARMY_DESCRIPTION" Language="th_TH">
 			<Text>สั่งการให้ยูนิตถอนตัวออกจากกองทัพ</Text>		<!-- Order the unit to remove itself from the Army -->
 		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_SCALING_COMMANDER_ATTACK_NAME" Language="th_TH">
+			<Text>Heroic Assault</Text>		<!-- Heroic Assault -->
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_SCALING_COMMANDER_ATTACK_DESCRIPTION" Language="th_TH">
+			<Text>Directly attack a unit that shares the domain type with the commander. Damage increases for each commander level.</Text>		<!-- Directly attack a unit that shares the domain type with the commander. Damage increases for each commander level. -->
+		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_ADD_TO_FLEET_NAME" Language="th_TH">
 			<Text>เพิ่มเข้ากอง</Text>		<!-- Add To Fleet -->
 		</Replace>
@@ -26372,7 +27691,8 @@
 			<Text>เคลื่อนย้ายโดยรถไฟ</Text>		<!-- Move By Rail -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_MOVE_BY_RAIL_DESCRIPTION" Language="th_TH">
-			<Text>โอนย้ายยูนิตระหว่างถิ่นฐานในเครือข่ายรถไฟของจักรวรรดิ</Text>		<!-- Transfer Unit between Settlements in the Empire's Rail Network. --></Replace>
+			<Text>โอนย้ายยูนิตระหว่างถิ่นฐานในเครือข่ายรถไฟของจักรวรรดิ</Text>		<!-- Transfer Unit between Settlements in the Empire's Rail Network. -->
+		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_ARMY_OVERRUN_NAME" Language="th_TH">
 			<Text>เหยียบย่ำ</Text>		<!-- Overrun -->
 		</Replace>
@@ -26438,6 +27758,12 @@
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_FOCUSED_ATTACK_SEA_RANGED_DESCRIPTION" Language="th_TH">
 			<Text>สั่งการให้ยูนิตรบทางเรือทั้งหมด ทั้งหมดภายในรัศมีบัญชาการ โจมตีเป้าหมายภาคพื้นที่กำหนด ยูนิตทั้งหมดได้รับ +2 พลังต่อสู้ สำหรับการโจมตีนี้</Text>		<!-- Order all Naval Units within Command Radius to fire upon a specified land target. All Units have +2 Combat Strength for this attack. -->
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_PET_THE_DOG_NAME" Language="th_TH">
+			<Text>Pet the Dog</Text>		<!-- Pet the Dog -->
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_PET_THE_DOG_DESCRIPTION" Language="th_TH">
+			<Text>Who's a good dog?</Text>		<!-- Who's a good dog? -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_FOCUSED_ATTACK_AIR_TO_AIR_NAME" Language="th_TH">
 			<Text>โจมตีกวาดล้าง</Text>		<!-- Fighter Sweep -->
@@ -26544,6 +27870,12 @@
 		<Replace Tag="LOC_UNITCOMMAND_FORCE_MARCH_NO_ACTIONS_REMAINING" Language="th_TH">
 			<Text>ไม่มีการปฏิบัติพิเศษของกองทัพที่เหลือในเทิร์นนี้</Text>		<!-- No Army Special Actions remaining this turn. -->
 		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_STONE_TRAP_CAN_REMOVE_EXISTING" Language="th_TH">
+			<Text>Trap exists here. This action will remove it!</Text>		<!-- Trap exists here. This action will remove it! -->
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_STONE_TRAP_NOT_ON_FOREIGN_TERRITORY" Language="th_TH">
+			<Text>Cannot be placed on Tiles belonging to another Leader</Text>		<!-- Cannot be placed on Tiles belonging to another Leader -->
+		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_REQUIRES_FULL_MOVEMENT" Language="th_TH">
 			<Text>ต้องมีการเคลื่อนไหวอย่างเต็มที่</Text>		<!-- Requires Full Movement -->
 		</Replace>
@@ -26567,6 +27899,15 @@
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_FORTIFICATIONS_ALREADY_EXIST" Language="th_TH">
 			<Text>ป้อมปราการมีอยู่แล้วในสถานที่นี้</Text>		<!-- Fortifications already exist at this location. -->
+		</Replace>
+		<Replace Tag="LOC_HUD_UNIT_ACTION_AUTOEXPLORE_NEAR_GOODY_HUT" Language="th_TH">
+			<Text>There is a Discovery nearby!</Text>		<!-- There is a Discovery nearby! -->
+		</Replace>
+		<Replace Tag="LOC_HUD_UNIT_ACTION_AUTOEXPLORE_IN_ZONE_OF_CONTROL" Language="th_TH">
+			<Text>There is an enemy unit nearby!</Text>		<!-- There is an enemy unit nearby! -->
+		</Replace>
+		<Replace Tag="LOC_HUD_UNIT_ACTION_AUTOEXPLORE_UNAVAILABLE" Language="th_TH">
+			<Text>Automate Exploration is not available now. Try moving to safer ground.</Text>		<!-- Automate Exploration is not available now. Try moving to safer ground. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_TRADE_ROUTE_INFO_LAND" Language="th_TH">
 			<Text>สร้างเส้นทางการค้าทางบกเพื่อรับทรัพยากร {1_Num} ที่มีอยู่ในถิ่นฐานนี้</Text>		<!-- Create a land Trade Route to gain the {1_Num} resource(s) present in this Settlement. -->
@@ -28618,7 +29959,8 @@
 			<Text>เปิดใช้งานในผู้บัญชาการกองทัพที่มีช่องว่างอยู่</Text>		<!-- Activate in an Army Commander with empty slots. -->
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_ACTIVATE_GREAT_PERSON_REQUIRES_ARMY_SLOTS" Language="th_TH">
-			<Text>ต้องอยู่บน ช่องที่มีผู้บัญชาการ ที่มีช่องว่าง {1_Amount} ช่อง</Text>		<!-- Must be on a tile with a Commander with {1_Amount} empty slots. --></Replace>
+			<Text>ต้องอยู่บน ช่องที่มีผู้บัญชาการ ที่มีช่องว่าง {1_Amount} ช่อง</Text>		<!-- Must be on a tile with a Commander with {1_Amount} empty slots. -->
+		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ACTION_USAGE_SPECIALIST_SLOTS" Language="th_TH">
 			<Text>เปิดใช้งานบนช่องที่มีช่องผู้เชี่ยวชาญว่างเปล่า</Text>		<!-- Activate on an tile with empty Specialist slots. -->
 		</Replace>
@@ -29931,6 +31273,9 @@
 		<Replace Tag="LOC_ATTRIBUTENODE_XERXES_KING_L2_DESCRIPTION" Language="th_TH">
 			<Text>+5 พลังต่อสู้ สำหรับทุกยูนิตเมื่อสู้กับเขตเมือง</Text>		<!-- +5 Combat Strength for all Units against Districts. -->
 		</Replace>
+		<Replace Tag="LOC_UNLOCK_NO_CIVILIZATION_UNLOCKS" Language="th_TH">
+			<Text>All Civilizations are Unlocked.</Text>		<!-- All Civilizations are Unlocked. -->
+		</Replace>
 		<Replace Tag="LOC_BADGE_EVENT_PARTICIPATION_LEADERMIXNMATCH_NAME" Language="th_TH">
 			<Text>ตราการเข้าร่วมอีเว้นท์ครั้งแรก</Text>		<!-- First Event Participation Badge -->
 		</Replace>
@@ -30016,7 +31361,8 @@
 			<Text>การค้าสมัยใหม่</Text>		<!-- Modern Trade -->
 		</Replace>
 		<Replace Tag="LOC_BANNER_DISCORD_UNLOCK_CONDITION" Language="th_TH">
-			<Text>รับแบนเนอร์การค้าสมัยใหม่โดยเข้าร่วม Discord อย่างเป็นทางการของ Civilization![n]ดูขั้นตอนการแลกรับได้ด้านล่าง:[n][b]ขั้นตอนที่ 1[/b]: เข้าร่วม Discord อย่างเป็นทางการของ Civilization[n][b]ขั้นตอนที่ 2[/b]: ทำตามคำแนะนำในช่อง[n]#earn-discord-banner[n][b]ขั้นตอนที่ 3[/b]: ในเกม ไปที่หน้าจอคอลเลกชันแล้วเลือกปุ่มแลกรับรหัส ป้อนรหัสเฉพาะของคุณในเกมเพื่อปลดล็อก</Text>		<!-- Earn the Modern Trade Banner by joining the Civilization Official Discord![n]See below for the steps to redeem:[n][b]Step 1[/b]: Join the Official Civilization Discord.[n][b]Step 2[/b]: Follow the instructions in the channel #earn-discord-banner.[n][b]Step 3[/b]: In-game, navigate to the Collection screen and select the code redemption button. Enter your unique code in-game to unlock. --></Replace>
+			<Text>รับแบนเนอร์การค้าสมัยใหม่โดยเข้าร่วม Discord อย่างเป็นทางการของ Civilization![n]ดูขั้นตอนการแลกรับได้ด้านล่าง:[n][b]ขั้นตอนที่ 1[/b]: เข้าร่วม Discord อย่างเป็นทางการของ Civilization[n][b]ขั้นตอนที่ 2[/b]: ทำตามคำแนะนำในช่อง[n]#earn-discord-banner[n][b]ขั้นตอนที่ 3[/b]: ในเกม ไปที่หน้าจอคอลเลกชันแล้วเลือกปุ่มแลกรับรหัส ป้อนรหัสเฉพาะของคุณในเกมเพื่อปลดล็อก</Text>		<!-- Earn the Modern Trade Banner by joining the Civilization Official Discord![n]See below for the steps to redeem:[n][b]Step 1[/b]: Join the Official Civilization Discord.[n][b]Step 2[/b]: Follow the instructions in the channel #earn-discord-banner.[n][b]Step 3[/b]: In-game, navigate to the Collection screen and select the code redemption button. Enter your unique code in-game to unlock. -->
+		</Replace>
 		<Replace Tag="LOC_BANNER_TWITCH_NAME" Language="th_TH">
 			<Text>เรือการค้า</Text>		<!-- Trade Ships -->
 		</Replace>
@@ -31190,6 +32536,24 @@
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_MILITARY_DARK_AGE_NAME" Language="th_TH">
 			<Text>ยุคมืดทางทหาร</Text>		<!-- Militaristic Dark Age -->
 		</Replace>
+		<Replace Tag="LOC_LEGACY_FOUNDER_BELIEF_BONUS_13_DESCRIPTION" Language="th_TH">
+			<Text>Retain {LOC_FOUNDER_BELIEF_BONUS_13_NAME}. {LOC_FOUNDER_BELIEF_BONUS_13_DESCRIPTION}</Text>		<!-- Retain {LOC_FOUNDER_BELIEF_BONUS_13_NAME}. {LOC_FOUNDER_BELIEF_BONUS_13_DESCRIPTION} -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_FOUNDER_BELIEF_BONUS_14_DESCRIPTION" Language="th_TH">
+			<Text>Retain {LOC_FOUNDER_BELIEF_BONUS_14_NAME}. {LOC_FOUNDER_BELIEF_BONUS_14_DESCRIPTION}</Text>		<!-- Retain {LOC_FOUNDER_BELIEF_BONUS_14_NAME}. {LOC_FOUNDER_BELIEF_BONUS_14_DESCRIPTION} -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_FOUNDER_BELIEF_BONUS_15_DESCRIPTION" Language="th_TH">
+			<Text>Retain {LOC_FOUNDER_BELIEF_BONUS_15_NAME}. {LOC_FOUNDER_BELIEF_BONUS_15_DESCRIPTION}</Text>		<!-- Retain {LOC_FOUNDER_BELIEF_BONUS_15_NAME}. {LOC_FOUNDER_BELIEF_BONUS_15_DESCRIPTION} -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_FOUNDER_BELIEF_BONUS_16_DESCRIPTION" Language="th_TH">
+			<Text>Retain {LOC_FOUNDER_BELIEF_BONUS_16_NAME}. {LOC_FOUNDER_BELIEF_BONUS_16_DESCRIPTION}</Text>		<!-- Retain {LOC_FOUNDER_BELIEF_BONUS_16_NAME}. {LOC_FOUNDER_BELIEF_BONUS_16_DESCRIPTION} -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_FOUNDER_BELIEF_BONUS_17_DESCRIPTION" Language="th_TH">
+			<Text>Retain {LOC_FOUNDER_BELIEF_BONUS_17_NAME}. {LOC_FOUNDER_BELIEF_BONUS_17_DESCRIPTION}</Text>		<!-- Retain {LOC_FOUNDER_BELIEF_BONUS_17_NAME}. {LOC_FOUNDER_BELIEF_BONUS_17_DESCRIPTION} -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_BELIEF_BONUS_30_DESCRIPTION" Language="th_TH">
+			<Text>Retain {LOC_BELIEF_BONUS_30_NAME}. {LOC_BELIEF_BONUS_30_DESCRIPTION}</Text>		<!-- Retain {LOC_BELIEF_BONUS_30_NAME}. {LOC_BELIEF_BONUS_30_DESCRIPTION} -->
+		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_MILITARY_DARK_AGE_REWARD_TEXT" Language="th_TH">
 			<Text>{LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_DARK_AGE_NAME}</Text>		<!-- {LOC_LEGACY_OPTION} - {LOC_LEGACY_PATH_ANTIQUITY_MILITARY_DARK_AGE_NAME} -->
 		</Replace>
@@ -31448,6 +32812,9 @@
 		<Replace Tag="LOC_LEGACY_PATH_ATTRIBUTE_SCIENCE_DESCRIPTION" Language="th_TH">
 			<Text>ได้รับ 1 แต้ม คุณลักษณะทางวิทยาศาสตร์</Text>		<!-- Gain 1 Scientific Attribute Point. -->
 		</Replace>
+		<Replace Tag="LOC_DARK_AGE_REQUNLOCK_DESCRIPTION" Language="th_TH">
+			<Text>Don't win any Victories this Age</Text>		<!-- Don't win any Victories this Age -->
+		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ATTRIBUTE_ECONOMIC_NAME" Language="th_TH">
 			<Text>แต้มคุณลักษณะทางเศรษฐกิจ</Text>		<!-- Economic Attribute Point -->
 		</Replace>
@@ -31483,6 +32850,12 @@
 		</Replace>
 		<Replace Tag="LOC_LEGACY_POINT_SCIENCE_REWARD_FINAL_AGE_DESCRIPTION" Language="th_TH">
 			<Text>ได้รับ 1 คะแนนมรดกทางวิทยาศาสตร์</Text>		<!-- Gain 1 Scientific Legacy Point. -->
+		</Replace>
+		<Replace Tag="LOC_VICTORY_PROGRESS_LEGACY_PATHS_DISABLED" Language="th_TH">
+			<Text>Legacy Paths Disabled</Text>		<!-- Legacy Paths Disabled -->
+		</Replace>
+		<Replace Tag="LOC_VICTORY_PROGRESS_LEGACY_PATHS_DISABLED_INFO" Language="th_TH">
+			<Text>All Legacy Paths have been disabled in the Advanced Settings.</Text>		<!-- All Legacy Paths have been disabled in the Advanced Settings. -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_POINT_MILITARY_REWARD_NAME" Language="th_TH">
 			<Text>แต้มมรดกทางทหาร</Text>		<!-- Militaristic Legacy Point -->

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" ?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_CARD_MOD_CITY_NAME" Language="th_TH">
@@ -351,6 +351,15 @@
 		</Replace>
 		<Replace Tag="LOC_WARNING_FOREIGN_LAUNCH_PAD_MESSAGE" Language="th_TH">
 			<Text>ด้วยฐานปล่อยที่เพิ่งเสร็จสิ้นใน {1_CityName} {2_LeaderName} ก้าวเข้าใกล้สู่การเปิดเผยความลับของท้องฟ้ามากขึ้น, หากดาวจะเป็นโชคชะตาของเรา เราต้องเริ่มการก่อสร้าง "ฐานปล่อย" ของเราเองทันที</Text>		<!-- With a newly finished Launch Pad in {1_CityName}, {2_LeaderName} is one step closer to unraveling the mysteries of the heavens. If the stars are to be our destiny, we must begin construction of our own Launch Pad at once. -->
+		</Replace>
+		<Replace Tag="LOC_AGE_END_WARNING_TITLE" Language="th_TH">
+			<Text>The Modern Age will soon come to an end</Text>		<!-- The Modern Age will soon come to an end -->
+		</Replace>
+		<Replace Tag="LOC_AGE_END_WARNING_DESC" Language="th_TH">
+			<Text>The Modern Age is drawing to a close. From this point forward, the Age only progresses when you select Next Turn; no other effects will influence its advance. Reflect on the remaining opportunities, and ready your Civilization for the dawn of a new era.</Text>		<!-- The Modern Age is drawing to a close. From this point forward, the Age only progresses when you select Next Turn; no other effects will influence its advance. Reflect on the remaining opportunities, and ready your Civilization for the dawn of a new era. -->
+		</Replace>
+		<Replace Tag="LOC_AGE_END_WARNING_DESC_FINAL_AGE" Language="th_TH">
+			<Text>The Modern Age is drawing to a close. From this point forward, the Age only progresses when you select Next Turn; no other effects will influence its advance. If no Victory is won before the end of the Age, the player who accumulated the most [B]Legacy Points[/B] over the course of the Age will be the winner. Reflect on the remaining opportunities and etch your Civilization's legacy into history.</Text>		<!-- The Modern Age is drawing to a close. From this point forward, the Age only progresses when you select Next Turn; no other effects will influence its advance. If no Victory is won before the end of the Age, the player who accumulated the most [B]Legacy Points[/B] over the course of the Age will be the winner. Reflect on the remaining opportunities and etch your Civilization's legacy into history. -->
 		</Replace>
 		<Replace Tag="LOC_WARNING_FOREIGN_LAUNCH_PAD_SUMMARY" Language="th_TH">
 			<Text>ผู้นำชาติอื่นได้มาเป็นผู้นำ การแข่งขันอวกาศ ล่าสุด</Text>		<!-- Early Space Race Leader -->
@@ -1721,11 +1730,14 @@
 			<Text>พรอสเวชเชนีอา</Text>		<!-- Prosveshchenie -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_RUSSIA_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บนเขตพื้นที่เมือง ในทุ่งทุนดรา</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and +1[icon:YIELD_SCIENCE] Science on Districts, doubled in Tundra.  --></Replace>
+			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บนเขตพื้นที่เมือง ในทุ่งทุนดรา</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and +1[icon:YIELD_SCIENCE] Science on Districts, doubled in Tundra. -->
+		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_RUSSIA_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บนเขตพื้นที่เมือง ในทุ่งทุนดรา</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and +1[icon:YIELD_SCIENCE] Science on Districts, doubled in Tundra.  --></Replace>
+			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บนเขตพื้นที่เมือง ในทุ่งทุนดรา</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and +1[icon:YIELD_SCIENCE] Science on Districts, doubled in Tundra. -->
+		</Replace>
 		<Replace Tag="LOC_TRAIT_RUSSIA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+1 [icon:YIELD_CULTURE] วัฒนธรรม [/B] และ +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]บน [B]เขตพื้นที่เมือง[/B] ใน [B]ทุ่งทุนดรา[/B][LI][B]+30% [icon:YIELD_PRODUCTION] ผลิตภัณฑ์ [/B]เพื่อการสร้าง [B]เฮอร์มิเทจ[/B][/LIST]</Text>		<!-- [LIST][LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]and [B]+1 [icon:YIELD_SCIENCE] Science [/B]on [B]Districts[/B], doubled in [B]Tundra[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Hermitage[/B].[/LIST] --></Replace>
+			<Text>[LIST][LI][B]+1 [icon:YIELD_CULTURE] วัฒนธรรม [/B] และ +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]บน [B]เขตพื้นที่เมือง[/B] ใน [B]ทุ่งทุนดรา[/B][LI][B]+30% [icon:YIELD_PRODUCTION] ผลิตภัณฑ์ [/B]เพื่อการสร้าง [B]เฮอร์มิเทจ[/B][/LIST]</Text>		<!-- [LIST][LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]and [B]+1 [icon:YIELD_SCIENCE] Science [/B]on [B]Districts[/B], doubled in [B]Tundra[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Hermitage[/B].[/LIST] -->
+		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_RUSSIA_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องกับรัสเซีย</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Russia's associated Wonder. -->
 		</Replace>
@@ -2623,6 +2635,12 @@
 		<Replace Tag="LOC_PEDIA_PAGE_NODE_TECH_MO_MILITARY_SCIENCE_CHAPTER_HISTORY_PARA_1" Language="th_TH">
 			<Text>เมื่อเปลี่ยนคำว่า "ทฤษฎี" และ "ปรัชญา" เป็น "วิทยาศาสตร์" สิ่งที่เปลี่ยนแปลงไปคืออะไร? วิทยาศาสตร์ทำให้วัตถุแตกออกเป็นส่วนต่าง ๆ และส่งเสริมการศึกษาส่วนเหล่านั้นโดยเฉพาะ ในขณะที่ผลงานเช่นเอกสารที่มีชื่อเสียงของซุนจื่อให้คำแนะนำดี ๆ แก่ผู้บัญชาการ แต่ก็สำรวจกลยุทธ์ในฐานะศิลปะ ไม่ใช่วิทยาศาสตร์ สำหรับวิทยาศาสตร์นั้น คาร์ล ฟอน คลอสวิตซ์ได้แสวงหาการศึกษาบรรยากาศที่จับต้องไม่ได้ของสัญชาตญาณของผู้บัญชาการทหาร สำหรับคลอสวิตซ์ (ตามหนังสือ "ในสงคราม" ของเขาที่ตีพิมพ์หลังจากเขาเสียชีวิตในปี 1832) การวิจัยนี้รวมถึงภูมิศาสตร์ ศิลปะการทหาร ประวัติศาสตร์ องค์กร ปืนใหญ่ ป้อมปราการ กฎหมาย การบริหารงาน และยุทธวิธี ซึ่งเป็นหมวดหมู่ที่แยกออกซึ่งต้องถูกทำให้แตกออกและเข้าใจ หลักการเหล่านี้เปลี่ยนแปลงไปตามสงครามที่เปลี่ยนไป หมายความว่าหน่วยม้าทัพไม่จำเป็นอีกต่อไปในโลกของรถถัง และป้อมปราการไม่ให้การป้องกันมากนักในโลกที่เต็มไปด้วยเครื่องบินทิ้งระเบิด โดยรวมแล้ว เทคโนโลยีกลายเป็นผู้มีอำนาจสูงสุด</Text>		<!-- What is changed when the terms “theory” and “philosophy” are replaced with “science?” Science breaks an object into parts and encourages the study of those particular parts. While works such as Sun Tzu’s famous manuscript offer a wealth of good advice to generals, they explore strategy as art, not science. For the latter, Carl von Clausewitz sought to research the intangible aura of a military general's instincts. For Clausewitz (according to his “On War”, published posthumously in 1832), this research included topography, military art, history, organization, artillery, fortifications, legislation, administration, and maneuvers – discrete categories meant to be broken down and understood. These principles changed as war changed, meaning cavalry was no longer essential in a world of tanks, and fortifications offered scant protection in a world full of bombers. Overall, technology became king. -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_NODE_TECH_MO_NUCLEAR_FISSION_CHAPTER_HISTORY_PARA_1" Language="th_TH">
+			<Text>If elements are the fundamental building blocks of matter, fission is the destruction of that foundation. Atomic nuclei divide when struck with enough energy, releasing more energetic particles. When compacted into a dense enough space, reactions can sustain themselves until the fuel is spent. As Harry S. Truman put it, this brings “the basic power of the universe” to Earth for a brief point in time. This nuclear reaction has peaceful applications, as in nuclear power. Unfortunately, it also has catastrophic wartime uses.</Text>		<!-- If elements are the fundamental building blocks of matter, fission is the destruction of that foundation. Atomic nuclei divide when struck with enough energy, releasing more energetic particles. When compacted into a dense enough space, reactions can sustain themselves until the fuel is spent. As Harry S. Truman put it, this brings “the basic power of the universe” to Earth for a brief point in time. This nuclear reaction has peaceful applications, as in nuclear power. Unfortunately, it also has catastrophic wartime uses. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_NODE_TECH_MO_NUCLEAR_FISSION_CHAPTER_HISTORY_PARA_2" Language="th_TH">
+			<Text>Fission was first discovered by Otto Hahn and Lise Meitner in Berlin in 1938 when they noticed uranium slowly become barium (a drastic step down on the periodic table). By 1942, the then-wartime United States embarked on a massive project to develop a bomb based on a fission chain reaction. This bomb, first detonated at the Trinity site in New Mexico, was eventually dropped on Japan during the war – ushering forth an era of existential dread about the fate of the world.</Text>		<!-- Fission was first discovered by Otto Hahn and Lise Meitner in Berlin in 1938 when they noticed uranium slowly become barium (a drastic step down on the periodic table). By 1942, the then-wartime United States embarked on a massive project to develop a bomb based on a fission chain reaction. This bomb, first detonated at the Trinity site in New Mexico, was eventually dropped on Japan during the war – ushering forth an era of existential dread about the fate of the world. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_NODE_TECH_MO_MILITARY_SCIENCE_CHAPTER_HISTORY_PARA_2" Language="th_TH">
 			<Text>ไม่ว่าจะเป็นการแยกศิลปะออกเป็นวิทยาศาสตร์นี้จะเป็นเรื่องดีในท้ายที่สุดหรือไม่ ยังคงเป็นคำถาม แต่เมื่อวิทยาศาสตร์ของกลยุทธ์ได้รับการทั่วไป มันหมายความว่าทุกคนกำลังเล่นเกมเดียวกัน อย่างไรก็ตาม การพึ่งพาวิธีการมาตรฐานอาจนำไปสู่ความประหลาดใจที่ไม่พึงประสงค์ เช่นเดียวกับที่นายพลที่พึ่งพาทหารราบพบเมื่อเผชิญกับคอมมานโดซึ่งซ่อนตัวอยู่ด้วยปืนไรเฟิล หรืออย่างที่ทหารอเมริกันเรียนรู้ในขณะข้ามภูมิประเทศที่ยุ่งเหยิงของที่ลุ่มแม่น้ำโขง</Text>		<!-- Whether this breakdown of art into science is ultimately a good thing remains in question, but when the science of strategy is universalized, it means all are playing the same game. However, a reliance on standard practices can lead to unpleasant surprises as line infantry-reliant generals discovered when facing hidden, rifle-toting snipers, or as American troops learned while traversing the chaotic terrain of the Mekong Delta. -->
 		</Replace>
@@ -2872,6 +2890,9 @@
 		<Replace Tag="LOC_PEDIA_PAGE_UNIT_ZERO_CHAPTER_HISTORY_PARA_1" Language="th_TH">
 			<Text>เครื่องบิน Mitsubishi A6M เป็นเครื่องบินขับไล่ที่เบาและสามารถเคลื่อนที่ได้ดี มันถูกตั้งชื่อว่า เซโร่ หรือ ศูนย์ หลังจากปีจักรพรรดิที่ผลิต (2600, หรือปี ค.ศ. 1940 ตามปฏิทินเกรกอเรียน) ความต้องการของญี่ปุ่นสำหรับศูนย์นั้นรุนแรง: มันต้องมีขนาดเล็กพอที่จะบรรทุกบนเรือบรรทุกเครื่องบิน, ทนทานพอที่จะบินได้นานถึงแปดชั่วโมง, ติดอาวุธดีพอที่จะเป็นภัยคุกคาม, และเร็วพอที่จะมีประสิทธิภาพ Mitsubishi ทำได้โดยการนำเข้าอลูมิเนียมรูปแบบใหม่ และถอดสิ่งของที่หนักออกจากเครื่องบินทั้งหมด</Text>		<!-- The Mitsubishi A6M was a light, maneuverable fighter aircraft. It was named the reisen or Zero after the imperial year of its manufacture (2600, or 1940 in the Gregorian calendar). Japan's demands for the Zero were extreme: it had to be small enough to fit onto a carrier, durable enough to fly for eight hours, armed well enough to pose a threat, and fast enough to be effective. Mitsubishi achieved this by incorporating new forms of aluminum and stripping the craft of everything that would weigh it down. -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_UNIT_CARRIER_COMMANDER_CHAPTER_HISTORY_PARA_1" Language="th_TH">
+			<Text>In 1843 hot air balloons rose from the decks of the SMS Vulcano, a steamer in the service of the Austro-Hungarian Empire. These balloons were loaded with bombs intended for Venice, which had rebelled. This was the first recorded combination of air power and sea power, but it would not be the last. Fixed-wing aircraft took off from naval vessels in World War I, but became decisive in World War II, as ships such as the Enterprise and Saratoga show. Just as flight radically changed land warfare, in one step overcoming trenches and walls, so, too the aircraft carrier ended the supremacy of the battleship. But they are expensive: owing to the necessity of landing and deploying aircraft from their decks, carriers are the largest naval vessels afloat today.</Text>		<!-- In 1843 hot air balloons rose from the decks of the SMS Vulcano, a steamer in the service of the Austro-Hungarian Empire. These balloons were loaded with bombs intended for Venice, which had rebelled. This was the first recorded combination of air power and sea power, but it would not be the last. Fixed-wing aircraft took off from naval vessels in World War I, but became decisive in World War II, as ships such as the Enterprise and Saratoga show. Just as flight radically changed land warfare, in one step overcoming trenches and walls, so, too the aircraft carrier ended the supremacy of the battleship. But they are expensive: owing to the necessity of landing and deploying aircraft from their decks, carriers are the largest naval vessels afloat today. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_UNIT_ZERO_CHAPTER_HISTORY_PARA_2" Language="th_TH">
 			<Text>ขอบคุณในเรื่องระยะทางและการควบคุม มันจึงครองท้องฟ้าพื้นที่แปซิฟิกในช่วงต้นของสงครามโลกครั้งที่สอง โดยเฉพาะอย่างยิ่ง Zero สามารถลดความเร็วลงไปที่ 69 ไมล์ต่อชั่วโมงโดยไม่หยุดนิ่ง ซึ่งทำให้มันมีรัศมีการเลี้ยวที่แคบเมื่อเปรียบเทียบกับเครื่องบินของฝ่ายสัมพันธมิตรในขณะนั้น อย่างไรก็ตามเมื่อสงครามดำเนินไป Zero เริ่มล้าสมัยมากขึ้นและเมื่อสงครามสิ้นสุดลง มันนำเครื่องบินนักรบคามิคาเซ่ที่ถูกกำหนดชะตาเข้าสู่การหมุนครั้งสุดท้าย</Text>		<!-- Thanks to its range and handling, it dominated the Pacific skies during the early part of World War II. Notably, the Zero could drop to speeds of 69 mph without stalling, giving it a tight turn radius in comparison to Allied craft of the time. However, as the war progressed, the Zero grew increasingly outdated and, by the end of the war, carried doomed kamikaze fighters into their last spiral. -->
 		</Replace>
@@ -3035,9 +3056,11 @@
 			<Text>สะพานยุคใหม่</Text>		<!-- Modern Bridge -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MODERN_BRIDGE_DESCRIPTION" Language="th_TH">
-			<Text>+6[icon:YIELD_GOLD] ทอง, อนุญาตให้ ยูนิตภาคพื้น สามารถเคลื่อนที่ข้ามแม่น้ำใหญ่ โดยไม่ต้องลงน้ำ, สร้างได้ถูกกว่า เมื่อมีถนนที่สร้างสะพานข้ามแม่น้ำแล้ว, ต้องถูกวางไว้บนแม่น้ำใหญ่, ไม่ได้รับผลกระทบจากน้ำท่วม, สามารถซื้อในเมืองได้</Text>		<!-- +6[icon:YIELD_GOLD] Gold. Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Must be placed on a Navigable River. Unaffected by Floods. Can be purchased in Towns. --></Replace>
+			<Text>+6[icon:YIELD_GOLD] ทอง, อนุญาตให้ ยูนิตภาคพื้น สามารถเคลื่อนที่ข้ามแม่น้ำใหญ่ โดยไม่ต้องลงน้ำ, สร้างได้ถูกกว่า เมื่อมีถนนที่สร้างสะพานข้ามแม่น้ำแล้ว, ต้องถูกวางไว้บนแม่น้ำใหญ่, ไม่ได้รับผลกระทบจากน้ำท่วม, สามารถซื้อในเมืองได้</Text>		<!-- +6[icon:YIELD_GOLD] Gold. Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Must be placed on a Navigable River. Unaffected by Floods. Can be purchased in Towns. -->
+		</Replace>
 		<Replace Tag="LOC_BUILDING_MODERN_BRIDGE_TOOLTIP" Language="th_TH">
-			<Text>อนุญาตให้ ยูนิตภาคพื้น สามารถเคลื่อนที่ข้ามแม่น้ำใหญ่ โดยไม่ต้องลงน้ำ, สร้างได้ถูกกว่า เมื่อมีถนนที่สร้างสะพานข้ามแม่น้ำแล้ว, ต้องถูกวางไว้บนแม่น้ำใหญ่, ไม่ได้รับผลกระทบจากน้ำท่วม, สามารถซื้อในเมืองได้</Text>		<!-- Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Must be placed on a Navigable River. Unaffected by Floods. Can be purchased in Towns. --></Replace>
+			<Text>อนุญาตให้ ยูนิตภาคพื้น สามารถเคลื่อนที่ข้ามแม่น้ำใหญ่ โดยไม่ต้องลงน้ำ, สร้างได้ถูกกว่า เมื่อมีถนนที่สร้างสะพานข้ามแม่น้ำแล้ว, ต้องถูกวางไว้บนแม่น้ำใหญ่, ไม่ได้รับผลกระทบจากน้ำท่วม, สามารถซื้อในเมืองได้</Text>		<!-- Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Must be placed on a Navigable River. Unaffected by Floods. Can be purchased in Towns. -->
+		</Replace>
 		<Replace Tag="LOC_BUILDING_MUSEUM_NAME" Language="th_TH">
 			<Text>พิพิธภัณฑ์</Text>		<!-- Museum -->
 		</Replace>
@@ -3240,9 +3263,11 @@
 			<Text>อ็อบชินนา</Text>		<!-- Obshchina -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_OBSHCHINA_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_FOOD] อาหาร บนฟาร์มทั้งหมดในถิ่นฐานนี้, +2[icon:YIELD_CULTURE] วัฒนธรรม ในทุ่งทุนดรา, เขตพัฒนาพิเศษ ของจักรวรรดิรัสเซีย, คงอยู่ตลอดกาล ไม่ลบโบนัสโกดังในช่อง, ต้องวางบนเขตพัฒนาบนพื้นที่ราบ และไม่สามารถวางติดกับ อ็อบชินนา อื่นได้</Text>		<!-- +2[icon:YIELD_FOOD] Food on all Farms in this Settlement. +2[icon:YIELD_CULTURE] Culture in Tundra. Russian Empire Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to another Obshchina. --></Replace>
+			<Text>+2[icon:YIELD_FOOD] อาหาร บนฟาร์มทั้งหมดในถิ่นฐานนี้, +2[icon:YIELD_CULTURE] วัฒนธรรม ในทุ่งทุนดรา, เขตพัฒนาพิเศษ ของจักรวรรดิรัสเซีย, คงอยู่ตลอดกาล ไม่ลบโบนัสโกดังในช่อง, ต้องวางบนเขตพัฒนาบนพื้นที่ราบ และไม่สามารถวางติดกับ อ็อบชินนา อื่นได้</Text>		<!-- +2[icon:YIELD_FOOD] Food on all Farms in this Settlement. +2[icon:YIELD_CULTURE] Culture in Tundra. Russian Empire Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to another Obshchina. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_OBSHCHINA_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_FOOD] อาหาร บนฟาร์มทั้งหมดในถิ่นฐานนี้, +2[icon:YIELD_CULTURE] วัฒนธรรม ในทุ่งทุนดรา, เขตพัฒนาพิเศษ ของจักรวรรดิรัสเซีย, คงอยู่ตลอดกาล, ไม่ลบโบนัสโกดังในแผ่นดิน, ต้องวางบนเขตพัฒนาบนพื้นที่ราบ และไม่สามารถวางติดกับ อ็อบชินนา อื่นได้</Text>		<!-- +2[icon:YIELD_FOOD] Food on all Farms in this Settlement. +2[icon:YIELD_CULTURE] Culture in Tundra. Russian Empire Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to another Obshchina. --></Replace>
+			<Text>+2[icon:YIELD_FOOD] อาหาร บนฟาร์มทั้งหมดในถิ่นฐานนี้, +2[icon:YIELD_CULTURE] วัฒนธรรม ในทุ่งทุนดรา, เขตพัฒนาพิเศษ ของจักรวรรดิรัสเซีย, คงอยู่ตลอดกาล, ไม่ลบโบนัสโกดังในแผ่นดิน, ต้องวางบนเขตพัฒนาบนพื้นที่ราบ และไม่สามารถวางติดกับ อ็อบชินนา อื่นได้</Text>		<!-- +2[icon:YIELD_FOOD] Food on all Farms in this Settlement. +2[icon:YIELD_CULTURE] Culture in Tundra. Russian Empire Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to another Obshchina. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_STEPWELL_NAME" Language="th_TH">
 			<Text>บ่อขั้นบันได</Text>		<!-- Stepwell -->
 		</Replace>
@@ -3268,9 +3293,11 @@
 			<Text>+5[icon:YIELD_CULTURE] วัฒนธรรม, +2[icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับแต่ละแปลงที่อยู่ติดกันใน ช่อง เขตร้อน, +2[icon:YIELD_CULTURE] วัฒนธรรม สำหรับแต่ละแปลงที่อยู่ติดกันในทุ่งทุนดรา, และ +2[icon:YIELD_GOLD] ทอง สำหรับแต่ละแปลงที่อยู่ติดกันในทะเลทราย, การพัฒนาพิเศษของนครรัฐ, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนเขตพัฒนา, หนึ่งแห่งต่อถิ่นฐาน</Text>		<!-- +5[icon:YIELD_CULTURE] Culture. +2[icon:YIELD_SCIENCE] Science for each adjacent Tropical tile, +2[icon:YIELD_CULTURE] Culture for each adjacent Tundra tile, and +2[icon:YIELD_GOLD] Gold for each adjacent Desert tile. City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement. One Per Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_TOOLTIP" Language="th_TH">
-			<Text>เขตพัฒนาพิเศษของรัฐอิสระ, ไม่ลบโบนัสจากคลังสินค้า ที่อยู่บนช่องนั้น, ต้องวางบนเขตพัฒนาที่มีอยู่แล้ว, สร้างได้เพียงหนึ่งแห่งต่อหนึ่งถิ่นฐาน</Text>		<!-- City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement. One Per Settlement. --></Replace>
+			<Text>เขตพัฒนาพิเศษของรัฐอิสระ, ไม่ลบโบนัสจากคลังสินค้า ที่อยู่บนช่องนั้น, ต้องวางบนเขตพัฒนาที่มีอยู่แล้ว, สร้างได้เพียงหนึ่งแห่งต่อหนึ่งถิ่นฐาน</Text>		<!-- City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement. One Per Settlement. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_TOOLTIP" Language="th_TH">
-			<Text>เขตพัฒนาพิเศษของรัฐอิสระ, ไม่ลบโบนัสจากคลังสินค้า ที่อยู่บนช่องนั้น, ต้องวางบนเขตพัฒนาที่มีอยู่แล้ว, สร้างได้เพียงหนึ่งแห่งต่อหนึ่งถิ่นฐาน</Text>		<!-- City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement. One Per Settlement. --></Replace>
+			<Text>เขตพัฒนาพิเศษของรัฐอิสระ, ไม่ลบโบนัสจากคลังสินค้า ที่อยู่บนช่องนั้น, ต้องวางบนเขตพัฒนาที่มีอยู่แล้ว, สร้างได้เพียงหนึ่งแห่งต่อหนึ่งถิ่นฐาน</Text>		<!-- City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement. One Per Settlement. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ENTREPOT_NAME" Language="th_TH">
 			<Text>อองเทรโป</Text>		<!-- Entrepôt -->
 		</Replace>
@@ -4148,7 +4175,8 @@
 			<Text>โจเซฟ เฮลเลอร์</Text>		<!-- Joseph Heller -->
 		</Replace>
 		<Replace Tag="LOC_MOD_YANKEE_INGENUITY_PROSPECTOR_DISCOUNT_DESCRIPTION" Language="th_TH">
-			<Text>+25%[icon:YIELD_GOLD] ทอง สำหรับการซื้อ ผู้สำรวจแร่</Text>		<!-- +25%[icon:YIELD_GOLD] Gold towards purchasing Prospectors. --></Replace>
+			<Text>+25%[icon:YIELD_GOLD] ทอง สำหรับการซื้อ ผู้สำรวจแร่</Text>		<!-- +25%[icon:YIELD_GOLD] Gold towards purchasing Prospectors. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_CAPTAINS_OF_INDUSTRY_PRODUCTION_ON_RESOURCES_DESCRIPTION" Language="th_TH">
 			<Text>+2[icon:YIELD_PRODUCTION] กำลังผลิต จากทรัพยากร</Text>		<!-- +2[icon:YIELD_PRODUCTION] Production on Resources. -->
 		</Replace>
@@ -4948,7 +4976,8 @@
 			<Text>มิเกล อีดัลโก</Text>		<!-- Miguel Hidalgo -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_REVOLUCIONARIO_HIDALGO_DESCRIPTION" Language="th_TH">
-			<Text>เปิดใช้งานในเขตของเมืองเพื่อเรียก ยูนิตทหารราบ ฟรีในเขตที่ดินทุกแห่งในเมืองนั้น</Text>		<!-- Activate in a Town's Urban District to summon a free Infantry Unit on every land Urban District in that Town. --></Replace>
+			<Text>เปิดใช้งานในเขตของเมืองเพื่อเรียก ยูนิตทหารราบ ฟรีในเขตที่ดินทุกแห่งในเมืองนั้น</Text>		<!-- Activate in a Town's Urban District to summon a free Infantry Unit on every land Urban District in that Town. -->
+		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_REVOLUCIONARIO_JIMENEZ_NAME" Language="th_TH">
 			<Text>อังเญล่า ฆิเมเนซ</Text>		<!-- Ángela Jiménez -->
 		</Replace>
@@ -5447,6 +5476,30 @@
 		<Replace Tag="LOC_INDEPENDENT_MODERN_28_MAJOR_NAME" Language="th_TH">
 			<Text>บิ๊กทิมเบอร์ส</Text>		<!-- Big Timbers -->
 		</Replace>
+		<Replace Tag="CITY_STATE_MILITARISTIC_BONUS_MODERN_6_NAME" Language="th_TH">
+			<Text>Dependent Territories</Text>		<!-- Dependent Territories -->
+		</Replace>
+		<Replace Tag="CITY_STATE_MILITARISTIC_BONUS_MODERN_7_NAME" Language="th_TH">
+			<Text>Home Front</Text>		<!-- Home Front -->
+		</Replace>
+		<Replace Tag="CITY_STATE_CULTURAL_BONUS_MODERN_6_NAME" Language="th_TH">
+			<Text>Touring Exhibits</Text>		<!-- Touring Exhibits -->
+		</Replace>
+		<Replace Tag="CITY_STATE_CULTURAL_BONUS_MODERN_7_NAME" Language="th_TH">
+			<Text>Textile Industry</Text>		<!-- Textile Industry -->
+		</Replace>
+		<Replace Tag="CITY_STATE_ECONOMIC_BONUS_MODERN_6_NAME" Language="th_TH">
+			<Text>Factory System</Text>		<!-- Factory System -->
+		</Replace>
+		<Replace Tag="CITY_STATE_ECONOMIC_BONUS_MODERN_7_NAME" Language="th_TH">
+			<Text>Entrepreneurship</Text>		<!-- Entrepreneurship -->
+		</Replace>
+		<Replace Tag="CITY_STATE_SCIENTIFIC_BONUS_MODERN_6_NAME" Language="th_TH">
+			<Text>Refineries</Text>		<!-- Refineries -->
+		</Replace>
+		<Replace Tag="CITY_STATE_SCIENTIFIC_BONUS_MODERN_7_NAME" Language="th_TH">
+			<Text>Mechanization</Text>		<!-- Mechanization -->
+		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_MODERN_29_MAJOR_NAME" Language="th_TH">
 			<Text>อานี</Text>		<!-- Aaní -->
 		</Replace>
@@ -5507,6 +5560,30 @@
 		<Replace Tag="LOC_INDEPENDENT_MODERN_38_MAJOR_NAME" Language="th_TH">
 			<Text>ลากาเว่</Text>		<!-- Lagawe -->
 		</Replace>
+		<Replace Tag="CITY_STATE_MILITARISTIC_BONUS_MODERN_6_DESCRIPTION" Language="th_TH">
+			<Text>+1 Settlement Limit.</Text>		<!-- +1 Settlement Limit. -->
+		</Replace>
+		<Replace Tag="CITY_STATE_MILITARISTIC_BONUS_MODERN_7_DESCRIPTION" Language="th_TH">
+			<Text>+1 War Support. This bonus can be chosen by multiple Civilizations.</Text>		<!-- +1 War Support. This bonus can be chosen by multiple Civilizations. -->
+		</Replace>
+		<Replace Tag="CITY_STATE_CULTURAL_BONUS_MODERN_6_DESCRIPTION" Language="th_TH">
+			<Text>+3 Culture on displayed Artifacts.</Text>		<!-- +3 Culture on displayed Artifacts. -->
+		</Replace>
+		<Replace Tag="CITY_STATE_CULTURAL_BONUS_MODERN_7_DESCRIPTION" Language="th_TH">
+			<Text>+1 Culture on Warehouse Buildings. This bonus can be chosen by multiple Civilizations.</Text>		<!-- +1 Culture on Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
+		</Replace>
+		<Replace Tag="CITY_STATE_ECONOMIC_BONUS_MODERN_6_DESCRIPTION" Language="th_TH">
+			<Text>+1 Resource Capacity in Settlements with a Factory .</Text>		<!-- +1 Resource Capacity in Settlements with a Factory . -->
+		</Replace>
+		<Replace Tag="CITY_STATE_ECONOMIC_BONUS_MODERN_7_DESCRIPTION" Language="th_TH">
+			<Text>+1 Gold on Warehouse Buildings. This bonus can be chosen by multiple Civilizations.</Text>		<!-- +1 Gold on Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
+		</Replace>
+		<Replace Tag="CITY_STATE_SCIENTIFIC_BONUS_MODERN_6_DESCRIPTION" Language="th_TH">
+			<Text>+1 Science on Factory Resources assigned to Settlements.</Text>		<!-- +1 Science on Factory Resources assigned to Settlements. -->
+		</Replace>
+		<Replace Tag="CITY_STATE_SCIENTIFIC_BONUS_MODERN_7_DESCRIPTION" Language="th_TH">
+			<Text>+1 Science on Warehouse Buildings. This bonus can be chosen by multiple Civilizations.</Text>		<!-- +1 Science on Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
+		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_MODERN_39_MAJOR_NAME" Language="th_TH">
 			<Text>มัณฑะเลย์</Text>		<!-- Mandalay -->
 		</Replace>
@@ -5566,6 +5643,36 @@
 		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_MODERN_49_MAJOR_NAME" Language="th_TH">
 			<Text>เมืองกีกี</Text>		<!-- Maungakiekie -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_AMERICA" Language="th_TH">
+			<Text>The Prospector Unique Civilian can claim Land Resource tiles outside your borders, up to 5 tiles away from a City Center. The tiles don't even have to be adjacent to your borders.</Text>		<!-- The Prospector Unique Civilian can claim Land Resource tiles outside your borders, up to 5 tiles away from a City Center. The tiles don't even have to be adjacent to your borders. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_BUGANDA" Language="th_TH">
+			<Text>Settle on Lakes connected to Navigable Rivers for extra adjacency bonuses. Then use the additional embarked movement from the 'Nnalubaale Civic to sail the rivers to your opponents and pillage their tiles for big yields.</Text>		<!-- Settle on Lakes connected to Navigable Rivers for extra adjacency bonuses. Then use the additional embarked movement from the 'Nnalubaale Civic to sail the rivers to your opponents and pillage their tiles for big yields. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_FRENCH_EMPIRE" Language="th_TH">
+			<Text>The French Empire benefits from large Cities and larger Armies. Their Jacobin Unique Civilian can increase yields on Quarters, provide Units additional Combat Strength, or even grant a unique Tradition.</Text>		<!-- The French Empire benefits from large Cities and larger Armies. Their Jacobin Unique Civilian can increase yields on Quarters, provide Units additional Combat Strength, or even grant a unique Tradition. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_MEIJI" Language="th_TH">
+			<Text>The Meiji excels at fast Building production, so use the extra time to build Naval and Air Units. Then take advantage of the combat bonuses provided by the Kantai Kessen Civic and Kōkūtai Tradition.</Text>		<!-- The Meiji excels at fast Building production, so use the extra time to build Naval and Air Units. Then take advantage of the combat bonuses provided by the Kantai Kessen Civic and Kōkūtai Tradition. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_MEXICO" Language="th_TH">
+			<Text>Mexico's Revolución Government provides different Celebration options than other Modern Civilizations. Unlock your preferred Revolución Celebration from your Civics early, and then focus on other Civic paths.</Text>		<!-- Mexico's Revolución Government provides different Celebration options than other Modern Civilizations. Unlock your preferred Revolución Celebration from your Civics early, and then focus on other Civic paths. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_MUGHAL" Language="th_TH">
+			<Text>Everyone loves Gold! Gain the ability to purchase Wonders by unlocking the Gardens of Paradise Civic.</Text>		<!-- Everyone loves Gold! Gain the ability to purchase Wonders by unlocking the Gardens of Paradise Civic. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_QING" Language="th_TH">
+			<Text>Trade Routes are the Qing's best friend. Import as many Resources as possible and assign them to your Settlements. Trade Route range and Resource Capacity boosts will help!</Text>		<!-- Trade Routes are the Qing's best friend. Import as many Resources as possible and assign them to your Settlements. Trade Route range and Resource Capacity boosts will help! -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_PRUSSIA" Language="th_TH">
+			<Text>Prussia benefits from being unfriendly with its neighbors. But you need some friends for Endeavors, so try not to turn the whole world against you.</Text>		<!-- Prussia benefits from being unfriendly with its neighbors. But you need some friends for Endeavors, so try not to turn the whole world against you. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_RUSSIA" Language="th_TH">
+			<Text>Russia gets strong benefits from Settlements in Tundra. This means that the City Center itself must be in the Tundra Biome.</Text>		<!-- Russia gets strong benefits from Settlements in Tundra. This means that the City Center itself must be in the Tundra Biome. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_SIAM" Language="th_TH">
+			<Text>The Uparat Unique Civilian has a variety of effects that get stronger with every City-State you become Suzerain of. Start befriending those Independent Powers, or else you may lose them to your rivals.</Text>		<!-- The Uparat Unique Civilian has a variety of effects that get stronger with every City-State you become Suzerain of. Start befriending those Independent Powers, or else you may lose them to your rivals. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_MODERN_1_NAME" Language="th_TH">
 			<Text>ป้อมปืนชายฝั่ง</Text>		<!-- Shore Battery -->
@@ -9165,17 +9272,20 @@
 			<Text>การส่งข้อมูล</Text>		<!-- A Transmission -->
 		</Replace>
 		<Replace Tag="LOC_3441A_COMPLETION" Language="th_TH">
-			<Text>-.-. --.- -.. . .- ….- .-. -.-</Text>		<!-- -.-. - -.- -.. . .- ….- .-. -.- --></Replace>
+			<Text>-.-. --.- -.. . .- ….- .-. -.-</Text>		<!-- -.-. - -.- -.. . .- ….- .-. -.- -->
+		</Replace>
 		<Replace Tag="LOC_3442A_STORYTITLE" Language="th_TH">
 			<Text>สวัสดีอันอบอุ่น</Text>		<!-- Warm Greetings -->
 		</Replace>
 		<Replace Tag="LOC_3442A_NAME" Language="th_TH">
-			<Text>--. .- --- -- …. .-- ..--..</Text>		<!-- - -. .- - - - - - …. .- - ..- -.. --></Replace>
+			<Text>--. .- --- -- …. .-- ..--..</Text>		<!-- - -. .- - - - - - …. .- - ..- -.. -->
+		</Replace>
 		<Replace Tag="LOC_3442A_DESCRIPTION" Language="th_TH">
 			<Text>เรื่องราวยังคงดำเนินต่อไป..</Text>		<!-- Story continues. -->
 		</Replace>
 		<Replace Tag="LOC_3442A_COMPLETION" Language="th_TH">
-			<Text>--. .- -.. .-. --- -- ..- .-. ….. ----. ----.</Text>		<!-- - -. .- -.. .-. - - - - - ..- .-. ….. - - - -. - - - -. --></Replace>
+			<Text>--. .- -.. .-. --- -- ..- .-. ….. ----. ----.</Text>		<!-- - -. .- -.. .-. - - - - - ..- .-. ….. - - - -. - - - -. -->
+		</Replace>
 		<Replace Tag="LOC_3442B_NAME" Language="th_TH">
 			<Text>ปิด</Text>		<!-- Close. -->
 		</Replace>
@@ -9186,7 +9296,8 @@
 			<Text>การตอบสนองที่หนาวเย็น</Text>		<!-- A Chilly Response -->
 		</Replace>
 		<Replace Tag="LOC_3443A_NAME" Language="th_TH">
-			<Text>--.- .- --. ….. .---</Text>		<!-- - -.- .- - -. ….. .- - - --></Replace>
+			<Text>--.- .- --. ….. .---</Text>		<!-- - -.- .- - -. ….. .- - - -->
+		</Replace>
 		<Replace Tag="LOC_3443A_DESCRIPTION" Language="th_TH">
 			<Text>เรื่องราวยังคงดำเนินต่อไป..</Text>		<!-- Story continues. -->
 		</Replace>
@@ -12288,7 +12399,8 @@
 			<Text>ในแต่ละยุคสมัย มีความท้าทาย.. แต่แฮตเชปซุต ผู้มองข้ามดินแดนที่หรูหรา กลับมองเห็นเพียงแต่ความสำเร็จเท่านั้น</Text>		<!-- With each age, a challenge...yet Hatshepsut, gazing across her lands of luxury, sees only success. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1098B_IMPERATIVE" Language="th_TH">
-			<Text>มี 6 ทรัพยากรโรงงานพิเศษ</Text>		<!-- Have 6 unique Factory Resources. --></Replace>
+			<Text>มี 6 ทรัพยากรโรงงานพิเศษ</Text>		<!-- Have 6 unique Factory Resources. -->
+		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1098C_STORYTITLE" Language="th_TH">
 			<Text>ดินแดนแห่งนิรันดร์</Text>		<!-- The Forever Land -->
 		</Replace>
@@ -14081,6 +14193,9 @@
 		<Replace Tag="LOC_PROJECT_TOWN_FACTORY_SHORT_NAME" Language="th_TH">
 			<Text>โครงการคลังสินค้า</Text>		<!-- Warehouse Project -->
 		</Replace>
+		<Replace Tag="LOC_TUTORIAL_QUEST_SELECTION_BODY_NO_ADVISORS" Language="th_TH">
+			<Text>(Legacy Paths are currently disabled. If you enable them, your Advisors will be at your service to guide you on the path of your choice.)</Text>		<!-- (Legacy Paths are currently disabled. If you enable them, your Advisors will be at your service to guide you on the path of your choice.) -->
+		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_FACTORY_NAME" Language="th_TH">
 			<Text>เมืองโรงงาน</Text>		<!-- Factory Town -->
 		</Replace>
@@ -14157,7 +14272,8 @@
 			<Text>+6[icon:YIELD_FOOD] อาหารในเมืองที่มีสถานีรถไฟ, อาหาร +3[icon:YIELD_FOOD] ไปยังเมืองอื่นๆ</Text>		<!-- +6[icon:YIELD_FOOD] Food in a City with a Rail Station. +3[icon:YIELD_FOOD] Food to any other City. -->
 		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_NITER_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตโจมตีระยะไกลและยูนิตปิดล้อม ได้รับ +1 พลังต่อสู้ (สูงสุด +6)</Text>		<!-- Ranged and Siege Units gain +1 Combat Strength (Max +6) --></Replace>
+			<Text>ยูนิตโจมตีระยะไกลและยูนิตปิดล้อม ได้รับ +1 พลังต่อสู้ (สูงสุด +6)</Text>		<!-- Ranged and Siege Units gain +1 Combat Strength (Max +6) -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_WHALES_TOOLTIP" Language="th_TH">
 			<Text>+6[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +6[icon:YIELD_PRODUCTION] Production -->
 		</Replace>
@@ -14171,9 +14287,11 @@
 			<Text>+5%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อการฝึกยูนิตเรือรบ</Text>		<!-- +5%[icon:YIELD_PRODUCTION] Production towards training Naval Units. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_RESOURCE_COAL_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตเรือเบาได้รับ +1 พลังต่อสู้ (สูงสุด +6), +10%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการสร้างสถานีรถไฟ และ ท่าเรือ</Text>		<!-- Light Naval Units gain +1 Combat Strength (Max +6). +10%[icon:YIELD_PRODUCTION] Production towards Rail Stations and Ports. --></Replace>
+			<Text>ยูนิตเรือเบาได้รับ +1 พลังต่อสู้ (สูงสุด +6), +10%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการสร้างสถานีรถไฟ และ ท่าเรือ</Text>		<!-- Light Naval Units gain +1 Combat Strength (Max +6). +10%[icon:YIELD_PRODUCTION] Production towards Rail Stations and Ports. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_RESOURCE_OIL_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตเรือหนักและยูนิตทหารม้า จะได้รับ +1 พลังต่อสู้ (สูงสุด +6), +10%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับ โรงงาน</Text>		<!-- Heavy Naval and Cavalry Units gain +1 Combat Strength (Max +6). +10%[icon:YIELD_PRODUCTION] Production towards Factories. --></Replace>
+			<Text>ยูนิตเรือหนักและยูนิตทหารม้า จะได้รับ +1 พลังต่อสู้ (สูงสุด +6), +10%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับ โรงงาน</Text>		<!-- Heavy Naval and Cavalry Units gain +1 Combat Strength (Max +6). +10%[icon:YIELD_PRODUCTION] Production towards Factories. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_RESOURCE_NICKEL_TOOLTIP" Language="th_TH">
 			<Text>+10%[icon:YIELD_GOLD] ทอง, +10%[icon:YIELD_SCIENCE] วิทยาศาสตร์</Text>		<!-- +10%[icon:YIELD_GOLD] Gold, +10%[icon:YIELD_SCIENCE] Science -->
 		</Replace>
@@ -14181,7 +14299,8 @@
 			<Text>ยูนิตฟื้นฟู +1 HP</Text>		<!-- Units heal +1 HP. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_RESOURCE_RUBBER_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตทหารราบและ ยูนิตทางอากาศ ได้รับ +1 พลังต่อสู้ (สูงสุด +6)</Text>		<!-- Infantry and Air Units gain +1 Combat Strength (Max +6) --></Replace>
+			<Text>ยูนิตทหารราบและ ยูนิตทางอากาศ ได้รับ +1 พลังต่อสู้ (สูงสุด +6)</Text>		<!-- Infantry and Air Units gain +1 Combat Strength (Max +6) -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_NICKEL_TOOLTIP" Language="th_TH">
 			<Text>+10%[icon:YIELD_GOLD] ทอง, 10%[icon:YIELD_SCIENCE] วิทยาศาสตร์</Text>		<!-- +10%[icon:YIELD_GOLD] Gold, 10%[icon:YIELD_SCIENCE] Science -->
 		</Replace>
@@ -15674,7 +15793,8 @@
 			<Text>กองโจรยอดฝีมือ</Text>		<!-- Elite Partisan -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_PARTISAN_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตพิเศษของรัฐอิสระ, แต่ละอันมีราคาสูงกว่าอันก่อนเล็กน้อย +5 พลังต่อสู้กับอารยธรรมที่มีอุดมการณ์ต่างกัน, +10 การฟื้นฟูในดินแดนที่เป็นเจ้าของ</Text>		<!-- City State Unique Infantry Unit. Each one is slightly more expensive than the last. +5 Combat Strength against Civilizations with a different Ideology. +10 healing in owned territory. --></Replace>
+			<Text>ยูนิตพิเศษของรัฐอิสระ, แต่ละอันมีราคาสูงกว่าอันก่อนเล็กน้อย +5 พลังต่อสู้กับอารยธรรมที่มีอุดมการณ์ต่างกัน, +10 การฟื้นฟูในดินแดนที่เป็นเจ้าของ</Text>		<!-- City State Unique Infantry Unit. Each one is slightly more expensive than the last. +5 Combat Strength against Civilizations with a different Ideology. +10 healing in owned territory. -->
+		</Replace>
 		<Replace Tag="LOC_PARTISAN_MOD_IDEOLOGY_DESCRIPTION" Language="th_TH">
 			<Text>+{1_Amount} ต่อต้านอุดมการณ์ที่แตกต่างกัน</Text>		<!-- +{1_Amount} against differrent Ideologies -->
 		</Replace>

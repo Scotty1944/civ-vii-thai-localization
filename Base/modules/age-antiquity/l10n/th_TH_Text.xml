@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" ?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_WARNING_NO_CODEX_SLOT_MESSAGE" Language="th_TH">
@@ -39,6 +39,15 @@
 		</Replace>
 		<Replace Tag="LOC_WARNING_AGE_TRANSITION_COMMANDERS_SUMMARY" Language="th_TH">
 			<Text>กองทัพขนาดใหญ่</Text>		<!-- Large Army -->
+		</Replace>
+		<Replace Tag="LOC_AGE_END_WARNING_TITLE" Language="th_TH">
+			<Text>The Age of Antiquity will soon come to an end</Text>		<!-- The Age of Antiquity will soon come to an end -->
+		</Replace>
+		<Replace Tag="LOC_AGE_END_WARNING_DESC" Language="th_TH">
+			<Text>The Antiquity Age is drawing to a close. From this point forward, the Age only progresses when you select Next Turn; no other effects will influence its advance. Reflect on the remaining opportunities, and ready your Civilization for the dawn of a new era.</Text>		<!-- The Antiquity Age is drawing to a close. From this point forward, the Age only progresses when you select Next Turn; no other effects will influence its advance. Reflect on the remaining opportunities, and ready your Civilization for the dawn of a new era. -->
+		</Replace>
+		<Replace Tag="LOC_AGE_END_WARNING_DESC_FINAL_AGE" Language="th_TH">
+			<Text>The Antiquity Age is drawing to a close. From this point forward, the Age only progresses when you select Next Turn; no other effects will influence its advance. If no Victory is won before the end of the Age, the player who accumulated the most [B]Legacy Points[/B] over the course of the Age will be the winner. Reflect on the remaining opportunities and etch your Civilization's legacy into history.</Text>		<!-- The Antiquity Age is drawing to a close. From this point forward, the Age only progresses when you select Next Turn; no other effects will influence its advance. If no Victory is won before the end of the Age, the player who accumulated the most [B]Legacy Points[/B] over the course of the Age will be the winner. Reflect on the remaining opportunities and etch your Civilization's legacy into history. -->
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_EGYPT_MALE_2" Language="th_TH">
 			<Text>เอพิส</Text>		<!-- Apis -->
@@ -584,21 +593,26 @@
 			<Text>อัมฟิโพลิส</Text>		<!-- Amphipolis -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN1" Language="th_TH">
-			<Text>ฉางอาน</Text>		<!-- Chang'an --></Replace>
+			<Text>ฉางอาน</Text>		<!-- Chang'an -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN2" Language="th_TH">
 			<Text>หลัวหยาง</Text>		<!-- Luoyang -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN3" Language="th_TH">
-			<Text>ลินจื๋อ</Text>		<!-- Linzi --></Replace>
+			<Text>ลินจื๋อ</Text>		<!-- Linzi -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN4" Language="th_TH">
 			<Text>เฉิงตู</Text>		<!-- Chengdu -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN5" Language="th_TH">
-			<Text>ไห่หยาง</Text>		<!-- Huaiyang --></Replace>
+			<Text>ไห่หยาง</Text>		<!-- Huaiyang -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN6" Language="th_TH">
-			<Text>เหลียงโจว</Text>		<!-- Liangzhou --></Replace>
+			<Text>เหลียงโจว</Text>		<!-- Liangzhou -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN7" Language="th_TH">
-			<Text>จินหยาง</Text>		<!-- Jinyang --></Replace>
+			<Text>จินหยาง</Text>		<!-- Jinyang -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN8" Language="th_TH">
 			<Text>ฮั่นตัน</Text>		<!-- Handan -->
 		</Replace>
@@ -606,14 +620,17 @@
 			<Text>เพิงเฉิง</Text>		<!-- Pengcheng -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN10" Language="th_TH">
-			<Text>เหอเป่ย์</Text>		<!-- Ji --></Replace>
+			<Text>เหอเป่ย์</Text>		<!-- Ji -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN11" Language="th_TH">
-			<Text>กวางหลิง</Text>		<!-- Guangling --></Replace>
+			<Text>กวางหลิง</Text>		<!-- Guangling -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN12" Language="th_TH">
 			<Text>ซู่ชาง</Text>		<!-- Xuchang -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN13" Language="th_TH">
-			<Text>ซิงหยาง</Text>		<!-- Xingyang --></Replace>
+			<Text>ซิงหยาง</Text>		<!-- Xingyang -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN14" Language="th_TH">
 			<Text>เฉาซุน</Text>		<!-- Shouchun -->
 		</Replace>
@@ -621,7 +638,8 @@
 			<Text>ลินเซียง</Text>		<!-- Linxiang -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN16" Language="th_TH">
-			<Text>ดิ้งเทา</Text>		<!-- Dingtao --></Replace>
+			<Text>ดิ้งเทา</Text>		<!-- Dingtao -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN17" Language="th_TH">
 			<Text>นันจุน</Text>		<!-- Nanjun -->
 		</Replace>
@@ -629,14 +647,17 @@
 			<Text>หนานชาง</Text>		<!-- Nanchang -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN19" Language="th_TH">
-			<Text>หยางคู</Text>		<!-- Yangqu --></Replace>
+			<Text>หยางคู</Text>		<!-- Yangqu -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN20" Language="th_TH">
 			<Text>เหอเฝย์</Text>		<!-- Hefei -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN21" Language="th_TH">
-			<Text>นานเจิ้ง</Text>		<!-- Nanzheng --></Replace>
+			<Text>นานเจิ้ง</Text>		<!-- Nanzheng -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN22" Language="th_TH">
-			<Text>เย่</Text>		<!-- Ye --></Replace>
+			<Text>เย่</Text>		<!-- Ye -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN23" Language="th_TH">
 			<Text>ดิด้าว</Text>		<!-- Didao -->
 		</Replace>
@@ -644,17 +665,20 @@
 			<Text>ปานยู</Text>		<!-- Panyu -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN25" Language="th_TH">
-			<Text>อานี่</Text>		<!-- Anyi --></Replace>
+			<Text>อานี่</Text>		<!-- Anyi -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN26" Language="th_TH">
 			<Text>บิงจอว์</Text>		<!-- Bingzhou -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN27" Language="th_TH">
-			<Text>เจียนเย่</Text>		<!-- Jianye --></Replace>
+			<Text>เจียนเย่</Text>		<!-- Jianye -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN28" Language="th_TH">
 			<Text>บาชิอู</Text>		<!-- Baqiu -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN29" Language="th_TH">
-			<Text>ขูฟู่</Text>		<!-- Qufu --></Replace>
+			<Text>ขูฟู่</Text>		<!-- Qufu -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_HAN30" Language="th_TH">
 			<Text>ตันหวง</Text>		<!-- Dunhuang -->
 		</Replace>
@@ -2459,9 +2483,11 @@
 			<Text>สะพานโบราณ</Text>		<!-- Ancient Bridge -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ANCIENT_BRIDGE_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_GOLD] ทอง, ช่วยให้ยูนิตภาคพื้นสามารถเคลื่อนที่ข้ามแม่น้ำใหญ่โดยไม่จำเป็นต้องขึ้นเรือ, สร้างได้ถูกกว่าที่จุดที่มีถนนสร้างเป็นสะพานข้ามแม่น้ำแล้ว, จะต้องวางบนแม่น้ำใหญ่, ถูกปล้นโดยน้ำท่วมทุกครั้ง, สามารถซื้อได้ในเมือง</Text>		<!-- +4[icon:YIELD_GOLD] Gold. Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Must be placed on a Navigable River. Pillaged by any Flood. Can be purchased in Towns. --></Replace>
+			<Text>+4[icon:YIELD_GOLD] ทอง, ช่วยให้ยูนิตภาคพื้นสามารถเคลื่อนที่ข้ามแม่น้ำใหญ่โดยไม่จำเป็นต้องขึ้นเรือ, สร้างได้ถูกกว่าที่จุดที่มีถนนสร้างเป็นสะพานข้ามแม่น้ำแล้ว, จะต้องวางบนแม่น้ำใหญ่, ถูกปล้นโดยน้ำท่วมทุกครั้ง, สามารถซื้อได้ในเมือง</Text>		<!-- +4[icon:YIELD_GOLD] Gold. Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Must be placed on a Navigable River. Pillaged by any Flood. Can be purchased in Towns. -->
+		</Replace>
 		<Replace Tag="LOC_BUILDING_ANCIENT_BRIDGE_TOOLTIP" Language="th_TH">
-			<Text>อนุญาตให้ยูนิตภาคพื้นเคลื่อนที่ข้าม แม่น้ำใหญ่โดยไม่ต้องขึ้นเรือ ค่าใช้จ่ายในการสร้างจะถูกกว่า เมื่อมีถนนที่สร้างขึ้นเป็นจุดข้ามเรือข้ามแม่น้ำแล้ว, ต้องวางบนแม่น้ำใหญ่, ถูกปล้นโดยน้ำท่วมทุกครั้ง, สามารถซื้อได้ในเมือง</Text>		<!-- Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Must be placed on a Navigable River. Pillaged by any Flood. Can be purchased in Towns. --></Replace>
+			<Text>อนุญาตให้ยูนิตภาคพื้นเคลื่อนที่ข้าม แม่น้ำใหญ่โดยไม่ต้องขึ้นเรือ ค่าใช้จ่ายในการสร้างจะถูกกว่า เมื่อมีถนนที่สร้างขึ้นเป็นจุดข้ามเรือข้ามแม่น้ำแล้ว, ต้องวางบนแม่น้ำใหญ่, ถูกปล้นโดยน้ำท่วมทุกครั้ง, สามารถซื้อได้ในเมือง</Text>		<!-- Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Must be placed on a Navigable River. Pillaged by any Flood. Can be purchased in Towns. -->
+		</Replace>
 		<Replace Tag="LOC_BUILDING_ANCIENT_WALLS_NAME" Language="th_TH">
 			<Text>กำแพงโบราณ</Text>		<!-- Ancient Walls -->
 		</Replace>
@@ -2691,9 +2717,11 @@
 			<Text>บาราย</Text>		<!-- Baray -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_BARAY_DESCRIPTION" Language="th_TH">
-			<Text>เขตพัฒนาพิเศษของขอม, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ, หนึ่งที่ต่อถิ่นฐาน, +3[icon:YIELD_FOOD] อาหาร, +1[icon:YIELD_FOOD] อาหาร บนทุกพื้นที่น้ำท่วมในถิ่นฐานนี้, เขตพัฒนาพิเศษ ของขอม, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นราบ, หนึ่งแห่งต่อถิ่นฐาน</Text>		<!-- Khmer Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Flat Terrain. One per Settlement. +3[icon:YIELD_FOOD] Food. +1[icon:YIELD_FOOD] Food on all Floodplains in this Settlement. Improvements, Buildings, and Districts in this Settlement do not get pillaged by floods. --></Replace>
+			<Text>เขตพัฒนาพิเศษของขอม, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ, หนึ่งที่ต่อถิ่นฐาน, +3[icon:YIELD_FOOD] อาหาร, +1[icon:YIELD_FOOD] อาหาร บนทุกพื้นที่น้ำท่วมในถิ่นฐานนี้, เขตพัฒนาพิเศษ ของขอม, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นราบ, หนึ่งแห่งต่อถิ่นฐาน</Text>		<!-- Khmer Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Flat Terrain. One per Settlement. +3[icon:YIELD_FOOD] Food. +1[icon:YIELD_FOOD] Food on all Floodplains in this Settlement. Improvements, Buildings, and Districts in this Settlement do not get pillaged by floods. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_BARAY_TOOLTIP" Language="th_TH">
-			<Text>เขตพัฒนาพิเศษของขอม, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ, หนึ่งที่ต่อถิ่นฐาน, +1[icon:YIELD_FOOD] อาหาร ในที่ราบน้ำท่วมทั้งหมดในถิ่นฐานนี้ เขตพัฒนาพิเศษ ของขอม, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ, หนึ่งแห่งต่อถิ่นฐาน</Text>		<!-- Khmer Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Flat Terrain. One per Settlement. +1[icon:YIELD_FOOD] Food on all Floodplains in this Settlement. Improvements, Buildings, and Districts in this Settlement do not get pillaged by floods. --></Replace>
+			<Text>เขตพัฒนาพิเศษของขอม, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ, หนึ่งที่ต่อถิ่นฐาน, +1[icon:YIELD_FOOD] อาหาร ในที่ราบน้ำท่วมทั้งหมดในถิ่นฐานนี้ เขตพัฒนาพิเศษ ของขอม, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ, หนึ่งแห่งต่อถิ่นฐาน</Text>		<!-- Khmer Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Flat Terrain. One per Settlement. +1[icon:YIELD_FOOD] Food on all Floodplains in this Settlement. Improvements, Buildings, and Districts in this Settlement do not get pillaged by floods. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HAN_GREAT_WALL_NAME" Language="th_TH">
 			<Text>กำแพงเมืองจีน</Text>		<!-- Great Wall -->
 		</Replace>
@@ -3956,7 +3984,8 @@
 			<Text>มอบโบนัสให้กับ การก่อสร้าง สิงมหัศจรรย์</Text>		<!-- Grants a bonus to Wonder construction. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_WONDER_CONSTRUCTION_INITIAL" Language="th_TH">
-			<Text>ให้โบนัสแก่การสร้างมหัศจรรย์[n]ได้รับการยอมรับ: คุณจะได้รับ +10%[icon:YIELD_PRODUCTION] กำลังผลิต ในการสร้างมหัศจรรย์ ผู้นำคนอื่นจะได้รับ +6[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +15%[icon:YIELD_PRODUCTION] กำลังผลิต ในการสร้างมหัศจรรย์</Text>		<!-- Grants a bonus to Wonder construction.[n]Accepted: You get +10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders. Other Leader receives +6[icon:YIELD_CULTURE] Culture per turn.[n]Supported: Both Leaders get +15%[icon:YIELD_PRODUCTION] Production towards constructing Wonders. --></Replace>
+			<Text>ให้โบนัสแก่การสร้างมหัศจรรย์[n]ได้รับการยอมรับ: คุณจะได้รับ +10%[icon:YIELD_PRODUCTION] กำลังผลิต ในการสร้างมหัศจรรย์ ผู้นำคนอื่นจะได้รับ +6[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +15%[icon:YIELD_PRODUCTION] กำลังผลิต ในการสร้างมหัศจรรย์</Text>		<!-- Grants a bonus to Wonder construction.[n]Accepted: You get +10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders. Other Leader receives +6[icon:YIELD_CULTURE] Culture per turn.[n]Supported: Both Leaders get +15%[icon:YIELD_PRODUCTION] Production towards constructing Wonders. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_WONDER_CONSTRUCTION_SUPPORT" Language="th_TH">
 			<Text>[icon:YIELD_PRODUCTION] +15% ในการสร้าง สิ่งมหัศจรรย์ สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_PRODUCTION] +15% towards constructing Wonders for both Leaders. -->
 		</Replace>
@@ -6096,6 +6125,378 @@
 		<Replace Tag="LOC_DISCOVERY_25002D_COMPLETION" Language="th_TH">
 			<Text>เอกสารเหล่านี้บันทึกหลายความพยายามที่ล้มเหลว ในการทำการทดลองที่มีความทะเยอทะยานบางอย่าง - แต่ในที่ที่บางอย่างล้มเหลว อาจมีบางอย่างที่สามารถประสบความสำเร็จได้</Text>		<!-- The texts document numerous failed attempts to complete certain ambitious experiments – but where some failed, perhaps others can succeed. -->
 		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40021A_STORYTITLE" Language="th_TH">
+			<Text>Engraved Tomb</Text>		<!-- Engraved Tomb -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40021A_COMPLETION" Language="th_TH">
+			<Text>Seeking shade, herders have stumbled upon the long-neglected tomb of a sage, its funerary slab covered with cryptic markings and swirling forms. Curiosity has turned to debate over its true worth.</Text>		<!-- Seeking shade, herders have stumbled upon the long-neglected tomb of a sage, its funerary slab covered with cryptic markings and swirling forms. Curiosity has turned to debate over its true worth. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40021B_NAME" Language="th_TH">
+			<Text>These are geometric equations.</Text>		<!-- These are geometric equations. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40021B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40021C_NAME" Language="th_TH">
+			<Text>These patterns represent divine perfection.</Text>		<!-- These patterns represent divine perfection. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40021C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40022A_STORYTITLE" Language="th_TH">
+			<Text>Blended Threads</Text>		<!-- Blended Threads -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40022A_COMPLETION" Language="th_TH">
+			<Text>For generations, a clan of weavers has spun fabrics prized for their warmth and strength. Now, in a rare show of respect, the head weaver offers to share their secret technique.</Text>		<!-- For generations, a clan of weavers has spun fabrics prized for their warmth and strength. Now, in a rare show of respect, the head weaver offers to share their secret technique. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40022B_NAME" Language="th_TH">
+			<Text>Graciously accept.</Text>		<!-- Graciously accept. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40022B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40022C_NAME" Language="th_TH">
+			<Text>Decline to honor their tradition.</Text>		<!-- Decline to honor their tradition. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40022C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40023A_STORYTITLE" Language="th_TH">
+			<Text>Beneath the Tide</Text>		<!-- Beneath the Tide -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40023A_COMPLETION" Language="th_TH">
+			<Text>Shell collectors have found a series of strange shapes beneath the waves – low stone enclosures crumbling among coral, once used to trap schools of fish with the rhythm of the tides.</Text>		<!-- Shell collectors have found a series of strange shapes beneath the waves – low stone enclosures crumbling among coral, once used to trap schools of fish with the rhythm of the tides. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40023B_NAME" Language="th_TH">
+			<Text>Rebuild the enclosure.</Text>		<!-- Rebuild the enclosure. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40023B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} to {2_capital}.</Text>		<!-- {1_reward} to {2_capital}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40023C_NAME" Language="th_TH">
+			<Text>Ship the stones home for construction.</Text>		<!-- Ship the stones home for construction. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40023C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} to {2_capital}.</Text>		<!-- {1_reward} to {2_capital}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40024A_STORYTITLE" Language="th_TH">
+			<Text>The Song of the Reed</Text>		<!-- The Song of the Reed -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40024A_COMPLETION" Language="th_TH">
+			<Text>A lonely shepherd has carved a flute from a hollow reed. Its melodies ride the wind, inviting those who long for home to follow its call.</Text>		<!-- A lonely shepherd has carved a flute from a hollow reed. Its melodies ride the wind, inviting those who long for home to follow its call. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40024B_NAME" Language="th_TH">
+			<Text>Learn to play the reeds.</Text>		<!-- Learn to play the reeds. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40024B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40024C_NAME" Language="th_TH">
+			<Text>Stop and listen.</Text>		<!-- Stop and listen. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40024C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40025A_STORYTITLE" Language="th_TH">
+			<Text>Sunlight in the Hollow</Text>		<!-- Sunlight in the Hollow -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40025A_COMPLETION" Language="th_TH">
+			<Text>The hollow within a mysterious mound has been uncovered, its passageway aligned so the winter solstice sun illuminates its inner chamber. Local priests insist the site be preserved as sacred.</Text>		<!-- The hollow within a mysterious mound has been uncovered, its passageway aligned so the winter solstice sun illuminates its inner chamber. Local priests insist the site be preserved as sacred. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40025B_NAME" Language="th_TH">
+			<Text>Measure celestial movements at the site.</Text>		<!-- Measure celestial movements at the site. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40025B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40025C_NAME" Language="th_TH">
+			<Text>Consecrate the mound as holy.</Text>		<!-- Consecrate the mound as holy. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40025C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40026A_STORYTITLE" Language="th_TH">
+			<Text>Ceremonial Blade</Text>		<!-- Ceremonial Blade -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40026A_COMPLETION" Language="th_TH">
+			<Text>Inside a collapsed stronghold, workers have unearthed a ceremonial dagger engraved with the sigil of a once-mighty commander. The find would be invaluable to its original heirs … but a rival house could probably name a price.</Text>		<!-- Inside a collapsed stronghold, workers have unearthed a ceremonial dagger engraved with the sigil of a once-mighty commander. The find would be invaluable to its original heirs … but a rival house could probably name a price. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40026B_NAME" Language="th_TH">
+			<Text>Return the armor to its owner.</Text>		<!-- Return the armor to its owner. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40026B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40026C_NAME" Language="th_TH">
+			<Text>Find a new buyer.</Text>		<!-- Find a new buyer. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40026C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40027A_STORYTITLE" Language="th_TH">
+			<Text>Hidden Cloves</Text>		<!-- Hidden Cloves -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40027A_COMPLETION" Language="th_TH">
+			<Text>A spice harvester has been venturing deep into the forest to harvest wild cloves in secret. These dried buds fetch more than their weight in silver – so long as no one else finds the grove.</Text>		<!-- A spice harvester has been venturing deep into the forest to harvest wild cloves in secret. These dried buds fetch more than their weight in silver – so long as no one else finds the grove. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40027B_NAME" Language="th_TH">
+			<Text>Share this spice; it prevents spoilage.</Text>		<!-- Share this spice; it prevents spoilage. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40027B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} to {2_capital}.</Text>		<!-- {1_reward} to {2_capital}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40027C_NAME" Language="th_TH">
+			<Text>Silence has a price.</Text>		<!-- Silence has a price. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40027C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40028A_STORYTITLE" Language="th_TH">
+			<Text>Scattered Cargo</Text>		<!-- Scattered Cargo -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40028A_COMPLETION" Language="th_TH">
+			<Text>The bodies of two feuding merchants lie by the roadside, their dispute settled in blood. As birds circle overhead, passing travelers have begun to squabble over the abandoned wares.</Text>		<!-- The bodies of two feuding merchants lie by the roadside, their dispute settled in blood. As birds circle overhead, passing travelers have begun to squabble over the abandoned wares. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40028B_NAME" Language="th_TH">
+			<Text>These are now {1_CIVILIZATION_ADJ} goods.</Text>		<!-- These are now {1_CIVILIZATION_ADJ} goods. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40028B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40028C_NAME" Language="th_TH">
+			<Text>The goods pass to the merchants' kin.</Text>		<!-- The goods pass to the merchants' kin. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40028C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21120A_STORYTITLE" Language="th_TH">
+			<Text>Fire and Sheen</Text>		<!-- Fire and Sheen -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21120A_COMPLETION" Language="th_TH">
+			<Text>Potters have been experimenting with ceramic coatings that create an arresting glow. Their bowls catch the sunlight, dazzling the eye, but the firing process must be meticulously controlled to avoid an uneven finish.</Text>		<!-- Potters have been experimenting with ceramic coatings that create an arresting glow. Their bowls catch the sunlight, dazzling the eye, but the firing process must be meticulously controlled to avoid an uneven finish. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21120B_NAME" Language="th_TH">
+			<Text>Mastering the kiln is the mark of true craft.</Text>		<!-- Mastering the kiln is the mark of true craft. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21120B_DESCRIPTION" Language="th_TH">
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21120B_IMPERATIVE" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21120C_NAME" Language="th_TH">
+			<Text>This labor is hardly worth the shine.</Text>		<!-- This labor is hardly worth the shine. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21120C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21120D_STORYTITLE" Language="th_TH">
+			<Text>Fire and Sheen</Text>		<!-- Fire and Sheen -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21120D_NAME" Language="th_TH">
+			<Text>Close.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21120D_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21120D_COMPLETION" Language="th_TH">
+			<Text>Smoke curls through the air as the potters lift their creation from the kiln – the vessel's lustrous surface still hot to the touch.</Text>		<!-- Smoke curls through the air as the potters lift their creation from the kiln – the vessel's lustrous surface still hot to the touch. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21121A_STORYTITLE" Language="th_TH">
+			<Text>Echoes of the Dead</Text>		<!-- Echoes of the Dead -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21121A_COMPLETION" Language="th_TH">
+			<Text>A cache of grave goods contains an ingenious whistle. When blown, it emits a chilling shriek, like a spirit returning from the dead. It could be useful.</Text>		<!-- A cache of grave goods contains an ingenious whistle. When blown, it emits a chilling shriek, like a spirit returning from the dead. It could be useful. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21121B_NAME" Language="th_TH">
+			<Text>Warriors will wield it in battle.</Text>		<!-- Warriors will wield it in battle. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21121B_DESCRIPTION" Language="th_TH">
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21121B_IMPERATIVE" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21121C_NAME" Language="th_TH">
+			<Text>Destroy the cursed thing.</Text>		<!-- Destroy the cursed thing. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21121C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21121D_STORYTITLE" Language="th_TH">
+			<Text>Echoes of the Dead</Text>		<!-- Echoes of the Dead -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21121D_NAME" Language="th_TH">
+			<Text>Close.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21121D_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21121D_COMPLETION" Language="th_TH">
+			<Text>The whistle’s shriek cuts through the morning fog, a warning to all {1_CIVILIZATION_ADJ} foes.</Text>		<!-- The whistle’s shriek cuts through the morning fog, a warning to all {1_CIVILIZATION_ADJ} foes. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21122A_STORYTITLE" Language="th_TH">
+			<Text>Broken Salvage</Text>		<!-- Broken Salvage -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21122A_COMPLETION" Language="th_TH">
+			<Text>A salvage team has pulled a fractured religious icon from the wreckage of a sunken ship. They believe the icon's desecration cursed the voyage, but one engineer insists an unbalanced keel caused the vessel to tip.</Text>		<!-- A salvage team has pulled a fractured religious icon from the wreckage of a sunken ship. They believe the icon's desecration cursed the voyage, but one engineer insists an unbalanced keel caused the vessel to tip. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21122B_NAME" Language="th_TH">
+			<Text>Shipwrights should heed this vessel’s failings.</Text>		<!-- Shipwrights should heed this vessel’s failings. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21122B_DESCRIPTION" Language="th_TH">
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21122B_IMPERATIVE" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21122C_NAME" Language="th_TH">
+			<Text>Restore the relic to still the sea.</Text>		<!-- Restore the relic to still the sea. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21122C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21122D_STORYTITLE" Language="th_TH">
+			<Text>Broken Salvage</Text>		<!-- Broken Salvage -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21122D_NAME" Language="th_TH">
+			<Text>Close.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21122D_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} to {2_capital}.</Text>		<!-- {1_reward} to {2_capital}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21122D_COMPLETION" Language="th_TH">
+			<Text>Bent beneath a ship's hull, a shipbuilder measures the keel with deliberate care, knowing it must meet the ocean's might.</Text>		<!-- Bent beneath a ship's hull, a shipbuilder measures the keel with deliberate care, knowing it must meet the ocean's might. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21123A_STORYTITLE" Language="th_TH">
+			<Text>Skilled Archers</Text>		<!-- Skilled Archers -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21123A_COMPLETION" Language="th_TH">
+			<Text>A band of wandering archers looses volley after volley, each arrow landing with uncanny precision. A gathered crowd watches in awe.</Text>		<!-- A band of wandering archers looses volley after volley, each arrow landing with uncanny precision. A gathered crowd watches in awe. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21123B_NAME" Language="th_TH">
+			<Text>Enlist them.</Text>		<!-- Enlist them. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21123B_DESCRIPTION" Language="th_TH">
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21123B_IMPERATIVE" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21123C_NAME" Language="th_TH">
+			<Text>Silently admire the warriors' craft.</Text>		<!-- Silently admire the warriors' craft. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21123C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21123D_STORYTITLE" Language="th_TH">
+			<Text>Skilled Archers</Text>		<!-- Skilled Archers -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21123D_NAME" Language="th_TH">
+			<Text>Close.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21123D_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} in the nearest Settlement.</Text>		<!-- {1_reward} in the nearest Settlement. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21123D_COMPLETION" Language="th_TH">
+			<Text>With bows strapped to their backs, the archers stand ready to march like a storm across the earth.</Text>		<!-- With bows strapped to their backs, the archers stand ready to march like a storm across the earth. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21124A_STORYTITLE" Language="th_TH">
+			<Text>The Exhausted Well</Text>		<!-- The Exhausted Well -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21124A_COMPLETION" Language="th_TH">
+			<Text>Workers have been digging out an exhausted well, hoping to strike water. Instead, the foreman unearths a pale stone with dark veins that coil like frozen smoke.</Text>		<!-- Workers have been digging out an exhausted well, hoping to strike water. Instead, the foreman unearths a pale stone with dark veins that coil like frozen smoke. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21124B_NAME" Language="th_TH">
+			<Text>Seek a larger marble deposit below.</Text>		<!-- Seek a larger marble deposit below. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21124B_DESCRIPTION" Language="th_TH">
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21124C_NAME" Language="th_TH">
+			<Text>Let artisans give the stone worth.</Text>		<!-- Let artisans give the stone worth. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21124C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21124D_STORYTITLE" Language="th_TH">
+			<Text>The Exhausted Well</Text>		<!-- The Exhausted Well -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21124D_NAME" Language="th_TH">
+			<Text>Close.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21124D_DESCRIPTION" Language="th_TH">
+			<Text>Tile becomes a Marble Resource.</Text>		<!-- Tile becomes a Marble Resource. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21124D_COMPLETION" Language="th_TH">
+			<Text>The cliff breaks beneath ringing hammers, and a wall of marble is revealed, pale as moonlight trapped in stone.</Text>		<!-- The cliff breaks beneath ringing hammers, and a wall of marble is revealed, pale as moonlight trapped in stone. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21126A_STORYTITLE" Language="th_TH">
+			<Text>Scorched Temple</Text>		<!-- Scorched Temple -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21126A_COMPLETION" Language="th_TH">
+			<Text>A temple once filled with voices of outspoken philosophers – fierce critics of {1_CIVILIZATION_ADJ} rule – has burned to the ground. The priests claim they've lost more than a building; they’ve lost the spirit of independent thought.</Text>		<!-- A temple once filled with voices of outspoken philosophers – fierce critics of {1_CIVILIZATION_ADJ} rule – has burned to the ground. The priests claim they've lost more than a building; they’ve lost the spirit of independent thought. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21126B_NAME" Language="th_TH">
+			<Text>Mourn the fall of a cherished landmark.</Text>		<!-- Mourn the fall of a cherished landmark. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21126B_DESCRIPTION" Language="th_TH">
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21126B_IMPERATIVE" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21126C_NAME" Language="th_TH">
+			<Text>Frame the loss as divine judgment.</Text>		<!-- Frame the loss as divine judgment. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21126C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21126D_STORYTITLE" Language="th_TH">
+			<Text>Scorched Temple</Text>		<!-- Scorched Temple -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21126D_NAME" Language="th_TH">
+			<Text>Close.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21126D_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21126D_COMPLETION" Language="th_TH">
+			<Text>In time all buildings turn to dust – but great ideas may linger where walls once stood.</Text>		<!-- In time all buildings turn to dust – but great ideas may linger where walls once stood. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21135A_STORYTITLE" Language="th_TH">
+			<Text>plundered trade route</Text>		<!-- plundered trade route -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21135A_COMPLETION" Language="th_TH">
+			<Text>Brigands have been raiding the merchant caravans that frequent nearby villages, taking a torch to everything that is useless to them. The smoke is a clear warning to give {1_independent} a wide berth.</Text>		<!-- Brigands have been raiding the merchant caravans that frequent nearby villages, taking a torch to everything that is useless to them. The smoke is a clear warning to give {1_independent} a wide berth. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21135B_NAME" Language="th_TH">
+			<Text>Take over the trade route.</Text>		<!-- Take over the trade route. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21135B_DESCRIPTION" Language="th_TH">
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21135B_IMPERATIVE" Language="th_TH">
+			<Text>{1_independent} becomes Hostile (removes all progress towards Befriending) and sends a Raid to {2_capital}.</Text>		<!-- {1_independent} becomes Hostile (removes all progress towards Befriending) and sends a Raid to {2_capital}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21135C_NAME" Language="th_TH">
+			<Text>Offer sympathies to {1_independent}.</Text>		<!-- Offer sympathies to {1_independent}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21135C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21135D_STORYTITLE" Language="th_TH">
+			<Text>plundered trade route</Text>		<!-- plundered trade route -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21135D_NAME" Language="th_TH">
+			<Text>Close.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21135D_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21135D_COMPLETION" Language="th_TH">
+			<Text>Their loss is {1_civilization_adj} gain.</Text>		<!-- Their loss is {1_civilization_adj} gain. -->
+		</Replace>
 		<Replace Tag="LOC_GOLDEN_AGE_CLASSICAL_REPUBLIC_NAME" Language="th_TH">
 			<Text>สาธารณรัฐคลาสสิก</Text>		<!-- Classical Republic -->
 		</Replace>
@@ -6262,7 +6663,8 @@
 			<Text>ชีต้า ฟู</Text>		<!-- Shì Dàfū -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_SHI_DAFU_DESCRIPTION" Language="th_TH">
-			<Text>บุคคลสำคัญ พร้อมให้ใช้งาน 1 ครั้ง, สามารถฝึกได้เฉพาะในเมืองที่มีประชากรอย่างน้อย 10 หน่วย และ ชีต้า ฟู ที่ได้รับจะเป็นแบบสุ่ม, ชีต้า ฟู แต่ละคนสามารถได้รับเพียงครั้งเดียว, ค่าใช้จ่ายจะเพิ่มขึ้นต่อ ชีต้า ฟู ที่ฝึกได้</Text>		<!-- A Great Person with one charge. Can only be trained in the Capital with at least 10 Population, and the specific Shì Dàfū received is random. Each Shì Dàfū can only be received once. Cost increases per Shì Dàfū trained. --></Replace>
+			<Text>บุคคลสำคัญ พร้อมให้ใช้งาน 1 ครั้ง, สามารถฝึกได้เฉพาะในเมืองที่มีประชากรอย่างน้อย 10 หน่วย และ ชีต้า ฟู ที่ได้รับจะเป็นแบบสุ่ม, ชีต้า ฟู แต่ละคนสามารถได้รับเพียงครั้งเดียว, ค่าใช้จ่ายจะเพิ่มขึ้นต่อ ชีต้า ฟู ที่ฝึกได้</Text>		<!-- A Great Person with one charge. Can only be trained in the Capital with at least 10 Population, and the specific Shì Dàfū received is random. Each Shì Dàfū can only be received once. Cost increases per Shì Dàfū trained. -->
+		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHI_DAFU_BAN_ZHAO_NAME" Language="th_TH">
 			<Text>บันเจียว</Text>		<!-- Ban Zhao -->
 		</Replace>
@@ -6872,6 +7274,30 @@
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_20_NAME" Language="th_TH">
 			<Text>สวนมหัศจรรย์</Text>		<!-- Garden of Wonders -->
 		</Replace>
+		<Replace Tag="CITY_STATE_MILITARISTIC_BONUS_ANTIQUITY_6_NAME" Language="th_TH">
+			<Text>Hegemon</Text>		<!-- Hegemon -->
+		</Replace>
+		<Replace Tag="CITY_STATE_MILITARISTIC_BONUS_ANTIQUITY_7_NAME" Language="th_TH">
+			<Text>Spoils of War</Text>		<!-- Spoils of War -->
+		</Replace>
+		<Replace Tag="CITY_STATE_CULTURAL_BONUS_ANTIQUITY_6_NAME" Language="th_TH">
+			<Text>Ennigaldi-Nanna's Museum</Text>		<!-- Ennigaldi-Nanna's Museum -->
+		</Replace>
+		<Replace Tag="CITY_STATE_CULTURAL_BONUS_ANTIQUITY_7_NAME" Language="th_TH">
+			<Text>Papermaking</Text>		<!-- Papermaking -->
+		</Replace>
+		<Replace Tag="CITY_STATE_ECONOMIC_BONUS_ANTIQUITY_6_NAME" Language="th_TH">
+			<Text>Stockpiles</Text>		<!-- Stockpiles -->
+		</Replace>
+		<Replace Tag="CITY_STATE_ECONOMIC_BONUS_ANTIQUITY_7_NAME" Language="th_TH">
+			<Text>Ganzabara</Text>		<!-- Ganzabara -->
+		</Replace>
+		<Replace Tag="CITY_STATE_SCIENTIFIC_BONUS_ANTIQUITY_6_NAME" Language="th_TH">
+			<Text>Lingua Franca</Text>		<!-- Lingua Franca -->
+		</Replace>
+		<Replace Tag="CITY_STATE_SCIENTIFIC_BONUS_ANTIQUITY_7_NAME" Language="th_TH">
+			<Text>Archimedes' Screw</Text>		<!-- Archimedes' Screw -->
+		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_1_DESCRIPTION" Language="th_TH">
 			<Text>อนุญาตให้สร้าง เขตพัฒนาปราการเนินเขา, ปราการเนินเขาให้ผลผลิต +2[icon:YIELD_PRODUCTION] นอกจากนี้ยัง +1 ระยะมองเห็นและ +5 ฟื้นฟูต่อเทิร์นให้กับยูนิตทหาร ในแผ่นดินนั้น, ถือว่าเป็นป้อมปราการ, +6 พลังต่อสู้ เมื่อทำการป้องกัน, ต้องวางในพื้นที่ที่เป็นภูมิประเทศขรุขระ</Text>		<!-- Allows the construction of the Hillfort Improvement. The Hillfort provides +2[icon:YIELD_PRODUCTION] Production. It also gives +1 sight, and +5 healing per turn to Military Units on the tile. Counts as Fortification, +6 Combat Strength when defending. Must be placed on Rough Terrain. -->
 		</Replace>
@@ -6932,6 +7358,30 @@
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_20_DESCRIPTION" Language="th_TH">
 			<Text>+20%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้าง อาคารด้านวิทยาศาสตร์, ในแต่ละนครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards constructing Science Buildings for every City-State you are Suzerain of. -->
 		</Replace>
+		<Replace Tag="CITY_STATE_MILITARISTIC_BONUS_ANTIQUITY_6_DESCRIPTION" Language="th_TH">
+			<Text>+1 Settlement Limit.</Text>		<!-- +1 Settlement Limit. -->
+		</Replace>
+		<Replace Tag="CITY_STATE_MILITARISTIC_BONUS_ANTIQUITY_7_DESCRIPTION" Language="th_TH">
+			<Text>+1 War Support. This bonus can be chosen by multiple Civilizations.</Text>		<!-- +1 War Support. This bonus can be chosen by multiple Civilizations. -->
+		</Replace>
+		<Replace Tag="CITY_STATE_CULTURAL_BONUS_ANTIQUITY_6_DESCRIPTION" Language="th_TH">
+			<Text>+2 Culture on displayed Codices.</Text>		<!-- +2 Culture on displayed Codices. -->
+		</Replace>
+		<Replace Tag="CITY_STATE_CULTURAL_BONUS_ANTIQUITY_7_DESCRIPTION" Language="th_TH">
+			<Text>+1 Culture on Warehouse Buildings. This bonus can be chosen by multiple Civilizations.</Text>		<!-- +1 Culture on Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
+		</Replace>
+		<Replace Tag="CITY_STATE_ECONOMIC_BONUS_ANTIQUITY_6_DESCRIPTION" Language="th_TH">
+			<Text>+2 Resource Capacity in the Capital.</Text>		<!-- +2 Resource Capacity in the Capital. -->
+		</Replace>
+		<Replace Tag="CITY_STATE_ECONOMIC_BONUS_ANTIQUITY_7_DESCRIPTION" Language="th_TH">
+			<Text>+1 Gold on Warehouse Buildings. This bonus can be chosen by multiple Civilizations.</Text>		<!-- +1 Gold on Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
+		</Replace>
+		<Replace Tag="CITY_STATE_SCIENTIFIC_BONUS_ANTIQUITY_6_DESCRIPTION" Language="th_TH">
+			<Text>+2 Science on displayed Codices.</Text>		<!-- +2 Science on displayed Codices. -->
+		</Replace>
+		<Replace Tag="CITY_STATE_SCIENTIFIC_BONUS_ANTIQUITY_7_DESCRIPTION" Language="th_TH">
+			<Text>+1 Science on Warehouse Buildings. This bonus can be chosen by multiple Civilizations.</Text>		<!-- +1 Science on Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
+		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_AKSUM" Language="th_TH">
 			<Text>ชายฝั่งแอฟริกาของทะเลแดง เป็นเขตแดนของอักซุม ซึ่งถูกตั้งชื่อโดยผู้พยากรณ์มานีว่าเป็นหนึ่งในสี่อำนาจหลักของโลกโบราณ ในช่วงเกือบทั้งหมดของพันปีแรกในยุคคริสต์ศักราช พ่อค้าชาวอักซุมได้ขนส่งงาช้าง ทอง เงิน เครื่องเทศ และสินค้าต่าง ๆ จากภายในแอฟริกาไปยังอินเดีย เปอร์เซีย และทะเลเมดิเตอร์เรเนียน อย่างไรก็ตาม เส้นทางการค้าก็ได้ปลูกฝังเมล็ดพันธุ์แห่งการล่มสลายของอักซุม - เมื่อการปกครองของอาหรับเข้ายึดเส้นทางสายไหม อักซุมจึงถูกตัดขาดและตกต่ำลง</Text>		<!-- The African coast of the Red Sea was the domain of Aksum, named by the prophet Mani as one of the four key powers of the ancient world. For most of the first millennium CE, Aksumite merchants bore ivory, gold, spices and other goods from the African interior to India, Persia, and the Mediterranean. Yet these trade routes planted the seeds of Aksum’s fall – when the Arab caliphates took over the Silk Road, Aksum was isolated and fell into decline. -->
 		</Replace>
@@ -6969,7 +7419,8 @@
 			<Text>น้ำท่วมอีกครั้ง เตรียมดินแดนสำหรับการเติบโตใหม่ ที่นี่อียิปต์จะทำให้โลกต้องเห็นความมหัศจรรย์ที่มันสร้างสรรค์</Text>		<!-- The waters flood again, preparing the lands for new growth. Here Egypt will compel the world to behold the wonders it works. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_INTRO_GREECE" Language="th_TH">
-			<Text>ประชาชนมารวมตัวกันอภิปรายเกี่ยวกับดนตรีและการเมือง กวีนิพนธ์และกฎหมาย—จินตนาการถึงวิธีการสร้างกรีกที่จะคงอยู่ตลอดไป</Text>		<!-- The people gather together, debating music and politics, poetry and law- -envisioning how to build a Greece that will last for ages. --></Replace>
+			<Text>ประชาชนมารวมตัวกันอภิปรายเกี่ยวกับดนตรีและการเมือง กวีนิพนธ์และกฎหมาย—จินตนาการถึงวิธีการสร้างกรีกที่จะคงอยู่ตลอดไป</Text>		<!-- The people gather together, debating music and politics, poetry and law- -envisioning how to build a Greece that will last for ages. -->
+		</Replace>
 		<Replace Tag="LOC_LOADING_INTRO_HAN" Language="th_TH">
 			<Text>ความกลมกลืนจะปรากฏผ่านการสร้างพลังงาน การปลูกฝังความเป็นระเบียบ ตอนนี้ ฮั่นจะเป็นรัฐมนตรีของมัน</Text>		<!-- Harmony reveals itself through the shaping of energy, the cultivation of order. Now, the Han shall be its ministers. -->
 		</Replace>
@@ -6990,6 +7441,36 @@
 		</Replace>
 		<Replace Tag="LOC_LOADING_INTRO_ROME" Language="th_TH">
 			<Text>ธงใหม่โบกสะบัด, ประดับด้วยพวงมาลาแห่งชัยชนะ โรมกำลังมองหาฮีโร่ของตน</Text>		<!-- A new banner unfurls, emblazoned with triumphal laurels. Rome seeks its champions. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_AKSUM" Language="th_TH">
+			<Text>The Dhow unique Naval Unit can create Trade Routes if you have Open Borders, saving you a Merchant. With the Port of Nations Tradition, you can also receive extra Culture and Gold on all your Trade Routes.</Text>		<!-- The Dhow unique Naval Unit can create Trade Routes if you have Open Borders, saving you a Merchant. With the Port of Nations Tradition, you can also receive extra Culture and Gold on all your Trade Routes. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_EGYPT" Language="th_TH">
+			<Text>The Riches of the Duat Tradition grants a bonus towards constructing Wonders. The Unique Civilian, the Tjaty, can sometimes add large sums of Production towards Wonders, too.</Text>		<!-- The Riches of the Duat Tradition grants a bonus towards constructing Wonders. The Unique Civilian, the Tjaty, can sometimes add large sums of Production towards Wonders, too. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_GREECE" Language="th_TH">
+			<Text>Use the Xenia Tradition to turn Independent Powers into City-States. Each one makes the Hoplite stronger with the Agoge Civic and grants Culture with the Symmachia Civic.</Text>		<!-- Use the Xenia Tradition to turn Independent Powers into City-States. Each one makes the Hoplite stronger with the Agoge Civic and grants Culture with the Symmachia Civic. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_HAN" Language="th_TH">
+			<Text>The Han dynasty is a scientific powerhouse, in more ways than one: their Science Buildings receive substantial bonuses, the Shì Dàfū Unique Civilians create Codices, and the Tianxia Tradition improves the Science yields of Specialists.</Text>		<!-- The Han dynasty is a scientific powerhouse, in more ways than one: their Science Buildings receive substantial bonuses, the Shì Dàfū Unique Civilians create Codices, and the Tianxia Tradition improves the Science yields of Specialists. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_KHMER" Language="th_TH">
+			<Text>Build your Urban Districts on Floodplains whenever possible, but make sure you build a Baray. These Unique Improvements make Settlements immune to Floods, even in future Ages.</Text>		<!-- Build your Urban Districts on Floodplains whenever possible, but make sure you build a Baray. These Unique Improvements make Settlements immune to Floods, even in future Ages. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_MAURYA" Language="th_TH">
+			<Text>Use Maurya's plentiful Happiness to support your military conquest, or pair it with the Shreni and Arthashastra Traditions to earn extra Gold and Science.</Text>		<!-- Use Maurya's plentiful Happiness to support your military conquest, or pair it with the Shreni and Arthashastra Traditions to earn extra Gold and Science. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_MAYA" Language="th_TH">
+			<Text>The Uwaybil K'uh Unique Quarter grants Production every time you research a Technology. Pair this with the Calendar Round Civic, which grants Culture for finishing Technologies and Science for finishing Civics!</Text>		<!-- The Uwaybil K'uh Unique Quarter grants Production every time you research a Technology. Pair this with the Calendar Round Civic, which grants Culture for finishing Technologies and Science for finishing Civics! -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_MISSISSIPPIAN" Language="th_TH">
+			<Text>The Burning Arrow Unique Unit creates a field of fire wherever it strikes, whether attacking Settlements or defending your own. But watch out, because it will damage your own Units, too.</Text>		<!-- The Burning Arrow Unique Unit creates a field of fire wherever it strikes, whether attacking Settlements or defending your own. But watch out, because it will damage your own Units, too. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_PERSIA" Language="th_TH">
+			<Text>Persia may provide strong incentives for military conquest, but with the Angarium Tradition and Achaemenid Empire Civic, it is also an economic powerhouse.</Text>		<!-- Persia may provide strong incentives for military conquest, but with the Angarium Tradition and Achaemenid Empire Civic, it is also an economic powerhouse. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_ROME" Language="th_TH">
+			<Text>Use the Cursus Honorum Tradition to generate Culture when producing Legions, then direct them in battle with your Legatus to earn it experience. After enough promotions, it can settle a new Town.</Text>		<!-- Use the Cursus Honorum Tradition to generate Culture when producing Legions, then direct them in battle with your Legatus to earn it experience. After enough promotions, it can settle a new Town. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AMINA_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
 			<Text>ราชินีนักรบ</Text>		<!-- The Warrior Queen -->
@@ -15931,6 +16412,12 @@
 		<Replace Tag="LOC_9010B_NAME" Language="th_TH">
 			<Text>ใช้ผลไม้จากต้นที่เหลือเพื่อปลูกใหม่</Text>		<!-- Use fruit from the remaining trees to replant. -->
 		</Replace>
+		<Replace Tag="LOC_PANTHEON_BONUS_17_NAME" Language="th_TH">
+			<Text>God of Revelry</Text>		<!-- God of Revelry -->
+		</Replace>
+		<Replace Tag="LOC_PANTHEON_BONUS_18_NAME" Language="th_TH">
+			<Text>Trickster God</Text>		<!-- Trickster God -->
+		</Replace>
 		<Replace Tag="LOC_9010B_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward} บน มะม่วง</Text>		<!-- {1_reward} on Mangoes. -->
 		</Replace>
@@ -15978,6 +16465,12 @@
 		</Replace>
 		<Replace Tag="LOC_9013A_STORYTITLE" Language="th_TH">
 			<Text>การฉ้อโกงทับทิม</Text>		<!-- The Ruby Fraud -->
+		</Replace>
+		<Replace Tag="LOC_PANTHEON_BONUS_17_DESCRIPTION" Language="th_TH">
+			<Text>+1[icon:YIELD_HAPPINESS] Happiness on Resources in Settlements with an Altar. This Pantheon can be chosen by multiple Civilizations.</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness on Resources in Settlements with an Altar. This Pantheon can be chosen by multiple Civilizations. -->
+		</Replace>
+		<Replace Tag="LOC_PANTHEON_BONUS_18_DESCRIPTION" Language="th_TH">
+			<Text>+25%[icon:YIELD_DIPLOMACY] Influence towards Endeavors and Sanctions with an Altar in the Capital. This Pantheon can be chosen by multiple Civilizations.</Text>		<!-- +25%[icon:YIELD_DIPLOMACY] Influence towards Endeavors and Sanctions with an Altar in the Capital. This Pantheon can be chosen by multiple Civilizations. -->
 		</Replace>
 		<Replace Tag="LOC_9013A_COMPLETION" Language="th_TH">
 			<Text>ทับทิมนำเข้าได้หลั่งไหลเข้าสู่ตลาด สร้างราคาสูงและมีอิทธิพลต่อแฟชั่นในราชสำนัก แต่ในเมืองหลวง ช่างเจียระไนอัญมณีสูงวัยถือหินไว้ใกล้เปลวเทียนของเขา... และสังเกตว่ามันเปลี่ยนเป็นสีดำในความร้อน ปลอม!</Text>		<!-- Imported rubies have flooded the market, commanding high prices and influencing court fashion. But in the capital, an aging lapidary holds a stone too close to his candle-flame... and notes how the color blackens in the heat. A fake! -->
@@ -16364,9 +16857,11 @@
 			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต </Text>		<!-- +3[icon:YIELD_PRODUCTION] Production -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_HORSES_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตทหารม้าจะได้รับ +1 พลังต่อสู้ และเพิ่มอีก +1 เมื่อต่อสู้กับยูนิตทหารราบ</Text>		<!-- Cavalry Units gain +1 Combat Strength, and an additional +1 against Infantry Units --></Replace>
+			<Text>ยูนิตทหารม้าจะได้รับ +1 พลังต่อสู้ และเพิ่มอีก +1 เมื่อต่อสู้กับยูนิตทหารราบ</Text>		<!-- Cavalry Units gain +1 Combat Strength, and an additional +1 against Infantry Units -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_IRON_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตทหารราบได้รับ +1 พลังต่อสู้</Text>		<!-- Infantry Units gain +1 Combat Strength --></Replace>
+			<Text>ยูนิตทหารราบได้รับ +1 พลังต่อสู้</Text>		<!-- Infantry Units gain +1 Combat Strength -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SALT_TOOLTIP" Language="th_TH">
 			<Text>+20% [icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการฝึกยูนิต</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards training Units -->
 		</Replace>
@@ -16652,6 +17147,18 @@
 		<Replace Tag="LOC_MOD_TECH_AQ_WET_PRODUCTION_DESCRIPTION" Language="th_TH">
 			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต บนบ่อดินเหนียว</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Clay Pits. -->
 		</Replace>
+		<Replace Tag="LOC_TUTORIAL_CHOOSE_FIRST_TECH_BODY_MORE_INFO_KBM" Language="th_TH">
+			<Text>Hover over</Text>		<!-- Hover over -->
+		</Replace>
+		<Replace Tag="LOC_TUTORIAL_CHOOSE_FIRST_TECH_BODY_MORE_INFO_GAMEPAD" Language="th_TH">
+			<Text>Hover over</Text>		<!-- Hover over -->
+		</Replace>
+		<Replace Tag="LOC_TUTORIAL_CHOOSE_FIRST_TECH_BODY_MORE_INFO_HYBRID" Language="th_TH">
+			<Text>Hover over</Text>		<!-- Hover over -->
+		</Replace>
+		<Replace Tag="LOC_TUTORIAL_CHOOSE_FIRST_TECH_BODY_MORE_INFO_TOUCH" Language="th_TH">
+			<Text>Tap and hold</Text>		<!-- Tap and hold -->
+		</Replace>
 		<Replace Tag="LOC_MOD_TECH_AQ_PASTURE_FOOD_DESCRIPTION" Language="th_TH">
 			<Text>+1[icon:YIELD_FOOD] อาหาร บนทุ่งเลี้ยงสัตว์</Text>		<!-- +1[icon:YIELD_FOOD] Food on Pastures. -->
 		</Replace>
@@ -16696,12 +17203,10 @@
 			<Text>[b]กด [/b][action:{1_Icon}] [b]เพื่อยืนยัน[/b]</Text>		<!-- [b]Press [/b][action:{1_Icon}] [b]to confirm[/b]. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_HYBRID_CONTROLLER_CANCEL_KBM" Language="th_TH">
-			<Text>ไม่มี</Text>
-		<!-- None -->
+			<Text>ไม่มี</Text>		<!-- None -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_HYBRID_CONTROLLER_CANCEL_GAMEPAD" Language="th_TH">
-			<Text>ไม่มี</Text>
-		<!-- None -->
+			<Text>ไม่มี</Text>		<!-- None -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_HYBRID_CONTROLLER_CANCEL_HYBRID" Language="th_TH">
 			<Text>[b]กด [/b][action:{1_Icon}] [b]เพื่อยกเลิก[/b]
@@ -16709,8 +17214,7 @@
             [n]If you'd like to exit [b]Mouse Controls[/b], [b]turn the Joy-Con 2 [/b]upright at any time. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_HYBRID_CONTROLLER_CANCEL_TOUCH" Language="th_TH">
-			<Text>ไม่มี</Text>
-		<!-- None -->
+			<Text>ไม่มี</Text>		<!-- None -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ANTIQUITY_WELCOME_PAGE_ONE_TITLE" Language="th_TH">
 			<Text>ยินดีต้อนรับสู่ Civilization VII</Text>		<!-- Welcome to Civilization VII -->
@@ -16755,10 +17259,10 @@
 			<Text>ถิ่นฐาน</Text>		<!-- Settlements -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_YOUR_FIRST_CITY_BODY_HYBRID" Language="th_TH">
-			<Text> กด [action:{1_Icon}] บน </Text>		<!--  press [action:{1_Icon}] on -->
+			<Text> กด [action:{1_Icon}] บน </Text>		<!-- press [action:{1_Icon}] on -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_YOUR_FIRST_CITY_BODY_TOUCH" Language="th_TH">
-			<Text> แตะ</Text>		<!--  tap -->
+			<Text> แตะ</Text>		<!-- tap -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ANTIQUITY_WELCOME_PAGE_FOUR_SUBTITLE" Language="th_TH">
 			<Text>หัวใจของอารยธรรมของคุณ</Text>		<!-- The heart of your Civilization -->
@@ -16833,10 +17337,10 @@
 			<Text>เมืองแรกของคุณ</Text>		<!-- Your First City -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_FIRST_PRODUCTION_BODY_HYBRID" Language="th_TH">
-			<Text> กด [action:{1_Icon}] บนตัวเลือกเพื่อเลือกและ </Text>		<!--  Press [action:{1_Icon}] on an option to select it and -->
+			<Text> กด [action:{1_Icon}] บนตัวเลือกเพื่อเลือกและ </Text>		<!-- Press [action:{1_Icon}] on an option to select it and -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_FIRST_PRODUCTION_BODY_TOUCH" Language="th_TH">
-			<Text> แตะหนึ่งตัวเลือกเพื่อ </Text>		<!--  Tap one to -->
+			<Text> แตะหนึ่งตัวเลือกเพื่อ </Text>		<!-- Tap one to -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_YOUR_FIRST_CITY_BODY" Language="th_TH">
 			<Text>ถิ่นฐานแรก ของคุณจะเจริญรุ่งเรืองเมื่ออยู่ใกล้แหล่งน้ำ และทรัพยากรอุดมสมบูรณ์ สถานที่นี้เหมาะสมกับความต้องการของคุณ! [n]สั่งการ [icon:UNIT_FOUNDER][b]{1_Founder}[/b] เพื่อก่อตั้ง [b]เมืองหลวง[/b] ของคุณ, {2_Prompts} ปุ่มการกระทำ [icon:UNIT_FOUND_CITY_ICON][b]{LOC_UNITOPERATION_FOUND_CITY_NAME} [/b] ที่ตั้งอยู่ในแผงยูนิตด้านล่าง</Text>		<!-- Your first settlement is sure to thrive near sources of water and abundant resources. This location is well-suited to your needs![n]Order your [icon:UNIT_FOUNDER] [b]{1_Founder} [/b]to establish your [b]Capital City[/b], {2_Prompts} the [icon:UNIT_FOUND_CITY_ICON] [b]{LOC_UNITOPERATION_FOUND_CITY_NAME} [/b]action button located in the Unit panel below. -->
@@ -16941,10 +17445,10 @@
 			<Text>ยืนยันการเลือกเทคโนโลยีของคุณโดยกด [action:{1_Icon}]</Text>		<!-- confirm your Tech choice by pressing [action:{1_Icon}]. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CHOOSE_FIRST_TECH_BODY_HYBRID" Language="th_TH">
-			<Text> กด [action:{1_Icon}] บนเทคโนโลยีเพื่อเริ่มวิจัย</Text>		<!--  press [action:{1_Icon}] on the Technology to begin researching. -->
+			<Text> กด [action:{1_Icon}] บนเทคโนโลยีเพื่อเริ่มวิจัย</Text>		<!-- press [action:{1_Icon}] on the Technology to begin researching. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CHOOSE_FIRST_TECH_BODY_TOUCH" Language="th_TH">
-			<Text> แตะบนเทคโนโลยีเพื่อเริ่มวิจัย</Text>		<!--  tap on the Technology to begin researching. -->
+			<Text> แตะบนเทคโนโลยีเพื่อเริ่มวิจัย</Text>		<!-- tap on the Technology to begin researching. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_FIRST_PRODUCTION_WARRIOR_ITEM_TEXT" Language="th_TH">
 			<Text>[b]{1_Name} {2_Icon}[/b] เป็นยูนิตทหารที่สามารถ [b]โจมตี[/b]ศัตรูที่เป็นอันตรายหรือปกป้องเมืองของคุณจากการรุกราน</Text>		<!-- The [b]{1_Name} {2_Icon} [/b]is a military Unit that can [b]attack [/b]hostile enemies or defend your City from an invasion. -->
@@ -17082,10 +17586,10 @@
 			<Text>คลังของคุณ</Text>		<!-- Your Treasury -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CHOOSE_FIRST_CIVIC_BODY_HYBRID" Language="th_TH">
-			<Text> กด [action:{1_Icon}] บน </Text>		<!--  press [action:{1_Icon}] on -->
+			<Text> กด [action:{1_Icon}] บน </Text>		<!-- press [action:{1_Icon}] on -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CHOOSE_FIRST_CIVIC_BODY_TOUCH" Language="th_TH">
-			<Text> แตะบน </Text>		<!--  tap on -->
+			<Text> แตะบน </Text>		<!-- tap on -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_PLAYER_GOLD_INCOME_BODY" Language="th_TH">
 			<Text>อารยธรรมของคุณสะสมความมั่งคั่งในรูปแบบของ [icon:YIELD_GOLD] [b]ทอง[/b] ซึ่งเกิดขึ้นในแต่ละเทิร์นจากแหล่งต่างๆ รวมถึงสิ่งก่อสร้าง ทรัพยากร และการพัฒนาที่ดิน รวมทั้งนโยบายพลเมืองและการค้า [n][b]ทอง[/b] เป็นทรัพยากรที่ทรงพลังมาก ซึ่งสามารถใช้ซื้อสิ่งต่างๆ ได้ทันทีที่ปกติจะต้องใช้เวลาและกำลังผลิตในการได้มา อย่างไรก็ตาม โปรดจำไว้ว่าสิ่งก่อสร้างและยูนิตส่วนใหญ่มีค่าใช้จ่ายบำรุงรักษา [b]ทอง[/b] ซึ่งจะถูกหักออกจากคลังของคุณในแต่ละเทิร์น การรักษารายได้ [b]ทอง[/b] ให้เป็นบวกเป็นสิ่งสำคัญ!</Text>		<!-- Your Civilization accumulates wealth in the form of [icon:YIELD_GOLD] [b]Gold [/b]which is generated every turn from various sources including Buildings, Resources, and land Improvements as well as Civic Policies and trades.[n][b]Gold [/b]is a very powerful resource which can be used to purchase things instantly that would normally require time and Production to obtain. However, keep in mind that most Buildings and Units have a [b]Gold [/b]maintenance cost which is subtracted from your Treasury each turn. Maintaining a positive [b]Gold [/b]income is important! -->
@@ -17198,6 +17702,9 @@
 		<Replace Tag="LOC_TUTORIAL_POLICY_SWAP_TUTORIAL_BODY" Language="th_TH">
 			<Text>คุณสามารถปรับกลยุทธ์ของอารยธรรมของคุณ โดยการปรับเปลี่ยนนโยบายได้ หากคุณต้องการสับเปลี่ยนนโยบาย คุณจะต้องทำการวิจัย แนวคิดใหม่</Text>		<!-- You can adapt your Civilization's strategies by swapping Social Policies. If you want to swap a Policy, you will need to research a Civic. -->
 		</Replace>
+		<Replace Tag="LOC_TUTORIAL_QUEST_SELECTION_BODY_NO_ADVISORS" Language="th_TH">
+			<Text>(Legacy Paths are currently disabled. If you enable them, your Advisors will be at your service to guide you on the path of your choice.)</Text>		<!-- (Legacy Paths are currently disabled. If you enable them, your Advisors will be at your service to guide you on the path of your choice.) -->
+		</Replace>
 		<Replace Tag="LOC_TUTORIAL_EARN_FIRST_ATTRIBUTE_POINT_TITLE" Language="th_TH">
 			<Text>คุณลักษณะของผู้นำ</Text>		<!-- Leader Attributes -->
 		</Replace>
@@ -17256,10 +17763,10 @@
 			<Text>หมู่บ้านอิสระ</Text>		<!-- Independent Villages -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_YOUR_FIRST_COMMANDER_PROMOTION_HYBRID" Language="th_TH">
-			<Text> กด [action:{1_Icon}] บน</Text>		<!--  press [action:{1_Icon}] on -->
+			<Text> กด [action:{1_Icon}] บน</Text>		<!-- press [action:{1_Icon}] on -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_YOUR_FIRST_COMMANDER_PROMOTION_TOUCH" Language="th_TH">
-			<Text> แตะ</Text>		<!--  tap -->
+			<Text> แตะ</Text>		<!-- tap -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_FIRST_INDEPENDENT_MET_BODY" Language="th_TH">
 			<Text>{1_IndpendentText}</Text>		<!-- {1_IndpendentText} -->
@@ -17809,6 +18316,9 @@
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_4_TRACKING_TITLE" Language="th_TH">
 			<Text>เส้นทางมรดก: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} IV</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME} IV -->
+		</Replace>
+		<Replace Tag="LOC_TUTORIAL_UNITS_INJECT_AT_AGE_TRANSITION_BODY" Language="th_TH">
+			<Text>Some, if not all, of your Units will survive through Age Transition. At the start of the Exploration Age, {1_UnitCount} Units will remain to defend your Settlements, and the rest will be assigned to Commanders, as long as there is space for them. [b]Any other Units you have will be left behind[/b]![n]</Text>		<!-- Some, if not all, of your Units will survive through Age Transition. At the start of the Exploration Age, {1_UnitCount} Units will remain to defend your Settlements, and the rest will be assigned to Commanders, as long as there is space for them. [b]Any other Units you have will be left behind[/b]![n] -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_4_TRACKING_BODY" Language="th_TH">
 			<Text>สร้างสิ่งมหัศจรรย์: {1_WondersCurrent}/{2_WondersTarget}</Text>		<!-- Construct Wonders: {1_WondersCurrent}/{2_WondersTarget} -->

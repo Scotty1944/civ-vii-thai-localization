@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" ?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_CARD_EXP_CITY_NAME" Language="th_TH">
@@ -364,6 +364,15 @@
 		<Replace Tag="LOC_WARNING_AGE_TRANSITION_NAVAL_COMMANDERS_SUMMARY" Language="th_TH">
 			<Text>กองทัพเรือขนาดใหญ่</Text>		<!-- Large Navy -->
 		</Replace>
+		<Replace Tag="LOC_AGE_END_WARNING_TITLE" Language="th_TH">
+			<Text>The Age of Exploration will soon come to an end</Text>		<!-- The Age of Exploration will soon come to an end -->
+		</Replace>
+		<Replace Tag="LOC_AGE_END_WARNING_DESC" Language="th_TH">
+			<Text>The Exploration Age is drawing to a close. From this point forward, the Age only progresses when you select Next Turn; no other effects will influence its advance. Reflect on the remaining opportunities, and ready your Civilization for the dawn of a new era.</Text>		<!-- The Exploration Age is drawing to a close. From this point forward, the Age only progresses when you select Next Turn; no other effects will influence its advance. Reflect on the remaining opportunities, and ready your Civilization for the dawn of a new era. -->
+		</Replace>
+		<Replace Tag="LOC_AGE_END_WARNING_DESC_FINAL_AGE" Language="th_TH">
+			<Text>The Exploration Age is drawing to a close. From this point forward, the Age only progresses when you select Next Turn; no other effects will influence its advance. If no Victory is won before the end of the Age, the player who accumulated the most [B]Legacy Points[/B] over the course of the Age will be the winner. Reflect on the remaining opportunities and etch your Civilization's legacy into history.</Text>		<!-- The Exploration Age is drawing to a close. From this point forward, the Age only progresses when you select Next Turn; no other effects will influence its advance. If no Victory is won before the end of the Age, the player who accumulated the most [B]Legacy Points[/B] over the course of the Age will be the winner. Reflect on the remaining opportunities and etch your Civilization's legacy into history. -->
+		</Replace>
 		<Replace Tag="LOC_WARNING_TREASURE_FLEET_BUILDING_MESSAGE" Language="th_TH">
 			<Text>{1_City} เต็มไปด้วยทรัพยากรสมบัติ แต่ทรัพยากรเหล่านี้มีประโยชน์มากกว่าที่นี่ในบ้านเรา สร้างท่าเรือประมงใน {1_City} เพื่อที่เราจะสามารถปล่อยกองเรือสมบัติได้ จากนั้นเราสามารถตรวจสอบทรัพยากรของเราเพื่อดูว่าจะใช้เวลานานแค่ไหนในการผลิตกองเรือถัดไป</Text>		<!-- {1_City} abounds with Treasure Resources, but they are of better use here at home. Let us build a Fishing Quay in {1_City} so we can launch Treasure Fleets; then we can review our Resources to see how long it will take to produce the next one. -->
 		</Replace>
@@ -512,9 +521,11 @@
 			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับทุก 5[icon:YIELD_HAPPINESS] ความสุข ที่เกินมาในถิ่นฐานที่คุณยึดครอง</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production for every 5 excess[icon:YIELD_HAPPINESS] Happiness in Settlements you Conquer. -->
 		</Replace>
 		<Replace Tag="LOC_CITYCOMMAND_DESTROY_RAZE_PENALTY" Language="th_TH">
-			<Text>-12[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น ตลอดยุคหลังจากทำลายเสร็จสิ้น</Text>		<!-- -12[icon:YIELD_DIPLOMACY] Influence per turn for the rest of the Age once razing is complete --></Replace>
+			<Text>-12[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น ตลอดยุคหลังจากทำลายเสร็จสิ้น</Text>		<!-- -12[icon:YIELD_DIPLOMACY] Influence per turn for the rest of the Age once razing is complete -->
+		</Replace>
 		<Replace Tag="LOC_CITYCOMMAND_KEEP_PENALTY" Language="th_TH">
-			<Text>-6[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น ขณะควบคุมถิ่นฐานนี้ในยุคนี้</Text>		<!-- -6[icon:YIELD_DIPLOMACY] Influence per turn while you control this Settlement during this Age --></Replace>
+			<Text>-6[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น ขณะควบคุมถิ่นฐานนี้ในยุคนี้</Text>		<!-- -6[icon:YIELD_DIPLOMACY] Influence per turn while you control this Settlement during this Age -->
+		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_CRISIS_INWARD_PERFECTION" Language="th_TH">
 			<Text>ความสมบูรณ์จากภายใน</Text>		<!-- Inward Perfection -->
 		</Replace>
@@ -1546,9 +1557,11 @@
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_SONGHAI_DESCRIPTION" Language="th_TH">
 			<Text>+2 ความจุทรัพยากร ในเมืองที่อยู่ริมแม่น้ำใหญ่ และเรือการค้าของคุณ ไม่สามารถถูกปล้นได้บนแม่น้ำใหญ่, +3 [icon:YIELD_GOLD] ทอง ต่อเส้นทางการค้าแต่ละเส้นที่กำลังใช้งาน
-สามารถสร้าง กองเรือสมบัติแห่งบ้านเกิด ได้บนช่องแม่น้ำใหญ่ได้ หลังจากวิจัย แนวคิดกันตา สำเร็จ</Text>		<!-- +2 Resource Capacity in Cities on Navigable Rivers and your Trade Ships cannot be Plundered on Navigable Rivers. +3[icon:YIELD_GOLD] Gold for every active Trade Route. Can generate Homelands Treasure Fleets on Navigable Rivers after completing the Kanta Civic. --></Replace>
+สามารถสร้าง กองเรือสมบัติแห่งบ้านเกิด ได้บนช่องแม่น้ำใหญ่ได้ หลังจากวิจัย แนวคิดกันตา สำเร็จ</Text>		<!-- +2 Resource Capacity in Cities on Navigable Rivers and your Trade Ships cannot be Plundered on Navigable Rivers. +3[icon:YIELD_GOLD] Gold for every active Trade Route. Can generate Homelands Treasure Fleets on Navigable Rivers after completing the Kanta Civic. -->
+		</Replace>
 		<Replace Tag="LOC_TRAIT_SONGHAI_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][B]+2 ความจุทรัพยากร[/B] ใน [B]เมือง[/B] บน [B]แม่น้ำใหญ่[/B] และเรือ [B]การค้า[/B] ของคุณไม่สามารถถูก [B]ปล้น[/B] ได้บน [B]แม่น้ำใหญ่[/B][LI][B]+3[icon:YIELD_GOLD] ทอง[/B] ต่อ [B]เส้นทางการค้าแต่ละเส้นที่กำลังใช้งาน[/B] [LI]สามารถสร้าง [B]กองเรือสมบัติแห่งบ้านเกิด[/B] บนช่อง [B]แม่น้ำใหญ่[/B] หลังจากวิจัย [B]แนวคิดกันตา[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการก่อสร้าง [B]หลุมฝังศพของอัสเกีย[/B][/LIST]</Text>		<!-- [LIST][LI][B]+2 Resource Capacity[/B] in [B]Cities[/B] on [B]Navigable Rivers[/B] and your [B]Trade Ships [/B]cannot be [B]Plundered[/B] on [B]Navigable Rivers[/B].[LI][B]+3[icon:YIELD_GOLD] Gold[/B] for every [B]active Trade Route[/B]. [LI]Can generate [B]Homelands Treasure Fleets[/B] on [B]Navigable Rivers[/B] after completing the [B]Kanta Civic[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Tomb of Askia[/B].[/LIST] --></Replace>
+			<Text>[LIST][LI][B]+2 ความจุทรัพยากร[/B] ใน [B]เมือง[/B] บน [B]แม่น้ำใหญ่[/B] และเรือ [B]การค้า[/B] ของคุณไม่สามารถถูก [B]ปล้น[/B] ได้บน [B]แม่น้ำใหญ่[/B][LI][B]+3[icon:YIELD_GOLD] ทอง[/B] ต่อ [B]เส้นทางการค้าแต่ละเส้นที่กำลังใช้งาน[/B] [LI]สามารถสร้าง [B]กองเรือสมบัติแห่งบ้านเกิด[/B] บนช่อง [B]แม่น้ำใหญ่[/B] หลังจากวิจัย [B]แนวคิดกันตา[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการก่อสร้าง [B]หลุมฝังศพของอัสเกีย[/B][/LIST]</Text>		<!-- [LIST][LI][B]+2 Resource Capacity[/B] in [B]Cities[/B] on [B]Navigable Rivers[/B] and your [B]Trade Ships [/B]cannot be [B]Plundered[/B] on [B]Navigable Rivers[/B].[LI][B]+3[icon:YIELD_GOLD] Gold[/B] for every [B]active Trade Route[/B]. [LI]Can generate [B]Homelands Treasure Fleets[/B] on [B]Navigable Rivers[/B] after completing the [B]Kanta Civic[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Tomb of Askia[/B].[/LIST] -->
+		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_SONGHAI_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องกับซองไฮ</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being the Songhai's associated Wonder. -->
 		</Replace>
@@ -2016,6 +2029,12 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_BUILDING_OBSERVATORY_CHAPTER_HISTORY_PARA_1" Language="th_TH">
 			<Text>หอสังเกตการณ์ดาราศาสตร์แบบต้นแบบคือโดมหรืออาคารโลหะขนาดใหญ่ที่มีกล้องโทรทรรศน์โผล่ออกมา คล้ายกับหอสังเกตการณ์สฟิงซ์ในประเทศสวิตเซอร์แลนด์ แต่ลองจินตนาการถึงหอสังเกตการณ์ในศตวรรษก่อนหน้านั้น – แพลตฟอร์มที่เงียบสงบซึ่งสามารถวิเคราะห์ท้องฟ้าได้ อาจใช้เครื่องหมายอ้างอิงเพื่อกำหนดวันเวลาของการเคลื่อนไหวทางดาราศาสตร์ (เช่น ดาวศุกร์ขึ้นจากหินก้อนนี้ เป็นต้น) สถานที่ดังกล่าวมีความสำคัญต่อดาราศาสตร์ โหราศาสตร์ คณิตศาสตร์ และการเดินเรือ และมักจะผสานความเข้าใจทางศาสนาและวิทยาศาสตร์เข้าไว้ด้วยกัน เราพบโครงสร้างเหล่านี้ในปักกิ่ง เดลี เมืองมายันของคาราโคล และที่อื่นๆ เมื่อเทคโนโลยีแบบเล็งภาพขยายตัวขึ้น หอสังเกตการณ์ก็ได้ใช้ความสามารถในการใช้เลนส์ที่ใหญ่ขึ้นและแม่นยำมากขึ้น ตั้งแต่ศตวรรษที่ 17 เป็นต้นมา หลายประเทศในยุโรปได้สร้างหอสังเกตการณ์ที่ละเอียดเพื่อทำความเข้าใจท้องฟ้าได้ดียิ่งขึ้น</Text>		<!-- The archetypal astronomical observatory is a large metal dome with a telescope peeking out, something like the Sphinx Observatory in Switzerland. But imagine observatories centuries before – quiet, still platforms from which the sky can be analyzed, perhaps using reference markers to date astronomical movements (i.e. Venus rose from this stone, etc.). Such sites were important for astronomy, astrology, mathematics, and navigation, and they often fused religious and scientific understandings. We find these structures in Beijing, Delhi, the Mayan city of Caracol, and elsewhere. As optical technology expanded, observatories seized upon the ability to use bigger and more accurate lenses. By the 17th century onward, many major European nations built detailed observatories to better understand the heavens. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_BUILDING_AMPHITHEATER_EX_CHAPTER_HISTORY_PARA_1" Language="th_TH">
+			<Text>The word “amphitheater” references a semicircular or circular ring of seats surrounding a stage where performances, speeches, gladiatorial contests, poetry, and the like could be staged. The term is specific to Greek and Roman contexts, where it performed a key role in public entertainment. However, if "amphitheater" is used to reference any gathering point for performances, we find examples across several societies, from Balinese dance to Chinese village opera to the singing of Malinese griots. Stories are crafted to be shared, whether that be a politician’s speech, a mythological tale projected in shadow on a screen in a Malay market, or a story writ in bronze and blood upon gladiatorial ground.</Text>		<!-- The word “amphitheater” references a semicircular or circular ring of seats surrounding a stage where performances, speeches, gladiatorial contests, poetry, and the like could be staged. The term is specific to Greek and Roman contexts, where it performed a key role in public entertainment. However, if "amphitheater" is used to reference any gathering point for performances, we find examples across several societies, from Balinese dance to Chinese village opera to the singing of Malinese griots. Stories are crafted to be shared, whether that be a politician’s speech, a mythological tale projected in shadow on a screen in a Malay market, or a story writ in bronze and blood upon gladiatorial ground. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_BUILDING_ACADEMY_EX_CHAPTER_HISTORY_PARA_1" Language="th_TH">
+			<Text>While universities are massive institutions of general study, academies are places for philosophical reflection. Confucian academies were quintessential examples – places where students of Confucianism could study and debate the classics. Expertise in classical texts was necessary to advance in the bureaucracy. In Greece, the classical academy was a school originally named for a grove of trees sacred to Athena, and scholars such as Plato and Socrates taught there. These schools emphasized debate and philosophy as well as a close relationship between teachers and students – a tradition exported to Persia under Alexander’s conquests. Academies merged naturally into larger universities in Africa (specifically Mali, Morocco, and Egypt) as interests and knowledge expanded, and as society realized it could no longer expect students to be masters of astronomy, philosophy, religion, and mathematics all at once!</Text>		<!-- While universities are massive institutions of general study, academies are places for philosophical reflection. Confucian academies were quintessential examples – places where students of Confucianism could study and debate the classics. Expertise in classical texts was necessary to advance in the bureaucracy. In Greece, the classical academy was a school originally named for a grove of trees sacred to Athena, and scholars such as Plato and Socrates taught there. These schools emphasized debate and philosophy as well as a close relationship between teachers and students – a tradition exported to Persia under Alexander’s conquests. Academies merged naturally into larger universities in Africa (specifically Mali, Morocco, and Egypt) as interests and knowledge expanded, and as society realized it could no longer expect students to be masters of astronomy, philosophy, religion, and mathematics all at once! -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_BUILDING_PAVILION_CHAPTER_HISTORY_PARA_1" Language="th_TH">
 			<Text>ซุ้ม (ติ้งในภาษาจีน, ชาห์ร์ตักในภาษาเปอร์เซีย, และชาลาในภาษาสันสกฤต) โดยทั่วไปหมายถึงโครงสร้างเปิดที่ออกแบบมาสำหรับเทศกาล การประชุมสาธารณะ หรือการพักผ่อนทั่วไป แนวคิดนี้มีอายุเก่า เพราะซุ้มถูกใช้แพร่หลายตลอดช่วงราชวงศ์โจวและเป็นส่วนสำคัญของวัดไฟซอโรอัสเตอร์ในยุคก่อนอิสลาม ในตะวันตก โครงสร้างเหล่านี้มักจะมีลวดลายซับซ้อน วางอยู่ภายในพระราชวังหรือสถานที่จัดงานและมีจุดประสงค์ให้เป็นสถานที่ที่คนสามารถพักผ่อนและชมทิวทัศน์ ซุ้มที่มีชื่อเสียง ได้แก่ พระราชว夏ฤดูร้อนไทยที่บางปะอิน ซุ้มที่พระราชวังท็อปคาปีในอิสตันบูล และพระราชวังต้องห้าม</Text>		<!-- A pavilion (ting in Chinese, chahartaq in Persian, and shala in Sanskrit) generally refers to an open structure designed for festivals, public assemblies, or general relaxation. The concept is old as pavilions were used widely during the Zhou Dynasty and formed a central part of Zoroastrian fire temples in the pre-Islamic period. In the West, these structures were often decorative, placed within a royal complex or fairground, and intended as places where one could relax and take in the sights. Famous pavilions include the Siamese summer palace at Bang Pa-in, the pavilions at Topkapı Palace in Istanbul, and the Forbidden City. -->
@@ -2503,6 +2522,9 @@
 		<Replace Tag="LOC_PEDIA_PAGE_UNIT_KNIGHT_CHAPTER_HISTORY_PARA_1" Language="th_TH">
 			<Text>ไม่มีภาพใดที่เป็นสัญลักษณ์ของยุคกลางมากไปกว่าผู้กล้า: นักรบที่สวมเกราะหนาแน่นซึ่งนั่งอยู่บนม้าในสงครามที่มีตำแหน่งสูงส่งและปฏิบัติตามจรรยาบรรณของอัศวิน ตัวละครเหล่านี้กลายเป็นที่รู้จักผ่านนิยายกลางยุคเช่น เรื่องเล่าของอาร์เธอร์ และก่อตั้งสังคมไม่รู้จบ เช่น อัศวินแห่งมอลตา, ลำดับแห่งมังกร, และลำดับแห่งการผูกโบว์ แต่สิ่งที่กำหนดตัวตนของอัศวินจริงๆ คืออะไร? ที่นี่เราเน้นที่การรวมกันของอาวุธ, เกราะ, และม้า ซึ่งอาจมีตั้งแต่ผู้กล้าแบบคลาสสิกของยุโรปไปจนถึงอัศวินอิหร่านหรืออัศวินเกาหลีที่มีเกราะเบาและซามูไรญี่ปุ่น ไม่ว่าจะมีวัฒนธรรมใด อัศวินคือรถถังของยุคและสามารถสร้างและทนต่อความเสียหายเป็นจำนวนมากได้</Text>		<!-- There is no image more emblematic of the Middle Ages than the knight: a heavily armored warrior astride a warhorse who bears a noble title and upholds a code of chivalric conduct. These figures were made famous through medieval romances such as the Arthurian tales, and formed countless societies, such as the Knights of Malta, the Order of the Dragon, and the Order of the Garter. But what truly defines a knight? Here, we focus on the combination of arms, armor, and horse, which can range from the classic European knight to the Iranian aswaran, or the more lightly-armored Korean hwarang and the Japanese samurai. Regardless of culture, knights were the tanks of their day, capable of dealing and withstanding immense amounts of damage. -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_UNIT_TREASURE_FLEET_CHAPTER_HISTORY_PARA_4" Language="th_TH">
+			<Text>With these links, the bones of a world economy – and world empire – were forged. It would take centuries to break them.</Text>		<!-- With these links, the bones of a world economy – and world empire – were forged. It would take centuries to break them. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_UNIT_TREBUCHET_CHAPTER_HISTORY_PARA_1" Language="th_TH">
 			<Text>เครื่องทราย (Trebuchet) เป็นอาวุธปืนเขี้ยวสุดยอดที่ไม่มีดินปืน เป็นแขนขนาดใหญ่ที่มีผ้าถุงอยู่ด้านหนึ่งและน้ำหนักถ่วงอยู่ด้านอีกฝั่ง เมื่อปล่อยน้ำหนัก แขนทั้งหมดจะหมุนด้วยแรงพอที่จะโยนก้อนหินน้ำหนักห้าร้อยปอนด์ไปได้ถึงห้าร้อยฟุต เพื่อการเปรียบเทียบ น้ำหนักนี้มากกว่าสิบเท่าของขีปนาวุธที่ยิงจากออนาเจอร์ (catapult แบบคลาสสิก) และมีระยะทางที่มากเป็นสองเท่า เครื่องทรายคลาสสิกน่าจะเป็นอาวุธของอาหรับหรือเปอร์เซีย ซึ่งถูกระบุว่าเป็นของมาร์ดี อิบน์ อาลี อัล-ตาร์ซูซีในปี 1187 แต่ต่อมาได้รับความนิยมอย่างรวดเร็วในยุโรปและตะวันออกกลางจนกระทั่งถึงการเกิดของดินปืนในปี 1500s</Text>		<!-- The trebuchet was the ultimate pre-gunpowder siege weapon, a massive arm with a sling on one end and a counterweight on the other. When the weight was released, the entire arm rotated with enough force to fling a five-hundred-pound stone up to five hundred feet. For comparison, this is ten times the weight of a missile fired from an onager (a classic catapult) and twice the range. The classic trebuchet was likely an Arabic or Persian weapon, attributed to Mardi ibn Ali al-Tarsusi in 1187, but it quickly gained traction across Europe and the Middle East until the advent of gunpowder in the 1500s. -->
 		</Replace>
@@ -2732,16 +2754,20 @@
 			<Text>สะพานยุคกลาง</Text>		<!-- Medieval Bridge -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MEDIEVAL_BRIDGE_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_GOLD] ทอง, อนุญาตให้ยูนิตภาคพื้นเคลื่อนที่ข้าม แม่น้ำใหญ่ โดยไม่ต้องขึ้นเรือ มีค่าใช้จ่ายในการสร้างถูกกว่าใน สถานที่ที่ถนนได้สร้างเป็นท่าข้ามแม่น้ำแล้ว, ต้องวางบนพื้นที่พัฒนา บนแม่น้ำใหญ่</Text>		<!-- +4[icon:YIELD_GOLD] Gold. Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Must be placed on a Navigable River. --></Replace>
+			<Text>+4[icon:YIELD_GOLD] ทอง, อนุญาตให้ยูนิตภาคพื้นเคลื่อนที่ข้าม แม่น้ำใหญ่ โดยไม่ต้องขึ้นเรือ มีค่าใช้จ่ายในการสร้างถูกกว่าใน สถานที่ที่ถนนได้สร้างเป็นท่าข้ามแม่น้ำแล้ว, ต้องวางบนพื้นที่พัฒนา บนแม่น้ำใหญ่</Text>		<!-- +4[icon:YIELD_GOLD] Gold. Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Must be placed on a Navigable River. -->
+		</Replace>
 		<Replace Tag="LOC_BUILDING_MEDIEVAL_BRIDGE_TOOLTIP" Language="th_TH">
-			<Text>อนุญาตให้ยูนิตภาคพื้นเคลื่อนที่ ข้ามแม่น้ำใหญ่โดยไม่ต้องขึ้นเรือ สร้างได้ถูกกว่าที่ที่ถนนได้สร้างสะพานข้ามแม่น้ำแล้ว, ต้องวางบนพื้นที่พัฒนา บนแม่น้ำใหญ่</Text>		<!-- Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Must be placed on a Navigable River. --></Replace>
+			<Text>อนุญาตให้ยูนิตภาคพื้นเคลื่อนที่ ข้ามแม่น้ำใหญ่โดยไม่ต้องขึ้นเรือ สร้างได้ถูกกว่าที่ที่ถนนได้สร้างสะพานข้ามแม่น้ำแล้ว, ต้องวางบนพื้นที่พัฒนา บนแม่น้ำใหญ่</Text>		<!-- Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Must be placed on a Navigable River. -->
+		</Replace>
 		<Replace Tag="LOC_BUILDING_MEDIEVAL_WALLS_NAME" Language="th_TH">
 			<Text>กำแพงยุคกลาง</Text>		<!-- Medieval Walls -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MEDIEVAL_WALLS_DESCRIPTION" Language="th_TH">
-			<Text>เพิ่ม 100 HP ให้กับเขตและ +15 พลังต่อสู้ ให้กับยูนิตที่ป้องกันในแผ่นดิน เขตที่สร้างขึ้นต้องถูกพิชิตทั้งหมดเพื่อยึดครองชุมชน, แนวป้องกัน ยุคสำรวจ, ต้องสร้างอยู่ติดกับเขตที่ถูกเสริมกำลังอื่นๆ, สามารถซื้อในเมืองได้</Text>		<!-- Adds 100 HP to the District and +15 Combat Strength to Units defending in the tile. All Fortified Districts must be conquered to capture a Settlement. Exploration Fortification. Must be built adjacent to another Fortified District. Can be purchased in Towns only on the Town Center. --></Replace>
+			<Text>เพิ่ม 100 HP ให้กับเขตและ +15 พลังต่อสู้ ให้กับยูนิตที่ป้องกันในแผ่นดิน เขตที่สร้างขึ้นต้องถูกพิชิตทั้งหมดเพื่อยึดครองชุมชน, แนวป้องกัน ยุคสำรวจ, ต้องสร้างอยู่ติดกับเขตที่ถูกเสริมกำลังอื่นๆ, สามารถซื้อในเมืองได้</Text>		<!-- Adds 100 HP to the District and +15 Combat Strength to Units defending in the tile. All Fortified Districts must be conquered to capture a Settlement. Exploration Fortification. Must be built adjacent to another Fortified District. Can be purchased in Towns only on the Town Center. -->
+		</Replace>
 		<Replace Tag="LOC_BUILDING_MEDIEVAL_WALLS_TOOLTIP" Language="th_TH">
-			<Text>เพิ่ม 100 HP ให้กับเขตและ +15 พลังต่อสู้ ให้กับยูนิตที่ป้องกันในแผ่นดินนั้น เขตที่ได้รับการป้องกันทั้งหมด จะต้องถูกพิชิตเพื่อยึดครองที่ตั้ง, แนวป้องกัน ยุคสำรวจ, ต้องสร้างอยู่ติดกับเขตที่ได้รับการป้องกันอีกแห่ง, สามารถซื้อในเมืองได้</Text>		<!-- Adds 100 HP to the District and +15 Combat Strength to Units defending in the tile. All Fortified Districts must be conquered to capture a Settlement. Exploration Fortification. Must be built adjacent to another Fortified District. Can be purchased in Towns only on the Town Center. --></Replace>
+			<Text>เพิ่ม 100 HP ให้กับเขตและ +15 พลังต่อสู้ ให้กับยูนิตที่ป้องกันในแผ่นดินนั้น เขตที่ได้รับการป้องกันทั้งหมด จะต้องถูกพิชิตเพื่อยึดครองที่ตั้ง, แนวป้องกัน ยุคสำรวจ, ต้องสร้างอยู่ติดกับเขตที่ได้รับการป้องกันอีกแห่ง, สามารถซื้อในเมืองได้</Text>		<!-- Adds 100 HP to the District and +15 Combat Strength to Units defending in the tile. All Fortified Districts must be conquered to capture a Settlement. Exploration Fortification. Must be built adjacent to another Fortified District. Can be purchased in Towns only on the Town Center. -->
+		</Replace>
 		<Replace Tag="LOC_BUILDING_MENAGERIE_NAME" Language="th_TH">
 			<Text>เมนาเจอรี</Text>		<!-- Menagerie -->
 		</Replace>
@@ -2881,9 +2907,11 @@
 			<Text>มานิกรามัม</Text>		<!-- Manigramam -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MANIGRAMAM_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_HAPPINESS] ความสุข +1[icon:YIELD_GOLD] ทอง โบนัสใกล้เคียง สำหรับย่านและสิ่งมหัศจรรย์, +1[icon:YIELD_HAPPINESS] ความสุขสำหรับการอยู่ใกล้ช่องอาคารด้านทองและสิ่งมหัศจรรย์, อาคารพิเศษด้านความสุข สำหรับโจฬะ, คงอยู่ตลอดกาล, ต้องวางบนช่องใกล้กับชายฝั่ง</Text>		<!-- +4[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_GOLD] Gold Adjacency for Quarters and Wonders. +1[icon:YIELD_HAPPINESS] Happiness Adjacency for Gold Buildings and Wonders. Chola Unique Happiness Building. Ageless. Must be placed adjacent to Coast. --></Replace>
+			<Text>+4[icon:YIELD_HAPPINESS] ความสุข +1[icon:YIELD_GOLD] ทอง โบนัสใกล้เคียง สำหรับย่านและสิ่งมหัศจรรย์, +1[icon:YIELD_HAPPINESS] ความสุขสำหรับการอยู่ใกล้ช่องอาคารด้านทองและสิ่งมหัศจรรย์, อาคารพิเศษด้านความสุข สำหรับโจฬะ, คงอยู่ตลอดกาล, ต้องวางบนช่องใกล้กับชายฝั่ง</Text>		<!-- +4[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_GOLD] Gold Adjacency for Quarters and Wonders. +1[icon:YIELD_HAPPINESS] Happiness Adjacency for Gold Buildings and Wonders. Chola Unique Happiness Building. Ageless. Must be placed adjacent to Coast. -->
+		</Replace>
 		<Replace Tag="LOC_BUILDING_MANIGRAMAM_TOOLTIP" Language="th_TH">
-			<Text>อาคารพิเศษด้านความสุข สำหรับโจฬะ, คงอยู่ตลอดกาล, ต้องวางบนช่องใกล้กับชายฝั่ง</Text>		<!-- Chola Unique Happiness Building. Ageless. Must be placed adjacent to Coast. --></Replace>
+			<Text>อาคารพิเศษด้านความสุข สำหรับโจฬะ, คงอยู่ตลอดกาล, ต้องวางบนช่องใกล้กับชายฝั่ง</Text>		<!-- Chola Unique Happiness Building. Ageless. Must be placed adjacent to Coast. -->
+		</Replace>
 		<Replace Tag="LOC_BUILDING_CANDI_BENTAR_NAME" Language="th_TH">
 			<Text>จันดี เบินตาร์</Text>		<!-- Candi Bentar -->
 		</Replace>
@@ -2933,11 +2961,14 @@
 			<Text>คาซา เดอ คอนทราทาซิออน</Text>		<!-- Casa de Contratación -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CASA_DE_CONTRATACION_DESCRIPTION" Language="th_TH">
-			<Text>+5[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_GOLD] ทอง โบนัสใกล้เคียง แม่น้ำใหญ่, ทรัพยากร และสิ่งมหัศจรรย์, อาคารพิเศษด้านทอง สำหรับสเปน, คงอยู่ตลอดกาล, ต้องสร้างในดินแดนบ้านเกิดใกล้กับชายฝั่ง</Text>		<!-- +5[icon:YIELD_GOLD] Gold. +1[icon:YIELD_GOLD] Gold Adjacency for Navigable Rivers, Resources, and Wonders. Spanish Unique Gold Building. Ageless. Must be built in the Homelands adjacent to Coast. --></Replace>
+			<Text>+5[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_GOLD] ทอง โบนัสใกล้เคียง แม่น้ำใหญ่, ทรัพยากร และสิ่งมหัศจรรย์, อาคารพิเศษด้านทอง สำหรับสเปน, คงอยู่ตลอดกาล, ต้องสร้างในดินแดนบ้านเกิดใกล้กับชายฝั่ง</Text>		<!-- +5[icon:YIELD_GOLD] Gold. +1[icon:YIELD_GOLD] Gold Adjacency for Navigable Rivers, Resources, and Wonders. Spanish Unique Gold Building. Ageless. Must be built in the Homelands adjacent to Coast. -->
+		</Replace>
 		<Replace Tag="LOC_BUILDING_CASA_DE_CONTRATACION_DESCRIPTION" Language="th_TH">
-			<Text>+5[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_GOLD] ทอง โบนัสใกล้เคียง แม่น้ำใหญ่, ทรัพยากร และสิ่งมหัศจรรย์, อาคารพิเศษด้านทอง สำหรับสเปน, คงอยู่ตลอดกาล, ต้องสร้างในดินแดนบ้านเกิดใกล้กับชายฝั่ง</Text>		<!-- +5[icon:YIELD_GOLD] Gold. +1[icon:YIELD_GOLD] Gold Adjacency for Navigable Rivers, Resources, and Wonders. Spanish Unique Gold Building. Ageless. Must be built in the Homelands adjacent to Coast. --></Replace>
+			<Text>+5[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_GOLD] ทอง โบนัสใกล้เคียง แม่น้ำใหญ่, ทรัพยากร และสิ่งมหัศจรรย์, อาคารพิเศษด้านทอง สำหรับสเปน, คงอยู่ตลอดกาล, ต้องสร้างในดินแดนบ้านเกิดใกล้กับชายฝั่ง</Text>		<!-- +5[icon:YIELD_GOLD] Gold. +1[icon:YIELD_GOLD] Gold Adjacency for Navigable Rivers, Resources, and Wonders. Spanish Unique Gold Building. Ageless. Must be built in the Homelands adjacent to Coast. -->
+		</Replace>
 		<Replace Tag="LOC_BUILDING_CASA_DE_CONTRATACION_TOOLTIP" Language="th_TH">
-			<Text>อาคารพิเศษด้านทอง สำหรับสเปน, คงอยู่ตลอดกาล, ต้องสร้างในดินแดนบ้านเกิดใกล้กับชายฝั่ง</Text>		<!-- Spanish Unique Gold Building. Ageless. Must be built in the Homelands adjacent to Coast. --></Replace>
+			<Text>อาคารพิเศษด้านทอง สำหรับสเปน, คงอยู่ตลอดกาล, ต้องสร้างในดินแดนบ้านเกิดใกล้กับชายฝั่ง</Text>		<!-- Spanish Unique Gold Building. Ageless. Must be built in the Homelands adjacent to Coast. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_CARAVANSERAI_NAME" Language="th_TH">
 			<Text>คาราวานเซรัย</Text>		<!-- Caravanserai -->
 		</Replace>
@@ -2981,9 +3012,11 @@
 			<Text>ฟาร์มขั้นบันได</Text>		<!-- Terrace Farm -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_TERRACE_FARM_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_FOOD] อาหาร, +1[icon:YIELD_GOLD] ทอง โบนัสใกล้เคียงสำหรับอาคาร, เขตพัฒนาพิเศษ ของอินคา, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ขรุขระที่ติดกับภูเขา</Text>		<!-- +4[icon:YIELD_FOOD] Food. +1[icon:YIELD_GOLD] Gold Adjacency for Buildings. Incan Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Rough Terrain without a River or Feature. --></Replace>
+			<Text>+4[icon:YIELD_FOOD] อาหาร, +1[icon:YIELD_GOLD] ทอง โบนัสใกล้เคียงสำหรับอาคาร, เขตพัฒนาพิเศษ ของอินคา, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ขรุขระที่ติดกับภูเขา</Text>		<!-- +4[icon:YIELD_FOOD] Food. +1[icon:YIELD_GOLD] Gold Adjacency for Buildings. Incan Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Rough Terrain without a River or Feature. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_TERRACE_FARM_TOOLTIP" Language="th_TH">
-			<Text>โบนัสใกล้เคียงสำหรับอาคาร, เขตพัฒนาพิเศษ ของอินคา, คงอยู่ตลอดกาล, ไม่ลบโบนัสโกดังในแผ่นดิน, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ขรุขระที่ไม่มี แม่น้ำ หรือลักษณะเฉพาะ</Text>		<!-- Gold Adjacency for Buildings. Incan Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Rough Terrain without a River or Feature. --></Replace>
+			<Text>โบนัสใกล้เคียงสำหรับอาคาร, เขตพัฒนาพิเศษ ของอินคา, คงอยู่ตลอดกาล, ไม่ลบโบนัสโกดังในแผ่นดิน, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ขรุขระที่ไม่มี แม่น้ำ หรือลักษณะเฉพาะ</Text>		<!-- Gold Adjacency for Buildings. Incan Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Rough Terrain without a River or Feature. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_KASBAH_NAME" Language="th_TH">
 			<Text>คาซบะ</Text>		<!-- Kasbah -->
 		</Replace>
@@ -3024,9 +3057,11 @@
 			<Text>ดอนจอน</Text>		<!-- Donjon -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_DONJON_DESCRIPTION" Language="th_TH">
-			<Text>ย่านพิเศษของ นอร์มัน สร้างขึ้นโดยการสร้าง เบลีย์ และ ม็อตเต้ ในเขตเดียวกัน, +10%[icon:YIELD_PRODUCTION] กำลังผลิต ต่อ การฝึกยูนิตทหารม้า, รับ ยูนิตชวาเลียร์ ฟรีเมื่อเสร็จสิ้น</Text>		<!-- Norman Unique Quarter. Created by constructing the Bailey and Motte in the same District. +10%[icon:YIELD_PRODUCTION] Production towards training Cavalry units. Receive a free Chevaler Unit when completed. --></Replace>
+			<Text>ย่านพิเศษของ นอร์มัน สร้างขึ้นโดยการสร้าง เบลีย์ และ ม็อตเต้ ในเขตเดียวกัน, +10%[icon:YIELD_PRODUCTION] กำลังผลิต ต่อ การฝึกยูนิตทหารม้า, รับ ยูนิตชวาเลียร์ ฟรีเมื่อเสร็จสิ้น</Text>		<!-- Norman Unique Quarter. Created by constructing the Bailey and Motte in the same District. +10%[icon:YIELD_PRODUCTION] Production towards training Cavalry units. Receive a free Chevaler Unit when completed. -->
+		</Replace>
 		<Replace Tag="LOC_QUARTER_DONJON_TOOLTIP" Language="th_TH">
-			<Text>+10%[icon:YIELD_PRODUCTION] กำลังผลิต ต่อ การฝึกยูนิตทหารม้า, รับ ยูนิตชวาเลียร์ ฟรีเมื่อเสร็จสิ้น</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards training Cavalry units. Receive a free Chevaler Unit when completed. --></Replace>
+			<Text>+10%[icon:YIELD_PRODUCTION] กำลังผลิต ต่อ การฝึกยูนิตทหารม้า, รับ ยูนิตชวาเลียร์ ฟรีเมื่อเสร็จสิ้น</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards training Cavalry units. Receive a free Chevaler Unit when completed. -->
+		</Replace>
 		<Replace Tag="LOC_QUARTER_ULEMA_NAME" Language="th_TH">
 			<Text>อูเลมา</Text>		<!-- Ulema -->
 		</Replace>
@@ -3049,9 +3084,11 @@
 			<Text>พูรา</Text>		<!-- Pura -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_PURA_DESCRIPTION" Language="th_TH">
-			<Text>ย่านพิเศษของ มะจาปาหิต สร้างขึ้นโดยการก่อสร้าง จันดี เบินตาร์ และ เมรุ ในเขตเดียวกัน, 10%[icon:YIELD_GOLD] ทอง ต่อ การเปลี่ยนเมืองให้เป็น เมืองใหญ่, เมื่อเสร็จสิ้นจะได้รับ 1 ศาสนวัตถุ</Text>		<!-- Majapahit Unique Quarter. Created by constructing the Candi Bentar and Meru in the same District. +10%[icon:YIELD_GOLD] Gold towards converting a Town to a City. Receive 1 Relic when completed. --></Replace>
+			<Text>ย่านพิเศษของ มะจาปาหิต สร้างขึ้นโดยการก่อสร้าง จันดี เบินตาร์ และ เมรุ ในเขตเดียวกัน, 10%[icon:YIELD_GOLD] ทอง ต่อ การเปลี่ยนเมืองให้เป็น เมืองใหญ่, เมื่อเสร็จสิ้นจะได้รับ 1 ศาสนวัตถุ</Text>		<!-- Majapahit Unique Quarter. Created by constructing the Candi Bentar and Meru in the same District. +10%[icon:YIELD_GOLD] Gold towards converting a Town to a City. Receive 1 Relic when completed. -->
+		</Replace>
 		<Replace Tag="LOC_QUARTER_PURA_TOOLTIP" Language="th_TH">
-			<Text>10%[icon:YIELD_GOLD] ทอง ต่อ การเปลี่ยนเมืองให้เป็น เมืองใหญ่, เมื่อเสร็จสิ้นจะได้รับ 1 ศาสนวัตถุ</Text>		<!-- +10%[icon:YIELD_GOLD] Gold towards converting a Town to a City. Receive 1 Relic when completed. --></Replace>
+			<Text>10%[icon:YIELD_GOLD] ทอง ต่อ การเปลี่ยนเมืองให้เป็น เมืองใหญ่, เมื่อเสร็จสิ้นจะได้รับ 1 ศาสนวัตถุ</Text>		<!-- +10%[icon:YIELD_GOLD] Gold towards converting a Town to a City. Receive 1 Relic when completed. -->
+		</Replace>
 		<Replace Tag="LOC_QUARTER_FIVE_HUNDRED_LORDS_NAME" Language="th_TH">
 			<Text>ห้าร้อยขุนนาง</Text>		<!-- Five Hundred Lords -->
 		</Replace>
@@ -3856,6 +3893,9 @@
 		<Replace Tag="LOC_MOD_TERRACE_FARM_GOLD_BUILDING_ADJACENCY_DESCRIPTION" Language="th_TH">
 			<Text>+1[icon:YIELD_GOLD] ทอง จากการอยู่ติดกับสิ่งปลูกสร้าง</Text>		<!-- +1[icon:YIELD_GOLD] Gold Adjacency for Buildings. -->
 		</Replace>
+		<Replace Tag="LOC_MOD_QHAPAQ_NAN_TREASURE_FLEET_DESCRIPTION" Language="th_TH">
+			<Text>Cities in Homelands with 3 Worked Mountains generate Treasure Convoys worth 2 Treasure Fleet points each.</Text>		<!-- Cities in Homelands with 3 Worked Mountains generate Treasure Convoys worth 2 Treasure Fleet points each. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_NAGARAM_RSOURCE_CAP_DESCRIPTION" Language="th_TH">
 			<Text>+2 ความจุทรัพยากร ในเมืองหลวง</Text>		<!-- +2 Resource Capacity in the Capital. -->
 		</Replace>
@@ -4214,7 +4254,8 @@
 			<Text>แม่น้ำ จะไม่หยุดการเคลื่อนไหวของยูนิต</Text>		<!-- Rivers do not end movement. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_KANTA_TREASURE_FLEET_DESCRIPTION" Language="th_TH">
-			<Text>เมืองในดินแดนบ้านเกิดที่ตั้งอยู่ริม แม่น้ำใหญ่ จะสร้าง เรือบรรทุกสมบัติ ที่มีมูลค่า 2 คะแนนกองเรือสมบัติ ต่อหนึ่งลำ</Text>		<!-- Cities in Homelands on Navigable Rivers generate Treasure Fleets worth 2 Treasure Fleet point each. --></Replace>
+			<Text>เมืองในดินแดนบ้านเกิดที่ตั้งอยู่ริม แม่น้ำใหญ่ จะสร้าง เรือบรรทุกสมบัติ ที่มีมูลค่า 2 คะแนนกองเรือสมบัติ ต่อหนึ่งลำ</Text>		<!-- Cities in Homelands on Navigable Rivers generate Treasure Fleets worth 2 Treasure Fleet point each. -->
+		</Replace>
 		<Replace Tag="LOC_TREE_CIVICS_EX_SPAIN_NAME" Language="th_TH">
 			<Text>แนวคิดสเปน</Text>		<!-- Spanish Civics -->
 		</Replace>
@@ -4258,76 +4299,110 @@
 			<Text>ยูนิตภาคพื้นได้รับ +2 แต้มเคลื่อนที่ เมื่อขึ้นเรือ</Text>		<!-- All Land Units receive +2 Movement when Embarked. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_OPEN_BORDERS_ACCEPT" Language="th_TH">
-			<Text>เปิดพรมแดนของคุณให้พวกเขา[n][icon:YIELD_GOLD] +6 ต่อเทิร์น</Text>		<!-- Open your borders to them.[n][icon:YIELD_GOLD] +6 per turn. --></Replace>
+			<Text>เปิดพรมแดนของคุณให้พวกเขา[n][icon:YIELD_GOLD] +6 ต่อเทิร์น</Text>		<!-- Open your borders to them.[n][icon:YIELD_GOLD] +6 per turn. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_INITIAL" Language="th_TH">
-			<Text>ทำการร่วมมือวิจัยกับผู้นำอีกคนหนึ่ง[n]ได้รับการตอบรับ: คุณจะได้รับ +12[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น ผู้นำอีกคนจะได้รับ +6[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น[n]ได้รับการสนับสนุน: ทั้งสองผู้นำจะได้รับ +18[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น</Text>		<!-- Do a Research Collaboration with another Leader.[n]Accepted: You receive +12[icon:YIELD_SCIENCE] Science per turn. Other Leader receives +6[icon:YIELD_SCIENCE] Science per turn.[n]Supported: Both Leaders receive +18[icon:YIELD_SCIENCE] Science per turn. --></Replace>
+			<Text>ทำการร่วมมือวิจัยกับผู้นำอีกคนหนึ่ง[n]ได้รับการตอบรับ: คุณจะได้รับ +12[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น ผู้นำอีกคนจะได้รับ +6[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น[n]ได้รับการสนับสนุน: ทั้งสองผู้นำจะได้รับ +18[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น</Text>		<!-- Do a Research Collaboration with another Leader.[n]Accepted: You receive +12[icon:YIELD_SCIENCE] Science per turn. Other Leader receives +6[icon:YIELD_SCIENCE] Science per turn.[n]Supported: Both Leaders receive +18[icon:YIELD_SCIENCE] Science per turn. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_SCIENCE] +18 ต่อเทิร์นสำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_SCIENCE] +18 per turn for both Leaders. --></Replace>
+			<Text>[icon:YIELD_SCIENCE] +18 ต่อเทิร์นสำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_SCIENCE] +18 per turn for both Leaders. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_SCIENCE] +18 ต่อเทิร์นสำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_SCIENCE] +18 per turn for both Leaders. --></Replace>
+			<Text>[icon:YIELD_SCIENCE] +18 ต่อเทิร์นสำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_SCIENCE] +18 per turn for both Leaders. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_SCIENCE] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_SCIENCE] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_SCIENCE] +6 per turn.[n]{1_initialName} receives [icon:YIELD_SCIENCE] +12 per turn. --></Replace>
+			<Text>[icon:YIELD_SCIENCE] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_SCIENCE] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_SCIENCE] +6 per turn.[n]{1_initialName} receives [icon:YIELD_SCIENCE] +12 per turn. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_SCIENCE] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_SCIENCE] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_SCIENCE] +6 per turn.[n]{1_initialName} receives [icon:YIELD_SCIENCE] +12 per turn. --></Replace>
+			<Text>[icon:YIELD_SCIENCE] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_SCIENCE] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_SCIENCE] +6 per turn.[n]{1_initialName} receives [icon:YIELD_SCIENCE] +12 per turn. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CULTURAL_EXCHANGE_INITIAL" Language="th_TH">
-			<Text>แลกเปลี่ยนวัฒนธรรมกับผู้นำอีกคนหนึ่ง[n]ได้รับการยอมรับ: คุณได้รับ +12[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น ผู้นำอีกคนได้รับ +6[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น[n]ได้รับการสนับสนุน: ทั้งสองผู้นำได้รับ +18[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น</Text>		<!-- Have a Cultural Exchange with another Leader.[n]Accepted: You receive +12[icon:YIELD_CULTURE] Culture per turn. Other Leader receives +6[icon:YIELD_CULTURE] Culture per turn.[n]Supported: Both Leaders receive +18[icon:YIELD_CULTURE] Culture per turn. --></Replace>
+			<Text>แลกเปลี่ยนวัฒนธรรมกับผู้นำอีกคนหนึ่ง[n]ได้รับการยอมรับ: คุณได้รับ +12[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น ผู้นำอีกคนได้รับ +6[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น[n]ได้รับการสนับสนุน: ทั้งสองผู้นำได้รับ +18[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น</Text>		<!-- Have a Cultural Exchange with another Leader.[n]Accepted: You receive +12[icon:YIELD_CULTURE] Culture per turn. Other Leader receives +6[icon:YIELD_CULTURE] Culture per turn.[n]Supported: Both Leaders receive +18[icon:YIELD_CULTURE] Culture per turn. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CULTURAL_EXCHANGE_SUPPORT" Language="th_TH">
-			<Text>+18[icon:YIELD_CULTURE] ต่อเทิร์นสำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_CULTURE] +18 per turn for both Leaders. --></Replace>
+			<Text>+18[icon:YIELD_CULTURE] ต่อเทิร์นสำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_CULTURE] +18 per turn for both Leaders. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CULTURAL_EXCHANGE_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_CULTURE] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_CULTURE] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_CULTURE] +6 per turn.[n]{1_initialName} receives [icon:YIELD_CULTURE] +12 per turn. --></Replace>
+			<Text>[icon:YIELD_CULTURE] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_CULTURE] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_CULTURE] +6 per turn.[n]{1_initialName} receives [icon:YIELD_CULTURE] +12 per turn. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_CULTURAL_EXCHANGE_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_CULTURE] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_CULTURE] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_CULTURE] +6 per turn.[n]{1_initialName} receives [icon:YIELD_CULTURE] +12 per turn. --></Replace>
+			<Text>[icon:YIELD_CULTURE] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_CULTURE] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_CULTURE] +6 per turn.[n]{1_initialName} receives [icon:YIELD_CULTURE] +12 per turn. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_INITIAL" Language="th_TH">
-			<Text>มีตลาดเปิดกับผู้นำคนอื่น[n]ยอมรับ: คุณจะได้รับ +12[icon:YIELD_GOLD] ทอง ต่อเทิร์น ผู้นำคนอื่นจะได้รับ +6[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]สนับสนุน: ทั้งสองผู้นำจะได้รับ +18[icon:YIELD_GOLD] ทอง ต่อเทิร์น</Text>		<!-- Have Open Markets with another Leader.[n]Accepted: You receive +12[icon:YIELD_GOLD] Gold per turn. Other Leader receives +6[icon:YIELD_GOLD] Gold per turn.[n]Supported: Both Leaders receive +18[icon:YIELD_GOLD] Gold per turn. --></Replace>
+			<Text>มีตลาดเปิดกับผู้นำคนอื่น[n]ยอมรับ: คุณจะได้รับ +12[icon:YIELD_GOLD] ทอง ต่อเทิร์น ผู้นำคนอื่นจะได้รับ +6[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]สนับสนุน: ทั้งสองผู้นำจะได้รับ +18[icon:YIELD_GOLD] ทอง ต่อเทิร์น</Text>		<!-- Have Open Markets with another Leader.[n]Accepted: You receive +12[icon:YIELD_GOLD] Gold per turn. Other Leader receives +6[icon:YIELD_GOLD] Gold per turn.[n]Supported: Both Leaders receive +18[icon:YIELD_GOLD] Gold per turn. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +18 ต่อเทิร์น สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_GOLD] +18 per turn received by both Leaders. --></Replace>
+			<Text>[icon:YIELD_GOLD] +18 ต่อเทิร์น สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_GOLD] +18 per turn received by both Leaders. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +18 ต่อเทิร์น สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_GOLD] +18 per turn received by both Leaders. --></Replace>
+			<Text>[icon:YIELD_GOLD] +18 ต่อเทิร์น สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_GOLD] +18 per turn received by both Leaders. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_GOLD] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]{1_initialName} receives [icon:YIELD_GOLD] +12 per turn. --></Replace>
+			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_GOLD] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]{1_initialName} receives [icon:YIELD_GOLD] +12 per turn. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_GOLD] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]{1_initialName} receives [icon:YIELD_GOLD] +12 per turn. --></Replace>
+			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_GOLD] +12 ต่อเทิร์น</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]{1_initialName} receives [icon:YIELD_GOLD] +12 per turn. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_LOCAL_FESTIVALS_INITIAL" Language="th_TH">
-			<Text>มีเทศกาลท้องถิ่นร่วมกับผู้นำคนอื่น[n]ได้รับการตอบรับ: คุณได้รับ +6[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในทุกเมือง ผู้นำคนอื่นได้รับ +6[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น[n]ได้รับการสนับสนุน: ผู้นำทั้งสองได้รับ +9[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในเมือง</Text>		<!-- Have Local Festivals with another Leader.[n]Accepted: You receive +6[icon:YIELD_HAPPINESS] Happiness per turn in all Cities. Other Leader receives +6[icon:YIELD_DIPLOMACY] Influence per turn.[n]Supported: Both Leaders receive +9[icon:YIELD_HAPPINESS] Happiness per turn in Cities. --></Replace>
+			<Text>มีเทศกาลท้องถิ่นร่วมกับผู้นำคนอื่น[n]ได้รับการตอบรับ: คุณได้รับ +6[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในทุกเมือง ผู้นำคนอื่นได้รับ +6[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น[n]ได้รับการสนับสนุน: ผู้นำทั้งสองได้รับ +9[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในเมือง</Text>		<!-- Have Local Festivals with another Leader.[n]Accepted: You receive +6[icon:YIELD_HAPPINESS] Happiness per turn in all Cities. Other Leader receives +6[icon:YIELD_DIPLOMACY] Influence per turn.[n]Supported: Both Leaders receive +9[icon:YIELD_HAPPINESS] Happiness per turn in Cities. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_LOCAL_FESTIVALS_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_HAPPINESS] +9 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_HAPPINESS] +9 per turn in Cities for both Leaders. --></Replace>
+			<Text>[icon:YIELD_HAPPINESS] +9 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_HAPPINESS] +9 per turn in Cities for both Leaders. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_LOCAL_FESTIVALS_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_HAPPINESS] +9 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_HAPPINESS] +9 per turn in Cities for both Leaders. --></Replace>
+			<Text>[icon:YIELD_HAPPINESS] +9 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_HAPPINESS] +9 per turn in Cities for both Leaders. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_LOCAL_FESTIVALS_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_DIPLOMACY] +6 ต่อเทิร์น[n]{1_initialName} รับ [icon:YIELD_HAPPINESS] +6 ต่อเทิร์น ในเมือง</Text>		<!-- [icon:YIELD_DIPLOMACY] +6 per turn.[n]{1_initialName} receives [icon:YIELD_HAPPINESS] +6 per turn in Cities. --></Replace>
+			<Text>[icon:YIELD_DIPLOMACY] +6 ต่อเทิร์น[n]{1_initialName} รับ [icon:YIELD_HAPPINESS] +6 ต่อเทิร์น ในเมือง</Text>		<!-- [icon:YIELD_DIPLOMACY] +6 per turn.[n]{1_initialName} receives [icon:YIELD_HAPPINESS] +6 per turn in Cities. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FARMERS_MARKET_INITIAL" Language="th_TH">
-			<Text>แบ่งปันสินค้าการเกษตรกับผู้นำอีกคนหนึ่ง[n]ได้รับการยอมรับ: คุณจะได้รับ +6[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองอื่นๆ ผู้นำอีกคนจะได้รับ +6[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]ได้รับการสนับสนุน: ทั้งสองผู้นำจะได้รับ +9[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองอื่นๆ</Text>		<!-- Share agricultural goods with another Leader.[n]Accepted: You receive +6[icon:YIELD_FOOD] Food per turn in Towns. Other Leader receives +6[icon:YIELD_GOLD] Gold per turn.[n]Supported: Both Leaders receive +9[icon:YIELD_FOOD] Food per turn in Towns. --></Replace>
+			<Text>แบ่งปันสินค้าการเกษตรกับผู้นำอีกคนหนึ่ง[n]ได้รับการยอมรับ: คุณจะได้รับ +6[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองอื่นๆ ผู้นำอีกคนจะได้รับ +6[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]ได้รับการสนับสนุน: ทั้งสองผู้นำจะได้รับ +9[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองอื่นๆ</Text>		<!-- Share agricultural goods with another Leader.[n]Accepted: You receive +6[icon:YIELD_FOOD] Food per turn in Towns. Other Leader receives +6[icon:YIELD_GOLD] Gold per turn.[n]Supported: Both Leaders receive +9[icon:YIELD_FOOD] Food per turn in Towns. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FARMERS_MARKET_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_FOOD] +9 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_FOOD] +9 per turn in Towns for both Leaders. --></Replace>
+			<Text>[icon:YIELD_FOOD] +9 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_FOOD] +9 per turn in Towns for both Leaders. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FARMERS_MARKET_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_FOOD] +9 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_FOOD] +9 per turn in Towns for both Leaders. --></Replace>
+			<Text>[icon:YIELD_FOOD] +9 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_FOOD] +9 per turn in Towns for both Leaders. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FARMERS_MARKET_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]{1_initialName} จะได้รับ [icon:YIELD_FOOD] +6 ต่อเทิร์นในเมือง</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]{1_initialName} receives [icon:YIELD_FOOD] +6 per turn in Towns. --></Replace>
+			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]{1_initialName} จะได้รับ [icon:YIELD_FOOD] +6 ต่อเทิร์นในเมือง</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]{1_initialName} receives [icon:YIELD_FOOD] +6 per turn in Towns. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_TRADE_MAP_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]ผู้นำคนอื่นจะเห็น อาณาเขตที่คุณอ้างสิทธิ์ เผยออกมาให้พวกเขาเรื่อยๆ ตามเวลา</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]The other Leader has your claimed territory revealed to them over time. --></Replace>
+			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]ผู้นำคนอื่นจะเห็น อาณาเขตที่คุณอ้างสิทธิ์ เผยออกมาให้พวกเขาเรื่อยๆ ตามเวลา</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]The other Leader has your claimed territory revealed to them over time. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_TRADE_MAP_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]ผู้นำคนอื่นจะเห็น อาณาเขตที่คุณอ้างสิทธิ์ เผยออกมาให้พวกเขาเรื่อยๆ ตามเวลา</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]The other Leader has your claimed territory revealed to them over time. --></Replace>
+			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]ผู้นำคนอื่นจะเห็น อาณาเขตที่คุณอ้างสิทธิ์ เผยออกมาให้พวกเขาเรื่อยๆ ตามเวลา</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]The other Leader has your claimed territory revealed to them over time. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MILITARY_AID_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]ยูนิตของผู้นำอื่นๆ ได้ +2 พลังต่อสู้</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]Other Leader's Units get +2 Combat Strength. --></Replace>
+			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]ยูนิตของผู้นำอื่นๆ ได้ +2 พลังต่อสู้</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]Other Leader's Units get +2 Combat Strength. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_MILITARY_AID_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]ยูนิตของผู้นำอื่นๆ ได้ +2 พลังต่อสู้</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]Other Leader's Units get +2 Combat Strength. --></Replace>
+			<Text>[icon:YIELD_GOLD] +6 ต่อเทิร์น[n]ยูนิตของผู้นำอื่นๆ ได้ +2 พลังต่อสู้</Text>		<!-- [icon:YIELD_GOLD] +6 per turn.[n]Other Leader's Units get +2 Combat Strength. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_IMPROVE_TRADE_RELATIONS_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +90[n]{1_initialName} สามารถเริ่มเส้นทางการค้าเพิ่มเติมกับคุณได้แล้ว</Text>		<!-- [icon:YIELD_GOLD] +90.[n]{1_initialName} can start an additional Trade Route with you. --></Replace>
+			<Text>[icon:YIELD_GOLD] +90[n]{1_initialName} สามารถเริ่มเส้นทางการค้าเพิ่มเติมกับคุณได้แล้ว</Text>		<!-- [icon:YIELD_GOLD] +90.[n]{1_initialName} can start an additional Trade Route with you. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_IMPROVE_TRADE_RELATIONS_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_GOLD] +90[n]{1_initialName} สามารถเริ่มเส้นทางการค้าเพิ่มเติมกับคุณได้แล้ว</Text>		<!-- [icon:YIELD_GOLD] +90.[n]{1_initialName} can start an additional Trade Route with you. --></Replace>
+			<Text>[icon:YIELD_GOLD] +90[n]{1_initialName} สามารถเริ่มเส้นทางการค้าเพิ่มเติมกับคุณได้แล้ว</Text>		<!-- [icon:YIELD_GOLD] +90.[n]{1_initialName} can start an additional Trade Route with you. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_GINSING_AGREEMENT_INITIAL" Language="th_TH">
-			<Text>มี ข้อตกลงจินเซิง กับผู้นำคนอื่น[n]ยอมรับ: คุณจะได้รับ +12[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองหลวงของคุณ ผู้นำอื่นจะได้รับ +6[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองหลวงของพวกเขา[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +18[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองหลวงของพวกเขา</Text>		<!-- Have Ginseng Agreements with another Leader.[n]Accepted: You receive +12[icon:YIELD_FOOD] Food per turn in your Capital. Other Leader receives +6[icon:YIELD_FOOD] Food per turn in their Capital.[n]Supported: Both Leaders receive +18[icon:YIELD_FOOD] Food per turn in their Capitals. --></Replace>
+			<Text>มี ข้อตกลงจินเซิง กับผู้นำคนอื่น[n]ยอมรับ: คุณจะได้รับ +12[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองหลวงของคุณ ผู้นำอื่นจะได้รับ +6[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองหลวงของพวกเขา[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +18[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองหลวงของพวกเขา</Text>		<!-- Have Ginseng Agreements with another Leader.[n]Accepted: You receive +12[icon:YIELD_FOOD] Food per turn in your Capital. Other Leader receives +6[icon:YIELD_FOOD] Food per turn in their Capital.[n]Supported: Both Leaders receive +18[icon:YIELD_FOOD] Food per turn in their Capitals. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_GINSING_AGREEMENT_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_FOOD] +18 ต่อเทิร์น สำหรับทั้งสองผู้นำ ในเมืองหลวง</Text>		<!-- [icon:YIELD_FOOD] +18 per turn in both Leader's Capitals. --></Replace>
+			<Text>[icon:YIELD_FOOD] +18 ต่อเทิร์น สำหรับทั้งสองผู้นำ ในเมืองหลวง</Text>		<!-- [icon:YIELD_FOOD] +18 per turn in both Leader's Capitals. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_GINSING_AGREEMENT_SUPPORT" Language="th_TH">
-			<Text>[icon:YIELD_FOOD] +18 ต่อเทิร์น สำหรับทั้งสองผู้นำ ในเมืองหลวง</Text>		<!-- [icon:YIELD_FOOD] +18 per turn in both Leader's Capitals. --></Replace>
+			<Text>[icon:YIELD_FOOD] +18 ต่อเทิร์น สำหรับทั้งสองผู้นำ ในเมืองหลวง</Text>		<!-- [icon:YIELD_FOOD] +18 per turn in both Leader's Capitals. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_GINSING_AGREEMENT_ACCEPT" Language="th_TH">
-			<Text>[icon:YIELD_FOOD] +6 ต่อเทิร์นในเมืองหลวงของคุณ[n]{1_initialName} รับ [icon:YIELD_FOOD] +12 ต่อเทิร์นในเมืองหลวงของพวกเขา</Text>		<!-- [icon:YIELD_FOOD] +6 per turn in your Capital.[n]{1_initialName} receives [icon:YIELD_FOOD] +12 per turn in their Capital. --></Replace>
+			<Text>[icon:YIELD_FOOD] +6 ต่อเทิร์นในเมืองหลวงของคุณ[n]{1_initialName} รับ [icon:YIELD_FOOD] +12 ต่อเทิร์นในเมืองหลวงของพวกเขา</Text>		<!-- [icon:YIELD_FOOD] +6 per turn in your Capital.[n]{1_initialName} receives [icon:YIELD_FOOD] +12 per turn in their Capital. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FRIEND_OF_WA_INITIAL" Language="th_TH">
 			<Text>ทำให้พันธมิตรเป็น เพื่อนของเหวย[n]ยอมรับ: ผู้นำทั้งสองได้รับ +25%[icon:YIELD_SCIENCE] วิทยาศาสตร์,</Text>		<!-- Make an ally into a Friend of Wei.[n]Accepted: Both Leaders receive +25%[icon:YIELD_SCIENCE] Science. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FRIEND_OF_WA" Language="th_TH">
-			<Text>ทำให้พันธมิตรกลายเป็นเพื่อนของเหว่ย[n][icon:YIELD_SCIENCE] +25% สำหรับทั้งสองผู้นำ</Text>		<!-- Make an ally into a Friend of Wei.[n] [icon:YIELD_SCIENCE] +25% received by both Leaders. --></Replace>
+			<Text>ทำให้พันธมิตรกลายเป็นเพื่อนของเหว่ย[n][icon:YIELD_SCIENCE] +25% สำหรับทั้งสองผู้นำ</Text>		<!-- Make an ally into a Friend of Wei.[n] [icon:YIELD_SCIENCE] +25% received by both Leaders. -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_FRIEND_OF_WA_ACCEPT" Language="th_TH">
 			<Text>[icon:YIELD_SCIENCE] +25%[n]{1_initialName} ได้รับ [icon:YIELD_SCIENCE] +25%</Text>		<!-- [icon:YIELD_SCIENCE] +25%.[n]{1_initialName} receives [icon:YIELD_SCIENCE] +25%. -->
 		</Replace>
@@ -6326,6 +6401,462 @@
 		<Replace Tag="LOC_DISCOVERY_21118D_NAME" Language="th_TH">
 			<Text>ปิด</Text>		<!-- Close. -->
 		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40029A_STORYTITLE" Language="th_TH">
+			<Text>Immortal Stone</Text>		<!-- Immortal Stone -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40029A_COMPLETION" Language="th_TH">
+			<Text>The locals have repurposed this ancient monolith as a burial site. Whatever its original use, now it stands sentinel over the departed.</Text>		<!-- The locals have repurposed this ancient monolith as a burial site. Whatever its original use, now it stands sentinel over the departed. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40029B_NAME" Language="th_TH">
+			<Text>Excavate the monolith.</Text>		<!-- Excavate the monolith. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40029B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40029C_NAME" Language="th_TH">
+			<Text>Ask them what they think the monolith was.</Text>		<!-- Ask them what they think the monolith was. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40029C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40030A_STORYTITLE" Language="th_TH">
+			<Text>Out of Their League</Text>		<!-- Out of Their League -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40030A_COMPLETION" Language="th_TH">
+			<Text>A small trading post here is constantly plagued by pirates and highwaymen. A merchant league would offer protection and other benefits, but the most outspoken traders worry they would lose their independence.</Text>		<!-- A small trading post here is constantly plagued by pirates and highwaymen. A merchant league would offer protection and other benefits, but the most outspoken traders worry they would lose their independence. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40030B_NAME" Language="th_TH">
+			<Text>Offer them protection – for a price.</Text>		<!-- Offer them protection – for a price. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40030B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40030C_NAME" Language="th_TH">
+			<Text>Wish them well.</Text>		<!-- Wish them well. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40030C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40031A_STORYTITLE" Language="th_TH">
+			<Text>Underground Waterfall</Text>		<!-- Underground Waterfall -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40031A_COMPLETION" Language="th_TH">
+			<Text>A rushing waterfall echoes against the vast walls of an undergound cave, the spray shimmering in a beam of sunlight. No one has been here in years.</Text>		<!-- A rushing waterfall echoes against the vast walls of an undergound cave, the spray shimmering in a beam of sunlight. No one has been here in years. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40031B_NAME" Language="th_TH">
+			<Text>Peek behind the waterfall.</Text>		<!-- Peek behind the waterfall. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40031B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40031C_NAME" Language="th_TH">
+			<Text>Observe the rock formations.</Text>		<!-- Observe the rock formations. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40031C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40032A_STORYTITLE" Language="th_TH">
+			<Text>Ship Burial</Text>		<!-- Ship Burial -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40032A_COMPLETION" Language="th_TH">
+			<Text>One of this coastal village's elders has died. A ship has been prepared to serve as his grave, to ensure he has safe passage to the afterlife.</Text>		<!-- One of this coastal village's elders has died. A ship has been prepared to serve as his grave, to ensure he has safe passage to the afterlife. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40032B_NAME" Language="th_TH">
+			<Text>Comfort the mourners.</Text>		<!-- Comfort the mourners. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40032B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40032C_NAME" Language="th_TH">
+			<Text>Stay for a raucous toast to the departed.</Text>		<!-- Stay for a raucous toast to the departed. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40032C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40033A_STORYTITLE" Language="th_TH">
+			<Text>Colliers</Text>		<!-- Colliers -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40033A_COMPLETION" Language="th_TH">
+			<Text>Colliers live alone in this wood far removed from society, and tend to an ever-burning charcoal pit. Locals avoid them, having heard tales of the colliers' wickedness.</Text>		<!-- Colliers live alone in this wood far removed from society, and tend to an ever-burning charcoal pit. Locals avoid them, having heard tales of the colliers' wickedness. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40033B_NAME" Language="th_TH">
+			<Text>Take the charcoal burners in.</Text>		<!-- Take the charcoal burners in. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40033B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} to {2_capital}.</Text>		<!-- {1_reward} to {2_capital}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40033C_NAME" Language="th_TH">
+			<Text>Trade with them.</Text>		<!-- Trade with them. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40033C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40034A_STORYTITLE" Language="th_TH">
+			<Text>Animal House</Text>		<!-- Animal House -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40034A_COMPLETION" Language="th_TH">
+			<Text>A manor house was abandoned many years ago, and now plants and animals have made it their home. A sapling has finally pierced the roof, and reaches for the sky.</Text>		<!-- A manor house was abandoned many years ago, and now plants and animals have made it their home. A sapling has finally pierced the roof, and reaches for the sky. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40034B_NAME" Language="th_TH">
+			<Text>Study the accidental habitat.</Text>		<!-- Study the accidental habitat. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40034B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40034C_NAME" Language="th_TH">
+			<Text>Linger a while.</Text>		<!-- Linger a while. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40034C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40035A_STORYTITLE" Language="th_TH">
+			<Text>The Mystery</Text>		<!-- The Mystery -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40035A_COMPLETION" Language="th_TH">
+			<Text>Tragedians perform the mystery of a religious prophet for a modest crowd. Afterward, they pack up their pageant wagon, hoping to find a more rapt audience in the next city.</Text>		<!-- Tragedians perform the mystery of a religious prophet for a modest crowd. Afterward, they pack up their pageant wagon, hoping to find a more rapt audience in the next city. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40035B_NAME" Language="th_TH">
+			<Text>Suggest a lighter story.</Text>		<!-- Suggest a lighter story. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40035B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40035C_NAME" Language="th_TH">
+			<Text>Learn more about the prophet.</Text>		<!-- Learn more about the prophet. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40035C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40036A_STORYTITLE" Language="th_TH">
+			<Text>Religious Outcasts</Text>		<!-- Religious Outcasts -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40036A_COMPLETION" Language="th_TH">
+			<Text>The pilgrims rescued from the sea had been bound for distant lands when they hit rough waters here. Now, their dreams of religious freedom sink with their ship.</Text>		<!-- The pilgrims rescued from the sea had been bound for distant lands when they hit rough waters here. Now, their dreams of religious freedom sink with their ship. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40036B_NAME" Language="th_TH">
+			<Text>Ask about their beliefs.</Text>		<!-- Ask about their beliefs. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40036B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40036C_NAME" Language="th_TH">
+			<Text>Offer them work.</Text>		<!-- Offer them work. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40036C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} to {2_capital}.</Text>		<!-- {1_reward} to {2_capital}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40037A_STORYTITLE" Language="th_TH">
+			<Text>Peasant Revolt</Text>		<!-- Peasant Revolt -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40037A_COMPLETION" Language="th_TH">
+			<Text>Peasants have taken up arms against their landlord, who fills his coffers with the labor and taxation of others. As the peasants overwhelm the manor house, the guards are powerless to stop them.</Text>		<!-- Peasants have taken up arms against their landlord, who fills his coffers with the labor and taxation of others. As the peasants overwhelm the manor house, the guards are powerless to stop them. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40037B_NAME" Language="th_TH">
+			<Text>Defend the landlord.</Text>		<!-- Defend the landlord. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40037B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40037C_NAME" Language="th_TH">
+			<Text>Support the rebellion.</Text>		<!-- Support the rebellion. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_40037C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21119A_STORYTITLE" Language="th_TH">
+			<Text>Buried Paths</Text>		<!-- Buried Paths -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21119A_COMPLETION" Language="th_TH">
+			<Text>A once-proud road was first overtaken by beasts and bandits. Now, after years of neglect, a mudslide has consumed what little remained.</Text>		<!-- A once-proud road was first overtaken by beasts and bandits. Now, after years of neglect, a mudslide has consumed what little remained. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21119B_NAME" Language="th_TH">
+			<Text>Restore the road so commerce may flow.</Text>		<!-- Restore the road so commerce may flow. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21119B_DESCRIPTION" Language="th_TH">
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21119B_IMPERATIVE" Language="th_TH">
+			<Text>{1_reward} in {2_capital}.</Text>		<!-- {1_reward} in {2_capital}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21119C_NAME" Language="th_TH">
+			<Text>Leave the road blocked to serve as a defense.</Text>		<!-- Leave the road blocked to serve as a defense. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21119C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21119D_STORYTITLE" Language="th_TH">
+			<Text>Buried Paths</Text>		<!-- Buried Paths -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21119D_NAME" Language="th_TH">
+			<Text>Close.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21119D_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} in the nearest Settlement.</Text>		<!-- {1_reward} in the nearest Settlement. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21119D_COMPLETION" Language="th_TH">
+			<Text>Dust-caked feet tread freshly laid stones as travelers murmur prayers, hoping this new road will lead to fortune.</Text>		<!-- Dust-caked feet tread freshly laid stones as travelers murmur prayers, hoping this new road will lead to fortune. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21127A_STORYTITLE" Language="th_TH">
+			<Text>Stone Ring</Text>		<!-- Stone Ring -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21127A_COMPLETION" Language="th_TH">
+			<Text>A ring of megaliths stands in a circle. Their placement appears deliberate.</Text>		<!-- A ring of megaliths stands in a circle. Their placement appears deliberate. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21127B_NAME" Language="th_TH">
+			<Text>Mark where the stones align with the sunrise.</Text>		<!-- Mark where the stones align with the sunrise. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21127B_DESCRIPTION" Language="th_TH">
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21127B_IMPERATIVE" Language="th_TH">
+			<Text>{1_reward} in {2_capital}.</Text>		<!-- {1_reward} in {2_capital}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21127C_NAME" Language="th_TH">
+			<Text>Enjoy the festivities.</Text>		<!-- Enjoy the festivities. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21127C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21127D_STORYTITLE" Language="th_TH">
+			<Text>Stone Ring</Text>		<!-- Stone Ring -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21127D_NAME" Language="th_TH">
+			<Text>Close.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21127D_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21127D_COMPLETION" Language="th_TH">
+			<Text>Every plane is cut to perfection, every angle considered, leaving no room for error.</Text>		<!-- Every plane is cut to perfection, every angle considered, leaving no room for error. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21128A_STORYTITLE" Language="th_TH">
+			<Text>Lost Expedition</Text>		<!-- Lost Expedition -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21128A_COMPLETION" Language="th_TH">
+			<Text>The remaining members of an expedition are lost, and have camped here while their supplies dwindle. They say they had undererstimated how hostile these lands would be.</Text>		<!-- The remaining members of an expedition are lost, and have camped here while their supplies dwindle. They say they had undererstimated how hostile these lands would be. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21128B_NAME" Language="th_TH">
+			<Text>Escort them to safe surroundings.</Text>		<!-- Escort them to safe surroundings. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21128B_DESCRIPTION" Language="th_TH">
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21128B_IMPERATIVE" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21128C_NAME" Language="th_TH">
+			<Text>Give them directions.</Text>		<!-- Give them directions. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21128C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21128D_STORYTITLE" Language="th_TH">
+			<Text>Lost Expedition</Text>		<!-- Lost Expedition -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21128D_NAME" Language="th_TH">
+			<Text>Close.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21128D_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21128D_COMPLETION" Language="th_TH">
+			<Text>Grateful for the assistance, the explorers pledge to spread work of {1_civilization_adj} kindness.</Text>		<!-- Grateful for the assistance, the explorers pledge to spread work of {1_civilization_adj} kindness. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21129A_STORYTITLE" Language="th_TH">
+			<Text>Miasma</Text>		<!-- Miasma -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21129A_COMPLETION" Language="th_TH">
+			<Text>A community has been unable to work these lands, as their crops inevitably become diseased. Many blame the miasma they claim emanates from a nearby cave system.</Text>		<!-- A community has been unable to work these lands, as their crops inevitably become diseased. Many blame the miasma they claim emanates from a nearby cave system. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21129B_NAME" Language="th_TH">
+			<Text>Cleanse the air with fragrant wood.</Text>		<!-- Cleanse the air with fragrant wood. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21129B_DESCRIPTION" Language="th_TH">
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21129C_NAME" Language="th_TH">
+			<Text>Promise them work in the capital.</Text>		<!-- Promise them work in the capital. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21129C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} to {2_capital}.</Text>		<!-- {1_reward} to {2_capital}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21129D_STORYTITLE" Language="th_TH">
+			<Text>Miasma</Text>		<!-- Miasma -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21129D_NAME" Language="th_TH">
+			<Text>Close.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21129D_DESCRIPTION" Language="th_TH">
+			<Text>Tile becomes a Sugar Resource.</Text>		<!-- Tile becomes a Sugar Resource. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21129D_COMPLETION" Language="th_TH">
+			<Text>The farmers can plant again, no longer fearing the bad air.</Text>		<!-- The farmers can plant again, no longer fearing the bad air. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21130A_STORYTITLE" Language="th_TH">
+			<Text>Water Joust</Text>		<!-- Water Joust -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21130A_COMPLETION" Language="th_TH">
+			<Text>Commemorating a local naval victory, teams compete in mock battle on platforms suspended from row boats. The crowd cheers as an enemy combatant plunges into the frigid water.</Text>		<!-- Commemorating a local naval victory, teams compete in mock battle on platforms suspended from row boats. The crowd cheers as an enemy combatant plunges into the frigid water. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21130B_NAME" Language="th_TH">
+			<Text>Place a bet on the next joust.</Text>		<!-- Place a bet on the next joust. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21130B_DESCRIPTION" Language="th_TH">
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21130B_IMPERATIVE" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21130C_NAME" Language="th_TH">
+			<Text>Enter the lists.</Text>		<!-- Enter the lists. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21130C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21130D_STORYTITLE" Language="th_TH">
+			<Text>Water Joust</Text>		<!-- Water Joust -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21130D_NAME" Language="th_TH">
+			<Text>Close.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21130D_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21130D_COMPLETION" Language="th_TH">
+			<Text>The clinking of coins is a satisfying accompaniment to the cheers of victory.</Text>		<!-- The clinking of coins is a satisfying accompaniment to the cheers of victory. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21131A_STORYTITLE" Language="th_TH">
+			<Text>Peasant Soldiers</Text>		<!-- Peasant Soldiers -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21131A_COMPLETION" Language="th_TH">
+			<Text>A local lord has called for war, and demands every able-bodied peasant to muster. The peasants live on and work his lands at his pleasure, and cannot refuse.</Text>		<!-- A local lord has called for war, and demands every able-bodied peasant to muster. The peasants live on and work his lands at his pleasure, and cannot refuse. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21131B_NAME" Language="th_TH">
+			<Text>Convince them to fight for the {1_Civilization_Adj} people.</Text>		<!-- Convince them to fight for the {1_Civilization_Adj} people. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21131B_DESCRIPTION" Language="th_TH">
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21131B_IMPERATIVE" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21131C_NAME" Language="th_TH">
+			<Text>Sell them arms.</Text>		<!-- Sell them arms. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21131C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21131D_STORYTITLE" Language="th_TH">
+			<Text>Peasant Soldiers</Text>		<!-- Peasant Soldiers -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21131D_NAME" Language="th_TH">
+			<Text>Close.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21131D_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} in the nearest Settlement.</Text>		<!-- {1_reward} in the nearest Settlement. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21131D_COMPLETION" Language="th_TH">
+			<Text>Their lord's ire quelled, the peasants return to their pitchforks and ploughs.</Text>		<!-- Their lord's ire quelled, the peasants return to their pitchforks and ploughs. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21132A_STORYTITLE" Language="th_TH">
+			<Text>The Name of the Book</Text>		<!-- The Name of the Book -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21132A_COMPLETION" Language="th_TH">
+			<Text>The library of a remote monastery has gone up in flames, the source of which remains a mystery among piles of rubble and scorched texts. The monks lament that centuries of work and knowledge may be lost forever.</Text>		<!-- The library of a remote monastery has gone up in flames, the source of which remains a mystery among piles of rubble and scorched texts. The monks lament that centuries of work and knowledge may be lost forever. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21132B_NAME" Language="th_TH">
+			<Text>Help the monks recover what they can.</Text>		<!-- Help the monks recover what they can. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21132B_DESCRIPTION" Language="th_TH">
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21132B_IMPERATIVE" Language="th_TH">
+			<Text>{1_reward} in {2_capital}.</Text>		<!-- {1_reward} in {2_capital}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21132C_NAME" Language="th_TH">
+			<Text>Pick through the rubble.</Text>		<!-- Pick through the rubble. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21132C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21132D_STORYTITLE" Language="th_TH">
+			<Text>The Name of the Book</Text>		<!-- The Name of the Book -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21132D_NAME" Language="th_TH">
+			<Text>Close.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21132D_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21132D_COMPLETION" Language="th_TH">
+			<Text>In gratitude, the monastery's scribes offer copies of their most prized manuscripts.</Text>		<!-- In gratitude, the monastery's scribes offer copies of their most prized manuscripts. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21133A_STORYTITLE" Language="th_TH">
+			<Text>Itinerant Court</Text>		<!-- Itinerant Court -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21133A_COMPLETION" Language="th_TH">
+			<Text>A local warlord hopes to conquer a small but prosperous farming community with words rather than force. He has offered to hear their concerns at his itinerant court.</Text>		<!-- A local warlord hopes to conquer a small but prosperous farming community with words rather than force. He has offered to hear their concerns at his itinerant court. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21133B_NAME" Language="th_TH">
+			<Text>Bribe the warlord to leave them be.</Text>		<!-- Bribe the warlord to leave them be. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21133B_DESCRIPTION" Language="th_TH">
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21133B_IMPERATIVE" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21133C_NAME" Language="th_TH">
+			<Text>Treat with him.</Text>		<!-- Treat with him. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21133C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21133D_STORYTITLE" Language="th_TH">
+			<Text>Itinerant Court</Text>		<!-- Itinerant Court -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21133D_NAME" Language="th_TH">
+			<Text>Close.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21133D_DESCRIPTION" Language="th_TH">
+			<Text>Greatly improve Relationship with {1_Independent}.</Text>		<!-- Greatly improve Relationship with {1_Independent}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21133D_COMPLETION" Language="th_TH">
+			<Text>{1_Independent} is glad to be rid of the warlord, at least until he returns with arms.</Text>		<!-- {1_Independent} is glad to be rid of the warlord, at least until he returns with arms. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21134A_STORYTITLE" Language="th_TH">
+			<Text>pirate activity</Text>		<!-- pirate activity -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21134A_COMPLETION" Language="th_TH">
+			<Text>This merchant ship's crew chose and failed to defend itself, and another shipping lane has fallen prey to pirates. But perhaps some order can be brought to the high seas.</Text>		<!-- This merchant ship's crew chose and failed to defend itself, and another shipping lane has fallen prey to pirates. But perhaps some order can be brought to the high seas. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21134B_NAME" Language="th_TH">
+			<Text>Offer to protect {1_independent}.</Text>		<!-- Offer to protect {1_independent}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21134B_DESCRIPTION" Language="th_TH">
+			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21134B_IMPERATIVE" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21134C_NAME" Language="th_TH">
+			<Text>Scan the wreckage for scraps.</Text>		<!-- Scan the wreckage for scraps. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21134C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21134D_STORYTITLE" Language="th_TH">
+			<Text>pirate activity</Text>		<!-- pirate activity -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21134D_NAME" Language="th_TH">
+			<Text>Close.</Text>		<!-- Close. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21134D_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} to {2_capital}.</Text>		<!-- {1_reward} to {2_capital}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21134D_COMPLETION" Language="th_TH">
+			<Text>The seas near {1_independent} are safer, for now.</Text>		<!-- The seas near {1_independent} are safer, for now. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21118D_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
@@ -6864,7 +7395,8 @@
 			<Text>กิลวา</Text>		<!-- Kilwa -->
 		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_EXPLORATION_5_MAJOR_NAME" Language="th_TH">
-			<Text>นิจมี</Text>		<!-- Njimi --></Replace>
+			<Text>นิจมี</Text>		<!-- Njimi -->
+		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_EXPLORATION_6_MAJOR_NAME" Language="th_TH">
 			<Text>ฟาชอดา</Text>		<!-- Fashoda -->
 		</Replace>
@@ -7075,6 +7607,30 @@
 		<Replace Tag="LOC_INDEPENDENT_EXPLORATION_45_MINOR_NAME" Language="th_TH">
 			<Text>คาลินาโก</Text>		<!-- Kalinago -->
 		</Replace>
+		<Replace Tag="CITY_STATE_MILITARISTIC_BONUS_EXPLORATION_6_NAME" Language="th_TH">
+			<Text>Staked Claims</Text>		<!-- Staked Claims -->
+		</Replace>
+		<Replace Tag="CITY_STATE_MILITARISTIC_BONUS_EXPLORATION_7_NAME" Language="th_TH">
+			<Text>Casus Belli</Text>		<!-- Casus Belli -->
+		</Replace>
+		<Replace Tag="CITY_STATE_CULTURAL_BONUS_EXPLORATION_6_NAME" Language="th_TH">
+			<Text>Sì Mín</Text>		<!-- Sì Mín -->
+		</Replace>
+		<Replace Tag="CITY_STATE_CULTURAL_BONUS_EXPLORATION_7_NAME" Language="th_TH">
+			<Text>Artisans</Text>		<!-- Artisans -->
+		</Replace>
+		<Replace Tag="CITY_STATE_ECONOMIC_BONUS_EXPLORATION_6_NAME" Language="th_TH">
+			<Text>Bullion</Text>		<!-- Bullion -->
+		</Replace>
+		<Replace Tag="CITY_STATE_ECONOMIC_BONUS_EXPLORATION_7_NAME" Language="th_TH">
+			<Text>Market Right</Text>		<!-- Market Right -->
+		</Replace>
+		<Replace Tag="CITY_STATE_SCIENTIFIC_BONUS_EXPLORATION_6_NAME" Language="th_TH">
+			<Text>Master Tradesmen</Text>		<!-- Master Tradesmen -->
+		</Replace>
+		<Replace Tag="CITY_STATE_SCIENTIFIC_BONUS_EXPLORATION_7_NAME" Language="th_TH">
+			<Text>Apprenticeship</Text>		<!-- Apprenticeship -->
+		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_EXPLORATION_46_MINOR_NAME" Language="th_TH">
 			<Text>เซมิโนล</Text>		<!-- Seminole -->
 		</Replace>
@@ -7135,6 +7691,30 @@
 		<Replace Tag="LOC_INDEPENDENT_EXPLORATION_55_MINOR_NAME" Language="th_TH">
 			<Text>ล้านนา</Text>		<!-- Lanna -->
 		</Replace>
+		<Replace Tag="CITY_STATE_MILITARISTIC_BONUS_EXPLORATION_6_DESCRIPTION" Language="th_TH">
+			<Text>+1 Settlement Limit.</Text>		<!-- +1 Settlement Limit. -->
+		</Replace>
+		<Replace Tag="CITY_STATE_MILITARISTIC_BONUS_EXPLORATION_7_DESCRIPTION" Language="th_TH">
+			<Text>+1 War Support. This bonus can be chosen by multiple Civilizations.</Text>		<!-- +1 War Support. This bonus can be chosen by multiple Civilizations. -->
+		</Replace>
+		<Replace Tag="CITY_STATE_CULTURAL_BONUS_EXPLORATION_6_DESCRIPTION" Language="th_TH">
+			<Text>+1 Culture on Specialists.</Text>		<!-- +1 Culture on Specialists. -->
+		</Replace>
+		<Replace Tag="CITY_STATE_CULTURAL_BONUS_EXPLORATION_7_DESCRIPTION" Language="th_TH">
+			<Text>+1 Culture on Warehouse Buildings. This bonus can be chosen by multiple Civilizations.</Text>		<!-- +1 Culture on Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
+		</Replace>
+		<Replace Tag="CITY_STATE_ECONOMIC_BONUS_EXPLORATION_6_DESCRIPTION" Language="th_TH">
+			<Text>+1 Gold on Treasure Resources.</Text>		<!-- +1 Gold on Treasure Resources. -->
+		</Replace>
+		<Replace Tag="CITY_STATE_ECONOMIC_BONUS_EXPLORATION_7_DESCRIPTION" Language="th_TH">
+			<Text>+1 Gold on Warehouse Buildings. This bonus can be chosen by multiple Civilizations.</Text>		<!-- +1 Gold on Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
+		</Replace>
+		<Replace Tag="CITY_STATE_SCIENTIFIC_BONUS_EXPLORATION_6_DESCRIPTION" Language="th_TH">
+			<Text>+1 Science on Specialists.</Text>		<!-- +1 Science on Specialists. -->
+		</Replace>
+		<Replace Tag="CITY_STATE_SCIENTIFIC_BONUS_EXPLORATION_7_DESCRIPTION" Language="th_TH">
+			<Text>+1 Science on Warehouse Buildings. This bonus can be chosen by multiple Civilizations.</Text>		<!-- +1 Science on Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
+		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_EXPLORATION_56_MINOR_NAME" Language="th_TH">
 			<Text>ตอนโด</Text>		<!-- Tondo -->
 		</Replace>
@@ -7194,6 +7774,36 @@
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_EXPLORATION_3_NAME" Language="th_TH">
 			<Text>ธนูยาว</Text>		<!-- Longbow -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_ABBASID" Language="th_TH">
+			<Text>With the City of Peace Tradition, Buildings around the City Center receive additional Science adjacencies. Put Specialists on those tiles to really make number go up.</Text>		<!-- With the City of Peace Tradition, Buildings around the City Center receive additional Science adjacencies. Put Specialists on those tiles to really make number go up. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_CHOLA" Language="th_TH">
+			<Text>The Chola excel at making Trade Agreements and Trade Routes, especially when you have Coastal Settlements. But they also have a really impressive navy for defense... or for offense.</Text>		<!-- The Chola excel at making Trade Agreements and Trade Routes, especially when you have Coastal Settlements. But they also have a really impressive navy for defense... or for offense. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_HAWAII" Language="th_TH">
+			<Text>The Moananuiākea Unique Ability and Ho’okupu Tradition provide amazing Culture yields for expanding into Coast. With the Mana Civic, you also benefit from natural disasters like volcanic eruptions.</Text>		<!-- The Moananuiākea Unique Ability and Ho’okupu Tradition provide amazing Culture yields for expanding into Coast. With the Mana Civic, you also benefit from natural disasters like volcanic eruptions. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_INCA" Language="th_TH">
+			<Text>The Terrace Farm can go on any Rough Terrain that doesn't have a River or other Feature. However, with the Ayllu Civic, it benefits most from being adjacent to Mountains.</Text>		<!-- The Terrace Farm can go on any Rough Terrain that doesn't have a River or other Feature. However, with the Ayllu Civic, it benefits most from being adjacent to Mountains. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_MAJAPAHIT" Language="th_TH">
+			<Text>The Majapahit benefit considerably from Specialists, which increase the adjacency of Buildings from the current Age by 50%. Use the Wayang Civic's boost to Overbuilding to construct those Buildings more quickly.</Text>		<!-- The Majapahit benefit considerably from Specialists, which increase the adjacency of Buildings from the current Age by 50%. Use the Wayang Civic's boost to Overbuilding to construct those Buildings more quickly. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_MING" Language="th_TH">
+			<Text>The penalty from the Ming's Unique Ability, Great Canon of Yongle, does not apply to Traditions slotted into your Government. Look for Civilization icon tags on Social Policies to identify your Traditions.</Text>		<!-- The penalty from the Ming's Unique Ability, Great Canon of Yongle, does not apply to Traditions slotted into your Government. Look for Civilization icon tags on Social Policies to identify your Traditions. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_MONGOLIA" Language="th_TH">
+			<Text>The Örtöö Unique Improvement restores the movement of Units that enter the tile. With faster movement from the Four Hounds Civic and the Noyan Unique Commander, you could cross a continent in a single turn.</Text>		<!-- The Örtöö Unique Improvement restores the movement of Units that enter the tile. With faster movement from the Four Hounds Civic and the Noyan Unique Commander, you could cross a continent in a single turn. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_NORMAN" Language="th_TH">
+			<Text>The Motte and Bailey both count as Fortifications, automatically making them defensible Districts. It also means they can be purchased in Fort Towns.</Text>		<!-- The Motte and Bailey both count as Fortifications, automatically making them defensible Districts. It also means they can be purchased in Fort Towns. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_SONGHAI" Language="th_TH">
+			<Text>The Kanta Civic lets the Songhai generate small Treasure Convoys in Homelands Cities on Navigable Rivers. Unlock it early to get a head start on the Economic Legacy.</Text>		<!-- The Kanta Civic lets the Songhai generate small Treasure Convoys in Homelands Cities on Navigable Rivers. Unlock it early to get a head start on the Economic Legacy. -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_SPAIN" Language="th_TH">
+			<Text>Spain can thrive in Distant Lands with the New World Riches Civic and Plaza Unique Quarter... or conquer them with the Conquista Tradition.</Text>		<!-- Spain can thrive in Distant Lands with the New World Riches Civic and Plaza Unique Quarter... or conquer them with the Conquista Tradition. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_EXPLORATION_4_NAME" Language="th_TH">
 			<Text>โจรสลัด</Text>		<!-- Corsair -->
@@ -13631,6 +14241,30 @@
 		<Replace Tag="LOC_LEADER_CHAIN_1144B_STORYTITLE" Language="th_TH">
 			<Text>ชีวิตดุจศิลปะ</Text>		<!-- Life as Art -->
 		</Replace>
+		<Replace Tag="LOC_110A_STORYTITLE" Language="th_TH">
+			<Text>A Passing Likeness</Text>		<!-- A Passing Likeness -->
+		</Replace>
+		<Replace Tag="LOC_110A_COMPLETION" Language="th_TH">
+			<Text>Attendants cheer as the veil falls away from an enormous portrait. "This is a brilliant likeness of you," an august advisor exults, "a celebration of your generosity, in the leading style!" The smile seems more an uncanny leer, but no one else seems unsettled by it.</Text>		<!-- Attendants cheer as the veil falls away from an enormous portrait. "This is a brilliant likeness of you," an august advisor exults, "a celebration of your generosity, in the leading style!" The smile seems more an uncanny leer, but no one else seems unsettled by it. -->
+		</Replace>
+		<Replace Tag="LOC_110B_NAME" Language="th_TH">
+			<Text>Hang this portrait in a place of honor.</Text>		<!-- Hang this portrait in a place of honor. -->
+		</Replace>
+		<Replace Tag="LOC_110B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_110C_NAME" Language="th_TH">
+			<Text>Destroy the insult.</Text>		<!-- Destroy the insult. -->
+		</Replace>
+		<Replace Tag="LOC_110C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_110D_NAME" Language="th_TH">
+			<Text>Pay to have it redone.</Text>		<!-- Pay to have it redone. -->
+		</Replace>
+		<Replace Tag="LOC_110D_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} but {2_reward}.</Text>		<!-- {1_reward} but {2_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1144B_NAME" Language="th_TH">
 			<Text>จัดประชุมเป็นประจำเพื่อนำเสนอข้อเสนอของพวกเขา</Text>		<!-- Hold regular meetings to discuss their proposals. -->
 		</Replace>
@@ -15083,9 +15717,16 @@
 			<Text>การลงโทษอันชอบธรรมสำหรับผู้ไม่เชื่อฟัง</Text>		<!-- Holy justice for the unruly. -->
 		</Replace>
 		<Replace Tag="LOC_7065B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} มีมูลค่า 2 คะแนน แต่ช่อง 2 ช่องจะถูกปล้นในแต่ละถิ่นฐานในดินแดนห่างไกล</Text>		<!-- {1_reward} worth 2 Points but 2 Tiles are Pillaged in each Distant Lands Settlement. --></Replace>
+			<Text>{1_reward} มีมูลค่า 2 คะแนน แต่ช่อง 2 ช่องจะถูกปล้นในแต่ละถิ่นฐานในดินแดนห่างไกล</Text>		<!-- {1_reward} worth 2 Points but 2 Tiles are Pillaged in each Distant Lands Settlement. -->
+		</Replace>
 		<Replace Tag="LOC_7065C_NAME" Language="th_TH">
 			<Text>การปรองดองคือหนทาง</Text>		<!-- Reconciliation is the way. -->
+		</Replace>
+		<Replace Tag="LOC_BELIEF_BONUS_31_NAME" Language="th_TH">
+			<Text>Divine Inspiration</Text>		<!-- Divine Inspiration -->
+		</Replace>
+		<Replace Tag="LOC_BELIEF_BONUS_32_NAME" Language="th_TH">
+			<Text>Crusade</Text>		<!-- Crusade -->
 		</Replace>
 		<Replace Tag="LOC_7065C_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
@@ -15111,6 +15752,12 @@
 		<Replace Tag="LOC_7067A_DESCRIPTION" Language="th_TH">
 			<Text>เรื่องราวยังคงดำเนินต่อไป..</Text>		<!-- Story continues. -->
 		</Replace>
+		<Replace Tag="LOC_ENHANCER_BELIEF_BONUS_9_NAME" Language="th_TH">
+			<Text>Parampara</Text>		<!-- Parampara -->
+		</Replace>
+		<Replace Tag="LOC_ENHANCER_BELIEF_BONUS_10_NAME" Language="th_TH">
+			<Text>Inter Caetera</Text>		<!-- Inter Caetera -->
+		</Replace>
 		<Replace Tag="LOC_7067A_COMPLETION" Language="th_TH">
 			<Text>ในฐานะที่เป็นเจ้าของที่ดิน อิเนส ซูอาเรซ เก็บเกี่ยวผลผลิตอย่างมั่งคั่งทั้งสำหรับตนเองและสำหรับสเปน แต่ความไม่สงบยังคงเกิดขึ้นในหมู่แรงงานพื้นเมือง ที่ต้องทำงานหนักเพื่อประโยชน์ของการถือครองที่ดินนี้</Text>		<!-- Now an encomendera, Inés Suárez reaps bountiful harvests for herself and for Spain. Still, unrest stirs among the native laborers, who break their backs for the sake of the encomienda. -->
 		</Replace>
@@ -15121,7 +15768,8 @@
 			<Text>บังคับใช้วินัย</Text>		<!-- Enforce discipline. -->
 		</Replace>
 		<Replace Tag="LOC_7067B_DESCRIPTION" Language="th_TH">
-			<Text>เลื่อนขั้นฟรีสำหรับ ผู้บัญชาการทุกคน แต่ช่อง 2 ช่องจะถูกปล้นในแต่ละถิ่นฐานในดินแดนห่างไกล</Text>		<!-- Free Promotion for all Commanders, but 2 Tiles are Pillaged in each Distant Lands Settlement. --></Replace>
+			<Text>เลื่อนขั้นฟรีสำหรับ ผู้บัญชาการทุกคน แต่ช่อง 2 ช่องจะถูกปล้นในแต่ละถิ่นฐานในดินแดนห่างไกล</Text>		<!-- Free Promotion for all Commanders, but 2 Tiles are Pillaged in each Distant Lands Settlement. -->
+		</Replace>
 		<Replace Tag="LOC_7067C_NAME" Language="th_TH">
 			<Text>แสดงความเอื้อเฟื้อ</Text>		<!-- Practice generosity. -->
 		</Replace>
@@ -15145,6 +15793,36 @@
 		</Replace>
 		<Replace Tag="LOC_1127B_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_BELIEF_BONUS_29_NAME" Language="th_TH">
+			<Text>Anitya</Text>		<!-- Anitya -->
+		</Replace>
+		<Replace Tag="LOC_BELIEF_BONUS_30_NAME" Language="th_TH">
+			<Text>Covenant</Text>		<!-- Covenant -->
+		</Replace>
+		<Replace Tag="LOC_BELIEF_BONUS_33_NAME" Language="th_TH">
+			<Text>Akhlaq</Text>		<!-- Akhlaq -->
+		</Replace>
+		<Replace Tag="LOC_BELIEF_BONUS_34_NAME" Language="th_TH">
+			<Text>Sukha</Text>		<!-- Sukha -->
+		</Replace>
+		<Replace Tag="LOC_BELIEF_BONUS_35_NAME" Language="th_TH">
+			<Text>Barakah</Text>		<!-- Barakah -->
+		</Replace>
+		<Replace Tag="LOC_FOUNDER_BELIEF_BONUS_13_NAME" Language="th_TH">
+			<Text>Tikkun Olam</Text>		<!-- Tikkun Olam -->
+		</Replace>
+		<Replace Tag="LOC_FOUNDER_BELIEF_BONUS_14_NAME" Language="th_TH">
+			<Text>Pushkaram</Text>		<!-- Pushkaram -->
+		</Replace>
+		<Replace Tag="LOC_FOUNDER_BELIEF_BONUS_15_NAME" Language="th_TH">
+			<Text>Feed the World</Text>		<!-- Feed the World -->
+		</Replace>
+		<Replace Tag="LOC_FOUNDER_BELIEF_BONUS_16_NAME" Language="th_TH">
+			<Text>Chesed</Text>		<!-- Chesed -->
+		</Replace>
+		<Replace Tag="LOC_FOUNDER_BELIEF_BONUS_17_NAME" Language="th_TH">
+			<Text>Salat</Text>		<!-- Salat -->
 		</Replace>
 		<Replace Tag="LOC_1127C_NAME" Language="th_TH">
 			<Text>ความศักดิ์สิทธิ์ที่ยกระดับนั้นอยู่ไกลออกไป และการดึงเคราก็เช่นกัน</Text>		<!-- The transcendent divine is far above us, and so is beard-pulling. -->
@@ -15173,6 +15851,21 @@
 		<Replace Tag="LOC_1435A_STORYTITLE" Language="th_TH">
 			<Text>วัดเบซากิห์</Text>		<!-- Besakih Temple -->
 		</Replace>
+		<Replace Tag="LOC_BELIEF_BONUS_31_DESCRIPTION" Language="th_TH">
+			<Text>Gain 2 Missionaries when you build a Wonder This belief can be chosen by multiple Civilizations.</Text>		<!-- Gain 2 Missionaries when you build a Wonder This belief can be chosen by multiple Civilizations. -->
+		</Replace>
+		<Replace Tag="LOC_BELIEF_BONUS_32_DESCRIPTION" Language="th_TH">
+			<Text>+1 free War Support against Civilizations who have Founded a Religion.</Text>		<!-- +1 free War Support against Civilizations who have Founded a Religion. -->
+		</Replace>
+		<Replace Tag="LOC_ENHANCER_BELIEF_BONUS_9_DESCRIPTION" Language="th_TH">
+			<Text>+1 Relic Slot in Science Buildings in Cities.</Text>		<!-- +1 Relic Slot in Science Buildings in Cities. -->
+		</Replace>
+		<Replace Tag="LOC_ENHANCER_BELIEF_BONUS_10_DESCRIPTION" Language="th_TH">
+			<Text>Treasure Convoys gain +1 Movement and +5 Combat Strength when defending.</Text>		<!-- Treasure Convoys gain +1 Movement and +5 Combat Strength when defending. -->
+		</Replace>
+		<Replace Tag="LOC_ENHANCER_BELIEF_TREASURE_DEFENSE_PREVIEW" Language="th_TH">
+			<Text>+5 Inter Caetera</Text>		<!-- +5 Inter Caetera -->
+		</Replace>
 		<Replace Tag="LOC_1435A_COMPLETION" Language="th_TH">
 			<Text>ภูเขาไฟตั้งสูงตระหง่านเหนือที่ราบ มีกลุ่มควันและเถ้าถ่านลอยขึ้นไปในอากาศ</Text>		<!-- The mountain of fire rises high above the plain, a column of smoke and ash rising skyward. -->
 		</Replace>
@@ -15196,6 +15889,18 @@
 		</Replace>
 		<Replace Tag="LOC_9020B_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward} มูลค่า 1 คะแนน</Text>		<!-- {1_reward} worth 1 Point. -->
+		</Replace>
+		<Replace Tag="LOC_BELIEF_BONUS_29_DESCRIPTION" Language="th_TH">
+			<Text>+2 Relics for the first-time Conversion of a Holy City. This belief can be chosen by multiple Civilizations.</Text>		<!-- +2 Relics for the first-time Conversion of a Holy City. This belief can be chosen by multiple Civilizations. -->
+		</Replace>
+		<Replace Tag="LOC_BELIEF_BONUS_33_DESCRIPTION" Language="th_TH">
+			<Text>+1 Relic for first-time Conversion of one of your Cities.</Text>		<!-- +1 Relic for first-time Conversion of one of your Cities. -->
+		</Replace>
+		<Replace Tag="LOC_BELIEF_BONUS_34_DESCRIPTION" Language="th_TH">
+			<Text>+2 Relics for first-time Conversion of a Settlement with at least 3 Specialists.</Text>		<!-- +2 Relics for first-time Conversion of a Settlement with at least 3 Specialists. -->
+		</Replace>
+		<Replace Tag="LOC_BELIEF_BONUS_35_DESCRIPTION" Language="th_TH">
+			<Text>+2 Relics for first-time Conversion of any Settlement with a Natural Wonder.</Text>		<!-- +2 Relics for first-time Conversion of any Settlement with a Natural Wonder. -->
 		</Replace>
 		<Replace Tag="LOC_9020C_NAME" Language="th_TH">
 			<Text>ใช้หินเพื่อซื้อความนิยมในท้องถิ่น</Text>		<!-- Use the stones to buy local favor. -->
@@ -15233,6 +15938,24 @@
 		<Replace Tag="LOC_1471B_DESCRIPTION" Language="th_TH">
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
+		<Replace Tag="LOC_BELIEF_BONUS_30_DESCRIPTION" Language="th_TH">
+			<Text>+3 [icon:YIELD_SCIENCE] Science, [icon:YIELD_CULTURE] Culture, [icon:YIELD_HAPPINESS] Happiness, [icon:YIELD_DIPLOMACY] Influence, and [icon:YIELD_GOLD] Gold on the Temple in your Holy City. If you retain this belief, this bonus transfers to your Palace in Modern. This belief can be chosen by multiple Civilizations.</Text>		<!-- +3 [icon:YIELD_SCIENCE] Science, [icon:YIELD_CULTURE] Culture, [icon:YIELD_HAPPINESS] Happiness, [icon:YIELD_DIPLOMACY] Influence, and [icon:YIELD_GOLD] Gold on the Temple in your Holy City. If you retain this belief, this bonus transfers to your Palace in Modern. This belief can be chosen by multiple Civilizations. -->
+		</Replace>
+		<Replace Tag="LOC_FOUNDER_BELIEF_BONUS_13_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_DIPLOMACY] Influence for every foreign Settlement following your Religion. +1 [icon:YIELD_DIPLOMACY]Influence for each of your Settlements following your Religion.</Text>		<!-- +2 [icon:YIELD_DIPLOMACY] Influence for every foreign Settlement following your Religion. +1 [icon:YIELD_DIPLOMACY]Influence for each of your Settlements following your Religion. -->
+		</Replace>
+		<Replace Tag="LOC_FOUNDER_BELIEF_BONUS_14_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_DIPLOMACY] Influence for every Navigable River tile in foreign Settlements following your Religion.</Text>		<!-- +1 [icon:YIELD_DIPLOMACY] Influence for every Navigable River tile in foreign Settlements following your Religion. -->
+		</Replace>
+		<Replace Tag="LOC_FOUNDER_BELIEF_BONUS_15_DESCRIPTION" Language="th_TH">
+			<Text>+6 [icon:YIELD_FOOD] Food in your Settlements following your Religion.</Text>		<!-- +6 [icon:YIELD_FOOD] Food in your Settlements following your Religion. -->
+		</Replace>
+		<Replace Tag="LOC_FOUNDER_BELIEF_BONUS_16_DESCRIPTION" Language="th_TH">
+			<Text>+4 [icon:YIELD_PRODUCTION] Production in your Settlements following your Religion.</Text>		<!-- +4 [icon:YIELD_PRODUCTION] Production in your Settlements following your Religion. -->
+		</Replace>
+		<Replace Tag="LOC_FOUNDER_BELIEF_BONUS_17_DESCRIPTION" Language="th_TH">
+			<Text>All buildings receive a +1[icon:YIELD_HAPPINESS] Happiness adjacency with the Temple.</Text>		<!-- All buildings receive a +1[icon:YIELD_HAPPINESS] Happiness adjacency with the Temple. -->
+		</Replace>
 		<Replace Tag="LOC_1471B_IMPERATIVE" Language="th_TH">
 			<Text>ตั้งถิ่นฐาน 3 แห่ง, -2 [icon:YIELD_HAPPINESS] ความสุข ในทุก ถิ่นฐาน ขณะที่ภารกิจดำเนินอยู่</Text>		<!-- Found 3 Settlements. -2 [icon:YIELD_HAPPINESS] Happiness in all Settlements while quest is active. -->
 		</Replace>
@@ -15268,6 +15991,21 @@
 		</Replace>
 		<Replace Tag="LOC_1479B_NAME" Language="th_TH">
 			<Text>ชื่อเสียงของเขาดึงดูดคนอื่นให้มาร่วมสู้</Text>		<!-- His fame draws others to the fight. -->
+		</Replace>
+		<Replace Tag="LOC_FOUNDER_BELIEF_REQUNLOCK_BONUS_13_DESCRIPTION" Language="th_TH">
+			<Text>Have the [B]Tikkun Olam [/B] Belief</Text>		<!-- Have the [B]Tikkun Olam [/B] Belief -->
+		</Replace>
+		<Replace Tag="LOC_FOUNDER_BELIEF_REQUNLOCK_BONUS_14_DESCRIPTION" Language="th_TH">
+			<Text>Have the [B]Pushkaram [/B] Belief</Text>		<!-- Have the [B]Pushkaram [/B] Belief -->
+		</Replace>
+		<Replace Tag="LOC_FOUNDER_BELIEF_REQUNLOCK_BONUS_15_DESCRIPTION" Language="th_TH">
+			<Text>Have the [B]Feed the World [/B] Belief</Text>		<!-- Have the [B]Feed the World [/B] Belief -->
+		</Replace>
+		<Replace Tag="LOC_FOUNDER_BELIEF_REQUNLOCK_BONUS_16_DESCRIPTION" Language="th_TH">
+			<Text>Have the [B]Chesed [/B] Belief</Text>		<!-- Have the [B]Chesed [/B] Belief -->
+		</Replace>
+		<Replace Tag="LOC_FOUNDER_BELIEF_REQUNLOCK_BONUS_17_DESCRIPTION" Language="th_TH">
+			<Text>Have the [B]Salat [/B] Belief</Text>		<!-- Have the [B]Salat [/B] Belief -->
 		</Replace>
 		<Replace Tag="LOC_1479B_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
@@ -15384,17 +16122,23 @@
 			<Text>เมืองเหมืองแร่</Text>		<!-- Mining Town -->
 		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_GRANARY_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร ในฟาร์ม, ทุ่งหญ้า, ไร่ปลูกและเรือประมง</Text>		<!-- +3[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. --></Replace>
+			<Text>+3[icon:YIELD_FOOD] อาหาร ในฟาร์ม, ทุ่งหญ้า, ไร่ปลูกและเรือประมง</Text>		<!-- +3[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. -->
+		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_GRANARY_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร ในฟาร์ม, ทุ่งหญ้า, ไร่ปลูกและเรือประมง</Text>		<!-- +3[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. --></Replace>
+			<Text>+3[icon:YIELD_FOOD] อาหาร ในฟาร์ม, ทุ่งหญ้า, ไร่ปลูกและเรือประมง</Text>		<!-- +3[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. -->
+		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_FISHING_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า ไร่ และเรือประมง</Text>		<!-- +3[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. --></Replace>
+			<Text>+3[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า ไร่ และเรือประมง</Text>		<!-- +3[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. -->
+		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_FISHING_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า ไร่ และเรือประมง</Text>		<!-- +3[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. --></Replace>
+			<Text>+3[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า ไร่ และเรือประมง</Text>		<!-- +3[icon:YIELD_FOOD] Food on Farms, Pastures, Plantations and Fishing Boats. -->
+		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_PRODUCTION_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต ที่ค่าย คนตัดไม้ หลุมดิน เหมือง และเหมืองหิน</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production on Camps, Woodcutters, Clay Pits, Mines, and Quarries. --></Replace>
+			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต ที่ค่าย คนตัดไม้ หลุมดิน เหมือง และเหมืองหิน</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production on Camps, Woodcutters, Clay Pits, Mines, and Quarries. -->
+		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_PRODUCTION_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต ที่ค่าย คนตัดไม้ หลุมดิน เหมือง และเหมืองหิน</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production on Camps, Woodcutters, Clay Pits, Mines, and Quarries. --></Replace>
+			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต ที่ค่าย คนตัดไม้ หลุมดิน เหมือง และเหมืองหิน</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production on Camps, Woodcutters, Clay Pits, Mines, and Quarries. -->
+		</Replace>
 		<Replace Tag="LOC_PROJECT_TOWN_TRADE_NAME" Language="th_TH">
 			<Text>สถานีการค้า</Text>		<!-- Trade Outpost -->
 		</Replace>
@@ -15525,16 +16269,20 @@
 			<Text>+1[icon:YIELD_GOLD] ทอง ในเมือง เพิ่มเป็นสองเท่าในบ้านเกิด</Text>		<!-- +1[icon:YIELD_GOLD] Gold in Towns, doubled in Homelands -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_RICE_TOOLTIP" Language="th_TH">
-			<Text>+10%[icon:YIELD_FOOD] อาหาร ในถิ่นฐาน</Text>		<!-- +10%[icon:YIELD_FOOD] Food in Settlements --></Replace>
+			<Text>+10%[icon:YIELD_FOOD] อาหาร ในถิ่นฐาน</Text>		<!-- +10%[icon:YIELD_FOOD] Food in Settlements -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_LIMESTONE_TOOLTIP" Language="th_TH">
 			<Text>+10%[icon:YIELD_PRODUCTION] กำลังผลิต ต่ออาคาร</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards Buildings -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_TIN_TOOLTIP" Language="th_TH">
-			<Text>+3% อัตราเติบโต</Text>		<!-- +3% Growth Rate --></Replace>
+			<Text>+3% อัตราเติบโต</Text>		<!-- +3% Growth Rate -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_LLAMAS_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต, +7[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production, +7[icon:YIELD_HAPPINESS] Happiness --></Replace>
+			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต, +7[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production, +7[icon:YIELD_HAPPINESS] Happiness -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_HARDWOOD_TOOLTIP" Language="th_TH">
-			<Text>+20%[icon:YIELD_PRODUCTION] กำลังผลิต ต่อยูนิตพลเรือน</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards Civilian Units --></Replace>
+			<Text>+20%[icon:YIELD_PRODUCTION] กำลังผลิต ต่อยูนิตพลเรือน</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards Civilian Units -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_WILD_GAME_TOOLTIP" Language="th_TH">
 			<Text>+3[icon:YIELD_FOOD] อาหาร ในเมืองใหญ่, +6[icon:YIELD_FOOD] อาหาร ในเมือง</Text>		<!-- +3[icon:YIELD_FOOD] Food in Cities, +6[icon:YIELD_FOOD] Food in Towns -->
 		</Replace>
@@ -15579,6 +16327,9 @@
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_26_NAME" Language="th_TH">
 			<Text>น้ำศักดิ์สิทธิ์</Text>		<!-- Holy Waters -->
+		</Replace>
+		<Replace Tag="LOC_MOD_TECH_EX_NAVAL_AUTO_EXPLORE_DESCRIPTION" Language="th_TH">
+			<Text>All Tier 2 and Tier 3 Naval Units can use the Automate Exploration Action.</Text>		<!-- All Tier 2 and Tier 3 Naval Units can use the Automate Exploration Action. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_27_NAME" Language="th_TH">
 			<Text>ฝูงสัตว์ศักดิ์สิทธิ์</Text>		<!-- Sacred Herds -->
@@ -15749,7 +16500,8 @@
 			<Text>{1_ReligionName} เป็นส่วนใหญ่</Text>		<!-- {1_ReligionName} Majority -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_COTTON_TOOLTIP" Language="th_TH">
-			<Text>+5%[icon::YIELD_PRODUCTION] กำลังผลิต ต่อการฝึก ยูนิตทางบก</Text>		<!-- +5%[icon:YIELD_PRODUCTION] Production towards training Land Units. --></Replace>
+			<Text>+5%[icon::YIELD_PRODUCTION] กำลังผลิต ต่อการฝึก ยูนิตทางบก</Text>		<!-- +5%[icon:YIELD_PRODUCTION] Production towards training Land Units. -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_DATES_TOOLTIP" Language="th_TH">
 			<Text>+3[icon:YIELD_FOOD] อาหาร , +3[icon:YIELD_HAPPINESS] ความสุข </Text>		<!-- +3[icon:YIELD_FOOD] Food, +3[icon:YIELD_HAPPINESS] Happiness -->
 		</Replace>
@@ -15760,13 +16512,20 @@
 			<Text>+5[icon:YIELD_HAPPINESS] ความสุข </Text>		<!-- +5[icon:YIELD_HAPPINESS] Happiness -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_FISH_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_FOOD] อาหาร ในทุกถิ่นฐานที่มีท่าเรือ, +3[icon:YIELD_FOOD] อาหาร ไปยังทุกถิ่นฐานอื่น</Text>		<!-- +6[icon:YIELD_FOOD] Food in Settlements with a Port, +3[icon:YIELD_FOOD] Food to any other Settlement --></Replace>
+			<Text>+6[icon:YIELD_FOOD] อาหาร ในทุกถิ่นฐานที่มีท่าเรือ, +3[icon:YIELD_FOOD] อาหาร ไปยังทุกถิ่นฐานอื่น</Text>		<!-- +6[icon:YIELD_FOOD] Food in Settlements with a Port, +3[icon:YIELD_FOOD] Food to any other Settlement -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_FISH_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_FOOD] อาหาร ในทุกถิ่นฐานที่มีท่าเรือ, +3[icon:YIELD_FOOD] อาหาร ไปยังทุกถิ่นฐานอื่น</Text>		<!-- +6[icon:YIELD_FOOD] Food in Settlements with a Port, +3[icon:YIELD_FOOD] Food to any other Settlement --></Replace>
+			<Text>+6[icon:YIELD_FOOD] อาหาร ในทุกถิ่นฐานที่มีท่าเรือ, +3[icon:YIELD_FOOD] อาหาร ไปยังทุกถิ่นฐานอื่น</Text>		<!-- +6[icon:YIELD_FOOD] Food in Settlements with a Port, +3[icon:YIELD_FOOD] Food to any other Settlement -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_GOLD_TOOLTIP" Language="th_TH">
-			<Text>+20% [icon:YIELD_GOLD] ทอง สำหรับการซื้อสิ่งก่อสร้าง</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings --></Replace>
+			<Text>+20% [icon:YIELD_GOLD] ทอง สำหรับการซื้อสิ่งก่อสร้าง</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings -->
+		</Replace>
+		<Replace Tag="LOC_TUTORIAL_QUEST_SELECTION_BODY_NO_ADVISORS" Language="th_TH">
+			<Text>(Legacy Paths are currently disabled. If you enable them, your Advisors will be at your service to guide you on the path of your choice.)</Text>		<!-- (Legacy Paths are currently disabled. If you enable them, your Advisors will be at your service to guide you on the path of your choice.) -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_GOLD_DISTANT_LANDS_TOOLTIP" Language="th_TH">
-			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้ออาคาร</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings --></Replace>
+			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้ออาคาร</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_GYPSUM_TOOLTIP" Language="th_TH">
 			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับเมืองใหญ่ในบ้านเกิด, +6[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับเมืองใหญ่ในพื้นที่ห่างไกล</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production to Homeland Cities; +6[icon:YIELD_PRODUCTION] Production to Distant Land Cities -->
 		</Replace>
@@ -15777,9 +16536,11 @@
 			<Text>+100%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับมิชชันนารี และวัด</Text>		<!-- +100%[icon:YIELD_PRODUCTION] Production towards Missionaries and Temples -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_IVORY_TOOLTIP" Language="th_TH">
-			<Text>+4[icon:YIELD_HAPPINESS] ความสุข , +4[icon:YIELD_PRODUCTION] กำลังผลิต </Text>		<!-- +4[icon:YIELD_HAPPINESS] Happiness, +4[icon:YIELD_PRODUCTION] Production --></Replace>
+			<Text>+4[icon:YIELD_HAPPINESS] ความสุข , +4[icon:YIELD_PRODUCTION] กำลังผลิต </Text>		<!-- +4[icon:YIELD_HAPPINESS] Happiness, +4[icon:YIELD_PRODUCTION] Production -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_IVORY_TOOLTIP" Language="th_TH">
-			<Text>+4[icon:YIELD_HAPPINESS] ความสุข , +4[icon:YIELD_PRODUCTION] กำลังผลิต </Text>		<!-- +4[icon:YIELD_HAPPINESS] Happiness, +4[icon:YIELD_PRODUCTION] Production --></Replace>
+			<Text>+4[icon:YIELD_HAPPINESS] ความสุข , +4[icon:YIELD_PRODUCTION] กำลังผลิต </Text>		<!-- +4[icon:YIELD_HAPPINESS] Happiness, +4[icon:YIELD_PRODUCTION] Production -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_JADE_TOOLTIP" Language="th_TH">
 			<Text>+15%[icon:YIELD_GOLD] ทอง</Text>		<!-- +15%[icon:YIELD_GOLD] Gold -->
 		</Replace>
@@ -15787,7 +16548,8 @@
 			<Text>+15%[icon:YIELD_GOLD] ทอง</Text>		<!-- +15%[icon:YIELD_GOLD] Gold -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_KAOLIN_TOOLTIP" Language="th_TH">
-			<Text>+3%[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +3%[icon:YIELD_CULTURE] Culture. --></Replace>
+			<Text>+3%[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +3%[icon:YIELD_CULTURE] Culture. -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_MARBLE_TOOLTIP" Language="th_TH">
 			<Text>+10% [icon:YIELD_PRODUCTION] กำลังผลิต สู่สิ่งมหัศจรรย์ที่วางบนพื้นที่ทุ่งหญ้า ทุ่งทุนดรา และทะเล</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders -->
 		</Replace>
@@ -15798,50 +16560,71 @@
 			<Text>ปลดล็อกการสร้าง กองเรือสมบัติ ในถิ่นฐานชายฝั่งในดินแดนห่างไกล</Text>		<!-- Unlocks Treasure Fleet spawning in Coastal Settlements in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_PEARLS_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง, +3[icon:YIELD_HAPPINESS] ความสุข ให้กับทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_HAPPINESS] Happiness in Capital. +3[icon:YIELD_HAPPINESS] Happiness to any other City. --></Replace>
+			<Text>+6[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง, +3[icon:YIELD_HAPPINESS] ความสุข ให้กับทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_HAPPINESS] Happiness in Capital. +3[icon:YIELD_HAPPINESS] Happiness to any other City. -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILK_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง, +3[icon:YIELD_HAPPINESS] ความสุข ให้กับทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_CULTURE] Culture in Capital. +3[icon:YIELD_CULTURE] Culture to any other City. --></Replace>
+			<Text>+6[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง, +3[icon:YIELD_HAPPINESS] ความสุข ให้กับทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_CULTURE] Culture in Capital. +3[icon:YIELD_CULTURE] Culture to any other City. -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILK_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง, +3[icon:YIELD_HAPPINESS] ความสุข ให้กับทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_CULTURE] Culture in Capital. +3[icon:YIELD_CULTURE] Culture to any other City. --></Replace>
+			<Text>+6[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง, +3[icon:YIELD_HAPPINESS] ความสุข ให้กับทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_CULTURE] Culture in Capital. +3[icon:YIELD_CULTURE] Culture to any other City. -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILVER_TOOLTIP" Language="th_TH">
-			<Text>+20% [icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Units --></Replace>
+			<Text>+20% [icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Units -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILVER_TOOLTIP" Language="th_TH">
-			<Text>+20% [icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Units --></Replace>
+			<Text>+20% [icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Units -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILVER_DISTANT_LANDS_TOOLTIP" Language="th_TH">
-			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Units --></Replace>
+			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Units -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_WINE_TOOLTIP" Language="th_TH">
-			<Text>+4[icon:YIELD_FOOD] อาหาร, +4[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +4[icon:YIELD_FOOD] Food, +4[icon:YIELD_PRODUCTION] Production --></Replace>
+			<Text>+4[icon:YIELD_FOOD] อาหาร, +4[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +4[icon:YIELD_FOOD] Food, +4[icon:YIELD_PRODUCTION] Production -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_WINE_TOOLTIP" Language="th_TH">
-			<Text>+4[icon:YIELD_FOOD] อาหาร, +4[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +4[icon:YIELD_FOOD] Food, +4[icon:YIELD_PRODUCTION] Production --></Replace>
+			<Text>+4[icon:YIELD_FOOD] อาหาร, +4[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +4[icon:YIELD_FOOD] Food, +4[icon:YIELD_PRODUCTION] Production -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_CAMELS_TOOLTIP" Language="th_TH">
 			<Text>เมื่อถูกจัดสรรให้กับเมืองใหญ่, เพิ่มจำนวน ทรัพยากร ที่สามารถจัดสรรให้กับ เมืองได้อีก 2 หน่วย</Text>		<!-- While slotted in a City, allows another 2 additional Resources to be assigned to that City -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_HORSES_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +6[icon:YIELD_HAPPINESS] Happiness --></Replace>
+			<Text>+6[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +6[icon:YIELD_HAPPINESS] Happiness -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_IRON_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตทหารราบ ได้รับ +1 พลังต่อสู้ (สูงสุด +6)</Text>		<!-- Infantry Units gain +1 Combat Strength (Max +6) --></Replace>
+			<Text>ยูนิตทหารราบ ได้รับ +1 พลังต่อสู้ (สูงสุด +6)</Text>		<!-- Infantry Units gain +1 Combat Strength (Max +6) -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_COCOA_TOOLTIP" Language="th_TH">
-			<Text>+3%[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +3%[icon:YIELD_HAPPINESS] Happiness. --></Replace>
+			<Text>+3%[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +3%[icon:YIELD_HAPPINESS] Happiness. -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_FURS_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_HAPPINESS] ความสุข ในเมืองที่มีสถานีรางรถไฟ, +3[icon:YIELD_HAPPINESS] ความสุข ไปยังทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_HAPPINESS] Happiness in a City with a Rail Station. +3[icon:YIELD_HAPPINESS] Happiness to any other City. --></Replace>
+			<Text>+6[icon:YIELD_HAPPINESS] ความสุข ในเมืองที่มีสถานีรางรถไฟ, +3[icon:YIELD_HAPPINESS] ความสุข ไปยังทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_HAPPINESS] Happiness in a City with a Rail Station. +3[icon:YIELD_HAPPINESS] Happiness to any other City. -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_FURS_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_HAPPINESS] ความสุข ในเมืองที่มีสถานีรางรถไฟ, +3[icon:YIELD_HAPPINESS] ความสุข ไปยังทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_HAPPINESS] Happiness in a City with a Rail Station. +3[icon:YIELD_HAPPINESS] Happiness to any other City. --></Replace>
+			<Text>+6[icon:YIELD_HAPPINESS] ความสุข ในเมืองที่มีสถานีรางรถไฟ, +3[icon:YIELD_HAPPINESS] ความสุข ไปยังทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_HAPPINESS] Happiness in a City with a Rail Station. +3[icon:YIELD_HAPPINESS] Happiness to any other City. -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_SPICES_TOOLTIP" Language="th_TH">
-			<Text>+4[icon:YIELD_FOOD] อาหาร, +4[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +4[icon:YIELD_FOOD] Food, +4[icon:YIELD_HAPPINESS] Happiness --></Replace>
+			<Text>+4[icon:YIELD_FOOD] อาหาร, +4[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +4[icon:YIELD_FOOD] Food, +4[icon:YIELD_HAPPINESS] Happiness -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_SUGAR_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_FOOD] อาหาร</Text>		<!-- +6[icon:YIELD_FOOD] Food --></Replace>
+			<Text>+6[icon:YIELD_FOOD] อาหาร</Text>		<!-- +6[icon:YIELD_FOOD] Food -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_TEA_TOOLTIP" Language="th_TH">
-			<Text>+3%[icon:YIELD_SCIENCE] วิทยาศาสตร์</Text>		<!-- +3%[icon:YIELD_SCIENCE] Science. --></Replace>
+			<Text>+3%[icon:YIELD_SCIENCE] วิทยาศาสตร์</Text>		<!-- +3%[icon:YIELD_SCIENCE] Science. -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_TRUFFLES_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_FOOD] อาหาร ในเมืองที่มีสถานีรางรถไฟ, +3[icon:YIELD_FOOD] อาหาร ไปยังทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_FOOD] Food in a City with a Rail Station. +3[icon:YIELD_FOOD] Food to any other City. --></Replace>
+			<Text>+6[icon:YIELD_FOOD] อาหาร ในเมืองที่มีสถานีรางรถไฟ, +3[icon:YIELD_FOOD] อาหาร ไปยังทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_FOOD] Food in a City with a Rail Station. +3[icon:YIELD_FOOD] Food to any other City. -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_TRUFFLES_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_FOOD] อาหาร ในเมืองที่มีสถานีรางรถไฟ, +3[icon:YIELD_FOOD] อาหาร ไปยังทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_FOOD] Food in a City with a Rail Station. +3[icon:YIELD_FOOD] Food to any other City. --></Replace>
+			<Text>+6[icon:YIELD_FOOD] อาหาร ในเมืองที่มีสถานีรางรถไฟ, +3[icon:YIELD_FOOD] อาหาร ไปยังทุกเมืองอื่น</Text>		<!-- +6[icon:YIELD_FOOD] Food in a City with a Rail Station. +3[icon:YIELD_FOOD] Food to any other City. -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_NITER_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตระยะไกล และยูนิตทางน้ำได้รับ +1 พลังต่อสู้ (สูงสุด +6)</Text>		<!-- Ranged and Siege Units gain +1 Combat Strength (Max +6) --></Replace>
+			<Text>ยูนิตระยะไกล และยูนิตทางน้ำได้รับ +1 พลังต่อสู้ (สูงสุด +6)</Text>		<!-- Ranged and Siege Units gain +1 Combat Strength (Max +6) -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_WHALES_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_PRODUCTION] กำลังผลิต </Text>		<!-- +6[icon:YIELD_PRODUCTION] Production --></Replace>
+			<Text>+6[icon:YIELD_PRODUCTION] กำลังผลิต </Text>		<!-- +6[icon:YIELD_PRODUCTION] Production -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_WHALES_TOOLTIP" Language="th_TH">
-			<Text>+6[icon:YIELD_PRODUCTION] กำลังผลิต </Text>		<!-- +6[icon:YIELD_PRODUCTION] Production --></Replace>
+			<Text>+6[icon:YIELD_PRODUCTION] กำลังผลิต </Text>		<!-- +6[icon:YIELD_PRODUCTION] Production -->
+		</Replace>
 		<Replace Tag="LOC_EXP_RESOURCE_CLOVES_TOOLTIP" Language="th_TH">
 			<Text>+6[icon:YIELD_FOOD] อาหาร, +10%[icon:YIELD_GOLD] ทอง</Text>		<!-- +6[icon:YIELD_FOOD] Food, +10%[icon:YIELD_GOLD] Gold -->
 		</Replace>
@@ -15963,13 +16746,13 @@
 			<Text>"การใช้ดินปืนอย่างแท้จริงคือ การทำให้ชายทุกคนนั้นเท่าเทียมกัน"</Text>		<!-- "The real use of gunpowder is to make all men tall." -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ADVANCED_TRANSITION_START_HYBRID" Language="th_TH">
-			<Text> กด [action:{1_Icon}] บน </Text>		<!--  Press [action:{1_Icon}] on -->
+			<Text> กด [action:{1_Icon}] บน </Text>		<!-- Press [action:{1_Icon}] on -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ADVANCED_TRANSITION_START_HYBRID_ALT" Language="th_TH">
-			<Text> กด [action:{1_Icon}] เพื่อ </Text>		<!--  Press [action:{1_Icon}] to -->
+			<Text> กด [action:{1_Icon}] เพื่อ </Text>		<!-- Press [action:{1_Icon}] to -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_ADVANCED_TRANSITION_START_TOUCH" Language="th_TH">
-			<Text> แตะ </Text>		<!--  Tap -->
+			<Text> แตะ </Text>		<!-- Tap -->
 		</Replace>
 		<Replace Tag="LOC_TECH_GUNPOWDER_QUOTE_AUTHOR" Language="th_TH">
 			<Text>โทมัส คาร์ไลล์</Text>		<!-- Thomas Carlyle -->
@@ -17352,7 +18135,8 @@
 			<Text>ทาจิโร</Text>		<!-- Tajiro -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_TAJIRO_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตพ่อค้าพิเศษ ของซองไฮ, สร้างได้ถูกกว่า, พลเรือนที่สามารถสร้าง เส้นทางการค้า เพื่อนำเข้า ทรัพยากร จากการตั้งถิ่นฐานต่างชาติ, เมื่อคุณสร้าง เส้นทางการค้า จะได้รับ 100 [icon:YIELD_GOLD] ทอง หากนี่เป็น เส้นทางการค้า ที่มีแม่น้ำใหญ่อย่างน้อย 1 ช่อง</Text>		<!-- Songhai Unique Merchant. Cheaper to produce. Civilian who can establish a Trade Route to import Resources from a foreign Settlement. When you create a Trade Route receive 100[icon:YIELD_GOLD] Gold if this is a Trade Route with at least 1 Navigable River. --></Replace>
+			<Text>ยูนิตพ่อค้าพิเศษ ของซองไฮ, สร้างได้ถูกกว่า, พลเรือนที่สามารถสร้าง เส้นทางการค้า เพื่อนำเข้า ทรัพยากร จากการตั้งถิ่นฐานต่างชาติ, เมื่อคุณสร้าง เส้นทางการค้า จะได้รับ 100 [icon:YIELD_GOLD] ทอง หากนี่เป็น เส้นทางการค้า ที่มีแม่น้ำใหญ่อย่างน้อย 1 ช่อง</Text>		<!-- Songhai Unique Merchant. Cheaper to produce. Civilian who can establish a Trade Route to import Resources from a foreign Settlement. When you create a Trade Route receive 100[icon:YIELD_GOLD] Gold if this is a Trade Route with at least 1 Navigable River. -->
+		</Replace>
 		<Replace Tag="LOC_ABILITY_TAJIRO_DESCRIPTION" Language="th_TH">
 			<Text>เมื่อคุณสร้างเส้นทางการค้า รับทองคำ 100 [icon:YIELD_GOLD] หากนี่เป็น เส้นทางการค้า ที่มีแม่น้ำใหญ่อย่างน้อย 1 ช่อง</Text>		<!-- When you create a Trade Route receive 100[icon:YIELD_GOLD] Gold if this is a Trade Route with at least 1 Navigable River. -->
 		</Replace>
