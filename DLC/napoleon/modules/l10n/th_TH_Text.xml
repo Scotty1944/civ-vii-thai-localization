@@ -29,7 +29,8 @@
 			<Text>ปลดล็อกตำนาน +25% ความสัมพันธ์ จากการเริ่มต้นหรือสนับสนุนความร่วมมือ, -25% ความสัมพันธ์ จากการเริ่มต้น คว่ำบาตร หรือปฏิเสธ ความร่วมมือ</Text>		<!-- Legend Unlock. +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_NAPOLEON_L2_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน: [n]+25%[icon:YIELD_GOLD] ทอง จากการค้าขาย และขบวนบรรทุกสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD]Gold from Trade and Treasure Convoys. --></Replace>
+			<Text>ปลดล็อกตำนาน: [n]+25%[icon:YIELD_GOLD] ทอง จากการค้าขาย และขบวนบรรทุกสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD]Gold from Trade and Treasure Convoys. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAPOLEON_TITLE" Language="th_TH">
 			<Text>{LOC_LEADER_NAPOLEON_NAME}</Text>		<!-- {LOC_LEADER_NAPOLEON_NAME} -->
 		</Replace>
@@ -97,9 +98,11 @@
 			<Text>จักรพรรดิแห่งฝรั่งเศส</Text>		<!-- Empereur des Français -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NAPOLEON_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI]ได้รับ [B]มาตรการคว่ำบาตร [/B]พิเศษที่เรียกว่า [B]ระบบทวีป [/B]ซึ่งลดขีดจำกัดของ [B]เส้นทางการค้า [/B]ของผู้นำที่ถูกเจาะจงลง [B]1[/B] จาก [B]ผู้นำอื่นๆ ทั้งหมด[/B] ก่อให้ผลกระทบกับความสัมพันธ์ที่รุนแรง และมีค่าใช้จ่ายมากขึ้นในการปฏิเสธ[LI][B]+8 [icon:YIELD_GOLD] ทอง [/B]ต่อยุคสำหรับทุก [B]ผู้นำ [/B]ที่คุณ [B]ไม่เป็นมิตร [/B]หรือ [B]เป็นปรปักษ์[/B] กับ[LI]สามารถปฏิเสธ [B]ความพยายาม [/B]ได้ [B]ฟรี[/B][/LIST]</Text>		<!-- [BLIST][LI]Gain a unique [icon:SANCTIONS] [B]Sanction [/B]called [B]Continental System [/B]that reduces the [icon:TRADE_ROUTE] [B]Trade Route [/B]limit of the targeted Leader to [B]all other Leaders [/B]by [B]1[/B]. Causes a massive Relationship penalty, and costs more to reject.[LI][B]+8 [icon:YIELD_GOLD] Gold [/B]per Age for every [B]Leader [/B]you are [B]Unfriendly [/B]or [B]Hostile [/B]with.[LI]Can reject [icon:ENDEAVOR] [B]Endeavors [/B]for [B]free[/B].[/LIST] --></Replace>
+			<Text>[BLIST][LI]ได้รับ [B]มาตรการคว่ำบาตร [/B]พิเศษที่เรียกว่า [B]ระบบทวีป [/B]ซึ่งลดขีดจำกัดของ [B]เส้นทางการค้า [/B]ของผู้นำที่ถูกเจาะจงลง [B]1[/B] จาก [B]ผู้นำอื่นๆ ทั้งหมด[/B] ก่อให้ผลกระทบกับความสัมพันธ์ที่รุนแรง และมีค่าใช้จ่ายมากขึ้นในการปฏิเสธ[LI][B]+8 [icon:YIELD_GOLD] ทอง [/B]ต่อยุคสำหรับทุก [B]ผู้นำ [/B]ที่คุณ [B]ไม่เป็นมิตร [/B]หรือ [B]เป็นปรปักษ์[/B] กับ[LI]สามารถปฏิเสธ [B]ความพยายาม [/B]ได้ [B]ฟรี[/B][/LIST]</Text>		<!-- [BLIST][LI]Gain a unique [icon:SANCTIONS] [B]Sanction [/B]called [B]Continental System [/B]that reduces the [icon:TRADE_ROUTE] [B]Trade Route [/B]limit of the targeted Leader to [B]all other Leaders [/B]by [B]1[/B]. Causes a massive Relationship penalty, and costs more to reject.[LI][B]+8 [icon:YIELD_GOLD] Gold [/B]per Age for every [B]Leader [/B]you are [B]Unfriendly [/B]or [B]Hostile [/B]with.[LI]Can reject [icon:ENDEAVOR] [B]Endeavors [/B]for [B]free[/B].[/LIST] -->
+		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_NAPOLEON" Language="th_TH">
-			<Text>นโปเลียน โบนาปาร์ต ชื่อของท่านเป็นสัญลักษณ์แห่งความทะเยอทะยานและความกล้าหาญ ในความโกลาหลของการปฏิวัติ ท่านนำพาความสงบ—ความสงบตามแบบฉบับของท่าน ที่ถูกจัดการและบังคับใช้โดยมือของท่าน จงนำสัญชาตญาณยุทธศาสตร์อันเฉียบแหลมและพลังที่ไม่อาจหยุดยั้งของท่านมาพลิกผันโลก และทำให้แน่ใจว่าเมื่อควันสงครามจางลง ชื่อของท่านยังคงอยู่บนโลกนี้</Text>		<!-- Napoleon Bonaparte, your name is synonymous with ambition - and audacity. In the chaos of revolution, you bring order - your order, arranged and enacted by your hand. Bring your keen strategic senses and unstoppable drive to overturn the world and ensure that, when the smoke clears, you remain. --></Replace>
+			<Text>นโปเลียน โบนาปาร์ต ชื่อของท่านเป็นสัญลักษณ์แห่งความทะเยอทะยานและความกล้าหาญ ในความโกลาหลของการปฏิวัติ ท่านนำพาความสงบ—ความสงบตามแบบฉบับของท่าน ที่ถูกจัดการและบังคับใช้โดยมือของท่าน จงนำสัญชาตญาณยุทธศาสตร์อันเฉียบแหลมและพลังที่ไม่อาจหยุดยั้งของท่านมาพลิกผันโลก และทำให้แน่ใจว่าเมื่อควันสงครามจางลง ชื่อของท่านยังคงอยู่บนโลกนี้</Text>		<!-- Napoleon Bonaparte, your name is synonymous with ambition - and audacity. In the chaos of revolution, you bring order - your order, arranged and enacted by your hand. Bring your keen strategic senses and unstoppable drive to overturn the world and ensure that, when the smoke clears, you remain. -->
+		</Replace>
 		<Replace Tag="LOC_MEMENTO_NAPOLEON_EMPEROR_PORTRAIT_JOSEPHINE_UNLOCK_TITLE" Language="th_TH">
 			<Text>ปลดล็อกที่ระดับ นโปเลียน, จักรพรรดิ ระดับ 2</Text>		<!-- Unlock at Napoleon Emperor level 2 -->
 		</Replace>
@@ -140,13 +143,13 @@
 			<Text>สันติภาพแห่งจักรวรรดิ</Text>		<!-- Pax Imperatoria -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ</Text>		<!-- As Napoleon Emperor, complete the Pax Imperatoria Legacy Path. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ</Text>		<!-- As Napoleon Emperor, complete the Pax Imperatoria Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สันติภาพแห่งจักรวรรดิ 2</Text>		<!-- Pax Imperatoria 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ สองครั้ง</Text>		<!-- As Napoleon Emperor, complete the Pax Imperatoria Legacy Path twice. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ สองครั้ง</Text>		<!-- As Napoleon Emperor, complete the Pax Imperatoria Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
 			<Text>สันติภาพแห่งจักรวรรดิ 3</Text>		<!-- Pax Imperatoria 3 -->
@@ -170,19 +173,19 @@
 			<Text>เส้นทางสายไหม 3</Text>		<!-- Silk Roads 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก เส้นทางสายไหม สามครั้ง</Text>		<!-- As Napoleon Emperor, complete the Silk Roads Legacy Path thrice. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก เส้นทางสายไหม สามครั้ง</Text>		<!-- As Napoleon Emperor, complete the Silk Roads Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_EXPLORATION_NAME" Language="th_TH">
 			<Text>โลกนี้คับแคบเกินไปแล้ว</Text>		<!-- Non Sufficit Orbis -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว</Text>		<!-- As Napoleon Emperor, complete the Non Sufficit Orbis Legacy Path. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว</Text>		<!-- As Napoleon Emperor, complete the Non Sufficit Orbis Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>โลกนี้คับแคบเกินไปแล้ว 2</Text>		<!-- Non Sufficit Orbis 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว สองครั้ง</Text>		<!-- As Napoleon Emperor, complete the Non Sufficit Orbis Legacy Path twice. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก โลกนี้คับแคบเกินไปแล้ว สองครั้ง</Text>		<!-- As Napoleon Emperor, complete the Non Sufficit Orbis Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
 			<Text>โลกนี้คับแคบเกินไปแล้ว 3</Text>		<!-- Non Sufficit Orbis 3 -->
@@ -194,37 +197,37 @@
 			<Text>กองเรือบรรทุกสมบัติ</Text>		<!-- Treasure Fleet -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก กองเรือบรรทุกสมบัติ</Text>		<!-- As Napoleon Emperor, complete the Treasure Fleet Legacy Path. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก กองเรือบรรทุกสมบัติ</Text>		<!-- As Napoleon Emperor, complete the Treasure Fleet Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>กองเรือบรรทุกสมบัติ 2</Text>		<!-- Treasure Fleet 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก กองเรือบรรทุกสมบัติ สองครั้ง</Text>		<!-- As Napoleon Emperor, complete the Treasure Fleet Legacy Path twice. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก กองเรือบรรทุกสมบัติ สองครั้ง</Text>		<!-- As Napoleon Emperor, complete the Treasure Fleet Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
 			<Text>กองเรือบรรทุกสมบัติ 3</Text>		<!-- Treasure Fleet 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก กองเรือบรรทุกสมบัติ สามครั้ง</Text>		<!-- As Napoleon Emperor, complete the Treasure Fleet Legacy Path thrice. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก กองเรือบรรทุกสมบัติ สามครั้ง</Text>		<!-- As Napoleon Emperor, complete the Treasure Fleet Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_MODERN_NAME" Language="th_TH">
 			<Text>อุดมการณ์</Text>		<!-- Ideology -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก อุดมการณ์</Text>		<!-- As Napoleon Emperor, complete the Ideology Legacy Path. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก อุดมการณ์</Text>		<!-- As Napoleon Emperor, complete the Ideology Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_MODERN_2_NAME" Language="th_TH">
 			<Text>อุดมการณ์ 2</Text>		<!-- Ideology 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก อุดมการณ์ สองครั้ง</Text>		<!-- As Napoleon Emperor, complete the Ideology Legacy Path twice. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก อุดมการณ์ สองครั้ง</Text>		<!-- As Napoleon Emperor, complete the Ideology Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_MODERN_3_NAME" Language="th_TH">
 			<Text>อุดมการณ์ 3</Text>		<!-- Ideology 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_MILITARY_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก อุดมการณ์ สามครั้ง</Text>		<!-- As Napoleon Emperor, complete the Ideology Legacy Path thrice. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก อุดมการณ์ สามครั้ง</Text>		<!-- As Napoleon Emperor, complete the Ideology Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ECONOMIC_VICTORY_MODERN_NAME" Language="th_TH">
 			<Text>เจ้าพ่อรถไฟ</Text>		<!-- Railroad Tycoon -->
@@ -320,13 +323,13 @@
 			<Text>หอสมุดอันยิ่งใหญ่</Text>		<!-- Great Library -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_SCIENCE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก หอสมุคอันยิ่งใหญ่</Text>		<!-- As Napoleon Emperor, complete the Great Library Legacy Path. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก หอสมุคอันยิ่งใหญ่</Text>		<!-- As Napoleon Emperor, complete the Great Library Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_SCIENCE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>หอสมุดอันยิ่งใหญ่ 2</Text>		<!-- Great Library 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_SCIENCE_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก หอสมุคอันยิ่งใหญ่ สองครั้ง</Text>		<!-- As Napoleon Emperor, complete the Great Library Legacy Path twice. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก หอสมุคอันยิ่งใหญ่ สองครั้ง</Text>		<!-- As Napoleon Emperor, complete the Great Library Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_SCIENCE_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
 			<Text>หอสมุดอันยิ่งใหญ่ 3</Text>		<!-- Great Library 3 -->
@@ -350,55 +353,55 @@
 			<Text>รู้แจ้งเห็นจริง 3</Text>		<!-- Enlightenment 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_SCIENCE_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Napoleon Emperor, complete the Enlightenment Legacy Path thrice. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Napoleon Emperor, complete the Enlightenment Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
 			<Text>การแข่งขันอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก การแข่งขันอวกาศ</Text>		<!-- As Napoleon Emperor, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก การแข่งขันอวกาศ</Text>		<!-- As Napoleon Emperor, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
 			<Text>การแข่งอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก การแข่งขันอวกาศ สองครั้ง</Text>		<!-- As Napoleon Emperor, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก การแข่งขันอวกาศ สองครั้ง</Text>		<!-- As Napoleon Emperor, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
 			<Text>การแข่งขันอวกาศ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก การแข่งขันอวกาศ สามครั้ง</Text>		<!-- As Napoleon Emperor, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก การแข่งขันอวกาศ สามครั้ง</Text>		<!-- As Napoleon Emperor, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_ANTIQUITY_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก มหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Napoleon Emperor, complete the Wonders of the Ancient World Legacy Path. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก มหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- As Napoleon Emperor, complete the Wonders of the Ancient World Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_ANTIQUITY_2_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 2</Text>		<!-- Wonders of the Ancient World 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_ANTIQUITY_2_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ สองครั้ง</Text>		<!-- As Napoleon Emperor, complete the Wonders of the Ancient World Legacy Path twice. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ สองครั้ง</Text>		<!-- As Napoleon Emperor, complete the Wonders of the Ancient World Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_ANTIQUITY_3_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ 3</Text>		<!-- Wonders of the Ancient World 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_ANTIQUITY_3_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ สามครั้ง</Text>		<!-- As Napoleon Emperor, complete the Wonders of the Ancient World Legacy Path thrice. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก สิ่งมหัศจรรย์ของโลกยุคโบราณ สามครั้ง</Text>		<!-- As Napoleon Emperor, complete the Wonders of the Ancient World Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_EXPLORATION_NAME" Language="th_TH">
 			<Text>โทชาคานา</Text>		<!-- Toshakhana -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_EXPLORATION_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก โทชาคานา</Text>		<!-- As Napoleon Emperor, complete the Toshakhana Legacy Path. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก โทชาคานา</Text>		<!-- As Napoleon Emperor, complete the Toshakhana Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>โทชาคานา 2</Text>		<!-- Toshakhana 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_EXPLORATION_2_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก โทชาคานา สองครั้ง</Text>		<!-- As Napoleon Emperor, complete the Toshakhana Legacy Path twice. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก โทชาคานา สองครั้ง</Text>		<!-- As Napoleon Emperor, complete the Toshakhana Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
 			<Text>โทชาคานา 3</Text>		<!-- Toshakhana 3 -->
@@ -410,19 +413,19 @@
 			<Text>สมาคมภูมิศาสตร์</Text>		<!-- Geographic Society -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก สมาคมภูมิศาสตร์</Text>		<!-- As Napoleon Emperor, complete the Geographic Society Legacy Path. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก สมาคมภูมิศาสตร์</Text>		<!-- As Napoleon Emperor, complete the Geographic Society Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_MODERN_2_NAME" Language="th_TH">
 			<Text>สมาคมภูมิศาสตร์ 2</Text>		<!-- Geographic Society 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก สมาคมภูมิศาสตร์ สองครั้ง</Text>		<!-- As Napoleon Emperor, complete the Geographic Society Legacy Path twice. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก สมาคมภูมิศาสตร์ สองครั้ง</Text>		<!-- As Napoleon Emperor, complete the Geographic Society Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_MODERN_3_NAME" Language="th_TH">
 			<Text>สมาคมภูมิศาสตร์ 3</Text>		<!-- Geographic Society 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_CULTURE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน จักรพรรดิ ทำเส้นทางมรดก สมาคมภูมิศาสตร์ สามครั้ง</Text>		<!-- As Napoleon Emperor, complete the Geographic Society Legacy Path thrice. -->
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ทำเส้นทางมรดก สมาคมภูมิศาสตร์ สามครั้ง</Text>		<!-- As Napoleon Emperor, complete the Geographic Society Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_FLAWLESS_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สองมรดก, ยุคโบราณ</Text>		<!-- Dual Legacies, Antiquity -->
@@ -444,6 +447,42 @@
 		</Replace>
 		<Replace Tag="LOC_MODULE_NAPOLEON_NAME" Language="th_TH">
 			<Text>Napoleon</Text>		<!-- Napoleon -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>เอกราช</Text>		<!-- Independence -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ในยุคโบราณ ทำภารกิจเพื่อละทิ้งความเชื่อโชคลาง</Text>		<!-- As Napoleon, Emperor, in Antiquity, complete a quest to abandon superstition. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>อิสระชน</Text>		<!-- Independents -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ในยุคโบราณ ทำภารกิจเพื่อจุดไฟให้โลก</Text>		<!-- As Napoleon, Emperor, in Antiquity, complete a quest to set the world aflame. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>พิธีมิสซาสำหรับมวลชน</Text>		<!-- A Mass for the Masses -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ในยุคสำรวจ ทำภารกิจเพื่อฟังบทเพลงของนักบวช</Text>		<!-- As Napoleon, Emperor, in Exploration, complete a quest to hear the songs of priests. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>เลอ เปอตีต์ กาปอราล</Text>		<!-- Le Petit Caporal -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ในยุคสำรวจ ทำภารกิจเพื่อเจรจากับปืนใหญ่</Text>		<!-- As Napoleon, Emperor, in Exploration, complete a quest to negotiate with cannons. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>วันที่ 18 บรูแมร์</Text>		<!-- The 18th Brumaire -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ในยุคใหม่ ทำภารกิจเพื่อสร้างสัญลักษณ์แห่งอำนาจ</Text>		<!-- As Napoleon, Emperor, in Modern, complete a quest to build a symbol of authority. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>วันที่ 11 ฟริแมร์</Text>		<!-- The 11th Frimaire -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ในยุคใหม่ ทำภารกิจเพื่อให้โลกได้ยินเสียงของคุณ</Text>		<!-- As Napoleon, Emperor, in Modern, complete a quest to make the world listen. -->
 		</Replace>
 		<Replace Tag="LOC_MODULE_NAPOLEON_DESCRIPTION" Language="th_TH">
 			<Text>ประกอบด้วยผู้นำคนใหม่: นโปเลียน</Text>		<!-- Contains a new leader: Napoleon. -->
@@ -984,7 +1023,8 @@
 			<Text>โหนดคุณลักษณะทางเศรษฐกิจ</Text>		<!-- Economic Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_NAPOLEON_EMPEROR_L1_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับทองคำเพิ่มขึ้น 25% จากการค้า และ ขบวนบรรทุกสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Convoys. --></Replace>
+			<Text>ได้รับทองคำเพิ่มขึ้น 25% จากการค้า และ ขบวนบรรทุกสมบัติ</Text>		<!-- +25% Gold from Trade and Treasure Convoys. -->
+		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_NAPOLEON_EMPEROR_L2_NAME" Language="th_TH">
 			<Text>โหนดคุณลักษณะทางการทูต</Text>		<!-- Diplomatic Attribute Node -->
 		</Replace>

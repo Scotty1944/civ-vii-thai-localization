@@ -200,7 +200,8 @@
 			<Text>ภูมิลำเนาที่สร้างติดกับแม่น้ำใหญ่ จะได้รับ +2[icon:YIELD_FOOD] อาหาร บนพื้นที่แม่น้ำ แต่เมืองที่ไม่ได้สร้างติดกับแม่น้ำใหญ่ จะได้รับ -10%[icon:YIELD_FOOD] อาหาร</Text>		<!-- Settlements built adjacent to Navigable Rivers gain +2[icon:YIELD_FOOD] Food on River Terrain, but Cities not built adjacent to a Navigable River receive -10%[icon:YIELD_FOOD] Food. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_SHAWNEE_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI]ถิ่นฐานที่สร้างติดกับ [B]แม่น้ำใหญ่ [/B]ได้รับ [B]+2[icon:YIELD_FOOD] อาหาร [/B]บน [B]ภูมิประเทศแม่น้ำ[/B] แต่เมืองที่[B]ไม่[/B]สร้างติดกับ [B]แม่น้ำใหญ่ [/B]จะได้รับ [B]-10%[icon:YIELD_FOOD] อาหาร[/B][LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการก่อสร้าง [B]โขดหินงู[/B][/BLIST]</Text>		<!-- [BLIST][LI]Settlements built adjacent to [B]Navigable Rivers [/B]gain [B]+2[icon:YIELD_FOOD] Food [/B]on [B]River Terrain[/B], but Cities [B]not [/B]built adjacent to a [B]Navigable River [/B]receive [B]-10%[icon:YIELD_FOOD] Food[/B].[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Serpent Mound[/B].[/LIST] --></Replace>
+			<Text>[BLIST][LI]ถิ่นฐานที่สร้างติดกับ [B]แม่น้ำใหญ่ [/B]ได้รับ [B]+2[icon:YIELD_FOOD] อาหาร [/B]บน [B]ภูมิประเทศแม่น้ำ[/B] แต่เมืองที่[B]ไม่[/B]สร้างติดกับ [B]แม่น้ำใหญ่ [/B]จะได้รับ [B]-10%[icon:YIELD_FOOD] อาหาร[/B][LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการก่อสร้าง [B]โขดหินงู[/B][/BLIST]</Text>		<!-- [BLIST][LI]Settlements built adjacent to [B]Navigable Rivers [/B]gain [B]+2[icon:YIELD_FOOD] Food [/B]on [B]River Terrain[/B], but Cities [B]not [/B]built adjacent to a [B]Navigable River [/B]receive [B]-10%[icon:YIELD_FOOD] Food[/B].[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Serpent Mound[/B].[/LIST] -->
+		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_SHAWNEE_DESCRIPTION" Language="th_TH">
 			<Text>+30%[icon:YIELD_PRODUCTION] การผลิตจากเป็นสิ่งมหัศจรรย์ ที่เกี่ยวข้องกับ ชอว์นี</Text>		<!-- +30%[icon:YIELD_PRODUCTION] Production from being the Shawnee's associated Wonder. -->
 		</Replace>
@@ -283,9 +284,11 @@
 			<Text>มาวาสคะเว สโคเต</Text>		<!-- Mawaskawe Skote -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MAWASKAWE_SKOTE_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_FOOD] อาหาร +1 [icon:YIELD_GOLD] ทอง ในแต่ละทรัพยากรที่อยู่ติดกัน, เขตพัฒนาพิเศษ ของชอว์นี, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าบนช่อง, ต้องวางบนช่อง พืชพรรณ และไม่ติดกับ มาวาสคะเว สโคเต อื่นๆ</Text>		<!-- +4 [icon:YIELD_FOOD] Food. +1 [icon:YIELD_GOLD] Gold for each adjacent Resource. Shawnee Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Vegetated Terrain not adjacent to another Mawaskawe Skote. --></Replace>
+			<Text>+4[icon:YIELD_FOOD] อาหาร +1 [icon:YIELD_GOLD] ทอง ในแต่ละทรัพยากรที่อยู่ติดกัน, เขตพัฒนาพิเศษ ของชอว์นี, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าบนช่อง, ต้องวางบนช่อง พืชพรรณ และไม่ติดกับ มาวาสคะเว สโคเต อื่นๆ</Text>		<!-- +4 [icon:YIELD_FOOD] Food. +1 [icon:YIELD_GOLD] Gold for each adjacent Resource. Shawnee Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Vegetated Terrain not adjacent to another Mawaskawe Skote. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MAWASKAWE_SKOTE_TOOLTIP" Language="th_TH">
-			<Text>เขตพัฒนาพิเศษ ของชอว์นี, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าบนช่อง, ต้องวางบนช่อง พื้นที่เพาะปลูก และไม่ติดกับ มาวาสคะเว สโคเต อื่นๆ</Text>		<!-- Shawnee Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Vegetated Terrain not adjacent to another Mawaskawe Skote. --></Replace>
+			<Text>เขตพัฒนาพิเศษ ของชอว์นี, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าบนช่อง, ต้องวางบนช่อง พื้นที่เพาะปลูก และไม่ติดกับ มาวาสคะเว สโคเต อื่นๆ</Text>		<!-- Shawnee Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Vegetated Terrain not adjacent to another Mawaskawe Skote. -->
+		</Replace>
 		<Replace Tag="LOC_WONDER_SERPENT_MOUND_NAME" Language="th_TH">
 			<Text>เนินงู</Text>		<!-- Serpent Mound -->
 		</Replace>
@@ -347,7 +350,8 @@
 			<Text>+2 [icon:YIELD_FOOD] อาหารในฟาร์มและค่าย</Text>		<!-- +2 [icon:YIELD_FOOD] Food on Farms and Camps. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_MIYASKA_LATOWEKI_ENDEAVOR_TRADE_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_GOLD] ทอง สำหรับแต่ละเส้นทางการค้าขณะที่คุณมีอย่างน้อย 3 ความพยายามที่ทำงานอยู่</Text>		<!-- +2 [icon:YIELD_GOLD] Gold for each trade route while you have at least 3 Endeavors active. --></Replace>
+			<Text>+2 [icon:YIELD_GOLD] ทอง สำหรับแต่ละเส้นทางการค้าขณะที่คุณมีอย่างน้อย 3 ความพยายามที่ทำงานอยู่</Text>		<!-- +2 [icon:YIELD_GOLD] Gold for each trade route while you have at least 3 Endeavors active. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_MIYASKA_LATOWEKI_CITY_STATE_RESOURCES_DESCRIPTION" Language="th_TH">
 			<Text>+1 ขีดสูงสุดของทรัพยากรในเมืองหลวงของคุณต่อ พันธมิตรในนครรัฐ แต่ละแห่ง</Text>		<!-- +1 Resource Cap in your Capital per Allied City-State. -->
 		</Replace>
@@ -418,12 +422,14 @@
 			<Text>เทคัมเซห์</Text>		<!-- Tecumseh -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_TECUMSEH_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_FOOD] อาหาร และ [icon:YIELD_PRODUCTION] กำลังผลิต ต่อยุคในถิ่นฐาน สำหรับทุก [icon:CITYSTATE] นครรัฐ ที่คุณเป็นเจ้านคร, +1 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับทุกยูนิต, สำหรับทุก [icon:CITYSTATE] นครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- +1 [icon:YIELD_FOOD] Food and [icon:YIELD_PRODUCTION] Production per Age in Settlements for every [icon:CITYSTATE] City-State you are Suzerain of. +1 [icon:NAR_REW_COMBAT] Combat Strength for all Units for every [icon:CITYSTATE] City-State you are Suzerain of. --></Replace>
+			<Text>+1 [icon:YIELD_FOOD] อาหาร และ [icon:YIELD_PRODUCTION] กำลังผลิต ต่อยุคในถิ่นฐาน สำหรับทุก [icon:CITYSTATE] นครรัฐ ที่คุณเป็นเจ้านคร, +1 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับทุกยูนิต, สำหรับทุก [icon:CITYSTATE] นครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- +1 [icon:YIELD_FOOD] Food and [icon:YIELD_PRODUCTION] Production per Age in Settlements for every [icon:CITYSTATE] City-State you are Suzerain of. +1 [icon:NAR_REW_COMBAT] Combat Strength for all Units for every [icon:CITYSTATE] City-State you are Suzerain of. -->
+		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_TECUMSEH_ABILITY_NAME" Language="th_TH">
 			<Text>ไนจากิกายาโคลาคเว</Text>		<!-- Nicaakiyakoolaakwe -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_TECUMSEH_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI][B]+1 [icon:YIELD_FOOD] อาหาร [/B]และ [icon:YIELD_PRODUCTION] [B]กำลังผลิต [/B]ต่อยุคใน [B]ถิ่นฐาน [/B]สำหรับทุก [B][icon:CITYSTATE นครรัฐ [/B]ที่คุณเป็น [B]เจ้านครรัฐ [/B]ของ[LI][B]+1  [icon:NAR_REW_COMBAT] พลังต่อสู้ [/B]สำหรับยูนิตทั้งหมดสำหรับทุก [B]นครรัฐ [/B]ที่คุณเป็น [B]เจ้านคร[/B][/BLIST]</Text>		<!-- [BLIST][LI][B]+1 [icon:YIELD_FOOD] Food [/B]and [icon:YIELD_PRODUCTION] [B]Production [/B]per Age in [B]Settlements [/B]for every [icon:CITYSTATE] [B]City-State [/B]you are [B]Suzerain [/B]of.[LI][B]+1 [icon:NAR_REW_COMBAT] Combat Strength [/B]for all Units for every [icon:CITYSTATE] [B]City-State [/B]you are [B]Suzerain [/B]of.[/LIST] --></Replace>
+			<Text>[BLIST][LI][B]+1 [icon:YIELD_FOOD] อาหาร [/B]และ [icon:YIELD_PRODUCTION] [B]กำลังผลิต [/B]ต่อยุคใน [B]ถิ่นฐาน [/B]สำหรับทุก [B][icon:CITYSTATE นครรัฐ [/B]ที่คุณเป็น [B]เจ้านครรัฐ [/B]ของ[LI][B]+1  [icon:NAR_REW_COMBAT] พลังต่อสู้ [/B]สำหรับยูนิตทั้งหมดสำหรับทุก [B]นครรัฐ [/B]ที่คุณเป็น [B]เจ้านคร[/B][/BLIST]</Text>		<!-- [BLIST][LI][B]+1 [icon:YIELD_FOOD] Food [/B]and [icon:YIELD_PRODUCTION] [B]Production [/B]per Age in [B]Settlements [/B]for every [icon:CITYSTATE] [B]City-State [/B]you are [B]Suzerain [/B]of.[LI][B]+1 [icon:NAR_REW_COMBAT] Combat Strength [/B]for all Units for every [icon:CITYSTATE] [B]City-State [/B]you are [B]Suzerain [/B]of.[/LIST] -->
+		</Replace>
 		<Replace Tag="LOC_ABILITY_TECUMSEH_SUZERAIN_DESCRIPTION" Language="th_TH">
 			<Text>+1 พลังต่อสู้, ในแต่ละนครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- +1 Combat Strength for every City-State you are Suzerain of. -->
 		</Replace>
@@ -431,14 +437,19 @@
 			<Text>+{1_Amount} นิคาจียากูลาาคเว</Text>		<!-- +{1_Amount} Nicaakiyakoolaakwe -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_SHAWNEE" Language="th_TH">
-			<Text>ชอว์นีคือผู้ทูตที่ช่ำชอง เดินทางข้ามกลุ่มพันธมิตรด้วยเท้าเพื่อรวมกลุ่มที่แตกแยก แม้เผชิญกับอุปสรรคใหญ่หลวง ภายใต้สายตาที่คอยจับจ้องของกิสโปโก กลุ่มโฮซีปคิเลนีเรียกทุกคนให้มารวมตัวที่ลานเต้นรำ ฟังคำปราศรัย และลุกขึ้นรวมพลังเป็นหนึ่งเดียวกัน</Text>		<!-- The Shawnee are consummate diplomats, who cross leagues on foot to bring together disparate groups even when facing catastrophic odds. Under the watchful eyes of the kispoko, the hoceepkileni call all who will come to the stomp grounds, to hear the orators speak, and to rise together, as one. --></Replace>
+			<Text>ชอว์นีคือผู้ทูตที่ช่ำชอง เดินทางข้ามกลุ่มพันธมิตรด้วยเท้าเพื่อรวมกลุ่มที่แตกแยก แม้เผชิญกับอุปสรรคใหญ่หลวง ภายใต้สายตาที่คอยจับจ้องของกิสโปโก กลุ่มโฮซีปคิเลนีเรียกทุกคนให้มารวมตัวที่ลานเต้นรำ ฟังคำปราศรัย และลุกขึ้นรวมพลังเป็นหนึ่งเดียวกัน</Text>		<!-- The Shawnee are consummate diplomats, who cross leagues on foot to bring together disparate groups even when facing catastrophic odds. Under the watchful eyes of the kispoko, the hoceepkileni call all who will come to the stomp grounds, to hear the orators speak, and to rise together, as one. -->
+		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_TECUMSEH" Language="th_TH">
-			<Text>ในที่ที่มีความแตกแยก เตคัมเซห์ เจ้ากล่าวถึงความสามัคคี และในที่ที่มีความขัดแย้ง เจ้าช่วยชี้แนะด้วยเหตุผล จงนำผู้คนจากทุกแดนมาหาเจ้า เผ่าพันธุ์ผู้ยิ่งใหญ่ เพื่อให้เข้มแข็งยิ่งขึ้นร่วมกัน และฝ่าฟันพายุที่จะมาถึงได้</Text>		<!-- Where there is division, Tecumseh, you speak of unity, and where there is discord, you counsel sense. Bring peoples of all lands to you, great chief, that they may be stronger together, and weather the storms that are to come. --></Replace>
+			<Text>ในที่ที่มีความแตกแยก เตคัมเซห์ เจ้ากล่าวถึงความสามัคคี และในที่ที่มีความขัดแย้ง เจ้าช่วยชี้แนะด้วยเหตุผล จงนำผู้คนจากทุกแดนมาหาเจ้า เผ่าพันธุ์ผู้ยิ่งใหญ่ เพื่อให้เข้มแข็งยิ่งขึ้นร่วมกัน และฝ่าฟันพายุที่จะมาถึงได้</Text>		<!-- Where there is division, Tecumseh, you speak of unity, and where there is discord, you counsel sense. Bring peoples of all lands to you, great chief, that they may be stronger together, and weather the storms that are to come. -->
+		</Replace>
 		<Replace Tag="LOC_LOADING_VO_SHAWNEE" Language="th_TH">
 			<Text>ฤดูใบไม้ผลิมาถึงป่าดงดิบ ชอว์นีจะสร้างมรดกแห่งความสามัคคี — และอำนาจสูงสุด</Text>		<!-- Spring comes to the woodlands. The Shawnee will craft their legacy of unity — and dominance. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_TECUMSEH_POTESKWATE_NAME" Language="th_TH">
 			<Text>โพเตสควาเต</Text>		<!-- Poteskwate -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_SHAWNEE" Language="th_TH">
+			<Text>ใช้ประเพณี คาคอฟี ปาฟโคตาเวตา เพื่อทำให้การตั้งถิ่นฐานของคุณปลอดภัยจากพายุ และรับวัฒนธรรมและทองคำเพิ่มเติมเมื่อเกิดพายุ</Text>		<!-- Use the Kakawfe Pafkotaweta Tradition to make your Settlements immune to storms, and receive extra Culture and Gold when they hit. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_TECUMSEH_POTESKWATE_DESCRIPTION" Language="th_TH">
 			<Text>ครกและสากไม้สำหรับการบดและตำที่ใช้ทำอาหาร {tag} {ignore translate}</Text>		<!-- Arboreal mortar and pestle. -->
@@ -478,6 +489,18 @@
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สันติภาพแห่งจักรวรรดิ</Text>		<!-- Pax Imperatoria -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_SHAWNEE_LEGACY_PATH_ECONOMIC_NAME" Language="th_TH">
+			<Text>เส้นทางมรดกชอว์นี</Text>		<!-- Shawnee Legacy Path -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_SHAWNEE_LEGACY_PATH_ECONOMIC_DESC" Language="th_TH">
+			<Text>ในฐานะ ชอว์นี ให้สำเร็จเส้นทางมรดกเศรษฐกิจ</Text>		<!-- As Shawnee, complete an Economic Legacy Path -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_SHAWNEE_COMPLETE_SERPENT_MOUND_NAME" Language="th_TH">
+			<Text>เนินงู</Text>		<!-- Serpent Mound -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_SHAWNEE_COMPLETE_SERPENT_MOUND_DESC" Language="th_TH">
+			<Text>ในฐานะ ชอว์นี สร้างเนินงูให้สำเร็จ</Text>		<!-- As Shawnee, complete the Serpent Mound -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ เทคัมเซห์ ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ</Text>		<!-- As Tecumseh, complete the Pax Imperatoria Legacy Path. -->
@@ -784,6 +807,42 @@
 		</Replace>
 		<Replace Tag="LOC_MODULE_SHAWNEE_TECUMSEH_NAME" Language="th_TH">
 			<Text>Shawnee/Tecumseh</Text>		<!-- Shawnee/Tecumseh -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>เปลวไฟที่กระจัดกระจาย</Text>		<!-- Scattered Embers -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>ในฐานะ เทคัมเซห์ ในยุคโบราณ ให้สำเร็จภารกิจตามลางของนักรบ</Text>		<!-- As Tecumseh in Antiquity, complete a quest to follow the warriors' omen. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>ไปป์พิธีกรรม</Text>		<!-- The Ceremonial Pipe -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>ในฐานะ เทคัมเซห์ ในยุคโบราณ ให้สำเร็จภารกิจส่งต่อไปป์ขวาน</Text>		<!-- As Tecumseh in Antiquity, complete a quest to pass the tomahawk pipe. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>คืนก่อนศึก</Text>		<!-- The Eve of Battle -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>ในฐานะ เทคัมเซห์ ในยุคสำรวจ ให้สำเร็จภารกิจเตรียมนักรบ</Text>		<!-- As Tecumseh in Exploration, complete a quest to ready the warriors. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>ท่องดินแดนใหม่</Text>		<!-- Touring New Lands -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>ในฐานะ เทคัมเซห์ ในยุคสำรวจ ให้สำเร็จภารกิจรวมเพื่อนบ้าน</Text>		<!-- As Tecumseh in Exploration, complete a quest to unify neighbors. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>ร่วมแรงร่วมใจ</Text>		<!-- Together as One -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>ในฐานะ เทคัมเซห์ ในยุคปัจจุบัน ให้สำเร็จภารกิจเสริมกำลังประชาชนในสงคราม</Text>		<!-- As Tecumseh in Modern, complete a quest to bolster the people in war. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>ประชาชนเป็นหนึ่งเดียว</Text>		<!-- A People United -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>ในฐานะ เทคัมเซห์ ในยุคปัจจุบัน ให้สำเร็จภารกิจนำทางโลกผ่านการค้า</Text>		<!-- As Tecumseh in Modern, complete a quest to guide the world through trade. -->
 		</Replace>
 		<Replace Tag="LOC_MODULE_SHAWNEE_TECUMSEH_DESCRIPTION" Language="th_TH">
 			<Text>ประกอบด้วยผู้นำคนใหม่ เทคัมเซห์ และอารยธรรมยุคการสำรวจใหม่, ชอว์นี</Text>		<!-- Contains a new leader, Tecumseh, and a new exploration age Civilization, the Shawnee. -->
@@ -1171,7 +1230,8 @@
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_3729A_STORYTITLE" Language="th_TH">
-			<Text>หัวหน้าแห่งสงคราม</Text>		<!-- The Warchief --></Replace>
+			<Text>หัวหน้าแห่งสงคราม</Text>		<!-- The Warchief -->
+		</Replace>
 		<Replace Tag="LOC_3729A_COMPLETION" Language="th_TH">
 			<Text>นักรบร้องเสียงชัยชนะเมื่อศัตรูล้มลงก่อนความโกรธเกรี้ยวของพวกเขาอีกครั้ง กลยุทธ์ของเทคัมเซห์ประสบความสำเร็จอีกครั้ง ด้วยความกล้าหาญจากผู้นำ ชอว์นีหลอมรวมเข้าสู่ภูมิประเทศและเตรียมพร้อมสำหรับการโจมตีครั้งต่อไป</Text>		<!-- The warriors cry victory as enemies fall before their fury. Once again, Tecumseh's strategy has succeeded. Emboldened by their leader, the Shawnees melt into the landscape and prepare for their next attack. -->
 		</Replace>

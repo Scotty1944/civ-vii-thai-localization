@@ -170,9 +170,11 @@
 			<Text>มรดกเฟนีเชียน</Text>		<!-- Phoenician Heritage -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_CARTHAGE_DESCRIPTION" Language="th_TH">
-			<Text>สามารถมีได้เพียง 1 เมืองเท่านั้น เมืองไม่สามารถเปลี่ยนเป็นเมืองใหญ่ได้ รับพ่อค้าหรือผู้บุกเบิกเพิ่มอีกหนึ่งคนทุกครั้งที่ คุณซื้อหรือฝึกขึ้นมา</Text>		<!-- Can only have 1 City. Towns cannot use Convert to City. Receive a second Merchant or Colonist each time you purchase or train one. --></Replace>
+			<Text>สามารถมีได้เพียง 1 เมืองเท่านั้น เมืองไม่สามารถเปลี่ยนเป็นเมืองใหญ่ได้ รับพ่อค้าหรือผู้บุกเบิกเพิ่มอีกหนึ่งคนทุกครั้งที่ คุณซื้อหรือฝึกขึ้นมา</Text>		<!-- Can only have 1 City. Towns cannot use Convert to City. Receive a second Merchant or Colonist each time you purchase or train one. -->
+		</Replace>
 		<Replace Tag="LOC_TRAIT_CARTHAGE_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI]สามารถมีได้เพียง 1 เมืองเท่านั้น เมืองไม่สามารถ [B]เปลี่ยนเป็นเมืองใหญ่[/B] ได้[LI]รับ [B]พ่อค้า[/B] หรือ [B]ผู้บุกเบิก[/B] ลำดับที่สองทุกครั้งที่ คุณซื้อหรือฝึกขึ้นมา[LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]บิรซา[/B][/BLIST]</Text>		<!-- [BLIST][LI]Can only have 1 City. Towns cannot use [B]Convert to City[/B].[LI]Receive a second [B]Merchant[/B] or [B]Colonist[/B] each time you purchase or train one.[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Byrsa[/B].[/LIST] --></Replace>
+			<Text>[BLIST][LI]สามารถมีได้เพียง 1 เมืองเท่านั้น เมืองไม่สามารถ [B]เปลี่ยนเป็นเมืองใหญ่[/B] ได้[LI]รับ [B]พ่อค้า[/B] หรือ [B]ผู้บุกเบิก[/B] ลำดับที่สองทุกครั้งที่ คุณซื้อหรือฝึกขึ้นมา[LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]บิรซา[/B][/BLIST]</Text>		<!-- [BLIST][LI]Can only have 1 City. Towns cannot use [B]Convert to City[/B].[LI]Receive a second [B]Merchant[/B] or [B]Colonist[/B] each time you purchase or train one.[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Byrsa[/B].[/LIST] -->
+		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_CARTHAGE_DESCRIPTION" Language="th_TH">
 			<Text>+30%[icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องของ คาร์เธจ</Text>		<!-- +30%[icon:YIELD_PRODUCTION] Production from being Carthage's associated Wonder. -->
 		</Replace>
@@ -255,12 +257,14 @@
 			<Text>+2[icon:YIELD_PRODUCTION] กำลังผลิต, +1[icon:YIELD_PRODUCTION] กำลังผลิต โบนัสใกล้เคียง สำหรับชายฝั่ง, แม่น้ำใหญ่, และสิ่งมหัศจรรย์, อาคารด้านการผลิตพิเศษ ของคาร์เธจ, คงอยู่ตลอดกาล, สามารถซื้อได้ในเมือง, ต้องตั้งอยู่บนชายฝั่ง</Text>		<!-- +2[icon:YIELD_PRODUCTION] Production. +1[icon:YIELD_PRODUCTION] Production Adjacency for Coast, Navigable Rivers, and Wonders. Carthaginian Unique Production Building. Ageless. Can be purchased in Towns. Must be placed on Coast. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_COTHON_TOOLTIP" Language="th_TH">
-			<Text>อาคารด้านการผลิตพิเศษ ของคาร์เธจ, คงอยู่ตลอดกาล, สามารถซื้อได้ในเมือง, ต้องตั้งอยู่บนชายฝั่ง</Text>		<!-- Carthaginian Unique Production Building. Ageless. Can be purchased in Towns. Must be placed on Coast. --></Replace>
+			<Text>อาคารด้านการผลิตพิเศษ ของคาร์เธจ, คงอยู่ตลอดกาล, สามารถซื้อได้ในเมือง, ต้องตั้งอยู่บนชายฝั่ง</Text>		<!-- Carthaginian Unique Production Building. Ageless. Can be purchased in Towns. Must be placed on Coast. -->
+		</Replace>
 		<Replace Tag="LOC_BUILDING_DOCKYARD_NAME" Language="th_TH">
 			<Text>อู่เรือ</Text>		<!-- Dockyard -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_DOCKYARD_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_GOLD] ทอง +1[icon:YIELD_FOOD] อาหาร โบนัสใกล้เคียง สำหรับทรัพยากร, เขต และสิ่งมหัศจรรย์ อาคารด้านทองพิเศษ ของคาร์เธจ, คงอยู่ตลอดกาล, สามารถซื้อได้ในเมือง, ต้องตั้งอยู่บนชายฝั่ง</Text>		<!-- +2[icon:YIELD_GOLD] Gold. +1[icon:YIELD_FOOD] Food Adjacency for Resources, Districts, and Wonders. Carthaginian Unique Gold Building. Ageless. Can be purchased in Towns. Must be placed on Coast. --></Replace>
+			<Text>+2[icon:YIELD_GOLD] ทอง +1[icon:YIELD_FOOD] อาหาร โบนัสใกล้เคียง สำหรับทรัพยากร, เขต และสิ่งมหัศจรรย์ อาคารด้านทองพิเศษ ของคาร์เธจ, คงอยู่ตลอดกาล, สามารถซื้อได้ในเมือง, ต้องตั้งอยู่บนชายฝั่ง</Text>		<!-- +2[icon:YIELD_GOLD] Gold. +1[icon:YIELD_FOOD] Food Adjacency for Resources, Districts, and Wonders. Carthaginian Unique Gold Building. Ageless. Can be purchased in Towns. Must be placed on Coast. -->
+		</Replace>
 		<Replace Tag="LOC_BUILDING_DOCKYARD_TOOLTIP" Language="th_TH">
 			<Text>อาคารด้านทองพิเศษ ของคาร์เธจ, คงอยู่ตลอดกาล, สามารถซื้อได้ในเมือง, ต้องตั้งอยู่บนชายฝั่ง</Text>		<!-- Carthaginian Unique Gold Building. Ageless. Can be purchased in Towns. Must be placed on Coast. -->
 		</Replace>
@@ -349,12 +353,28 @@
 			<Text>+20% [icon:YIELD_GOLD] ทอง จากเมืองทำเหมือง, +20% [icon:YIELD_FOOD] อาหาร จากเมืองการประมง หรือเมืองเกษตรกรรม</Text>		<!-- +20% [icon:YIELD_GOLD] Gold from Mining Towns. +20% [icon:YIELD_FOOD] Food from Fishing or Farming Towns. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_CARTHAGE" Language="th_TH">
-			<Text>ภายใต้ร่มเงาแห่งโคธอน เรือทั้งหลายเตรียมออกเดินทาง บางลำบรรทุกเครื่องปั้นดินเผาอย่างดี ข้าว และสินค้าอื่น ๆ เพื่อแลกเปลี่ยนเป็นทองและงาช้าง ขณะที่บางลำนำพาทหารผู้พร้อมจะแสวงหาผลกำไรด้วยวิธีอื่น ไม่ว่าเส้นทางใด เมื่อกลับถึงบ้าน พวกเขาจะหลั่งความมั่งคั่งคืนสู่ศูนย์กลางของโลก—คาร์เธจ เปิดประตูโคธอน แล้วปล่อยให้กองเรือที่กลับมานำความรุ่งเรืองมาสู่เมือง</Text>		<!-- From the shelter of the cothon, ships prepare for their expeditions. Some are loaded with fine pottery, grain, and other goods to be exchanged for gold and ivory. Others carry soldiers ready to profit by other means. Each will return home, to the center of the world - Carthage. Open the cothon gates, and let returning fleets shower the city in prosperity. --></Replace>
+			<Text>ภายใต้ร่มเงาแห่งโคธอน เรือทั้งหลายเตรียมออกเดินทาง บางลำบรรทุกเครื่องปั้นดินเผาอย่างดี ข้าว และสินค้าอื่น ๆ เพื่อแลกเปลี่ยนเป็นทองและงาช้าง ขณะที่บางลำนำพาทหารผู้พร้อมจะแสวงหาผลกำไรด้วยวิธีอื่น ไม่ว่าเส้นทางใด เมื่อกลับถึงบ้าน พวกเขาจะหลั่งความมั่งคั่งคืนสู่ศูนย์กลางของโลก—คาร์เธจ เปิดประตูโคธอน แล้วปล่อยให้กองเรือที่กลับมานำความรุ่งเรืองมาสู่เมือง</Text>		<!-- From the shelter of the cothon, ships prepare for their expeditions. Some are loaded with fine pottery, grain, and other goods to be exchanged for gold and ivory. Others carry soldiers ready to profit by other means. Each will return home, to the center of the world - Carthage. Open the cothon gates, and let returning fleets shower the city in prosperity. -->
+		</Replace>
 		<Replace Tag="LOC_LOADING_INTRO_CARTHAGE" Language="th_TH">
 			<Text>บุตรแห่งไทร์เดินทางมาจากที่ห่างไกลเพื่อทวงคืนชะตากรรมของตน จากศูนย์กลางของโลก พวกเขาจะครองจักรวรรดิที่ไม่มีใครเทียบเทียมได้</Text>		<!-- The children of Tyre come from afar to claim their destiny. From the center of the world, they will command an empire that knows no equal. -->
 		</Replace>
 		<Replace Tag="LOC_MODULE_CARTHAGE_NAME" Language="th_TH">
 			<Text>Carthage</Text>		<!-- Carthage -->
+		</Replace>
+		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_CARTHAGE" Language="th_TH">
+			<Text>ท่าเรือปูนิก เขตพิเศษสามารถซื้อได้ในเมือง เพิ่มความจุทรัพยากรของเมืองนั้น ผลนี้จะคงอยู่ในยุคถัดไป ช่วยให้คุณได้รับประโยชน์ที่ทรงพลังในอนาคต!</Text>		<!-- The Punic Port Unique Quarter can be purchased in Towns, increasing their Resource Capacity. This persists in future Ages, setting you up with powerful benefits later! -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CARTHAGE_LEGACY_PATH_MILITARISTIC_NAME" Language="th_TH">
+			<Text>เส้นทางมรดกคาร์เธจ</Text>		<!-- Carthage Legacy Path -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CARTHAGE_LEGACY_PATH_MILITARISTIC_DESC" Language="th_TH">
+			<Text>ในฐานะ คาร์เธจ จงทำเส้นทางมรดกเชิงทหารให้สำเร็จ</Text>		<!-- As Carthage, complete a Militaristic Legacy Path -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CARTHAGE_COMPLETE_BYRSA_NAME" Language="th_TH">
+			<Text>เบียร์ซา</Text>		<!-- Byrsa -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CARTHAGE_COMPLETE_BYRSA_DESC" Language="th_TH">
+			<Text>ในฐานะ คาร์เธจ จงทำเบียร์ซาให้สำเร็จ</Text>		<!-- As Carthage, complete the Byrsa -->
 		</Replace>
 		<Replace Tag="LOC_MODULE_CARTHAGE_DESCRIPTION" Language="th_TH">
 			<Text>มีอารยธรรมยุคโบราณใหม่, คาร์เธจ</Text>		<!-- Contains a new Antiquity Age Civilization, Carthage. -->
@@ -624,7 +644,8 @@
 			<Text>หน่วยม้าต้องอยู่กับสิ่งที่เราสามารถนำเสนอได้</Text>		<!-- The cavalry must live with what we can offer. -->
 		</Replace>
 		<Replace Tag="LOC_11064C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} ทหารม้า นูมิเดีย แต่พวกเขามี {2_reward}</Text>		<!-- {1_reward} Numidian Cavalry but they have the {2_reward}. --></Replace>
+			<Text>{1_reward} ทหารม้า นูมิเดีย แต่พวกเขามี {2_reward}</Text>		<!-- {1_reward} Numidian Cavalry but they have the {2_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_11065A_STORYTITLE" Language="th_TH">
 			<Text>ท่าเรือปลอดภัย</Text>		<!-- Safe Harbor -->
 		</Replace>

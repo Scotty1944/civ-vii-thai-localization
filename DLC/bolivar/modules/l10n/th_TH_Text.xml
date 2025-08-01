@@ -83,12 +83,14 @@
 			<Text>ซิมอน โบลิบาร์</Text>		<!-- Simón Bolívar -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_BOLIVAR_DESCRIPTION" Language="th_TH">
-			<Text>รับ [icon:WAR_SUPPORT] การสนับสนุนสงคราม ฟรี 1 ครั้งในสงครามของคุณ เมื่อคุณพิชิต ถิ่นฐาน เป็นครั้งแรก คุณสามารถซื้อ สิ่งก่อสร้าง ได้ฟรี 1 ชิ้น [icon:YIELD_ANGRY] ความไม่สงบไม่เป็นอุปสรรคต่อการซื้อ</Text>		<!-- Gain 1 [icon:WAR_SUPPORT] War Support on all your wars. When you conquer a Settlement for the first time it can purchase 1 Constructible for free. [icon:YIELD_ANGRY] Unrest does not prevent Purchasing. --></Replace>
+			<Text>รับ [icon:WAR_SUPPORT] การสนับสนุนสงคราม ฟรี 1 ครั้งในสงครามของคุณ เมื่อคุณพิชิต ถิ่นฐาน เป็นครั้งแรก คุณสามารถซื้อ สิ่งก่อสร้าง ได้ฟรี 1 ชิ้น [icon:YIELD_ANGRY] ความไม่สงบไม่เป็นอุปสรรคต่อการซื้อ</Text>		<!-- Gain 1 [icon:WAR_SUPPORT] War Support on all your wars. When you conquer a Settlement for the first time it can purchase 1 Constructible for free. [icon:YIELD_ANGRY] Unrest does not prevent Purchasing. -->
+		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_BOLIVAR_ABILITY_NAME" Language="th_TH">
 			<Text>เอล ลิเบอร์ตาดอร์</Text>		<!-- El Libertador -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_BOLIVAR_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]รับ [B][icon:WAR_SUPPORT]การสนับสนุนสงคราม[/B] ฟรี 1 ครั้ง ในสงครามของคุณ [LI]เมื่อคุณพิชิต ถิ่นฐาน เป็นครั้งแรก ถิ่นฐาน สามารถ [b]ซื้อสิ่งก่อสร้างได้ฟรี 1 อัน[/b] [LI][icon:YIELD_ANGRY] ความไม่สงบไม่เป็นอุปสรรคต่อการซื้อ[/LIST]</Text>		<!-- [BLIST][LI]Gain [B]1 [icon:WAR_SUPPORT] War Support [/B]on all your wars.[LI]When you conquer a Settlement for the first time the Settlement can [B]purchase 1 Constructible for free[/B].[LI][icon:YIELD_ANGRY] [B]Unrest [/B]does not prevent Purchasing.[/LIST] --></Replace>
+			<Text>[LIST][LI]รับ [B][icon:WAR_SUPPORT]การสนับสนุนสงคราม[/B] ฟรี 1 ครั้ง ในสงครามของคุณ [LI]เมื่อคุณพิชิต ถิ่นฐาน เป็นครั้งแรก ถิ่นฐาน สามารถ [b]ซื้อสิ่งก่อสร้างได้ฟรี 1 อัน[/b] [LI][icon:YIELD_ANGRY] ความไม่สงบไม่เป็นอุปสรรคต่อการซื้อ[/LIST]</Text>		<!-- [BLIST][LI]Gain [B]1 [icon:WAR_SUPPORT] War Support [/B]on all your wars.[LI]When you conquer a Settlement for the first time the Settlement can [B]purchase 1 Constructible for free[/B].[LI][icon:YIELD_ANGRY] [B]Unrest [/B]does not prevent Purchasing.[/LIST] -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_AGENDA_CORNERSTONE_FREEDOM_NAME" Language="th_TH">
 			<Text>เสาหลักของเสรีภาพ</Text>		<!-- Cornerstone of Freedom -->
 		</Replace>
@@ -443,6 +445,42 @@
 		<Replace Tag="LOC_MODULE_BOLIVAR_NAME" Language="th_TH">
 			<Text>Simón Bolívar</Text>		<!-- Simón Bolívar -->
 		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>ประชาชน</Text>		<!-- A People -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>ในฐานะ ซิมอน โบลิบาร์ ในยุคโบราณ ทำภารกิจเพื่อเข้าถึงประชาชนในชนบท</Text>		<!-- As Simón Bolívar in Antiquity, complete a quest to reach the rural people. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>พร้อมสำหรับทุกสิ่ง</Text>		<!-- Ready for Anything -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>ในฐานะ ซิมอน โบลิบาร์ ในยุคโบราณ ทำภารกิจเพื่อสงบศึกในสนามรบ</Text>		<!-- As Simón Bolívar in Antiquity, complete a quest to quell the dust of battle. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>หากจำเป็น</Text>		<!-- If Needs Be -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>ในฐานะ ซิมอน โบลิบาร์ ในยุคสำรวจ ทำภารกิจเพื่อนำทางมหาสมุทรที่อันตราย</Text>		<!-- As Simón Bolívar in Exploration, complete a quest to navigate perilous oceans. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>มัดลูกศร</Text>		<!-- A Sheaf of Arrows -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>ในฐานะ ซิมอน โบลิบาร์ ในยุคสำรวจ ทำภารกิจเพื่อเลื่อนขั้นทหารผ่านศึก</Text>		<!-- As Simón Bolívar in Exploration, complete a quest to promote a veteran soldier. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>ประตูเปิดกว้าง</Text>		<!-- An Open Door -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>ในฐานะ ซิมอน โบลิบาร์ ในยุคใหม่ ทำภารกิจเพื่อรวมอาณาจักรด้วยทางรถไฟ</Text>		<!-- As Simón Bolívar in Modern, complete a quest to unite the empire by rail. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>ความมุ่งมั่นไม่หวั่นไหว</Text>		<!-- Unwavering Resolve -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>ในฐานะ ซิมอน โบลิบาร์ ในยุคใหม่ ทำภารกิจเพื่อต่อสู้เพื่อความเชื่อของคุณ</Text>		<!-- As Simón Bolívar in Modern, complete a quest to fight for your beliefs. -->
+		</Replace>
 		<Replace Tag="LOC_MODULE_BOLIVAR_DESCRIPTION" Language="th_TH">
 			<Text>มีผู้นำคนใหม่ คือ ซิมอน โบลิบาร์</Text>		<!-- Contains a new Leader, Simón Bolívar. -->
 		</Replace>
@@ -678,12 +716,14 @@
 			<Text>ต่อสู้อย่างสุดชีวิต</Text>		<!-- Fight desperately. -->
 		</Replace>
 		<Replace Tag="LOC_10037B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} แต่ {2_reward}</Text>		<!-- {1_reward} but {2_reward}. --></Replace>
+			<Text>{1_reward} แต่ {2_reward}</Text>		<!-- {1_reward} but {2_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_10037C_NAME" Language="th_TH">
 			<Text>รวมตัวกันรอบๆ ไอเดียที่กล้าได้กล้าเสีย</Text>		<!-- Rally around bold ideas. -->
 		</Replace>
 		<Replace Tag="LOC_10037C_DESCRIPTION" Language="th_TH">
-			<Text>+1 การสนับสนุนสงครามในทุกสงคราม แต่มี 1 ช่องจะถูกปล้นใน {1_capital}</Text>		<!-- +1 War Support on all wars but 1 Tile is Pillaged in {1_capital}. --></Replace>
+			<Text>+1 การสนับสนุนสงครามในทุกสงคราม แต่มี 1 ช่องจะถูกปล้นใน {1_capital}</Text>		<!-- +1 War Support on all wars but 1 Tile is Pillaged in {1_capital}. -->
+		</Replace>
 		<Replace Tag="LOC_10038A_STORYTITLE" Language="th_TH">
 			<Text>กลับไปที่แบบฟอร์ม</Text>		<!-- Return to Form -->
 		</Replace>
@@ -862,7 +902,8 @@
 			<Text>ประชาชนจะต้องเสียสละ</Text>		<!-- The people will have to make sacrifices. -->
 		</Replace>
 		<Replace Tag="LOC_10042B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} บน ยูนิตทั้งหมด แต่ 1 ช่องจะถูกปล้นในทุกถิ่นฐาน</Text>		<!-- {1_reward} on all Units but 1 Tile is Pillaged in all Settlements. --></Replace>
+			<Text>{1_reward} บน ยูนิตทั้งหมด แต่ 1 ช่องจะถูกปล้นในทุกถิ่นฐาน</Text>		<!-- {1_reward} on all Units but 1 Tile is Pillaged in all Settlements. -->
+		</Replace>
 		<Replace Tag="LOC_10042C_NAME" Language="th_TH">
 			<Text>กองทัพจะต้องทำการเสียสละ</Text>		<!-- The troops will have to make sacrifices. -->
 		</Replace>
@@ -1011,7 +1052,8 @@
 			<Text>หนึ่งต่อหนึ่ง, ศัตรูของเขาล้มลง ให้คนอื่นพูดอะไรก็ได้, แต่ ซิมอน โบลิบาร์ ยืนหยัดตามความเชื่อของเขา</Text>		<!-- One after another, his enemies fall. Let others say what they will, but Simón Bolívar lives up to his convictions. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1229B_IMPERATIVE" Language="th_TH">
-			<Text>ยึดครองถิ่นฐาน 2 แห่ง</Text>		<!-- Capture 2 Settlements. --></Replace>
+			<Text>ยึดครองถิ่นฐาน 2 แห่ง</Text>		<!-- Capture 2 Settlements. -->
+		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1229C_NAME" Language="th_TH">
 			<Text>ปิด</Text>		<!-- Close. -->
 		</Replace>

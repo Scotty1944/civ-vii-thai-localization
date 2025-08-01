@@ -95,14 +95,17 @@
 			<Text>นโปเลียน, นักปฏิวัติ</Text>		<!-- Napoleon, Revolutionary -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_NAPOLEON_ALT_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:Action_Move] แต้มเคลื่อนไหว สำหรับยูนิตบนบกทั้งหมด การเอาชนะยูนิตศัตรูจะให้ [icon:YIELD_CULTURE] วัฒนธรรมเท่ากับ 50% ของ [icon:NAR_REW_COMBAT] พลังต่อสู้ของยูนิตนั้น</Text>		<!-- +1 [icon:Action_Move] Movement for all Land Units. Defeating an enemy Unit provides [icon:YIELD_CULTURE] Culture equal to 50% of its [icon:NAR_REW_COMBAT] Combat Strength. --></Replace>
+			<Text>+1 [icon:Action_Move] แต้มเคลื่อนไหว สำหรับยูนิตบนบกทั้งหมด การเอาชนะยูนิตศัตรูจะให้ [icon:YIELD_CULTURE] วัฒนธรรมเท่ากับ 50% ของ [icon:NAR_REW_COMBAT] พลังต่อสู้ของยูนิตนั้น</Text>		<!-- +1 [icon:Action_Move] Movement for all Land Units. Defeating an enemy Unit provides [icon:YIELD_CULTURE] Culture equal to 50% of its [icon:NAR_REW_COMBAT] Combat Strength. -->
+		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NAPOLEON_ALT_ABILITY_NAME" Language="th_TH">
 			<Text>ลา กร็องด์ อาร์เม่</Text>		<!-- La Grande Armée -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NAPOLEON_ALT_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI][B]+1 [icon:Action_Move] แต้มเคลื่อนที่ [/B]สำหรับ [B]ยูนิตบนบก[/B]ทั้งหมด[LI]การเอาชนะยูนิตศัตรูจะให้ [icon:YIELD_CULTURE] [B]วัฒนธรรม [/B]เท่ากับ [B]50% [/B]ของ [B][icon:NAR_REW_COMBAT] พลังต่อสู้[/B]ของมัน[/BLIST]</Text>		<!-- [BLIST][LI][B]+1 [icon:Action_Move] Movement [/B]for all [B]Land Units[/B].[LI]Defeating an enemy Unit provides [icon:YIELD_CULTURE] [B]Culture [/B]equal to [B]50% [/B]of its [icon:NAR_REW_COMBAT] [B]Combat Strength[/B].[/LIST] --></Replace>
+			<Text>[BLIST][LI][B]+1 [icon:Action_Move] แต้มเคลื่อนที่ [/B]สำหรับ [B]ยูนิตบนบก[/B]ทั้งหมด[LI]การเอาชนะยูนิตศัตรูจะให้ [icon:YIELD_CULTURE] [B]วัฒนธรรม [/B]เท่ากับ [B]50% [/B]ของ [B][icon:NAR_REW_COMBAT] พลังต่อสู้[/B]ของมัน[/BLIST]</Text>		<!-- [BLIST][LI][B]+1 [icon:Action_Move] Movement [/B]for all [B]Land Units[/B].[LI]Defeating an enemy Unit provides [icon:YIELD_CULTURE] [B]Culture [/B]equal to [B]50% [/B]of its [icon:NAR_REW_COMBAT] [B]Combat Strength[/B].[/LIST] -->
+		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_NAPOLEON_ALT" Language="th_TH">
-			<Text>นโปเลียน โบนาปาร์ต ชื่อของท่านเป็นสัญลักษณ์แห่งความทะเยอทะยานและความกล้าหาญ ในความโกลาหลของการปฏิวัติ ท่านนำความสงบ—ความสงบที่จัดระเบียบและบังคับใช้ด้วยมือของท่านเอง จงนำสัญชาตญาณยุทธศาสตร์อันเฉียบคมและแรงขับเคลื่อนที่หยุดไม่ได้ของท่านมาพลิกผันโลก และทำให้มั่นใจว่าเมื่อควันสงครามจางหาย ท่านยังคงยืนหยัดอยู่</Text>		<!-- Napoleon Bonaparte, your name is synonymous with ambition - and audacity. In the chaos of revolution, you bring order - your order, arranged and enacted by your hand. Bring your keen strategic senses and unstoppable drive to overturn the world and ensure that, when the smoke clears, you remain. --></Replace>
+			<Text>นโปเลียน โบนาปาร์ต ชื่อของท่านเป็นสัญลักษณ์แห่งความทะเยอทะยานและความกล้าหาญ ในความโกลาหลของการปฏิวัติ ท่านนำความสงบ—ความสงบที่จัดระเบียบและบังคับใช้ด้วยมือของท่านเอง จงนำสัญชาตญาณยุทธศาสตร์อันเฉียบคมและแรงขับเคลื่อนที่หยุดไม่ได้ของท่านมาพลิกผันโลก และทำให้มั่นใจว่าเมื่อควันสงครามจางหาย ท่านยังคงยืนหยัดอยู่</Text>		<!-- Napoleon Bonaparte, your name is synonymous with ambition - and audacity. In the chaos of revolution, you bring order - your order, arranged and enacted by your hand. Bring your keen strategic senses and unstoppable drive to overturn the world and ensure that, when the smoke clears, you remain. -->
+		</Replace>
 		<Replace Tag="LOC_MEMENTO_NAPOLEON_REVOLUTIONARY_ARTILLERYMAN_GLOVES_NAME" Language="th_TH">
 			<Text>ถุงมือของทหารปืนใหญ่</Text>		<!-- Artilleryman's Gloves -->
 		</Replace>
@@ -447,6 +450,42 @@
 		</Replace>
 		<Replace Tag="LOC_MODULE_NAPOLEON_ALT_NAME" Language="th_TH">
 			<Text>Persona Pack - Napoleon</Text>		<!-- Persona Pack - Napoleon -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ALT_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>เอกราช</Text>		<!-- Independence -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ALT_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>ในฐานะ นโปเลียน, นักปฏิวัติ ในยุคโบราณ ทำภารกิจเพื่อรับฟังแนวคิดของประชาชน</Text>		<!-- As Napoleon, Revolutionary, in Antiquity, complete a quest to listen to the people's ideas. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ALT_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>อิสระชน</Text>		<!-- Independents -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ALT_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>ในฐานะ นโปเลียน, นักปฏิวัติ ในยุคโบราณ ทำภารกิจเพื่ออ้างสิทธิ์อำนาจที่แท้จริง</Text>		<!-- As Napoleon, Revolutionary, in Antiquity, complete a quest to claim true authority. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ALT_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>พิธีมวลชนเพื่อประชาชน</Text>		<!-- A Mass for the Masses -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ALT_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>ในฐานะ นโปเลียน, นักปฏิวัติ ในยุคสำรวจ ทำภารกิจเพื่อชมการรวมตัวของผู้ศรัทธา</Text>		<!-- As Napoleon, Revolutionary, in Exploration, complete a quest to watch the faithful gather. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ALT_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>เลอ เปอตีต์ กาโปราล</Text>		<!-- Le Petit Caporal -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ALT_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>ในฐานะ นโปเลียน, นักปฏิวัติ ในยุคสำรวจ ทำภารกิจเพื่อเติมเต็มวิสัยทัศน์แห่งอำนาจ</Text>		<!-- As Napoleon, Revolutionary, in Exploration, complete a quest to satisfy a vision of dominance. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ALT_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>วันที่ 18 บรูแมร์</Text>		<!-- The 18th Brumaire -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ALT_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>ในฐานะ นโปเลียน, นักปฏิวัติ ในยุคใหม่ ทำภารกิจเพื่อเขียนประวัติศาสตร์ใหม่</Text>		<!-- As Napoleon, Revolutionary, in Modern, complete a quest to rewrite history. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ALT_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>วันที่ 11 ฟรีแมร์</Text>		<!-- The 11th Frimaire -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NAPOLEON_ALT_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>ในฐานะ นโปเลียน, นักปฏิวัติ ในยุคใหม่ ทำภารกิจเพื่อโปรยไฟจากสวรรค์</Text>		<!-- As Napoleon, Revolutionary, in Modern, complete a quest to rain fire from the heavens. -->
 		</Replace>
 		<Replace Tag="LOC_MODULE_NAPOLEON_ALT_DESCRIPTION" Language="th_TH">
 			<Text>ประกอบด้วยบุคลิกภาพใหม่สำหรับนโปเลียน</Text>		<!-- Contains a new persona for Napoleon. -->
@@ -1016,6 +1055,9 @@
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_NAPOLEON_ALT_RUSSIA_TOOLTIP" Language="th_TH">
 			<Text>[B]ปรัสเซีย[/B] เสริมกลยุทธ์ให้ [B]นโปเลียน[/B]</Text>		<!-- [B]Prussia[/B] strategically complements [B]Napoleon[/B]. -->
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_PLAY_AS_NAPOLEON_ALT_PRUSSIA_TOOLTIP" Language="th_TH">
+			<Text>[B]ปรัสเซีย[/B] เสริมกลยุทธ์ให้กับ [B]นโปเลียน[/B] ได้อย่างลงตัว</Text>		<!-- [B]Prussia[/B] strategically complements [B]Napoleon[/B]. -->
 		</Replace>
 	</LocalizedText>
 </Database>
