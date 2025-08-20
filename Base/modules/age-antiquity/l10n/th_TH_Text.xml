@@ -34,6 +34,12 @@
 		<Replace Tag="LOC_CITIZEN_EGYPT_MALE_1" Language="th_TH">
 			<Text>อาห์เมส</Text>		<!-- Ahmes -->
 		</Replace>
+		<Replace Tag="LOC_WARNING_CODEX_NEEDS_TO_BE_SLOTTED_MESSAGE" Language="th_TH">
+			<Text>หนึ่งในคัมภีร์ของเราถูกฝังอยู่ในคลัง และไม่ได้มอบปัญญาใดๆ ให้กับนักปราชญ์ของเรา เรามีอาคารที่พร้อมให้จัดแสดงคัมภีร์นี้ ย้ายมันไปที่นั่นทันที</Text>		<!-- One of our Codices is buried in our archive and is providing no wisdom to our scholars. We have a building available where it can be put on display. Let's move it there immediately. -->
+		</Replace>
+		<Replace Tag="LOC_WARNING_CODEX_NEEDS_TO_BE_SLOTTED_SUMMARY" Language="th_TH">
+			<Text>ต้องจัดวางคัมภีร์</Text>		<!-- Codex Needs To Be Slotted -->
+		</Replace>
 		<Replace Tag="LOC_WARNING_AGE_TRANSITION_COMMANDERS_MESSAGE" Language="th_TH">
 			<Text>ทหารมากมายได้สาบานตนถวายชีวิตแด่อาณาจักรของเรา ทว่าเรากลับขาดแม่ทัพที่จะนำพวกเขาไปสู่ชัยชนะ นอกเหนือจากจำนวนยูนิตที่แม่ทัพสามารถบัญชาการได้แล้ว เราจะสามารถรักษากองทัพภาคพื้นดินไว้ได้เพียง {1_value} หน่วยเท่านั้นในช่วงเริ่มต้นยุคหน้า และจำกัดเฉพาะหน่วยทหารราบ ทหารระยะไกล และทหารม้า หากไม่เร่งแต่งตั้งแม่ทัพเพิ่ม เราจะสูญเสีย {2_lostunits} หน่วย เมื่อต้นยุคใหม่มาถึง</Text>		<!-- Many soldiers have pledged their lives to our empire, but we lack the Commanders to lead them. In addition to the amount of Units our Army Commanders can hold, we will only be able to maintain {1_value} Land Units at the start of the next Age, and only Infantry, Ranged and Cavalry Units. Without more Army Commanders, we will lose {2_lostunits} Land {2_lostunits: plural 1?Unit; other?Units;} when the Age ends. -->
 		</Replace>
@@ -7383,35 +7389,35 @@
 			<Text>+1 วิทยาศาสตร์ บนอาคารคลังสินค้า โบนัสนี้สามารถเลือกได้โดยหลายอารยธรรม</Text>		<!-- +1 Science on Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_AKSUM" Language="th_TH">
-			<Text>เรือดอว์ที่มีใบสามเหลี่ยมบากคลื่น ขณะที่อักซุมออกเดินทางค้นหาขอบฟ้าและตลาดใหม่ ๆ ในเมืองที่มีป้อมปราการ ผู้ปกครองแห่งอักซุมสลักมรดกไว้บนหินและยกขึ้นสู่สวรรค์ จงจับพวงมาลัยและชักใบเรือของอักซุม นำลูกเรือของท่านไปสู่ความมั่งคั่งหรือการพิชิต จงชูธงฮาเวลติและประกาศให้อักซุมเป็นเจ้าแห่งยุคนี้</Text>		<!-- Triangle-rigged dhows cut the waves, as Aksum ventures in search of new horizons and new markets. In their walled cities, the rulers of Aksum carve their legacy in stone and raise it to the heavens. Take the rudder and hoist the sails of Aksum, and steer your crew to luxury or conquest. Raise the hawilti and herald Aksum as the lords of the age.  -->
+			<Text>เรือดอว์ที่มีใบสามเหลี่ยมบากคลื่น ขณะที่อักซุมออกเดินทางค้นหาขอบฟ้าและตลาดใหม่ ๆ ในเมืองที่มีป้อมปราการ ผู้ปกครองแห่งอักซุมสลักมรดกไว้บนหินและยกขึ้นสู่สวรรค์ จงจับพวงมาลัยและชักใบเรือของอักซุม นำลูกเรือของท่านไปสู่ความมั่งคั่งหรือการพิชิต จงชูธงฮาเวลติและประกาศให้อักซุมเป็นเจ้าแห่งยุคนี้</Text>		<!-- Triangle-rigged dhows cut the waves, as Aksum ventures in search of new horizons and new markets. In their walled cities, the rulers of Aksum carve their legacy in stone and raise it to the heavens. Take the rudder and hoist the sails of Aksum, and steer your crew to luxury or conquest. Raise the hawilti and herald Aksum as the lords of the age. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_EGYPT" Language="th_TH">
-			<Text>จากทุ่งข้าวที่อุดมด้วยน้ำจากแม่น้ำ สู่เสาโอเบลิสก์หินปูนขัดเงา อียิปต์ได้ผงาดขึ้น อุดมด้วยดินดำที่อุดมสมบูรณ์ตามสองฝั่งแม่น้ำ อียิปต์เลี้ยงดูประชาชนของตน และในเสาโอเบลิสก์หินปูนและสุสาน อียิปต์ท้าทายศัตรูที่ไม่อาจหยุดยั้งได้ — กาลเวลา จงหยิบโคเพชที่คมกริบ หรือสิ่วบรอนซ์ขึ้นมา และจารึกชื่อของเจ้าไว้ — ความอมตะรอคอยอยู่</Text>		<!-- From the river-fed fields of grain to the polished limestone obelisks rises Egypt. Nurtured by the black soil that graces its riverbanks, Egypt provides for its people. And in its limestone obelisks and tombs, it challenges the most implacable of foes – time itself. Take up now the sharpened khopesh or the bronze chisel and make your mark - immortality awaits.  -->
+			<Text>จากทุ่งข้าวที่อุดมด้วยน้ำจากแม่น้ำ สู่เสาโอเบลิสก์หินปูนขัดเงา อียิปต์ได้ผงาดขึ้น อุดมด้วยดินดำที่อุดมสมบูรณ์ตามสองฝั่งแม่น้ำ อียิปต์เลี้ยงดูประชาชนของตน และในเสาโอเบลิสก์หินปูนและสุสาน อียิปต์ท้าทายศัตรูที่ไม่อาจหยุดยั้งได้ — กาลเวลา จงหยิบโคเพชที่คมกริบ หรือสิ่วบรอนซ์ขึ้นมา และจารึกชื่อของเจ้าไว้ — ความอมตะรอคอยอยู่</Text>		<!-- From the river-fed fields of grain to the polished limestone obelisks rises Egypt. Nurtured by the black soil that graces its riverbanks, Egypt provides for its people. And in its limestone obelisks and tombs, it challenges the most implacable of foes – time itself. Take up now the sharpened khopesh or the bronze chisel and make your mark - immortality awaits. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_GREECE" Language="th_TH">
-			<Text>จากแหล่งที่หลากหลาย — สปาร์ตาที่เน้นความเข้มแข็งทางทหาร, เอเธนส์ที่เต็มไปด้วยปัญญา, โครินธ์ที่มั่งคั่ง — คือความอุดมสมบูรณ์ของกรีก กวีและนักคิดแห่งกรีกใช้บทกวีที่แหลมคมยิ่งกว่าหอกของโฮปลิท พรรณนาความงามและธรรมชาติของโลก แม้ขณะที่ฟาลังกซ์เริ่มเคลื่อนพล จงนำทางพวกเขาในการเสาะแสวงหาความรุ่งโรจน์และชื่อเสียง</Text>		<!-- Out of many sources – militaristic Sparta, erudite Athens, wealthy Corinth – comes the rich bounty of Greece. Wielding poetry sharper than a hoplite’s spear, the writers and thinkers of Greece describe the beauty and nature of the world, even as the phalanx begins its march. Guide them in their quest for glory and fame.  -->
+			<Text>จากแหล่งที่หลากหลาย — สปาร์ตาที่เน้นความเข้มแข็งทางทหาร, เอเธนส์ที่เต็มไปด้วยปัญญา, โครินธ์ที่มั่งคั่ง — คือความอุดมสมบูรณ์ของกรีก กวีและนักคิดแห่งกรีกใช้บทกวีที่แหลมคมยิ่งกว่าหอกของโฮปลิท พรรณนาความงามและธรรมชาติของโลก แม้ขณะที่ฟาลังกซ์เริ่มเคลื่อนพล จงนำทางพวกเขาในการเสาะแสวงหาความรุ่งโรจน์และชื่อเสียง</Text>		<!-- Out of many sources – militaristic Sparta, erudite Athens, wealthy Corinth – comes the rich bounty of Greece. Wielding poetry sharper than a hoplite’s spear, the writers and thinkers of Greece describe the beauty and nature of the world, even as the phalanx begins its march. Guide them in their quest for glory and fame. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_HAN" Language="th_TH">
-			<Text>สร้างขึ้นจากมรดกแห่งราชวงศ์ฉินผู้เน้นทางทหาร และราชวงศ์โจวผู้เต็มไปด้วยวัฒนธรรม ราชวงศ์ฮั่นแห่งจีนปกครองด้วยความชอบธรรมผสมผสานกับความเมตตา และด้วยปัญญาที่ได้รับจากประเพณี วิศวกรฮั่นเปลี่ยนแปลงผืนดิน ขณะที่นักปรัชญาฮั่นเปลี่ยนแปลงจิตใจ จงออกเดินทางและรับเอาพระราชอำนาจแห่งสวรรค์</Text>		<!-- Forged from the legacies of the militaristic Qin and the cultured Zhou, the Han Dynasty of China rules with righteousness tempered with benevolence, with wisdom informed by tradition. Han engineers transformed the land, even as Han philosophers transformed the mind. Go now, and take up the Mandate of Heaven.  -->
+			<Text>สร้างขึ้นจากมรดกแห่งราชวงศ์ฉินผู้เน้นทางทหาร และราชวงศ์โจวผู้เต็มไปด้วยวัฒนธรรม ราชวงศ์ฮั่นแห่งจีนปกครองด้วยความชอบธรรมผสมผสานกับความเมตตา และด้วยปัญญาที่ได้รับจากประเพณี วิศวกรฮั่นเปลี่ยนแปลงผืนดิน ขณะที่นักปรัชญาฮั่นเปลี่ยนแปลงจิตใจ จงออกเดินทางและรับเอาพระราชอำนาจแห่งสวรรค์</Text>		<!-- Forged from the legacies of the militaristic Qin and the cultured Zhou, the Han Dynasty of China rules with righteousness tempered with benevolence, with wisdom informed by tradition. Han engineers transformed the land, even as Han philosophers transformed the mind. Go now, and take up the Mandate of Heaven. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_KHMER" Language="th_TH">
-			<Text>ดุจฝนมรสุม ขอม ให้อาหารแก่ผืนแผ่นดิน และดุจน้ำท่วมมรสุม พวกเขาพิชิตสิ่งที่ต้องการ มนฑลอันยิ่งใหญ่แห่งกัมพูชา จักรวรรดิขอม หมุนเวียนด้วยพระกรุณาธิคุณแห่งเทพเจ้า และพลังของมันไหลดุจสายน้ำ เป็นที่หลบภัยจากแสงแดดอันร้อนแรง จงยืนบนหลังช้าง และปล่อยให้น้ำขึ้นสูง พวกมันจะไม่อาจสัมผัสเจ้าได้</Text>		<!-- Like the monsoon rains, the Khmer give life to the land, and like the monsoon floods, they conquer what they will. The great mandala of Kambuja, the Khmer Empire, whirls with divine grace, and its power flows like water, a sanctuary against the burning sun. Stand on elephant-back, and let the waters rise. They will not touch you.  -->
+			<Text>ดุจฝนมรสุม ขอม ให้อาหารแก่ผืนแผ่นดิน และดุจน้ำท่วมมรสุม พวกเขาพิชิตสิ่งที่ต้องการ มนฑลอันยิ่งใหญ่แห่งกัมพูชา จักรวรรดิขอม หมุนเวียนด้วยพระกรุณาธิคุณแห่งเทพเจ้า และพลังของมันไหลดุจสายน้ำ เป็นที่หลบภัยจากแสงแดดอันร้อนแรง จงยืนบนหลังช้าง และปล่อยให้น้ำขึ้นสูง พวกมันจะไม่อาจสัมผัสเจ้าได้</Text>		<!-- Like the monsoon rains, the Khmer give life to the land, and like the monsoon floods, they conquer what they will. The great mandala of Kambuja, the Khmer Empire, whirls with divine grace, and its power flows like water, a sanctuary against the burning sun. Stand on elephant-back, and let the waters rise. They will not touch you. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_MAURYA" Language="th_TH">
 			<Text>ชีวิตแห่งมอริยะเต้นรำไปตามเสียงก้องของเท้าควายที่เดินกลับจากทุ่งนา เสียงกระทบของใบปาล์มที่ใช้จดบันทึก จังหวะกลองบัมภา เสียงสวดมนต์ของพระสงฆ์ และเสียงกระซิบของบ่าวในราชสำนัก จงใช้เสียงของเจ้า นำบทเพลงนี้</Text>		<!-- Maurya life thrums to the thud of ox hoofs returning from the fields, the clatter of palm-leaf texts, the beat of the bhambha drums, the steady rhythm of monks’ chants, the whisper of court attendants. Lend your voice, lead the song. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_MAYA" Language="th_TH">
-			<Text>บนยอดพีระมิดหิน ร่มเงาป่าเปิดออกสู่ท้องฟ้าเต็มไปด้วยดวงดาว และจากที่นี่ มายาได้วางแผนชะตากรรมของพวกเขา ในความตื่นเต้นของสนามบอล และในถ้อยคำของบทกวีโบราณ วีรบุรุษของพวกเขาแสดงละครแห่งการสร้างสรรค์ จงลุกขึ้นตามเสียงแตรหอยสังข์ และสวมมงกุฎขนนก — มายาเริ่มออกเดินทาง</Text>		<!-- Atop stone pyramids, the forest canopy gives way to stars, and from here the Maya plot their fate. In the thrill of the ball-court and in the words of the ancient poems, their heroes enact the drama of creation. Rise to the conch-shell horn, and don the feathered headdress – the Maya set forth.  -->
+			<Text>บนยอดพีระมิดหิน ร่มเงาป่าเปิดออกสู่ท้องฟ้าเต็มไปด้วยดวงดาว และจากที่นี่ มายาได้วางแผนชะตากรรมของพวกเขา ในความตื่นเต้นของสนามบอล และในถ้อยคำของบทกวีโบราณ วีรบุรุษของพวกเขาแสดงละครแห่งการสร้างสรรค์ จงลุกขึ้นตามเสียงแตรหอยสังข์ และสวมมงกุฎขนนก — มายาเริ่มออกเดินทาง</Text>		<!-- Atop stone pyramids, the forest canopy gives way to stars, and from here the Maya plot their fate. In the thrill of the ball-court and in the words of the ancient poems, their heroes enact the drama of creation. Rise to the conch-shell horn, and don the feathered headdress – the Maya set forth. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_MISSISSIPPIAN" Language="th_TH">
-			<Text>วิสัยทัศน์ใหม่ของโลกเกิดขึ้นจากเนินดินแห่งคาโฮเกีย บุตรแห่งเรดฮอร์นและเอิร์ธเมคเกอร์ ปั้นแต่งผืนดินตามใจปรารถนา สร้างภูเขาจากทุ่งราบ และเมืองจากป่าดงดิบ ดั่งลูกศรเปลวเพลิงนำแสงสว่างสู่ความมืด มิตซิสซิปปี้จึงนำชีวิตใหม่สู่โลก</Text>		<!-- A new vision for the world arises from the mounds of Cahokia. The children of Red Horn and the Earthmaker shape the land as they see fit, building mountains out of plains, and cities out of the wilderness. As the burning arrow brings light to the darkness, the Mississippians bring new life to the world.  -->
+			<Text>วิสัยทัศน์ใหม่ของโลกเกิดขึ้นจากเนินดินแห่งคาโฮเกีย บุตรแห่งเรดฮอร์นและเอิร์ธเมคเกอร์ ปั้นแต่งผืนดินตามใจปรารถนา สร้างภูเขาจากทุ่งราบ และเมืองจากป่าดงดิบ ดั่งลูกศรเปลวเพลิงนำแสงสว่างสู่ความมืด มิตซิสซิปปี้จึงนำชีวิตใหม่สู่โลก</Text>		<!-- A new vision for the world arises from the mounds of Cahokia. The children of Red Horn and the Earthmaker shape the land as they see fit, building mountains out of plains, and cities out of the wilderness. As the burning arrow brings light to the darkness, the Mississippians bring new life to the world. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_PERSIA" Language="th_TH">
-			<Text>เปอร์เซียตั้งอยู่เหนือโลก ราชอาณาจักรอันยิ่งใหญ่ที่ประชาชนเรียกเพียงว่า Xšāça หรือ “ราชอาณาจักร” ผู้ปกครองเปอร์เซียควบคุมเส้นทางการค้าและกองทัพเพื่อปกป้อง พวกเขายึดทุกสิ่งที่มีค่าเป็นของตนเอง</Text>		<!-- Persia sits astride the world, a kingdom so great that its residents call it simply Xšāça, “the Kingdom.” Commanding trade routes and the armies to defend them, the rulers of Persia claim all that is worth having for their own.  -->
+			<Text>เปอร์เซียตั้งอยู่เหนือโลก ราชอาณาจักรอันยิ่งใหญ่ที่ประชาชนเรียกเพียงว่า Xšāça หรือ “ราชอาณาจักร” ผู้ปกครองเปอร์เซียควบคุมเส้นทางการค้าและกองทัพเพื่อปกป้อง พวกเขายึดทุกสิ่งที่มีค่าเป็นของตนเอง</Text>		<!-- Persia sits astride the world, a kingdom so great that its residents call it simply Xšāça, “the Kingdom.” Commanding trade routes and the armies to defend them, the rulers of Persia claim all that is worth having for their own. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_ROME" Language="th_TH">
 			<Text>โรม: ชื่อนี้กลายเป็นคำพ้องความหมายกับอำนาจ ตำนานเล่าว่าชาวโรมันคนแรกถูกเลี้ยงดูโดยหมาป่า แต่เมื่อได้เห็นการอภิปรายในวุฒิสภา ถนนโรมันที่ตรงเป็นเส้นตรง และกองทัพที่มีระเบียบเรียบร้อยอย่างดี อาจทำให้ใครบางคนสงสัย แต่เมื่อได้เห็นประกายแห่งความทะเยอทะยานในดวงตาของชาวโรมัน ใครก็คงไม่สงสัยอีกต่อไป
-จงชูมาตราฐานนกอินทรีย์ และให้โลกรับรู้ถึงความรุ่งโรจน์แห่งโรม</Text>		<!-- Rome: a name synonymous with power. Legend has it that the first Romans were raised by wolves. Seeing the debates in the Senate, the achingly straight Roman roads, and the well-ordered legions, one might doubt this. Seeing the light of ambition in Roman eyes, one does not. Raise the eagle standard, and let the world know the glory that is Rome.   -->
+จงชูมาตราฐานนกอินทรีย์ และให้โลกรับรู้ถึงความรุ่งโรจน์แห่งโรม</Text>		<!-- Rome: a name synonymous with power. Legend has it that the first Romans were raised by wolves. Seeing the debates in the Senate, the achingly straight Roman roads, and the well-ordered legions, one might doubt this. Seeing the light of ambition in Roman eyes, one does not. Raise the eagle standard, and let the world know the glory that is Rome. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_INTRO_AKSUM" Language="th_TH">
 			<Text>เอ่ยนาม แล้วอักซุมจะสถิตเหนือประตูแห่งภพ ผู้คู่ควรเท่านั้นจึงจะผ่านและประจักษ์ถึงความยิ่งใหญ่</Text>		<!-- Say the word, and Aksum shall perch on the gateway between worlds. May only the worthy pass and know its majesty. -->
@@ -7901,6 +7907,24 @@
 		</Replace>
 		<Replace Tag="LOC_3B_STORYTITLE" Language="th_TH">
 			<Text>เรือแห่งทะเลทราย</Text>		<!-- Ships of the Desert -->
+		</Replace>
+		<Replace Tag="LOC_1072A_STORYTITLE" Language="th_TH">
+			<Text>ยาวและสั้น</Text>		<!-- Long and Short -->
+		</Replace>
+		<Replace Tag="LOC_1072A_COMPLETION" Language="th_TH">
+			<Text>หอกที่ยาวกว่าสองเท่าของร่างกายมนุษย์ เมื่อชี้ไปยังศัตรูจะล็อกทหารให้อยู่กับที่ - พวกเขาทำได้เพียงเดินหน้า แม้จะเป็นที่ชื่นชอบของผู้บัญชาการ แต่ก็เป็นรูปแบบที่น่ากลัวสำหรับผู้ที่อยู่แถวหน้า ของแนวหอกและศัตรูของพวกเขา แต่สำหรับนักรบแล้ว อิสรภาพของการต่อสู้ระยะประชิด ด้วยหอกสั้นนั้นไม่มีใครเทียบได้</Text>		<!-- Spears twice the length of a man's body, when pointed towards the enemy, lock soldiers into place - they can do nothing but advance. As appealing as it is to commanders, is a terrifying formation to those in its front ranks of the spear-line as much as to their foes. But to the warriors, the freedom of close combat with a shorter spear is unmatched. -->
+		</Replace>
+		<Replace Tag="LOC_1072B_NAME" Language="th_TH">
+			<Text>วิสัยทัศน์ของผู้บัญชาการนำชัยชนะสู่สนามรบ</Text>		<!-- The commander's vision wins the field. -->
+		</Replace>
+		<Replace Tag="LOC_1072B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} กับพลหอก</Text>		<!-- {1_reward} on Spearman. -->
+		</Replace>
+		<Replace Tag="LOC_1072C_NAME" Language="th_TH">
+			<Text>หอกสั้นกว่าหมายถึงหัวใจที่กล้าหาญกว่า</Text>		<!-- A shorter spear means a braver heart. -->
+		</Replace>
+		<Replace Tag="LOC_1072C_DESCRIPTION" Language="th_TH">
+			<Text>+1 การสนับสนุนสงครามในทุกสงคราม</Text>		<!-- +1 War Support on all wars. -->
 		</Replace>
 		<Replace Tag="LOC_3B_NAME" Language="th_TH">
 			<Text>เพิกเฉยต่อกลิ่นและเลี้ยงอูฐ</Text>		<!-- Ignore the smell and cultivate camels. -->

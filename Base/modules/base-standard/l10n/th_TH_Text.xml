@@ -307,6 +307,9 @@
 		<Replace Tag="LOC_ADVANCED_OPTIONS_LIGHT" Language="th_TH">
 			<Text>เบา</Text>		<!-- Light -->
 		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_LIGHT_TOOLTIP" Language="th_TH">
+			<Text>เบา: ภัยธรรมชาติเกิดขึ้นในอัตรามาตรฐาน</Text>		<!-- Light: Natural Disasters appear at the standard rate -->
+		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_COUNTDOWN_NONE" Language="th_TH">
 			<Text>ไม่มีการนับถอยหลัง</Text>		<!-- No Countdown -->
 		</Replace>
@@ -319,11 +322,17 @@
 		<Replace Tag="LOC_ADVANCED_OPTIONS_MODERATE" Language="th_TH">
 			<Text>ปานกลาง</Text>		<!-- Moderate -->
 		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_MODERATE_TOOLTIP" Language="th_TH">
+			<Text>ปานกลาง: ภัยธรรมชาติเกิดขึ้นบ่อยขึ้น</Text>		<!-- Moderate: Natural Disasters appear more often -->
+		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_STANDARD" Language="th_TH">
 			<Text>มาตรฐาน</Text>		<!-- Standard -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_CATASTROPHIC" Language="th_TH">
 			<Text>หายนะ</Text>		<!-- Catastrophic -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_CATASTROPHIC_TOOLTIP" Language="th_TH">
+			<Text>รุนแรง: ภัยธรรมชาติเกิดขึ้นบ่อยมาก</Text>		<!-- Catastrophic: Natural Disasters appear frequently -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_SELECT_OPPONENTS" Language="th_TH">
 			<Text>เลือกคู่ต่อสู้</Text>		<!-- Select Opponents -->
@@ -350,8 +359,7 @@
 			<Text>เพิ่มโบนัสค่าประสบการณ์ที่ผู้บัญชาการ AI ได้รับ
 				[n] [BLIST][LI]ผู้จดบันทึก: -20%[LI]ข้าหลวง: 0%[LI]อุปราช: +40%[LI]กษัตริย์: +60%[LI]เซียน: +80%[LI]เทพเจ้า: +100%[/LIST] 
 			</Text>		<!-- Increases the bonus to XP gained by AI Commanders.
-				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +40%[LI]Sovereign: +60%[LI]Immortal: +80%[LI]Deity: +100%[/LIST] 
-			 -->
+				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +40%[LI]Sovereign: +60%[LI]Immortal: +80%[LI]Deity: +100%[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_BUILDING_PRODUCTION" Language="th_TH">
 			<Text>กำลังผลิตสิ่งก่อสร้างของ AI</Text>		<!-- AI Building Production -->
@@ -360,8 +368,7 @@
 			<Text>เพิ่มโบนัสที่ผู้เล่น AI ได้รับในการผลิตสิ่งก่อสร้าง
 				[n] [BLIST][LI]ผู้จดบันทึก: -20%[LI]ข้าหลวง: 0%[LI]อุปราช: +20%[LI]กษัตริย์: +40%[LI]เซียน: +60%[LI]เทพเจ้า: +80%[/LIST] 
 			</Text>		<!-- Increases the bonus that AI players receive towards producing Constructibles.
-				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST] 
-			 -->
+				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_COMBAT" Language="th_TH">
 			<Text>ความแข็งแกร่งในการต่อสู้ของ AI</Text>		<!-- Combat Strength for AI -->
@@ -370,8 +377,7 @@
 			<Text>เพิ่มโบนัสความแข็งแกร่งในการต่อสู้สำหรับผู้เล่น AI
 				[n] [BLIST][LI]ผู้จดบันทึก: -4 ความแข็งแกร่ง[LI]ข้าหลวง: +0 ความแข็งแกร่ง[LI]อุปราช: +1 ความแข็งแกร่ง[LI]กษัตริย์: +3 ความแข็งแกร่ง[LI]เซียน: +5 ความแข็งแกร่ง[LI]เทพเจ้า: +8 ความแข็งแกร่ง[/LIST] 
 			</Text>		<!-- Increases the bonus to Combat Strength for AI players.
-				[n] [BLIST][LI]Scribe: -4 Combat Strength[LI]Governor: +0 Combat Strength[LI]Viceroy: +1 Combat Strength[LI]Sovereign: +3 Combat Strength[LI]Immortal: +5 Combat Strength[LI]Deity: +8 Combat Strength[/LIST] 
-			 -->
+				[n] [BLIST][LI]Scribe: -4 Combat Strength[LI]Governor: +0 Combat Strength[LI]Viceroy: +1 Combat Strength[LI]Sovereign: +3 Combat Strength[LI]Immortal: +5 Combat Strength[LI]Deity: +8 Combat Strength[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_CULTURE" Language="th_TH">
 			<Text>วัฒนธรรม</Text>		<!-- Culture -->
@@ -380,8 +386,7 @@
 			<Text>เพิ่มจำนวนโบนัสวัฒนธรรมที่ผู้เล่น AI ได้รับ
 				[n] [BLIST][LI]ผู้จดบันทึก: -20%[LI]ข้าหลวง: 0%[LI]อุปราช: +20%[LI]กษัตริย์: +40%[LI]เซียน: +60%[LI]เทพเจ้า: +80%[/LIST]
 			</Text>		<!-- Increases the amount of bonus Culture that AI players receive.
-				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST]
-			 -->
+				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_GOLD" Language="th_TH">
 			<Text>ทอง</Text>		<!-- Gold -->
@@ -390,8 +395,7 @@
 			<Text>เพิ่มจำนวนโบนัสทองที่ผู้เล่น AI ได้รับ
 				[n] [BLIST][LI]ผู้จดบันทึก: -20%[LI]ข้าหลวง: 0%[LI]อุปราช: +20%[LI]กษัตริย์: +40%[LI]เซียน: +60%[LI]เทพเจ้า: +80%[/LIST]
 			</Text>		<!-- Increases the amount of bonus Gold that AI players receive.
-				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST]
-			 -->
+				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_HAPPINESS" Language="th_TH">
 			<Text>ความสุข</Text>		<!-- Happiness -->
@@ -400,8 +404,7 @@
 			<Text>เพิ่มจำนวนโบนัสความสุขที่ผู้เล่น AI ได้รับ
 				[n] [BLIST][LI]ผู้จดบันทึก: -30%[LI]ข้าหลวง: 0%[LI]อุปราช: +20%[LI]กษัตริย์: +40%[LI]เซียน: +60%[LI]เทพเจ้า: +80%[/LIST]
 			</Text>		<!-- Increases the amount of bonus Happiness that AI players receive.
-				[n] [BLIST][LI]Scribe: -30%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST]
-			 -->
+				[n] [BLIST][LI]Scribe: -30%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_IP_COMBAT" Language="th_TH">
 			<Text>ความแข็งแกร่งในการต่อสู้ของรัฐอิสระ</Text>		<!-- Combat Strength for Independents -->
@@ -410,8 +413,7 @@
 			<Text>เพิ่มโบนัสความแข็งแกร่งในการต่อสู้สำหรับอำนาจอิสระ
 				[n] [BLIST][LI]ผู้จดบันทึก: -6 ความแข็งแกร่ง[LI]ข้าหลวง: -3 ความแข็งแกร่ง[LI]อุปราช: -3 ความแข็งแกร่ง[LI]กษัตริย์: 0 ความแข็งแกร่ง[LI]เซียน: 0 ความแข็งแกร่ง[LI]เทพเจ้า: 0 ความแข็งแกร่ง[/LIST]
 			</Text>		<!-- Increases the bonus to Combat Strength for Independent Powers.
-				[n] [BLIST][LI]Scribe: -6 Combat Strength[LI]Governor: -3 Combat Strength[LI]Viceroy: -3 Combat Strength[LI]Sovereign: 0 Combat Strength[LI]Immortal: 0 Combat Strength[LI]Deity: 0 Combat Strength[/LIST]
-			 -->
+				[n] [BLIST][LI]Scribe: -6 Combat Strength[LI]Governor: -3 Combat Strength[LI]Viceroy: -3 Combat Strength[LI]Sovereign: 0 Combat Strength[LI]Immortal: 0 Combat Strength[LI]Deity: 0 Combat Strength[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_SCIENCE" Language="th_TH">
 			<Text>วิทยาศาสตร์</Text>		<!-- Science -->
@@ -420,8 +422,7 @@
 			<Text>เพิ่มจำนวนโบนัสวิทยาศาสตร์ที่ผู้เล่น AI ได้รับ
 				[n] [BLIST][LI]ผู้จดบันทึก: -20%[LI]ข้าหลวง: 0%[LI]อุปราช: +20%[LI]กษัตริย์: +40%[LI]เซียน: +60%[LI]เทพเจ้า: +80%[/LIST]
 			</Text>		<!-- Increases the amount of bonus Science that AI players receive.
-				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST]
-			 -->
+				[n] [BLIST][LI]Scribe: -20%[LI]Governor: 0%[LI]Viceroy: +20%[LI]Sovereign: +40%[LI]Immortal: +60%[LI]Deity: +80%[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_UNIT_PRODUCTION" Language="th_TH">
 			<Text>กำลังผลิตของ AI</Text>		<!-- AI Unit Production -->
@@ -430,8 +431,7 @@
 			<Text>เพิ่มโบนัสที่ผู้เล่น AI ได้รับในการผลิตยูนิต
 				[n] [BLIST][LI]ผู้จดบันทึก: -40%[LI]ข้าหลวง: 0%[LI]อุปราช: +40%[LI]กษัตริย์: +80%[LI]เซียน: +120%[LI]เทพเจ้า: +160%[/LIST]
 			</Text>		<!-- Increases the bonus that AI players receive towards producing Units.
-				[n] [BLIST][LI]Scribe: -40%[LI]Governor: 0%[LI]Viceroy: +40%[LI]Sovereign: +80%[LI]Immortal: +120%[LI]Deity: +160%[/LIST]
-			 -->
+				[n] [BLIST][LI]Scribe: -40%[LI]Governor: 0%[LI]Viceroy: +40%[LI]Sovereign: +80%[LI]Immortal: +120%[LI]Deity: +160%[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_TECH_NODE_COST" Language="th_TH">
 			<Text>ค่าใช้จ่ายเทคโนโลยี</Text>		<!-- Tech Costs -->
@@ -440,8 +440,7 @@
 			<Text>ปรับจำนวนวิทยาศาสตร์ที่ใช้ในการวิจัยเทคโนโลยีสำหรับผู้เล่นทุกคน
 				[n] [BLIST][LI]ผู้จดบันทึก: +10%[LI]ข้าหลวง: 0%[LI]อุปราช: -10%[LI]กษัตริย์: -20%[LI]เซียน: -30%[LI]เทพเจ้า: -40%[/LIST]
 			</Text>		<!-- Adjusts the amount of Science towards researching Techs for all players.
-				[n] [BLIST][LI]Scribe: +10%[LI]Governor: 0%[LI]Viceroy: -10%[LI]Sovereign: -20%[LI]Immortal: -30%[LI]Deity: -40%[/LIST]
-			 -->
+				[n] [BLIST][LI]Scribe: +10%[LI]Governor: 0%[LI]Viceroy: -10%[LI]Sovereign: -20%[LI]Immortal: -30%[LI]Deity: -40%[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_CIVIC_NODE_COST" Language="th_TH">
 			<Text>ค่าใช้จ่ายแนวคิด</Text>		<!-- Civic Costs -->
@@ -450,8 +449,7 @@
 			<Text>ปรับจำนวนวัฒนธรรมที่ใช้ในการวิจัยแนวคิดสำหรับผู้เล่นทุกคน
 				[n] [BLIST][LI]ผู้จดบันทึก: +10%[LI]ข้าหลวง: 0%[LI]อุปราช: -10%[LI]กษัตริย์: -20%[LI]เซียน: -30%[LI]เทพเจ้า: -40%[/LIST]
 			</Text>		<!-- Adjusts the amount of Culture towards researching Civics for all players.
-				[n] [BLIST][LI]Scribe: +10%[LI]Governor: 0%[LI]Viceroy: -10%[LI]Sovereign: -20%[LI]Immortal: -30%[LI]Deity: -40%[/LIST]
-			 -->
+				[n] [BLIST][LI]Scribe: +10%[LI]Governor: 0%[LI]Viceroy: -10%[LI]Sovereign: -20%[LI]Immortal: -30%[LI]Deity: -40%[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_OCEAN_DAMAGE" Language="th_TH">
 			<Text>ความเสียหายจากมหาสมุทร</Text>		<!-- Ocean Damage -->
@@ -460,8 +458,7 @@
 			<Text>เพิ่มการลดความเสียหายที่ยูนิต AI ได้รับเมื่อจบเทิร์นบนช่องมหาสมุทรในยุคสำรวจ
 				[n] [BLIST][LI]ผู้จดบันทึก: +25%[LI]ข้าหลวง: +33%[LI]อุปราช: +40%[LI]กษัตริย์: +45%[LI]เซียน: +50%[LI]เทพเจ้า: +80%[/LIST]
 			</Text>		<!-- Increases the damage reduction AI Units receive when ending their turn on Open Ocean tiles in Exploration.
-				[n] [BLIST][LI]Scribe: +25%[LI]Governor: +33%[LI]Viceroy: +40%[LI]Sovereign: +45%[LI]Immortal: +50%[LI]Deity: +80%[/LIST]
-			 -->
+				[n] [BLIST][LI]Scribe: +25%[LI]Governor: +33%[LI]Viceroy: +40%[LI]Sovereign: +45%[LI]Immortal: +50%[LI]Deity: +80%[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_PLAYER_DIFFICULTY_FREE_STUFF" Language="th_TH">
 			<Text>กำแพงเพิ่มเติมในเมือง AI</Text>		<!-- Additional Walls on AI Settlements -->
@@ -470,8 +467,7 @@
 			<Text>เพิ่มจำนวนกำแพงเพิ่มเติมที่ผู้เล่น AI ได้รับเมื่อปลดล็อกกำแพงเฉพาะยุค
 				[n] [BLIST][LI]ผู้จดบันทึก: 0[LI]ข้าหลวง: 0[LI]อุปราช: 1 เมือง[LI]กษัตริย์: 2 เมือง[LI]เซียน: 3 เมือง/1 เมืองเล็ก[LI]เทพเจ้า: 4 เมือง/1 เมืองเล็ก[/LIST]
 			</Text>		<!-- Increases the number of Additional Walls AI players receive when unlocking the current Age Specific Walls.
-				[n] [BLIST][LI]Scribe: 0[LI]Governor: 0[LI]Viceroy: 1 City[LI]Sovereign: 2 City[LI]Immortal: 3 City/1 Town[LI]Deity: 4 City/1 Town[/LIST]
-			 -->
+				[n] [BLIST][LI]Scribe: 0[LI]Governor: 0[LI]Viceroy: 1 City[LI]Sovereign: 2 City[LI]Immortal: 3 City/1 Town[LI]Deity: 4 City/1 Town[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_SCORE_VICTORY_WARNING" Language="th_TH">
 			<Text>การปิดชัยชนะด้วยคะแนนจะจบเกมเมื่อผู้นำทุกคนถูกครอบงำ</Text>		<!-- Disabling the Score Victory will end the game when all leaders are dominated. -->
@@ -712,6 +708,12 @@
 		</Replace>
 		<Replace Tag="LOC_WARNING_TREASURE_FLEET_TECH_SUMMARY" Language="th_TH">
 			<Text>เรือบรรทุกสมบัติ ต้องการการ อู่ต่อเรือ</Text>		<!-- Treasure Fleets Need Shipbuilding -->
+		</Replace>
+		<Replace Tag="LOC_WARNING_COMPETING_WONDER_MESSAGE" Language="th_TH">
+			<Text>คู่แข่งของเราใน {2_CivName} ได้เริ่มวางแผนและก่อสร้างสิ่งมหัศจรรย์ของโลก {3_ConstructibleName} — ซึ่งเป็นสิ่งเดียวกับที่เรากำลังก่อสร้างใน {1_CityName} พวกเขาว่าความขยันคือรางวัลของตัวเอง แต่เราก็อยากได้สิ่งมหัศจรรย์เช่นกัน</Text>		<!-- Our rivals in {2_CivName} have plans drawn up and work begun on the World Wonder {3_ConstructibleName} — the very same as what we're building in {1_CityName}. They say hard work is its own reward, but let's try for a Wonder, too. -->
+		</Replace>
+		<Replace Tag="LOC_WARNING_COMPETING_WONDER_SUMMARY" Language="th_TH">
+			<Text>สิ่งมหัศจรรย์ที่แข่งขันกัน</Text>		<!-- Competing Wonder -->
 		</Replace>
 		<Replace Tag="LOC_WARNING_WAR_WEARINESS_MESSAGE" Language="th_TH">
 			<Text>ความพยายามในสงครามของเราล้มเหลวเมื่อการสนับสนุนของ {1_playerName} ในความขัดแย้งนี้เพิ่มขึ้น ที่บ้าน ประชาชนของเราได้รับโทษด้าน [icon:YIELD_HAPPINESS]ความสุข ในถิ่นฐานของเรา ที่แนวหน้า ทหารของเราทนทุกข์กับการลงโทษในการต่อสู้เมื่อต่อสู้กับยูนิตของ {1_playerName} ให้เราใช้ [icon:YIELD_DIPLOMACY]อิทธิพล เพื่อเพิ่มการสนับสนุนเพื่อลดผลกระทบเชิงลบเหล่านี้</Text>		<!-- Our war efforts falter as {1_playerName}'s support in this conflict grows. At home, our people suffer a penalty to [icon:YIELD_HAPPINESS]Happiness in our settlements. At the front, our soldiers endure a combat penalty when fighting {1_playerName}'s units. Let us spend [icon:YIELD_DIPLOMACY]Influence to increase support for our cause to reduce these negative effects. -->
@@ -1403,81 +1405,162 @@
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_06_DESCRIPTION" Language="th_TH">
 			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ ในแต่ละ ย่าน</Text>		<!-- +1[icon:YIELD_SCIENCE] Science on each Quarter. -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK" Language="th_TH">
+			<Text>ปลดล็อกตำนาน</Text>		<!-- Legend Unlock. -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_AUGUSTUS_L1_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+15% [icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการก่อสร้างอาคาร และสิ่งมหัศจรรย์ ที่มีช่องผลงานชิ้นเอก</Text>		<!-- +15% [icon:YIELD_PRODUCTION]Production towards constructing Buildings and Wonders with Great Works slots. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_07_DESCRIPTION" Language="th_TH">
 			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ จากผู้เชี่ยวชาญ หรือ +2 หากคุณมีเมือง 3 แห่งหรือน้อยกว่า</Text>		<!-- +1[icon:YIELD_SCIENCE] Science on Specialists, or +2 if you have 3 or fewer Cities. -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_CATHERINE_L1_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+15% [icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการก่อสร้างอาคาร และสิ่งมหัศจรรย์ ที่มีช่องผลงานชิ้นเอก</Text>		<!-- +15% [icon:YIELD_PRODUCTION]Production towards constructing Buildings and Wonders with Great Works slots. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_08_DESCRIPTION" Language="th_TH">
 			<Text>+10%[icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับทุกพันธมิตรที่คุณมี</Text>		<!-- +10%[icon:YIELD_SCIENCE] Science for every Alliance you have. -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_HATSHEPSUT_L1_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+15% [icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการก่อสร้างอาคาร และสิ่งมหัศจรรย์ ที่มีช่องผลงานชิ้นเอก</Text>		<!-- +15% [icon:YIELD_PRODUCTION]Production towards constructing Buildings and Wonders with Great Works slots. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_09_DESCRIPTION" Language="th_TH">
 			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุคในเมือง หรือ +2 ในดินแดนห่างไกล</Text>		<!-- +1[icon:YIELD_SCIENCE] Science per Age in Towns, or +2 in Distant Lands. -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_JOSE_RIZAL_L1_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+15% [icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการก่อสร้างอาคาร และสิ่งมหัศจรรย์ ที่มีช่องผลงานชิ้นเอก</Text>		<!-- +15% [icon:YIELD_PRODUCTION]Production towards constructing Buildings and Wonders with Great Works slots. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_10_DESCRIPTION" Language="th_TH">
 			<Text>+5%[icon:YIELD_SCIENCE] วิทยาศาสตร์ (ทำซ้ำได้)</Text>		<!-- +5% total[icon:YIELD_SCIENCE] Science. Repeatable. -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_LAFAYETTE_L1_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+15% [icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการก่อสร้างอาคาร และสิ่งมหัศจรรย์ ที่มีช่องผลงานชิ้นเอก</Text>		<!-- +15% [icon:YIELD_PRODUCTION]Production towards constructing Buildings and Wonders with Great Works slots. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_AUGUSTUS_L1_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_AUGUSTUS_L1_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_AUGUSTUS_L1_DESCRIPTION_BASE} -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_ASHOKA_L1_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+25% ความสัมพันธ์ จากการเริ่มต้นหรือสนับสนุนความร่วมมือ, -25% ความสัมพันธ์ จากการเริ่มคว่ำบาตร หรือปฏิเสธความร่วมมือ</Text>		<!-- +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_CATHERINE_L1_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_CATHERINE_L1_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_CATHERINE_L1_DESCRIPTION_BASE} -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_BENJAMIN_FRANKLIN_L1_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+25% ความสัมพันธ์ จากการเริ่มต้นหรือสนับสนุนความร่วมมือ, -25% ความสัมพันธ์ จากการเริ่มคว่ำบาตร หรือปฏิเสธความร่วมมือ</Text>		<!-- +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_HATSHEPSUT_L1_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_HATSHEPSUT_L1_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_HATSHEPSUT_L1_DESCRIPTION_BASE} -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_HARRIET_TUBMAN_L1_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+25% ความสัมพันธ์ จากการเริ่มต้นหรือสนับสนุนความร่วมมือ, -25% ความสัมพันธ์ จากการเริ่มคว่ำบาตร หรือปฏิเสธความร่วมมือ</Text>		<!-- +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_JOSE_RIZAL_L1_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_JOSE_RIZAL_L1_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_JOSE_RIZAL_L1_DESCRIPTION_BASE} -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_HIMIKO_L1_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+25% ความสัมพันธ์ จากการเริ่มต้นหรือสนับสนุนความร่วมมือ, -25% ความสัมพันธ์ จากการเริ่มคว่ำบาตร หรือปฏิเสธความร่วมมือ</Text>		<!-- +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_LAFAYETTE_L1_DESCRIPTION" Language="th_TH">
 			<Text> 	
 {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_LAFAYETTE_L1_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_LAFAYETTE_L1_DESCRIPTION_BASE} -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_JOSE_RIZAL_L2_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+25% ความสัมพันธ์ จากการเริ่มต้นหรือสนับสนุนความร่วมมือ, -25% ความสัมพันธ์ จากการเริ่มคว่ำบาตร หรือปฏิเสธความร่วมมือ</Text>		<!-- +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_ASHOKA_L1_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_ASHOKA_L1_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_ASHOKA_L1_DESCRIPTION_BASE} -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_LAFAYETTE_L2_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+25% ความสัมพันธ์ จากการเริ่มต้นหรือสนับสนุนความร่วมมือ, -25% ความสัมพันธ์ จากการเริ่มคว่ำบาตร หรือปฏิเสธความร่วมมือ</Text>		<!-- +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_BENJAMIN_FRANKLIN_L1_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_BENJAMIN_FRANKLIN_L1_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_BENJAMIN_FRANKLIN_L1_DESCRIPTION_BASE} -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_MACHIAVELLI_L1_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+25% ความสัมพันธ์ จากการเริ่มต้นหรือสนับสนุนความร่วมมือ, -25% ความสัมพันธ์ จากการเริ่มคว่ำบาตร หรือปฏิเสธความร่วมมือ</Text>		<!-- +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_HARRIET_TUBMAN_L1_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_HARRIET_TUBMAN_L1_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_HARRIET_TUBMAN_L1_DESCRIPTION_BASE} -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_AMINA_L1_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+25% [icon:YIELD_GOLD] ทอง จากขบวนการค้า และขบวนสมบัติ</Text>		<!-- +25% [icon:YIELD_GOLD]Gold from Trade and Treasure Convoys. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_HIMIKO_L1_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_HIMIKO_L1_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_HIMIKO_L1_DESCRIPTION_BASE} -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_HATSHEPSUT_L2_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+25% [icon:YIELD_GOLD] ทอง จากขบวนการค้า และขบวนสมบัติ</Text>		<!-- +25% [icon:YIELD_GOLD]Gold from Trade and Treasure Convoys. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_JOSE_RIZAL_L2_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_JOSE_RIZAL_L2_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_JOSE_RIZAL_L2_DESCRIPTION_BASE} -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_IBN_BATTUTA_L1_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+25% [icon:YIELD_GOLD] ทอง จากขบวนการค้า และขบวนสมบัติ</Text>		<!-- +25% [icon:YIELD_GOLD]Gold from Trade and Treasure Convoys. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_LAFAYETTE_L2_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_LAFAYETTE_L2_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_LAFAYETTE_L2_DESCRIPTION_BASE} -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_ISABELLA_L1_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+25% [icon:YIELD_GOLD] ทอง จากขบวนการค้า และขบวนสมบัติ</Text>		<!-- +25% [icon:YIELD_GOLD]Gold from Trade and Treasure Convoys. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_MACHIAVELLI_L1_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_MACHIAVELLI_L1_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_MACHIAVELLI_L1_DESCRIPTION_BASE} -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_MACHIAVELLI_L2_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+25% [icon:YIELD_GOLD] ทอง จากขบวนการค้า และขบวนสมบัติ</Text>		<!-- +25% [icon:YIELD_GOLD]Gold from Trade and Treasure Convoys. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_AMINA_L1_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK}[n]{LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_AMINA_L1_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK}[n]{LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_AMINA_L1_DESCRIPTION_BASE} -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_PACHACUTI_L1_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+25% [icon:YIELD_GOLD] ทอง จากขบวนการค้า และขบวนสมบัติ</Text>		<!-- +25% [icon:YIELD_GOLD]Gold from Trade and Treasure Convoys. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_HATSHEPSUT_L2_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK}[n]{LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_HATSHEPSUT_L2_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK}[n]{LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_HATSHEPSUT_L2_DESCRIPTION_BASE} -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_XERXES_L1_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+25% [icon:YIELD_GOLD] ทอง จากขบวนการค้า และขบวนสมบัติ</Text>		<!-- +25% [icon:YIELD_GOLD]Gold from Trade and Treasure Convoys. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_IBN_BATTUTA_L1_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK}[n]{LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_IBN_BATTUTA_L1_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK}[n]{LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_IBN_BATTUTA_L1_DESCRIPTION_BASE} -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_ASHOKA_L2_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+50% [icon:YIELD_GOLD] ทอง สำหรับการเปลี่ยนเมืองเป็น เมืองใหญ่</Text>		<!-- +50% [icon:YIELD_GOLD]Gold towards converting a Town to a City. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_ISABELLA_L1_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK}[n]{LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_ISABELLA_L1_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK}[n]{LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_ISABELLA_L1_DESCRIPTION_BASE} -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_AUGUSTUS_L2_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+50% [icon:YIELD_GOLD] ทอง สำหรับการเปลี่ยนเมืองเป็น เมืองใหญ่</Text>		<!-- +50% [icon:YIELD_GOLD]Gold towards converting a Town to a City. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_MACHIAVELLI_L2_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK}[n]{LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_MACHIAVELLI_L2_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK}[n]{LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_MACHIAVELLI_L2_DESCRIPTION_BASE} -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_CONFUCIUS_L1_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+50% [icon:YIELD_GOLD] ทอง สำหรับการเปลี่ยนเมืองเป็น เมืองใหญ่</Text>		<!-- +50% [icon:YIELD_GOLD]Gold towards converting a Town to a City. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_PACHACUTI_L1_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK}[n]{LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_PACHACUTI_L1_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK}[n]{LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_PACHACUTI_L1_DESCRIPTION_BASE} -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_IBN_BATTUTA_L2_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+50% [icon:YIELD_GOLD] ทอง สำหรับการเปลี่ยนเมืองเป็น เมืองใหญ่</Text>		<!-- +50% [icon:YIELD_GOLD]Gold towards converting a Town to a City. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_XERXES_L1_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK}[n]{LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_XERXES_L1_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK}[n]{LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_XERXES_L1_DESCRIPTION_BASE} -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_ISABELLA_L2_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+50% [icon:YIELD_GOLD] ทอง สำหรับการเปลี่ยนเมืองเป็น เมืองใหญ่</Text>		<!-- +50% [icon:YIELD_GOLD]Gold towards converting a Town to a City. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_ASHOKA_L2_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_ASHOKA_L2_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_ASHOKA_L2_DESCRIPTION_BASE} -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_PACHACUTI_L2_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+50% [icon:YIELD_GOLD] ทอง สำหรับการเปลี่ยนเมืองเป็น เมืองใหญ่</Text>		<!-- +50% [icon:YIELD_GOLD]Gold towards converting a Town to a City. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_AUGUSTUS_L2_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_AUGUSTUS_L2_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_AUGUSTUS_L2_DESCRIPTION_BASE} -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_AMINA_L2_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+5 พลังต่อสู้ ในการรบของทุกยูนิต ที่กระทำต่อเขต</Text>		<!-- +5 Combat Strength for all Units against Districts. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_CONFUCIUS_L1_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_CONFUCIUS_L1_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_CONFUCIUS_L1_DESCRIPTION_BASE} -->
@@ -1485,11 +1568,17 @@
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_AMINA_L2_COMBAT_PREVIEW" Language="th_TH">
 			<Text>+{1_Value} ตำนานคุณลักษณะทางทหาร</Text>		<!-- +{1_Value} Legend Militaristic Attribute -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_CHARLEMAGNE_L1_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+5 พลังต่อสู้ ในการรบของทุกยูนิต ที่กระทำต่อเขต</Text>		<!-- +5 Combat Strength for all Units against Districts. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_IBN_BATTUTA_L2_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_IBN_BATTUTA_L2_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_IBN_BATTUTA_L2_DESCRIPTION_BASE} -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_CHARLEMAGNE_L1_COMBAT_PREVIEW" Language="th_TH">
 			<Text>+{1_Value} ตำนานคุณลักษณะทางทหาร</Text>		<!-- +{1_Value} Legend Militaristic Attribute -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_FRIEDRICH_L1_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+5 พลังต่อสู้ ในการรบของทุกยูนิต ที่กระทำต่อเขต</Text>		<!-- +5 Combat Strength for all Units against Districts. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_ISABELLA_L2_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_ISABELLA_L2_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_ISABELLA_L2_DESCRIPTION_BASE} -->
@@ -1497,11 +1586,17 @@
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_FRIEDRICH_L1_COMBAT_PREVIEW" Language="th_TH">
 			<Text>+{1_Value} ตำนานคุณลักษณะทางทหาร</Text>		<!-- +{1_Value} Legend Militaristic Attribute -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_HARRIET_TUBMAN_L2_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+5 พลังต่อสู้ ในการรบของทุกยูนิต ที่กระทำต่อเขต</Text>		<!-- +5 Combat Strength for all Units against Districts. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_PACHACUTI_L2_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_PACHACUTI_L2_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_PACHACUTI_L2_DESCRIPTION_BASE} -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_HARRIET_TUBMAN_L2_COMBAT_PREVIEW" Language="th_TH">
 			<Text>+{1_Value} ตำนานคุณลักษณะทางทหาร</Text>		<!-- +{1_Value} Legend Militaristic Attribute -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_TRUNG_TRAC_L1_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+5 พลังต่อสู้ ในการรบของทุกยูนิต ที่กระทำต่อเขต</Text>		<!-- +5 Combat Strength for all Units against Districts. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_AMINA_L2_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_AMINA_L2_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_AMINA_L2_DESCRIPTION_BASE} -->
@@ -1509,29 +1604,53 @@
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_TRUNG_TRAC_L1_COMBAT_PREVIEW" Language="th_TH">
 			<Text>+{1_Value} ตำนานคุณลักษณะทางทหาร</Text>		<!-- +{1_Value} Legend Militaristic Attribute -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_XERXES_L2_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+5 พลังต่อสู้ ในการรบของทุกยูนิต ที่กระทำต่อเขต</Text>		<!-- +5 Combat Strength for all Units against Districts. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_CHARLEMAGNE_L1_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_CHARLEMAGNE_L1_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_CHARLEMAGNE_L1_DESCRIPTION_BASE} -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_XERXES_L2_COMBAT_PREVIEW" Language="th_TH">
 			<Text>+{1_Value} ตำนานคุณลักษณะทางทหาร</Text>		<!-- +{1_Value} Legend Militaristic Attribute -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_BENJAMIN_FRANKLIN_L2_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+1 ไปยังโบนัสติดกันของ อาคาร [icon:YIELD_GOLD]ทอง, [icon:YIELD_PRODUCTION]กำลังผลิต และ [icon:YIELD_SCIENCE]วิทยาศาสตร์ มาตรฐาน</Text>		<!-- +1 to the adjacencies of standard [icon:YIELD_GOLD]Gold, [icon:YIELD_PRODUCTION]Production, and [icon:YIELD_SCIENCE]Science Buildings. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_FRIEDRICH_L1_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_FRIEDRICH_L1_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_FRIEDRICH_L1_DESCRIPTION_BASE} -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_CATHERINE_L2_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+1 ไปยังโบนัสติดกันของ อาคาร [icon:YIELD_GOLD]ทอง, [icon:YIELD_PRODUCTION]กำลังผลิต และ [icon:YIELD_SCIENCE]วิทยาศาสตร์ มาตรฐาน</Text>		<!-- +1 to the adjacencies of standard [icon:YIELD_GOLD]Gold, [icon:YIELD_PRODUCTION]Production, and [icon:YIELD_SCIENCE]Science Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_HARRIET_TUBMAN_L2_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_HARRIET_TUBMAN_L2_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_HARRIET_TUBMAN_L2_DESCRIPTION_BASE} -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_CHARLEMAGNE_L2_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+1 ไปยังโบนัสติดกันของ อาคาร [icon:YIELD_GOLD]ทอง, [icon:YIELD_PRODUCTION]กำลังผลิต และ [icon:YIELD_SCIENCE]วิทยาศาสตร์ มาตรฐาน</Text>		<!-- +1 to the adjacencies of standard [icon:YIELD_GOLD]Gold, [icon:YIELD_PRODUCTION]Production, and [icon:YIELD_SCIENCE]Science Buildings. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_TRUNG_TRAC_L1_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_TRUNG_TRAC_L1_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_TRUNG_TRAC_L1_DESCRIPTION_BASE} -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_CONFUCIUS_L2_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+1 ไปยังโบนัสติดกันของ อาคาร [icon:YIELD_GOLD]ทอง, [icon:YIELD_PRODUCTION]กำลังผลิต และ [icon:YIELD_SCIENCE]วิทยาศาสตร์ มาตรฐาน</Text>		<!-- +1 to the adjacencies of standard [icon:YIELD_GOLD]Gold, [icon:YIELD_PRODUCTION]Production, and [icon:YIELD_SCIENCE]Science Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_XERXES_L2_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_XERXES_L2_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_XERXES_L2_DESCRIPTION_BASE} -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_FRIEDRICH_L2_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+1 ไปยังโบนัสติดกันของ อาคาร [icon:YIELD_GOLD]ทอง, [icon:YIELD_PRODUCTION]กำลังผลิต และ [icon:YIELD_SCIENCE]วิทยาศาสตร์ มาตรฐาน</Text>		<!-- +1 to the adjacencies of standard [icon:YIELD_GOLD]Gold, [icon:YIELD_PRODUCTION]Production, and [icon:YIELD_SCIENCE]Science Buildings. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_BENJAMIN_FRANKLIN_L2_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_BENJAMIN_FRANKLIN_L2_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_BENJAMIN_FRANKLIN_L2_DESCRIPTION_BASE} -->
 		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_HIMIKO_L2_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+1 ไปยังโบนัสติดกันของ อาคาร [icon:YIELD_GOLD]ทอง, [icon:YIELD_PRODUCTION]กำลังผลิต และ [icon:YIELD_SCIENCE]วิทยาศาสตร์ มาตรฐาน</Text>		<!-- +1 to the adjacencies of standard [icon:YIELD_GOLD]Gold, [icon:YIELD_PRODUCTION]Production, and [icon:YIELD_SCIENCE]Science Buildings. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_CATHERINE_L2_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_CATHERINE_L2_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_CATHERINE_L2_DESCRIPTION_BASE} -->
+		</Replace>
+		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_TRUNG_TRAC_L2_DESCRIPTION_BASE" Language="th_TH">
+			<Text>+1 ไปยังโบนัสติดกันของ อาคาร [icon:YIELD_GOLD]ทอง, [icon:YIELD_PRODUCTION]กำลังผลิต และ [icon:YIELD_SCIENCE]วิทยาศาสตร์ มาตรฐาน</Text>		<!-- +1 to the adjacencies of standard [icon:YIELD_GOLD]Gold, [icon:YIELD_PRODUCTION]Production, and [icon:YIELD_SCIENCE]Science Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_CHARLEMAGNE_L2_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_CHARLEMAGNE_L2_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_CHARLEMAGNE_L2_DESCRIPTION_BASE} -->
@@ -2697,6 +2816,18 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_STATEHOOD_2_CHAPTER_CONTENT_PARA_1" Language="th_TH">
 			<Text>รัฐอิสระได้แทนที่แนวคิดของคนป่าเถื่อนจาก Civilization ก่อนหน้านี้ รัฐอิสระทั้งหมดเริ่มต้นเกมในระดับเล็ก ในการมีปฏิสัมพันธ์ อิสระสามารถถูกเลื่อนระดับและก้าวไปสู่ระดับใหญ่ ซึ่งให้กลไกการเล่นเกมเพิ่มเติมของนครรัฐจากชื่อเรื่องก่อนหน้า</Text>		<!-- Independent Powers have replaced the concept of Barbarians from previous Civ titles. All Independent Powers start the game at the Minor level. Through interaction, Independents can be promoted and advance to the Major level, which affords them the additional gameplay mechanics of city-states from previous titles. -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GREAT_WORK_1_TITLE" Language="th_TH">
+			<Text>ผลงานชิ้นเอก</Text>		<!-- Great Works -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GREAT_WORK_1_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>ผลงานชิ้นเอกคือศิลปะหรือข้อมูลสำคัญที่อารยธรรมของคุณรวบรวมไว้ ทุกยุคจะมีผลงานชิ้นเอกที่แตกต่างกันให้สะสม เช่น คัมภีร์ศักดิ์สิทธิ์, ของศักดิ์สิทธิ์ และโบราณวัตถุ</Text>		<!-- Great Works are important pieces of art or information curated by your Civilization. Every Age has a different Great Work to collect: Codices, Relics, and Artifacts. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GREAT_WORK_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>เพื่อเปิดใช้งานโบนัสผลงานชิ้นเอก คุณต้องจัดแสดงในอาคารเฉพาะ พระราชวังของคุณจะมีช่องผลงานชิ้นเอกเสมอ นอกจากนี้แต่ละยุคยังมีอาคารพิเศษ เช่น ห้องสมุดหรือพิพิธภัณฑ์ สำหรับจัดแสดงผลงานชิ้นเอกของยุคนั้น</Text>		<!-- To activate Great Work bonuses, you must display them in specific Buildings. Your Palace will always have a Great Work slot. In addition, every Age will also have special Buildings such as the Library or Museum that can display the current Age’s Great Work. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GREAT_WORK_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
+			<Text>เคล็ดลับ: บางสิ่งมหัศจรรย์มีช่องผลงานชิ้นเอก และบางแห่งให้รางวัลผลงานชิ้นเอกเมื่อสร้างเสร็จ หากคุณต้องการสะสมผลงานชิ้นเอก ควรสร้างสิ่งมหัศจรรย์เหล่านั้น</Text>		<!-- Tip: Some Wonders have Great Work slots, and some reward Great Works upon completion. if you're looking to collect Great Works, they are worth constructing. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_STATEHOOD_2_CHAPTER_VILLAGES_TITLE" Language="th_TH">
 			<Text>หมู่บ้าน</Text>		<!-- Villages -->
 		</Replace>
@@ -3033,6 +3164,15 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_RESOURCES_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
 			<Text>เคล็ดลับ: การแจ้งเตือนการมอบหมายทรัพยากรจะปรากฏเมื่อคุณได้รับทรัพยากรใหม่หรือเมื่อมีช่องทรัพยากรใหม่พร้อมใช้งาน</Text>		<!-- Tip: The Resource Assignments Available Notification will appear when you obtain a new Resource or when a new Resource Slot is available. -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_RESOURCE_SLOT_1_TITLE" Language="th_TH">
+			<Text>ช่องทรัพยากร</Text>		<!-- Resource Slots -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_RESOURCE_SLOT_1_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>ทุกถิ่นฐานสามารถจัดสรรทรัพยากรได้ แต่ต้องมีโครงสร้างพื้นฐานที่รองรับ แม้ว่าถิ่นฐานทุกแห่งจะเริ่มต้นด้วยช่องทรัพยากรเดียว คุณสามารถปลดล็อกช่องเพิ่มเติมได้โดยสร้างอาคารเฉพาะ เช่น ตลาด หรือเปลี่ยนโฟกัสของเมือง</Text>		<!-- Every Settlement can be allocated a Resource, but only if it has the infrastructure to handle it. While every Settlement starts with a single Resource Slot, you can unlock more by building specific Buildings, like the Market, or changing a Town's Focus. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_RESOURCE_SLOT_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>เคล็ดลับ: เส้นทางมรดกเศรษฐกิจจะได้รับประโยชน์จากการมีช่องทรัพยากรมากมาย และทรัพยากรสามารถช่วยให้ประชากรของคุณมีความสุขในช่วงเวลาที่ยากลำบาก</Text>		<!-- Tip: Economic Legacy Paths will benefit from having plentiful Resource Slots, and Resources can help keep your population happy in times of struggle. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_IMPROVEMENT_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>หากแผ่นปูพื้นมีทรัพยากร ทรัพยากรนั้นจะกำหนดการพัฒนาพื้นฐาน สำหรับแผ่นปูพื้นที่ไม่มีทรัพยากร การพัฒนาจะแตกต่างกันไปตามชีวภูมิ ตัวอย่างเช่น: [BLIST][LI]ภูมิประเทศราบ: ฟาร์ม - ให้ผลผลิตเป็นอาหาร[LI]ภูมิประเทศเนินเขา: เหมือง - ให้ผลผลิตเป็นการผลิต[LI]คุณลักษณะพืชพันธุ์: คนตัดไม้ - ให้ผลผลิตเป็นการผลิต[LI]คุณลักษณะชื้น: หลุมดินเหนียว - ให้ผลผลิตเป็นการผลิต[LI]แม่น้ำใหญ่ หรือ ชายฝั่ง: เรือประมง - ให้ผลผลิตเป็นอาหาร[/LIST]</Text>		<!-- If a tile has a Resource, that Resource determines the basic Improvement. For tiles without Resources, the Improvement varies by Biome. Examples include:[BLIST][LI]Flat Terrain: Farm - Provides Food.[LI]Hill Terrain: Mine - Provides Production.[LI]Vegetation Feature: Woodcutter - Provides Production.[LI]Wet Feature: Clay Pit - Provides Production.[LI]Navigable River or Coast: Fishing Boats - Provides Food.[/LIST] -->
 		</Replace>
@@ -3194,6 +3334,15 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GROWTH_1_CHAPTER_CONTENT_PARA_1" Language="th_TH">
 			<Text>ถิ่นฐาน จะควบคุมช่องใหม่โดยการ สะสมอาหาร จนกว่าพวกเขาจะถึงเกณฑ์ หลังจากข้ามเกณฑ์นี้ ถิ่นฐานจะได้ประชากร ที่สามารถจัดสรรให้กับช่องเพื่อการเติบโตได้</Text>		<!-- Settlements gain control of new tiles by accumulating Food until they reach a threshold. After crossing this threshold, the Settlement gains a Population that can allocate to a tile for growth. -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FORTIFICATION_1_TITLE" Language="th_TH">
+			<Text>ป้อมปราการ</Text>		<!-- Fortifications -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FORTIFICATION_1_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>ป้อมปราการคือโครงสร้างใด ๆ ที่เพิ่มการป้องกันให้กับช่องนั้น กำแพงเป็นป้อมปราการที่พบได้บ่อยที่สุด แต่สิ่งมหัศจรรย์และสิ่งปรับปรุงบางอย่างก็เป็นป้อมปราการได้เช่นกัน</Text>		<!-- A Fortification is any type of structure that increases the defense of the tile. The most common type of Fortification is Walls, but certain Wonders and Improvements can also be Fortifications. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FORTIFICATION_1_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>เคล็ดลับ: หน่วยทหารสามารถสร้างป้อมปราการชั่วคราว ซึ่งช่วยให้หน่วยป้องกันช่องได้ดีขึ้น สร้างป้อมปราการชั่วคราวในจุดที่คาดว่าจะเกิดการรบ หรือเพื่อปกป้องพื้นที่สำคัญ ระวัง: เมื่อป้อมปราการชั่วคราวถูกละทิ้ง จะหายไป</Text>		<!-- Tip: Military Units can also create temporary Fortifications, which can help a Unit defend the tile more effectively. Build temporary Fortifications where you know combat will take place, or to protect a critical area. Be warned: once temporary Fortifications are abandoned, they will disappear. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GROWTH_1_CHAPTER_BORDER_TITLE" Language="th_TH">
 			<Text>การเติบโตของพรมแดน</Text>		<!-- Border Growth -->
 		</Replace>
@@ -3272,6 +3421,15 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_12_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>อย่างไรก็ตาม เมื่ออารยธรรมของคุณก้าวผ่านยุคต่าง ๆ อาคารมาตรฐานจะเปลี่ยนแปลงไป ในช่วงเปลี่ยนยุค อาคารเหล่านี้จะสูญเสียโบนัสติดกัน เหลือเพียงผลตอบแทนพื้นฐานเท่านั้น การลดลงนี้อาจส่งผลต่อประสิทธิภาพของเมืองคุณอย่างมากหากไม่ได้รับการแก้ไข</Text>		<!-- However, as your civilization progresses through different Ages, Standard Buildings undergo changes. During an Age Transition, these buildings lose their adjacency bonuses, retaining only their base yields. This reduction can significantly impact your city's productivity if not addressed. -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_3_CHAPTER_CONTENT_PARA_3" Language="th_TH">
+			<Text>แม้จะสูญเสียโบนัสติดกัน อาคารมาตรฐานยังคงมีค่าบำรุงรักษา ซึ่งหมายความว่าอาจกลายเป็นภาระทางเศรษฐกิจหากไม่ได้อัปเดตหรือแทนที่ เพราะให้ผลตอบแทนน้อยลงแต่ยังคงใช้ทรัพยากรอยู่</Text>		<!-- Despite the loss of adjacency bonuses, Standard Buildings continue to incur maintenance costs. This means they can become economic burdens if not updated or replaced, as they offer diminished returns while still consuming resources. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_3_CHAPTER_CONTENT_PARA_4" Language="th_TH">
+			<Text>เพื่อแก้ไขปัญหาเหล่านี้ เกมจึงมีระบบการสร้างทับ (Overbuilding) ซึ่งช่วยให้คุณสร้างอาคารใหม่ที่ล้ำสมัยทับของเดิมได้ โดยจะทดแทนโครงสร้างเก่าด้วยอาคารที่เหมาะสมกับยุคปัจจุบันมากกว่า กระบวนการนี้ช่วยฟื้นฟูหรือเพิ่มโบนัสติดกันและผลผลิตที่สูญเสียไปในช่วงเปลี่ยนยุค</Text>		<!-- To mitigate these issues, the game introduces the Overbuilding mechanic. Overbuilding allows you to construct new, more advanced buildings over existing ones, effectively replacing outdated structures with ones that are better suited to the current Age. This process helps restore or even enhance the adjacency bonuses and yields that were lost during the Age Transition. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_3_CHAPTER_CONTENT_PARA_5" Language="th_TH">
+			<Text>ประเมินเมืองของคุณเป็นประจำหลังจากเปลี่ยนยุคแต่ละครั้ง ระบุอาคารมาตรฐานที่สูญเสียโบนัสติดกัน และพิจารณาสร้างทับด้วยโครงสร้างใหม่เพื่อเพิ่มประสิทธิภาพและรักษาเศรษฐกิจให้แข็งแกร่ง</Text>		<!-- Regularly assess your cities after each Age Transition. Identify Standard Buildings that have lost their adjacency bonuses and consider overbuilding them with newer structures to maximize efficiency and maintain a strong economy. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_12_CHAPTER_CONTENT_PARA_3" Language="th_TH">
 			<Text>แม้จะสูญเสียโบนัสติดกัน อาคารมาตรฐานยังคงมีค่าใช้จ่ายในการบำรุงรักษา ซึ่งหมายความว่าอาจกลายเป็นภาระทางเศรษฐกิจหากไม่ได้รับการปรับปรุงหรือแทนที่ เนื่องจากให้ผลตอบแทนน้อยลงแต่ยังคงใช้ทรัพยากร</Text>		<!-- Despite the loss of adjacency bonuses, Standard Buildings continue to incur maintenance costs. This means they can become economic burdens if not updated or replaced, as they offer diminished returns while still consuming resources. -->
 		</Replace>
@@ -3335,6 +3493,9 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_6_TITLE" Language="th_TH">
 			<Text>อาคาร: ย่านพิเศษ</Text>		<!-- Buildings: Unique Quarter -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_10_CHAPTER_CONTENT_PARA_3" Language="th_TH">
+			<Text>เคล็ดลับ: โบนัสผลผลิตบนควอเตอร์และโบนัสติดกันจะรีเซ็ตทุกครั้งที่เปลี่ยนยุค การสร้างทับเป็นกลยุทธ์ที่มีค่าสำหรับเพิ่มศักยภาพของช่องและนำโบนัสผลผลิตกลับคืนสู่ควอเตอร์และโบนัสติดกัน</Text>		<!-- Tip: Yield bonuses on Quarters and Adjacencies reset with each Age transition. Overbuilding is a valuable strategy to maximize your tile's potential and reintroduce bonus yields back into Quarters and Adjacencies. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_6_CHAPTER_CONTENT_PARA_1" Language="th_TH">
 			<Text>ผู้เล่นสามารถสร้าง "ย่านพิเศษ" ได้เมื่ออารยธรรมมีอาคารเฉพาะสองแห่งอยู่บนแปลงเดียวกัน การตั้งค่านี้จะทำให้เมืองได้รับโบนัสการเล่นเกมพิเศษ ซึ่งจะแตกต่างกันไปตามอารยธรรม</Text>		<!-- Players can create a "Unique Quarter" when a Civ has two unique buildings on the same tile. This configuration grants the city a special gameplay bonus, which varies depending on the Civilization. -->
 		</Replace>
@@ -3349,6 +3510,39 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_7_CHAPTER_CONTENT_PARA_2" Language="th_TH">
 			<Text>เคล็ดลับ: วางอาคารไว้ข้างๆ แผ่นที่ตรงตามข้อกำหนดการอยู่ใกล้กัน จากนั้นเพิ่มผู้เชี่ยวชาญเพื่อเพิ่มผลผลิตให้สูงขึ้นอีก ซึ่งกลยุทธ์นี้สามารถเพิ่มผลผลิตได้อย่างมีประสิทธิภาพในแผ่นเดียว</Text>		<!-- Tip: Place buildings next to tiles that meet the adjacency requirements then add Specialists to further boost their yield. This strategy effectively maximizes the yield on a single tile. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_13_TITLE" Language="th_TH">
+			<Text>อาคาร: อาคารน้ำ</Text>		<!-- Buildings: Water Building -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_13_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>อาคารน้ำคือโครงสร้างที่ต้องการน้ำในการวาง เช่น ท่าเทียบเรือประมงและท่าเรือ อย่างไรก็ตาม อาคารที่สามารถวางบนแหล่งน้ำแต่ไม่ได้ขึ้นกับน้ำจริง ๆ เช่น ยุ้งฉางบนแม่น้ำสายรอง จะไม่ถือเป็นอาคารน้ำ</Text>		<!-- A Water Building is any structure that requires water to be placed. Examples include the Fishing Quay and Wharf. However, buildings that can be placed on water features but don’t actually depend on it, such as a Granary on a minor river, are not considered Water Buildings. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_13_CHAPTER_CONTENT_PARA_2" Language="th_TH">
+			<Text>เคล็ดลับ: กฎทั่วไปคือ หากอาคารสามารถวางบนช่องชายฝั่งหรือแม่น้ำสายหลักได้ ถือว่าเป็นอาคารน้ำ</Text>		<!-- Tip: A general rule of thumb is that if a Building can be placed on Coastal or Navigable River tiles, it’s a Water Building. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_14_TITLE" Language="th_TH">
+			<Text>อาคาร: อาคารทหาร</Text>		<!-- Buildings: Military Building -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_14_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>อาคารทหารทำหน้าที่เป็นจุดเกิดของหน่วยที่ฝึกใหม่ ตัวอย่างเช่น เมื่อสร้างค่ายทหาร หน่วยบกที่ฝึกใหม่จะปรากฏที่นั่นแทนศูนย์กลางเมือง โบนัสบางอย่างมีผลเฉพาะกับอาคารทหารเท่านั้น</Text>		<!-- Military Buildings act as spawn points for newly trained Units. For example, once the Barracks has been constructed, newly trained land Units will appear there instead of the City Center. Some bonuses only affect Military Buildings. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_15_TITLE" Language="th_TH">
+			<Text>อาคาร: สร้างต่อเนื่องเป็นเส้น</Text>		<!-- Buildings: Built in Line -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_15_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>สิ่งก่อสร้างบางอย่าง เช่น กำแพงเมืองจีน สามารถเชื่อมต่อกับสำเนาที่อยู่ติดกันเพื่อสร้างเป็นเส้นตรง เส้นนี้จะไม่สามารถแยกหรือข้ามกับตัวเองได้ สิ่งก่อสร้างที่เชื่อมต่อกันมักจะให้โบนัสกับสำเนาที่อยู่ติดกัน</Text>		<!-- Some Constructibles, like the Ming Great Wall, can link adjacent copies together to create a line. This line cannot fork or intersect with itself. Constructibles that link together will often give bonuses to adjacent copies. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_16_TITLE" Language="th_TH">
+			<Text>อาคาร: โรงสี</Text>		<!-- Buildings: Mill -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_16_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>โรงสีเป็นอาคารที่ต้องวางบนแม่น้ำสายรองหรือแม่น้ำที่เดินเรือได้ เช่น โรงสีข้าว</Text>		<!-- Mills are Buildings that must be placed on a Minor or Navigable River, such as the Gristmill. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_17_TITLE" Language="th_TH">
+			<Text>อาคาร: สะพาน</Text>		<!-- Buildings: Bridge -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_17_CHAPTER_CONTENT_PARA_1" Language="th_TH">
+			<Text>ยูนิตภาคพื้นดินสามารถใช้สะพานข้ามแม่น้ำที่เดินเรือได้บนช่องนี้โดยไม่ต้องลงเรือ ควรสร้างในจุดที่สะดวกเพื่อให้ความเจริญของอารยธรรมดำเนินต่อไปได้อย่างราบรื่น</Text>		<!-- Land Units may use Bridges to cross a Navigable River on this tile without embarking. Consider building them in convenient locations to keep your Civilization moving. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_8_TITLE" Language="th_TH">
 			<Text>อาคาร: คงอยู่ตลอดกาล</Text>		<!-- Buildings: Ageless -->
@@ -3881,6 +4075,9 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SPECIALIST_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
 			<Text>เคล็ดลับ: วางผู้เชี่ยวชาญในเขตเมืองที่มีโบนัสความใกล้เคียงสูงเพื่อเพิ่มผลผลิตให้สูงสุด ตรวจสอบอาหารและความสุข เนื่องจากผู้เชี่ยวชาญสามารถทำให้เกิดแรงกดดันต่อทรัพยากรในเมืองที่เติบโตอย่างรวดเร็ว</Text>		<!-- Tip: Strategically place Specialists in high-adjacency Urban tiles to maximize yield boosts. Keep an eye on Food and Happiness, as Specialists can strain resources in rapidly growing Cities. -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_RAILROAD_1_CHAPTER_CONTENT_PARA_5" Language="th_TH">
+			<Text>เคล็ดลับ: หากต้องการเชื่อมต่ออาณาจักรขนาดใหญ่ คุณอาจต้องสร้างท่าเรือ ท่าเรือสามารถเชื่อมต่อสถานีรถไฟที่ถูกแบ่งด้วยน้ำได้</Text>		<!-- Tip: To connect a large empire, you will likely need to build Ports. Ports can connect Rail Stations that are split by water. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_OCEAN_1_TITLE" Language="th_TH">
 			<Text>การสำรวจมหาสมุทร</Text>		<!-- Ocean Exploration -->
 		</Replace>
@@ -4040,6 +4237,12 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_CHAPTER_FOUNDATION_PARA_2" Language="th_TH">
 			<Text>เน้นการเพิ่มระดับต้น ๆ ในเส้นทางพื้นฐานเพื่อปลดล็อกช่องใส่ของที่ระลึกแรกอย่างรวดเร็ว ซึ่งจะช่วยเพิ่มทางเลือกในการเล่นอย่างมาก</Text>		<!-- Prioritize early levels in your Foundation Path to quickly unlock your first Memento Slots, significantly enhancing your gameplay options. -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_BASICS_PARA_1_SENTENCE_1" Language="th_TH">
+			<Text>ของที่ระลึกเป็นไอเท็มพิเศษที่ได้รับจากการพัฒนา Legends ซึ่งสามารถสวมใส่ก่อนเริ่มเกมเพื่อให้โบนัสพิเศษในเกม</Text>		<!-- Mementos are special items earned from your Legends progression, which can be equipped before each game to provide unique in-game bonuses. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_BASICS_PARA_1_SENTENCE_2" Language="th_TH">
+			<Text>ของที่ระลึกทำหน้าที่เหมือนอุปกรณ์สำหรับผู้นำของคุณ ให้เอฟเฟกต์ตั้งแต่เพิ่มค่าสถานะพื้นฐานไปจนถึงข้อได้เปรียบเฉพาะสถานการณ์ ผู้นำแต่ละคนสามารถสวมใส่ของที่ระลึกได้สูงสุดสองชิ้น ทำให้มีความยืดหยุ่นทางกลยุทธ์อย่างมาก</Text>		<!-- They function like gear for your leader, giving effects ranging from basic stat boosts to situational advantages. Every leader can equip up to two Mementos, offering powerful strategic flexibility. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_4_CHAPTER_LEADER_TITLE" Language="th_TH">
 			<Text>เส้นทางผู้นำ</Text>		<!-- Leader Path -->
 		</Replace>
@@ -4063,6 +4266,30 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_UNLOCK_TITLE" Language="th_TH">
 			<Text>การปลดล็อกและสะสม</Text>		<!-- Unlocking and Collection -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MEMENTOS_TITLE" Language="th_TH">
+			<Text>{LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_TITLE}</Text>		<!-- {LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_TITLE} -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MEMENTOS_CHAPTER_BASICS_TITLE" Language="th_TH">
+			<Text>{LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_BASICS_TITLE}</Text>		<!-- {LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_BASICS_TITLE} -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_BASICS_PARA_1_SENTENCE_1_APPLE_ARCADE" Language="th_TH">
+			<Text>ของที่ระลึกเป็นไอเท็มพิเศษที่สามารถสวมใส่ก่อนเริ่มเกมเพื่อให้โบนัสพิเศษในเกม</Text>		<!-- Mementos are special items, which can be equipped before each game to provide unique in-game bonuses. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MEMENTOS_CHAPTER_BASICS_PARA_1" Language="th_TH">
+			<Text>{LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_BASICS_PARA_1_SENTENCE_1_APPLE_ARCADE} {LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_BASICS_PARA_1_SENTENCE_2}</Text>		<!-- {LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_BASICS_PARA_1_SENTENCE_1_APPLE_ARCADE} {LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_BASICS_PARA_1_SENTENCE_2} -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MEMENTOS_CHAPTER_BASICS_PARA_2" Language="th_TH">
+			<Text>{LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_BASICS_PARA_2}</Text>		<!-- {LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_BASICS_PARA_2} -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MEMENTOS_CHAPTER_STRAT_TITLE" Language="th_TH">
+			<Text>{LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_STRAT_TITLE}</Text>		<!-- {LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_STRAT_TITLE} -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MEMENTOS_CHAPTER_STRAT_PARA_1" Language="th_TH">
+			<Text>{LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_STRAT_PARA_1}</Text>		<!-- {LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_STRAT_PARA_1} -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MEMENTOS_CHAPTER_STRAT_PARA_2" Language="th_TH">
+			<Text>{LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_STRAT_PARA_2}</Text>		<!-- {LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_STRAT_PARA_2} -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LEGENDS_5_CHAPTER_UNLOCK_PARA_1" Language="th_TH">
 			<Text>คุณจะปลดล็อกของที่ระลึกโดยไปถึงหมุดหมายเฉพาะในเส้นทางตำนาน ของที่ระลึกบางชิ้นได้จากระดับสูงในเส้นทางพื้นฐาน ขณะที่อีกหลายชิ้นเป็นรางวัลเฉพาะผู้นำที่ได้จากการเพิ่มระดับเส้นทางผู้นำ เมื่อปลดล็อกแล้วจะอยู่ในคลังถาวรและสามารถติดตั้งกับผู้นำใดก็ได้อย่างอิสระ</Text>		<!-- You unlock Mementos by reaching specific milestones within your Legend Paths. Some Mementos come from higher Foundation Path levels, while many are leader-specific rewards earned by progressing through Leader Paths. Once unlocked, they permanently join your collection and can be freely equipped by any leader. -->
@@ -6596,6 +6823,9 @@
 		<Replace Tag="LOC_LEGACY_PATH_CLASS_MILITARY_NAME" Language="th_TH">
 			<Text>ทหาร</Text>		<!-- Military -->
 		</Replace>
+		<Replace Tag="LOC_DISTRICT_UNIMPROVED_NAME" Language="th_TH">
+			<Text>ยังไม่ได้ปรับปรุง</Text>		<!-- Unimproved -->
+		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_CLASS_SCIENCE_NAME" Language="th_TH">
 			<Text>วิทยาศาสตร์</Text>		<!-- Science -->
 		</Replace>
@@ -6697,6 +6927,54 @@
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_WOODCUTTER_NAME" Language="th_TH">
 			<Text>โรงตัดไม้</Text>		<!-- Woodcutter -->
+		</Replace>
+		<Replace Tag="LOC_TAG_CULTURE" Language="th_TH">
+			<Text>วัฒนธรรม</Text>		<!-- Culture -->
+		</Replace>
+		<Replace Tag="LOC_TAG_DIPLOMACY" Language="th_TH">
+			<Text>การทูต</Text>		<!-- Diplomacy -->
+		</Replace>
+		<Replace Tag="LOC_TAG_FOOD" Language="th_TH">
+			<Text>อาหาร</Text>		<!-- Food -->
+		</Replace>
+		<Replace Tag="LOC_TAG_FORTIFICATION" Language="th_TH">
+			<Text>ป้อมปราการ</Text>		<!-- Fortification -->
+		</Replace>
+		<Replace Tag="LOC_TAG_GOLD" Language="th_TH">
+			<Text>ทอง</Text>		<!-- Gold -->
+		</Replace>
+		<Replace Tag="LOC_TAG_HAPPINESS" Language="th_TH">
+			<Text>ความสุข</Text>		<!-- Happiness -->
+		</Replace>
+		<Replace Tag="LOC_TAG_MILITARY" Language="th_TH">
+			<Text>ทหาร</Text>		<!-- Military -->
+		</Replace>
+		<Replace Tag="LOC_TAG_PRODUCTION" Language="th_TH">
+			<Text>กำลังผลิต</Text>		<!-- Production -->
+		</Replace>
+		<Replace Tag="LOC_TAG_SCIENCE" Language="th_TH">
+			<Text>วิทยาศาสตร์</Text>		<!-- Science -->
+		</Replace>
+		<Replace Tag="LOC_TAG_WAREHOUSE" Language="th_TH">
+			<Text>คลังสินค้า</Text>		<!-- Warehouse -->
+		</Replace>
+		<Replace Tag="LOC_TAG_WATER" Language="th_TH">
+			<Text>น้ำ</Text>		<!-- Water -->
+		</Replace>
+		<Replace Tag="LOC_TAG_BRIDGE" Language="th_TH">
+			<Text>สะพาน</Text>		<!-- Bridge -->
+		</Replace>
+		<Replace Tag="LOC_TAG_UNIQUE" Language="th_TH">
+			<Text>พิเศษ</Text>		<!-- Unique -->
+		</Replace>
+		<Replace Tag="LOC_TAG_UNIQUE_IMPROVEMENT" Language="th_TH">
+			<Text>การปรับปรุงพิเศษ</Text>		<!-- Unique -->
+		</Replace>
+		<Replace Tag="LOC_TAG_AGELESS" Language="th_TH">
+			<Text>คงอยู่ตลอดกาล</Text>		<!-- Ageless -->
+		</Replace>
+		<Replace Tag="LOC_TAG_PERSISTENT" Language="th_TH">
+			<Text>คงอยู่</Text>		<!-- Persistent -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_FISHING_BOAT_NAME" Language="th_TH">
 			<Text>เรือประมง</Text>		<!-- Fishing Boat -->
@@ -8719,7 +8997,7 @@
 			<Text>ดูชา</Text>		<!-- Dusha -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_AGENDA_DUSHA_DESC" Language="th_TH">
-			<Text>ชอบอารยธรรมที่มีผลงานชิ้นเอกที่น้อยที่สุด ไม่ชอบที่มีผลงานชิ้นเอกที่มากที่สุด</Text>		<!-- Likes the Civilization with the least Great Works. Dislikes the one with the most Great Works.  -->
+			<Text>ชอบอารยธรรมที่มีผลงานชิ้นเอกที่น้อยที่สุด ไม่ชอบที่มีผลงานชิ้นเอกที่มากที่สุด</Text>		<!-- Likes the Civilization with the least Great Works. Dislikes the one with the most Great Works. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_AGENDA_CIVIC_VIRTUE_NAME" Language="th_TH">
 			<Text>แนวคิดศีลธรรม</Text>		<!-- Civic Virtue -->
@@ -10839,13 +11117,13 @@
 			<Text>เรามักเดินไปถึงระหว่างสองเหว ความระมัดระวังและความมีสติเป็นเส้นทางของเราในการก้าวไปข้างหน้า</Text>		<!-- We walk always between two abysses. Care and moderation is our path forward. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_LEADER_LAFAYETTE_ANY" Language="th_TH">
-			<Text>ข้าเป็นแค่พลเมือง มีนามว่า ลาฟาแยต, ได้โปรดกรุณาแก่ข้า</Text>		<!-- Just Citizen Lafayette, if you please.  -->
+			<Text>ข้าเป็นแค่พลเมือง มีนามว่า ลาฟาแยต, ได้โปรดกรุณาแก่ข้า</Text>		<!-- Just Citizen Lafayette, if you please. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_RECIPIENT_LEADER_LAFAYETTE_ANY" Language="th_TH">
-			<Text>ข้าเป็นแค่พลเมือง มีนามว่า ลาฟาแยต, ได้โปรดกรุณาแก่ข้า</Text>		<!-- Just Citizen Lafayette, if you please.  -->
+			<Text>ข้าเป็นแค่พลเมือง มีนามว่า ลาฟาแยต, ได้โปรดกรุณาแก่ข้า</Text>		<!-- Just Citizen Lafayette, if you please. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_LEADER_LAFAYETTE_ANY" Language="th_TH">
-			<Text>ข้าเป็นแค่พลเมือง มีนามว่า ลาฟาแยต, ได้โปรดกรุณาแก่ข้า</Text>		<!-- Just Citizen Lafayette, if you please.  -->
+			<Text>ข้าเป็นแค่พลเมือง มีนามว่า ลาฟาแยต, ได้โปรดกรุณาแก่ข้า</Text>		<!-- Just Citizen Lafayette, if you please. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_INITIATOR_LEADER_LAFAYETTE_ANY" Language="th_TH">
 			<Text>ซิก เซมเพอร์ ไทแรนไนส์ (เป็นเช่นนี้เสมอสำหรับพวกทรราช!)</Text>		<!-- Sic semper tyrannis. -->
@@ -11311,7 +11589,7 @@
 			<Text>นักเขียน นักพิมพ์ และนักประดิษฐ์ ท่านให้คำปรึกษาแก่ทุกคนที่ขอ และแม้แต่ผู้ที่ไม่ได้ร้องขอ ด้วยไหวพริบแห้งแล้งและปัญญาอันเฉียบคม ท่านท้าทายความอยุติธรรมของการปกครองโดยชาวต่างชาติ และใช้ความคิดสร้างสรรค์ของท่านในการสร้างชาติบนพื้นฐานของหลักการและเหตุผล เบนจามิน แฟรงคลิน ขอให้ท่านนำคำแนะนำที่มีคุณค่า และให้เราร่วมกันทำให้ดวงอาทิตย์ส่องสว่างเหนือประชาชนของท่าน</Text>		<!-- Writer, printer, and inventor, you offer your counsel to all who ask - and many who do not. With your dry wit and keen mind, you challenge the injustice of foreign rule and set your inventive mind towards building a nation based on principled rationality. Benjamin Franklin, bring your sound advice, and let us ensure that the sun rises on your people. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_CATHERINE" Language="th_TH">
-			<Text>แคทเธอรีนผู้ยิ่งใหญ่ จักรพรรดินีแห่งโรมานอฟ ท่านนำความงดงามสู่ระบอบเผด็จการ ด้วยสายตาที่เฉียบคม ท่านเปลี่ยนแปลงไม่เพียงแต่พระราชวัง แต่รวมถึงประชาชนของท่าน จงปลูกฝังความรักในศิลปะ และความเคารพต่ออำนาจ นำพวกเขาสู่ความรู้ และให้พวกเขาเห็นแสงแห่งดวงดาวเหนือ ที่ส่องสว่างออกมาจากพระราชบัลลังก์ของท่าน</Text>		<!-- Catherine the Great, Tsarina of the Romanovs, you bring beauty to autocracy. With your keen eye, you transform not only your palace, but your people. Cultivate a love of the arts - and respect for authority. Guide them to knowledge, and let them see the light of the north star, shining out from your throne.   -->
+			<Text>แคทเธอรีนผู้ยิ่งใหญ่ จักรพรรดินีแห่งโรมานอฟ ท่านนำความงดงามสู่ระบอบเผด็จการ ด้วยสายตาที่เฉียบคม ท่านเปลี่ยนแปลงไม่เพียงแต่พระราชวัง แต่รวมถึงประชาชนของท่าน จงปลูกฝังความรักในศิลปะ และความเคารพต่ออำนาจ นำพวกเขาสู่ความรู้ และให้พวกเขาเห็นแสงแห่งดวงดาวเหนือ ที่ส่องสว่างออกมาจากพระราชบัลลังก์ของท่าน</Text>		<!-- Catherine the Great, Tsarina of the Romanovs, you bring beauty to autocracy. With your keen eye, you transform not only your palace, but your people. Cultivate a love of the arts - and respect for authority. Guide them to knowledge, and let them see the light of the north star, shining out from your throne. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_CHARLEMAGNE" Language="th_TH">
 			<Text>เสียงแตรอันกังวานของอัศวินส่งเสียงเรียกท่าน ชาลส์มาน ผู้เป็นกษัตริย์แห่งแฟรงก์และจักรพรรดิโรมันอันศักดิ์สิทธิ์ ในห้องอาหารและบทเพลงของนักร้องเดินทาง ขอให้ชัยชนะของท่านดังก้องกังวาล ในตำนาน ขอให้ชัยชนะของท่านคงอยู่ตลอดกาล เมื่ออัศวินของท่านก้าวสู่สนามรบ จงให้พวกเขารู้ว่าพวกเขารบเพื่อใคร</Text>		<!-- The clarion call of the knight’s trumpet seeks you out, Charlemagne, King of the Franks and Holy Roman Emperor. In feast-halls and in troubadours’ songs, may your victories resound. In legend, may your victories remain. As your knights take the battlefield, let them know for whom they ride. -->
@@ -12802,10 +13080,10 @@
 			<Text>ในฐานะ ชาวอินคา สร้าง มาชูปิกชู ให้เสร็จ</Text>		<!-- As Inca, complete Machu Pikchu. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MAJAPAHIT_COMPLETE_CETBANG_NAME" Language="th_TH">
-			<Text>เจดีย์บอรอบูดูร์</Text>		<!-- Borobudur -->
+			<Text>เจดีย์บุโรพุทโธ</Text>		<!-- Borobudur -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MAJAPAHIT_COMPLETE_CETBANG_DESC" Language="th_TH">
-			<Text>ในฐานะ มาจาปาฮิต สร้าง เจดีย์บอรอบูดูร์ ให้เสร็จ</Text>		<!-- As Majapahit, complete Borobudur. -->
+			<Text>ในฐานะ มาจาปาฮิต สร้าง บุโรพุทโธ ให้เสร็จ</Text>		<!-- As Majapahit, complete Borobudur. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MING_COMPLETE_FORBIDDEN_CITY_NAME" Language="th_TH">
 			<Text>พระราชวังต้องห้าม</Text>		<!-- Forbidden City -->
@@ -20607,6 +20885,9 @@
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_XERXES_FLAWLESS_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สองมรดก, ยุคโบราณ</Text>		<!-- Dual Legacies, Antiquity -->
 		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_UNLOCK_CONDITION_LEADER_PATH_DEFAULT" Language="th_TH">
+			<Text>ปลดล็อกเมื่อ {1_LeaderName} ถึงระดับที่กำหนด</Text>		<!-- Unlocked when {1_LeaderName} reaches required Level -->
+		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_XERXES_FLAWLESS_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ เซิร์กซีส, กษัตริย์แห่งกษัตริย์ ให้ทำเส้นทางมรดก 2 เส้นทาง ในยุคโบราณเดียว</Text>		<!-- As Xerxes, King of Kings, complete 2 Legacy Paths in a single Antiquity Age. -->
 		</Replace>
@@ -23322,6 +23603,9 @@
 		<Replace Tag="LOC_PAUSE_MENU_RESTART_DESCRIPTION" Language="th_TH">
 			<Text>เริ่มเกมใหม่ด้วยตัวสุ่มใหม่</Text>		<!-- Restart the game with new random seeds. -->
 		</Replace>
+		<Replace Tag="LOC_PLOT_TOOLTIP_LAKE" Language="th_TH">
+			<Text>ทะเลสาบ</Text>		<!-- Lake -->
+		</Replace>
 		<Replace Tag="LOC_RESTART_DISABLED_REASON_START_AGE" Language="th_TH">
 			<Text>สามารถใช้ได้เฉพาะในยุคเริ่มต้นเท่านั้น</Text>		<!-- Can only be used in the starting age. -->
 		</Replace>
@@ -23366,6 +23650,12 @@
 		</Replace>
 		<Replace Tag="LOC_PAUSE_MENU_CONFIRM_RESTART_GAME" Language="th_TH">
 			<Text>คุณแน่ใจหรือไม่ว่าต้องการเริ่มเกมใหม่?[N]นี่จะเริ่มเกมใหม่ด้วยตัวสุ่มใหม่ ตัวเลือกใดๆ รวมถึงผู้นำและอารยธรรมที่ตั้งค่าเป็น "สุ่ม" จะถูกสุ่มใหม่</Text>		<!-- Are you sure you wish to restart the game?[N]This will restart the game with new random seeds.  Any options, including Leaders and Civilizations, that were set to "RANDOM" will be re-rolled. -->
+		</Replace>
+		<Replace Tag="LOC_PLOT_TOOLTIP_QUARTER" Language="th_TH">
+			<Text>ย่าน</Text>		<!-- Quarter -->
+		</Replace>
+		<Replace Tag="LOC_PLOT_TOOLTIP_RESOURCE" Language="th_TH">
+			<Text>ทรัพยากร</Text>		<!-- Resource -->
 		</Replace>
 		<Replace Tag="LOC_PAUSE_MENU_CONFIRM_QUIT_TO_MENU" Language="th_TH">
 			<Text>คุณแน่ใจว่าต้องการออกไปที่เมนูหลักหรือไม่? ความคืบหน้าที่ยังไม่ได้บันทึกทั้งหมดจะหายไป!</Text>		<!-- Are you sure you wish to exit to main menu? All unsaved progress will be lost! -->
@@ -23538,8 +23828,23 @@
 		<Replace Tag="LOC_UI_PRODUCTION_CATEGORY_IMPROVEMENTS" Language="th_TH">
 			<Text>การพัฒนา</Text>		<!-- Improvements -->
 		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_SETTLEMENT_YIELDS_HEADER" Language="th_TH">
+			<Text>ผลผลิตของถิ่นฐาน</Text>		<!-- Settlement Yields -->
+		</Replace>
 		<Replace Tag="LOC_UI_PRODUCTION_CATEGORY_UNITS" Language="th_TH">
 			<Text>ยูนิต</Text>		<!-- Units -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_YIELD_BONUSES_HEADER" Language="th_TH">
+			<Text>โบนัสผลผลิต</Text>		<!-- Yield Bonuses -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_NO_YIELD_BONUSES" Language="th_TH">
+			<Text>ไม่มีโบนัสผลผลิต</Text>		<!-- No Yield Bonuses -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_SPECIALIST_BONUS" Language="th_TH">
+			<Text>โบนัสผู้เชี่ยวชาญ:</Text>		<!-- Specialist Bonus: -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_SPECIALIST_MAINTENANCE" Language="th_TH">
+			<Text>ค่าบำรุงรักษาผู้เชี่ยวชาญ:</Text>		<!-- Specialist Maintenance: -->
 		</Replace>
 		<Replace Tag="LOC_UI_PRODUCTION_CATEGORY_WONDERS" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์</Text>		<!-- Wonders -->
@@ -23583,6 +23888,9 @@
 		<Replace Tag="LOC_UI_PRODUCTION_MOVE_NAME" Language="th_TH">
 			<Text>ย้าย: {1_ConstructibleName}</Text>		<!-- MOVE: {1_ConstructibleName} -->
 		</Replace>
+		<Replace Tag="LOC_FORBIDDEN_CONVERT_TOWNS_TO_CITIES" Language="th_TH">
+			<Text>เมืองนี้ห้ามเปลี่ยนเป็นเมืองใหญ่</Text>		<!-- Town is Forbidden for City Conversion -->
+		</Replace>
 		<Replace Tag="LOC_UI_PRODUCTION_REPAIR_NAME" Language="th_TH">
 			<Text>ซ่อมแซม: {1_ConstructibleName}</Text>		<!-- REPAIR: {1_ConstructibleName} -->
 		</Replace>
@@ -23606,6 +23914,9 @@
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_PURCHASE_ENTER" Language="th_TH">
 			<Text>เข้าสู่โหมดการซื้อ</Text>		<!-- Enter Purchase Mode -->
+		</Replace>
+		<Replace Tag="LOC_UI_PRODUCTION_MAINTENANCE_NEGATIVE_VALUE" Language="th_TH">
+			<Text>[STYLE:text-negative]-{1_Value}[/STYLE][icon:{2_Type}]</Text>		<!-- [STYLE:text-negative]-{1_Value}[/STYLE][icon:{2_Type}] -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_PURCHASE_EXIT" Language="th_TH">
 			<Text>ออกจากโหมดการซื้อ</Text>		<!-- Exit Purchase Mode -->
@@ -23651,6 +23962,93 @@
 		</Replace>
 		<Replace Tag="LOC_BUILDING_PLACEMENT_YIELD_NAME_FROM_WORKERS" Language="th_TH">
 			<Text>{1_Name} (จากผู้เชี่ยวชาญ)</Text>		<!-- {1_Name} (From Specialists) -->
+		</Replace>
+		<Replace Tag="LOC_UI_PRODUCTION_CONSTRUCTIBLE_COST" Language="th_TH">
+			<Text>ค่าใช้จ่าย: {1_Amount}[icon:{2_Yield}]</Text>		<!-- Cost: {1_Amount}[icon:{2_Yield}] -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_BEFORE" Language="th_TH">
+			<Text>ก่อน</Text>		<!-- Before -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_AFTER" Language="th_TH">
+			<Text>หลัง</Text>		<!-- After -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_YIELD_BONUSES" Language="th_TH">
+			<Text>โบนัสผลผลิต</Text>		<!-- Yield Bonuses -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_NO_IMPROVEMENT" Language="th_TH">
+			<Text>ไม่มีการปรับปรุง</Text>		<!-- No Improvement -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_RECIEVE_IMPROVEMENT" Language="th_TH">
+			<Text>ได้รับ: {1_Name}</Text>		<!-- Receive: {1_Name} -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_YIELD_BONUS" Language="th_TH">
+			<Text>[style: {1_Style}]{2_Amount: number +#,###;-#,###}[icon:{3_Icon}][/style]</Text>		<!-- [style: {1_Style}]{2_Amount: number +#,###;-#,###}[icon:{3_Icon}][/style] -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_YIELD_ICON_ONLY" Language="th_TH">
+			<Text>{1_Amount: number +#,#;-#,#} [icon:{2_Icon}]</Text>		<!-- {1_Amount: number +#,#;-#,#} [icon:{2_Icon}] -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_BASE_YIELD" Language="th_TH">
+			<Text>ผลผลิตพื้นฐาน:</Text>		<!-- Base Yield: -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_WAREHOUSE_YIELD" Language="th_TH">
+			<Text>โบนัสคลังสินค้า:</Text>		<!-- Warehouse Bonus: -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_OTHER_YIELD" Language="th_TH">
+			<Text>อื่น ๆ:</Text>		<!-- Other: -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_TILE_TYPE" Language="th_TH">
+			<Text>ประเภทช่อง:</Text>		<!-- Tile Type: -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_TO_EAST" Language="th_TH">
+			<Text>โบนัสติดกันทางตะวันออก:</Text>		<!-- To East Adjacency: -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_TO_WEST" Language="th_TH">
+			<Text>โบนัสติดกันทางตะวันตก:</Text>		<!-- To West Adjacency: -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_TO_NORTHWEST" Language="th_TH">
+			<Text>โบนัสติดกันทางตะวันตกเฉียงเหนือ:</Text>		<!-- To Northwest Adjacency: -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_TO_NORTHEAST" Language="th_TH">
+			<Text>โบนัสติดกันทางตะวันออกเฉียงเหนือ:</Text>		<!-- To Northeast Adjacency: -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_TO_SOUTHWEST" Language="th_TH">
+			<Text>โบนัสติดกันทางตะวันตกเฉียงใต้:</Text>		<!-- To Southwest Adjacency: -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_TO_SOUTHEAST" Language="th_TH">
+			<Text>โบนัสติดกันทางตะวันออกเฉียงใต้:</Text>		<!-- To Southeast Adjacency: -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_FROM_EAST" Language="th_TH">
+			<Text>รับโบนัสจากตะวันออก:</Text>		<!-- From East Adjacency: -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_FROM_WEST" Language="th_TH">
+			<Text>รับโบนัสจากตะวันตก:</Text>		<!-- From West Adjacency: -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_FROM_NORTHWEST" Language="th_TH">
+			<Text>รับโบนัสจากตะวันตกเฉียงเหนือ:</Text>		<!-- From Northwest Adjacency: -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_FROM_NORTHEAST" Language="th_TH">
+			<Text>รับโบนัสจากตะวันออกเฉียงเหนือ:</Text>		<!-- From Northeast Adjacency: -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_FROM_SOUTHWEST" Language="th_TH">
+			<Text>รับโบนัสจากตะวันตกเฉียงใต้:</Text>		<!-- From Southwest Adjacency: -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_FROM_SOUTHEAST" Language="th_TH">
+			<Text>รับโบนัสจากตะวันออกเฉียงใต้:</Text>		<!-- From Southeast Adjacency: -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_WILL_OVERBUILD" Language="th_TH">
+			<Text>[STYLE:uppercase]{1_NewBuilding}[/STYLE] จะ [STYLE:font-bold]สร้างทับ[/STYLE] [STYLE:uppercase]{2_OldBuilding}[/STYLE]</Text>		<!-- [STYLE:uppercase]{1_NewBuilding}[/STYLE] will [STYLE:font-bold]OVERBUILD[/STYLE] [STYLE:uppercase]{2_OldBuilding}[/STYLE] -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_PRESS_SPACE_HIDE_DETAILS" Language="th_TH">
+			<Text>ซ่อนรายละเอียดผลผลิต</Text>		<!-- Hide Yield Details -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_PRESS_SPACE_SHOW_DETAILS" Language="th_TH">
+			<Text>แสดงรายละเอียดผลผลิต</Text>		<!-- Show Yield Details -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_WAREHOUSE_IMPROVEMENTS" Language="th_TH">
+			<Text>การปรับปรุงคลังสินค้า:</Text>		<!-- Warehouse Improvements: -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_HIGHEST_ADJACENCIES" Language="th_TH">
+			<Text>ช่องที่มีโบนัสติดกันสูงสุด:</Text>		<!-- Highest Adjacency Tile: -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_PLACEMENT_YIELD_NAME_TO_TILE_FROM_WAREHOUSE" Language="th_TH">
 			<Text>{1_Name} ไปยังช่องอื่น (จากคลังสินค้า)</Text>		<!-- {1_Name} to other Tiles (From Warehouse) -->
@@ -23846,6 +24244,9 @@
 		</Replace>
 		<Replace Tag="LOC_UI_QUEST_TRACKER_PROGRESS_AND_GOAL_NO_TYPE" Language="th_TH">
 			<Text>{1_currentProgress}/{2_goal}</Text>		<!-- {1_currentProgress}/{2_goal} -->
+		</Replace>
+		<Replace Tag="LOC_UI_RANDOM_EVENT_FLOOD_VOLCANO_TOOLTIP" Language="th_TH">
+			<Text>ความเสี่ยงน้ำท่วมและภูเขาไฟใกล้เคียง</Text>		<!-- Flood Risk and Nearby Volcano -->
 		</Replace>
 		<Replace Tag="LOC_UI_QUEST_TRACKER_PROGRESS" Language="th_TH">
 			<Text>{3_progressType} {1_currentProgress}</Text>		<!-- {1_progressType} {2_currentProgress} -->
@@ -24764,6 +25165,12 @@
 		</Replace>
 		<Replace Tag="LOC_UI_ACCOUNT_INCOMPLETE" Language="th_TH">
 			<Text>บัญชี 2K ของคุณขาดรายละเอียดหรือไม่ได้รับการยืนยัน กรุณากรอกข้อมูลให้ครบถ้วนโดยการสแกน QR โค้ดที่แสดงด้วยโทรศัพท์มือถือของคุณหรือเยี่ยมชม: {1_Url} QR โค้ดและลิงก์นี้จะมีอายุการใช้งานเพียง 15 นาทีถัดไปเท่านั้น</Text>		<!-- Your 2K account is missing details or unverified. Finish setting up your 2K account by scanning the displayed QR code with your mobile phone or visit:{1_Url} This QR code and link will only be valid for the next 15 minutes. -->
+		</Replace>
+		<Replace Tag="LOC_UI_REWATCH_INTRO" Language="th_TH">
+			<Text>เล่นวิดีโอแนะนำอีกครั้ง</Text>		<!-- Play the Intro Video -->
+		</Replace>
+		<Replace Tag="LOC_UI_REWATCH_INTRO_DESCRIPTION" Language="th_TH">
+			<Text>ดูฉากเปิดเกม</Text>		<!-- View the Intro Cinematic -->
 		</Replace>
 		<Replace Tag="LOC_UI_PRIMARY_ACCOUNT_SELECT_TITLE" Language="th_TH">
 			<Text>เลือกบัญชีแพลตฟอร์มหลัก</Text>		<!-- Select Primary Platform Account -->
@@ -25948,6 +26355,9 @@
 		<Replace Tag="LOC_UI_FOOD_CHOOSER_EXPANSION_CONTROLS" Language="th_TH">
 			<Text>โฟกัส</Text>		<!-- Focus -->
 		</Replace>
+		<Replace Tag="LOC_UI_POS_YIELD_ICON_ONLY" Language="th_TH">
+			<Text>+{1_Amount} [icon:{2_Icon}]</Text>		<!-- +{1_Amount} [icon:{2_Icon}] -->
+		</Replace>
 		<Replace Tag="LOC_UI_FOOD_CHOOSER_SPECIALISTS" Language="th_TH">
 			<Text>ผู้เชี่ยวชาญ</Text>		<!-- Specialists -->
 		</Replace>
@@ -25995,6 +26405,9 @@
 		</Replace>
 		<Replace Tag="LOC_UI_QUEUE_MOVE_UP" Language="th_TH">
 			<Text>ขยับขึ้น</Text>		<!-- Move Up -->
+		</Replace>
+		<Replace Tag="LOC_UI_ADJACENCY_INFO_GENERIC" Language="th_TH">
+			<Text>ได้รับ +{1_Amount}[icon:{2_YieldType}] เพิ่มเติมสำหรับแต่ละช่องติดกัน:</Text>		<!-- Receive an additional +{1_Amount}[icon:{2_YieldType}] for each adjacent: -->
 		</Replace>
 		<Replace Tag="LOC_UI_QUEUE_DELETE_ITEM" Language="th_TH">
 			<Text>ลบออกจากคิว</Text>		<!-- Remove From Queue -->
@@ -26182,8 +26595,14 @@
 		<Replace Tag="LOC_UI_CITY_DETAILS_SPECIALIST_PER_TILE" Language="th_TH">
 			<Text>เมืองนี้อนุญาต {1_Specialist} ผู้เชี่ยวชาญ ต่อช่อง</Text>		<!-- This City currently allows {1_Specialist} {1_Specialist: plural 1?Specialist; other?Specialists;} per Tile -->
 		</Replace>
+		<Replace Tag="LOC_UI_CITY_GROWTH_DESCRIPTION" Language="th_TH">
+			<Text>เมืองใหญ่ของคุณมีประชากรเพิ่มขึ้น!</Text>		<!-- Your City has grown in population! -->
+		</Replace>
 		<Replace Tag="LOC_UI_CITY_DETAILS_TREASURE_FLEET_RESOURCE_PREREQ_NEEDED" Language="th_TH">
 			<Text>ไม่มีทรัพยากรสมบัติให้ใช้</Text>		<!-- No Treasure resources available. -->
+		</Replace>
+		<Replace Tag="LOC_UI_TOWN_GROWTH_DESCRIPTION" Language="th_TH">
+			<Text>เมืองของคุณมีประชากรเพิ่มขึ้น!</Text>		<!-- Your Town has grown in population! -->
 		</Replace>
 		<Replace Tag="LOC_UI_TOWN_DETAILS_SPECIALIST_PER_TILE" Language="th_TH">
 			<Text>เมืองนี้อนุญาต {1_Specialist} ผู้เชี่ยวชาญ ต่อช่อง</Text>		<!-- This Town currently allows {1_Specialist} {1_Specialist: plural 1?Specialist; other?Specialists;} per Tile -->
@@ -26194,8 +26613,20 @@
 		<Replace Tag="LOC_UI_CITY_DETAILS_NEW_CITIZEN_IN_TURNS" Language="th_TH">
 			<Text>พลเมืองใหม่ ในอีก {1_Turns} เทิร์น</Text>		<!-- New Citizen in {1_Turns} {1_Turns: plural 1?Turn; other?Turns;} -->
 		</Replace>
+		<Replace Tag="LOC_UI_CITY_GROWTH_ADD_IMPROVEMENT" Language="th_TH">
+			<Text>เพิ่มการปรับปรุง</Text>		<!-- Add Improvement -->
+		</Replace>
+		<Replace Tag="LOC_UI_CITY_GROWTH_ADD_IMPROVEMENT_DESC" Language="th_TH">
+			<Text>เพิ่มการปรับปรุงเพื่อรับผลผลิตของช่องนั้น และอัปเกรดช่องจากยังไม่ได้ปรับปรุง [icon:CITY_UNIMPROVED] เป็นชนบท [icon:CITY_RURAL]</Text>		<!-- Add an Improvement to claim that tile's yields, and upgrade the tile from Unimproved [icon:CITY_UNIMPROVED] to Rural [icon:CITY_RURAL] -->
+		</Replace>
 		<Replace Tag="LOC_UI_CITY_DETAILS_HAPPINESS_STATUS" Language="th_TH">
 			<Text>สถานะความสุข</Text>		<!-- Happiness Status -->
+		</Replace>
+		<Replace Tag="LOC_UI_CITY_GROWTH_ADD_SPECIALST_DESC" Language="th_TH">
+			<Text>ผู้เชี่ยวชาญให้ +2[icon:YIELD_SCIENCE], +2[icon:YIELD_CULTURE] และครึ่งหนึ่งของโบนัสติดกันของอาคารในเขต</Text>		<!-- Specialists give +2[icon:YIELD_SCIENCE], +2[icon:YIELD_CULTURE] and half the adjacency bonus of the buildings in a district -->
+		</Replace>
+		<Replace Tag="LOC_UI_CITY_GROWTH_SPECIALIST_CAP" Language="th_TH">
+			<Text>ขีดจำกัดผู้เชี่ยวชาญต่อช่องเมือง: {1_Cap}</Text>		<!-- Specialist Cap per Urban tile: {1_Cap} -->
 		</Replace>
 		<Replace Tag="LOC_UI_CITY_DETAILS_HAPPINESS_PER_TURN" Language="th_TH">
 			<Text>ความสุขต่อเทิร์น</Text>		<!-- Happiness Per Turn -->

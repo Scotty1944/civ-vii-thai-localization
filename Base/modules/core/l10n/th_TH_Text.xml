@@ -1099,6 +1099,12 @@
 		<Replace Tag="LOC_UI_KBM_MAPPING_SECONDARY_KEY" Language="th_TH">
 			<Text>ปุ่มรอง</Text>		<!-- Secondary -->
 		</Replace>
+		<Replace Tag="LOC_CENTER_PLOT_CURSOR_AA" Language="th_TH">
+			<Text>ศูนย์กลางเคอร์เซอร์</Text>		<!-- Center Cursor -->
+		</Replace>
+		<Replace Tag="LOC_CENTER_PLOT_CURSOR_HELP_AA" Language="th_TH">
+			<Text>ย้ายเคอร์เซอร์ไปยังศูนย์กลางของมุมกล้อง</Text>		<!-- Moves cursor to center of the camera view. -->
+		</Replace>
 		<Replace Tag="LOC_GESTURE_THUMB_AXIS_MICROSOFT" Language="th_TH">
 			<Text>การกระทำโดยใช้แท่งอนาล็อก</Text>		<!-- Actions using the sticks -->
 		</Replace>
@@ -1840,11 +1846,17 @@
 		<Replace Tag="LOC_SWAP_PLOT_SELECTION_HELP" Language="th_TH">
 			<Text>สลับรายการที่เลือกบนช่องเดียวกัน</Text>		<!-- Swap selected items on a same Plot Tile -->
 		</Replace>
+		<Replace Tag="LOC_OPTIONS_REMAP_VIEW_ONLY_DESCRIPTION" Language="th_TH">
+			<Text>ดูการแมปปุ่มอินพุต</Text>		<!-- View input mapping -->
+		</Replace>
 		<Replace Tag="LOC_PREVIOUS_SELECT" Language="th_TH">
 			<Text>เลือกก่อนหน้า</Text>		<!-- Previous Select -->
 		</Replace>
 		<Replace Tag="LOC_NEXT_SELECT" Language="th_TH">
 			<Text>เลือกถัดไป</Text>		<!-- Next Select -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_REMAP_VIEW_ONLY_TEXT" Language="th_TH">
+			<Text>ดู</Text>		<!-- View -->
 		</Replace>
 		<Replace Tag="LOC_SHELL_PREVIOUS" Language="th_TH">
 			<Text>ก่อนหน้า</Text>		<!-- Sec. Previous -->
@@ -2983,6 +2995,13 @@
 		<Replace Tag="LOC_UI_MP_FRIENDS_SEARCH_RESULTS_LIST" Language="th_TH">
 			<Text>ผลการค้นหา</Text>		<!-- Search Results -->
 		</Replace>
+		<Replace Tag="LOC_OPTIONS_ENABLE_EDGE_PANNING" Language="th_TH">
+			<Text>การแพนขอบหน้าจอ</Text>		<!-- Edge Panning -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_ENABLE_EDGE_PANNING_DESCRIPTION" Language="th_TH">
+			<Text>เมื่อเคอร์เซอร์ถูกย้ายไปที่ขอบหน้าต่างเกม กล้องจะเลื่อนไปโดยอัตโนมัติ</Text>		<!-- When the cursor is moved to the edge of the game window, it will automatically pan
+                the camera. -->
+		</Replace>
 		<Replace Tag="LOC_UI_MP_FRIENDS_NOTIFICATIONS_LIST" Language="th_TH">
 			<Text>การแจ้งเตือน</Text>		<!-- Notifications -->
 		</Replace>
@@ -2994,6 +3013,24 @@
 		</Replace>
 		<Replace Tag="LOC_UI_MP_FRIENDS_SEARCHING" Language="th_TH">
 			<Text>กำลังค้นหา.</Text>		<!-- Searching... -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_MAP_CURSOR_DIRECTIONAL" Language="th_TH">
+			<Text>เคอร์เซอร์แผนที่แบบทิศทาง</Text>		<!-- Directional Map Cursor -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_MAP_CURSOR_DIRECTIONAL_DESCRIPTION" Language="th_TH">
+			<Text>จำกัดการเคลื่อนที่ของเคอร์เซอร์แผนที่เป็น 6 ทิศทาง</Text>		<!-- Limits the map cursor to 6-directional movement. -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_MAP_CURSOR_SPEED" Language="th_TH">
+			<Text>ความเร็วเคอร์เซอร์แผนที่</Text>		<!-- Map Cursor Speed -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_MAP_CURSOR_SPEED_DESCRIPTION" Language="th_TH">
+			<Text>ความเร็วสูงสุดของเคอร์เซอร์แผนที่</Text>		<!-- Maximum speed of the map cursor. -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_MAP_CURSOR_SENSITIVITY" Language="th_TH">
+			<Text>ความไวเคอร์เซอร์แผนที่</Text>		<!-- Map Cursor Sensitivity -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_MAP_CURSOR_SENSITIVITY_DESCRIPTION" Language="th_TH">
+			<Text>ความเร็วที่เคอร์เซอร์แผนที่จะเคลื่อนที่มากกว่าหนึ่งช่องหกเหลี่ยม</Text>		<!-- How quickly the map cursor will move more than one hex. -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_FRIENDS_TITLE_INVITE" Language="th_TH">
 			<Text>เชิญเพื่อน</Text>		<!-- Invite Friends -->
@@ -3751,6 +3788,18 @@
 		<Replace Tag="LOC_SAVE_LOAD_CONTENT_ERROR_TITLE" Language="th_TH">
 			<Text>ข้อผิดพลาดของเนื้อหา</Text>		<!-- Content Error -->
 		</Replace>
+		<Replace Tag="LOC_LOAD_GAME_ERROR_SYNC" Language="th_TH">
+			<Text>ข้อขัดแย้งในการบันทึก</Text>		<!-- Save Conflict -->
+		</Replace>
+		<Replace Tag="LOC_LOAD_GAME_ERROR_SYNC_DESCRIPTION" Language="th_TH">
+			<Text>ข้อมูลบันทึกของคุณบน iCloud และในอุปกรณ์ของคุณแตกต่างกัน โปรดเลือกหนึ่งรายการเพื่อเก็บไว้ อีกอันจะถูกลบถาวร</Text>		<!-- Your save data on iCloud and on your device are different. Please choose one to keep. The other will be permanently discarded. -->
+		</Replace>
+		<Replace Tag="LOC_LOAD_GAME_ERROR_SYNC_DESCRIPTION_QUERY_ERROR" Language="th_TH">
+			<Text>เกิดข้อผิดพลาดขณะพยายามดึงข้อมูลบันทึกบน iCloud โปรดลองอีกครั้ง</Text>		<!-- An error occured when trying to get the save data on iCloud. Please try again. -->
+		</Replace>
+		<Replace Tag="LOC_LOAD_GAME_ERROR_SYNC_DESCRIPTION_RESOLVE_ERROR" Language="th_TH">
+			<Text>เกิดข้อผิดพลาดขณะพยายามแก้ไขข้อขัดแย้งในการบันทึก โปรดลองอีกครั้ง</Text>		<!-- An error occured when trying to resolve the save conflict. Please try again. -->
+		</Replace>
 		<Replace Tag="LOC_OPTIONS_GAME_TUTORIAL_0" Language="th_TH">
 			<Text>ปิด</Text>		<!-- Off -->
 		</Replace>
@@ -4474,6 +4523,30 @@
 		<Replace Tag="LOC_OPTIONS_CAMERA_MOVEMENT_FRICTION_DESCRIPTION" Language="th_TH">
 			<Text>แรงเสียดทานที่ใช้กับกล้องเมื่อแพนด้วยแท่งอนาล็อก</Text>		<!-- How much friction to apply to the camera when panning it with the analog stick. -->
 		</Replace>
+		<Replace Tag="LOC_APPLE_ARCADE_LEGAL_DOCUMENT_TITLE" Language="th_TH">
+			<Text>ข้อกำหนดการให้บริการและนโยบายความเป็นส่วนตัว</Text>		<!-- Terms of Service and Privacy Policy -->
+		</Replace>
+		<Replace Tag="LOC_APPLE_ARCADE_LEGAL_DOCUMENT_TITLE_UPDATE" Language="th_TH">
+			<Text>อัปเดตข้อกำหนดการให้บริการและนโยบายความเป็นส่วนตัว</Text>		<!-- Updated Terms of Service and Privacy Policy -->
+		</Replace>
+		<Replace Tag="LOC_APPLE_ARCADE_LEGAL_DOCUMENT_BODY_INITIAL" Language="th_TH">
+			<Text>โดยการเลือกยอมรับ คุณยืนยันว่าคุณได้อ่านและยอมรับ {1_TOS}&amp;nbsp;และ {2_PP}</Text>		<!-- By selecting Accept, you confirm you have read and accepted {1_TOS}&amp;nbsp;and {2_PP} -->
+		</Replace>
+		<Replace Tag="LOC_APPLE_ARCADE_LEGAL_DOCUMENT_BODY_UPDATE" Language="th_TH">
+			<Text>โปรดตรวจสอบและยอมรับ {1_TOS}&amp;nbsp;และ {2_PP} ที่อัปเดตแล้ว</Text>		<!-- Please review and accpet the updated {1_TOS}&amp;nbsp;and {2_PP} -->
+		</Replace>
+		<Replace Tag="LOC_APPLE_ARCADE_LEGAL_DOCUMENT_BODY_VIEW" Language="th_TH">
+			<Text>ดู {1_TOS}&amp;nbsp;และ {2_PP} ที่ยอมรับแล้ว</Text>		<!-- View accepted {1_TOS}&amp;nbsp;and {2_PP} -->
+		</Replace>
+		<Replace Tag="LOC_APPLE_ARCADE_LEGAL_DOCUMENT_LINK_TOS" Language="th_TH">
+			<Text>ข้อกำหนดการให้บริการ</Text>		<!-- Terms of Service -->
+		</Replace>
+		<Replace Tag="LOC_APPLE_ARCADE_LEGAL_DOCUMENT_LINK_PP" Language="th_TH">
+			<Text>นโยบายความเป็นส่วนตัว</Text>		<!-- Privacy Policy -->
+		</Replace>
+		<Replace Tag="LOC_MP_CHILD_ACCOUNT_NOT_ALLOWED_AA" Language="th_TH">
+			<Text>บัญชีเด็กไม่สามารถเล่นออนไลน์ได้</Text>		<!-- Child accounts are not allowed to play online. -->
+		</Replace>
 		<Replace Tag="LOC_OPTIONS_ZOOM_SPEED" Language="th_TH">
 			<Text>ความเร็วในการซูม</Text>		<!-- Zoom Speed -->
 		</Replace>
@@ -4533,6 +4606,12 @@
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GROUP_VOLUME" Language="th_TH">
 			<Text>ระดับเสียง</Text>		<!-- Volume -->
+		</Replace>
+		<Replace Tag="LOC_GENERIC_RETRY" Language="th_TH">
+			<Text>ลองใหม่</Text>		<!-- Retry -->
+		</Replace>
+		<Replace Tag="LOC_GENERIC_ABORT" Language="th_TH">
+			<Text>ยกเลิก</Text>		<!-- Abort -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_REMAP_KBM" Language="th_TH">
 			<Text>คีย์บอร์ด + เมาส์</Text>		<!-- Keyboard + Mouse -->
@@ -4902,6 +4981,15 @@
 		</Replace>
 		<Replace Tag="LOC_UI_ODR_DOWNLOAD_DESCRIPTION" Language="th_TH">
 			<Text>การดาวน์โหลดจะดำเนินต่อไปในพื้นหลัง</Text>		<!-- Downloading will continue in the background -->
+		</Replace>
+		<Replace Tag="LOC_UI_ODR_DOWNLOAD_ERROR_TITLE" Language="th_TH">
+			<Text>เกิดข้อผิดพลาดขณะดาวน์โหลดเนื้อหา</Text>		<!-- Error downloading content -->
+		</Replace>
+		<Replace Tag="LOC_UI_ODR_DOWNLOAD_ERROR_NOSPACE" Language="th_TH">
+			<Text>พื้นที่จัดเก็บในอุปกรณ์ไม่เพียงพอ[n]โปรดเพิ่มพื้นที่ว่างเพื่อดาวน์โหลดเนื้อหาเพิ่มเติม</Text>		<!-- Not enough storage on device.[n]Please free up some space to download more content. -->
+		</Replace>
+		<Replace Tag="LOC_UI_ODR_DOWNLOAD_ERROR_UNKNOWN" Language="th_TH">
+			<Text>เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ[n]โปรดลองใหม่อีกครั้งภายหลัง</Text>		<!-- An unknown error occurred.[n]Please try again later. -->
 		</Replace>
 		<Replace Tag="LOC_PROFILE_PROGRESS_CHOICE_1_CONFLICT_RESOLUTION" Language="th_TH">
 			<Text>ความก้าวหน้าในเครื่อง</Text>		<!-- Local Progress -->

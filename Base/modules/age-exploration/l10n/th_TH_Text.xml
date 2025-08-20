@@ -1502,7 +1502,7 @@
 			<Text>ทุกเมืองยกเว้นเมืองหลวงจะได้รับ +1 ขีดจำกัดผู้เชี่ยวชาญ หลังจากยุคสำรวจ ขีดจำกัดผู้เชี่ยวชาญจะถูกยกเลิก ผู้เชี่ยวชาญจะไม่ทำงานจนกว่าคุณจะเพิ่มขีดจำกัด</Text>		<!-- All Cities except the Capital receive +1 Specialist Limit. After the Exploration Age the Specialist Limit increase goes away, the Specialists become inactive until you increase the Limit. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_MAJAPAHIT_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI]เมืองทั้งหมด ยกเว้นเมืองหลวง จะได้รับ [B]+1 ขีดจำกัดผู้เชี่ยวชาญ[/B][LI]หลังจากยุคการสำรวจ ขีดจำกัดผู้เชี่ยวชาญจะหายไป ผู้เชี่ยวชาญจะไม่สามารถทำงานได้จนกว่าคุณจะเพิ่มขีดจำกัด[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการสร้าง [B]บอโรบูดูร์[/B][/BLIST]</Text>		<!-- [BLIST][LI]All Cities except the Capital receive [B]+1 Specialist Limit[/B].[LI]After the Exploration Age the Specialist Limit increase goes away, the Specialists become inactive until you increase the Limit.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Borobudur[/B].[/LIST] -->
+			<Text>[BLIST][LI]เมืองทั้งหมด ยกเว้นเมืองหลวง จะได้รับ [B]+1 ขีดจำกัดผู้เชี่ยวชาญ[/B][LI]หลังจากยุคการสำรวจ ขีดจำกัดผู้เชี่ยวชาญจะหายไป ผู้เชี่ยวชาญจะไม่สามารถทำงานได้จนกว่าคุณจะเพิ่มขีดจำกัด[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการสร้าง [B]บุโรพุทโธ[/B][/BLIST]</Text>		<!-- [BLIST][LI]All Cities except the Capital receive [B]+1 Specialist Limit[/B].[LI]After the Exploration Age the Specialist Limit increase goes away, the Specialists become inactive until you increase the Limit.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Borobudur[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_MAJAPAHIT_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นอัศจรรย์ที่เกี่ยวข้องกับมาจาปาฮิต</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being the Majapahit's associated Wonder. -->
@@ -3044,6 +3044,12 @@
 		<Replace Tag="LOC_IMPROVEMENT_TRADING_FACTORY_TOOLTIP" Language="th_TH">
 			<Text>+1[icon:YIELD_FOOD] อาหาร และ[icon:YIELD_PRODUCTION] กำลังผลิต ในดินแดนห่างไกล +2[icon:YIELD_GOLD] ทอง หากมีทรัพยากรอย่างน้อย หนึ่งรายการ ที่ถูกมอบหมายให้กับถิ่นฐานนี้, เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา และไม่สามารถวางใกล้กับ บริษัทไปรษณีย์ แห่งอื่นได้</Text>		<!-- +1[icon:YIELD_FOOD] Food and[icon:YIELD_PRODUCTION] Production in Distant Lands. +2[icon:YIELD_GOLD] Gold if there is at least one Resource assigned to this Settlement. City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to another Company Post. -->
 		</Replace>
+		<Replace Tag="LOC_MOD_BOROBUDUR_URBAN_FOOD_DESCRIPTION" Language="th_TH">
+			<Text>อาหารจาก บุโรพุทโธ</Text>		<!-- Food from Borobudur. -->
+		</Replace>
+		<Replace Tag="LOC_MOD_BOROBUDUR_URBAN_HAPPINESS_DESCRIPTION" Language="th_TH">
+			<Text>ความสุขจาก บุโรพุทโธ</Text>		<!-- Happiness from Borobudur. -->
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MONASTERY_NAME" Language="th_TH">
 			<Text>มอนัสเทอรี</Text>		<!-- Monastery -->
 		</Replace>
@@ -3099,7 +3105,7 @@
 			<Text>+5 ระยะทางเส้นทางการค้าบนบก และ +15 ระยะทางเส้นทางการค้าทางเรือ</Text>		<!-- +5 Land Trade Route range and +15 Naval Trade Route range. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_BOROBUDUR_NAME" Language="th_TH">
-			<Text>เจดีย์บอรอบูดูร์</Text>		<!-- Borobudur -->
+			<Text>บุโรพุทโธ</Text>		<!-- Borobudur -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_BOROBUDUR_DESCRIPTION" Language="th_TH">
 			<Text>+3 [icon:YIELD_HAPPINESS] ความสุข, +2 [icon:YIELD_FOOD] อาหาร และ[icon:YIELD_HAPPINESS] ความสุข บน [icon:CITY_URBAN] พื้นที่ย่าน ในถิ่นฐานนี้,คงอยู่ตลอดกาล, ต้องวางอยู่ติดกับชายฝั่ง</Text>		<!-- +3 [icon:YIELD_HAPPINESS] Happiness. +2 [icon:YIELD_FOOD] Food and [icon:YIELD_HAPPINESS] Happiness on [icon:CITY_URBAN] Quarters in this Settlement. Ageless. Must be placed adjacent to Coast. -->
