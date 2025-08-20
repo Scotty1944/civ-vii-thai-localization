@@ -1,5 +1,3 @@
-///<reference path="./cohtml.d.ts"/>
-
 /*jslint browser: true, nomen: true, plusplus: true */
 
 /// @file cohtml.js
@@ -8,13 +6,13 @@
 /// Coherent UI JavaScript interface.
 /// The `engine` module contains all functions for communication between the UI and the game / application.
 (function (factory) {
-	if (typeof module === 'object' && module.exports) {
+	if (typeof module === "object" && module.exports) {
 		module.exports = factory(global, global.engine, false);
 	} else {
-		engine = factory(window, /** @type {any} */(window).engine, true);
+		engine = factory(window, /** @type {any} */ (window).engine, true);
 	}
 })(function (global, engine, hasOnLoad) {
-	'use strict';
+	"use strict";
 
 	var isAttached = engine !== undefined;
 	engine = engine || {};
@@ -25,19 +23,19 @@
 	var VERSION = [2, 0, 3, 0];
 
 	/**
-	* Event emitter
-	*
-	* @class Emitter
-	*/
+	 * Event emitter
+	 *
+	 * @class Emitter
+	 */
 	function Emitter() {
 		this.events = {};
 	}
 
 	/**
-	* Event handler
-	*
-	* @class Handler
-	*/
+	 * Event handler
+	 *
+	 * @class Handler
+	 */
 	function Handler(code, context) {
 		this.code = code;
 		this.context = context;
@@ -56,8 +54,7 @@
 							break;
 						}
 					}
-				}
-				else {
+				} else {
 					index = handlers.indexOf(handler);
 				}
 				if (index != -1) {
@@ -75,18 +72,17 @@
 	};
 
 	/**
-	* Add a handler for an event
-	*
-	* @method on
-	* @param name the event name
-	* @param callback function to be called when the event is triggered
-	* @param context this binding for executing the handler, defaults to the Emitter
-	* @return connection object
-	*/
+	 * Add a handler for an event
+	 *
+	 * @method on
+	 * @param name the event name
+	 * @param callback function to be called when the event is triggered
+	 * @param context this binding for executing the handler, defaults to the Emitter
+	 * @return connection object
+	 */
 	Emitter.prototype.on = function (name, callback, context) {
 		var handlers = this.events[name];
-		if (handlers === undefined)
-			handlers = this.events[name] = [];
+		if (handlers === undefined) handlers = this.events[name] = [];
 
 		var handler = new Handler(callback, context || this);
 		handlers.push(handler);
@@ -94,14 +90,14 @@
 	};
 
 	/**
-	* Remove a handler from an event
-	*
-	* @method off
-	* @param name the event name
-	* @param handler function to be called when the event is triggered
-	* @param context this binding for executing the handler, defaults to the Emitter
-	* @return connection object
-	*/
+	 * Remove a handler from an event
+	 *
+	 * @method off
+	 * @param name the event name
+	 * @param handler function to be called when the event is triggered
+	 * @param context this binding for executing the handler, defaults to the Emitter
+	 * @return connection object
+	 */
 	Emitter.prototype.off = function (name, handler, context) {
 		var handlers = this.events[name];
 
@@ -122,8 +118,7 @@
 					delete this.events[name];
 				}
 			}
-		}
-		else {
+		} else {
 			engine.RemoveOnHandler(name, handler, context || this);
 		}
 	};
@@ -149,8 +144,8 @@
 	if (!engine.isAttached) {
 		Emitter.prototype.on = function (name, callback, context) {
 			var handlers = this.events[name];
-			if (/** @type {any} */(this).browserCallbackOn) {
-				/** @type {any} */(this).browserCallbackOn(name, callback, context);
+			if (/** @type {any} */ (this).browserCallbackOn) {
+				/** @type {any} */ (this).browserCallbackOn(name, callback, context);
 			}
 
 			if (handlers === undefined) {
@@ -181,8 +176,8 @@
 					if (handlers.length === 0) {
 						delete this.events[name];
 
-						if (/** @type {any} */(this).browserCallbackOff) {
-							/** @type {any} */(this).browserCallbackOff(name, handler, context);
+						if (/** @type {any} */ (this).browserCallbackOff) {
+							/** @type {any} */ (this).browserCallbackOff(name, handler, context);
 						}
 					}
 				}
@@ -237,11 +232,13 @@
 			global[name] = obj;
 		};
 
-		engine.updateWholeModel = function() {};
-		engine.synchronizeModels = function() {};
-		engine.enableImmediateLayout = function() {};
-		engine.isImmediateLayoutEnabled = function() { return true; }
-		engine.executeImmediateLayoutSync = function() {};
+		engine.updateWholeModel = function () {};
+		engine.synchronizeModels = function () {};
+		engine.enableImmediateLayout = function () {};
+		engine.isImmediateLayoutEnabled = function () {
+			return true;
+		};
+		engine.executeImmediateLayoutSync = function () {};
 
 		engine._mocks = {};
 
@@ -254,10 +251,7 @@
 			var rightParanthesis = functionStripped.indexOf(")");
 			var args = functionStripped.substr(0, rightParanthesis);
 			if (this.browserCallbackMock) {
-				this.browserCallbackMock(name,
-					args,
-					isCppCall,
-					Boolean(isEvent));
+				this.browserCallbackMock(name, args, isCppCall, Boolean(isEvent));
 			}
 		};
 
@@ -272,7 +266,6 @@
 	}
 
 	if (engine.isAttached) {
-
 		/// @function engine.on
 		/// Register handler for and event
 		/// @param {String} name name of the event
@@ -281,7 +274,7 @@
 		engine.on = function (name, callback, context) {
 			if (!callback) {
 				console.error("No handler specified for engine.on");
-				return { clear: function() {} };
+				return { clear: function () {} };
 			}
 			engine.AddOrRemoveOnHandler(name, callback, context || engine);
 			return { clear: this._createClear(this, name, callback, context) };
@@ -289,7 +282,7 @@
 	}
 
 	engine.whenReady = new Promise((resolve) => {
-		engine.on('Ready', resolve);
+		engine.on("Ready", resolve);
 	});
 
 	/// @function engine.off
@@ -368,8 +361,7 @@
 			// ChakraCore executes deferred.reject immediately before we can return and have the user attach a rejection callback
 			requestAnimationFrame(() => deferred.reject("No handler registered"));
 		}
-	}
-
+	};
 
 	engine._ForEachError = function (errors, callback) {
 		var length = errors.length;
@@ -380,15 +372,13 @@
 	};
 
 	engine._TriggerError = function (message) {
-		engine.trigger('Error', message);
+		engine.trigger("Error", message);
 	};
 
 	engine._OnError = function (requestId, errors) {
-
 		if (requestId === null || requestId === 0) {
 			engine._ForEachError(errors, engine._TriggerError);
-		}
-		else {
+		} else {
 			var deferred = engine._ActiveRequests[requestId];
 
 			delete engine._ActiveRequests[requestId];
@@ -403,14 +393,14 @@
 	engine._OnReady = function () {
 		engine._BindingsReady = true;
 		if (engine._ContentLoaded) {
-			engine.trigger('Ready');
+			engine.trigger("Ready");
 		}
 	};
 
 	engine._OnContentLoaded = function () {
 		engine._ContentLoaded = true;
 		if (engine._BindingsReady) {
-			engine.trigger('Ready');
+			engine.trigger("Ready");
 		}
 	};
 
@@ -422,10 +412,10 @@
 		engine._ContentLoaded = true;
 	}
 
-	engine.on('_Result', engine._Result, engine);
-	engine.on('_Reject', engine._Reject, engine);
-	engine.on('_OnReady', engine._OnReady, engine);
-	engine.on('_OnError', engine._OnError, engine);
+	engine.on("_Result", engine._Result, engine);
+	engine.on("_Reject", engine._Reject, engine);
+	engine.on("_OnReady", engine._OnReady, engine);
+	engine.on("_OnError", engine._OnError, engine);
 
 	//@ts-ignore
 	engine.dependency = new WeakMap();
@@ -441,7 +431,7 @@
 			set: (target, prop, value) => {
 				engine.updateWholeModel(window[observableName]);
 				target[prop] = value;
-			}
+			},
 		};
 		// @ts-ignore
 		engine.createJSModel(observableName, new Proxy({}, handler));
