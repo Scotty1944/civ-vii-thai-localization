@@ -293,10 +293,10 @@
 			<Text>เนินงู</Text>		<!-- Serpent Mound -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_SERPENT_MOUND_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_DIPLOMACY] อิทธิพล, +3 [icon:YIELD_SCIENCE] วิทยาศาสตร์ และ +2 [icon:YIELD_PRODUCTION] กำลังผลิต แก่สิ่งเขตพัฒนาพิเศษทั้งหมด ในถิ่นฐานนี้ ต้องวางในพื้นที่ทุ่งหญ้า</Text>		<!-- +4 [icon:YIELD_DIPLOMACY] Influence. +3 [icon:YIELD_SCIENCE] Science and +2 [icon:YIELD_PRODUCTION] Production to all Unique Improvements in this Settlement. Must be placed in Grassland. -->
+			<Text>+4 [icon:YIELD_DIPLOMACY] อิทธิพล, +3 [icon:YIELD_SCIENCE] วิทยาศาสตร์ และ +2 [icon:YIELD_PRODUCTION] กำลังผลิต ให้กับเขตพิเศษ ทั้งหมดในถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องตั้งอยู่ในทุ่งหญ้าหญ้า</Text>		<!-- +4 [icon:YIELD_DIPLOMACY] Influence. +3 [icon:YIELD_SCIENCE] Science and +2 [icon:YIELD_PRODUCTION] Production to all Unique Improvements in this Settlement. Ageless. Must be placed in Grassland. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_SERPENT_MOUND_TOOLTIP" Language="th_TH">
-			<Text>+3 [icon:YIELD_SCIENCE] วิทยาศาสตร์ และ +2 [icon:YIELD_PRODUCTION] กำลังผลิต ให้กับเขตพิเศษทั้งหมดในถิ่นฐานนี้ จะต้องตั้งอยู่ในทุ่งหญ้า</Text>		<!-- +3 [icon:YIELD_SCIENCE] Science and +2 [icon:YIELD_PRODUCTION] Production to all Unique Improvements in this Settlement. Must be placed in Grassland. -->
+			<Text>+3 [icon:YIELD_SCIENCE] วิทยาศาสตร์ และ +2 [icon:YIELD_PRODUCTION] กำลังผลิต ให้กับเขตพิเศษ ทั้งหมดในถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องตั้งอยู่ในทุ่งหญ้า</Text>		<!-- +3 [icon:YIELD_SCIENCE] Science and +2 [icon:YIELD_PRODUCTION] Production to all Unique Improvements in this Settlement. Ageless. Must be placed in Grassland. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_WONDER_SERPENT_MOUND" Language="th_TH">
 			<Text>"ผู้สร้างของเราร้องเพลงให้เราฟังในสายลมและน้ำที่ไหล, ในเสียงเพลงของนก, ในเสียงหัวเราะของเด็กๆ และสอนดนตรีให้แก่เรา"</Text>		<!-- "Our Creator sang to us in the wind and the running water, in the bird songs, in children's laughter, and taught us music." -->
@@ -494,13 +494,13 @@
 			<Text>เส้นทางมรดกชอว์นี</Text>		<!-- Shawnee Legacy Path -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_SHAWNEE_LEGACY_PATH_ECONOMIC_DESC" Language="th_TH">
-			<Text>ในฐานะ ชอว์นี ให้สำเร็จเส้นทางมรดกเศรษฐกิจ</Text>		<!-- As Shawnee, complete an Economic Legacy Path -->
+			<Text>ในฐานะ ชอว์นี ให้สำเร็จเส้นทางมรดกเศรษฐกิจ</Text>		<!-- As Shawnee, complete an Economic Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_SHAWNEE_COMPLETE_SERPENT_MOUND_NAME" Language="th_TH">
 			<Text>เนินงู</Text>		<!-- Serpent Mound -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_SHAWNEE_COMPLETE_SERPENT_MOUND_DESC" Language="th_TH">
-			<Text>ในฐานะ ชอว์นี สร้างเนินงูให้สำเร็จ</Text>		<!-- As Shawnee, complete the Serpent Mound -->
+			<Text>ในฐานะ ชอว์นี สร้างเนินงูให้สำเร็จ</Text>		<!-- As Shawnee, complete the Serpent Mound. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TECUMSEH_MILITARY_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ เทคัมเซห์ ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ</Text>		<!-- As Tecumseh, complete the Pax Imperatoria Legacy Path. -->
@@ -1185,7 +1185,7 @@
 			<Text>อนาคตมีเพียงชัยชนะสำหรับผู้ที่ยังคงต่อสู้</Text>		<!-- The future holds only victory for those who continue to fight. -->
 		</Replace>
 		<Replace Tag="LOC_3726B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward} บน ผู้บัญชาการปัจจุบัน</Text>		<!-- {1_reward} on current Commanders. -->
 		</Replace>
 		<Replace Tag="LOC_3726C_NAME" Language="th_TH">
 			<Text>ความแตกต่างต้องถูกละทิ้งเพื่อผลประโยชน์ที่ยิ่งใหญ่กว่า</Text>		<!-- Differences must be set aside for the greater good. -->
@@ -1530,7 +1530,7 @@
 			<Text>โบราณวัตถุมากขึ้นหมายถึงเสียงที่มากขึ้น</Text>		<!-- More artifacts mean more voices. -->
 		</Replace>
 		<Replace Tag="LOC_3732C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward} นักสำรวจ</Text>		<!-- {1_reward} Explorers. -->
 		</Replace>
 		<Replace Tag="LOC_1497A_STORYTITLE" Language="th_TH">
 			<Text>ชอว์นีใหม่</Text>		<!-- The New Shawnee -->

@@ -272,10 +272,10 @@
 			<Text>บิรซา</Text>		<!-- Byrsa -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_BYRSA_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_GOLD] ทอง, เส้นทางการค้า ไม่สามารถถูกปล้นได้, ช่องทั้งหมดในเมืองนี้ที่อยู่ติดกับชายฝั่ง และที่สร้างกำแพงได้ จะได้รับกำแพง</Text>		<!-- +2[icon:YIELD_GOLD] Gold. Trade Routes cannot be plundered. All tiles in this City that are adjacent to Coast and eligible for Walls receive a Wall. Must be placed adjacent to a Coast tile. -->
+			<Text>+2[icon:YIELD_GOLD] ทอง, [icon:TRADE_ROUTE] เส้นทางการค้า ไม่สามารถถูกปล้นได้, [icon:CITY_URBAN] พื้นที่เขต ทั้งหมดในเมืองนี้ที่อยู่ติดกับชายฝั่ง และที่สร้างกำแพงได้ จะได้รับกำแพง, คงอยู่ตลอดกาล, ต้องตั้งติดกับชายฝั่ง</Text>		<!-- +2 [icon:YIELD_GOLD] Gold. [icon:TRADE_ROUTE] Trade Routes cannot be plundered. All [icon:CITY_URBAN] Districts in this City that are adjacent to Coast and eligible for Walls receive a Wall. Ageless. Must be placed adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_BYRSA_TOOLTIP" Language="th_TH">
-			<Text>เส้นทางการค้า ไม่สามารถถูกปล้นได้, ช่องทั้งหมดในเมืองนี้ที่อยู่ติดกับชายฝั่ง และที่สร้างกำแพงได้ จะได้รับกำแพง</Text>		<!-- Trade Routes cannot be plundered. All tiles in this City that are adjacent to Coast and eligible for Walls receive a Wall. Must be placed adjacent to a Coast tile. -->
+			<Text>[icon:TRADE_ROUTE] เส้นทางการค้า ไม่สามารถถูกปล้นได้, [icon:CITY_URBAN] พื้นที่เขต ทั้งหมดในเมืองนี้ที่อยู่ติดกับชายฝั่ง และที่สร้างกำแพงได้ จะได้รับกำแพง, คงอยู่ตลอดกาล, ต้องตั้งติดกับชายฝั่ง</Text>		<!-- [icon:TRADE_ROUTE] Trade Routes cannot be plundered. All [icon:CITY_URBAN] Districts in this City that are adjacent to Coast and eligible for Walls receive a Wall. Ageless. Must be placed adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_WONDER_BYRSA" Language="th_TH">
 			<Text>ในปัจจุบันยังสามารถเห็นซากปรักหักพัง ของกำแพงเมืองบางส่วนได้</Text>		<!-- There are to be seen at this day certain ruins of the city walls. -->
@@ -314,10 +314,10 @@
 			<Text>มาโก</Text>		<!-- Mago -->
 		</Replace>
 		<Replace Tag="LOC_MOD_SHIPSHEDS_NAVAL_MOVEMENT_DESCRIPTION" Language="th_TH">
-			<Text>+1 แต้มเคลื่อนไหว ไปยัง ยูนิตทางน้ำ</Text>		<!-- +1 Movement to Naval Units -->
+			<Text>+1 แต้มเคลื่อนไหว ไปยัง ยูนิตทางน้ำ</Text>		<!-- +1 Movement to Naval Units. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_SHIPSHEDS_NAVAL_RANGE_DESCRIPTION" Language="th_TH">
-			<Text>+1 ระยะ ไปยัง ยูนิตทางน้ำ</Text>		<!-- +1 Range to Naval Units -->
+			<Text>+1 ระยะ ไปยัง ยูนิตทางน้ำ</Text>		<!-- +1 Range to Naval Units. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_RED_SLIP_TRADE_GOLD_DESCRIPTION" Language="th_TH">
 			<Text>+15 ระยะเส้นทางการค้าทางทะเล, +3 [icon:YIELD_GOLD] ทอง ในเมืองหลวงสำหรับการค้าทุกเส้นทางจากเมืองหลวง</Text>		<!-- +15 Sea Trade Route Range. +3 [icon:YIELD_GOLD] Gold in the Capital for every Trade Route from the Capital. -->
@@ -329,7 +329,7 @@
 			<Text>+2 ขีดจำกัดการตั้งถิ่นฐาน</Text>		<!-- +2 Settlement Limit. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_SICILIAN_WARS_MOVEMENT_NUMIDIAN_CAVALRY_DESCRIPTION" Language="th_TH">
-			<Text>+1 แต้มเคลื่อนไหว และระยะมองเห็นไปยัง กองทัพม้านูมิดี</Text>		<!-- +1 Movement and Sight to Numidian Cavalry Units -->
+			<Text>+1 แต้มเคลื่อนไหว และระยะมองเห็นไปยัง กองทัพม้านูมิดี</Text>		<!-- +1 Movement and Sight to Numidian Cavalry Units. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_SICILIAN_WARS_TOWN_PROJECT_DESCRIPTION" Language="th_TH">
 			<Text>+1 ช่องคัมภีร์ ในศาลากลาง ในเมืองที่มีโฟกัส สถานีการค้า</Text>		<!-- +1 Codex slot in City Halls in Towns with the Trade Outpost Focus. -->
@@ -368,13 +368,13 @@
 			<Text>เส้นทางมรดกคาร์เธจ</Text>		<!-- Carthage Legacy Path -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CARTHAGE_LEGACY_PATH_MILITARISTIC_DESC" Language="th_TH">
-			<Text>ในฐานะ คาร์เธจ จงทำเส้นทางมรดกเชิงทหารให้สำเร็จ</Text>		<!-- As Carthage, complete a Militaristic Legacy Path -->
+			<Text>ในฐานะ คาร์เธจ จงทำเส้นทางมรดกเชิงทหารให้สำเร็จ</Text>		<!-- As Carthage, complete a Militaristic Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CARTHAGE_COMPLETE_BYRSA_NAME" Language="th_TH">
 			<Text>เบียร์ซา</Text>		<!-- Byrsa -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CARTHAGE_COMPLETE_BYRSA_DESC" Language="th_TH">
-			<Text>ในฐานะ คาร์เธจ จงทำเบียร์ซาให้สำเร็จ</Text>		<!-- As Carthage, complete the Byrsa -->
+			<Text>ในฐานะ คาร์เธจ จงทำเบียร์ซาให้สำเร็จ</Text>		<!-- As Carthage, complete the Byrsa. -->
 		</Replace>
 		<Replace Tag="LOC_MODULE_CARTHAGE_DESCRIPTION" Language="th_TH">
 			<Text>มีอารยธรรมยุคโบราณใหม่, คาร์เธจ</Text>		<!-- Contains a new Antiquity Age Civilization, Carthage. -->
