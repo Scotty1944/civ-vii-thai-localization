@@ -76,6 +76,9 @@
 					<Item platform="XboxOne">text/en_us/InputText_ThumbSticks_Microsoft.xml</Item>
 					<Item platform="XboxScarlett">text/en_us/ControllerText_InvertSticks_Microsoft.xml</Item>
 					<Item platform="XboxScarlett">text/en_us/InputText_ThumbSticks_Microsoft.xml</Item>
+
+					<Item ecosystem="game-center">text/en_us/InputText_CenterCursor_AppleArcade.xml</Item>
+					<Item ecosystem="game-center">text/en_us/UIShellText_Multiplayer_AppleArcade.xml</Item>
 				</UpdateText>
 
 				<UIScripts>
@@ -150,27 +153,30 @@
 					<Item>ui/shell/store-launcher/2k-code-redemption.js</Item>
 					<Item>ui/shell/shell-components/icon-dropdown.js</Item>
 					<Item>ui/shell/store-launcher/screen-dlc-viewer.js</Item>
+					<Item>ui/shell/sync-conflict/sync-conflict.js</Item>
 					<Item>ui/utilities/utilities-liveops.js</Item>
 					<Item>ui/shell/odr-download/odr-download.js</Item>
+					<Item>ui/shell/screen-movie/screen-movie.js</Item>
 				</UIScripts>
 
 				<UIShortcuts>
 					<Item>ui/debug/html-preview.html</Item>
 					<Item>ui/debug/stylized-markup-text.html</Item>
-					<Item>ui/reference/color-reference.html</Item>
-					<Item>ui/reference/reference.html</Item>
 					<Item>ui/reference/icon-browser.html</Item>
 					<Item>ui/reference/movie-browser.html</Item>
-					<Item>ui/reference/page-panel.html</Item>
 					<Item>ui/sandbox/comp-sandbox/comp-sandbox.html</Item>
 					<Item>ui/shell/root-shell.html</Item>
 					<Item>ui/shell/mp-host-setup/page-mp-hostsetup.html</Item>
+					<Item>ui-next/sandbox/sandbox.html</Item>
+					<!-- <Item>ui-next/sandbox/matt-sandbox.html</Item> -->
+					<Item>ui-next/sandbox/scratchpad.html</Item>
+                    	<Item>ui-next/sandbox/scratchpad.html</Item>
+                    	<Item>ui-next/sandbox/components-browser/components-browser.html</Item>
 				</UIShortcuts>
 
 				<ImportFiles>
 					<Item>ui/cohtml.js</Item>
 					<Item>ui/component-support.js</Item>
-					<Item>ui/action-handler.js</Item>
 					<Item>ui/accessibility/cohtml-speech-api.js</Item>
 					<Item>ui/shell/root-shell.html</Item>
 					<Item>ui/utilities/utilities-network.js</Item>
@@ -238,22 +244,18 @@
 					<Item platform="XboxOne">text/en_us/InputText_ThumbSticks_Microsoft.xml</Item>
 					<Item platform="XboxScarlett">text/en_us/ControllerText_InvertSticks_Microsoft.xml</Item>
 					<Item platform="XboxScarlett">text/en_us/InputText_ThumbSticks_Microsoft.xml</Item>
+
+					<Item ecosystem="game-center">text/en_us/InputText_CenterCursor_AppleArcade.xml</Item>
 				</UpdateText>
 
 				<UIShortcuts>
 					<Item>ui/debug/html-preview.html</Item>
 					<Item>ui/debug/stylized-markup-text.html</Item>
-					<Item>ui/reference/color-reference.html</Item>
 					<Item>ui/reference/icon-browser.html</Item>
 					<Item>ui/reference/icon-reference.html</Item>
 					<Item>ui/reference/movie-browser.html</Item>
-					<Item>ui/reference/reference.html</Item>
-					<Item>ui/reference/page-panel.html</Item>
-					<Item>ui/sandbox/sandbox.html</Item>
 					<Item>ui/sandbox/comp-sandbox/comp-sandbox.html</Item>
 					<Item>ui/shell/root-shell.html</Item>
-					<Item>ui/shell/options/page-gameoptions.html</Item>
-					<Item>ui/shell/mp-browser/page-mp-browser.html</Item>
 					<Item>ui/shell/mp-host-setup/page-mp-hostsetup.html</Item>
 				</UIShortcuts>
 
@@ -296,6 +298,7 @@
 					<Item>ui/radial-menu/model-radial-menu.js</Item>
 					<Item>ui/radial-menu/panel-radial-menu.js</Item>
 					<Item>ui/save-load/screen-save-load.js</Item>
+					<Item>ui/shell/sync-conflict/sync-conflict.js</Item>
 					<Item>ui/save-load/leader-icon.js</Item>
 					<Item>ui/save-load/civ-icon.js</Item>
 					<Item>ui/save-load/save-load-card.js</Item>

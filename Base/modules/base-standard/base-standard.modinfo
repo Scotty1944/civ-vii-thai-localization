@@ -1,897 +1,901 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="base-standard" version="1"
-	xmlns="ModInfo">
-	<Properties>
-		<Name>Base Game</Name>
-		<Description>This module contains almost everything necessary for the base game.</Description>
-		<Authors>LOC_AUTHORS_FIRAXIS</Authors>
-		<ShowInBrowser>0</ShowInBrowser>
-		<Package>BaseGame</Package>
-		<PackageSortIndex>1</PackageSortIndex>
-	</Properties>
-	<Dependencies></Dependencies>
-	<References>
-		<Mod id="core" title="LOC_MODULE_CORE_NAME"/>
-	</References>
-	<ActionCriteria>
-		<Criteria id="always">
-			<AlwaysMet/>
-		</Criteria>
-		<Criteria id="standard-games">
-			<RuleSetInUse>RULESET_STANDARD</RuleSetInUse>
-		</Criteria>
-	</ActionCriteria>
-	<ActionGroups>
-		<ActionGroup id="base-game-main" scope="game" criteria="always">
-			<Actions>
-				<ImportFiles>
-					<Item>ui/loading/root-loading.html</Item>
-					<Item>ui/root-game.html</Item>
-					<Item>ui/unit-flags/unit-info.js</Item>
-				</ImportFiles>
-				<UIScripts>
-					<Item>ui/action/panel-action.js</Item>
-					<Item>ui/advanced-start/model-advanced-start.js</Item>
-					<Item>ui/advanced-start/screen-advanced-start.js</Item>
-					<Item>ui/age-progression-warning-mini-banner/panel-age-progression-warning-mini-banner.js</Item>
-					<Item>ui/age-progression-warning-popup/panel-age-progression-warning-popup.js</Item>
-					<Item>ui/age-scores/model-age-scores.js</Item>
-					<Item>ui/age-scores/panel-age-scores.js</Item>
-					<Item>ui/age-rankings/model-age-rankings.js</Item>
-					<Item>ui/age-rankings/panel-age-rankings.js</Item>
-					<Item>ui/age-summary/model-age-summary-hub.js</Item>
-					<Item>ui/age-summary/screen-age-summary-hub.js</Item>
-					<Item>ui/age-transition-banner/age-transition-banner.js</Item>
-					<Item>ui/army-panel/army-panel.js</Item>
-					<Item>ui/unit-rename/unit-rename.js</Item>
-					<Item>ui/attribute-trees/screen-attribute-trees.js</Item>
-					<Item>ui/attribute-trees/attribute-card.js</Item>
-					<Item>ui/attribute-trees/attribute-small-card.js</Item>
-					<Item>ui/befriend-independent-details/screen-befriend-independent-details.js</Item>
-					<Item>ui/benchmark/screen-benchmark.js</Item>
-					<Item>ui/build-queue/model-build-queue.js</Item>
-					<Item>ui/build-queue/panel-build-queue.js</Item>
-					<Item>ui/building-placement/building-placement-manager.js</Item>
-					<Item>ui/cinematic/screen-cinematic-placard.js</Item>
-					<Item>ui/city-banners/city-banners.js</Item>
-					<Item>ui/city-details/panel-city-details.js</Item>
-					<Item>ui/city-hud-model/model-city-hud.js</Item>
-					<Item>ui/city-selection/city-selection.js</Item>
-					<Item>ui/city-state-bonus-chooser/screen-city-state-bonus-chooser.js</Item>
-					<Item>ui/city-trade/screen-city-trade.js</Item>
-					<Item>ui/civilopedia/screen-civilopedia.js</Item>
-					<Item>ui/civilopedia/civilopedia-sidebar-panels.js</Item>
-					<Item>ui/chooser-item/chooser-item.js</Item>
-					<Item>ui/tree-chooser-item/tree-chooser-item.js</Item>
-					<Item>ui/culture-tree-chooser/screen-culture-tree-chooser.js</Item>
-					<Item>ui/crisis-meter/crisis-meter.js</Item>
-					<Item>ui/diplo-ribbon/panel-diplo-ribbon.js</Item>
-					<Item>ui/diplo-ribbon/panel-yield-banner.js</Item>
-					<Item>ui/diplomacy-action-details/screen-diplomacy-action-details.js</Item>
-					<Item>ui/diplomacy-actions/panel-diplomacy-actions.js</Item>
-					<Item>ui/diplomacy-actions/panel-diplomacy-actions.js</Item>
-					<Item>ui/diplomacy-call-to-arms/screen-diplomacy-call-to-arms.js</Item>
-					<Item>ui/diplomacy-chooser-items/war-chooser-item.js</Item>
-					<Item>ui/diplomacy-hub/panel-diplomacy-hub.js</Item>
-					<Item>ui/diplomacy-peace-deal/panel-diplomacy-peace-deal.js</Item>
-					<Item>ui/diplomacy-project-reaction/panel-diplomacy-project-reaction.js</Item>
-					<Item>ui/diplomacy-actions/screen-diplomacy-target-select.js</Item>
-					<Item>ui/diplomacy/diplomacy-events.js</Item>
-					<Item>ui/diplomacy/diplomacy-manager.js</Item>
-					<Item>ui/district/district-health-manager.js</Item>
-					<Item>ui/district/district-health.js</Item>
-					<Item>ui/end-result-graphs/panel-end-result-graphs.js</Item>
-					<Item>ui/endgame/model-endgame.js</Item>
-					<Item>ui/endgame/screen-endgame.js</Item>
-					<Item>ui/espionage-details/screen-espionage-details.js</Item>
-					<Item>ui/victory-progress/screen-victory-progress.js</Item>
-					<Item>ui/victory-progress/screen-victory-achieved.js</Item>
-					<Item>ui/victory-progress/panel-advisor-victory.js</Item>
-					<Item>ui/city-capture-chooser/panel-city-capture-chooser.js</Item>
-					<Item>ui/general-chooser/screen-general-chooser.js</Item>
-					<Item>ui/celebration-chooser/panel-celebration-chooser.js</Item>
-					<Item>ui/great-works/model-great-works.js</Item>
-					<Item>ui/great-works/screen-great-works.js</Item>
-					<Item>ui/panel-belief-picker/panel-belief-picker.js</Item>
-					<Item>ui/belief-picker-chooser-item/belief-picker-chooser-item.js</Item>
-					<Item>ui/panel-religion-picker/panel-religion-picker.js</Item>
-					<Item>ui/culture-tree/screen-culture-tree.js</Item>
-					<Item>ui/end-results/end-results.js</Item>
-					<Item>ui/pantheon-chooser/panel-religion-chooser.js</Item>
-					<Item>ui/settler-legend/panel-settler-legend.js</Item>
-					<Item>ui/tech-tree-chooser/screen-tech-tree-chooser.js</Item>
-					<Item>ui/trade-route-chooser/trade-route-banner.js</Item>
-					<Item>ui/trade-route-chooser/trade-route-chooser.js</Item>
-					<Item>ui/trade-route-chooser/trade-routes-model.js</Item>
-					<Item>ui/trade-route-chooser/trade-route-tooltip.js</Item>
-					<Item>ui/interface-modes/interface-mode-advanced-start.js</Item>
-					<Item>ui/interface-modes/interface-mode-acquire-tile.js</Item>
-					<Item>ui/interface-modes/interface-mode-add-to-army.js</Item>
-					<Item>ui/interface-modes/interface-mode-aerial-recon.js</Item>
-					<Item>ui/interface-modes/interface-mode-air-attack.js</Item>
-					<Item>ui/interface-modes/interface-mode-naval-attack.js</Item>
-					<Item>ui/interface-modes/interface-mode-army-overrun.js</Item>
-					<Item>ui/interface-modes/interface-mode-bonus-placement.js</Item>
-					<Item>ui/interface-modes/interface-mode-call-to-arms.js</Item>
-					<Item>ui/interface-modes/interface-mode-cargo-drop.js</Item>
-					<Item>ui/interface-modes/interface-mode-chat.js</Item>
-					<Item>ui/interface-modes/interface-mode-choose-plot.js</Item>
-					<Item>ui/interface-modes/interface-mode-cinematic.js</Item>
-					<Item>ui/interface-modes/interface-mode-city-production.js</Item>
-					<Item>ui/interface-modes/interface-mode-city-purchase.js</Item>
-					<Item>ui/interface-modes/interface-mode-connect-with-road.js</Item>
-					<Item>ui/interface-modes/interface-mode-construct-in-range.js</Item>
-					<Item>ui/interface-modes/interface-mode-commander-reinforcement.js</Item>
-					<Item>ui/interface-modes/interface-mode-focused-attack-land-melee.js</Item>
-					<Item>ui/interface-modes/interface-mode-focused-attack-land-ranged.js</Item>
-					<Item>ui/interface-modes/interface-mode-focused-attack-sea-melee.js</Item>
-					<Item>ui/interface-modes/interface-mode-focused-attack-sea-ranged.js</Item>
-					<Item>ui/interface-modes/interface-mode-focused-attack-air-to-land.js</Item>
-					<Item>ui/interface-modes/interface-mode-focused-attack-air-to-air.js</Item>
-					<Item>ui/interface-modes/interface-mode-focused-attack-air-bomb.js</Item>
-					<Item>ui/interface-modes/interface-mode-found-city-adjacent-plot.js</Item>
-					<Item>ui/interface-modes/interface-mode-default.js</Item>
-					<Item>ui/interface-modes/interface-mode-defensive-perimeter.js</Item>
-					<Item>ui/interface-modes/interface-mode-diplo-claim-plot.js</Item>
-					<Item>ui/interface-modes/interface-mode-diplomacy-dialog.js</Item>
-					<Item>ui/interface-modes/interface-mode-diplomacy-hub.js</Item>
-					<Item>ui/interface-modes/interface-mode-diplomacy-project-reaction.js</Item>
-					<Item>ui/interface-modes/interface-mode-establish-base.js</Item>
-					<Item>ui/interface-modes/interface-mode-move-by-rail.js</Item>
-					<Item>ui/interface-modes/interface-mode-move-to.js</Item>
-					<Item>ui/interface-modes/interface-mode-place-building.js</Item>
-					<Item>ui/interface-modes/interface-mode-peace-deal.js</Item>
-					<Item>ui/interface-modes/interface-mode-radial-selection.js</Item>
-					<Item>ui/interface-modes/interface-mode-ranged-attack.js</Item>
-					<Item>ui/interface-modes/interface-mode-rebase.js</Item>
-					<Item>ui/interface-modes/interface-mode-reinforce-army.js</Item>
-					<Item>ui/interface-modes/interface-mode-remove-from-army.js</Item>
-					<Item>ui/interface-modes/interface-mode-resource-allocation.js</Item>
-					<Item>ui/interface-modes/interface-mode-screenshot.js</Item>
-					<Item>ui/interface-modes/interface-mode-tutorial-start.js</Item>
-					<Item>ui/interface-modes/interface-mode-unit-air-drop.js</Item>
-					<Item>ui/interface-modes/interface-mode-unit-promotion.js</Item>
-					<Item>ui/interface-modes/interface-mode-unit-selected.js</Item>
-					<Item>ui/interface-modes/interface-mode-unpack-army.js</Item>
-					<Item>ui/interface-modes/interface-mode-wmd-strike.js</Item>
-					<Item>ui/interface-modes/interface-mode-teleport-to-city.js</Item>
-					<Item>ui/interface-modes/interface-mode-coastal-raid.js</Item>
-					<Item>ui/interface-modes/interface-mode-pillage-land.js</Item>
-					<Item>ui/interface-modes/interface-mode-pillage-route.js</Item>
-					<Item>ui/interface-modes/interface-mode-grant-second-wind.js</Item>
-					<Item>ui/interface-modes/interface-mode-commander-attack.js</Item>
-					<Item>ui/legend-progress/legend-progress.js</Item>
-					<Item>ui/legends-report/screen-legends-report.js</Item>
-					<Item>ui/legends-manager/legends-manager.js</Item>
-					<Item>ui/lenses/panel-continents.js</Item>
-					<Item>ui/lenses/layer/appeal-layer.js</Item>
-					<Item>ui/lenses/layer/building-placement-layer.js</Item>
-					<Item>ui/lenses/layer/city-borders-layer.js</Item>
-					<Item>ui/lenses/layer/city-growth-improvements-layer.js</Item>
-					<Item>ui/lenses/layer/culture-borders-layer.js</Item>
-					<Item>ui/lenses/layer/hexgrid-layer.js</Item>
-					<Item>ui/lenses/layer/random-events-layer.js</Item>
-					<Item>ui/lenses/layer/operation-target-layer.js</Item>
-					<Item>ui/lenses/layer/resource-layer.js</Item>
-					<Item>ui/lenses/layer/settlement-recommendations-layer.js</Item>
-					<Item>ui/lenses/layer/trade-layer.js</Item>
-					<Item>ui/lenses/layer/worker-yields-layer.js</Item>
-					<Item>ui/lenses/layer/yields-layer.js</Item>
-					<Item>ui/lenses/layer/continent-layer.js</Item>
-					<Item>ui/lenses/lens/acquire-tile-lens.js</Item>
-					<Item>ui/lenses/lens/building-placement-lens.js</Item>
-					<Item>ui/lenses/lens/cinematic-lens.js</Item>
-					<Item>ui/lenses/lens/city-lens.js</Item>
-					<Item>ui/lenses/lens/default-lens.js</Item>
-					<Item>ui/lenses/lens/diplomacy-lens.js</Item>
-					<Item>ui/lenses/lens/founder-lens.js</Item>
-					<Item>ui/lenses/lens/settler-lens.js</Item>
-					<Item>ui/lenses/lens/trade-lens.js</Item>
-					<Item>ui/lenses/lens/continent-lens.js</Item>
-					<Item>ui/live-notice/live-notice.js</Item>
-					<Item>ui/mini-map/panel-mini-map.js</Item>
-					<Item>ui/mp-ingame-mgr/mp-ingame-mgr.js</Item>
-					<Item>ui/narrative-event/graphic-narrative-event.js</Item>
-					<Item>ui/narrative-event/screen-narrative-event.js</Item>
-					<Item>ui/notification-connection-status/notification-connection-status.js</Item>
-					<Item>ui/notification-train/model-notification-train.js</Item>
-					<Item>ui/notification-train/notification-handlers.js</Item>
-					<Item>ui/notification-train/panel-notification-train.js</Item>
-					<Item>ui/notification-train-mobile/panel-notification-mobile-opener.js</Item>
-					<Item>ui/notification-train-mobile/panel-notification-train-mobile.js</Item>
-					<Item>ui/pantheon-chooser/screen-pantheon-chooser.js</Item>
-					<Item>ui/pantheon-complete/panel-pantheon-complete.js</Item>
-					<Item>ui/pantheon-chooser-item/pantheon-chooser-item.js</Item>
-					<Item>ui/pause-event-rules/screen-pause-event-rules.js</Item>
-					<Item>ui/pause-menu/screen-pause-menu.js</Item>
-					<Item>ui/place-building/model-place-building.js</Item>
-					<Item>ui/place-building/panel-place-building.js</Item>
-					<Item>ui/place-population/model-place-population.js</Item>
-					<Item>ui/place-population/panel-place-population.js</Item>
-					<Item>ui/player-yields-report/player-yields-report-screen.js</Item>
-					<Item>ui/plot-icon/plot-icon-random-event.js</Item>
-					<Item>ui/plot-icon/plot-icon-resource.js</Item>
-					<Item>ui/plot-icon/plot-icon-suggested-settlement.js</Item>
-					<Item>ui/plot-icon/plot-icon-archeology.js</Item>
-					<Item>ui/plot-workers/plot-workers-manager.js</Item>
-					<Item>ui/popup-sequencer/popup-sequencer.js</Item>
-					<Item>ui/production-chooser/panel-production-chooser.js</Item>
-					<Item>ui/production-chooser/panel-production-tooltips.js</Item>
-					<Item>ui/quest-tracker/narrative-quest-manager.js</Item>
-					<Item>ui/quest-tracker/quest-item.js</Item>
-					<Item>ui/quest-tracker/quest-list.js</Item>
-					<Item>ui/quest-tracker/quest-tracker.js</Item>
-					<Item>ui/quick-save-indicator/quick-save-indicator.js</Item>
-					<Item>ui/save-indicator/save-indicator.js</Item>
-					<Item>ui/small-narrative-event/small-narrative-event.js</Item>
-					<Item>ui/resource-allocation/screen-resource-allocation.js</Item>
-					<Item>ui/sub-system-dock/panel-sub-system-dock.js</Item>
-					<Item>ui/system-bar/panel-system-bar.js</Item>
-					<Item>ui/system-bar/panel-system-button.js</Item>
-					<Item>ui/tech-civic-complete/screen-tech-civic-complete.js</Item>
-					<Item>ui/tech-tree-chooser/screen-tech-tree-chooser.js</Item>
-					<Item>ui/tech-tree/screen-tech-tree.js</Item>
-					<Item>ui/tree-grid/tree-card.js</Item>
-					<Item>ui/tree-grid/tree-line.js</Item>
-					<Item>ui/tree-grid/tree-detail.js</Item>
-					<Item>ui/tooltips/plot-tooltip.js</Item>
-					<Item>ui/tooltips/relationship-tooltip.js</Item>
-					<Item>ui/tooltips/tech-civic-tooltip.js</Item>
-					<Item>ui/tooltips/advanced-start-tooltip.js</Item>
-					<Item>ui/tooltips/settlement-recommendation-tooltip.js</Item>
-					<Item>ui/tooltips/random-event-tooltip.js</Item>
-					<Item>ui/tooltips/archeology-tooltip.js</Item>
-					<Item>ui/tooltips/peace-deal-tooltip.js</Item>
-					<Item>ui/policies/screen-policies.js</Item>
-					<Item>ui/policies/policy-chooser-item.js</Item>
-					<Item>ui/screen-government-picker/screen-government-picker.js</Item>
-					<Item module="false">ui/tuner-input/tuner-input.js</Item>
-					<Item>ui/turn-icon/turn-icon.js</Item>
-					<Item>ui/tutorial/tutorial-callout.js</Item>
-					<Item>ui/tutorial/tutorial-dialog-page.js</Item>
-					<Item>ui/tutorial/tutorial-dialog.js</Item>
-					<Item>ui/tutorial/tutorial-inspector.js</Item>
-					<Item>ui/tutorial/tutorial-manager.js</Item>
-					<Item>ui/tutorial/tutorial-item.js</Item>
-					<Item>ui/tutorial/tutorial-quest-panel.js</Item>
-					<Item>ui/unit-actions/unit-actions.js</Item>
-					<Item>ui/unit-combat-preview/panel-unit-combat-preview.js</Item>
-					<Item>ui/unit-flags/army-commander-flags.js</Item>
-					<Item>ui/unit-flags/unit-flag-manager.js</Item>
-					<Item>ui/unit-flags/unit-flags-independent-powers.js</Item>
-					<Item>ui/unit-flags/unit-flags.js</Item>
-					<Item>ui/unit-interact/unit-action-handlers.js</Item>
-					<Item>ui/unit-promotion/panel-unit-promotion.js</Item>
-					<Item>ui/unit-selection/unit-selection.js</Item>
-					<Item>ui/unlocks/screen-unlocks.js</Item>
-					<Item>ui/unlocks/screen-reward-unlocked.js</Item>
-					<Item>ui/unlocks/model-unlocks.js</Item>
-					<Item>ui/unlocks/unlocks-manager.js</Item>
-					<Item>ui/unlocks/panel-player-rewards.js</Item>
-					<Item>ui/victory-points/model-victory-points.js</Item>
-					<Item>ui/victory-points/panel-victory-points.js</Item>
-					<Item>ui/views/view-advanced-start.js</Item>
-					<Item>ui/views/view-bonus-placement.js</Item>
-					<Item>ui/views/view-cinematic.js</Item>
-					<Item>ui/views/view-city.js</Item>
-					<Item>ui/views/view-diplomacy.js</Item>
-					<Item>ui/views/view-placement.js</Item>
-					<Item>ui/views/view-screenshot.js</Item>
-					<Item>ui/views/view-resource-allocation.js</Item>
-					<Item>ui/views/view-unit-promotion.js</Item>
-					<Item>ui/views/view-unit.js</Item>
-					<Item>ui/views/view-reinforcement.js</Item>
-					<Item>ui/views/view-world.js</Item>
-					<Item>ui/watch-out/watch-out-manager.js</Item>
-					<Item>ui/watch-out/screen-watch-out.js</Item>
-					<Item>ui/world-anchor-text/world-anchor-text-manager.js</Item>
-					<Item>ui/world-anchor-text/world-anchor-text.js</Item>
-					<Item>ui/world-input/world-input.js</Item>
-					<Item>ui/world-vfx/world-vfx.js</Item>
-					<Item>ui/yield-bar/model-yield-bar.js</Item>
-					<Item>ui/yield-bar/yield-bar.js</Item>
-				</UIScripts>
-				<UpdateDatabase>
-					<Item>data/gameplay.xml</Item>
-					<Item>data/advanced-start-gameeffects.xml</Item>
-					<Item>data/advisory.xml</Item>
-					<Item>data/age-transition-gameeffects.xml</Item>
-					<Item>data/ages.xml</Item>
-					<Item>data/army-names.xml</Item>
-					<Item>data/attributes-gameeffects.xml</Item>
-					<Item>data/attributes.xml</Item>
-					<Item>data/AI_Base.xml</Item>
-					<Item>data/Barbarians.xml</Item>
-					<Item>data/behaviortrees.xml</Item>
-					<Item>data/calendar.xml</Item>
-					<Item>data/capabilities.xml</Item>
-					<Item>data/city-commands.xml</Item>
-					<Item>data/city-properties.xml</Item>
-					<Item>data/civilizations-gameeffects.xml</Item>
-					<Item>data/civilizations.xml</Item>
-					<Item>data/civilopedia.xml</Item>
-					<Item>data/civilopedia-ages.xml</Item>
-					<Item>data/civilopedia-concepts.xml</Item>
-					<Item>data/common-property-types.xml</Item>
-					<Item>data/core-types.xml</Item>
-					<Item>data/constructibles.xml</Item>
-					<Item>data/definition-property-types.xml</Item>
-					<Item>data/difficulties.xml</Item>
-					<Item>data/diplomacy-actions.xml</Item>
-					<Item>data/diplomacy-deal-items.xml</Item>
-					<Item>data/diplomacy-deal-item-agreements.xml</Item>
-					<Item>data/diplomacy-gameeffects.xml</Item>
-					<Item>data/diplomacy-statements.xml</Item>
-					<Item>data/discovery-stories-gameeffects.xml</Item>
-					<Item>data/discovery-stories.xml</Item>
-					<Item>data/districts.xml</Item>
-					<Item>data/game-speeds.xml</Item>
-					<Item>data/gameplay-systems.xml</Item>
-					<Item>data/gossip.xml</Item>
-					<Item>data/governments.xml</Item>
-					<Item>data/happiness-identity.xml</Item>
-					<Item>data/happiness-identity-gameeffects.xml</Item>
-					<Item>data/Independents.xml</Item>
-					<Item>data/interface-modes.xml</Item>
-					<Item>data/leaders.xml</Item>
-					<Item>data/leaders-gameeffects.xml</Item>
-					<Item>data/legacy-path-gameeffects.xml</Item>
-					<Item>data/loading-info.xml</Item>
-					<Item>data/maps.xml</Item>
-					<Item>data/movies.xml</Item>
-					<Item>data/plot-effects.xml</Item>
-					<Item>data/mementos.xml</Item>
-					<Item>data/mementos-gameeffects.xml</Item>
-					<Item>data/metaprogression.xml</Item>
-					<Item>data/metaprogression-gameeffects.xml</Item>
-					<Item>data/modifiers.xml</Item>
-					<Item>data/named-places.xml</Item>
-					<Item>data/narrative-sifting.xml</Item>
-					<Item>data/narrative-crises-stories-gameeffects.xml</Item>
-					<Item>data/narrative-crises-stories.xml</Item>
-					<Item>data/narrative-stories-gameeffects.xml</Item>
-					<Item>data/narrative-stories.xml</Item>
-					<Item>data/narrative-stories-common.xml</Item>
-					<Item>data/narrative-stories-common-gameeffects.xml</Item>
-					<Item>data/narrative-tags.xml</Item>
-					<Item>data/notification.xml</Item>
-					<Item>data/player-properties.xml</Item>
-					<Item>data/progression-trees-common-gameeffects.xml</Item>
-					<Item>data/progression-trees-common.xml</Item>
-					<Item>data/projects.xml</Item>
-					<Item>data/projects-gameeffects.xml</Item>
-					<Item>data/pseudoyields.xml</Item>
-					<Item>data/racetowonders-terrain.xml</Item>
-					<Item>data/racetowonders-terrain-gameeffects.xml</Item>
-					<Item>data/marvelous-mountains-terrain.xml</Item>
-					<Item>data/marvelous-mountains-terrain-gameeffects.xml</Item>
-					<Item>data/resources.xml</Item>
-					<Item>data/resources-v2.xml</Item>
-					<Item>data/random-events.xml</Item>
-					<Item>data/religion.xml</Item>
-					<Item>data/routes.xml</Item>
-					<Item>data/terrain.xml</Item>
-					<Item>data/terrain-gameeffects.xml</Item>
-					<Item>data/traditions.xml</Item>
-					<Item>data/traditions-gameeffects.xml</Item>
-					<Item>data/unit-commands.xml</Item>
-					<Item>data/unit-movement.xml</Item>
-					<Item>data/unit-operations.xml</Item>
-					<Item>data/unit-properties.xml</Item>
-					<Item>data/unit-promotions-gameeffects.xml</Item>
-					<Item>data/unit-promotions.xml</Item>
-					<Item>data/units-gameeffects.xml</Item>
-					<Item>data/units.xml</Item>
-					<Item>data/unlocks.xml</Item>
-					<Item>data/victories.xml</Item>
-					<Item>data/wars.xml</Item>
-				</UpdateDatabase>
-				<UpdateColors>
-					<Item>data/colors/playercolors.xml</Item>
-					<Item>data/colors/playerstandardcolors.xml</Item>
-				</UpdateColors>
-				<UpdateIcons>
-					<Item>data/icons/advisor-icons.xml</Item>
-					<Item>data/icons/attribute-icons.xml</Item>
-					<Item>data/icons/chat-icons.xml</Item>
-					<Item>data/icons/city-icons.xml</Item>
-					<Item>data/icons/building-icons.xml</Item>
-					<Item>data/icons/card-icons.xml</Item>
-					<Item>data/icons/diplomacy-icons.xml</Item>
-					<Item>data/icons/civilization-icons.xml</Item>
-					<Item>data/icons/emoji-icons.xml</Item>
-					<Item>data/icons/improvement-icons.xml</Item>
-					<Item>data/icons/leader-icons.xml</Item>
-					<Item>data/icons/legacy-path-icons.xml</Item>
-					<Item>data/icons/misc-icons.xml</Item>
-					<Item>data/icons/modifier-icons.xml</Item>
-					<Item>data/icons/narrative-icons.xml</Item>
-					<Item>data/icons/notification-icons.xml</Item>
-					<Item>data/icons/project-icons.xml</Item>
-					<Item>data/icons/promotion-icons.xml</Item>
-					<Item>data/icons/radial-icons.xml</Item>
-					<Item>data/icons/random-event-icons.xml</Item>
-					<Item>data/icons/relationship-icons.xml</Item>
-					<Item>data/icons/resource-icons.xml</Item>
-					<Item>data/icons/resource-icons-v2.xml</Item>
-					<Item>data/icons/trade-icons.xml</Item>
-					<Item>data/icons/tradition-icons.xml</Item>
-					<Item>data/icons/unit-icons.xml</Item>
-					<Item>data/icons/wonder-icons.xml</Item>
-					<Item>data/icons/victory-icons.xml</Item>
-					<Item>data/icons/yield-icons.xml</Item>
-					<Item>data/icons/tutorial-icons.xml</Item>
-					<Item>data/icons/rewards-icons.xml</Item>
-					<Item>data/icons/platform-icons.xml</Item>
-				</UpdateIcons>
-				<UpdateText>
-					<Item>text/en_us/ShellText.xml</Item>
-					<Item>text/en_us/ConfigText.xml</Item>
-					<Item>text/en_us/ActionPanelText.xml</Item>
-					<Item>text/en_us/AdvancedOptionText.xml</Item>
-					<Item>text/en_us/AdvancedStartText.xml</Item>
-					<Item>text/en_us/AdvisorText.xml</Item>
-					<Item>text/en_us/AgeTransitionText.xml</Item>
-					<Item>text/en_us/ArmyNamesText.xml</Item>
-					<Item>text/en_us/AttributesText.xml</Item>
-					<Item>text/en_us/BannerText.xml</Item>
-					<Item>text/en_us/CalendarText.xml</Item>
-					<Item>text/en_us/CityCommandsText.xml</Item>
-					<Item>text/en_us/CivilizationText.xml</Item>
-					<Item>text/en_us/CivilopediaText.xml</Item>
-					<Item>text/en_us/Civilopedia_Ages_Text.xml</Item>
-					<Item>text/en_us/Civilopedia_Concepts_Text.xml</Item>
-					<Item>text/en_us/Civilopedia_Constructibles_Text.xml</Item>
-					<Item>text/en_us/Civilopedia_Features_Text.xml</Item>
-					<Item>text/en_us/Civilopedia_Resources_Text.xml</Item>
-					<Item>text/en_us/Civilopedia_Terrain_Text.xml</Item>
-					<Item>text/en_us/Civilopedia_Leaders_Text.xml</Item>
-					<Item>text/en_us/Civilopedia_Units_Text.xml</Item>
-					<Item>text/en_us/CombatPreviewText.xml</Item>
-					<Item>text/en_us/CommonText.xml</Item>
-					<Item>text/en_us/ConstructibleText.xml</Item>
-					<Item>text/en_us/CultureText.xml</Item>
-					<Item>text/en_us/DiplomacyText.xml</Item>
-					<Item>text/en_us/DiplomacyStatementText.xml</Item>
-					<Item>text/en_us/EffectText.xml</Item>
-					<Item>text/en_us/EraVictoryText.xml</Item>
-					<Item>text/en_us/GameplaySystemsText.xml</Item>
-					<Item>text/en_us/InGameText.xml</Item>
-					<Item>text/en_us/InterfaceModeText.xml</Item>
-					<Item>text/en_us/LeaderDialog_Augustus.xml</Item>
-					<Item>text/en_us/LeaderDialog_BenjaminFranklin.xml</Item>
-					<Item>text/en_us/LeaderDialog_Catherine.xml</Item>
-					<Item>text/en_us/LeaderDialog_Isabella.xml</Item>
-					<Item>text/en_us/LeaderDialog_Lafayette.xml</Item>
-					<Item>text/en_us/LeaderDialog_Amina.xml</Item>
-					<Item>text/en_us/LeaderDialog_Ashoka.xml</Item>
-					<Item>text/en_us/LeaderDialog_Charlemagne.xml</Item>
-					<Item>text/en_us/LeaderDialog_Confucius.xml</Item>
-					<Item>text/en_us/LeaderDialog_FriedrichII.xml</Item>
-					<Item>text/en_us/LeaderDialog_HarrietTubman.xml</Item>
-					<Item>text/en_us/LeaderDialog_Hatshepsut.xml</Item>
-					<Item>text/en_us/LeaderDialog_Himiko.xml</Item>
-					<Item>text/en_us/LeaderDialog_IbnBattuta.xml</Item>
-					<Item>text/en_us/LeaderDialog_Machiavelli.xml</Item>
-					<Item>text/en_us/LeaderDialog_Pachacuti.xml</Item>
-					<Item>text/en_us/LeaderDialog_Rizal.xml</Item>
-					<Item>text/en_us/LeaderDialog_TrungTrac.xml</Item>
-					<Item>text/en_us/LeaderDialog_Xerxes.xml</Item>
-					<Item>text/en_us/LeaderText.xml</Item>
-					<Item>text/en_us/LoadingText.xml</Item>
-					<Item>text/en_us/MapText.xml</Item>
-					<Item>text/en_us/MementoText.xml</Item>
-					<Item>text/en_us/UnlockableRewardsText.xml</Item>
-					<Item>text/en_us/MetaprogressionText.xml</Item>
-					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
-					<Item>text/en_us/NamedPlacesText.xml</Item>
-					<Item>text/en_us/NarrativeCrisesStoriesText.xml</Item>
-					<Item>text/en_us/NarrativeStoriesText.xml</Item>
-					<Item>text/en_us/NarrativeStoriesTextCommon.xml</Item>
-					<Item>text/en_us/NaturalWonderQuoteText.xml</Item>
-					<Item>text/en_us/NotificationText.xml</Item>
-					<Item>text/en_us/PauseMenuText.xml</Item>
-					<Item>text/en_us/PlayerOperationsText.xml</Item>
-					<Item>text/en_us/PlotTooltipText.xml</Item>
-					<Item>text/en_us/ProductionChooserText.xml</Item>
-					<Item>text/en_us/ProjectsText.xml</Item>
-					<Item>text/en_us/QuestTrackerText.xml</Item>
-					<Item>text/en_us/RandomEventsText.xml</Item>
-					<Item>text/en_us/ResourcesText.xml</Item>
-					<Item>text/en_us/SettlementRecommendationText.xml</Item>
-					<Item>text/en_us/SubSystemDockText.xml</Item>
-					<Item>text/en_us/SystemMessageText.xml</Item>
-					<Item>text/en_us/TerrainText.xml</Item>
-					<Item>text/en_us/TraditionsText.xml</Item>
-					<Item>text/en_us/TreasuryText.xml</Item>
-					<Item>text/en_us/TutorialText.xml</Item>
-					<Item>text/en_us/UIText.xml</Item>
-					<Item>text/en_us/UnitCommandsText.xml</Item>
-					<Item>text/en_us/UnitOperationsText.xml</Item>
-					<Item>text/en_us/UnitPromotionsText.xml</Item>
-					<Item>text/en_us/UnitText.xml</Item>
-					<Item>text/en_us/UnlockText.xml</Item>
-					<Item>text/en_us/VictoryProgressText.xml</Item>
-					<Item>text/en_us/VictoriesText.xml</Item>
-					<Item>text/en_us/WarNamesText.xml</Item>
-					<Item>text/en_us/WorkersText.xml</Item>
-					<Item>text/en_us/YieldsText.xml</Item>
+    xmlns="ModInfo">
+    <Properties>
+        <Name>Base Game</Name>
+        <Description>This module contains almost everything necessary for the base game.</Description>
+        <Authors>LOC_AUTHORS_FIRAXIS</Authors>
+        <ShowInBrowser>0</ShowInBrowser>
+        <Package>BaseGame</Package>
+        <PackageSortIndex>1</PackageSortIndex>
+    </Properties>
+    <Dependencies></Dependencies>
+    <References>
+        <Mod id="core" title="LOC_MODULE_CORE_NAME" />
+    </References>
+    <ActionCriteria>
+        <Criteria id="always">
+            <AlwaysMet />
+        </Criteria>
+        <Criteria id="standard-games">
+            <RuleSetInUse>RULESET_STANDARD</RuleSetInUse>
+        </Criteria>
+    </ActionCriteria>
+    <ActionGroups>
+        <ActionGroup id="base-game-main" scope="game" criteria="always">
+            <Actions>
+                <ImportFiles>
+                    <Item>ui/loading/root-loading.html</Item>
+                    <Item>ui/root-game.html</Item>
+                    <Item>ui/unit-flags/unit-info.js</Item>
+                </ImportFiles>
+                <UIScripts>
+                    <Item>ui/action/panel-action.js</Item>
+                    <Item>ui/advanced-start/model-advanced-start.js</Item>
+                    <Item>ui/advanced-start/screen-advanced-start.js</Item>
+                    <Item>
+                        ui/age-progression-warning-mini-banner/panel-age-progression-warning-mini-banner.js</Item>
+                    <Item>ui/age-progression-warning-popup/panel-age-progression-warning-popup.js</Item>
+                    <Item>ui/age-scores/model-age-scores.js</Item>
+                    <Item>ui/age-scores/panel-age-scores.js</Item>
+                    <Item>ui/age-rankings/model-age-rankings.js</Item>
+                    <Item>ui/age-rankings/panel-age-rankings.js</Item>
+                    <Item>ui/age-summary/model-age-summary-hub.js</Item>
+                    <Item>ui/age-transition-banner/age-transition-banner.js</Item>
+                    <Item>ui/army-panel/army-panel.js</Item>
+                    <Item>ui/unit-rename/unit-rename.js</Item>
+                    <Item>ui/attribute-trees/screen-attribute-trees.js</Item>
+                    <Item>ui/attribute-trees/attribute-card.js</Item>
+                    <Item>ui/attribute-trees/attribute-small-card.js</Item>
+                    <Item>ui/befriend-independent-details/screen-befriend-independent-details.js</Item>
+                    <Item>ui/benchmark/screen-benchmark.js</Item>
+                    <Item>ui/build-queue/model-build-queue.js</Item>
+                    <Item>ui/build-queue/panel-build-queue.js</Item>
+                    <Item>ui/building-placement/building-placement-manager.js</Item>
+                    <Item>ui/cinematic/screen-cinematic-placard.js</Item>
+                    <Item>ui/city-banners/city-banners.js</Item>
+                    <Item>ui/city-details/panel-city-details.js</Item>
+                    <Item>ui/city-hud-model/model-city-hud.js</Item>
+                    <Item>ui/city-selection/city-selection.js</Item>
+                    <Item>ui/city-state-bonus-chooser/screen-city-state-bonus-chooser.js</Item>
+                    <Item>ui/city-trade/screen-city-trade.js</Item>
+                    <Item>ui/civilopedia/screen-civilopedia.js</Item>
+                    <Item>ui/civilopedia/civilopedia-sidebar-panels.js</Item>
+                    <Item>ui/chooser-item/chooser-item.js</Item>
+                    <Item>ui/constructible-details/constructible-details.js</Item>
+                    <Item>ui/tree-chooser-item/tree-chooser-item.js</Item>
+                    <Item>ui/culture-tree-chooser/screen-culture-tree-chooser.js</Item>
+                    <Item>ui/crisis-meter/crisis-meter.js</Item>
+                    <Item>ui/diplo-ribbon/panel-diplo-ribbon.js</Item>
+                    <Item>ui/diplo-ribbon/panel-yield-banner.js</Item>
+                    <Item>ui/diplomacy-action-details/screen-diplomacy-action-details.js</Item>
+                    <Item>ui/diplomacy-actions/panel-diplomacy-actions.js</Item>
+                    <Item>ui/diplomacy-actions/panel-diplomacy-actions.js</Item>
+                    <Item>ui/diplomacy-call-to-arms/screen-diplomacy-call-to-arms.js</Item>
+                    <Item>ui/diplomacy-chooser-items/war-chooser-item.js</Item>
+                    <Item>ui/diplomacy-hub/panel-diplomacy-hub.js</Item>
+                    <Item>ui/diplomacy-peace-deal/panel-diplomacy-peace-deal.js</Item>
+                    <Item>ui/diplomacy-project-reaction/panel-diplomacy-project-reaction.js</Item>
+                    <Item>ui/diplomacy-actions/screen-diplomacy-target-select.js</Item>
+                    <Item>ui/diplomacy/diplomacy-events.js</Item>
+                    <Item>ui/diplomacy/diplomacy-manager.js</Item>
+                    <Item>ui/district/district-health-manager.js</Item>
+                    <Item>ui/district/district-health.js</Item>
+                    <Item>ui/end-result-graphs/panel-end-result-graphs.js</Item>
+                    <Item>ui/endgame/model-endgame.js</Item>
+                    <Item>ui/endgame/screen-endgame.js</Item>
+                    <Item>ui/espionage-details/screen-espionage-details.js</Item>
+                    <Item>ui/victory-progress/screen-victory-progress.js</Item>
+                    <Item>ui/victory-progress/screen-victory-achieved.js</Item>
+                    <Item>ui/victory-progress/panel-advisor-victory.js</Item>
+                    <Item>ui/city-capture-chooser/panel-city-capture-chooser.js</Item>
+                    <Item>ui/general-chooser/screen-general-chooser.js</Item>
+                    <Item>ui/celebration-chooser/panel-celebration-chooser.js</Item>
+                    <Item>ui/great-works/model-great-works.js</Item>
+                    <Item>ui/great-works/screen-great-works.js</Item>
+                    <Item>ui/panel-belief-picker/panel-belief-picker.js</Item>
+                    <Item>ui/belief-picker-chooser-item/belief-picker-chooser-item.js</Item>
+                    <Item>ui/panel-religion-picker/panel-religion-picker.js</Item>
+                    <Item>ui/culture-tree/screen-culture-tree.js</Item>
+                    <Item>ui/end-results/end-results.js</Item>
+                    <Item>ui/pantheon-chooser/panel-religion-chooser.js</Item>
+                    <Item>ui/settler-legend/panel-settler-legend.js</Item>
+                    <Item>ui/tech-tree-chooser/screen-tech-tree-chooser.js</Item>
+                    <Item>ui/trade-route-chooser/trade-route-banner.js</Item>
+                    <Item>ui/trade-route-chooser/trade-route-chooser.js</Item>
+                    <Item>ui/trade-route-chooser/trade-routes-model.js</Item>
+                    <Item>ui/trade-route-chooser/trade-route-tooltip.js</Item>
+                    <Item>ui/interface-modes/interface-mode-advanced-start.js</Item>
+                    <Item>ui/interface-modes/interface-mode-acquire-tile.js</Item>
+                    <Item>ui/interface-modes/interface-mode-add-to-army.js</Item>
+                    <Item>ui/interface-modes/interface-mode-aerial-recon.js</Item>
+                    <Item>ui/interface-modes/interface-mode-air-attack.js</Item>
+                    <Item>ui/interface-modes/interface-mode-naval-attack.js</Item>
+                    <Item>ui/interface-modes/interface-mode-army-overrun.js</Item>
+                    <Item>ui/interface-modes/interface-mode-bonus-placement.js</Item>
+                    <Item>ui/interface-modes/interface-mode-call-to-arms.js</Item>
+                    <Item>ui/interface-modes/interface-mode-cargo-drop.js</Item>
+                    <Item>ui/interface-modes/interface-mode-chat.js</Item>
+                    <Item>ui/interface-modes/interface-mode-choose-plot.js</Item>
+                    <Item>ui/interface-modes/interface-mode-cinematic.js</Item>
+                    <Item>ui/interface-modes/interface-mode-city-production.js</Item>
+                    <Item>ui/interface-modes/interface-mode-city-purchase.js</Item>
+                    <Item>ui/interface-modes/interface-mode-connect-with-road.js</Item>
+                    <Item>ui/interface-modes/interface-mode-construct-in-range.js</Item>
+                    <Item>ui/interface-modes/interface-mode-commander-reinforcement.js</Item>
+                    <Item>ui/interface-modes/interface-mode-focused-attack-land-melee.js</Item>
+                    <Item>ui/interface-modes/interface-mode-focused-attack-land-ranged.js</Item>
+                    <Item>ui/interface-modes/interface-mode-focused-attack-sea-melee.js</Item>
+                    <Item>ui/interface-modes/interface-mode-focused-attack-sea-ranged.js</Item>
+                    <Item>ui/interface-modes/interface-mode-focused-attack-air-to-land.js</Item>
+                    <Item>ui/interface-modes/interface-mode-focused-attack-air-to-air.js</Item>
+                    <Item>ui/interface-modes/interface-mode-focused-attack-air-bomb.js</Item>
+                    <Item>ui/interface-modes/interface-mode-found-city-adjacent-plot.js</Item>
+                    <Item>ui/interface-modes/interface-mode-default.js</Item>
+                    <Item>ui/interface-modes/interface-mode-diplo-claim-plot.js</Item>
+                    <Item>ui/interface-modes/interface-mode-diplomacy-dialog.js</Item>
+                    <Item>ui/interface-modes/interface-mode-diplomacy-hub.js</Item>
+                    <Item>ui/interface-modes/interface-mode-diplomacy-project-reaction.js</Item>
+                    <Item>ui/interface-modes/interface-mode-establish-base.js</Item>
+                    <Item>ui/interface-modes/interface-mode-move-by-rail.js</Item>
+                    <Item>ui/interface-modes/interface-mode-move-to.js</Item>
+                    <Item>ui/interface-modes/interface-mode-place-building.js</Item>
+                    <Item>ui/interface-modes/interface-mode-peace-deal.js</Item>
+                    <Item>ui/interface-modes/interface-mode-radial-selection.js</Item>
+                    <Item>ui/interface-modes/interface-mode-ranged-attack.js</Item>
+                    <Item>ui/interface-modes/interface-mode-rebase.js</Item>
+                    <Item>ui/interface-modes/interface-mode-reinforce-army.js</Item>
+                    <Item>ui/interface-modes/interface-mode-remove-from-army.js</Item>
+                    <Item>ui/interface-modes/interface-mode-resource-allocation.js</Item>
+                    <Item>ui/interface-modes/interface-mode-screenshot.js</Item>
+                    <Item>ui/interface-modes/interface-mode-tutorial-start.js</Item>
+                    <Item>ui/interface-modes/interface-mode-unit-air-drop.js</Item>
+                    <Item>ui/interface-modes/interface-mode-unit-promotion.js</Item>
+                    <Item>ui/interface-modes/interface-mode-unit-selected.js</Item>
+                    <Item>ui/interface-modes/interface-mode-unpack-army.js</Item>
+                    <Item>ui/interface-modes/interface-mode-wmd-strike.js</Item>
+                    <Item>ui/interface-modes/interface-mode-teleport-to-city.js</Item>
+                    <Item>ui/interface-modes/interface-mode-coastal-raid.js</Item>
+                    <Item>ui/interface-modes/interface-mode-pillage-land.js</Item>
+                    <Item>ui/interface-modes/interface-mode-pillage-route.js</Item>
+                    <Item>ui/interface-modes/interface-mode-grant-second-wind.js</Item>
+                    <Item>ui/interface-modes/interface-mode-commander-attack.js</Item>
+                    <Item>ui/legend-progress/legend-progress.js</Item>
+                    <Item>ui/legends-report/screen-legends-report.js</Item>
+                    <Item>ui/legends-manager/legends-manager.js</Item>
+                    <Item>ui/lenses/panel-continents.js</Item>
+                    <Item>ui/lenses/layer/appeal-layer.js</Item>
+                    <Item>ui/lenses/layer/building-placement-layer.js</Item>
+                    <Item>ui/lenses/layer/city-borders-layer.js</Item>
+                    <Item>ui/lenses/layer/city-growth-improvements-layer.js</Item>
+                    <Item>ui/lenses/layer/culture-borders-layer.js</Item>
+                    <Item>ui/lenses/layer/hexgrid-layer.js</Item>
+                    <Item>ui/lenses/layer/random-events-layer.js</Item>
+                    <Item>ui/lenses/layer/operation-target-layer.js</Item>
+                    <Item>ui/lenses/layer/resource-layer.js</Item>
+                    <Item>ui/lenses/layer/settlement-recommendations-layer.js</Item>
+                    <Item>ui/lenses/layer/trade-layer.js</Item>
+                    <Item>ui/lenses/layer/worker-yields-layer.js</Item>
+                    <Item>ui/lenses/layer/yields-layer.js</Item>
+                    <Item>ui/lenses/layer/continent-layer.js</Item>
+                    <Item>ui/lenses/lens/acquire-tile-lens.js</Item>
+                    <Item>ui/lenses/lens/building-placement-lens.js</Item>
+                    <Item>ui/lenses/lens/cinematic-lens.js</Item>
+                    <Item>ui/lenses/lens/city-lens.js</Item>
+                    <Item>ui/lenses/lens/default-lens.js</Item>
+                    <Item>ui/lenses/lens/diplomacy-lens.js</Item>
+                    <Item>ui/lenses/lens/founder-lens.js</Item>
+                    <Item>ui/lenses/lens/settler-lens.js</Item>
+                    <Item>ui/lenses/lens/trade-lens.js</Item>
+                    <Item>ui/lenses/lens/continent-lens.js</Item>
+                    <Item>ui/live-notice/live-notice.js</Item>
+                    <Item>ui/mini-map/panel-mini-map.js</Item>
+                    <Item>ui/mp-ingame-mgr/mp-ingame-mgr.js</Item>
+                    <Item>ui/narrative-event/graphic-narrative-event.js</Item>
+                    <Item>ui/narrative-event/screen-narrative-event.js</Item>
+                    <Item>ui/notification-connection-status/notification-connection-status.js</Item>
+                    <Item>ui/notification-train/model-notification-train.js</Item>
+                    <Item>ui/notification-train/notification-handlers.js</Item>
+                    <Item>ui/notification-train/panel-notification-train.js</Item>
+                    <Item>ui/notification-train-mobile/panel-notification-mobile-opener.js</Item>
+                    <Item>ui/notification-train-mobile/panel-notification-train-mobile.js</Item>
+                    <Item>ui/pantheon-chooser/screen-pantheon-chooser.js</Item>
+                    <Item>ui/pantheon-complete/panel-pantheon-complete.js</Item>
+                    <Item>ui/pantheon-chooser-item/pantheon-chooser-item.js</Item>
+                    <Item>ui/pause-event-rules/screen-pause-event-rules.js</Item>
+                    <Item>ui/pause-menu/screen-pause-menu.js</Item>
+                    <Item>ui/place-building/model-place-building.js</Item>
+                    <Item>ui/place-building/panel-place-building.js</Item>
+                    <Item>ui/place-population/model-place-population.js</Item>
+                    <Item>ui/place-population/panel-place-population.js</Item>
+                    <Item>ui/player-yields-report/player-yields-report-screen.js</Item>
+                    <Item>ui/plot-icon/plot-icon-random-event.js</Item>
+                    <Item>ui/plot-icon/plot-icon-resource.js</Item>
+                    <Item>ui/plot-icon/plot-icon-suggested-settlement.js</Item>
+                    <Item>ui/plot-icon/plot-icon-archeology.js</Item>
+                    <Item>ui/plot-workers/plot-workers-manager.js</Item>
+                    <Item>ui/popup-sequencer/popup-sequencer.js</Item>
+                    <Item>ui/production-chooser/panel-production-chooser.js</Item>
+                    <Item>ui/production-chooser/panel-production-tooltips.js</Item>
+                    <Item>ui/quest-tracker/narrative-quest-manager.js</Item>
+                    <Item>ui/quest-tracker/quest-item.js</Item>
+                    <Item>ui/quest-tracker/quest-list.js</Item>
+                    <Item>ui/quest-tracker/quest-tracker.js</Item>
+                    <Item>ui/quick-save-indicator/quick-save-indicator.js</Item>
+                    <Item>ui/save-indicator/save-indicator.js</Item>
+                    <Item>ui/small-narrative-event/small-narrative-event.js</Item>
+                    <Item>ui/resource-allocation/screen-resource-allocation.js</Item>
+                    <Item>ui/sub-system-dock/panel-sub-system-dock.js</Item>
+                    <Item>ui/system-bar/panel-system-bar.js</Item>
+                    <Item>ui/system-bar/panel-system-button.js</Item>
+                    <Item>ui/tech-civic-complete/screen-tech-civic-complete.js</Item>
+                    <Item>ui/tech-tree-chooser/screen-tech-tree-chooser.js</Item>
+                    <Item>ui/tech-tree/screen-tech-tree.js</Item>
+                    <Item>ui/tree-grid/tree-card.js</Item>
+                    <Item>ui/tree-grid/tree-line.js</Item>
+                    <Item>ui/tree-grid/tree-detail.js</Item>
+                    <Item>ui/tooltips/plot-tooltip.js</Item>
+                    <Item>ui/tooltips/relationship-tooltip.js</Item>
+                    <Item>ui/tooltips/tech-civic-tooltip.js</Item>
+                    <Item>ui/tooltips/advanced-start-tooltip.js</Item>
+                    <Item>ui/tooltips/settlement-recommendation-tooltip.js</Item>
+                    <Item>ui/tooltips/random-event-tooltip.js</Item>
+                    <Item>ui/tooltips/archeology-tooltip.js</Item>
+                    <Item>ui/tooltips/peace-deal-tooltip.js</Item>
+                    <Item>ui/policies/screen-policies.js</Item>
+                    <Item>ui/policies/policy-chooser-item.js</Item>
+                    <Item>ui/screen-government-picker/screen-government-picker.js</Item>
+                    <Item module="false">ui/tuner-input/tuner-input.js</Item>
+                    <Item>ui/turn-icon/turn-icon.js</Item>
+                    <Item>ui/tutorial/tutorial-callout.js</Item>
+                    <Item>ui/tutorial/tutorial-dialog-page.js</Item>
+                    <Item>ui/tutorial/tutorial-dialog.js</Item>
+                    <Item>ui/tutorial/tutorial-inspector.js</Item>
+                    <Item>ui/tutorial/tutorial-manager.js</Item>
+                    <Item>ui/tutorial/tutorial-item.js</Item>
+                    <Item>ui/tutorial/tutorial-quest-panel.js</Item>
+                    <Item>ui/unit-actions/unit-actions.js</Item>
+                    <Item>ui/unit-combat-preview/panel-unit-combat-preview.js</Item>
+                    <Item>ui/unit-flags/army-commander-flags.js</Item>
+                    <Item>ui/unit-flags/unit-flag-manager.js</Item>
+                    <Item>ui/unit-flags/unit-flags-independent-powers.js</Item>
+                    <Item>ui/unit-flags/unit-flags.js</Item>
+                    <Item>ui/unit-interact/unit-action-handlers.js</Item>
+                    <Item>ui/unit-promotion/panel-unit-promotion.js</Item>
+                    <Item>ui/unit-selection/unit-selection.js</Item>
+                    <Item>ui/unlocks/screen-unlocks.js</Item>
+                    <Item>ui/unlocks/screen-reward-unlocked.js</Item>
+                    <Item>ui/unlocks/model-unlocks.js</Item>
+                    <Item>ui/unlocks/unlocks-manager.js</Item>
+                    <Item>ui/unlocks/panel-player-rewards.js</Item>
+                    <Item>ui/victory-points/model-victory-points.js</Item>
+                    <Item>ui/victory-points/panel-victory-points.js</Item>
+                    <Item>ui/views/view-advanced-start.js</Item>
+                    <Item>ui/views/view-bonus-placement.js</Item>
+                    <Item>ui/views/view-cinematic.js</Item>
+                    <Item>ui/views/view-city.js</Item>
+                    <Item>ui/views/view-diplomacy.js</Item>
+                    <Item>ui/views/view-placement.js</Item>
+                    <Item>ui/views/view-screenshot.js</Item>
+                    <Item>ui/views/view-resource-allocation.js</Item>
+                    <Item>ui/views/view-unit-promotion.js</Item>
+                    <Item>ui/views/view-unit.js</Item>
+                    <Item>ui/views/view-reinforcement.js</Item>
+                    <Item>ui/views/view-world.js</Item>
+                    <Item>ui/watch-out/watch-out-manager.js</Item>
+                    <Item>ui/watch-out/screen-watch-out.js</Item>
+                    <Item>ui/world-anchor-text/world-anchor-text-manager.js</Item>
+                    <Item>ui/world-anchor-text/world-anchor-text.js</Item>
+                    <Item>ui/world-input/world-input.js</Item>
+                    <Item>ui/world-vfx/world-vfx.js</Item>
+                    <Item>ui/yield-bar/model-yield-bar.js</Item>
+                    <Item>ui/yield-bar/yield-bar.js</Item>
+                    <Item>ui/yield-bar-base/yield-bar-base.js</Item>
+                </UIScripts>
+                <UpdateDatabase>
+                    <Item>data/gameplay.xml</Item>
+                    <Item>data/advanced-start-gameeffects.xml</Item>
+                    <Item>data/advisory.xml</Item>
+                    <Item>data/age-transition-gameeffects.xml</Item>
+                    <Item>data/ages.xml</Item>
+                    <Item>data/army-names.xml</Item>
+                    <Item>data/attributes-gameeffects.xml</Item>
+                    <Item>data/attributes.xml</Item>
+                    <Item>data/AI_Base.xml</Item>
+                    <Item>data/Barbarians.xml</Item>
+                    <Item>data/behaviortrees.xml</Item>
+                    <Item>data/calendar.xml</Item>
+                    <Item>data/capabilities.xml</Item>
+                    <Item>data/city-commands.xml</Item>
+                    <Item>data/city-properties.xml</Item>
+                    <Item>data/civilizations-gameeffects.xml</Item>
+                    <Item>data/civilizations.xml</Item>
+                    <Item>data/civilopedia.xml</Item>
+                    <Item>data/civilopedia-ages.xml</Item>
+                    <Item>data/civilopedia-concepts.xml</Item>
+                    <Item>data/common-property-types.xml</Item>
+                    <Item>data/core-types.xml</Item>
+                    <Item>data/constructibles.xml</Item>
+                    <Item>data/definition-property-types.xml</Item>
+                    <Item>data/difficulties.xml</Item>
+                    <Item>data/diplomacy-actions.xml</Item>
+                    <Item>data/diplomacy-deal-items.xml</Item>
+                    <Item>data/diplomacy-deal-item-agreements.xml</Item>
+                    <Item>data/diplomacy-gameeffects.xml</Item>
+                    <Item>data/diplomacy-statements.xml</Item>
+                    <Item>data/discovery-stories-gameeffects.xml</Item>
+                    <Item>data/discovery-stories.xml</Item>
+                    <Item>data/districts.xml</Item>
+                    <Item>data/game-speeds.xml</Item>
+                    <Item>data/gameplay-systems.xml</Item>
+                    <Item>data/gossip.xml</Item>
+                    <Item>data/governments.xml</Item>
+                    <Item>data/happiness-identity.xml</Item>
+                    <Item>data/happiness-identity-gameeffects.xml</Item>
+                    <Item>data/Independents.xml</Item>
+                    <Item>data/interface-modes.xml</Item>
+                    <Item>data/leaders.xml</Item>
+                    <Item>data/leaders-gameeffects.xml</Item>
+                    <Item>data/legacy-path-gameeffects.xml</Item>
+                    <Item>data/loading-info.xml</Item>
+                    <Item>data/maps.xml</Item>
+                    <Item>data/movies.xml</Item>
+                    <Item>data/plot-effects.xml</Item>
+                    <Item>data/mementos.xml</Item>
+                    <Item>data/mementos-gameeffects.xml</Item>
+                    <Item>data/metaprogression.xml</Item>
+                    <Item>data/metaprogression-gameeffects.xml</Item>
+                    <Item>data/modifiers.xml</Item>
+                    <Item>data/named-places.xml</Item>
+                    <Item>data/narrative-sifting.xml</Item>
+                    <Item>data/narrative-crises-stories-gameeffects.xml</Item>
+                    <Item>data/narrative-crises-stories.xml</Item>
+                    <Item>data/narrative-stories-gameeffects.xml</Item>
+                    <Item>data/narrative-stories.xml</Item>
+                    <Item>data/narrative-stories-common.xml</Item>
+                    <Item>data/narrative-stories-common-gameeffects.xml</Item>
+                    <Item>data/narrative-tags.xml</Item>
+                    <Item>data/notification.xml</Item>
+                    <Item>data/player-properties.xml</Item>
+                    <Item>data/progression-trees-common-gameeffects.xml</Item>
+                    <Item>data/progression-trees-common.xml</Item>
+                    <Item>data/projects.xml</Item>
+                    <Item>data/projects-gameeffects.xml</Item>
+                    <Item>data/pseudoyields.xml</Item>
+                    <Item>data/racetowonders-terrain.xml</Item>
+                    <Item>data/racetowonders-terrain-gameeffects.xml</Item>
+                    <Item>data/marvelous-mountains-terrain.xml</Item>
+                    <Item>data/marvelous-mountains-terrain-gameeffects.xml</Item>
+                    <Item>data/resources.xml</Item>
+                    <Item>data/resources-v2.xml</Item>
+                    <Item>data/random-events.xml</Item>
+                    <Item>data/religion.xml</Item>
+                    <Item>data/routes.xml</Item>
+                    <Item>data/terrain.xml</Item>
+                    <Item>data/terrain-gameeffects.xml</Item>
+                    <Item>data/traditions.xml</Item>
+                    <Item>data/traditions-gameeffects.xml</Item>
+                    <Item>data/unit-commands.xml</Item>
+                    <Item>data/unit-movement.xml</Item>
+                    <Item>data/unit-operations.xml</Item>
+                    <Item>data/unit-properties.xml</Item>
+                    <Item>data/unit-promotions-gameeffects.xml</Item>
+                    <Item>data/unit-promotions.xml</Item>
+                    <Item>data/units-gameeffects.xml</Item>
+                    <Item>data/units.xml</Item>
+                    <Item>data/unlocks.xml</Item>
+                    <Item>data/victories.xml</Item>
+                    <Item>data/wars.xml</Item>
+                </UpdateDatabase>
+                <UpdateColors>
+                    <Item>data/colors/playercolors.xml</Item>
+                    <Item>data/colors/playerstandardcolors.xml</Item>
+                </UpdateColors>
+                <UpdateIcons>
+                    <Item>data/icons/advisor-icons.xml</Item>
+                    <Item>data/icons/attribute-icons.xml</Item>
+                    <Item>data/icons/chat-icons.xml</Item>
+                    <Item>data/icons/city-icons.xml</Item>
+                    <Item>data/icons/building-icons.xml</Item>
+                    <Item>data/icons/card-icons.xml</Item>
+                    <Item>data/icons/diplomacy-icons.xml</Item>
+                    <Item>data/icons/civilization-icons.xml</Item>
+                    <Item>data/icons/emoji-icons.xml</Item>
+                    <Item>data/icons/improvement-icons.xml</Item>
+                    <Item>data/icons/leader-icons.xml</Item>
+                    <Item>data/icons/legacy-path-icons.xml</Item>
+                    <Item>data/icons/misc-icons.xml</Item>
+                    <Item>data/icons/modifier-icons.xml</Item>
+                    <Item>data/icons/narrative-icons.xml</Item>
+                    <Item>data/icons/notification-icons.xml</Item>
+                    <Item>data/icons/project-icons.xml</Item>
+                    <Item>data/icons/promotion-icons.xml</Item>
+                    <Item>data/icons/radial-icons.xml</Item>
+                    <Item>data/icons/random-event-icons.xml</Item>
+                    <Item>data/icons/relationship-icons.xml</Item>
+                    <Item>data/icons/resource-icons.xml</Item>
+                    <Item>data/icons/resource-icons-v2.xml</Item>
+                    <Item>data/icons/trade-icons.xml</Item>
+                    <Item>data/icons/tradition-icons.xml</Item>
+                    <Item>data/icons/unit-icons.xml</Item>
+                    <Item>data/icons/wonder-icons.xml</Item>
+                    <Item>data/icons/victory-icons.xml</Item>
+                    <Item>data/icons/yield-icons.xml</Item>
+                    <Item>data/icons/tutorial-icons.xml</Item>
+                    <Item>data/icons/rewards-icons.xml</Item>
+                    <Item>data/icons/platform-icons.xml</Item>
+                </UpdateIcons>
+                <UpdateText>
+                    <Item>text/en_us/ShellText.xml</Item>
+                    <Item>text/en_us/ConfigText.xml</Item>
+                    <Item>text/en_us/ActionPanelText.xml</Item>
+                    <Item>text/en_us/AdvancedOptionText.xml</Item>
+                    <Item>text/en_us/AdvancedStartText.xml</Item>
+                    <Item>text/en_us/AdvisorText.xml</Item>
+                    <Item>text/en_us/AgeTransitionText.xml</Item>
+                    <Item>text/en_us/ArmyNamesText.xml</Item>
+                    <Item>text/en_us/AttributesText.xml</Item>
+                    <Item>text/en_us/BannerText.xml</Item>
+                    <Item>text/en_us/CalendarText.xml</Item>
+                    <Item>text/en_us/CityCommandsText.xml</Item>
+                    <Item>text/en_us/CivilizationText.xml</Item>
+                    <Item>text/en_us/CivilopediaText.xml</Item>
+                    <Item>text/en_us/Civilopedia_Ages_Text.xml</Item>
+                    <Item>text/en_us/Civilopedia_Concepts_Text.xml</Item>
+                    <Item>text/en_us/Civilopedia_Constructibles_Text.xml</Item>
+                    <Item>text/en_us/Civilopedia_Features_Text.xml</Item>
+                    <Item>text/en_us/Civilopedia_Resources_Text.xml</Item>
+                    <Item>text/en_us/Civilopedia_Terrain_Text.xml</Item>
+                    <Item>text/en_us/Civilopedia_Leaders_Text.xml</Item>
+                    <Item>text/en_us/Civilopedia_Units_Text.xml</Item>
+                    <Item>text/en_us/CombatPreviewText.xml</Item>
+                    <Item>text/en_us/CommonText.xml</Item>
+                    <Item>text/en_us/ConstructibleText.xml</Item>
+                    <Item>text/en_us/CultureText.xml</Item>
+                    <Item>text/en_us/DiplomacyText.xml</Item>
+                    <Item>text/en_us/DiplomacyStatementText.xml</Item>
+                    <Item>text/en_us/EffectText.xml</Item>
+                    <Item>text/en_us/EraVictoryText.xml</Item>
+                    <Item>text/en_us/GameplaySystemsText.xml</Item>
+                    <Item>text/en_us/InGameText.xml</Item>
+                    <Item>text/en_us/InterfaceModeText.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Augustus.xml</Item>
+                    <Item>text/en_us/LeaderDialog_BenjaminFranklin.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Catherine.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Isabella.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Lafayette.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Amina.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Ashoka.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Charlemagne.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Confucius.xml</Item>
+                    <Item>text/en_us/LeaderDialog_FriedrichII.xml</Item>
+                    <Item>text/en_us/LeaderDialog_HarrietTubman.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Hatshepsut.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Himiko.xml</Item>
+                    <Item>text/en_us/LeaderDialog_IbnBattuta.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Machiavelli.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Pachacuti.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Rizal.xml</Item>
+                    <Item>text/en_us/LeaderDialog_TrungTrac.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Xerxes.xml</Item>
+                    <Item>text/en_us/LeaderText.xml</Item>
+                    <Item>text/en_us/LoadingText.xml</Item>
+                    <Item>text/en_us/MapText.xml</Item>
+                    <Item>text/en_us/MementoText.xml</Item>
+                    <Item>text/en_us/UnlockableRewardsText.xml</Item>
+                    <Item>text/en_us/MetaprogressionText.xml</Item>
+                    <Item>text/en_us/MetaprogressionText.generated.xml</Item>
+                    <Item>text/en_us/NamedPlacesText.xml</Item>
+                    <Item>text/en_us/NarrativeCrisesStoriesText.xml</Item>
+                    <Item>text/en_us/NarrativeStoriesText.xml</Item>
+                    <Item>text/en_us/NarrativeStoriesTextCommon.xml</Item>
+                    <Item>text/en_us/NaturalWonderQuoteText.xml</Item>
+                    <Item>text/en_us/NotificationText.xml</Item>
+                    <Item>text/en_us/PauseMenuText.xml</Item>
+                    <Item>text/en_us/PlayerOperationsText.xml</Item>
+                    <Item>text/en_us/PlotTooltipText.xml</Item>
+                    <Item>text/en_us/ProductionChooserText.xml</Item>
+                    <Item>text/en_us/ProjectsText.xml</Item>
+                    <Item>text/en_us/QuestTrackerText.xml</Item>
+                    <Item>text/en_us/RandomEventsText.xml</Item>
+                    <Item>text/en_us/ResourcesText.xml</Item>
+                    <Item>text/en_us/SettlementRecommendationText.xml</Item>
+                    <Item>text/en_us/SubSystemDockText.xml</Item>
+                    <Item>text/en_us/SystemMessageText.xml</Item>
+                    <Item>text/en_us/TerrainText.xml</Item>
+                    <Item>text/en_us/TraditionsText.xml</Item>
+                    <Item>text/en_us/TreasuryText.xml</Item>
+                    <Item>text/en_us/TutorialText.xml</Item>
+                    <Item>text/en_us/UIText.xml</Item>
+                    <Item>text/en_us/UnitCommandsText.xml</Item>
+                    <Item>text/en_us/UnitOperationsText.xml</Item>
+                    <Item>text/en_us/UnitPromotionsText.xml</Item>
+                    <Item>text/en_us/UnitText.xml</Item>
+                    <Item>text/en_us/UnlockText.xml</Item>
+                    <Item>text/en_us/VictoryProgressText.xml</Item>
+                    <Item>text/en_us/VictoriesText.xml</Item>
+                    <Item>text/en_us/WarNamesText.xml</Item>
+                    <Item>text/en_us/WorkersText.xml</Item>
+                    <Item>text/en_us/YieldsText.xml</Item>
 
-					<!-- Items below were generated via our loc tool. -->
-					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
-					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
-					<Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>
-					<Item locale="it_IT">l10n/it_IT_Text.xml</Item>
-					<Item locale="ja_JP">l10n/ja_JP_Text.xml</Item>
-					<Item locale="ko_KR">l10n/ko_KR_Text.xml</Item>
-					<Item locale="pl_PL">l10n/pl_PL_Text.xml</Item>
-					<Item locale="pt_BR">l10n/pt_BR_Text.xml</Item>
-					<Item locale="ru_RU">l10n/ru_RU_Text.xml</Item>
-					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
-					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
-					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
+                    <!-- Items below were generated via our loc tool. -->
+                    <Item locale="de_DE">l10n/de_DE_Text.xml</Item>
+                    <Item locale="es_ES">l10n/es_ES_Text.xml</Item>
+                    <Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>
+                    <Item locale="it_IT">l10n/it_IT_Text.xml</Item>
+                    <Item locale="ja_JP">l10n/ja_JP_Text.xml</Item>
+                    <Item locale="ko_KR">l10n/ko_KR_Text.xml</Item>
+                    <Item locale="pl_PL">l10n/pl_PL_Text.xml</Item>
+                    <Item locale="pt_BR">l10n/pt_BR_Text.xml</Item>
+                    <Item locale="ru_RU">l10n/ru_RU_Text.xml</Item>
+                    <Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
+                    <Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
+                    <Item locale="th_TH">l10n/th_TH_Text.xml</Item>
 
-					<!-- These text-override entries must happen *after* translations. -->
-					<Item platform="Switch">text/en_us/ShellText_Premium_Services_NX.xml</Item>
-					<Item platform="Ounce">text/en_us/ShellText_Premium_Services_NX.xml</Item>
+                    <!-- These text-override entries must happen *after* translations. -->
+                    <Item platform="Switch">text/en_us/ShellText_Premium_Services_NX.xml</Item>
+                    <Item platform="Ounce">text/en_us/ShellText_Premium_Services_NX.xml</Item>
 
-					<Item platform="Switch">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
-					<Item platform="Ounce">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
-					<Item platform="PS4">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
-					<Item platform="PS5">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
-					<Item platform="XboxOne">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
-					<Item platform="XboxScarlett">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
+                    <Item platform="Switch">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
+                    <Item platform="Ounce">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
+                    <Item platform="PS4">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
+                    <Item platform="PS5">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
+                    <Item platform="XboxOne">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
+                    <Item platform="XboxScarlett">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
 
-					<Item platform="Switch">text/en_us/ShellText_RestrictedContent.xml</Item>
-					<Item platform="Ounce">text/en_us/ShellText_RestrictedContent.xml</Item>
-					<Item platform="PS4">text/en_us/ShellText_RestrictedContent.xml</Item>
-					<Item platform="PS5">text/en_us/ShellText_RestrictedContent.xml</Item>
-					<Item platform="XboxOne">text/en_us/ShellText_RestrictedContent.xml</Item>
-					<Item platform="XboxScarlett">text/en_us/ShellText_RestrictedContent.xml</Item>
-				</UpdateText>
-				<UpdateArt>
-					<!-- Asset Packages that the mod depends on -->
-					<Item>Civ7</Item>
-					<Item>boot-shell</Item>
-				</UpdateArt>
-				<UIShortcuts>
-					<Item>ui/root-game.html</Item>
-				</UIShortcuts>
-				<UpdateVisualRemaps>
-					<Item>data/visual-remaps.xml</Item>
-				</UpdateVisualRemaps>
+                    <Item platform="Switch">text/en_us/ShellText_RestrictedContent.xml</Item>
+                    <Item platform="Ounce">text/en_us/ShellText_RestrictedContent.xml</Item>
+                    <Item platform="PS4">text/en_us/ShellText_RestrictedContent.xml</Item>
+                    <Item platform="PS5">text/en_us/ShellText_RestrictedContent.xml</Item>
+                    <Item platform="XboxOne">text/en_us/ShellText_RestrictedContent.xml</Item>
+                    <Item platform="XboxScarlett">text/en_us/ShellText_RestrictedContent.xml</Item>
 
-				<ImportFiles locale="de_DE">
-					<Item>l10n/de_DE/intro.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_amina.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_ashoka_defeat.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_ashoka.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_augustus.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_benjaminfranklin.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_catherine_alt.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_catherine.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_charlemagne.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_confucius.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_friedrich.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_harriettubman_alt.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_harriettubman.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_hatshepsut.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_himiko.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_ibnbattuta.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_isabella.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_joserizal_alt.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_joserizal.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_lafayette_alt.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_lafayette.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_machiavelli.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_napoleon.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_pachacuti.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_trungtrac.vtt</Item>
-					<Item>l10n/de_DE/wilco_leader_xerxes.vtt</Item>
-					<Item>l10n/de_DE/wilco_victory_generic_domination.vtt</Item>
-				</ImportFiles>
+                    <Item ecosystem="game-center">
+                        text/en_us/AttributesText_LegendUnlocks_AppleArcade.xml</Item>
+                </UpdateText>
+                <UpdateArt>
+                    <!-- Asset Packages that the mod depends on -->
+                    <Item>Civ7</Item>
+                    <Item>boot-shell</Item>
+                </UpdateArt>
+                <UIShortcuts>
+                    <Item>ui/root-game.html</Item>
+                </UIShortcuts>
+                <UpdateVisualRemaps>
+                    <Item>data/visual-remaps.xml</Item>
+                </UpdateVisualRemaps>
 
-				<ImportFiles locale="es_ES">
-					<Item>l10n/es_ES/intro.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_amina.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_ashoka_defeat.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_ashoka.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_augustus.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_benjaminfranklin.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_catherine_alt.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_catherine.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_charlemagne.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_confucius.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_friedrich.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_harriettubman_alt.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_harriettubman.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_hatshepsut.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_himiko.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_ibnbattuta.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_isabella.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_joserizal_alt.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_joserizal.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_lafayette_alt.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_lafayette.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_machiavelli.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_napoleon.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_pachacuti.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_trungtrac.vtt</Item>
-					<Item>l10n/es_ES/wilco_leader_xerxes.vtt</Item>
-					<Item>l10n/es_ES/wilco_victory_generic_domination.vtt</Item>
-				</ImportFiles>
+                <ImportFiles locale="de_DE">
+                    <Item>l10n/de_DE/intro.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_amina.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_ashoka_defeat.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_ashoka.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_augustus.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_benjaminfranklin.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_catherine_alt.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_catherine.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_charlemagne.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_confucius.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_friedrich.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_harriettubman_alt.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_harriettubman.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_hatshepsut.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_himiko.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_ibnbattuta.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_isabella.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_joserizal_alt.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_joserizal.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_lafayette_alt.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_lafayette.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_machiavelli.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_napoleon.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_pachacuti.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_trungtrac.vtt</Item>
+                    <Item>l10n/de_DE/wilco_leader_xerxes.vtt</Item>
+                    <Item>l10n/de_DE/wilco_victory_generic_domination.vtt</Item>
+                </ImportFiles>
 
-				<ImportFiles locale="fr_FR">
-					<Item>l10n/fr_FR/intro.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_amina.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_ashoka_defeat.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_ashoka.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_augustus.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_benjaminfranklin.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_catherine_alt.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_catherine.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_charlemagne.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_confucius.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_friedrich.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_harriettubman_alt.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_harriettubman.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_hatshepsut.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_himiko.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_ibnbattuta.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_isabella.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_joserizal_alt.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_joserizal.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_lafayette_alt.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_lafayette.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_machiavelli.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_napoleon.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_pachacuti.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_trungtrac.vtt</Item>
-					<Item>l10n/fr_FR/wilco_leader_xerxes.vtt</Item>
-					<Item>l10n/fr_FR/wilco_victory_generic_domination.vtt</Item>
-				</ImportFiles>
+                <ImportFiles locale="es_ES">
+                    <Item>l10n/es_ES/intro.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_amina.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_ashoka_defeat.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_ashoka.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_augustus.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_benjaminfranklin.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_catherine_alt.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_catherine.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_charlemagne.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_confucius.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_friedrich.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_harriettubman_alt.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_harriettubman.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_hatshepsut.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_himiko.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_ibnbattuta.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_isabella.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_joserizal_alt.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_joserizal.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_lafayette_alt.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_lafayette.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_machiavelli.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_napoleon.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_pachacuti.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_trungtrac.vtt</Item>
+                    <Item>l10n/es_ES/wilco_leader_xerxes.vtt</Item>
+                    <Item>l10n/es_ES/wilco_victory_generic_domination.vtt</Item>
+                </ImportFiles>
 
-				<ImportFiles locale="it_IT">
-					<Item>l10n/it_IT/intro.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_amina.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_ashoka_defeat.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_ashoka.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_augustus.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_benjaminfranklin.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_catherine_alt.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_catherine.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_charlemagne.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_confucius.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_friedrich.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_harriettubman_alt.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_harriettubman.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_hatshepsut.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_himiko.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_ibnbattuta.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_isabella.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_joserizal_alt.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_joserizal.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_lafayette_alt.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_lafayette.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_machiavelli.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_napoleon.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_pachacuti.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_trungtrac.vtt</Item>
-					<Item>l10n/it_IT/wilco_leader_xerxes.vtt</Item>
-					<Item>l10n/it_IT/wilco_victory_generic_domination.vtt</Item>
-				</ImportFiles>
+                <ImportFiles locale="fr_FR">
+                    <Item>l10n/fr_FR/intro.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_amina.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_ashoka_defeat.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_ashoka.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_augustus.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_benjaminfranklin.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_catherine_alt.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_catherine.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_charlemagne.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_confucius.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_friedrich.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_harriettubman_alt.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_harriettubman.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_hatshepsut.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_himiko.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_ibnbattuta.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_isabella.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_joserizal_alt.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_joserizal.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_lafayette_alt.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_lafayette.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_machiavelli.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_napoleon.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_pachacuti.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_trungtrac.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_leader_xerxes.vtt</Item>
+                    <Item>l10n/fr_FR/wilco_victory_generic_domination.vtt</Item>
+                </ImportFiles>
 
-				<ImportFiles locale="ja_JP">
-					<Item>l10n/ja_JP/intro.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_amina.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_ashoka_defeat.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_ashoka.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_augustus.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_benjaminfranklin.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_catherine_alt.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_catherine.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_charlemagne.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_confucius.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_friedrich.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_harriettubman_alt.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_harriettubman.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_hatshepsut.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_himiko.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_ibnbattuta.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_isabella.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_joserizal_alt.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_joserizal.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_lafayette_alt.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_lafayette.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_machiavelli.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_napoleon.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_pachacuti.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_trungtrac.vtt</Item>
-					<Item>l10n/ja_JP/wilco_leader_xerxes.vtt</Item>
-					<Item>l10n/ja_JP/wilco_victory_generic_domination.vtt</Item>
-				</ImportFiles>
+                <ImportFiles locale="it_IT">
+                    <Item>l10n/it_IT/intro.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_amina.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_ashoka_defeat.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_ashoka.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_augustus.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_benjaminfranklin.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_catherine_alt.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_catherine.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_charlemagne.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_confucius.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_friedrich.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_harriettubman_alt.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_harriettubman.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_hatshepsut.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_himiko.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_ibnbattuta.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_isabella.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_joserizal_alt.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_joserizal.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_lafayette_alt.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_lafayette.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_machiavelli.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_napoleon.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_pachacuti.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_trungtrac.vtt</Item>
+                    <Item>l10n/it_IT/wilco_leader_xerxes.vtt</Item>
+                    <Item>l10n/it_IT/wilco_victory_generic_domination.vtt</Item>
+                </ImportFiles>
 
-				<ImportFiles locale="ko_KR">
-					<Item>l10n/ko_KR/intro.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_amina.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_ashoka_defeat.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_ashoka.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_augustus.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_benjaminfranklin.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_catherine_alt.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_catherine.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_charlemagne.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_confucius.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_friedrich.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_harriettubman_alt.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_harriettubman.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_hatshepsut.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_himiko.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_ibnbattuta.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_isabella.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_joserizal_alt.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_joserizal.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_lafayette_alt.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_lafayette.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_machiavelli.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_napoleon.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_pachacuti.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_trungtrac.vtt</Item>
-					<Item>l10n/ko_KR/wilco_leader_xerxes.vtt</Item>
-					<Item>l10n/ko_KR/wilco_victory_generic_domination.vtt</Item>
-				</ImportFiles>
+                <ImportFiles locale="ja_JP">
+                    <Item>l10n/ja_JP/intro.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_amina.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_ashoka_defeat.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_ashoka.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_augustus.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_benjaminfranklin.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_catherine_alt.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_catherine.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_charlemagne.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_confucius.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_friedrich.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_harriettubman_alt.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_harriettubman.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_hatshepsut.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_himiko.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_ibnbattuta.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_isabella.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_joserizal_alt.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_joserizal.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_lafayette_alt.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_lafayette.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_machiavelli.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_napoleon.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_pachacuti.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_trungtrac.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_leader_xerxes.vtt</Item>
+                    <Item>l10n/ja_JP/wilco_victory_generic_domination.vtt</Item>
+                </ImportFiles>
 
-				<ImportFiles locale="pl_PL">
-					<Item>l10n/pl_PL/intro.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_amina.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_ashoka_defeat.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_ashoka.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_augustus.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_benjaminfranklin.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_catherine_alt.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_catherine.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_charlemagne.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_confucius.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_friedrich.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_harriettubman_alt.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_harriettubman.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_hatshepsut.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_himiko.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_ibnbattuta.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_isabella.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_joserizal_alt.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_joserizal.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_lafayette_alt.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_lafayette.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_machiavelli.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_napoleon.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_pachacuti.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_trungtrac.vtt</Item>
-					<Item>l10n/pl_PL/wilco_leader_xerxes.vtt</Item>
-					<Item>l10n/pl_PL/wilco_victory_generic_domination.vtt</Item>
-				</ImportFiles>
+                <ImportFiles locale="ko_KR">
+                    <Item>l10n/ko_KR/intro.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_amina.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_ashoka_defeat.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_ashoka.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_augustus.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_benjaminfranklin.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_catherine_alt.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_catherine.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_charlemagne.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_confucius.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_friedrich.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_harriettubman_alt.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_harriettubman.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_hatshepsut.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_himiko.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_ibnbattuta.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_isabella.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_joserizal_alt.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_joserizal.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_lafayette_alt.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_lafayette.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_machiavelli.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_napoleon.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_pachacuti.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_trungtrac.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_leader_xerxes.vtt</Item>
+                    <Item>l10n/ko_KR/wilco_victory_generic_domination.vtt</Item>
+                </ImportFiles>
 
-				<ImportFiles locale="pt_BR">
-					<Item>l10n/pt_BR/intro.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_amina.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_ashoka_defeat.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_ashoka.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_augustus.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_benjaminfranklin.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_catherine_alt.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_catherine.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_charlemagne.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_confucius.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_friedrich.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_harriettubman_alt.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_harriettubman.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_hatshepsut.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_himiko.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_ibnbattuta.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_isabella.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_joserizal_alt.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_joserizal.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_lafayette_alt.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_lafayette.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_machiavelli.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_napoleon.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_pachacuti.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_trungtrac.vtt</Item>
-					<Item>l10n/pt_BR/wilco_leader_xerxes.vtt</Item>
-					<Item>l10n/pt_BR/wilco_victory_generic_domination.vtt</Item>
-				</ImportFiles>
+                <ImportFiles locale="pl_PL">
+                    <Item>l10n/pl_PL/intro.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_amina.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_ashoka_defeat.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_ashoka.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_augustus.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_benjaminfranklin.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_catherine_alt.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_catherine.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_charlemagne.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_confucius.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_friedrich.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_harriettubman_alt.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_harriettubman.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_hatshepsut.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_himiko.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_ibnbattuta.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_isabella.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_joserizal_alt.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_joserizal.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_lafayette_alt.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_lafayette.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_machiavelli.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_napoleon.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_pachacuti.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_trungtrac.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_leader_xerxes.vtt</Item>
+                    <Item>l10n/pl_PL/wilco_victory_generic_domination.vtt</Item>
+                </ImportFiles>
 
-				<ImportFiles locale="ru_RU">
-					<Item>l10n/ru_RU/intro.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_amina.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_ashoka_defeat.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_ashoka.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_augustus.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_benjaminfranklin.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_catherine_alt.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_catherine.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_charlemagne.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_confucius.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_friedrich.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_harriettubman_alt.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_harriettubman.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_hatshepsut.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_himiko.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_ibnbattuta.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_isabella.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_joserizal_alt.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_joserizal.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_lafayette_alt.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_lafayette.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_machiavelli.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_napoleon.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_pachacuti.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_trungtrac.vtt</Item>
-					<Item>l10n/ru_RU/wilco_leader_xerxes.vtt</Item>
-					<Item>l10n/ru_RU/wilco_victory_generic_domination.vtt</Item>
-				</ImportFiles>
+                <ImportFiles locale="pt_BR">
+                    <Item>l10n/pt_BR/intro.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_amina.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_ashoka_defeat.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_ashoka.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_augustus.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_benjaminfranklin.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_catherine_alt.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_catherine.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_charlemagne.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_confucius.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_friedrich.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_harriettubman_alt.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_harriettubman.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_hatshepsut.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_himiko.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_ibnbattuta.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_isabella.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_joserizal_alt.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_joserizal.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_lafayette_alt.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_lafayette.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_machiavelli.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_napoleon.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_pachacuti.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_trungtrac.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_leader_xerxes.vtt</Item>
+                    <Item>l10n/pt_BR/wilco_victory_generic_domination.vtt</Item>
+                </ImportFiles>
 
-				<ImportFiles locale="zh_Hans_CN">
-					<Item>l10n/zh_Hans_CN/intro.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_amina.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_ashoka_defeat.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_ashoka.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_augustus.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_benjaminfranklin.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_catherine_alt.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_catherine.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_charlemagne.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_confucius.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_friedrich.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_harriettubman_alt.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_harriettubman.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_hatshepsut.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_himiko.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_ibnbattuta.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_isabella.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_joserizal_alt.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_joserizal.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_lafayette_alt.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_lafayette.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_machiavelli.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_napoleon.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_pachacuti.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_trungtrac.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_leader_xerxes.vtt</Item>
-					<Item>l10n/zh_Hans_CN/wilco_victory_generic_domination.vtt</Item>
-				</ImportFiles>
+                <ImportFiles locale="ru_RU">
+                    <Item>l10n/ru_RU/intro.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_amina.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_ashoka_defeat.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_ashoka.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_augustus.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_benjaminfranklin.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_catherine_alt.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_catherine.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_charlemagne.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_confucius.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_friedrich.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_harriettubman_alt.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_harriettubman.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_hatshepsut.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_himiko.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_ibnbattuta.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_isabella.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_joserizal_alt.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_joserizal.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_lafayette_alt.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_lafayette.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_machiavelli.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_napoleon.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_pachacuti.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_trungtrac.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_leader_xerxes.vtt</Item>
+                    <Item>l10n/ru_RU/wilco_victory_generic_domination.vtt</Item>
+                </ImportFiles>
 
-				<ImportFiles locale="zh_Hant_HK">
-					<Item>l10n/zh_Hant_HK/intro.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_amina.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_ashoka_defeat.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_ashoka.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_augustus.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_benjaminfranklin.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_catherine_alt.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_catherine.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_charlemagne.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_confucius.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_friedrich.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_harriettubman_alt.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_harriettubman.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_hatshepsut.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_himiko.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_ibnbattuta.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_isabella.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_joserizal_alt.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_joserizal.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_lafayette_alt.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_lafayette.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_machiavelli.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_napoleon.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_pachacuti.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_trungtrac.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_leader_xerxes.vtt</Item>
-					<Item>l10n/zh_Hant_HK/wilco_victory_generic_domination.vtt</Item>
-				</ImportFiles>
+                <ImportFiles locale="zh_Hans_CN">
+                    <Item>l10n/zh_Hans_CN/intro.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_amina.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_ashoka_defeat.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_ashoka.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_augustus.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_benjaminfranklin.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_catherine_alt.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_catherine.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_charlemagne.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_confucius.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_friedrich.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_harriettubman_alt.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_harriettubman.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_hatshepsut.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_himiko.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_ibnbattuta.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_isabella.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_joserizal_alt.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_joserizal.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_lafayette_alt.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_lafayette.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_machiavelli.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_napoleon.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_pachacuti.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_trungtrac.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_leader_xerxes.vtt</Item>
+                    <Item>l10n/zh_Hans_CN/wilco_victory_generic_domination.vtt</Item>
+                </ImportFiles>
 
-				<ImportFiles locale="th_TH">
+                <ImportFiles locale="zh_Hant_HK">
+                    <Item>l10n/zh_Hant_HK/intro.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_amina.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_ashoka_defeat.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_ashoka.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_augustus.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_benjaminfranklin.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_catherine_alt.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_catherine.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_charlemagne.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_confucius.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_friedrich.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_harriettubman_alt.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_harriettubman.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_hatshepsut.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_himiko.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_ibnbattuta.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_isabella.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_joserizal_alt.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_joserizal.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_lafayette_alt.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_lafayette.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_machiavelli.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_napoleon.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_pachacuti.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_trungtrac.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_leader_xerxes.vtt</Item>
+                    <Item>l10n/zh_Hant_HK/wilco_victory_generic_domination.vtt</Item>
+                </ImportFiles>
+                
+                <ImportFiles locale="th_TH">
 					<Item>l10n/th_TH/intro.vtt</Item>
 					<Item>l10n/th_TH/wilco_leader_amina.vtt</Item>
 					<Item>l10n/th_TH/wilco_leader_ashoka_defeat.vtt</Item>
@@ -920,146 +924,149 @@
 					<Item>l10n/th_TH/wilco_leader_xerxes.vtt</Item>
 					<Item>l10n/th_TH/wilco_victory_generic_domination.vtt</Item>
 				</ImportFiles>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="base-game-shell" scope="shell" criteria="always">
-			<Actions>
-				<ImportFiles>
-					<Item>ui/loading/root-loading.html</Item>
-				</ImportFiles>
-				<UIScripts>
-					<Item>ui/live-notice/live-notice.js</Item>
-				</UIScripts>
-				<UpdateArt>
-					<Item>boot-shell</Item>
-				</UpdateArt>
-				<UpdateDatabase>
-					<Item>config/config.xml</Item>
-					<Item>config/hall-of-fame.xml</Item>
-					<Item>config/metaprogression.xml</Item>
-					<Item>config/unlockableRewards.xml</Item>
-				</UpdateDatabase>
-				<UpdateColors>
-					<Item>data/colors/playercolors.xml</Item>
-					<Item>data/colors/playerstandardcolors.xml</Item>
-				</UpdateColors>
-				<UpdateIcons>
-					<Item>data/icons/attribute-icons.xml</Item>
-					<Item>data/icons/chat-icons.xml</Item>
-					<Item>data/icons/building-icons.xml</Item>
-					<Item>data/icons/city-icons.xml</Item>
-					<Item>data/icons/civilization-icons.xml</Item>
-					<Item>data/icons/emoji-icons.xml</Item>
-					<Item>data/icons/improvement-icons.xml</Item>
-					<Item>data/icons/leader-icons.xml</Item>
-					<Item>data/icons/legacy-path-icons.xml</Item>
-					<Item>data/icons/misc-icons.xml</Item>
-					<Item>data/icons/modifier-icons.xml</Item>
-					<Item>data/icons/narrative-icons.xml</Item>
-					<Item>data/icons/notification-icons.xml</Item>
-					<Item>data/icons/project-icons.xml</Item>
-					<Item>data/icons/radial-icons.xml</Item>
-					<Item>data/icons/relationship-icons.xml</Item>
-					<Item>data/icons/resource-icons.xml</Item>
-					<Item>data/icons/resource-icons-v2.xml</Item>
-					<Item>data/icons/tutorial-icons.xml</Item>
-					<Item>data/icons/unit-icons.xml</Item>
-					<Item>data/icons/yield-icons.xml</Item>
-					<Item>data/icons/platform-icons.xml</Item>
-				</UpdateIcons>
-				<UpdateText>
-					<Item>text/en_us/CivilizationText.xml</Item>
-					<Item>text/en_us/LeaderText.xml</Item>
-					<Item>text/en_us/LoadingText.xml</Item>
-					<Item>text/en_us/ShellText.xml</Item>
-					<Item>text/en_us/SystemMessageText.xml</Item>
-					<Item>text/en_us/AdvancedOptionText.xml</Item>
-					<Item>text/en_us/ConfigText.xml</Item>
-					<Item>text/en_us/HallOfFameText.xml</Item>
-					<Item>text/en_us/MetaprogressionText.xml</Item>
-					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
-					<Item>text/en_us/MementoText.xml</Item>
-					<Item>text/en_us/UnlockableRewardsText.xml</Item>
-					<Item>text/en_us/UIText.xml</Item>
-					<Item>text/en_us/UnlockText.xml</Item>
-					<Item>text/en_us/NarrativeCrisesStoriesText.xml</Item>
-					<Item>text/en_us/LeaderDialog_BenjaminFranklin.xml</Item>
-					<Item>text/en_us/LeaderDialog_Augustus.xml</Item>
-					<Item>text/en_us/LeaderDialog_Catherine.xml</Item>
-					<Item>text/en_us/LeaderDialog_Isabella.xml</Item>
-					<Item>text/en_us/LeaderDialog_Lafayette.xml</Item>
-					<Item>text/en_us/LeaderDialog_Amina.xml</Item>
-					<Item>text/en_us/LeaderDialog_Ashoka.xml</Item>
-					<Item>text/en_us/LeaderDialog_Charlemagne.xml</Item>
-					<Item>text/en_us/LeaderDialog_Confucius.xml</Item>
-					<Item>text/en_us/LeaderDialog_FriedrichII.xml</Item>
-					<Item>text/en_us/LeaderDialog_HarrietTubman.xml</Item>
-					<Item>text/en_us/LeaderDialog_Hatshepsut.xml</Item>
-					<Item>text/en_us/LeaderDialog_Himiko.xml</Item>
-					<Item>text/en_us/LeaderDialog_IbnBattuta.xml</Item>
-					<Item>text/en_us/LeaderDialog_Machiavelli.xml</Item>
-					<Item>text/en_us/LeaderDialog_Pachacuti.xml</Item>
-					<Item>text/en_us/LeaderDialog_Rizal.xml</Item>
-					<Item>text/en_us/LeaderDialog_TrungTrac.xml</Item>
-					<Item>text/en_us/LeaderDialog_Xerxes.xml</Item>
-					<!-- Items below were generated via our loc tool. -->
-					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
-					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
-					<Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>
-					<Item locale="it_IT">l10n/it_IT_Text.xml</Item>
-					<Item locale="ja_JP">l10n/ja_JP_Text.xml</Item>
-					<Item locale="ko_KR">l10n/ko_KR_Text.xml</Item>
-					<Item locale="pl_PL">l10n/pl_PL_Text.xml</Item>
-					<Item locale="pt_BR">l10n/pt_BR_Text.xml</Item>
-					<Item locale="ru_RU">l10n/ru_RU_Text.xml</Item>
-					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
-					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
+            </Actions>
+        </ActionGroup>
+        <ActionGroup id="base-game-shell" scope="shell" criteria="always">
+            <Actions>
+                <ImportFiles>
+                    <Item>ui/loading/root-loading.html</Item>
+                </ImportFiles>
+                <UIScripts>
+                    <Item>ui/live-notice/live-notice.js</Item>
+                </UIScripts>
+                <UpdateArt>
+                    <Item>boot-shell</Item>
+                </UpdateArt>
+                <UpdateDatabase>
+                    <Item>config/config.xml</Item>
+                    <Item>config/hall-of-fame.xml</Item>
+                    <Item>config/metaprogression.xml</Item>
+                    <Item>config/unlockableRewards.xml</Item>
+                </UpdateDatabase>
+                <UpdateColors>
+                    <Item>data/colors/playercolors.xml</Item>
+                    <Item>data/colors/playerstandardcolors.xml</Item>
+                </UpdateColors>
+                <UpdateIcons>
+                    <Item>data/icons/attribute-icons.xml</Item>
+                    <Item>data/icons/chat-icons.xml</Item>
+                    <Item>data/icons/building-icons.xml</Item>
+                    <Item>data/icons/city-icons.xml</Item>
+                    <Item>data/icons/civilization-icons.xml</Item>
+                    <Item>data/icons/emoji-icons.xml</Item>
+                    <Item>data/icons/improvement-icons.xml</Item>
+                    <Item>data/icons/leader-icons.xml</Item>
+                    <Item>data/icons/legacy-path-icons.xml</Item>
+                    <Item>data/icons/misc-icons.xml</Item>
+                    <Item>data/icons/modifier-icons.xml</Item>
+                    <Item>data/icons/narrative-icons.xml</Item>
+                    <Item>data/icons/notification-icons.xml</Item>
+                    <Item>data/icons/project-icons.xml</Item>
+                    <Item>data/icons/radial-icons.xml</Item>
+                    <Item>data/icons/relationship-icons.xml</Item>
+                    <Item>data/icons/resource-icons.xml</Item>
+                    <Item>data/icons/resource-icons-v2.xml</Item>
+                    <Item>data/icons/tutorial-icons.xml</Item>
+                    <Item>data/icons/unit-icons.xml</Item>
+                    <Item>data/icons/yield-icons.xml</Item>
+                    <Item>data/icons/platform-icons.xml</Item>
+                </UpdateIcons>
+                <UpdateText>
+                    <Item>text/en_us/CivilizationText.xml</Item>
+                    <Item>text/en_us/LeaderText.xml</Item>
+                    <Item>text/en_us/LoadingText.xml</Item>
+                    <Item>text/en_us/ShellText.xml</Item>
+                    <Item>text/en_us/SystemMessageText.xml</Item>
+                    <Item>text/en_us/AdvancedOptionText.xml</Item>
+                    <Item>text/en_us/ConfigText.xml</Item>
+                    <Item>text/en_us/HallOfFameText.xml</Item>
+                    <Item>text/en_us/MetaprogressionText.xml</Item>
+                    <Item>text/en_us/MetaprogressionText.generated.xml</Item>
+                    <Item>text/en_us/MementoText.xml</Item>
+                    <Item>text/en_us/UnlockableRewardsText.xml</Item>
+                    <Item>text/en_us/UIText.xml</Item>
+                    <Item>text/en_us/UnlockText.xml</Item>
+                    <Item>text/en_us/NarrativeCrisesStoriesText.xml</Item>
+                    <Item>text/en_us/LeaderDialog_BenjaminFranklin.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Augustus.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Catherine.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Isabella.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Lafayette.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Amina.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Ashoka.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Charlemagne.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Confucius.xml</Item>
+                    <Item>text/en_us/LeaderDialog_FriedrichII.xml</Item>
+                    <Item>text/en_us/LeaderDialog_HarrietTubman.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Hatshepsut.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Himiko.xml</Item>
+                    <Item>text/en_us/LeaderDialog_IbnBattuta.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Machiavelli.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Pachacuti.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Rizal.xml</Item>
+                    <Item>text/en_us/LeaderDialog_TrungTrac.xml</Item>
+                    <Item>text/en_us/LeaderDialog_Xerxes.xml</Item>
+                    <!-- Items below were generated via our loc tool. -->
+                    <Item locale="de_DE">l10n/de_DE_Text.xml</Item>
+                    <Item locale="es_ES">l10n/es_ES_Text.xml</Item>
+                    <Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>
+                    <Item locale="it_IT">l10n/it_IT_Text.xml</Item>
+                    <Item locale="ja_JP">l10n/ja_JP_Text.xml</Item>
+                    <Item locale="ko_KR">l10n/ko_KR_Text.xml</Item>
+                    <Item locale="pl_PL">l10n/pl_PL_Text.xml</Item>
+                    <Item locale="pt_BR">l10n/pt_BR_Text.xml</Item>
+                    <Item locale="ru_RU">l10n/ru_RU_Text.xml</Item>
+                    <Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
+                    <Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 
-					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
+                    <Item locale="th_TH">l10n/th_TH_Text.xml</Item>
 
-					<!-- These text-override entries must happen *after* translations. -->
-					<Item platform="Switch">text/en_us/ShellText_Premium_Services_NX.xml</Item>
-					<Item platform="Ounce">text/en_us/ShellText_Premium_Services_NX.xml</Item>
+                    <!-- These text-override entries must happen *after* translations. -->
+                    <Item platform="Switch">text/en_us/ShellText_Premium_Services_NX.xml</Item>
+                    <Item platform="Ounce">text/en_us/ShellText_Premium_Services_NX.xml</Item>
 
-					<Item platform="Switch">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
-					<Item platform="Ounce">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
-					<Item platform="PS4">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
-					<Item platform="PS5">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
-					<Item platform="XboxOne">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
-					<Item platform="XboxScarlett">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
+                    <Item platform="Switch">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
+                    <Item platform="Ounce">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
+                    <Item platform="PS4">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
+                    <Item platform="PS5">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
+                    <Item platform="XboxOne">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
+                    <Item platform="XboxScarlett">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
 
-					<Item platform="Switch">text/en_us/ShellText_RestrictedContent.xml</Item>
-					<Item platform="Ounce">text/en_us/ShellText_RestrictedContent.xml</Item>
-					<Item platform="PS4">text/en_us/ShellText_RestrictedContent.xml</Item>
-					<Item platform="PS5">text/en_us/ShellText_RestrictedContent.xml</Item>
-					<Item platform="XboxOne">text/en_us/ShellText_RestrictedContent.xml</Item>
-					<Item platform="XboxScarlett">text/en_us/ShellText_RestrictedContent.xml</Item>
-				</UpdateText>
+                    <Item platform="Switch">text/en_us/ShellText_RestrictedContent.xml</Item>
+                    <Item platform="Ounce">text/en_us/ShellText_RestrictedContent.xml</Item>
+                    <Item platform="PS4">text/en_us/ShellText_RestrictedContent.xml</Item>
+                    <Item platform="PS5">text/en_us/ShellText_RestrictedContent.xml</Item>
+                    <Item platform="XboxOne">text/en_us/ShellText_RestrictedContent.xml</Item>
+                    <Item platform="XboxScarlett">text/en_us/ShellText_RestrictedContent.xml</Item>
 
-				<ImportFiles>
-					<Item locale="de_DE">l10n/de_DE/intro.vtt</Item>
-					<Item locale="es_ES">l10n/es_ES/intro.vtt</Item>
-					<Item locale="fr_FR">l10n/fr_FR/intro.vtt</Item>
-					<Item locale="it_IT">l10n/it_IT/intro.vtt</Item>
-					<Item locale="ja_JP">l10n/ja_JP/intro.vtt</Item>
-					<Item locale="ko_KR">l10n/ko_KR/intro.vtt</Item>
-					<Item locale="pl_PL">l10n/pl_PL/intro.vtt</Item>
-					<Item locale="pt_BR">l10n/pt_BR/intro.vtt</Item>
-					<Item locale="ru_RU">l10n/ru_RU/intro.vtt</Item>
-					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN/intro.vtt</Item>
-					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK/intro.vtt</Item>
-					<Item locale="th_TH">l10n/th_TH/intro.vtt</Item>
-				</ImportFiles>
+                    <Item ecosystem="game-center">
+                        text/en_us/AttributesText_LegendUnlocks_AppleArcade.xml</Item>
+                </UpdateText>
 
-				<UIShortcuts>
-					<Item>ui/loading/root-loading.html</Item>
-				</UIShortcuts>
-				<!-- Load Visual Remaps in the shell too, so they can be adjusted. -->
-				<UpdateVisualRemaps>
-					<Item>data/visual-remaps.xml</Item>
-				</UpdateVisualRemaps>
-			</Actions>
-		</ActionGroup>
-	</ActionGroups>
-	<LocalizedText></LocalizedText>
+                <ImportFiles>
+                    <Item locale="de_DE">l10n/de_DE/intro.vtt</Item>
+                    <Item locale="es_ES">l10n/es_ES/intro.vtt</Item>
+                    <Item locale="fr_FR">l10n/fr_FR/intro.vtt</Item>
+                    <Item locale="it_IT">l10n/it_IT/intro.vtt</Item>
+                    <Item locale="ja_JP">l10n/ja_JP/intro.vtt</Item>
+                    <Item locale="ko_KR">l10n/ko_KR/intro.vtt</Item>
+                    <Item locale="pl_PL">l10n/pl_PL/intro.vtt</Item>
+                    <Item locale="pt_BR">l10n/pt_BR/intro.vtt</Item>
+                    <Item locale="ru_RU">l10n/ru_RU/intro.vtt</Item>
+                    <Item locale="zh_Hans_CN">l10n/zh_Hans_CN/intro.vtt</Item>
+                    <Item locale="zh_Hant_HK">l10n/zh_Hant_HK/intro.vtt</Item>
+                    <Item locale="th_TH">l10n/th_TH/intro.vtt</Item>
+                </ImportFiles>
+
+                <UIShortcuts>
+                    <Item>ui/loading/root-loading.html</Item>
+                </UIShortcuts>
+                <!-- Load Visual Remaps in the shell too, so they can be adjusted. -->
+                <UpdateVisualRemaps>
+                    <Item>data/visual-remaps.xml</Item>
+                </UpdateVisualRemaps>
+            </Actions>
+        </ActionGroup>
+    </ActionGroups>
+    <LocalizedText></LocalizedText>
 </Mod>

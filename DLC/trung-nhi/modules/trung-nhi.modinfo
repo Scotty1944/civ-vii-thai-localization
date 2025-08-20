@@ -2,8 +2,8 @@
 <Mod id="trung-nhi" version="1"
 	xmlns="ModInfo">
 	<Properties>
-		<Name>Unit - Trung-Nhi</Name>
-		<Description>This is the Trung-Nhi data.</Description>
+		<Name>LOC_MODULE_TRUNG_NHI_NAME</Name>
+		<Description>LOC_MODULE_TRUNG_NHI_DESCRIPTION</Description>
 		<Authors>LOC_AUTHORS_FIRAXIS</Authors>
 		<ShowInBrowser>0</ShowInBrowser>
 		<Package>BaseGame</Package>
@@ -45,6 +45,8 @@
 					<Item>text/en_us/ModuleText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
 
+					<!-- Items below were generated via our loc tool. -->
+					<Item>l10n/ModuleText.xml</Item>					
 					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
 					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
 					<Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>
@@ -97,7 +99,10 @@
 				</UpdateArt>
 				<UpdateText>
 					<Item>text/en_us/ModuleText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>
 
+					<!-- Items below were generated via our loc tool. -->
+					<Item>l10n/ModuleText.xml</Item>
 					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
 					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
 					<Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>
@@ -115,4 +120,8 @@
 			</Actions>
 		</ActionGroup>
 	</ActionGroups>
+	<LocalizedText>
+		<File>text/en_us/ModuleText.xml</File>
+		<File>l10n/ModuleText.xml</File>
+	</LocalizedText>
 </Mod>
