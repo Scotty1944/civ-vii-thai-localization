@@ -1517,7 +1517,7 @@
 			<Text>+50% [icon:YIELD_SCIENCE] วิทยาศาสตร์ ในเมืองหลวง, -15 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์นสำหรับนโยบายสังคมแต่ละข้อ ยกเว้นนโยบายประเพณีที่เลือก</Text>		<!-- +50% [icon:YIELD_SCIENCE] Science in the Capital. -15 [icon:YIELD_SCIENCE] Science per turn for each Social Policy, but not Tradition, slotted. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_MING_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI][B]+50% [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]ใน[B]เมืองหลวง[/B][LI][B]-15 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]ต่อเทิร์นสำหรับ[B]นโยบายสังคม[/B]แต่ไม่รวมถึงประเพณีที่กำหนด[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]พระราชวังต้องห้าม[/B][/BLIST]</Text>		<!-- [BLIST][LI][B]+50% [icon:YIELD_SCIENCE] Science [/B]in the [B]Capital[/B].[LI][B]-15 [icon:YIELD_SCIENCE] Science [/B]per turn for each [B]Social Policy[/B], but not Tradition, slotted.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Forbidden City[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]+50% [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]ใน[B] เมืองหลวง[/B][LI][B]-15 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]ต่อเทิร์นสำหรับ[B] นโยบายสังคม [/B]แต่ไม่รวมถึงประเพณีที่กำหนด[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]พระราชวังต้องห้าม[/B][/BLIST]</Text>		<!-- [BLIST][LI][B]+50% [icon:YIELD_SCIENCE] Science [/B]in the [B]Capital[/B].[LI][B]-15 [icon:YIELD_SCIENCE] Science [/B]per turn for each [B]Social Policy[/B], but not Tradition, slotted.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Forbidden City[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_MING_DESCRIPTION" Language="th_TH">
 			<Text>+30%[icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องกับหมิง</Text>		<!-- +30%[icon:YIELD_PRODUCTION] Production from being the Ming's associated Wonder. -->
@@ -5766,7 +5766,7 @@
 			<Text>ลอยอยู่กลางทะเล</Text>		<!-- Adrift at Sea -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_40001A_COMPLETION" Language="th_TH">
-			<Text>เหล่าผู้เดินเรือได้ค้นพบเรือพาณิชย์ลอยอยู่กลางทะเล,  ลูกเรือทั้งหมดล้มป่วยจากโรคภัยที่ไม่สามารถมองเห็นได้,  แต่ทางนักบวชท้องถิ่นกลับมีความกังวลมากกว่าความปลอดภัยของสิ่งศักดิ์สิทธิ์ในใต้ท้องเรือ</Text>		<!-- Seafarers have discovered a trading vessel adrift at sea. The crew succumbed to an invisible plague, but local clergy seem more concerned for the safety of sacred relics in the vessel's hold. -->
+			<Text>เหล่าผู้เดินเรือได้ค้นพบเรือพาณิชย์ลอยอยู่กลางทะเล,  ลูกเรือทั้งหมดล้มป่วยจากโรคภัยที่ไม่สามารถมองเห็นได้,  แต่ทางนักบวชท้องถิ่นกลับมีความกังวลมากกว่า ความปลอดภัยของสิ่งศักดิ์สิทธิ์ในใต้ท้องเรือ</Text>		<!-- Seafarers have discovered a trading vessel adrift at sea. The crew succumbed to an invisible plague, but local clergy seem more concerned for the safety of sacred relics in the vessel's hold. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_40001B_NAME" Language="th_TH">
 			<Text>อนุรักษ์สิ่งศักดิ์สิทธิ์</Text>		<!-- Preserve the relics. -->
@@ -7797,7 +7797,7 @@
 			<Text>มัชปาหิต ได้รับประโยชน์อย่างมากจากผู้เชี่ยวชาญ ซึ่งเพิ่มโบนัสอาคารจากยุคปัจจุบันขึ้น 50% ใช้แนวคิดวายัง เพื่อเร่งการก่อสร้างอาคารเหล่านั้นให้เร็วขึ้น</Text>		<!-- The Majapahit benefit considerably from Specialists, which increase the adjacency of Buildings from the current Age by 50%. Use the Wayang Civic's boost to Overbuilding to construct those Buildings more quickly. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_MING" Language="th_TH">
-			<Text>บทลงโทษจากความสามารถพิเศษของหมิง มหากาพย์หย่งเล่อ ไม่ส่งผลต่อธรรมเนียมที่ใส่ในรัฐบาลของคุณ มองหาแท็กไอคอนอารยธรรมบนสังคมนโยบายเพื่อระบุธรรมเนียมของคุณ</Text>		<!-- The penalty from the Ming's Unique Ability, Great Canon of Yongle, does not apply to Traditions slotted into your Government. Look for Civilization icon tags on Social Policies to identify your Traditions. -->
+			<Text>บทลงโทษจากความสามารถพิเศษของหมิง มหากาพย์หย่งเล่อ, จะไม่ส่งผลต่อประเพณีที่ใส่ในรัฐบาลของคุณ มองหาแท็กไอคอนอารยธรรมบนสังคมนโยบายเพื่อ ระบุประเพณีของคุณ</Text>		<!-- The penalty from the Ming's Unique Ability, Great Canon of Yongle, does not apply to Traditions slotted into your Government. Look for Civilization icon tags on Social Policies to identify your Traditions. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_MONGOLIA" Language="th_TH">
 			<Text>สิ่งปรับปรุงพิเศษเออร์เทอคืนค่าการเคลื่อนที่ของหน่วยที่เข้าสู่ช่องนั้น ด้วยการเคลื่อนที่ที่เร็วขึ้นจาก แนวคิดสี่สุนัขเกรย์ฮาวด์ และผู้บัญชาการโนยัน คุณอาจข้ามทวีปได้ในเทิร์นเดียว</Text>		<!-- The Örtöö Unique Improvement restores the movement of Units that enter the tile. With faster movement from the Four Hounds Civic and the Noyan Unique Commander, you could cross a continent in a single turn. -->
