@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="napoleon" version="1"
+<Mod id="lakshmibai" version="1"
 	xmlns="ModInfo">
 	<Properties>
-		<Name>LOC_MODULE_NAPOLEON_NAME</Name>
-		<Description>LOC_MODULE_NAPOLEON_DESCRIPTION</Description>
+		<Name>LOC_MODULE_LAKSHMIBAI_NAME</Name>
+		<Description>LOC_MODULE_LAKSHMIBAI_DESCRIPTION</Description>
 		<Authors>LOC_AUTHORS_FIRAXIS</Authors>
-		<Package>DLC</Package>
+		<EnabledByDefault>1</EnabledByDefault>
+		<Package>Hexham</Package>
 	</Properties>
 	<Dependencies>
 		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
 	</Dependencies>
+	<References>
+		<Mod id="nepal" title="LOC_MODULE_NEPAL_NAME"/>
+	</References>
 	<ActionCriteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
 		<Criteria id="antiquity-age-current">
 			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
 		</Criteria>
@@ -20,18 +27,20 @@
 		<Criteria id="modern-age-current">
 			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
-		<Criteria id="always">
-			<AlwaysMet></AlwaysMet>
+		<Criteria id="modern-age-nepal">
+			<ModInUse>nepal</ModInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
 	</ActionCriteria>
 	<ActionGroups>
-		<ActionGroup id="base-game-main-napoleon" scope="game" criteria="always">
+		<ActionGroup id="base-game-main-lakshmibai" scope="game" criteria="always">
 			<Actions>
 				<UpdateIcons>
 					<Item>data/icons/leader-icons.xml</Item>
 				</UpdateIcons>
 				<UpdateArt>
-					<Item>napoleon-shell</Item>
+					<Item>lakshmibai-shell</Item>
+					<Item>lakshmibai</Item>
 				</UpdateArt>
 				<UpdateColors>
 					<Item>data/playercolors.xml</Item>
@@ -41,10 +50,9 @@
 					<Item>data/leaders.xml</Item>
 					<Item>data/leaders-gameeffects.xml</Item>
 					<Item>data/loading-info.xml</Item>
-					<Item>data/narrative-stories-gameeffects.xml</Item>
 					<Item>data/narrative-stories.xml</Item>
+					<Item>data/narrative-stories-gameeffects.xml</Item>
 					<Item>data/unlocks.xml</Item>
-					<Item>data/AI_Base.xml</Item>
 					<Item>data/metaprogression-gameeffects.xml</Item>
 					<Item>data/metaprogression.xml</Item>
 					<Item>data/progression-trees-common-gameeffects.xml</Item>
@@ -53,20 +61,21 @@
 					<Item>data/mementos-gameeffects.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
-					<Item>text/en_us/ModuleText.xml</Item>
-					<Item>text/en_us/CivilopediaText.xml</Item>
 					<Item>text/en_us/LeaderText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
 					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
 					<Item>text/en_us/NarrativeStoriesText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
-					<Item>text/en_us/LeaderDialog_Napoleon.xml</Item>
 					<Item>text/en_us/AttributesText.xml</Item>
 					<Item>text/en_us/MementoText.xml</Item>
+					<Item>text/en_us/ModuleText.xml</Item>
 					<Item>text/en_us/ProfileText.xml</Item>
 					<Item>text/en_us/UnlockableRewardsText.xml</Item>
+					<Item>text/en_us/LeaderDialog_Lakshmibai.xml</Item>
+					<Item>text/en_us/CivilopediaText.xml</Item>
 
 					<!-- Items below were generated via our loc tool. -->
+					<Item>l10n/ModuleText.xml</Item>
 					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
 					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
 					<Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>
@@ -81,59 +90,72 @@
 
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
 				</UpdateText>
+				<UpdateIcons>
+					<Item>data/icons/card-icons.xml</Item>
+				</UpdateIcons>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="age-antiquity-main-napoleon" scope="game" criteria="antiquity-age-current">
+		<ActionGroup id="age-antiquity-lakshmibai" scope="game" criteria="antiquity-age-current">
 			<Actions>
 				<UpdateArt>
-					<Item>napoleon-shell</Item>
+					<Item>lakshmibai-shell</Item>
+					<Item>lakshmibai</Item>
 				</UpdateArt>
 				<UpdateDatabase>
+					<Item>data/civilizations-antiquity.xml</Item>
 					<Item>data/narrative-stories-gameeffects-antiquity.xml</Item>
 					<Item>data/narrative-stories-antiquity.xml</Item>
-					<Item>data/civilizations-antiquity.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="age-exploration-main-napoleon" scope="game" criteria="exploration-age-current">
+		<ActionGroup id="age-exploration-lakshmibai" scope="game" criteria="exploration-age-current">
 			<Actions>
 				<UpdateArt>
-					<Item>napoleon-shell</Item>
+					<Item>lakshmibai-shell</Item>
+					<Item>lakshmibai</Item>
 				</UpdateArt>
 				<UpdateDatabase>
+					<Item>data/civilizations-exploration.xml</Item>
 					<Item>data/narrative-stories-gameeffects-exploration.xml</Item>
 					<Item>data/narrative-stories-exploration.xml</Item>
 					<Item>data/age-transition-advanced-start-exploration.xml</Item>
-					<Item>data/civilizations-exploration.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/AdvancedStartText-exploration.xml</Item>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="age-modern-main-napoleon" scope="game" criteria="modern-age-current">
+		<ActionGroup id="age-modern-lakshmibai" scope="game" criteria="modern-age-current">
 			<Actions>
 				<UpdateArt>
-					<Item>napoleon-shell</Item>
+					<Item>lakshmibai-shell</Item>
+					<Item>lakshmibai</Item>
 				</UpdateArt>
 				<UpdateDatabase>
+					<Item>data/civilizations-modern.xml</Item>
 					<Item>data/narrative-stories-gameeffects-modern.xml</Item>
 					<Item>data/narrative-stories-modern.xml</Item>
 					<Item>data/age-transition-advanced-start-modern.xml</Item>
-					<Item>data/civilizations-modern.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/AdvancedStartText-modern.xml</Item>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="shell-napoleon" scope="shell" criteria="always">
+		<ActionGroup id="age-modern-lakshmibai-nepal" scope="game" criteria="modern-age-nepal">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-modern-nepal.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-lakshmibai" scope="shell" criteria="always">
 			<Actions>
 				<UpdateIcons>
 					<Item>data/icons/leader-icons.xml</Item>
 				</UpdateIcons>
 				<UpdateArt>
-					<Item>napoleon-shell</Item>
+					<Item>lakshmibai-shell</Item>
 				</UpdateArt>
 				<UpdateColors>
 					<Item>data/playercolors.xml</Item>
@@ -144,18 +166,18 @@
 					<Item>config/unlockableRewards.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
-					<Item>text/en_us/ModuleText.xml</Item>
-					<Item>text/en_us/CivilopediaText.xml</Item>
 					<Item>text/en_us/LeaderText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
-					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
-					<Item>text/en_us/LeaderDialog_Napoleon.xml</Item>
 					<Item>text/en_us/MementoText.xml</Item>
 					<Item>text/en_us/ProfileText.xml</Item>
 					<Item>text/en_us/UnlockableRewardsText.xml</Item>
+					<Item>text/en_us/LeaderDialog_Lakshmibai.xml</Item>
+					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
+					<Item>text/en_us/ModuleText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
 
 					<!-- Items below were generated via our loc tool. -->
+					<Item>l10n/ModuleText.xml</Item>
 					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
 					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
 					<Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>

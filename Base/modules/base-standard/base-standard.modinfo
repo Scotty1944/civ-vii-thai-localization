@@ -70,9 +70,9 @@
                     <Item>ui/diplo-ribbon/panel-yield-banner.js</Item>
                     <Item>ui/diplomacy-action-details/screen-diplomacy-action-details.js</Item>
                     <Item>ui/diplomacy-actions/panel-diplomacy-actions.js</Item>
-                    <Item>ui/diplomacy-actions/panel-diplomacy-actions.js</Item>
+					<Item>ui/diplomacy-actions/panel-other-diplomacy.js</Item>
+					<Item>ui/diplomacy-actions/panel-player-diplomacy.js</Item>
                     <Item>ui/diplomacy-call-to-arms/screen-diplomacy-call-to-arms.js</Item>
-                    <Item>ui/diplomacy-chooser-items/war-chooser-item.js</Item>
                     <Item>ui/diplomacy-hub/panel-diplomacy-hub.js</Item>
                     <Item>ui/diplomacy-peace-deal/panel-diplomacy-peace-deal.js</Item>
                     <Item>ui/diplomacy-project-reaction/panel-diplomacy-project-reaction.js</Item>
@@ -139,6 +139,7 @@
                     <Item>ui/interface-modes/interface-mode-establish-base.js</Item>
                     <Item>ui/interface-modes/interface-mode-move-by-rail.js</Item>
                     <Item>ui/interface-modes/interface-mode-move-to.js</Item>
+                    <Item>ui/interface-modes/interface-mode-pause-menu.js</Item>
                     <Item>ui/interface-modes/interface-mode-place-building.js</Item>
                     <Item>ui/interface-modes/interface-mode-peace-deal.js</Item>
                     <Item>ui/interface-modes/interface-mode-radial-selection.js</Item>
@@ -203,13 +204,16 @@
                     <Item>ui/pantheon-complete/panel-pantheon-complete.js</Item>
                     <Item>ui/pantheon-chooser-item/pantheon-chooser-item.js</Item>
                     <Item>ui/pause-event-rules/screen-pause-event-rules.js</Item>
-                    <Item>ui/pause-menu/screen-pause-menu.js</Item>
+                    <Item>ui-next/screens/pause-menu/pause-menu-bootstrap.js</Item>
                     <Item>ui/place-building/model-place-building.js</Item>
                     <Item>ui/place-building/panel-place-building.js</Item>
+                    <Item>ui/place-building/model-place-building-v2.js</Item>
+                    <Item>ui/place-building/panel-place-building-v2.js</Item>
                     <Item>ui/place-population/model-place-population.js</Item>
                     <Item>ui/place-population/panel-place-population.js</Item>
-                    <Item>ui/player-yields-report/player-yields-report-screen.js</Item>
-                    <Item>ui/plot-icon/plot-icon-random-event.js</Item>
+                    <Item>ui/placement-city-banner/placement-city-banner.js</Item>
+					<Item>ui/player-yields-report/player-yields-report-screen.js</Item>
+					<Item>ui/plot-icon/plot-icon-random-event.js</Item>
                     <Item>ui/plot-icon/plot-icon-resource.js</Item>
                     <Item>ui/plot-icon/plot-icon-suggested-settlement.js</Item>
                     <Item>ui/plot-icon/plot-icon-archeology.js</Item>
@@ -275,6 +279,7 @@
                     <Item>ui/views/view-cinematic.js</Item>
                     <Item>ui/views/view-city.js</Item>
                     <Item>ui/views/view-diplomacy.js</Item>
+                    <Item>ui/views/view-pause-menu.js</Item>
                     <Item>ui/views/view-placement.js</Item>
                     <Item>ui/views/view-screenshot.js</Item>
                     <Item>ui/views/view-resource-allocation.js</Item>
@@ -302,6 +307,7 @@
                     <Item>data/attributes-gameeffects.xml</Item>
                     <Item>data/attributes.xml</Item>
                     <Item>data/AI_Base.xml</Item>
+					<Item>data/AI_Base_Naval.xml</Item>
                     <Item>data/Barbarians.xml</Item>
                     <Item>data/behaviortrees.xml</Item>
                     <Item>data/calendar.xml</Item>
@@ -552,6 +558,7 @@
 
                     <Item ecosystem="game-center">
                         text/en_us/AttributesText_LegendUnlocks_AppleArcade.xml</Item>
+                    <Item ecosystem="game-center">text/en_us/AdvancedOptionText_LegendPathsWarning_AppleArcade.xml</Item>
                 </UpdateText>
                 <UpdateArt>
                     <!-- Asset Packages that the mod depends on -->
@@ -1006,7 +1013,8 @@
                     <Item>text/en_us/LeaderDialog_Rizal.xml</Item>
                     <Item>text/en_us/LeaderDialog_TrungTrac.xml</Item>
                     <Item>text/en_us/LeaderDialog_Xerxes.xml</Item>
-                    <!-- Items below were generated via our loc tool. -->
+					<Item>text/en_us/VictoriesText.xml</Item>
+					<!-- Items below were generated via our loc tool. -->
                     <Item locale="de_DE">l10n/de_DE_Text.xml</Item>
                     <Item locale="es_ES">l10n/es_ES_Text.xml</Item>
                     <Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>
@@ -1041,6 +1049,7 @@
 
                     <Item ecosystem="game-center">
                         text/en_us/AttributesText_LegendUnlocks_AppleArcade.xml</Item>
+                    <Item ecosystem="game-center">text/en_us/AdvancedOptionText_LegendPathsWarning_AppleArcade.xml</Item>
                 </UpdateText>
 
                 <ImportFiles>

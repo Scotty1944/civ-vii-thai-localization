@@ -78,6 +78,7 @@
 					<Item platform="XboxScarlett">text/en_us/InputText_ThumbSticks_Microsoft.xml</Item>
 
 					<Item ecosystem="game-center">text/en_us/InputText_CenterCursor_AppleArcade.xml</Item>
+					<Item ecosystem="game-center">text/en_us/MPSharedText_ConnectionLost_AppleArcade.xml</Item>
 					<Item ecosystem="game-center">text/en_us/UIShellText_Multiplayer_AppleArcade.xml</Item>
 				</UpdateText>
 
@@ -164,14 +165,11 @@
 					<Item>ui/debug/stylized-markup-text.html</Item>
 					<Item>ui/reference/icon-browser.html</Item>
 					<Item>ui/reference/movie-browser.html</Item>
-					<Item>ui/sandbox/comp-sandbox/comp-sandbox.html</Item>
 					<Item>ui/shell/root-shell.html</Item>
 					<Item>ui/shell/mp-host-setup/page-mp-hostsetup.html</Item>
 					<Item>ui-next/sandbox/sandbox.html</Item>
-					<!-- <Item>ui-next/sandbox/matt-sandbox.html</Item> -->
 					<Item>ui-next/sandbox/scratchpad.html</Item>
-                    	<Item>ui-next/sandbox/scratchpad.html</Item>
-                    	<Item>ui-next/sandbox/components-browser/components-browser.html</Item>
+					<Item>ui-next/sandbox/components-browser/components-browser.html</Item>
 				</UIShortcuts>
 
 				<ImportFiles>
@@ -207,6 +205,7 @@
 					<Item>text/en_us/ProfileText.xml</Item>
 					<Item>text/en_us/SaveLoadText.xml</Item>
 					<Item>text/en_us/UIText.xml</Item>
+					<Item>text/en_us/UIShellText.xml</Item>
 					<Item>text/en_us/MPSharedText.xml</Item>
 
 					<!-- Items below were generated via our loc tool. -->
@@ -254,9 +253,8 @@
 					<Item>ui/reference/icon-browser.html</Item>
 					<Item>ui/reference/icon-reference.html</Item>
 					<Item>ui/reference/movie-browser.html</Item>
-					<Item>ui/sandbox/comp-sandbox/comp-sandbox.html</Item>
-					<Item>ui/shell/root-shell.html</Item>
-					<Item>ui/shell/mp-host-setup/page-mp-hostsetup.html</Item>
+					<Item>ui-next/sandbox/sandbox.html</Item>
+					<Item>ui-next/sandbox/components-browser/components-browser.html</Item>
 				</UIShortcuts>
 
 				<ImportFiles>
@@ -309,12 +307,14 @@
 					<Item>ui/system-message/screen-system-message.js</Item>
 					<Item>ui/tooltips/default-tooltip.js</Item>
 					<Item>ui/tooltips/tooltip-manager.js</Item>
+					<Item>ui/shell/create-panels/advanced-options-panel.js</Item>
 					<Item>ui/shell/mp-staging/mp-friends.js</Item>
 					<Item>ui/shell/mp-staging/mp-friends-options.js</Item>
 					<Item>ui/shell/mp-staging/mp-search.js</Item>
 					<Item>ui/shell/mp-staging/mp-report.js</Item>
 					<Item>ui/shell/mp-link-account/mp-link-account.js</Item>
 					<Item>ui/shell/mp-primary-account-select/mp-primary-account-select.js</Item>
+					<Item>ui/shell/shell-components/icon-dropdown.js</Item>
 				</UIScripts>
 			</Actions>
 		</ActionGroup>
