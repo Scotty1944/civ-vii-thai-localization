@@ -284,10 +284,10 @@
 			<Text>มาวาสคะเว สโคเต</Text>		<!-- Mawaskawe Skote -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MAWASKAWE_SKOTE_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_FOOD] อาหาร +1 [icon:YIELD_GOLD] ทอง ในแต่ละทรัพยากรที่อยู่ติดกัน, เขตพัฒนาพิเศษ ของชอว์นี, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าบนช่อง, ต้องวางบนช่อง พืชพรรณ และไม่ติดกับ มาวาสคะเว สโคเต อื่นๆ</Text>		<!-- +4 [icon:YIELD_FOOD] Food. +1 [icon:YIELD_GOLD] Gold for each adjacent Resource. Shawnee Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Vegetated Terrain not adjacent to another Mawaskawe Skote. -->
+			<Text>+4[icon:YIELD_FOOD] อาหาร +1 [icon:YIELD_GOLD] ทอง ในแต่ละทรัพยากรที่อยู่ติดกัน, เขตพัฒนาพิเศษ ของชอว์นี, คงอยู่ตลอดกาล, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE]คลังสินค้า บนช่อง, ต้องวางบนช่อง พืชพรรณ และไม่ติดกับ มาวาสคะเว สโคเต อื่นๆ</Text>		<!-- +4 [icon:YIELD_FOOD] Food. +1 [icon:YIELD_GOLD] Gold for each adjacent Resource. Shawnee Unique Improvement. Ageless. Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on Vegetated Terrain not adjacent to another Mawaskawe Skote. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MAWASKAWE_SKOTE_TOOLTIP" Language="th_TH">
-			<Text>เขตพัฒนาพิเศษ ของชอว์นี, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าบนช่อง, ต้องวางบนช่อง พื้นที่เพาะปลูก และไม่ติดกับ มาวาสคะเว สโคเต อื่นๆ</Text>		<!-- Shawnee Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on Vegetated Terrain not adjacent to another Mawaskawe Skote. -->
+			<Text>ไม่ลบโบนัส [icon:YIELD_WAREHOUSE] คลังสินค้าบนช่อง, ต้องวางบนช่อง พื้นที่เพาะปลูก และไม่ติดกับ มาวาสคะเว สโคเต อื่นๆ [n]พื้นที่พัฒนาพิเศษ ของชอว์นี</Text>		<!-- Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on Vegetated Terrain not adjacent to another Mawaskawe Skote.[n]Shawnee Unique Improvement. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_SERPENT_MOUND_NAME" Language="th_TH">
 			<Text>เนินงู</Text>		<!-- Serpent Mound -->
@@ -296,7 +296,7 @@
 			<Text>+4 [icon:YIELD_DIPLOMACY] อิทธิพล, +3 [icon:YIELD_SCIENCE] วิทยาศาสตร์ และ +2 [icon:YIELD_PRODUCTION] กำลังผลิต ให้กับเขตพิเศษ ทั้งหมดในถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องตั้งอยู่ในทุ่งหญ้าหญ้า</Text>		<!-- +4 [icon:YIELD_DIPLOMACY] Influence. +3 [icon:YIELD_SCIENCE] Science and +2 [icon:YIELD_PRODUCTION] Production to all Unique Improvements in this Settlement. Ageless. Must be placed in Grassland. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_SERPENT_MOUND_TOOLTIP" Language="th_TH">
-			<Text>+3 [icon:YIELD_SCIENCE] วิทยาศาสตร์ และ +2 [icon:YIELD_PRODUCTION] กำลังผลิต ให้กับเขตพิเศษ ทั้งหมดในถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องตั้งอยู่ในทุ่งหญ้า</Text>		<!-- +3 [icon:YIELD_SCIENCE] Science and +2 [icon:YIELD_PRODUCTION] Production to all Unique Improvements in this Settlement. Ageless. Must be placed in Grassland. -->
+			<Text>+3 [icon:YIELD_SCIENCE] วิทยาศาสตร์ และ +2 [icon:YIELD_PRODUCTION] กำลังผลิต ให้กับเขตพิเศษ ทั้งหมดในถิ่นฐานนี้ [N]ต้องตั้งอยู่ในทุ่งหญ้า</Text>		<!-- +3 [icon:YIELD_SCIENCE] Science and +2 [icon:YIELD_PRODUCTION] Production to all Unique Improvements in this Settlement.[N]Must be placed in Grassland. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_WONDER_SERPENT_MOUND" Language="th_TH">
 			<Text>"ผู้สร้างของเราร้องเพลงให้เราฟังในสายลมและน้ำที่ไหล, ในเสียงเพลงของนก, ในเสียงหัวเราะของเด็กๆ และสอนดนตรีให้แก่เรา"</Text>		<!-- "Our Creator sang to us in the wind and the running water, in the bird songs, in children's laughter, and taught us music." -->
@@ -845,7 +845,7 @@
 			<Text>ในฐานะ เทคัมเซห์ ในยุคปัจจุบัน ให้สำเร็จภารกิจนำทางโลกผ่านการค้า</Text>		<!-- As Tecumseh in Modern, complete a quest to guide the world through trade. -->
 		</Replace>
 		<Replace Tag="LOC_MODULE_SHAWNEE_TECUMSEH_DESCRIPTION" Language="th_TH">
-			<Text>ประกอบด้วยผู้นำคนใหม่ เทคัมเซห์ และอารยธรรมยุคการสำรวจใหม่, ชอว์นี</Text>		<!-- Contains a new leader, Tecumseh, and a new exploration age Civilization, the Shawnee. -->
+			<Text>ประกอบด้วยผู้นำคนใหม่ เทคัมเซห์ และอารยธรรมยุคการสำรวจใหม่, ชอว์นี</Text>		<!-- Contains a new Leader, Tecumseh, and a new Exploration Age Civilization, the Shawnee. -->
 		</Replace>
 		<Replace Tag="LOC_RIVER_P_SIKFI_FIPI_NAME" Language="th_TH">
 			<Text>พีซิกฟิ ฟิพี</Text>		<!-- P'sikfi Fipi -->

@@ -95,10 +95,10 @@
 			<Text>ได้รับ การคว่ำบาตรพิเศษ ที่เรียกว่า "ระบบทวีป" ซึ่งลดขีดจำกัด เส้นทางการค้า ของผู้นำที่ถูกเป้าหมายลง 1 ต่อผู้นำคนอื่นๆ ทั้งหมด, ก่อบทลงโทษในความสัมพันธ์มากๆ และมีค่าใช้จ่ายสูงขึ้นในการปฏิเสธ +8 [icon:YIELD_GOLD] ทองต่อยุคสำหรับผู้นำทุกคนที่คุณไม่เป็นมิตรหรือมีความเป็นอริด้วย, สามารถปฏิเสธ ความร่วมมือ ได้โดยไม่มีผลอะไร</Text>		<!-- Gain a unique Sanction called Continental System that reduces the Trade Route limit of the targeted Leader to all other Leaders by 1. Causes a massive Relationship penalty, and costs more to reject. +8 [icon:YIELD_GOLD] Gold per Age for every Leader you are Unfriendly or Hostile with. Can reject Endeavors for free. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NAPOLEON_ABILITY_NAME" Language="th_TH">
-			<Text>จักรพรรดิแห่งฝรั่งเศส</Text>		<!-- Empereur des Français -->
+			<Text>ระบบทวีป</Text>		<!-- Continental System -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NAPOLEON_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI]ได้รับ [B]มาตรการคว่ำบาตร [/B]พิเศษที่เรียกว่า [B]ระบบทวีป [/B]ซึ่งลดขีดจำกัดของ [B]เส้นทางการค้า [/B]ของผู้นำที่ถูกเจาะจงลง [B]1[/B] จาก [B]ผู้นำอื่นๆ ทั้งหมด[/B] ก่อให้ผลกระทบกับความสัมพันธ์ที่รุนแรง และมีค่าใช้จ่ายมากขึ้นในการปฏิเสธ[LI][B]+8 [icon:YIELD_GOLD] ทอง [/B]ต่อยุคสำหรับทุก [B]ผู้นำ [/B]ที่คุณ [B]ไม่เป็นมิตร [/B]หรือ [B]เป็นปรปักษ์[/B] กับ[LI]สามารถปฏิเสธ [B]ความพยายาม [/B]ได้ [B]ฟรี[/B][/LIST]</Text>		<!-- [BLIST][LI]Gain a unique [icon:SANCTIONS] [B]Sanction [/B]called [B]Continental System [/B]that reduces the [icon:TRADE_ROUTE] [B]Trade Route [/B]limit of the targeted Leader to [B]all other Leaders [/B]by [B]1[/B]. Causes a massive Relationship penalty, and costs more to reject.[LI][B]+8 [icon:YIELD_GOLD] Gold [/B]per Age for every [B]Leader [/B]you are [B]Unfriendly [/B]or [B]Hostile [/B]with.[LI]Can reject [icon:ENDEAVOR] [B]Endeavors [/B]for [B]free[/B].[/LIST] -->
+			<Text>[BLIST][LI]มาตรการ [icon:SANCTIONS] [B]การคว่ำบาตร [/B]พื้นฐานทั้งหมดจะถูกปลดล็อคโดยอัตโนมัติ[LI][B]+50% [icon:DIPLOMACY]อิทธิพล [/B]ในการเริ่มต้น [icon:SANCTIONS][B]การลงโทษ[/B] [LI][B]+5 [icon:YIELD_CULTURE]วัฒนธรรม และ [icon:YIELD_GOLD]ทอง ต่อยุค [/B]สำหรับแต่ละผู้นำที่คุณมี [B][icon:SANCTIONS]การคว่ำบาตร [/B]ที่ใช้งานอยู่ ยกเว้น [B]การประณาม [/B][LI][B]+1 [icon:NAR_REW_COMBAT]พลังต่อสู้ [/B]สำหรับ [B]ยูนิตบก [/B]สำหรับทุก [icon:SANCTIONS][B]การคว่ำบาตร [/B]ที่คุณมีใช้งานอยู่ ยกเว้น [B]การประณาม[/B][/LIST]</Text>		<!-- [BLIST][LI]All basic [icon:SANCTIONS] [B]Sanctions [/B]are automatically unlocked.[LI][B]+50% [icon:DIPLOMACY]Influence [/B]towards initiating [icon:SANCTIONS][B] Sanctions[/B]. [LI][B]+5 [icon:YIELD_CULTURE] Culture and [icon:YIELD_GOLD] Gold per Age [/B]for each Leader you have an active [B][icon:SANCTIONS] Sanction [/B]on, except [B] Denouncement [/B].[LI][B]+1 [icon:NAR_REW_COMBAT] Combat Strength [/B]for [B]Land Units [/B]for every [icon:SANCTIONS][B] Sanction [/B]you have active, except [B]Denouncement[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_NAPOLEON" Language="th_TH">
 			<Text>นโปเลียน โบนาปาร์ต ชื่อของท่านเป็นสัญลักษณ์แห่งความทะเยอทะยานและความกล้าหาญ ในความโกลาหลของการปฏิวัติ ท่านนำพาความสงบ—ความสงบตามแบบฉบับของท่าน ที่ถูกจัดการและบังคับใช้โดยมือของท่าน จงนำสัญชาตญาณยุทธศาสตร์อันเฉียบแหลมและพลังที่ไม่อาจหยุดยั้งของท่านมาพลิกผันโลก และทำให้แน่ใจว่าเมื่อควันสงครามจางลง ชื่อของท่านยังคงอยู่บนโลกนี้</Text>		<!-- Napoleon Bonaparte, your name is synonymous with ambition - and audacity. In the chaos of revolution, you bring order - your order, arranged and enacted by your hand. Bring your keen strategic senses and unstoppable drive to overturn the world and ensure that, when the smoke clears, you remain. -->
@@ -485,7 +485,7 @@
 			<Text>ในฐานะ นโปเลียน, จักรพรรดิ ในยุคใหม่ ทำภารกิจเพื่อให้โลกได้ยินเสียงของคุณ</Text>		<!-- As Napoleon, Emperor, in Modern, complete a quest to make the world listen. -->
 		</Replace>
 		<Replace Tag="LOC_MODULE_NAPOLEON_DESCRIPTION" Language="th_TH">
-			<Text>ประกอบด้วยผู้นำคนใหม่: นโปเลียน</Text>		<!-- Contains a new leader: Napoleon. -->
+			<Text>ประกอบด้วยผู้นำคนใหม่: นโปเลียน</Text>		<!-- Contains a new Leader: Napoleon. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1190A_STORYTITLE" Language="th_TH">
 			<Text>บุรุษแห่งโชคชะตา</Text>		<!-- The Man of Destiny -->
