@@ -301,11 +301,20 @@
 		<Replace Tag="LOC_ADVANCED_OPTIONS_ABBREVIATED" Language="th_TH">
 			<Text>ย่อ</Text>		<!-- Abbreviated -->
 		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_ABBREVIATED_DESC" Language="th_TH">
+			<Text>ยุคจะสิ้นสุดเร็วขึ้น ยุคจะสิ้นสุดที่ความก้าวหน้าของยุค 160 (ในความเร็วมาตรฐาน)</Text>		<!-- Ages will end faster. Ages end at 160 age progress (on Standard Speed). -->
+		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_LONG" Language="th_TH">
 			<Text>ยาว</Text>		<!-- Long -->
 		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_STANDARD_DESC" Language="th_TH">
+			<Text>ความยาวมาตรฐานสำหรับยุค ยุคจะสิ้นสุดที่ความก้าวหน้าของยุค 200 (ในความเร็วมาตรฐาน)</Text>		<!-- The standard length for Ages. Ages end at 200 age progress (on Standard Speed). -->
+		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_LIGHT" Language="th_TH">
 			<Text>เบา</Text>		<!-- Light -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_LONG_DESC" Language="th_TH">
+			<Text>ยุคจะยาวนานขึ้น ยุคจะสิ้นสุดที่ความก้าวหน้าของยุค 240 (ในความเร็วมาตรฐาน)</Text>		<!-- Ages will last longer. Ages end at 240 age progress (on Standard Speed). -->
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_LIGHT_TOOLTIP" Language="th_TH">
 			<Text>เบา: ภัยธรรมชาติเกิดขึ้นในอัตรามาตรฐาน</Text>		<!-- Light: Natural Disasters appear at the standard rate -->
@@ -474,6 +483,9 @@
 		</Replace>
 		<Replace Tag="LOC_ADVANCED_OPTIONS_LEGACY_PATHS_DISABLED_WARNING" Language="th_TH">
 			<Text>การปิดเส้นทางมรดกจะทำให้ไม่ติดตามความคืบหน้า ไม่ให้รางวัล ไม่แสดงที่ปรึกษา และยังปิดเงื่อนไขชัยชนะที่เกี่ยวข้องด้วย</Text>		<!-- Disabling a Legacy Path will cause it to not track progress, give rewards, display advisors, and will also disable any victory condition associated with it. -->
+		</Replace>
+		<Replace Tag="LOC_ADVANCED_OPTIONS_LEGACY_PATHS_DISABLED_WARNING_AA" Language="th_TH">
+			<Text>การปิดใช้งานเส้นทางมรดกจะทำให้ไม่ติดตามความก้าวหน้า ไม่แสดงที่ปรึกษา และจะปิดใช้งานเงื่อนไขชัยชนะที่เกี่ยวข้องด้วย</Text>		<!-- Disabling a Legacy Path will cause it to not track progress, display advisors, and will also disable any victory condition associated with it. -->
 		</Replace>
 		<Replace Tag="LOC_UI_ADVANCED_START_TITLE" Language="th_TH">
 			<Text>เริ่มต้นขั้นสูง</Text>		<!-- Advanced Start -->
@@ -1796,6 +1808,9 @@
 		<Replace Tag="LOC_CIVILIZATION_NONE_FULLNAME" Language="th_TH">
 			<Text>โลก</Text>		<!-- World -->
 		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_UNKNOWN" Language="th_TH">
+			<Text>อารยธรรมที่ไม่รู้จัก</Text>		<!-- Unknown Civilization -->
+		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_INDEPENDENT_NAME" Language="th_TH">
 			<Text>หมู่บ้าน</Text>		<!-- Villages -->
 		</Replace>
@@ -2066,6 +2081,12 @@
 		<Replace Tag="LOC_CIVILIZATION_MUGHAL_ADJECTIVE" Language="th_TH">
 			<Text>โมกุล</Text>		<!-- Mughal -->
 		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CITY_STATE_NAME" Language="th_TH">
+			<Text>รัฐเมือง</Text>		<!-- City-State -->
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CITY_STATE_FULLNAME" Language="th_TH">
+			<Text>ชื่อรัฐเมืองชั่วคราว</Text>		<!-- Placeholder City-State -->
+		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_PRUSSIA_ADJECTIVE" Language="th_TH">
 			<Text>ปรัสเซีย</Text>		<!-- Prussian -->
 		</Replace>
@@ -2185,6 +2206,9 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_SIDEBAR_COSTS" Language="th_TH">
 			<Text>ค่าใช้จ่าย</Text>		<!-- Costs -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_SIDEBAR_RESOURCE_CLASS_TYPE" Language="th_TH">
+			<Text>ทรัพยากร {1_Name}</Text>		<!-- {1_Name} Resource -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_SIDEBAR_TRAITS" Language="th_TH">
 			<Text>ลักษณะ</Text>		<!-- Traits -->
@@ -2700,13 +2724,13 @@
 			<Text>เคล็ดลับ: การนำแนวคิดมาใช้ตั้งแต่เนิ่นๆ และมุ่งเป้าไปยังอารยธรรมที่มีแนวคิดที่แตกต่างจะช่วยเร่งความก้าวหน้าในเส้นทางนี้และนำคุณเข้าใกล้ชัยชนะในยุคสมัยใหม่มากขึ้น</Text>		<!-- Tip: Adopting an Ideology early and targeting civilizations with different Ideologies will accelerate your progress on this path and bring you closer to a Modern Victory. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_34_TITLE" Language="th_TH">
-			<Text>ยุคใหม่: การแข่งขันอวกาศ</Text>		<!-- Modern: Space Race -->
+			<Text>ยุคใหม่: การแข่งขันด้านอวกาศ</Text>		<!-- Modern: Space Race -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_34_CHAPTER_CONTENT_PARA_1" Language="th_TH">
-			<Text>การแข่งขันทางอวกาศ เป็นเส้นทางมรดกในยุคใหม่ ที่ท้าทายผู้เล่นให้เป็นคนแรกที่ทำ โครงการการแข่งขันอวกาศ ทั้งสามเสร็จสมบูรณ์และบรรลุการบินอวกาศที่มีคนขับเป็นคนแรก การทำเส้นทางนี้ให้สำเร็จจะปลดล็อกโอกาสใน การแสวงหาชัยชนะในยุคสมัยใหม่ ซึ่งเป็นสัญลักษณ์ของความเป็นผู้นำของอารยธรรมของคุณ ในการสำรวจอวกาศ</Text>		<!-- The Space Race is a Modern Age legacy path that challenges players to be the first to complete all three Space Race Projects and achieve the First Crewed Space Flight. Completing this path unlocks the opportunity to pursue a Modern Victory, symbolizing your civilization’s leadership in space exploration. -->
+			<Text>การแข่งขันด้านอวกาศ เป็นเส้นทางมรดกในยุคใหม่ ที่ท้าทายผู้เล่นให้เป็นคนแรกที่ทำ โครงการการแข่งขันด้านอวกาศ ทั้งสามเสร็จสมบูรณ์และบรรลุการบินอวกาศที่มีคนขับเป็นคนแรก การทำเส้นทางนี้ให้สำเร็จจะปลดล็อกโอกาสใน การแสวงหาชัยชนะในยุคสมัยใหม่ ซึ่งเป็นสัญลักษณ์ของความเป็นผู้นำของอารยธรรมของคุณ ในการสำรวจอวกาศ</Text>		<!-- The Space Race is a Modern Age legacy path that challenges players to be the first to complete all three Space Race Projects and achieve the First Crewed Space Flight. Completing this path unlocks the opportunity to pursue a Modern Victory, symbolizing your civilization’s leadership in space exploration. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_34_CHAPTER_CONTENT_PARA_2" Language="th_TH">
-			<Text>เริ่มต้นด้วยการศึกษาวิชาเที่ยวบิน ซึ่งจะปลดล็อกโครงการแข่งขันอวกาศครั้งแรก สร้างสนามบินและทำโครงการการบินข้ามมหาสมุทรให้เสร็จ จากนั้นศึกษาอากาศพลศาสตร์เพื่อปลดล็อกโครงการทำลายกำแพงเสียง สุดท้ายศึกษาเทคโนโลยีจรวด สร้างแพลตฟอร์มปล่อยและทำโครงการปล่อยดาวเทียมให้เสร็จเพื่อก้าวไปข้างหน้าในเส้นทางนี้</Text>		<!-- To begin, research Flight, which unlocks the first Space Race Project. Construct an Aerodrome and complete the Trans-Oceanic Flight Project. Next, research Aerodynamics to unlock the Break the Sound Barrier Project. Finally, research Rocketry, build a Launch Pad, and complete the Launch Satellite Project to advance further on this path. -->
+			<Text>เริ่มต้นด้วยการศึกษาวิชาเที่ยวบิน ซึ่งจะปลดล็อกโครงการแข่งขันด้านอวกาศครั้งแรก สร้างสนามบินและทำโครงการการบินข้ามมหาสมุทรให้เสร็จ จากนั้นศึกษาอากาศพลศาสตร์เพื่อปลดล็อกโครงการทำลายกำแพงเสียง สุดท้ายศึกษาเทคโนโลยีจรวด สร้างแพลตฟอร์มปล่อยและทำโครงการปล่อยดาวเทียมให้เสร็จเพื่อก้าวไปข้างหน้าในเส้นทางนี้</Text>		<!-- To begin, research Flight, which unlocks the first Space Race Project. Construct an Aerodrome and complete the Trans-Oceanic Flight Project. Next, research Aerodynamics to unlock the Break the Sound Barrier Project. Finally, research Rocketry, build a Launch Pad, and complete the Launch Satellite Project to advance further on this path. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_AGES_34_CHAPTER_CONTENT_PARA_3" Language="th_TH">
 			<Text>เคล็ดลับ: ให้ความสำคัญกับเทคโนโลยีและโครงสร้างพื้นฐานที่เกี่ยวข้องเพื่อก้าวนำหน้าในการแข่งขันในอวกาศ การรักษาความเป็นผู้นำในโครงการเหล่านี้สามารถให้ข้อได้เปรียบที่เด็ดขาดในการเผชิญหน้าที่ทันสมัยได้</Text>		<!-- Tip: Prioritize the relevant technologies and infrastructure to stay ahead in the Space Race. Securing the lead in these projects can give you a decisive advantage in the Modern Victory pursuit. -->
@@ -3241,6 +3265,9 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CELEBRATION_1_CHAPTER_CONTENT_PARA_3" Language="th_TH">
 			<Text>เคล็ดลับ: ตรวจสอบจำนวนเทิร์นที่เหลือจนถึงการเฉลิมฉลองครั้งถัดไปของคุณ เพื่อวางแผนอย่างมีกลยุทธ์และใช้ประโยชน์สูงสุดจากผลกระทบของการเฉลิมฉลองของคุณ</Text>		<!-- Tip: Monitor the number of turns remaining until your next Celebration to strategically plan and maximize the benefits of your Celebration effects. -->
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITY_1_CHAPTER_CONTENT_PARA_6" Language="th_TH">
+			<Text>เคล็ดลับ: เมืองควรถูกสร้างในตำแหน่งที่มีอาหาร การผลิต และการเข้าถึงทรัพยากรต่างๆ อย่างเพียงพอ การสร้างเมืองบนแม่น้ำหรือพื้นที่ชายฝั่งเป็นความคิดที่ดี เนื่องจากน้ำมีความสำคัญต่อการเติบโตของประชากร</Text>		<!-- Tip: Cities should be constructed in locations with plenty of Food, Production, and access to various resources. Building Cities on a River or coastal hex is a good idea, as water is vital for a growing Population. -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITY_1_TITLE" Language="th_TH">
 			<Text>เมืองใหญ่</Text>		<!-- Cities -->
 		</Replace>
@@ -3402,6 +3429,9 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_1_CHAPTER_CONTENT_PARA_4" Language="th_TH">
 			<Text>เคล็ดลับ: อาคารบางแห่งไม่มีอายุ หมายความว่าจะยังคงให้ผลลัพธ์ไม่ว่าขณะนั้นจะอยู่ในยุคใด นอกจากนี้อาคารบางแห่งยังมีโบนัสติดกัน ให้ผลตอบแทนพิเศษเมื่อวางติดกับโครงสร้างหรือสิ่งแวดล้อมเฉพาะ</Text>		<!-- Tip: Some buildings are Ageless, meaning they continue to offer effects regardless of the current Age. Additionally, some buildings have adjacency bonuses, providing extra yields when placed next to specific structures or features. -->
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_BUILDINGS_1_CHAPTER_CONTENT_PARA_5" Language="th_TH">
+			<Text>เคล็ดลับ: บางอาคารไม่มีอายุ หมายความว่าพวกมันยังคงให้ผลกระทบไม่ว่าจะอยู่ในยุคใด นอกจากนี้ บางอาคารยังมีโบนัสความใกล้เคียง ซึ่งให้ผลผลิตเพิ่มเติมเมื่อวางไว้ใกล้โครงสร้างหรือคุณลักษณะเฉพาะ</Text>		<!-- Tip: Some buildings are Ageless, meaning they continue to offer effects regardless of the current Age. Additionally, some buildings have adjacency bonuses, providing extra yields when placed next to specific structures or features. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_AGES_1_CHAPTER_CONTENT_PARA_1" Language="th_TH">
 			<Text>ประวัติศาสตร์สร้างขึ้นมาเป็นชั้นๆ ไม่มีอาณาจักรไหนที่ยืนหยัดทนทานต่อการพิสูจน์ของเวลาได้ทั้งหมด อาณาจักรที่สืบทอดต่อมาได้สร้างอยู่บนความรุ่งเรืองของผู้ที่มาก่อน</Text>		<!-- History is built in layers. No empire has stood the entire test of time. Instead, successor kingdoms build on the glories of their predecessors. -->
@@ -5482,6 +5512,9 @@
 		<Replace Tag="LOC_COMBAT_PREVIEW_FRIENDLY_TERRITORY_BONUS" Language="th_TH">
 			<Text>+{1_Value} เขตที่เป็นมิตร</Text>		<!-- +{1_Value} Friendly Territory -->
 		</Replace>
+		<Replace Tag="LOC_COMBAT_PREVIEW_SANCTIONS_DESC" Language="th_TH">
+			<Text>+{1_Value} การคว่ำบาตรที่ใช้งานอยู่</Text>		<!-- +{1_Value} Active Sanctions -->
+		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_FORTIFIED_DEFENSE_DESC" Language="th_TH">
 			<Text>+{1_Value} ป้องกันในปราการ</Text>		<!-- +{1_Value} Fortified Defense -->
 		</Replace>
@@ -5620,6 +5653,9 @@
 		<Replace Tag="LOC_ATTR_YIELD_INCOME" Language="th_TH">
 			<Text>รายได้</Text>		<!-- Income -->
 		</Replace>
+		<Replace Tag="LOC_ATTR_YIELD_FROM_CITY_STATE" Language="th_TH">
+			<Text>จากนครรัฐ</Text>		<!-- From City-States -->
+		</Replace>
 		<Replace Tag="LOC_ATTR_YIELD_MINUS_DEDUCTIONS" Language="th_TH">
 			<Text>หักออกแล้ว</Text>		<!-- Minus Deductions -->
 		</Replace>
@@ -5703,6 +5739,9 @@
 		</Replace>
 		<Replace Tag="LOC_ATTR_YIELD_FROM_GREAT_WORKS" Language="th_TH">
 			<Text>จากผลงานชิ้นเอก</Text>		<!-- From Great Works -->
+		</Replace>
+		<Replace Tag="_ACTIVE_TRADITIONS" Language="th_TH">
+			<Text>จำนวนของนโยบายและประเพณีที่ใส่ไว้</Text>		<!-- Number of Slotted Policies and Traditions -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_GREAT_WORK_BONUS_YIELD" Language="th_TH">
 			<Text>โบนัสผลงานชิ้นเอก</Text>		<!-- Great Works Bonus -->
@@ -6039,6 +6078,9 @@
 		</Replace>
 		<Replace Tag="LOC_ATTR_CITY_YIELD_RESOURCE_ALLOCATED" Language="th_TH">
 			<Text>ทรัพยากรที่จัดสรร</Text>		<!-- Resources Allocated -->
+		</Replace>
+		<Replace Tag="LOC_ATTR_PLAYER_YIELD_GOLD_MAINTENANCE_PERCENT_FROM_UNIT" Language="th_TH">
+			<Text>เปอร์เซ็นต์จากโลจิสติกส์ของหน่วย</Text>		<!-- Percent From Unit Logistics -->
 		</Replace>
 		<Replace Tag="LOC_ATTR_PLAYER_YIELD_PER_RESOURCE" Language="th_TH">
 			<Text>ทรัพยากรในซัพพลาย</Text>		<!-- Resources in Supply -->
@@ -6540,6 +6582,24 @@
 		</Replace>
 		<Replace Tag="LOC_MAP_CONTINENTS_DESCRIPTION" Language="th_TH">
 			<Text>แผ่นดินขนาดใหญ่ต่อเนื่อง มอบการเล่นที่สมดุล</Text>		<!-- Large continuous landmasses offering balanced gameplay. -->
+		</Replace>
+		<Replace Tag="LOC_MAP_CONTINENTS_VORONOI_NAME" Language="th_TH">
+			<Text>ทวีปและเกาะ</Text>		<!-- Continents and Islands -->
+		</Replace>
+		<Replace Tag="LOC_MAP_CONTINENTS_VORONOI_DESCRIPTION" Language="th_TH">
+			<Text>สองแผ่นดินธรรมชาติที่มาพร้อมกับเกาะขนาดต่างๆ</Text>		<!-- Two natural landmasses accompanied by islands of varying size. -->
+		</Replace>
+		<Replace Tag="LOC_MAP_PANGAEA_VORONOI_NAME" Language="th_TH">
+			<Text>แพงเจียและเกาะ</Text>		<!-- Pangaea and Islands -->
+		</Replace>
+		<Replace Tag="LOC_MAP_PANGAEA_VORONOI_DESCRIPTION" Language="th_TH">
+			<Text>แผ่นดินธรรมชาติเดียวที่มาพร้อมกับเกาะขนาดต่างๆ</Text>		<!-- A single natural landmass accompanied by islands of varying size. -->
+		</Replace>
+		<Replace Tag="LOC_MAP_EARTH_NAME" Language="th_TH">
+			<Text>โลก (กำลังพัฒนา)</Text>		<!-- EARTH WIP -->
+		</Replace>
+		<Replace Tag="LOC_MAP_EARTH_DESCRIPTION" Language="th_TH">
+			<Text>โลกของเทย์มัวร์ (กำลังพัฒนา)</Text>		<!-- Taymoor's EARTH WIP -->
 		</Replace>
 		<Replace Tag="LOC_GAMESPEED_STANDARD_NAME" Language="th_TH">
 			<Text>มาตรฐาน</Text>		<!-- Standard -->
@@ -8717,11 +8777,17 @@
 		<Replace Tag="LOC_DIPLOMACY_STAGE_INDEPENDENT_CITY_STATEHOOD_MESSAGE" Language="th_TH">
 			<Text>ประกาศความสัมพันธ์กับรัฐอิสระ</Text>		<!-- Independent Relationship Notice -->
 		</Replace>
+		<Replace Tag="LOC_DIPLOMACY_NO_COST_SANCTIONS_NAME" Language="th_TH">
+			<Text>คว่ำบาตรผู้อื่นได้ฟรี</Text>		<!-- Sanction others for free -->
+		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_STAGE_INDEPENDENT_CITY_STATEHOOD_SUMMARY" Language="th_TH">
 			<Text>{1_ipname} จะกลายเป็นนครรัฐในไม่ช้า โดยมีคุณเป็นเจ้านคร พวกเขาได้มอบของขวัญให้แก่คุณ</Text>		<!-- {1_ipname} will convert to a City-State soon, with you as its Suzerain. They have bestowed a gift. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_STAGE_INDEPENDENT_CITY_STATEHOOD_OTHER_PLAYER_SUMMARY" Language="th_TH">
 			<Text>ผู้นำอีกคนหนึ่งกำลังจะกลายเป็นเจ้านครของรัฐอิสระนี้</Text>		<!-- Another Leader is about to become the Suzerain of this Independent Power. -->
+		</Replace>
+		<Replace Tag="LOC_DIPLOMACY_SKIP_DIALOG_INSTRUCTIONS_TOUCH" Language="th_TH">
+			<Text>แตะเพื่อข้ามบทสนทนา</Text>		<!-- Touch to skip dialog. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_STAGE_INDEPENDENT_VERY_HOSTILE_TOOLTIP" Language="th_TH">
 			<Text>รัฐอิสระมีท่าทีเป็นศัตรูต่อคุณ</Text>		<!-- The Independent Power is hostile toward you. -->
@@ -9214,6 +9280,9 @@
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_FAILURE_NO_SETTLEMENT_INITIAL" Language="th_TH">
 			<Text>คุณต้องมีอย่างน้อยหนึ่งการตั้งถิ่นฐานเพื่อเริ่มดำเนินการนี้</Text>		<!-- You need at least one settlement to start this action. -->
+		</Replace>
+		<Replace Tag="LOC_DIPLOMACY_ACTION_FAILURE_NO_VISION" Language="th_TH">
+			<Text>คุณยังไม่พบหมู่บ้านของพวกเขา</Text>		<!-- You have not found their village. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_FAILURE_NO_SETTLEMENT_TARGET" Language="th_TH">
 			<Text>ผู้เล่นอีกฝ่ายต้องมีอย่างน้อยหนึ่งการตั้งถิ่นฐานเพื่อเริ่มดำเนินการนี้</Text>		<!-- The other player needs at least one settlement to start this action. -->
@@ -9820,6 +9889,12 @@
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_REVEAL_CHANCE" Language="th_TH">
 			<Text>โอกาสถูกจับได้: {1_revealChance}%</Text>		<!-- Reveal Chance: {1_revealChance}% -->
+		</Replace>
+		<Replace Tag="LOC_DIPLOMACY_ESPIONAGE_IDEOLOGICAL_REVOLT_NAME" Language="th_TH">
+			<Text>การปฏิวัติทางอุดมการณ์</Text>		<!-- Ideological Revolt -->
+		</Replace>
+		<Replace Tag="LOC_DIPLOMACY_ESPIONAGE_IDEOLOGICAL_REVOLT_DESCRIPTION" Language="th_TH">
+			<Text>ได้รับการกระทำจารกรรม "การปฏิวัติทางอุดมการณ์" เป้าหมายคือเมืองหนึ่งของผู้เล่นที่มีอุดมการณ์ เมื่อเสร็จสิ้น จะสร้างความเสียหายต่ออาคารสูงสุด 4 แห่งในเมืองนั้น</Text>		<!-- Gain the "Ideological Revolt" Espionage action. Targets one City of a Player with an Ideology. On completion, damage up to 4 buildings in that City. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_UNKNOWN_PLAYER" Language="th_TH">
 			<Text>ผู้เล่นที่ไม่รู้จัก</Text>		<!-- An unknown player -->
@@ -10645,6 +10720,12 @@
 		</Replace>
 		<Replace Tag="LOC_HOF_STAT_STRONGEST_UNIT" Language="th_TH">
 			<Text>ยูนิตที่แข็งแกร่งที่สุด</Text>		<!-- Strongest Unit -->
+		</Replace>
+		<Replace Tag="LOC_EXPANSIONIST_NAME" Language="th_TH">
+			<Text>ผู้ขยายอาณาเขต</Text>		<!-- Expansionist -->
+		</Replace>
+		<Replace Tag="LOC_DIPLOMATIC_NAME" Language="th_TH">
+			<Text>นักการทูต</Text>		<!-- Diplomatic -->
 		</Replace>
 		<Replace Tag="LOC_HOF_STAT_STRONGEST_UNIT_ANNOTATION" Language="th_TH">
 			<Text>สังหาร {Amount} ยูนิต</Text>		<!-- Killed {Amount: plural 1?{Amount} unit;other?{Amount} units;}. -->
@@ -14637,10 +14718,10 @@
 			<Text>ในฐานะ อามินา ให้ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Amina, complete the Enlightenment Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_AMINA_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ</Text>		<!-- Space Race -->
+			<Text>การแข่งขันด้านอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_AMINA_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ อามินา ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Amina, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ อามินา ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ</Text>		<!-- As Amina, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_AMINA_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
 			<Text>ราชินีนักรบ</Text>		<!-- The Warrior Queen -->
@@ -14679,16 +14760,16 @@
 			<Text>ในฐานะ อามินา ในยุคใหม่ ทำภารกิจที่เอื้ออำนวยการไหลเวียนของความหรูหรา</Text>		<!-- As Amina in Modern, complete a quest that facilitates the flow of luxury. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_AMINA_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
+			<Text>การแข่งขันด้านอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_AMINA_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ อามินา ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As Amina, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ อามินา ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สองครั้ง</Text>		<!-- As Amina, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_AMINA_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ 3</Text>		<!-- Space Race 3 -->
+			<Text>การแข่งขันด้านอวกาศ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_AMINA_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ อามินา ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As Amina, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ อามินา ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สามครั้ง</Text>		<!-- As Amina, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_AMINA_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
@@ -14955,28 +15036,28 @@
 			<Text>ในฐานะ อโศกมหาราช, ผู้ละทางโลก ให้ทำเส้นทางมรดก การตรัสรู้ สองครั้ง</Text>		<!-- As Ashoka, World Renouncer, complete the Enlightenment Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_SCIENCE_VICTORY_EXPLORATION_3_NAME" Language="th_TH">
-			<Text>ความรู้แจ้ง 3</Text>		<!-- Enlightenment 3 -->
+			<Text>การตรัสรู้ 3</Text>		<!-- Enlightenment 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_SCIENCE_VICTORY_EXPLORATION_3_DESC" Language="th_TH">
 			<Text>ในฐานะ อโศกมหาราช, ผู้ละทางโลก ให้ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Ashoka, World Renouncer, complete the Enlightenment Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>การแข่งขันทางอวกาศ</Text>		<!-- Space Race -->
+			<Text>การแข่งขันด้านอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ อโศกมหาราช, ผู้ละทางโลก ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Ashoka, World Renouncer, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ อโศกมหาราช, ผู้ละทางโลก ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ</Text>		<!-- As Ashoka, World Renouncer, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
 			<Text>การแข่งขันด้านอวกาศ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ อโศกมหาราช, ผู้ละทางโลก ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As Ashoka, World Renouncer, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ อโศกมหาราช, ผู้ละทางโลก ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สองครั้ง</Text>		<!-- As Ashoka, World Renouncer, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ 3</Text>		<!-- Space Race 3 -->
+			<Text>การแข่งขันด้านอวกาศ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ อโศกมหาราช, ผู้ละทางโลก ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As Ashoka, World Renouncer, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ อโศกมหาราช, ผู้ละทางโลก ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สามครั้ง</Text>		<!-- As Ashoka, World Renouncer, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASHOKA_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
@@ -15303,22 +15384,22 @@
 			<Text>ในฐานะ ออกัสตัส ให้ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Augustus, complete the Enlightenment Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_AUGUSTUS_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ</Text>		<!-- Space Race -->
+			<Text>การแข่งขันด้านอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_AUGUSTUS_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ ออกัสตัส ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Augustus, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ ออกัสตัส ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ</Text>		<!-- As Augustus, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_AUGUSTUS_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
+			<Text>การแข่งขันด้านอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_AUGUSTUS_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ ออกัสตัส ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As Augustus, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ ออกัสตัส ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สองครั้ง</Text>		<!-- As Augustus, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_AUGUSTUS_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ 3</Text>		<!-- Space Race 3 -->
+			<Text>การแข่งขันด้านอวกาศ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_AUGUSTUS_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ ออกัสตัส ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As Augustus, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ ออกัสตัส ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สามครั้ง</Text>		<!-- As Augustus, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_AUGUSTUS_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
@@ -15645,22 +15726,22 @@
 			<Text>ในฐานะ เบนจามิน แฟรงคลิน ให้ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Benjamin Franklin, complete the Enlightenment Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BENJAMIN_FRANKLIN_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>การแข่งขันในอวกาศ</Text>		<!-- Space Race -->
+			<Text>การแข่งขันด้านอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BENJAMIN_FRANKLIN_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ เบนจามิน แฟรงคลิน ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Benjamin Franklin, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ เบนจามิน แฟรงคลิน ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ</Text>		<!-- As Benjamin Franklin, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BENJAMIN_FRANKLIN_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
+			<Text>การแข่งขันด้านอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BENJAMIN_FRANKLIN_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ เบนจามิน แฟรงคลิน ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As Benjamin Franklin, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ เบนจามิน แฟรงคลิน ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สองครั้ง</Text>		<!-- As Benjamin Franklin, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BENJAMIN_FRANKLIN_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ 3</Text>		<!-- Space Race 3 -->
+			<Text>การแข่งขันด้านอวกาศ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BENJAMIN_FRANKLIN_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ เบนจามิน แฟรงคลิน ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As Benjamin Franklin, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ เบนจามิน แฟรงคลิน ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สามครั้ง</Text>		<!-- As Benjamin Franklin, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BENJAMIN_FRANKLIN_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
@@ -15987,22 +16068,22 @@
 			<Text>ในฐานะ แคทเธอรีนมหาราช ให้ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Catherine, complete the Enlightenment Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CATHERINE_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>การแข่งขันในอวกาศ</Text>		<!-- Space Race -->
+			<Text>การแข่งขันด้านอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CATHERINE_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ แคทเธอรีนมหาราช ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Catherine, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ แคทเธอรีนมหาราช ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ</Text>		<!-- As Catherine, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CATHERINE_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
+			<Text>การแข่งขันด้านอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CATHERINE_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ แคทเธอรีนมหาราช ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As Catherine, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ แคทเธอรีนมหาราช ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สองครั้ง</Text>		<!-- As Catherine, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CATHERINE_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ 3</Text>		<!-- Space Race 3 -->
+			<Text>การแข่งขันด้านอวกาศ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CATHERINE_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ แคทเธอรีนมหาราช ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As Catherine, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ แคทเธอรีนมหาราช ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สามครั้ง</Text>		<!-- As Catherine, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CATHERINE_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
@@ -16329,22 +16410,22 @@
 			<Text>ในฐานะ ชาร์เลอมาญ ให้ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Charlemagne, complete the Enlightenment Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CHARLEMAGNE_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ</Text>		<!-- Space Race -->
+			<Text>การแข่งขันด้านอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CHARLEMAGNE_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ ชาร์เลอมาญ ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Charlemagne, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ ชาร์เลอมาญ ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ</Text>		<!-- As Charlemagne, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CHARLEMAGNE_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
+			<Text>การแข่งขันด้านอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CHARLEMAGNE_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ ชาร์เลอมาญ ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As Charlemagne, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ ชาร์เลอมาญ ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สองครั้ง</Text>		<!-- As Charlemagne, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CHARLEMAGNE_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ 3</Text>		<!-- Space Race 3 -->
+			<Text>การแข่งขันด้านอวกาศ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CHARLEMAGNE_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ ชาร์เลอมาญ ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As Charlemagne, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ ชาร์เลอมาญ ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สามครั้ง</Text>		<!-- As Charlemagne, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CHARLEMAGNE_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
@@ -16671,22 +16752,22 @@
 			<Text>ในฐานะ ขงจื๊อ ให้ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Confucius, complete the Enlightenment Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CONFUCIUS_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ</Text>		<!-- Space Race -->
+			<Text>การแข่งขันด้านอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CONFUCIUS_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ ขงจื๊อ ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Confucius, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ ขงจื๊อ ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ</Text>		<!-- As Confucius, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CONFUCIUS_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ 2</Text>		<!-- Space Race 2 -->
+			<Text>การแข่งขันด้านอวกาศ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CONFUCIUS_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ ขงจื๊อ ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As Confucius, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ ขงจื๊อ ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สองครั้ง</Text>		<!-- As Confucius, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CONFUCIUS_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ 3</Text>		<!-- Space Race 3 -->
+			<Text>การแข่งขันด้านอวกาศ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CONFUCIUS_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ ขงจื๊อ ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As Confucius, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ ขงจื๊อ ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สามครั้ง</Text>		<!-- As Confucius, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_CONFUCIUS_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
@@ -17013,22 +17094,22 @@
 			<Text>ในฐานะ ฟรีดริช, โอบลีค ให้ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Friedrich, Oblique, complete the Enlightenment Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_FRIEDRICH_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>การแข่งขันในอวกาศ</Text>		<!-- Space Race -->
+			<Text>การแข่งขันด้านอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_FRIEDRICH_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ ฟรีดริช, โอบลีค ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Friedrich, Oblique, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ ฟรีดริช, โอบลีค ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ</Text>		<!-- As Friedrich, Oblique, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_FRIEDRICH_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
 			<Text>การแข่งขันในอวกาศ ครั้งที่ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_FRIEDRICH_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ ฟรีดริช, โอบลีค ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As Friedrich, Oblique, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ ฟรีดริช, โอบลีค ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สองครั้ง</Text>		<!-- As Friedrich, Oblique, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_FRIEDRICH_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ 3</Text>		<!-- Space Race 3 -->
+			<Text>การแข่งขันด้านอวกาศ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_FRIEDRICH_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ ฟรีดริช, โอบลีค ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As Friedrich, Oblique, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ ฟรีดริช, โอบลีค ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สามครั้ง</Text>		<!-- As Friedrich, Oblique, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_FRIEDRICH_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
@@ -17355,22 +17436,22 @@
 			<Text>ในฐานะ แฮเรียต ทับแมน ให้ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Harriet Tubman, complete the Enlightenment Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HARRIET_TUBMAN_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ</Text>		<!-- Space Race -->
+			<Text>การแข่งขันด้านอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HARRIET_TUBMAN_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ แฮเรียต ทับแมน ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Harriet Tubman, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ แฮเรียต ทับแมน ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ</Text>		<!-- As Harriet Tubman, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HARRIET_TUBMAN_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ 2</Text>		<!-- Space Race 2 -->
+			<Text>การแข่งขันด้านอวกาศ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HARRIET_TUBMAN_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ แฮเรียต ทับแมน ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As Harriet Tubman, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ แฮเรียต ทับแมน ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สองครั้ง</Text>		<!-- As Harriet Tubman, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HARRIET_TUBMAN_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ 3</Text>		<!-- Space Race 3 -->
+			<Text>การแข่งขันด้านอวกาศ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HARRIET_TUBMAN_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ แฮเรียต ทับแมน ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As Harriet Tubman, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ แฮเรียต ทับแมน ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สามครั้ง</Text>		<!-- As Harriet Tubman, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HARRIET_TUBMAN_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
@@ -17697,22 +17778,22 @@
 			<Text>ในฐานะ แฮตเชปซุต ให้ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Hatshepsut, complete the Enlightenment Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HATSHEPSUT_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>การแข่งขันทางอวกาศ</Text>		<!-- Space Race -->
+			<Text>การแข่งขันด้านอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HATSHEPSUT_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ แฮตเชปซุต ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Hatshepsut, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ แฮตเชปซุต ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ</Text>		<!-- As Hatshepsut, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HATSHEPSUT_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
+			<Text>การแข่งขันด้านอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HATSHEPSUT_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ แฮตเชปซุต ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As Hatshepsut, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ แฮตเชปซุต ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สองครั้ง</Text>		<!-- As Hatshepsut, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HATSHEPSUT_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>การแข่งขันทางอวกาศ 3</Text>		<!-- Space Race 3 -->
+			<Text>การแข่งขันด้านอวกาศ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HATSHEPSUT_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ แฮตเชปซุต ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As Hatshepsut, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ แฮตเชปซุต ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สามครั้ง</Text>		<!-- As Hatshepsut, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HATSHEPSUT_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
@@ -18039,22 +18120,22 @@
 			<Text>ในฐานะ ฮิมิโกะ, ราชินีแห่งแคว้นวะ ให้ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Himiko, Queen of Wa, complete the Enlightenment Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HIMIKO_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ</Text>		<!-- Space Race -->
+			<Text>การแข่งขันด้านอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HIMIKO_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ ฮิมิโกะ, ราชินีแห่งแคว้นวะ ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Himiko, Queen of Wa, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ ฮิมิโกะ, ราชินีแห่งแคว้นวะ ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ</Text>		<!-- As Himiko, Queen of Wa, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HIMIKO_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
 			<Text>การแข่งขันด้านอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HIMIKO_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ ฮิมิโกะ, ราชินีแห่งแคว้นวะ ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As Himiko, Queen of Wa, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ ฮิมิโกะ, ราชินีแห่งแคว้นวะ ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สองครั้ง</Text>		<!-- As Himiko, Queen of Wa, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HIMIKO_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ 3</Text>		<!-- Space Race 3 -->
+			<Text>การแข่งขันด้านอวกาศ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HIMIKO_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ ฮิมิโกะ, ราชินีแห่งแคว้นวะ ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As Himiko, Queen of Wa, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ ฮิมิโกะ, ราชินีแห่งแคว้นวะ ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สามครั้ง</Text>		<!-- As Himiko, Queen of Wa, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_HIMIKO_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
@@ -18384,19 +18465,19 @@
 			<Text>การแข่งขันด้านอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_IBN_BATTUTA_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ อิบน์ บัตตูตา ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Ibn Battuta, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ อิบน์ บัตตูตา ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ</Text>		<!-- As Ibn Battuta, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_IBN_BATTUTA_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ 2</Text>		<!-- Space Race 2 -->
+			<Text>การแข่งขันด้านอวกาศ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_IBN_BATTUTA_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ อิบน์ บัตตูตา ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As Ibn Battuta, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ อิบน์ บัตตูตา ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สองครั้ง</Text>		<!-- As Ibn Battuta, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_IBN_BATTUTA_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ 3</Text>		<!-- Space Race 3 -->
+			<Text>การแข่งขันด้านอวกาศ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_IBN_BATTUTA_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ อิบน์ บัตตูตา ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As Ibn Battuta, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ อิบน์ บัตตูตา ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สามครั้ง</Text>		<!-- As Ibn Battuta, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_IBN_BATTUTA_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
@@ -18726,19 +18807,19 @@
 			<Text>การแข่งขันด้านอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ISABELLA_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ อิซาเบลล่า ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Isabella, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ อิซาเบลล่า ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ</Text>		<!-- As Isabella, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ISABELLA_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ 2</Text>		<!-- Space Race 2 -->
+			<Text>การแข่งขันด้านอวกาศ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ISABELLA_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ อิซาเบลล่า ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As Isabella, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ อิซาเบลล่า ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สองครั้ง</Text>		<!-- As Isabella, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ISABELLA_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
 			<Text>การแข่งขันในอวกาศครั้งที่ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ISABELLA_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ อิซาเบลล่า ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As Isabella, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ อิซาเบลล่า ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สามครั้ง</Text>		<!-- As Isabella, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ISABELLA_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
@@ -19068,19 +19149,19 @@
 			<Text>การแข่งขันด้านอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As José Rizal, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ</Text>		<!-- As José Rizal, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
 			<Text>การแข่งขันในอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As José Rizal, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สองครั้ง</Text>		<!-- As José Rizal, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ 3</Text>		<!-- Space Race 3 -->
+			<Text>การแข่งขันด้านอวกาศ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As José Rizal, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ โฮเซ รีซัล ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สามครั้ง</Text>		<!-- As José Rizal, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_JOSE_RIZAL_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
@@ -19407,22 +19488,22 @@
 			<Text>ในฐานะ ลาฟาแยต ให้ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Lafayette, complete the Enlightenment Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAFAYETTE_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>การแข่งขันทางอวกาศ</Text>		<!-- Space Race -->
+			<Text>การแข่งขันด้านอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAFAYETTE_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ ลาฟาแยต ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Lafayette, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ ลาฟาแยต ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ</Text>		<!-- As Lafayette, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAFAYETTE_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
+			<Text>การแข่งขันด้านอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAFAYETTE_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ ลาฟาแยต ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As Lafayette, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ ลาฟาแยต ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สองครั้ง</Text>		<!-- As Lafayette, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAFAYETTE_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>การแข่งขันทางอวกาศครั้งที่ 3</Text>		<!-- Space Race 3 -->
+			<Text>การแข่งขันด้านอวกาศครั้งที่ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAFAYETTE_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ ลาฟาแยต ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As Lafayette, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ ลาฟาแยต ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สามครั้ง</Text>		<!-- As Lafayette, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAFAYETTE_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
@@ -19749,22 +19830,22 @@
 			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Machiavelli, complete the Enlightenment Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>การแข่งขันทางอวกาศ</Text>		<!-- Space Race -->
+			<Text>การแข่งขันด้านอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Machiavelli, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ</Text>		<!-- As Machiavelli, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
+			<Text>การแข่งขันด้านอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As Machiavelli, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สองครั้ง</Text>		<!-- As Machiavelli, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศครั้งที่ 3</Text>		<!-- Space Race 3 -->
+			<Text>การแข่งขันด้านอวกาศครั้งที่ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As Machiavelli, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ มาเคียเวลลี ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สามครั้ง</Text>		<!-- As Machiavelli, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_MACHIAVELLI_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
@@ -20091,22 +20172,22 @@
 			<Text>ในฐานะ ปาชาคูติ ให้ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Pachacuti, complete the Enlightenment Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_PACHACUTI_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>การแข่งขันทางอวกาศ</Text>		<!-- Space Race -->
+			<Text>การแข่งขันด้านอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_PACHACUTI_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ ปาชาคูติ ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Pachacuti, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ ปาชาคูติ ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ</Text>		<!-- As Pachacuti, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_PACHACUTI_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
+			<Text>การแข่งขันด้านอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_PACHACUTI_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ ปาชาคูติ ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As Pachacuti, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ ปาชาคูติ ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สองครั้ง</Text>		<!-- As Pachacuti, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_PACHACUTI_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ 3</Text>		<!-- Space Race 3 -->
+			<Text>การแข่งขันด้านอวกาศ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_PACHACUTI_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ ปาชาคูติ ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As Pachacuti, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ ปาชาคูติ ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สามครั้ง</Text>		<!-- As Pachacuti, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_PACHACUTI_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
@@ -20433,22 +20514,22 @@
 			<Text>ในฐานะ จึง จั๊ก ให้ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Trung Trac, complete the Enlightenment Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TRUNG_TRAC_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ</Text>		<!-- Space Race -->
+			<Text>การแข่งขันด้านอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TRUNG_TRAC_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ จึง จั๊ก ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Trung Trac, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ จึง จั๊ก ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ</Text>		<!-- As Trung Trac, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TRUNG_TRAC_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ 2</Text>		<!-- Space Race 2 -->
+			<Text>การแข่งขันด้านอวกาศ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TRUNG_TRAC_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ จึง จั๊ก ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As Trung Trac, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ จึง จั๊ก ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สองครั้ง</Text>		<!-- As Trung Trac, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TRUNG_TRAC_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>การแข่งขันอวกาศ 3</Text>		<!-- Space Race 3 -->
+			<Text>การแข่งขันด้านอวกาศ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TRUNG_TRAC_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ จึง จั๊ก ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As Trung Trac, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ จึง จั๊ก ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สามครั้ง</Text>		<!-- As Trung Trac, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_TRUNG_TRAC_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
@@ -20775,22 +20856,22 @@
 			<Text>ในฐานะ เซิร์กซีส, กษัตริย์แห่งกษัตริย์ ให้ทำเส้นทางมรดก การตรัสรู้ สามครั้ง</Text>		<!-- As Xerxes, King of Kings, complete the Enlightenment Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_XERXES_SCIENCE_VICTORY_MODERN_NAME" Language="th_TH">
-			<Text>การแข่งขันทางอวกาศ</Text>		<!-- Space Race -->
+			<Text>การแข่งขันด้านอวกาศ</Text>		<!-- Space Race -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_XERXES_SCIENCE_VICTORY_MODERN_DESC" Language="th_TH">
-			<Text>ในฐานะ เซิร์กซีส, กษัตริย์แห่งกษัตริย์ ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ</Text>		<!-- As Xerxes, King of Kings, complete the Space Race Legacy Path. -->
+			<Text>ในฐานะ เซิร์กซีส, กษัตริย์แห่งกษัตริย์ ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ</Text>		<!-- As Xerxes, King of Kings, complete the Space Race Legacy Path. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_XERXES_SCIENCE_VICTORY_MODERN_2_NAME" Language="th_TH">
 			<Text>การแข่งขันสู่ห้วงอวกาศครั้งที่ 2</Text>		<!-- Space Race 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_XERXES_SCIENCE_VICTORY_MODERN_2_DESC" Language="th_TH">
-			<Text>ในฐานะ เซิร์กซีส, กษัตริย์แห่งกษัตริย์ ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สองครั้ง</Text>		<!-- As Xerxes, King of Kings, complete the Space Race Legacy Path twice. -->
+			<Text>ในฐานะ เซิร์กซีส, กษัตริย์แห่งกษัตริย์ ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สองครั้ง</Text>		<!-- As Xerxes, King of Kings, complete the Space Race Legacy Path twice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_XERXES_SCIENCE_VICTORY_MODERN_3_NAME" Language="th_TH">
-			<Text>การแข่งขันทางอวกาศ 3</Text>		<!-- Space Race 3 -->
+			<Text>การแข่งขันด้านอวกาศ 3</Text>		<!-- Space Race 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_XERXES_SCIENCE_VICTORY_MODERN_3_DESC" Language="th_TH">
-			<Text>ในฐานะ เซิร์กซีส, กษัตริย์แห่งกษัตริย์ ให้ทำเส้นทางมรดก การแข่งขันทางอวกาศ สามครั้ง</Text>		<!-- As Xerxes, King of Kings, complete the Space Race Legacy Path thrice. -->
+			<Text>ในฐานะ เซิร์กซีส, กษัตริย์แห่งกษัตริย์ ให้ทำเส้นทางมรดก การแข่งขันด้านอวกาศ สามครั้ง</Text>		<!-- As Xerxes, King of Kings, complete the Space Race Legacy Path thrice. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_XERXES_CULTURE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
@@ -22046,6 +22127,30 @@
 		<Replace Tag="LOC_22A_STORYTITLE" Language="th_TH">
 			<Text>สงสัยว่าเกิดอะไรขึ้น</Text>		<!-- Wonder What Went Wrong -->
 		</Replace>
+		<Replace Tag="LOC_INDEPENDENT_GIFT_EXPANSIONIST_4A_STORYTITLE" Language="th_TH">
+			<Text>ของขวัญจากต่างแดน</Text>		<!-- Foreign Gifts -->
+		</Replace>
+		<Replace Tag="LOC_INDEPENDENT_GIFT_EXPANSIONIST_4A_NAME" Language="th_TH">
+			<Text>ยอมรับของขวัญอย่างมีเกียรติ</Text>		<!-- Graciously accept the gifts. -->
+		</Replace>
+		<Replace Tag="LOC_INDEPENDENT_GIFT_EXPANSIONIST_4A_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_INDEPENDENT_GIFT_EXPANSIONIST_4A_COMPLETION" Language="th_TH">
+			<Text>ทูตจาก {1_Independent_CS} ได้มาถึงและประกาศว่า {2_civilization} สมควรได้รับเกียรติและความเคารพทั้งหมด เพื่อเป็นเกียรติแก่ความสัมพันธ์ระหว่างสองประชาชน พวกเขาได้นำเสนอของขวัญอันมีค่า</Text>		<!-- Emissaries from {1_Independent_CS} have arrived and pronounced that {2_civilization} deserves all glory and respect. To honor the friendship between two peoples, they present a generous gift. -->
+		</Replace>
+		<Replace Tag="LOC_INDEPENDENT_GIFT_DIPLOMATIC_4A_STORYTITLE" Language="th_TH">
+			<Text>ของขวัญจากต่างแดน</Text>		<!-- Foreign Gifts -->
+		</Replace>
+		<Replace Tag="LOC_INDEPENDENT_GIFT_DIPLOMATIC_4A_NAME" Language="th_TH">
+			<Text>ยอมรับของขวัญอย่างมีเกียรติ</Text>		<!-- Graciously accept the gifts. -->
+		</Replace>
+		<Replace Tag="LOC_INDEPENDENT_GIFT_DIPLOMATIC_4A_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_INDEPENDENT_GIFT_DIPLOMATIC_4A_COMPLETION" Language="th_TH">
+			<Text>ทูตจาก {1_Independent_CS} ได้มาถึงและประกาศว่า {2_civilization} สมควรได้รับเกียรติและความเคารพทั้งหมด เพื่อเป็นเกียรติแก่ความสัมพันธ์ระหว่างสองประชาชน พวกเขาได้นำเสนอของขวัญอันมีค่า</Text>		<!-- Emissaries from {1_Independent_CS} have arrived and pronounced that {2_civilization} deserves all glory and respect. To honor the friendship between two peoples, they present a generous gift. -->
+		</Replace>
 		<Replace Tag="LOC_22A_COMPLETION" Language="th_TH">
 			<Text>เมื่อ {1_Civilization_Adj} ถูกสร้างสรรค์โดยช่างฝีมือในการประเมินความก้าวหน้าของการสร้าง {2_associated_Wonder} ขนาดใหญ่ มีข่าวว่ามีอีกแห่งหนึ่งได้รับการสร้างขึ้นมา — ซึ่งเป็นสำเนาที่แน่นอนแท้จริง! แต่จะมีประโยชน์อะไรกับการสร้างที่สองของสิ่งที่มีเพียงหนึ่งเดียว?</Text>		<!-- As {1_Civilization_Adj} builders assess the progress they are making on the great {2_associated_Wonder}, word arrives that another has just been built in another land — an exact replica, in fact! But what good is the second of a one-of-a-kind? -->
 		</Replace>
@@ -22862,6 +22967,12 @@
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ESPIONAGE_TOP_SECRET_SUCCESS_INITIATOR" Language="th_TH">
 			<Text>มันสำเร็จ คุณได้รับผลกระทบดังต่อไปนี้: {1_EffectDetails}</Text>		<!-- It was successful. You gain the following effect:  {1_EffectDetails} -->
 		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ESPIONAGE_IDEOLOGICAL_REVOLT_EFFECT" Language="th_TH">
+			<Text>เราได้ก่อให้เกิดการปฏิวัติทางอุดมการณ์ใน {1_CityName} โครงสร้างพื้นฐานของเมืองได้รับความเสียหาย</Text>		<!-- We have caused an Ideological Revolt in {1_CityName}. The city infrastructure has been damaged. -->
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ESPIONAGE_IDEOLOGICAL_REVOLT_EFFECT_TARGET" Language="th_TH">
+			<Text>พวกเขาได้ก่อให้เกิดการปฏิวัติทางอุดมการณ์ใน {1_CityName} โครงสร้างพื้นฐานของเมืองของเราได้รับความเสียหาย</Text>		<!-- They have caused an Ideological Revolt in {1_CityName}. Our city infrastructure has been damaged. -->
+		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ESPIONAGE_TOP_SECRET_FAILED" Language="th_TH">
 			<Text>การกระทำล้มเหลว!</Text>		<!-- The Action failed! -->
 		</Replace>
@@ -23588,6 +23699,24 @@
 		<Replace Tag="LOC_PAUSE_MENU_OPTIONS" Language="th_TH">
 			<Text>ตัวเลือก</Text>		<!-- Options -->
 		</Replace>
+		<Replace Tag="LOC_PAUSE_MENU_AGE_OF" Language="th_TH">
+			<Text>ยุคของ {1_ageName}</Text>		<!-- Age Of {1_ageName} -->
+		</Replace>
+		<Replace Tag="LOC_PAUSE_MENU_MODS_TITLE" Language="th_TH">
+			<Text>ม็อด</Text>		<!-- Mods -->
+		</Replace>
+		<Replace Tag="LOC_PAUSE_MENU_PLAYER_COUNT" Language="th_TH">
+			<Text>ผู้เล่น: {1_playerCount}</Text>		<!-- Players: {1_playerCount} -->
+		</Replace>
+		<Replace Tag="LOC_PAUSE_MENU_CLIPBOARD_TITLE" Language="th_TH">
+			<Text>คัดลอกไปยังคลิปบอร์ด</Text>		<!-- Copied To Clipboard -->
+		</Replace>
+		<Replace Tag="LOC_PAUSE_MENU_CLIPBOARD_TOOLTIP" Language="th_TH">
+			<Text>คลิกซ้ายเพื่อคัดลอก</Text>		<!-- Left Click To Copy -->
+		</Replace>
+		<Replace Tag="LOC_PAUSE_MENU_NO_ADDONS" Language="th_TH">
+			<Text>ไม่มีเนื้อหาเพิ่มเติมที่ติดตั้ง</Text>		<!-- No additional content installed. -->
+		</Replace>
 		<Replace Tag="LOC_PAUSE_MENU_REMAP_KBM" Language="th_TH">
 			<Text>คีย์บอร์ดและการควบคุมเมาส์</Text>		<!-- Keyboard and Mouse Controls -->
 		</Replace>
@@ -23987,6 +24116,18 @@
 		<Replace Tag="LOC_BUILDING_PLACEMENT_YIELD_ICON_ONLY" Language="th_TH">
 			<Text>{1_Amount: number +#,#;-#,#} [icon:{2_Icon}]</Text>		<!-- {1_Amount: number +#,#;-#,#} [icon:{2_Icon}] -->
 		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_SPECIALIST_YIELD" Language="th_TH">
+			<Text>ผู้เชี่ยวชาญ:</Text>		<!-- Specialists: -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_CITY_MODIFIER_YIELD" Language="th_TH">
+			<Text>ตัวปรับแต่งเมือง:</Text>		<!-- City Modifiers: -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_NATURAL_YIELD" Language="th_TH">
+			<Text>ผลผลิตตามธรรมชาติ:</Text>		<!-- Natural Yield: -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_CONSTRUCTIBLE_YIELD" Language="th_TH">
+			<Text>อาคาร:</Text>		<!-- Buildings: -->
+		</Replace>
 		<Replace Tag="LOC_BUILDING_PLACEMENT_BASE_YIELD" Language="th_TH">
 			<Text>ผลผลิตพื้นฐาน:</Text>		<!-- Base Yield: -->
 		</Replace>
@@ -24032,17 +24173,62 @@
 		<Replace Tag="LOC_BUILDING_PLACEMENT_FROM_SOUTHWEST" Language="th_TH">
 			<Text>รับโบนัสจากตะวันตกเฉียงใต้:</Text>		<!-- From Southwest Adjacency: -->
 		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_WILL_REPLACE" Language="th_TH">
+			<Text>{1_NewBuilding} จะ [STYLE:text-info uppercase]แทนที่[/STYLE] {2_OldBuilding}</Text>		<!-- {1_NewBuilding} will [STYLE:text-info uppercase]REPLACE[/STYLE] {2_OldBuilding} -->
+		</Replace>
 		<Replace Tag="LOC_BUILDING_PLACEMENT_FROM_SOUTHEAST" Language="th_TH">
 			<Text>รับโบนัสจากตะวันออกเฉียงใต้:</Text>		<!-- From Southeast Adjacency: -->
 		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_PRESS_SPACE_HIDE_DETAILS_TOUCH" Language="th_TH">
+			<Text>แตะเพื่อซ่อนรายละเอียดผลผลิต</Text>		<!-- Touch To Hide Yield Details -->
+		</Replace>
 		<Replace Tag="LOC_BUILDING_PLACEMENT_WILL_OVERBUILD" Language="th_TH">
 			<Text>[STYLE:uppercase]{1_NewBuilding}[/STYLE] จะ [STYLE:font-bold]สร้างทับ[/STYLE] [STYLE:uppercase]{2_OldBuilding}[/STYLE]</Text>		<!-- [STYLE:uppercase]{1_NewBuilding}[/STYLE] will [STYLE:font-bold]OVERBUILD[/STYLE] [STYLE:uppercase]{2_OldBuilding}[/STYLE] -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_PRESS_SPACE_SHOW_DETAILS_TOUCH" Language="th_TH">
+			<Text>แตะเพื่อแสดงรายละเอียดผลผลิต</Text>		<!-- Touch To Show Yield Details -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_PLACEMENT_PRESS_SPACE_HIDE_DETAILS" Language="th_TH">
 			<Text>ซ่อนรายละเอียดผลผลิต</Text>		<!-- Hide Yield Details -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_PLACEMENT_PRESS_SPACE_SHOW_DETAILS" Language="th_TH">
 			<Text>แสดงรายละเอียดผลผลิต</Text>		<!-- Show Yield Details -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_RESULTS" Language="th_TH">
+			<Text>ผลลัพธ์</Text>		<!-- Results -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_BREAKDOWN" Language="th_TH">
+			<Text>รายละเอียด</Text>		<!-- Breakdown -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_PLACEING_CONSTRUCTIBLE" Language="th_TH">
+			<Text>วาง {1_ConstructibleName}</Text>		<!-- Place {1_ConstructibleName} -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_UNIMPROVED_TO_IMPROVED" Language="th_TH">
+			<Text>ช่องที่ยังไม่ได้พัฒนาเหล่านี้ จะกลายเป็นเขตพัฒนา</Text>		<!-- This Unimproved Tile will become an Improvement -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_UNIMPROVED_TO_DISTRICT" Language="th_TH">
+			<Text>ช่องที่ยังไม่ได้พัฒนาเหล่านี้ จะกลายเป็นเขต</Text>		<!-- This Unimproved Tile will become a District -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_IMPROVEMENT_TO_DISTRICT" Language="th_TH">
+			<Text>เขตพัฒนานี้จะกลายเป็นเขต</Text>		<!-- This Improvement will become a District -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_DISTRICT_TO_QUARTER" Language="th_TH">
+			<Text>เขตนี้จะกลายเป็นย่าน</Text>		<!-- This District will become a Quarter -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_DISTRICT_TO_UNIQUE_QUARTER" Language="th_TH">
+			<Text>เขตนี้จะกลายเป็นย่านพิเศษ</Text>		<!-- This District will become a Unique Quarter -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_IMPROVEMENT" Language="th_TH">
+			<Text>เขตพัฒนา</Text>		<!-- Improvement -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_DISTRICT" Language="th_TH">
+			<Text>เขต</Text>		<!-- District -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_QUARTER" Language="th_TH">
+			<Text>ย่าน</Text>		<!-- Quarter -->
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLACEMENT_UNIQUE_QUARTER" Language="th_TH">
+			<Text>ย่านพิเศษ</Text>		<!-- Unique Quarter -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_PLACEMENT_WAREHOUSE_IMPROVEMENTS" Language="th_TH">
 			<Text>การปรับปรุงคลังสินค้า:</Text>		<!-- Warehouse Improvements: -->
@@ -24460,6 +24646,18 @@
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_SALT_NAME" Language="th_TH">
 			<Text>เกลือ</Text>		<!-- Salt -->
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_CRABS_NAME" Language="th_TH">
+			<Text>ปู</Text>		<!-- Crabs -->
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_COWRIE_NAME" Language="th_TH">
+			<Text>หอยเบี้ย</Text>		<!-- Cowrie -->
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_TURTLES_NAME" Language="th_TH">
+			<Text>เต่า</Text>		<!-- Turtles -->
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_PITCH_NAME" Language="th_TH">
+			<Text>ยางไม้</Text>		<!-- Pitch -->
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_WOOL_NAME" Language="th_TH">
 			<Text>ขนแกะ</Text>		<!-- Wool -->
@@ -26399,6 +26597,21 @@
 		</Replace>
 		<Replace Tag="LOC_UI_ADJACENCY_INFO_RIVERS" Language="th_TH">
 			<Text>+{1_Amount} {2_YieldName} สำหรับแต่ละแม่น้ำที่อยู่ติดกัน</Text>		<!-- +{1_Amount} {2_YieldName} for each adjacent River -->
+		</Replace>
+		<Replace Tag="LOC_UI_ADJACENCY_INFO_TERRAIN_SHORT" Language="th_TH">
+			<Text>ภูมิประเทศ {1_TerrainName}</Text>		<!-- {1_TerrainName} Terrain -->
+		</Replace>
+		<Replace Tag="LOC_UI_ADJACENCY_INFO_BIOME_SHORT" Language="th_TH">
+			<Text>ช่อง {1_BiomeName}</Text>		<!-- {1_BiomeName} Tile -->
+		</Replace>
+		<Replace Tag="LOC_UI_ADJACENCY_INFO_FEATURE_SHORT" Language="th_TH">
+			<Text>ลักษณะ {1_FeatureName}</Text>		<!-- {1_FeatureName} Feature -->
+		</Replace>
+		<Replace Tag="LOC_UI_ADJACENCY_INFO_DISTRICT_SHORT" Language="th_TH">
+			<Text>เขต {1_DistrictName}</Text>		<!-- {1_DistrictName} District -->
+		</Replace>
+		<Replace Tag="LOC_UI_ADJACENCY_INFO_CONSTRUCTIBLE_SHORT" Language="th_TH">
+			<Text>สิ่งก่อสร้าง {1_TagName}</Text>		<!-- {1_TagName} Constructible -->
 		</Replace>
 		<Replace Tag="LOC_UI_QUEUE_QUEUED" Language="th_TH">
 			<Text>เข้าคิว</Text>		<!-- Queued -->
@@ -30333,6 +30546,15 @@
 		<Replace Tag="LOC_UNITCOMMAND_ACTIVATE_GREAT_PERSON_REQUIRES_ON_MISSING_BUILDING_TAG" Language="th_TH">
 			<Text>ต้องอยู่บน ช่องที่มี สิ่งก่อสร้างที่สร้างขึ้นได้</Text>		<!-- Must be on a tile with a valid Constructible. -->
 		</Replace>
+		<Replace Tag="LOC_UNIT_INVALID" Language="th_TH">
+			<Text>ยูนิตไม่ถูกต้อง</Text>		<!-- Invalid Unit -->
+		</Replace>
+		<Replace Tag="LOC_UNIT_TYPE_UNKNOWN" Language="th_TH">
+			<Text>ประเภทยูนิตที่ไม่รู้จัก</Text>		<!-- Unknown Unit Type -->
+		</Replace>
+		<Replace Tag="LOC_UNIT_OWNER_UNKNOWN" Language="th_TH">
+			<Text>เจ้าของที่ไม่รู้จัก</Text>		<!-- Unknown Owner -->
+		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ACTION_USAGE_NAVIGABLE_RIVER" Language="th_TH">
 			<Text>เปิดใช้งานบนแม่น้ำใหญ่</Text>		<!-- Activate on a Navigable River. -->
 		</Replace>
@@ -33225,6 +33447,84 @@
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ATTRIBUTE_EXPANSIONIST_DESCRIPTION" Language="th_TH">
 			<Text>ได้รับ 1 แต้ม คุณลักษณะขยายอาณาเขต</Text>		<!-- Gain 1 Expansionist Attribute Point. -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_NAME" Language="th_TH">
+			<Text>สิ่งมหัศจรรย์ของโลกยุคโบราณ</Text>		<!-- Wonders of the Ancient World -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_DESCRIPTION" Language="th_TH">
+			<Text>สร้างสิ่งมหัศจรรย์ของโลก 7 แห่ง</Text>		<!-- Build 7 World Wonders. -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_MILITARY_NAME" Language="th_TH">
+			<Text>สันติภาพแห่งจักรวรรดิ</Text>		<!-- Pax Imperatoria -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_MILITARY_DESCRIPTION" Language="th_TH">
+			<Text>มีเมืองใหญ่หรือเมือง 12 แห่งในจักรวรรดิของคุณ การพิชิตถิ่นฐานจะนับเป็น 2</Text>		<!-- Have 12 Towns or Cities in your empire. Conquered Settlements count as 2. -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME" Language="th_TH">
+			<Text>หอสมุดอันยิ่งใหญ่</Text>		<!-- Great Library -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_DESCRIPTION" Language="th_TH">
+			<Text>จัดแสดงคัมภีร์ 10 เล่มในจักรวรรดิของคุณ</Text>		<!-- Display 10 Codices in your empire. -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_NAME" Language="th_TH">
+			<Text>เส้นทางสายไหม</Text>		<!-- Silk Roads -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_ANTIQUITY_ECONOMIC_DESCRIPTION" Language="th_TH">
+			<Text>จัดสรรทรัพยากร 20 รายการให้กับถิ่นฐานของคุณ</Text>		<!-- Assign 20 Resources to your Settlements. -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME" Language="th_TH">
+			<Text>โทชาคานา</Text>		<!-- Toshakhana -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_EXPLORATION_CULTURE_DESCRIPTION" Language="th_TH">
+			<Text>จัดแสดงศาสนวัตถุ 12 ชิ้นในจักรวรรดิของคุณ</Text>		<!-- Display 12 Relics in your empire. -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME" Language="th_TH">
+			<Text>กองเรือบรรทุกสมบัติ</Text>		<!-- Treasure Fleet -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_DESCRIPTION" Language="th_TH">
+			<Text>รับคะแนนกองเรือสมบัติ 30 คะแนนจากการนำสมบัติจากดินแดนห่างไกลกลับมา</Text>		<!-- Gain 30 Treasure Fleet Points from returning Distant Land Treasures. -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME" Language="th_TH">
+			<Text>โลกนี้คับแคบเกินไปแล้ว</Text>		<!-- Non Sufficit Orbis -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_EXPLORATION_MILITARY_DESCRIPTION" Language="th_TH">
+			<Text>รับ 12 คะแนนจากถิ่นฐานในดินแดนห่างไกล 1 คะแนนสำหรับแต่ละถิ่นฐาน (เพิ่มเป็นสองเท่าหากเป็นถิ่นฐานที่ถูกพิชิตหรือปฏิบัติตามศาสนาของคุณ — เพิ่มเป็นสี่เท่าหากทั้งสองอย่าง)</Text>		<!-- Gain 12 Points from Settlements in the Distant Lands. 1 Point for each Settlement (doubled if it is a conquered Settlement or follows your religion — quadrupled if both apply). -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME" Language="th_TH">
+			<Text>การตรัสรู้</Text>		<!-- Enlightenment -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_EXPLORATION_SCIENCE_DESCRIPTION" Language="th_TH">
+			<Text>มีเขต 5 เขตที่ไม่ใช่ศูนย์กลางเมืองที่มีผลผลิตรวม 40 ต่อเขต</Text>		<!-- Have 5 Districts that are not the City Center with 40 total Yield each. -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_MODERN_ECONOMIC_NAME" Language="th_TH">
+			<Text>เจ้าพ่อรถไฟ</Text>		<!-- Railroad Tycoon -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_MODERN_ECONOMIC_DESCRIPTION" Language="th_TH">
+			<Text>รับคะแนนเจ้าพ่อรถไฟ 500 คะแนนจากการผลิตสินค้าในโรงงานของคุณ คะแนนเหล่านี้จะได้รับในแต่ละเทิร์นสำหรับทรัพยากรโรงงานแต่ละรายการที่ถูกใส่ในถิ่นฐานที่มีโรงงานและเชื่อมต่อกับเครือข่ายรถไฟหรือท่าเรือของคุณ</Text>		<!-- Gain 500 Railroad Tycoon Points from manufacturing goods in your Factories. These Points are earned each turn for each Factory Resource that is slotted into a Settlement with a Factory and connected to your Rail or Port network. -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_MODERN_MILITARY_NAME" Language="th_TH">
+			<Text>อุดมการณ์</Text>		<!-- Ideology -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_MILITARY_WITHOUT_IDEOLOGY_NAME" Language="th_TH">
+			<Text>การครอบงำ</Text>		<!-- Domination -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_MODERN_MILITARY_DESCRIPTION" Language="th_TH">
+			<Text>รับคะแนนอุดมการณ์ 20 คะแนนจากการพิชิตถิ่นฐานเป็นครั้งแรก รับ 1 คะแนนก่อนที่คุณจะมีอุดมการณ์ 2 คะแนนเมื่อมีอุดมการณ์ หรือ 3 คะแนนต่อคู่ต่อสู้ที่มีอุดมการณ์ต่างกัน</Text>		<!-- Gain 20 Ideology Points from conquering Settlements for the first time. Gain 1 Point before you have an Ideology, 2 Points with an Ideology, or 3 Points against an opponent with a different Ideology. -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_MODERN_MILITARY_WITHOUT_IDEOLOGY_DESCRIPTION" Language="th_TH">
+			<Text>รับคะแนน VP 30 คะแนนจากการพิชิตถิ่นฐาน</Text>		<!-- Gain 30 VP from conquering Settlements. -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_MODERN_SCIENCE_NAME" Language="th_TH">
+			<Text>การแข่งขันด้านอวกาศ</Text>		<!-- Space Race -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_MODERN_SCIENCE_DESCRIPTION" Language="th_TH">
+			<Text>ทำโครงการการแข่งขันด้านอวกาศทั้ง 3 โครงการให้เสร็จสิ้น</Text>		<!-- Complete all 3 Space Race Projects. -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_MODERN_CULTURE_NAME" Language="th_TH">
+			<Text>สมาคมภูมิศาสตร์</Text>		<!-- Geographic Society -->
+		</Replace>
+		<Replace Tag="LOC_LEGACY_PATH_MODERN_CULTURE_DESCRIPTION" Language="th_TH">
+			<Text>เก็บรักษาโบราณวัตถุ 15 ชิ้นในจักรวรรดิของคุณ</Text>		<!-- House 15 Artifacts in your empire. -->
 		</Replace>
 		<Replace Tag="LOC_LEGACY_PATH_ATTRIBUTE_CULTURE_NAME" Language="th_TH">
 			<Text>แต้มคุณลักษณะทางวัฒนธรรม</Text>		<!-- Cultural Attribute Point -->

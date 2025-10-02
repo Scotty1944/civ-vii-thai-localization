@@ -1189,6 +1189,12 @@
 		<Replace Tag="LOC_LOAD_GAME_ERROR_LINKED_ACCOUNT" Language="th_TH">
 			<Text>การบันทึกเหตุการณ์สดนี้ต้องการบัญชี 2K ที่เชื่อมโยง</Text>		<!-- This Live Event save requires linked 2K account -->
 		</Replace>
+		<Replace Tag="LOC_GAME_ABANDONED_MOD_MISSING_ITEM_WITH_TITLE" Language="th_TH">
+			<Text>{1_ModTitle} ({2_ModID} v{3_ModVersion})</Text>		<!-- {1_ModTitle} ({2_ModID} v{3_ModVersion}) -->
+		</Replace>
+		<Replace Tag="LOC_GAME_ABANDONED_MOD_MISSING_ITEM" Language="th_TH">
+			<Text>{1_ModID} v{2_ModVersion}</Text>		<!-- {1_ModID} v{2_ModVersion} -->
+		</Replace>
 		<Replace Tag="LOC_LOAD_GAME_ERROR_BAD_MAPSIZE_TITLE" Language="th_TH">
 			<Text>ขนาดแผนที่ไม่รองรับ</Text>		<!-- Map Size Unsupported -->
 		</Replace>
@@ -1696,6 +1702,9 @@
 		<Replace Tag="LOC_MULTIPLAYER_DEFAULT_TEAM_NAME" Language="th_TH">
 			<Text>ทีม {1_TeamNumber}</Text>		<!-- Team {1_TeamNumber} -->
 		</Replace>
+		<Replace Tag="LOC_GAME_ABANDONED_CONNECTION_LOST_AA" Language="th_TH">
+			<Text>การเชื่อมต่อกับล็อบบี้ขาดหาย</Text>		<!-- Connection to lobby has been lost -->
+		</Replace>
 		<Replace Tag="LOC_UI_MOD_DATE" Language="th_TH">
 			<Text>สร้าง: {1_Date: datetime}</Text>		<!-- Created: {1_Date: datetime} -->
 		</Replace>
@@ -1893,6 +1902,12 @@
 		</Replace>
 		<Replace Tag="LOC_TOGGLE_DIPLO" Language="th_TH">
 			<Text>ริบบิ้นผู้นำ</Text>		<!-- Leader Ribbons -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_ACCESSIBILITY_LONG_PRESS" Language="th_TH">
+			<Text>การหน่วงเวลาคลิก/สัมผัส</Text>		<!-- Click/Touch Movement Delay -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_ACCESSIBILITY_LONG_PRESS_DESCRIPTION" Language="th_TH">
+			<Text>เปลี่ยนระยะเวลาที่สามารถกดเมาส์ หรือสัมผัสหน้าจอค้างไว้ก่อนที่จะเริ่มนับการเคลื่อนไหว หากการ คลิก/สัมผัส ไม่ตอบสนองอย่างถูกต้องในเกม ค่าที่สูงขึ้นอาจช่วยได้</Text>		<!-- Changes how long a mouse click or screen touch can be held down before movement is taken into account. If clicks/touches aren't reliably handled by the game, higher values can help. -->
 		</Replace>
 		<Replace Tag="LOC_TOGGLE_DIPLO_HELP" Language="th_TH">
 			<Text>ยุบหรือขยายริบบิ้นผู้นำ</Text>		<!-- Collapse or Expand Leader Ribbons -->
@@ -2163,6 +2178,24 @@
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_PRODUCTIONPANEL_STAYSOPEN_DESCRIPTION" Language="th_TH">
 			<Text>หลังจากเลือกอาคารที่จะสร้าง คุณจะกลับไปยังแผงการผลิต</Text>		<!-- After placing a building to construct, you will be returned to the production panel. -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PRODUCTIONPANEL_BUILDINGINFO" Language="th_TH">
+			<Text>ข้อมูลอาคารในเมนูการผลิต</Text>		<!-- Production Menu Building Info -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PRODUCTIONPANEL_BUILDINGINFO_DESCRIPTION" Language="th_TH">
+			<Text>สลับข้อมูลที่แสดงในเมนูการผลิตของการตั้งถิ่นฐาน</Text>		<!-- Toggles the information displayed in a Settlement's building Production menu. -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PRODUCTIONPANEL_BUILDINGINFO_BASEYIELD" Language="th_TH">
+			<Text>ผลผลิตพื้นฐาน</Text>		<!-- Base Yield -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PRODUCTIONPANEL_BUILDINGINFO_BASEYIELD_TOOLTIP" Language="th_TH">
+			<Text>แสดงประเภทผลผลิตพื้นฐานและแท็กของอาคาร</Text>		<!-- Displays a building's base yield type(s) and building tags. -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PRODUCTIONPANEL_BUILDINGINFO_YIELDPREVIEW" Language="th_TH">
+			<Text>ตัวอย่างผลผลิต</Text>		<!-- Yield Preview -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PRODUCTIONPANEL_BUILDINGINFO_YIELDPREVIEW_TOOLTIP" Language="th_TH">
+			<Text>แสดงผลผลิตรวมสูงสุดที่อาจได้รับเมื่อวางอาคาร</Text>		<!-- Displays the potential maximum total yields received when placing a building. -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_CAPITAL_CITY" Language="th_TH">
 			<Text>เมืองหลวง</Text>		<!-- Capital City -->
@@ -3127,6 +3160,12 @@
 		</Replace>
 		<Replace Tag="LOC_UI_MP_FRIENDS_FEEDBACK_ACCEPT_FRIEND" Language="th_TH">
 			<Text>คุณเป็นเพื่อนกับ {1_PlayerName} แล้ว</Text>		<!-- You are now friends with {1_PlayerName} -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_MODDING_DISABLE_USER" Language="th_TH">
+			<Text>ปิดใช้งานเนื้อหาผู้ใช้</Text>		<!-- Disable User Content -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_MODDING_ENABLE_ALL" Language="th_TH">
+			<Text>เปิดใช้งานเนื้อหาทั้งหมด</Text>		<!-- Enable All Content -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_PROFILE_BATTERY" Language="th_TH">
 			<Text>แบตเตอรี่</Text>		<!-- Battery -->
@@ -4358,6 +4397,9 @@
 		<Replace Tag="LOC_OPTIONS_DISABLED_IN_GAME" Language="th_TH">
 			<Text>ไม่สามารถแก้ไขตัวเลือกนี้ขณะอยู่ในเกม</Text>		<!-- This option cannot be modified while in game. -->
 		</Replace>
+		<Replace Tag="LOC_UI_MP_BROWSER_CREATE_GAME_SETTINGS" Language="th_TH">
+			<Text>เลือกการตั้งค่าเกม</Text>		<!-- Choose Game Settings -->
+		</Replace>
 		<Replace Tag="LOC_OPTIONS_DISPLAY_LANGUAGE" Language="th_TH">
 			<Text>ภาษาที่แสดง</Text>		<!-- Display Language -->
 		</Replace>
@@ -4432,6 +4474,12 @@
 		</Replace>
 		<Replace Tag="LOC_GROUPID_DISASTEROPTIONS" Language="th_TH">
 			<Text>การตั้งค่าภัยพิบัติและวิกฤต</Text>		<!-- Disaster and Crisis Settings -->
+		</Replace>
+		<Replace Tag="LOC_GROUPID_PLAYERDIFFICULTY" Language="th_TH">
+			<Text>การตั้งค่าความยากของผู้เล่น</Text>		<!-- Player Difficulty Settings -->
+		</Replace>
+		<Replace Tag="LOC_GROUPID_LOBBYOPTIONS" Language="th_TH">
+			<Text>การตั้งค่ามัลติเพลเยอร์</Text>		<!-- Multiplayer Settings -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_MINIMAP_SIZE_MEDIUM" Language="th_TH">
 			<Text>กลาง</Text>		<!-- medium -->
