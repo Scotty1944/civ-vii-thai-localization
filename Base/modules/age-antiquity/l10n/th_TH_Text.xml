@@ -509,7 +509,7 @@
 			<Text>อาร์กอส</Text>		<!-- Argos -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_GREECE6" Language="th_TH">
-			<Text>โคโนซอส</Text>		<!-- Knōsós -->
+			<Text>โคโนซอส</Text>		<!-- Knōssós -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_GREECE7" Language="th_TH">
 			<Text>ไมซีนี</Text>		<!-- Mykenē -->
@@ -2477,16 +2477,16 @@
 			<Text>+4[icon:YIELD_SCIENCE] วิทยาศาสตร์, มีช่อง คัมภีร์ 3 ช่อง, อาคารด้านวิทยาศาสตร์ ยุคโบราณ</Text>		<!-- +4[icon:YIELD_SCIENCE] Science. Has 3 Codex slots. Antiquity Science Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ACADEMY_TOOLTIP" Language="th_TH">
-			<Text>มีช่อง คัมภีร์ 3 ช่อง อาคารด้านวิทยาศาสตร์ ยุคโบราณ</Text>		<!-- Has 3 Codex slots. Antiquity Science Building. -->
+			<Text>[B]เอฟเฟค:[/B] มีช่อง คัมภีร์ 3 ช่อง</Text>		<!-- [B]Effect:[/B] Has 3 Codex slots. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ALTAR_NAME" Language="th_TH">
 			<Text>แท่นบูชา</Text>		<!-- Altar -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ALTAR_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_HAPPINESS] ความสุข, รับประโยชน์เพิ่มเติมจาก เทพเจ้า, อาคารความสุข ในยุคโบราณ, สามารถซื้อได้ในเมือง</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness. Receives additional benefits from Pantheons. Antiquity Happiness Building. Can be purchased in Towns. -->
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข, รับประโยชน์และ[icon:YIELD_WAREHOUSE]โบนัสคลังสินค้า ตามเทพเจ้าที่คุณเลือก, อาคารความสุข ในยุคโบราณ, สามารถซื้อได้ในเมือง</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness. Provides benefits and [icon:YIELD_WAREHOUSE]Warehouse bonuses based on your chosen Pantheon. Antiquity Happiness Building. Can be purchased in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ALTAR_TOOLTIP" Language="th_TH">
-			<Text>รับผลประโยชน์เพิ่มเติมจาก วิหาร, อาคารด้านความสุข ยุคโบราณ, สามารถซื้อได้ในเมือง</Text>		<!-- Receives additional benefits from Pantheons. Antiquity Happiness Building. Can be purchased in Towns. -->
+			<Text>[B]เอฟเฟค:[/B] มอบประโยชน์และ [icon:YIELD_WAREHOUSE]โบนัสคลังสินค้า ตามเทพเจ้าที่คุณเลือก[n]สามารถซื้อได้ในเมือง</Text>		<!-- [B]Effect:[/B] Provides benefits and [icon:YIELD_WAREHOUSE]Warehouse bonuses based on your chosen Pantheon.[n]Can be purchased in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_AMPHITHEATER_NAME" Language="th_TH">
 			<Text>โรงละครกลางแจ้ง</Text>		<!-- Amphitheater -->
@@ -2495,7 +2495,7 @@
 			<Text>+4[icon:YIELD_CULTURE] วัฒนธรรม, อาคารด้านวัฒนธรรม ยุคโบราณ, +10% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อสิ่งมหัศจรรย์</Text>		<!-- +4[icon:YIELD_CULTURE] Culture. Antiquity Culture Building. +10% [icon:YIELD_PRODUCTION] Production towards Wonders. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_AMPHITHEATER_TOOLTIP" Language="th_TH">
-			<Text>อาคารด้านวัฒนธรรม ยุคโบราณ, +10% [icon:YIELD_PRODUCTION] กำลังผลิต สำหรับสิ่งมหัศจรรย์</Text>		<!-- Antiquity Culture Building. +10% [icon:YIELD_PRODUCTION] Production towards Wonders. -->
+			<Text>[B]เอฟเฟค:[/B] +10% [icon:YIELD_PRODUCTION] ไปยัง สิ่งมหัศจรรย์</Text>		<!-- [B]Effect:[/B] +10% [icon:YIELD_PRODUCTION]towards Wonders. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ANCIENT_BRIDGE_NAME" Language="th_TH">
 			<Text>สะพานโบราณ</Text>		<!-- Ancient Bridge -->
@@ -2504,16 +2504,16 @@
 			<Text>+4[icon:YIELD_GOLD] ทอง, ช่วยให้ยูนิตภาคพื้นสามารถเคลื่อนที่ข้ามแม่น้ำใหญ่โดยไม่จำเป็นต้องขึ้นเรือ, สร้างได้ถูกกว่าที่จุดที่มีถนนสร้างเป็นสะพานข้ามแม่น้ำแล้ว, จะต้องวางบนแม่น้ำใหญ่, ถูกปล้นโดยน้ำท่วมทุกครั้ง, สามารถซื้อได้ในเมือง</Text>		<!-- +4[icon:YIELD_GOLD] Gold. Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Must be placed on a Navigable River. Pillaged by any Flood. Can be purchased in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ANCIENT_BRIDGE_TOOLTIP" Language="th_TH">
-			<Text>อนุญาตให้ยูนิตภาคพื้นเคลื่อนที่ข้าม แม่น้ำใหญ่โดยไม่ต้องขึ้นเรือ ค่าใช้จ่ายในการสร้างจะถูกกว่า เมื่อมีถนนที่สร้างขึ้นเป็นจุดข้ามเรือข้ามแม่น้ำแล้ว, ต้องวางบนแม่น้ำใหญ่, ถูกปล้นโดยน้ำท่วมทุกครั้ง, สามารถซื้อได้ในเมือง</Text>		<!-- Allows Land Units to move over a Navigable River without having to Embark. Cheaper to build where a Road has already formed a Ferry across the River. Must be placed on a Navigable River. Pillaged by any Flood. Can be purchased in Towns. -->
+			<Text>[B]เอฟเฟค:[/B] อนุญาตให้ยูนิตภาคพื้นเคลื่อนที่ข้าม แม่น้ำใหญ่โดยไม่ต้องขึ้นเรือ ค่าใช้จ่ายในการสร้างจะถูกกว่า เมื่อมีถนนที่สร้างขึ้นเป็นจุดข้ามเรือข้ามแม่น้ำแล้ว, ถูกปล้นโดยน้ำท่วมใดๆ[N]ต้องวางบนแม่น้ำใหญ่, ต้องวางบนแม่น้ำใหญ่, ถูกปล้นโดยน้ำท่วมทุกครั้ง, สามารถซื้อได้ในเมือง</Text>		<!-- [B]Effect:[/B] Allows Land Units to move over a Navigable River without having to Embark. Pillaged by any Flood.[N]Must be placed on a Navigable River. Cheaper to build where a Road has already formed a Ferry across the River. Can be purchased in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ANCIENT_WALLS_NAME" Language="th_TH">
 			<Text>กำแพงโบราณ</Text>		<!-- Ancient Walls -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ANCIENT_WALLS_DESCRIPTION" Language="th_TH">
-			<Text>เพิ่ม 100 HP ให้กับเขตและ +15 พลังต่อสู้ ให้กับ ยูนิตที่ป้องกันในช่อง, ทุกเขต ที่มีการเสริมกำลัง จะต้องถูกพิชิตเพื่อยึดครอง ถิ่นฐาน, ป้อมปราการ ยุคโบราณ, ต้องสร้างติดกับ เขตที่มีการป้องกัน อีกแห่งหนึ่ง, สามารถซื้อได้ในเมือง</Text>		<!-- Adds 100 HP to the District and +15 Combat Strength to Units defending in the tile. All Fortified Districts must be conquered to capture a Settlement. Antiquity Fortification. Must be built adjacent to another Fortified District. Can be purchased in Towns only on the Town Center. -->
+			<Text>เพิ่ม 100 HP ให้กับเขตและ +15 พลังต่อสู้ ให้กับ ยูนิตที่ป้องกันในช่อง, ทุกเขต ที่มีการเสริมกำลัง จะต้องถูกพิชิตเพื่อยึดครอง ถิ่นฐาน, ป้อมปราการ ยุคโบราณ, ต้องสร้างติดกับ เขตหรือใจกลางเมืองที่มีการป้องกัน อีกแห่งหนึ่ง, สามารถซื้อได้เฉพาะใจกลางเมือง, สามารถซื้อได้ในเมือง</Text>		<!-- Adds 100 HP to the District. All Fortified Districts must be conquered to capture a Settlement. Antiquity Fortification. Must be built adjacent to another District with Walls or on the City Center. Can only be purchased on the City Center. Can be purchased in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ANCIENT_WALLS_TOOLTIP" Language="th_TH">
-			<Text>เพิ่ม 100 HP ให้กับเขตและ +15 พลังต่อสู้ให้กับ ยูนิตที่ป้องกันในช่อง, ทุกเขต ที่มีการเสริมกำลัง จะต้องถูกพิชิตเพื่อยึดครอง ถิ่นฐาน, ป้อมปราการ ยุคโบราณ, ต้องสร้างติดกับ เขตที่มีการป้องกัน อีกแห่งหนึ่ง, สามารถซื้อได้ในเมือง</Text>		<!-- Adds 100 HP to the District and +15 Combat Strength to Units defending in the tile. All Fortified Districts must be conquered to capture a Settlement. Antiquity Fortification. Must be built adjacent to another Fortified District. Can be purchased in Towns only on the Town Center. -->
+			<Text>[B]เอฟเฟค:[/B] เพิ่ม 100 HP ให้กับเขตและ +15 พลังต่อสู้ ให้กับ ยูนิตที่ป้องกันในช่อง, ทุกเขต ที่มีการเสริมกำลัง จะต้องถูกพิชิตเพื่อยึดครอง ถิ่นฐาน, ป้อมปราการ ยุคโบราณ, ต้องสร้างติดกับ เขตหรือใจกลางเมืองที่มีการป้องกัน อีกแห่งหนึ่ง, สามารถซื้อได้เฉพาะใจกลางเมือง, สามารถซื้อได้ในเมือง</Text>		<!-- [B]Effect:[/B] Adds 100 HP to the District. All Fortified Districts must be conquered to capture a Settlement.[n]Must be built adjacent to another District with Walls or on the City Center. Can only be purchased on the City Center. Can be purchased in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ARENA_NAME" Language="th_TH">
 			<Text>สังเวียน</Text>		<!-- Arena -->
@@ -2522,16 +2522,16 @@
 			<Text>+4[icon:YIELD_HAPPINESS] ความสุข, อาคารด้านความสุข ยุคโบราณ, +1 [icon:YIELD_HAPPINESS] ความสุข บนพื้นที่</Text>		<!-- +4[icon:YIELD_HAPPINESS] Happiness. Antiquity Happiness Building. +1 [icon:YIELD_HAPPINESS] Happiness on Quarters. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ARENA_TOOLTIP" Language="th_TH">
-			<Text>อาคารด้านความสุข ยุคโบราณ, +1[icon:YIELD_HAPPINESS] ความสุข บน ย่าน</Text>		<!-- Antiquity Happiness Building. +1 [icon:YIELD_HAPPINESS] Happiness on Quarters. -->
+			<Text>[B]เอฟเฟค:[/B] +1[icon:YIELD_HAPPINESS]บน ย่าน</Text>		<!-- [B]Effect:[/B] +1 [icon:YIELD_HAPPINESS]on Quarters. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BARRACKS_NAME" Language="th_TH">
 			<Text>ค่ายทหาร</Text>		<!-- Barracks -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BARRACKS_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_PRODUCTION] กำลังผลิต, อาคารด้านทหาร ยุคโบราณ, ยูนิตภาคพื้นที่ฝึกในถิ่นฐานนี้จะปรากฏที่ตำแหน่งของอาคารนี้, +10% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อยูนิตภาคพื้น</Text>		<!-- +2[icon:YIELD_PRODUCTION] Production. Antiquity Military Building. Land Units trained in this Settlement will spawn at this Building's location. +10% [icon:YIELD_PRODUCTION] Production towards Land Units. -->
+			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต, อาคารด้านทหาร ยุคโบราณ, ยูนิตภาคพื้นที่ฝึกในถิ่นฐานนี้จะปรากฏที่ตำแหน่งของอาคารนี้, +10% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อยูนิตภาคพื้น</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production. Antiquity Military Building. Land Units trained in this Settlement will spawn at this Building's location. +10% [icon:YIELD_PRODUCTION] Production towards Land Units. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BARRACKS_TOOLTIP" Language="th_TH">
-			<Text>อาคารด้านทหาร ยุคโบราณ, ยูนิตภาคพื้นที่ฝึกในถิ่นฐานนี้จะปรากฏที่ตำแหน่งของอาคารนี้, +10% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อยูนิตภาคพื้น</Text>		<!-- Antiquity Military Building. Land Units trained in this Settlement will spawn at this Building's location. +10% [icon:YIELD_PRODUCTION] Production towards Land Units. -->
+			<Text>[B]เอฟเฟค:[/B] ยูนิตภาคพื้นที่ฝึกในถิ่นฐานนี้จะปรากฏที่ตำแหน่งของอาคารนี้, +10% [icon:YIELD_PRODUCTION]ไปยังยูนิตภาคพื้น</Text>		<!-- [B]Effect:[/B] Land Units trained in this Settlement will spawn at this Building's location. +10% [icon:YIELD_PRODUCTION]towards Land Units. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BATH_NAME" Language="th_TH">
 			<Text>โรงอาบน้ำ</Text>		<!-- Bath -->
@@ -2540,16 +2540,16 @@
 			<Text>+4[icon:YIELD_FOOD] อาหาร อาคารด้านอาหาร ยุคโบราณ, +10% อัตราการเติบโต, ต้องวางบนแม่น้ำ</Text>		<!-- +4[icon:YIELD_FOOD] Food. Antiquity Food Building. +10% Growth Rate. Must be placed on a River. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BATH_TOOLTIP" Language="th_TH">
-			<Text>อาคารด้านอาหาร ยุคโบราณ +10% อัตราการเติบโต ต้องวางอยู่บนแม่น้ำ</Text>		<!-- Antiquity Food Building. +10% Growth Rate. Must be placed on a River. -->
+			<Text>[B]เอฟเฟค:[/B] +10% อัตราการเติบโต[n]ต้องวางอยู่บนแม่น้ำ</Text>		<!-- [B]Effect:[/B] +10% Growth Rate.[n]Must be placed on a River. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BLACKSMITH_NAME" Language="th_TH">
 			<Text>โรงตีเหล็ก</Text>		<!-- Blacksmith -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BLACKSMITH_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต, อาคารด้านกำลังผลิตในยุคโบราณ, +1 [icon:YIELD_PRODUCTION] กำลังผลิต บนพื้นที่</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production. Antiquity Production Building. +1 [icon:YIELD_PRODUCTION] Production on Quarters. -->
+			<Text>+4[icon:YIELD_PRODUCTION] กำลังผลิต, อาคารด้านกำลังผลิตในยุคโบราณ, +1 [icon:YIELD_PRODUCTION] กำลังผลิต บนพื้นที่</Text>		<!-- +4[icon:YIELD_PRODUCTION] Production. Antiquity Production Building. +1 [icon:YIELD_PRODUCTION] Production on Quarters. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BLACKSMITH_TOOLTIP" Language="th_TH">
-			<Text>อาคารด้านการผลิต ยุคโบราณ, +1[icon:YIELD_PRODUCTION] กำลังผลิต บน ย่าน</Text>		<!-- Antiquity Production Building. +1 [icon:YIELD_PRODUCTION] Production on Quarters. -->
+			<Text>[B]เอฟเฟค:[/B] +1[icon:YIELD_PRODUCTION]บน ย่าน</Text>		<!-- [B]Effect:[/B] +1 [icon:YIELD_PRODUCTION] on Quarters. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BRICKYARD_NAME" Language="th_TH">
 			<Text>โรงผลิตอิฐ</Text>		<!-- Brickyard -->
@@ -2558,7 +2558,7 @@
 			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต, +1[icon:YIELD_PRODUCTION] กำลังผลิต จากหลุมดินเหนียว, เหมือง และเหมืองหิน, โกดังด้านการผลิต, คงอยู่ตลอดกาล, สร้างได้ในทุกยุค, สามารถซื้อได้ในเมือง</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production. +1[icon:YIELD_PRODUCTION] Production on Clay Pits, Mines, and Quarries. Warehouse Production Building. Ageless. Buildable in all Ages. Can be purchased in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BRICKYARD_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต จากหลุมดินเหนียว, เหมือง และเหมืองหิน, โกดังด้านการผลิต, คงอยู่ตลอดกาล, สร้างได้ในทุกยุค, สามารถซื้อได้ในเมือง</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Clay Pits, Mines, and Quarries. Warehouse Production Building. Ageless. Buildable in all Ages. Can be purchased in Towns. -->
+			<Text>+1 [icon:YIELD_PRODUCTION] ในเขตพัฒนาต่อไปนี้ ในถิ่นฐานนี้ จากโบนัสคลังสินค้า [icon:YIELD_WAREHOUSE]:[BLIST][LI] บ่อดินเหนียว[LI] เหมือง[LI] เหมืองหิน[/BLIST][n]สามารถซื้อได้ในเมือง</Text>		<!-- +1 [icon:YIELD_PRODUCTION] on the following Improvements in this Settlement from its [icon:YIELD_WAREHOUSE]Warehouse Bonus:[BLIST][LI] Clay Pits[LI] Mines[LI] Quarries[/BLIST][n]Can be purchased in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FISHING_QUAY_NAME" Language="th_TH">
 			<Text>ท่าเรือประมง</Text>		<!-- Fishing Quay -->
@@ -2567,7 +2567,7 @@
 			<Text>+1[icon:YIELD_FOOD] อาหาร, +1[icon:YIELD_FOOD] อาหาร บนเรือประมง, อาคารเก็บอาหาร, คงอยู่ตลอดกาล, สร้างได้ในทุกยุค, สามารถซื้อได้ในเมือง, ต้องวางบนชายฝั่ง, ช่องทะเลสาบ, หรือแม่น้ำใหญ่</Text>		<!-- +1[icon:YIELD_FOOD] Food. +1[icon:YIELD_FOOD] Food on Fishing Boats. Warehouse Food Building. Ageless. Buildable in all Ages. Can be purchased in Towns. Must be placed on Coast, a Lake tile, or a Navigable River. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FISHING_QUAY_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_FOOD] อาหาร, บนเรือประมง อาคารเก็บอาหาร คงอยู่ตลอดกาล คงอยู่ตลอดกาล สามารถซื้อได้ในเมือง ต้องตั้งอยู่บนชายฝั่ง แปลงน้ำ หรือแม่น้ำใหญ่</Text>		<!-- +1[icon:YIELD_FOOD] Food on Fishing Boats. Warehouse Food Building. Ageless. Buildable in all Ages. Can be purchased in Towns. Must be placed on Coast, a Lake tile, or a Navigable River. -->
+			<Text>+1 [icon:YIELD_FOOD] จากเรือประมงในถิ่นฐานนี้ จากโบนัสคลังสินค้า [icon:YIELD_WAREHOUSE][n]สามารถซื้อได้ในเมือง</Text>		<!-- +1 [icon:YIELD_FOOD] on Fishing Boats in this Settlement from its [icon:YIELD_WAREHOUSE]Warehouse Bonus[n]Can be purchased in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GARDEN_NAME" Language="th_TH">
 			<Text>สวน</Text>		<!-- Garden -->
@@ -2585,40 +2585,40 @@
 			<Text>+1[icon:YIELD_FOOD] อาหาร, +1[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า และพืชพรรณ, อาคารเก็บอาหาร, คงอยู่ตลอดกาล, สร้างได้ในทุกยุคสมัย, สามารถซื้อได้ในเมือง</Text>		<!-- +1[icon:YIELD_FOOD] Food. +1[icon:YIELD_FOOD] Food on Farms, Pastures, and Plantations. Warehouse Food Building. Ageless. Buildable in all Ages. Can be purchased in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GRANARY_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_FOOD] อาหาร จากฟาร์ม ทุ่งหญ้า และสวนสาธารณะ อาคารเก็บอาหาร คงอยู่ตลอดกาล สามารถซื้อได้ในเมือง</Text>		<!-- +1[icon:YIELD_FOOD] Food on Farms, Pastures, and Plantations. Warehouse Food Building. Ageless. Buildable in all Ages. Can be purchased in Towns. -->
+			<Text>+1 [icon:YIELD_FOOD] ในเขตพัฒนาต่อไปนี้ ในถิ่นฐานนี้ จากโบนัสคลังสินค้า [icon:YIELD_WAREHOUSE]:[BLIST][LI] ฟาร์ม[LI] ทุ่งหญ้า[LI] พืชพรรณ[/BLIST][N] สามารถซื้อได้ในเมือง</Text>		<!-- +1 [icon:YIELD_FOOD] on the following Improvements in this Settlement from its [icon:YIELD_WAREHOUSE]Warehouse Bonus:[BLIST][LI] Farms[LI] Pastures[LI] Plantations[/BLIST][N]Can be purchased in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIBRARY_NAME" Language="th_TH">
 			<Text>ห้องสมุด</Text>		<!-- Library -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIBRARY_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์ มีช่อง คัมภีร์ 2 ช่อง อาคารด้านวิทยาศาสตร์ ยุคโบราณ</Text>		<!-- +2[icon:YIELD_SCIENCE] Science. Has 2 Codex slots. Antiquity Science Building. -->
+			<Text>+3[icon:YIELD_SCIENCE] วิทยาศาสตร์ มีช่อง คัมภีร์ 2 ช่อง อาคารด้านวิทยาศาสตร์ ยุคโบราณ</Text>		<!-- +3[icon:YIELD_SCIENCE] Science. Has 2 Codex slots. Antiquity Science Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIBRARY_TOOLTIP" Language="th_TH">
-			<Text>มีช่อง คัมภีร์ 2 ช่อง อาคารด้านวิทยาศาสตร์ ยุคโบราณ</Text>		<!-- Has 2 Codex slots. Antiquity Science Building. -->
+			<Text>[B]เอฟเฟค:[/B] มีช่อง คัมภีร์ 2 ช่อง</Text>		<!-- [B]Effect:[/B] Has 2 Codex slots. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIGHTHOUSE_NAME" Language="th_TH">
 			<Text>ประภาคาร</Text>		<!-- Lighthouse -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIGHTHOUSE_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_GOLD] ทอง, เพิ่มจำนวนทรัพยากรที่สามารถมอบหมายให้กับถิ่นฐานนี้ได้ 2. อาคารด้านทอง ยุคโบราณ, ต้องวางบนชายฝั่ง</Text>		<!-- +3[icon:YIELD_GOLD] Gold. Increases the number of Resources that may be assigned to this Settlement by 2. Antiquity Gold Building. Must be placed on Coast. -->
+			<Text>+4[icon:YIELD_GOLD] ทอง, เพิ่มจำนวนทรัพยากรที่สามารถมอบหมายให้กับถิ่นฐานนี้ได้ 2. อาคารด้านทอง ยุคโบราณ, ต้องวางบนชายฝั่ง</Text>		<!-- +4[icon:YIELD_GOLD] Gold. Increases the number of Resources that may be assigned to this Settlement by 2. Antiquity Gold Building. Must be placed on Coast. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIGHTHOUSE_TOOLTIP" Language="th_TH">
-			<Text>เพิ่มจำนวน ทรัพยากร ที่อาจถูกกำหนดให้กับถิ่นฐานนี้อีก 2 หน่วย อาคารด้านทอง ยุคโบราณ ต้องวางบนแผ่นดินชายฝั่ง</Text>		<!-- Increases the number of Resources that may be assigned to this Settlement by 2. Antiquity Gold Building. Must be placed on a Coast tile. -->
+			<Text>[B]เอฟเฟค:[/B] เพิ่มจำนวน ทรัพยากร ที่อาจถูกกำหนดให้กับถิ่นฐานนี้อีก 2 หน่วย[n]ต้องวางบนช่องพื้นที่ชายฝั่ง</Text>		<!-- [B]Effect:[/B] Increases the number of Resources that may be assigned to this Settlement by 2.[n]Must be placed on a Coast tile. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MARKET_NAME" Language="th_TH">
 			<Text>ตลาด</Text>		<!-- Market -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MARKET_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_GOLD] ทอง เพิ่มจำนวนทรัพยากรที่สามารถมอบหมายให้กับถิ่นฐานนี้ได้ 1 แห่ง อาคารด้านทองยุคโบราณ</Text>		<!-- +2[icon:YIELD_GOLD] Gold. Increases number of Resources that may be assigned to this Settlement by 1. Antiquity Gold Building. -->
+			<Text>+3[icon:YIELD_GOLD] ทอง เพิ่มจำนวนทรัพยากรที่สามารถมอบหมายให้กับถิ่นฐานนี้ได้ 1 แห่ง อาคารด้านทองยุคโบราณ</Text>		<!-- +3[icon:YIELD_GOLD] Gold. Increases number of Resources that may be assigned to this Settlement by 1. Antiquity Gold Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MARKET_TOOLTIP" Language="th_TH">
-			<Text>เพิ่มจำนวน ทรัพยากร ที่สามารถมอบหมายให้กับถิ่นฐานนี้ได้ 1 หน่วย โดยอาคารด้านทอง ยุคโบราณ</Text>		<!-- Increases number of Resources that may be assigned to this Settlement by 1. Antiquity Gold Building. -->
+			<Text>[B]เอฟเฟค:[/B] เพิ่มจำนวน ทรัพยากร ที่สามารถมอบหมายให้กับถิ่นฐานนี้ได้ 1 หน่วย</Text>		<!-- [B]Effect:[/B] Increases number of Resources that may be assigned to this Settlement by 1. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MONUMENT_NAME" Language="th_TH">
 			<Text>อนุสาวรีย์</Text>		<!-- Monument -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MONUMENT_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม และ +1[icon:YIELD_DIPLOMACY] อิทธิพล อาคารด้านวัฒนธรรมและการทูตโบราณ</Text>		<!-- +2[icon:YIELD_CULTURE] Culture and +1[icon:YIELD_DIPLOMACY] Influence. Antiquity Culture and Diplomacy Building. -->
+			<Text>+3[icon:YIELD_CULTURE] วัฒนธรรม และ +1[icon:YIELD_DIPLOMACY] อิทธิพล อาคารด้านวัฒนธรรมและการทูตโบราณ</Text>		<!-- +3[icon:YIELD_CULTURE] Culture and +2[icon:YIELD_DIPLOMACY] Influence. Antiquity Culture and Diplomacy Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MONUMENT_TOOLTIP" Language="th_TH">
 			<Text>อาคารด้านวัฒนธรรมและการทูต ยุคโบราณ,</Text>		<!-- Antiquity Culture and Diplomacy Building. -->
@@ -2630,13 +2630,13 @@
 			<Text>+1[icon:YIELD_PRODUCTION] ผลิตภัณฑ์, +1[icon:YIELD_PRODUCTION] กำลังผลิต ที่ค่ายและจากคนตัดไม้, อาคารผลิตภัณฑ์คลังสินค้า, คงอยู่ตลอดกาล, สามารถซื้อได้ในเมือง</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production. +1[icon:YIELD_PRODUCTION] Production on Camps and Woodcutters. Warehouse Production Building. Ageless. Buildable in all Ages. Can be purchased in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SAW_PIT_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต ที่แคมป์และการตัดไม้ อาคารผลิตในคลังสินค้า คงอยู่ตลอดกาล สามารถสร้างได้ในทุกยุค สามารถซื้อได้ในเมือง</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Camps and Woodcutters. Warehouse Production Building. Ageless. Buildable in all Ages. Can be purchased in Towns. -->
+			<Text>+1 [icon:YIELD_PRODUCTION] ในเขตพัฒนาต่อไปนี้ ในถิ่นฐานนี้ จากโบนัสคลังสินค้า [icon:YIELD_WAREHOUSE]:[BLIST][LI] ค่าย[LI] โรงตัดไม้[/BLIST][n] สามารถซื้อได้ในเมือง</Text>		<!-- +1 [icon:YIELD_PRODUCTION] on the following Improvements in this Settlement from its [icon:YIELD_WAREHOUSE]Warehouse Bonus:[BLIST][LI] Camps[LI] Woodcutters[/BLIST][n]Can be purchased in Towns. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_VILLA_NAME" Language="th_TH">
 			<Text>วิลล่า</Text>		<!-- Villa -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_VILLA_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_HAPPINESS] ความสุข และ +2[icon:YIELD_DIPLOMACY] อิทธิพล, อาคารด้านวัฒนธรรมและการทูต ยุคโบราณ, สามารถซื้อได้ในเมืองในช่วงของวิกฤตการกบฏ</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness and +2[icon:YIELD_DIPLOMACY] Influence. Antiquity Happiness and Diplomacy Building. Can be purchased in Towns during the Revolt Crisis. -->
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข และ +3[icon:YIELD_DIPLOMACY] อิทธิพล, อาคารด้านวัฒนธรรมและการทูต ยุคโบราณ, สามารถซื้อได้ในเมืองในช่วงของวิกฤตการกบฏ</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness and +3[icon:YIELD_DIPLOMACY] Influence. Antiquity Happiness and Diplomacy Building. Can be purchased in Towns during the Revolt Crisis. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_VILLA_TOOLTIP" Language="th_TH">
 			<Text>อาคารด้านความสุข และการทูต ยุคโบราณ</Text>		<!-- Antiquity Happiness and Diplomacy Building. -->
@@ -2648,16 +2648,16 @@
 			<Text>+3[icon:YIELD_CULTURE] วัฒนธรรม, +1[icon:YIELD_GOLD] ทอง โบนัสใกล้เคียง สำหรับภูมิประเทศทะเลทรายและสิ่งมหัศจรรย์, อาคารพิเศษด้านวัฒนธรรม สำหรับอียิปต์, คงอยู่ตลอดกาล</Text>		<!-- +3[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_GOLD] Gold Adjacency for Desert Terrain and Wonders. Egyptian Unique Culture Building. Ageless. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MASTABA_TOOLTIP" Language="th_TH">
-			<Text>อาคารพิเศษด้านวัฒนธรรม สำหรับอียิปต์, คงอยู่ตลอดกาล</Text>		<!-- Egyptian Unique Culture Building. Ageless. -->
+			<Text>อาคารพิเศษ สำหรับอียิปต์</Text>		<!-- Egyptian Unique Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MORTUARY_TEMPLE_NAME" Language="th_TH">
 			<Text>วิหารมัมมี่</Text>		<!-- Mortuary Temple -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MORTUARY_TEMPLE_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_HAPPINESS] ความสุข โบนัสใกล้เคียง แม่น้ำใหญ่และสิ่งมหัศจรรย์, อาคารพิเศษด้านทอง สำหรับอียิปต์, คงอยู่ตลอดกาล</Text>		<!-- +4[icon:YIELD_GOLD] Gold. +1[icon:YIELD_HAPPINESS] Happiness Adjacency for Navigable Rivers and Wonders. Egyptian Unique Gold Building. Ageless. -->
+			<Text>+3[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_HAPPINESS] ความสุข โบนัสใกล้เคียง แม่น้ำใหญ่และสิ่งมหัศจรรย์, อาคารพิเศษด้านทอง สำหรับอียิปต์, คงอยู่ตลอดกาล</Text>		<!-- +3[icon:YIELD_GOLD] Gold. +1[icon:YIELD_HAPPINESS] Happiness Adjacency for Navigable Rivers and Wonders. Egyptian Unique Gold Building. Ageless. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MORTUARY_TEMPLE_TOOLTIP" Language="th_TH">
-			<Text>อาคารพิเศษด้านทอง สำหรับอียิปต์, คงอยู่ตลอดกาล</Text>		<!-- Egyptian Unique Gold Building. Ageless. -->
+			<Text>อาคารพิเศษ สำหรับอียิปต์</Text>		<!-- Egyptian Unique Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ODEON_NAME" Language="th_TH">
 			<Text>โอเดียน</Text>		<!-- Odeon -->
@@ -2666,16 +2666,16 @@
 			<Text>+3[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_CULTURE] วัฒนธรรม โบนัสใกล้เคียง สำหรับ ย่าน และสิ่งมหัศจรรย์, อาคารพิเศษด้านความสุข สำหรับกรีก, คงอยู่ตลอดกาล</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture Adjacency for Quarters and Wonders. Greek Unique Happiness Building. Ageless. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ODEON_TOOLTIP" Language="th_TH">
-			<Text>อาคารพิเศษด้านความสุข สำหรับกรีก คงอยู่ตลอดกาล</Text>		<!-- Greek Unique Happiness Building. Ageless. -->
+			<Text>อาคารพิเศษ สำหรับกรีก</Text>		<!-- Greek Unique Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_PARTHENON_NAME" Language="th_TH">
 			<Text>พาร์เธนอน</Text>		<!-- Parthenon -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_PARTHENON_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_CULTURE] วัฒนธรรม, +2[icon:YIELD_DIPLOMACY] อิทธิพล หากวางอยู่บนพื้นที่ขรุขระ, +1[icon:YIELD_CULTURE] วัฒนธรรม โบนัสใกล้เคียง สิ่งมหัศจรรย์, อาคารพิเศษด้านวัฒนธรรม สำหรับกรีก, คงอยู่ตลอดกาล</Text>		<!-- +4[icon:YIELD_CULTURE] Culture. +2[icon:YIELD_DIPLOMACY] Influence if placed on Rough Terrain. +1[icon:YIELD_CULTURE] Culture adjacency for Wonders. Greek Unique Culture Building. Ageless. -->
+			<Text>+3[icon:YIELD_CULTURE] วัฒนธรรม, +2[icon:YIELD_DIPLOMACY] อิทธิพล หากวางอยู่บนพื้นที่ขรุขระ, +1[icon:YIELD_CULTURE] วัฒนธรรม โบนัสใกล้เคียง สิ่งมหัศจรรย์, อาคารพิเศษด้านวัฒนธรรม สำหรับกรีก, คงอยู่ตลอดกาล</Text>		<!-- +3[icon:YIELD_CULTURE] Culture. +2[icon:YIELD_DIPLOMACY] Influence if placed on Rough Terrain. +1[icon:YIELD_CULTURE] Culture adjacency for Wonders. Greek Unique Culture Building. Ageless. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_PARTHENON_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_DIPLOMACY] อิทธิพล หากวางในภูมิประเทศขรุขระ, อาคารพิเศษด้านวัฒนธรรม สำหรับกรีก, คงอยู่ตลอดกาลจัด</Text>		<!-- +2[icon:YIELD_DIPLOMACY] Influence if placed on Rough Terrain. Greek Unique Culture Building. Ageless. -->
+			<Text>+2[icon:YIELD_DIPLOMACY] หากวางในภูมิประเทศขรุขระ[n]อาคารพิเศษ ของกรีก</Text>		<!-- +2[icon:YIELD_DIPLOMACY]if placed on Rough Terrain.[n]Greek Unique Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_DHARAMSHALA_NAME" Language="th_TH">
 			<Text>ดาร์มชาลา</Text>		<!-- Dharamshala -->
@@ -2684,7 +2684,7 @@
 			<Text>+3[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_SCIENCE] วิทยาศาสตร์ โบนัสใกล้เคียง สำหรับย่านและสิ่งมหัศจรรย์, อาคารพิเศษด้านความสุข สำหรับเมารยะ, คงอยู่ตลอดกาล</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_SCIENCE] Science Adjacency for Quarters and Wonders. Mauryan Unique Happiness Building. Ageless. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_DHARAMSHALA_TOOLTIP" Language="th_TH">
-			<Text>อาคารพิเศษด้านความสุข สำหรับเมารยะ คงอยู่ตลอดกาล</Text>		<!-- Mauryan Unique Happiness Building. Ageless. -->
+			<Text>อาคารพิเศษ สำหรับเมารยะ</Text>		<!-- Mauryan Unique Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_VIHARA_NAME" Language="th_TH">
 			<Text>วิหารา</Text>		<!-- Vihara -->
@@ -2693,7 +2693,7 @@
 			<Text>+3[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_CULTURE]วัฒนธรรมที่ใกล้ชิดกับภูเขาและสิ่งมหัศจรรย์, อาคารพิเศษด้านความสุข สำหรับเมารยะ, คงอยู่ตลอดกาล</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture Adjacency for Mountains and Wonders. Mauryan Unique Happiness Building. Ageless. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_VIHARA_TOOLTIP" Language="th_TH">
-			<Text>อาคารพิเศษด้านความสุข สำหรับเมารยะ, คงอยู่ตลอดกาล</Text>		<!-- Mauryan Unique Happiness Building. Ageless. -->
+			<Text>อาคารพิเศษ สำหรับเมารยะ</Text>		<!-- Mauryan Unique Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_JALAW_NAME" Language="th_TH">
 			<Text>จาลาว</Text>		<!-- Jalaw -->
@@ -2702,25 +2702,25 @@
 			<Text>+3[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_CULTURE] วัฒนธรรม โบนัสใกล้เคียง พื้นที่ย่านและสิ่งมหัศจรรย์, อาคารพิเศษด้านความสุข สำหรับมายา, คงอยู่ตลอดกาล</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture Adjacency for Quarters and Wonders. Mayan Unique Happiness Building. Ageless. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_JALAW_TOOLTIP" Language="th_TH">
-			<Text>อาคารพิเศษด้านความสุข สำหรับมายา, คงอยู่ตลอดกาล</Text>		<!-- Mayan Unique Happiness Building. Ageless. -->
+			<Text>อาคารพิเศษ สำหรับเมารยะ</Text>		<!-- Mayan Unique Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_KUH_NAH_NAME" Language="th_TH">
 			<Text>คูห์ นาห์</Text>		<!-- K'uh Nah -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_KUH_NAH_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_SCIENCE] วิทยาศาสตร์, +2[icon:YIELD_SCIENCE] วิทยาศาสตร์ หากตั้งอยู่บนพืชพรรณ, +1[icon:YIELD_SCIENCE] วิทยาศาสตร์ โบนัสใกล้เคียง สิ่งมหัศจรรย์, อาคารพิเศษด้านวิทยาศาสตร์ สำหรับมายัน, คงอยู่ตลอดกาล</Text>		<!-- +3[icon:YIELD_SCIENCE] Science. +2[icon:YIELD_SCIENCE] Science if placed on Vegetation. +1[icon:YIELD_SCIENCE] Science Adjacency for Wonders. Mayan Unique Science Building. Ageless. -->
+			<Text>+3[icon:YIELD_SCIENCE] วิทยาศาสตร์, +2[icon:YIELD_SCIENCE] วิทยาศาสตร์ หากตั้งอยู่บนพืชพรรณ, +1[icon:YIELD_SCIENCE] วิทยาศาสตร์ โบนัสใกล้เคียง สิ่งมหัศจรรย์, อาคารพิเศษด้านวิทยาศาสตร์ สำหรับมายัน, คงอยู่ตลอดกาล</Text>		<!-- +3[icon:YIELD_SCIENCE] Science. +2[icon:YIELD_SCIENCE] Science if placed on Vegetated Terrain. +1[icon:YIELD_SCIENCE] Science Adjacency for Wonders. Mayan Unique Science Building. Ageless. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_KUH_NAH_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์ หากวางบนพืชพรรณ, อาคารพิเศษด้านวิทยาศาสตร์ สำหรับมายา, คงอยู่ตลอดกาล</Text>		<!-- +2[icon:YIELD_SCIENCE] Science if placed on Vegetation. Mayan Unique Science Building. Ageless. -->
+			<Text>+2[icon:YIELD_SCIENCE] หากวางบนพืชพรรณ[n]อาคารพิเศษ สำหรับมายา</Text>		<!-- +2 [icon:YIELD_SCIENCE] if placed on Vegetated Terrain.[n]Mayan Unique Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BASILICA_NAME" Language="th_TH">
 			<Text>บาซิลิกา</Text>		<!-- Basilica -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BASILICA_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_DIPLOMACY] อิทธิพล โบนัสใกล้เคียง อาคารด้านวัฒนธรรมและสิ่งมหัศจรรย์, อาคารพิเศษด้านทอง สำหรับโรม, คงอยู่ตลอดกาล</Text>		<!-- +4[icon:YIELD_GOLD] Gold. +1[icon:YIELD_DIPLOMACY] Influence Adjacency for Culture Buildings and Wonders. Roman Unique Gold Building. Ageless. -->
+			<Text>+3[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_DIPLOMACY] อิทธิพล โบนัสใกล้เคียง อาคารด้านวัฒนธรรมและสิ่งมหัศจรรย์, อาคารพิเศษด้านทอง สำหรับโรม, คงอยู่ตลอดกาล</Text>		<!-- +3[icon:YIELD_GOLD] Gold. +1[icon:YIELD_DIPLOMACY] Influence Adjacency for Culture Buildings and Wonders. Roman Unique Gold Building. Ageless. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BASILICA_TOOLTIP" Language="th_TH">
-			<Text>อาคารพิเศษด้านทอง สำหรับโรมัน, คงอยู่ตลอดกาล</Text>		<!-- Roman Unique Gold Building. Ageless. -->
+			<Text>อาคารพิเศษ สำหรับโรมัน</Text>		<!-- Roman Unique Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TEMPLE_OF_JUPITER_NAME" Language="th_TH">
 			<Text>วิหารจูปิเตอร์</Text>		<!-- Temple of Jupiter -->
@@ -2729,79 +2729,79 @@
 			<Text>+3[icon:YIELD_HAPPINESS] ความสุข +1[icon:YIELD_CULTURE] วัฒนธรรม โบนัสใกล้เคียง อาคารด้านความสุขและสิ่งมหัศจรรย์แห่งความสุข, อาคารพิเศษด้านความสุข สำหรับโรม, คงอยู่ตลอดกาล</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture Adjacency for Happiness Buildings and Wonders. Roman Unique Happiness Building. Ageless. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TEMPLE_OF_JUPITER_TOOLTIP" Language="th_TH">
-			<Text>อาคารพิเศษด้านความสุข สำหรับโรมัน, คงอยู่ตลอดกาล</Text>		<!-- Roman Unique Happiness Building. Ageless. -->
+			<Text>อาคารพิเศษ สำหรับโรมัน</Text>		<!-- Roman Unique Building. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_BARAY_NAME" Language="th_TH">
 			<Text>บาราย</Text>		<!-- Baray -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_BARAY_DESCRIPTION" Language="th_TH">
-			<Text>เขตพัฒนาพิเศษของขอม, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ, หนึ่งที่ต่อถิ่นฐาน, +3[icon:YIELD_FOOD] อาหาร, +1[icon:YIELD_FOOD] อาหาร บนทุกพื้นที่น้ำท่วมในถิ่นฐานนี้, เขตพัฒนาพิเศษ ของขอม, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นราบ, หนึ่งแห่งต่อถิ่นฐาน</Text>		<!-- Khmer Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Flat Terrain. One per Settlement. +3[icon:YIELD_FOOD] Food. +1[icon:YIELD_FOOD] Food on all Floodplains in this Settlement. Improvements, Buildings, and Districts in this Settlement do not get pillaged by floods. -->
+			<Text>เขตพัฒนาพิเศษของขอม, คงอยู่ตลอดกาล, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE] คลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ, หนึ่งที่ต่อถิ่นฐาน, +3[icon:YIELD_FOOD] อาหาร, +1[icon:YIELD_FOOD] อาหาร บนทุกพื้นที่น้ำท่วมในถิ่นฐานนี้, เขตพัฒนาพิเศษ ของขอม, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นราบ, หนึ่งแห่งต่อถิ่นฐาน</Text>		<!-- Khmer Unique Improvement. Ageless. Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on an existing Improvement on Flat Terrain. One per Settlement. +3[icon:YIELD_FOOD] Food. +1[icon:YIELD_FOOD] Food on all Floodplains in this Settlement. Improvements, Buildings, and Districts in this Settlement do not get pillaged by floods. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_BARAY_TOOLTIP" Language="th_TH">
-			<Text>เขตพัฒนาพิเศษของขอม, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ, หนึ่งที่ต่อถิ่นฐาน, +1[icon:YIELD_FOOD] อาหาร ในที่ราบน้ำท่วมทั้งหมดในถิ่นฐานนี้ เขตพัฒนาพิเศษ ของขอม, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ, หนึ่งแห่งต่อถิ่นฐาน</Text>		<!-- Khmer Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Flat Terrain. One per Settlement. +1[icon:YIELD_FOOD] Food on all Floodplains in this Settlement. Improvements, Buildings, and Districts in this Settlement do not get pillaged by floods. -->
+			<Text>[B]เอฟเฟค:[/B] +1 [icon:YIELD_FOOD] บนพื้นที่น้ำท่วมทั้งหมดในถิ่นฐานนี้, เขตพัฒนา, อาคาร, และเขตในถิ่นฐานนี้จะไม่ถูกปล้นโดยน้ำท่วม[n]ไม่ลบโบนัส [icon:YIELD_WAREHOUSE]คลังสินค้า ในช่อง, ต้องวางบนเขตพัฒนาที่มีอยู่ในพื้นที่ราบ หนึ่งต่อถิ่นฐาน[n]เขตพัฒนาพิเศษ สำหรับขอม</Text>		<!-- [B]Effect:[/B] +1 [icon:YIELD_FOOD] on all Floodplains in this Settlement. Improvements, Buildings, and Districts in this Settlement do not get pillaged by floods.[n]Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on an existing Improvement on Flat Terrain. One per Settlement.[n]Khmer Unique Improvement. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HAN_GREAT_WALL_NAME" Language="th_TH">
 			<Text>กำแพงเมืองจีน</Text>		<!-- Great Wall -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HAN_GREAT_WALL_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม, +1[icon:YIELD_HAPPINESS] ความสุข โบนัสใกล้เคียง กำแพงเมืองจีน, เขตพัฒนาพิเศษ ของฮั่น, คงอยู่ตลอดกาล, นับเป็นการเสริมกำลัง, +6 พลังต่อสู้ เมื่อป้องกัน, ไม่ลบโบนัสคลังสินค้าในช่องนี้, สามารถสร้างได้เฉพาะในแนวตรง และต้องวางบนพื้นที่พัฒนา, ไม่สามารถแตกออกหรือแยกไปได้</Text>		<!-- +2[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_HAPPINESS] Happiness for adjacent Great Wall segments. Han Unique Improvement. Ageless. Counts as Fortification, +6 Combat Strength when defending. Does not remove Warehouse bonuses on a tile. Can only be built in a line and must be placed on an existing Improvement. Cannot branch or fork. -->
+			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม, +1[icon:YIELD_HAPPINESS] ความสุข โบนัสใกล้เคียง กำแพงเมืองจีน, เขตพัฒนาพิเศษ ของฮั่น, คงอยู่ตลอดกาล, นับเป็นการเสริมกำลัง, +6 พลังต่อสู้ เมื่อป้องกัน, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE] คลังสินค้าในช่องนี้, สามารถสร้างได้เฉพาะในแนวตรง และต้องวางบนพื้นที่พัฒนา, ไม่สามารถแตกออกหรือแยกไปได้</Text>		<!-- +2[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_HAPPINESS] Happiness for adjacent Great Wall segments. Han Unique Improvement. Ageless. Counts as Fortification, +6 Combat Strength when defending. Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Can only be built in a line and must be placed on an existing Improvement. Cannot branch or fork.  -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HAN_GREAT_WALL_TOOLTIP" Language="th_TH">
-			<Text>+6 พลังต่อสู้ สำหรับ ยูนิตที่ป้องกันในช่องนี้ เขตพัฒนาพิเศษของฮั่น, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, สามารถสร้างได้เฉพาะในแนวตรง และต้องวางบนพื้นที่พัฒนา, ไม่สามารถแยกหรือแตกแขนงได้</Text>		<!-- +6 Combat Strength for Units defending in the tile. Han Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Can only be built in a line and must be placed on an existing Improvement. Cannot branch or fork. -->
+			<Text>[B]เอฟเฟค:[/B] +6 พลังต่อสู้ สำหรับ ยูนิตที่ป้องกันในช่องนี้ , คงอยู่ตลอดกาล, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE] คลังสินค้าในช่องนี้, สามารถสร้างได้เฉพาะในแนวตรง และต้องวางบนพื้นที่พัฒนา, ไม่สามารถแยกหรือแตกแขนงได้[n]เขตพัฒนาพิเศษ สำหรับฮั่น</Text>		<!-- [B]Effect:[/B] +6 Combat Strength for Units defending in the tile.[n]Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Can only be built in a line and must be placed on an existing Improvement. Cannot branch or fork.[n]Han Unique Improvement. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HAWELT_NAME" Language="th_TH">
 			<Text>ฮอวิลท์</Text>		<!-- Hawilt -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HAWELT_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_CULTURE] วัฒนธรรม สำหรับ สิ่งมหัศจรรย์ที่อยู่ติดกันและ ฮาวิลีก อื่นๆ, เขตพัฒนาพิเศษ ของอักซูม, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ</Text>		<!-- +2[icon:YIELD_GOLD] Gold. +1[icon:YIELD_CULTURE] Culture for adjacent Wonders and other Hawilti. Aksumite Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Flat Terrain. -->
+			<Text>+2[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_CULTURE] วัฒนธรรม สำหรับ สิ่งมหัศจรรย์ที่อยู่ติดกันและ ฮาวิลีก อื่นๆ, เขตพัฒนาพิเศษ ของอักซูม, คงอยู่ตลอดกาล, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE] คลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ</Text>		<!-- +2[icon:YIELD_GOLD] Gold. +1[icon:YIELD_CULTURE] Culture for adjacent Wonders and other Hawilti. Aksumite Unique Improvement. Ageless. Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on an existing Improvement on Flat Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HAWELT_TOOLTIP" Language="th_TH">
-			<Text>เขตพัฒนาพิเศษ อักซูไมต์, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ</Text>		<!-- Aksumite Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Flat Terrain. -->
+			<Text>ไม่ลบโบนัส [icon:YIELD_WAREHOUSE] คลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ[n]เขตพัฒนาพิเศษ สำหรับอักซูไมต์</Text>		<!-- Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on an existing Improvement on Flat Terrain.[n]Aksumite Unique Improvement. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_PAIRIDAEZA_NAME" Language="th_TH">
 			<Text>เพอริแดซ่า</Text>		<!-- Pairidaeza -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_PAIRIDAEZA_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ[icon:YIELD_GOLD] ทอง เขตพัฒนาพิเศษ ของเปอร์เซีย, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา และไม่สามารถตั้งอยู่ติดกับ เพอริแดซ่า อื่นได้</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and[icon:YIELD_GOLD] Gold. Persian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to another Pairidaeza. -->
+			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ[icon:YIELD_GOLD] ทอง เขตพัฒนาพิเศษ ของเปอร์เซีย, คงอยู่ตลอดกาล, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE] คลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา และไม่สามารถตั้งอยู่ติดกับ เพอริแดซ่า อื่นได้</Text>		<!-- +1[icon:YIELD_CULTURE] Culture and[icon:YIELD_GOLD] Gold. Persian Unique Improvement. Ageless. Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to another Pairidaeza. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_PAIRIDAEZA_TOOLTIP" Language="th_TH">
-			<Text>เขตพัฒนาพิเศษ ของเปอร์เซีย, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา และไม่สามารถวางติดกับ เพอริแดซ่า อื่นได้</Text>		<!-- Persian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to another Pairidaeza. -->
+			<Text>คงอยู่ตลอดกาล, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE] คลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา และไม่สามารถวางติดกับ เพอริแดซ่า อื่นได้[n]เขตพัฒนาพิเศษ สำหรับเปอร์เซีย</Text>		<!-- Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to another Pairidaeza.[n]Persian Unique Improvement. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_POTKOP_NAME" Language="th_TH">
 			<Text>ปอตคอป</Text>		<!-- Potkop -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_POTKOP_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_FOOD] อาหาร สำหรับแต่ละทรัพยากร ที่อยู่ใกล้เคียง, เขตพัฒนาพิเศษ ของมิสซิสซิปปี, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ</Text>		<!-- +1[icon:YIELD_GOLD] Gold. +1[icon:YIELD_FOOD] Food for each adjacent Resource. Mississippian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Flat Terrain. -->
+			<Text>+1[icon:YIELD_GOLD] ทอง, +1[icon:YIELD_FOOD] อาหาร สำหรับแต่ละทรัพยากร ที่อยู่ใกล้เคียง, เขตพัฒนาพิเศษ ของมิสซิสซิปปี, คงอยู่ตลอดกาล, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE] คลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ</Text>		<!-- +1[icon:YIELD_GOLD] Gold. +1[icon:YIELD_FOOD] Food for each adjacent Resource. Mississippian Unique Improvement. Ageless. Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on an existing Improvement on Flat Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_POTKOP_TOOLTIP" Language="th_TH">
-			<Text>เขตพัฒนาพิเศษ ของมิสซิสซิปปี, คงอยู่ตลอดกาล, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ</Text>		<!-- Mississippian Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Flat Terrain. -->
+			<Text>คงอยู่ตลอดกาล, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE] คลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ[n]เขตพัฒนาพิเศษ สำหรับมิสซิสซิปปี</Text>		<!-- Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on an existing Improvement on Flat Terrain.[n]Mississippian Unique Improvement. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HILLFORT_NAME" Language="th_TH">
 			<Text>ปราการเนินเขา</Text>		<!-- Hillfort -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HILLFORT_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_PRODUCTION]กำลังผลิต, +1 การมองเห็น และ +5 การฟื้นฟู ต่อเทิร์นให้กับยูนิตทหารในช่องนี้, เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัสคลังสินค้าในช่องนี้, นับเป็นการป้องกัน, +6 พลังต่อสู้ เมื่อป้องกัน, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ขรุขระ</Text>		<!-- +2[icon:YIELD_PRODUCTION] Production. +1 sight, and +5 healing per turn to Military Units on this tile. City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Counts as Fortification, +6 Combat Strength when defending. Must be placed on an existing Improvement on Rough Terrain. -->
+			<Text>+2[icon:YIELD_PRODUCTION]กำลังผลิต, +1 การมองเห็น และ +5 การฟื้นฟู ต่อเทิร์นให้กับยูนิตทหารในช่องนี้, เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE] คลังสินค้าบนช่องนี้, นับเป็นการป้องกัน, +6 พลังต่อสู้ เมื่อป้องกัน, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ขรุขระ</Text>		<!-- +2[icon:YIELD_PRODUCTION] Production. +1 sight, and +5 healing per turn to Military Units on this tile. City-State Unique Improvement. Ageless. Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Counts as Fortification, +6 Combat Strength when defending. Must be placed on an existing Improvement on Rough Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HILLFORT_TOOLTIP" Language="th_TH">
-			<Text>+1 มุมมอง และ +5 การฟื้นฟูต่อเทิร์นให้กับยูนิตทหารในช่องนี้ เขตพัฒนาพิเศษ ของนครรัฐ  ไม่ลบโบนัสคลังสินค้าในช่องนี้ ถือเป็นการเสริมกำลัง ได้รับ +6 พลังต่อสู้ เมื่อป้องกัน ต้องวางบนพื้นที่พัฒนา บนพื้นที่ขรุขระ</Text>		<!-- +1 sight, and +5 healing per turn to Military Units on this tile. City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Counts as Fortification, +6 Combat Strength when defending. Must be placed on an existing Improvement on Rough Terrain. -->
+			<Text>[B]เอฟเฟค:[/B] +1 ระยะการมองเห็น และ +5 การฟื้นฟูต่อเทิร์นให้กับยูนิตทหารในช่องนี้ +6 พลังต่อสู้ เขตพัฒนาพิเศษ ของนครรัฐ  ไม่ลบโบนัส [icon:YIELD_WAREHOUSE] คลังสินค้าบนช่องนี้ ถือเป็นการเสริมกำลัง ได้รับ +6 พลังต่อสู้ เมื่อป้องกัน ต้องวางบนพื้นที่พัฒนา บนพื้นที่ขรุขระ[n]เขตพัฒนาพิเศษ สำหรับนครรัฐ</Text>		<!-- [B]Effect:[/B] +1 Sight, and +5 Healing per turn to Military Units on this tile. +6 Combat Strength for Units defending in the tile.[n]Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on an existing Improvement on Rough Terrain.[n]City-State Unique Improvement. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MEGALITH_NAME" Language="th_TH">
 			<Text>เมกาลิธ</Text>		<!-- Megalith -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MEGALITH_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม, +1[icon:YIELD_FOOD] อาหาร สำหรับทุกแผ่นดินชนบทที่อยู่ใกล้, เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ</Text>		<!-- +2[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_FOOD] Food for every adjacent Rural tile. City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Flat Terrain. -->
+			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม, +1[icon:YIELD_FOOD] อาหาร สำหรับทุกแผ่นดินชนบทที่อยู่ใกล้, เขตพัฒนาพิเศษ สำหรับนครรัฐ, คงอยู่ตลอดกาล, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE] คลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ</Text>		<!-- +2[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_FOOD] Food for every adjacent Rural tile. City-State Unique Improvement. Ageless. Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on an existing Improvement on Flat Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MEGALITH_TOOLTIP" Language="th_TH">
-			<Text>เขตพัฒนาพิเศษเฉพาะตัว, ไม่ลบโบนัสโกดังบนแผ่นดิน, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ</Text>		<!-- City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Flat Terrain. -->
+			<Text>ไม่ลบโบนัส [icon:YIELD_WAREHOUSE] คลังสินค้าบนช่องนี้, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ราบ[n]เขตพัฒนาพิเศษ สำหรับนครรัฐ</Text>		<!-- Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on an existing Improvement on Flat Terrain.[n]City-State Unique Improvement. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SOUQ_NAME" Language="th_TH">
 			<Text>เอ็มโพเรียม</Text>		<!-- Emporium -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SOUQ_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_GOLD] ทอง, +2[icon:YIELD_GOLD] ทอง ในเมืองถ้าพวกเขามีทรัพยากรอย่างน้อย หนึ่งอย่าง ที่กำหนดให้กับพวกเขา, เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัสคลังสินค้าในช่องนี้, ต้องวางบนพื้นที่พัฒนา และไม่สามารถวางข้างเคียงกับ เอ็มโพเรียม อื่นได้</Text>		<!-- +2[icon:YIELD_GOLD] Gold. +2[icon:YIELD_GOLD] Gold in Cities if they have at least one Resource assigned to them. City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to another Emporium. -->
+			<Text>+2[icon:YIELD_GOLD] ทอง, +2[icon:YIELD_GOLD] ทอง ในเมืองถ้าพวกเขามีทรัพยากรอย่างน้อย หนึ่งอย่าง ที่กำหนดให้กับพวกเขา, เขตพัฒนาพิเศษ ของนครรัฐ, คงอยู่ตลอดกาล, ไม่ลบโบนัส  [icon:YIELD_WAREHOUSE] คลังสินค้าบนช่องนี้, ต้องวางบนพื้นที่พัฒนา และไม่สามารถวางข้างเคียงกับ เอ็มโพเรียม อื่นได้</Text>		<!-- +2[icon:YIELD_GOLD] Gold. +2[icon:YIELD_GOLD] Gold in Cities if they have at least one Resource assigned to them. City-State Unique Improvement. Ageless. Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to another Emporium. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SOUQ_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_GOLD] ทอง ในเมืองหากมีทรัพยากรอย่างน้อย หนึ่งประเภทที่ถูกกำหนดให้กับพวกเขา, เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัสโกดังบนแผ่นดิน ต้องวางบนพื้นที่พัฒนา และไม่สามารถวางอยู่ติดกับ เอ็มโพเรียม อื่นได้</Text>		<!-- +2[icon:YIELD_GOLD] Gold in Cities if they have at least one Resource assigned to them. City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to another Emporium. -->
+			<Text>[B]เอฟเฟค:[/B] +2[icon:YIELD_GOLD] ในเมืองใหญ่หากมีทรัพยากรอย่างน้อย หนึ่งประเภทที่ถูกจัดสรรให้กับพวกเขา, เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE] คลังสินค้า บนช่องนี้ ต้องวางบนพื้นที่พัฒนา และไม่สามารถวางอยู่ติดกับ เอ็มโพเรียม อื่นได้</Text>		<!-- [B]Effect:[/B] +2 [icon:YIELD_GOLD]in Cities that have at least one Resource assigned to them.[n]Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on an existing Improvement, and cannot be placed adjacent to another Emporium.[n]City-State Unique Improvement. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ICE_HOUSE_NAME" Language="th_TH">
 			<Text>ยัคชาล</Text>		<!-- Yakhchāl -->
@@ -2825,10 +2825,10 @@
 			<Text>พีระมิดขั้นบันได</Text>		<!-- Step Pyramid -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ZIGGURAT_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์, +1[icon:YIELD_HAPPINESS] ความสุข สำหรับทุกแผ่นดินที่อยู่ติดกับแม่น้ำ, เขตพัฒนาพิเศษ ของนครรัฐ, ไม่ลบโบนัสจากโกดังในแผ่นดิน, ต้องวางบนพื้นที่พัฒนา บนช่องที่มีผลผลิตความสุขตามธรรมชาติ</Text>		<!-- +2[icon:YIELD_SCIENCE] Science. +1[icon:YIELD_HAPPINESS] Happiness for every adjacent River tile. City-State Unique Improvement. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on tiles with a natural Happiness yield. -->
+			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์, +1[icon:YIELD_HAPPINESS] ความสุข สำหรับทุกแผ่นดินที่อยู่ติดกับแม่น้ำ, เขตพัฒนาพิเศษ ของนครรัฐ, คงอยู่ตลอดกาล, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE] คลังสินค้า บนช่องนี้, ต้องวางบนพื้นที่พัฒนา บนช่องที่มีผลผลิตความสุขตามธรรมชาติ</Text>		<!-- +2[icon:YIELD_SCIENCE] Science. +1[icon:YIELD_HAPPINESS] Happiness for every adjacent River tile. City-State Unique Improvement. Ageless. Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on an existing Improvement on tiles with a natural Happiness yield. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ZIGGURAT_TOOLTIP" Language="th_TH">
-			<Text>เขตพัฒนาพิเศษเฉพาะตัว +1[icon:YIELD_HAPPINESS] ความสุข สำหรับทุกแผ่นดินที่อยู่ติดกับแม่น้ำ, ไม่ลบโบนัสโกดังในแผ่นดินนั้น, ต้องวางบนพื้นที่พัฒนา บนช่องที่มีผลผลิตความสุขตามธรรมชาติ</Text>		<!-- City-State Unique Improvement. +1[icon:YIELD_HAPPINESS] Happiness for every adjacent River tile. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on tiles with a natural Happiness yield. -->
+			<Text>ไม่ลบโบนัส [icon:YIELD_WAREHOUSE] คลังสินค้าบนช่องนี้, ต้องวางบนพื้นที่พัฒนา บนช่องที่มีผลผลิต [icon:YIELD_HAPPINESS] ความสุข ตามธรรมชาติ[n]พื้นที่พัฒนาพิเศษ สำหรับนครรัฐ</Text>		<!-- Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on an existing Improvement on tiles with a natural [icon:YIELD_HAPPINESS] yield.[n]City-State Unique Improvement. -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_ACROPOLIS_NAME" Language="th_TH">
 			<Text>อัครโพลิส</Text>		<!-- Acropolis -->
@@ -2882,7 +2882,7 @@
 			<Text>+3[icon:YIELD_HAPPINESS] ความสุข, +1 [icon:SPECIALIST] ขีดจำกัดผู้เชี่ยวชาญในถิ่นฐานนี้, คงอยู่ตลอดกาล, จะต้องอยู่ติดกับแม่น้ำ</Text>		<!-- +3 [icon:YIELD_HAPPINESS] Happiness. +1 [icon:SPECIALIST] Specialist Limit in this Settlement. Ageless. Must be placed adjacent to a River. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_ANGKOR_WAT_TOOLTIP" Language="th_TH">
-			<Text>+1 [icon:SPECIALIST] ผู้เชี่ยวชาญ จำกัด ในถิ่นฐานนี้ คงอยู่ตลอดกาล ต้องวางอยู่ติดกับแม่น้ำ</Text>		<!-- +1 [icon:SPECIALIST] Specialist Limit in this Settlement. Ageless. Must be placed adjacent to a River. -->
+			<Text>+1 [icon:SPECIALIST] ผู้เชี่ยวชาญ จำกัด ในถิ่นฐานนี้[n]ต้องวางอยู่ติดกับแม่น้ำ</Text>		<!-- +1 [icon:SPECIALIST] Specialist Limit in this Settlement.[n]Must be placed adjacent to a River. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_COLOSSEUM_NAME" Language="th_TH">
 			<Text>โคลอสเซียม</Text>		<!-- Colosseum -->
@@ -2891,7 +2891,7 @@
 			<Text>+3 [icon:YIELD_CULTURE] วัฒนธรรม, +2 [icon:YIELD_HAPPINESS] ความสุข บน [icon:CITY_URBAN]พื้นที่ย่านของถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องตั้งอยู่ติดกับเขต</Text>		<!-- +3 [icon:YIELD_CULTURE] Culture. +2 [icon:YIELD_HAPPINESS] Happiness on [icon:CITY_URBAN] Quarters in this Settlement. Ageless. Must be placed adjacent to a District. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_COLOSSEUM_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_HAPPINESS] ความสุข บน [icon:CITY_URBAN]พื้นที่ย่านของถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องวางข้างเคียงกับเขต</Text>		<!-- +2 [icon:YIELD_HAPPINESS] Happiness on [icon:CITY_URBAN] Quarters in this Settlement. Ageless. Must be placed adjacent to a District. -->
+			<Text>+2[icon:YIELD_HAPPINESS] ความสุข บน [icon:CITY_URBAN]พื้นที่ย่านของถิ่นฐานนี้[N]ต้องวางข้างติดกับเขต</Text>		<!-- +2 [icon:YIELD_HAPPINESS] Happiness on [icon:CITY_URBAN] Quarters in this Settlement.[N] Must be placed adjacent to a District. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_COLOSSUS_NAME" Language="th_TH">
 			<Text>โคลอซัส</Text>		<!-- Colossus -->
@@ -2900,7 +2900,7 @@
 			<Text>+3[icon:YIELD_GOLD] ทอง, +3 [icon:RADIAL_RESOURCES] ความจุทรัพยากร ในถิ่นฐานนี้, +1 [icon:ATTRIBUTE_ECONOMIC] คะแนนคุณสมบัติทางเศรษฐกิจ, คงอยู่ตลอดกาล, ต้องตั้งอยู่บนชายฝั่งติดกับพื้นดิน</Text>		<!-- +3 [icon:YIELD_GOLD] Gold. +3 [icon:RADIAL_RESOURCES] Resource Capacity in this Settlement. +1 [icon:ATTRIBUTE_ECONOMIC] Economic Attribute Point. Ageless. Must be placed on Coast adjacent to land. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_COLOSSUS_TOOLTIP" Language="th_TH">
-			<Text>+3 [icon:RADIAL_RESOURCES] ความจุทรัพยากรในถิ่นฐานนี้, +1 [icon:ATTRIBUTE_ECONOMIC] คะแนนคุณลักษณะทางเศรษฐกิจ, คงอยู่ตลอดกาล, ต้องวางอยู่บนชายฝั่งติดกับพื้นดิน</Text>		<!-- +3 [icon:RADIAL_RESOURCES] Resource Capacity in this Settlement. +1 [icon:ATTRIBUTE_ECONOMIC] Economic Attribute Point. Ageless. Must be placed on Coast adjacent to land. -->
+			<Text>+3 [icon:RADIAL_RESOURCES] ความจุทรัพยากรในถิ่นฐานนี้, +1 [icon:ATTRIBUTE_ECONOMIC] คะแนนคุณลักษณะทางเศรษฐกิจ[N]ต้องวางอยู่บนชายฝั่งติดกับพื้นดิน</Text>		<!-- +3 [icon:RADIAL_RESOURCES] Resource Capacity in this Settlement. +1 [icon:ATTRIBUTE_ECONOMIC] Economic Attribute Point.[N]Must be placed on Coast adjacent to land. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_DUR_SHARRUKIN_NAME" Language="th_TH">
 			<Text>ดูร์-ชาร์รูคิน</Text>		<!-- Dur-Sharrukin -->
@@ -2909,7 +2909,7 @@
 			<Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ จากการแนวป้องกันในถิ่นฐานนี้ +5 [icon:NAR_REW_COMBAT] พลังต่อสู้ ให้กับเขตที่มีการป้องกันในถิ่นฐานทั้งหมด ทำหน้าที่เป็นเขตที่มีการป้องกันที่ต้องถูกพิชิต, คงอยู่ตลอดกาล, ต้องวางอยู่ติดกับเขต</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science on Fortifications in this Settlement. +5 [icon:NAR_REW_COMBAT] Combat Strength to Fortified Districts in all Settlements. Acts as a Fortified District that must be conquered. Ageless. Must be placed adjacent to a District. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_DUR_SHARRUKIN_TOOLTIP" Language="th_TH">
-			<Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ จากการแนวป้องกันในถิ่นฐานนี้ +5 [icon:NAR_REW_COMBAT] พลังต่อสู้ ให้กับเขตที่มีการป้องกันในถิ่นฐานทั้งหมด ทำหน้าที่เป็นเขตที่มีการป้องกันที่ต้องถูกพิชิต, คงอยู่ตลอดกาล, ต้องวางอยู่ติดกับเขต</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science on Fortifications in this Settlement. +5 [icon:NAR_REW_COMBAT] Combat Strength to Fortified Districts in all Settlements. Acts as a Fortified District that must be conquered. Ageless. Must be placed adjacent to a District. -->
+			<Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ จากการแนวป้องกันในถิ่นฐานนี้ +5 [icon:NAR_REW_COMBAT] พลังต่อสู้ ให้กับเขตที่มีการป้องกันในถิ่นฐานทั้งหมด ทำหน้าที่เป็นเขตที่มีการป้องกันที่ต้องถูกพิชิต[N]ต้องวางอยู่ติดกับเขต</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science on Fortifications in this Settlement. +5 [icon:NAR_REW_COMBAT] Combat Strength to Fortified Districts in all Settlements. Acts as a Fortified District that must be conquered.[N]Must be placed adjacent to a District. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_DUR_SHARRUKIN_PREVIEW" Language="th_TH">
 			<Text>+{1_Amount} ดูร์-ชาร์รูคิน</Text>		<!-- +{1_Amount} Dur-Sharrukin -->
@@ -2930,7 +2930,7 @@
 			<Text>+2 [icon:YIELD_HAPPINESS] ความสุข +1 [icon:WAR_SUPPORT] แต้มสนับสนุนในทุกสงคราม คงอยู่ตลอดกาล ต้องวางไว้ติดกับเขตพื้นที่</Text>		<!-- +2 [icon:YIELD_HAPPINESS] Happiness. +1 [icon:WAR_SUPPORT] War Support on all wars. Ageless. Must be placed adjacent to a District. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_GATE_OF_ALL_NATIONS_TOOLTIP" Language="th_TH">
-			<Text>+1 [icon:WAR_SUPPORT] แต้มสนับสนุนในทุกสงคราม คงอยู่ตลอดกาล ต้องวางติดกับเขต</Text>		<!-- +1 [icon:WAR_SUPPORT] War Support on all wars. Ageless. Must be placed adjacent to a District. -->
+			<Text>+1 [icon:WAR_SUPPORT] แต้มสนับสนุนในทุกสงคราม[N]ต้องวางติดกับเขต</Text>		<!-- +1 [icon:WAR_SUPPORT] War Support on all wars.[N]Must be placed adjacent to a District. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_GREAT_STELE_NAME" Language="th_TH">
 			<Text>เกรท สตีล</Text>		<!-- Great Stele -->
@@ -2939,7 +2939,7 @@
 			<Text>+2 [icon:YIELD_PRODUCTION] กำลังผลิต, รับ 200[icon:YIELD_GOLD] ทอง เมื่อคุณสร้าง [icon:CITY_WONDERS_LIST] สิ่งมหัศจรรย์, รวมถึงที่นี่ด้วย, คงอยู่ตลอดกาล, ต้องวางบนพื้นที่เรียบ</Text>		<!-- +2 [icon:YIELD_PRODUCTION] Production. Gain 200 [icon:YIELD_GOLD] Gold per Age when you construct a [icon:CITY_WONDERS_LIST] Wonder, including this one. Ageless. Must be placed on Flat Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_GREAT_STELE_TOOLTIP" Language="th_TH">
-			<Text>รับ 200[icon:YIELD_GOLD] ทอง เมื่อคุณสร้าง [icon:CITY_WONDERS_LIST] สิ่งมหัศจรรย์, รวมถึงที่นี่ด้วย, คงอยู่ตลอดกาล, ต้องวางบนพื้นที่เรียบ</Text>		<!-- Gain 200 [icon:YIELD_GOLD] Gold per Age when you construct a [icon:CITY_WONDERS_LIST] Wonder, including this one. Ageless. Must be placed on Flat Terrain. -->
+			<Text>รับ 200[icon:YIELD_GOLD] ทอง เมื่อคุณสร้าง [icon:CITY_WONDERS_LIST] สิ่งมหัศจรรย์, รวมถึงที่นี่ด้วย[N]ต้องวางบนพื้นที่เรียบ</Text>		<!-- Gain 200 [icon:YIELD_GOLD] Gold per Age when you construct a [icon:CITY_WONDERS_LIST] Wonder, including this one.[N]Must be placed on Flat Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_HA_AMONGA_A_MAUI_NAME" Language="th_TH">
 			<Text>ฮาอามองงา อะ เมาอิ</Text>		<!-- Ha'amonga 'a Maui -->
@@ -2948,7 +2948,7 @@
 			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม, +1 [icon:YIELD_CULTURE] วัฒนธรรม และ[icon:YIELD_FOOD] อาหาร บนเรือประมงในที่ตั้งนี้, +1 [icon:ATTRIBUTE_CULTURAL] คะแนนคุณลักษณะทางวัฒนธรรม, คงอยู่ตลอดกาล, ต้องวางติดกับชายฝั่ง</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture. +1 [icon:YIELD_CULTURE] Culture and [icon:YIELD_FOOD] Food on Fishing Boats in this Settlement. +1 [icon:ATTRIBUTE_CULTURAL] Cultural Attribute Point. Ageless. Must be placed adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_HA_AMONGA_A_MAUI_TOOLTIP" Language="th_TH">
-			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม และ[icon:YIELD_FOOD] อาหาร บนเรือประมงในที่ตั้งนี้, +1 [icon:ATTRIBUTE_CULTURAL] คะแนนคุณลักษณะทางวัฒนธรรม, คงอยู่ตลอดกาล, ต้องวางติดกับชายฝั่ง</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture and [icon:YIELD_FOOD] Food on Fishing Boats in this Settlement. +1 [icon:ATTRIBUTE_CULTURAL] Cultural Attribute Point. Ageless. Must be placed adjacent to Coast. -->
+			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม และ[icon:YIELD_FOOD] อาหาร บนเรือประมงในที่ตั้งนี้, +1 [icon:ATTRIBUTE_CULTURAL] คะแนนคุณลักษณะทางวัฒนธรรม[N]ต้องวางติดกับชายฝั่ง</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture and [icon:YIELD_FOOD] Food on Fishing Boats in this Settlement. +1 [icon:ATTRIBUTE_CULTURAL] Cultural Attribute Point.[N] Must be placed adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_HANGING_GARDENS_NAME" Language="th_TH">
 			<Text>สวนลอยฟ้า</Text>		<!-- Hanging Gardens -->
@@ -2957,16 +2957,16 @@
 			<Text>+1 [icon:YIELD_FOOD] อาหาร บนฟาร์มในถิ่นฐานนี้, +10% อัตราการเติบโตใน [icon:YIELD_CITIES] เมืองใหญ่ทั้งหมด, +1 [icon:ATTRIBUTE_EXPANSIONIST] คะแนนคุณลักษณะขยายอาณาเขต, คงอยู่ตลอดกาล, ต้องวางอยู่ติดกับแม่น้ำ</Text>		<!-- +1 [icon:YIELD_FOOD] Food on Farms in this Settlement. +10% Growth Rate in all [icon:YIELD_CITIES] Cities. +1 [icon:ATTRIBUTE_EXPANSIONIST] Expansionist Attribute Point. Ageless. Must be placed adjacent to a River. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_HANGING_GARDENS_TOOLTIP" Language="th_TH">
-			<Text>+1 [icon:YIELD_FOOD] อาหาร บนฟาร์มในถิ่นฐานนี้, +10% อัตราการเติบโตใน [icon:YIELD_CITIES] เมืองใหญ่ทั้งหมด, +1 [icon:ATTRIBUTE_EXPANSIONIST] คะแนนคุณลักษณะขยายอาณาเขต, คงอยู่ตลอดกาล, ต้องวางอยู่ติดกับแม่น้ำ</Text>		<!-- +1 [icon:YIELD_FOOD] Food on Farms in this Settlement. +10% Growth Rate in all [icon:YIELD_CITIES] Cities. +1 [icon:ATTRIBUTE_EXPANSIONIST] Expansionist Attribute Point. Ageless. Must be placed adjacent to a River. -->
+			<Text>+1 [icon:YIELD_FOOD] อาหาร บนฟาร์มในถิ่นฐานนี้, +10% อัตราการเติบโตใน [icon:YIELD_CITIES] เมืองใหญ่ทั้งหมด, +1 [icon:ATTRIBUTE_EXPANSIONIST] คะแนนคุณลักษณะขยายอาณาเขต[N]ต้องวางอยู่ติดกับแม่น้ำ</Text>		<!-- +1 [icon:YIELD_FOOD] Food on Farms in this Settlement. +10% Growth Rate in all [icon:YIELD_CITIES] Cities. +1 [icon:ATTRIBUTE_EXPANSIONIST] Expansionist Attribute Point.[N]Must be placed adjacent to a River. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_MAUSOLEUM_OF_THEODORIC_NAME" Language="th_TH">
 			<Text>มัสยิดของเธโอดอริค</Text>		<!-- Mausoleum of Theodoric -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_MAUSOLEUM_OF_THEODORIC_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:YIELD_PRODUCTION]กำลังผลิต, +100% ผลผลิตและ HP จากการปล้น, +1 คะแนน คุณลักษณะทหาร, คงอยู่ตลอดกาล, ต้องวางอยู่ติดกับชายฝั่ง</Text>		<!-- +3 [icon:YIELD_PRODUCTION] Production. +100% yields and HP from pillaging. +1 Militaristic Attribute Point. Ageless. Must be placed adjacent to Coast. -->
+			<Text>+3 [icon:YIELD_PRODUCTION]กำลังผลิต, +100% ผลผลิตและ HP จากการปล้น, +1 [icon:ATTRIBUTE_MILITARISTIC] คะแนนคุณลักษณะทหาร, คงอยู่ตลอดกาล, ต้องวางอยู่ติดกับชายฝั่ง</Text>		<!-- +3 [icon:YIELD_PRODUCTION] Production. +100% yields and HP from pillaging. +1 [icon:ATTRIBUTE_MILITARISTIC] Militaristic Attribute Point. Ageless. Must be placed adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_MAUSOLEUM_OF_THEODORIC_TOOLTIP" Language="th_TH">
-			<Text>+100% ผลผลิตและ HP จากการปล้นสะดม เพิ่ม 1 คะแนน คุณลักษณะทางทหาร, คงอยู่ตลอดกาล, จะต้องตั้งอยู่ข้างเคียงชายฝั่ง</Text>		<!-- +100% yields and HP from pillaging. +1 Militaristic Attribute Point. Ageless. Must be placed adjacent to Coast. -->
+			<Text>+100% ผลผลิตและ HP จากการปล้นสะดม เพิ่ม 1 [icon:ATTRIBUTE_MILITARISTIC] คะแนนคุณลักษณะทางทหาร[N]จะต้องตั้งอยู่ข้างเคียงชายฝั่ง</Text>		<!-- +100% yields and HP from pillaging. +1 [icon:ATTRIBUTE_MILITARISTIC] Militaristic Attribute Point.[N]Must be placed adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_MONKS_MOUND_NAME" Language="th_TH">
 			<Text>เขาตำหนักพระสงฆ์</Text>		<!-- Monks Mound -->
@@ -2975,7 +2975,7 @@
 			<Text>+3 [icon:YIELD_FOOD] อาหาร, +4 ความจุทรัพยากร ในถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องวางอยู่ติดกับแม่น้ำ</Text>		<!-- +3 [icon:YIELD_FOOD] Food. +4 [icon:RADIAL_RESOURCES] Resource Capacity in this Settlement. Ageless. Must be placed adjacent to a River. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_MONKS_MOUND_TOOLTIP" Language="th_TH">
-			<Text>+4 ความจุทรัพยากร ในถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องวางอยู่ติดกับแม่น้ำ</Text>		<!-- +4 [icon:RADIAL_RESOURCES] Resource Capacity in this Settlement. Ageless. Must be placed adjacent to a River. -->
+			<Text>+4 ความจุทรัพยากร ในถิ่นฐานนี้[N]ต้องวางอยู่ติดกับแม่น้ำ</Text>		<!-- +4 [icon:RADIAL_RESOURCES] Resource Capacity in this Settlement.[N] Must be placed adjacent to a River. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_MUNDO_PERDIDO_NAME" Language="th_TH">
 			<Text>มุนโด เพอร์ดิโด</Text>		<!-- Mundo Perdido -->
@@ -2984,7 +2984,7 @@
 			<Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บน [icon:CITY_RURAL] เขตพัฒนา และ +1 [icon:YIELD_HAPPINESS] ความสุข บน [icon:CITY_URBAN] ภูมิประเทศเขตร้อนในถิ่นฐานนี้, คงอยู่ตลอดกาล, จำเป็นต้องวางไว้ในเขตร้อน</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science on [icon:CITY_RURAL] Improvements and +1 [icon:YIELD_HAPPINESS] Happiness on [icon:CITY_URBAN] Districts on Tropical Terrain in this Settlement. Ageless. Must be placed on Tropical. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_MUNDO_PERDIDO_TOOLTIP" Language="th_TH">
-			<Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บน [icon:CITY_RURAL] เขตพัฒนา และ +1 [icon:YIELD_HAPPINESS] ความสุข บน [icon:CITY_URBAN] ภูมิประเทศเขตร้อนในถิ่นฐานนี้, คงอยู่ตลอดกาล, จำเป็นต้องวางไว้ในเขตร้อน</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science on [icon:CITY_RURAL] Improvements and +1 [icon:YIELD_HAPPINESS] Happiness on [icon:CITY_URBAN] Districts on Tropical Terrain in this Settlement. Ageless. Must be placed on Tropical. -->
+			<Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บน [icon:CITY_RURAL] เขตพัฒนา และ +1 [icon:YIELD_HAPPINESS] ความสุข บน [icon:CITY_URBAN] ภูมิประเทศเขตร้อนในถิ่นฐานนี้[N]จำเป็นต้องวางไว้ในเขตร้อน</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science on [icon:CITY_RURAL] Improvements and +1 [icon:YIELD_HAPPINESS] Happiness on [icon:CITY_URBAN] Districts on Tropical Terrain in this Settlement.[N]Must be placed on Tropical. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_NALANDA_NAME" Language="th_TH">
 			<Text>นาลันทา</Text>		<!-- Nalanda -->
@@ -2993,7 +2993,7 @@
 			<Text>+3[icon:YIELD_SCIENCE] วิทยาศาสตร์ รับ [icon:NAR_REW_GREATWORK] คัมภีร์ 1 เล่ม, มีที่ว่างสำหรับ คัมภีร์ 2 ช่อง, +1 [icon:ATTRIBUTE_SCIENTIFIC] คะแนนคุณลักษณะทางวิทยาศาสตร์, คงอยู่ตลอดกาล, ต้องวางในที่ราบ</Text>		<!-- +3 [icon:YIELD_SCIENCE] Science. Gain 1 [icon:NAR_REW_GREATWORK] Codex. Has 2 Codex slots. +1 [icon:ATTRIBUTE_SCIENTIFIC] Scientific Attribute Point. Ageless. Must be placed on Plains. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_NALANDA_TOOLTIP" Language="th_TH">
-			<Text>รับ [icon:NAR_REW_GREATWORK] คัมภีร์ 1 เล่ม, มีช่องคัมภีร์ 2 ช่อง, +1 [icon:ATTRIBUTE_SCIENTIFIC] คะแนนคุณสมบัติทางวิทยาศาสตร์, คงอยู่ตลอดกาล, ต้องวางบนที่ราบ</Text>		<!-- Gain 1 [icon:NAR_REW_GREATWORK] Codex. Has 2 Codex slots. +1 [icon:ATTRIBUTE_SCIENTIFIC] Scientific Attribute Point. Ageless. Must be placed on Plains. -->
+			<Text>รับ [icon:NAR_REW_GREATWORK] คัมภีร์ 1 เล่ม, มีช่องคัมภีร์ 2 ช่อง, +1 [icon:ATTRIBUTE_SCIENTIFIC] คะแนนคุณสมบัติทางวิทยาศาสตร์[N]ต้องวางบนที่ราบ</Text>		<!-- Gain 1 [icon:NAR_REW_GREATWORK] Codex. Has 2 Codex slots. +1 [icon:ATTRIBUTE_SCIENTIFIC] Scientific Attribute Point.[N]Must be placed on Plains. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_ORACLE_NAME" Language="th_TH">
 			<Text>ออราเคิล</Text>		<!-- Oracle -->
@@ -3002,7 +3002,7 @@
 			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม, เมื่อได้รับรางวัลจาก [icon:NAR_REW_DEFAULT] เหตุการณ์เล่าเรื่อง จะได้รับเพิ่มเติม 20[icon:YIELD_CULTURE] วัฒนธรรม ต่อยุค, +1 [icon:ATTRIBUTE_WILDCARD] คะแนนคุณลักษณะไวลด์การ์ด, คงอยู่ตลอดกาล, ต้องวางบนพื้นดินที่ขรุขระ</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture. When gaining rewards from a [icon:NAR_REW_DEFAULT] Narrative Event, gain an additional 20 [icon:YIELD_CULTURE] Culture per Age. +1 [icon:ATTRIBUTE_WILDCARD] Wildcard Attribute Point. Ageless. Must be placed on Rough Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_ORACLE_TOOLTIP" Language="th_TH">
-			<Text>เมื่อได้รับรางวัลจาก [icon:NAR_REW_DEFAULT] เหตุการณ์เล่าเรื่อง จะได้รับเพิ่มเติม 20[icon:YIELD_CULTURE] วัฒนธรรม ต่อยุค, +1 [icon:ATTRIBUTE_WILDCARD] คะแนนคุณลักษณะไวลด์การ์ด, คงอยู่ตลอดกาล, ต้องวางบนพื้นดินที่ขรุขระ</Text>		<!-- When gaining rewards from a [icon:NAR_REW_DEFAULT] Narrative Event, gain an additional 20 [icon:YIELD_CULTURE] Culture per Age. +1 [icon:ATTRIBUTE_WILDCARD] Wildcard Attribute Point. Ageless. Must be placed on Rough Terrain. -->
+			<Text>เมื่อได้รับรางวัลจาก [icon:NAR_REW_DEFAULT] เหตุการณ์เล่าเรื่อง จะได้รับเพิ่มเติม 20[icon:YIELD_CULTURE] วัฒนธรรม ต่อยุค, +1 [icon:ATTRIBUTE_WILDCARD] คะแนนคุณลักษณะไวลด์การ์ด[N]ต้องวางบนพื้นดินที่ขรุขระ</Text>		<!-- When gaining rewards from a [icon:NAR_REW_DEFAULT] Narrative Event, gain an additional 20 [icon:YIELD_CULTURE] Culture per Age. +1 [icon:ATTRIBUTE_WILDCARD] Wildcard Attribute Point.[N]Must be placed on Rough Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_PETRA_NAME" Language="th_TH">
 			<Text>เปตรา</Text>		<!-- Petra -->
@@ -3011,7 +3011,7 @@
 			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต บน [icon:CITY_RURAL] เขตพัฒนา และ +1[icon:YIELD_GOLD] ทอง บนช่อง [icon:CITY_URBAN] เขต ในพื้นที่ทะเลทรายในถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องวางบนทะเลทราย</Text>		<!-- +1 [icon:YIELD_PRODUCTION] Production on [icon:CITY_RURAL] Improvements and +1 [icon:YIELD_GOLD] Gold on [icon:CITY_URBAN] Districts on Desert Terrain in this Settlement. Ageless. Must be placed on Desert. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_PETRA_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต บน [icon:CITY_RURAL] เขตพัฒนา และ +1[icon:YIELD_GOLD] ทอง บนช่อง [icon:CITY_URBAN] เขต ในพื้นที่ทะเลทรายในถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องวางบนทะเลทราย</Text>		<!-- +1 [icon:YIELD_PRODUCTION] Production on [icon:CITY_RURAL] Improvements and +1 [icon:YIELD_GOLD] Gold on [icon:CITY_URBAN] Districts on Desert Terrain in this Settlement. Ageless. Must be placed on Desert. -->
+			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต บน [icon:CITY_RURAL] เขตพัฒนา และ +1[icon:YIELD_GOLD] ทอง บนช่อง [icon:CITY_URBAN] เขต ในพื้นที่ทะเลทรายในถิ่นฐานนี้[N]ต้องวางบนทะเลทราย</Text>		<!-- +1 [icon:YIELD_PRODUCTION] Production on [icon:CITY_RURAL] Improvements and +1 [icon:YIELD_GOLD] Gold on [icon:CITY_URBAN] Districts on Desert Terrain in this Settlement.[N]Must be placed on Desert. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_PYRAMID_OF_THE_SUN_NAME" Language="th_TH">
 			<Text>พีระมิดแห่งพระอาทิตย์</Text>		<!-- Pyramid Of The Sun -->
@@ -3020,7 +3020,7 @@
 			<Text>+3 [icon:YIELD_CULTURE] วัฒนธรรม, +2[icon:YIELD_CULTURE] วัฒนธรรม บน [icon:CITY_URBAN] พื้นที่ย่าน ในถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องวางบนพื้นราบที่ติดกับเขต</Text>		<!-- +3 [icon:YIELD_CULTURE] Culture. +2 [icon:YIELD_CULTURE] Culture on [icon:CITY_URBAN] Quarters in this Settlement. Ageless. Must be placed on Flat Terrain adjacent to a District. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_PYRAMID_OF_THE_SUN_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม บน [icon:CITY_URBAN] พื้นที่ย่าน ในถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องวางบนพื้นราบที่ติดกับเขต</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture on [icon:CITY_URBAN] Quarters in this Settlement. Ageless. Must be placed on Flat Terrain adjacent to a District. -->
+			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม บน [icon:CITY_URBAN] พื้นที่ย่าน ในถิ่นฐานนี้[N]ต้องวางบนพื้นราบที่ติดกับเขต</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture on [icon:CITY_URBAN] Quarters in this Settlement.[N]Must be placed on Flat Terrain adjacent to a District. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_PYRAMIDS_NAME" Language="th_TH">
 			<Text>พีระมิด</Text>		<!-- Pyramids -->
@@ -3029,7 +3029,7 @@
 			<Text>+1[icon:YIELD_GOLD] ทอง และ[icon:YIELD_PRODUCTION] กำลังผลิต บนช่อง แม่น้ำเล็กและแม่น้ำใหญ่ ในถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องวางบนทะเลทราย และอยู่ติดกับแม่น้ำใหญ่"</Text>		<!-- +1[icon:YIELD_GOLD] Gold and[icon:YIELD_PRODUCTION] Production on Minor and Navigable River tiles in this Settlement. Ageless. Must be placed on Desert and adjacent to a Navigable River. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_PYRAMIDS_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_GOLD] ทอง และ[icon:YIELD_PRODUCTION] กำลังผลิต บน [icon:CITY_RURAL] เขตพัฒนา และ [icon:CITY_URBAN] เขต บนช่อง แม่น้ำเล็กและแม่น้ำใหญ่ ในถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องวางบนทะเลทราย และอยู่ติดกับแม่น้ำใหญ่ ไม่ใช่ทุนดรา</Text>		<!-- +1 [icon:YIELD_GOLD] Gold and [icon:YIELD_PRODUCTION] Production on [icon:CITY_RURAL] Improvements and [icon:CITY_URBAN] Districts on Minor and Navigable River tiles in this Settlement. Ageless. Must be placed adjacent to a Navigable River not in Tundra. -->
+			<Text>+1[icon:YIELD_GOLD] ทอง และ[icon:YIELD_PRODUCTION] กำลังผลิต บน [icon:CITY_RURAL] เขตพัฒนา และ [icon:CITY_URBAN] เขต บนช่อง แม่น้ำเล็กและแม่น้ำใหญ่ ในถิ่นฐานนี้[N]ต้องวางบนทะเลทราย และอยู่ติดกับแม่น้ำใหญ่ ไม่ใช่ทุนดรา</Text>		<!-- +1 [icon:YIELD_GOLD] Gold and [icon:YIELD_PRODUCTION] Production on [icon:CITY_RURAL] Improvements and [icon:CITY_URBAN] Districts on Minor and Navigable River tiles in this Settlement.[N]Must be placed adjacent to a Navigable River not in Tundra. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_SANCHI_STUPA_NAME" Language="th_TH">
 			<Text>สัจจีสตูป</Text>		<!-- Sanchi Stupa -->
@@ -3038,7 +3038,7 @@
 			<Text>+3 [icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุก 5[icon:YIELD_HAPPINESS] ความสุข ที่เกินมาในถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องวางบนที่ราบ</Text>		<!-- +3 [icon:YIELD_HAPPINESS] Happiness. +1 [icon:YIELD_CULTURE] Culture for every 5 excess [icon:YIELD_HAPPINESS] Happiness in this Settlement. Ageless. Must be placed on Plains. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_SANCHI_STUPA_TOOLTIP" Language="th_TH">
-			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุก 5[icon:YIELD_HAPPINESS] ความสุข ที่เกินมาในถิ่นฐานนี้ คงอยู่ตลอดกาล ต้องวางบนทุ่งนา</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture for every 5 excess [icon:YIELD_HAPPINESS] Happiness in this Settlement. Ageless. Must be placed on Plains. -->
+			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุก 5[icon:YIELD_HAPPINESS] ความสุข ที่เกินมาในถิ่นฐานนี้[N]ต้องวางบนทุ่งนา</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture for every 5 excess [icon:YIELD_HAPPINESS] Happiness in this Settlement.[N]Must be placed on Plains. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_TERRACOTTA_ARMY_NAME" Language="th_TH">
 			<Text>กองทัพเทอราคอตตา</Text>		<!-- Terracotta Army -->
@@ -3047,7 +3047,7 @@
 			<Text>+2[icon:YIELD_PRODUCTION]กำลังผลิต มอบ [icon:UNIT_ARMY_COMMANDER] ผู้บัญชาการกองทัพ ฟรีเมื่อสร้างเสร็จ เพิ่ม 25% ค่าประสบการณ์กองทัพ, คงอยู่ตลอดกาล, ต้องวางบนพื้นที่หญ้า</Text>		<!-- +2 [icon:YIELD_PRODUCTION] Production. Grants a free [icon:UNIT_ARMY_COMMANDER] Army Commander when built. +25% Commander experience. Ageless. Must be placed on Grassland. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_TERRACOTTA_ARMY_TOOLTIP" Language="th_TH">
-			<Text>มอบ [icon:UNIT_ARMY_COMMANDER] ผู้บัญชาการกองทัพ ฟรีเมื่อสร้างเสร็จ เพิ่ม 25% ค่าประสบการณ์กองทัพ, คงอยู่ตลอดกาล, ต้องวางบนพื้นที่หญ้า</Text>		<!-- Grants a free [icon:UNIT_ARMY_COMMANDER] Army Commander when built. +25% Commander experience. Ageless. Must be placed on Grassland. -->
+			<Text>มอบ [icon:UNIT_ARMY_COMMANDER] ผู้บัญชาการกองทัพ ฟรีเมื่อสร้างเสร็จ เพิ่ม 25% ค่าประสบการณ์กองทัพ[N]ต้องวางบนพื้นที่หญ้า</Text>		<!-- Grants a free [icon:UNIT_ARMY_COMMANDER] Army Commander when built. +25% Commander experience.[N]Must be placed on Grassland. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_WEIYANG_PALACE_NAME" Language="th_TH">
 			<Text>พระราชวังเว่ยหยาง</Text>		<!-- Weiyang Palace -->
@@ -3056,7 +3056,7 @@
 			<Text>+6 [icon:YIELD_DIPLOMACY] อิทธิพล, คงอยู่ตลอดกาล, ต้องวางบนพื้นที่หญ้า</Text>		<!-- +6 [icon:YIELD_DIPLOMACY] Influence. Ageless. Must be placed on Grassland. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_WEIYANG_PALACE_TOOLTIP" Language="th_TH">
-			<Text>คงอยู่ตลอดกาล ต้องวางบนทุ่งหญ้า</Text>		<!-- Ageless. Must be placed on Grassland. -->
+			<Text>ต้องวางบนทุ่งหญ้า</Text>		<!-- Must be placed on Grassland. -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_CHIEFDOM_NAME" Language="th_TH">
 			<Text>หัวหน้าเผ่า</Text>		<!-- Chiefdom -->
@@ -3684,7 +3684,7 @@
 			<Text>ชนชั้น</Text>		<!-- Castes -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_CASTES_DESCRIPTION" Language="th_TH">
-			<Text>+25%[icon:YIELD_FOOD] อาหาร ในเมือง</Text>		<!-- +25%[icon:YIELD_FOOD] Food in Towns. -->
+			<Text>+2[icon:YIELD_FOOD] อาหาร ในทุกถื่นฐาน</Text>		<!-- +2[icon:YIELD_FOOD] Food in all Settlements. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_CHARISMATIC_LEADER_NAME" Language="th_TH">
 			<Text>ผู้นำที่มีเสน่ห์</Text>		<!-- Charismatic Leader -->
@@ -3702,7 +3702,7 @@
 			<Text>เครือข่ายตระกูล</Text>		<!-- Clan Networks -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_CLAN_NETWORKS_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_FOOD] อาหาร ในทุกๆ ถิ่นฐาน</Text>		<!-- +2[icon:YIELD_FOOD] Food in all Settlements. -->
+			<Text>+20% อัตราการเติบโต ในเมืองที่มีโฟกัสการเติบโต</Text>		<!-- +20% Growth Rate in Towns with a Growing Focus. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_COINAGE_NAME" Language="th_TH">
 			<Text>เหรียญเงิน</Text>		<!-- Coinage -->
@@ -3726,7 +3726,7 @@
 			<Text>ละครและกวีนิพนธ์</Text>		<!-- Drama and Poetry -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_DRAMA_AND_POETRY_DESCRIPTION" Language="th_TH">
-			<Text>+50%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อก่อสร้างอาคารด้านวัฒนธรรม</Text>		<!-- +50%[icon:YIELD_PRODUCTION] Production towards constructing Culture Buildings. -->
+			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม บนอาคารด้านวัฒนธรรม, +20%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อก่อสร้างอาคารด้านวัฒนธรรม</Text>		<!-- +2[icon:YIELD_CULTURE] Culture on Culture Buildings. +20%[icon:YIELD_PRODUCTION] Production towards constructing Culture Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_DRILLS_NAME" Language="th_TH">
 			<Text>การฝึกอบรม</Text>		<!-- Drills -->
@@ -3756,7 +3756,7 @@
 			<Text>วรรณกรรม</Text>		<!-- Literature -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_LITERATURE_DESCRIPTION" Language="th_TH">
-			<Text>+50%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้างอาคารด้านวิทยาศาสตร์</Text>		<!-- +50%[icon:YIELD_PRODUCTION] Production towards constructing Science Buildings. -->
+			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์ บนอาคารด้านวิทยาศาสตร์, +20%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้างอาคารด้านวิทยาศาสตร์</Text>		<!-- +2[icon:YIELD_SCIENCE] Science on Science Buildings. +20%[icon:YIELD_PRODUCTION] Production towards constructing Science Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_MEDICINE_NAME" Language="th_TH">
 			<Text>ยารักษา</Text>		<!-- Medicine -->
@@ -5232,7 +5232,7 @@
 			<Text>ถ้ำหมาป่า</Text>		<!-- Wolf Cave -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_22001A_COMPLETION" Language="th_TH">
-			<Text>ฝูงหมาป่าได้ถูกขับไล่ออกจากบ้านของพวกเขาเนื่องจากการขยายตัวของมนุษย์ พวกเขาเริ่มคุกคามนักเดินทาง ซึ่งทำให้เจ้าหน้าที่ที่ไม่สามารถช่วยเหลือได้ของหมู่บ้าน {1_Independent} รู้สึกหงุดหงิด</Text>		<!-- A pack of wolves has been driven from their home by human expansion. They have begun threatening travelers, frustrating the nearby village of {1_Independent}'s helpless officials. -->
+			<Text>ฝูงหมาป่าได้ถูกขับไล่ออกจากบ้านของพวกเขาเนื่องจากการขยายตัวของมนุษย์ พวกเขาเริ่มคุกคามนักเดินทาง ซึ่งทำให้เจ้าหน้าที่ที่ไม่สามารถช่วยเหลือได้ของหมู่บ้าน {1_Homeland_Independent} รู้สึกหงุดหงิด</Text>		<!-- A pack of wolves has been driven from their home by human expansion. They have begun threatening travelers, frustrating the nearby village of {1_Homeland_Independent}'s helpless officials. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_22001B_NAME" Language="th_TH">
 			<Text>จ้างนักล่ามาจัดการปัญหาหมาป่า</Text>		<!-- Hire hunters to deal with the wolf problem. -->
@@ -5244,7 +5244,7 @@
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_22001C_NAME" Language="th_TH">
-			<Text>ปล่อยให้ {1_Independent} ต้องเผชิญกับปัญหาหมาป่า</Text>		<!-- Leave {1_Independent} with its wolf problem. -->
+			<Text>ปล่อยให้ {1_Homeland_Independent} ต้องเผชิญกับปัญหาหมาป่า</Text>		<!-- Leave {1_Homeland_Independent} with its wolf problem. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_22001C_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
@@ -5256,10 +5256,10 @@
 			<Text>ปิด</Text>		<!-- Close. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_22001D_DESCRIPTION" Language="th_TH">
-			<Text>พัฒนาความสัมพันธ์กับ {1_Independent} อย่างมาก</Text>		<!-- Greatly improve Relationship with {1_Independent}. -->
+			<Text>พัฒนาความสัมพันธ์กับ {1_Homeland_Independent} อย่างมาก</Text>		<!-- Greatly improve Relationship with {1_Homeland_Independent}. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_22001D_COMPLETION" Language="th_TH">
-			<Text>นักท่องเที่ยวที่ออกจาก {1_Independent} กลับสู่ถนน รู้สึกปลอดภัยอีกครั้ง</Text>		<!-- Travelers leaving {1_Independent} return to the road, feeling safe again. -->
+			<Text>นักท่องเที่ยวที่ออกจาก {1_Homeland_Independent} กลับสู่ถนน รู้สึกปลอดภัยอีกครั้ง</Text>		<!-- Travelers leaving {1_Homeland_Independent} return to the road, feeling safe again. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_22002A_STORYTITLE" Language="th_TH">
 			<Text>นักการทูตผู้เป็นที่รู้จัก</Text>		<!-- Reclusive Diplomat -->
@@ -5688,7 +5688,7 @@
 			<Text>ธงที่น่าสงสัย</Text>		<!-- Suspicious Flag -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23002A_COMPLETION" Language="th_TH">
-			<Text>ผู้แทนจากหมู่บ้านอิสระ {1_Independent} ได้แสดงความกังวลเกี่ยวกับค่ายทหารรับจ้างที่ตั้งอยู่ใกล้เคียง    ทหารกล่าวว่าพวกเขาเพียงแค่ต้องการพักผ่อน แต่ธงที่พวกเขาปักอยู่กลับน่าสงสัยที่สำคัญ</Text>		<!-- Representatives from the independent village of {1_Independent} have expressed concerns over a nearby mercenary camp. The soldiers say they merely wish to rest. But the flag they fly is suspicious. -->
+			<Text>ผู้แทนจากหมู่บ้านอิสระ {1_Homeland_Independent} ได้แสดงความกังวลเกี่ยวกับค่ายทหารรับจ้างที่ตั้งอยู่ใกล้เคียง ทหารกล่าวว่าพวกเขาเพียงแค่ต้องการพักผ่อน แต่ธงที่พวกเขาปักอยู่กลับน่าสงสัยที่สำคัญ</Text>		<!-- Representatives from the independent village of {1_Homeland_Independent} have expressed concerns over a nearby mercenary camp. The soldiers say they merely wish to rest. But the flag they fly is suspicious. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23002B_NAME" Language="th_TH">
 			<Text>ให้ที่พักกับทหารรับจ้าง</Text>		<!-- Host the mercenaries. -->
@@ -5712,16 +5712,16 @@
 			<Text>ปิด</Text>		<!-- Close. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23002D_DESCRIPTION" Language="th_TH">
-			<Text>พัฒนาความสัมพันธ์กับ {1_Independent}</Text>		<!-- Improve Relationship with {1_Independent}. -->
+			<Text>พัฒนาความสัมพันธ์กับ {1_Homeland_Independent}</Text>		<!-- Improve Relationship with {1_Homeland_Independent}. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23002D_COMPLETION" Language="th_TH">
-			<Text>การมีอยู่ของทหารรับจ้างไม่เป็นที่ยินดีใน {1_Capital} อีกต่อไป แต่อย่างน้อย {2_Independent} ก็รู้สึกโล่งใจ</Text>		<!-- The mercenaries' presence is no more welcome in {1_Capital}, but at least {2_Independent} is relieved. -->
+			<Text>การมีอยู่ของทหารรับจ้างไม่เป็นที่ยินดีใน {1_Capital} อีกต่อไป แต่อย่างน้อย {2_Homeland_Independent} ก็รู้สึกโล่งใจ</Text>		<!-- The mercenaries' presence is no more welcome in {1_Capital}, but at least {2_Homeland_Independent} is relieved. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23003A_STORYTITLE" Language="th_TH">
 			<Text>วัวมีค่า</Text>		<!-- Prized Cattle -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23003A_COMPLETION" Language="th_TH">
-			<Text>ฝูงวัวมีค่าหยุดกินหญ้าอยู่ที่นี่ เนื้ออันอุดมของพวกมันเป็นของอร่อยในบ้านเกิด แต่พวกคนเลี้ยงวัวบอกว่าพวกเขากำลังมุ่งหน้าไปที่ {1_Independent}</Text>		<!-- A herd of prized cattle has stopped to graze. Their rich meat is a delicacy back home, but the cowherds say they are bound for nearby {1_Independent}. -->
+			<Text>ฝูงวัวมีค่าหยุดกินหญ้าอยู่ที่นี่ เนื้ออันอุดมของพวกมันเป็นของอร่อยในบ้านเกิด แต่พวกคนเลี้ยงวัวบอกว่าพวกเขากำลังมุ่งหน้าไปที่ {1_Homeland_Independent}</Text>		<!-- A herd of prized cattle has stopped to graze. Their rich meat is a delicacy back home, but the cowherds say they are bound for nearby {1_Homeland_Independent}. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23003B_NAME" Language="th_TH">
 			<Text>ขโมยวัวเหล่านี้</Text>		<!-- Steal the cattle. -->
@@ -5730,7 +5730,7 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23003B_IMPERATIVE" Language="th_TH">
-			<Text>{1_independent} กลาย เป็นปรปักษ์ (ลบความก้าวหน้าทั้งหมดในสร้างความฉันมิตร) และจะส่งการโจมตีมายัง {2_capital}</Text>		<!-- {1_independent} becomes Hostile (removes all progress towards Befriending) and sends a Raid to {2_capital}. -->
+			<Text>{1_Homeland_Independent} กลาย เป็นปรปักษ์ (ลบความก้าวหน้าทั้งหมดในสร้างความฉันมิตร) และจะส่งการโจมตีมายัง {2_capital}</Text>		<!-- {1_Homeland_Independent} becomes Hostile (removes all progress towards Befriending) and sends a Raid to {2_capital}. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23003C_NAME" Language="th_TH">
 			<Text>มื้ออาหารไม่ได้มีค่าเท่าศัตรู</Text>		<!-- A meal isn't worth an enemy. -->
@@ -5748,7 +5748,7 @@
 			<Text>{1_reward} และ {2_reward} ไปยัง {3_capital}</Text>		<!-- {1_reward} and {2_reward} to {3_capital}. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23003D_COMPLETION" Language="th_TH">
-			<Text>เนื้อวัวหายไปแทบในคืนเดียว ในขณะที่ความสัมพันธ์กับ {1_Independent} ได้รับบาดแผลอย่างถาวร หลายคนถือว่ามันเป็นการแลกเปลี่ยนที่ยุติธรรม</Text>		<!-- The beef is gone virtually overnight, while relations with {1_Independent} are permanently stained. Many consider it a fair trade. -->
+			<Text>เนื้อวัวหายไปแทบในคืนเดียว ในขณะที่ความสัมพันธ์กับ {1_Homeland_Independent} ได้รับบาดแผลอย่างถาวร หลายคนถือว่ามันเป็นการแลกเปลี่ยนที่ยุติธรรม</Text>		<!-- The beef is gone virtually overnight, while relations with {1_Homeland_Independent} are permanently stained. Many consider it a fair trade. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_23004A_STORYTITLE" Language="th_TH">
 			<Text>แร่คริสตัลลึกลับ</Text>		<!-- Mysterious Minerals -->
@@ -6522,7 +6522,7 @@
 			<Text>เส้นทางการค้าถูกปล้น</Text>		<!-- plundered trade route -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21135A_COMPLETION" Language="th_TH">
-			<Text>โจรได้ปล้นคาราวานพ่อค้าที่เดินทางผ่านหมู่บ้านใกล้เคียง เผาทุกอย่างที่ไร้ค่าให้พวกเขา ควันไฟเป็นสัญญาณเตือนให้หลีกเลี่ยง {1_independent}</Text>		<!-- Brigands have been raiding the merchant caravans that frequent nearby villages, taking a torch to everything that is useless to them. The smoke is a clear warning to give {1_independent} a wide berth. -->
+			<Text>โจรได้ปล้นคาราวานพ่อค้าที่เดินทางผ่านหมู่บ้านใกล้เคียง เผาทุกอย่างที่ไร้ค่าให้พวกเขา ควันไฟเป็นสัญญาณเตือนให้หลีกเลี่ยง {1_Homeland_Independent}</Text>		<!-- Brigands have been raiding the merchant caravans that frequent nearby villages, taking a torch to everything that is useless to them. The smoke is a clear warning to give {1_Homeland_Independent} a wide berth. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21135B_NAME" Language="th_TH">
 			<Text>ยึดเส้นทางการค้านี้</Text>		<!-- Take over the trade route. -->
@@ -6531,10 +6531,10 @@
 			<Text>{1_child_reward}</Text>		<!-- {1_child_reward} -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21135B_IMPERATIVE" Language="th_TH">
-			<Text>{1_independent} กลายเป็นศัตรู (ลบความคืบหน้าทั้งหมดในการเป็นมิตร) และส่งกองโจรไปยัง {2_capital}</Text>		<!-- {1_independent} becomes Hostile (removes all progress towards Befriending) and sends a Raid to {2_capital}. -->
+			<Text>{1_Homeland_Independent} กลายเป็นศัตรู (ลบความคืบหน้าทั้งหมดในการเป็นมิตร) และส่งกองโจรไปยัง {2_capital}</Text>		<!-- {1_Homeland_Independent} becomes Hostile (removes all progress towards Befriending) and sends a Raid to {2_capital}. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21135C_NAME" Language="th_TH">
-			<Text>แสดงความเสียใจต่อ {1_independent}</Text>		<!-- Offer sympathies to {1_independent}. -->
+			<Text>แสดงความเสียใจต่อ {1_Homeland_Independent}</Text>		<!-- Offer sympathies to {1_Homeland_Independent}. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21135C_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
@@ -7314,10 +7314,10 @@
 			<Text>แทมโพส</Text>		<!-- Tampos -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_16_NAME" Language="th_TH">
-			<Text>คัมภีร์</Text>		<!-- Codex -->
+			<Text>พีระมิดขั้นบันได</Text>		<!-- Step Pyramid -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_17_NAME" Language="th_TH">
-			<Text>พีระมิดขั้นบันได</Text>		<!-- Step Pyramid -->
+			<Text>คัมภีร์</Text>		<!-- Codex -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_18_NAME" Language="th_TH">
 			<Text>วงปรัชญา</Text>		<!-- Philosopher's Circle -->
@@ -7395,76 +7395,76 @@
 			<Text>สกรูของอาร์คิมีดีส</Text>		<!-- Archimedes' Screw -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_1_DESCRIPTION" Language="th_TH">
-			<Text>อนุญาตให้สร้าง เขตพัฒนาปราการเนินเขา, ปราการเนินเขาให้ผลผลิต +2[icon:YIELD_PRODUCTION] นอกจากนี้ยัง +1 ระยะมองเห็นและ +5 ฟื้นฟูต่อเทิร์นให้กับยูนิตทหาร ในแผ่นดินนั้น, ถือว่าเป็นป้อมปราการ, +6 พลังต่อสู้ เมื่อทำการป้องกัน, ต้องวางในพื้นที่ที่เป็นภูมิประเทศขรุขระ</Text>		<!-- Allows the construction of the Hillfort Improvement. The Hillfort provides +2[icon:YIELD_PRODUCTION] Production. It also gives +1 sight, and +5 healing per turn to Military Units on the tile. Counts as Fortification, +6 Combat Strength when defending. Must be placed on Rough Terrain. -->
+			<Text>อนุญาตให้สร้าง เขตพัฒนาพิเศษปราการเนินเขา [n]ปราการเนินเขาให้ผลผลิต +2[icon:YIELD_PRODUCTION] นอกจากนี้ยัง +1 [icon:Action_Showall] ระยะมองเห็นและ +5 [icon:Action_Heal] ฟื้นฟูต่อเทิร์นให้กับยูนิตทหาร ในแผ่นดินนั้น, ถือว่าเป็นป้อมปราการ, +6 [icon:NAR_REW_COMBAT]  พลังต่อสู้ เมื่อทำการป้องกัน, ต้องวางในพื้นที่ที่เป็นภูมิประเทศขรุขระ</Text>		<!-- Allows the construction of the Hillfort Unique Improvement. [n]The Hillfort provides +2[icon:YIELD_PRODUCTION] Production. It also gives +1 [icon:Action_Showall]Sight, and +5 [icon:Action_Heal]Healing per turn to Military Units on the tile. Counts as a Fortification, +6 [icon:NAR_REW_COMBAT]Combat Strength when defending. Must be placed on Rough Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_2_DESCRIPTION" Language="th_TH">
-			<Text>ผู้บัญชาการได้รับประสบการณ์ +50%</Text>		<!-- Commanders earn +50% Experience. -->
+			<Text>[icon:UNIT_ARMY_COMMANDER]ผู้บัญชาการได้รับประสบการณ์ +50%</Text>		<!-- [icon:UNIT_ARMY_COMMANDER]Commanders earn +50% Experience. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_3_DESCRIPTION" Language="th_TH">
-			<Text>+1 พลังต่อสู้ ให้กับยูนิตระยะไกลและยูนิตปิดล้อม, ในแต่ละนครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- +1 Combat Strength to Ranged and Siege Units for every City-State you are Suzerain of. -->
+			<Text>+1 [icon:Action_Ranged]พลังต่อสู้ ให้กับยูนิตระยะไกลและยูนิตปิดล้อม, ในแต่ละ [icon:CITYSTATE]นครรัฐทางทหาร ที่คุณเป็นเจ้านคร</Text>		<!-- +1 [icon:Action_Ranged]Combat Strength to Ranged and Siege Units for every [icon:CITYSTATE]Militaristic City-State you are Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_4_DESCRIPTION" Language="th_TH">
-			<Text>อนุญาตให้ฝึกยูนิตภาคพื้น โฟเอเดราตี</Text>		<!-- Allows the training of the Foederati Land Unit. -->
+			<Text>อนุญาตให้ฝึกยูนิตภาคพื้น [icon:UNIT_FOEDERATI]โฟเอเดราตี, โดยมีราคาซื้อถูกลงถึง 20%, แต่ละยูนิตจะมีราคาแพงกว่ายูนิตก่อนหน้าเล็กน้อย, เพิ่ม +2 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับแต่ละยูนิตทหารที่อยู่ติดกัน</Text>		<!-- Allows the training of the [icon:UNIT_FOEDERATI]Foederati Land Unit. Up to 20% cheaper to purchase. Each one is slightly more expensive than the last. +2 [icon:NAR_REW_COMBAT]Combat Strength for each adjacent Military Unit. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_5_DESCRIPTION" Language="th_TH">
-			<Text>+1 พลังต่อสู้ สำหรับยูนิตทหารราบ, ในแต่ละนครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- +1 Combat Strength to Infantry Units for every City-State you are Suzerain of. -->
+			<Text>+1 [icon:NAR_REW_COMBAT]พลังต่อสู้ สำหรับยูนิตทหารราบ, ในแต่ละ [icon:CITYSTATE]นครรัฐทางทหาร ที่คุณเป็นเจ้านคร</Text>		<!-- +1 [icon:NAR_REW_COMBAT]Combat Strength to Infantry Units for every [icon:CITYSTATE]Militaristic City-State you are Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_6_DESCRIPTION" Language="th_TH">
-			<Text>อนุญาตให้สร้าง เขตพัฒนาพิเศษ เมกาลิธ, เมกาลิธจะให้ +2[icon:YIELD_CULTURE] วัฒนธรรม และให้ +1 [icon:YIELD_FOOD] อาหาร สำหรับทุกแปลง ที่ตั้งอยู่ใกล้เคียงในชนบท, ต้องวางบนพื้นที่ราบ</Text>		<!-- Allows the construction of the Megalith Unique Improvement. The Megalith provides +2[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_FOOD] Food for every adjacent Rural tile. Must be placed on Flat Terrain. -->
+			<Text>อนุญาตให้สร้าง เขตพัฒนาพิเศษ เมกาลิธ [n]เมกาลิธจะให้ +2[icon:YIELD_CULTURE] วัฒนธรรม และให้ +1 [icon:YIELD_FOOD] อาหาร สำหรับทุกแปลง ที่ตั้งอยู่ใกล้เคียง [icon:CITY_IMPROVEMENTS_LIST]พื้นที่พัฒนา, ต้องวางบนพื้นที่ราบ</Text>		<!-- Allows the construction of the Megalith Unique Improvement. [n]The Megalith provides +2[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_FOOD] Food for every adjacent [icon:CITY_IMPROVEMENTS_LIST]Improvement. Must be placed on Flat Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_7_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม แก่ อนุสาวรีย์, ในแต่ละนครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- +2[icon:YIELD_CULTURE] Culture to Monuments for every City-State you are Suzerain of. -->
+			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม บน [icon:YIELD_CULTURE]อาคารด้านวัฒนธรรม</Text>		<!-- +2 [icon:YIELD_CULTURE]Culture on [icon:YIELD_CULTURE]Culture Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_8_DESCRIPTION" Language="th_TH">
-			<Text>รับ แนวคิดฟรี มื่อคุณเป็น เจ้านครของนครรัฐ รวมถึงที่นี่ด้วย</Text>		<!-- Receive a Free Civic when you become Suzerain of a City-State, including this one. -->
+			<Text>รับ [icon:RADIAL_CIVICS] แนวคิดฟรี</Text>		<!-- Receive a free [icon:RADIAL_CIVICS] Civic.  -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_9_DESCRIPTION" Language="th_TH">
-			<Text>+1 ช่องนโยบายสังคม</Text>		<!-- +1 Social Policy slot. -->
+			<Text>+1 [icon:NAR_REW_TRADITION_SLOT] ช่องนโยบายสังคม</Text>		<!-- +1 [icon:NAR_REW_TRADITION_SLOT]Social Policy Slot. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_10_DESCRIPTION" Language="th_TH">
-			<Text>+5%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้างสิ่งมหัศจรรย์, ในแต่ละนครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- +5%[icon:YIELD_PRODUCTION] Production towards constructing Wonders for every City-State you are Suzerain of. -->
+			<Text>+5%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้าง [icon:CITY_WONDERS_LIST] สิ่งมหัศจรรย์, ในแต่ละ [icon:CITYSTATE]นครรัฐทางวัฒนธรรม ที่คุณเป็นเจ้านคร</Text>		<!-- +5%[icon:YIELD_PRODUCTION] Production towards constructing [icon:CITY_WONDERS_LIST]Wonders for every [icon:CITYSTATE]Cultural City-State you are Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_11_DESCRIPTION" Language="th_TH">
-			<Text>อนุญาตให้สร้าง เขตพัฒนาพิเศษ เอ็มโพเรียม, เอ็มโพเรียม ให้ +2[icon:YIELD_GOLD] ทอง +2[icon:YIELD_GOLD] ทอง ในเมืองหากเมืองนั้น มีทรัพยากรอย่างน้อยหนึ่งประเภทที่มอบหมายให้, ไม่สามารถวางอยู่ติดกับ เอ็มโพเรียม อื่นได้</Text>		<!-- Allows the construction of the Emporium Unique Improvement. The Emporium provides +2[icon:YIELD_GOLD] Gold. +2[icon:YIELD_GOLD] Gold in Cities if they have at least one Resource assigned to them. Cannot be placed adjacent to another Emporium. -->
+			<Text>อนุญาตให้สร้าง เขตพัฒนาพิเศษ เอ็มโพเรียม [n]เอ็มโพเรียม ให้ +2[icon:YIELD_GOLD] ทอง +2[icon:YIELD_GOLD] ทอง ใน [icon:YIELD_CITIES] เมืองใหญ่ หากเมืองนั้น มี [icon:RADIAL_RESOURCES] ทรัพยากร อย่างน้อยหนึ่งประเภทที่จัดสรรให้, ไม่สามารถวางอยู่ติดกับ เอ็มโพเรียม อื่นได้</Text>		<!-- Allows the construction of the Emporium Unique Improvement. [n]The Emporium provides +2[icon:YIELD_GOLD]Gold. +2[icon:YIELD_GOLD]Gold in [icon:YIELD_CITIES]Cities if they have at least one [icon:RADIAL_RESOURCES] Resource assigned to them. Cannot be placed adjacent to another Emporium. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_12_DESCRIPTION" Language="th_TH">
-			<Text>อาคารด้านทองจะได้รับ +1[icon:YIELD_GOLD] ทอง, ในแต่ละนครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- Gold buildings receive +1[icon:YIELD_GOLD] Gold for every City-State you are Suzerain of. -->
+			<Text>+4[icon:YIELD_GOLD] ทอง บน [icon:YIELD_GOLD]อาคารด้านทอง</Text>		<!-- +4[icon:YIELD_GOLD]Gold on [icon:YIELD_GOLD]Gold Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_13_DESCRIPTION" Language="th_TH">
-			<Text>รับแร่ลาเปซ ลาซูลีในเมืองหลวง ลาเปซ ลาซูลีให้ +4[icon:YIELD_PRODUCTION] กำลังผลิต และ +5%[icon:YIELD_GOLD] ทอง </Text>		<!-- Receive the Lapis Lazuli Resource in the Capital. Lapis Lazuli provides +4[icon:YIELD_PRODUCTION] Production and +5%[icon:YIELD_GOLD] Gold. -->
+			<Text>รับ [icon:RADIAL_RESOURCES] ทรัพยากร ลาเปซ ลาซูลี ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง [n]ลาเปซ ลาซูลีให้ +4[icon:YIELD_PRODUCTION] กำลังผลิต และ +5%[icon:YIELD_GOLD] ทอง </Text>		<!-- Receive the Lapis Lazuli [icon:RADIAL_RESOURCES] Resource in the [icon:NOTIFICATION_SELECT_CAPITAL]Capital. [n]Lapis Lazuli provides +4[icon:YIELD_PRODUCTION] Production and +5%[icon:YIELD_GOLD]Gold. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_14_DESCRIPTION" Language="th_TH">
-			<Text>+5%[icon:YIELD_GOLD] ทอง, ในแต่ละนครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- +5%[icon:YIELD_GOLD] Gold for every City-State you are Suzerain of. -->
+			<Text>+1 [icon:YIELD_GOLD]ทอง จาก [icon:TRADE_ROUTE]เส้นทางการค้า ที่ใช้งานอยู่ สำหรับแต่ละ [icon:CITYSTATE]นครรัฐทางเศรษฐกิจ ที่คุณเป็นเจ้านคร</Text>		<!-- +1 [icon:YIELD_GOLD]Gold on active [icon:TRADE_ROUTE]Trade Routes for each [icon:CITYSTATE]Economic City-State you are Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_15_DESCRIPTION" Language="th_TH">
-			<Text>+5 ระยะเส้นทางการค้า, ในแต่ละนครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- +5 Trade Route range for every City-State you are Suzerain of. -->
+			<Text>+5 [icon:TRADE_ROUTE] ระยะเส้นทางการค้า, ในแต่ละ [icon:CITYSTATE]นครรัฐทางเศรษฐกิจ ที่คุณเป็นเจ้านคร</Text>		<!-- +5 [icon:TRADE_ROUTE]Trade Route range for every[icon:CITYSTATE]Economic City-State you are Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_16_DESCRIPTION" Language="th_TH">
-			<Text>รับคัมภีร์</Text>		<!-- Receive a Codex. -->
+			<Text>อนุญาตให้สร้างพื้นที่พัฒนา พีระมิดขั้นบันได [n]พีระมิดขั้นบันไดให้ +2[icon:YIELD_SCIENCE] วิทยาศาสตร์ และ +1[icon:YIELD_HAPPINESS] ความสุข สำหรับทุกช่องที่อยู่ติดกับแม่น้ำ ต้องวางบนแผ่นดินที่มีผลผลิต [icon:YIELD_HAPPINESS] ความสุข ตามธรรมชาติ</Text>		<!-- Allows the construction of the Step Pyramid Unique Improvement. [n]The Step Pyramid provides +2[icon:YIELD_SCIENCE] Science. +1[icon:YIELD_HAPPINESS] Happiness for every adjacent River tile. Must be placed on tiles with a natural [icon:YIELD_HAPPINESS]Happiness yield. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_17_DESCRIPTION" Language="th_TH">
-			<Text>อนุญาตให้สร้าง เขตพัฒนาพิเศษ พีระมิดขั้นบันได, พีระมิดขั้นบันได ให้ +2[icon:YIELD_SCIENCE] วิทยาศาสตร์ และ +1[icon:YIELD_HAPPINESS] ความสุข สำหรับทุกช่องที่อยู่ติดกับแม่น้ำ ต้องวางบนช่องที่มีผลผลิตความสุขตามธรรมชาติ</Text>		<!-- Allows the construction of the Step Pyramid Unique Improvement. The Step Pyramid provides +2[icon:YIELD_SCIENCE] Science. +1[icon:YIELD_HAPPINESS] Happiness for every adjacent River tile. Must be placed on tiles with a natural Happiness yield. -->
+			<Text>รับฟรี [icon:NAR_REW_GREATWORK]คัมภีร์</Text>		<!-- Receive a free[icon:NAR_REW_GREATWORK]Codex. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_18_DESCRIPTION" Language="th_TH">
-			<Text>อาคารด้านวิทยาศาสตร์จะได้รับ +1[icon:YIELD_SCIENCE] วิทยาศาสตร์, ในแต่ละนครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- Science buildings receive +1[icon:YIELD_SCIENCE] Science for every City-State you are Suzerain of. -->
+			<Text>+2 [icon:YIELD_SCIENCE]วิทยาศาสตร์ บน [icon:YIELD_SCIENCE] อาคารด้านวิทยาศาสตร์</Text>		<!-- +2 [icon:YIELD_SCIENCE]Science on [icon:YIELD_SCIENCE]Science Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_19_DESCRIPTION" Language="th_TH">
-			<Text>เมื่อคุณกลายเป็นเจ้านครของนครรัฐ คุณจะได้รับเทคโนโลยีฟรี รวมถึงเมืองนี้ด้วย</Text>		<!-- Receive a free Technology when you become Suzerain of a City-State, including this one. -->
+			<Text>รับฟรี icon:RADIAL_TECH]เทคโนโลยี</Text>		<!-- Receive a free [icon:RADIAL_TECH] Technology. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_20_DESCRIPTION" Language="th_TH">
-			<Text>+20%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้าง อาคารด้านวิทยาศาสตร์, ในแต่ละนครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards constructing Science Buildings for every City-State you are Suzerain of. -->
+			<Text>+5%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อก่อสร้าง [icon:CITY_BUILDING_LIST]อาคาร, ในแต่ละ [icon:CITYSTATE]นครรัฐด้านวิทยาศาสตร์ ที่คุณเป็นเจ้านคร</Text>		<!-- +5%[icon:YIELD_PRODUCTION] Production towards constructing [icon:CITY_BUILDING_LIST] Buildings for every [icon:CITYSTATE]Scientific City-State you are Suzerain of. -->
 		</Replace>
 		<Replace Tag="CITY_STATE_MILITARISTIC_BONUS_ANTIQUITY_6_DESCRIPTION" Language="th_TH">
-			<Text>+1 ขีดจำกัดการตั้งถิ่นฐาน</Text>		<!-- +1 Settlement Limit. -->
+			<Text>+1 [icon:SETTLEMENT_LIMIT]ขีดจำกัดการตั้งถิ่นฐาน</Text>		<!-- +1 [icon:SETTLEMENT_LIMIT]Settlement Limit. -->
 		</Replace>
 		<Replace Tag="CITY_STATE_MILITARISTIC_BONUS_ANTIQUITY_7_DESCRIPTION" Language="th_TH">
-			<Text>+1 สนับสนุนสงคราม โบนัสนี้สามารถเลือกได้โดยหลายอารยธรรม</Text>		<!-- +1 War Support. This bonus can be chosen by multiple Civilizations. -->
+			<Text>+1 [icon:WAR_SUPPORT]แต้มสนับสนุนสงคราม โบนัสนี้สามารถเลือกได้โดยหลายอารยธรรม</Text>		<!-- +1 [icon:WAR_SUPPORT]War Support. This bonus can be chosen by multiple Civilizations. -->
 		</Replace>
 		<Replace Tag="CITY_STATE_CULTURAL_BONUS_ANTIQUITY_6_DESCRIPTION" Language="th_TH">
-			<Text>+2 วัฒนธรรม บนคัมภีร์ที่จัดแสดง</Text>		<!-- +2 Culture on displayed Codices. -->
+			<Text>+2 [icon:YIELD_CULTURE]วัฒนธรรม บน [icon:NAR_REW_GREATWORK] คัมภีร์ที่จัดแสดง</Text>		<!-- +2[icon:YIELD_CULTURE]Culture on displayed [icon:NAR_REW_GREATWORK]Codices. -->
 		</Replace>
 		<Replace Tag="CITY_STATE_CULTURAL_BONUS_ANTIQUITY_7_DESCRIPTION" Language="th_TH">
-			<Text>+1 วัฒนธรรม บนอาคารคลังสินค้า โบนัสนี้สามารถเลือกได้โดยหลายอารยธรรม</Text>		<!-- +1 Culture on Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
+			<Text>+1 [icon:YIELD_CULTURE]วัฒนธรรม บน [icon:YIELD_WAREHOUSE]อาคารคลังสินค้า โบนัสนี้สามารถเลือกได้โดยหลายอารยธรรม</Text>		<!-- +1[icon:YIELD_CULTURE]Culture on [icon:YIELD_WAREHOUSE]Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
 		</Replace>
 		<Replace Tag="CITY_STATE_EXPANSIONIST_BONUS_ANTIQUITY_1_DESCRIPTION" Language="th_TH">
 			<Text>อนุญาตให้สร้างการปรับปรุงยัคชาล [n]ยัคชาลให้ +2 [icon:YIELD_FOOD]อาหาร +1 [icon:YIELD_FOOD]อาหาร บนฟาร์มในพื้นที่ทะเลทรายในถิ่นฐาน ต้องวางบนทะเลทราย ห้ามวางติดกับยัคชาลอื่น</Text>		<!-- Allows the creation of the Yakhchāl Improvement. [n]The Yakhchāl provides +2 [icon:YIELD_FOOD]Food. +1 [icon:YIELD_FOOD]Food on Farms on Desert Terrain in the Settlement. Must be placed on Desert. Cannot be placed adjacent to another Yakhchāl. -->
@@ -7509,16 +7509,16 @@
 			<Text>+1 [icon:YIELD_HAPPINESS]ความสุข บน [icon:YIELD_WAREHOUSE]อาคารคลังสินค้า โบนัสนี้สามารถเลือกได้โดยหลายอารยธรรม</Text>		<!-- +1 [icon:YIELD_HAPPINESS]Happiness on [icon:YIELD_WAREHOUSE]Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
 		</Replace>
 		<Replace Tag="CITY_STATE_ECONOMIC_BONUS_ANTIQUITY_6_DESCRIPTION" Language="th_TH">
-			<Text>+2 ความจุทรัพยากร ในเมืองหลวง</Text>		<!-- +2 Resource Capacity in the Capital. -->
+			<Text>+2 [icon:RADIAL_RESOURCES] ความจุทรัพยากร ใน [icon:NOTIFICATION_SELECT_CAPITAL]เมืองหลวง</Text>		<!-- +2 [icon:RADIAL_RESOURCES] Resource Capacity in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital. -->
 		</Replace>
 		<Replace Tag="CITY_STATE_ECONOMIC_BONUS_ANTIQUITY_7_DESCRIPTION" Language="th_TH">
-			<Text>+1 ทอง บนอาคารคลังสินค้า โบนัสนี้สามารถเลือกได้โดยหลายอารยธรรม</Text>		<!-- +1 Gold on Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
+			<Text>+1 [icon:YIELD_GOLD] ทอง บน [icon:YIELD_WAREHOUSE]อาคารคลังสินค้า โบนัสนี้สามารถเลือกได้โดยหลายอารยธรรม</Text>		<!-- +1[icon:YIELD_GOLD]Gold on [icon:YIELD_WAREHOUSE]Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
 		</Replace>
 		<Replace Tag="CITY_STATE_SCIENTIFIC_BONUS_ANTIQUITY_6_DESCRIPTION" Language="th_TH">
-			<Text>+2 วิทยาศาสตร์ บนคัมภีร์ที่จัดแสดง</Text>		<!-- +2 Science on displayed Codices. -->
+			<Text>+2 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บน [icon:NAR_REW_GREATWORK]คัมภีร์ที่จัดแสดง</Text>		<!-- +2[icon:YIELD_SCIENCE]Science on displayed [icon:NAR_REW_GREATWORK]Codices. -->
 		</Replace>
 		<Replace Tag="CITY_STATE_SCIENTIFIC_BONUS_ANTIQUITY_7_DESCRIPTION" Language="th_TH">
-			<Text>+1 วิทยาศาสตร์ บนอาคารคลังสินค้า โบนัสนี้สามารถเลือกได้โดยหลายอารยธรรม</Text>		<!-- +1 Science on Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
+			<Text>+1 [icon:YIELD_SCIENCE]วิทยาศาสตร์ บน [icon:YIELD_WAREHOUSE]อาคารคลังสินค้า โบนัสนี้สามารถเลือกได้โดยหลายอารยธรรม</Text>		<!-- +1[icon:YIELD_SCIENCE]Science on [icon:YIELD_WAREHOUSE]Warehouse Buildings. This bonus can be chosen by multiple Civilizations. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_AKSUM" Language="th_TH">
 			<Text>เรือดอว์ที่มีใบสามเหลี่ยมบากคลื่น ขณะที่อักซุมออกเดินทางค้นหาขอบฟ้าและตลาดใหม่ ๆ ในเมืองที่มีป้อมปราการ ผู้ปกครองแห่งอักซุมสลักมรดกไว้บนหินและยกขึ้นสู่สวรรค์ จงจับพวงมาลัยและชักใบเรือของอักซุม นำลูกเรือของท่านไปสู่ความมั่งคั่งหรือการพิชิต จงชูธงฮาเวลติและประกาศให้อักซุมเป็นเจ้าแห่งยุคนี้</Text>		<!-- Triangle-rigged dhows cut the waves, as Aksum ventures in search of new horizons and new markets. In their walled cities, the rulers of Aksum carve their legacy in stone and raise it to the heavens. Take the rudder and hoist the sails of Aksum, and steer your crew to luxury or conquest. Raise the hawilti and herald Aksum as the lords of the age. -->
@@ -9190,7 +9190,7 @@
 			<Text>สมบัติลับนี้ควรจะนำกลับไปฝังใหม่</Text>		<!-- The secret cache should be re-buried. -->
 		</Replace>
 		<Replace Tag="LOC_3339C_DESCRIPTION" Language="th_TH">
-			<Text>เปิดเผยสถานที่ของ {1_Independent}</Text>		<!-- Reveal the location of {1_Independent}. -->
+			<Text>เปิดเผยสถานที่ของ {1_Homeland_Independent}</Text>		<!-- Reveal the location of {1_Homeland_Independent}. -->
 		</Replace>
 		<Replace Tag="LOC_3340A_STORYTITLE" Language="th_TH">
 			<Text>ทุกมือมีค่า</Text>		<!-- All Hands Matter -->
@@ -16909,7 +16909,7 @@
 			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต, +3[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production, +3[icon:YIELD_HAPPINESS] Happiness -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_HARDWOOD_TOOLTIP" Language="th_TH">
-			<Text>+20%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับยูนิตทางน้ำ</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards Naval units -->
+			<Text>+10%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับยูนิตทางน้ำ</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards Naval units -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_WILD_GAME_TOOLTIP" Language="th_TH">
 			<Text>+2[icon:YIELD_FOOD] อาหารในเมือง, +4[icon:YIELD_FOOD] อาหารในเมืองเล็ก</Text>		<!-- +2[icon:YIELD_FOOD] Food in Cities, +4[icon:YIELD_FOOD] Food in Towns -->
@@ -16951,7 +16951,7 @@
 			<Text>+3[icon:YIELD_FOOD] อาหาร</Text>		<!-- +3[icon:YIELD_FOOD] Food -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_GOLD_TOOLTIP" Language="th_TH">
-			<Text>+20%[icon:YIELD_GOLD] สำหรับการซื้อสิ่งก่อสร้าง</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings -->
+			<Text>+1[icon:YIELD_GOLD] ทอง และ[icon:YIELD_HAPPINESS] ความสุข ในถิ่นฐานทั้งหมด</Text>		<!-- +1[icon:YIELD_GOLD] Gold and [icon:YIELD_HAPPINESS] Happiness in all Settlements -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_GOLD_DISTANT_LANDS_TOOLTIP" Language="th_TH">
 			<Text>+20%[icon:YIELD_GOLD] สำหรับการซื้อสิ่งก่อสร้าง</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Buildings -->
@@ -16969,10 +16969,10 @@
 			<Text>+10%[icon:YIELD_PRODUCTION] กำลังผลิต ไปยังสิ่งมหัศจรรย์ที่วางในพื้นที่เขตร้อน, ที่ราบ และทะเลทราย</Text>		<!-- +10%[icon:YIELD_PRODUCTION] Production towards Wonders placed in Tropical, Plains, and Desert Terrain -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_JADE_TOOLTIP" Language="th_TH">
-			<Text>+15%[icon:YIELD_GOLD] ทอง </Text>		<!-- +15%[icon:YIELD_GOLD] Gold -->
+			<Text>+10%[icon:YIELD_GOLD] ทอง </Text>		<!-- +10%[icon:YIELD_GOLD] Gold -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_JADE_TOOLTIP" Language="th_TH">
-			<Text>+15%[icon:YIELD_GOLD] ทอง </Text>		<!-- +15%[icon:YIELD_GOLD] Gold -->
+			<Text>+10%[icon:YIELD_GOLD] ทอง </Text>		<!-- +10%[icon:YIELD_GOLD] Gold -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_KAOLIN_TOOLTIP" Language="th_TH">
 			<Text>+2[icon:YIELD_FOOD] อาหาร ให้กับเมืองหลวง, +4[icon:YIELD_FOOD] อาหาร ให้กับเมืองอื่นๆ</Text>		<!-- +2[icon:YIELD_FOOD] Food to Capital, +4[icon:YIELD_FOOD] Food to any other City -->
@@ -16993,16 +16993,16 @@
 			<Text>+10%[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +10%[icon:YIELD_CULTURE] Culture -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILVER_TOOLTIP" Language="th_TH">
-			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้อและอัพเกรดยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing and upgrading Units -->
+			<Text>+1[icon:YIELD_GOLD] ทอง และ[icon:YIELD_FOOD] อาหาร ในทุกถิ่นฐาน</Text>		<!-- +1[icon:YIELD_GOLD] Gold and [icon:YIELD_FOOD] Food in all Settlements -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_SILVER_DISTANT_LANDS_TOOLTIP" Language="th_TH">
 			<Text>+20%[icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต</Text>		<!-- +20%[icon:YIELD_GOLD] Gold towards purchasing Units -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_WINE_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +10%[icon:YIELD_CULTURE] วัฒนธรรม เมื่ออยู่ในงานเฉลิมฉลอง</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness in the Capital and +10%[icon:YIELD_CULTURE] Culture when in a Celebration -->
+			<Text>+2[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +5[icon:YIELD_CULTURE] วัฒนธรรม เมื่ออยู่ในงานเฉลิมฉลอง</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness in the Capital and +5[icon:YIELD_CULTURE] Culture when in a Celebration -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_WINE_TOOLTIP" Language="th_TH">
-			<Text>+2[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +10%[icon:YIELD_CULTURE] วัฒนธรรม เมื่ออยู่ในงานเฉลิมฉลอง</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness in the Capital and +10%[icon:YIELD_CULTURE] Culture when in a Celebration -->
+			<Text>+2[icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง และ +5[icon:YIELD_CULTURE] วัฒนธรรม เมื่ออยู่ในงานเฉลิมฉลอง</Text>		<!-- +2[icon:YIELD_HAPPINESS] Happiness in the Capital and +5[icon:YIELD_CULTURE] Culture when in a Celebration -->
 		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_CAMELS_TOOLTIP" Language="th_TH">
 			<Text>เมื่อถูกจัดสรรให้กับเมือง, เพิ่มจำนวน ทรัพยากร ที่สามารถจัดสรรให้กับเมืองได้ 2 หน่วย, ไม่ใช้ช่องว่างที่เปิดอยู่</Text>		<!-- While slotted in a City, allows another 2 additional Resources to be assigned to that City, does not consume an open slot -->
@@ -19128,7 +19128,7 @@
 			<Text>จากัวร์ สเลเยอร์</Text>		<!-- Jaguar Slayer -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_JAGUAR_SLAYER_DESCRIPTION" Language="th_TH">
-			<Text>หน่วยสอดแนมพิเศษ ของมายา, สามารถเริ่มต้นการต่อสู้ได้, มี 1 ชาร์จ สำหรับวาง กับดักจากัวร์ ที่มองไม่เห็นต่อยูนิตศัตรู, สร้างความเสียหาย 25 และหยุดการเคลื่อนที่ ความสามารถนี้จะ ชาร์จใหม่ หลังจากวางกับดักไปแล้ว 5 เทิร์น</Text>		<!-- Maya Unique Scout. Can initiate combat. Has 1 charge to place a Jaguar Trap that is invisible to enemy Units, dealing 25 damage and ending movement. This ability recharges 5 turns after placing a trap. -->
+			<Text>หน่วยสอดแนมพิเศษ ของมายา, สามารถเริ่มต้นการต่อสู้ได้, มี 1 ชาร์จ สำหรับวาง กับดักจากัวร์ บนพื้นที่ราบหรือพื้นที่พืชพรรณ, กับดักจะมองไม่เห็นสำหรับยูนิตศัตรู ทำความเสียหาย 25 หน่วย และหยุดการเคลื่อนที่ ความสามารถนี้จะชาร์จใหม่หลังจากวางกับดัก 5 เทิร์น</Text>		<!-- Maya Unique Scout. Can initiate combat. Has 1 charge to place Jaguar Traps on Flat or Vegetated Terrain. Traps are invisible to enemy units, deal 25 damage, and end movement. This ability recharges 5 turns after placing a trap. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_STONE_TRAP_NAME" Language="th_TH">
 			<Text>กับดักจากัวร์</Text>		<!-- Jaguar Trap -->
