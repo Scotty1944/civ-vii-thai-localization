@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" ?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_CARD_MOD_CITY_NAME" Language="th_TH">
@@ -3329,7 +3329,7 @@
 			<Text>ป้อมปืนชายฝั่ง</Text>		<!-- Shore Battery -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SHORE_BATTERY_DESCRIPTION" Language="th_TH">
-			<Text>+5[icon:YIELD_PRODUCTION] กำลังผลิต, +3 พลังต่อสู้อย่างยาวไกล, +1 ระยะในการโจมตีทางไกลและยูนิตปืนใหญ่ในพื้นที่นี้, +5 HP การฟื้นฟูต่อเทิร์นให้กับยูนิตทหารในพื้นที่นี้, เขตพัฒนาพิเศษ ของนครรัฐ, คงอยู่ตลอดกาล, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE]คลังสินค้า บนช่องนี้, ต้องวางบนเขตพัฒนาบนพื้นที่ชายฝั่ง</Text>		<!-- +5[icon:YIELD_PRODUCTION] Production. +3 Ranged Combat Strength, +1 range to Ranged and Siege Units in this tile. +5 HP healing per turn to Military Units in this tile. City-State Unique Improvement. Ageless. Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on an existing Improvement adjacent to Coast.  -->
+			<Text>+5[icon:YIELD_PRODUCTION] กำลังผลิต, +3 พลังต่อสู้อย่างยาวไกล, +1 ระยะในการโจมตีทางไกลและยูนิตปืนใหญ่ในพื้นที่นี้, +5 HP การฟื้นฟูต่อเทิร์นให้กับยูนิตทหารในพื้นที่นี้, เขตพัฒนาพิเศษ ของนครรัฐ, คงอยู่ตลอดกาล, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE]คลังสินค้า บนช่องนี้, ต้องวางบนเขตพัฒนาบนพื้นที่ชายฝั่ง</Text>		<!-- +5[icon:YIELD_PRODUCTION] Production. +3 Ranged Combat Strength, +1 range to Ranged and Siege Units in this tile. +5 HP healing per turn to Military Units in this tile. City-State Unique Improvement. Ageless. Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on an existing Improvement adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SHORE_BATTERY_TOOLTIP" Language="th_TH">
 			<Text>[B]เอฟเฟค:[/B] +3 พลังต่อสู้ระยะไกล, +1 ระยะให้กับยูนิตระยะไกลและยูนิตบุกเบิกในพื้นที่นี้, การฟื้นฟู HP +5 ต่อเทิร์นให้กับยูนิตทหารในพื้นที่นี้, พื้นที่พัฒนาพิเศษ สำหรับนครรัฐ [n]ไม่ลบโบนัส [icon:YIELD_WAREHOUSE]คลังสินค้า บนช่องนี้, ต้องวางบนเขตพัฒนาบนพื้นที่ชายฝั่ง</Text>		<!-- [B]Effect:[/B] +3 Ranged Combat Strength, +1 Range to Ranged and Siege Units in this tile. +5 HP healing per turn to Military Units in this tile.[n]Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on an existing Improvement adjacent to Coast.[n]City-State Unique Improvement. -->
@@ -13916,6 +13916,15 @@
 		</Replace>
 		<Replace Tag="LOC_265A_STORYTITLE" Language="th_TH">
 			<Text>คุณหมอผู้ดี ใน เมืองหลวงของเม็กซิโก</Text>		<!-- The Good Doctor in Mexico's Capital -->
+		</Replace>
+		<Replace Tag="LOC_ANT_RESOURCE_CRABS_TOOLTIP" Language="th_TH">
+			<Text>+3[icon:YIELD_FOOD] Food on Warehouse Buildings</Text>		<!-- +3[icon:YIELD_FOOD] Food on Warehouse Buildings -->
+		</Replace>
+		<Replace Tag="LOC_ANT_RESOURCE_COWRIE_TOOLTIP" Language="th_TH">
+			<Text>+6[icon:YIELD_GOLD] Gold in Cities, +4[icon:YIELD_SCIENCE] Science in Towns</Text>		<!-- +6[icon:YIELD_GOLD] Gold in Cities, +4[icon:YIELD_SCIENCE] Science in Towns -->
+		</Replace>
+		<Replace Tag="LOC_ANT_RESOURCE_PITCH_TOOLTIP" Language="th_TH">
+			<Text>+1[icon:YIELD_PRODUCTION] Production on Factories, +10%[icon:YIELD_PRODUCTION] Production towards constructing Factories in all Settlements when slotted</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Factories, +10%[icon:YIELD_PRODUCTION] Production towards constructing Factories in all Settlements when slotted -->
 		</Replace>
 		<Replace Tag="LOC_265A_COMPLETION" Language="th_TH">
 			<Text>ดร.ริซาลเดินผ่านถนนที่แออัดในเมืองหลวงของเม็กซิโก ด้านหนึ่งเขาเห็นจิตรกรกำลังทำงานบนภูมิทัศน์ล่าสุดของเธอ อีกด้านหนึ่งมีการถกเถียงกันอย่างดุเดือดเกี่ยวกับข้อดีของการกำหนดตนเอง</Text>		<!-- Dr. Rizal works his way through the crowded streets of Mexico’s capital. To one side, he sees a painter working on her latest landscape. To another, a debate rages on the merits of self-determination. -->

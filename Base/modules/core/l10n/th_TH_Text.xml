@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" ?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_COPYRIGHT_BLOCK" Language="th_TH">
@@ -1821,6 +1821,12 @@
 		</Replace>
 		<Replace Tag="LOC_NAV_LEFT_HELP" Language="th_TH">
 			<Text>นำทางซ้าย</Text>		<!-- Navigate Left -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_CONFIG_CHANGE" Language="th_TH">
+			<Text>Configuration Changed</Text>		<!-- Configuration Changed -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_CONFIG_CHANGE_BODY" Language="th_TH">
+			<Text>Your system configuration has changed.  Options will refresh and you will lose any changes made.</Text>		<!-- Your system configuration has changed.  Options will refresh and you will lose any changes made. -->
 		</Replace>
 		<Replace Tag="LOC_NAV_RIGHT" Language="th_TH">
 			<Text>ขวา</Text>		<!-- Right -->
@@ -4292,6 +4298,9 @@
 		<Replace Tag="LOC_LOCKED_LINK_ACCOUNT" Language="th_TH">
 			<Text>สมัคร (หรือเข้าสู่ระบบ) บัญชี 2k เพื่อปลดล็อก {1_LeaderOrCivName}!</Text>		<!-- Sign up (or sign in) for a 2k Account to unlock {1_LeaderOrCivName}! -->
 		</Replace>
+		<Replace Tag="LOC_UI_SWITCH_NOT_CROSSPLAY_COMPATIBLE" Language="th_TH">
+			<Text>This selection is not crossplay compatible with Nintendo Switch™</Text>		<!-- This selection is not crossplay compatible with Nintendo Switch™ -->
+		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_SSSHADOWS_DESCRIPTION" Language="th_TH">
 			<Text>เปิดใช้งานเงาในพื้นที่หน้าจอ ซึ่งจะให้รายละเอียดเพิ่มเติมสำหรับเงา</Text>		<!-- Enables screen space shadows. This provides an extra level of detail for shadows. -->
 		</Replace>
@@ -4499,6 +4508,9 @@
 		<Replace Tag="LOC_OPTIONS_PLOT_TOOLTIP_DELAY" Language="th_TH">
 			<Text>ดีเลย์กล่องข้อความแสดงรายละเอียดของโลก</Text>		<!-- World Tooltip delay -->
 		</Replace>
+		<Replace Tag="LOC_UI_MP_GAME_RULES_NO_MODS_TITLE" Language="th_TH">
+			<Text>Multiplayer Rules</Text>		<!-- Multiplayer Rules -->
+		</Replace>
 		<Replace Tag="LOC_OPTIONS_PLOT_TOOLTIP_DELAY_DESCRIPTION" Language="th_TH">
 			<Text>จำนวนวินาทีที่ต้องรอก่อนแสดงกล่องข้อความแสดงรายละเอียดบนช่องของโลก</Text>		<!-- How many seconds to wait before showing a tooltip on the world tiles. -->
 		</Replace>
@@ -4581,7 +4593,7 @@
 			<Text>โดยการเลือกยอมรับ คุณยืนยันว่าคุณได้อ่านและยอมรับ {1_TOS}&amp;nbsp;และ {2_PP}</Text>		<!-- By selecting Accept, you confirm you have read and accepted {1_TOS}&amp;nbsp;and {2_PP} -->
 		</Replace>
 		<Replace Tag="LOC_APPLE_ARCADE_LEGAL_DOCUMENT_BODY_UPDATE" Language="th_TH">
-			<Text>โปรดตรวจสอบและยอมรับ {1_TOS}&amp;nbsp;และ {2_PP} ที่อัปเดตแล้ว</Text>		<!-- Please review and accept the updated {1_TOS}&nbsp;and {2_PP} -->
+			<Text>โปรดตรวจสอบและยอมรับ {1_TOS}&amp;nbsp;และ {2_PP} ที่อัปเดตแล้ว</Text>		<!-- Please review and accept the updated {1_TOS}&amp;nbsp;and {2_PP} -->
 		</Replace>
 		<Replace Tag="LOC_APPLE_ARCADE_LEGAL_DOCUMENT_BODY_VIEW" Language="th_TH">
 			<Text>ดู {1_TOS}&amp;nbsp;และ {2_PP} ที่ยอมรับแล้ว</Text>		<!-- View accepted {1_TOS}&amp;nbsp;and {2_PP} -->
