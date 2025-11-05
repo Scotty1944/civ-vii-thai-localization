@@ -27,10 +27,6 @@
 		<Criteria id="modern-age-current">
 			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
-		<Criteria id="modern-age-nepal">
-			<ModInUse>nepal</ModInUse>
-			<AgeInUse>AGE_MODERN</AgeInUse>
-		</Criteria>
 	</ActionCriteria>
 	<ActionGroups>
 		<ActionGroup id="base-game-main-lakshmibai" scope="game" criteria="always">
@@ -140,13 +136,6 @@
 				<UpdateText>
 					<Item>text/en_us/AdvancedStartText-modern.xml</Item>
 				</UpdateText>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="age-modern-lakshmibai-nepal" scope="game" criteria="modern-age-nepal">
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/civilizations-modern-nepal.xml</Item>
-				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="shell-lakshmibai" scope="shell" criteria="always">

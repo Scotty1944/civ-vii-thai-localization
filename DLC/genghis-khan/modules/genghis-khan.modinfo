@@ -27,10 +27,6 @@
 		<Criteria id="modern-age-current">
 			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
-		<Criteria id="exploration-age-bulgaria">
-			<ModInUse>bulgaria</ModInUse>
-			<AgeInUse>AGE_EXPLORATION</AgeInUse>
-		</Criteria>
 	</ActionCriteria>
 	<ActionGroups>
 		<ActionGroup id="base-game-main-genghis-khan" scope="game" criteria="always">
@@ -122,13 +118,6 @@
 				<UpdateText>
 					<Item>text/en_us/AdvancedStartText-exploration.xml</Item>
 				</UpdateText>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="exploration-age-bulgaria_khan" scope="game" criteria="exploration-age-bulgaria">
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/civilizations-exploration-bulgaria.xml</Item>
-				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="age-modern-current" scope="game" criteria="modern-age-current">

@@ -18,6 +18,10 @@
 		<Criteria id="antiquity-age-current">
 			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
 		</Criteria>
+		<Criteria id="antiquity-age-edward-teach">
+			<ModInUse>edward-teach</ModInUse>
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
 		<Criteria id="exploration-age-current">
 			<AgeInUse>AGE_EXPLORATION</AgeInUse>
 		</Criteria>
@@ -251,6 +255,16 @@
 				<UpdateDatabase>
 					<Item>data/narrative-stories-gameeffects-modern.xml</Item>
 					<Item>data/narrative-stories-modern.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-antiquity-edward-teach" scope="game" criteria="antiquity-age-edward-teach">
+			<Actions>
+				<UpdateArt>
+					<Item>carthage</Item>
+				</UpdateArt>
+				<UpdateDatabase>
+					<Item>data/civilizations-antiquity-edward-teach.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>

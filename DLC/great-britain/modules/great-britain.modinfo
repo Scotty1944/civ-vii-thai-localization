@@ -34,6 +34,13 @@
 			<ModInUse>ada-lovelace</ModInUse>
 			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
+		<Criteria id="edward-teach-current">
+			<ModInUse>edward-teach</ModInUse>
+		</Criteria>
+		<Criteria id="modern-age-edward-teach">
+			<ModInUse>edward-teach</ModInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
 		<Criteria id="always">
 			<AlwaysMet></AlwaysMet>
 		</Criteria>
@@ -94,6 +101,16 @@
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
+		<ActionGroup id="base-game-main-great-britain-edward-teach" scope="game" criteria="edward-teach-current">
+			<Actions>
+				<UpdateArt>
+					<Item>great-britain</Item>
+				</UpdateArt>
+				<UpdateDatabase>
+					<Item>data/unlocks-edward-teach.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
 		<ActionGroup id="age-antiquity-main-great-britain" scope="game" criteria="antiquity-age-current">
 			<Actions>
 				<UpdateArt>
@@ -125,6 +142,16 @@
 				</UpdateArt>
 				<UpdateDatabase>
 					<Item>data/civilizations-modern-ada.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-modern-edward-teach" scope="game" criteria="modern-age-edward-teach">
+			<Actions>
+				<UpdateArt>
+					<Item>great-britain</Item>
+				</UpdateArt>
+				<UpdateDatabase>
+					<Item>data/civilizations-modern-edward-teach.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -293,7 +320,6 @@
 				</UpdateArt>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
-					<Item>config/config-ada-lovelace.xml</Item>
 					<Item>config/metaprogression.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>

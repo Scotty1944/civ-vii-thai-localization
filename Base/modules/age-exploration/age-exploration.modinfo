@@ -31,6 +31,9 @@
 	<ActionGroups>
 		<ActionGroup id="age-exploration-persist" scope="game" criteria="exploration-age-persist">
 			<Actions>
+				<UpdateArt>
+					<Item>age-exploration</Item>
+				</UpdateArt>
 				<UpdateDatabase>
 					<Item>data/civilizations-legacy.xml</Item>
 					<Item>data/constructibles.xml</Item>
@@ -86,6 +89,7 @@
 					<Item>data/age-transition-gameeffects.xml</Item>
 					<Item>data/attributes-gameeffects.xml</Item>
 					<Item>data/civilizations.xml</Item>
+					<Item>data/civilizations-common-gameeffects.xml</Item>
 					<Item>data/civilizations-gameeffects.xml</Item>
 					<Item>data/civilopedia-exploration.xml</Item>
 					<Item>data/constructibles-no-persist.xml</Item>
@@ -112,11 +116,11 @@
 					<Item>data/loading-info.xml</Item>
 					<Item>data/metaprogression.xml</Item>
 					<Item>data/metaprogression-gameeffects.xml</Item>
-					<Item>data/movies.xml</Item>
 					<Item>data/named-places.xml</Item>
 					<Item>data/narrative-crises-stories-gameeffects.xml</Item>
 					<Item>data/narrative-crises-stories.xml</Item>
 					<Item>data/narrative-display.xml</Item>
+					<Item>data/narrative-sifting.xml</Item>
 					<Item>data/narrative-stories-gameeffects.xml</Item>
 					<Item>data/narrative-stories.xml</Item>
 					<Item>data/projects.xml</Item>
@@ -179,7 +183,13 @@
 					<Item>text/en_us/UnitText.xml</Item>
 					<Item>text/en_us/VictoriesText.xml</Item>
 				</UpdateText>
-
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-exploration-movies" scope="game" criteria="exploration-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/movies.xml</Item>
+				</UpdateDatabase>
 				<ImportFiles locale="de_DE">
 					<Item>l10n/de_DE/wilco_civ_exploration_abbasid_defeat_alt.vtt</Item>
 					<Item>l10n/de_DE/wilco_civ_exploration_abbasid_defeat.vtt</Item>

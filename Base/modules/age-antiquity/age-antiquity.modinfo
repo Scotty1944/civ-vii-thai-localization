@@ -10,7 +10,7 @@
 		<PackageSortIndex>2</PackageSortIndex>
 	</Properties>
 	<Dependencies>
-		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME" />
 	</Dependencies>
 	<ActionCriteria>
 		<Criteria id="antiquity-age-current">
@@ -28,6 +28,9 @@
 	<ActionGroups>
 		<ActionGroup id="age-antiquity-persist" scope="game" criteria="antiquity-age-persist">
 			<Actions>
+				<UpdateArt>
+					<Item>age-antiquity</Item>
+				</UpdateArt>
 				<UpdateDatabase>
 					<Item>data/civilizations-legacy.xml</Item>
 					<Item>data/constructibles-gameeffects.xml</Item>
@@ -80,6 +83,7 @@
 					<Item>data/attributes.xml</Item>
 					<Item>data/citizen-names.xml</Item>
 					<Item>data/civilizations.xml</Item>
+					<Item>data/civilizations-common-gameeffects.xml</Item>
 					<Item>data/civilizations-gameeffects.xml</Item>
 					<Item>data/civilopedia-antiquity.xml</Item>
 					<Item>data/constructibles-no-persist-gameeffects.xml</Item>
@@ -103,7 +107,6 @@
 					<Item>data/leaders-gameeffects.xml</Item>
 					<Item>data/legacy-path-gameeffects.xml</Item>
 					<Item>data/loading-info.xml</Item>
-					<Item>data/movies.xml</Item>
 					<Item>data/named-places.xml</Item>
 					<Item>data/narrative-sifting.xml</Item>
 					<Item>data/metaprogression.xml</Item>
@@ -170,7 +173,13 @@
 					<Item>text/en_us/UnitText.xml</Item>
 					<Item>text/en_us/VictoriesText.xml</Item>
 				</UpdateText>
-
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-antiquity-movies" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/movies.xml</Item>
+				</UpdateDatabase>
 				<ImportFiles locale="de_DE">
 					<Item>l10n/de_DE/wilco_civ_antiquity_aksum_defeat.vtt</Item>
 					<Item>l10n/de_DE/wilco_civ_antiquity_aksum_legacy_culture_alt.vtt</Item>

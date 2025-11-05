@@ -10,9 +10,9 @@
 		<PackageSortIndex>4</PackageSortIndex>
 	</Properties>
 	<Dependencies>
-		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
-		<Mod id="age-antiquity" title="LOC_MODULE_AGE_ANTIQUITY_NAME"/>
-		<Mod id="age-exploration" title="LOC_MODULE_AGE_EXPLORATION_NAME"/>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME" />
+		<Mod id="age-antiquity" title="LOC_MODULE_AGE_ANTIQUITY_NAME" />
+		<Mod id="age-exploration" title="LOC_MODULE_AGE_EXPLORATION_NAME" />
 	</Dependencies>
 	<References>
 	</References>
@@ -30,6 +30,9 @@
 	<ActionGroups>
 		<ActionGroup id="age-modern-persist" scope="game" criteria="modern-age-persist">
 			<Actions>
+				<UpdateArt>
+					<Item>age-modern</Item>
+				</UpdateArt>
 				<UpdateDatabase>
 					<Item>data/civilizations-legacy.xml</Item>
 					<Item>data/constructibles.xml</Item>
@@ -82,6 +85,7 @@
 					<Item>data/age-transition.xml</Item>
 					<Item>data/age-transition-gameeffects.xml</Item>
 					<Item>data/attributes-gameeffects.xml</Item>
+					<Item>data/civilizations-common-gameeffects.xml</Item>
 					<Item>data/civilizations-gameeffects.xml</Item>
 					<Item>data/civilizations.xml</Item>
 					<Item>data/civilopedia-modern.xml</Item>
@@ -106,7 +110,6 @@
 					<Item>data/leaders-gameeffects.xml</Item>
 					<Item>data/legacy-path-gameeffects.xml</Item>
 					<Item>data/loading-info.xml</Item>
-					<Item>data/movies.xml</Item>
 					<Item>data/named-places.xml</Item>
 					<Item>data/narrative-crises-stories-gameeffects.xml</Item>
 					<Item>data/narrative-crises-stories.xml</Item>
@@ -172,7 +175,13 @@
 					<Item>text/en_us/VictoriesText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
 				</UpdateText>
-
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-modern-movies" scope="game" criteria="modern-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/movies.xml</Item>
+				</UpdateDatabase>
 				<ImportFiles locale="de_DE">
 					<Item>l10n/de_DE/wilco_civ_modern_america_defeat.vtt</Item>
 					<Item>l10n/de_DE/wilco_civ_modern_america_legacy_culture.vtt</Item>

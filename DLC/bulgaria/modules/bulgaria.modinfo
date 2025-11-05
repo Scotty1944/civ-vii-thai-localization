@@ -28,6 +28,13 @@
 		<Criteria id="modern-age-current">
 			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
+		<Criteria id="genghis-khan-current">
+			<ModInUse>genghis-khan</ModInUse>
+		</Criteria>
+		<Criteria id="exploration-age-genghis-khan">
+			<ModInUse>genghis-khan</ModInUse>
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
 		<Criteria id="always">
 			<AlwaysMet></AlwaysMet>
 		</Criteria>
@@ -88,6 +95,16 @@
 					<Item>data/unlocks-antiquity.xml</Item>
 					<Item>data/narrative-stories-gameeffects-antiquity.xml</Item>
 					<Item>data/narrative-stories-antiquity.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-bulgaria-genghis-khan" scope="game" criteria="genghis-khan-current">
+			<Actions>
+				<UpdateArt>
+					<Item>bulgaria</Item>
+				</UpdateArt>
+				<UpdateDatabase>
+					<Item>data/unlocks-genghis-khan.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -242,6 +259,16 @@
 					<Item>l10n/th_TH/wilco_civ_exploration_bulgaria_legacy_military.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_exploration_bulgaria_legacy_science.vtt</Item>
 				</ImportFiles>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-exploration-genghis-khan" scope="game" criteria="exploration-age-genghis-khan">
+			<Actions>
+				<UpdateArt>
+					<Item>bulgaria</Item>
+				</UpdateArt>
+				<UpdateDatabase>
+					<Item>data/civilizations-exploration-genghis-khan.xml</Item>
+				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="age-modern-main-bulgaria" scope="game" criteria="modern-age-current">

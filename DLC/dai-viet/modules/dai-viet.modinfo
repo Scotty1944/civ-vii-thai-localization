@@ -25,6 +25,9 @@
 			<AgeInUse>AGE_EXPLORATION</AgeInUse>
 			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
+		<Criteria id="lakshmibai-current">
+			<ModInUse>lakshmibai</ModInUse>
+		</Criteria>
 		<Criteria id="always">
 			<AlwaysMet></AlwaysMet>
 		</Criteria>
@@ -254,6 +257,16 @@
 				</UpdateDatabase>
 				<UpdateText>
 				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-dai-viet-lakshmibai" scope="game" criteria="lakshmibai-current">
+			<Actions>
+				<UpdateArt>
+					<Item>dai-viet</Item>
+				</UpdateArt>
+				<UpdateDatabase>
+					<Item>data/unlocks-lakshmibai.xml</Item>
+				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="shell-da-viet" scope="shell" criteria="always">

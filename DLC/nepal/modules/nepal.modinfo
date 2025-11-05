@@ -32,11 +32,18 @@
 			<ModInUse>ashoka-himiko-alt</ModInUse>
 			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
+		<Criteria id="modern-age-lakshmibai">
+			<ModInUse>lakshmibai</ModInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
 		<Criteria id="always">
 			<AlwaysMet></AlwaysMet>
 		</Criteria>
 		<Criteria id="ashoka-current">
 			<ModInUse>ashoka-himiko-alt</ModInUse>
+		</Criteria>
+		<Criteria id="lakshmibai-current">
+			<ModInUse>lakshmibai</ModInUse>
 		</Criteria>
 	</ActionCriteria>
 	<ActionGroups>
@@ -274,6 +281,26 @@
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/civilizations-modern-ashoka.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-nepal-lakshmibai" scope="game" criteria="lakshmibai-current">
+			<Actions>
+				<UpdateArt>
+					<Item>nepal</Item>
+				</UpdateArt>
+				<UpdateDatabase>
+					<Item>data/unlocks-lakshmibai.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-modern-lakshmibai-nepal" scope="game" criteria="modern-age-lakshmibai">
+			<Actions>
+				<UpdateArt>
+					<Item>nepal</Item>
+				</UpdateArt>
+				<UpdateDatabase>
+					<Item>data/civilizations-modern-lakshmibai.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
