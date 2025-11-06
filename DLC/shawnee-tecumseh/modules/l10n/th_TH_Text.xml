@@ -26,10 +26,10 @@
 			<Text>ในยุคนี้ ได้รับ +15%[icon:YIELD_DIPLOMACY] อิทธิพล โดยจะต้องเสีย -2 พลังต่อสู้ สำหรับยูนิตทางอากาศของคุณ</Text>		<!-- For this Age, gain +15% Influence[icon:YIELD_DIPLOMACY] at the cost of -2 Combat Strength for your Air Units -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_TECUMSEH_L2_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน +25% ความสัมพันธ์จากการเริ่มหรือสนับสนุน ความร่วมมือ -25% ความสัมพันธ์จากการเริ่ม คว่ำบาตร หรือปฏิเสธ ความร่วมมือ</Text>		<!-- Legend Unlock. +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
+			<Text>ปลดล็อกตำนาน +25% [icon:RELATIONSHIP] ความสัมพันธ์จากการเริ่มหรือสนับสนุน [icon:ENDEAVOR] ความร่วมมือ, -25% [icon:RELATIONSHIP] ความสัมพันธ์จากการเริ่ม [icon:SANCTIONS] คว่ำบาตร หรือปฏิเสธ [icon:ENDEAVOR] ความร่วมมือ</Text>		<!-- Legend Unlock. +25% [icon:RELATIONSHIP] Relationship from starting or supporting [icon:ENDEAVOR] Endeavors. -25% [icon:RELATIONSHIP] Relationship from starting [icon:SANCTIONS] Sanctions or rejecting [icon:ENDEAVOR] Endeavors. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_TECUMSEH_L1_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน +5 พลังต่อสู้ สำหรับทุกยูนิตเมื่อทำการต่อสู้กับ เขต</Text>		<!-- Legend Unlock. +5 Combat Strength for all Units against Districts. -->
+			<Text>ปลดล็อกตำนาน +5 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับทุกยูนิตเมื่อทำการต่อสู้กับ [icon:CITY_FORTIFIED] เขตเสริมกำลัง</Text>		<!-- Legend Unlock. +5 [icon:NAR_REW_COMBAT] Combat Strength for all Units against [icon:CITY_FORTIFIED] Fortified Districts. -->
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_SHAWNEE_MALE_1" Language="th_TH">
 			<Text>กินวิซิโม</Text>		<!-- Kinwisiimo -->
@@ -197,13 +197,13 @@
 			<Text>เนเปคิฟากิ</Text>		<!-- Nepekifaki -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_SHAWNEE_DESCRIPTION" Language="th_TH">
-			<Text>ภูมิลำเนาที่สร้างติดกับแม่น้ำใหญ่ จะได้รับ +2[icon:YIELD_FOOD] อาหาร บนพื้นที่แม่น้ำ แต่เมืองที่ไม่ได้สร้างติดกับแม่น้ำใหญ่ จะได้รับ -10%[icon:YIELD_FOOD] อาหาร</Text>		<!-- Settlements built adjacent to Navigable Rivers gain +2[icon:YIELD_FOOD] Food on River Terrain, but Cities not built adjacent to a Navigable River receive -10%[icon:YIELD_FOOD] Food. -->
+			<Text>+2 [icon:YIELD_FOOD] อาหาร บน [icon:CITY_UNIMPROVED] แม่น้ำเล็ก และแม่น้ำใหญ่ ในถิ่นฐานที่อยู่ติดกับแม่น้ำใหญ่, -10% [icon:YIELD_FOOD] อาหาร ใน [icon:YIELD_CITIES] เมืองใหญ่ ที่ไม่ได้ติดกับแม่น้ำใหญ่</Text>		<!-- +2 [icon:YIELD_FOOD] Food on [icon:CITY_UNIMPROVED] Minor and Navigable River Terrain in Settlements adjacent to Navigable Rivers. -10% [icon:YIELD_FOOD] Food in [icon:YIELD_CITIES] Cities not adjacent to Navigable Rivers. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_SHAWNEE_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI]ถิ่นฐานที่สร้างติดกับ [B]แม่น้ำใหญ่ [/B]ได้รับ [B]+2[icon:YIELD_FOOD] อาหาร [/B]บน [B]ภูมิประเทศแม่น้ำ[/B] แต่เมืองที่[B]ไม่[/B]สร้างติดกับ [B]แม่น้ำใหญ่ [/B]จะได้รับ [B]-10%[icon:YIELD_FOOD] อาหาร[/B][LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการก่อสร้าง [B]โขดหินงู[/B][/BLIST]</Text>		<!-- [BLIST][LI]Settlements built adjacent to [B]Navigable Rivers [/B]gain [B]+2[icon:YIELD_FOOD] Food [/B]on [B]River Terrain[/B], but Cities [B]not [/B]built adjacent to a [B]Navigable River [/B]receive [B]-10%[icon:YIELD_FOOD] Food[/B].[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Serpent Mound[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]+2 [icon:YIELD_FOOD] อาหาร[/B] บน [icon:CITY_UNIMPROVED] [B]แม่น้ำเล็ก และแม่น้ำใหญ่[/B] ในถิ่นฐานที่อยู่ติดกับ [B]แม่น้ำใหญ่[/B] [B]-10% [icon:YIELD_FOOD] อาหาร[/B] ใน [icon:YIELD_CITIES] [B]เมืองใหญ่[/B] ที่ไม่อยู่ติดกับ [B]แม่น้ำใหญ่[/B][LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]เนินงู[/B][/LIST]</Text>		<!-- [BLIST][LI][B]+2 [icon:YIELD_FOOD] Food[/B] on [icon:CITY_UNIMPROVED] [B]Minor and Navigable River Terrain[/B] in Settlements adjacent to [B]Navigable Rivers[/B]. [B]-10% [icon:YIELD_FOOD] Food[/B] in [icon:YIELD_CITIES] [B]Cities[/B] not adjacent to [B]Navigable Rivers[/B].[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Serpent Mound[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_SHAWNEE_DESCRIPTION" Language="th_TH">
-			<Text>+30%[icon:YIELD_PRODUCTION] การผลิตจากเป็นสิ่งมหัศจรรย์ ที่เกี่ยวข้องกับ ชอว์นี</Text>		<!-- +30%[icon:YIELD_PRODUCTION] Production from being the Shawnee's associated Wonder. -->
+			<Text>+30%[icon:YIELD_PRODUCTION] การผลิตจากเป็น [icon:WONDER] สิ่งมหัศจรรย์ ที่เกี่ยวข้องกับ ชอว์นี</Text>		<!-- +30%[icon:YIELD_PRODUCTION] Production from being the Shawnee's associated [icon:WONDER] Wonder. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TECUMSEH_TITLE" Language="th_TH">
 			<Text>{LOC_LEADER_TECUMSEH_NAME}</Text>		<!-- {LOC_LEADER_TECUMSEH_NAME} -->
@@ -284,19 +284,19 @@
 			<Text>มาวาสคะเว สโคเต</Text>		<!-- Mawaskawe Skote -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MAWASKAWE_SKOTE_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_FOOD] อาหาร +1 [icon:YIELD_GOLD] ทอง ในแต่ละทรัพยากรที่อยู่ติดกัน, เขตพัฒนาพิเศษ ของชอว์นี, คงอยู่ตลอดกาล, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE]คลังสินค้า บนช่อง, ต้องวางบนช่อง พืชพรรณ และไม่ติดกับ มาวาสคะเว สโคเต อื่นๆ</Text>		<!-- +4 [icon:YIELD_FOOD] Food. +1 [icon:YIELD_GOLD] Gold for each adjacent Resource. Shawnee Unique Improvement. Ageless. Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on Vegetated Terrain not adjacent to another Mawaskawe Skote. -->
+			<Text>พื้นที่พัฒนาพิเศษ สำหรับชอว์นี, +4[icon:YIELD_FOOD] อาหาร +1 [icon:YIELD_GOLD] ทอง ในแต่ละ [icon:RADIAL_RESOURCES] ทรัพยากรที่อยู่ติดกัน, คงอยู่ตลอดกาล, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE]คลังสินค้า บนช่อง, ต้องวางบน [icon:CITY_RURAL] พื้นที่พัฒนา ในช่องพืชพรรณ และไม่ติดกับ มาวาสคะเว สโคเต อื่นๆ</Text>		<!-- Shawnee Unique Improvement. +4 [icon:YIELD_FOOD] Food. +1 [icon:YIELD_GOLD] Gold for each adjacent [icon:RADIAL_RESOURCES] Resource. Ageless. Does not remove [icon:YIELD_WAREHOUSE] Warehouse bonuses on a tile. Must be placed on an existing [icon:CITY_RURAL] Improvement on Vegetated Terrain, and cannot be placed adjacent to another Mawaskawe Skote. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MAWASKAWE_SKOTE_TOOLTIP" Language="th_TH">
-			<Text>ไม่ลบโบนัส [icon:YIELD_WAREHOUSE] คลังสินค้าบนช่อง, ต้องวางบนช่อง พื้นที่เพาะปลูก และไม่ติดกับ มาวาสคะเว สโคเต อื่นๆ [n]พื้นที่พัฒนาพิเศษ ของชอว์นี</Text>		<!-- Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on Vegetated Terrain not adjacent to another Mawaskawe Skote.[n]Shawnee Unique Improvement. -->
+			<Text>ไม่ลบโบนัส [icon:YIELD_WAREHOUSE] คลังสินค้าบนช่อง, ต้องวางบน [icon:CITY_RURAL] พื้นที่พัฒนา ในช่องพืชพรรณ และไม่ติดกับ มาวาสคะเว สโคเต อื่นๆ[n]พื้นที่พัฒนาพิเศษ สำหรับชอว์นี</Text>		<!-- Does not remove [icon:YIELD_WAREHOUSE] Warehouse bonuses on a tile. Must be placed on an existing [icon:CITY_RURAL] Improvement on Vegetated Terrain, and cannot be placed adjacent to another Mawaskawe Skote.[n]Shawnee Unique Improvement. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_SERPENT_MOUND_NAME" Language="th_TH">
 			<Text>เนินงู</Text>		<!-- Serpent Mound -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_SERPENT_MOUND_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_DIPLOMACY] อิทธิพล, +3 [icon:YIELD_SCIENCE] วิทยาศาสตร์ และ +2 [icon:YIELD_PRODUCTION] กำลังผลิต ให้กับเขตพิเศษ ทั้งหมดในถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องตั้งอยู่ในทุ่งหญ้าหญ้า</Text>		<!-- +4 [icon:YIELD_DIPLOMACY] Influence. +3 [icon:YIELD_SCIENCE] Science and +2 [icon:YIELD_PRODUCTION] Production to all Unique Improvements in this Settlement. Ageless. Must be placed in Grassland. -->
+			<Text>+4 [icon:YIELD_DIPLOMACY] อิทธิพล, +3 [icon:YIELD_SCIENCE] วิทยาศาสตร์ และ +2 [icon:YIELD_PRODUCTION] กำลังผลิต บน [icon:CITY_RURAL] พื้นที่พัฒนาพิเศษ ทั้งหมดในถิ่นฐานนี้, คงอยู่ตลอดกาล, ต้องตั้งอยู่ในทุ่งหญ้า</Text>		<!-- +4 [icon:YIELD_DIPLOMACY] Influence. +3 [icon:YIELD_SCIENCE] Science and +2 [icon:YIELD_PRODUCTION] Production on all [icon:CITY_RURAL] Unique Improvements in this Settlement. Ageless. Must be placed in Grassland. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_SERPENT_MOUND_TOOLTIP" Language="th_TH">
-			<Text>+3 [icon:YIELD_SCIENCE] วิทยาศาสตร์ และ +2 [icon:YIELD_PRODUCTION] กำลังผลิต ให้กับเขตพิเศษ ทั้งหมดในถิ่นฐานนี้ [N]ต้องตั้งอยู่ในทุ่งหญ้า</Text>		<!-- +3 [icon:YIELD_SCIENCE] Science and +2 [icon:YIELD_PRODUCTION] Production to all Unique Improvements in this Settlement.[N]Must be placed in Grassland. -->
+			<Text>+3 [icon:YIELD_SCIENCE] วิทยาศาสตร์ และ +2 [icon:YIELD_PRODUCTION] กำลังผลิต บย [icon:CITY_RURAL] พื้นที่พัฒนาพิเศษ ทั้งหมดในถิ่นฐานนี้ [N]ต้องตั้งอยู่ในทุ่งหญ้า</Text>		<!-- +3 [icon:YIELD_SCIENCE] Science and +2 [icon:YIELD_PRODUCTION] Production on all [icon:CITY_RURAL] Unique Improvements in this Settlement.[N]Must be placed in Grassland. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_WONDER_SERPENT_MOUND" Language="th_TH">
 			<Text>"ผู้สร้างของเราร้องเพลงให้เราฟังในสายลมและน้ำที่ไหล, ในเสียงเพลงของนก, ในเสียงหัวเราะของเด็กๆ และสอนดนตรีให้แก่เรา"</Text>		<!-- "Our Creator sang to us in the wind and the running water, in the bird songs, in children's laughter, and taught us music." -->
@@ -314,7 +314,7 @@
 			<Text>"กิ่งไม้เล็ก ๆ อันหนึ่ง เมื่อรวมกับอันอื่นๆ จะกลายเป็นมัด"</Text>		<!-- "One small twig, combined with others, makes a bundle." -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_WYEHI_SIMEKOFI_QUOTE_AUTHOR" Language="th_TH">
-			<Text>สุภาษิตของอูกันดา</Text>		<!-- Ugandan proverb -->
+			<Text>เทคัมเซห์</Text>		<!-- Tecumseh -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_MIYASKA_LATOWEKI_NAME" Language="th_TH">
 			<Text>มิยัสกะ ลาโทเวกิ</Text>		<!-- Miyaska Latoweki -->
@@ -323,7 +323,7 @@
 			<Text>"จงจำไว้และจำไว้พ่อค้าน้อย - ความปรารถนาของเจ้าเป็นศัตรูของสงคราม"</Text>		<!-- "Remember and remember merchant child - your desires are the enemies of war" -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_MIYASKA_LATOWEKI_QUOTE_AUTHOR" Language="th_TH">
-			<Text>ฮามาซะห์ ฟันซูรี</Text>		<!-- Hamazah Fansuri -->
+			<Text>เคเคเวเปเลธี</Text>		<!-- Kekewepelethy -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_TELWATIKI_NAME" Language="th_TH">
 			<Text>เทลวาติกิ</Text>		<!-- Telwatiki -->
@@ -332,7 +332,7 @@
 			<Text>"จักรวาลคือการแสดงเงา – รอบดวงอาทิตย์เราคือภาพลวงตา ที่มาและจากไป"</Text>		<!-- The universe is a shadow show – 'round the sun we phantom figures come and go. -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_TELWATIKI_QUOTE_AUTHOR" Language="th_TH">
-			<Text>โอมาร์ คายัม</Text>		<!-- Omar Khayyam -->
+			<Text>เทคัมเซห์</Text>		<!-- Tecumseh -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_MALEKI_KINTAKE_NAME" Language="th_TH">
 			<Text>มาลิกิ คินเทค</Text>		<!-- Maleki Kintake -->
@@ -341,55 +341,55 @@
 			<Text>"เราไม่สามารถมีชีวิตอยู่ได้หากไม่มีโลก แต่โลกสามารถมีชีวิตอยู่ได้หากไม่มีเรา"</Text>		<!-- "We cannot live without the Earth, but the Earth can live without us." -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_MALEKI_KINTAKE_QUOTE_AUTHOR" Language="th_TH">
-			<Text>อีโว โมราเลส</Text>		<!-- Evo Morales -->
+			<Text>เทนส์ควาตาวา</Text>		<!-- Tenskwatawa -->
 		</Replace>
 		<Replace Tag="LOC_MOD_WYEHI_SIMEKOFI_MAWASKAWE_SKOTE_DESCRIPTION" Language="th_TH">
-			<Text>เมาวาสกาเว สโกเต ได้รับ +1 [icon:YIELD_CULTURE] วัฒนธรรมต่อรัฐนครพันธมิตร</Text>		<!-- Mawaskawe Skote receives +1 [icon:YIELD_CULTURE] Culture per allied City State. -->
+			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:CITY_RURAL] เมาวาสกาเว สโกเต สำหรับทุก [icon:CITYSTATE] นครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture on the [icon:CITY_RURAL] Mawaskawe Skote for every [icon:CITYSTATE] City-State you are Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_MALEKI_KINTAKE_WAREHOUSES_DESCRIPTION" Language="th_TH">
 			<Text>+2 [icon:YIELD_FOOD] อาหารในฟาร์มและค่าย</Text>		<!-- +2 [icon:YIELD_FOOD] Food on Farms and Camps. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_MIYASKA_LATOWEKI_ENDEAVOR_TRADE_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_GOLD] ทอง สำหรับแต่ละเส้นทางการค้าขณะที่คุณมีอย่างน้อย 3 ความพยายามที่ทำงานอยู่</Text>		<!-- +2 [icon:YIELD_GOLD] Gold for each trade route while you have at least 3 Endeavors active. -->
+			<Text>+2 [icon:YIELD_GOLD] ทอง สำหรับแต่ละ [icon:TRADE_ROUTE] เส้นทางการค้า ที่ใช้งานอยู่ในขณะที่คุณมีอย่างน้อย 3 [icon:ENDEAVOR] ความร่วมมือ ที่ใช้งานอยู่</Text>		<!-- +2 [icon:YIELD_GOLD] Gold for each active [icon:TRADE_ROUTE] Trade Route while you have at least 3 [icon:ENDEAVOR] Endeavors active. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_MIYASKA_LATOWEKI_CITY_STATE_RESOURCES_DESCRIPTION" Language="th_TH">
-			<Text>+1 ขีดสูงสุดของทรัพยากรในเมืองหลวงของคุณต่อ พันธมิตรในนครรัฐ แต่ละแห่ง</Text>		<!-- +1 Resource Cap in your Capital per Allied City-State. -->
+			<Text>+1 [icon:RADIAL_RESOURCES] ความจุทรัพยากรใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวงของคุณสำหรับทุก [icon:CITYSTATE] นครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- +1 [icon:RADIAL_RESOURCES] Resource Capacity in your [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every [icon:CITYSTATE] City-State you are Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_MOD_TELWATIKI_THIRD_PARTY_DESCRIPTION" Language="th_TH">
-			<Text>คุณสามารถสนับสนุนสงครามของผู้เล่นอื่นได้ 3 ครั้งแทนที่จะเป็น 1 ครั้ง</Text>		<!-- You can support other player's wars 3 times instead of 1. -->
+			<Text>คุณสามารถเพิ่ม [icon:WAR_SUPPORT] แต้มสนับสนุนสงคราม สำหรับสงครามของผู้นำอื่น [icon:WAR] ได้ 3 ครั้งแทนที่จะเป็น 1 ครั้ง</Text>		<!-- You can add [icon:WAR_SUPPORT] War Support other Leader's [icon:WAR] Wars 3 times instead of 1. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_TELWATIKI_INFLUENCE_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_DIPLOMACY] อิทธิพลต่อเทิร์น</Text>		<!-- +2 [icon:YIELD_DIPLOMACY] Influence Per turn. -->
+			<Text>+2 [icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น</Text>		<!-- +2 [icon:YIELD_DIPLOMACY] Influence per turn. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_KISPOKO_NENA_TO_SUPPORT_DESCRIPTION" Language="th_TH">
-			<Text>คิปโปโก เนนาโต้ จะได้รับ +1 พลังต่อสู้ ต่อแต้ม การสนับสนุนสงคราม ที่เป็นบวก</Text>		<!-- The Kispoko Nena'to receives +1 Combat Strength per Positive War Support. -->
+			<Text>+1 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับ [icon:UNIT_KISPOKO_NENA_TO] คิปโปโก เนนาโต้ ต่อ [icon:WAR_SUPPORT] แต้มสนับสนุนสงคราม ที่เป็นบวก</Text>		<!-- +1 [icon:NAR_REW_COMBAT] Combat Strength for the [icon:UNIT_KISPOKO_NENA_TO] Kispoko Nena'to per positive [icon:WAR_SUPPORT] War Support. -->
 		</Replace>
 		<Replace Tag="LOC_KISPOKO_NENA_TO_SUPPORT_COMBAT_DESCRIPTION" Language="th_TH">
-			<Text>+{1_Value} พลังต่อสู้ ต่อแต้ม การสนับสนุนสงคราม ที่เป็นบวก (แนวคิดเทลวาติกิ)</Text>		<!-- +{1_Value} Combat Strength from Positive War Support. (Telwatiki Civic) -->
+			<Text>+{1_Value} เทลวาติกิ</Text>		<!-- +{1_Value} Telwatiki -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_BREAD_DANCE_NAME" Language="th_TH">
 			<Text>การเต้นรำขนมปัง</Text>		<!-- Bread Dance -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_BREAD_DANCE_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_CULTURE] วัฒนธรรมให้กับทุกเมืองการเกษตรและ +4[icon:YIELD_FOOD] อาหาร ให้กับ เมืองประมง</Text>		<!-- +4 [icon:YIELD_CULTURE] Culture to all Farming Towns and +4 [icon:YIELD_FOOD] Food to Fishing Towns. -->
+			<Text>+4[icon:YIELD_CULTURE] วัฒนธรรม ใน [icon:YIELD_TOWNS]เมืองการเกษตร และ +4[icon:YIELD_FOOD] อาหาร ใน [icon:YIELD_TOWNS] เมืองประมง</Text>		<!-- +4 [icon:YIELD_CULTURE] Culture in [icon:YIELD_TOWNS] Farming Towns and +4 [icon:YIELD_FOOD] Food in [icon:YIELD_TOWNS] Fishing Towns. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_HELIKHILENAWEWIPE_NAME" Language="th_TH">
 			<Text>เฮลิเคฮิเลนายวีไวป์</Text>		<!-- Helikhilenawewipe -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_HELIKHILENAWEWIPE_DESCRIPTION" Language="th_TH">
-			<Text>อิทธิพล +50%[icon:YIELD_DIPLOMACY] ต่อการเริ่มต้น และสานความสัมพันธ์ฉันท์มิตร กับรัฐอิสระ</Text>		<!-- +50%[icon:YIELD_DIPLOMACY] Influence towards the initiating and progressing the Befriend Independent Project. -->
+			<Text>+50% [icon:YIELD_DIPLOMACY] อิทธิพล ต่อการเริ่มต้น และ [icon:PROJECT] สานความสัมพันธ์ฉันท์มิตร กับรัฐอิสระ</Text>		<!-- +50% [icon:YIELD_DIPLOMACY] Influence towards the initiating and progressing the [icon:PROJECT] Befriend Independent Project. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_KAKAWFE_PAFKOTAWETA_NAME" Language="th_TH">
 			<Text>คาคอฟี ปาฟโคตาเวตา</Text>		<!-- Kakawfe Pafkotaweta -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_KAKAWFE_PAFKOTAWETA_DESCRIPTION" Language="th_TH">
-			<Text>ทุกครั้งที่เกิดพายุ น้ำท่วม หรือการระเบิดของภูเขาไฟจะให้ ความอุดมสมบูรณ์ยุคนี้ ได้รับ +1 [icon:YIELD_CULTURE] วัฒนธรรมและ +2 [icon:YIELD_GOLD] ทอง, สิ่งก่อสร้าง, และเขตเมือง จะไม่ได้รับความเสียหายจากพายุ</Text>		<!-- Every time a Storm, Flood, or Volcanic Eruption has provided Fertility this Age receive +1 [icon:YIELD_CULTURE] Culture and +2 [icon:YIELD_GOLD] Gold. Improvements, Buildings, and Urban Districts do not get damaged by Storms. -->
+			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม และ +2 [icon:YIELD_GOLD] ทอง สำหรับทุกครั้งที่พายุ น้ำท่วม หรือการระเบิดของภูเขาไฟได้มอบความอุดมสมบูรณ์ในยุคนี้ [icon:CITY_RURAL] พื้นที่พัฒนา, [icon:CITY_BUILDING_LIST] อาคาร, และ [icon:CITY_URBAN] เขต จะไม่ถูกทำลายโดยพายุ</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture and +2 [icon:YIELD_GOLD] Gold for every time a Storm, Flood, or Volcanic Eruption has provided Fertility this Age. [icon:CITY_RURAL] Improvements, [icon:CITY_BUILDING_LIST] Buildings, and [icon:CITY_URBAN] Districts do not get damaged by Storms. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_TAKESIYAKE_YEPEPOKI_NAME" Language="th_TH">
 			<Text>ทาเคะซิยากะ เยเพะโปะกิ</Text>		<!-- Takesiyake Yepepoki -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_TAKESIYAKE_YEPEPOKI_DESCRIPTION" Language="th_TH">
-			<Text>เมืองจะได้รับ +2 [icon:YIELD_PRODUCTION] การผลิตในแผ่นดินแบบทุนดรา, ทะเลทราย, และที่ราบ</Text>		<!-- Cities receive +2 [icon:YIELD_PRODUCTION] Production on Tundra, Desert, and Plains tiles. -->
+			<Text>+2 [icon:YIELD_PRODUCTION] การผลิตในแผ่นดินแบบ [icon:CITY_UNIMPROVED] ทุนดรา, ทะเลทราย, และที่ราบ ใน [icon:YIELD_CITIES] เมืองใหญ่</Text>		<!-- +2 [icon:YIELD_PRODUCTION] Production on [icon:CITY_UNIMPROVED] Tundra, Desert, and Plains Terrain in [icon:YIELD_CITIES] Cities. -->
 		</Replace>
 		<Replace Tag="LOC_MAIN_CHAR_SELECT_LEADER_TECUMSEH_ANY" Language="th_TH">
 			<Text>บรรพบุรุษของข้าเป็นนักรบ ลูกชายของพวกเขาก็เป็นนักรบ จากพวกเขา ข้าได้รับเพียงการดำรงอยู่ของข้าเท่านั้น ข้าได้สร้างตัวตนของข้าเอง</Text>		<!-- My forefathers were warriors. Their son is a warrior. From them I take only my existence. I have made myself what I am. -->
@@ -431,7 +431,7 @@
 			<Text>[BLIST][LI][B]+1 [icon:YIELD_FOOD] อาหาร [/B]และ [icon:YIELD_PRODUCTION] [B]กำลังผลิต [/B]ต่อยุคใน [B]ถิ่นฐาน [/B]สำหรับทุก [B][icon:CITYSTATE นครรัฐ [/B]ที่คุณเป็น [B]เจ้านครรัฐ [/B]ของ[LI][B]+1  [icon:NAR_REW_COMBAT] พลังต่อสู้ [/B]สำหรับยูนิตทั้งหมดสำหรับทุก [B]นครรัฐ [/B]ที่คุณเป็น [B]เจ้านคร[/B][/BLIST]</Text>		<!-- [BLIST][LI][B]+1 [icon:YIELD_FOOD] Food [/B]and [icon:YIELD_PRODUCTION] [B]Production [/B]per Age in [B]Settlements [/B]for every [icon:CITYSTATE] [B]City-State [/B]you are [B]Suzerain [/B]of.[LI][B]+1 [icon:NAR_REW_COMBAT] Combat Strength [/B]for all Units for every [icon:CITYSTATE] [B]City-State [/B]you are [B]Suzerain [/B]of.[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECUMSEH_SUZERAIN_DESCRIPTION" Language="th_TH">
-			<Text>+1 พลังต่อสู้, ในแต่ละนครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- +1 Combat Strength for every City-State you are Suzerain of. -->
+			<Text>+1 [icon:NAR_REW_COMBAT] พลังต่อสู้, ในแต่ละนครรัฐ ที่คุณเป็นเจ้านคร</Text>		<!-- +1 [icon:NAR_REW_COMBAT] Combat Strength for every City-State you are Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_TECUMSEH_MOD_SUZERAIN_COMBAT_DESCRIPTION" Language="th_TH">
 			<Text>+{1_Amount} นิคาจียากูลาาคเว</Text>		<!-- +{1_Amount} Nicaakiyakoolaakwe -->
@@ -1629,25 +1629,25 @@
 			<Text>คิปโปโก เนนาโต้</Text>		<!-- Kispoko Nena’to -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_KISPOKO_NENA_TO_BASE_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบพิเศษ ของชอว์นี, +1 พลังต่อสู้ ในแต่ละ ทรัพยากรของอาณาจักร ที่ไม่ซ้ำกัน</Text>		<!-- Shawnee Unique Infantry Unit. +1 Combat Strength for every unique Empire Resource. -->
+			<Text>ยูนิตทหารราบพิเศษ ของชอว์นี, +1 [icon:NAR_REW_COMBAT] พลังต่อสู้ ในแต่ละ [icon:RADIAL_RESOURCES] ทรัพยากรของอาณาจักร ที่ไม่ซ้ำกัน</Text>		<!-- Shawnee Unique Infantry Unit. +1 [icon:NAR_REW_COMBAT] Combat Strength for every unique Empire [icon:RADIAL_RESOURCES] Resource. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_KISPOKO_NENA_TO_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบพิเศษ ระดับ 1 ของชอว์นี, +1 พลังต่อสู้ ในแต่ละ ทรัพยากรของอาณาจักร ที่ไม่ซ้ำกัน</Text>		<!-- Tier 1 Shawnee Unique Infantry Unit. +1 Combat Strength for every unique Empire Resource. -->
+			<Text>ยูนิตทหารราบพิเศษ ระดับ 1 ของชอว์นี, +1 [icon:NAR_REW_COMBAT] พลังต่อสู้ ในแต่ละ [icon:RADIAL_RESOURCES] ทรัพยากรของอาณาจักร ที่ไม่ซ้ำกัน</Text>		<!-- Tier 1 Shawnee Unique Infantry Unit. +1 [icon:NAR_REW_COMBAT] Combat Strength for every unique [icon:RADIAL_RESOURCES] Empire Resource. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_KISPOKO_NENA_TO_2_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบพิเศษ ระดับ 2 ของชอว์นี, +1 พลังต่อสู้ ในแต่ละ ทรัพยากรของอาณาจักร ที่ไม่ซ้ำกัน</Text>		<!-- Tier 2 Shawnee Unique Infantry Unit. +1 Combat Strength for every unique Empire Resource. -->
+			<Text>ยูนิตทหารราบพิเศษ ระดับ 2 ของชอว์นี, +1 [icon:NAR_REW_COMBAT] พลังต่อสู้ ในแต่ละ [icon:RADIAL_RESOURCES] ทรัพยากรของอาณาจักร ที่ไม่ซ้ำกัน</Text>		<!-- Tier 2 Shawnee Unique Infantry Unit. +1 [icon:NAR_REW_COMBAT] Combat Strength for every unique [icon:RADIAL_RESOURCES] Empire Resource. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_KISPOKO_NENA_TO_3_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบพิเศษ ระดับ 3 ของชอว์นี, +1 พลังต่อสู้ ในแต่ละ ทรัพยากรของอาณาจักร ที่ไม่ซ้ำกัน</Text>		<!-- Tier 3 Shawnee Unique Infantry Unit. +1 Combat Strength for every unique Empire Resource. -->
+			<Text>ยูนิตทหารราบพิเศษ ระดับ 3 ของชอว์นี, +1 [icon:NAR_REW_COMBAT] พลังต่อสู้ ในแต่ละ [icon:RADIAL_RESOURCES] ทรัพยากรของอาณาจักร ที่ไม่ซ้ำกัน</Text>		<!-- Tier 3 Shawnee Unique Infantry Unit. +1 [icon:NAR_REW_COMBAT] Combat Strength for every unique [icon:RADIAL_RESOURCES] Empire Resource. -->
 		</Replace>
 		<Replace Tag="LOC_KISPOKO_NENA_TO_RESOURCE_COMBAT_DESCRIPTION" Language="th_TH">
-			<Text>+{1_Value} พลังต่อสู้ สำหรับทรัพยากรอาณาจักรที่ไม่ซ้ำกันทุกประเภท</Text>		<!-- +{1_Value} Combat Strength for every unique Empire Resource. -->
+			<Text>+{1_Amount} สำหรับ ทรัพยากรอาณาจักรพิเศษ</Text>		<!-- +{1_Amount} for unique Empire Resources -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_HOCEEPKILENI_NAME" Language="th_TH">
 			<Text>โฮซีปกิลีนิ</Text>		<!-- Hoceepkileni -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_HOCEEPKILENI_DESCRIPTION" Language="th_TH">
-			<Text>มิชชันนารีพิเศษ ของชอว์นี, +1 แต้มเคลื่อนที่และ แม่น้ำจะไม่จำกัดการเคลื่อนไหว</Text>		<!-- Shawnee Unique Missionary. +1 Movement and Rivers do not end movement. -->
+			<Text>มิชชันนารีพิเศษ ของชอว์นี, +1 [icon:Action_Move] แต้มเคลื่อนที่และ แม่น้ำจะไม่สิ้นสุด [icon:Action_Move] การเคลื่อนไหว</Text>		<!-- Shawnee Unique Missionary. +1 [icon:Action_Move] Movement. Rivers do not end this Unit's [icon:Action_Move] Movement. -->
 		</Replace>
 		<Replace Tag="LOC_BADGE_TECUMSEH_NAME" Language="th_TH">
 			<Text>ตราแห่งเทคัมเซห์ 1</Text>		<!-- Tecumseh Badge 1 -->

@@ -170,13 +170,13 @@
 			<Text>หลังคาของโลก</Text>		<!-- Roof of the World -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_NEPAL_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI][B]อาคารโกดังทั้งหมด[/B] ใช้ได้กับพื้นที่ [B]ภูเขา[/B] แต่มีค่าบำรุงรักษาเพิ่ม +1 [icon:YIELD_GOLD] ทองคำ และ [icon:YIELD_HAPPINESS] ความสุข [LI][B]+30% [icon:YIELD_PRODUCTION] ผลิตผล[/B] ในการสร้าง [B]โพธินาถ[/B][/BLIST]</Text>		<!-- [BLIST][LI][B]All Warehouse buildings[/B] apply to [B]Mountain Terrain[/B] tiles, but they cost +1 [icon:YIELD_GOLD] Gold and[icon:YIELD_HAPPINESS] Happiness Maintenance. [LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Boudhanath[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]อาคาร icon:YIELD_WAREHOUSE] [B]คลังสินค้า[/B] ทั้งหมด[/B] ใช้ได้กับพื้นที่ [icon:CITY_UNIMPROVED] [B]ภูเขา[/B] แต่มีค่าบำรุงรักษาเพิ่ม +1 [icon:YIELD_GOLD] ทอง และ [icon:YIELD_HAPPINESS] ความสุข [LI][B]+30% [icon:YIELD_PRODUCTION] ผลิตผล[/B] ในการสร้าง [B]โพธินาถ[/B][/BLIST]</Text>		<!-- [BLIST][LI]All [icon:YIELD_WAREHOUSE] [B]Warehouse Buildings[/B] apply to [icon:CITY_UNIMPROVED] [B]Mountain Terrain[/B], but they cost [B]+1 [icon:YIELD_GOLD] Gold and[icon:YIELD_HAPPINESS] Happiness Maintenance[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Boudhanath[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_NEPAL_DESCRIPTION" Language="th_TH">
-			<Text>+30% กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ ของเนปาล</Text>		<!-- +30% Production from being the Nepal's unique wonder. -->
+			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น [icon:WONDER] สิ่งมหัศจรรย์ ที่เกี่ยวข้องกับ เนปาล</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Nepal's associated [icon:WONDER] Wonder. -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_NEPAL_DESCRIPTION" Language="th_TH">
-			<Text>อาคารคลังสินค้าทุกหลังสามารถสร้างบนพื้นที่ภูเขาได้ แต่มีค่าใช้จ่ายเพิ่มขึ้น +1 [icon:YIELD_GOLD] ทอง และ +1 [icon:YIELD_HAPPINESS] ความสุขสำหรับการบำรุงรักษา</Text>		<!-- All Warehouse buildings apply to Mountain Terrain tiles, but they cost +1 [icon:YIELD_GOLD] Gold and [icon:YIELD_HAPPINESS] Happiness Maintenance. -->
+			<Text>[icon:YIELD_WAREHOUSE] อาคารคลังสินค้า ทุกหลังสามารถสร้างบน [icon:CITY_UNIMPROVED] พื้นที่ภูเขา ได้ แต่มีค่าใช้จ่ายเพิ่มขึ้น +1 [icon:YIELD_GOLD] ทอง และ +1 [icon:YIELD_HAPPINESS] ความสุข สำหรับการบำรุงรักษา</Text>		<!-- All [icon:YIELD_WAREHOUSE] Warehouse Buildings apply to [icon:CITY_UNIMPROVED] Mountain Terrain, but they cost +1 [icon:YIELD_GOLD] Gold and [icon:YIELD_HAPPINESS] Happiness Maintenance. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_CIVILIZATION_NEPAL_CHAPTER_HISTORY_PARA_1" Language="th_TH">
 			<Text>เนปาลมีทั้งอยู่ที่ขอบและที่กลางของโลก: ตั้งอยู่ในหุบเขาของบางแห่งที่สูงที่สุดในโลก, และในขณะเดียวกันก็ถูกดึงไประหว่างสองประเทศที่ใหญ่ที่สุดในโลก: ความใกล้ชิดทางภูมิศาสตร์ทำให้มันเป็นแหล่งการค้าและทรัพยากร, ในขณะที่ความไม่มั่นคงทางภูมิศาสตร์ทำให้มันสามารถอยู่รอดได้ ภายใน, เนปาลเป็นการผสมผสานของประชาชนที่มีศาสนาพุทธในที่สูง, และประชากรส่วนใหญ่ที่นับถือนับถือศาสนาฮินดูในที่ต่ำ ในส่วนหลังนี้, รัฐต่างๆ เกิดขึ้นด้วยระดับการปฏิสัมพันธ์ที่แตกต่างกันกับที่สูง, สร้างความสมดุลทางอำนาจที่เกี่ยวกับการอยู่ร่วมกันเท่าที่จะควบคุมได้: ชาวนิวาร์และชาตรีในที่ต่ำเป็นแกนหลักของรัฐ, แต่ต้องพึ่งพาเครือข่ายการขนส่งและทรัพยากรของชาวทามังและชาวเชอร์ปาที่อยู่ในที่สูง</Text>		<!-- Nepal exists at both the edge and the center of the world: nestled in the valleys of some of the highest places on Earth, and at the same time caught between two of the world’s largest nations: geopolitical proximity has allowed it to be a source of trade and resources, while geographical precarity has allowed it to survive. Internally, Nepal is a mixture of largely Buddhist highland peoples, and a largely Hindu lowland majority. In this latter, states arose with varying degrees of interaction with the highlands, creating a balance of power that was as much about coexistence as control: the Hindu Newars and Chhatri of the lowlands formed the core of states, but relied upon the transportation and resource networks of Tamang and Sherpa highlanders. -->
@@ -233,19 +233,19 @@
 			<Text>โรงไฟฟ้าฮายแลนด์</Text>		<!-- Highland Power Station -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HIGHLAND_POWER_STATION_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต และ +3[icon:YIELD_CULTURE] วัฒนธรรม, พื้นที่พัฒนาพิเศษ สำหรับเนปาล, คงอยู่ตลอดกาล, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE]คลังสินค้า บนช่อง, ต้องวางบนภูมิประเทศภูเขาที่ไม่มีลักษณะพิเศษ และจะถูกสร้างโดย เชอร์ปา หลังจากที่คุณได้ความเชี่ยวชาญ ซากามาธา</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production and +3[icon:YIELD_CULTURE] Culture. Nepalese Unique Improvement. Ageless. Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on a Featureless Mountain tile and is constructed by the Sherpa once you have the Sagarmatha Mastery. -->
+			<Text>พื้นที่พัฒนาพิเศษ สำหรับเนปาล, +3[icon:YIELD_PRODUCTION] กำลังผลิต และ +3[icon:YIELD_CULTURE] วัฒนธรรม, คงอยู่ตลอดกาล, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE]คลังสินค้า บนช่อง, ต้องวางบน [icon:CITY_UNIMPROVED] ภูมิประเทศภูเขาที่ไม่มีลักษณะพิเศษ และจะถูกสร้างโดย [icon:UNIT_SHERPA] เชอร์ปา หลังจากที่คุณได้ [icon:RADIAL_CIVICS] ความเชี่ยวชาญ แนวคิดซากามาธา</Text>		<!-- Nepalese Unique Improvement. +3 [icon:YIELD_PRODUCTION] Production and +3 [icon:YIELD_CULTURE] Culture. Ageless. Does not remove [icon:YIELD_WAREHOUSE] Warehouse bonuses on a tile. Must be placed on a [icon:CITY_UNIMPROVED] Featureless Mountain tile and is constructed by the [icon:UNIT_SHERPA] Sherpa once you have the [icon:RADIAL_CIVICS] Sagarmatha Civic Mastery. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HIGHLAND_POWER_STATION_TOOLTIP" Language="th_TH">
-			<Text>ไม่ลบโบนัส [icon:YIELD_WAREHOUSE]คลังสินค้า ในช่อง, ต้องวางบนภูมิประเทศภูเขาที่ไม่มีลักษณะพิเศษ และจะถูกสร้างโดย เชอร์ปา หลังจากที่คุณได้ความเชี่ยวชาญ ซากามาธา [n]พื้นที่พัฒนาพิเศษ สำหรับเนปาล</Text>		<!-- Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on a Featureless Mountain tile and is constructed by the Sherpa once you have the Sagarmatha Mastery.[n]Nepalese Unique Improvement. -->
+			<Text>ไม่ลบโบนัส [icon:YIELD_WAREHOUSE]คลังสินค้า ในช่อง, ต้องวางบน [icon:CITY_UNIMPROVED] พื้นที่ภูเขาที่ไม่มีลักษณะพิเศษ และจะถูกสร้างโดย [icon:UNIT_SHERPA] เชอร์ปา หลังจากที่คุณได้ [icon:RADIAL_CIVICS] ความเชี่ยวชาญ แนวคิดซากามาธา[n]พื้นที่พัฒนาพิเศษ สำหรับเนปาล</Text>		<!-- Does not remove [icon:YIELD_WAREHOUSE] Warehouse bonuses on a tile. Must be placed on a [icon:CITY_UNIMPROVED] Featureless Mountain tile and is constructed by the [icon:UNIT_SHERPA] Sherpa once you have the [icon:RADIAL_CIVICS] Sagarmatha Civic Mastery.[n]Nepalese Unique Improvement. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_BOUDHANATH_NAME" Language="th_TH">
 			<Text>โพธินาถ</Text>		<!-- Boudhanath -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_BOUDHANATH_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_DIPLOMACY] อิทธิพล, เพิ่มความสัมพันธ์กับผู้นำทุกคนอีก 20, คงอยู่ตลอดกาล, ต้องสร้างในทุ่งหญ้า หรือเขตร้อนติดกับภูเขา</Text>		<!-- +6 [icon:YIELD_DIPLOMACY] Influence. Increase your Relationship with all other Leaders by 20. Ageless. Must be built in Grassland or Tropical adjacent to a Mountain. -->
+			<Text>+4 [icon:YIELD_DIPLOMACY] อิทธิพล, +20 [icon:RELATIONSHIP] ความสัมพันธ์ กับผู้นำคนอื่นทุกคน, คงอยู่ตลอดกาล, ต้องสร้างในทุ่งหญ้า หรือเขตร้อนติดกับภูเขา</Text>		<!-- +6 [icon:YIELD_DIPLOMACY] Influence. +20 [icon:RELATIONSHIP] Relationship with all other Leaders. Ageless. Must be built in Grassland or Tropical adjacent to a Mountain. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_BOUDHANATH_TOOLTIP" Language="th_TH">
-			<Text>เพิ่มความสัมพันธ์กับผู้นำทุกคนอีก 20 [N]ต้องสร้างในทุ่งหญ้า หรือเขตร้อนติดกับภูเขา</Text>		<!-- Increase your Relationship with all other Leaders by 20.[N]Must be built in Grassland or Tropical adjacent to a Mountain. -->
+			<Text>+20 [icon:RELATIONSHIP] ความสัมพันธ์ กับผู้นำคนอื่นทุกคน[N]ต้องสร้างในทุ่งหญ้า หรือเขตร้อนติดกับภูเขา</Text>		<!-- +20 [icon:RELATIONSHIP] Relationship with all other Leaders.[N]Must be built in Grassland or Tropical adjacent to a Mountain. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_WONDER_BOUDHANATH" Language="th_TH">
 			<Text>ผู้ที่สอนมหาสมุทรแห่งปัญญานี้ตระหนักถึงธรรมชาติที่ชั่วขณะของสรรพสิ่ง</Text>		<!-- Those who teach this ocean of wisdom realize the momentary nature of things. -->
@@ -293,43 +293,43 @@
 			<Text>พระราชาเบเรนดรา</Text>		<!-- King Birendra -->
 		</Replace>
 		<Replace Tag="LOC_MOD_SAGARMATHA_BUILDINGS_MOUNTAIN_ADJACENCY_DESCRIPTION" Language="th_TH">
-			<Text>อาคารด้านอาหารและวิทยาศาสตร์ ได้รับ โบนัสใกล้เคียง ภูเขา</Text>		<!-- Food and Science Buildings receive an adjacency from Mountains. -->
+			<Text>อาคารด้าน [icon:YIELD_FOOD] อาหาร และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ ได้รับ โบนัสใกล้เคียง [icon:CITY_UNIMPROVED] ภูเขา</Text>		<!-- [icon:YIELD_FOOD] Food and [icon:YIELD_SCIENCE] Science Buildings receive an Adjacency from [icon:CITY_UNIMPROVED] Mountains. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_SHERPA_MOUNTAIN_CLAIM_DESCRIPTION" Language="th_TH">
-			<Text>เชอร์ปา สามารถเปิดใช้งานบนพื้นที่ภูเขาภายใน 5 ช่องจากหนึ่งใน พระราชวัง หรือ ห้องเมือง ของถิ่นฐานของคุณ เส้นทางของช่อง จะถูกสร้างไปยังถิ่นฐานของคุณ และพื้นที่ภูเขาจะได้รับการปรับปรุงทันทีด้วย สถานีไฟฟ้าพลังสูง</Text>		<!-- Sherpas can activate on a Mountain tile within 5 tiles of one of your Settlements' Palace or City Hall once every 5 turns. A path of tiles is claimed back to the Settlement and the Mountain tile is improved immediately with a Highland Power Station. -->
+			<Text>[icon:UNIT_SHERPA] เชอร์ปา สามารถเปิดใช้งานบน [icon:CITY_UNIMPROVED] พื้นที่ภูเขาภายใน 5 ช่องจากหนึ่งใน พระราชวัง หรือ ห้องเมือง ของถิ่นฐานของคุณ เส้นทางของช่อง จะถูกสร้างไปยังถิ่นฐานของคุณ และ [icon:CITY_UNIMPROVED] พื้นที่ภูเขาจะกลายเป็น [icon:CITY_RURAL] พื้นที่พัฒนา พร้อมด้วย สถานีไฟฟ้าพลังสูง</Text>		<!-- [icon:UNIT_SHERPA] Sherpas can activate on a [icon:CITY_UNIMPROVED] Mountain tile within 5 tiles of one of your Settlements' Palace or City Hall once every 5 turns. A path of tiles is claimed back to the Settlement and the [icon:CITY_UNIMPROVED] Mountain tile is [icon:CITY_RURAL] Improved immediately with a Highland Power Station. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_JYUMDO_BAGHA_MOUNTAIN_WALLS_DESCRIPTION" Language="th_TH">
-			<Text>เขตทั้งหมดที่ติดกับภูเขาจะได้รับการเสริมกำลังป้องกัน เป็นผลครั้งเดียว ปฏิบัติตามกฎการวางกำแพงตามปกติ</Text>		<!-- All Districts adjacent to Mountains receive Defensive Fortifications, one time effect. Follows normal Walls placement rules. -->
+			<Text>[icon:CITY_URBAN] เขตทั้งหมดที่ติดกับ [icon:CITY_UNIMPROVED] ภูเขาจะได้รับ [icon:Action_Fortify] การเสริมกำลัง, เป็นผลครั้งเดียว, ปฏิบัติตามกฎการวางกำแพงตามปกติ</Text>		<!-- All [icon:CITY_URBAN] Districts adjacent to [icon:CITY_UNIMPROVED] Mountains receive [icon:Action_Fortify] Defensive Fortifications, one time effect. Follows normal Walls placement rules. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_GIFT_GURKHA_DESCRIPTION" Language="th_TH">
 			<Text>ปลดล็อก "มอบกูร์ขา" ซึ่งให้ กุรขา แก่อารยธรรมอื่น เนปาลได้รับความสัมพันธ์ +10 กับพวกเขาและ 5 [icon:YIELD_CULTURE] (ปรับตามความเร็วของเกม) สำหรับระดับความสัมพันธ์ปัจจุบันกับพวกเขา สามารถทำได้เฉพาะกับอารยธรรมที่เป็นมิตรหรือช่วยเหลือเท่านั้น</Text>		<!-- Unlocks the Gift Gurkha Action which Grants a Gurkha to another Civilization. Nepal receives a +10 Relationship with them and 5 [icon:YIELD_CULTURE] (Scales by Gamespeed) for the current Relationship Level with them. Can only be done with Friendly or Helpful Civilizations. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_JYUMDO_BAGHA_FORTIFICATION_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตจะสร้างปราการเสร็๋จใน 1 เทิร์น หากอยู่ติดกับภูเขา</Text>		<!-- Units complete Fortifications in 1 turn if adjacent to a Mountain. -->
+			<Text>ยูนิตจะสร้าง [icon:Action_Fortify] ปราการเสร็๋จใน 1 เทิร์น หากอยู่ติดกับ [icon:CITY_UNIMPROVED] ภูเขา</Text>		<!-- Units complete [icon:Action_Fortify] Fortifications in 1 turn if adjacent to a [icon:CITY_UNIMPROVED] Mountain. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_GORKHAPATRA_MUSEUM_SLOTS_DESCRIPTION" Language="th_TH">
-			<Text>พิพิธภัณฑ์มีช่องงานใหญ่พิเศษ 2 ช่อง</Text>		<!-- Museums have 2 additional Great Work Slots. -->
+			<Text>+2 [icon:NAR_REW_GREATWORK] ช่องผลงานชิ้นเอก บน พิพิธภัณฑ์</Text>		<!-- +2 [icon:NAR_REW_GREATWORK] Great Work Slots on Museums. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_SINGHA_DURBAR_INFLUENCE_CULTURE_BUILDING_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:YIELD_DIPLOMACY] อิทธิพลต่ออาคารด้านวัฒนธรรม</Text>		<!-- +3 [icon:YIELD_DIPLOMACY] Influence on Culture Buildings. -->
+			<Text>+3 [icon:YIELD_DIPLOMACY] อิทธิพล บน [icon:NAR_REW_GREATWORK] อาคารด้านวัฒนธรรม</Text>		<!-- +3 [icon:YIELD_DIPLOMACY] Influence on [icon:YIELD_CULTURE] Culture Buildings.  -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_HIMAL_NAME" Language="th_TH">
 			<Text>ฮิมาล</Text>		<!-- Himāl -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_HIMAL_DESCRIPTION" Language="th_TH">
-			<Text>ภูเขาได้รับ +4 [icon:YIELD_CULTURE] วัฒนธรรม ในเมืองหลวงของคุณ, ภูเขาได้รับ +2 [icon:YIELD_CULTURE] วัฒนธรรม ในถิ่นฐานอื่นๆ</Text>		<!-- Mountain tiles receive +4 [icon:YIELD_CULTURE] Culture in your Capital. Mountains receive +2 [icon:YIELD_CULTURE] Culture in other Settlements. -->
+			<Text>+4 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:CITY_UNIMPROVED] ช่องภูเขา ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวงของคุณ, +2 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:CITY_UNIMPROVED] ช่องภูเขา   ในถิ่นฐานอื่นๆ</Text>		<!--  +4 [icon:YIELD_CULTURE] Culture on [icon:CITY_UNIMPROVED] Mountain tiles in your [icon:NOTIFICATION_SELECT_CAPITAL] Capital, +2 [icon:YIELD_CULTURE] Culture on [icon:CITY_UNIMPROVED] Mountain tiles in other Settlements. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_MAITRI_SANADHI_NAME" Language="th_TH">
 			<Text>เมตรี สานาดิ</Text>		<!-- Maitri Sanadhi -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_MAITRI_SANADHI_DESCRIPTION" Language="th_TH">
-			<Text>+50% [icon:YIELD_DIPLOMACY] อิทธิพล ต่อการเริ่มต้น ความร่วมมือ หากคุณมีจำนวนถิ่นฐานน้อยที่สุด, +20% หากเป็นไปตามอื่นๆ</Text>		<!-- +50% [icon:YIELD_DIPLOMACY] Influence towards initiating Endeavors if you have the least amount of Settlements, +20% otherwise. -->
+			<Text>+50% [icon:YIELD_DIPLOMACY] อิทธิพล ต่อการเริ่มต้น [icon:ENDEAVOR] ความร่วมมือ หากคุณมีจำนวนถิ่นฐานน้อยที่สุด, +20% หากเป็นไปตามอื่นๆ</Text>		<!-- +50% [icon:YIELD_DIPLOMACY] Influence towards initiating [icon:ENDEAVOR] Endeavors if you have the least amount of Settlements, +20% otherwise. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_TUNDIKHEL_NAME" Language="th_TH">
 			<Text>ทุนดิเคล</Text>		<!-- Tundikhel -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_TUNDIKHEL_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้ สำหรับยูนิตทั้งหมดที่อยู่ใกล้กับภูเขา, สิ่งนี้จะถูกคูณสองหากยูนิตนั้น อยู่ในดินแดนของคุณด้วย</Text>		<!-- +3 Combat Strength for all units adjacent to Mountain terrain. This is doubled if the unit is also in your territory. -->
+			<Text>+3 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับยูนิตทั้งหมดที่อยู่ใกล้กับ [icon:CITY_UNIMPROVED] ภูเขา, เพิ่มเป็นสองเท่า หากยูนิตนั้น อยู่ในดินแดนของคุณด้วย</Text>		<!-- +3 [icon:NAR_REW_COMBAT] Combat Strength for all Units adjacent to [icon:CITY_UNIMPROVED] Mountains. This is doubled if the Unit is also in your territory. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_GIFT_GURKHA_NAME" Language="th_TH">
 			<Text>มอบกูร์ขา</Text>		<!-- Gift Gurkha -->
@@ -626,19 +626,19 @@
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_12007A_STORYTITLE" Language="th_TH">
-			<Text>คุณหมอผู้ดี สูง และ ต่ำ</Text>		<!-- The Good Doctor, High and Low -->
+			<Text>คุณหมอผู้ดี และ เชอร์ปา</Text>		<!-- The Good Doctor and the Sherpa -->
 		</Replace>
 		<Replace Tag="LOC_12007A_COMPLETION" Language="th_TH">
-			<Text>ตามหลัง เชอร์ปา ขึ้นทางชัน ดร รีซัล หันกลับไปมองความงดงามของที่ราบสูงและที่ราบต่ำในเนปาล</Text>		<!-- Following the Sherpa up a steep incline, Dr Rizal looks back at the majesty of Nepal's highlands and lowlands. -->
+			<Text>หลังจากการเดินทางที่ยากลำบากผ่านชนบทของเนปาล ดร.ริซาล ถอนหายใจด้วยความโล่งใจเมื่อเข้าสู่เมืองหลวง แต่เชอร์ปาที่มาด้วยกันซึ่งมักจะเป็นคนสังคม มองทุกสิ่งทุกอย่างและทุกคนด้วยความสงสัย</Text>		<!-- After a backbreaking journey through the Nepalese countryside, Dr Rizal sighs with relief on entering the capital. But the sherpa accompanying him, typically gregarious, eyes everything and everyone with suspicion. -->
 		</Replace>
 		<Replace Tag="LOC_12007B_NAME" Language="th_TH">
-			<Text>ชาวภูเขามีความเป็นอิสระอย่างสุดขีด</Text>		<!-- The highlanders are fiercely independent. -->
+			<Text>กลับสู่เสรีภาพของชนบท</Text>		<!-- Return to the freedom of the countryside. -->
 		</Replace>
 		<Replace Tag="LOC_12007B_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_12007C_NAME" Language="th_TH">
-			<Text>ชาวที่ราบต่ำเป็นคนที่อบอุ่นและมีอัธยาศัยดี</Text>		<!-- The lowlanders are warm and welcoming. -->
+			<Text>อยู่ต่อไป ใครที่เป็นใครจะต้องอยู่ที่นี่</Text>		<!-- Stay. Anyone who is anyone will be here. -->
 		</Replace>
 		<Replace Tag="LOC_12007C_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
@@ -650,25 +650,25 @@
 			<Text>ยูนิตทหารราบพิเศษ ของเนปาล, แข็งแกร่งกว่า เร็วกว่า และมีค่าใช้จ่ายมากกว่า</Text>		<!-- Nepalese Unique Infantry Unit. Stronger, faster, and more expensive. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_GURKHA_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบพิเศษ ระดับ 1 ของเนปาล, +1 แต้มเคลื่อนที่, +5 พลังต่อสู้, มีค่าใช้จ่ายมากกว่า ทหารราบ</Text>		<!-- Tier 1 Nepalese Unique Infantry Unit. +1 Movement. +5 Combat Strength. More expensive than the Line Infantry. -->
+			<Text>ยูนิตทหารราบพิเศษ ระดับ 1 ของเนปาล, +1 [icon:Action_Move] แต้มเคลื่อนที่, +5 [icon:NAR_REW_COMBAT] พลังต่อสู้, มีค่าใช้จ่ายมากกว่า ทหารราบ</Text>		<!-- Tier 1 Nepalese Unique Infantry Unit. +1 [icon:Action_Move] Movement. +5 [icon:NAR_REW_COMBAT] Combat Strength. More expensive than the Line Infantry. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_GURKHA_2_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบพิเศษ ระดับ 2 ของเนปาล, +1 แต้มเคลื่อนที่, +5 พลังต่อสู้, มีค่าใช้จ่ายมากกว่า ทหารราบปืนไรเฟิล</Text>		<!-- Tier 2 Nepalese Unique Infantry Unit. +1 Movement. +5 Combat Strength. More expensive than the Rifle Infantry. -->
+			<Text>ยูนิตทหารราบพิเศษ ระดับ 2 ของเนปาล, +1 [icon:Action_Move] แต้มเคลื่อนที่, +5 [icon:NAR_REW_COMBAT] พลังต่อสู้, มีค่าใช้จ่ายมากกว่า ทหารราบ</Text>		<!-- Tier 2 Nepalese Unique Infantry Unit. +1 [icon:Action_Move] Movement. +5 [icon:NAR_REW_COMBAT] Combat Strength. More expensive than the Rifle Infantry. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_GURKHA_3_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารราบพิเศษ ระดับ 3 ของเนปาล, +1 แต้มเคลื่อนที่, +5 พลังต่อสู้, มีค่าใช้จ่ายมากกว่า กองร้อยทหารราบ</Text>		<!-- Tier 3 Nepalese Unique Infantry Unit. +1 Movement. +5 Combat Strength. More expensive than the Infantry Company. -->
+			<Text>ยูนิตทหารราบพิเศษ ระดับ 3 ของเนปาล, +1 [icon:Action_Move] แต้มเคลื่อนที่, +5 [icon:NAR_REW_COMBAT] พลังต่อสู้, มีค่าใช้จ่ายมากกว่า ทหารราบ</Text>		<!-- Tier 3 Nepalese Unique Infantry Unit. +1 [icon:Action_Move] Movement. +5 [icon:NAR_REW_COMBAT] Combat Strength. More expensive than the Infantry Company. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_SHERPA_NAME" Language="th_TH">
 			<Text>เชอร์ปา</Text>		<!-- Sherpa -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_SHERPA_DESCRIPTION" Language="th_TH">
-			<Text>หน่วยสอดแนมพิเศษ ของเนปาล, ไม่สนใจข้อจำกัดภูเขาและพื้นที่ขรุขระ ในการมองเห็น, ไม่สนใจข้อจำกัดภูเขาที่ไม่มีลักษณะพิเศษ สำหรับการเคลื่อนไหว</Text>		<!-- Nepalese Unique Scout. Ignores Mountains and Rough Terrain for Sight. Ignores Featureless Mountains for Movement. Can move on Mount Everest. -->
+			<Text>หน่วยสอดแนมพิเศษ ของเนปาล, ไม่สนใจข้อจำกัด [icon:CITY_UNIMPROVED] ภูเขาและพื้นที่ขรุขระ ใน [icon:Action_Showall] การมองเห็น, ไม่สนใจข้อจำกัด [icon:CITY_UNIMPROVED] ภูเขาที่ไม่มีลักษณะพิเศษ สำหรับ [icon:Action_Move] การเคลื่อนไหว</Text>		<!-- Nepalese Unique Scout. Ignores [icon:CITY_UNIMPROVED] Mountains and Rough Terrain for [icon:Action_Showall] Sight. Ignores featureless [icon:CITY_UNIMPROVED] Mountains for [icon:Action_Move] Movement. Can move on Mount Everest. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SHERPA_UNLOCK_NAME" Language="th_TH">
 			<Text>ครอบครองภูเขา</Text>		<!-- Claim Mountain -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SHERPA_UNLOCK_DESCRIPTION" Language="th_TH">
-			<Text>เปิดใช้งานบนภูเขาภายใน 5 ช่อง จากใจกลางเมืองของถิ่นฐานของคุณ, ภูเขาจะได้รับการพัฒนาทันทีด้วยสถานีพลังงานบนที่สูง หากภูเขาอยู่นอกเขตแดนของคุณ จะมีการอ้างสิทธิ์พื้นที่จากภูเขานั้นกลับไปยังเมืองที่ตั้งอยู่โดยมีเส้นทางเชื่อมต่อระหว่างกัน</Text>		<!-- Activate on a Mountain tile within 5 tiles of one of your Settlement's City Centers. The Mountain is improved immediately with a Highland Power Station. If the Mountain is outside your borders, a path of tiles is claimed back to the Settlement. -->
+			<Text>เปิดใช้งานบน [icon:CITY_UNIMPROVED] ภูเขาภายใน 5 ช่อง จากใจกลางเมืองของถิ่นฐานของคุณ, ภูเขาจะได้เป็น [icon:CITY_RURAL] พื้นที่พัฒนา ทันทีพร้อมด้วย สถานีไฟฟ้าพลังสูง, หากภูเขาอยู่นอกเขตแดนของคุณ จะมีการอ้างสิทธิ์พื้นที่จากภูเขานั้นกลับไปยังเมืองที่ตั้งอยู่โดยมีเส้นทางเชื่อมต่อระหว่างกัน</Text>		<!-- Activate on a [icon:CITY_UNIMPROVED] Mountain tile within 5 tiles of one of your Settlement's City Centers. The Mountain is [icon:CITY_RURAL] Improved immediately with a Highland Power Station. If the Mountain is outside your borders, a path of tiles is claimed back to the Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_MOUNTAIN_5_SETTLEMENTS_DESCRIPTION" Language="th_TH">
 			<Text>มีสาม ถิ่นฐาน ที่มี [B]ภูเขา[/B] อย่างน้อยห้าลูก</Text>		<!-- Have three Settlements with at least five [B]Mountains[/B]. -->

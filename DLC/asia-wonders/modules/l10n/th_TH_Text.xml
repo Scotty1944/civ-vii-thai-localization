@@ -26,10 +26,10 @@
 			<Text>สุสานแห่งฮาลิคาร์นัสซัส</Text>		<!-- Mausoleum at Halicarnassus -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_MAUSOLEUM_AT_HALICARNASSUS_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:YIELD_PRODUCTION] กำลังผลิต, เมื่อยูนิตทหารม้าถูกทำลายเป็นครั้งแรก จะเกิดใหม่ที่ถิ่นฐานที่คุณเป็นเจ้าของ ที่ใกล้ที่สุดโดยมีพลังชีวิต 25%, คงอยู่ตลอดกาล, ต้องสร้างบนพื้นที่ราบและติดชายฝั่ง</Text>		<!-- +3 [icon:YIELD_PRODUCTION] Production. The first time each Cavalry Unit is destroyed, it respawns in the closest Settlement you own at 25% HP. Ageless. Must be placed on Flat Terrain and adjacent to Coast. -->
+			<Text>+3 [icon:YIELD_PRODUCTION] กำลังผลิต, เมื่อยูนิตทหารม้าถูกทำลายเป็นครั้งแรก จะเกิดใหม่ที่ถิ่นฐานที่คุณเป็นเจ้าของ ที่ใกล้ที่สุดโดยมี 25% [icon:Action_Heal] HP, คงอยู่ตลอดกาล, ต้องสร้างบนพื้นที่ราบและติดชายฝั่ง</Text>		<!-- +3 [icon:YIELD_PRODUCTION] Production. The first time each Cavalry Unit is destroyed, it respawns in the closest Settlement you own at 25% [icon:Action_Heal] HP. Ageless. Must be placed on Flat Terrain and adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_MAUSOLEUM_AT_HALICARNASSUS_TOOLTIP" Language="th_TH">
-			<Text>เมื่อยูนิตทหารม้าถูกทำลายเป็นครั้งแรก จะเกิดใหม่ที่ถิ่นฐานที่คุณเป็นเจ้าของ ที่ใกล้ที่สุดโดยมีพลังชีวิต 25% [N]ต้องสร้างบนพื้นที่ราบและติดชายฝั่ง</Text>		<!-- The first time each Cavalry Unit is destroyed, it respawns in the closest Settlement you own at 25% HP.[N]Must be placed on Flat Terrain and adjacent to Coast. -->
+			<Text>เมื่อยูนิตทหารม้าถูกทำลายเป็นครั้งแรก จะเกิดใหม่ที่ถิ่นฐานที่คุณเป็นเจ้าของ ที่ใกล้ที่สุดโดยมี 25% [icon:Action_Heal] HP[N]ต้องสร้างบนพื้นที่ราบและติดชายฝั่ง</Text>		<!-- The first time each Cavalry Unit is destroyed, it respawns in the closest Settlement you own at 25% [icon:Action_Heal] HP.[N]Must be placed on Flat Terrain and adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_WONDER_MAUSOLEUM_AT_HALICARNASSUS" Language="th_TH">
 			<Text>"สุสานขนาดใหญ่ตั้งอยู่เหนือข้า ณ ฮาลิคาร์นัสซัส ด้วยขนาดและความงดงามที่ไม่มีเงาใดเทียบได้"</Text>		<!-- "A vast tomb lies over me in Halicarnassus, of such dimensions, of such exquisite beauty as no other shade can boast." -->
@@ -41,10 +41,10 @@
 			<Text>แกรนด์บาซาร์</Text>		<!-- Grand Bazaar -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_GRAND_BAZAAR_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_GOLD] ทอง, +2 ช่องทรัพยากร, ช่องทรัพยากรสมบัติในดินแดนบ้านเกิด ได้รับ +3[icon:YIELD_GOLD] ทอง, คงอยู่ตลอดกาล, ต้องสร้างติดเขตในดินแดนบ้านเกิด</Text>		<!-- +2[icon:YIELD_GOLD] Gold. +2 Resource Slots. Homelands Treasure Resource tiles receive +3[icon:YIELD_GOLD] Gold. Ageless. Must be placed adjacent to a District in the Homelands. -->
+			<Text>+2 [icon:YIELD_GOLD] ทอง, +2 [icon:RADIAL_RESOURCES] ความจุทรัพยากร ในถิ่นฐานนี้, +3 [icon:YIELD_GOLD] ทอง บนช่อง [icon:HOMELAND] ทรัพยากรสมบัติในดินแดนบ้านเกิด, คงอยู่ตลอดกาล, ต้องสร้างติดเขตในดินแดนบ้านเกิด</Text>		<!-- +2[icon:YIELD_GOLD] Gold. +2 [icon:RADIAL_RESOURCES] Resource Capacity in this Settlement. +3 [icon:YIELD_GOLD] Gold on [icon:HOMELAND] Homelands Treasure Resources. Ageless. Must be placed adjacent to a District in the Homelands. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_GRAND_BAZAAR_TOOLTIP" Language="th_TH">
-			<Text>+2 ช่องทรัพยากร ช่องทรัพยากรสมบัติในดินแดนบ้านเกิดได้รับ +3[icon:YIELD_GOLD] ทอง [N]ต้องสร้างติดเขตในดินแดนบ้านเกิด</Text>		<!-- +2 Resource Slots. Homelands Treasure Resource tiles receive +3[icon:YIELD_GOLD] Gold.[N]Must be placed adjacent to a District in the Homelands. -->
+			<Text>+2 [icon:RADIAL_RESOURCES] ความจุทรัพยากร ในถิ่นฐานนี้, +3[icon:YIELD_GOLD] ทอง บนช่อง [icon:HOMELAND] ทรัพยากรสมบัติในดินแดนบ้านเกิด[N]ต้องสร้างติดเขตในดินแดนบ้านเกิด</Text>		<!-- +2 [icon:RADIAL_RESOURCES] Resource Capacity in this Settlement. +3 [icon:YIELD_GOLD] Gold on [icon:HOMELAND] Homelands Treasure Resources.[N]Must be placed adjacent to a District in the Homelands. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_WONDER_GRAND_BAZAAR" Language="th_TH">
 			<Text>"เรามุ่งสู่ถนนทองคำไปยังซามาร์คานด์"</Text>		<!-- "We take the golden road to Samarkand." -->
@@ -56,10 +56,10 @@
 			<Text>วัดเชียงทอง</Text>		<!-- Wat Xieng Thong -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_WAT_XIENG_THONG_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม +200 [icon:YIELD_GOLD] ทอง (ปรับตามความเร็วเกม) ทุกครั้งที่คุณได้รับผลงานชิ้นเอก, คงอยู่ตลอดกาล, ต้องสร้างติดแม่น้ำ</Text>		<!-- +2[icon:YIELD_CULTURE] Culture. +200 [icon:YIELD_GOLD] Gold (Scales by Game Speed) every time you obtain a Great Work. Ageless. Must be placed adjacent to a River. -->
+			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม, +200 [icon:YIELD_GOLD] ทอง (ปรับตามความเร็วเกม) ทุกครั้งที่คุณได้รับ [icon:NAR_REW_GREATWORK] ผลงานชิ้นเอก, คงอยู่ตลอดกาล, ต้องสร้างติดแม่น้ำ</Text>		<!-- +2[icon:YIELD_CULTURE] Culture. +200 [icon:YIELD_GOLD] Gold (Scales by Game Speed) every time you obtain a [icon:NAR_REW_GREATWORK] Great Work. Ageless. Must be placed adjacent to a River. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_WAT_XIENG_THONG_TOOLTIP" Language="th_TH">
-			<Text>+200 [icon:YIELD_GOLD] ทอง (ปรับตามความเร็วเกม) ทุกครั้งที่คุณได้รับผลงานชิ้นเอก [N]ต้องสร้างติดแม่น้ำ</Text>		<!-- +200 [icon:YIELD_GOLD] Gold (Scales by Game Speed) every time you obtain a Great Work.[N]Must be placed adjacent to a River. -->
+			<Text>+200 [icon:YIELD_GOLD] ทอง (ปรับตามความเร็วเกม) ทุกครั้งที่คุณได้รับ [icon:NAR_REW_GREATWORK] ผลงานชิ้นเอก [N]ต้องสร้างติดแม่น้ำ</Text>		<!-- +200 [icon:YIELD_GOLD] Gold (Scales by Game Speed) every time you obtain a [icon:NAR_REW_GREATWORK] Great Work.[N]Must be placed adjacent to a River. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_WONDER_WAT_XIENG_THONG" Language="th_TH">
 			<Text>"ขอให้ฝนตกตามฤดูกาล และขอให้กบร้องในทุ่งนา"</Text>		<!-- "Let the rain fall according to season, and let the frogs cry out in the fields." -->
@@ -71,10 +71,10 @@
 			<Text>มัสยิดอุบูเดียห์</Text>		<!-- Ubudiah Mosque -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_UBUDIAH_MOSQUE_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_HAPPINESS] ความสุข, เขตพัฒนาในถิ่นฐานนี้ได้รับ +50% ผลผลิตเพิ่มเติม, คงอยู่ตลอดกาล, ต้องสร้างบนพื้นที่ชุ่มน้ำ</Text>		<!-- +4[icon:YIELD_HAPPINESS] Happiness. Improvements in this Settlement receive +50% Yield. Ageless. Must be placed on Wet Terrain. -->
+			<Text>+4 [icon:YIELD_HAPPINESS] ความสุข, +50% ผลผลิต บน [icon:CITY_RURAL] พื้นที่พัฒนา, คงอยู่ตลอดกาล, ต้องสร้างบนพื้นที่ชุ่มน้ำ</Text>		<!-- +4[icon:YIELD_HAPPINESS] Happiness. +50% Yield on [icon:CITY_RURAL] Improvements in this Settlement. Ageless. Must be placed on Wet Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_UBUDIAH_MOSQUE_TOOLTIP" Language="th_TH">
-			<Text>เขตพัฒนาในถิ่นฐานนี้ได้รับ +50% ผลผลิตเพิ่มเติม [N]ต้องสร้างบนพื้นที่ชุ่มน้ำ</Text>		<!-- Improvements in this Settlement receive +50% Yield.[N]Must be placed on Wet Terrain. -->
+			<Text>+50% ผลผลิต บน [icon:CITY_RURAL] พื้นที่พัฒนา[N]ต้องสร้างบนพื้นที่ชุ่มน้ำ</Text>		<!-- +50% Yield on [icon:CITY_RURAL] Improvements in this Settlement.[N]Must be placed on Wet Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_WONDER_UBUDIAH_MOSQUE" Language="th_TH">
 			<Text>"จงจำไว้ พ่อค้าหนุ่ม – ความปรารถนาของเจ้าคือศัตรูของสงคราม"</Text>		<!-- "Remember and remember, merchant child – your desires are the enemies of war." -->

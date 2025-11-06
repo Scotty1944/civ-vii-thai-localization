@@ -26,10 +26,10 @@
 			<Text>ในยุคนี้ ได้รับ +15%[icon:YIELD_GOLD] ทอง โดยจะต้องเสีย -10%[icon:YIELD_FOOD] อาหาร</Text>		<!-- For this Age, gain +15% Gold[icon:YIELD_GOLD] at the cost of -10% Food[icon:YIELD_FOOD] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_NAPOLEON_L1_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน +25% ความสัมพันธ์ จากการเริ่มต้นหรือสนับสนุนความร่วมมือ, -25% ความสัมพันธ์ จากการเริ่มต้น คว่ำบาตร หรือปฏิเสธ ความร่วมมือ</Text>		<!-- Legend Unlock. +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
+			<Text>ปลดล็อกตำนาน +25% [icon:RELATIONSHIP] ความสัมพันธ์ จากการเริ่มต้นหรือสนับสนุน [icon:ENDEAVOR] ความร่วมมือ, -25% [icon:RELATIONSHIP] ความสัมพันธ์ จากการเริ่มต้น [icon:SANCTIONS] คว่ำบาตร หรือปฏิเสธ [icon:ENDEAVOR] ความร่วมมือ</Text>		<!-- Legend Unlock. +25% [icon:RELATIONSHIP] Relationship from starting or supporting [icon:ENDEAVOR] Endeavors. -25% [icon:RELATIONSHIP] Relationship from starting [icon:SANCTIONS] Sanctions or rejecting [icon:ENDEAVOR] Endeavors. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_LEGEND_NAPOLEON_L2_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน: [n]+25%[icon:YIELD_GOLD] ทอง จากการค้าขาย และขบวนบรรทุกสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD]Gold from Trade and Treasure Convoys. -->
+			<Text>ปลดล็อกตำนาน: [n]+25%[icon:YIELD_GOLD] ทอง จาก [icon:TRADE_INCOME] รายได้การค้า และ [icon:UNIT_TREASURE_FLEET] ขบวนบรรทุกสมบัติ</Text>		<!-- Legend Unlock.[n]+25% [icon:YIELD_GOLD] Gold from [icon:TRADE_INCOME] Trade Income and [icon:UNIT_TREASURE_FLEET] Treasure Convoys. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAPOLEON_TITLE" Language="th_TH">
 			<Text>{LOC_LEADER_NAPOLEON_NAME}</Text>		<!-- {LOC_LEADER_NAPOLEON_NAME} -->
@@ -506,7 +506,7 @@
 			<Text>แนวคิดของนโปเลียนครอบคลุมหัวข้อต่าง ๆ มากมาย แต่ในที่สุดแล้ว พวกเขาทั้งหมดส่งผลให้อยู่ในกำไร</Text>		<!-- Napoleon's ideas span many topics, but at the end of the day, they all result in profits. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1190B_IMPERATIVE" Language="th_TH">
-			<Text>พบปะกับผู้นำทุกคน</Text>		<!-- Meet all Leaders. -->
+			<Text>พบกับอารยธรรมในแผ่นดินเกิดทั้งหมด</Text>		<!-- Meet all Homeland Civilizations. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1190C_STORYTITLE" Language="th_TH">
 			<Text>บุรุษแห่งโชคชะตา</Text>		<!-- The Man of Destiny -->

@@ -2411,16 +2411,16 @@
 			<Text>โจมตีระยะไกล</Text>		<!-- Range Attack -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_UPSCALE_AA_METALFX_SPATIAL" Language="th_TH">
-			<Text>MSAA + MetalFX Spatial</Text>		<!-- MSAA + MetalFX Spatial -->
+			<Text>MetalFX Spatial + MSAA</Text>		<!-- MetalFX Spatial + MSAA -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_UPSCALE_AA_METALFX_SPATIAL_DESCRIPTION" Language="th_TH">
-			<Text>เปิดใช้งาน MSAA + MetalFX Spatial</Text>		<!-- Enable MSAA + MetalFX Spatial -->
+			<Text>เปิดใช้งาน MetalFX Spatial Upscaling</Text>		<!-- Enable MetalFX Spatial Upscaling -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_UPSCALE_AA_METALFX_TEMPORAL" Language="th_TH">
 			<Text>MetalFX Temporal</Text>		<!-- MetalFX Temporal -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_UPSCALE_AA_METALFX_TEMPORAL_DESCRIPTION" Language="th_TH">
-			<Text>เปิดใช้งาน MetalFX Temporal</Text>		<!-- Enable MetalFX Temporal -->
+			<Text>เปิดใช้งาน MetalFX Temporal Anti-aliasing and Upscaling</Text>		<!-- Enable MetalFX Temporal Anti-aliasing and Upscaling -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_UNIT_RANGED_ATTACK_TT" Language="th_TH">
 			<Text>ดำเนินการโจมตีระยะไกลด้วยยูนิตที่เลือก</Text>		<!-- Performs the Ranged Attack with the selected unit -->
@@ -4017,31 +4017,31 @@
 			<Text>เลือกโหมดการเพิ่มความละเอียดและ/หรือการลดรอยหยัก การเพิ่มความละเอียดช่วยให้การเรนเดอร์ 3D ที่ความละเอียดต่ำลง เพิ่มประสิทธิภาพ การลดรอยหยักช่วยลด การกระพริบ และสร้างภาพที่ราบรื่นขึ้น</Text>		<!-- Selects upscaling and/or anti-aliasing mode. Upscaling allows 3D rendering at a lower resolution, increasing performance. Anti-aliasing reduces flickering and produces a smoother image. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_UPSCALE_AA_MSAA" Language="th_TH">
-			<Text>MSAA (Anti-aliasing)</Text>		<!-- MSAA (Anti-aliasing) -->
+			<Text>MSAA</Text>		<!-- MSAA -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_UPSCALE_AA_MSAA_DESCRIPTION" Language="th_TH">
 			<Text>เปิดใช้งานการลดรอยหยักแบบหลายตัวอย่าง</Text>		<!-- Enable Multisample Anti-aliasing -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_UPSCALE_AA_FSR1" Language="th_TH">
-			<Text>MSAA + AMD FidelityFX Super Resolution 1 (Anti-aliasing and Upscaling)</Text>		<!-- MSAA + AMD FidelityFX Super Resolution 1 (Anti-aliasing and Upscaling) -->
+			<Text>AMD FSR 1 + MSAA</Text>		<!-- AMD FSR 1 + MSAA -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_UPSCALE_AA_FSR1_DESCRIPTION" Language="th_TH">
-			<Text>เปิดใช้งาน AMD FidelityFX Super Resolution 1 และ MSAA</Text>		<!-- Enable AMD FidelityFX Super Resolution 1 and MSAA -->
+			<Text>เปิดใช้งานAMD FidelityFX Super Resolution 1 Anti-aliasing and Upscaling</Text>		<!-- Enable AMD FidelityFX Super Resolution 1 Anti-aliasing and Upscaling -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_UPSCALE_AA_FSR3" Language="th_TH">
-			<Text>AMD FidelityFX Super Resolution 3 (Anti-aliasing and Upscaling)</Text>		<!-- AMD FidelityFX Super Resolution 3 (Anti-aliasing and Upscaling) -->
+			<Text>AMD FSR 3</Text>		<!-- AMD FSR 3 -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_UPSCALE_AA_FSR3_DESCRIPTION" Language="th_TH">
-			<Text>เปิดใช้งาน AMD FidelityFX Super Resolution 3</Text>		<!-- Enable AMD FidelityFX Super Resolution 3 -->
+			<Text>เปิดใช้งาน AMD FidelityFX Super Resolution 3 Anti-aliasing and Upscaling</Text>		<!-- Enable AMD FidelityFX Super Resolution 3 Anti-aliasing and Upscaling -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_UPSCALE_AA_FSR3_DESCRIPTION_LONG" Language="th_TH">
 			<Text>AMD FidelityFX Super Resolution 3 ใช้การเพิ่มความละเอียดของภาพคุณภาพสูงเพื่อสร้างเฟรมความละเอียดสูงที่อัตราเฟรมที่รวดเร็ว</Text>		<!-- AMD FidelityFX Super Resolution 3 uses high-quality image upscaling to generate high resolution frames at fast frame rates. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_UPSCALE_AA_XESS" Language="th_TH">
-			<Text>Intel XeSS (Anti-aliasing and Upscaling)</Text>		<!-- Intel XeSS (Anti-aliasing and Upscaling) -->
+			<Text>Intel XeSS</Text>		<!-- Intel XeSS -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_UPSCALE_AA_XESS_DESCRIPTION" Language="th_TH">
-			<Text>เปิดใช้งาน Intel XeSS</Text>		<!-- Enable Intel XeSS -->
+			<Text>เปิดใช้งาน Intel XeSS Anti-aliasing and Upscaling</Text>		<!-- Enable Intel XeSS Anti-aliasing and Upscaling -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_GFX_UPSCALE_AA_XESS_DESCRIPTION_SHORT" Language="th_TH">
 			<Text>เทคโนโลยี Intel Xe Super Sampling (XeSS) ใช้การเรียนรู้ของเครื่องเพื่อให้ได้ประสิทธิภาพที่สูงขึ้นพร้อมคุณภาพของภาพที่ยอดเยี่ยม XeSS ที่เร่งด้วยฮาร์ดแวร์ได้รับการปรับให้เหมาะสมสำหรับ GPU ที่ใช้สถาปัตยกรรม Xe-HPG</Text>		<!-- Intel Xe Super Sampling (XeSS) technology uses machine learning to deliver higher performance with exceptional image quality. Hardware accelerated XeSS is optimized for Xe-HPG microarchitecture-based GPUs. -->

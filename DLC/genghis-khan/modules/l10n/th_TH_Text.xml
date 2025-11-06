@@ -26,10 +26,10 @@
 			<Text>ในยุคนี้ +3 พลังต่อสู้ สำหรับยูนิตทางอากาศ โดยแลกกับ -10% อิทธิพล[icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Air Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_LEGEND_GENGHIS_KHAN_L1_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน +50% [icon:YIELD_GOLD]ทอง สำหรับการเปลี่ยนเมืองเล็กเป็นเมืองใหญ่</Text>		<!-- Legend Unlock. +50% [icon:YIELD_GOLD]Gold towards converting a Town to a City. -->
+			<Text>ปลดล็อกตำนาน +50% [icon:YIELD_GOLD]ทอง สำหรับการเปลี่ยน [icon:YIELD_TOWNS] เมืองเล็ก เป็น [icon:YIELD_CITIES] เมืองใหญ่</Text>		<!-- Legend Unlock. +50% [icon:YIELD_GOLD] Gold towards converting a [icon:YIELD_TOWNS] Town to a [icon:YIELD_CITIES] City. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_GENGHIS_KHAN_L2_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน +5 พลังต่อสู้ สำหรับทุกยูนิตเมื่อโจมตีเขต</Text>		<!-- Legend Unlock. +5 Combat Strength for all Units against Districts. -->
+			<Text>ปลดล็อกตำนาน +5 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับทุกยูนิตเมื่อโจมตี [icon:CITY_FORTIFIED] เขตเสริมกำลัง</Text>		<!-- Legend Unlock. +5 [icon:NAR_REW_COMBAT] Combat Strength for all Units against [icon:CITY_FORTIFIED] Fortified Districts. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_GENGHIS_KHAN_L2_COMBAT_PREVIEW" Language="th_TH">
 			<Text>+{1_Value} คุณสมบัติตำนานทหาร</Text>		<!-- +{1_Value} Legend Militaristic Attribute -->
@@ -98,25 +98,25 @@
 			<Text>เจงกิสข่าน</Text>		<!-- Genghis Khan -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_GENGHIS_KHAN_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับยูนิตทหารม้า หรือ +5 เมื่ออยู่ในรัศมีบัญชาการกองทัพ [icon:COMMANDER_RADIUS] ผู้บัญชาการกองทัพ [icon:UNIT_ARMY_COMMANDER] มี +1 [icon:Action_Move] การเคลื่อนที่ แม้ไม่มียูนิตบรรจุอยู่ในกองทัพ ในแต่ละยุค ผู้บัญชาการกองทัพ [icon:UNIT_ARMY_COMMANDER] สามารถใช้คำสั่งเปลี่ยนฝ่ายอิสระเพื่อเปลี่ยนยูนิตทหารอิสระที่อยู่ติดกันให้มาอยู่ภายใต้การควบคุมของคุณได้หนึ่งครั้ง</Text>		<!-- +3 [icon:NAR_REW_COMBAT] Combat Strength for Cavalry Units, or +5 when in an Army [icon:COMMANDER_RADIUS] Command Radius. [icon:UNIT_ARMY_COMMANDER]Army Commanders have +1 [icon:Action_Move] Movement even when no Units are packed into them. Once per Age, [icon:UNIT_ARMY_COMMANDER] Army Commanders can use the Convert Independents Action to convert adjacent Independent Military Units to your control. -->
+			<Text>+3 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับยูนิตทหารม้า หรือ +5 เมื่ออยู่ในรัศมีบัญชาการกองทัพ [icon:COMMANDER_RADIUS] ผู้บัญชาการกองทัพ [icon:UNIT_ARMY_COMMANDER] มี +1 [icon:Action_Move] การเคลื่อนที่ แม้ไม่มียูนิตบรรจุอยู่ในกองทัพ ในแต่ละยุค ผู้บัญชาการกองทัพ [icon:UNIT_ARMY_COMMANDER] สามารถใช้คำสั่งเปลี่ยนฝ่ายอิสระเพื่อเปลี่ยน [icon:INDEPENDENT_POWER] ยูนิตทหารอิสระที่อยู่ติดกัน ให้มาอยู่ภายใต้การควบคุมของคุณได้หนึ่งครั้ง</Text>		<!-- +3 [icon:NAR_REW_COMBAT] Combat Strength for Cavalry Units, or +5 when in an Army [icon:COMMANDER_RADIUS] Command Radius. [icon:UNIT_ARMY_COMMANDER]Army Commanders have +1 [icon:Action_Move] Movement even when no Units are packed into them. Once per Age, [icon:UNIT_ARMY_COMMANDER] Army Commanders can use the Convert Independents Action to convert adjacent [icon:INDEPENDENT_POWER] Independent Military Units to your control. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_GENGHIS_KHAN_ABILITY_NAME" Language="th_TH">
 			<Text>ผู้ถูกเลือกโดยเทงกรี</Text>		<!-- Chosen of Tengri -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_GENGHIS_KHAN_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI][B]+3 [icon:NAR_REW_COMBAT] พลังต่อสู้  [/B]สำหรับ [B]ยูนิตทหารม้า[/B] หรือ [B]+5[/B] เมื่ออยู่ใน [B]รัศมีบัญชาการกองทัพ [icon:COMMANDER_RADIUS][/B][LI][icon:UNIT_ARMY_COMMANDER] [B]ผู้บัญชาการกองทัพ [/B]มี [B]+1 [icon:Action_Move] การเคลื่อนที่ [/B]แม้ไม่มียูนิตบรรจุอยู่ในกองทัพ[LI]ในแต่ละยุค [icon:UNIT_ARMY_COMMANDER] [B]ผู้บัญชาการกองทัพ [/B]สามารถใช้ [B]คำสั่งเปลี่ยนฝ่ายอิสระ[/B] เพื่อเปลี่ยน [B]ยูนิตทหารอิสระที่อยู่ติดกัน [/B]ให้มาอยู่ภายใต้การควบคุมของคุณได้หนึ่งครั้ง[/LIST]</Text>		<!-- [BLIST][LI][B]+3 [icon:NAR_REW_COMBAT] Combat Strength [/B]for [B]Cavalry Units[/B], or [B]+5[/B] when in an [B]Army [icon:COMMANDER_RADIUS] Command Radius[/B].[LI][icon:UNIT_ARMY_COMMANDER] [B]Army Commanders [/B]have [B]+1 [icon:Action_Move] Movement [/B]even when no Units are packed into them.[LI]Once per Age, [icon:UNIT_ARMY_COMMANDER] [B]Army Commanders [/B]can use the [B]Convert Independents Action[/B] to convert adjacent [B]Independent Military Units [/B]to your control.[/LIST] -->
+			<Text>[BLIST][LI][B]+3 [icon:NAR_REW_COMBAT] พลังต่อสู้  [/B]สำหรับ [B]ยูนิตทหารม้า[/B] หรือ [B]+5[/B] เมื่ออยู่ใน [B]รัศมีบัญชาการกองทัพ [icon:COMMANDER_RADIUS][/B][LI][icon:UNIT_ARMY_COMMANDER] [B]ผู้บัญชาการกองทัพ [/B]มี [B]+1 [icon:Action_Move] การเคลื่อนที่ [/B]แม้ไม่มียูนิตบรรจุอยู่ในกองทัพ[LI]ในแต่ละยุค [icon:UNIT_ARMY_COMMANDER] [B]ผู้บัญชาการกองทัพ [/B]สามารถใช้ [B]คำสั่งเปลี่ยนฝ่ายอิสระ[/B] เพื่อเปลี่ยน [B][icon:INDEPENDENT_POWER] ยูนิตทหารอิสระที่อยู่ติดกัน [/B]ให้มาอยู่ภายใต้การควบคุมของคุณได้หนึ่งครั้ง[/LIST]</Text>		<!-- [BLIST][LI][B]+3 [icon:NAR_REW_COMBAT] Combat Strength [/B]for [B]Cavalry Units[/B], or [B]+5[/B] when in an [B]Army [icon:COMMANDER_RADIUS] Command Radius[/B].[LI][icon:UNIT_ARMY_COMMANDER] [B]Army Commanders [/B]have [B]+1 [icon:Action_Move] Movement [/B]even when no Units are packed into them.[LI]Once per Age, [icon:UNIT_ARMY_COMMANDER] [B]Army Commanders [/B]can use the [B]Convert Independents Action[/B] to convert adjacent [icon:INDEPENDENT_POWER] [B]Independent Military Units [/B]to your control.[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_GENGHIS_KHAN_ARMY_COMMANDER_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้ สำหรับยูนิตทหารม้า +5 เมื่ออยู่ในรัศมีบัญชาการ ผู้บัญชาการกองทัพมี +1 การเคลื่อนที่ แม้ไม่มียูนิตบรรจุอยู่ในกองทัพ ในแต่ละยุค ผู้บัญชาการกองทัพสามารถใช้คำสั่งเปลี่ยนฝ่ายอิสระเพื่อเปลี่ยนยูนิตทหารอิสระที่อยู่ติดกันให้มาอยู่ภายใต้การควบคุมของคุณได้</Text>		<!-- +3 Combat Strength for Cavalry Units, +5 when in Command Radius. Army Commanders have +1 Movement even when no Units are packed into them. Once per Age, Army Commanders can use the Convert Independents Action to convert adjacent Independent Military Units to your control. -->
+			<Text>+3 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับยูนิตทหารม้า +5 เมื่ออยู่ใน [icon:COMMANDER_RADIUS] รัศมีบัญชาการ, [icon:UNIT_ARMY_COMMANDER] ผู้บัญชาการกองทัพมี +1 [icon:Action_Move] แต้มเคลื่อนที่ แม้ไม่มียูนิตบรรจุอยู่ในกองทัพ, หนึ่งครั้งในแต่ละยุค, [icon:UNIT_ARMY_COMMANDER] ผู้บัญชาการกองทัพสามารถใช้คำสั่งเปลี่ยนฝ่ายอิสระเพื่อเปลี่ยน [icon:INDEPENDENT_POWER] ยูนิตทหารอิสระ ที่อยู่ติดกันให้มาอยู่ภายใต้การควบคุมของคุณได้</Text>		<!-- +3 [icon:NAR_REW_COMBAT] Combat Strength for Cavalry Units, +5 when in [icon:COMMANDER_RADIUS] Command Radius. [icon:UNIT_ARMY_COMMANDER] Army Commanders have +1 [icon:Action_Move] Movement even when no Units are packed into them. Once per Age, [icon:UNIT_ARMY_COMMANDER] Army Commanders can use the Convert Independents Action to convert adjacent [icon:INDEPENDENT_POWER] Independent Military Units to your control. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_GENGHIS_KHAN_COMMAND_RADIUS_COMBAT_DESCRIPTION" Language="th_TH">
-			<Text>+5 พลังต่อสู้ ให้ยูนิตทหารม้า</Text>		<!-- +5 Combat Strength to Cavalry Units -->
+			<Text>+5 [icon:NAR_REW_COMBAT] พลังต่อสู้ ให้ยูนิตทหารม้า</Text>		<!-- +5 [icon:NAR_REW_COMBAT] Combat Strength to Cavalry Units -->
 		</Replace>
 		<Replace Tag="LOC_GENGHIS_KHAN_COMMAND_RADIUS_COMBAT_PREVIEW" Language="th_TH">
 			<Text>+{1_Amount} จากผู้ถูกเลือกโดยเทงกรี</Text>		<!-- +{1_Amount} from Chosen of Tengri -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_GENGHIS_KHAN_NO_COMMAND_RADIUS_COMBAT_DESCRIPTION" Language="th_TH">
-			<Text>+3 พลังต่อสู้ สำหรับยูนิตทหารม้า</Text>		<!-- +3 Combat Strength for Cavalry Units -->
+			<Text>+3 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับยูนิตทหารม้า</Text>		<!-- +3 [icon:NAR_REW_COMBAT] Combat Strength for Cavalry Units -->
 		</Replace>
 		<Replace Tag="LOC_GENGHIS_KHAN_NO_COMMAND_RADIUS_COMBAT_PREVIEW" Language="th_TH">
 			<Text>+{1_Amount} จากผู้ถูกเลือกโดยเทงกรี</Text>		<!-- +{1_Amount} from Chosen of Tengri -->

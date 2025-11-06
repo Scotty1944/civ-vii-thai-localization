@@ -170,13 +170,13 @@
 			<Text>มรดกเฟนีเชียน</Text>		<!-- Phoenician Heritage -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_CARTHAGE_DESCRIPTION" Language="th_TH">
-			<Text>สามารถมีได้เพียง 1 เมืองเท่านั้น เมืองไม่สามารถเปลี่ยนเป็นเมืองใหญ่ได้ รับพ่อค้าหรือผู้บุกเบิกเพิ่มอีกหนึ่งคนทุกครั้งที่ คุณซื้อหรือฝึกขึ้นมา</Text>		<!-- Can only have 1 City. Towns cannot use Convert to City. Receive a second Merchant or Colonist each time you purchase or train one. -->
+			<Text>สามารถมีได้เพียง 1 [icon:YIELD_CITIES] เมืองใหญ่เท่านั้น [icon:YIELD_TOWNS] เมืองเล็กไม่สามารถเปลี่ยนเป็นเมืองใหญ่ได้ รับ [icon:UNIT_MERCHANT] พ่อค้าหรือ [icon:UNIT_COLONIST] ผู้ตั้งถิ่นฐาน เพิ่มอีกหนึ่งคนทุกครั้งที่ คุณซื้อหรือฝึกขึ้นมา</Text>		<!-- Can only have 1 [icon:YIELD_CITIES] City. [icon:YIELD_TOWNS] Towns cannot use Convert to City. Receive a second [icon:UNIT_MERCHANT] Merchant or [icon:UNIT_COLONIST] Colonist each time you purchase or train one. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CARTHAGE_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI]สามารถมีได้เพียง 1 เมืองเท่านั้น เมืองไม่สามารถ [B]เปลี่ยนเป็นเมืองใหญ่[/B] ได้[LI]รับ [B]พ่อค้า[/B] หรือ [B]ผู้บุกเบิก[/B] ลำดับที่สองทุกครั้งที่ คุณซื้อหรือฝึกขึ้นมา[LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]เบียร์ซา[/B][/BLIST]</Text>		<!-- [BLIST][LI]Can only have 1 City. Towns cannot use [B]Convert to City[/B].[LI]Receive a second [B]Merchant[/B] or [B]Colonist[/B] each time you purchase or train one.[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Byrsa[/B].[/LIST] -->
+			<Text>[BLIST][LI]สามารถมีได้เพียง [B]1 [icon:YIELD_CITIES] เมืองใหญ่[/B] เท่านั้น [icon:YIELD_TOWNS] เมืองเล็กไม่สามารถ [B]เปลี่ยนเป็นเมืองใหญ่[/B] ได้[LI]รับ [B][icon:UNIT_MERCHANT] พ่อค้า[/B] หรือ [B][icon:UNIT_COLONIST] ผู้ตั้งถิ่นฐาน[/B] ลำดับที่สองทุกครั้งที่ คุณซื้อหรือฝึกขึ้นมา[LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]เบียร์ซา[/B][/BLIST]</Text>		<!-- [BLIST][LI]Can only have [B]1 [icon:YIELD_CITIES] City[/B]. [icon:YIELD_TOWNS] Towns cannot use [B]Convert to City[/B].[LI]Receive a second [icon:UNIT_MERCHANT] [B]Merchant[/B] or [icon:UNIT_COLONIST] [B]Colonist[/B] each time you purchase or train one.[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Byrsa[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_CARTHAGE_DESCRIPTION" Language="th_TH">
-			<Text>+30%[icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องของ คาร์เธจ</Text>		<!-- +30%[icon:YIELD_PRODUCTION] Production from being Carthage's associated Wonder. -->
+			<Text>+30%[icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น [icon:WONDER] สิ่งมหัศจรรย์ที่เกี่ยวข้องของ คาร์เธจ</Text>		<!-- +30%[icon:YIELD_PRODUCTION] Production from being Carthage's associated [icon:WONDER] Wonder. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_CIVILIZATION_CARTHAGE_CHAPTER_HISTORY_PARA_1" Language="th_TH">
 			<Text>การล่มสลายของยุคสำริดในศตวรรษที่ 12 ก่อนคริสต์ศักราช ทำให้หลายอารยธรรมในแถบทะเลเมดิเตอร์เรเนียนและตะวันออกใกล้ต้องมาอยู่ในสภาพที่ย่ำแย่ การเปลี่ยนแปลงสภาพภูมิอากาศ ความไม่สมดุลทางเทคโนโลยี การรุกราน และปัจจัยอื่น ๆ รวมกันทำให้รัฐบาลกลางอ่อนแอลง ส่งผลให้เกิดการล่มสลายของจักรวรรดิและการกระจายตัวของผู้คนจากศูนย์กลางเมืองไปยังชุมชนชนบทที่เล็กกว่า</Text>		<!-- The Bronze Age collapse in the 12th century BCE brought many civilizations around the Mediterranean and Near East to their knees. Climate change, technological imbalances, invasions, and other factors combined to eat away at centralized governments, resulting in the collapse of empires and the dispersal of people from urban centers into smaller rural settlements. -->
@@ -245,37 +245,37 @@
 			<Text>ท่าเรือพูนิก</Text>		<!-- Punic Port -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_PUNIC_PORT_DESCRIPTION" Language="th_TH">
-			<Text>ย่านพิเศษ ของคาร์เธจ, สร้างขึ้นโดยการสร้าง โคธอน และ อู่เรือ ในเขตเดียวกัน เพิ่มจำนวน [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร ที่สามารถจัดสรรให้กับถิ่นฐานนี้ได้อีก 2 แห่ง</Text>		<!-- Carthaginian Unique Quarter. Created by constructing the Cothon and Dockyard in the same District. Increases the number of [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources that may be assigned to this Settlement by 2. -->
+			<Text>ย่านพิเศษ ของคาร์เธจ, สร้างขึ้นโดยการสร้าง โคธอน และ อู่เรือ ในเขตเดียวกัน, +2 [icon:RADIAL_RESOURCES] ความจุทรัพยากร ในถิ่นฐานนี้</Text>		<!-- Carthaginian Unique Quarter. Created by constructing the Cothon and Dockyard in the same District. +2 [icon:RADIAL_RESOURCES] Resource Capacity in this Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_COTHON_NAME" Language="th_TH">
 			<Text>โคธอน</Text>		<!-- Cothon -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_PUNIC_PORT_TOOLTIP" Language="th_TH">
-			<Text>เพิ่มจำนวน [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากร ที่สามารถจัดสรรให้กับการตั้งถิ่นฐานนี้ได้อีก 2</Text>		<!-- Increases the number of [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources that may be assigned to this Settlement by 2. -->
+			<Text>+2 [icon:RADIAL_RESOURCES] ความจุทรัพยากร ในถิ่นฐานนี้</Text>		<!-- +2 [icon:RADIAL_RESOURCES] Resource Capacity in this Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_COTHON_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_PRODUCTION] กำลังผลิต, +1[icon:YIELD_PRODUCTION] กำลังผลิต โบนัสใกล้เคียง สำหรับชายฝั่ง, แม่น้ำใหญ่, และสิ่งมหัศจรรย์, อาคารด้านการผลิตพิเศษ ของคาร์เธจ, คงอยู่ตลอดกาล, สามารถซื้อได้ในเมือง, ต้องตั้งอยู่บนชายฝั่ง</Text>		<!-- +2[icon:YIELD_PRODUCTION] Production. +1[icon:YIELD_PRODUCTION] Production Adjacency for Coast, Navigable Rivers, and Wonders. Carthaginian Unique Production Building. Ageless. Can be purchased in Towns. Must be placed on Coast. -->
+			<Text>อาคารด้านการผลิตพิเศษ สำหรับคาร์เธจ, +2[icon:YIELD_PRODUCTION] กำลังผลิต, +1 [icon:YIELD_PRODUCTION] กำลังผลิต โบนัสใกล้เคียง สำหรับชายฝั่ง, แม่น้ำใหญ่, และสิ่งมหัศจรรย์, คงอยู่ตลอดกาล, สามารถซื้อได้ใน [icon:YIELD_TOWNS] เมืองเล็ก, ต้องตั้งอยู่บนชายฝั่ง</Text>		<!-- Carthaginian Unique Production Building. +2 [icon:YIELD_PRODUCTION] Production. +1 [icon:YIELD_PRODUCTION] Production Adjacency for Coast, Navigable Rivers, and Wonders. Ageless. Can be purchased in [icon:YIELD_TOWNS] Towns. Must be placed on Coast. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_COTHON_TOOLTIP" Language="th_TH">
-			<Text>สามารถซื้อได้ในเมือง, ต้องตั้งอยู่บนชายฝั่ง [n]อาคารพิเศษ สำหรับคาร์เธจ</Text>		<!-- Can be purchased in Towns. Must be placed on Coast.[n]Carthaginian Unique Building. -->
+			<Text>สามารถซื้อได้ใน [icon:YIELD_TOWNS] เมืองเล็ก, ต้องตั้งอยู่บนชายฝั่ง [n]อาคารพิเศษ สำหรับคาร์เธจ</Text>		<!-- Can be purchased in [icon:YIELD_TOWNS] Towns. Must be placed on Coast.[n]Carthaginian Unique Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_DOCKYARD_NAME" Language="th_TH">
 			<Text>อู่เรือ</Text>		<!-- Dockyard -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_DOCKYARD_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_GOLD] ทอง +1[icon:YIELD_FOOD] อาหาร โบนัสใกล้เคียง สำหรับทรัพยากร, เขต และสิ่งมหัศจรรย์ อาคารด้านทองพิเศษ ของคาร์เธจ, คงอยู่ตลอดกาล, สามารถซื้อได้ในเมือง, ต้องตั้งอยู่บนชายฝั่ง</Text>		<!-- +2[icon:YIELD_GOLD] Gold. +1[icon:YIELD_FOOD] Food Adjacency for Resources, Districts, and Wonders. Carthaginian Unique Gold Building. Ageless. Can be purchased in Towns. Must be placed on Coast. -->
+			<Text>อาคารด้านทองพิเศษ สำหรับคาร์เธจ, +2 [icon:YIELD_GOLD] ทอง +1 [icon:YIELD_FOOD] อาหาร โบนัสใกล้เคียง สำหรับทรัพยากร, เขต และสิ่งมหัศจรรย์, คงอยู่ตลอดกาล, สามารถซื้อได้ใน [icon:YIELD_TOWNS] เมืองเล็ก, ต้องตั้งอยู่บนชายฝั่ง</Text>		<!-- Carthaginian Unique Gold Building. +2 [icon:YIELD_GOLD] Gold. +1 [icon:YIELD_FOOD] Food Adjacency for Resources, Districts, and Wonders. Ageless. Can be purchased in [icon:YIELD_TOWNS] Towns. Must be placed on Coast. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_DOCKYARD_TOOLTIP" Language="th_TH">
-			<Text>สามารถซื้อได้ในเมือง, ต้องตั้งอยู่บนชายฝั่ง [n]อาคารพิเศษ สำหรับคาร์เธจ</Text>		<!-- Can be purchased in Towns. Must be placed on Coast.[n]Carthaginian Unique Building. -->
+			<Text>สามารถซื้อได้ใน [icon:YIELD_TOWNS] เมืองเล็ก, ต้องตั้งอยู่บนชายฝั่ง [n]อาคารพิเศษ สำหรับคาร์เธจ</Text>		<!-- Can be purchased in [icon:YIELD_TOWNS] Towns. Must be placed on Coast.[n]Carthaginian Unique Building. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_BYRSA_NAME" Language="th_TH">
 			<Text>เบียร์ซา</Text>		<!-- Byrsa -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_BYRSA_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_GOLD] ทอง, [icon:TRADE_ROUTE] เส้นทางการค้า ไม่สามารถถูกปล้นได้, [icon:CITY_URBAN] พื้นที่เขต ทั้งหมดในเมืองนี้ที่อยู่ติดกับชายฝั่ง และที่สร้างกำแพงได้ จะได้รับกำแพง, คงอยู่ตลอดกาล, ต้องตั้งติดกับชายฝั่ง</Text>		<!-- +2 [icon:YIELD_GOLD] Gold. [icon:TRADE_ROUTE] Trade Routes cannot be plundered. All [icon:CITY_URBAN] Districts in this City that are adjacent to Coast and eligible for Walls receive a Wall. Ageless. Must be placed adjacent to Coast. -->
+			<Text>+2[icon:YIELD_GOLD] ทอง, [icon:TRADE_ROUTE] เส้นทางการค้า ไม่สามารถถูก [icon:Action_Pillage] ปล้นได้, [icon:CITY_URBAN] พื้นที่เขต ทั้งหมดใน [icon:YIELD_CITIES] เมืองนี้ที่อยู่ติดกับชายฝั่ง และที่สร้างกำแพงได้ จะได้รับกำแพง, คงอยู่ตลอดกาล, ต้องตั้งติดกับชายฝั่ง</Text>		<!-- +2 [icon:YIELD_GOLD] Gold. [icon:TRADE_ROUTE] Trade Routes cannot be [icon:Action_Pillage] Plundered. All [icon:CITY_URBAN] Districts in this [icon:YIELD_CITIES] City that are adjacent to Coast and eligible for Walls receive a Wall. Ageless. Must be placed adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_BYRSA_TOOLTIP" Language="th_TH">
-			<Text>[icon:TRADE_ROUTE] เส้นทางการค้า ไม่สามารถถูกปล้นได้, [icon:CITY_URBAN] พื้นที่เขต ทั้งหมดในเมืองนี้ที่อยู่ติดกับชายฝั่ง และที่สร้างกำแพงได้ จะได้รับกำแพง [N]ต้องตั้งติดกับชายฝั่ง</Text>		<!-- [icon:TRADE_ROUTE] Trade Routes cannot be plundered. All [icon:CITY_URBAN] Districts in this City that are adjacent to Coast and eligible for Walls receive a Wall.[N]Must be placed adjacent to Coast. -->
+			<Text>[icon:TRADE_ROUTE] เส้นทางการค้า ไม่สามารถถูก [icon:Action_Pillage] ปล้นได้, [icon:CITY_URBAN] พื้นที่เขต ทั้งหมดใน [icon:YIELD_CITIES] เมืองนี้ที่อยู่ติดกับชายฝั่ง และที่สร้างกำแพงได้ จะได้รับกำแพง [N]ต้องตั้งติดกับชายฝั่ง</Text>		<!-- [icon:TRADE_ROUTE] Trade Routes cannot be [icon:Action_Pillage] Plundered. All [icon:CITY_URBAN] Districts in this [icon:YIELD_CITIES] City that are adjacent to Coast and eligible for Walls receive a Wall.[N]Must be placed adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_WONDER_BYRSA" Language="th_TH">
 			<Text>ในปัจจุบันยังสามารถเห็นซากปรักหักพัง ของกำแพงเมืองบางส่วนได้</Text>		<!-- There are to be seen at this day certain ruins of the city walls. -->
@@ -314,43 +314,43 @@
 			<Text>มาโก</Text>		<!-- Mago -->
 		</Replace>
 		<Replace Tag="LOC_MOD_SHIPSHEDS_NAVAL_MOVEMENT_DESCRIPTION" Language="th_TH">
-			<Text>+1 แต้มเคลื่อนไหว ไปยัง ยูนิตทางน้ำ</Text>		<!-- +1 Movement to Naval Units. -->
+			<Text>+1 [icon:Action_Move] แต้มเคลื่อนที่ สำหรับ ยูนิตทางน้ำ</Text>		<!-- +1 [icon:Action_Move] Movement for Naval Units. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_SHIPSHEDS_NAVAL_RANGE_DESCRIPTION" Language="th_TH">
-			<Text>+1 ระยะ ไปยัง ยูนิตทางน้ำ</Text>		<!-- +1 Range to Naval Units. -->
+			<Text>+1 ระยะ สำหรับ ยูนิตทางน้ำ</Text>		<!-- +1 Range for Naval Units. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_RED_SLIP_TRADE_GOLD_DESCRIPTION" Language="th_TH">
-			<Text>+15 ระยะเส้นทางการค้าทางทะเล, +3 [icon:YIELD_GOLD] ทอง ในเมืองหลวงสำหรับการค้าทุกเส้นทางจากเมืองหลวง</Text>		<!-- +15 Sea Trade Route Range. +3 [icon:YIELD_GOLD] Gold in the Capital for every Trade Route from the Capital. -->
+			<Text>+15 [icon:TRADE_ROUTE] ระยะเส้นทางการค้าทางทะเล, +3 [icon:YIELD_GOLD] ทอง ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวงสำหรับทุก [icon:TRADE_ROUTE] เส้นทางการค้า จากเมืองหลวง</Text>		<!-- +15 [icon:TRADE_ROUTE] Naval Trade Route Range. +3 [icon:YIELD_GOLD] Gold in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every [icon:TRADE_ROUTE] Trade Route from the Capital.  -->
 		</Replace>
 		<Replace Tag="LOC_MOD_RED_SLIP_RESOURCE_CAP_DESCRIPTION" Language="th_TH">
-			<Text>เพิ่มจำนวนทรัพยากรที่อาจถูกจัดสรรให้กับ เมืองหลวง อีก 3 ช่อง</Text>		<!-- Increases the number of Resources that may be assigned to the Capital by 3. -->
+			<Text>+3 [icon:RADIAL_RESOURCES] ความจุทรัพยากร ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง</Text>		<!-- +3 [icon:RADIAL_RESOURCES] Resource Capacity in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_SICILIAN_WARS_SETTLEMENT_CAP_DESCRIPTION" Language="th_TH">
-			<Text>+2 ขีดจำกัดการตั้งถิ่นฐาน</Text>		<!-- +2 Settlement Limit. -->
+			<Text>+2 [icon:SETTLEMENT_LIMIT] ขีดจำกัดถิ่นฐาน</Text>		<!-- +2 [icon:SETTLEMENT_LIMIT] Settlement Limit. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_SICILIAN_WARS_MOVEMENT_NUMIDIAN_CAVALRY_DESCRIPTION" Language="th_TH">
-			<Text>+1 แต้มเคลื่อนไหว และระยะมองเห็นไปยัง กองทัพม้านูมิดี</Text>		<!-- +1 Movement and Sight to Numidian Cavalry Units. -->
+			<Text>+1 [icon:Action_Move] แต้มเคลื่อนที่ และ [icon:Action_Showall] ระยะมองเห็น สำหรับ [icon:UNIT_NUMIDIAN_CAVALRY] กองทัพม้านูมิดี</Text>		<!-- +1 [icon:Action_Move] Movement and [icon:Action_Showall] Sight for the [icon:UNIT_NUMIDIAN_CAVALRY] Numidian Cavalry. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_SICILIAN_WARS_TOWN_PROJECT_DESCRIPTION" Language="th_TH">
-			<Text>+1 ช่องคัมภีร์ ในศาลากลาง ในเมืองที่มีโฟกัส สถานีการค้า</Text>		<!-- +1 Codex slot in City Halls in Towns with the Trade Outpost Focus. -->
+			<Text>+1 [icon:NAR_REW_GREATWORK] ช่องคัมภีร์ ในศาลากลาง ใน [icon:YIELD_TOWNS] เมืองเล็กที่มีโฟกัส [icon:TOWN_FOCUS] สถานีการค้า</Text>		<!-- +1 [icon:NAR_REW_GREATWORK] Codex slot in City Halls in [icon:YIELD_TOWNS] Towns with the [icon:TOWN_FOCUS] Trade Outpost Focus. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_GAULOS_NAME" Language="th_TH">
 			<Text>เกาลอส</Text>		<!-- Gaulos -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_GAULOS_DESCRIPTION" Language="th_TH">
-			<Text>+25% [icon:YIELD_GOLD] ทอง สำหรับการซื้ออาคารบนชายฝั่ง หรือแม่น้ำใหญ่</Text>		<!-- +25% [icon:YIELD_GOLD] Gold towards purchasing Buildings on Coast or Navigable Rivers. -->
+			<Text>+25% [icon:YIELD_GOLD] ทอง สำหรับการซื้อ [icon:CITY_BUILDING_LIST] อาคารบนชายฝั่ง หรือแม่น้ำใหญ่</Text>		<!-- +25% [icon:YIELD_GOLD] Gold towards purchasing [icon:CITY_BUILDING_LIST] Buildings on Coast or Navigable Rivers. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_QUINQUEREME_NAME" Language="th_TH">
 			<Text>ควินเควรีเม</Text>		<!-- Quinquereme -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_QUINQUEREME_DESCRIPTION" Language="th_TH">
-			<Text>+25% [icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิตทางน้ำ, -1 [icon:YIELD_GOLD] ทอง สำหรับบำรุงรักษา ยูนิตทางน้ำ</Text>		<!-- +25% [icon:YIELD_GOLD] Gold towards purchasing Naval Units. -1 [icon:YIELD_GOLD] Gold maintenance for Naval Units. -->
+			<Text>+25% [icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิตทางน้ำ, -1 [icon:YIELD_GOLD] ทอง สำหรับบำรุงรักษา ยูนิตทางน้ำ</Text>		<!-- +25% [icon:YIELD_GOLD] Gold towards purchasing Naval Units. -1 [icon:YIELD_GOLD] Gold Maintenance for Naval Units. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SUFFETES_NAME" Language="th_TH">
 			<Text>ซูเฟตส์</Text>		<!-- Suffetes -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SUFFETES_DESCRIPTION" Language="th_TH">
-			<Text>+20% [icon:YIELD_GOLD] ทอง จากเมืองทำเหมือง, +20% [icon:YIELD_FOOD] อาหาร จากเมืองการประมง หรือเมืองเกษตรกรรม</Text>		<!-- +20% [icon:YIELD_GOLD] Gold from Mining Towns. +20% [icon:YIELD_FOOD] Food from Fishing or Farming Towns. -->
+			<Text>+20% [icon:YIELD_GOLD] ทอง ใน [icon:YIELD_TOWNS] เมืองทำเหมือง, +20% [icon:YIELD_FOOD] อาหาร ใน [icon:YIELD_TOWNS] เมืองประมง หรือเมืองเกษตรกรรม</Text>		<!-- +20% [icon:YIELD_GOLD] Gold in Mining [icon:YIELD_TOWNS] Towns. +20% [icon:YIELD_FOOD] Food in Fishing or Farming [icon:YIELD_TOWNS] Towns. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_CARTHAGE" Language="th_TH">
 			<Text>ภายใต้ร่มเงาแห่งโคธอน เรือทั้งหลายเตรียมออกเดินทาง บางลำบรรทุกเครื่องปั้นดินเผาอย่างดี ข้าว และสินค้าอื่น ๆ เพื่อแลกเปลี่ยนเป็นทองและงาช้าง ขณะที่บางลำนำพาทหารผู้พร้อมจะแสวงหาผลกำไรด้วยวิธีอื่น ไม่ว่าเส้นทางใด เมื่อกลับถึงบ้าน พวกเขาจะหลั่งความมั่งคั่งคืนสู่ศูนย์กลางของโลก—คาร์เธจ เปิดประตูโคธอน แล้วปล่อยให้กองเรือที่กลับมานำความรุ่งเรืองมาสู่เมือง</Text>		<!-- From the shelter of the cothon, ships prepare for their expeditions. Some are loaded with fine pottery, grain, and other goods to be exchanged for gold and ivory. Others carry soldiers ready to profit by other means. Each will return home, to the center of the world - Carthage. Open the cothon gates, and let returning fleets shower the city in prosperity. -->
@@ -674,7 +674,7 @@
 			<Text>ตรวจสอบให้แน่ใจว่า ยามมีทุกอย่างที่พวกเขาต้องการ</Text>		<!-- Ensure the watchmen have everything they require. -->
 		</Replace>
 		<Replace Tag="LOC_11066B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} บนหน่วยที่ตั้งอยู่</Text>		<!-- {1_reward} on Garrisoned Units. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_11066C_NAME" Language="th_TH">
 			<Text>เกณฑ์ช่างก่อสร้างเพื่อขยายกำแพง</Text>		<!-- Conscript masons to expand the walls. -->
@@ -782,25 +782,25 @@
 			<Text>กองทัพม้านูมิดี</Text>		<!-- Numidian Cavalry -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_NUMIDIAN_CAVALRY_BASE_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารม้าพิเศษ ของคาร์เธจ, สามารถซื้อได้เท่านั้นและมีราคาแพงกว่า, +1 พลังต่อสู้ สำหรับแต่ละทรัพยากรพิเศษของเมือง ที่จัดสรรไว้ให้กับเมืองหลวงของคุณ, ไม่สนใจเขตควบคุม</Text>		<!-- Carthaginian Unique Cavalry Unit. Can only be purchased and are more expensive. +1 Combat Strength for each Unique City Resource assigned to your Capital. Ignores Zone of Control. -->
+			<Text>ยูนิตทหารม้าพิเศษ ของคาร์เธจ, สามารถซื้อได้เท่านั้นและมีราคาแพงกว่า, +1 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับแต่ละ [icon:RADIAL_RESOURCES] ทรัพยากรพิเศษของเมือง ที่จัดสรรไว้ให้กับ [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวงของคุณ, ไม่สนใจเขตควบคุม</Text>		<!-- Carthaginian Unique Cavalry Unit. Can only be purchased and are more expensive. +1 [icon:NAR_REW_COMBAT] Combat Strength for each [icon:RADIAL_RESOURCES] Unique City Resource assigned to your [icon:NOTIFICATION_SELECT_CAPITAL] Capital. Ignores Zone of Control. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_NUMIDIAN_CAVALRY_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารม้าพิเศษ ระดับ 2 ของคาร์เธจ, สามารถซื้อได้เท่านั้นและมีราคาแพงกว่า, +1 พลังต่อสู้ สำหรับแต่ละทรัพยากรพิเศษของเมือง ที่จัดสรรไว้ให้กับเมืองหลวงของคุณ, ไม่สนใจเขตควบคุม</Text>		<!-- Tier 2 Carthaginian Unique Cavalry Unit. Can only be purchased and are more expensive. +1 Combat Strength for each Unique City Resource assigned to your Capital. Ignores Zone of Control. -->
+			<Text>ยูนิตทหารม้าพิเศษ ระดับ 2 ของคาร์เธจ, สามารถซื้อได้เท่านั้นและมีราคาแพงกว่า, +1 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับแต่ละ [icon:RADIAL_RESOURCES] ทรัพยากรพิเศษของเมือง ที่จัดสรรไว้ให้กับ [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวงของคุณ, ไม่สนใจเขตควบคุม</Text>		<!-- Tier 2 Carthaginian Unique Cavalry Unit. Can only be purchased and are more expensive. +1 [icon:NAR_REW_COMBAT] Combat Strength for each [icon:RADIAL_RESOURCES] Unique City Resource assigned to your [icon:NOTIFICATION_SELECT_CAPITAL] Capital. Ignores Zone of Control. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_NUMIDIAN_CAVALRY_2_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารม้าพิเศษ ระดับ 3 ของคาร์เธจ, สามารถซื้อได้เท่านั้นและมีราคาแพงกว่า, +1 พลังต่อสู้ สำหรับแต่ละทรัพยากรพิเศษของเมือง ที่จัดสรรไว้ให้กับเมืองหลวงของคุณ, ไม่สนใจเขตควบคุม</Text>		<!-- Tier 3 Carthaginian Unique Cavalry Unit. Can only be purchased and are more expensive. +1 Combat Strength for each Unique City Resource assigned to your Capital. Ignores Zone of Control. -->
+			<Text>ยูนิตทหารม้าพิเศษ ระดับ 3 ของคาร์เธจ, สามารถซื้อได้เท่านั้นและมีราคาแพงกว่า, +1 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับแต่ละ [icon:RADIAL_RESOURCES] ทรัพยากรพิเศษของเมือง ที่จัดสรรไว้ให้กับ [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวงของคุณ, ไม่สนใจเขตควบคุม</Text>		<!-- Tier 3 Carthaginian Unique Cavalry Unit. Can only be purchased and are more expensive. +1 [icon:NAR_REW_COMBAT] Combat Strength for each [icon:RADIAL_RESOURCES] Unique City Resource assigned to your [icon:NOTIFICATION_SELECT_CAPITAL] Capital. Ignores Zone of Control. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_NUMIDIAN_CAVALRY_DESCRIPTION" Language="th_TH">
-			<Text>+1 พลังต่อสู้ สำหรับแต่ละทรัพยากรพิเศษของเมือง ที่จัดสรรไว้ให้กับเมืองหลวงของคุณ</Text>		<!-- +1 Combat Strength for each Unique City Resource assigned to your Capital. -->
+			<Text>+1 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับแต่ละ [icon:RADIAL_RESOURCES] ทรัพยากรพิเศษของเมือง ที่จัดสรรไว้ให้กับ [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวงของคุณ</Text>		<!-- +1 [icon:NAR_REW_COMBAT] Combat Strength for each [icon:RADIAL_RESOURCES] Unique City Resource assigned to your [icon:NOTIFICATION_SELECT_CAPITAL] Capital. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_COLONIST_NAME" Language="th_TH">
 			<Text>ผู้บุกเบิก</Text>		<!-- Colonist -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_COLONIST_DESCRIPTION" Language="th_TH">
-			<Text>ผู้ตั้งถิ่นฐานพิเศษ ของคาร์เธจ, +1 แต้มเคลื่อนที่ ขณะลงเรือ และ +1 ประชากร หากตั้งอยู่ใกล้กับแหล่งทรัพยากร</Text>		<!-- Carthaginian Unique Settler. +1 Embarked Movement and +1 Population if Settled adjacent to a Resource. -->
+			<Text>ผู้ตั้งถิ่นฐานพิเศษ ของคาร์เธจ, +1 [icon:Action_Move] แต้มเคลื่อนที่ ขณะลงเรือ และ +1 [icon:YIELD_POPULATION] ประชากร หากตั้งอยู่ใกล้กับแหล่ง [icon:RADIAL_RESOURCES] ทรัพยากร</Text>		<!-- Carthaginian Unique Settler. +1 [icon:Action_Move] Embarked Movement and +1 [icon:YIELD_POPULATION] Population if Settled adjacent to a [icon:RADIAL_RESOURCES] Resource. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_COLONIST_DESCRIPTION" Language="th_TH">
-			<Text>+1 แต้มเคลื่อนที่ ขณะลงเรือ และ +1 ประชากร หากตั้งอยู่ใกล้กับแหล่งทรัพยากร</Text>		<!-- +1 Embarked Movement and +1 Population if Settled adjacent to a Resource. -->
+			<Text>+1 [icon:Action_Move] แต้มเคลื่อนที่ ขณะลงเรือ และ +1 [icon:YIELD_POPULATION] ประชากร หากตั้งอยู่ใกล้กับแหล่ง [icon:RADIAL_RESOURCES] ทรัพยากร</Text>		<!-- +1 [icon:Action_Move] Embarked Movement and +1 [icon:YIELD_POPULATION] Population if Settled adjacent to a [icon:RADIAL_RESOURCES] Resource. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_ISABELLA_CARTHAGE_TOOLTIP" Language="th_TH">
 			<Text>[B]อิซาเบลล่า[/B] และ [B]คาร์เธจ[/B] อยู่ในทะเลเมดิเตอร์เรเนียน</Text>		<!-- [B]Isabella[/B] and [B]Carthage[/B] share the Mediterranean. -->

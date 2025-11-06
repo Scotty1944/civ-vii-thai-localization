@@ -173,13 +173,13 @@
 			<Text>ราชวงศ์ครุม</Text>		<!-- Krum's Dynasty -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_BULGARIA_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ [icon:YIELD_PRODUCTION] กำลังผลิต ในทุกเมืองใหญ่ เมื่อพวกเขาปล้นอาคาร เท่ากับ 50% ของผลผลิตหรือ HP ที่ได้รับ, ยูนิตต่อสู้ทั้งหมดได้รับ -3 พลังต่อสู้ ต่อเขตที่มีกำแพงยุคกลาง</Text>		<!-- Receive [icon:YIELD_PRODUCTION] Production in all Cities when pillaging Buildings equal to 50% of the yield or HP gained. All Combat units receive -3 Combat Strength against Districts with Medieval Walls. -->
+			<Text>[icon:Action_Pillage] ปล้นสะดม มอบ [icon:YIELD_PRODUCTION] กำลังผลิต ในทุก [icon:YIELD_CITIES] เมืองใหญ่ เท่ากับ 50% ของผลผลิตหรือ HP ที่ได้รับ, -3 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับยูนิตทหาร ต่อเขตที่มีกำแพงยุคกลาง</Text>		<!-- [icon:Action_Pillage] Pillaging Buildings grants [icon:YIELD_PRODUCTION] Production in all [icon:YIELD_CITIES] Cities equal to 50% of the yield or HP gained. -3 [icon:NAR_REW_COMBAT] Combat Strength for all Military Units against Districts with Medieval Walls. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_BULGARIA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI]ได้รับ [B][icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในทุก [B]เมืองใหญ่ [/B]ทั้งหมดเมื่อปล้นอาคาร เท่ากับ [B]50% ของผลผลิตหรือ HP ที่ได้รับ[/B][LI]ยูนิตต่อสู้ทั้งหมดได้รับ [B]-3 พลังต่อสู้[/B] ต่อเขตที่มีกำแพงยุคกลาง[LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]ริล่า มอนาสเตอรี[/B][/BLIST]</Text>		<!-- [BLIST][LI]Receive [B][icon:YIELD_PRODUCTION] Production [/B] in all [B]Cities [/B]when pillaging Buildings equal to [B]50% of the yield or HP gained[/B].[LI]All Combat units receive [B]-3 Combat Strength[/B] against Districts with Medieval Walls.[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Rila Monastery[/B].[/LIST] -->
+			<Text>[BLIST][LI][icon:Action_Pillage] ปล้นสะดม มอบ [B][icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในทุก [B][icon:YIELD_CITIES] เมืองใหญ่ [/B]เท่ากับ [B]50% ของผลผลิตหรือ HP ที่ได้รับ[/B][LI][B]-3 [icon:NAR_REW_COMBAT] พลังต่อสู้[/B] สำหรับยูนิตทหาร ต่อเขตที่มีกำแพงยุคกลาง[LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]ริล่า มอนาสเตอรี[/B][/BLIST]</Text>		<!-- [BLIST][LI][icon:Action_Pillage] [B]Pillaging Buildings [/B]grants [B][icon:YIELD_PRODUCTION] Production [/B] in all [icon:YIELD_CITIES] [B]Cities [/B]equal to [B]50% of the yield or HP gained[/B].[LI][B]-3 [icon:NAR_REW_COMBAT] Combat Strength[/B] for all Military Units against Districts with Medieval Walls.[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Rila Monastery[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_BULGARIA_DESCRIPTION" Language="th_TH">
-			<Text>+30% กำลังผลิต จาก สิ่งมหัศจรรย์พิเศษ ของบัลแกเรีย</Text>		<!-- +30% Production from being the Bulgaria's unique wonder. -->
+			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จาก [icon:WONDER] สิ่งมหัศจรรย์ ที่เกี่ยวข้องกับ บัลแกเรีย</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Bulgaria's associated [icon:WONDER] Wonder. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_BULGARIA_ABILITY_PREVIEW" Language="th_TH">
 			<Text>{1_CombatAmount} จาก ราชวงศ์ครุม</Text>		<!-- {1_CombatAmount} from Krum's Dynasty -->
@@ -290,19 +290,19 @@
 			<Text>ปราการลับ</Text>		<!-- Hidden Fortress -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HIDDEN_FORTRESS_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_PRODUCTION] กำลังผลิต, ต้องวางบนพื้นที่พัฒนา บนพื้นที่ขรุขระ ที่ไม่ติดกับ ปราการลับ อื่น, หน่วยในช่องนี้จะมี พรางตัว และพวกเขาจะได้รับ +3 พลังต่อสู้, เขตพัฒนาพิเศษ บัลแกเรีย, ถือว่าเป็นป้อมปราการ, +6 พลังต่อสู่ เมื่อป้องกัน, คงอยู่ตลอดกาล, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE]คลังสินค้า บนช่อง</Text>		<!-- +4[icon:YIELD_PRODUCTION] Production. Must be placed on an existing Improvement on Rough Terrain not adjacent to another Hidden Fortress. Units on this tile gain Stealth. Bulgarian Unique Improvement. Counts as Fortification, +6 Combat Strength when defending.  Ageless. Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. -->
+			<Text>พื้นที่พัฒนาพิเศษ บัลแกเรีย, +4 [icon:YIELD_PRODUCTION] กำลังผลิต, ยูนิตในช่องนี้จะมี พรางตัว และพวกเขาจะได้รับ +3 พลังต่อสู้, ถือว่าเป็น [icon:Action_Fortify] เขตเสริมกำลัง, +6 [icon:NAR_REW_COMBAT] พลังต่อสู้ เมื่อป้องกัน, คงอยู่ตลอดกาล, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE]คลังสินค้า บนช่อง, ต้องวางบน [icon:CITY_RURAL] พื้นที่พัฒนา ในพื้นที่ขรุขระ ที่ไม่ติดกับ ปราการลับ อื่น</Text>		<!-- Bulgarian Unique Improvement. +4 [icon:YIELD_PRODUCTION] Production. Units on this tile gain Stealth. Counts as [icon:Action_Fortify] Fortification, +6 [icon:NAR_REW_COMBAT] Combat Strength when defending. Ageless. Does not remove [icon:YIELD_WAREHOUSE] Warehouse bonuses on a tile. Must be placed on an existing [icon:CITY_RURAL] Improvement on Rough Terrain not adjacent to another Hidden Fortress. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HIDDEN_FORTRESS_TOOLTIP" Language="th_TH">
-			<Text>ยูนิตในช่องนี้จะได้รับความสามารถลอบเร้น, +6 พลังต่อสู้ สำหรับยูนิตที่ป้องกันในช่องนี้[n]ไม่ลบโบนัส [icon:YIELD_WAREHOUSE]คลังสินค้า บนช่อง, ต้องวางบนพื้นที่พัฒนาที่มีอยู่ในพื้นที่ขรุขระ ที่ไม่ติดกับปราการลับ[n]พื้นที่พัฒนาพิเศษ สำหรับบัลแกเรีย</Text>		<!-- Units on this tile gain Stealth. +6 Combat Strength for Units defending in the tile.[n]Does not remove [icon:YIELD_WAREHOUSE]Warehouse bonuses on a tile. Must be placed on an existing Improvement on Rough Terrain not adjacent to another Hidden Fortress.[n]Bulgarian Unique Improvement. -->
+			<Text>ยูนิตในช่องนี้จะได้รับความสามารถ พรางตัว, +6 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับยูนิตที่ป้องกันในช่องนี้[n]ไม่ลบโบนัส [icon:YIELD_WAREHOUSE]คลังสินค้า บนช่อง, ต้องวางบน [icon:CITY_RURAL] พื้นที่พัฒนา ในพื้นที่ขรุขระ ที่ไม่ติดกับปราการลับ[n]พื้นที่พัฒนาพิเศษ สำหรับบัลแกเรีย</Text>		<!-- Units on this tile gain Stealth. +6 [icon:NAR_REW_COMBAT] Combat Strength for Units defending in the tile.[n]Does not remove [icon:YIELD_WAREHOUSE] Warehouse bonuses on a tile. Must be placed on an existing [icon:CITY_RURAL] Improvement on Rough Terrain not adjacent to another Hidden Fortress.[n]Bulgarian Unique Improvement. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_RILA_MONASTERY_NAME" Language="th_TH">
 			<Text>ริล่า มอนาสเตอรี</Text>		<!-- Rila Monastery -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_RILA_MONASTERY_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_CULTURE] วัฒนธรรม, มี 3 ช่อง [icon:NAR_REW_GREATWORK] ศาสนวัตถุ, จะได้รับ ศาสนวัตถุ ทุกครั้งที่คุณสร้าง [icon:CITY_WONDERS_LIST] สิ่งมหัศจรรย์ รวมถึงอันนี้, คงอยู่ตลอดกาล, ไม่สามารถวางอยู่ติดกับเขตได้</Text>		<!-- +4 [icon:YIELD_CULTURE] Culture. Has 3 [icon:NAR_REW_GREATWORK] Relic slots. Receive a Relic every time you build a [icon:CITY_WONDERS_LIST] Wonder, including this one. Ageless. Cannot be placed adjacent to a District. -->
+			<Text>+4 [icon:YIELD_CULTURE] วัฒนธรรม, มี 3 ช่อง [icon:NAR_REW_GREATWORK] ศาสนวัตถุ, รับ [icon:NAR_REW_GREATWORK] ศาสนวัตถุ ทุกครั้งที่คุณสร้าง [icon:WONDER] สิ่งมหัศจรรย์ รวมถึงอันนี้, คงอยู่ตลอดกาล, ไม่สามารถวางอยู่ติดกับเขตได้</Text>		<!-- +4 [icon:YIELD_CULTURE] Culture. Has 3 [icon:NAR_REW_GREATWORK] Relic slots. Gain a [icon:NAR_REW_GREATWORK] Relic every time you construct a [icon:WONDER] Wonder, including this one. Ageless. Cannot be placed adjacent to a District. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_RILA_MONASTERY_TOOLTIP" Language="th_TH">
-			<Text>มี 3 ช่อง [icon:NAR_REW_GREATWORK] ศาสนวัตถุ, จะได้รับ ศาสนวัตถุ ทุกครั้งที่คุณสร้าง [icon:CITY_WONDERS_LIST] สิ่งมหัศจรรย์ รวมถึงอันนี้ [N]ไม่สามารถวางอยู่ติดกับเขตได้</Text>		<!-- Has 3 [icon:NAR_REW_GREATWORK] Relic slots. Receive a Relic every time you build a [icon:CITY_WONDERS_LIST] Wonder, including this one.[N]Cannot be placed adjacent to a District. -->
+			<Text>มี 3 ช่อง [icon:NAR_REW_GREATWORK] ศาสนวัตถุ, รับ [icon:NAR_REW_GREATWORK] ศาสนวัตถุ ทุกครั้งที่คุณสร้าง [icon:WONDER] สิ่งมหัศจรรย์ รวมถึงอันนี้ [N]ไม่สามารถวางอยู่ติดกับเขตได้</Text>		<!-- Has 3 [icon:NAR_REW_GREATWORK] Relic slots. Gain a [icon:NAR_REW_GREATWORK] Relic every time you construct a [icon:WONDER] Wonder, including this one.[N]Cannot be placed adjacent to a District. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_WONDER_RILA_MONASTERY" Language="th_TH">
 			<Text>ความมั่งคั่งของฤาษีไม่ได้อยู่ที่เงินหรือทอง  แต่คือความจนอย่างสมบูรณ์ การปฏิเสธความปรารถนา และความถ่อมตนอย่างไม่สิ้นสุด</Text>		<!-- The hermit’s wealth lies not in silver or gold, but in perfect poverty, denial of will, and boundless humility. -->
@@ -341,7 +341,7 @@
 			<Text>สุนทรพจน์ไว้อาลัยแด่ พระเจ้าเปโตรที่ 1</Text>		<!-- Eulogy for Peter I -->
 		</Replace>
 		<Replace Tag="LOC_MOD_SEVEN_TRIBES_GREATWORKS_COMBAT_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตต่อสู้จะได้รับ +5 พลังต่อสู้ เมื่อคุณมีวัตถุโบราณ อย่างน้อย 5 ชิ้นแสดงอยู่</Text>		<!-- Combat units receive +5 Combat Strength when you have at least 5 Relics on display. -->
+			<Text>+5 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับยูนิตทหาร เมื่อคุณมี [icon:NAR_REW_GREATWORK] วัตถุโบราณ อย่างน้อย 5 ชิ้นแสดงอยู่</Text>		<!-- +5 [icon:NAR_REW_COMBAT] Combat Strength for all Military Units when you have at least 5 [icon:NAR_REW_GREATWORK] Relics on display. -->
 		</Replace>
 		<Replace Tag="LOC_SEVEN_TRIBES_GREATWORKS_COMBAT_PREVIEW" Language="th_TH">
 			<Text>เจ็ดเผ่า</Text>		<!-- +{1_Amount} Seven Tribes -->
@@ -350,16 +350,16 @@
 			<Text>+2 [icon:YIELD_HAPPINESS] ความสุข บน ปราการลับ ในถิ่นฐานที่มีวัด</Text>		<!-- +2 [icon:YIELD_HAPPINESS] Happiness on Hidden Fortresses in Settlements with a Temple. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_TSARSTVIE_TWO_MIGRANTS_DESCRIPTION" Language="th_TH">
-			<Text>รับ 2 ผู้ย้ายถิ่นในเมืองหลวง</Text>		<!-- Receive 2 Migrants in the Capital. -->
+			<Text>รับ 2 [icon:UNIT_MIGRANT] ผู้อพยพ ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง</Text>		<!-- Receive 2 [icon:UNIT_MIGRANT] Migrants in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_TSARSTVIE_CULTURE_MOUNTAIN_HIDDEN_FORTRESS_DESCRIPTION" Language="th_TH">
-			<Text>ปราการลับ ได้รับ +2 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับแต่ละแผ่นดินภูเขาที่อยู่ติดกัน</Text>		<!-- Hidden Fortresses receive +2 [icon:YIELD_CULTURE] Culture for each adjacent Mountain tile. -->
+			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม บน ปราการลับ สำหรับแต่ละช่องภูเขาที่อยู่ติดกัน</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture on Hidden Fortresses for each adjacent Mountain tile. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_FALSE_RETREAT_NAME" Language="th_TH">
 			<Text>การถอยทัพหลอก</Text>		<!-- False Retreat -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_FALSE_RETREAT_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ [icon:YIELD_FOOD] อาหาร ไปยังทุกเมือง เมื่อปล้นพื้นที่พัฒนา เท่ากับ 50% ของผลผลิตหรือ HP ที่ได้รับ ทุกหน่วยต่อสู้จะได้รับ -3 พลังต่อสู้ ต่อเขตป้อมปราการ</Text>		<!-- Receive [icon:YIELD_FOOD] Food to all Towns when pillaging Improvements equal to 50% of the yield or HP gained. All Combat units receive -3 Combat Strength against Fortified Districts. -->
+			<Text>[icon:Action_Pillage] ปล้นสะดม พื้นที่พัฒนาจะมอบ [icon:YIELD_FOOD] อาหาร ไปยังทุก [icon:YIELD_TOWNS] เมืองเล็ก เท่ากับ 50% ของผลผลิตหรือ [icon:Action_Heal] HP ที่ได้รับ, -3 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับยูนิตทหาร ต่อ [icon:CITY_FORTIFIED] เขตเสริมกำลัง</Text>		<!-- [icon:Action_Pillage] Pillaging Improvements grants [icon:YIELD_FOOD] Food in all [icon:YIELD_TOWNS] Towns equal to 50% of the yield or [icon:Action_Heal] HP gained. -3 [icon:NAR_REW_COMBAT] Combat Strength for all Military Units against [icon:CITY_FORTIFIED] Fortified Districts. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_BULGARIA" Language="th_TH">
 			<Text>จับคู่ความสามารถพิเศษของคุณ ราชวงศ์ครุม กับประเพณีการล่าถอยหลอกลวงและกลยุทธ์ เพื่อรับโบนัสผลตอบแทนจากการปล้นสะดมจำนวนมาก แต่ระวังการโจมตีที่ตั้งป้อมปราการ!</Text>		<!-- Pair your Unique Ability, Krum's Dynasty, with the False Retreat and Stratagems Traditions to receive hefty yield bonuses from pillaging. Just be careful attacking Fortified Settlements! -->
@@ -377,19 +377,19 @@
 			<Text>ในฐานะ บัลแกเรีย สร้าง ริล่า มอนาสเตอรี ให้เสร็จ</Text>		<!-- As Bulgaria, complete the Rila Monastery. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_FALSE_RETREAT_PREVIEW" Language="th_TH">
-			<Text>{1_CombatAmount} จาก การถอยทัพหลอก</Text>		<!-- {1_CombatAmount} from False Retreat -->
+			<Text>{1_CombatAmount} การถอยทัพหลอก</Text>		<!-- {1_CombatAmount} False Retreat -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_ICONOLATRY_NAME" Language="th_TH">
 			<Text>บูชารูปเคารพ</Text>		<!-- Iconolatry -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_ICONOLATRY_DESCRIPTION" Language="th_TH">
-			<Text>ผลงานชิ้นเอก ให้ +1 [icon:YIELD_HAPPINESS] ความสุข และ +1 [icon:YIELD_GOLD] ทอง</Text>		<!-- Great Works provide +1 [icon:YIELD_HAPPINESS] Happiness and +1 [icon:YIELD_GOLD] Gold. -->
+			<Text>+1 [icon:YIELD_HAPPINESS] ความสุข และ +1 [icon:YIELD_GOLD] ทอง จาก [icon:NAR_REW_GREATWORK] ผลงานชิ้นเอก</Text>		<!-- +1 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_GOLD] Gold from [icon:NAR_REW_GREATWORK] Great Works. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_STRATAGEMS_NAME" Language="th_TH">
 			<Text>กลยุทธ์</Text>		<!-- Stratagems -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_STRATAGEMS_DESCRIPTION" Language="th_TH">
-			<Text>+50% ผลตอบแทนและ HP จากการปล้นสะดม</Text>		<!-- +50% yields and HP from pillaging. -->
+			<Text>+50% ผลตอบแทนและ [icon:Action_Heal] HP จากการ [icon:Action_Pillage] ปล้นสะดม</Text>		<!-- +50% yields and [icon:Action_Heal] HP from [icon:Action_Pillage] Pillaging. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_BULGARIA" Language="th_TH">
 			<Text>บนยอดเขาสูงสุด พระสงฆ์ส่งคำอธิษฐานขึ้นฟ้า และบนทุ่งราบเบื้องล่าง แตรสงครามส่งเสียงก้อง บัลแกเรียออกขี่ม้า พร้อมดาบที่นำทางด้วยศรัทธา และศรัทธาที่แข็งแกร่งกว่าตะกั่ว จงเป่านกหวีดสงครามและยกดาบปลายปืน อาร์คานี และหอกยาว ปล่อยบัลการ์ออกไปทั่วโลก</Text>		<!-- Atop the high peaks, the monks send their prayers skyward, and on the plains below, the trumpet sounds. Bulgaria rides, with swords guided by faith and faith stronger than steel. Raise the war-horn and the saber, the arkani and the long spear, and set the Bulgars loose upon the world. -->
@@ -638,16 +638,16 @@
 			<Text>โบลยาร์</Text>		<!-- Bolyar -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_BOYAR_BASE_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารม้าพิเศษ ของบัลแกเรีย, ไม่สนใจพื้นที่ขรุขระในการเคลื่อนที่ และการต่อสู้ของยูนิตฝ่ายตรงข้าม, +3 พลังต่อสู้ เมื่อกำลังต่อสู้ในพื้นที่ขรุขระ, ไม่สนพื้นที่ควบคุม</Text>		<!-- Bulgarian Unique Cavalry Unit. Ignores Rough Terrain for movement and opposing unit’s combat. +3 Combat Strength when this unit is fighting on Rough Terrain. Ignore Zone of Control. -->
+			<Text>ยูนิตทหารม้าพิเศษ ของบัลแกเรีย, ไม่สนใจพื้นที่ขรุขระใน [icon:Action_Move] การเคลื่อนที่ และ [icon:NAR_REW_COMBAT] พลังต่อสู้ของยูนิตฝ่ายตรงข้าม, +3 [icon:NAR_REW_COMBAT] พลังต่อสู้ เมื่อกำลังต่อสู้ในพื้นที่ขรุขระ, ไม่สนพื้นที่ควบคุม</Text>		<!-- Bulgarian Unique Cavalry Unit. Ignores Rough Terrain for [icon:Action_Move] Movement and enemy Unit’s [icon:NAR_REW_COMBAT] Combat Strength . +3 [icon:NAR_REW_COMBAT] Combat Strength on Rough Terrain. Ignore Zone of Control. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_BOYAR_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารม้าพิเศษ ระดับ 1 ของบัลแกเรีย, ไม่สนใจพื้นที่ขรุขระในการเคลื่อนที่ และการต่อสู้ของยูนิตฝ่ายตรงข้าม, +3 พลังต่อสู้ เมื่อกำลังต่อสู้ในพื้นที่ขรุขระ, ไม่สนพื้นที่ควบคุม</Text>		<!-- Tier 1 Bulgarian Unique Cavalry Unit. Ignores Rough Terrain for movement and opposing unit’s combat. +3 Combat Strength when this unit is fighting on Rough Terrain. Ignore Zone of Control. -->
+			<Text>ยูนิตทหารม้าพิเศษ ระดับ 1 ของบัลแกเรีย, ไม่สนใจพื้นที่ขรุขระใน [icon:Action_Move] การเคลื่อนที่ และ [icon:NAR_REW_COMBAT] พลังต่อสู้ของยูนิตฝ่ายตรงข้าม, +3 [icon:NAR_REW_COMBAT] พลังต่อสู้ เมื่อกำลังต่อสู้ในพื้นที่ขรุขระ, ไม่สนพื้นที่ควบคุม</Text>		<!-- Tier 1 Bulgarian Unique Cavalry Unit. Ignores Rough Terrain for [icon:Action_Move] Movement and enemy Unit’s [icon:NAR_REW_COMBAT] Combat Strength. +3 [icon:NAR_REW_COMBAT] Combat Strength Rough Terrain. Ignore Zone of Control. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_BOYAR_2_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารม้าพิเศษ ระดับ 2 ของบัลแกเรีย, ไม่สนใจพื้นที่ขรุขระในการเคลื่อนที่ และการต่อสู้ของยูนิตฝ่ายตรงข้าม, +3 พลังต่อสู้ เมื่อกำลังต่อสู้ในพื้นที่ขรุขระ, ไม่สนพื้นที่ควบคุม</Text>		<!-- Tier 2 Bulgarian Unique Cavalry Unit. Ignores Rough Terrain for movement and opposing unit’s combat. +3 Combat Strength when this unit is fighting on Rough Terrain. Ignore Zone of Control. -->
+			<Text>ยูนิตทหารม้าพิเศษ ระดับ 2 ของบัลแกเรีย,ไม่สนใจพื้นที่ขรุขระใน [icon:Action_Move] การเคลื่อนที่ และ [icon:NAR_REW_COMBAT] พลังต่อสู้ของยูนิตฝ่ายตรงข้าม, +3 [icon:NAR_REW_COMBAT] พลังต่อสู้ เมื่อกำลังต่อสู้ในพื้นที่ขรุขระ, ไม่สนพื้นที่ควบคุม</Text>		<!-- Tier 2 Bulgarian Unique Cavalry Unit. Ignores Rough Terrain for [icon:Action_Move] Movement and enemy Unit’s [icon:NAR_REW_COMBAT] Combat Strength. +3 [icon:NAR_REW_COMBAT] Combat Strength on Rough Terrain. Ignore Zone of Control. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_BOYAR_3_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารม้าพิเศษ ระดับ 3 ของบัลแกเรีย, ไม่สนใจพื้นที่ขรุขระในการเคลื่อนที่ และการต่อสู้ของยูนิตฝ่ายตรงข้าม, +3 พลังต่อสู้ เมื่อกำลังต่อสู้ในพื้นที่ขรุขระ, ไม่สนพื้นที่ควบคุม</Text>		<!-- Tier 3 Bulgarian Unique Cavalry Unit. Ignores Rough Terrain for movement and opposing unit’s combat. +3 Combat Strength when this unit is fighting on Rough Terrain. Ignore Zone of Control. -->
+			<Text>ยูนิตทหารม้าพิเศษ ระดับ 3 ของบัลแกเรีย, ไม่สนใจพื้นที่ขรุขระใน [icon:Action_Move] การเคลื่อนที่ และ [icon:NAR_REW_COMBAT] พลังต่อสู้ของยูนิตฝ่ายตรงข้าม, +3 [icon:NAR_REW_COMBAT] พลังต่อสู้ เมื่อกำลังต่อสู้ในพื้นที่ขรุขระ, ไม่สนพื้นที่ควบคุม</Text>		<!-- Tier 3 Bulgarian Unique Cavalry Unit. Ignores Rough Terrain for [icon:Action_Move] Movement and enemy Unit’s [icon:NAR_REW_COMBAT] Combat Strength. +3 [icon:NAR_REW_COMBAT] Combat Strength on Rough Terrain. Ignore Zone of Control. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_BOYAR_PREVIEW" Language="th_TH">
 			<Text>{1_Amount} ใน พื้นที่ขรุขระ</Text>		<!-- +{1_Amount} in Rough Terrain -->
@@ -656,7 +656,7 @@
 			<Text>ทาร์คาน</Text>		<!-- Tarkhan -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_BALIK_DESCRIPTION" Language="th_TH">
-			<Text>ผู้บัญชาการกองทัพพิเศษ ของบัลแกเรีย, มีแต้มเคลื่อนที่ 3 แต้ม, ยูนิตในรัศมีบัญชาการ สามารถปล้นได้โดยใช้ 1 แต้มเคลื่อนที่</Text>		<!-- Bulgarian Unique Army Commander. Has 3 Movement. Units in its command radius can pillage for 1 Movement. -->
+			<Text>ผู้บัญชาการกองทัพพิเศษ ของบัลแกเรีย, มี [icon:Action_Move] แต้มเคลื่อนที่ 3 แต้ม, ยูนิตใน [icon:COMMANDER_RADIUS] รัศมีบัญชาการ สามารถ [icon:Action_Pillage] ปล้นสะดม ได้โดยใช้ 1 [icon:Action_Move] แต้มเคลื่อนที่</Text>		<!-- Bulgarian Unique Army Commander. Has 3 [icon:Action_Move] Movement. Units in its [icon:COMMANDER_RADIUS] Command Radius can [icon:Action_Pillage] Pillage for 1 [icon:Action_Move] Movement. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_ALTARS_DESCRIPTION" Language="th_TH">
 			<Text>มีสาม [B]แท่นบูชา[/B]</Text>		<!-- Have three [B]Altars[/B]. -->
