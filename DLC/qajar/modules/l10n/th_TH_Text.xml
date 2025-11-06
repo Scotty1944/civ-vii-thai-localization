@@ -170,13 +170,13 @@
 			<Text>มงกุฎกายานี</Text>		<!-- Kayānī Crown -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_QAJAR_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI][B]+50% [icon:YIELD_DIPLOMACY] อิทธิพล[/B] สำหรับสนับสนุน [B]การทูต[/B][LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับสร้าง [B]สวนอีแรม[/B][/LIST]</Text>		<!-- [BLIST][LI][B]+50% [icon:YIELD_DIPLOMACY] Influence[/B] toward supporting [B]Diplomatic Actions[/B][LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Eram Garden[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]+50% [icon:YIELD_DIPLOMACY] อิทธิพล[/B] สำหรับสนับสนุน [B][icon:DIPLOMATIC_ACTION] การกระทำทางการทูต[/B][LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับสร้าง [B]สวนอีแรม[/B][/LIST]</Text>		<!-- [BLIST][LI][B]+50% [icon:YIELD_DIPLOMACY] Influence[/B] toward supporting [icon:DIPLOMATIC_ACTION] [B]Diplomatic Actions[/B][LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Eram Garden[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_QAJAR_DESCRIPTION" Language="th_TH">
-			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากสิ่งมหัศจรรย์เฉพาะของกอญัร</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being the Qajar's unique wonder. -->
+			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น [icon:WONDER] สิ่งมหัศจรรย์ที่เกี่ยวข้องกับ กอญัร</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Qajar's associated [icon:WONDER] Wonder. -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_QAJAR_DESCRIPTION" Language="th_TH">
-			<Text>+50% [icon:YIELD_DIPLOMACY] อิทธิพล สำหรับสนับสนุนการทูต</Text>		<!-- +50% [icon:YIELD_DIPLOMACY] Influence toward supporting Diplomatic Actions. -->
+			<Text>+50% [icon:YIELD_DIPLOMACY] อิทธิพล สำหรับสนับสนุน [icon:DIPLOMATIC_ACTION] การกระทำทางการทูต</Text>		<!-- +50% [icon:YIELD_DIPLOMACY] Influence toward supporting [icon:DIPLOMATIC_ACTION] Diplomatic Actions. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_CIVILIZATION_QAJAR_CHAPTER_HISTORY_PARA_1" Language="th_TH">
 			<Text>ศตวรรษที่ 18 เป็นช่วงเวลาแห่งความโกลาหลรุนแรงในอิหร่าน หลังจากที่ราชวงศ์ซาฟาวิดครองอำนาจมากว่าสองร้อยปี แต่ละชาห์ก็ไร้ประสิทธิภาพมากขึ้นเรื่อย ๆ จนกระทั่งพวกเขาถูกโค่นล้มโดยการกบฏ เมื่อโลกเก่าจางหายไป ดาวดวงใหม่ก็ปรากฏขึ้นในรูปของนาเดอร์ ชาห์ ผู้ทะเยอทะยานและไร้ความปรานี เขาปฏิรูปกองทัพและบุกอินเดีย ปล้นกรุงเดลีและยึดสมบัติของโมกุลมาเป็นของตนเอง เขายังขยายอำนาจของอิหร่านไปยังภูมิภาคอุซเบกและคอเคซัส รวมถึงบางส่วนของชายฝั่งอาหรับ ในช่วงสูงสุดของการครองราชย์ของเขา อาณาจักรของเขาเป็นหนึ่งในอาณาจักรที่ทรงพลังที่สุดในโลก และสร้างกองทัพที่มีขนาดไม่เทียบเท่าจนกระทั่งปลายศตวรรษที่ 20</Text>		<!-- The 18th century was a time of violent chaos in Iran. After over two hundred years in power, the Safavid dynasty had decayed, each shah more ineffective than the last until they were finally overthrown by a rebellion. As the old world faded away, a new star rose in the form of the ambitious and ruthless Nader Shah. He reformed the army and invaded India, sacking Delhi and claiming Mughal’s riches for himself. He also expanded Iranian power into the Uzbek and Caucasus regions, and pockets of the Arabian coast. At the height of his reign, his empire was one of the most powerful in the world, and created an army whose size was not matched until the late 20th century. -->
@@ -260,7 +260,7 @@
 			<Text>กาห์เวคาเนห์</Text>		<!-- Ghahve Khane -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GHAHVE_KHANE_DESCRIPTION" Language="th_TH">
-			<Text>+9 [icon:YIELD_FOOD] อาหาร, +1 [icon:YIELD_HAPPINESS] ความสุข ที่อยู่ติดกับอาคารทองคำและสิ่งมหัศจรรย์, อาคารด้านอาหารพิเศษ ของกอญัร, คงอยู่ตลอดกาล</Text>		<!-- +9 [icon:YIELD_FOOD] Food. +1 [icon:YIELD_HAPPINESS] Happiness adjacency for Gold Buildings and Wonders. Qajar Unique Food Building.  Ageless. -->
+			<Text>อาคารด้านอาหารพิเศษ สำหรับกอญัร, +9 [icon:YIELD_FOOD] อาหาร, +1 [icon:YIELD_HAPPINESS] ความสุข ที่อยู่ติดกับอาคารด้านทอง และสิ่งมหัศจรรย์, คงอยู่ตลอดกาล</Text>		<!-- Qajar Unique Food Building. +9 [icon:YIELD_FOOD] Food. +1 [icon:YIELD_HAPPINESS] Happiness Adjacency for Gold Buildings and Wonders. Ageless. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GHAHVE_KHANE_TOOLTIP" Language="th_TH">
 			<Text>อาคารพิเศษของกอญัร</Text>		<!-- Qajar Unique Building. -->
@@ -269,7 +269,7 @@
 			<Text>ตักเยห์</Text>		<!-- Takyeh -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TAKYEH_DESCRIPTION" Language="th_TH">
-			<Text>+9[icon:YIELD_HAPPINESS] ความสุข, +1 [icon:YIELD_DIPLOMACY] อิทธิพล ที่อยู่ติดกับอาคารวัฒนธรรมและสิ่งมหัศจรรย์, อาคารด้านความสุขพิเศษ ของกอญัร, คงอยู่ตลอดกาล</Text>		<!-- +9[icon:YIELD_HAPPINESS] Happiness. +1 [icon:YIELD_DIPLOMACY] Influence adjacency for Culture Buildings and Wonders. Qajar Unique Happiness Building. Ageless. -->
+			<Text>อาคารด้านความสุขพิเศษ สำหรับกอญัร, +9[icon:YIELD_HAPPINESS] ความสุข, +1 [icon:YIELD_DIPLOMACY] อิทธิพล ที่อยู่ติดกับอาคารวัฒนธรรมและสิ่งมหัศจรรย์, คงอยู่ตลอดกาล</Text>		<!-- Qajar Unique Happiness Building. +9[icon:YIELD_HAPPINESS] Happiness. +1 [icon:YIELD_DIPLOMACY] Influence Adjacency for Culture Buildings and Wonders. Ageless. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TAKYEH_TOOLTIP" Language="th_TH">
 			<Text>อาคารพิเศษของกอญัร</Text>		<!-- Qajar Unique Building. -->
@@ -278,10 +278,10 @@
 			<Text>บาก</Text>		<!-- Bāq -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_BAQ_DESCRIPTION" Language="th_TH">
-			<Text>ย่านพิเศษของกอญัร, สร้างขึ้นโดยการสร้างกาห์เวคาเนห์และตักเยห์ในเขตเดียวกัน, +10%[icon:YIELD_CULTURE] วัฒนธรรมและ [icon:YIELD_DIPLOMACY] อิทธิพล ในถิ่นฐานนี้เมื่ออยู่ในช่วงเฉลิมฉลอง</Text>		<!-- Qajar Unique Quarter. Created by constructing the Ghahve Khane and Takyeh in the same District. +10%[icon:YIELD_CULTURE] Culture and [icon:YIELD_DIPLOMACY] Influence in this Settlement when in a Celebration. -->
+			<Text>ย่านพิเศษของกอญัร, สร้างขึ้นโดยการสร้างกาห์เวคาเนห์และตักเยห์ในเขตเดียวกัน, +10%[icon:YIELD_CULTURE] วัฒนธรรมและ [icon:YIELD_DIPLOMACY] อิทธิพล ในถิ่นฐานนี้เมื่ออยู่ในช่วง [icon:CELEBRATION] งานเฉลิมฉลอง</Text>		<!-- Qajar Unique Quarter. Created by constructing the Ghahve Khane and Takyeh in the same District. +10% [icon:YIELD_CULTURE] Culture and [icon:YIELD_DIPLOMACY] Influence in this Settlement when in a [icon:CELEBRATION] Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_BAQ_TOOLTIP" Language="th_TH">
-			<Text>+10%[icon:YIELD_CULTURE] วัฒนธรรมและ [icon:YIELD_DIPLOMACY] อิทธิพล ในถิ่นฐานนี้เมื่ออยู่ในช่วงเฉลิมฉลอง</Text>		<!--  +10%[icon:YIELD_CULTURE] Culture and [icon:YIELD_DIPLOMACY] Influence in this Settlement when in a Celebration. -->
+			<Text>+10%[icon:YIELD_CULTURE] วัฒนธรรมและ [icon:YIELD_DIPLOMACY] อิทธิพล ในถิ่นฐานนี้เมื่ออยู่ในช่วง [icon:CELEBRATION] งานเฉลิมฉลอง</Text>		<!--  +10% [icon:YIELD_CULTURE] Culture and [icon:YIELD_DIPLOMACY] Influence in this Settlement when in a [icon:CELEBRATION] Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_ERAM_GARDEN_NAME" Language="th_TH">
 			<Text>สวนอีแรม</Text>		<!-- Eram Garden -->
@@ -329,31 +329,31 @@
 			<Text>นาเดอร์ ชาห์</Text>		<!-- Nader Shah -->
 		</Replace>
 		<Replace Tag="LOC_MOD_NEZAM_E_JADID_UNDER_CAP_COMBAT_DESCRIPTION" Language="th_TH">
-			<Text>+1 พลังต่อสู้ สำหรับทุก 2 ถิ่นฐานที่อยู่ต่ำกว่าขีดจำกัดสำหรับยูนิตรบทางบก</Text>		<!-- +1 Combat Strength for every 2 Settlements under the Limit to Land combat Units. -->
+			<Text>+1 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับทุกยูนิตทหารบก สำหรับทุก 2 ถิ่นฐานที่อยู่ต่ำกว่า [icon:SETTLEMENT_LIMIT] ขีดจำกัดถิ่นฐาน</Text>		<!-- +1 [icon:NAR_REW_COMBAT] Combat Strength for Land Military Units for every 2 Settlements under the [icon:SETTLEMENT_LIMIT] Settlement Limit. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_TWELVE_GATES_YIELD_UNDER_CAP_DESCRIPTION" Language="th_TH">
-			<Text>+10 [icon:YIELD_FOOD] อาหารและ [icon:YIELD_PRODUCTION] กำลังผลิต ในเมืองหลวงสำหรับทุกถิ่นฐานที่อยู่ต่ำกว่าขีดจำกัดถิ่นฐาน</Text>		<!-- +10 [icon:YIELD_FOOD] Food and [icon:YIELD_PRODUCTION] Production in the Capital for every Settlement under the Settlement Limit. -->
+			<Text>+10 [icon:YIELD_FOOD] อาหารและ [icon:YIELD_PRODUCTION] กำลังผลิต ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวงสำหรับทุกถิ่นฐานที่อยู่ต่ำกว่า [icon:SETTLEMENT_LIMIT] ขีดจำกัดถิ่นฐาน</Text>		<!-- +10 [icon:YIELD_FOOD] Food and [icon:YIELD_PRODUCTION] Production in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every Settlement under the [icon:SETTLEMENT_LIMIT] Settlement Limit.  -->
 		</Replace>
 		<Replace Tag="LOC_MOD_SUN_THRONE_DIPLO_SENDER_YIELD_DESCRIPTION" Language="th_TH">
-			<Text>เมื่อคุณสนับสนุนความพยายาม รับ 200 [icon:YIELD_CULTURE] วัฒนธรรม และผู้เล่นอื่นรับ 100 [icon:YIELD_GOLD] ทอง. (ในความเร็วมาตรฐาน)</Text>		<!-- When you Support an Endeavor receive 200 [icon:YIELD_CULTURE] Culture and the other player receives 100 [icon:YIELD_GOLD] Gold. (On Standard Speed) -->
+			<Text>เมื่อคุณสนับสนุน [icon:ENDEAVOR] ความร่วมมือ, รับ 200 [icon:YIELD_CULTURE] วัฒนธรรม และผู้นำอื่นรับ 100 [icon:YIELD_GOLD] ทอง (ในความเร็วมาตรฐาน)</Text>		<!-- When you support an [icon:ENDEAVOR] Endeavor, gain 200 [icon:YIELD_CULTURE] Culture and the other Leader gains 100 [icon:YIELD_GOLD] Gold. (On Standard Speed) -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_QULLARAQASI_NAME" Language="th_TH">
 			<Text>คุลลาราคาซี</Text>		<!-- Qullarāqāsi -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_QULLARAQASI_DESCRIPTION" Language="th_TH">
-			<Text>ผู้บัญชาการที่ประจำการในเขตให้ +15 [icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- Commanders Stationed on a District Provide +15 [icon:YIELD_HAPPINESS] Happiness. -->
+			<Text>+15 [icon:YIELD_HAPPINESS] ความสุข ในถิ่นฐานสำหรับทุก [icon:UNIT_ARMY_COMMANDER] ผู้บัญชาการที่ประจำอยู่ใน [icon:CITY_URBAN] เขตนั้น</Text>		<!-- +15 [icon:YIELD_HAPPINESS] Happiness in Settlements for every [icon:UNIT_ARMY_COMMANDER] Commander stationed on a [icon:CITY_URBAN] District there. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SOLEYMANIYEH_PALACE_NAME" Language="th_TH">
 			<Text>พระราชวังโซเลย์มานีเยห์</Text>		<!-- Soleymaniyeh Palace -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SOLEYMANIYEH_PALACE_DESCRIPTION" Language="th_TH">
-			<Text>+0.5 [icon:YIELD_DIPLOMACY] อิทธิพล สำหรับทุกประชากรในเมืองหลวง</Text>		<!-- +0.5 [icon:YIELD_DIPLOMACY] Influence for every Population in the Capital. -->
+			<Text>+0.5 [icon:YIELD_DIPLOMACY] อิทธิพล สำหรับทุก [icon:YIELD_POPULATION] ประชากรใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง</Text>		<!-- +0.5 [icon:YIELD_DIPLOMACY] Influence for every [icon:YIELD_POPULATION] Population in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_WAQAYE_E_ETTEFAQIYA_NAME" Language="th_TH">
 			<Text>วากาเย-เอ เอตเตฟาคิยา</Text>		<!-- Waqāye'-e Ettefāqiya -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_WAQAYE_E_ETTEFAQIYA_DESCRIPTION" Language="th_TH">
-			<Text>+10 [icon:YIELD_SCIENCE] วิทยาศาสตร์ และ [icon:YIELD_CULTURE] วัฒนธรรมในเมืองหลวงสำหรับทุกถิ่นฐาน ที่อยู่ต่ำกว่าขีดจำกัดถิ่นฐาน</Text>		<!-- +10 [icon:YIELD_SCIENCE] Science and [icon:YIELD_CULTURE] Culture in the Capital for every Settlement under the Settlement Limit. -->
+			<Text>+10 [icon:YIELD_SCIENCE] วิทยาศาสตร์ และ [icon:YIELD_CULTURE] วัฒนธรรมใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวงสำหรับทุกถิ่นฐาน ที่อยู่ต่ำกว่า [icon:SETTLEMENT_LIMIT] ขีดจำกัดถิ่นฐาน</Text>		<!-- +10 [icon:YIELD_SCIENCE] Science and [icon:YIELD_CULTURE] Culture in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every Settlement under the [icon:SETTLEMENT_LIMIT] Settlement Limit. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_QAJAR" Language="th_TH">
 			<Text>ดินแดนที่ได้รับการปกป้องของอิหร่านเป็นที่รู้จักจากราชวงศ์ที่ปกครองพวกเขา - กอญัร, ท้าทายอำนาจที่ยิ่งใหญ่ของโลก กอญัรอิหร่านยังคงอยู่ สร้างมรดกแห่งศิลปะและสถาปัตยกรรมที่ประทับตราเปอร์เซียในความทันสมัย, ปกครองด้วยความงามหรือปืนไรเฟิล แต่จารึกตำแหน่งของกอญัรบนโลก</Text>		<!-- The Guarded Domains of Iran are known for the dynasty that rules them - Qajar. Defying the great powers of the world, Qajar Iran remains, building a legacy of art and architecture that places a Persian stamp upon modernity. Rule by beauty or the rifle, but carve for Qajar its place upon the world. -->
@@ -629,31 +629,31 @@
 			<Text>โกลาม</Text>		<!-- Gholām -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_GHILMAN_BASE_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารม้าพิเศษ ของกอญัร, +5 พลังต่อสู้ และฟื้นฟู HP 10 หน่วยในรัศมีคำสั่งของซาร์ดาร์ ไม่ได้รับผลกระทบจากเขตควบคุม</Text>		<!-- Qajar Unique Cavalry Unit. +5 Combat Strength and +10 HP healing in Command Radius of a Sardār. Ignores Zone of Control. -->
+			<Text>ยูนิตทหารม้าพิเศษ ของกอญัร, +5 [icon:NAR_REW_COMBAT] พลังต่อสู้ และ +10 [icon:Action_Heal] ฟื้นฟู ใน [icon:COMMANDER_RADIUS] รัศมีบัญชาการ ของ [icon:UNIT_SOLTAN] ซาร์ดาร์, ไม่ได้รับผลกระทบจากเขตควบคุม</Text>		<!-- Qajar Unique Cavalry Unit. +5 [icon:NAR_REW_COMBAT] Combat Strength and +10 [icon:Action_Heal] Healing in the [icon:COMMANDER_RADIUS] Command Radius of a [icon:UNIT_SOLTAN] Sardār. Ignores Zone of Control. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_GHILMAN_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารม้าพิเศษ ระดับ 1 ของกอญัร, +5 พลังต่อสู้ และฟื้นฟู HP 10 หน่วยในรัศมีคำสั่งของซาร์ดาร์ ไม่ได้รับผลกระทบจากเขตควบคุม</Text>		<!-- Tier 1 Qajar Unique Cavalry Unit. +5 Combat Strength and +10 HP healing in Command Radius of a Sardār. Ignores Zone of Control. -->
+			<Text>ยูนิตทหารม้าพิเศษ ระดับ 1 ของกอญัร, +5 [icon:NAR_REW_COMBAT] พลังต่อสู้ และ +10 [icon:Action_Heal] ฟื้นฟู ใน [icon:COMMANDER_RADIUS] รัศมีบัญชาการ ของ [icon:UNIT_SOLTAN] ซาร์ดาร์, ไม่ได้รับผลกระทบจากเขตควบคุม</Text>		<!-- Tier 1 Qajar Unique Cavalry Unit. +5 [icon:NAR_REW_COMBAT] Combat Strength and +10 [icon:Action_Heal] Healing in the [icon:COMMANDER_RADIUS] Command Radius of a [icon:UNIT_SOLTAN] Sardār. Ignores Zone of Control. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_GHILMAN_2_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารม้าพิเศษ ระดับ 2 ของกอญัร, +5 พลังต่อสู้ และฟื้นฟู HP 10 หน่วยในรัศมีคำสั่งของซาร์ดาร์ ไม่ได้รับผลกระทบจากเขตควบคุม</Text>		<!-- Tier 2 Qajar Unique Cavalry Unit. +5 Combat Strength and +10 HP healing in Command Radius of a Sardār. Ignores Zone of Control. -->
+			<Text>ยูนิตทหารม้าพิเศษ ระดับ 2 ของกอญัร, +5 [icon:NAR_REW_COMBAT] พลังต่อสู้ และ +10 [icon:Action_Heal] ฟื้นฟู ใน [icon:COMMANDER_RADIUS] รัศมีบัญชาการ ของ [icon:UNIT_SOLTAN] ซาร์ดาร์, ไม่ได้รับผลกระทบจากเขตควบคุม</Text>		<!-- Tier 2 Qajar Unique Cavalry Unit. +5 [icon:NAR_REW_COMBAT] Combat Strength and +10 [icon:Action_Heal] Healing in the [icon:COMMANDER_RADIUS] Command Radius of a [icon:UNIT_SOLTAN] Sardār. Ignores Zone of Control. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_GHILMAN_3_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารม้าพิเศษ ระดับ 3 ของกอญัร, +5 พลังต่อสู้ และฟื้นฟู HP 10 หน่วยในรัศมีคำสั่งของซาร์ดาร์ ไม่ได้รับผลกระทบจากเขตควบคุม</Text>		<!-- Tier 3 Qajar Unique Cavalry Unit. +5 Combat Strength and +10 HP healing in Command Radius of a Sardār. Ignores Zone of Control. -->
+			<Text>ยูนิตทหารม้าพิเศษ ระดับ 3 ของกอญัร, +5 [icon:NAR_REW_COMBAT] พลังต่อสู้ และ +10 [icon:Action_Heal] ฟื้นฟู ใน [icon:COMMANDER_RADIUS] รัศมีบัญชาการ ของ [icon:UNIT_SOLTAN] ซาร์ดาร์, ไม่ได้รับผลกระทบจากเขตควบคุม</Text>		<!-- Tier 3 Qajar Unique Cavalry Unit. +5 [icon:NAR_REW_COMBAT] Combat Strength and +10 [icon:Action_Heal] Healing in the [icon:COMMANDER_RADIUS] Command Radius of a [icon:UNIT_SOLTAN] Sardār. Ignores Zone of Control. -->
 		</Replace>
 		<Replace Tag="LOC_GHILMAN_COMBAT_PREVIEW" Language="th_TH">
-			<Text>+{1_Amount} ในรัศมีคำสั่งของซาร์ดาร์</Text>		<!-- +{1_Amount} in Command Radius of a Sardār. -->
+			<Text>+{1_Amount} ในรัศมีคำสั่งของซาร์ดาร์</Text>		<!-- +{1_Amount} in Command Radius of a Sardār -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_GHILMAN_DESCRIPTION" Language="th_TH">
-			<Text>+5 ความแข็งแกร่งในการต่อสู้และฟื้นฟู HP 10 หน่วยในรัศมีคำสั่งของซาร์ดาร์</Text>		<!-- +5 Combat Strength and +10 HP healing in Command Radius of a Sardār. -->
+			<Text>+5 [icon:NAR_REW_COMBAT] พลังต่อสู้ และ +10 [icon:Action_Heal] ฟื้นฟู ใน [icon:COMMANDER_RADIUS] รัศมีบัญชาการ ของ [icon:UNIT_SOLTAN] ซาร์ดาร์</Text>		<!-- +5 [icon:NAR_REW_COMBAT] Combat Strength and +10 [icon:Action_Heal] Healing in Command Radius of a [icon:UNIT_SOLTAN] Sardār. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_SOLTAN_NAME" Language="th_TH">
 			<Text>ซาร์ดาร์</Text>		<!-- Sardār -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_SOLTAN_DESCRIPTION" Language="th_TH">
-			<Text>ผู้บัญชาการกองทัพเฉพาะของกอญัร +1 แต้มเคลื่อนที่ ขณะทำลายถิ่นฐาน จะทำลายเขตเพิ่มเติมต่อเทิร์นใน ถิ่นฐานที่ผู้บัญชาการนี้อยู่ในเขต</Text>		<!-- Qajar Unique Army Commander. +1 Movement. While razing a settlement, an additional District is Razed per turn in Settlements where this commander is on a District. -->
+			<Text>ผู้บัญชาการกองทัพเฉพาะของกอญัร +1 [icon:Action_Move] แต้มเคลื่อนที่ ขณะทำลายถิ่นฐาน จะทำลาย [icon:CITY_URBAN] เขตเพิ่มเติมต่อเทิร์นใน ถิ่นฐานที่ผู้บัญชาการนี้อยู่ใน [icon:CITY_URBAN] เขต</Text>		<!-- Qajar Unique Army Commander. +1 [icon:Action_Move] Movement. While razing a settlement, an additional [icon:CITY_URBAN] District is Razed per turn in Settlements where this Commander is on a [icon:CITY_URBAN] District. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SOLTAN_DESCRIPTION" Language="th_TH">
-			<Text>+1 แต้มเคลื่อนที่ ขณะทำลายถิ่นฐาน จะทำลายเขตเพิ่มเติมต่อเทิร์นใน ถิ่นฐานที่ผู้บัญชาการนี้อยู่ในเขต</Text>		<!-- +1 Movement. While razing a settlement, an additional District is Razed per turn in Settlements where this commander is on a District. -->
+			<Text>+1 [icon:Action_Move] แต้มเคลื่อนที่ ขณะทำลายถิ่นฐาน จะทำลาย [icon:CITY_URBAN] เขตเพิ่มเติมต่อเทิร์นใน ถิ่นฐานที่ผู้บัญชาการนี้อยู่ใน [icon:CITY_URBAN] เขต</Text>		<!-- +1 [icon:Action_Move] Movement. While razing a settlement, an additional [icon:CITY_URBAN] District is Razed per turn in Settlements where this Commander is on a [icon:CITY_URBAN] District. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_5_CITY_WORKERS_DESCRIPTION" Language="th_TH">
 			<Text>มีถิ่นฐาน 1 แห่งที่มี [B]ผู้เชี่ยวชาญ[/B] อย่างน้อยห้าคน</Text>		<!-- Have 1 Settlement with at least five [B]Specialists[/B]. -->

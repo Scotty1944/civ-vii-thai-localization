@@ -26,10 +26,10 @@
 			<Text>สำหรับยุคนี้ ยูนิตอากาศยานของคุณได้รับ +3 พลังต่อสู้ โดยแลกกับอิทธิพล[icon:YIELD_DIPLOMACY] -10%</Text>		<!-- For this Age, +3 Combat Strength for your Air Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_LAKSHMIBAI_L1_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน +25% ความสัมพันธ์จากการเริ่มหรือสนับสนุนภารกิจ -25% ความสัมพันธ์จากการเริ่มคว่ำบาตรหรือปฏิเสธภารกิจ</Text>		<!-- Legend Unlock. +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
+			<Text>ปลดล็อกตำนาน +25% [icon:RELATIONSHIP] ความสัมพันธ์ จากการเริ่มหรือสนับสนุน [icon:ENDEAVOR] ความร่วมมือ, -25% [icon:RELATIONSHIP] ความสัมพันธ์ จากการเริ่ม [icon:SANCTIONS] คว่ำบาตรหรือปฏิเสธ [icon:ENDEAVOR] ความร่วมมือ</Text>		<!-- Legend Unlock. +25% [icon:RELATIONSHIP] Relationship from starting or supporting [icon:ENDEAVOR] Endeavors. -25% [icon:RELATIONSHIP] Relationship from starting [icon:SANCTIONS] Sanctions or rejecting [icon:ENDEAVOR] Endeavors. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_LAKSHMIBAI_L2_DESCRIPTION" Language="th_TH">
-			<Text>ปลดล็อกตำนาน +5 พลังต่อสู้ สำหรับทุกยูนิตเมื่อโจมตีเขต</Text>		<!-- Legend Unlock. +5 Combat Strength for all Units against Districts. -->
+			<Text>ปลดล็อกตำนาน +5 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับทุกยูนิตเมื่อโจมตี [icon:CITY_FORTIFIED] เขต</Text>		<!-- Legend Unlock. +5 [icon:NAR_REW_COMBAT] Combat Strength for all Units against [icon:CITY_FORTIFIED] Fortified Districts. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_LAKSHMIBAI_L2_COMBAT_PREVIEW" Language="th_TH">
 			<Text>+{1_Value} คุณสมบัติตำนานทางทหาร</Text>		<!-- +{1_Value} Legend Militaristic Attribute -->
@@ -86,22 +86,22 @@
 			<Text>ลักษมีไบ</Text>		<!-- Lakshmibai -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_LAKSHMIBAI_DESCRIPTION" Language="th_TH">
-			<Text>+50% [icon:YIELD_DIPLOMACY] อิทธิพล ในการเริ่มต้น [icon:CITYSTATE] การผนวกนครรัฐ เมื่อคุณผนวกนครรัฐ คุณจะได้รับยูนิตทั้งหมดของพวกเขา เมื่อยูนิตทหารบกของคุณสังหารยูนิตศัตรู จะได้รับ [icon:YIELD_DIPLOMACY] อิทธิพลเท่ากับ 100% ของ [icon:NAR_REW_COMBAT] พลังต่อสู้ ของยูนิตที่ถูกสังหาร</Text>		<!-- +50% [icon:YIELD_DIPLOMACY] Influence towards initiating the [icon:CITYSTATE] City-State - Incorporate Action. When you incorporate a City-State, you gain all of their Units. When one of your Land Military Units defeats an enemy Unit, gain [icon:YIELD_DIPLOMACY] Influence equal to 100% of the defeated Unit's [icon:NAR_REW_COMBAT] Combat Strength. -->
+			<Text>+50% [icon:YIELD_DIPLOMACY] อิทธิพล ในการเริ่มต้น [icon:DIPLOMATIC_ACTION] การผนวกนครรัฐ เมื่อคุณผนวก [icon:CITYSTATE] นครรัฐ คุณจะได้รับยูนิตทั้งหมดของพวกเขา เมื่อยูนิตทหารบกของคุณสังหารยูนิตศัตรู จะได้รับ [icon:YIELD_DIPLOMACY] อิทธิพลเท่ากับ 100% ของ [icon:NAR_REW_COMBAT] พลังต่อสู้ ของยูนิตที่ถูกสังหาร</Text>		<!-- +50% [icon:YIELD_DIPLOMACY] Influence towards initiating the [icon:DIPLOMATIC_ACTION] City-State - Incorporate Action. When you incorporate a [icon:CITYSTATE] City-State, you gain all of their Units. When one of your Land Military Units defeats an enemy Unit, gain [icon:YIELD_DIPLOMACY] Influence equal to 100% of the defeated Unit's [icon:NAR_REW_COMBAT] Combat Strength. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_LAKSHMIBAI_ABILITY_NAME" Language="th_TH">
 			<Text>รานีแห่งฌานซี</Text>		<!-- Rani of Jhansi -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_LAKSHMIBAI_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI][B]+50% [icon:YIELD_DIPLOMACY] อิทธิพล [/B]ในการเริ่มต้น [icon:CITYSTATE] [B]การผนวกนครรัฐ[/B][LI]เมื่อคุณผนวก [icon:CITYSTATE] [B]นครรัฐ[/B] คุณจะได้รับยูนิตทั้งหมดของพวกเขา[LI]เมื่อยูนิต [B]ทหารบก[/B] ของคุณสังหารยูนิตศัตรู จะได้รับ [icon:YIELD_DIPLOMACY] [B]อิทธิพล[/B] เท่ากับ [B]100%[/B] ของ [icon:NAR_REW_COMBAT] [B]พลังต่อสู้[/B] ของยูนิตที่ถูกสังหาร[/LIST]</Text>		<!-- [BLIST][LI][B]+50% [icon:YIELD_DIPLOMACY] Influence [/B]towards initiating the [icon:CITYSTATE] [B]City-State - Incorporate[/B] Action.[LI]When you incorporate a [icon:CITYSTATE] [B]City-State [/B], you gain all of their Units.[LI]When one of your [B]Land Military Units [/B]defeats an enemy Unit, gain [icon:YIELD_DIPLOMACY] [B]Influence [/B]equal to [B]100% [/B]of the defeated Unit's [icon:NAR_REW_COMBAT] [B]Combat Strength[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]+50% [icon:YIELD_DIPLOMACY] อิทธิพล [/B]ในการเริ่มต้น [icon:DIPLOMATIC_ACTION] [B]การผนวกนครรัฐ[/B][LI]เมื่อคุณผนวก [icon:CITYSTATE] [B]นครรัฐ[/B] คุณจะได้รับยูนิตทั้งหมดของพวกเขา[LI]เมื่อยูนิต [B]ทหารบก[/B] ของคุณสังหารยูนิตศัตรู จะได้รับ [icon:YIELD_DIPLOMACY] [B]อิทธิพล[/B] เท่ากับ [B]100%[/B] ของ [icon:NAR_REW_COMBAT] [B]พลังต่อสู้[/B] ของยูนิตที่ถูกสังหาร[/LIST]</Text>		<!-- [BLIST][LI][B]+50% [icon:YIELD_DIPLOMACY] Influence [/B]towards initiating the [icon:DIPLOMATIC_ACTION] [B]City-State - Incorporate[/B] Action.[LI]When you incorporate a [icon:CITYSTATE] [B]City-State [/B], you gain all of their Units.[LI]When one of your [B]Land Military Units [/B]defeats an enemy Unit, gain [icon:YIELD_DIPLOMACY] [B]Influence [/B]equal to [B]100% [/B]of the defeated Unit's [icon:NAR_REW_COMBAT] [B]Combat Strength[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_LAKSHMIBAI_ARMY_COMMANDER_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ [icon:YIELD_DIPLOMACY] อิทธิพล เท่ากับ 25% ของพลังของยูนิตที่ถูกสังหารเมื่ออยู่ในรัศมีบัญชาการ</Text>		<!-- Gain [icon:YIELD_DIPLOMACY] Influence equal to 25% of the defeated Unit's strength when in Command Radius. -->
+			<Text>ได้รับ [icon:YIELD_DIPLOMACY] อิทธิพล เท่ากับ 25% [icon:NAR_REW_COMBAT] พลังต่อสู้ ของยูนิตที่ถูกสังหาร เมื่ออยู่ใน [icon:COMMANDER_RADIUS] รัศมีบัญชาการ</Text>		<!-- Gain [icon:YIELD_DIPLOMACY] Influence equal to 25% of the defeated Unit's [icon:NAR_REW_COMBAT] Combat Strength when in [icon:COMMANDER_RADIUS] Command Radius. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_LAKSHMIBAI_COMMAND_RADIUS_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ [icon:YIELD_DIPLOMACY] อิทธิพล เท่ากับ 25% ของพลังของยูนิตที่ถูกสังหาร</Text>		<!-- Gain [icon:YIELD_DIPLOMACY] Influence equal to 25% of the defeated Unit's strength. -->
+			<Text>ได้รับ [icon:YIELD_DIPLOMACY] อิทธิพล เท่ากับ 25% [icon:NAR_REW_COMBAT] พลังต่อสู้ ของยูนิตที่ถูกสังหาร</Text>		<!-- Gain [icon:YIELD_DIPLOMACY] Influence equal to 25% of the defeated Unit's [icon:NAR_REW_COMBAT] Combat Strength. -->
 		</Replace>
 		<Replace Tag="LOC_LAKSHMIBAI_COMMAND_RADIUS_INFLUENCE_PREVIEW" Language="th_TH">
-			<Text>ได้รับอิทธิพลเท่ากับ 25% ของพลังของยูนิตที่ถูกสังหาร</Text>		<!-- Gain Influence equal to 25% of the defeated Unit's strength. -->
+			<Text>ได้รับ อิทธิพล เท่ากับ 25% พลังต่อสู้ ของยูนิตที่ถูกสังหาร</Text>		<!-- Gain Influence equal to 25% of the defeated Unit's Combat Strength. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_AGENDA_ETERNAL_GLORY_NAME" Language="th_TH">
 			<Text>เกียรติยศนิรันดร์</Text>		<!-- Eternal Glory -->

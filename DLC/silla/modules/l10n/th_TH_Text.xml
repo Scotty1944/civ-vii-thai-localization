@@ -170,13 +170,13 @@
 			<Text>มาริบกัน</Text>		<!-- Maripgan -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_SILLA_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม บนทรัพยากร</Text>		<!-- +1[icon:YIELD_CULTURE] Culture on Resources. -->
+			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:RADIAL_RESOURCES] ทรัพยากร</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture on [icon:RADIAL_RESOURCES] Resources. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_SILLA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI][B]+1[icon:YIELD_CULTURE] วัฒนธรรม[/B] บน [B]ทรัพยากร[/B][LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการสร้าง [B]ระฆังเอมิล[/B][/LIST]</Text>		<!-- [BLIST][LI][B]+1[icon:YIELD_CULTURE] Culture[/B] on [B]Resources[/B].[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Emile Bell[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]+1[icon:YIELD_CULTURE] วัฒนธรรม[/B] บน [B][icon:RADIAL_RESOURCES] ทรัพยากร[/B][LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการสร้าง [B]ระฆังเอมิล[/B][/LIST]</Text>		<!-- [BLIST][LI][B]+1[icon:YIELD_CULTURE] Culture[/B] on [icon:RADIAL_RESOURCES] [B]Resources[/B].[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Emile Bell[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_SILLA_DESCRIPTION" Language="th_TH">
-			<Text>+30%[icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ที่เกี่ยวข้องกับ ชิลลา</Text>		<!-- +30%[icon:YIELD_PRODUCTION] Production from being the Silla's associated Wonder. -->
+			<Text>+30%[icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น [icon:WONDER] สิ่งมหัศจรรย์ที่เกี่ยวข้องกับ ชิลลา</Text>		<!-- +30%[icon:YIELD_PRODUCTION] Production from being Silla's associated [icon:WONDER] Wonder. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_CIVILIZATION_SILLA_CHAPTER_HISTORY_PARA_1" Language="th_TH">
 			<Text>สามอาณาจักรของเกาหลีเป็นชุดของรัฐที่มีวัฒนธรรมคล้ายคลึงกันบนคาบสมุทรในช่วงพันปีแรกของคริสต์ศักราช ในบรรดานี้ ชิลลาเป็นทั้งอาณาจักรที่เก่าแก่ที่สุดและอยู่ห่างไกลจากอิทธิพลของจีนมากที่สุด แต่ทั้งสามอาณาจักรมีลักษณะร่วมกันคือสังคมที่มีการทหารและระบบการปกครองแบบรวมศูนย์ที่มีพระมหากษัตริย์และชนชั้นสูงที่มีอำนาจ ในช่วงปีแรก ๆ ของสามอาณาจักร แต่ละอาณาจักรพยายามสร้างสมดุลระหว่างกันผ่านพันธมิตรที่เลือกสรรและการรุกคืบที่เหมาะสมในเวลาอันควร </Text>		<!-- The Three Kingdoms of Korea were a set of culturally similar states on the peninsula in the first millennium CE. Of these, Silla was both the oldest and the most distant from Chinese influence, but each of the Three Kingdoms shared a militarized society and centralized system of government with a powerful monarch and aristocracy. In the early years of the Three Kingdoms, each power sought to balance the others through selective alliances and well-timed advances. -->
@@ -239,25 +239,25 @@
 			<Text>ซาชัล</Text>		<!-- Sachal -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_DRAGON_TEMPLE_DESCRIPTION" Language="th_TH">
-			<Text>เขตพิเศษของชิลลา สร้างขึ้นโดยการสร้างห้องบรรยายและเจดีย์ในเขตเดียวกัน +1 [icon:YIELD_GOLD] ทอง สำหรับทุกทรัพยากร ที่จัดสรรให้กับเมืองนี้</Text>		<!-- Silla Unique Quarter. Created by constructing the Lecture Hall and Pagoda in the same District. +1 [icon:YIELD_GOLD] Gold for every Resource assigned to this City. -->
+			<Text>เขตพิเศษของชิลลา สร้างขึ้นโดยการสร้างห้องบรรยายและเจดีย์ในเขตเดียวกัน +1 [icon:YIELD_GOLD] ทอง สำหรับทุก [icon:RADIAL_RESOURCES] ทรัพยากร ที่จัดสรรให้กับ [icon:YIELD_CITIES] เมืองนี้</Text>		<!-- Silla Unique Quarter. Created by constructing the Lecture Hall and Pagoda in the same District. +1 [icon:YIELD_GOLD] Gold for every [icon:RADIAL_RESOURCES] Resource assigned to this [icon:YIELD_CITIES] City. -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_DRAGON_TEMPLE_TOOLTIP" Language="th_TH">
-			<Text>+1 [icon:YIELD_GOLD] ทอง สำหรับทุกทรัพยากร ที่จัดสรรให้กับเมืองนี้</Text>		<!-- +1 [icon:YIELD_GOLD] Gold for every Resource assigned to this City. -->
+			<Text>+1 [icon:YIELD_GOLD] ทอง สำหรับทุก [icon:RADIAL_RESOURCES] ทรัพยากร ที่จัดสรรให้กับ [icon:YIELD_CITIES] เมืองนี้</Text>		<!-- +1 [icon:YIELD_GOLD] Gold for every [icon:RADIAL_RESOURCES] Resource assigned to this [icon:YIELD_CITIES] City. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LECTURE_HALL_NAME" Language="th_TH">
 			<Text>ห้องบรรยาย</Text>		<!-- Lecture Hall -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LECTURE_HALL_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:YIELD_CULTURE] วัฒนธรรม +1[icon:YIELD_CULTURE] วัฒนธรรม โบนัสใกล้เคียง สำหรับสิ่งมหัศจรรย์ เพิ่มจำนวนทรัพยากรที่สามารถจัดสรรให้กับถิ่นฐานนี้ได้ 1 หน่วย หากวางบนพื้นที่ขรุขระ อาคารวัฒนธรรมพิเศษของชิลลา ไม่มีวันล้าสมัย</Text>		<!-- +3 [icon:YIELD_CULTURE] Culture. +1[icon:YIELD_CULTURE] Culture Adjacency for Wonders.  Increases number of Resources that may be assigned to this Settlement by 1 if placed on Rough Terrain. Silla Unique Culture Building. Ageless. -->
+			<Text>อาคารวัฒนธรรมพิเศษ สำหรับชิลลา, +3 [icon:YIELD_CULTURE] วัฒนธรรม +1[icon:YIELD_CULTURE] วัฒนธรรม โบนัสใกล้เคียง สำหรับสิ่งมหัศจรรย์, +1 [icon:RADIAL_RESOURCES] ความจุทรัพยากร ในถิ่นฐานนี้ หากวางบนพื้นที่ขรุขระ, คงอยู่ตลอดกาล</Text>		<!-- Silla Unique Culture Building. +3 [icon:YIELD_CULTURE] Culture. +1[icon:YIELD_CULTURE] Culture Adjacency for Wonders. +1 [icon:RADIAL_RESOURCES] Resource Capacity in this Settlement if placed on [icon:CITY_UNIMPROVED] Rough Terrain. Ageless. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LECTURE_HALL_TOOLTIP" Language="th_TH">
-			<Text>[B]ผลกระทบ:[/B] เพิ่มจำนวนทรัพยากรที่สามารถจัดสรรให้กับถิ่นฐานนี้ได้ 1 หน่วย หากวางบนพื้นที่ขรุขระ[N]อาคารพิเศษของชิลลา</Text>		<!-- [B]Effect:[/B] Increases number of Resources that may be assigned to this Settlement by 1 if placed on Rough Terrain.[N]Silla Unique Building. -->
+			<Text>[B]เอฟเฟค:[/B] +1 [icon:RADIAL_RESOURCES] ความจุทรัพยากร ในถิ่นฐานนี้ หากวางบนพื้นที่ขรุขระ[N]อาคารพิเศษ สำหรับชิลลา</Text>		<!-- [B]Effect:[/B] +1 [icon:RADIAL_RESOURCES] Resource Capacity in this Settlement if placed on [icon:CITY_UNIMPROVED] Rough Terrain.[N]Silla Unique Building. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_PAGODA_NAME" Language="th_TH">
 			<Text>เจดีย์</Text>		<!-- Pagoda -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_PAGODA_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:YIELD_HAPPINESS] ความสุข +1[icon:YIELD_DIPLOMACY] อิทธิพล โบนัสใกล้เคียง สำหรับสิ่งมหัศจรรย์ธรรมชาติ ภูเขา และสิ่งมหัศจรรย์, อาคารด้านความสุขพิเศษ ของชิลลา, คงอยู่ตลอดกาล</Text>		<!-- +3 [icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_DIPLOMACY] Influence Adjacency for Natural Wonders, Mountains, and Wonders. Silla Unique Happiness Building. Ageless. -->
+			<Text>อาคารด้านความสุขพิเศษ สำหรับชิลลา, +3 [icon:YIELD_HAPPINESS] ความสุข +1[icon:YIELD_DIPLOMACY] อิทธิพล โบนัสใกล้เคียง สำหรับสิ่งมหัศจรรย์ธรรมชาติ ภูเขา และสิ่งมหัศจรรย์, คงอยู่ตลอดกาล</Text>		<!-- Silla Unique Happiness Building. +3 [icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_DIPLOMACY] Influence Adjacency for Natural Wonders, Mountains, and Wonders. Ageless. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_PAGODA_TOOLTIP" Language="th_TH">
 			<Text>อาคารพิเศษของชิลลา</Text>		<!-- Silla Unique Building. -->
@@ -302,40 +302,40 @@
 			<Text>บทกวีถึงอัศวินคิปา</Text>		<!-- Ode to Knight Kipa -->
 		</Replace>
 		<Replace Tag="LOC_MOD_KOLP_U_ALLIANCE_ROUTE_GOLD_DESCRIPTION" Language="th_TH">
-			<Text>เมื่อคุณสร้างพันธมิตร ผู้เล่นทั้งสองจะได้รับเส้นทางการค้าเสรีจากเมืองหลวงของอีกฝ่าย เส้นทางการค้าเหล่านี้จะไม่หายไปเมื่อพันธมิตรสิ้นสุด และไม่นับรวมกับขีดจำกัดเส้นทางการค้าของคุณกับจักรวรรดิแห่งนี้</Text>		<!-- When you form an alliance both players receive a free Trade Route from the other player's capital; these Trade Routes do not go away when the alliance ends and do not count against your Trade Route limit with this empire. -->
+			<Text>เมื่อคุณสร้าง [icon:PLAYER_RELATIONSHIP_ALLIANCE] ความสัมพันธ์แบบพันธมิตร ผู้นำทั้งสองจะได้รับ [icon:TRADE_ROUTE] เส้นทางการค้า ฟรีจาก [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวงของผู้นำอีกคน (ไม่คำนึงถึงระยะทาง); [icon:TRADE_ROUTE] เส้นทางการค้าเหล่านี้จะไม่หายไปเมื่อ [icon:PLAYER_RELATIONSHIP_ALLIANCE] ความสัมพันธ์แบบพันธมิตรสิ้นสุดลงและไม่ถูกนับรวมในขีดจำกัด [icon:TRADE_ROUTE] เส้นทางการค้าของคุณกับอารยธรรมนี้</Text>		<!-- When you form an [icon:PLAYER_RELATIONSHIP_ALLIANCE] Alliance, both Leaders receive a free [icon:TRADE_ROUTE] Trade Route from the other Leader's [icon:NOTIFICATION_SELECT_CAPITAL] Capital (regardless of range); these [icon:TRADE_ROUTE] Trade Routes do not go away when the [icon:PLAYER_RELATIONSHIP_ALLIANCE] Alliance ends and do not count against your [icon:TRADE_ROUTE] Trade Route limit with this Civilization. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_KOLP_U_CULTURE_KILLS_HWARANG_DESCRIPTION" Language="th_TH">
-			<Text>เมื่อคุณกำจัดยูนิตศัตรูด้วยฮวารัง รับ [icon:YIELD_CULTURE] วัฒนธรรม เท่ากับ 25% ของพลังของยูนิตที่ถูกกำจัด</Text>		<!-- When you defeat an enemy Unit with a Hwarang, gain [icon:YIELD_CULTURE] Culture equal to 25% of the defeated Unit's strength. -->
+			<Text>เมื่อคุณกำจัดยูนิตศัตรูด้วย [icon:UNIT_HWARANG] ฮวารัง รับ [icon:YIELD_CULTURE] วัฒนธรรม เท่ากับ 25% [icon:NAR_REW_COMBAT] พลังต่อสู้ ของยูนิตที่ถูกกำจัด</Text>		<!-- When you defeat an enemy Unit with a [icon:UNIT_HWARANG] Hwarang, gain [icon:YIELD_CULTURE] Culture equal to 25% of the defeated Unit's [icon:NAR_REW_COMBAT] Combat Strength. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_JINGOL_RESOURCE_CAP_DESCRIPTION" Language="th_TH">
-			<Text>เพิ่มจำนวนทรัพยากร ที่สามารถจัดสรรให้กับเมืองได้ 1 หน่วย</Text>		<!-- Increases number of Resources that may be assigned to Towns by 1. -->
+			<Text>+1 [icon:RADIAL_RESOURCES] ความจุทรัพยากร ใน [icon:YIELD_TOWNS] เมืองเล็ก</Text>		<!-- +1 [icon:RADIAL_RESOURCES] Resource Capacity in [icon:YIELD_TOWNS] Towns.  -->
 		</Replace>
 		<Replace Tag="LOC_MOD_JINGOL_TRADE_ROUTE_RANGE_DESCRIPTION" Language="th_TH">
-			<Text>+5 ระยะเส้นทางการค้าทางบก ไปยังถิ่นฐานทั้งหมด</Text>		<!-- +5 Land Trade Route Range to all Settlements. -->
+			<Text>+5 [icon:TRADE_ROUTE] ระยะเส้นทางการค้าทางบก ไปยังถิ่นฐานทั้งหมด</Text>		<!-- +5 [icon:TRADE_ROUTE] Land Trade Route Range to all Settlements. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_BEOPSEONG_NAME" Language="th_TH">
 			<Text>แบบแผน</Text>		<!-- Beopseong -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_BEOPSEONG_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_HAPPINESS] ความสุข บนทรัพยากรในเมืองที่มี อาคารด้านความสุข</Text>		<!-- +2 [icon:YIELD_HAPPINESS] Happiness on Resources in Towns with a Happiness building. -->
+			<Text>+2 [icon:YIELD_HAPPINESS] ความสุข บน [icon:RADIAL_RESOURCES] ทรัพยากรใน [icon:YIELD_TOWNS] เมืองเล็ก ที่มี [icon:YIELD_HAPPINESS] อาคารด้านความสุข</Text>		<!-- +2 [icon:YIELD_HAPPINESS] Happiness on [icon:RADIAL_RESOURCES] Resources in [icon:YIELD_TOWNS] Towns with a [icon:YIELD_HAPPINESS] Happiness Building. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_STRATEGIC_ALLIES_NAME" Language="th_TH">
 			<Text>พันธมิตรเชิงกลยุทธ์</Text>		<!-- Strategic Allies -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_STRATEGIC_ALLIES_DESCRIPTION" Language="th_TH">
-			<Text>เส้นทางการค้าทั้งหมดระหว่างคุณและพันธมิตรให้ [icon:YIELD_FOOD] อาหารและ [icon:YIELD_PRODUCTION] กำลังผลิต เท่ากับรางวัล [icon:YIELD_GOLD] ทอง ของเส้นทางนั้น</Text>		<!-- All Trade Routes between you and your allies award [icon:YIELD_FOOD] Food and [icon:YIELD_PRODUCTION] Production equal to the route's [icon:YIELD_GOLD] Gold award. -->
+			<Text>[icon:TRADE_ROUTE] เส้นทางการค้า ทั้งหมดระหว่างคุณและ [icon:PLAYER_RELATIONSHIP_ALLIANCE] พันธมิตรให้ [icon:YIELD_FOOD] อาหารและ [icon:YIELD_PRODUCTION] กำลังผลิต เท่ากับรางวัล [icon:TRADE_INCOME] รายได้การค้า ของเส้นทางนั้น</Text>		<!-- All [icon:TRADE_ROUTE] Trade Routes between you and your [icon:PLAYER_RELATIONSHIP_ALLIANCE] Allies grant [icon:YIELD_FOOD] Food and [icon:YIELD_PRODUCTION] Production equal to the route's [icon:TRADE_INCOME] Trade Income. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_THE_GOLDEN_ROAD_NAME" Language="th_TH">
 			<Text>เส้นทางทองคำ</Text>		<!-- The Golden Road -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_THE_GOLDEN_ROAD_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับทรัพยากรที่นำเข้าแต่ละรายการ</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science for each imported Resource. -->
+			<Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับ [icon:RADIAL_RESOURCES] ทรัพยากรที่นำเข้าแต่ละรายการ</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science for each imported [icon:RADIAL_RESOURCES] Resource. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SEORABEOL_NAME" Language="th_TH">
 			<Text>ซอราโบล</Text>		<!-- Seorabeol -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SEORABEOL_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_GOLD] ทอง และ +1[icon:YIELD_DIPLOMACY] อิทธิพล บนทรัพยากรที่กำหนดให้กับเมืองสถานีการค้า หรือเมืองโรงงาน</Text>		<!-- +1[icon:YIELD_GOLD] Gold and +1[icon:YIELD_DIPLOMACY] Influence on Resources assigned to Trade Outpost or Factory Towns. -->
+			<Text>+1 [icon:YIELD_GOLD] ทอง และ +1 [icon:YIELD_DIPLOMACY] อิทธิพล บน [icon:RADIAL_RESOURCES] ทรัพยากรที่กำหนดให้กับเมืองสถานีการค้า หรือเมืองโรงงาน</Text>		<!-- +1 [icon:YIELD_GOLD] Gold and +1 [icon:YIELD_DIPLOMACY] Influence on [icon:RADIAL_RESOURCES] Resources assigned to Trade Outpost or Factory Towns. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_SILLA" Language="th_TH">
 			<Text>เสียงระฆังวัดดังก้องไปทั่วเกาหลี และชิลลาตอบสนอง ในพระราชวังของพวกเขา ซองกอลดำเนินชีวิตอย่างหรูหรา มอบแรงบันดาลใจให้กับมือของช่างฝีมือ พู่กันของกวี และก้าวย่างของทหาร นำทางชิลลาในขณะนี้ และนำมือที่รู้แจ้งมาสู่โลกที่มืดมน</Text>		<!-- The temple bell rings out across Korea, and Silla responds. In their palaces, the seonggol pursue a life of luxury, lending inspiration to the craftsman’s hands, the poet’s brush, and the soldier’s step. Guide Silla now, and bring an enlightened hand to a darkened world. -->
@@ -485,7 +485,7 @@
 			<Text>ข้อความลึกลับ</Text>		<!-- Mystical Message -->
 		</Replace>
 		<Replace Tag="LOC_11059A_COMPLETION" Language="th_TH">
-			<Text>คนเลี้ยงม้าหนุ่มดูแลม้าที่ตั้งท้อง ขณะที่พวกเขาทำงานกับกีบของเธอ เสียงฟ้าร้องทำให้พวกเขาตกใจ ทั้งสองเงยหน้ามองท้องฟ้าที่แจ่มใส นี่อาจเป็นสัญญาณหรือไม่</Text>		<!-- Young stablehands tend to a pregnant mare. As they work on her hooves, a clap of thunder startles them all. The two men look up at the clear sky could this be a sign? -->
+			<Text>คนเลี้ยงม้าหนุ่มดูแลม้าที่ตั้งท้อง ขณะที่พวกเขาทำงานกับกีบของเธอ เสียงฟ้าร้องทำให้พวกเขาตกใจ ทั้งสองเงยหน้ามองท้องฟ้าที่แจ่มใส-- นี่อาจเป็นสัญญาณหรือไม่</Text>		<!-- Young stablehands tend to a pregnant mare. As they work on her hooves, a clap of thunder startles them all. The two men look up at the clear sky- - could this be a sign? -->
 		</Replace>
 		<Replace Tag="LOC_11059B_NAME" Language="th_TH">
 			<Text>มันบ่งบอกว่ามีเด็กเกิดมาเพื่อค้นพบสิ่งใหม่</Text>		<!-- It signals a child was born to lead new discoveries. -->
@@ -575,22 +575,22 @@
 			<Text>ฮวารัง</Text>		<!-- Hwarang -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_HWARANG_BASE_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตระยะไกลพิเศษ ของชิลลา, +1 แต้มเคลื่อนที่และ +3 พลังต่อสู้ ในการยิงปืนใหญ่ นับเป็นยูนิตม้า และไม่สนใจเขตควบคุม</Text>		<!-- Silla Unique Ranged Unit. Has +1 Movement and +3 Bombard Strength. Counts as a Cavalry Unit and ignores Zone of Control. -->
+			<Text>ยูนิตระยะไกลพิเศษ ของชิลลา, +1 [icon:Action_Move] แต้มเคลื่อนที่และ +3 [icon:Action_Ranged] พลังต่อสู้ ในการยิงปืนใหญ่ นับเป็นยูนิตม้า และไม่สนใจเขตควบคุม</Text>		<!-- Silla Unique Ranged Unit. Has +1 [icon:Action_Move] Movement and +3 [icon:Action_Ranged] Bombard Strength. Counts as a Cavalry Unit and ignores Zone of Control. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_HWARANG_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตระยะไกลพิเศษ ระดับ 1 ของชิลลา, +1 แต้มเคลื่อนที่และ +3 พลังต่อสู้ ในการยิงปืนใหญ่ นับเป็นยูนิตม้า และไม่สนใจเขตควบคุม</Text>		<!-- Tier 1 Silla Unique Ranged Unit. Has +1 Movement and +3 Bombard Strength. Counts as a Cavalry Unit and ignores Zone of Control. -->
+			<Text>ยูนิตระยะไกลพิเศษ ระดับ 1 ของชิลลา, +1 [icon:Action_Move] แต้มเคลื่อนที่และ +3 [icon:Action_Ranged] พลังต่อสู้ ในการยิงปืนใหญ่ นับเป็นยูนิตม้า และไม่สนใจเขตควบคุม</Text>		<!-- Tier 1 Silla Unique Ranged Unit. Has +1 [icon:Action_Move] Movement and +3 [icon:Action_Ranged] Bombard Strength. Counts as a Cavalry Unit and ignores Zone of Control. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_HWARANG_2_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตระยะไกลพิเศษ ระดับ 2 ของชิลลา, +1 แต้มเคลื่อนที่และ +3 พลังต่อสู้ ในการยิงปืนใหญ่ นับเป็นยูนิตม้า และไม่สนใจเขตควบคุม</Text>		<!-- Tier 2 Silla Unique Ranged Unit. Has +1 Movement and +3 Bombard Strength. Counts as a Cavalry Unit and ignores Zone of Control. -->
+			<Text>ยูนิตระยะไกลพิเศษ ระดับ 2 ของชิลลา, ++1 [icon:Action_Move] แต้มเคลื่อนที่และ +3 [icon:Action_Ranged] พลังต่อสู้ ในการยิงปืนใหญ่ นับเป็นยูนิตม้า และไม่สนใจเขตควบคุม</Text>		<!-- Tier 2 Silla Unique Ranged Unit. Has +1 [icon:Action_Move] Movement and +3 [icon:Action_Ranged] Bombard Strength. Counts as a Cavalry Unit and ignores Zone of Control. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_SANGDAEDEUNG_NAME" Language="th_TH">
 			<Text>ซังแดดึง</Text>		<!-- Sangdaedeung -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_SANGDAEDEUNG_DESCRIPTION" Language="th_TH">
-			<Text>พ่อค้าพิเศษของชิลลา เมื่อคุณสร้างเส้นทางการค้า รับ +5 [icon:YIELD_GOLD] ทองคำสำหรับระดับความสัมพันธ์ปัจจุบันกับอารยธรรม (ไม่รวมรัฐเมือง) ในความเร็วมาตรฐาน ขั้นต่ำ 5 [icon:YIELD_GOLD] ทองคำ</Text>		<!-- Silla Unique Merchant. When you create a trade route receive +5 [icon:YIELD_GOLD] Gold for the current Relationship Level with the Civilization (does not apply to City-States), on Standard Speed. Minimum 5 [icon:YIELD_GOLD] Gold. -->
+			<Text>พ่อค้าพิเศษของชิลลา เมื่อคุณสร้าง [icon:TRADE_ROUTE] เส้นทางการค้า, รับ +5 [icon:YIELD_GOLD] ทอง สำหรับระดับความสัมพันธ์ปัจจุบันกับผู้นำคนอื่น (บนความเร็วมาตรฐาน, ไม่รวมนครรัฐ) ขั้นต่ำ 5 [icon:YIELD_GOLD] ทอง</Text>		<!-- Silla Unique Merchant. When you create a [icon:TRADE_ROUTE] Trade Route, gain +5 [icon:YIELD_GOLD] Gold for the current Relationship Level with the Leader (On Standard Speed, does not apply to City-States). Minimum 5 [icon:YIELD_GOLD] Gold. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_HWARANG_CULTURE_DESCRIPTION" Language="th_TH">
-			<Text>รับ [icon:YIELD_CULTURE] วัฒนธรรม เท่ากับ 25% ของพลังของยูนิตที่ถูกกำจัด</Text>		<!-- Gain[icon:YIELD_CULTURE] Culture equal to 25% of the defeated Unit's strength. -->
+			<Text>รับ [icon:YIELD_CULTURE] วัฒนธรรม เท่ากับ 25% [icon:NAR_REW_COMBAT] พลังต่อสู้ ของยูนิตที่ถูกกำจัด</Text>		<!-- Gain [icon:YIELD_CULTURE] Culture equal to 25% of the defeated Unit's [icon:NAR_REW_COMBAT] Combat Strength. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_HWARANG_CULTURE_PREVIEW" Language="th_TH">
 			<Text>รับวัฒนธรรมเท่ากับ 25% ของพลังของยูนิตที่ถูกกำจัด</Text>		<!-- Gain Culture equal to 25% of the defeated Unit's strength. -->
