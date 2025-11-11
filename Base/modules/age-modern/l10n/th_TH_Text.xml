@@ -3689,7 +3689,7 @@
 			<Text>+1 [icon:ATTRIBUTE_WILDCARD] คะแนน คุณลักษณะไวลด์การ์ด</Text>		<!-- +1 [icon:ATTRIBUTE_WILDCARD] Wildcard Attribute Point. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_DEMOCRACY_RIFLEMEN_DESCRIPTION" Language="th_TH">
-			<Text>+4 ยูนิตทหารราบ ใน your [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง</Text>		<!-- +4 Infantry Units in your [icon:NOTIFICATION_SELECT_CAPITAL] Capital. -->
+			<Text>+4 ยูนิตทหารราบ ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง</Text>		<!-- +4 Infantry Units in your [icon:NOTIFICATION_SELECT_CAPITAL] Capital. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_FASCISM_LANDSHIP_DESCRIPTION" Language="th_TH">
 			<Text>+3 ยูนิตทหารม้า ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง</Text>		<!-- +3 Cavalry Units in your [icon:NOTIFICATION_SELECT_CAPITAL] Capital. -->
@@ -3929,7 +3929,7 @@
 			<Text>อุตสาหกรรมทางการทหาร</Text>		<!-- Military-Industrial Complex -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_MILITARY_INDUSTRIAL_COMPLEX_DESCRIPTION" Language="th_TH">
-			<Text>+50%[ icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการฝึกยูนิตทหารทุกยูนิต แต่ +1 [icon:YIELD_GOLD] ค่าบำรุงรักษาสำหรับยูนิตทั้งหมด</Text>		<!-- +50% [icon:YIELD_PRODUCTION] Production towards training all Military Units, but +1 [icon:YIELD_GOLD] Gold Maintenance for all Units. -->
+			<Text>+50% [icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการฝึกยูนิตทหารทุกยูนิต แต่ +1 [icon:YIELD_GOLD] ค่าบำรุงรักษาสำหรับยูนิตทั้งหมด</Text>		<!-- +50% [icon:YIELD_PRODUCTION] Production towards training all Military Units, but +1 [icon:YIELD_GOLD] Gold Maintenance for all Units. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_STRATEGIC_RAILWAYS_NAME" Language="th_TH">
 			<Text>การรถไฟเชิงยุทธศาสตร์</Text>		<!-- Strategic Railways -->
@@ -5696,13 +5696,13 @@
 			<Text>[icon:UNIT_ARMY_COMMANDER] ผู้บัญชาการ จะได้รับประสบการณ์เป็นสองเท่า</Text>		<!-- [icon:UNIT_ARMY_COMMANDER]Commanders earn double experience. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_MODERN_3_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:Action_Ranged] พลังต่อสู้ระยะไกล ให้กับยูนิตระยะไกล และยูนิตปิดล้อมเมือง, ในแต่ละ [icon:CITYSTATE]นครรัฐมางทหาร ที่คุณเป็นเจ้านคร</Text>		<!-- +1 [icon:Action_Ranged]Ranged Combat Strength to Ranged and Siege Units for every [icon:CITYSTATE]Militaristic City-State you are Suzerain of. -->
+			<Text>+1 [icon:Action_Ranged] พลังต่อสู้ระยะไกล ให้กับยูนิตระยะไกล และยูนิตปิดล้อมเมือง, ในแต่ละ [icon:CITYSTATE]นครรัฐทางทหาร ที่คุณเป็นเจ้านคร</Text>		<!-- +1 [icon:Action_Ranged]Ranged Combat Strength to Ranged and Siege Units for every [icon:CITYSTATE]Militaristic City-State you are Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_MODERN_4_DESCRIPTION" Language="th_TH">
 			<Text>อนุญาตให้ฝึก [icon:UNIT_PARTISAN]ยูนิตกองโจร, ยูนิตกองโจร แต่ละตัว มีต้นทุนการผลิตที่สูงกว่าล่าสุดเล็กน้อย, +5 [icon:NAR_REW_COMBAT]พลังต่อสู้ ต่ออารยธรรมที่มี [icon:NAR_REW_IDEOLOGY]อุดมการณ์ ที่แตกต่างกัน, +10 [icon:Action_Heal] ฟื้นฟู ในดินแดนที่เป็นเจ้าของ</Text>		<!-- Allows the training of the [icon:UNIT_PARTISAN]Partisan Land Unit. Each Partisan is slightly more expensive than the last to train. It has +5 [icon:NAR_REW_COMBAT]Combat Strength against Civilizations with a different [icon:NAR_REW_IDEOLOGY]Ideology and +10 [icon:Action_Heal]Healing in owned territory. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_MODERN_5_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:NAR_REW_COMBAT]พลังต่อสู้ ไปยังยูนิตทหารราบ และยูนิตทางน้ำ, ในแต่ละ [icon:CITYSTATE]นครรัฐมางทหาร ที่คุณเป็นเจ้านคร</Text>		<!-- +1 [icon:NAR_REW_COMBAT]Combat Strength to Infantry and Naval Units for every [icon:CITYSTATE]Militaristic City-State you are Suzerain of. -->
+			<Text>+1 [icon:NAR_REW_COMBAT]พลังต่อสู้ ไปยังยูนิตทหารราบ และยูนิตทางน้ำ, ในแต่ละ [icon:CITYSTATE]นครรัฐทางทหาร ที่คุณเป็นเจ้านคร</Text>		<!-- +1 [icon:NAR_REW_COMBAT]Combat Strength to Infantry and Naval Units for every [icon:CITYSTATE]Militaristic City-State you are Suzerain of. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_MODERN_6_DESCRIPTION" Language="th_TH">
 			<Text>อนุญาตให้สร้าง พื้นที่พัฒนาพิเศษ พิพิธภัณฑ์กลางแจ้ง [n]พิพิธภัณฑ์กลางแจ้ง ให้ +5[icon:YIELD_CULTURE] วัฒนธรรม +2[icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับแต่ละช่อง เขตร้อน ที่อยู่ติดกัน +2[icon:YIELD_CULTURE] วัฒนธรรม สำหรับแต่ละช่อง ทุนดรา ที่อยู่ติดกัน และ +2[icon:YIELD_GOLD] ทอง สำหรับแต่ละ ช่อง ทะเลทราย ที่อยู่ติดกัน, ต้องวางบนพื้นที่พัฒนา, หนึ่งต่อถิ่นฐาน</Text>		<!-- Allows the construction of the Open-Air Museum Unique Improvement. [n]The Open-Air Museum provides +5[icon:YIELD_CULTURE] Culture. +2[icon:YIELD_SCIENCE] Science for each adjacent Tropical tile, +2[icon:YIELD_CULTURE] Culture for each adjacent Tundra tile, and +2[icon:YIELD_GOLD] Gold for each adjacent Desert tile. Must be placed on an existing Improvement. One Per Settlement. -->
