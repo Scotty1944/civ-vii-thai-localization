@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="sayyida-al-hurra" version="1"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>LOC_MODULE_LEADER_SAYYIDA_AL_HURRA_NAME</Name>
+		<Description>LOC_MODULE_LEADER_SAYYIDA_AL_HURRA_DESCRIPTION</Description>
+		<Authors>LOC_AUTHORS_FIRAXIS</Authors>
+		<EnabledByDefault>1</EnabledByDefault>
+		<Package>Panda</Package>
+	</Properties>
+	<Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+	</Dependencies>
+	<ActionCriteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-current">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-current">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<ActionGroup id="base-game-main-sayyida-al-hurra" scope="game" criteria="always">
+			<Actions>
+				<UpdateArt>
+					<Item>sayyida-al-hurra</Item>
+					<Item>sayyida-al-hurra-shell</Item>
+				</UpdateArt>
+				<UpdateIcons>
+					<Item>data/icons/leader-icons.xml</Item>
+				</UpdateIcons>
+				<UpdateColors>
+					<Item>data/playercolors.xml</Item>
+				</UpdateColors>
+				<UpdateDatabase>
+					<Item>data/civilizations-legacy.xml</Item>
+					<Item>data/leaders.xml</Item>
+					<Item>data/leaders-gameeffects.xml</Item>
+					<Item>data/loading-info.xml</Item>
+					<Item>data/mementos.xml</Item>
+					<Item>data/mementos-gameeffects.xml</Item>
+					<Item>data/metaprogression-gameeffects.xml</Item>
+					<Item>data/metaprogression.xml</Item>
+					<Item>data/narrative-stories.xml</Item>
+					<Item>data/narrative-stories-gameeffects.xml</Item>
+					<Item>data/progression-trees-common-gameeffects.xml</Item>
+					<Item>data/progression-trees-common.xml</Item>
+					<Item>data/unlocks.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/LeaderText.xml</Item>
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/en_us/AttributesText.xml</Item>
+					<Item>text/en_us/MementoText.xml</Item>
+					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
+					<Item>text/en_us/ModuleText.xml</Item>
+					<Item>text/en_us/UnlockableRewardsText.xml</Item>
+					<Item>text/en_us/LeaderDialog_Sayyida_al_hurra.xml</Item>
+					<Item>text/en_us/NarrativeStoriesText.xml</Item>
+					<Item>text/en_us/CivilopediaText.xml</Item>
+
+					<!-- Items below were generated via our loc tool. -->
+					<Item>l10n/ModuleText.xml</Item>
+					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
+					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
+					<Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>
+					<Item locale="it_IT">l10n/it_IT_Text.xml</Item>
+					<Item locale="ja_JP">l10n/ja_JP_Text.xml</Item>
+					<Item locale="ko_KR">l10n/ko_KR_Text.xml</Item>
+					<Item locale="pl_PL">l10n/pl_PL_Text.xml</Item>
+					<Item locale="pt_BR">l10n/pt_BR_Text.xml</Item>
+					<Item locale="ru_RU">l10n/ru_RU_Text.xml</Item>
+					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
+					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
+				</UpdateText>
+				<UpdateIcons>
+					<Item>data/icons/card-icons.xml</Item>
+				</UpdateIcons>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-antiquity-current" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateArt>
+					<Item>sayyida-al-hurra</Item>
+					<Item>sayyida-al-hurra-shell</Item>
+				</UpdateArt>
+				<UpdateDatabase>
+					<Item>data/civilizations-antiquity.xml</Item>
+					<Item>data/leaders-antiquity.xml</Item>
+					<Item>data/narrative-stories-gameeffects-antiquity.xml</Item>
+					<Item>data/narrative-stories-antiquity.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-exploration-current" scope="game" criteria="exploration-age-current">
+			<Actions>
+				<UpdateArt>
+					<Item>sayyida-al-hurra</Item>
+					<Item>sayyida-al-hurra-shell</Item>
+				</UpdateArt>
+				<UpdateDatabase>
+					<Item>data/civilizations-exploration.xml</Item>
+					<Item>data/narrative-stories-gameeffects-exploration.xml</Item>
+					<Item>data/narrative-stories-exploration.xml</Item>
+					<Item>data/age-transition-advanced-start-exploration.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/AdvancedStartText-exploration.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-modern-current" scope="game" criteria="modern-age-current">
+			<Actions>
+				<UpdateArt>
+					<Item>sayyida-al-hurra</Item>
+					<Item>sayyida-al-hurra-shell</Item>
+				</UpdateArt>
+				<UpdateDatabase>
+					<Item>data/civilizations-modern.xml</Item>
+					<Item>data/narrative-stories-gameeffects-modern.xml</Item>
+					<Item>data/narrative-stories-modern.xml</Item>
+					<Item>data/age-transition-advanced-start-modern.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/AdvancedStartText-modern.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-sayyida-al-hurra" scope="shell" criteria="always">
+			<Actions>
+				<UpdateArt>
+					<Item>sayyida-al-hurra-shell</Item>
+				</UpdateArt>
+				<UpdateIcons>
+					<Item>data/icons/leader-icons.xml</Item>
+				</UpdateIcons>
+				<UpdateColors>
+					<Item>data/playercolors.xml</Item>
+				</UpdateColors>
+				<UpdateDatabase>
+					<Item>config/config.xml</Item>
+					<Item>config/metaprogression.xml</Item>
+					<Item>config/unlockableRewards.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/LeaderText.xml</Item>
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/en_us/MementoText.xml</Item>
+					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
+					<Item>text/en_us/ModuleText.xml</Item>
+					<Item>text/en_us/UnlockableRewardsText.xml</Item>
+					<Item>text/en_us/LeaderDialog_Sayyida_al_hurra.xml</Item>
+					<Item>text/en_us/CivilopediaText.xml</Item>
+
+					<!-- Items below were generated via our loc tool. -->
+					<Item>l10n/ModuleText.xml</Item>
+					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
+					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
+					<Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>
+					<Item locale="it_IT">l10n/it_IT_Text.xml</Item>
+					<Item locale="ja_JP">l10n/ja_JP_Text.xml</Item>
+					<Item locale="ko_KR">l10n/ko_KR_Text.xml</Item>
+					<Item locale="pl_PL">l10n/pl_PL_Text.xml</Item>
+					<Item locale="pt_BR">l10n/pt_BR_Text.xml</Item>
+					<Item locale="ru_RU">l10n/ru_RU_Text.xml</Item>
+					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
+					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+	<LocalizedText>
+		<File>text/en_us/ModuleText.xml</File>
+		<File>l10n/ModuleText.xml</File>
+	</LocalizedText>
+</Mod>
