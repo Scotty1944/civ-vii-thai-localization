@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Mod id="friedrich-xerxes-alt" version="1"
-	xmlns="ModInfo">
+<?xml version='1.0' encoding='utf-8'?>
+<Mod xmlns="ModInfo" id="friedrich-xerxes-alt" version="1">
 	<Properties>
 		<Name>LOC_MODULE_FRIEDRICH_XERXES_ALT_NAME</Name>
 		<Description>LOC_MODULE_FRIEDRICH_XERXES_ALT_DESCRIPTION</Description>
@@ -8,11 +7,11 @@
 		<Package>DLC</Package>
 	</Properties>
 	<Dependencies>
-		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME" />
 	</Dependencies>
 	<ActionCriteria>
 		<Criteria id="always">
-			<AlwaysMet></AlwaysMet>
+			<AlwaysMet />
 		</Criteria>
 		<Criteria id="antiquity-age-current">
 			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
@@ -68,8 +67,6 @@
 					<Item>text/en_us/MementoText.xml</Item>
 					<Item>text/en_us/ProfileText.xml</Item>
 					<Item>text/en_us/UnlockableRewardsText.xml</Item>
-
-					<!-- Items below were generated via our loc tool. -->
 					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
 					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
 					<Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>
@@ -81,8 +78,8 @@
 					<Item locale="ru_RU">l10n/ru_RU_Text.xml</Item>
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
-
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
+					
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
@@ -160,8 +157,6 @@
 					<Item>text/en_us/MementoText.xml</Item>
 					<Item>text/en_us/ProfileText.xml</Item>
 					<Item>text/en_us/UnlockableRewardsText.xml</Item>
-
-					<!-- Items below were generated via our loc tool. -->
 					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
 					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
 					<Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>
@@ -173,8 +168,8 @@
 					<Item locale="ru_RU">l10n/ru_RU_Text.xml</Item>
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
-
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
+					
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
