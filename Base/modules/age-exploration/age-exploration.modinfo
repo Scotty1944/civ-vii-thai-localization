@@ -42,6 +42,13 @@
 				</UpdateIcons>
 			</Actions>
 		</ActionGroup>
+		<ActionGroup id="age-exploration-gameplay-static" scope="game" criteria="always">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/gameplay-static.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
 		<ActionGroup id="age-exploration-persist" scope="game" criteria="exploration-age-persist">
 			<Actions>
 				<UpdateDatabase>
@@ -71,7 +78,6 @@
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-					
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
@@ -81,6 +87,7 @@
 					<Item>age-exploration</Item>
 				</UpdateArt>
 				<UpdateDatabase>
+					<Item>data/age-active.xml</Item>
 					<Item>data/gameplay.xml</Item>
 					<Item>data/AI_Exploration.xml</Item>
 					<Item>data/advanced-start-gameeffects.xml</Item>

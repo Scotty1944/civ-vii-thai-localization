@@ -9,6 +9,7 @@
 	</Properties>
 	<References>
 		<Mod id="friedrich-xerxes-alt" title="LOC_MODULE_FRIEDRICH_XERXES_ALT_NAME" />
+		<Mod id="gilgamesh" title="LOC_MODULE_GILGAMESH_NAME" />
 	</References>
 	<Dependencies>
 		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME" />
@@ -30,6 +31,10 @@
 		</Criteria>
 		<Criteria id="antiquity-age-xerxes">
 			<ModInUse>friedrich-xerxes-alt</ModInUse>
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="antiquity-age-gilgamesh">
+			<ModInUse>gilgamesh</ModInUse>
 			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
 		</Criteria>
 		<Criteria id="always">
@@ -235,6 +240,13 @@
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
+		<ActionGroup id="age-antiquity-gilgamesh" scope="game" criteria="antiquity-age-gilgamesh">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-antiquity-gilgamesh.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
 		<ActionGroup id="shell-assyria" scope="shell" criteria="always">
 			<Actions>
 				<UpdateArt>
@@ -269,7 +281,6 @@
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-					
 				</UpdateText>
 			</Actions>
 		</ActionGroup>

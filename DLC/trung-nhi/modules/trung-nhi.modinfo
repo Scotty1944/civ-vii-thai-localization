@@ -56,15 +56,11 @@
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-					
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="age-exploration-main-trung-nhi" scope="game" criteria="exploration-age-current">
 			<Actions>
-				<UpdateArt>
-					<Item>trung-nhi-shell</Item>
-				</UpdateArt>
 				<UpdateDatabase>
 					<Item>data/age-transition-advanced-start-exploration.xml</Item>
 					<Item>data/age-transition-advanced-start-exploration-gameeffects.xml</Item>
@@ -75,9 +71,6 @@
 		</ActionGroup>
 		<ActionGroup id="age-modern-main-trung-nhi" scope="game" criteria="modern-age-current">
 			<Actions>
-				<UpdateArt>
-					<Item>trung-nhi-shell</Item>
-				</UpdateArt>
 				<UpdateDatabase>
 					<Item>data/age-transition-advanced-start-modern.xml</Item>
 					<Item>data/age-transition-advanced-start-modern-gameeffects.xml</Item>
@@ -91,9 +84,6 @@
 				<UpdateIcons>
 					<Item>data/icons/leader-icons.xml</Item>
 				</UpdateIcons>
-				<UpdateArt>
-					<Item>trung-nhi-shell</Item>
-				</UpdateArt>
 				<UpdateText>
 					<Item>text/en_us/ModuleText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
@@ -110,7 +100,6 @@
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-					
 				</UpdateText>
 			</Actions>
 		</ActionGroup>

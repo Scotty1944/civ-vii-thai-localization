@@ -71,13 +71,13 @@
 					<Item ecosystem="game-center">text/en_us/MPSharedText_ConnectionLost_AppleArcade.xml</Item>
 					<Item ecosystem="game-center">text/en_us/UIShellText_Multiplayer_AppleArcade.xml</Item>
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-					
 				</UpdateText>
 				<UIScripts>
 					<Item>ui/accessibility/tts-manager.js</Item>
 					<Item>ui/components/index.js</Item>
 					<Item>ui/dialog-box/screen-dialog-box.js</Item>
 					<Item>ui/mouse-guard/mouse-guard.js</Item>
+					<Item>ui/modding-registry-handler/modding-registry-handler.js</Item>
 					<Item>ui/mp-chat/screen-mp-chat.js</Item>
 					<Item>ui/mp-chat/emoticon-panel.js</Item>
 					<Item>ui/mp-chat/send-to-panel.js</Item>
@@ -161,6 +161,7 @@
 					<Item>ui-next/sandbox/sandbox.html</Item>
 					<Item>ui-next/sandbox/scratchpad.html</Item>
 					<Item>ui-next/sandbox/components-browser/components-browser.html</Item>
+					<Item>ui-next/reference/text-scratchpad/text-scratchpad.html</Item>
 				</UIShortcuts>
 				<ImportFiles>
 					<Item>ui/cohtml.js</Item>
@@ -226,7 +227,6 @@
 					<Item platform="XboxScarlett">text/en_us/InputText_ThumbSticks_Microsoft.xml</Item>
 					<Item ecosystem="game-center">text/en_us/InputText_CenterCursor_AppleArcade.xml</Item>
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-					
 				</UpdateText>
 				<UIShortcuts>
 					<Item>ui/debug/html-preview.html</Item>
@@ -237,6 +237,7 @@
 					<Item>ui/reference/movie-browser.html</Item>
 					<Item>ui-next/sandbox/sandbox.html</Item>
 					<Item>ui-next/sandbox/components-browser/components-browser.html</Item>
+					<Item>ui-next/reference/text-scratchpad/text-scratchpad.html</Item>
 				</UIShortcuts>
 				<ImportFiles>
 					<Item>ui/cohtml.js</Item>

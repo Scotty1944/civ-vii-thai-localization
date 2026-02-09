@@ -13,6 +13,7 @@
 	<References>
 		<Mod id="friedrich-xerxes-alt" title="LOC_MODULE_FRIEDRICH_XERXES_ALT_NAME" />
 		<Mod id="assyria" title="LOC_MODULE_ASSYRIA_NAME" />
+		<Mod id="gilgamesh" title="LOC_MODULE_GILGAMESH_NAME" />
 	</References>
 	<ActionCriteria>
 		<Criteria id="antiquity-age-current">
@@ -37,9 +38,22 @@
 		<Criteria id="xerxes-alt-current-shell">
 			<ModIsEnabled>friedrich-xerxes-alt</ModIsEnabled>
 		</Criteria>
-		<Criteria id="assyria-current">
+		<Criteria id="modern-age-gilgamesh">
+			<ModInUse>gilgamesh</ModInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="gilgamesh-current">
+			<ModInUse>gilgamesh</ModInUse>
+		</Criteria>
+		<Criteria id="gilgamesh-current-shell">
+			<ModIsEnabled>gilgamesh</ModIsEnabled>
+		</Criteria>
+		<Criteria id="antiquity-age-assyria">
 			<ModInUse>assyria</ModInUse>
 			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="assyria-current-shell">
+			<ModIsEnabled>assyria</ModIsEnabled>
 		</Criteria>
 		<Criteria id="always">
 			<AlwaysMet />
@@ -212,6 +226,13 @@
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
+		<ActionGroup id="base-game-main-qajar-gilgamesh" scope="game" criteria="gilgamesh-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/unlocks-gilgamesh.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
 		<ActionGroup id="age-antiquity-main-qajar" scope="game" criteria="antiquity-age-current">
 			<Actions>
 				<UpdateDatabase>
@@ -219,7 +240,7 @@
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="age-antiquity-assyria-qajar" scope="game" criteria="assyria-current">
+		<ActionGroup id="age-antiquity-assyria-qajar" scope="game" criteria="antiquity-age-assyria">
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/unlocks-antiquity-assyria.xml</Item>
@@ -245,6 +266,13 @@
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/civilizations-modern-xerxes.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-modern-gilgamesh-current" scope="game" criteria="modern-age-gilgamesh">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-modern-gilgamesh.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -275,6 +303,20 @@
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
+		<ActionGroup id="shell-qajar-gilgamesh" scope="shell" criteria="gilgamesh-current-shell">
+			<Actions>
+				<UpdateDatabase>
+					<Item>config/config-gilgamesh.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-qajar-assyria" scope="shell" criteria="assyria-current-shell">
+			<Actions>
+				<UpdateDatabase>
+					<Item>config/config-assyria.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
 		<ActionGroup id="shell-qajar" scope="shell" criteria="always">
 			<Actions>
 				<UpdateArt>
@@ -285,7 +327,6 @@
 				</UpdateIcons>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
-					<Item>config/config-assyria.xml</Item>
 					<Item>config/metaprogression.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
@@ -310,7 +351,6 @@
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-					
 				</UpdateText>
 			</Actions>
 		</ActionGroup>

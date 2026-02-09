@@ -39,6 +39,13 @@
 				</UpdateIcons>
 			</Actions>
 		</ActionGroup>
+		<ActionGroup id="age-antiquity-gameplay-static" scope="game" criteria="always">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/gameplay-static.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
 		<ActionGroup id="age-antiquity-persist" scope="game" criteria="antiquity-age-persist">
 			<Actions>
 				<UpdateDatabase>
@@ -66,7 +73,6 @@
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-					
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
@@ -76,6 +82,7 @@
 					<Item>age-antiquity</Item>
 				</UpdateArt>
 				<UpdateDatabase>
+					<Item>data/age-active.xml</Item>
 					<Item>data/gameplay.xml</Item>
 					<Item>data/AI_Antiquity.xml</Item>
 					<Item>data/advisory.xml</Item>
@@ -1096,7 +1103,6 @@
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-					
 				</UpdateText>
 				<UpdateIcons>
 					<Item>data/icons/building-icons.xml</Item>

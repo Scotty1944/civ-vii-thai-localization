@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Mod id="sayyida-al-hurra" version="1"
-	xmlns="ModInfo">
+<?xml version='1.0' encoding='utf-8'?>
+<Mod xmlns="ModInfo" id="sayyida-al-hurra" version="1">
 	<Properties>
 		<Name>LOC_MODULE_LEADER_SAYYIDA_AL_HURRA_NAME</Name>
 		<Description>LOC_MODULE_LEADER_SAYYIDA_AL_HURRA_DESCRIPTION</Description>
@@ -9,7 +8,7 @@
 		<Package>Panda</Package>
 	</Properties>
 	<Dependencies>
-		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME" />
 	</Dependencies>
 	<ActionCriteria>
 		<Criteria id="antiquity-age-current">
@@ -22,7 +21,7 @@
 			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
 		<Criteria id="always">
-			<AlwaysMet></AlwaysMet>
+			<AlwaysMet />
 		</Criteria>
 	</ActionCriteria>
 	<ActionGroups>
@@ -65,8 +64,6 @@
 					<Item>text/en_us/LeaderDialog_Sayyida_al_hurra.xml</Item>
 					<Item>text/en_us/NarrativeStoriesText.xml</Item>
 					<Item>text/en_us/CivilopediaText.xml</Item>
-
-					<!-- Items below were generated via our loc tool. -->
 					<Item>l10n/ModuleText.xml</Item>
 					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
 					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
@@ -160,8 +157,6 @@
 					<Item>text/en_us/UnlockableRewardsText.xml</Item>
 					<Item>text/en_us/LeaderDialog_Sayyida_al_hurra.xml</Item>
 					<Item>text/en_us/CivilopediaText.xml</Item>
-
-					<!-- Items below were generated via our loc tool. -->
 					<Item>l10n/ModuleText.xml</Item>
 					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
 					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>

@@ -24,12 +24,14 @@
 		<ActionGroup id="base-game-main" scope="game" criteria="always">
 			<Actions>
 				<ImportFiles>
+					<Item>scripts/age-transition-post-load.js</Item>
 					<Item>ui/loading/root-loading.html</Item>
 					<Item>ui/root-game.html</Item>
 					<Item>ui/unit-flags/unit-info.js</Item>
 				</ImportFiles>
 				<UIScripts>
 					<Item>ui/action/panel-action.js</Item>
+					<Item>ui/advice/advice-manager.js</Item>
 					<Item>ui/advanced-start/model-advanced-start.js</Item>
 					<Item>ui/advanced-start/screen-advanced-start.js</Item>
 					<Item>
@@ -63,7 +65,6 @@
 					<Item>ui/chooser-item/chooser-item.js</Item>
 					<Item>ui/constructible-details/constructible-details.js</Item>
 					<Item>ui/tree-chooser-item/tree-chooser-item.js</Item>
-					<Item>ui/culture-tree-chooser/screen-culture-tree-chooser.js</Item>
 					<Item>ui/crisis-meter/crisis-meter.js</Item>
 					<Item>ui/diplo-ribbon/panel-diplo-ribbon.js</Item>
 					<Item>ui/diplo-ribbon/panel-yield-banner.js</Item>
@@ -84,6 +85,7 @@
 					<Item>ui/endgame/model-endgame.js</Item>
 					<Item>ui/endgame/screen-endgame.js</Item>
 					<Item>ui/espionage-details/screen-espionage-details.js</Item>
+					<Item>ui/general-appeal-legend/panel-general-appeal-legend.js</Item>
 					<Item>ui/victory-progress/screen-victory-progress.js</Item>
 					<Item>ui/victory-progress/screen-victory-achieved.js</Item>
 					<Item>ui/victory-progress/panel-advisor-victory.js</Item>
@@ -99,7 +101,6 @@
 					<Item>ui/end-results/end-results.js</Item>
 					<Item>ui/pantheon-chooser/panel-religion-chooser.js</Item>
 					<Item>ui/settler-legend/panel-settler-legend.js</Item>
-					<Item>ui/tech-tree-chooser/screen-tech-tree-chooser.js</Item>
 					<Item>ui/trade-route-chooser/trade-route-banner.js</Item>
 					<Item>ui/trade-route-chooser/trade-route-chooser.js</Item>
 					<Item>ui/trade-route-chooser/trade-routes-model.js</Item>
@@ -169,6 +170,7 @@
 					<Item>ui/lenses/layer/city-borders-layer.js</Item>
 					<Item>ui/lenses/layer/city-growth-improvements-layer.js</Item>
 					<Item>ui/lenses/layer/culture-borders-layer.js</Item>
+					<Item>ui/lenses/layer/general-appeal-layer.js</Item>
 					<Item>ui/lenses/layer/hexgrid-layer.js</Item>
 					<Item>ui/lenses/layer/random-events-layer.js</Item>
 					<Item>ui/lenses/layer/operation-target-layer.js</Item>
@@ -186,6 +188,7 @@
 					<Item>ui/lenses/lens/default-lens.js</Item>
 					<Item>ui/lenses/lens/diplomacy-lens.js</Item>
 					<Item>ui/lenses/lens/founder-lens.js</Item>
+					<Item>ui/lenses/lens/general-appeal-lens.js</Item>
 					<Item>ui/lenses/lens/settler-lens.js</Item>
 					<Item>ui/lenses/lens/trade-lens.js</Item>
 					<Item>ui/lenses/lens/continent-lens.js</Item>
@@ -234,14 +237,14 @@
 					<Item>ui/system-bar/panel-system-bar.js</Item>
 					<Item>ui/system-bar/panel-system-button.js</Item>
 					<Item>ui/tech-civic-complete/screen-tech-civic-complete.js</Item>
-					<Item>ui/tech-tree-chooser/screen-tech-tree-chooser.js</Item>
+					<Item>ui-next/screens/choosers/tech-chooser/tech-chooser.js</Item>
+					<Item>ui-next/screens/choosers/culture-chooser/culture-chooser.js</Item>
 					<Item>ui/tech-tree/screen-tech-tree.js</Item>
 					<Item>ui/tree-grid/tree-card.js</Item>
 					<Item>ui/tree-grid/tree-line.js</Item>
 					<Item>ui/tree-grid/tree-detail.js</Item>
 					<Item>ui/tooltips/plot-tooltip.js</Item>
 					<Item>ui/tooltips/relationship-tooltip.js</Item>
-					<Item>ui/tooltips/tech-civic-tooltip.js</Item>
 					<Item>ui/tooltips/advanced-start-tooltip.js</Item>
 					<Item>ui/tooltips/settlement-recommendation-tooltip.js</Item>
 					<Item>ui/tooltips/random-event-tooltip.js</Item>
@@ -555,7 +558,6 @@
                         text/en_us/AttributesText_LegendUnlocks_AppleArcade.xml</Item>
 					<Item ecosystem="game-center">text/en_us/AdvancedOptionText_LegendPathsWarning_AppleArcade.xml</Item>
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-					
 				</UpdateText>
 				<UpdateArt>
 					<Item>Civ7</Item>
@@ -965,6 +967,7 @@
 				</UpdateIcons>
 				<UpdateText>
 					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/Civilopedia_Concepts_Text.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/LeaderText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
@@ -1017,8 +1020,6 @@
 					<Item platform="Ounce">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
 					<Item platform="PS4">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
 					<Item platform="PS5">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
-					<Item platform="XboxOne">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
-					<Item platform="XboxScarlett">text/en_us/ShellText_AdditionalContent_Console.xml</Item>
 					<Item platform="Switch">text/en_us/ShellText_RestrictedContent.xml</Item>
 					<Item platform="Ounce">text/en_us/ShellText_RestrictedContent.xml</Item>
 					<Item platform="PS4">text/en_us/ShellText_RestrictedContent.xml</Item>
@@ -1029,7 +1030,6 @@
                         text/en_us/AttributesText_LegendUnlocks_AppleArcade.xml</Item>
 					<Item ecosystem="game-center">text/en_us/AdvancedOptionText_LegendPathsWarning_AppleArcade.xml</Item>
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-					
 				</UpdateText>
 				<ImportFiles>
 					<Item locale="de_DE">l10n/de_DE/intro.vtt</Item>
