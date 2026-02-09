@@ -1343,7 +1343,7 @@
 			<Text>[TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารทั้งหมด[/TIP] ได้รับคะแนน +1 [icon:YIELD_FOOD] โบนัสความใกล้เคียงสำหรับ [icon:RADIAL_RESOURCES][TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]ทรัพยากร[/TIP]</Text>		<!-- All [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive a +1 [icon:YIELD_FOOD] Food adjacency for [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resources[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_MISSISSIPPIAN_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI][icon:CITY_BUILDING_LIST] อาคารทั้งหมดได้รับ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]โบนัสความใกล้เคียงด้านอาหาร[/TIP] [B]+1 [icon:YIELD_FOOD] สำหรับ [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]ทรัพยากร[/TIP][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]เขาตำหนักพระสงฆ์[/B].[/BLIST]</Text>		<!-- [BLIST][LI]All [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive a +1 [icon:YIELD_FOOD] Food adjacency for [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resources[/TIP].[LI]+30% [icon:YIELD_PRODUCTION] Production towards constructing Monks Mound.[/BLIST] -->
+			<Text>[BLIST][LI][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารทั้งหมด[/TIP] ได้รับโบนัสความใกล้เคียงด้านอาหาร, [B]+1 [icon:YIELD_FOOD] สำหรับ [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]ทรัพยากร[/TIP][LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]เขาตำหนักพระสงฆ์[/B].[/BLIST]</Text>		<!-- [BLIST][LI]All [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive a +1 [icon:YIELD_FOOD] Food adjacency for [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resources[/TIP].[LI]+30% [icon:YIELD_PRODUCTION] Production towards constructing Monks Mound.[/BLIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_MISSISSIPPIAN_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเกี่ยวข้องกับ [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP] ของมิสซิสซิปปี้</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Mississippian's associated [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP]. -->
@@ -2489,7 +2489,7 @@
 			<Text>สถาบันการศึกษา</Text>		<!-- Academy -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ACADEMY_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_SCIENCE] วิทยาศาสตร์, มีช่อง 3 [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_CODEX_TOOLTIP]คัมภีร์[/TIP] ช่อง, อาคารวิทยาศาสตร์ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]ยุคโบราณ[/TIP]</Text>		<!-- +4 [icon:YIELD_SCIENCE] Science. Has 3 [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_CODEX_TOOLTIP]Codex[/TIP] slots. Antiquity Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+			<Text>+4 [icon:YIELD_SCIENCE] วิทยาศาสตร์, มีช่อง 3 [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_CODEX_TOOLTIP]คัมภีร์[/TIP] ช่อง, [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์ ยุคโบราณ[/TIP]</Text>		<!-- +4 [icon:YIELD_SCIENCE] Science. Has 3 [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_CODEX_TOOLTIP]Codex[/TIP] slots. Antiquity Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ACADEMY_TOOLTIP" Language="th_TH">
 			<Text>เอฟเฟค: มีช่อง [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_CODEX_TOOLTIP]คัมภีร์[/TIP] 3 ช่อง</Text>		<!-- Effect: Has 3 [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_CODEX_TOOLTIP]Codex[/TIP] slots. -->
@@ -2498,7 +2498,7 @@
 			<Text>แท่นบูชา</Text>		<!-- Altar -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ALTAR_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:YIELD_HAPPINESS] ความสุข, รับประโยชน์และ [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]โบนัสคลังสินค้า[/TIP] ตามเทพเจ้าที่คุณเลือก [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_PANTHEON_TOOLTIP]เทพเจ้า[/TIP], อาคารความสุข [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]ในยุคโบราณ[/TIP], สามารถซื้อได้ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP]</Text>		<!-- +3 [icon:YIELD_HAPPINESS] Happiness. Provides benefits and [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] bonuses based on your chosen [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_PANTHEON_TOOLTIP]Pantheon[/TIP]. Antiquity Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. Can be purchased in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP]. -->
+			<Text>+3 [icon:YIELD_HAPPINESS] ความสุข, รับประโยชน์และ [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]โบนัสคลังสินค้า[/TIP] ตามเทพเจ้าที่คุณเลือก [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_PANTHEON_TOOLTIP]เทพเจ้า[/TIP], [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านความสุข ยุคโบราณ[/TIP], สามารถซื้อได้ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP]</Text>		<!-- +3 [icon:YIELD_HAPPINESS] Happiness. Provides benefits and [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] bonuses based on your chosen [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_PANTHEON_TOOLTIP]Pantheon[/TIP]. Antiquity Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. Can be purchased in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ALTAR_TOOLTIP" Language="th_TH">
 			<Text>Effect: มอบประโยชน์และ [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]โบนัสคลังสินค้า[/TIP] ตาม [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_PANTHEON_TOOLTIP]เทพเจ้าที่คุณเลือก[/TIP][n]สามารถซื้อได้ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP]</Text>		<!-- Effect: Provides benefits and [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] bonuses based on your chosen [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_PANTHEON_TOOLTIP]Pantheon[/TIP].[n]Can be purchased in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP]. -->
@@ -2507,7 +2507,7 @@
 			<Text>โรงละครกลางแจ้ง</Text>		<!-- Amphitheater -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_AMPHITHEATER_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_CULTURE] วัฒนธรรม, อาคารวัฒนธรรม [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]ยุคโบราณ[/TIP], +10% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อ [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP]</Text>		<!-- +4 [icon:YIELD_CULTURE] Culture. Antiquity Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. +10% [icon:YIELD_PRODUCTION] Production towards [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. -->
+			<Text>+4 [icon:YIELD_CULTURE] วัฒนธรรม, [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรม ยุคโบราณ[/TIP], +10% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อ [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP]</Text>		<!-- +4 [icon:YIELD_CULTURE] Culture. Antiquity Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. +10% [icon:YIELD_PRODUCTION] Production towards [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_AMPHITHEATER_TOOLTIP" Language="th_TH">
 			<Text>เอฟเฟค: +10% [icon:YIELD_PRODUCTION] ไปยัง [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP]</Text>		<!-- Effect: +10% [icon:YIELD_PRODUCTION] towards [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. -->
@@ -2534,7 +2534,7 @@
 			<Text>สังเวียน</Text>		<!-- Arena -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ARENA_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_HAPPINESS] ความสุข, อาคารความสุข [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]ยุคโบราณ[/TIP], +1 [icon:YIELD_HAPPINESS] ความสุข บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]ย่าน[/TIP]</Text>		<!-- +4 [icon:YIELD_HAPPINESS] Happiness. Antiquity Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. +1 [icon:YIELD_HAPPINESS] Happiness on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP]. -->
+			<Text>+4 [icon:YIELD_HAPPINESS] ความสุข, [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านความสุข ยุคโบราณ[/TIP], +1 [icon:YIELD_HAPPINESS] ความสุข บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]ย่าน[/TIP]</Text>		<!-- +4 [icon:YIELD_HAPPINESS] Happiness. Antiquity Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. +1 [icon:YIELD_HAPPINESS] Happiness on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ARENA_TOOLTIP" Language="th_TH">
 			<Text>Effect: +1[icon:YIELD_HAPPINESS] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]ย่าน[/TIP]</Text>		<!-- Effect: +1 [icon:YIELD_HAPPINESS] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP]. -->
@@ -2543,16 +2543,16 @@
 			<Text>ค่ายทหาร</Text>		<!-- Barracks -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BARRACKS_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต, อาคารทหาร ยุคโบราณ, [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]ยูนิต[/TIP]ภาคพื้นที่ฝึกในถิ่นฐานนี้จะปรากฏที่ตำแหน่งของ [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารนี้[/TIP], +10% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อ [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]ยูนิต[/TIP]</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production. Antiquity Military [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]Land Units[/TIP] trained in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] will spawn at this [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building's[/TIP] location. +10% [icon:YIELD_PRODUCTION] Production towards [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]Land Units[/TIP]. -->
+			<Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต, [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทหาร ยุคโบราณ[/TIP], [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]ยูนิต[/TIP]ภาคพื้นที่ฝึกในถิ่นฐานนี้จะปรากฏที่ตำแหน่งของ [icon:CITY_BUILDING_LIST] อาคารนี้, +10% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อ [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]ยูนิต[/TIP]</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production. Antiquity Military [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]Land Units[/TIP] trained in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] will spawn at this [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building's[/TIP] location. +10% [icon:YIELD_PRODUCTION] Production towards [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]Land Units[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BARRACKS_TOOLTIP" Language="th_TH">
-			<Text>เอฟเฟค: [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]ยูนิตภาคพื้น[/TIP] ที่ฝึกใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] นี้จะปรากฏที่ตำแหน่งของ [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารนี้[/TIP], +10% [icon:YIELD_PRODUCTION]ไปยัง [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]ยูนิตภาคพื้น[/TIP]</Text>		<!-- Effect: [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]Land Units[/TIP] trained in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] will spawn at this [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building's[/TIP] location. +10% [icon:YIELD_PRODUCTION]towards [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]Land Units[/TIP]. -->
+			<Text>เอฟเฟค: [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]ยูนิตภาคพื้น[/TIP] ที่ฝึกใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] นี้จะปรากฏที่ตำแหน่งของ [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารนี้[/TIP], +10% [icon:YIELD_PRODUCTION] ไปยัง [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]ยูนิตภาคพื้น[/TIP]</Text>		<!-- Effect: [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]Land Units[/TIP] trained in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] will spawn at this [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building's[/TIP] location. +10% [icon:YIELD_PRODUCTION]towards [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]Land Units[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BATH_NAME" Language="th_TH">
 			<Text>โรงอาบน้ำ</Text>		<!-- Bath -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BATH_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_FOOD] อาหาร อาคารอาหาร [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]ยุคโบราณ[/TIP], +10% [icon:GROWTH_RATE] [TIP:LOC_PEDIA_CONCEPTS_GROWTH_RATE_TOOLTIP]อัตราการเติบโต[/TIP], ต้องวางบนแม่น้ำ</Text>		<!-- +4[icon:YIELD_FOOD] Food. Antiquity Food [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. +10% [icon:GROWTH_RATE] [TIP:LOC_PEDIA_CONCEPTS_GROWTH_RATE_TOOLTIP]Growth Rate[/TIP]. Must be placed on a River. -->
+			<Text>+4[icon:YIELD_FOOD] อาหาร [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านอาหาร ยุคโบราณ[/TIP], +10% [icon:GROWTH_RATE] [TIP:LOC_PEDIA_CONCEPTS_GROWTH_RATE_TOOLTIP]อัตราการเติบโต[/TIP], ต้องวางบนแม่น้ำ</Text>		<!-- +4[icon:YIELD_FOOD] Food. Antiquity Food [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. +10% [icon:GROWTH_RATE] [TIP:LOC_PEDIA_CONCEPTS_GROWTH_RATE_TOOLTIP]Growth Rate[/TIP]. Must be placed on a River. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BATH_TOOLTIP" Language="th_TH">
 			<Text>เอฟเฟค: +10% [icon:GROWTH_RATE] [TIP:LOC_PEDIA_CONCEPTS_GROWTH_RATE_TOOLTIP]อัตราการเติบโต[/TIP][n]ต้องวางอยู่บนแม่น้ำ</Text>		<!-- Effect: +10% [icon:GROWTH_RATE] [TIP:LOC_PEDIA_CONCEPTS_GROWTH_RATE_TOOLTIP]Growth Rate[/TIP].[n]Must be placed on a River. -->
@@ -2561,7 +2561,7 @@
 			<Text>โรงตีเหล็ก</Text>		<!-- Blacksmith -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BLACKSMITH_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_PRODUCTION] กำลังผลิต, อาคารกำลังผลิตในยุคโบราณ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP], +1 [icon:YIELD_PRODUCTION] กำลังผลิต บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]ย่าน[/TIP]</Text>		<!-- +4[icon:YIELD_PRODUCTION] Production. Antiquity Production [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. +1 [icon:YIELD_PRODUCTION] Production on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP]. -->
+			<Text>+4[icon:YIELD_PRODUCTION] กำลังผลิต, [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านกำลังผลิต ยุคโบราณ[/TIP], +1 [icon:YIELD_PRODUCTION] กำลังผลิต บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]ย่าน[/TIP]</Text>		<!-- +4[icon:YIELD_PRODUCTION] Production. Antiquity Production [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. +1 [icon:YIELD_PRODUCTION] Production on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BLACKSMITH_TOOLTIP" Language="th_TH">
 			<Text>เอฟเฟค: +1 [icon:YIELD_PRODUCTION] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]ย่าน[/TIP]</Text>		<!-- Effect: +1 [icon:YIELD_PRODUCTION] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP]. -->
@@ -2570,7 +2570,7 @@
 			<Text>โรงผลิตอิฐ</Text>		<!-- Brickyard -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BRICKYARD_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต, +1[icon:YIELD_PRODUCTION] กำลังผลิต จากหลุมดินเหนียว, เหมือง และเหมืองหิน, [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]อาคารคลังสินค้า[/TIP] ด้านการผลิต [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +1 [icon:YIELD_PRODUCTION] Production. +1 [icon:YIELD_PRODUCTION] Production on Clay Pits, Mines, and Quarries. [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] Production [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+			<Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต, +1[icon:YIELD_PRODUCTION] กำลังผลิต จากหลุมดินเหนียว, เหมือง และเหมืองหิน, [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]อาคารคลังสินค้า[/TIP] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านการผลิต[/TIP]</Text>		<!-- +1 [icon:YIELD_PRODUCTION] Production. +1 [icon:YIELD_PRODUCTION] Production on Clay Pits, Mines, and Quarries. [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] Production [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BRICKYARD_TOOLTIP" Language="th_TH">
 			<Text>+1 [icon:YIELD_PRODUCTION] ในพื้นที่พัฒนาต่อไปนี้ [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]การพัฒนา[/TIP] ในถิ่นฐานนี้ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]จากโบนัส[/TIP] [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]คลังสินค้า[/TIP]:[BLIST][LI] บ่อดินเหนียว[LI] เหมือง[LI] เหมืองหิน[/BLIST]</Text>		<!-- +1 [icon:YIELD_PRODUCTION] on the following [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] from its [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] Bonus:[BLIST][LI] Clay Pits[LI] Mines[LI] Quarries[/BLIST] -->
@@ -2579,7 +2579,7 @@
 			<Text>ท่าเรือประมง</Text>		<!-- Fishing Quay -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FISHING_QUAY_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_FOOD] อาหาร, +1 [icon:YIELD_FOOD] อาหาร บนเรือประมง, [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]อาคารคลังสินค้า[/TIP] ด้านอาหาร [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP], ต้องวางบน [TIP:LOC_PEDIA_CONCEPTS_WATER_TERRAIN_TOOLTIP]พื้นที่น้ำ[/TIP]</Text>		<!-- +1 [icon:YIELD_FOOD] Food. +1 [icon:YIELD_FOOD] Food on Fishing Boats. [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] Food [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. Must be placed on [TIP:LOC_PEDIA_CONCEPTS_WATER_TERRAIN_TOOLTIP]Water Terrain[/TIP]. -->
+			<Text>+1 [icon:YIELD_FOOD] อาหาร, +1 [icon:YIELD_FOOD] อาหาร บนเรือประมง, [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]อาคารคลังสินค้า[/TIP] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านอาหาร[/TIP], ต้องวางบน [TIP:LOC_PEDIA_CONCEPTS_WATER_TERRAIN_TOOLTIP]พื้นที่น้ำ[/TIP]</Text>		<!-- +1 [icon:YIELD_FOOD] Food. +1 [icon:YIELD_FOOD] Food on Fishing Boats. [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] Food [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. Must be placed on [TIP:LOC_PEDIA_CONCEPTS_WATER_TERRAIN_TOOLTIP]Water Terrain[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FISHING_QUAY_TOOLTIP" Language="th_TH">
 			<Text>+1 [icon:YIELD_FOOD] จากเรือประมงในถิ่นฐานนี้ จากโบนัสคลังสินค้า [icon:YIELD_WAREHOUSE].[n]ต้องวางบน [TIP:LOC_PEDIA_CONCEPTS_WATER_TERRAIN_TOOLTIP]พื้นที่น้ำ[/TIP][n]สามารถซื้อได้ใน [icon:YIELD_TOWNS] เมืองเล็ก</Text>		<!-- +1 [icon:YIELD_FOOD] on Fishing Boats in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] from its [icon:YIELD_WAREHOUSE][TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] Bonus.[n]Must be placed on [TIP:LOC_PEDIA_CONCEPTS_WATER_TERRAIN_TOOLTIP]Water Terrain[/TIP]. -->
@@ -2588,16 +2588,16 @@
 			<Text>สวน</Text>		<!-- Garden -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GARDEN_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_FOOD] อาหาร และ +3[icon:YIELD_HAPPINESS] ความสุข, อาคารอาหารและความสุข [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +3[icon:YIELD_FOOD] Food and +3[icon:YIELD_HAPPINESS] Happiness. Antiquity Food and Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+			<Text>+3[icon:YIELD_FOOD] อาหาร และ +3[icon:YIELD_HAPPINESS] ความสุข, [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านอาหารและความสุข[/TIP]</Text>		<!-- +3[icon:YIELD_FOOD] Food and +3[icon:YIELD_HAPPINESS] Happiness. Antiquity Food and Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GARDEN_TOOLTIP" Language="th_TH">
-			<Text>อาคารอาหารและความสุข [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- Antiquity Food and Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+			<Text>[TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านอาหารและความสุข[/TIP]</Text>		<!-- Antiquity Food and Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GRANARY_NAME" Language="th_TH">
 			<Text>ยุ้งฉาง</Text>		<!-- Granary -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GRANARY_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_FOOD] อาหาร, +1 [icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า และพืชพรรณ, [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]อาคารคลังสินค้า[/TIP] ด้านอาหาร [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +1 [icon:YIELD_FOOD] Food. +1 [icon:YIELD_FOOD] Food on Farms, Pastures, and Plantations. [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] Food [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+			<Text>+1 [icon:YIELD_FOOD] อาหาร, +1 [icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า และพืชพรรณ, [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]อาคารคลังสินค้า[/TIP] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านอาหาร[/TIP]</Text>		<!-- +1 [icon:YIELD_FOOD] Food. +1 [icon:YIELD_FOOD] Food on Farms, Pastures, and Plantations. [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] Food [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GRANARY_TOOLTIP" Language="th_TH">
 			<Text>+1 [icon:YIELD_FOOD] ในพื้นที่พัฒนาต่อไปนี้ [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]การพัฒนา[/TIP] ในถิ่นฐานนี้ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]จากโบนัส[/TIP] [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]คลังสินค้า[/TIP]:[BLIST][LI] ฟาร์ม[LI] ทุ่งหญ้า[LI] พืชพรรณ[/BLIST]</Text>		<!-- +1 [icon:YIELD_FOOD] on the following [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] from its [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] Bonus:[BLIST][LI] Farms[LI] Pastures[LI] Plantations[/BLIST] -->
@@ -2606,7 +2606,7 @@
 			<Text>ห้องสมุด</Text>		<!-- Library -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIBRARY_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:YIELD_SCIENCE] วิทยาศาสตร์ มีช่อง 2 [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_CODEX_TOOLTIP]คัมภีร์[/TIP] ช่อง, อาคารวิทยาศาสตร์ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]ยุคโบราณ[/TIP]</Text>		<!-- +3 [icon:YIELD_SCIENCE] Science. Has 2 [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_CODEX_TOOLTIP]Codex[/TIP] slots. Antiquity Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+			<Text>+3 [icon:YIELD_SCIENCE] วิทยาศาสตร์ มีช่อง 2 [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_CODEX_TOOLTIP]คัมภีร์[/TIP] ช่อง, [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์ ยุคโบราณ[/TIP]</Text>		<!-- +3 [icon:YIELD_SCIENCE] Science. Has 2 [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_CODEX_TOOLTIP]Codex[/TIP] slots. Antiquity Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIBRARY_TOOLTIP" Language="th_TH">
 			<Text>เอฟเฟค: มีช่อง [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_CODEX_TOOLTIP]คัมภีร์[/TIP] 2 ช่อง</Text>		<!-- Effect: Has 2 [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_CODEX_TOOLTIP]Codex[/TIP] slots. -->
@@ -2615,7 +2615,7 @@
 			<Text>ประภาคาร</Text>		<!-- Lighthouse -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIGHTHOUSE_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_GOLD] ทอง, +2 [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCE_CAPACITY_TOOLTIP]ความจุทรัพยากร[/TIP] ในนี้ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP], อาคารทอง [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]ยุคโบราณ[/TIP], ต้องตั้งอยู่บนชายฝั่ง</Text>		<!-- +4 [icon:YIELD_GOLD] Gold. +2 [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCE_CAPACITY_TOOLTIP]Resource Capacity[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. Antiquity Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. Must be placed on Coast. -->
+			<Text>+4 [icon:YIELD_GOLD] ทอง, +2 [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCE_CAPACITY_TOOLTIP]ความจุทรัพยากร[/TIP] ในนี้ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP], [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารทอง ยุคโบราณ[/TIP], ต้องตั้งอยู่บนชายฝั่ง</Text>		<!-- +4 [icon:YIELD_GOLD] Gold. +2 [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCE_CAPACITY_TOOLTIP]Resource Capacity[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. Antiquity Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. Must be placed on Coast. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIGHTHOUSE_TOOLTIP" Language="th_TH">
 			<Text>Effect: +2 [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCE_CAPACITY_TOOLTIP]ความจุทรัพยากร[/TIP] ในนี้ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP][n]ต้องตั้งอยู่บนชายฝั่ง</Text>		<!-- Effect: +2 [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCE_CAPACITY_TOOLTIP]Resource Capacity[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP].[n]Must be placed on a Coast tile. -->
@@ -2624,7 +2624,7 @@
 			<Text>ตลาด</Text>		<!-- Market -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MARKET_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:YIELD_GOLD] ทอง, +1 [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCE_CAPACITY_TOOLTIP]ความจุทรัพยากร[/TIP] ในถิ่นฐานนี้ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP], อาคารทองยุคโบราณ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +3 [icon:YIELD_GOLD] Gold. +1 [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCE_CAPACITY_TOOLTIP]Resource Capacity[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. Antiquity Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+			<Text>+3 [icon:YIELD_GOLD] ทอง, +1 [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCE_CAPACITY_TOOLTIP]ความจุทรัพยากรในถิ่นฐานนี้[/TIP], [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP], [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารทอง ยุคโบราณ[/TIP]</Text>		<!-- +3 [icon:YIELD_GOLD] Gold. +1 [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCE_CAPACITY_TOOLTIP]Resource Capacity[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. Antiquity Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MARKET_TOOLTIP" Language="th_TH">
 			<Text>Effect: +1 [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCE_CAPACITY_TOOLTIP]ความจุทรัพยากร[/TIP]ในนี้ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP]</Text>		<!-- Effect: +1 [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCE_CAPACITY_TOOLTIP]Resource Capacity[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. -->
@@ -2633,16 +2633,16 @@
 			<Text>อนุสาวรีย์</Text>		<!-- Monument -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MONUMENT_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_CULTURE] วัฒนธรรม และ +2[icon:YIELD_DIPLOMACY] อิทธิพล [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารวัฒนธรรมและการทูตโบราณ[/TIP]</Text>		<!-- +3[icon:YIELD_CULTURE] Culture and +2[icon:YIELD_DIPLOMACY] Influence. Antiquity Culture and Diplomacy [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+			<Text>[icon:YIELD_CULTURE] +3 วัฒนธรรม และ [icon:YIELD_DIPLOMACY] +2 อิทธิพล [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรมและการทูต ยุคโบราณ[/TIP]</Text>		<!-- +3[icon:YIELD_CULTURE] Culture and +2[icon:YIELD_DIPLOMACY] Influence. Antiquity Culture and Diplomacy [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MONUMENT_TOOLTIP" Language="th_TH">
-			<Text>อาคารวัฒนธรรมและการทูต [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- Antiquity Culture and Diplomacy [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+			<Text>[TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรมและการทูต[/TIP]</Text>		<!-- Antiquity Culture and Diplomacy [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SAW_PIT_NAME" Language="th_TH">
 			<Text>หลุมเลื่อยไม้</Text>		<!-- Saw Pit -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SAW_PIT_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_PRODUCTION] กำลังผลิต, +1 [icon:YIELD_PRODUCTION] กำลังผลิต ที่ค่ายและจากคนตัดไม้, [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]อาคารคลังสินค้า[/TIP] กำลังผลิต [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +1 [icon:YIELD_PRODUCTION] Production. +1 [icon:YIELD_PRODUCTION] Production on Camps and Woodcutters. [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] Production [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+			<Text>+1 [icon:YIELD_PRODUCTION] กำลังผลิต, +1 [icon:YIELD_PRODUCTION] กำลังผลิต ที่ค่ายและจากคนตัดไม้, [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารคลังสินค้า[/TIP]</Text>		<!-- +1 [icon:YIELD_PRODUCTION] Production. +1 [icon:YIELD_PRODUCTION] Production on Camps and Woodcutters. [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] Production [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SAW_PIT_TOOLTIP" Language="th_TH">
 			<Text>+1 [icon:YIELD_PRODUCTION] ในพื้นที่พัฒนาต่อไปนี้ [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]การพัฒนา[/TIP] ในถิ่นฐานนี้ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]จากโบนัส[/TIP] [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]คลังสินค้า[/TIP]:[BLIST][LI] ค่าย[LI] โรงตัดไม้[/BLIST]</Text>		<!-- +1 [icon:YIELD_PRODUCTION] on the following [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] from its [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] Bonus:[BLIST][LI] Camps[LI] Woodcutters[/BLIST] -->
@@ -2651,7 +2651,7 @@
 			<Text>ท่าเรือ</Text>		<!-- Harbor -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_HARBOR_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_PRODUCTION] กำลังผลิต, +1 [icon:YIELD_PRODUCTION] กำลังผลิต บนเรือประมง, [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]อาคารคลังสินค้า[/TIP] ด้านกำลังผลิต [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP], ยูนิตทางทะเลที่ฝึกในถิ่นฐานนี้จะเกิดขึ้นที่ตำแหน่งของ [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารนี้[/TIP], ต้องสร้างบน [TIP:LOC_PEDIA_CONCEPTS_WATER_TERRAIN_TOOLTIP]พื้นที่น้ำ[/TIP]</Text>		<!-- +1 [icon:YIELD_PRODUCTION] Production. +1 [icon:YIELD_PRODUCTION] Production on Fishing Boats. [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] Production [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. Naval Units trained in this Settlement will spawn at this [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building's[/TIP] location. Must be placed on [TIP:LOC_PEDIA_CONCEPTS_WATER_TERRAIN_TOOLTIP]Water Terrain[/TIP]. -->
+			<Text>+1 [icon:YIELD_PRODUCTION] กำลังผลิต, +1 [icon:YIELD_PRODUCTION] กำลังผลิต บนเรือประมง, [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]อาคารคลังสินค้า[/TIP] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านกำลังผลิต[/TIP], ยูนิตทางทะเลที่ฝึกในถิ่นฐานนี้จะเกิดขึ้นที่ตำแหน่งของ [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารนี้[/TIP], ต้องสร้างบน [TIP:LOC_PEDIA_CONCEPTS_WATER_TERRAIN_TOOLTIP]พื้นที่น้ำ[/TIP]</Text>		<!-- +1 [icon:YIELD_PRODUCTION] Production. +1 [icon:YIELD_PRODUCTION] Production on Fishing Boats. [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] Production [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. Naval Units trained in this Settlement will spawn at this [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building's[/TIP] location. Must be placed on [TIP:LOC_PEDIA_CONCEPTS_WATER_TERRAIN_TOOLTIP]Water Terrain[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_HARBOR_TOOLTIP" Language="th_TH">
 			<Text>[B]ผลกระทบ:[/B] +1 [icon:YIELD_PRODUCTION] บน เรือประมง ในถิ่นฐานนี้จากโบนัส [icon:YIELD_WAREHOUSE]คลังสินค้า[n]ต้องสร้างบน [TIP:LOC_PEDIA_CONCEPTS_WATER_TERRAIN_TOOLTIP]น้ำ[/TIP]</Text>		<!-- +1 [icon:YIELD_PRODUCTION] on Fishing Boats in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] from its [icon:YIELD_WAREHOUSE][TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] Bonus.[n]Must be placed on [TIP:LOC_PEDIA_CONCEPTS_WATER_TERRAIN_TOOLTIP]Water Terrain[/TIP]. -->
@@ -2660,10 +2660,10 @@
 			<Text>วิลล่า</Text>		<!-- Villa -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_VILLA_DESCRIPTION" Language="th_TH">
-			<Text>+3[icon:YIELD_HAPPINESS] ความสุข และ +3[icon:YIELD_DIPLOMACY] อิทธิพล, อาคารวัฒนธรรมและการทูต [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness and +3[icon:YIELD_DIPLOMACY] Influence. Antiquity Happiness and Diplomacy [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+			<Text>+3[icon:YIELD_HAPPINESS] ความสุข และ +3[icon:YIELD_DIPLOMACY] อิทธิพล, [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรมและการทูต[/TIP]</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness and +3[icon:YIELD_DIPLOMACY] Influence. Antiquity Happiness and Diplomacy [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_VILLA_TOOLTIP" Language="th_TH">
-			<Text>อาคารความสุข และการทูต [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] ยุคโบราณ</Text>		<!-- Antiquity Happiness and Diplomacy [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+			<Text>[icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านความสุขและการทูต ยุคโบราณ[/TIP]</Text>		<!-- Antiquity Happiness and Diplomacy [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MASTABA_NAME" Language="th_TH">
 			<Text>มาสตาบา</Text>		<!-- Mastaba -->
@@ -2741,7 +2741,7 @@
 			<Text>บาซิลิกา</Text>		<!-- Basilica -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BASILICA_DESCRIPTION" Language="th_TH">
-			<Text>อาคารพิเศษด้านการทูต [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]สำหรับโรมัน[/TIP], +3 [icon:YIELD_DIPLOMACY] อิทธิพล, +1 [icon:YIELD_GOLD] ทอง โบนัสใกล้เคียงสำหรับอาคาร [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]วัฒนธรรม[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP], คงอยู่ตลอดกาล</Text>		<!-- Roman [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Diplomacy Building[/TIP]. +3 [icon:YIELD_DIPLOMACY] Influence. +1 [icon:YIELD_GOLD] Gold Adjacency for Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. -->
+			<Text>[icon:YIELD_DIPLOMACY] [icon:YIELD_GOLD] อาคารพิเศษด้านการทูต [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]สำหรับโรมัน, +3 อิทธิพล, +1 ทอง โบนัสใกล้เคียงสำหรับอาคารด้านวัฒนธรรม[/TIP] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]และสิ่งมหัศจรรย์[/TIP], คงอยู่ตลอดกาล</Text>		<!-- Roman [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Diplomacy Building[/TIP]. +3 [icon:YIELD_DIPLOMACY] Influence. +1 [icon:YIELD_GOLD] Gold Adjacency for Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BASILICA_TOOLTIP" Language="th_TH">
 			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษ[/TIP] ของโรมัน</Text>		<!-- Roman [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Building[/TIP]. -->
@@ -2750,7 +2750,7 @@
 			<Text>วิหารจูปิเตอร์</Text>		<!-- Temple of Jupiter -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TEMPLE_OF_JUPITER_DESCRIPTION" Language="th_TH">
-			<Text>อาคารพิเศษด้านความสุข [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]สำหรับโรมัน[/TIP], +3[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_CULTURE] วัฒนธรรม โบนัสใกล้เคียงสำหรับ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP], คงอยู่ตลอดกาล</Text>		<!-- Roman [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Happiness Building[/TIP]. +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture Adjacency for Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. -->
+			<Text>[icon:YIELD_HAPPINESS] [icon:YIELD_CULTURE] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษด้านความสุขสำหรับโรมัน, +3 ความสุข, +1 วัฒนธรรม, โบนัสใกล้เคียงสำหรับอาคารและสิ่งมหัศจรรย์, คงอยู่ตลอดกาล[/TIP]</Text>		<!-- Roman [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Happiness Building[/TIP]. +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture Adjacency for Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TEMPLE_OF_JUPITER_TOOLTIP" Language="th_TH">
 			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษ[/TIP] ของโรมัน</Text>		<!-- Roman [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Building[/TIP]. -->
@@ -2759,10 +2759,10 @@
 			<Text>บาราย</Text>		<!-- Baray -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_BARAY_DESCRIPTION" Language="th_TH">
-			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนาพิเศษ[/TIP] ของขอม, +3[icon:YIELD_FOOD] อาหาร, +1[icon:YIELD_FOOD] อาหาร บนทุก [TIP:LOC_PEDIA_CONCEPTS_FLOODPLAINS_TOOLTIP]พื้นที่น้ำท่วม[/TIP] ในถิ่นฐานนี้, ต้องวางบน [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]พื้นที่ราบ[/TIP], หนึ่งที่ต่อถิ่นฐาน, [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนาพิเศษ[/TIP], [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP], และ [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP] ในถิ่นฐานนี้จะไม่ถูกปล้นโดยน้ำท่วม</Text>		<!-- Khmer [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvement[/TIP]. +3[icon:YIELD_FOOD] Food. +1[icon:YIELD_FOOD] Food on all [TIP:LOC_PEDIA_CONCEPTS_FLOODPLAINS_TOOLTIP]Floodplains[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. Must be placed on [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]Flat Terrain[/TIP]. One per Settlement. [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP], [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP], and [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] do not get pillaged by floods. -->
+			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนาพิเศษของขอม[/TIP], +3[icon:YIELD_FOOD] อาหาร, +1[icon:YIELD_FOOD] อาหาร บนทุก [TIP:LOC_PEDIA_CONCEPTS_FLOODPLAINS_TOOLTIP]พื้นที่น้ำท่วม[/TIP] ในถิ่นฐานนี้, ต้องวางบน [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]พื้นที่ราบ[/TIP], หนึ่งที่ต่อถิ่นฐาน, [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนาพิเศษ[/TIP], [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP], และ [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP] ในถิ่นฐานนี้จะไม่ถูกปล้นโดยน้ำท่วม</Text>		<!-- Khmer [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvement[/TIP]. +3[icon:YIELD_FOOD] Food. +1[icon:YIELD_FOOD] Food on all [TIP:LOC_PEDIA_CONCEPTS_FLOODPLAINS_TOOLTIP]Floodplains[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. Must be placed on [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]Flat Terrain[/TIP]. One per Settlement. [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP], [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP], and [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] do not get pillaged by floods. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_BARAY_TOOLTIP" Language="th_TH">
-			<Text>เอฟเฟค: +1 [icon:YIELD_FOOD] บนพื้นที่น้ำท่วมทั้งหมดในถิ่นฐานนี้ [TIP:LOC_PEDIA_CONCEPTS_FLOODPLAINS_TOOLTIP]Floodplains[/TIP] ในถิ่นฐานนี้ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP], [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP], [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP], และ [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] ในถิ่นฐานนี้ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] จะไม่ถูกปล้นโดยน้ำท่วม[n]ต้องวางบน [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]พื้นที่ราบ[/TIP], หนึ่งต่อ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP][n]พื้นที่พัฒนาพิเศษ [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]สำหรับขอม[/TIP]</Text>		<!-- Effect: +1 [icon:YIELD_FOOD] on all [TIP:LOC_PEDIA_CONCEPTS_FLOODPLAINS_TOOLTIP]Floodplains[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP], [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP], and [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] do not get pillaged by floods.[n]Must be placed on [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]Flat Terrain[/TIP]. One per [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP].[n]Khmer [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvement[/TIP]. -->
+			<Text>เอฟเฟค: +1 [icon:YIELD_FOOD] บนพื้นที่น้ำท่วมทั้งหมดใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] นี้ [TIP:LOC_PEDIA_CONCEPTS_FLOODPLAINS_TOOLTIP]พื้นที่น้ำท่วม[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] นี้, [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]การพัฒนา[/TIP], [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP], และ [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] นี้จะไม่ถูกปล้นโดยน้ำท่วม[n]ต้องวางบน [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]พื้นที่ราบ[/TIP], หนึ่งต่อ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP][n]พื้นที่พัฒนาพิเศษ [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]สำหรับขอม[/TIP]</Text>		<!-- Effect: +1 [icon:YIELD_FOOD] on all [TIP:LOC_PEDIA_CONCEPTS_FLOODPLAINS_TOOLTIP]Floodplains[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP], [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP], and [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] do not get pillaged by floods.[n]Must be placed on [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]Flat Terrain[/TIP]. One per [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP].[n]Khmer [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvement[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HAN_GREAT_WALL_NAME" Language="th_TH">
 			<Text>กำแพงเมืองจีน</Text>		<!-- Great Wall -->
@@ -3077,10 +3077,10 @@
 			<Text>หอสมุดใหญ่</Text>		<!-- Great Library -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_GREAT_LIBRARY_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_SCIENCE] วิทยาศาสตร์, +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ใน [icon:CITY_BUILDING_LIST] อาคารวิทยาศาสตร์ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] ทั่วทั้งอาณาจักรของคุณ, มี 3 [TIP:LOC_PEDIA_CONCEPTS_CODEX_TOOLTIP]ช่องใส่ คัมภีร์[/TIP], [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]คงอยู่ตลอดกาล[/TIP], ต้องวางติดกับ [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP]</Text>		<!-- +4 [icon:YIELD_SCIENCE] Science. +1 [icon:YIELD_SCIENCE] Science on [icon:CITY_BUILDING_LIST] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] across your Empire. Has 3 [TIP:LOC_PEDIA_CONCEPTS_CODEX_TOOLTIP]Codex[/TIP] Slots. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be placed adjacent to a [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP]. -->
+			<Text>+4 [icon:YIELD_SCIENCE] วิทยาศาสตร์, +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ใน [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP] ทั่วทั้งอาณาจักรของคุณ, มี 3 [TIP:LOC_PEDIA_CONCEPTS_CODEX_TOOLTIP]ช่องใส่คัมภีร์[/TIP], [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]คงอยู่ตลอดกาล[/TIP], ต้องวางติดกับ [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP]</Text>		<!-- +4 [icon:YIELD_SCIENCE] Science. +1 [icon:YIELD_SCIENCE] Science on [icon:CITY_BUILDING_LIST] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] across your Empire. Has 3 [TIP:LOC_PEDIA_CONCEPTS_CODEX_TOOLTIP]Codex[/TIP] Slots. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be placed adjacent to a [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_GREAT_LIBRARY_TOOLTIP" Language="th_TH">
-			<Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ใน [icon:CITY_BUILDING_LIST] อาคารวิทยาศาสตร์ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] ทั่วทั้งอาณาจักรของคุณ มี 3 [TIP:LOC_PEDIA_CONCEPTS_CODEX_TOOLTIP]ช่องใส่คัมภีร์[/TIP] [N]ต้องวางติดกับ [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP]</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science on [icon:CITY_BUILDING_LIST] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] across your Empire. Has 3 [TIP:LOC_PEDIA_CONCEPTS_CODEX_TOOLTIP]Codex[/TIP] Slots.[n]Must be placed adjacent to a [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP]. -->
+			<Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ใน [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP] ทั่วทั้งอาณาจักรของคุณ มี 3 [TIP:LOC_PEDIA_CONCEPTS_CODEX_TOOLTIP]ช่องใส่คัมภีร์[/TIP] [N]ต้องวางติดกับ [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP]</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science on [icon:CITY_BUILDING_LIST] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] across your Empire. Has 3 [TIP:LOC_PEDIA_CONCEPTS_CODEX_TOOLTIP]Codex[/TIP] Slots.[n]Must be placed adjacent to a [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_WEIYANG_PALACE_NAME" Language="th_TH">
 			<Text>พระราชวังเว่ยหยาง</Text>		<!-- Weiyang Palace -->
@@ -3606,7 +3606,7 @@
 			<Text>ได้รับ [icon:UNIT_MERCHANT] พ่อค้าฟรี</Text>		<!-- Gain a free [icon:UNIT_MERCHANT] Merchant. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_MONUMENTUM_ADULITANUM_CULTURE_BUILDING_HAWELT_DESCRIPTION" Language="th_TH">
-			<Text>[icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_HAPPINESS] ความสุข [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] ได้รับโบนัสการเชื่อมต่อ [icon:YIELD_CULTURE] วัฒนธรรม +1 กับ [icon:CITY_RURAL] ฮาวิลท์</Text>		<!-- [icon:YIELD_CULTURE] Culture and [icon:YIELD_HAPPINESS] Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] gain a +1 [icon:YIELD_CULTURE] Culture Adjacency with [icon:CITY_RURAL] Hawilti. -->
+			<Text>[icon:YIELD_CULTURE] [icon:YIELD_HAPPINESS] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรมและความสุข[/TIP] ได้รับโบนัสการเชื่อมต่อ [icon:YIELD_CULTURE] วัฒนธรรม +1 กับ [icon:CITY_RURAL] ฮาวิลท์</Text>		<!-- [icon:YIELD_CULTURE] Culture and [icon:YIELD_HAPPINESS] Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] gain a +1 [icon:YIELD_CULTURE] Culture Adjacency with [icon:CITY_RURAL] Hawilti. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AQ_TRADITION_SLOT_DESCRIPTION" Language="th_TH">
 			<Text>+1 [icon:NAR_REW_TRADITION_SLOT] [TIP:LOC_PEDIA_CONCEPTS_SOCIAL_POLICY_TOOLTIP]ช่องนโยบายสังคม[/TIP] slot</Text>		<!-- +1 [icon:NAR_REW_TRADITION_SLOT] [TIP:LOC_PEDIA_CONCEPTS_SOCIAL_POLICY_TOOLTIP]Social Policy[/TIP] slot. -->
@@ -3642,7 +3642,7 @@
 			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม, ในแต่ละ [icon:CITYSTATE] นครรัฐ ที่คุณเป็น [TIP:LOC_PEDIA_CONCEPTS_SUZERAIN_TOOLTIP]เจ้านคร[/TIP]</Text>		<!-- +2[icon:YIELD_CULTURE] Culture for each [icon:CITYSTATE] City-State you are [TIP:LOC_PEDIA_CONCEPTS_SUZERAIN_TOOLTIP]Suzerain[/TIP] of. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ZHI_SCIENCE_BUILDING_URBAN_ADJACENCY_DESCRIPTION" Language="th_TH">
-			<Text>[icon:YIELD_SCIENCE] อาคารวิทยาศาสตร์ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]จะได้รับโบนัส[/TIP] +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ โบนัสใกล้เคียง สำหรับ [icon:CITY_UNIQUE_QUARTER] ย่าน</Text>		<!-- [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] gain a +1 [icon:YIELD_SCIENCE] Science Adjacency for [icon:CITY_UNIQUE_QUARTER] Quarters. -->
+			<Text>[icon:YIELD_SCIENCE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์จะได้รับโบนัส +1 วิทยาศาสตร์ โบนัสใกล้เคียงสำหรับย่านเฉพาะเมือง[/TIP]</Text>		<!-- [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] gain a +1 [icon:YIELD_SCIENCE] Science Adjacency for [icon:CITY_UNIQUE_QUARTER] Quarters. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_LI_DIPLOMACY_YIELD_DESCRIPTION" Language="th_TH">
 			<Text>+2[icon:YIELD_DIPLOMACY] อิทธิพล ต่อพระราชวัง</Text>		<!-- +2[icon:YIELD_DIPLOMACY] Influence on the Palace. -->
@@ -3771,7 +3771,7 @@
 			<Text>ละครและกวีนิพนธ์</Text>		<!-- Drama and Poetry -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_DRAMA_AND_POETRY_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:YIELD_CULTURE] อาคารวัฒนธรรม [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารวัฒนธรรม[/TIP], +20% [icon:YIELD_PRODUCTION] กำลังผลิต เพื่อก่อสร้าง [icon:YIELD_CULTURE] อาคารวัฒนธรรม [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารวัฒนธรรม[/TIP]</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture on [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. +20% [icon:YIELD_PRODUCTION] Production towards constructing [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:YIELD_CULTURE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรม[/TIP], +20% [icon:YIELD_PRODUCTION] กำลังผลิต เพื่อก่อสร้าง [icon:YIELD_CULTURE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรม[/TIP]</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture on [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. +20% [icon:YIELD_PRODUCTION] Production towards constructing [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_DRILLS_NAME" Language="th_TH">
 			<Text>การฝึกอบรม</Text>		<!-- Drills -->
@@ -3801,7 +3801,7 @@
 			<Text>วรรณกรรม</Text>		<!-- Literature -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_LITERATURE_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บน [icon:YIELD_SCIENCE] อาคารวิทยาศาสตร์[TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารวิทยาศาสตร์[/TIP], +20% [icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้าง [icon:YIELD_SCIENCE] อาคารวิทยาศาสตร์[TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารวิทยาศาสตร์[/TIP]</Text>		<!-- +2 [icon:YIELD_SCIENCE] Science on [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. +20% [icon:YIELD_PRODUCTION] Production towards constructing [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+2 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บน [icon:YIELD_SCIENCE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP], +20% [icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้าง [icon:YIELD_SCIENCE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP]</Text>		<!-- +2 [icon:YIELD_SCIENCE] Science on [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. +20% [icon:YIELD_PRODUCTION] Production towards constructing [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_MEDICINE_NAME" Language="th_TH">
 			<Text>ยารักษา</Text>		<!-- Medicine -->
@@ -3891,7 +3891,7 @@
 			<Text>การพยากรณ์โรค</Text>		<!-- Prognosis -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_PROGNOSIS_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_SCIENCE] วิทยาศาสตร์ จาก [icon:YIELD_SCIENCE] อาคารวิทยาศาสตร์ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารวิทยาศาสตร์[/TIP] ใน [icon:YIELD_PLAGUE] [TIP:LOC_PEDIA_CONCEPTS_INFECTED_TOOLTIP]ถิ่นฐานที่ติดเชื้อ[/TIP] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] แต่ -4 [icon:YIELD_GOLD] ทอง จาก [icon:YIELD_SCIENCE] อาคารวิทยาศาสตร์ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารวิทยาศาสตร์[/TIP]</Text>		<!-- +2 [icon:YIELD_SCIENCE] Science on [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] in [icon:YIELD_PLAGUE] [TIP:LOC_PEDIA_CONCEPTS_INFECTED_TOOLTIP]Infected[/TIP] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] but -4 [icon:YIELD_GOLD] Gold on [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+2 [icon:YIELD_SCIENCE] วิทยาศาสตร์ จาก [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP] ใน [icon:YIELD_PLAGUE] [TIP:LOC_PEDIA_CONCEPTS_INFECTED_TOOLTIP]ถิ่นฐานที่ติดเชื้อ[/TIP] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] แต่ -4 [icon:YIELD_GOLD] ทอง จาก [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP]</Text>		<!-- +2 [icon:YIELD_SCIENCE] Science on [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] in [icon:YIELD_PLAGUE] [TIP:LOC_PEDIA_CONCEPTS_INFECTED_TOOLTIP]Infected[/TIP] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] but -4 [icon:YIELD_GOLD] Gold on [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_MIASMA_NAME" Language="th_TH">
 			<Text>มียัสมา</Text>		<!-- Miasma -->
@@ -16927,7 +16927,7 @@
 			<Text>+1 [icon:YIELD_GOLD] ทอง ในแคมป์ และโรงตัดไม้ ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่มี แท่นบูชา, [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]โบนัสคลังสินค้า[/TIP]</Text>		<!-- +1 [icon:YIELD_GOLD] Gold on Camps and Woodcutters in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with an Altar. [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] bonus. -->
 		</Replace>
 		<Replace Tag="LOC_PANTHEON_BONUS_8_DESCRIPTION" Language="th_TH">
-			<Text>+10% [icon:YIELD_PRODUCTION] กำลังผลิต ไปสู่การสร้าง[TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] ใน [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ที่มีแท่นบูชา</Text>		<!-- +10% [icon:YIELD_PRODUCTION] Production towards constructing [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] with an Altar. -->
+			<Text>+10% [icon:YIELD_PRODUCTION] กำลังผลิต ไปสู่การสร้าง [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] ใน [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่ที่มีแท่นบูชา[/TIP]</Text>		<!-- +10% [icon:YIELD_PRODUCTION] Production towards constructing [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] with an Altar. -->
 		</Replace>
 		<Replace Tag="LOC_PANTHEON_BONUS_9_DESCRIPTION" Language="th_TH">
 			<Text>+1 [icon:YIELD_PRODUCTION] กำลังผลิต บนเรือประมง ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่มี แท่นบูชา, [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]โบนัสคลังสินค้า[/TIP]</Text>		<!-- +1 [icon:YIELD_PRODUCTION] Production on Fishing Boats in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with an Altar. [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] bonus. -->
@@ -17284,25 +17284,25 @@
 			<Text>+3 [icon:Action_Ranged] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [TIP:LOC_PEDIA_CONCEPTS_RANGED_UNITS_TOOLTIP]ยูนิตโจมตีระยะไกล[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_SIEGE_UNITS_TOOLTIP]ยูนิตปิดล้อม[/TIP]</Text>		<!-- +3 [icon:Action_Ranged] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_RANGED_UNITS_TOOLTIP]Ranged[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_SIEGE_UNITS_TOOLTIP]Siege Units[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AQ_TECH_CULTURE_BUILDING_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:YIELD_CULTURE] อาคารวัฒนธรรม [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture on [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:YIELD_CULTURE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรม[/TIP]</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture on [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AQ_TECH_FOOD_BUILDING_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_FOOD] อาหาร บน [icon:YIELD_FOOD] อาคารอาหาร [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +1 [icon:YIELD_FOOD] Food on [icon:YIELD_FOOD] Food [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+1 [icon:YIELD_FOOD] อาหาร บน [icon:YIELD_FOOD] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านอาหาร[/TIP]</Text>		<!-- +1 [icon:YIELD_FOOD] Food on [icon:YIELD_FOOD] Food [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AQ_TECH_GOLD_BUILDING_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_GOLD] ทอง บน [icon:YIELD_GOLD] อาคารทอง [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +1 [icon:YIELD_GOLD] Gold on [icon:YIELD_GOLD] Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+1 [icon:YIELD_GOLD] ทอง บน [icon:YIELD_GOLD] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารทอง[/TIP]</Text>		<!-- +1 [icon:YIELD_GOLD] Gold on [icon:YIELD_GOLD] Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AQ_TECH_HAPPINESS_BUILDING_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_HAPPINESS] ความสุข บน [icon:YIELD_HAPPINESS] อาคารความสุข [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]</Text>		<!-- +1 [icon:YIELD_HAPPINESS] Happiness on [icon:YIELD_HAPPINESS] Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+1 [icon:YIELD_HAPPINESS] ความสุข บน [icon:YIELD_HAPPINESS] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านความสุข[/TIP]</Text>		<!-- +1 [icon:YIELD_HAPPINESS] Happiness on [icon:YIELD_HAPPINESS] Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AQ_TECH_MILITARY_BUILDING_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_PRODUCTION] กำลังผลิต บน [icon:MILITARY] อาคารทหาร [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +2 [icon:YIELD_PRODUCTION] Production on [icon:MILITARY] Military [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+2 [icon:YIELD_PRODUCTION] กำลังผลิต บน [icon:MILITARY] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทหาร[/TIP]</Text>		<!-- +2 [icon:YIELD_PRODUCTION] Production on [icon:MILITARY] Military [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AQ_TECH_PRODUCTION_BUILDING_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_PRODUCTION] กำลังผลิต บน [icon:YIELD_PRODUCTION] อาคารกำลังผลิต [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +1 [icon:YIELD_PRODUCTION] Production on [icon:YIELD_PRODUCTION] Production [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+1 [icon:YIELD_PRODUCTION] กำลังผลิต บน [icon:YIELD_PRODUCTION] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านกำลังผลิต[/TIP]</Text>		<!-- +1 [icon:YIELD_PRODUCTION] Production on [icon:YIELD_PRODUCTION] Production [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_AQ_TECH_SCIENCE_BUILDING_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บน [icon:YIELD_SCIENCE] อาคารวิทยาศาสตร์ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science on [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บน [icon:YIELD_SCIENCE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP]</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science on [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_FUTURE_TECH_ATTRIBUTE_DESCRIPTION" Language="th_TH">
 			<Text>+1 [icon:ATTRIBUTE] คะแนน คุณลักษณะแบบสุ่ม</Text>		<!-- +1 [icon:ATTRIBUTE] Random Attribute Point. -->

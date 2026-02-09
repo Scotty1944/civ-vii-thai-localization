@@ -1403,13 +1403,13 @@
 			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุค ในพระราชวัง และศาลากลางเมือง</Text>		<!-- +1[icon:YIELD_SCIENCE] Science per Age on the Palace and City Halls. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_02_DESCRIPTION" Language="th_TH">
-			<Text>+15% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อการก่อสร้าง [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +15% [icon:YIELD_PRODUCTION] Production towards constructing [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+15% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อการก่อสร้าง [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารทั้งหมด[/TIP]</Text>		<!-- +15% [icon:YIELD_PRODUCTION] Production towards constructing [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_03_DESCRIPTION" Language="th_TH">
 			<Text>+25% [icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อการวิจัย [icon:RADIAL_TECH] เทคโนโลยี ระดับเชี่ยวชาญ</Text>		<!-- +25% [icon:YIELD_SCIENCE] Science towards researching [icon:RADIAL_TECH] Tech Masteries. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_04_DESCRIPTION" Language="th_TH">
-			<Text>+20% [icon:YIELD_GOLD] ทอง และ[icon:YIELD_HAPPINESS] ความสุข ต่อการบำรุงรักษา [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +20% [icon:YIELD_GOLD] Gold and [icon:YIELD_HAPPINESS] Happiness towards maintaining [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+20% [icon:YIELD_GOLD] ทอง และ [icon:YIELD_HAPPINESS] ความสุข ต่อการบำรุงรักษา [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +20% [icon:YIELD_GOLD] Gold and [icon:YIELD_HAPPINESS] Happiness towards maintaining [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_05_DESCRIPTION" Language="th_TH">
 			<Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] สำหรับแต่ละ [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]ทรัพยากร[/TIP] ที่จัดสรรให้พวกเขา</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] for each [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resource[/TIP] assigned to them. -->
@@ -1626,43 +1626,43 @@
 			<Text>+{1_Value} ตำนานคุณลักษณะทางทหาร</Text>		<!-- +{1_Value} Legend Militaristic Attribute -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_BENJAMIN_FRANKLIN_L2_DESCRIPTION_BASE" Language="th_TH">
-			<Text>+1 ไปยังโบนัสติดกันของ อาคาร [icon:YIELD_GOLD]ทอง, [icon:YIELD_PRODUCTION]กำลังผลิต และ [icon:YIELD_SCIENCE]วิทยาศาสตร์ [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +1 to the adjacencies of standard [icon:YIELD_GOLD] Gold, [icon:YIELD_PRODUCTION] Production, and [icon:YIELD_SCIENCE] Science [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>[icon:YIELD_GOLD] [icon:YIELD_PRODUCTION] [icon:YIELD_SCIENCE] [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทอง กำลังผลิต และวิทยาศาสตร์ ได้รับโบนัสติดกัน +1[/TIP]</Text>		<!-- +1 to the adjacencies of standard [icon:YIELD_GOLD] Gold, [icon:YIELD_PRODUCTION] Production, and [icon:YIELD_SCIENCE] Science [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_FRIEDRICH_L1_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_FRIEDRICH_L1_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_FRIEDRICH_L1_DESCRIPTION_BASE} -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_CATHERINE_L2_DESCRIPTION_BASE" Language="th_TH">
-			<Text>+1 ไปยังโบนัสติดกันของ อาคาร [icon:YIELD_GOLD]ทอง, [icon:YIELD_PRODUCTION]กำลังผลิต และ [icon:YIELD_SCIENCE]วิทยาศาสตร์ [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +1 to the adjacencies of standard [icon:YIELD_GOLD] Gold, [icon:YIELD_PRODUCTION] Production, and [icon:YIELD_SCIENCE] Science [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>[icon:YIELD_GOLD] [icon:YIELD_PRODUCTION] [icon:YIELD_SCIENCE] [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทอง กำลังผลิต และวิทยาศาสตร์ เพิ่มโบนัสติดกัน +1[/TIP]</Text>		<!-- +1 to the adjacencies of standard [icon:YIELD_GOLD] Gold, [icon:YIELD_PRODUCTION] Production, and [icon:YIELD_SCIENCE] Science [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_HARRIET_TUBMAN_L2_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_HARRIET_TUBMAN_L2_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_HARRIET_TUBMAN_L2_DESCRIPTION_BASE} -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_CHARLEMAGNE_L2_DESCRIPTION_BASE" Language="th_TH">
-			<Text>+1 ไปยังโบนัสติดกันของ อาคาร [icon:YIELD_GOLD]ทอง, [icon:YIELD_PRODUCTION]กำลังผลิต และ [icon:YIELD_SCIENCE]วิทยาศาสตร์ [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +1 to the adjacencies of standard [icon:YIELD_GOLD] Gold, [icon:YIELD_PRODUCTION] Production, and [icon:YIELD_SCIENCE] Science [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>[icon:YIELD_GOLD] [icon:YIELD_PRODUCTION] [icon:YIELD_SCIENCE] [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทอง กำลังผลิต และวิทยาศาสตร์ ได้รับโบนัสติดกัน +1[/TIP]</Text>		<!-- +1 to the adjacencies of standard [icon:YIELD_GOLD] Gold, [icon:YIELD_PRODUCTION] Production, and [icon:YIELD_SCIENCE] Science [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_TRUNG_TRAC_L1_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_TRUNG_TRAC_L1_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_TRUNG_TRAC_L1_DESCRIPTION_BASE} -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_CONFUCIUS_L2_DESCRIPTION_BASE" Language="th_TH">
-			<Text>+1 ไปยังโบนัสติดกันของ อาคาร [icon:YIELD_GOLD]ทอง, [icon:YIELD_PRODUCTION]กำลังผลิต และ [icon:YIELD_SCIENCE]วิทยาศาสตร์ [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +1 to the adjacencies of standard [icon:YIELD_GOLD] Gold, [icon:YIELD_PRODUCTION] Production, and [icon:YIELD_SCIENCE] Science [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>[icon:YIELD_GOLD] [icon:YIELD_PRODUCTION] [icon:YIELD_SCIENCE] +1 ไปยังโบนัสติดกันของ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทอง กำลังผลิต และวิทยาศาสตร์[/TIP] [icon:CITY_BUILDING_LIST]</Text>		<!-- +1 to the adjacencies of standard [icon:YIELD_GOLD] Gold, [icon:YIELD_PRODUCTION] Production, and [icon:YIELD_SCIENCE] Science [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_XERXES_L2_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_XERXES_L2_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_XERXES_L2_DESCRIPTION_BASE} -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_FRIEDRICH_L2_DESCRIPTION_BASE" Language="th_TH">
-			<Text>+1 ไปยังโบนัสติดกันของ อาคาร [icon:YIELD_GOLD]ทอง, [icon:YIELD_PRODUCTION]กำลังผลิต และ [icon:YIELD_SCIENCE]วิทยาศาสตร์ [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +1 to the adjacencies of standard [icon:YIELD_GOLD] Gold, [icon:YIELD_PRODUCTION] Production, and [icon:YIELD_SCIENCE] Science [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>[icon:YIELD_GOLD] [icon:YIELD_PRODUCTION] [icon:YIELD_SCIENCE] [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทอง กำลังผลิต และวิทยาศาสตร์ เพิ่มโบนัสติดกัน +1[/TIP]</Text>		<!-- +1 to the adjacencies of standard [icon:YIELD_GOLD] Gold, [icon:YIELD_PRODUCTION] Production, and [icon:YIELD_SCIENCE] Science [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_BENJAMIN_FRANKLIN_L2_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_BENJAMIN_FRANKLIN_L2_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_BENJAMIN_FRANKLIN_L2_DESCRIPTION_BASE} -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_HIMIKO_L2_DESCRIPTION_BASE" Language="th_TH">
-			<Text>+1 ไปยังโบนัสติดกันของ อาคาร [icon:YIELD_GOLD]ทอง, [icon:YIELD_PRODUCTION]กำลังผลิต และ [icon:YIELD_SCIENCE]วิทยาศาสตร์ [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +1 to the adjacencies of standard [icon:YIELD_GOLD] Gold, [icon:YIELD_PRODUCTION] Production, and [icon:YIELD_SCIENCE] Science [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>[icon:YIELD_GOLD] [icon:YIELD_PRODUCTION] [icon:YIELD_SCIENCE] [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทอง กำลังผลิต และวิทยาศาสตร์ ได้รับโบนัสติดกัน +1[/TIP]</Text>		<!-- +1 to the adjacencies of standard [icon:YIELD_GOLD] Gold, [icon:YIELD_PRODUCTION] Production, and [icon:YIELD_SCIENCE] Science [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_CATHERINE_L2_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_CATHERINE_L2_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_CATHERINE_L2_DESCRIPTION_BASE} -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_TRUNG_TRAC_L2_DESCRIPTION_BASE" Language="th_TH">
-			<Text>+1 ไปยังโบนัสติดกันของ อาคาร [icon:YIELD_GOLD]ทอง, [icon:YIELD_PRODUCTION]กำลังผลิต และ [icon:YIELD_SCIENCE]วิทยาศาสตร์ [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +1 to the adjacencies of standard [icon:YIELD_GOLD] Gold, [icon:YIELD_PRODUCTION] Production, and [icon:YIELD_SCIENCE] Science [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>[icon:YIELD_GOLD] [icon:YIELD_PRODUCTION] [icon:YIELD_SCIENCE] [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทอง กำลังผลิต และวิทยาศาสตร์ ได้รับโบนัสติดกัน +1[/TIP]</Text>		<!-- +1 to the adjacencies of standard [icon:YIELD_GOLD] Gold, [icon:YIELD_PRODUCTION] Production, and [icon:YIELD_SCIENCE] Science [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_CHARLEMAGNE_L2_DESCRIPTION" Language="th_TH">
 			<Text>{LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_CHARLEMAGNE_L2_DESCRIPTION_BASE}</Text>		<!-- {LOC_MOD_ATTRIBUTE_LEGEND_UNLOCK} {LOC_MOD_ATTRIBUTE_SCIENTIFIC_LEGEND_CHARLEMAGNE_L2_DESCRIPTION_BASE} -->
@@ -7298,13 +7298,13 @@
 			<Text>กวนซี</Text>		<!-- Guanxi -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_GUANXI_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_DIPLOMACY] อิทธิพล บน [icon:YIELD_SCIENCE] อาคารวิทยาศาสตร์ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +1 [icon:YIELD_DIPLOMACY] influence on [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+1 [icon:YIELD_DIPLOMACY] อิทธิพล บน [icon:YIELD_SCIENCE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP]</Text>		<!-- +1 [icon:YIELD_DIPLOMACY] influence on [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_JIU_QING_NAME" Language="th_TH">
 			<Text>จิ่ว ฉิง</Text>		<!-- Jiu Qing -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_JIU_QING_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_DIPLOMACY] อิทธิพล บน [icon:YIELD_HAPPINESS] อาคารความสุข [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +1 [icon:YIELD_DIPLOMACY] influence on [icon:YIELD_HAPPINESS] Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+1 [icon:YIELD_DIPLOMACY] อิทธิพล บน [icon:YIELD_HAPPINESS] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านความสุข[/TIP]</Text>		<!-- +1 [icon:YIELD_DIPLOMACY] influence on [icon:YIELD_HAPPINESS] Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_TIANXIA_NAME" Language="th_TH">
 			<Text>เทียนเซี่ย</Text>		<!-- Tianxia -->
@@ -7334,13 +7334,13 @@
 			<Text>ชาร์วากะ</Text>		<!-- Charvaka -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_CHARVAKA_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:YIELD_HAPPINESS] ความสุข บน [icon:YIELD_SCIENCE] อาคารวิทยาศาสตร์ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +3 [icon:YIELD_HAPPINESS] Happiness on [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+3 [icon:YIELD_HAPPINESS] ความสุข บน [icon:YIELD_SCIENCE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP]</Text>		<!-- +3 [icon:YIELD_HAPPINESS] Happiness on [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_KSHATRIYA_NAME" Language="th_TH">
 			<Text>กษัตริยา</Text>		<!-- Kshatriya -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_KSHATRIYA_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_HAPPINESS] ความสุข บน [icon:MILITARY] อาคารทหาร [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +4 [icon:YIELD_HAPPINESS] Happiness on [icon:MILITARY] Military [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+4 [icon:YIELD_HAPPINESS] ความสุข บน [icon:MILITARY] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทหาร[/TIP]</Text>		<!-- +4 [icon:YIELD_HAPPINESS] Happiness on [icon:MILITARY] Military [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SHRENI_NAME" Language="th_TH">
 			<Text>ชเรนี</Text>		<!-- Shreni -->
@@ -7370,13 +7370,13 @@
 			<Text>ตซอล์กอิน</Text>		<!-- Tzolk'in -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_TZOLKIN_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์ บน [icon:YIELD_HAPPINESS] อาคารความสุข [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +2[icon:YIELD_SCIENCE] Science on [icon:YIELD_HAPPINESS] Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์ บน [icon:YIELD_HAPPINESS] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านความสุข[/TIP]</Text>		<!-- +2[icon:YIELD_SCIENCE] Science on [icon:YIELD_HAPPINESS] Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_HAAB_NAME" Language="th_TH">
 			<Text>ฮาบ</Text>		<!-- Haab' -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_HAAB_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม บน [icon:YIELD_HAPPINESS] อาคารความสุข [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +2[icon:YIELD_CULTURE] Culture on [icon:YIELD_HAPPINESS] Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม บน [icon:YIELD_HAPPINESS] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านความสุข[/TIP]</Text>		<!-- +2[icon:YIELD_CULTURE] Culture on [icon:YIELD_HAPPINESS] Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SHELL_TEMPERED_POTTERY_NAME" Language="th_TH">
 			<Text>เครื่องปั้นดินเผาแบบมีเปลือก</Text>		<!-- Shell-Tempered Pottery -->
@@ -7466,7 +7466,7 @@
 			<Text>เดวะโกสตา</Text>		<!-- Devakoshta -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_DEVAKOSHTA_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:YIELD_GOLD] อาคารทอง [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +3 [icon:YIELD_CULTURE] Culture on [icon:YIELD_GOLD] Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+3 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:YIELD_GOLD] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารทอง[/TIP]</Text>		<!-- +3 [icon:YIELD_CULTURE] Culture on [icon:YIELD_GOLD] Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_MARAKKALAM_NAME" Language="th_TH">
 			<Text>มารักกาลัม</Text>		<!-- Marakkalam -->
@@ -7478,7 +7478,7 @@
 			<Text>อังคาดี</Text>		<!-- Angadi -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_ANGADI_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_GOLD] ทอง ใน[TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP]อื่นๆ นอกเหนือจาก [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวงของคุณ หากพวกเขามี [icon:CITY_BUILDING_LIST] อาคาร[TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]ทางน้ำ[/TIP]</Text>		<!-- +4 [icon:YIELD_GOLD] Gold in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] other than your [icon:NOTIFICATION_SELECT_CAPITAL] Capital if they have a [icon:CITY_BUILDING_LIST] Water [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+			<Text>+4 [icon:YIELD_GOLD] ทอง ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] อื่นๆ นอกเหนือจาก [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวงของคุณ หากพวกเขามี [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทางน้ำ[/TIP]</Text>		<!-- +4 [icon:YIELD_GOLD] Gold in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] other than your [icon:NOTIFICATION_SELECT_CAPITAL] Capital if they have a [icon:CITY_BUILDING_LIST] Water [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_HO_OKUPU_NAME" Language="th_TH">
 			<Text>โฮโอะคุปู</Text>		<!-- Ho'okupu -->
@@ -7490,13 +7490,13 @@
 			<Text>อะฮูปูอา</Text>		<!-- Ahupua'a -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_AHUPUA_A_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_FOOD] อาหาร บน [icon:YIELD_CULTURE] อาคารวัฒนธรรม [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +4 [icon:YIELD_FOOD] Food on [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+4 [icon:YIELD_FOOD] อาหาร บน [icon:YIELD_CULTURE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรม[/TIP]</Text>		<!-- +4 [icon:YIELD_FOOD] Food on [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_KAPA_NAME" Language="th_TH">
 			<Text>กะปา</Text>		<!-- Kapa -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_KAPA_DESCRIPTION" Language="th_TH">
-			<Text>+50%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อการสร้าง [icon:YIELD_CULTURE] อาคารวัฒนธรรม[TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +50% [icon:YIELD_PRODUCTION] Production towards constructing [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+50%[icon:YIELD_PRODUCTION] กำลังผลิต เพื่อการสร้าง [icon:YIELD_CULTURE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรม[/TIP]</Text>		<!-- +50% [icon:YIELD_PRODUCTION] Production towards constructing [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_QUALLQA_NAME" Language="th_TH">
 			<Text>กุลกะ</Text>		<!-- Qullqa -->
@@ -7607,7 +7607,7 @@
 			<Text>แพลลิเซดิง</Text>		<!-- Palisading -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_PALISADING_DESCRIPTION" Language="th_TH">
-			<Text>+50% [icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้าง [icon:Action_Fortify] อาคารการป้องกัน[TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +50% [icon:YIELD_PRODUCTION] Production towards constructing [icon:Action_Fortify] Fortification [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+50% [icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้าง [icon:Action_Fortify] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านการป้องกัน[/TIP]</Text>		<!-- +50% [icon:YIELD_PRODUCTION] Production towards constructing [icon:Action_Fortify] Fortification [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SERVITIUM_DEBITUM_NAME" Language="th_TH">
 			<Text>เซอร์วิเทียม เดบิตัม</Text>		<!-- Servitium Debitum -->
@@ -7691,13 +7691,13 @@
 			<Text>อินเทอร์ลาคัสทริน</Text>		<!-- Interlacustrine -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_INTERLACUSTRINE_DESCRIPTION" Language="th_TH">
-			<Text>ทุก [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] จะได้รับการใกล้เคียงกับทะเลสาบตามผลผลิตทั้งหมดของพวกเขา</Text>		<!-- All [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] gain an Adjacency with Lakes based on all their Yields. -->
+			<Text>[icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารทั้งหมด[/TIP] จะได้รับการใกล้เคียงกับทะเลสาบตามผลผลิตทั้งหมดของพวกเขา</Text>		<!-- All [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] gain an Adjacency with Lakes based on all their Yields. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_STYLE_EMPIRE_NAME" Language="th_TH">
 			<Text>สไตล์จักรวรรดิ</Text>		<!-- Style Empire -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_STYLE_EMPIRE_DESCRIPTION" Language="th_TH">
-			<Text>การก่อสร้าง [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] จะให้[icon:YIELD_CULTURE] วัฒนธรรม เท่ากับ 25% ของ [icon:YIELD_PRODUCTION] ต้นทุนการผลิต</Text>		<!-- Constructing a [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP] grants [icon:YIELD_CULTURE] Culture equal to 25% of its [icon:YIELD_PRODUCTION] Production cost. -->
+			<Text>[icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]การก่อสร้างอาคาร[/TIP] จะให้ [icon:YIELD_CULTURE] วัฒนธรรม เท่ากับ 25% ของ [icon:YIELD_PRODUCTION] ต้นทุนการผลิต</Text>		<!-- Constructing a [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP] grants [icon:YIELD_CULTURE] Culture equal to 25% of its [icon:YIELD_PRODUCTION] Production cost. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_COCORICO_NAME" Language="th_TH">
 			<Text>โคโครีโค</Text>		<!-- Cocorico -->
@@ -7736,7 +7736,7 @@
 			<Text>ชูเซย์ โคคุโบะ</Text>		<!-- Shusei Kokubō -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SHUSEI_KOKUBO_DESCRIPTION" Language="th_TH">
-			<Text>[icon:MILITARY] อาคารทหาร [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] ได้รับ [icon:YIELD_PRODUCTION] กำลังผลิตโบนัสความใกล้เคียงชายฝั่ง</Text>		<!-- Modern [icon:MILITARY] Military [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] gain [icon:YIELD_PRODUCTION] Production Adjacency from Coast. -->
+			<Text>[icon:MILITARY] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทหาร[/TIP] ได้รับ [icon:YIELD_PRODUCTION] กำลังผลิตโบนัสความใกล้เคียงชายฝั่ง</Text>		<!-- Modern [icon:MILITARY] Military [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] gain [icon:YIELD_PRODUCTION] Production Adjacency from Coast. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_KOKUTAI_NAME" Language="th_TH">
 			<Text>โคคุตาอิ</Text>		<!-- Kōkūtai -->
@@ -7895,7 +7895,7 @@
 			<Text>รถไฟของรัฐ</Text>		<!-- State Railway -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_STATE_RAILWAY_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_DIPLOMACY] อิทธิพล จาก [icon:YIELD_GOLD] อาคารทอง [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +2 [icon:YIELD_DIPLOMACY] influence from [icon:YIELD_GOLD] Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+2 [icon:YIELD_DIPLOMACY] อิทธิพล จาก [icon:YIELD_GOLD] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารทอง[/TIP]</Text>		<!-- +2 [icon:YIELD_DIPLOMACY] influence from [icon:YIELD_GOLD] Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_GENERIC" Language="th_TH">
 			<Text>สวัสดีนักเดินทาง คุณควรรู้ว่าคุณยืนอยู่ในที่ซึ่งมีความยิ่งใหญ่!</Text>		<!-- Greetings traveler. You should know that you stand in the presence of greatness! -->
@@ -11539,13 +11539,13 @@
 			<Text>ธรรมราชา</Text>		<!-- Dhammaraja -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ASHOKA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[ฺBLIST][LI][B]+1 [icon:YIELD_FOOD] อาหาร [/B]ใน [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] สำหรับทุก [B]5 ความสุขเกิน [icon:YIELD_HAPPINESS] ความสุข[/B].[LI][B]+10% [icon:YIELD_FOOD] อาหาร [/B]ในทุก [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ในช่วง [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]งานเฉลิมฉลอง[/TIP][LI]ทุก [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] ได้รับ [B]+1 [icon:YIELD_HAPPINESS] ความสุข เพิ่มเติม [/B]สำหรับทุก [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนา[/TIP][/BLIST]</Text>		<!-- [BLIST][LI]+1 [icon:YIELD_FOOD] Food in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] for every 5 excess [icon:YIELD_HAPPINESS] Happiness.[LI]+10% [icon:YIELD_FOOD] Food in all [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] during a [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]Celebration[/TIP].[LI]All [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] gain a +1 [icon:YIELD_HAPPINESS] Happiness Adjacency for all [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP].[/BLIST] -->
+			<Text>[ฺBLIST][LI][B]+1 [icon:YIELD_FOOD] อาหาร [/B]ใน [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] สำหรับทุก [B]5 ความสุขเกิน [icon:YIELD_HAPPINESS] ความสุข[/B].[LI][B]+10% [icon:YIELD_FOOD] อาหาร [/B]ในทุก [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ในช่วง [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]งานเฉลิมฉลอง[/TIP][LI]ทุก [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนา[/TIP] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] ได้รับ [B]+1 [icon:YIELD_HAPPINESS] ความสุข เพิ่มเติม [/B][/BLIST]</Text>		<!-- [BLIST][LI]+1 [icon:YIELD_FOOD] Food in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] for every 5 excess [icon:YIELD_HAPPINESS] Happiness.[LI]+10% [icon:YIELD_FOOD] Food in all [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] during a [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]Celebration[/TIP].[LI]All [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] gain a +1 [icon:YIELD_HAPPINESS] Happiness Adjacency for all [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP].[/BLIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_AUGUSTUS_NAME" Language="th_TH">
 			<Text>ออกัสตัส</Text>		<!-- Augustus -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_AUGUSTUS_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_PRODUCTION] กำลังผลิต ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง สำหรับทุก [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP], สามารถซื้อ [icon:YIELD_CULTURE] อาคารวัฒนธรรม [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]ในอาคาร[/TIP] [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP], +50% [icon:YIELD_GOLD] ทอง ในการซื้อ [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP]</Text>		<!-- +2 [icon:YIELD_PRODUCTION] Production in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Town[/TIP]. Can purchase [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP]. +50% [icon:YIELD_GOLD] Gold towards purchasing [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP]. -->
+			<Text>+2 [icon:YIELD_PRODUCTION] กำลังผลิต ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง สำหรับทุก [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP], สามารถซื้อ [icon:YIELD_CULTURE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรม[/TIP] [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP], +50% [icon:YIELD_GOLD] ทอง ในการซื้อ [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP]</Text>		<!-- +2 [icon:YIELD_PRODUCTION] Production in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Town[/TIP]. Can purchase [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP]. +50% [icon:YIELD_GOLD] Gold towards purchasing [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_AUGUSTUS_ABILITY_NAME" Language="th_TH">
 			<Text>อิมเปอเรียม ไมอุส</Text>		<!-- Imperium Maius -->
@@ -11557,37 +11557,39 @@
 			<Text>เบนจามิน แฟรงคลิน</Text>		<!-- Benjamin Franklin -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_BENJAMIN_FRANKLIN_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุค [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]บนยุค[/TIP] บน [icon:YIELD_PRODUCTION] กำลังผลิต [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] ใน [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP], +50% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อการสร้าง [icon:YIELD_PRODUCTION] กำลังผลิต [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP], +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุค [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]จากยุค[/TIP] จาก [icon:ENDEAVOR] [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]ความร่วมมือ[/TIP] ที่คุณเริ่มต้นหรือ สนับสนุน สามารถมี [icon:ENDEAVOR] [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]ความร่วมมือ[/TIP] ประเภทเดียวกัน สองอย่างทำงานพร้อมกันได้ในเวลาเดียวกัน</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] on [icon:YIELD_PRODUCTION] Production [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP]. +50% [icon:YIELD_PRODUCTION] Production towards constructing [icon:YIELD_PRODUCTION] Production [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. +1 [icon:YIELD_SCIENCE] Science per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] from active [icon:ENDEAVOR] [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]Endeavors[/TIP] you started or supported. Can have two [icon:ENDEAVOR] [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]Endeavors[/TIP] of the same type active at a time. -->
+			<Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุค [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]จากยุค[/TIP] บน [icon:YIELD_PRODUCTION] กำลังผลิต [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] ใน [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP], +50% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อการสร้าง [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP], +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุค [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]จากยุค[/TIP] จาก [icon:ENDEAVOR] [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]ความร่วมมือ[/TIP] ที่คุณเริ่มต้นหรือสนับสนุน สามารถมี [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]ความร่วมมือ[/TIP] ประเภทเดียวกันสองอย่างทำงานพร้อมกันได้ในเวลาเดียวกัน</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] on [icon:YIELD_PRODUCTION] Production [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP]. +50% [icon:YIELD_PRODUCTION] Production towards constructing [icon:YIELD_PRODUCTION] Production [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. +1 [icon:YIELD_SCIENCE] Science per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] from active [icon:ENDEAVOR] [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]Endeavors[/TIP] you started or supported. Can have two [icon:ENDEAVOR] [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]Endeavors[/TIP] of the same type active at a time. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_BENJAMIN_FRANKLIN_ABILITY_NAME" Language="th_TH">
 			<Text>ชาวอเมริกันคนแรก</Text>		<!-- The First American -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_BENJAMIN_FRANKLIN_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI]+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]ต่อ[TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP]ใน [icon:YIELD_PRODUCTION] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารกำลังผลิต[/TIP]ใน [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP][LI]+50% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [icon:YIELD_PRODUCTION] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารกำลังผลิต[/TIP][LI]+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]ต่อ[TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP]จาก [icon:ENDEAVOR] [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]ความร่วมมือ[/TIP]ที่คุณเริ่มหรือสนับสนุน[LI]สามารถมี [icon:ENDEAVOR] [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]ความร่วมมือ[/TIP]ประเภทเดียวกันได้ สองรายการ ที่กำลังดำเนินการในเวลาเดียวกัน[/BLIST]</Text>		<!-- [BLIST][LI]+1 [icon:YIELD_SCIENCE] Science per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] on [icon:YIELD_PRODUCTION] Production [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP].[LI]+50% [icon:YIELD_PRODUCTION] Production towards constructing [icon:YIELD_PRODUCTION] Production [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP].[LI]+1 [icon:YIELD_SCIENCE] Science per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] from active [icon:ENDEAVOR] [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]Endeavors[/TIP] you started or supported.[LI]Can have two [icon:ENDEAVOR] [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]Endeavors[/TIP] of the same type active at a time.[/BLIST] -->
+			<Text>```plaintext
+[BLIST][LI]+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]ต่อ[TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP]ใน [icon:YIELD_PRODUCTION] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านกำลังผลิต[/TIP]ใน [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP][LI]+50% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [icon:YIELD_PRODUCTION] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านกำลังผลิต[/TIP][LI]+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ [/B]ต่อ[TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP]จาก [icon:ENDEAVOR] [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]ความร่วมมือ[/TIP]ที่คุณเริ่มหรือสนับสนุน[LI]สามารถมี [icon:ENDEAVOR] [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]ความร่วมมือ[/TIP]ประเภทเดียวกันได้ สองรายการ ที่กำลังดำเนินการในเวลาเดียวกัน[/BLIST]
+```</Text>		<!-- [BLIST][LI]+1 [icon:YIELD_SCIENCE] Science per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] on [icon:YIELD_PRODUCTION] Production [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP].[LI]+50% [icon:YIELD_PRODUCTION] Production towards constructing [icon:YIELD_PRODUCTION] Production [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP].[LI]+1 [icon:YIELD_SCIENCE] Science per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] from active [icon:ENDEAVOR] [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]Endeavors[/TIP] you started or supported.[LI]Can have two [icon:ENDEAVOR] [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]Endeavors[/TIP] of the same type active at a time.[/BLIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CATHERINE_NAME" Language="th_TH">
 			<Text>แคทเธอรีนมหาราช</Text>		<!-- Catherine the Great -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CATHERINE_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม ต่อ[TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP] บน [icon:GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]ผลงานชิ้นเอก[/TIP] ที่แสดงอยู่ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP] ที่มี [icon:GREATWORK] ช่องผลงานชิ้นเอก จะได้รับช่องเพิ่มเติม 1 ช่อง [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ที่ตั้งอยู่ในทุ่งน้ำแข็งจะได้รับ [icon:YIELD_SCIENCE] วิทยาศาสตร์ เท่ากับ 25% ของ [icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] on displayed [icon:GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]Great Works[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP] with [icon:GREATWORK] Great Work slots gain 1 additional slot. [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] settled in Tundra gain [icon:YIELD_SCIENCE] Science equal to 25% of their [icon:YIELD_CULTURE] Culture per turn. -->
+			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม ต่อ [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP] บน [icon:GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]ผลงานชิ้นเอก[/TIP] ที่แสดงอยู่ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารและสิ่งมหัศจรรย์[/TIP] ที่มี [icon:GREATWORK] ช่องผลงานชิ้นเอก จะได้รับช่องเพิ่มเติม 1 ช่อง [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ที่ตั้งอยู่ในทุ่งน้ำแข็งจะได้รับ [icon:YIELD_SCIENCE] วิทยาศาสตร์ เท่ากับ 25% ของ [icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] on displayed [icon:GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]Great Works[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP] with [icon:GREATWORK] Great Work slots gain 1 additional slot. [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] settled in Tundra gain [icon:YIELD_SCIENCE] Science equal to 25% of their [icon:YIELD_CULTURE] Culture per turn. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_CATHERINE_ABILITY_NAME" Language="th_TH">
 			<Text>ดวงดาวแห่งทิศเหนือ</Text>		<!-- Star of the North -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_CATHERINE_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI]+2 [icon:YIELD_CULTURE] วัฒนธรรม ต่อ [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP]จาก [icon:GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]ผลงานชิ้นเอก[/TIP]ที่แสดงอยู่[LI][TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]และ[TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP]ที่มี [icon:GREATWORK] ช่องผลงานชิ้นเอก [/B]จะได้รับ [B]1 ช่อง[/B] เพิ่มเติม[LI][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ที่ตั้งอยู่ใน [B]ทุ่งน้ำแข็ง [/B]จะได้รับ [icon:YIELD_SCIENCE] [B]วิทยาศาสตร์ [/B]เท่ากับ [B]25% [/B]ของ [icon:YIELD_CULTURE] [B]วัฒนธรรม [/B]ต่อเทิร์น[/BLIST]</Text>		<!-- [BLIST][LI]+2 [icon:YIELD_CULTURE] Culture per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] on displayed [icon:GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]Great Works[/TIP].[LI][TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP] with [icon:GREATWORK] Great Work slots gain 1 additional slot.[LI][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] settled in Tundra gain [icon:YIELD_SCIENCE] Science equal to 25% of their [icon:YIELD_CULTURE] Culture per turn.[/BLIST] -->
+			<Text>[BLIST][LI]+2 [icon:YIELD_CULTURE] [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]วัฒนธรรมต่อยุค[/TIP]จาก [icon:GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]ผลงานชิ้นเอก[/TIP]ที่แสดงอยู่[LI][TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารและสิ่งมหัศจรรย์[/TIP]ที่มี [icon:GREATWORK] ช่องผลงานชิ้นเอก จะได้รับ 1 ช่องเพิ่มเติม[LI][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ที่ตั้งอยู่ใน [B]ทุ่งน้ำแข็ง[/B]จะได้รับ [icon:YIELD_SCIENCE] [B]วิทยาศาสตร์[/B]เท่ากับ [B]25%[/B] ของ [icon:YIELD_CULTURE] [B]วัฒนธรรม[/B]ต่อเทิร์น[/BLIST]</Text>		<!-- [BLIST][LI]+2 [icon:YIELD_CULTURE] Culture per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] on displayed [icon:GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]Great Works[/TIP].[LI][TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP] with [icon:GREATWORK] Great Work slots gain 1 additional slot.[LI][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] settled in Tundra gain [icon:YIELD_SCIENCE] Science equal to 25% of their [icon:YIELD_CULTURE] Culture per turn.[/BLIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHARLEMAGNE_NAME" Language="th_TH">
 			<Text>ชาร์เลอมาญ</Text>		<!-- Charlemagne -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHARLEMAGNE_DESCRIPTION" Language="th_TH">
-			<Text>อาคาร [icon:MILITARY] ทหาร และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]จะได้รับ[/TIP] [icon:YIELD_HAPPINESS] ความสุข โบนัสใกล้เคียง สำหรับ [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]พื้นที่ย่าน[/TIP] รับยูนิต [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]ทหารม้าฟรี 2 ยูนิต[/TIP] เมื่อปลดล็อกแล้วเมื่อเข้าสู่ [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]งานเฉลิมฉลอง[/TIP], +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]ยูนิตทหารม้า[/TIP] ในระหว่าง [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]งานเฉลิมฉลอง[/TIP]</Text>		<!-- [icon:MILITARY] Military and [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive a +1 [icon:YIELD_HAPPINESS] Happiness Adjacency for [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP]. Gain 2 free [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Units[/TIP], once unlocked, when entering a [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]Celebration[/TIP]. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Units[/TIP] during a [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]Celebration[/TIP]. -->
+			<Text>[icon:MILITARY] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทหาร[/TIP] และ [icon:YIELD_SCIENCE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]จะได้รับความสุข โบนัสใกล้เคียง[/TIP] สำหรับ [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]พื้นที่ย่าน[/TIP] รับ [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]ยูนิตทหารม้าฟรี 2 ยูนิต[/TIP] เมื่อปลดล็อกแล้วเมื่อเข้าสู่ [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]งานเฉลิมฉลอง[/TIP], +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]ยูนิตทหารม้า[/TIP] ในระหว่าง [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]งานเฉลิมฉลอง[/TIP]</Text>		<!-- [icon:MILITARY] Military and [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive a +1 [icon:YIELD_HAPPINESS] Happiness Adjacency for [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP]. Gain 2 free [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Units[/TIP], once unlocked, when entering a [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]Celebration[/TIP]. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Units[/TIP] during a [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]Celebration[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_CHARLEMAGNE_ABILITY_NAME" Language="th_TH">
 			<Text>บิดาแห่งยุโรป</Text>		<!-- Father of Europe -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_CHARLEMAGNE_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][icon:MILITARY] ทหาร และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] จะได้รับ +1 [icon:YIELD_HAPPINESS] ความสุข โบนัสใกล้เคียง สำหรับ [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]พื้นที่ย่าน[/TIP][LI]ได้รับฟรี [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]ยูนิตทหารม้า 2 หน่วย[/TIP] เมื่อปลดล็อกแล้ว ในระหว่าง [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]งานเฉลิมฉลอง[/TIP][LI]+5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]ยูนิตทหารม้า[/TIP] ในระหว่าง [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]งานเฉลิมฉลอง[/TIP][/LIST]</Text>		<!-- [BLIST][LI][icon:MILITARY] Military and [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive a +1 [icon:YIELD_HAPPINESS] Happiness Adjacency for [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP].[LI]Gain 2 free [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Units[/TIP], once unlocked, when entering a [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]Celebration[/TIP].[LI]+5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Units[/TIP] during a [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]Celebration[/TIP].[/BLIST] -->
+			<Text>[LIST][LI][icon:MILITARY] ทหาร และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทหารและวิทยาศาสตร์[/TIP] จะได้รับ +1 [icon:YIELD_HAPPINESS] ความสุข โบนัสใกล้เคียง สำหรับ [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]พื้นที่ย่าน[/TIP][LI]ได้รับฟรี [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]ยูนิตทหารม้า 2 หน่วย[/TIP] เมื่อปลดล็อกแล้ว ในระหว่าง [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]งานเฉลิมฉลอง[/TIP][LI]+5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]ยูนิตทหารม้า[/TIP] ในระหว่าง [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]งานเฉลิมฉลอง[/TIP][/LIST]</Text>		<!-- [BLIST][LI][icon:MILITARY] Military and [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive a +1 [icon:YIELD_HAPPINESS] Happiness Adjacency for [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP].[LI]Gain 2 free [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Units[/TIP], once unlocked, when entering a [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]Celebration[/TIP].[LI]+5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Units[/TIP] during a [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]Celebration[/TIP].[/BLIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CONFUCIUS_NAME" Language="th_TH">
 			<Text>ขงจื๊อ</Text>		<!-- Confucius -->
@@ -11605,13 +11607,13 @@
 			<Text>ฟรีดริช, โอบลีค</Text>		<!-- Friedrich, Oblique -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_FRIEDRICH_DESCRIPTION" Language="th_TH">
-			<Text>[icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]ผู้บัญชาการทหาร[/TIP] จะมาพร้อม เหรียญ [TIP:LOC_PEDIA_CONCEPTS_COMMENDATION_TOOLTIP]เชิดชู[/TIP], มอบให้พวกเขา +1 [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]ระยะบัญชาการ[/TIP], รับ[TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]ยูนิตทหาร[/TIP]จากการวิจัย [icon:RADIAL_TECH] [TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]เทคโนโลยีระดับเชี่ยวชาญ[/TIP] หรือ สร้าง [icon:YIELD_SCIENCE] อาคาร [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]วิทยาศาสตร์[/TIP]</Text>		<!-- [icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Army Commanders[/TIP] start with the Merit [TIP:LOC_PEDIA_CONCEPTS_COMMENDATION_TOOLTIP]Commendation[/TIP], granting them +1 [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]Command Radius[/TIP]. Gain an [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]Infantry Unit[/TIP] when you complete a [icon:RADIAL_TECH] [TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]Technology Mastery[/TIP] or construct a [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+			<Text>[icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]ผู้บัญชาการทหาร[/TIP] จะมาพร้อม [TIP:LOC_PEDIA_CONCEPTS_COMMENDATION_TOOLTIP]เหรียญเชิดชู[/TIP], มอบให้พวกเขา +1 [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]ระยะบัญชาการ[/TIP], รับ [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]ยูนิตทหาร[/TIP] จากการวิจัย [icon:RADIAL_TECH] [TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]เทคโนโลยีระดับเชี่ยวชาญ[/TIP] หรือสร้าง [icon:YIELD_SCIENCE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP]</Text>		<!-- [icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Army Commanders[/TIP] start with the Merit [TIP:LOC_PEDIA_CONCEPTS_COMMENDATION_TOOLTIP]Commendation[/TIP], granting them +1 [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]Command Radius[/TIP]. Gain an [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]Infantry Unit[/TIP] when you complete a [icon:RADIAL_TECH] [TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]Technology Mastery[/TIP] or construct a [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_FRIEDRICH_ABILITY_NAME" Language="th_TH">
 			<Text>สถาบันการศึกษาแห่งเบอร์ลิน</Text>		<!-- Berlin Academy -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_FRIEDRICH_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI][icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]ผู้บัญชาการทหาร[/TIP] จะมาพร้อม [TIP:LOC_PEDIA_CONCEPTS_COMMENDATION_TOOLTIP]เหรียญเชิดชู[/TIP] มอบให้พวกเขา [B]+1 [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]ระยะบัญชาการ[/TIP][/B].[LI]รับ [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]ยูนิตทหารราบ[/TIP] เมื่อคุณวิจัย [icon:RADIAL_TECH] [TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]เทคโนโลยีระดับเชี่ยวชาญ[/TIP] หรือสร้าง [icon:YIELD_SCIENCE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารวิทยาศาสตร์[/TIP][/LIST]</Text>		<!-- [BLIST][LI][icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Army Commanders[/TIP] start with the Merit [TIP:LOC_PEDIA_CONCEPTS_COMMENDATION_TOOLTIP]Commendation[/TIP], granting them +1 [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]Command Radius[/TIP].[LI]Gain an [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]Infantry Unit[/TIP] when you complete a [icon:RADIAL_TECH] [TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]Technology Mastery[/TIP] or construct a [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP].[/BLIST] -->
+			<Text>[LIST][LI][icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]ผู้บัญชาการทหาร[/TIP] จะมาพร้อม [TIP:LOC_PEDIA_CONCEPTS_COMMENDATION_TOOLTIP]เหรียญเชิดชู[/TIP] มอบให้พวกเขา [B]+1 [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]ระยะบัญชาการ[/TIP][/B].[LI]รับ [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]ยูนิตทหารราบ[/TIP] เมื่อคุณวิจัย [icon:RADIAL_TECH] [TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]เทคโนโลยีระดับเชี่ยวชาญ[/TIP] หรือสร้าง [icon:YIELD_SCIENCE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP][/LIST]</Text>		<!-- [BLIST][LI][icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Army Commanders[/TIP] start with the Merit [TIP:LOC_PEDIA_CONCEPTS_COMMENDATION_TOOLTIP]Commendation[/TIP], granting them +1 [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]Command Radius[/TIP].[LI]Gain an [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]Infantry Unit[/TIP] when you complete a [icon:RADIAL_TECH] [TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]Technology Mastery[/TIP] or construct a [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP].[/BLIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_HARRIET_TUBMAN_NAME" Language="th_TH">
 			<Text>แฮเรียต ทับแมน</Text>		<!-- Harriet Tubman -->
@@ -11728,7 +11730,7 @@
 			<Text>ปาชาคูติ</Text>		<!-- Pachacuti -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_PACHACUTI_DESCRIPTION" Language="th_TH">
-			<Text>ทุก [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] จะได้รับ +1 [icon:YIELD_FOOD] อาหาร โบนัสใกล้เคียงภูเขา, [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]ผู้เชี่ยวชาญ[/TIP] ที่อยู่ติดกับภูเขาจะไม่ต้องจ่ายค่าบำรุงรักษา [icon:YIELD_HAPPINESS] ความสุข [TIP:LOC_PEDIA_CONCEPTS_MAINTENANCE_TOOLTIP]ค่าบำรุงรักษา[/TIP], [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] จะได้รับโบนัส [icon:YIELD_PRODUCTION] กำลังผลิต เท่ากับ 10% ของ [icon:YIELD_FOOD] อาหาร ของเมืองนั้น</Text>		<!-- All [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive a +1 [icon:YIELD_FOOD] Food Adjacency for Mountains. [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP] adjacent to Mountains pay no [icon:YIELD_HAPPINESS] Happiness [TIP:LOC_PEDIA_CONCEPTS_MAINTENANCE_TOOLTIP]maintenance[/TIP]. [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] gain a bonus to [icon:YIELD_PRODUCTION] Production equal to 10% of that City’s [icon:YIELD_FOOD] Food. -->
+			<Text>[icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] ทุกแห่งจะได้รับ +1 [icon:YIELD_FOOD] อาหาร โบนัสใกล้เคียงภูเขา, [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]ผู้เชี่ยวชาญ[/TIP] ที่อยู่ติดกับภูเขาจะไม่ต้องจ่าย [TIP:LOC_PEDIA_CONCEPTS_MAINTENANCE_TOOLTIP]ค่าบำรุงรักษา[/TIP] [icon:YIELD_HAPPINESS] ความสุข, [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] จะได้รับโบนัส [icon:YIELD_PRODUCTION] กำลังผลิต เท่ากับ 10% ของ [icon:YIELD_FOOD] อาหาร ของเมืองนั้น</Text>		<!-- All [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive a +1 [icon:YIELD_FOOD] Food Adjacency for Mountains. [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP] adjacent to Mountains pay no [icon:YIELD_HAPPINESS] Happiness [TIP:LOC_PEDIA_CONCEPTS_MAINTENANCE_TOOLTIP]maintenance[/TIP]. [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] gain a bonus to [icon:YIELD_PRODUCTION] Production equal to 10% of that City’s [icon:YIELD_FOOD] Food. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_TRADITIONS_EMPTY" Language="th_TH">
 			<Text>ไม่มีประเพณีพิเศษ</Text>		<!-- No unique traditions. -->
@@ -11767,7 +11769,7 @@
 			<Text>ติดตั้งของที่ระลึกเมื่อเริ่มเกมใหม่หรือเปลี่ยนยุค</Text>		<!-- Equip Mementos when starting a New Game or at Age Transition -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_PACHACUTI_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]อาคารทุกชนิดได้รับโบนัส [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] ได้รับโบนัส [B]+1 [icon:YIELD_FOOD] อาหาร[/B] จากพื้นที่ติดกับ [B]ภูเขา[/B].[LI][icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]ผู้เชี่ยวชาญ[/TIP] ที่อยู่ติดกับ [B]ภูเขา[/B] ไม่ต้องเสียค่าบำรุงรักษา [icon:YIELD_HAPPINESS] [B]ความสุข[/B].[LI][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ได้รับโบนัส [icon:YIELD_PRODUCTION] [B]กำลังผลิต[/B] เท่ากับ [B]10%[/B] ของ [icon:YIELD_FOOD] [B]อาหาร[/B] ของเมืองนั้น[/LIST]</Text>		<!-- [BLIST][LI]All [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive a +1 [icon:YIELD_FOOD] Food Adjacency for Mountains.[LI][icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP] adjacent to Mountains pay no [icon:YIELD_HAPPINESS] Happiness [TIP:LOC_PEDIA_CONCEPTS_MAINTENANCE_TOOLTIP]maintenance[/TIP].[LI][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] gain a bonus to [icon:YIELD_PRODUCTION] Production equal to 10% of that City’s [icon:YIELD_FOOD] Food.[/BLIST] -->
+			<Text>[LIST][LI][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารทุกชนิดได้รับโบนัส +1 อาหาร จากพื้นที่ติดกับภูเขา[/TIP].[LI][icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]ผู้เชี่ยวชาญที่อยู่ติดกับภูเขาไม่ต้องเสียค่าบำรุงรักษาความสุข[/TIP].[LI][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่ได้รับโบนัสกำลังผลิตเท่ากับ 10% ของอาหารของเมืองนั้น[/TIP][/LIST]</Text>		<!-- [BLIST][LI]All [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive a +1 [icon:YIELD_FOOD] Food Adjacency for Mountains.[LI][icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP] adjacent to Mountains pay no [icon:YIELD_HAPPINESS] Happiness [TIP:LOC_PEDIA_CONCEPTS_MAINTENANCE_TOOLTIP]maintenance[/TIP].[LI][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] gain a bonus to [icon:YIELD_PRODUCTION] Production equal to 10% of that City’s [icon:YIELD_FOOD] Food.[/BLIST] -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_TRUNG_TRAC_NAME" Language="th_TH">
 			<Text>จึง จั๊ก</Text>		<!-- Trung Trac -->
@@ -12499,7 +12501,7 @@
 			<Text>การเดินด้วยไม้เท้าเป็นแนวทาง</Text>		<!-- Cane-supported cadence. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FRIEDRICH_OBLIQUE_WALKING_STICK_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อ[TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP] บนอาคาร[TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]ทหาร[/TIP]</Text>		<!-- +1[icon:YIELD_SCIENCE] Science per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] on Military [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อ [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP] บน [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทหาร[/TIP]</Text>		<!-- +1[icon:YIELD_SCIENCE] Science per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] on Military [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_FRIEDRICH_OBLIQUE_ORDER_BLACK_EAGLE_NAME" Language="th_TH">
 			<Text>คำสั่งของเหรียญกลุ่มนกอินทรีดำ</Text>		<!-- Order of the Black Eagle Badge -->
@@ -12583,7 +12585,7 @@
 			<Text>ของขวัญจากจักรพรรดิ</Text>		<!-- Gift from an emperor. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_HIMIKO_QUEEN_GOLDEN_SEAL_STONE_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_DIPLOMACY] อิทธิพล ต่อยุค [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]อายุ[/TIP] บนอาคาร [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]วิทยาศาสตร์</Text>		<!-- +1[icon:YIELD_DIPLOMACY] Influence per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] on Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+			<Text>+1[icon:YIELD_DIPLOMACY] อิทธิพล ต่อยุค [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]อายุ[/TIP] บน[TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP]</Text>		<!-- +1[icon:YIELD_DIPLOMACY] Influence per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] on Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_HIMIKO_QUEEN_YASAKANI_NO_MAGATAMA_NAME" Language="th_TH">
 			<Text>ยาสากานิ โนะ มากะทามะ</Text>		<!-- Yasakani no Magatama -->
