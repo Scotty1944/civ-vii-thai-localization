@@ -26,19 +26,19 @@
 			<Text>มาจาปูชาร์เร</Text>		<!-- Machapuchare -->
 		</Replace>
 		<Replace Tag="LOC_FEATURE_MACHAPUCHARE_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม และ +4 [icon:YIELD_PRODUCTION] กำลังผลิต ต่อยุค, +1 [icon:YIELD_HAPPINESS] ความสุข บนพื้นที่ขรุขระและภูเขาในถิ่นฐานนี้</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture and +4 [icon:YIELD_PRODUCTION] Production per Age. +1[icon:YIELD_HAPPINESS] Happiness on Rough and Mountain Terrain in this Settlement. -->
+			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม และ +4 [icon:YIELD_PRODUCTION] กำลังผลิต ต่อยุค, +1 [icon:YIELD_HAPPINESS] ความสุข ต่อ [icon:CITY_RURAL] พื้นที่พัฒนา บนพื้นที่ขรุขระและภูเขาในถิ่นฐานนี้</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture and +4 [icon:YIELD_PRODUCTION] Production per Age. +1[icon:YIELD_HAPPINESS] Happiness to [icon:CITY_RURAL] Improvements on Rough and Mountain Terrain in this Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_FEATURE_MACHAPUCHARE_TOOLTIP" Language="th_TH">
-			<Text>+1 [icon:YIELD_HAPPINESS] ความสุข บนพื้นที่ขรุขระและภูเขาในถิ่นฐานนี้</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness on Rough and Mountain Terrain in this Settlement. -->
+			<Text>+1[icon:YIELD_HAPPINESS] ความสุข ต่อ [icon:CITY_RURAL] พื้นที่พัฒนาบนผิวขรุขระและภูเขาในถิ่นฐานนี้</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness to [icon:CITY_RURAL] Improvements on Rough and Mountain Terrain in this Settlement. -->
 		</Replace>
 		<Replace Tag="LOC_FEATURE_MOUNT_FUJI_NAME" Language="th_TH">
 			<Text>ภูเขาฟูจิ</Text>		<!-- Mount Fuji -->
 		</Replace>
 		<Replace Tag="LOC_FEATURE_MOUNT_FUJI_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_GOLD] ทอง, [icon:YIELD_CULTURE] วัฒนธรรม, และ [icon:YIELD_HAPPINESS] ความสุข ต่อยุค, ช่องภูเขาไฟ</Text>		<!-- +2 [icon:YIELD_GOLD] Gold, [icon:YIELD_CULTURE] Culture, and [icon:YIELD_HAPPINESS] Happiness per Age. Volcano tiles. -->
+			<Text>+2 [icon:YIELD_GOLD] ทอง, [icon:YIELD_CULTURE] วัฒนธรรม, และ [icon:YIELD_HAPPINESS] ความสุข ต่อยุค, ช่องภูมิประเทศภูเขาไฟ</Text>		<!-- +2 [icon:YIELD_GOLD] Gold, [icon:YIELD_CULTURE] Culture, and [icon:YIELD_HAPPINESS] Happiness per Age. Volcano Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_FEATURE_MOUNT_FUJI_TOOLTIP" Language="th_TH">
-			<Text>ช่องภูเขาไฟ</Text>		<!-- Volcano tiles. -->
+			<Text>ช่องภูมิประเทศภูเขาไฟ</Text>		<!-- Volcano Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_FEATURE_VIHREN_NAME" Language="th_TH">
 			<Text>วิเฮรน</Text>		<!-- Vihren -->
@@ -53,10 +53,10 @@
 			<Text>วินิคุนคา</Text>		<!-- Vinicunca -->
 		</Replace>
 		<Replace Tag="LOC_FEATURE_VINICUNCA_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_PRODUCTION] กำลังผลิต, [icon:YIELD_HAPPINESS] ความสุข, และ[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุค, +2 [icon:YIELD_CULTURE] วัฒนธรรมให้กับพื้นที่ชนบทที่อยู่ใกล้เคียง</Text>		<!-- +2[icon:YIELD_PRODUCTION] Production,[icon:YIELD_HAPPINESS] Happiness, and[icon:YIELD_SCIENCE] Science per Age. +2 [icon:YIELD_CULTURE] Culture to adjacent Rural tiles. -->
+			<Text>+2[icon:YIELD_PRODUCTION] กำลังผลิต,[icon:YIELD_HAPPINESS] ความสุข, และ[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุค, +2 [icon:YIELD_CULTURE] วัฒนธรรมบน[icon:CITY_RURAL] พื้นที่พัฒนาในพื้นที่ใกล้เคียง</Text>		<!-- +2[icon:YIELD_PRODUCTION] Production,[icon:YIELD_HAPPINESS] Happiness, and[icon:YIELD_SCIENCE] Science per Age. +2 [icon:YIELD_CULTURE] Culture on [icon:CITY_RURAL] Improvements on adjacent tiles. -->
 		</Replace>
 		<Replace Tag="LOC_FEATURE_VINICUNCA_TOOLTIP" Language="th_TH">
-			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม ไปยัง ช่องชนบท ที่อยู่ติดกัน</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture to adjacent Rural tiles. -->
+			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:CITY_RURAL] พื้นที่พัฒนา บนช่องติดกัน</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture on [icon:CITY_RURAL] Improvements on adjacent tiles. -->
 		</Replace>
 		<Replace Tag="LOC_VOLCANO_MOUNT_VINSON_NAME" Language="th_TH">
 			<Text>ภูเขาวินสัน</Text>		<!-- Mount Vinson -->

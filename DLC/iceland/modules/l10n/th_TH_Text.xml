@@ -281,19 +281,19 @@
 			<Text>ธิงสตาเดอะร์</Text>		<!-- Þingstaðr -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_THING_DESCRIPTION" Language="th_TH">
-			<Text>พื้นที่พัฒนาพิเศษ ของไอซ์แลนด์ +4[icon:YIELD_HAPPINESS] ความสุข +1[icon:YIELD_CULTURE] วัฒนธรรม จากการอยู่ใกล้สำหรับพื้นที่ชื้น, ที่ราบน้ำท่วม, ภูเขาไฟ, และพื้นที่มีพืชพรรณ อนุญาตให้ฝึก [icon:UNIT_SAGA_HERO] ฮีโร่ซากะในถิ่นฐานนี้, คงอยู่ตลอดกาล, ไม่ลบโบนัส [icon:YIELD_WAREHOUSE] คลังสินค้าในพื้นที่, ต้องวางบนพื้นที่พัฒนา [icon:CITY_RURAL] ที่มีอยู่ในทุ่งน้ำแข็งหรือทุ่งหญ้าไม่ติดกับ ธิงสตาเดอะร์ อื่น</Text>		<!-- Icelandic Unique Improvement. +4[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture Adjacency for Wet, Floodplains, Volcano, and Vegetated tiles. Allows training the [icon:UNIT_SAGA_HERO] Saga Hero in this Settlement. Ageless. Does not remove [icon:YIELD_WAREHOUSE] Warehouse bonuses on a tile. Must be placed on an existing [icon:CITY_RURAL] Improvement on Tundra or Grassland not adjacent to another Þingstaðr. -->
+			<Text>พื้นที่พัฒนาพิเศษของไอซ์แลนด์ [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]พัฒนาพิเศษ[/TIP], +4[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_CULTURE] วัฒนธรรม จากการอยู่ใกล้สำหรับพื้นที่ชื้น, [TIP:LOC_PEDIA_CONCEPTS_FLOODPLAINS_TOOLTIP]ที่ราบน้ำท่วม[/TIP], ภูเขาไฟ, และ [TIP:LOC_PEDIA_CONCEPTS_VEGETATED_TERRAIN_TOOLTIP]พื้นที่มีพืชพรรณ[/TIP] อนุญาตให้ฝึก [icon:UNIT_SAGA_HERO] ฮีโร่ซากะในถิ่นฐานนี้ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP], ต้องวางบนพื้นที่พัฒนาในทุ่งน้ำแข็งหรือทุ่งหญ้าไม่ติดกับ ธิงสตาเดอะร์ อื่น</Text>		<!-- Icelandic [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvement[/TIP]. +4[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture Adjacency for Wet, [TIP:LOC_PEDIA_CONCEPTS_FLOODPLAINS_TOOLTIP]Floodplains[/TIP], Volcano, and [TIP:LOC_PEDIA_CONCEPTS_VEGETATED_TERRAIN_TOOLTIP]Vegetated[/TIP] tiles. Allows training the [icon:UNIT_SAGA_HERO] Saga Hero in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. Must be placed on Tundra or Grassland not adjacent to another Þingstaðr. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_THING_TOOLTIP" Language="th_TH">
-			<Text>อนุญาตให้ฝึก [icon:UNIT_SAGA_HERO] ยูนิตฮีโร่ซากะในถิ่นฐานนี้ ไม่ลบโบนัส [icon:YIELD_WAREHOUSE] อาคารคลังสินค้าบนแผ่นดิน ต้องวางบนกพื้นที่พัฒนา [icon:CITY_RURAL] ที่มีอยู่บนทุ่งหิมะหรือทุ่งหญ้าไม่ติดกับ ธิงสตาเดอะร์ อื่น[n]พื้นที่พัฒนาพิเศษ ของไอซ์แลนด์</Text>		<!-- Allows training the [icon:UNIT_SAGA_HERO] Saga Hero in this Settlement. Does not remove [icon:YIELD_WAREHOUSE] Warehouse bonuses on a tile. Must be placed on an existing [icon:CITY_RURAL] Improvement on Tundra or Grassland not adjacent to another Þingstaðr.[n]Icelandic Unique Improvement. -->
+			<Text>อนุญาตให้ฝึก [icon:UNIT_SAGA_HERO] ยูนิตฮีโร่ซากะในถิ่นฐานนี้ ต้องวางบนทุ่งหิมะหรือทุ่งหญ้าไม่ติดกับ ธิงสตาเดอะร์ อื่น[n]พื้นที่พัฒนาพิเศษ ของไอซ์แลนด์</Text>		<!-- Allows training the [icon:UNIT_SAGA_HERO] Saga Hero in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. Must be placed on Tundra or Grassland not adjacent to another Þingstaðr.[n]Icelandic [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvement[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_REYKHOLT_NAME" Language="th_TH">
 			<Text>เรคยาฮอลต์</Text>		<!-- Reykjaholt -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_REYKHOLT_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:YIELD_CULTURE] วัฒนธรรม, +25% [icon:YIELD_PRODUCTION] กำลังผลิต ในการฝึกยูนิตทหารในเมืองใหญ่นี้สำหรับทุก [icon:NAR_REW_GREATWORK] ผลงานชิ้นเอกในเมืองนี้, คงอยู่ตลอดกาล, ต้องวางบนช่องทุ่งน้ำแข็ง</Text>		<!-- +3 [icon:YIELD_CULTURE] Culture. +25% [icon:YIELD_PRODUCTION] Production towards training Military Units in this [icon:YIELD_CITIES] City for every [icon:NAR_REW_GREATWORK] Great Work in this City. Ageless. Must be placed on a Tundra tile. -->
+			<Text>+3 [icon:YIELD_CULTURE] วัฒนธรรม, +25% [icon:YIELD_PRODUCTION] กำลังผลิต ในการฝึก [TIP:LOC_PEDIA_CONCEPTS_MILITARY_UNIT_TOOLTIP]ยูนิตทหาร[/TIP] ในเมืองใหญ่นี้สำหรับทุก [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]ผลงานชิ้นเอก[/TIP] ในเมืองใหญ่นี้, [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]คงอยู่ตลอดกาล[/TIP], ต้องวางบนช่องทุ่งน้ำแข็ง</Text>		<!-- +3 [icon:YIELD_CULTURE] Culture. +25% [icon:YIELD_PRODUCTION] Production towards training [TIP:LOC_PEDIA_CONCEPTS_MILITARY_UNIT_TOOLTIP]Military Units[/TIP] in this [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]City[/TIP] for every [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]Great Work[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]City[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be placed on Tundra Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_REYKHOLT_TOOLTIP" Language="th_TH">
-			<Text>+25% [icon:YIELD_PRODUCTION] กำลังผลิต ในการฝึกอบรมยูนิตทหารในเมืองใหญ่นี้สำหรับทุก [icon:NAR_REW_GREATWORK] ผลงานชิ้นเอกในเมืองนี้[N]ต้องวางบนช่องทุ่งน้ำแข็ง</Text>		<!-- +25% [icon:YIELD_PRODUCTION] Production towards training Military Units in this [icon:YIELD_CITIES] City for every [icon:NAR_REW_GREATWORK] Great Work in this City.[N]Must be placed on a Tundra tile. -->
+			<Text>+25% [icon:YIELD_PRODUCTION] กำลังผลิต ในการฝึกอบรม[TIP:LOC_PEDIA_CONCEPTS_MILITARY_UNIT_TOOLTIP]ยูนิตทหาร[/TIP]ในเมืองใหญ่นี้สำหรับทุก [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]ผลงานชิ้นเอก[/TIP]ใน[TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่นี้[/TIP][N]ต้องวางบนพื้นที่ทุ่งน้ำแข็ง</Text>		<!-- +25% [icon:YIELD_PRODUCTION] Production towards training [TIP:LOC_PEDIA_CONCEPTS_MILITARY_UNIT_TOOLTIP]Military Units[/TIP] in this [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]City[/TIP] for every [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]Great Work[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]City[/TIP].[N]Must be placed on Tundra Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_WONDER_REYKHOLT" Language="th_TH">
 			<Text>สตูร์ล่าอยู่ที่เรย์คยาโฮลต์บ่อยครั้ง และได้คิดมากเกี่ยวกับการทำสำเนาของหนังสือซากะที่สโนรีกำลังเขียนอยู่</Text>		<!-- Sturla was often at Reykjaholt, and gave much thought to having copies made of those saga books which Snorri was writing. -->
@@ -317,7 +317,7 @@
 			<Text>ฮูกินส์ เดร็คกา</Text>		<!-- Hugins Drekka -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_HUGINS_DREKKA_QUOTE" Language="th_TH">
-			<Text>"ด้วยความกระตือรือร้น ข้าพเจ้าได้ยอมรับดาบของท่าน นยอร์ธร์แห่งสงคราม และข้าพเจ้าจะไม่พบข้อบกพร่องในภายหลัง นี่คือความปรารถนาของข้าพเจ้า - มันเป็นการแสวงหาที่ควรค่าแก่การยกย่อง"</Text>		<!-- "Eagerly I accepted your sword, Njǫrðr of battle, and I will find no fault with it later. This is is my wish – it is a praiseworthy pursuit." -->
+			<Text>ด้วยความกระตือรือร้น ข้าพเจ้าได้ยอมรับดาบของท่าน นยอร์ธร์แห่งสงคราม และข้าพเจ้าจะไม่พบข้อบกพร่องในภายหลัง นี่คือความปรารถนาของข้าพเจ้า - มันเป็นการแสวงหาที่ควรค่าแก่การยกย่อง</Text>		<!-- "Eagerly I accepted your sword, Njǫrðr of battle, and I will find no fault with it later. This is my wish – it is a praiseworthy pursuit." -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_HUGINS_DREKKA_AUTHOR" Language="th_TH">
 			<Text>ซิกวาทร์ ธอร์ดาร์สัน</Text>		<!-- Sigvatr Þórðarson -->
@@ -341,49 +341,49 @@
 			<Text>เอกิลล์ สกัลลาเกริมส์สัน</Text>		<!-- Egill Skallagrímsson -->
 		</Replace>
 		<Replace Tag="LOC_MOD_LANDNAMBOK_RELIC_CIVIC_MASTERY_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ [icon:NAR_REW_GREATWORK] ศาสนวัตถุ ทุกครั้งที่คุณศึกษา [icon:RADIAL_CIVICS] ความเชี่ยวชาญด้านแนวคิด</Text>		<!-- Gain a [icon:NAR_REW_GREATWORK] Relic every time you study a [icon:RADIAL_CIVICS] Civic Mastery. -->
+			<Text>ได้รับ [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_RELIC_TOOLTIP]ศาสนวัตถุ[/TIP] ทุกครั้งที่คุณศึกษา [icon:RADIAL_CIVICS] [TIP:LOC_PEDIA_CONCEPTS_CIVIC_TOOLTIP]ความเชี่ยวชาญด้านแนวคิด[/TIP]</Text>		<!-- Gain a [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_RELIC_TOOLTIP]Relic[/TIP] every time you study a [icon:RADIAL_CIVICS] [TIP:LOC_PEDIA_CONCEPTS_CIVIC_TOOLTIP]Civic Mastery[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_LANDNAMBOK_KILN_WAREHOUSE_THING_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_GOLD] ทองใน [icon:CITY_RURAL] ธิงสตาเดอะร์ ในถิ่นฐานที่มีเตาเผา</Text>		<!-- +2 [icon:YIELD_GOLD] Gold on [icon:CITY_RURAL] Þingstaðr in Settlements with a Kiln. -->
+			<Text>+2 [icon:YIELD_GOLD] ทองใน [icon:CITY_RURAL] ธิงสตาเดอะร์ ใน[TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP]ที่มีเตาเผา</Text>		<!-- +2 [icon:YIELD_GOLD] Gold on [icon:CITY_RURAL] Þingstaðr in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with a Kiln. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_HUGINS_DREKKA_RANGE_PILLAGE_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทางทะเลสามารถ [icon:Action_Pillage] ปล้นสะดมและโจมตีชายฝั่งภายใน 2 ช่อง</Text>		<!-- Naval Units can [icon:Action_Pillage] Pillage and Coastal Raid within 2 tiles. -->
+			<Text>ยูนิตทางทะเลสามารถ [icon:Action_Pillage] โจมตีชายฝั่งภายใน 2 ช่อง</Text>		<!-- [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] can [icon:Action_Pillage] Coastal Raid within 2 tiles. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_HUGINS_DREKKA_PILLAGE_ONE_MOVE_DESCRIPTION" Language="th_TH">
-			<Text>วิกิ้งสามารถ [icon:Action_Pillage] ปล้นสะดมและโจมตีชายฝั่งได้ด้วย 1 [icon:Action_Move] แต้มเคลื่อนที่ เมื่ออยู่ในดินแดนห่างไกล ไม่รวมถึงการค้นพบ</Text>		<!-- Víkingr may [icon:Action_Pillage] Pillage and Coastal Raid for 1 [icon:Action_Move] Movement when in Distant Lands. Does not apply to Discoveries. -->
+			<Text>วิกิ้งสามารถ [icon:Action_Pillage] โจมตีชายฝั่งได้ด้วย 1 [icon:Action_Move] แต้มเคลื่อนที่ เมื่ออยู่ใน [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP], ไม่รวมถึงการค้นพบ</Text>		<!-- Víkingr may [icon:Action_Pillage] Coastal Raid for 1 [icon:Action_Move] Movement when in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP]. Does not apply to Discoveries. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_VAERINGJAR_EMBARKED_NAVAL_COMBAT_PREVIEW" Language="th_TH">
 			<Text>+{1_amount} วาเรนจาร์</Text>		<!-- +{1_amount} Væringjar -->
 		</Replace>
 		<Replace Tag="LOC_MOD_VAERINGJAR_EMBARKED_MOVEMENT_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:NAR_REW_COMBAT] พลังต่อสู้ และ +1 [icon:Action_Move] แต้มเคลื่อนที่ สำหรับยูนิตทางทะเลและยูนิตที่ขึ้นฝั่ง</Text>		<!-- +3 [icon:NAR_REW_COMBAT] Combat Strength and +1 [icon:Action_Move] Movement for Naval and Embarked Units. -->
+			<Text>+3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] และ +1 [icon:Action_Move] แต้มเคลื่อนที่ สำหรับ [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ยูนิตทางทะเล[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]ยูนิตที่ขึ้นฝั่ง[/TIP]</Text>		<!-- +3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] and +1 [icon:Action_Move] Movement for [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]Embarked[/TIP] Units. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_THJODVELDID_RELIC_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ 2 [icon:NAR_REW_GREATWORK] ศาสนวัตถุ</Text>		<!-- Gain 2 [icon:NAR_REW_GREATWORK] Relics. -->
+			<Text>ได้รับ 2 [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_RELIC_TOOLTIP]ศาสนวัตถุ[/TIP]</Text>		<!-- Gain 2 [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_RELIC_TOOLTIP]Relics[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_DREKAHOFUD_NAME" Language="th_TH">
 			<Text>ดเรคาฮอฟุด</Text>		<!-- Drekahöfuð -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_DREKAHOFUD_DESCRIPTION" Language="th_TH">
-			<Text>การฝึกยูนิตทางทะเลจะมอบ [icon:YIELD_CULTURE] วัฒนธรรม เท่ากับ 25% ของ [icon:YIELD_PRODUCTION] ต้นทุนกำลังผลิตพื้นฐาน ของยูนิต</Text>		<!-- Training a Naval Unit grants [icon:YIELD_CULTURE] Culture equal to 25% of the Unit's base [icon:YIELD_Production] Production cost. -->
+			<Text>การฝึกยูนิต [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ทางทะเล[/TIP] จะมอบ [icon:YIELD_CULTURE] วัฒนธรรม เท่ากับ 25% ของยูนิต [icon:YIELD_กำลังผลิต] ต้นทุนกำลังผลิตพื้นฐาน</Text>		<!-- Training a [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP] grants [icon:YIELD_CULTURE] Culture equal to 25% of the Unit's base [icon:YIELD_Production] Production cost. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_REIDI_GUDANNA_NAME" Language="th_TH">
 			<Text>เรย์ดิ กูดันนา</Text>		<!-- Reiði Guðanna -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_REIDI_GUDANNA_DESCRIPTION" Language="th_TH">
-			<Text>ทุก [icon:CITY_BUILDING_LIST] อาคารได้รับ +1 [icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_PRODUCTION] กำลังผลิต จากภูเขาไฟและ [icon:NOTIFICATION_DISCOVER_NATURAL_WONDER] สิ่งมหัศจรรย์ทางธรรมชาติ (ภูเขาไฟสิ่งมหัศจรรย์ทางธรรมชาติ ไม่นับเป็นสองครั้ง) +25% [icon:YIELD_GOLD] ทอง สำหรับการซื้อ [icon:ACTION_IMPROVE] การซ่อมแซม</Text>		<!-- All [icon:CITY_BUILDING_LIST] Buildings gain a +1 [icon:YIELD_CULTURE] Cultural and [icon:YIELD_PRODUCTION] Production Adjacency from Volcanoes and [icon:NOTIFICATION_DISCOVER_NATURAL_WONDER] Natural Wonders. (Natural Wonder Volcanoes do not count twice) +25% [icon:YIELD_GOLD] Gold towards purchasing [icon:ACTION_IMPROVE] Repairs. -->
+			<Text>ทุก [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]ได้รับ +1 [icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_PRODUCTION] กำลังผลิต จากภูเขาไฟและ [icon:NOTIFICATION_DISCOVER_NATURAL_WONDER] สิ่งมหัศจรรย์ทางธรรมชาติ (ภูเขาไฟสิ่งมหัศจรรย์ทางธรรมชาติ ไม่นับเป็นสองครั้ง) +25% [icon:YIELD_GOLD] ทอง สำหรับการซื้อ [icon:ACTION_IMPROVE] การซ่อมแซม</Text>		<!-- All [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] gain a +1 [icon:YIELD_CULTURE] Cultural and [icon:YIELD_PRODUCTION] Production Adjacency from Volcanoes and [icon:NOTIFICATION_DISCOVER_NATURAL_WONDER] Natural Wonders. (Natural Wonder Volcanoes do not count twice) +25% [icon:YIELD_GOLD] Gold towards purchasing [icon:ACTION_IMPROVE] Repairs. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_DROTTKVAETT_NAME" Language="th_TH">
 			<Text>ดร็อตต์ควัตต์</Text>		<!-- Dróttkvætt -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_DROTTKVAETT_DESCRIPTION" Language="th_TH">
-			<Text>[icon:Action_Pillage] การโจมตีชายฝั่งจะมอบ [icon:YIELD_CULTURE] วัฒนธรรม เท่ากับ 50% ของ [icon:YIELD_GOLD] ทองที่ได้รับ</Text>		<!-- [icon:Action_Pillage] Coastal Raiding grants [icon:YIELD_CULTURE] Culture equal to 50% the [icon:YIELD_GOLD] Gold gained. -->
+			<Text>[TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ยูนิตทางทะเล[/TIP] มอบ [icon:YIELD_CULTURE] วัฒนธรรม เท่ากับ 50% ของ [icon:Action_Pillage] ผลผลิตจากการปล้นและ [icon:Action_Heal] การฟื้นฟู</Text>		<!-- [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] grant [icon:YIELD_CULTURE] Culture equal to 50% of [icon:Action_Pillage] Pillage Yields and [icon:Action_Heal] Healing. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_LYFSTEINN_NAME" Language="th_TH">
 			<Text>ไลฟ์สเตนน์</Text>		<!-- Lyfsteinn -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_LYFSTEINN_DESCRIPTION" Language="th_TH">
-			<Text>+10 [icon:Action_Heal] ฟื้นฟู สำหรับยูนิตทางทะเล นอกเขตแดนที่เป็นมิตร</Text>		<!-- +10 [icon:Action_Heal] Healing for Naval Units outside friendly territory. -->
+			<Text>+10 [icon:Action_Heal] ฟื้นฟู สำหรับ[TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ยูนิตทางทะเล[/TIP] นอกเขตแดนที่เป็นมิตร</Text>		<!-- +10 [icon:Action_Heal] Healing for [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] outside friendly territory. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_SAGA_HERO_NAME" Language="th_TH">
 			<Text>ฮีโร่ซาก้า</Text>		<!-- Saga Hero -->
@@ -431,7 +431,7 @@
 			<Text>นยัลล์ ธอร์เกียร์สสัน</Text>		<!-- Njáll Þorgeirsson -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SAGA_HERO_NJALL_THORGEIRSSON_DESCRIPTION" Language="th_TH">
-			<Text>เปิดใช้งานที่ ธิงสตาเดอะร์. +2 [icon:YIELD_CULTURE] วัฒนธรรมที่ ธิงสตาเดอะร์ ในถิ่นฐานนี้สำหรับการเฉลิมฉลองแต่ละครั้ง</Text>		<!-- Activate on a þingstaðr. +2 [icon:YIELD_CULTURE] Culture on þingstaðr in this Settlement for each Celebration. -->
+			<Text>เปิดใช้งานที่ ธิงสตาเดอะร์, +2 [icon:YIELD_CULTURE] วัฒนธรรมที่ ธิงสตาเดอะร์ ในถิ่นฐานนี้สำหรับการเฉลิมฉลองแต่ละครั้ง</Text>		<!-- Activate on a þingstaðr. +2 [icon:YIELD_CULTURE] Culture on þingstaðr in this Settlement for each Celebration. -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SAGA_HERO_GUNNAR_HAMUNDARSON_NAME" Language="th_TH">
 			<Text>กุนเนอร์ ฮามุนดาร์สัน</Text>		<!-- Gunnarr Hámundarson -->
@@ -500,7 +500,7 @@
 			<Text>ความโกรธของชาวนอร์ส</Text>		<!-- The Fury of the Norse -->
 		</Replace>
 		<Replace Tag="LOC_11134A_COMPLETION" Language="th_TH">
-			<Text>ในหมอกยามเช้า, ไวกิ้งกระโดดออกจากเรือที่มีหัวมังกร, พร้อมสำหรับการนองเลือด. เสียงตะโกนและเสียงกรีดร้องฉีกอากาศยามรุ่งอรุณ, เปลวไฟจับจ้องไปที่ท้องฟ้าอย่างโกรธเกรี้ยว, กลิ่นเลือดลอยอยู่ในลม. และแล้ว, อย่างรวดเร็วที่พวกเขามาถึง, ชาวไอซ์แลนด์ก็หายไป, เรือที่บรรทุกสมบัติ, ทิ้งไว้เพียงควัน, ความตาย, และความเงียบ</Text>		<!-- In the morning fog, víkingar leap out of dragonheaded ships, ready for bloodshed. Shouts and screams rend the dawn air, flames grab angrily at the sky, the tang of blood catches on the wind. And then, as quickly as they arrived, the Icelanders are gone, ships laden with plunder, leaving only smoke, death, and silence. -->
+			<Text>ในหมอกยามเช้า, ไวกิ้งกระโดดออกจากเรือที่มีหัวมังกร, พร้อมสำหรับการนองเลือด, เสียงตะโกนและเสียงกรีดร้องฉีกอากาศยามรุ่งอรุณ, เปลวไฟจับจ้องไปที่ท้องฟ้าอย่างโกรธเกรี้ยว, กลิ่นเลือดลอยอยู่ในลม, และแล้ว, อย่างรวดเร็วที่พวกเขามาถึง, ชาวไอซ์แลนด์ก็หายไป, เรือที่บรรทุกสมบัติ, ทิ้งไว้เพียงควัน, ความตาย, และความเงียบ</Text>		<!-- In the morning fog, víkingar leap out of dragonheaded ships, ready for bloodshed. Shouts and screams rend the dawn air, flames grab angrily at the sky, the tang of blood catches on the wind. And then, as quickly as they arrived, the Icelanders are gone, ships laden with plunder, leaving only smoke, death, and silence. -->
 		</Replace>
 		<Replace Tag="LOC_11134B_NAME" Language="th_TH">
 			<Text>นี่คือเส้นทางสู่วัลฮัลลา</Text>		<!-- This is the path to Valhalla. -->
@@ -518,7 +518,7 @@
 			<Text>คำพูดสุดท้ายที่มีชื่อเสียง</Text>		<!-- Famous Last Words -->
 		</Replace>
 		<Replace Tag="LOC_11135A_COMPLETION" Language="th_TH">
-			<Text>ในความวุ่นวายของสงคราม, ไวกิ้งชาวไอซ์แลนด์แสวงหาความเป็นอมตะผ่านชื่อเสียงและความตายอันมีเกียรติในสนามรบ. นำการโจมตี, หัวหน้าชนเผ่ากวัดแกว่งขวานของเขาอย่างดุเดือด, ตีเป้าหมายทีละเป้าหมายจนในที่สุดหอกก็แทงเข้าที่หน้าอกของเขา. "หอกกว้างกำลังเป็นที่นิยมในช่วงนี้," เขากล่าว, และล้มลงตาย</Text>		<!-- In the chaos of war, Icelandic víkingar seek immortality through reputation and an honorable death in battle. Leading the charge, a chieftain swings his axe ferociously, hitting mark after mark until finally a spear pierces his chest. "Broad spears are in fashion these days," he says, and falls down dead. -->
+			<Text>ในความวุ่นวายของสงคราม, ไวกิ้งชาวไอซ์แลนด์แสวงหาความเป็นอมตะผ่านชื่อเสียงและความตายอันมีเกียรติในสนามรบ, นำการโจมตี, หัวหน้าชนเผ่ากวัดแกว่งขวานของเขาอย่างดุเดือด, ตีเป้าหมายทีละเป้าหมายจนในที่สุดหอกก็แทงเข้าที่หน้าอกของเขา, "หอกกว้างกำลังเป็นที่นิยมในช่วงนี้," เขากล่าว, และล้มลงตาย</Text>		<!-- In the chaos of war, Icelandic víkingar seek immortality through reputation and an honorable death in battle. Leading the charge, a chieftain swings his axe ferociously, hitting mark after mark until finally a spear pierces his chest. "Broad spears are in fashion these days," he says, and falls down dead. -->
 		</Replace>
 		<Replace Tag="LOC_11135B_NAME" Language="th_TH">
 			<Text>หินจารึกจะรักษาชื่อของเขาไว้</Text>		<!-- A runestone will preserve his name. -->
@@ -683,7 +683,7 @@
 			<Text>ชนิดที่เลวร้ายที่สุดของเจ้าบ้าน</Text>		<!-- The Worst Kind of Host -->
 		</Replace>
 		<Replace Tag="LOC_11147A_COMPLETION" Language="th_TH">
-			<Text>ภายในบ้านยาว เตาผิงสว่างไสว เสียงหัวเราะลอยขึ้นไปกับควัน และเบียร์ไหลรินอย่างอิสระ. แก้วดื่มกดลงในมือใหญ่ของเอกิลล์ และเขาจับการพยักหน้าของหญิงสาว – ของขวัญ. แต่มีบางอย่างผิดปกติ. มีมากกว่าเบียร์ในภาชนะนี้. เอกิลล์ลากมีดของเขาไปที่แก้วดื่ม ทำเครื่องหมายด้วยรูน และแก้วดื่มแตกออก</Text>		<!-- Inside the longhouse, the hearth burns bright, laughter rises with the smoke, and the ale runs freely. A drinking horn presses into Egill’s large hand, and he catches the lady's nod – a gift. But something is wrong. There’s more than ale in this vessel. Egill drags his knife over the horn, scoring it with runes, and the horn shatters. -->
+			<Text>ภายในบ้านยาว เตาผิงสว่างไสว เสียงหัวเราะลอยขึ้นไปกับควัน และเบียร์ไหลรินอย่างอิสระ, แก้วดื่มกดลงในมือใหญ่ของเอกิลล์ และเขาจับการพยักหน้าของหญิงสาว – ของขวัญ, แต่มีบางอย่างผิดปกติ, มีมากกว่าเบียร์ในภาชนะนี้, เอกิลล์ลากมีดของเขาไปที่แก้วดื่ม ทำเครื่องหมายด้วยรูน และแก้วดื่มแตกออก</Text>		<!-- Inside the longhouse, the hearth burns bright, laughter rises with the smoke, and the ale runs freely. A drinking horn presses into Egill’s large hand, and he catches the lady's nod – a gift. But something is wrong. There’s more than ale in this vessel. Egill drags his knife over the horn, scoring it with runes, and the horn shatters. -->
 		</Replace>
 		<Replace Tag="LOC_11147B_NAME" Language="th_TH">
 			<Text>ต้องชดใช้พิษด้วยเลือด</Text>		<!-- Poison must be repaid in blood. -->
@@ -719,7 +719,7 @@
 			<Text>กัดของกราซิดา</Text>		<!-- Grásiða’s Bite -->
 		</Replace>
 		<Replace Tag="LOC_11149A_COMPLETION" Language="th_TH">
-			<Text>ในความมืดของคืน, กีสลิยืนอยู่ที่ประตูของบ้านยาวที่กำลังหลับใหล. มือหนึ่งจับหอกที่เพิ่งดึงออกจากศพของพี่เขย. เขารวบรวมกกจากพื้น, และเขาเงียบ ๆ ขว้างมันไปที่คบไฟที่ส่องแสงกระพริบ, ทีละอัน, จนกระทั่งห้องโถงตกอยู่ในความมืด. กีสลิเสียงเบา ๆ เดินไปที่เตียงข้างเตาผิงและในขณะเดียวกันก็แทงหอกลงไป, เพื่อการแก้แค้น</Text>		<!-- In the black of night, Gísli stands in the door of the sleeping longhouse. One hand grips the spear so recently pulled from his brother-in-law’s corpse. Gathering rushes from the floor, he silently casts them at the flickering torches, one by one, until the hall falls into darkness. Gísli treads softly to the bed by the hearth and in a single motion drives the spear down, to vengeance. -->
+			<Text>ในความมืดของคืน, กีสลิยืนอยู่ที่ประตูของบ้านยาวที่กำลังหลับใหล, มือหนึ่งจับหอกที่เพิ่งดึงออกจากศพของพี่เขย, เขารวบรวมกกจากพื้น, และเขาเงียบ ๆ ขว้างมันไปที่คบไฟที่ส่องแสงกระพริบ, ทีละอัน, จนกระทั่งห้องโถงตกอยู่ในความมืด, กีสลิเสียงเบา ๆ เดินไปที่เตียงข้างเตาผิงและในขณะเดียวกันก็แทงหอกลงไป, เพื่อการแก้แค้น</Text>		<!-- In the black of night, Gísli stands in the door of the sleeping longhouse. One hand grips the spear so recently pulled from his brother-in-law’s corpse. Gathering rushes from the floor, he silently casts them at the flickering torches, one by one, until the hall falls into darkness. Gísli treads softly to the bed by the hearth and in a single motion drives the spear down, to vengeance. -->
 		</Replace>
 		<Replace Tag="LOC_11149B_NAME" Language="th_TH">
 			<Text>เลือดแลกเลือด</Text>		<!-- Blood for blood. -->
@@ -965,7 +965,7 @@
 			<Text>นางทำนาย</Text>		<!-- The Seeress -->
 		</Replace>
 		<Replace Tag="LOC_11163A_COMPLETION" Language="th_TH">
-			<Text>เวลาที่ยากลำบากมาถึงชาวนาโนร์ส และหลายคนพยายามที่จะรู้ส Ursา. มีการเรียกหญิงสาวผู้มีวิสัยทัศน์มา, หญิงชราแบกไม้เท้าหัวทองแดงและสวมเสื้อคลุมสีดำพร้อมถุงมือหนังแมวสีขาว. Guðríðr รู้บทสวดเก่าแก่ แต่เธอได้สาบานตนต่อพระเจ้าองค์ใหม่ และลังเลที่จะเข้าร่วมพิธีกรรม</Text>		<!-- Hard times befall Norse farmers, and many strive to know its cause. A seeress is summoned, an aging woman bearing a brass-topped staff and swathed in a black cloak and white catskin gloves. Guðríðr knows the old ward-chants, but she has sworn herself to a new god, and hesitates to join the rites. -->
+			<Text>เวลาที่ยากลำบากมาถึงชาวนาโนร์ส และหลายคนพยายามที่จะรู้ส Ursา, มีการเรียกหญิงสาวผู้มีวิสัยทัศน์มา, หญิงชราแบกไม้เท้าหัวทองแดงและสวมเสื้อคลุมสีดำพร้อมถุงมือหนังแมวสีขาว, Guðríðr รู้บทสวดเก่าแก่ แต่เธอได้สาบานตนต่อพระเจ้าองค์ใหม่ และลังเลที่จะเข้าร่วมพิธีกรรม</Text>		<!-- Hard times befall Norse farmers, and many strive to know its cause. A seeress is summoned, an aging woman bearing a brass-topped staff and swathed in a black cloak and white catskin gloves. Guðríðr knows the old ward-chants, but she has sworn herself to a new god, and hesitates to join the rites. -->
 		</Replace>
 		<Replace Tag="LOC_11163B_NAME" Language="th_TH">
 			<Text>ประชาชนต้องการความสะดวกสบายที่คุ้นเคย</Text>		<!-- The people need familiar comfort. -->
@@ -1157,22 +1157,22 @@
 			<Text>ไวกิ้ง</Text>		<!-- Víkingr -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_VIKINGR_BASE_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตเรือหนักพิเศษ ของไอซ์แลนด์, [icon:Action_Pillage] โจมตีชายฝั่งจะได้รับ [icon:YIELD_SCIENCE] วิทยาศาสตร์ เท่ากับ 25% ของ [icon:YIELD_GOLD] ทอง ที่ได้รับ, +3 [icon:Action_Showall] ระยะมองเห็น</Text>		<!-- Iceland Unique Heavy Naval Unit. [icon:Action_Pillage] Coastal Raiding grants [icon:YIELD_SCIENCE] Science equal to 25% the [icon:YIELD_GOLD] Gold gained. Has 3 [icon:Action_Showall] Sight. -->
+			<Text>ยูนิตเรือหนักพิเศษ ของไอซ์แลนด์, จะได้รับ [icon:YIELD_SCIENCE] วิทยาศาสตร์ เท่ากับ 25% ของ [icon:Action_Pillage] ผลผลิตจากการโจมตีและ [icon:Action_Heal] การฟื้นฟู, +3 [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]ระยะมองเห็น[/TIP]</Text>		<!-- Iceland Unique Heavy [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP]. Grants [icon:YIELD_SCIENCE] Science equal to 25% of [icon:Action_Pillage] Pillage Yields and [icon:Action_Heal] Healing. Has 3 [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]Sight[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_VIKINGR_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตเรือหนักพิเศษ ระดับ 1 ของไอซ์แลนด์, [icon:Action_Pillage] โจมตีชายฝั่งจะได้รับ [icon:YIELD_SCIENCE] วิทยาศาสตร์ เท่ากับ 25% ของ [icon:YIELD_GOLD] ทอง ที่ได้รับ, +3 [icon:Action_Showall] ระยะมองเห็น</Text>		<!-- Tier 1 Iceland Unique Heavy Naval Unit. [icon:Action_Pillage] Coastal Raiding grants [icon:YIELD_SCIENCE] Science equal to 25% the [icon:YIELD_GOLD] Gold gained. Has 3 [icon:Action_Showall] Sight. -->
+			<Text>ยูนิตเรือหนักพิเศษ ระดับ 1 ของไอซ์แลนด์, จะได้รับ [icon:YIELD_SCIENCE] วิทยาศาสตร์ เท่ากับ 25% ของ [icon:Action_Pillage] ผลผลิตจากการโจมตีและ [icon:Action_Heal] การฟื้นฟู, มีระยะมองเห็น 3 [icon:Action_Showall]</Text>		<!-- Tier 1 Iceland Unique Heavy [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP]. Grants [icon:YIELD_SCIENCE] Science equal to 25% of [icon:Action_Pillage] Pillage Yields and [icon:Action_Heal] Healing. Has 3 [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]Sight[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_VIKINGR_2_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตเรือหนักพิเศษ ระดับ 2 ของไอซ์แลนด์, [icon:Action_Pillage] โจมตีชายฝั่งจะได้รับ [icon:YIELD_SCIENCE] วิทยาศาสตร์ เท่ากับ 25% ของ [icon:YIELD_GOLD] ทอง ที่ได้รับ, +3 [icon:Action_Showall] ระยะมองเห็น</Text>		<!-- Tier 2 Iceland Unique Heavy Naval Unit. [icon:Action_Pillage] Coastal Raiding grants [icon:YIELD_SCIENCE] Science equal to 25% the [icon:YIELD_GOLD] Gold gained. Has 3 [icon:Action_Showall] Sight. -->
+			<Text>ยูนิตเรือหนักพิเศษ ระดับ 2 ของไอซ์แลนด์, จะได้รับ [icon:YIELD_SCIENCE] วิทยาศาสตร์ เท่ากับ 25% ของ [icon:Action_Pillage] ผลผลิตจากการโจมตีและ [icon:Action_Heal] การฟื้นฟู, +3 [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]ระยะมองเห็น[/TIP]</Text>		<!-- Tier 2 Iceland Unique Heavy [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP]. Grants [icon:YIELD_SCIENCE] Science equal to 25% of [icon:Action_Pillage] Pillage Yields and [icon:Action_Heal] Healing. Has 3 [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]Sight[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_VIKINGR_3_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตเรือหนักพิเศษ ระดับ 3 ของไอซ์แลนด์, [icon:Action_Pillage] โจมตีชายฝั่งจะได้รับ [icon:YIELD_SCIENCE] วิทยาศาสตร์ เท่ากับ 25% ของ [icon:YIELD_GOLD] ทอง ที่ได้รับ, +3 [icon:Action_Showall] ระยะมองเห็น</Text>		<!-- Tier 3 Iceland Unique Heavy Naval Unit. [icon:Action_Pillage] Coastal Raiding grants [icon:YIELD_SCIENCE] Science equal to 25% the [icon:YIELD_GOLD] Gold gained. Has 3 [icon:Action_Showall] Sight. -->
+			<Text>ยูนิตเรือหนักพิเศษ ระดับ 3 ของไอซ์แลนด์, [icon:YIELD_SCIENCE] วิทยาศาสตร์ เท่ากับ 25% ของ [icon:Action_Pillage] ผลผลิตจากการโจมตีและ [icon:Action_Heal] การฟื้นฟู, มีระยะมองเห็น +3 [icon:Action_Showall]</Text>		<!-- Tier 3 Iceland Unique Heavy [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP]. Grants [icon:YIELD_SCIENCE] Science equal to 25% of [icon:Action_Pillage] Pillage Yields and [icon:Action_Heal] Healing. Has 3 [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]Sight[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_VIKINGR_DESCRIPTION" Language="th_TH">
-			<Text>[icon:Action_Pillage] โจมตีชายฝั่งจะได้รับ [icon:YIELD_SCIENCE] วิทยาศาสตร์ เท่ากับ 25% ของ [icon:YIELD_GOLD] ทอง ที่ได้รับ</Text>		<!-- [icon:Action_Pillage] Coastal Raiding grants [icon:YIELD_SCIENCE] Science equal to 25% the [icon:YIELD_GOLD] Gold gained. -->
+			<Text>ได้รับ [icon:YIELD_SCIENCE] วิทยาศาสตร์ เท่ากับ 25% ของ [icon:Action_Pillage] ผลผลิตการปล้น และ [icon:Action_Heal] การรักษา</Text>		<!-- Grants [icon:YIELD_SCIENCE] Science equal to 25% of [icon:Action_Pillage] Pillage Yields and [icon:Action_Heal] Healing. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_NATURAL_WONDERS_DESCRIPTION" Language="th_TH">
-			<Text>เป็นคนแรกที่ค้นพบ [B]สิ่งมหัศจรรย์ทางธรรมชาติ[/B]</Text>		<!-- Be the first to discover a [B]Natural Wonder[/B] -->
+			<Text>เป็นคนแรกที่ค้นพบ [B]สิ่งมหัศจรรย์ทางธรรมชาติ[/B]</Text>		<!-- Be the first to discover a [B]Natural Wonder[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_NATURAL_WONDERS_ICELAND_TOOLTIP" Language="th_TH">
 			<Text>[B]การค้นพบ[/B] เป็นส่วนสำคัญของเอกลักษณ์ [B]ไอซ์แลนด์[/B]</Text>		<!-- [B]Discovery[/B] was an important part of [B]Iceland's[/B] identity. -->

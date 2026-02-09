@@ -26,10 +26,10 @@
 			<Text>สำหรับยุคนี้, +3 พลังต่อสู้สำหรับยูนิตอากาศของคุณในราคาของ -10% อิทธิพล[icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Air Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_GILGAMESH_L1_DESCRIPTION" Language="th_TH">
-			<Text>ตำนานปลดล็อก. +25% [icon:RELATIONSHIP] ความสัมพันธ์จากการเริ่มต้นหรือสนับสนุน [icon:ENDEAVOR] ความพยายาม. -25% [icon:RELATIONSHIP] ความสัมพันธ์จากการเริ่มต้น [icon:SANCTIONS] การคว่ำบาตรหรือการปฏิเสธ [icon:ENDEAVOR] ความพยายาม</Text>		<!-- Legend Unlock. +25% [icon:RELATIONSHIP] Relationship from starting or supporting [icon:ENDEAVOR] Endeavors. -25% [icon:RELATIONSHIP] Relationship from starting [icon:SANCTIONS] Sanctions or rejecting [icon:ENDEAVOR] Endeavors. -->
+			<Text>ตำนานปลดล็อก, +25% [icon:RELATIONSHIP] ความสัมพันธ์จากการเริ่มต้นหรือสนับสนุน [icon:ENDEAVOR] ความพยายาม, -25% [icon:RELATIONSHIP] ความสัมพันธ์จากการเริ่มต้น [icon:SANCTIONS] การคว่ำบาตรหรือการปฏิเสธ [icon:ENDEAVOR] ความพยายาม</Text>		<!-- Legend Unlock. +25% [icon:RELATIONSHIP] Relationship from starting or supporting [icon:ENDEAVOR] Endeavors. -25% [icon:RELATIONSHIP] Relationship from starting [icon:SANCTIONS] Sanctions or rejecting [icon:ENDEAVOR] Endeavors. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_GILGAMESH_L2_DESCRIPTION" Language="th_TH">
-			<Text>ตำนานปลดล็อก. +5 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับยูนิตทั้งหมดต่อสู้กับ [icon:CITY_FORTIFIED] เขตเสริมกำลัง</Text>		<!-- Legend Unlock. +5 [icon:NAR_REW_COMBAT] Combat Strength for all Units against [icon:CITY_FORTIFIED] Fortified Districts. -->
+			<Text>ตำนานปลดล็อก, +5 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับยูนิตทั้งหมดต่อสู้กับ [icon:CITY_FORTIFIED] เขตเสริมกำลัง</Text>		<!-- Legend Unlock. +5 [icon:NAR_REW_COMBAT] Combat Strength for all Units against [icon:CITY_FORTIFIED] Fortified Districts. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_GILGAMESH_L2_COMBAT_PREVIEW" Language="th_TH">
 			<Text>+{1_Value} ตำนานลักษณะทหาร</Text>		<!-- +{1_Value} Legend Militaristic Attribute -->
@@ -89,7 +89,7 @@
 			<Text>ครั้งหนึ่งเป็นมนุษย์ สองครั้งเป็นเทพ</Text>		<!-- Once Mortal, Twice Divine -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_GILGAMESH_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI]+2 [B][icon:WAR_SUPPORT] การสนับสนุนสงคราม[/B] เมื่ออยู่ในพันธมิตรเพียงหนึ่งเดียว. 				[LI]เมื่อยูนิตทหารของคุณเอาชนะยูนิตศัตรูได้, รับ [B][icon:YIELD_DIPLOMACY] อิทธิพล[/B] เท่ากับ 50% ของ [icon:NAR_REW_COMBAT] พลังต่อสู้[/icon] ของยูนิตที่ถูกเอาชนะ.  				[LI]ความพยายามพื้นฐานทั้งหมดจะถูกปลดล็อกโดยอัตโนมัติ. ความพยายามที่มีพันธมิตรจะไม่นับรวมกับขีดจำกัดในการมีความพยายามประเภทเดียวที่เปิดใช้งานในเวลาเดียวกัน. พันธมิตรสามารถสนับสนุนความพยายามของคุณได้ฟรี. [/LIST]</Text>		<!-- [BLIST][LI]+2 [B][icon:WAR_SUPPORT] War Support[/B] when in only one Alliance.
+			<Text>[BLIST][LI]+2 [B][icon:WAR_SUPPORT] การสนับสนุนสงคราม[/B] เมื่ออยู่ในพันธมิตรเพียงหนึ่งเดียว, [LI]เมื่อยูนิตทหารของคุณเอาชนะยูนิตศัตรูได้, รับ [B][icon:YIELD_DIPLOMACY] อิทธิพล[/B] เท่ากับ 50% ของ [icon:NAR_REW_COMBAT] พลังต่อสู้[/icon] ของยูนิตที่ถูกเอาชนะ,  				[LI]ความพยายามพื้นฐานทั้งหมดจะถูกปลดล็อกโดยอัตโนมัติ, ความพยายามที่มีพันธมิตรจะไม่นับรวมกับขีดจำกัดในการมีความพยายามประเภทเดียวที่เปิดใช้งานในเวลาเดียวกัน, พันธมิตรสามารถสนับสนุนความพยายามของคุณได้ฟรี, [/LIST]</Text>		<!-- [BLIST][LI]+2 [B][icon:WAR_SUPPORT] War Support[/B] when in only one Alliance.
 				[LI]When one of your Military Units defeats an enemy Unit, gain [B][icon:YIELD_DIPLOMACY] Influence[/B] equal to 50% of the defeated Unit's [icon:NAR_REW_COMBAT] Combat Strength. 
 				[LI]All basic Endeavors are automatically unlocked. Endeavors with Allies don’t count against the limit of having one Endeavor of a given type active at a time. Allies can support your Endeavors for free. [/LIST] -->
 		</Replace>
@@ -799,7 +799,7 @@
 			<Text>รางวัลสงครามของกิลกาเมชที่ 2</Text>		<!-- The War-Trophies of Gilgamesh II -->
 		</Replace>
 		<Replace Tag="LOC_10147A_COMPLETION" Language="th_TH">
-			<Text>เขี้ยวของเทียมาท. เส้นผมของฮุมบาบา. โล่ของอมตะ. กิลกาเมชมองไปที่สิ่งเหล่านี้และนึกถึงความตื่นเต้นของการปะทะ. ตอนนี้, เขาได้ยินเกี่ยวกับมามลุกอับบาสิด – กองทัพม้าอันยิ่งใหญ่, ตามที่กล่าวไว้, ในโลก. และเขาคิดถึงการปะทะอีกครั้ง</Text>		<!-- Tiamat’s fang. A lock of Humbaba’s beard. The Immortal’s shield. Gilgamesh gazes upon these and remembers the thrill of the clash. Now, he hears of Abbasid mamluks – the greatest cavalry, so it is said, in the world. And he thinks of yet another clash. -->
+			<Text>เขี้ยวของเทียมาท, เส้นผมของฮุมบาบา, โล่ของอมตะ, กิลกาเมชมองไปที่สิ่งเหล่านี้และนึกถึงความตื่นเต้นของการปะทะ, ตอนนี้, เขาได้ยินเกี่ยวกับมามลุกอับบาสิด – กองทัพม้าอันยิ่งใหญ่, ตามที่กล่าวไว้, ในโลก, และเขาคิดถึงการปะทะอีกครั้ง</Text>		<!-- Tiamat’s fang. A lock of Humbaba’s beard. The Immortal’s shield. Gilgamesh gazes upon these and remembers the thrill of the clash. Now, he hears of Abbasid mamluks – the greatest cavalry, so it is said, in the world. And he thinks of yet another clash. -->
 		</Replace>
 		<Replace Tag="LOC_10148A_STORYTITLE" Language="th_TH">
 			<Text>ถ้วยรางวัลสงครามของกิลกาเมช II</Text>		<!-- The War-Trophies of Gilgamesh II -->
@@ -976,7 +976,7 @@
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_10150A_COMPLETION" Language="th_TH">
-			<Text>ปืนมุสเก็ตของเซโปยเป็นอาวุธปืนที่ผลิตจำนวนมาก; มันสึกหรอ, ตัวไม้มีความมันวาวจากการถูกส่งต่อจากมือสู่มือในช่วงหลายปีที่ผ่านมา. มันไม่ใช่สิ่งมหัศจรรย์ทางวิศวกรรม. แต่มันแสดงถึงชัยชนะ</Text>		<!-- A sepoy’s musket is a mass-produced firearm; it is worn, its stock glossy from being passed from hand to hand over the years. It is not a marvel of engineering. But it represents victory. -->
+			<Text>ปืนมุสเก็ตของเซโปยเป็นอาวุธปืนที่ผลิตจำนวนมาก; มันสึกหรอ, ตัวไม้มีความมันวาวจากการถูกส่งต่อจากมือสู่มือในช่วงหลายปีที่ผ่านมา, มันไม่ใช่สิ่งมหัศจรรย์ทางวิศวกรรม, แต่มันแสดงถึงชัยชนะ</Text>		<!-- A sepoy’s musket is a mass-produced firearm; it is worn, its stock glossy from being passed from hand to hand over the years. It is not a marvel of engineering. But it represents victory. -->
 		</Replace>
 		<Replace Tag="LOC_10150A_IMPERATIVE" Language="th_TH">
 			<Text>ปราบยูนิตเซโปย</Text>		<!-- Defeat a Sepoy Unit. -->
@@ -1052,7 +1052,7 @@
 			<Text>โหนดคุณลักษณะทางการทูต</Text>		<!-- Diplomatic Attribute Node -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_GILGAMESH_L1_DESCRIPTION" Language="th_TH">
-			<Text>+25% ความสัมพันธ์จากการเริ่มต้นหรือสนับสนุนความพยายาม. -25% ความสัมพันธ์จากการเริ่มต้นการคว่ำบาตรหรือปฏิเสธความพยายาม</Text>		<!-- +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
+			<Text>+25% ความสัมพันธ์จากการเริ่มต้นหรือสนับสนุนความพยายาม, -25% ความสัมพันธ์จากการเริ่มต้นการคว่ำบาตรหรือปฏิเสธความพยายาม</Text>		<!-- +25% Relationship from starting or supporting Endeavors. -25% Relationship from starting Sanctions or rejecting Endeavors. -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_GILGAMESH_L2_NAME" Language="th_TH">
 			<Text>โหนดคุณลักษณะทางทหาร</Text>		<!-- Militaristic Attribute Node -->

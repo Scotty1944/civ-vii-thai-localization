@@ -170,10 +170,10 @@
 			<Text>เจ้าแห่งแดนใต้</Text>		<!-- Lords of the South -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_TONGA_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_DIPLOMACY] อิทธิพล บนพระราชวัง และศาลากลางในถิ่นฐานที่อยู่ติดชายฝั่ง, ไม่สามารถใช้ [icon:DIPLOMATIC_ACTION] ผนวกเข้า กับนครรัฐได้</Text>		<!-- +1 [icon:YIELD_DIPLOMACY] Influence on the Palace and City Halls in Settlements adjacent to Coast. Cannot use the [icon:DIPLOMATIC_ACTION] City-State - Incorporate Action. -->
+			<Text>+1 [icon:YIELD_DIPLOMACY] อิทธิพล บนพระราชวัง และศาลากลางในถิ่นฐานที่อยู่ติดชายฝั่ง, ไม่สามารถใช้ [icon:PROJECT] ผนวกเข้า หรือการกระทำหน่วย Levy ได้</Text>		<!-- +1 [icon:YIELD_DIPLOMACY] Influence on the Palace and City Halls in Settlements adjacent to Coast. Cannot use the [icon:PROJECT] City-State - Incorporate or the Levy Unit Action. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_TONGA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI][B]+1[icon:YIELD_DIPLOMACY] อิทธิพล[/B] บน [B]พระราชวัง[/B] และ[B]ศาลากลาง[/B]ในถิ่นฐานที่อยู่ติด[B]ชายฝั่ง[/B][LI]ไม่สามารถใช้ [icon:DIPLOMATIC_ACTION] [B]ผนวกเข้า[/B] กับนครรัฐได้[LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการสร้าง [B]ฮาอามองงา อะ เมาอิ[/B][/LIST</Text>		<!-- [BLIST][LI][B]+1[icon:YIELD_DIPLOMACY] Influence[/B] on the [B]Palace[/B] and [B]City Halls[/B] in Settlements adjacent to [B]Coast[/B].[LI]Cannot use the [icon:DIPLOMATIC_ACTION] [B]City-State - Incorporate Action[/B].[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Ha'amonga 'a Maui[/B].[/LIST] -->
+			<Text>[BLIST][LI][B]+1[icon:YIELD_DIPLOMACY] อิทธิพล[/B] บน [B]พระราชวัง[/B] และ[B]ศาลากลาง[/B]ในถิ่นฐานที่อยู่ติด[B]ชายฝั่ง[/B].[LI]ไม่สามารถใช้ [icon:PROJECT] [B]ผนวกเข้า[/B] หรือ[B]การเรียกยูนิต[/B]กับนครรัฐได้[LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการสร้าง [B]ฮาอามองงา อะ เมาอิ[/B].[/LIST]</Text>		<!-- [BLIST][LI][B]+1[icon:YIELD_DIPLOMACY] Influence[/B] on the [B]Palace[/B] and [B]City Halls[/B] in Settlements adjacent to [B]Coast[/B].[LI]Cannot use the [icon:PROJECT] [B]City-State - Incorporate [/B]or the [B]Levy Unit Action[/B].[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Ha'amonga 'a Maui[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_TONGA_DESCRIPTION" Language="th_TH">
 			<Text>+30%[icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น [icon:WONDER] สิ่งมหัศจรรย์ ที่เกี่ยวข้องกับ ตองงา</Text>		<!-- +30%[icon:YIELD_PRODUCTION] Production from being Tonga's associated [icon:WONDER] Wonder. -->
@@ -260,28 +260,28 @@
 			<Text>โทฟิอา</Text>		<!-- Tofi'a -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_TOFI_A_DESCRIPTION" Language="th_TH">
-			<Text>ย่านพิเศษ สำหรับตองงา, สร้างโดยการก่อสร้าง ลังงี และไวคาวเกา ในเขตเดียวกัน, +2 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุก [icon:TRADE_ROUTE] เส้นทางการค้าไปยัง [icon:CITYSTATE] นครรัฐ, [icon:UNIT_SCOUT] ยูนิตสอดแนม ในทุกยุคจากอาณาจักรที่มี โทฟิอา สามารถเข้าสู่มหาสมุทรโดยไม่เสียหาย (แต่ไม่สามารถขึ้นฝั่งในดินแดนห่างไกลในยุคโบราณ)</Text>		<!-- Tongan Unique Quarter. Created by constructing the Langi and Vaikaukau in the same District. +2 [icon:YIELD_CULTURE] Culture for every [icon:TRADE_ROUTE] Trade Route you have to a [icon:CITYSTATE] City-State. [icon:UNIT_SCOUT] Scouts in any Age from an empire with a Tofi'a can enter Ocean without taking damage (but cannot disembark in Distant Lands in Antiquity). -->
+			<Text>ย่านพิเศษ [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]สำหรับตองงา[/TIP], สร้างโดยการก่อสร้าง [TIP:LOC_PEDIA_CONCEPTS_LANGI_TOOLTIP]ลังงี[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_VAIKAUKAU_TOOLTIP]ไวคาวเกา[/TIP] ในเขตเดียวกัน [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]. +2 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุก [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]เส้นทางการค้า[/TIP] ที่คุณมีไปยัง [icon:CITYSTATE] นครรัฐ, [icon:UNIT_SCOUT] ยูนิตสอดแนม ในทุก [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP] จากอาณาจักรที่มี [TIP:LOC_PEDIA_CONCEPTS_TOFI_A_TOOLTIP]โทฟิอา[/TIP] สามารถเข้าสู่มหาสมุทรโดยไม่เสียหาย (แต่ไม่สามารถ [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]ขึ้นฝั่ง[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP] ในยุคโบราณ)</Text>		<!-- Tongan [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]Unique Quarter[/TIP]. Created by constructing the Langi and Vaikaukau in the same [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP]. +2 [icon:YIELD_CULTURE] Culture for every [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP] you have to a [icon:CITYSTATE] City-State. [icon:UNIT_SCOUT] Scouts in any [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] from an empire with a Tofi'a can enter Ocean without taking damage (but cannot [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]disembark[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP] in Antiquity). -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_TOFI_A_TOOLTIP" Language="th_TH">
-			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุก [icon:TRADE_ROUTE] เส้นทางการค้าไปยัง [icon:CITYSTATE] นครรัฐ, [icon:UNIT_SCOUT] ยูนิตสอดแนม ในทุกยุคจากอาณาจักรที่มี โทฟิอา สามารถเข้าสู่มหาสมุทรโดยไม่เสียหาย (แต่ไม่สามารถขึ้นฝั่งในดินแดนห่างไกลในยุคโบราณ)</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture for every [icon:TRADE_ROUTE] Trade Route you have to a [icon:CITYSTATE] City-State. [icon:UNIT_SCOUT] Scouts in any Age from an empire with a Tofi'a can enter Ocean without taking damage (but cannot disembark in Distant Lands in Antiquity).. -->
+			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุก [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]เส้นทางการค้า[/TIP] ไปยัง [icon:CITYSTATE] นครรัฐ, [icon:UNIT_SCOUT] ยูนิตสอดแนม ในทุก [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP] จากอาณาจักรที่มี โทฟิอา สามารถเข้าสู่มหาสมุทรโดยไม่เสียหาย (แต่ไม่สามารถ [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]ขึ้นฝั่ง[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP] ในยุคโบราณ)</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture for every [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP] you have to a [icon:CITYSTATE] City-State. [icon:UNIT_SCOUT] Scouts in any [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] from an empire with a Tofi'a can enter Ocean without taking damage (but cannot [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]disembark[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP] in Antiquity). -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LANGI_NAME" Language="th_TH">
 			<Text>ลังงี</Text>		<!-- Langi -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LANGI_DESCRIPTION" Language="th_TH">
-			<Text>อาคารวัฒนธรรมและอาหารพิเศษ สำหรับตองงา, +3[icon:YIELD_CULTURE] วัฒนธรรม, +1[icon:YIELD_FOOD] อาหาร โบนัสใกล้เคียง สำหรับทรัพยากร และสิ่งมหัศจรรย์, คงอยู่ตลอดกาล</Text>		<!-- Tongan Unique Culture and Food Building. +3[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_FOOD] Food Adjacency for Resources and Wonders. Ageless. -->
+			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารวัฒนธรรมพิเศษ[/TIP] ของตองงา, +3[icon:YIELD_CULTURE] วัฒนธรรม, +1[icon:YIELD_FOOD] อาหาร โบนัสใกล้เคียง สำหรับ [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]ทรัพยากร[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP]</Text>		<!-- Tongan [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Culture Building[/TIP]. +3[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_FOOD] Food Adjacency for [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resources[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LANGI_TOOLTIP" Language="th_TH">
-			<Text>อาคารพิเศษของตองงา</Text>		<!-- Tongan Unique Building. -->
+			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษ[/TIP] ของตองงา</Text>		<!-- Tongan [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Building[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_VAI_KAUKAU_NAME" Language="th_TH">
 			<Text>ไวคาวเกา</Text>		<!-- Vaikaukau -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_VAI_KAUKAU_DESCRIPTION" Language="th_TH">
-			<Text>อาคารวัฒนธรรมและความสุขพิเศษ สำหรับตองงา, +3[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_CULTURE] วัฒนธรรม โบนัสใกล้เคียง สำหรับชายฝั่งและสิ่งมหัศจรรย์, คงอยู่ตลอดกาล</Text>		<!-- Tongan Unique Culture and Happiness Building. +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture Adjacency for Coast and Wonders. Ageless. -->
+			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารความสุขพิเศษ[/TIP] ของตองงา, +3[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_CULTURE] วัฒนธรรม โบนัสใกล้เคียง สำหรับชายฝั่งและ [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP]</Text>		<!-- Tongan [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Happiness Building[/TIP]. +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture Adjacency for Coast and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_VAI_KAUKAU_TOOLTIP" Language="th_TH">
-			<Text>อาคารพิเศษของตองงา</Text>		<!-- Tongan Unique Building. -->
+			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษ[/TIP] ของตองงา</Text>		<!-- Tongan [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Building[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TREE_CIVICS_AQ_TONGA_NAME" Language="th_TH">
 			<Text>แนวคิดตองงา</Text>		<!-- Tongan Civics -->
@@ -314,40 +314,40 @@
 			<Text>ตาอูฟาอาเฮา ที่ 1</Text>		<!-- Tāufaʻāhau I -->
 		</Replace>
 		<Replace Tag="LOC_MOD_LAPITA_ORIGINS_OCEAN_TRADE_DESCRIPTION" Language="th_TH">
-			<Text>[icon:TRADE_ROUTE] เส้นทางการค้าสามารถข้ามมหาสมุทรได้</Text>		<!-- [icon:TRADE_ROUTE] Trade Routes can cross Ocean. -->
+			<Text>[icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]เส้นทางการค้า[/TIP] สามารถข้ามมหาสมุทรได้</Text>		<!-- [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Routes[/TIP] can cross Ocean. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_LAPITA_ORIGINS_CS_TRADE_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ [icon:TRADE_ROUTE] เส้นทางการค้าฟรีจาก [icon:CITYSTATE] นครรัฐ เมื่อคุณได้เป็นเจ้านครของพวกเขา</Text>		<!-- Receive a free [icon:TRADE_ROUTE] Trade Route from a new [icon:CITYSTATE] City-State when you become their Suzerain. -->
+			<Text>ได้รับ [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]เส้นทางการค้าฟรี[/TIP] จาก [icon:CITYSTATE] นครรัฐ เมื่อคุณได้เป็น [TIP:LOC_PEDIA_CONCEPTS_SUZERAIN_TOOLTIP]เจ้านคร[/TIP] ของพวกเขา</Text>		<!-- Receive a free [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP] from a new [icon:CITYSTATE] City-State when you become their [TIP:LOC_PEDIA_CONCEPTS_SUZERAIN_TOOLTIP]Suzerain[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_LAPITA_ORIGINS_MONUMENT_INFLUENCE_DESCRIPTION" Language="th_TH">
 			<Text>+1 [icon:YIELD_DIPLOMACY] อิทธิพล บนอนุสรณ์ที่อยู่ติดชายฝั่ง</Text>		<!-- +1 [icon:YIELD_DIPLOMACY] Influence on Monuments adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ESI_MAKA_FAAKINANGA_COMBAT_STRENGTH_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับยูนิตทหารราบ และยูนิตทางทะเลเมื่ออยู่ติดชายฝั่ง</Text>		<!-- +3 [icon:NAR_REW_COMBAT] Combat Strength for Infantry and Naval Units when adjacent to Coast. -->
+			<Text>+3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]ยูนิตทหารราบ[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ยูนิตทางทะเล[/TIP] เมื่ออยู่ติดชายฝั่ง</Text>		<!-- +3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]Infantry[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] when adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ESI_MAKA_FAAKINANGA_ADJACENT_TO_COAST_COMBAT_DESCRIPTION" Language="th_TH">
 			<Text>+{1_Amount} เอซี มาคา ฟาอากินางา</Text>		<!-- +{1_Amount} ʻEsi Maka Faakinanga -->
 		</Replace>
 		<Replace Tag="LOC_MOD_KAVA_CEREMONY_BEFRIEND_INDEPENDENT_DESCRIPTION" Language="th_TH">
-			<Text>+100% [icon:YIELD_DIPLOMACY] อิทธิพล ต่อการเริ่มต้นและดำเนินโครงการ [icon:PROJECT] ผูกมิตรกับรัฐอิสระ หาก [icon:INDEPENDENT_POWER] รัฐอิสระอยู่ในดินแดนห่างไกล</Text>		<!-- +100% [icon:YIELD_DIPLOMACY] Influence towards the initiating and progressing the [icon:PROJECT] Befriend Independent Project, if the [icon:INDEPENDENT_POWER] Independent Power is in Distant Lands. -->
+			<Text>+100% [icon:YIELD_DIPLOMACY] อิทธิพล ต่อการเริ่มต้นและสนับสนุนโครงการ [icon:PROJECT] ผูกมิตรกับรัฐอิสระ หาก [icon:INDEPENDENT_POWER] รัฐอิสระอยู่ใน [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP]</Text>		<!-- +100% [icon:YIELD_DIPLOMACY] Influence towards the initiating and supporting the [icon:PROJECT] Befriend Independent Project, if the [icon:INDEPENDENT_POWER] Independent Power is in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_NGATU_NAME" Language="th_TH">
 			<Text>งาตู</Text>		<!-- Ngatu -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_NGATU_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:YIELD_WAREHOUSE] อาคารคลังสินค้า</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture on [icon:YIELD_WAREHOUSE] Warehouse Buildings. -->
+			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]อาคารคลังสินค้า[/TIP]</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture on [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] Buildings. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_TONGIAKI_NAME" Language="th_TH">
 			<Text>ตองกิอะกิ</Text>		<!-- Tongiaki -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_TONGIAKI_DESCRIPTION" Language="th_TH">
-			<Text>+10 [icon:TRADE_ROUTE] ระยะทางเส้นทางการค้าทางทะเล</Text>		<!-- +10 [icon:TRADE_ROUTE] Naval Trade Route Range. -->
+			<Text>+10 [icon:TRADE_ROUTE] ระยะทางเส้นทางการค้าทางทะเล [TIP:LOC_PEDIA_CONCEPTS_TRADE_RANGE_TOOLTIP]Trade Route Range[/TIP]</Text>		<!-- +10 [icon:TRADE_ROUTE] Naval [TIP:LOC_PEDIA_CONCEPTS_TRADE_RANGE_TOOLTIP]Trade Route Range[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_TAKUAKA_NAME" Language="th_TH">
 			<Text>ตากูอากา</Text>		<!-- Takuaka -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_TAKUAKA_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_PRODUCTION] กำลังผลิต บนเรือประมงในเมืองใหญ่, +2 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บนเรือประมงบนแนวปะการังในทุกถิ่นฐาน</Text>		<!-- +1 [icon:YIELD_PRODUCTION] Production on Fishing Boats in [icon:YIELD_CITIES] Cities. +2 [icon:YIELD_SCIENCE] Science on Fishing Boats on Reefs in all Settlements. -->
+			<Text>+1 [icon:YIELD_PRODUCTION] กำลังผลิต บนเรือประมงใน [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP], +2 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บนเรือประมงบนแนวปะการังในทุก [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP]</Text>		<!-- +1 [icon:YIELD_PRODUCTION] Production on Fishing Boats in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP]. +2 [icon:YIELD_SCIENCE] Science on Fishing Boats on Reefs in all [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_TONGA" Language="th_TH">
 			<Text>เรือสองลำคู่ของตองงาแล่นข้ามทะเลกว้างไร้รอยทาง โดยมีเพียงดวงดาวนำทาง เสียงร้องเพลงขับเคลื่อนพวกเขาไปข้างหน้า เพื่อค้นหาท่าเรือหินทะเลใหม่ เกาะใหม่ และแหล่งประมงใหม่ ฟังเสียงกลองไม้และคลื่นกระทบลำเรือ - ชายฝั่งใหม่รออยู่</Text>		<!-- Across the trackless seas the double-hulled Tongan ships sail, guided by nothing but the stars. The singer’s chant drives them forward, to seek new sea-stone harbors, new atolls and new fishing grounds. Listen to the slit-drum, and the rush of waves on the hull - a new shore awaits. -->
@@ -620,25 +620,25 @@
 			<Text>คาเลีย</Text>		<!-- Kalia -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_KALIA_BASE_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทางทะเลพิเศษ ของตองงา, +5 [icon:NAR_REW_COMBAT] พลังต่อสู้ กับ [icon:CITY_FORTIFIED] เขตเสริมกำลัง</Text>		<!-- Tongan Unique Naval Unit. +5 [icon:NAR_REW_COMBAT] Combat Strength against [icon:CITY_FORTIFIED] Fortified Districts. -->
+			<Text>ยูนิตทางทะเลพิเศษ [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ของตองงา[/TIP], +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] กับ [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]เขตเสริมกำลัง[/TIP]</Text>		<!-- Tongan Unique [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP]. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] against [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_KALIA_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทางทะเลพิเศษ ระดับ 2 ของตองงา, +5 [icon:NAR_REW_COMBAT] พลังต่อสู้ กับ [icon:CITY_FORTIFIED] เขตเสริมกำลัง</Text>		<!-- Tier 2 Tongan Unique Naval Unit. +5 [icon:NAR_REW_COMBAT] Combat Strength against [icon:CITY_FORTIFIED] Fortified Districts. -->
+			<Text>ยูนิตทางทะเลพิเศษ [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ระดับ 2 ของตองงา[/TIP], +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] กับ [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]เขตเสริมกำลัง[/TIP]</Text>		<!-- Tier 2 Tongan Unique [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP]. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] against [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_KALIA_2_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทางทะเลพิเศษ ระดับ 3 ของตองงา, +5 [icon:NAR_REW_COMBAT] พลังต่อสู้ กับ [icon:CITY_FORTIFIED] เขตเสริมกำลัง</Text>		<!-- Tier 3 Tongan Unique Naval Unit. +5 [icon:NAR_REW_COMBAT] Combat Strength against [icon:CITY_FORTIFIED] Fortified Districts. -->
+			<Text>ยูนิตทางทะเลพิเศษ [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ระดับ 3 ของตองงา[/TIP], +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] กับ [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]เขตเสริมกำลัง[/TIP]</Text>		<!-- Tier 3 Tongan Unique [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP]. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] against [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_KALIA_DESCRIPTION" Language="th_TH">
-			<Text>+{1_amount} [icon:NAR_REW_COMBAT] พลังต่อสู้ กับ [icon:CITY_FORTIFIED] เขตเสริมกำลัง</Text>		<!-- +{1_amount} [icon:NAR_REW_COMBAT] Combat Strength against [icon:CITY_FORTIFIED] Fortified Districts. -->
+			<Text>+{1_amount} [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] กับ [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]เขตเสริมกำลัง[/TIP]</Text>		<!-- +{1_amount} [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] against [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_KALIA_PREVIEW" Language="th_TH">
-			<Text>+{1_Amount} กับเขตเสริมกำลัง</Text>		<!-- +{1_Amount} against Fortified Districts -->
+			<Text>+{1_Amount} กับ[TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]เขตเสริมกำลัง[/TIP]</Text>		<!-- +{1_Amount} against [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP] -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_TEHINA_NAME" Language="th_TH">
 			<Text>ตะฮีนา</Text>		<!-- Tehina -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_TEHINA_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตสอดแนมพิเศษของตองงา สามารถเข้าสู่มหาสมุทร (ไม่เสียหาย) ไม่สามารถขึ้นฝั่งในดินแดนห่างไกล สามารถใช้ [icon:Action_Pillage] จู่โจมชายฝั่ง กับการค้นพบที่อยู่ติดกันและลงเรือได้ตั้งแต่ต้นยุค</Text>		<!-- Tongan Unique Scout.  Can enter Ocean (does not take damage). Cannot disembark in Distant Lands. Can use [icon:Action_Pillage] Coastal Raid on adjacent Discoveries and embark at the start of the age. -->
+			<Text>ยูนิตสอดแนมพิเศษของตองงา สามารถเข้าสู่มหาสมุทร (ไม่เสียหาย) ไม่สามารถ [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]ขึ้นฝั่ง[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP] สามารถใช้ [icon:Action_Pillage] จู่โจมชายฝั่ง กับการค้นพบที่อยู่ติดกันและ [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]ลงเรือ[/TIP] ได้ตั้งแต่ต้น [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP]</Text>		<!-- Tongan Unique Scout.  Can enter Ocean (does not take damage). Cannot [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]disembark[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP]. Can use [icon:Action_Pillage] Coastal Raid on adjacent Discoveries and [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]embark[/TIP] at the start of the [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]age[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_HIMIKO_TONGA_TOOLTIP" Language="th_TH">
 			<Text>[B]ตองงา[/B] เสริมสร้างกลยุทธ์ที่สมบูรณ์แบบกับ [B]ฮิมิโกะ[/B]</Text>		<!-- [B]Tonga[/B] strategically complements [B]Himiko[/B]. -->
