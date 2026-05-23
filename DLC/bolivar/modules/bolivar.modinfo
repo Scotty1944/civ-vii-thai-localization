@@ -39,6 +39,7 @@
 				</UpdateColors>
 				<UpdateDatabase>
 					<Item>data/civilizations-legacy.xml</Item>
+					<Item>data/civilizations-shared.xml</Item>
 					<Item>data/leaders.xml</Item>
 					<Item>data/leaders-gameeffects.xml</Item>
 					<Item>data/loading-info.xml</Item>
@@ -48,9 +49,11 @@
 					<Item>data/progression-trees-common.xml</Item>
 					<Item>data/mementos.xml</Item>
 					<Item>data/mementos-gameeffects.xml</Item>
+					<Item>data/movies.xml</Item>
 					<Item>data/narrative-stories-gameeffects.xml</Item>
 					<Item>data/narrative-stories.xml</Item>
 					<Item>data/unlocks.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CivilopediaText.xml</Item>
@@ -78,6 +81,39 @@
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
 				</UpdateText>
+				<ImportFiles locale="de_DE">
+					<Item>l10n/de_DE/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="es_ES">
+					<Item>l10n/es_ES/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="fr_FR">
+					<Item>l10n/fr_FR/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="it_IT">
+					<Item>l10n/it_IT/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="ja_JP">
+					<Item>l10n/ja_JP/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="ko_KR">
+					<Item>l10n/ko_KR/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="pl_PL">
+					<Item>l10n/pl_PL/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="pt_BR">
+					<Item>l10n/pt_BR/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="ru_RU">
+					<Item>l10n/ru_RU/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="zh_Hans_CN">
+					<Item>l10n/zh_Hans_CN/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="zh_Hant_HK">
+					<Item>l10n/zh_Hant_HK/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
 				<UpdateIcons>
 					<Item>data/icons/card-icons.xml</Item>
 				</UpdateIcons>
@@ -90,7 +126,6 @@
 					<Item>bolivar</Item>
 				</UpdateArt>
 				<UpdateDatabase>
-					<Item>data/civilizations-antiquity.xml</Item>
 					<Item>data/narrative-stories-gameeffects-antiquity.xml</Item>
 					<Item>data/narrative-stories-antiquity.xml</Item>
 				</UpdateDatabase>
@@ -104,7 +139,6 @@
 				</UpdateArt>
 				<UpdateDatabase>
 					<Item>data/age-transition-advanced-start-exploration.xml</Item>
-					<Item>data/civilizations-exploration.xml</Item>
 					<Item>data/narrative-stories-gameeffects-exploration.xml</Item>
 					<Item>data/narrative-stories-exploration.xml</Item>
 				</UpdateDatabase>
@@ -123,7 +157,6 @@
 				</UpdateColors>
 				<UpdateDatabase>
 					<Item>data/age-transition-advanced-start-modern.xml</Item>
-					<Item>data/civilizations-modern.xml</Item>
 					<Item>data/narrative-stories-gameeffects-modern.xml</Item>
 					<Item>data/narrative-stories-modern.xml</Item>
 				</UpdateDatabase>
@@ -140,10 +173,14 @@
 				<UpdateArt>
 					<Item>bolivar-shell</Item>
 				</UpdateArt>
+				<UpdateColors>
+					<Item>data/playercolors.xml</Item>
+				</UpdateColors>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
 					<Item>config/metaprogression.xml</Item>
 					<Item>config/unlockableRewards.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/LeaderText.xml</Item>
@@ -168,6 +205,39 @@
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
 				</UpdateText>
+				<ImportFiles locale="de_DE">
+					<Item>l10n/de_DE/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="es_ES">
+					<Item>l10n/es_ES/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="fr_FR">
+					<Item>l10n/fr_FR/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="it_IT">
+					<Item>l10n/it_IT/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="ja_JP">
+					<Item>l10n/ja_JP/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="ko_KR">
+					<Item>l10n/ko_KR/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="pl_PL">
+					<Item>l10n/pl_PL/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="pt_BR">
+					<Item>l10n/pt_BR/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="ru_RU">
+					<Item>l10n/ru_RU/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="zh_Hans_CN">
+					<Item>l10n/zh_Hans_CN/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="zh_Hant_HK">
+					<Item>l10n/zh_Hant_HK/wilco_leader_bolivar.vtt</Item>
+				</ImportFiles>
 			</Actions>
 		</ActionGroup>
 	</ActionGroups>

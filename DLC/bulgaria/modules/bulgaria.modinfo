@@ -27,6 +27,9 @@
 		<Criteria id="modern-age-current">
 			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
+		<Criteria id="assyria-current">
+			<ModInUse>assyria</ModInUse>
+		</Criteria>
 		<Criteria id="genghis-khan-current">
 			<ModInUse>genghis-khan</ModInUse>
 		</Criteria>
@@ -159,21 +162,21 @@
 		<ActionGroup id="bulgaria-text" scope="game" criteria="always">
 			<Actions>
 				<UpdateText>
-					<Item>text/en_us/CitizenNamesText.xml</Item>
-					<Item>text/en_us/CityNamesText.xml</Item>
-					<Item>text/en_us/CivilizationLegacyText.xml</Item>
-					<Item>text/en_us/CivilizationText.xml</Item>
-					<Item>text/en_us/CivilopediaText.xml</Item>
-					<Item>text/en_us/ConstructibleText.xml</Item>
-					<Item>text/en_us/CultureText.xml</Item>
-					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/CitizenNamesText.xml</Item>
+					<Item>text/CityNamesText.xml</Item>
+					<Item>text/CivilizationLegacyText.xml</Item>
+					<Item>text/CivilizationText.xml</Item>
+					<Item>text/CivilopediaText.xml</Item>
+					<Item>text/ConstructibleText.xml</Item>
+					<Item>text/CultureText.xml</Item>
 					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
-					<Item>text/en_us/ModuleText.xml</Item>
-					<Item>text/en_us/MoveLaterText.xml</Item>
-					<Item>text/en_us/NamedPlacesText.xml</Item>
-					<Item>text/en_us/NarrativeStoriesText.xml</Item>
-					<Item>text/en_us/UnitText.xml</Item>
-					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/LoadingText.xml</Item>
+					<Item>text/ModuleText.xml</Item>
+					<Item>text/MoveLaterText.xml</Item>
+					<Item>text/NamedPlacesText.xml</Item>
+					<Item>text/NarrativeStoriesText.xml</Item>
+					<Item>text/UnitText.xml</Item>
+					<Item>text/UnlockText.xml</Item>
 					<Item>l10n/ModuleText.xml</Item>
 					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
 					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
@@ -197,14 +200,54 @@
 					<Item>data/traditions.xml</Item>
 					<Item>data/traditions-gameeffects.xml</Item>
 					<Item>data/civilizations-legacy.xml</Item>
+					<Item>data/civilizations-shared.xml</Item>
+					<Item>data/civilizations-shared-gameeffects.xml</Item>
 					<Item>data/unlocks-base-standard.xml</Item>
+					<Item>data/unlocks-antiquity.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
+					<Item>data/tot-base-narrative-stories-gameeffects.xml</Item>
+					<Item>data/tot-base-narrative-stories.xml</Item>
+					<Item>data/narrative-stories-common-gameeffects.xml</Item>
+					<Item>data/citizen-names.xml</Item>
+					<Item>data/loading-info-exploration.xml</Item>
+					<Item>data/metaprogression-shared.xml</Item>
+					<Item>data/metaprogression-shared-gameeffects.xml</Item>
+					<Item>data/unlocks-exploration.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="age-antiquity-main-bulgaria" scope="game" criteria="antiquity-age-current">
 			<Actions>
 				<UpdateDatabase>
-					<Item>data/unlocks-antiquity.xml</Item>
+					<Item>data/civilizations-antiquity.xml</Item>
+					<Item>data/progression-trees-culture-unique-aq.xml</Item>
+					<Item>data/tot-narrative-stories-gameeffects.xml</Item>
+					<Item>data/tot-narrative-stories.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-exploration-main-bulgaria" scope="game" criteria="exploration-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-exploration.xml</Item>
+					<Item>data/civilizations-gameeffects.xml</Item>
+					<Item>data/narrative-display.xml</Item>
+					<Item>data/narrative-stories-gameeffects-exploration.xml</Item>
+					<Item>data/narrative-stories-exploration.xml</Item>
+					<Item>data/progression-trees-culture-unique.xml</Item>
+					<Item>data/units.xml</Item>
+					<Item>data/units-gameeffects.xml</Item>
+					<Item>data/progression-trees-tech.xml</Item>
+					<Item>data/metaprogression.xml</Item>
+					<Item>data/metaprogression-gameeffects.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-modern-main-bulgaria" scope="game" criteria="modern-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-modern.xml</Item>
+					<Item>data/progression-trees-culture-unique-mo.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -215,33 +258,21 @@
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
+		<ActionGroup id="base-game-main-bulgaria-assyria" scope="game" criteria="assyria-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/unlocks-syncretism-assyria.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
 		<ActionGroup id="age-exploration-persist-bulgaria" scope="game" criteria="exploration-age-persist">
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/constructibles.xml</Item>
 					<Item>data/constructibles-gameeffects.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="age-exploration-main-bulgaria" scope="game" criteria="exploration-age-current">
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/citizen-names.xml</Item>
-					<Item>data/civilizations-exploration.xml</Item>
-					<Item>data/civilizations-gameeffects.xml</Item>
-					<Item>data/constructibles-no-persist.xml</Item>
-					<Item>data/loading-info-exploration.xml</Item>
-					<Item>data/narrative-display.xml</Item>
-					<Item>data/narrative-stories-gameeffects-exploration.xml</Item>
-					<Item>data/narrative-stories-exploration.xml</Item>
-					<Item>data/progression-trees-culture-unique.xml</Item>
-					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>
-					<Item>data/progression-trees-tech.xml</Item>
-					<Item>data/units.xml</Item>
-					<Item>data/units-gameeffects.xml</Item>
-					<Item>data/unlocks-exploration.xml</Item>
-					<Item>data/metaprogression.xml</Item>
-					<Item>data/metaprogression-gameeffects.xml</Item>
+					<Item>data/greatworks.xml</Item>
+					<Item>data/traditions-persist.xml</Item>
+					<Item>data/traditions-gameeffects-persist.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -269,17 +300,20 @@
 				</UpdateIcons>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
+					<Item>config/config-traditions.xml</Item>
 					<Item>config/metaprogression.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
-					<Item>text/en_us/CivilizationLegacyText.xml</Item>
-					<Item>text/en_us/CivilizationText.xml</Item>
-					<Item>text/en_us/ConstructibleText.xml</Item>
-					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/CivilizationLegacyText.xml</Item>
+					<Item>text/CivilizationText.xml</Item>
+					<Item>text/ConstructibleText.xml</Item>
+					<Item>text/CultureText.xml</Item>
+					<Item>text/LoadingText.xml</Item>
 					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
-					<Item>text/en_us/ModuleText.xml</Item>
-					<Item>text/en_us/UnitText.xml</Item>
-					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/ModuleText.xml</Item>
+					<Item>text/UnitText.xml</Item>
+					<Item>text/UnlockText.xml</Item>
 					<Item>l10n/ModuleText.xml</Item>
 					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
 					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
@@ -298,7 +332,7 @@
 		</ActionGroup>
 	</ActionGroups>
 	<LocalizedText>
-		<File>text/en_us/ModuleText.xml</File>
+		<File>text/ModuleText.xml</File>
 		<File>l10n/ModuleText.xml</File>
 	</LocalizedText>
 </Mod>

@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Mod id="gilgamesh" version="1"
-	xmlns="ModInfo">
+<?xml version='1.0' encoding='utf-8'?>
+<Mod xmlns="ModInfo" id="gilgamesh" version="1">
 	<Properties>
 		<Name>LOC_MODULE_GILGAMESH_NAME</Name>
 		<Description>LOC_MODULE_GILGAMESH_DESCRIPTION</Description>
@@ -10,7 +9,7 @@
 		<Package>BaseGame</Package>
 	</Properties>
 	<Dependencies>
-		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME" />
 	</Dependencies>
 	<ActionCriteria>
 		<Criteria id="antiquity-age-current">
@@ -23,7 +22,7 @@
 			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
 		<Criteria id="always">
-			<AlwaysMet></AlwaysMet>
+			<AlwaysMet />
 		</Criteria>
 	</ActionCriteria>
 	<ActionGroups>
@@ -47,8 +46,10 @@
 					<Item>data/narrative-stories-gameeffects.xml</Item>
 					<Item>data/narrative-stories.xml</Item>
 					<Item>data/unlocks.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
 					<Item>data/metaprogression-gameeffects.xml</Item>
 					<Item>data/metaprogression.xml</Item>
+					<Item>data/movies.xml</Item>
 					<Item>data/progression-trees-common-gameeffects.xml</Item>
 					<Item>data/progression-trees-common.xml</Item>
 					<Item>data/mementos.xml</Item>
@@ -68,8 +69,6 @@
 					<Item>text/en_us/UnlockableRewardsText.xml</Item>
 					<Item>text/en_us/LeaderDialog_Gilgamesh.xml</Item>
 					<Item>text/en_us/CivilopediaText.xml</Item>
-
-					<!-- Items below were generated via our loc tool. -->
 					<Item>l10n/ModuleText.xml</Item>
 					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
 					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
@@ -84,6 +83,39 @@
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
 				</UpdateText>
+				<ImportFiles locale="de_DE">
+					<Item>l10n/de_DE/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="es_ES">
+					<Item>l10n/es_ES/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="fr_FR">
+					<Item>l10n/fr_FR/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="it_IT">
+					<Item>l10n/it_IT/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="ja_JP">
+					<Item>l10n/ja_JP/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="ko_KR">
+					<Item>l10n/ko_KR/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="pl_PL">
+					<Item>l10n/pl_PL/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="pt_BR">
+					<Item>l10n/pt_BR/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="ru_RU">
+					<Item>l10n/ru_RU/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="zh_Hans_CN">
+					<Item>l10n/zh_Hans_CN/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="zh_Hant_HK">
+					<Item>l10n/zh_Hant_HK/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
 				<UpdateIcons>
 					<Item>data/icons/card-icons.xml</Item>
 				</UpdateIcons>
@@ -150,6 +182,7 @@
 					<Item>config/config.xml</Item>
 					<Item>config/metaprogression.xml</Item>
 					<Item>config/unlockableRewards.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/LeaderText.xml</Item>
@@ -162,8 +195,6 @@
 					<Item>text/en_us/ModuleText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
 					<Item>text/en_us/CivilopediaText.xml</Item>
-
-					<!-- Items below were generated via our loc tool. -->
 					<Item>l10n/ModuleText.xml</Item>
 					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
 					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
@@ -178,6 +209,39 @@
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
 				</UpdateText>
+				<ImportFiles locale="de_DE">
+					<Item>l10n/de_DE/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="es_ES">
+					<Item>l10n/es_ES/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="fr_FR">
+					<Item>l10n/fr_FR/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="it_IT">
+					<Item>l10n/it_IT/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="ja_JP">
+					<Item>l10n/ja_JP/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="ko_KR">
+					<Item>l10n/ko_KR/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="pl_PL">
+					<Item>l10n/pl_PL/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="pt_BR">
+					<Item>l10n/pt_BR/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="ru_RU">
+					<Item>l10n/ru_RU/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="zh_Hans_CN">
+					<Item>l10n/zh_Hans_CN/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="zh_Hant_HK">
+					<Item>l10n/zh_Hant_HK/wilco_leader_gilgamesh.vtt</Item>
+				</ImportFiles>
 			</Actions>
 		</ActionGroup>
 	</ActionGroups>

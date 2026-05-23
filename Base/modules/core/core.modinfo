@@ -15,6 +15,16 @@
 		</Criteria>
 	</ActionCriteria>
 	<ActionGroups>
+		<ActionGroup id="config-schema" scope="shell" criteria="always">
+			<Properties>
+				<LoadOrder>-1</LoadOrder>
+			</Properties>
+			<Actions>
+				<UpdateDatabase>
+					<Item>config/config-schema.sql</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
 		<ActionGroup id="core-shell" scope="shell" criteria="always">
 			<Actions>
 				<UpdateDatabase>
@@ -28,6 +38,7 @@
 				<UpdateText>
 					<Item>text/en_us/CoreText.xml</Item>
 					<Item>text/en_us/ControllerText.xml</Item>
+					<Item>text/en_us/CreateGameText.xml</Item>
 					<Item>text/en_us/GrammarText.xml</Item>
 					<Item>text/en_us/InputText.xml</Item>
 					<Item>text/en_us/LanguageText.xml</Item>
@@ -72,6 +83,9 @@
 					<Item ecosystem="game-center">text/en_us/UIShellText_Multiplayer_AppleArcade.xml</Item>
 					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
 				</UpdateText>
+				<UIAudioRules>
+					<Item>ui-next/audio-rules.json</Item>
+				</UIAudioRules>
 				<UIScripts>
 					<Item>ui/accessibility/tts-manager.js</Item>
 					<Item>ui/components/index.js</Item>
@@ -101,15 +115,6 @@
 					<Item>ui/shell/age-transition/age-transition-civ-select.js</Item>
 					<Item>ui/shell/civ-select/civ-button/civ-button.js</Item>
 					<Item>ui/shell/collection/collection-content.js</Item>
-					<Item>ui/shell/create-panels/create-game-model.js</Item>
-					<Item>ui/shell/create-game/create-game-sp.js</Item>
-					<Item>ui/shell/create-panels/advanced-options-panel.js</Item>
-					<Item>ui/shell/create-panels/age-select-panel.js</Item>
-					<Item>ui/shell/create-panels/civ-select-bonus.js</Item>
-					<Item>ui/shell/create-panels/civ-select-panel.js</Item>
-					<Item>ui/shell/create-panels/game-setup-panel.js</Item>
-					<Item>ui/shell/create-panels/leader-select-panel.js</Item>
-					<Item>ui/shell/create-panels/learn-more.js</Item>
 					<Item>ui/shell/create-panels/memento-editor.js</Item>
 					<Item>ui/shell/create-panels/memento-slot.js</Item>
 					<Item>ui/shell/events/screen-events.js</Item>
@@ -118,13 +123,18 @@
 					<Item>ui/shell/extras/screen-extras.js</Item>
 					<Item>ui/shell/leader-select/leader-button/leader-button.js</Item>
 					<Item>ui/shell/main-menu/main-menu.js</Item>
+					<Item>ui/shell/main-menu/main-menu-carousel-model.js</Item>
+					<Item>ui/shell/main-menu/main-menu-carousel.js</Item>
+					<Item>ui/shell/main-menu/main-menu-background.js</Item>
 					<Item>ui/shell/mp-legal/mp-legal.js</Item>
 					<Item>ui/shell/mp-link-account/mp-link-account.js</Item>
+					<Item>ui/shell/mp-account-permissions/mp-account-permissions.js</Item>
 					<Item>ui/shell/mp-primary-account-select/mp-primary-account-select.js</Item>
 					<Item>ui/shell/credits/screen-credits.js</Item>
 					<Item>ui/shell/mp-browser/mp-browser-new.js</Item>
 					<Item>ui/shell/mp-browser/mp-browser-chooser-item.js</Item>
 					<Item>ui/shell/mp-landing/mp-landing-new.js</Item>
+					<Item>ui/shell/mp-additional-content/mp-additional-content.js</Item>
 					<Item>ui/shell/mp-staging/mp-staging-new.js</Item>
 					<Item>ui/shell/mp-staging/mp-staging-player-info-card.js</Item>
 					<Item>ui/shell/mp-staging/mp-staging-playerinfocard-dropdown.js</Item>
@@ -149,6 +159,7 @@
 					<Item>ui/utilities/utilities-liveops.js</Item>
 					<Item>ui/shell/odr-download/odr-download.js</Item>
 					<Item>ui/shell/screen-movie/screen-movie.js</Item>
+					<Item>ui-next/screens/create-game/create-game-screen.js</Item>
 				</UIScripts>
 				<UIShortcuts>
 					<Item>ui/debug/html-preview.html</Item>
@@ -162,6 +173,8 @@
 					<Item>ui-next/sandbox/scratchpad.html</Item>
 					<Item>ui-next/sandbox/components-browser/components-browser.html</Item>
 					<Item>ui-next/reference/text-scratchpad/text-scratchpad.html</Item>
+					<Item>ui-next/reference/audio/audio.html</Item>
+					<Item>ui-next/reference/drag-and-drop/inventory.html</Item>
 				</UIShortcuts>
 				<ImportFiles>
 					<Item>ui/cohtml.js</Item>
@@ -186,6 +199,7 @@
 				<UpdateText>
 					<Item>text/en_us/CoreText.xml</Item>
 					<Item>text/en_us/ControllerText.xml</Item>
+					<Item>text/en_us/CreateGameText.xml</Item>
 					<Item>text/en_us/GrammarText.xml</Item>
 					<Item>text/en_us/InputText.xml</Item>
 					<Item>text/en_us/LanguageText.xml</Item>
@@ -238,6 +252,7 @@
 					<Item>ui-next/sandbox/sandbox.html</Item>
 					<Item>ui-next/sandbox/components-browser/components-browser.html</Item>
 					<Item>ui-next/reference/text-scratchpad/text-scratchpad.html</Item>
+					<Item>ui-next/reference/drag-and-drop/inventory.html</Item>
 				</UIShortcuts>
 				<ImportFiles>
 					<Item>ui/cohtml.js</Item>
@@ -246,6 +261,9 @@
 					<Item>ui/utilities/utilities-network.js</Item>
 					<Item>ui/utilities/utilities-online.js</Item>
 				</ImportFiles>
+				<UIAudioRules>
+					<Item>ui-next/audio-rules.json</Item>
+				</UIAudioRules>
 				<UIScripts>
 					<Item>ui/accessibility/tts-manager.js</Item>
 					<Item>ui/camera/camera-controller.js</Item>
@@ -255,7 +273,7 @@
 					<Item>ui/dialog-box/screen-dialog-box.js</Item>
 					<Item>ui/input/action-handler.js</Item>
 					<Item>ui/input/cursor.js</Item>
-					<Item>ui/input/focus-manager.js</Item>
+					<Item>ui-next/services/focus-manager.js</Item>
 					<Item>ui/input/plot-cursor.js</Item>
 					<Item>ui/interface-modes/interface-modes.js</Item>
 					<Item>ui/mouse-guard/mouse-guard.js</Item>
@@ -294,6 +312,7 @@
 					<Item>ui/shell/mp-staging/mp-search.js</Item>
 					<Item>ui/shell/mp-staging/mp-report.js</Item>
 					<Item>ui/shell/mp-link-account/mp-link-account.js</Item>
+					<Item>ui/shell/mp-account-permissions/mp-account-permissions.js</Item>
 					<Item>ui/shell/mp-primary-account-select/mp-primary-account-select.js</Item>
 					<Item>ui/shell/shell-components/icon-dropdown.js</Item>
 				</UIScripts>

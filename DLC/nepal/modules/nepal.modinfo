@@ -183,6 +183,7 @@
 					<Item>text/en_us/MoveLaterText.xml</Item>
 					<Item>text/en_us/NamedPlacesText.xml</Item>
 					<Item>text/en_us/NarrativeStoriesText.xml</Item>
+					<Item>text/en_us/tot-NarrativeStoriesText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
 					<Item>l10n/ModuleText.xml</Item>
@@ -205,56 +206,73 @@
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/civilizations-legacy.xml</Item>
-					<Item>data/diplomacy-actions.xml</Item>
-					<Item>data/diplomacy-gameeffects.xml</Item>
 					<Item>data/named-places.xml</Item>
 					<Item>data/traditions.xml</Item>
 					<Item>data/traditions-gameeffects.xml</Item>
 					<Item>data/unlocks-base-standard.xml</Item>
 					<Item>data/movelater-base-standard.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="age-antiquity-main-nepal" scope="game" criteria="antiquity-age-current">
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/unlocks-antiquity.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="age-exploration-main-nepal" scope="game" criteria="exploration-age-current">
-			<Actions>
-				<UpdateDatabase>
+					<Item>data/tot-base-narrative-stories-gameeffects.xml</Item>
+					<Item>data/tot-base-narrative-stories.xml</Item>
+					<Item>data/narrative-stories-common-gameeffects.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
 					<Item>data/unlocks-exploration.xml</Item>
+					<Item>data/unlocks-antiquity.xml</Item>
+					<Item>data/citizen-names.xml</Item>
+					<Item>data/civilizations-shared.xml</Item>
+					<Item>data/civilizations-shared-gameeffects.xml</Item>
+					<Item>data/loading-info-modern.xml</Item>
+					<Item>data/metaprogression.xml</Item>
+					<Item>data/metaprogression-gameeffects.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="nepal-gameplay-antiquity" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-antiquity.xml</Item>
+					<Item>data/constructibles-antiquity.xml</Item>
+					<Item>data/progression-trees-culture-unique-aq.xml</Item>
+					<Item>data/tot-narrative-stories-gameeffects.xml</Item>
+					<Item>data/tot-narrative-stories.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="nepal-gameplay-exploration" scope="game" criteria="exploration-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-exploration.xml</Item>
+					<Item>data/constructibles-antiquity.xml</Item>
+					<Item>data/constructibles-exploration.xml</Item>
+					<Item>data/progression-trees-culture-unique-ex.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="nepal-gameplay-modern" scope="game" criteria="modern-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/progression-trees-culture-unique.xml</Item>
+					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>
+					<Item>data/civilizations-gameeffects.xml</Item>
+					<Item>data/civilizations-modern.xml</Item>
+					<Item>data/narrative-display.xml</Item>
+					<Item>data/narrative-stories-gameeffects-modern.xml</Item>
+					<Item>data/narrative-stories-modern.xml</Item>
+					<Item>data/units.xml</Item>
+					<Item>data/units-gameeffects.xml</Item>
+					<Item>data/progression-trees-tech.xml</Item>
+					<Item>data/diplomacy-actions.xml</Item>
+					<Item>data/diplomacy-actions-modern.xml</Item>
+					<Item>data/diplomacy-gameeffects.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="age-modern-persist-nepal" scope="game" criteria="modern-age-persist">
 			<Actions>
 				<UpdateDatabase>
-					<Item>data/constructibles.xml</Item>
+					<Item>data/constructibles-antiquity.xml</Item>
+					<Item>data/constructibles-exploration.xml</Item>
+					<Item>data/constructibles-modern.xml</Item>
 					<Item>data/constructibles-gameeffects.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="age-modern-main-nepal" scope="game" criteria="modern-age-current">
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/citizen-names.xml</Item>
-					<Item>data/civilizations-modern.xml</Item>
-					<Item>data/civilizations-gameeffects.xml</Item>
-					<Item>data/diplomacy-actions-modern.xml</Item>
-					<Item>data/loading-info-modern.xml</Item>
-					<Item>data/metaprogression.xml</Item>
-					<Item>data/metaprogression-gameeffects.xml</Item>
-					<Item>data/narrative-display.xml</Item>
-					<Item>data/narrative-stories-gameeffects-modern.xml</Item>
-					<Item>data/narrative-stories-modern.xml</Item>
-					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>
-					<Item>data/progression-trees-culture-unique.xml</Item>
-					<Item>data/progression-trees-tech.xml</Item>
-					<Item>data/units.xml</Item>
-					<Item>data/units-gameeffects.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -262,12 +280,6 @@
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/unlocks-ashoka-alt.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="modern-age-ashoka-nepal" scope="game" criteria="modern-age-ashoka">
-			<Actions>
-				<UpdateDatabase>
 					<Item>data/civilizations-modern-ashoka.xml</Item>
 				</UpdateDatabase>
 			</Actions>
@@ -310,11 +322,14 @@
 				</UpdateIcons>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
+					<Item>config/config-traditions.xml</Item>
 					<Item>config/metaprogression.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CivilizationLegacyText.xml</Item>
 					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/ConstructibleText.xml</Item>
 					<Item>text/en_us/DiplomacyText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>

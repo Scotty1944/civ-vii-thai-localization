@@ -184,6 +184,7 @@
 					<Item>text/en_us/ModuleText.xml</Item>
 					<Item>text/en_us/NamedPlacesText.xml</Item>
 					<Item>text/en_us/NarrativeStoriesText.xml</Item>
+					<Item>text/en_us/tot-NarrativeStoriesText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
 					<Item>l10n/ModuleText.xml</Item>
@@ -206,17 +207,57 @@
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/civilizations-legacy.xml</Item>
+					<Item>data/civilizations-base-standard.xml</Item>
 					<Item>data/named-places.xml</Item>
 					<Item>data/traditions.xml</Item>
 					<Item>data/traditions-gameeffects.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
 					<Item>data/unlocks-base-standard.xml</Item>
+					<Item>data/unlocks-antiquity.xml</Item>
+					<Item>data/unlocks-exploration.xml</Item>
+					<Item>data/tot-base-narrative-stories-gameeffects.xml</Item>
+					<Item>data/tot-base-narrative-stories.xml</Item>
+					<Item>data/narrative-stories-common-gameeffects.xml</Item>
+					<Item>data/citizen-names.xml</Item>
+					<Item>data/civilizations-shared-gameeffects.xml</Item>
+					<Item>data/loading-info-modern.xml</Item>
+					<Item>data/metaprogression.xml</Item>
+					<Item>data/metaprogression-gameeffects.xml</Item>
+					<Item>data/narrative-display.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="base-game-main-great-britain-ada" scope="game" criteria="ada-current">
+		<ActionGroup id="age-antiquity-main-great-britain-aq" scope="game" criteria="antiquity-age-current">
 			<Actions>
 				<UpdateDatabase>
-					<Item>data/unlocks-ada-lovelace.xml</Item>
+					<Item>data/civilizations-antiquity.xml</Item>
+					<Item>data/progression-trees-culture-aq.xml</Item>
+					<Item>data/tot-narrative-stories-gameeffects.xml</Item>
+					<Item>data/tot-narrative-stories.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-exploration-main-great-britain-ex" scope="game" criteria="exploration-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-exploration.xml</Item>
+					<Item>data/progression-trees-culture-ex.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-modern-main-great-britain" scope="game" criteria="modern-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/AI_Modern.xml</Item>
+					<Item>data/civilizations-gameeffects.xml</Item>
+					<Item>data/civilizations-modern.xml</Item>
+					<Item>data/progression-trees-culture-unique.xml</Item>
+					<Item>data/progression-trees-tech.xml</Item>
+					<Item>data/narrative-stories-gameeffects-modern.xml</Item>
+					<Item>data/narrative-stories-modern.xml</Item>
+					<Item>data/units.xml</Item>
+					<Item>data/units-gameeffects.xml</Item>
+					<Item>data/greatworks.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -224,34 +265,15 @@
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/unlocks-edward-teach.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="age-antiquity-main-great-britain" scope="game" criteria="antiquity-age-current">
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/unlocks-antiquity.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="age-exploration-main-great-britain" scope="game" criteria="exploration-age-current">
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/unlocks-exploration.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="age-modern-ada-current" scope="game" criteria="modern-age-ada">
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/civilizations-modern-ada.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="age-modern-edward-teach" scope="game" criteria="modern-age-edward-teach">
-			<Actions>
-				<UpdateDatabase>
 					<Item>data/civilizations-modern-edward-teach.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-modern-ada-current" scope="game" criteria="ada-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/unlocks-ada-lovelace.xml</Item>
+					<Item>data/civilizations-modern-ada.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -260,28 +282,6 @@
 				<UpdateDatabase>
 					<Item>data/constructibles.xml</Item>
 					<Item>data/constructibles-gameeffects.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="age-modern-main-great-britain" scope="game" criteria="modern-age-current">
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/AI.xml</Item>
-					<Item>data/greatworks.xml</Item>
-					<Item>data/citizen-names.xml</Item>
-					<Item>data/civilizations-modern.xml</Item>
-					<Item>data/civilizations-gameeffects.xml</Item>
-					<Item>data/loading-info-modern.xml</Item>
-					<Item>data/metaprogression.xml</Item>
-					<Item>data/metaprogression-gameeffects.xml</Item>
-					<Item>data/narrative-display.xml</Item>
-					<Item>data/narrative-stories-gameeffects-modern.xml</Item>
-					<Item>data/narrative-stories-modern.xml</Item>
-					<Item>data/progression-trees-culture-unique.xml</Item>
-					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>
-					<Item>data/progression-trees-tech.xml</Item>
-					<Item>data/units.xml</Item>
-					<Item>data/units-gameeffects.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -316,12 +316,15 @@
 				</UpdateIcons>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
+					<Item>config/config-traditions.xml</Item>
 					<Item>config/metaprogression.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CivilizationLegacyText.xml</Item>
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/ConstructibleText.xml</Item>
+					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
 					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
 					<File>text/en_us/ModuleText.xml</File>

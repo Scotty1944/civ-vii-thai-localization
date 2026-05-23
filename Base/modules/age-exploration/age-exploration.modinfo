@@ -16,8 +16,14 @@
 
 	</References>
 	<ActionCriteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
 		<Criteria id="exploration-age-current">
 			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-current">
+			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
 		<Criteria id="exploration-age-persist" any="true">
 			<AgeInUse>AGE_EXPLORATION</AgeInUse>
@@ -36,33 +42,39 @@
 					<Item>data/icons/celebration-icons.xml</Item>
 					<Item>data/icons/city-state-bonus-icons.xml</Item>
 					<Item>data/icons/improvement-icons.xml</Item>
+					<Item>data/icons/project-icons.xml</Item>
 					<Item>data/icons/religion-icons.xml</Item>
 					<Item>data/icons/unit-icons.xml</Item>
 					<Item>data/icons/wonder-icons.xml</Item>
 				</UpdateIcons>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="age-exploration-gameplay-static" scope="game" criteria="always">
+		<ActionGroup id="age-exploration-text" scope="game" criteria="always">
 			<Actions>
-				<UpdateDatabase>
-					<Item>data/gameplay-static.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="age-exploration-persist" scope="game" criteria="exploration-age-persist">
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/civilizations-legacy.xml</Item>
-					<Item>data/constructibles.xml</Item>
-					<Item>data/constructibles-gameeffects.xml</Item>
-					<Item>data/culture.xml</Item>
-					<Item>data/independents-legacy.xml</Item>
-				</UpdateDatabase>
 				<UpdateText>
+					<Item>text/en_us/AdvancedStartText.xml</Item>
+					<Item>text/en_us/AgeTransitionText.xml</Item>
+					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/Civilopedia_Civilizations_Text.xml</Item>
+					<Item>text/en_us/Civilopedia_Culture_Text.xml</Item>
+					<Item>text/en_us/Civilopedia_Governments_Text.xml</Item>
+					<Item>text/en_us/Civilopedia_Technologies_Text.xml</Item>
+					<Item>text/en_us/Civilopedia_Units_Text.xml</Item>
+					<Item>text/en_us/DiscoveryStoriesText.xml</Item>
+					<Item>text/en_us/GameplaySystemsText.xml</Item>
+					<Item>text/en_us/GoldenAgeText.xml</Item>
+					<Item>text/en_us/GreatPeopleText.xml</Item>
+					<Item>text/en_us/GreatWorksText.xml</Item>
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/NarrativeCrisesStoriesText.xml</Item>
+					<Item>text/en_us/NarrativeStoriesText.xml</Item>
+					<Item>text/en_us/tot-NarrativeStoriesText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>
+					<Item>text/en_us/VictoriesText.xml</Item>
 					<Item>text/en_us/CityNamesText.xml</Item>
 					<Item>text/en_us/Civilopedia_Constructibles_Text.xml</Item>
-					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/ConstructibleText.xml</Item>
+					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/IndependentsText.xml</Item>
 					<Item>text/en_us/ReligionText.xml</Item>
 					<Item>text/en_us/WonderQuotes.xml</Item>
@@ -77,8 +89,61 @@
 					<Item locale="ru_RU">l10n/ru_RU_Text.xml</Item>
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
-					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
 				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-exploration-text-age-specific" scope="game" criteria="exploration-age-current">
+			<Actions>
+				<UpdateText>
+					<Item>text/en_us/AdvisorText.xml</Item>
+					<Item>text/en_us/AgeEndingWarning.xml</Item>
+					<Item>text/en_us/CityCommandsText.xml</Item>
+					<Item>text/en_us/DiplomacyText.xml</Item>
+					<Item>text/en_us/ProjectsText.xml</Item>
+					<Item>text/en_us/ResourcesText-v2.xml</Item>
+					<Item>text/en_us/ResourcesText.xml</Item>
+					<Item>text/en_us/TechnologiesText.xml</Item>
+					<Item>text/en_us/TutorialText.xml</Item>
+					<Item locale="de_DE">l10n/de_DE_AgeSpecific_Text.xml</Item>
+					<Item locale="es_ES">l10n/es_ES_AgeSpecific_Text.xml</Item>
+					<Item locale="fr_FR">l10n/fr_FR_AgeSpecific_Text.xml</Item>
+					<Item locale="it_IT">l10n/it_IT_AgeSpecific_Text.xml</Item>
+					<Item locale="ja_JP">l10n/ja_JP_AgeSpecific_Text.xml</Item>
+					<Item locale="ko_KR">l10n/ko_KR_AgeSpecific_Text.xml</Item>
+					<Item locale="pl_PL">l10n/pl_PL_AgeSpecific_Text.xml</Item>
+					<Item locale="pt_BR">l10n/pt_BR_AgeSpecific_Text.xml</Item>
+					<Item locale="ru_RU">l10n/ru_RU_AgeSpecific_Text.xml</Item>
+					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_AgeSpecific_Text.xml</Item>
+					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_AgeSpecific_Text.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-exploration-gameplay-static" scope="game" criteria="always">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/ai-shared.xml</Item>
+					<Item>data/gameplay-static.xml</Item>
+					<Item>data/gameplay.xml</Item>
+					<Item>data/constructibles-shared.xml</Item>
+					<Item>data/progression-trees-tech-gameeffects-shared.xml</Item>
+					<Item>data/traditions.xml</Item>
+					<Item>data/traditions-gameeffects.xml</Item>
+					<Item>data/traditions-tot.xml</Item>
+					<Item>data/traditions-tot-gameeffects.xml</Item>
+					<Item>data/unlocks-shared.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-exploration-persist" scope="game" criteria="exploration-age-persist">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/constructibles.xml</Item>
+					<Item>data/constructibles-gameeffects.xml</Item>
+					<Item>data/culture.xml</Item>
+					<Item>data/independents-legacy.xml</Item>
+					<Item>data/traditions-tot-gameeffects-persist.xml</Item>
+				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="age-exploration-main" scope="game" criteria="exploration-age-current">
@@ -88,17 +153,14 @@
 				</UpdateArt>
 				<UpdateDatabase>
 					<Item>data/age-active.xml</Item>
-					<Item>data/gameplay.xml</Item>
-					<Item>data/AI_Exploration.xml</Item>
+					<Item>data/ai-exploration.xml</Item>
 					<Item>data/advanced-start-gameeffects.xml</Item>
 					<Item>data/advanced-start.xml</Item>
 					<Item>data/advisory.xml</Item>
 					<Item>data/age-transition.xml</Item>
 					<Item>data/age-transition-gameeffects.xml</Item>
 					<Item>data/attributes-gameeffects.xml</Item>
-					<Item>data/civilizations.xml</Item>
 					<Item>data/civilizations-common-gameeffects.xml</Item>
-					<Item>data/civilizations-gameeffects.xml</Item>
 					<Item>data/civilopedia-exploration.xml</Item>
 					<Item>data/constructibles-no-persist.xml</Item>
 					<Item>data/constructible-modifiers-gameeffects.xml</Item>
@@ -121,7 +183,8 @@
 					<Item>data/independents-gameeffects.xml</Item>
 					<Item>data/leaders-gameeffects.xml</Item>
 					<Item>data/legacy-path-gameeffects.xml</Item>
-					<Item>data/loading-info.xml</Item>
+					<Item>data/legacies.xml</Item>
+					<Item>data/legacies-gameeffects.xml</Item>
 					<Item>data/metaprogression.xml</Item>
 					<Item>data/metaprogression-gameeffects.xml</Item>
 					<Item>data/named-places.xml</Item>
@@ -131,10 +194,14 @@
 					<Item>data/narrative-sifting.xml</Item>
 					<Item>data/narrative-stories-gameeffects.xml</Item>
 					<Item>data/narrative-stories.xml</Item>
+					<Item>data/tot-narrative-stories-gameeffects.xml</Item>
+					<Item>data/tot-narrative-stories.xml</Item>
 					<Item>data/projects.xml</Item>
 					<Item>data/projects-gameeffects.xml</Item>
 					<Item>data/progression-trees-culture-common.xml</Item>
 					<Item>data/progression-trees-culture-common-gameeffects.xml</Item>
+					<Item>data/progression-trees-culture-tot-common.xml</Item>
+					<Item>data/progression-trees-culture-tot-common-gameeffects.xml</Item>
 					<Item>data/progression-trees-culture-unique.xml</Item>
 					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>
 					<Item>data/progression-trees-tech.xml</Item>
@@ -147,8 +214,8 @@
 					<Item>data/resources-gameeffects.xml</Item>
 					<Item>data/resources-gameeffects-v2.xml</Item>
 					<Item>data/terrain.xml</Item>
-					<Item>data/traditions.xml</Item>
-					<Item>data/traditions-gameeffects.xml</Item>
+					<Item>data/traditions-tot-exploration.xml</Item>
+					<Item>data/traditions-tot-gameeffects-exploration.xml</Item>
 					<Item>data/units.xml</Item>
 					<Item>data/units-gameeffects.xml</Item>
 					<Item>data/unit-movement.xml</Item>
@@ -158,39 +225,51 @@
 					<Item>data/difficulties.xml</Item>
 				</UpdateDatabase>
 				<UIScripts>
+					<Item>ui/advice/advice-items-exploration-culture.js</Item>
+					<Item>ui/advice/advice-items-exploration-economic.js</Item>
+					<Item>ui/advice/advice-items-exploration-military.js</Item>
+					<Item>ui/advice/advice-items-exploration-science.js</Item>
 					<Item>ui/belief-chooser/screen-belief-chooser.js</Item>
 					<Item>ui/tutorial/tutorial-items-exploration.js</Item>
-					<Item>ui/tutorial/tutorial-quest-items-exploration.js</Item>
 				</UIScripts>
-				<UpdateText>
-					<Item>text/en_us/AdvancedStartText.xml</Item>
-					<Item>text/en_us/AdvisorText.xml</Item>
-					<Item>text/en_us/AgeEndingWarning.xml</Item>
-					<Item>text/en_us/AgeTransitionText.xml</Item>
-					<Item>text/en_us/CityCommandsText.xml</Item>
-					<Item>text/en_us/CivilizationText.xml</Item>
-					<Item>text/en_us/Civilopedia_Civilizations_Text.xml</Item>
-					<Item>text/en_us/Civilopedia_Culture_Text.xml</Item>
-					<Item>text/en_us/Civilopedia_Governments_Text.xml</Item>
-					<Item>text/en_us/Civilopedia_Technologies_Text.xml</Item>
-					<Item>text/en_us/Civilopedia_Units_Text.xml</Item>
-					<Item>text/en_us/DiplomacyText.xml</Item>
-					<Item>text/en_us/DiscoveryStoriesText.xml</Item>
-					<Item>text/en_us/GameplaySystemsText.xml</Item>
-					<Item>text/en_us/GoldenAgeText.xml</Item>
-					<Item>text/en_us/GreatPeopleText.xml</Item>
-					<Item>text/en_us/GreatWorksText.xml</Item>
-					<Item>text/en_us/LoadingText.xml</Item>
-					<Item>text/en_us/NarrativeCrisesStoriesText.xml</Item>
-					<Item>text/en_us/NarrativeStoriesText.xml</Item>
-					<Item>text/en_us/ProjectsText.xml</Item>
-					<Item>text/en_us/ResourcesText.xml</Item>
-					<Item>text/en_us/ResourcesText-v2.xml</Item>
-					<Item>text/en_us/TechnologiesText.xml</Item>
-					<Item>text/en_us/TutorialText.xml</Item>
-					<Item>text/en_us/UnitText.xml</Item>
-					<Item>text/en_us/VictoriesText.xml</Item>
-				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="tot-ex-civs-antiquity-age" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/loading-info.xml</Item>
+					<Item>data/progression-trees-culture-unique-aq.xml</Item>
+					<Item>data/progression-trees-culture-unique-aq-gameeffects.xml</Item>
+					<Item>data/civilizations-shared.xml</Item>
+					<Item>data/civilizations-shared-gameeffects.xml</Item>
+					<Item>data/civilizations-antiquity.xml</Item>
+					<Item>data/civilizations-legacy.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="tot-ex-civs-exploration-age" scope="game" criteria="exploration-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/loading-info.xml</Item>
+					<Item>data/civilizations-shared.xml</Item>
+					<Item>data/civilizations-shared-gameeffects.xml</Item>
+					<Item>data/civilizations-gameeffects.xml</Item>
+					<Item>data/civilizations-exploration.xml</Item>
+					<Item>data/civilizations-legacy.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="tot-ex-civs-modern-age" scope="game" criteria="modern-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/loading-info.xml</Item>
+					<Item>data/progression-trees-culture-unique-mo.xml</Item>
+					<Item>data/progression-trees-culture-unique-mo-gameeeffects.xml</Item>
+					<Item>data/civilizations-shared.xml</Item>
+					<Item>data/civilizations-shared-gameeffects.xml</Item>
+					<Item>data/civilizations-modern.xml</Item>
+					<Item>data/civilizations-legacy.xml</Item>
+				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="age-exploration-movies" scope="game" criteria="exploration-age-current">
@@ -996,6 +1075,8 @@
 			<Actions>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
+					<Item>config/civics-traditions.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CivilizationText.xml</Item>

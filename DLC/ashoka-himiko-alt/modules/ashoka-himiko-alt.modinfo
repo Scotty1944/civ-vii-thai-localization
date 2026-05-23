@@ -39,12 +39,14 @@
 				</UpdateColors>
 				<UpdateDatabase>
 					<Item>data/civilizations-legacy.xml</Item>
+					<Item>data/civilizations-shared.xml</Item>
 					<Item>data/leaders.xml</Item>
 					<Item>data/leaders-gameeffects.xml</Item>
 					<Item>data/loading-info.xml</Item>
 					<Item>data/narrative-stories-gameeffects.xml</Item>
 					<Item>data/narrative-stories.xml</Item>
 					<Item>data/unlocks.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
 					<Item>data/AI_Base.xml</Item>
 					<Item>data/metaprogression-gameeffects.xml</Item>
 					<Item>data/metaprogression.xml</Item>
@@ -92,7 +94,6 @@
 				<UpdateDatabase>
 					<Item>data/narrative-stories-gameeffects-antiquity.xml</Item>
 					<Item>data/narrative-stories-antiquity.xml</Item>
-					<Item>data/civilizations-antiquity.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -103,7 +104,6 @@
 					<Item>ashoka-himiko-alt</Item>
 				</UpdateArt>
 				<UpdateDatabase>
-					<Item>data/civilizations-exploration.xml</Item>
 					<Item>data/narrative-stories-gameeffects-exploration.xml</Item>
 					<Item>data/narrative-stories-exploration.xml</Item>
 					<Item>data/age-transition-advanced-start-exploration.xml</Item>
@@ -120,7 +120,6 @@
 					<Item>ashoka-himiko-alt</Item>
 				</UpdateArt>
 				<UpdateDatabase>
-					<Item>data/civilizations-modern.xml</Item>
 					<Item>data/narrative-stories-gameeffects-modern.xml</Item>
 					<Item>data/narrative-stories-modern.xml</Item>
 					<Item>data/age-transition-advanced-start-modern.xml</Item>
@@ -145,6 +144,7 @@
 					<Item>config/config.xml</Item>
 					<Item>config/metaprogression.xml</Item>
 					<Item>config/unlockableRewards.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/ModuleText.xml</Item>

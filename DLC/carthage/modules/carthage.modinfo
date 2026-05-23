@@ -180,9 +180,9 @@
 					<Item>text/en_us/LoadingText.xml</Item>
 					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
 					<Item>text/en_us/ModuleText.xml</Item>
-					<Item>text/en_us/MoveLaterText.xml</Item>
 					<Item>text/en_us/NamedPlacesText.xml</Item>
 					<Item>text/en_us/NarrativeStoriesText.xml</Item>
+					<Item>text/en_us/tot-NarrativeStoriesText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
 					<Item>l10n/ModuleText.xml</Item>
@@ -204,10 +204,18 @@
 		<ActionGroup id="base-game-main-carthage" scope="game" criteria="always">
 			<Actions>
 				<UpdateDatabase>
+					<Item>data/civilizations-shared.xml</Item>
+					<Item>data/civilizations-shared-gameeffects.xml</Item>
 					<Item>data/civilizations-legacy.xml</Item>
+					<Item>data/loading-info-antiquity.xml</Item>
 					<Item>data/named-places.xml</Item>
 					<Item>data/traditions.xml</Item>
 					<Item>data/traditions-gameeffects.xml</Item>
+					<Item>data/tot-base-narrative-stories-gameeffects.xml</Item>
+					<Item>data/tot-base-narrative-stories.xml</Item>
+					<Item>data/narrative-stories-common-gameeffects.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
+					<Item>data/unlocks.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -217,7 +225,6 @@
 					<Item>data/citizen-names.xml</Item>
 					<Item>data/civilizations-antiquity.xml</Item>
 					<Item>data/civilizations-gameeffects.xml</Item>
-					<Item>data/loading-info-antiquity.xml</Item>
 					<Item>data/metaprogression.xml</Item>
 					<Item>data/metaprogression-gameeffects.xml</Item>
 					<Item>data/narrative-display.xml</Item>
@@ -228,7 +235,6 @@
 					<Item>data/progression-trees-tech.xml</Item>
 					<Item>data/units.xml</Item>
 					<Item>data/units-gameeffects.xml</Item>
-					<Item>data/unlocks-antiquity.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -240,6 +246,26 @@
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
+		<ActionGroup id="age-exploration-main-carthage" scope="game" criteria="exploration-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-exploration.xml</Item>
+					<Item>data/progression-trees-culture-unique-ex.xml</Item>
+					<Item>data/tot-narrative-stories-gameeffects.xml</Item>
+					<Item>data/tot-narrative-stories.xml</Item>
+					<Item>data/age-transition-advanced-start-exploration.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-modern-main-carthage" scope="game" criteria="modern-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-modern.xml</Item>
+					<Item>data/progression-trees-culture-unique-mo.xml</Item>
+					<Item>data/age-transition-advanced-start-modern.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
 		<ActionGroup id="age-antiquity-sayyida-al-hurra" scope="game" criteria="antiquity-age-sayyida-al-hurra">
 			<Actions>
 				<UpdateDatabase>
@@ -247,7 +273,7 @@
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="age-antiquity-edward-teach" scope="game" criteria="antiquity-age-edward-teach">
+		<ActionGroup id="age-antiquity-edward-teach" scope="game" criteria="edward-teach-current">
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/civilizations-antiquity-edward-teach.xml</Item>
@@ -278,12 +304,15 @@
 				</UpdateIcons>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
+					<Item>config/config-traditions.xml</Item>
 					<Item>config/metaprogression.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CivilizationLegacyText.xml</Item>
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/ConstructibleText.xml</Item>
+					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
 					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
 					<Item>text/en_us/ModuleText.xml</Item>
