@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" ?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_GILGAMESH_1_NAME" Language="th_TH">
@@ -82,6 +82,9 @@
 		<Replace Tag="LOC_LEADER_GILGAMESH_NAME" Language="th_TH">
 			<Text>กิลกาเมช</Text>		<!-- Gilgamesh -->
 		</Replace>
+		<Replace Tag="LOC_VICTORY_LEADER_GILGAMESH" Language="th_TH">
+			<Text>What joy can there be in victory, when mortality still stalks my night-hours.</Text>		<!-- What joy can there be in victory, when mortality still stalks my night-hours. -->
+		</Replace>
 		<Replace Tag="LOC_LEADER_GILGAMESH_DESCRIPTION" Language="th_TH">
 			<Text>+2 [icon:WAR_SUPPORT] การสนับสนุนสงครามเมื่ออยู่ในพันธมิตรเพียงหนึ่งเดียว เมื่อยูนิตทหารของคุณเอาชนะยูนิตศัตรูได้ รับ [icon:YIELD_DIPLOMACY] อิทธิพล เท่ากับ 50% ของ [icon:NAR_REW_COMBAT] พลังต่อสู้ ของยูนิตที่ถูกเอาชนะ ทุกความพยายามพื้นฐานจะถูกปลดล็อกโดยอัตโนมัติ ความพยายามที่มีพันธมิตรจะไม่นับรวมกับขีดจำกัดในการมีความพยายามประเภทเดียวที่ใช้งานอยู่ในเวลาเดียวกัน พันธมิตรสามารถสนับสนุนความพยายามของคุณได้ฟรี</Text>		<!-- +2 [icon:WAR_SUPPORT] War Support when in only one Alliance. When one of your Military Units defeats an enemy Unit, gain [icon:YIELD_DIPLOMACY] Influence equal to 50% of the defeated Unit's [icon:NAR_REW_COMBAT] Combat Strength. All basic Endeavors are automatically unlocked. Endeavors with Allies don’t count against the limit of having one Endeavor of a given type active at a time. Allies can support your Endeavors for free. -->
 		</Replace>
@@ -140,6 +143,234 @@
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_MILITARY_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>พัคซ์ อิมเปอเรเตอร์เรีย</Text>		<!-- Pax Imperatoria -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_FOUR_MAJOR_TRIUMPHS_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Triumphant, Antiquity</Text>		<!-- Triumphant, Antiquity -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_FOUR_MAJOR_TRIUMPHS_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete 4 Major Triumphs in a single Antiquity Age.</Text>		<!-- As Gilgamesh, complete 4 Major Triumphs in a single Antiquity Age. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_FOUR_MAJOR_TRIUMPHS_EXPLORATION_NAME" Language="th_TH">
+			<Text>Triumphant, Exploration</Text>		<!-- Triumphant, Exploration -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_FOUR_MAJOR_TRIUMPHS_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete 4 Major Triumphs in a single Exploration Age.</Text>		<!-- As Gilgamesh, complete 4 Major Triumphs in a single Exploration Age. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_CULTURE_TRIUMPH_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Wonders of the Ancient World</Text>		<!-- Wonders of the Ancient World -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_CULTURE_TRIUMPH_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Wonders of the Ancient World Triumph.</Text>		<!-- As Gilgamesh, complete the Wonders of the Ancient World Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_CULTURE_TRIUMPH_2_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Orphic Mysteries</Text>		<!-- Orphic Mysteries -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_CULTURE_TRIUMPH_2_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Orphic Mysteries Triumph.</Text>		<!-- As Gilgamesh, complete the Orphic Mysteries Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_MILITARY_TRIUMPH_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Pax Imperatoria</Text>		<!-- Pax Imperatoria -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_MILITARY_TRIUMPH_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Pax Imperatoria Triumph.</Text>		<!-- As Gilgamesh, complete the Pax Imperatoria Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_MILITARY_TRIUMPH_2_ANTIQUITY_NAME" Language="th_TH">
+			<Text>What a Gaius</Text>		<!-- What a Gaius -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_MILITARY_TRIUMPH_2_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the What a Gaius Triumph.</Text>		<!-- As Gilgamesh, complete the What a Gaius Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_ECONOMIC_TRIUMPH_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Silk Roads</Text>		<!-- Silk Roads -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_ECONOMIC_TRIUMPH_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Silk Roads Triumph.</Text>		<!-- As Gilgamesh, complete the Silk Roads Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_ECONOMIC_TRIUMPH_2_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Greed is Golden</Text>		<!-- Greed is Golden -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_ECONOMIC_TRIUMPH_2_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Greed is Golden Triumph.</Text>		<!-- As Gilgamesh, complete the Greed is Golden Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_SCIENCE_TRIUMPH_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Library of Ashurbanipal</Text>		<!-- Library of Ashurbanipal -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_SCIENCE_TRIUMPH_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Library of Ashurbanipal Triumph.</Text>		<!-- As Gilgamesh, complete the Library of Ashurbanipal Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_SCIENCE_TRIUMPH_2_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Round Earther</Text>		<!-- Round Earther -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_SCIENCE_TRIUMPH_2_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Round Earther Triumph.</Text>		<!-- As Gilgamesh, complete the Round Earther Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_DIPLOMATIC_TRIUMPH_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Pulling the Strings</Text>		<!-- Pulling the Strings -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_DIPLOMATIC_TRIUMPH_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Pulling the Strings Triumph.</Text>		<!-- As Gilgamesh, complete the Pulling the Strings Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_DIPLOMATIC_TRIUMPH_2_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Bread and Circuses</Text>		<!-- Bread and Circuses -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_DIPLOMATIC_TRIUMPH_2_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Bread and Circuses Triumph.</Text>		<!-- As Gilgamesh, complete the Bread and Circuses Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_EXPANSIONIST_TRIUMPH_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Four Corners of the World</Text>		<!-- Four Corners of the World -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_EXPANSIONIST_TRIUMPH_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Four Corners of the World Triumph.</Text>		<!-- As Gilgamesh, complete the Four Corners of the World Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_EXPANSIONIST_TRIUMPH_2_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Tower of Babel</Text>		<!-- Tower of Babel -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_EXPANSIONIST_TRIUMPH_2_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Tower of Babel Triumph.</Text>		<!-- As Gilgamesh, complete the Tower of Babel Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_CULTURE_TRIUMPH_EXPLORATION_NAME" Language="th_TH">
+			<Text>Toshakhana</Text>		<!-- Toshakhana -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_CULTURE_TRIUMPH_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Toshakhana Triumph.</Text>		<!-- As Gilgamesh, complete the Toshakhana Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_CULTURE_TRIUMPH_2_EXPLORATION_NAME" Language="th_TH">
+			<Text>Kingdom of Heaven</Text>		<!-- Kingdom of Heaven -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_CULTURE_TRIUMPH_2_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Kingdom of Heaven Triumph.</Text>		<!-- As Gilgamesh, complete the Kingdom of Heaven Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_MILITARY_TRIUMPH_EXPLORATION_NAME" Language="th_TH">
+			<Text>Non Sufficit Orbis</Text>		<!-- Non Sufficit Orbis -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_MILITARY_TRIUMPH_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Non Sufficit Orbis Triumph.</Text>		<!-- As Gilgamesh, complete the Non Sufficit Orbis Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_MILITARY_TRIUMPH_2_EXPLORATION_NAME" Language="th_TH">
+			<Text>Pax Mongolica</Text>		<!-- Pax Mongolica -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_MILITARY_TRIUMPH_2_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Pax Mongolica Triumph.</Text>		<!-- As Gilgamesh, complete the Pax Mongolica Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_ECONOMIC_TRIUMPH_EXPLORATION_NAME" Language="th_TH">
+			<Text>Treasure Fleet</Text>		<!-- Treasure Fleet -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_ECONOMIC_TRIUMPH_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Treasure Fleet Triumph.</Text>		<!-- As Gilgamesh, complete the Treasure Fleet Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_ECONOMIC_TRIUMPH_2_EXPLORATION_NAME" Language="th_TH">
+			<Text>Let's Calicut A Deal</Text>		<!-- Let's Calicut A Deal -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_ECONOMIC_TRIUMPH_2_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Let's Calicut A Deal Triumph.</Text>		<!-- As Gilgamesh, complete the Let's Calicut A Deal Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_SCIENCE_TRIUMPH_EXPLORATION_NAME" Language="th_TH">
+			<Text>Enlightenment</Text>		<!-- Enlightenment -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_SCIENCE_TRIUMPH_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Enlightenment Triumph.</Text>		<!-- As Gilgamesh, complete the Enlightenment Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_SCIENCE_TRIUMPH_2_EXPLORATION_NAME" Language="th_TH">
+			<Text>On the Revolutions of the Celestial Spheres</Text>		<!-- On the Revolutions of the Celestial Spheres -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_SCIENCE_TRIUMPH_2_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the On the Revolutions of the Celestial Spheres Triumph.</Text>		<!-- As Gilgamesh, complete the On the Revolutions of the Celestial Spheres Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_DIPLOMATIC_TRIUMPH_EXPLORATION_NAME" Language="th_TH">
+			<Text>Order of Assassins</Text>		<!-- Order of Assassins -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_DIPLOMATIC_TRIUMPH_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Order of Assassins Triumph.</Text>		<!-- As Gilgamesh, complete the Order of Assassins Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_DIPLOMATIC_TRIUMPH_2_EXPLORATION_NAME" Language="th_TH">
+			<Text>Quadruple Alliance</Text>		<!-- Quadruple Alliance -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_DIPLOMATIC_TRIUMPH_2_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Quadruple Alliance Triumph.</Text>		<!-- As Gilgamesh, complete the Quadruple Alliance Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_EXPANSIONIST_TRIUMPH_EXPLORATION_NAME" Language="th_TH">
+			<Text>Hic Sunt Dracones</Text>		<!-- Hic Sunt Dracones -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_EXPANSIONIST_TRIUMPH_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Hic Sunt Dracones Triumph.</Text>		<!-- As Gilgamesh, complete the Hic Sunt Dracones Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_EXPANSIONIST_TRIUMPH_2_EXPLORATION_NAME" Language="th_TH">
+			<Text>We have Habsburgs at Home</Text>		<!-- We have Habsburgs at Home -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_EXPANSIONIST_TRIUMPH_2_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the We have Habsburgs at Home Triumph.</Text>		<!-- As Gilgamesh, complete the We have Habsburgs at Home Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_CULTURE_TRIUMPH_MODERN_NAME" Language="th_TH">
+			<Text>Geographic Society</Text>		<!-- Geographic Society -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_CULTURE_TRIUMPH_MODERN_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Geographic Society Triumph.</Text>		<!-- As Gilgamesh, complete the Geographic Society Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_CULTURE_TRIUMPH_2_MODERN_NAME" Language="th_TH">
+			<Text>Wonderland</Text>		<!-- Wonderland -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_CULTURE_TRIUMPH_2_MODERN_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Wonderland Triumph.</Text>		<!-- As Gilgamesh, complete the Wonderland Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_MILITARY_TRIUMPH_MODERN_NAME" Language="th_TH">
+			<Text>Moral Imperative</Text>		<!-- Moral Imperative -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_MILITARY_TRIUMPH_MODERN_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Moral Imperative Triumph.</Text>		<!-- As Gilgamesh, complete the Moral Imperative Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_MILITARY_TRIUMPH_2_MODERN_NAME" Language="th_TH">
+			<Text>Enemy of the World</Text>		<!-- Enemy of the World -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_MILITARY_TRIUMPH_2_MODERN_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Enemy of the World Triumph.</Text>		<!-- As Gilgamesh, complete the Enemy of the World Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_ECONOMIC_TRIUMPH_MODERN_NAME" Language="th_TH">
+			<Text>Railroad Tycoon</Text>		<!-- Railroad Tycoon -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_ECONOMIC_TRIUMPH_MODERN_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Railroad Tycoon Triumph.</Text>		<!-- As Gilgamesh, complete the Railroad Tycoon Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_ECONOMIC_TRIUMPH_2_MODERN_NAME" Language="th_TH">
+			<Text>Workshop of the World</Text>		<!-- Workshop of the World -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_ECONOMIC_TRIUMPH_2_MODERN_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Workshop of the World Triumph.</Text>		<!-- As Gilgamesh, complete the Workshop of the World Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_SCIENCE_TRIUMPH_MODERN_NAME" Language="th_TH">
+			<Text>Dawn of the Space Race</Text>		<!-- Dawn of the Space Race -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_SCIENCE_TRIUMPH_MODERN_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Dawn of the Space Race Triumph.</Text>		<!-- As Gilgamesh, complete the Dawn of the Space Race Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_SCIENCE_TRIUMPH_2_MODERN_NAME" Language="th_TH">
+			<Text>Beyond the Sword</Text>		<!-- Beyond the Sword -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_SCIENCE_TRIUMPH_2_MODERN_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Beyond the Sword Triumph.</Text>		<!-- As Gilgamesh, complete the Beyond the Sword Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_DIPLOMATIC_TRIUMPH_MODERN_NAME" Language="th_TH">
+			<Text>League of Nations</Text>		<!-- League of Nations -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_DIPLOMATIC_TRIUMPH_MODERN_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the League of Nations Triumph.</Text>		<!-- As Gilgamesh, complete the League of Nations Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_DIPLOMATIC_TRIUMPH_2_MODERN_NAME" Language="th_TH">
+			<Text>Enigma Code</Text>		<!-- Enigma Code -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_DIPLOMATIC_TRIUMPH_2_MODERN_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Enigma Code Triumph.</Text>		<!-- As Gilgamesh, complete the Enigma Code Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_EXPANSIONIST_TRIUMPH_MODERN_NAME" Language="th_TH">
+			<Text>Sun Never Sets</Text>		<!-- Sun Never Sets -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_EXPANSIONIST_TRIUMPH_MODERN_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Sun Never Sets Triumph.</Text>		<!-- As Gilgamesh, complete the Sun Never Sets Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_EXPANSIONIST_TRIUMPH_2_MODERN_NAME" Language="th_TH">
+			<Text>Megalopolis</Text>		<!-- Megalopolis -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_EXPANSIONIST_TRIUMPH_2_MODERN_DESC" Language="th_TH">
+			<Text>As Gilgamesh, complete the Megalopolis Triumph.</Text>		<!-- As Gilgamesh, complete the Megalopolis Triumph. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_MILITARY_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะกิลกาเมช ให้สำเร็จเส้นทางมรดก Pax Imperatoria</Text>		<!-- As Gilgamesh, complete the Pax Imperatoria Legacy Path. -->
@@ -212,6 +443,72 @@
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_MILITARY_VICTORY_MODERN_NAME" Language="th_TH">
 			<Text>อุดมการณ์</Text>		<!-- Ideology -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_GILGAMESH_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Ibru</Text>		<!-- Ibru -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_GILGAMESH_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Gilgamesh in Antiquity, complete a quest to find a best friend.</Text>		<!-- As Gilgamesh in Antiquity, complete a quest to find a best friend. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_GILGAMESH_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Humbaba</Text>		<!-- Humbaba -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_GILGAMESH_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Gilgamesh in Antiquity, complete a quest to seek legends.</Text>		<!-- As Gilgamesh in Antiquity, complete a quest to seek legends. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_GILGAMESH_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>The Absent Friend</Text>		<!-- The Absent Friend -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_GILGAMESH_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Gilgamesh in Exploration, complete a quest to pursue a friendly obsession.</Text>		<!-- As Gilgamesh in Exploration, complete a quest to pursue a friendly obsession. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_GILGAMESH_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>Heroes by Proxy</Text>		<!-- Heroes by Proxy -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_GILGAMESH_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Gilgamesh in Exploration, complete a quest to tell a tale of destruction.</Text>		<!-- As Gilgamesh in Exploration, complete a quest to tell a tale of destruction. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_GILGAMESH_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>Friendship over Words</Text>		<!-- Friendship over Words -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_GILGAMESH_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As Gilgamesh in Modern, complete a quest to hold hands.</Text>		<!-- As Gilgamesh in Modern, complete a quest to hold hands. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_GILGAMESH_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>The Beast of Steel</Text>		<!-- The Beast of Steel -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_GILGAMESH_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As Gilgamesh in Modern, complete a quest to slay a monster.</Text>		<!-- As Gilgamesh in Modern, complete a quest to slay a monster. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_CULTURE_VICTORY_NAME" Language="th_TH">
+			<Text>Cultural Victory</Text>		<!-- Cultural Victory -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_CULTURE_VICTORY_DESC" Language="th_TH">
+			<Text>As Gilgamesh, achieve a Cultural victory.</Text>		<!-- As Gilgamesh, achieve a Cultural victory. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_MILITARY_VICTORY_NAME" Language="th_TH">
+			<Text>Military Victory</Text>		<!-- Military Victory -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_MILITARY_VICTORY_DESC" Language="th_TH">
+			<Text>As Gilgamesh, achieve a Militaristic victory.</Text>		<!-- As Gilgamesh, achieve a Militaristic victory. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_ECONOMIC_VICTORY_NAME" Language="th_TH">
+			<Text>Economic Victory</Text>		<!-- Economic Victory -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_ECONOMIC_VICTORY_DESC" Language="th_TH">
+			<Text>As Gilgamesh, achieve an Economic victory.</Text>		<!-- As Gilgamesh, achieve an Economic victory. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_SCIENCE_VICTORY_NAME" Language="th_TH">
+			<Text>Scientific Victory</Text>		<!-- Scientific Victory -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_SCIENCE_VICTORY_DESC" Language="th_TH">
+			<Text>As Gilgamesh, achieve a Scientific victory.</Text>		<!-- As Gilgamesh, achieve a Scientific victory. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_DEITY_VICTORY_NAME" Language="th_TH">
+			<Text>Deity Victory</Text>		<!-- Deity Victory -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_DEITY_VICTORY_DESC" Language="th_TH">
+			<Text>As Gilgamesh, achieve a victory on Deity level of Difficulty.</Text>		<!-- As Gilgamesh, achieve a victory on Deity level of Difficulty. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GILGAMESH_MILITARY_VICTORY_MODERN_DESC" Language="th_TH">
 			<Text>ในฐานะกิลกาเมช ให้ทำเส้นทางมรดกอุดมการณ์ให้สำเร็จ</Text>		<!-- As Gilgamesh, complete the Ideology Legacy Path. -->

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" ?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_LAKSHMIBAI_1_NAME" Language="th_TH">
@@ -85,6 +85,9 @@
 		<Replace Tag="LOC_LEADER_LAKSHMIBAI_NAME" Language="th_TH">
 			<Text>ลักษมีไบ</Text>		<!-- Lakshmibai -->
 		</Replace>
+		<Replace Tag="LOC_VICTORY_LEADER_LAKSHMIBAI" Language="th_TH">
+			<Text>Darkness has been overcome, trampled beneath my horse's hooves.</Text>		<!-- Darkness has been overcome, trampled beneath my horse's hooves. -->
+		</Replace>
 		<Replace Tag="LOC_LEADER_LAKSHMIBAI_DESCRIPTION" Language="th_TH">
 			<Text>+50% [icon:YIELD_DIPLOMACY] อิทธิพล ในการเริ่มต้น [icon:PROJECT] การผนวกนครรัฐ เมื่อคุณผนวก [icon:CITYSTATE] นครรัฐ คุณจะได้รับยูนิตทั้งหมดของพวกเขา เมื่อยูนิตทหารบกของคุณสังหารยูนิตศัตรู จะได้รับ [icon:YIELD_DIPLOMACY] อิทธิพลเท่ากับ 100% ของ [icon:NAR_REW_COMBAT] พลังต่อสู้ ของยูนิตที่ถูกสังหาร</Text>		<!-- +50% [icon:YIELD_DIPLOMACY] Influence towards initiating the [icon:PROJECT] City-State - Incorporate Action. When you incorporate a [icon:CITYSTATE] City-State, you gain all of their Units. When one of your Land Military Units defeats an enemy Unit, gain [icon:YIELD_DIPLOMACY] Influence equal to 100% of the defeated Unit's [icon:NAR_REW_COMBAT] Combat Strength. -->
 		</Replace>
@@ -153,6 +156,234 @@
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_MILITARY_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สันติภาพแห่งจักรวรรดิ</Text>		<!-- Pax Imperatoria -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_FOUR_MAJOR_TRIUMPHS_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Triumphant, Antiquity</Text>		<!-- Triumphant, Antiquity -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_FOUR_MAJOR_TRIUMPHS_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete 4 Major Triumphs in a single Antiquity Age.</Text>		<!-- As Lakshmibai, complete 4 Major Triumphs in a single Antiquity Age. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_FOUR_MAJOR_TRIUMPHS_EXPLORATION_NAME" Language="th_TH">
+			<Text>Triumphant, Exploration</Text>		<!-- Triumphant, Exploration -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_FOUR_MAJOR_TRIUMPHS_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete 4 Major Triumphs in a single Exploration Age.</Text>		<!-- As Lakshmibai, complete 4 Major Triumphs in a single Exploration Age. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_CULTURE_TRIUMPH_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Wonders of the Ancient World</Text>		<!-- Wonders of the Ancient World -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_CULTURE_TRIUMPH_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Wonders of the Ancient World Triumph.</Text>		<!-- As Lakshmibai, complete the Wonders of the Ancient World Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_CULTURE_TRIUMPH_2_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Orphic Mysteries</Text>		<!-- Orphic Mysteries -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_CULTURE_TRIUMPH_2_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Orphic Mysteries Triumph.</Text>		<!-- As Lakshmibai, complete the Orphic Mysteries Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_MILITARY_TRIUMPH_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Pax Imperatoria</Text>		<!-- Pax Imperatoria -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_MILITARY_TRIUMPH_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Pax Imperatoria Triumph.</Text>		<!-- As Lakshmibai, complete the Pax Imperatoria Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_MILITARY_TRIUMPH_2_ANTIQUITY_NAME" Language="th_TH">
+			<Text>What a Gaius</Text>		<!-- What a Gaius -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_MILITARY_TRIUMPH_2_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the What a Gaius Triumph.</Text>		<!-- As Lakshmibai, complete the What a Gaius Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_ECONOMIC_TRIUMPH_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Silk Roads</Text>		<!-- Silk Roads -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_ECONOMIC_TRIUMPH_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Silk Roads Triumph.</Text>		<!-- As Lakshmibai, complete the Silk Roads Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_ECONOMIC_TRIUMPH_2_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Greed is Golden</Text>		<!-- Greed is Golden -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_ECONOMIC_TRIUMPH_2_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Greed is Golden Triumph.</Text>		<!-- As Lakshmibai, complete the Greed is Golden Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_SCIENCE_TRIUMPH_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Library of Ashurbanipal</Text>		<!-- Library of Ashurbanipal -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_SCIENCE_TRIUMPH_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Library of Ashurbanipal Triumph.</Text>		<!-- As Lakshmibai, complete the Library of Ashurbanipal Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_SCIENCE_TRIUMPH_2_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Round Earther</Text>		<!-- Round Earther -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_SCIENCE_TRIUMPH_2_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Round Earther Triumph.</Text>		<!-- As Lakshmibai, complete the Round Earther Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_DIPLOMATIC_TRIUMPH_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Pulling the Strings</Text>		<!-- Pulling the Strings -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_DIPLOMATIC_TRIUMPH_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Pulling the Strings Triumph.</Text>		<!-- As Lakshmibai, complete the Pulling the Strings Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_DIPLOMATIC_TRIUMPH_2_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Bread and Circuses</Text>		<!-- Bread and Circuses -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_DIPLOMATIC_TRIUMPH_2_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Bread and Circuses Triumph.</Text>		<!-- As Lakshmibai, complete the Bread and Circuses Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_EXPANSIONIST_TRIUMPH_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Four Corners of the World</Text>		<!-- Four Corners of the World -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_EXPANSIONIST_TRIUMPH_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Four Corners of the World Triumph.</Text>		<!-- As Lakshmibai, complete the Four Corners of the World Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_EXPANSIONIST_TRIUMPH_2_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Tower of Babel</Text>		<!-- Tower of Babel -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_EXPANSIONIST_TRIUMPH_2_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Tower of Babel Triumph.</Text>		<!-- As Lakshmibai, complete the Tower of Babel Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_CULTURE_TRIUMPH_EXPLORATION_NAME" Language="th_TH">
+			<Text>Toshakhana</Text>		<!-- Toshakhana -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_CULTURE_TRIUMPH_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Toshakhana Triumph.</Text>		<!-- As Lakshmibai, complete the Toshakhana Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_CULTURE_TRIUMPH_2_EXPLORATION_NAME" Language="th_TH">
+			<Text>Kingdom of Heaven</Text>		<!-- Kingdom of Heaven -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_CULTURE_TRIUMPH_2_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Kingdom of Heaven Triumph.</Text>		<!-- As Lakshmibai, complete the Kingdom of Heaven Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_MILITARY_TRIUMPH_EXPLORATION_NAME" Language="th_TH">
+			<Text>Non Sufficit Orbis</Text>		<!-- Non Sufficit Orbis -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_MILITARY_TRIUMPH_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Non Sufficit Orbis Triumph.</Text>		<!-- As Lakshmibai, complete the Non Sufficit Orbis Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_MILITARY_TRIUMPH_2_EXPLORATION_NAME" Language="th_TH">
+			<Text>Pax Mongolica</Text>		<!-- Pax Mongolica -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_MILITARY_TRIUMPH_2_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Pax Mongolica Triumph.</Text>		<!-- As Lakshmibai, complete the Pax Mongolica Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_ECONOMIC_TRIUMPH_EXPLORATION_NAME" Language="th_TH">
+			<Text>Treasure Fleet</Text>		<!-- Treasure Fleet -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_ECONOMIC_TRIUMPH_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Treasure Fleet Triumph.</Text>		<!-- As Lakshmibai, complete the Treasure Fleet Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_ECONOMIC_TRIUMPH_2_EXPLORATION_NAME" Language="th_TH">
+			<Text>Let's Calicut A Deal</Text>		<!-- Let's Calicut A Deal -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_ECONOMIC_TRIUMPH_2_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Let's Calicut A Deal Triumph.</Text>		<!-- As Lakshmibai, complete the Let's Calicut A Deal Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_SCIENCE_TRIUMPH_EXPLORATION_NAME" Language="th_TH">
+			<Text>Enlightenment</Text>		<!-- Enlightenment -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_SCIENCE_TRIUMPH_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Enlightenment Triumph.</Text>		<!-- As Lakshmibai, complete the Enlightenment Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_SCIENCE_TRIUMPH_2_EXPLORATION_NAME" Language="th_TH">
+			<Text>On the Revolutions of the Celestial Spheres</Text>		<!-- On the Revolutions of the Celestial Spheres -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_SCIENCE_TRIUMPH_2_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the On the Revolutions of the Celestial Spheres Triumph.</Text>		<!-- As Lakshmibai, complete the On the Revolutions of the Celestial Spheres Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_DIPLOMATIC_TRIUMPH_EXPLORATION_NAME" Language="th_TH">
+			<Text>Order of Assassins</Text>		<!-- Order of Assassins -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_DIPLOMATIC_TRIUMPH_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Order of Assassins Triumph.</Text>		<!-- As Lakshmibai, complete the Order of Assassins Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_DIPLOMATIC_TRIUMPH_2_EXPLORATION_NAME" Language="th_TH">
+			<Text>Quadruple Alliance</Text>		<!-- Quadruple Alliance -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_DIPLOMATIC_TRIUMPH_2_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Quadruple Alliance Triumph.</Text>		<!-- As Lakshmibai, complete the Quadruple Alliance Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_EXPANSIONIST_TRIUMPH_EXPLORATION_NAME" Language="th_TH">
+			<Text>Hic Sunt Dracones</Text>		<!-- Hic Sunt Dracones -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_EXPANSIONIST_TRIUMPH_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Hic Sunt Dracones Triumph.</Text>		<!-- As Lakshmibai, complete the Hic Sunt Dracones Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_EXPANSIONIST_TRIUMPH_2_EXPLORATION_NAME" Language="th_TH">
+			<Text>We have Habsburgs at Home</Text>		<!-- We have Habsburgs at Home -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_EXPANSIONIST_TRIUMPH_2_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the We have Habsburgs at Home Triumph.</Text>		<!-- As Lakshmibai, complete the We have Habsburgs at Home Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_CULTURE_TRIUMPH_MODERN_NAME" Language="th_TH">
+			<Text>Geographic Society</Text>		<!-- Geographic Society -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_CULTURE_TRIUMPH_MODERN_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Geographic Society Triumph.</Text>		<!-- As Lakshmibai, complete the Geographic Society Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_CULTURE_TRIUMPH_2_MODERN_NAME" Language="th_TH">
+			<Text>Wonderland</Text>		<!-- Wonderland -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_CULTURE_TRIUMPH_2_MODERN_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Wonderland Triumph.</Text>		<!-- As Lakshmibai, complete the Wonderland Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_MILITARY_TRIUMPH_MODERN_NAME" Language="th_TH">
+			<Text>Moral Imperative</Text>		<!-- Moral Imperative -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_MILITARY_TRIUMPH_MODERN_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Moral Imperative Triumph.</Text>		<!-- As Lakshmibai, complete the Moral Imperative Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_MILITARY_TRIUMPH_2_MODERN_NAME" Language="th_TH">
+			<Text>Enemy of the World</Text>		<!-- Enemy of the World -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_MILITARY_TRIUMPH_2_MODERN_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Enemy of the World Triumph.</Text>		<!-- As Lakshmibai, complete the Enemy of the World Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_ECONOMIC_TRIUMPH_MODERN_NAME" Language="th_TH">
+			<Text>Railroad Tycoon</Text>		<!-- Railroad Tycoon -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_ECONOMIC_TRIUMPH_MODERN_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Railroad Tycoon Triumph.</Text>		<!-- As Lakshmibai, complete the Railroad Tycoon Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_ECONOMIC_TRIUMPH_2_MODERN_NAME" Language="th_TH">
+			<Text>Workshop of the World</Text>		<!-- Workshop of the World -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_ECONOMIC_TRIUMPH_2_MODERN_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Workshop of the World Triumph.</Text>		<!-- As Lakshmibai, complete the Workshop of the World Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_SCIENCE_TRIUMPH_MODERN_NAME" Language="th_TH">
+			<Text>Dawn of the Space Race</Text>		<!-- Dawn of the Space Race -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_SCIENCE_TRIUMPH_MODERN_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Dawn of the Space Race Triumph.</Text>		<!-- As Lakshmibai, complete the Dawn of the Space Race Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_SCIENCE_TRIUMPH_2_MODERN_NAME" Language="th_TH">
+			<Text>Beyond the Sword</Text>		<!-- Beyond the Sword -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_SCIENCE_TRIUMPH_2_MODERN_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Beyond the Sword Triumph.</Text>		<!-- As Lakshmibai, complete the Beyond the Sword Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_DIPLOMATIC_TRIUMPH_MODERN_NAME" Language="th_TH">
+			<Text>League of Nations</Text>		<!-- League of Nations -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_DIPLOMATIC_TRIUMPH_MODERN_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the League of Nations Triumph.</Text>		<!-- As Lakshmibai, complete the League of Nations Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_DIPLOMATIC_TRIUMPH_2_MODERN_NAME" Language="th_TH">
+			<Text>Enigma Code</Text>		<!-- Enigma Code -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_DIPLOMATIC_TRIUMPH_2_MODERN_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Enigma Code Triumph.</Text>		<!-- As Lakshmibai, complete the Enigma Code Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_EXPANSIONIST_TRIUMPH_MODERN_NAME" Language="th_TH">
+			<Text>Sun Never Sets</Text>		<!-- Sun Never Sets -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_EXPANSIONIST_TRIUMPH_MODERN_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Sun Never Sets Triumph.</Text>		<!-- As Lakshmibai, complete the Sun Never Sets Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_EXPANSIONIST_TRIUMPH_2_MODERN_NAME" Language="th_TH">
+			<Text>Megalopolis</Text>		<!-- Megalopolis -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_EXPANSIONIST_TRIUMPH_2_MODERN_DESC" Language="th_TH">
+			<Text>As Lakshmibai, complete the Megalopolis Triumph.</Text>		<!-- As Lakshmibai, complete the Megalopolis Triumph. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_MILITARY_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ ลักษมีไบ ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ</Text>		<!-- As Lakshmibai, complete the Pax Imperatoria Legacy Path. -->
@@ -225,6 +456,72 @@
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_MILITARY_VICTORY_MODERN_NAME" Language="th_TH">
 			<Text>อุดมการณ์</Text>		<!-- Ideology -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAKSHMIBAI_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>A Demanding View</Text>		<!-- A Demanding View -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAKSHMIBAI_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Lakshmibai in Antiquity, complete a quest to impress an assassin.</Text>		<!-- As Lakshmibai in Antiquity, complete a quest to impress an assassin. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAKSHMIBAI_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Answering the Call</Text>		<!-- Answering the Call -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAKSHMIBAI_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Lakshmibai in Antiquity, complete a quest to place soldiers in saddles.</Text>		<!-- As Lakshmibai in Antiquity, complete a quest to place soldiers in saddles. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAKSHMIBAI_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>The Faithful</Text>		<!-- The Faithful -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAKSHMIBAI_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Lakshmibai in Exploration, complete a quest to turn admiration to faith.</Text>		<!-- As Lakshmibai in Exploration, complete a quest to turn admiration to faith. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAKSHMIBAI_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>Dead on Arrival</Text>		<!-- Dead on Arrival -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAKSHMIBAI_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Lakshmibai in Exploration, complete a quest to bring the fight to the enemy.</Text>		<!-- As Lakshmibai in Exploration, complete a quest to bring the fight to the enemy. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAKSHMIBAI_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>Now and Always</Text>		<!-- Now and Always -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAKSHMIBAI_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As Lakshmibai in Modern, complete a quest to demonstrate legitimacy through history.</Text>		<!-- As Lakshmibai in Modern, complete a quest to demonstrate legitimacy through history. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAKSHMIBAI_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>A Line in the Sand</Text>		<!-- A Line in the Sand -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_LAKSHMIBAI_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As Lakshmibai in Modern, complete a quest to finish off our enemies.</Text>		<!-- As Lakshmibai in Modern, complete a quest to finish off our enemies. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_CULTURE_VICTORY_NAME" Language="th_TH">
+			<Text>Cultural Victory</Text>		<!-- Cultural Victory -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_CULTURE_VICTORY_DESC" Language="th_TH">
+			<Text>As Lakshmibai, achieve a Cultural victory.</Text>		<!-- As Lakshmibai, achieve a Cultural victory. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_MILITARY_VICTORY_NAME" Language="th_TH">
+			<Text>Military Victory</Text>		<!-- Military Victory -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_MILITARY_VICTORY_DESC" Language="th_TH">
+			<Text>As Lakshmibai, achieve a Militaristic victory.</Text>		<!-- As Lakshmibai, achieve a Militaristic victory. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_ECONOMIC_VICTORY_NAME" Language="th_TH">
+			<Text>Economic Victory</Text>		<!-- Economic Victory -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_ECONOMIC_VICTORY_DESC" Language="th_TH">
+			<Text>As Lakshmibai, achieve an Economic victory.</Text>		<!-- As Lakshmibai, achieve an Economic victory. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_SCIENCE_VICTORY_NAME" Language="th_TH">
+			<Text>Scientific Victory</Text>		<!-- Scientific Victory -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_SCIENCE_VICTORY_DESC" Language="th_TH">
+			<Text>As Lakshmibai, achieve a Scientific victory.</Text>		<!-- As Lakshmibai, achieve a Scientific victory. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_DEITY_VICTORY_NAME" Language="th_TH">
+			<Text>Deity Victory</Text>		<!-- Deity Victory -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_DEITY_VICTORY_DESC" Language="th_TH">
+			<Text>As Lakshmibai, achieve a victory on Deity level of Difficulty.</Text>		<!-- As Lakshmibai, achieve a victory on Deity level of Difficulty. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LAKSHMIBAI_MILITARY_VICTORY_MODERN_DESC" Language="th_TH">
 			<Text>ในฐานะ ลักษมีไบ ให้ทำเส้นทางมรดก อุดมการณ์</Text>		<!-- As Lakshmibai, complete the Ideology Legacy Path. -->

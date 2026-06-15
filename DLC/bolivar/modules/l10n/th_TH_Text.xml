@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" ?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_BOLIVAR_1_NAME" Language="th_TH">
@@ -82,6 +82,9 @@
 		<Replace Tag="LOC_LEADER_BOLIVAR_NAME" Language="th_TH">
 			<Text>ซิมอน โบลิบาร์</Text>		<!-- Simón Bolívar -->
 		</Replace>
+		<Replace Tag="LOC_VICTORY_LEADER_BOLIVAR" Language="th_TH">
+			<Text>Those who fight for liberty are always on the right side of history.</Text>		<!-- Those who fight for liberty are always on the right side of history. -->
+		</Replace>
 		<Replace Tag="LOC_LEADER_BOLIVAR_DESCRIPTION" Language="th_TH">
 			<Text>รับ [icon:WAR_SUPPORT] การสนับสนุนสงคราม ฟรี 1 ครั้งในสงครามของคุณ เมื่อคุณพิชิต ถิ่นฐาน เป็นครั้งแรก คุณสามารถซื้อ สิ่งก่อสร้าง ได้ฟรี 1 ชิ้น [icon:YIELD_ANGRY] ความไม่สงบไม่เป็นอุปสรรคต่อการซื้อ</Text>		<!-- Gain 1 [icon:WAR_SUPPORT] War Support on all your wars. When you conquer a Settlement for the first time it can purchase 1 Constructible for free. [icon:YIELD_ANGRY] Unrest does not prevent Purchasing. -->
 		</Replace>
@@ -138,6 +141,234 @@
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_MILITARY_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>สันติภาพแห่งจักรวรรดิ</Text>		<!-- Pax Imperatoria -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_FOUR_MAJOR_TRIUMPHS_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Triumphant, Antiquity</Text>		<!-- Triumphant, Antiquity -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_FOUR_MAJOR_TRIUMPHS_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Bolivar, complete 4 Major Triumphs in a single Antiquity Age.</Text>		<!-- As Bolivar, complete 4 Major Triumphs in a single Antiquity Age. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_FOUR_MAJOR_TRIUMPHS_EXPLORATION_NAME" Language="th_TH">
+			<Text>Triumphant, Exploration</Text>		<!-- Triumphant, Exploration -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_FOUR_MAJOR_TRIUMPHS_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Bolivar, complete 4 Major Triumphs in a single Exploration Age.</Text>		<!-- As Bolivar, complete 4 Major Triumphs in a single Exploration Age. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_CULTURE_TRIUMPH_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Wonders of the Ancient World</Text>		<!-- Wonders of the Ancient World -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_CULTURE_TRIUMPH_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Wonders of the Ancient World Triumph.</Text>		<!-- As Bolivar, complete the Wonders of the Ancient World Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_CULTURE_TRIUMPH_2_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Orphic Mysteries</Text>		<!-- Orphic Mysteries -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_CULTURE_TRIUMPH_2_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Orphic Mysteries Triumph.</Text>		<!-- As Bolivar, complete the Orphic Mysteries Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_MILITARY_TRIUMPH_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Pax Imperatoria</Text>		<!-- Pax Imperatoria -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_MILITARY_TRIUMPH_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Pax Imperatoria Triumph.</Text>		<!-- As Bolivar, complete the Pax Imperatoria Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_MILITARY_TRIUMPH_2_ANTIQUITY_NAME" Language="th_TH">
+			<Text>What a Gaius</Text>		<!-- What a Gaius -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_MILITARY_TRIUMPH_2_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the What a Gaius Triumph.</Text>		<!-- As Bolivar, complete the What a Gaius Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_ECONOMIC_TRIUMPH_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Silk Roads</Text>		<!-- Silk Roads -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_ECONOMIC_TRIUMPH_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Silk Roads Triumph.</Text>		<!-- As Bolivar, complete the Silk Roads Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_ECONOMIC_TRIUMPH_2_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Greed is Golden</Text>		<!-- Greed is Golden -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_ECONOMIC_TRIUMPH_2_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Greed is Golden Triumph.</Text>		<!-- As Bolivar, complete the Greed is Golden Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_SCIENCE_TRIUMPH_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Library of Ashurbanipal</Text>		<!-- Library of Ashurbanipal -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_SCIENCE_TRIUMPH_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Library of Ashurbanipal Triumph.</Text>		<!-- As Bolivar, complete the Library of Ashurbanipal Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_SCIENCE_TRIUMPH_2_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Round Earther</Text>		<!-- Round Earther -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_SCIENCE_TRIUMPH_2_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Round Earther Triumph.</Text>		<!-- As Bolivar, complete the Round Earther Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_DIPLOMATIC_TRIUMPH_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Pulling the Strings</Text>		<!-- Pulling the Strings -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_DIPLOMATIC_TRIUMPH_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Pulling the Strings Triumph.</Text>		<!-- As Bolivar, complete the Pulling the Strings Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_DIPLOMATIC_TRIUMPH_2_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Bread and Circuses</Text>		<!-- Bread and Circuses -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_DIPLOMATIC_TRIUMPH_2_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Bread and Circuses Triumph.</Text>		<!-- As Bolivar, complete the Bread and Circuses Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_EXPANSIONIST_TRIUMPH_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Four Corners of the World</Text>		<!-- Four Corners of the World -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_EXPANSIONIST_TRIUMPH_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Four Corners of the World Triumph.</Text>		<!-- As Bolivar, complete the Four Corners of the World Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_EXPANSIONIST_TRIUMPH_2_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Tower of Babel</Text>		<!-- Tower of Babel -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_EXPANSIONIST_TRIUMPH_2_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Tower of Babel Triumph.</Text>		<!-- As Bolivar, complete the Tower of Babel Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_CULTURE_TRIUMPH_EXPLORATION_NAME" Language="th_TH">
+			<Text>Toshakhana</Text>		<!-- Toshakhana -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_CULTURE_TRIUMPH_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Toshakhana Triumph.</Text>		<!-- As Bolivar, complete the Toshakhana Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_CULTURE_TRIUMPH_2_EXPLORATION_NAME" Language="th_TH">
+			<Text>Kingdom of Heaven</Text>		<!-- Kingdom of Heaven -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_CULTURE_TRIUMPH_2_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Kingdom of Heaven Triumph.</Text>		<!-- As Bolivar, complete the Kingdom of Heaven Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_MILITARY_TRIUMPH_EXPLORATION_NAME" Language="th_TH">
+			<Text>Non Sufficit Orbis</Text>		<!-- Non Sufficit Orbis -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_MILITARY_TRIUMPH_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Non Sufficit Orbis Triumph.</Text>		<!-- As Bolivar, complete the Non Sufficit Orbis Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_MILITARY_TRIUMPH_2_EXPLORATION_NAME" Language="th_TH">
+			<Text>Pax Mongolica</Text>		<!-- Pax Mongolica -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_MILITARY_TRIUMPH_2_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Pax Mongolica Triumph.</Text>		<!-- As Bolivar, complete the Pax Mongolica Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_ECONOMIC_TRIUMPH_EXPLORATION_NAME" Language="th_TH">
+			<Text>Treasure Fleet</Text>		<!-- Treasure Fleet -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_ECONOMIC_TRIUMPH_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Treasure Fleet Triumph.</Text>		<!-- As Bolivar, complete the Treasure Fleet Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_ECONOMIC_TRIUMPH_2_EXPLORATION_NAME" Language="th_TH">
+			<Text>Let's Calicut A Deal</Text>		<!-- Let's Calicut A Deal -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_ECONOMIC_TRIUMPH_2_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Let's Calicut A Deal Triumph.</Text>		<!-- As Bolivar, complete the Let's Calicut A Deal Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_SCIENCE_TRIUMPH_EXPLORATION_NAME" Language="th_TH">
+			<Text>Enlightenment</Text>		<!-- Enlightenment -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_SCIENCE_TRIUMPH_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Enlightenment Triumph.</Text>		<!-- As Bolivar, complete the Enlightenment Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_SCIENCE_TRIUMPH_2_EXPLORATION_NAME" Language="th_TH">
+			<Text>On the Revolutions of the Celestial Spheres</Text>		<!-- On the Revolutions of the Celestial Spheres -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_SCIENCE_TRIUMPH_2_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the On the Revolutions of the Celestial Spheres Triumph.</Text>		<!-- As Bolivar, complete the On the Revolutions of the Celestial Spheres Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_DIPLOMATIC_TRIUMPH_EXPLORATION_NAME" Language="th_TH">
+			<Text>Order of Assassins</Text>		<!-- Order of Assassins -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_DIPLOMATIC_TRIUMPH_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Order of Assassins Triumph.</Text>		<!-- As Bolivar, complete the Order of Assassins Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_DIPLOMATIC_TRIUMPH_2_EXPLORATION_NAME" Language="th_TH">
+			<Text>Quadruple Alliance</Text>		<!-- Quadruple Alliance -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_DIPLOMATIC_TRIUMPH_2_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Quadruple Alliance Triumph.</Text>		<!-- As Bolivar, complete the Quadruple Alliance Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_EXPANSIONIST_TRIUMPH_EXPLORATION_NAME" Language="th_TH">
+			<Text>Hic Sunt Dracones</Text>		<!-- Hic Sunt Dracones -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_EXPANSIONIST_TRIUMPH_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Hic Sunt Dracones Triumph.</Text>		<!-- As Bolivar, complete the Hic Sunt Dracones Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_EXPANSIONIST_TRIUMPH_2_EXPLORATION_NAME" Language="th_TH">
+			<Text>We have Habsburgs at Home</Text>		<!-- We have Habsburgs at Home -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_EXPANSIONIST_TRIUMPH_2_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the We have Habsburgs at Home Triumph.</Text>		<!-- As Bolivar, complete the We have Habsburgs at Home Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_CULTURE_TRIUMPH_MODERN_NAME" Language="th_TH">
+			<Text>Geographic Society</Text>		<!-- Geographic Society -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_CULTURE_TRIUMPH_MODERN_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Geographic Society Triumph.</Text>		<!-- As Bolivar, complete the Geographic Society Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_CULTURE_TRIUMPH_2_MODERN_NAME" Language="th_TH">
+			<Text>Wonderland</Text>		<!-- Wonderland -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_CULTURE_TRIUMPH_2_MODERN_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Wonderland Triumph.</Text>		<!-- As Bolivar, complete the Wonderland Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_MILITARY_TRIUMPH_MODERN_NAME" Language="th_TH">
+			<Text>Moral Imperative</Text>		<!-- Moral Imperative -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_MILITARY_TRIUMPH_MODERN_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Moral Imperative Triumph.</Text>		<!-- As Bolivar, complete the Moral Imperative Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_MILITARY_TRIUMPH_2_MODERN_NAME" Language="th_TH">
+			<Text>Enemy of the World</Text>		<!-- Enemy of the World -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_MILITARY_TRIUMPH_2_MODERN_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Enemy of the World Triumph.</Text>		<!-- As Bolivar, complete the Enemy of the World Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_ECONOMIC_TRIUMPH_MODERN_NAME" Language="th_TH">
+			<Text>Railroad Tycoon</Text>		<!-- Railroad Tycoon -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_ECONOMIC_TRIUMPH_MODERN_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Railroad Tycoon Triumph.</Text>		<!-- As Bolivar, complete the Railroad Tycoon Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_ECONOMIC_TRIUMPH_2_MODERN_NAME" Language="th_TH">
+			<Text>Workshop of the World</Text>		<!-- Workshop of the World -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_ECONOMIC_TRIUMPH_2_MODERN_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Workshop of the World Triumph.</Text>		<!-- As Bolivar, complete the Workshop of the World Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_SCIENCE_TRIUMPH_MODERN_NAME" Language="th_TH">
+			<Text>Dawn of the Space Race</Text>		<!-- Dawn of the Space Race -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_SCIENCE_TRIUMPH_MODERN_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Dawn of the Space Race Triumph.</Text>		<!-- As Bolivar, complete the Dawn of the Space Race Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_SCIENCE_TRIUMPH_2_MODERN_NAME" Language="th_TH">
+			<Text>Beyond the Sword</Text>		<!-- Beyond the Sword -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_SCIENCE_TRIUMPH_2_MODERN_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Beyond the Sword Triumph.</Text>		<!-- As Bolivar, complete the Beyond the Sword Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_DIPLOMATIC_TRIUMPH_MODERN_NAME" Language="th_TH">
+			<Text>League of Nations</Text>		<!-- League of Nations -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_DIPLOMATIC_TRIUMPH_MODERN_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the League of Nations Triumph.</Text>		<!-- As Bolivar, complete the League of Nations Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_DIPLOMATIC_TRIUMPH_2_MODERN_NAME" Language="th_TH">
+			<Text>Enigma Code</Text>		<!-- Enigma Code -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_DIPLOMATIC_TRIUMPH_2_MODERN_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Enigma Code Triumph.</Text>		<!-- As Bolivar, complete the Enigma Code Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_EXPANSIONIST_TRIUMPH_MODERN_NAME" Language="th_TH">
+			<Text>Sun Never Sets</Text>		<!-- Sun Never Sets -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_EXPANSIONIST_TRIUMPH_MODERN_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Sun Never Sets Triumph.</Text>		<!-- As Bolivar, complete the Sun Never Sets Triumph. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_EXPANSIONIST_TRIUMPH_2_MODERN_NAME" Language="th_TH">
+			<Text>Megalopolis</Text>		<!-- Megalopolis -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_EXPANSIONIST_TRIUMPH_2_MODERN_DESC" Language="th_TH">
+			<Text>As Bolivar, complete the Megalopolis Triumph.</Text>		<!-- As Bolivar, complete the Megalopolis Triumph. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_MILITARY_VICTORY_ANTIQUITY_DESC" Language="th_TH">
 			<Text>ในฐานะ โบลิบาร์ ให้ทำเส้นทางมรดก สันติภาพแห่งจักรวรรดิ</Text>		<!-- As Bolivar, complete the Pax Imperatoria Legacy Path. -->
@@ -210,6 +441,72 @@
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_MILITARY_VICTORY_MODERN_NAME" Language="th_TH">
 			<Text>อุดมการณ์</Text>		<!-- Ideology -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BOLIVAR_QUEST_A_ANTIQUITY_NAME" Language="th_TH">
+			<Text>A People</Text>		<!-- A People -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BOLIVAR_QUEST_A_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Bolivar in Antiquity, complete a quest to reach the rural people.</Text>		<!-- As Bolivar in Antiquity, complete a quest to reach the rural people. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BOLIVAR_QUEST_B_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Ready for Anything</Text>		<!-- Ready for Anything -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BOLIVAR_QUEST_B_ANTIQUITY_DESC" Language="th_TH">
+			<Text>As Bolivar in Antiquity, complete a quest to quell the dust of battle.</Text>		<!-- As Bolivar in Antiquity, complete a quest to quell the dust of battle. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BOLIVAR_QUEST_A_EXPLORATION_NAME" Language="th_TH">
+			<Text>Visitors</Text>		<!-- Visitors -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BOLIVAR_QUEST_A_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Bolivar in Exploration, complete a quest to seek distant allies.</Text>		<!-- As Bolivar in Exploration, complete a quest to seek distant allies. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BOLIVAR_QUEST_B_EXPLORATION_NAME" Language="th_TH">
+			<Text>Taking a Stand</Text>		<!-- Taking a Stand -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BOLIVAR_QUEST_B_EXPLORATION_DESC" Language="th_TH">
+			<Text>As Bolivar in Exploration, complete a quest to stand against subjugation.</Text>		<!-- As Bolivar in Exploration, complete a quest to stand against subjugation. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BOLIVAR_QUEST_A_MODERN_NAME" Language="th_TH">
+			<Text>An Open Door</Text>		<!-- An Open Door -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BOLIVAR_QUEST_A_MODERN_DESC" Language="th_TH">
+			<Text>As Bolivar in Modern, complete a quest to unite the empire by rail.</Text>		<!-- As Bolivar in Modern, complete a quest to unite the empire by rail. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BOLIVAR_QUEST_B_MODERN_NAME" Language="th_TH">
+			<Text>Unwavering Resolve</Text>		<!-- Unwavering Resolve -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_LEADER_BOLIVAR_QUEST_B_MODERN_DESC" Language="th_TH">
+			<Text>As Bolivar in Modern, complete a quest to fight for your beliefs.</Text>		<!-- As Bolivar in Modern, complete a quest to fight for your beliefs. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_CULTURE_VICTORY_NAME" Language="th_TH">
+			<Text>Cultural Victory</Text>		<!-- Cultural Victory -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_CULTURE_VICTORY_DESC" Language="th_TH">
+			<Text>As Bolivar, achieve a Cultural victory.</Text>		<!-- As Bolivar, achieve a Cultural victory. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_MILITARY_VICTORY_NAME" Language="th_TH">
+			<Text>Military Victory</Text>		<!-- Military Victory -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_MILITARY_VICTORY_DESC" Language="th_TH">
+			<Text>As Bolivar, achieve a Militaristic victory.</Text>		<!-- As Bolivar, achieve a Militaristic victory. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_ECONOMIC_VICTORY_NAME" Language="th_TH">
+			<Text>Economic Victory</Text>		<!-- Economic Victory -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_ECONOMIC_VICTORY_DESC" Language="th_TH">
+			<Text>As Bolivar, achieve an Economic victory.</Text>		<!-- As Bolivar, achieve an Economic victory. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_SCIENCE_VICTORY_NAME" Language="th_TH">
+			<Text>Scientific Victory</Text>		<!-- Scientific Victory -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_SCIENCE_VICTORY_DESC" Language="th_TH">
+			<Text>As Bolivar, achieve a Scientific victory.</Text>		<!-- As Bolivar, achieve a Scientific victory. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_DEITY_VICTORY_NAME" Language="th_TH">
+			<Text>Deity Victory</Text>		<!-- Deity Victory -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_DEITY_VICTORY_DESC" Language="th_TH">
+			<Text>As Bolivar, achieve a victory on Deity level of Difficulty.</Text>		<!-- As Bolivar, achieve a victory on Deity level of Difficulty. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_MILITARY_VICTORY_MODERN_DESC" Language="th_TH">
 			<Text>ในฐานะ โบลิบาร์ ให้ทำเส้นทางมรดก อุดมการณ์</Text>		<!-- As Bolivar, complete the Ideology Legacy Path. -->

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" ?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_CITIZEN_NEPAL_MALE_1" Language="th_TH">
@@ -172,6 +172,15 @@
 		<Replace Tag="LOC_TRAIT_NEPAL_ABILITY_DESCRIPTION" Language="th_TH">
 			<Text>[BLIST][LI][B]อาคาร icon:YIELD_WAREHOUSE] [B]คลังสินค้า[/B] ทั้งหมด[/B] ใช้ได้กับพื้นที่ [icon:CITY_UNIMPROVED] [B]ภูเขา[/B] แต่มีค่าบำรุงรักษาเพิ่ม +1 [icon:YIELD_GOLD] ทอง และ [icon:YIELD_HAPPINESS] ความสุข [LI][B]+30% [icon:YIELD_PRODUCTION] ผลิตผล[/B] ในการสร้าง [B]โพธินาถ[/B][/BLIST]</Text>		<!-- [BLIST][LI]All [icon:YIELD_WAREHOUSE] [B]Warehouse Buildings[/B] apply to [icon:CITY_UNIMPROVED] [B]Mountain Terrain[/B], but they cost [B]+1 [icon:YIELD_GOLD] Gold and[icon:YIELD_HAPPINESS] Happiness Maintenance[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Boudhanath[/B].[/LIST] -->
 		</Replace>
+		<Replace Tag="LOC_TRAIT_NEPAL_ABILITY_AQ_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI]Can work [B][icon:CITY_UNIMPROVED] Mountain Terrain[/B].[LI]All [icon:YIELD_WAREHOUSE] [B]Warehouse Buildings[/B] apply to [icon:CITY_UNIMPROVED] [B]Mountain Terrain[/B], but they cost [B]+1 [icon:YIELD_GOLD] Gold and[icon:YIELD_HAPPINESS] Happiness Maintenance[/B].[/LIST]</Text>		<!-- [BLIST][LI]Can work [B][icon:CITY_UNIMPROVED] Mountain Terrain[/B].[LI]All [icon:YIELD_WAREHOUSE] [B]Warehouse Buildings[/B] apply to [icon:CITY_UNIMPROVED] [B]Mountain Terrain[/B], but they cost [B]+1 [icon:YIELD_GOLD] Gold and[icon:YIELD_HAPPINESS] Happiness Maintenance[/B].[/LIST] -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_NEPAL_ABILITY_EX_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI]Can work [B][icon:CITY_UNIMPROVED] Mountain Terrain[/B].[LI]All [icon:YIELD_WAREHOUSE] [B]Warehouse Buildings[/B] apply to [icon:CITY_UNIMPROVED] [B]Mountain Terrain[/B], but they cost [B]+1 [icon:YIELD_GOLD] Gold and[icon:YIELD_HAPPINESS] Happiness Maintenance[/B].[/LIST]</Text>		<!-- [BLIST][LI]Can work [B][icon:CITY_UNIMPROVED] Mountain Terrain[/B].[LI]All [icon:YIELD_WAREHOUSE] [B]Warehouse Buildings[/B] apply to [icon:CITY_UNIMPROVED] [B]Mountain Terrain[/B], but they cost [B]+1 [icon:YIELD_GOLD] Gold and[icon:YIELD_HAPPINESS] Happiness Maintenance[/B].[/LIST] -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_NEPAL_ABILITY_MO_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI]All [icon:YIELD_WAREHOUSE] [B]Warehouse Buildings[/B] apply to [icon:CITY_UNIMPROVED] [B]Mountain Terrain[/B], but they cost [B]+1 [icon:YIELD_GOLD] Gold and[icon:YIELD_HAPPINESS] Happiness Maintenance[/B].[LI]+1 [icon:CULTURE_VP]  [TIP:LOC_PEDIA_CONCEPTS_TOURISTS_TOOLTIP]Tourism[/TIP] from [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvements[/TIP] on [TIP:LOC_PEDIA_CONCEPTS_MOUNTAIN_TOOLTIP]Mountains[/TIP].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Boudhanath[/B].[/LIST]</Text>		<!-- [BLIST][LI]All [icon:YIELD_WAREHOUSE] [B]Warehouse Buildings[/B] apply to [icon:CITY_UNIMPROVED] [B]Mountain Terrain[/B], but they cost [B]+1 [icon:YIELD_GOLD] Gold and[icon:YIELD_HAPPINESS] Happiness Maintenance[/B].[LI]+1 [icon:CULTURE_VP]  [TIP:LOC_PEDIA_CONCEPTS_TOURISTS_TOOLTIP]Tourism[/TIP] from [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvements[/TIP] on [TIP:LOC_PEDIA_CONCEPTS_MOUNTAIN_TOOLTIP]Mountains[/TIP].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Boudhanath[/B].[/LIST] -->
+		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_NEPAL_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น [icon:WONDER] สิ่งมหัศจรรย์ ที่เกี่ยวข้องกับ เนปาล</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Nepal's associated [icon:WONDER] Wonder. -->
 		</Replace>
@@ -292,11 +301,26 @@
 		<Replace Tag="LOC_CIVIC_GORKHAPATRA_AUTHOR" Language="th_TH">
 			<Text>พระราชาเบเรนดรา</Text>		<!-- King Birendra -->
 		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_AQ_NEPAL_ORIGINS_NAME" Language="th_TH">
+			<Text>Nepali Origins</Text>		<!-- Nepali Origins -->
+		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_EX_NEPAL_RENAISSANCE_NAME" Language="th_TH">
+			<Text>Nepali Renaissance</Text>		<!-- Nepali Renaissance -->
+		</Replace>
 		<Replace Tag="LOC_MOD_SAGARMATHA_BUILDINGS_MOUNTAIN_ADJACENCY_DESCRIPTION" Language="th_TH">
 			<Text>[icon:YIELD_FOOD] [icon:YIELD_SCIENCE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านอาหารและวิทยาศาสตร์[/TIP] ได้รับโบนัสใกล้เคียง [icon:CITY_UNIMPROVED] ภูเขา</Text>		<!-- [icon:YIELD_FOOD] Food and [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive an Adjacency from [icon:CITY_UNIMPROVED] Mountains. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_SHERPA_MOUNTAIN_CLAIM_DESCRIPTION" Language="th_TH">
 			<Text>[icon:UNIT_SHERPA] เชอร์ปา สามารถเปิดใช้งานบน [icon:CITY_UNIMPROVED] พื้นที่ภูเขาภายใน 5 ช่องจากหนึ่งใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐานของคุณ[/TIP] พระราชวัง หรือ ห้องเมือง ของคุณ เส้นทางของช่อง จะถูกสร้างไปยัง [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ของคุณ และ [icon:CITY_UNIMPROVED] พื้นที่ภูเขาจะกลายเป็น [icon:CITY_RURAL] พื้นที่พัฒนา พร้อมด้วย สถานีไฟฟ้าพลังสูง</Text>		<!-- [icon:UNIT_SHERPA] Sherpas can activate on a [icon:CITY_UNIMPROVED] Mountain Te within 5 tiles of one of your [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements'[/TIP] Palace or City Hall once every 5 turns. A path of tiles is claimed back to the [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] and the [icon:CITY_UNIMPROVED] Mountain Terrain is [icon:CITY_RURAL] Improved immediately with a Highland Power Station. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_HIMAL_TOOLTIP" Language="th_TH">
+			<Text>Himāl</Text>		<!-- Himāl -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_HIMAL_I_NAME" Language="th_TH">
+			<Text>Himāl I</Text>		<!-- Himāl I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_HIMAL_I_DESCRIPTION" Language="th_TH">
+			<Text> +2 [icon:YIELD_CULTURE] Culture on [icon:CITY_UNIMPROVED] Mountain Terrain in your [icon:NOTIFICATION_SELECT_CAPITAL] Capital, +1 [icon:YIELD_CULTURE] Culture on [icon:CITY_UNIMPROVED] Mountain Terrain in other [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP].</Text>		<!--  +2 [icon:YIELD_CULTURE] Culture on [icon:CITY_UNIMPROVED] Mountain Terrain in your [icon:NOTIFICATION_SELECT_CAPITAL] Capital, +1 [icon:YIELD_CULTURE] Culture on [icon:CITY_UNIMPROVED] Mountain Terrain in other [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_JYUMDO_BAGHA_MOUNTAIN_WALLS_DESCRIPTION" Language="th_TH">
 			<Text>All [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขตทั้งหมด[/TIP] ที่ติดกับ [icon:CITY_UNIMPROVED] ภูเขาจะได้รับ [icon:Action_Fortify] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]การเสริมกำลัง[/TIP], เป็นผลครั้งเดียว, ปฏิบัติตามกฎการวาง [TIP:LOC_PEDIA_CONCEPTS_WALL_TOOLTIP]กำแพง[/TIP] ตามปกติ</Text>		<!-- All [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] adjacent to [icon:CITY_UNIMPROVED] Mountains receive [icon:Action_Fortify] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Defensive Fortifications[/TIP], one time effect. Follows normal [TIP:LOC_PEDIA_CONCEPTS_WALL_TOOLTIP]Walls[/TIP] placement rules. -->
@@ -304,20 +328,53 @@
 		<Replace Tag="LOC_MOD_GIFT_GURKHA_DESCRIPTION" Language="th_TH">
 			<Text>ปลดล็อก [icon:DIPLOMATIC_ACTION] "มอบกูร์ขา" ซึ่งให้ ยูนิต กุรขา แก่อารยธรรมอื่น เนปาลได้รับความสัมพันธ์ +10 [icon:RELATIONSHIP] กับพวกเขาและ 5 [icon:YIELD_CULTURE] วัฒนธรรม (ปรับตามความเร็วของเกม) สำหรับระดับความสัมพันธ์ปัจจุบันกับพวกเขา สามารถทำได้เฉพาะกับ [icon:PLAYER_RELATIONSHIP_FRIENDLY] อารยธรรมที่เป็นมิตรหรือ [icon:PLAYER_RELATIONSHIP_HELPFUL] อารยธรรมที่ช่วยเหลือเท่านั้น</Text>		<!-- Unlocks the [icon:DIPLOMATIC_ACTION] Gift Gurkha Action which grants a Gurkha Unit to another Civilization. Nepal receives a +10 [icon:RELATIONSHIP] Relationship with them and 5 [icon:YIELD_CULTURE] Culture (Scales by Gamespeed) for the current Relationship Level with them. Can only be done with [icon:PLAYER_RELATIONSHIP_FRIENDLY] Friendly or [icon:PLAYER_RELATIONSHIP_HELPFUL] Helpful Civilizations. -->
 		</Replace>
+		<Replace Tag="LOC_TRADITION_MAITRI_SANDHI_I_NAME" Language="th_TH">
+			<Text>Maitri Sandhi I</Text>		<!-- Maitri Sandhi I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MAITRI_SANDHI_I_DESCRIPTION" Language="th_TH">
+			<Text>+25% [icon:YIELD_DIPLOMACY] Influence towards initiating [icon:ENDEAVOR] [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]Endeavors[/TIP] if you have the least amount of [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP], +10% otherwise.</Text>		<!-- +25% [icon:YIELD_DIPLOMACY] Influence towards initiating [icon:ENDEAVOR] [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]Endeavors[/TIP] if you have the least amount of [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP], +10% otherwise. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MAITRI_SANDHI_NAME" Language="th_TH">
+			<Text>Maitri Sandhi II</Text>		<!-- Maitri Sandhi II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MAITRI_SANDHI_DESCRIPTION" Language="th_TH">
+			<Text>+50% [icon:YIELD_DIPLOMACY] Influence towards initiating [icon:ENDEAVOR] [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]Endeavors[/TIP] if you have the least amount of [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP], +20% otherwise.</Text>		<!-- +50% [icon:YIELD_DIPLOMACY] Influence towards initiating [icon:ENDEAVOR] [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]Endeavors[/TIP] if you have the least amount of [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP], +20% otherwise. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_JYUMDO_BAGHA_FORTIFICATION_DESCRIPTION" Language="th_TH">
 			<Text>ยูนิตจะสร้าง [icon:Action_Fortify] ปราการเสร็๋จใน 1 เทิร์น หากอยู่ติดกับ [icon:CITY_UNIMPROVED] ภูเขา</Text>		<!-- Units complete [icon:Action_Fortify] Fortifications in 1 turn if adjacent to a [icon:CITY_UNIMPROVED] Mountain. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_GORKHAPATRA_MUSEUM_SLOTS_DESCRIPTION" Language="th_TH">
 			<Text>+2 [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]ผลงานชิ้นเอก[/TIP] ช่องบน พิพิธภัณฑ์</Text>		<!-- +2 [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]Great Work[/TIP] Slots on Museums. -->
 		</Replace>
+		<Replace Tag="LOC_TRADITION_SAGARMATHA_NAME" Language="th_TH">
+			<Text>Sagarmatha</Text>		<!-- Sagarmatha -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_SAGARMATHA_DESCRIPTION" Language="th_TH">
+			<Text>[icon:YIELD_FOOD] Food and [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive an Adjacency from [icon:CITY_UNIMPROVED] Mountains.</Text>		<!-- [icon:YIELD_FOOD] Food and [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive an Adjacency from [icon:CITY_UNIMPROVED] Mountains. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_NEPAL_SYNCRETISM_TOOLTIP" Language="th_TH">
+			<Text>Kumar and Kumari</Text>		<!-- Kumar and Kumari -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_NEPAL_SYNCRETISM_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Kumar and Kumari I</Text>		<!-- Kumar and Kumari I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_NEPAL_SYNCRETISM_ANTIQUITY_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_CULTURE] Culture on [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse Buildings[/TIP]. +1 [icon:YIELD_DIPLOMACY] Influence on Mountains.</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture on [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse Buildings[/TIP]. +1 [icon:YIELD_DIPLOMACY] Influence on Mountains. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_NEPAL_SYNCRETISM_EXPLORATION_NAME" Language="th_TH">
+			<Text>Kumar and Kumari II</Text>		<!-- Kumar and Kumari II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_NEPAL_SYNCRETISM_EXPLORATION_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_CULTURE] Culture on [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse Buildings[/TIP]. +1 [icon:YIELD_DIPLOMACY] Influence on Mountains.</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture on [icon:YIELD_WAREHOUSE] [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse Buildings[/TIP]. +1 [icon:YIELD_DIPLOMACY] Influence on Mountains. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_SINGHA_DURBAR_INFLUENCE_CULTURE_BUILDING_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:YIELD_DIPLOMACY] อิทธิพล บน [icon:YIELD_CULTURE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรม[/TIP]</Text>		<!-- +3 [icon:YIELD_DIPLOMACY] Influence on [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP].  -->
+			<Text>+3 [icon:YIELD_DIPLOMACY] อิทธิพล บน [icon:YIELD_CULTURE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรม[/TIP]</Text>		<!-- +3 [icon:YIELD_DIPLOMACY] Influence on [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_HIMAL_NAME" Language="th_TH">
 			<Text>ฮิมาล</Text>		<!-- Himāl -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_HIMAL_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:CITY_UNIMPROVED] ช่องภูเขา ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวงของคุณ, +2 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:CITY_UNIMPROVED] ช่องภูเขา ในถิ่นฐานอื่นๆ</Text>		<!--  +4 [icon:YIELD_CULTURE] Culture on [icon:CITY_UNIMPROVED] Mountain Terrain in your [icon:NOTIFICATION_SELECT_CAPITAL] Capital, +2 [icon:YIELD_CULTURE] Culture on [icon:CITY_UNIMPROVED] Mountain Terrain in other [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP]. -->
+			<Text>+4 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:CITY_UNIMPROVED] ช่องภูเขา ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวงของคุณ, +2 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:CITY_UNIMPROVED] ช่องภูเขา ในถิ่นฐานอื่นๆ</Text>		<!-- +4 [icon:YIELD_CULTURE] Culture on [icon:CITY_UNIMPROVED] Mountain Terrain in your [icon:NOTIFICATION_SELECT_CAPITAL] Capital, +2 [icon:YIELD_CULTURE] Culture on [icon:CITY_UNIMPROVED] Mountain Terrain in other [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_MAITRI_SANADHI_NAME" Language="th_TH">
 			<Text>เมตรี สานาดิ</Text>		<!-- Maitri Sanadhi -->
@@ -333,6 +390,12 @@
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_ACTION_GIFT_GURKHA_NAME" Language="th_TH">
 			<Text>มอบกูร์ขา</Text>		<!-- Gift Gurkha -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NEPAL_FOUR_MAJOR_TRIUMPHS_NAME" Language="th_TH">
+			<Text>Nepal 4 Minor Triumphs</Text>		<!-- Nepal 4 Minor Triumphs -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NEPAL_FOUR_MAJOR_TRIUMPHS_DESC" Language="th_TH">
+			<Text>As Nepal, complete 4 Cultural or Diplomatic Minor Triumphs in a single Apex Age.</Text>		<!-- As Nepal, complete 4 Cultural or Diplomatic Minor Triumphs in a single Apex Age. -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_GIFT_GURKHA_DESCRIPTION" Language="th_TH">
 			<Text>มอบ กูร์ขา[n] ยอมรับ: คุณจะได้รับ +10 ความสัมพันธ์กับพวกเขา และ 5 [icon:YIELD_CULTURE] วัฒนธรรม ในระดับความเร็วปกติ สำหรับระดับความสัมพันธ์ปัจจุบันกับพวกเขา ผู้นำอื่นจะได้รับหน่วย กูร์ขา ในเมืองหลวงของพวกเขา สามารถทำได้เฉพาะกับอารยธรรมที่เป็นมิตรหรือให้ความช่วยเหลือเท่านั้น</Text>		<!-- Gives a Gurkha.[n]Accepted: You receive +10 Relationship with them and 5 [icon:YIELD_CULTURE] Culture, on Standard Speed, for the current Relationship Level with them. Other Leader receives a Gurkha Unit in their Capital. Can only be done with Friendly or Helpful Civilizations. -->
@@ -616,6 +679,24 @@
 		<Replace Tag="LOC_11069B_NAME" Language="th_TH">
 			<Text>เนปาลมีบทบาทในเหตุการณ์โลก</Text>		<!-- Nepal has a part to play in world affairs. -->
 		</Replace>
+		<Replace Tag="LOC_TOT_30040A_STORYTITLE" Language="th_TH">
+			<Text>Kumar and Kumari</Text>		<!-- Kumar and Kumari -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30040A_COMPLETION" Language="th_TH">
+			<Text>The child cries for nine days without ceasing. On the ninth day, she stops. The next day, the rains begin. The next kumari is chosen – a link between the world of the gods and the world of humanity.</Text>		<!-- The child cries for nine days without ceasing. On the ninth day, she stops. The next day, the rains begin. The next kumari is chosen – a link between the world of the gods and the world of humanity. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30040B_NAME" Language="th_TH">
+			<Text>Keeping Nepalese traditions alive should be a priority, no matter how much Nepal modernizes.</Text>		<!-- Keeping Nepalese traditions alive should be a priority, no matter how much Nepal modernizes. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30040B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30040C_NAME" Language="th_TH">
+			<Text>Such practices are cultural heritage, not a basis for politics.</Text>		<!-- Such practices are cultural heritage, not a basis for politics. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30040C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_11069B_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
@@ -660,6 +741,12 @@
 		</Replace>
 		<Replace Tag="LOC_UNIT_SHERPA_NAME" Language="th_TH">
 			<Text>เชอร์ปา</Text>		<!-- Sherpa -->
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_PLAY_AS_NEPAL_DESCRIPTION" Language="th_TH">
+			<Text>Play as [B]Nepal[/B].</Text>		<!-- Play as [B]Nepal[/B]. -->
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_PLAY_AS_NEPAL_NEPAL_TOOLTIP" Language="th_TH">
+			<Text>[B]Nepal[/B] is able to endure throughout the Ages.</Text>		<!-- [B]Nepal[/B] is able to endure throughout the Ages. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_SHERPA_DESCRIPTION" Language="th_TH">
 			<Text>หน่วยสอดแนมพิเศษ ของเนปาล, ไม่สนใจข้อจำกัด [icon:CITY_UNIMPROVED] ภูเขาและ [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]พื้นที่ขรุขระ[/TIP] ใน [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]การมองเห็น[/TIP], ไม่สนใจข้อจำกัด [icon:CITY_UNIMPROVED] ภูเขาที่ไม่มีลักษณะพิเศษ สำหรับ [icon:Action_Move] การเคลื่อนไหว, สามารถเคลื่อนที่บนยอดเขาเอเวอเรสต์ได้</Text>		<!-- Nepalese Unique Scout. Ignores [icon:CITY_UNIMPROVED] Mountains and [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]Rough Terrain[/TIP] for [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]Sight[/TIP]. Ignores featureless [icon:CITY_UNIMPROVED] Mountains for [icon:Action_Move] Movement. Can move on Mount Everest. -->

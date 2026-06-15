@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" ?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_CARD_EXP_CITY_NAME" Language="th_TH">
@@ -75,6 +75,12 @@
 		</Replace>
 		<Replace Tag="LOC_CARD_EXP_FREE_CIVIC_ECONOMICS_NAME" Language="th_TH">
 			<Text>แนวคิด เศรษฐศาสตร์</Text>		<!-- Economics Civic -->
+		</Replace>
+		<Replace Tag="LOC_CARD_EXP_COGS_NAME" Language="th_TH">
+			<Text>Cogs</Text>		<!-- Cogs -->
+		</Replace>
+		<Replace Tag="LOC_CARD_EXP_COGS_DESCRIPTION" Language="th_TH">
+			<Text>Gain 3 Cogs if your empire has at least one Water Building.</Text>		<!-- Gain 3 Cogs if your empire has at least one Water Building. -->
 		</Replace>
 		<Replace Tag="LOC_CARD_EXP_FREE_CIVIC_ECONOMICS_DESCRIPTION" Language="th_TH">
 			<Text>รับ แนวคิดเศรษฐศาสตร์ฟรี</Text>		<!-- Gain the Economics Civic for free. -->
@@ -469,11 +475,17 @@
 		<Replace Tag="LOC_CARD_AT_EXP_DARK_AGE_SCIENCE" Language="th_TH">
 			<Text>แรงบันดาลใจทางอัลเคมี</Text>		<!-- Alchemical Inspiration -->
 		</Replace>
+		<Replace Tag="LOC_CARD_AT_EXP_INVASION_ACTIVE_DEFENSE" Language="th_TH">
+			<Text>Active Defense</Text>		<!-- Active Defense -->
+		</Replace>
 		<Replace Tag="LOC_CARD_AT_EXP_DARK_AGE_SCIENCE_DESCRIPTION" Language="th_TH">
 			<Text>-50%[icon:YIELD_SCIENCE] วิทยาศาสตร์ แต่คุณจะได้รับการเพิ่มเทคโนโลยีแบบสุ่มทุก 5 เทิร์น (ในความเร็วมาตรฐาน)</Text>		<!-- -50%[icon:YIELD_SCIENCE] Science BUT you gain a random Technology boost every 5 Turns (On Standard Speed). -->
 		</Replace>
 		<Replace Tag="LOC_MOD_INVASION_WALLS_PREVIEW" Language="th_TH">
 			<Text>+{1_Amount} ป้อมปราการระดับตำนาน</Text>		<!-- +{1_Amount} Legendary Fortifications -->
+		</Replace>
+		<Replace Tag="LOC_CARD_AT_MOD_CRISIS_HERBAL_REMEDIES" Language="th_TH">
+			<Text>Herbal Remedies</Text>		<!-- Herbal Remedies -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_EXP_INVASION_WALLS" Language="th_TH">
 			<Text>ป้อมปราการอันเป็นตำนาน</Text>		<!-- Legendary Fortifications -->
@@ -1402,6 +1414,12 @@
 		<Replace Tag="LOC_CITY_NAME_SPAIN21" Language="th_TH">
 			<Text>มาลากา</Text>		<!-- Málaga -->
 		</Replace>
+		<Replace Tag="LOC_TRAIT_ABBASID_ABILITY_AQ_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI]Receive [B]10 [icon:YIELD_GOLD] Gold[/B] for each [B][icon:YIELD_POPULATION] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Rural Population[/TIP][/B] of the City when it has a [B]Growth Event[/B]. (Scales by Game Speed)[/BLIST]</Text>		<!-- [BLIST][LI]Receive [B]10 [icon:YIELD_GOLD] Gold[/B] for each [B][icon:YIELD_POPULATION] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Rural Population[/TIP][/B] of the City when it has a [B]Growth Event[/B]. (Scales by Game Speed)[/BLIST] -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_ABBASID_ABILITY_MO_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI]Receive [B]50 [icon:YIELD_GOLD] Gold[/B] for each [B][icon:YIELD_POPULATION] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Rural Population[/TIP][/B] of the City when you create a [B][icon:SPECIALIST][TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialist[/TIP][/B]. (Scales by Game Speed)[LI][B]+30% [icon:YIELD_PRODUCTION] Production[/B] towards constructing [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] in [B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP][/B] with at least [B]8 [icon:SPECIALIST][TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP][/B].[/BLIST]</Text>		<!-- [BLIST][LI]Receive [B]50 [icon:YIELD_GOLD] Gold[/B] for each [B][icon:YIELD_POPULATION] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Rural Population[/TIP][/B] of the City when you create a [B][icon:SPECIALIST][TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialist[/TIP][/B]. (Scales by Game Speed)[LI][B]+30% [icon:YIELD_PRODUCTION] Production[/B] towards constructing [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] in [B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP][/B] with at least [B]8 [icon:SPECIALIST][TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP][/B].[/BLIST] -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_SPAIN22" Language="th_TH">
 			<Text>ฮาวานา</Text>		<!-- Havana -->
 		</Replace>
@@ -1413,6 +1431,12 @@
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_SPAIN25" Language="th_TH">
 			<Text>ซานแทนเดอร์</Text>		<!-- Santander -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CHOLA_ABILITY_AQ_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI][B]+1 [icon:TRADE_ROUTE] Trade Route[/B] from the [icon:DIPLOMATIC_ACTION] [B]Improve Trade Relations[/B] Action.[LI][B]+2 [icon:YIELD_GOLD] Gold[/B] and [B]+1 [icon:YIELD_DIPLOMACY] Influence[/B] for every active [icon:TRADE_ROUTE] [B]Trade Route[/B].[LI][B]+1 [icon:Action_Move] Movement[/B] for [icon:UNIT_MERCHANT] [B]Merchants[/B].[/BLIST]</Text>		<!-- [BLIST][LI][B]+1 [icon:TRADE_ROUTE] Trade Route[/B] from the [icon:DIPLOMATIC_ACTION] [B]Improve Trade Relations[/B] Action.[LI][B]+2 [icon:YIELD_GOLD] Gold[/B] and [B]+1 [icon:YIELD_DIPLOMACY] Influence[/B] for every active [icon:TRADE_ROUTE] [B]Trade Route[/B].[LI][B]+1 [icon:Action_Move] Movement[/B] for [icon:UNIT_MERCHANT] [B]Merchants[/B].[/BLIST] -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CHOLA_ABILITY_MO_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI][B]+1 [icon:TRADE_ROUTE] Trade Route[/B] from the [icon:DIPLOMATIC_ACTION] [B]Improve Trade Relations[/B] Action.[LI][B]+4 [icon:YIELD_GOLD] Gold[/B] and [B]+3 [icon:YIELD_DIPLOMACY] Influence[/B] for every active [icon:TRADE_ROUTE] [B]Trade Route[/B].[LI][B]+1 [icon:Action_Move] Movement[/B] for [icon:UNIT_MERCHANT] [B]Merchants[/B].[LI][B]+1 [icon:ECONOMIC_VP] GDP per turn[/B] for imported [icon:RADIAL_RESOURCES] [B]Resources[/B] assigned to [icon:YIELD_CITIES] [B]Cities[/B].[/BLIST]</Text>		<!-- [BLIST][LI][B]+1 [icon:TRADE_ROUTE] Trade Route[/B] from the [icon:DIPLOMATIC_ACTION] [B]Improve Trade Relations[/B] Action.[LI][B]+4 [icon:YIELD_GOLD] Gold[/B] and [B]+3 [icon:YIELD_DIPLOMACY] Influence[/B] for every active [icon:TRADE_ROUTE] [B]Trade Route[/B].[LI][B]+1 [icon:Action_Move] Movement[/B] for [icon:UNIT_MERCHANT] [B]Merchants[/B].[LI][B]+1 [icon:ECONOMIC_VP] GDP per turn[/B] for imported [icon:RADIAL_RESOURCES] [B]Resources[/B] assigned to [icon:YIELD_CITIES] [B]Cities[/B].[/BLIST] -->
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_SPAIN26" Language="th_TH">
 			<Text>อัลเมเรีย</Text>		<!-- Almeria -->
@@ -1426,6 +1450,12 @@
 		<Replace Tag="LOC_CITY_NAME_SPAIN29" Language="th_TH">
 			<Text>บูร์โกส</Text>		<!-- Burgos -->
 		</Replace>
+		<Replace Tag="LOC_TRAIT_HAWAII_ABILITY_AQ_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI]Can work [icon:CITY_UNIMPROVED] [B]Ocean Terrain[/B].[LI][B]+1 [icon:YIELD_CULTURE] Culture[/B] on all [icon:CITY_UNIMPROVED] [B]Marine Terrain[/B].[/LIST]</Text>		<!-- [BLIST][LI]Can work [icon:CITY_UNIMPROVED] [B]Ocean Terrain[/B].[LI][B]+1 [icon:YIELD_CULTURE] Culture[/B] on all [icon:CITY_UNIMPROVED] [B]Marine Terrain[/B].[/LIST] -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_HAWAII_ABILITY_MO_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI]Can work [icon:CITY_UNIMPROVED] [B]Ocean Terrain[/B].[LI][B]+1 [icon:YIELD_HAPPINESS] Happiness and +2 [icon:YIELD_CULTURE] Culture[/B] on all [icon:CITY_UNIMPROVED] [B]Marine Terrain[/B].[/LIST]</Text>		<!-- [BLIST][LI]Can work [icon:CITY_UNIMPROVED] [B]Ocean Terrain[/B].[LI][B]+1 [icon:YIELD_HAPPINESS] Happiness and +2 [icon:YIELD_CULTURE] Culture[/B] on all [icon:CITY_UNIMPROVED] [B]Marine Terrain[/B].[/LIST] -->
+		</Replace>
 		<Replace Tag="LOC_CITY_NAME_SPAIN30" Language="th_TH">
 			<Text>ฆีฮอน</Text>		<!-- Gijón -->
 		</Replace>
@@ -1437,6 +1467,12 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_ABBASID_ABILITY_DESCRIPTION" Language="th_TH">
 			<Text>[BLIST][LI]รับ 30 [icon:YIELD_GOLD] ทอง สำหรับแต่ละ [icon:YIELD_POPULATION] ประชากรในชนบทของ [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] เมื่อคุณสร้าง [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]ผู้เชี่ยวชาญ[/TIP] (ปรับตามความเร็วเกม)[LI]+30% [icon:YIELD_PRODUCTION] กำลังผลิตในการสร้างบ้านแห่งปัญญา[/BLIST]</Text>		<!-- [BLIST][LI]Receive 30 [icon:YIELD_GOLD] Gold for each [icon:YIELD_POPULATION] Rural Population of the [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]City[/TIP] when you create a [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialist[/TIP]. (Scales by Game Speed)[LI]+30% [icon:YIELD_PRODUCTION] Production towards constructing the House of Wisdom.[/BLIST] -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_INCA_ABILITY_AQ_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI]Can work [icon:CITY_UNIMPROVED] [B]Mountain Terrain[/B].[LI][B]+1 [icon:YIELD_FOOD] Food [/B]and [B]+1 [icon:YIELD_PRODUCTION] Production [/B]on [icon:CITY_UNIMPROVED] [B]Mountain Terrain[/B].[/LIST]</Text>		<!-- [BLIST][LI]Can work [icon:CITY_UNIMPROVED] [B]Mountain Terrain[/B].[LI][B]+1 [icon:YIELD_FOOD] Food [/B]and [B]+1 [icon:YIELD_PRODUCTION] Production [/B]on [icon:CITY_UNIMPROVED] [B]Mountain Terrain[/B].[/LIST] -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_INCA_ABILITY_MO_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI][B]+3 [icon:YIELD_FOOD] Food [/B]and [B]+2 [icon:YIELD_PRODUCTION] Production [/B]on [icon:CITY_UNIMPROVED] [B]Mountain Terrain[/B].[/LIST]</Text>		<!-- [BLIST][LI][B]+3 [icon:YIELD_FOOD] Food [/B]and [B]+2 [icon:YIELD_PRODUCTION] Production [/B]on [icon:CITY_UNIMPROVED] [B]Mountain Terrain[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_ABBASID_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP]ที่เกี่ยวข้องกับธรรมบาล</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being the Abbasid's associated [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP]. -->
@@ -1450,6 +1486,12 @@
 		<Replace Tag="LOC_TRAIT_CHOLA_ABILITY_DESCRIPTION" Language="th_TH">
 			<Text>[BLIST][LI]+1 [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]เส้นทางการค้า[/TIP] จาก [icon:DIPLOMATIC_ACTION] การพัฒนาความสัมพันธ์ทางการค้า[LI]+3 [icon:YIELD_GOLD] ทอง และ +1 [icon:YIELD_DIPLOMACY] อิทธิพลสำหรับเส้นทางการค้า [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]เส้นทางการค้า[/TIP][LI]+30% [icon:YIELD_PRODUCTION] กำลังผลิตในการสร้าง [B]วัดบริหัสดีสวรรค์[/B].[/BLIST]</Text>		<!-- [BLIST][LI]+1 [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP] from the [icon:DIPLOMATIC_ACTION] Improve Trade Relations Action.[LI]+3 [icon:YIELD_GOLD] Gold and +1 [icon:YIELD_DIPLOMACY] Influence for every active [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP].[LI]+30% [icon:YIELD_PRODUCTION] Production towards constructing the Brihadeeswarar Temple.[/BLIST] -->
 		</Replace>
+		<Replace Tag="LOC_TRAIT_MAJAPAHIT_ABILITY_AQ_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI][B][icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][B] gain an adjacency for [icon:CITY_UNIMPROVED] [B]Coast[/B].[LI][B]+1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP][/B] in [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] on or adjacent to [icon:CITY_UNIMPROVED] [B]Coast[B].[LI]If you transition away from [B]the Majapahit[/B], the [B][icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP][/B] increase goes away. [B][icon:SPECIALIST][TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP][/B] over the Limit become inactive until you increase the Limit.[/BLIST]</Text>		<!-- [BLIST][LI][B][icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][B] gain an adjacency for [icon:CITY_UNIMPROVED] [B]Coast[/B].[LI][B]+1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP][/B] in [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] on or adjacent to [icon:CITY_UNIMPROVED] [B]Coast[B].[LI]If you transition away from [B]the Majapahit[/B], the [B][icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP][/B] increase goes away. [B][icon:SPECIALIST][TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP][/B] over the Limit become inactive until you increase the Limit.[/BLIST] -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_MAJAPAHIT_ABILITY_MO_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI][B][icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][B] gain an adjacency for [icon:CITY_UNIMPROVED] [B]Coast[/B].[LI][B]+1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP][/B] in [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] on or adjacent to [icon:CITY_UNIMPROVED] [B]Coast[B].[LI]If you transition away from [B]the Majapahit[/B], the [B][icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP][/B] increase goes away. [B][icon:SPECIALIST][TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP][/B] over the Limit become inactive until you increase the Limit.[/BLIST]</Text>		<!-- [BLIST][LI][B][icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][B] gain an adjacency for [icon:CITY_UNIMPROVED] [B]Coast[/B].[LI][B]+1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP][/B] in [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] on or adjacent to [icon:CITY_UNIMPROVED] [B]Coast[B].[LI]If you transition away from [B]the Majapahit[/B], the [B][icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP][/B] increase goes away. [B][icon:SPECIALIST][TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP][/B] over the Limit become inactive until you increase the Limit.[/BLIST] -->
+		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_CHOLA_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP]ที่เกี่ยวข้องกับโจฬะ</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Chola's associated [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP]. -->
 		</Replace>
@@ -1461,6 +1503,15 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_HAWAII_ABILITY_DESCRIPTION" Language="th_TH">
 			<Text>[BLIST][LI]สามารถทำงาน [icon:CITY_UNIMPROVED] พื้นที่มหาสมุทร, +1 [icon:YIELD_FOOD] อาหาร และ +2 [icon:YIELD_GOLD] ทองใน [icon:CITY_UNIMPROVED] พื้นที่มหาสมุทร[LI]+1 [icon:YIELD_HAPPINESS] ความสุขใน [icon:CITY_UNIMPROVED] พื้นที่ทะเลทุกแห่ง[LI]ได้รับ 25 [icon:YIELD_CULTURE] วัฒนธรรมทุกครั้งที่ถิ่นฐานขยายไปยัง [icon:CITY_UNIMPROVED] พื้นที่ทะเล[LI]+30% [icon:YIELD_PRODUCTION] กำลังผลิตสำหรับการสร้าง ฮาเล โอ เคอาเว[/BLIST]</Text>		<!-- [BLIST][LI]Can work [icon:CITY_UNIMPROVED] Ocean Terrain. +1 [icon:YIELD_FOOD] Food and +2 [icon:YIELD_GOLD] Gold on featureless [icon:CITY_UNIMPROVED] Ocean Terrain.[LI]+1 [icon:YIELD_HAPPINESS] Happiness on all [icon:CITY_UNIMPROVED] Marine Terrain.[LI]Gain 25 [icon:YIELD_CULTURE] Culture each time a [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] expands to [icon:CITY_UNIMPROVED] Marine Terrain.[LI]+30% [icon:YIELD_PRODUCTION] Production towards constructing Hale o Keawe.[/BLIST] -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_MING_ABILITY_AQ_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI]+50% [icon:YIELD_SCIENCE] Science in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital.[LI]-2 [icon:YIELD_SCIENCE] Science per turn for each [icon:SOCIAL_POLICY] [TIP:LOC_PEDIA_CONCEPTS_SOCIAL_POLICY_TOOLTIP]Social Policy[/TIP], but not [icon:TRADITION] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]Tradition[/TIP], slotted in the [icon:GOVERNMENT] Government.[LI]+1 [icon:TRADITION] Tradition Slot.[/BLIST]</Text>		<!-- [BLIST][LI]+50% [icon:YIELD_SCIENCE] Science in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital.[LI]-2 [icon:YIELD_SCIENCE] Science per turn for each [icon:SOCIAL_POLICY] [TIP:LOC_PEDIA_CONCEPTS_SOCIAL_POLICY_TOOLTIP]Social Policy[/TIP], but not [icon:TRADITION] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]Tradition[/TIP], slotted in the [icon:GOVERNMENT] Government.[LI]+1 [icon:TRADITION] Tradition Slot.[/BLIST] -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_MING_ABILITY_MO_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI]+50% [icon:YIELD_SCIENCE] Science in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital.[LI]-25 [icon:YIELD_SCIENCE] Science per turn for each [icon:SOCIAL_POLICY] [TIP:LOC_PEDIA_CONCEPTS_SOCIAL_POLICY_TOOLTIP]Social Policy[/TIP], but not [icon:TRADITION] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]Tradition[/TIP], slotted in the [icon:GOVERNMENT] Government.[LI]+1 [icon:TRADITION] Tradition Slot.[/BLIST]</Text>		<!-- [BLIST][LI]+50% [icon:YIELD_SCIENCE] Science in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital.[LI]-25 [icon:YIELD_SCIENCE] Science per turn for each [icon:SOCIAL_POLICY] [TIP:LOC_PEDIA_CONCEPTS_SOCIAL_POLICY_TOOLTIP]Social Policy[/TIP], but not [icon:TRADITION] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]Tradition[/TIP], slotted in the [icon:GOVERNMENT] Government.[LI]+1 [icon:TRADITION] Tradition Slot.[/BLIST] -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_MOD_TOT_MING_TRADITION_SLOT_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:TRADITION] Tradition Slot.</Text>		<!-- +1 [icon:TRADITION] Tradition Slot. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_HAWAII_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น Hawai‘i's associated [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP]</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Hawai‘i's associated [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP]. -->
@@ -1474,6 +1525,12 @@
 		<Replace Tag="LOC_TRAIT_INCA_ABILITY_DESCRIPTION" Language="th_TH">
 			<Text>[BLIST][LI]สามารถทำงานที่ [icon:CITY_UNIMPROVED] ภูเขา[LI]+2 [icon:YIELD_FOOD] อาหาร และ +1 [icon:YIELD_PRODUCTION] กำลังผลิต ใน [icon:CITY_UNIMPROVED] ภูเขา[LI]สามารถสร้าง [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]บ้านเกิด[/TIP] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]ขบวนสมบัติ[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ที่มี 3 ภูเขาที่ทำงานแล้ว หลังจากเสร็จสิ้น [icon:RADIAL_CIVICS] แนวคิดคาปัก นัน[LI]+30% [icon:YIELD_PRODUCTION] กำลังผลิต ในการสร้าง มาชูปิกชู[/BLIST]</Text>		<!-- [BLIST][LI]Can work [icon:CITY_UNIMPROVED] Mountain Terrain.[LI]+2 [icon:YIELD_FOOD] Food and +1 [icon:YIELD_PRODUCTION] Production on [icon:CITY_UNIMPROVED] Mountain Terrain.[LI]Can generate [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]Homelands[/TIP] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] with 3 Worked Mountains after completing the [icon:RADIAL_CIVICS] Qhapaq Ñan Civic.[LI]+30% [icon:YIELD_PRODUCTION] Production towards constructing Machu Pikchu.[/BLIST] -->
 		</Replace>
+		<Replace Tag="LOC_TRAIT_MONGOLIA_ABILITY_AQ_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI]When you capture an opposing [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] gain the strongest [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Unit[/TIP] you can currently train.[LI][B]-50% [icon:YIELD_PRODUCTION] Production[/B] towards training [icon:UNIT_SETTLER] Settlers.[LI]Chariots are unlocked with Agriculture.[/LIST]</Text>		<!-- [BLIST][LI]When you capture an opposing [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] gain the strongest [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Unit[/TIP] you can currently train.[LI][B]-50% [icon:YIELD_PRODUCTION] Production[/B] towards training [icon:UNIT_SETTLER] Settlers.[LI]Chariots are unlocked with Agriculture.[/LIST] -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_MONGOLIA_ABILITY_MO_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI]When you capture an opposing [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] gain the strongest [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Unit[/TIP] you can currently train.[LI][B]-50% [icon:YIELD_PRODUCTION] Production[/B] towards training [icon:UNIT_SETTLER] Settlers.[LI][B]+3 [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP][/B] in Advanced Starts.[/LIST]</Text>		<!-- [BLIST][LI]When you capture an opposing [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] gain the strongest [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Unit[/TIP] you can currently train.[LI][B]-50% [icon:YIELD_PRODUCTION] Production[/B] towards training [icon:UNIT_SETTLER] Settlers.[LI][B]+3 [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP][/B] in Advanced Starts.[/LIST] -->
+		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_INCA_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP]ที่เกี่ยวข้องกับชาวอินคา</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being the Inca's associated [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP]. -->
 		</Replace>
@@ -1486,8 +1543,17 @@
 		<Replace Tag="LOC_TRAIT_MAJAPAHIT_ABILITY_DESCRIPTION" Language="th_TH">
 			<Text>[BLIST][LI][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ทั้งหมด ยกเว้น [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง จะได้รับ +1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]ขีดจำกัดผู้เชี่ยวชาญ[/TIP][LI]หลังจาก [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุคการสำรวจ[/TIP] ขีดจำกัดผู้เชี่ยวชาญจะหายไป ผู้เชี่ยวชาญจะไม่สามารถทำงานได้จนกว่าคุณจะเพิ่มขีดจำกัด[LI]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการสร้าง [B]บุโรพุทโธ[/B].[/BLIST]</Text>		<!-- [BLIST][LI]All [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] except the [icon:NOTIFICATION_SELECT_CAPITAL] Capital receive +1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP].[LI]After the [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Exploration Age[/TIP] the [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP] increase goes away, the [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP] become inactive until you increase the Limit.[LI]+30% [icon:YIELD_PRODUCTION] Production towards constructing Borobudur.[/BLIST] -->
 		</Replace>
+		<Replace Tag="LOC_TRAIT_NORMAN_ABILITY_AQ_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI][B]+5[/B] [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [B]Land Units[/B] and [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP] adjacent to Coast.[LI]+25 [icon:Action_Heal] HP on [icon:CITY_FORTIFIED] Fortified Districts.[/BLIST]</Text>		<!-- [BLIST][LI][B]+5[/B] [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [B]Land Units[/B] and [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP] adjacent to Coast.[LI]+25 [icon:Action_Heal] HP on [icon:CITY_FORTIFIED] Fortified Districts.[/BLIST] -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_NORMAN_ABILITY_MO_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI][B]+5[/B] [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [B]Land Units[/B] and [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP] adjacent to Coast.[LI]+25 [icon:Action_Heal] HP on [icon:CITY_FORTIFIED] Fortified Districts.[/BLIST]</Text>		<!-- [BLIST][LI][B]+5[/B] [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [B]Land Units[/B] and [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP] adjacent to Coast.[LI]+25 [icon:Action_Heal] HP on [icon:CITY_FORTIFIED] Fortified Districts.[/BLIST] -->
+		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_MAJAPAHIT_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น [icon:WONDER] สิ่งมหัศจรรย์ที่เกี่ยวข้องกับมาจาปาฮิต [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP]</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being the Majapahit's associated [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_NORMAN_ABILITY_PREVIEW" Language="th_TH">
+			<Text>+{1_Amount} Normannitas</Text>		<!-- +{1_Amount} Normannitas -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_MING_ABILITY_NAME" Language="th_TH">
 			<Text>แกรนด์แคนอนของหย่งเล่อ</Text>		<!-- Great Canon of Yongle -->
@@ -1497,6 +1563,12 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_MING_ABILITY_DESCRIPTION" Language="th_TH">
 			<Text>[BLIST][LI]+50% [icon:YIELD_SCIENCE] วิทยาศาสตร์ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง[LI]-15 [icon:YIELD_SCIENCE] วิทยาศาสตร์ต่อเทิร์นสำหรับ [icon:SOCIAL_POLICY] [TIP:LOC_PEDIA_CONCEPTS_SOCIAL_POLICY_TOOLTIP]นโยบายสังคม[/TIP] แต่ไม่รวมถึง [icon:TRADITION] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]ประเพณี[/TIP] ที่เลือกใน [icon:GOVERNMENT] รัฐบาล[LI]+30% [icon:YIELD_PRODUCTION] กำลังผลิตในการสร้าง [B]พระราชวังต้องห้าม[/B].[/BLIST]</Text>		<!-- [BLIST][LI]+50% [icon:YIELD_SCIENCE] Science in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital.[LI]-15 [icon:YIELD_SCIENCE] Science per turn for each [icon:SOCIAL_POLICY] [TIP:LOC_PEDIA_CONCEPTS_SOCIAL_POLICY_TOOLTIP]Social Policy[/TIP], but not [icon:TRADITION] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]Tradition[/TIP], slotted in the [icon:GOVERNMENT] Government.[LI]+30% [icon:YIELD_PRODUCTION] Production towards constructing the Forbidden City.[/BLIST] -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_SONGHAI_ABILITY_AQ_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI][B]+1 [icon:RADIAL_RESOURCES] Resource Capacity[/B] in [icon:YIELD_CITIES] [B]Cities[/B] on [B]Navigable Rivers[/B].[LI][B]+1 [icon:YIELD_PRODUCTION] Production[/B] in [icon:YIELD_CITIES] [B]Cities[/B] on [B]Navigable Rivers[/B] for every [icon:RADIAL_RESOURCES] [B]Resource[/B] assigned to them.[/LIST]</Text>		<!-- [BLIST][LI][B]+1 [icon:RADIAL_RESOURCES] Resource Capacity[/B] in [icon:YIELD_CITIES] [B]Cities[/B] on [B]Navigable Rivers[/B].[LI][B]+1 [icon:YIELD_PRODUCTION] Production[/B] in [icon:YIELD_CITIES] [B]Cities[/B] on [B]Navigable Rivers[/B] for every [icon:RADIAL_RESOURCES] [B]Resource[/B] assigned to them.[/LIST] -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_SONGHAI_ABILITY_MO_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI][B]+2 [icon:RADIAL_RESOURCES] Resource Capacity[/B] in [icon:YIELD_CITIES] [B]Cities[/B] on [B]Navigable Rivers[/B].[LI][B]+2 [icon:YIELD_PRODUCTION] Production[/B] in [icon:YIELD_CITIES] [B]Cities[/B] on [B]Navigable Rivers[/B] for every [icon:RADIAL_RESOURCES] [B]Resource[/B] assigned to them.[/LIST]</Text>		<!-- [BLIST][LI][B]+2 [icon:RADIAL_RESOURCES] Resource Capacity[/B] in [icon:YIELD_CITIES] [B]Cities[/B] on [B]Navigable Rivers[/B].[LI][B]+2 [icon:YIELD_PRODUCTION] Production[/B] in [icon:YIELD_CITIES] [B]Cities[/B] on [B]Navigable Rivers[/B] for every [icon:RADIAL_RESOURCES] [B]Resource[/B] assigned to them.[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_MING_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP]ที่เกี่ยวข้องกับหมิง</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being the Ming's associated [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP]. -->
@@ -1510,6 +1582,12 @@
 		<Replace Tag="LOC_TRAIT_MONGOLIA_ABILITY_DESCRIPTION" Language="th_TH">
 			<Text>[BLIST][LI]เมื่อคุณ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ยึดครองถิ่นฐานของฝ่ายตรงข้าม[/TIP] จะได้รับ [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]ยูนิตทหารม้า[/TIP]ที่คุณสามารถฝึกได้ในขณะนี้ แต่จะมี -50% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการฝึก [icon:UNIT_SETTLER] ผู้ตั้งถิ่นฐาน[LI]ได้รับ 1 คะแนน ต่อ [icon:NOTIFICATION_TEAM_VICTORIOUS] เส้นทางมรดก [B]โลกนี้คับแคบเกินไปแล้ว[/B] สำหรับ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐานที่ควบคุม[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐานที่ถูกพิชิต[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]บ้านเกิด[/TIP][LI]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการก่อสร้าง [B]เออร์เดน ซู[/B].[/BLIST]</Text>		<!-- [BLIST][LI]When you capture an opposing [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] gain the strongest [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Unit[/TIP] you can currently train, but -50% [icon:YIELD_PRODUCTION] Production towards training [icon:UNIT_SETTLER] Settlers.[LI]Gain 1 Point toward the [icon:NOTIFICATION_TEAM_VICTORIOUS] Non Sufficit Orbis Legacy Path for controlled [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP] and conquered [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]Homelands[/TIP].[LI]+30% [icon:YIELD_PRODUCTION] Production towards constructing Erdene Zuu.[/BLIST] -->
 		</Replace>
+		<Replace Tag="LOC_TRAIT_SPAIN_ABILITY_AQ_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI][B]+1 [icon:YIELD_FOOD] Food[/B], [B]+1 [icon:YIELD_GOLD] Gold[/B], and [B]+1 [icon:YIELD_PRODUCTION] Production[/B] in [B]Coastal Settlements[/B] and in Settlements with an [B]Altar[/B], or [B]+2[/B] if it is both.[/LIST]</Text>		<!-- [BLIST][LI][B]+1 [icon:YIELD_FOOD] Food[/B], [B]+1 [icon:YIELD_GOLD] Gold[/B], and [B]+1 [icon:YIELD_PRODUCTION] Production[/B] in [B]Coastal Settlements[/B] and in Settlements with an [B]Altar[/B], or [B]+2[/B] if it is both.[/LIST] -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_SPAIN_ABILITY_MO_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI][B]+3 [icon:YIELD_FOOD] Food, +3 [icon:YIELD_GOLD] Gold and +3 [icon:YIELD_PRODUCTION] Production[/B] in Settlements adjacent to [B]Coast[/B] and in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] following your own [B][icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_RELIGION_TOOLTIP]Religion[/TIP][/B], or [B]+6[/B] if it is both. [B]Doubled[/B] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] in [B][TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP][/B].[LI][B]+15% [icon:YIELD_GOLD] Gold[/B] efficiency towards converting a [B][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Town[/TIP][/B] to a [B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]City[/TIP][/B], or [B]+30% [icon:YIELD_GOLD] Gold[/B] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] in [B][TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP][/B].[/BLIST]</Text>		<!-- [BLIST][LI][B]+3 [icon:YIELD_FOOD] Food, +3 [icon:YIELD_GOLD] Gold and +3 [icon:YIELD_PRODUCTION] Production[/B] in Settlements adjacent to [B]Coast[/B] and in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] following your own [B][icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_RELIGION_TOOLTIP]Religion[/TIP][/B], or [B]+6[/B] if it is both. [B]Doubled[/B] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] in [B][TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP][/B].[LI][B]+15% [icon:YIELD_GOLD] Gold[/B] efficiency towards converting a [B][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Town[/TIP][/B] to a [B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]City[/TIP][/B], or [B]+30% [icon:YIELD_GOLD] Gold[/B] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] in [B][TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP][/B].[/BLIST] -->
+		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_MONGOLIA_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP]ที่เกี่ยวข้องของมองโกเลีย</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Mongolia's associated [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP]. -->
 		</Replace>
@@ -1518,6 +1596,9 @@
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_NORMAN_DESCRIPTION" Language="th_TH">
 			<Text>ยูนิตภาคพื้น จะได้รับ +5 [icon:NAR_REW_COMBAT] พลังต่อสู้ เมื่ออยู่ใกล้ชายฝั่งและ +1 [icon:Action_Move] แต้มเคลื่อนที่เมื่ออยู่ในเรือ</Text>		<!-- Land Units gain +5 [icon:NAR_REW_COMBAT] Combat Strength when adjacent to Coast and +1 [icon:Action_Move] Movement when Embarked. -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_SPAIN_ABILITY_PREVIEW_ALTAR" Language="th_TH">
+			<Text>Siglo de Oro (Altar)</Text>		<!-- Siglo de Oro (Altar) -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_NORMAN_ABILITY_DESCRIPTION" Language="th_TH">
 			<Text>[BLIST][LI][B]ยูนิตภาคพื้นดิน [/B]จะได้รับ [B]+5 [icon:NAR_REW_COMBAT] พลังต่อสู้ [/B]เมื่ออยู่ใกล้ชายฝั่งและ [B]+1 [icon:Action_Move] แต้มเคลื่อนที่ [/B]เมื่ออยู่ในสถานะลงเรือ[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]หอคอยสีขาว[/B][/LIST]</Text>		<!-- [BLIST][LI][B]Land Units [/B]gain [B]+5 [icon:NAR_REW_COMBAT] Combat Strength [/B]when adjacent to Coast and [B]+1 [icon:Action_Move] Movement [/B]when Embarked.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]White Tower[/B].[/BLIST] -->
@@ -3721,6 +3802,90 @@
 		<Replace Tag="LOC_GOVERNMENT_PLUTOCRACY_PASSIVE_DESCRIPTION" Language="th_TH">
 			<Text>[icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] เมื่อคุณสร้างอาคารเกิน ต้องได้รับ [icon:YIELD_GOLD] ทองเท่ากับ 25% ของ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]ต้นทุนของอาคาร[/TIP] [icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- When you Overbuild a [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP], gain [icon:YIELD_GOLD] Gold equal to 25% of the [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building's[/TIP] [icon:YIELD_PRODUCTION] Production cost. -->
 		</Replace>
+		<Replace Tag="LOC_TREE_CIVICS_EX_NAME" Language="th_TH">
+			<Text>Exploration Test of Time</Text>		<!-- Exploration Test of Time -->
+		</Replace>
+		<Replace Tag="LOC_TREE_CIVICS_EX_CIV_NAME" Language="th_TH">
+			<Text>{1_Civilization_Adjective} Exploration Civics</Text>		<!-- {1_Civilization_Adjective} Exploration Civics -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_EX_RENAISSANCE_QUOTE" Language="th_TH">
+			<Text>"Spring winds bring life again."</Text>		<!-- "Spring winds bring life again." -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_EX_RENAISSANCE_AUTHOR" Language="th_TH">
+			<Text>Bai Juyi</Text>		<!-- Bai Juyi -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_EX_HIERARCHY_NAME" Language="th_TH">
+			<Text>Hierarchy</Text>		<!-- Hierarchy -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_EX_CIV_HIERARCHY_NAME" Language="th_TH">
+			<Text>{1_Civilization_Adjective} Hierarchy</Text>		<!-- {1_Civilization_Adjective} Hierarchy -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_EX_HIERARCHY_QUOTE" Language="th_TH">
+			<Text>"I gaze into the faces of eagles and jaguars, and behold the faces of jades and jewels."</Text>		<!-- "I gaze into the faces of eagles and jaguars, and behold the faces of jades and jewels." -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_EX_HIERARCHY_AUTHOR" Language="th_TH">
+			<Text>Nezahualcoyotl</Text>		<!-- Nezahualcoyotl -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_EX_SYNCRETISM_CHOICE_NAME" Language="th_TH">
+			<Text>Syncretism</Text>		<!-- Syncretism -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_EX_ATTRIBUTE_SYNCRETISM_CHOICE_QUOTE" Language="th_TH">
+			<Text>"The Holy Roman Empire was neither Holy nor Roman, nor an Empire."</Text>		<!-- "The Holy Roman Empire was neither Holy nor Roman, nor an Empire." -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_EX_ATTRIBUTE_SYNCRETISM_CHOICE_AUTHOR" Language="th_TH">
+			<Text>Voltaire</Text>		<!-- Voltaire -->
+		</Replace>
+		<Replace Tag="LOC_CIVIC_EX_ATTRIBUTE_EXPANSIONIST_SPECIALIST_CAP_INCREASE_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP] in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for this Age.</Text>		<!-- +1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP] in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for this Age. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_EX_ATTRIBUTE_CULTURAL_01_NAME" Language="th_TH">
+			<Text>Classical Revival</Text>		<!-- Classical Revival -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_EX_ATTRIBUTE_CULTURAL_01_DESCRIPTION" Language="th_TH">
+			<Text>[TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] gain a +1 [icon:YIELD_HAPPINESS] Adjacency for [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP].</Text>		<!-- [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] gain a +1 [icon:YIELD_HAPPINESS] Adjacency for [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_EX_ATTRIBUTE_DIPLOMATIC_01_HAPPINESS_NAME" Language="th_TH">
+			<Text>Jubilee</Text>		<!-- Jubilee -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_EX_ATTRIBUTE_DIPLOMATIC_01_HAPPINESS_DESCRIPTION" Language="th_TH">
+			<Text>+3 to all Yields in your [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP] during a [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]Celebration[/TIP].</Text>		<!-- +3 to all Yields in your [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP] during a [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]Celebration[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_EX_ATTRIBUTE_DIPLOMATIC_01_INFLUENCE_NAME" Language="th_TH">
+			<Text>Spy Network</Text>		<!-- Spy Network -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_EX_ATTRIBUTE_DIPLOMATIC_01_INFLUENCE_DESCRIPTION" Language="th_TH">
+			<Text>+30% [icon:YIELD_DIPLOMACY] towards initiating [icon:ESPIONAGE] [TIP:LOC_PEDIA_CONCEPTS_ESPIONAGE_TOOLTIP]Espionage[/TIP] Actions. +2 [icon:YIELD_GOLD] from active [icon:ESPIONAGE] [TIP:LOC_PEDIA_CONCEPTS_ESPIONAGE_TOOLTIP]Espionage[/TIP] Actions you started.</Text>		<!-- +30% [icon:YIELD_DIPLOMACY] towards initiating [icon:ESPIONAGE] [TIP:LOC_PEDIA_CONCEPTS_ESPIONAGE_TOOLTIP]Espionage[/TIP] Actions. +2 [icon:YIELD_GOLD] from active [icon:ESPIONAGE] [TIP:LOC_PEDIA_CONCEPTS_ESPIONAGE_TOOLTIP]Espionage[/TIP] Actions you started. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_EX_ATTRIBUTE_ECONOMIC_01_NAME" Language="th_TH">
+			<Text>Supply and Demand</Text>		<!-- Supply and Demand -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_EX_ATTRIBUTE_ECONOMIC_01_DESCRIPTION" Language="th_TH">
+			<Text>+3 [icon:YIELD_GOLD] for every [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_EMPIRE_RESOURCES_TOOLTIP]Empire Resource[/TIP] you have.</Text>		<!-- +3 [icon:YIELD_GOLD] for every [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_EMPIRE_RESOURCES_TOOLTIP]Empire Resource[/TIP] you have. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_EX_ATTRIBUTE_EXPANSIONIST_01_TALL_NAME" Language="th_TH">
+			<Text>Municipal Charters</Text>		<!-- Municipal Charters -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_EX_ATTRIBUTE_EXPANSIONIST_01_TALL_DESCRIPTION" Language="th_TH">
+			<Text>[icon:YIELD_WAREHOUSE] Food [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] gain a +1 [icon:YIELD_FOOD] Food Adjacency for [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP].</Text>		<!-- [icon:YIELD_WAREHOUSE] Food [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] gain a +1 [icon:YIELD_FOOD] Food Adjacency for [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_EX_ATTRIBUTE_EXPANSIONIST_01_WIDE_NAME" Language="th_TH">
+			<Text>Yanakuna</Text>		<!-- Yanakuna -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_EX_ATTRIBUTE_EXPANSIONIST_01_WIDE_DESCRIPTION" Language="th_TH">
+			<Text>[icon:YIELD_WAREHOUSE] Food [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] gain a +1 [icon:YIELD_FOOD] Food Adjacency for [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP].</Text>		<!-- [icon:YIELD_WAREHOUSE] Food [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] gain a +1 [icon:YIELD_FOOD] Food Adjacency for [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_EX_ATTRIBUTE_MILITARISTIC_01_NAME" Language="th_TH">
+			<Text>Professional Army</Text>		<!-- Professional Army -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_EX_ATTRIBUTE_MILITARISTIC_01_DESCRIPTION" Language="th_TH">
+			<Text>+25% [TIP:LOC_PEDIA_CONCEPTS_EXPERIENCE_TOOLTIP]XP[/TIP] for all [icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Commanders[/TIP], or +50% in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP].</Text>		<!-- +25% [TIP:LOC_PEDIA_CONCEPTS_EXPERIENCE_TOOLTIP]XP[/TIP] for all [icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Commanders[/TIP], or +50% in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_EX_ATTRIBUTE_SCIENTIFIC_01_NAME" Language="th_TH">
+			<Text>Alchemy</Text>		<!-- Alchemy -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_EX_ATTRIBUTE_SCIENTIFIC_01_DESCRIPTION" Language="th_TH">
+			<Text>When you Overbuild a [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP], gain [icon:YIELD_SCIENCE] equal to 25% of the new Building's [icon:YIELD_PRODUCTION] cost.</Text>		<!-- When you Overbuild a [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP], gain [icon:YIELD_SCIENCE] equal to 25% of the new Building's [icon:YIELD_PRODUCTION] cost. -->
+		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_PLUTOCRACY_CELEBRATION_NAME" Language="th_TH">
 			<Text>เรารักวันสมาคม!</Text>		<!-- We Love The Guilds Day! -->
 		</Replace>
@@ -3750,6 +3915,54 @@
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_CONSTITUTIONAL_MONARCHY_NAME" Language="th_TH">
 			<Text>ระบอบกษัตริย์ภายใต้รัฐธรรมนูญ</Text>		<!-- Constitutional Monarchy -->
+		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_AQ_ABBASID_ORIGINS_NAME" Language="th_TH">
+			<Text>Abbasid Origins</Text>		<!-- Abbasid Origins -->
+		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_MO_ABBASID_MODERNIZATION_NAME" Language="th_TH">
+			<Text>Abbasid Modernization</Text>		<!-- Abbasid Modernization -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_CITY_OF_PEACE_NAME" Language="th_TH">
+			<Text>City of Peace Tradition II</Text>		<!-- City of Peace Tradition II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_CITY_OF_PEACE_DESCRIPTION" Language="th_TH">
+			<Text>All [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive a +1 [icon:YIELD_SCIENCE] Adjacency with the City Hall and Palace.</Text>		<!-- All [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive a +1 [icon:YIELD_SCIENCE] Adjacency with the City Hall and Palace. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_COMPENDIOUS_BOOK_I_NAME" Language="th_TH">
+			<Text>City of Peace Tradition I</Text>		<!-- City of Peace Tradition I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_COMPENDIOUS_BOOK_I_DESCRIPTION" Language="th_TH">
+			<Text>All [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive a +1 [icon:YIELD_SCIENCE] Adjacency with the Palace.</Text>		<!-- All [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive a +1 [icon:YIELD_SCIENCE] Adjacency with the Palace. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_COMPENDIOUS_BOOK_II_NAME" Language="th_TH">
+			<Text>Compendious Book Tradition</Text>		<!-- Compendious Book Tradition -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_COMPENDIOUS_BOOK_II_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_HAPPINESS] and [icon:YIELD_SCIENCE] in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP].</Text>		<!-- +2 [icon:YIELD_HAPPINESS] and [icon:YIELD_SCIENCE] in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_SALES_AND_TRADE_I_NAME" Language="th_TH">
+			<Text>Sales and Trade I</Text>		<!-- Sales and Trade I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_SALES_AND_TRADE_I_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_GOLD] and [icon:YIELD_SCIENCE] for each [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resource[/TIP] assigned to [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] with at least 5 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP].</Text>		<!-- +1 [icon:YIELD_GOLD] and [icon:YIELD_SCIENCE] for each [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resource[/TIP] assigned to [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] with at least 5 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_SALES_AND_TRADE_II_NAME" Language="th_TH">
+			<Text>Sales and Trade II</Text>		<!-- Sales and Trade II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_SALES_AND_TRADE_II_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_GOLD] and [icon:YIELD_SCIENCE] for each [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resource[/TIP] assigned to [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] with at least 5 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP].</Text>		<!-- +2 [icon:YIELD_GOLD] and [icon:YIELD_SCIENCE] for each [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resource[/TIP] assigned to [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] with at least 5 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ABBASID_SYNCRETISM_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Rasool I</Text>		<!-- Rasool I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ABBASID_SYNCRETISM_ANTIQUITY_DESCRIPTION" Language="th_TH">
+			<Text>Buildings gain a +1 [icon:YIELD_HAPPINESS] Adjacency for the Palace.</Text>		<!-- Buildings gain a +1 [icon:YIELD_HAPPINESS] Adjacency for the Palace. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ABBASID_SYNCRETISM_MODERN_NAME" Language="th_TH">
+			<Text>Rasool II</Text>		<!-- Rasool II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ABBASID_SYNCRETISM_MODERN_DESCRIPTION" Language="th_TH">
+			<Text>Buildings gain a +1 [icon:YIELD_HAPPINESS] Adjacency for the City Hall and Palace.</Text>		<!-- Buildings gain a +1 [icon:YIELD_HAPPINESS] Adjacency for the City Hall and Palace. -->
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_CONSTITUTIONAL_MONARCHY_DESCRIPTION" Language="th_TH">
 			<Text>รัฐบาลนี้ มอบทางเลือกให้คุณระหว่าง เอฟเฟคเหล่านี้ ในช่วงงาน[TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]เฉลิมฉลอง[/TIP]</Text>		<!-- This Government grants you a choice between these effects during a [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]Celebration[/TIP]. -->
@@ -3790,6 +4003,63 @@
 		<Replace Tag="LOC_CIVIC_MAWLA_QUOTE" Language="th_TH">
 			<Text>รู้ว่าพระเจ้าทรงกำหนดผู้นำให้กับคุณ - ชาวเร่ร่อนและชาวเมือง, ชาวอาหรับและชาวต่างชาติ, คนที่เป็นอิสระหรือเป็นทาส, คนหนุ่มหรือคนแก่</Text>		<!-- Know that God has assigned a leader for you - nomad and city resident, Arab and non-Arab, free or slave, young or old. -->
 		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_AQ_CHOLA_ORIGINS_NAME" Language="th_TH">
+			<Text>Chola Origins</Text>		<!-- Chola Origins -->
+		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_MO_CHOLA_MODERNIZATION_NAME" Language="th_TH">
+			<Text>Chola Modernization</Text>		<!-- Chola Modernization -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DEVAKOSHTA_I_NAME" Language="th_TH">
+			<Text>Devakoshta I</Text>		<!-- Devakoshta I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DEVAKOSHTA_I_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_CULTURE] on Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP].</Text>		<!-- +2 [icon:YIELD_CULTURE] on Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DEVAKOSHTA_II_NAME" Language="th_TH">
+			<Text>Devakoshta II</Text>		<!-- Devakoshta II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DEVAKOSHTA_II_DESCRIPTION" Language="th_TH">
+			<Text>+3 [icon:YIELD_CULTURE] on Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. +50% [icon:YIELD_DIPLOMACY] towards [icon:DIPLOMATIC_ACTION] Diplomatic Actions with other Leaders if you have at least 5 [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Routes[/TIP].</Text>		<!-- +3 [icon:YIELD_CULTURE] on Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. +50% [icon:YIELD_DIPLOMACY] towards [icon:DIPLOMATIC_ACTION] Diplomatic Actions with other Leaders if you have at least 5 [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Routes[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DEVAKOSHTA_TOOLTIP" Language="th_TH">
+			<Text>Devakoshta</Text>		<!-- Devakoshta -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MARAKKALAM_NAME" Language="th_TH">
+			<Text>Marakkalam</Text>		<!-- Marakkalam -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MARAKKALAM_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for Naval Units for every other Civilization with which you have a [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP]. +1 [icon:Action_Move] Movement and [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]Sight[/TIP] for Heavy Naval Units.</Text>		<!-- +1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for Naval Units for every other Civilization with which you have a [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP]. +1 [icon:Action_Move] Movement and [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]Sight[/TIP] for Heavy Naval Units. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ANGADI_I_NAME" Language="th_TH">
+			<Text>Angadi I</Text>		<!-- Angadi I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ANGADI_I_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCE_CAPACITY_TOOLTIP]Resource Capacity[/TIP] in the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP]. +4 [icon:YIELD_GOLD] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] other than the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP] if they have a Water [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP].</Text>		<!-- +2 [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCE_CAPACITY_TOOLTIP]Resource Capacity[/TIP] in the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP]. +4 [icon:YIELD_GOLD] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] other than the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP] if they have a Water [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ANGADI_II_NAME" Language="th_TH">
+			<Text>Angadi II</Text>		<!-- Angadi II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ANGADI_II_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCE_CAPACITY_TOOLTIP]Resource Capacity[/TIP] in the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP]. +8 [icon:YIELD_GOLD] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] other than the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP] if they have a Water [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP].</Text>		<!-- +2 [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCE_CAPACITY_TOOLTIP]Resource Capacity[/TIP] in the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP]. +8 [icon:YIELD_GOLD] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] other than the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP] if they have a Water [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ANGADI_TOOLTIP" Language="th_TH">
+			<Text>Angadi</Text>		<!-- Angadi -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_CHOLA_SYNCRETISM_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Veera Banaju Dharma I</Text>		<!-- Veera Banaju Dharma I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_CHOLA_SYNCRETISM_ANTIQUITY_DESCRIPTION" Language="th_TH">
+			<Text>+5 [icon:YIELD_DIPLOMACY] if you have 5 or more [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Routes[/TIP]. +50% [icon:YIELD_PRODUCTION] towards training [icon:UNIT_MERCHANT] Merchants.</Text>		<!-- +5 [icon:YIELD_DIPLOMACY] if you have 5 or more [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Routes[/TIP]. +50% [icon:YIELD_PRODUCTION] towards training [icon:UNIT_MERCHANT] Merchants. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_CHOLA_SYNCRETISM_MODERN_NAME" Language="th_TH">
+			<Text>Veera Banaju Dharma II</Text>		<!-- Veera Banaju Dharma II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_CHOLA_SYNCRETISM_MODERN_DESCRIPTION" Language="th_TH">
+			<Text>+10 [icon:YIELD_DIPLOMACY] if you have 5 or more [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Routes[/TIP]. +100% [icon:YIELD_PRODUCTION] towards training [icon:UNIT_MERCHANT] Merchants.</Text>		<!-- +10 [icon:YIELD_DIPLOMACY] if you have 5 or more [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Routes[/TIP]. +100% [icon:YIELD_PRODUCTION] towards training [icon:UNIT_MERCHANT] Merchants. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_CHOLA_SYNCRETISM_TOOLTIP" Language="th_TH">
+			<Text>Veera Banaju Dharma</Text>		<!-- Veera Banaju Dharma -->
+		</Replace>
 		<Replace Tag="LOC_CIVIC_MAWLA_AUTHOR" Language="th_TH">
 			<Text>ฮาดิษแห่งกัสดีร คุมม</Text>		<!-- The Hadith of Ghadir Khumm -->
 		</Replace>
@@ -3820,8 +4090,62 @@
 		<Replace Tag="LOC_MOD_AL_JABR_URBAN_SCIENCE_DESCRIPTION" Language="th_TH">
 			<Text>+10% [icon:YIELD_SCIENCE] วิทยาศาสตร์ ใน [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ที่มี [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]ผู้เชี่ยวชาญ[/TIP] อย่างน้อย 5 คน</Text>		<!-- +10% [icon:YIELD_SCIENCE] Science in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] with at least 5 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP]. -->
 		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_AQ_HAWAII_ORIGINS_NAME" Language="th_TH">
+			<Text>Hawaiian Origins</Text>		<!-- Hawaiian Origins -->
+		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_MO_HAWAII_MODERNIZATION_NAME" Language="th_TH">
+			<Text>Hawaiian Modernization</Text>		<!-- Hawaiian Modernization -->
+		</Replace>
 		<Replace Tag="LOC_MOD_AL_JABR_WORKER_MAINTENANCE_DESCRIPTION" Language="th_TH">
 			<Text>+33% [icon:YIELD_HAPPINESS] ความสุข ในการ[TIP:LOC_PEDIA_CONCEPTS_MAINTENANCE_TOOLTIP]บำรุงรักษา[/TIP] [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]ผู้เชี่ยวชาญ[/TIP]</Text>		<!-- +33% [icon:YIELD_HAPPINESS] Happiness towards [TIP:LOC_PEDIA_CONCEPTS_MAINTENANCE_TOOLTIP]maintaining[/TIP] [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_AHUPUA_A_I_TOOLTIP" Language="th_TH">
+			<Text>Ahupua'a</Text>		<!-- Ahupua'a -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_AHUPUA_A_I_NAME" Language="th_TH">
+			<Text>Ahupua'a I</Text>		<!-- Ahupua'a I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_AHUPUA_A_I_DESCRIPTION" Language="th_TH">
+			<Text>+4 [icon:YIELD_FOOD] Food on [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP].</Text>		<!-- +4 [icon:YIELD_FOOD] Food on [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_AHUPUA_A_II_NAME" Language="th_TH">
+			<Text>Ahupua'a II</Text>		<!-- Ahupua'a II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_AHUPUA_A_II_DESCRIPTION" Language="th_TH">
+			<Text>+6 [icon:YIELD_FOOD] Food on [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP].</Text>		<!-- +6 [icon:YIELD_FOOD] Food on [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_HO_OKUPU_I_NAME" Language="th_TH">
+			<Text>Ho'okupu I</Text>		<!-- Ho'okupu I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_HO_OKUPU_I_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_FOOD] Food on Marine Terrain. Improvements, Buildings, and Districts do not get pillaged by Floods, Volcanic Eruptions, and Hurricanes.</Text>		<!-- +1 [icon:YIELD_FOOD] Food on Marine Terrain. Improvements, Buildings, and Districts do not get pillaged by Floods, Volcanic Eruptions, and Hurricanes. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_HO_OKUPU_II_NAME" Language="th_TH">
+			<Text>Ho'okupu II</Text>		<!-- Ho'okupu II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_HO_OKUPU_II_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_FOOD] Food on Marine Terrain. Improvements, Buildings, and Districts do not get pillaged by Floods, Volcanic Eruptions, and Hurricanes.</Text>		<!-- +2 [icon:YIELD_FOOD] Food on Marine Terrain. Improvements, Buildings, and Districts do not get pillaged by Floods, Volcanic Eruptions, and Hurricanes. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_KAPA_NAME" Language="th_TH">
+			<Text>Kapa</Text>		<!-- Kapa -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_KAPA_DESCRIPTION" Language="th_TH">
+			<Text>+50% [icon:YIELD_PRODUCTION] Production towards constructing [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP].</Text>		<!-- +50% [icon:YIELD_PRODUCTION] Production towards constructing [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_HAWAII_SYNCRETISM_TOOLTIP" Language="th_TH">
+			<Text>Hōkūle'a</Text>		<!-- Hōkūle'a -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_HAWAII_SYNCRETISM_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Hōkūle'a I</Text>		<!-- Hōkūle'a I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_HAWAII_SYNCRETISM_ANTIQUITY_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_CULTURE] on Districts and [icon:CITY_RURAL] Unique Improvements adjacent to Coast.</Text>		<!-- +1 [icon:YIELD_CULTURE] on Districts and [icon:CITY_RURAL] Unique Improvements adjacent to Coast. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_HAWAII_SYNCRETISM_MODERN_NAME" Language="th_TH">
+			<Text>Hōkūle'a II</Text>		<!-- Hōkūle'a II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_HAWAII_SYNCRETISM_MODERN_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_CULTURE] on Districts and [icon:CITY_RURAL] Unique Improvements adjacent to Coast. +4 [icon:YIELD_CULTURE] on Volcanoes.</Text>		<!-- +2 [icon:YIELD_CULTURE] on Districts and [icon:CITY_RURAL] Unique Improvements adjacent to Coast. +4 [icon:YIELD_CULTURE] on Volcanoes. -->
 		</Replace>
 		<Replace Tag="LOC_TREE_CIVICS_EX_CHOLA_NAME" Language="th_TH">
 			<Text>แนวคิดโจฬะ</Text>		<!-- Chola Civics -->
@@ -3862,8 +4186,68 @@
 		<Replace Tag="LOC_CIVIC_MONSOON_WINDS_QUOTE" Language="th_TH">
 			<Text>มันถูกตามด้วยความร้างเปล่า; มันนำมาซึ่งความหวังของฤดูใบไม้ผลิ</Text>		<!-- It is preceded by desolation; it brings with it the hopes of spring. -->
 		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_AQ_INCAN_ORIGINS_NAME" Language="th_TH">
+			<Text>Incan Origins</Text>		<!-- Incan Origins -->
+		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_MO_INCAN_MODERNIZATION_NAME" Language="th_TH">
+			<Text>Incan Modernization</Text>		<!-- Incan Modernization -->
+		</Replace>
 		<Replace Tag="LOC_CIVIC_MONSOON_WINDS_AUTHOR" Language="th_TH">
 			<Text>คุชวันท์ ซิงห์</Text>		<!-- Khushwant Singh -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_QULLQA_TOOLTIP" Language="th_TH">
+			<Text>Qullqa</Text>		<!-- Qullqa -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_QULLQA_I_NAME" Language="th_TH">
+			<Text>Qullqa I</Text>		<!-- Qullqa I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_QULLQA_I_DESCRIPTION" Language="th_TH">
+			<Text>[icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] receive +1 [icon:YIELD_FOOD] for each active [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP] you started.</Text>		<!-- [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] receive +1 [icon:YIELD_FOOD] for each active [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP] you started. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_QULLQA_II_NAME" Language="th_TH">
+			<Text>Qullqa II</Text>		<!-- Qullqa II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_QULLQA_II_DESCRIPTION" Language="th_TH">
+			<Text>[icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] receive +2 [icon:YIELD_FOOD] for each active [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP] you started.</Text>		<!-- [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] receive +2 [icon:YIELD_FOOD] for each active [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP] you started. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_QUIPU_TOOLTIP" Language="th_TH">
+			<Text>Quipu</Text>		<!-- Quipu -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_QUIPU_NAME" Language="th_TH">
+			<Text>Quipu</Text>		<!-- Quipu -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_QUIPU_DESCRIPTION" Language="th_TH">
+			<Text>[TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] gain +0.5 [icon:YIELD_GOLD] for every Urban [icon:YIELD_POPULATION] Population and +0.5 [icon:YIELD_PRODUCTION] for every Rural [icon:YIELD_POPULATION] Population.</Text>		<!-- [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] gain +0.5 [icon:YIELD_GOLD] for every Urban [icon:YIELD_POPULATION] Population and +0.5 [icon:YIELD_PRODUCTION] for every Rural [icon:YIELD_POPULATION] Population. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_TIRAKUNA_TOOLTIP" Language="th_TH">
+			<Text>Tirakuna</Text>		<!-- Tirakuna -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_TIRAKUNA_I_NAME" Language="th_TH">
+			<Text>Tirakuna I</Text>		<!-- Tirakuna I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_TIRAKUNA_I_DESCRIPTION" Language="th_TH">
+			<Text>Food [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive an Adjacency for Mountains. [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]Rough Terrain[/TIP] does not end Unit [icon:UNIT_MOVEMENT_ICON] Movement.</Text>		<!-- Food [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive an Adjacency for Mountains. [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]Rough Terrain[/TIP] does not end Unit [icon:UNIT_MOVEMENT_ICON] Movement. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_TIRAKUNA_II_NAME" Language="th_TH">
+			<Text>Tirakuna II</Text>		<!-- Tirakuna II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_TIRAKUNA_II_DESCRIPTION" Language="th_TH">
+			<Text>Food and Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive an Adjacency for Mountains. [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]Rough Terrain[/TIP] does not end Unit [icon:UNIT_MOVEMENT_ICON] Movement.</Text>		<!-- Food and Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive an Adjacency for Mountains. [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]Rough Terrain[/TIP] does not end Unit [icon:UNIT_MOVEMENT_ICON] Movement. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_INCA_SYNCRETISM_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Huaca I</Text>		<!-- Huaca I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_INCA_SYNCRETISM_ANTIQUITY_DESCRIPTION" Language="th_TH">
+			<Text>+10% [icon:YIELD_FOOD] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with their City Center adjacent to a Mountain or with 3 worked Mountain tiles.</Text>		<!-- +10% [icon:YIELD_FOOD] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with their City Center adjacent to a Mountain or with 3 worked Mountain tiles. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_INCA_SYNCRETISM_MODERN_NAME" Language="th_TH">
+			<Text>Huaca II</Text>		<!-- Huaca II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_INCA_SYNCRETISM_MODERN_DESCRIPTION" Language="th_TH">
+			<Text>+15% [icon:YIELD_FOOD] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with their City Center adjacent to a Mountain or with 3 worked Mountain tiles.</Text>		<!-- +15% [icon:YIELD_FOOD] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with their City Center adjacent to a Mountain or with 3 worked Mountain tiles. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_INCA_SYNCRETISM_TOOLTIP" Language="th_TH">
+			<Text>Huaca</Text>		<!-- Huaca -->
 		</Replace>
 		<Replace Tag="LOC_MOD_KANAKAM_GOLD_PER_ENVOY_DESCRIPTION" Language="th_TH">
 			<Text>+1 [icon:YIELD_GOLD] ทอง จาก [icon:DIPLOMATIC_ACTION] การกระทำทางการฑูต ที่คุณเริ่มต้น หรือสนับสนุน</Text>		<!-- +1 [icon:YIELD_GOLD] Gold from active [icon:DIPLOMATIC_ACTION] Diplomatic Actions you started or supported. -->
@@ -3904,6 +4288,63 @@
 		<Replace Tag="LOC_CIVIC_OHANA_NAME" Language="th_TH">
 			<Text>โอฮาน่า</Text>		<!-- Ohana -->
 		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_AQ_MAJAPAHIT_ORIGINS_NAME" Language="th_TH">
+			<Text>Majapahit Origins</Text>		<!-- Majapahit Origins -->
+		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_MO_MAJAPAHIT_MODERNIZATION_NAME" Language="th_TH">
+			<Text>Majapahit Modernization</Text>		<!-- Majapahit Modernization -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_PANJI_NAME" Language="th_TH">
+			<Text>Panji</Text>		<!-- Panji -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_PANJI_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_CULTURE] from [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP] on or adjacent to [icon:CITY_UNIMPROVED] Coast.</Text>		<!-- +1 [icon:YIELD_CULTURE] from [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP] on or adjacent to [icon:CITY_UNIMPROVED] Coast. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_NEGARAKERTAGAMA_I_NAME" Language="th_TH">
+			<Text>Negarakertagama I</Text>		<!-- Negarakertagama I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_NEGARAKERTAGAMA_I_DESCRIPTION" Language="th_TH">
+			<Text>+33% [icon:YIELD_FOOD] towards maintaining [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP].</Text>		<!-- +33% [icon:YIELD_FOOD] towards maintaining [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_NEGARAKERTAGAMA_II_NAME" Language="th_TH">
+			<Text>Negarakertagama II</Text>		<!-- Negarakertagama II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_NEGARAKERTAGAMA_II_DESCRIPTION" Language="th_TH">
+			<Text>+33% [icon:YIELD_FOOD] towards maintaining [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP]. +4 [icon:YIELD_CULTURE] on [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP] on or adjacent to [icon:CITY_UNIMPROVED] Coast.</Text>		<!-- +33% [icon:YIELD_FOOD] towards maintaining [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP]. +4 [icon:YIELD_CULTURE] on [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP] on or adjacent to [icon:CITY_UNIMPROVED] Coast. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_NEGARAKERTAGAMA_TOOLTIP" Language="th_TH">
+			<Text>Negarakertagama</Text>		<!-- Negarakertagama -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_AWISAN_DALEM_I_NAME" Language="th_TH">
+			<Text>Awisan Dalem I</Text>		<!-- Awisan Dalem I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_AWISAN_DALEM_I_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_CULTURE] on [icon:CITY_UNIMPROVED] Marine Terrain in [icon:YIELD_CITIES] Cities.</Text>		<!-- +1 [icon:YIELD_CULTURE] on [icon:CITY_UNIMPROVED] Marine Terrain in [icon:YIELD_CITIES] Cities. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_AWISAN_DALEM_II_NAME" Language="th_TH">
+			<Text>Awisan Dalem II</Text>		<!-- Awisan Dalem II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_AWISAN_DALEM_II_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_CULTURE] and +1 [icon:YIELD_PRODUCTION] on [icon:CITY_UNIMPROVED] Marine Terrain in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP].</Text>		<!-- +1 [icon:YIELD_CULTURE] and +1 [icon:YIELD_PRODUCTION] on [icon:CITY_UNIMPROVED] Marine Terrain in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_AWISAN_DALEM_TOOLTIP" Language="th_TH">
+			<Text>Awisan Dalem</Text>		<!-- Awisan Dalem -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MAJAPAHIT_SYNCRETISM_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Subak I</Text>		<!-- Subak I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MAJAPAHIT_SYNCRETISM_ANTIQUITY_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_FOOD] on [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP] on or adjacent to [icon:CITY_UNIMPROVED] Coast. +10% [icon:GROWTH_RATE] [TIP:LOC_PEDIA_CONCEPTS_GROWTH_RATE_TOOLTIP]Growth Rate[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] adjacent to [icon:CITY_UNIMPROVED] Coast.</Text>		<!-- +2 [icon:YIELD_FOOD] on [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP] on or adjacent to [icon:CITY_UNIMPROVED] Coast. +10% [icon:GROWTH_RATE] [TIP:LOC_PEDIA_CONCEPTS_GROWTH_RATE_TOOLTIP]Growth Rate[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] adjacent to [icon:CITY_UNIMPROVED] Coast. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MAJAPAHIT_SYNCRETISM_MODERN_NAME" Language="th_TH">
+			<Text>Subak II</Text>		<!-- Subak II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MAJAPAHIT_SYNCRETISM_MODERN_DESCRIPTION" Language="th_TH">
+			<Text>+4 [icon:YIELD_FOOD] on [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP] on or adjacent to [icon:CITY_UNIMPROVED] Coast. +15% [icon:GROWTH_RATE] [TIP:LOC_PEDIA_CONCEPTS_GROWTH_RATE_TOOLTIP]Growth Rate[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] adjacent to [icon:CITY_UNIMPROVED] Coast.</Text>		<!-- +4 [icon:YIELD_FOOD] on [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP] on or adjacent to [icon:CITY_UNIMPROVED] Coast. +15% [icon:GROWTH_RATE] [TIP:LOC_PEDIA_CONCEPTS_GROWTH_RATE_TOOLTIP]Growth Rate[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] adjacent to [icon:CITY_UNIMPROVED] Coast. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MAJAPAHIT_SYNCRETISM_TOOLTIP" Language="th_TH">
+			<Text>Subak</Text>		<!-- Subak -->
+		</Replace>
 		<Replace Tag="LOC_CIVIC_OHANA_QUOTE" Language="th_TH">
 			<Text>มองดูที่แหล่งที่มา</Text>		<!-- Nānā i ke kumu. Look to the source. -->
 		</Replace>
@@ -3933,6 +4374,60 @@
 		</Replace>
 		<Replace Tag="LOC_MOD_RELIGION_MARINE_TILE_CULTURE_DESCRIPTION" Language="th_TH">
 			<Text>+2[icon:YIELD_CULTURE] วัฒนธรรม ในพื้นที่ทะเลในถิ่นฐานที่นับถือศาสนาของคุณ</Text>		<!-- +2[icon:YIELD_CULTURE] Culture on Marine Terrain in Settlements following your Religion. -->
+		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_AQ_MING_ORIGINS_NAME" Language="th_TH">
+			<Text>Ming Origins</Text>		<!-- Ming Origins -->
+		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_MO_MING_MODERNIZATION_NAME" Language="th_TH">
+			<Text>Ming Modernization</Text>		<!-- Ming Modernization -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_BAOJIA_I_NAME" Language="th_TH">
+			<Text>Baojia I</Text>		<!-- Baojia I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_BAOJIA_I_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_SCIENCE] Science for each [icon:RADIAL_RESOURCES] Resource assigned to a Settlement.</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science for each [icon:RADIAL_RESOURCES] Resource assigned to a Settlement. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_BAOJIA_II_NAME" Language="th_TH">
+			<Text>Baojia II</Text>		<!-- Baojia II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_BAOJIA_II_DESCRIPTION" Language="th_TH">
+			<Text>+1[icon:YIELD_SCIENCE] Science for each [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resource[/TIP] assigned to a [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]City[/TIP]. This becomes +2 in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] other than your [icon:NOTIFICATION_SELECT_CAPITAL] Capital.</Text>		<!-- +1[icon:YIELD_SCIENCE] Science for each [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resource[/TIP] assigned to a [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]City[/TIP]. This becomes +2 in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] other than your [icon:NOTIFICATION_SELECT_CAPITAL] Capital. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DIVINE_ENGINE_DIVISION_NAME" Language="th_TH">
+			<Text>Divine Engine Division</Text>		<!-- Divine Engine Division -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DIVINE_ENGINE_DIVISION_DESCRIPTION" Language="th_TH">
+			<Text>+2[icon:YIELD_SCIENCE] Science in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with a [TIP:LOC_PEDIA_CONCEPTS_GARRISONED_TOOLTIP]Garrisoned[/TIP] Unit. +3 [icon:COMBAT_RANGED] Ranged Combat Strength to Ranged Units adjacent to another Ranged Unit.</Text>		<!-- +2[icon:YIELD_SCIENCE] Science in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with a [TIP:LOC_PEDIA_CONCEPTS_GARRISONED_TOOLTIP]Garrisoned[/TIP] Unit. +3 [icon:COMBAT_RANGED] Ranged Combat Strength to Ranged Units adjacent to another Ranged Unit. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DIVINE_ENGINE_DIVISION_PREVIEW" Language="th_TH">
+			<Text>+{1_Amount} Divine Engine Division</Text>		<!-- +{1_Amount} Divine Engine Division -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_GRAND_SECRETARIAT_I_NAME" Language="th_TH">
+			<Text>Grand Secretariat I</Text>		<!-- Grand Secretariat I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_GRAND_SECRETARIAT_I_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_SCIENCE] Science on [icon:YIELD_GOLD] Gold Buildings and +2 [icon:YIELD_GOLD] Gold on [icon:YIELD_SCIENCE] Science buildings.</Text>		<!-- +2 [icon:YIELD_SCIENCE] Science on [icon:YIELD_GOLD] Gold Buildings and +2 [icon:YIELD_GOLD] Gold on [icon:YIELD_SCIENCE] Science buildings. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_GRAND_SECRETARIAT_II_NAME" Language="th_TH">
+			<Text>Grand Secretariat II</Text>		<!-- Grand Secretariat II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_GRAND_SECRETARIAT_II_DESCRIPTION" Language="th_TH">
+			<Text>+3 [icon:YIELD_SCIENCE] Science on [icon:YIELD_GOLD] Gold Buildings and +3 [icon:YIELD_GOLD] Gold on [icon:YIELD_SCIENCE] Science Buildings.</Text>		<!-- +3 [icon:YIELD_SCIENCE] Science on [icon:YIELD_GOLD] Gold Buildings and +3 [icon:YIELD_GOLD] Gold on [icon:YIELD_SCIENCE] Science Buildings. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MING_SYNCRETISM_TOOLTIP" Language="th_TH">
+			<Text>Chaogong</Text>		<!-- Chaogong -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MING_SYNCRETISM_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Chaogong I</Text>		<!-- Chaogong I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MING_SYNCRETISM_ANTIQUITY_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_DIPLOMACY] Influence for each [icon:RADIAL_RESOURCES] Resource slotted into your [icon:NOTIFICATION_SELECT_CAPITAL] Capital.</Text>		<!-- +1 [icon:YIELD_DIPLOMACY] Influence for each [icon:RADIAL_RESOURCES] Resource slotted into your [icon:NOTIFICATION_SELECT_CAPITAL] Capital. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MING_SYNCRETISM_MODERN_NAME" Language="th_TH">
+			<Text>Chaogong II</Text>		<!-- Chaogong II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MING_SYNCRETISM_MODERN_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_DIPLOMACY] Influence for each [icon:RADIAL_RESOURCES] Resource slotted into your [icon:NOTIFICATION_SELECT_CAPITAL] Capital.</Text>		<!-- +2 [icon:YIELD_DIPLOMACY] Influence for each [icon:RADIAL_RESOURCES] Resource slotted into your [icon:NOTIFICATION_SELECT_CAPITAL] Capital. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_NUSUNTARA_COAST_ADJACENCY_DESCRIPTION" Language="th_TH">
 			<Text>[icon:YIELD_CULTURE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรม[/TIP] ได้รับ +1 [icon:YIELD_HAPPINESS] ความสุข จากการอยู่ติดกับชายฝั่ง</Text>		<!-- [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] gain a +1 [icon:YIELD_HAPPINESS] Happiness Adjacency for Coast. -->
@@ -3964,6 +4459,69 @@
 		<Replace Tag="LOC_CIVIC_MITA_NAME" Language="th_TH">
 			<Text>มิตา</Text>		<!-- Mit'a -->
 		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_AQ_MONGOLIA_ORIGINS_NAME" Language="th_TH">
+			<Text>Mongolia Origins</Text>		<!-- Mongolia Origins -->
+		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_MO_MONGOLIA_MODERNIZATION_NAME" Language="th_TH">
+			<Text>Mongolia Modernization</Text>		<!-- Mongolia Modernization -->
+		</Replace>
+		<Replace Tag="LOC_MOD_AQ_ATTRIBUTE_MILITARISTIC_EXPANSIONIST_SETTLEMENT_CAP_INCREASE_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP].</Text>		<!-- +2 [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_BAGHATUR_I_NAME" Language="th_TH">
+			<Text>Baghatur I</Text>		<!-- Baghatur I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_BAGHATUR_I_DESCRIPTION" Language="th_TH">
+			<Text>+3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Units[/TIP].</Text>		<!-- +3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Units[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_BAGHATUR_II_NAME" Language="th_TH">
+			<Text>Baghatur II</Text>		<!-- Baghatur II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_BAGHATUR_II_DESCRIPTION" Language="th_TH">
+			<Text>+3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] and +2 [icon:Action_Move] Movement for [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Units[/TIP].</Text>		<!-- +3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] and +2 [icon:Action_Move] Movement for [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Units[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_BAGHATUR_PREVIEW" Language="th_TH">
+			<Text>+{1_amount} Baghatur</Text>		<!-- +{1_amount} Baghatur -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_GEREGE_NAME" Language="th_TH">
+			<Text>Gerege</Text>		<!-- Gerege -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_GEREGE_DESCRIPTION" Language="th_TH">
+			<Text>+4 [icon:YIELD_HAPPINESS] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Captured Settlements[/TIP] from any Age for each [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resource[/TIP] assigned to them.</Text>		<!-- +4 [icon:YIELD_HAPPINESS] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Captured Settlements[/TIP] from any Age for each [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resource[/TIP] assigned to them. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_JARLIG_I_NAME" Language="th_TH">
+			<Text>Jarlig I</Text>		<!-- Jarlig I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_JARLIG_I_DESCRIPTION" Language="th_TH">
+			<Text>+25% [icon:YIELD_PRODUCTION] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Captured Cities[/TIP] from any Age. [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Captured Towns[/TIP] do not cost double to convert into [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP].</Text>		<!-- +25% [icon:YIELD_PRODUCTION] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Captured Cities[/TIP] from any Age. [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Captured Towns[/TIP] do not cost double to convert into [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_JARLIG_II_NAME" Language="th_TH">
+			<Text>Jarlig II</Text>		<!-- Jarlig II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_JARLIG_II_DESCRIPTION" Language="th_TH">
+			<Text>+50% [icon:YIELD_PRODUCTION] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Captured Cities[/TIP] from any Age. [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Captured Towns[/TIP] do not cost double to convert into [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP].</Text>		<!-- +50% [icon:YIELD_PRODUCTION] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Captured Cities[/TIP] from any Age. [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Captured Towns[/TIP] do not cost double to convert into [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_JARLIG_TOOLTIP" Language="th_TH">
+			<Text>Jarlig</Text>		<!-- Jarlig -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MONGOLIA_SYNCRETISM_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Jarugachi I</Text>		<!-- Jarugachi I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MONGOLIA_SYNCRETISM_ANTIQUITY_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_DIPLOMACY] and [icon:YIELD_PRODUCTION] on [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Horse Resources[/TIP], doubled in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Captured Settlements[/TIP] from any Age.</Text>		<!-- +1 [icon:YIELD_DIPLOMACY] and [icon:YIELD_PRODUCTION] on [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Horse Resources[/TIP], doubled in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Captured Settlements[/TIP] from any Age. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MONGOLIA_SYNCRETISM_MODERN_NAME" Language="th_TH">
+			<Text>Jarugachi II</Text>		<!-- Jarugachi II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MONGOLIA_SYNCRETISM_MODERN_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_DIPLOMACY] and [icon:YIELD_PRODUCTION] on [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Horse Resources[/TIP], doubled in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Captured Settlements[/TIP] from any Age. +50% [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] from [TIP:LOC_PEDIA_CONCEPTS_FLANKING_TOOLTIP]Flanking[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Units[/TIP].</Text>		<!-- +2 [icon:YIELD_DIPLOMACY] and [icon:YIELD_PRODUCTION] on [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Horse Resources[/TIP], doubled in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Captured Settlements[/TIP] from any Age. +50% [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] from [TIP:LOC_PEDIA_CONCEPTS_FLANKING_TOOLTIP]Flanking[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Units[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MONGOLIA_SYNCRETISM_TOOLTIP" Language="th_TH">
+			<Text>Jarugachi</Text>		<!-- Jarugachi -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MONGOLIA_SYNCRETISM_COMBAT_PREVIEW" Language="th_TH">
+			<Text>+{1_Amount} Jarugachi</Text>		<!-- +{1_Amount} Jarugachi -->
+		</Replace>
 		<Replace Tag="LOC_CIVIC_MITA_QUOTE" Language="th_TH">
 			<Text>บริการแรงงานโดยทั่วไปถูกมองว่าเป็นวิธีที่สำคัญที่ รัฐอินคาใช้ในการสนับสนุนกิจกรรมของตน</Text>		<!-- Labor service is generally considered to be the critical means by which the Inca state funded its activities. -->
 		</Replace>
@@ -3993,6 +4551,87 @@
 		</Replace>
 		<Replace Tag="LOC_MOD_QHAPAQ_NAN_HILL_MOVEMENT_DESCRIPTION" Language="th_TH">
 			<Text>[icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]พื้นที่ขรุขระ[/TIP] ไม่หยุด [icon:Action_Move] การเคลื่อนไหว ยูนิตใดๆ ของ อินคา</Text>		<!-- [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]Rough Terrain[/TIP] does not end the [icon:Action_Move] Movement of any Inca Unit. -->
+		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_AQ_NORMAN_ORIGINS_NAME" Language="th_TH">
+			<Text>Norman Origins</Text>		<!-- Norman Origins -->
+		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_MO_NORMAN_MODERNIZATION_NAME" Language="th_TH">
+			<Text>Norman Modernization</Text>		<!-- Norman Modernization -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_JURE_I_NAME" Language="th_TH">
+			<Text>Juré I</Text>		<!-- Juré I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_JURE_I_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_CULTURE] in the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP] and +1 [icon:YIELD_HAPPINESS] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] for every [icon:TRADITION] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]Tradition[/TIP] slotted in the [icon:GOVERNMENT] [TIP:LOC_PEDIA_CONCEPTS_GOVERNMENT_TOOLTIP]Government[/TIP].</Text>		<!-- +1 [icon:YIELD_CULTURE] in the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP] and +1 [icon:YIELD_HAPPINESS] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] for every [icon:TRADITION] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]Tradition[/TIP] slotted in the [icon:GOVERNMENT] [TIP:LOC_PEDIA_CONCEPTS_GOVERNMENT_TOOLTIP]Government[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_JURE_II_NAME" Language="th_TH">
+			<Text>Juré II</Text>		<!-- Juré II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_JURE_II_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_CULTURE] in the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP] and +2 [icon:YIELD_HAPPINESS] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] for every [icon:TRADITION] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]Tradition[/TIP] slotted in the [icon:GOVERNMENT] [TIP:LOC_PEDIA_CONCEPTS_GOVERNMENT_TOOLTIP]Government[/TIP].</Text>		<!-- +2 [icon:YIELD_CULTURE] in the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP] and +2 [icon:YIELD_HAPPINESS] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] for every [icon:TRADITION] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]Tradition[/TIP] slotted in the [icon:GOVERNMENT] [TIP:LOC_PEDIA_CONCEPTS_GOVERNMENT_TOOLTIP]Government[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_JURE_TOOLTIP" Language="th_TH">
+			<Text>Juré</Text>		<!-- Juré -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_PALISADING_I_NAME" Language="th_TH">
+			<Text>Palisading I</Text>		<!-- Palisading I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_PALISADING_I_DESCRIPTION" Language="th_TH">
+			<Text>+50% [icon:YIELD_PRODUCTION] towards constructing [icon:CITY_FORTIFIED] Fortification Constructibles.</Text>		<!-- +50% [icon:YIELD_PRODUCTION] towards constructing [icon:CITY_FORTIFIED] Fortification Constructibles. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_PALISADING_II_NAME" Language="th_TH">
+			<Text>Palisading II</Text>		<!-- Palisading II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_PALISADING_II_DESCRIPTION" Language="th_TH">
+			<Text>+50% [icon:YIELD_PRODUCTION] towards constructing [icon:CITY_FORTIFIED] Fortification Constructibles. +1 [icon:YIELD_HAPPINESS] and [icon:YIELD_PRODUCTION] on [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP].</Text>		<!-- +50% [icon:YIELD_PRODUCTION] towards constructing [icon:CITY_FORTIFIED] Fortification Constructibles. +1 [icon:YIELD_HAPPINESS] and [icon:YIELD_PRODUCTION] on [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_PALISADING_TOOLTIP" Language="th_TH">
+			<Text>Palisading</Text>		<!-- Palisading -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_FAMILIA_REGIS_NAME" Language="th_TH">
+			<Text>Familia Regis</Text>		<!-- Familia Regis -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_FAMILIA_REGIS_DESCRIPTION" Language="th_TH">
+			<Text>The [TIP:LOC_PEDIA_CONCEPTS_PALACE_TOOLTIP]Palace[/TIP] gains a +1 [icon:YIELD_HAPPINESS] Adjacency for [icon:CITY_FORTIFIED] Fortification Constructibles.</Text>		<!-- The [TIP:LOC_PEDIA_CONCEPTS_PALACE_TOOLTIP]Palace[/TIP] gains a +1 [icon:YIELD_HAPPINESS] Adjacency for [icon:CITY_FORTIFIED] Fortification Constructibles. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_SERVITIUM_DEBITUM_NAME" Language="th_TH">
+			<Text>Servitium Debitum</Text>		<!-- Servitium Debitum -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_SERVITIUM_DEBITUM_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Units[/TIP] for every [icon:TRADITION] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]Tradition[/TIP] slotted in the [icon:GOVERNMENT] [TIP:LOC_PEDIA_CONCEPTS_GOVERNMENT_TOOLTIP]Government[/TIP]. -2 [icon:YIELD_GOLD] [TIP:LOC_PEDIA_CONCEPTS_MAINTENANCE_TOOLTIP]Maintenance[/TIP] for Cavalry Units.</Text>		<!-- +1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Units[/TIP] for every [icon:TRADITION] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]Tradition[/TIP] slotted in the [icon:GOVERNMENT] [TIP:LOC_PEDIA_CONCEPTS_GOVERNMENT_TOOLTIP]Government[/TIP]. -2 [icon:YIELD_GOLD] [TIP:LOC_PEDIA_CONCEPTS_MAINTENANCE_TOOLTIP]Maintenance[/TIP] for Cavalry Units. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_SERVITIUM_DEBITUM_PREVIEW" Language="th_TH">
+			<Text>+{1_Amount} Servitium Debitum</Text>		<!-- +{1_Amount} Servitium Debitum -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_BAYEUX_TAPESTRY_I_NAME" Language="th_TH">
+			<Text>Bayeux Tapestry I</Text>		<!-- Bayeux Tapestry I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_BAYEUX_TAPESTRY_I_DESCRIPTION" Language="th_TH">
+			<Text>+4 [icon:YIELD_CULTURE] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Captured Settlements[/TIP] from any Age. Gain a free [icon:CITY_FORTIFIED] Fortification purchase in Captured Settlements.</Text>		<!-- +4 [icon:YIELD_CULTURE] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Captured Settlements[/TIP] from any Age. Gain a free [icon:CITY_FORTIFIED] Fortification purchase in Captured Settlements. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_BAYEUX_TAPESTRY_II_NAME" Language="th_TH">
+			<Text>Bayeux Tapestry II</Text>		<!-- Bayeux Tapestry II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_BAYEUX_TAPESTRY_II_DESCRIPTION" Language="th_TH">
+			<Text>+6 [icon:YIELD_CULTURE] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Captured Settlements[/TIP] from any Age. Gain a free [icon:CITY_FORTIFIED] Fortification purchase in Captured Settlements.</Text>		<!-- +6 [icon:YIELD_CULTURE] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Captured Settlements[/TIP] from any Age. Gain a free [icon:CITY_FORTIFIED] Fortification purchase in Captured Settlements. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_BAYEUX_TAPESTRY_TOOLTIP" Language="th_TH">
+			<Text>Bayeux Tapestry</Text>		<!-- Bayeux Tapestry -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_NORMAN_SYNCRETISM_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Sauveté I</Text>		<!-- Sauveté I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_NORMAN_SYNCRETISM_ANTIQUITY_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_CULTURE] and [icon:YIELD_GOLD] on [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP], doubled in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Captured Settlements[/TIP] from any Age. +25 [icon:Action_Heal] HP on [icon:CITY_FORTIFIED] Fortified Districts.</Text>		<!-- +1 [icon:YIELD_CULTURE] and [icon:YIELD_GOLD] on [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP], doubled in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Captured Settlements[/TIP] from any Age. +25 [icon:Action_Heal] HP on [icon:CITY_FORTIFIED] Fortified Districts. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_NORMAN_SYNCRETISM_MODERN_NAME" Language="th_TH">
+			<Text>Sauveté II</Text>		<!-- Sauveté II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_NORMAN_SYNCRETISM_MODERN_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_CULTURE] and [icon:YIELD_GOLD] on [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP], doubled in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Captured Settlements[/TIP] from any Age. +25 [icon:Action_Heal] HP on [icon:CITY_FORTIFIED] Fortified Districts.</Text>		<!-- +2 [icon:YIELD_CULTURE] and [icon:YIELD_GOLD] on [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP], doubled in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Captured Settlements[/TIP] from any Age. +25 [icon:Action_Heal] HP on [icon:CITY_FORTIFIED] Fortified Districts. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_NORMAN_SYNCRETISM_TOOLTIP" Language="th_TH">
+			<Text>Sauveté</Text>		<!-- Sauveté -->
 		</Replace>
 		<Replace Tag="LOC_MOD_QHAPAQ_NAN_WARAKAQ_POISONOUS_DESCRIPTION" Language="th_TH">
 			<Text>[icon:UNIT_WARAKAQ] วาราคัค ได้รับสกิลพิษ, +3 [icon:Action_Ranged] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] ต่อ [icon:DAMAGED] ยูนิตที่บาดเจ็บ</Text>		<!-- The [icon:UNIT_WARAKAQ] Warak'aq gains the Poison ability, +3 [icon:Action_Ranged] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] against [icon:DAMAGED] Wounded Units. -->
@@ -4024,8 +4663,74 @@
 		<Replace Tag="LOC_CIVIC_NUSUNTARA_QUOTE" Language="th_TH">
 			<Text>ไม่ว่าเธอจะไปที่ไหน เราจะติดตาม และแบ่งปันทั้งความสุขและความเศร้าใจ</Text>		<!-- Wherever you go, we will follow, and share in joy and sorrow. -->
 		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_AQ_SONGHAI_ORIGINS_NAME" Language="th_TH">
+			<Text>Songhai Origins</Text>		<!-- Songhai Origins -->
+		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_MO_SONGHAI_MODERNIZATION_NAME" Language="th_TH">
+			<Text>Songhai Modernization</Text>		<!-- Songhai Modernization -->
+		</Replace>
 		<Replace Tag="LOC_CIVIC_NUSUNTARA_AUTHOR" Language="th_TH">
 			<Text>จักรังเกิด มวัง ดูร์บัดธี</Text>		<!-- Cakrangga Mwang Durbuddhi -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ISA_NAME" Language="th_TH">
+			<Text>Isa</Text>		<!-- Isa -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ISA_DESCRIPTION" Language="th_TH">
+			<Text>+5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] and +2 [icon:Action_Move] Movement for all Units on [TIP:LOC_PEDIA_CONCEPTS_NAVIGABLE_RIVER_TOOLTIP]Navigable Rivers[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_MINOR_RIVER_TOOLTIP]Minor[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_NAVIGABLE_RIVER_TOOLTIP]Navigable Rivers[/TIP] do not end Unit [icon:Action_Move] Movement.</Text>		<!-- +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] and +2 [icon:Action_Move] Movement for all Units on [TIP:LOC_PEDIA_CONCEPTS_NAVIGABLE_RIVER_TOOLTIP]Navigable Rivers[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_MINOR_RIVER_TOOLTIP]Minor[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_NAVIGABLE_RIVER_TOOLTIP]Navigable Rivers[/TIP] do not end Unit [icon:Action_Move] Movement. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ISA_COMBAT_PREVIEW" Language="th_TH">
+			<Text>+{1_amount} Isa</Text>		<!-- +{1_amount} Isa -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MUD_BRICK_I_NAME" Language="th_TH">
+			<Text>Mud Brick I</Text>		<!-- Mud Brick I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MUD_BRICK_I_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_PRODUCTION] Production on the Caravanserai in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with a [icon:YIELD_GOLD] Gold Building and in Mining [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] and Trade Outposts.</Text>		<!-- +1 [icon:YIELD_PRODUCTION] Production on the Caravanserai in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with a [icon:YIELD_GOLD] Gold Building and in Mining [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] and Trade Outposts. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MUD_BRICK_II_NAME" Language="th_TH">
+			<Text>Mud Brick II</Text>		<!-- Mud Brick II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MUD_BRICK_II_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_PRODUCTION] Production on the Caravanserai in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with a [icon:YIELD_GOLD] Gold Building and in Mining [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] and Trade Outposts.</Text>		<!-- +2 [icon:YIELD_PRODUCTION] Production on the Caravanserai in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with a [icon:YIELD_GOLD] Gold Building and in Mining [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] and Trade Outposts. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_TIMBUKTU_I_NAME" Language="th_TH">
+			<Text>Timbuktu I</Text>		<!-- Timbuktu I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_TIMBUKTU_I_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_GOLD] Gold on Rough Terrain and Mines on [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resources[/TIP] if there is at least 1 [icon:YIELD_GOLD] Gold Building in that [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP].</Text>		<!-- +2 [icon:YIELD_GOLD] Gold on Rough Terrain and Mines on [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resources[/TIP] if there is at least 1 [icon:YIELD_GOLD] Gold Building in that [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_TIMBUKTU_II_NAME" Language="th_TH">
+			<Text>Timbuktu II</Text>		<!-- Timbuktu II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_TIMBUKTU_II_DESCRIPTION" Language="th_TH">
+			<Text>+3 [icon:YIELD_GOLD] Gold on Rough Terrain and Mines on [icon:RADIAL_RESOURCES] Resources if there is at least 1 [icon:YIELD_GOLD] Gold Building in that Settlement.</Text>		<!-- +3 [icon:YIELD_GOLD] Gold on Rough Terrain and Mines on [icon:RADIAL_RESOURCES] Resources if there is at least 1 [icon:YIELD_GOLD] Gold Building in that Settlement. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_WAKIA_I_NAME" Language="th_TH">
+			<Text>Wakia I</Text>		<!-- Wakia I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_WAKIA_I_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_GOLD] Gold for every active [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP].</Text>		<!-- +2 [icon:YIELD_GOLD] Gold for every active [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_WAKIA_II_NAME" Language="th_TH">
+			<Text>Wakia II</Text>		<!-- Wakia II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_WAKIA_II_DESCRIPTION" Language="th_TH">
+			<Text>+3 [icon:YIELD_GOLD] Gold for every active [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP].</Text>		<!-- +3 [icon:YIELD_GOLD] Gold for every active [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_SONGHAI_SYNCRETISM_TOOLTIP" Language="th_TH">
+			<Text>Charismatic Kingship</Text>		<!-- Charismatic Kingship -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_SONGHAI_SYNCRETISM_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Charismatic Kingship I</Text>		<!-- Charismatic Kingship I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_SONGHAI_SYNCRETISM_ANTIQUITY_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_GOLD] Gold on [icon:CITY_RURAL] Improvements on [icon:CITY_UNIMPROVED] Desert Terrain, doubled on Unique Improvements.</Text>		<!-- +1 [icon:YIELD_GOLD] Gold on [icon:CITY_RURAL] Improvements on [icon:CITY_UNIMPROVED] Desert Terrain, doubled on Unique Improvements. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_SONGHAI_SYNCRETISM_MODERN_NAME" Language="th_TH">
+			<Text>Charismatic Kingship II</Text>		<!-- Charismatic Kingship II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_SONGHAI_SYNCRETISM_MODERN_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_GOLD] Gold on [icon:CITY_RURAL] Improvements on [icon:CITY_UNIMPROVED] Desert Terrain, doubled on Unique Improvements.</Text>		<!-- +2 [icon:YIELD_GOLD] Gold on [icon:CITY_RURAL] Improvements on [icon:CITY_UNIMPROVED] Desert Terrain, doubled on Unique Improvements. -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_GAMELAN_NAME" Language="th_TH">
 			<Text>กาเมลัน</Text>		<!-- Gamelan -->
@@ -4057,8 +4762,65 @@
 		<Replace Tag="LOC_TREE_CIVICS_EX_MING_NAME" Language="th_TH">
 			<Text>แนวคิดหมิง</Text>		<!-- Ming Civics -->
 		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_AQ_SPAIN_ORIGINS_NAME" Language="th_TH">
+			<Text>Spain Origins</Text>		<!-- Spain Origins -->
+		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_MO_SPAIN_MODERNIZATION_NAME" Language="th_TH">
+			<Text>Spain Modernization</Text>		<!-- Spain Modernization -->
+		</Replace>
 		<Replace Tag="LOC_CIVIC_LIJIA_NAME" Language="th_TH">
 			<Text>ลีเจีย</Text>		<!-- Lijia -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_CONQUISTA_NAME" Language="th_TH">
+			<Text>Conquista</Text>		<!-- Conquista -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_CONQUISTA_DESCRIPTION" Language="th_TH">
+			<Text>+3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for all Units in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP], or +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for Naval Units.</Text>		<!-- +3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for all Units in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP], or +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for Naval Units. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_CONQUISTA_PREVIEW" Language="th_TH">
+			<Text>+{1} Conquista</Text>		<!-- +{1} Conquista -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_CERRO_RICO_I_NAME" Language="th_TH">
+			<Text>Cerro Rico I</Text>		<!-- Cerro Rico I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_CERRO_RICO_I_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_GOLD] on [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resources[/TIP].</Text>		<!-- +1 [icon:YIELD_GOLD] on [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resources[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_CERRO_RICO_II_NAME" Language="th_TH">
+			<Text>Cerro Rico II</Text>		<!-- Cerro Rico II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_CERRO_RICO_II_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_GOLD] on [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resources[/TIP], or +3 [icon:YIELD_GOLD] in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP].</Text>		<!-- +1 [icon:YIELD_GOLD] on [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resources[/TIP], or +3 [icon:YIELD_GOLD] in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_GREAT_AND_MOST_FORTUNATE_NAVY_TOOLTIP" Language="th_TH">
+			<Text>Great and Most Fortunate Navy</Text>		<!-- Great and Most Fortunate Navy -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_GREAT_AND_MOST_FORTUNATE_NAVY_I_NAME" Language="th_TH">
+			<Text>Great and Most Fortunate Navy I</Text>		<!-- Great and Most Fortunate Navy I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_GREAT_AND_MOST_FORTUNATE_NAVY_I_DESCRIPTION" Language="th_TH">
+			<Text>+50% [icon:YIELD_PRODUCTION] towards training [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP]. [icon:UNIT_FLEET_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Fleet Commanders[/TIP] gain the [TIP:LOC_PROMOTION_FLEET_FLOTILLA_DESCRIPTION]Flotilla Promotion[/TIP] for free.</Text>		<!-- +50% [icon:YIELD_PRODUCTION] towards training [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP]. [icon:UNIT_FLEET_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Fleet Commanders[/TIP] gain the [TIP:LOC_PROMOTION_FLEET_FLOTILLA_DESCRIPTION]Flotilla Promotion[/TIP] for free. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_GREAT_AND_MOST_FORTUNATE_NAVY_II_NAME" Language="th_TH">
+			<Text>Great and Most Fortunate Navy II</Text>		<!-- Great and Most Fortunate Navy II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_GREAT_AND_MOST_FORTUNATE_NAVY_II_DESCRIPTION" Language="th_TH">
+			<Text>+100% [icon:YIELD_PRODUCTION] towards training [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP]. [icon:UNIT_FLEET_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Fleet Commanders[/TIP] gain the [TIP:LOC_PROMOTION_FLEET_FLOTILLA_DESCRIPTION]Flotilla Promotion[/TIP] for free.</Text>		<!-- +100% [icon:YIELD_PRODUCTION] towards training [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP]. [icon:UNIT_FLEET_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Fleet Commanders[/TIP] gain the [TIP:LOC_PROMOTION_FLEET_FLOTILLA_DESCRIPTION]Flotilla Promotion[/TIP] for free. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_SPAIN_SYNCRETISM_TOOLTIP" Language="th_TH">
+			<Text>Corregidor</Text>		<!-- Corregidor -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_SPAIN_SYNCRETISM_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Corregidor I</Text>		<!-- Corregidor I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_SPAIN_SYNCRETISM_ANTIQUITY_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_GOLD] on [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] on or adjacent to Coast.</Text>		<!-- +2 [icon:YIELD_GOLD] on [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] on or adjacent to Coast. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_SPAIN_SYNCRETISM_MODERN_NAME" Language="th_TH">
+			<Text>Corregidor II</Text>		<!-- Corregidor II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_SPAIN_SYNCRETISM_MODERN_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_GOLD] on [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] on or adjacent to Coast. +10% [icon:YIELD_FOOD] and [icon:YIELD_PRODUCTION] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP].</Text>		<!-- +2 [icon:YIELD_GOLD] on [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] on or adjacent to Coast. +10% [icon:YIELD_FOOD] and [icon:YIELD_PRODUCTION] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_LIJIA_QUOTE" Language="th_TH">
 			<Text>กำแพงเมืองหลวงสว่างไสว ในชุดสีแดงตะโกนอยู่บนถนนกว้าง</Text>		<!-- Bright are the city walls of the capital; red-robed officials shout on broad streets. -->
@@ -4152,6 +4914,18 @@
 		</Replace>
 		<Replace Tag="LOC_MOD_ARMADA_HEAVY_NAVAL_COMBAT_PREVIEW" Language="th_TH">
 			<Text>+{1_Amount} อาร์มาดา</Text>		<!-- +{1_Amount} Armada -->
+		</Replace>
+		<Replace Tag="LOC_DIPLOMACY_ACTION_ESPIONAGE_BUY_LOYALTY_NAME" Language="th_TH">
+			<Text>Buy Loyalty</Text>		<!-- Buy Loyalty -->
+		</Replace>
+		<Replace Tag="LOC_DIPLOMACY_ACTION_ESPIONAGE_BUY_LOYALTY_DESCRIPTION" Language="th_TH">
+			<Text>Gain a copy of a Land Military Unit the targeted Leader has unlocked. The Unit will appear in your Capital.</Text>		<!-- Gain a copy of a Land Military Unit the targeted Leader has unlocked. The Unit will appear in your Capital. -->
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ESPIONAGE_BUY_LOYALTY_EFFECT" Language="th_TH">
+			<Text>We have bought the loyalty of a {1_unit}!</Text>		<!-- We have bought the loyalty of a {1_unit}! -->
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ESPIONAGE_BUY_LOYALTY_EFFECT_TARGET" Language="th_TH">
+			<Text>They have bought the loyalty of one of our {1_unit}!</Text>		<!-- They have bought the loyalty of one of our {1_unit}! -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_YASSA_AUTHOR" Language="th_TH">
 			<Text>ยัสสา</Text>		<!-- The Yassa -->
@@ -6757,6 +7531,240 @@
 		<Replace Tag="LOC_DISCOVERY_21132D_STORYTITLE" Language="th_TH">
 			<Text>นามแห่งหนังสือ</Text>		<!-- The Name of the Book -->
 		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21144A_STORYTITLE" Language="th_TH">
+			<Text>Lion's Head Shrine</Text>		<!-- Lion's Head Shrine -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21144A_COMPLETION" Language="th_TH">
+			<Text>Near the entrance to a cave is a giant lion's head, intricately carved from wood and painted gold. A shrine surrounded by offerings lies within the lion's gaping maw.</Text>		<!-- Near the entrance to a cave is a giant lion's head, intricately carved from wood and painted gold. A shrine surrounded by offerings lies within the lion's gaping maw. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21144B_NAME" Language="th_TH">
+			<Text>Leave an offering.</Text>		<!-- Leave an offering. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21144B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21144C_NAME" Language="th_TH">
+			<Text>Take the offerings.</Text>		<!-- Take the offerings. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21144C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21145A_STORYTITLE" Language="th_TH">
+			<Text>An Inscription</Text>		<!-- An Inscription -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21145A_COMPLETION" Language="th_TH">
+			<Text>A solitary monument stands among the rubble. It bears an inscription, but, due to the ravages of time, some of it is illegible.</Text>		<!-- A solitary monument stands among the rubble. It bears an inscription, but, due to the ravages of time, some of it is illegible. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21145B_NAME" Language="th_TH">
+			<Text>"Here lies a great man."</Text>		<!-- "Here lies a great man." -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21145B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21145C_NAME" Language="th_TH">
+			<Text>"Here lies a grape man."</Text>		<!-- "Here lies a grape man." -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21145C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} to {2_CITY_NEAREST_STORY}.</Text>		<!-- {1_reward} to {2_CITY_NEAREST_STORY}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21146A_STORYTITLE" Language="th_TH">
+			<Text>Forbidden Forest</Text>		<!-- Forbidden Forest -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21146A_COMPLETION" Language="th_TH">
+			<Text>A band of hunters ruthlessly guards these woods from outsiders. Yet some newly arrived peasants say they cannot survive if their pigs have nowhere to graze.</Text>		<!-- A band of hunters ruthlessly guards these woods from outsiders. Yet some newly arrived peasants say they cannot survive if their pigs have nowhere to graze. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21146B_NAME" Language="th_TH">
+			<Text>Respect the hunters' claim.</Text>		<!-- Respect the hunters' claim. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21146B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21146C_NAME" Language="th_TH">
+			<Text>There is more than enough to share.</Text>		<!-- There is more than enough to share. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21146C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} to {2_CITY_NEAREST_STORY}.</Text>		<!-- {1_reward} to {2_CITY_NEAREST_STORY}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21147A_STORYTITLE" Language="th_TH">
+			<Text>Penance</Text>		<!-- Penance -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21147A_COMPLETION" Language="th_TH">
+			<Text>This stony outcropping, gravel speckled with red, has long been a common pilgrimage site for penitents who wish to unburden themselves of their guilt.</Text>		<!-- This stony outcropping, gravel speckled with red, has long been a common pilgrimage site for penitents who wish to unburden themselves of their guilt. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21147B_NAME" Language="th_TH">
+			<Text>Seek penance.</Text>		<!-- Seek penance. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21147B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21147C_NAME" Language="th_TH">
+			<Text>Tear down this barbaric thing.</Text>		<!-- Tear down this barbaric thing. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21147C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} to {2_CITY_NEAREST_STORY}.</Text>		<!-- {1_reward} to {2_CITY_NEAREST_STORY}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21148A_STORYTITLE" Language="th_TH">
+			<Text>Lost Dog</Text>		<!-- Lost Dog -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21148A_COMPLETION" Language="th_TH">
+			<Text>The remains of a traveling caravan clutter the road, wagons destroyed and supplies plundered. A stray dog barks and noses a lifeless limb.</Text>		<!-- The remains of a traveling caravan clutter the road, wagons destroyed and supplies plundered. A stray dog barks and noses a lifeless limb. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21148B_NAME" Language="th_TH">
+			<Text>Bury the dead.</Text>		<!-- Bury the dead. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21148B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21148C_NAME" Language="th_TH">
+			<Text>Find a home for the dog.</Text>		<!-- Find a home for the dog. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21148C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21149A_STORYTITLE" Language="th_TH">
+			<Text>Leviathan</Text>		<!-- Leviathan -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21149A_COMPLETION" Language="th_TH">
+			<Text>Sailors clamber abovedecks after one of them spots the leviathan emerging from the deep. With one great leap its leaves the water entirely and, for a moment, seems to fly.</Text>		<!-- Sailors clamber abovedecks after one of them spots the leviathan emerging from the deep. With one great leap its leaves the water entirely and, for a moment, seems to fly. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21149B_NAME" Language="th_TH">
+			<Text>What sort of fish is that?</Text>		<!-- What sort of fish is that? -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21149B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21149C_NAME" Language="th_TH">
+			<Text>Not a fish – a sea monster!</Text>		<!-- Not a fish – a sea monster! -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21149C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21150A_STORYTITLE" Language="th_TH">
+			<Text>Flock of Birds</Text>		<!-- Flock of Birds -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21150A_COMPLETION" Language="th_TH">
+			<Text>For the first time on this voyage, sailors spot a formation of birds over the open ocean. No one can say where they could have come from.</Text>		<!-- For the first time on this voyage, sailors spot a formation of birds over the open ocean. No one can say where they could have come from. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21150B_NAME" Language="th_TH">
+			<Text>A blessing!</Text>		<!-- A blessing! -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21150B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21150C_NAME" Language="th_TH">
+			<Text>An omen.</Text>		<!-- An omen. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21150C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21151A_STORYTITLE" Language="th_TH">
+			<Text>Stowaway</Text>		<!-- Stowaway -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21151A_COMPLETION" Language="th_TH">
+			<Text>Caught stealing from the ship's stores, a stowaway is dragged to the captain's quarters for judgement. The stowaway fears for his life, and so begs to work off the debt.</Text>		<!-- Caught stealing from the ship's stores, a stowaway is dragged to the captain's quarters for judgement. The stowaway fears for his life, and so begs to work off the debt. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21151B_NAME" Language="th_TH">
+			<Text>Let him.</Text>		<!-- Let him. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21151B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} to {2_CITY_NEAREST_STORY}.</Text>		<!-- {1_reward} to {2_CITY_NEAREST_STORY}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21151C_NAME" Language="th_TH">
+			<Text>No leniency.</Text>		<!-- No leniency. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21151C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21152A_STORYTITLE" Language="th_TH">
+			<Text>Here Be Monsters</Text>		<!-- Here Be Monsters -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21152A_COMPLETION" Language="th_TH">
+			<Text>Sailors hide belowdecks refusing to work, citing rumors of sea monsters in these very waters.</Text>		<!-- Sailors hide belowdecks refusing to work, citing rumors of sea monsters in these very waters. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21152B_NAME" Language="th_TH">
+			<Text>Then a hunt is on!</Text>		<!-- Then a hunt is on! -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21152B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} to {2_CITY_NEAREST_STORY}.</Text>		<!-- {1_reward} to {2_CITY_NEAREST_STORY}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21152C_NAME" Language="th_TH">
+			<Text>Leave as quickly as possible.</Text>		<!-- Leave as quickly as possible. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21152C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21153A_STORYTITLE" Language="th_TH">
+			<Text>Wetlands</Text>		<!-- Wetlands -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21153A_COMPLETION" Language="th_TH">
+			<Text>This brackish wetland is home to many unique flora and fauna. But a landlord seeks to drain the area for farmland, threatening its delicate harmony.</Text>		<!-- This brackish wetland is home to many unique flora and fauna. But a landlord seeks to drain the area for farmland, threatening its delicate harmony. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21153B_NAME" Language="th_TH">
+			<Text>Save the wetlands.</Text>		<!-- Save the wetlands. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21153B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21153C_NAME" Language="th_TH">
+			<Text>Drain them!</Text>		<!-- Drain them! -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21153C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} to {2_CITY_NEAREST_STORY}.</Text>		<!-- {1_reward} to {2_CITY_NEAREST_STORY}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21154A_STORYTITLE" Language="th_TH">
+			<Text>Trade Tolls</Text>		<!-- Trade Tolls -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21154A_COMPLETION" Language="th_TH">
+			<Text>Traders who frequent this bustling seaport complain of higher and higher tolls, accusing the local authorities of greed and corruption. Yet the nearest port town is leagues away.</Text>		<!-- Traders who frequent this bustling seaport complain of higher and higher tolls, accusing the local authorities of greed and corruption. Yet the nearest port town is leagues away. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21154B_NAME" Language="th_TH">
+			<Text>Protest the increased tolls.</Text>		<!-- Protest the increased tolls. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21154B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21154C_NAME" Language="th_TH">
+			<Text>Accept them.</Text>		<!-- Accept them. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21154C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21155A_STORYTITLE" Language="th_TH">
+			<Text>Desecrated Idol</Text>		<!-- Desecrated Idol -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21155A_COMPLETION" Language="th_TH">
+			<Text>A niche in this coastal shrine once housed the statue of a local deity, now lying in pieces among the ruins. The villagers blame their neighbors, who despise idolatry.</Text>		<!-- A niche in this coastal shrine once housed the statue of a local deity, now lying in pieces among the ruins. The villagers blame their neighbors, who despise idolatry. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21155B_NAME" Language="th_TH">
+			<Text>Rebuild the shrine.</Text>		<!-- Rebuild the shrine. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21155B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21155C_NAME" Language="th_TH">
+			<Text>Speak with the neighbors.</Text>		<!-- Speak with the neighbors. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21155C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21156A_STORYTITLE" Language="th_TH">
+			<Text>Raiding Party</Text>		<!-- Raiding Party -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21156A_COMPLETION" Language="th_TH">
+			<Text>A lone watchman in a tower cries out a warning to the villagefolk – a raiding party is coming down the coast and will be here soon.</Text>		<!-- A lone watchman in a tower cries out a warning to the villagefolk – a raiding party is coming down the coast and will be here soon. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21156B_NAME" Language="th_TH">
+			<Text>Defend the villagefolk.</Text>		<!-- Defend the villagefolk. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21156B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21156C_NAME" Language="th_TH">
+			<Text>Join the raiders.</Text>		<!-- Join the raiders. -->
+		</Replace>
+		<Replace Tag="LOC_DISCOVERY_21156C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21132D_NAME" Language="th_TH">
 			<Text>ปิด</Text>		<!-- Close. -->
 		</Replace>
@@ -6786,6 +7794,15 @@
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21133C_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_AGE_REVOLUCION_EX_NAME" Language="th_TH">
+			<Text>Revolución</Text>		<!-- Revolución -->
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_AGE_REVOLUCION_EX_1_DESCRIPTION" Language="th_TH">
+			<Text>+30%[icon:YIELD_CULTURE] Culture for {1_numTurns} Turns.</Text>		<!-- +30%[icon:YIELD_CULTURE] Culture for {1_numTurns} Turns. -->
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_AGE_REVOLUCION_EX_2_DESCRIPTION" Language="th_TH">
+			<Text>+100% Production towards training and Gold towards purchasing Missionaries and +2 Charges and Movement for Missionaries for {1_numTurns} Turns.</Text>		<!-- +100% Production towards training and Gold towards purchasing Missionaries and +2 Charges and Movement for Missionaries for {1_numTurns} Turns. -->
 		</Replace>
 		<Replace Tag="LOC_DISCOVERY_21133D_STORYTITLE" Language="th_TH">
 			<Text>ราชสำนักเร่ร่อน</Text>		<!-- Itinerant Court -->
@@ -15856,6 +16873,9 @@
 		<Replace Tag="LOC_9025C_NAME" Language="th_TH">
 			<Text>ให้ความสำคัญกับความต้องการของท่าเรือ</Text>		<!-- Prioritize the harbor’s needs. -->
 		</Replace>
+		<Replace Tag="LOC_PROJECT_TOWN_RESORT_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_GOLD] Gold on Appealing tiles. +50% tile yields from Natural Wonders. Can Purchase additional [icon:YIELD_HAPPINESS] Happiness Buildings in this Town.</Text>		<!-- +1 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_GOLD] Gold on Appealing tiles. +50% tile yields from Natural Wonders. Can Purchase additional [icon:YIELD_HAPPINESS] Happiness Buildings in this Town. -->
+		</Replace>
 		<Replace Tag="LOC_9025C_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward} ยูนิตเรือ</Text>		<!-- {1_reward} Naval Units. -->
 		</Replace>
@@ -16558,11 +17578,20 @@
 		<Replace Tag="LOC_ANT_RESOURCE_HARDWOOD_TOOLTIP" Language="th_TH">
 			<Text>+20% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อ[TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ยูนิตทางน้ำ[/TIP]</Text>		<!-- +20% [icon:YIELD_PRODUCTION] Production towards [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] -->
 		</Replace>
+		<Replace Tag="LOC_MOD_EX_SETTLEMENT_CAP_INCREASE_MORE_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP].</Text>		<!-- +2 [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP]. -->
+		</Replace>
 		<Replace Tag="LOC_ANT_RESOURCE_WILD_GAME_TOOLTIP" Language="th_TH">
 			<Text>+3 [icon:YIELD_FOOD] อาหาร ใน [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP], +6 [icon:YIELD_FOOD] อาหาร ใน [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP]</Text>		<!-- +3 [icon:YIELD_FOOD] Food in [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP], +6 [icon:YIELD_FOOD] Food in [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_13_NAME" Language="th_TH">
 			<Text>อีแวนเจลิสม์</Text>		<!-- Evangelism -->
+		</Replace>
+		<Replace Tag="LOC_MOD_EXPLORATION_IMPERIALISM_RESOURCE_DESCRIPTION" Language="th_TH">
+			<Text>[icon:RADIAL_RESOURCES] Tea and Spices Resources are worth +1 [icon:TREASURE_FLEET] Cargo for [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP].</Text>		<!-- [icon:RADIAL_RESOURCES] Tea and Spices Resources are worth +1 [icon:TREASURE_FLEET] Cargo for [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_MOD_EXPLORATION_SOCIAL_CLASS_RESOURCE_DESCRIPTION" Language="th_TH">
+			<Text>[icon:RADIAL_RESOURCES] Furs and Cocoa Resources are worth +1 [icon:TREASURE_FLEET] Cargo for [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP].</Text>		<!-- [icon:RADIAL_RESOURCES] Furs and Cocoa Resources are worth +1 [icon:TREASURE_FLEET] Cargo for [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_14_NAME" Language="th_TH">
 			<Text>เจริญ</Text>		<!-- Charoen -->
@@ -16626,6 +17655,237 @@
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_4_DESCRIPTION" Language="th_TH">
 			<Text>ถิ่นฐานที่ถูกพิชิตจะถูกเปลี่ยนเป็น [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ของคุณ [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_RELIGION_TOOLTIP]ศาสนา[/TIP]</Text>		<!-- Conquered [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] are converted to your [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_RELIGION_TOOLTIP]Religion[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_MOD_TECH_EX_TRADE_RANGE" Language="th_TH">
+			<Text>+5 [TIP:LOC_PEDIA_CONCEPTS_TRADE_RANGE_TOOLTIP]Trade Range[/TIP]</Text>		<!-- +5 [TIP:LOC_PEDIA_CONCEPTS_TRADE_RANGE_TOOLTIP]Trade Range[/TIP] -->
+		</Replace>
+		<Replace Tag="LOC_MOD_TECH_EX_FEUDALISM_FARMS" Language="th_TH">
+			<Text>+1 [icon:YIELD_FOOD] Food on Farms and Plantations in Farming Towns, Fishing Towns, and Fort Towns.</Text>		<!-- +1 [icon:YIELD_FOOD] Food on Farms and Plantations in Farming Towns, Fishing Towns, and Fort Towns. -->
+		</Replace>
+		<Replace Tag="LOC_MOD_TECH_EX_RELIC_SLOT_PAVILION" Language="th_TH">
+			<Text>+1 Relic Slot on Pavilions</Text>		<!-- +1 Relic Slot on Pavilions -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30000A_STORYTITLE" Language="th_TH">
+			<Text>The Gnawing Tooth of Time</Text>		<!-- The Gnawing Tooth of Time -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30000A_COMPLETION" Language="th_TH">
+			<Text>As the Roman Empire widens its sprawl, those living at its heart grow greedy and complacent. Roads crumble as pockets sag heavier with coin skimmed from tax revenue, and many elites see no further than besting their political rivals. Administration has turned from a sacred duty to a comfortable sinecure, while the Roman people starve and the once-renowned infrastructure of the Empire’s peak rots.</Text>		<!-- As the Roman Empire widens its sprawl, those living at its heart grow greedy and complacent. Roads crumble as pockets sag heavier with coin skimmed from tax revenue, and many elites see no further than besting their political rivals. Administration has turned from a sacred duty to a comfortable sinecure, while the Roman people starve and the once-renowned infrastructure of the Empire’s peak rots. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30000B_NAME" Language="th_TH">
+			<Text>A restored cursus honorum can bring Rome forward into the future.</Text>		<!-- A restored cursus honorum can bring Rome forward into the future. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30000B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30000C_NAME" Language="th_TH">
+			<Text>In the army is Rome’s strength.</Text>		<!-- In the army is Rome’s strength. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30000C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30003A_STORYTITLE" Language="th_TH">
+			<Text>Erosion</Text>		<!-- Erosion -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30003A_COMPLETION" Language="th_TH">
+			<Text>Egypt is the kingdom that, like the Nile, might rise and fall but never vanishes. But every river needs a spring. The rule of god-kings grows less and less effective as empires become bureaucracies, and it is good accounting, not divine favor, that fills granaries and funds irrigation teams.</Text>		<!-- Egypt is the kingdom that, like the Nile, might rise and fall but never vanishes. But every river needs a spring. The rule of god-kings grows less and less effective as empires become bureaucracies, and it is good accounting, not divine favor, that fills granaries and funds irrigation teams. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30003B_NAME" Language="th_TH">
+			<Text>Egypt will pass through the night-lands and fear not the Apophis-serpent. The pharaoh will have their functionaries.</Text>		<!-- Egypt will pass through the night-lands and fear not the Apophis-serpent. The pharaoh will have their functionaries. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30003B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30003C_NAME" Language="th_TH">
+			<Text>Egypt is the land of the sun. One does not assign an administrative assistant to the sun.</Text>		<!-- Egypt is the land of the sun. One does not assign an administrative assistant to the sun. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30003C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30006A_STORYTITLE" Language="th_TH">
+			<Text>The Closing of Abyssinia</Text>		<!-- The Closing of Abyssinia -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30006A_COMPLETION" Language="th_TH">
+			<Text>The sons and daughters of the merchant class parade through the Aksumite square, dressed in silk shamma and fine linen kemis - finer than any noble-born child could afford. In the court, the nobility clamors for sumptuary laws, prohibiting commoners from parading in such finery.</Text>		<!-- The sons and daughters of the merchant class parade through the Aksumite square, dressed in silk shamma and fine linen kemis - finer than any noble-born child could afford. In the court, the nobility clamors for sumptuary laws, prohibiting commoners from parading in such finery. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30006B_NAME" Language="th_TH">
+			<Text>Money runs Aksum, not the carvings on stelae. Back the merchants.</Text>		<!-- Money runs Aksum, not the carvings on stelae. Back the merchants. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30006B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30006C_NAME" Language="th_TH">
+			<Text>Aksum is nothing without its soul. Back the nobles.</Text>		<!-- Aksum is nothing without its soul. Back the nobles. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30006C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30007A_STORYTITLE" Language="th_TH">
+			<Text>Hellenistic Descent</Text>		<!-- Hellenistic Descent -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30007A_COMPLETION" Language="th_TH">
+			<Text>The philosophers of Greece have their works translated, analyzed, elaborated upon, and often plagiarized. Greek words enter foreign vocabularies, Greek concepts are taken up as the foundations of thought in places far from Greek soil. But the thinkers remembered are thinkers from the past – present-day Greece remains an afterthought. Even as its past glories are remembered, its influence wanes.</Text>		<!-- The philosophers of Greece have their works translated, analyzed, elaborated upon, and often plagiarized. Greek words enter foreign vocabularies, Greek concepts are taken up as the foundations of thought in places far from Greek soil. But the thinkers remembered are thinkers from the past – present-day Greece remains an afterthought. Even as its past glories are remembered, its influence wanes. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30007B_NAME" Language="th_TH">
+			<Text>Greek thinkers continue to think. Greek ideas continue to develop. The Hellenistic world still lives.</Text>		<!-- Greek thinkers continue to think. Greek ideas continue to develop. The Hellenistic world still lives. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30007B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30007C_NAME" Language="th_TH">
+			<Text>The ancient world of logios and hoplite is a distant land for present-day Greeks as well.</Text>		<!-- The ancient world of logios and hoplite is a distant land for present-day Greeks as well. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30007C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30008A_STORYTITLE" Language="th_TH">
+			<Text>Celestial Bureaucracy of the Seas</Text>		<!-- Celestial Bureaucracy of the Seas -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30008A_COMPLETION" Language="th_TH">
+			<Text>Han expands outward into the world: not to explore and catalog newness, but to bring the world under a common rationality. A common set of standards, a universal listing of names and terms - these further scientific inquiry, but risk conflict with those who think differently.</Text>		<!-- Han expands outward into the world: not to explore and catalog newness, but to bring the world under a common rationality. A common set of standards, a universal listing of names and terms - these further scientific inquiry, but risk conflict with those who think differently. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30008B_NAME" Language="th_TH">
+			<Text>Standardization, metrics, centralization. This is the only way forward</Text>		<!-- Standardization, metrics, centralization. This is the only way forward -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30008B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30008C_NAME" Language="th_TH">
+			<Text>Han must relax its terms to achieve its goals.</Text>		<!-- Han must relax its terms to achieve its goals. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30008C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30009A_STORYTITLE" Language="th_TH">
+			<Text>Silt in the Baray</Text>		<!-- Silt in the Baray -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30009A_COMPLETION" Language="th_TH">
+			<Text>Each year, the rains bring fresh life to the Khmer. Each year, the population drinks the reservoirs dry. One bad drought could spell disaster. The tasks of dredging old baray and cutting new, reinforced canals must be done, but they are hardly glorious jobs.</Text>		<!-- Each year, the rains bring fresh life to the Khmer. Each year, the population drinks the reservoirs dry. One bad drought could spell disaster. The tasks of dredging old baray and cutting new, reinforced canals must be done, but they are hardly glorious jobs. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30009B_NAME" Language="th_TH">
+			<Text>No one’s name will be inscribed on stelae. No king’s face will grace a stupa. Workers will dig, and water will flow.</Text>		<!-- No one’s name will be inscribed on stelae. No king’s face will grace a stupa. Workers will dig, and water will flow. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30009B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30009C_NAME" Language="th_TH">
+			<Text>Perhaps baray should adapt, too.</Text>		<!-- Perhaps baray should adapt, too. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30009C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30010A_STORYTITLE" Language="th_TH">
+			<Text>The Chhatra</Text>		<!-- The Chhatra -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30010A_COMPLETION" Language="th_TH">
+			<Text>In the Maurya street, one hears hundreds of languages; there are shrines to scores of gods; a thousand different styles of dress. But the umbrella of Maurya rule - the chhatra - can only extend so far, and the world now seems almost incomprehensibly vast. Bureaucrats balancing the demands of groups against groups develop headaches.</Text>		<!-- In the Maurya street, one hears hundreds of languages; there are shrines to scores of gods; a thousand different styles of dress. But the umbrella of Maurya rule - the chhatra - can only extend so far, and the world now seems almost incomprehensibly vast. Bureaucrats balancing the demands of groups against groups develop headaches. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30010B_NAME" Language="th_TH">
+			<Text>Organize a hierarchy of authority.</Text>		<!-- Organize a hierarchy of authority. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30010B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30010C_NAME" Language="th_TH">
+			<Text>Expand the chhatra. All are Maurya.</Text>		<!-- Expand the chhatra. All are Maurya. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30010C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30011A_STORYTITLE" Language="th_TH">
+			<Text>Distant Stars and Distant Suns</Text>		<!-- Distant Stars and Distant Suns -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30011A_COMPLETION" Language="th_TH">
+			<Text>Maya travelers have moved far from their former homeland, and have seen many strange sights. For instance, the length of day, the track of ‘K’iinich Ahau in the sky, and the rising of Kukulkan seem different when one is far from home. Maya settlements wonder what might it mean to live under different stars and different suns.</Text>		<!-- Maya travelers have moved far from their former homeland, and have seen many strange sights. For instance, the length of day, the track of ‘K’iinich Ahau in the sky, and the rising of Kukulkan seem different when one is far from home. Maya settlements wonder what might it mean to live under different stars and different suns. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30011B_NAME" Language="th_TH">
+			<Text>It means different people and different rites. Bring forth the poet-priests.</Text>		<!-- It means different people and different rites. Bring forth the poet-priests. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30011B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30011C_NAME" Language="th_TH">
+			<Text>It means different futures and fortunes. Bring forth the mathematician-astrologers.</Text>		<!-- It means different futures and fortunes. Bring forth the mathematician-astrologers. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30011C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30012A_STORYTITLE" Language="th_TH">
+			<Text>Sacrifices</Text>		<!-- Sacrifices -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30012A_COMPLETION" Language="th_TH">
+			<Text>When a noble of the Mississippians dies, they are buried with beads, weapons, and all the symbols of status – including scores of servants, strangled and laid in graves. As new technologies and connections make for more prosperous nobles, the size of these graves have increased – as have the numbers of furious commoners who have lost a relative to serve the nobles in the next world.</Text>		<!-- When a noble of the Mississippians dies, they are buried with beads, weapons, and all the symbols of status – including scores of servants, strangled and laid in graves. As new technologies and connections make for more prosperous nobles, the size of these graves have increased – as have the numbers of furious commoners who have lost a relative to serve the nobles in the next world. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30012B_NAME" Language="th_TH">
+			<Text>Nobles need to be served in the next life as in this one. But perhaps one can sacrifice a name and title, not a body.</Text>		<!-- Nobles need to be served in the next life as in this one. But perhaps one can sacrifice a name and title, not a body. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30012B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30012C_NAME" Language="th_TH">
+			<Text>Times change. So do the Mississippian noble privileges.</Text>		<!-- Times change. So do the Mississippian noble privileges. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30012C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30013A_STORYTITLE" Language="th_TH">
+			<Text>The Widening Gyre</Text>		<!-- The Widening Gyre -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30013A_COMPLETION" Language="th_TH">
+			<Text>Achamaenid rule is fractal – the power of the glorious center is repeated in miniature form on its fringes. But as the center grows, a problem arises: local rulers are caught between enacting their own shah-dom and petitioning for a role in the glorious court at {1_Capital}. Local rulers return after years in the capital to find lands that no longer recognize their authority. Assassinations become fashionable.</Text>		<!-- Achamaenid rule is fractal – the power of the glorious center is repeated in miniature form on its fringes. But as the center grows, a problem arises: local rulers are caught between enacting their own shah-dom and petitioning for a role in the glorious court at {1_Capital}. Local rulers return after years in the capital to find lands that no longer recognize their authority. Assassinations become fashionable. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30013B_NAME" Language="th_TH">
+			<Text>Keep rule as it is – each lesser fire a reflection of the central fire. Persia will adapt, but remain Achamaenid.</Text>		<!-- Keep rule as it is – each lesser fire a reflection of the central fire. Persia will adapt, but remain Achamaenid. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30013B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30013C_NAME" Language="th_TH">
+			<Text>Such happenings purge the unworthy.</Text>		<!-- Such happenings purge the unworthy. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30013C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_10184A_STORYTITLE" Language="th_TH">
+			<Text>Dr Rizal and the {1_SUBJECT_CIVILIZATION_ADJ} People</Text>		<!-- Dr Rizal and the {1_SUBJECT_CIVILIZATION_ADJ} People -->
+		</Replace>
+		<Replace Tag="LOC_10184A_COMPLETION" Language="th_TH">
+			<Text>After extensive travel, Dr Rizal seeks a quiet moment to himself. He reflects on all he has observed in {1_SUBJECT_CIVILIZATION_ADJ} lands, opening his notebook to a blank page. What he writes, he will remember of this place for all time.</Text>		<!-- After extensive travel, Dr Rizal seeks a quiet moment to himself. He reflects on all he has observed in {1_SUBJECT_CIVILIZATION_ADJ} lands, opening his notebook to a blank page. What he writes, he will remember of this place for all time. -->
+		</Replace>
+		<Replace Tag="LOC_10184B_NAME" Language="th_TH">
+			<Text>Such fervent beliefs.</Text>		<!-- Such fervent beliefs. -->
+		</Replace>
+		<Replace Tag="LOC_10184B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_10184C_NAME" Language="th_TH">
+			<Text>What charismatic leadership.</Text>		<!-- What charismatic leadership. -->
+		</Replace>
+		<Replace Tag="LOC_10184C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_10184D_NAME" Language="th_TH">
+			<Text>So much wealth.</Text>		<!-- So much wealth. -->
+		</Replace>
+		<Replace Tag="LOC_10184D_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_10184E_NAME" Language="th_TH">
+			<Text>How great the land's potential.</Text>		<!-- How great the land's potential. -->
+		</Replace>
+		<Replace Tag="LOC_10184E_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} in {2_capital}.</Text>		<!-- {1_reward} in {2_capital}. -->
+		</Replace>
+		<Replace Tag="LOC_10184F_NAME" Language="th_TH">
+			<Text>How imposing their armies.</Text>		<!-- How imposing their armies. -->
+		</Replace>
+		<Replace Tag="LOC_10184F_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} on Swordsmen.</Text>		<!-- {1_reward} on Swordsmen. -->
+		</Replace>
+		<Replace Tag="LOC_10184G_NAME" Language="th_TH">
+			<Text>What wondrous inventions.</Text>		<!-- What wondrous inventions. -->
+		</Replace>
+		<Replace Tag="LOC_10184G_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_5_DESCRIPTION" Language="th_TH">
 			<Text>เมื่อ [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]เส้นทางการค้า[/TIP] ได้รับการจัดตั้งกับ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] มันจะถูกเปลี่ยนให้เป็น [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_RELIGION_TOOLTIP]ศาสนาของคุณ[/TIP]</Text>		<!-- When a [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP] is established to a [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP], it is converted to your [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_RELIGION_TOOLTIP]Religion[/TIP]. -->
@@ -17306,6 +18566,36 @@
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_QUEST_QUOTE_SCIENCE" Language="th_TH">
 			<Text>ความก้าวหน้าไม่ได้มาจาก อัจฉริยภาพส่วนบุคคล แต่มาจากชุมชนของผู้คิด</Text>		<!-- Progress does not come from individual genius, but from a community of thinkers. -->
+		</Replace>
+		<Replace Tag="LOC_TUTORIAL_VICTORIES_EXPLORATION_TITLE" Language="th_TH">
+			<Text>Victories in the Exploration Age</Text>		<!-- Victories in the Exploration Age -->
+		</Replace>
+		<Replace Tag="LOC_TUTORIAL_VICTORIES_EXPLORATION_BODY" Language="th_TH">
+			<Text>{1_UnlockCondition} Feel free to review your progress now; more information will be provided when Victories are available!</Text>		<!-- {1_UnlockCondition} Feel free to review your progress now; more information will be provided when Victories are available! -->
+		</Replace>
+		<Replace Tag="LOC_TUTORIAL_VICTORIES_EXPLORATION_BODY_NORMAL_UNLOCK" Language="th_TH">
+			<Text>Victories are not available now, but will be available when Age Progress reaches 50%.</Text>		<!-- Victories are not available now, but will be available when Age Progress reaches 50%. -->
+		</Replace>
+		<Replace Tag="LOC_TUTORIAL_VICTORIES_EXPLORATION_BODY_ADVANCED_START" Language="th_TH">
+			<Text>Victories will be available in the Modern Age.</Text>		<!-- Victories will be available in the Modern Age. -->
+		</Replace>
+		<Replace Tag="LOC_TUTORIAL_VICTORY_SCREEN_CALLOUT_TITLE" Language="th_TH">
+			<Text>Victories are Available!</Text>		<!-- Victories are Available! -->
+		</Replace>
+		<Replace Tag="LOC_TUTORIAL_VICTORY_SCREEN_CALLOUT_BODY" Language="th_TH">
+			<Text>Victories are now available for all Players to achieve! While highly unlikely in the Exploration Age, now is a good time to learn exactly how to win.</Text>		<!-- Victories are now available for all Players to achieve! While highly unlikely in the Exploration Age, now is a good time to learn exactly how to win. -->
+		</Replace>
+		<Replace Tag="LOC_TUTORIAL_VICTORIES_AVAILABLE_TITLE" Language="th_TH">
+			<Text>Achieving Victory</Text>		<!-- Achieving Victory -->
+		</Replace>
+		<Replace Tag="LOC_TUTORIAL_VICTORIES_AVAILABLE_BODY" Language="th_TH">
+			<Text>To win a game of Civilization VII, you will need to become dominant in one of four categories: Military, Culture, Science, or Economy.
+				[n]A Player is considered dominant if their score in a category is multiple times higher the second place Player. The multiplier required to win reduces over time, so Victories will require less dominance as the game progresses. Once any Player has reached the target score, they will have to maintain dominance for a number of turns. 
+				[n]The Science Victory is different as it requires you to collect 100 Innovation, regardless of other Players' performance. It will only be available in the Modern Age, as you must have a Launch Pad to begin the Victory countdown.
+				[n]Pursue any Victory you like, or continue to experiment! Your Advisors may also have ideas on what to do.</Text>		<!-- To win a game of Civilization VII, you will need to become dominant in one of four categories: Military, Culture, Science, or Economy.
+				[n]A Player is considered dominant if their score in a category is multiple times higher the second place Player. The multiplier required to win reduces over time, so Victories will require less dominance as the game progresses. Once any Player has reached the target score, they will have to maintain dominance for a number of turns. 
+				[n]The Science Victory is different as it requires you to collect 100 Innovation, regardless of other Players' performance. It will only be available in the Modern Age, as you must have a Launch Pad to begin the Victory countdown.
+				[n]Pursue any Victory you like, or continue to experiment! Your Advisors may also have ideas on what to do. -->
 		</Replace>
 		<Replace Tag="LOC_TUTORIAL_QUEST_CONFIRM_TITLE" Language="th_TH">
 			<Text>เส้นทางมรดก: {1_LegacyPathAdvisor}</Text>		<!-- Legacy Path: {1_LegacyPathAdvisor} -->

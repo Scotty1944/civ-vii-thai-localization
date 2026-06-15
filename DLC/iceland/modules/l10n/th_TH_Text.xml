@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" ?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_CITIZEN_ICELAND_MALE_1" Language="th_TH">
@@ -172,6 +172,12 @@
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_ICELAND_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น [icon:YIELD_TOWNS] สิ่งมหัศจรรย์ ของไอซ์แลนด์</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Iceland's associated [icon:YIELD_TOWNS] Wonder. -->
 		</Replace>
+		<Replace Tag="LOC_TRAIT_ICELAND_ABILITY_AQ_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI][B]+1 [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]Sight[/TIP][/B] for [B][TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP][/B].[LI]Gain [B]250 [icon:YIELD_CULTURE] Culture[/B] when you discover a [icon:NOTIFICATION_DISCOVER_NATURAL_WONDER] [B]Natural Wonder[/B] (On Standard Speed).[/BLIST]</Text>		<!-- [BLIST][LI][B]+1 [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]Sight[/TIP][/B] for [B][TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP][/B].[LI]Gain [B]250 [icon:YIELD_CULTURE] Culture[/B] when you discover a [icon:NOTIFICATION_DISCOVER_NATURAL_WONDER] [B]Natural Wonder[/B] (On Standard Speed).[/BLIST] -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_ICELAND_ABILITY_MO_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI][B]+1 [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]Sight[/TIP][/B] for [B][TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP][/B].[LI][B]+4 [icon:YIELD_CULTURE] Culture[/B] on [B][icon:NOTIFICATION_DISCOVER_NATURAL_WONDER] Natural Wonder[/B] and [B]Volcano Tiles[/B].[LI][B][TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP][/B] can Coastal Raid [B]Archaeology Sites[/B], gaining [B]2 [icon:GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_ARTIFACT_TOOLTIP]Artifacts[/TIP][/B] and removing the site.[/BLIST]</Text>		<!-- [BLIST][LI][B]+1 [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]Sight[/TIP][/B] for [B][TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP][/B].[LI][B]+4 [icon:YIELD_CULTURE] Culture[/B] on [B][icon:NOTIFICATION_DISCOVER_NATURAL_WONDER] Natural Wonder[/B] and [B]Volcano Tiles[/B].[LI][B][TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP][/B] can Coastal Raid [B]Archaeology Sites[/B], gaining [B]2 [icon:GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_ARTIFACT_TOOLTIP]Artifacts[/TIP][/B] and removing the site.[/BLIST] -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_CIVILIZATION_ICELAND_CHAPTER_HISTORY_PARA_1" Language="th_TH">
 			<Text>ในปี 874 ค.ศ. อิงโกล์ฟ อาร์นาร์สัน ได้รวบรวมครัวเรือนของเขาและออกเรือจากนอร์เวย์ไปยังเกาะที่ไม่มีผู้คนอาศัยอยู่กลางมหาสมุทรแอตแลนติกเหนือ ดินแดนนี้ถูกค้นพบเมื่อหลายปีก่อน โดยเริ่มแรกตั้งชื่อว่า สเนลันด์ (ดินแดนหิมะ) ต่อมาเป็นการ์ดาร์ชอัลมี (เกาะของการ์ดร์ โดยชายคนหนึ่งชื่อการ์ดร์) และสุดท้ายคือ ไอซ์แลนด์ (ดินแดนน้ำแข็ง) หลังจากธารน้ำแข็งขนาดใหญ่ทางตะวันตกของมัน เมื่อเรือยาวของอิงโกล์ฟเข้าใกล้ชายฝั่ง เขาได้นำเสาหลักที่ติดตามที่นั่งสูงของห้องโถงของเขาออกมาและโยนลงไปในทะเล โดยมีการนำทางจากกระแสน้ำ โชคชะตา และอาจจะเป็นเทพเจ้า พวกมันลอยไปยังชายฝั่งใกล้กับสิ่งที่ปัจจุบันคือเรคยาวิก ที่ซึ่งอิงโกล์ฟสร้างฟาร์มของเขา</Text>		<!-- In 874 CE, Ingólfr Arnarson gathered his household and set sail from Norway to an uninhabited island in the middle of the North Atlantic Ocean. The land had been discovered some years earlier, first named Snæland (Snow Land), then Garðarshólmi (Garðr’s Island, by a man named Garðr), and finally Ísland (Ice Land) after its immense western glacier. As Ingólfr’s longship approached the coast, he brought out the pillars that accompanied his hall’s high seat and threw them into the sea. Guided by the currents, fate, and perhaps the gods, they drifted ashore near what is today Reykjavík, where Ingólfr built his farm. -->
 		</Replace>
@@ -224,7 +230,7 @@
 			<Text>“Hugins drekka” (งานเลี้ยงของฮูกินน์) เป็นการใช้คำแบบเคนนิง ซึ่งเป็นรูปแบบการพูดที่ใช้กันอย่างแพร่หลายในบทกวีเก่าแก่ของนอร์สและอังกฤษโบราณ โดยที่วลีหลายคำจะมาแทนที่คำเดียว เคนนิงสามารถมีความตรงไปตรงมา (“ถนนวาฬ” สำหรับ “มหาสมุทร”) หรือซับซ้อน (“ลมที่เอื้ออำนวยของหมีพระจันทร์” สำหรับ “ความคิด”) ซึ่งอาจจะเป็นเพียงการบรรยายหรืออิงจากความรู้ทางตำนานเพื่อการตีความ “งานเลี้ยงของฮูกินน์” อยู่ในหมวดหลัง – ฮูกินน์เป็นอีกหนึ่งนกกาเพื่อนของเทพเจ้าโอธิน และนกกาถือเป็น “สัตว์แห่งการต่อสู้” (พร้อมกับนกอินทรีและหมาป่า) เพราะพวกมันเป็นสัตว์ที่กินซากศพ ดังนั้นงานเลี้ยงของนกกา จึงหมายถึงศพ</Text>		<!-- “Hugins drekka” (Huginn’s banquet) is a kenning, a figure of speech used extensively in Old Norse and Old English poetry in which a multi-word phrase replaces a single word. Kennings range from straightforward (“whale-road” for “ocean”) to complex (“the favorable wind of the moon-bear” for “thought”). They may be purely descriptive or rely on mythological knowledge to interpret. “Huginn’s banquet” falls in the latter category – Huginn is a raven companion of the god Óðinn, and ravens are considered “beasts of battle” (along with eagles and wolves) because they are carrion-eaters. Thus a raven’s banquet is a corpse. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_ICELAND_HUGINS_DREKKA_CHAPTER_HISTORY_PARA_2" Language="th_TH">
-			<Text>ตลอดทั้งคอลเลกชันวรรณกรรม บทกวีเป็นงานฝีมือที่มีคุณค่าอย่างสูงในโลกนอร์ส และมีอยู่ในสองสาขา คือ บทกวีเอดดิกและบทกวีสกัลดิก บทกวีเอดดิกมีข้อกำหนดน้อยกว่าและใช้สำหรับงานที่เกี่ยวกับตำนานและตำนานเป็นหลัก; พบได้เกือบทั้งหมดในคอลเลกชันที่รู้จักกันในชื่อว่า โพเอติกเอดดา บทกวีสกัลดิกมีความต้องการมากกว่า ต้องการความเชี่ยวชาญในกฎเกณฑ์ที่ซับซ้อนเกี่ยวกับเมตร การสัมผัส และคำศัพท์ รวมถึงความรู้ที่ลึกซึ้งเกี่ยวกับคอลเลกชันตำนานและตำนานเพื่อให้สามารถอ้างอิงได้อย่างถูกต้อง ความคิดสร้างสรรค์เป็นกุญแจสำคัญ – การทำซ้ำไม่เป็นที่นิยม และมีเคนนิงประมาณ 10,000 คำ ซึ่งส่วนใหญ่เป็นเอกลักษณ์ที่ยังคงอยู่ในคอลเลกชันบทกวีที่มีอยู่ ดร็อตต์ควัตต์ (“เมตรราชสำนัก”) เป็นเมตรสกัลดิกที่ได้รับความนิยมและเคารพมากที่สุด โดยเฉพาะสำหรับบทกวีสรรเสริญที่มุ่งจับภาพความสำเร็จอันน่าประทับใจของกษัตริย์และนักรบ ไอซ์แลนด์เป็นที่รู้จักกันดีในฐานะแหล่งที่มาของสกัลด์ (กวี) ที่มีความสามารถอย่างสม่ำเสมอ และพวกเขามักถูกสรรหาจากกษัตริย์ต่างประเทศให้เป็นกวีในราชสำนัก</Text>		<!-- Preserved throughout the literary corpus, poetry was a highly valued craft across the Norse world and exists in two branches, eddic and skaldic. Eddic poetry had fewer rules and was primarily used for mythological and legendary works; it is found almost exclusively in the collection now known as the Poetic Edda. Skaldic poetry was more demanding, requiring not only the mastery of complex metrical, rhyming, and lexical rules, but also thorough knowledge of the mythological and legendary corpus so that proper references could be made. Creativity was key – repetition was discouraged, and approximately 10,000 kennings, mostly unique, survive in the extant poetic corpus. Dróttkvætt (“court meter”) was the most popular and revered skaldic meter, particularly for praise poetry devoted to capturing the impressive deeds of kings and warriors. Iceland was well-known as a consistent source of talented skalds (poets), and they were often recruited by foreign kings as court poets.  -->
+			<Text>ตลอดทั้งคอลเลกชันวรรณกรรม บทกวีเป็นงานฝีมือที่มีคุณค่าอย่างสูงในโลกนอร์ส และมีอยู่ในสองสาขา คือ บทกวีเอดดิกและบทกวีสกัลดิก บทกวีเอดดิกมีข้อกำหนดน้อยกว่าและใช้สำหรับงานที่เกี่ยวกับตำนานและตำนานเป็นหลัก; พบได้เกือบทั้งหมดในคอลเลกชันที่รู้จักกันในชื่อว่า โพเอติกเอดดา บทกวีสกัลดิกมีความต้องการมากกว่า ต้องการความเชี่ยวชาญในกฎเกณฑ์ที่ซับซ้อนเกี่ยวกับเมตร การสัมผัส และคำศัพท์ รวมถึงความรู้ที่ลึกซึ้งเกี่ยวกับคอลเลกชันตำนานและตำนานเพื่อให้สามารถอ้างอิงได้อย่างถูกต้อง ความคิดสร้างสรรค์เป็นกุญแจสำคัญ – การทำซ้ำไม่เป็นที่นิยม และมีเคนนิงประมาณ 10,000 คำ ซึ่งส่วนใหญ่เป็นเอกลักษณ์ที่ยังคงอยู่ในคอลเลกชันบทกวีที่มีอยู่ ดร็อตต์ควัตต์ (“เมตรราชสำนัก”) เป็นเมตรสกัลดิกที่ได้รับความนิยมและเคารพมากที่สุด โดยเฉพาะสำหรับบทกวีสรรเสริญที่มุ่งจับภาพความสำเร็จอันน่าประทับใจของกษัตริย์และนักรบ ไอซ์แลนด์เป็นที่รู้จักกันดีในฐานะแหล่งที่มาของสกัลด์ (กวี) ที่มีความสามารถอย่างสม่ำเสมอ และพวกเขามักถูกสรรหาจากกษัตริย์ต่างประเทศให้เป็นกวีในราชสำนัก</Text>		<!-- Preserved throughout the literary corpus, poetry was a highly valued craft across the Norse world and exists in two branches, eddic and skaldic. Eddic poetry had fewer rules and was primarily used for mythological and legendary works; it is found almost exclusively in the collection now known as the Poetic Edda. Skaldic poetry was more demanding, requiring not only the mastery of complex metrical, rhyming, and lexical rules, but also thorough knowledge of the mythological and legendary corpus so that proper references could be made. Creativity was key – repetition was discouraged, and approximately 10,000 kennings, mostly unique, survive in the extant poetic corpus. Dróttkvætt (“court meter”) was the most popular and revered skaldic meter, particularly for praise poetry devoted to capturing the impressive deeds of kings and warriors. Iceland was well-known as a consistent source of talented skalds (poets), and they were often recruited by foreign kings as court poets. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_ICELAND_HUGINS_DREKKA_CHAPTER_HISTORY_PARA_3" Language="th_TH">
 			<Text>บทกวีมีบทบาทสำคัญในการอนุรักษ์มรดกตลอดยุคไวกิ้งและยุคกลาง สำหรับสังคมที่ในยุคก่อนคริสต์ศักราชเชื่อในเทพเจ้าที่มีชีวิตและโลกที่วันหนึ่งจะมาถึงจุดจบที่ร้อนแรง มนุษยชาติเป็นส่วนหนึ่งที่ยอมรับในประสบการณ์ของมนุษย์ ความเป็นอมตะได้รับการสร้างขึ้นจากชื่อเสียงที่หล่อหลอมในชีวิต ตามที่อธิบายไว้ในบทกวีเอดดิก Hávamál: “วัวตาย, ญาติสนิทตาย, ตัวตนก็ต้องตาย ฉันรู้สิ่งหนึ่งที่ไม่เคยตาย: ชื่อเสียงของแต่ละคนที่ดี” บทกวีเป็นวิธีการในการจับความสำเร็จของชาวนอร์ส ซึ่งถูกอนุรักษ์ไว้เพื่อการถ่ายทอดด้วยปากเปล่า เพื่อให้ความทรงจำของบุคคลสามารถมีชีวิตอยู่ต่อไปได้หลายชั่วอายุคน หลังจากการเปลี่ยนไปสู่ศาสนาคริสต์ การอ้างอิงถึงตำนานและตำนานเริ่มจางหายไป และในศตวรรษที่ 13 นักวิชาการชาวไอซ์แลนด์ Snorri Sturluson ได้ผลิตคู่มือบทกวีที่ออกแบบมาเพื่ออนุรักษ์ศิลปะที่กำลังเสื่อมสลายนี้สำหรับคนรุ่นต่อไป ปัจจุบันเรียกว่า Prose Edda ซึ่งเริ่มต้นด้วยการสรุปยาวเกี่ยวกับตำนานที่กำลังถูกลืม โดยบังเอิญกลายเป็นแหล่งข้อมูลที่สมบูรณ์ที่สุดสำหรับตำนานนอร์สที่ยังคงอยู่จนถึงปัจจุบัน</Text>		<!-- Poetry also played an important role in legacy preservation throughout the Viking and Middle Ages. For a society that, during the pre-Christian era, believed in mortal gods and a world that would some day come to a conclusive fiery end, mortality was an accepted part of the human experience. Immortality was earned through the reputation forged during life, as explained in the eddic poem Hávamál: “Cattle die, kinsmen die, the self also dies. I know one thing that never dies: the reputation of each good man.” Poetry was a means to capture the accomplishments of the Norse, preserved for oral transmission so that a person’s memory could live on for generations to come. After the conversion to Christianity, the mythological and legendary references began to fade, and in the 13th century, the Icelandic scholar Snorri Sturluson produced a poetry manual designed to preserve the waning art for future generations. Now called the Prose Edda, it begins with a lengthy summary of the myths that were being forgotten, inadvertently becoming the most complete source for Norse mythology that has survived to the modern day. -->
@@ -346,11 +352,68 @@
 		<Replace Tag="LOC_MOD_LANDNAMBOK_KILN_WAREHOUSE_THING_DESCRIPTION" Language="th_TH">
 			<Text>+2 [icon:YIELD_GOLD] ทองใน [icon:CITY_RURAL] ธิงสตาเดอะร์ ใน[TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP]ที่มีเตาเผา</Text>		<!-- +2 [icon:YIELD_GOLD] Gold on [icon:CITY_RURAL] Þingstaðr in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with a Kiln. -->
 		</Replace>
+		<Replace Tag="LOC_TRADITION_STRANDHOGG_NAME" Language="th_TH">
+			<Text>Strandhögg</Text>		<!-- Strandhögg -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_STRANDHOGG_DESCRIPTION" Language="th_TH">
+			<Text>[TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] can [icon:Action_Pillage] Pillage and Coastal Raid tiles within 2 tiles. [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] can disperse [icon:INDEPENDENT_POWER] [TIP:LOC_PEDIA_CONCEPTS_INDEPENDENT_POWER_TOOLTIP]Independent Powers[/TIP] or [icon:Action_Pillage] Coastal Raid for 1 [icon:UNIT_MOVEMENT_ICON] Movement when in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP]. Does not apply to Discoveries.</Text>		<!-- [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] can [icon:Action_Pillage] Pillage and Coastal Raid tiles within 2 tiles. [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] can disperse [icon:INDEPENDENT_POWER] [TIP:LOC_PEDIA_CONCEPTS_INDEPENDENT_POWER_TOOLTIP]Independent Powers[/TIP] or [icon:Action_Pillage] Coastal Raid for 1 [icon:UNIT_MOVEMENT_ICON] Movement when in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP]. Does not apply to Discoveries. -->
+		</Replace>
 		<Replace Tag="LOC_MOD_HUGINS_DREKKA_RANGE_PILLAGE_DESCRIPTION" Language="th_TH">
 			<Text>ยูนิตทางทะเลสามารถ [icon:Action_Pillage] โจมตีชายฝั่งภายใน 2 ช่อง</Text>		<!-- [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] can [icon:Action_Pillage] Coastal Raid within 2 tiles. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_HUGINS_DREKKA_PILLAGE_ONE_MOVE_DESCRIPTION" Language="th_TH">
 			<Text>วิกิ้งสามารถ [icon:Action_Pillage] โจมตีชายฝั่งได้ด้วย 1 [icon:Action_Move] แต้มเคลื่อนที่ เมื่ออยู่ใน [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP], ไม่รวมถึงการค้นพบ</Text>		<!-- Víkingr may [icon:Action_Pillage] Coastal Raid for 1 [icon:Action_Move] Movement when in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP]. Does not apply to Discoveries. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DROTTKVAETT_II_NAME" Language="th_TH">
+			<Text>Dróttkvætt II</Text>		<!-- Dróttkvætt II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DROTTKVAETT_II_DESCRIPTION" Language="th_TH">
+			<Text>Coastal Raiding and Pillaging with [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] grants [icon:YIELD_CULTURE] Culture equal to 50% of [icon:Action_Pillage] Pillage Yields and [icon:Action_Heal] Healing.</Text>		<!-- Coastal Raiding and Pillaging with [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] grants [icon:YIELD_CULTURE] Culture equal to 50% of [icon:Action_Pillage] Pillage Yields and [icon:Action_Heal] Healing. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_LYFSTEINN_I_NAME" Language="th_TH">
+			<Text>Lyfsteinn I</Text>		<!-- Lyfsteinn I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_LYFSTEINN_I_DESCRIPTION" Language="th_TH">
+			<Text>+10 [icon:Action_Heal] Healing for [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] outside friendly territory.</Text>		<!-- +10 [icon:Action_Heal] Healing for [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] outside friendly territory. -->
+		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_AQ_ICELAND_ORIGINS_NAME" Language="th_TH">
+			<Text>Icelandic Origins</Text>		<!-- Icelandic Origins -->
+		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_MO_ICELAND_MODERNIZATION_NAME" Language="th_TH">
+			<Text>Icelandic Modernization</Text>		<!-- Icelandic Modernization -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DROTTKVAETT_I_NAME" Language="th_TH">
+			<Text>Dróttkvætt I</Text>		<!-- Dróttkvætt I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DROTTKVAETT_I_DESCRIPTION" Language="th_TH">
+			<Text>Coastal Raiding and Pillaging with [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] grants [icon:YIELD_CULTURE] Culture equal to 25% of [icon:Action_Pillage] Pillage Yields and [icon:Action_Heal] Healing.</Text>		<!-- Coastal Raiding and Pillaging with [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] grants [icon:YIELD_CULTURE] Culture equal to 25% of [icon:Action_Pillage] Pillage Yields and [icon:Action_Heal] Healing. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_LYFSTEINN_II_NAME" Language="th_TH">
+			<Text>Lyfsteinn II</Text>		<!-- Lyfsteinn II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_LYFSTEINN_II_DESCRIPTION" Language="th_TH">
+			<Text>+20 [icon:Action_Heal] Healing for [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] outside friendly territory.</Text>		<!-- +20 [icon:Action_Heal] Healing for [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] outside friendly territory. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ICELAND_SYNCRETISM_TOOLTIP" Language="th_TH">
+			<Text>Drekahöfuð</Text>		<!-- Drekahöfuð -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ICELAND_SYNCRETISM_PREVIEW" Language="th_TH">
+			<Text>+{1} {LOC_TRADITION_ICELAND_SYNCRETISM_TOOLTIP}</Text>		<!-- +{1} {LOC_TRADITION_ICELAND_SYNCRETISM_TOOLTIP} -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ICELAND_SYNCRETISM_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Drekahöfuð I</Text>		<!-- Drekahöfuð I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ICELAND_SYNCRETISM_ANTIQUITY_DESCRIPTION" Language="th_TH">
+			<Text>Producing a [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP] grants [icon:YIELD_CULTURE] Culture equal to 50% of the Unit's [icon:YIELD_PRODUCTION] Production cost.</Text>		<!-- Producing a [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP] grants [icon:YIELD_CULTURE] Culture equal to 50% of the Unit's [icon:YIELD_PRODUCTION] Production cost. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ICELAND_SYNCRETISM_MODERN_NAME" Language="th_TH">
+			<Text>Drekahöfuð II</Text>		<!-- Drekahöfuð II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ICELAND_SYNCRETISM_MODERN_DESCRIPTION" Language="th_TH">
+			<Text>Producing a [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP] grants [icon:YIELD_CULTURE] Culture equal to 50% of the Unit's [icon:YIELD_PRODUCTION] Production cost. +1 [icon:NAR_REW_COMBAT] Combat Strength for [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] for each improved [icon:NOTIFICATION_DISCOVER_NATURAL_WONDER] [TIP:LOC_PEDIA_CONCEPTS_NATURAL_WONDER_TOOLTIP]Natural Wonder[/TIP] in your empire.</Text>		<!-- Producing a [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP] grants [icon:YIELD_CULTURE] Culture equal to 50% of the Unit's [icon:YIELD_PRODUCTION] Production cost. +1 [icon:NAR_REW_COMBAT] Combat Strength for [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] for each improved [icon:NOTIFICATION_DISCOVER_NATURAL_WONDER] [TIP:LOC_PEDIA_CONCEPTS_NATURAL_WONDER_TOOLTIP]Natural Wonder[/TIP] in your empire. -->
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_PLAY_AS_ICELAND_ICELAND_TOOLTIP" Language="th_TH">
+			<Text>[B]Iceland[/B] is able to endure throughout the Ages.</Text>		<!-- [B]Iceland[/B] is able to endure throughout the Ages. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_VAERINGJAR_EMBARKED_NAVAL_COMBAT_PREVIEW" Language="th_TH">
 			<Text>+{1_amount} วาเรนจาร์</Text>		<!-- +{1_amount} Væringjar -->
@@ -1165,11 +1228,35 @@
 		<Replace Tag="LOC_UNIT_VIKINGR_2_DESCRIPTION" Language="th_TH">
 			<Text>ยูนิตเรือหนักพิเศษ ระดับ 2 ของไอซ์แลนด์, จะได้รับ [icon:YIELD_SCIENCE] วิทยาศาสตร์ เท่ากับ 25% ของ [icon:Action_Pillage] ผลผลิตจากการโจมตีและ [icon:Action_Heal] การฟื้นฟู, +3 [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]ระยะมองเห็น[/TIP]</Text>		<!-- Tier 2 Iceland Unique Heavy [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP]. Grants [icon:YIELD_SCIENCE] Science equal to 25% of [icon:Action_Pillage] Pillage Yields and [icon:Action_Heal] Healing. Has 3 [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]Sight[/TIP]. -->
 		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ICELAND_FOUR_MAJOR_TRIUMPHS_NAME" Language="th_TH">
+			<Text>Iceland 4 Major Triumphs</Text>		<!-- Iceland 4 Major Triumphs -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ICELAND_FOUR_MAJOR_TRIUMPHS_DESC" Language="th_TH">
+			<Text>As Iceland, complete 4 Militaristic or Cultural Major Triumphs in a single Apex Age.</Text>		<!-- As Iceland, complete 4 Militaristic or Cultural Major Triumphs in a single Apex Age. -->
+		</Replace>
 		<Replace Tag="LOC_UNIT_VIKINGR_3_DESCRIPTION" Language="th_TH">
 			<Text>ยูนิตเรือหนักพิเศษ ระดับ 3 ของไอซ์แลนด์, [icon:YIELD_SCIENCE] วิทยาศาสตร์ เท่ากับ 25% ของ [icon:Action_Pillage] ผลผลิตจากการโจมตีและ [icon:Action_Heal] การฟื้นฟู, มีระยะมองเห็น +3 [icon:Action_Showall]</Text>		<!-- Tier 3 Iceland Unique Heavy [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP]. Grants [icon:YIELD_SCIENCE] Science equal to 25% of [icon:Action_Pillage] Pillage Yields and [icon:Action_Heal] Healing. Has 3 [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]Sight[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_VIKINGR_DESCRIPTION" Language="th_TH">
 			<Text>ได้รับ [icon:YIELD_SCIENCE] วิทยาศาสตร์ เท่ากับ 25% ของ [icon:Action_Pillage] ผลผลิตการปล้น และ [icon:Action_Heal] การรักษา</Text>		<!-- Grants [icon:YIELD_SCIENCE] Science equal to 25% of [icon:Action_Pillage] Pillage Yields and [icon:Action_Heal] Healing. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30029A_STORYTITLE" Language="th_TH">
+			<Text>Ice and Fire</Text>		<!-- Ice and Fire -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30029A_COMPLETION" Language="th_TH">
+			<Text>A pair of carved pillars wander the sea. Once they stood at the high seat, treasures of a chief who rejected the crown and departed his crowded fjord to sail his household toward rumors and hope. Now, guided by the gods, the pillars lead their owner to a new shore.</Text>		<!-- A pair of carved pillars wander the sea. Once they stood at the high seat, treasures of a chief who rejected the crown and departed his crowded fjord to sail his household toward rumors and hope. Now, guided by the gods, the pillars lead their owner to a new shore. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30029B_NAME" Language="th_TH">
+			<Text>Through strength and stubbornness, these Icelanders will realize their full potential.</Text>		<!-- Through strength and stubbornness, these Icelanders will realize their full potential. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30029B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30029C_NAME" Language="th_TH">
+			<Text>The story of his departure is the greater gift.</Text>		<!-- The story of his departure is the greater gift. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30029C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_NATURAL_WONDERS_DESCRIPTION" Language="th_TH">
 			<Text>เป็นคนแรกที่ค้นพบ [B]สิ่งมหัศจรรย์ทางธรรมชาติ[/B]</Text>		<!-- Be the first to discover a [B]Natural Wonder[/B]. -->

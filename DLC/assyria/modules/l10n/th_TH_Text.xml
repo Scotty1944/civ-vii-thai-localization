@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" ?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_CITIZEN_ASSYRIA_MALE_1" Language="th_TH">
@@ -178,6 +178,12 @@
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_ASSYRIA_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP] ที่เกี่ยวข้องกับอัสซีเรีย</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Assyria's associated [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP]. -->
 		</Replace>
+		<Replace Tag="LOC_TRAIT_ASSYRIA_ABILITY_EX_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI]Gain a [icon:RADIAL_TECH] [B][TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]Technology[/TIP][/B] and a [icon:GREATWORK] [B][TIP:LOC_PEDIA_CONCEPTS_RELIC_TOOLTIP]Relic[/TIP][/B] upon capturing a [B][TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP][/B] for the first time.[LI][icon:GREATWORK] [B][TIP:LOC_PEDIA_CONCEPTS_RELIC_TOOLTIP]Relics[/TIP][/B] are not awarded from [icon:RADIAL_CIVICS] [B][TIP:LOC_PEDIA_CONCEPTS_CIVIC_TOOLTIP]Civics[/TIP][/B] or [icon:RADIAL_TECH] [B][TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]Technologies[/TIP][/B].[/BLIST]</Text>		<!-- [BLIST][LI]Gain a [icon:RADIAL_TECH] [B][TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]Technology[/TIP][/B] and a [icon:GREATWORK] [B][TIP:LOC_PEDIA_CONCEPTS_RELIC_TOOLTIP]Relic[/TIP][/B] upon capturing a [B][TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP][/B] for the first time.[LI][icon:GREATWORK] [B][TIP:LOC_PEDIA_CONCEPTS_RELIC_TOOLTIP]Relics[/TIP][/B] are not awarded from [icon:RADIAL_CIVICS] [B][TIP:LOC_PEDIA_CONCEPTS_CIVIC_TOOLTIP]Civics[/TIP][/B] or [icon:RADIAL_TECH] [B][TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]Technologies[/TIP][/B].[/BLIST] -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_ASSYRIA_ABILITY_MO_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI]Gain a [icon:RADIAL_TECH] [B][TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]Technology[/TIP][/B] and an [icon:GREATWORK] [B][TIP:LOC_PEDIA_CONCEPTS_ARTIFACT_TOOLTIP]Artifact[/TIP][/B] upon capturing a [B][TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP][/B] for the first time. [LI][B][icon:UNIT_EXPLORER] Explorers[/B] cannot gain the ability to use the [B]Excavate Artifacts[/B] action on [icon:NOTIFICATION_DISCOVER_NATURAL_WONDER] Natural Wonders.[/BLIST]</Text>		<!-- [BLIST][LI]Gain a [icon:RADIAL_TECH] [B][TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]Technology[/TIP][/B] and an [icon:GREATWORK] [B][TIP:LOC_PEDIA_CONCEPTS_ARTIFACT_TOOLTIP]Artifact[/TIP][/B] upon capturing a [B][TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP][/B] for the first time. [LI][B][icon:UNIT_EXPLORER] Explorers[/B] cannot gain the ability to use the [B]Excavate Artifacts[/B] action on [icon:NOTIFICATION_DISCOVER_NATURAL_WONDER] Natural Wonders.[/BLIST] -->
+		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_CIVILIZATION_ASSYRIA_CHAPTER_HISTORY_PARA_1" Language="th_TH">
 			<Text>อาชูร์เป็นทั้งเทพเจ้า ดินแดน และเมืองในหนึ่งเดียว – ชื่อ “อัสซีเรีย” เป็นเวอร์ชันกรีกของ “mat Ashur” หรือ “ดินแดนของ [เทพเจ้า-เมือง] อาชูร์” เป็นหนึ่งในอาณาจักรที่สำคัญและก้าวหน้าที่สุดในโลกยุคโบราณ อาณาเขตของมันขยายไปทั่วเมโสโปเตเมีย รวมถึงการพิชิตเปอร์เซีย (ในอนาคต) และอียิปต์ (ที่มีอยู่แล้ว) ในช่วงสั้น ๆ</Text>		<!-- Ashur is a god, a land, and a city, all in one – the name “Assyria” is a Greek version of “mat Ashur,” or “the land of [the god-city of] Ashur.” It was one of the most significant and forward-looking empires of the ancient world. Its spread extended across Mesopotamia, including brief conquests in (what would become) Persia and (what already was) Egypt. -->
 		</Replace>
@@ -230,16 +236,16 @@
 			<Text>การศึกษาของเด็กในจักรวรรดิอัสซีเรียเริ่มต้นตั้งแต่ยังเล็กสำหรับผู้ที่ต้องการเป็นเสมียน ตลอดระยะเวลา 12 ปี เด็กชายและหญิงได้รับการฝึกฝนอย่างเข้มงวดในอักษรคูนิฟอร์ม รวมถึงเรียนรู้เรื่องประวัติศาสตร์ ศาสนา การแพทย์ และเกษตรกรรม ทักษะการเป็นเสมียนนี้ – ตุปชาร์รูตู – เป็นการศึกษาที่เข้มข้นและท้าทายสำหรับนักเรียน แต่เมื่อสำเร็จการศึกษาแล้ว พวกเขาจะเป็นที่ต้องการอย่างมากในตำแหน่งที่ต้องใช้ความรู้และการอ่านเขียน เช่น เสมียน แพทย์ นักดาราศาสตร์ นักดนตรี และสถาปนิก </Text>		<!-- Education in the Assyrian Empire began early for children seeking to become scribes. Over the course of 12 years, boys and girls were rigorously trained in cuneiform script; they also studied topics ranging from history and religion to medicine and agriculture. This form of scribal scholarship – tupšarrūtu – was intensive and challenging for students. But once they graduated, they became highly sought after for their skills, eligible for any position that required literacy and education, including scribes, doctors, astronomers, musicians, and architects. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_AQ_ASSYRIA_KIBRAT_ARBA_I_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>จารึกของกษัตริย์เมโสโปเตเมียโบราณมักเริ่มต้นด้วยรายชื่อราชาศัพท์ และในหมู่กษัตริย์อัสซีเรียใหม่ หนึ่งในราชาศัพท์ที่ทรงพลังที่สุดคือ “กษัตริย์แห่งสี่ทิศ” สี่ทิศ หรือ “คิบราต อาร์บาอิ” หมายถึงภูมิภาคโบราณที่สอดคล้องกับทิศทั้งสี่ (สุเมอร์ มาร์ตู เอลาม และซูบาร์ตู) แต่โดยนัยหมายถึง “ทั่วทั้งโลก” ไม่ได้ใช้โดยกษัตริย์ทุกองค์ – การใช้ราชาศัพท์นี้ลดลงเมื่อไม่มีการทำสงคราม ดังนั้นอาจต้องมีชัยชนะทางทหารบางอย่างจึงจะอ้างสิทธิ์ได้ ความสำคัญของราชาศัพท์นี้ยังคงอยู่แม้อัสซีเรียจะล่มสลาย ผู้ใช้คนสุดท้ายคือไซรัสมหาราช </Text>		<!-- Royal inscriptions of ancient Mesopotamian rulers typically begin with a list of titles, and among the Neo-Assyrian kings, one of the most potent is “king of the four quarters.” The four quarters, “kibrāt arba’i,” refer to ancient geographical locations that align with the cardinal directions (Sumer, Martu, Elam, and Subartu), but the implication is “the whole world.”  It is not used by every king – its presence declines with the absence of military campaigns, so certain military accomplishments may have been required to claim it. Its potency outlived the Assyrians themselves; the final ruler to use the title was Cyrus the Great.   -->
+			<Text>จารึกของกษัตริย์เมโสโปเตเมียโบราณมักเริ่มต้นด้วยรายชื่อราชาศัพท์ และในหมู่กษัตริย์อัสซีเรียใหม่ หนึ่งในราชาศัพท์ที่ทรงพลังที่สุดคือ “กษัตริย์แห่งสี่ทิศ” สี่ทิศ หรือ “คิบราต อาร์บาอิ” หมายถึงภูมิภาคโบราณที่สอดคล้องกับทิศทั้งสี่ (สุเมอร์ มาร์ตู เอลาม และซูบาร์ตู) แต่โดยนัยหมายถึง “ทั่วทั้งโลก” ไม่ได้ใช้โดยกษัตริย์ทุกองค์ – การใช้ราชาศัพท์นี้ลดลงเมื่อไม่มีการทำสงคราม ดังนั้นอาจต้องมีชัยชนะทางทหารบางอย่างจึงจะอ้างสิทธิ์ได้ ความสำคัญของราชาศัพท์นี้ยังคงอยู่แม้อัสซีเรียจะล่มสลาย ผู้ใช้คนสุดท้ายคือไซรัสมหาราช </Text>		<!-- Royal inscriptions of ancient Mesopotamian rulers typically begin with a list of titles, and among the Neo-Assyrian kings, one of the most potent is “king of the four quarters.” The four quarters, “kibrāt arba’i,” refer to ancient geographical locations that align with the cardinal directions (Sumer, Martu, Elam, and Subartu), but the implication is “the whole world.”  It is not used by every king – its presence declines with the absence of military campaigns, so certain military accomplishments may have been required to claim it. Its potency outlived the Assyrians themselves; the final ruler to use the title was Cyrus the Great. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_UNIT_TURTANU_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>ทูร์ตานูเป็นขุนนางทหารระดับสูงที่นำกองทัพอัสซีเรียแทนกษัตริย์ในยามสงคราม เป็นตำแหน่งที่มีอำนาจมาก รองจากกษัตริย์เท่านั้น ในช่วงศตวรรษที่ 8 ก่อนคริสตกาล ตำแหน่งนี้ดูเหมือนจะแบ่งออกเป็นสองส่วน คือทูร์ตานูฝ่ายขวาและฝ่ายซ้าย อาจเพื่อจำกัดอำนาจของบุคคลที่ไม่ใช่กษัตริย์ เมื่อเวลาผ่านไป หน้าที่ของทูร์ตานูเปลี่ยนจากการทหารล้วน ๆ ไปสู่การปกครองพลเรือนในภูมิภาค </Text>		<!-- A turtānu was a high-ranking military official who led the Assyrian army in place of the king in times of war. It was an immensely powerful position, second only to that of the ruler. At some point in the eighth century BCE, the position seems to have been divided in two, one turtānu for “the right” and one for “the left,” possibly to decrease the amount of power held by one person other than the king. Over time their duties shifted from purely martial to include civil governance of regional territories.  -->
+			<Text>ทูร์ตานูเป็นขุนนางทหารระดับสูงที่นำกองทัพอัสซีเรียแทนกษัตริย์ในยามสงคราม เป็นตำแหน่งที่มีอำนาจมาก รองจากกษัตริย์เท่านั้น ในช่วงศตวรรษที่ 8 ก่อนคริสตกาล ตำแหน่งนี้ดูเหมือนจะแบ่งออกเป็นสองส่วน คือทูร์ตานูฝ่ายขวาและฝ่ายซ้าย อาจเพื่อจำกัดอำนาจของบุคคลที่ไม่ใช่กษัตริย์ เมื่อเวลาผ่านไป หน้าที่ของทูร์ตานูเปลี่ยนจากการทหารล้วน ๆ ไปสู่การปกครองพลเรือนในภูมิภาค </Text>		<!-- A turtānu was a high-ranking military official who led the Assyrian army in place of the king in times of war. It was an immensely powerful position, second only to that of the ruler. At some point in the eighth century BCE, the position seems to have been divided in two, one turtānu for “the right” and one for “the left,” possibly to decrease the amount of power held by one person other than the king. Over time their duties shifted from purely martial to include civil governance of regional territories. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_UNIT_MAGARRU_CHAPTER_HISTORY_PARA_1" Language="th_TH">
-			<Text>“มาการ์รู” หมายถึงรถศึก อาวุธสำคัญของกองทัพอัสซีเรียใหม่ แม้ว่าจะมีการใช้ม้าในเมโสโปเตเมียตั้งแต่ยุคอัคคาเดียน แต่การขาดอานม้า เหล็กขา และอุปกรณ์อื่น ๆ ทำให้ขี่ม้าในสงครามได้ยาก ม้าจึงถูกนำมาใช้ลากรถศึกแทน รถศึกเหล่านี้มีขนาดเล็กและเบา มีสองล้อและบรรทุกสองคน คือคนขับและนักธนู เนื่องจากม้าไม่กล้าพุ่งชนแนวทหาร รถศึกจึงถูกเก็บไว้จนศัตรูเริ่มแตกพ่าย จากนั้นจึงนำรถศึกออกไปส่งนักธนูไล่ล่าศัตรูอย่างรวดเร็ว </Text>		<!-- “Magarru” means chariot, a key weapon within the Neo-Assyrian army. Although horses had been in use in Mesopotamia since at least the Akkadian Empire, the lack of saddles, stirrups, and other equipment made them difficult to ride effectively in war. They were more easily managed when harnessed to chariots. These vehicles were small and light, possessing two wheels and carrying two passengers, a driver and an archer. Because horses are naturally averse to charging at lines of soldiers, they were saved until the enemy was about, or had begun, to flee – then the chariots were deployed to swiftly deliver the archer to his quarry.  -->
+			<Text>“มาการ์รู” หมายถึงรถศึก อาวุธสำคัญของกองทัพอัสซีเรียใหม่ แม้ว่าจะมีการใช้ม้าในเมโสโปเตเมียตั้งแต่ยุคอัคคาเดียน แต่การขาดอานม้า เหล็กขา และอุปกรณ์อื่น ๆ ทำให้ขี่ม้าในสงครามได้ยาก ม้าจึงถูกนำมาใช้ลากรถศึกแทน รถศึกเหล่านี้มีขนาดเล็กและเบา มีสองล้อและบรรทุกสองคน คือคนขับและนักธนู เนื่องจากม้าไม่กล้าพุ่งชนแนวทหาร รถศึกจึงถูกเก็บไว้จนศัตรูเริ่มแตกพ่าย จากนั้นจึงนำรถศึกออกไปส่งนักธนูไล่ล่าศัตรูอย่างรวดเร็ว </Text>		<!-- “Magarru” means chariot, a key weapon within the Neo-Assyrian army. Although horses had been in use in Mesopotamia since at least the Akkadian Empire, the lack of saddles, stirrups, and other equipment made them difficult to ride effectively in war. They were more easily managed when harnessed to chariots. These vehicles were small and light, possessing two wheels and carrying two passengers, a driver and an archer. Because horses are naturally averse to charging at lines of soldiers, they were saved until the enemy was about, or had begun, to flee – then the chariots were deployed to swiftly deliver the archer to his quarry. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_UNIT_MAGARRU_CHAPTER_HISTORY_PARA_2" Language="th_TH">
-			<Text>ข้อเสียของรถศึกคือมีต้นทุนการผลิตสูง การนำไปใช้ในสนามรบจึงเป็นความเสี่ยงทางการเงิน แต่ในรัชสมัยของซาร์กอนที่ 2 ในศตวรรษที่ 8 ก่อนคริสตกาล อุปกรณ์ม้าและทักษะการขี่ม้าเริ่มพัฒนา และในที่สุดกองทัพม้าก็เข้ามาแทนที่รถศึกในฐานะยูนิตเคลื่อนที่ของกองทัพ </Text>		<!-- The downside of chariots was that they were expensive to produce, and so using them on the field was a financial risk. But by the reign of Sargon II, in the eight century BCE, horse tack and horsemanship began to improve, and soon cavalry surpassed chariots as the army’s mobile unit.   -->
+			<Text>ข้อเสียของรถศึกคือมีต้นทุนการผลิตสูง การนำไปใช้ในสนามรบจึงเป็นความเสี่ยงทางการเงิน แต่ในรัชสมัยของซาร์กอนที่ 2 ในศตวรรษที่ 8 ก่อนคริสตกาล อุปกรณ์ม้าและทักษะการขี่ม้าเริ่มพัฒนา และในที่สุดกองทัพม้าก็เข้ามาแทนที่รถศึกในฐานะยูนิตเคลื่อนที่ของกองทัพ </Text>		<!-- The downside of chariots was that they were expensive to produce, and so using them on the field was a financial risk. But by the reign of Sargon II, in the eight century BCE, horse tack and horsemanship began to improve, and soon cavalry surpassed chariots as the army’s mobile unit. -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_EKALLU_NAME" Language="th_TH">
 			<Text>เอกัลลู</Text>		<!-- Ekallu -->
@@ -300,6 +306,78 @@
 		</Replace>
 		<Replace Tag="LOC_MOD_BIRTUTU_TECH_MASTERY_CULTURE_DESCRIPTION" Language="th_TH">
 			<Text>[icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวงได้รับ 2 [icon:YIELD_CULTURE] วัฒนธรรม ต่อการ [icon:RADIAL_TECH] [TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]เชี่ยวชาญเทคโนโลยี[/TIP]แต่ละรายการ</Text>		<!-- The [icon:NOTIFICATION_SELECT_CAPITAL] Capital receives 2 [icon:YIELD_CULTURE] Culture for each [icon:RADIAL_TECH] [TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]Technology Mastery[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DURANI_I_NAME" Language="th_TH">
+			<Text>Dūrāni I</Text>		<!-- Dūrāni I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DURANI_I_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_CULTURE] Culture in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every [icon:RADIAL_TECH] [TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]Technology Mastery[/TIP] completed this Age.</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every [icon:RADIAL_TECH] [TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]Technology Mastery[/TIP] completed this Age. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DURANI_TOOLTIP" Language="th_TH">
+			<Text>Dūrāni</Text>		<!-- Dūrāni -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MIHISTU_I_NAME" Language="th_TH">
+			<Text>Miḫiṣtu I</Text>		<!-- Miḫiṣtu I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MIHISTU_I_DESCRIPTION" Language="th_TH">
+			<Text>+25% [icon:YIELD_PRODUCTION] Production towards constructing [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] and [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP] with a [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]Great Work[/TIP] slot.</Text>		<!-- +25% [icon:YIELD_PRODUCTION] Production towards constructing [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] and [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP] with a [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]Great Work[/TIP] slot. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MIHISTU_TOOLTIP" Language="th_TH">
+			<Text>Miḫiṣtu</Text>		<!-- Miḫiṣtu -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_GIRRU_I_NAME" Language="th_TH">
+			<Text>Girru I</Text>		<!-- Girru I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_GIRRU_I_DESCRIPTION" Language="th_TH">
+			<Text>+5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for Cavalry Units within an [icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Army Commander's[/TIP] Radius. +3 [icon:YIELD_PRODUCTION] Production, [icon:YIELD_SCIENCE] Science, and [icon:YIELD_FOOD] Food in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Captured Settlements[/TIP] from any Age.</Text>		<!-- +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for Cavalry Units within an [icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Army Commander's[/TIP] Radius. +3 [icon:YIELD_PRODUCTION] Production, [icon:YIELD_SCIENCE] Science, and [icon:YIELD_FOOD] Food in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Captured Settlements[/TIP] from any Age. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_GIRRU_COMBAT_PREVIEW" Language="th_TH">
+			<Text>+{1_Amount} Girru</Text>		<!-- +{1_Amount} Girru -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_GIRRU_TOOLTIP" Language="th_TH">
+			<Text>Girru</Text>		<!-- Girru -->
+		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_EX_ASSYRIA_RENAISSANCE_NAME" Language="th_TH">
+			<Text>Assyrian Renaissance</Text>		<!-- Assyrian Renaissance -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MIHISTU_II_NAME" Language="th_TH">
+			<Text>Miḫiṣtu II</Text>		<!-- Miḫiṣtu II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_MIHISTU_II_DESCRIPTION" Language="th_TH">
+			<Text>+25% [icon:YIELD_PRODUCTION] Production towards constructing [icon:CITY_BUILDING_LIST] Buildings and [icon:WONDER] Wonders with a [icon:GREATWORK] Great Work slot. +2 [icon:YIELD_SCIENCE] Science on displayed [icon:GREATWORK] Great Works.</Text>		<!-- +25% [icon:YIELD_PRODUCTION] Production towards constructing [icon:CITY_BUILDING_LIST] Buildings and [icon:WONDER] Wonders with a [icon:GREATWORK] Great Work slot. +2 [icon:YIELD_SCIENCE] Science on displayed [icon:GREATWORK] Great Works. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_GIRRU_II_NAME" Language="th_TH">
+			<Text>Girru II</Text>		<!-- Girru II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_GIRRU_II_DESCRIPTION" Language="th_TH">
+			<Text>+5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for Cavalry Units within an [icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Army Commander's[/TIP] Radius. +5 [icon:YIELD_PRODUCTION] Production, [icon:YIELD_SCIENCE] Science, and [icon:YIELD_FOOD] Food in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Captured Settlements[/TIP] from any Age.</Text>		<!-- +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for Cavalry Units within an [icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Army Commander's[/TIP] Radius. +5 [icon:YIELD_PRODUCTION] Production, [icon:YIELD_SCIENCE] Science, and [icon:YIELD_FOOD] Food in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Captured Settlements[/TIP] from any Age. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ASSYRIA_SYNCRETISM_EXPLORATION_NAME" Language="th_TH">
+			<Text>Ashur I</Text>		<!-- Ashur I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ASSYRIA_SYNCRETISM_EXPLORATION_DESCRIPTION" Language="th_TH">
+			<Text>+5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for Infantry and Cavalry Units when attacking [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP].</Text>		<!-- +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for Infantry and Cavalry Units when attacking [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ASSYRIA_SYNCRETISM_EXPLORATION_COMBAT_PREVIEW" Language="th_TH">
+			<Text>+{1_Amount} Ashur</Text>		<!-- +{1_Amount} Ashur -->
+		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_MO_ASSYRIA_MODERNIZATION_NAME" Language="th_TH">
+			<Text>Assyrian Modernization</Text>		<!-- Assyrian Modernization -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DURANI_II_NAME" Language="th_TH">
+			<Text>Dūrāni II</Text>		<!-- Dūrāni II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DURANI_II_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_CULTURE] Culture in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital and in Settlements not founded by you that were conquered in this Age for every [icon:RADIAL_TECH] Technology Mastery completed this Age.</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital and in Settlements not founded by you that were conquered in this Age for every [icon:RADIAL_TECH] Technology Mastery completed this Age. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ASSYRIA_SYNCRETISM_MODERN_NAME" Language="th_TH">
+			<Text>Ashur II</Text>		<!-- Ashur II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ASSYRIA_SYNCRETISM_MODERN_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_SCIENCE] Science on [icon:CITY_FORTIFIED] Fortification Buildings. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for Infantry and Cavalry Units when attacking [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP].</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science on [icon:CITY_FORTIFIED] Fortification Buildings. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for Infantry and Cavalry Units when attacking [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP]. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_ASSYRIA_SYNCRETISM_TOOLTIP" Language="th_TH">
+			<Text>Ashur</Text>		<!-- Ashur -->
 		</Replace>
 		<Replace Tag="LOC_MOD_BIRTUTU_COMBAT_DEFENDING_PREVIEW" Language="th_TH">
 			<Text>+{1_Amount} บิรตูตู</Text>		<!-- +{1_Amount} Birtūtu -->
@@ -650,6 +728,9 @@
 			[n]รวบรวมและจัดแสดงคัมภีร์: {2_CodexCurrent}/{3_CodexTarget}</Text>		<!-- Build: [icon:BUILDING_ROYAL_LIBRARY] {LOC_BUILDING_ROYAL_LIBRARY_NAME} {1_itemComplete}
 			[n]Collect &amp; Display Codices: {2_CodexCurrent}/{3_CodexTarget} -->
 		</Replace>
+		<Replace Tag="LOC_MAGARRU_MOD_CAVALRY_DEFENDING_PREVIEW" Language="th_TH">
+			<Text>+{1_Amount} defending against Ranged</Text>		<!-- +{1_Amount} defending against Ranged -->
+		</Replace>
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_5_ADVISOR_BODY_ASSYRIA" Language="th_TH">
 			<Text>ขณะนี้มีคัมภีร์ {1_CodexCount} เล่มประดับอยู่ในหอแห่งการเรียนรู้ของเรา บรรจุความรู้ของชาวอัสซีเรียไว้เต็มเปี่ยม ยังมีความลับใดที่เรายังไม่ค้นพบอีกบ้าง?</Text>		<!-- {1_CodexCount} Codices now grace our halls of learning, containing the collected knowledge of the Assyrian people. What secrets yet elude us? -->
 		</Replace>
@@ -681,11 +762,38 @@
 		<Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_LINE_COMPLETED_BODY_ASSYRIA" Language="th_TH">
 			<Text>ขอแสดงความยินดี! คุณได้ [b]จัดแสดง {1_CodexCount} คัมภีร์ [/b]และสำเร็จ [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} [/b][icon:YIELD_SCIENCE] เส้นทางมรดกวิทยาศาสตร์แห่งยุคโบราณแล้ว [n]คุณสามารถไปที่ [b]หน้าจอเส้นทางมรดก [/b]เพื่อดูเส้นทางอื่น ๆ ที่คุณสามารถเลือกเดิน หรือจะสร้างเส้นทางของตัวเองก็ได้</Text>		<!-- Congratulations! You've [b]displayed {1_CodexCount} Codices [/b]and successfully completed the [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_ANTIQUITY_SCIENCE_NAME} [/b][icon:YIELD_SCIENCE] Science Legacy Path of the Antiquity Age. [n]You can visit the [b]Legacy Path Screen [/b]to see more Legacy Paths you can follow, or you can forge your own path. -->
 		</Replace>
+		<Replace Tag="LOC_UNLOCK_PLAY_AS_ASSRYIA_ASSRYIA_TOOLTIP" Language="th_TH">
+			<Text>[B]Assyria[/B] is able to endure throughout the Ages.</Text>		<!-- [B]Assyria[/B] is able to endure throughout the Ages. -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASSYRIA_FOUR_MAJOR_TRIUMPHS_NAME" Language="th_TH">
+			<Text>Assyria 4 Major Triumphs</Text>		<!-- Assyria 4 Major Triumphs -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_ASSYRIA_FOUR_MAJOR_TRIUMPHS_DESC" Language="th_TH">
+			<Text>As Assyria, complete 4 Militaristic or Scientific Major Triumphs in a single Apex Age.</Text>		<!-- As Assyria, complete 4 Militaristic or Scientific Major Triumphs in a single Apex Age. -->
+		</Replace>
 		<Replace Tag="LOC_UNIT_MAGARRU_NAME" Language="th_TH">
 			<Text>มาการ์รู</Text>		<!-- Magarru -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_MAGARRU_BASE_DESCRIPTION" Language="th_TH">
 			<Text>ยูนิตทหารม้าพิเศษ [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]ของอัสซีเรีย[/TIP], มี [icon:Action_Move] แต้มเคลื่อนที่เพิ่มเติม, สามารถเคลื่อนที่หลังโจมตี</Text>		<!-- Assyrian Unique [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Unit[/TIP]. Has additional [icon:Action_Move] Movement. Can move after attacking. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30014A_STORYTITLE" Language="th_TH">
+			<Text>The Hand of Ashur</Text>		<!-- The Hand of Ashur -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30014A_COMPLETION" Language="th_TH">
+			<Text>A famed war-engineer turns their mind now toward works of art: public fountains, water-screws, wheels operated by steam. The generals mutter - what is the use of all this?</Text>		<!-- A famed war-engineer turns their mind now toward works of art: public fountains, water-screws, wheels operated by steam. The generals mutter - what is the use of all this? -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30014B_NAME" Language="th_TH">
+			<Text>Innovation has always benefited Assyria, even with no obvious application. Bolster science.</Text>		<!-- Innovation has always benefited Assyria, even with no obvious application. Bolster science. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30014B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30014C_NAME" Language="th_TH">
+			<Text>Science for science’s sake is useless. Make better siege engines.</Text>		<!-- Science for science’s sake is useless. Make better siege engines. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30014C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_MAGARRU_DESCRIPTION" Language="th_TH">
 			<Text>สามารถเคลื่อนที่หลังโจมตี</Text>		<!-- Can move after attacking. -->

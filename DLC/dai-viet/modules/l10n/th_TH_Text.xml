@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" ?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_CITIZEN_DAI_VIET_MALE_1" Language="th_TH">
@@ -175,6 +175,15 @@
 		<Replace Tag="LOC_CIVILIZATION_DAI_VIET_DESCRIPTION" Language="th_TH">
 			<Text>รับ 25 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับแต่ละ [icon:YIELD_POPULATION] ประชากรเมืองของถิ่นฐาน เมื่อคุณสำเร็จในการสร้าง [icon:Action_Fortify] อาคารป้อมปราการ (ปรับตามความเร็วเกม)</Text>		<!-- Gain 25 [icon:YIELD_CULTURE] Culture for each [icon:YIELD_POPULATION] Urban Population of the Settlement when you construct a [icon:Action_Fortify] Fortification Building (Scales by Game Speed). -->
 		</Replace>
+		<Replace Tag="LOC_TRAIT_DAI_VIET_ABILITY_AQ_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI]When you create a [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Fortification Building[/TIP] or [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP], gain [B]15 [icon:YIELD_CULTURE] Culture[/B] for each [icon:YIELD_POPULATION] [TIP:LOC_PEDIA_CONCEPTS_POPULATION_TOOLTIP]Urban Population[/TIP] in the Settlement.[LI][B]+1 [icon:YIELD_CULTURE] Culture[/B] and [icon:YIELD_FOOD] [B]Food[/B] on [icon:CITY_FORTIFIED] Fortification Constructibles in [icon:CITY_UNIMPROVED] Tropical Terrain.[/BLIST]</Text>		<!-- [BLIST][LI]When you create a [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Fortification Building[/TIP] or [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP], gain [B]15 [icon:YIELD_CULTURE] Culture[/B] for each [icon:YIELD_POPULATION] [TIP:LOC_PEDIA_CONCEPTS_POPULATION_TOOLTIP]Urban Population[/TIP] in the Settlement.[LI][B]+1 [icon:YIELD_CULTURE] Culture[/B] and [icon:YIELD_FOOD] [B]Food[/B] on [icon:CITY_FORTIFIED] Fortification Constructibles in [icon:CITY_UNIMPROVED] Tropical Terrain.[/BLIST] -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DAI_VIET_ABILITY_EX_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI]When you create a [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Fortification Building[/TIP] or [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP], gain [B]25 [icon:YIELD_CULTURE] Culture[/B] for each [icon:YIELD_POPULATION] [TIP:LOC_PEDIA_CONCEPTS_POPULATION_TOOLTIP]Urban Population[/TIP] in the Settlement.[LI][B]+2 [icon:YIELD_CULTURE] Culture[/B] and [icon:YIELD_FOOD] [B]Food[/B] on [icon:CITY_FORTIFIED] Fortification Constructibles in [icon:CITY_UNIMPROVED] Tropical Terrain.[LI][B]+30% [icon:YIELD_PRODUCTION] Production[/B] towards constructing the [B]Thành Huế[/B].[/BLIST]</Text>		<!-- [BLIST][LI]When you create a [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Fortification Building[/TIP] or [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP], gain [B]25 [icon:YIELD_CULTURE] Culture[/B] for each [icon:YIELD_POPULATION] [TIP:LOC_PEDIA_CONCEPTS_POPULATION_TOOLTIP]Urban Population[/TIP] in the Settlement.[LI][B]+2 [icon:YIELD_CULTURE] Culture[/B] and [icon:YIELD_FOOD] [B]Food[/B] on [icon:CITY_FORTIFIED] Fortification Constructibles in [icon:CITY_UNIMPROVED] Tropical Terrain.[LI][B]+30% [icon:YIELD_PRODUCTION] Production[/B] towards constructing the [B]Thành Huế[/B].[/BLIST] -->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DAI_VIET_ABILITY_MO_DESCRIPTION" Language="th_TH">
+			<Text>[BLIST][LI]When you create a [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Fortification Building[/TIP] or [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP], gain [B]35 [icon:YIELD_CULTURE] Culture[/B] for each [icon:YIELD_POPULATION] [TIP:LOC_PEDIA_CONCEPTS_POPULATION_TOOLTIP]Urban Population[/TIP] in the Settlement.[LI][B]+2 [icon:YIELD_CULTURE] Culture[/B] and [icon:YIELD_FOOD] [B]Food[/B] on [icon:CITY_FORTIFIED] Fortification Constructibles in [icon:CITY_UNIMPROVED] Tropical Terrain.[/BLIST]</Text>		<!-- [BLIST][LI]When you create a [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Fortification Building[/TIP] or [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP], gain [B]35 [icon:YIELD_CULTURE] Culture[/B] for each [icon:YIELD_POPULATION] [TIP:LOC_PEDIA_CONCEPTS_POPULATION_TOOLTIP]Urban Population[/TIP] in the Settlement.[LI][B]+2 [icon:YIELD_CULTURE] Culture[/B] and [icon:YIELD_FOOD] [B]Food[/B] on [icon:CITY_FORTIFIED] Fortification Constructibles in [icon:CITY_UNIMPROVED] Tropical Terrain.[/BLIST] -->
+		</Replace>
 		<Replace Tag="LOC_TRAIT_DAI_VIET_ABILITY_DESCRIPTION" Language="th_TH">
 			<Text>[BLIST][LI]ได้รับ [B]25 [icon:YIELD_CULTURE] วัฒนธรรม[/B] สำหรับแต่ละ [icon:YIELD_POPULATION] [B]ประชากรเมือง[/B] ของถิ่นฐานเมื่อคุณสร้าง [icon:Action_Fortify] [B]อาคารป้อมปราการ[/B] (ปรับตามความเร็วของเกม)[LI][B]+30% [icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการสร้าง [B]Thành Huế[/B].[/LIST]</Text>		<!-- [BLIST][LI]Gain [B]25 [icon:YIELD_CULTURE] Culture[/B] for each [icon:YIELD_POPULATION] [B]Urban Population[/B] of the Settlement when you construct a [icon:Action_Fortify] [B]Fortification Building[/B] (Scales by Game Speed).[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Thành Huế[/B].[/LIST] -->
 		</Replace>
@@ -295,11 +304,65 @@
 		<Replace Tag="LOC_CIVIC_TU_DAN_AUTHOR" Language="th_TH">
 			<Text>ดัง จัน กน</Text>		<!-- Đặng Trần Côn -->
 		</Replace>
+		<Replace Tag="LOC_TRADITION_CAM_BINH_I_NAME" Language="th_TH">
+			<Text>Cấm Binh I</Text>		<!-- Cấm Binh I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_CAM_BINH_I_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_GOLD] on [icon:CITY_FORTIFIED] Fortifications. +50% [icon:YIELD_PRODUCTION] towards constructing [icon:CITY_FORTIFIED] Fortification Constructibles.</Text>		<!-- +1 [icon:YIELD_GOLD] on [icon:CITY_FORTIFIED] Fortifications. +50% [icon:YIELD_PRODUCTION] towards constructing [icon:CITY_FORTIFIED] Fortification Constructibles. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_CAM_BINH_II_NAME" Language="th_TH">
+			<Text>Cấm Binh II</Text>		<!-- Cấm Binh II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_CAM_BINH_II_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_GOLD] on [icon:CITY_FORTIFIED] Fortifications. +50% [icon:YIELD_PRODUCTION] towards constructing and [icon:YIELD_GOLD] towards purchasing [icon:CITY_FORTIFIED] Fortification Constructibles.</Text>		<!-- +2 [icon:YIELD_GOLD] on [icon:CITY_FORTIFIED] Fortifications. +50% [icon:YIELD_PRODUCTION] towards constructing and [icon:YIELD_GOLD] towards purchasing [icon:CITY_FORTIFIED] Fortification Constructibles. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_CAM_BINH_TOOLTIP" Language="th_TH">
+			<Text>Cấm Binh</Text>		<!-- Cấm Binh -->
+		</Replace>
 		<Replace Tag="LOC_MOD_CAM_QUAN_FORMAL_WAR_COMBAT_ABILITY_DESCRIPTION" Language="th_TH">
 			<Text>+3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับทุก [TIP:LOC_PEDIA_CONCEPTS_MILITARY_UNIT_TOOLTIP]ยูนิตทหาร[/TIP] ระหว่าง [icon:WAR] สงครามอย่างเป็นทางการ, เพิ่มเป็นสองเท่าในดินแดนของคุณ</Text>		<!-- +3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for all [TIP:LOC_PEDIA_CONCEPTS_MILITARY_UNIT_TOOLTIP]Military Units[/TIP] during [icon:WAR] Formal Wars, doubled in territory you own. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CAM_QUAN_FORTIFICATION_CONSTRUCTIBLES_DESCRIPTION" Language="th_TH">
 			<Text>+50% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อสิ่งก่อสร้าง [icon:Action_Fortify] ป้อมปราการ</Text>		<!-- +50% [icon:YIELD_PRODUCTION] Production towards [icon:Action_Fortify] Fortification Constructibles. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_RUONG_LANG_XA_I_NAME" Language="th_TH">
+			<Text>Ruộng Làng Xã I</Text>		<!-- Ruộng Làng Xã I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_RUONG_LANG_XA_I_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_FOOD] on Farms, Plantations, and Fortifications in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] in [icon:CITY_UNIMPROVED] Tropical Terrain. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP] and Land Units in friendly territory.</Text>		<!-- +1 [icon:YIELD_FOOD] on Farms, Plantations, and Fortifications in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] in [icon:CITY_UNIMPROVED] Tropical Terrain. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP] and Land Units in friendly territory. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_RUONG_LANG_XA_II_NAME" Language="th_TH">
+			<Text>Ruộng Làng Xã II</Text>		<!-- Ruộng Làng Xã II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_RUONG_LANG_XA_II_DESCRIPTION" Language="th_TH">
+			<Text>+2 [icon:YIELD_FOOD] on Farms, Plantations, and Fortifications in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] in [icon:CITY_UNIMPROVED] Tropical Terrain. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP] and Land Units in friendly territory.</Text>		<!-- +2 [icon:YIELD_FOOD] on Farms, Plantations, and Fortifications in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] in [icon:CITY_UNIMPROVED] Tropical Terrain. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP] and Land Units in friendly territory. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_RUONG_LANG_XA_TOOLTIP" Language="th_TH">
+			<Text>Ruộng Làng Xã</Text>		<!-- Ruộng Làng Xã -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_RUONG_LANG_XA_PREVIEW" Language="th_TH">
+			<Text>+{1_Amount} Ruộng Làng Xã</Text>		<!-- +{1_Amount} Ruộng Làng Xã -->
+		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_AQ_DAI_VIET_ORIGINS_NAME" Language="th_TH">
+			<Text>Vietnamese Origins</Text>		<!-- Vietnamese Origins -->
+		</Replace>
+		<Replace Tag="LOC_NODE_CIVIC_MO_DAI_VIET_MODERNIZATION_NAME" Language="th_TH">
+			<Text>Vietnamese Modernization</Text>		<!-- Vietnamese Modernization -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DAI_VIET_SYNCRETISM_TOOLTIP" Language="th_TH">
+			<Text>Hành Chính Công</Text>		<!-- Hành Chính Công -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DAI_VIET_SYNCRETISM_ANTIQUITY_NAME" Language="th_TH">
+			<Text>Hành Chính Công I</Text>		<!-- Hành Chính Công I -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DAI_VIET_SYNCRETISM_ANTIQUITY_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_CULTURE] on [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP] and [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] on [TIP:LOC_PEDIA_CONCEPTS_VEGETATED_TERRAIN_TOOLTIP]Vegetation[/TIP] in [icon:CITY_UNIMPROVED] Tropical Terrain.</Text>		<!-- +1 [icon:YIELD_CULTURE] on [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP] and [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] on [TIP:LOC_PEDIA_CONCEPTS_VEGETATED_TERRAIN_TOOLTIP]Vegetation[/TIP] in [icon:CITY_UNIMPROVED] Tropical Terrain. -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DAI_VIET_SYNCRETISM_MODERN_NAME" Language="th_TH">
+			<Text>Hành Chính Công II</Text>		<!-- Hành Chính Công II -->
+		</Replace>
+		<Replace Tag="LOC_TRADITION_DAI_VIET_SYNCRETISM_MODERN_DESCRIPTION" Language="th_TH">
+			<Text>+1 [icon:YIELD_CULTURE] and [icon:YIELD_FOOD] on [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP] and [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] on [TIP:LOC_PEDIA_CONCEPTS_VEGETATED_TERRAIN_TOOLTIP]Vegetation[/TIP] in [icon:CITY_UNIMPROVED] Tropical Terrain.</Text>		<!-- +1 [icon:YIELD_CULTURE] and [icon:YIELD_FOOD] on [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP] and [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] on [TIP:LOC_PEDIA_CONCEPTS_VEGETATED_TERRAIN_TOOLTIP]Vegetation[/TIP] in [icon:CITY_UNIMPROVED] Tropical Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CHU_NOM_CULTURE_TROPICAL_DESCRIPTION" Language="th_TH">
 			<Text>[icon:YIELD_CULTURE] อาคารวัฒนธรรม ได้รับ +1 [icon:YIELD_CULTURE] วัฒนธรรม โบนัสใกล้เคียง [icon:CITY_UNIMPROVED] เขตร้อน</Text>		<!-- [icon:YIELD_CULTURE] Culture Buildings gain a +1 [icon:YIELD_CULTURE] Culture Adjacency from [icon:CITY_UNIMPROVED] Tropical Terrain. -->
@@ -634,11 +697,35 @@
 		<Replace Tag="LOC_UNIT_VOI_CHIEN_2_DESCRIPTION" Language="th_TH">
 			<Text>ยูนิตระยะไกลพิเศษ [TIP:LOC_PEDIA_CONCEPTS_RANGED_UNITS_TOOLTIP]ระดับ 2 ของดั่ยเหวียต[/TIP], มีราคาสู้ขึ้น, [icon:Action_Ranged] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP], +1 [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]ระยะมองเห็น[/TIP], และ +1 [icon:Action_Move] แต้มเคลื่อนที่, สามารถเคลื่อนที่หลังโจมตีได้</Text>		<!-- Tier 2 Đại Việt Unique [TIP:LOC_PEDIA_CONCEPTS_RANGED_UNITS_TOOLTIP]Ranged Unit[/TIP]. Has increased cost, [icon:Action_Ranged] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP], +1 [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]Sight[/TIP], and +1 [icon:Action_Move] Movement. Can move after attacking. -->
 		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_DAI_VIET_FOUR_MAJOR_TRIUMPHS_NAME" Language="th_TH">
+			<Text>Đại Việt 4 Major Triumphs</Text>		<!-- Đại Việt 4 Major Triumphs -->
+		</Replace>
+		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_DAI_VIET_FOUR_MAJOR_TRIUMPHS_DESC" Language="th_TH">
+			<Text>As Đại Việt, complete 4 Cultural or Expansionist Major Triumphs in a single Apex Age.</Text>		<!-- As Đại Việt, complete 4 Cultural or Expansionist Major Triumphs in a single Apex Age. -->
+		</Replace>
 		<Replace Tag="LOC_UNIT_VOI_CHIEN_3_DESCRIPTION" Language="th_TH">
 			<Text>ยูนิตระยะไกลพิเศษ ระดับ 3 ของดั่ยเหวียต, มีราคาสู้ขึ้น, [icon:Action_Ranged] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP], +1 [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]ระยะมองเห็น[/TIP], และ +1 [icon:Action_Move] แต้มเคลื่อนที่, สามารถเคลื่อนที่หลังโจมตีได้</Text>		<!-- Tier 3 Đại Việt Unique [TIP:LOC_PEDIA_CONCEPTS_RANGED_UNITS_TOOLTIP]Ranged Unit[/TIP]. Has increased cost, [icon:Action_Ranged] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP], +1 [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]Sight[/TIP], and +1 [icon:Action_Move] Movement. Can move after attacking. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_VIET_KIEU_NAME" Language="th_TH">
 			<Text>กวั่น เวือง</Text>		<!-- Quận Vương -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30028A_STORYTITLE" Language="th_TH">
+			<Text>The Kinh</Text>		<!-- The Kinh -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30028A_COMPLETION" Language="th_TH">
+			<Text>The Viet people rule over a wide array of peoples: terraced rice fields and shaded taro gardens in the highlands, low rice fields green with grain. But wherever administrators go, they see room for improvement – canals, reservoirs, roads, and the like. Each one brings more yield; each one brings more administration; each one brings more tax revenue.</Text>		<!-- The Viet people rule over a wide array of peoples: terraced rice fields and shaded taro gardens in the highlands, low rice fields green with grain. But wherever administrators go, they see room for improvement – canals, reservoirs, roads, and the like. Each one brings more yield; each one brings more administration; each one brings more tax revenue. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30028B_NAME" Language="th_TH">
+			<Text>Take time. Implement reforms. Make the land yield what it can yield.</Text>		<!-- Take time. Implement reforms. Make the land yield what it can yield. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30028B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30028C_NAME" Language="th_TH">
+			<Text>But we need improvements now.</Text>		<!-- But we need improvements now. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30028C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_VIET_KIEU_DESCRIPTION" Language="th_TH">
 			<Text>ผู้ตั้งถิ่นฐานพิเศษ ของดั่ยเหวียต, เมื่อยูนิตนี้สร้าง [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP], ได้รับ 25 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับแต่ละช่องเขตร้อนในระยะ 3 จากศูนย์กลางเมือง (ปรับตามความเร็วเกม)</Text>		<!-- Đại Việt Unique Settler. When this Unit creates a [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Town[/TIP], gain 25 [icon:YIELD_CULTURE] Culture for every Tropical Terrain within 3 tiles of the City Center (Scales by Game Speed). -->
