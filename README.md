@@ -11,7 +11,7 @@
 ![preview](https://i.postimg.cc/SNzYKcMH/gb-preview1.jpg)
 
 ## 📖 Proof Reading
-ล่าสุดถึงเวอร์ชั่น 1.3.1
+ล่าสุดถึงเวอร์ชั่น 1.4.0 (Test of Time)
 
 เปอร์เซ็นต์ในการตรวจและแก้ไขคำแปลในแต่ละหมวด
 | Section | Percentage |
