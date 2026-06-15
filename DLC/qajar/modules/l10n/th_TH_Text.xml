@@ -170,8 +170,7 @@
 			<Text>มงกุฎกายานี</Text>		<!-- Kayānī Crown -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_QAJAR_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI][B]+50% [icon:YIELD_DIPLOMACY] อิทธิพล[/B] สำหรับสนับสนุน [B][icon:DIPLOMATIC_ACTION] การกระทำทางการทูต[/B][LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับสร้าง [B]สวนอีแรม[/B][/LIST]</Text>		<!-- [BLIST][LI][B]+50% [icon:YIELD_DIPLOMACY] Influence[/B] toward supporting [icon:DIPLOMATIC_ACTION] [B]Diplomatic Actions[/B][LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Eram Garden[/B].[/LIST] -->
-		</Replace>
+			<Text>[BLIST][LI][B]+50% [icon:YIELD_DIPLOMACY] อิทธิพล[/B] สำหรับสนับสนุน [B][icon:DIPLOMATIC_ACTION] การกระทำทางการทูต[/B][LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับสร้าง [B]สวนอีแรม[/B][/LIST]</Text>		<!-- [BLIST][LI][B]+50% [icon:YIELD_DIPLOMACY] Influence[/B] toward supporting [icon:DIPLOMATIC_ACTION] [B]Diplomatic Actions[/B].[LI][B]+10 [icon:YIELD_FOOD] Food[/B] and [B][icon:YIELD_PRODUCTION] Production[/B] in the [B][icon:NOTIFICATION_SELECT_CAPITAL] Capital[/B] for every [B][TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP][/B] under the [B][icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP][/B].[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Eram Garden[/B].[/LIST] --></Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_QAJAR_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น [icon:WONDER] สิ่งมหัศจรรย์ที่เกี่ยวข้องกับ กอญัร</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Qajar's associated [icon:WONDER] Wonder. -->
 		</Replace>
@@ -395,8 +394,7 @@
 			<Text>คุลลาราคาซี</Text>		<!-- Qullarāqāsi -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_QULLARAQASI_DESCRIPTION" Language="th_TH">
-			<Text>+15 [icon:YIELD_HAPPINESS] ความสุข ในถิ่นฐานสำหรับทุก [icon:UNIT_ARMY_COMMANDER] ผู้บัญชาการ [TIP:LOC_PEDIA_CONCEPTS_STATIONED_TOOLTIP]ที่ประจำอยู่[/TIP] ใน [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP] นั้น</Text>		<!-- +15 [icon:YIELD_HAPPINESS] Happiness in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] for every [icon:UNIT_ARMY_COMMANDER] Commander [TIP:LOC_PEDIA_CONCEPTS_STATIONED_TOOLTIP]stationed[/TIP] on a [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP] there. -->
-		</Replace>
+			<Text>+15 [icon:YIELD_HAPPINESS] ความสุข ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] สำหรับทุก [icon:UNIT_ARMY_COMMANDER] ผู้บัญชาการ [TIP:LOC_PEDIA_CONCEPTS_STATIONED_TOOLTIP]ที่ประจำอยู่[/TIP] ใน [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP] นั้น</Text>		<!-- +1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]Land[/TIP] [TIP:LOC_PEDIA_CONCEPTS_MILITARY_UNIT_TOOLTIP]Military Units[/TIP] for every 2 [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] under the [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP]. --></Replace>
 		<Replace Tag="LOC_TRADITION_SOLEYMANIYEH_PALACE_NAME" Language="th_TH">
 			<Text>พระราชวังโซเลย์มานีเยห์</Text>		<!-- Soleymaniyeh Palace -->
 		</Replace>
@@ -515,14 +513,12 @@
 			<Text>สำเนาของต้นฉบับจะถูกติดตั้งที่พระราชวัง</Text>		<!-- Copies of the originals will be installed at the palace. -->
 		</Replace>
 		<Replace Tag="LOC_11083C_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_CULTURE] วัฒนธรรมในผลงานชิ้นเอกทั้งหมด</Text>		<!-- +4 [icon:YIELD_CULTURE] Culture on all Greatworks. -->
-		</Replace>
+			<Text>+4 [icon:YIELD_CULTURE] วัฒนธรรม ในผลงานชิ้นเอกทั้งหมด</Text>		<!-- +6 [icon:YIELD_CULTURE] Culture on all Great Works. --></Replace>
 		<Replace Tag="LOC_11083D_NAME" Language="th_TH">
 			<Text>ยิ่งศิลปะที่ยกย่องมากเท่าไร, ยิ่งดีเท่านั้น!</Text>		<!-- The more laudatory art, the better! -->
 		</Replace>
 		<Replace Tag="LOC_11083D_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_DIPLOMACY] อิทธิพลในผลงานชิ้นเอกทั้งหมด</Text>		<!-- +2 [icon:YIELD_DIPLOMACY] Influence on all Greatworks. -->
-		</Replace>
+			<Text>+2 [icon:YIELD_DIPLOMACY] อิทธิพล ในผลงานชิ้นเอกทั้งหมด</Text>		<!-- +2 [icon:YIELD_DIPLOMACY] Influence on all Great Works. --></Replace>
 		<Replace Tag="LOC_11084A_STORYTITLE" Language="th_TH">
 			<Text>ดวงตาแห่งจักรวรรดิ</Text>		<!-- The Eyes of the Empire -->
 		</Replace>
@@ -683,14 +679,11 @@
 			<Text>โกลาม</Text>		<!-- Gholām -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_GHILMAN_BASE_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารม้าพิเศษ [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]ของกอญัร[/TIP], +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] และ +10 [icon:Action_Heal] ฟื้นฟู ใน [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]รัศมีบัญชาการ[/TIP] ของ [icon:UNIT_SOLTAN] ซาร์ดาร์</Text>		<!-- Qajar Unique [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Unit[/TIP]. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] and +10 [icon:Action_Heal] Healing in the [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]Command Radius[/TIP] of a [icon:UNIT_SOLTAN] Sardār. -->
-		</Replace>
+			<Text>ยูนิตทหารม้าพิเศษ [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]ของกอญัร[/TIP], +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] และ +10 [icon:Action_Heal] ฟื้นฟู ใน [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]รัศมีบัญชาการ[/TIP] ของ [icon:UNIT_SOLTAN] ซาร์ดาร์</Text>		<!-- Qajar Unique [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Unit[/TIP]. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] and +10 [icon:Action_Heal] Healing in the [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]Command Radius[/TIP] of an [icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Army Commander[/TIP]. --></Replace>
 		<Replace Tag="LOC_UNIT_GHILMAN_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารม้าพิเศษ ระดับ 1 ของกอญัร, +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] และ +10 [icon:Action_Heal] ฟื้นฟู ใน [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]รัศมีบัญชาการ[/TIP] ของ [icon:UNIT_SOLTAN] ซาร์ดาร์</Text>		<!-- Tier 1 Qajar Unique [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Unit[/TIP]. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] and +10 [icon:Action_Heal] Healing in the [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]Command Radius[/TIP] of a [icon:UNIT_SOLTAN] Sardār. -->
-		</Replace>
+			<Text>ยูนิตทหารม้าพิเศษ ระดับ 1 ของกอญัร, +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] และ +10 [icon:Action_Heal] ฟื้นฟู ใน [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]รัศมีบัญชาการ[/TIP] ของ [icon:UNIT_SOLTAN] ซาร์ดาร์</Text>		<!-- Tier 1 Qajar Unique [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Unit[/TIP]. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] and +10 [icon:Action_Heal] Healing in the [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]Command Radius[/TIP] of an [icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Army Commander[/TIP]. --></Replace>
 		<Replace Tag="LOC_UNIT_GHILMAN_2_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารม้าพิเศษ [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP] ระดับ 2 ของกอญัร[/TIP], +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] และ +10 [icon:Action_Heal] ฟื้นฟู ใน [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]รัศมีบัญชาการ[/TIP] ของ [icon:UNIT_SOLTAN] ซาร์ดาร์[/TIP]</Text>		<!-- Tier 2 Qajar Unique [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Unit[/TIP]. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] and +10 [icon:Action_Heal] Healing in the [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]Command Radius[/TIP] of a [icon:UNIT_SOLTAN] Sardār. -->
-		</Replace>
+			<Text>ยูนิตทหารม้าพิเศษ [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP] ระดับ 2 ของกอญัร[/TIP], +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] และ +10 [icon:Action_Heal] ฟื้นฟู ใน [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]รัศมีบัญชาการ[/TIP] ของ [icon:UNIT_SOLTAN] ซาร์ดาร์[/TIP]</Text>		<!-- Tier 2 Qajar Unique [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Unit[/TIP]. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] and +10 [icon:Action_Heal] Healing in the [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]Command Radius[/TIP] of an [icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Army Commander[/TIP]. --></Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_QAJAR_DESCRIPTION" Language="th_TH">
 			<Text>เล่นเป็น [B]ราชวงศ์คาจาร์[/B],</Text>		<!-- Play as [B]Qajar[/B]. -->
 		</Replace>
@@ -698,8 +691,7 @@
 			<Text>[B]คาจาร์[/B] สามารถคงอยู่ตลอดยุคต่างๆ</Text>		<!-- [B]Qajar[/B] is able to endure throughout the Ages. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_GHILMAN_3_DESCRIPTION" Language="th_TH">
-			<Text>ยูนิตทหารม้าพิเศษ ระดับ 3 ของกอญัร, +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] และ +10 [icon:Action_Heal] ฟื้นฟู ใน [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]รัศมีบัญชาการ[/TIP] ของ [icon:UNIT_SOLTAN] ซาร์ดาร์</Text>		<!-- Tier 3 Qajar Unique [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Unit[/TIP]. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] and +10 [icon:Action_Heal] Healing in the [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]Command Radius[/TIP] of a [icon:UNIT_SOLTAN] Sardār. -->
-		</Replace>
+			<Text>ยูนิตทหารม้าพิเศษ ระดับ 3 ของกอญัร, +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] และ +10 [icon:Action_Heal] ฟื้นฟู ใน [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]รัศมีบัญชาการ[/TIP] ของ [icon:UNIT_SOLTAN] ซาร์ดาร์</Text>		<!-- Tier 3 Qajar Unique [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Unit[/TIP]. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] and +10 [icon:Action_Heal] Healing in the [icon:COMMANDER_RADIUS] [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]Command Radius[/TIP] of an [icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Army Commander[/TIP]. --></Replace>
 		<Replace Tag="LOC_GHILMAN_COMBAT_PREVIEW" Language="th_TH">
 			<Text>+{1_Amount} ใน[TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]รัศมีคำสั่ง[/TIP]ของซาร์ดาร์</Text>		<!-- +{1_Amount} in [TIP:LOC_PEDIA_CONCEPTS_COMMAND_RADIUS_TOOLTIP]Command Radius[/TIP] of a Sardār -->
 		</Replace>
@@ -716,11 +708,9 @@
 			<Text>ในฐานะ คาจาร์, บรรลุ 4 วีรกรรมย่อยด้านการทูตหรือตัวขยายอาณาเขต ในยุคสูงสุดเพียงยุคเดียว</Text>		<!-- As Qajar, complete 4 Diplomatic or Expansionist Minor Triumphs in a single Apex Age. -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_SOLTAN_DESCRIPTION" Language="th_TH">
-			<Text>ผู้บัญชาการกองทัพเฉพาะของกอญัร +1 [icon:Action_Move] แต้มเคลื่อนที่ ขณะทำลาย [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] จะทำลาย [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP] เพิ่มเติมต่อเทิร์นใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่ผู้บัญชาการนี้อยู่ใน [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP]</Text>		<!-- Qajar Unique Army Commander. +1 [icon:Action_Move] Movement. While razing a [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP], an additional [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP] is Razed per turn in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] where this [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Commander[/TIP] is on a [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP]. -->
-		</Replace>
+			<Text>ผู้บัญชาการกองทัพเฉพาะของกอญัร +1 [icon:Action_Move] แต้มเคลื่อนที่ ขณะทำลาย [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] จะทำลาย [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP] เพิ่มเติมต่อเทิร์นใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่ผู้บัญชาการนี้อยู่ใน [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP]</Text>		<!-- Qajar Unique Army Commander. +1 [icon:Action_Move] Movement. While razing a [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP], twice as many [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] are Razed per turn in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] where this [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Commander[/TIP] is on a [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP]. --></Replace>
 		<Replace Tag="LOC_ABILITY_SOLTAN_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:Action_Move] แต้มเคลื่อนที่ ขณะทำลายถิ่นฐาน จะทำลาย [icon:CITY_URBAN] เขตเพิ่มเติมต่อเทิร์นใน ถิ่นฐานที่ผู้บัญชาการนี้อยู่ใน [icon:CITY_URBAN] เขต</Text>		<!-- +1 [icon:Action_Move] Movement. While razing a settlement, an additional [icon:CITY_URBAN] District is Razed per turn in Settlements where this Commander is on a [icon:CITY_URBAN] District. -->
-		</Replace>
+			<Text>+1 [icon:Action_Move] แต้มเคลื่อนที่, ขณะทำลายถิ่นฐาน, จะถูกทำลาย [icon:CITY_URBAN] เขตเพิ่มเติมต่อเทิร์นในถิ่นฐานที่ผู้บัญชาการนี้อยู่บน [icon:CITY_URBAN] เขต</Text>		<!-- +1 [icon:Action_Move] Movement. While razing a settlement, twice as many [icon:CITY_URBAN] Districts are Razed per turn in Settlements where this Commander is on a [icon:CITY_URBAN] District. --></Replace>
 		<Replace Tag="LOC_TOT_30042A_STORYTITLE" Language="th_TH">
 			<Text>คำตอบของศาสนวัตถุ</Text>		<!-- A Relic’s Answer -->
 		</Replace>

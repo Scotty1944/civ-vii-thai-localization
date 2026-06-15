@@ -2,26 +2,22 @@
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_BOLIVAR_1_NAME" Language="th_TH">
-			<Text>โบลิบาร์ ยุคสำรวจ ตำนาน ขยายอาณาเขต</Text>		<!-- Bolivar Exploration Legend Expansionist -->
-		</Replace>
+			<Text>โบลิบาร์ การอุทิศ ขยายอาณาเขต ยุคสำรวจ</Text>		<!-- Bolivar Exploration Dedication Expansionist --></Replace>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_BOLIVAR_1_DESCRIPTION" Language="th_TH">
 			<Text>สำหรับยุคนี้ รับ +15% [icon:YIELD_FOOD] อาหาร ในราคาที่ลดเกิน -10% [icon:YIELD_GOLD] ทอง</Text>		<!-- For this Age, gain +15% [icon:YIELD_FOOD] Food at the cost of -10% [icon:YIELD_GOLD] Gold -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_BOLIVAR_2_NAME" Language="th_TH">
-			<Text>โบลิบาร์ ยุคสำรวจ ตำนาน ทางทหาร</Text>		<!-- Bolivar Exploration Legend Militaristic -->
-		</Replace>
+			<Text>โบลิบาร์ การอุทิศ ทางทหาร ยุคสำรวจ</Text>		<!-- Bolivar Exploration Dedication Militaristic --></Replace>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_BOLIVAR_2_DESCRIPTION" Language="th_TH">
 			<Text>สำหรับยุคนี้, +3 พลังต่อสู้ สำหรับหน่วยเรือของคุณ โดยมีค่าใช้จ่ายที่ -10% [icon:YIELD_DIPLOMACY] อิทธิพล</Text>		<!-- For this Age, +3 Combat Strength for your Naval Units at the cost of -10% [icon:YIELD_DIPLOMACY] Influence -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_BOLIVAR_1_NAME" Language="th_TH">
-			<Text>โบลิบาร์ ยุคใหม่ ตำนาน ขยายอาณาเขต</Text>		<!-- Bolivar Modern Legend Expansionist -->
-		</Replace>
+			<Text>โบลิบาร์ การอุทิศ ขยายอาณาเขต ยุคใหม่</Text>		<!-- Bolivar Modern Dedication Expansionist --></Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_BOLIVAR_1_DESCRIPTION" Language="th_TH">
 			<Text>ในยุคนี้ รับ +15% [icon:YIELD_FOOD] อาหาร โดยแลกกับ -10% [icon:YIELD_GOLD] ทอง</Text>		<!-- For this Age, gain +15% [icon:YIELD_FOOD] Food at the cost of -10% [icon:YIELD_GOLD] Gold -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_BOLIVAR_2_NAME" Language="th_TH">
-			<Text>โบลิบาร์ ยุคใหม่ ตำนาน ทางทหาร</Text>		<!-- Bolivar Modern Legend Militaristic -->
-		</Replace>
+			<Text>โบลิบาร์ การอุทิศ ทางทหาร ยุคใหม่</Text>		<!-- Bolivar Modern Dedication Militaristic --></Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_BOLIVAR_2_DESCRIPTION" Language="th_TH">
 			<Text>สำหรับยุคนี้, +3 พลังต่อสู้ สำหรับหน่วยอากาศของคุณที่มีค่าใช้จ่าย -10% [icon:YIELD_DIPLOMACY] อิทธิพล</Text>		<!-- For this Age, +3 Combat Strength for your Air Units at the cost of -10% [icon:YIELD_DIPLOMACY] Influence -->
 		</Replace>
@@ -86,14 +82,12 @@
 			<Text>ผู้ที่ต่อสู้เพื่อเสรีภาพมักจะอยู่ในฝ่ายที่ถูกต้องตามประวัติศาสตร์</Text>		<!-- Those who fight for liberty are always on the right side of history. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_BOLIVAR_DESCRIPTION" Language="th_TH">
-			<Text>รับ [icon:WAR_SUPPORT] การสนับสนุนสงคราม ฟรี 1 ครั้งในสงครามของคุณ เมื่อคุณพิชิต ถิ่นฐาน เป็นครั้งแรก คุณสามารถซื้อ สิ่งก่อสร้าง ได้ฟรี 1 ชิ้น [icon:YIELD_ANGRY] ความไม่สงบไม่เป็นอุปสรรคต่อการซื้อ</Text>		<!-- Gain 1 [icon:WAR_SUPPORT] War Support on all your wars. When you conquer a Settlement for the first time it can purchase 1 Constructible for free. [icon:YIELD_ANGRY] Unrest does not prevent Purchasing. -->
-		</Replace>
+			<Text>รับ 1 [icon:WAR_SUPPORT] การสนับสนุนสงคราม ในทุกสงครามของคุณ, เมื่อคุณพิชิตถิ่นฐานเป็นครั้งแรก คุณสามารถซื้อ สิ่งก่อสร้าง ได้ฟรี 1 ชิ้น [icon:YIELD_ANGRY] ความไม่สงบไม่เป็นอุปสรรคต่อการซื้อ</Text>		<!-- Gain 2 [icon:WAR_SUPPORT] War Support on [icon:WAR] Wars you declare. When you conquer a Settlement for the first time it can purchase 1 [icon:CITY_BUILDING_LIST] Building or [icon:CITY_RURAL] Improvement for free. [icon:YIELD_ANGRY] Unrest does not prevent Purchasing. --></Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_BOLIVAR_ABILITY_NAME" Language="th_TH">
 			<Text>เอล ลิเบอร์ตาดอร์</Text>		<!-- El Libertador -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_BOLIVAR_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]รับ [B][icon:WAR_SUPPORT]การสนับสนุนสงคราม[/B] ฟรี 1 ครั้ง ในสงครามของคุณ [LI]เมื่อคุณพิชิต ถิ่นฐาน เป็นครั้งแรก ถิ่นฐาน สามารถ [b]ซื้อสิ่งก่อสร้างได้ฟรี 1 อัน[/b] [LI][icon:YIELD_ANGRY] ความไม่สงบไม่เป็นอุปสรรคต่อการซื้อ[/LIST]</Text>		<!-- [BLIST][LI]Gain [B]1 [icon:WAR_SUPPORT] War Support [/B]on all your wars.[LI]When you conquer a Settlement for the first time the Settlement can [B]purchase 1 Constructible for free[/B].[LI][icon:YIELD_ANGRY] [B]Unrest [/B]does not prevent Purchasing.[/LIST] -->
-		</Replace>
+			<Text>[LIST][LI]รับ [B][icon:WAR_SUPPORT]การสนับสนุนสงคราม[/B] ฟรี 1 ครั้ง ในสงครามของคุณ [LI]เมื่อคุณพิชิต ถิ่นฐาน เป็นครั้งแรก ถิ่นฐาน สามารถ [b]ซื้อสิ่งก่อสร้างได้ฟรี 1 อัน[/b] [LI][icon:YIELD_ANGRY] ความไม่สงบไม่เป็นอุปสรรคต่อการซื้อ[/LIST]</Text>		<!-- [BLIST][LI]Gain [B]2 [icon:WAR_SUPPORT] War Support [/B]on [icon:WAR] [B]Wars[/B] you declare.[LI]When you conquer a Settlement for the first time the Settlement can [B]purchase 1 [icon:CITY_BUILDING_LIST] Building or [icon:CITY_RURAL] Improvement for free[/B].[LI][icon:YIELD_ANGRY] [B]Unrest [/B]does not prevent Purchasing.[/LIST] --></Replace>
 		<Replace Tag="LOC_DIPLOMACY_AGENDA_CORNERSTONE_FREEDOM_NAME" Language="th_TH">
 			<Text>เสาหลักของเสรีภาพ</Text>		<!-- Cornerstone of Freedom -->
 		</Replace>
@@ -110,8 +104,7 @@
 			<Text>ของขวัญจากราชวงศ์</Text>		<!-- Gift from a royal. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BOLIVAR_GOLD_SNUFF_BOX_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+20%[icon:YIELD_FOOD] อาหาร เมื่อมีพันธมิตรเพียงอารยธรรมเดียว</Text>		<!-- +20%[icon:YIELD_FOOD] Food when in only one Alliance. -->
-		</Replace>
+			<Text>+20%[icon:YIELD_FOOD] อาหาร เมื่อมีพันธมิตรเพียงอารยธรรมเดียว</Text>		<!-- [B]+20 [icon:YIELD_FOOD][/B] per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] in Cities when in only one [icon:PLAYER_RELATIONSHIP_ALLIANCE] [TIP:LOC_PEDIA_CONCEPTS_ALLIANCE_TOOLTIP]Alliance[/TIP]. --></Replace>
 		<Replace Tag="LOC_MEMENTO_BOLIVAR_DAVALOS_MEDAL_NAME" Language="th_TH">
 			<Text>เหรียญดาวาโลส</Text>		<!-- Davalos Medal -->
 		</Replace>
@@ -119,8 +112,7 @@
 			<Text>มรดกของอายาคูโช</Text>		<!-- Legacy of Ayacucho. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BOLIVAR_DAVALOS_MEDAL_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_HAPPINESS] ความสุข ต่อยุค บนอาคารการทหาร</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness per Age on Military Buildings. -->
-		</Replace>
+			<Text>+1[icon:YIELD_HAPPINESS] ความสุข ต่อยุค บนอาคารการทหาร</Text>		<!-- [B]+1 [icon:YIELD_HAPPINESS][/B] per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] on [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Military Buildings[/TIP]. --></Replace>
 		<Replace Tag="LOC_MEMENTO_BOLIVAR_LETTER_TO_JAMAICA_NAME" Language="th_TH">
 			<Text>จดหมายถึงจาไมก้า</Text>		<!-- Letter to Jamaica -->
 		</Replace>
@@ -128,8 +120,7 @@
 			<Text>วิสัยทัศน์ของอนาคต</Text>		<!-- Vision of the future. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BOLIVAR_LETTER_TO_JAMAICA_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+50%[icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต ระหว่างการเฉลิมฉลอง</Text>		<!-- +50%[icon:YIELD_GOLD] Gold towards purchasing Units during a Celebration. -->
-		</Replace>
+			<Text>+50%[icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต ระหว่างการเฉลิมฉลอง</Text>		<!-- [B]+50% [icon:YIELD_GOLD][/B] towards purchasing Units during a [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]Celebration[/TIP]. --></Replace>
 		<Replace Tag="LOC_MEMENTO_BOLIVAR_GOLD_SNUFF_BOX_UNLOCK_TITLE" Language="th_TH">
 			<Text>ปลดล็อคที่ระดับ 2 ของ ซิมอน โบลิบาร์</Text>		<!-- Unlock at Simón Bolívar level 2 -->
 		</Replace>
@@ -599,20 +590,17 @@
 			<Text>เล่นเกม 1</Text>		<!-- Play Game 1 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_PLAY_GAMES_1_DESC" Language="th_TH">
-			<Text>ในฐานะ โบลิบาร์ ให้ไปถึงอย่างน้อย 1 มิลสโตนใน Legacy Path</Text>		<!-- As Bolivar, reach at least 1 Legacy Path Milestone. -->
-		</Replace>
+			<Text>ในฐานะ โบลิบาร์, ให้บรรลุอย่างน้อย 1 วีรกรรมหลัก</Text>		<!-- As Bolivar, complete 1 Major Triumph. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_PLAY_GAMES_2_NAME" Language="th_TH">
 			<Text>เล่นเกม 2</Text>		<!-- Play Game 2 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_PLAY_GAMES_2_DESC" Language="th_TH">
-			<Text>ในฐานะ โบลิบาร์ ให้ไปถึงอย่างน้อย 2 จุดหมายทางมรดก</Text>		<!-- As Bolivar, reach at least 2 Legacy Path Milestones. -->
-		</Replace>
+			<Text>ในฐานะ โบลิบาร์, ให้บรรลุอย่างน้อย 5 วีรกรรมหลัก สามารถทำได้ในยุคใดก็ได้</Text>		<!-- As Bolivar, complete 5 Major Triumphs across any number of Ages. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_PLAY_GAMES_3_NAME" Language="th_TH">
 			<Text>เล่นเกม 3</Text>		<!-- Play Game 3 -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_PLAY_GAMES_3_DESC" Language="th_TH">
-			<Text>ในฐานะ โบลิบาร์ ให้ถึง 3 มิลestones เส้นทางมรดกอย่างน้อย</Text>		<!-- As Bolivar, reach at least 3 Legacy Path Milestones. -->
-		</Replace>
+			<Text>ในฐานะ โบลิบาร์, ให้บรรลุอย่างน้อย 25 วีรกรรมหลัก สามารถทำได้ในยุคใดก็ได้</Text>		<!-- As Bolivar, complete 25 Major Triumphs across any number of Ages. --></Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BOLIVAR_SCIENCE_VICTORY_ANTIQUITY_NAME" Language="th_TH">
 			<Text>หอสมุดอันยิ่งใหญ่</Text>		<!-- Great Library -->
 		</Replace>
@@ -1379,37 +1367,29 @@
 			<Text>ผู้ปลดปล่อย</Text>		<!-- The Liberator -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_BOLIVAR_EXPLORATION_1_NAME" Language="th_TH">
-			<Text>ไพ่มรดกขยายอาณาเขต ยุคสำรวจ</Text>		<!-- Exploration Expansionist Legacy Card -->
-		</Replace>
+			<Text>การอุทิศขยายอาณาเขต ยุคสำรวจ</Text>		<!-- Exploration Expansionist Dedication --></Replace>
 		<Replace Tag="LOC_STRATEGYCARD_BOLIVAR_EXPLORATION_1_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ โบลิบาร์, ได้รับ ไพ่มรดกขยายอาณาเขต ยุคสำรวจ: [n]  
-				+15% ทอง, -10% อาหาร</Text>		<!-- As Bolivar, access a new Exploration Legacy Card:[n]
-				+15% Gold, -10% Food -->
-		</Replace>
+			<Text>ในฐานะ โบลิบาร์, เข้าถึง การอุทิศ ยุคสำรวจใหม่: [n]
+				+15% ทอง, -10% อาหาร</Text>		<!-- As Bolivar, access a new Exploration Dedication:[n]
+				+15% Gold, -10% Food --></Replace>
 		<Replace Tag="LOC_STRATEGYCARD_BOLIVAR_EXPLORATION_2_NAME" Language="th_TH">
-			<Text>ไพ่มรดกทางทหาร ยุคสำรวจ</Text>		<!-- Exploration Militaristic Legacy Card -->
-		</Replace>
+			<Text>การอุทิศทางทหารยุคสำรวจ</Text>		<!-- Exploration Militaristic Dedication --></Replace>
 		<Replace Tag="LOC_STRATEGYCARD_BOLIVAR_EXPLORATION_2_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ โบลิบาร์, ได้รับ ไพ่มรดกทางทหาร ยุคสำรวจ: [n]  
-				+3 พลังต่อสู้ สำหรับยูนิตทางน้ำ, -10% อิทธิพล</Text>		<!-- As Bolivar, access a new Exploration Legacy Card:[n]
-				+3 Combat Strength for your Naval Units, -10% Influence -->
-		</Replace>
+			<Text>ในฐานะ โบลิบาร์, เข้าถึง การอุทิศ ยุคสำรวจ: [n]
+				+3 พลังต่อสู้ สำหรับยูนิตทางน้ำ, -10% อิทธิพล</Text>		<!-- As Bolivar, access a new Exploration Dedication:[n]
+				+3 Combat Strength for your Naval Units, -10% Influence --></Replace>
 		<Replace Tag="LOC_STRATEGYCARD_BOLIVAR_MODERN_1_NAME" Language="th_TH">
-			<Text>ไพ่มรดกขยายอาณาเขต ยุคใหม่</Text>		<!-- Modern Expansionist Legacy Card -->
-		</Replace>
+			<Text>การอุทิศขยายอาณาเขต ยุคใหม่</Text>		<!-- Modern Expansionist Dedication --></Replace>
 		<Replace Tag="LOC_STRATEGYCARD_BOLIVAR_MODERN_1_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ โบลิบาร์, ได้รับ ไพ่มรดกขยายอาณาเขต ยุคใหม่:[n] 
-				+15% อาหาร, -10% ทอง</Text>		<!-- As Bolivar, access a new Modern Legacy Card:[n]
-				+15% Food, -10% Gold -->
-		</Replace>
+			<Text>ในฐานะ โบลิบาร์, เข้าถึง การอุทิศขยายอาณาเขต ยุคใหม่:[n]
+				+15% อาหาร, -10% ทอง</Text>		<!-- As Bolivar, access a new Modern Dedication:[n]
+				+15% Food, -10% Gold --></Replace>
 		<Replace Tag="LOC_STRATEGYCARD_BOLIVAR_MODERN_2_NAME" Language="th_TH">
-			<Text>ไพ่มรดกทางหาร ยุคใหม่</Text>		<!-- Modern Militaristic Legacy Card -->
-		</Replace>
+			<Text>การอุทิศทางทหาร ยุคใหม่</Text>		<!-- Modern Militaristic Dedication --></Replace>
 		<Replace Tag="LOC_STRATEGYCARD_BOLIVAR_MODERN_2_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ โบลิบาร์, ได้รับ ไพ่มรดกทางหาร ยุคใหม่: [n]  
-				+3 พลังต่อสู้ สำหรับยูนิตทางอากาศของคุณ, -10% อิทธิพล</Text>		<!-- As Bolivar, access a new Modern Legacy Card:[n]
-				+3 Combat Strength for your Air Units, -10% Influence -->
-		</Replace>
+			<Text>ในฐานะ โบลิบาร์, ได้รับ การอุทิศ ยุคใหม่: [n]  
+				+3 พลังต่อสู้ สำหรับยูนิตทางอากาศของคุณ, -10% อิทธิพล</Text>		<!-- As Bolivar, access a new Modern Dedication:[n]
+				+3 Combat Strength for your Air Units, -10% Influence --></Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_BOLIVAR_L1_NAME" Language="th_TH">
 			<Text>โหนดลักษณะขยายอาณาเขต</Text>		<!-- Expansionist Attribute Node -->
 		</Replace>

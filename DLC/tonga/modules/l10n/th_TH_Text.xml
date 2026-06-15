@@ -173,8 +173,7 @@
 			<Text>+1 [icon:YIELD_DIPLOMACY] อิทธิพล บนพระราชวัง และศาลากลางในถิ่นฐานที่อยู่ติดชายฝั่ง, ไม่สามารถใช้ [icon:PROJECT] ผนวกเข้า หรือการกระทำหน่วย Levy ได้</Text>		<!-- +1 [icon:YIELD_DIPLOMACY] Influence on the Palace and City Halls in Settlements adjacent to Coast. Cannot use the [icon:PROJECT] City-State - Incorporate or the Levy Unit Action. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_TONGA_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI][B]+1[icon:YIELD_DIPLOMACY] อิทธิพล[/B] บน [B]พระราชวัง[/B] และ[B]ศาลากลาง[/B]ในถิ่นฐานที่อยู่ติด[B]ชายฝั่ง[/B].[LI]ไม่สามารถใช้ [icon:PROJECT] [B]ผนวกเข้า[/B] หรือ[B]การเรียกยูนิต[/B]กับนครรัฐได้[LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการสร้าง [B]ฮาอามองงา อะ เมาอิ[/B].[/LIST]</Text>		<!-- [BLIST][LI][B]+1[icon:YIELD_DIPLOMACY] Influence[/B] on the [B]Palace[/B] and [B]City Halls[/B] in Settlements adjacent to [B]Coast[/B].[LI]Cannot use the [icon:PROJECT] [B]City-State - Incorporate [/B]or the [B]Levy Unit Action[/B].[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Ha'amonga 'a Maui[/B].[/LIST] -->
-		</Replace>
+			<Text>[BLIST][LI][B]+1[icon:YIELD_DIPLOMACY] อิทธิพล[/B] บน [B]พระราชวัง[/B] และ[B]ศาลากลาง[/B] ในถิ่นฐานที่อยู่ติด[B]ชายฝั่ง[/B],[LI]ไม่สามารถใช้ [icon:PROJECT] [B]ผนวกเข้า[/B] หรือ[B]การเรียกยูนิต[/B] กับนครรัฐได้,[LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]สำหรับการสร้าง [B]ฮาอามองงา อะ เมาอิ[/B][/LIST]</Text>		<!-- [BLIST][LI][B]+1[icon:YIELD_DIPLOMACY] Influence[/B] on the [B]Palace[/B] and [B]City Halls[/B] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] adjacent to [B]Coast[/B].[LI]Receive a free [B][icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP][/B] from a new [B][icon:CITYSTATE] [TIP:LOC_PEDIA_CONCEPTS_CITY_STATE_TOOLTIP]City-State[/TIP][/B] when you become their [B][TIP:LOC_PEDIA_CONCEPTS_SUZERAIN_TOOLTIP]Suzerain[/TIP][/B].[LI]Cannot use the [icon:PROJECT] [B]City-State - Incorporate[/B] or the [B]Levy Unit Action[/B].[LI][B]+30%[icon:YIELD_PRODUCTION] Production[/B] towards constructing [B]Ha'amonga 'a Maui[/B].[/BLIST] --></Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_TONGA_DESCRIPTION" Language="th_TH">
 			<Text>+30%[icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น [icon:WONDER] สิ่งมหัศจรรย์ ที่เกี่ยวข้องกับ ตองงา</Text>		<!-- +30%[icon:YIELD_PRODUCTION] Production from being Tonga's associated [icon:WONDER] Wonder. -->
 		</Replace>
@@ -272,11 +271,10 @@
 			<Text>โทฟิอา</Text>		<!-- Tofi'a -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_TOFI_A_DESCRIPTION" Language="th_TH">
-			<Text>ย่านพิเศษ [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]สำหรับตองงา[/TIP], สร้างโดยการก่อสร้าง [TIP:LOC_PEDIA_CONCEPTS_LANGI_TOOLTIP]ลังงี[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_VAIKAUKAU_TOOLTIP]ไวคาวเกา[/TIP] ในเขตเดียวกัน [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]. +2 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุก [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]เส้นทางการค้า[/TIP] ที่คุณมีไปยัง [icon:CITYSTATE] นครรัฐ, [icon:UNIT_SCOUT] ยูนิตสอดแนม ในทุก [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP] จากอาณาจักรที่มี [TIP:LOC_PEDIA_CONCEPTS_TOFI_A_TOOLTIP]โทฟิอา[/TIP] สามารถเข้าสู่มหาสมุทรโดยไม่เสียหาย (แต่ไม่สามารถ [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]ขึ้นฝั่ง[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP] ในยุคโบราณ)</Text>		<!-- Tongan [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]Unique Quarter[/TIP]. Created by constructing the Langi and Vaikaukau in the same [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP]. +2 [icon:YIELD_CULTURE] Culture for every [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP] you have to a [icon:CITYSTATE] City-State. [icon:UNIT_SCOUT] Scouts in any [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] from an empire with a Tofi'a can enter Ocean without taking damage (but cannot [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]disembark[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP] in Antiquity). -->
-		</Replace>
+			<Text>ย่านพิเศษของตองงา [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]Unique Quarter[/TIP], สร้างโดยการก่อสร้าง [TIP:LOC_PEDIA_CONCEPTS_LANGI_TOOLTIP]ลังงี[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_VAIKAUKAU_TOOLTIP]ไวคาวเกา[/TIP] ในเขตเดียวกัน [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP], 
++2 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุก [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]เส้นทางการค้า[/TIP] ที่คุณมีไปยัง [icon:CITYSTATE] นครรัฐ, [icon:UNIT_SCOUT] ยูนิตสอดแนม ในทุก [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP] จากอาณาจักรที่มี [TIP:LOC_PEDIA_CONCEPTS_TOFI_A_TOOLTIP]โทฟิอา[/TIP] สามารถเข้าสู่มหาสมุทรโดยไม่เสียหาย (แต่ไม่สามารถ [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]ขึ้นฝั่ง[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP] ในยุคโบราณ)</Text>		<!-- Tongan [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]Unique Quarter[/TIP]. Created by constructing the Langi and Vaikaukau in the same [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP]. +2 [icon:YIELD_CULTURE] Culture for every [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP] you have to a [icon:CITYSTATE] City-State. --></Replace>
 		<Replace Tag="LOC_QUARTER_TOFI_A_TOOLTIP" Language="th_TH">
-			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุก [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]เส้นทางการค้า[/TIP] ไปยัง [icon:CITYSTATE] นครรัฐ, [icon:UNIT_SCOUT] ยูนิตสอดแนม ในทุก [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP] จากอาณาจักรที่มี โทฟิอา สามารถเข้าสู่มหาสมุทรโดยไม่เสียหาย (แต่ไม่สามารถ [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]ขึ้นฝั่ง[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP] ในยุคโบราณ)</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture for every [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP] you have to a [icon:CITYSTATE] City-State. [icon:UNIT_SCOUT] Scouts in any [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] from an empire with a Tofi'a can enter Ocean without taking damage (but cannot [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]disembark[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP] in Antiquity). -->
-		</Replace>
+			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุก [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]เส้นทางการค้า[/TIP] ไปยัง [icon:CITYSTATE] นครรัฐ, [icon:UNIT_SCOUT] ยูนิตสอดแนม ในทุก [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP] จากอาณาจักรที่มี โทฟิอา สามารถเข้าสู่มหาสมุทรโดยไม่เสียหาย (แต่ไม่สามารถ [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]ขึ้นฝั่ง[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP] ในยุคโบราณ)</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture for every [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP] you have to a [icon:CITYSTATE] City-State. --></Replace>
 		<Replace Tag="LOC_BUILDING_LANGI_NAME" Language="th_TH">
 			<Text>ลังงี</Text>		<!-- Langi -->
 		</Replace>
@@ -479,8 +477,7 @@
 			<Text>ผู้นำตองงารวมตัวกันต้อนรับหัวหน้าคนใหม่เข้าสู่กลุ่ม โดยการดื่มคาวา พวกเขาผูกพันจักรวาลระหว่างตนเองกับดินแดนตองงา ทุกคนต้องปฏิบัติตามแบบบรรพบุรุษ เพื่อให้พิธีนี้เป็นตาปู ศักดิ์สิทธิ์</Text>		<!-- The leaders of Tonga gather to welcome a new chieftain to their ranks. By drinking the kava, they seal the cosmic binding between themselves and the Tongan domain. All must go as the ancestors did, so that the ceremony is tapu, sacred. -->
 		</Replace>
 		<Replace Tag="LOC_11092B_NAME" Language="th_TH">
-			<Text>วางอาหารไว้ในวงกลมก่อน</Text>		<!-- First place the food within the circle. -->
-		</Replace>
+			<Text>วางอาหารไว้ในวงกลมก่อน</Text>		<!-- First place the offerings within the circle. --></Replace>
 		<Replace Tag="LOC_11092B_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
@@ -644,11 +641,9 @@
 			<Text>ผลผลิตแรกจากการเก็บเกี่ยวจะถูกส่งไปยังบ้านหัวหน้าเสมอ ดร.ริซาลหยุดถามชาวนาว่าทำไมต้องมอบอาหารในเวลาที่หิวที่สุด คำตอบคือ "อำนาจกษัตริย์ทำให้ทุกสิ่งเป็นไปได้"</Text>		<!-- The first yields from the harvest always goes to the chief's house. Dr. Rizal pauses to ask a farmer why they should give away their food in the time of most hunger, and the reply is simply: "kingly power enables all things". -->
 		</Replace>
 		<Replace Tag="LOC_12015B_NAME" Language="th_TH">
-			<Text>เดินทางต่อทั่วผืนดิน</Text>		<!-- Continue touring the lands. -->
-		</Replace>
+			<Text>เดินทางต่อทั่วผืนดิน</Text>		<!-- A small part of a larger economy at work. --></Replace>
 		<Replace Tag="LOC_12015B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} ใน {2_capital}</Text>		<!-- {1_reward} in {2_capital}. -->
-		</Replace>
+			<Text>{1_reward} ใน {2_capital}</Text>		<!-- {1_reward}. --></Replace>
 		<Replace Tag="LOC_12015C_NAME" Language="th_TH">
 			<Text>ดร.ริซาลต้องพบหัวหน้าคนนี้</Text>		<!-- Dr. Rizal must meet this chief. -->
 		</Replace>

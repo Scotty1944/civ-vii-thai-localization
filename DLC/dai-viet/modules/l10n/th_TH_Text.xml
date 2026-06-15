@@ -170,11 +170,9 @@
 			<Text>ฮิช ตู๊ง สี้</Text>		<!-- Hịch Tướng Sĩ -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_DAI_VIET_DESCRIPTION" Language="th_TH">
-			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น [icon:WONDER] สิ่งมหัศจรรย์ที่เกี่ยวข้องกับ ดั่ยเหวียต</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Đại Việt's associated [icon:WONDER] Wonder. -->
-		</Replace>
+			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น [icon:WONDER] สิ่งมหัศจรรย์ที่เกี่ยวข้องกับ ดั่ยเหวียต</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Đại Việt's associated [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP]. --></Replace>
 		<Replace Tag="LOC_CIVILIZATION_DAI_VIET_DESCRIPTION" Language="th_TH">
-			<Text>รับ 25 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับแต่ละ [icon:YIELD_POPULATION] ประชากรเมืองของถิ่นฐาน เมื่อคุณสำเร็จในการสร้าง [icon:Action_Fortify] อาคารป้อมปราการ (ปรับตามความเร็วเกม)</Text>		<!-- Gain 25 [icon:YIELD_CULTURE] Culture for each [icon:YIELD_POPULATION] Urban Population of the Settlement when you construct a [icon:Action_Fortify] Fortification Building (Scales by Game Speed). -->
-		</Replace>
+			<Text>รับ 25 [icon:YIELD_CULTURE] วัฒนธรรม สำหรับแต่ละ [icon:YIELD_POPULATION] ประชากรเมืองของถิ่นฐาน เมื่อคุณสำเร็จในการสร้าง [icon:Action_Fortify] อาคารป้อมปราการ (ปรับตามความเร็วเกม)</Text>		<!-- When you create a [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Fortification Building[/TIP] or [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP], gain 25 [icon:YIELD_CULTURE] Culture for each [icon:YIELD_POPULATION] [TIP:LOC_PEDIA_CONCEPTS_POPULATION_TOOLTIP]Urban Population[/TIP] in the Settlement. +2 [icon:YIELD_CULTURE] Culture and [icon:YIELD_FOOD] Food on [icon:CITY_FORTIFIED] Fortification Constructibles in [icon:CITY_UNIMPROVED] Tropical Terrain. --></Replace>
 		<Replace Tag="LOC_TRAIT_DAI_VIET_ABILITY_AQ_DESCRIPTION" Language="th_TH">
 			<Text>[BLIST][LI]เมื่อคุณสร้าง [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านเสริมกำลัง[/TIP] หรือ [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP], ได้รับ [B]15 [icon:YIELD_CULTURE] วัฒนธรรม[/B] สำหรับแต่ละ [icon:YIELD_POPULATION] [TIP:LOC_PEDIA_CONCEPTS_POPULATION_TOOLTIP]ประชากรเมือง[/TIP] ในถิ่นฐาน LI][LI][B]+1 [icon:YIELD_CULTURE] วัฒนธรรม[/B] และ [icon:YIELD_FOOD] [B]อาหาร[/B] บน [icon:CITY_FORTIFIED] สิ่งก่อสร้างเสริมกำลัง ใน [icon:CITY_UNIMPROVED] ภูมิประเทศเขตร้อน[/LI][/BLIST]</Text>		<!-- [BLIST][LI]When you create a [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Fortification Building[/TIP] or [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP], gain [B]15 [icon:YIELD_CULTURE] Culture[/B] for each [icon:YIELD_POPULATION] [TIP:LOC_PEDIA_CONCEPTS_POPULATION_TOOLTIP]Urban Population[/TIP] in the Settlement.[LI][B]+1 [icon:YIELD_CULTURE] Culture[/B] and [icon:YIELD_FOOD] [B]Food[/B] on [icon:CITY_FORTIFIED] Fortification Constructibles in [icon:CITY_UNIMPROVED] Tropical Terrain.[/BLIST] -->
 		</Replace>
@@ -254,11 +252,9 @@
 			<Text>แถ่ง เหว้</Text>		<!-- Thành Huế -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_THANH_HUE_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_CULTURE] วัฒนธรรม, +1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]ขีดจำกัดผู้เชี่ยวชาญ[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ที่มี 7 [icon:Action_Fortify] สิ่งก่อสร้างป้อมปราการ, ทำหน้าที่เป็น [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]เขตเสริมกำลัง[/TIP], ต้องสร้างติดกับกำแพงยุคกลางใน [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมือง[/TIP] ที่มี 7 กำแพงยุคกลาง</Text>		<!-- +4 [icon:YIELD_CULTURE] Culture. +1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] with 7 [icon:Action_Fortify] Fortification Constructibles. Acts as a [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified District[/TIP]. Must be built adjacent to Medieval Walls, in a [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]City[/TIP] with 7 Medieval Walls. -->
-		</Replace>
+			<Text>+4 [icon:YIELD_CULTURE] วัฒนธรรม, +1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]ขีดจำกัดผู้เชี่ยวชาญ[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ที่มี 7 [icon:Action_Fortify] สิ่งก่อสร้างป้อมปราการ, ทำหน้าที่เป็น [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTs_TOOLTIP]เขตเสริมกำลัง[/TIP], ต้องสร้างติดกับกำแพงยุคกลางใน [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมือง[/TIP] ที่มี 7 กำแพงยุคกลาง</Text>		<!-- +4 [icon:YIELD_CULTURE] Culture. +1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] with 7 [icon:Action_Fortify] Fortification Constructibles. Acts as a [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified District[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be built adjacent to Medieval Walls, in a [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]City[/TIP] with 7 Medieval [TIP:LOC_PEDIA_CONCEPTS_WALL_TOOLTIP]Walls[/TIP]. --></Replace>
 		<Replace Tag="LOC_WONDER_THANH_HUE_TOOLTIP" Language="th_TH">
-			<Text>+1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]ขีดจำกัดผู้เชี่ยวชาญ[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ที่มี 7 [icon:Action_Fortify] สิ่งก่อสร้างป้อมปราการ, ทำหน้าที่เป็น [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]เขตเสริมกำลัง[/TIP][N]ต้องสร้างติดกับกำแพงยุคกลางใน [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ที่มี 7 กำแพงยุคกลาง</Text>		<!-- +1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] with 7 [icon:Action_Fortify] Fortification Constructibles. Acts as a [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified District[/TIP].[N]Must be built adjacent to Medieval Walls, in a [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]City[/TIP] with 7 Medieval Walls. -->
-		</Replace>
+			<Text>+1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]ขีดจำกัดผู้เชี่ยวชาญ[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ที่มี 7 [icon:Action_Fortify] สิ่งก่อสร้างป้อมปราการ, ทำหน้าที่เป็น [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]เขตเสริมกำลัง[/TIP][N]ต้องสร้างติดกับกำแพงยุคกลางใน [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ที่มี 7 กำแพงยุคกลาง</Text>		<!-- +1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] with 7 [icon:Action_Fortify] Fortification Constructibles. Acts as a [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified District[/TIP].[N]Must be built adjacent to Medieval Walls, in a [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]City[/TIP] with 7 Medieval [TIP:LOC_PEDIA_CONCEPTS_WALL_TOOLTIP]Walls[/TIP]. --></Replace>
 		<Replace Tag="LOC_QUOTE_WONDER_THANH_HUE" Language="th_TH">
 			<Text>หากวีรบุรุษอยู่บ้านตายข้างกองไฟ ชื่อของพวกเขาจะถูกจารึกบนไม้ไผ่และผ้าไหมชั่วนิรันดร์หรือไม่?</Text>		<!-- If heroes remained home to die by the fire, would their names be inscribed upon bamboo and silk for all eternity? -->
 		</Replace>
@@ -391,8 +387,7 @@
 			<Text>กอน เขิ่น</Text>		<!-- Con Kênh -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_CON_KENH_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:YIELD_FOOD] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านอาหาร[/TIP] และ +2 [icon:YIELD_FOOD] อาหาร บน [icon:YIELD_CULTURE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรม[/TIP]</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture on [icon:YIELD_FOOD] Food [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] and +2 [icon:YIELD_FOOD] Food on [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
-		</Replace>
+			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:YIELD_FOOD] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] และ +2 [icon:YIELD_FOOD] อาหาร บน [icon:YIELD_CULTURE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- [icon:YIELD_CULTURE] Culture and [icon:YIELD_FOOD] Food [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] gain a +1 [icon:YIELD_CULTURE] Adjacency for [icon:CITY_UNIMPROVED] Tropical Terrain. --></Replace>
 		<Replace Tag="LOC_TRADITION_RUONG_LANG_XA_NAME" Language="th_TH">
 			<Text>ทุ่งหมู่บ้าน</Text>		<!-- Ruộng Làng Xã -->
 		</Replace>
@@ -469,8 +464,7 @@
 			<Text>ขอมครอม</Text>		<!-- Khmer Krom -->
 		</Replace>
 		<Replace Tag="LOC_11043A_COMPLETION" Language="th_TH">
-			<Text>เขื่อนขอมได้หล่อเลี้ยงประชาชนมายาวนาน, แต่ในปีที่ผ่านมาตั้งแต่เวียดเข้ามามีอำนาจ, หน้าที่อันศักดิ์สิทธิ์ในการดูแลเขื่อนนี้กลับค่อยๆ ลดน้อยลง, ตะกอนเนื้อดินคืบคลานเข้าไป, และแผ่นดินแน่นบริเวณที่เปลือยเปล่าก็ปรากฏให้เห็นในช่วงฤดูแล้ง</Text>		<!-- The Khmer baray have long fed the people. But in the years since the Việt took power, the sacred task of their maintenance has waned. Silt has crept in, and flat stretches of bare mud lie exposed during the dry season. -->
-		</Replace>
+			<Text>เขื่อนขอมได้หล่อเลี้ยงประชาชนมายาวนาน, แต่ในปีที่ผ่านมาตั้งแต่เวียดเข้ามามีอำนาจ, หน้าที่อันศักดิ์สิทธิ์ในการดูแลเขื่อนนี้กลับค่อยๆ ลดน้อยลง, ตะกอนเนื้อดินคืบคลานเข้าไป, และแผ่นดินแน่นบริเวณที่เปลือยเปล่าก็ปรากฏให้เห็นในช่วงฤดูแล้ง</Text>		<!-- The baray have long fed the people. But the sacred task of their maintenance has waned. Silt has crept in, and flat stretches of bare mud lie exposed during the dry season. --></Replace>
 		<Replace Tag="LOC_11043B_NAME" Language="th_TH">
 			<Text>ออกแบบการระบายน้ำตามมาตรฐานใหม่ของเวียด</Text>		<!-- Redesign their drainage along new Việt standards. -->
 		</Replace>
@@ -478,8 +472,7 @@
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_11043C_NAME" Language="th_TH">
-			<Text>ให้พราหมณ์ขอมทำพิธีเก่าแก่</Text>		<!-- Have Khmer priests carry out the old ritual. -->
-		</Replace>
+			<Text>ให้พราหมณ์ขอมทำพิธีเก่าแก่</Text>		<!-- Have court brahmins carry out the old ritual. --></Replace>
 		<Replace Tag="LOC_11043C_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
@@ -541,8 +534,7 @@
 			<Text>อักษรนอม</Text>		<!-- Chữ Nôm -->
 		</Replace>
 		<Replace Tag="LOC_11047A_COMPLETION" Language="th_TH">
-			<Text>เมื่อบรรดานักวิชาการเขียนหนังสือ พวกเขาใช้ระบบอักษรที่สวยงาม แม้จะไม่ตรงกับภาษาเวียดนาม, ด้วยแรงบันดาลใจนี้ พวกเขาหันไปหาชุมชนเพื่อนบ้าน, แน่นอนว่าพวกเขาน่าจะได้เรียนรู้สิ่งใดจากที่นั่น</Text>		<!-- When scholars write, they use a script that, while beautiful, does not match the Vietnamese language. Inspired, they turn towards their neighbors. Surely they could learn something there. -->
-		</Replace>
+			<Text>เมื่อบรรดานักวิชาการเขียนหนังสือ พวกเขาใช้ระบบอักษรที่สวยงาม แม้จะไม่ตรงกับภาษาเวียดนาม, ด้วยแรงบันดาลใจนี้ พวกเขาหันไปหาชุมชนเพื่อนบ้าน, แน่นอนว่าพวกเขาน่าจะได้เรียนรู้สิ่งใดจากที่นั่น</Text>		<!-- When scholars write, they use a script that, while beautiful, does not match the Vietnamese language. Inspired, they turn toward their neighbors. Surely they could learn something there. --></Replace>
 		<Replace Tag="LOC_11047B_NAME" Language="th_TH">
 			<Text>นักวิชาการออกแบบอักษรใหม่จากการเขียนของผู้อื่น</Text>		<!-- Scholars design a script based on the writing of others. -->
 		</Replace>
