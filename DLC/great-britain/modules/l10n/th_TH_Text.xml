@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_CITIZEN_GREAT_BRITAIN_MALE_1" Language="th_TH">
@@ -170,13 +170,23 @@
 			<Text>[BLIST][LI][B]+25%[icon:YIELD_GOLD] ทอง[/B] ในการซื้อ [icon:CITY_BUILDING_LIST] [B]อาคาร[/B] และ +25%[icon:YIELD_PRODUCTION] กำลังผลิต ในการก่อสร้าง [icon:CITY_BUILDING_LIST] [B]อาคาร[/B][LI]ใช้ค่าใช้จ่ายเพิ่มอีก [B]50%[/B] ในการเปลี่ยน [icon:YIELD_TOWNS] [B]เมืองเล็ก[/B] เป็น [icon:YIELD_CITIES] [B]เมืองใหญ่[/B][LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการก่อสร้าง [B]โรงไฟฟ้าแบตเตอร์ซี[/B][/BLIST]</Text>		<!-- [BLIST][LI][B]+25%[icon:YIELD_GOLD] Gold[/B] towards purchasing [icon:CITY_BUILDING_LIST] [B]Buildings[/B] and [B]+25% [icon:YIELD_PRODUCTION] Production[/B] towards constructing [icon:CITY_BUILDING_LIST] [B]Buildings[/B].[LI]It costs [B]50% more[/B] to convert [icon:YIELD_TOWNS] [B]Towns[/B] into [icon:YIELD_CITIES] [B]Cities[/B].[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Battersea Power Station[/B].[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_GREAT_BRITAIN_ABILITY_AQ_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI] [B]+25%[icon:YIELD_GOLD] Gold[/B] towards purchasing [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] and [B]+25% [icon:YIELD_PRODUCTION] Production[/B] towards constructing [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B].[LI] It costs [B]50% more[/B] to convert [B][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP][/B] into [B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP][/B].[BLIST][LI][B]+1 [icon:YIELD_SCIENCE] Science[/B] on [B]Active [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] adjacent to Coast.[/BLIST][/BLIST]</Text>		<!-- [BLIST][LI] [B]+25%[icon:YIELD_GOLD] Gold[/B] towards purchasing [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] and [B]+25% [icon:YIELD_PRODUCTION] Production[/B] towards constructing [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B].[LI] It costs [B]50% more[/B] to convert [B][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP][/B] into [B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP][/B].[BLIST][LI][B]+1 [icon:YIELD_SCIENCE] Science[/B] on [B]Active [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] adjacent to Coast.[/BLIST][/BLIST] -->
+			<Text>[BLIST][LI] [B]+25%[icon:YIELD_GOLD] ทอง[/B] เพื่อการซื้อ [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทอง[/TIP][/B] และ [B]+25% [icon:YIELD_PRODUCTION] กำลังผลิต[/B] เพื่อการก่อสร้าง [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านกำลังผลิต[/TIP][/B],[LI] [B]ค่าใช้จ่ายในการแปลง[/B] [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP] ไปเป็น [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] เพิ่มขึ้น 50%.[BLIST][LI][B]+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] บน [B]อาคารที่ใช้งานอยู่ [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP][/B] ที่ติดกับชายฝั่ง[/BLIST][/BLIST]</Text>		<!-- [BLIST][LI] [B]+25%[icon:YIELD_GOLD] Gold[/B] towards purchasing [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] and [B]+25% [icon:YIELD_PRODUCTION] Production[/B] towards constructing [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B].[LI] It costs [B]50% more[/B] to convert [B][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP][/B] into [B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP][/B].[BLIST][LI][B]+1 [icon:YIELD_SCIENCE] Science[/B] on [B]Active [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] adjacent to Coast.[/BLIST][/BLIST] -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_GREAT_BRITAIN_ABILITY_EX_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI] [B]+25%[icon:YIELD_GOLD] Gold[/B] towards purchasing [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] and [B]+25% [icon:YIELD_PRODUCTION] Production[/B] towards constructing [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B].[LI] It costs [B]50% more[/B] to convert [B][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP][/B] into [B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP][/B].[BLIST][LI][B]+2 [icon:YIELD_SCIENCE] Science[/B] on [B]Active [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] adjacent to Coast.[/BLIST][/BLIST]</Text>		<!-- [BLIST][LI] [B]+25%[icon:YIELD_GOLD] Gold[/B] towards purchasing [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] and [B]+25% [icon:YIELD_PRODUCTION] Production[/B] towards constructing [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B].[LI] It costs [B]50% more[/B] to convert [B][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP][/B] into [B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP][/B].[BLIST][LI][B]+2 [icon:YIELD_SCIENCE] Science[/B] on [B]Active [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] adjacent to Coast.[/BLIST][/BLIST] -->
+			<Text>[BLIST][LI] [B]+25%[icon:YIELD_GOLD] ทอง[/B] เพื่อซื้อ [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP][/B] และ [B]+25% [icon:YIELD_PRODUCTION] กำลังผลิต[/B] เพื่อก่อสร้าง [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP][/B], [LI] ค่าใช้จ่ายในการแปลง [B][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP][/B] เป็น [B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP][/B].[BLIST][LI][B]+2 [icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] ใน [B]อาคารที่ใช้งานอยู่ถัดจากชายฝั่ง[/B][/LI][/BLIST][/BLIST]</Text>		<!-- [BLIST][LI] [B]+25%[icon:YIELD_GOLD] Gold[/B] towards purchasing [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] and [B]+25% [icon:YIELD_PRODUCTION] Production[/B] towards constructing [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B].[LI] It costs [B]50% more[/B] to convert [B][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP][/B] into [B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP][/B].[BLIST][LI][B]+2 [icon:YIELD_SCIENCE] Science[/B] on [B]Active [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] adjacent to Coast.[/BLIST][/BLIST] -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_GREAT_BRITAIN_ABILITY_MO_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI] [B]+25%[icon:YIELD_GOLD] Gold[/B] towards purchasing [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] and [B]+25% [icon:YIELD_PRODUCTION] Production[/B] towards constructing [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B].[LI] It costs [B]50% more[/B] to convert [B][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP][/B] into [B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP][/B].[BLIST][LI][B]+3 [icon:YIELD_SCIENCE] Science[/B] on [B]Active [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] adjacent to Coast.[LI] [B]+30%[icon:YIELD_PRODUCTION] Production[/B] towards constructing [B]Battersea Power Station[/B].[/BLIST]</Text>		<!-- [BLIST][LI] [B]+25%[icon:YIELD_GOLD] Gold[/B] towards purchasing [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] and [B]+25% [icon:YIELD_PRODUCTION] Production[/B] towards constructing [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B].[LI] It costs [B]50% more[/B] to convert [B][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP][/B] into [B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP][/B].[BLIST][LI][B]+3 [icon:YIELD_SCIENCE] Science[/B] on [B]Active [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] adjacent to Coast.[LI] [B]+30%[icon:YIELD_PRODUCTION] Production[/B] towards constructing [B]Battersea Power Station[/B].[/BLIST] -->
+			<Text>[BLIST][LI] [B]+25%[icon:YIELD_GOLD] ทอง[/B] สำหรับการซื้อ [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP][/B] และ [B]+25% [icon:YIELD_PRODUCTION] กำลังผลิต[/B] สำหรับการสร้าง [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP][/B]
+[/LI]
+[LI] มีค่าใช้จ่าย [B]50% มากขึ้น[/B] ในการแปลง [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP] เป็น [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP]
+[/LI]
+[BLIST]
+[LI][B]+3 [icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] บน [B][TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารที่ใช้งาน[/TIP][/B] ที่ติดกับชายฝั่ง
+[/LI]
+[LI] [B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต[/B] สำหรับการก่อสร้าง [B]สถานีไฟฟ้าแบทเทซี[/B]
+[/LI]
+[/BLIST]
+[/BLIST]</Text>		<!-- [BLIST][LI] [B]+25%[icon:YIELD_GOLD] Gold[/B] towards purchasing [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] and [B]+25% [icon:YIELD_PRODUCTION] Production[/B] towards constructing [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B].[LI] It costs [B]50% more[/B] to convert [B][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP][/B] into [B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP][/B].[BLIST][LI][B]+3 [icon:YIELD_SCIENCE] Science[/B] on [B]Active [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] adjacent to Coast.[LI] [B]+30%[icon:YIELD_PRODUCTION] Production[/B] towards constructing [B]Battersea Power Station[/B].[/BLIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_GREAT_BRITAIN_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น [icon:WONDER] สิ่งมหัศจรรย์ ที่เกี่ยวข้องกับ บริเตนใหญ่</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Great Britain's associated [icon:WONDER] Wonder. -->
@@ -341,10 +351,10 @@
 			<Text>"สงครามนั้นถูกต้องหรือไม่ถูกต้อง ขึ้นอยู่กับว่าเป็นเวลาที่เหมาะสมหรือไม่เหมาะสม"</Text>		<!-- "War is righteous or unrighteous according as it is opportune or inopportune." -->
 		</Replace>
 		<Replace Tag="LOC_NODE_CIVIC_AQ_GREAT_BRITAIN_ORIGINS_NAME" Language="th_TH">
-			<Text>British Origins</Text>		<!-- British Origins -->
+			<Text>ต้นกำเนิดอังกฤษ</Text>		<!-- British Origins -->
 		</Replace>
 		<Replace Tag="LOC_NODE_CIVIC_EX_GREAT_BRITAIN_RENAISSANCE_NAME" Language="th_TH">
-			<Text>British Renaissance</Text>		<!-- British Renaissance -->
+			<Text>ยุคฟื้นฟูศิลปวิทยาของอังกฤษ</Text>		<!-- British Renaissance -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_SPLENDID_ISOLATION_AUTHOR" Language="th_TH">
 			<Text>ลอร์ด ซอลส์บิวรี</Text>		<!-- Lord Salisbury -->
@@ -353,43 +363,44 @@
 			<Text>+3 [icon:YIELD_PRODUCTION] กำลังผลิต ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] สำหรับทุก [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_FACTORY_RESOURCES_TOOLTIP]ทรัพยากรโรงงาน[/TIP] ที่จัดสรรให้กับพวกเขา</Text>		<!-- +3 [icon:YIELD_PRODUCTION] Production in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] for every [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_FACTORY_RESOURCES_TOOLTIP]Factory Resource[/TIP] assigned to them. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_EAST_INDIA_COMPANY_I_NAME" Language="th_TH">
-			<Text>East India Company I</Text>		<!-- East India Company I -->
+			<Text>บริษัทอินเดียตะวันออก I</Text>		<!-- East India Company I -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_EAST_INDIA_COMPANY_I_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_GOLD] Gold in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP]. +1 [icon:YIELD_SCIENCE] Science in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] adjacent to Coast.</Text>		<!-- +2 [icon:YIELD_GOLD] Gold in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP]. +1 [icon:YIELD_SCIENCE] Science in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] adjacent to Coast. -->
+			<Text>+2 [icon:YIELD_GOLD] ทอง ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP], +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP] ติดกับชายฝั่ง</Text>		<!-- +2 [icon:YIELD_GOLD] Gold in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP]. +1 [icon:YIELD_SCIENCE] Science in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_EAST_INDIA_COMPANY_II_NAME" Language="th_TH">
-			<Text>East India Company II</Text>		<!-- East India Company II -->
+			<Text>อีสต์ อินเดีย คอมพานี II</Text>		<!-- East India Company II -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_EAST_INDIA_COMPANY_II_DESCRIPTION" Language="th_TH">
-			<Text>+5 [icon:YIELD_GOLD] Gold in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP]. +3 [icon:YIELD_SCIENCE] Science in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] adjacent to Coast.</Text>		<!-- +5 [icon:YIELD_GOLD] Gold in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP]. +3 [icon:YIELD_SCIENCE] Science in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] adjacent to Coast. -->
+			<Text>+5 [icon:YIELD_GOLD] ทอง ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP], +3 [icon:YIELD_SCIENCE]  วิทยาศาสตร์ ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP] ที่ติดกับชายฝั่ง</Text>		<!-- +5 [icon:YIELD_GOLD] Gold in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP]. +3 [icon:YIELD_SCIENCE] Science in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_NO_ETERNAL_ALLIES_I_NAME" Language="th_TH">
-			<Text>No Eternal Allies I</Text>		<!-- No Eternal Allies I -->
+			<Text>ฉันไม่มีพันธมิตรถาวร</Text>		<!-- No Eternal Allies I -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_NO_ETERNAL_ALLIES_I_DESCRIPTION" Language="th_TH">
-			<Text>+5% [icon:YIELD_FOOD] Food and [icon:YIELD_GOLD] Gold in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP], but -5% [icon:YIELD_GOLD] Gold in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every [icon:PLAYER_RELATIONSHIP_ALLIANCE] [TIP:LOC_PEDIA_CONCEPTS_ALLIANCE_TOOLTIP]Alliance[/TIP].</Text>		<!-- +5% [icon:YIELD_FOOD] Food and [icon:YIELD_GOLD] Gold in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP], but -5% [icon:YIELD_GOLD] Gold in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every [icon:PLAYER_RELATIONSHIP_ALLIANCE] [TIP:LOC_PEDIA_CONCEPTS_ALLIANCE_TOOLTIP]Alliance[/TIP]. -->
+			<Text>+5% [icon:YIELD_FOOD] อาหาร และ [icon:YIELD_GOLD] ทอง ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP], แต่ -5% [icon:YIELD_GOLD] ทอง ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง สำหรับทุก [icon:PLAYER_RELATIONSHIP_ALLIANCE] [TIP:LOC_PEDIA_CONCEPTS_ALLIANCE_TOOLTIP]พันธมิตร[/TIP]</Text>		<!-- +5% [icon:YIELD_FOOD] Food and [icon:YIELD_GOLD] Gold in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP], but -5% [icon:YIELD_GOLD] Gold in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every [icon:PLAYER_RELATIONSHIP_ALLIANCE] [TIP:LOC_PEDIA_CONCEPTS_ALLIANCE_TOOLTIP]Alliance[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_NO_ETERNAL_ALLIES_II_NAME" Language="th_TH">
-			<Text>No Eternal Allies II</Text>		<!-- No Eternal Allies II -->
+			<Text>ไม่มีพันธมิตรนิรันดร์ II</Text>		<!-- No Eternal Allies II -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_NO_ETERNAL_ALLIES_II_DESCRIPTION" Language="th_TH">
-			<Text>+10% [icon:YIELD_FOOD] Food and [icon:YIELD_GOLD] Gold in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP], but -5% [icon:YIELD_GOLD] Gold in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every [icon:PLAYER_RELATIONSHIP_ALLIANCE] [TIP:LOC_PEDIA_CONCEPTS_ALLIANCE_TOOLTIP]Alliance[/TIP].</Text>		<!-- +10% [icon:YIELD_FOOD] Food and [icon:YIELD_GOLD] Gold in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP], but -5% [icon:YIELD_GOLD] Gold in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every [icon:PLAYER_RELATIONSHIP_ALLIANCE] [TIP:LOC_PEDIA_CONCEPTS_ALLIANCE_TOOLTIP]Alliance[/TIP]. -->
+			<Text>+10% [icon:YIELD_FOOD] อาหาร และ [icon:YIELD_GOLD] ทอง ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP] แต่ -5% [icon:YIELD_GOLD] ทอง ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง สำหรับทุก [icon:PLAYER_RELATIONSHIP_ALLIANCE] [TIP:LOC_PEDIA_CONCEPTS_ALLIANCE_TOOLTIP]พันธมิตร[/TIP]</Text>		<!-- +10% [icon:YIELD_FOOD] Food and [icon:YIELD_GOLD] Gold in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP], but -5% [icon:YIELD_GOLD] Gold in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every [icon:PLAYER_RELATIONSHIP_ALLIANCE] [TIP:LOC_PEDIA_CONCEPTS_ALLIANCE_TOOLTIP]Alliance[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_GREAT_BRITAIN_SYNCRETISM_TOOLTIP" Language="th_TH">
-			<Text>Royal Society</Text>		<!-- Royal Society -->
+			<Text>ราชสมาคม</Text>		<!-- Royal Society -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_GREAT_BRITAIN_SYNCRETISM_ANTIQUITY_NAME" Language="th_TH">
-			<Text>Royal Society I</Text>		<!-- Royal Society I -->
+			<Text>ราชสมาคม I</Text>		<!-- Royal Society I -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_GREAT_BRITAIN_SYNCRETISM_ANTIQUITY_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_SCIENCE] Science on [icon:YIELD_CULTURE] Culture Buildings adjacent to Coast. +1 [icon:YIELD_CULTURE] Culture on [icon:YIELD_SCIENCE] Science Buildings adjacent to Coast.</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science on [icon:YIELD_CULTURE] Culture Buildings adjacent to Coast. +1 [icon:YIELD_CULTURE] Culture on [icon:YIELD_SCIENCE] Science Buildings adjacent to Coast. -->
+			<Text>+1 [icon:YIELD_SCIENCE]  วิทยาศาสตร์ บนอาคารด้านวัฒนธรรมที่ติดชายฝั่ง
++1 [icon:YIELD_CULTURE] วัฒนธรรม บนอาคารด้านวิทยาศาสตร์ที่ติดชายฝั่ง</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science on [icon:YIELD_CULTURE] Culture Buildings adjacent to Coast. +1 [icon:YIELD_CULTURE] Culture on [icon:YIELD_SCIENCE] Science Buildings adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_GREAT_BRITAIN_SYNCRETISM_EXPLORATION_NAME" Language="th_TH">
-			<Text>Royal Society II</Text>		<!-- Royal Society II -->
+			<Text>รอยัล โซไซตี II</Text>		<!-- Royal Society II -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_GREAT_BRITAIN_SYNCRETISM_EXPLORATION_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_SCIENCE] Science on [icon:YIELD_CULTURE] Culture Buildings adjacent to Coast. +2 [icon:YIELD_CULTURE] Culture on [icon:YIELD_SCIENCE] Science Buildings adjacent to Coast.</Text>		<!-- +2 [icon:YIELD_SCIENCE] Science on [icon:YIELD_CULTURE] Culture Buildings adjacent to Coast. +2 [icon:YIELD_CULTURE] Culture on [icon:YIELD_SCIENCE] Science Buildings adjacent to Coast. -->
+			<Text>+2 [icon:YIELD_SCIENCE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP] บน [icon:YIELD_CULTURE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรม[/TIP] ที่ติดกับชายฝั่ง, +2 [icon:YIELD_CULTURE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรม[/TIP] บน [icon:YIELD_SCIENCE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP] ที่ติดกับชายฝั่ง</Text>		<!-- +2 [icon:YIELD_SCIENCE] Science on [icon:YIELD_CULTURE] Culture Buildings adjacent to Coast. +2 [icon:YIELD_CULTURE] Culture on [icon:YIELD_SCIENCE] Science Buildings adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_SOCIETY_OF_ANTIQUARIES_ENTER_FOREIGN_LANDS_DESCRIPTION" Language="th_TH">
 			<Text>[icon:UNIT_ANTIQUARIAN] นักโบราณคดี สามารถเข้าสู่เขตแดนของอารยธรรมอื่น โดยไม่ต้องเปิดพรมแดน</Text>		<!-- [icon:UNIT_ANTIQUARIAN] Antiquaries can enter other Civilizations’ borders without Open Borders. -->
@@ -407,10 +418,10 @@
 			<Text>+1 [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCE_CAPACITY_TOOLTIP]ความจุทรัพยากร[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่มีท่าเรือ</Text>		<!-- +1 [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCE_CAPACITY_TOOLTIP]Resource Capacity[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with a Port. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GREAT_BRITAIN_FOUR_MAJOR_TRIUMPHS_NAME" Language="th_TH">
-			<Text>Great Britain 4 Minor Triumphs</Text>		<!-- Great Britain 4 Minor Triumphs -->
+			<Text>บริเตนใหญ่ 4 วีรกรรมรอง</Text>		<!-- Great Britain 4 Minor Triumphs -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_GREAT_BRITAIN_FOUR_MAJOR_TRIUMPHS_DESC" Language="th_TH">
-			<Text>As Great Britain, complete 4 Economic or Scientific Minor Triumphs in a single Apex Age.</Text>		<!-- As Great Britain, complete 4 Economic or Scientific Minor Triumphs in a single Apex Age. -->
+			<Text>ในฐานะ อังกฤษ บรรลุ 4 วีรกรรมรองด้านเศรษฐกิจหรือวิทยาศาสตร์ภายในยุค Apex เดียวกัน</Text>		<!-- As Great Britain, complete 4 Economic or Scientific Minor Triumphs in a single Apex Age. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_PROCEEDINGS_NAME" Language="th_TH">
 			<Text>การดำเนินการ</Text>		<!-- Proceedings -->
@@ -698,22 +709,22 @@
 			<Text>{1_reward} แต่เริ่มสงคราม</Text>		<!-- {1_reward} but start a War. -->
 		</Replace>
 		<Replace Tag="LOC_TOT_30039A_STORYTITLE" Language="th_TH">
-			<Text>The Wooden Wall</Text>		<!-- The Wooden Wall -->
+			<Text>กำแพงไม้</Text>		<!-- The Wooden Wall -->
 		</Replace>
 		<Replace Tag="LOC_TOT_30039A_COMPLETION" Language="th_TH">
-			<Text>The British captain leans down before the monument to lost sailors – sea and storm take who they can. But British fortunes also come from these waters – the sea gives both life and death. As the captain looks up at the horizon, a brief image appears before his eyes: a wooden wall. A line of ships. A future where others may rule their lands, but Britannia will rule the waves.</Text>		<!-- The British captain leans down before the monument to lost sailors – sea and storm take who they can. But British fortunes also come from these waters – the sea gives both life and death. As the captain looks up at the horizon, a brief image appears before his eyes: a wooden wall. A line of ships. A future where others may rule their lands, but Britannia will rule the waves. -->
+			<Text>กัปตันชาวอังกฤษโน้มตัวลงต่อหน้าอนุสรณ์สถานของชาวเรือผู้สูญเสีย — ทะเลและพายุพรากผู้คนไปเท่าที่พวกมันจะทำได้, แต่โชคลาภของอังกฤษก็เกิดจากน้ำเหล่านี้เช่นกัน — ทะเลมอบทั้งชีวิตและความตาย, ขณะที่กัปตันมองขึ้นไปยังขอบฟ้า ภาพชั่วคราวปรากฏตรงหน้าต่อตาเขา: กำแพงไม้, ทิวแถวของเรือ, อนาคตที่คนอื่นอาจครอบครองผืนแผ่นดินของตนเอง แต่บริติเนียจะครองคลื่น</Text>		<!-- The British captain leans down before the monument to lost sailors – sea and storm take who they can. But British fortunes also come from these waters – the sea gives both life and death. As the captain looks up at the horizon, a brief image appears before his eyes: a wooden wall. A line of ships. A future where others may rule their lands, but Britannia will rule the waves. -->
 		</Replace>
 		<Replace Tag="LOC_TOT_30039B_NAME" Language="th_TH">
-			<Text>The roads on which British merchants will travel.</Text>		<!-- The roads on which British merchants will travel. -->
+			<Text>ถนนที่พ่อค้าอังกฤษจะเดินทางผ่าน</Text>		<!-- The roads on which British merchants will travel. -->
 		</Replace>
 		<Replace Tag="LOC_TOT_30039B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_TOT_30039C_NAME" Language="th_TH">
-			<Text>An engineering problem for British minds.</Text>		<!-- An engineering problem for British minds. -->
+			<Text>ปัญหาด้านวิศวกรรมสำหรับชาวอังกฤษ</Text>		<!-- An engineering problem for British minds. -->
 		</Replace>
 		<Replace Tag="LOC_TOT_30039C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_11019_ALT2C_NAME" Language="th_TH">
 			<Text>มันเป็นของชาวมูกัล</Text>		<!-- It belongs to the Mughals. -->
@@ -755,10 +766,10 @@
 			<Text>พวกเขาดูเหมือนว่าจะมาจากทุกมุมของจักรวรรดิ</Text>		<!-- They seem to come from every corner of the empire. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_GREAT_BRITAIN_DESCRIPTION" Language="th_TH">
-			<Text>Play as [B]Great Britain[/B].</Text>		<!-- Play as [B]Great Britain[/B]. -->
+			<Text>เล่นเป็น [B]บริเตนใหญ่[/B]</Text>		<!-- Play as [B]Great Britain[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_GREAT_BRITAIN_GREAT_BRITAIN_TOOLTIP" Language="th_TH">
-			<Text>[B]Great Britain[/B] is able to endure throughout the Ages.</Text>		<!-- [B]Great Britain[/B] is able to endure throughout the Ages. -->
+			<Text>[B]บริเตนใหญ่[/B] สามารถยืนหยัดตลอดยุคสมัย</Text>		<!-- [B]Great Britain[/B] is able to endure throughout the Ages. -->
 		</Replace>
 		<Replace Tag="LOC_12005C_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward} ในทุกถิ่นฐาน</Text>		<!-- {1_reward} in all Settlements. -->

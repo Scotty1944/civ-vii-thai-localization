@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_CITIZEN_BULGARIA_MALE_1" Language="th_TH">
@@ -179,13 +179,13 @@
 			<Text>[BLIST][LI][TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]ยูนิตภาคพื้นดิน[/TIP] มอบ [icon:YIELD_PRODUCTION] กำลังผลิต ในทุก [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] เท่ากับ 50% ของ [icon:Action_Pillage] ผลผลิตจากการปล้นสะดม และ [icon:Action_Heal] การฟื้นฟูจาก [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP][LI]-3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับทุก [TIP:LOC_PEDIA_CONCEPTS_MILITARY_UNIT_TOOLTIP]ยูนิตทหาร[/TIP] ต่อ [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP] ที่มีกำแพงยุคกลาง[LI]+30%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการสร้าง [B]ริล่า มอนาสเตอรี[/B].[/BLIST]</Text>		<!-- [BLIST][LI][TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]Land Units[/TIP] grant [icon:YIELD_PRODUCTION] Production in all [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] equal to 50% of [icon:Action_Pillage] Pillage Yields and [icon:Action_Heal] Healing from [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP].[LI]-3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for all [TIP:LOC_PEDIA_CONCEPTS_MILITARY_UNIT_TOOLTIP]Military Units[/TIP] against [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] with Medieval Walls.[LI]+30%[icon:YIELD_PRODUCTION] Production towards constructing Rila Monastery.[/BLIST] -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_BULGARIA_ABILITY_AQ_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI]Receive [icon:YIELD_PRODUCTION] Production in all [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] when [icon:Action_Pillage] Pillaging [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP] equal to 50% of the HP or Yields gained.[LI]-3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for all Combat Units against [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Fortified Districts[/TIP].[/BLIST]</Text>		<!-- [BLIST][LI]Receive [icon:YIELD_PRODUCTION] Production in all [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] when [icon:Action_Pillage] Pillaging [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP] equal to 50% of the HP or Yields gained.[LI]-3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for all Combat Units against [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Fortified Districts[/TIP].[/BLIST] -->
+			<Text>[BLIST][LI]ได้รับ [icon:YIELD_PRODUCTION] กำลังผลิต ในทุก [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] เมื่อ [icon:Action_Pillage] การปล้น [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนา[/TIP] เท่ากับ 50% ของ HP หรือผลผลิตที่ได้รับ[LI]-3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับทุกยูนิตต่อสู้ ต่อต้าน [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขตเสริมกำลัง[/TIP][/BLIST]</Text>		<!-- [BLIST][LI]Receive [icon:YIELD_PRODUCTION] Production in all [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] when [icon:Action_Pillage] Pillaging [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP] equal to 50% of the HP or Yields gained.[LI]-3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for all Combat Units against [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Fortified Districts[/TIP].[/BLIST] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_BULGARIA_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จาก [icon:WONDER] สิ่งมหัศจรรย์ ที่เกี่ยวข้องกับ บัลแกเรีย</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being Bulgaria's associated [icon:WONDER] Wonder. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_BULGARIA_ABILITY_MO_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI]Receive [icon:YIELD_PRODUCTION] Production in all [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] when [icon:Action_Pillage] Pillaging [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP] equal to 50% of the HP or Yields gained.[LI]-3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for all Combat Units against [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Fortified Districts[/TIP].[/BLIST]</Text>		<!-- [BLIST][LI]Receive [icon:YIELD_PRODUCTION] Production in all [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] when [icon:Action_Pillage] Pillaging [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP] equal to 50% of the HP or Yields gained.[LI]-3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for all Combat Units against [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Fortified Districts[/TIP].[/BLIST] -->
+			<Text>[BLIST][LI]ได้รับ [icon:YIELD_PRODUCTION] กำลังผลิต ในทุก [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] เมื่อ [icon:Action_Pillage] การปล้น [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนา[/TIP] เท่ากับ 50% ของ HP หรือ ผลผลิตที่ได้[LI]-3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับยูนิตรบทั้งหมด ต่อสู้กับ [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขตเสริมกำลัง[/TIP][/BLIST]</Text>		<!-- [BLIST][LI]Receive [icon:YIELD_PRODUCTION] Production in all [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] when [icon:Action_Pillage] Pillaging [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP] equal to 50% of the HP or Yields gained.[LI]-3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for all Combat Units against [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Fortified Districts[/TIP].[/BLIST] -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_BULGARIA_ABILITY_PREVIEW" Language="th_TH">
 			<Text>{1_CombatAmount} จาก ราชวงศ์ครุม</Text>		<!-- {1_CombatAmount} from Krum's Dynasty -->
@@ -326,10 +326,10 @@
 			<Text>"ตามที่รายงานก่อนหน้า บอลการ์สได้ทำลายล้างศัตรูทั้งหมดของพวกเขา"</Text>		<!-- "As previously reported, the Bulgars annihilated all of their foes." -->
 		</Replace>
 		<Replace Tag="LOC_NODE_CIVIC_AQ_BULGARIA_ORIGINS_NAME" Language="th_TH">
-			<Text>Bulgarian Origins</Text>		<!-- Bulgarian Origins -->
+			<Text>ต้นกำเนิดบัลแกเรีย</Text>		<!-- Bulgarian Origins -->
 		</Replace>
 		<Replace Tag="LOC_NODE_CIVIC_MO_BULGARIA_MODERNIZATION_NAME" Language="th_TH">
-			<Text>Bulgarian Modernization</Text>		<!-- Bulgarian Modernization -->
+			<Text>บัลแกเรีย สมัยใหม่</Text>		<!-- Bulgarian Modernization -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_SEVEN_TRIBES_AUTHOR" Language="th_TH">
 			<Text>กฎหมายของข่านครุม</Text>		<!-- The Laws of Khan Krum -->
@@ -347,19 +347,19 @@
 			<Text>ซาร์สท์วี</Text>		<!-- Tsarstvie -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_ICONOLATRY_II_NAME" Language="th_TH">
-			<Text>Iconolatry II</Text>		<!-- Iconolatry II -->
+			<Text>การบูชารูปเคารพ II</Text>		<!-- Iconolatry II -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_ICONOLATRY_II_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_GOLD] Gold from [icon:NAR_REW_GREATWORK] Great Works. +3 [icon:YIELD_HAPPINESS] Happiness on Hidden Fortresses in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with a [icon:NAR_REW_GREATWORK] Great Work Slotted.</Text>		<!-- +1 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_GOLD] Gold from [icon:NAR_REW_GREATWORK] Great Works. +3 [icon:YIELD_HAPPINESS] Happiness on Hidden Fortresses in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with a [icon:NAR_REW_GREATWORK] Great Work Slotted. -->
+			<Text>+1 [icon:YIELD_HAPPINESS] ความสุข และ [icon:YIELD_GOLD] ทอง จาก [icon:NAR_REW_GREATWORK] ผลงานชิ้นเอก, +3 [icon:YIELD_HAPPINESS] ความสุข บน ป้อมปราการที่ซ่อนอยู่ ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่มีผลงานชิ้นเอกติดตั้ง</Text>		<!-- +1 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_GOLD] Gold from [icon:NAR_REW_GREATWORK] Great Works. +3 [icon:YIELD_HAPPINESS] Happiness on Hidden Fortresses in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with a [icon:NAR_REW_GREATWORK] Great Work Slotted. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_ICONOLATRY_II_GREAT_WORKS_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_GOLD] Gold from [icon:NAR_REW_GREATWORK] Great Works.</Text>		<!-- +1 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_GOLD] Gold from [icon:NAR_REW_GREATWORK] Great Works. -->
+			<Text>+1 [icon:YIELD_HAPPINESS] ความสุข และ [icon:YIELD_GOLD] ทอง จาก [icon:NAR_REW_GREATWORK] ผลงานชิ้นเอก</Text>		<!-- +1 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_GOLD] Gold from [icon:NAR_REW_GREATWORK] Great Works. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_ICONOLATRY_II_HIDDEN_FORTRESS_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:YIELD_HAPPINESS] Happiness on Hidden Fortresses in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with a [icon:NAR_REW_GREATWORK] Great Work Slot.</Text>		<!-- +3 [icon:YIELD_HAPPINESS] Happiness on Hidden Fortresses in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with a [icon:NAR_REW_GREATWORK] Great Work Slot. -->
+			<Text>+3 [icon:YIELD_HAPPINESS] ความสุข จากป้อมซ่อนเร้น ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่มี [icon:NAR_REW_GREATWORK] ช่องผลงานอันยอดเยี่ยม</Text>		<!-- +3 [icon:YIELD_HAPPINESS] Happiness on Hidden Fortresses in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with a [icon:NAR_REW_GREATWORK] Great Work Slot. -->
 		</Replace>
 		<Replace Tag="LOC_STRATAGEMS_COMBAT_PREVIEW" Language="th_TH">
-			<Text>+{1_Amount} Stratagems</Text>		<!-- +{1_Amount} Stratagems -->
+			<Text>+{1_Amount} กลยุทธ์</Text>		<!-- +{1_Amount} Stratagems -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_TSARSTVIE_QUOTE" Language="th_TH">
 			<Text>"เหมือนดาวเช้า, คุณปรากฏตัวต่อเราและขับไล่เงาของศัตรูออกไป"</Text>		<!-- "Like the morning star, you appeared to us and dispelled the shadow of the enemy." -->
@@ -368,37 +368,37 @@
 			<Text>สุนทรพจน์ไว้อาลัยแด่ พระเจ้าเปโตรที่ 1</Text>		<!-- Eulogy for Peter I -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_STRATAGEMS_COMBAT_DESCRIPTION" Language="th_TH">
-			<Text>+5 [icon:NAR_REW_COMBAT] Combat Strength for Infantry and Cavalry against other Land Units when you have at least 8 [icon:NAR_REW_GREATWORK] Great Works on display.</Text>		<!-- +5 [icon:NAR_REW_COMBAT] Combat Strength for Infantry and Cavalry against other Land Units when you have at least 8 [icon:NAR_REW_GREATWORK] Great Works on display. -->
+			<Text>+5 [icon:NAR_REW_COMBAT] พลังต่อสู้สำหรับทหารราบและม้าศึกต่อยูนิตบนบกอื่นๆ เมื่อคุณมีผลงานชิ้นเอกที่จัดแสดงอย่างน้อย 8 [icon:NAR_REW_GREATWORK]</Text>		<!-- +5 [icon:NAR_REW_COMBAT] Combat Strength for Infantry and Cavalry against other Land Units when you have at least 8 [icon:NAR_REW_GREATWORK] Great Works on display. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_STRATAGEMS_I_NAME" Language="th_TH">
-			<Text>Stratagems I</Text>		<!-- Stratagems I -->
+			<Text>ยุทธการ I</Text>		<!-- Stratagems I -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_STRATAGEMS_I_DESCRIPTION" Language="th_TH">
-			<Text>+25% Yield and HP from [icon:Action_Pillage] Pillaging. +3 [icon:NAR_REW_COMBAT] Combat Strength for [icon:UNIT_CLASS_INFANTRY]Infantry and [icon:UNIT_CLASS_CAVALRY]Cavalry against other Land Units when you have at least 4 [icon:NAR_REW_GREATWORK] Great Works on display.</Text>		<!-- +25% Yield and HP from [icon:Action_Pillage] Pillaging. +3 [icon:NAR_REW_COMBAT] Combat Strength for [icon:UNIT_CLASS_INFANTRY]Infantry and [icon:UNIT_CLASS_CAVALRY]Cavalry against other Land Units when you have at least 4 [icon:NAR_REW_GREATWORK] Great Works on display. -->
+			<Text>+25% ผลผลิตและ HP จาก [icon:Action_Pillage] การปล้น, +3 พลังต่อสู้ สำหรับ [icon:UNIT_CLASS_INFANTRY]ทหารราบ และ [icon:UNIT_CLASS_CAVALRY]ม้าศึก ต่อสู้กับยูนิตบนบกอื่นๆ เมื่อคุณมีผลงานชิ้นเอกอย่างน้อย 4 ชิ้นที่จัดแสดงอยู่</Text>		<!-- +25% Yield and HP from [icon:Action_Pillage] Pillaging. +3 [icon:NAR_REW_COMBAT] Combat Strength for [icon:UNIT_CLASS_INFANTRY]Infantry and [icon:UNIT_CLASS_CAVALRY]Cavalry against other Land Units when you have at least 4 [icon:NAR_REW_GREATWORK] Great Works on display. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_STRATAGEMS_I_COMBAT_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:NAR_REW_COMBAT] Combat Strength for Infantry and Cavalry against other Land Units when you have at least 4 [icon:NAR_REW_GREATWORK] Great Works on display.</Text>		<!-- +3 [icon:NAR_REW_COMBAT] Combat Strength for Infantry and Cavalry against other Land Units when you have at least 4 [icon:NAR_REW_GREATWORK] Great Works on display. -->
+			<Text>+3 [icon:NAR_REW_COMBAT] พลังต่อสู้ของทหารราบและทหารม้าศึก ต่อสู้กับยูนิตทางบกอื่นๆ เมื่อคุณมีผลงานชิ้นเอกอย่างน้อย 4 ชิ้นที่แสดงอยู่</Text>		<!-- +3 [icon:NAR_REW_COMBAT] Combat Strength for Infantry and Cavalry against other Land Units when you have at least 4 [icon:NAR_REW_GREATWORK] Great Works on display. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_STRATAGEMS_I_PILLAGE_DESCRIPTION" Language="th_TH">
-			<Text>+25% Yield and HP from [icon:Action_Pillage] Pillaging.</Text>		<!-- +25% Yield and HP from [icon:Action_Pillage] Pillaging. -->
+			<Text>+25% ผลผลิตและ HP จาก [icon:Action_Pillage] การปล้น</Text>		<!-- +25% Yield and HP from [icon:Action_Pillage] Pillaging. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_STRATAGEMS_PILLAGE_DESCRIPTION" Language="th_TH">
-			<Text>+50% Yield and HP from [icon:Action_Pillage] Pillaging.</Text>		<!-- +50% Yield and HP from [icon:Action_Pillage] Pillaging. -->
+			<Text>+50% ผลผลิตและ HP จาก [icon:Action_Pillage] การปล้น</Text>		<!-- +50% Yield and HP from [icon:Action_Pillage] Pillaging. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_BULGARIA_SYNCRETISM_TOOLTIP" Language="th_TH">
-			<Text>Uporitost</Text>		<!-- Uporitost -->
+			<Text>อูโพริทอสต์</Text>		<!-- Uporitost -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_BULGARIA_SYNCRETISM_ANTIQUITY_NAME" Language="th_TH">
-			<Text>Uporitost I</Text>		<!-- Uporitost I -->
+			<Text>อูโปริทอสที่ 1</Text>		<!-- Uporitost I -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_BULGARIA_SYNCRETISM_ANTIQUITY_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_PRODUCTION] Production on displayed [icon:NAR_REW_GREATWORK] Great Works.</Text>		<!-- +2 [icon:YIELD_PRODUCTION] Production on displayed [icon:NAR_REW_GREATWORK] Great Works. -->
+			<Text>+2 [icon:YIELD_PRODUCTION] กำลังผลิต บนผลงานชิ้นเอกที่แสดงอยู่</Text>		<!-- +2 [icon:YIELD_PRODUCTION] Production on displayed [icon:NAR_REW_GREATWORK] Great Works. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_BULGARIA_SYNCRETISM_MODERN_NAME" Language="th_TH">
-			<Text>Uporitost II</Text>		<!-- Uporitost II -->
+			<Text>อูโปริทอสต์ ที่สอง</Text>		<!-- Uporitost II -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_BULGARIA_SYNCRETISM_MODERN_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:YIELD_PRODUCTION] Production on displayed [icon:NAR_REW_GREATWORK] Great Works. [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]Land Units[/TIP] can [icon:Action_Pillage] Pillage for 1 [icon:Action_Move] Movement.</Text>		<!-- +3 [icon:YIELD_PRODUCTION] Production on displayed [icon:NAR_REW_GREATWORK] Great Works. [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]Land Units[/TIP] can [icon:Action_Pillage] Pillage for 1 [icon:Action_Move] Movement. -->
+			<Text>+3 [icon:YIELD_PRODUCTION] กำลังผลิต บนผลงานชิ้นเอกที่แสดง, [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]ยูนิตภาคพื้นดิน[/TIP] สามารถปล้นได้ สำหรับ 1 [icon:Action_Move] แต้มเคลื่อนที่</Text>		<!-- +3 [icon:YIELD_PRODUCTION] Production on displayed [icon:NAR_REW_GREATWORK] Great Works. [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]Land Units[/TIP] can [icon:Action_Pillage] Pillage for 1 [icon:Action_Move] Movement. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_SEVEN_TRIBES_GREATWORKS_COMBAT_DESCRIPTION" Language="th_TH">
 			<Text>+5 [icon:NAR_REW_COMBAT] พลังต่อสู้ สำหรับยูนิตทหาร เมื่อคุณมี [icon:NAR_REW_GREATWORK] วัตถุโบราณ อย่างน้อย 5 ชิ้นแสดงอยู่</Text>		<!-- +5 [icon:NAR_REW_COMBAT] Combat Strength for all Military Units when you have at least 5 [icon:NAR_REW_GREATWORK] Relics on display. -->
@@ -647,22 +647,22 @@
 			<Text>เมื่อประชาชนเศร้าโศกกับการสูญเสียเมืองหลวงของพวกเขา หลายข้อความได้รับความนิยมทั่วทั้งจักรวรรดิ ภายในนั้น ผู้เผยพระวจนะในอดีตเล่าถึงอดีต ปัจจุบัน และอนาคตของ Bulgaria โดยได้รับคำแนะนำจากเทวดา หลายคนพบความสบายใจในการกลับไปทบทวนประวัติศาสตร์ของพวกเขาในช่วงเวลาที่วุ่นวายนี้ แม้ว่าสรุปเกี่ยวกับวันสิ้นโลกจะทำให้รู้สึกไม่สบายใจ</Text>		<!-- As the populace mourns the loss of their capital city, several texts gain popularity throughout the empire. Within, prophets of old relate Bulgaria’s past, present, and future with guidance from angels. Many find comfort in revisiting their history during this turbulent time, though the apocalyptic conclusions are unnerving. -->
 		</Replace>
 		<Replace Tag="LOC_TOT_30027A_STORYTITLE" Language="th_TH">
-			<Text>A Difficult Man</Text>		<!-- A Difficult Man -->
+			<Text>ชายผู้ลำบาก</Text>		<!-- A Difficult Man -->
 		</Replace>
 		<Replace Tag="LOC_TOT_30027A_COMPLETION" Language="th_TH">
-			<Text>Word has come to the Bulgar court of an old shepherd’s struggle with his neighbors’ claim to his pasture. They sent their livestock to graze in his land; he drove them off. They sought to buy his land; he refused to sell. In court, they argued their right to his land; he refused to leave. They poisoned his well; he drank rain water. They burned his barn; he rebuilt it. The story is becoming quite popular.</Text>		<!-- Word has come to the Bulgar court of an old shepherd’s struggle with his neighbors’ claim to his pasture. They sent their livestock to graze in his land; he drove them off. They sought to buy his land; he refused to sell. In court, they argued their right to his land; he refused to leave. They poisoned his well; he drank rain water. They burned his barn; he rebuilt it. The story is becoming quite popular. -->
+			<Text>ข่าวมาถึงราชสำนักบัลการเกี่ยวกับชาวเลี้ยงแกะผู้เฒ่าที่ต่อสู้กับข้อเรียกร้องของเพื่อนบ้านต่อทุ่งหญ้าของเขา, พวกเขาได้ส่งสัตว์เลี้ยงของพวกเขาไปให้กินหญ้าบนที่ดินของเขา, เขาไล่พวกมันออกไป, พวกเขาพยายามจะซื้อที่ดินของเขา, เขาปฏิเสธที่จะขาย, ในศาล พวกเขาโต้เถียงถึงสิทธิในที่ดินของเขา, เขาปฏิเสธที่จะออกจากที่ดิน, พวกเขาวางพิษในบ่อน้ำของเขา, เขาดื่มน้ำฝน, พวกเขาเผาโรงนาของเขา, เขาซ่อมแซมมันขึ้นใหม่, เรื่องราวนี้กำลังเป็นที่นิยมมาก</Text>		<!-- Word has come to the Bulgar court of an old shepherd’s struggle with his neighbors’ claim to his pasture. They sent their livestock to graze in his land; he drove them off. They sought to buy his land; he refused to sell. In court, they argued their right to his land; he refused to leave. They poisoned his well; he drank rain water. They burned his barn; he rebuilt it. The story is becoming quite popular. -->
 		</Replace>
 		<Replace Tag="LOC_TOT_30027B_NAME" Language="th_TH">
-			<Text>Bulgaria should have more men like these. Make a role and position for them.</Text>		<!-- Bulgaria should have more men like these. Make a role and position for them. -->
+			<Text>บัลแกเรียควรมีผู้ชายแบบนี้มากขึ้น, สร้างบทบาทและตำแหน่งให้พวกเขา</Text>		<!-- Bulgaria should have more men like these. Make a role and position for them. -->
 		</Replace>
 		<Replace Tag="LOC_TOT_30027B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_TOT_30027C_NAME" Language="th_TH">
-			<Text>The man is clearly an idiot. Why did he not move?</Text>		<!-- The man is clearly an idiot. Why did he not move? -->
+			<Text>ผู้ชายคนนั้นเห็นได้ชัดว่าเป็นคนโง่, ทำไมเขาถึงไม่ขยับตัว</Text>		<!-- The man is clearly an idiot. Why did he not move? -->
 		</Replace>
 		<Replace Tag="LOC_TOT_30027C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_11028B_NAME" Language="th_TH">
 			<Text>การเตือนความจำเกี่ยวกับอดีต สร้างความหวังสำหรับอนาคต</Text>		<!-- Reminders of the past build hope for the future. -->
@@ -701,7 +701,7 @@
 			<Text>ค่อย ๆ เดินลงทางที่เป็นอันตรายบนภูเขา ดร ริซาล ครุ่นคิดเกี่ยวกับความขัดแย้งของเขตแดนบัลแกเรีย — แยกออกจากโลกด้วยภูเขาอันกว้างใหญ่ แต่เชื่อมต่อกับโลกด้วยการค้า</Text>		<!-- Inching down a treacherous mountain path, Dr. Rizal mulls over the paradox of the Bulgarian domain — isolated from the world by vast mountains, but connected to it by trade. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_BULGARIA_BULGARIA_TOOLTIP" Language="th_TH">
-			<Text>[B]Bulgaria[/B] is able to endure throughout the Ages.</Text>		<!-- [B]Bulgaria[/B] is able to endure throughout the Ages. -->
+			<Text>[B]บัลแกเรีย[/B] สามารถคงอยู่ตลอดยุคสมัย</Text>		<!-- [B]Bulgaria[/B] is able to endure throughout the Ages. -->
 		</Replace>
 		<Replace Tag="LOC_12006B_NAME" Language="th_TH">
 			<Text>ให้ระวังผู้บุกรุกที่อาจเกิดขึ้น</Text>		<!-- Woe betide potential invaders. -->
@@ -713,10 +713,10 @@
 			<Text>พวกคาราวานพ่อค้าอันกล้าหาญ</Text>		<!-- Those brave merchant caravans. -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BULGARIA_FOUR_MAJOR_TRIUMPHS_NAME" Language="th_TH">
-			<Text>Bulgaria 4 Major Triumphs</Text>		<!-- Bulgaria 4 Major Triumphs -->
+			<Text>บัลแกเรีย 4 วีรกรรม</Text>		<!-- Bulgaria 4 Major Triumphs -->
 		</Replace>
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_BULGARIA_FOUR_MAJOR_TRIUMPHS_DESC" Language="th_TH">
-			<Text>As Bulgaria, complete 4 Expansionist or Militaristic Major Triumphs in a single Apex Age.</Text>		<!-- As Bulgaria, complete 4 Expansionist or Militaristic Major Triumphs in a single Apex Age. -->
+			<Text>ในฐานะ บัลแกเรีย บรรลุวีรกรรมใหญ่ด้านการขยายอาณาเขตหรือด้านทหารครบ 4 รายการในยุคสูงสุดเดียว</Text>		<!-- As Bulgaria, complete 4 Expansionist or Militaristic Major Triumphs in a single Apex Age. -->
 		</Replace>
 		<Replace Tag="LOC_12006C_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward} ในทุกถิ่นฐาน</Text>		<!-- {1_reward} in all Settlements. -->
