@@ -86,13 +86,13 @@
 			<Text>ผู้ที่ต่อสู้เพื่อเสรีภาพมักจะอยู่ในฝ่ายที่ถูกต้องตามประวัติศาสตร์</Text>		<!-- Those who fight for liberty are always on the right side of history. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_BOLIVAR_DESCRIPTION" Language="th_TH">
-			<Text>รับ 1 [icon:WAR_SUPPORT] การสนับสนุนสงคราม ในทุกสงครามของคุณ, เมื่อคุณพิชิตถิ่นฐานเป็นครั้งแรก คุณสามารถซื้อ สิ่งก่อสร้าง ได้ฟรี 1 ชิ้น [icon:YIELD_ANGRY] ความไม่สงบไม่เป็นอุปสรรคต่อการซื้อ</Text>		<!-- Gain 2 [icon:WAR_SUPPORT] War Support on [icon:WAR] Wars you declare. When you conquer a Settlement for the first time it can purchase 1 [icon:CITY_BUILDING_LIST] Building or [icon:CITY_RURAL] Improvement for free. [icon:YIELD_ANGRY] Unrest does not prevent Purchasing. -->
+			<Text>รับ 1 [icon:WAR_SUPPORT] การสนับสนุนสงคราม ในทุกสงครามของคุณ, เมื่อคุณพิชิตถิ่นฐานเป็นครั้งแรก คุณสามารถซื้อ สิ่งก่อสร้าง ได้ฟรี 1 หลัง [icon:YIELD_ANGRY] ความไม่สงบ จะไม่เป็นอุปสรรคต่อการซื้อ</Text>		<!-- Gain 2 [icon:WAR_SUPPORT] War Support on [icon:WAR] Wars you declare. When you conquer a Settlement for the first time it can purchase 1 [icon:CITY_BUILDING_LIST] Building or [icon:CITY_RURAL] Improvement for free. [icon:YIELD_ANGRY] Unrest does not prevent Purchasing. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_BOLIVAR_ABILITY_NAME" Language="th_TH">
 			<Text>เอล ลิเบอร์ตาดอร์</Text>		<!-- El Libertador -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_BOLIVAR_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[LIST][LI]รับ [B][icon:WAR_SUPPORT]การสนับสนุนสงคราม[/B] ฟรี 1 ครั้ง ในสงครามของคุณ [LI]เมื่อคุณพิชิต ถิ่นฐาน เป็นครั้งแรก ถิ่นฐาน สามารถ [b]ซื้อสิ่งก่อสร้างได้ฟรี 1 อัน[/b] [LI][icon:YIELD_ANGRY] ความไม่สงบไม่เป็นอุปสรรคต่อการซื้อ[/LIST]</Text>		<!-- [BLIST][LI]Gain [B]2 [icon:WAR_SUPPORT] War Support [/B]on [icon:WAR] [B]Wars[/B] you declare.[LI]When you conquer a Settlement for the first time the Settlement can [B]purchase 1 [icon:CITY_BUILDING_LIST] Building or [icon:CITY_RURAL] Improvement for free[/B].[LI][icon:YIELD_ANGRY] [B]Unrest [/B]does not prevent Purchasing.[/LIST] -->
+			<Text>[BLIST][LI]รับ [B][icon:WAR_SUPPORT]การสนับสนุนสงคราม[/B] ฟรี 1 ครั้ง ในสงครามของคุณ [LI]เมื่อคุณพิชิต ถิ่นฐาน เป็นครั้งแรก ถิ่นฐาน สามารถ [b]ซื้อสิ่งก่อสร้างได้ฟรี 1 หลัง[/b] [LI][icon:YIELD_ANGRY] ความไม่สงบ จะไม่เป็นอุปสรรคต่อการซื้อ[/BLIST]</Text>		<!-- [BLIST][LI]Gain [B]2 [icon:WAR_SUPPORT] War Support [/B]on [icon:WAR] [B]Wars[/B] you declare.[LI]When you conquer a Settlement for the first time the Settlement can [B]purchase 1 [icon:CITY_BUILDING_LIST] Building or [icon:CITY_RURAL] Improvement for free[/B].[LI][icon:YIELD_ANGRY] [B]Unrest [/B]does not prevent Purchasing.[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_AGENDA_CORNERSTONE_FREEDOM_NAME" Language="th_TH">
 			<Text>เสาหลักของเสรีภาพ</Text>		<!-- Cornerstone of Freedom -->
@@ -119,7 +119,7 @@
 			<Text>มรดกของอายาคูโช</Text>		<!-- Legacy of Ayacucho. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BOLIVAR_DAVALOS_MEDAL_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+1[icon:YIELD_HAPPINESS] ความสุข ต่อยุค บนอาคารการทหาร</Text>		<!-- [B]+1 [icon:YIELD_HAPPINESS][/B] per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] on [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Military Buildings[/TIP]. -->
+			<Text>[B]+1 [icon:YIELD_HAPPINESS][/B] ต่อ [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP] บน [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทหาร[/TIP]</Text>		<!-- [B]+1 [icon:YIELD_HAPPINESS][/B] per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] on [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Military Buildings[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BOLIVAR_LETTER_TO_JAMAICA_NAME" Language="th_TH">
 			<Text>จดหมายถึงจาไมก้า</Text>		<!-- Letter to Jamaica -->
@@ -128,7 +128,7 @@
 			<Text>วิสัยทัศน์ของอนาคต</Text>		<!-- Vision of the future. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BOLIVAR_LETTER_TO_JAMAICA_FUNCTIONAL_DESCRIPTION" Language="th_TH">
-			<Text>+50%[icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต ระหว่างการเฉลิมฉลอง</Text>		<!-- [B]+50% [icon:YIELD_GOLD][/B] towards purchasing Units during a [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]Celebration[/TIP]. -->
+			<Text>+50% [icon:YIELD_GOLD] ทอง สำหรับการซื้อยูนิต ระหว่างการเฉลิมฉลอง</Text>		<!-- [B]+50% [icon:YIELD_GOLD][/B] towards purchasing Units during a [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]Celebration[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MEMENTO_BOLIVAR_GOLD_SNUFF_BOX_UNLOCK_TITLE" Language="th_TH">
 			<Text>ปลดล็อคที่ระดับ 2 ของ ซิมอน โบลิบาร์</Text>		<!-- Unlock at Simón Bolívar level 2 -->

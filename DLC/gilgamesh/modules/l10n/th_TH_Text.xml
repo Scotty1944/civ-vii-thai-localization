@@ -11,7 +11,7 @@
 			<Text>กิลกาเมช การอุทิศ ทางทหาร ยุคสำรวจ</Text>		<!-- Gilgamesh Exploration Dedication Militaristic -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_EXP_LEGEND_GILGAMESH_2_DESCRIPTION" Language="th_TH">
-			<Text>สำหรับยุคนี้, +3 พลังต่อสู้สำหรับยูนิตทางทะเลของคุณในราคาที่ลดลง -10% [icon:YIELD_DIPLOMACY] อิทธิพล</Text>		<!-- For this Age, +3 Combat Strength for your Naval Units at the cost of -10% [icon:YIELD_DIPLOMACY] Influence -->
+			<Text>สำหรับยุคนี้, +3 พลังต่อสู้ สำหรับยูนิตทางทะเลของคุณในราคาที่ลดลง -10% [icon:YIELD_DIPLOMACY] อิทธิพล</Text>		<!-- For this Age, +3 Combat Strength for your Naval Units at the cost of -10% [icon:YIELD_DIPLOMACY] Influence -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_GILGAMESH_1_NAME" Language="th_TH">
 			<Text>กิลกาเมช การอุทิศ ทางการฑูต ยุคใหม่</Text>		<!-- Gilgamesh Modern Dedication Diplomatic -->
@@ -23,7 +23,7 @@
 			<Text>กิลกาเมช การอุทิศ ทางทหาร ยุคใหม่</Text>		<!-- Gilgamesh Modern Dedication Militaristic -->
 		</Replace>
 		<Replace Tag="LOC_CARD_AT_MOD_LEGEND_GILGAMESH_2_DESCRIPTION" Language="th_TH">
-			<Text>สำหรับยุคนี้, +3 พลังต่อสู้สำหรับยูนิตอากาศของคุณในราคาของ -10% อิทธิพล[icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Air Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
+			<Text>สำหรับยุคนี้, +3 พลังต่อสู้ สำหรับยูนิตอากาศของคุณในราคาของ -10% อิทธิพล[icon:YIELD_DIPLOMACY]</Text>		<!-- For this Age, +3 Combat Strength for your Air Units at the cost of -10% Influence[icon:YIELD_DIPLOMACY] -->
 		</Replace>
 		<Replace Tag="LOC_MOD_ATTRIBUTE_DIPLOMATIC_LEGEND_GILGAMESH_L1_DESCRIPTION" Language="th_TH">
 			<Text>ตำนานปลดล็อก, +25% [icon:RELATIONSHIP] ความสัมพันธ์จากการเริ่มต้นหรือสนับสนุน [icon:ENDEAVOR] ความพยายาม, -25% [icon:RELATIONSHIP] ความสัมพันธ์จากการเริ่มต้น [icon:SANCTIONS] การคว่ำบาตรหรือการปฏิเสธ [icon:ENDEAVOR] ความพยายาม</Text>		<!-- Legend Unlock. +25% [icon:RELATIONSHIP] Relationship from starting or supporting [icon:ENDEAVOR] Endeavors. -25% [icon:RELATIONSHIP] Relationship from starting [icon:SANCTIONS] Sanctions or rejecting [icon:ENDEAVOR] Endeavors. -->
@@ -86,13 +86,13 @@
 			<Text>จะมีความสุขอะไรในชัยชนะ, เมื่อความตายยังคอยติดตามยามค่ำคืนของฉัน</Text>		<!-- What joy can there be in victory, when mortality still stalks my night-hours. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_GILGAMESH_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:WAR_SUPPORT] การสนับสนุนสงครามเมื่ออยู่ในพันธมิตรเพียงหนึ่งเดียว เมื่อยูนิตทหารของคุณเอาชนะยูนิตศัตรูได้ รับ [icon:YIELD_DIPLOMACY] อิทธิพล เท่ากับ 50% ของ [icon:NAR_REW_COMBAT] พลังต่อสู้ ของยูนิตที่ถูกเอาชนะ ทุกความพยายามพื้นฐานจะถูกปลดล็อกโดยอัตโนมัติ ความพยายามที่มีพันธมิตรจะไม่นับรวมกับขีดจำกัดในการมีความพยายามประเภทเดียวที่ใช้งานอยู่ในเวลาเดียวกัน พันธมิตรสามารถสนับสนุนความพยายามของคุณได้ฟรี</Text>		<!-- +2 [icon:WAR_SUPPORT] War Support when in only one Alliance. When one of your Military Units defeats an enemy Unit, gain [icon:YIELD_DIPLOMACY] Influence equal to 50% of the defeated Unit's [icon:NAR_REW_COMBAT] Combat Strength. All basic Endeavors are automatically unlocked. Endeavors with Allies don’t count against the limit of having one Endeavor of a given type active at a time. Allies can support your Endeavors for free. -->
+			<Text>+2 [icon:WAR_SUPPORT] การสนับสนุนสงครามเมื่ออยู่ในพันธมิตรเพียงหนึ่งเดียว เมื่อยูนิตทหารของคุณเอาชนะยูนิตศัตรูได้ รับ [icon:YIELD_DIPLOMACY] อิทธิพล เท่ากับ 50% ของ [icon:NAR_REW_COMBAT] พลังต่อสู้ ของยูนิตที่ถูกเอาชนะ, ทุกความร่วมมือพื้นฐาน จะถูกปลดล็อกโดยอัตโนมัติ ความร่วมมือกับพันธมิตร จะไม่นับรวมกับขีดจำกัด ในการมีความร่วมมือประเภทเดียวที่ใช้งานอยู่ในเวลาเดียวกัน พันธมิตรสามารถสนับสนุนความร่วมมือของคุณได้ฟรี</Text>		<!-- +2 [icon:WAR_SUPPORT] War Support when in only one Alliance. When one of your Military Units defeats an enemy Unit, gain [icon:YIELD_DIPLOMACY] Influence equal to 50% of the defeated Unit's [icon:NAR_REW_COMBAT] Combat Strength. All basic Endeavors are automatically unlocked. Endeavors with Allies don’t count against the limit of having one Endeavor of a given type active at a time. Allies can support your Endeavors for free. -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_GILGAMESH_ABILITY_NAME" Language="th_TH">
 			<Text>ครั้งหนึ่งเป็นมนุษย์ สองครั้งเป็นเทพ</Text>		<!-- Once Mortal, Twice Divine -->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_GILGAMESH_ABILITY_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI]+2 [B][icon:WAR_SUPPORT] การสนับสนุนสงคราม[/B] เมื่ออยู่ในพันธมิตรเพียงหนึ่งเดียว, [LI]เมื่อยูนิตทหารของคุณเอาชนะยูนิตศัตรูได้, รับ [B][icon:YIELD_DIPLOMACY] อิทธิพล[/B] เท่ากับ 50% ของ [icon:NAR_REW_COMBAT] พลังต่อสู้[/icon] ของยูนิตที่ถูกเอาชนะ,  				[LI]ความพยายามพื้นฐานทั้งหมดจะถูกปลดล็อกโดยอัตโนมัติ, ความพยายามที่มีพันธมิตรจะไม่นับรวมกับขีดจำกัดในการมีความพยายามประเภทเดียวที่เปิดใช้งานในเวลาเดียวกัน, พันธมิตรสามารถสนับสนุนความพยายามของคุณได้ฟรี, [/LIST]</Text>		<!-- [BLIST][LI]+2 [B][icon:WAR_SUPPORT] War Support[/B] when in only one Alliance.
+			<Text>[BLIST][LI]+2 [B][icon:WAR_SUPPORT] การสนับสนุนสงคราม[/B] เมื่ออยู่ในพันธมิตรเพียงหนึ่งเดียว, [LI]เมื่อยูนิตทหารของคุณเอาชนะยูนิตศัตรูได้, รับ [B][icon:YIELD_DIPLOMACY] อิทธิพล[/B] เท่ากับ 50% ของ [icon:NAR_REW_COMBAT] พลังต่อสู้[/icon] ของยูนิตที่ถูกเอาชนะ [LI]ความร่วมมือพื้นฐาน ทั้งหมดจะถูกปลดล็อกโดยอัตโนมัติ, ความร่วมมือกับพันธมิตร จะไม่นับรวมกับขีดจำกัดในการมี ความร่วมมือประเภทเดียวที่เปิดใช้งานในเวลาเดียวกัน, พันธมิตรสามารถสนับสนุนความร่วมมือของคุณได้ฟรี[/LIST]</Text>		<!-- [BLIST][LI]+2 [B][icon:WAR_SUPPORT] War Support[/B] when in only one Alliance.
 				[LI]When one of your Military Units defeats an enemy Unit, gain [B][icon:YIELD_DIPLOMACY] Influence[/B] equal to 50% of the defeated Unit's [icon:NAR_REW_COMBAT] Combat Strength. 
 				[LI]All basic Endeavors are automatically unlocked. Endeavors with Allies don’t count against the limit of having one Endeavor of a given type active at a time. Allies can support your Endeavors for free. [/LIST] -->
 		</Replace>
@@ -1344,7 +1344,7 @@
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_GILGAMESH_MODERN_2_DESCRIPTION" Language="th_TH">
 			<Text>ในฐานะ กิลกาเมช เข้าถึง การอุทิศ ยุคใหม่:[n]
-				+3 [icon:YIELD_COMBAT] พลังต่อสู้สำหรับยูนิตอากาศของคุณ, -10% [icon:YIELD_INFLUENCE] อิทธิพล</Text>		<!-- As Gilgamesh, access a new Modern Dedication:[n]
+				+3 [icon:YIELD_COMBAT] พลังต่อสู้ สำหรับยูนิตอากาศของคุณ, -10% [icon:YIELD_INFLUENCE] อิทธิพล</Text>		<!-- As Gilgamesh, access a new Modern Dedication:[n]
 				+3 Combat Strength for your Air Units, -10% Influence -->
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_GILGAMESH_L1_NAME" Language="th_TH">
