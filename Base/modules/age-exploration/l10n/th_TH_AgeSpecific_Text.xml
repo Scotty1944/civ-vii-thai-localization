@@ -1,0 +1,1436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <LocalizedText>
+    <Replace Tag="LOC_WARNING_OPPONENT_FIRST_TREASURE_MESSAGE" Language="th_TH">
+        <Text>ขบวนบรรทุกสมบัติ ลำแรกของ {1_LeaderName} เพิ่งถึงท่าเรือของพวกเขาอย่างปลอดภัย นี่เป็นก้าวหนึ่งในการเดินทางสู่ {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} สำหรับพวกเขา; หากเราหวังที่จะประสบความสำเร็จ เราต้องตั้งถิ่นฐานในดินแดนห่างไกลของเราเอง</Text>		<!-- The first of {1_LeaderName}'s Treasure Convoys has just reached their port safely. This is a step down the {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} Legacy Path for them; if we hope to succeed, we must establish our own Distant Lands settlements. -->
+    </Replace>
+    <Replace Tag="LOC_WARNING_OPPONENT_FIRST_TREASURE_SUMMARY" Language="th_TH">
+        <Text>ผู้นำต่างชาติกำลังขนส่งสมบัติ</Text>		<!-- Foreign Leader is Returning Treasure -->
+    </Replace>
+    <Replace Tag="LOC_WARNING_OPPONENT_FOREIGN_COLONIZATION_MESSAGE" Language="th_TH">
+        <Text>เจ้าหน้าที่ของเรารายงานว่า {2_LeaderName} ได้ตั้งถิ่นฐานที่ {1_City} ในดินแดนห่างไกล, พวกเขาอาจทำให้การติดตามเส้นทางมรดก {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} และ {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} ยากขึ้น, เราต้องระมัดระวัง — ความเป็นคู่แข่งอาจเป็น พื้นที่อุดมสมสำหรับสงคราม</Text>		<!-- Our operatives report that {2_LeaderName} has established the settlement of {1_City} in Distant Lands. They may make pursuing the Economic and Military Victories more difficult. We must stay vigilant – rivalry can be fertile ground for war. -->
+    </Replace>
+    <Replace Tag="LOC_WARNING_OPPONENT_FOREIGN_COLONIZATION_SUMMARY" Language="th_TH">
+        <Text>การแข่งขันในดินแดนห่างไกล</Text>		<!-- Competing Power in Distant Lands -->
+    </Replace>
+    <Replace Tag="LOC_WARNING_DISTANT_LAND_CONVERSION_MESSAGE" Language="th_TH">
+        <Text>ศาสนาอีกหนึ่งได้ตั้งรากฐานใน {1_City} ในดินแดนห่างไกล, ประชาชนปฏิเสธอิทธิพลของพระของเรา, หากเรานำพวกเขากลับมาสู่วงศ์วานของเรา, เราสามารถเดินต่อไปตามทางแห่งมรดก {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} ได้</Text>		<!-- Another religion has taken root in {1_City} in Distant Lands, the populace rejecting the influence of our own priests. If we bring them back to the fold, we can continue to benefit from their faith. -->
+    </Replace>
+    <Replace Tag="LOC_WARNING_DISTANT_LAND_CONVERSION_SUMMARY" Language="th_TH">
+        <Text>สูญเสียการมีอยู่ของศาสนาในดินแดนห่างไกล</Text>		<!-- Losing Distant Land Religious Presence -->
+    </Replace>
+    <Replace Tag="LOC_WARNING_AGE_TRANSITION_COMMANDERS_MESSAGE" Language="th_TH">
+        <Text>ทหารมากมายได้สาบานตนถวายชีวิตแด่อาณาจักรของเรา ทว่าเรากลับขาดแม่ทัพที่จะนำพวกเขาไปสู่ชัยชนะ นอกเหนือจากจำนวนยูนิตที่แม่ทัพสามารถบัญชาการได้แล้ว เราจะสามารถรักษากองทัพภาคพื้นดินไว้ได้เพียง {1_value} หน่วยเท่านั้นในช่วงเริ่มต้นยุคหน้า หากไม่เร่งแต่งตั้งแม่ทัพเพิ่ม เราจะสูญเสีย {2_lostunits} หน่วย เมื่อต้นยุคใหม่มาถึง</Text>		<!-- Many soldiers have pledged their lives to our empire, but we lack the Commanders to lead them. In addition to the amount of Units our Army Commanders can hold, we will only be able to maintain {1_value} Land Units at the start of the next Age. Without more Army Commanders, we will lose {2_lostunits} Land {2_lostunits: plural 1?Unit; other?Units;} when the Age ends. -->
+    </Replace>
+    <Replace Tag="LOC_WARNING_AGE_TRANSITION_COMMANDERS_SUMMARY" Language="th_TH">
+        <Text>กองทัพขนาดใหญ่</Text>		<!-- Large Army -->
+    </Replace>
+    <Replace Tag="LOC_WARNING_AGE_TRANSITION_NAVAL_COMMANDERS_MESSAGE" Language="th_TH">
+        <Text>กองทัพเรือของเรามีลูกเรือจำนวนมาก แต่ไม่มีผู้บัญชาการเพียงพอที่จะนำพวกเขาได้ ในช่วงเริ่มต้นของยุคถัดไป เราจะสามารถรักษายูนิตเรือได้ เพียงเท่าที่ผู้บัญชาการกองเรือของเราสามารถถือครองได้ เราต้องผลิตผู้บัญชาการกองเรือเพิ่มขึ้น มิฉะนั้นเราจะสูญเสีย ยูนิตทางน้ำ {1_lostunits} หน่วย</Text>		<!-- Many ships have pledged themselves to our empire, but we lack the Commanders to lead them. At the start of the next Age, we will only be able to maintain as many Naval Units as our Fleet Commanders can hold. Without more Fleet Commanders, we will lose {1_lostunits} Naval {1_lostunits: plural 1?Unit; other?Units;} when the Age ends. -->
+    </Replace>
+    <Replace Tag="LOC_WARNING_AGE_TRANSITION_NAVAL_COMMANDERS_SUMMARY" Language="th_TH">
+        <Text>กองทัพเรือขนาดใหญ่</Text>		<!-- Large Navy -->
+    </Replace>
+    <Replace Tag="LOC_AGE_END_WARNING_TITLE" Language="th_TH">
+        <Text>ยุคแห่งการสำรวจใกล้จะสิ้นสุดลง</Text>		<!-- The Age of Exploration will soon come to an end -->
+    </Replace>
+    <Replace Tag="LOC_AGE_END_WARNING_DESC" Language="th_TH">
+        <Text>ยุคแห่งการสำลวจกำลังจะสิ้นสุดลง ตั้งแต่จุดนี้เป็นต้นไป ยุคจะดำเนินต่อไปเมื่อคุณเลือกเทิร์นถัดไปเท่านั้น ไม่มีผลกระทบอื่นใดที่จะส่งผลต่อความก้าวหน้าอีก พิจารณาโอกาสที่เหลืออยู่ และเตรียมอารยธรรมของคุณสำหรับรุ่งอรุณแห่งยุคใหม่</Text>		<!-- The Exploration Age is drawing to a close. From this point forward, the Age only progresses when you select Next Turn; no other effects will influence its advance. Reflect on the remaining opportunities, and ready your Civilization for the dawn of a new era. -->
+    </Replace>
+    <Replace Tag="LOC_AGE_END_WARNING_DESC_FINAL_AGE" Language="th_TH">
+        <Text>ยุคแห่งการสำรวจใกล้จะสิ้นสุดลง ตั้งแต่จุดนี้เป็นต้นไป ยุคจะดำเนินต่อไปเมื่อคุณเลือกเทิร์นถัดไปเท่านั้น ไม่มีผลกระทบอื่นใดที่จะส่งผลต่อความก้าวหน้า หากไม่มีผู้ชนะก่อนสิ้นสุดยุค ผู้เล่นที่สะสม [B]แต้มมรดก[/B] ได้มากที่สุดตลอดยุคจะเป็นผู้ชนะ พิจารณาโอกาสที่เหลืออยู่และจารึกมรดกของอารยธรรมคุณไว้ในประวัติศาสตร์</Text>		<!-- The Exploration Age is drawing to a close. From this point forward, the Age only progresses when you select Next Turn; no other effects will influence its advance. If no Victory is won before the end of the Age, the player who accumulated the most [B]Legacy Points[/B] over the course of the Age will be the winner. Reflect on the remaining opportunities and etch your Civilization's legacy into history. -->
+    </Replace>
+    <Replace Tag="LOC_WARNING_FIRST_CONVERSION_MESSAGE" Language="th_TH">
+        <Text>มิชชันนารีจากต่างประเทศได้ทำให้ผู้คนใน {1_City} หลงใหล — ซึ่งเป็นลางที่ไม่ดี หากเราสูญเสียหัวใจของประชาชน อาจทำให้เราสูญเสียมากกว่าเดิม</Text>		<!-- Missionaries from abroad have captivated the inhabitants of {1_City} — an ill portent. If we lose our people's hearts, we may lose more. -->
+    </Replace>
+    <Replace Tag="LOC_WARNING_FIRST_CONVERSION_SUMMARY" Language="th_TH">
+        <Text>แข่นขันทางศาสนา</Text>		<!-- Competing Religion -->
+    </Replace>
+    <Replace Tag="LOC_CITYCOMMAND_DESTROY_RAZE_PENALTY" Language="th_TH">
+        <Text>-8[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น สำหรับช่วงเวลาที่เหลือของยุคเมื่อการทำลายเสร็จสมบูรณ์</Text>		<!-- -8[icon:YIELD_DIPLOMACY] Influence per turn for the rest of the Age once razing is complete -->
+    </Replace>
+    <Replace Tag="LOC_CITYCOMMAND_KEEP_PENALTY" Language="th_TH">
+        <Text>-4[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น ขณะที่คุณควบคุมถิ่นฐานนี้ในช่วงยุคนี้</Text>		<!-- -4[icon:YIELD_DIPLOMACY] Influence per turn while you control this Settlement during this Age -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_ACTION_ESPIONAGE_BUY_LOYALTY_NAME" Language="th_TH">
+        <Text>ซื้อความภักดี</Text>		<!-- Buy Loyalty -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_ACTION_ESPIONAGE_BUY_LOYALTY_DESCRIPTION" Language="th_TH">
+        <Text>รับสำเนายูนิตทหารบกที่ผู้นำเป้าหมายได้ปลดล็อก, ยูนิตจะปรากฏในเมืองหลวงของคุณ</Text>		<!-- Gain a copy of a Land Military Unit the targeted Leader has unlocked. The Unit will appear in your Capital. -->
+    </Replace>
+    <Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ESPIONAGE_BUY_LOYALTY_EFFECT" Language="th_TH">
+        <Text>เราได้ซื้อความภักดีของ {1_unit} แล้ว!</Text>		<!-- We have bought the loyalty of a {1_unit}! -->
+    </Replace>
+    <Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ESPIONAGE_BUY_LOYALTY_EFFECT_TARGET" Language="th_TH">
+        <Text>พวกเขาได้ซื้อความภักดีของหนึ่งใน {1_unit} ของเรา!</Text>		<!-- They have bought the loyalty of one of our {1_unit}! -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_DEMAND_TRIBUTE_NAME" Language="th_TH">
+        <Text>เรียกร้องบรรณาการ</Text>		<!-- Demand Tribute -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_DEMAND_TRIBUTE_DESCRIPTION" Language="th_TH">
+        <Text>กำหนดเป้าหมายถิ่นฐานที่มีทรัพยากรสมบัติ, สร้างผลกระทบ -20 [icon:YIELD_GOLD]ทอง ต่อเทิร์นต่อเจ้าของถิ่นฐานในช่วงระยะเวลา, สร้างขบวนสมบัติที่มีค่า 2 คะแนนเมื่อการกระทำสิ้นสุดลง</Text>		<!-- Target a Settlement with Treasure Resources. Inflicts -20 [icon:YIELD_GOLD]Gold per turn on the owner of the Settlement for the duration. Creates a Treasure Convoy with a value of 2 when the action ends. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_DEMAND_TRIBUTE_INITIAL" Language="th_TH">
+        <Text>กำหนดเป้าหมายถิ่นฐานที่มีทรัพยากรสมบัติ, สร้างผลกระทบ -20 [icon:YIELD_GOLD]ทองต่อเทิร์นแก่เจ้าของถิ่นฐานในช่วงระยะเวลา, สร้างขบวนสมบัติที่มีค่า 2 เมื่อการกระทำสิ้นสุดลง</Text>		<!-- Target a Settlement with Treasure Resources. Inflicts -20 [icon:YIELD_GOLD]Gold per turn on the owner of the Settlement for the duration. Creates a Treasure Convoy with a value of 2 when the action ends. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_DEMAND_TRIBUTE_ACCEPT" Language="th_TH">
+        <Text>คุณสูญเสีย 20[icon:YIELD_GOLD] ทอง ต่อเทิร์น, พวกเขาจะสร้างขบวนสมบัติที่มีค่า 2 คะแนนใกล้กับถิ่นฐานเป้าหมายเมื่อการกระทำสิ้นสุดลง</Text>		<!-- You lose 20[icon:YIELD_GOLD] Gold per turn. They will create a Treasure Convoy worth 2 points near the targeted settlement when the action ends. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_DEMAND_TRIBUTE_REJECT" Language="th_TH">
+        <Text>ยกเลิกการกระทำทางการทูต</Text>		<!-- Cancels the Diplomatic Action. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_DEMAND_TRIBUTE_REQUEST" Language="th_TH">
+        <Text>{1_leaderName} กำลังลด [icon:YIELD_GOLD] ทอง ของเราต่อเทิร์นด้วยการกระทำทางการทูต เรียกร้องบรรณาการ</Text>		<!-- {1_leaderName} is reducing our [icon:YIELD_GOLD] Gold per turn with the Demand Tribute diplomatic action. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_OPEN_BORDERS_ACCEPT" Language="th_TH">
+        <Text>เปิดพรมแดนของคุณให้กับพวกเขา[n][icon:YIELD_GOLD] +4 ต่อเทิร์น</Text>		<!-- Open your borders to them.[n][icon:YIELD_GOLD] +4 per turn. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_INITIAL" Language="th_TH">
+        <Text>ร่วมทำวิจัยกับผู้นำอีกคนหนึ่ง[n]ได้รับการยอมรับ: คุณจะได้รับ +8[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น ผู้นำอื่นจะได้รับ +4[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +12[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อเทิร์น[n]ถูกปฏิเสธ: ความสัมพันธ์แย่ลง</Text>		<!-- Do a Research Collaboration with another Leader.[n]Accepted: You receive +8[icon:YIELD_SCIENCE] Science per turn. Other Leader receives +4[icon:YIELD_SCIENCE] Science per turn.[n]Supported: Both Leaders receive +12[icon:YIELD_SCIENCE] Science per turn.[n]Rejected: Relationships worsen. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_SUPPORT" Language="th_TH">
+        <Text>[icon:YIELD_SCIENCE] +12 ต่อเทิร์นสำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_SCIENCE] +12 per turn for both Leaders. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_RESEARCH_COLLABORATION_ACCEPT" Language="th_TH">
+        <Text>[icon:YIELD_SCIENCE] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_SCIENCE] +8 ต่อเทิร์น</Text>		<!-- [icon:YIELD_SCIENCE] +4 per turn.[n]{1_initialName} receives [icon:YIELD_SCIENCE] +8 per turn. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_CULTURAL_EXCHANGE_INITIAL" Language="th_TH">
+        <Text>มีการแลกเปลี่ยนวัฒนธรรมกับผู้นำคนอื่น[n]ได้รับการยอมรับ: คุณจะได้รับ +8[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น ผู้นำคนอื่นจะได้รับ +4[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +12[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น[n]ถูกปฏิเสธ: ความสัมพันธ์แย่ลง</Text>		<!-- Have a Cultural Exchange with another Leader.[n]Accepted: You receive +8[icon:YIELD_CULTURE] Culture per turn. Other Leader receives +4[icon:YIELD_CULTURE] Culture per turn.[n]Supported: Both Leaders receive +12[icon:YIELD_CULTURE] Culture per turn.[n]Rejected: Relationships worsen. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_CULTURAL_EXCHANGE_SUPPORT" Language="th_TH">
+        <Text>[icon:YIELD_CULTURE] +12 ต่อเทิร์นสำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_CULTURE] +12 per turn for both Leaders. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_CULTURAL_EXCHANGE_ACCEPT" Language="th_TH">
+        <Text>[icon:YIELD_CULTURE] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_CULTURE] +8 ต่อเทิร์น</Text>		<!-- [icon:YIELD_CULTURE] +4 per turn.[n]{1_initialName} receives [icon:YIELD_CULTURE] +8 per turn. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_INITIAL" Language="th_TH">
+        <Text>เปิดการค้ากับผู้นำอีกคนหนึ่ง[n]ยอมรับ: คุณจะได้รับ +8[icon:YIELD_GOLD] ทอง ต่อเทิร์น ผู้นำอีกคนจะได้รับ +4[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +12[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]ปฏิเสธ: ความสัมพันธ์แย่ลง</Text>		<!-- Have Open Markets with another Leader.[n]Accepted: You receive +8[icon:YIELD_GOLD] Gold per turn. Other Leader receives +4[icon:YIELD_GOLD] Gold per turn.[n]Supported: Both Leaders receive +12[icon:YIELD_GOLD] Gold per turn.[n]Rejected: Relationships worsen. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_SUPPORT" Language="th_TH">
+        <Text>[icon:YIELD_GOLD] +12 ต่อเทิร์นสำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_GOLD] +12 per turn for both Leaders. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_MINOR_TRADE_ACCEPT" Language="th_TH">
+        <Text>[icon:YIELD_GOLD] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_GOLD] +8 ต่อเทิร์น</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]{1_initialName} receives [icon:YIELD_GOLD] +8 per turn. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_LOCAL_FESTIVALS_INITIAL" Language="th_TH">
+        <Text>จัดเทศกาลท้องถิ่นกับผู้นำอีกคนหนึ่ง[n]ได้รับการตอบรับ: คุณได้รับ +4[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในเมืองใหญ่ทั้งหมด ผู้นำอื่นได้รับ +4[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +6[icon:YIELD_HAPPINESS] ความสุข ต่อเทิร์นในเมือง[n]ถูกปฏิเสธ: ความสัมพันธ์แย่ลง</Text>		<!-- Have Local Festivals with another Leader.[n]Accepted: You receive +4[icon:YIELD_HAPPINESS] Happiness per turn in all Cities. Other Leader receives +4[icon:YIELD_DIPLOMACY] Influence per turn.[n]Supported: Both Leaders receive +6[icon:YIELD_HAPPINESS] Happiness per turn in Cities.[n]Rejected: Relationships worsen. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_LOCAL_FESTIVALS_SUPPORT" Language="th_TH">
+        <Text>[icon:YIELD_HAPPINESS] +5 ต่อเทิร์นในเมือง สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_HAPPINESS] +6 per turn in Cities for both Leaders. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_LOCAL_FESTIVALS_ACCEPT" Language="th_TH">
+        <Text>[icon:YIELD_DIPLOMACY] +4 ต่อเทิร์น[n][icon:YIELD_HAPPINESS] +4 ต่อเทิร์นในเมืองใหญ่ สำหรับ {1_initialName}</Text>		<!-- [icon:YIELD_DIPLOMACY] +4 per turn.[n] [icon:YIELD_HAPPINESS] +4 per turn in Cities for {1_initialName}. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_FARMERS_MARKET_INITIAL" Language="th_TH">
+        <Text>แบ่งปันสินค้าเกษตรกับผู้นำคนอื่น[n]ยอมรับ: คุณได้รับ +4[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมือง ผู้นำอื่นได้รับ +4[icon:YIELD_GOLD] ทอง ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +6[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมือง[n]ปฏิเสธ: ความสัมพันธ์แย่ลง</Text>		<!-- Share agricultural goods with another Leader.[n]Accepted: You receive +4[icon:YIELD_FOOD] Food per turn in Towns. Other Leader receives +4[icon:YIELD_GOLD] Gold per turn.[n]Supported: Both Leaders receive +6[icon:YIELD_FOOD] Food per turn in Towns.[n]Rejected: Relationships worsen. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_FARMERS_MARKET_SUPPORT" Language="th_TH">
+        <Text>[icon:YIELD_FOOD] +6 ต่อเทิร์นในเมือง สำหรับผู้นำทั้งสอง</Text>		<!-- [icon:YIELD_FOOD] +6 per turn in Towns for both Leaders. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_FARMERS_MARKET_ACCEPT" Language="th_TH">
+        <Text>[icon:YIELD_GOLD] +4 ต่อเทิร์น[n]{1_initialName} ได้รับ [icon:YIELD_FOOD] +4 ต่อเทิร์นในเมือง</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]{1_initialName} receives [icon:YIELD_FOOD] +4 per turn in Towns. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_TRADE_MAP_ACCEPT" Language="th_TH">
+        <Text>[icon:YIELD_GOLD] +4 ต่อเทิร์น[n]ผู้นำคนอื่นจะเห็น พื้นที่อ้างสิทธิ์ ของคุณ เมื่อเวลาผ่านไป</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]The other Leader has your claimed territory revealed to them over time. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_MILITARY_AID_ACCEPT" Language="th_TH">
+        <Text>[icon:YIELD_GOLD]+4 ต่อเทิร์น[n]ยูนิตของผู้นำคนอื่นได้รับ +2 พลังต่อสู้</Text>		<!-- [icon:YIELD_GOLD] +4 per turn.[n]Other Leader's Units get +2 Combat Strength. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_IMPROVE_TRADE_RELATIONS_ACCEPT" Language="th_TH">
+        <Text>[icon:YIELD_GOLD] +60[n]{1_initialName} สามารถเริ่มเส้นทางการค้าเพิ่มเติมกับคุณได้</Text>		<!-- [icon:YIELD_GOLD] +60.[n]{1_initialName} can start an additional Trade Route with you. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_GINSING_AGREEMENT_INITIAL" Language="th_TH">
+        <Text>มีข้อตกลงโสมกับผู้นำอีกคนหนึ่ง[n]ยอมรับ: คุณได้รับ +6[icon:YIELD_FOOD] อาหาร ต่อเทิร์น ในเมืองใหญ่ของคุณ ผู้นำอื่นได้รับ +4[icon:YIELD_FOOD] อาหาร ต่อเทิร์นในเมืองใหญ่ของพวกเขา[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +10[icon:YIELD_FOOD] อาหาร ต่อเทิร์น ในเมืองใหญ่ของพวกเขา[n]ปฏิเสธ: ความสัมพันธ์แย่ลง</Text>		<!-- Have Ginseng Agreements with another Leader.[n]Accepted: You receive +6[icon:YIELD_FOOD] Food per turn in your Cities. Other Leader receives +4[icon:YIELD_FOOD] Food per turn in their Cities.[n]Supported: Both Leaders receive +10[icon:YIELD_FOOD] Food per turn in their Cities.[n]Rejected: Relationships worsen. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_GINSING_AGREEMENT_SUPPORT" Language="th_TH">
+        <Text>[icon:YIELD_FOOD] +10 ต่อเทิร์นสำหรับผู้นำทั้งสองในเมืองใหญ่ของพวกเขา</Text>		<!-- [icon:YIELD_FOOD] +10 per turn for both Leaders in their Cities. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_GINSING_AGREEMENT_ACCEPT" Language="th_TH">
+        <Text>[icon:YIELD_FOOD] +4 ต่อเทิร์นในเมืองใหญ่ของคุณ[n]{1_initialName} ได้รับ [icon:YIELD_FOOD] +8 ต่อเทิร์นในเมืองใหญ่ของพวกเขา</Text>		<!-- [icon:YIELD_FOOD] +4 per turn in your Cities.[n]{1_initialName} receives [icon:YIELD_FOOD] +6 per turn in their Cities. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_FRIEND_OF_WA_INITIAL" Language="th_TH">
+        <Text>ทำให้พันธมิตรเป็น เพื่อนของเหวย[n]ยอมรับ: ผู้นำทั้งสองได้รับ +25%[icon:YIELD_SCIENCE] วิทยาศาสตร์,</Text>		<!-- Make an ally into a Friend of Wei.[n]Accepted: Both Leaders receive +25%[icon:YIELD_SCIENCE] Science. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_FRIEND_OF_WA" Language="th_TH">
+        <Text>ทำให้พันธมิตรกลายเป็นเพื่อนของเหว่ย[n]ยอมรับ: ทั้งสองผู้นำได้รับ +25% [icon:YIELD_SCIENCE] วิทยาศาสตร์</Text>		<!-- Make an ally into a Friend of Wei.[n]Accepted: Both Leaders receive +25%[icon:YIELD_SCIENCE] Science. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_FRIEND_OF_WA_ACCEPT" Language="th_TH">
+        <Text>[icon:YIELD_SCIENCE] +25%[n]{1_initialName} ได้รับ [icon:YIELD_SCIENCE] +25%</Text>		<!-- [icon:YIELD_SCIENCE] +25%.[n]{1_initialName} receives [icon:YIELD_SCIENCE] +25%. -->
+    </Replace>
+    <Replace Tag="LOC_PROJECT_TOWN_RESORT_DESCRIPTION" Language="th_TH">
+        <Text>+1 [icon:YIELD_HAPPINESS] ความสุข และ [icon:YIELD_GOLD] ทอง บนช่องที่น่าดึงดูด,
+    +50% ผลผลิต ต่อช่องจาก สิ่งมหัศจรรย์ทางธรรมชาติ,
+    สามารถซื้อ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านความสุข[/TIP] เพิ่มเติมในเมืองเล็กนี้</Text>		<!-- +1 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_GOLD] Gold on Appealing tiles. +50% tile yields from Natural Wonders. Can Purchase additional [icon:YIELD_HAPPINESS] Happiness Buildings in this Town. -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_CRABS_TOOLTIP" Language="th_TH">
+        <Text>+2[icon:YIELD_FOOD] อาหาร บน [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]อาคารคลังสินค้า[/TIP]</Text>		<!-- +2[icon:YIELD_FOOD] Food on [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse Buildings[/TIP] -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_COWRIE_TOOLTIP" Language="th_TH">
+        <Text>+5 [icon:YIELD_GOLD] ทอง ใน [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP], +3 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ใน [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP]</Text>		<!-- +5 [icon:YIELD_GOLD] Gold in [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP], +3 [icon:YIELD_SCIENCE] Science in [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_TURTLES_TOOLTIP" Language="th_TH">
+        <Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม บน [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]อาคารคลังสินค้า[/TIP]</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture on [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse Buildings[/TIP] -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_PITCH_TOOLTIP" Language="th_TH">
+        <Text>[icon:YIELD_GOLD] +1 ทอง บน น้ำ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +1 [icon:YIELD_GOLD] Gold on Water [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] -->
+    </Replace>
+    <Replace Tag="LOC_PROJECT_TOWN_GRANARY_SHORT_NAME" Language="th_TH">
+        <Text>โครงการคลังสินค้า</Text>		<!-- Warehouse Project -->
+    </Replace>
+    <Replace Tag="LOC_PROJECT_TOWN_FISHING_SHORT_NAME" Language="th_TH">
+        <Text>โครงการคลังสินค้า</Text>		<!-- Warehouse Project -->
+    </Replace>
+    <Replace Tag="LOC_PROJECT_TOWN_PRODUCTION_SHORT_NAME" Language="th_TH">
+        <Text>โครงการคลังสินค้า</Text>		<!-- Warehouse Project -->
+    </Replace>
+    <Replace Tag="LOC_PROJECT_TOWN_GRANARY_NAME" Language="th_TH">
+        <Text>เมืองเกษตรกรรม</Text>		<!-- Farming Town -->
+    </Replace>
+    <Replace Tag="LOC_PROJECT_TOWN_FISHING_NAME" Language="th_TH">
+        <Text>เมืองประมง</Text>		<!-- Fishing Town -->
+    </Replace>
+    <Replace Tag="LOC_PROJECT_TOWN_PRODUCTION_NAME" Language="th_TH">
+        <Text>เมืองเหมืองแร่</Text>		<!-- Mining Town -->
+    </Replace>
+    <Replace Tag="LOC_PROJECT_TOWN_GRANARY_DESCRIPTION" Language="th_TH">
+        <Text>+1 [icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้า ปลูกพืช และเรือประมง สามารถซื้อเพิ่มเติม [icon:YIELD_FOOD] อาหาร และอาคารน้ำ ในเมืองเล็กนี้</Text>		<!-- +1 [icon:YIELD_FOOD] Food on Farms, Pastures, Plantations, and Fishing Boats. Can Purchase additional [icon:YIELD_FOOD] Food and Water Buildings in this Town. -->
+    </Replace>
+    <Replace Tag="LOC_PROJECT_TOWN_FISHING_DESCRIPTION" Language="th_TH">
+        <Text>+1 [icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้าเลี้ยงสัตว์ ไร่สวน และเรือประมง สามารถ ซื้อ เพิ่ม [icon:YIELD_FOOD] อาหาร และ อาคารน้ำ ในเมืองนี้</Text>		<!-- +1 [icon:YIELD_FOOD] Food on Farms, Pastures, Plantations, and Fishing Boats. Can Purchase additional [icon:YIELD_FOOD] Food and Water Buildings in this Town. -->
+    </Replace>
+    <Replace Tag="LOC_PROJECT_TOWN_PRODUCTION_DESCRIPTION" Language="th_TH">
+        <Text>+2 [icon:YIELD_PRODUCTION] กำลังผลิต บน ค่ายคนงาน, โรงตัดไม้, หลุมดิน, เหมืองแร่ และบ่อหิน</Text>		<!-- +2 [icon:YIELD_PRODUCTION] Production on Camps, Woodcutters, Clay Pits, Mines, and Quarries. -->
+    </Replace>
+    <Replace Tag="LOC_PROJECT_TOWN_TRADE_NAME" Language="th_TH">
+        <Text>สถานีการค้า</Text>		<!-- Trade Outpost -->
+    </Replace>
+    <Replace Tag="LOC_PROJECT_TOWN_TRADE_DESCRIPTION" Language="th_TH">
+        <Text>+1 [icon:YIELD_HAPPINESS] ความสุข บนแต่ละแหล่งทรัพยากรในเมืองนี้ และระยะการค้าเพิ่มขึ้น 5 หน่วย สามารถซื้ออาคารทองคำเพิ่มเติมในเมืองนี้ได้</Text>		<!-- +1 [icon:YIELD_HAPPINESS] Happiness to each Resource tile in the Town and +5 Trade Route range. Can Purchase additional [icon:YIELD_GOLD] Gold Buildings in this Town. -->
+    </Replace>
+    <Replace Tag="LOC_PROJECT_TOWN_TEMPLE_NAME" Language="th_TH">
+        <Text>สถานที่ทางศาสนา</Text>		<!-- Religious Site -->
+    </Replace>
+    <Replace Tag="LOC_PROJECT_TOWN_TEMPLE_DESCRIPTION" Language="th_TH">
+        <Text>+2[icon:YIELD_HAPPINESS] ความสุข บนอาคารทั้งหมด และ +2 ช่องเก็บศาสนวัตถุบนวัดในเมืองนี้, +25% [icon:YIELD_GOLD] ทอง เพื่อการซื้อวัดในเมืองนี้</Text>		<!-- +2 [icon:YIELD_HAPPINESS] Happiness on all Buildings and +2 Relic Slot on Temples in this Town. +25% [icon:YIELD_GOLD] Gold towards Purchasing Temples in this Town. -->
+    </Replace>
+    <Replace Tag="LOC_PROJECT_TOWN_INN_NAME" Language="th_TH">
+        <Text>ฮับทาวน์</Text>		<!-- Hub Town -->
+    </Replace>
+    <Replace Tag="LOC_PROJECT_TOWN_INN_DESCRIPTION" Language="th_TH">
+        <Text>+1 [icon:YIELD_DIPLOMACY] อิทธิพล ต่อถิ่นฐานที่เชื่อมต่อกับเมืองนี้, สามารถซื้อ [icon:YIELD_DIPLOMACY] อาคารการทูตเพิ่มเติมในเมืองนี้, จำกัดไว้ที่ 1 เมืองศูนย์กลางต่อทวีป</Text>		<!-- +1 [icon:YIELD_DIPLOMACY] Influence per Settlement Connected to this Town. Can Purchase additional [icon:YIELD_DIPLOMACY] Diplomacy Buildings in this Town. Limited to 1 Hub Town per Continent. -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_MANGOS_TOOLTIP" Language="th_TH">
+        <Text>+3[icon:YIELD_FOOD] อาหาร, +3[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +3[icon:YIELD_FOOD] Food, +3[icon:YIELD_CULTURE] Culture -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_CLAY_TOOLTIP" Language="th_TH">
+        <Text>+1 [icon:YIELD_PRODUCTION] กำลังผลิต ใน [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]อาคารคลังสินค้า[/TIP]</Text>		<!-- +1 [icon:YIELD_PRODUCTION] Production on [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse Buildings[/TIP] -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_FLAX_TOOLTIP" Language="th_TH">
+        <Text>+2[icon:YIELD_SCIENCE] วิทยาศาสตร์, +2[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +2[icon:YIELD_SCIENCE] Science, +2[icon:YIELD_CULTURE] Culture -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_RUBIES_TOOLTIP" Language="th_TH">
+        <Text>+1 [icon:YIELD_GOLD] ทอง ใน [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP], เพิ่มเป็นสองเท่าใน [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]ดินแดนบ้านเกิด[/TIP]</Text>		<!-- +1 [icon:YIELD_GOLD] Gold in [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP], doubled in [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]Homelands[/TIP] -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_RICE_TOOLTIP" Language="th_TH">
+        <Text>+2 [icon:YIELD_FOOD] อาหาร ใน[TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP]</Text>		<!-- +2 [icon:YIELD_FOOD] Food in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_LIMESTONE_TOOLTIP" Language="th_TH">
+        <Text>[icon:YIELD_PRODUCTION] +10% [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]กำลังผลิตสำหรับอาคาร[/TIP]</Text>		<!-- +10% [icon:YIELD_PRODUCTION] Production towards [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_TIN_TOOLTIP" Language="th_TH">
+        <Text>+3[icon:YIELD_PRODUCTION] กำลังผลิต, +3[icon:YIELD_GOLD] ทอง</Text>		<!-- +3[icon:YIELD_PRODUCTION] Production, +3[icon:YIELD_GOLD] Gold -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_LLAMAS_TOOLTIP" Language="th_TH">
+        <Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต, +5[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production, +5[icon:YIELD_HAPPINESS] Happiness -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_HARDWOOD_TOOLTIP" Language="th_TH">
+        <Text>+20% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อ[TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ยูนิตทางน้ำ[/TIP]</Text>		<!-- +20% [icon:YIELD_PRODUCTION] Production towards [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_SETTLEMENT_CAP_INCREASE_MORE_DESCRIPTION" Language="th_TH">
+        <Text>+2 [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]ขีดจำกัดถิ่นฐาน[/TIP]</Text>		<!-- +2 [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_WILD_GAME_TOOLTIP" Language="th_TH">
+        <Text>+3 [icon:YIELD_FOOD] อาหาร ใน [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP], +6 [icon:YIELD_FOOD] อาหาร ใน [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP]</Text>		<!-- +3 [icon:YIELD_FOOD] Food in [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP], +6 [icon:YIELD_FOOD] Food in [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EXPLORATION_IMPERIALISM_RESOURCE_DESCRIPTION" Language="th_TH">
+        <Text>[icon:RADIAL_RESOURCES] ทรัพยากรชาและเครื่องเทศมีค่า +1 [icon:TREASURE_FLEET] สินค้าสำหรับ [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]ขบวนทรัพย์สมบัติ[/TIP]</Text>		<!-- [icon:RADIAL_RESOURCES] Tea and Spices Resources are worth +1 [icon:TREASURE_FLEET] Cargo for [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EXPLORATION_SOCIAL_CLASS_RESOURCE_DESCRIPTION" Language="th_TH">
+        <Text>[icon:RADIAL_RESOURCES] ขนสัตว์และทรัพยากรโกโก้มีค่า +1 [icon:TREASURE_FLEET] สินค้าสำหรับ [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]ขบวนขุมทรัพย์[/TIP]</Text>		<!-- [icon:RADIAL_RESOURCES] Furs and Cocoa Resources are worth +1 [icon:TREASURE_FLEET] Cargo for [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_TECH_EX_NAVAL_AUTO_EXPLORE_DESCRIPTION" Language="th_TH">
+        <Text>หน่วยเรือระดับ 2 และ 3 [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval ยูนิตs[/TIP] สามารถใช้คำสั่งสำรวจอัตโนมัติได้</Text>		<!-- All Tier 2 and Tier 3 [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] can use the Automate Exploration Action. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_TECH_EX_TRADE_RANGE" Language="th_TH">
+        <Text>+5 [TIP:LOC_PEDIA_CONCEPTS_TRADE_RANGE_TOOLTIP]ระยะการค้า[/TIP]</Text>		<!-- +5 [TIP:LOC_PEDIA_CONCEPTS_TRADE_RANGE_TOOLTIP]Trade Range[/TIP] -->
+    </Replace>
+    <Replace Tag="LOC_MOD_TECH_EX_FEUDALISM_FARMS" Language="th_TH">
+        <Text>+1 [icon:YIELD_FOOD] อาหารจากฟาร์มและไร่ปลูกในเมืองเล็กทางการเกษตร, เมืองเล็กประมง และเมืองเล็กที่มีป้อม</Text>		<!-- +1 [icon:YIELD_FOOD] Food on Farms and Plantations in Farming Towns, Fishing Towns, and Fort Towns. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_TECH_EX_RELIC_SLOT_PAVILION" Language="th_TH">
+        <Text>+1 ช่องมรดก บนศาลา</Text>		<!-- +1 Relic Slot on Pavilions -->
+    </Replace>
+    <Replace Tag="LOC_CAN_CREATE_TREASURE_FLEET" Language="th_TH">
+        <Text>สร้าง [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]ขบวนบรรทุกสมบัติ[/TIP] หากพัฒนาใน [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP]</Text>		<!-- Creates [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP] if improved in the [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_COTTON_TOOLTIP" Language="th_TH">
+        <Text>+3[icon:YIELD_FOOD] อาหาร, +3[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +3[icon:YIELD_FOOD] Food, +3[icon:YIELD_PRODUCTION] Production -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_DATES_TOOLTIP" Language="th_TH">
+        <Text>+3[icon:YIELD_FOOD] อาหาร, +3[icon:YIELD_HAPPINESS] ความสุข </Text>		<!-- +3[icon:YIELD_FOOD] Food, +3[icon:YIELD_HAPPINESS] Happiness -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_DYES_TOOLTIP" Language="th_TH">
+        <Text>+5[icon:YIELD_HAPPINESS] ความสุข</Text>		<!-- +5[icon:YIELD_HAPPINESS] Happiness -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_FISH_TOOLTIP" Language="th_TH">
+        <Text>+5[icon:YIELD_FOOD] อาหาร</Text>		<!-- +5[icon:YIELD_FOOD] Food -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_GOLD_TOOLTIP" Language="th_TH">
+        <Text>+1[icon:YIELD_GOLD] ทอง และ [icon:YIELD_HAPPINESS] ความสุข ในทุกถิ่นฐาน[TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] มีค่า 2 [icon:TREASURE_FLEET] สินค้าบรรทุก สำหรับ [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]ขบวนเรือบรรทุกสมบัติ[/TIP]</Text>		<!-- +1[icon:YIELD_GOLD] Gold and [icon:YIELD_HAPPINESS] Happiness in all [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP]. Worth 2 [icon:TREASURE_FLEET] Cargo for [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_QUEST_SELECTION_BODY_NO_ADVISORS" Language="th_TH">
+        <Text>(เส้นทางมรดกถูกปิดใช้งานในขณะนี้ หากคุณเปิดใช้งาน ที่ปรึกษาของคุณจะพร้อมให้บริการเพื่อแนะนำคุณในเส้นทางที่เลือก.)</Text>		<!-- (Legacy Paths are currently disabled. If you enable them, your Advisors will be at your service to guide you on the path of your choice.) -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_GOLD_DISTANT_LANDS_TOOLTIP" Language="th_TH">
+        <Text>สร้าง [icon:UNIT_TREASURE_FLEET] ขบวนบรรทุกสมบัติ หากได้รับการพัฒนาในดินแดนห่างไกล</Text>		<!-- Creates [icon:UNIT_TREASURE_FLEET] Treasure Convoys if improved in the Distant Lands. -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_GYPSUM_TOOLTIP" Language="th_TH">
+        <Text>+3 [icon:YIELD_PRODUCTION] กำลังผลิต ให้กับ [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]ถิ่นฐาน[/TIP] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP]; +6 [icon:YIELD_PRODUCTION] กำลังผลิต ให้กับ [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP]</Text>		<!-- +3 [icon:YIELD_PRODUCTION] Production to [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]Homeland[/TIP] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP]; +6 [icon:YIELD_PRODUCTION] Production to [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Land[/TIP] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_INCENSE_TOOLTIP" Language="th_TH">
+        <Text>+100% [icon:YIELD_PRODUCTION] กำลังผลิต สำหรับ [icon:UNIT_MISSIONARY] มิชชันนารี และ วิหาร</Text>		<!-- +100% [icon:YIELD_PRODUCTION] Production towards [icon:UNIT_MISSIONARY] Missionaries and Temples -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_IVORY_TOOLTIP" Language="th_TH">
+        <Text>+3[icon:YIELD_HAPPINESS] ความสุข, +3[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +3[icon:YIELD_HAPPINESS] Happiness, +3[icon:YIELD_PRODUCTION] Production -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_JADE_TOOLTIP" Language="th_TH">
+        <Text>+15%[icon:YIELD_GOLD] ทอง</Text>		<!-- +15%[icon:YIELD_GOLD] Gold -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_KAOLIN_TOOLTIP" Language="th_TH">
+        <Text>+3 [icon:YIELD_FOOD] อาหาร ไปยัง[icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]บ้านเกิด[/TIP] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP]; +6 [icon:YIELD_FOOD] อาหาร ไปยัง[icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP]</Text>		<!-- +3 [icon:YIELD_FOOD] Food to [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]Homeland[/TIP] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP]; +6 [icon:YIELD_FOOD] Food to [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Land[/TIP] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_MARBLE_TOOLTIP" Language="th_TH">
+        <Text>+10% [icon:YIELD_PRODUCTION] กำลังผลิต ไปยัง[icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP]</Text>		<!-- +10% [icon:YIELD_PRODUCTION] Production towards constructing [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP] -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_PEARLS_TOOLTIP" Language="th_TH">
+        <Text>+3 [icon:YIELD_HAPPINESS] ความสุข ไปยัง [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]ถิ่นฐาน[/TIP] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP]; +6 [icon:YIELD_HAPPINESS] ความสุข ไปยัง [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP]</Text>		<!-- +3 [icon:YIELD_HAPPINESS] Happiness to [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]Homeland[/TIP] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP]; +6 [icon:YIELD_HAPPINESS] Happiness to [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Land[/TIP] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_SILK_TOOLTIP" Language="th_TH">
+        <Text>+10%[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +10%[icon:YIELD_CULTURE] Culture -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_SILVER_TOOLTIP" Language="th_TH">
+        <Text>+1[icon:YIELD_GOLD] ทอง และ [icon:YIELD_FOOD] อาหาร ในทุก [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP], มูลค่า 2 [icon:TREASURE_FLEET] สินค้า สำหรับ [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]ขบวนเรือบรรทุกสมบัติ[/TIP]</Text>		<!-- +1[icon:YIELD_GOLD] Gold and [icon:YIELD_FOOD] Food in all [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP]. Worth 2 [icon:TREASURE_FLEET] Cargo for [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_SILVER_DISTANT_LANDS_TOOLTIP" Language="th_TH">
+        <Text>สร้าง [icon:UNIT_TREASURE_FLEET] ขบวนบรรทุกสมบัติ หากได้รับการพัฒนาในดินแดนห่างไกล</Text>		<!-- Creates [icon:UNIT_TREASURE_FLEET] Treasure Convoys if improved in the Distant Lands. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_FUTURE_TECH_ATTRIBUTE_DESCRIPTION" Language="th_TH">
+        <Text>+1 [icon:ATTRIBUTE] [TIP:LOC_PEDIA_CONCEPTS_ATTRIBUTE_TOOLTIP]แต้มคุณสมบัติแบบสุ่ม[/TIP]</Text>		<!-- +1 [icon:ATTRIBUTE] [TIP:LOC_PEDIA_CONCEPTS_ATTRIBUTE_TOOLTIP]Random Attribute Point[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_FUTURE_TECH_BOOST_DESCRIPTION" Language="th_TH">
+        <Text>บูสต์สำหรับ [icon:RADIAL_TECH] [TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]เทคโนโลยี[/TIP] เริ่มต้นใน [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP]ถัดไป</Text>		<!-- A boost for a starting [icon:RADIAL_TECH] [TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]Technology[/TIP] in the next [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_FUTURE_TECH_AGE_PROGRESS_DESCRIPTION" Language="th_TH">
+        <Text>+10 [icon:NOTIFICATION_TEAM_VICTORIOUS] [TIP:LOC_PEDIA_CONCEPTS_AGE_PROGRESS_TOOLTIP]ความก้าวหน้าของยุค[/TIP]</Text>		<!-- +10 [icon:NOTIFICATION_TEAM_VICTORIOUS] [TIP:LOC_PEDIA_CONCEPTS_AGE_PROGRESS_TOOLTIP]Age Progress[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_WINE_TOOLTIP" Language="th_TH">
+        <Text>+3 [icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง [icon:NOTIFICATION_SELECT_CAPITAL] และ +10 [icon:YIELD_CULTURE] วัฒนธรรม เมื่ออยู่ใน [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]งานเฉลิมฉลอง[/TIP]</Text>		<!-- +3 [icon:YIELD_HAPPINESS] Happiness in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital and +10 [icon:YIELD_CULTURE] Culture when in a [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]Celebration[/TIP] -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_CAMELS_TOOLTIP" Language="th_TH">
+        <Text>+2 [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCE_CAPACITY_TOOLTIP]ความจุทรัพยากร[/TIP] ในนี้ [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP], โดยไม่ใช้ช่องว่างที่เปิดอยู่</Text>		<!-- +2 [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCE_CAPACITY_TOOLTIP]Resource Capacity[/TIP] in this [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]City[/TIP]. Does not consume an open slot. -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_HORSES_TOOLTIP" Language="th_TH">
+        <Text>+1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]ยูนิตทหารม้า[/TIP] (สูงสุด +6)</Text>		<!-- +1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Units[/TIP] (Max +6) -->
+    </Replace>
+    <Replace Tag="LOC_ANT_RESOURCE_IRON_TOOLTIP" Language="th_TH">
+        <Text>+1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]ยูนิตทหารราบ[/TIP] (สูงสุด +6)</Text>		<!-- +1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]Infantry Units[/TIP] (Max +6) -->
+    </Replace>
+    <Replace Tag="LOC_EXP_RESOURCE_COCOA_TOOLTIP" Language="th_TH">
+        <Text>+1 [icon:YIELD_HAPPINESS] ความสุข ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP], เพิ่มขึ้นเป็นสองเท่า ใน [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]ดินแดนบ้านเกิด[/TIP]</Text>		<!-- +1 [icon:YIELD_HAPPINESS] Happiness in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP], doubled in [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]Homelands[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_EXP_RESOURCE_FURS_TOOLTIP" Language="th_TH">
+        <Text>+3 [icon:YIELD_HAPPINESS] ความสุข ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง และ +10 [icon:YIELD_GOLD] ทอง เมื่ออยู่ใน [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]งานเฉลิมฉลอง[/TIP]</Text>		<!-- +3 [icon:YIELD_HAPPINESS] Happiness in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital and +10 [icon:YIELD_GOLD] Gold when in a [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]Celebration[/TIP] -->
+    </Replace>
+    <Replace Tag="LOC_EXP_RESOURCE_SPICES_TOOLTIP" Language="th_TH">
+        <Text>+1[icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_DIPLOMACY] อิทธิพล ใน[icon:YIELD_CITIES][TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP], เพิ่มขึ้นเป็นสองเท่าใน [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]ดินแดนบ้านเกิด[/TIP]</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture and [icon:YIELD_DIPLOMACY] Influence in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP], doubled in [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]Homelands[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_EXP_RESOURCE_SUGAR_TOOLTIP" Language="th_TH">
+        <Text>+1[icon:YIELD_FOOD] อาหาร และ [icon:YIELD_HAPPINESS] ความสุข ใน[icon:YIELD_CITIES][TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP], เพิ่มขึ้นเป็นสองเท่าใน[TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]ดินแดนบ้านเกิด[/TIP]</Text>		<!-- +1 [icon:YIELD_FOOD] Food and [icon:YIELD_HAPPINESS] Happiness in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP], doubled in [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]Homelands[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_EXP_RESOURCE_TEA_TOOLTIP" Language="th_TH">
+        <Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ และ [icon:YIELD_PRODUCTION] กำลังผลิต ใน [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP], เพิ่มขึ้นเป็นสองเท่าใน [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]ดินแดนบ้านเกิด[/TIP]</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science and [icon:YIELD_PRODUCTION] Production in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP], doubled in [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]Homelands[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_EXP_RESOURCE_TRUFFLES_TOOLTIP" Language="th_TH">
+        <Text>+20%[icon:YIELD_PRODUCTION] กำลังผลิต สำหรับการฝึกยูนิต</Text>		<!-- +20%[icon:YIELD_PRODUCTION] Production towards training Units -->
+    </Replace>
+    <Replace Tag="LOC_EXP_RESOURCE_NITER_TOOLTIP" Language="th_TH">
+        <Text>+1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [TIP:LOC_PEDIA_CONCEPTS_SIEGE_UNITS_TOOLTIP]ยูนิตปิดล้อม[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ยูนิตทางน้ำ[/TIP] (สูงสุด +6)</Text>		<!-- +1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_SIEGE_UNITS_TOOLTIP]Siege[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] (Max +6) -->
+    </Replace>
+    <Replace Tag="LOC_EXP_RESOURCE_WHALES_TOOLTIP" Language="th_TH">
+        <Text>+5[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +5[icon:YIELD_PRODUCTION] Production -->
+    </Replace>
+    <Replace Tag="LOC_EXP_RESOURCE_CLOVES_TOOLTIP" Language="th_TH">
+        <Text>+6[icon:YIELD_FOOD] อาหาร, +10%[icon:YIELD_GOLD] ทอง</Text>		<!-- +6[icon:YIELD_FOOD] Food, +10%[icon:YIELD_GOLD] Gold -->
+    </Replace>
+    <Replace Tag="LOC_TREE_TECHS_EX_NAME" Language="th_TH">
+        <Text>เทคโนโลยีการสำรวจ</Text>		<!-- Exploration Technology -->
+    </Replace>
+    <Replace Tag="LOC_TECH_CARTOGRAPHY_NAME" Language="th_TH">
+        <Text>การทำแผนที่</Text>		<!-- Cartography -->
+    </Replace>
+    <Replace Tag="LOC_TECH_CARTOGRAPHY_QUOTE" Language="th_TH">
+        <Text>"แผนที่เป็นแบบจำลองเพื่อ, ไม่ใช่แบบจำลองของ, สิ่งที่อ้างว่าเป็นตัวแทน"</Text>		<!-- "The map was a model for, rather than a model of, what it purported to represent." -->
+    </Replace>
+    <Replace Tag="LOC_TECH_CARTOGRAPHY_QUOTE_AUTHOR" Language="th_TH">
+        <Text>ธงชัย วินิจจะกูล</Text>		<!-- Thongchai Winichakul -->
+    </Replace>
+    <Replace Tag="LOC_TECH_ARCHITECTURE_NAME" Language="th_TH">
+        <Text>สถาปัตยกรรม</Text>		<!-- Architecture -->
+    </Replace>
+    <Replace Tag="LOC_TECH_ARCHITECTURE_QUOTE" Language="th_TH">
+        <Text>"วัตถุประสงค์ของการก่อสร้างคือ การทำให้สิ่งต่างๆ แข็งแรงคงทน ส่วนของสถาปัตยกรรมคือ การทำให้เรารู้สึกประทับใจ"</Text>		<!-- "The purpose of construction is to make things hold together; of architecture to move us." -->
+    </Replace>
+    <Replace Tag="LOC_TECH_ARCHITECTURE_QUOTE_AUTHOR" Language="th_TH">
+        <Text>เลอ กอร์บูซีเย่</Text>		<!-- Le Corbusier -->
+    </Replace>
+    <Replace Tag="LOC_TECH_PROFESSIONAL_ARMY_NAME" Language="th_TH">
+        <Text>กองทัพมืออาชีพ</Text>		<!-- Professional Army -->
+    </Replace>
+    <Replace Tag="LOC_TECH_PROFESSIONAL_ARMY_QUOTE" Language="th_TH">
+        <Text>"ทหารที่เหนือกว่าหนึ่งคนมีค่ามากกว่าทหารที่ด้อยกว่าหนึ่งร้อยคน"</Text>		<!-- "One superior soldier counts for as much as one hundred inferior." -->
+    </Replace>
+    <Replace Tag="LOC_TECH_PROFESSIONAL_ARMY_QUOTE_AUTHOR" Language="th_TH">
+        <Text>เยว่ เค่อ</Text>		<!-- Yue Ke -->
+    </Replace>
+    <Replace Tag="LOC_TECH_EDUCATION_NAME" Language="th_TH">
+        <Text>การศึกษา</Text>		<!-- Education -->
+    </Replace>
+    <Replace Tag="LOC_TECH_EDUCATION_QUOTE" Language="th_TH">
+        <Text>"การลงทุนที่ดีที่สุดสำหรับหนึ่งปีคือ การปลูกข้าว, การลงทุนที่ดีที่สุดสำหรับสิบปีคือ การปลูกต้นไม้, การลงทุนที่ดีที่สุดสำหรับทั้งชีวิตคือ การให้การศึกษาแก่ผู้คน"</Text>		<!-- "The best investment for one year is to grow grains; the best investment for ten years is to grow trees; the best investment for a lifetime is to educate people." -->
+    </Replace>
+    <Replace Tag="LOC_TECH_EDUCATION_QUOTE_AUTHOR" Language="th_TH">
+        <Text>กวนตง</Text>		<!-- Guan Zhong -->
+    </Replace>
+    <Replace Tag="LOC_TECH_FEUDALISM_NAME" Language="th_TH">
+        <Text>ศักดินา</Text>		<!-- Feudalism -->
+    </Replace>
+    <Replace Tag="LOC_TECH_FEUDALISM_QUOTE" Language="th_TH">
+        <Text>"พระราชาทรงสถาปนา อัศวินทั้งหมดของพระองค์ ประทานที่ดินให้พวกเขา และสั่งให้พวกเขาแสดงความเมตตา"</Text>		<!-- "The king established all his knights, gave them lands, and charged them to give mercy." -->
+    </Replace>
+    <Replace Tag="LOC_TECH_FEUDALISM_QUOTE_AUTHOR" Language="th_TH">
+        <Text>โทมัส มาลอรี</Text>		<!-- Thomas Malory -->
+    </Replace>
+    <Replace Tag="LOC_TECH_MACHINERY_NAME" Language="th_TH">
+        <Text>เครื่องจักร</Text>		<!-- Machinery -->
+    </Replace>
+    <Replace Tag="LOC_TECH_MACHINERY_QUOTE" Language="th_TH">
+        <Text>"ฉันใช้ไหวพริบและความคิดเกี่ยวกับรูปทรง และเลขาคณิต และฉันได้จัดเรียงรูปทรงเหล่านี้ ทีละชิ้น"</Text>		<!-- "I worked my wits and thoughts about shapes and figures, and I arranged these shapes one by one." -->
+    </Replace>
+    <Replace Tag="LOC_TECH_MACHINERY_QUOTE_AUTHOR" Language="th_TH">
+        <Text>อิบน์ คอลาฟ อัล-มูราดี</Text>		<!-- Ibn Khalaf al-Murādī -->
+    </Replace>
+    <Replace Tag="LOC_TECH_METALLURGY_NAME" Language="th_TH">
+        <Text>โลหะวิทยา</Text>		<!-- Metallurgy -->
+    </Replace>
+    <Replace Tag="LOC_TECH_METALLURGY_QUOTE" Language="th_TH">
+        <Text>"จากแผ่นดินทองดินแดนใหม่ ดวงตะวันที่เป็นทอง กว้างเป็นวา และดวงจันทร์ที่เป็นเงิน"</Text>		<!-- "From the new land of gold, a sun of gold, a whole fathom wide, and a moon of silver." -->
+    </Replace>
+    <Replace Tag="LOC_TECH_METALLURGY_QUOTE_AUTHOR" Language="th_TH">
+        <Text>อัลเบรชท์ ดือเรอร์</Text>		<!-- Albrecht Dürer -->
+    </Replace>
+    <Replace Tag="LOC_TECH_METAL_CASTING_NAME" Language="th_TH">
+        <Text>การหล่อโลหะ</Text>		<!-- Metal Casting -->
+    </Replace>
+    <Replace Tag="LOC_TECH_METAL_CASTING_QUOTE" Language="th_TH">
+        <Text>"ลมทำงานอย่างไม่หยุดยั้งเป็นเวลาสามวันสามคืน และทองสัมฤทธิ์หลอมละลายกลายเป็นของเหลว"</Text>		<!-- "The bellows worked incessantly for three days and three nights, and the bronze melted down and became as water." -->
+    </Replace>
+    <Replace Tag="LOC_TECH_METAL_CASTING_QUOTE_AUTHOR" Language="th_TH">
+        <Text>ไมเคิล คริโตบูลอส</Text>		<!-- Michael Kritoboulos -->
+    </Replace>
+    <Replace Tag="LOC_TECH_ASTRONOMY_NAME" Language="th_TH">
+        <Text>ดาราศาสตร์</Text>		<!-- Astronomy -->
+    </Replace>
+    <Replace Tag="LOC_TECH_ASTRONOMY_QUOTE" Language="th_TH">
+        <Text>"เหนือโลกนี้ไปคือความว่างเปล่าที่ไร้ขอบเขต – มีอีกนับพันพันโลกอยู่นอกเหนือจากที่เรารู้จัก"</Text>		<!-- "There exists beyond the world a void without a terminal limit - a thousand thousand worlds beyond this world." -->
+    </Replace>
+    <Replace Tag="LOC_TECH_ASTRONOMY_QUOTE_AUTHOR" Language="th_TH">
+        <Text>ฟาครุดดีน อัล-รอซีย์</Text>		<!-- Fakhr al-Din al-Razi -->
+    </Replace>
+    <Replace Tag="LOC_TECH_CASTLES_NAME" Language="th_TH">
+        <Text>ปราสาท</Text>		<!-- Castles -->
+    </Replace>
+    <Replace Tag="LOC_TECH_CASTLES_QUOTE" Language="th_TH">
+        <Text>"ปราสาทมัตสึยามะ, ป้อมปราการสูงกว่า ท้องฟ้ายามใบไม้ร่วง"</Text>		<!-- "Matsuyama castle; the keep is higher than the autumn sky." -->
+    </Replace>
+    <Replace Tag="LOC_TECH_CASTLES_QUOTE_AUTHOR" Language="th_TH">
+        <Text>มาซาโอะกะ ชิกิ</Text>		<!-- Masaoka Shiki -->
+    </Replace>
+    <Replace Tag="LOC_TECH_HERALDRY_NAME" Language="th_TH">
+        <Text>มุทราศาสตร์</Text>		<!-- Heraldry -->
+    </Replace>
+    <Replace Tag="LOC_TECH_HERALDRY_QUOTE" Language="th_TH">
+        <Text>"ใช่ แต่...คุณมีธงไหม?"</Text>		<!-- "Yes, but...do you have a flag?" -->
+    </Replace>
+    <Replace Tag="LOC_TECH_HERALDRY_QUOTE_AUTHOR" Language="th_TH">
+        <Text>ซูซี่ เอดดี้ อิซซาร์ด</Text>		<!-- Suzy Eddie Izzard -->
+    </Replace>
+    <Replace Tag="LOC_TECH_URBAN_PLANNING_NAME" Language="th_TH">
+        <Text>การวางผังเมือง</Text>		<!-- Urban Planning -->
+    </Replace>
+    <Replace Tag="LOC_TECH_URBAN_PLANNING_QUOTE" Language="th_TH">
+        <Text>"เมืองก็เหมือนกับบ้านหลังใหญ่ และบ้านก็เหมือนกับเมืองเล็กๆ"</Text>		<!-- "The city is like a great house, and the house is like a small city." -->
+    </Replace>
+    <Replace Tag="LOC_TECH_URBAN_PLANNING_QUOTE_AUTHOR" Language="th_TH">
+        <Text>เลออน บาทติสตา อัลเบอร์ติ</Text>		<!-- Leon Battista Alberti -->
+    </Replace>
+    <Replace Tag="LOC_TECH_GUNPOWDER_NAME" Language="th_TH">
+        <Text>ดินปืน</Text>		<!-- Gunpowder -->
+    </Replace>
+    <Replace Tag="LOC_TECH_GUNPOWDER_QUOTE" Language="th_TH">
+        <Text>"การใช้ดินปืนอย่างแท้จริงคือ การทำให้ชายทุกคนนั้นเท่าเทียมกัน"</Text>		<!-- "The real use of gunpowder is to make all men tall." -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ADVANCED_TRANSITION_START_HYBRID" Language="th_TH">
+        <Text> กด [action:{1_Icon}] บน </Text>		<!-- Press [action:{1_Icon}] on -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ADVANCED_TRANSITION_START_HYBRID_ALT" Language="th_TH">
+        <Text> กด [action:{1_Icon}] เพื่อ </Text>		<!-- Press [action:{1_Icon}] to -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ADVANCED_TRANSITION_START_TOUCH" Language="th_TH">
+        <Text> แตะ </Text>		<!-- Tap -->
+    </Replace>
+    <Replace Tag="LOC_TECH_GUNPOWDER_QUOTE_AUTHOR" Language="th_TH">
+        <Text>โทมัส คาร์ไลล์</Text>		<!-- Thomas Carlyle -->
+    </Replace>
+    <Replace Tag="LOC_TECH_GUILDS_NAME" Language="th_TH">
+        <Text>สมาคม</Text>		<!-- Guilds -->
+    </Replace>
+    <Replace Tag="LOC_TECH_GUILDS_QUOTE" Language="th_TH">
+        <Text>"อาจารย์ และ ศิษย์ ต่างรักใน ความเชี่ยวชาญ ในแบบที่ต่างกัน"</Text>		<!-- "The master and apprentice love the master in different ways." -->
+    </Replace>
+    <Replace Tag="LOC_TECH_GUILDS_QUOTE_AUTHOR" Language="th_TH">
+        <Text>ฟรีดริช นีทเชอ</Text>		<!-- Friedrich Nietzsche -->
+    </Replace>
+    <Replace Tag="LOC_TECH_SHIPBUILDING_NAME" Language="th_TH">
+        <Text>การต่อเรือ</Text>		<!-- Shipbuilding -->
+    </Replace>
+    <Replace Tag="LOC_TECH_SHIPBUILDING_QUOTE" Language="th_TH">
+        <Text>"ถ้าศิลปะการสร้างเรือมีอยู่ในเนื้อไม้ เรือก็จะมีตัวตนโดยธรรมชาติ"</Text>		<!-- "If ship-building art were in the wood, ships would exist by nature." -->
+    </Replace>
+    <Replace Tag="LOC_TECH_SHIPBUILDING_QUOTE_AUTHOR" Language="th_TH">
+        <Text>อริสโตเติล</Text>		<!-- Aristotle -->
+    </Replace>
+    <Replace Tag="LOC_TECH_FIREARMS_NAME" Language="th_TH">
+        <Text>อาวุธปืน</Text>		<!-- Firearms -->
+    </Replace>
+    <Replace Tag="LOC_TECH_FIREARMS_QUOTE" Language="th_TH">
+        <Text>"เราทำธุรกิจเกี่ยวกับตะกั่ว"</Text>		<!-- "We deal in lead." -->
+    </Replace>
+    <Replace Tag="LOC_TECH_FIREARMS_QUOTE_AUTHOR" Language="th_TH">
+        <Text>เจ็ดสิงห์แดนเสือ</Text>		<!-- The Magnificent Seven -->
+    </Replace>
+    <Replace Tag="LOC_TECH_FUTURE_TECH_NAME" Language="th_TH">
+        <Text>เทคโนโลยีแห่งอนาคต</Text>		<!-- Future Tech -->
+    </Replace>
+    <Replace Tag="LOC_TECH_FUTURE_TECH_QUOTE" Language="th_TH">
+        <Text>ไม่มี</Text>		<!-- None -->
+    </Replace>
+    <Replace Tag="LOC_TECH_FUTURE_TECH_AUTHOR" Language="th_TH">
+        <Text>ไม่มี</Text>		<!-- None -->
+    </Replace>
+    <Replace Tag="LOC_MOD_TECH_OCEAN_TRAVEL_T1_NAME" Language="th_TH">
+        <Text>การข้ามมหาสมุทรทางเรือ</Text>		<!-- Naval Ocean Traversal -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EXPLORATION_DEEP_OCEAN_NAVAL_DESCRIPTION" Language="th_TH">
+        <Text>ยูนิต[TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ทางน้ำ[/TIP]ทั้งหมด สามารถเข้าสู่ มหาสมุทรลึกได้</Text>		<!-- All [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] may enter deep Ocean Terrain. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_TECH_OCEAN_TRAVEL_T2_NAME" Language="th_TH">
+        <Text>การเดินทางข้ามมหาสมุทร</Text>		<!-- Embarked Ocean Traversal -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EXPLORATION_DEEP_OCEAN_LAND_UNIT_DESCRIPTION" Language="th_TH">
+        <Text>ยูนิตทางน้ำทั้งหมด [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]สามารถขึ้นฝั่ง[/TIP] [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]ยูนิตภาคพื้น[/TIP] สามารถเข้าสู่ มหาสมุทรลึกได้</Text>		<!-- All [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]Embarked[/TIP] [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]Land Units[/TIP] may enter deep Ocean Terrain. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EXPLORATION_DEEP_OCEAN_COMMANDER_DESCRIPTION" Language="th_TH">
+        <Text>[icon:UNIT_FLEET_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]ผู้บัญชาการกองเรือ[/TIP] สามารถเข้าสู่พื้นที่มหาสมุทรลึกได้</Text>		<!-- [icon:UNIT_FLEET_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Fleet Commanders[/TIP] may enter deep Ocean Terrain. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_OCEAN_CONQUISTADOR_DESCRIPTION" Language="th_TH">
+        <Text>[icon:UNIT_CONQUISTADOR] คอนควิสทาดอร์ สามารถเข้าสู่พื้นที่ มหาสมุทรลึก ได้</Text>		<!-- [icon:UNIT_CONQUISTADOR] Conquistadors may enter deep Ocean Terrain. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EXPLORATION_DEEP_OCEAN_CIVILIAN_SUPPORT_DESCRIPTION" Language="th_TH">
+        <Text>ยูนิต[TIP:LOC_PEDIA_CONCEPTS_CIVILIAN_UNIT_TOOLTIP]พลเรือน[/TIP] และยูนิต[TIP:LOC_PEDIA_CONCEPTS_SUPPORT_UNIT_TOOLTIP]สนับสนุน[/TIP] ทั้งหมดสามารถเข้าสู่ มหาสมุทรลึก ได้</Text>		<!-- All [TIP:LOC_PEDIA_CONCEPTS_CIVILIAN_UNIT_TOOLTIP]Civilian[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_SUPPORT_UNIT_TOOLTIP]Support Units[/TIP] may enter deep Ocean Terrain. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EXPLORATION_DEEP_OCEAN_RELIGIOUS_DESCRIPTION" Language="th_TH">
+        <Text>ยูนิตศาสนาทั้งหมด สามารถเดินทางข้ามมหาสมุทรลึกได้</Text>		<!-- All Religious Units may enter deep Ocean Terrain. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EXPLORATION_NO_DEEP_OCEAN_DAMAGE_NAVAL_DESCRIPTION" Language="th_TH">
+        <Text>ยูนิต[TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ทางน้ำทั้งหมด[/TIP] สามารถเดินทางข้ามมหาสมุทรลึก ได้อย่างปลอดภัยโดยไม่รับ [icon:DAMAGED] ความเสียหาย</Text>		<!-- All [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] can safely travel across deep Ocean Terrain without taking [icon:DAMAGED] Damage. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EXPLORATION_NO_DEEP_OCEAN_DAMAGE_CIVILIAN_SUPPORT_DESCRIPTION" Language="th_TH">
+        <Text>ยูนิต [TIP:LOC_PEDIA_CONCEPTS_CIVILIAN_UNIT_TOOLTIP]พลเรือน[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_SUPPORT_UNIT_TOOLTIP]ยูนิตสนับสนุน[/TIP] ทั้งหมด สามารถเดินทางข้ามมหาสมุทรลึก ได้อย่างปลอดภัยโดยไม่รับ [icon:DAMAGED] ความเสียหาย</Text>		<!-- All [TIP:LOC_PEDIA_CONCEPTS_CIVILIAN_UNIT_TOOLTIP]Civilian[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_SUPPORT_UNIT_TOOLTIP]Support Units[/TIP] can safely travel across deep Ocean Terrain without taking [icon:DAMAGED] Damage. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EXPLORATION_NO_DEEP_OCEAN_DAMAGE_LAND_UNIT_DESCRIPTION" Language="th_TH">
+        <Text>ยูนิตรบทั้งหมดที่อยู่บนเรือ [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]Embarked[/TIP] [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]ยูนิตรบ[/TIP] สามารถเดินทางข้ามมหาสมุทรลึก ได้อย่างปลอดภัยโดยไม่รับ [icon:DAMAGED] ความเสียหาย</Text>		<!-- All [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]Embarked[/TIP] [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]Land Units[/TIP] can safely travel across deep Ocean Terrain without taking [icon:DAMAGED] Damage. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EXPLORATION_NO_DEEP_OCEAN_OBSTACLE_DESCRIPTION" Language="th_TH">
+        <Text>ยูนิตทั้งหมดไม่ถูกบทลงโทษ [icon:Action_Move]การเคลื่อนที่ใน มหาสมุทรลึก</Text>		<!-- All Units ignore [icon:Action_Move] Movement penalties from deep Ocean Terrain. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_SETTLEMENT_CAP_INCREASE_DESCRIPTION" Language="th_TH">
+        <Text>+1 [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]ขีดจำกัดการตั้งถิ่นฐาน[/TIP]</Text>		<!-- +1 [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_SPECIALIST_CAP_INCREASE_DESCRIPTION" Language="th_TH">
+        <Text>+1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]ขีดจำกัดผู้เชี่ยวชาญ[/TIP] ในทุก [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP]</Text>		<!-- +1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP] in all [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EXPLORATION_RELIC_DESCRIPTION" Language="th_TH">
+        <Text>ได้รับ 1 [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_RELIC_TOOLTIP]ศาสนวัตถุ[/TIP]</Text>		<!-- Gain 1 [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_RELIC_TOOLTIP]Relic[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_TECH_INFANTRY_STRENGTH_DESCRIPTION" Language="th_TH">
+        <Text>+3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]ยูนิตทหารราบ[/TIP]</Text>		<!-- +3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]Infantry Units[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_TECH_WALL_STRENGTH_PREVIEW" Language="th_TH">
+        <Text>+{1_Amount} ปราสาท</Text>		<!-- +{1_Amount} Castles -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_TECH_WALL_STRENGTH_DESCRIPTION" Language="th_TH">
+        <Text>+3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]เขตเสริมกำลัง[/TIP]</Text>		<!-- +3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_TECH_NAVAL_STRENGTH_DESCRIPTION" Language="th_TH">
+        <Text>+3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ยูนิตเรือรบ[/TIP]</Text>		<!-- +3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_TECH_RANGED_STRENGTH_DESCRIPTION" Language="th_TH">
+        <Text>+3 [icon:Action_Ranged] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [TIP:LOC_PEDIA_CONCEPTS_RANGED_UNITS_TOOLTIP]ยูนิตระยะไกล[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_SIEGE_UNITS_TOOLTIP]ยูนิตปิดล้อม[/TIP]</Text>		<!-- +3 [icon:Action_Ranged] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_RANGED_UNITS_TOOLTIP]Ranged[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_SIEGE_UNITS_TOOLTIP]Siege Units[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_TECH_CAVALRY_STRENGTH_DESCRIPTION" Language="th_TH">
+        <Text>+3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]ยูนิตทหารม้า[/TIP]</Text>		<!-- +3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_CAVALRY_UNITS_TOOLTIP]Cavalry Units[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_TECH_CULTURE_BUILDING_DESCRIPTION" Language="th_TH">
+        <Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:YIELD_CULTURE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรม[/TIP]</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture on [icon:YIELD_CULTURE] Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_TECH_FOOD_BUILDING_DESCRIPTION" Language="th_TH">
+        <Text>+1 [icon:YIELD_FOOD] อาหาร บน [icon:YIELD_FOOD] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านอาหาร[/TIP]</Text>		<!-- +1 [icon:YIELD_FOOD] Food on [icon:YIELD_FOOD] Food [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_TECH_GOLD_BUILDING_DESCRIPTION" Language="th_TH">
+        <Text>+1 [icon:YIELD_GOLD] ทอง บน [icon:YIELD_GOLD] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารทอง[/TIP]</Text>		<!-- +1 [icon:YIELD_GOLD] Gold on [icon:YIELD_GOLD] Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_TECH_HAPPINESS_BUILDING_DESCRIPTION" Language="th_TH">
+        <Text>[icon:YIELD_HAPPINESS] +1 ความสุข บน [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านความสุข[/TIP]</Text>		<!-- +1 [icon:YIELD_HAPPINESS] Happiness on [icon:YIELD_HAPPINESS] Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_TECH_MILITARY_BUILDING_DESCRIPTION" Language="th_TH">
+        <Text>+2 [icon:YIELD_PRODUCTION] กำลังผลิต บน [icon:MILITARY] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทหาร[/TIP]</Text>		<!-- +2 [icon:YIELD_PRODUCTION] Production on [icon:MILITARY] Military [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_TECH_PRODUCTION_BUILDING_DESCRIPTION" Language="th_TH">
+        <Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต บน [icon:YIELD_PRODUCTION] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านกำลังผลิต[/TIP]</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on [icon:YIELD_PRODUCTION] Production [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_TECH_SCIENCE_BUILDING_DESCRIPTION" Language="th_TH">
+        <Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บน [icon:YIELD_SCIENCE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP]</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science on [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_TECH_EX_MINE_PRODUCTION_DESCRIPTION" Language="th_TH">
+        <Text>+1 [icon:YIELD_PRODUCTION] กำลังผลิต บนดินเหนียวและเหมือง</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Clay Pits and Mines. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_TECH_EX_FISHING_BOAT_FOOD_DESCRIPTION" Language="th_TH">
+        <Text>+1[icon:YIELD_FOOD] อาหาร บนเรือประมง</Text>		<!-- +1[icon:YIELD_FOOD] Food on Fishing Boats. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_TECH_EX_QUARRY_PRODUCTION_DESCRIPTION" Language="th_TH">
+        <Text>+1 [icon:YIELD_PRODUCTION] กำลังผลิต ในเหมืองหิน</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Quarries. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_TECH_EX_PASTURE_FOOD_DESCRIPTION" Language="th_TH">
+        <Text>+1[icon:YIELD_FOOD] อาหาร ในฟาร์ม ทุ่งหญ้าเลี้ยงสัตว์ และสวนเกษตร</Text>		<!-- +1[icon:YIELD_FOOD] Food on Farms, Pastures, and Plantations. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_TECH_EX_CAMP_PRODUCTION_DESCRIPTION" Language="th_TH">
+        <Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต ในค่ายและคนตัดไม้</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Camps and Woodcutters. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_EXPLORATION_WELCOME_TITLE" Language="th_TH">
+        <Text>ยินดีต้อนรับสู่ยุคแห่งการสำรวจ</Text>		<!-- Welcome to the Exploration Age -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_EXPLORATION_WELCOME_BODY" Language="th_TH">
+        <Text>การผจญภัยใหม่ข้ามทะเลรออยู่!
+    [n][n]ยุคแห่งการสำรวจ นำมาซึ่งโอกาสใหม่ๆ มากมาย:
+    [BLIST]
+    [LI]  สำรวจมหาสมุทรอันกว้างใหญ่ เพื่อค้นหาแผ่นดินที่ไกลออกไป ยูนิตทางทะเลของคุณ สามารถฟื้นฟูในน่านน้ำชายฝั่งได้
+    [LI]  สร้างถิ่นฐานในแผ่นดินที่ไกลออกไป พบกับอารยธรรมใหม่ๆ และรวบรวม ทรัพยากร ใหม่ๆ เพื่อเสริมสร้างอาณาจักรของคุณ
+    [LI]  รับหลักศาสนาด้วยการสร้างวัด ด้วยศาสนาที่มีอยู่ คุณสามารถฝึก มิชชันนารี เพื่อเผยแผ่ศรัทธาของคุณไปทั่วโลก
+    [/LIST]
+    </Text>		<!-- New adventures across the sea await!
+    [n][n]The Exploration Age brings many new opportunities:
+    [BLIST]
+    [LI]  Explore the great oceans in search of Distant Lands. Your Naval Units can heal in coastal waters.
+    [LI]  Establish Settlements on Distant Lands, meet new Civilizations, and gather new Resources to enrich your empire.
+    [LI]  Embrace Religion by building a Temple. With a Religion in place, you can train Missionaries to spread your faith across the globe.
+    [/LIST] -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MISSIONARY_AVAILABLE_TITLE" Language="th_TH">
+        <Text>มิชชันนารี</Text>		<!-- Missionaries -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MISSIONARY_AVAILABLE_BODY" Language="th_TH">
+        <Text>ตอนนี้คุณมีความสามารถในการฝึก {1_MissionaryIcon} [b]{2_MissionaryName}[/b] ซึ่งสามารถเผยแพร่ [b]{3_ReligionName}[/b]!</Text>		<!-- You now have the ability to train the {1_MissionaryIcon} [b]{2_MissionaryName}[/b], which can spread [b]{3_ReligionName}[/b]! -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MISSIONARY_TRAINED_TITLE" Language="th_TH">
+        <Text>การเปลี่ยนแปลงถิ่นฐาน</Text>		<!-- Converting a Settlement -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MISSIONARY_TRAINED_BODY" Language="th_TH">
+        <Text>{1_MissionaryIcon} [b]{2_MissionaryName}[/b] ได้รับการฝึกใน {3_CityName}!
+    [n]เพื่อเปลี่ยนถิ่นฐานที่ไม่มีศาสนา คุณต้องใช้การกระทำการเปลี่ยนศาสนาในที่ใดๆ ภายในเขตแดนของถิ่นฐานนั้น
+    [n]หากถิ่นฐานมีศาสนาอยู่แล้ว คุณต้องเปลี่ยนทั้งประชากรในเขตเมืองและชนบท ใช้การกระทำการเปลี่ยนศาสนาหนึ่งครั้งใน [b]ช่องเมือง[/b] และอีกครั้งใน [b]ช่องชนบท[/b]</Text>		<!-- A {1_MissionaryIcon} [b]{2_MissionaryName}[/b] has been trained in {3_CityName}!
+    [n]To convert a Settlement with no Religion, you must use the Convert action once anywhere within its borders.
+    [n]If the Settlement already has a Religion, you must Convert both its Urban and Rural populations. Use the Convert action once on an [b]Urban tile [/b]and once on a [b]Rural tile[/b]. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_RELIGION_TECH_UNLOCKED_TITLE" Language="th_TH">
+        <Text>ก่อตั้งศาสนา</Text>		<!-- Founding a Religion -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_RELIGION_TECH_UNLOCKED_BODY" Language="th_TH">
+        <Text>ขณะนี้คุณสามารถสร้าง [b]วัด[/b] ในหนึ่งในที่ตั้งถิ่นฐานของคุณ ซึ่งจะทำให้คุณสามารถก่อตั้ง [b]ศาสนา[/b] ได้ เพื่อกำหนดศาสนาของคุณ คุณจะต้องเลือก 2 ความเชื่อ: [b]ความเชื่อเสริม[/b] และ [b]ความเชื่อผู้ก่อตั้ง[/b][BLIST][LI]สามารถค้นหาความเชื่อเพิ่มเติมได้ผ่าน Civic พิเศษหรือจากเหตุการณ์บรรยาย[LI]ฝึกยูนิต [b]มิชชันนารี[/b] เพื่อเปลี่ยนที่ตั้งถิ่นฐานอื่นๆ ให้หันมานับถือศาสนาของคุณ[/LIST]</Text>		<!-- You can now construct a [b]Temple [/b]in one of your Settlements, which will allow you to establish a [b]Religion[/b]. To define your Religion, you will need to choose 2 Beliefs: an [b]Enhancer Belief [/b]and a [b]Founder Belief[/b].[BLIST][LI]Additional Beliefs can be found through special Civics or from Narrative Events.[LI]Train a [b]Missionary [/b]Unit to convert other Settlements to your faith.[/LIST] -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_UNIT_DAMAGED_AT_SEA_TITLE" Language="th_TH">
+        <Text>ที่นี่มีมังกร</Text>		<!-- Here Be Dragons -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_UNIT_DAMAGED_AT_SEA_BODY" Language="th_TH">
+        <Text>มหาสมุทรสามารถเดินเรือได้แต่ [b]อันตราย[/b] ยูนิตทางทะเล ที่เดินทางทางทะเลจะ [b]ได้รับความเสียหาย[/b] หากพวกเขาสิ้นสุดเทิร์นในช่อง[b]มหาสมุทรน้ำลึก[/b]
+    [n][b][icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_CARTOGRAPHY_NAME} [/b]จะอนุญาตให้ยูนิตที่ไม่ใช่ยูนิตทหารของคุณทำการเดินทางที่อันตรายนี้ได้
+    [n][b]การเชี่ยวชาญ [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_SHIPBUILDING_NAME} [/b]จะรับรองความปลอดภัยของทุกยูนิตในน้ำ</Text>		<!-- The Ocean is navigable but [b]dangerous[/b]. Naval Units travelling by sea will [b]take damage [/b]if they end their turn in deep [b]Ocean [/b]tiles.
+    [n][b][icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_CARTOGRAPHY_NAME} [/b]will allow your non-Military Units to take this dangerous voyage.
+    [n][b]Mastering [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_SHIPBUILDING_NAME} [/b]will ensure the safety of all Units in the water. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_UNIT_DAMAGED_AT_SEA_BODY_ALT" Language="th_TH">
+        <Text>มหาสมุทรสามารถเดินเรือได้แต่ [b]อันตราย[/b] ยูนิตทางทะเล จะเคลื่อนที่อย่างช้าๆ ในช่องมหาสมุทรที่ลึกและ [b]ได้รับความเสียหาย[/b] หากพวกเขาสิ้นสุดเทิร์นที่นั่น [n][b][icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_CARTOGRAPHY_NAME} [/b]จะอนุญาตให้ยูนิตที่ไม่ใช่ยูนิตทหารของคุณทำการเดินทางที่อันตรายนี้ได้ [n][b][icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_SHIPBUILDING_NAME} [/b]จะลบผลกระทบอันตรายของการเดินทางและทำให้อย่างรวดเร็ว [n][b]การเชี่ยวชาญ [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_SHIPBUILDING_NAME} [/b]จะรับรองความปลอดภัยของทุกยูนิตในน้ำ</Text>		<!-- The Ocean is navigable but [b]dangerous[/b]. Naval Units travelling by sea will move slowly in deep [b]Ocean [/b]tiles and [b]take damage [/b]if they end their turn there.
+    [n][b][icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_CARTOGRAPHY_NAME} [/b]will allow your non-Military Units to take this dangerous voyage.
+    [n][b][icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_SHIPBUILDING_NAME} [/b]will remove the dangerous effects of the voyage, and make it quicker.
+    [n][b]Mastering [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_SHIPBUILDING_NAME} [/b]will allow all Units to embark on this voyage. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_FLEET_COMMANDER_AVAILABLE_TITLE" Language="th_TH">
+        <Text>จ้าวแห่งท้องทะเล</Text>		<!-- Masters of the Sea -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_FLEET_COMMANDER_AVAILABLE_BODY" Language="th_TH">
+        <Text>ในขณะที่ {LOC_UNIT_ARMY_COMMANDER_NAME} สนับสนุนยูนิตภาคพื้น, {1_fleetCommanderIcon} [b]{2_fleetCommanderName} [/b] จัดระเบียบและสั่งการยูนิต [b]กองทัพเรือ[/b]</Text>		<!-- While the {LOC_UNIT_ARMY_COMMANDER_NAME} supports Land Units, The {1_fleetCommanderIcon} [b]{2_fleetCommanderName} [/b]organizes and directs [b]Naval Units[/b]. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_RELIGION_TITLE" Language="th_TH">
+        <Text>ศาสนา</Text>		<!-- Religion -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_RELIGION_BODY" Language="th_TH">
+        <Text>เมื่อ [icon:BUILDING_TEMPLE] {LOC_BUILDING_TEMPLE_NAME} สร้างเสร็จ ชาว {1_civAdj} สามารถก่อตั้ง [b]ศาสนา[/b] ได้!
+    [n]เช่นเดียวกับ [b]ศาสนาพื้นเมือง[/b] ศาสนาสามารถเพิ่มประสิทธิภาพส่วนต่างๆ ของอารยธรรมของคุณได้ตาม [b]ความเชื่อ[/b] ที่คุณเลือก คุณสามารถปลดล็อคความเชื่อเพิ่มเติมได้ผ่านทางหน้าไม้ [icon:YIELD_CULTURE] ประเพณี
+    [n][b]ความเชื่อในสิ่งของศักดิ์สิทธิ์[/b] ของคุณจะกำหนดวิธีที่คุณจะได้รับเครื่องราง ซึ่งมีความสำคัญต่อเส้นทางมรดก {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME}</Text>		<!-- With a [icon:BUILDING_TEMPLE] {LOC_BUILDING_TEMPLE_NAME} complete, the {1_civAdj} people can found a [b]Religion[/b]!
+    [n]Similar to [b]Pantheons[/b], Religions can boost various parts of your Civilization based on the [b]Beliefs[/b] you choose. More Beliefs can be unlocked via the [icon:YIELD_CULTURE] Civic Tree.
+    [n]Your [b]Reliquary Belief [/b]will determine how you will earn Relics, which are critical to the {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} Legacy Path. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_BELIEF_TITLE" Language="th_TH">
+        <Text>ศาสนา: เสริมสร้างความเชื่อ</Text>		<!-- Religion: Enhancer Beliefs -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_BELIEF_BODY" Language="th_TH">
+        <Text>ตอนนี้คุณสามารถเลือกความเชื่อที่เสริมได้แล้ว! [n][b]ความเชื่อที่เสริม[/b]สามารถทำให้การเผยแพร่ศาสนาของคุณง่ายขึ้น</Text>		<!-- You can now choose an Enhancer Belief!
+    [n][b]Enhancer Beliefs [/b]can make it easier to spread your Religion. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ADVANCED_START_INTRO_TITLE" Language="th_TH">
+        <Text>เริ่มต้นขั้นสูง</Text>		<!-- Advanced Start -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ADVANCED_START_BONUS_PLACEMENT_TITLE" Language="th_TH">
+        <Text>การจัดวางถิ่นฐาน</Text>		<!-- Settlement Placement -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ADVANCED_START_BONUS_PLACEMENT_BODY" Language="th_TH">
+        <Text>คุณจะวางถิ่นฐานที่คุณเลือกแล้วตอนนี้ เลือกหนึ่งในนั้นเพื่อนำไปวาง จากนั้นเลือกช่องที่คุณต้องการวาง พยายามวางถิ่นฐานของคุณบนช่องที่มีน้ำจืด (ช่องที่ถูกเน้นสีฟ้าอมเขียว) และใกล้กับทรัพยากรที่มีค่า</Text>		<!-- You will now place the Settlements you selected. Choose one of them to place, then choose a tile to place it on. Try to place your Settlements on fresh water (teal highlighted tiles) and near valuable Resources. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ADVANCED_START_INTRO_BODY" Language="th_TH">
+        <Text>ยินดีต้อนรับสู่ยุค {1_AgeName} การเริ่มต้นขั้นสูง![n][n]คุณมีตัวเลือกมากมายสำหรับการเริ่มต้นอาณาจักรของคุณจากรายการมรดกที่มีอยู่ เมื่อคุณทำการเลือกเสร็จแล้ว คุณสามารถวางชุมชนที่มีอยู่ได้ จากนั้นเริ่มต้นการเดินทางเข้าสู่ยุค {1_AgeName} ได้เลย[n][n]</Text>		<!-- Welcome to the {1_AgeName} Age Advanced Start![n][n]You have a variety of options for your starting empire from a list of available Legacies. Once you've made your selections, you can place any Settlements you have, and then begin your journey into the {1_AgeName} Age.[n][n] -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ADVANCED_START_CARD_CHOICE_TITLE" Language="th_TH">
+        <Text>ตัวเลือกเริ่มต้น</Text>		<!-- Starting Options -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ADVANCED_START_CARD_CHOICE_BODY" Language="th_TH">
+        <Text>เลือกมรดกตามจำนวน [b]คะแนนมรดก[/b] ที่คุณมี มรดกแต่ละอย่างจะมีค่าใช้จ่ายเป็นคะแนน
+    [n][n][BLIST][LI] {1_Prompts} มรดก เพื่อเพิ่มมันในตัวเลือกของคุณ
+    [LI] {1_Prompts} มรดกในตัวเลือกของคุณเพื่อเอาออก[/LIST]
+    [n][n]หลังจากคุณทำการเลือกทั้งหมดแล้ว {2_Prompts} [b]ยืนยัน[/b]</Text>		<!-- Select Legacies based on the number of [b]Legacy Points [/b] you have. Each Legacy has a point cost.
+    [n][n][BLIST][LI]  {1_Prompts} a Legacy to add it to your selection.
+    [LI]  {1_Prompts} a Legacy in your selection to remove it.[/LIST]
+    [n][n]After you make all of your selections, {2_Prompts} [b]Confirm[/b]. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_AGE_TRANSITION_INTRO_TITLE" Language="th_TH">
+        <Text>มรดก</Text>		<!-- Legacy -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_LIGHT_HEAVY_NAVAL_TITLE" Language="th_TH">
+        <Text>เรือเบา &amp; เรือหนัก</Text>		<!-- Light &amp; Heavy Naval -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_LIGHT_HEAVY_NAVAL_BODY" Language="th_TH">
+        <Text>ในยุคสำรวจและหลังจากนั้น ยูนิตเรือสามารถเป็นเรือเบาหรือเรือหนักได้ [n]เรือเบาเคลื่อนที่เร็วแต่โจมตีได้เฉพาะเป้าหมายที่อยู่ติดกัน ส่วนเรือหนักโจมตีได้ไกลกว่าและสร้างความเสียหายมากกว่า ใช้ประเภทเรือเหล่านี้ให้เป็นประโยชน์ในมหาสมุทร</Text>		<!-- In the Exploration Age and beyond, Naval Units can be Light or Heavy. [n]Light Naval Units are fast but can only attack adjacent targets, whereas Heavy Naval Units can attack farther and do more damage. Use these ship types to your advantage on the open Ocean. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_PIRATE_TITLE" Language="th_TH">
+        <Text>การปล้นทะเล</Text>		<!-- Pirating -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_PIRATE_BODY" Language="th_TH">
+        <Text>ยูนิตบางประเภทมีความสามารถ [icon:UNIT_CAUTION] [b]โจรสลัด[/b] หรือสามารถได้รับจากความสามารถของอารยธรรมหรือผู้นำ ด้วยความสามารถนี้ ยูนิตสามารถโจมตีเรืออื่นที่ไม่ได้อยู่ในสถานะสงครามได้ ระวัง [icon:UNIT_CAUTION] [b]โจรสลัด[/b]: คุณอาจต้องต่อสู้กลับ</Text>		<!-- Some Units have the [icon:UNIT_CAUTION] [b]Pirate [/b]ability, or can gain it from a Civilization or Leader ability. With Pirating, Units can attack other Naval Units that they are not at War with. Be on the lookout for [icon:UNIT_CAUTION] [b]Pirates[/b]: you may need to fight back. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_AGE_TRANSITION_INTRO_BODY" Language="th_TH">
+        <Text>ยินดีต้อนรับสู่ยุค {1_AgeName}![n][n]ที่นี่คุณจะต้องตัดสินใจเลือก [b]มรดก[/b] ที่จะดำเนินต่อไป ตัวเลือกที่มีให้เลือกขึ้นอยู่กับ หมุดหมาย ที่คุณทำสำเร็จในยุคก่อน การทำเส้นทางมรดกให้สำเร็จสมบูรณ์จะปลดล็อก [b]มรดกยุคทอง[/b] สำหรับเส้นทางนั้น ในขณะที่การไม่รับ หมุดหมาย ใดๆ ในเส้นทางจะปลดล็อก [b]มรดกยุคมืด[/b][n][n]คุณสามารถเลือกมรดกยุคทองหรือมรดกยุคมืดได้เพียงหนึ่งเท่านั้น แต่สามารถเพิ่มมรดกอื่นๆ ได้มากเท่าที่ต้องการตราบเท่าที่คุณมีคะแนนมรดกประเภทที่ตรงกันเพียงพอ</Text>		<!-- Welcome to the {1_AgeName} Age![n][n]Here you will decide which [b]Legacies [/b] to carry forward. The options available are based on which Milestones you completed in the previous Age. Fully completing a Legacy Path unlocks the [b]Golden Age Legacy [/b]for that Path, while not gaining any Milestones in a Path will unlock its [b]Dark Age Legacy.[/b][n][n]You can only choose one Golden Age or Dark Age Legacy, but any number of other Legacies can be added as long as you have enough Legacy Points of the matching type. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_AGE_TRANSITION_CARD_CHOICE_TITLE" Language="th_TH">
+        <Text>ตัวเลือกดั้งเดิม</Text>		<!-- Legacy Choices -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_AGE_TRANSITION_CARD_CHOICE_BODY" Language="th_TH">
+        <Text>เลือกมรดกตามจำนวนและประเภทของ [b]คะแนนมรดก[/b] ที่คุณมี มรดกแต่ละอันมีค่าใช้จ่ายเป็นคะแนน[n][n]คะแนนไวลด์การ์ดสามารถใช้กับมรดกใดก็ได้ [n][n][BLIST][LI]{1_Prompts} มรดกเพื่อเพิ่มในตัวเลือกของคุณ [LI]{1_Prompts} มรดกในตัวเลือกของคุณเพื่อลบออก[/LIST] [n][n]หลังจากที่คุณเลือกทั้งหมดแล้ว {2_Prompts} [b]ยืนยัน[/b]</Text>		<!-- Select Legacies based on the number and type of [b]Legacy Points [/b]you have. Each Legacy has a point cost.[n][n]Wildcard points can be spent on any Legacy.
+    [n][n][BLIST][LI]  {1_Prompts} a Legacy to add it to your selection.
+    [LI]{1_Prompts} a Legacy in your selection to remove it.[/LIST]
+    [n][n]After you make all of your selections, {2_Prompts} [b]Confirm[/b]. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ADVANCED_TRANSITION_START_KBM" Language="th_TH">
+        <Text>คลิก</Text>		<!-- Click -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ADVANCED_TRANSITION_START_GAMEPAD" Language="th_TH">
+        <Text>กด [action:{1_Icon}] บน</Text>		<!-- Press [action:{1_Icon}] on -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ADVANCED_TRANSITION_START_GAMEPAD_ALT" Language="th_TH">
+        <Text>กด [action:{1_Icon}] เพื่อ</Text>		<!-- Press [action:{1_Icon}] to -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_GREATPERSON_AVAILABLE_TITLE" Language="th_TH">
+        <Text>คนที่ยอดเยี่ยม</Text>		<!-- Great People -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_GREATPERSON_AVAILABLE_BODY" Language="th_TH">
+        <Text>อารยธรรมของคุณสามารถผลิตยูนิตบุคคลสำคัญได้แล้ว แต่ละบุคคลสำคัญมีผลลัพธ์พิเศษ ซึ่งสามารถเปิดใช้ในสถานที่เฉพาะ</Text>		<!-- Your Civilization can now produce Great Person Units. Each Great Person has a unique effect, which can be activated in specific locations. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_QUEST_SELECTION_TITLE" Language="th_TH">
+        <Text>สร้างมรดกของคุณ</Text>		<!-- Building Your Legacy -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_QUEST_SELECTION_BODY" Language="th_TH">
+        <Text>อารยธรรมถูกจดจำจากผลงานและเส้นทางที่พวกเขาเดินผ่านประวัติศาสตร์ บางกลุ่มกระจายความสำเร็จของตนไปทั่ว ในขณะที่บางกลุ่มทุ่มเทเพื่อเป้าหมายเดียวที่แน่นอน [n] ที่ปรึกษาของคุณพร้อมที่จะให้บริการเพื่อแนะนำคุณในเส้นทางที่คุณเลือก เช่นเดียวกับผู้นำที่ยิ่งใหญ่ คุณอาจเปลี่ยนใจได้ทุกเมื่อ [n] ขณะนี้ โปรดเลือกตำแหน่งที่จะมุ่งเน้นความพยายามของประชาชน {1_civAdj}</Text>		<!-- Civilizations are remembered for their accomplishments and the paths they take through history. Some spread their accomplishments across a wide range, while others are devoted to a single cause.[n]Your Advisors are at your service to guide you on the path of your choice. Like any great leader, you may change your mind at any time.[n]Now, choose where to focus the efforts of the {1_civAdj} people. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_QUEST_BUTTON_ECONOMIC" Language="th_TH">
+        <Text>เศรษฐกิจ</Text>		<!-- Economic -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_QUEST_BUTTON_MILITARY" Language="th_TH">
+        <Text>ทหาร</Text>		<!-- Military -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_QUEST_BUTTON_CULTURE" Language="th_TH">
+        <Text>วัฒนธรรม</Text>		<!-- Culture -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_QUEST_BUTTON_SCIENCE" Language="th_TH">
+        <Text>วิทยาศาสตร์</Text>		<!-- Science -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_QUEST_PATH_ADVISOR" Language="th_TH">
+        <Text>{1_legacyPathAdvisor}</Text>		<!-- {1_LegacyPathAdvisor} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_QUEST_QUOTE_ECONOMIC" Language="th_TH">
+        <Text>ดินแดนโพ้นขอบฟ้า ส่องแสงแห่งความเป็นไปได้ อันไม่มีที่สิ้นสุด และความรุ่งเรือง</Text>		<!-- The lands beyond the horizon gleam with endless possibility — and prosperity. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_QUEST_QUOTE_MILITARY" Language="th_TH">
+        <Text>กองทัพของเราเป็นดัง เกราะคุ้มกันที่ทำให้ จักรวรรดิรุ่งเรือง</Text>		<!-- Our army is the aegis behind which empire thrives. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_QUEST_QUOTE_CULTURE" Language="th_TH">
+        <Text>โลกถูกล้อมกรอบด้วย เส้นขอบฟ้า แต่จินตนาการหาได้ เป็นเช่นนั้นไม่</Text>		<!-- The world is bounded by its horizon; the imagination is not. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_QUEST_QUOTE_SCIENCE" Language="th_TH">
+        <Text>ความก้าวหน้าไม่ได้มาจาก อัจฉริยภาพส่วนบุคคล แต่มาจากชุมชนของผู้คิด</Text>		<!-- Progress does not come from individual genius, but from a community of thinkers. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_VICTORIES_EXPLORATION_TITLE" Language="th_TH">
+        <Text>ชัยชนะในยุคสำรวจ</Text>		<!-- Victories in the Exploration Age -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_VICTORIES_EXPLORATION_BODY" Language="th_TH">
+        <Text>{1_UnlockCondition} เชิญตรวจสอบความก้าวหน้าของคุณได้เลย, ข้อมูลเพิ่มเติมจะถูกนำเสนอเมื่อมีชัยชนะให้ดู</Text>		<!-- {1_UnlockCondition} Feel free to review your progress now; more information will be provided when Victories are available! -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_VICTORIES_EXPLORATION_BODY_NORMAL_UNLOCK" Language="th_TH">
+        <Text>ชัยชนะยังไม่พร้อมใช้งานในตอนนี้ แต่จะพร้อมใช้งานเมื่อความก้าวหน้าของยุคถึง 50%</Text>		<!-- Victories are not available now, but will be available when Age Progress reaches 50%. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_VICTORIES_EXPLORATION_BODY_ADVANCED_START" Language="th_TH">
+        <Text>ชัยชนะจะพร้อมใช้งานในยุคใหม่</Text>		<!-- Victories will be available in the Modern Age. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_VICTORY_SCREEN_CALLOUT_TITLE" Language="th_TH">
+        <Text>ชัยชนะรอให้คุณคว้า!</Text>		<!-- Victories are Available! -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_VICTORY_SCREEN_CALLOUT_BODY" Language="th_TH">
+        <Text>ชัยชนะพร้อมให้ผู้เล่นทุกคนบรรลุได้แล้ว! ถึงแม้ในยุคสำรวจจะเป็นไปได้ยากมาก แต่ตอนนี้เป็นเวลาที่ดีในการเรียนรู้วิธีชนะอย่างแน่ชัด</Text>		<!-- Victories are now available for all Players to achieve! While highly unlikely in the Exploration Age, now is a good time to learn exactly how to win. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_VICTORIES_AVAILABLE_TITLE" Language="th_TH">
+        <Text>การบรรลุชัยชนะ</Text>		<!-- Achieving Victory -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_VICTORIES_AVAILABLE_BODY" Language="th_TH">
+        <Text>เพื่อชนะเกม Civilization VII คุณจะต้องโดดเด่นในหนึ่งในสี่หมวดหมู่: ทหาร, วัฒนธรรม, วิทยาศาสตร์ หรือ เศรษฐกิจ
+    [n]ผู้เล่นคนหนึ่งถูกพิจารณาว่ามีความโดดเด่นหากคะแนนของเขาในหมวดหมู่หนึ่งสูงกว่าผู้เล่นที่ได้อันดับสองหลายเท่าตัว
+    ตัวคูณที่จำเป็นในการชนะจะลดลงตามเวลา ดังนั้นชัยชนะจะต้องมีความโดดเด่นน้อยลงเมื่อเกมดำเนินไป
+    เมื่อผู้เล่นคนใดถึงคะแนนเป้าหมาย พวกเขาจะต้องรักษาความโดดเด่นไว้เป็นจำนวนรอบ
+    [n]ชัยชนะด้านวิทยาศาสตร์แตกต่างออกไปเพราะคุณต้องสะสมนวัตกรรมให้ครบ 100 หน่วย โดยไม่คำนึงถึงผลการเล่นของผู้เล่นคนอื่น
+    มันจะมีให้ใช้งานเฉพาะในยุคใหม่ เนื่องจากคุณต้องมีแท่นปล่อยเพื่อเริ่มนับถอยหลังสู่ชัยชนะ
+    [n]ติดตามชัยชนะใดก็ได้ที่คุณต้องการ หรือจะทดลองต่อไป! ที่ปรึกษาของคุณอาจมีไอเดียว่าควรทำอะไร</Text>		<!-- To win a game of Civilization VII, you will need to become dominant in one of four categories: Military, Culture, Science, or Economy.
+    [n]A Player is considered dominant if their score in a category is multiple times higher the second place Player. The multiplier required to win reduces over time, so Victories will require less dominance as the game progresses. Once any Player has reached the target score, they will have to maintain dominance for a number of turns.
+    [n]The Science Victory is different as it requires you to collect 100 Innovation, regardless of other Players' performance. It will only be available in the Modern Age, as you must have a Launch Pad to begin the Victory countdown.
+    [n]Pursue any Victory you like, or continue to experiment! Your Advisors may also have ideas on what to do. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_QUEST_CONFIRM_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {1_LegacyPathAdvisor}</Text>		<!-- Legacy Path: {1_LegacyPathAdvisor} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_QUEST_ALREADY_FOLLOWING" Language="th_TH">
+        <Text>ติดตามแล้ว</Text>		<!-- Already Following -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_QUEST_CONFIRM_BODY" Language="th_TH">
+        <Text>{1_PathDescription}[n]{2_LegacyPathAdvisor}ของคุณ[b] [/b]อยู่ที่นี่เพื่อชี้แนะคุณใน เส้นทางนี้ ถ้าคุณต้องการ[n]โปรดทราบว่าคุณสามารถเปลี่ยน เส้นทาง ได้ตลอดเวลา</Text>		<!-- {1_PathDescription}[n]Your [b]{2_LegacyPathAdvisor} [/b]is here to guide you in this path if you wish.[n]Note that you can change paths at any time. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_LEGACY_PATH_ECONOMIC_DESCRIPTION" Language="th_TH">
+        <Text>สำรวจดินแดนใหม่และนำ เรือบรรทุกสมบัติล้ำค่า กลับบ้าน!</Text>		<!-- Explore new lands and bring home valuable Treasure Fleets! -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_LEGACY_PATH_MILITARY_DESCRIPTION" Language="th_TH">
+        <Text>แล่นเรือไปยังดินแดนใหม่ และขยายอาณาจักรของคุณ!</Text>		<!-- Sail to new lands and expand your empire's reach! -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_LEGACY_PATH_CULTURE_DESCRIPTION" Language="th_TH">
+        <Text>พบศาสนาใหม่ และสร้างศาสนวัตถุพิเศษ!</Text>		<!-- Found a new faith and create special Relics! -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_LEGACY_PATH_SCIENCE_DESCRIPTION" Language="th_TH">
+        <Text>ออกแบบใจกลางเมืองให้รุ่งเรือง!</Text>		<!-- Design prosperous urban centers! -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_1_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} I</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} I -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_1_ADVISOR_BODY" Language="th_TH">
+        <Text>หากเราจะกลายเป็นประชาชนที่รู้แจ้ง เราต้องเผชิญกับความลึกลับในยุคใหม่นี้ด้วยความเคร่งครัด ความหลงใหล และเหนือสิ่งอื่นใดคือการร่วมมือกัน นำผู้มีความคิดยอดเยี่ยมของเรามาสู่เมืองต่าง ๆ ที่พวกเขาสามารถแบ่งปันความรู้และความเชี่ยวชาญของตนได้</Text>		<!-- If we are to become an enlightened people, we must grapple with the mysteries of this new age with rigor, passion, and above all, collaboration. Bring our finest minds to the cities, where they may share in their wisdom and expertise. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_1_BODY" Language="th_TH">
+        <Text>[b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} [/b][BLIST][LI]การวิจัยการศึกษาเพื่อเพิ่มจำนวนผู้เชี่ยวชาญที่คุณสามารถวางในสถานที่เดียวได้[LI]วางผู้เชี่ยวชาญ {1_Number} คนในเขตเมือง ที่ไม่ใช่ใจกลางเมือง[/BLIST]</Text>		<!-- The [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} [/b][BLIST][LI]Research Education to increase the number of Specialists you can place in a single location.[LI]Place {1_Number} Specialists in Urban Districts outside of city centers.[/BLIST] -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_1_TRACKING_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} I</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} I -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_1_TRACKING_BODY" Language="th_TH">
+        <Text>งานวิจัย: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_EDUCATION_NAME} {1_Icon}
+    [n]สถานที่: [icon:MOD_EX_SPECIALIST_CAP_INCREASE] ผู้เชี่ยวชาญ {2_Number}/{3_Number} {4_Icon}</Text>		<!-- Research: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_EDUCATION_NAME} {1_Icon}
+    [n]Place: [icon:MOD_EX_SPECIALIST_CAP_INCREASE] Specialists {2_Number}/{3_Number} {4_Icon} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_2_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} II</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} II -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_2_ADVISOR_BODY" Language="th_TH">
+        <Text>เมืองของเราเต็มไปด้วยบทสนทนา การโต้วาที และความเป็นมิตร และเราร่ำรวยด้วยความรู้ แต่ยังคงมีที่ว่างเพิ่มเติมสำหรับความรู้เสมอ</Text>		<!-- Our cities are abuzz with conversation, debate, and fellowship, and we are wealthy with knowledge. But there is always room for more. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_2_BODY" Language="th_TH">
+        <Text>เป้าหมายถัดไป: วาง ผู้เชี่ยวชาญ เมื่อประชากรของคุณเติบโตขึ้น [BLIST][LI] ได้ผลผลิตรวมทั้งหมด {1_NumYield} ในช่อง ที่ไม่ใช่ ใจกลางเมือง [LI] มีผู้เชี่ยวชาญ {2_NumSpecialists} ในช่องที่ไม่ใช่ใจกลางเมือง[/BLIST]</Text>		<!-- Next Objective: Continue placing Specialists when your population grows.[BLIST][LI]Achieve a total yield of {1_NumYield} or more in a non-city center tile.[LI]Have {2_NumSpecialists} or more Specialists in a non-city center tile.[/BLIST] -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_2_TRACKING_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} II</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} II -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_2_TRACKING_BODY" Language="th_TH">
+        <Text>ยอดรวมผลผลิต จากช่องที่ไม่ใช่ ใจกลางเมือง {1_NumYield}/{2_TargetYield} {3_Icon}
+    [n]มี {4_NumSpecialists} ผู้เชี่ยวชาญ จากช่องที่ไม่ใช่ ใจกลางเมือง {5_Icon}</Text>		<!-- Single non-city-center tile yield {1_NumYield}/{2_TargetYield} {3_Icon}
+    [n]{4_NumSpecialists} Specialists in non-city center tile {5_Icon} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_3_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} III</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} III -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_3_ADVISOR_BODY" Language="th_TH">
+        <Text>ไม่เคยมีครั้งไหนที่ผู้มีความคิดอันยอดเยี่ยมจำนวนมาก มาอยู่ในที่เดียวกันและหายใจอากาศเดียวกัน สิ่งที่พวกเขาสร้างสรรค์จะเป็นแรงบันดาลใจให้กับคนอื่นๆ อีกจำนวนมาก</Text>		<!-- Never have so many great minds shared the same space and breathed the same air. What they create will be an inspiration to countless others. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_3_BODY" Language="th_TH">
+        <Text>เป้าหมายถัดไป: ได้ผลผลิตรวมทั้งหมด {1_Amount} ในช่องที่ไม่ใช่ใจกลางเมือง</Text>		<!-- Next Objective: Achieve a total yield of {1_Amount} or more in a single non-city center tile. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_3_TRACKING_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} III</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} III -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_3_TRACKING_BODY" Language="th_TH">
+        <Text>ได้ผลผลิตรวมทั้งหมดในช่องเดียว: {1_YieldCurrent}/{2_YieldGoal}</Text>		<!-- Achieve single tile yield: {1_YieldCurrent}/{2_YieldGoal} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_4_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} IV</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} IV -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_4_ADVISOR_BODY" Language="th_TH">
+        <Text>ความกระตือรือร้นอย่างยิ่งสำหรับการสืบค้น และความคิดสร้างสรรค์ในเมืองของเราเป็นสิ่งที่น่ายินดีที่จะได้เห็น แน่นอนว่ามันเป็นการแพร่ระบาดที่น่ายินดีถ้าถูกจัดการอย่างดีใช่หรือไม่?</Text>		<!-- The great enthusiasm for inquiry and creativity in our cities is a delight to behold. Surely it is a welcome contagion, if administered well? -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_4_BODY" Language="th_TH">
+        <Text>เป้าหมายต่อไป: ได้ผลผลิตรวม {1_Amount} ในช่อง ที่ไม่ใช่ใจกลางเมือง เป็นจำนวน {2_Amount} ช่อง หรือมากกว่านั้น</Text>		<!-- Next Objective: Achieve a yield of {1_Amount} in {2_Amount} or more non-city center tiles. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_4_TRACKING_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} IV</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} IV -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_4_TRACKING_BODY" Language="th_TH">
+        <Text>ได้ผลผลิต {1_Amount} ใน {2_YieldCurrent}/{3_YieldGoal} ช่องที่ไม่ใช่ใจกลางเมือง</Text>		<!-- Achieve a yield of {1_Amount} in {2_YieldCurrent}/{3_YieldGoal} non-city-center tiles. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_5_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} วี</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} V -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_5_ADVISOR_BODY" Language="th_TH">
+        <Text>ถนนในเมืองของอารยธรรมของเรา เต็มไปด้วยเสียงอึกทึกจากความฝันนับพัน ฉันเพียงหวังว่าจะมีอีกพันหนึ่ง</Text>		<!-- The city streets of our civilization are alive with the clamor of a thousand dreams. I only wish for a thousand more. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_5_BODY" Language="th_TH">
+        <Text>เป้าหมายต่อไป: ได้ผลผลิตรวม {1_Amount} ใน {2_Amount} ในช่องที่ไม่ใช่ใจกลางเมือง</Text>		<!-- Next Objective: Achieve a yield of {1_Amount} in {2_Amount} or more non-city center tiles. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_5_TRACKING_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} V</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} V -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_5_TRACKING_BODY" Language="th_TH">
+        <Text>ได้ผลผลิตรวม {1_Amount} ใน {2_YieldCurrent}/{3_YieldGoal} ในช่องที่ไม่ใช่ใจกลางเมือง</Text>		<!-- Achieve a yield of {1_Amount} in {2_YieldCurrent}/{3_YieldGoal} non-city-center tiles. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_LINE_COMPLETED_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME}</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_LINE_COMPLETED_ADVISOR_BODY" Language="th_TH">
+        <Text>ทุกที่ที่ฉันไปในอารยธรรมของเรา ฉันได้รับการต้อนรับด้วยความกระตือรือร้นอย่างไม่มีใครเทียบในเรื่องการค้นพบ ซึ่งเป็นการแสดงออกอย่างงดงามและลึกซึ้งถึงศักยภาพของจิตใจในการจินตนาการ</Text>		<!-- Everywhere I go in our civilization, I am greeted with an unrivaled fervor for discovery. A beautiful and profound expression of the mind's capacity to imagine. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_SCIENCE_QUEST_LINE_COMPLETED_BODY" Language="th_TH">
+        <Text>ขอแสดงความยินดี! คุณได้บรรลุ หมุดหมาย ทั้งหมดของ {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} และสำเร็จ [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} [/b][icon:YIELD_SCIENCE] เส้นทางมรดกวิทยาศาสตร์สำหรับยุคสำรวจ!
+    
+    [n]คุณสามารถเยี่ยมชม [b]หน้าจอเส้นทางมรดก [/b]เพื่อดูเส้นทางมรดกเพิ่มเติมที่คุณสามารถติดตามได้ หรือคุณสามารถสร้างเส้นทางของคุณเอง</Text>		<!-- Congratulations! You've completed all {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} Milestones, and completed the [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_EXPLORATION_SCIENCE_NAME} [/b][icon:YIELD_SCIENCE] Science Legacy Path for the Exploration Age!
+    [n]You can visit the [b]Legacy Path Screen [/b]to see more Legacy Paths you can follow, or you can forge your own path. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_1_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} I</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} I -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_1_ADVISOR_BODY" Language="th_TH">
+        <Text>{1_Quest1AdvisorBodyPathInjection}</Text>		<!-- {1_Quest1AdvisorBodyPathInjection} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_1_ADVISOR_BODY_GENERIC_PATH" Language="th_TH">
+        <Text>ดินแดนใหม่รออยู่อีกฟากของ มหาสมุทร เปี่ยมไปด้วยความมั่งคั่งและอำนาจ สำหรับผู้ที่พร้อมจะคว้ามันไว้ แต่ก็มีภัยคุกคามที่แฝงอยู่ในที่ที่เราไม่รู้จัก ซึ่งเตรียมการเพื่อทำลายเรา เราจะต้องลงมือก่อน เพื่อปกป้องอนาคตของประชาชนของเรา ถึงเวลาออกเรือแล้ว!</Text>		<!-- New lands await across the ocean, ripe with wealth and power for those who would seize it. Yet threats also lurk in the unknown, preparing for our demise. We must make the first move to safeguard our people's future. It is time to set sail! -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_1_ADVISOR_BODY_MONGOLIA_PATH" Language="th_TH">
+        <Text>โลกกำลังขยายกว้างขึ้น แต่ยังมีอันตรายเก่าและใหม่ซ่อนตัวอยู่เกินขอบเขตของเรา บ้านเกิดของเราเป็นสิ่งสำคัญที่สุดต่อความสำเร็จของเรา และเราต้องปกป้องมันไม่ว่าจะด้วยวิธีใดก็ตาม โดยการแสดงความแข็งแกร่งออกมา ที่อยู่อาศัยใดที่เราควรพิชิตก่อน?</Text>		<!-- The world expands, yet dangers old and new lurk beyond our borders. Our homeland is paramount to our success, and we must protect it at all costs – through a show of strength. Which settlement shall we conquer first? -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_1_BODY" Language="th_TH">
+        <Text>{1_Quest1BodyPathInjection}</Text>		<!-- {1_Quest1BodyPathInjection} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_1_BODY_GENERIC_PATH" Language="th_TH">
+        <Text>เป้าหมายถัดไป: วิจัย [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_CARTOGRAPHY_NAME}[/b] และ [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_ASTRONOMY_NAME}[/b] เทคโนโลยี เพื่อเป็นก้าวแรกในการสร้าง [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME}[/b] [icon:NOTIFICATION_DECLARE_WAR] เส้นทางมรดกทางทหารในยุคสำรวจ
+    
+    [n][b]{LOC_TECH_CARTOGRAPHY_NAME}[/b] จะช่วยให้ยูนิตของคุณสามารถผ่าน [b]มหาสมุทรลึก[/b] ที่อันตรายได้ และ [b]{LOC_TECH_ASTRONOMY_NAME}[/b] จะปลดล็อก {1_CommanderIcon} {2_CommanderName} ที่มีพลังในการจัดการ [b]ยูนิตทางเรือ[/b] ของคุณ
+    
+    [n][n]จำไว้ว่า: [icon:NOTIFICATION_TEAM_VICTORIOUS] [b]เส้นมรดก[/b] ช่วยพัฒนาประสิทธิภาพของคุณในยุคถัดไป แต่ [b]คุณสามารถเลือกที่จะสืบสานหนึ่งทาง, หลายทาง, หรือไม่เลือกเลยก็ได้[/b]</Text>		<!-- Objective: Research the [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_CARTOGRAPHY_NAME} [/b]and [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_ASTRONOMY_NAME} [/b]Technologies, the first step towards establishing a [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] Military Legacy of the Exploration Age.
+    [n][b]{LOC_TECH_CARTOGRAPHY_NAME} [/b]will allow your Units to traverse dangerous [b]Deep Ocean[/b], and [b]{LOC_TECH_ASTRONOMY_NAME} [/b]will unlock the powerful {1_CommanderIcon} {2_CommanderName}, which can organize your [b]Naval Units[/b].
+    [n][n]Remember: [icon:NOTIFICATION_TEAM_VICTORIOUS] [b]Legacies [/b]improve your performance in later Ages, but [b]you can choose to pursue one, multiple, or none at all[/b]. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_1_BODY_MONGOLIA_PATH" Language="th_TH">
+        <Text>{LOC_CIVILIZATION_MONGOLIA_NAME} มอบวิธีพิเศษให้คุณในการสร้าง [icon:NOTIFICATION_DECLARE_WAR] มรดกทางทหารในยุคการสำรวจ ในขณะที่อารยธรรมอื่นต้องข้าม [b]มหาสมุทรลึก[/b] คุณจะได้รับคะแนนจาก [b]การยึดถิ่นฐานในบ้านเกิดของคุณ[/b]
+    [n]เป้าหมายถัดไป: ใช้ {1_CommanderIcon} {2_CommanderName}, ผู้บัญชาการพิเศษของมองโกเลีย ในการ [b]ยึดถิ่นฐาน[/b]
+    [n][n]จำไว้ว่า: [icon:NOTIFICATION_TEAM_VICTORIOUS] [b]เส้นมรดก[/b] จะช่วยพัฒนาประสิทธิภาพของคุณในยุคถัดไป แต่ [b]คุณสามารถเลือกที่จะไล่ตามทั้งหนึ่ง หลาย หรือไม่ไล่ตามเลย[/b]</Text>		<!-- {LOC_CIVILIZATION_MONGOLIA_NAME} offers you a unique way to establish a [icon:NOTIFICATION_DECLARE_WAR] Military Legacy in the Exploration Age. While other Civilization must traverse the [b]Deep Ocean[/b], you will receive points for [b]capturing Settlements in your Homeland[/b].
+    [n]Objective: Use the {1_CommanderIcon} {2_CommanderName}, the Mongolian Unique Commander, to [b]capture a Settlement[/b].
+    [n][n]Remember: [icon:NOTIFICATION_TEAM_VICTORIOUS] [b]Legacies [/b]improve your performance in later Ages, but [b]you can choose to pursue one, multiple, or none at all[/b]. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_1_TRACKING_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} I</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} I -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_1_TRACKING_BODY" Language="th_TH">
+        <Text>{1_Quest1TrackingPathInjection}</Text>		<!-- {1_Quest1TrackingPathInjection} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_1_TRACKING_BODY_GENERIC_PATH" Language="th_TH">
+        <Text>การวิจัย: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_CARTOGRAPHY_NAME} {1_itemComplete}
+    การวิจัย: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_ASTRONOMY_NAME} {2_itemComplete}</Text>		<!-- Research: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_CARTOGRAPHY_NAME} {1_itemComplete}
+    [n]Research: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_ASTRONOMY_NAME} {2_itemComplete} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_1_TRACKING_BODY_MONGOLIA_PATH" Language="th_TH">
+        <Text>ยึดครองถิ่นฐาน: {1_SettlementCaptured}/{2_SettlementNeeded}</Text>		<!-- Capture any Settlement: {1_SettlementCaptured}/{2_SettlementNeeded} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_2_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} II</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} II -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_2_ADVISOR_BODY" Language="th_TH">
+        <Text>{1_Quest2AdvisorBodyPathInjection}</Text>		<!-- {1_Quest2AdvisorBodyPathInjection} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_2_ADVISOR_BODY_GENERIC_PATH" Language="th_TH">
+        <Text>นักเดินเรือของเราตอนนี้ฉลาดในกลยุทธ์ของมหาสมุทร พวกเขารอคำสั่งของคุณเพื่อชี้นำประชาชนของเราไปยังดินแดนห่างไกล เราต้องยึดที่มั่นข้ามทะเล ถิ่นฐานที่จะเป็นฐานปฏิบัติการของเรา</Text>		<!-- Our navigators are now wise to the ocean's tricks. They await your orders to guide our people to Distant Lands. We must secure a foothold across the seas, a settlement that will be our base of operations. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_2_ADVISOR_BODY_MONGOLIA_PATH" Language="th_TH">
+        <Text>ถิ่นฐานของเรา ได้ตกไปอยู่ในมือกองกำลังของเราแล้ว การต่อสู้ที่กล้าหาญและต่อสู้อย่างดี! ทหารของเราไม่เกรงกลัวและรอคำสั่งต่อไปของคุณอย่างกระตือรือร้น พวกเขาจะนำดาบแห่งชัยชนะไปที่ไหนต่อ?</Text>		<!-- The settlement has fallen to our forces. A bold battle, and well-fought! Our noyans are fearless and eagerly await your next command. Where will they bring their conquering blades next? -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_2_BODY" Language="th_TH">
+        <Text>{1_Quest2BodyPathInjection}</Text>		<!-- {1_Quest2BodyPathInjection} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_2_BODY_GENERIC_PATH" Language="th_TH">
+        <Text>[b]ดินแดนห่างไกล[/b] คือดินแดนใดๆ ที่เข้าถึงไม่ได้ในยุคโบราณ มักถูกปิดกั้นโดย [b]มหาสมุทรลึก[/b] การเดินทางข้าม มหาสมุทร อาจเป็นอันตราย แต่มีการค้นพบ [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]ทรัพยากร[/b] ใหม่ๆ และ พื้นที่ใหม่สำหรับ [b]การตั้งถิ่นฐาน[/b] และ [b]ผู้คน[/b] ที่อยู่นอกขอบฟ้า
+    
+    [n]เป้าหมายต่อไป: จัดตั้ง ถิ่นฐาน ใน [b]ดินแดนห่างไกล[/b]</Text>		<!-- [b]Distant Lands [/b]are any lands inaccessible in Antiquity, typically by [b]Deep Ocean[/b]. It can be dangerous to traverse the oceans, but there are new [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]Resources[/b], space to [b]settle[/b], and [b]people [/b]beyond the horizon.
+    [n]Next Objective: Establish a Settlement in [b]Distant Lands[/b]. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_2_BODY_MONGOLIA_PATH" Language="th_TH">
+        <Text>ในฐานะ {LOC_CIVILIZATION_MONGOLIA_NAME}, [b]ทุก [/b]การยึดครองถิ่นฐานจะได้คะแนน {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} หากบ้านเกิดของคุณขาดถิ่นฐาน สามารถทำตามคำแนะนำของ [icon:YIELD_GOLD] [b]ที่ปรึกษาทางเศรษฐกิจ [/b]เพื่อไปถึง[b]ดินแดนห่างไกล[/b]
+    [n][b]ดินแดนห่างไกล [/b]คือดินแดนที่ไม่สามารถเข้าถึงได้ในยุคโบราณ โดยทั่วไปผ่าน [b]มหาสมุทรลึก[/b] อาจเป็นอันตรายอย่างยิ่งในการข้ามมหาสมุทร
+    [n]เป้าหมายต่อไป: ยึดครอง [b]ถิ่นฐานอื่น[/b]</Text>		<!-- As {LOC_CIVILIZATION_MONGOLIA_NAME}, [b]any [/b]Settlement captured scores {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points. If your Homeland is lacking in Settlements, you can follow your [icon:YIELD_GOLD] [b]Economic Advisor's [/b]advice to reach [b]Distant Lands[/b].
+    [n][b]Distant Lands [/b]are any lands inaccessible in Antiquity, typically by [b]Deep Ocean[/b]. It can be especially dangerous to traverse the oceans.
+    [n]Next Objective: Capture [b]another Settlement[/b]. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_2_TRACKING_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} II</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} II -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_2_TRACKING_BODY" Language="th_TH">
+        <Text>{1_Quest2TrackingPathInjection}</Text>		<!-- {1_Quest2TrackingPathInjection} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_2_TRACKING_BODY_GENERIC_PATH" Language="th_TH">
+        <Text>สร้างถิ่นฐานใน ดินแดนห่างไกล {1_CompletionIcon}</Text>		<!-- Create a Settlement in Distant Lands {1_CompletionIcon} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_2_TRACKING_BODY_MONGOLIA_PATH" Language="th_TH">
+        <Text>ยึดถิ่นฐาน: {1_SettlementCaptured}/{2_SettlementNeeded}</Text>		<!-- Capture Settlements: {1_SettlementCaptured}/{2_SettlementNeeded} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_3_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} III</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} III -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_3_ADVISOR_BODY" Language="th_TH">
+        <Text>{1_Quest3AdvisorBodyPathInjection}</Text>		<!-- {1_Quest3AdvisorBodyPathInjection} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_3_ADVISOR_BODY_GENERIC_PATH" Language="th_TH">
+        <Text>ถิ่นฐานใหม่ของเราเจริญรุ่งเรืองเต็มไปด้วยความตื่นเต้นและความทะเยอทะยาน แต่เมืองเดียวจะไม่คงอยู่ได้นานท่ามกลางพายุแห่งประวัติศาสตร์ เราควรเริ่มขยายตัวทันที</Text>		<!-- Our new settlement thrives, bustling with excitement and ambition. But a single town will not last long in the storm of history. We should begin expansion immediately. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_3_ADVISOR_BODY_MONGOLIA_PATH" Language="th_TH">
+        <Text>ตอนนี้เราได้ยึดสองตั้งถิ่นฐานไว้แล้ว เป็นการแสดงออกอย่างชัดเจนถึงความแข็งแกร่งและความดุดันของเรา โลกจะต้องคิดให้ดีก่อนที่จะเข้ามายุ่งกับคนของเรา ทุกคนต่างหวาดกลัวกองทัพ{1_civAdj} และสิ่งนั้นก็สมเหตุสมผล เรากำลังจะไปหาเขาแล้ว</Text>		<!-- Now we have seized two settlements, a clear demonstration of our strength and ferocity. The world will think twice about tangling with our people. All fear the {1_civAdj} army – and rightly so. We are coming for them. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_3_BODY" Language="th_TH">
+        <Text>{1_Quest3BodyPathInjection}</Text>		<!-- {1_Quest3BodyPathInjection} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_3_BODY_GENERIC_PATH" Language="th_TH">
+        <Text>เป้าหมายถัดไป: สะสมแต้ม {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} จำนวน {1_PointsTarget} คะแนน โดยการ ตั้งถิ่นฐาน และยึดครองใน ดินแดนห่างไกล ซึ่งเป็น หมุดหมาย แรกในเส้นทางมรดก {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME}
+    [n]ตั้งถิ่นฐานใหม่จะได้รับ 1 คะแนน
+    [n]ยึดครองถิ่นฐานจะได้รับ 2 คะแนน</Text>		<!-- [n]Next Objective: [b]Earn {1_PointsTarget} {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points [/b]by settling &amp; capturing in [b]Distant Lands[/b], the first Milestone along the [b]{LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Legacy Path[/b].
+    [n]Founded Settlements grant 1 Point.
+    [n]Captured Settlements grant 2 Points. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_3_BODY_MONGOLIA_PATH" Language="th_TH">
+        <Text>เป้าหมายถัดไป: [b]สะสมแต้ม {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} จำนวน {1_PointsTarget} คะแนน [/b]โดยการยึด [b]ถิ่นฐานต่างๆ[/b], ซึ่งเป็น หมุดหมาย แรกตามเส้นทางมรดกของ [b]{LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME}[/b] [n]หากภูมิลำเนาของคุณขาดแคลนถิ่นฐาน คุณสามารถทำตามคำแนะนำของ [icon:YIELD_GOLD] [b]ที่ปรึกษาด้านเศรษฐกิจ[/b] เพื่อไปถึง [b]ดินแดนห่างไกล[/b]</Text>		<!-- Next Objective: [b]Earn {1_PointsTarget} {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points [/b]by capturing [b]Settlements[/b], the first Milestone along the [b]{LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Legacy Path[/b].
+    [n]If your Homeland is lacking in Settlements, you can follow your [icon:YIELD_GOLD] [b]Economic Advisor's [/b]advice to reach [b]Distant Lands[/b]. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_3_TRACKING_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} III</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} III -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_3_TRACKING_BODY" Language="th_TH">
+        <Text>{1_Quest3TrackingPathInjection}</Text>		<!-- {1_Quest3TrackingPathInjection} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_3_TRACKING_BODY_GENERIC_PATH" Language="th_TH">
+        <Text>ได้ {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} โดยการ ตั้งถิ่นฐาน และ ยึดครอง ในดินแดนห่างไกล {1_PointsCurrent}/{2_PointsTarget}</Text>		<!-- Earn {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points by settling &amp; capturing in Distant Lands {1_PointsCurrent}/{2_PointsTarget} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_3_TRACKING_BODY_MONGOLIA_PATH" Language="th_TH">
+        <Text>ได้ {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} โดยการ ยึดถิ่นฐาน {1_PointsCurrent}/{2_PointsTarget}</Text>		<!-- Earn {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points by Capturing Settlements {1_PointsCurrent}/{2_PointsTarget} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_4_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} IV</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} IV -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_4_ADVISOR_BODY" Language="th_TH">
+        <Text>{1_Quest4AdvisorBodyPathInjection}</Text>		<!-- {1_Quest4AdvisorBodyPathInjection} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_4_ADVISOR_BODY_GENERIC_PATH" Language="th_TH">
+        <Text>เมื่อถิ่นฐานเติบโตขึ้น ความปลอดภัยและความเจริญรุ่งเรือง ของประชาชนก็เติบโตตามไปด้วย การแสดงพลังของเราทำให้พวกเขามีความมั่นใจ และอาณาจักรอื่นๆ ก็รับฟังเมื่อพวกเขาพูด เราต้องดำเนินการปกป้องพวกเขาต่อไป</Text>		<!-- {1_civAdj} settlements grow, and with them the safety and prosperity of the people. Our show of strength empowers them, and other empires listen when they speak. We must continue to safeguard them. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_4_ADVISOR_BODY_MONGOLIA_PATH" Language="th_TH">
+        <Text>ผ่านไฟแห่งสงคราม, จักรวรรดิของเราเจริญเติบโต - และความปลอดภัยและความเจริญรุ่งเรืองของประชาชน{1_civAdj} ประชาชนของเรามีอำนาจจากการแสดงออกซึ่งความแข็งแกร่งของเรา และพยายามที่จะเปลี่ยนแปลงโลกนอกเหนือจากสนามรบ เราต้องคงไว้ซึ่งการป้องกันการแสวงหานี้ต่อไป</Text>		<!-- Through the fires of war, our empire grows – and with it the safety and prosperity of the {1_civAdj} people. They are empowered by our show of strength, and strive to change the world beyond the battlefield. We must continue to safeguard these pursuits. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_4_BODY" Language="th_TH">
+        <Text>{1_Quest4BodyPathInjection}</Text>		<!-- {1_Quest4BodyPathInjection} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_4_BODY_GENERIC_PATH" Language="th_TH">
+        <Text>[n]เป้าหมายถัดไป: [b]สะสมแต้ม {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} จำนวน {1_PointsTarget} คะแนน [/b]โดยการ ตั้งถิ่นฐาน และยึดใน [b]ดินแดนห่างไกล[/b], เป็น หมุดหมาย ที่สองใน เส้นทางมรดก [b]{LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME}[/b]
+    [n]ตั้งถิ่นฐานใหม่จะได้รับ 1 คะแนน,                 [n]ยึดครองถิ่นฐานจะได้รับ 2 คะแนน,                 [n]ถิ่นฐานที่เปลี่ยนมานับถือศาสนาของคุณ จะได่ 2 คะแนน; ให้ทำตามคำแนะนำของ [icon:YIELD_CULTURE][b]ที่ปรึกษาวัฒนธรรม[/b] เพื่อเปลี่ยนขอคำแนะนำในการ เผยแพร่ศาสนา</Text>		<!-- [n]Next Objective: [b]Earn {1_PointsTarget} {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points [/b]by settling &amp; capturing in [b]Distant Lands[/b], the second Milestone along the [b]{LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Legacy Path[/b].
+    [n]Founded Settlements grant 1 Point.
+    [n]Captured Settlements grant 2 Points.
+    [n]Settlements converted to your Religion grant 2 Points; consider following your [icon:YIELD_CULTURE] [b]Culture Advisor's[/b] advice to convert Settlements. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_4_BODY_MONGOLIA_PATH" Language="th_TH">
+        <Text>เป้าหมายถัดไป: [b]สะสมแต้ม {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} จำนวน {1_PointsTarget} คะแนน [/b]โดยการยึด [b]ชุมชน[/b] ซึ่งเป็น หมุดหมาย แรกบนเส้นทางมรดก [b]{LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME}[/b] [n]หากบ้านเกิดของคุณขาดแคลนถิ่นฐาน, คุณสามารถทำตามคำแนะนำของ [icon:YIELD_GOLD][b]ที่ปรึกษาเศรษฐกิจ [/b]เพื่อไปยัง [b]ดินแดนห่างไกล[/b]</Text>		<!-- Next Objective: [b]Earn {1_PointsTarget} {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points [/b]by capturing [b]Settlements[/b], the first Milestone along the [b]{LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Legacy Path[/b].
+    [n]If your Homeland is lacking in Settlements, you can follow your [icon:YIELD_GOLD] [b]Economic Advisor's [/b]advice to reach [b]Distant Lands[/b]. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_4_TRACKING_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} IV</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} IV -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_4_TRACKING_BODY" Language="th_TH">
+        <Text>{1_Quest4TrackingPathInjection}</Text>		<!-- {1_Quest4TrackingPathInjection} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_4_TRACKING_BODY_GENERIC_PATH" Language="th_TH">
+        <Text>ได้ {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} โดยการตั้งถิ่นฐาน เผยแพร่ศาสนา และยึดครองใน ดินแดนห่างไกล {1_PointsCurrent}/{2_PointsTarget}</Text>		<!-- Earn {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points by settling, converting, &amp; capturing in Distant Lands {1_PointsCurrent}/{2_PointsTarget} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_4_TRACKING_BODY_MONGOLIA_PATH" Language="th_TH">
+        <Text>ได้ {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} โดยการยึดครองถิ่นฐาน {1_PointsCurrent}/{2_PointsTarget}</Text>		<!-- Earn {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points by Capturing Settlements {1_PointsCurrent}/{2_PointsTarget} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_5_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} V</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} V -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_5_ADVISOR_BODY" Language="th_TH">
+        <Text>{1_Quest5AdvisorBodyPathInjection}</Text>		<!-- {1_Quest5AdvisorBodyPathInjection} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_5_ADVISOR_BODY_GENERIC_PATH" Language="th_TH">
+        <Text>โลกยืนอยู่ด้วยความชื่นชมในอาณาจักร {1_civAdj} ที่ยิ่งใหญ่ ไม่มีใครสามารถหยุดเราได้ในขณะนี้! อย่างไรก็ตาม ยูนิตข่าวกรองของเราชี้ให้เห็นว่า ยังมีดินแดนรอคอยที่จะถูกรวมเข้าหรือพิชิต เราควรจะทำตามความทะเยอทะยานของเรา ขณะที่ความสำเร็จของเรายังร้อนแรงอยู่</Text>		<!-- The world stands in awe of the great {1_civAdj} empire. None can stop us now! Yet our intelligence suggests there are still lands waiting to be settled – or conquered. We should indulge our ambitions while our success runs hot. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_5_ADVISOR_BODY_MONGOLIA_PATH" Language="th_TH">
+        <Text>โลกยอมศิโรราบต่อความโกรธเกรี้ยวของอาณาจักร {1_civAdj} อันยิ่งใหญ่ กองทัพของเราไม่อาจหยุดยั้งได้! อย่างไรก็ตาม มีรายงานระบุว่ายังมีดินแดนที่ยังต้องการถูกตั้งถิ่นฐานหรือถูกพิชิต เราไม่ควรรั้งรอพวกเขาไว้</Text>		<!-- The world bows before the fury of the great {1_civAdj} empire. Our armies are unstoppable! Yet reports suggest there are still lands that yearn to be settled – or conquered. We should not keep them waiting. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_5_BODY" Language="th_TH">
+        <Text>{1_Quest5BodyPathInjection}</Text>		<!-- {1_Quest5BodyPathInjection} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_5_BODY_GENERIC_PATH" Language="th_TH">
+        <Text>เป้าหมายถัดไป: สะสมแต้ม {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} จำนวน {1_PointsTarget} คะแนน โดยการ ตั้งถิ่นฐาน และ ยึดครอง ใน [b]ดินแดนห่างไกล[/b] ซึ่งเป็น หมุดหมาย สุดท้าย บนเส้นทางมรดก [b]{LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME}[/b]
+    [n]ตั้งถิ่นฐานใหม่จะได้รับ 1 คะแนน
+    [n]ยึดครองถิ่นฐานจะได้รับ 2 คะแนน
+    [n]ถิ่นฐานที่เปลี่ยนมานับถือศาสนาของคุณ 2 คะแนน; ให้ทำตามคำแนะนำของ [icon:YIELD_CULTURE][b]ที่ปรึกษาด้านวัฒนธรรม[/b] เพื่อเปลี่ยนขอคำแนะนำในการ เผยแพร่ศาสนา</Text>		<!-- [n]Next Objective: [b]Earn {1_PointsTarget} {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points [/b]by settling &amp; capturing in [b]Distant Lands[/b], the third and final Milestone along the [b]{LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Legacy Path[/b].
+    [n]Founded Settlements grant 1 Point.
+    [n]Captured Settlements grant 2 Points.
+    [n]Settlements converted to your Religion grant 2 Points; consider following your [icon:YIELD_CULTURE] [b]Culture Advisor's[/b] advice to convert Settlements. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_5_BODY_MONGOLIA_PATH" Language="th_TH">
+        <Text>เป้าหมายถัดไป: [b]สะสมแต้ม {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} จำนวน {1_PointsTarget} คะแนน [/b]โดยการยึด [b]ถิ่นฐาน[/b] ซึ่งเป็น หมุดหมาย แรกในเส้นทางมรดก [b]{LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME}[/b] [n]หากบ้านเกิดของคุณขาดแคลนถิ่นฐาน, คุณสามารถทำตามคำแนะนำของ [icon:YIELD_GOLD][b]ที่ปรึกษาเศรษฐกิจ [/b]เพื่อไปยัง [b]ดินแดนห่างไกล[/b] ได้</Text>		<!-- Next Objective: [b]Earn {1_PointsTarget} {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points [/b]by capturing [b]Settlements[/b], the first Milestone along the [b]{LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Legacy Path[/b].
+    [n]If your Homeland is lacking in Settlements, you can follow your [icon:YIELD_GOLD] [b]Economic Advisor's [/b]advice to reach [b]Distant Lands[/b]. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_5_TRACKING_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} V</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} V -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_5_TRACKING_BODY" Language="th_TH">
+        <Text>{1_Quest5TrackingPathInjection}</Text>		<!-- {1_Quest5TrackingPathInjection} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_5_TRACKING_BODY_GENERIC_PATH" Language="th_TH">
+        <Text>รับคะแนน {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} โดยการตั้งถิ่นฐาน, เปลี่ยนแปลง, และยึดครองในดินแดนห่างไกล {1_PointsCurrent}/{2_PointsTarget}</Text>		<!-- Earn {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points by settling, converting, &amp; capturing in Distant Lands {1_PointsCurrent}/{2_PointsTarget} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_5_TRACKING_BODY_MONGOLIA_PATH" Language="th_TH">
+        <Text>รับคะแนน {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} โดยการยึดถิ่นฐาน {1_PointsCurrent}/{2_PointsTarget}</Text>		<!-- Earn {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points by Capturing Settlements {1_PointsCurrent}/{2_PointsTarget} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_LINE_COMPLETE_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME}</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_LINE_COMPLETE_ADVISOR_BODY" Language="th_TH">
+        <Text>{1_QuestCompleteAdvisorBodyPathInjection}</Text>		<!-- {1_QuestCompleteAdvisorBodyPathInjection} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_LINE_COMPLETE_ADVISOR_BODY_GENERIC_PATH" Language="th_TH">
+        <Text>ชุมชนของเรากระจายไปทั่วทั้งแผ่นดินและทะเล และเปลวไฟของผู้คนของเราส่องสว่างขอบฟ้าจากปลายหนึ่งของโลกถึงอีกด้านหนึ่ง เราได้สร้างอาณาจักรที่เปลี่ยนแปลงทิศทางของประวัติศาสตร์ ความยิ่งใหญ่ของอารยธรรม{1_civAdj}นั้นเป็นนิรันดร์!</Text>		<!-- Our settlements spread across land and sea, and the fires of our people light the horizon from one end of the earth to another. We have built an empire that has changed the course of history. The magnificence of the {1_civAdj} civilization is eternal! -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_LINE_COMPLETE_ADVISOR_BODY_MONGOLIA_PATH" Language="th_TH">
+        <Text>ชุมชนของเรากระจายไปทั่วโลก เกิดจากทั้งทหารและพลเรือน เราได้สร้างจักรวรรดิที่เปลี่ยนแปลงวิถีของประวัติศาสตร์อย่างแท้จริง ทุกคนโน้มน้าวใจต่ออำนาจของอารยธรรม {1_civAdj}!</Text>		<!-- Our settlements spread across the earth, forged by soldiers and civilians alike. We have truly built an empire that has changed the course of history. All bow before the might of the {1_civAdj} civilization! -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_MILITARY_QUEST_LINE_COMPLETE_BODY" Language="th_TH">
+        <Text>ขอแสดงความยินดี! คุณได้รับคะแนน {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} 12 คะแนนและทำเส้นทางมรดกทางทหารแห่งยุคสำรวจ [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] เสร็จสมบูรณ์[n]คุณสามารถเยี่ยมชม [b]หน้าจอเส้นทางมรดก[/b] เพื่อดูเส้นทางมรดกอื่นๆ ที่คุณสามารถติดตามได้หรือคุณสามารถสร้างเส้นทางของคุณเอง</Text>		<!-- Congratulations! You've earned 12 {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points and completed the [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} [/b][icon:NOTIFICATION_DECLARE_WAR] Military Legacy Path of the Exploration Age.[n]You can visit the [b]Legacy Path Screen [/b]to see more Legacy Paths you can follow, or you can forge your own path. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_1_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} I</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} I -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_1_ADVISOR_BODY" Language="th_TH">
+        <Text>สกุลเงินของโลกไม่ใช่ทองคำ แต่คือชื่อเสียง ให้เราได้รวบรวมสิ่งสวยงาม สิ่งมีศักดิ์ศรี สิ่งศักดิ์สิทธิ์ เพื่อให้ชื่อของ {1_CivAdj} เป็นที่รู้จักไปทั่วทุกแห่งหนว่าเป็นสิ่งดี</Text>		<!-- The currency of the world is not gold, but fame. Let us collect the beautiful, the prestigious, the sacred, that the {1_CivAdj} name will be synonymous everywhere with the good. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_1_BODY" Language="th_TH">
+        <Text>เป้าหมายถัดไป: ศึกษา [icon:NOTIFICATION_CULTURE_TREE_REVEALED] แนวคิด [b]{LOC_CIVIC_PIETY_NAME}[/b], เป็นก้าวแรกในการก่อตั้ง [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} [/b][icon:YIELD_CULTURE] มรดกทางวัฒนธรรมของยุคสำรวจ
+    [n][icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]{LOC_CIVIC_PIETY_NAME} [/b] จะช่วยให้คุณสามารถสร้าง [icon:BUILDING_TEMPLE] [b]{LOC_BUILDING_TEMPLE_NAME} [/b]และ [b]จัดตั้งศาสนา[/b]
+    [n][n]จำไว้ว่า: [icon:NOTIFICATION_TEAM_VICTORIOUS] [b]มรดก [/b]จะช่วยพัฒนาประสิทธิภาพของคุณในยุคถัดไป, แต่ [b]คุณสามารถเลือกที่จะแสวงหาเพียงหนึ่ง, หลายอันหรือไม่เลยก็ได้[/b]</Text>		<!-- Objective: Study [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]{LOC_CIVIC_PIETY_NAME} [/b]Civic, the first step towards establishing a [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} [/b][icon:YIELD_CULTURE] Cultural Legacy of the Exploration Age.
+    [n][icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]{LOC_CIVIC_PIETY_NAME} [/b]will allow you to build a [icon:BUILDING_TEMPLE] [b]{LOC_BUILDING_TEMPLE_NAME} [/b]and [b]establish a Religion[/b].
+    [n][n]Remember: [icon:NOTIFICATION_TEAM_VICTORIOUS] [b]Legacies [/b]improve your performance in later Ages, but [b]you can choose to pursue one, multiple, or none at all[/b]. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_1_TRACKING_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} I</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} I -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_1_TRACKING_BODY" Language="th_TH">
+        <Text>ศึกษา: [icon:YIELD_CULTURE] {LOC_CIVIC_PIETY_NAME} {1_itemComplete}
+    [n]สร้าง: [icon:NOTIFICATION_CULTURE_TREE_REVEALED] {LOC_BUILDING_TEMPLE_NAME} {2_itemComplete}
+    [n]ก่อตั้งศาสนา {3_itemComplete}</Text>		<!-- Study: [icon:NOTIFICATION_CULTURE_TREE_REVEALED] {LOC_CIVIC_PIETY_NAME} {1_itemComplete}
+    [n]Build: [icon:BUILDING_TEMPLE] {LOC_BUILDING_TEMPLE_NAME} {2_itemComplete}
+    [n]Establish a Religion {3_itemComplete} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_2_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} II</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} II -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_2_ADVISOR_BODY" Language="th_TH">
+        <Text>ผู้ยึดมั่นในศาสนาของเราประกาศข้อความอันเป็นสากลถึงคู่แข่งและตัวเราเอง ลองทดสอบสิ่งนี้กันเถอะ สร้างมิชชันนารีและส่งพวกเขาไปยังถิ่นฐานต่างประเทศ</Text>		<!-- Adherents of our religion proclaim its universal message to our rivals as well as ourselves. Let us put this to the test. Build missionaries and send them to foreign Settlements. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_2_BODY" Language="th_TH">
+        <Text>คุณสามารถฝึก {1_missionaryIcon} [b]{2_missionaryName}[/b] ซึ่งเป็นยูนิตที่สามารถ [b]เผยแพร่ศาสนา[/b] ของถิ่นฐานต่าง ๆ ให้กลายเป็นศาสนาของคุณได้แล้ว สำหรับถิ่นฐานที่นับถือศาสนาอื่น คุณจะต้อง [b]เผยแพร่ศาสนา[/b] ของทั้งพื้นที่ [b]ชนบท[/b] และพื้นที่ [b]เมือง[/b]; ถิ่นฐานที่ไม่มีศาสนาจำเป็นต้อง [b]เผยแพร่ศาสนา[/b] เพียงครั้งเดียว
+    
+    [n]เป้าหมายถัดไป: ฝึก {1_missionaryIcon} [b]{2_missionaryName}[/b] และ [b]เผยแพร่ศาสนา[/b] ของถิ่นฐานต่างประเทศ</Text>		<!-- You may now Train a {1_missionaryIcon} [b]{2_missionaryName}[/b], a Unit that can [b]Convert [/b]Settlements to your Religion. For any Settlements following another Religion, you will need to [b]Convert [/b]both a [b]Rural [/b]tile and a [b]Urban [/b]tile; Settlements without Religions only need to be [b]Converted [/b]once.
+    [n]Next Objective: Train a {1_missionaryIcon} [b]{2_missionaryName} [/b]and [b]Convert [/b]a foreign Settlement. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_2_TRACKING_TITLE" Language="th_TH">
+        <Text>มรดกทางเดิน: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} II</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} II -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_2_TRACKING_BODY" Language="th_TH">
+        <Text>ฝึก: {1_missionaryIcon} {2_missionaryName} {3_itemComplete}
+    [n]เผยแพร่ศาสนา ในถิ่นฐานต่างประเทศ ให้มานับถือศาสนาคุณ {4_itemComplete}</Text>		<!-- Train: {1_missionaryIcon} {2_missionaryName} {3_itemComplete}
+    [n]Convert a foreign Settlement to your Religion {4_itemComplete} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_3_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} III</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} III -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_3_ADVISOR_BODY" Language="th_TH">
+        <Text>ศาสนาของเรากำลังเข้าถึงจิตใจของผู้คนมากขึ้นเรื่อย ๆ แต่ขณะนี้ยังขาดความละเอียดอ่อน เลือกความเชื่อที่เสริมเพื่อช่วยให้มัน เผยแพร่กว้างไกล</Text>		<!-- Our religion is capturing more and more hearts, but so far it lacks refinement. Adopt an Enhancer Belief to help it spread far and wide. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_3_BODY" Language="th_TH">
+        <Text>ศึกษา [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]{LOC_CIVIC_THEOLOGY_NAME} [/b]จะทำให้คุณสามารถรับ [b]ความเชื่อเสริม[/b] ซึ่งเป็นความเชื่อที่จะทำให้เปลี่ยนการตั้งถิ่นฐานมาเป็นศาสนาของคุณได้ง่ายขึ้นและสร้างของมีค่าทางศาสนาได้
+    [n]เป้าหมายถัดไป: ศึกษา [icon:NOTIFICATION_CULTURE_TREE_REVEALED] {LOC_CIVIC_THEOLOGY_NAME} และรับ ความเชื่อเสริม</Text>		<!-- Studying [icon:NOTIFICATION_CULTURE_TREE_REVEALED] [b]{LOC_CIVIC_THEOLOGY_NAME} [/b]will allow you to adopt an [b]Enhancer Belief[/b], a Belief that will make it easier to convert Settlements to your Religion and therefore create Relics.
+    [n]Next Objective: Study [icon:NOTIFICATION_CULTURE_TREE_REVEALED] {LOC_CIVIC_THEOLOGY_NAME} and adopt an Enhancer Belief. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_3_TRACKING_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} III</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} III -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_3_TRACKING_BODY" Language="th_TH">
+        <Text>ศึกษา: [icon:NOTIFICATION_CULTURE_TREE_REVEALED] {LOC_CIVIC_THEOLOGY_NAME} {1_itemComplete} [n]รับ ความเชื่อเสริม {2_itemComplete}</Text>		<!-- Study: [icon:NOTIFICATION_CULTURE_TREE_REVEALED] {LOC_CIVIC_THEOLOGY_NAME} {1_itemComplete}
+    [n]Adopt an Enhancer Belief {2_itemComplete} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_4_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} IV</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} IV -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_4_ADVISOR_BODY" Language="th_TH">
+        <Text>เราได้หล่อหลอมว่าผู้คนของเราฝันอย่างไรและหวังอะไรไว้ โปรดระมัดระวังในเรื่องนั้น</Text>		<!-- We have shaped how our people dream, what they hope for. Careful with that. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_4_BODY" Language="th_TH">
+        <Text>ตอนนี้ที่ศาสนาของคุณมี [b]ความเชื่อเสริม[/b] คุณสามารถเผยแพร่ศาสนาไปยังถิ่นฐานได้ง่ายขึ้น อย่าลืมว่าคุณจะได้รับของ ศาสนวัตถุ ตามความเชื่อ ที่คุณได้นำมาใช้
+    [n]เหมือนกับ [b]คัมภีร์[/b] ใน ยุคโบราณ คุณจะต้องสร้างอาคารบางที่ เช่น [icon:BUILDING_TEMPLE] {LOC_BUILDING_TEMPLE_NAME} และสิ่งมหัศจรรย์เพื่อ [b]จัดแสดงศาสนวัตถุ[/b] ทุกศาสนวัตถุที่คุณจัดแสดง จะทำให้คุณก้าวหน้าต่อไปในเส้นทางมรดก {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME}
+    [n]เป้าหมายถัดไป: รวบรวมและจัดแสดง [b]ศาสนวัตถุ หกชิ้น[/b] ซึ่งเป็นหมุดหมายแรก ในเส้นทางมรดก [b]{LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME}[/b]</Text>		<!-- Now that your Religion has an [b]Enhancer Belief[/b], you can easily convert Settlements. Remember, you earn Relics based on the Reliquary Belief you have adopted.
+    [n]Like [b]Codices [/b]of the Antiquity Age, you will need to construct certain Buildings like the [icon:BUILDING_TEMPLE] {LOC_BUILDING_TEMPLE_NAME} and Wonders to [b]Display Relics[/b]. Every Relic that you display progresses you further along the {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} Legacy Path.
+    [n]Next Objective: Collect and Display [b]six Relics[/b], the first Milestone along the [b]{LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} Legacy Path[/b]. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_4_TRACKING_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} IV</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} IV -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_4_TRACKING_BODY" Language="th_TH">
+        <Text>รวบรวมและแสดงศาสนวัตถุ: {1_RelicsCurrent}/{2_RelicsTarget}</Text>		<!-- Collect &amp; Display Relics: {1_RelicsCurrent}/{2_RelicsTarget} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_5_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} V</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} V -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_5_ADVISOR_BODY" Language="th_TH">
+        <Text>ผอบเก็บอัฐิเจิดจ้าด้วยทองคำ อัญมณี และด้วยความหวังที่ถูกเก็บรวบรวมของผู้ศรัทธา</Text>		<!-- The reliquary shines with gold, jewels, and with the collected hopes of the faithful. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_5_BODY" Language="th_TH">
+        <Text>คุณได้แสดง ศาสนวัตถุ 6 ชิ้นแล้ว! คุณสามารถได้รับ ศาสนวัตถุ ผ่านความเชื่อทางศาสนวัตถุ ของคุณ แต่คุณก็สามารถได้รับมันผ่านกิจกรรมในเนื้อเรื่อง การเป็นเจ้านครของรัฐนคร และอื่นๆ ได้เช่นกัน
+    
+    เป้าหมายถัดไป: รวบรวมและแสดง ศาสนวัตถุ 9 ชิ้น ซึ่งเป็น หมุดหมาย ที่สอง ในเส้นทางมรดก {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME}</Text>		<!-- You've displayed 6 Relics! You can earn Relics through your [b]Reliquary Belief[/b], but you can also earn them through Narrative Events, becoming Suzerain of a City-State, and more.
+    [n]Next Objective: Collect and Display [b]9 Relics[/b], the second Milestone along the [b]{LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} Legacy Path[/b]. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_5_TRACKING_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} V</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} V -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_5_TRACKING_BODY" Language="th_TH">
+        <Text>รวบรวมและแสดงของศาสนวัตถุ: {1_RelicsCurrent}/{2_RelicsTarget}</Text>		<!-- Collect &amp; Display Relics: {1_RelicsCurrent}/{2_RelicsTarget} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_6_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} VI</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} VI -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_6_ADVISOR_BODY" Language="th_TH">
+        <Text>เล่าลือกันว่า ศาสนวัตถุ ของเราให้การสนับสนุน ด้วยพลังศักดิ์สิทธิ์แก่ภารกิจของเรา ไม่ว่าจะจริงหรือไม่ แต่ก็เป็นคอลเล็กชันที่น่าประทับใจ</Text>		<!-- It is whispered that our relics give divine aid to our cause. True or not, it is an impressive collection. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_6_BODY" Language="th_TH">
+        <Text>คุณได้แสดงศาสนวัตถุ 9 ชิ้น! คุณสามารถได้รับศาสนวัตถุผ่านทาง [b]ความเชื่อในศาสนวัตถุ[/b] ของคุณ แต่คุณยังสามารถได้รับจากเหตุการณ์การเล่าเรื่อง การเป็นผู้นำของรัฐนคร และอื่นๆ
+    [n]เป้าหมายถัดไป: รวบรวมและแสดง [b]ศาสนวัตถุ 12 ชิ้น[/b] ซึ่งเป็นหมุดหมายที่สามและสุดท้ายตามเส้นทางมรดก [b]{LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME}[/b]</Text>		<!-- You've displayed 9 Relics! You can earn Relics through your [b]Reliquary Belief[/b], but you can also earn them through Narrative Events, becoming Suzerain of a City-State, and more.
+    [n]Next Objective: Collect and Display [b]12 Relics[/b], the third and final Milestone along the [b]{LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} Legacy Path[/b]. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_6_TRACKING_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} VI</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} VI -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_6_TRACKING_BODY" Language="th_TH">
+        <Text>รวบรวมและแสดงศาสนวัตถุ: {1_RelicsCurrent}/{2_RelicsTarget}</Text>		<!-- Collect &amp; Display Relics: {1_RelicsCurrent}/{2_RelicsTarget} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_LINE_COMPLETED_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME}</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_LINE_COMPLETED_ADVISOR_BODY" Language="th_TH">
+        <Text>ชื่อเสียงของศาสนวัตถุของเราแผ่ขยายไปไกลกว่าความแวววาวของเปลือกทองคำ เราได้รับสิ่งที่ทุกคนหวังไว้: เราจะถูกจดจำ</Text>		<!-- The fame of our relics extends far beyond the glitter of their gold casings. We have gained what all hope for: we will be remembered. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CULTURE_QUEST_LINE_COMPLETED_BODY" Language="th_TH">
+        <Text>ขอแสดงความยินดี! คุณได้แสดง [b]ศาสนวัตถุ[/b] 12 ชิ้นและได้เสร็จสิ้น [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} [/b][icon:YIELD_CULTURE] เส้นทางมรดกวัฒนธรรมของยุคการสำรวจแล้ว[n]คุณสามารถเยี่ยมชม [b]หน้าจอเส้นทางมรดก[/b] เพื่อดูเส้นทางมรดกเพิ่มเติมที่คุณสามารถติดตาม หรือคุณสามารถสร้างเส้นทางของคุณเองได้</Text>		<!-- Congratulations! You've displayed 12 [b]Relics [/b]and completed the [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_EXPLORATION_CULTURE_NAME} [/b][icon:YIELD_CULTURE] Culture Legacy Path of the Exploration Age.[n]You can visit the [b]Legacy Path Screen [/b]to see more Legacy Paths you can follow, or you can forge your own path. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_1_TITLE" Language="th_TH">
+        <Text>เส้นทางภูมิปัญญา: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} I</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} I -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_1_ADVISOR_BODY" Language="th_TH">
+        <Text>หากเราต้องการแสวงโชคในแดนไกล เราจะต้องมีความรู้ที่ถูกต้องและเครื่องมือที่เหมาะสม</Text>		<!-- If we are to seek our fortune in Distant Lands, we will need the right knowledge, and the right tools. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_1_BODY" Language="th_TH">
+        <Text>เป้าหมายถัดไป: วิจัยเทคโนโลยี [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_CARTOGRAPHY_NAME} [/b]และ [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_ASTRONOMY_NAME} [/b]ซึ่งเป็นก้าวแรกในการสร้าง [icon:YIELD_GOLD] เส้นทางมรดกทางเศรษฐกิจของยุคการสำรวจ [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} [/b]
+    [n][b]{LOC_TECH_CARTOGRAPHY_NAME} [/b]จะช่วยให้ยูนิตของคุณข้ามทะเลลึกที่อันตรายได้ และ [b]{LOC_TECH_ASTRONOMY_NAME} [/b]จะปลดล็อก {1_CommanderIcon}{2_CommanderName} ที่ทรงพลัง ซึ่งสามารถจัดการ [b]ยูนิตทางทะเล[/b] ของคุณได้
+    [n][n]จำไว้ว่า: [icon:NOTIFICATION_TEAM_VICTORIOUS] [b]เส้นมรดก[/b] จะเพิ่มประสิทธิภาพของคุณในยุคต่อๆ ไป แต่ [b]คุณสามารถเลือกที่จะแสวงหาทางหนึ่ง, หลายทาง หรือไม่ซักทางเลยก็ได้[/b]</Text>		<!-- Objective: Research the [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_CARTOGRAPHY_NAME} [/b]and [icon:NOTIFICATION_TECH_DISCOVERED] [b]{LOC_TECH_ASTRONOMY_NAME} [/b]Technologies, the first step towards establishing a [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} [/b][icon:YIELD_GOLD] Economic Legacy of the Exploration Age.
+    [n][b]{LOC_TECH_CARTOGRAPHY_NAME} [/b]will allow your Units to traverse dangerous [b]Deep Ocean[/b], and [b]{LOC_TECH_ASTRONOMY_NAME} [/b]will unlock the powerful {1_CommanderIcon} {2_CommanderName}, which can organize your [b]Naval Units[/b].
+    [n][n]Remember: [icon:NOTIFICATION_TEAM_VICTORIOUS] [b]Legacies [/b]improve your performance in later Ages, but [b]you can choose to pursue one, multiple, or none at all[/b]. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_1_TRACKING_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} I</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} I -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_1_TRACKING_BODY" Language="th_TH">
+        <Text>วิจัย: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_CARTOGRAPHY_NAME} {1_itemComplete}
+    วิจัย: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_ASTRONOMY_NAME} {2_itemComplete}</Text>		<!-- Research: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_CARTOGRAPHY_NAME} {1_itemComplete}
+    [n]Research: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_ASTRONOMY_NAME} {2_itemComplete} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_2_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} II</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} II -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_2_ADVISOR_BODY" Language="th_TH">
+        <Text>ตอนนี้ที่เรารู้แล้วว่าจะไปที่นั่นอย่างไร เราควรจัดหาท่าเรือให้กับ เรือบรรทุกสมบัติของเรา</Text>		<!-- Now that we know how to get there, we had best give our Treasure Fleets a port of call. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_2_BODY" Language="th_TH">
+        <Text>[b]ดินแดนห่างไกล[/b] คะแนนขุมทรัพย์ ที่ไม่สามารถเข้าถึงได้ใน ยุคโบราณ โดยทั่วไปต้องผ่าน [b]มหาสมุทรลึก[/b] ซึ่งอาจเป็นอันตรายในการเดินทางข้ามมหาสมุทร แต่มี [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]ทรัพยากร[/b] ใหม่ ๆ และ [b]ผู้คน[/b] อยู่พ้นขอบโพ้นทะเล
+    
+    [n]เป้าหมายต่อไป: ก่อตั้งถิ่นฐานใน [b]ดินแดนห่างไกล[/b] จากนั้นสร้าง [icon:BUILDING_FISHING_QUAY] [b]{LOC_BUILDING_FISHING_QUAY_NAME}[/b] ที่นั่น โดยควรเข้าถึงได้โดยทางน้ำจากบ้านเกิดของท่าน</Text>		<!-- [b]Distant Lands [/b]are any lands inaccessible in Antiquity, typically by [b]Deep Ocean[/b]. It can be dangerous to traverse the oceans, but there are new [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]Resources [/b]and [b]people [/b]beyond the horizon.
+    [n]Next Objective: Establish a Settlement in [b]Distant Lands[/b]. Then, build a [icon:BUILDING_FISHING_QUAY] [b]{LOC_BUILDING_FISHING_QUAY_NAME} [/b]there, preferably accessible by water from your Homeland. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_2_TRACKING_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} II</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} II -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_2_TRACKING_BODY" Language="th_TH">
+        <Text>สร้างถิ่นฐานในดินแดนห่างไกล {1_CompletionIcon} [n]สร้าง: [icon:BUILDING_FISHING_QUAY] {LOC_BUILDING_FISHING_QUAY_NAME} ในเขตถิ่นฐานที่ห่างไกล {2_CompletionIcon}</Text>		<!-- Create a Settlement in Distant Lands {1_CompletionIcon}
+    [n]Build: [icon:BUILDING_FISHING_QUAY] {LOC_BUILDING_FISHING_QUAY_NAME} in a Distant Settlement {2_CompletionIcon} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_3_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} III</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} III -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_3_ADVISOR_BODY" Language="th_TH">
+        <Text>ด้วยการก่อตั้งฐานที่มั่นใหม่ในดินแดนห่างไกล งานจริงสามารถเริ่มต้นได้แล้ว มาเสริมสร้างทรัพยากรของเราก่อนที่คู่แข่งจะทำ เพื่อให้เราสามารถเก็บเกี่ยวผลประโยชน์ได้</Text>		<!-- With a newly established base in Distant Lands, the real work can begin. Let's improve Resources before our rivals do, to ensure that we reap the benefits. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_3_BODY" Language="th_TH">
+        <Text>[b]ดินแดนห่างไกล[/b] มี [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]ทรัพยากร[/b] ที่แตกต่างจากบ้านเกิดของคุณ และเมื่อเวลาผ่านไประยะหนึ่ง [b]เรือบรรทุกสมบัติ[/b]  สามารถนำทรัพยากรเหล่านี้กลับไปยังบ้านเกิดของคุณได้
+    
+    [n]เป้าหมายต่อไป: พัฒนา [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]ทรัพยากรสมบัติ[/b] ห้าชนิด และรอให้ [b]เรือบรรทุกสมบัติ[/b] ปรากฏในถิ่นฐาน[/b]</Text>		<!-- [b]Distant Lands [/b]have different [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]Resources [/b]from your Homelands, and after enough time, a [b]Treasure Fleet [/b]can be loaded to take these Resources to your Homelands.
+    [n]Next Objective: Improve five [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]Treasure Resources[/b] and wait for a [b]Treasure Fleet [/b]to spawn in the Settlement[/b]. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_3_TRACKING_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} III</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} III -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_3_TRACKING_BODY" Language="th_TH">
+        <Text>พัฒนา: [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]ทรัพยากรแห่งขุมทรัพย์[/b] {1_treasureResourcesImproved}/{2_treasureResourcesGoal}
+    [n]วิจัย: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_SHIPBUILDING_NAME} {3_itemComplete}
+    [n]เกิด: กองเรือสมบัติ {4_CompletionIcon}</Text>		<!-- Improve: [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]Treasure Resources [/b] {1_treasureResourcesImproved}/{2_treasureResourcesGoal}
+    [n]Research: [icon:NOTIFICATION_TECH_DISCOVERED] {LOC_TECH_SHIPBUILDING_NAME} {3_itemComplete}
+    [n]Spawn: Treasure Fleet {4_CompletionIcon} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_4_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} IV</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} IV -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_4_ADVISOR_BODY" Language="th_TH">
+        <Text>เราได้ผลิตของรางวัลแรกของเราแล้ว แต่ยังมีงานที่ต้องทำอยู่ ไม่มีใครเตรียมอาหารอร่อยเพียงเพื่อละให้มันเย็นบนโต๊ะ</Text>		<!-- We have produced our first bounty, but there is work yet to be done. One does not prepare a delicious meal only to let it go cold on the table. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_4_BODY" Language="th_TH">
+        <Text>ตอนนี้ที่คุณมี [b]กองเรือสมบัติ[/b] เต็มไปด้วย [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]ทรัพยากรสมบัติ[/b] ที่มีค่าแล้ว คุณต้องมอบการเดินทางที่ปลอดภัยให้กับมันไปยัง [b]ถิ่นฐานบ้านเกิด[/b]
+    เมื่อคุณขนสมบัติออกไป คุณจะได้รับหนึ่งแต้ม {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} สำหรับทุก [b]ทรัพยากรสมบัติ[/b] ที่มอบให้กับถิ่นฐานที่กองเรือสมบัติมาจาก
+    [n]เป้าหมายถัดไป: [b]ทำคะแนน 10 {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} (TF) แต้ม[/b] ซึ่งเป็น หมุดหมาย แรกใน เส้นทางมรดก [b]{LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME}[/b]</Text>		<!-- Now that you have a [b]Treasure Fleet [/b]full of valuable [icon:NOTIFICATION_DISCOVER_RESOURCE] [b]Treasure Resources[/b], you need to grant it safe passage to a [b]Homeland Settlement[/b].
+    [n]When you unload the treasure, you will receive one {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} Point for every [b]Treasure Resource [/b]assigned to the Settlement the Treasure Fleet originated from.
+    [n]Next Objective: [b]Score 10 {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} (TF) Points[/b], the first Milestone along the [b]{LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} Legacy Path[/b]. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_4_TRACKING_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} IV</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} IV -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_4_TRACKING_BODY" Language="th_TH">
+        <Text>ทำคะแนน TF โดยการปลดปล่อย กองเรือสมบัติ ใน ถิ่นฐานบ้านเกิด ของคุณ {1_ScoreCurrent}/{2_ScoreTarget}</Text>		<!-- Score TF Points by unloading Treasure Fleets in your Homeland Settlements {1_ScoreCurrent}/{2_ScoreTarget} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_5_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} V</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} V -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_5_ADVISOR_BODY" Language="th_TH">
+        <Text>ข้าได้รับข่าวเกี่ยวกับการมาถึงของ กองเรือสมบัติ แล้ว นี่เป็นโอกาสสำหรับการเฉลิมฉลองแน่นอน แต่ยังเป็นเพียงจุดเริ่มต้นเท่านั้น ตอนนี้จักรวรรดิทั้งหมดของเรามองหาความเจริญรุ่งเรืองจากดินแดนห่างไกล มาทำให้พวกเขาไม่ต้องรอกันเถอะ</Text>		<!-- I have received news of our Treasure Fleet's arrival. This is cause for celebration, certainly, but it is only the beginning. Now all our empire looks to Distant Lands for its prosperity. Let's not keep them waiting. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_5_BODY" Language="th_TH">
+        <Text>คุณสามารถเพิ่มอัตราการทำคะแนนได้โดยการก่อตั้ง [b]ถิ่นฐานในดินแดนห่างไกล[/b] เพิ่มขึ้น, [b]เพื่อที่จะได้รับ [icon:NOTIFICATION_DISCOVER_RESOURCE] ทรัพยากรสมบัติ[/b] ได้มากขึ้น, และการใช้ การดำเนินการทางการทูต [b]สร้างเรือบรรทุกสมบัติ[/b] กับพันธมิตรที่อยู่ไกลบ้าน
+    
+    [n]เป้าหมายถัดไป: [b]ได้รับ 20 คะแนน {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} (TF)[/b], ซึ่งเป็น หมุดหมาย ที่สอง ใน เส้นทางมรดก [b]{LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME}[/b]</Text>		<!-- You can increase your scoring rate by founding more [b]Settlements in Distant Lands[/b], [b]acquiring more [icon:NOTIFICATION_DISCOVER_RESOURCE] Treasure Resources[/b], and using the [b]Create Treasure Fleet [/b]Diplomatic Action with any Distant Ally.
+    [n]Next Objective: [b]Score 20 {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} (TF) Points[/b], the second Milestone along the [b]{LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} Legacy Path[/b]. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_5_TRACKING_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} V</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} V -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_5_TRACKING_BODY" Language="th_TH">
+        <Text>รับคะแนน TF โดยการขนถ่าย เรือบรรทุกสมบัติ ไปยังถิ่นฐานบ้านเกิดของคุณ {1_ScoreCurrent}/{2_ScoreTarget}</Text>		<!-- Score TF Points by unloading Treasure Fleets in your Homeland Settlements {1_ScoreCurrent}/{2_ScoreTarget} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_6_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} VI</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} VI -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_6_ADVISOR_BODY" Language="th_TH">
+        <Text>สายลมแห่งการค้า เป็นใจให้เรายิ่งนัก นำความมั่งคั่งมาให้อย่างมากมายจากดินแดนห่างไกล หากเรามุ่งมั่นใส่ใจ จะไม่มีใครหน้าไหน กล้าตั้งคำถามกับมรดกที่เราสร้างขึ้น</Text>		<!-- The trade winds have been more than favorable to us, bringing wealth beyond measure from Distant Lands. If we are diligent, no one will dare question the legacy we create. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_6_BODY" Language="th_TH">
+        <Text>คุณสามารถเพิ่มอัตราการทำคะแนนของคุณโดยการสร้างตั้งถิ่นฐานใหม่ในดินแดนห่างไกล, ได้รับทรัพยากรสมบัติเพิ่มมากขึ้น, และใช้การทูต "สร้างเรือบรรทุกสมบัติ" กับพันธมิตรห่างไกลใดๆ
+    
+    เป้าหมายต่อไป: ทำคะแนน 30 คะแนน (TF) ซึ่งเป็นหมุดหมายสุดท้ายตามเส้นทางมรดกของ {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME}</Text>		<!-- You can increase your scoring rate by founding more [b]Settlements in Distant Lands[/b], [b]acquiring more [icon:NOTIFICATION_DISCOVER_RESOURCE] Treasure Resources[/b], and using the [b]Create Treasure Fleet [/b]Diplomatic Action with any Distant Ally.
+    [n]Next Objective: [b]Score 30 {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} (TF) Points[/b], the third and final Milestone along the [b]{LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} Legacy Path[/b]. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_6_TRACKING_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} VI</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} VI -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_6_TRACKING_BODY" Language="th_TH">
+        <Text>รับคะแนน TF โดยการขนถ่าย เรือบรรทุกสมบัติ ไปยังถิ่นฐานบ้านเกิดของคุณ {1_ScoreCurrent}/{2_ScoreTarget}</Text>		<!-- Score TF Points by unloading Treasure Fleets in your Homeland Settlements {1_ScoreCurrent}/{2_ScoreTarget} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_LINE_COMPLETED_TITLE" Language="th_TH">
+        <Text>เส้นทางมรดก: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME}</Text>		<!-- Legacy Path: {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_LINE_COMPLETED_ADVISOR_BODY" Language="th_TH">
+        <Text>ด้วย เรือบรรทุกสมบัติ สุดท้ายนี้ เราได้สร้างความมั่นใจ ไม่เพียงแค่ประชาชนของเราจะรุ่งเรืองเท่านั้น แต่ยังทำให้ความสำเร็จของเราเป็นที่จดจำไปชั่วกาลนาน ทรัพย์สมบัติที่มากเกินจะพรรณนาได้</Text>		<!-- With this last Treasure Fleet, we have ensured not only that our people are prosperous, but that our accomplishments will be remembered for all time. Wealth beyond measure indeed. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ECONOMIC_QUEST_LINE_COMPLETED_BODY" Language="th_TH">
+        <Text>ยินดีด้วย! คุณได้รับ 30 คะแนน {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} และได้สำเร็จ [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} [/b][icon:YIELD_GOLD] เส้นทางมรดกทางเศรษฐกิจของยุคสำรวจแล้ว[n]คุณสามารถเข้าไปที่หน้าจอ [b]เส้นทางมรดก[/b] เพื่อดูเส้นทางมรดกอื่นๆ ที่คุณสามารถติดตาม หรือคุณสามารถสร้างเส้นทางของคุณเองก็ได้</Text>		<!-- Congratulations! You've earned 30 {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} Points, and completed the [b][icon:NOTIFICATION_TEAM_VICTORIOUS] {LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_NAME} [/b][icon:YIELD_GOLD] Economic Legacy Path of the Exploration Age.[n]You can visit the [b]Legacy Path Screen [/b]to see more Legacy Paths you can follow, or you can forge your own path. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_OVERBUILDING_TITLE" Language="th_TH">
+        <Text>ก่อสร้างทับอาคาร</Text>		<!-- Overbuilding -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_OVERBUILDING_BODY" Language="th_TH">
+        <Text>เนื่องจากผู้คน {1_CivAdj} มีแผนสำหรับการสร้างอาคารใหม่ คุณอาจไม่ต้องการสร้างพื้นที่เมืองเพิ่มเติม ในการสำรวจและอื่นๆ คุณสามารถเลือกสร้างบนยอดของอาคารที่มีอยู่แต่ล้าสมัยโดยการสร้างทับ แม้ว่าการสร้างทับจะไม่มีประโยชน์เฉพาะในตอนนี้ แต่คุณอาจพบว่านโยบายทางสังคม ความสามารถของพลเรือน และอื่นๆ ที่จะทำให้การสร้างทับมีประสิทธิภาพเป็นพิเศษ</Text>		<!-- As the {1_CivAdj} people have plans for new Buildings, you may not want to create more Urban Quarters. In [b]Exploration [/b]and beyond, you can choose to build atop an existing but outdated Building by [b]Overbuilding[/b].[n]While Overbuilding doesn't have particular benefits now, you may find [b]Social Policies[/b], [b]Civ Abilities[/b], and more that will make Overbuilding especially efficient. -->
+    </Replace>
+  </LocalizedText>
+</Database>
