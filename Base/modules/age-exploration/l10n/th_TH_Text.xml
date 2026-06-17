@@ -47,7 +47,7 @@
 			<Text>ลักษณะเฉพาะ</Text>		<!-- Attributes -->
 		</Replace>
 		<Replace Tag="LOC_CARD_EXP_ATTRIBUTE_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ 1 คะแนน คุณลักษณะไวลด์การ์ด</Text>		<!-- Gain 1 Wildcard Attribute Point. -->
+			<Text>ได้รับ 1 แต้มคุณลักษณะไวลด์การ์ด</Text>		<!-- Gain 1 Wildcard Attribute Point. -->
 		</Replace>
 		<Replace Tag="LOC_CARD_EXP_FREE_TECH_CARTOGRAPHY_NAME" Language="th_TH">
 			<Text>เทคโนโลยีการทำแผนที่</Text>		<!-- Cartography Technology -->
@@ -2158,10 +2158,10 @@
 			<Text>เออร์ตู</Text>		<!-- Örtöö -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ORTOO_DESCRIPTION" Language="th_TH">
-			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนาพิเศษ[/TIP] ของมองโกลเลีย, +5 [icon:YIELD_GOLD] ทอง ฟื้นฟู [icon:Action_Move] การเคลื่อนไหวให้กับยูนิตของคุณที่อยู่ในตำแหน่งนั้น, ไม่สามารถวางบน [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]พื้นที่ขรุขระ[/TIP], แม่น้ำ, หรือบนช่องที่มีลักษณะเฉพาะ</Text>		<!-- Mongolian [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvement[/TIP]. +5 [icon:YIELD_GOLD] Gold. Restores [icon:Action_Move] Movement to your Units at its location. Cannot be placed on [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]Rough[/TIP], River, or a tile with a Feature. -->
+			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนาพิเศษ[/TIP] ของมองโกลเลีย, +5 [icon:YIELD_GOLD] ทอง, ฟื้นฟู [icon:Action_Move] แต้มเคลื่อนที่ ให้กับยูนิตของคุณที่อยู่ในตำแหน่งนั้น, ไม่สามารถวางบน [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]พื้นที่ขรุขระ[/TIP], แม่น้ำ, หรือบนช่องที่มีลักษณะเฉพาะ</Text>		<!-- Mongolian [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvement[/TIP]. +5 [icon:YIELD_GOLD] Gold. Restores [icon:Action_Move] Movement to your Units at its location. Cannot be placed on [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]Rough[/TIP], River, or a tile with a Feature. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ORTOO_TOOLTIP" Language="th_TH">
-			<Text>เอฟเฟค: ฟื้นฟู [icon:Action_Move] แต้มเคลื่อนที่ให้กับยูนิตของคุณที่ตำแหน่งของมัน[N]ไม่สามารถวางบน [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]พื้นที่ขรุขระ[/TIP], แม่น้ำ, หรือช่องที่มีลักษณะพิเศษ[N][TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนาพิเศษ[/TIP] ของมองโกล</Text>		<!-- Effect: Restores [icon:Action_Move] Movement to your Units at its location.[N]Cannot be placed on [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]Rough[/TIP], River, or a tile with a Feature.[N]Mongolian [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvement[/TIP]. -->
+			<Text>เอฟเฟค: ฟื้นฟู [icon:Action_Move] แต้มเคลื่อนที่ ให้กับยูนิตของคุณที่ตำแหน่งของมัน[N]ไม่สามารถวางบน [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]พื้นที่ขรุขระ[/TIP], แม่น้ำ, หรือช่องที่มีลักษณะพิเศษ[N][TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนาพิเศษ[/TIP] ของมองโกล</Text>		<!-- Effect: Restores [icon:Action_Move] Movement to your Units at its location.[N]Cannot be placed on [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]Rough[/TIP], River, or a tile with a Feature.[N]Mongolian [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvement[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_TERRACE_FARM_NAME" Language="th_TH">
 			<Text>ฟาร์มขั้นบันได</Text>		<!-- Terrace Farm -->
@@ -2353,10 +2353,10 @@
 			<Text>เจดีย์ชเวดากอง</Text>		<!-- Shwedagon Zedi Daw -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_SHWEDAGON_ZEDI_DAW_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_SCIENCE] วิทยาการ, +1[icon:YIELD_SCIENCE] วิทยาการ บนทุกพื้นที่ชนบทในถิ่นฐานนี้ที่มีความดึงดูดตามธรรมชาติ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] , +1 [icon:ATTRIBUTE_WILDCARD] คะแนนคุณลักษณะไวลด์การ์ด [TIP:LOC_PEDIA_CONCEPTS_ATTRIBUTE_TOOLTIP]Attribute[/TIP] , +3 [icon:SCIENCE_VP] นวัตกรรม, คงอยู่ตลอดกาล, ต้องตั้งอยู่ติดกับทะเลสาบ</Text>		<!-- +4[icon:YIELD_SCIENCE] Science. +1[icon:YIELD_SCIENCE] Science on all Rural tiles in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] that have a natural Appeal. +1 [icon:ATTRIBUTE_WILDCARD] Wildcard [TIP:LOC_PEDIA_CONCEPTS_ATTRIBUTE_TOOLTIP]Attribute[/TIP] Point. +3 [icon:SCIENCE_VP] Innovation. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be placed adjacent to a Lake. -->
+			<Text>+4[icon:YIELD_SCIENCE] วิทยาการ, +1[icon:YIELD_SCIENCE] วิทยาการ บนทุกพื้นที่ชนบทในถิ่นฐานนี้ที่มีความดึงดูดตามธรรมชาติ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] , +1 [icon:ATTRIBUTE_WILDCARD] แต้มคุณลักษณะไวลด์การ์ด [TIP:LOC_PEDIA_CONCEPTS_ATTRIBUTE_TOOLTIP]Attribute[/TIP] , +3 [icon:SCIENCE_VP] นวัตกรรม, คงอยู่ตลอดกาล, ต้องตั้งอยู่ติดกับทะเลสาบ</Text>		<!-- +4[icon:YIELD_SCIENCE] Science. +1[icon:YIELD_SCIENCE] Science on all Rural tiles in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] that have a natural Appeal. +1 [icon:ATTRIBUTE_WILDCARD] Wildcard [TIP:LOC_PEDIA_CONCEPTS_ATTRIBUTE_TOOLTIP]Attribute[/TIP] Point. +3 [icon:SCIENCE_VP] Innovation. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be placed adjacent to a Lake. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_SHWEDAGON_ZEDI_DAW_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ บนพื้นที่ชนบททั้งหมดใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] นี้ที่มีความดึงดูดตามธรรมชาติ, +1 [icon:ATTRIBUTE_WILDCARD] [TIP:LOC_PEDIA_CONCEPTS_ATTRIBUTE_TOOLTIP]คะแนนคุณลักษณะไวลด์การ์ด[/TIP], +3 [icon:SCIENCE_VP] นวัตกรรม [N]ต้องวางอยู่ติดกับทะเลสาบ</Text>		<!-- +1[icon:YIELD_SCIENCE] Science on all Rural tiles in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] that have a natural Appeal. +1 [icon:ATTRIBUTE_WILDCARD] [TIP:LOC_PEDIA_CONCEPTS_ATTRIBUTE_TOOLTIP]Wildcard Attribute Point[/TIP]. +3 [icon:SCIENCE_VP] Innovation. [N]Must be placed adjacent to a Lake. -->
+			<Text>+1[icon:YIELD_SCIENCE] วิทยาศาสตร์ บนพื้นที่ชนบททั้งหมดใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] นี้ที่มีความดึงดูดตามธรรมชาติ, +1 [icon:ATTRIBUTE_WILDCARD] [TIP:LOC_PEDIA_CONCEPTS_ATTRIBUTE_TOOLTIP]แต้มคุณลักษณะไวลด์การ์ด[/TIP], +3 [icon:SCIENCE_VP] นวัตกรรม [N]ต้องวางอยู่ติดกับทะเลสาบ</Text>		<!-- +1[icon:YIELD_SCIENCE] Science on all Rural tiles in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] that have a natural Appeal. +1 [icon:ATTRIBUTE_WILDCARD] [TIP:LOC_PEDIA_CONCEPTS_ATTRIBUTE_TOOLTIP]Wildcard Attribute Point[/TIP]. +3 [icon:SCIENCE_VP] Innovation. [N]Must be placed adjacent to a Lake. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_TOMB_OF_ASKIA_NAME" Language="th_TH">
 			<Text>สุสานของอัสกีอา</Text>		<!-- Tomb of Askia -->
@@ -2506,10 +2506,10 @@
 			<Text>การปฏิรูป</Text>		<!-- Reformation -->
 		</Replace>
 		<Replace Tag="LOC_MOD_EX_FUTURE_CIVIC_ATTRIBUTE_EX_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:ATTRIBUTE] แต้ม[TIP:LOC_PEDIA_CONCEPTS_ATTRIBUTE_TOOLTIP]คุณสมบัติ[/TIP]แบบสุ่ม</Text>		<!-- +1 [icon:ATTRIBUTE] Random [TIP:LOC_PEDIA_CONCEPTS_ATTRIBUTE_TOOLTIP]Attribute[/TIP] Point. -->
+			<Text>+1 [icon:ATTRIBUTE] [TIP:LOC_PEDIA_CONCEPTS_ATTRIBUTE_TOOLTIP]แต้มคุณลักษณะ[/TIP] แบบสุ่ม</Text>		<!-- +1 [icon:ATTRIBUTE] Random [TIP:LOC_PEDIA_CONCEPTS_ATTRIBUTE_TOOLTIP]Attribute[/TIP] Point. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_EX_FUTURE_CIVIC_BOOST_EX_DESCRIPTION" Language="th_TH">
-			<Text>บูสต์สำหรับ [icon:RADIAL_CIVICS] [TIP:LOC_PEDIA_CONCEPTS_CIVIC_TOOLTIP]Civic[/TIP] เริ่มต้นที่ไม่ใช่เอกลักษณ์ของอารยธรรมในยุคถัดไป[TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP]</Text>		<!-- A boost for a non-Civilization unique starting [icon:RADIAL_CIVICS] [TIP:LOC_PEDIA_CONCEPTS_CIVIC_TOOLTIP]Civic[/TIP] in the next [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP]. -->
+			<Text>บูสต์สำหรับ [icon:RADIAL_CIVICS] [TIP:LOC_PEDIA_CONCEPTS_CIVIC_TOOLTIP]แนวคิด[/TIP] ที่ไม่ใช่ของเฉพาะ อารยธรรม ใน [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP] ถัดไป</Text>		<!-- A boost for a non-Civilization unique starting [icon:RADIAL_CIVICS] [TIP:LOC_PEDIA_CONCEPTS_CIVIC_TOOLTIP]Civic[/TIP] in the next [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_DE_JURE_PREVIEW" Language="th_TH">
 			<Text>+{1_Amount} เดอ จูเร</Text>		<!-- +{1_Amount} De Jure -->
@@ -2527,13 +2527,13 @@
 			<Text>+1 [icon:NAR_REW_TRADITION_SLOT] [TIP:LOC_PEDIA_CONCEPTS_SOCIAL_POLICY_TOOLTIP]ช่องนโยบายสังคม[/TIP] </Text>		<!-- +1 [icon:NAR_REW_TRADITION_SLOT] [TIP:LOC_PEDIA_CONCEPTS_SOCIAL_POLICY_TOOLTIP]Social Policy[/TIP] slot. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_REFORMATION_BELIEF_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ 1 additional [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_RELIGION_TOOLTIP]ความเชื่อเสริม[/TIP]</Text>		<!-- Receive 1 additional [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_RELIGION_TOOLTIP]Enhancer Belief[/TIP]. -->
+			<Text>ได้รับ 1 [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_RELIGION_TOOLTIP]ความเชื่อเสริม[/TIP] เพิ่มเติม</Text>		<!-- Receive 1 additional [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_RELIGION_TOOLTIP]Enhancer Belief[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_FUTURE_CIVIC_ATTRIBUTE_EX_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:ATTRIBUTE] คะแนนคุณลักษณะแบบสุ่ม</Text>		<!-- +1 [icon:ATTRIBUTE] Random Attribute Point. -->
+			<Text>+1 [icon:ATTRIBUTE] [TIP:LOC_PEDIA_CONCEPTS_ATTRIBUTE_TOOLTIP]แต้มคุณลักษณะ[/TIP] แบบสุ่ม</Text>		<!-- +1 [icon:ATTRIBUTE] Random Attribute Point. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_FUTURE_CIVIC_BOOST_EX_DESCRIPTION" Language="th_TH">
-			<Text>ส่งเสริมการพัฒนา [icon:RADIAL_CIVICS] แนวคิด ที่ไม่ใช่ของเฉพาะ อารยธรรม ในยุคถัดไป</Text>		<!-- A boost for a non-Civilization unique starting [icon:RADIAL_CIVICS] Civic in the next Age. -->
+			<Text>บูสต์สำหรับ [icon:RADIAL_CIVICS] [TIP:LOC_PEDIA_CONCEPTS_CIVIC_TOOLTIP]แนวคิด[/TIP] ที่ไม่ใช่ของเฉพาะ อารยธรรม ใน [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP] ถัดไป</Text>		<!-- A boost for a non-Civilization unique starting [icon:RADIAL_CIVICS] [TIP:LOC_PEDIA_CONCEPTS_CIVIC_TOOLTIP]Civic[/TIP] in the next [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_EXP_FUTURE_CIVIC_AGE_PROGRESS_DESCRIPTION" Language="th_TH">
 			<Text>+10 [icon:NOTIFICATION_TEAM_VICTORIOUS] [TIP:LOC_PEDIA_CONCEPTS_AGE_PROGRESS_TOOLTIP]ความก้าวหน้าของยุค[/TIP]</Text>		<!-- +10 [icon:NOTIFICATION_TEAM_VICTORIOUS] [TIP:LOC_PEDIA_CONCEPTS_AGE_PROGRESS_TOOLTIP]Age Progress[/TIP]. -->
@@ -2560,7 +2560,7 @@
 			<Text>ส่วนเกินจากอาณานิคม</Text>		<!-- Colonial Surplus -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_COLONIAL_SURPLUS_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_PRODUCTION] จาก [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP], +1 [icon:YIELD_HAPPINESS] [TIP:LOC_PEDIA_CONCEPTS_MAINTENANCE_TOOLTIP]Maintenance[/TIP] บน [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP]</Text>		<!-- +2 [icon:YIELD_PRODUCTION] from [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP]. +1 [icon:YIELD_HAPPINESS] [TIP:LOC_PEDIA_CONCEPTS_MAINTENANCE_TOOLTIP]Maintenance[/TIP] on [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP]. -->
+			<Text>+2 [icon:YIELD_PRODUCTION] จาก [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]ผู้เชี่ยวชาญ[/TIP], +1 [icon:YIELD_HAPPINESS] [TIP:LOC_PEDIA_CONCEPTS_MAINTENANCE_TOOLTIP]ค่าบำรุงรักษา[/TIP] บน [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]ผู้เชี่ยวชาญ[/TIP]</Text>		<!-- +2 [icon:YIELD_PRODUCTION] from [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP]. +1 [icon:YIELD_HAPPINESS] [TIP:LOC_PEDIA_CONCEPTS_MAINTENANCE_TOOLTIP]Maintenance[/TIP] on [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_COMMISSIONED_OFFICERS_NAME" Language="th_TH">
 			<Text>นายทหารสัญญาบัตร</Text>		<!-- Commissioned Officers -->
@@ -2644,7 +2644,7 @@
 			<Text>การสนับสนุน</Text>		<!-- Patronage -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_PATRONAGE_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_CULTURE] จาก [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP], +1 [icon:YIELD_HAPPINESS] [TIP:LOC_PEDIA_CONCEPTS_MAINTENANCE_TOOLTIP]Maintenance[/TIP] บน [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP]</Text>		<!-- +2 [icon:YIELD_CULTURE] from [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP]. +1 [icon:YIELD_HAPPINESS] [TIP:LOC_PEDIA_CONCEPTS_MAINTENANCE_TOOLTIP]Maintenance[/TIP] on [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP]. -->
+			<Text>+2 [icon:YIELD_CULTURE] จาก [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]ผู้เชี่ยวชาญ[/TIP], +1 [icon:YIELD_HAPPINESS] [TIP:LOC_PEDIA_CONCEPTS_MAINTENANCE_TOOLTIP]ค่าบำรุงรักษา[/TIP] บน [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]ผู้เชี่ยวชาญ[/TIP]</Text>		<!-- +2 [icon:YIELD_CULTURE] from [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP]. +1 [icon:YIELD_HAPPINESS] [TIP:LOC_PEDIA_CONCEPTS_MAINTENANCE_TOOLTIP]Maintenance[/TIP] on [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_RATIONALISM_NAME" Language="th_TH">
 			<Text>อรรถศาสตร์</Text>		<!-- Rationalism -->
@@ -2674,13 +2674,13 @@
 			<Text>ภาษีศุลกากร</Text>		<!-- Tariffs -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_TARIFFS_DESCRIPTION" Language="th_TH">
-			<Text>+50% [icon:TRADE_INCOME] [TIP:LOC_PEDIA_CONCEPTS_TRADE_INCOME_TOOLTIP]Trade Income[/TIP], แต่ -3 [icon:YIELD_HAPPINESS] ความสุข ใน [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP]</Text>		<!-- +50% [icon:TRADE_INCOME] [TIP:LOC_PEDIA_CONCEPTS_TRADE_INCOME_TOOLTIP]Trade Income[/TIP], but -3 [icon:YIELD_HAPPINESS] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP]. -->
+			<Text>+50% [icon:TRADE_INCOME] [TIP:LOC_PEDIA_CONCEPTS_TRADE_INCOME_TOOLTIP]รายได้จากการค้า[/TIP], แต่ -3 [icon:YIELD_HAPPINESS] ความสุข ใน [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP]</Text>		<!-- +50% [icon:TRADE_INCOME] [TIP:LOC_PEDIA_CONCEPTS_TRADE_INCOME_TOOLTIP]Trade Income[/TIP], but -3 [icon:YIELD_HAPPINESS] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_TRADE_WINDS_NAME" Language="th_TH">
 			<Text>ลมแห่งการค้า</Text>		<!-- Trade Winds -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_TRADE_WINDS_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_GOLD] ทอง และ [icon:YIELD_HAPPINESS] ความสุข สำหรับ [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resource[/TIP] ที่นำเข้าแต่ละรายการ +1 [icon:Action_Move] แต้มเคลื่อนที่ สำหรับ [icon:UNIT_MERCHANT] พ่อค้า</Text>		<!-- +1 [icon:YIELD_GOLD] and [icon:YIELD_HAPPINESS] for every imported [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resource[/TIP]. +1 [icon:Action_Move] Movement for [icon:UNIT_MERCHANT] Merchants. -->
+			<Text>+1 [icon:YIELD_GOLD] ทอง และ [icon:YIELD_HAPPINESS] ความสุข สำหรับ [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]ทรัพยากร[/TIP] ที่นำเข้าแต่ละรายการ +1 [icon:Action_Move] แต้มเคลื่อนที่ สำหรับ [icon:UNIT_MERCHANT] พ่อค้า</Text>		<!-- +1 [icon:YIELD_GOLD] and [icon:YIELD_HAPPINESS] for every imported [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resource[/TIP]. +1 [icon:Action_Move] Movement for [icon:UNIT_MERCHANT] Merchants. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_UPOSATHA_NAME" Language="th_TH">
 			<Text>อุโปสถะ</Text>		<!-- Uposatha -->
@@ -2692,7 +2692,7 @@
 			<Text>อาณัติ</Text>		<!-- Vassalage -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_VASSALAGE_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_GOLD] ทอง สำหรับทุก [icon:CITYSTATE] [TIP:LOC_PEDIA_CONCEPTS_CITY_STATE_TOOLTIP]City-State[/TIP] ที่คุณเป็น [TIP:LOC_PEDIA_CONCEPTS_SUZERAIN_TOOLTIP]เจ้านคร[/TIP]</Text>		<!-- +3 [icon:YIELD_CULTURE] and [icon:YIELD_GOLD] for every [icon:CITYSTATE] [TIP:LOC_PEDIA_CONCEPTS_CITY_STATE_TOOLTIP]City-State[/TIP] you are [TIP:LOC_PEDIA_CONCEPTS_SUZERAIN_TOOLTIP]Suzerain[/TIP] of. -->
+			<Text>+3 [icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_GOLD] ทอง สำหรับทุก [icon:CITYSTATE] [TIP:LOC_PEDIA_CONCEPTS_CITY_STATE_TOOLTIP]นครรัญ[/TIP] ที่คุณเป็น [TIP:LOC_PEDIA_CONCEPTS_SUZERAIN_TOOLTIP]เจ้านคร[/TIP]</Text>		<!-- +3 [icon:YIELD_CULTURE] and [icon:YIELD_GOLD] for every [icon:CITYSTATE] [TIP:LOC_PEDIA_CONCEPTS_CITY_STATE_TOOLTIP]City-State[/TIP] you are [TIP:LOC_PEDIA_CONCEPTS_SUZERAIN_TOOLTIP]Suzerain[/TIP] of. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_YEOMANRY_NAME" Language="th_TH">
 			<Text>เยอแมนรี</Text>		<!-- Yeomanry -->
@@ -2818,13 +2818,13 @@
 			<Text>การแตกแยก</Text>		<!-- Schism -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_RELIGIOUS_ESPIONAGE_DESCRIPTION" Language="th_TH">
-			<Text>+50% [icon:YIELD_DIPLOMACY] ไปสู่ [icon:ESPIONAGE] การจารกรรม [TIP:LOC_PEDIA_CONCEPTS_ESPIONAGE_TOOLTIP]Espionage[/TIP] , -4 [icon:YIELD_HAPPINESS] ความสุข ใน [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]Homelands[/TIP] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP]</Text>		<!-- +50% [icon:YIELD_DIPLOMACY] towards [icon:ESPIONAGE] Convert Settlement [TIP:LOC_PEDIA_CONCEPTS_ESPIONAGE_TOOLTIP]Espionage[/TIP] actions. -4 [icon:YIELD_HAPPINESS] in [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]Homelands[/TIP] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP]. -->
+			<Text>+50% [icon:YIELD_DIPLOMACY] ไปสู่ [icon:ESPIONAGE] การจารกรรม [TIP:LOC_PEDIA_CONCEPTS_ESPIONAGE_TOOLTIP]Espionage[/TIP] , -4 [icon:YIELD_HAPPINESS] ความสุข ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]บ้านเกิด[/TIP]</Text>		<!-- +50% [icon:YIELD_DIPLOMACY] towards [icon:ESPIONAGE] Convert Settlement [TIP:LOC_PEDIA_CONCEPTS_ESPIONAGE_TOOLTIP]Espionage[/TIP] actions. -4 [icon:YIELD_HAPPINESS] in [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]Homelands[/TIP] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_RELIGIOUS_MERCHANTS_NAME" Language="th_TH">
 			<Text>จิซย่า</Text>		<!-- Jizya -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_RELIGIOUS_MERCHANTS_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_GOLD] ใน[TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP]ที่ไม่ได้นับถือ [icon:NAR_REW_RELIGION][TIP:LOC_PEDIA_CONCEPTS_RELIGION_TOOLTIP]ศาสนาของคุณ[/TIP], -4 [icon:YIELD_HAPPINESS] ความสุข ใน[TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP][TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP]</Text>		<!-- +4 [icon:YIELD_GOLD] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] not following your [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_RELIGION_TOOLTIP]Religion[/TIP]. -4 [icon:YIELD_HAPPINESS] in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP]. -->
+			<Text>+4 [icon:YIELD_GOLD] ใน[TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP]ที่ไม่ได้นับถือ [icon:NAR_REW_RELIGION][TIP:LOC_PEDIA_CONCEPTS_RELIGION_TOOLTIP]ศาสนาของคุณ[/TIP], -4 [icon:YIELD_HAPPINESS] ความสุข ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP]</Text>		<!-- +4 [icon:YIELD_GOLD] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] not following your [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_RELIGION_TOOLTIP]Religion[/TIP]. -4 [icon:YIELD_HAPPINESS] in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_RELIGIOUS_MOVEMENT_NAME" Language="th_TH">
 			<Text>ภาณก</Text>		<!-- Bhanaka -->
@@ -2836,7 +2836,7 @@
 			<Text>สิทธิในการปฏิรูป</Text>		<!-- Ius Reformandi -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_IUS_REFORMANDI_DESCRIPTION" Language="th_TH">
-			<Text>เมื่อคุณแปรสภาพ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่คุณเป็นเจ้าของ, คุณจะได้ [icon:UNIT_MIGRANT] ผู้อพยพ 1 คนและทำลาย [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร 3 หลัง[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] นั้น</Text>		<!-- When you convert a [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] you own, gain a Migrant and damage 3 [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] in that [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. -->
+			<Text>เมื่อคุณเผยแพร่ศาสนาใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่คุณเป็นเจ้าของ, คุณจะได้ [icon:UNIT_MIGRANT] ผู้อพยพ 1 คนและทำลาย [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร 3 หลัง[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] นั้น</Text>		<!-- When you convert a [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] you own, gain a Migrant and damage 3 [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] in that [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_LITURGICAL_DISPUTES_NAME" Language="th_TH">
 			<Text>ข้อพิพาททางพิธีกรรม</Text>		<!-- Liturgical Disputes -->
@@ -16501,7 +16501,7 @@
 			<Text>เทพเจ้าแห่งท้องฟ้า</Text>		<!-- Sky Gods -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_1_DESCRIPTION" Language="th_TH">
-			<Text>เมืองเล็กที่ก่อตั้งใหม่ในดินแดนห่างไกล [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP] จะเริ่มต้นด้วย [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_RELIGION_TOOLTIP]ศาสนา[/TIP] นี้</Text>		<!-- Newly founded [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP] start with this [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_RELIGION_TOOLTIP]Religion[/TIP] in place. -->
+			<Text>[TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP] ที่ก่อตั้งใหม่ใน ดินแดนห่างไกล จะเริ่มต้นด้วย [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_RELIGION_TOOLTIP]ศาสนา[/TIP] นี้</Text>		<!-- Newly founded [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP] start with this [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_RELIGION_TOOLTIP]Religion[/TIP] in place. -->
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BONUS_2_DESCRIPTION" Language="th_TH">
 			<Text>+2 [icon:Action_Move] แต้มเคลื่อนที่ สำหรับ [icon:UNIT_MISSIONARY] มิชชันนารี เมื่อ [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]ขึ้นเรือ[/TIP], +1 [icon:Action_Move] แต้มเคลื่อนที่ สำหรับ [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ยูนิตทางเรือ[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]ยูนิตที่ขึ้นเรือ[/TIP] ทั้งหมด</Text>		<!-- +2 [icon:Action_Move] Movement for [icon:UNIT_MISSIONARY] Missionaries when [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]Embarked[/TIP]. +1 [icon:Action_Move] Movement for all [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]Embarked[/TIP] Units. -->
@@ -16866,7 +16866,7 @@
 			<Text>ปลดล็อกการสร้าง กองเรือสมบัติ ในถิ่นฐานชายฝั่งในดินแดนห่างไกล</Text>		<!-- Unlocks Treasure Fleet spawning in Coastal Settlements in Distant Lands. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_FUTURE_TECH_ATTRIBUTE_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:ATTRIBUTE] คะแนน คุณลักษณะแบบสุ่ม</Text>		<!-- +1 [icon:ATTRIBUTE] Random Attribute Point. -->
+			<Text>+1 [icon:ATTRIBUTE] แต้มคุณลักษณะแบบสุ่ม</Text>		<!-- +1 [icon:ATTRIBUTE] Random Attribute Point. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_FUTURE_TECH_BOOST_DESCRIPTION" Language="th_TH">
 			<Text>ส่งเสริมการพัฒนา สำหรับการเริ่มต้น [icon:RADIAL_TECH] เทคโนโลยีในยุคถัดไป</Text>		<!-- A boost for a starting [icon:RADIAL_TECH] Technology in the next Age. -->

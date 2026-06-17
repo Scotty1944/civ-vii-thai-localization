@@ -1346,7 +1346,7 @@
         <Text>ยกเลิกการดำเนินการทางการทูต[n]{1_initialName}'s[icon:YIELD_DIPLOMACY] อิทธิพลจะได้รับคืน[n]ไม่มีความพยายามใหม่ระหว่างผู้นำเป็นเวลา {2_cooldown} เทิร์น[n]ความสัมพันธ์แย่ลง</Text>		<!-- Cancels the Diplomatic Action.[n]{1_initialName}'s[icon:YIELD_DIPLOMACY] Influence is refunded.[n]No new Endeavors between Leaders for {2_cooldown} turns.[n]Relationships worsen. -->
     </Replace>
     <Replace Tag="LOC_DIPLOMACY_PROJECT_WONDER_CONSTRUCTION_INITIAL" Language="th_TH">
-        <Text>ให้โบนัสแก่การสร้างมหัศจรรย์[n]ได้รับการยอมรับ: คุณจะได้รับ +10%[icon:YIELD_PRODUCTION] กำลังผลิต ในการสร้างมหัศจรรย์ ผู้นำคนอื่นจะได้รับ +6[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +15%[icon:YIELD_PRODUCTION] กำลังผลิต ในการสร้างมหัศจรรย์[n]ถูกปฏิเสธ: ความสัมพันธ์แย่ลง</Text>		<!-- Grants a bonus to Wonder construction.[n]Accepted: You get +10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders. Other Leader receives +6[icon:YIELD_CULTURE] Culture per turn.[n]Supported: Both Leaders get +15%[icon:YIELD_PRODUCTION] Production towards constructing Wonders.[n]Rejected: Relationships worsen. -->
+        <Text>ให้โบนัสแก่การสร้างสิ่งมหัศจรรย์[n]ได้รับการยอมรับ: คุณจะได้รับ +10%[icon:YIELD_PRODUCTION] กำลังผลิต ในการสร้างสิ่งมหัศจรรย์ ผู้นำคนอื่นจะได้รับ +6[icon:YIELD_CULTURE] วัฒนธรรม ต่อเทิร์น[n]สนับสนุน: ผู้นำทั้งสองจะได้รับ +15%[icon:YIELD_PRODUCTION] กำลังผลิต ในการสร้างสิ่งมหัศจรรย์[n]ถูกปฏิเสธ: ความสัมพันธ์แย่ลง</Text>		<!-- Grants a bonus to Wonder construction.[n]Accepted: You get +10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders. Other Leader receives +6[icon:YIELD_CULTURE] Culture per turn.[n]Supported: Both Leaders get +15%[icon:YIELD_PRODUCTION] Production towards constructing Wonders.[n]Rejected: Relationships worsen. -->
     </Replace>
     <Replace Tag="LOC_DIPLOMACY_PROJECT_WONDER_CONSTRUCTION_SUPPORT" Language="th_TH">
         <Text>[icon:YIELD_PRODUCTION] +15% ในการสร้าง สิ่งมหัศจรรย์ สำหรับทั้งสองผู้นำ</Text>		<!-- [icon:YIELD_PRODUCTION] +15% towards constructing Wonders for both Leaders. -->
@@ -1429,13 +1429,13 @@
         <Text>+1 [icon:YIELD_HAPPINESS] ความสุขให้กับแต่ละช่องทรัพยากรในเมืองเล็กนี้ และระยะการค้าเพิ่มขึ้น 5 หน่วย สามารถซื้ออาคารทองเพิ่มเติม [icon:YIELD_GOLD] ในเมืองนี้</Text>		<!-- +1 [icon:YIELD_HAPPINESS] Happiness to each Resource tile in the Town and +5 Trade Route range. Can Purchase additional [icon:YIELD_GOLD] Gold Buildings in this Town. -->
     </Replace>
     <Replace Tag="LOC_MOD_AQ_CITY_REOURCE_VP" Language="th_TH">
-        <Text>+1 [icon:ECONOMIC_VP] [TIP:LOC_PEDIA_CONCEPTS_GDP_TOOLTIP]จีดีพี[/TIP] ต่อรอบ สำหรับ [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]ทรัพยากร[/TIP] ที่มอบให้กับ [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] (ไม่ใช่เมืองเล็ก)</Text>		<!-- +1 [icon:ECONOMIC_VP] [TIP:LOC_PEDIA_CONCEPTS_GDP_TOOLTIP]GDP[/TIP] per turn for [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resources[/TIP] assigned to [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] (not Towns). -->
+        <Text>+1 [icon:ECONOMIC_VP] [TIP:LOC_PEDIA_CONCEPTS_GDP_TOOLTIP]GDP[/TIP] ต่อรอบ สำหรับ [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]ทรัพยากร[/TIP] ที่มอบให้กับ [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] (ไม่ใช่เมืองเล็ก)</Text>		<!-- +1 [icon:ECONOMIC_VP] [TIP:LOC_PEDIA_CONCEPTS_GDP_TOOLTIP]GDP[/TIP] per turn for [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resources[/TIP] assigned to [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] (not Towns). -->
     </Replace>
     <Replace Tag="LOC_MOD_AQ_UNIQUIE_IMPROVEMENT_TOURISM_DESCRIPTION" Language="th_TH">
         <Text>+1 [icon:CULTURE_VP] ท่องเที่ยว สำหรับแต่ละประเภทของพื้นที่พัฒนาพิเศษ ในถิ่นฐานของคุณ</Text>		<!-- +1 [icon:CULTURE_VP] Tourism for each type of Unique Improvement in your Settlements. -->
     </Replace>
     <Replace Tag="LOC_MOD_AQ_GOLD_BUILDING_VP" Language="th_TH">
-        <Text>+2 [icon:ECONOMIC_VP] [TIP:LOC_PEDIA_CONCEPTS_GDP_TOOLTIP]จีดีพี[/TIP] ต่อเทิร์น จาก [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทอง[/TIP]</Text>		<!-- +2 [icon:ECONOMIC_VP] [TIP:LOC_PEDIA_CONCEPTS_GDP_TOOLTIP]GDP[/TIP] per turn from [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Gold Buildings[/TIP]. -->
+        <Text>+2 [icon:ECONOMIC_VP] [TIP:LOC_PEDIA_CONCEPTS_GDP_TOOLTIP]GDP[/TIP] ต่อเทิร์น จาก [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทอง[/TIP]</Text>		<!-- +2 [icon:ECONOMIC_VP] [TIP:LOC_PEDIA_CONCEPTS_GDP_TOOLTIP]GDP[/TIP] per turn from [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Gold Buildings[/TIP]. -->
     </Replace>
     <Replace Tag="LOC_ANT_RESOURCE_MANGOS_TOOLTIP" Language="th_TH">
         <Text>+2 [icon:YIELD_FOOD] อาหาร, +2[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +2 [icon:YIELD_FOOD] Food, +2[icon:YIELD_CULTURE] Culture -->
@@ -2729,7 +2729,7 @@
         <Text>ขยายอาณาจักรของคุณให้กว้างไกล โดยการก่อตั้งและยึดครองถิ่นฐานให้มากกว่ารัฐอารยธรรมอื่นๆ!</Text>		<!-- Spread your empire far and wide by establishing and capturing more settlements than any other civilization! -->
     </Replace>
     <Replace Tag="LOC_TUTORIAL_LEGACY_PATH_CULTURE_DESCRIPTION" Language="th_TH">
-        <Text>จงเป็นที่อิจฉาของวัฒนธรรมอื่นๆ ด้วยการสร้างมหัศจรรย์ของโลกที่ยิ่งใหญ่!</Text>		<!-- Become the envy of all other cultures by building great wonders of the world! -->
+        <Text>จงเป็นที่อิจฉาของวัฒนธรรมอื่นๆ ด้วยการสร้างสิ่งมหัศจรรย์ของโลกที่ยิ่งใหญ่!</Text>		<!-- Become the envy of all other cultures by building great wonders of the world! -->
     </Replace>
     <Replace Tag="LOC_TUTORIAL_LEGACY_PATH_SCIENCE_DESCRIPTION" Language="th_TH">
         <Text>วิจัยและรับความรู้ทางเทคโนโลยี เพื่อก้าวสู่การเป็นอารยธรรมที่ก้าวหน้าที่สุดในโลก!</Text>		<!-- Research and acquire technological knowledge to become the most advanced civilization in the world! -->
