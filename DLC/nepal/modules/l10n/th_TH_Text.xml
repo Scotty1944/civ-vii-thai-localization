@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" ?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_CITIZEN_NEPAL_MALE_1" Language="th_TH">
@@ -320,7 +320,7 @@
 			<Text>ฮิมาล I</Text>		<!-- Himāl I -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_HIMAL_I_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:CITY_UNIMPROVED] ภูเขา ในเมืองหลวงของคุณ, +1 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:CITY_UNIMPROVED] ภูเขา ในถิ่นฐานอื่นๆ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP]</Text>		<!--  +2 [icon:YIELD_CULTURE] Culture on [icon:CITY_UNIMPROVED] Mountain Terrain in your [icon:NOTIFICATION_SELECT_CAPITAL] Capital, +1 [icon:YIELD_CULTURE] Culture on [icon:CITY_UNIMPROVED] Mountain Terrain in other [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP]. -->
+			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:CITY_UNIMPROVED] ภูเขา ในเมืองหลวงของคุณ, +1 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:CITY_UNIMPROVED] ภูเขา ในถิ่นฐานอื่นๆ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP]</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture on [icon:CITY_UNIMPROVED] Mountain Terrain in your [icon:NOTIFICATION_SELECT_CAPITAL] Capital, +1 [icon:YIELD_CULTURE] Culture on [icon:CITY_UNIMPROVED] Mountain Terrain in other [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_JYUMDO_BAGHA_MOUNTAIN_WALLS_DESCRIPTION" Language="th_TH">
 			<Text>All [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขตทั้งหมด[/TIP] ที่ติดกับ [icon:CITY_UNIMPROVED] ภูเขาจะได้รับ [icon:Action_Fortify] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]การเสริมกำลัง[/TIP], เป็นผลครั้งเดียว, ปฏิบัติตามกฎการวาง [TIP:LOC_PEDIA_CONCEPTS_WALL_TOOLTIP]กำแพง[/TIP] ตามปกติ</Text>		<!-- All [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] adjacent to [icon:CITY_UNIMPROVED] Mountains receive [icon:Action_Fortify] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Defensive Fortifications[/TIP], one time effect. Follows normal [TIP:LOC_PEDIA_CONCEPTS_WALL_TOOLTIP]Walls[/TIP] placement rules. -->
@@ -697,6 +697,24 @@
 		<Replace Tag="LOC_TOT_30040C_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
+		<Replace Tag="LOC_TOT_30083A_STORYTITLE" Language="th_TH">
+			<Text>Code of the Mallas</Text>		<!-- Code of the Mallas -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30083A_COMPLETION" Language="th_TH">
+			<Text>The expansion of Nepali society has not been without cost. A new measure to bring some form of standard governance to its increasingly diverse cities has led to a sustained protest from religious leaders - no state rites, no state rituals, until religious law is recognized as the basis for secular law.</Text>		<!-- The expansion of Nepali society has not been without cost. A new measure to bring some form of standard governance to its increasingly diverse cities has led to a sustained protest from religious leaders - no state rites, no state rituals, until religious law is recognized as the basis for secular law. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30083B_NAME" Language="th_TH">
+			<Text>Allow priests and holy men a hand in drafting a new code.</Text>		<!-- Allow priests and holy men a hand in drafting a new code. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30083B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30083C_NAME" Language="th_TH">
+			<Text>Nonsense. The shripech rules all.</Text>		<!-- Nonsense. The shripech rules all. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30083C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
 		<Replace Tag="LOC_11069B_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
@@ -764,7 +782,7 @@
 			<Text>[B]ภูเขา[/B] เป็นเอกลักษณ์สำคัญของ [B]เนปาล[/B]</Text>		<!-- [B]Mountains[/B] were an important part of [B]Nepal's[/B] identity. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_MOUNTAIN_SETTLEMENTS_NEPAL_NARRATIVE" Language="th_TH">
-			<Text>ในเขาวงกตของหุบเขาและหุบเหวที่ระบุถึงพื้นที่สูง หลังคาของ {1_Civilization_Adj} ดินแดน การเข้าถึงของรัฐ {1_Civilization_Adj} เริ่มอ่อนแรง เจ้าหน้าที่เก็บภาษีและผู้เก็บสถิติประชากรหลงทาง และผู้คนที่นั่นยังคงเป็นอิสระและภาคภูมิใจ</Text>		<!-- In the maze of canyons and valleys that mark the high country, the roof of {1_Civilization_Adj} lands, the reach of the {1_Civilization_Adj} state falters. Tax collectors and census-takers lose their way, and the people there remain free and proud.  -->
+			<Text>ในเขาวงกตของหุบเขาและหุบเหวที่ระบุถึงพื้นที่สูง หลังคาของ {1_Civilization_Adj} ดินแดน การเข้าถึงของรัฐ {1_Civilization_Adj} เริ่มอ่อนแรง เจ้าหน้าที่เก็บภาษีและผู้เก็บสถิติประชากรหลงทาง และผู้คนที่นั่นยังคงเป็นอิสระและภาคภูมิใจ</Text>		<!-- In the maze of canyons and valleys that mark the high country, the roof of {1_Civilization_Adj} lands, the reach of the {1_Civilization_Adj} state falters. Tax collectors and census-takers lose their way, and the people there remain free and proud. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_ASHOKA_NEPAL_TOOLTIP" Language="th_TH">
 			<Text>[B]อโศก[/B] มาจากทวีปเดียวกับ [B]เนปาล[/B]</Text>		<!-- [B]Ashoka[/B] was from the same continent as [B]Nepal[/B]. -->

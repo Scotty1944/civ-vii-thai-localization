@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" ?>
 <Database>
 	<LocalizedText>
 		<Replace Tag="LOC_CITIZEN_ICELAND_MALE_1" Language="th_TH">
@@ -1238,7 +1238,7 @@
 			<Text>ยูนิตเรือหนักพิเศษ ระดับ 3 ของไอซ์แลนด์ [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP], มอบ [icon:YIELD_SCIENCE] วิทยาศาสตร์ เท่ากับ 25% ของ [icon:Action_Pillage] ผลผลิตจากการโจมตีและ [icon:Action_Heal] การฟื้นฟู, มี 3 [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]Sight[/TIP]</Text>		<!-- Tier 3 Iceland Unique Heavy [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP]. +1 [icon:NAR_REW_COMBAT] Combat Strength for each improved [icon:NOTIFICATION_DISCOVER_NATURAL_WONDER] Natural Wonder in your empire. Grants [icon:YIELD_SCIENCE] Science equal to 25% of [icon:Action_Pillage] Pillage Yields and [icon:Action_Heal] Healing. Has 3 [icon:Action_Showall] [TIP:LOC_PEDIA_CONCEPTS_SIGHT_TOOLTIP]Sight[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_ABILITY_VIKINGR_DESCRIPTION" Language="th_TH">
-			<Text>ได้รับ [icon:YIELD_SCIENCE] วิทยาการ เท่ากับ 25% ของ [icon:Action_Pillage] ผลผลิตการปล้น และ [icon:Action_Heal] การรักษา</Text>		<!--  +1 [icon:NAR_REW_COMBAT] Combat Strength for each improved [icon:NOTIFICATION_DISCOVER_NATURAL_WONDER] Natural Wonder in your empire. Grants [icon:YIELD_SCIENCE] Science equal to 25% of [icon:Action_Pillage] Pillage Yields and [icon:Action_Heal] Healing. -->
+			<Text>ได้รับ [icon:YIELD_SCIENCE] วิทยาการ เท่ากับ 25% ของ [icon:Action_Pillage] ผลผลิตการปล้น และ [icon:Action_Heal] การรักษา</Text>		<!-- +1 [icon:NAR_REW_COMBAT] Combat Strength for each improved [icon:NOTIFICATION_DISCOVER_NATURAL_WONDER] Natural Wonder in your empire. Grants [icon:YIELD_SCIENCE] Science equal to 25% of [icon:Action_Pillage] Pillage Yields and [icon:Action_Heal] Healing. -->
 		</Replace>
 		<Replace Tag="LOC_TOT_30029A_STORYTITLE" Language="th_TH">
 			<Text>น้ำแข็งและไฟ</Text>		<!-- Ice and Fire -->
@@ -1257,6 +1257,24 @@
 		</Replace>
 		<Replace Tag="LOC_TOT_30029C_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30072A_STORYTITLE" Language="th_TH">
+			<Text>Thought and Memory</Text>		<!-- Thought and Memory -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30072A_COMPLETION" Language="th_TH">
+			<Text>For young Icelandic sailors, the days of viking raids belong not to their grandfathers, but to some distant “Iceland” long in the past. A new military ad campaign, though, seeks to make these relevant again: “Write your own saga”, the poster proclaims in runes, and features an image of a bearded warrior leaping to the shore, assault rifle in hand.</Text>		<!-- For young Icelandic sailors, the days of viking raids belong not to their grandfathers, but to some distant “Iceland” long in the past. A new military ad campaign, though, seeks to make these relevant again: “Write your own saga”, the poster proclaims in runes, and features an image of a bearded warrior leaping to the shore, assault rifle in hand. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30072B_NAME" Language="th_TH">
+			<Text>Keep the sagas as poems of a gone but remembered age.</Text>		<!-- Keep the sagas as poems of a gone but remembered age. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30072B_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30072C_NAME" Language="th_TH">
+			<Text>Valhalla is timeless, and the valkyries still fly.</Text>		<!-- Valhalla is timeless, and the valkyries still fly. -->
+		</Replace>
+		<Replace Tag="LOC_TOT_30072C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward}.</Text>		<!-- {1_reward}. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_NATURAL_WONDERS_DESCRIPTION" Language="th_TH">
 			<Text>เป็นคนแรกที่ค้นพบ [B]สิ่งมหัศจรรย์ทางธรรมชาติ[/B]</Text>		<!-- Be the first to discover a [B]Natural Wonder[/B]. -->
