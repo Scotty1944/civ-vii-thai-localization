@@ -25,9 +25,8 @@
 		<Criteria id="modern-age-current">
 			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
-		<Criteria id="exploration-age-persist" any="true">
-			<AgeInUse>AGE_EXPLORATION</AgeInUse>
-			<AgeInUse>AGE_MODERN</AgeInUse>
+		<Criteria id="exploration-age-persist">
+			<AgeAtOrBefore>AGE_EXPLORATION</AgeAtOrBefore>
 		</Criteria>
 		<Criteria id="always">
 			<AlwaysMet />
@@ -150,9 +149,6 @@
 		</ActionGroup>
 		<ActionGroup id="age-exploration-main" scope="game" criteria="exploration-age-current">
 			<Actions>
-				<UpdateArt>
-					<Item>age-exploration</Item>
-				</UpdateArt>
 				<UpdateDatabase>
 					<Item>data/age-active.xml</Item>
 					<Item>data/ai-exploration.xml</Item>

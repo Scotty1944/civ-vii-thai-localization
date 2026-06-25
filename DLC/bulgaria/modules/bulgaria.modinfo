@@ -175,6 +175,7 @@
 					<Item>text/MoveLaterText.xml</Item>
 					<Item>text/NamedPlacesText.xml</Item>
 					<Item>text/NarrativeStoriesText.xml</Item>
+					<Item>text/tot-NarrativeStoriesText.xml</Item>
 					<Item>text/UnitText.xml</Item>
 					<Item>text/UnlockText.xml</Item>
 					<Item>l10n/ModuleText.xml</Item>
@@ -205,8 +206,6 @@
 					<Item>data/unlocks-base-standard.xml</Item>
 					<Item>data/unlocks-antiquity.xml</Item>
 					<Item>data/unlocks-syncretism.xml</Item>
-					<Item>data/tot-base-narrative-stories-gameeffects.xml</Item>
-					<Item>data/tot-base-narrative-stories.xml</Item>
 					<Item>data/narrative-stories-common-gameeffects.xml</Item>
 					<Item>data/citizen-names.xml</Item>
 					<Item>data/loading-info-exploration.xml</Item>
@@ -221,8 +220,8 @@
 				<UpdateDatabase>
 					<Item>data/civilizations-antiquity.xml</Item>
 					<Item>data/progression-trees-culture-unique-aq.xml</Item>
-					<Item>data/tot-narrative-stories-gameeffects.xml</Item>
-					<Item>data/tot-narrative-stories.xml</Item>
+					<Item>data/tot-antiquity-narrative-stories-gameeffects.xml</Item>
+					<Item>data/tot-antiquity-narrative-stories.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -248,6 +247,8 @@
 				<UpdateDatabase>
 					<Item>data/civilizations-modern.xml</Item>
 					<Item>data/progression-trees-culture-unique-mo.xml</Item>
+					<Item>data/tot-modern-narrative-stories-gameeffects.xml</Item>
+					<Item>data/tot-modern-narrative-stories.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>

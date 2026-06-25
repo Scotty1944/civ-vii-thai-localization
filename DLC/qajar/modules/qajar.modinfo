@@ -224,8 +224,6 @@
 					<Item>data/loading-info-modern.xml</Item>
 					<Item>data/metaprogression-shared.xml</Item>
 					<Item>data/metaprogression-shared-gameeffects.xml</Item>
-					<Item>data/tot-base-narrative-stories-gameeffects.xml</Item>
-					<Item>data/tot-base-narrative-stories.xml</Item>
 					<Item>data/narrative-stories-common-gameeffects.xml</Item>
 				</UpdateDatabase>
 			</Actions>
@@ -235,6 +233,8 @@
 				<UpdateDatabase>
 					<Item>data/civilizations-antiquity.xml</Item>
 					<Item>data/progression-trees-culture-unique-aq.xml</Item>
+					<Item>data/tot-antiquity-narrative-stories-gameeffects.xml</Item>
+					<Item>data/tot-antiquity-narrative-stories.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -243,6 +243,8 @@
 				<UpdateDatabase>
 					<Item>data/civilizations-exploration.xml</Item>
 					<Item>data/progression-trees-culture-unique-ex.xml</Item>
+					<Item>data/tot-exploration-narrative-stories-gameeffects.xml</Item>
+					<Item>data/tot-exploration-narrative-stories.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -287,8 +289,6 @@
 		<ActionGroup id="age-antiquity-assyria-qajar" scope="game" criteria="antiquity-age-assyria">
 			<Actions>
 				<UpdateDatabase>
-					<Item>data/tot-narrative-stories-gameeffects.xml</Item>
-					<Item>data/tot-narrative-stories.xml</Item>
 					<Item>data/unlocks-antiquity-assyria.xml</Item>
 				</UpdateDatabase>
 			</Actions>

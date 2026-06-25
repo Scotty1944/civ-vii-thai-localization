@@ -50,6 +50,9 @@
 		<Criteria id="lakshmibai-current-shell">
 			<ModIsEnabled>lakshmibai</ModIsEnabled>
 		</Criteria>
+		<Criteria id="heian-current-shell">
+			<ModIsEnabled>heian</ModIsEnabled>
+		</Criteria>
 	</ActionCriteria>
 	<ActionGroups>
 		<ActionGroup id="nepal-art" scope="game" criteria="always">
@@ -211,8 +214,6 @@
 					<Item>data/traditions-gameeffects.xml</Item>
 					<Item>data/unlocks-base-standard.xml</Item>
 					<Item>data/movelater-base-standard.xml</Item>
-					<Item>data/tot-base-narrative-stories-gameeffects.xml</Item>
-					<Item>data/tot-base-narrative-stories.xml</Item>
 					<Item>data/narrative-stories-common-gameeffects.xml</Item>
 					<Item>data/unlocks-syncretism.xml</Item>
 					<Item>data/unlocks-exploration.xml</Item>
@@ -232,8 +233,8 @@
 					<Item>data/civilizations-antiquity.xml</Item>
 					<Item>data/constructibles-antiquity.xml</Item>
 					<Item>data/progression-trees-culture-unique-aq.xml</Item>
-					<Item>data/tot-narrative-stories-gameeffects.xml</Item>
-					<Item>data/tot-narrative-stories.xml</Item>
+					<Item>data/tot-antiquity-narrative-stories-gameeffects.xml</Item>
+					<Item>data/tot-antiquity-narrative-stories.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -244,6 +245,8 @@
 					<Item>data/constructibles-antiquity.xml</Item>
 					<Item>data/constructibles-exploration.xml</Item>
 					<Item>data/progression-trees-culture-unique-ex.xml</Item>
+					<Item>data/tot-exploration-narrative-stories-gameeffects.xml</Item>
+					<Item>data/tot-exploration-narrative-stories.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -302,6 +305,13 @@
 			<Actions>
 				<UpdateDatabase>
 					<Item>config/config-ashoka-alt.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-nepal-heian" scope="shell" criteria="heian-current-shell">
+			<Actions>
+				<UpdateDatabase>
+					<Item>config/config-heian.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>

@@ -21,10 +21,8 @@
 		<Criteria id="modern-age-current">
 			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
-		<Criteria id="antiquity-age-persist" any="true">
-			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
-			<AgeInUse>AGE_EXPLORATION</AgeInUse>
-			<AgeInUse>AGE_MODERN</AgeInUse>
+		<Criteria id="antiquity-age-persist">
+			<AgeAtOrBefore>AGE_ANTIQUITY</AgeAtOrBefore>
 		</Criteria>
 		<Criteria id="always">
 			<AlwaysMet />
@@ -152,9 +150,6 @@
 		</ActionGroup>
 		<ActionGroup id="age-antiquity-main" scope="game" criteria="antiquity-age-current">
 			<Actions>
-				<UpdateArt>
-					<Item>age-antiquity</Item>
-				</UpdateArt>
 				<UpdateDatabase>
 					<Item>data/age-active.xml</Item>
 					<Item>data/ai-antiquity.xml</Item>

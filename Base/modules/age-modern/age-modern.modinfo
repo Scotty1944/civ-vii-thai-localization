@@ -26,7 +26,7 @@
 			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
 		<Criteria id="modern-age-persist" any="true">
-			<AgeInUse>AGE_MODERN</AgeInUse>
+			<AgeAtOrBefore>AGE_MODERN</AgeAtOrBefore>
 		</Criteria>
 		<Criteria id="always">
 			<AlwaysMet />
@@ -147,9 +147,6 @@
 		</ActionGroup>
 		<ActionGroup id="age-modern-main" scope="game" criteria="modern-age-current">
 			<Actions>
-				<UpdateArt>
-					<Item>age-modern</Item>
-				</UpdateArt>
 				<UpdateDatabase>
 					<Item>data/age-active.xml</Item>
 					<Item>data/ai-modern.xml</Item>
