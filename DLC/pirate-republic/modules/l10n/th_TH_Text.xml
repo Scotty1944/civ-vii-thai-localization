@@ -335,7 +335,7 @@
 			<Text>โจรสลัด สมัยใหม่</Text>		<!-- Pirate Modernization -->
 		</Replace>
 		<Replace Tag="LOC_PIRATE_AQ_MOD_FREE_SETTLER_DESCRIPTION" Language="th_TH">
-			<Text>รับ 1 [icon:UNIT_SETTLER] ผู้ตั้งถิ่นฐาน ฟรี</Text>		<!-- Gain 1 [icon:UNIT_SETTLER] Settler for free. -->
+			<Text>มอบ [B]1 [icon:UNIT_SETTLER] ผู้ตั้งถิ่นฐาน[/B] ฟรี</Text>		<!-- Gain [B]1 [icon:UNIT_SETTLER] Settler[/B] for free. -->
 		</Replace>
 		<Replace Tag="LOC_ARTICLES_OF_AGREEMENTS_MOD_BUCCANEER_LOOTING_DESCRIPTION" Language="th_TH">
 			<Text>[icon:UNIT_BUCCANEER] บัคคาเนียร์ได้รับเลื่อนขั้น [icon:NAR_REW_PROMOTION] การปล้น[TIP:LOC_PEDIA_CONCEPTS_PROMOTION_TOOLTIP]Promotion[/TIP] ฟรี</Text>		<!-- [icon:UNIT_BUCCANEER] Buccaneers gain the [icon:NAR_REW_PROMOTION] Looting [TIP:LOC_PEDIA_CONCEPTS_PROMOTION_TOOLTIP]Promotion[/TIP] for free. -->
@@ -344,7 +344,7 @@
 			<Text>[icon:UNIT_BUCCANEER] บัคคาเนียร์ได้รับพลัง 1 ครั้งในการสร้าง [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP]</Text>		<!-- [icon:UNIT_BUCCANEER] Buccaneers gain 1 charge to create a new [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Town[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_ENEMY_OF_ALL_NATIONS_MOD_TREASURE_FLEET_CS_DESCRIPTION" Language="th_TH">
-			<Text>+15 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [TIP:LOC_PEDIA_CONCEPTS_MILITARY_UNIT_TOOLTIP]ยูนิตทหารทั้งหมด[/TIP] เมื่อสู้กับ [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]ขบวนสมบัติ[/TIP]</Text>		<!-- +15 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for all [TIP:LOC_PEDIA_CONCEPTS_MILITARY_UNIT_TOOLTIP]Military Units[/TIP] against [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP]. -->
+			<Text>[B]+15 [icon:NAR_REW_COMBAT][/B] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [TIP:LOC_PEDIA_CONCEPTS_MILITARY_UNIT_TOOLTIP]ยูนิตทหารทั้งหมด[/TIP] เมื่อสู้กับ [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]ขบวนสมบัติ[/TIP]</Text>		<!-- [B]+15 [icon:NAR_REW_COMBAT][/B] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for all [TIP:LOC_PEDIA_CONCEPTS_MILITARY_UNIT_TOOLTIP]Military Units[/TIP] against [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_ENEMY_OF_ALL_NATIONS_MOD_TREASURE_FLEET_EXTRA_VP_DESCRIPTION_ALT" Language="th_TH">
 			<Text>+100% สินค้าจากขบวนเรือบรรทุกสมบัติที่ถูกยึด [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]ขบวนเรือบรรทุกสมบัติ[/TIP]</Text>		<!-- +100% Cargo from captured [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP]. -->
@@ -353,14 +353,13 @@
 			<Text>แก๊งบังคับทหาร I</Text>		<!-- Press Gangs I -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_PRESS_GANGS_I_DESCRIPTION" Language="th_TH">
-			<Text>+100% กำลังผลิต และ ทอง สำหรับการฝึก ยูนิตทางทะเลเบา,
-[icon:UNIT_FLEET_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]ผู้บัญชาการกองเรือ[/TIP] ได้รับ [icon:NAR_REW_PROMOTION] [TIP:LOC_PROMOTION_FLEET_LOOTING_DESCRIPTION]โปรโมชั่นปล้น[/TIP] ฟรี</Text>		<!-- +100% [icon:YIELD_PRODUCTION] Production and [icon:YIELD_GOLD] Gold towards training Light Naval Units. [icon:UNIT_FLEET_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Fleet Commander[/TIP] gain the [icon:NAR_REW_PROMOTION] [TIP:LOC_PROMOTION_FLEET_LOOTING_DESCRIPTION]Looting Promotion[/TIP] for free. -->
+			<Text>[B]+100% [icon:YIELD_PRODUCTION][/B] และ [icon:YIELD_GOLD] สำหรับการฝึก [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ยูนิตทางทะเล[/TIP], [icon:UNIT_FLEET_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]ผู้บัญชาการเรือ[/TIP] จะได้รับ [icon:NAR_REW_PROMOTION] [TIP:LOC_PROMOTION_FLEET_LOOTING_DESCRIPTION]การเลื่อนขั้นปล้นสะดม[/TIP] ฟรี</Text>		<!-- [B]+100% [icon:YIELD_PRODUCTION][/B] and [icon:YIELD_GOLD] towards training Light [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP]. [icon:UNIT_FLEET_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Fleet Commander[/TIP] gain the [icon:NAR_REW_PROMOTION] [TIP:LOC_PROMOTION_FLEET_LOOTING_DESCRIPTION]Looting Promotion[/TIP] for free. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_PRESS_GANGS_II_NAME" Language="th_TH">
 			<Text>เพรส แก๊งส์ II</Text>		<!-- Press Gangs II -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_PRESS_GANGS_II_DESCRIPTION" Language="th_TH">
-			<Text>+150% [icon:YIELD_PRODUCTION] กำลังผลิต และ [icon:YIELD_GOLD] ทอง เพื่อฝึก ยูนิตทะเลเบา [icon:UNIT_FLEET_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]ผู้บัญชาการกองเรือ[/TIP] ได้รับ [icon:NAR_REW_PROMOTION] [TIP:LOC_PROMOTION_FLEET_LOOTING_DESCRIPTION]โปรโมชั่นปล้น[/TIP] ฟรี</Text>		<!-- +150% [icon:YIELD_PRODUCTION] Production and [icon:YIELD_GOLD] Gold towards training Light Naval Units. [icon:UNIT_FLEET_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Fleet Commander[/TIP] gain the [icon:NAR_REW_PROMOTION] [TIP:LOC_PROMOTION_FLEET_LOOTING_DESCRIPTION]Looting Promotion[/TIP] for free. -->
+			<Text>[B]+150% [icon:YIELD_PRODUCTION][/B] และ [icon:YIELD_GOLD] สำหรับการฝึก [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ยูนิตทางทะเล[/TIP], [icon:UNIT_FLEET_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]ผู้บัญชาการกองเรือ[/TIP] ได้รับ [icon:NAR_REW_PROMOTION] [TIP:LOC_PROMOTION_FLEET_LOOTING_DESCRIPTION]การเลื่อนขั้นปล้นสะดม[/TIP] ฟรี</Text>		<!-- [B]+150% [icon:YIELD_PRODUCTION][/B] and [icon:YIELD_GOLD] towards training Light [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP]. [icon:UNIT_FLEET_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Fleet Commander[/TIP] gain the [icon:NAR_REW_PROMOTION] [TIP:LOC_PROMOTION_FLEET_LOOTING_DESCRIPTION]Looting Promotion[/TIP] for free. -->
 		</Replace>
 		<Replace Tag="LOC_ENEMY_OF_ALL_NATIONS_MOD_TREASURE_FLEET_CS_PREVIEW" Language="th_TH">
 			<Text>+{1_Amount} ศัตรูของทุกชาติ</Text>		<!-- +{1_Amount} Enemy of All Nations -->
@@ -372,13 +371,13 @@
 			<Text>แบล็ก แฟล็ก I</Text>		<!-- Black Flag I -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_BLACK_FLAG_I_DESCRIPTION" Language="th_TH">
-			<Text>+50 [icon:YIELD_GOLD] ทอง (สเกลตามความเร็วเกม) จาก [icon:Action_Pillage] การปล้น [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]เส้นทางการค้า[/TIP], +50% ผลผลิต และ [icon:Action_Heal] การรักษา จาก [icon:Action_Pillage] การปล้นทางชายฝั่งด้วยยูนิตทางทะเล</Text>		<!-- +50 [icon:YIELD_GOLD] Gold (Scales with Game Speed) from [icon:Action_Pillage] Plundering [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Routes[/TIP]. +50% Yields and [icon:Action_Heal] Healing from [icon:Action_Pillage] Coastal Raiding with Naval Units. -->
+			<Text>[B]+50 [icon:YIELD_GOLD][/B] (ปรับตามความเร็วเกม) จาก [icon:Action_Pillage] การปล้นสะดม [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]เส้นทางการค้า[/TIP], +50% ผลผลิต และ [icon:Action_Heal] ฟื้นฟู จาก [icon:Action_Pillage] การปล้นสะดม ทางชายฝั่งด้วย [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ยูนิตทางทะเล[/TIP]</Text>		<!-- [B]+50 [icon:YIELD_GOLD][/B] (Scales with Game Speed) from [icon:Action_Pillage] Plundering [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Routes[/TIP]. +50% Yields and [icon:Action_Heal] Healing from [icon:Action_Pillage] Coastal Raiding with [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_BLACK_FLAG_II_NAME" Language="th_TH">
 			<Text>แบล็ก แฟล็ก II</Text>		<!-- Black Flag II -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_BLACK_FLAG_II_DESCRIPTION" Language="th_TH">
-			<Text>+100 [icon:YIELD_GOLD] ทอง (ขึ้นกับความเร็วเกม) จาก [icon:Action_Pillage] ปล้น [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]เส้นทางการค้า[/TIP], +100% ผลผลิต และ [icon:Action_Heal] การรักษา จาก [icon:Action_Pillage] การปล้นชายฝั่งด้วยยูนิตทางทะเล, [icon:UNIT_FLEET_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]ผู้บัญชาการกองเรือ[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ยูนิตทางทะเล[/TIP] ได้รับ [TIP:LOC_PEDIA_CONCEPTS_STEALTH_TOOLTIP]การลอบเร้น[/TIP] บนเกาะวงแหวน</Text>		<!-- +100 [icon:YIELD_GOLD] Gold (Scales with Game Speed) from [icon:Action_Pillage] Plundering [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Routes[/TIP]. +100% Yields and [icon:Action_Heal] Healing from [icon:Action_Pillage] Coastal Raiding with Naval Units. [icon:UNIT_FLEET_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Fleet Commanders[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] gain [TIP:LOC_PEDIA_CONCEPTS_STEALTH_TOOLTIP]Stealth[/TIP] on Atolls. -->
+			<Text>[B]+100 [icon:YIELD_GOLD][/B] (ปรับตามความเร็วเกม) จาก [icon:Action_Pillage] ปล้น [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]เส้นทางการค้า[/TIP], +100% ผลผลิต และ [icon:Action_Heal] ฟื้นฟู จาก [icon:Action_Pillage] การปล้นสะดม ทางชายฝั่งด้วย [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ยูนิตทางทะเล[/TIP], [icon:UNIT_FLEET_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]ผู้บัญชาการกองเรือ[/TIP] และ ยูนิตทางทะเล ได้รับ [TIP:LOC_PEDIA_CONCEPTS_STEALTH_TOOLTIP]การลอบเร้น[/TIP] บนเกาะวงแหวน</Text>		<!-- [B]+100 [icon:YIELD_GOLD][/B] (Scales with Game Speed) from [icon:Action_Pillage] Plundering [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Routes[/TIP]. +100% Yields and [icon:Action_Heal] Healing from [icon:Action_Pillage] Coastal Raiding with [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP]. [icon:UNIT_FLEET_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Fleet Commanders[/TIP] and Naval Units gain [TIP:LOC_PEDIA_CONCEPTS_STEALTH_TOOLTIP]Stealth[/TIP] on Atolls. -->
 		</Replace>
 		<Replace Tag="LOC_BLACK_FLAG_STEALTH_PREVIEW" Language="th_TH">
 			<Text>[TIP:LOC_PEDIA_CONCEPTS_STEALTH_TOOLTIP]การลอบเร้น[/TIP] จาก Black Flag</Text>		<!-- [TIP:LOC_PEDIA_CONCEPTS_STEALTH_TOOLTIP]Stealth[/TIP] from Black Flag. -->
@@ -390,14 +389,13 @@
 			<Text>พี่น้องแห่งชายฝั่ง I</Text>		<!-- Brethren of the Coast I -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_PIRATE_REPUBLIC_SYNCRETISM_ANTIQUITY_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_PRODUCTION] กำลังผลิต บน [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP] บนหรือติดกับชายฝั่ง, -1 [icon:YIELD_HAPPINESS] ความสุข บน [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP] ที่ไม่อยู่บนหรือติดกับชายฝั่ง</Text>		<!-- +2 [icon:YIELD_PRODUCTION] Production on [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] on or adjacent to Coast. -1 [icon:YIELD_HAPPINESS] Happiness on [icon:CITY_URBAN] Districts not on or adjacent to Coast. -->
+			<Text>[B]+2 [icon:YIELD_PRODUCTION][/B] บน [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP] บนหรือติดกับชายฝั่ง, [B]-1 [icon:YIELD_HAPPINESS][/B] ความสุข บน [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP] ที่ไม่อยู่บนหรือติดกับชายฝั่ง</Text>		<!-- [B]+2 [icon:YIELD_PRODUCTION][/B] on [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] on or adjacent to Coast. [B]-1 [icon:YIELD_HAPPINESS][/B] on [icon:CITY_URBAN] Districts not on or adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_PIRATE_REPUBLIC_SYNCRETISM_MODERN_NAME" Language="th_TH">
 			<Text>พี่น้องแห่งชายฝั่ง II</Text>		<!-- Brethren of the Coast II -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_PIRATE_REPUBLIC_SYNCRETISM_MODERN_DESCRIPTION" Language="th_TH">
-			<Text>+3 กำลังผลิต ใน [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP] ที่อยู่บนหรือติดชายฝั่ง
--2 ความสุข ใน [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP] ที่ไม่อยู่บนหรือติดชายฝั่ง</Text>		<!-- +3 [icon:YIELD_PRODUCTION] Production on [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] on or adjacent to Coast. -2 [icon:YIELD_HAPPINESS] Happiness on [icon:CITY_URBAN] Districts not on or adjacent to Coast. -->
+			<Text>[B]+3 [icon:YIELD_PRODUCTION][/B] ใน [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP] ที่อยู่บนหรือติดชายฝั่ง, [B]-2 [icon:YIELD_HAPPINESS][/B] ใน [icon:CITY_URBAN] เขต ที่ไม่อยู่บนหรือติดชายฝั่ง</Text>		<!-- [B]+3 [icon:YIELD_PRODUCTION][/B] on [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] on or adjacent to Coast. [B]-2 [icon:YIELD_HAPPINESS][/B] on [icon:CITY_URBAN] Districts not on or adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_PRESS_GANGS_NAME" Language="th_TH">
 			<Text>แก๊งบังคับคนขึ้นเรือ</Text>		<!-- Press Gangs -->
@@ -409,7 +407,7 @@
 			<Text>ชีวิตสุขสนุกและสั้น</Text>		<!-- Merry Life and a Short One -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_MERRY_LIFE_AND_A_SHORT_ONE_DESCRIPTION" Language="th_TH">
-			<Text>เมื่อคุณกำจัดยูนิต[TIP:LOC_PEDIA_CONCEPTS_SUPPORT_UNIT_TOOLTIP]สนับสนุน[/TIP] รับ [icon:YIELD_GOLD] ทอง เท่ากับค่ากำลังผลิตของยูนิตนั้น เมื่อคุณกำจัดยูนิต[TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ทางเรือ[/TIP] รับ [icon:YIELD_GOLD] ทอง เท่ากับ 25% ของค่ากำลังผลิตของยูนิตนั้น</Text>		<!-- When you defeat a [TIP:LOC_PEDIA_CONCEPTS_SUPPORT_UNIT_TOOLTIP]Support Unit[/TIP], gain [icon:YIELD_GOLD] Gold equal to the Unit’s [icon:YIELD_PRODUCTION] Production cost. When you defeat a [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP], gain [icon:YIELD_GOLD] Gold equal to 25% of the Unit’s [icon:YIELD_PRODUCTION] Production cost. -->
+			<Text>เมื่อคุณกำจัด [TIP:LOC_PEDIA_CONCEPTS_SUPPORT_UNIT_TOOLTIP]ยูนิตสนับสนุน[/TIP] รับ [icon:YIELD_GOLD] เท่ากับค่า [icon:YIELD_PRODUCTION] ที่ยูนิตมี เมื่อคุณกำจัด [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ยูนิตทางน้ำ[/TIP], รับ [icon:YIELD_GOLD] เท่ากับ 25% ของค่า [icon:YIELD_PRODUCTION] ที่ยูนิตมี</Text>		<!-- When you defeat a [TIP:LOC_PEDIA_CONCEPTS_SUPPORT_UNIT_TOOLTIP]Support Unit[/TIP], gain [icon:YIELD_GOLD] equal to the Unit’s [icon:YIELD_PRODUCTION] cost. When you defeat a [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP], gain [icon:YIELD_GOLD] equal to 25% of the Unit’s [icon:YIELD_PRODUCTION] cost. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_BLACK_FLAG_NAME" Language="th_TH">
 			<Text>ธงดำ</Text>		<!-- Black Flag -->
@@ -427,7 +425,7 @@
 			<Text>อาฮอย, บัคโก้! เจ้าได้เข้าร่วมกับผู้ที่ไม่ยอมรับเจ้านายใดนอกจาก ทะเลและเกลือ ยกสมอแล้วดูว่าจะเป็นทองหรือเชือกแขวนคอที่ปลายทางของเจ้า ข้อตกลงถูกเซ็นแล้ว ปีศาจก็ออกเดินทาง</Text>		<!-- Ahoy, bucko! Ye’ve gone on account with those who ken no lord but the sea and the salt. Weigh anchor, then, an see if it be gold or Jack Ketch at the end of yer gangway. The writ’s been signed, an the devil’s afoot. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_TIPS_TEXT_PIRATE_REPUBLIC" Language="th_TH">
-			<Text>เนื่องจากสาธารณรัฐโจรสลัดไม่สามารถฝึกยูนิตตั้งถิ่นฐานได้ ให้ปลดล็อก แนวคิดท่าเรือหลบภัย เพื่อให้ ผู้บัญชาการบัคคาเนียร์ ได้รับพลัง 1 ครั้งในการสร้างเมืองเล็กใหม่</Text>		<!-- Since the Republic of Pirates are unable to train Settlers, unlock the Ports of Call Civic to give the Buccaneer Unique Commander a charge to create a new Town. -->
+			<Text>เนื่องจากสาธารณรัฐโจรสลัดไม่สามารถฝึกยูนิตตั้งถิ่นฐานได้ ให้ใช้ ผู้บัญชาการบัคคาเนียร์ ในการรบทางเรือหลายครั้ง เพื่อให้ได้รับพลังสำหรับสร้างถิ่นฐาน และการกระทำ พรรคปล้นสะดม ของพวกเขา</Text>		<!-- Since the Republic of Pirates is unable to train Settlers, use the Buccaneer Unique Commander in plenty of naval battles to gain experience for a Settlement charge and their Raiding Party action! -->
 		</Replace>
 		<Replace Tag="LOC_MODULE_PIRATE_REPUBLIC_NAME" Language="th_TH">
 			<Text>Republic of Pirates</Text>		<!-- Republic of Pirates -->
@@ -541,7 +539,7 @@
 			<Text>“สี่ร้อยเก้าสิบไม่มี”</Text>		<!-- “Four Hundred and Ninety-None.” -->
 		</Replace>
 		<Replace Tag="LOC_11113B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} worth 1 point</Text>		<!-- {1_reward} worth 1 point. -->
+			<Text>{1_reward} มีมูลค่า 1 แต้มสมบัติ</Text>		<!-- {1_reward} worth 1 Cargo. -->
 		</Replace>
 		<Replace Tag="LOC_11113B_COMPLETION" Language="th_TH">
 			<Text>Four Hundred and Ninety-Nine Lords meet Four Hundred and Ninety-Nine Swords</Text>		<!-- Four Hundred and Ninety-Nine Lords meet Four Hundred and Ninety-Nine Swords. -->
@@ -775,7 +773,7 @@
 			<Text>บัคคะเนียร์</Text>		<!-- Buccaneer -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_BUCCANEER_DESCRIPTION" Language="th_TH">
-			<Text>ผู้บัญชาการทางเรือเฉพาะของสาธารณรัฐโจรสลัด, ได้รับพลัง 1 ครั้งในการใช้การกระทำกลุ่มจู่โจม ทุกๆ 2 [icon:NAR_REW_PROMOTION] ระดับเลื่อนขั้น, กลุ่มจู่โจม: เลือกเป้าหมายเป็น [icon:TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_RESOURCES_TOOLTIP]ทรัพยากรสมบัติ[/TIP] ที่อยู่ติดกันซึ่งเป็นของอารยธรรมอื่นใน [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP], ถิ่นฐานนี้จะสร้าง [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]ขบวนสมบัติ[/TIP] ภายใต้การควบคุมของคุณทันที และจะไม่รีเซ็ตจำนวนเทิร์นจนกว่าจะมี [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]ขบวนสมบัติ[/TIP] ใหม่เกิดขึ้น</Text>		<!-- Republic of Pirates Unique Fleet Commander. Gains 1 charge to use the Raiding Party Action for every 2 [icon:NAR_REW_PROMOTION] Promotions it has. Raiding Party: Targets an adjacent [icon:TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_RESOURCES_TOOLTIP]Treasure Resource[/TIP] owned by a different Civilization in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP]. This [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] instantly spawns a [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoy[/TIP] under your control. This does not reset the turns until another [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoy[/TIP] spawns. -->
+			<Text>ผู้บัญชาการทางเรือพิเศษ ของสาธารณรัฐโจรสลัด, ได้รับพลัง 1 ครั้งในการใช้ กลุ่มจู่โจม ทุกๆ [icon:NAR_REW_PROMOTION] 2 ระดับ, กลุ่มจู่โจม: เลือกเป้าหมายเป็น [icon:TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_RESOURCES_TOOLTIP]ทรัพยากรสมบัติ[/TIP] ที่อยู่ติดกันซึ่งเป็นของอารยธรรมอื่นใน [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP], ถิ่นฐานนี้จะสร้าง [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]ขบวนสมบัติ[/TIP] ภายใต้การควบคุมของคุณทันที และจะไม่รีเซ็ตจำนวนเทิร์นจนกว่าจะมี [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]ขบวนสมบัติ[/TIP] ใหม่เกิดขึ้น</Text>		<!-- Republic of Pirates Unique Fleet Commander. Gains 1 charge to use the Raiding Party Action for every 2 [icon:NAR_REW_PROMOTION] Levels it has. Raiding Party: Targets an adjacent [icon:TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_RESOURCES_TOOLTIP]Treasure Resource[/TIP] owned by a different Civilization in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP]. This [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] instantly spawns a [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoy[/TIP] under your control. This does not reset the turns until another [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoy[/TIP] spawns. -->
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_PIRATE_REPUBLIC_PIRATE_REPUBLIC_TOOLTIP" Language="th_TH">
 			<Text>[B]สาธารณรัฐโจรสลัด[/B] สามารถคงอยู่ตลอดยุคสมัย</Text>		<!-- [B]The Republic of Pirates[/B] is able to endure throughout the Ages. -->

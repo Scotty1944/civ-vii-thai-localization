@@ -306,7 +306,7 @@
 			<Text>+4[icon:YIELD_PRODUCTION] กำลังผลิต, รับยูนิตทางน้ำอีกหนึ่งหน่วย [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ยูนิตทางน้ำ[/TIP] ทุกครั้งที่คุณฝึก [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ยูนิตทางน้ำ[/TIP] (ไม่รวมจากการซื้อ). [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]คงอยู่ตลอดกาล[/TIP], จะต้องวางบนดินที่อยู่ติดกับชายฝั่ง</Text>		<!-- +4[icon:YIELD_PRODUCTION] Production. Receive a second [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP] each time you train a [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP] (But not Purchase). [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be placed on land adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_BATTERSEA_POWER_STATION_TOOLTIP" Language="th_TH">
-			<Text>รับยูนิตทางน้ำอีกหนึ่งหน่วย [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ทุกครั้งที่คุณฝึกยูนิตทางน้ำ[/TIP][N]จะต้องวางบนดินที่อยู่ติดกับชายฝั่ง</Text>		<!-- Receive a second [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP] each time you train a [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP].[N]Must be placed on land adjacent to Coast. -->
+			<Text>รับ [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ยูนิตทางน้ำ[/TIP] อีกหนึ่งหน่วย ทุกครั้งที่คุณฝึก [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ยูนิตทางน้ำ[/TIP][N]จะต้องวางบนดินที่อยู่ติดกับชายฝั่ง</Text>		<!-- Receive a second [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP] each time you train a [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Unit[/TIP].[N]Must be placed on land adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_WONDER_BATTERSEA_POWER_STATION" Language="th_TH">
 			<Text>ครั้งหนึ่งคุณเคยถามฉันว่าฉันจำแบทเทอร์ซีได้ไหม และตอนนี้ฉันจำได้แล้ว</Text>		<!-- You asked me once if I remembered Battersea. And now I do. -->
@@ -366,25 +366,25 @@
 			<Text>บริษัทอินเดียตะวันออก I</Text>		<!-- East India Company I -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_EAST_INDIA_COMPANY_I_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_GOLD] ทอง ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP], +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP] ติดกับชายฝั่ง</Text>		<!-- +2 [icon:YIELD_GOLD] Gold in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP]. +1 [icon:YIELD_SCIENCE] Science in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] adjacent to Coast. -->
+			<Text>[B]+2 [icon:YIELD_GOLD][/B] ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP], [B]+1 [icon:YIELD_SCIENCE][/B] ใน [icon:YIELD_TOWNS] เมืองเล็ก ติดกับชายฝั่ง</Text>		<!-- [B]+2 [icon:YIELD_GOLD][/B] in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP]. [B]+1 [icon:YIELD_SCIENCE][/B] in [icon:YIELD_TOWNS] Towns adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_EAST_INDIA_COMPANY_II_NAME" Language="th_TH">
 			<Text>อีสต์ อินเดีย คอมพานี II</Text>		<!-- East India Company II -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_EAST_INDIA_COMPANY_II_DESCRIPTION" Language="th_TH">
-			<Text>+5 [icon:YIELD_GOLD] ทอง ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP], +3 [icon:YIELD_SCIENCE]  วิทยาศาสตร์ ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP] ที่ติดกับชายฝั่ง</Text>		<!-- +5 [icon:YIELD_GOLD] Gold in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP]. +3 [icon:YIELD_SCIENCE] Science in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] adjacent to Coast. -->
+			<Text>[B]+5 [icon:YIELD_GOLD][/B] ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP], [B]+3 [icon:YIELD_SCIENCE][/B] ใน [icon:YIELD_TOWNS] เมืองเล็ก ที่ติดกับชายฝั่ง</Text>		<!-- [B]+5 [icon:YIELD_GOLD][/B] in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP]. [B]+3 [icon:YIELD_SCIENCE][/B] in [icon:YIELD_TOWNS] Towns adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_NO_ETERNAL_ALLIES_I_NAME" Language="th_TH">
 			<Text>ฉันไม่มีพันธมิตรถาวร</Text>		<!-- No Eternal Allies I -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_NO_ETERNAL_ALLIES_I_DESCRIPTION" Language="th_TH">
-			<Text>+5% [icon:YIELD_FOOD] อาหาร และ [icon:YIELD_GOLD] ทอง ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP], แต่ -5% [icon:YIELD_GOLD] ทอง ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง สำหรับทุก [icon:PLAYER_RELATIONSHIP_ALLIANCE] [TIP:LOC_PEDIA_CONCEPTS_ALLIANCE_TOOLTIP]พันธมิตร[/TIP]</Text>		<!-- +5% [icon:YIELD_FOOD] Food and [icon:YIELD_GOLD] Gold in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP], but -5% [icon:YIELD_GOLD] Gold in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every [icon:PLAYER_RELATIONSHIP_ALLIANCE] [TIP:LOC_PEDIA_CONCEPTS_ALLIANCE_TOOLTIP]Alliance[/TIP]. -->
+			<Text>[B]+5% [icon:YIELD_FOOD][/B] และ [icon:YIELD_GOLD] ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP], แต่ [B]-5% [icon:YIELD_GOLD][/B] ใน [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]เมืองหลวง[/TIP] สำหรับทุก [icon:PLAYER_RELATIONSHIP_ALLIANCE] [TIP:LOC_PEDIA_CONCEPTS_ALLIANCE_TOOLTIP]พันธมิตร[/TIP]</Text>		<!-- [B]+5% [icon:YIELD_FOOD][/B] and [icon:YIELD_GOLD] in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP], but [B]-5% [icon:YIELD_GOLD][/B] in the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP] for every [icon:PLAYER_RELATIONSHIP_ALLIANCE] [TIP:LOC_PEDIA_CONCEPTS_ALLIANCE_TOOLTIP]Alliance[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_NO_ETERNAL_ALLIES_II_NAME" Language="th_TH">
 			<Text>ไม่มีพันธมิตรนิรันดร์ II</Text>		<!-- No Eternal Allies II -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_NO_ETERNAL_ALLIES_II_DESCRIPTION" Language="th_TH">
-			<Text>+10% [icon:YIELD_FOOD] อาหาร และ [icon:YIELD_GOLD] ทอง ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP] แต่ -5% [icon:YIELD_GOLD] ทอง ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง สำหรับทุก [icon:PLAYER_RELATIONSHIP_ALLIANCE] [TIP:LOC_PEDIA_CONCEPTS_ALLIANCE_TOOLTIP]พันธมิตร[/TIP]</Text>		<!-- +10% [icon:YIELD_FOOD] Food and [icon:YIELD_GOLD] Gold in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP], but -5% [icon:YIELD_GOLD] Gold in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every [icon:PLAYER_RELATIONSHIP_ALLIANCE] [TIP:LOC_PEDIA_CONCEPTS_ALLIANCE_TOOLTIP]Alliance[/TIP]. -->
+			<Text>[B]+10% [icon:YIELD_FOOD][/B] และ [icon:YIELD_GOLD] ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP] แต่ [B]-5% [icon:YIELD_GOLD][/B] ใน [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]เมืองหลวง[/TIP] สำหรับทุก [icon:PLAYER_RELATIONSHIP_ALLIANCE] [TIP:LOC_PEDIA_CONCEPTS_ALLIANCE_TOOLTIP]พันธมิตร[/TIP]</Text>		<!-- [B]+10% [icon:YIELD_FOOD][/B] and [icon:YIELD_GOLD] in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP], but [B]-5% [icon:YIELD_GOLD][/B] in the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP] for every [icon:PLAYER_RELATIONSHIP_ALLIANCE] [TIP:LOC_PEDIA_CONCEPTS_ALLIANCE_TOOLTIP]Alliance[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_GREAT_BRITAIN_SYNCRETISM_TOOLTIP" Language="th_TH">
 			<Text>ราชสมาคม</Text>		<!-- Royal Society -->
@@ -393,14 +393,13 @@
 			<Text>ราชสมาคม I</Text>		<!-- Royal Society I -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_GREAT_BRITAIN_SYNCRETISM_ANTIQUITY_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_SCIENCE]  วิทยาศาสตร์ บนอาคารด้านวัฒนธรรมที่ติดชายฝั่ง
-+1 [icon:YIELD_CULTURE] วัฒนธรรม บนอาคารด้านวิทยาศาสตร์ที่ติดชายฝั่ง</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science on [icon:YIELD_CULTURE] Culture Buildings adjacent to Coast. +1 [icon:YIELD_CULTURE] Culture on [icon:YIELD_SCIENCE] Science Buildings adjacent to Coast. -->
+			<Text>[B]+1 [icon:YIELD_SCIENCE][/B] บน [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรม[/TIP] ที่ติดชายฝั่ง, [B]+1 [icon:YIELD_CULTURE][/B] บน [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP] ที่ติดชายฝั่ง</Text>		<!-- [B]+1 [icon:YIELD_SCIENCE][/B] on [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Culture Buildings[/TIP] adjacent to Coast. [B]+1 [icon:YIELD_CULTURE][/B] on Science Buildings adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_GREAT_BRITAIN_SYNCRETISM_EXPLORATION_NAME" Language="th_TH">
 			<Text>รอยัล โซไซตี II</Text>		<!-- Royal Society II -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_GREAT_BRITAIN_SYNCRETISM_EXPLORATION_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_SCIENCE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP] บน [icon:YIELD_CULTURE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรม[/TIP] ที่ติดกับชายฝั่ง, +2 [icon:YIELD_CULTURE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรม[/TIP] บน [icon:YIELD_SCIENCE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP] ที่ติดกับชายฝั่ง</Text>		<!-- +2 [icon:YIELD_SCIENCE] Science on [icon:YIELD_CULTURE] Culture Buildings adjacent to Coast. +2 [icon:YIELD_CULTURE] Culture on [icon:YIELD_SCIENCE] Science Buildings adjacent to Coast. -->
+			<Text>[B]+2 [icon:YIELD_SCIENCE][/B] บน [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรม[/TIP] ที่ติดกับชายฝั่ง, [B]+2 [icon:YIELD_CULTURE][/B] บน [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP] ที่ติดกับชายฝั่ง</Text>		<!-- [B]+2 [icon:YIELD_SCIENCE][/B] on [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Culture Buildings[/TIP] adjacent to Coast. [B]+2 [icon:YIELD_CULTURE][/B] on Science Buildings adjacent to Coast. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_SOCIETY_OF_ANTIQUARIES_ENTER_FOREIGN_LANDS_DESCRIPTION" Language="th_TH">
 			<Text>[icon:UNIT_ANTIQUARIAN] นักโบราณคดี สามารถเข้าสู่เขตแดนของอารยธรรมอื่น โดยไม่ต้องเปิดพรมแดน</Text>		<!-- [icon:UNIT_ANTIQUARIAN] Antiquaries can enter other Civilizations’ borders without Open Borders. -->
@@ -427,7 +426,8 @@
 			<Text>การดำเนินการ</Text>		<!-- Proceedings -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_PROCEEDINGS_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_CULTURE] วัฒนธรรม และ [icon:YIELD_SCIENCE] วิทยาศาสตร์ ใน [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ที่มีทั้ง [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]ผลงานชิ้นเอก[/TIP] และ [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]ทรัพยากร[/TIP] ที่ถูกจัดสรรไว้</Text>		<!-- +4 [icon:YIELD_CULTURE] Culture and [icon:YIELD_SCIENCE] Science in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] with both a [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]Great Work[/TIP] and a [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resource[/TIP] slotted. [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] receive +3 [icon:YIELD_PRODUCTION] Production for each [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_FACTORY_RESOURCES_TOOLTIP]Factory Resource[/TIP] assigned to them. -->
+			<Text>[B]+4 [icon:YIELD_CULTURE][/B] และ [icon:YIELD_SCIENCE] ใน [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ที่มีทั้ง [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]ผลงานชิ้นเอก[/TIP] และ [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]ทรัพยากร[/TIP] ที่ถูกจัดสรรไว้
+[TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] จะได้รับ [B]+3 [icon:YIELD_PRODUCTION][/B] สำหรับแต่ละ [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_FACTORY_RESOURCES_TOOLTIP]ทรัพยากรโรงงาน[/TIP] ที่ถูกจัดสรรให้</Text>		<!-- [B]+4 [icon:YIELD_CULTURE][/B] and [icon:YIELD_SCIENCE] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] with both a [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]Great Work[/TIP] and a [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resource[/TIP] slotted. [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] receive [B]+3 [icon:YIELD_PRODUCTION][/B] for each [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_FACTORY_RESOURCES_TOOLTIP]Factory Resource[/TIP] assigned to them. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_EAST_INDIA_COMPANY_NAME" Language="th_TH">
 			<Text>บริษัทอินเดียตะวันออก</Text>		<!-- East India Company -->

@@ -293,10 +293,10 @@
 			<Text>สวนอีแรม</Text>		<!-- Eram Garden -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_ERAM_GARDEN_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_FOOD] อาหาร, +1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]ขีดจำกัดผู้เชี่ยวชาญ[/TIP] ในถิ่นฐานนี้ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP], [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]คงอยู่ตลอดกาล[/TIP], ต้องสร้างในพื้นที่ทะเลทราย</Text>		<!-- +4 [icon:YIELD_FOOD] Food. +1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be built in Desert Terrain. -->
+			<Text>+4 [icon:YIELD_FOOD] อาหาร, +1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]ขีดจำกัดผู้เชี่ยวชาญ[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] นี้, [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]คงอยู่ตลอดกาล[/TIP], ต้องสร้างในพื้นที่ทะเลทราย</Text>		<!-- +4 [icon:YIELD_FOOD] Food. +1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be built in Desert Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_ERAM_GARDEN_TOOLTIP" Language="th_TH">
-			<Text>+1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]ขีดจำกัดผู้เชี่ยวชาญ[/TIP]ในถิ่นฐานนี้[TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP][N]ต้องสร้างในพื้นที่ทะเลทราย</Text>		<!-- +1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP].[N]Must be built in Desert Terrain. -->
+			<Text>+1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]ขีดจำกัดผู้เชี่ยวชาญ[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] นี้[N]ต้องสร้างในพื้นที่ทะเลทราย</Text>		<!-- +1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP].[N]Must be built in Desert Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_QUOTE_WONDER_ERAM_GARDEN" Language="th_TH">
 			<Text>สวนถูกคลุมด้วยเสื้อคลุมแห่งฤดูใบไม้ผลิ และอากาศเต็มไปด้วยเสียงดนตรีและเพลงที่ไพเราะ</Text>		<!-- The garden was clad in robes of spring, and the air was filled with sweet sounds of music and song. -->
@@ -353,13 +353,13 @@
 			<Text>พระราชวังสุเลมานีย์ II</Text>		<!-- Soleymaniyeh Palace II -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SOLEYMANIYEH_PALACE_II_DESCRIPTION" Language="th_TH">
-			<Text>+0,5 [icon:YIELD_DIPLOMACY] อิทธิพล ต่อประชากรทุกคนในเมืองหลวง</Text>		<!-- +0.5 [icon:YIELD_DIPLOMACY] Influence for every [icon:YIELD_POPULATION] Population in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital. -->
+			<Text>[B]+0.5 [icon:YIELD_DIPLOMACY][/B] ต่อ [icon:YIELD_POPULATION] [TIP:LOC_PEDIA_CONCEPTS_POPULATION_TOOLTIP]ประชากร[/TIP] ทุกคนใน [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]เมืองหลวง[/TIP]</Text>		<!-- [B]+0.5 [icon:YIELD_DIPLOMACY][/B] for every [icon:YIELD_POPULATION] [TIP:LOC_PEDIA_CONCEPTS_POPULATION_TOOLTIP]Population[/TIP] in the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SOLEYMANIYEH_PALACE_I_NAME" Language="th_TH">
 			<Text>พระราชวังสุลายมานีย์ I</Text>		<!-- Soleymaniyeh Palace I -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SOLEYMANIYEH_PALACE_I_DESCRIPTION" Language="th_TH">
-			<Text>+0,25 [icon:YIELD_DIPLOMACY] อิทธิพล สำหรับทุก [icon:YIELD_POPULATION] ประชากร ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง</Text>		<!-- +0.25 [icon:YIELD_DIPLOMACY] Influence for every [icon:YIELD_POPULATION] Population in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital. -->
+			<Text>[B]+0.25 [icon:YIELD_DIPLOMACY][/B] ต่อ [icon:YIELD_POPULATION] [TIP:LOC_PEDIA_CONCEPTS_POPULATION_TOOLTIP]ประชากร[/TIP] ทุกคนใน [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]เมืองหลวง[/TIP]</Text>		<!-- [B]+0.25 [icon:YIELD_DIPLOMACY][/B] for every [icon:YIELD_POPULATION] [TIP:LOC_PEDIA_CONCEPTS_POPULATION_TOOLTIP]Population[/TIP] in the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_DAR_AL_FONUN_TOOLTIP" Language="th_TH">
 			<Text>ดาร์ อัล-ฟูนูน</Text>		<!-- Dār al-Fonūn -->
@@ -368,13 +368,13 @@
 			<Text>ดาร์ อัล ฟูนูน I</Text>		<!-- Dār al-Fonūn I -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_DAR_AL_FONUN_I_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:YIELD_CULTURE] วัฒนธรรม และ +3 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง สำหรับทุก [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ภายใต้ [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]ขีดจำกัดถิ่นฐาน[/TIP]</Text>		<!-- +3 [icon:YIELD_CULTURE] Culture and +3 [icon:YIELD_SCIENCE] Science in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] under the [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP]. -->
+			<Text>[B]+3 [icon:YIELD_CULTURE][/B] และ [B]+3 [icon:YIELD_SCIENCE][/B] ใน [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]เมืองหลวง[/TIP] สำหรับทุก [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ภายใต้ [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]ขีดจำกัดถิ่นฐาน[/TIP]</Text>		<!-- [B]+3 [icon:YIELD_CULTURE][/B] and [B]+3 [icon:YIELD_SCIENCE][/B] in the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP] for every [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] under the [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_DAR_AL_FONUN_II_NAME" Language="th_TH">
 			<Text>ดาร์ อัล ฟูนูน II</Text>		<!-- Dār al-Fonūn II -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_DAR_AL_FONUN_II_DESCRIPTION" Language="th_TH">
-			<Text>+10 [icon:YIELD_SCIENCE] วิทยาศาสตร์ และ [icon:YIELD_CULTURE] วัฒนธรรม ในเมืองหลวง สำหรับทุก [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ภายใต้ [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]ขีดจำกัดถิ่นฐาน[/TIP]</Text>		<!-- +10 [icon:YIELD_SCIENCE] Science and [icon:YIELD_CULTURE] Culture in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] under the [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP]. -->
+			<Text>[B]+10 [icon:YIELD_SCIENCE][/B] และ [icon:YIELD_CULTURE] ใน [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]เมืองหลวง[/TIP] สำหรับทุก [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ภายใต้ [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]ขีดจำกัดถิ่นฐาน[/TIP]</Text>		<!-- [B]+10 [icon:YIELD_SCIENCE][/B] and [icon:YIELD_CULTURE] in the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP] for every [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] under the [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_QAJAR_SYNCRETISM_TOOLTIP" Language="th_TH">
 			<Text>วาคาย-อี เอ็ตเทฟาเกีย</Text>		<!-- Waqāye'-e Ettefāqiya -->
@@ -383,19 +383,19 @@
 			<Text>วาคาเย-อี เอ็ตเทฟา-คียา I</Text>		<!-- Waqāye'-e Ettefāqiya I -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_QAJAR_SYNCRETISM_ANTIQUITY_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_DIPLOMACY] อิทธิพล ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง สำหรับทุก [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ภายใต้ [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]ขีดจำกัดถิ่นฐาน[/TIP]</Text>		<!-- +1 [icon:YIELD_DIPLOMACY] Influence in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] under the [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP]. -->
+			<Text>[B]+1 [icon:YIELD_DIPLOMACY][/B] ใน [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]เมืองหลวง[/TIP] สำหรับทุก [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ภายใต้ [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]ขีดจำกัดถิ่นฐาน[/TIP]</Text>		<!-- [B]+1 [icon:YIELD_DIPLOMACY][/B] in the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP] for every [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] under the [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_QAJAR_SYNCRETISM_EXPLORATION_NAME" Language="th_TH">
 			<Text>วาคาเย-อี เอ็ตเทฟาเกีย ที่ 2</Text>		<!-- Waqāye'-e Ettefāqiya II -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_QAJAR_SYNCRETISM_EXPLORATION_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_HAPPINESS] ความสุข และ [icon:YIELD_DIPLOMACY] อิทธิพล ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองใหญ่ สำหรับทุก [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ภายใต้ [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]ขีดจำกัดถิ่นฐาน[/TIP]</Text>		<!-- +1 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_DIPLOMACY] Influence in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] under the [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP]. -->
+			<Text>[B]+1 [icon:YIELD_HAPPINESS][/B] และ [icon:YIELD_DIPLOMACY] ใน [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]เมืองหลวง[/TIP] สำหรับทุก [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ภายใต้ [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]ขีดจำกัดถิ่นฐาน[/TIP]</Text>		<!-- [B]+1 [icon:YIELD_HAPPINESS][/B] and [icon:YIELD_DIPLOMACY] in the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP] for every [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] under the [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_QULLARAQASI_NAME" Language="th_TH">
 			<Text>คุลลาราคาซี</Text>		<!-- Qullarāqāsi -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_QULLARAQASI_DESCRIPTION" Language="th_TH">
-			<Text>+15 [icon:YIELD_HAPPINESS] ความสุข ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] สำหรับทุก [icon:UNIT_ARMY_COMMANDER] ผู้บัญชาการ [TIP:LOC_PEDIA_CONCEPTS_STATIONED_TOOLTIP]ที่ประจำอยู่[/TIP] ใน [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP] นั้น</Text>		<!-- +1 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]Land[/TIP] [TIP:LOC_PEDIA_CONCEPTS_MILITARY_UNIT_TOOLTIP]Military Units[/TIP] for every 2 [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] under the [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP]. -->
+			<Text>[B]+1 [icon:NAR_REW_COMBAT][/B] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]ยูนิตทางบก[/TIP] [TIP:LOC_PEDIA_CONCEPTS_MILITARY_UNIT_TOOLTIP]ยูนิตทหาร[/TIP] สำหรับทุก [B]2[/B] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่อยู่ภายใต้ [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]ขีดจำกัดถิ่นฐาน[/TIP]</Text>		<!-- [B]+1 [icon:NAR_REW_COMBAT][/B] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]Land[/TIP] [TIP:LOC_PEDIA_CONCEPTS_MILITARY_UNIT_TOOLTIP]Military Units[/TIP] for every [B]2[/B] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] under the [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SOLEYMANIYEH_PALACE_NAME" Language="th_TH">
 			<Text>พระราชวังโซเลย์มานีเยห์</Text>		<!-- Soleymaniyeh Palace -->

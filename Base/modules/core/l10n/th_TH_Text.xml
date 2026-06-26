@@ -899,10 +899,10 @@
 			<Text>ปลดล็อกสิ่งต่อไปนี้:[BLIST]{1_Items}[/LIST]</Text>		<!-- Unlocks the following:[BLIST]{1_Items}[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_CREATE_GAME_UNLOCKS_LIST_ITEM" Language="th_TH">
-			<Text>[LI] [B]{1_UnlockName}[/B]</Text>		<!-- [LI] [B]{1_UnlockName}[/B]. -->
+			<Text>[B]{1_UnlockName}[/B]</Text>		<!-- [B]{1_UnlockName}[/B]. -->
 		</Replace>
 		<Replace Tag="LOC_CREATE_GAME_UNLOCKS_LIST_ITEM_IN_AGE" Language="th_TH">
-			<Text>[LI] [B]{1_UnlockName} [/B]ในยุค [B]{2_AgeName} [/B]</Text>		<!-- [LI] [B]{1_UnlockName} [/B]in the [B]{2_AgeName} [/B]age. -->
+			<Text>[B]{1_UnlockName} [/B]ในยุค [B]{2_AgeName} [/B]</Text>		<!-- [B]{1_UnlockName} [/B]in the [B]{2_AgeName} [/B]age. -->
 		</Replace>
 		<Replace Tag="LOC_CREATE_GAME_LEADER_CIV_HISTORIC_BIAS" Language="th_TH">
 			<Text>[B]{1_LeaderName} [/B]มีความเกี่ยวข้องทางประวัติศาสตร์กับอารยธรรมนี้</Text>		<!-- [B]{1_LeaderName} [/B]is historically related to this civilization. -->
@@ -2219,7 +2219,7 @@
 			<Text>การหน่วงเวลาคลิก/สัมผัส</Text>		<!-- Click/Touch Movement Delay -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_ACCESSIBILITY_LONG_PRESS_DESCRIPTION" Language="th_TH">
-			<Text>เปลี่ยนระยะเวลาที่สามารถกดเมาส์ หรือสัมผัสหน้าจอค้างไว้ก่อนที่จะเริ่มนับการเคลื่อนไหว หากการ คลิก/สัมผัส ไม่ตอบสนองอย่างถูกต้องในเกม ค่าที่สูงขึ้นอาจช่วยได้</Text>		<!-- Changes how long a mouse click or screen touch can be held down before movement is taken into account. If clicks/touches aren't reliably handled by the game, higher values can help. -->
+			<Text>เปลี่ยนระยะเวลาที่สามารถกดเมาส์ หรือสัมผัสหน้าจอค้างไว้ก่อนที่จะเริ่มนับการเคลื่อนไหว หากคุณรู้สึกว่าควบคุมมือได้ยาก หรือเมาส์คุณไวมาก ค่าที่สูงขึ้นอาจช่วยไม่ให้การคลิกและการแตะ ถูกตีความผิดเป็นการลาก</Text>		<!-- Changes how long a mouse click or screen touch can be held down before movement is taken into account. If you find it difficult to keep your hands steady or your mouse is very sensitive, higher values can help clicks and taps to not be misinterpreted as drags. -->
 		</Replace>
 		<Replace Tag="LOC_TOGGLE_DIPLO_HELP" Language="th_TH">
 			<Text>ยุบหรือขยายริบบิ้นผู้นำ</Text>		<!-- Collapse or Expand Leader Ribbons -->
@@ -2882,7 +2882,7 @@
 			<Text>เปิด/ปิด หน้าจอบุคคลสำคัญ</Text>		<!-- Toggle Great People Screen -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_TOGGLE_RANKINGS_SCREEN" Language="th_TH">
-			<Text>เปิด/ปิด หน้าจอการจัดอันดับ</Text>		<!-- Toggle Rankings Screen -->
+			<Text>เปิด/ปิด หน้าจอชัยชนะ</Text>		<!-- Toggle Victories Screen -->
 		</Replace>
 		<Replace Tag="LOC_UI_KBM_MAPPING_TOGGLE_YIELDS_REPORT" Language="th_TH">
 			<Text>เปิด/ปิด รายงานผลผลิต</Text>		<!-- Toggle Yields Report -->
@@ -4236,8 +4236,8 @@
 			<Text>เลื่อนไปหายูนิตอื่นโดยอัตโนมัติ</Text>		<!-- Auto Unit Cycle -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_AUTOUNITYCYCLE_DESCRIPTION" Language="th_TH">
-			<Text>หลังจากใช้แต้มเคลื่อนที่ของยูนิตจนหมด ระบบจะปรับไปหายูนิตที่ยังเคลื่อนที่ได้ทันที</Text>		<!-- After expending all movement points for the selected unit, cycle through units
-                with movement points remaining. -->
+			<Text>หลังจากใช้แต้มเคลื่อนที่ของยูนิตจนหมด ระบบจะปรับไปหายูนิตที่ยังมีแต้มเคลื่อนที่เหลือทันที</Text>		<!-- After expending all movement points for the selected unit, cycle through units
+					with movement points remaining. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_TUTORIALLEVEL" Language="th_TH">
 			<Text>ระดับการสอน (Tutorial)</Text>		<!-- Tutorial Level -->

@@ -308,13 +308,13 @@
 			<Text>คัม บินห์ I</Text>		<!-- Cấm Binh I -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_CAM_BINH_I_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_GOLD] บน [icon:CITY_FORTIFIED] สิ่งก่อสร้างป้องกัน +50% [icon:YIELD_PRODUCTION] เพื่อการก่อสร้าง [icon:CITY_FORTIFIED] สิ่งก่อสร้างป้องกัน</Text>		<!-- +1 [icon:YIELD_GOLD] on [icon:CITY_FORTIFIED] Fortifications. +50% [icon:YIELD_PRODUCTION] towards constructing [icon:CITY_FORTIFIED] Fortification Constructibles. -->
+			<Text>[B]+1 [icon:YIELD_GOLD][/B] บน [icon:CITY_FORTIFIED] เขตเสริมกำลัง, [B]+50% [icon:YIELD_PRODUCTION][/B] เพื่อการก่อสร้าง [icon:CITY_FORTIFIED] สิ่งก่อสร้างเสริมกำลัง</Text>		<!-- [B]+1 [icon:YIELD_GOLD][/B] on [icon:CITY_FORTIFIED] Fortifications. [B]+50% [icon:YIELD_PRODUCTION][/B] towards constructing [icon:CITY_FORTIFIED] Fortification Constructibles. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_CAM_BINH_II_NAME" Language="th_TH">
 			<Text>คัม บินห์ II</Text>		<!-- Cấm Binh II -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_CAM_BINH_II_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_GOLD] บน [icon:CITY_FORTIFIED] เขตเสริมกำลัง, +50% [icon:YIELD_PRODUCTION] สำหรับการก่อสร้าง และ [icon:YIELD_GOLD] สำหรับการซื้อ [icon:CITY_FORTIFIED] สิ่งก่อสร้างเขตเสริมกำลัง</Text>		<!-- +2 [icon:YIELD_GOLD] on [icon:CITY_FORTIFIED] Fortifications. +50% [icon:YIELD_PRODUCTION] towards constructing and [icon:YIELD_GOLD] towards purchasing [icon:CITY_FORTIFIED] Fortification Constructibles. -->
+			<Text>[B]+2 [icon:YIELD_GOLD][/B] บน [icon:CITY_FORTIFIED] เขตเสริมกำลัง, [B]+50% [icon:YIELD_PRODUCTION][/B] สำหรับการก่อสร้าง และ [icon:YIELD_GOLD] สำหรับการซื้อ [icon:CITY_FORTIFIED] สิ่งก่อสร้างเขตเสริมกำลัง</Text>		<!-- [B]+2 [icon:YIELD_GOLD][/B] on [icon:CITY_FORTIFIED] Fortifications. [B]+50% [icon:YIELD_PRODUCTION][/B] towards constructing and [icon:YIELD_GOLD] towards purchasing [icon:CITY_FORTIFIED] Fortification Constructibles. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_CAM_BINH_TOOLTIP" Language="th_TH">
 			<Text>คัม บินห์</Text>		<!-- Cấm Binh -->
@@ -329,15 +329,14 @@
 			<Text>ร่วง หล่าง ซา I</Text>		<!-- Ruộng Làng Xã I -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_RUONG_LANG_XA_I_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_FOOD] บน ฟาร์ม, ไร่ และ การเสริมกำลัง ใน [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP] ใน พื้นที่เขตร้อน
-+5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]เขตเสริมกำลัง[/TIP] และ ยูนิตภาคพื้น ใน ดินแดนที่เป็นมิตร</Text>		<!-- +1 [icon:YIELD_FOOD] on Farms, Plantations, and Fortifications in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] in [icon:CITY_UNIMPROVED] Tropical Terrain. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP] and Land Units in friendly territory. -->
+			<Text>[B]+1 [icon:YIELD_FOOD][/B] บน ฟาร์ม, ไร่ และ เขตเสริมกำลัง ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP] ใน [icon:CITY_UNIMPROVED] พื้นที่เขตร้อน
+[B]+5 [icon:NAR_REW_COMBAT][/B] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]เขตเสริมกำลัง[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]ยูนิตภาคพื้น[/TIP] ใน ดินแดนที่เป็นมิตร</Text>		<!-- [B]+1 [icon:YIELD_FOOD][/B] on Farms, Plantations, and Fortifications in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] in [icon:CITY_UNIMPROVED] Tropical Terrain. [B]+5 [icon:NAR_REW_COMBAT][/B] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]Land Units[/TIP] in friendly territory. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_RUONG_LANG_XA_II_NAME" Language="th_TH">
 			<Text>ร่วง หล่าง ซา II</Text>		<!-- Ruộng Làng Xã II -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_RUONG_LANG_XA_II_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_FOOD] บน ฟาร์ม, แปลงปลูก, และ ป้อมปราการ ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP] ใน [icon:CITY_UNIMPROVED] ภูมิประเทศเขตร้อน
-+5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]เขตเสริมกำลัง[/TIP] และ ยูนิตภาคพื้น ใน อาณาเขตที่เป็นมิตร</Text>		<!-- +2 [icon:YIELD_FOOD] on Farms, Plantations, and Fortifications in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] in [icon:CITY_UNIMPROVED] Tropical Terrain. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP] and Land Units in friendly territory. -->
+			<Text>[B]+2 [icon:YIELD_FOOD][/B] บน ฟาร์ม, แปลงปลูก, และ การเสริมกำลัง ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP] ใน [icon:CITY_UNIMPROVED] ภูมิประเทศเขตร้อน, [B]+5 [icon:NAR_REW_COMBAT][/B] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]เขตเสริมกำลัง[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]ยูนิตภาคพื้น[/TIP] ใน อาณาเขตที่เป็นมิตร</Text>		<!-- [B]+2 [icon:YIELD_FOOD][/B] on Farms, Plantations, and Fortifications in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] in [icon:CITY_UNIMPROVED] Tropical Terrain. [B]+5 [icon:NAR_REW_COMBAT][/B] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]Land Units[/TIP] in friendly territory. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_RUONG_LANG_XA_TOOLTIP" Language="th_TH">
 			<Text>ร่วง หล่าง ซา</Text>		<!-- Ruộng Làng Xã -->
@@ -358,13 +357,13 @@
 			<Text>หัญ จิญ กง I</Text>		<!-- Hành Chính Công I -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_DAI_VIET_SYNCRETISM_ANTIQUITY_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_CULTURE] บน [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนา[/TIP] และ [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP] บน [TIP:LOC_PEDIA_CONCEPTS_VEGETATED_TERRAIN_TOOLTIP]พืชพันธุ์[/TIP] ใน [icon:CITY_UNIMPROVED] ภูมิประเทศเขตร้อน</Text>		<!-- +1 [icon:YIELD_CULTURE] on [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP] and [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] on [TIP:LOC_PEDIA_CONCEPTS_VEGETATED_TERRAIN_TOOLTIP]Vegetation[/TIP] in [icon:CITY_UNIMPROVED] Tropical Terrain. -->
+			<Text>[B]+1 [icon:YIELD_CULTURE][/B] บน [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนา[/TIP] และ [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP] บน [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_VEGETATED_TERRAIN_TOOLTIP]พืชพันธุ์[/TIP] ใน [icon:CITY_UNIMPROVED] ภูมิประเทศเขตร้อน</Text>		<!-- [B]+1 [icon:YIELD_CULTURE][/B] on [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP] and [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] on [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_VEGETATED_TERRAIN_TOOLTIP]Vegetation[/TIP] in [icon:CITY_UNIMPROVED] Tropical Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_DAI_VIET_SYNCRETISM_MODERN_NAME" Language="th_TH">
 			<Text>หัญ จิญ กง II</Text>		<!-- Hành Chính Công II -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_DAI_VIET_SYNCRETISM_MODERN_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_CULTURE] และ [icon:YIELD_FOOD] บน [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนา[/TIP] และ [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP] บน [TIP:LOC_PEDIA_CONCEPTS_VEGETATED_TERRAIN_TOOLTIP]พืชพรรณ[/TIP] ใน [icon:CITY_UNIMPROVED] ภูมิประเทศเขตร้อน</Text>		<!-- +1 [icon:YIELD_CULTURE] and [icon:YIELD_FOOD] on [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP] and [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] on [TIP:LOC_PEDIA_CONCEPTS_VEGETATED_TERRAIN_TOOLTIP]Vegetation[/TIP] in [icon:CITY_UNIMPROVED] Tropical Terrain. -->
+			<Text>[B]+1 [icon:YIELD_CULTURE][/B] และ [icon:YIELD_FOOD] บน [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนา[/TIP] และ [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP] บน [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_VEGETATED_TERRAIN_TOOLTIP]พืชพรรณ[/TIP] ใน [icon:CITY_UNIMPROVED] ภูมิประเทศเขตร้อน</Text>		<!-- [B]+1 [icon:YIELD_CULTURE][/B] and [icon:YIELD_FOOD] on [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP] and [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] on [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_VEGETATED_TERRAIN_TOOLTIP]Vegetation[/TIP] in [icon:CITY_UNIMPROVED] Tropical Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_MOD_CHU_NOM_CULTURE_TROPICAL_DESCRIPTION" Language="th_TH">
 			<Text>[icon:YIELD_CULTURE] อาคารวัฒนธรรม ได้รับ +1 [icon:YIELD_CULTURE] วัฒนธรรม โบนัสใกล้เคียง [icon:CITY_UNIMPROVED] เขตร้อน</Text>		<!-- [icon:YIELD_CULTURE] Culture Buildings gain a +1 [icon:YIELD_CULTURE] Culture Adjacency from [icon:CITY_UNIMPROVED] Tropical Terrain. -->
@@ -391,7 +390,7 @@
 			<Text>กอน เขิ่น</Text>		<!-- Con Kênh -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_CON_KENH_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:YIELD_FOOD] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] และ +2 [icon:YIELD_FOOD] อาหาร บน [icon:YIELD_CULTURE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- [icon:YIELD_CULTURE] Culture and [icon:YIELD_FOOD] Food [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] gain a +1 [icon:YIELD_CULTURE] Adjacency for [icon:CITY_UNIMPROVED] Tropical Terrain. -->
+			<Text>[TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรมและอาหาร[/TIP] ได้รับ [B]+1 [icon:YIELD_CULTURE][/B] โบนัสใกล้เคียง [icon:CITY_UNIMPROVED] ภูมิประเทศเขตร้อน</Text>		<!-- Culture and [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Food Buildings[/TIP] gain a [B]+1 [icon:YIELD_CULTURE][/B] Adjacency for [icon:CITY_UNIMPROVED] Tropical Terrain. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_RUONG_LANG_XA_NAME" Language="th_TH">
 			<Text>ทุ่งหมู่บ้าน</Text>		<!-- Ruộng Làng Xã -->
