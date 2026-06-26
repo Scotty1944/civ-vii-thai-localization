@@ -19,6 +19,12 @@
     <Replace Tag="LOC_WARNING_DISTANT_LAND_CONVERSION_SUMMARY" Language="th_TH">
         <Text>สูญเสียการมีอยู่ของศาสนาในดินแดนห่างไกล</Text>		<!-- Losing Distant Land Religious Presence -->
     </Replace>
+    <Replace Tag="LOC_WARNING_FIRST_CONVERSION_MESSAGE" Language="th_TH">
+        <Text>มิชชันนารีจากต่างประเทศได้ทำให้ผู้คนใน {1_City} หลงใหล — ซึ่งเป็นลางที่ไม่ดี หากเราสูญเสียหัวใจของประชาชน อาจทำให้เราสูญเสียมากกว่าเดิม</Text>		<!-- Missionaries from abroad have captivated the inhabitants of {1_City} — an ill portent. If we lose our people's hearts, we may lose more. -->
+    </Replace>
+    <Replace Tag="LOC_WARNING_FIRST_CONVERSION_SUMMARY" Language="th_TH">
+        <Text>แข่นขันทางศาสนา</Text>		<!-- Competing Religion -->
+    </Replace>
     <Replace Tag="LOC_WARNING_AGE_TRANSITION_COMMANDERS_MESSAGE" Language="th_TH">
         <Text>ทหารมากมายได้สาบานตนถวายชีวิตแด่อาณาจักรของเรา ทว่าเรากลับขาดแม่ทัพที่จะนำพวกเขาไปสู่ชัยชนะ นอกเหนือจากจำนวนยูนิตที่แม่ทัพสามารถบัญชาการได้แล้ว เราจะสามารถรักษากองทัพภาคพื้นดินไว้ได้เพียง {1_value} หน่วยเท่านั้นในช่วงเริ่มต้นยุคหน้า หากไม่เร่งแต่งตั้งแม่ทัพเพิ่ม เราจะสูญเสีย {2_lostunits} หน่วย เมื่อต้นยุคใหม่มาถึง</Text>		<!-- Many soldiers have pledged their lives to our empire, but we lack the Commanders to lead them. In addition to the amount of Units our Army Commanders can hold, we will only be able to maintain {1_value} Land Units at the start of the next Age. Without more Army Commanders, we will lose {2_lostunits} Land {2_lostunits: plural 1?Unit; other?Units;} when the Age ends. -->
     </Replace>
@@ -40,953 +46,11 @@
     <Replace Tag="LOC_AGE_END_WARNING_DESC_FINAL_AGE" Language="th_TH">
         <Text>ยุคแห่งการสำรวจใกล้จะสิ้นสุดลง ตั้งแต่จุดนี้เป็นต้นไป ยุคจะดำเนินต่อไปเมื่อคุณเลือกเทิร์นถัดไปเท่านั้น ไม่มีผลกระทบอื่นใดที่จะส่งผลต่อความก้าวหน้า หากไม่มีผู้ชนะก่อนสิ้นสุดยุค ผู้เล่นที่สะสม [B]แต้มมรดก[/B] ได้มากที่สุดตลอดยุคจะเป็นผู้ชนะ พิจารณาโอกาสที่เหลืออยู่และจารึกมรดกของอารยธรรมคุณไว้ในประวัติศาสตร์</Text>		<!-- The Exploration Age is drawing to a close. From this point forward, the Age only progresses when you select Next Turn; no other effects will influence its advance. If no Victory is won before the end of the Age, the player who accumulated the most [B]Legacy Points[/B] over the course of the Age will be the winner. Reflect on the remaining opportunities and etch your Civilization's legacy into history. -->
     </Replace>
-    <Replace Tag="LOC_WARNING_FIRST_CONVERSION_MESSAGE" Language="th_TH">
-        <Text>มิชชันนารีจากต่างประเทศได้ทำให้ผู้คนใน {1_City} หลงใหล — ซึ่งเป็นลางที่ไม่ดี หากเราสูญเสียหัวใจของประชาชน อาจทำให้เราสูญเสียมากกว่าเดิม</Text>		<!-- Missionaries from abroad have captivated the inhabitants of {1_City} — an ill portent. If we lose our people's hearts, we may lose more. -->
-    </Replace>
-    <Replace Tag="LOC_WARNING_FIRST_CONVERSION_SUMMARY" Language="th_TH">
-        <Text>แข่นขันทางศาสนา</Text>		<!-- Competing Religion -->
-    </Replace>
     <Replace Tag="LOC_CITYCOMMAND_DESTROY_RAZE_PENALTY" Language="th_TH">
         <Text>-8[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น สำหรับช่วงเวลาที่เหลือของยุคเมื่อการทำลายเสร็จสมบูรณ์</Text>		<!-- -8[icon:YIELD_DIPLOMACY] Influence per turn for the rest of the Age once razing is complete -->
     </Replace>
     <Replace Tag="LOC_CITYCOMMAND_KEEP_PENALTY" Language="th_TH">
         <Text>-4[icon:YIELD_DIPLOMACY] อิทธิพล ต่อเทิร์น ขณะที่คุณควบคุมถิ่นฐานนี้ในช่วงยุคนี้</Text>		<!-- -4[icon:YIELD_DIPLOMACY] Influence per turn while you control this Settlement during this Age -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID1" Language="th_TH">
-        <Text>แบกแดด</Text>		<!-- Baghdād -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID2" Language="th_TH">
-        <Text>อัล-ฟูสตัต</Text>		<!-- al-Fustāt -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID3" Language="th_TH">
-        <Text>มักกะฮ์</Text>		<!-- Makkah -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID4" Language="th_TH">
-        <Text>อัลมอว์ซิล</Text>		<!-- al-Mawsil -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID5" Language="th_TH">
-        <Text>อาร์ดาบิล</Text>		<!-- Ardabil -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID6" Language="th_TH">
-        <Text>ฮามาดาน</Text>		<!-- Hamadān -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID7" Language="th_TH">
-        <Text>ชิราซ</Text>		<!-- Shirāz -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID8" Language="th_TH">
-        <Text>ซาบิด</Text>		<!-- Zabid -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID9" Language="th_TH">
-        <Text>ดิมาชค์</Text>		<!-- Dimašq -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID10" Language="th_TH">
-        <Text>ไคร์วาน</Text>		<!-- Qairwān -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID11" Language="th_TH">
-        <Text>ซามาร์รา</Text>		<!-- Sāmarrā -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID12" Language="th_TH">
-        <Text>อัล-อาหวาซ</Text>		<!-- al-Ahwāz -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID13" Language="th_TH">
-        <Text>อิรานเชห์ร์</Text>		<!-- Irānshahr -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID14" Language="th_TH">
-        <Text>ชาห์รัสตาน</Text>		<!-- Shahrastān -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID15" Language="th_TH">
-        <Text>อัสซีราเจน</Text>		<!-- as-Sirajān -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID16" Language="th_TH">
-        <Text>อัลมันซูร่า</Text>		<!-- al-Mansūra -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID17" Language="th_TH">
-        <Text>อัลกูฟะห์</Text>		<!-- al-Kūfah -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID18" Language="th_TH">
-        <Text>อัลมาดีนะห์</Text>		<!-- al-Madinah -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID19" Language="th_TH">
-        <Text>รามะ-ฮูร์มุซ</Text>		<!-- Rāma-hurmuz -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID20" Language="th_TH">
-        <Text>อัล-บัศเราะห์</Text>		<!-- al-Basrah -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID21" Language="th_TH">
-        <Text>อัลเรย์</Text>		<!-- al-Rayy -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID22" Language="th_TH">
-        <Text>ฮาลับ</Text>		<!-- Halab -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID23" Language="th_TH">
-        <Text>บาล์คห์</Text>		<!-- Balkh -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID24" Language="th_TH">
-        <Text>บัสท์</Text>		<!-- Bust -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID25" Language="th_TH">
-        <Text>อัล-รักกาห์</Text>		<!-- ar-Raqqah -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID26" Language="th_TH">
-        <Text>บาร์ดาอา</Text>		<!-- Bardha‘a -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID27" Language="th_TH">
-        <Text>อามุล</Text>		<!-- Āmol -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID28" Language="th_TH">
-        <Text>สุหร่าย</Text>		<!-- Suhār -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID29" Language="th_TH">
-        <Text>อัลอัซฮา</Text>		<!-- al-Ahsā -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID30" Language="th_TH">
-        <Text>จิราฟต์</Text>		<!-- Jiraft -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID31" Language="th_TH">
-        <Text>ซิรานจ์</Text>		<!-- Ziranj -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID32" Language="th_TH">
-        <Text>มาร์ว</Text>		<!-- Marw -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_ABBASID33" Language="th_TH">
-        <Text>ฮารัต</Text>		<!-- Harāt -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA1" Language="th_TH">
-        <Text>คงไกโคนทะ โจฬาปุรัม</Text>		<!-- Gangaikonda Cholapuram -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA2" Language="th_TH">
-        <Text>ปษายาราย</Text>		<!-- Pazhayarai -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA3" Language="th_TH">
-        <Text>ธานจากุร์</Text>		<!-- Thanjavur -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA4" Language="th_TH">
-        <Text>อุไรย์ยูร์</Text>		<!-- Uraiyuir -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA5" Language="th_TH">
-        <Text>นาคาปรัททินัม</Text>		<!-- Nagapattinam -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA6" Language="th_TH">
-        <Text>กันชิผัม</Text>		<!-- Kanchipuram -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA7" Language="th_TH">
-        <Text>มตุไร</Text>		<!-- Madurai -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA8" Language="th_TH">
-        <Text>การูร์</Text>		<!-- Karur -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA9" Language="th_TH">
-        <Text>ตะลักกาด</Text>		<!-- Talakkad -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA10" Language="th_TH">
-        <Text>มะโฮไดยาปุรัม</Text>		<!-- Mahodaiyapuram -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA11" Language="th_TH">
-        <Text>ต่อมออักเสบ</Text>		<!-- Kollam -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA12" Language="th_TH">
-        <Text>ขันตลุรุ-ศาลายา</Text>		<!-- Kantalur-salai -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA13" Language="th_TH">
-        <Text>ตาลกาดู</Text>		<!-- Talakadu -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA14" Language="th_TH">
-        <Text>เวนกิ</Text>		<!-- Vengi -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA15" Language="th_TH">
-        <Text>มหาบาลิเปอร์รูม</Text>		<!-- Mahabalipuram -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA16" Language="th_TH">
-        <Text>วสวาสมุดรัม</Text>		<!-- Vasavasamudram -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA17" Language="th_TH">
-        <Text>อริกเมฑุ</Text>		<!-- Arikamedu -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA18" Language="th_TH">
-        <Text>คาเวรีปัตนัม</Text>		<!-- Kaveripatnam -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA19" Language="th_TH">
-        <Text>ตันดี</Text>		<!-- Tondi -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA20" Language="th_TH">
-        <Text>เปริยปัตตินัม</Text>		<!-- Periyapattinam -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA21" Language="th_TH">
-        <Text>รามเอสวารัม</Text>		<!-- Rameswaram -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA22" Language="th_TH">
-        <Text>เดวิพัตนัม</Text>		<!-- Devipattinam -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA23" Language="th_TH">
-        <Text>อาลากันกุลัม</Text>		<!-- Alagankulam -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA24" Language="th_TH">
-        <Text>กอคาล</Text>		<!-- Korkal -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA25" Language="th_TH">
-        <Text>อนุราธปุระ</Text>		<!-- Anuradhapura -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA26" Language="th_TH">
-        <Text>จานาธามังคาลัม</Text>		<!-- Janathamangalam -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA27" Language="th_TH">
-        <Text>มหาธิตถะ</Text>		<!-- Mahathittha -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA28" Language="th_TH">
-        <Text>ปุลัตถินนคร</Text>		<!-- Pulatthinagara -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_CHOLA29" Language="th_TH">
-        <Text>มะโตตตาม</Text>		<!-- Matottam -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII1" Language="th_TH">
-        <Text>ลาฮายน่า</Text>		<!-- Lāhainā -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII2" Language="th_TH">
-        <Text>เคา</Text>		<!-- Kou -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII3" Language="th_TH">
-        <Text>ฮิโล</Text>		<!-- Hilo -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII4" Language="th_TH">
-        <Text>ไวลุกุ</Text>		<!-- Wailuku -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII5" Language="th_TH">
-        <Text>ลิฮูเอ</Text>		<!-- Lihu'e -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII6" Language="th_TH">
-        <Text>เอวา</Text>		<!-- ‘Ewa -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII7" Language="th_TH">
-        <Text>ไคลัว</Text>		<!-- Kailua -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII8" Language="th_TH">
-        <Text>ไวปาฮู</Text>		<!-- Waipahu -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII9" Language="th_TH">
-        <Text>ลานาอิ</Text>		<!-- Lāna'i -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII10" Language="th_TH">
-        <Text>คะฮูลูอี</Text>		<!-- Kahului -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII11" Language="th_TH">
-        <Text>คิเฮอี</Text>		<!-- Kihei -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII12" Language="th_TH">
-        <Text>ไวโคลู</Text>		<!-- Waikolu -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII13" Language="th_TH">
-        <Text>กาปาอา</Text>		<!-- Kapa'a -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII14" Language="th_TH">
-        <Text>เพิร์ลซิตี้</Text>		<!-- Pearl City -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII15" Language="th_TH">
-        <Text>โคนา</Text>		<!-- Kona -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII16" Language="th_TH">
-        <Text>คาอูนาคาฮากาย</Text>		<!-- Kaunakahakai -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII17" Language="th_TH">
-        <Text>นานาคูลี</Text>		<!-- Nānākuli -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII18" Language="th_TH">
-        <Text>ไวลัว</Text>		<!-- Wailua -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII19" Language="th_TH">
-        <Text>ปาปา'อิเกา</Text>		<!-- Pāpa'ikou -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII20" Language="th_TH">
-        <Text>คาฮาลู'อู</Text>		<!-- Kahalu'u -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII21" Language="th_TH">
-        <Text>ไวเมอา</Text>		<!-- Waimea -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII22" Language="th_TH">
-        <Text>มาคาฮะ</Text>		<!-- Mākaha -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII23" Language="th_TH">
-        <Text>ฮาน่า</Text>		<!-- Hāna -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII24" Language="th_TH">
-        <Text>ไว-เฮอเฮ่</Text>		<!-- Wai-he'e -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII25" Language="th_TH">
-        <Text>นาอะเลฮู</Text>		<!-- Nā'ālehu -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII26" Language="th_TH">
-        <Text>ฮาลาวา</Text>		<!-- Hālawa -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII27" Language="th_TH">
-        <Text>ฮาอิคู</Text>		<!-- Ha'ikū -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII28" Language="th_TH">
-        <Text>เปเป้เอโก</Text>		<!-- Pepe’eko -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII29" Language="th_TH">
-        <Text>อานาเอโฮโอมาลู</Text>		<!-- ‘Anaeho’omalu -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_HAWAII30" Language="th_TH">
-        <Text>ปูฮิ</Text>		<!-- Puhi -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA1" Language="th_TH">
-        <Text>กุสกุ</Text>		<!-- Qusqu -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA2" Language="th_TH">
-        <Text>แอนตาเวลล่า</Text>		<!-- Antawaylla -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA3" Language="th_TH">
-        <Text>วานูกู</Text>		<!-- Wanuku -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA4" Language="th_TH">
-        <Text>วิลก้า วามัน</Text>		<!-- Willka Waman -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA5" Language="th_TH">
-        <Text>มาชูปิกชู</Text>		<!-- Machu Pikchu -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA6" Language="th_TH">
-        <Text>อุลลันตาจัมปู</Text>		<!-- Ullantaytampu -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA7" Language="th_TH">
-        <Text>ซอสซ่า</Text>		<!-- Sausa -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA8" Language="th_TH">
-        <Text>คาชามาร์กา</Text>		<!-- Kashamarka -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA9" Language="th_TH">
-        <Text>ชูควิตโต</Text>		<!-- Chucuito -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA10" Language="th_TH">
-        <Text>กิตุ</Text>		<!-- Kitu -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA11" Language="th_TH">
-        <Text>อายาคูชู</Text>		<!-- Ayak’uchu -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA12" Language="th_TH">
-        <Text>ชันชัน</Text>		<!-- Chan Chan -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA13" Language="th_TH">
-        <Text>ปิซาก</Text>		<!-- Pisac -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA14" Language="th_TH">
-        <Text>ฮวนคาบัมบา</Text>		<!-- Huancabamba -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA15" Language="th_TH">
-        <Text>อายาวิรี</Text>		<!-- Ayaviri -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA16" Language="th_TH">
-        <Text>วิตคอส</Text>		<!-- Vitcos -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA17" Language="th_TH">
-        <Text>พาเรีย</Text>		<!-- Paria -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA18" Language="th_TH">
-        <Text>ชูกีอาโบ</Text>		<!-- Chuquiabo -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA19" Language="th_TH">
-        <Text>ปาชาคามาค</Text>		<!-- Pachakamaq -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA20" Language="th_TH">
-        <Text>ทุมเบซ</Text>		<!-- Tumbez -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA21" Language="th_TH">
-        <Text>ทูมิพัมปา</Text>		<!-- Tumipampa -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA22" Language="th_TH">
-        <Text>อินคา พิรคา</Text>		<!-- Inka Pirka -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA23" Language="th_TH">
-        <Text>วังกาวิลา</Text>		<!-- Wankawilka -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA24" Language="th_TH">
-        <Text>อิก้า</Text>		<!-- Ica -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA25" Language="th_TH">
-        <Text>ปารามองกา</Text>		<!-- Paramonga -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA26" Language="th_TH">
-        <Text>ปูกาตัมปู</Text>		<!-- Pukatampu -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA27" Language="th_TH">
-        <Text>ชิควิตอย</Text>		<!-- Chiquitoy -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA28" Language="th_TH">
-        <Text>เชน่า ปุการา</Text>		<!-- Chena Pukara -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA29" Language="th_TH">
-        <Text>ฮามังไค</Text>		<!-- Hamanqay -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA30" Language="th_TH">
-        <Text>ปัมปุ</Text>		<!-- Pumpu -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_INCA31" Language="th_TH">
-        <Text>ปูการา อาคอนกีฮา</Text>		<!-- Pukara Aconquija -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT1" Language="th_TH">
-        <Text>วิลวาคิกตา</Text>		<!-- Wilwakikta -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT2" Language="th_TH">
-        <Text>ลูมาจัง</Text>		<!-- Lumajang -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT3" Language="th_TH">
-        <Text>ดาเฮะ</Text>		<!-- Daha -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT4" Language="th_TH">
-        <Text>ทุงบัน</Text>		<!-- Tuban -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT5" Language="th_TH">
-        <Text>ฮุจุง กาลูห์</Text>		<!-- Hujung Galuh -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT6" Language="th_TH">
-        <Text>ปาจัง</Text>		<!-- Pajang -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT7" Language="th_TH">
-        <Text>ปาเล็มบัง</Text>		<!-- Palembang -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT8" Language="th_TH">
-        <Text>จัมบี</Text>		<!-- Jambi -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT9" Language="th_TH">
-        <Text>เบรูเน่</Text>		<!-- Berune -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT10" Language="th_TH">
-        <Text>ตุมาสิก</Text>		<!-- Tumasik -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT11" Language="th_TH">
-        <Text>คาลานเทน</Text>		<!-- Kalanten -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT12" Language="th_TH">
-        <Text>ซามูดรา</Text>		<!-- Samudra -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT13" Language="th_TH">
-        <Text>ลมูรี</Text>		<!-- Lamuri -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT14" Language="th_TH">
-        <Text>บารุส</Text>		<!-- Barus -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT15" Language="th_TH">
-        <Text>ดรรมาไครยะ</Text>		<!-- Darmmacraya -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT16" Language="th_TH">
-        <Text>เบดาฮูลู</Text>		<!-- Bedahulu -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT17" Language="th_TH">
-        <Text>ลวาเกจาห์</Text>		<!-- Lwagajah -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT18" Language="th_TH">
-        <Text>ลอมโบค มีราช</Text>		<!-- Lombok Mirah -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT19" Language="th_TH">
-        <Text>กูรูน</Text>		<!-- Gurun -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT20" Language="th_TH">
-        <Text>ซักซัก</Text>		<!-- Saksak -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT21" Language="th_TH">
-        <Text>สุขดานา</Text>		<!-- Sukdana -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT22" Language="th_TH">
-        <Text>แซมพิท</Text>		<!-- Sampit -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT23" Language="th_TH">
-        <Text>ปะไน</Text>		<!-- Panai -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT24" Language="th_TH">
-        <Text>บารุส</Text>		<!-- Barus -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT25" Language="th_TH">
-        <Text>ตาลีวัง</Text>		<!-- Taliwang -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT26" Language="th_TH">
-        <Text>มาคาสซาร์</Text>		<!-- Makassar -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT27" Language="th_TH">
-        <Text>มาลาโก้</Text>		<!-- Maloko -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT28" Language="th_TH">
-        <Text>อัมบวาน</Text>		<!-- Ambwan -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MAJAPAHIT29" Language="th_TH">
-        <Text>ตันจุง กูเตย์</Text>		<!-- Tanjung Kutei -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING1" Language="th_TH">
-        <Text>หย่งเทียน</Text>		<!-- Yingtian -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING2" Language="th_TH">
-        <Text>เป่ยปิง</Text>		<!-- Beiping -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING3" Language="th_TH">
-        <Text>ฟูโจว</Text>		<!-- Fuzhou -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING4" Language="th_TH">
-        <Text>กวางโจว</Text>		<!-- Guangzhou -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING5" Language="th_TH">
-        <Text>หางโจว</Text>		<!-- Hangzhou -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING6" Language="th_TH">
-        <Text>กุ้ยหลิน</Text>		<!-- Guilin -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING7" Language="th_TH">
-        <Text>กุ้ยหยาง</Text>		<!-- Guiyang -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING8" Language="th_TH">
-        <Text>ไคเฟิง</Text>		<!-- Kaifeng -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING9" Language="th_TH">
-        <Text>หังโจว</Text>		<!-- Hankou -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING10" Language="th_TH">
-        <Text>หนานชาง</Text>		<!-- Nanchang -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING11" Language="th_TH">
-        <Text>จี่หนาน</Text>		<!-- Jinan -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING12" Language="th_TH">
-        <Text>ไท่หยวน</Text>		<!-- Taiyuan -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING13" Language="th_TH">
-        <Text>เฉิงตู</Text>		<!-- Chengdu -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING14" Language="th_TH">
-        <Text>ยูนนาน</Text>		<!-- Yunnan -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING15" Language="th_TH">
-        <Text>หนานหนิง</Text>		<!-- Nanning -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING16" Language="th_TH">
-        <Text>ลั่วโจว</Text>		<!-- Luzhou -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING17" Language="th_TH">
-        <Text>อู่ชาง</Text>		<!-- Wuchang -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING18" Language="th_TH">
-        <Text>ชวนโจว</Text>		<!-- Quanzhou -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING19" Language="th_TH">
-        <Text>ฉางชา</Text>		<!-- Changsha -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING20" Language="th_TH">
-        <Text>ฮังกยาง</Text>		<!-- Hangyang -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING21" Language="th_TH">
-        <Text>เซี่ยงหยาง</Text>		<!-- Xiangyang -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING22" Language="th_TH">
-        <Text>จิงโจว</Text>		<!-- Jingzhou -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING23" Language="th_TH">
-        <Text>เสียมเหมา</Text>		<!-- Xiamen -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING24" Language="th_TH">
-        <Text>ลั่วหยาง</Text>		<!-- Luoyang -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING25" Language="th_TH">
-        <Text>หลินเทา</Text>		<!-- Lintao -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING26" Language="th_TH">
-        <Text>ซีหนิง</Text>		<!-- Xining -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING27" Language="th_TH">
-        <Text>หยินฉวน</Text>		<!-- Yinchuan -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING28" Language="th_TH">
-        <Text>ชิงชาน</Text>		<!-- Qiongshan -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING29" Language="th_TH">
-        <Text>ซีอาน</Text>		<!-- Xi’an -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MING30" Language="th_TH">
-        <Text>นูร์กันดุซี</Text>		<!-- Nuergandusi -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA1" Language="th_TH">
-        <Text>คาราโครัม</Text>		<!-- Qaraqorum -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA2" Language="th_TH">
-        <Text>ควบโด</Text>		<!-- Qobdo -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA3" Language="th_TH">
-        <Text>ขูรี</Text>		<!-- Khüree -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA4" Language="th_TH">
-        <Text>อูเลียสไต</Text>		<!-- Uliastai -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA5" Language="th_TH">
-        <Text>ออเรก</Text>		<!-- Aurag -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA6" Language="th_TH">
-        <Text>คิอากต์</Text>		<!-- Khiagt -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA7" Language="th_TH">
-        <Text>อูหลางกอม</Text>		<!-- Ulaangom -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA8" Language="th_TH">
-        <Text>ดูลูน บอลด็อก</Text>		<!-- Dulüün Boldog -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA9" Language="th_TH">
-        <Text>คูดูอารัล</Text>		<!-- Khuduu Aral -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA10" Language="th_TH">
-        <Text>ไสน์ชานด์</Text>		<!-- Sainshand -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA11" Language="th_TH">
-        <Text>อัลไต</Text>		<!-- Altai -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA12" Language="th_TH">
-        <Text>อายิล คาราคานา</Text>		<!-- Ayil Qaraqana -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA13" Language="th_TH">
-        <Text>โคกนูร์</Text>		<!-- Khökh Nuur -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA14" Language="th_TH">
-        <Text>เคอร์เลน บาร์ โคท</Text>		<!-- Kherlen Bar Khot -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA15" Language="th_TH">
-        <Text>เบอร์กิ อีเร็ก</Text>		<!-- Burgi Ereg -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA16" Language="th_TH">
-        <Text>คอร์ควอนัค จูบูร์</Text>		<!-- Qorqonaq Jubur -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA17" Language="th_TH">
-        <Text>วานกิอิน คูเร</Text>		<!-- Vangiin Khüree -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA18" Language="th_TH">
-        <Text>ดาลาน เนมูร์เกส</Text>		<!-- Dalan Nemürges -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA19" Language="th_TH">
-        <Text>ทาจกัล คอร์กา</Text>		<!-- Tajkal Khorga -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA20" Language="th_TH">
-        <Text>จักรเมตต์</Text>		<!-- Chakirmaut -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA21" Language="th_TH">
-        <Text>การบัลกาซุน</Text>		<!-- Qarabalghasun -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA22" Language="th_TH">
-        <Text>ทอร์ควอด</Text>		<!-- Torqod -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA23" Language="th_TH">
-        <Text>บือร์กิ-เออร์กิ</Text>		<!-- Bürgi-ergi -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA24" Language="th_TH">
-        <Text>คไวร์</Text>		<!-- Choir -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA25" Language="th_TH">
-        <Text>บุร์คาน คัลดูน</Text>		<!-- Burkhan Khaldun -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA26" Language="th_TH">
-        <Text>ฮาริลตูนาว</Text>		<!-- Hariltu Naur -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA27" Language="th_TH">
-        <Text>คาระอุน คับชัล</Text>		<!-- Qara'un Qabcal -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA28" Language="th_TH">
-        <Text>อัลตันบุลัก</Text>		<!-- Altanbulag -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA29" Language="th_TH">
-        <Text>เซ็ตเซอร์เล็ก</Text>		<!-- Tsetserleg -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_MONGOLIA30" Language="th_TH">
-        <Text>บายานตุเมน</Text>		<!-- Bayantümen -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN1" Language="th_TH">
-        <Text>รูออง</Text>		<!-- Rouen -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN2" Language="th_TH">
-        <Text>แคม</Text>		<!-- Kaem -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN3" Language="th_TH">
-        <Text>บายยูซ์</Text>		<!-- Bayeux -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN4" Language="th_TH">
-        <Text>ฟาลิส</Text>		<!-- Falaise -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN5" Language="th_TH">
-        <Text>เฮสติงส์</Text>		<!-- Hastinges -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN6" Language="th_TH">
-        <Text>เฟรก็อง</Text>		<!-- Fécamp -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN7" Language="th_TH">
-        <Text>วินเชสเตอร์</Text>		<!-- Wyncestre -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN8" Language="th_TH">
-        <Text>ลุนเดรส</Text>		<!-- Lundres -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN9" Language="th_TH">
-        <Text>โดวอร์เร</Text>		<!-- Dovorre -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN10" Language="th_TH">
-        <Text>จีซอร์</Text>		<!-- Gisors -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN11" Language="th_TH">
-        <Text>เอเวอไวค์</Text>		<!-- Everwyk -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN12" Language="th_TH">
-        <Text>เชอเรอร์เบิร์ก</Text>		<!-- Chereburgh -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN13" Language="th_TH">
-        <Text>แคนทอร์ไบร์</Text>		<!-- Cantorbire -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN14" Language="th_TH">
-        <Text>ไดฟส์</Text>		<!-- Dives -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN15" Language="th_TH">
-        <Text>โคลเชสเตอร์</Text>		<!-- Colcestre -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN16" Language="th_TH">
-        <Text>นอร์วิช</Text>		<!-- Norwiche -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN17" Language="th_TH">
-        <Text>มอร์ตาเญน</Text>		<!-- Mortaigne -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN18" Language="th_TH">
-        <Text>ดีป</Text>		<!-- Diepe -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN19" Language="th_TH">
-        <Text>ลินคอล์น</Text>		<!-- Lincoln -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN20" Language="th_TH">
-        <Text>เอวรัส</Text>		<!-- Evrous -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN21" Language="th_TH">
-        <Text>โบเซแฮม</Text>		<!-- Boseham -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN22" Language="th_TH">
-        <Text>เมลฟี</Text>		<!-- Melfi -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN23" Language="th_TH">
-        <Text>อัฟรอนเชส</Text>		<!-- Avraunches -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN24" Language="th_TH">
-        <Text>น็อตติงแฮม</Text>		<!-- Nottingham -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN25" Language="th_TH">
-        <Text>ออคเซนฟอร์ด</Text>		<!-- Oxenford -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN26" Language="th_TH">
-        <Text>แคทินเซนซ์</Text>		<!-- Catinenze -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN27" Language="th_TH">
-        <Text>สตาฟฟอร์ด</Text>		<!-- Stafford -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN28" Language="th_TH">
-        <Text>ไรซ์</Text>		<!-- Rise -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN29" Language="th_TH">
-        <Text>อัลนวิค</Text>		<!-- Alnwyk -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_NORMAN30" Language="th_TH">
-        <Text>แคทแคม</Text>		<!-- Cathacem -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI1" Language="th_TH">
-        <Text>เกา</Text>		<!-- Gao -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI2" Language="th_TH">
-        <Text>ทิมบักตู</Text>		<!-- Timbuktu -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI3" Language="th_TH">
-        <Text>เจนน์</Text>		<!-- Jenne -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI4" Language="th_TH">
-        <Text>คุกิยา</Text>		<!-- Kukiya -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI5" Language="th_TH">
-        <Text>ลูลามิ</Text>		<!-- Lulami -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI6" Language="th_TH">
-        <Text>เทนดิรมา</Text>		<!-- Tendirma -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI7" Language="th_TH">
-        <Text>คัมบี ซาเลห์</Text>		<!-- Kumbi Saleh -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI8" Language="th_TH">
-        <Text>เตเณนคู</Text>		<!-- Tenenku -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI9" Language="th_TH">
-        <Text>อะกาดิส</Text>		<!-- Agadez -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI10" Language="th_TH">
-        <Text>ทัดเม็กก้า</Text>		<!-- Tadmekka -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI11" Language="th_TH">
-        <Text>โกบีร์</Text>		<!-- Gobir -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI12" Language="th_TH">
-        <Text>กายา</Text>		<!-- Gaya -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI13" Language="th_TH">
-        <Text>คัตซินา</Text>		<!-- Katsina -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI14" Language="th_TH">
-        <Text>ซาเรีย</Text>		<!-- Zaria -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI15" Language="th_TH">
-        <Text>ทาเคดดา</Text>		<!-- Takedda -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI16" Language="th_TH">
-        <Text>คาบารา</Text>		<!-- Kabara -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI17" Language="th_TH">
-        <Text>คาโน</Text>		<!-- Kano -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI18" Language="th_TH">
-        <Text>วาลาตา</Text>		<!-- Walata -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI19" Language="th_TH">
-        <Text>ซิบริดูโก</Text>		<!-- Sibiridugu -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI20" Language="th_TH">
-        <Text>อูอาลาตา</Text>		<!-- Oualata -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI21" Language="th_TH">
-        <Text>เซเกู</Text>		<!-- Segu -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI22" Language="th_TH">
-        <Text>บัมบ้า</Text>		<!-- Bamba -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI23" Language="th_TH">
-        <Text>เทกฮาซซา</Text>		<!-- Teghazza -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI24" Language="th_TH">
-        <Text>ยาเตมก้า</Text>		<!-- Yatemga -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI25" Language="th_TH">
-        <Text>เดีย</Text>		<!-- Dia -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI26" Language="th_TH">
-        <Text>อราวัณ</Text>		<!-- Arawan -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI27" Language="th_TH">
-        <Text>ทิชิต</Text>		<!-- Tishit -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI28" Language="th_TH">
-        <Text>อูอาดาเน</Text>		<!-- Ouadane -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI29" Language="th_TH">
-        <Text>มาซีน่า</Text>		<!-- Masina -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SONGHAI30" Language="th_TH">
-        <Text>บิลม่า</Text>		<!-- Bilma -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN1" Language="th_TH">
-        <Text>มาดริด</Text>		<!-- Madrid -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN2" Language="th_TH">
-        <Text>เซบียา</Text>		<!-- Sevilla -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN3" Language="th_TH">
-        <Text>บาร์เซโลนา</Text>		<!-- Barcelona -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN4" Language="th_TH">
-        <Text>โตเลโด</Text>		<!-- Toledo -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN5" Language="th_TH">
-        <Text>คอร์โดบา</Text>		<!-- Córdoba -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN6" Language="th_TH">
-        <Text>วาเลนเซีย</Text>		<!-- Valencia -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN7" Language="th_TH">
-        <Text>ซาราโกซ่า</Text>		<!-- Zaragoza -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN8" Language="th_TH">
-        <Text>บัลลาโดลิด</Text>		<!-- Valladolid -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN9" Language="th_TH">
-        <Text>บิลบาโอ</Text>		<!-- Bilbao -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN10" Language="th_TH">
-        <Text>อาคอรูญา</Text>		<!-- A Coruña -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN11" Language="th_TH">
-        <Text>การ์ตาเฮนา</Text>		<!-- Cartagena -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN12" Language="th_TH">
-        <Text>คาดิซ</Text>		<!-- Cádiz -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN13" Language="th_TH">
-        <Text>ซาลามังกา</Text>		<!-- Salamanca -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN14" Language="th_TH">
-        <Text>ลาส ปัลมาส</Text>		<!-- Las Palmas -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN15" Language="th_TH">
-        <Text>มูร์เซีย</Text>		<!-- Murcia -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN16" Language="th_TH">
-        <Text>ปัมโปลนา</Text>		<!-- Pamplona -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN17" Language="th_TH">
-        <Text>วีโก</Text>		<!-- Vigo -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN18" Language="th_TH">
-        <Text>ออราน</Text>		<!-- Oran -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN19" Language="th_TH">
-        <Text>บีโตเรีย-กัสเตซ</Text>		<!-- Vitoria-Gasteiz -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN20" Language="th_TH">
-        <Text>โอยาเบโด</Text>		<!-- Oviedo -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN21" Language="th_TH">
-        <Text>มาลากา</Text>		<!-- Málaga -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN22" Language="th_TH">
-        <Text>ฮาวานา</Text>		<!-- Havana -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN23" Language="th_TH">
-        <Text>เจน</Text>		<!-- Jaen -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN24" Language="th_TH">
-        <Text>มะนิลา</Text>		<!-- Manila -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN25" Language="th_TH">
-        <Text>ซานแทนเดอร์</Text>		<!-- Santander -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN26" Language="th_TH">
-        <Text>อัลเมเรีย</Text>		<!-- Almeria -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN27" Language="th_TH">
-        <Text>อาลิกันเต้</Text>		<!-- Alicante -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN28" Language="th_TH">
-        <Text>บาเดโลนา</Text>		<!-- Badalona -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN29" Language="th_TH">
-        <Text>บูร์โกส</Text>		<!-- Burgos -->
-    </Replace>
-    <Replace Tag="LOC_CITY_NAME_SPAIN30" Language="th_TH">
-        <Text>ฆีฮอน</Text>		<!-- Gijón -->
-    </Replace>
-    <Replace Tag="LOC_DIPLOMACY_ACTION_ESPIONAGE_BUY_LOYALTY_NAME" Language="th_TH">
-        <Text>ซื้อความภักดี</Text>		<!-- Buy Loyalty -->
-    </Replace>
-    <Replace Tag="LOC_DIPLOMACY_ACTION_ESPIONAGE_BUY_LOYALTY_DESCRIPTION" Language="th_TH">
-        <Text>รับสำเนายูนิตทหารบกที่ผู้นำเป้าหมายได้ปลดล็อก, ยูนิตจะปรากฏในเมืองหลวงของคุณ</Text>		<!-- Gain a copy of a Land Military Unit the targeted Leader has unlocked. The Unit will appear in your Capital. -->
-    </Replace>
-    <Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ESPIONAGE_BUY_LOYALTY_EFFECT" Language="th_TH">
-        <Text>เราได้ซื้อความภักดีของ {1_unit} แล้ว!</Text>		<!-- We have bought the loyalty of a {1_unit}! -->
-    </Replace>
-    <Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ESPIONAGE_BUY_LOYALTY_EFFECT_TARGET" Language="th_TH">
-        <Text>พวกเขาได้ซื้อความภักดีของหนึ่งใน {1_unit} ของเรา!</Text>		<!-- They have bought the loyalty of one of our {1_unit}! -->
-    </Replace>
-    <Replace Tag="LOC_DIPLOMACY_PROJECT_DEMAND_TRIBUTE_NAME" Language="th_TH">
-        <Text>เรียกร้องบรรณาการ</Text>		<!-- Demand Tribute -->
-    </Replace>
-    <Replace Tag="LOC_DIPLOMACY_PROJECT_DEMAND_TRIBUTE_DESCRIPTION" Language="th_TH">
-        <Text>กำหนดเป้าหมายถิ่นฐานที่มีทรัพยากรสมบัติ, สร้างผลกระทบ -20 [icon:YIELD_GOLD]ทอง ต่อเทิร์นต่อเจ้าของถิ่นฐานในช่วงระยะเวลา, สร้างขบวนสมบัติที่มีค่า 2 คะแนนเมื่อการกระทำสิ้นสุดลง</Text>		<!-- Target a Settlement with Treasure Resources. Inflicts -20 [icon:YIELD_GOLD]Gold per turn on the owner of the Settlement for the duration. Creates a Treasure Convoy with a value of 2 when the action ends. -->
-    </Replace>
-    <Replace Tag="LOC_DIPLOMACY_PROJECT_DEMAND_TRIBUTE_INITIAL" Language="th_TH">
-        <Text>กำหนดเป้าหมายถิ่นฐานที่มีทรัพยากรสมบัติ, สร้างผลกระทบ -20 [icon:YIELD_GOLD]ทองต่อเทิร์นแก่เจ้าของถิ่นฐานในช่วงระยะเวลา, สร้างขบวนสมบัติที่มีค่า 2 เมื่อการกระทำสิ้นสุดลง</Text>		<!-- Target a Settlement with Treasure Resources. Inflicts -20 [icon:YIELD_GOLD]Gold per turn on the owner of the Settlement for the duration. Creates a Treasure Convoy with a value of 2 when the action ends. -->
-    </Replace>
-    <Replace Tag="LOC_DIPLOMACY_PROJECT_DEMAND_TRIBUTE_ACCEPT" Language="th_TH">
-        <Text>คุณสูญเสีย 20[icon:YIELD_GOLD] ทอง ต่อเทิร์น, พวกเขาจะสร้างขบวนสมบัติที่มีค่า 2 คะแนนใกล้กับถิ่นฐานเป้าหมายเมื่อการกระทำสิ้นสุดลง</Text>		<!-- You lose 20[icon:YIELD_GOLD] Gold per turn. They will create a Treasure Convoy worth 2 points near the targeted settlement when the action ends. -->
-    </Replace>
-    <Replace Tag="LOC_DIPLOMACY_PROJECT_DEMAND_TRIBUTE_REJECT" Language="th_TH">
-        <Text>ยกเลิกการกระทำทางการทูต</Text>		<!-- Cancels the Diplomatic Action. -->
-    </Replace>
-    <Replace Tag="LOC_DIPLOMACY_PROJECT_DEMAND_TRIBUTE_REQUEST" Language="th_TH">
-        <Text>{1_leaderName} กำลังลด [icon:YIELD_GOLD] ทอง ของเราต่อเทิร์นด้วยการกระทำทางการทูต เรียกร้องบรรณาการ</Text>		<!-- {1_leaderName} is reducing our [icon:YIELD_GOLD] Gold per turn with the Demand Tribute diplomatic action. -->
     </Replace>
     <Replace Tag="LOC_DIPLOMACY_PROJECT_OPEN_BORDERS_ACCEPT" Language="th_TH">
         <Text>เปิดพรมแดนของคุณให้กับพวกเขา[n][icon:YIELD_GOLD] +4 ต่อเทิร์น</Text>		<!-- Open your borders to them.[n][icon:YIELD_GOLD] +4 per turn. -->
@@ -1063,22 +127,35 @@
     <Replace Tag="LOC_DIPLOMACY_PROJECT_FRIEND_OF_WA_ACCEPT" Language="th_TH">
         <Text>[icon:YIELD_SCIENCE] +25%[n]{1_initialName} ได้รับ [icon:YIELD_SCIENCE] +25%</Text>		<!-- [icon:YIELD_SCIENCE] +25%.[n]{1_initialName} receives [icon:YIELD_SCIENCE] +25%. -->
     </Replace>
-    <Replace Tag="LOC_PROJECT_TOWN_RESORT_DESCRIPTION" Language="th_TH">
-        <Text>+1 [icon:YIELD_HAPPINESS] ความสุข และ [icon:YIELD_GOLD] ทอง บนช่องที่น่าดึงดูด,
-    +50% ผลผลิต ต่อช่องจาก สิ่งมหัศจรรย์ทางธรรมชาติ,
-    สามารถซื้อ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านความสุข[/TIP] เพิ่มเติมในเมืองเล็กนี้</Text>		<!-- +1 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_GOLD] Gold on Appealing tiles. +50% tile yields from Natural Wonders. Can Purchase additional [icon:YIELD_HAPPINESS] Happiness Buildings in this Town. -->
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_DEMAND_TRIBUTE_NAME" Language="th_TH">
+        <Text>เรียกร้องบรรณาการ</Text>		<!-- Demand Tribute -->
     </Replace>
-    <Replace Tag="LOC_ANT_RESOURCE_CRABS_TOOLTIP" Language="th_TH">
-        <Text>+2[icon:YIELD_FOOD] อาหาร บน [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]อาคารคลังสินค้า[/TIP]</Text>		<!-- +2[icon:YIELD_FOOD] Food on [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse Buildings[/TIP] -->
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_DEMAND_TRIBUTE_DESCRIPTION" Language="th_TH">
+        <Text>กำหนดเป้าหมายถิ่นฐานที่มีทรัพยากรสมบัติ, สร้างผลกระทบ -20 [icon:YIELD_GOLD]ทอง ต่อเทิร์นต่อเจ้าของถิ่นฐานในช่วงระยะเวลา, สร้างขบวนสมบัติที่มีค่า 2 คะแนนเมื่อการกระทำสิ้นสุดลง</Text>		<!-- Target a Settlement with Treasure Resources. Inflicts -20 [icon:YIELD_GOLD]Gold per turn on the owner of the Settlement for the duration. Creates a Treasure Convoy with a value of 2 when the action ends. -->
     </Replace>
-    <Replace Tag="LOC_ANT_RESOURCE_COWRIE_TOOLTIP" Language="th_TH">
-        <Text>+5 [icon:YIELD_GOLD] ทอง ใน [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP], +3 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ใน [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP]</Text>		<!-- +5 [icon:YIELD_GOLD] Gold in [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP], +3 [icon:YIELD_SCIENCE] Science in [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] -->
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_DEMAND_TRIBUTE_INITIAL" Language="th_TH">
+        <Text>กำหนดเป้าหมายถิ่นฐานที่มีทรัพยากรสมบัติ, สร้างผลกระทบ -20 [icon:YIELD_GOLD]ทองต่อเทิร์นแก่เจ้าของถิ่นฐานในช่วงระยะเวลา, สร้างขบวนสมบัติที่มีค่า 2 เมื่อการกระทำสิ้นสุดลง</Text>		<!-- Target a Settlement with Treasure Resources. Inflicts -20 [icon:YIELD_GOLD]Gold per turn on the owner of the Settlement for the duration. Creates a Treasure Convoy with a value of 2 when the action ends. -->
     </Replace>
-    <Replace Tag="LOC_ANT_RESOURCE_TURTLES_TOOLTIP" Language="th_TH">
-        <Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม บน [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]อาคารคลังสินค้า[/TIP]</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture on [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse Buildings[/TIP] -->
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_DEMAND_TRIBUTE_ACCEPT" Language="th_TH">
+        <Text>คุณสูญเสีย 20[icon:YIELD_GOLD] ทอง ต่อเทิร์น, พวกเขาจะสร้างขบวนสมบัติที่มีค่า 2 คะแนนใกล้กับถิ่นฐานเป้าหมายเมื่อการกระทำสิ้นสุดลง</Text>		<!-- You lose 20[icon:YIELD_GOLD] Gold per turn. They will create a Treasure Convoy worth 2 points near the targeted settlement when the action ends. -->
     </Replace>
-    <Replace Tag="LOC_ANT_RESOURCE_PITCH_TOOLTIP" Language="th_TH">
-        <Text>[icon:YIELD_GOLD] +1 ทอง บน น้ำ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +1 [icon:YIELD_GOLD] Gold on Water [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] -->
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_DEMAND_TRIBUTE_REJECT" Language="th_TH">
+        <Text>ยกเลิกการกระทำทางการทูต</Text>		<!-- Cancels the Diplomatic Action. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_PROJECT_DEMAND_TRIBUTE_REQUEST" Language="th_TH">
+        <Text>{1_leaderName} กำลังลด [icon:YIELD_GOLD] ทอง ของเราต่อเทิร์นด้วยการกระทำทางการทูต เรียกร้องบรรณาการ</Text>		<!-- {1_leaderName} is reducing our [icon:YIELD_GOLD] Gold per turn with the Demand Tribute diplomatic action. -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_ACTION_ESPIONAGE_BUY_LOYALTY_NAME" Language="th_TH">
+        <Text>ซื้อความภักดี</Text>		<!-- Buy Loyalty -->
+    </Replace>
+    <Replace Tag="LOC_DIPLOMACY_ACTION_ESPIONAGE_BUY_LOYALTY_DESCRIPTION" Language="th_TH">
+        <Text>รับสำเนายูนิตทหารบกที่ผู้นำเป้าหมายได้ปลดล็อก, ยูนิตจะปรากฏในเมืองหลวงของคุณ</Text>		<!-- Gain a copy of a Land Military Unit the targeted Leader has unlocked. The Unit will appear in your Capital. -->
+    </Replace>
+    <Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ESPIONAGE_BUY_LOYALTY_EFFECT" Language="th_TH">
+        <Text>เราได้ซื้อความภักดีของ {1_unit} แล้ว!</Text>		<!-- We have bought the loyalty of a {1_unit}! -->
+    </Replace>
+    <Replace Tag="LOC_NOTIFICATION_DIPLOMATIC_ESPIONAGE_BUY_LOYALTY_EFFECT_TARGET" Language="th_TH">
+        <Text>พวกเขาได้ซื้อความภักดีของหนึ่งใน {1_unit} ของเรา!</Text>		<!-- They have bought the loyalty of one of our {1_unit}! -->
     </Replace>
     <Replace Tag="LOC_PROJECT_TOWN_GRANARY_SHORT_NAME" Language="th_TH">
         <Text>โครงการคลังสินค้า</Text>		<!-- Warehouse Project -->
@@ -1125,6 +202,11 @@
     <Replace Tag="LOC_PROJECT_TOWN_INN_DESCRIPTION" Language="th_TH">
         <Text>+1 [icon:YIELD_DIPLOMACY] อิทธิพล ต่อถิ่นฐานที่เชื่อมต่อกับเมืองนี้, สามารถซื้อ [icon:YIELD_DIPLOMACY] อาคารการทูตเพิ่มเติมในเมืองนี้, จำกัดไว้ที่ 1 เมืองศูนย์กลางต่อทวีป</Text>		<!-- +1 [icon:YIELD_DIPLOMACY] Influence per Settlement Connected to this Town. Can Purchase additional [icon:YIELD_DIPLOMACY] Diplomacy Buildings in this Town. Limited to 1 Hub Town per Continent. -->
     </Replace>
+    <Replace Tag="LOC_PROJECT_TOWN_RESORT_DESCRIPTION" Language="th_TH">
+        <Text>+1 [icon:YIELD_HAPPINESS] ความสุข และ [icon:YIELD_GOLD] ทอง บนช่องที่น่าดึงดูด,
+    +50% ผลผลิต ต่อช่องจาก สิ่งมหัศจรรย์ทางธรรมชาติ,
+    สามารถซื้อ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านความสุข[/TIP] เพิ่มเติมในเมืองเล็กนี้</Text>		<!-- +1 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_GOLD] Gold on Appealing tiles. +50% tile yields from Natural Wonders. Can Purchase additional [icon:YIELD_HAPPINESS] Happiness Buildings in this Town. -->
+    </Replace>
     <Replace Tag="LOC_ANT_RESOURCE_MANGOS_TOOLTIP" Language="th_TH">
         <Text>+3[icon:YIELD_FOOD] อาหาร, +3[icon:YIELD_CULTURE] วัฒนธรรม</Text>		<!-- +3[icon:YIELD_FOOD] Food, +3[icon:YIELD_CULTURE] Culture -->
     </Replace>
@@ -1152,32 +234,20 @@
     <Replace Tag="LOC_ANT_RESOURCE_HARDWOOD_TOOLTIP" Language="th_TH">
         <Text>+20% [icon:YIELD_PRODUCTION] กำลังผลิต ต่อ[TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]ยูนิตทางน้ำ[/TIP]</Text>		<!-- +20% [icon:YIELD_PRODUCTION] Production towards [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] -->
     </Replace>
-    <Replace Tag="LOC_MOD_EX_SETTLEMENT_CAP_INCREASE_MORE_DESCRIPTION" Language="th_TH">
-        <Text>+2 [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]ขีดจำกัดถิ่นฐาน[/TIP]</Text>		<!-- +2 [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP]. -->
-    </Replace>
     <Replace Tag="LOC_ANT_RESOURCE_WILD_GAME_TOOLTIP" Language="th_TH">
         <Text>+3 [icon:YIELD_FOOD] อาหาร ใน [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP], +6 [icon:YIELD_FOOD] อาหาร ใน [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP]</Text>		<!-- +3 [icon:YIELD_FOOD] Food in [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP], +6 [icon:YIELD_FOOD] Food in [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] -->
     </Replace>
-    <Replace Tag="LOC_MOD_EXPLORATION_IMPERIALISM_RESOURCE_DESCRIPTION" Language="th_TH">
-        <Text>[icon:RADIAL_RESOURCES] ทรัพยากรชาและเครื่องเทศมีค่า +1 [icon:TREASURE_FLEET] สินค้าสำหรับ [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]ขบวนทรัพย์สมบัติ[/TIP]</Text>		<!-- [icon:RADIAL_RESOURCES] Tea and Spices Resources are worth +1 [icon:TREASURE_FLEET] Cargo for [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP]. -->
+    <Replace Tag="LOC_ANT_RESOURCE_CRABS_TOOLTIP" Language="th_TH">
+        <Text>+2[icon:YIELD_FOOD] อาหาร บน [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]อาคารคลังสินค้า[/TIP]</Text>		<!-- +2[icon:YIELD_FOOD] Food on [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse Buildings[/TIP] -->
     </Replace>
-    <Replace Tag="LOC_MOD_EXPLORATION_SOCIAL_CLASS_RESOURCE_DESCRIPTION" Language="th_TH">
-        <Text>[icon:RADIAL_RESOURCES] ขนสัตว์และทรัพยากรโกโก้มีค่า +1 [icon:TREASURE_FLEET] สินค้าสำหรับ [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]ขบวนขุมทรัพย์[/TIP]</Text>		<!-- [icon:RADIAL_RESOURCES] Furs and Cocoa Resources are worth +1 [icon:TREASURE_FLEET] Cargo for [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP]. -->
+    <Replace Tag="LOC_ANT_RESOURCE_COWRIE_TOOLTIP" Language="th_TH">
+        <Text>+5 [icon:YIELD_GOLD] ทอง ใน [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP], +3 [icon:YIELD_SCIENCE] วิทยาศาสตร์ ใน [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP]</Text>		<!-- +5 [icon:YIELD_GOLD] Gold in [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP], +3 [icon:YIELD_SCIENCE] Science in [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] -->
     </Replace>
-    <Replace Tag="LOC_MOD_TECH_EX_NAVAL_AUTO_EXPLORE_DESCRIPTION" Language="th_TH">
-        <Text>หน่วยเรือระดับ 2 และ 3 [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval ยูนิตs[/TIP] สามารถใช้คำสั่งสำรวจอัตโนมัติได้</Text>		<!-- All Tier 2 and Tier 3 [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] can use the Automate Exploration Action. -->
+    <Replace Tag="LOC_ANT_RESOURCE_TURTLES_TOOLTIP" Language="th_TH">
+        <Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม บน [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]อาคารคลังสินค้า[/TIP]</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture on [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse Buildings[/TIP] -->
     </Replace>
-    <Replace Tag="LOC_MOD_TECH_EX_TRADE_RANGE" Language="th_TH">
-        <Text>+5 [TIP:LOC_PEDIA_CONCEPTS_TRADE_RANGE_TOOLTIP]ระยะการค้า[/TIP]</Text>		<!-- +5 [TIP:LOC_PEDIA_CONCEPTS_TRADE_RANGE_TOOLTIP]Trade Range[/TIP] -->
-    </Replace>
-    <Replace Tag="LOC_MOD_TECH_EX_FEUDALISM_FARMS" Language="th_TH">
-        <Text>+1 [icon:YIELD_FOOD] อาหารจากฟาร์มและไร่ปลูกในเมืองเล็กทางการเกษตร, เมืองเล็กประมง และเมืองเล็กที่มีป้อม</Text>		<!-- +1 [icon:YIELD_FOOD] Food on Farms and Plantations in Farming Towns, Fishing Towns, and Fort Towns. -->
-    </Replace>
-    <Replace Tag="LOC_MOD_TECH_EX_RELIC_SLOT_PAVILION" Language="th_TH">
-        <Text>+1 ช่องมรดก บนศาลา</Text>		<!-- +1 Relic Slot on Pavilions -->
-    </Replace>
-    <Replace Tag="LOC_CAN_CREATE_TREASURE_FLEET" Language="th_TH">
-        <Text>สร้าง [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]ขบวนบรรทุกสมบัติ[/TIP] หากพัฒนาใน [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP]</Text>		<!-- Creates [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP] if improved in the [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP]. -->
+    <Replace Tag="LOC_ANT_RESOURCE_PITCH_TOOLTIP" Language="th_TH">
+        <Text>[icon:YIELD_GOLD] +1 ทอง บน น้ำ [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP]</Text>		<!-- +1 [icon:YIELD_GOLD] Gold on Water [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] -->
     </Replace>
     <Replace Tag="LOC_ANT_RESOURCE_COTTON_TOOLTIP" Language="th_TH">
         <Text>+3[icon:YIELD_FOOD] อาหาร, +3[icon:YIELD_PRODUCTION] กำลังผลิต</Text>		<!-- +3[icon:YIELD_FOOD] Food, +3[icon:YIELD_PRODUCTION] Production -->
@@ -1193,9 +263,6 @@
     </Replace>
     <Replace Tag="LOC_ANT_RESOURCE_GOLD_TOOLTIP" Language="th_TH">
         <Text>+1[icon:YIELD_GOLD] ทอง และ [icon:YIELD_HAPPINESS] ความสุข ในทุก [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP], มีค่าเท่ากับ 2 [icon:TREASURE_FLEET] แต้ม สำหรับ [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]ขบวนบรรทุกสมบัติ[/TIP]</Text>		<!-- +1[icon:YIELD_GOLD] Gold and [icon:YIELD_HAPPINESS] Happiness in all [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP]. Worth 2 [icon:TREASURE_FLEET] Cargo for [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP]. -->
-    </Replace>
-    <Replace Tag="LOC_TUTORIAL_QUEST_SELECTION_BODY_NO_ADVISORS" Language="th_TH">
-        <Text>(เส้นทางมรดกถูกปิดใช้งานในขณะนี้ หากคุณเปิดใช้งาน ที่ปรึกษาของคุณจะพร้อมให้บริการเพื่อแนะนำคุณในเส้นทางที่เลือก.)</Text>		<!-- (Legacy Paths are currently disabled. If you enable them, your Advisors will be at your service to guide you on the path of your choice.) -->
     </Replace>
     <Replace Tag="LOC_ANT_RESOURCE_GOLD_DISTANT_LANDS_TOOLTIP" Language="th_TH">
         <Text>สร้าง [icon:UNIT_TREASURE_FLEET] ขบวนบรรทุกสมบัติ หากได้รับการพัฒนาในดินแดนห่างไกล</Text>		<!-- Creates [icon:UNIT_TREASURE_FLEET] Treasure Convoys if improved in the Distant Lands. -->
@@ -1229,15 +296,6 @@
     </Replace>
     <Replace Tag="LOC_ANT_RESOURCE_SILVER_DISTANT_LANDS_TOOLTIP" Language="th_TH">
         <Text>สร้าง [icon:UNIT_TREASURE_FLEET] ขบวนบรรทุกสมบัติ หากได้รับการพัฒนาในดินแดนห่างไกล</Text>		<!-- Creates [icon:UNIT_TREASURE_FLEET] Treasure Convoys if improved in the Distant Lands. -->
-    </Replace>
-    <Replace Tag="LOC_MOD_EX_FUTURE_TECH_ATTRIBUTE_DESCRIPTION" Language="th_TH">
-        <Text>+1 [icon:ATTRIBUTE] [TIP:LOC_PEDIA_CONCEPTS_ATTRIBUTE_TOOLTIP]แต้มคุณสมบัติแบบสุ่ม[/TIP]</Text>		<!-- +1 [icon:ATTRIBUTE] [TIP:LOC_PEDIA_CONCEPTS_ATTRIBUTE_TOOLTIP]Random Attribute Point[/TIP]. -->
-    </Replace>
-    <Replace Tag="LOC_MOD_EX_FUTURE_TECH_BOOST_DESCRIPTION" Language="th_TH">
-        <Text>บูสต์สำหรับ [icon:RADIAL_TECH] [TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]เทคโนโลยี[/TIP] เริ่มต้นใน [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP]ถัดไป</Text>		<!-- A boost for a starting [icon:RADIAL_TECH] [TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]Technology[/TIP] in the next [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP]. -->
-    </Replace>
-    <Replace Tag="LOC_MOD_EX_FUTURE_TECH_AGE_PROGRESS_DESCRIPTION" Language="th_TH">
-        <Text>+10 [icon:NOTIFICATION_TEAM_VICTORIOUS] [TIP:LOC_PEDIA_CONCEPTS_AGE_PROGRESS_TOOLTIP]ความก้าวหน้าของยุค[/TIP]</Text>		<!-- +10 [icon:NOTIFICATION_TEAM_VICTORIOUS] [TIP:LOC_PEDIA_CONCEPTS_AGE_PROGRESS_TOOLTIP]Age Progress[/TIP]. -->
     </Replace>
     <Replace Tag="LOC_ANT_RESOURCE_WINE_TOOLTIP" Language="th_TH">
         <Text>+3 [icon:YIELD_HAPPINESS] ความสุข ในเมืองหลวง [icon:NOTIFICATION_SELECT_CAPITAL] และ +10 [icon:YIELD_CULTURE] วัฒนธรรม เมื่ออยู่ใน [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]งานเฉลิมฉลอง[/TIP]</Text>		<!-- +3 [icon:YIELD_HAPPINESS] Happiness in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital and +10 [icon:YIELD_CULTURE] Culture when in a [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]Celebration[/TIP] -->
@@ -1277,6 +335,9 @@
     </Replace>
     <Replace Tag="LOC_EXP_RESOURCE_CLOVES_TOOLTIP" Language="th_TH">
         <Text>+6[icon:YIELD_FOOD] อาหาร, +10%[icon:YIELD_GOLD] ทอง</Text>		<!-- +6[icon:YIELD_FOOD] Food, +10%[icon:YIELD_GOLD] Gold -->
+    </Replace>
+    <Replace Tag="LOC_CAN_CREATE_TREASURE_FLEET" Language="th_TH">
+        <Text>สร้าง [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]ขบวนบรรทุกสมบัติ[/TIP] หากพัฒนาใน [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP]</Text>		<!-- Creates [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP] if improved in the [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP]. -->
     </Replace>
     <Replace Tag="LOC_TREE_TECHS_EX_NAME" Language="th_TH">
         <Text>เทคโนโลยีการสำรวจ</Text>		<!-- Exploration Technology -->
@@ -1395,15 +456,6 @@
     <Replace Tag="LOC_TECH_GUNPOWDER_QUOTE" Language="th_TH">
         <Text>"การใช้ดินปืนอย่างแท้จริงคือ การทำให้ชายทุกคนนั้นเท่าเทียมกัน"</Text>		<!-- "The real use of gunpowder is to make all men tall." -->
     </Replace>
-    <Replace Tag="LOC_TUTORIAL_ADVANCED_TRANSITION_START_HYBRID" Language="th_TH">
-        <Text> กด [action:{1_Icon}] บน </Text>		<!-- Press [action:{1_Icon}] on -->
-    </Replace>
-    <Replace Tag="LOC_TUTORIAL_ADVANCED_TRANSITION_START_HYBRID_ALT" Language="th_TH">
-        <Text> กด [action:{1_Icon}] เพื่อ </Text>		<!-- Press [action:{1_Icon}] to -->
-    </Replace>
-    <Replace Tag="LOC_TUTORIAL_ADVANCED_TRANSITION_START_TOUCH" Language="th_TH">
-        <Text> แตะ </Text>		<!-- Tap -->
-    </Replace>
     <Replace Tag="LOC_TECH_GUNPOWDER_QUOTE_AUTHOR" Language="th_TH">
         <Text>โทมัส คาร์ไลล์</Text>		<!-- Thomas Carlyle -->
     </Replace>
@@ -1479,14 +531,26 @@
     <Replace Tag="LOC_MOD_EXPLORATION_NO_DEEP_OCEAN_OBSTACLE_DESCRIPTION" Language="th_TH">
         <Text>ยูนิตทั้งหมดไม่ถูกบทลงโทษ [icon:Action_Move]การเคลื่อนที่ใน มหาสมุทรลึก</Text>		<!-- All Units ignore [icon:Action_Move] Movement penalties from deep Ocean Terrain. -->
     </Replace>
+    <Replace Tag="LOC_MOD_TECH_EX_NAVAL_AUTO_EXPLORE_DESCRIPTION" Language="th_TH">
+        <Text>หน่วยเรือระดับ 2 และ 3 [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval ยูนิตs[/TIP] สามารถใช้คำสั่งสำรวจอัตโนมัติได้</Text>		<!-- All Tier 2 and Tier 3 [TIP:LOC_PEDIA_CONCEPTS_NAVAL_UNITS_TOOLTIP]Naval Units[/TIP] can use the Automate Exploration Action. -->
+    </Replace>
     <Replace Tag="LOC_MOD_EX_SETTLEMENT_CAP_INCREASE_DESCRIPTION" Language="th_TH">
         <Text>+1 [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]ขีดจำกัดการตั้งถิ่นฐาน[/TIP]</Text>		<!-- +1 [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_SETTLEMENT_CAP_INCREASE_MORE_DESCRIPTION" Language="th_TH">
+        <Text>+2 [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]ขีดจำกัดถิ่นฐาน[/TIP]</Text>		<!-- +2 [icon:SETTLEMENT_LIMIT] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_LIMIT_TOOLTIP]Settlement Limit[/TIP]. -->
     </Replace>
     <Replace Tag="LOC_MOD_EX_SPECIALIST_CAP_INCREASE_DESCRIPTION" Language="th_TH">
         <Text>+1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]ขีดจำกัดผู้เชี่ยวชาญ[/TIP] ในทุก [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP]</Text>		<!-- +1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP] in all [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP]. -->
     </Replace>
     <Replace Tag="LOC_MOD_EXPLORATION_RELIC_DESCRIPTION" Language="th_TH">
         <Text>ได้รับ 1 [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_RELIC_TOOLTIP]ศาสนวัตถุ[/TIP]</Text>		<!-- Gain 1 [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_RELIC_TOOLTIP]Relic[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EXPLORATION_IMPERIALISM_RESOURCE_DESCRIPTION" Language="th_TH">
+        <Text>[icon:RADIAL_RESOURCES] ทรัพยากรชาและเครื่องเทศมีค่า +1 [icon:TREASURE_FLEET] สินค้าสำหรับ [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]ขบวนทรัพย์สมบัติ[/TIP]</Text>		<!-- [icon:RADIAL_RESOURCES] Tea and Spices Resources are worth +1 [icon:TREASURE_FLEET] Cargo for [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EXPLORATION_SOCIAL_CLASS_RESOURCE_DESCRIPTION" Language="th_TH">
+        <Text>[icon:RADIAL_RESOURCES] ขนสัตว์และทรัพยากรโกโก้มีค่า +1 [icon:TREASURE_FLEET] สินค้าสำหรับ [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]ขบวนขุมทรัพย์[/TIP]</Text>		<!-- [icon:RADIAL_RESOURCES] Furs and Cocoa Resources are worth +1 [icon:TREASURE_FLEET] Cargo for [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP]. -->
     </Replace>
     <Replace Tag="LOC_MOD_EX_TECH_INFANTRY_STRENGTH_DESCRIPTION" Language="th_TH">
         <Text>+3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]ยูนิตทหารราบ[/TIP]</Text>		<!-- +3 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]Infantry Units[/TIP]. -->
@@ -1527,6 +591,15 @@
     <Replace Tag="LOC_MOD_EX_TECH_SCIENCE_BUILDING_DESCRIPTION" Language="th_TH">
         <Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บน [icon:YIELD_SCIENCE] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP]</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science on [icon:YIELD_SCIENCE] Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP]. -->
     </Replace>
+    <Replace Tag="LOC_MOD_EX_FUTURE_TECH_ATTRIBUTE_DESCRIPTION" Language="th_TH">
+        <Text>+1 [icon:ATTRIBUTE] [TIP:LOC_PEDIA_CONCEPTS_ATTRIBUTE_TOOLTIP]แต้มคุณสมบัติแบบสุ่ม[/TIP]</Text>		<!-- +1 [icon:ATTRIBUTE] [TIP:LOC_PEDIA_CONCEPTS_ATTRIBUTE_TOOLTIP]Random Attribute Point[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_FUTURE_TECH_BOOST_DESCRIPTION" Language="th_TH">
+        <Text>บูสต์สำหรับ [icon:RADIAL_TECH] [TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]เทคโนโลยี[/TIP] เริ่มต้นใน [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP]ถัดไป</Text>		<!-- A boost for a starting [icon:RADIAL_TECH] [TIP:LOC_PEDIA_CONCEPTS_TECH_TOOLTIP]Technology[/TIP] in the next [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP]. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_FUTURE_TECH_AGE_PROGRESS_DESCRIPTION" Language="th_TH">
+        <Text>+10 [icon:NOTIFICATION_TEAM_VICTORIOUS] [TIP:LOC_PEDIA_CONCEPTS_AGE_PROGRESS_TOOLTIP]ความก้าวหน้าของยุค[/TIP]</Text>		<!-- +10 [icon:NOTIFICATION_TEAM_VICTORIOUS] [TIP:LOC_PEDIA_CONCEPTS_AGE_PROGRESS_TOOLTIP]Age Progress[/TIP]. -->
+    </Replace>
     <Replace Tag="LOC_MOD_TECH_EX_MINE_PRODUCTION_DESCRIPTION" Language="th_TH">
         <Text>+1 [icon:YIELD_PRODUCTION] กำลังผลิต บนดินเหนียวและเหมือง</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Clay Pits and Mines. -->
     </Replace>
@@ -1541,6 +614,15 @@
     </Replace>
     <Replace Tag="LOC_MOD_TECH_EX_CAMP_PRODUCTION_DESCRIPTION" Language="th_TH">
         <Text>+1[icon:YIELD_PRODUCTION] กำลังผลิต ในค่ายและคนตัดไม้</Text>		<!-- +1[icon:YIELD_PRODUCTION] Production on Camps and Woodcutters. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_TECH_EX_TRADE_RANGE" Language="th_TH">
+        <Text>+5 [TIP:LOC_PEDIA_CONCEPTS_TRADE_RANGE_TOOLTIP]ระยะการค้า[/TIP]</Text>		<!-- +5 [TIP:LOC_PEDIA_CONCEPTS_TRADE_RANGE_TOOLTIP]Trade Range[/TIP] -->
+    </Replace>
+    <Replace Tag="LOC_MOD_TECH_EX_FEUDALISM_FARMS" Language="th_TH">
+        <Text>+1 [icon:YIELD_FOOD] อาหารจากฟาร์มและไร่ปลูกในเมืองเล็กทางการเกษตร, เมืองเล็กประมง และเมืองเล็กที่มีป้อม</Text>		<!-- +1 [icon:YIELD_FOOD] Food on Farms and Plantations in Farming Towns, Fishing Towns, and Fort Towns. -->
+    </Replace>
+    <Replace Tag="LOC_MOD_TECH_EX_RELIC_SLOT_PAVILION" Language="th_TH">
+        <Text>+1 ช่องมรดก บนศาลา</Text>		<!-- +1 Relic Slot on Pavilions -->
     </Replace>
     <Replace Tag="LOC_TUTORIAL_EXPLORATION_WELCOME_TITLE" Language="th_TH">
         <Text>ยินดีต้อนรับสู่ยุคแห่งการสำรวจ</Text>		<!-- Welcome to the Exploration Age -->
@@ -1649,18 +731,6 @@
     <Replace Tag="LOC_TUTORIAL_AGE_TRANSITION_INTRO_TITLE" Language="th_TH">
         <Text>มรดก</Text>		<!-- Legacy -->
     </Replace>
-    <Replace Tag="LOC_TUTORIAL_LIGHT_HEAVY_NAVAL_TITLE" Language="th_TH">
-        <Text>เรือเบา &amp; เรือหนัก</Text>		<!-- Light &amp; Heavy Naval -->
-    </Replace>
-    <Replace Tag="LOC_TUTORIAL_LIGHT_HEAVY_NAVAL_BODY" Language="th_TH">
-        <Text>ในยุคสำรวจและหลังจากนั้น ยูนิตเรือสามารถเป็นเรือเบาหรือเรือหนักได้ [n]เรือเบาเคลื่อนที่เร็วแต่โจมตีได้เฉพาะเป้าหมายที่อยู่ติดกัน ส่วนเรือหนักโจมตีได้ไกลกว่าและสร้างความเสียหายมากกว่า ใช้ประเภทเรือเหล่านี้ให้เป็นประโยชน์ในมหาสมุทร</Text>		<!-- In the Exploration Age and beyond, Naval Units can be Light or Heavy. [n]Light Naval Units are fast but can only attack adjacent targets, whereas Heavy Naval Units can attack farther and do more damage. Use these ship types to your advantage on the open Ocean. -->
-    </Replace>
-    <Replace Tag="LOC_TUTORIAL_PIRATE_TITLE" Language="th_TH">
-        <Text>การปล้นทะเล</Text>		<!-- Pirating -->
-    </Replace>
-    <Replace Tag="LOC_TUTORIAL_PIRATE_BODY" Language="th_TH">
-        <Text>ยูนิตบางประเภทมีความสามารถ [icon:UNIT_CAUTION] [b]โจรสลัด[/b] หรือสามารถได้รับจากความสามารถของอารยธรรมหรือผู้นำ ด้วยความสามารถนี้ ยูนิตสามารถโจมตีเรืออื่นที่ไม่ได้อยู่ในสถานะสงครามได้ ระวัง [icon:UNIT_CAUTION] [b]โจรสลัด[/b]: คุณอาจต้องต่อสู้กลับ</Text>		<!-- Some Units have the [icon:UNIT_CAUTION] [b]Pirate [/b]ability, or can gain it from a Civilization or Leader ability. With Pirating, Units can attack other Naval Units that they are not at War with. Be on the lookout for [icon:UNIT_CAUTION] [b]Pirates[/b]: you may need to fight back. -->
-    </Replace>
     <Replace Tag="LOC_TUTORIAL_AGE_TRANSITION_INTRO_BODY" Language="th_TH">
         <Text>ยินดีต้อนรับสู่ยุค {1_AgeName}![n][n]ที่นี่คุณจะต้องตัดสินใจเลือก [b]มรดก[/b] ที่จะดำเนินต่อไป ตัวเลือกที่มีให้เลือกขึ้นอยู่กับ หมุดหมาย ที่คุณทำสำเร็จในยุคก่อน การทำเส้นทางมรดกให้สำเร็จสมบูรณ์จะปลดล็อก [b]มรดกยุคทอง[/b] สำหรับเส้นทางนั้น ในขณะที่การไม่รับ หมุดหมาย ใดๆ ในเส้นทางจะปลดล็อก [b]มรดกยุคมืด[/b][n][n]คุณสามารถเลือกมรดกยุคทองหรือมรดกยุคมืดได้เพียงหนึ่งเท่านั้น แต่สามารถเพิ่มมรดกอื่นๆ ได้มากเท่าที่ต้องการตราบเท่าที่คุณมีคะแนนมรดกประเภทที่ตรงกันเพียงพอ</Text>		<!-- Welcome to the {1_AgeName} Age![n][n]Here you will decide which [b]Legacies [/b] to carry forward. The options available are based on which Milestones you completed in the previous Age. Fully completing a Legacy Path unlocks the [b]Golden Age Legacy [/b]for that Path, while not gaining any Milestones in a Path will unlock its [b]Dark Age Legacy.[/b][n][n]You can only choose one Golden Age or Dark Age Legacy, but any number of other Legacies can be added as long as you have enough Legacy Points of the matching type. -->
     </Replace>
@@ -1682,6 +752,15 @@
     <Replace Tag="LOC_TUTORIAL_ADVANCED_TRANSITION_START_GAMEPAD_ALT" Language="th_TH">
         <Text>กด [action:{1_Icon}] เพื่อ</Text>		<!-- Press [action:{1_Icon}] to -->
     </Replace>
+    <Replace Tag="LOC_TUTORIAL_ADVANCED_TRANSITION_START_HYBRID" Language="th_TH">
+        <Text> กด [action:{1_Icon}] บน </Text>		<!-- Press [action:{1_Icon}] on -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ADVANCED_TRANSITION_START_HYBRID_ALT" Language="th_TH">
+        <Text> กด [action:{1_Icon}] เพื่อ </Text>		<!-- Press [action:{1_Icon}] to -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_ADVANCED_TRANSITION_START_TOUCH" Language="th_TH">
+        <Text> แตะ </Text>		<!-- Tap -->
+    </Replace>
     <Replace Tag="LOC_TUTORIAL_GREATPERSON_AVAILABLE_TITLE" Language="th_TH">
         <Text>คนที่ยอดเยี่ยม</Text>		<!-- Great People -->
     </Replace>
@@ -1693,6 +772,9 @@
     </Replace>
     <Replace Tag="LOC_TUTORIAL_QUEST_SELECTION_BODY" Language="th_TH">
         <Text>อารยธรรมถูกจดจำจากผลงานและเส้นทางที่พวกเขาเดินผ่านประวัติศาสตร์ บางกลุ่มกระจายความสำเร็จของตนไปทั่ว ในขณะที่บางกลุ่มทุ่มเทเพื่อเป้าหมายเดียวที่แน่นอน [n] ที่ปรึกษาของคุณพร้อมที่จะให้บริการเพื่อแนะนำคุณในเส้นทางที่คุณเลือก เช่นเดียวกับผู้นำที่ยิ่งใหญ่ คุณอาจเปลี่ยนใจได้ทุกเมื่อ [n] ขณะนี้ โปรดเลือกตำแหน่งที่จะมุ่งเน้นความพยายามของประชาชน {1_civAdj}</Text>		<!-- Civilizations are remembered for their accomplishments and the paths they take through history. Some spread their accomplishments across a wide range, while others are devoted to a single cause.[n]Your Advisors are at your service to guide you on the path of your choice. Like any great leader, you may change your mind at any time.[n]Now, choose where to focus the efforts of the {1_civAdj} people. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_QUEST_SELECTION_BODY_NO_ADVISORS" Language="th_TH">
+        <Text>(เส้นทางมรดกถูกปิดใช้งานในขณะนี้ หากคุณเปิดใช้งาน ที่ปรึกษาของคุณจะพร้อมให้บริการเพื่อแนะนำคุณในเส้นทางที่เลือก.)</Text>		<!-- (Legacy Paths are currently disabled. If you enable them, your Advisors will be at your service to guide you on the path of your choice.) -->
     </Replace>
     <Replace Tag="LOC_TUTORIAL_QUEST_BUTTON_ECONOMIC" Language="th_TH">
         <Text>เศรษฐกิจ</Text>		<!-- Economic -->
@@ -1720,39 +802,6 @@
     </Replace>
     <Replace Tag="LOC_TUTORIAL_QUEST_QUOTE_SCIENCE" Language="th_TH">
         <Text>ความก้าวหน้าไม่ได้มาจาก อัจฉริยภาพส่วนบุคคล แต่มาจากชุมชนของผู้คิด</Text>		<!-- Progress does not come from individual genius, but from a community of thinkers. -->
-    </Replace>
-    <Replace Tag="LOC_TUTORIAL_VICTORIES_EXPLORATION_TITLE" Language="th_TH">
-        <Text>ชัยชนะในยุคสำรวจ</Text>		<!-- Victories in the Exploration Age -->
-    </Replace>
-    <Replace Tag="LOC_TUTORIAL_VICTORIES_EXPLORATION_BODY" Language="th_TH">
-        <Text>{1_UnlockCondition} เชิญตรวจสอบความก้าวหน้าของคุณได้เลย, ข้อมูลเพิ่มเติมจะถูกนำเสนอเมื่อมีชัยชนะให้ดู</Text>		<!-- {1_UnlockCondition} Feel free to review your progress now; more information will be provided when Victories are available! -->
-    </Replace>
-    <Replace Tag="LOC_TUTORIAL_VICTORIES_EXPLORATION_BODY_NORMAL_UNLOCK" Language="th_TH">
-        <Text>ชัยชนะยังไม่พร้อมใช้งานในตอนนี้ แต่จะพร้อมใช้งานเมื่อความก้าวหน้าของยุคถึง 50%</Text>		<!-- Victories are not available now, but will be available when Age Progress reaches 50%. -->
-    </Replace>
-    <Replace Tag="LOC_TUTORIAL_VICTORIES_EXPLORATION_BODY_ADVANCED_START" Language="th_TH">
-        <Text>ชัยชนะจะพร้อมใช้งานในยุคใหม่</Text>		<!-- Victories will be available in the Modern Age. -->
-    </Replace>
-    <Replace Tag="LOC_TUTORIAL_VICTORY_SCREEN_CALLOUT_TITLE" Language="th_TH">
-        <Text>ชัยชนะรอให้คุณคว้า!</Text>		<!-- Victories are Available! -->
-    </Replace>
-    <Replace Tag="LOC_TUTORIAL_VICTORY_SCREEN_CALLOUT_BODY" Language="th_TH">
-        <Text>ชัยชนะพร้อมให้ผู้เล่นทุกคนบรรลุได้แล้ว! ถึงแม้ในยุคสำรวจจะเป็นไปได้ยากมาก แต่ตอนนี้เป็นเวลาที่ดีในการเรียนรู้วิธีชนะอย่างแน่ชัด</Text>		<!-- Victories are now available for all Players to achieve! While highly unlikely in the Exploration Age, now is a good time to learn exactly how to win. -->
-    </Replace>
-    <Replace Tag="LOC_TUTORIAL_VICTORIES_AVAILABLE_TITLE" Language="th_TH">
-        <Text>การบรรลุชัยชนะ</Text>		<!-- Achieving Victory -->
-    </Replace>
-    <Replace Tag="LOC_TUTORIAL_VICTORIES_AVAILABLE_BODY" Language="th_TH">
-        <Text>เพื่อชนะเกม Civilization VII คุณจะต้องโดดเด่นในหนึ่งในสี่หมวดหมู่: ทหาร, วัฒนธรรม, วิทยาศาสตร์ หรือ เศรษฐกิจ
-    [n]ผู้เล่นคนหนึ่งถูกพิจารณาว่ามีความโดดเด่นหากคะแนนของเขาในหมวดหมู่หนึ่งสูงกว่าผู้เล่นที่ได้อันดับสองหลายเท่าตัว
-    ตัวคูณที่จำเป็นในการชนะจะลดลงตามเวลา ดังนั้นชัยชนะจะต้องมีความโดดเด่นน้อยลงเมื่อเกมดำเนินไป
-    เมื่อผู้เล่นคนใดถึงคะแนนเป้าหมาย พวกเขาจะต้องรักษาความโดดเด่นไว้เป็นจำนวนรอบ
-    [n]ชัยชนะด้านวิทยาศาสตร์แตกต่างออกไปเพราะคุณต้องสะสมนวัตกรรมให้ครบ 100 หน่วย โดยไม่คำนึงถึงผลการเล่นของผู้เล่นคนอื่น
-    มันจะมีให้ใช้งานเฉพาะในยุคใหม่ เนื่องจากคุณต้องมีแท่นปล่อยเพื่อเริ่มนับถอยหลังสู่ชัยชนะ
-    [n]ติดตามชัยชนะใดก็ได้ที่คุณต้องการ หรือจะทดลองต่อไป! ที่ปรึกษาของคุณอาจมีไอเดียว่าควรทำอะไร</Text>		<!-- To win a game of Civilization VII, you will need to become dominant in one of four categories: Military, Culture, Science, or Economy.
-    [n]A Player is considered dominant if their score in a category is multiple times higher the second place Player. The multiplier required to win reduces over time, so Victories will require less dominance as the game progresses. Once any Player has reached the target score, they will have to maintain dominance for a number of turns.
-    [n]The Science Victory is different as it requires you to collect 100 Innovation, regardless of other Players' performance. It will only be available in the Modern Age, as you must have a Launch Pad to begin the Victory countdown.
-    [n]Pursue any Victory you like, or continue to experiment! Your Advisors may also have ideas on what to do. -->
     </Replace>
     <Replace Tag="LOC_TUTORIAL_QUEST_CONFIRM_TITLE" Language="th_TH">
         <Text>เส้นทางมรดก: {1_LegacyPathAdvisor}</Text>		<!-- Legacy Path: {1_LegacyPathAdvisor} -->
@@ -2337,6 +1386,51 @@
     </Replace>
     <Replace Tag="LOC_TUTORIAL_OVERBUILDING_BODY" Language="th_TH">
         <Text>เนื่องจากผู้คน {1_CivAdj} มีแผนสำหรับการสร้างอาคารใหม่ คุณอาจไม่ต้องการสร้างพื้นที่เมืองเพิ่มเติม ในการสำรวจและอื่นๆ คุณสามารถเลือกสร้างบนยอดของอาคารที่มีอยู่แต่ล้าสมัยโดยการสร้างทับ แม้ว่าการสร้างทับจะไม่มีประโยชน์เฉพาะในตอนนี้ แต่คุณอาจพบว่านโยบายทางสังคม ความสามารถของพลเรือน และอื่นๆ ที่จะทำให้การสร้างทับมีประสิทธิภาพเป็นพิเศษ</Text>		<!-- As the {1_CivAdj} people have plans for new Buildings, you may not want to create more Urban Quarters. In [b]Exploration [/b]and beyond, you can choose to build atop an existing but outdated Building by [b]Overbuilding[/b].[n]While Overbuilding doesn't have particular benefits now, you may find [b]Social Policies[/b], [b]Civ Abilities[/b], and more that will make Overbuilding especially efficient. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_LIGHT_HEAVY_NAVAL_TITLE" Language="th_TH">
+        <Text>เรือเบา &amp; เรือหนัก</Text>		<!-- Light &amp; Heavy Naval -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_LIGHT_HEAVY_NAVAL_BODY" Language="th_TH">
+        <Text>ในยุคสำรวจและหลังจากนั้น ยูนิตเรือสามารถเป็นเรือเบาหรือเรือหนักได้ [n]เรือเบาเคลื่อนที่เร็วแต่โจมตีได้เฉพาะเป้าหมายที่อยู่ติดกัน ส่วนเรือหนักโจมตีได้ไกลกว่าและสร้างความเสียหายมากกว่า ใช้ประเภทเรือเหล่านี้ให้เป็นประโยชน์ในมหาสมุทร</Text>		<!-- In the Exploration Age and beyond, Naval Units can be Light or Heavy. [n]Light Naval Units are fast but can only attack adjacent targets, whereas Heavy Naval Units can attack farther and do more damage. Use these ship types to your advantage on the open Ocean. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_PIRATE_TITLE" Language="th_TH">
+        <Text>การปล้นทะเล</Text>		<!-- Pirating -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_PIRATE_BODY" Language="th_TH">
+        <Text>ยูนิตบางประเภทมีความสามารถ [icon:UNIT_CAUTION] [b]โจรสลัด[/b] หรือสามารถได้รับจากความสามารถของอารยธรรมหรือผู้นำ ด้วยความสามารถนี้ ยูนิตสามารถโจมตีเรืออื่นที่ไม่ได้อยู่ในสถานะสงครามได้ ระวัง [icon:UNIT_CAUTION] [b]โจรสลัด[/b]: คุณอาจต้องต่อสู้กลับ</Text>		<!-- Some Units have the [icon:UNIT_CAUTION] [b]Pirate [/b]ability, or can gain it from a Civilization or Leader ability. With Pirating, Units can attack other Naval Units that they are not at War with. Be on the lookout for [icon:UNIT_CAUTION] [b]Pirates[/b]: you may need to fight back. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_VICTORIES_EXPLORATION_TITLE" Language="th_TH">
+        <Text>ชัยชนะในยุคสำรวจ</Text>		<!-- Victories in the Exploration Age -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_VICTORIES_EXPLORATION_BODY" Language="th_TH">
+        <Text>{1_UnlockCondition} เชิญตรวจสอบความก้าวหน้าของคุณได้เลย, ข้อมูลเพิ่มเติมจะถูกนำเสนอเมื่อมีชัยชนะให้ดู</Text>		<!-- {1_UnlockCondition} Feel free to review your progress now; more information will be provided when Victories are available! -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_VICTORIES_EXPLORATION_BODY_NORMAL_UNLOCK" Language="th_TH">
+        <Text>ชัยชนะยังไม่พร้อมใช้งานในตอนนี้ แต่จะพร้อมใช้งานเมื่อความก้าวหน้าของยุคถึง 50%</Text>		<!-- Victories are not available now, but will be available when Age Progress reaches 50%. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_VICTORIES_EXPLORATION_BODY_ADVANCED_START" Language="th_TH">
+        <Text>ชัยชนะจะพร้อมใช้งานในยุคใหม่</Text>		<!-- Victories will be available in the Modern Age. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_VICTORY_SCREEN_CALLOUT_TITLE" Language="th_TH">
+        <Text>ชัยชนะรอให้คุณคว้า!</Text>		<!-- Victories are Available! -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_VICTORY_SCREEN_CALLOUT_BODY" Language="th_TH">
+        <Text>ชัยชนะพร้อมให้ผู้เล่นทุกคนบรรลุได้แล้ว! ถึงแม้ในยุคสำรวจจะเป็นไปได้ยากมาก แต่ตอนนี้เป็นเวลาที่ดีในการเรียนรู้วิธีชนะอย่างแน่ชัด</Text>		<!-- Victories are now available for all Players to achieve! While highly unlikely in the Exploration Age, now is a good time to learn exactly how to win. -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_VICTORIES_AVAILABLE_TITLE" Language="th_TH">
+        <Text>การบรรลุชัยชนะ</Text>		<!-- Achieving Victory -->
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_VICTORIES_AVAILABLE_BODY" Language="th_TH">
+        <Text>เพื่อชนะเกม Civilization VII คุณจะต้องโดดเด่นในหนึ่งในสี่หมวดหมู่: ทหาร, วัฒนธรรม, วิทยาศาสตร์ หรือ เศรษฐกิจ
+    [n]ผู้เล่นคนหนึ่งถูกพิจารณาว่ามีความโดดเด่นหากคะแนนของเขาในหมวดหมู่หนึ่งสูงกว่าผู้เล่นที่ได้อันดับสองหลายเท่าตัว
+    ตัวคูณที่จำเป็นในการชนะจะลดลงตามเวลา ดังนั้นชัยชนะจะต้องมีความโดดเด่นน้อยลงเมื่อเกมดำเนินไป
+    เมื่อผู้เล่นคนใดถึงคะแนนเป้าหมาย พวกเขาจะต้องรักษาความโดดเด่นไว้เป็นจำนวนรอบ
+    [n]ชัยชนะด้านวิทยาศาสตร์แตกต่างออกไปเพราะคุณต้องสะสมนวัตกรรมให้ครบ 100 หน่วย โดยไม่คำนึงถึงผลการเล่นของผู้เล่นคนอื่น
+    มันจะมีให้ใช้งานเฉพาะในยุคใหม่ เนื่องจากคุณต้องมีแท่นปล่อยเพื่อเริ่มนับถอยหลังสู่ชัยชนะ
+    [n]ติดตามชัยชนะใดก็ได้ที่คุณต้องการ หรือจะทดลองต่อไป! ที่ปรึกษาของคุณอาจมีไอเดียว่าควรทำอะไร</Text>		<!-- To win a game of Civilization VII, you will need to become dominant in one of four categories: Military, Culture, Science, or Economy.
+    [n]A Player is considered dominant if their score in a category is multiple times higher the second place Player. The multiplier required to win reduces over time, so Victories will require less dominance as the game progresses. Once any Player has reached the target score, they will have to maintain dominance for a number of turns.
+    [n]The Science Victory is different as it requires you to collect 100 Innovation, regardless of other Players' performance. It will only be available in the Modern Age, as you must have a Launch Pad to begin the Victory countdown.
+    [n]Pursue any Victory you like, or continue to experiment! Your Advisors may also have ideas on what to do. -->
     </Replace>
   </LocalizedText>
 </Database>
