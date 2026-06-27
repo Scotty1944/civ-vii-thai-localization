@@ -230,7 +230,7 @@
 			<Text>มีม็อดหนึ่งหรือมากกว่าถูกเปิดใช้งาน การปิดใช้งานในเมนูเนื้อหาเพิ่มเติมอาจช่วยแก้ปัญหาได้[N]โปรดทราบว่า เมื่อโหลดเซฟ ม็อดที่จำเป็นสำหรับเซฟจะถูกเปิดใช้งาน และใช้งานโดยอัตโนมัติ</Text>		<!-- One or more mods were enabled.  Disabling them in the additional content menu may resolve the issue.[N]Please note, when loading a save, any mods required by the save will be automatically enabled and used. -->
 		</Replace>
 		<Replace Tag="LOC_MODDING_ERROR_MODS_LIST" Language="th_TH">
-			<Text>[B]ม็อดที่เปิดใช้งาน[/B]: </Text>		<!-- [B]Enabled Mods[/B]: -->
+			<Text>[B]ม็อดที่เปิดใช้งาน[/B]:</Text>		<!-- [B]Enabled Mods[/B]: -->
 		</Replace>
 		<Replace Tag="LOC_UI_CREATE_GAME_START_GAME" Language="th_TH">
 			<Text>เริ่มเกม</Text>		<!-- Launch Game -->
@@ -440,7 +440,7 @@
 			<Text>เลือกอารยธรรมใหม่</Text>		<!-- Choose a New Civilization -->
 		</Replace>
 		<Replace Tag="LOC_UI_AGE_TRANSITION_OTHER_CIVS_COUNT" Language="th_TH">
-			<Text>ดูอารยธรรมทั้งหมดที่เหลืออยู่ (1_CivCount)</Text>		<!-- View all other Civilizations (1_CivCount) -->
+			<Text>ดูอารยธรรมทั้งหมดที่เหลืออยู่ {1_CivCount}</Text>		<!-- View all other Civilizations (1_CivCount) -->
 		</Replace>
 		<Replace Tag="LOC_UI_AGE_TRANSITION_VIEW_CIVS" Language="th_TH">
 			<Text>ดูอารยธรรม</Text>		<!-- View Civilizations -->
@@ -527,7 +527,7 @@
 			<Text>หน้าจอเตรียมการผู้เล่นหลายคน: ตั้งค่าผู้เล่น</Text>		<!-- Multiplayer Staging Screen: Client Set Up -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_STAGING_PLAYER_LIST_TITLE" Language="th_TH">
-			<Text>รายชื่อผู้เล่น: </Text>		<!-- Player List: -->
+			<Text>รายชื่อผู้เล่น:</Text>		<!-- Player List: -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_STAGING_INVITE_BUTTON" Language="th_TH">
 			<Text>เชิญเพื่อน</Text>		<!-- Invite Friends -->
@@ -731,7 +731,7 @@
 			<Text>ตรวจสอบกล่องคำอธิบาย</Text>		<!-- Inspect the tooltip -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_STATUS_JOINING" Language="th_TH">
-			<Text>กำลังเข้าร่วมเกม ... </Text>		<!-- Joining game ... -->
+			<Text>กำลังเข้าร่วมเกม ...</Text>		<!-- Joining game ... -->
 		</Replace>
 		<Replace Tag="LOC_UI_MP_PLAY_MODE_TITLE" Language="th_TH">
 			<Text>เลือกโหมดเล่น</Text>		<!-- CHOOSE PLAY MODE -->
@@ -788,7 +788,7 @@
 			<Text>ข้อผิดพลาดในการเข้าร่วม</Text>		<!-- Join Error -->
 		</Replace>
 		<Replace Tag="LOC_MP_CREATE_GAME_WAITING_BODY" Language="th_TH">
-			<Text>กรุณารอ . . . </Text>		<!-- Please wait . . . -->
+			<Text>กรุณารอ . . .</Text>		<!-- Please wait . . . -->
 		</Replace>
 		<Replace Tag="LOC_MP_CREATE_GAME_WAITING_TITLE" Language="th_TH">
 			<Text>กำลังสร้างเกม</Text>		<!-- Creating Game -->
@@ -845,7 +845,7 @@
 			<Text>ผู้นำ</Text>		<!-- Leader -->
 		</Replace>
 		<Replace Tag="LOC_CREATE_GAME_AGE_CIV_SELECT_CATEGORY" Language="th_TH">
-			<Text>ยุค &amp; อารยธรรม</Text>		<!-- Age &amp; Civilization -->
+			<Text>ยุค & อารยธรรม</Text>		<!-- Age &amp; Civilization -->
 		</Replace>
 		<Replace Tag="LOC_CREATE_GAME_GAME_START_CATEGORY" Language="th_TH">
 			<Text>ยืนยัน</Text>		<!-- Confirm -->
@@ -974,7 +974,7 @@
 			<Text>อุปกรณ์ถูกถอดออก</Text>		<!-- Device removed. -->
 		</Replace>
 		<Replace Tag="LOC_LOBBY_ERROR_WIFI_OFF" Language="th_TH">
-			<Text>ไม่มี Wifi</Text>		<!-- Wifi is not available. -->
+			<Text>WIFI ไม่พร้อมใช้งาน</Text>		<!-- Wifi is not available. -->
 		</Replace>
 		<Replace Tag="LOC_LOBBY_ERROR_UNKNOWN_ERROR" Language="th_TH">
 			<Text>ล็อบบี้พบข้อผิดพลาดที่ไม่รู้จัก</Text>		<!-- Lobby encountered an unknown error. -->
@@ -2009,13 +2009,13 @@
 			<Text>สร้าง: {1_Date: datetime}</Text>		<!-- Created: {1_Date: datetime} -->
 		</Replace>
 		<Replace Tag="LOC_UI_AFFECTS_SAVE" Language="th_TH">
-			<Text>มีผลต่อเกมที่บันทึกไว้: </Text>		<!-- Affects saved games: -->
+			<Text>มีผลต่อเกมที่บันทึกไว้:</Text>		<!-- Affects saved games: -->
 		</Replace>
 		<Replace Tag="LOC_UI_MOD_SINGLE_PLAYER" Language="th_TH">
-			<Text>ผู้เล่นคนเดียว: </Text>		<!-- Single Player: -->
+			<Text>ผู้เล่นคนเดียว:</Text>		<!-- Single Player: -->
 		</Replace>
 		<Replace Tag="LOC_UI_MOD_MULTIPLAYER" Language="th_TH">
-			<Text>ผู้เล่นหลายคน: </Text>		<!-- Multiplayer: -->
+			<Text>ผู้เล่นหลายคน:</Text>		<!-- Multiplayer: -->
 		</Replace>
 		<Replace Tag="LOC_UI_TEXT_ENTRY_DENIAL" Language="th_TH">
 			<Text>การป้อนข้อความไม่ถูกต้อง</Text>		<!-- Invalid text entry -->
@@ -2033,7 +2033,7 @@
 			<Text>ฐานข้อมูลการเล่นเกมไม่ผ่านการตรวจสอบ! ดู Database.log สำหรับรายละเอียดเพิ่มเติม</Text>		<!-- Gameplay database failed validation!  See Database.log for additional details. -->
 		</Replace>
 		<Replace Tag="LOC_GRAMMAR_COMMA_SEPARATOR" Language="th_TH">
-			<Text>, </Text>		<!-- , -->
+			<Text>,</Text>		<!-- , -->
 		</Replace>
 		<Replace Tag="LOC_GRAMMAR_A_AN" Language="th_TH">
 			<Text>{1: gender *:an?an {1}; *:the?the {1}; *:no_article?{1}; other?a {1};}</Text>		<!-- {1: gender *:an?an {1}; *:the?the {1}; *:no_article?{1}; other?a {1};} -->
@@ -2105,7 +2105,7 @@
 			<Text>รีเซ็ตการตั้งค่าส่วนใหญ่กลับเป็นค่าเริ่มต้นเดิม</Text>		<!-- Reset most settings to their original defaults. -->
 		</Replace>
 		<Replace Tag="LOC_OPTIONS_RESET_EXCLUDES" Language="th_TH">
-			<Text>ไม่รวม: </Text>		<!-- Excludes: -->
+			<Text>ไม่รวม:</Text>		<!-- Excludes: -->
 		</Replace>
 		<Replace Tag="LOC_NAV_RADIAL_MENU" Language="th_TH">
 			<Text>เมนูวงกลม</Text>		<!-- Radial Menu -->
@@ -2159,7 +2159,7 @@
 			<Text>การกระทำถัดไป</Text>		<!-- Next Action -->
 		</Replace>
 		<Replace Tag="LOC_NEXT_ACTION_HELP" Language="th_TH">
-			<Text>ดำเนินการต่อไป หรือจบรอบผู้เล่นหากไม่มีการกระทำเหลืออยู่แล้ว </Text>		<!-- Activate the next action or end the player's turn if there are no more actions. -->
+			<Text>ดำเนินการต่อไป หรือจบรอบผู้เล่นหากไม่มีการกระทำเหลืออยู่แล้ว</Text>		<!-- Activate the next action or end the player's turn if there are no more actions. -->
 		</Replace>
 		<Replace Tag="LOC_SWAP_PLOT_SELECTION" Language="th_TH">
 			<Text>สลับพล็อต</Text>		<!-- Swap Plot -->
@@ -5223,7 +5223,7 @@
 			<Text>รอบ</Text>		<!-- Turn -->
 		</Replace>
 		<Replace Tag="LOC_REMAP_PALACE_FOUNDER" Language="th_TH">
-			<Text>Founders Edition Palace </Text>		<!-- Founders Edition Palace -->
+			<Text>Founders Edition Palace</Text>		<!-- Founders Edition Palace -->
 		</Replace>
 		<Replace Tag="LOC_REMAP_FOW_FOUNDER" Language="th_TH">
 			<Text>Founders Edition Fog of War Tiles</Text>		<!-- Founders Edition Fog of War Tiles -->
@@ -5307,7 +5307,7 @@
 			<Text>ล็อก</Text>		<!-- Locked -->
 		</Replace>
 		<Replace Tag="LOC_PROFILE_SAMPLE_BADGE_DESCRIPTION" Language="th_TH">
-			<Text>เสร็จสิ้นกิจกรรม Natural Wonders</Text>		<!-- Completed the Natural Wonders Event -->
+			<Text>ทำกิจกรรม สิ่งมหัศจรรย์ทางธรรมชาติ สำเร็จ</Text>		<!-- Completed the Natural Wonders Event -->
 		</Replace>
 		<Replace Tag="LOC_PROFILE_TAB_HISTORY" Language="th_TH">
 			<Text>ประวัติ</Text>		<!-- History -->
