@@ -109,9 +109,9 @@
 		<Replace Tag="LOC_DIPLOMACY_AGENDA_ETERNAL_GLORY_NAME" Language="th_TH">
 			<Text>เกียรติยศนิรันดร์</Text>		<!-- Eternal Glory -->
 		</Replace>
-		<Replace Tag="LOC_DIPLOMACY_AGENDA_ETERNAL_GLORY_DESC" Language="th_TH" Updated="true">
-			<Text>ชอบอารยธรรมที่มี [icon:YIELD_DIPLOMACY] อิทธิพล สูงสุด ไม่ชอบอารยธรรมที่มี [icon:YIELD_DIPLOMACY] อิทธิพลต่ำสุด</Text>		<!-- Likes the Leader with the highest [icon:YIELD_DIPLOMACY] Influence. Dislikes the one with the lowest [icon:YIELD_DIPLOMACY] Influence. -->
-			<Old>Likes the Civilization with the highest[icon:YIELD_DIPLOMACY] Influence. Dislikes the one with the lowest[icon:YIELD_DIPLOMACY] Influence.</Old>
+		<Replace Tag="LOC_DIPLOMACY_AGENDA_ETERNAL_GLORY_DESC" Language="th_TH">
+			<Text>ชอบผู้นำที่มี [icon:YIELD_DIPLOMACY] อิทธิพล สูงสุด ไม่ชอบผู้นำที่มี [icon:YIELD_DIPLOMACY] อิทธิพลต่ำสุด</Text>		<!-- Likes the Leader with the highest [icon:YIELD_DIPLOMACY] Influence. Dislikes the one with the lowest [icon:YIELD_DIPLOMACY] Influence. -->
+			
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_LAKSHMIBAI" Language="th_TH">
 			<Text>ลักษมีไบ รานีแห่งฌานซี บนหลังบาดาลที่ยิ่งใหญ่, เจ้าปรากฏดุจสายฟ้าแห่งกีบเท้าที่คำราม และจะไม่มีวันให้ใครมาปล้นชิงสิทธิ์โดยกำเนิดไปได้ ด้วยดาบที่ชูขึ้น นางปลุกเรียกประชาราษฎร์ให้ลุกขึ้นปกป้องสิ่งที่เป็นของพวกเขา มิยอมให้โจรผู้ปล้นสะดมได้ครอบครองสิ่งนั้น  จงยืนหยัดเถิด รานี และแสดงให้โลกเห็นว่าแท้จริงแล้ว ผู้นำคือเช่นใด</Text>		<!-- Lakshmibai, Rani of Jhansi, on the back of great Baadal, you come in a thunder of hooves - and you will not have your birthright denied. With raised saber, you call upon your people to defend what is theirs, and deny thieves and plunderers their prize. Stand, Rani, and show what it is to be a leader. -->
@@ -1426,17 +1426,17 @@
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_LAKSHMIBAI_MUGHAL_TOOLTIP" Language="th_TH">
 			<Text>[B]ลักษมีไบ[/B] มาจากภูมิภาคเดียวกับ [B]โมกุล[/B]</Text>		<!-- [B]Lakshmibai[/B] was from the same region as the [B]Mughal[/B]. -->
 		</Replace>
-		<Replace Tag="LOC_DIPLO_RELATIONSHIP_INCREASED_LEADER_LAKSHMIBAI" Language="th_TH" Newest="true">
-			<Text>I am glad we see eye to eye. Otherwise...</Text>		<!-- I am glad we see eye to eye. Otherwise... -->
+		<Replace Tag="LOC_DIPLO_RELATIONSHIP_INCREASED_LEADER_LAKSHMIBAI" Language="th_TH">
+			<Text>ฉันดีใจที่เราเห็นพ้องกัน มิฉะนั้น...</Text>		<!-- I am glad we see eye to eye. Otherwise... -->
 		</Replace>
-		<Replace Tag="LOC_DIPLO_RELATIONSHIP_DECREASED_LEADER_LAKSHMIBAI" Language="th_TH" Newest="true">
-			<Text>You fling words as if they have no consequences.</Text>		<!-- You fling words as if they have no consequences. -->
+		<Replace Tag="LOC_DIPLO_RELATIONSHIP_DECREASED_LEADER_LAKSHMIBAI" Language="th_TH">
+			<Text>คุณพร่ำคำพูดราวกับว่ามันไร้ผลกระทบ</Text>		<!-- You fling words as if they have no consequences. -->
 		</Replace>
-		<Replace Tag="LOC_DIPLOMACY_AGENDA_ETERNAL_GLORY_DESC_LIKES" Language="th_TH" Newest="true">
-			<Text>Lakshmibai likes the Leader with the highest [icon:YIELD_DIPLOMACY] Influence.</Text>		<!-- Lakshmibai likes the Leader with the highest [icon:YIELD_DIPLOMACY] Influence. -->
+		<Replace Tag="LOC_DIPLOMACY_AGENDA_ETERNAL_GLORY_DESC_LIKES" Language="th_TH">
+			<Text>ลักษมีไบ ชอบผู้นำที่มี [icon:YIELD_DIPLOMACY] อิทธิพล สูงที่สุด</Text>		<!-- Lakshmibai likes the Leader with the highest [icon:YIELD_DIPLOMACY] Influence. -->
 		</Replace>
-		<Replace Tag="LOC_DIPLOMACY_AGENDA_ETERNAL_GLORY_DESC_DISLIKES" Language="th_TH" Newest="true">
-			<Text>Lakshmibai dislikes the Leader with the lowest [icon:YIELD_DIPLOMACY] Influence.</Text>		<!-- Lakshmibai dislikes the Leader with the lowest [icon:YIELD_DIPLOMACY] Influence. -->
+		<Replace Tag="LOC_DIPLOMACY_AGENDA_ETERNAL_GLORY_DESC_DISLIKES" Language="th_TH">
+			<Text>ลักษมีไบ ไม่ชอบผู้นำที่มี [icon:YIELD_DIPLOMACY] อิทธิพล ต่ำที่สุด</Text>		<!-- Lakshmibai dislikes the Leader with the lowest [icon:YIELD_DIPLOMACY] Influence. -->
 		</Replace>
 	</LocalizedText>
 </Database>

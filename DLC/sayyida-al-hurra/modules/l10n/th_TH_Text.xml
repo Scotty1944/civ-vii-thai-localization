@@ -109,9 +109,9 @@
 		<Replace Tag="LOC_DIPLOMACY_AGENDA_SAYYIDA_NAME" Language="th_TH">
 			<Text>ราชวงศ์วัตตาซิด</Text>		<!-- Wattasid Dynasty -->
 		</Replace>
-		<Replace Tag="LOC_DIPLOMACY_AGENDA_SAYYIDA_DESC" Language="th_TH" Updated="true">
-			<Text>ชอบอารยธรรมที่มีจำนวนยูนิตทางเรือน้อยที่สุด ไม่ชอบอารยธรรมที่มีจำนวนยูนิตทางเรือมากที่สุด</Text>		<!-- Likes the Leader with the smallest number of Naval Units. Dislikes the one with the greatest number of Naval Units. -->
-			<Old>Likes the Civilization with the smallest number of Naval Units. Dislikes the one with the greatest number of Naval Units.</Old>
+		<Replace Tag="LOC_DIPLOMACY_AGENDA_SAYYIDA_DESC" Language="th_TH">
+			<Text>ชอบผู้นำที่มีจำนวนยูนิตทางเรือน้อยที่สุด ไม่ชอบผู้นำที่มีจำนวนยูนิตทางเรือมากที่สุด</Text>		<!-- Likes the Leader with the smallest number of Naval Units. Dislikes the one with the greatest number of Naval Units. -->
+			
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_SAYYIDA_AL_HURRA" Language="th_TH">
 			<Text>ซัยยิดะห์ อัล ฮูร์รา, ผู้พิทักษ์ของประชาชน, คุณคือพลังที่ทำให้ศัตรูต้องถอยหนี ไม่ว่าจะด้วยวาจาทองหรือเสียงปืนใหญ่ ทุกความท้าทายจมลงต่อหน้าคุณ อย่างไรก็ตามแม้ในช่วงเวลาที่มืดมนที่สุด มืออันอ่อนโยนของคุณนำทางเมืองสู่ความยิ่งใหญ่ ยกใบเรือของคุณและแสดงให้โลกเห็นว่าการเป็นผู้นำหมายถึงอะไร</Text>		<!-- Sayyida al Hurra, champion of the people, you are the force that keeps the enemy at bay. By silver tongue or cannonfire, all challenges sink before you. Yet even in the darkest times, your gentle hand guides cities to greatness. Raise your sail and show the world what it means to lead. -->
@@ -1421,17 +1421,17 @@
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_SAYYIDA_AL_HURRA_MUGHAL_TOOLTIP" Language="th_TH">
 			<Text>[B]มุขมนตรี[/B] เสริมกลยุทธ์ [B]ไซยิดา อัล ฮุรรา[/B] อย่างลงตัว</Text>		<!-- The [B]Mughal[/B] strategically complement [B]Sayyida al Hurra[/B]. -->
 		</Replace>
-		<Replace Tag="LOC_DIPLO_RELATIONSHIP_INCREASED_LEADER_SAYYIDA_AL_HURRA" Language="th_TH" Newest="true">
-			<Text>You are safe from the corsairs — for now.</Text>		<!-- You are safe from the corsairs — for now. -->
+		<Replace Tag="LOC_DIPLO_RELATIONSHIP_INCREASED_LEADER_SAYYIDA_AL_HURRA" Language="th_TH">
+			<Text>คุณปลอดภัยจากโจรสลัด ก็แค่ชั่วคราว</Text>		<!-- You are safe from the corsairs — for now. -->
 		</Replace>
-		<Replace Tag="LOC_DIPLO_RELATIONSHIP_DECREASED_LEADER_SAYYIDA_AL_HURRA" Language="th_TH" Newest="true">
-			<Text>You are better off walking into the sea.</Text>		<!-- You are better off walking into the sea. -->
+		<Replace Tag="LOC_DIPLO_RELATIONSHIP_DECREASED_LEADER_SAYYIDA_AL_HURRA" Language="th_TH">
+			<Text>เธอควรจะเดินลงทะเลจะดีกว่า</Text>		<!-- You are better off walking into the sea. -->
 		</Replace>
-		<Replace Tag="LOC_DIPLOMACY_AGENDA_SAYYIDA_DESC_LIKES" Language="th_TH" Newest="true">
-			<Text>Sayyida al Hurra likes the Leader with the smallest number of Naval Units.</Text>		<!-- Sayyida al Hurra likes the Leader with the smallest number of Naval Units. -->
+		<Replace Tag="LOC_DIPLOMACY_AGENDA_SAYYIDA_DESC_LIKES" Language="th_TH">
+			<Text>ซัยยิดะอัลฮุรเราะห์ ชอบผู้นำที่มีจำนวน ยูนิตทางเรือน้อยที่สุด</Text>		<!-- Sayyida al Hurra likes the Leader with the smallest number of Naval Units. -->
 		</Replace>
-		<Replace Tag="LOC_DIPLOMACY_AGENDA_SAYYIDA_DESC_DISLIKES" Language="th_TH" Newest="true">
-			<Text>Sayyida al Hurra dislikes the Leader with the greatest number of Naval Units.</Text>		<!-- Sayyida al Hurra dislikes the Leader with the greatest number of Naval Units. -->
+		<Replace Tag="LOC_DIPLOMACY_AGENDA_SAYYIDA_DESC_DISLIKES" Language="th_TH">
+			<Text>เซย์ยิดา อัล ฮุรรา ไม่ชอบผู้นำที่มีจำนวน ยูนิตทางเรือ มากที่สุด</Text>		<!-- Sayyida al Hurra dislikes the Leader with the greatest number of Naval Units. -->
 		</Replace>
 	</LocalizedText>
 </Database>

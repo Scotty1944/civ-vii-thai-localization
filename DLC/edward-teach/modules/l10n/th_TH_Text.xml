@@ -1084,9 +1084,9 @@
 		<Replace Tag="LOC_10092C_NAME" Language="th_TH">
 			<Text>เจ้าจะบอกเราว่าพวกเจ้ามีที่ไหนอีก</Text>		<!-- “Ye’ll tell us where to find more of ye.” -->
 		</Replace>
-		<Replace Tag="LOC_10092C_DESCRIPTION" Language="th_TH" Updated="true">
-			<Text>{1_reward} มีค่า 1 คะแนน</Text>		<!-- {1_reward} worth 1 Cargo. -->
-			<Old>{1_reward} worth 1 point.</Old>
+		<Replace Tag="LOC_10092C_DESCRIPTION" Language="th_TH">
+			<Text>{1_reward} มีค่า 1 หน่วยสินค้าขนส่ง</Text>		<!-- {1_reward} worth 1 Cargo. -->
+			
 		</Replace>
 		<Replace Tag="LOC_10092D_NAME" Language="th_TH">
 			<Text>ไปคุยกับปีศาจเองเถอะ, มีเสียงน้ำกระเซ็น</Text>		<!-- “Take it up with the devil.” There is a splash. -->
@@ -1466,9 +1466,9 @@
 		<Replace Tag="LOC_TUTORIAL_PIRATE_ANTIQUITY_TITLE" Language="th_TH">
 			<Text>การปล้น</Text>		<!-- Pirating -->
 		</Replace>
-		<Replace Tag="LOC_TUTORIAL_PIRATE_ANTIQUITY_BODY" Language="th_TH" Updated="true">
-			<Text>ยูนิตบางประเภทมีความสามารถ [icon:UNIT_CAUTION] [b]โจรสลัด[/b] เช่น ยูนิตทางทะเลที่ควบคุมโดย {LOC_LEADER_EDWARD_TEACH_NAME} ด้วยการปล้น ยูนิตสามารถโจมตียูนิตทางทะเลอื่นที่ไม่ได้อยู่ในสงครามด้วย ระวัง [icon:UNIT_CAUTION] [b]โจรสลัด[/b]: คุณอาจต้องต่อสู้กลับ</Text>		<!-- Some Units have the [icon:UNIT_CAUTION] [b]Pirate [/b]ability, such as Naval Units commanded by {LOC_LEADER_EDWARD_TEACH_NAME}. With Pirating, Units can attack other Units that they are not at War with. Be on the lookout for [icon:UNIT_CAUTION] [b]Pirates[/b]: you may need to fight back. -->
-			<Old>Some Units have the [icon:UNIT_CAUTION] [b]Pirate [/b]ability, such as Naval Units commanded by {LOC_LEADER_EDWARD_TEACH_NAME}. With Pirating, Units can attack other Naval Units that they are not at War with. Be on the lookout for [icon:UNIT_CAUTION] [b]Pirates[/b]: you may need to fight back.</Old>
+		<Replace Tag="LOC_TUTORIAL_PIRATE_ANTIQUITY_BODY" Language="th_TH">
+			<Text>ยูนิตบางประเภทมีความสามารถ [icon:UNIT_CAUTION] [b]โจรสลัด[/b] เช่น ยูนิตทางทะเลที่ควบคุมโดย {LOC_LEADER_EDWARD_TEACH_NAME} ด้วยการปล้น ยูนิตสามารถโจมตียูนิตอื่นที่ไม่ได้อยู่ในสงครามด้วย ระวัง [icon:UNIT_CAUTION] [b]โจรสลัด[/b], คุณอาจต้องต่อสู้กลับ</Text>		<!-- Some Units have the [icon:UNIT_CAUTION] [b]Pirate [/b]ability, such as Naval Units commanded by {LOC_LEADER_EDWARD_TEACH_NAME}. With Pirating, Units can attack other Units that they are not at War with. Be on the lookout for [icon:UNIT_CAUTION] [b]Pirates[/b]: you may need to fight back. -->
+			
 		</Replace>
 		<Replace Tag="LOC_BADGE_EDWARD_TEACH_NAME" Language="th_TH">
 			<Text>ตราแห่งเอ็ดเวิร์ด ทีช 1</Text>		<!-- Edward Teach Badge 1 -->
@@ -1544,17 +1544,17 @@
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_EDWARD_TEACH_FRENCH_EMPIRE_TOOLTIP" Language="th_TH">
 			<Text>[B]เอ็ดเวิร์ด ทีช[/B] มาจากทวีปเดียวกับ [B]ฝรั่งเศส[/B]</Text>		<!-- [B]Edward Teach[/B] was from the same continent as [B]France[/B]. -->
 		</Replace>
-		<Replace Tag="LOC_DIPLO_RELATIONSHIP_INCREASED_LEADER_EDWARD_TEACH" Language="th_TH" Newest="true">
-			<Text>Well don't that light me fuses.</Text>		<!-- Well don't that light me fuses. -->
+		<Replace Tag="LOC_DIPLO_RELATIONSHIP_INCREASED_LEADER_EDWARD_TEACH" Language="th_TH">
+			<Text>โอ้ นั่นทำให้ฉันประหลาดใจจริง ๆ</Text>		<!-- Well don't that light me fuses. -->
 		</Replace>
-		<Replace Tag="LOC_DIPLO_RELATIONSHIP_DECREASED_LEADER_EDWARD_TEACH" Language="th_TH" Newest="true">
-			<Text>I'd call ye a scurvy dog, but I am fond of dogs.</Text>		<!-- I'd call ye a scurvy dog, but I am fond of dogs. -->
+		<Replace Tag="LOC_DIPLO_RELATIONSHIP_DECREASED_LEADER_EDWARD_TEACH" Language="th_TH">
+			<Text>ฉันคงเรียกเจ้าว่าเป็นคนทุเรศ แต่ฉันชอบสุนัขอยู่</Text>		<!-- I'd call ye a scurvy dog, but I am fond of dogs. -->
 		</Replace>
-		<Replace Tag="LOC_DIPLOMACY_AGENDA_EDWARD_TEACH_DESC_LIKES" Language="th_TH" Newest="true">
-			<Text>Edward Teach likes Leaders that build Naval Units.</Text>		<!-- Edward Teach likes Leaders that build Naval Units. -->
+		<Replace Tag="LOC_DIPLOMACY_AGENDA_EDWARD_TEACH_DESC_LIKES" Language="th_TH">
+			<Text>เอ็ดเวิร์ด ทีช ชอบผู้นำที่สร้าง ยูนิตทางทะเล</Text>		<!-- Edward Teach likes Leaders that build Naval Units. -->
 		</Replace>
-		<Replace Tag="LOC_DIPLOMACY_AGENDA_EDWARD_TEACH_DESC_DISLIKES" Language="th_TH" Newest="true">
-			<Text>Edward Teach dislikes Leaders that neglect to build Naval Units.</Text>		<!-- Edward Teach dislikes Leaders that neglect to build Naval Units. -->
+		<Replace Tag="LOC_DIPLOMACY_AGENDA_EDWARD_TEACH_DESC_DISLIKES" Language="th_TH">
+			<Text>เอ็ดเวิร์ด ทีช ไม่ชอบผู้นำที่ละเลยการสร้าง ยูนิตทางทะเล</Text>		<!-- Edward Teach dislikes Leaders that neglect to build Naval Units. -->
 		</Replace>
 	</LocalizedText>
 </Database>

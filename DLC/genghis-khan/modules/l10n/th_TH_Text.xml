@@ -127,9 +127,9 @@
 		<Replace Tag="LOC_DIPLOMACY_AGENDA_TUMEN_NAME" Language="th_TH">
 			<Text>ทูเมน</Text>		<!-- Tümen -->
 		</Replace>
-		<Replace Tag="LOC_DIPLOMACY_AGENDA_TUMEN_DESC" Language="th_TH" Updated="true">
-			<Text>ชอบอารยธรรมที่มีจำนวนยูนิตทหารม้าน้อยที่สุด ไม่ชอบอารยธรรมที่มีจำนวนยูนิตทหารม้ามากที่สุด</Text>		<!-- Likes the Leader with the smallest number of Cavalry Units. Dislikes the one with the greatest number of Cavalry Units. -->
-			<Old>Likes the Civilization with the smallest number of Cavalry Units. Dislikes the one with the greatest number of Cavalry Units.</Old>
+		<Replace Tag="LOC_DIPLOMACY_AGENDA_TUMEN_DESC" Language="th_TH">
+			<Text>ชอบผู้นำที่มีจำนวนยูนิตทหารม้าน้อยที่สุด ไม่ชอบผู้นำที่มีจำนวนยูนิตทหารม้ามากที่สุด</Text>		<!-- Likes the Leader with the smallest number of Cavalry Units. Dislikes the one with the greatest number of Cavalry Units. -->
+			
 		</Replace>
 		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_GENGHIS_KHAN" Language="th_TH">
 			<Text>เจ้าถือกำเนิดในชื่อเทมูจิน - แต่โลกนี้รู้จักเจ้าว่าเจงกิสข่าน ผู้ปกครองสากล ผู้สร้างความหวาดกลัวบนทุ่งหญ้า เพียงคำสั่งของเจ้า กองทัพก็ออกเดินทาง ศัตรูหลบหนี กำแพงพังทลาย และความหวังดับสูญ หยิบคันธนูขึ้นมา ข่าน โลกนี้อ่อนแอเกินไป ให้มันรู้จักความหวาดกลัว</Text>		<!-- You were born Temujin - but the world knows you as Genghis Khan, the Universal Ruler, the terror of the steppe. At your word, the hordes ride, armies flee, walls crumble, and hopes fail. Take up your bow, Khagan - the world has gone soft. Let it know fear. -->
@@ -1475,17 +1475,17 @@
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_GENGHIS_KHAN_PRUSSIA_TOOLTIP" Language="th_TH">
 			<Text>[B]ปรัสเซีย[/B] เสริมกลยุทธ์กับ [B]เจงกิสข่าน[/B]</Text>		<!-- [B]Prussia[/B] strategically complements [B]Genghis Khan[/B]. -->
 		</Replace>
-		<Replace Tag="LOC_DIPLO_RELATIONSHIP_INCREASED_LEADER_GENGHIS_KHAN" Language="th_TH" Newest="true">
-			<Text>You are wise in the ways of the steppe.</Text>		<!-- You are wise in the ways of the steppe. -->
+		<Replace Tag="LOC_DIPLO_RELATIONSHIP_INCREASED_LEADER_GENGHIS_KHAN" Language="th_TH">
+			<Text>ท่านมีปัญญาในหนทางแห่งสเตปป์</Text>		<!-- You are wise in the ways of the steppe. -->
 		</Replace>
-		<Replace Tag="LOC_DIPLO_RELATIONSHIP_DECREASED_LEADER_GENGHIS_KHAN" Language="th_TH" Newest="true">
-			<Text>You do not think big enough.</Text>		<!-- You do not think big enough. -->
+		<Replace Tag="LOC_DIPLO_RELATIONSHIP_DECREASED_LEADER_GENGHIS_KHAN" Language="th_TH">
+			<Text>คุณคิดไม่ให้ใหญ่พอ</Text>		<!-- You do not think big enough. -->
 		</Replace>
-		<Replace Tag="LOC_DIPLOMACY_AGENDA_TUMEN_DESC_LIKES" Language="th_TH" Newest="true">
-			<Text>Genghis Khan likes the Leader with the smallest number of Cavalry Units.</Text>		<!-- Genghis Khan likes the Leader with the smallest number of Cavalry Units. -->
+		<Replace Tag="LOC_DIPLOMACY_AGENDA_TUMEN_DESC_LIKES" Language="th_TH">
+			<Text>เจงกิสข่าน ชอบผู้นำที่มียูนิตม้าศึกจำนวนน้อยที่สุด</Text>		<!-- Genghis Khan likes the Leader with the smallest number of Cavalry Units. -->
 		</Replace>
-		<Replace Tag="LOC_DIPLOMACY_AGENDA_TUMEN_DESC_DISLIKES" Language="th_TH" Newest="true">
-			<Text>Genghis Khan dislikes the Leader with the greatest number of Cavalry Units.</Text>		<!-- Genghis Khan dislikes the Leader with the greatest number of Cavalry Units. -->
+		<Replace Tag="LOC_DIPLOMACY_AGENDA_TUMEN_DESC_DISLIKES" Language="th_TH">
+			<Text>เจงกิสข่านไม่ชอบผู้นำที่มียูนิตม้าทหารมากที่สุด</Text>		<!-- Genghis Khan dislikes the Leader with the greatest number of Cavalry Units. -->
 		</Replace>
 	</LocalizedText>
 </Database>
