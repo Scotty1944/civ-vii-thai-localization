@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="sengoku" version="1"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>LOC_MODULE_SENGOKU_NAME</Name>
+		<Description>LOC_MODULE_SENGOKU_DESCRIPTION</Description>
+		<Authors>LOC_AUTHORS_FIRAXIS</Authors>
+		<EnabledByDefault>1</EnabledByDefault>
+		<Package>Platypus</Package>
+	</Properties>
+	<Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME" />
+	</Dependencies>
+	<References>
+		<Mod id="age-exploration" title="LOC_MODULE_AGE_EXPLORATION_NAME" />
+	</References>
+	<ActionCriteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-current">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-persist" any="true">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-current">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="heian-current-shell">
+			<ModIsEnabled>heian</ModIsEnabled>
+		</Criteria>
+		<Criteria id="antiquity-age-heian">
+			<ModInUse>heian</ModInUse>
+		</Criteria>
+		<Criteria id="ashoka-himiko-alt-current">
+			<ModInUse>ashoka-himiko-alt</ModInUse>
+		</Criteria>
+		<Criteria id="ashoka-himiko-alt-current-shell">
+			<ModIsEnabled>ashoka-himiko-alt</ModIsEnabled>
+		</Criteria>
+		<Criteria id="toyotomi-hideyoshi-current">
+			<ModInUse>toyotomi-hideyoshi</ModInUse>
+		</Criteria>
+		<Criteria id="toyotomi-hideyoshi-current-shell">
+			<ModIsEnabled>toyotomi-hideyoshi</ModIsEnabled>
+		</Criteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<ActionGroup id="sengoku-art" scope="game" criteria="always">
+			<Actions>
+				<UpdateArt>
+					<Item>sengoku-shell</Item>
+					<Item>sengoku</Item>
+				</UpdateArt>
+				<UpdateIcons>
+					<Item>data/icons/icons.xml</Item>
+				</UpdateIcons>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="sengoku-movies" scope="game" criteria="always">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/movies.xml</Item>
+				</UpdateDatabase>
+
+				<ImportFiles locale="de_DE">
+					<Item>l10n/de_DE/wilco_civ_exploration_sengoku_defeat.vtt</Item>
+					<Item>l10n/de_DE/wilco_civ_exploration_sengoku_culture.vtt</Item>
+					<Item>l10n/de_DE/wilco_civ_exploration_sengoku_economic.vtt</Item>
+					<Item>l10n/de_DE/wilco_civ_exploration_sengoku_military.vtt</Item>
+					<Item>l10n/de_DE/wilco_civ_exploration_sengoku_science.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="es_ES">
+					<Item>l10n/es_ES/wilco_civ_exploration_sengoku_defeat.vtt</Item>
+					<Item>l10n/es_ES/wilco_civ_exploration_sengoku_culture.vtt</Item>
+					<Item>l10n/es_ES/wilco_civ_exploration_sengoku_economic.vtt</Item>
+					<Item>l10n/es_ES/wilco_civ_exploration_sengoku_military.vtt</Item>
+					<Item>l10n/es_ES/wilco_civ_exploration_sengoku_science.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="fr_FR">
+					<Item>l10n/fr_FR/wilco_civ_exploration_sengoku_defeat.vtt</Item>
+					<Item>l10n/fr_FR/wilco_civ_exploration_sengoku_culture.vtt</Item>
+					<Item>l10n/fr_FR/wilco_civ_exploration_sengoku_economic.vtt</Item>
+					<Item>l10n/fr_FR/wilco_civ_exploration_sengoku_military.vtt</Item>
+					<Item>l10n/fr_FR/wilco_civ_exploration_sengoku_science.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="it_IT">
+					<Item>l10n/it_IT/wilco_civ_exploration_sengoku_defeat.vtt</Item>
+					<Item>l10n/it_IT/wilco_civ_exploration_sengoku_culture.vtt</Item>
+					<Item>l10n/it_IT/wilco_civ_exploration_sengoku_economic.vtt</Item>
+					<Item>l10n/it_IT/wilco_civ_exploration_sengoku_military.vtt</Item>
+					<Item>l10n/it_IT/wilco_civ_exploration_sengoku_science.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="ja_JP">
+					<Item>l10n/ja_JP/wilco_civ_exploration_sengoku_defeat.vtt</Item>
+					<Item>l10n/ja_JP/wilco_civ_exploration_sengoku_culture.vtt</Item>
+					<Item>l10n/ja_JP/wilco_civ_exploration_sengoku_economic.vtt</Item>
+					<Item>l10n/ja_JP/wilco_civ_exploration_sengoku_military.vtt</Item>
+					<Item>l10n/ja_JP/wilco_civ_exploration_sengoku_science.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="ko_KR">
+					<Item>l10n/ko_KR/wilco_civ_exploration_sengoku_defeat.vtt</Item>
+					<Item>l10n/ko_KR/wilco_civ_exploration_sengoku_culture.vtt</Item>
+					<Item>l10n/ko_KR/wilco_civ_exploration_sengoku_economic.vtt</Item>
+					<Item>l10n/ko_KR/wilco_civ_exploration_sengoku_military.vtt</Item>
+					<Item>l10n/ko_KR/wilco_civ_exploration_sengoku_science.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="pl_PL">
+					<Item>l10n/pl_PL/wilco_civ_exploration_sengoku_defeat.vtt</Item>
+					<Item>l10n/pl_PL/wilco_civ_exploration_sengoku_culture.vtt</Item>
+					<Item>l10n/pl_PL/wilco_civ_exploration_sengoku_economic.vtt</Item>
+					<Item>l10n/pl_PL/wilco_civ_exploration_sengoku_military.vtt</Item>
+					<Item>l10n/pl_PL/wilco_civ_exploration_sengoku_science.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="pt_BR">
+					<Item>l10n/pt_BR/wilco_civ_exploration_sengoku_defeat.vtt</Item>
+					<Item>l10n/pt_BR/wilco_civ_exploration_sengoku_culture.vtt</Item>
+					<Item>l10n/pt_BR/wilco_civ_exploration_sengoku_economic.vtt</Item>
+					<Item>l10n/pt_BR/wilco_civ_exploration_sengoku_military.vtt</Item>
+					<Item>l10n/pt_BR/wilco_civ_exploration_sengoku_science.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="ru_RU">
+					<Item>l10n/ru_RU/wilco_civ_exploration_sengoku_defeat.vtt</Item>
+					<Item>l10n/ru_RU/wilco_civ_exploration_sengoku_culture.vtt</Item>
+					<Item>l10n/ru_RU/wilco_civ_exploration_sengoku_economic.vtt</Item>
+					<Item>l10n/ru_RU/wilco_civ_exploration_sengoku_military.vtt</Item>
+					<Item>l10n/ru_RU/wilco_civ_exploration_sengoku_science.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="zh_Hans_CN">
+					<Item>l10n/zh_Hans_CN/wilco_civ_exploration_sengoku_defeat.vtt</Item>
+					<Item>l10n/zh_Hans_CN/wilco_civ_exploration_sengoku_culture.vtt</Item>
+					<Item>l10n/zh_Hans_CN/wilco_civ_exploration_sengoku_economic.vtt</Item>
+					<Item>l10n/zh_Hans_CN/wilco_civ_exploration_sengoku_military.vtt</Item>
+					<Item>l10n/zh_Hans_CN/wilco_civ_exploration_sengoku_science.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="zh_Hant_HK">
+					<Item>l10n/zh_Hant_HK/wilco_civ_exploration_sengoku_defeat.vtt</Item>
+					<Item>l10n/zh_Hant_HK/wilco_civ_exploration_sengoku_culture.vtt</Item>
+					<Item>l10n/zh_Hant_HK/wilco_civ_exploration_sengoku_economic.vtt</Item>
+					<Item>l10n/zh_Hant_HK/wilco_civ_exploration_sengoku_military.vtt</Item>
+					<Item>l10n/zh_Hant_HK/wilco_civ_exploration_sengoku_science.vtt</Item>
+				</ImportFiles>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="sengoku-text" scope="game" criteria="always">
+			<Actions>
+				<UpdateText>
+					<Item>text/en_us/CitizenNamesText.xml</Item>
+					<Item>text/en_us/CityNamesText.xml</Item>
+					<Item>text/en_us/CivilizationLegacyText.xml</Item>
+					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/CivilopediaText.xml</Item>
+					<Item>text/en_us/ConstructibleText.xml</Item>
+					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/ModuleText.xml</Item>
+					<Item>text/en_us/NamedPlacesText.xml</Item>
+					<Item>text/en_us/NarrativeStoriesText.xml</Item>
+					<Item>text/en_us/tot-NarrativeStoriesText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
+
+					<!-- Items below were generated via our loc tool. -->
+					<Item>l10n/ModuleText.xml</Item>
+					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
+					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
+					<Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>
+					<Item locale="it_IT">l10n/it_IT_Text.xml</Item>
+					<Item locale="ja_JP">l10n/ja_JP_Text.xml</Item>
+					<Item locale="ko_KR">l10n/ko_KR_Text.xml</Item>
+					<Item locale="pl_PL">l10n/pl_PL_Text.xml</Item>
+					<Item locale="pt_BR">l10n/pt_BR_Text.xml</Item>
+					<Item locale="ru_RU">l10n/ru_RU_Text.xml</Item>
+					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
+					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-sengoku" scope="game" criteria="always">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/named-places.xml</Item>
+					<Item>data/traditions.xml</Item>
+					<Item>data/traditions-gameeffects.xml</Item>
+					<Item>data/civilizations-legacy.xml</Item>
+					<Item>data/civilizations-shared.xml</Item>
+					<Item>data/civilizations-shared-gameeffects.xml</Item>
+					<Item>data/metaprogression.xml</Item>
+					<Item>data/metaprogression-gameeffects.xml</Item>
+					<Item>data/narrative-stories.xml</Item>
+					<Item>data/narrative-stories-gameeffects.xml</Item>
+					<Item>data/narrative-stories-gameeffects-common.xml</Item>
+					<Item>data/unlocks-base-standard.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
+					<Item>data/unlocks-antiquity.xml</Item>
+					<Item>data/unlocks-exploration.xml</Item>
+					<Item>data/loading-info-exploration.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-antiquity-main-sengoku" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-antiquity.xml</Item>
+					<Item>data/progression-trees-culture-unique-aq.xml</Item>
+					<Item>data/narrative-stories-gameeffects-antiquity.xml</Item>
+					<Item>data/narrative-stories-antiquity.xml</Item>
+					<Item>data/tot-narrative-stories-gameeffects.xml</Item>
+					<Item>data/tot-narrative-stories.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-exploration-persist-sengoku" scope="game" criteria="exploration-age-persist">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/constructibles.xml</Item>
+					<Item>data/constructibles-gameeffects.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-exploration-main-sengoku" scope="game" criteria="exploration-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/citizen-names.xml</Item>
+					<Item>data/civilizations-exploration.xml</Item>
+					<Item>data/civilizations-gameeffects.xml</Item>
+					<Item>data/constructibles-no-persist.xml</Item>
+					<Item>data/narrative-display.xml</Item>
+					<Item>data/narrative-stories-gameeffects-exploration.xml</Item>
+					<Item>data/progression-trees-culture-unique-gameeffects-ex.xml</Item>
+					<Item>data/narrative-stories-exploration.xml</Item>
+					<Item>data/progression-trees-culture-unique.xml</Item>
+					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>
+					<Item>data/progression-trees-tech.xml</Item>
+					<Item>data/units.xml</Item>
+					<Item>data/units-gameeffects.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-modern-main-sengoku" scope="game" criteria="modern-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-modern.xml</Item>
+					<Item>data/progression-trees-culture-unique-mo.xml</Item>
+					<Item>data/narrative-stories-gameeffects-modern.xml</Item>
+					<Item>data/narrative-stories-modern.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-antiquity-sengoku-heian" scope="game" criteria="antiquity-age-heian">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/unlocks-antiquity-heian.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-sengoku-ashoka-himiko-alt" scope="game" criteria="ashoka-himiko-alt-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-ashoka-himiko-alt.xml</Item>
+					<Item>data/unlocks-ashoka-himiko-alt.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-sengoku-toyotomi-hideyoshi" scope="game" criteria="toyotomi-hideyoshi-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-toyotomi-hideyoshi.xml</Item>
+					<Item>data/unlocks-toyotomi-hideyoshi.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-sengoku-heian" scope="shell" criteria="heian-current-shell">
+			<Actions>
+				<UpdateDatabase>
+					<Item>config/config-heian.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-sengoku-ashoka-himiko-alt" scope="shell" criteria="ashoka-himiko-alt-current-shell">
+			<Actions>
+				<UpdateDatabase>
+					<Item>config/config-ashoka-himiko-alt.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-sengoku-toyotomi-hideyoshi" scope="shell" criteria="toyotomi-hideyoshi-current-shell">
+			<Actions>
+				<UpdateDatabase>
+					<Item>config/config-toyotomi-hideyoshi.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-sengoku" scope="shell" criteria="always">
+			<Actions>
+				<UpdateArt>
+					<Item>sengoku-shell</Item>
+				</UpdateArt>
+				<UpdateIcons>
+					<Item>data/icons/icons.xml</Item>
+				</UpdateIcons>
+				<UpdateDatabase>
+					<Item>config/config.xml</Item>
+					<Item>config/config-traditions.xml</Item>
+					<Item>config/metaprogression.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/CivilizationLegacyText.xml</Item>
+					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/ConstructibleText.xml</Item>
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/ModuleText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
+
+					<!-- Items below were generated via our loc tool. -->
+					<Item>l10n/ModuleText.xml</Item>
+					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
+					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
+					<Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>
+					<Item locale="it_IT">l10n/it_IT_Text.xml</Item>
+					<Item locale="ja_JP">l10n/ja_JP_Text.xml</Item>
+					<Item locale="ko_KR">l10n/ko_KR_Text.xml</Item>
+					<Item locale="pl_PL">l10n/pl_PL_Text.xml</Item>
+					<Item locale="pt_BR">l10n/pt_BR_Text.xml</Item>
+					<Item locale="ru_RU">l10n/ru_RU_Text.xml</Item>
+					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
+					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+	<LocalizedText>
+		<File>text/en_us/ModuleText.xml</File>
+		<File>l10n/ModuleText.xml</File>
+	</LocalizedText>
+</Mod>
