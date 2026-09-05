@@ -1084,8 +1084,9 @@
 		<Replace Tag="LOC_10092C_NAME" Language="th_TH">
 			<Text>เจ้าจะบอกเราว่าพวกเจ้ามีที่ไหนอีก</Text>		<!-- “Ye’ll tell us where to find more of ye.” -->
 		</Replace>
-		<Replace Tag="LOC_10092C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} มีค่า 1 คะแนน</Text>		<!-- {1_reward} worth 1 point. -->
+		<Replace Tag="LOC_10092C_DESCRIPTION" Language="th_TH" Updated="true">
+			<Text>{1_reward} มีค่า 1 คะแนน</Text>		<!-- {1_reward} worth 1 Cargo. -->
+			<Old>{1_reward} worth 1 point.</Old>
 		</Replace>
 		<Replace Tag="LOC_10092D_NAME" Language="th_TH">
 			<Text>ไปคุยกับปีศาจเองเถอะ, มีเสียงน้ำกระเซ็น</Text>		<!-- “Take it up with the devil.” There is a splash. -->
@@ -1465,8 +1466,9 @@
 		<Replace Tag="LOC_TUTORIAL_PIRATE_ANTIQUITY_TITLE" Language="th_TH">
 			<Text>การปล้น</Text>		<!-- Pirating -->
 		</Replace>
-		<Replace Tag="LOC_TUTORIAL_PIRATE_ANTIQUITY_BODY" Language="th_TH">
-			<Text>ยูนิตบางประเภทมีความสามารถ [icon:UNIT_CAUTION] [b]โจรสลัด[/b] เช่น ยูนิตทางทะเลที่ควบคุมโดย {LOC_LEADER_EDWARD_TEACH_NAME} ด้วยการปล้น ยูนิตสามารถโจมตียูนิตทางทะเลอื่นที่ไม่ได้อยู่ในสงครามด้วย ระวัง [icon:UNIT_CAUTION] [b]โจรสลัด[/b]: คุณอาจต้องต่อสู้กลับ</Text>		<!-- Some Units have the [icon:UNIT_CAUTION] [b]Pirate [/b]ability, such as Naval Units commanded by {LOC_LEADER_EDWARD_TEACH_NAME}. With Pirating, Units can attack other Naval Units that they are not at War with. Be on the lookout for [icon:UNIT_CAUTION] [b]Pirates[/b]: you may need to fight back. -->
+		<Replace Tag="LOC_TUTORIAL_PIRATE_ANTIQUITY_BODY" Language="th_TH" Updated="true">
+			<Text>ยูนิตบางประเภทมีความสามารถ [icon:UNIT_CAUTION] [b]โจรสลัด[/b] เช่น ยูนิตทางทะเลที่ควบคุมโดย {LOC_LEADER_EDWARD_TEACH_NAME} ด้วยการปล้น ยูนิตสามารถโจมตียูนิตทางทะเลอื่นที่ไม่ได้อยู่ในสงครามด้วย ระวัง [icon:UNIT_CAUTION] [b]โจรสลัด[/b]: คุณอาจต้องต่อสู้กลับ</Text>		<!-- Some Units have the [icon:UNIT_CAUTION] [b]Pirate [/b]ability, such as Naval Units commanded by {LOC_LEADER_EDWARD_TEACH_NAME}. With Pirating, Units can attack other Units that they are not at War with. Be on the lookout for [icon:UNIT_CAUTION] [b]Pirates[/b]: you may need to fight back. -->
+			<Old>Some Units have the [icon:UNIT_CAUTION] [b]Pirate [/b]ability, such as Naval Units commanded by {LOC_LEADER_EDWARD_TEACH_NAME}. With Pirating, Units can attack other Naval Units that they are not at War with. Be on the lookout for [icon:UNIT_CAUTION] [b]Pirates[/b]: you may need to fight back.</Old>
 		</Replace>
 		<Replace Tag="LOC_BADGE_EDWARD_TEACH_NAME" Language="th_TH">
 			<Text>ตราแห่งเอ็ดเวิร์ด ทีช 1</Text>		<!-- Edward Teach Badge 1 -->

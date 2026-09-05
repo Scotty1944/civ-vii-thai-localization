@@ -716,8 +716,9 @@
 		<Replace Tag="LOC_10114A_COMPLETION" Language="th_TH">
 			<Text>ดังนั้น Xerxes จึงเป็นกษัตริย์ผู้ฟุ่มเฟือยและฟุ้งเฟ้อที่อ้างสิทธิ์เป็นกษัตริย์เหนือพวกชาวเผ่าป่าเถื่อนมากมาย เขาดูเหมือนจะสนใจการแต่งกายของตนมากกว่าการป้องกันของเขา สนใจมงกุฎมากกว่าราชอาณาจักรของเขา อเล็กซานเดอร์มหาราชหวังว่าจะได้พบศัตรูที่คู่ควร</Text>		<!-- So this Xerxes then is the lavish and decadent ruler who claims kingship over a host of barbarians. He seems concerned more with his attire than his defense, with his crown than his kingdom. Alexander had hoped to find a worthy foe. -->
 		</Replace>
-		<Replace Tag="LOC_10114B_NAME" Language="th_TH">
-			<Text>Xerxes จะได้เห็น {1_CIVILIZATION_ADJ} พลังในไม่ช้า</Text>		<!-- Xerxes will soon witness {1_CIVILIZATION_ADJ} strength -->
+		<Replace Tag="LOC_10114B_NAME" Language="th_TH" Updated="true">
+			<Text>Xerxes จะได้เห็น {1_CIVILIZATION_ADJ} พลังในไม่ช้า</Text>		<!-- Xerxes will soon witness {1_CIVILIZATION_ADJ} strength. -->
+			<Old>Xerxes will soon witness {1_CIVILIZATION_ADJ} strength</Old>
 		</Replace>
 		<Replace Tag="LOC_10114B_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
@@ -728,8 +729,9 @@
 		<Replace Tag="LOC_10114C_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
 		</Replace>
-		<Replace Tag="LOC_10114D_NAME" Language="th_TH">
-			<Text>คนแบบนี้แทบจะไม่สร้างความภักดี</Text>		<!-- Such men rarely inspire loyalty -->
+		<Replace Tag="LOC_10114D_NAME" Language="th_TH" Updated="true">
+			<Text>คนแบบนี้แทบจะไม่สร้างความภักดี</Text>		<!-- Such men rarely inspire loyalty. -->
+			<Old>Such men rarely inspire loyalty</Old>
 		</Replace>
 		<Replace Tag="LOC_10114D_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
@@ -911,8 +913,9 @@
 		<Replace Tag="LOC_10118D_NAME" Language="th_TH">
 			<Text>การพิชิตไม่มีเวลาให้กับปริศนา</Text>		<!-- Conquest leaves no time for riddles. -->
 		</Replace>
-		<Replace Tag="LOC_10118D_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} ใน {2_story_city}</Text>		<!-- {1_reward} in {2_story_city}. -->
+		<Replace Tag="LOC_10118D_DESCRIPTION" Language="th_TH" Updated="true">
+			<Text>{1_reward} ใน {2_story_city}</Text>		<!-- {1_reward} in {2_capital}. -->
+			<Old>{1_reward} in {2_story_city}.</Old>
 		</Replace>
 		<Replace Tag="LOC_10119A_STORYTITLE" Language="th_TH">
 			<Text>ปริศนาสำหรับนักปราชญ์กิมโนโซฟิสต์</Text>		<!-- A Riddle for the Gymnosophists -->

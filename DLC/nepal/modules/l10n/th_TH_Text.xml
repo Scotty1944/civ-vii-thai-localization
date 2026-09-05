@@ -250,8 +250,9 @@
 		<Replace Tag="LOC_WONDER_BOUDHANATH_NAME" Language="th_TH">
 			<Text>โพธินาถ</Text>		<!-- Boudhanath -->
 		</Replace>
-		<Replace Tag="LOC_WONDER_BOUDHANATH_DESCRIPTION" Language="th_TH">
-			<Text>+6 [icon:YIELD_DIPLOMACY] อิทธิพล, +20 [icon:RELATIONSHIP] ความสัมพันธ์ กับผู้นำคนอื่นทุกคน, [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]คงอยู่ตลอดกาล[/TIP], ต้องสร้างในทุ่งหญ้า หรือเขตร้อนติดกับภูเขา</Text>		<!-- +6 [icon:YIELD_DIPLOMACY] Influence. +20 [icon:RELATIONSHIP] Relationship with all other Leaders. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be built in Grassland or Tropical adjacent to a Mountain. -->
+		<Replace Tag="LOC_WONDER_BOUDHANATH_DESCRIPTION" Language="th_TH" Updated="true">
+			<Text>+6 [icon:YIELD_DIPLOMACY] อิทธิพล, +20 [icon:RELATIONSHIP] ความสัมพันธ์ กับผู้นำคนอื่นทุกคน, [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]คงอยู่ตลอดกาล[/TIP], ต้องสร้างในทุ่งหญ้า หรือเขตร้อนติดกับภูเขา</Text>		<!-- +6 [icon:YIELD_DIPLOMACY]. +20 [icon:RELATIONSHIP] Relationship with all other Leaders. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be built in Grassland or Tropical adjacent to a Mountain. -->
+			<Old>+6 [icon:YIELD_DIPLOMACY] Influence. +20 [icon:RELATIONSHIP] Relationship with all other Leaders. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be built in Grassland or Tropical adjacent to a Mountain.</Old>
 		</Replace>
 		<Replace Tag="LOC_WONDER_BOUDHANATH_TOOLTIP" Language="th_TH">
 			<Text>+20 [icon:RELATIONSHIP] ความสัมพันธ์ กับผู้นำคนอื่นทุกคน[N]ต้องสร้างในทุ่งหญ้า หรือเขตร้อนติดกับภูเขา</Text>		<!-- +20 [icon:RELATIONSHIP] Relationship with all other Leaders.[N]Must be built in Grassland or Tropical adjacent to a Mountain. -->
@@ -397,14 +398,16 @@
 		<Replace Tag="LOC_METAPROGRESSION_CHALLENGE_NEPAL_FOUR_MAJOR_TRIUMPHS_DESC" Language="th_TH">
 			<Text>ในฐานะ เนปาล บรรลุ 4 วีรกรรมรองด้านวัฒนธรรมหรือการทูต ในยุคสูงสุดหนึ่งยุค</Text>		<!-- As Nepal, complete 4 Cultural or Diplomatic Minor Triumphs in a single Apex Age. -->
 		</Replace>
-		<Replace Tag="LOC_DIPLOMACY_PROJECT_GIFT_GURKHA_DESCRIPTION" Language="th_TH">
-			<Text>มอบ กูร์ขา[n] ยอมรับ: คุณจะได้รับ +10 ความสัมพันธ์กับพวกเขา และ 5 [icon:YIELD_CULTURE] วัฒนธรรม ในระดับความเร็วปกติ สำหรับระดับความสัมพันธ์ปัจจุบันกับพวกเขา ผู้นำอื่นจะได้รับหน่วย กูร์ขา ในเมืองหลวงของพวกเขา สามารถทำได้เฉพาะกับอารยธรรมที่เป็นมิตรหรือให้ความช่วยเหลือเท่านั้น</Text>		<!-- Gives a Gurkha.[n]Accepted: You receive +10 Relationship with them and 5 [icon:YIELD_CULTURE] Culture, on Standard Speed, for the current Relationship Level with them. Other Leader receives a Gurkha Unit in their Capital. Can only be done with Friendly or Helpful Civilizations. -->
+		<Replace Tag="LOC_DIPLOMACY_PROJECT_GIFT_GURKHA_DESCRIPTION" Language="th_TH" Updated="true">
+			<Text>มอบ กูร์ขา[n] ยอมรับ: คุณจะได้รับ +10 ความสัมพันธ์กับพวกเขา และ 5 [icon:YIELD_CULTURE] วัฒนธรรม ในระดับความเร็วปกติ สำหรับระดับความสัมพันธ์ปัจจุบันกับพวกเขา ผู้นำอื่นจะได้รับหน่วย กูร์ขา ในเมืองหลวงของพวกเขา สามารถทำได้เฉพาะกับอารยธรรมที่เป็นมิตรหรือให้ความช่วยเหลือเท่านั้น</Text>		<!-- Gives a Gurkha.[n]Accepted: You receive [icon:RELATIONSHIP] +10 Relationship with them and 5 [icon:YIELD_CULTURE] Culture, on Standard Speed, for the current [icon:RELATIONSHIP] Relationship Level with them. Other Leader receives a Gurkha Unit in their Capital. Can only be done with [icon:PLAYER_RELATIONSHIP_FRIENDLY] Friendly or [icon:PLAYER_RELATIONSHIP_HELPFUL] Helpful Civilizations. -->
+			<Old>Gives a Gurkha.[n]Accepted: You receive +10 Relationship with them and 5 [icon:YIELD_CULTURE] Culture, on Standard Speed, for the current Relationship Level with them. Other Leader receives a Gurkha Unit in their Capital. Can only be done with Friendly or Helpful Civilizations.</Old>
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_PROJECT_GIFT_GURKHA_REQUEST" Language="th_TH">
 			<Text>{1_leaderName} กำลังเสนอ ยูนิตกูร์ขา ให้คุณ</Text>		<!-- {1_leaderName} is offering you a Gurkha unit. -->
 		</Replace>
-		<Replace Tag="LOC_DIPLOMACY_PROJECT_GIFT_GURKHA_REJECT" Language="th_TH">
-			<Text>ยกเลิกการกระทำทางการทูต[n]{1_initialName}[icon:YIELD_DIPLOMACY] อิทธิพล จะถูกคืนให้[n]ไม่มี ความร่วมมือ ใหม่ระหว่างผู้นำเป็นเวลา {2_cooldown} เทิร์น[n]ความสัมพันธ์แย่ลง</Text>		<!-- Cancels the Diplomatic Action.[n]{1_initialName}'s[icon:YIELD_DIPLOMACY] Influence is refunded.[n]No new Endeavors between Leaders for {2_cooldown} turns.[n]Relationships worsen. -->
+		<Replace Tag="LOC_DIPLOMACY_PROJECT_GIFT_GURKHA_REJECT" Language="th_TH" Updated="true">
+			<Text>ยกเลิกการกระทำทางการทูต[n]{1_initialName}[icon:YIELD_DIPLOMACY] อิทธิพล จะถูกคืนให้[n]ไม่มี ความร่วมมือ ใหม่ระหว่างผู้นำเป็นเวลา {2_cooldown} เทิร์น[n]ความสัมพันธ์แย่ลง</Text>		<!-- Cancels the Diplomatic Action.[n]{1_initialName}'s[icon:YIELD_DIPLOMACY] Influence is refunded.[n]No new Endeavors between Leaders for {2_cooldown} turns.[n][icon:RELATIONSHIP] Relationships worsen. -->
+			<Old>Cancels the Diplomatic Action.[n]{1_initialName}'s[icon:YIELD_DIPLOMACY] Influence is refunded.[n]No new Endeavors between Leaders for {2_cooldown} turns.[n]Relationships worsen.</Old>
 		</Replace>
 		<Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_NEPAL" Language="th_TH">
 			<Text>เนปาลไม่เคยยอมจำนน จากป้อมปราการสูงส่งของพวกเขา กูร์ขะเฝ้าระวังอย่างเข้มงวด และในจตุรัสดูร์บาร์ รัฐมนตรีวางแผนและวางกลยุทธ์ ใต้ธงชาติเนปาล ยอดเขาสูงสุดกลายเป็นดินแดนแห่งความมั่งคั่ง และเบื้องล่างเจดีย์อิฐและยอดแหลม ทิ้งให้ศัตรูของเนปาลเหนื่อยล้ากับทางลาดเหล่านั้น</Text>		<!-- Nepal never submits. From their high fortresses, the Gurkhas watch vigilantly, and in the Durbar Square ministers plan and plot. Under the Nepali flag, the highest peaks become prosperous, and far below the brick stupas and spires, let Nepal’s enemies tire themselves on the slopes. -->
