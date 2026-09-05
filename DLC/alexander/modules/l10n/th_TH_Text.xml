@@ -114,8 +114,7 @@
 				  [LI][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP] ที่ถูกเปลี่ยนเป็น [icon:YIELD_CITIES] [B]เมืองใหญ่[/B] จะถูกตั้งชื่อใหม่ตาม อเล็กซานเดอร์.[/LIST]</Text>		<!-- [BLIST][LI][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] other than your Capital with a [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP] get [B]+10% [icon:YIELD_PRODUCTION] Production[/B] and [icon:YIELD_CULTURE] [B]Culture[/B], doubled if they are on a different Continent than your [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP].
 				  [LI][B]+2[/B] [icon:NAR_REW_COMBAT] [B][TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP][/B] for [B]Land [TIP:LOC_PEDIA_CONCEPTS_MILITARY_UNIT_TOOLTIP]Military Units[/TIP][/B]. [B]+1 [icon:NAR_REW_COMBAT] Combat Strength[/B] for [B]Unique Military Units[/B] for every [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]City[/TIP] with a [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP] other than your Capital (max 6).
 				  [LI][B]+2 [icon:MILITARY_VP] Dominion[/B] for every [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]City[/TIP] with a [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP] other than your Capital.
-				  [LI][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] converted into [icon:YIELD_CITIES] [B]Cities[/B] are renamed after Alexander.[/LIST]
-			 -->
+				  [LI][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] converted into [icon:YIELD_CITIES] [B]Cities[/B] are renamed after Alexander.[/LIST] -->
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_AGENDA_GODLIKE_BASILEUS_NAME" Language="th_TH">
 			<Text>บาซีเลุสผู้เป็นเทพ</Text>		<!-- Godlike Basileus -->
@@ -1292,6 +1291,18 @@
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_ALEXANDER_FRENCH_EMPIRE_TOOLTIP" Language="th_TH">
 			<Text>[B]จักรวรรดิฝรั่งเศส[/B] เสริมความแข็งแกร่งเชิงยุทธศาสตร์ให้กับ [B]อเล็กซานเดอร์[/B]</Text>		<!-- [B]The French Empire[/B] strategically complements [B]Alexander[/B]. -->
+		</Replace>
+		<Replace Tag="LOC_DIPLO_RELATIONSHIP_INCREASED_LEADER_ALEXANDER" Language="th_TH" Newest="true">
+			<Text>You'd make a fine member of my Companions.</Text>		<!-- You'd make a fine member of my Companions. -->
+		</Replace>
+		<Replace Tag="LOC_DIPLO_RELATIONSHIP_DECREASED_LEADER_ALEXANDER" Language="th_TH" Newest="true">
+			<Text>You will regret disgracing me, the greatest of the heroes.</Text>		<!-- You will regret disgracing me, the greatest of the heroes. -->
+		</Replace>
+		<Replace Tag="LOC_DIPLOMACY_AGENDA_GODLIKE_BASILEUS_DESC_LIKES" Language="th_TH" Newest="true">
+			<Text>Alexander likes Leaders with the fewest conquered Settlements.</Text>		<!-- Alexander likes Leaders with the fewest conquered Settlements. -->
+		</Replace>
+		<Replace Tag="LOC_DIPLOMACY_AGENDA_GODLIKE_BASILEUS_DESC_DISLIKES" Language="th_TH" Newest="true">
+			<Text>Alexander dislikes Leaders with the most conquered Settlements.</Text>		<!-- Alexander dislikes Leaders with the most conquered Settlements. -->
 		</Replace>
 	</LocalizedText>
 </Database>

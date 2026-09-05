@@ -842,7 +842,7 @@
 			<Text>ทีละคน, ผู้บังคับบัญชาของ โบลิบาร์ ใส่เครื่องหมายเครื่องราชอิสริยาภรณ์เพื่อเป็นการยอมรับถึงความกล้าหาญของพวกเขา, ความมุ่งมั่นของพวกเขาต่อสาเหตุของเสรีภาพ</Text>		<!-- One by one, Bolívar's commanders don decorations in acknowledgement of their bravery, their dedication to the cause of freedom. -->
 		</Replace>
 		<Replace Tag="LOC_10033B_NAME" Language="th_TH">
-			<Text>มันเป็นแรงบันดาลใจให้กับทหารคนอื่น ๆ </Text>		<!-- It is an inspiration to other soldiers. -->
+			<Text>มันเป็นแรงบันดาลใจให้กับทหารคนอื่น ๆ</Text>		<!-- It is an inspiration to other soldiers. -->
 		</Replace>
 		<Replace Tag="LOC_10033B_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
@@ -1442,6 +1442,18 @@
 		</Replace>
 		<Replace Tag="LOC_UNLOCK_PLAY_AS_BOLIVAR_FRANCE_TOOLTIP" Language="th_TH">
 			<Text>[B]ซิมอน โบลิบาร์[/B] ได้รับอิทธิพลจาก [B]จักรวรรดิฝรั่งเศส[/B]</Text>		<!-- [B]Simón Bolívar[/B] was influenced by the [B]French Empire[/B]. -->
+		</Replace>
+		<Replace Tag="LOC_DIPLO_RELATIONSHIP_INCREASED_LEADER_BOLIVAR" Language="th_TH" Newest="true">
+			<Text>We truly understand one another.</Text>		<!-- We truly understand one another. -->
+		</Replace>
+		<Replace Tag="LOC_DIPLO_RELATIONSHIP_DECREASED_LEADER_BOLIVAR" Language="th_TH" Newest="true">
+			<Text>The contempt you inspire in me is more vast than the ocean.</Text>		<!-- The contempt you inspire in me is more vast than the ocean. -->
+		</Replace>
+		<Replace Tag="LOC_DIPLOMACY_AGENDA_CORNERSTONE_FREEDOM_DESC_LIKES" Language="th_TH" Newest="true">
+			<Text>Simón Bolívar likes the Leader with the least Unhappy or Angry Settlements.</Text>		<!-- Simón Bolívar likes the Leader with the least Unhappy or Angry Settlements. -->
+		</Replace>
+		<Replace Tag="LOC_DIPLOMACY_AGENDA_CORNERSTONE_FREEDOM_DESC_DISLIKES" Language="th_TH" Newest="true">
+			<Text>Simón Bolívar dislikes the one with the most Unhappy or Angry Settlements.</Text>		<!-- Simón Bolívar dislikes the one with the most Unhappy or Angry Settlements. -->
 		</Replace>
 	</LocalizedText>
 </Database>
