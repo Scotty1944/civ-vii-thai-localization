@@ -2922,10 +2922,12 @@
 			<Text>ฟอรัม</Text>		<!-- Forum -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_FORUM_DESCRIPTION" Language="th_TH">
-			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]ย่านพิเศษ[/TIP] ของโรมัน, สร้างขึ้นโดยการสร้าง [TIP:LOC_PEDIA_CONCEPTS_BASILICA_TOOLTIP]บาซิลิกา[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_TEMPLE_TOOLTIP]วิหารจูปิเตอร์[/TIP] ในเขตเดียวกัน [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP] +1[icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุก [icon:TRADITION] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]ประเพณี[/TIP] ใน [icon:GOVERNMENT] รัฐบาล[/TIP]</Text>		<!-- Roman [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]Unique Quarter[/TIP]. Created by constructing the Basilica and Temple of Jupiter in the same [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP]. +1[icon:YIELD_CULTURE] Culture for every [icon:TRADITION] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]Tradition[/TIP] in the [icon:GOVERNMENT] Government. -->
+			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]ย่านพิเศษ[/TIP] ของโรมัน, สร้างขึ้นโดยการสร้าง [TIP:LOC_PEDIA_CONCEPTS_BASILICA_TOOLTIP]บาซิลิกา[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_TEMPLE_TOOLTIP]วิหารจูปิเตอร์[/TIP] ในเขตเดียวกัน [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP] +1[icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุก [icon:TRADITION] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]ประเพณี[/TIP] ใน [icon:GOVERNMENT] [TIP:LOC_PEDIA_CONCEPTS_GOVERNMENT_TOOLTIP]รัฐบาล[/TIP]</Text>		<!-- Roman [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]Unique Quarter[/TIP]. Created by constructing the Basilica and Temple of Jupiter in the same [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP]. +1[icon:YIELD_CULTURE] Culture for every [icon:TRADITION] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]Tradition[/TIP] in the [icon:GOVERNMENT] [TIP:LOC_PEDIA_CONCEPTS_GOVERNMENT_TOOLTIP]Government[/TIP]. -->
+			
 		</Replace>
 		<Replace Tag="LOC_QUARTER_FORUM_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุก [icon:TRADITION] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]ประเพณี[/TIP] ใน [icon:GOVERNMENT] รัฐบาล</Text>		<!-- +1[icon:YIELD_CULTURE] Culture for every [icon:TRADITION] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]Tradition[/TIP] in the [icon:GOVERNMENT] Government. -->
+			<Text>+1[icon:YIELD_CULTURE] วัฒนธรรม สำหรับทุก [icon:TRADITION] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]ประเพณี[/TIP] ใน [icon:GOVERNMENT] [TIP:LOC_PEDIA_CONCEPTS_GOVERNMENT_TOOLTIP]รัฐบาล[/TIP]</Text>		<!-- +1[icon:YIELD_CULTURE] Culture for every [icon:TRADITION] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]Tradition[/TIP] in the [icon:GOVERNMENT] [TIP:LOC_PEDIA_CONCEPTS_GOVERNMENT_TOOLTIP]Government[/TIP]. -->
+			
 		</Replace>
 		<Replace Tag="LOC_QUARTER_MATHA_NAME" Language="th_TH">
 			<Text>มาธา</Text>		<!-- Matha -->
@@ -8387,7 +8389,8 @@
 			<Text>รับ [icon:RADIAL_CIVICS] แนวคิดฟรี</Text>		<!-- Receive a free [icon:RADIAL_CIVICS] Civic. -->
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_9_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:SOCIAL_POLICY] ช่องนโยบายสังคม</Text>		<!-- +1 [icon:SOCIAL_POLICY] Social Policy Slot. -->
+			<Text>+1 [icon:NAR_REW_TRADITION_SLOT] ช่องนโยบายสังคม</Text>		<!-- +1 [icon:NAR_REW_TRADITION_SLOT] Social Policy Slot. -->
+			
 		</Replace>
 		<Replace Tag="LOC_CITY_STATE_BONUS_ANTIQUITY_10_DESCRIPTION" Language="th_TH">
 			<Text>+5% [icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้าง [icon:WONDER] สิ่งมหัศจรรย์, สำหรับทุก [icon:CITYSTATE] [TIP:LOC_PEDIA_CONCEPTS_CITY_STATE_TOOLTIP]นครรัฐทางวัฒนธรรม[/TIP] ที่คุณเป็น [TIP:LOC_PEDIA_CONCEPTS_SUZERAIN_TOOLTIP]เจ้านคร[/TIP]</Text>		<!-- +5% [icon:YIELD_PRODUCTION] Production towards constructing [icon:WONDER] Wonders for every [icon:CITYSTATE] Cultural [TIP:LOC_PEDIA_CONCEPTS_CITY_STATE_TOOLTIP]City-State[/TIP] you are [TIP:LOC_PEDIA_CONCEPTS_SUZERAIN_TOOLTIP]Suzerain[/TIP] of. -->
@@ -8479,7 +8482,8 @@
 			
 		</Replace>
 		<Replace Tag="CITY_STATE_DIPLOMATIC_BONUS_ANTIQUITY_3_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_HAPPINESS]ความสุข บน [icon:YIELD_HAPPINESS]อาคารความสุข</Text>		<!-- +2 [icon:YIELD_HAPPINESS]Happiness on [icon:YIELD_HAPPINESS]Happiness Buildings. -->
+			<Text>+2 [icon:YIELD_HAPPINESS] ความสุข บน [icon:YIELD_HAPPINESS] อาคารความสุข</Text>		<!-- +2 [icon:YIELD_HAPPINESS] Happiness on [icon:YIELD_HAPPINESS] Happiness Buildings. -->
+			
 		</Replace>
 		<Replace Tag="CITY_STATE_DIPLOMATIC_BONUS_ANTIQUITY_4_DESCRIPTION" Language="th_TH">
 			<Text>+20% [icon:YIELD_DIPLOMACY] อิทธิพล ต่อการเริ่มต้นและสนับสนุน [icon:ENDEAVOR] ความร่วมมือ และ [icon:SANCTIONS] การคว่ำบาตรสำหรับแต่ละ [icon:CITYSTATE][TIP:LOC_PEDIA_CONCEPTS_CITY_STATE_TOOLTIP]นครรัฐด้านการทูต[/TIP] ที่คุณเป็น [TIP:LOC_PEDIA_CONCEPTS_SUZERAIN_TOOLTIP]เจ้านคร[/TIP]</Text>		<!-- +20% [icon:YIELD_DIPLOMACY] Influence towards starting and supporting [icon:ENDEAVOR] Endeavors and [icon:SANCTIONS] Sanctions for each [icon:CITYSTATE] Diplomatic [TIP:LOC_PEDIA_CONCEPTS_CITY_STATE_TOOLTIP]City-State[/TIP] you are [TIP:LOC_PEDIA_CONCEPTS_SUZERAIN_TOOLTIP]Suzerain[/TIP] of. -->
@@ -8550,7 +8554,8 @@
 			<Text>น้ำท่วมอีกครั้ง เตรียมดินแดนสำหรับการเติบโตใหม่ ที่นี่อียิปต์จะทำให้โลกต้องเห็นความมหัศจรรย์ที่มันสร้างสรรค์</Text>		<!-- The waters flood again, preparing the lands for new growth. Here Egypt will compel the world to behold the wonders it works. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_INTRO_GREECE" Language="th_TH">
-			<Text>ประชาชนรวมตัวกัน สนทนาเรื่องดนตรีและการเมือง, กวีนิพนธ์และกฎหมาย--พร้อมจินตนาการถึงวิธีสร้างกรีซที่จะยืนยาวหลายชั่วอายุคน</Text>		<!-- The people gather together, debating music and politics, poetry and law&#45;&#45;envisioning how to build a Greece that will last for ages. -->
+			<Text>ผู้คนมาชุมนุมกัน โต้เถียงเรื่องดนตรีและการเมือง กวีนิพนธ์และกฎหมาย แล้วย้อนมองภาพการสร้างกรีซที่จะคงอยู่ตลอดกาล</Text>		<!-- The people gather together, debating music and politics, poetry and law&#45;&#45;envisioning how to build a Greece that will last for ages. -->
+			
 			
 		</Replace>
 		<Replace Tag="LOC_LOADING_INTRO_HAN" Language="th_TH">
@@ -9036,24 +9041,27 @@
 			<Text>เรือแห่งทะเลทราย</Text>		<!-- Ships of the Desert -->
 		</Replace>
 		<Replace Tag="LOC_1072A_STORYTITLE" Language="th_TH">
-			<Text>ยาวและสั้น</Text>		<!-- Long and Short -->
+			<Text>แด่ผู้ซึ่งได้รับเกียรติ</Text>		<!-- To Whom Be the Glory -->
+			
 		</Replace>
 		<Replace Tag="LOC_1072A_COMPLETION" Language="th_TH">
-			<Text>หอกที่มีความยาวสองเท่าของร่างกายมนุษย์ เมื่อชี้ไปยังศัตรูจะล็อกทหารให้อยู่กับที่ - พวกเขาทำได้เพียงเดินหน้า,
-แม้จะเป็นที่ชื่นชอบของผู้บัญชาการ แต่เป็นรูปแบบที่น่ากลัวสำหรับผู้ที่อยู่แถวหน้าของแนวหอกและศัตรูของพวกเขา,
-แต่สำหรับนักรบแล้ว อิสรภาพของการต่อสู้ระยะประชิดด้วยหอกสั้นนั้นไม่มีใครเทียบได้</Text>		<!-- Spears twice the length of a man's body, when pointed toward the enemy, lock soldiers into place - they can do nothing but advance. As appealing as it is to commanders, is a terrifying formation to those in its front ranks of the spear-line as much as to their foes. But to the warriors, the freedom of close combat with a shorter spear is unmatched. -->
+			<Text>ทหารหอกที่เพิ่งระดมพลจากนครรัฐพันธมิตรมีนิสัยน่าหวาดหวั่นคือการตัดด้ามหอกให้สั้นลง อาวุธเหล่านี้เร็วกว่าสามารถบังคับได้คล่องกว่า แต่ถูกออกแบบมาเพื่อการต่อสู้แบบตัวต่อตัว กลยุทธ์นี้ได้ผลดีกับนักรบที่แสวงหาความรุ่งโรจน์ส่วนบุคคล แต่แลกมาด้วยความสามัคคีของยูนิตที่ลดลง</Text>		<!-- Newly recruited spearmen from an allied city-state have a distressing habit of cutting shorter hafts on their spears. The weapons are faster, more maneuverable, but designed for fighting one-on-one. It is a strategy that works well for warriors seeking individual glory but comes at the expense of unit cohesion. -->
+			
 		</Replace>
 		<Replace Tag="LOC_1072B_NAME" Language="th_TH">
-			<Text>วิสัยทัศน์ของผู้บัญชาการนำชัยชนะสู่สนามรบ</Text>		<!-- The commander's vision wins the field. -->
+			<Text>กำหนดอาวุธมาตรฐานและคำสั่งมาตรฐาน, วินัยจะชนะความกระหายเลือด</Text>		<!-- Mandate standard weapons and standard order. Discipline will conquer bloodlust. -->
+			
 		</Replace>
 		<Replace Tag="LOC_1072B_DESCRIPTION" Language="th_TH">
 			<Text>{1_reward} กับพลหอก</Text>		<!-- {1_reward} on Spearman. -->
 		</Replace>
 		<Replace Tag="LOC_1072C_NAME" Language="th_TH">
-			<Text>หอกสั้นกว่าหมายถึงหัวใจที่กล้าหาญกว่า</Text>		<!-- A shorter spear means a braver heart. -->
+			<Text>มอบของรางวัลชิ้นใหญ่ที่สุดให้กับทหารที่ฆ่าได้มากที่สุด</Text>		<!-- Award the best spoils to the soldier with the most kills. -->
+			
 		</Replace>
 		<Replace Tag="LOC_1072C_DESCRIPTION" Language="th_TH">
-			<Text>+1 การสนับสนุนสงครามในทุกสงคราม</Text>		<!-- +1 War Support on all wars. -->
+			<Text>{1_reward} ต่อยูนิตทวนครับ</Text>		<!-- {1_reward} on Spearman. -->
+			
 		</Replace>
 		<Replace Tag="LOC_3B_NAME" Language="th_TH">
 			<Text>เพิกเฉยต่อกลิ่นและเลี้ยงอูฐ</Text>		<!-- Ignore the smell and cultivate camels. -->
@@ -10337,7 +10345,8 @@
 			<Text>เตรียมตัวสู้รบกับมหาอำนาจต่างประเทศ</Text>		<!-- Prepare for war with foreign powers. -->
 		</Replace>
 		<Replace Tag="LOC_3348C_DESCRIPTION" Language="th_TH">
-			<Text>เลื่อนขั้นผู้บัญชาการฟรี</Text>		<!-- Free Commander Promotion. -->
+			<Text>เลื่อนขั้นฟรีให้ผู้บัญชาการทุกนาย</Text>		<!-- Free Promotion for all Commanders. -->
+			
 		</Replace>
 		<Replace Tag="LOC_3349A_STORYTITLE" Language="th_TH">
 			<Text>ตลาดที่กำลังพัฒนา</Text>		<!-- Evolving Markets -->
@@ -16815,7 +16824,8 @@
 			<Text>มือที่เลี้ยงดู</Text>		<!-- The Hand That Feeds -->
 		</Replace>
 		<Replace Tag="LOC_9005A_COMPLETION" Language="th_TH">
-			<Text>ผู้จัดการของแผงขายอาหารเคลื่อนที่ได้ขายไวน์และพายเนื้อให้กับกลุ่มผู้ประท้วงทางการเมือง อย่างไรก็ตาม เครื่องดื่มทำให้ฝูงชนโกรธเคือง -- แผงขายถูกพลิกคว่ำและถูกจุดไฟเผา</Text>		<!-- The manager of a portable food stall has been peddling wines and meat pies to a mob of political protestors. However, the drink riles the crowds up &#45;&#45; the stall is overturned and set ablaze. -->
+			<Text>ผู้จัดการร้านอาหารเคลื่อนที่นำไวน์กับพายเนื้อไปขายให้ฝูงผู้ประท้วงทางการเมือง, เครื่องดื่มกลับยิ่งปลุกเร้าฝูงชนให้โกรธจัด, ร้านถูกคว่ำแล้วจุดไฟเผา</Text>		<!-- The manager of a portable food stall has been peddling wines and meat pies to a mob of political protestors. However, the drink riles the crowds up &#45;&#45; the stall is overturned and set ablaze. -->
+			
 			
 		</Replace>
 		<Replace Tag="LOC_9005B_NAME" Language="th_TH">
