@@ -119,8 +119,7 @@
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 				
-					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-				</UpdateText>
+				<Item locale="th_TH">l10n/th_TH_Text.xml</Item></UpdateText>
 			</Actions>
 		</ActionGroup>
 
@@ -167,6 +166,7 @@
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/age-active.xml</Item>
+					<Item>data/gamecapabilities.xml</Item>
 					<Item>data/ai-modern.xml</Item>
 					<Item>data/advanced-start.xml</Item>
 					<Item>data/advanced-start-gameeffects.xml</Item>
@@ -1070,7 +1070,7 @@
 					<Item>l10n/zh_Hant_HK/wilco_generic_modern_defeat.vtt</Item>
 				</ImportFiles>
 			
-				<ImportFiles locale="th_TH">
+			<ImportFiles locale="th_TH">
 					<Item>l10n/th_TH/wilco_civ_modern_america_defeat.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_modern_america_legacy_culture.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_modern_america_legacy_economic.vtt</Item>
@@ -1139,8 +1139,7 @@
 					<Item>l10n/th_TH/wilco_victory_modern_military.vtt</Item>
 					<Item>l10n/th_TH/wilco_victory_modern_science_alt.vtt</Item>
 					<Item>l10n/th_TH/wilco_victory_modern_science.vtt</Item>
-				</ImportFiles>
-			</Actions>
+				</ImportFiles></Actions>
 		</ActionGroup>
 		<ActionGroup id="age-modern-shell" scope="shell" criteria="always">
 			<Actions>
@@ -1172,8 +1171,7 @@
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 				
-					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-				</UpdateText>
+				<Item locale="th_TH">l10n/th_TH_Text.xml</Item></UpdateText>
 				<UpdateIcons>
 					<Item>data/icons/building-icons.xml</Item>
 					<Item>data/icons/improvement-icons.xml</Item>

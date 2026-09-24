@@ -31,7 +31,7 @@
 			<ModInUse>ada-lovelace</ModInUse>
 		</Criteria>
 		<Criteria id="ada-current-shell">
-			<ModIsEnabled>ada-lovelace</ModIsEnabled>
+			<ModInUse>ada-lovelace</ModInUse>
 		</Criteria>
 		<Criteria id="modern-age-ada">
 			<ModInUse>ada-lovelace</ModInUse>
@@ -41,10 +41,10 @@
 			<ModInUse>edward-teach</ModInUse>
 		</Criteria>
 		<Criteria id="edward-teach-current-shell">
-			<ModIsEnabled>edward-teach</ModIsEnabled>
+			<ModInUse>edward-teach</ModInUse>
 		</Criteria>
 		<Criteria id="pirate-republic-current-shell">
-			<ModIsEnabled>pirate-republic</ModIsEnabled>
+			<ModInUse>pirate-republic</ModInUse>
 		</Criteria>
 		<Criteria id="modern-age-edward-teach">
 			<ModInUse>edward-teach</ModInUse>
@@ -171,15 +171,14 @@
 					<Item>l10n/zh_Hant_HK/wilco_civ_modern_britain_legacy_science.vtt</Item>
 				</ImportFiles>
 			
-				<ImportFiles locale="th_TH">
+			<ImportFiles locale="th_TH">
 					<Item>l10n/th_TH/loading_civ_modern_britain.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_modern_britain_defeat.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_modern_britain_legacy_culture.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_modern_britain_legacy_economic.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_modern_britain_legacy_military.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_modern_britain_legacy_science.vtt</Item>
-				</ImportFiles>
-			</Actions>
+				</ImportFiles></Actions>
 		</ActionGroup>
 		<ActionGroup id="great-britain-text" scope="game" criteria="always">
 			<Actions>
@@ -215,8 +214,7 @@
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 				
-					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-				</UpdateText>
+				<Item locale="th_TH">l10n/th_TH_Text.xml</Item></UpdateText>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="base-game-main-great-britain" scope="game" criteria="always">
@@ -363,8 +361,7 @@
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 				
-					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-				</UpdateText>
+				<Item locale="th_TH">l10n/th_TH_Text.xml</Item></UpdateText>
 			</Actions>
 		</ActionGroup>
 	</ActionGroups>

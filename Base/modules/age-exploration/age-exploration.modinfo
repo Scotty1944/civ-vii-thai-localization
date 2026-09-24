@@ -98,8 +98,7 @@
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 				
-					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-				</UpdateText>
+				<Item locale="th_TH">l10n/th_TH_Text.xml</Item></UpdateText>
 			</Actions>
 		</ActionGroup>
 		<!--NOTE: We should try and reduce the age specific text as much as possible as this requires extra changes when batching translations. -->
@@ -137,6 +136,7 @@
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/ai-shared.xml</Item>
+					<Item>data/civilizations-legacy.xml</Item>
 					<Item>data/civilizations-shared-gameeffects.xml</Item>
 					<Item>data/civilizations-shared.xml</Item>
 					<Item>data/constructibles-shared.xml</Item>
@@ -256,7 +256,6 @@
 					<Item>data/progression-trees-culture-unique-aq.xml</Item>
 					<Item>data/progression-trees-culture-unique-aq-gameeffects.xml</Item>
 					<Item>data/civilizations-antiquity.xml</Item>
-					<Item>data/civilizations-legacy.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -265,7 +264,6 @@
 				<UpdateDatabase>
 					<Item>data/civilizations-gameeffects.xml</Item>
 					<Item>data/civilizations-exploration.xml</Item>
-					<Item>data/civilizations-legacy.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -275,7 +273,6 @@
 					<Item>data/progression-trees-culture-unique-mo.xml</Item>
 					<Item>data/progression-trees-culture-unique-mo-gameeeffects.xml</Item>
 					<Item>data/civilizations-modern.xml</Item>
-					<Item>data/civilizations-legacy.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -1021,7 +1018,7 @@
 					<Item>l10n/zh_Hant_HK/wilco_victory_exploration_science.vtt</Item>
 				</ImportFiles>
 			
-				<ImportFiles locale="th_TH">
+			<ImportFiles locale="th_TH">
 					<Item>l10n/th_TH/wilco_civ_exploration_abbasid_defeat_alt.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_exploration_abbasid_defeat.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_exploration_abbasid_legacy_culture_alt.vtt</Item>
@@ -1086,8 +1083,7 @@
 					<Item>l10n/th_TH/wilco_victory_exploration_military.vtt</Item>
 					<Item>l10n/th_TH/wilco_victory_exploration_science_alt.vtt</Item>
 					<Item>l10n/th_TH/wilco_victory_exploration_science.vtt</Item>
-				</ImportFiles>
-			</Actions>
+				</ImportFiles></Actions>
 		</ActionGroup>
 		<ActionGroup id="age-exploration-shell" scope="shell" criteria="always">
 			<Actions>
@@ -1118,8 +1114,7 @@
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 				
-					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-				</UpdateText>
+				<Item locale="th_TH">l10n/th_TH_Text.xml</Item></UpdateText>
 				<UpdateIcons>
 					<Item>data/icons/building-icons.xml</Item>
 					<Item>data/icons/improvement-icons.xml</Item>

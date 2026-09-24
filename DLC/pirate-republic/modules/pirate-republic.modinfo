@@ -26,7 +26,7 @@
 			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
 		<Criteria id="carthage-current-shell">
-			<ModIsEnabled>carthage</ModIsEnabled>
+			<ModInUse>carthage</ModInUse>
 		</Criteria>
 		<Criteria id="antiquity-age-carthage">
 			<ModInUse>carthage</ModInUse>
@@ -40,7 +40,7 @@
 			<ModInUse>edward-teach</ModInUse>
 		</Criteria>
 		<Criteria id="edward-teach-current-shell">
-			<ModIsEnabled>edward-teach</ModIsEnabled>
+			<ModInUse>edward-teach</ModInUse>
 		</Criteria>
 		<Criteria id="exploration-age-sayyida-al-hurra">
 			<ModInUse>sayyida-al-hurra</ModInUse>
@@ -50,7 +50,7 @@
 			<ModInUse>sayyida-al-hurra</ModInUse>
 		</Criteria>
 		<Criteria id="sayyida-al-hurra-current-shell">
-			<ModIsEnabled>sayyida-al-hurra</ModIsEnabled>
+			<ModInUse>sayyida-al-hurra</ModInUse>
 		</Criteria>
 		<Criteria id="exploration-age-great-britain">
 			<ModInUse>great-britain</ModInUse>
@@ -176,15 +176,14 @@
 					<Item>l10n/zh_Hant_HK/wilco_civ_exploration_pirates_legacy_science.vtt</Item>
 				</ImportFiles>
 			
-				<ImportFiles locale="th_TH">
+			<ImportFiles locale="th_TH">
 					<Item>l10n/th_TH/loading_civ_exploration_pirates.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_exploration_pirates_defeat.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_exploration_pirates_legacy_culture.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_exploration_pirates_legacy_economic.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_exploration_pirates_legacy_military.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_exploration_pirates_legacy_science.vtt</Item>
-				</ImportFiles>
-			</Actions>
+				</ImportFiles></Actions>
 		</ActionGroup>
 		<ActionGroup id="pirate-republic-text" scope="game" criteria="always">
 			<Actions>
@@ -220,8 +219,7 @@
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 				
-					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-				</UpdateText>
+				<Item locale="th_TH">l10n/th_TH_Text.xml</Item></UpdateText>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="base-game-main-pirate-republic" scope="game" criteria="always">
@@ -424,8 +422,7 @@
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 				
-					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-				</UpdateText>
+				<Item locale="th_TH">l10n/th_TH_Text.xml</Item></UpdateText>
 			</Actions>
 		</ActionGroup>
 	</ActionGroups>

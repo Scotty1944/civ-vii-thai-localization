@@ -28,7 +28,7 @@
 			<ModInUse>sayyida-al-hurra</ModInUse>
 		</Criteria>
 		<Criteria id="sayyida-current-shell">
-			<ModIsEnabled>sayyida-al-hurra</ModIsEnabled>
+			<ModInUse>sayyida-al-hurra</ModInUse>
 		</Criteria>
 		<Criteria id="modern-age-sayyida">
 			<ModInUse>sayyida-al-hurra</ModInUse>
@@ -38,19 +38,19 @@
 			<ModInUse>gilgamesh</ModInUse>
 		</Criteria>
 		<Criteria id="gilgamesh-current-shell">
-			<ModIsEnabled>gilgamesh</ModIsEnabled>
+			<ModInUse>gilgamesh</ModInUse>
 		</Criteria>
 		<Criteria id="alexander-current">
 			<ModInUse>alexander</ModInUse>
 		</Criteria>
 		<Criteria id="alexander-current-shell">
-			<ModIsEnabled>alexander</ModIsEnabled>
+			<ModInUse>alexander</ModInUse>
 		</Criteria>
 		<Criteria id="carthage-current">
 			<ModInUse>carthage</ModInUse>
 		</Criteria>
 		<Criteria id="carthage-current-shell">
-			<ModIsEnabled>carthage</ModIsEnabled>
+			<ModInUse>carthage</ModInUse>
 		</Criteria>
 		<Criteria id="modern-age-gilgamesh">
 			<ModInUse>gilgamesh</ModInUse>
@@ -181,15 +181,14 @@
 					<Item>l10n/zh_Hant_HK/wilco_civ_modern_ottomans_legacy_science.vtt</Item>
 				</ImportFiles>
 			
-				<ImportFiles locale="th_TH">
+			<ImportFiles locale="th_TH">
 					<Item>l10n/th_TH/loading_civ_modern_ottomans.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_modern_ottomans_defeat.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_modern_ottomans_legacy_culture.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_modern_ottomans_legacy_economic.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_modern_ottomans_legacy_military.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_modern_ottomans_legacy_science.vtt</Item>
-				</ImportFiles>
-			</Actions>
+				</ImportFiles></Actions>
 		</ActionGroup>
 		<ActionGroup id="ottomans-text" scope="game" criteria="always">
 			<Actions>
@@ -225,8 +224,7 @@
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 				
-					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-				</UpdateText>
+				<Item locale="th_TH">l10n/th_TH_Text.xml</Item></UpdateText>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="base-game-main-ottomans" scope="game" criteria="always">
@@ -416,8 +414,7 @@
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 				
-					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-				</UpdateText>
+				<Item locale="th_TH">l10n/th_TH_Text.xml</Item></UpdateText>
 			</Actions>
 		</ActionGroup>
 	</ActionGroups>

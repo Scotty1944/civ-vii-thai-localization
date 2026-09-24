@@ -91,90 +91,18 @@
 					<Item ecosystem="game-center">text/en_us/MPSharedText_ConnectionLost_AppleArcade.xml</Item>
 					<Item ecosystem="game-center">text/en_us/UIShellText_Multiplayer_AppleArcade.xml</Item>
 				
-					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-				</UpdateText>
+				<Item locale="th_TH">l10n/th_TH_Text.xml</Item></UpdateText>
 
 				<UIAudioRules>
 					<Item>ui-next/audio-rules.json</Item>
 				</UIAudioRules>
 
 				<UIScripts>
-					<Item>ui/accessibility/tts-manager.js</Item>
-					<Item>ui/components/index.js</Item>
-					<Item>ui/dialog-box/screen-dialog-box.js</Item>
-					<Item>ui/mouse-guard/mouse-guard.js</Item>
-					<Item>ui/modding-registry-handler/modding-registry-handler.js</Item>
-					<Item>ui/mp-chat/screen-mp-chat.js</Item>
-					<Item>ui/mp-chat/emoticon-panel.js</Item>
-					<Item>ui/mp-chat/send-to-panel.js</Item>
-					<Item>ui/navigation-tray/navigation-tray.js</Item>
-					<Item>ui/options/screen-options.js</Item>
-					<Item>ui/parts/hex-border/hex-border.js</Item>
-					<Item>ui/profile-header/profile-header.js</Item>
-					<Item>ui/profile-page/screen-profile-page.js</Item>
-					<Item>ui/progression-badge/progression-badge.js</Item>
-					<Item>ui/progression-header/progression-header.js</Item>
-					<Item>ui/progression-portrait/progression-portrait.js</Item>
-					<Item>ui/save-load/screen-save-load.js</Item>
-					<Item>ui/save-load/leader-icon.js</Item>
-					<Item>ui/save-load/civ-icon.js</Item>
-					<Item>ui/save-load/save-load-card.js</Item>
-					<Item>ui/save-load/save-load-chooser-item.js</Item>
-					<Item>ui/system-message/screen-system-message.js</Item>
-					<Item>ui/shell/additional-content/screen-additional-content.js</Item>
-					<Item>ui/shell/age-transition/civilization-info-tooltip.js</Item>
-					<Item>ui/shell/age-transition/age-transition-civ-card.js</Item>
-					<Item>ui/shell/age-transition/age-transition-civ-select.js</Item>
-					<Item>ui/shell/civ-select/civ-button/civ-button.js</Item>
-					<Item>ui/shell/collection/collection-content.js</Item>
-					<Item>ui/shell/create-panels/memento-editor.js</Item>
-					<Item>ui/shell/create-panels/memento-slot.js</Item>
-					<Item>ui/shell/events/screen-events.js</Item>
-					<Item>ui/shell/gift-notifications/giftbox-popup.js</Item>
-					<Item>ui/shell/mods-content/mods-content.js</Item>
-					<Item>ui/shell/extras/screen-extras.js</Item>
-					<Item>ui/shell/leader-select/leader-button/leader-button.js</Item>
-					<Item>ui/shell/main-menu/main-menu.js</Item>
-					<Item>ui/shell/main-menu/main-menu-carousel-model.js</Item>
-					<Item>ui/shell/main-menu/main-menu-carousel.js</Item>
-					<Item>ui/shell/main-menu/main-menu-background.js</Item>
-					<Item>ui/shell/mp-legal/mp-legal.js</Item>
-					<Item>ui/shell/mp-link-account/mp-link-account.js</Item>
-					<Item>ui/shell/mp-account-permissions/mp-account-permissions.js</Item>
-					<Item>ui/shell/mp-primary-account-select/mp-primary-account-select.js</Item>
-					<Item>ui/shell/credits/screen-credits.js</Item>
-					<Item>ui/shell/mp-browser/mp-browser-new.js</Item>
-					<Item>ui/shell/mp-browser/mp-browser-chooser-item.js</Item>
-					<Item>ui/shell/mp-landing/mp-landing-new.js</Item>
-					<Item>ui/shell/mp-additional-content/mp-additional-content.js</Item>
-					<Item>ui/shell/mp-staging/mp-staging-new.js</Item>
-					<Item>ui/shell/mp-staging/mp-staging-player-info-card.js</Item>
-					<Item>ui/shell/mp-staging/mp-staging-playerinfocard-dropdown.js</Item>
-					<Item>ui/shell/mp-staging/mp-staging-dropdown.js</Item>
-					<Item>ui/shell/mp-staging/mp-staging-leader-dropdown.js</Item>
-					<Item>ui/shell/mp-staging/mp-staging-team-dropdown.js</Item>
-					<Item>ui/shell/mp-staging/mp-player-options.js</Item>
-					<Item>ui/shell/mp-staging/mp-game-rules.js</Item>
-					<Item>ui/shell/mp-staging/mp-friends.js</Item>
-					<Item>ui/shell/mp-staging/mp-friends-options.js</Item>
-					<Item>ui/shell/mp-staging/mp-search.js</Item>
-					<Item>ui/shell/mp-staging/mp-report.js</Item>
-					<Item>ui/shell/mp-create-game/mp-create-game.js</Item>
-					<Item>ui/shell/mp-game-mode/mp-game-mode.js</Item>
-					<Item>ui/shell/oob-experience/oob-experience-mgr.js</Item>
-					<Item>ui/shell/popup/popup.js</Item>
-					<Item>ui/shell/store-launcher/screen-store-launcher.js</Item>
-					<Item>ui/shell/store-launcher/2k-code-redemption.js</Item>
-					<Item>ui/shell/shell-components/icon-dropdown.js</Item>
-					<Item>ui/shell/store-launcher/screen-dlc-viewer.js</Item>
-					<Item>ui/shell/sync-conflict/sync-conflict.js</Item>
-					<Item>ui/utilities/utilities-liveops.js</Item>
-					<Item>ui/shell/odr-download/odr-download.js</Item>
-					<Item>ui/shell/screen-movie/screen-movie.js</Item>
-					<Item>ui-next/screens/create-game/create-game-screen.js</Item>
+					<Item>ui/module-shell.js</Item>
 				</UIScripts>
 
 				<UIShortcuts>
+					<Item>ui/debug/asian-font.html</Item>
 					<Item>ui/debug/html-preview.html</Item>
 					<Item>ui/debug/stylized-markup-text.html</Item>
 					<Item>ui/reference/icon-browser.html</Item>
@@ -264,10 +192,10 @@
 
 					<Item ecosystem="game-center">text/en_us/InputText_CenterCursor_AppleArcade.xml</Item>
 				
-					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-				</UpdateText>
+				<Item locale="th_TH">l10n/th_TH_Text.xml</Item></UpdateText>
 
 				<UIShortcuts>
+					<Item>ui/debug/asian-font.html</Item>
 					<Item>ui/debug/html-preview.html</Item>
 					<Item>ui/debug/stylized-markup-text.html</Item>
 					<Item>ui/reference/icon-browser.html</Item>
@@ -293,56 +221,7 @@
 				</UIAudioRules>
 
 				<UIScripts>
-					<Item>ui/accessibility/tts-manager.js</Item>
-					<Item>ui/camera/camera-controller.js</Item>
-					<Item>ui/components/index.js</Item>
-					<Item>ui/context-manager/context-manager.js</Item>
-					<Item>ui/context-manager/display-queue-manager.js</Item>
-					<Item>ui/dialog-box/screen-dialog-box.js</Item>
-					<Item>ui/input/action-handler.js</Item>
-					<Item>ui/input/cursor.js</Item>
-					<Item>ui-next/services/focus-manager.js</Item>
-					<Item>ui/input/plot-cursor.js</Item>
-					<Item>ui/interface-modes/interface-modes.js</Item>
-					<Item>ui/mouse-guard/mouse-guard.js</Item>
-					<Item>ui/mp-chat/screen-mp-chat.js</Item>
-					<Item>ui/mp-chat/emoticon-panel.js</Item>
-					<Item>ui/mp-chat/send-to-panel.js</Item>
-					<Item>ui/navigation-tray/navigation-tray.js</Item>
-					<Item>ui/options/screen-options.js</Item>
-					<Item>ui/plot-icons/plot-icons-manager.js</Item>
-					<Item>ui/plot-icons/plot-icons-root.js</Item>
-					<Item>ui/plot-icons/plot-icons.js</Item>
-					<Item>ui/parts/hex-border/hex-border.js</Item>
-					<Item>ui/profile-header/profile-header.js</Item>
-					<Item>ui/profile-page/screen-profile-page.js</Item>
-					<Item>ui/progression-badge/progression-badge.js</Item>
-					<Item>ui/progression-header/progression-header.js</Item>
-					<Item>ui/progression-portrait/progression-portrait.js</Item>
-					<Item>ui/radial-dock/panel-radial-dock.js</Item>
-					<Item>ui/radial-menu/model-radial-menu.js</Item>
-					<Item>ui/radial-menu/panel-radial-menu.js</Item>
-					<Item>ui/save-load/screen-save-load.js</Item>
-					<Item>ui/shell/sync-conflict/sync-conflict.js</Item>
-					<Item>ui/save-load/leader-icon.js</Item>
-					<Item>ui/save-load/civ-icon.js</Item>
-					<Item>ui/save-load/save-load-card.js</Item>
-					<Item>ui/social-notifications/social-notifications-manager.js</Item>
-					<Item>ui/save-load/save-load-chooser-item.js</Item>
-					<Item>ui/shell/civ-select/civ-button/civ-button.js</Item>
-					<Item>ui/spatial/spatial-manager.js</Item>
-					<Item>ui/system-message/screen-system-message.js</Item>
-					<Item>ui/tooltips/default-tooltip.js</Item>
-					<Item>ui/tooltips/tooltip-manager.js</Item>
-					<Item>ui/shell/create-panels/advanced-options-panel.js</Item>
-					<Item>ui/shell/mp-staging/mp-friends.js</Item>
-					<Item>ui/shell/mp-staging/mp-friends-options.js</Item>
-					<Item>ui/shell/mp-staging/mp-search.js</Item>
-					<Item>ui/shell/mp-staging/mp-report.js</Item>
-					<Item>ui/shell/mp-link-account/mp-link-account.js</Item>
-					<Item>ui/shell/mp-account-permissions/mp-account-permissions.js</Item>
-					<Item>ui/shell/mp-primary-account-select/mp-primary-account-select.js</Item>
-					<Item>ui/shell/shell-components/icon-dropdown.js</Item>
+					<Item>ui/module.js</Item>
 				</UIScripts>
 			</Actions>
 		</ActionGroup>
