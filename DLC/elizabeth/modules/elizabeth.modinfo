@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="elizabeth" version="1"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>LOC_MODULE_ELIZABETH_NAME</Name>
+		<Description>LOC_MODULE_ELIZABETH_DESCRIPTION</Description>
+		<Authors>LOC_AUTHORS_FIRAXIS</Authors>
+		<EnabledByDefault>1</EnabledByDefault>
+		<Package>Echidna</Package>
+	</Properties>
+	<Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+	</Dependencies>
+	<ActionCriteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-current">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-current">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="carthage-current-shell">
+			<ModInUse>carthage</ModInUse>
+		</Criteria>
+		<Criteria id="any-age-carthage">
+			<ModInUse>carthage</ModInUse>
+		</Criteria>
+		<Criteria id="pirate-republic-current-shell">
+			<ModInUse>pirate-republic</ModInUse>
+		</Criteria>
+		<Criteria id="any-age-pirate-republic">
+			<ModInUse>pirate-republic</ModInUse>
+		</Criteria>
+		<Criteria id="great-britain-current-shell">
+			<ModInUse>great-britain</ModInUse>
+		</Criteria>
+		<Criteria id="any-age-great-britain">
+			<ModInUse>great-britain</ModInUse>
+		</Criteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<ActionGroup id="base-game-main-elizabeth" scope="game" criteria="always">
+			<Actions>
+				<UpdateIcons>
+					<Item>data/icons/leader-icons.xml</Item>
+				</UpdateIcons>
+				<UpdateArt>
+					<Item>elizabeth-shell</Item>
+					<Item>elizabeth</Item>
+				</UpdateArt>
+				<UpdateColors>
+					<Item>data/playercolors.xml</Item>
+				</UpdateColors>
+				<UpdateDatabase>
+					<Item>data/civilizations-legacy.xml</Item>
+					<Item>data/civilizations-shared.xml</Item>
+					<Item>data/leaders.xml</Item>
+					<Item>data/leaders-gameeffects.xml</Item>
+					<Item>data/loading-info.xml</Item>
+					<Item>data/mementos.xml</Item>
+					<Item>data/mementos-gameeffects.xml</Item>
+					<Item>data/metaprogression-gameeffects.xml</Item>
+					<Item>data/metaprogression.xml</Item>
+					<Item>data/narrative-stories-gameeffects.xml</Item>
+					<Item>data/narrative-stories-gameeffects-common.xml</Item>
+					<Item>data/narrative-stories.xml</Item>
+					<Item>data/narrative-tags.xml</Item>
+					<Item>data/unlocks.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
+					<Item>data/progression-trees-common-gameeffects.xml</Item>
+					<Item>data/progression-trees-common.xml</Item>
+					<Item>data/movies.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/AttributesText.xml</Item>
+					<Item>text/en_us/LeaderText.xml</Item>
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
+					<Item>text/en_us/MementoText.xml</Item>
+					<Item>text/en_us/ModuleText.xml</Item>
+					<Item>text/en_us/NarrativeStoriesText.xml</Item>
+					<Item>text/en_us/ProfileText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/en_us/UnlockableRewardsText.xml</Item>
+					<Item>text/en_us/LeaderDialog_Elizabeth.xml</Item>
+					<Item>text/en_us/CivilopediaText.xml</Item>
+
+					<!-- Items below were generated via our loc tool. -->
+					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
+					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
+					<Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>
+					<Item locale="it_IT">l10n/it_IT_Text.xml</Item>
+					<Item locale="ja_JP">l10n/ja_JP_Text.xml</Item>
+					<Item locale="ko_KR">l10n/ko_KR_Text.xml</Item>
+					<Item locale="pl_PL">l10n/pl_PL_Text.xml</Item>
+					<Item locale="pt_BR">l10n/pt_BR_Text.xml</Item>
+					<Item locale="ru_RU">l10n/ru_RU_Text.xml</Item>
+					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
+					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
+				</UpdateText>
+
+				<ImportFiles locale="de_DE">
+					<Item>l10n/de_DE/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="es_ES">
+					<Item>l10n/es_ES/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="fr_FR">
+					<Item>l10n/fr_FR/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="it_IT">
+					<Item>l10n/it_IT/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="ja_JP">
+					<Item>l10n/ja_JP/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="ko_KR">
+					<Item>l10n/ko_KR/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="pl_PL">
+					<Item>l10n/pl_PL/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="pt_BR">
+					<Item>l10n/pt_BR/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="ru_RU">
+					<Item>l10n/ru_RU/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="zh_Hans_CN">
+					<Item>l10n/zh_Hans_CN/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="zh_Hant_HK">
+					<Item>l10n/zh_Hant_HK/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+				<UpdateIcons>
+					<Item>data/icons/card-icons.xml</Item>
+				</UpdateIcons>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-antiquity-current" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateArt>
+					<Item>elizabeth</Item>
+				</UpdateArt>
+				<UpdateDatabase>
+					<Item>data/narrative-stories-gameeffects-antiquity.xml</Item>
+					<Item>data/narrative-stories-antiquity.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-exploration-current" scope="game" criteria="exploration-age-current">
+			<Actions>
+				<UpdateArt>
+					<Item>elizabeth-shell</Item>
+					<Item>elizabeth</Item>
+				</UpdateArt>
+				<UpdateDatabase>
+					<Item>data/age-transition-advanced-start-exploration.xml</Item>
+					<Item>data/narrative-stories-gameeffects-exploration.xml</Item>
+					<Item>data/narrative-stories-exploration.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/AdvancedStartText-exploration.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-modern-current" scope="game" criteria="modern-age-current">
+			<Actions>
+				<UpdateArt>
+					<Item>elizabeth-shell</Item>
+					<Item>elizabeth</Item>
+				</UpdateArt>
+				<UpdateDatabase>
+					<Item>data/age-transition-advanced-start-modern.xml</Item>
+					<Item>data/narrative-stories-gameeffects-modern.xml</Item>
+					<Item>data/narrative-stories-modern.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/AdvancedStartText-modern.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-any-elizabeth-carthage" scope="game" criteria="any-age-carthage">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-carthage.xml</Item>
+					<Item>data/unlocks-carthage.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-elizabeth-carthage" scope="shell" criteria="carthage-current-shell">
+			<Actions>
+				<UpdateDatabase>
+					<Item>config/config-carthage.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-any-elizabeth-pirate-republic" scope="game" criteria="any-age-pirate-republic">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-pirate-republic.xml</Item>
+					<Item>data/unlocks-pirate-republic.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-elizabeth-pirate-republic" scope="shell" criteria="pirate-republic-current-shell">
+			<Actions>
+				<UpdateDatabase>
+					<Item>config/config-pirate-republic.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-any-elizabeth-great-britain" scope="game" criteria="any-age-great-britain">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-great-britain.xml</Item>
+					<Item>data/unlocks-great-britain.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-elizabeth-great-britain" scope="shell" criteria="great-britain-current-shell">
+			<Actions>
+				<UpdateDatabase>
+					<Item>config/config-great-britain.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-elizabeth" scope="shell" criteria="always">
+			<Actions>
+				<UpdateIcons>
+					<Item>data/icons/leader-icons.xml</Item>
+				</UpdateIcons>
+				<UpdateArt>
+					<Item>elizabeth-shell</Item>
+				</UpdateArt>
+				<UpdateColors>
+					<Item>data/playercolors.xml</Item>
+				</UpdateColors>
+				<UpdateDatabase>
+					<Item>config/config.xml</Item>
+					<Item>config/metaprogression.xml</Item>
+					<Item>config/unlockableRewards.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/LeaderText.xml</Item>
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/LeaderDialog_Elizabeth.xml</Item>
+					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
+					<Item>text/en_us/MementoText.xml</Item>
+					<Item>text/en_us/ModuleText.xml</Item>
+					<Item>text/en_us/ProfileText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/en_us/UnlockableRewardsText.xml</Item>
+					<Item>text/en_us/CivilopediaText.xml</Item>
+
+					<!-- Items below were generated via our loc tool. -->
+					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
+					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
+					<Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>
+					<Item locale="it_IT">l10n/it_IT_Text.xml</Item>
+					<Item locale="ja_JP">l10n/ja_JP_Text.xml</Item>
+					<Item locale="ko_KR">l10n/ko_KR_Text.xml</Item>
+					<Item locale="pl_PL">l10n/pl_PL_Text.xml</Item>
+					<Item locale="pt_BR">l10n/pt_BR_Text.xml</Item>
+					<Item locale="ru_RU">l10n/ru_RU_Text.xml</Item>
+					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
+					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
+				</UpdateText>
+				<ImportFiles locale="de_DE">
+					<Item>l10n/de_DE/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="es_ES">
+					<Item>l10n/es_ES/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="fr_FR">
+					<Item>l10n/fr_FR/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="it_IT">
+					<Item>l10n/it_IT/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="ja_JP">
+					<Item>l10n/ja_JP/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="ko_KR">
+					<Item>l10n/ko_KR/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="pl_PL">
+					<Item>l10n/pl_PL/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="pt_BR">
+					<Item>l10n/pt_BR/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="ru_RU">
+					<Item>l10n/ru_RU/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="zh_Hans_CN">
+					<Item>l10n/zh_Hans_CN/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+
+				<ImportFiles locale="zh_Hant_HK">
+					<Item>l10n/zh_Hant_HK/wilco_leader_elizabeth.vtt</Item>
+				</ImportFiles>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+	<LocalizedText>
+		<File>text/en_us/ModuleText.xml</File>
+		<File>l10n/ModuleText.xml</File>
+	</LocalizedText>
+</Mod>

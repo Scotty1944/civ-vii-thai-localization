@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="england" version="1"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>LOC_MODULE_ENGLAND_NAME</Name>
+		<Description>LOC_MODULE_ENGLAND_DESCRIPTION</Description>
+		<Authors>LOC_AUTHORS_FIRAXIS</Authors>
+		<EnabledByDefault>1</EnabledByDefault>
+		<Package>Echidna</Package>
+	</Properties>
+	<Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME" />
+	</Dependencies>
+	<ActionCriteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-current">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-current">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-persist" any="true">
+			<AgeAtOrBefore>AGE_EXPLORATION</AgeAtOrBefore>
+		</Criteria>
+		<Criteria id="elizabeth-current">
+			<ModInUse>elizabeth</ModInUse>
+		</Criteria>
+		<Criteria id="elizabeth-current-shell">
+			<ModIsEnabled>elizabeth</ModIsEnabled>
+		</Criteria>
+		<Criteria id="edward-teach-current">
+			<ModInUse>edward-teach</ModInUse>
+		</Criteria>
+		<Criteria id="edward-teach-current-shell">
+			<ModInUse>edward-teach</ModInUse>
+		</Criteria>
+		<Criteria id="ada-lovelace-current">
+			<ModInUse>ada-lovelace</ModInUse>
+		</Criteria>
+		<Criteria id="ada-lovelace-current-shell">
+			<ModInUse>ada-lovelace</ModInUse>
+		</Criteria>
+		<Criteria id="great-britain-current-shell">
+			<ModInUse>great-britain</ModInUse>
+		</Criteria>
+		<Criteria id="great-britain-current">
+			<ModInUse>great-britain</ModInUse>
+		</Criteria>
+		<Criteria id="gaul-current-shell">
+			<ModInUse>gaul</ModInUse>
+		</Criteria>
+		<Criteria id="gaul-current">
+			<ModInUse>gaul</ModInUse>
+		</Criteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<ActionGroup id="england-art" scope="game" criteria="always">
+			<Actions>
+				<UpdateArt>
+					<Item>england</Item>
+					<Item>england-shell</Item>
+				</UpdateArt>
+				<UpdateIcons>
+					<Item>data/icons/icons.xml</Item>
+				</UpdateIcons>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="england-movies" scope="game" criteria="always">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/movies.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="england-text" scope="game" criteria="always">
+			<Actions>
+				<UpdateText>
+					<Item>text/en_us/CitizenNamesText.xml</Item>
+					<Item>text/en_us/CityNamesText.xml</Item>
+					<Item>text/en_us/CivilizationLegacyText.xml</Item>
+					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/CivilopediaText.xml</Item>
+					<Item>text/en_us/ConstructibleText.xml</Item>
+					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
+					<Item>text/en_us/ModuleText.xml</Item>
+					<Item>text/en_us/NamedPlacesText.xml</Item>
+					<Item>text/en_us/NarrativeStoriesText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>
+
+					<!-- Items below were generated via our loc tool. -->
+					<Item>l10n/ModuleText.xml</Item>
+					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
+					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
+					<Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>
+					<Item locale="it_IT">l10n/it_IT_Text.xml</Item>
+					<Item locale="ja_JP">l10n/ja_JP_Text.xml</Item>
+					<Item locale="ko_KR">l10n/ko_KR_Text.xml</Item>
+					<Item locale="pl_PL">l10n/pl_PL_Text.xml</Item>
+					<Item locale="pt_BR">l10n/pt_BR_Text.xml</Item>
+					<Item locale="ru_RU">l10n/ru_RU_Text.xml</Item>
+					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
+					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
+				</UpdateText>
+				<ImportFiles locale="de_DE">
+					<Item>l10n/de_DE/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/de_DE/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/de_DE/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/de_DE/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/de_DE/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/de_DE/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="es_ES">
+					<Item>l10n/es_ES/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/es_ES/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/es_ES/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/es_ES/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/es_ES/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/es_ES/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="fr_FR">
+					<Item>l10n/fr_FR/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/fr_FR/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/fr_FR/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/fr_FR/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/fr_FR/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/fr_FR/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="it_IT">
+					<Item>l10n/it_IT/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/it_IT/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/it_IT/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/it_IT/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/it_IT/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/it_IT/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="ja_JP">
+					<Item>l10n/ja_JP/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/ja_JP/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/ja_JP/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/ja_JP/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/ja_JP/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/ja_JP/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="ko_KR">
+					<Item>l10n/ko_KR/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/ko_KR/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/ko_KR/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/ko_KR/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/ko_KR/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/ko_KR/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="pl_PL">
+					<Item>l10n/pl_PL/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/pl_PL/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/pl_PL/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/pl_PL/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/pl_PL/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/pl_PL/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="pt_BR">
+					<Item>l10n/pt_BR/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/pt_BR/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/pt_BR/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/pt_BR/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/pt_BR/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/pt_BR/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="ru_RU">
+					<Item>l10n/ru_RU/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/ru_RU/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/ru_RU/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/ru_RU/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/ru_RU/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/ru_RU/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="zh_Hans_CN">
+					<Item>l10n/zh_Hans_CN/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/zh_Hans_CN/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/zh_Hans_CN/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/zh_Hans_CN/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/zh_Hans_CN/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/zh_Hans_CN/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="zh_Hant_HK">
+					<Item>l10n/zh_Hant_HK/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/zh_Hant_HK/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/zh_Hant_HK/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/zh_Hant_HK/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/zh_Hant_HK/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/zh_Hant_HK/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-england" scope="game" criteria="always">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/citizen-names.xml</Item>
+					<Item>data/civilizations-legacy.xml</Item>
+					<Item>data/civilizations-shared.xml</Item>
+					<Item>data/civilizations-gameeffects-shared.xml</Item>
+					<Item>data/loading-info.xml</Item>
+					<Item>data/metaprogression.xml</Item>
+					<Item>data/metaprogression-gameeffects.xml</Item>
+					<Item>data/named-places.xml</Item>
+					<Item>data/narrative-stories-common-gameeffects.xml</Item>
+					<Item>data/narrative-tags.xml</Item>
+					<Item>data/narrative-stories-gameeffects.xml</Item>
+					<Item>data/traditions.xml</Item>
+					<Item>data/traditions-gameeffects.xml</Item>
+					<Item>data/unlocks-base-standard.xml</Item>
+					<Item>data/unlocks-antiquity.xml</Item>
+					<Item>data/unlocks-exploration.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
+					<Item>data/victories.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="england-gameplay-antiquity" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-antiquity.xml</Item>
+					<Item>data/narrative-stories-gameeffects-antiquity.xml</Item>
+					<Item>data/narrative-stories-antiquity.xml</Item>
+					<Item>data/progression-trees-culture-unique-aq.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="england-gameplay-exploration" scope="game" criteria="exploration-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-exploration.xml</Item>
+					<Item>data/civilizations-gameeffects.xml</Item>
+					<Item>data/greatworks.xml</Item>
+					<Item>data/narrative-display.xml</Item>
+					<Item>data/narrative-stories-gameeffects-exploration.xml</Item>
+					<Item>data/narrative-stories-exploration.xml</Item>
+					<Item>data/progression-trees-tech.xml</Item>
+					<Item>data/progression-trees-culture-unique.xml</Item>
+					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>
+					<Item>data/units.xml</Item>
+					<Item>data/units-gameeffects.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-exploration-persist-england" scope="game" criteria="exploration-age-persist">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/constructibles.xml</Item>
+					<Item>data/constructibles-gameeffects.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="england-gameplay-modern" scope="game" criteria="modern-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-modern.xml</Item>
+					<Item>data/narrative-stories-gameeffects-modern.xml</Item>
+					<Item>data/narrative-stories-modern.xml</Item>
+					<Item>data/progression-trees-culture-unique-mo.xml</Item>
+
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-elizabeth" scope="game" criteria="elizabeth-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-elizabeth.xml</Item>
+					<Item>data/unlocks-elizabeth.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-elizabeth" scope="shell" criteria="elizabeth-current-shell">
+			<Actions>
+				<UpdateDatabase>
+					<Item>config/config-elizabeth.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="england-gaul" scope="game" criteria="gaul-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/unlocks-gaul.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="england-great-britain" scope="game" criteria="great-britain-curret">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/unlocks-great-britain.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-england-ada-lovelace" scope="game" criteria="ada-lovelace-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-ada-lovelace.xml</Item>
+					<Item>data/unlocks-ada-lovelace.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-england-edward-teach" scope="game" criteria="edward-teach-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-edward-teach.xml</Item>
+					<Item>data/unlocks-edward-teach.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-england-gaul" scope="shell" criteria="gaul-current-shell">
+			<Actions>
+				<UpdateDatabase>
+					<Item>config/config-gaul.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-england-great-britain" scope="shell" criteria="great-britain-current-shell">
+			<Actions>
+				<UpdateDatabase>
+					<Item>config/config-great-britain.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-england-ada-lovelace" scope="shell" criteria="ada-lovelace-current-shell">
+			<Actions>
+				<UpdateDatabase>
+					<Item>config/config-ada-lovelace.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-england-edward-teach" scope="shell" criteria="edward-teach-current-shell">
+			<Actions>
+				<UpdateDatabase>
+					<Item>config/config-edward-teach.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-england" scope="shell" criteria="always">
+			<Actions>
+				<UpdateArt>
+					<Item>england-shell</Item>
+				</UpdateArt>
+				<UpdateIcons>
+					<Item>data/icons/icons.xml</Item>
+				</UpdateIcons>
+				<UpdateDatabase>
+					<Item>config/config.xml</Item>
+					<Item>config/metaprogression.xml</Item>
+					<Item>config/config-traditions.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/CivilizationLegacyText.xml</Item>
+					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/ConstructibleText.xml</Item>
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
+					<Item>text/en_us/ModuleText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>
+
+					<!-- Items below were generated via our loc tool. -->
+					<Item>l10n/ModuleText.xml</Item>
+					<Item locale="de_DE">l10n/de_DE_Text.xml</Item>
+					<Item locale="es_ES">l10n/es_ES_Text.xml</Item>
+					<Item locale="fr_FR">l10n/fr_FR_Text.xml</Item>
+					<Item locale="it_IT">l10n/it_IT_Text.xml</Item>
+					<Item locale="ja_JP">l10n/ja_JP_Text.xml</Item>
+					<Item locale="ko_KR">l10n/ko_KR_Text.xml</Item>
+					<Item locale="pl_PL">l10n/pl_PL_Text.xml</Item>
+					<Item locale="pt_BR">l10n/pt_BR_Text.xml</Item>
+					<Item locale="ru_RU">l10n/ru_RU_Text.xml</Item>
+					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
+					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
+				</UpdateText>
+				<ImportFiles locale="de_DE">
+					<Item>l10n/de_DE/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/de_DE/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/de_DE/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/de_DE/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/de_DE/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/de_DE/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="es_ES">
+					<Item>l10n/es_ES/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/es_ES/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/es_ES/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/es_ES/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/es_ES/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/es_ES/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="fr_FR">
+					<Item>l10n/fr_FR/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/fr_FR/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/fr_FR/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/fr_FR/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/fr_FR/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/fr_FR/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="it_IT">
+					<Item>l10n/it_IT/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/it_IT/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/it_IT/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/it_IT/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/it_IT/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/it_IT/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="ja_JP">
+					<Item>l10n/ja_JP/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/ja_JP/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/ja_JP/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/ja_JP/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/ja_JP/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/ja_JP/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="ko_KR">
+					<Item>l10n/ko_KR/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/ko_KR/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/ko_KR/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/ko_KR/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/ko_KR/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/ko_KR/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="pl_PL">
+					<Item>l10n/pl_PL/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/pl_PL/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/pl_PL/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/pl_PL/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/pl_PL/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/pl_PL/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="pt_BR">
+					<Item>l10n/pt_BR/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/pt_BR/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/pt_BR/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/pt_BR/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/pt_BR/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/pt_BR/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="ru_RU">
+					<Item>l10n/ru_RU/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/ru_RU/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/ru_RU/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/ru_RU/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/ru_RU/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/ru_RU/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="zh_Hans_CN">
+					<Item>l10n/zh_Hans_CN/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/zh_Hans_CN/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/zh_Hans_CN/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/zh_Hans_CN/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/zh_Hans_CN/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/zh_Hans_CN/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="zh_Hant_HK">
+					<Item>l10n/zh_Hant_HK/loading_civ_exploration_england.vtt</Item>
+					<Item>l10n/zh_Hant_HK/wilco_civ_exploration_england_defeat.vtt</Item>
+					<Item>l10n/zh_Hant_HK/wilco_civ_exploration_england_legacy_culture.vtt</Item>
+					<Item>l10n/zh_Hant_HK/wilco_civ_exploration_england_legacy_economic.vtt</Item>
+					<Item>l10n/zh_Hant_HK/wilco_civ_exploration_england_legacy_military.vtt</Item>
+					<Item>l10n/zh_Hant_HK/wilco_civ_exploration_england_legacy_science.vtt</Item>
+				</ImportFiles>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+	<LocalizedText>
+		<File>text/en_us/ModuleText.xml</File>
+		<File>l10n/ModuleText.xml</File>
+	</LocalizedText>
+</Mod>

@@ -5651,5 +5651,287 @@
 		<Replace Tag="LOC_UI_TOOLTIP_HIDDEN_HINT_BODY_POST" Language="th_TH">
 			<Text>เพื่อแสดงคำแนะนำอีกครั้ง</Text>		<!-- to show tooltips again. -->
 		</Replace>
+		<Replace Tag="LOC_UI_CREATE_GAME_MAP_TYPES_NUMBER" Language="th_TH">
+			<Text>ประเภทแผนที่ ({1_NumMap})</Text>		<!-- Map Types ({1_NumMap}) -->
+		</Replace>
+		<Replace Tag="LOC_UI_CREATE_GAME_UNLOCKED_BY_SUBTITLE" Language="th_TH">
+			<Text>เล่นเป็น:</Text>		<!-- Play as: -->
+		</Replace>
+		<Replace Tag="LOC_UI_KBM_MAPPING_TOGGLE_DETAILS" Language="th_TH">
+			<Text>สลับ รายละเอียด</Text>		<!-- Toggle Details -->
+		</Replace>
+		<Replace Tag="LOC_UI_KBM_MAPPING_TOGGLE_DETAILS_TT" Language="th_TH">
+			<Text>สลับแสดงรายละเอียดเพิ่มเติมบนหน้าจอบางหน้าและเลนส์บางชนิด, เช่น ไม้วัดรัศมีในเลนส์ถิ่นฐาน หรือการแยกรายได้ระหว่างการวางอาคาร</Text>		<!-- Toggle additional details on select screens and lenses, such as the Radial Ruler in the Settler Lens or the Yield Breakdown during Building Placement. -->
+		</Replace>
+		<Replace Tag="LOC_UI_KBM_MAPPING_TOGGLE_RADIAL_RULER" Language="th_TH">
+			<Text>สลับ ไม้บรรทัดวงกลม</Text>		<!-- Toggle Radial Ruler -->
+		</Replace>
+		<Replace Tag="LOC_UI_KBM_MAPPING_TOGGLE_RADIAL_RULER_TT" Language="th_TH">
+			<Text>สลับการแสดง/ซ่อน ไม้บรรทัดวงกลม</Text>		<!-- Toggle the visibility of the radial ruler -->
+		</Replace>
+		<Replace Tag="LOC_UI_MP_FRIENDS_LOBBY_MULTIPLYER_REMINDER_HOTSEAT" Language="th_TH">
+			<Text>แผงควบคุมนี้ไม่รองรับในโหมด Hotseat</Text>		<!-- This panel is not supported in Hotseat mode. -->
+		</Replace>
+		<Replace Tag="LOC_UI_MP_FRIENDS_SEND_INVITE_FAILED_TITLE" Language="th_TH">
+			<Text>เชิญเล่นเกมล้มเหลว</Text>		<!-- Game Invite Failed -->
+		</Replace>
+		<Replace Tag="LOC_UI_MP_FRIENDS_SEND_INVITE_FAILED_BODY" Language="th_TH">
+			<Text>ไม่สามารถส่งคำเชิญเกมได้, เพื่อนที่ถูกเชิญอาจจะอยู่ในเกมแล้ว</Text>		<!-- Failed to send game invite. The invited friend might already be in the game. -->
+		</Replace>
+		<Replace Tag="LOC_GAME_ABANDONED_CROSSPLAY_DISABLED_CLIENT_AA" Language="th_TH">
+			<Text>คุณไม่สามารถเข้าร่วมเกม Crossplay ได้</Text>		<!-- You cannot join Crossplay games. -->
+		</Replace>
+		<Replace Tag="LOC_GAME_ABANDONED_CROSSPLAY_DISABLED_CLIENT_TITLE_AA" Language="th_TH">
+			<Text>การเล่นข้ามแพลตฟอร์มไม่พร้อมใช้งาน</Text>		<!-- Crossplay Unavailable -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_WATER_SUN_SPECULAR" Language="th_TH">
+			<Text>เปิดใช้งานแสงสะท้อนผิวน้ำ</Text>		<!-- Enable Water Sun Specular -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GFX_WATER_SUN_SPECULAR_DESCRIPTION" Language="th_TH">
+			<Text>เปิดใช้งานไฮไลท์สะท้อนแสงประกายของดวงอาทิตย์ที่ส่องบนผิวน้ำ,</Text>		<!-- Enables twinkling specular highlights of the sun shining on the surface of the water. -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_DISABLED_IN_MP_GAME" Language="th_TH">
+			<Text>ไม่สามารถแก้ไขตัวเลือกนี้ได้ขณะเล่นในเกมผู้เล่นหลายคน,</Text>		<!-- This option cannot be modified while in a multiplayer game. -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_ADVISOR_WARNINGS_DISABLED" Language="th_TH">
+			<Text>ปิดบทช่วยสอน เพื่อแก้ไขอันนี้</Text>		<!-- Switch Tutorials off to edit this. -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_ADVANCED_AA_DISABLED" Language="th_TH">
+			<Text>เปลี่ยนจากการเปิดป้องกันการหยักแบบอัตโนมัติไปเป็นการตั้งค่าแบบแมนนวลเพื่อแก้ไขสิ่งนี้,</Text>		<!-- Switch from auto antialiasing to a manual setting to edit this. -->
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PLOT_TILE_TOOLTIP_DELAY" Language="th_TH">
+			<Text>ดีเลย์คำอธิบายช่อง</Text>		<!-- Plot Tile Tooltip Delay -->
+		</Replace>
+		<Replace Tag="LOC_PROFILE_TITLE_DLC_SEASONPASS_5" Language="th_TH">
+			<Text>นักประวัติศาสตร์</Text>		<!-- Historian -->
+		</Replace>
+		<Replace Tag="LOC_CREATE_GAME_AGE_UNLOCK_SUBTITLE" Language="th_TH">
+			<Text>ปลดล็อก อารยธรรมต่อไปนี้ เมื่อย้ายยุค,</Text>		<!-- Unlocks the following Civilizations on Age Transition: -->
+		</Replace>
+		<Replace Tag="LOC_CREATE_GAME_UNLOCK_ITEM_SYNCRETISM_TITLE" Language="th_TH">
+			<Text>การปลดล็อกการผสมผสานศาสนา</Text>		<!-- Syncretism Unlocks -->
+		</Replace>
+		<Replace Tag="LOC_CREATE_GAME_UNLOCK_ITEM_SYNCRETISM_DESCRIPTION" Language="th_TH">
+			<Text>ปลดล็อกสิ่งต่อไปนี้สำหรับ การผสมผสานศาสนา เมื่ออยู่ในยุคที่ไม่ใช่ยุคสูงสุด</Text>		<!-- Unlocks the following for Syncretism when in a non-Apex Age: -->
+		</Replace>
+		<Replace Tag="LOC_CREATE_GAME_UNLOCK_SYNCRETISM_INFRASTRUCTURE" Language="th_TH">
+			<Text>ตัวเลือกโครงสร้างพื้นฐาน</Text>		<!-- Infrastructure Option -->
+		</Replace>
+		<Replace Tag="LOC_CREATE_GAME_UNLOCK_SYNCRETISM_UNITS" Language="th_TH">
+			<Text>ตัวเลือกยูนิต</Text>		<!-- Units Option -->
+		</Replace>
+		<Replace Tag="LOC_CREATE_GAME_UNLOCK_ITEM_SYNCRETISM" Language="th_TH">
+			<Text>• [STYLE:faux-tooltip][B]{1_UnlockName} [/B][/STYLE]ใน[ B]{2_AgeName} [/B]ยุค</Text>		<!-- • [STYLE:faux-tooltip][B]{1_UnlockName} [/B][/STYLE]in the [B]{2_AgeName} [/B]age. -->
+		</Replace>
+		<Replace Tag="LOC_JOIN_GAME_CROSSPLAY_DISABLED_AA" Language="th_TH">
+			<Text>คุณไม่สามารถเข้าร่วมเกมข้ามแพลตฟอร์มได้</Text>		<!-- You cannot join Crossplay games. -->
+		</Replace>
+		<Replace Tag="LOC_GENERIC_BACK_TO_GAME" Language="th_TH">
+			<Text>กลับไปยังเกม</Text>		<!-- Back to Game -->
+		</Replace>
+		<Replace Tag="LOC_UI_CHAT_PANEL_CLOSE" Language="th_TH">
+			<Text>ปิดแผงแชท</Text>		<!-- Close chat panel -->
+		</Replace>
+		<Replace Tag="LOC_UI_MP_PAUSE" Language="th_TH">
+			<Text>หยุดชั่วคราว โหมดผู้เล่นหลายคน</Text>		<!-- Pause Multiplayer -->
+		</Replace>
+		<Replace Tag="LOC_UI_MP_RESUME" Language="th_TH">
+			<Text>เล่นแบบผู้เล่นหลายคน ต่อเนื่อง</Text>		<!-- Resume Multiplayer -->
+		</Replace>
+		<Replace Tag="LOC_UI_TOOLTIP_HIDDEN_HINT_BODY_LAST" Language="th_TH">
+			<Text>คำชี้แจงจะปรากฏอีกครั้งเมื่อเริ่มระบบใหม่,</Text>		<!-- Tooltips will be shown again on restart. -->
+		</Replace>
+		<Replace Tag="LOC_UI_HIDE_PREVIOUS_AGES" Language="th_TH">
+			<Text>ซ่อนไอเท็มจากยุคก่อนหน้า</Text>		<!-- Hide Items from Previous Ages -->
+		</Replace>
+		<Replace Tag="LOC_UI_APPEND_SEARCH_TERMS" Language="th_TH">
+			<Text>เพิ่มคำค้นหาเพิ่มเติม</Text>		<!-- Append Search Terms -->
+		</Replace>
+		<Replace Tag="LOC_UI_SEARCH_SEARCHING" Language="th_TH">
+			<Text>กำลังค้นหา...</Text>		<!-- Searching... -->
+		</Replace>
+		<Replace Tag="LOC_UI_SEARCH_RESULTS" Language="th_TH">
+			<Text>{1_Amount} {1_Amount: plural 1?ผลลัพธ์; other?ผลลัพธ์;}</Text>		<!-- {1_Amount} {1_Amount: plural 1?Result; other?Results;} -->
+		</Replace>
+		<Replace Tag="LOC_UI_SEARCH_NO_RESULTS" Language="th_TH">
+			<Text>ไม่มีผลลัพธ์</Text>		<!-- No results -->
+		</Replace>
+		<Replace Tag="LOC_UI_SEARCH_OVER_99" Language="th_TH">
+			<Text>มากกว่า 99</Text>		<!-- Over 99 results -->
+		</Replace>
+		<Replace Tag="LOC_UI_SEARCH_TILE_COUNT" Language="th_TH">
+			<Text>{1_Amount} {1_Amount: plural 1?ช่อง; other?ช่อง;}</Text>		<!-- {1_Amount} {1_Amount: plural 1?Tile; other?Tiles;} -->
+		</Replace>
+		<Replace Tag="LOC_UI_SEARCH_OVER_X" Language="th_TH">
+			<Text>มากกว่า {1_Amount} {1_Amount: plural 1?Result; other?Results;}</Text>		<!-- Over {1_Amount} {1_Amount: plural 1?Result; other?Results;} -->
+		</Replace>
+		<Replace Tag="LOC_UI_SEARCH_RESULT_OF" Language="th_TH">
+			<Text>ผลลัพธ์ {1_Amount} จาก {2_Amount}</Text>		<!-- Result {1_Amount} of {2_Amount} -->
+		</Replace>
+		<Replace Tag="LOC_UI_SEARCH_TILE_SEARCH_FILTERS" Language="th_TH">
+			<Text>ตัวกรองการค้นหา ช่อง</Text>		<!-- Tile Search Filters -->
+		</Replace>
+		<Replace Tag="LOC_UI_SEARCH_FILTER_OUT" Language="th_TH">
+			<Text>กรองออก</Text>		<!-- Filter Out -->
+		</Replace>
+		<Replace Tag="LOC_UI_SEARCH_TOOLTIP" Language="th_TH">
+			<Text>ผลการค้นหาจะแสดงผลของแต่ละรายการที่ป้อนที่นี่, โดยใช้เครื่องหมายจุลภาคเพื่อแยกคำค้น</Text>		<!-- Search results will contain results of each item entered here, using a comma to separate terms. -->
+		</Replace>
+		<Replace Tag="LOC_UI_SEARCH_FILTER_OUT_TOOLTIP" Language="th_TH">
+			<Text>ผลการค้นหาจะกรองทิ้งคำที่ป้อนไว้ที่นี่,</Text>		<!-- Search results will remove any of the terms entered here. -->
+		</Replace>
+		<Replace Tag="LOC_UI_SEARCH_CLEAR_SEARCH_TERMS_TOOLTIP" Language="th_TH">
+			<Text>สิ่งนี้จะล้างคำค้นหา รายการล่าสุดในรายการ</Text>		<!-- This will clear the last search term in the list. -->
+		</Replace>
+		<Replace Tag="LOC_UI_SEARCH_CLEAR_FILTER_TERMS_TOOLTIP" Language="th_TH">
+			<Text>นี่จะล้างคำกรองล่าสุดในรายการ,</Text>		<!-- This will clear the last filter term in the list. -->
+		</Replace>
+		<Replace Tag="LOC_UI_SEARCH_OPEN_SIDEBAR_TOOLTIP" Language="th_TH">
+			<Text>นี่จะเปิดแถบด้านข้างของคำศัพท์เพื่อค้นหา,</Text>		<!-- This will open the sidebar of terms to search for. -->
+		</Replace>
+		<Replace Tag="LOC_UI_SEARCH_OPEN_SIDEBAR_FILTER_TOOLTIP" Language="th_TH">
+			<Text>นี่จะเปิดแถบด้านข้างของคำศัพท์เพื่อกรอง</Text>		<!-- This will open the sidebar of terms to filter against. -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_BIOME" Language="th_TH">
+			<Text>ชีวนิเวศ</Text>		<!-- Biome -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_BUILDING" Language="th_TH">
+			<Text>อาคาร</Text>		<!-- Building -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_CIVILIAN" Language="th_TH">
+			<Text>พลเรือน</Text>		<!-- Civilian -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_CITY" Language="th_TH">
+			<Text>เมืองใหญ่</Text>		<!-- City -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_CITY_CENTER" Language="th_TH">
+			<Text>ศูนย์กลางเมืองใหญ่</Text>		<!-- City Center -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_CITY_STATES" Language="th_TH">
+			<Text>นครรัฐ</Text>		<!-- City States -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_CITY_STATES_HYPHEN" Language="th_TH">
+			<Text>นครรัฐ</Text>		<!-- City-States -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_CONSTRUCTIBLE" Language="th_TH">
+			<Text>สามารถก่อสร้างได้</Text>		<!-- Constructible -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_DISCOVERIES" Language="th_TH">
+			<Text>การค้นพบ</Text>		<!-- Discoveries -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_DISCOVERY" Language="th_TH">
+			<Text>การค้นพบ</Text>		<!-- Discovery -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_DISTRICT" Language="th_TH">
+			<Text>เขต</Text>		<!-- District -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_FEATURE" Language="th_TH">
+			<Text>คุณสมบัติ</Text>		<!-- Feature -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_GREAT_PERSON" Language="th_TH">
+			<Text>บุคคลสำคัญ</Text>		<!-- Great Person -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_HOLY_CITY" Language="th_TH">
+			<Text>เมืองศักดิ์สิทธิ์</Text>		<!-- Holy City -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_IMPASSABLE" Language="th_TH">
+			<Text>ผ่านไม่ได้</Text>		<!-- Impassable -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_IMPROVEMENT" Language="th_TH">
+			<Text>พื้นที่พัฒนา</Text>		<!-- Improvement -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_LAKES" Language="th_TH">
+			<Text>ทะเลสาบ</Text>		<!-- Lakes -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_MILITARY" Language="th_TH">
+			<Text>กองทัพ</Text>		<!-- Military -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_PLOT" Language="th_TH">
+			<Text>ช่อง</Text>		<!-- Plot -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_PILLAGED" Language="th_TH">
+			<Text>ปล้นสะดม</Text>		<!-- Pillaged -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_RESOURCE" Language="th_TH">
+			<Text>ทรัพยากร</Text>		<!-- Resource -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_RIVERS" Language="th_TH">
+			<Text>แม่น้ำ</Text>		<!-- Rivers -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_RURAL" Language="th_TH">
+			<Text>ชนบท</Text>		<!-- Rural -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_TERRAIN" Language="th_TH">
+			<Text>ภูมิประเทศ</Text>		<!-- Terrain -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_TOWN" Language="th_TH">
+			<Text>เมืองเล็ก</Text>		<!-- Town -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_UNIT" Language="th_TH">
+			<Text>ยูนิต</Text>		<!-- Unit -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_URBAN" Language="th_TH">
+			<Text>เมืองใหญ่</Text>		<!-- Urban -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_VILLAGE" Language="th_TH">
+			<Text>หมู่บ้าน</Text>		<!-- Village -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_TERM_WONDER" Language="th_TH">
+			<Text>สิ่งมหัศจรรย์</Text>		<!-- Wonder -->
+		</Replace>
+		<Replace Tag="LOC_UI_CLEAR" Language="th_TH">
+			<Text>เคลียร์</Text>		<!-- Clear -->
+		</Replace>
+		<Replace Tag="LOC_UI_SEARCH_HISTORY" Language="th_TH">
+			<Text>ประวัติศาสตร์</Text>		<!-- History -->
+		</Replace>
+		<Replace Tag="LOC_CURRENT_SEARCH" Language="th_TH">
+			<Text>การค้นหาปัจจุบัน</Text>		<!-- Current Search -->
+		</Replace>
+		<Replace Tag="LOC_OWNED_BY_OTHERS" Language="th_TH">
+			<Text>เป็นของผู้อื่น</Text>		<!-- Owned by Others -->
+		</Replace>
+		<Replace Tag="LOC_NOT_OWNED" Language="th_TH">
+			<Text>ไม่ได้เป็นเจ้าของ</Text>		<!-- Not Owned -->
+		</Replace>
+		<Replace Tag="LOC_NEAR_MY_CITIES" Language="th_TH">
+			<Text>ใกล้กับ เมืองใหญ่ ของฉัน</Text>		<!-- Near my Cities -->
+		</Replace>
+		<Replace Tag="LOC_OWNED_BY_ME" Language="th_TH">
+			<Text>เป็นของฉัน</Text>		<!-- Owned by Me -->
+		</Replace>
+		<Replace Tag="LOC_OWNED" Language="th_TH">
+			<Text>เป็นของใครบางคน</Text>		<!-- Is Owned -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_NAVTRAY_HELPER" Language="th_TH">
+			<Text>ผู้ช่วย</Text>		<!-- Helper -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_NAVTRAY_KEYBOARD" Language="th_TH">
+			<Text>คีย์บอร์ด</Text>		<!-- Keyboard -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_NAVTRAY_ADD" Language="th_TH">
+			<Text>เพิ่ม</Text>		<!-- Add -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_NAVTRAY_UNDO" Language="th_TH">
+			<Text>เลิกทำ</Text>		<!-- Undo -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_NAVTRAY_CLOSE_HELPER" Language="th_TH">
+			<Text>ปิดผู้ช่วย</Text>		<!-- Close Helper -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_NAVTRAY_START_SEARCH" Language="th_TH">
+			<Text>เริ่มการค้นหา</Text>		<!-- Start Search -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_NAVTRAY_TOGGLE_TERM" Language="th_TH">
+			<Text>สลับคำศัพท์</Text>		<!-- Toggle Term -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_NAVTRAY_FILTER" Language="th_TH">
+			<Text>กรอง</Text>		<!-- Filter -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_NAVTRAY_REMOVE" Language="th_TH">
+			<Text>เอาออก</Text>		<!-- Remove -->
+		</Replace>
+		<Replace Tag="LOC_SEARCH_NAVTRAY_TOGGLE_APPEND" Language="th_TH">
+			<Text>สลับการต่อท้าย</Text>		<!-- Toggle Append -->
+		</Replace>
 	</LocalizedText>
 </Database>
