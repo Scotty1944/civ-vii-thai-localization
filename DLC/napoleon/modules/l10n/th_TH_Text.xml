@@ -858,7 +858,8 @@
 			<Text>สัญลักษณ์เหล่านี้สามารถถูกใช้เป็นเครื่องมือได้</Text>		<!-- Such symbols can be manipulated. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1191C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} ใน ถิ่นฐานทั้งหมด</Text>		<!-- {1_reward} in all Settlements. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+			
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1192A_STORYTITLE" Language="th_TH">
 			<Text>ผู้เป็นอิสระ</Text>		<!-- Independents -->
@@ -1296,13 +1297,15 @@
 			<Text>ในฐานะ นโปเลียน เปิดการอุทิศ ยุคสำรวจใหม่:[n]
 				+15% อิทธิพล, -2 พลังต่อสู้ สำหรับยูนิตทางน้ำ</Text>		<!-- As Napoleon, access a new Exploration Dedication:[n]
 				+15% Influence, -2 Combat Strength for Naval Units -->
+			
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_NAPOLEON_EMPEROR_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>การอุทิศทางเศรษฐกิจ ยุคสำรวจ</Text>		<!-- Exploration Economic Dedication -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_NAPOLEON_EMPEROR_EXPLORATION_2_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ นโปเลียน เข้าถึง การอุทิศ ยุคสำรวจ ใบใหม่ [n] +15% ทอง คำ, -10% อาหาร</Text>		<!-- As Napoleon, access a new Exploration Dedication:[n]
+			<Text>ในฐานะ นโปเลียน เข้าถึง การอุทิศ ยุคสำรวจ ใบใหม่ [n] +15% ทอง, -10% อาหาร</Text>		<!-- As Napoleon, access a new Exploration Dedication:[n]
 				+15% Gold, -10% Food -->
+			
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_NAPOLEON_EMPEROR_MODERN_1_NAME" Language="th_TH">
 			<Text>การอุทิศทางการทูต ยุคใหม่</Text>		<!-- Modern Diplomatic Dedication -->
@@ -1311,6 +1314,7 @@
 			<Text>ในฐานะ นโปเลียน ได้รับ การอุทิศทางการทูต ยุคใหม่:[n]
 +15% อิทธิพล, -2 พลังต่อสู้ สำหรับ ยูนิตทางอากาศ</Text>		<!-- As Napoleon, access a new Modern Dedication:[n]
 				+15% Influence, -2 Combat Strength for Air Units -->
+			
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_NAPOLEON_EMPEROR_MODERN_2_NAME" Language="th_TH">
 			<Text>การอุทิศเศรษฐกิจ ยุคใหม่</Text>		<!-- Modern Economic Dedication -->
@@ -1319,6 +1323,7 @@
 			<Text>ในฐานะ นโปเลียน เข้าถึง การอุทิศ ยุคใหม่: [n]
 +15% ทอง, -10% อาหาร</Text>		<!-- As Napoleon, access a new Modern Dedication:[n]
 				+15% Gold, -10% Food -->
+			
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_NAPOLEON_EMPEROR_L1_NAME" Language="th_TH">
 			<Text>โหนดคุณลักษณะทางเศรษฐกิจ</Text>		<!-- Economic Attribute Node -->

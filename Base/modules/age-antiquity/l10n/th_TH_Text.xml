@@ -2585,10 +2585,12 @@
 			<Text>สังเวียน</Text>		<!-- Arena -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ARENA_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_HAPPINESS] ความสุข, [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านความสุข ยุคโบราณ[/TIP], +1 [icon:YIELD_HAPPINESS] ความสุข บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]ย่าน[/TIP]</Text>		<!-- +4 [icon:YIELD_HAPPINESS] Happiness. Antiquity Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. +1 [icon:YIELD_HAPPINESS] Happiness on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP]. -->
+			<Text>+4 [icon:YIELD_HAPPINESS] ความสุข, [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านความสุข ยุคโบราณ[/TIP], +1 [icon:YIELD_HAPPINESS] ความสุข บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]ย่าน[/TIP]</Text>		<!-- +4 [icon:YIELD_HAPPINESS] Happiness. Antiquity Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. +1 [icon:YIELD_HAPPINESS] Happiness on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP]. -->
+			
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ARENA_TOOLTIP" Language="th_TH">
-			<Text>เอฟเฟค: +1[icon:YIELD_HAPPINESS] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]ย่าน[/TIP]</Text>		<!-- Effect: +1 [icon:YIELD_HAPPINESS] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP]. -->
+			<Text>เอฟเฟค: +1[icon:YIELD_HAPPINESS] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]ย่าน[/TIP]</Text>		<!-- Effect: +1 [icon:YIELD_HAPPINESS] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP]. -->
+			
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BARRACKS_NAME" Language="th_TH">
 			<Text>ค่ายทหาร</Text>		<!-- Barracks -->
@@ -2612,10 +2614,12 @@
 			<Text>โรงตีเหล็ก</Text>		<!-- Blacksmith -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BLACKSMITH_DESCRIPTION" Language="th_TH">
-			<Text>+4[icon:YIELD_PRODUCTION] กำลังผลิต, [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านกำลังผลิต ยุคโบราณ[/TIP], +1 [icon:YIELD_PRODUCTION] กำลังผลิต บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]ย่าน[/TIP]</Text>		<!-- +4[icon:YIELD_PRODUCTION] Production. Antiquity Production [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. +1 [icon:YIELD_PRODUCTION] Production on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP]. -->
+			<Text>+4[icon:YIELD_PRODUCTION] กำลังผลิต, [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านกำลังผลิต ยุคโบราณ[/TIP], +1 [icon:YIELD_PRODUCTION] กำลังผลิต บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]ย่าน[/TIP]</Text>		<!-- +4[icon:YIELD_PRODUCTION] Production. Antiquity Production [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. +1 [icon:YIELD_PRODUCTION] Production on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP]. -->
+			
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BLACKSMITH_TOOLTIP" Language="th_TH">
-			<Text>เอฟเฟค: +1 [icon:YIELD_PRODUCTION] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]ย่าน[/TIP]</Text>		<!-- Effect: +1 [icon:YIELD_PRODUCTION] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP]. -->
+			<Text>เอฟเฟค: +1 [icon:YIELD_PRODUCTION] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]ย่าน[/TIP]</Text>		<!-- Effect: +1 [icon:YIELD_PRODUCTION] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP]. -->
+			
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BRICKYARD_NAME" Language="th_TH">
 			<Text>โรงผลิตอิฐ</Text>		<!-- Brickyard -->
@@ -2738,7 +2742,8 @@
 			<Text>โอเดียน</Text>		<!-- Odeon -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ODEON_DESCRIPTION" Language="th_TH">
-			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษด้านความสุข[/TIP] ของกรีก, +3[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_CULTURE] วัฒนธรรม โบนัสใกล้เคียงสำหรับ [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]ย่าน[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP], คงอยู่ตลอดกาล</Text>		<!-- Greek [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Happiness Building[/TIP]. +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture Adjacency for [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. -->
+			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษด้านความสุข[/TIP] ของกรีก, +3[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_CULTURE] วัฒนธรรม โบนัสใกล้เคียงสำหรับ [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]ย่าน[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP], คงอยู่ตลอดกาล</Text>		<!-- Greek [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Happiness Building[/TIP]. +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture Adjacency for [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. -->
+			
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ODEON_TOOLTIP" Language="th_TH">
 			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษ[/TIP] ของกรีก</Text>		<!-- Greek [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Building[/TIP]. -->
@@ -2756,7 +2761,8 @@
 			<Text>ดาร์มชาลา</Text>		<!-- Dharamshala -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_DHARAMSHALA_DESCRIPTION" Language="th_TH">
-			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษด้านความสุข[/TIP] ของเมารยะ, +3[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_SCIENCE] วิทยาศาสตร์ โบนัสใกล้เคียงสำหรับ [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]ย่าน[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP]</Text>		<!-- Mauryan [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Happiness Building[/TIP]. +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_SCIENCE] Science Adjacency for [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. -->
+			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษด้านความสุข[/TIP] ของเมารยะ, +3[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_SCIENCE] วิทยาศาสตร์ โบนัสใกล้เคียงสำหรับ [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]ย่าน[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP]</Text>		<!-- Mauryan [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Happiness Building[/TIP]. +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_SCIENCE] Science Adjacency for [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. -->
+			
 		</Replace>
 		<Replace Tag="LOC_BUILDING_DHARAMSHALA_TOOLTIP" Language="th_TH">
 			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษ[/TIP] ของเมารยะ</Text>		<!-- Mauryan [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Building[/TIP]. -->
@@ -2774,7 +2780,8 @@
 			<Text>จาลาว</Text>		<!-- Jalaw -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_JALAW_DESCRIPTION" Language="th_TH">
-			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษด้านความสุข[/TIP] ของมายา, +3[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_CULTURE] วัฒนธรรม โบนัสใกล้เคียงสำหรับ [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]พื้นที่ย่าน[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP]</Text>		<!-- Maya [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Happiness Building[/TIP]. +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture Adjacency for [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. -->
+			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษด้านความสุข[/TIP] ของมายา, +3[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_CULTURE] วัฒนธรรม โบนัสใกล้เคียงสำหรับ [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]พื้นที่ย่าน[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP]</Text>		<!-- Maya [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Happiness Building[/TIP]. +3[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_CULTURE] Culture Adjacency for [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. -->
+			
 		</Replace>
 		<Replace Tag="LOC_BUILDING_JALAW_TOOLTIP" Language="th_TH">
 			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษ[/TIP] ของมายา</Text>		<!-- Maya [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Building[/TIP]. -->
@@ -2971,11 +2978,13 @@
 			<Text>โคลอสเซียม</Text>		<!-- Colosseum -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_COLOSSEUM_DESCRIPTION" Language="th_TH">
-			<Text>[B]+3 [icon:YIELD_CULTURE][/B], [B]+1 [icon:YIELD_HAPPINESS][/B] และ [icon:YIELD_GOLD] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]พื้นที่ย่าน[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] นี้, [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]คงอยู่ตลอดกาล[/TIP] ต้องตั้งอยู่ติดกับ [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP]</Text>		<!-- [B]+3 [icon:YIELD_CULTURE][/B]. [B]+1 [icon:YIELD_HAPPINESS][/B] and [icon:YIELD_GOLD] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]Quarters[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be placed adjacent to a [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP]. -->
+			<Text>[B]+3 [icon:YIELD_CULTURE][/B], [B]+1 [icon:YIELD_HAPPINESS][/B] และ [icon:YIELD_GOLD] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]พื้นที่ย่าน[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] นี้, [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]คงอยู่ตลอดกาล[/TIP] ต้องตั้งอยู่ติดกับ [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP]</Text>		<!-- [B]+3 [icon:YIELD_CULTURE][/B]. [B]+1 [icon:YIELD_HAPPINESS][/B] and [icon:YIELD_GOLD] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be placed adjacent to a [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP]. -->
+			
 			
 		</Replace>
 		<Replace Tag="LOC_WONDER_COLOSSEUM_TOOLTIP" Language="th_TH">
-			<Text>[B]+1 [icon:YIELD_HAPPINESS][/B] และ [icon:YIELD_GOLD] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]พื้นที่ย่าน[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP],[n] ต้องวางข้างติดกับ [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP]</Text>		<!-- [B]+1 [icon:YIELD_HAPPINESS][/B] and [icon:YIELD_GOLD] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]Quarters[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP].[n] Must be placed adjacent to a [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP]. -->
+			<Text>[B]+1 [icon:YIELD_HAPPINESS][/B] และ [icon:YIELD_GOLD] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]พื้นที่ย่าน[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP],[n] ต้องวางข้างติดกับ [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP]</Text>		<!-- [B]+1 [icon:YIELD_HAPPINESS][/B] and [icon:YIELD_GOLD] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP].[n] Must be placed adjacent to a [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP]. -->
+			
 			
 		</Replace>
 		<Replace Tag="LOC_WONDER_COLOSSUS_NAME" Language="th_TH">
@@ -3128,11 +3137,13 @@
 			<Text>พีระมิดแห่งพระอาทิตย์</Text>		<!-- Pyramid Of The Sun -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_PYRAMID_OF_THE_SUN_DESCRIPTION" Language="th_TH">
-			<Text>+3 [icon:YIELD_CULTURE] วัฒนธรรม, +2 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]พื้นที่ย่าน[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] นี้, [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]คงอยู่ตลอดกาล[/TIP], ต้องวางบน [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]พื้นราบ[/TIP] ที่ติดกับ [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP]</Text>		<!-- [B]+3 [icon:YIELD_CULTURE][/B]. [B]+2 [icon:YIELD_CULTURE][/B] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]Quarters[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be placed on [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]Flat Terrain[/TIP] adjacent to a [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP]. -->
+			<Text>+3 [icon:YIELD_CULTURE] วัฒนธรรม, +2 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]พื้นที่ย่าน[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] นี้, [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]คงอยู่ตลอดกาล[/TIP], ต้องวางบน [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]พื้นราบ[/TIP] ที่ติดกับ [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP]</Text>		<!-- [B]+3 [icon:YIELD_CULTURE][/B]. [B]+2 [icon:YIELD_CULTURE][/B] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be placed on [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]Flat Terrain[/TIP] adjacent to a [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP]. -->
+			
 			
 		</Replace>
 		<Replace Tag="LOC_WONDER_PYRAMID_OF_THE_SUN_TOOLTIP" Language="th_TH">
-			<Text>[B]+2 [icon:YIELD_CULTURE][/B] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]พื้นที่ย่าน[/TIP] ในถิ่นฐานนี้ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP][n]ต้องวางบน [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]พื้นราบ[/TIP] ที่ติดกับ [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP]</Text>		<!-- [B]+2 [icon:YIELD_CULTURE][/B] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]Quarters[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP].[n]Must be placed on [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]Flat Terrain[/TIP] adjacent to a [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP]. -->
+			<Text>[B]+2 [icon:YIELD_CULTURE][/B] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]พื้นที่ย่าน[/TIP] ในถิ่นฐานนี้ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP][n]ต้องวางบน [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]พื้นราบ[/TIP] ที่ติดกับ [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP]</Text>		<!-- [B]+2 [icon:YIELD_CULTURE][/B] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP].[n]Must be placed on [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]Flat Terrain[/TIP] adjacent to a [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP]. -->
+			
 			
 		</Replace>
 		<Replace Tag="LOC_WONDER_PYRAMIDS_NAME" Language="th_TH">
@@ -4111,7 +4122,8 @@
 			<Text>ซิ่ว ไทเซ</Text>		<!-- Xiu Taixue -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_XIU_TAIXUE_DESCRIPTION" Language="th_TH">
-			<Text>[icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP] ได้รับ [B]+1 [icon:YIELD_SCIENCE][/B] โบนัสใกล้เคียง สำหรับ [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]ย่าน[/TIP]</Text>		<!-- [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Science Buildings[/TIP] gain a [B]+1 [icon:YIELD_SCIENCE][/B] Adjacency for [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]Quarters[/TIP]. -->
+			<Text>[icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP] ได้รับ [B]+1 [icon:YIELD_SCIENCE][/B] โบนัสใกล้เคียง สำหรับ [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]ย่าน[/TIP]</Text>		<!-- [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Science Buildings[/TIP] gain a [B]+1 [icon:YIELD_SCIENCE][/B] Adjacency for [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP]. -->
+			
 		</Replace>
 		<Replace Tag="LOC_TRADITION_JU_XIAN_NAME" Language="th_TH">
 			<Text>จู เซียน I</Text>		<!-- Ju Xian I -->
@@ -7547,7 +7559,8 @@
 			<Text>ทยาตี</Text>		<!-- Tjaty -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_TJATY_DESCRIPTION" Language="th_TH">
-			<Text>บุคคลสำคัญ พร้อมให้ใช้งาน 1 ครั้ง, สามารถฝึกฝนได้เฉพาะใน [icon:YIELD_CITIES] เมืองใหญ่ ที่มี [icon:CITY_UNIQUE_QUARTER] เนโครโพลิส, และ ทยาตี เฉพาะที่ได้รับจะเป็นแบบสุ่ม ทยาตี แต่ละอันสามารถได้รับเพียงครั้งเดียว ค่าใช้จ่ายจะเพิ่มขึ้นต่อ ทยาตี ที่ฝึกฝน</Text>		<!-- A Great Person with one charge. Can only be trained in [icon:YIELD_CITIES] Cities with a [icon:CITY_UNIQUE_QUARTER] Necropolis, and the specific Tjaty received is random. Each Tjaty can only be received once. Cost increases per Tjaty trained. -->
+			<Text>บุคคลสำคัญ พร้อมให้ใช้งาน 1 ครั้ง, รับหนึ่งหน่วยเมื่อคุณสร้าง [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP] ใน [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ที่มี [icon:CITY_UNIQUE_QUARTER] เนโครโพลิส หรือเมื่อคุณสร้าง [icon:CITY_UNIQUE_QUARTER] เนโครโพลิส ใน [icon:YIELD_CITIES] เมืองใหญ่ ที่มี [icon:WONDER] สิ่งมหัศจรรย์, ทยาตี เฉพาะที่ได้รับจะเป็นแบบสุ่ม ทยาตี แต่ละอันสามารถได้รับเพียงครั้งเดียว</Text>		<!-- A Great Person with one charge. Receive one when you complete a [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP] in a [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]City[/TIP] with a [icon:CITY_UNIQUE_QUARTER] Necropolis or you complete a [icon:CITY_UNIQUE_QUARTER] Necropolis in a [icon:YIELD_CITIES] City with a [icon:WONDER] Wonder. The specific Tjaty received is random. Each Tjaty can only be received once. -->
+			
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TJATY_AMHOSE_NAME" Language="th_TH">
 			<Text>อัมโฮเซ</Text>		<!-- Amhose -->
@@ -7615,7 +7628,8 @@
 			<Text>โลเกียส</Text>		<!-- Logios -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_LOGIOS_DESCRIPTION" Language="th_TH">
-			<Text>บุคคลสำคัญ พร้อมให้ใช้งาน 1 ครั้ง, สามารถฝึกได้เฉพาะใน [icon:YIELD_CITIES] เมืองใหญ่ ที่มี [icon:CITY_UNIQUE_QUARTER] อัครโพลิส, และ โลเกียส ที่ได้รับแบบสุ่ม, โลเกียส แต่ละตัวสามารถรับได้เพียงครั้งเดียว ค่าใช้จ่ายจะเพิ่มขึ้นสำหรับแต่ละ โลเกียส ที่ฝึกฝน</Text>		<!-- A Great Person with one charge. Can only be trained in [icon:YIELD_CITIES] Cities with an [icon:CITY_UNIQUE_QUARTER] Acropolis, and the specific Logios received is random. Each Logios can only be received once. Cost increases per Logios trained. -->
+			<Text>บุคคลสำคัญ พร้อมให้ใช้งาน 1 ครั้ง, รับหนึ่งหน่วยเมื่อคุณสร้างเสร็จ [icon:CITY_UNIQUE_QUARTER] อัครโพลิส หรือเป็น [TIP:LOC_PEDIA_CONCEPTS_SUZERAIN_TOOLTIP]เจ้านคร[/TIP] ของ [icon:CITYSTATE] [TIP:LOC_PEDIA_CONCEPTS_CITY_STATE_TOOLTIP]นครรัฐ[/TIP], และ โลเกียส ที่ได้รับแบบสุ่ม, โลเกียส แต่ละตัวสามารถรับได้เพียงครั้งเดียว</Text>		<!-- A Great Person with one charge. Receive one when you either complete the [icon:CITY_UNIQUE_QUARTER] Acropolis or [TIP:LOC_PEDIA_CONCEPTS_SUZERAIN_TOOLTIP]Suzerain[/TIP] a [icon:CITYSTATE] [TIP:LOC_PEDIA_CONCEPTS_CITY_STATE_TOOLTIP]City-State[/TIP], and the specific Logios received is random. Each Logios can only be received once. -->
+			
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_LOGIOS_ARETE_NAME" Language="th_TH">
 			<Text>อาเรเต้แห่งไซรีน</Text>		<!-- Arete of Cyrene -->
@@ -7681,7 +7695,8 @@
 			<Text>ชีต้า ฟู</Text>		<!-- Shì Dàfū -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_SHI_DAFU_DESCRIPTION" Language="th_TH">
-			<Text>บุคคลสำคัญ พร้อมให้ใช้งาน 1 ครั้ง, สามารถฝึกได้เฉพาะใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวงที่มี [icon:YIELD_POPULATION] ประชากรอย่างน้อย 10 หน่วย และ ชีต้า ฟู ที่ได้รับจะเป็นแบบสุ่ม, ชีต้า ฟู แต่ละคนสามารถได้รับเพียงครั้งเดียว, ค่าใช้จ่ายจะเพิ่มขึ้นต่อ ชีต้า ฟู ที่ฝึกได้</Text>		<!-- A Great Person with one charge. Can only be trained in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital with at least 10 [icon:YIELD_POPULATION] Population, and the specific Shì Dàfū received is random. Each Shì Dàfū can only be received once. Cost increases per Shì Dàfū trained. -->
+			<Text>บุคคลสำคัญ พร้อมให้ใช้งาน 1 ครั้ง, รับหนึ่งคนเมื่อคุณสร้าง [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP] เสร็จ, และ ชีต้า ฟู ที่ได้รับจะเป็นแบบสุ่ม, ชีต้า ฟู แต่ละคนสามารถได้รับเพียงครั้งเดียว</Text>		<!-- A Great Person with one charge. Receive one when you complete a [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Science Building[/TIP], and the specific Shì Dàfū received is random. Each Shì Dàfū can only be received once. -->
+			
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHI_DAFU_BAN_ZHAO_NAME" Language="th_TH">
 			<Text>บันเจียว</Text>		<!-- Ban Zhao -->
@@ -8554,7 +8569,8 @@
 			<Text>น้ำท่วมอีกครั้ง เตรียมดินแดนสำหรับการเติบโตใหม่ ที่นี่อียิปต์จะทำให้โลกต้องเห็นความมหัศจรรย์ที่มันสร้างสรรค์</Text>		<!-- The waters flood again, preparing the lands for new growth. Here Egypt will compel the world to behold the wonders it works. -->
 		</Replace>
 		<Replace Tag="LOC_LOADING_INTRO_GREECE" Language="th_TH">
-			<Text>ผู้คนมาชุมนุมกัน โต้เถียงเรื่องดนตรีและการเมือง กวีนิพนธ์และกฎหมาย แล้วย้อนมองภาพการสร้างกรีซที่จะคงอยู่ตลอดกาล</Text>		<!-- The people gather together, debating music and politics, poetry and law&#45;&#45;envisioning how to build a Greece that will last for ages. -->
+			<Text>ผู้คนมาชุมนุมกัน, โต้แย้งทั้งดนตรีและการเมือง, กวีนิพนธ์และกฎหมาย, จินตนาการถึงการสร้างกรีซที่จะแข็งแรงคงอยู่ตลอดกาล</Text>		<!-- The people gather together, debating music and politics, poetry and law&#45;&#45;envisioning how to build a Greece that will last for ages. -->
+			
 			
 			
 		</Replace>
@@ -13405,7 +13421,8 @@
 			<Text>สร้างกองทัพใหม่เพื่อกู้คืนมัน</Text>		<!-- Form a new Legion to recover it. -->
 		</Replace>
 		<Replace Tag="LOC_133A_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} และ {2_reward} ในทุกยูนิต</Text>		<!-- {1_reward} and {2_reward} on all Units. -->
+			<Text>{1_reward} และ {2_reward} บน ลีเจียน ทั้งหมด</Text>		<!-- {1_reward} and {2_reward} on Legions. -->
+			
 		</Replace>
 		<Replace Tag="LOC_133A_COMPLETION" Language="th_TH">
 			<Text>เรื่องเล่าและเพลงที่ขับร้องขึ้น เพื่อให้เกียรติการชนะของทหารเหนือศัตรู เด็กๆ ชาวโรมันสร้างธงนกอินทรีของตนเองจาก กิ่งไม้และผ้า อย่างภาคภูมิใจ พร้อมกับดึงหัวตุ๊กตาของตน</Text>		<!-- Stories are told and songs sung in tribute to the soldiers' victory over the enemy. Roman children proudly craft their own toy eagle standards from sticks and cloth, knocking the heads off their dolls. -->
@@ -16824,7 +16841,8 @@
 			<Text>มือที่เลี้ยงดู</Text>		<!-- The Hand That Feeds -->
 		</Replace>
 		<Replace Tag="LOC_9005A_COMPLETION" Language="th_TH">
-			<Text>ผู้จัดการร้านอาหารเคลื่อนที่นำไวน์กับพายเนื้อไปขายให้ฝูงผู้ประท้วงทางการเมือง, เครื่องดื่มกลับยิ่งปลุกเร้าฝูงชนให้โกรธจัด, ร้านถูกคว่ำแล้วจุดไฟเผา</Text>		<!-- The manager of a portable food stall has been peddling wines and meat pies to a mob of political protestors. However, the drink riles the crowds up &#45;&#45; the stall is overturned and set ablaze. -->
+			<Text>ผู้จัดการแผงอาหารเคลื่อนที่ วางขายไวน์และพายเนื้อให้ฝูงผู้ประท้วงทางการเมือง แต่เครื่องดื่มกลับยั่วยุฝูงชน แผงถูกคว่ำและเผาจนลุกเป็นไฟ</Text>		<!-- The manager of a portable food stall has been peddling wines and meat pies to a mob of political protestors. However, the drink riles the crowds up &#45;&#45; the stall is overturned and set ablaze. -->
+			
 			
 			
 		</Replace>
@@ -16982,7 +17000,8 @@
 			<Text>ควรกระตุ้นความเป็นเอกลักษณ์ของชาวกรีก</Text>		<!-- Greek individuals' uniqueness should be encouraged. -->
 		</Replace>
 		<Replace Tag="LOC_163B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} โลเกียส</Text>		<!-- {1_reward} Logios. -->
+			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+			
 		</Replace>
 		<Replace Tag="LOC_163C_NAME" Language="th_TH">
 			<Text>เสียงของเธอควรกำหนดมาตรฐาน</Text>		<!-- Her voice should set the standard. -->
@@ -17139,7 +17158,8 @@
 			<Text>เนรเทศเป็นทางเลือกที่มีเกียรติ</Text>		<!-- Exile is the honorable choice. -->
 		</Replace>
 		<Replace Tag="LOC_165B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} โลเกียส</Text>		<!-- {1_reward} Logios. -->
+			<Text>{1_reward} อาคารโกดังสินค้า</Text>		<!-- {1_reward} Warehouse Buildings. -->
+			
 		</Replace>
 		<Replace Tag="LOC_165C_NAME" Language="th_TH">
 			<Text>ให้เอฟอรภ์ตัดสินชะตากรรมของเขา</Text>		<!-- Let the ephors decide his fate. -->
@@ -17439,7 +17459,8 @@
 			<Text>ร่างกายที่แข็งแรงไม่ควรสูญเสีย สูบฉีดให้พวกเขาทำงานหนัก</Text>		<!-- Able bodies should not be wasted. Assign them to hard labor. -->
 		</Replace>
 		<Replace Tag="LOC_8127C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward}</Text>		<!-- {1_reward}. -->
+			<Text>{1_reward} จูเก๋อหนู่</Text>		<!-- {1_reward} Chu-Ko-Nu. -->
+			
 		</Replace>
 		<Replace Tag="LOC_8128A_STORYTITLE" Language="th_TH">
 			<Text>ธรรมชาติหรือการเลี้ยงดู</Text>		<!-- Nature versus Nurture -->
@@ -17844,7 +17865,8 @@
 			<Text>+10% [icon:GROWTH_RATE] [TIP:LOC_PEDIA_CONCEPTS_GROWTH_RATE_TOOLTIP]อัตราเติบโต[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่มีแท่นบูชา</Text>		<!-- +10% [icon:GROWTH_RATE] [TIP:LOC_PEDIA_CONCEPTS_GROWTH_RATE_TOOLTIP]Growth Rate[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with an Altar. -->
 		</Replace>
 		<Replace Tag="LOC_PANTHEON_BONUS_4_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]ย่าน[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่มี แท่นบูชา</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with an Altar. -->
+			<Text>+1 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]ย่าน[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่มี แท่นบูชา</Text>		<!-- +1 [icon:YIELD_CULTURE] Culture on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with an Altar. -->
+			
 		</Replace>
 		<Replace Tag="LOC_PANTHEON_BONUS_5_DESCRIPTION" Language="th_TH">
 			<Text>+5 [icon:Action_Heal] HP สำหรับยูนิตใน ช่องชนบทที่มี แท่นบูชา ใน [icon:NOTIFICATION_SELECT_CAPITAL] เมืองหลวง</Text>		<!-- +5 [icon:Action_Heal] Healing for Units in Rural tiles with an Altar in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital. -->
@@ -17868,7 +17890,8 @@
 			<Text>โลกใหม่ที่กล้าหาญ</Text>		<!-- The Brave New World -->
 		</Replace>
 		<Replace Tag="LOC_TOT_30001A_COMPLETION" Language="th_TH">
-			<Text>การสนทนาชะลอตัวลงอย่างต่อเนื่องระหว่างงานเลี้ยงค่ำระดับรัฐ - มีคนลากช้อนส้อมไปตามจาน: ผู้ส่งสารชาวอเมริกัน, บรรดาผู้มีเกียรติสั่นสะท้านกับเสียงนั้น ก่อนจะผงะเมื่อเขาขอซอสเพิ่มเติม, และคำดูหมิ่นครั้งสุดท้าย: ชาวอเมริกันถามด้วยเสียงดังว่า “เมื่อไหร่เราจะลงนามในเรื่องนี้ให้ได้สักที”, ชาวอเมริกันกล้าห้าว และก้าวร้าวเล็กน้อย แต่พวกเขายังมีอะไรที่ต้องเรียนรู้เกี่ยวกับการทูต</Text>		<!-- Conversation steadily slows over the state dinner - someone is scraping their utensils along a plate: the American envoy. Dignitaries shudder at the sound, only to gasp when he asks for extra sauce. And the final insult: the American asks in a loud voice, “when are we gonna finally sign this thing?” Americans are bold, brash, but they have much to learn about diplomacy. -->
+			<Text>การสนทนาชะลอตัวลงอย่างต่อเนื่องระหว่างงานเลี้ยงค่ำระดับรัฐ, มีคนลากช้อนส้อมไปตามจาน: ผู้ส่งสารชาวอเมริกัน, บรรดาผู้มีเกียรติสั่นสะท้านกับเสียงนั้น ก่อนจะผงะเมื่อเขาขอซอสเพิ่มเติม, และคำดูหมิ่นครั้งสุดท้าย – ชาวอเมริกันถามด้วยเสียงดังว่า “เมื่อไหร่เราจะลงนามในเรื่องนี้ให้ได้สักที?” ชาวอเมริกันกล้าห้าว และก้าวร้าวเล็กน้อย แต่พวกเขายังมีอะไรที่ต้องเรียนรู้เกี่ยวกับการทูต</Text>		<!-- Conversation steadily slows over the state dinner. Someone is scraping their utensils along a plate: the American envoy. Dignitaries shudder at the sound, only to gasp when he asks for extra sauce. And the final insult – the American asks in a loud voice, “When are we gonna finally sign this thing?” Americans are bold, brash, but they have much to learn about diplomacy. -->
+			
 		</Replace>
 		<Replace Tag="LOC_TOT_30001B_NAME" Language="th_TH">
 			<Text>แต่ความกล้าหาญนี้คือพลังของพวกเขา, พวกเขาทลายกรงแห่งการโอ้อวดที่ฟุ้งเฟ้อ</Text>		<!-- But this boldness is their strength. They break the cage of pompous pretension. -->
@@ -18276,7 +18299,8 @@
 			<Text>+15% [icon:YIELD_PRODUCTION] กำลังผลิต สำหรับฝึก [TIP:LOC_PEDIA_CONCEPTS_MILITARY_UNIT_TOOLTIP]ยูนิตทหาร[/TIP] ใน [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ที่มีแท่นบูชา</Text>		<!-- +15% [icon:YIELD_PRODUCTION] Production towards training [TIP:LOC_PEDIA_CONCEPTS_MILITARY_UNIT_TOOLTIP]Military Units[/TIP] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] with an Altar. -->
 		</Replace>
 		<Replace Tag="LOC_PANTHEON_BONUS_12_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]ย่าน[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่มีแท่นบูชา</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with an Altar. -->
+			<Text>+1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]ย่าน[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่มีแท่นบูชา</Text>		<!-- +1 [icon:YIELD_SCIENCE] Science on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with an Altar. -->
+			
 		</Replace>
 		<Replace Tag="LOC_PANTHEON_BONUS_13_DESCRIPTION" Language="th_TH">
 			<Text>+10% [icon:YIELD_PRODUCTION] กำลังผลิต เพื่อสร้าง [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP] ใน [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ที่มีแท่นบูชา, เทพเจ้านี้สามารถถูกเลือกได้โดย อารยธรรมหลายแห่ง</Text>		<!-- +10% [icon:YIELD_PRODUCTION] Production towards constructing [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] with an Altar. This Pantheon can be chosen by multiple Civilizations. -->

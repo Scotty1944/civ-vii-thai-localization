@@ -2729,10 +2729,12 @@
 			<Text>ธนาคาร</Text>		<!-- Bank -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BANK_DESCRIPTION" Language="th_TH">
-			<Text>+8 [icon:YIELD_GOLD] ทอง, +1 [icon:YIELD_GOLD] ทอง บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]ย่าน[/TIP], [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทอง ยุคสำรวจ[/TIP]</Text>		<!-- +8 [icon:YIELD_GOLD] Gold. +1 [icon:YIELD_GOLD] Gold on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP]. Exploration Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+			<Text>+8 [icon:YIELD_GOLD] ทอง, +1 [icon:YIELD_GOLD] ทอง บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]ย่าน[/TIP], [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านทอง ยุคสำรวจ[/TIP]</Text>		<!-- +8 [icon:YIELD_GOLD] Gold. +1 [icon:YIELD_GOLD] Gold on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP]. Exploration Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+			
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BANK_TOOLTIP" Language="th_TH">
-			<Text>เอฟเฟค: +1 [icon:YIELD_GOLD] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]ย่าน[/TIP]</Text>		<!-- Effect: +1 [icon:YIELD_GOLD] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP]. -->
+			<Text>เอฟเฟค: +1 [icon:YIELD_GOLD] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]ย่าน[/TIP]</Text>		<!-- Effect: +1 [icon:YIELD_GOLD] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP]. -->
+			
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BAZAAR_NAME" Language="th_TH">
 			<Text>ตลาดนัด</Text>		<!-- Bazaar -->
@@ -2828,10 +2830,12 @@
 			<Text>ศาลา</Text>		<!-- Pavilion -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_PAVILION_DESCRIPTION" Language="th_TH">
-			<Text>+8[icon:YIELD_CULTURE] วัฒนธรรม +1 [icon:YIELD_HAPPINESS] ความสุข บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]ย่าน[/TIP] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรม ยุคสำรวจ[/TIP]</Text>		<!-- +8 [icon:YIELD_CULTURE] Culture. +1 [icon:YIELD_HAPPINESS] Happiness on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP]. Exploration Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+			<Text>+8[icon:YIELD_CULTURE] วัฒนธรรม +1 [icon:YIELD_HAPPINESS] ความสุข บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]ย่าน[/TIP] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวัฒนธรรม ยุคสำรวจ[/TIP]</Text>		<!-- +8 [icon:YIELD_CULTURE] Culture. +1 [icon:YIELD_HAPPINESS] Happiness on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP]. Exploration Culture [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+			
 		</Replace>
 		<Replace Tag="LOC_BUILDING_PAVILION_TOOLTIP" Language="th_TH">
-			<Text>เอฟเฟค: +1[icon:YIELD_HAPPINESS] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]ย่าน[/TIP]</Text>		<!-- Effect: +1 [icon:YIELD_HAPPINESS] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP]. -->
+			<Text>เอฟเฟค: +1[icon:YIELD_HAPPINESS] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]ย่าน[/TIP]</Text>		<!-- Effect: +1 [icon:YIELD_HAPPINESS] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP]. -->
+			
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SAWMILL_NAME" Language="th_TH">
 			<Text>โรงเลื่อย</Text>		<!-- Sawmill -->
@@ -2882,10 +2886,12 @@
 			<Text>มหาวิทยาลัย</Text>		<!-- University -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_UNIVERSITY_DESCRIPTION" Language="th_TH">
-			<Text>+8 [icon:YIELD_SCIENCE] วิทยาศาสตร์, +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]ย่าน[/TIP], [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์ ยุคสำรวจ[/TIP]</Text>		<!-- +8 [icon:YIELD_SCIENCE] Science. +1 [icon:YIELD_SCIENCE] Science on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP]. Exploration Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+			<Text>+8 [icon:YIELD_SCIENCE] วิทยาศาสตร์, +1 [icon:YIELD_SCIENCE] วิทยาศาสตร์ บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]ย่าน[/TIP], [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์ ยุคสำรวจ[/TIP]</Text>		<!-- +8 [icon:YIELD_SCIENCE] Science. +1 [icon:YIELD_SCIENCE] Science on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP]. Exploration Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP]. -->
+			
 		</Replace>
 		<Replace Tag="LOC_BUILDING_UNIVERSITY_TOOLTIP" Language="th_TH">
-			<Text>เอฟเฟค: +1 [icon:YIELD_SCIENCE] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]ย่าน[/TIP]</Text>		<!-- Effect: +1 [icon:YIELD_SCIENCE] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP]. -->
+			<Text>เอฟเฟค: +1 [icon:YIELD_SCIENCE] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]ย่าน[/TIP]</Text>		<!-- Effect: +1 [icon:YIELD_SCIENCE] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP]. -->
+			
 		</Replace>
 		<Replace Tag="LOC_BUILDING_WHARF_NAME" Language="th_TH">
 			<Text>เขื่อนเทียบเรือ</Text>		<!-- Wharf -->
@@ -2900,7 +2906,8 @@
 			<Text>มัดระซะ</Text>		<!-- Madrasa -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MADRASA_DESCRIPTION" Language="th_TH">
-			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษด้านวิทยาศาสตร์[/TIP] ของอับบาสิด, +6[icon:YIELD_SCIENCE] วิทยาศาสตร์, +1[icon:YIELD_SCIENCE] โบนัสใกล้เคียงสำหรับ [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]พื้นที่ย่าน[/TIP], [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP], และ [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP], คงอยู่ตลอดกาล</Text>		<!-- Abbasid [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Science Building[/TIP]. +6[icon:YIELD_SCIENCE] Science. +1[icon:YIELD_SCIENCE] Science Adjacency for [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP], Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP], and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. -->
+			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษด้านวิทยาศาสตร์[/TIP] ของอับบาสิด, +6[icon:YIELD_SCIENCE] วิทยาศาสตร์, +1[icon:YIELD_SCIENCE] โบนัสใกล้เคียงสำหรับ [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]พื้นที่ย่าน[/TIP], [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคารด้านวิทยาศาสตร์[/TIP], และ [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP], คงอยู่ตลอดกาล</Text>		<!-- Abbasid [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Science Building[/TIP]. +6[icon:YIELD_SCIENCE] Science. +1[icon:YIELD_SCIENCE] Science Adjacency for [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP], Science [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP], and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. -->
+			
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MADRASA_TOOLTIP" Language="th_TH">
 			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษ[/TIP] ของอับบาสิด</Text>		<!-- Abbasid [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Building[/TIP]. -->
@@ -2930,7 +2937,8 @@
 			<Text>มานิกรามัม</Text>		<!-- Manigramam -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MANIGRAMAM_DESCRIPTION" Language="th_TH">
-			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษด้านความสุข[/TIP] ของโจฬะ, +6[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_GOLD] ทอง โบนัสใกล้เคียงสำหรับ [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]ย่าน[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP], +1[icon:YIELD_HAPPINESS] ความสุขสำหรับการอยู่ใกล้ช่องอาคารทองและ [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP], คงอยู่ตลอดกาล, ต้องวางบนช่องใกล้กับชายฝั่ง</Text>		<!-- Chola [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Happiness Building[/TIP]. +6[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_GOLD] Gold Adjacency for [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. +1[icon:YIELD_HAPPINESS] Happiness Adjacency for Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. Must be placed adjacent to Coast. -->
+			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษด้านความสุข[/TIP] ของโจฬะ, +6[icon:YIELD_HAPPINESS] ความสุข, +1[icon:YIELD_GOLD] ทอง โบนัสใกล้เคียงสำหรับ [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]ย่าน[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP], +1[icon:YIELD_HAPPINESS] ความสุขสำหรับการอยู่ใกล้ช่องอาคารทองและ [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP], คงอยู่ตลอดกาล, ต้องวางบนช่องใกล้กับชายฝั่ง</Text>		<!-- Chola [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Happiness Building[/TIP]. +6[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_GOLD] Gold Adjacency for [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. +1[icon:YIELD_HAPPINESS] Happiness Adjacency for Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. Must be placed adjacent to Coast. -->
+			
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MANIGRAMAM_TOOLTIP" Language="th_TH">
 			<Text>ต้องวางบนช่องใกล้กับชายฝั่ง [N][TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษ[/TIP] ของโจฬะ</Text>		<!-- Must be placed adjacent to Coast.[N]Chola [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Building[/TIP]. -->
@@ -2978,7 +2986,8 @@
 			<Text>คาซ่า คอนซิสทอริอัล</Text>		<!-- Casa Consistorial -->
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CASA_CONSISTORIAL_DESCRIPTION" Language="th_TH">
-			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษด้านวัฒนธรรม[/TIP] ของสเปน, +6[icon:YIELD_CULTURE] วัฒนธรรม, +1[icon:YIELD_CULTURE] วัฒนธรรม โบนัสใกล้เคียงสำหรับ [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]พื้นที่ย่าน[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP], จะต้องสร้างใน [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]แผ่นดินบ้านเกิด[/TIP] ใกล้ชายฝั่ง</Text>		<!-- Spanish [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Culture Building[/TIP]. +6[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_CULTURE] Culture Adjacency for [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. Must be built in the [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]Homelands[/TIP] adjacent to Coast. -->
+			<Text>[TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษด้านวัฒนธรรม[/TIP] ของสเปน, +6[icon:YIELD_CULTURE] วัฒนธรรม, +1[icon:YIELD_CULTURE] วัฒนธรรม โบนัสใกล้เคียงสำหรับ [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]พื้นที่ย่าน[/TIP] และ [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP], จะต้องสร้างใน [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]แผ่นดินบ้านเกิด[/TIP] ใกล้ชายฝั่ง</Text>		<!-- Spanish [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Culture Building[/TIP]. +6[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_CULTURE] Culture Adjacency for [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP] and [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonders[/TIP]. Must be built in the [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]Homelands[/TIP] adjacent to Coast. -->
+			
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CASA_CONSISTORIAL_TOOLTIP" Language="th_TH">
 			<Text>ต้องสร้างใน[TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]ดินแดนบ้านเกิด[/TIP]ที่อยู่ติดกับชายฝั่ง[N][TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษ[/TIP] ของสเปน</Text>		<!-- Must be built in the [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]Homelands[/TIP] adjacent to Coast.[N]Spanish [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Building[/TIP]. -->
@@ -3149,10 +3158,12 @@
 			<Text>บุโรพุทโธ</Text>		<!-- Borobudur -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_BOROBUDUR_DESCRIPTION" Language="th_TH">
-			<Text>[B]+3 [icon:YIELD_HAPPINESS][/B], [B]+3 [icon:YIELD_FOOD][/B] และ [B]+1 [icon:YIELD_HAPPINESS][/B] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]พื้นที่ย่านพิเศษ[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] นี้ [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]คงอยู่ตลอดกาล[/TIP], ต้องวางอยู่ติดกับชายฝั่ง</Text>		<!-- [B]+3 [icon:YIELD_HAPPINESS][/B]. [B]+3 [icon:YIELD_FOOD][/B] and [B]+1 [icon:YIELD_HAPPINESS][/B] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]Quarters[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be placed adjacent to Coast. -->
+			<Text>[B]+3 [icon:YIELD_HAPPINESS][/B], [B]+3 [icon:YIELD_FOOD][/B] และ [B]+1 [icon:YIELD_HAPPINESS][/B] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]พื้นที่ย่าน[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] นี้ [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]คงอยู่ตลอดกาล[/TIP], ต้องวางอยู่ติดกับชายฝั่ง</Text>		<!-- [B]+3 [icon:YIELD_HAPPINESS][/B]. [B]+3 [icon:YIELD_FOOD][/B] and [B]+1 [icon:YIELD_HAPPINESS][/B] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be placed adjacent to Coast. -->
+			
 		</Replace>
 		<Replace Tag="LOC_WONDER_BOROBUDUR_TOOLTIP" Language="th_TH">
-			<Text>[B]+3 [icon:YIELD_FOOD][/B] และ [B]+1 [icon:YIELD_HAPPINESS][/B] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]พื้นที่ย่าน[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] นี้[N]ต้องวางอยู่ติดกับชายฝั่ง</Text>		<!-- [B]+3 [icon:YIELD_FOOD][/B] and [B]+1 [icon:YIELD_HAPPINESS][/B] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]Quarters[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP].[N]Must be placed adjacent to Coast. -->
+			<Text>[B]+3 [icon:YIELD_FOOD][/B] และ [B]+1 [icon:YIELD_HAPPINESS][/B] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]พื้นที่ย่าน[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] นี้[N]ต้องวางอยู่ติดกับชายฝั่ง</Text>		<!-- [B]+3 [icon:YIELD_FOOD][/B] and [B]+1 [icon:YIELD_HAPPINESS][/B] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP].[N]Must be placed adjacent to Coast. -->
+			
 		</Replace>
 		<Replace Tag="LOC_MOD_BOROBUDUR_TWO_BUILDING_FOOD_DESCRIPTION" Language="th_TH">
 			<Text>อาหารจากบอร์โบดูร์</Text>		<!-- Food from Borobudur. -->
@@ -3290,7 +3301,8 @@
 			<Text>พาณิชย์นิยม</Text>		<!-- Mercantilism -->
 		</Replace>
 		<Replace Tag="LOC_CIVIC_MERCANTILISM_QUOTE" Language="th_TH">
-			<Text>เงินจำนวนมากทำให้สิ่งของโดยทั่วไปมีราคาแพง และการขาดแคลนเงินทำให้สิ่งของโดยทั่วไปมีราคาถูก</Text>		<!-- "Plentie of money maketh generally things deare, and scarcity of money maketh likewise generally things good cheape." -->
+			<Text>เงินจำนวนมากทำให้สิ่งของโดยทั่วไปมีราคาแพง และการขาดแคลนเงินทำให้สิ่งของโดยทั่วไปมีราคาถูก</Text>		<!-- "Plentie of money maketh generally things deare, and scarcitie of money maketh likewise generally things good cheape." -->
+			
 		</Replace>
 		<Replace Tag="LOC_CIVIC_MERCANTILISM_QUOTE_AUTHOR" Language="th_TH">
 			<Text>เจอราร์ด เดอ มาลีนส์</Text>		<!-- Gerard de Malynes -->
@@ -3854,7 +3866,8 @@
 			<Text>อุปสงค์และอุปทาน</Text>		<!-- Supply and Demand -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_EX_ATTRIBUTE_ECONOMIC_01_DESCRIPTION" Language="th_TH">
-			<Text>[B]+3 [icon:YIELD_GOLD][/B] สำหรับทุก [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_EMPIRE_RESOURCES_TOOLTIP]ทรัพยากรจักรวรรดิ[/TIP] ที่คุณมี</Text>		<!-- [B]+3 [icon:YIELD_GOLD][/B] for every [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_EMPIRE_RESOURCES_TOOLTIP]Empire Resource[/TIP] you have. -->
+			<Text>[B]+3 [icon:RESOURCECLASS_EMPIRE] [TIP:LOC_PEDIA_CONCEPTS_EMPIRE_RESOURCES_TOOLTIP]ทรัพยากรจักรวรรดิ[/TIP] ที่คุณมี</Text>		<!-- [B]+3 [icon:YIELD_GOLD][/B] for every [icon:RESOURCECLASS_EMPIRE] [TIP:LOC_PEDIA_CONCEPTS_EMPIRE_RESOURCES_TOOLTIP]Empire Resource[/TIP] you have. -->
+			
 		</Replace>
 		<Replace Tag="LOC_TRADITION_EX_ATTRIBUTE_EXPANSIONIST_01_TALL_NAME" Language="th_TH">
 			<Text>ธรรมนูญเทศบาล</Text>		<!-- Municipal Charters -->
@@ -4304,7 +4317,8 @@
 			<Text>เนการาเคอร์ตากามา II</Text>		<!-- Negarakertagama II -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_NEGARAKERTAGAMA_II_DESCRIPTION" Language="th_TH">
-			<Text>[B]+33% [icon:YIELD_FOOD][/B] เพื่อบำรุงรักษา [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]ผู้เชี่ยวชาญ[/TIP], [B]+4 [icon:YIELD_CULTURE][/B] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]ย่าน[/TIP] บนหรือถัดจาก [icon:CITY_UNIMPROVED] ชายฝั่ง</Text>		<!-- [B]+33% [icon:YIELD_FOOD][/B] towards maintaining [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP]. [B]+4 [icon:YIELD_CULTURE][/B] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]Quarters[/TIP] on or adjacent to [icon:CITY_UNIMPROVED] Coast. -->
+			<Text>[B]+33% [icon:YIELD_FOOD][/B] เพื่อบำรุงรักษา [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]ผู้เชี่ยวชาญ[/TIP], [B]+4 [icon:YIELD_CULTURE][/B] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]ย่าน[/TIP] บนหรือถัดจาก [icon:CITY_UNIMPROVED] ชายฝั่ง</Text>		<!-- [B]+33% [icon:YIELD_FOOD][/B] towards maintaining [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP]. [B]+4 [icon:YIELD_CULTURE][/B] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP] on or adjacent to [icon:CITY_UNIMPROVED] Coast. -->
+			
 		</Replace>
 		<Replace Tag="LOC_TRADITION_NEGARAKERTAGAMA_TOOLTIP" Language="th_TH">
 			<Text>เนการา เคอร์ตากามา</Text>		<!-- Negarakertagama -->
@@ -4328,13 +4342,15 @@
 			<Text>ซูบัก I</Text>		<!-- Subak I -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_MAJAPAHIT_SYNCRETISM_ANTIQUITY_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_FOOD] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]ย่าน[/TIP] บน หรือใกล้ชิดกับ [icon:CITY_UNIMPROVED] ชายฝั่ง, +10% [icon:GROWTH_RATE] [TIP:LOC_PEDIA_CONCEPTS_GROWTH_RATE_TOOLTIP]อัตราเติบโต[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่ติดกับ [icon:CITY_UNIMPROVED] ชายฝั่ง</Text>		<!-- [B]+2 [icon:YIELD_FOOD][/B] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]Quarters[/TIP] on or adjacent to [icon:CITY_UNIMPROVED] Coast. [B]+10% [icon:GROWTH_RATE][/B] [TIP:LOC_PEDIA_CONCEPTS_GROWTH_RATE_TOOLTIP]Growth Rate[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] adjacent to [icon:CITY_UNIMPROVED] Coast. -->
+			<Text>+2 [icon:YIELD_FOOD] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]ย่าน[/TIP] บน หรือใกล้ชิดกับ [icon:CITY_UNIMPROVED] ชายฝั่ง, +10% [icon:GROWTH_RATE] [TIP:LOC_PEDIA_CONCEPTS_GROWTH_RATE_TOOLTIP]อัตราเติบโต[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่ติดกับ [icon:CITY_UNIMPROVED] ชายฝั่ง</Text>		<!-- [B]+2 [icon:YIELD_FOOD][/B] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP] on or adjacent to [icon:CITY_UNIMPROVED] Coast. [B]+10% [icon:GROWTH_RATE][/B] [TIP:LOC_PEDIA_CONCEPTS_GROWTH_RATE_TOOLTIP]Growth Rate[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] adjacent to [icon:CITY_UNIMPROVED] Coast. -->
+			
 		</Replace>
 		<Replace Tag="LOC_TRADITION_MAJAPAHIT_SYNCRETISM_MODERN_NAME" Language="th_TH">
 			<Text>ซูบัค ทู</Text>		<!-- Subak II -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_MAJAPAHIT_SYNCRETISM_MODERN_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_FOOD] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]ย่าน[/TIP] บน หรือใกล้ชิดกับ [icon:CITY_UNIMPROVED] ชายฝั่ง, +15% [icon:GROWTH_RATE] [TIP:LOC_PEDIA_CONCEPTS_GROWTH_RATE_TOOLTIP]อัตราเติบโต[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่อยู่ติดกับ [icon:CITY_UNIMPROVED] ชายฝั่ง</Text>		<!-- [B]+4 [icon:YIELD_FOOD][/B] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]Quarters[/TIP] on or adjacent to [icon:CITY_UNIMPROVED] Coast. [B]+15% [icon:GROWTH_RATE][/B] [TIP:LOC_PEDIA_CONCEPTS_GROWTH_RATE_TOOLTIP]Growth Rate[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] adjacent to [icon:CITY_UNIMPROVED] Coast. -->
+			<Text>+4 [icon:YIELD_FOOD] บน [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]ย่าน[/TIP] บน หรือใกล้ชิดกับ [icon:CITY_UNIMPROVED] ชายฝั่ง, +15% [icon:GROWTH_RATE] [TIP:LOC_PEDIA_CONCEPTS_GROWTH_RATE_TOOLTIP]อัตราเติบโต[/TIP] ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่อยู่ติดกับ [icon:CITY_UNIMPROVED] ชายฝั่ง</Text>		<!-- [B]+4 [icon:YIELD_FOOD][/B] on [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_QUARTER_TOOLTIP]Quarters[/TIP] on or adjacent to [icon:CITY_UNIMPROVED] Coast. [B]+15% [icon:GROWTH_RATE][/B] [TIP:LOC_PEDIA_CONCEPTS_GROWTH_RATE_TOOLTIP]Growth Rate[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] adjacent to [icon:CITY_UNIMPROVED] Coast. -->
+			
 		</Replace>
 		<Replace Tag="LOC_TRADITION_MAJAPAHIT_SYNCRETISM_TOOLTIP" Language="th_TH">
 			<Text>ซูบัค</Text>		<!-- Subak -->
@@ -7970,13 +7986,15 @@
 			<Text>อาลิม</Text>		<!-- 'Alim -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_ALIM_DESCRIPTION" Language="th_TH">
-			<Text>บุคคลสำคัญ พร้อมให้ใช้งาน 1 ครั้ง, สามารถถูกฝึกได้เฉพาะใน [icon:YIELD_CITIES] เมืองใหญ่ที่มี [icon:CITY_UNIQUE_QUARTER] อุลามะห์ และ อาลิมที่ได้รับเป็นการสุ่ม อาลิมแต่ละคนสามารถได้รับเพียงครั้งเดียว ค่าใช้จ่ายจะเพิ่มขึ้นตามจำนวน อาลิมที่ฝึกอบรม</Text>		<!-- A Great Person with one charge. Can only be trained in [icon:YIELD_CITIES] Cities with an [icon:CITY_UNIQUE_QUARTER] Ulema, and the specific 'Alim received is random. Each 'Alim can only be received once. Cost increases per 'Alim trained. -->
+			<Text>บุคคลสำคัญ พร้อมให้ใช้งาน 1 ครั้ง, จะได้รับหนึ่งคนเมื่อคุณวาง [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]ผู้เชี่ยวชาญ[/TIP] ใน [icon:CITY_UNIQUE_QUARTER] อุลามะห์ และ อาลิมที่ได้รับเป็นการสุ่ม อาลิมแต่ละคนสามารถได้รับเพียงครั้งเดียว</Text>		<!-- A Great Person with one charge. Receive one when you place a [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialist[/TIP] on a [icon:CITY_UNIQUE_QUARTER] Ulema, and the specific 'Alim received is random. Each 'Alim can only be received once. -->
+			
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_ALIM_AL_JAHIZ_NAME" Language="th_TH">
 			<Text>อัล-จาฮิซ</Text>		<!-- Al-Jahiz -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_ALIM_AL_JAHIZ_DESCRIPTION" Language="th_TH">
-			<Text>สร้าง เมนาเจอรี ในเมือง เมนาเจอรีนี้ ได้รับ +2[icon:YIELD_HAPPINESS] ความสุข เมื่อต้องมีอาคารน้อยกว่า 2 อาคาร และเมืองนั้นไม่สามารถมีสวนสัตว์ได้</Text>		<!-- Create a Menagerie in a City. This Menagerie gains +2 [icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Menagerie. -->
+			<Text>ใช้ได้เมื่อเปิดใช้งานบน &lt;i>อุเลมา&lt;/i> ที่สร้างแล้ว สามารถซื้อ เมนาเจอรี ฟรี 1 แห่ง (เมื่อคุณปลดล็อก สถาปัตยกรรม)</Text>		<!-- Activate on a completed Ulema. Can purchase 1 Menagerie for free. (Once you unlock Architecture) -->
+			
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_ALIM_AL_KHWARIZMI_NAME" Language="th_TH">
 			<Text>อัล-คฺวาริซมีกี</Text>		<!-- Al-Khwarizmi -->
@@ -7988,7 +8006,8 @@
 			<Text>อิบน ซินนา</Text>		<!-- Ibn Sina -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_ALIM_IBN_SINA_DESCRIPTION" Language="th_TH">
-			<Text>สร้างโรงพยาบาลในเมือง โรงพยาบาลนี้จะได้รับ +2[icon:YIELD_FOOD] อาหาร แปลงต้องมีอาคารน้อยกว่า 2 อาคาร และเมืองนั้นต้องไม่มีโรงพยาบาล</Text>		<!-- Create a Hospital in a City. This Hospital gains +2 [icon:YIELD_FOOD] Food. Tile must have less than 2 Buildings and the City cannot have a Hospital. -->
+			<Text>เปิดใช้งานเมื่อ อูเลมา เสร็จสมบูรณ์ สามารถซื้อโรงพยาบาล 1 หลังได้ฟรี (เมื่อคุณปลดล็อกเทคโนโลยีการวางผังเมือง)</Text>		<!-- Activate on a completed Ulema. Can purchase 1 Hospital for free. (Once you unlock the Urban Planning Technology) -->
+			
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_ALIM_AL_MAQDISI_NAME" Language="th_TH">
 			<Text>อัล-มักดิสซี</Text>		<!-- Al-Maqdisi -->
@@ -8000,7 +8019,8 @@
 			<Text>อัล-ฟาร์กานี</Text>		<!-- Al-Farghani -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_ALIM_AL_FARGHANI_DESCRIPTION" Language="th_TH">
-			<Text>สร้างหอดูดาวในเมือง หอดูดาวนี้จะ ได้รับ +2[icon:YIELD_SCIENCE] วิทยศาสตร์ แผ่นดินต้องมีตึกน้อยกว่า 2 หลัง และเมืองต้องไม่มีหอดูดาว</Text>		<!-- Create an Observatory in a City. This Observatory gains +2 [icon:YIELD_SCIENCE] Science. Tile must have less than 2 Buildings and the City cannot have an Observatory. -->
+			<Text>ใช้งานได้เมื่อมี อูเลมา เสร็จสมบูรณ์, สามารถซื้อหอดูดาว 1 แห่งได้ฟรี (เมื่อคุณปลดล็อกเทคโนโลยี ดาราศาสตร์)</Text>		<!-- Activate on a completed Ulema. Can purchase 1 Observatory for free. (Once you unlock the Astronomy Technology) -->
+			
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_ALIM_AL_FARABI_NAME" Language="th_TH">
 			<Text>อัลฟาราบี</Text>		<!-- Al-Farabi -->
@@ -8036,7 +8056,8 @@
 			<Text>คอนควิสทาดอร์</Text>		<!-- Conquistador -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_CONQUISTADOR_DESCRIPTION" Language="th_TH">
-			<Text>บุคคลสำคัญ พร้อมให้ใช้งาน 1 ครั้ง, สามารถฝึกฝนได้ เฉพาะใน [icon:YIELD_CITIES] เมืองใหญ่ที่มี [icon:CITY_UNIQUE_QUARTER] พลาซ่า, และ คอนควิสทาดอร์ ที่ได้รับจะเป็นแบบสุ่ม, คอนควิสทาดอร์ แต่ละคนสามารถรับได้เพียงครั้งเดียว และสามารถเปิดใช้งานได้เฉพาะใน ดินแดนห่างไกล, ค่าใช้จ่ายจะเพิ่มขึ้น เมื่อฝึกฝน คอนควิสทาดอร์ แต่ละคน เขาสามารถออกเรือในมหาสมุทรได้เสมอ</Text>		<!-- A Great Person with one charge. Can only be trained in [icon:YIELD_CITIES] Cities with a [icon:CITY_UNIQUE_QUARTER] Plaza, and the specific Conquistador received is random. Each Conquistador can only be received once and can only be activated in Distant Lands. Cost increases per Conquistador trained. Can always Embark in Ocean. -->
+			<Text>บุคคลสำคัญ พร้อมให้ใช้งาน 1 ครั้ง, ได้รับหนึ่งคนเมื่อคุณสร้าง [icon:CITY_UNIQUE_QUARTER] พลาซ่า หรือได้รับ [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ด้วยวิธีใดๆ ใน [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]ดินแดนห่างไกล[/TIP], คอนควิสทาดอร์ ที่ได้รับจะเป็นแบบสุ่ม, คอนควิสทาดอร์ แต่ละคนสามารถรับได้เพียงครั้งเดียว และสามารถเปิดใช้งานได้เฉพาะใน ดินแดนห่างไกล, สามารถ[TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]ออกเรือ[/TIP]ในมหาสมุทรได้เสมอ</Text>		<!-- A Great Person with one charge. Receive one when you complete a Plaza or gain a [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] in any way in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Lands[/TIP]. The specific Conquistador received is random. Each Conquistador can only be received once and can only be activated in Distant Lands. Can always [TIP:LOC_PEDIA_CONCEPTS_EMBARK_TOOLTIP]Embark[/TIP] in Ocean. -->
+			
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_CONQUISTADOR_FERDINAND_MAGELLAN_NAME" Language="th_TH">
 			<Text>เฟอร์ดินานด์ มาเจลลัน</Text>		<!-- Ferdinand Magellan -->
@@ -9356,7 +9377,8 @@
 			<Text>อาณาจักรยืนอยู่ในขอบเขตของการค้นพบใหม่ และโลกกำลังรอคอย</Text>		<!-- The empire stands at the brink of new discoveries, and the world awaits. -->
 		</Replace>
 		<Replace Tag="LOC_13B_IMPERATIVE" Language="th_TH">
-			<Text>ได้ฝึก อาลิม 4 หน่วย ภายใน {1_turn_timer}</Text>		<!-- Have trained 4 'Alim within {1_turn_timer}. -->
+			<Text>ได้รับ อาลิม 3 หน่วย ภายใน {1_turn_timer}</Text>		<!-- Gain 3 'Alim within {1_turn_timer}. -->
+			
 		</Replace>
 		<Replace Tag="LOC_14A_STORYTITLE" Language="th_TH">
 			<Text>จุดหมายแห่งแรงบันดาลใจ</Text>		<!-- Destination Inspiration -->

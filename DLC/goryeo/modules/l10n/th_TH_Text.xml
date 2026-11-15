@@ -127,6 +127,7 @@
 +1 [icon:YIELD_DIPLOMACY] อิทธิพล ต่อ [icon:CITY_RURAL] พื้นที่พัฒนาพิเศษ ใน [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP]</Text>		<!-- +3 [icon:YIELD_CULTURE] Culture for active [icon:ENDEAVOR] [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]Endeavors[/TIP] you started or supported.
 			+1 [icon:YIELD_CULTURE] Culture on [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvements[/TIP] in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP].
 			+1 [icon:YIELD_DIPLOMACY] Influence on [icon:CITY_RURAL] Unique Improvement in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP]. -->
+			
 		</Replace>
 		<Replace Tag="LOC_TRAIT_GORYEO_ABILITY_AQ_DESCRIPTION" Language="th_TH">
 			<Text>[BLIST][LI][B]+2 [icon:YIELD_CULTURE] วัฒนธรรม[/B] สำหรับ [icon:ENDEAVOR] [B][TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]ความร่วมมือ[/TIP][/B] ที่คุณเริ่มหรือสนับสนุนอยู่
@@ -134,6 +135,7 @@
 			[LI][B]+1 [icon:YIELD_DIPLOMACY] อิทธิพล[/B] ต่อ [icon:CITY_RURAL] พื้นที่พัฒนาพิเศษ ใน [B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP][/B][/BLIST]</Text>		<!-- [BLIST][LI][B]+2 [icon:YIELD_CULTURE] Culture[/B] for active [icon:ENDEAVOR] [B][TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]Endeavors[/TIP][/B] you started or supported.
 			[LI][B]+1 [icon:YIELD_CULTURE] Culture[/B] on [icon:CITY_RURAL] [B][TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvements[/TIP][/B] in [B][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP].[/B]
 			[LI][B]+1 [icon:YIELD_DIPLOMACY] Influence[/B] on [icon:CITY_RURAL] Unique Improvements in [B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP].[/B][/BLIST] -->
+			
 		</Replace>
 		<Replace Tag="LOC_TRAIT_GORYEO_ABILITY_EX_DESCRIPTION" Language="th_TH">
 			<Text>[BLIST][LI][B]+3 [icon:YIELD_CULTURE] วัฒนธรรม[/B] สำหรับ [icon:ENDEAVOR] [B][TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]ความร่วมมือ[/TIP][/B] ที่คุณเริ่มหรือสนับสนุนอยู่
@@ -143,6 +145,7 @@
 			[LI][B]+1 [icon:YIELD_CULTURE] Culture[/B] on [icon:CITY_RURAL] [B][TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvements[/TIP][/B] in [B][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP].[/B]
 			[LI][B]+1 [icon:YIELD_DIPLOMACY] Influence[/B] on [icon:CITY_RURAL] Unique Improvements in [B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP].[/B]
 			[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Buseoksa[/B].[/BLIST] -->
+			
 		</Replace>
 		<Replace Tag="LOC_TRAIT_GORYEO_ABILITY_MO_DESCRIPTION" Language="th_TH">
 			<Text>[BLIST][LI][B]+4 [icon:YIELD_CULTURE] วัฒนธรรม[/B] สำหรับ [icon:ENDEAVOR] [TIP:LOC_PEDIA_CONCEPTS_ENDEAVOR_TOOLTIP]ความร่วมมือ[/TIP] ที่คุณเริ่มหรือสนับสนุน อยู่ในสถานะใช้งาน
@@ -152,6 +155,7 @@
 			[LI][B]+1 [icon:YIELD_CULTURE] Culture[/B] on [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvements[/TIP] in [B][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP].[/B]
 			[LI][B]+1 [icon:YIELD_DIPLOMACY] Influence[/B] on [icon:CITY_RURAL] Unique Improvements in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP].
 			[LI][B]+1 [icon:CULTURE_VP] Tourism[/B] from [icon:CITY_RURAL] Unique Improvements.[/BLIST] -->
+			
 		</Replace>
 		<Replace Tag="LOC_INDEPENDENT_EXPLORATION_15_MINOR_GORYEO_NAME" Language="th_TH">
 			<Text>อุซาน</Text>		<!-- Usan -->
@@ -229,10 +233,12 @@
 			<Text>บุเซอกซา</Text>		<!-- Buseoksa -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_BUSEOKSA_DESCRIPTION" Language="th_TH">
-			<Text>[B]+2 [icon:YIELD_HAPPINESS][/B], ความปีติยินดี [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่อยู่ห่างจาก [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP] นี้ไม่เกิน 6 ช่อง จะได้รับ [B]+1 [icon:YIELD_DIPLOMACY] อิทธิพล[/B] ต่อ [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนาพิเศษ[/TIP], ความปีล้น [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่อยู่ห่างจาก [icon:WONDER] สิ่งมหัศจรรย์ นี้ไม่เกิน 6 ช่อง จะได้รับ [B]+1 [icon:YIELD_DIPLOMACY] อิทธิพล[/B] และ [B]+2 [icon:YIELD_GOLD] ทอง[/B] ต่อ [icon:CITY_RURAL] พื้นที่พัฒนาพิเศษ, [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]คงอยู่ตลอดกาล[/TIP], ต้องสร้างบนช่องป่าเขตร้อน หรือลุ่มหญ้า ที่อยู่ติดกับอย่างน้อยหนึ่งช่องภูเขา</Text>		<!-- [B]+2 [icon:YIELD_HAPPINESS][/B]. Joyous [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] within 6 of this [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP] receive [B]+1 [icon:YIELD_DIPLOMACY] Influence[/B] on [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvements[/TIP]. Ecstatic Settlements within 6 of this [icon:WONDER] Wonder receive [B]+1 [icon:YIELD_DIPLOMACY] Influence[/B] and [B]+2 [icon:YIELD_GOLD] Gold[/B] on [icon:CITY_RURAL] Unique Improvements. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be placed on Tropical or Grassland adjacent to at least one Mountain tile. -->
+			<Text>[B]+2 [icon:YIELD_HAPPINESS][/B], ความปีติยินดี [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่อยู่ห่างเป็นระยะ 6 ช่อง จาก [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP] นี้ จะได้รับ [B]+1 [icon:YIELD_DIPLOMACY] อิทธิพล[/B] ต่อ [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนาพิเศษ[/TIP], ความปีล้น [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่อยู่ห่างเป็นระยะ 6 ช่อง จาก [icon:WONDER] สิ่งมหัศจรรย์ นี้ จะได้รับ [B]+1 [icon:YIELD_DIPLOMACY] อิทธิพล[/B] และ [B]+2 [icon:YIELD_GOLD] ทอง[/B] ต่อ [icon:CITY_RURAL] พื้นที่พัฒนาพิเศษ, [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]คงอยู่ตลอดกาล[/TIP], ต้องสร้างบนช่องป่าเขตร้อน หรือลุ่มหญ้า ที่อยู่ติดกับอย่างน้อยหนึ่งช่องภูเขา</Text>		<!-- [B]+2 [icon:YIELD_HAPPINESS][/B]. Joyous [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] within 6 tiles of this [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP] receive [B]+1 [icon:YIELD_DIPLOMACY] Influence[/B] on [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvements[/TIP]. Ecstatic Settlements within 6 tiles of this [icon:WONDER] Wonder receive [B]+1 [icon:YIELD_DIPLOMACY] Influence[/B] and [B]+2 [icon:YIELD_GOLD] Gold[/B] on [icon:CITY_RURAL] Unique Improvements. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be placed on Tropical or Grassland adjacent to at least one Mountain tile. -->
+			
 		</Replace>
 		<Replace Tag="LOC_WONDER_BUSEOKSA_TOOLTIP" Language="th_TH">
-			<Text>Joyous [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ที่มีความสุขภายในระยะ 6 ของ [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP] แห่งนี้ จะได้รับ [B]+1 [icon:YIELD_DIPLOMACY] อิทธิพล[/B] จาก [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนาพิเศษ[/TIP], Settlements ที่มีความปลาบปลื้มภายในระยะ 6 ของ [icon:WONDER] สิ่งมหัศจรรย์[/TIP] แห่งนี้ จะได้รับ [B]+1 [icon:YIELD_DIPLOMACY] อิทธิพล[/B] และ [B]+2 [icon:YIELD_GOLD] ทอง[/B] จาก [icon:CITY_RURAL] พื้นที่พัฒนาพิเศษ, ต้องตั้งบนพื้นที่เขตร้อนหรือทุ่งหญ้า และต้องอยู่ติดกับช่องภูเขาอย่างน้อยหนึ่งช่อง</Text>		<!-- Joyous [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] within 6 of this [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP] receive [B]+1 [icon:YIELD_DIPLOMACY] Influence[/B] on [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvements[/TIP]. Ecstatic Settlements within 6 of this [icon:WONDER] Wonder receive [B]+1 [icon:YIELD_DIPLOMACY] Influence[/B] and [B]+2 [icon:YIELD_GOLD] Gold[/B] on [icon:CITY_RURAL] Unique Improvements. Must be placed on Tropical or Grassland adjacent to at least one Mountain tile. -->
+			<Text>Joyous [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] ภายในระยะ 6 ช่อง ของ [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP] แห่งนี้ จะได้รับ [B]+1 [icon:YIELD_DIPLOMACY] อิทธิพล[/B] จาก [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนาพิเศษ[/TIP], Settlements ที่มีความปลาบปลื้มภายในระยะ 6 ช่อง ของ [icon:WONDER] สิ่งมหัศจรรย์[/TIP] แห่งนี้ จะได้รับ [B]+1 [icon:YIELD_DIPLOMACY] อิทธิพล[/B] และ [B]+2 [icon:YIELD_GOLD] ทอง[/B] จาก [icon:CITY_RURAL] พื้นที่พัฒนาพิเศษ, ต้องตั้งบนพื้นที่เขตร้อนหรือทุ่งหญ้า และต้องอยู่ติดกับช่องภูเขาอย่างน้อยหนึ่งช่อง</Text>		<!-- Joyous [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] within 6 tiles of this [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP] receive [B]+1 [icon:YIELD_DIPLOMACY] Influence[/B] on [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvements[/TIP]. Ecstatic Settlements within 6 tiles of this [icon:WONDER] Wonder receive [B]+1 [icon:YIELD_DIPLOMACY] Influence[/B] and [B]+2 [icon:YIELD_GOLD] Gold[/B] on [icon:CITY_RURAL] Unique Improvements. Must be placed on Tropical or Grassland adjacent to at least one Mountain tile. -->
+			
 		</Replace>
 		<Replace Tag="LOC_QUOTE_WONDER_BUSEOKSA" Language="th_TH">
 			<Text>น้ำและหิน ไผ่และสน พระจันทร์ลอยขึ้นเหนือเนินตะวันออก เพื่อนใดอีกเล่าที่ข้าควรปรารถนา</Text>		<!-- Water and stone, bamboo and pine. The moon rising over the eastern hill. What other companions should I wish for? -->

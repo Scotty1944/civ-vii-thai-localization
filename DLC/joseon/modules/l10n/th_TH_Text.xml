@@ -129,10 +129,11 @@
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_JOSEON_DESCRIPTION" Language="th_TH">
 			<Text>[B]+2 [/B] [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]ขีดจำกัดผู้เชี่ยวชาญ[/TIP] ใน [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]เมืองหลวง[/TIP], 
-			[B]เมืองอื่น ๆ [/B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ได้รับ +1 [icon:SPECIALIST] ขีดจำกัดผู้เชี่ยวชาญ หากมี [icon:CITY_UNIQUE_QUARTER] Seowon, แต่ถ้าไม่มี Seowon จะได้รับ [B]-1 [/B][icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]ขีดจำกัดผู้เชี่ยวชาญ[/TIP], [BLIST][LI][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP] สามารถซื้อ [TIP:LOC_PEDIA_CONCEPTS_BUILDING_TIER_TOOLTIP]ชั้นที่ 1[/TIP] อาคารด้านวัฒนธรรม และ วิทยาศาสตร์ [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] ได้ด้วย [icon:TOWN_FOCUS]  [TIP:LOC_PEDIA_CONCEPTS_TOWN_FOCUS_TOOLTIP]โฟกัสของเมืองเล็ก[/TIP], 
+			[B]เมืองอื่น ๆ [/B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ได้รับ +1 [icon:SPECIALIST] ขีดจำกัดผู้เชี่ยวชาญ หากมี [icon:CITY_UNIQUE_QUARTER] ซอวอน, แต่ถ้าไม่มี ซอวอน จะได้รับ [B]-1 [/B][icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]ขีดจำกัดผู้เชี่ยวชาญ[/TIP], [BLIST][LI][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP] สามารถซื้อ [TIP:LOC_PEDIA_CONCEPTS_BUILDING_TIER_TOOLTIP]ชั้นที่ 1[/TIP] อาคารด้านวัฒนธรรม และ วิทยาศาสตร์ [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] ได้ด้วย [icon:TOWN_FOCUS]  [TIP:LOC_PEDIA_CONCEPTS_TOWN_FOCUS_TOOLTIP]โฟกัสของเมืองเล็ก[/TIP], 
 			[LI][B]มีขีดจำกัดจำนวนเมืองเริ่มต้นที่ 2[/B], [B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]ต่อการก่อสร้าง [B]Hwaseong[/B][/BLIST]</Text>		<!-- [B]+2 [/B] [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP] in the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP].
 			[B]Other [/B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] receive +1 [icon:SPECIALIST]Specialist Limit if they have a [icon:CITY_UNIQUE_QUARTER] Seowon, but if they don't have a Seowon they receive [B]-1 [/B][icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP]. [BLIST][LI][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] can purchase [TIP:LOC_PEDIA_CONCEPTS_BUILDING_TIER_TOOLTIP]Tier 1[/TIP] Culture and Science [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] with any [icon:TOWN_FOCUS]  [TIP:LOC_PEDIA_CONCEPTS_TOWN_FOCUS_TOOLTIP]Town Focus[/TIP].
 			[LI][B]Has an initial City Limit of 2[/B]. [B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Hwaseong[/B].[/BLIST] -->
+			
 		</Replace>
 		<Replace Tag="LOC_TRAIT_JOSEON_ABILITY_AQ_DESCRIPTION" Language="th_TH">
 			<Text>[BLIST][LI][B]+1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]ขีดจำกัดผู้เชี่ยวชาญ[/TIP][/B] ใน [B][icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]เมืองหลวง[/TIP][/B], 
@@ -142,6 +143,7 @@
 			[LI][B]-1 [icon:SPECIALIST]Specialist Limit[/B] in other [B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP][/B].
 			[LI][B]Has an initial [TIP:LOC_PEDIA_CONCEPTS_PAGE_CITY_CAP_1_CHAPTER_CONTENT_PARA_1]City Limit[/TIP] of 1[/B].
 			[LI][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] can purchase [TIP:LOC_PEDIA_CONCEPTS_BUILDING_TIER_TOOLTIP]Tier 1[/TIP] [B][icon:YIELD_CULTURE] Culture and [icon:YIELD_SCIENCE] Science [/B][TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] with any [icon:TOWN_FOCUS]  [TIP:LOC_PEDIA_CONCEPTS_TOWN_FOCUS_TOOLTIP]Town Focus[/TIP].[/LIST] -->
+			
 		</Replace>
 		<Replace Tag="LOC_TRAIT_JOSEON_ABILITY_EX_DESCRIPTION" Language="th_TH">
 			<Text>[BLIST][LI][B]+2 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]ขีดจำกัดผู้เชี่ยวชาญ[/TIP][/B] ใน [B][icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]เมืองหลวง[/TIP][/B], 
@@ -151,17 +153,19 @@
 			[LI][B]-1 [icon:SPECIALIST]Specialist Limit[/B] in other [B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP][/B].
 			[LI][B]Has an initial [TIP:LOC_PEDIA_CONCEPTS_PAGE_CITY_CAP_1_CHAPTER_CONTENT_PARA_1]City Limit[/TIP] of 2[/B].
 			[LI][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] can purchase [TIP:LOC_PEDIA_CONCEPTS_BUILDING_TIER_TOOLTIP]Tier 1[/TIP] [B][icon:YIELD_CULTURE] Culture and [icon:YIELD_SCIENCE] Science [/B][TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] with any [icon:TOWN_FOCUS]  [TIP:LOC_PEDIA_CONCEPTS_TOWN_FOCUS_TOOLTIP]Town Focus[/TIP].[/LIST] -->
+			
 		</Replace>
 		<Replace Tag="LOC_TRAIT_JOSEON_ABILITY_MO_DESCRIPTION" Language="th_TH">
 			<Text>[BLIST][LI][B]+2 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]ขีดจำกัดผู้เชี่ยวชาญ[/TIP][/B] ใน [B][icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]เมืองหลวง[/TIP][/B], 
-			[LI][B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP][/B] นอกเหนือจาก [B][icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]เมืองหลวง[/TIP][/B] จะได้รับ [B]+1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]ขีดจำกัดผู้เชี่ยวชาญ[/TIP][/B] หากมี [icon:CITY_UNIQUE_QUARTER] [B]Seowon[/B], แต่หากไม่มี [B]Seowon[/B] จะได้รับ [B]-1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]ขีดจำกัดผู้เชี่ยวชาญ[/TIP][/B], 
+			[LI][B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP][/B] นอกเหนือจาก [B][icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]เมืองหลวง[/TIP][/B] จะได้รับ [B]+1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]ขีดจำกัดผู้เชี่ยวชาญ[/TIP][/B] หากมี [icon:CITY_UNIQUE_QUARTER] [B]ซอวอน[/B], แต่หากไม่มี [B]ซอวอน[/B] จะได้รับ [B]-1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]ขีดจำกัดผู้เชี่ยวชาญ[/TIP][/B], 
 			[LI][B]มี [TIP:LOC_PEDIA_CONCEPTS_PAGE_CITY_CAP_1_CHAPTER_CONTENT_PARA_1]ขีดจำกัดจำนวนเมืองใหญ่[/TIP] เริ่มต้น ที่ 2[/B], 
 			[LI][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP] สามารถซื้อ [TIP:LOC_PEDIA_CONCEPTS_BUILDING_TIER_TOOLTIP]ชั้นอาคาร 1[/TIP] [B][icon:YIELD_CULTURE] อาคารด้านวัฒนธรรม และ [icon:YIELD_SCIENCE] อาคารด้านวิทยาศาสตร์ [/B][TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]ด้วย [icon:TOWN_FOCUS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_FOCUS_TOOLTIP]ความมุ่งเน้นของเมืองเล็ก[/TIP][/B], 
-			[LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต[/B] ต่อการก่อสร้าง [B]Hwaseong[/B][/LIST]</Text>		<!-- [BLIST][LI][B]+2 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP][/B] in the [B][icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP][/B].
+			[LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต[/B] ต่อการก่อสร้าง [B]ฮวาซ็อง[/B][/LIST]</Text>		<!-- [BLIST][LI][B]+2 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP][/B] in the [B][icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP][/B].
 			[LI][B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP][/B] other than the [B][icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP][/B] receive [B]+1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP][/B] if they have a [icon:CITY_UNIQUE_QUARTER] [B]Seowon[/B], but if they don't have a [B]Seowon[/B] they receive [B]-1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP][/B].
 			[LI][B]Has an initial [TIP:LOC_PEDIA_CONCEPTS_PAGE_CITY_CAP_1_CHAPTER_CONTENT_PARA_1]City Limit[/TIP] of 2[/B].
 			[LI][icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] can purchase [TIP:LOC_PEDIA_CONCEPTS_BUILDING_TIER_TOOLTIP]Tier 1[/TIP] [B][icon:YIELD_CULTURE] Culture and [icon:YIELD_SCIENCE] Science [/B][TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] with any [icon:TOWN_FOCUS]  [TIP:LOC_PEDIA_CONCEPTS_TOWN_FOCUS_TOOLTIP]Town Focus[/TIP].
 			[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Hwaseong[/B].[/LIST] -->
+			
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_JOSEON_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็นสิ่งมหัศจรรย์ ที่เกี่ยวข้องกับ โจซอน</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being the Joseon's associated [icon:WONDER] Wonder. -->
@@ -263,7 +267,7 @@
 			<Text>โฮซ็อน [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]อาคารพิเศษ[/TIP], สามารถซื้อได้ใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP], แต่ไม่สามารถสร้างได้ใน [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]เมืองหลวง[/TIP]</Text>		<!-- Joseon [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_BUILDING_TOOLTIP]Unique Building[/TIP]. Can be purchased in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP], but cannot be built in the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_SEOWON_NAME" Language="th_TH">
-			<Text>เซโอน์</Text>		<!-- Seowon -->
+			<Text>ซอวอน</Text>		<!-- Seowon -->
 		</Replace>
 		<Replace Tag="LOC_QUARTER_SEOWON_DESCRIPTION" Language="th_TH">
 			<Text>Joseon [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]Unique Quarter[/TIP], สร้างได้โดยการก่อสร้าง [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]เขต[/TIP] เดียวกันที่มี Confucian Academy และ Printing House, ถิ่นฐาน แห่งนี้ได้รับ +10% ของ [icon:YIELD_PRODUCTION] กำลังผลิต เป็น [icon:YIELD_CULTURE] วัฒนธรรม, หากสร้างใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP] แล้ว [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]เมืองใหญ่หลวง[/TIP] จะได้รับ +1 [icon:YIELD_POPULATION] [TIP:LOC_PEDIA_CONCEPTS_POPULATION_TOOLTIP]ประชากร[/TIP]</Text>		<!-- Joseon [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_QUARTER_TOOLTIP]Unique Quarter[/TIP]. Created by constructing the Confucian Academy and Printing House in the same [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]District[/TIP]. This [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] receives +10% of its [icon:YIELD_PRODUCTION] Production as [icon:YIELD_CULTURE] Culture. If constructed in a [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Town[/TIP] the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP] receives +1 [icon:YIELD_POPULATION] [TIP:LOC_PEDIA_CONCEPTS_POPULATION_TOOLTIP]Population[/TIP]. -->
@@ -272,7 +276,7 @@
 			<Text>This [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] จะได้รับ +10% ของ [icon:YIELD_PRODUCTION] กำลังผลิต เป็น [icon:YIELD_CULTURE] วัฒนธรรม, หากก่อสร้างใน [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]เมืองเล็ก[/TIP] แล้ว [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]เมืองหลวง[/TIP] จะได้รับ +1 [icon:YIELD_POPULATION] [TIP:LOC_PEDIA_CONCEPTS_POPULATION_TOOLTIP]ประชากร[/TIP]</Text>		<!-- This [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP] receives +10% of its [icon:YIELD_PRODUCTION] Production as [icon:YIELD_CULTURE] Culture. If constructed in a [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Town[/TIP] the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP] receives +1 [icon:YIELD_POPULATION] [TIP:LOC_PEDIA_CONCEPTS_POPULATION_TOOLTIP]Population[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_HWASEONG_NAME" Language="th_TH">
-			<Text>หัวาซ็อง</Text>		<!-- Hwaseong -->
+			<Text>ฮวาซ็อง</Text>		<!-- Hwaseong -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_HWASEONG_DESCRIPTION" Language="th_TH">
 			<Text>+4[icon:YIELD_CULTURE] +1 [icon:SOCIAL_POLICY] [TIP:LOC_PEDIA_CONCEPTS_SOCIAL_POLICY_TOOLTIP]นโยบายสังคม[/TIP] และ [icon:NAR_REW_TRADITION_SLOT] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]ประเพณี[/TIP] ช่อง, [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]คงอยู่ตลอดกาล[/TIP], ต้องวางบน [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]พื้นที่ราบ[/TIP] ที่อยู่ติดกับ [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]พื้นที่ขรุขระ[/TIP]</Text>		<!-- +4[icon:YIELD_CULTURE]. +1 [icon:SOCIAL_POLICY] [TIP:LOC_PEDIA_CONCEPTS_SOCIAL_POLICY_TOOLTIP]Social Policy[/TIP] and [icon:NAR_REW_TRADITION_SLOT] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]Tradition[/TIP] slot. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be placed on [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]Flat Terrain[/TIP] adjacent to [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]Rough Terrain[/TIP]. -->
@@ -413,7 +417,7 @@
 			<Text>มีอารยธรรมยุคใหม่แห่ง [TIP:LOC_NAME_JOSEON]โชซอน[/TIP]</Text>		<!-- Contains a new Modern Age Civilization, Joseon. -->
 		</Replace>
 		<Replace Tag="LOC_12019A_STORYTITLE" Language="th_TH">
-			<Text>ดร. รีซัล ที่เซโอนอน</Text>		<!-- Dr. Rizal at the Seowon -->
+			<Text>ดร. รีซัล ที่ซอวอน</Text>		<!-- Dr. Rizal at the Seowon -->
 		</Replace>
 		<Replace Tag="LOC_12019A_COMPLETION" Language="th_TH">
 			<Text>หมอผู้ใจดีออกจากเงาของต้นแปะก๊วย เดินเข้าสู่พื้นที่ของเซอวอน ถูกดึงดูดด้วยการผสมผสานพลังทางปัญญาและจิตวิญญาณ จะเริ่มจากตรงไหนก่อนดี</Text>		<!-- The good doctor leaves the shade of the ginkgo tree and enters the grounds of the seowon, drawn by its mingling of intellectual and spiritual energies. Where to even begin? -->

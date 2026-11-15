@@ -95,6 +95,7 @@
 			<Text>[BLIST][LI]+2 [B][icon:WAR_SUPPORT] การสนับสนุนสงคราม[/B] เมื่ออยู่ใน [icon:PLAYER_RELATIONSHIP_ALLIANCE] พันธมิตร เพียงหนึ่งเดียว, [LI]เมื่อยูนิตทหารของคุณเอาชนะยูนิตศัตรูได้, รับ [B][icon:YIELD_DIPLOMACY] อิทธิพล[/B] เท่ากับ 50% ของ [icon:NAR_REW_COMBAT] พลังต่อสู้[/icon] ของยูนิตที่ถูกเอาชนะ [LI]ความร่วมมือพื้นฐาน ทั้งหมดจะถูกปลดล็อกโดยอัตโนมัติ, ความร่วมมือกับพันธมิตร จะไม่นับรวมกับขีดจำกัดในการมี ความร่วมมือประเภทเดียวที่เปิดใช้งานในเวลาเดียวกัน, พันธมิตรสามารถสนับสนุนความร่วมมือของคุณได้ฟรี[/LIST]</Text>		<!-- [BLIST][LI]+2 [B][icon:WAR_SUPPORT] War Support[/B] when in only one [icon:PLAYER_RELATIONSHIP_ALLIANCE] Alliance.
 				[LI]When one of your Military Units defeats an enemy Unit, gain [B][icon:YIELD_DIPLOMACY] Influence[/B] equal to 50% of the defeated Unit's [icon:NAR_REW_COMBAT] Combat Strength. 
 				[LI]All basic Endeavors are automatically unlocked. Endeavors with Allies don’t count against the limit of having one Endeavor of a given type active at a time. Allies can support your Endeavors for free. [/LIST] -->
+			
 		</Replace>
 		<Replace Tag="LOC_DIPLOMACY_AGENDA_ALLY_OF_ENKIDU_NAME" Language="th_TH">
 			<Text>พันธมิตรของเอนคิดู</Text>		<!-- Ally of Enkidu -->
@@ -1324,13 +1325,15 @@
 			<Text>ในฐานะ กิลกาเมช เข้าถึง การอุทิศ ยุคสำรวจ:[n]
 				+15% [icon:YIELD_INFLUENCE] อิทธิพล, -2 [icon:Combat_Strength] พลังต่อสู้ สำหรับยูนิตทางทะเล</Text>		<!-- As Gilgamesh, access a new Exploration Dedication:[n]
 				+15% Influence, -2 Combat Strength for Naval Units -->
+			
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_GILGAMESH_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>การอุทิศด้านทหาร ยุคสำรวจ</Text>		<!-- Exploration Militaristic Dedication -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_GILGAMESH_EXPLORATION_2_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ กิลกาเมช เข้าถึง การอุทิศ ยุคสำรวจ:[n] +3 [icon:YIELD_COMBAT] พลังต่อสู้ สำหรับยูนิตทางทะเลของคุณ, -10% [icon:YIELD_INFLUENCE] อิทธิพล</Text>		<!-- As Gilgamesh, access a new Exploration Dedication:[n]
+			<Text>ในฐานะ กิลกาเมช เข้าถึง การอุทิศ ยุคสำรวจ:[n] +3 [icon:YIELD_COMBAT] พลังต่อสู้ สำหรับ ยูนิตทางทะเล ของคุณ, -10% [icon:YIELD_INFLUENCE] อิทธิพล</Text>		<!-- As Gilgamesh, access a new Exploration Dedication:[n]
 				+3 Combat Strength for your Naval Units, -10% Influence -->
+			
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_GILGAMESH_MODERN_1_NAME" Language="th_TH">
 			<Text>การอุทิศด้านการทูต ยุคใหม่</Text>		<!-- Modern Diplomatic Dedication -->
@@ -1338,14 +1341,16 @@
 		<Replace Tag="LOC_STRATEGYCARD_GILGAMESH_MODERN_1_DESCRIPTION" Language="th_TH">
 			<Text>ในฐานะ กิลกาเมช เข้าถึง การอุทิศ ยุคใหม่:[n] 				+15% อิทธิพล, -2 พลังต่อสู้ สำหรับยูนิตอากาศ</Text>		<!-- As Gilgamesh, access a new Modern Dedication:[n]
 				+15% Influence, -2 Combat Strength for Air Units -->
+			
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_GILGAMESH_MODERN_2_NAME" Language="th_TH">
 			<Text>การอุทิศด้านทหาร ยุคใหม่</Text>		<!-- Modern Militaristic Dedication -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_GILGAMESH_MODERN_2_DESCRIPTION" Language="th_TH">
 			<Text>ในฐานะ กิลกาเมช เข้าถึง การอุทิศ ยุคใหม่:[n]
-				+3 [icon:YIELD_COMBAT] พลังต่อสู้ สำหรับยูนิตอากาศของคุณ, -10% [icon:YIELD_INFLUENCE] อิทธิพล</Text>		<!-- As Gilgamesh, access a new Modern Dedication:[n]
+				+3 [icon:YIELD_COMBAT] พลังต่อสู้ สำหรับ ยูนิตอากาศ ของคุณ, -10% [icon:YIELD_INFLUENCE] อิทธิพล</Text>		<!-- As Gilgamesh, access a new Modern Dedication:[n]
 				+3 Combat Strength for your Air Units, -10% Influence -->
+			
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_GILGAMESH_L1_NAME" Language="th_TH">
 			<Text>โหนดคุณลักษณะทางการทูต</Text>		<!-- Diplomatic Attribute Node -->

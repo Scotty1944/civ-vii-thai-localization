@@ -1429,7 +1429,8 @@
 			<Text>ชิจิน</Text>		<!-- Shijin -->
 		</Replace>
 		<Replace Tag="LOC_UNIT_SHIJIN_DESCRIPTION" Language="th_TH">
-			<Text>บุคคลสำคัญระดับสูงที่มีหนึ่งชาร์จเท่านั้น, สามารถฝึกได้เฉพาะในถิ่นฐานที่มี [icon:CITY_RURAL] จินจะ (แผ่นดิน) หรือ จินจะ (ทะเล), และ ชิจิน ที่ได้รับจะสุ่ม, แต่ละ ชิจิน จะได้รับได้เพียงครั้งเดียว, ค่าใช้จ่ายจะเพิ่มขึ้นตามจำนวน ชิจิน ที่ฝึกแล้ว</Text>		<!-- A Great Person with one charge. Can only be trained in Settlements with a [icon:CITY_RURAL] Jinja (Land) or Jinja (Sea), and the specific Shijin received is random. Each Shijin can only be received once. Cost increases per Shijin trained. -->
+			<Text>บุคคลสำคัญระดับสูงที่มีหนึ่งชาร์จเท่านั้น, รับหนึ่งคนเมื่อคุณสร้าง [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP] หรือ [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]สิ่งมหัศจรรย์[/TIP] ที่มี [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]ผลงานชิ้นเอก[/TIP] ใน [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] หรือเมื่อคุณสร้าง [icon:CITY_BUILDING_LIST] อาคารความสุข ใน [icon:YIELD_CITIES] เมืองใหญ่, ชิจิน ที่ได้รับจะสุ่ม, แต่ละ ชิจิน จะได้รับได้เพียงครั้งเดียว</Text>		<!-- A Great Person with one charge. Receive one when you build a [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP] or [icon:WONDER] [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP] with a [icon:NAR_REW_GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]Great Work[/TIP] Slot in a [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]City[/TIP] or when you complete a [icon:CITY_BUILDING_LIST] Happiness Building in a [icon:YIELD_CITIES] City. The specific Shijin received is random. Each Shijin can only be received once. -->
+			
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHIJIN_NAKAYAMA_TADACHIKA_NAME" Language="th_TH">
 			<Text>นากายามะ ทาดาชิกะ</Text>		<!-- Nakayama Tadachika -->
@@ -1447,7 +1448,8 @@
 			<Text>เลดี้ ซาราชินะ</Text>		<!-- Lady Sarashina -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHIJIN_LADY_SARASHINA_DESCRIPTION" Language="th_TH">
-			<Text>ใช้กับอาคารที่มีช่องงานศิลป์ยิ่งใหญ่ เพื่อรับ +1 [icon:YIELD_CULTURE] วัฒนธรรม แก่ถิ่นฐานนี้ สำหรับแต่ละงานศิลป์ยิ่งใหญ่ที่ใส่ช่องไว้</Text>		<!-- Activate on a Building with a Great Work Slot to receive +1 [icon:YIELD_CULTURE] Culture to this settlement for each slotted Great Work. -->
+			<Text>ใช้กับอาคารงานศิลป์ยิ่งใหญ่หรือสิ่งมหัศจรรย์ เพื่อรับ +1 [icon:YIELD_CULTURE] วัฒนธรรม แก่ถิ่นฐานนี้ สำหรับแต่ละงานศิลป์ยิ่งใหญ่ที่ใส่ช่องไว้</Text>		<!-- Activate on a Great Work Building or Wonder to receive +1 [icon:YIELD_CULTURE] Culture to this settlement for each slotted Great Work. -->
+			
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHIJIN_SEI_SHONAGON_NAME" Language="th_TH">
 			<Text>เซอิ โชนะงอน</Text>		<!-- Sei Shonagon -->
@@ -1483,7 +1485,8 @@
 			<Text>คิ โนะ ซุรายูกิ</Text>		<!-- Ki no Tsurayuki -->
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHIJIN_KI_NO_TSURAYUKI_DESCRIPTION" Language="th_TH">
-			<Text>ใช้งานกับอาคารที่มีช่องงานยิ่งใหญ่ เพื่อมอบ +1 ช่อง แก่อาคารทั้งหมดในถิ่นฐานนี้ที่มีช่องงานยิ่งใหญ่</Text>		<!-- Activate on a Building with a Great Work Slot to grant +1 Slot to all Buildings in this Settlement with a Great Work slot. -->
+			<Text>ใช้งานกับอาคารงานยิ่งใหญ่หรือสิ่งมหัศจรรย์ เพื่อมอบ +1 ช่อง แก่อาคารทั้งหมดในถิ่นฐานนี้ที่มีช่องงานยิ่งใหญ่</Text>		<!-- Activate on a Great Work Building or Wonder  to grant +1 Slot to all Buildings in this Settlement with a Great Work slot. -->
+			
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHIJIN_MIBU_NO_TADAMINE_NAME" Language="th_TH">
 			<Text>มิบุ โนะ ทาดามิเน</Text>		<!-- Mibu no Tadamine -->

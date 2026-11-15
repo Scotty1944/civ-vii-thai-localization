@@ -890,7 +890,8 @@
 			<Text>ผู้ช่วยของ เอดา เลิฟเลซ ปั้นและเผาเนื้อดินเหนียวเพื่อตกแต่งอิฐ โดยคิดถึงคนต่าง ๆ ที่จะเดินบนผลงานของพวกเขาในวันหนึ่ง</Text>		<!-- Ada Lovelace's aides shape and fire clay to form bricks, thinking of the different people who will one day walk upon their work. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1210C_IMPERATIVE" Language="th_TH">
-			<Text>สร้าง โรงผลิตอิฐ เพิ่มอีก 2 แห่ง</Text>		<!-- Build 2 more Brickyards -->
+			<Text>สร้าง โรงผลิตอิฐ เพิ่มอีก 2 แห่ง,</Text>		<!-- Build 2 more Brickyards. -->
+			
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1210D_NAME" Language="th_TH">
 			<Text>ให้เธอมีพื้นที่ในการทำงาน</Text>		<!-- Give her space to work. -->
@@ -1154,13 +1155,15 @@
 			<Text>ดีเสียกว่าอยู่ข้างหลังมากกว่าถูกตัดออกจากการแข่งขัน</Text>		<!-- Better to be behind than out of the race. -->
 		</Replace>
 		<Replace Tag="LOC_10008B_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} บน อาคารวิทยาศาสตร์ แต่ {2_reward} ในเมือง</Text>		<!-- {1_reward} on Science Buildings but {2_reward} in Towns. -->
+			<Text>{1_reward} บน อาคารวิทยาศาสตร์ ในทุกถิ่นฐาน แต่ {2_reward} ในเมืองเล็ก</Text>		<!-- {1_reward} on Science Buildings in all Settlements but {2_reward} in Towns. -->
+			
 		</Replace>
 		<Replace Tag="LOC_10008C_NAME" Language="th_TH">
 			<Text>การเร่งรีบให้ผลลัพธ์ที่เบี่ยงเบน</Text>		<!-- Rushing yields skewed results. -->
 		</Replace>
 		<Replace Tag="LOC_10008C_DESCRIPTION" Language="th_TH">
-			<Text>{1_reward} ในเมือง แต่ {2_reward} บน อาคารวิทยาศาสตร์</Text>		<!-- {1_reward} in Towns but {2_reward} on Science Buildings. -->
+			<Text>{1_reward} ในเมือง แต่ {2_reward} บนอาคารวิทยาศาสตร์ ในถิ่นฐานทั้งหมด</Text>		<!-- {1_reward} in Towns but {2_reward} on Science Buildings in all Settlements. -->
+			
 		</Replace>
 		<Replace Tag="LOC_10009A_STORYTITLE" Language="th_TH">
 			<Text>ให้มีแสงสว่าง</Text>		<!-- Let There Be Light -->
@@ -1358,6 +1361,7 @@
 			<Text>ในฐานะ เอดา เลิฟเลซ, เข้าถึง การอุทิศ ยุคสำรวจ ใบใหม่:[n]
 				+15% วิทยาศาสตร์, -10% วัฒนธรรม</Text>		<!-- As Ada Lovelace, access a new Exploration Dedication:[n]
 				+15% Science, -10% Culture -->
+			
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_ADA_LOVELACE_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>การอุทิศทางวัฒนธรรม ยุคสำรวจ</Text>		<!-- Exploration Cultural Dedication -->
@@ -1366,21 +1370,24 @@
 			<Text>ในฐานะ เอดา เลิฟเลซ, เข้าถึง การอุทิศทางวัฒนธรรม ยุคสำรวจ:[n]  
 				+15% วัฒนธรรม, -10% วิทยาศาสตร์</Text>		<!-- As Ada Lovelace, access a new Exploration Dedication:[n]
 				+15% Culture, -10% Science -->
+			
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_ADA_LOVELACE_MODERN_1_NAME" Language="th_TH">
 			<Text>การอุทิศทางวิทยาศาสตร์ ยุคใหม่</Text>		<!-- Modern Scientific Dedication -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_ADA_LOVELACE_MODERN_1_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ เอดา เลิฟเลซ, ได้รับ การอุทิศทางวิทยาศาสตร์ ยุคใหม่:[n] 				+15% วิทยาศาสตร์, -10% วัฒนธรรม</Text>		<!-- As Ada Lovelace, access a new Modern Dedication:[n]
+			<Text>ในฐานะ เอดา เลิฟเลซ, ได้รับ การอุทิศยุคใหม่:[n] 				+15% วิทยาศาสตร์, -10% วัฒนธรรม</Text>		<!-- As Ada Lovelace, access a new Modern Dedication:[n]
 				+15% Science, -10% Culture -->
+			
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_ADA_LOVELACE_MODERN_2_NAME" Language="th_TH">
 			<Text>การอุทิศทางวัฒนธรรม ยุคใหม่</Text>		<!-- Modern Cultural Dedication -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_ADA_LOVELACE_MODERN_2_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ เอดา เลิฟเลซ, ได้รับ การอุทิศทางวัฒนธรรม ยุคใหม่: [n]  
+			<Text>ในฐานะ เอดา เลิฟเลซ, ได้รับ การอุทิศ ยุคใหม่: [n]  
 				+15% วัฒนธรรม, -10% วิทยาการ</Text>		<!-- As Ada Lovelace, access a new Modern Dedication:[n]
 				+15% Culture, -10% Science -->
+			
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_ADA_LOVELACE_L1_NAME" Language="th_TH">
 			<Text>โหนดคุณลักษณะทางวิทยาศาสตร์</Text>		<!-- Scientific Attribute Node -->

@@ -26,37 +26,45 @@
 			<Text>มาจาปูชาร์เร</Text>		<!-- Machapuchare -->
 		</Replace>
 		<Replace Tag="LOC_FEATURE_MACHAPUCHARE_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม และ +4 [icon:YIELD_PRODUCTION] กำลังผลิต ต่อยุค, +1 [icon:YIELD_HAPPINESS] ความสุข ต่อ [icon:CITY_RURAL] พื้นที่พัฒนา บนพื้นที่ขรุขระและภูเขาในถิ่นฐานนี้</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture and +4 [icon:YIELD_PRODUCTION] Production per Age. +1[icon:YIELD_HAPPINESS] Happiness to [icon:CITY_RURAL] Improvements on Rough and Mountain Terrain in this Settlement. -->
+			<Text>+1 [icon:YIELD_CULTURE] และ +2 [icon:YIELD_PRODUCTION], เพิ่มอีก +1 [icon:YIELD_CULTURE] และ +2 [icon:YIELD_PRODUCTION] ต่อ [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP], +1 [icon:YIELD_HAPPINESS] ให้แก่ [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนา[/TIP] บนพื้นที่ขรุขระและภูเขาใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP] นี้</Text>		<!-- +1 [icon:YIELD_CULTURE] and +2 [icon:YIELD_PRODUCTION]. An additional +1 [icon:YIELD_CULTURE] and +2 [icon:YIELD_PRODUCTION] per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP]. +1 [icon:YIELD_HAPPINESS] to [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP] on Rough and Mountain Terrain in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. -->
+			
 		</Replace>
 		<Replace Tag="LOC_FEATURE_MACHAPUCHARE_TOOLTIP" Language="th_TH">
-			<Text>+1[icon:YIELD_HAPPINESS] ความสุข ต่อ [icon:CITY_RURAL] พื้นที่พัฒนาบนผิวขรุขระและภูเขาในถิ่นฐานนี้</Text>		<!-- +1[icon:YIELD_HAPPINESS] Happiness to [icon:CITY_RURAL] Improvements on Rough and Mountain Terrain in this Settlement. -->
+			<Text>+1 [icon:YIELD_HAPPINESS] ต่อ [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนา[/TIP] บนผิวขรุขระและภูเขาใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP]</Text>		<!-- +1 [icon:YIELD_HAPPINESS] to [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP] on Rough and Mountain Terrain in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. -->
+			
 		</Replace>
 		<Replace Tag="LOC_FEATURE_MOUNT_FUJI_NAME" Language="th_TH">
 			<Text>ภูเขาฟูจิ</Text>		<!-- Mount Fuji -->
 		</Replace>
 		<Replace Tag="LOC_FEATURE_MOUNT_FUJI_DESCRIPTION" Language="th_TH">
-			<Text>+2 [icon:YIELD_GOLD] ทอง, [icon:YIELD_CULTURE] วัฒนธรรม, และ [icon:YIELD_HAPPINESS] ความสุข ต่อยุค, ช่องภูมิประเทศภูเขาไฟ</Text>		<!-- +2 [icon:YIELD_GOLD] Gold, [icon:YIELD_CULTURE] Culture, and [icon:YIELD_HAPPINESS] Happiness per Age. Volcano Terrain. -->
+			<Text>+1 [icon:YIELD_GOLD] ทอง, [icon:YIELD_CULTURE] วัฒนธรรม, และ [icon:YIELD_HAPPINESS] ความสุข, และเพิ่มอีก +1 [icon:YIELD_GOLD], [icon:YIELD_CULTURE], และ [icon:YIELD_HAPPINESS] ต่อ [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP], ช่องภูมิประเทศภูเขาไฟ, เมื่อปะทุ ภูเขาไฟฟูจิมีโอกาสให้ผลผลิตแก่ช่องรอบข้างมากขึ้น และมากขึ้นในปริมาณ</Text>		<!-- +1 [icon:YIELD_GOLD], [icon:YIELD_CULTURE], and [icon:YIELD_HAPPINESS]. An additional +1 [icon:YIELD_GOLD], [icon:YIELD_CULTURE], and [icon:YIELD_HAPPINESS] per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP]. Volcano Terrain. On eruption, Mount Fuji is more likely to give yields to adjacent tiles, and in greater amounts. -->
+			
 		</Replace>
 		<Replace Tag="LOC_FEATURE_MOUNT_FUJI_TOOLTIP" Language="th_TH">
-			<Text>ช่องภูมิประเทศภูเขาไฟ</Text>		<!-- Volcano Terrain. -->
+			<Text>ช่องภูมิประเทศภูเขาไฟ, เมื่อระเบิด ภูเขาไฟฟูจิมีแนวโน้มที่จะให้ผลผลิตแก่ช่องที่อยู่ติดกันมากขึ้น และในปริมาณที่มากขึ้น</Text>		<!-- Volcano Terrain. On eruption, Mount Fuji is more likely to give yields to adjacent tiles, and in greater amounts. -->
+			
 		</Replace>
 		<Replace Tag="LOC_FEATURE_VIHREN_NAME" Language="th_TH">
 			<Text>วิเฮรน</Text>		<!-- Vihren -->
 		</Replace>
 		<Replace Tag="LOC_FEATURE_VIHREN_DESCRIPTION" Language="th_TH">
-			<Text>+4 [icon:YIELD_FOOD] อาหาร และ +2 [icon:YIELD_PRODUCTION] กำลังผลิต ต่อยุค, +1 [icon:YIELD_HAPPINESS] ความสุข และ [icon:YIELD_CULTURE] วัฒนธรรมต่อยุค ทุกครั้งที่ภัยพิบัติ ได้มอบความอุดมสมบูรณ์ ในยุคนี้ให้กับคุณ</Text>		<!-- +4 [icon:YIELD_FOOD] Food and +2 [icon:YIELD_PRODUCTION] Production per Age. +1 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_CULTURE] Culture per Age, every time a Natural Disaster has provided Fertility this Age to you. -->
+			<Text>+1 [icon:YIELD_PRODUCTION] และ +2 [icon:YIELD_FOOD] อาหาร, เพิ่มอีก +1 [icon:YIELD_PRODUCTION] และ +2 [icon:YIELD_FOOD] ต่อ [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP], +1 [icon:YIELD_HAPPINESS] ความสุข และ [icon:YIELD_CULTURE] วัฒนธรรมต่อยุค ทุกครั้งที่ภัยพิบัติ ได้มอบความอุดมสมบูรณ์ ในยุคนี้ให้กับคุณ</Text>		<!-- +1 [icon:YIELD_PRODUCTION] and +2 [icon:YIELD_FOOD]. An additional +1 [icon:YIELD_PRODUCTION] and +2 [icon:YIELD_FOOD] per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP]. +1 [icon:YIELD_HAPPINESS] and [icon:YIELD_CULTURE] per Age, every time a Natural Disaster has provided Fertility this Age to you. -->
+			
 		</Replace>
 		<Replace Tag="LOC_FEATURE_VIHREN_TOOLTIP" Language="th_TH">
-			<Text>+1 [icon:YIELD_HAPPINESS] ความสุขและ [icon:YIELD_CULTURE] วัฒนธรรม ต่อยุค, ทุกครั้งที่ภัยพิบัติ ได้มอบความอุดมสมบูรณ์ ให้กับคุณในยุคนี้</Text>		<!-- +1 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_CULTURE] Culture per Age, every time a Natural Disaster has provided Fertility this Age to you. -->
+			<Text>+1 [icon:YIELD_HAPPINESS] และ [icon:YIELD_CULTURE] ต่อ [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP], ทุกครั้งที่ภัยพิบัติ ได้มอบความอุดมสมบูรณ์ ให้กับคุณในยุคนี้</Text>		<!-- +1 [icon:YIELD_HAPPINESS] and [icon:YIELD_CULTURE] per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP], every time a Natural Disaster has provided Fertility this Age to you. -->
+			
 		</Replace>
 		<Replace Tag="LOC_FEATURE_VINICUNCA_NAME" Language="th_TH">
 			<Text>วินิคุนคา</Text>		<!-- Vinicunca -->
 		</Replace>
 		<Replace Tag="LOC_FEATURE_VINICUNCA_DESCRIPTION" Language="th_TH">
-			<Text>+2[icon:YIELD_PRODUCTION] กำลังผลิต,[icon:YIELD_HAPPINESS] ความสุข, และ[icon:YIELD_SCIENCE] วิทยาศาสตร์ ต่อยุค, +2 [icon:YIELD_CULTURE] วัฒนธรรมบน[icon:CITY_RURAL] พื้นที่พัฒนาในพื้นที่ใกล้เคียง</Text>		<!-- +2[icon:YIELD_PRODUCTION] Production,[icon:YIELD_HAPPINESS] Happiness, and[icon:YIELD_SCIENCE] Science per Age. +2 [icon:YIELD_CULTURE] Culture on [icon:CITY_RURAL] Improvements on adjacent tiles. -->
+			<Text>+1 [icon:YIELD_PRODUCTION], [icon:YIELD_SCIENCE], และ [icon:YIELD_HAPPINESS]. เพิ่มอีก +1 [icon:YIELD_PRODUCTION], [icon:YIELD_SCIENCE], และ [icon:YIELD_HAPPINESS] ต่อ [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]ยุค[/TIP]. +2 [icon:YIELD_CULTURE] บน [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนา[/TIP] ในพื้นที่ใกล้เคียง</Text>		<!-- +1 [icon:YIELD_PRODUCTION], [icon:YIELD_SCIENCE], and [icon:YIELD_HAPPINESS]. An additional +1 [icon:YIELD_PRODUCTION], [icon:YIELD_SCIENCE], and [icon:YIELD_HAPPINESS] per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP]. +2 [icon:YIELD_CULTURE] on [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP] on adjacent tiles. -->
+			
 		</Replace>
 		<Replace Tag="LOC_FEATURE_VINICUNCA_TOOLTIP" Language="th_TH">
-			<Text>+2 [icon:YIELD_CULTURE] วัฒนธรรม บน [icon:CITY_RURAL] พื้นที่พัฒนา บนช่องติดกัน</Text>		<!-- +2 [icon:YIELD_CULTURE] Culture on [icon:CITY_RURAL] Improvements on adjacent tiles. -->
+			<Text>+2 [icon:YIELD_CULTURE] บน [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนา[/TIP] บนช่องติดกัน</Text>		<!-- +2 [icon:YIELD_CULTURE] on [icon:CITY_RURAL] [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvements[/TIP] on adjacent tiles. -->
+			
 		</Replace>
 		<Replace Tag="LOC_VOLCANO_MOUNT_VINSON_NAME" Language="th_TH">
 			<Text>ภูเขาวินสัน</Text>		<!-- Mount Vinson -->
@@ -89,7 +97,8 @@
 			<Text>ภูเขาไฟขนาดใหญ่และยังคงมีกิจกรรมอยู่ใจกลางเกาะหลักฮอนชูของญี่ปุ่น ภูเขาฟูจิ ผุดขึ้นเป็นกรวยเรียบ มีหิมะปกคลุมยอดเกือบทั้งปี ด้วยความงดงาม จึงเป็นสัญลักษณ์ของหมู่เกาะมายาวนานหลายพันปี ปรากฏอยู่ในภาพพิมพ์ไม้ของโฮคุไซและบทกวีของบัชโช และยังคงเป็นสถานที่สำคัญของลัทธิชินโตและการแสวงบุญ ที่ยอดมีศาลเจ้าและไหล่เขาเป็นทั้งเส้นทางแสวงบุญทางศาสนาและเส้นทางเดินเขาเพื่อสันทนาการ</Text>		<!-- A large, active volcano in the center of Japan’s main island of Honshu, Mount Fuji rises in a smooth cone, and has a snowcap for most of the year. Owing to its beauty, it has been a symbol of the islands for millennia, having graced the woodcuts of Hokusai, the poetry of Basho, and remains an important site of Shinto worship and pilgrimage. Atop its peak is a shrine, and the slopes are a place of both religious and recreational trekking. -->
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_FEATURE_MOUNT_FUJI_CHAPTER_HISTORY_PARA_2" Language="th_TH">
-			<Text>ภูเขาไฟฟูจิได้รับการขึ้นทะเบียนเป็นมรดกโลกในปี 2013 เนื่องจากมีอิทธิพลทางวัฒนธรรม</Text>		<!-- Mt. Fuji was entered into the World Heritage List for its cultural impact in 2013. -->
+			<Text>ภูเขาไฟฟูจิได้รับการขึ้นทะเบียนเป็นมรดกโลกในปี 2013 เนื่องจากมีอิทธิพลทางวัฒนธรรม</Text>		<!-- Mount Fuji was entered into the World Heritage List for its cultural impact in 2013. -->
+			
 		</Replace>
 		<Replace Tag="LOC_PEDIA_PAGE_FEATURE_MACHAPUCHARE_CHAPTER_HISTORY_PARA_1" Language="th_TH">
 			<Text>แนวผาหินเกือบตั้งฉากซึ่งยื่นขึ้นมาจากเทือกเขาอันนาปุรณะในหิมาลัยประเทศเนปาล มาจาปุชาเรยังไม่เคยมีใครพิชิตยอด, แม้จะไม่สูงเท่าภูเขาเอเวอเรสต์ โดยสูงเพียงเล็กน้อยกว่า 22,000 ฟุต แต่เนื่องจากโผล่ขึ้นมาจากพื้นดินที่ค่อนข้างต่ำ จึงมีทรวดทรงที่โดดเด่น, อาจเป็นเหตุผลที่ทำให้ได้รับการถือศักดิ์สิทธิ์โดยผู้คนที่อาศัยอยู่รอบภูเขา ทั้งกลุ่มชาวทิเบตบนที่สูงและชาวเนปาล ผู้ซึ่งเชื่อว่าเป็นที่สถิตของพระศิวะ, ด้วยเหตุนี้ รัฐบาลเนปาลจึงลังเลอย่างยิ่งที่จะออกใบอนุญาตให้ปีนเขาลงบนความลาดชันเหล่านี้</Text>		<!-- A near-vertical plane of rock extending upward from the Annapurna range of the Nepali Himalayas, Machapuchare has never been climbed. While it is not the height of Everest, standing only over 22,000 feet, it rises out of relatively low land, giving it a striking profile. This, perhaps, is the reason why it held sacred by peoples living around it, both by highland Tibetan groups and by Nepali people, who claim it to be the dwelling place of the god Shiva. For these reasons, the Nepali government is extremely reluctant to grant climbing permits for the slopes. -->

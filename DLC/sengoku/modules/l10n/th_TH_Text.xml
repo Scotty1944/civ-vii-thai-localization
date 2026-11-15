@@ -146,29 +146,32 @@
 			<Text>โชกุนาโต</Text>		<!-- Shogunate -->
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_SENGOKU_DESCRIPTION" Language="th_TH">
-			<Text>+1 [icon:YIELD_DIPLOMACY] อิทธิพล, +2[icon:YIELD_CULTURE] วัฒนธรรม และ +2[icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับทุก [icon:UNIT_ARMY_COMMANDER] ผู้บัญชาการ [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Commander[/TIP] ที่ได้รับ XP ในการต่อสู้
-			[B][icon:YIELD_CULTURE] วัฒนธรรม[/B] [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] จะไม่รับ ผลประโยชน์จาก การอยู่ชิด กับ [icon:CITY_UNIMPROVED] ภูมิประเทศภูเขา
-			[B][icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] จะไม่รับ ผลประโยชน์จาก การอยู่ชิด กับ [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]ทรัพยากร[/TIP]
-			[B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]ต่อการก่อสร้าง [B]Himeji Castle[/B]</Text>		<!-- +1 [icon:YIELD_DIPLOMACY] Influence, +2[icon:YIELD_CULTURE] Culture and +2[icon:YIELD_SCIENCE] Science for every [icon:UNIT_ARMY_COMMANDER] Army [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Commander[/TIP] XP earned in Combat.
+			<Text>+1 [icon:YIELD_DIPLOMACY] อิทธิพล, +2[icon:YIELD_CULTURE] วัฒนธรรม และ +2[icon:YIELD_SCIENCE] วิทยาศาสตร์ สำหรับทุก [icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]ผู้บัญชาการ[/TIP] ที่ได้รับ XP ในการต่อสู้
+			[B][icon:YIELD_CULTURE] วัฒนธรรม[/B] [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP][/B] จะไม่รับ ผลประโยชน์จาก การอยู่ชิด กับ [icon:CITY_UNIMPROVED] ภูมิประเทศภูเขา
+			[B][icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP][/B] จะไม่รับ ผลประโยชน์จาก การอยู่ชิด กับ [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]ทรัพยากร[/TIP]
+			[B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]ต่อการก่อสร้าง [B]ปราสาทฮิเมจิ[/B]</Text>		<!-- +1 [icon:YIELD_DIPLOMACY] Influence, +2[icon:YIELD_CULTURE] Culture and +2[icon:YIELD_SCIENCE] Science for every [icon:UNIT_ARMY_COMMANDER] Army [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Commander[/TIP] XP earned in Combat.
 			[B][icon:YIELD_CULTURE] Culture[/B] [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] no longer receive an Adjacency with [icon:CITY_UNIMPROVED] Mountain Terrain.
 			[B][icon:YIELD_SCIENCE] Science[/B] [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] no longer receive an Adjacency with [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resources[/TIP].
 			[B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Himeji Castle[/B]. -->
+			
 		</Replace>
 		<Replace Tag="LOC_TRAIT_SENGOKU_ABILITY_AQ_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI][B]+2[icon:YIELD_CULTURE] วัฒนธรรม และ +2[icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] ต่อทุก [B][icon:UNIT_ARMY_COMMANDER] Army[/B] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Commander[/TIP] XP earned in Combat,
-			[LI][B][icon:YIELD_CULTURE] วัฒนธรรม[/B] [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP][/B] จะไม่ได้รับผลเชื่อมโยงจาก [B][icon:CITY_UNIMPROVED] ภูมิประเทศภูเขา[/B],
+			<Text>[BLIST][LI][B]+2[icon:YIELD_CULTURE] วัฒนธรรม และ +2[icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] ต่อทุก [B][icon:UNIT_ARMY_COMMANDER][/B] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]ผู้บัญชาการ[/TIP] ที่ได้รับ XP ในการต่อสู้
+			[LI][B][icon:YIELD_CULTURE] วัฒนธรรม[/B] [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP][/B] จะไม่ได้รับผลเชื่อมโยงจาก [B][icon:CITY_UNIMPROVED] ภูมิประเทศภูเขา[/B]
 			[LI][B][icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP][/B] จะไม่ได้รับผลเชื่อมโยงจาก [B][icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]ทรัพยากร[/TIP][/B][/LIST]</Text>		<!-- [BLIST][LI][B]+2[icon:YIELD_CULTURE] Culture and +2[icon:YIELD_SCIENCE] Science[/B]  for every [B][icon:UNIT_ARMY_COMMANDER] Army[/B] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Commander[/TIP] XP earned in Combat.
 			[LI][B][icon:YIELD_CULTURE] Culture[/B] [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] no longer receive an Adjacency with [B][icon:CITY_UNIMPROVED] Mountain Terrain[/B].
 			[LI][B][icon:YIELD_SCIENCE] Science[/B] [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] no longer receive an Adjacency with [B][icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resources[/TIP][/B].[/LIST] -->
+			
 		</Replace>
 		<Replace Tag="LOC_TRAIT_SENGOKU_ABILITY_EX_DESCRIPTION" Language="th_TH">
-			<Text>[BLIST][LI][B]+1 [icon:YIELD_DIPLOMACY] อิทธิพล, +3[icon:YIELD_CULTURE] วัฒนธรรม และ +3[icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] ต่อ [B][icon:UNIT_ARMY_COMMANDER] กองทัพ[/B] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]ผู้บัญชาการ[/TIP] ทุกครั้งที่ได้รับ XP จากการต่อสู้
+			<Text>[BLIST][LI][B]+1 [icon:YIELD_DIPLOMACY] อิทธิพล, +3[icon:YIELD_CULTURE] วัฒนธรรม และ +3[icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] ต่อ [B][icon:UNIT_ARMY_COMMANDER][/B] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]ผู้บัญชาการ[/TIP] ทุกครั้งที่ได้รับ XP จากการต่อสู้
 			[LI][B][icon:YIELD_CULTURE] วัฒนธรรม[/B] [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP][/B] จะไม่ได้รับโบนัสการอยู่ใกล้จาก [B][icon:CITY_UNIMPROVED] ภูมิประเทศภูเขา[/B]
 			[LI][B][icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP][/B] จะไม่ได้รับโบนัสการอยู่ใกล้จาก [B][icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]ทรัพยากร[/TIP][/B]
-			[LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการก่อสร้าง [B]Himeji Castle[/B][/LIST]</Text>		<!-- [BLIST][LI][B]+1 [icon:YIELD_DIPLOMACY] Influence, +3[icon:YIELD_CULTURE] Culture and +3[icon:YIELD_SCIENCE] Science[/B]  for every [B][icon:UNIT_ARMY_COMMANDER] Army[/B] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Commander[/TIP] XP earned in Combat.
+			[LI][B]+30%[icon:YIELD_PRODUCTION] กำลังผลิต [/B]ในการก่อสร้าง [B]ปราสาทฮิเมจิ[/B][/LIST]</Text>		<!-- [BLIST][LI][B]+1 [icon:YIELD_DIPLOMACY] Influence, +3[icon:YIELD_CULTURE] Culture and +3[icon:YIELD_SCIENCE] Science[/B]  for every [B][icon:UNIT_ARMY_COMMANDER] Army[/B] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Commander[/TIP] XP earned in Combat.
 			[LI][B][icon:YIELD_CULTURE] Culture[/B] [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] no longer receive an Adjacency with [B][icon:CITY_UNIMPROVED] Mountain Terrain[/B].
 			[LI][B][icon:YIELD_SCIENCE] Science[/B] [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] no longer receive an Adjacency with [B][icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resources[/TIP][/B].
 			[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Himeji Castle[/B].[/LIST] -->
+			
 		</Replace>
 		<Replace Tag="LOC_TRAIT_SENGOKU_ABILITY_MO_DESCRIPTION" Language="th_TH">
 			<Text>[BLIST][LI][B] +2 [icon:YIELD_DIPLOMACY] อิทธิพล, +4[icon:YIELD_CULTURE] วัฒนธรรม และ +4[icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] ต่อ [B] [icon:UNIT_ARMY_COMMANDER] กรมทหาร [/B][TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]ผู้บังคับบัญชากรมทหาร[/TIP] ทุกครั้งที่ได้รับ XP ในการรบ,
@@ -176,6 +179,7 @@
 			[LI][B][icon:YIELD_SCIENCE] วิทยาศาสตร์[/B] [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]อาคาร[/TIP][/B] ไม่ได้รับผลอาศัยจากการอยู่ชิดกับ [B][icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]ทรัพยากร[/TIP][/B][/LIST]</Text>		<!-- [BLIST][LI][B] +2 [icon:YIELD_DIPLOMACY] Influence, +4[icon:YIELD_CULTURE] Culture and +4[icon:YIELD_SCIENCE] Science[/B]   for every [B] [icon:UNIT_ARMY_COMMANDER] Army [/B][TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Commander[/TIP] XP earned in Combat.
 			[LI][B][icon:YIELD_CULTURE] Culture[/B] [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] no longer receive an Adjacency with [B][icon:CITY_UNIMPROVED] Mountain Terrain[/B].
 			[LI][B][icon:YIELD_SCIENCE] Science[/B] [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] no longer receive an Adjacency with [B][icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resources[/TIP][/B].[/LIST] -->
+			
 		</Replace>
 		<Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_SENGOKU_DESCRIPTION" Language="th_TH">
 			<Text>+30% [icon:YIELD_PRODUCTION] กำลังผลิต จากการเป็น [icon:WONDER] สิ่งมหัศจรรย์ ที่เกี่ยวข้องกับ เซงโงคุ</Text>		<!-- +30% [icon:YIELD_PRODUCTION] Production from being the Sengoku's associated [icon:WONDER] Wonder. -->
@@ -277,7 +281,7 @@
 			<Text>ไม่ยกเลิกโบนัสของ [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] บนช่อง ต้องตั้งบน [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]พื้นที่พัฒนา[/TIP] ที่มีอยู่เดิม ไม่ชิดกับ Tea House อีกแห่ง และบน [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]Flat Terrain[/TIP],[N]Sengoku [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvement[/TIP]</Text>		<!-- Does not remove [TIP:LOC_PEDIA_CONCEPTS_WAREHOUSE_TOOLTIP]Warehouse[/TIP] bonuses on a tile. Must be placed on an existing [TIP:LOC_PEDIA_CONCEPTS_IMPROVEMENT_TOOLTIP]Improvement[/TIP] not adjacent to another Tea House and on [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]Flat Terrain[/TIP].[N]Sengoku [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvement[/TIP]. -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_HIMEJI_CASTLE_NAME" Language="th_TH">
-			<Text>ฮิเมจิ คาสเซิล</Text>		<!-- Himeji Castle -->
+			<Text>ปราสาทฮิเมจิ</Text>		<!-- Himeji Castle -->
 		</Replace>
 		<Replace Tag="LOC_WONDER_HIMEJI_CASTLE_DESCRIPTION" Language="th_TH">
 			<Text>+4 [icon:YIELD_CULTURE] ต่อ [icon:Action_Fortify] การเสริมกำลัง ที่อยู่ใน [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]ถิ่นฐาน[/TIP], +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] สำหรับ [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]เขตเสริมกำลัง[/TIP] ในทุก ถิ่นฐาน, ทำหน้าที่เป็น [icon:CITY_FORTIFIED] เขตเสริมกำลัง ที่ต้องถูกยึดครอง, [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]คงอยู่ตลอดกาล[/TIP], ต้องวางบน [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]พื้นผิวหยาบ[/TIP]</Text>		<!-- +4 [icon:YIELD_CULTURE] on [icon:Action_Fortify] Fortifications in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. +5 [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] for [icon:CITY_FORTIFIED] [TIP:LOC_PEDIA_CONCEPTS_FORTIFIED_DISTRICTS_TOOLTIP]Fortified Districts[/TIP] in all Settlements. Acts as a [icon:CITY_FORTIFIED] Fortified District that must be conquered. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be placed on [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]Rough Terrain[/TIP]. -->
@@ -343,7 +347,8 @@
 			<Text>ยูนิตซามูไรที่เพิ่งฝึกฝนใหม่ อยู่ในชั้นที่ 2</Text>		<!-- Newly trained Samurai are Tier 2. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_DAIMYO_NAME" Language="th_TH">
-			<Text>ไดเมียว</Text>		<!-- Daimyo -->
+			<Text>บุชิโด</Text>		<!-- Bushido -->
+			
 		</Replace>
 		<Replace Tag="LOC_TRADITION_DAIMYO_DESCRIPTION" Language="th_TH">
 			<Text>Land [TIP:LOC_PEDIA_CONCEPTS_MILITARY_UNIT_TOOLTIP]ยูนิตทหารบก[/TIP] ต่อสู้ราวกับมี [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] เต็มแม้จะ [icon:DAMAGED] เสียหาย</Text>		<!-- Land [TIP:LOC_PEDIA_CONCEPTS_MILITARY_UNIT_TOOLTIP]Military Units[/TIP] fight as though they were at full [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] even when [icon:DAMAGED] Damaged. -->
@@ -376,13 +381,15 @@
 			<Text>[B]+2 [icon:YIELD_PRODUCTION][/B] ต่อ ถิ่นฐาน ทุกแห่ง สำหรับแต่ละ [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]เส้นทางการค้า[/TIP] ที่มีการใช้งานอยู่, [B]+3[/B] [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]พลังต่อสู้[/TIP] แก่ ยูนิตภาคพื้นดิน ทุกยูนิต, [B]-25 [icon:YIELD_GOLD][/B] ใน [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]เมืองใหญ่[/TIP] ที่ไม่มี ยูนิต [TIP:LOC_PEDIA_CONCEPTS_GARRISONED_TOOLTIP]ประจำการ[/TIP]</Text>		<!-- [B]+2 [icon:YIELD_PRODUCTION][/B] in all [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] for each [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP] it has active. [B]+3[/B] [icon:NAR_REW_COMBAT] [TIP:LOC_PEDIA_CONCEPTS_COMBAT_STRENGTH_TOOLTIP]Combat Strength[/TIP] to all [TIP:LOC_PEDIA_CONCEPTS_LAND_UNITS_TOOLTIP]Land Units[/TIP]. [B]-25 [icon:YIELD_GOLD][/B] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] without a [TIP:LOC_PEDIA_CONCEPTS_GARRISONED_TOOLTIP]Garrisoned[/TIP] unit. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SENGOKU_SYNCRETISM_ANTIQUITY_NAME" Language="th_TH">
-			<Text>บุชิโด I</Text>		<!-- Bushido I -->
+			<Text>ไดเมียว I</Text>		<!-- Daimyo I -->
+			
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SENGOKU_SYNCRETISM_ANTIQUITY_DESCRIPTION" Language="th_TH">
 			<Text>[B]+1 [icon:YIELD_CULTURE][/B] ต่อ [icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]ผู้นำยุทธ์[/TIP] แต่ละระดับ, [icon:UNIT_ARMY_COMMANDER] ผู้นำกองทัพ ได้รับ [TIP:LOC_PEDIA_CONCEPTS_PROMOTION_TOOLTIP]การเลื่อนขั้น[/TIP] พิทักษ์เก่า โดยไม่เสียค่าใช้จ่าย</Text>		<!-- [B]+1 [icon:YIELD_CULTURE][/B] for every [icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Commander[/TIP] Level. [icon:UNIT_ARMY_COMMANDER] Army Commanders gain the Old Guard [TIP:LOC_PEDIA_CONCEPTS_PROMOTION_TOOLTIP]Promotion[/TIP] for free. -->
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SENGOKU_SYNCRETISM_MODERN_NAME" Language="th_TH">
-			<Text>บุชิโด II</Text>		<!-- Bushido II -->
+			<Text>ไดเมียว II</Text>		<!-- Daimyo II -->
+			
 		</Replace>
 		<Replace Tag="LOC_TRADITION_SENGOKU_SYNCRETISM_MODERN_DESCRIPTION" Language="th_TH">
 			<Text>[B]+1 [icon:YIELD_CULTURE][/B] และ [icon:YIELD_SCIENCE] ต่อ [icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]ระดับของผู้บัญชาการ[/TIP], [icon:UNIT_ARMY_COMMANDER] ผู้บัญชาการกองทัพ ได้รับ [TIP:LOC_PEDIA_CONCEPTS_PROMOTION_TOOLTIP]การเลื่อนขั้น[/TIP] Old Guard โดยไม่เสียค่าใช้จ่าย</Text>		<!-- [B]+1 [icon:YIELD_CULTURE][/B] and [icon:YIELD_SCIENCE] for every [icon:UNIT_ARMY_COMMANDER] [TIP:LOC_PEDIA_CONCEPTS_COMMANDER_TOOLTIP]Commander[/TIP] Level. [icon:UNIT_ARMY_COMMANDER] Army Commanders gain the Old Guard [TIP:LOC_PEDIA_CONCEPTS_PROMOTION_TOOLTIP]Promotion[/TIP] for free. -->

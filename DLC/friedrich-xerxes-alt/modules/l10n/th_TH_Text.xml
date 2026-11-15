@@ -2057,7 +2057,8 @@
 			<Text>กองทัพของเซิร์กซีส เปล่งประกายทองคำภายใต้ดวงอาทิตย์อันร้อนแรง ขณะที่จักรวรรดิที่ยิ่งใหญ่ล้มลงก่อนหน้าเขา</Text>		<!-- The armies of Xerxes gleam gold beneath the burning sun as empires fall before them. -->
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1189E_IMPERATIVE" Language="th_TH">
-			<Text>ทำ คะแนนอุดมการณ์ 1 คะแนน</Text>		<!-- Score an Ideology Point. -->
+			<Text>ยึด ถิ่นฐาน</Text>		<!-- Capture a Settlement. -->
+			
 		</Replace>
 		<Replace Tag="LOC_LEADER_CHAIN_1189F_STORYTITLE" Language="th_TH">
 			<Text>ระเบียบใหม่</Text>		<!-- A New Order -->
@@ -2102,6 +2103,7 @@
 			<Text>ในฐานะ ฟริดริช เข้าถึง การอุทิศทางวัฒนธรรม ยุคสำรวจ ใบใหม่:[n]
 				+15% วัฒนธรรม, -10% วิทยาศาสตร์</Text>		<!-- As Friedrich, access a new Exploration Dedication:[n]
 				+15% Culture, -10% Science -->
+			
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_FRIEDRICH_BAROQUE_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>การอุทิศทางทหารยุคสำรวจ</Text>		<!-- Exploration Militaristic Dedication -->
@@ -2110,6 +2112,7 @@
 			<Text>ในฐานะ ฟรีดริช เข้าถึง การอุทิศ ยุคสำรวจใบใหม่:[n]
 				+3 พลังต่อสู้ สำหรับยูนิตเรือ, -10% อิทธิพล</Text>		<!-- As Friedrich, access a new Exploration Dedication:[n]
 				+3 Combat Strength for your Naval Units, -10% Influence -->
+			
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_FRIEDRICH_BAROQUE_MODERN_1_NAME" Language="th_TH">
 			<Text>การอุทิศทางวัฒนธรรม ยุคใหม่</Text>		<!-- Modern Cultural Dedication -->
@@ -2118,6 +2121,7 @@
 			<Text>ในฐานะ ฟรีดริช เข้าถึง การอุทิศยุคใหม่:[n]  
 				+15% วัฒนธรรม, -10% วิทยาศาสตร์</Text>		<!-- As Friedrich, access a new Modern Dedication:[n]
 				+15% Culture, -10% Science -->
+			
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_FRIEDRICH_BAROQUE_MODERN_2_NAME" Language="th_TH">
 			<Text>การอุทิศทางทหาร สมัยใหม่</Text>		<!-- Modern Militaristic Dedication -->
@@ -2126,6 +2130,7 @@
 			<Text>ในฐานะ ฟรีดริช เข้าถึง การอุทิศ ยุคใหม่:[n]  
 				+3 พลังต่อสู้ สำหรับ ยูนิตทางอากาศ , -10% อิทธิพล</Text>		<!-- As Friedrich, access a new Modern Dedication:[n]
 				+3 Combat Strength for your Air Units, -10% Influence -->
+			
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_FRIEDRICH_BAROQUE_L1_NAME" Language="th_TH">
 			<Text>โหนดคุณลักษณะทางวัฒนธรรม</Text>		<!-- Cultural Attribute Node -->
@@ -2158,14 +2163,16 @@
 			<Text>ในฐานะ เซิร์กซีส ได้รับ การอุทิศ สำรวจ:[n]
 				+15% วัฒนธรรม, -10% วิทยาการ</Text>		<!-- As Xerxes, access a new Exploration Dedication:[n]
 				+15% Culture, -10% Science -->
+			
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_XERXES_ACHAEMENID_EXPLORATION_2_NAME" Language="th_TH">
 			<Text>การอุทิศทางเศรษฐกิจ ยุคสำรวจ</Text>		<!-- Exploration Economic Dedication -->
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_XERXES_ACHAEMENID_EXPLORATION_2_DESCRIPTION" Language="th_TH">
-			<Text>ในฐานะ เซิร์กซีส เข้าถึง การอุทิศ ยุคสำรวจใหม่:[n]  
+			<Text>ในฐานะ เซิร์กซีส เข้าถึง การอุทิศ ยุคสำรวจ ใหม่:[n]  
 				+15% ทอง, -10% อาหาร</Text>		<!-- As Xerxes, access a new Exploration Dedication:[n]
 				+15% Gold, -10% Food -->
+			
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_XERXES_ACHAEMENID_MODERN_1_NAME" Language="th_TH">
 			<Text>การอุทิศทางวัฒนธรรม ยุคใหม่</Text>		<!-- Modern Cultural Dedication -->
@@ -2174,6 +2181,7 @@
 			<Text>ในฐานะ เซิร์กซีส เข้าถึง การอุทิศสมัยใหม่:[n]
 				+15% วัฒนธรรม, -10% วิทยาการ</Text>		<!-- As Xerxes, access a new Modern Dedication:[n]
 				+15% Culture, -10% Science -->
+			
 		</Replace>
 		<Replace Tag="LOC_STRATEGYCARD_XERXES_ACHAEMENID_MODERN_2_NAME" Language="th_TH">
 			<Text>การอุทิศเศรษฐกิจ ยุคใหม่</Text>		<!-- Modern Economic Dedication -->
@@ -2182,6 +2190,7 @@
 			<Text>ในฐานะ เซอร์ซีส เข้าถึง การอุทิศสมัยใหม่:[n]  
 				+15% ทอง, -10% อาหาร</Text>		<!-- As Xerxes, access a new Modern Dedication:[n]
 				+15% Gold, -10% Food -->
+			
 		</Replace>
 		<Replace Tag="LOC_ATTRIBUTENODE_XERXES_ACHAEMENID_L1_NAME" Language="th_TH">
 			<Text>โหนดคุณลักษณะทางวัฒนธรรม</Text>		<!-- Cultural Attribute Node -->
