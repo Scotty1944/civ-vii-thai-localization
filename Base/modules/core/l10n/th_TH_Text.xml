@@ -329,13 +329,13 @@
 			<Text>การเลือกอารยธรรมจากยุค {1_AgeName} จะเปิดใช้งาน บททดสอบแห่งกาลเวลา</Text>		<!-- Choosing a Civilization from the {1_AgeName} Age will enable Test of Time. -->
 		</Replace>
 		<Replace Tag="LOC_UI_CREATE_GAME_THROUGH_THE_AGES" Language="th_TH">
-			<Text>ผ่าน[n]ยุคสมัย</Text>		<!-- Through[n]The Ages -->
+			<Text>ข้ามผ่าน[n]ยุคสมัย</Text>		<!-- Through[n]The Ages -->
 		</Replace>
 		<Replace Tag="LOC_UI_CREATE_GAME_UNLOCKED_WITH" Language="th_TH">
 			<Text>ปลดล็อกด้วย {1_Civic}</Text>		<!-- Unlocked With {1_Civic} -->
 		</Replace>
 		<Replace Tag="LOC_UI_CREATE_GAME_NAME_AGE_CIVILIZATION" Language="th_TH">
-			<Text>{1_CivAgeName} ยุคอารยธรรม</Text>		<!-- {1_CivAgeName} Age Civilization -->
+			<Text>อารยธรรม ยุค{1_CivAgeName}</Text>		<!-- {1_CivAgeName} Age Civilization -->
 		</Replace>
 		<Replace Tag="LOC_UI_CREATE_GAME_MAP_OPTIONS_DESCRIPTION" Language="th_TH">
 			<Text>โลเรม อิปซัม ดอลอร์ ซิต อาเมต, คอนเซ็กเทตูร์ อาดิพิซซิ่ง เอลิท, เซด โด อีอุสม็อด เทมพอร์</Text>		<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. -->
@@ -5768,7 +5768,7 @@
 			<Text>ตัวเลือกยูนิต</Text>		<!-- Units Option -->
 		</Replace>
 		<Replace Tag="LOC_CREATE_GAME_UNLOCK_ITEM_SYNCRETISM" Language="th_TH">
-			<Text>• [STYLE:faux-tooltip][B]{1_UnlockName} [/B][/STYLE]ใน[ B]{2_AgeName} [/B]ยุค</Text>		<!-- • [STYLE:faux-tooltip][B]{1_UnlockName} [/B][/STYLE]in the [B]{2_AgeName} [/B]age. -->
+			<Text>• [STYLE:faux-tooltip][B]{1_UnlockName} [/B][/STYLE]ใน [B]ยุค{2_AgeName}[/B]</Text>		<!-- • [STYLE:faux-tooltip][B]{1_UnlockName} [/B][/STYLE]in the [B]{2_AgeName} [/B]age. -->
 		</Replace>
 		<Replace Tag="LOC_JOIN_GAME_CROSSPLAY_DISABLED_AA" Language="th_TH">
 			<Text>คุณไม่สามารถเข้าร่วมเกมข้ามแพลตฟอร์มได้</Text>		<!-- You cannot join Crossplay games. -->
