@@ -22,8 +22,7 @@
 			<AgeInUse>AGE_EXPLORATION</AgeInUse>
 		</Criteria>
 		<Criteria id="exploration-age-persist" any="true">
-			<AgeInUse>AGE_EXPLORATION</AgeInUse>
-			<AgeInUse>AGE_MODERN</AgeInUse>
+			<AgeAtOrBefore>AGE_EXPLORATION</AgeAtOrBefore>
 		</Criteria>
 		<Criteria id="modern-age-current">
 			<AgeInUse>AGE_MODERN</AgeInUse>

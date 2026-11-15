@@ -22,9 +22,7 @@
 			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
 		<Criteria id="antiquity-age-persist" any="true">
-			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
-			<AgeInUse>AGE_EXPLORATION</AgeInUse>
-			<AgeInUse>AGE_MODERN</AgeInUse>
+			<AgeAtOrBefore>AGE_ANTIQUITY</AgeAtOrBefore>
 		</Criteria>
 		<Criteria id="joseon-current-shell">
 			<ModInUse>joseon</ModInUse>
@@ -153,15 +151,14 @@
 					<Item>l10n/zh_Hant_HK/wilco_civ_antiquity_silla_legacy_science.vtt</Item>
 				</ImportFiles>
 			
-				<ImportFiles locale="th_TH">
+			<ImportFiles locale="th_TH">
 					<Item>l10n/th_TH/loading_civ_antiquity_silla.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_antiquity_silla_defeat.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_antiquity_silla_legacy_culture.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_antiquity_silla_legacy_economic.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_antiquity_silla_legacy_military.vtt</Item>
 					<Item>l10n/th_TH/wilco_civ_antiquity_silla_legacy_science.vtt</Item>
-				</ImportFiles>
-			</Actions>
+				</ImportFiles></Actions>
 		</ActionGroup>
 		<ActionGroup id="silla-text" scope="game" criteria="always">
 			<Actions>
@@ -197,8 +194,7 @@
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 				
-					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-				</UpdateText>
+				<Item locale="th_TH">l10n/th_TH_Text.xml</Item></UpdateText>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="base-game-main-silla" scope="game" criteria="always">
@@ -310,8 +306,7 @@
 					<Item locale="zh_Hans_CN">l10n/zh_Hans_CN_Text.xml</Item>
 					<Item locale="zh_Hant_HK">l10n/zh_Hant_HK_Text.xml</Item>
 				
-					<Item locale="th_TH">l10n/th_TH_Text.xml</Item>
-				</UpdateText>
+				<Item locale="th_TH">l10n/th_TH_Text.xml</Item></UpdateText>
 			</Actions>
 		</ActionGroup>
 	</ActionGroups>
