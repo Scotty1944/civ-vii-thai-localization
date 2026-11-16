@@ -82,6 +82,10 @@
 
 ![kudo](https://i.imgur.com/UtUfzqu.jpeg)
 
+## ⭐ Donation
+- Ploy Saranpao (ขอขอบคุณที่สนับสนุน DLC ล่าสุดให้)
+- Tepushirin Kumi
+
 ## 🪪 License
 ไม่อนุญาติให้นำไปขายต่อใดๆทั้งสิ้น โปรเจกต์นี้จัดทำเพื่อสาธารณะทุกคนควรได้โหลดฟรี
 
