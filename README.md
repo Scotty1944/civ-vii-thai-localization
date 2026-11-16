@@ -70,6 +70,10 @@
 5. ถ้าไม่มีปัญหาอะไรจะมีข้อความขึ้นว่า 'Base and DLC folders have been copied and replaced successfully!'
 6. เข้าไปในเกมแล้วเปลี่ยนภาษาเป็น 'ไทย (Thai)' ก็น่าจะเป็นอันใช้งานได้แล้ว
 
+## ⭐ Donation
+- Ploy Saranpao (ขอขอบคุณที่สนับสนุน DLC ล่าสุดให้)
+- Tepushirin Kumi
+  
 ## 🪙 Credits
 
 - **Project Lead**: Scotty1944
