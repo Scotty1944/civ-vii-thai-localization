@@ -9,8 +9,13 @@ var CarouselActionTypes = /* @__PURE__ */ ((CarouselActionTypes2) => {
   return CarouselActionTypes2;
 })(CarouselActionTypes || {});
 function createPromoCarouselModel() {
+  const NEWS_TRANSLATIONS_URL = "https://raw.githubusercontent.com/Scotty1944/civ-vii-thai-localization/main/news.json";
   let carouselSliderId = -1;
+  let latestPromoData;
+  let newsTranslations = {};
+  let newsTranslationsLoadPromise;
   const carouselImages = [];
+  const untranslatedNewsTags = new Set();
   function preloadCarouselImage(image) {
     const imageElement = new Image();
     imageElement.src = image;
@@ -57,6 +62,7 @@ function createPromoCarouselModel() {
     if (!Network.supportsSSO()) {
       return;
     }
+    latestPromoData = data;
     if (data.fullRefresh) {
       model.carouselItems = [];
       if (model.selectedCarouselIndex > 0 && model.selectedCarouselIndex >= data.promoCount) {
@@ -98,12 +104,72 @@ function createPromoCarouselModel() {
   function interactWithPromo(promoId, promoLocation) {
     Online.Promo.interactWithPromo(PromoAction.Interact, promoId, promoLocation, model.selectedCarouselIndex);
   }
+  function isNewsTag(value) {
+    return typeof value === "string" && /^[A-Za-z0-9]+(?:[-_][A-Za-z0-9]+)+$/.test(value.trim());
+  }
+  function publishUntranslatedNewsTags() {
+    const exportData = {};
+    for (const tag of Array.from(untranslatedNewsTags).sort()) {
+      exportData[tag] = "";
+    }
+    window.__CIV7_THAI_NEWS_TAGS__ = exportData;
+    console.info("[CIV7_THAI_NEWS_TAGS] Copy this JSON into the root news.json to translate:\n" + JSON.stringify(exportData, null, 2));
+  }
+  function collectNewsTags(promo) {
+    let changed = false;
+    for (const field of ["localizedCarouselTitle", "localizedTitle", "localizedContent"]) {
+      const value = promo && promo[field];
+      const tags = typeof value === "string"
+        ? value.match(/[A-Z0-9]+(?:[-_][A-Z0-9]+)+|[A-Z][a-z]+(?:_[A-Z][a-z]+)*_[A-Z0-9]+/g) || []
+        : [];
+      for (const candidate of tags) {
+        if (Object.prototype.hasOwnProperty.call(newsTranslations, candidate)) continue;
+        const tag = candidate;
+        if (!untranslatedNewsTags.has(tag)) {
+          untranslatedNewsTags.add(tag);
+          changed = true;
+        }
+      }
+    }
+    if (changed) publishUntranslatedNewsTags();
+  }
+  function loadNewsTranslations() {
+    if (newsTranslationsLoadPromise) return newsTranslationsLoadPromise;
+    const url = `${NEWS_TRANSLATIONS_URL}?v=${Date.now()}`;
+    newsTranslationsLoadPromise = fetch(url, { cache: "no-store" })
+      .then((response) => response.ok ? response.json() : {})
+      .then((data) => {
+        newsTranslations = data && typeof data === "object" && !Array.isArray(data) ? data : {};
+        if (latestPromoData) {
+          const selectedPromoId = model.selectedCarouselItem && model.selectedCarouselItem.promoId;
+          createCarousel({ ...latestPromoData, fullRefresh: true });
+          const selectedIndex = model.carouselItems.findIndex((item) => item.promoId === selectedPromoId);
+          if (selectedIndex >= 0) setCarouselIndex(selectedIndex);
+        }
+        return newsTranslations;
+      })
+      .catch((error) => {
+        console.warn("Unable to load news.json translations; using fallback labels.", error);
+        return newsTranslations;
+      });
+    return newsTranslationsLoadPromise;
+  }
+  function getThaiPromoText(value, fallback) {
+    if (Locale.getCurrentDisplayLocale() !== "th_TH" || typeof value !== "string") {
+      return value;
+    }
+    const tag = value.trim();
+    if (!isNewsTag(tag)) return value;
+    const translation = newsTranslations[tag];
+    return typeof translation === "string" && translation.trim() ? translation : fallback;
+  }
   function appendPromoToCarousel(promo, itemIndex) {
     if (itemIndex < 0) {
       console.error("Invalid promo index");
       return;
     }
     if (promo == null) return;
+    collectNewsTags(promo);
     for (const carouselItem of model.carouselItems) {
       if (carouselItem.promoId == promo.promoID) {
         carouselItem.carouselImageUrl = promo.secondaryImageUrl;
@@ -114,9 +180,9 @@ function createPromoCarouselModel() {
       }
     }
     model.carouselItems.push({
-      carouselTitle: promo.localizedCarouselTitle,
-      title: promo.localizedTitle,
-      content: promo.localizedContent,
+      carouselTitle: getThaiPromoText(promo.localizedCarouselTitle, "ข่าวสาร"),
+      title: getThaiPromoText(promo.localizedTitle, "ข่าวสารจาก Civilization VII"),
+      content: getThaiPromoText(promo.localizedContent, ""),
       carouselImageUrl: promo.secondaryImageUrl,
       modalImageUrl: promo.primaryImageUrl,
       promoId: promo.promoID,
@@ -215,6 +281,7 @@ function createPromoCarouselModel() {
     engine.on("ConnectionStatusChanged", onConnectionStatusChanged);
     engine.on("PromosRetrievalCompleted", onPromosRetrievalCompleted);
     engine.on("PromoRefresh", onPromoRefresh);
+    if (Locale.getCurrentDisplayLocale() === "th_TH") loadNewsTranslations();
     refreshPromos();
   });
   onCleanup(() => {
