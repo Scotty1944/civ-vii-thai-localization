@@ -9,11 +9,13 @@ var CarouselActionTypes = /* @__PURE__ */ ((CarouselActionTypes2) => {
   return CarouselActionTypes2;
 })(CarouselActionTypes || {});
 function createPromoCarouselModel() {
-  const NEWS_TRANSLATIONS_URL = "https://raw.githubusercontent.com/Scotty1944/civ-vii-thai-localization/main/news.json";
+  const NEWS_TRANSLATIONS_URL = "fs://game/core/ui/shell/main-menu/news.json";
   let carouselSliderId = -1;
+  let newsTranslationsTimer = -1;
   let latestPromoData;
   let newsTranslations = {};
   let newsTranslationsLoadPromise;
+  let lastNewsTranslationsText;
   const carouselImages = [];
   const untranslatedNewsTags = new Set();
   function preloadCarouselImage(image) {
@@ -65,8 +67,12 @@ function createPromoCarouselModel() {
     latestPromoData = data;
     if (data.fullRefresh) {
       model.carouselItems = [];
-      if (model.selectedCarouselIndex > 0 && model.selectedCarouselIndex >= data.promoCount) {
-        setCarouselIndex(data.promoCount - 1);
+      if (data.promoCount === 0) {
+        model.selectedCarouselIndex = 0;
+        model.selectedCarouselItem = void 0;
+        model.carouselImage = "url('blp:carousel_default')";
+      } else if (model.selectedCarouselIndex > 0 && model.selectedCarouselIndex >= data.promoCount) {
+        model.selectedCarouselIndex = 0;
       }
     }
     let bootItemIndex = -1;
@@ -83,7 +89,7 @@ function createPromoCarouselModel() {
       setCarouselIndex(bootItemIndex);
       model.bootLoaded = true;
       showExpandedCarousel();
-    } else if (data.fullRefresh) {
+    } else if (data.fullRefresh && model.carouselItems.length > 0) {
       setCarouselIndex(0);
     }
     resetCarouselSlider();
@@ -113,7 +119,7 @@ function createPromoCarouselModel() {
       exportData[tag] = "";
     }
     window.__CIV7_THAI_NEWS_TAGS__ = exportData;
-    console.info("[CIV7_THAI_NEWS_TAGS] Copy this JSON into the root news.json to translate:\n" + JSON.stringify(exportData, null, 2));
+    console.info("[CIV7_THAI_NEWS_TAGS] Add these keys to core/ui/shell/main-menu/news.json to translate:\n" + JSON.stringify(exportData, null, 2));
   }
   function collectNewsTags(promo) {
     let changed = false;
@@ -135,12 +141,28 @@ function createPromoCarouselModel() {
   }
   function loadNewsTranslations() {
     if (newsTranslationsLoadPromise) return newsTranslationsLoadPromise;
-    const url = `${NEWS_TRANSLATIONS_URL}?v=${Date.now()}`;
-    newsTranslationsLoadPromise = fetch(url, { cache: "no-store" })
-      .then((response) => response.ok ? response.json() : {})
-      .then((data) => {
-        newsTranslations = data && typeof data === "object" && !Array.isArray(data) ? data : {};
-        if (latestPromoData) {
+    newsTranslationsLoadPromise = new Promise((resolve, reject) => {
+      const request = new XMLHttpRequest();
+      request.onload = () => {
+        if (request.status === 0 || request.status === 200) resolve(request.responseText);
+        else reject(new Error(`Unable to load news translations: ${request.status}`));
+      };
+      request.onerror = () => reject(new Error("Unable to load news translations"));
+      request.onabort = () => reject(new Error("News translations request aborted"));
+      request.ontimeout = () => reject(new Error("News translations request timed out"));
+      request.open("GET", NEWS_TRANSLATIONS_URL);
+      request.timeout = 1e4;
+      request.send();
+    })
+      .then((text) => {
+        if (text === lastNewsTranslationsText) return newsTranslations;
+        const data = JSON.parse(text);
+        if (!data || typeof data !== "object" || Array.isArray(data)) {
+          throw new Error("Invalid news translations");
+        }
+        newsTranslations = data;
+        lastNewsTranslationsText = text;
+        if (latestPromoData && latestPromoData.promoCount > 0) {
           const selectedPromoId = model.selectedCarouselItem && model.selectedCarouselItem.promoId;
           createCarousel({ ...latestPromoData, fullRefresh: true });
           const selectedIndex = model.carouselItems.findIndex((item) => item.promoId === selectedPromoId);
@@ -151,6 +173,9 @@ function createPromoCarouselModel() {
       .catch((error) => {
         console.warn("Unable to load news.json translations; using fallback labels.", error);
         return newsTranslations;
+      }).then((translations) => {
+        newsTranslationsLoadPromise = void 0;
+        return translations;
       });
     return newsTranslationsLoadPromise;
   }
@@ -172,6 +197,9 @@ function createPromoCarouselModel() {
     collectNewsTags(promo);
     for (const carouselItem of model.carouselItems) {
       if (carouselItem.promoId == promo.promoID) {
+        carouselItem.carouselTitle = getThaiPromoText(promo.localizedCarouselTitle, "ข่าวสาร");
+        carouselItem.title = getThaiPromoText(promo.localizedTitle, "ข่าวสารจาก Civilization VII");
+        carouselItem.content = getThaiPromoText(promo.localizedContent, "");
         carouselItem.carouselImageUrl = promo.secondaryImageUrl;
         carouselItem.modalImageUrl = promo.primaryImageUrl;
         carouselItem.isInteractable = promo.isInteractable;
@@ -281,10 +309,14 @@ function createPromoCarouselModel() {
     engine.on("ConnectionStatusChanged", onConnectionStatusChanged);
     engine.on("PromosRetrievalCompleted", onPromosRetrievalCompleted);
     engine.on("PromoRefresh", onPromoRefresh);
-    if (Locale.getCurrentDisplayLocale() === "th_TH") loadNewsTranslations();
+    if (Locale.getCurrentDisplayLocale() === "th_TH") {
+      loadNewsTranslations();
+      newsTranslationsTimer = setInterval(loadNewsTranslations, 60e3);
+    }
     refreshPromos();
   });
   onCleanup(() => {
+    clearInterval(newsTranslationsTimer);
     engine.off("ConnectionStatusChanged", onConnectionStatusChanged);
     engine.off("PromosRetrievalCompleted", onPromosRetrievalCompleted);
     engine.off("PromoRefresh", onPromoRefresh);
