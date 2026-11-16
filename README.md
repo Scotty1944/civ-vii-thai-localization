@@ -70,6 +70,10 @@
 5. ถ้าไม่มีปัญหาอะไรจะมีข้อความขึ้นว่า 'Base and DLC folders have been copied and replaced successfully!'
 6. เข้าไปในเกมแล้วเปลี่ยนภาษาเป็น 'ไทย (Thai)' ก็น่าจะเป็นอันใช้งานได้แล้ว
 
+## ⭐ Donation
+- Ploy Saranpao (ขอขอบคุณที่สนับสนุน DLC ล่าสุดให้)
+- Tepushirin Kumi
+  
 ## 🪙 Credits
 
 - **Project Lead**: Scotty1944
@@ -81,10 +85,6 @@
 หากสนใจซื้อ อาหารบาร์ฟ แสกนได้ทาง QR ด้านล่างนะคร้าบ
 
 ![kudo](https://i.imgur.com/UtUfzqu.jpeg)
-
-## ⭐ Donation
-- Ploy Saranpao (ขอขอบคุณที่สนับสนุน DLC ล่าสุดให้)
-- Tepushirin Kumi
 
 ## 🪪 License
 ไม่อนุญาติให้นำไปขายต่อใดๆทั้งสิ้น โปรเจกต์นี้จัดทำเพื่อสาธารณะทุกคนควรได้โหลดฟรี
